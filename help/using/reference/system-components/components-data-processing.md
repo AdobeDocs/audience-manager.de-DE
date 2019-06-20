@@ -1,0 +1,66 @@
+---
+description: Zu den Datenverarbeitungskomponenten gehören Hadoop, Snowflake, SOLR und Tableau.
+seo-description: Zu den Datenverarbeitungskomponenten gehören Hadoop, Snowflake, SOLR und Tableau.
+seo-title: Datenverarbeitungskomponenten
+solution: Audience Manager
+title: Datenverarbeitungskomponenten
+uuid: d 458 d 869-7 a 23-4016-871 d -0 b 994 cf 4 af 06
+translation-type: tm+mt
+source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+
+---
+
+
+# Datenverarbeitungskomponenten{#data-processing-components}
+
+Zu den Datenverarbeitungskomponenten gehören Hadoop, Snowflake, SOLR und Tableau.
+
+<!-- 
+
+c_comproc.xml
+
+ -->
+
+Audience Manager verwendet die folgenden Komponenten zum Verarbeiten von Daten:
+
+## Hadoop {#hadoop}
+
+In [!DNL Audience Manager]Hadoop ist Hadoop die Master-Datenbank, die alle [!DNL Audience Manager] Informationen über einen Benutzer enthält. Wenn die [Profil-Cache-Server beispielsweise Protokolldateien](../../reference/system-components/components-data-collection.md) erstellen, die Daten zu Ihren Benutzern enthalten, werden diese Daten zum Speichern an Hadoop gesendet. Weitere wichtige Hadoop-Elemente:
+
+* **Hive:** Ein Data Warehouse für Hadoop. Hive verwaltet Ad-hoc-Abfragen auf die in Hadoop gespeicherten Daten.
+
+* **Hbase:** Eine sehr große Hadoop-Datenbank. Sie verarbeitet und verwaltet eingehende und ausgehende Daten, Eigenschaftsregeln, algorithmische Modellinformationen und führt viele weitere Funktionen durch, mit denen Daten auf verschiedene Systeme gespeichert und verschoben werden.
+
+Kunden haben keinen direkten Zugriff auf diese Systeme. Kunden arbeiten jedoch indirekt daran, da diese Komponenten wichtige Daten über ihre Site-Besucher speichern.
+
+## Schneeflocke {#snowflake}
+
+[Snowflake](https://www.snowflake.net/) ist eine umfangreiche Cloud-Datenbank. Es stellt Daten für viele Dashboard-Diagramme und zugehörige Textfelder bereit, die die % Änderung für jedes Element im Diagramm anzeigen. Wenn Sie die Dashboard-Berichte verwenden [!DNL Audience Manager] und betrachten, interagieren Sie mit den von [!UICONTROL Snowflake]Ihnen bereitgestellten Daten.
+
+
+
+![](assets/dashboardreport.png)
+
+Dies ist keinesfalls eine umfassende Liste, aber einige gängige Dashboard-Berichte, die [!UICONTROL Snowflake] für Folgendes verantwortlich sind:
+
+* [Bericht zu täglichen Eigenschaften](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Bereitstellung und Leistungsbericht](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
+* Alle Überlappungsberichte (siehe Abschnitt [Interaktive Berichte](/help/using/reporting/dynamic-reports/dynamic-reports.md) finden Sie Informationen zu jedem Überlappungsbericht).
+* [Bericht zu nicht verwendeten Signalen](/help/using/reporting/dynamic-reports/unused-signals.md)
+
+## SOLR {#solr}
+
+SOLR ist eine Open Source-Datenbank und ein Serversystem aus Apache. Es bietet robuste und schnelle Suchfunktionen über unsere großen Datensätze. Als [!DNL Audience Manager] Kunde können Sie die SOLR in Aktion sehen, wenn Sie Segmente erstellen. Er stellt Daten für den [!UICONTROL Estimated Historic Segment Size] Bericht bereit. SOLR ist aufgrund seiner Geschwindigkeit ideal für diese Rolle. Beispielsweise kann SOLR die historischen Größendaten beim Erstellen von Regeln aktualisieren und einem Segment neue Eigenschaften hinzufügen.
+
+
+
+![](assets/audsize.png)
+
+## Tableau {#tableau}
+
+[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) , um Daten in den [interaktiven Berichten](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) und den [Zielgruppenoptimierungsberichten anzuzeigen](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Die interaktiven Berichte zeigen Leistungs- und Überlappungsdaten für Eigenschaften und Segmente an. Statt Zahlen in Spalten und Zeilen zu verwenden, werden Daten mit unterschiedlichen Formen, Farben und Größen zurückgegeben. Darüber hinaus können Sie für weitere Details einzelne Datenpunkte oder Datengruppen im Drilldown-Verfahren auswählen. Diese Visualisierungstechniken und Interaktivitätsinteraktivität erleichtern die Verständlichkeit von numerischen Daten.
+
+
+
+![](assets/advertiser_analytics.png)
+
