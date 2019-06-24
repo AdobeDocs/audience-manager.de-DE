@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zur Datenaufnahme in eingehende Kunden
 uuid: 491 e 9 ec 1-4731-46 a 8-86 e 7-d 8 c 613 e 6 cedc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -194,7 +194,6 @@ Die folgenden Anwendungsfälle zeigen, wie diese Dateitypen gespeicherte Besuche
 Weitere Informationen zu vollständigen und inkrementellen Dateitypen finden Sie unter:
 
 * [Anforderungen an Name und Dateigröße von Amazon S 3 für eingehende Daten…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Anforderungen an FTP-Name und Dateigröße für Inbound-Datendateien…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br> 
 
@@ -209,7 +208,7 @@ During processing, [!DNL Audience Manager] simply skips that record and moves on
 Zeitstempel werden für die Protokollierung und Aufzeichnung verwendet. Sie sind für die Syntax erforderlich, die für einen ordnungsgemäß formatierten Dateinamen verwendet wird. Siehe:
 
 * [Namensanforderungen von Amazon S3 für Inbound-Datendateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Anforderungen an FTP-Name und Dateigröße für Inbound-Datendateien…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
@@ -231,7 +230,7 @@ Ja, siehe:
 
 * [Dateikomprimierung für Dateien mit Inbound-Datenübertragung](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [Namensanforderungen von Amazon S3 für Inbound-Datendateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [FTP-Namensanforderungen für Inbound-Datendateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
