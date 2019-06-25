@@ -6,18 +6,18 @@ solution: Audience Manager
 title: Segmente, Zusammensetzung und Regeln
 uuid: 886 d 4 abe-b 1 b 6-4983-b 4 fb-b 552 d 54 d 51 ba
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
 
-# Segmente: Zweck, Zusammensetzung und Regeln {#segments-purpose-composition-and-rules}
+# Segments: Purpose, Composition, and Rules {#segments-purpose-composition-and-rules}
 
 Describes segments, their constituent parts, and rule creation with [!UICONTROL Segment Builder].
 
 ## Zweck von Segmenten
 
-A *`segment`* (oder) *`audience`*ist eine Gruppe von Benutzern, die gemeinsame Attribute verwenden. In Audience Manager erstellen Sie Segmente mit serverseitigen Regeln. Mit diesen Regeln können Sie Zielgruppen anhand der Attribute der Site-Besucher erstellen, z. B.:
+A *`segment`* (or an *`audience`*) is a set of users who share common attributes. In Audience Manager erstellen Sie Segmente mit serverseitigen Regeln. Mit diesen Regeln können Sie Zielgruppen anhand der Attribute der Site-Besucher erstellen, z. B.:
 
 * Verhalten;
 * Demografie (Alter, Geschlecht, Einkommen usw.);
@@ -27,13 +27,17 @@ A *`segment`* (oder) *`audience`*ist eine Gruppe von Benutzern, die gemeinsame A
 
 Ein Audience Manager-Segment ist eine serverseitige Regel, die aus einzelnen Eigenschaften oder Gruppen von Eigenschaften besteht. Eigenschaften bestehen aus Datenelementen mit Schlüssel-Wert-Paaren. Zusammen mit Regeln, die Sie auf Segmentebene festlegen, enthalten diese Schlüssel/Wert-Paare die Kriterien, die Besucher für Eigenschaften und Segmentmitgliedschaft qualifizieren.
 
+## Überlegungen zur Adobe Analytics-Segmentzuordnung
+
+Wenn Sie Adobe Analytics-Segmente oder Report Suites Ihrer Experience Cloud-Organisation zuordnen, erstellt Audience Manager automatisch neue, entsprechende, schreibgeschützte Segmente und Eigenschaften. Sie können den Speicherort dieser Segmente nicht über Audience Manager bearbeiten oder ändern. Alle Änderungen, die Sie an Ihren zugeordneten Adobe Analytics-Segmenten oder Report Suites vornehmen, werden jedoch in Audience Manager übernommen.
+
 >[!TIP]
 >
->Audience Manager-Segmente unterscheiden sich von [!DNL Adobe Analytics] Segmenten. Lesen [Sie die Segmente in Analytics und Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) , um eine ausführliche Beschreibung der Unterschiede zu erhalten.
+>Audience Manager segments are different from [!DNL Adobe Analytics] segments. Read [Understanding Segments in Analytics and Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) for an in-depth description of the differences.
 
 ## Regelbasierte Segmente mit Segmentaufbau erstellen
 
-Im Gegensatz zu herkömmlichen Pixeln, die als Reaktion auf einfache Ja/keine Bedingungen ausgelöst werden, können Sie mit Segmentaufbau komplexe Segmentanforderungen erstellen. Wie Eigenschaften bewerten Segmente Daten mit [!DNL Boolean] Ausdrücken ([!DNL AND][!DNL OR], [!DNL NOT]), Vergleichsoperatoren (größer als, kleiner, gleich usw.) und Neuigkeits-/Häufigkeitskriterien. Diese Funktionen helfen Ihnen, fokussierte Zielgruppensegmente zu erstellen, die für Ihre geschäftlichen Anforderungen relevant sind.
+Im Gegensatz zu herkömmlichen Pixeln, die als Reaktion auf einfache Ja/keine Bedingungen ausgelöst werden, können Sie mit Segmentaufbau komplexe Segmentanforderungen erstellen. Like traits, segments evaluate data using [!DNL Boolean] expressions ([!DNL AND], [!DNL OR], [!DNL NOT]), comparison operators (greater than, less than, equal to, etc.), and recency/frequency criteria. Diese Funktionen helfen Ihnen, fokussierte Zielgruppensegmente zu erstellen, die für Ihre geschäftlichen Anforderungen relevant sind.
 
 ## Vorteile
 
