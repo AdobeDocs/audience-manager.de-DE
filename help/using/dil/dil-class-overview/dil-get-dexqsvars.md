@@ -11,7 +11,7 @@ source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
 ---
 
 
-# Dexgetqsvars{#dexgetqsvars}
+# dexGetQSVars{#dexgetqsvars}
 
 Ruft einen bestimmten Wert von einem Anzeigenserver ab.
 
@@ -29,11 +29,11 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Zeichenfolge | Der Name der Variablen, für die Sie einen Wert erhalten möchten. |
 | `partner` | Zeichenfolge | Der zu suchende Partnername. |
-| `containerNSID` | Ganzzahl | Der [!DNL NSID] Container, nach dem Sie suchen. Standardeinstellungen `0`sind. |
+| `containerNSID` | Ganzzahl | The [!DNL NSID] of the container you're searching for. Defaults is `0`. |
 
 **Antwort**
 
-Gibt den Variablenwert für eine [!UICONTROL DIL] Instanz zurück.
+Returns the variable value for a [!UICONTROL DIL] instance.
 
 **Beispielcode**
 
