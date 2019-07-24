@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Massenanforderungen{#bulk-requests}
+# Bulk Requests{#bulk-requests}
 
-Eine Massenanforderung gibt Daten zurück, die Sie mit den verschiedenen Kopfzeilen in den Arbeitsblättern &quot;Aktualisieren&quot; ,&quot; Erstellen&quot; , &quot;Schätzung&quot; und&quot; Löschen&quot; verwenden können.
+Eine Massenanforderung gibt Daten zurück, die Sie mit den verschiedenen Kopfzeilen in den Arbeitsblättern "Aktualisieren" ," Erstellen" , "Schätzung" und" Löschen" verwenden können.
 
 <!-- 
 
@@ -23,13 +23,13 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->Die Variable [!UICONTROL Bulk Management Tools]*wird nicht* unterstützt [!DNL Audience Manager]. Dieses Tool wird zur Bequemlichkeit und nur als Freundlichkeit bereitgestellt. Für Massenänderungen wird empfohlen, stattdessen mit den [Audience Manager-apis](../../api/rest-api-main/aam-api-getting-started.md) zu arbeiten. [RBAC-Gruppenberechtigungen,](../../features/administration/administration-overview.md) die in der [!DNL Audience Manager] Benutzeroberfläche zugewiesen [!UICONTROL Bulk Management Tools]wurden, werden in der Benutzeroberfläche berücksichtigt.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Dieses Tool wird zur Bequemlichkeit und nur als Freundlichkeit bereitgestellt. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC-Gruppenberechtigungen,](../../features/administration/administration-overview.md) die in der [!DNL Audience Manager] Benutzeroberfläche zugewiesen [!UICONTROL Bulk Management Tools]wurden, werden in der Benutzeroberfläche berücksichtigt.
 
-Das [!UICONTROL Request] Arbeitsblatt hat keinen eigenen Spaltensatz und Sie müssen keine IDs in eine der Spalten kopieren. Stattdessen werden Daten basierend auf der Aktionsschaltfläche zurückgegeben, auf die Sie in der Symbolleiste klicken. Außerdem gibt eine optionale Berichterstellungsfunktion eine Häufigkeitsanzahl für Pixel und eine eindeutige Benutzeranzahl für mehrere feste Zeitintervalle zurück.
+The [!UICONTROL Request] worksheet does not have its own set of column headers and you don't need to copy IDs to any of the columns. Stattdessen werden Daten basierend auf der Aktionsschaltfläche zurückgegeben, auf die Sie in der Symbolleiste klicken. Außerdem gibt eine optionale Berichterstellungsfunktion eine Häufigkeitsanzahl für Pixel und eine eindeutige Benutzeranzahl für mehrere feste Zeitintervalle zurück.
 
-Um Massenanforderungen zu erstellen, öffnen Sie das [!UICONTROL Bulk Management Tools] Arbeitsblatt und:
+To make bulk requests, open the [!UICONTROL Bulk Management Tools] worksheet and:
 
-1. Klicken Sie auf die **[!UICONTROL Request]** Registerkarte.
+1. Click the **[!UICONTROL Request]** tab.
 2. Klicken Sie in der Symbolleiste oben im Arbeitsblatt auf eine Anforderungsschaltfläche entsprechend den Daten, mit denen Sie arbeiten möchten. Sie können Folgendes abrufen:
 
    * Datenanbieter-IDs
@@ -38,10 +38,10 @@ Um Massenanforderungen zu erstellen, öffnen Sie das [!UICONTROL Bulk Management
    * Regelbasierte und voreingestellte Eigenschaften
    * Segmente
    * Eigenschaften für Eigenschaften und Segmentordner
-   Die [!DNL Audience Manager] API schreibt Massendaten zurück in das [!UICONTROL Request] Arbeitsblatt.
+   The [!DNL Audience Manager] API writes bulk data back to the [!UICONTROL Request] worksheet.
 
 >[!NOTE]
 >
->In Ihren Ergebnissen geben die `createTime` Spalten `updateTime` Daten in exponentiellen Notation zurück. Die zugrunde liegenden Datums-/Uhrzeitstempel werden in der UNIX UTC-Zeit aufgezeichnet. Derzeit kann das Arbeitsblatt Datums-/Zeitstempel nicht in lesbarer Form wiedergeben.
+>In your results, the `createTime` and `updateTime` columns return data in exponential notation. Die zugrunde liegenden Datums-/Uhrzeitstempel werden in der UNIX UTC-Zeit aufgezeichnet. Derzeit kann das Arbeitsblatt Datums-/Zeitstempel nicht in lesbarer Form wiedergeben.
 
-Wenn Ihre Massenaktualisierung einen Fehler zurückgibt oder fehlschlägt, finden [Sie weitere Informationen unter Fehlerbehebung für Massenverwaltungswerkzeuge](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
