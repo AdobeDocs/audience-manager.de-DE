@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Segmentleistungsbericht{#segment-performance-report}
+# Segment Performance Report{#segment-performance-report}
 
-Der Bericht &quot;Segmentleistung&quot; vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Real-Time Segment Uniques.
+Der Bericht "Segmentleistung" vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Real-Time Segment Uniques.
 
 Ein zugeordnetes Segment ist ein Segment, das Sie erstellen und an ein Ziel für das Targeting senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht an ein Ziel für das Targeting gesendet haben.
 
@@ -21,30 +21,30 @@ Beim Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichte
 
 ## Nutzungsszenarios {#use-cases}
 
-Mit dem [!UICONTROL Segment Performance] Bericht können Sie:
+With the [!UICONTROL Segment Performance] report, you can:
 
 * Identifizieren Sie zugeordnete Zielgruppensegmente, die eine Skalierung oder Leistung bringen.
 * Identifizieren Sie nicht zugeordnete Segmente, die in zukünftigen Kampagnen eingeführt werden sollen, basierend auf dem Beitrag einer Zielgruppe zur bisherigen Leistung.
 
-## Verwenden des Segmentleistungsberichts {#using-segment-performance-report}
+## Using the Segment Performance Report {#using-segment-performance-report}
 
-Wechsel zwischen **[!UICONTROL Mapped]** und **[!UICONTROL Unmapped]** zur Auswahl von Segmenten, die einem Ziel zugeordnet sind oder nicht. Wählen Sie diese Option, um **[!UICONTROL All]** alle Segmente in den Bericht aufzunehmen.
+Toggle between **[!UICONTROL Mapped]** and **[!UICONTROL Unmapped]** to select segments that are mapped to a destination or not. Select **[!UICONTROL All]** to include all your segments in the report.
 
-Verwenden Sie den Steuerumfang **für Tagesbereich** und **Datum,** um den Look-Back-Bereich anzupassen. Beachten Sie, dass der 7-Tage- und 30-Tage-Suchzeitraum nur für Sonntag verfügbar sind.
+Use the **Day Range** and **Date Through** controls to adjust your look-back range. Beachten Sie, dass der 7-Tage- und 30-Tage-Suchzeitraum nur für Sonntag verfügbar sind.
 
-Verwenden Sie die **[!UICONTROL Line Item]** Dropdownfeld, um die Webeigenschaften auszuwählen, für die Sie Informationen zurückgeben möchten.
+Use the **[!UICONTROL Line Item]** drop-down box to select the web properties for which you want to return information.
 
-Wählen Sie in der **[!UICONTROL Segment Data Source]** Dropdown-Liste die Datenquellen aus, die die Segmente enthalten, die im Bericht angezeigt werden sollen.
+In the **[!UICONTROL Segment Data Source]** drop-down box, select the data sources containing the segments you want to see in the report.
 
-Verwenden Sie die **[!UICONTROL Segment]** Dropdownliste, um auszuwählen, welche Segmente im Bericht angezeigt werden sollen.
+Use the **[!UICONTROL Segment]** drop-down box to select which segments you want to see in the report.
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten hinzufügen, [!UICONTROL Line Item IDs]wie in Schritt 3 von [DFP-Datendateien in Audience Manager importieren](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft anstelle [!UICONTROL Line Item] von &quot;und [!UICONTROL Line Item ID]«ausführt.
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item ID].
 
-## Interpretieren der Ergebnisse {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
-Ihr [!UICONTROL Segment Performance] Bericht könnte wie folgt aussehen. Klicken Sie in Ihrem Bericht auf ein Punktdiagramm, um die zugrunde liegenden Daten anzuzeigen. Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
+Your [!UICONTROL Segment Performance] report could look similar to the one below. Klicken Sie in Ihrem Bericht auf ein Punktdiagramm, um die zugrunde liegenden Daten anzuzeigen. Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -82,12 +82,12 @@ Ihr [!UICONTROL Segment Performance] Bericht könnte wie folgt aussehen. Klicken
   </tr> 
   <tr> 
    <td colname="col1"> <p>Echtzeit-Segmentpopulation </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Anzahl individueller Besucher, die in Echtzeit für den angegebenen Zeitraum angesehen wurden und für das Segment qualifiziert waren, wenn sie von <span class="keyword"> Audience Manager gesehen</span>wurden. </p> </td> 
+   <td colname="col2"> <p>The actual number of unique visitors seen in real-time for the specified time range and who were qualified for the segment at the moment they were seen by <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## So lesen Sie die zugeordneten Segmentergebnisse {#read-mapped-segment}
+## How to Read Your Mapped Segment Results {#read-mapped-segment}
 
 Die Position Ihrer zugeordneten Segmente in einem Bericht kann Ihnen sehr viel darüber informieren, welche Segmente gute Leistungen bringen und wo Sie möglicherweise einige Anpassungen vornehmen müssen.
 
@@ -95,9 +95,9 @@ Zum Lesen des Berichts ist es hilfreich, die Ergebnisse in vier Abschnitte mit i
 
 ![](assets/publisher_segment_performance_mapped.png)
 
-## So lesen Sie Ihre nicht zugeordneten Segmentergebnisse {#read-unmapped-segment}
+## How to Read Your Unmapped Segment Results {#read-unmapped-segment}
 
-Die Betrachtung nicht zugeordneter Segmente in einem [!UICONTROL Segment Performance] Bericht ist eine großartige Möglichkeit, neue Segmente zu finden, die Sie nicht für Targeting angesehen haben. Einige dieser Segmente überschreiten möglicherweise Ihre zugeordneten Segmente.
+Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. Einige dieser Segmente überschreiten möglicherweise Ihre zugeordneten Segmente.
 
 Um diesen Bericht zu lesen, können Sie die Ergebnisse in vier Abschnitte mit imaginären Zeilen (Rot) und Kategorien unterteilen, die im Beispielbericht unten aufgeführt sind.
 
