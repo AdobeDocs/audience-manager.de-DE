@@ -11,7 +11,7 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 ---
 
 
-# DIL-Methoden auf Klassenebene{#class-level-dil-methods}
+# Class-level DIL Methods{#class-level-dil-methods}
 
 Mit DIL-APIS auf Klassenebene können Sie Audience Manager-Objekte programmatisch erstellen und bearbeiten. Die Klassen auf Klassenebene funktionieren mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
 
