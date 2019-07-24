@@ -15,7 +15,7 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 Ein Ansatz zum Senden von Mediendaten an Audience Manager verwendet Anzeigen-Server-Makros, um Kampagnenattribute an Audience Manager zu senden.
 
-Diese Methode wird häufig als &quot;Kreatives Element&quot; bezeichnet. Diese Datenpunkte werden dynamisch in den [!DNL Audience Manager] Pixelcode von den Drittanbieter-Anzeigen-Makros eingefügt, die zur Zuordnung und Berichterstellung aller Impressionen und Klicks basierend auf den Schlüsselberichtsattributen der Kampagne verwendet werden. Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerspezifischer Konversionspfade und helfen Kunden dabei, die Sequenz von Anzeigenserverereignissen zu verbessern, die zu Konversionen führen.
+Diese Methode wird häufig als "Kreatives Element" bezeichnet. Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerspezifischer Konversionspfade und helfen Kunden dabei, die Sequenz von Anzeigenserverereignissen zu verbessern, die zu Konversionen führen.
 
 ## Syntax für Ereignisaufruf
 
@@ -29,15 +29,15 @@ Ereignisaufrufe bestehen aus Schlüssel/Wert-Paaren, die die folgende Syntax ver
 
 <pre>
 http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;
-d_ creative =<i>creative_ id</i>&amp; d_ adgroup =<i>adgroup_ id</i>&amp; d_ placement =<i>placement_ id</i>
-&amp; d_ campaign =<i>campaign_ id</i>[&amp; d_ cid = (GAID | IDFA) % 01 DPUUID] &amp; d_ break = Cache-Busterwert
+d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>
+&amp;d_campaign=<i>campaign_id</i>[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=cache buster value
 </pre>
 
-Im Schlüssel-Wert-Paar ist die Wert-Variable eine ID oder ein vom Anzeigenserver eingefügter Makro. Wenn das Anzeigen-Tag geladen wird, wird `%macro%` die Anzeige durch die erforderlichen, entsprechenden Werte ersetzt. Dieser Aufruf gibt keine Antwort zurück.
+Im Schlüssel-Wert-Paar ist die Wert-Variable eine ID oder ein vom Anzeigenserver eingefügter Makro. When the ad tag loads, that `%macro%` gets replaced with the required, corresponding values. Dieser Aufruf gibt keine Antwort zurück.
 
-## Unterstützte Schlüssel-Wert-Paare {#supported-key-value-pairs}
+## Supported Key-Value Pairs {#supported-key-value-pairs}
 
-Impressionsereignisse akzeptieren Daten, die in Schlüssel/Wert-Paaren aufgeteilt sind. In der folgenden Tabelle sind die Schlüssel aufgeführt und beschrieben, die zum Aufnehmen dieser Variablen verwendet werden. Viele dieser Anforderungen sind erforderlich, wenn Sie Daten in den [Zielgruppenoptimierungsberichten erfassen und analysieren möchten](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Impressionsereignisse akzeptieren Daten, die in Schlüssel/Wert-Paaren aufgeteilt sind. In der folgenden Tabelle sind die Schlüssel aufgeführt und beschrieben, die zum Aufnehmen dieser Variablen verwendet werden. Many of these are required if you want to capture and analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -53,11 +53,11 @@ Impressionsereignisse akzeptieren Daten, die in Schlüssel/Wert-Paaren aufgeteil
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_ adsrc </code> </td> 
-   <td colname="col2"> <p>Datenquellen-ID oder Integrationscode für Ihren Werbetreibenden. </p> <p>Erforderlich für <span class="wintitle"> Berichte </span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p>Datenquellen-ID oder Integrationscode für Ihren Werbetreibenden. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_ bu </code> </td> 
-   <td colname="col2"> <p>Datenquellen-ID oder Integrationscode für Ihre Geschäftseinheit. </p> <p>Erforderlich für <span class="wintitle"> Berichte </span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p>Datenquellen-ID oder Integrationscode für Ihre Geschäftseinheit. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ break </code> </p> </td> 
@@ -65,11 +65,11 @@ Impressionsereignisse akzeptieren Daten, die in Schlüssel/Wert-Paaren aufgeteil
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_ campaign </code> </td> 
-   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p>Erforderlich für <span class="wintitle"> Berichte </span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>In diesem Zusammenhang instanziiert <code> d_ cid </code> ein Schlüssel-Wert-Paar, mit dem Sie einen Mobilgerätetyp einer eindeutigen Benutzer-ID (DPUUID) zuordnen können. Eine feste ID bestimmt den Mobilgerätetyp. Der Wert, die Benutzer-ID, kann variieren. Trennen Sie das Schlüssel-Wert-Paar mit <code> % 01 </code>, wobei es sich um ein nicht druckbares Steuerzeichen handelt. Dieser Parameter akzeptiert die folgenden Schlüssel: </p> 
+   <td colname="col2"> <p>In this context, <code> d_cid </code> instantiates a key-value pair that lets you associate a mobile device type to a unique user ID (DPUUID). Eine feste ID bestimmt den Mobilgerätetyp. Der Wert, die Benutzer-ID, kann variieren. Separate the key-value pair with <code> %01 </code>, which is a non-printing control character. Dieser Parameter akzeptiert die folgenden Schlüssel: </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
      <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Identifiziert ein Android-Gerät (GAID). <code> d_ cid = 20914% 01 1234 </code> sagt beispielsweise, dass der Benutzer 1234 mit einem Android-Gerät verknüpft ist. </li> 
      <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: Identifiziert ein ios-Gerät (IDFA). <code> d_ cid = 20915% 01 5678 </code> besagt beispielsweise, dass der Benutzer 5678 mit einem ios-Gerät verknüpft ist. </li> 
@@ -77,7 +77,7 @@ Impressionsereignisse akzeptieren Daten, die in Schlüssel/Wert-Paaren aufgeteil
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_ creative </code> </td> 
-   <td colname="col2"> <p>Numerische Creative ID vom Anzeigenserver. </p> <p>Erforderlich für <span class="wintitle"> Berichte </span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p>Numerische Creative ID vom Anzeigenserver. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_ event = imp </code> </td> 
@@ -89,11 +89,11 @@ Impressionsereignisse akzeptieren Daten, die in Schlüssel/Wert-Paaren aufgeteil
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_ site </code> </td> 
-   <td colname="col2"> <p>Numerische Site-ID vom Anzeigen-Server. </p> <p>Erforderlich für <span class="wintitle"> Berichte </span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p>Numerische Site-ID vom Anzeigen-Server. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_ src </code> </td> 
-   <td colname="col2"> <p>Datenquellen-ID oder Integrationscode der Plattform, die die Metadaten bereitstellt (z. B. DFA, Atlas, GBM, Media Math usw.). </p> <p>Erforderlich für <span class="wintitle"> Berichte </span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p>Datenquellen-ID oder Integrationscode der Plattform, die die Metadaten bereitstellt (z. B. DFA, Atlas, GBM, Media Math usw.). </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
