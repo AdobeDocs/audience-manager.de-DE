@@ -11,37 +11,37 @@ source-git-commit: 1d516c49a16c38adcc22827dc254da1ebada0734
 ---
 
 
-# Ziele verwalten {#manage-destinations}
+# Manage Destinations {#manage-destinations}
 
-Auf der [!UICONTROL Destination] Einstiegsseite werden alle Ziele, [!DNL URL]Cookies und Server-to-Server-Ziele aufgelistet. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte erstellen können. Die Einstiegsseite **[!UICONTROL Audience Data > Destinations]** befindet sich in.
+The [!UICONTROL Destination] landing page lists all of your [!DNL URL], cookie, and server-to-server destinations. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte erstellen können. The landing page is located in **[!UICONTROL Audience Data > Destinations]**.
 
-## Standard-Landingpage {#default-landing-page}
+## Default Landing Page {#default-landing-page}
 
 <!-- destinations-home.xml -->
 
 Auf der Standardmäßigen Landingpage werden Ihre Ziele basierend auf dem Typ aufgelistet. Sie können die Ziele mithilfe der vier verfügbaren Registerkarten filtern:
 
 * **Alle**: zeigt alle Arten von Zielen an.
-* **Adobe Experience Cloud**: zeigt Ziele an, die Daten an andere Adobe Experience Cloud-Lösungen senden. Derzeit wird nur Adobe Analytics unterstützt. Siehe [Konfigurieren eines Analytics-Ziels](/help/using/features/destinations/create-analytics-destination.md).
+* **Adobe Experience Cloud**: zeigt Ziele an, die Daten an andere Adobe Experience Cloud-Lösungen senden. Derzeit wird nur Adobe Analytics unterstützt. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
 * **Integrierte Plattformen**: zeigt benutzerbasierte und gerätebasierte Ziele an (auch als Server-zu-Server-Ziele bezeichnet). Beachten Sie, dass benutzerbasierte Ziele derzeit nur für ausgewählte Kunden verfügbar sind.
 * **Benutzerspezifisch**: zeigt Cookie- und URL-Ziele an.
 
 
 ![](assets/destinations-landing.png)
 
-## Addressable Audiences-Einstiegsseite {#audiences-landing-page}
+## Addressable Audiences Landing Page {#audiences-landing-page}
 
-Um Zielgruppendaten und Übereinstimmungsraten für Ihr Server-to-Server-Ziel anzuzeigen, wählen **[!UICONTROL Integrated Platforms > Device-Based]** Sie die Option.
+To see audience data and match rates for your server-to-server destination, select **[!UICONTROL Integrated Platforms > Device-Based]**.
 
-Weitere Informationen zu den angezeigten Informationen finden Sie unter [Addressable Audiences Interface](/help/using/features/addressable-audiences.md#addressable-audience-interface).
+For more information about the displayed information, see [Addressable Audiences Interface](/help/using/features/addressable-audiences.md#addressable-audience-interface).
 
 ![](/help/using/features/assets/addressable-audiences-landing.png)
 
-## Zielaufbau {#destination-builder}
+## Destination Builder {#destination-builder}
 
-[!UICONTROL Destination Builder] ermöglicht es Ihnen, Cookie-basierte oder [!DNL URL] Ziele zu erstellen. Server-to-Server ([!DNL S2S])-Ziele können nicht erstellt werden, [!UICONTROL Destination Builder]Sie können jedoch ihre Segmentzuordnungen verwalten. Wenden Sie sich an Ihren Berater, um ein [!DNL S2S] Ziel einzurichten. [!UICONTROL Destination Builder] befindet **[!UICONTROL Audience Data > Destinations]**.
+[!UICONTROL Destination Builder] ermöglicht es Ihnen, Cookie-basierte oder [!DNL URL] Ziele zu erstellen. You cannot create server-to-server ([!DNL S2S]) destinations with [!UICONTROL Destination Builder], but you can manage their segment mappings. Contact your consultant to set up a [!DNL S2S] destination. [!UICONTROL Destination Builder] befindet **[!UICONTROL Audience Data > Destinations]**.
 
-### Ziel-Builder-Einstellungen {#destination-builder-settings}
+### Destination Builder Settings {#destination-builder-settings}
 
 <!-- destination-builder.xml -->
 
@@ -49,18 +49,18 @@ Weitere Informationen zu den angezeigten Informationen finden Sie unter [Address
 
 | [!UICONTROL Destination Builder] Abschnitt | Zielsetzung |
 |--- |--- |
-| Basisinformationen | Dient zum Benennen des Ziels, der Beschreibung und des Zieltyps ([!DNL URL] oder [!DNL cookie]) sowie der Plattform (alle [!DNL Android], Browser oder [!DNL iOS]). |
-| Konfiguration | Enthält Steuerelemente für: <br/><ul><li>Übergabe von Schlüsselwertdaten an [!DNL URL] Ziele. Sie können Daten als einzelne oder serialisierte Schlüssel-Wert-Paare senden. Weitere Informationen finden Sie unter [Zielserialisierung](../../features/destinations/key-value-pairs.md#destination-serialized) sowie [Standard- und Serienschlüssel-Wert-Paare](../../features/destinations/key-value-pairs.md). </li><li>Elemente eines Cookie-Ziels wie Cookie-Name, Domäne, Größe, Ablaufintervall, Datenformat usw.</li></ul> |
-| Segmentzuordnungen | Sie können die: <br/><ul><li>Suchen, Hinzufügen und Verwalten von Segmenten, die mit allen Zieltypen verknüpft sind. </li><li>Legen Sie die Bereitstellungsprioritäten für einzelne Segmente fest (nur [!DNL cookie]für -basierte Segmente).</li></ul> |
+| Basisinformationen | Used to name the destination, describe it, and select destination type ([!DNL URL] or [!DNL cookie]), and platform (all, [!DNL Android], browser, or [!DNL iOS]). |
+| Konfiguration | Includes controls for: <br/><ul><li>Passing in key-value data to [!DNL URL] destinations. Sie können Daten als einzelne oder serialisierte Schlüssel-Wert-Paare senden. For details see, [Destination Serialization](../../features/destinations/key-value-pairs.md#destination-serialized) and [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md). </li><li>Elemente eines Cookie-Ziels wie Cookie-Name, Domäne, Größe, Ablaufintervall, Datenformat usw.</li></ul> |
+| Segmentzuordnungen | Sie können die: <br/><ul><li>Suchen, Hinzufügen und Verwalten von Segmenten, die mit allen Zieltypen verknüpft sind. </li><li>Set delivery priorities on individual segments (for [!DNL cookie]-based segments only).</li></ul> |
 
-### Datenbereitstellungsmethoden {#data-delivery-methods}
+### Data Delivery Methods {#data-delivery-methods}
 
-Senden Sie Informationen an ein Ziel, indem Sie sie über eine [!DNL URL] Zeichenfolge übermitteln, in einen Browser [!DNL cookie]schreiben oder über Offline-Server-zu-Server-Datenübertragungen.
+Send information to a destination by passing it in through a [!DNL URL] string, by writing to a browser [!DNL cookie], or through offline server-to-server data transfers.
 
 * [!DNL URL] und cookie-basierte Ziele werden synchron übertragen, da ein Benutzer Aktionen auf einer Seite durchführt.
 * Die Server-zu-Server-Datenübertragung ist asynchron und kann lange auftreten, nachdem ein Benutzer die Seite verlassen hat. Der Auslieferungstyp, den Sie auswählen, hängt von Ihren geschäftlichen Anforderungen ab und davon, wie ein bestimmter Datenpartner Daten empfangen möchte oder kann.
 
-Weitere [Informationen finden Sie unter Auswählen eines Zieltyps](../../features/destinations/destinations.md) .
+See [How to Choose a Destination Type](../../features/destinations/destinations.md) for more information.
 
 >[!MORE_ LIKE_ THIS]
 >
@@ -68,35 +68,35 @@ Weitere [Informationen finden Sie unter Auswählen eines Zieltyps](../../feature
 >* [URL-Ziel erstellen](../../features/destinations/manage-destinations.md#configure-url-destination)
 
 
-## Konfigurieren eines Cookie-Ziels {#create-cookie-destination}
+## Configure a Cookie Destination {#create-cookie-destination}
 
-Ein Cookie-Ziel gibt Daten zurück und schreibt sie in ein Cookie im Browser des Benutzers. Das Cookie enthält Daten, die von anderen Plattformen gelesen werden können, die Zugriff auf die Seite haben. Befolgen Sie diese Anweisungen, um ein Cookie-Ziel zu [!UICONTROL Destination Builder]erstellen.
+Ein Cookie-Ziel gibt Daten zurück und schreibt sie in ein Cookie im Browser des Benutzers. Das Cookie enthält Daten, die von anderen Plattformen gelesen werden können, die Zugriff auf die Seite haben. Follow these instructions to create a cookie destination with [!UICONTROL Destination Builder].
 
 <!-- create-cookie-destination.xml -->
 
-Um ein neues Cookie-Ziel zu erstellen, gehen **[!UICONTROL Audience Data > Destinations > Create New Destination]** Sie zu den Abschnitten, wie unten beschrieben.
+To create a new cookie destination, go to **[!UICONTROL Audience Data > Destinations > Create New Destination]** and complete the sections as described below.
 
 ### Basisinformationen {#basic-information}
 
 Dieser Abschnitt enthält Felder und Optionen, die den Cookie-Zielerstellungsprozess starten. So füllen Sie diesen Abschnitt aus:
 
-1. Klicken **[!UICONTROL Basic Information]** Sie auf, um die Steuerelemente anzuzeigen.
+1. Click **[!UICONTROL Basic Information]** to expose the controls.
 2. Geben Sie dem Ziel einen Namen. Vermeiden Sie Abkürzungen und Sonderzeichen.
 3. *(Optional)* Beschreiben Sie das Ziel. Eine genaue Beschreibung ist eine effektive Möglichkeit, weitere Informationen zu einem Ziel zu definieren oder bereitzustellen.
-4. Wählen Sie in der **[!UICONTROL Category]** Liste **[!UICONTROL Custom]** den Eintrag.
-5. Wählen Sie in der **[!UICONTROL Environment]** Liste **[!UICONTROL Browser]** den Eintrag. Cookie-Ziele für native mobile Umgebungen wie Android- oder ios-Apps können nicht konfiguriert werden.
-6. Klicken Sie in der **[!UICONTROL Type]** Liste **[!UICONTROL Cookie]** auf.
+4. In the **[!UICONTROL Category]** list, choose **[!UICONTROL Custom]**.
+5. In the **[!UICONTROL Environment]** list, select **[!UICONTROL Browser]**. Cookie-Ziele für native mobile Umgebungen wie Android- oder ios-Apps können nicht konfiguriert werden.
+6. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**.
 7. *(Optional)* Wählen Sie eine **[!UICONTROL Auto-fill Destination Mapping]**. Zu den Optionen zählen:
    * **[!UICONTROL Segment ID]**: Fügt automatisch die Segment-ID hinzu und sendet sie an das Ziel.
    * **[!UICONTROL Integration Code Value]**: Fügt automatisch den Segmentintegrationscode hinzu und sendet ihn an die Zielzuordnung. Der Integrationscode ist ein eindeutiger Bezeichner, der vom Kunden erstellt und verwendet wird. Sie ist auf maximal 255 Zeichen begrenzt.
-8. Klicken **[!UICONTROL Next]** Sie auf, um die [!UICONTROL Configuration] Einstellungen aufzurufen, oder klicken **[!UICONTROL Data Export Labels]** Sie auf, um die Exportsteuerelemente auf das Ziel anzuwenden.
+8. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
-### Datenexportbeschriftungen {#data-export-labels-cookies}
+### Data Export Labels {#data-export-labels-cookies}
 
-Dieser Abschnitt enthält Optionen, die [die Datenexportsteuerelemente](../../features/data-export-controls.md) auf ein Cookie-Ziel anwenden. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So füllen Sie diesen Abschnitt aus:
+This section contains options that apply [data export controls](../../features/data-export-controls.md) to a cookie destination. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So füllen Sie diesen Abschnitt aus:
 
-1. Klicken **[!UICONTROL Data Export Labels]** Sie auf, um die Steuerelemente anzuzeigen.
-2. Wählen Sie eine Beschriftung, die der auf das Ziel angewendeten Datenexportkontrolle entspricht (siehe [Hinzufügen von Exportbeschriftungen zu einem Ziel](../../features/destinations/manage-destinations.md#add-data-export-labels) für weitere Details).
+1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
+2. Select a label that corresponds to data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#add-data-export-labels) for details).
 3. Klicken Sie auf **[!UICONTROL Save]**.
 
 ### Konfiguration {#configuration}
@@ -105,96 +105,96 @@ Dieser Abschnitt enthält Felder und Optionen, mit denen Sie das Cookie für Ihr
 
 >[!NOTE]
 >
->[!DNL Audience Manager] kodiert Daten, die in das Zielcookie geschrieben wurden. Beispielsweise sind Leerzeichen kodiert `%20` und Semikolons werden kodiert `%3B`.
+>[!DNL Audience Manager] kodiert Daten, die in das Zielcookie geschrieben wurden. For example, spaces are encoded as `%20` and semicolons are encoded as `%3B`.
 
 So füllen Sie diesen Abschnitt aus:
 
-1. Klicken Sie, **[!UICONTROL Configuration]** um die Steuerelemente verfügbar zu machen.
+1. Click **[!UICONTROL Configuration]** to expose the controls
 1. Geben Sie dem Cookie einen Namen. Vermeiden Sie Abkürzungen und Sonderzeichen.
 1. Wählen Sie eine Datenformat-Option. Mit diesen Optionen können Sie die Trennzeichen und Trennzeichen für Schlüssel/Wert-Paare auswählen, die Segmentdaten an ein Ziel senden. Zu den Formatierungsoptionen gehören:
-   * **Einzelner Schlüssel:** Hiermit können Sie den Schlüssel in einem Schlüssel-Wert-Paar festlegen. Sie legen den Wert fest, nachdem Sie ein Segment im folgenden [!UICONTROL Segment Mappings] Abschnitt ausgewählt haben.
-   * **Mehrere Schlüssel:** Hiermit können Sie den Schlüssel und den Wert für ein Schlüssel-Wert-Paar festlegen. Sie erstellen das Schlüssel-Wert-Paar, nachdem Sie im Abschnitt &quot;Segmentzuordnungen&quot; ein Segment ausgewählt haben.
-Weitere Informationen zu diesen Datenelementen finden Sie unter [Standard- und Serialschlüssel-Wert-Paare](../../features/destinations/key-value-pairs.md) .
+   * **Einzelner Schlüssel:** Hiermit können Sie den Schlüssel in einem Schlüssel-Wert-Paar festlegen. You'll set the value after you select a segment in the [!UICONTROL Segment Mappings] section below.
+   * **Mehrere Schlüssel:** Hiermit können Sie den Schlüssel und den Wert für ein Schlüssel-Wert-Paar festlegen. Sie erstellen das Schlüssel-Wert-Paar, nachdem Sie im Abschnitt "Segmentzuordnungen" ein Segment ausgewählt haben.
+See [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md) for more information about these data elements.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-Alle anderen Einstellungen sind optional. Weitere Informationen zu **[!UICONTROL Cookie Domain]** den und **[!UICONTROL Publish data to]** den Einstellungen finden Sie unter [Optionale Einstellungen für Cookie-Ziele](../../features/destinations/manage-destinations.md#optional-settings-cookies).
+Alle anderen Einstellungen sind optional. For more information about the **[!UICONTROL Cookie Domain]** and **[!UICONTROL Publish data to]** settings, see [Optional Settings for Cookie Destinations](../../features/destinations/manage-destinations.md#optional-settings-cookies).
 
-### Segmentzuordnungen {#segments-mapping}
+### Segment Mappings {#segments-mapping}
 
 In diesem Abschnitt können Sie nach Segmenten suchen und sie Ihrem Ziel hinzufügen. So füllen Sie diesen Abschnitt aus:
 
-1. Klicken **[!UICONTROL Segment Mappings]** Sie auf, um die Steuerelemente anzuzeigen.
-1. Geben Sie in das **[!UICONTROL Search and Add Segments]** Feld den Namen eines Segments ein oder klicken Sie auf, **[!UICONTROL Browse All Segments]** um eine Liste der verfügbaren Segmente zu durchsuchen.
-1. Klicken **[!UICONTROL Add Selected Segments]** Sie auf, wenn Sie das gewünschte Segment suchen. Durch das Hinzufügen eines Segments wird das [!UICONTROL Edit Mapping] Fenster geöffnet.
-1. Im [!UICONTROL Edit Mapping] Dialogfeld:
-   * **[!UICONTROL Mapping]** Hier können Sie einen Wert für den Schlüssel festlegen, der im Abschnitt &quot;Konfiguration&quot; angegeben ist.
+1. Click **[!UICONTROL Segment Mappings]** to expose the controls.
+1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** to browse a list of available segments.
+1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
+1. In the [!UICONTROL Edit Mapping] dialog:
+   * **[!UICONTROL Mapping]** Hier können Sie einen Wert für den Schlüssel festlegen, der im Abschnitt "Konfiguration" angegeben ist.
    * **[!UICONTROL Publish from]** ermöglicht das Festlegen des Start- und Enddatums für das Ziel. Wenn das Enddatum leer ist, läuft das Ziel nie ab.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 1. Klicken Sie auf **[!UICONTROL Done]**.
 
-## URL-Ziel konfigurieren {#configure-url-destination}
+## Configure a URL Destination {#configure-url-destination}
 
-Ein [!DNL URL] Ziel führt Pixelaufrufe von einer Seite zu Ihrem Ziel aus. Befolgen Sie diese Anweisungen, um ein [!DNL URL] Ziel zu [!UICONTROL Destination Builder]erstellen.
+A [!DNL URL] destination makes pixel calls from a page to your destination. Follow these instructions to create a [!DNL URL] destination with [!UICONTROL Destination Builder].
 
 <!-- create-url-destination.xml -->
 
-Um ein neues [!DNL URL] Ziel zu erstellen, gehen **[!UICONTROL Audience Data > Destinations > Create New Destination]** Sie zu den Abschnitten, wie unten beschrieben.
+To create a new [!DNL URL] destination, go to **[!UICONTROL Audience Data > Destinations > Create New Destination]** and complete the sections as described below.
 
 ### Basisinformationen {#basic-info}
 
 Dieser Abschnitt enthält Felder und Optionen, die den URL-Zielerstellungsprozess starten. So füllen Sie diesen Abschnitt aus:
 
-1. Klicken **[!UICONTROL Basic Information]** Sie auf, um die Steuerelemente anzuzeigen.
+1. Click **[!UICONTROL Basic Information]** to expose the controls.
 1. Geben Sie dem Ziel einen Namen. Vermeiden Sie Abkürzungen und Sonderzeichen.
 1. *(Optional)* Beschreiben Sie das Ziel. Eine genaue Beschreibung ist eine effektive Möglichkeit, weitere Informationen zu einem Ziel zu definieren oder bereitzustellen.
-1. Wählen Sie in der **[!UICONTROL Category]** Liste **[!UICONTROL Custom]** den Eintrag.
-1. Wählen Sie in der **[!UICONTROL Environment]** Liste die Umgebung aus, in der das URL-Ziel ausgelöst werden soll.
-1. Klicken Sie in der **[!UICONTROL Type]** Liste **[!UICONTROL URL]** auf.
+1. In the **[!UICONTROL Category]** list, choose **[!UICONTROL Custom]**.
+1. In the **[!UICONTROL Environment]** list, select the environment in which to trigger the URL destination.
+1. In the **[!UICONTROL Type]** list, click **[!UICONTROL URL]**.
 1. *(Optional)* Wählen Sie eine **[!UICONTROL Auto-fill Destination Mapping]**. Zu den Optionen zählen:
    * **[!UICONTROL Segment ID]**: Fügt automatisch die Segment-ID hinzu und sendet sie an das Ziel.
    * **[!UICONTROL Integration Code Value]**: Fügt automatisch den Segmentintegrationscode hinzu und sendet ihn an die Zielzuordnung. Der Integrationscode ist ein eindeutiger Bezeichner, der vom Kunden erstellt und verwendet wird. Sie ist auf maximal 255 Zeichen begrenzt.
-1. Klicken **[!UICONTROL Next]** Sie auf, um die [!UICONTROL Configuration] Einstellungen aufzurufen, oder klicken **[!UICONTROL Data Export Labels]** Sie auf, um die Exportsteuerelemente auf das Ziel anzuwenden.
+1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
-### Datenexportbeschriftungen {#data-export-labels-dest}
+### Data Export Labels {#data-export-labels-dest}
 
-Dieser Abschnitt enthält Optionen, die [die Datenexportsteuerelemente](../../features/data-export-controls.md) auf ein [!DNL URL] Ziel anwenden. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So füllen Sie diesen Abschnitt aus:
+This section contains options that apply [data export controls](../../features/data-export-controls.md) to a [!DNL URL] destination. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So füllen Sie diesen Abschnitt aus:
 
-1. Klicken **[!UICONTROL Data Export Labels]** Sie auf, um die Steuerelemente anzuzeigen.
-2. Wählen Sie eine Beschriftung, die dem auf das Ziel angewendeten Datenexportsteuerelement entspricht (siehe [Hinzufügen von Exportbeschriftungen zu einem Ziel](../../features/destinations/manage-destinations.md#add-data-export-labels) für weitere Details).
+1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
+2. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#add-data-export-labels) for details).
 3. Klicken Sie auf **[!UICONTROL Save]**.
 
 ### Konfiguration {#configure-base-data}
 
-Dieser Abschnitt enthält Optionen, mit denen Sie eine Basis [!DNL URL] - und Datentrennzeichen festlegen können, die durch die [!DNL URL] Zeichenfolge weitergegeben werden. Dieser Abschnitt ist optional. So füllen Sie diesen Abschnitt aus:
+This section contains options that let you set a base [!DNL URL] and data delimiters passed in by the [!DNL URL] string. Dieser Abschnitt ist optional. So füllen Sie diesen Abschnitt aus:
 
-1. Klicken **[!UICONTROL Configuration]** Sie auf, um die Steuerelemente anzuzeigen.
+1. Click **[!UICONTROL Configuration]** to expose the controls.
 1. *(Optional)* Aktivieren Sie das **[!UICONTROL Serialize]** Kontrollkästchen.
-Dadurch können Sie Segmente an ein Ziel senden, anstatt jedem Segment separate Aufrufe zu tätigen. Die Serialisierung erleichtert die effiziente Datenübertragung. Wenn Sie dieses Kontrollkästchen aktivieren, werden die Felder &quot;URL&quot; und&quot; Trennzeichen&quot; angezeigt. Weitere Informationen finden Sie unter [Standard- und Serialschlüssel-Wert-Paare](../../features/destinations/key-value-pairs.md).
-1. Wenn Sie auswählen **[!UICONTROL Serialize]**, müssen Sie auch die unten beschriebenen URL- und Trennzeichen konfigurieren.
+Dadurch können Sie Segmente an ein Ziel senden, anstatt jedem Segment separate Aufrufe zu tätigen. Die Serialisierung erleichtert die effiziente Datenübertragung. Wenn Sie dieses Kontrollkästchen aktivieren, werden die Felder "URL" und" Trennzeichen" angezeigt. For more information, see [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md).
+1. If you select **[!UICONTROL Serialize]**, then you must also configure the URL and delimiter fields described below.
 
 | Feld | Beschreibung |
 |--- |--- |
-| Basis-URL | Der Basisteil eines Standards, `HTTP`[!DNL URL] der sich nicht ändert. Außerdem müssen Sie das `%ALIAS%`[Platzhaltermakro](../../features/destinations/destination-macros.md#destination-macros-defined) in der Basis-URL platzieren. Beispiel: `https://www.myCompany.com/%alias%...` |
-| Sichere URL | Der Basisteil eines sicheren Schutzes, `HTTPS`[!DNL URL] der sich nicht ändert. Außerdem müssen Sie das `%ALIAS%`[Platzhaltermakro](../../features/destinations/destination-macros.md#destination-macros-defined) in der Basis-URL platzieren. Beispiel: `https://www.myCompany.com/%alias%...` |
-| Trennzeichen | Das Symbol, das die Segmentvariablen in der [!DNL URL] Zeichenfolge trennt. Dies ist normalerweise ein Komma oder ein Semikolon. Erhalten Sie diese Informationen von Ihrem Zielpartner. |
+| Basis-URL | The base part of a standard `HTTP` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%`  [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Beispiel: `https://www.myCompany.com/%alias%...` |
+| Sichere URL | The base part of a secure `HTTPS` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%`   [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Beispiel: `https://www.myCompany.com/%alias%...` |
+| Trennzeichen | The symbol that separates the segment variables in the [!DNL URL] string. Dies ist normalerweise ein Komma oder ein Semikolon. Erhalten Sie diese Informationen von Ihrem Zielpartner. |
 
-### Segmentzuordnungen {#segment-mappings}
+### Segment Mappings {#segment-mappings}
 
 In diesem Abschnitt können Sie nach Segmenten suchen und sie Ihrem Ziel hinzufügen. So füllen Sie diesen Abschnitt aus:
 
-1. Klicken **[!UICONTROL Segment Mappings]** Sie auf, um die Steuerelemente anzuzeigen.
-1. Geben Sie in das **[!UICONTROL Search and Add Segments]** Feld den Namen eines Segments ein oder klicken **[!UICONTROL Browse All Segments]** Sie auf eine Liste der verfügbaren Segmente.
-1. Klicken **[!UICONTROL Add Selected Segments]** Sie auf, wenn Sie das gewünschte Segment suchen. Durch das Hinzufügen eines Segments wird das [!UICONTROL Edit Mapping] Fenster geöffnet.
+1. Click **[!UICONTROL Segment Mappings]** to expose the controls.
+1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
+1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
 1. Mit [!UICONTROL Edit Mapping]:
    * **[!UICONTROL Mappings]**: Geben Sie die Schlüssel/Wert-Paare ein, die vom Segment verwendet werden.
    * **[!UICONTROL Start Date]** und **[!UICONTROL End Date]**: Wählen Sie ein Start- und Enddatum für das Ziel. Wenn das Enddatum leer ist, läuft das Ziel nie ab.
 1. Klicken Sie auf **[!UICONTROL Done]**.
 
-### Optionale Einstellungen für Cookie-Ziele {#optional-settings-cookies}
+### Optional Settings for Cookie Destinations {#optional-settings-cookies}
 
-In [!UICONTROL Destination Builder]enthält die [!UICONTROL Configuration section] Felder [!UICONTROL Cookie Domain] und [!UICONTROL Publish Data To] Felder. Mit diesen Regeln können Sie Regeln erstellen, um zu bestimmen, ob ein Ziel ein Cookie setzt oder ein Cookie zurückgibt. [!UICONTROL Cookie Domain] und unabhängig voneinander [!UICONTROL Publish Data To] arbeiten und optional sind. Sie können ein Cookie-Ziel erstellen, ohne diese zu verwenden.
+In [!UICONTROL Destination Builder], the [!UICONTROL Configuration section] contains the [!UICONTROL Cookie Domain] and [!UICONTROL Publish Data To] fields. Mit diesen Regeln können Sie Regeln erstellen, um zu bestimmen, ob ein Ziel ein Cookie setzt oder ein Cookie zurückgibt. [!UICONTROL Cookie Domain] und unabhängig voneinander [!UICONTROL Publish Data To] arbeiten und optional sind. Sie können ein Cookie-Ziel erstellen, ohne diese zu verwenden.
 
-## Cookie-Domäne: Syntax und Beispiele {#cookie-domain-syntax}
+## Cookie Domain: Syntax and Examples {#cookie-domain-syntax}
 
 <!-- cookie-destination-options.xml -->
 
@@ -208,27 +208,27 @@ In [!UICONTROL Destination Builder]enthält die [!UICONTROL Configuration sectio
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Syntax</b> </p> </td> 
-   <td colname="col2"> <p>Das Feld <span class="wintitle"> "Cookie-Domäne</span> " akzeptiert eine einfache Textzeichenfolge, mit der Sie Cookies in einer angegebenen Domäne oder in allen Domänen festlegen können. Wenn Sie diese Funktion verwenden: </p> <p> 
+   <td colname="col2"> <p>The <span class="wintitle"> Cookie Domain</span> field accepts a simple text string that lets you set cookies on a specified domain or all domains. Wenn Sie diese Funktion verwenden: </p> <p> 
      <ul id="ul_473CB59F2C0C4B358201BE5C8B27D73D"> 
-      <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Legen Sie für jedes Cookie-Ziel nur eine Domäne fest. Geben Sie nicht mehrere Domänen in das Feld <span class="wintitle"> "Cookie-Domäne</span> " ein. Erstellen Sie stattdessen ein anderes <span class="wintitle"> Ziel</span> . </li> 
+      <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Legen Sie für jedes Cookie-Ziel nur eine Domäne fest. Do not type multiple domains in the <span class="wintitle"> Cookie Domain</span> field. Create another <span class="wintitle"> Destination</span> instead. </li> 
       <li id="li_AEBF5C5F3C264C5EA4A2A6063C3F377D">Verwenden Sie keine Platzhalterzeichen. </li> 
-     </ul> </p> <p> Lassen Sie das <span class="wintitle"> Feld Cookie-Domäne</span> leer, um ein Cookie auf allen Domänen festzulegen. Dies ist die Standardeinstellung. </p> <p>So legen Sie Cookies in einer bestimmten Domäne und unter-Domänen fest: </p> <p> 
+     </ul> </p> <p> Leave the <span class="wintitle"> Cookie Domain</span> field blank to set a cookie on all domains. Dies ist die Standardeinstellung. </p> <p>So legen Sie Cookies in einer bestimmten Domäne und unter-Domänen fest: </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
-      <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Geben Sie den Namen der Domäne in das Feld <span class="wintitle"> "Cookie-Domäne</span> " ein. </li> 
-      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Starten Sie den Domänennamen mit einem Zeitraum. Zum Beispiel <code> .somedomain.com</code>. </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">Das <code> https://www</code> ist nicht erforderlich. </li> 
+      <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Type the name of the domain in the <span class="wintitle"> Cookie Domain</span> field. </li> 
+      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Starten Sie den Domänennamen mit einem Zeitraum. For example, <code> .somedomain.com</code>. </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Beispiel</b> </p> </td> 
-   <td colname="col2"> <p>Angenommen wir haben eine fiktive Site namens "sports. com" . Sports.com hat Domänen für Golf, Baseball und Football. Um ein Cookie in allen Sportdomänen festzulegen, geben Sie Folgendes in das <span class="wintitle"> Feld Cookie-Domäne</span> ein: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Dadurch wird <span class="keyword"> Audience Manager</span> angewiesen, in jeder Domäne, die das Muster <code><i>some.</i></code>sports. com enthält, ein Cookie festzulegen. Ein komplexerer Satz Beispiele finden Sie unten. </p> </td> 
+   <td colname="col2"> <p>Angenommen wir haben eine fiktive Site namens "sports. com" . Sports.com hat Domänen für Golf, Baseball und Football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <code><i>something</i></code>.sports.com. Ein komplexerer Satz Beispiele finden Sie unten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Beispiele für komplexe Cookie-Domänen
 
-Diese Beispiele zeigen Ihnen, ob [!DNL Audience Manager] Sie ein Cookie festlegen, das auf der Konfiguration der [!UICONTROL Cookie Domain] Option basiert.
+These examples show you if [!DNL Audience Manager] will set a cookie based on how the [!UICONTROL Cookie Domain] option is configured.
 
 <table id="table_3A7B9479CDA6493FA8104D8D9841E914"> 
  <thead> 
@@ -267,51 +267,51 @@ Diese Beispiele zeigen Ihnen, ob [!DNL Audience Manager] Sie ein Cookie festlege
  </tbody> 
 </table>
 
-## Daten veröffentlichen auf {#publish-data-to}
+## Publish Data To {#publish-data-to}
 
-Die [!UICONTROL Publish Data To] Einstellungen geben ein Cookie zurück, wenn die Domäne die von Ihnen ausgewählten Kriterien erfüllt. Zu den Optionen zählen:
+The [!UICONTROL Publish Data To] settings return a cookie if the domain meets the criteria set by the options you select. Zu den Optionen zählen:
 
 * **[!UICONTROL All of our domains]**: (Standard) Gibt eine [!DNL cookie] für jede Domäne zurück.
 * **[!UICONTROL Only the selected domains]**: Gibt ein Cookie nur für die in der Domänenliste ausgewählten Domänen zurück.
-* **[!UICONTROL All of our domains except the selected domains]**: Verhindert, dass ausgewählte Domänen a [!DNL cookie]empfangen. Alle anderen Domänen können a [!DNL cookie]empfangen.
+* **[!UICONTROL All of our domains except the selected domains]**: Verhindert, dass ausgewählte Domänen a [!DNL cookie]empfangen. All other domains can receive a [!DNL cookie].
 
 >[!MORE_ LIKE_ THIS]
 >
 >* [Erstellen eines Cookie-Ziels](../../features/destinations/manage-destinations.md#create-cookie-destination)
 
 
-## Segmente für Server-zu-Server-Ziele hinzufügen oder bearbeiten {#add-edit-segments}
+## Add or Edit Segments for Server-to-Server Destinations {#add-edit-segments}
 
-Sie können nur Segmente für ein Server-to-Server ([!DNL S2S])-Ziel hinzufügen oder bearbeiten. Ziele können nicht erstellt [!DNL S2S][!UICONTROL Destination Builder]werden. Wenden Sie sich an Ihren Berater, um [!DNL S2S] Ziele einzurichten. Befolgen Sie diese Anweisungen, um Segmente für ein [!DNL S2S] Ziel hinzuzufügen oder zu bearbeiten.
+You can only add or edit segments for a server-to-server ([!DNL S2S]) destination. You cannot create [!DNL S2S] destinations with [!UICONTROL Destination Builder]. Contact your consultant to set up [!DNL S2S] destinations. Follow these instructions to add or edit segments for an [!DNL S2S] destination.
 
 <!-- destination-s2s-edit.xml -->
 
-So fügen Sie Segmentzuordnungen für ein [!DNL S2S] Ziel hinzu oder bearbeiten es:
+To add or edit segment mappings for an [!DNL S2S] destination:
 
-1. Gehe **[!UICONTROL Audience Data > Destinations]** zu. Wählen **Sie Integrierte Plattformen &gt; Gerätebasiert** und suchen Sie das [!DNL S2S] Ziel, mit dem Sie arbeiten möchten.
-1. Klicken Sie in der [!UICONTROL Action] Spalte auf das Stiftsymbol, um das Ziel zu bearbeiten.
-   * Geben Sie in das **[!UICONTROL Search and Add Segments]** Feld den Namen eines Segments ein oder klicken **[!UICONTROL Browse All Segments]** Sie auf eine Liste der verfügbaren Segmente.
-   * Klicken **[!UICONTROL Add Selected Segments]** Sie auf, wenn Sie das gewünschte Segment suchen. Durch das Hinzufügen eines Segments wird das [!UICONTROL Edit Mapping] Fenster geöffnet.
+1. Go to **[!UICONTROL Audience Data > Destinations]**. Select **Integrated Platforms &gt; Device-Based** and find the [!DNL S2S] destination you want to work with.
+1. In the [!UICONTROL Action] column, click the pencil icon to edit the destination.
+   * In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
+   * Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
    * Mit [!UICONTROL Edit Mapping]:
       * **[!UICONTROL Mappings]**: Legen Sie einen Wert für das [Schlüssel-Wert-Paar](../../features/destinations/key-value-pairs.md) fest, das von diesem Ziel verwendet wird.
       * **[!UICONTROL Start Date]** und **[!UICONTROL End Date]**: Wählen Sie ein Start- und Enddatum für das Ziel. Wenn das Enddatum leer ist, läuft das Ziel nie ab.
-1. Klicken **[!UICONTROL Save]****[!UICONTROL Done]** Sie auf und dann auf.
+1. Click **[!UICONTROL Save]** and then click **[!UICONTROL Done]**.
 
-## Datenexport-Beschriftungen zu einem Ziel hinzufügen {#add-data-export-labels}
+## Add Data Export Labels to a Destination {#add-data-export-labels}
 
-[!DNL Data Export Labels] mit den [!DNL Export Controls] in einer Datenquelle festgelegten Arbeiten. [!DNL Data Export Labels] verhindern, dass Sie einem Segment eingeschränkte Eigenschaften hinzufügen und Segmentdaten an ein Ziel senden. Sie können mehrere Beschriftungen auf ein neues oder ein vorhandenes [!DNL cookie] oder [!DNL URL] ein Ziel festlegen.
+[!DNL Data Export Labels] mit den [!DNL Export Controls] in einer Datenquelle festgelegten Arbeiten. [!DNL Data Export Labels] verhindern, dass Sie einem Segment eingeschränkte Eigenschaften hinzufügen und Segmentdaten an ein Ziel senden. You can set multiple export labels to a new or existing [!DNL cookie] or [!DNL URL] destination.
 
 >[!NOTE]
 >
->Um eine Exportbeschriftung hinzuzufügen, benötigen Sie Administratorrechte *oder* ausreichende Rechte, um ein Ziel zu erstellen oder zu bearbeiten.
+>To add an export label, you need administrator permissions *or* sufficient privileges to create or edit a destination.
 
 <!-- t_export_labels.xml -->
 
 So fügen Sie einem Ziel eine Exportbeschriftung hinzu:
 
 1. Klicken Sie auf **[!UICONTROL Audience Data]**:
-   * Für neue Ziele: Klicken **[!UICONTROL Create New Destination]** Sie auf. Füllen Sie den [!UICONTROL Basic Information] Abschnitt aus, bevor Sie eine Datenexportbeschriftung auswählen. Weitere Informationen finden Sie unter [Erstellen eines Cookie-Ziels](../../features/destinations/manage-destinations.md#create-cookie-destination) oder [Erstellen eines URL-Ziels](../../features/destinations/manage-destinations.md#configure-url-destination) .
-   * Für vorhandene Ziele: Verwenden Sie das [!DNL Search] Kästchen, um Ihr Ziel zu finden, oder klicken Sie auf den Zielnamen, um ihn zu öffnen.
+   * For new destinations: Click **[!UICONTROL Create New Destination]**. Complete the [!UICONTROL Basic Information] section before you select a data export label. See [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination) or [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination) for information.
+   * For existing destinations: Use the [!DNL Search] box to find your destination or scroll through the list and click on the destination name to open it.
 1. Wählen Sie eine [!DNL Data Export Label]. Lassen Sie die Kontrollkästchen leer, wenn Sie keine Exportbeschränkungen festlegen möchten. Zu den Exportbeschriftungen zählen die folgenden Optionen:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
@@ -319,7 +319,7 @@ So fügen Sie einem Ziel eine Exportbeschriftung hinzu:
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
    >[!IMPORTANT]
    >
-   >Exporteinschränkungen funktionieren nur, wenn Sie ein [passendes Exportsteuerelement](../../features/data-export-controls.md) für eine Datenquelle festlegen.
+   >Export restrictions will not work unless you set a [matching export control](../../features/data-export-controls.md) on a data source.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORE_ LIKE_ THIS]
