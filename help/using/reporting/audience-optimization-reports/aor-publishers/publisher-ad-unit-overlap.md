@@ -11,29 +11,29 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Anzeigenüberlappung{#ad-unit-overlap}
+# Ad Unit Overlap{#ad-unit-overlap}
 
-Der **[!UICONTROL Ad Unit Overlap]** Bericht wird als ein Heat Chart angezeigt, das hohe und niedrige Überlappungen zwischen Ihren Anzeigeneinheiten hervorhebt.
+The **[!UICONTROL Ad Unit Overlap]** report is displayed as a heat chart that highlights high and low overlaps between your Ad Units.
 
 ## Nutzungsszenario {#use-cases}
 
-Mit dem **[!UICONTROL Ad Unit Overlap]** Bericht können Sie Einblicke gewinnen, wo sich Ihre Zielgruppe über Ihre Webeigenschaften hinweg überlappen. Der Bericht betrachtet Ihre 100 wichtigsten Eigenschaften und zeigt Ihnen die Überlappung.
+With the **[!UICONTROL Ad Unit Overlap]** report, you can gain insight into where your audience overlaps across your web properties. Der Bericht betrachtet Ihre 100 wichtigsten Eigenschaften und zeigt Ihnen die Überlappung.
 
-## Verwenden des Anzeigenüberlappungs-Berichts {#using-the-report}
+## Using the Ad Unit Overlap Report {#using-the-report}
 
-Verwenden Sie die **[!UICONTROL Top N Base Ad Units]** Steuerelemente und **[!UICONTROL Top N Overlapping Ad Units]** Steuerelemente, um die gewünschte Anzahl von Anzeigeneinheiten für die Überschneidung auszuwählen. Sie können jeweils maximal 100 Elemente auswählen.
+Use the **[!UICONTROL Top N Base Ad Units]** and **[!UICONTROL Top N Overlapping Ad Units]** controls to select your desired number of ad units for the overlap. Sie können jeweils maximal 100 Elemente auswählen.
 
-Verwenden Sie den Steuerumfang **für Tagesbereich** und **Datum,** um den Look-Back-Bereich anzupassen. Beachten Sie, dass der 7-Tage- und 30-Tage-Suchzeitraum nur für Sonntag verfügbar sind.
+Use the **Day Range** and **Date Through** controls to adjust your look-back range. Beachten Sie, dass der 7-Tage- und 30-Tage-Suchzeitraum nur für Sonntag verfügbar sind.
 
-Verwenden Sie den **[!UICONTROL Base Ad Unit]** und **[!UICONTROL Overlap Ad Unit]** die Steuerelemente, um auszuwählen, welche Ihrer Anzeigeneinheiten im Überlappungsbericht angezeigt werden sollen.
+Use the **[!UICONTROL Base Ad Unit]** and the **[!UICONTROL Overlap Ad Unit]** controls to select which of your ad units you want to display in the overlap report.
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten hinzufügen, [!UICONTROL Ad Unit IDs]wie in Schritt 3 von [DFP-Datendateien in Audience Manager importieren](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft anstelle [!UICONTROL Ad Unit] von &quot;und [!UICONTROL Ad Unit ID]«ausführt.
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
 
-## Interpretieren der Ergebnisse {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
-Ihr [!UICONTROL Ad Unit Overlap] Bericht könnte wie folgt aussehen. Bewegen Sie den Mauszeiger über eine Zelle, um weitere Informationen zu dieser Überlappung abzurufen. Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
+Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Bewegen Sie den Mauszeiger über eine Zelle, um weitere Informationen zu dieser Überlappung abzurufen. Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
 ![](assets/publisher_ad_unit_overlap.png)
 
@@ -63,11 +63,11 @@ Ihr [!UICONTROL Ad Unit Overlap] Bericht könnte wie folgt aussehen. Bewegen Sie
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Überlappende Uniques-Anzahl</span> </p> </td> 
-   <td colname="col2"> <p>Die Überlappung zwischen Ihren Benutzern, die eine <span class="wintitle"> Base Ad Unit</span> - und <span class="wintitle"> Überlappungsanzeigeneinheit besucht</span>haben. </p> </td> 
+   <td colname="col2"> <p>The overlap between your users who have visited a <span class="wintitle"> Base Ad Unit</span> and <span class="wintitle"> Overlap Ad Unit</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Überlappungsprozentsatz</span> </p> </td> 
-   <td colname="col2"> <p>Die Überlappung zwischen Ihren Benutzern, die eine <span class="wintitle"> Base Ad Unit</span> - und <span class="wintitle"> Überlappungsanzeigeneinheit besucht</span>haben. Hierbei handelt es sich um die <span class="wintitle"> Überlappende Uniques-Anzahl</span>, ausgedrückt als Prozentsatz der <span class="wintitle"> Basisanzeigeneinheit</span>. </p> </td> 
+   <td colname="col2"> <p>The overlap between your users who have visited a <span class="wintitle"> Base Ad Unit</span> and <span class="wintitle"> Overlap Ad Unit</span>. This is the <span class="wintitle"> Overlap Uniques Count</span>, expressed as a percentage of the <span class="wintitle"> Base Ad Unit</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
