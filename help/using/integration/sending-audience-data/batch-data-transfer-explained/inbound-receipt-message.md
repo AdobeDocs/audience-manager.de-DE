@@ -11,9 +11,9 @@ source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 ---
 
 
-# Beispielnachricht für Partner nach der eingehenden Verarbeitung{#sample-message-to-partners-after-inbound-processing}
+# Sample Message to Partners after Inbound Processing{#sample-message-to-partners-after-inbound-processing}
 
-Wenn eine Inbound [!UICONTROL Server-to-Server] -Datei verarbeitet wird, wird ein Beleg per E-Mail an Partnerlösungen gesendet und, falls konfiguriert, dem Partner.
+Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.
 
 <!-- r_inbound_message.xml -->
 
