@@ -12,57 +12,57 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Ordnereigenschaften verwalten {#manage-folder-traits}
+# Manage Folder Traits {#manage-folder-traits}
 
 Erstellen, bearbeiten und löschen Sie Ordnereigenschaften.
 
-## Erstellen eines Ordnermerkmals {#create-folder-trait}
+## Create a Folder Trait {#create-folder-trait}
 
-A [!UICONTROL folder trait] wird automatisch erstellt, wenn Sie einen neuen Ordner in der Taxonomie erstellen.
+A [!UICONTROL folder trait] is created automatically when you create a new folder in your taxonomy.
 
 <!-- create-folder-trait.xml -->
 
-1. Navigieren Sie zum **[!UICONTROL Audience Data > Traits]****Eigenschaften** -Dashboard.
-1. Bewegen Sie den Mauszeiger im [!UICONTROL Trait Storage] Fenster über:
+1. Go to **[!UICONTROL Audience Data > Traits]** to navigate to the **Traits** dashboard.
+1. In the [!UICONTROL Trait Storage] window, hover over:
 
    * Text für alle Eigenschaften, um einen neuen Stammordner für Ebenen hinzuzufügen.
    * Ein vorhandener übergeordneter Ordner, um einen neuen untergeordneten Ordner hinzuzufügen.
    ![](assets/folder_traits_create.PNG)
 
 1. Klicken Sie auf das Symbol +, um den Ordner zu erstellen. Beachten Sie, dass Sie in Ihrer Taxonomie maximal 2.000 Ordner erstellen können. Weitere Informationen finden Sie in der Dokumentation zu den [Nutzungsbeschränkungen](../../features/administration/usage-limits.md).
-1. Benennen Sie den Ordner und klicken Sie auf **Speichern**. Beispielsweise verfügt ein Ordner namens Electronics über eine Ordnereigenschaft mit dem Namen &quot;Elektronikordnereigenschaften&quot; . Sie können die neue Ordnereigenschaft im Eigenschaften-Dashboard anzeigen und auswählen.
-1. Die neue Ordnereigenschaft wird automatisch der [!DNL Audience Manager] generierten Datenquelle zugewiesen. Ihre Benutzer mit entsprechenden [! UICONTROL rollenbasierte Zugriffssteuerungssteuerung ([!DNL RBAC])] kann die Datenquelle im Arbeitsablauf für den Bearbeitungsordner ändern. Siehe [Bearbeiten von Ordnereigenschaften](../../features/traits/manage-folder-traits.md#edit-folder-trait).
+1. Name the folder and click **Save**. Beispielsweise verfügt ein Ordner namens Electronics über eine Ordnereigenschaft mit dem Namen "Elektronikordnereigenschaften" . Sie können die neue Ordnereigenschaft im Eigenschaften-Dashboard anzeigen und auswählen.
+1. The new folder trait is automatically assigned to the [!DNL Audience Manager] generated data source. Your users with appropriate [!UICONTROL Role-Based Access Control ([!DNL RBAC])] permissions can change the data source in the edit folder trait workflow. See [Edit a Folder Trait](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
-## Bearbeiten eines Ordnermerkmals {#edit-folder-trait}
+## Edit a Folder Trait {#edit-folder-trait}
 
-Beschreibt, wie Sie A bearbeiten [!UICONTROL folder trait]können.
+Describes how you can edit a [!UICONTROL folder trait].
 
 <!-- edit-folder-trait.xml -->
 
-1. Bewegen Sie den Mauszeiger im [!UICONTROL Traits] Dashboard über die **[!UICONTROL Actions]** Spalte, die Sie bearbeiten möchten.
+1. In the [!UICONTROL Traits] dashboard, hover over the **[!UICONTROL Actions]** column for the folder trait you want to edit.
 1. Klicken Sie auf den Stiftsymbol, um die Eigenschaft zu bearbeiten.
 
    ![](assets/folder_traits_edit_border.png)
 
-1. Mit dem **[!UICONTROL Edit]** Workflow können Sie die Datenquelle für Ordnereigenschaften ändern. Wählen Sie die gewünschte Datenquelle aus und klicken **[!UICONTROL Save]** Sie auf. Datenquellen werden numerisch (in [!DNL DPID]der Dropdown-Liste) sortiert.
+1. The **[!UICONTROL Edit]** workflow allows you to change the data source for folder traits. Select your desired data source and click **[!UICONTROL Save]**. Data sources are sorted numerically, by [!DNL DPID], in the drop-down box.
 
-   Wenn Ihr Unternehmen verwendet [!UICONTROL Role-Based Access Rights (RBAC)]wird, benötigen Sie oder Ihre Benutzer [Zugriffsrechte](../../features/traits/about-folder-traits.md#role-based-access-controls) auf Datenquellen für die Eigenschaften.
+   If your company uses [!UICONTROL Role-Based Access Rights (RBAC)], you or your users need [access permissions](../../features/traits/about-folder-traits.md#role-based-access-controls) to traits data sources.
 
 >[!NOTE]
 >
 >Ordnereigenschaften können nicht direkt umbenannt werden. [Benennen Sie den zugehörigen Speicherordner](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) um, um den Namen der Ordnereigenschaft zu ändern.
 
-## Löschen eines Ordnermerkmals {#delete-folder-trait}
+## Delete a Folder Trait {#delete-folder-trait}
 
 Löschen Sie ein Ordnermerkmal, indem Sie den Speicherordner löschen, zu dem die Eigenschaft gehört.
 
 <!-- delete-folder-trait.xml -->
 
 1. **Zielgruppendaten &gt; Eigenschaften** , um zum **Eigenschaften** -Dashboard zu navigieren.
-1. Löschen Sie im [!UICONTROL Trait Storage] Fenster einen Ordner, indem Sie ihn über ihn bewegen und auf das X-Symbol klicken.
+1. In the [!UICONTROL Trait Storage] window, delete a folder by hovering over it and clicking the X icon.
 
    ![Schrittergebnis](assets/folder_traits_create.PNG)
 
 >[!NOTE]
 >
->Sie können Ordnereigenschaften nicht löschen, wenn sie in einem Segmentausdruck verwendet werden. Navigieren Sie zum Abschnitt [Eigenschaften-Ansicht](../../features/traits/trait-details-page.md) , um zu sehen, welche Segmente die Ordnereigenschaft verwenden. Klicken Sie dann auf den Segmentnamen, um die [Segmentzusammenfassungsansicht](../../features/segments/segment-summary-view.md)zu öffnen. Dadurch können Sie Eigenschaften aus Segmentausdrücken entfernen.
+>Sie können Ordnereigenschaften nicht löschen, wenn sie in einem Segmentausdruck verwendet werden. Navigate to the [trait view](../../features/traits/trait-details-page.md) section to see which segments use the folder trait. Then, click on the segment name to open the [segment summary view](../../features/segments/segment-summary-view.md), which allows you to remove traits from segment expressions.
