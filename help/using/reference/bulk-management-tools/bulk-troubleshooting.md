@@ -11,7 +11,7 @@ source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 ---
 
 
-# Tipps zur Fehlerbehebung für Massenverwaltungswerkzeuge{#troubleshooting-tips-for-bulk-management-tools}
+# Troubleshooting Tips for Bulk Management Tools{#troubleshooting-tips-for-bulk-management-tools}
 
 Was soll getan werden, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Massenanforderung fehlschlägt
 
@@ -25,7 +25,7 @@ Was soll getan werden, wenn die Arbeitsblätter einen Fehler zurückgeben oder I
 
 >[!NOTE]
 >
->Die Variable [!UICONTROL Bulk Management Tools]*wird nicht* unterstützt [!DNL Audience Manager]. Dieses Tool wird zur Bequemlichkeit und nur als Freundlichkeit bereitgestellt. Für Massenänderungen wird empfohlen, stattdessen mit den [Audience Manager-apis](../../api/rest-api-main/aam-api-getting-started.md) zu arbeiten. [RBAC-Gruppenberechtigungen,](../../features/administration/administration-overview.md) die in der [!DNL Audience Manager] Benutzeroberfläche zugewiesen [!UICONTROL Bulk Management Tools]wurden, werden in der Benutzeroberfläche berücksichtigt.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Dieses Tool wird zur Bequemlichkeit und nur als Freundlichkeit bereitgestellt. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC-Gruppenberechtigungen,](../../features/administration/administration-overview.md) die in der [!DNL Audience Manager] Benutzeroberfläche zugewiesen [!UICONTROL Bulk Management Tools]wurden, werden in der Benutzeroberfläche berücksichtigt.
 
 Faktoren wie starke Netzwerkverkehr, Servernutzung und große Datensätze können dazu führen, dass eine Massenanforderung fehlschlägt oder Zeitüberschreitung verursacht. Wenn es ein Problem gibt, werden mit dem Arbeitsblatt Daten beendet und eine Fehlermeldung angezeigt. In diesem Fall sollten Sie Folgendes tun:
 
@@ -34,7 +34,7 @@ Faktoren wie starke Netzwerkverkehr, Servernutzung und große Datensätze könne
 * Löschen Sie alle bereits aktualisierten Zeilen.
 * Versuchen Sie es erneut mit der Massenanforderung.
 
-## Lange Verzögerungen oder nicht reaktionsfähiges Verhalten {#delays-behavior}
+## Long delays or unresponsive behavior {#delays-behavior}
 
 In der folgenden Tabelle sind einige allgemeine Probleme aufgeführt, die auftreten können, wenn Sie Massenanforderungen mit den Arbeitsblättern erstellen. Versuchen Sie, diese Probleme mit den empfohlenen Lösungen zu beheben. Wenn die empfohlenen Lösungen das Problem nicht lösen, sollten Sie Ihre Arbeit speichern, Ihren Computer neu starten und die Anforderung erneut versuchen, ohne mit anderen Anwendungen zu starten oder arbeiten zu müssen.
 
