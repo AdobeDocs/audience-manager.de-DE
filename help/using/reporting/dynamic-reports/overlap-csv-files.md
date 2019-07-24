@@ -11,13 +11,13 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
 ---
 
 
-# CSV-Dateien für Überlappungsberichte{#csv-files-for-overlap-reports}
+# CSV Files for Overlap Reports{#csv-files-for-overlap-reports}
 
-Sie können eine CSV-Datei für einen Overlap Report anfordern, wenn dieser Bericht die Rekordgrenze von 1 Million erreicht. Ein Bericht hat diesen Grenzwert möglicherweise erreicht, wenn der Meldung &quot;Unerwarteter Fehler ist aufgetreten&quot; angezeigt wird. Wenden Sie sich an den Kundendienst, um eine komprimierte. csv-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem arbeiten können. Dateien sind für Segmente zu Segmenten, Segmenten, Segmenten und Eigenschaften verfügbar.
+Sie können eine CSV-Datei für einen Overlap Report anfordern, wenn dieser Bericht die Rekordgrenze von 1 Million erreicht. Ein Bericht hat diesen Grenzwert möglicherweise erreicht, wenn der Meldung "Unerwarteter Fehler ist aufgetreten" angezeigt wird. Wenden Sie sich an den Kundendienst, um eine komprimierte. csv-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem arbeiten können. Dateien sind für Segmente zu Segmenten, Segmenten, Segmenten und Eigenschaften verfügbar.
 
-## Dateinamenmetadaten {#file-name-metadata}
+## File Name Metadata {#file-name-metadata}
 
-In der folgenden Tabelle sind die Dateibenennungskonventionen und Dateierweiterungen aufgeführt, die in einer überlappenden. csv-Datei verwendet werden. In den Beispielen gibt *kursiv einen* Variablenplatzhalter an.
+In der folgenden Tabelle sind die Dateibenennungskonventionen und Dateierweiterungen aufgeführt, die in einer überlappenden. csv-Datei verwendet werden. In the examples, *italics* indicates a variable placeholder.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
@@ -29,15 +29,15 @@ In der folgenden Tabelle sind die Dateibenennungskonventionen und Dateierweiteru
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Datei Erweiterung </p> </td> 
-   <td colname="col2"> <p>Überlappungsberichtsdateien sind gzip komprimiert und haben eine <code> .gz</code> Dateierweiterung. Sie müssen die <code> . csv</code> -Erweiterung der Datei nach der Dekomprimierung hinzufügen. </p> </td> 
+   <td colname="col2"> <p>Overlap report files are gzip compressed and have a <code> .gz</code> file extension. You must add the <code> .csv</code> extension to the file after decompression. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dateiname </p> </td> 
    <td colname="col2"> <p>Syntax für Dateiname: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">Segmentsegmentdateien: <code>Bereich "S 2 S_ overlap_<i>partner ID</i>_<i>jjjjj-mm</i>_ tt_<i>date «</i></code> </li> 
-      <li id="li_7DEC51D693FB4377840D652AF40386EF">Segmentzu-Eigenschaften-Dateien: <code>Bereich "S 2 T_ overlap_<i>partner ID</i>_<i>jjjjj-mm</i>_ tt_<i>date «</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">Trait-to-Trait-Dateien: <code>T 2 T_ overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>datumsbereich</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">Segment-to-segment files: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_7DEC51D693FB4377840D652AF40386EF">Segment-to-trait files: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">Trait-to-trait files: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -56,8 +56,8 @@ In der folgenden Tabelle sind die Dateibenennungskonventionen und Dateierweiteru
    <td colname="col1"> <p>Beispiele </p> </td> 
    <td colname="col2"> <p>Beispiele für Dateinamen für einen einzelnen Bericht: </p> <p> 
      <ul id="ul_EED13F73F37D48868236F8945E19C88F"> 
-      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">Einzelne, 7-Tage-Datei: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
-      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">Einzelne 30-Tage-Datei: <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
+      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">Single, 7-day file: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
+      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">Single, 30-day file: <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
      </ul> </p> <p>Beispiele für Dateinamen für einen Bericht mit mehreren Dateien: </p> <p> 
      <ul id="ul_D307EECBB3524962AB8C8332BF699D29"> 
       <li id="li_9FA3B5539E5A4F95899075866D96DEA0"> <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
@@ -68,7 +68,7 @@ In der folgenden Tabelle sind die Dateibenennungskonventionen und Dateierweiteru
  </tbody> 
 </table>
 
-## Dateiinhalt {#file-contents}
+## File Contents {#file-contents}
 
 In der Datei sind Zeichenfolgendaten in doppelte Anführungszeichen eingeschlossen. Siehe die unten stehenden Daten. Dies wurde für die Darstellung abgeschnitten und passend zum Bildschirm.
 
@@ -79,9 +79,9 @@ In der Datei sind Zeichenfolgendaten in doppelte Anführungszeichen eingeschloss
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## Datensätze zum Segmentvergleich {#segment-segment-records}
+## Segment-to-Segment Report Records {#segment-segment-records}
 
-Eine Datendatei für Ihr [Segment-zu-Segment-Überlappungsbericht](segment-segment-overlap-report.md) enthält die folgenden Datensätze.
+A data file for your [Segment-to-Segment Overlap Report](segment-segment-overlap-report.md) contains the following records.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -109,7 +109,7 @@ Eine Datendatei für Ihr [Segment-zu-Segment-Überlappungsbericht](segment-segme
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für einen Zeitraum von 7 und 30 Tagen abrufen. Die <code> rangeid</code> entspricht den unten aufgeführten Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für einen Zeitraum von 7 und 30 Tagen abrufen. The <code> rangeid</code> corresponds to the time intervals shown below. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7-Tage </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 Tage </li> 
@@ -138,9 +138,9 @@ Eine Datendatei für Ihr [Segment-zu-Segment-Überlappungsbericht](segment-segme
  </tbody> 
 </table>
 
-## Berichtsdatensätze für Segmente {#segment-trait-records}
+## Segment-to-Trait Report Records {#segment-trait-records}
 
-Eine Datendatei für Ihren [Segmentzu-Trait-Überlappungs-Bericht](segment-trait-overlap-report.md) enthält die folgenden Datensätze.
+A data file for your [Segment-to-Trait Overlap Report](segment-trait-overlap-report.md) contains the following records.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -172,7 +172,7 @@ Eine Datendatei für Ihren [Segmentzu-Trait-Überlappungs-Bericht](segment-trait
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für einen Zeitraum von 7 und 30 Tagen abrufen. Die <code> rangeid</code> entspricht den unten aufgeführten Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für einen Zeitraum von 7 und 30 Tagen abrufen. The <code> rangeid</code> corresponds to the time intervals shown below. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7-Tage </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 Tage </li> 
@@ -205,9 +205,9 @@ Eine Datendatei für Ihren [Segmentzu-Trait-Überlappungs-Bericht](segment-trait
  </tbody> 
 </table>
 
-## Trait-to-Trait-Berichtsdatensätze {#trait-trait-records}
+## Trait-to-Trait Report Records {#trait-trait-records}
 
-Eine Datendatei für Ihren [Trait-to-Trait-Überlappungsbericht](trait-trait-overlap-report.md) enthält die folgenden Datensätze.
+A data file for your [Trait-to-Trait Overlap Report](trait-trait-overlap-report.md) contains the following records.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -247,7 +247,7 @@ Eine Datendatei für Ihren [Trait-to-Trait-Überlappungsbericht](trait-trait-ove
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für einen Zeitraum von 7 und 30 Tagen abrufen. Die <code> rangeid</code> entspricht den unten aufgeführten Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für einen Zeitraum von 7 und 30 Tagen abrufen. The <code> rangeid</code> corresponds to the time intervals shown below. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7-Tage </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 Tage </li> 
