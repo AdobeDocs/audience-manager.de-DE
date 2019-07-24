@@ -25,20 +25,20 @@ Adobe unterstützt die neueste Hauptversion dieser Browser:
 
 * **Google Chrome**
 
-   Rufen Sie die aktuelle Chrome-Version von [http://www.google.com/chrome](http://www.google.com/chrome)auf.
+   Get the latest Chrome version from [http://www.google.com/chrome](http://www.google.com/chrome).
 
 * **Microsoft Edge**
 
    (Adobe beendet die Unterstützung für Internet Explorer 11 in Audience Manager am 10. Juli 2019. Wechseln Sie so bald wie möglich zur neuesten Hauptversion von Microsoft Edge oder einem anderen unterstützten Browser.)
 
-   Rufen Sie die neueste Edge-Version von [https://www.microsoft.com/windows/microsoft-edge](https://www.microsoft.com/windows/microsoft-edge)auf.
+   Get the latest Edge version from [https://www.microsoft.com/windows/microsoft-edge](https://www.microsoft.com/windows/microsoft-edge).
 
 * **Mozilla Firefox**
 
-   Rufen Sie die neueste Firefox-Version von [http://www.mozilla.com/en-US/firefox](http://www.mozilla.com/en-US/firefox)auf.
+   Get the latest Firefox version from [http://www.mozilla.com/en-US/firefox](http://www.mozilla.com/en-US/firefox).
 
 * **Safari**
 
-   Rufen Sie die neueste Safari-Version von [http://www.apple.com/safari/download](http://www.apple.com/safari/download)auf.
+   Get the latest Safari version from [http://www.apple.com/safari/download](http://www.apple.com/safari/download).
 
-Andere Browser funktionieren möglicherweise, werden jedoch von unseren technischen und Produktteams nicht unterstützt. Wenn Sie Probleme mit der Arbeit haben, stellen [!DNL Audience Manager]Sie sicher, dass Sie einen aktuellen und unterstützten Browser verwenden.
+Andere Browser funktionieren möglicherweise, werden jedoch von unseren technischen und Produktteams nicht unterstützt. If you're having trouble working with [!DNL Audience Manager], make sure you're using an up to date and supported browser.
