@@ -11,23 +11,23 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Trendanalyse- und Volumenanalyseberichte{#trend-analysis-and-volume-analysis-reports}
+# Trend Analysis and Volume Analysis Reports{#trend-analysis-and-volume-analysis-reports}
 
 Diese Berichte geben Daten zu Impressionen, Durchklickraten und Konversionen für eine breite Palette von Anzeigendimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild darüber zu erhalten, wie Ihre Kampagne im Laufe der Zeit läuft.
 
-## Beispiel für Trendanalyse-Bericht {#sample-trend-analysis}
+## Sample Trend Analysis Report {#sample-trend-analysis}
 
-Der [!UICONTROL Trend Analysis] Bericht gibt Daten in einem Liniendiagramm nur für ein 14-Tage-Intervall zurück. In diesem Beispiel zeigt der Bericht Impressionen, Durchklickraten und Umrechnungstrends für eine Gruppe zugeordneter Segmente an.
+The [!UICONTROL Trend Analysis] report returns data in a line graph for a 14-day interval only. In diesem Beispiel zeigt der Bericht Impressionen, Durchklickraten und Umrechnungstrends für eine Gruppe zugeordneter Segmente an.
 
 ![](assets/trend-analysis.png)
 
-## Bericht zur Stichprobenvolumenanalyse {#sample-volume-analysis}
+## Sample Volume Analysis Report {#sample-volume-analysis}
 
-Der [!UICONTROL Volume Analysis] Bericht gibt Daten in einem Balkendiagramm für den ausgewählten Datumsbereich zurück. In diesem Beispiel zeigt der Bericht Impressionen, Clickthrough und Konversionen nach Volumen für eine Reihe zugeordneter Segmente an.
+The [!UICONTROL Volume Analysis] report returns data in a bar graph for your selected date range. In diesem Beispiel zeigt der Bericht Impressionen, Clickthrough und Konversionen nach Volumen für eine Reihe zugeordneter Segmente an.
 
 >[!NOTE]
 >
->Die Look-back-Zeiträume von 7 Tagen und 30 Tagen sind nur für Sonntag **[!UICONTROL Date Through]** verfügbar.
+>7-day and 30-day look-back periods are only available for Sunday **[!UICONTROL Date Through]** dates.
 
 ![](assets/volume-analysis.png)
 
