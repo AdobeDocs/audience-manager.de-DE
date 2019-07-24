@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Präfix für Schlüsselvariablen {#prefix-requirements-for-key-variables}
+# Prefix Requirements for Key Variables {#prefix-requirements-for-key-variables}
 
 In diesem Artikel werden die Präfixe beschrieben, die Sie bei der Erstellung von Eigenschaftsregeln an Schlüsselvariablen anhängen müssen.
 
@@ -19,11 +19,11 @@ In diesem Artikel werden die Präfixe beschrieben, die Sie bei der Erstellung vo
 
 ## Zweck der Präfixe von Schlüsselvariablen
 
-Beim Erstellen [!UICONTROL Trait Builder] von Regeln ist es wichtig, die Schlüsselvariable mit einem empfohlenen Präfix vorzustellen. Diese Präfixe identifizieren die Art der übergebenen Daten und helfen [!DNL Audience Manager]bei der Vermeidung von Namespace-Konflikten. Im Allgemeinen können Sie einer Variablen einen beliebigen Namen geben, aber die Daten für eine Regel werden nicht verarbeitet, wenn der Name der Schlüsselvariablen nicht dem Variablennamen in einem Ereignisaufruf entspricht.
+When you create [!UICONTROL Trait Builder] rules, it is important to preface the key variable with a recommended prefix. These prefixes identify the type of data passed in and help avoid namespace conflicts within [!DNL Audience Manager]. Im Allgemeinen können Sie einer Variablen einen beliebigen Namen geben, aber die Daten für eine Regel werden nicht verarbeitet, wenn der Name der Schlüsselvariablen nicht dem Variablennamen in einem Ereignisaufruf entspricht.
 
 ## Präfixe für Schlüsselvariablen
 
-In der folgenden Tabelle sind die häufig verwendeten Präfixe definiert [!UICONTROL Trait Builder].
+The following table defines the common prefixes used by [!UICONTROL Trait Builder].
 
 <table id="table_CFEFA1DBDF904736B6EA2640B7AD26E5"> 
  <thead> 
@@ -39,15 +39,15 @@ In der folgenden Tabelle sind die häufig verwendeten Präfixe definiert [!UICON
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Auf Audience <span class="keyword"> Manager</span> -Ebene. Diese Daten sind im <span class="keyword"> gesamten Audience Manager</span> -System einheitlich. Eine vollständige Liste finden Sie unter <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Unterstützte Attribute für DCS-API-Aufrufe</a> . </p> </td> 
+   <td colname="col2"> <p>At the <span class="keyword"> Audience Manager</span> level. This data is uniform across the <span class="keyword"> Audience Manager</span> ecosystem. See <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Supported Attributes for DCS API Calls</a> for a more complete list. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Dies enthält <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP-Header</a> -Informationen. Enthält Kopfzeilenparameter wie <code> Referrer</code>,<code> IP</code>, <code> accept-language</code>usw. </p> <p> <p>Hinweis: Für Kunden, die ältere DIL-Versionen als 9.0 verwenden, funktioniert die Datenerfassung mit <code> dem h_ referenzer</code> -Signal in Safari-Browsern nicht. Mit der Einführung von <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>können Safari-Browser die Domäne demdex. net als Tracker klassifizieren und den Referrer auf der Datenerfassungsanforderung kürzen, sodass er nur den Ursprung anstelle der vollständigen URL enthält. Siehe <a href="../../dil/dil-overview.md#get-implement-dil-code">Abrufen und Implementieren von DIL-Code</a> für die aktuelle DIL-Version. </p> </p> </td> 
+   <td colname="col2"> <p>That contains <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP header</a> information. Includes header parameters such as <code> referer</code>,<code> IP</code>, <code> accept-language</code>, etc. </p> <p> <p>Note: For customers using DIL versions older than 9.0, data collection using the <code> h_referer</code> signal will not work on Safari browsers. With the introduction of <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, Safari browsers may classify the demdex.net domain as a tracker and will truncate the referrer on the data collection request to only contain the origin instead of the full URL. See <a href="../../dil/dil-overview.md#get-implement-dil-code">Getting and Implementing DIL Code</a> for the latest DIL version.. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p>Unsere <span class="wintitle"> Datenerfassungsserver</span> ermöglichen die Übergabe privater Parameter. Grundsätzlich wird jeder Parameter, der mit <code> p_</code> beginnt, für die Eigenschaftenauswertung verwendet, wird jedoch nicht nach unten protokolliert oder gespeichert. </p> <p>Beispiel: angegeben <code> ? p_ age = 23</code> und eine Eigenschaft wie <code> "youngpeople = p_ age &lt; 25</code>" wird realisiert, aber das <code> Schlüssel-Wert-Paar p_ age = 23</code> wird nach der Anforderung abgelegt und wird nicht protokolliert. </p> </td> 
+   <td colname="col2"> <p>Our <span class="wintitle"> Data Collection Servers</span> allow passing of private parameters. Basically, any parameter that starts with <code> p_</code> will be used for trait evaluation, but it will not be logged downstream, nor stored. </p> <p>Example: given <code> /event?p_age=23</code> and a trait like <code> YoungPeople = p_age &lt; 25</code>, the trait will be realized, but the <code> p_age=23</code> key-value pair will be dropped after the request and will not be logged. </p> </td> 
   </tr> 
  </tbody> 
 </table>
