@@ -1,6 +1,6 @@
 ---
 description: Interaktive Berichte zeigen Leistungs- und Überlappungsdaten für Eigenschaften und Segmente an. Statt Zahlen in Spalten und Zeilen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie für weitere Details einzelne Datenpunkte oder Datengruppen im Drilldown-Verfahren auswählen. Diese Visualisierungstechniken und Interaktivitätsinteraktivität erleichtern die Verständlichkeit von numerischen Daten.
-seo-description: ' Statt Zahlen in Spalten und Zeilen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie für weitere Details einzelne Datenpunkte oder Datengruppen im Drilldown-Verfahren auswählen. Diese Visualisierungstechniken und Interaktivitätsinteraktivität erleichtern die Verständlichkeit von numerischen Daten.'
+seo-description: Interaktive Berichte zeigen Leistungs- und Überlappungsdaten für Eigenschaften und Segmente an. Statt Zahlen in Spalten und Zeilen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie für weitere Details einzelne Datenpunkte oder Datengruppen im Drilldown-Verfahren auswählen. Diese Visualisierungstechniken und Interaktivitätsinteraktivität erleichtern die Verständlichkeit von numerischen Daten.
 seo-title: Interaktive und Überlappungsberichte
 solution: Audience Manager
 title: Interaktive und Überlappungsberichte
@@ -11,9 +11,9 @@ source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 ---
 
 
-# Interaktive und Überlappungsberichte{#interactive-and-overlap-reports}
+# Interactive and Overlap Reports{#interactive-and-overlap-reports}
 
- Statt Zahlen in Spalten und Zeilen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie für weitere Details einzelne Datenpunkte oder Datengruppen im Drilldown-Verfahren auswählen. Diese Visualisierungstechniken und Interaktivitätsinteraktivität erleichtern die Verständlichkeit von numerischen Daten.
+Interaktive Berichte zeigen Leistungs- und Überlappungsdaten für Eigenschaften und Segmente an. Statt Zahlen in Spalten und Zeilen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie für weitere Details einzelne Datenpunkte oder Datengruppen im Drilldown-Verfahren auswählen. Diese Visualisierungstechniken und Interaktivitätsinteraktivität erleichtern die Verständlichkeit von numerischen Daten.
 
 + [Berichtstechnologie](interactive-report-technology.md)
 + [Bereitstellung und Leistungsbericht](delivery-performance-report.md)
@@ -24,7 +24,7 @@ source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 + [Verbessern der Protokolldateiverarbeitung mit Suchtabellen](lookup-tables.md)
 + [Berichtsergebnisse mit den Datenreglern filtern](data-sliders.md)
 + [Überlappungsberichte: Zeitplan und Mindestgröße des Segments aktualisieren](overlap-minimum-segment-size.md)
-+ [CSV Files for Overlap Reports](overlap-csv-files.md)
++ [CSV-Dateien für Überlappungsberichte](overlap-csv-files.md)
 
 <!-- 
 
