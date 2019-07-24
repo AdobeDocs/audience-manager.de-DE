@@ -11,7 +11,7 @@ source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 ---
 
 
-# Pixelbasierte Datenübertragungen {#pixel-based-data-transfers}
+# Pixel-based Data Transfers {#pixel-based-data-transfers}
 
 Einfache Pixel (die zum Qualifizieren von Benutzern für Eigenschaften verwendet werden können) führen Echtzeit-Datenübertragungen durch. Mit der Audience Manager-Oberfläche können Clients eine beliebige Anzahl von Pixeln selbstständig erstellen. Pixelzeichenfolgen bestehen aus einfachen IDs oder Schlüsselwertpaaren.
 
@@ -20,18 +20,18 @@ Einfache Pixel (die zum Qualifizieren von Benutzern für Eigenschaften verwendet
 Um eingehende Datenübertragungen zu aktivieren, würde der Anbieter und Client:
 
 1. Legen Sie fest, welche Eigenschaften der Anbieter oder Partner auslösen soll.
-1. Besorgen Sie sich das Pixel für die Eigenschaft. Bewegen Sie den Mauszeiger im Bildschirm der Eigenschaftsliste über die **[!UICONTROL Actions]** Spalte und klicken Sie auf das **[!UICONTROL Get trait URL]** Symbol für die gewünschte Eigenschaft.
-1. Geben Sie [!DNL URL] dem Anbieter oder Partner die Möglichkeit.
+1. Besorgen Sie sich das Pixel für die Eigenschaft. In the traits list screen, hover over the **[!UICONTROL Actions]** column and click the **[!UICONTROL Get trait URL]** symbol for the desired trait.
+1. Provide the [!DNL URL] to the vendor or partner.
 
 ## Beispiele
 
-Dieser einfache Ereignisaufruf sendet Eigenschaften-ID 1234 an [!DNL Audience Manager].
+This basic event call sends trait ID 1234 to [!DNL Audience Manager].
 
 ```
 https://something.demdex.net/event?d_sid=1234
 ```
 
-Sie können Eigenschaften-IDs in einem Ereignisaufruf serialisieren, um `HTTP` den Traffic von der Seite zu reduzieren. Fügen Sie zusätzliche Eigenschafts-IDs an die URL-Zeichenfolge hinzu, wie im folgenden Beispiel gezeigt:
+You can serialize trait IDs in an event call to help reduce `HTTP` traffic from the page. Fügen Sie zusätzliche Eigenschafts-IDs an die URL-Zeichenfolge hinzu, wie im folgenden Beispiel gezeigt:
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432
