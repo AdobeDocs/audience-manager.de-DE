@@ -11,11 +11,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Statusaktualisierungen für Metadatendateien{#status-updates-for-metadata-files}
+# Status Updates for Metadata Files{#status-updates-for-metadata-files}
 
-Der S 3-Status-Ordner enthält eine `.info` Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Status in einem Array.
+The S3 status directory holds a `.info` file with success and failure information about your uploaded files. Die Datei enthält JSON-formatierte Daten mit Status in einem Array.
 
-Der Inhalt Ihrer `.info` Datei sieht wie in diesem Beispiel aus.
+The contents of your `.info` file will look similar to this example.
 
 ```js
 //sample file path
@@ -56,9 +56,9 @@ Der Inhalt Ihrer `.info` Datei sieht wie in diesem Beispiel aus.
 }
 ```
 
-## Metadaten-Schlüssel-Wert-Paare definiert {#key-value-pairs}
+## Metadata Key-Value Pairs Defined {#key-value-pairs}
 
-Die folgende Tabelle zeigt die Schlüssel in den `Files` Abschnitten und `Summary` Abschnitten einer Metadatenstatusdatei.
+The following tables list and define the keys in the `Files` and `Summary` sections of a metadata status file.
 
 **Schlüssel im Dateiarray**
 
@@ -80,19 +80,19 @@ Die folgende Tabelle zeigt die Schlüssel in den `Files` Abschnitten und `Summar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Die MD 5-Prüfsumme für die Metadatendatei, die in den <code> Metaordner</code> hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>The MD 5 checksum for the metadata file uploaded to your <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Filename</code> </p> </td> 
-   <td colname="col2"> <p>Der Name der Metadatendatei, die in den <code> Metaordner</code> hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>The name of the metadata file uploaded to your <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Metadatatype</code> </p> </td> 
-   <td colname="col2"> <p>Der lesbare Name für den Datentyp, den Ihre Datei enthält. Es basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Namenskonventionen für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der lesbare Name für den Datentyp, den Ihre Datei enthält. Es basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Übergeordnetes Element</code> </p> </td> 
-   <td colname="col2"> <p>Der lesbare Name für den Datentyp, den Ihre Datei enthält. Es basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Namenskonventionen für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der lesbare Name für den Datentyp, den Ihre Datei enthält. Es basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -117,7 +117,7 @@ Die folgende Tabelle zeigt die Schlüssel in den `Files` Abschnitten und `Summar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Tag</code> </p> </td> 
-   <td colname="col2"> <p>Dateiverarbeitungsdatum im <code><i>Format jjjj-mm-tt</i></code> . </p> </td> 
+   <td colname="col2"> <p>File processing date in <code><i>yyyy-mm-dd</i></code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Globalstatus</code> </p> </td> 
