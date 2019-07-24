@@ -11,9 +11,9 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 ---
 
 
-# Erfassen von Kampagnenklickdaten über Pixelaufrufe {#capturing-campaign-click-data-via-pixel-calls}
+# Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Durch Klick-Tracking können Besucherinteraktionen in Ihrer gesamten Kampagne gemessen werden, da sie klickbasierte Aktivitäten für kreative Elemente von Drittanbietern erfasst. Ähnlich wie bei der Impressionen wird zur Verarbeitung ein Ereignisaufruf an die Datenerfassungsserver von Audience Manager ([!UICONTROL DCS]) gesendet. Anschließend wird der Besucher zur gewünschten Internetadresse weitergeleitet.
+Durch Klick-Tracking können Besucherinteraktionen in Ihrer gesamten Kampagne gemessen werden, da sie klickbasierte Aktivitäten für kreative Elemente von Drittanbietern erfasst. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. Anschließend wird der Besucher zur gewünschten Internetadresse weitergeleitet.
 
 ## Voraussetzungen
 
@@ -32,15 +32,15 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## Antwort
 
-Die Antwort leitet den Browser an die [!DNL URL] angegebene im `d_rd` Parameter weiter. Die Antwortzeichenfolge kann Werte enthalten, die durch einen der unten aufgeführten unterstützten Makros generiert wurden.
+The response redirects the browser to the [!DNL URL] specified in the `d_rd` parameter. Die Antwortzeichenfolge kann Werte enthalten, die durch einen der unten aufgeführten unterstützten Makros generiert wurden.
 
-Basierend auf dem obigen Beispiel wird der Browser an [!DNL URL]Folgendes weitergeleitet:
+Based on the above example, the browser is redirected to the following [!DNL URL]:
 
 [!DNL `https://adobe.com/callback?creative=123`]
 
 ## Unterstützte Makros
 
-Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros. Ein Makro ist eine kleine Einheit von selbstenthalten Code, die aktiviert wird, wenn das Anzeigen-Tag für Kampagne und Benutzerverfolgung geladen wird. Die Makros werden zusammen mit dem Ziel [!DNL URL]weitergeleitet, sofern sie mit dem folgenden Format markiert sind: `%macro%`. Einige Schlüssel verfügen nicht über Makros und akzeptieren stattdessen einen hartkodierten ID-Wert. Schlüssel, die hartkodierte Werte akzeptieren, sind erforderlich, wenn Sie Daten in den [Zielgruppenoptimierungsberichten analysieren möchten](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros. Ein Makro ist eine kleine Einheit von selbstenthalten Code, die aktiviert wird, wenn das Anzeigen-Tag für Kampagne und Benutzerverfolgung geladen wird. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. Einige Schlüssel verfügen nicht über Makros und akzeptieren stattdessen einen hartkodierten ID-Wert. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -59,17 +59,17 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_ adsrc</code> </p> </td> 
    <td colname="col02"> <p>Kein Makro. </p> <p>Akzeptiert einen hartkodierten ID-Wert. </p> </td> 
-   <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Datenquellen</a> -ID oder Integrationscode für Ihren Werbetreibenden. </p> <p> Erforderlich für <span class="wintitle"> Berichte</span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Datenquellen</a> -ID oder Integrationscode für Ihren Werbetreibenden. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ bu</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ bu %</code> </p> </td> 
-   <td colname="col2"> <p>Numerische ID für die Geschäftseinheit. </p> <p> Erforderlich für <span class="wintitle"> Berichte</span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p>Numerische ID für die Geschäftseinheit. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ campaign %</code> </p> </td> 
-   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p> Erforderlich für <span class="wintitle"> Berichte</span> zur Zielgruppenoptimierung. </p> </td> 
+   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ creative</code> </p> </td> 
@@ -79,17 +79,17 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_ dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ id %</code> </p> </td> 
-   <td colname="col2"> <p>Datenanbieter-ID. </p> <p>Wird häufig mit <code> d_ dpuuid</code> verwendet, um eine Datenanbieter-ID mit einer Benutzer-ID zu verknüpfen. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>Datenanbieter-ID. </p> <p>Often used with <code> d_dpuuid</code> to link a data provider ID to a user ID. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ dpuuid %</code> </p> </td> 
-   <td colname="col2"> <p>Eindeutige Benutzer-ID, die vom Datenanbieter bereitgestellt wird. </p> <p>Wird häufig mit <code> d_ dpid</code> verwendet, um eine Benutzer-ID mit einer Datenanbieter-ID zu verknüpfen. </p> </td> 
+   <td colname="col2"> <p>Eindeutige Benutzer-ID, die vom Datenanbieter bereitgestellt wird. </p> <p>Often used with <code> d_dpid</code> to link a user ID to a data provider ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> Weitere Informationen zur ECID finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies und die Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ placement</code> </p> </td> 
@@ -99,7 +99,7 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_ region</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ region %</code> </p> </td> 
-   <td colname="col2"> <p>Die ID für die numerische Region des DCS-Clusters, der von Diensten eine Anforderung enthält. Weitere Informationen zum DCS finden Sie unter <a href="../../reference/system-components/components-data-collection.md"> Datenerfassungskomponenten</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>Die ID für die numerische Region des DCS-Clusters, der von Diensten eine Anforderung enthält. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md"> Data Collection Components</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_ rand</code> </p> </td> 
@@ -140,10 +140,10 @@ Dieses Beispiel demonstriert, wie Sie die kreativen Elemente, Adgruppen und Plat
 
 <ul class="simplelist"> 
  <li> <code> creative = 1235 </code> </li> 
- <li> <code> campaign=4709 </code> </li> 
+ <li> <code> campaign = 4709 </code> </li> 
  <li> <code> adgroup = 3408 </code> </li> 
- <li> <code> placement=1001 </code> </li> 
- <li> <code> src=203 </code> </li> 
+ <li> <code> placement = 1001 </code> </li> 
+ <li> <code> src = 203 </code> </li> 
 </ul>
 
 ## Anfrage
@@ -156,7 +156,7 @@ d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
 
 ## Antwort
 
-Basierend auf dem obigen Beispiel wird der Browser an [!DNL URL]Folgendes weitergeleitet:
+Based on the above example, the browser is redirected to the following [!DNL URL]:
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 
