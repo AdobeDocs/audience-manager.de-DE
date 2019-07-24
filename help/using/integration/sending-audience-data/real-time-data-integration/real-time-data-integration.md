@@ -11,7 +11,7 @@ source-git-commit: ea95df8531c00c183f22b09a4a78fc6b35ee279d
 ---
 
 
-# Echtzeit-Datenintegration in Echtzeit {#real-time-inbound-data-integration}
+# Real-Time Inbound Data Integration {#real-time-inbound-data-integration}
 
 Informationen zur Echtzeit-Audience Manager-Integration.
 
