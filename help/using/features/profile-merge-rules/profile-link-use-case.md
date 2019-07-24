@@ -11,21 +11,21 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Anwendungsbeispiele für Gerätediagramm-Diagramm {#profile-link-device-graph-use-cases}
+# Profile Link Device Graph Use Cases {#profile-link-device-graph-use-cases}
 
-Empfehlungen und Anwendungsfälle für Segmentretargeting und personalisierte Segmentqualifizierung mit [!UICONTROL Profile Link] dem Gerätediagramm.
+Recommendations and use cases for segment retargeting and personalized segment qualification with the [!UICONTROL Profile Link] device graph.
 
 ## Recommendations {#recommendations}
 
-Betrachten Sie das [!UICONTROL Profile Link] Gerätediagramm für Kampagnen, die:
+Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
-* Sie haben eine hohe Authentifizierung über ihre digitalen Eigenschaften. Verwenden Sie eine [externe](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) Gerätediagramm, wenn Sie eine kleine Menge authentifizierter Benutzer haben.
-* Erfordert präzise Targeting bekannter Zielgruppen. Die Variable [!UICONTROL Profile Link device graph] wird mit authentifizierten, authentifizierten Daten erstellt.
+* Sie haben eine hohe Authentifizierung über ihre digitalen Eigenschaften. Use an [external device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a small amount of authenticated users.
+* Erfordert präzise Targeting bekannter Zielgruppen. The [!UICONTROL Profile Link device graph] is built using first-party, authenticated data.
 * Target bekannter Zielgruppen in Echtzeit und nicht authentifizierte Status.
 
 ![](assets/merge-rule-triangle2.png)
 
-## Retargeting von Anwendungsfall und Regelkonfiguration für Profilzusammenführung {#retargeting-use-cases}
+## Retargeting Use Case and Profile Merge Rule Configuration {#retargeting-use-cases}
 
 Target-Zielgruppen, die zuvor auf mehreren Geräten für die Site und/oder In-App authentifiziert wurden. Segmente können aus folgenden Profilen bestehen:
 
@@ -60,7 +60,7 @@ Sehen wir uns an, wie dies mit einem Beispielkreditkartenunternehmen funktionier
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ergebnisse</b> </p> </td> 
-   <td colname="col2"> <p>Unter diesen Bedingungen, <span class="keyword"> Audience Manager</span>: </p> <p> 
+   <td colname="col2"> <p>Given these conditions, <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_1B6174F5C3AF4C32831D4217C5113789"> 
       <li id="li_98FE54696B604C3C8D93CC1C1FBB48D9">Führt die anonyme, nicht authentifizierte Aktivität zusammen, die von allen 3 Geräten mit dem zuletzt authentifizierten Profil auf dem aktuellen Gerät erfasst wurde. </li> 
       <li id="li_A73C7DCE36BA42B6BAD26D8A075416C1">Wertet den anonymen Benutzer für Segmentqualifizierung basierend auf: 
@@ -76,11 +76,11 @@ Sehen wir uns an, wie dies mit einem Beispielkreditkartenunternehmen funktionier
 
 ### Retargeting-Regelbeispiel für Profilzusammenführung
 
-Um Retargeting mit [!UICONTROL Profile Link]Ihnen einzurichten, sollte Ihre [!UICONTROL Authenticated Options] und [!UICONTROL Device Options] sollte wie die unten stehende Regelkonfiguration aussehen. Die [!UICONTROL Authenticated Profile] Optionen unterscheiden sich von diesem Beispiel, da diese Einstellungen die Namen Ihrer geräteübergreifenden Datenquellen verwenden.
+To set up retargeting with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
 
 ![Regeleinrichtung für Profilzusammenführung](assets/merge-rules-internal3.png)
 
-## Verwendungsfall für die Personalisierung und die Regelkonfiguration für Profilzusammenführung {#personalization-use-case}
+## Personalization Use Case and Profile Merge Rule Configuration {#personalization-use-case}
 
 Personalisieren Sie das Erlebnis für authentifizierte Zielgruppen auf der Site und/oder in-App basierend auf der Aktivität auf mehreren Geräten. Segmente können aus folgenden Profilen bestehen:
 
@@ -116,7 +116,7 @@ Sehen wir uns an, wie dies mit einem Beispielkreditkartenunternehmen funktionier
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ergebnisse</b> </p> </td> 
-   <td colname="col2"> <p>Unter diesen Bedingungen, <span class="keyword"> Audience Manager</span>: </p> <p> 
+   <td colname="col2"> <p>Given these conditions, <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_37DBF5FEABC5463D85C74AD9150EA177"> 
       <li id="li_B60FFA5CF3F64FB69997AA05595900D7">Führt die anonyme, nicht authentifizierte Aktivität zusammen, die von allen 3 Geräten mithilfe des aktuellen authentifizierten Profils erfasst wurde. Das authentifizierte Profil stellt für jedes Gerät eine allgemeine Kennung bereit. </li> 
       <li id="li_AB9FD87DD804474BA33805C364B7B92D">Wertet den authentifizierten Benutzer für Segmentqualifizierung basierend auf: 
@@ -132,11 +132,11 @@ Sehen wir uns an, wie dies mit einem Beispielkreditkartenunternehmen funktionier
 
 ### Beispiel für eine Regel zur Personalisierung der Personalisierung
 
-Um Personalisierung mit [!UICONTROL Profile Link]Ihnen einzurichten, sollte Ihre [!UICONTROL Authenticated Options] und [!UICONTROL Device Options] sollte wie die unten stehende Regelkonfiguration aussehen. Die [!UICONTROL Authenticated Profile] Optionen unterscheiden sich von diesem Beispiel, da diese Einstellungen die Namen Ihrer geräteübergreifenden Datenquellen verwenden.
+To set up personalization with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
 
 ![](assets/merge-rules-internal4.png)
 
-Um weitere Informationen darüber zu erhalten, wie diese Gerätediagrammprozesse funktionieren, laden Sie unsere PDF-, [Audience Manager- und External Device Graph herunter](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf).
+For more information about how these device graph processes work, download our PDF, [Audience Manager and External Device Graphs](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf).
 
 >[!MORE_ LIKE_ THIS]
 >
