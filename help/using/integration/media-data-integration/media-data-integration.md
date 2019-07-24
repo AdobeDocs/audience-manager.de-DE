@@ -11,9 +11,9 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 ---
 
 
-# Mediendatenintegration {#media-data-integration}
+# Media Data Integration {#media-data-integration}
 
-Sie können Daten aus Medienkampagnen mit Pixelaufrufen an Audience Manager (häufig als &quot;Vergröbern&quot; bezeichnet) oder durch die Erfassung von Protokolldateien erfassen. Lesen Sie die Artikel in diesem Abschnitt, um den Prozess zu verstehen.
+Sie können Daten aus Medienkampagnen mit Pixelaufrufen an Audience Manager (häufig als "Vergröbern" bezeichnet) oder durch die Erfassung von Protokolldateien erfassen. Lesen Sie die Artikel in diesem Abschnitt, um den Prozess zu verstehen.
 
 <!-- c_camp_data_int.xml -->
 
