@@ -18,7 +18,7 @@ Signale sind die kleinste Informationseinheit in Audience Manager. Sie stellen B
 
 * `page = electronics`
 
-Das [Signal-Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) zeigt Ihnen mehrere Arten von Signalattributen, die Sie verwenden können, um neue Eigenschaften zu erstellen. Hier finden Sie eine detaillierte Ansicht der verfügbaren Signaleigenschaften:
+The [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) shows you multiple types of signal attributes that you can use to create new traits. Hier finden Sie eine detaillierte Ansicht der verfügbaren Signaleigenschaften:
 
 * *Schlüssel/Wert-Paar* zeigt das Schlüssel-Wert-Paar des empfangenen Signals [!DNL Audience Manager]an.
 * *Signaltyp* beschreibt die Kategorie jedes Signals. Signale fallen in eine der folgenden Kategorien:
@@ -28,16 +28,16 @@ Das [Signal-Dashboard](../../features/data-explorer/data-explorer-signals-dashbo
    * Datensatzdatensätze: Daten empfangen, die über Batch-Datenübertragungen empfangen werden.
 * *Signalquelle* hängt vom Signaltyp ab:
    * Bei Signatur-Signalen ist die Signalquelle der Name der Datenquelle.
-   * Bei Signalen aus [!DNL Adobe Analytics], ist die Datenquelle immer eine Report Suite.
+   * For signals originating from [!DNL Adobe Analytics], the data source will always be a report suite.
    * Für verfolgbare Protokolldateien und allgemeine Onlinedaten werden keine Signalquellinformationen angezeigt.
 * *Die Gesamtanzahl* zeigt an, wie oft ein Echtzeitsignal [!DNL Audience Manager] in den vergangenen 7 Tagen empfangen wurde.
-* *In Eigenschaften* enthalten, zeigt Ihnen, ob das Signal Teil einer Eigenschaft ist. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das entsprechende Signal enthalten. Bei Signalen, die nicht Teil einer Eigenschaft sind, ändert sich der Spaltenwert in [!UICONTROL Create Onboarded Trait] oder [!UICONTROL Create Rule-Based Trait].
+* *In Eigenschaften* enthalten, zeigt Ihnen, ob das Signal Teil einer Eigenschaft ist. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das entsprechende Signal enthalten. For signals that are not part of any trait, the column value changes to [!UICONTROL Create Onboarded Trait] or [!UICONTROL Create Rule-Based Trait].
 
 ## Häufigkeit der Signalaktualisierung signalisieren
 
-Aufgrund der großen Datenmenge, die von Audience Manager täglich verarbeitet wird, [!UICONTROL Data Explorer] werden die angezeigten Signaldaten je nach Signaltyp in festgelegten Zeitintervallen aktualisiert:
+Due to the large amount of data that Audience Manager processes on a daily basis, [!UICONTROL Data Explorer] refreshes the displayed signal data at fixed time intervals, depending on the signal type:
 
-* Echtzeit-Signaldaten (verfolgbare Protokolldateien, [!DNL Adobe Analytics] Daten und allgemeine Onlinedaten) werden alle 4 bis 6 Stunden aktualisiert.
+* Real-time signal data (actionable log files, [!DNL Adobe Analytics] data, and general on-line data) is refreshed every 4 to 6 hours.
 * Auf-Bord-Signaldaten werden alle 24 Stunden aktualisiert.
 
 ## Verwandte Konzepte
