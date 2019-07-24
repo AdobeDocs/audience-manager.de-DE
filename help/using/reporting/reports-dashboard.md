@@ -11,7 +11,7 @@ source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 ---
 
 
-# Dashboard für Berichte {#reports-dashboard}
+# Reports Dashboard {#reports-dashboard}
 
 Verwenden Sie das Dashboard, um Informationen zu Ihren individuellen Besucherzählungen nach Eigenschaften und Segmenten für einen bestimmten Zeitraum anzuzeigen.
 
@@ -25,18 +25,18 @@ c_dashboard.xml
 
 Beispielsweise kann eine Agentur, die verschiedene Advertiserkonten verwaltet, Berechtigungen für Benutzergruppen konfigurieren, damit ein Team, das das Konto von Advertiser A verwaltet, die Berichtsdaten von Advertiser B nicht anzeigen kann. Dieses Dashboard kann zur Fehlerbehebung bei Problemen mit der Datenauslieferung verwendet werden.
 
-Wenn Sie z. B. einen Tiefpunkt oder eine Spitze in den einzelnen Unique Users mit der Aufschlüsselung des individuellen Benutzers (regelbasiert und direkt aufsteigend) bemerken, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Problem bei der Datenauslieferung zu verfolgen. Wenn Sie ein Dip in Unique Users und in Unique Users für Unique Users beachten, können Sie den [!UICONTROL On-boarding Status] Bericht aufrufen, um zu sehen, ob es ein Problem mit einer Inbound-Datei gibt.
+Wenn Sie z. B. einen Tiefpunkt oder eine Spitze in den einzelnen Unique Users mit der Aufschlüsselung des individuellen Benutzers (regelbasiert und direkt aufsteigend) bemerken, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Problem bei der Datenauslieferung zu verfolgen. If you notice a dip in total unique users and in on-boarded unique users, you can go to the [!UICONTROL On-boarding Status] report to see if there was an issue with an inbound file.
 
 **So greifen Sie auf das Dashboard zu:**
 
-1. Klicken **[!UICONTROL Dashboard]** Sie im oberen Navigationsmenü auf.
+1. In the top navigation menu, click **[!UICONTROL Dashboard]**.
 2. *Optional* wählen Sie den gewünschten Zeitraum aus dem letzten Berichtsdatum aus der Dropdownliste (7 Tage, 14 Tage (Standardeinstellung), 30 Tage oder 60 Tage).
 
-   Je nach ausgewähltem Zeitraum zeigt die Delta-Änderung in den Bereichen [!UICONTROL Largest Traits] &quot; &gt; [!UICONTROL Most Changed Traits] «und&quot; [!UICONTROL Largest Segments] &gt; [!UICONTROL Most Changed Segments] «die Änderung bei Unique Visitors in der Zielgruppe über den Zeitraum an, der heute endet und im vorherigen Zeitraum der gleichen Länge. Wenn Sie z. B. 7 Tage auswählen, vergleicht das Delta die individuellen Besucher in den letzten sieben Tagen, die am aktuellen Tag enden, mit den individuellen Besuchern der sieben Tage, die vor sieben Tagen enden.
+   Depending on the period selected, the delta change in the [!UICONTROL Largest Traits] &gt; [!UICONTROL Most Changed Traits] and [!UICONTROL Largest Segments] &gt; [!UICONTROL Most Changed Segments] panels displays the change in unique visitors in the audience over the period ending today vs. the prior period of the same length. Wenn Sie z. B. 7 Tage auswählen, vergleicht das Delta die individuellen Besucher in den letzten sieben Tagen, die am aktuellen Tag enden, mit den individuellen Besuchern der sieben Tage, die vor sieben Tagen enden.
 
    >[!NOTE]
    >
-   >Sie können eine Delta-Änderung untersuchen, die durch Ausführen eines [!UICONTROL Trend] Berichts standardmäßig nicht normal angezeigt wird. Wenn Sie in den letzten sieben Tagen beispielsweise ungewöhnlich große Delta-Änderungen sehen, können Sie einen [!UICONTROL Trend] Bericht für die letzten 14 Tage (2 x 7) ausführen, um die Zahlen besser zu verstehen.
+   >You can investigate a delta change that seems out of the ordinary by running a [!UICONTROL Trend] report. For example, if you see an unusually large delta change during the last seven days, you could run a [!UICONTROL Trend] report for the last 14 days (2 x 7) to better understand the numbers.
 
    Je nach den Berechtigungen des angemeldeten Benutzers werden die folgenden Bereiche angezeigt:
 
@@ -48,7 +48,7 @@ Wenn Sie z. B. einen Tiefpunkt oder eine Spitze in den einzelnen Unique Users mi
 
 ## Partner Uniques {#partner-uniques}
 
-Zur Ansicht erforderliche Berechtigung: [!UICONTROL View All Traits].
+Permission Required to View: [!UICONTROL View All Traits].
 
 ![](assets/partner_uniques.png)
 
@@ -58,15 +58,15 @@ Dieses Bedienfeld zeigt die Anzahl individueller Besucher während des angegeben
 >
 >Die Gesamtanzahl individueller Besucher stellt Besucher dar, die über regelbasierte oder in Bord befindliche Eigenschaften erfasst wurden. Die Gesamtanzahl individueller Besucher entspricht jedoch nicht der Summe der Unique Visitors, die mithilfe der regelbasierten und onboardierten Eigenschaften erfasst wurden. Derselbe Unique User kann in beiden beiden Eigenschaften dargestellt werden.
 
-## Größte Eigenschaften/Am meisten geänderte Eigenschaften {#largest-traits}
+## Largest Traits/Most Changed Traits {#largest-traits}
 
-Zur Ansicht erforderliche Berechtigung: [!UICONTROL View Traits].
+Permission Required to View: [!UICONTROL View Traits].
 
 ![](assets/largest_traits.png)
 
 Dieses Bedienfeld zeigt die Anzahl der individuellen Besucher an, die von verschiedenen Eigenschaften erfasst wurden.
 
-Verwenden Sie die **[!UICONTROL Show]** Dropdownliste, um Informationen zu verschiedenen Eigenschaften anzuzeigen: [!UICONTROL All Traits][!UICONTROL Algorithmic][!UICONTROL Onboarded], oder [!UICONTROL Rule-Based].
+Use the **[!UICONTROL Show]** drop-down list to display information about different types of traits: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded], or [!UICONTROL Rule-Based].
 
 Dieses Bedienfeld enthält die folgenden Registerkarten:
 
@@ -89,9 +89,9 @@ Dieses Bedienfeld enthält die folgenden Registerkarten:
  </tbody> 
 </table>
 
-## Größte Segmente/am meisten geänderte Segmente {#most-changed-segments}
+## Largest Segments/Most Changed Segments {#most-changed-segments}
 
-Zur Ansicht erforderliche Berechtigung: [!UICONTROL View Segments].
+Permission Required to View: [!UICONTROL View Segments].
 
 ![](assets/largest_segments.png)
 
