@@ -11,7 +11,7 @@ source-git-commit: bdbc2525a13eb04898b0a844ba478cde07e83252
 ---
 
 
-# Namensanforderungen für Schlüsselvariablen {#name-requirements-for-key-variables}
+# Name Requirements for Key Variables {#name-requirements-for-key-variables}
 
 In diesem Artikel werden die Benennungskonventionen beschrieben, die von der Schlüsselvariable in einem Schlüssel-Wert-Paar verwendet werden.
 
@@ -19,12 +19,12 @@ In diesem Artikel werden die Benennungskonventionen beschrieben, die von der Sch
 
 <!-- c_tb_key_name_requirements.xml -->
 
-Der [!UICONTROL Expression Builder]Name einer Schlüsselvariable in einem Schlüssel-Wert-Paar kann aus einer beliebigen Anzahl von Ziffern gefolgt von 1 (oder mehr) Buchstaben, einem Bindestrich, einem Unterstrich und weiteren Ziffern bestehen.
+In [!UICONTROL Expression Builder], the name of a key variable in a key-value pair can consist of any number of digits followed by 1 (or more) letters, a dash, an underscore, and additional digits.
 
-* Gültige Schlüsselnamen: `price123``123price``price-123``c_price123`.
+* Valid key names: `price123`, `123price`, `price-123`, `c_price123`.
 
-* Ungültige Schlüsselnamen: `123``price!123`.
+* Invalid key names: `123`, `price!123`.
 
-## Präfix-Key-Variablen mit `c_`
+## Prefixing Key Variables with `c_`
 
-Das `c_` Präfix ist *immer* erforderlich, wenn die Parameter, die Daten für eine Ereignisaufruf-URL senden, diese Syntax verwenden.
+The `c_` prefix is *always* required if the parameters that send in data on an event call URL use that syntax.
