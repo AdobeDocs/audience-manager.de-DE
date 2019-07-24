@@ -65,7 +65,8 @@ Mitgliedern der Projektleitung bestimmt.
 
 ## Zuordnung
 
-Dieser Code wird vom [Mitarbeiter-Covenant][homepage], Version 1.4, angepasst, der unter [https://contributor-covenant.org/version/1/4 verfügbar ist.][version]
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
+available at [https://contributor-covenant.org/version/1/4][version]
 
 [homepage]: https://contributor-covenant.org
 [version]: https://contributor-covenant.org/version/1/4/
