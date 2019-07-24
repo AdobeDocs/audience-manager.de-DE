@@ -11,29 +11,29 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Aktive Zielgruppeneigenschaften und Datenquelle-Synchronisierte Eigenschaften {#active-audience-traits-and-data-source-synced-traits}
+# Active Audience Traits and Data Source Synced Traits {#active-audience-traits-and-data-source-synced-traits}
 
-Dies sind spezielle Eigenschaften, die von Ihnen verwendet [!UICONTROL Addressable Audiences]werden. [!UICONTROL Active Audience] und [!UICONTROL Data Source Synced Traits] befinden [!UICONTROL Audience Data > Traits > Audience Traits]sich in.
+These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] und [!UICONTROL Data Source Synced Traits] befinden [!UICONTROL Audience Data > Traits > Audience Traits]sich in.
 
 >[!NOTE]
 >
 >Zugriff erfordert Administratorberechtigungen.
 
-## Aktive Zielgruppeneigenschaften {#active-audience-traits}
+## Active Audience Traits {#active-audience-traits}
 
-Eine [!UICONTROL Active Audience] Eigenschaft enthält alle Geräte, die in Ihrem [!DNL Audience Manager] Konto verwaltet werden. Sie können beim [!UICONTROL Active Audience Trait] Erstellen oder Bearbeiten von Segmenten ähnliche Eigenschaften verwenden. Außerdem erfordert [Addressable Audiences](../../features/addressable-audiences.md) , dass diese Eigenschaft Überlappungsdaten generiert. Standardmäßig verfügen alle Konten über eine [!UICONTROL Active Audience] Eigenschaft. Diese Eigenschaft kann nicht gelöscht werden.
+An [!UICONTROL Active Audience] trait contains all of the devices under management in your [!DNL Audience Manager] account. You can use an [!UICONTROL Active Audience Trait] like other traits when you build or edit segments. Also, [Addressable Audiences](../../features/addressable-audiences.md) requires this trait to generate overlap data. All accounts have an [!UICONTROL Active Audience] trait by default. Diese Eigenschaft kann nicht gelöscht werden.
 
-## Datenquelle-Synchronisierte Eigenschaften {#data-source-synced-traits}
+## Data Source Synced Traits {#data-source-synced-traits}
 
 [!UICONTROL Data Source Synced Traits] wird im [!UICONTROL Audience Traits] Ordner angezeigt, wenn Sie [eine Datenquelle erstellen oder bearbeiten](../../features/manage-datasources.md#create-data-source) und eine der folgenden Einstellungen anwenden:
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Sie können beim [!UICONTROL Data Source Synched Trait] Erstellen oder Bearbeiten von Segmenten ähnliche Eigenschaften verwenden. Wenn Sie einen Bericht [!UICONTROL Data Source Synced Trait]erstellen, stimmt der Eigenschaftsname mit dem von Ihrer Datenquelle verwendeten Namen überein. Bearbeiten Sie die Datenquelle, um den Eigenschaftsnamen zu ändern. Diese Eigenschaften können nicht gelöscht werden.
+[!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. You can use a [!UICONTROL Data Source Synched Trait] like other traits when you build or edit segments. When you create a [!UICONTROL Data Source Synced Trait], the trait name matches the name used by your data source. Bearbeiten Sie die Datenquelle, um den Eigenschaftsnamen zu ändern. Diese Eigenschaften können nicht gelöscht werden.
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits] sind zur Fehlerbehebung nützlich. Klicken Sie auf einen Eigenschaftsnamen, um die Metriken auf der Zusammenfassungsseite zu überprüfen. Wenn die ausgewählte Eigenschaft Daten zurückgibt, deutet dies darauf hin, dass der ID-Synchronisierungsprozess richtig eingerichtet ist und Daten an [!DNL Audience Manager]die Daten weiterleiten.
+>[!UICONTROL Data Source Synced Traits] sind zur Fehlerbehebung nützlich. Klicken Sie auf einen Eigenschaftsnamen, um die Metriken auf der Zusammenfassungsseite zu überprüfen. If your selected trait returns data, that indicates the ID synchronization process is set up properly and pushing data to [!DNL Audience Manager].
 
 >[!MORE_ LIKE_ THIS]
 >
