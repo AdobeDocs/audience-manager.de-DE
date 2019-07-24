@@ -12,11 +12,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Testgruppenberichte {#test-group-reporting}
+# Test Group Reporting {#test-group-reporting}
 
 Der Berichtsabschnitt für Testgruppenberichte gibt Informationen zu Testgruppenkonversionen zurück, was einen einfachen Vergleich der Effektivität von Testsegmenten ermöglicht. Für die Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
 
-[!UICONTROL Audience Lab] gibt detaillierte Berichtsinformationen für die erstellten Testsegmente zurück und ermöglicht es Ihnen, die Berichtsdaten als [!DNL CSV] Dateien zu speichern. Sie können zwischen **[!UICONTROL Aggregate Reporting]** und **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] gibt detaillierte Berichtsinformationen für die erstellten Testsegmente zurück und ermöglicht es Ihnen, die Berichtsdaten als [!DNL CSV] Dateien zu speichern. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
 
 **[!UICONTROL Aggregate Reporting]** gibt die absoluten Zahlen für Ihre Testsegmente zurück. **[!UICONTROL Trend Reporting]** gibt ein Diagramm des Trends *über einen bestimmten Zeitraum zurück*. Mit vier Registern können Sie die Berichte anpassen:
 
@@ -42,12 +42,12 @@ Der Berichtsabschnitt für Testgruppenberichte gibt Informationen zu Testgruppen
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Testsegmente testen</span></b> </p> </td> 
-   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die zu den Testsegmenten gehören. Wechsel zwischen <b><span class="uicontrol"> Gesamtpopulation</span></b> oder <b><span class="uicontrol"> Echtzeitpopulation</span></b>. Der Unterschied wird in den häufig gestellten Fragen zur <a href="../../faq/faq-reporting.md"> Berichterstellung</a> erläutert. </p> </td>
+   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die zu den Testsegmenten gehören. Toggle between <b><span class="uicontrol"> Total Population</span></b> or <b><span class="uicontrol"> Real-time Population</span></b>. The difference is explained in the <a href="../../faq/faq-reporting.md"> Reporting FAQ</a> . </p> </td>
   </tr>
  </tbody>
 </table>
 
-Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Bericht erstellt werden soll, oder Sie können alle kombinierten Eigenschaften auswählen. Sie können einen Datumsbereich definieren, für den die Informationen zurückgegeben werden sollen, und den Bericht als [!DNL CSV] Datei exportieren.
+Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Bericht erstellt werden soll, oder Sie können alle kombinierten Eigenschaften auswählen. You can define a date range for which the information should be returned and export the report as a [!DNL CSV] file.
 
 >[!NOTE]
 >
@@ -55,10 +55,10 @@ Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Beric
 >* Eine Konversion wird nur für ein Gerät nach dem Startdatum eines Tests gezählt und nach dem Hinzufügen des Geräts zu einem Testsegment. Wenn eine Konvertierung für dieses Gerät vor dem zugewiesenen Test erfolgt, wird die Konvertierung nicht gezählt.
 
 
-Ein zurückgegebenes **[!UICONTROL Aggregate Reporting]** Diagramm könnte wie folgt aussehen:
+A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
 
 ![](assets/aggregate-reporting.PNG)
 
-Ein zurückgegebenes **[!UICONTROL Trend Reporting]** Diagramm könnte wie folgt aussehen. Wählen **[!UICONTROL Normalized]** Sie im Kontrollkästchen, wenn Sie die absoluten Zahlen ignorieren möchten, und konzentrieren Sie sich einfach auf die Trends der Testsegmente.
+A returned **[!UICONTROL Trend Reporting]** chart could look like the one below. Select **[!UICONTROL Normalized]** in the check box if you want to ignore the absolute numbers and simply focus on the test segments trends.
 
 ![](assets/trend-reporting.PNG)
