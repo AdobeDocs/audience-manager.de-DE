@@ -11,11 +11,11 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 ---
 
 
-# Übersicht über die Profilzusammenführung {#profile-merge-rules-overview}
+# Profile Merge Rules Overview {#profile-merge-rules-overview}
 
-Sie [!UICONTROL Profile Merge Rules] erhalten eine Kontrolle über die Datensätze, die für die Segmentierung verwendet werden, und kann eine Person auf mehreren Geräten präzise ansprechen.
+With [!UICONTROL Profile Merge Rules] you get control over the data sets used for segmentation and can target a person accurately across multiple devices.
 
-## Datenerfassung und Targeting mit anonymen und authentifizierten Profilen {#data-collection-targeting}
+## Data collection and targeting with anonymous and authenticated profiles {#data-collection-targeting}
 
 In der Regel basieren die Zielgruppensegmentierung und das Targeting auf Daten, die von allen Benutzern auf einem Gerät erfasst werden. Die Datenerfassung und das Targeting auf Geräteebene haben einige Nachteile. Sie können beispielsweise nicht zwischen mehreren Benutzern unterscheiden, die ein Gerät teilen oder die Benutzer auf mehreren Geräten exakt ansprechen. Die gerätezentrierte Datenerfassung reicht nicht mehr für digitale Marketingkampagnen oder geräteübergreifende Targeting aus.
 
@@ -50,7 +50,7 @@ In der Regel basieren die Zielgruppensegmentierung und das Targeting auf Daten, 
  </tbody>
 </table>
 
-Diese verschiedenen Profile steuern die Daten, die Sie zur Segmentierung verwenden können. Mit einem authentifizierten Profil können Sie beispielsweise präzise Segmente auf Grundlage von Daten aus mehreren Geräten für eine einzelne Person erstellen. Das bedeutet, dass Sie Kunden auf mehreren Geräten ein einheitliches Markenerlebnis bieten können. Darüber hinaus ermöglicht die geräteübergreifende Authentifizierung, [!DNL Audience Manager] die verschiedenen Plattformen zuzuordnen, die eine Person für ihre Online-Aktivitäten verwendet. [!UICONTROL Profile Link Device Graph]Dies wird als &quot;.
+Diese verschiedenen Profile steuern die Daten, die Sie zur Segmentierung verwenden können. Mit einem authentifizierten Profil können Sie beispielsweise präzise Segmente auf Grundlage von Daten aus mehreren Geräten für eine einzelne Person erstellen. Das bedeutet, dass Sie Kunden auf mehreren Geräten ein einheitliches Markenerlebnis bieten können. Additionally, cross-device authentication allows [!DNL Audience Manager] to map the different platforms a person uses for their online activities. [!UICONTROL Profile Link Device Graph]Dies wird als ".
 
 ![](assets/authenticated2.png)
 
@@ -66,7 +66,7 @@ Diese verschiedenen Profile steuern die Daten, die Sie zur Segmentierung verwend
 
 ## Erste Schritte {#getting-started}
 
-Weitere Informationen finden Sie in den folgenden Abschnitten und den [häufig gestellten Fragen](../../faq/faq-profile-merge.md)[!UICONTROL Profile Merge Rules].
+See the following sections and the [FAQ](../../faq/faq-profile-merge.md) for more information about [!UICONTROL Profile Merge Rules].
 
 * [Erste Schritte mit Profilzusammenführungsregeln](/help/using/features/profile-merge-rules/merge-rules-start.md)
 * [Dashboard für Profilzusammenführung](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
