@@ -40,20 +40,20 @@ Added re: AAM-30826.
 
 | Dienst | URL/Hostname | Zugriff auf den Zugriff |
 |--- |--- | --- |
-| S3 | Wenden Sie sich an Ihren Audience Manager-Partner oder Kundendienst. | Wenden Sie sich an Ihren Audience Manager-Partner oder Kundendienst, um ein Amazon S 3-Bucket für Ihre Beta-Instanz einzurichten. Lesen Sie die [Vorteile der Verwendung von Amazon S 3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Siehe [Zugriff auf das DCS in der Beta-Umgebung](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Wenden Sie sich an Ihren Audience Manager-Partner oder Kundendienst. | Wenden Sie sich an Ihren Audience Manager-Partner oder Kundendienst, um ein Amazon S 3-Bucket für Ihre Beta-Instanz einzurichten. Read about the [advantages of using Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | See [Accessing the DCS in the Beta Environment](../reference/beta-environment.md#access-dcs-beta-environment). |
 | Benutzeroberfläche | `https://bank-beta.demdex.com` | Ihre Anmeldedaten für die Produktionsumgebung sind für die Beta-Umgebung gültig. |
-| API | `https://api-beta.demdex.com/...` | Ihre Anmeldedaten für die Produktionsumgebung sind für die Beta-Umgebung gültig. Es wird empfohlen, einen generischen API-Benutzer zu erstellen, siehe [Details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Ihre Anmeldedaten für die Produktionsumgebung sind für die Beta-Umgebung gültig. We recommend that you create a generic API user, [see details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Zugriff auf das DCS in der Beta-Umgebung {#access-dcs-beta-environment}
+## Accessing the DCS in the Beta Environment {#access-dcs-beta-environment}
 
-1. Tätigen Sie einen DCS-Aufruf mit dem Curl [-Befehl](https://curl.haxx.se/docs/manpage.html). Curl ist ein Tool zum Übertragen von Daten von oder auf einen Server, wobei einer der vielen unterstützten Protokolle verwendet wird.
+1. Make a DCS call, using the curl [command](https://curl.haxx.se/docs/manpage.html). Curl ist ein Tool zum Übertragen von Daten von oder auf einen Server, wobei einer der vielen unterstützten Protokolle verwendet wird.
 
    Beispiel:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Stellen Sie sicher, dass Ihre Anforderung von der Beta-DCS bereitgestellt wurde, indem Sie im DCS-Antwortkopf nach &quot;Sandbox&quot; suchen.
+1. Stellen Sie sicher, dass Ihre Anforderung von der Beta-DCS bereitgestellt wurde, indem Sie im DCS-Antwortkopf nach "Sandbox" suchen.
 
    Beispiel:
 
