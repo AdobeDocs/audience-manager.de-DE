@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Berichtsergebnisse mit den Datenreglern filtern{#filter-report-results-with-the-data-sliders}
+# Filter Report Results With the Data Sliders{#filter-report-results-with-the-data-sliders}
 
 Verwenden Sie die verschiedenen Berichtsschieberegler, um nur die obigen, unterhalb oder innerhalb des angegebenen Bereichs anzuzeigen.
 
@@ -30,5 +30,5 @@ Mit den Berichtsschiebereglern können Sie die von einem interaktiven Bericht zu
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Die Datenfilter im Bericht &quot;Segement-to-Trait-Überlappung «](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
+>* [Die Datenfilter im Bericht "Segement-to-Trait-Überlappung «](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 
