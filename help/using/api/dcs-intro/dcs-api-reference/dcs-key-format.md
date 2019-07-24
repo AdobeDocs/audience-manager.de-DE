@@ -11,11 +11,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Formatieren von Schlüsselwertpaaren in DCS-Aufrufen {#formatting-key-value-pairs-in-dcs-calls}
+# Formatting Key-Value Pairs in DCS Calls {#formatting-key-value-pairs-in-dcs-calls}
 
-Bei einem Aufruf [!UICONTROL DCS] werden die Schlüssel-Wertdaten im Standard- oder serialisierten Format akzeptiert. Lesen Sie diesen Abschnitt, um Informationen zur Formatierung von standardmäßigen und serialisierten Schlüsselwertdaten zu erhalten.
+When making a call, the [!UICONTROL DCS] accepts key-value data in standard or serialized format. Lesen Sie diesen Abschnitt, um Informationen zur Formatierung von standardmäßigen und serialisierten Schlüsselwertdaten zu erhalten.
 
-## Standard- und serialisierte Schlüssel-Wert-Paare {#standard-serialized}
+## Standard and Serialized Key-Value Pairs {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
@@ -39,7 +39,7 @@ Bei einem Aufruf [!UICONTROL DCS] werden die Schlüssel-Wertdaten im Standard- o
  </tbody>
 </table>
 
-## Trennzeichen und Trennzeichen für serialisierte Schlüssel/Wert-Paare {#delimiters-separators}
+## Delimiters and Separators for Serialized Key-Value Pairs {#delimiters-separators}
 
 Bei serialisierten Schlüssel-Wert-Paaren müssen Sie die Markierungen angeben, die innerhalb und zwischen diesen Variablen voneinander getrennt sind. Für Audience Manager sind die folgenden Trennzeichen und Trennzeichen erforderlich:
 
