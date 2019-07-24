@@ -17,9 +17,9 @@ Beschreibt die Integration von Audience Manager und die Einhaltung von allgemein
 
 ## Datenschutz{#data-privacy-center}
 
-Siehe Datenschutzcenter [von Adobe](https://www.adobe.com/privacy/opt-out.html).
+See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
 
-## Schutz des Datenschutzschutzes {#consumer-privacy-protection}
+## Consumer Privacy Protection {#consumer-privacy-protection}
 
 Audience Manager erkennt den impliziten Vertrag zwischen Verbrauchern und den Online-Marken, mit denen sie interagieren. Beide Parteien nutzen den transparenten Austausch anonymer Datenelemente:
 
@@ -28,9 +28,9 @@ Audience Manager erkennt den impliziten Vertrag zwischen Verbrauchern und den On
 
 In unserer fortlaufenden Unterstützung dieses Modells bemüht sich Audience Manager weiterhin, Transparenz und Kontrolle für Verbraucher bereitzustellen und die Selbstkontrollprinzipien Online Verhaltensbasierter Advertising (OBA) zu besprechen oder zu überschreiten.
 
-## Ausschluss-Management {#opt-out-management}
+## Opt-Out Management {#opt-out-management}
 
-Die Ausschluss-Dokumentation wurde erweitert und in einen separaten Teil unserer Dokumentation verschoben. Siehe [Ausschluss-Management](../../overview/data-security-and-privacy/opt-out-management.md).
+Die Ausschluss-Dokumentation wurde erweitert und in einen separaten Teil unserer Dokumentation verschoben. See [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md).
 
 <!-- 
 
@@ -68,7 +68,7 @@ Die Ausschluss-Dokumentation wurde erweitert und in einen separaten Teil unserer
 
  -->
 
-## Erfassen von IP-Adressen und IP-Adressenverschleiern {#collecting-ip-addresses}
+## Collecting IP Addresses and IP Address Obfuscation {#collecting-ip-addresses}
 
 <!-- 
 
@@ -78,16 +78,16 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 Die IP-Adresse eines Besuchers auf der Website eines Kunden wird an das Adobe Data Processing Center (DPC) übertragen, wo die IP-Adresse gespeichert werden kann. Abhängig von der Netzwerkkonfiguration des Besuchers stellt die IP-Adresse möglicherweise nicht unbedingt die IP-Adresse des Besuchercomputers dar. Bei der IP-Adresse kann es sich z. B. um die externe IP-Adresse einer Network Address Translation-(NAT-)Firewall, eines HTTP-Proxys oder eines Internet-Gateways handeln.
 
-**IP-Verschleierungsmethode:** Nach den Prinzipien von &quot;Datenschutz nach Design&quot; erlaubt Adobe Audience Manager Kunden, IP-Verschleierung aus der Benutzeroberfläche zu aktivieren, entweder global in allen geografischen Regionen oder in bestimmten Ländern. Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort verworfen, wenn die IP-Adresse in Audience Manager übernommen wird. Audience Manager verwirft diesen Teil der IP-Adresse vor der Verarbeitung (einschließlich vor einer optionalen geografischen Suche oder Protokollierung der IP-Adresse). Beispiel:
+**IP-Verschleierungsmethode:** Nach den Prinzipien von "Datenschutz nach Design" erlaubt Adobe Audience Manager Kunden, IP-Verschleierung aus der Benutzeroberfläche zu aktivieren, entweder global in allen geografischen Regionen oder in bestimmten Ländern. Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort verworfen, wenn die IP-Adresse in Audience Manager übernommen wird. Audience Manager verwirft diesen Teil der IP-Adresse vor der Verarbeitung (einschließlich vor einer optionalen geografischen Suche oder Protokollierung der IP-Adresse). Beispiel:
 
 * Bevor: `255.255.255.255`
 * Nachher: `255.255.255.0`
 
 >[!NOTE]
 >
->Informationen zur Aktivierung der IP-Adressenverschleierung in der Benutzeroberfläche von Audience Manager finden Sie unter [IP-Adressenverschleierung](/help/using/features/administration/ip-obfuscation.md) .
+>See [IP Address Obfuscation](/help/using/features/administration/ip-obfuscation.md) to learn how to enable IP address obfuscation in the Audience Manager UI.
 
-**Geografische Segmentierung:** Wenn Sie die IP-Adressenverschleierung aktivieren, können die verbleibenden Oktets der IP-Adresse weiterhin für Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die IP-Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige IP-Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie einen IP-Standort nach geografischer Region in beiden Fällen identifizieren können, aber mit einigen leichten Verlusten, wenn die IP-Verschleierung verwendet wird. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der IP-Adresse wahrscheinlich merklich beeinträchtigt. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentierungsdaten sind nur auf Ebene der Stadt oder Postleitzahl granular und nicht auf individueller Ebene. Erfahren Sie mehr über [Geo-Targeting](/help/using/features/traits/trait-geotarget-keys.md) und die Einrichtung von Eigenschaften mit geografischen Variablen.
+**Geografische Segmentierung:** Wenn Sie die IP-Adressenverschleierung aktivieren, können die verbleibenden Oktets der IP-Adresse weiterhin für Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die IP-Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige IP-Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie einen IP-Standort nach geografischer Region in beiden Fällen identifizieren können, aber mit einigen leichten Verlusten, wenn die IP-Verschleierung verwendet wird. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der IP-Adresse wahrscheinlich merklich beeinträchtigt. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentierungsdaten sind nur auf Ebene der Stadt oder Postleitzahl granular und nicht auf individueller Ebene. Read more about [geo-targeting](/help/using/features/traits/trait-geotarget-keys.md) and how to set up traits with geographic variables.
 
 ## Verwandte Konzepte {#related-concepts}
 
