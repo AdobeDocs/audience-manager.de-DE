@@ -10,21 +10,21 @@ translation-type: tm+mt
 ## Inhaltsverzeichnis
 
 + `TOC.md` im Stamm des Benutzerhandbuchs finden Sie die Organisation der Themen, die im Handbuch für diese Lösung enthalten sind.
-+ Jedes Benutzerhandbuch verfügt über eine eigene, in `TOC.md`der Sie alle Seiten/Themen nach Bedarf sortieren können.
-+ Die erste Seite aller Benutzerhandbücher `overview.md`ist.
++ Each user guide will have its own unique `TOC.md`, in which you can order all the pages/topics as necessary.
++ The first page of all user guides is `overview.md`.
 
 ## Benutzerhandbuch
 
-+ Die Einführung in das Benutzerhandbuch heißt `overview.md`
++ The introduction to the user guide is called `overview.md`
 + Jedes Thema im Benutzerhandbuch hat seinen eigenen eigenen Ordner.
-   + Wenn im Guide ein Thema namens *Implementierung vorhanden ist*, lautet der entsprechende Ordner `/implementation`
-+ Alle Bild-Assets werden im `/assets` Stamm des Benutzerhandbuchs gespeichert.
-   + Alle Bilder im `/assets` Ordner werden lokalisiert.
-   + Alle Bilder im `/no-localize` Ordner werden nicht lokalisiert (es gibt eine Überraschung!). Dies kann verwendet werden, um in den loc-Versionen sicherzustellen, dass bestimmte Assets nicht unnötig reproduziert werden.
+   + If there is a topic in the guide called *Implementation*, the corresponding directory is `/implementation`
++ All image assets are stored in `/assets` at the root of the user guide.
+   + All images in the `/assets` directory will be localized.
+   + Any images in the `/no-localize` directory will not be localized (there's a surprise!). Dies kann verwendet werden, um in den loc-Versionen sicherzustellen, dass bestimmte Assets nicht unnötig reproduziert werden.
 
 ## Meta-Daten für Benutzerführungsebene
 
-+ Metadaten, die das Benutzerhandbuch beschreibt, werden im Abschnitt `TOC.md`gespeichert. Dazu gehören:
++ Meta data which describes the user guide is stored in the `TOC.md`. Dazu gehören:
    + product - Name des Produkts/der Funktion.
    + Cloud - Cloud, zu der dieses Produkt gehört.
    + Zielgruppe - Zielgruppe oder Archetype, auf dem das Handbuch ausgerichtet ist.
@@ -48,4 +48,4 @@ translation-type: tm+mt
 
 ## Weitere Info
 
-Weitere Veröffentlichungsanweisungen, Stilhandbücher, Beispiele und andere Ressourcen finden Sie in [der Replizierung der Dokumentation.](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+For more publishing instructions, style guides, samples and other resources, please visit the [Collaborative Documentation Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
