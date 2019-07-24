@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Signale, Eigenschaften und Segmente{#signals-traits-and-segments}
+# Signals, Traits, and Segments{#signals-traits-and-segments}
 
 Beschreibt die Komponenten eines Audience Manager-Segments, die Ausdrücke zum Festlegen von Zielgruppenqualifizierungskriterien und die Art und Weise, wie Daten in einem Ereignisaufruf übertragen werden.
 
@@ -23,7 +23,7 @@ c_signal_trait_segment.xml
 
 **Zusammensetzung und Zweck**
 
-[!DNL Audience Manager] besteht aus Signalen, Eigenschaften, Segmenten und zugehörigen Qualifizierungsregeln. Die Datenelemente und Regeln kombinieren zum Erstellen von Segmenten. Segmente organisieren Site-Besucher in verwandte Gruppen. In der folgenden Tabelle sind die drei Hauptkomponenten eines [!DNL Audience Manager] Segments definiert.
+[!DNL Audience Manager] besteht aus Signalen, Eigenschaften, Segmenten und zugehörigen Qualifizierungsregeln. Die Datenelemente und Regeln kombinieren zum Erstellen von Segmenten. Segmente organisieren Site-Besucher in verwandte Gruppen. The following table defines the three principal components in an [!DNL Audience Manager] segment.
 
 <table id="table_E8373A01C3414C42B4983A59BF0F0669"> 
  <thead> 
@@ -36,7 +36,7 @@ c_signal_trait_segment.xml
  <tbody> 
   <tr> 
    <td colname="col1"><b>Signal</b> </td> 
-   <td colname="col2"> <p>Signale sind die kleinsten Dateneinheiten in <span class="keyword"> Audience Manager</span> und werden als <a href="../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare ausgedrückt</a>. </p> 
+   <td colname="col2"> <p>Signals are the smallest data units in <span class="keyword"> Audience Manager</span> and are expressed as <a href="../reference/key-value-pairs-explained.md"> key-value pairs</a>. </p> 
     <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
      <li id="li_89574A3B4A734726AD43405AE6D85FF5">Der Schlüssel ist eine Konstante, die einen Datensatz definiert (z. B. Geschlecht, Farbe, Preis). </li> 
      <li id="li_D35601B33EE24EC5857F45D9577254D4">Der Wert ist eine Variable mit Bezug auf die Konstante (z. B. männlich/weiblich, grün, 100). </li> 
@@ -67,11 +67,11 @@ Verwenden Sie das folgende Diagramm, um die Beziehung zwischen Signal, Eigenscha
 
 **Erstellen von Eigenschaften und Segmentregeln mit visuellen Werkzeugen und Code-Editoren**
 
-Kunden verwalten Eigenschaften und Segmente mit visuellen Werkzeugen und Codeeditoren in der [!DNL Audience Manager] Benutzeroberfläche. Mit den visuellen Werkzeugen können Sie Regeln mithilfe von Suchfunktionen, Popup-Optionen, Dropdown-Menüs und Drag &amp; Drop-Funktionen erstellen. Die Codeeditoren bieten fortgeschrittene Benutzer eine Möglichkeit, die Zielgruppensegmentierungskriterien programmgesteuert zu entwickeln.
+Clients manage traits and segments with visual tools and code editors in the [!DNL Audience Manager] user interface. Mit den visuellen Werkzeugen können Sie Regeln mithilfe von Suchfunktionen, Popup-Optionen, Dropdown-Menüs und Drag &amp; Drop-Funktionen erstellen. Die Codeeditoren bieten fortgeschrittene Benutzer eine Möglichkeit, die Zielgruppensegmentierungskriterien programmgesteuert zu entwickeln.
 
 **Ereignisaufrufe Daten an Audience Manager senden**
 
-Ein Ereignisaufruf sendet Daten von Ihrer Website an [!DNL Audience Manager]. Der Aufruf enthält Signal-, Eigenschaften- und Segmentdaten in einer HTTP-Anforderung. Das Ereignis selbst ist alles nach dem `/event` Teil einer URL-Zeichenfolge. Wie im Beispiel unten gezeigt, erfordert dieser Prozess nur einen einzelnen Ereignisaufruf, an [!DNL Audience Manager]den mehrere Variablen übergeben werden sollen.
+An event call sends data from your website to [!DNL Audience Manager]. Der Aufruf enthält Signal-, Eigenschaften- und Segmentdaten in einer HTTP-Anforderung. The event itself is everything after the `/event` part of a URL string. As shown in the example below, this process requires only a single event call to pass in multiple variables to [!DNL Audience Manager].
 
 ```
 https://<domain>/event?product=camera&price>100
