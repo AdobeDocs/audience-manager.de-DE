@@ -12,17 +12,17 @@ source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
 ---
 
 
-# Testgruppeninformationen {#test-group-information}
+# Test Group Information {#test-group-information}
 
 In diesem Abschnitt werden allgemeine Informationen über die Testgruppe und die Testsegmente angezeigt, in die sie unterteilt sind, die ausgewählten Konversionseigenschaften und zugeordneten Ziele. Der Abschnitt enthält außerdem Steuerelemente zum Duplizieren oder Löschen der Testgruppe.
 
 Sie können auch Informationen zu dem Grundliniensegment anzeigen, das Sie für die Testgruppe verwendet haben und wie die Testsegmente geteilt werden.
 
-Sie **[!UICONTROL Test Segments]** werden zufällig mit Benutzern aus dem Grundliniensegment ausgefüllt, das Sie für die Testgruppe verwendet haben. Die Übersicht zeigt den Prozentsatz der Benutzer, die Sie den einzelnen Testsegmenten zugewiesen haben.
+The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. Die Übersicht zeigt den Prozentsatz der Benutzer, die Sie den einzelnen Testsegmenten zugewiesen haben.
 
-Die **[!UICONTROL Conversion Traits]** Laufweite der Berichterstellung für die Testgruppen. Um eine Eigenschaft als Konversion festzulegen, wählen Sie beim Erstellen oder Bearbeiten von Eigenschaften in [!UICONTROL Trait Builder]die **Option Umrechnung** als **[Ereignistyp](../../features/traits/create-onboarded-rule-based-traits.md).**
+The **[!UICONTROL Conversion Traits]** drive the reporting for the test groups. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
 
-Die **[!UICONTROL Destinations]** Karte ist reduziert. Drücken Sie die Pfeile, um einzelne Ziele zu öffnen oder zu schließen und die folgenden Informationen zu Testsegmenten abzurufen, gruppiert nach den Zielen, die zugeordnet werden:
+The **[!UICONTROL Destinations]** card is collapsible. Drücken Sie die Pfeile, um einzelne Ziele zu öffnen oder zu schließen und die folgenden Informationen zu Testsegmenten abzurufen, gruppiert nach den Zielen, die zugeordnet werden:
 
 * die Anzahl der Geräte aus der Gesamtpopulation des Basissegments, die jedem Ziel zugeordnet ist.
 * Zuordnungsschlüssel;
