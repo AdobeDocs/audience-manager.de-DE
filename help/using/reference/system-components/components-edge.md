@@ -11,11 +11,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Das Edge Data Center{#understanding-the-edge-data-center}
+# Understanding the Edge Data Center{#understanding-the-edge-data-center}
 
 Audience Manager verwendet verteilte Edge-Rechnertopologien, um die Anforderungen an unsere Systeme durch externe Quellen zu erfüllen.
 
-## Grundlagen der Edge Data Center {#edge-data-center-basics}
+## Edge Data Center Basics {#edge-data-center-basics}
 
 <!-- 
 
@@ -23,13 +23,13 @@ c_compedge.xml
 
  -->
 
-Die Leistung von Edge-Rechnern bietet eine verbesserte Leistung als Reaktion auf eine diffuse Internetbreite, da die &quot;edge&quot; selbst eine globale Grenze ist. Dies bedeutet, dass die Verarbeitung [!DNL Audience Manager] dynamisch verarbeitet wird, die den Quellen der Nachfrage am nächsten ist, und Daten durch den kürzesten Pfad zurückgibt. Mit der Edge-Datenbank bleibt die Site-Performance erhalten, die wiederum die Benutzererfahrung auf Ihrer Website beibehält. Das Edge Data Center ist ein wichtiges Gateway [!DNL Audience Manager]zum Verschieben von Daten in und aus.
+Die Leistung von Edge-Rechnern bietet eine verbesserte Leistung als Reaktion auf eine diffuse Internetbreite, da die "edge" selbst eine globale Grenze ist. This means [!DNL Audience Manager] dynamically places processing closest to the sources of demand and returns data by the shortest possible path. Mit der Edge-Datenbank bleibt die Site-Performance erhalten, die wiederum die Benutzererfahrung auf Ihrer Website beibehält. The edge data center is a key gateway for moving data in and out of [!DNL Audience Manager].
 
-Das [!DNL Audience Manager] Edge Data Center umfasst:
+The [!DNL Audience Manager] edge data center includes:
 
 * **Core-Server:** Dies sind die [!DNL Audience Manager] Hauptsysteme. Sie aktualisieren und liefern Daten an die Edge-Server.
 
-* **Edge Server:** Normalerweise sind dies Anwendungen und/oder Webserver. Sie befinden sich an der Grenze zwischen und [!DNL Audience Manager] im Internet. Edge-Server wie das [!UICONTROL DCS] oder Akamai-System verarbeiten normalerweise Daten und Anforderungen, [!DNL Audience Manager]die in- und ablaufen.
+* **Edge Server:** Normalerweise sind dies Anwendungen und/oder Webserver. They sit at the boundary between [!DNL Audience Manager] and the Internet. Edge servers, such as the [!UICONTROL DCS] or Akamai systems, typically handle data and requests flowing into and out of [!DNL Audience Manager].
 
 * **Lastenausgleich:** Ungleichmäßige Verarbeitungs-/Verarbeitungsanforderungen in Internetanwendungen verwalten. Diese Balken verhindern, dass Servercluster überlastet werden, während andere inaktiv bleiben.
 
@@ -37,6 +37,6 @@ Das folgende Diagramm veranschaulicht die Edge Manager-Edge-Datencenter-Umgebung
 
 ![](assets/edge_data_center.png)
 
-## Geografischer Verteilung und Lastenausgleich {#geo-dist-balance}
+## Geographic Distribution and Load Balancing {#geo-dist-balance}
 
-Siehe [!UICONTROL DCS] Abschnitt in [Datenerfassungskomponenten](../../reference/system-components/components-data-collection.md).
+See the [!UICONTROL DCS] section in [Data Collection Components](../../reference/system-components/components-data-collection.md).
