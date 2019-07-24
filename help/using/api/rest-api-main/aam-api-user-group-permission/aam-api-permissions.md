@@ -11,13 +11,13 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Zugriffssteuerungsungs-API-Methoden {#permissions-management-api-methods}
+# Permissions Management API Methods {#permissions-management-api-methods}
 
-Rest [!DNL API] -Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
+Rest [!DNL API] methods to manage permissions for objects and groups.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Liste verfügbarer Objekttypen {#list-object-types}
+## List Available Object Types {#list-object-types}
 
 `GET` Eine Methode zur Liste verfügbarer Objekttypen, auf denen rollenbasierte Zugriffssteuerungselemente festgelegt werden können.
 
@@ -33,7 +33,7 @@ Rest [!DNL API] -Methoden zum Verwalten von Berechtigungen für Objekte und Grup
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Liste verfügbarer Berechtigungen für einen Objekttyp {#list-permissions-object-type}
+## List Available Permissions for an Object Type {#list-permissions-object-type}
 
 `GET` Eine Methode zur Liste der verfügbaren Berechtigungen für einen Objekttyp.
 
