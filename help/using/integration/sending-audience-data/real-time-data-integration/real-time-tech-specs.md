@@ -11,7 +11,7 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 ---
 
 
-# Technische Spezifikationen für Inbound, Echtzeit-Datenübertragungen{#technical-specifications-for-inbound-real-time-data-transfers}
+# Technical Specifications for Inbound, Real-Time Data Transfers{#technical-specifications-for-inbound-real-time-data-transfers}
 
 Drittanbieter von Inhalten können Daten mit Audience Manager gemäß diesen technischen Spezifikationen austauschen. Eine Echtzeit-Integration (synchron) überträgt Daten in nahezu echtzeit als Benutzerbesuche oder führt Aktionen auf Ihrer Site durch. Technische, technische oder Entwicklungsteams sollten dieses Material verwenden, um Echtzeit-Datenübertragungen mit Audience Manager einzurichten.
 
