@@ -13,33 +13,33 @@ source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
 
 # [!DNL OAuth 2.0] Integration für Echtzeit-Ausgehende Übertragungen{#oauth-integration-for-real-time-outbound-transfers}
 
-Wenn Sie Segmente über eine Echtzeit-Server-zu-Server-Integration auf dem Partnerziel veröffentlichen, kann Audience Manager für die Authentifizierung mithilfe der [!DNL OAuth 2.0] Anforderungen eingerichtet werden. Dadurch können authentifizierte Anforderungen aus Audience Manager an Ihren Endpunkt gesendet werden.
+When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using [!DNL OAuth 2.0] when making the requests. Dadurch können authentifizierte Anforderungen aus Audience Manager an Ihren Endpunkt gesendet werden.
 
-## Authentifizierungsfluss {#auth-flow}
+## Authentication Flow {#auth-flow}
 
-Die [!DNL Adobe Audience Manager][oauth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) -Authentifizierungsimplementierung basiert auf den Clientberechtigungen und folgt diesen Schritten:
+The [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) authentication implementation is based on the Client Credentials grant flow and follows these steps:
 
 1. Sie müssen uns Folgendes bereitstellen:
-   * Der [!DNL OAuth 2.0] Endpunkt, der das Authentifizierungstoken generiert.
+   * The [!DNL OAuth 2.0] endpoint that generates the authentication token.
    * Die zum Generieren eines Tokens verwendeten Anmeldeinformationen.
-1. Ein [!DNL Audience Manager] Berater richtet das [Ziel](../../../features/destinations/destinations.md) anhand der von Ihnen angegebenen Informationen ein.
-1. Sobald ein Segment diesem Ziel zugeordnet ist, sendet unser Echtzeit-Datenübertragungssystem [IRIS](../../../reference/system-components/components-data-action.md#iris)eine `POST` Anforderung an den Tokenendpunkt, um die Anmeldeinformationen für ein Inhabertoken auszutauschen.
-1. Verwendet für jede Segmentveröffentlichungsanfrage an den Partner-Endpunkt [!UICONTROL IRIS] das Inhabertoken zur Authentifizierung.
+1. An [!DNL Audience Manager] consultant sets up the [destination](../../../features/destinations/destinations.md) using the information you provided.
+1. Once a segment is mapped to this destination, our real-time data transfer system, [IRIS](../../../reference/system-components/components-data-action.md#iris), makes a `POST` request to the token endpoint to exchange the credentials for a bearer token.
+1. For each segment publishing request to the partner endpoint, [!UICONTROL IRIS] uses the bearer token to authenticate.
 
 ![](assets/oauth2-iris.png)
 
 ## Voraussetzungen {#auth-requirements}
 
-Als [!DNL Audience Manager] Partner sind die folgenden Endpunkte zum Erhalt authentifizierter Anforderungen erforderlich:
+As an [!DNL Audience Manager] partner, the following endpoints are needed to receive authenticated requests:
 
 ### Von IRIS zum Abrufen eines Inhabertoken verwendeter Endpunkt 1
 
 Dieser Endpunkt akzeptiert die in Schritt 1 angegebenen Anmeldeinformationen und generiert ein Inhabertoken, das bei nachfolgenden Anforderungen verwendet wird.
 
-* Der Endpunkt muss `HTTP POST` Anforderungen akzeptieren.
-* Der Endpunkt muss die [!DNL Authorization] Kopfzeile akzeptieren und überprüfen. Der Wert für diese Kopfzeile lautet: `Basic <credentials_provided_by_partner>`.
-* Der Endpunkt muss sich die [!DNL Content-type] Kopfzeile ansehen und überprüfen, ob der Wert ist `application/x-www-form-urlencoded ; charset=UTF-8`.
-* Der Hauptteil der Anforderung `grant_type=client_credentials`.
+* The endpoint must accept `HTTP POST` requests.
+* The endpoint must accept and look at the [!DNL Authorization] header. The value for this header will be: `Basic <credentials_provided_by_partner>`.
+* The endpoint must look at the [!DNL Content-type] header and validate that its value is `application/x-www-form-urlencoded ; charset=UTF-8`.
+* The body of the request will be `grant_type=client_credentials`.
 
 ### Beispielanfrage von Audience Manager an den Partner-Endpunkt, um ein Platzhaltertoken abzurufen
 
@@ -72,7 +72,7 @@ Content-Length: 121
 
 [!DNL Audience Manager] sendet Daten in Echtzeit an diesen Endpunkt, wenn die Benutzer sich für Segmente qualifizieren. Darüber hinaus kann diese Methode Stapel von Offline- oder Onlinedaten so oft wie alle 24 Stunden senden.
 
-Das durch Endpunkt 1 generierte Inhabertoken wird zur Ausgabe von Anforderungen an diesen Endpunkt verwendet. Das [!DNL Audience Manager] Echtzeit-Datenübertragungssystem [, IRIS](../../../reference/system-components/components-data-action.md#iris), erstellt eine normale HTTPS-Anforderung und enthält eine Autorisierungskopfzeile. Der Wert für diese Kopfzeile lautet: Bearer `<bearer token from step 1>`.
+Das durch Endpunkt 1 generierte Inhabertoken wird zur Ausgabe von Anforderungen an diesen Endpunkt verwendet. The [!DNL Audience Manager] real-time data transfer system, [IRIS](../../../reference/system-components/components-data-action.md#iris), constructs a normal HTTPS request and includes an Authorization header. The value for this header will be: Bearer `<bearer token from step 1>`.
 
 ### Beispielantwort vom Partner-Endpunkt
 
@@ -107,12 +107,12 @@ Accept-Encoding: gzip
 >
 >Diese Anforderung enthält eine Standardnutzlast (Inhalt anfordern).
 
-## Wichtige Überlegungen {#considerations}
+## Important Considerations {#considerations}
 
 ### Tokens sind Kennwörter
 
-Die vom Partner dargestellten Berechtigungen und die von [!DNL Audience Manager] der Authentifizierung mit dem [!DNL OAuth 2.0] Fluss erhaltenen Token sind sensible Informationen und dürfen nicht für Dritte freigegeben werden.
+The credentials presented by the partner and the tokens obtained by [!DNL Audience Manager] when authenticating using the [!DNL OAuth 2.0] flow, are sensitive information and must not be shared with third parties.
 
 ### [!DNL SSL] erforderlich
 
-[!DNL SSL] muss verwendet werden, um einen sicheren Authentifizierungsprozess zu gewährleisten. Alle Anforderungen, einschließlich der zum Abrufen und Verwenden der Token verwendeten Anforderungen, müssen `HTTPS` Endpunkte verwenden.
+[!DNL SSL] muss verwendet werden, um einen sicheren Authentifizierungsprozess zu gewährleisten. All requests, including the ones used to obtain and use the tokens must use `HTTPS` endpoints.
