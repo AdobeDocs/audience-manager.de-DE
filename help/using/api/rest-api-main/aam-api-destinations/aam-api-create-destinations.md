@@ -11,15 +11,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Ziele erstellen {#create-destinations}
+# Create Destinations {#create-destinations}
 
-Erstellen Sie Ziele mit diesen [!UICONTROL RESTful API] Methoden.
+Create destinations with these [!UICONTROL RESTful API] methods.
 
 <!-- c_create_destinations.xml -->
 
 ## Unterstützte Zieltypen: Nur URL und Cookie
 
-Mit den verfügbaren `POST` Methoden [!UICONTROL URL][!UICONTROL cookie destinations] können Sie erstellen. Derzeit können Sie nicht [!UICONTROL server-to-server destinations] mit diesen [!DNL REST API] Methoden erstellen. Mit den zugehörigen Zielmethoden `GET` können Sie jedoch Informationen über [!UICONTROL server-to-server destinations] die in der Benutzeroberfläche erstellten Informationen abrufen.
+The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot create [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
 
 >[!MORE_ LIKE_ THIS]
 >
@@ -28,7 +28,7 @@ Mit den verfügbaren `POST` Methoden [!UICONTROL URL][!UICONTROL cookie destinat
 >* [Wichtige Wertpaare](../../../reference/key-value-pairs-explained.md)
 
 
-## Nicht-Serial URL-Ziel erstellen {#create-nonserial-dest}
+## Create a Non-Serial URL Destination {#create-nonserial-dest}
 
 `POST` Eine Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die aus einzelnen Schlüsselwertpaaren bestehen (z. B. `gender=male` oder `gender=female`).
 
@@ -53,7 +53,7 @@ Diese Anforderung erstellt ein einzelnes Ziel. Alle Anforderungswerte sind erfor
 
 ### Antwort
 
-Eine erfolgreiche Anforderung gibt zurück `201 created` und das Ziel.
+A successful request returns `201 created` and the destination.
 
 ```
 { 
@@ -86,7 +86,7 @@ Eine erfolgreiche Anforderung gibt zurück `201 created` und das Ziel.
 >* [Zielreihenbildung](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 
-## Ein serialisiertes URL-Ziel erstellen {#create-serial-url-dest}
+## Create a Serialized URL Destination {#create-serial-url-dest}
 
 `POST` Eine Methode, mit der Sie ein Ziel erstellen können, das mehrere Werte akzeptiert, die mit einem einzelnen Schlüssel verknüpft sind (z. `color=blue, red, green`B.).
 
@@ -98,7 +98,7 @@ Eine erfolgreiche Anforderung gibt zurück `201 created` und das Ziel.
 
 ### Beispielanforderung
 
-Geben Sie das sichere [!DNL URL] und Trennzeichen für das Schlüssel-Wert-Paar an, das an das Ziel weitergegeben wird. Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
+Specify the secure [!DNL URL] and delimiter for the key-value pair passed in to the destination. Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 { 
@@ -114,7 +114,7 @@ Geben Sie das sichere [!DNL URL] und Trennzeichen für das Schlüssel-Wert-Paar 
 
 ### Antwort
 
-Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
+A successful update returns response code `201 created` and the destination.
 
 ```
 { 
@@ -147,7 +147,7 @@ Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
 >* [Zielreihenbildung](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 
-## Cookie-Ziel erstellen: Einzelschlüssel, nicht serialisiert {#create-cookie-dest-single}
+## Create a Cookie Destination: Single-Key, Non-Serialized {#create-cookie-dest-single}
 
 `POST` Eine Methode, mit der Sie ein [!UICONTROL cookie destination] Segment erstellen können, das aus einzelnen Schlüsselwertpaaren (z. B. `gender=male` oder `gender=female`) besteht.
 
@@ -184,7 +184,7 @@ Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ### Antwort
 
-Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
+A successful update returns response code `201 created` and the destination.
 
 ```
 { 
@@ -222,7 +222,7 @@ Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
 >* [Wichtige Wertpaare](../../../reference/key-value-pairs-explained.md)
 
 
-## Cookie-Ziel erstellen: Einzelner Schlüssel, serialisiert {#create-cookie-dest-single-serial}
+## Create a Cookie Destination: Single Key, Serialized {#create-cookie-dest-single-serial}
 
 `POST` Eine Methode, mit der Sie ein Ziel erstellen können, das mehrere Werte akzeptiert, die mit einem einzelnen Schlüssel verknüpft sind (z. `color=blue, red, green`B.).
 
@@ -260,7 +260,7 @@ Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ### Antwort
 
-Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
+A successful update returns response code `201 created` and the destination.
 
 ```
 { 
@@ -299,7 +299,7 @@ Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
 >* [Wichtige Wertpaare](../../../reference/key-value-pairs-explained.md)
 
 
-## Cookie-Ziel erstellen: Mehrere Schlüssel, nicht serialisiert {#create-cookie-dest-multi}
+## Create a Cookie Destination: Multi-Key, Non-Serialized {#create-cookie-dest-multi}
 
 `POST` Eine Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die mehrere Schlüssel mit verschiedenen Werten enthalten (z. `gender=male; gender=female; color=blue; color=red`B.).
 
@@ -335,7 +335,7 @@ Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ### Antwort
 
-Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
+A successful update returns response code `201 created` and the destination.
 
 ```
 { 
@@ -366,7 +366,7 @@ Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
 }
 ```
 
-## Cookie-Ziel erstellen: Mehrere Schlüssel, serialisierung {#create-cookie-dest-multi-serial}
+## Create a Cookie Destination: Multi-Key, Serialized {#create-cookie-dest-multi-serial}
 
 `POST` Eine Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die mehrere Schlüssel und Werte enthalten (z. `gender=male, female; color=blue, red, green`B.).
 
@@ -403,7 +403,7 @@ Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ### Antwort
 
-Ein erfolgreicher Update gibt Antwortcode `201 created` und das Ziel zurück.
+A successful update returns response code `201 created` and the destination.
 
 ```
 { 
