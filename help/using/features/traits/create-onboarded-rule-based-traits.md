@@ -12,15 +12,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Regelbasierte oder Onboardanmerkungen erstellen {#create-rules-based-or-onboarded-traits}
+# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
 
-Beschreibt die Schritte und Funktionen, die speziell für die [!UICONTROL rules-based] Erstellung und [!UICONTROL onboarded] Erstellung von Eigenschaften gelten.
+Describes set up steps and features specific to the [!UICONTROL rules-based] and [!UICONTROL onboarded] trait creation process.
 
 <!-- c_tb_rules_traits.xml -->
 
-## Grundlegende Informationen zu Eigenschaften {#basics}
+## Basic Information for Traits {#basics}
 
-In können [!UICONTROL Trait Builder]Sie in den [!UICONTROL Basic Information] Einstellungen neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. Die [!UICONTROL Basic Information] Einstellungen gelten für regelbasierte, detaillierte und algorithmische Eigenschaften. Um eine neue Eigenschaft zu erstellen, geben Sie einen Namen (Sonderzeichen vermeiden), eine Datenquelle und einen Speicherordner ein. Andere [!UICONTROL Basic Information] Felder sind optional.
+In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing traits. The [!UICONTROL Basic Information] settings are the same for rules-based, onboarded and algorithmic traits. Um eine neue Eigenschaft zu erstellen, geben Sie einen Namen (Sonderzeichen vermeiden), eine Datenquelle und einen Speicherordner ein. Other [!UICONTROL Basic Information] fields are optional.
 
 <!-- c_tb_basics.xml -->
 
@@ -43,7 +43,7 @@ In können [!UICONTROL Trait Builder]Sie in den [!UICONTROL Basic Information] E
        <li id="li_579302FE34B64FE0AE3C751012839229">Bindestriche </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Registerkarten </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">Vertikalbalken- oder Senkrechtstrich </li> 
-      </ul> </p> </p> <p>Dadurch können Verarbeitungsfehler reduziert werden, wenn Sie eine <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> eingehende Datendateiübertragung einrichten</a>. </p> </td> 
+      </ul> </p> </p> <p>This helps reduce processing errors when you set up an <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> inbound data file transfer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Beschreibung</span></b> </td> 
@@ -76,15 +76,15 @@ In können [!UICONTROL Trait Builder]Sie in den [!UICONTROL Basic Information] E
  </tbody> 
 </table>
 
-## Festlegen eines Eigenschaftsablaufintervalls {#set-expiration-interval}
+## Set a Trait Expiration Interval {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder]können [!UICONTROL Advanced Options] Sie ein Zeitintervall ([!DNL TTL]) für eine Eigenschaft festlegen. [!DNL TTL] definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft verbleibt (120 Tage ist Standard). Bei Festlegung auf 0 läuft die Trait-Mitgliedschaft nie ab.
+In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft verbleibt (120 Tage ist Standard). Bei Festlegung auf 0 läuft die Trait-Mitgliedschaft nie ab.
 
 <!-- t_tb_ttl.xml -->
 
 ### TTL für eine Eigenschaft festlegen
 
-1. Erweitern Sie den [!UICONTROL Advanced Options] Abschnitt und geben Sie eine Zahl ein, um einen [!DNL TTL] Wert für die Eigenschaft festzulegen.
+1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
 1. Klicken Sie auf **[!UICONTROL Save]**.
    ![](assets/TTL.png)
 
