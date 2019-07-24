@@ -11,25 +11,25 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 ---
 
 
-# Erstellen eines GPT-Ziels {#create-a-gpt-destination}
+# Create a GPT Destination {#create-a-gpt-destination}
 
-Sie können qualifizierte Segmente [!DNL DFP] über eine clientseitige (browserseitige) Integration oder eine serverseitige Integration senden. Wenn Sie die clientseitige Integration auswählen, müssen Sie ein Cookie-basiertes Ziel für [!DNL Google Publisher Tags] Audience Manager erstellen.
+You can send qualified segments to [!DNL DFP] through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for [!DNL Google Publisher Tags] in Audience Manager.
 
 ## Ziele
 
-In Audience Manager ist ein *`destination`* beliebiges anderes System (Werbeserver, [!DNL DSP]Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] bietet die Tools, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Zielfunktionen von Audience Manager befinden sich in *[!UICONTROL Audience Data] &gt; [!UICONTROL Destinations]*. Um zu beginnen, klicken Sie **[!UICONTROL Add New Destination]** auf und gehen Sie wie folgt vor.
+In Audience Manager, a *`destination`* is any other system (ad server, [!DNL DSP], ad network, etc.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] bietet die Tools, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager destination features are located in *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
 
 ## Basisinformationen
 
-So füllen Sie den [!UICONTROL Basic Information] Abschnitt aus:
+To complete the [!UICONTROL Basic Information] section:
 
 1. Geben Sie dem Ziel einen Namen.
-1. Wählen **[!UICONTROL "Cookie"]** Sie aus der [!UICONTROL Type] Dropdownliste aus.
-1. Klicken **[!UICONTROL Next]** Sie auf und wechseln Sie zu [!UICONTROL Configuration] den [!UICONTROL Segment Mappings] Abschnitten.
+1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list.
+1. Click **[!UICONTROL Next]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
 
 ## Cookie-Konfiguration
 
-Geben Sie Folgendes an, um den [!UICONTROL Configuration] Abschnitt abzuschließen (andere Felder sind optional):
+Provide the following to complete the [!UICONTROL Configuration] section (other fields are optional):
 
 1. **Cookie-Name:** Geben Sie einen kurzen, beschreibenden Namen für Ihr Cookie an.
 1. **Datenformat:** Wählen Sie die **[!UICONTROL "Single Key"]** Option aus.
@@ -41,10 +41,10 @@ Geben Sie Folgendes an, um den [!UICONTROL Configuration] Abschnitt abzuschließ
 
 So fügen Sie einem Cookie-Ziel ein Segment hinzu:
 
-1. Segmente suchen: Der [!UICONTROL Segment Mappings] Abschnitt enthält zwei Tools zur Suche nach Segmenten. So suchen Sie ein Segment:
+1. Find segments: The [!UICONTROL Segment Mappings] section provides two search tools to help locate segments. So suchen Sie ein Segment:
 
-   * Option 1: Geben Sie einen Segmentnamen in das Suchfeld ein. Das Feld wird automatisch basierend auf eingegebenen Text aktualisiert. Klicken **[!UICONTROL Add]** Sie auf, sobald Sie das gewünschte Segment gefunden haben.
-   * Option 2: Klicken **[!UICONTROL Browse All Segments]** Sie, um ein Fenster zu öffnen, mit dem Sie nach Segmenten nach Namen oder Speicherort suchen können. Klicken Sie auf, **[!UICONTROL Add Selected Segments]** wenn Sie fertig sind.
+   * Option 1: Geben Sie einen Segmentnamen in das Suchfeld ein. Das Feld wird automatisch basierend auf eingegebenen Text aktualisiert. Click **[!UICONTROL Add]** once you find the segment you want to use.
+   * Option 2: Click **[!UICONTROL Browse All Segments]** to open a window that lets you browse for segments by name or storage location. Click **[!UICONTROL Add Selected Segments]** when done.
 
 1. **Zuordnungen hinzufügen:** Geben Sie in das Feld Zuordnungen die Segment-ID im Feld Zuordnungen ein und klicken **[!UICONTROL Save]** Sie auf.
 
