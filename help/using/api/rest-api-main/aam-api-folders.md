@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Ordner-API-Methoden {#folder-api-methods}
+# Folder API Methods {#folder-api-methods}
 
 Methoden, mit denen Sie programmatisch mit Eigenschaften- und Segmentordnern arbeiten können. Ordner sind Ordner, die Eigenschaften und Segmente in logischen Gruppen aufnehmen und organisieren.
 
@@ -19,6 +19,6 @@ Methoden, mit denen Sie programmatisch mit Eigenschaften- und Segmentordnern arb
 
 >[!IMPORTANT]
 >
->Die [!DNL API] Ordnermethoden wurden umgeschrieben [!DNL Swagger] und migriert. Siehe:  &gt;
+>The folder [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Siehe:  &gt;
 >* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration von Audience Manager-API-Code](../../api/api-swagger-migration.md)
