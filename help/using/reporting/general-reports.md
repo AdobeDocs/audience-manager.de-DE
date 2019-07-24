@@ -118,7 +118,7 @@ Diese Metrik stellt die Gesamtanzahl der uuids von Audience Manager dar, die fü
 >
 >Select **[!UICONTROL Include Destination Mappings]** to see a breakdown of segment population for activated destinations.
 
-Die folgende Abbildung zeigt die Ergebnisse der Ausführung eines allgemeinen Berichts für den Berichtstyp &quot;Segmente&quot; .
+Die folgende Abbildung zeigt die Ergebnisse der Ausführung eines allgemeinen Berichts für den Berichtstyp "Segmente" .
 
 ![](assets/general_reports_segment_metrics.png)
 
