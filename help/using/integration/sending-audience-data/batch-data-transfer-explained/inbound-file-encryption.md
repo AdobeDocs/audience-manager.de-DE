@@ -11,22 +11,22 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Datei-PGP-Verschlüsselung für Inbound-Datentypen{#file-pgp-encryption-for-inbound-data-types}
+# File PGP Encryption for Inbound Data Types{#file-pgp-encryption-for-inbound-data-types}
 
-Als Option können Sie Datendateien [!DNL PGP] verschlüsseln, wenn sie sie an Audience Manager senden.
+As an option, you can encrypt data files with [!DNL PGP] encryption when sending them to Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->Verschlüsselung und Komprimierung werden derzeit nicht in derselben Inbound-Datendatei unterstützt. Sie können Ihre eingehenden Dateien entweder verschlüsseln oder [komprimieren](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) .
+>Verschlüsselung und Komprimierung werden derzeit nicht in derselben Inbound-Datendatei unterstützt. You can select to either encrypt or [compress](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) your inbound files.
 
 Gehen Sie wie unten beschrieben vor, um eingehende Datendateien zu verschlüsseln.
 
-1. Laden Sie den öffentlichen [Zielschlüssel für Audience Manager herunter](./assets/adobe_pgp.pub).
+1. Download the [Audience Manager public key](./assets/adobe_pgp.pub).
 1. Importieren Sie den öffentlichen Schlüssel in Ihren vertrauenswürdigen Store.
 
-   Wenn Sie zum [!DNL GPG]Beispiel verwenden, könnte der Befehl wie folgt lauten:
+   For example, if you use [!DNL GPG], the command could be similar to the following:
 
    `gpg --import adobe_pgp.pub`
 
@@ -46,8 +46,8 @@ Gehen Sie wie unten beschrieben vor, um eingehende Datendateien zu verschlüssel
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   Alle verschlüsselten Daten müssen die `.pgp``.gpg` Dateierweiterung verwenden (z. B `ftp_dpm_100_123456789.sync.pgp` . oder `ftp_dpm_100_123456789.overwrite.gpg`).
+   All encrypted data must use `.pgp` or `.gpg` as the file extension (e.g. `ftp_dpm_100_123456789.sync.pgp` or `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >Audience Manager unterstützt nur den [!DNL Advanced Encryption Standard (AES)] Datenverschlüsselungsalgorithmus. Audience Manager unterstützt alle Schlüsselgrößen.
+   >Audience Manager supports only the [!DNL Advanced Encryption Standard (AES)] data-encryption algorithm. Audience Manager unterstützt alle Schlüsselgrößen.
