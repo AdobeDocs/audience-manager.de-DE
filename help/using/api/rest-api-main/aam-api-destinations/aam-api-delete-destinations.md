@@ -11,7 +11,7 @@ source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 ---
 
 
-# Ziele löschen {#delete-destinations}
+# Delete Destinations {#delete-destinations}
 
 `DELETE` und `POST` Methoden, mit denen Sie Ziele und Segmentzuordnungen entfernen können.
 
@@ -25,19 +25,19 @@ source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 >
 >Sie müssen alle Segmentzuordnungen entfernen, bevor Sie ein Ziel löschen können.
 
-* Anforderung: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
-* Antwort: Gibt Code `204 No Content` zurück, wenn erfolgreich.
+* Request: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
+* Response: Returns code `204 No Content` if successful.
 
 ## Ziele für Massenlöschung
 
-Entfernen Sie mehrere Ziele mit dieser `POST` Methode. Geben Sie Ziel-IDs ( `destinationId`) mit einem Array im Anforderungstext an.
+Remove multiple destinations with this `POST` method. Pass in destination IDs ( `destinationId`) with an array in the request body.
 
 * Anfrage: `POST https://api.demdex.com/v1/destinations/bulk-delete/`
-* Antwort: Gibt Code `204 No Content` zurück, wenn erfolgreich.
+* Response: Returns code `204 No Content` if successful.
 
 ## Zielzuordnungen nach Segmentzuordnungs-ID löschen
 
-Eine `POST` Methode, die Zielzuordnungen entsprechend der angegebenen Segment-ID entfernt.
+A `POST` method that removes destination mappings according to the specified segment ID.
 
-* Anforderung: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/segments/`*`<mappingId>`*
-* Antwort: Gibt Code `204 No Content` zurück, wenn erfolgreich.
+* Request: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
+* Response: Returns code `204 No Content` if successful.
