@@ -11,25 +11,25 @@ source-git-commit: 3a02c2e109f6ae4565cf9d86bb8828ab49bb01f0
 ---
 
 
-# Eindeutige Benutzerreichweite{#unique-user-reach}
+# Unique User Reach{#unique-user-reach}
 
-Der Bericht &quot;Individuelle Benutzerreichweite&quot; gibt Daten in einem Punktdiagramm zurück. Jede Blase wird im direkten Verhältnis zur Anzahl der Unique Users für Ihre ausgewählten Anzeigeneinheiten angepasst. Eine größere Blase deutet auf größere Reichweite hin als auf eine kleinere Blase. Der Bericht &quot;Individuelle Benutzerreichweite&quot; hilft Ihnen, die Anzeigeneinheit zu finden, die die größtmögliche Reichweite gegenüber Ihren Zielgruppenbenutzern bietet.
+Der Bericht "Individuelle Benutzerreichweite" gibt Daten in einem Punktdiagramm zurück. Jede Blase wird im direkten Verhältnis zur Anzahl der Unique Users für Ihre ausgewählten Anzeigeneinheiten angepasst. Eine größere Blase deutet auf größere Reichweite hin als auf eine kleinere Blase. Der Bericht "Individuelle Benutzerreichweite" hilft Ihnen, die Anzeigeneinheit zu finden, die die größtmögliche Reichweite gegenüber Ihren Zielgruppenbenutzern bietet.
 
 ## Nutzungsszenario {#use-cases}
 
-Mit dem [!UICONTROL Unique User Reach] Bericht können Sie die Eigenschaften in Ihrem Portfolio identifizieren, die ein hohes Volumen Unique Users anziehen.
+With the [!UICONTROL Unique User Reach] report, you can identify the properties in your portfolio that attract a high volume of unique users.
 
-## Verwenden des Berichts &quot;Individuelle Reichweite « {#using-the-report}
+## Using the Unique Reach Report {#using-the-report}
 
-Verwenden Sie das **[!UICONTROL Dimension Value]** Feld, um die Anzeigeneinheiten auszuwählen, die im Bericht angezeigt werden sollen. Klicken **[!UICONTROL All]** Sie auf, um alle Ihre Eigenschaften im Punktdiagramm anzuzeigen.
+Use the **[!UICONTROL Dimension Value]** box to select the ad units you want to display in the report. Click **[!UICONTROL All]** to display all your properties in the bubble chart.
 
-Verwenden Sie den Steuerumfang **für Tagesbereich** und **Datum,** um den Look-Back-Bereich anzupassen.
+Use the **Day Range** and **Date Through** controls to adjust your look-back range.
 
-## Interpretieren der Ergebnisse {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
 **Beispielbericht**
 
-Ihr [!UICONTROL Unique User Reach] Bericht könnte wie folgt aussehen. Klicken Sie in Ihrem Bericht auf ein Punktdiagramm, um die zugrunde liegenden Daten anzuzeigen. Weitere Informationen finden Sie in der unten stehenden Tabelle unter Beschreibungen.
+Your [!UICONTROL Unique User Reach] report could look similar to the one below. Klicken Sie in Ihrem Bericht auf ein Punktdiagramm, um die zugrunde liegenden Daten anzuzeigen. Weitere Informationen finden Sie in der unten stehenden Tabelle unter Beschreibungen.
 
 ![](assets/publisher_unique_user_reach.png)
 
