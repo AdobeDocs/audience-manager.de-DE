@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Bericht zu nicht verwendeten Signalen{#unused-signals-report}
+# Unused Signals Report{#unused-signals-report}
 
 Dieser Bericht gibt eine Häufigkeitsanzahl aller nicht verwendeten Informationen zurück, die in Ihrem Bestand erfasst und an Audience Manager gesendet werden.
 
@@ -23,9 +23,9 @@ c_unused_signals.xml
 
 ## Bericht zu nicht verwendeten Signalen
 
-Ein Signal sind Informationen von Ihrer Website, die in [!DNL Audience Manager] Form [von Schlüsselwertpaaren (z.](../../reference/key-value-pairs-explained.md) B. `color=blue, price>100, gender=female`usw.) weitergegeben werden.
+A signal is information from your website passed in to [!DNL Audience Manager] in the form of [key-value pairs](../../reference/key-value-pairs-explained.md) (e.g., `color=blue, price>100, gender=female`, etc.).
 
-Nicht verwendete Signale bestehen aus Daten, die Sie erfassen, aber keiner Eigenschaft zugeordnet wurden. Der [!UICONTROL Unused Signals] Bericht zeigt Daten in einer Tabelle nach Datum, Schlüssel, Wert und Häufigkeit an. Alle nicht zugeordneten Signale, die an einem Tag [!DNL Audience Manager] an mindestens 100 Tagen übergeben wurden, qualifizieren sich für den [!UICONTROL Unused Signals] Bericht.
+Nicht verwendete Signale bestehen aus Daten, die Sie erfassen, aber keiner Eigenschaft zugeordnet wurden. The [!UICONTROL Unused Signals] report shows data in a table by date, key, value, and frequency count. Any unmapped signal passed in to [!DNL Audience Manager] at least 100 times in a day qualifies for the [!UICONTROL Unused Signals] report.
 
 Lesen Sie diesen Bericht, um verwaiste Signale zu identifizieren, die neuen oder vorhandenen Eigenschaften zugeordnet werden können.
 
@@ -45,7 +45,7 @@ Lesen Sie diesen Bericht, um verwaiste Signale zu identifizieren, die neuen oder
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Sicherstellen der Eigenschaftsübereinstimmung oder Hinzufügen verwandter Werte zu einem einzelnen Schlüssel</b> </p> </td> 
-   <td colname="col2"> <p>Überprüfen Sie den Bericht, um verschiedene Wertvariationen für ein bestimmtes Signal zu berücksichtigen. </p> <p>Angenommen, Sie haben eine Eigenschaft für den Status "North Carolina" , der in einem Schlüssel-Wert-Paar als <code> c_ state = North Carolina definiert ist</code>. Der Bericht kann Ihnen helfen, Namenvarianten zu finden und diese zur Eigenschaft hinzuzufügen (z. B. <code> c_ state = North Carolina, NC, N.C., ncarolina</code>). Alternativ dazu könnten Sie Namenvarianten mit dem Bericht erstellen und diejenigen durch einen einheitlichen Wert auf allen Sites ersetzen. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Überprüfen Sie den Bericht, um verschiedene Wertvariationen für ein bestimmtes Signal zu berücksichtigen. </p> <p>For example, say you have a trait for the state "North Carolina" defined in a key-value pair as <code> c_state = North Carolina</code>. The report can help you find name variants and add those to the trait (e.g., <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Alternativ dazu könnten Sie Namenvarianten mit dem Bericht erstellen und diejenigen durch einen einheitlichen Wert auf allen Sites ersetzen. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Neue Eigenschaften erstellen</b> </p> </td> 
@@ -53,14 +53,14 @@ Lesen Sie diesen Bericht, um verwaiste Signale zu identifizieren, die neuen oder
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nicht zugeordnete Werte suchen</b> </p> </td> 
-   <td colname="col2"> <p>Überprüfen Sie den Bericht für die Nummer 1. Die Zahl 1 in einem <span class="wintitle"> nicht verwendeten</span> Signaturbericht stellt einen Nullwert dar. Dies ist nicht unbedingt negativ. Dies bedeutet lediglich, dass ein bestimmter Schlüssel keine zugeordnete Wertzuordnung hat. Wenn Sie eine Vielzahl von Werten für eine wichtige Variable sehen, wenden Sie sich an Ihr Siteteam, um sicherzustellen, dass alle Ihre Seiten richtig getaggt sind. </p> </td> 
+   <td colname="col2"> <p>Überprüfen Sie den Bericht für die Nummer 1. The number 1 in an <span class="wintitle"> Unused Signals</span> report represents a null value. Dies ist nicht unbedingt negativ. Dies bedeutet lediglich, dass ein bestimmter Schlüssel keine zugeordnete Wertzuordnung hat. Wenn Sie eine Vielzahl von Werten für eine wichtige Variable sehen, wenden Sie sich an Ihr Siteteam, um sicherzustellen, dass alle Ihre Seiten richtig getaggt sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Best Practices
 
-Führen Sie den [!UICONTROL Unused Signals] Bericht aus und prüfen Sie ihn:
+Run and check the [!UICONTROL Unused Signals] report:
 
 * Nachdem Sie eine Eigenschaft erstellt oder Trait-Regeln aktualisiert haben. Dadurch wird sichergestellt, dass Ihre Eigenschaften und Regeln korrekt eingerichtet werden. Die Zahl 1 in den Ergebnissen bedeutet, dass eine neue Eigenschaft möglicherweise nicht richtig konfiguriert wird.
 * Viertelwöchentlich oder monatlich. Geplante Überprüfungen helfen sicherzustellen, dass Eigenschaftszuordnungen aktuell sind.
@@ -69,11 +69,11 @@ Führen Sie den [!UICONTROL Unused Signals] Bericht aus und prüfen Sie ihn:
 >
 >Beachten Sie bei der Suche nach nicht verwendeten Werten im Bericht die folgende Besonderheit. Es gibt einen Unterschied zwischen den beiden folgenden Beispielen:
 
-* T (v = 1 [!UICONTROL AND NOT] (a = 23))
-* T (v = 1 [!UICONTROL AND] (a!=23))
-* Beide Beispiele zeigen eine Eigenschaft, die zwei Schlüssel-Wert-Paare v und a enthält. Der erste Ausdruck wird in: die Eigenschaft enthält den Schlüssel v mit dem Wert 1 [!UICONTROL AND NOT] der Schlüssel a mit dem Wert 23. Der zweite Ausdruck enthält Schlüssel v mit dem Wert 1 [!UICONTROL AND] der Schlüssel a mit dem Wert [!UICONTROL NOT EQUAL] 23.
-* Nehmen wir an, Sie suchen in den beiden obigen Ausdrücken nach den Werten, die [!UICONTROL Unused Signals Report] mit einem anderen Wert als 23 weitergereicht werden. Sie erhalten nur Ergebnisse im ersten Fall, da Werte für den Schlüssel NICHT ALLE gesendet wurden. Im zweiten Fall wurden Werte, die von 23 abweichen, gesendet, sodass Schlüssel A nicht nicht verwendet wird.
+* T(v=1 [!UICONTROL AND NOT] (a=23))
+* T(v=1 [!UICONTROL AND] (a!=23))
+* Both examples show a trait which contains two key-value pairs v and a. The first expression translates into: the trait contains key v with the value 1 [!UICONTROL AND NOT] the key a with the value 23. The second expression contains key v with the value 1 [!UICONTROL AND] the key a with the value [!UICONTROL NOT EQUAL] 23.
+* Considering the two different expressions above, let's say you search in the [!UICONTROL Unused Signals Report] for the values that get passed on key a with any value different than 23, you'll only obtain results in the first case because values for key were not sent AT ALL. Im zweiten Fall wurden Werte, die von 23 abweichen, gesendet, sodass Schlüssel A nicht nicht verwendet wird.
 
 ## Massenseiteerstellung
 
-Wenden Sie sich an Ihren Partner-Kundenbetreuer, wenn Sie viele Eigenschaften basierend auf Daten erstellen müssen, die aus dem [!UICONTROL Unused Signals] Bericht bezogen wurden.
+Contact your Partner Solutions representative if you need to bulk create a lot of traits based on data obtained from the [!UICONTROL Unused Signals] report.
