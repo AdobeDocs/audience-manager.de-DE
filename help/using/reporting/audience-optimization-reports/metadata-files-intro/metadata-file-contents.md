@@ -11,29 +11,29 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Inhaltsformat für Metadatendateien{#content-format-for-metadata-files}
+# Content Format for Metadata Files{#content-format-for-metadata-files}
 
 Formatieren Sie den Inhalt Ihrer Metadatendatei für Zielgruppenoptimierungen gemäß diesen Spezifikationen.
 
 ## Syntax {#syntax}
 
-Die folgende Syntax definiert die Struktur gut formatierter Inhalte in einer Metadatendatei. Hinweis: *Kursiv* zeigt einen Variablenplatzhalter an.
+Die folgende Syntax definiert die Struktur gut formatierter Inhalte in einer Metadatendatei. Note, *italics* indicates a variable placeholder.
 
 **Syntax:***Inhalts-ID* | *name* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-Die dritte Spalte **-1** ist technisch gesehen die übergeordnete ID, die ein älteres Feld ist. Der Wert sollte immer als **-1 festgelegt** werden.
+The third column **-1** is technically the Parent ID, which is a legacy field. The value should always be set as **-1**.
 
 >[!NOTE]
 >
->Beachten Sie, dass eine Metadatendatei pro Dimension benötigt wird, sodass mehrere Metadatendateien im Behälter erwartet werden. Die Dimensionen werden in den Artikelbenennungskonventionen [für Metadatendatei aufgeführt](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+>Beachten Sie, dass eine Metadatendatei pro Dimension benötigt wird, sodass mehrere Metadatendateien im Behälter erwartet werden. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Separate Dateieinträge mit ^ a (Kontroll-A oder ASCII 001)**
 
-Verwenden `^a` Sie (Kontroll-A oder ASCII 001), um Inhalte in Ihren Metadatendateien zu trennen. Da es sich hierbei um nicht druckbare Zeichen handelt, zeigt das obige Syntaxbeispiel ein Pipe-Symbol an. |&quot; nur anzuzeigen.
+Use `^a` (control-A or ASCII 001) to separate content in your metadata files. Da es sich hierbei um nicht druckbare Zeichen handelt, zeigt das obige Syntaxbeispiel ein Pipe-Symbol an. |" nur anzuzeigen.
 
-Bei Bedarf können Sie die Beispieldatei herunterladen [- 20181105_ 0_ 1](assets/20181105_0_1.zip). Dekomprimieren Sie die Datei und bearbeiten Sie sie im Editor Ihrer Wahl entsprechend Ihren tatsächlichen Metadateninhalten, da sie bereits das erforderliche Trennzeichen enthält.
+If needed, you may download the example file - [20181105_0_1](assets/20181105_0_1.zip). Dekomprimieren Sie die Datei und bearbeiten Sie sie im Editor Ihrer Wahl entsprechend Ihren tatsächlichen Metadateninhalten, da sie bereits das erforderliche Trennzeichen enthält.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Bei Bedarf können Sie die Beispieldatei herunterladen [- 20181105_ 0_ 1](assets
 
 ## Beispiele {#examples}
 
-Sehen wir uns an, wie Sie den Inhalt in einer Metadatendatei strukturieren würden. Ein Teil dieser Struktur hängt von der Dimension ab. Die Dimensionen werden in den Artikelbenennungskonventionen [für Metadatendatei aufgeführt](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+Sehen wir uns an, wie Sie den Inhalt in einer Metadatendatei strukturieren würden. Ein Teil dieser Struktur hängt von der Dimension ab. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Campaign**
 
