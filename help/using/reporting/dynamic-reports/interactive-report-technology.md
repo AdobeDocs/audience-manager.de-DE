@@ -11,7 +11,7 @@ source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
 ---
 
 
-# Berichtstechnologie{#report-technology}
+# Report Technology{#report-technology}
 
 Beschreibt die zugrunde liegende Software, die die interaktiven Berichte und den Zeitplan für die Datenaktualisierung ausweist.
 
@@ -23,7 +23,7 @@ c_report_technology.xml
 
 ## Interaktive Berichte verwenden Tableau-Technologie
 
-[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) -Software, um Daten in den interaktiven Berichten anzuzeigen. Mit [!DNL Tableau]den [!UICONTROL Delivery and Overlap] Berichten werden visuelle Hinweise und Symbole verwendet, die Folgendes unterstützen:
+[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) -Software, um Daten in den interaktiven Berichten anzuzeigen. With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you:
 
 * Finden Sie hohe und niedrige Leistungseigenschaften.
 * Volltoneigenschaften und Segmente mit niedrigem und hoher individueller Besucher.
@@ -34,7 +34,7 @@ c_report_technology.xml
 
 Die Berichtsdaten werden pro Sonntag wöchentlich aktualisiert. Das Update verarbeitet Daten von Samstag (am Tag vor) zurück zum vorherigen Sonntag.
 
-## In interaktiven Berichten verwendete Formen, Farben und Größen {#shapes-colors-sizes}
+## Shapes, Colors, and Sizes Used in Interactive Reports {#shapes-colors-sizes}
 
 Die meisten interaktiven Berichte zeigen Ergebnisse mit unterschiedlichen Größen und Farben an. Dieses Anzeigeformat hilft Ihnen, die Daten visuell zu machen, ohne die Zeilen und Spalten von Zahlen durchblättern zu müssen.
 
@@ -68,8 +68,8 @@ In der folgenden Tabelle sind die Formen, Größen und Farben definiert, die in 
    <td colname="col1"> <b>Farben</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rote Schattierungen weisen <i>auf niedrige</i> Überlappung hin. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Schattierungen weisen <i>auf hohe</i> Überlappung hin. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Red shades indicate <i>low</i> overlap. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Green shades indicate <i>high</i> overlap. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ In der folgenden Tabelle sind die Formen, Größen und Farben definiert, die in 
  </tbody> 
 </table>
 
-## Erklärung der Berichtsymbole und Tools {#icons-tools-explained}
+## Report Icons and Tools Explained {#icons-tools-explained}
 
 Beschreibt, wie Sie die verschiedenen Symbolwerkzeuge in den dynamischen Berichten suchen und verwenden.
 
@@ -112,9 +112,9 @@ Wählen Sie dieses Tool aus, um interaktive Klicks rückgängig zu machen, die S
 
 ### Automatische Updates
 
-Die [!UICONTROL Delivery-Performance] Berichte und [!UICONTROL Trait-to-Trait Overlap] Berichte sind dynamische Berichte, die je nach Benutzerklickaktionen reagieren und sich ändern.
+The [!UICONTROL Delivery-Performance] and [!UICONTROL Trait-to-Trait Overlap] reports are dynamic reports that respond and change based on user click actions.
 
-Angenommen, Sie möchten mehrere Werbetreibende im [!UICONTROL Overlap] Bericht auswählen. Wenn diese Option aktiviert ist, werden die automatischen Updates gestartet, sobald Sie ein Kontrollkästchen aktivieren. Dieses dynamische Verhalten kann Ihren Arbeitsablauf stören, da Sie warten müssen, bis der Bericht die Verarbeitung abgeschlossen hat, bevor Sie einen anderen Advertiser auswählen. Verwenden Sie dieses Werkzeug, um die Funktion (und wieder) nach Bedarf zu deaktivieren.
+For example, say you want to select several advertisers in the [!UICONTROL Overlap] report. Wenn diese Option aktiviert ist, werden die automatischen Updates gestartet, sobald Sie ein Kontrollkästchen aktivieren. Dieses dynamische Verhalten kann Ihren Arbeitsablauf stören, da Sie warten müssen, bis der Bericht die Verarbeitung abgeschlossen hat, bevor Sie einen anderen Advertiser auswählen. Verwenden Sie dieses Werkzeug, um die Funktion (und wieder) nach Bedarf zu deaktivieren.
 
 ### Daten aktualisieren
 
@@ -126,5 +126,5 @@ Die Suche wird durch ein generisches Lupensymbol dargestellt (nicht angezeigt). 
 
 | Bericht | Um Suche zu suchen, bewegen Sie den Mauszeiger über den |
 |---|---|
-| [!UICONTROL Delivery and Performance] anzeigen | Die Bezeichnung &quot;Advertisername&quot; . |
-| [!UICONTROL Overlap] Berichte | Die Bezeichnung &quot;SID-Name&quot; . |
+| [!UICONTROL Delivery and Performance] anzeigen | Die Bezeichnung "Advertisername" . |
+| [!UICONTROL Overlap] Berichte | Die Bezeichnung "SID-Name" . |
