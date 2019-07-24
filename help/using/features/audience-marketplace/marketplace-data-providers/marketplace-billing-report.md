@@ -12,18 +12,18 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Rechnungsstellung für Datenfeed-Anbieter {#billing-for-data-feed-providers}
+# Billing for Data Feed Providers {#billing-for-data-feed-providers}
 
-Erstellen Sie einen [!DNL Audience Marketplace] Rechnungsbericht, um die Datenfeed-Nutzung für den vorherigen Monat für jeden Ihrer Abonnenten anzuzeigen. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats generieren.
+Generate an [!DNL Audience Marketplace] billing report to view data feed usage for the previous month for each of your subscribers. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats generieren.
 
-## Einen Rechnungsbericht herunterladen {#download-billing-report}
+## Download a Billing Report {#download-billing-report}
 
 So laden Sie einen Bericht herunter
 
-1. Gehe **[!UICONTROL Audience Marketplace > Receivables]** zu.
+1. Go to **[!UICONTROL Audience Marketplace > Receivables]**.
 1. Klicken Sie auf **[!UICONTROL Generate Billing Report]**.
 
-## Berichtsfelder definiert {#report-fields-defined}
+## Report Fields Defined {#report-fields-defined}
 
 Ein Rechnungsbericht enthält die folgenden Informationen.
 
@@ -37,7 +37,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Datenanbieter-PID</span></b> </p> </td> 
-   <td colname="col2"> <p>Ihre <span class="keyword"> Audience Manager</span> -Datenanbieter-ID. </p> </td> 
+   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Datenanbieter-Name</span></b> </p> </td> 
@@ -66,7 +66,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segmente und Überlappung </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modellierung </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
-    </ul> <p>Siehe <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Planen von Typen für Datenfeeds</a>. </p> </td> 
+    </ul> <p>See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Plan Types for Data Feeds</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Maßeinheit</span></b> </p> </td> 
@@ -78,7 +78,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Preisreduzierter Preis</span></b> </p> </td> 
-   <td colname="col2"> <p>Abonnementgebühr für einen disgezählten Datenfeed. Siehe <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Rabatte für Datenanbieter</a>. </p> </td> 
+   <td colname="col2"> <p>Abonnementgebühr für einen disgezählten Datenfeed. See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Discounts for Data Providers</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Einheiten</span></b> </p> </td> 
@@ -90,7 +90,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Gesamtkosten</span></b> </p> </td> 
-   <td colname="col2"> <p>Der Betrag, den <span class="keyword"> Audience Manager</span> einen Käufer angibt. </p> </td> 
+   <td colname="col2"> <p>The amount <span class="keyword"> Audience Manager</span> bills a buyer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Rechnungsstellungszeitraum</span></b> </p> </td> 
@@ -112,8 +112,8 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
    <td colname="col1"> <p><b><span class="uicontrol"> Flag</span></b> </p> </td> 
    <td colname="col2"> <p> <i>Nur für CPM-Feeds</i>. Zu den Flag-Optionen zählen: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Gibt an, dass ein Abonnent die Nutzungsinformationen an <span class="keyword"> Audience Manager gemeldet</span>hat. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Gibt an, dass ein Abonnent die Nutzungsinformationen an <span class="keyword"> Audience Manager nicht gemeldet</span>hat. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indicates a subscriber has reported usage information to <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indicates a subscriber has not reported usage information to <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
