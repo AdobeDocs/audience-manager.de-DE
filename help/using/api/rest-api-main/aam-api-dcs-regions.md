@@ -11,15 +11,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# API-Methoden für die DCS-Region {#dcs-region-api-methods}
+# DCS Region API Methods {#dcs-region-api-methods}
 
-Methoden, mit denen Sie Audience Manager [!UICONTROL DCS] -Regionen programmgesteuert auflisten können.
+Methods that let you programmatically list Audience Manager [!UICONTROL DCS] regions.
 
 <!-- c_rest_api_regions.xml -->
 
-Eine Liste der Regionen und der entsprechenden Ganzzahlen finden Sie unter [DCS Regions-IDs, Speicherorte und Hostnamen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Eine bestimmte DCS-Region auflisten {#list-specific-dcs-region}
+## List a Specific DCS Region {#list-specific-dcs-region}
 
 `GET` Eine Methode zur Liste einer bestimmten [!UICONTROL DCS] Region.
 
@@ -45,11 +45,11 @@ Eine Liste der Regionen und der entsprechenden Ganzzahlen finden Sie unter [DCS 
   }
 ```
 
-Gibt zurück, `200 OK` wenn erfolgreich.
+Returns `200 OK` if successful.
 
-Eine Liste der Regionen und der entsprechenden Ganzzahlen finden Sie unter [DCS Regions-IDs, Speicherorte und Hostnamen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Liste der DCS-Regionen {#list-dcs-regions}
+## List DCS Regions {#list-dcs-regions}
 
 `GET` Eine Methode für [!UICONTROL DCS] die Regionen.
 
@@ -78,6 +78,6 @@ Eine Liste der Regionen und der entsprechenden Ganzzahlen finden Sie unter [DCS 
 ]
 ```
 
-Gibt zurück, `200 OK` wenn erfolgreich.
+Returns `200 OK` if successful.
 
-Eine Liste der Regionen und der entsprechenden Ganzzahlen finden Sie unter [DCS Regions-IDs, Speicherorte und Hostnamen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
