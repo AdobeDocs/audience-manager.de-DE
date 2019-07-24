@@ -26,7 +26,7 @@ For technical issues or to log a bug, contact [Customer Care](https://helpx.adob
 
 * **Telefon:** 1-800-497-0335
 
-   Informationen zu gebührenfreien Zahlennummern außerhalb der USA finden Sie auf unserer [regionalen Kundenunterstützung für](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) Kundenunterstützung. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
+   For toll-free numbers outside the United States, see our [regional Customer Care contact numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) site. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
 
 * **E-Mail:** amsupport@adobe.com
 
@@ -49,12 +49,12 @@ Bitte haben Sie die folgenden Informationen bereit, bevor Sie sich an uns wenden
    <td colname="col2"> <p>Geben Sie Folgendes an: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Firmenname. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Subdomäne des Audience Manager</span> (falls bekannt). Die Subdomäne ist die URL der Domäne, die Datenerfassungsereignisse an <span class="keyword"> Adobe sendet</span> (z. B. <code>https://myCompany.demdex.net)<i></i></code>. </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Subdomäne des Audience Manager</span> (falls bekannt). The sub-domain is the URL of the domain that sends data collection events to <span class="keyword"> Adobe</span> (e.g., <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Schritte zum Reproduzieren</b> </p> </td> 
-   <td colname="col2"> <p>Nehmen Sie so viele Einzelheiten wie möglich vor, einschließlich aller urls, die zum Duplizieren des Problems erforderlich sind, sowie des erwarteten Ergebnisses. Ihre Beschreibung sollte so detailliert sein, dass jemand, der mit <span class="keyword"> Audience Manager</span> nicht vertraut ist, Ihren Schritten oder Vorgehensweisen folgen und das Problem reproduzieren kann. </p> </td> 
+   <td colname="col2"> <p>Nehmen Sie so viele Einzelheiten wie möglich vor, einschließlich aller urls, die zum Duplizieren des Problems erforderlich sind, sowie des erwarteten Ergebnisses. Your description should contain enough detail that somebody unfamiliar with <span class="keyword"> Audience Manager</span> should be able to follow your steps or procedures and reproduce the problem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Priorität</b> </p> </td> 
