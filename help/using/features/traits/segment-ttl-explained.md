@@ -11,31 +11,31 @@ source-git-commit: 7e9aada98fe9c18c6fc484255b3c9ff33dc59324
 ---
 
 
-# Erläuterung von Segment und Trait - Erläuterung {#segment-time-to-live-explained}
+# Segment and Trait Time-to-Live Explained {#segment-time-to-live-explained}
 
-Einfluss von Trait [!UICONTROL time-to-live] ([!DNL TTL])-Intervallen auf die Segmentmitgliedschaft.
+How trait [!UICONTROL time-to-live] ([!DNL TTL]) interval affects segment membership.
 
 <!-- segment-ttl-explained.xml -->
 
 ## Zeit für Live
 
-[!DNL TTL] definiert, wie lange ein Site-Besucher nach dem letzten Qualifizierungsereignis in einem Segment verbleibt. [!DNL TTL] auf Eigenschaften und nicht auf Segmenten eingestellt ist. Besucher verlassen sich aus einem Segment, wenn vor dem Ende des [!DNL TTL] Intervalls keine qualifizierende Eigenschaft angezeigt wird. Die Standardeinstellung [!DNL TTL] für neue Eigenschaften beträgt 120 Tage. Wenn sie auf 0 Tage gesetzt ist, läuft die Eigenschaft nie ab. [Legen Sie den TTL-Wert](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) fest, wenn Sie eine Eigenschaft im [!UICONTROL Advanced Options] Abschnitt der Benutzeroberfläche für die Eigenschaften erstellen oder bearbeiten.
+[!DNL TTL] definiert, wie lange ein Site-Besucher nach dem letzten Qualifizierungsereignis in einem Segment verbleibt. [!DNL TTL] auf Eigenschaften und nicht auf Segmenten eingestellt ist. Visitors fall out of a segment if they do not see a qualifying trait before the end of the [!DNL TTL] interval. The default [!DNL TTL] for new traits is 120 days. Wenn sie auf 0 Tage gesetzt ist, läuft die Eigenschaft nie ab. [Legen Sie den TTL-Wert](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) fest, wenn Sie eine Eigenschaft im [!UICONTROL Advanced Options] Abschnitt der Benutzeroberfläche für die Eigenschaften erstellen oder bearbeiten.
 
 ## [!DNL TTL] und Entfernen eines Segments
 
-Ein Benutzer verlässt sich aus einem Segment, wenn ihm keine seiner Eigenschaften innerhalb des [!DNL TTL] Intervalls angezeigt wird. Wenn Sie z. B. ein Segment mit 1 Eigenschaften mit 30 Tagen [!DNL TTL]haben, wird der Benutzer aus diesem Segment abgelegt, wenn er die Eigenschaft innerhalb der 30 Tage nicht erneut ansieht.
+A user falls out of a segment if they do not see any of its traits within the [!DNL TTL] interval. For example, if you have a 1-trait segment with a 30 days [!DNL TTL], the user will drop out of that segment if they do not see the trait again within the 30 days.
 
 ![](assets/ttl_1.png)
 
 ## [!DNL TTL] und Segmentverlängerung
 
-Die [!DNL TTL] Zurücksetzung und der Benutzer bleiben in einem Segment, wenn sie innerhalb des [!DNL TTL] Zeitraums die Eigenschaft des Segments sehen. Da die meisten Segmente mehrere Eigenschaften mit ihren eigenen [!DNL TTL] Zeiträumen enthalten, kann ein Benutzer in einem Segment bleiben (und das [!DNL TTL] Intervall zurücksetzen), solange die Eigenschaften weiterhin mit einem Segment verknüpft sind. Angenommen, Sie haben Segment 1 aus Eigenschaften A (30 Tag [!DNL TTL]) und Trait B (15 Tag [!DNL TTL]). Wenn der Benutzer die einzelnen Eigenschaften nur einmal ansieht, wird in der unten stehenden Abbildung der [!DNL TTL] Verlängerungsvorgang und die Gesamtdauer des Segmentabschlusses erläutert.
+The [!DNL TTL] resets, and the user remains in a segment, if they see that segment’s trait within the [!DNL TTL] period. Also, because most segments contain multiple traits with their own [!DNL TTL] periods, a user can remain in a segment (and reset the [!DNL TTL] interval) as long as they keep seeing any traits associated with a segment. For example, say you have Segment 1 composed of Trait A (30 day [!DNL TTL]) and Trait B (15 day [!DNL TTL]). Assuming the user sees each trait only once, the illustration below outlines the [!DNL TTL] renewal process and total in-segment duration.
 
 ![](assets/ttl_2.png)
 
 ## [!DNL Audience Manager] Ttls sind unabhängig von TTL-Einstellungen von Drittanbietern
 
-Denken Sie daran, dass der [!DNL TTL] Satz in [!DNL Audience Manager] Ihrem Pixel unabhängig vom [!DNL TTL] Satz auf anderen Pixeln funktioniert, die von Dritten, Werbenetzwerken usw[!DNL DSP]. verwendet werden.
+Remember, the [!DNL TTL] set on your [!DNL Audience Manager] pixel operates independently from the [!DNL TTL] set on other pixels used by third parties ([!DNL DSP]s, ad networks, etc.).
 
 >[!MORE_ LIKE_ THIS]
 >
