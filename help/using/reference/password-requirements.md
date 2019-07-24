@@ -11,7 +11,7 @@ source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 ---
 
 
-# Kennwortanforderungen, gesperrte Konten und vergessene Passwörter{#password-requirements-locked-accounts-and-forgotten-passwords}
+# Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager kann so konfiguriert werden, dass Passwörter alle 30 Tage ablaufen. Sprechen Sie mit Ihrem Audience Manager-Berater oder der Kundenunterstützung, wenn Sie Passwortablauf aktivieren möchten. Weitere Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Passworts finden Sie in diesem Abschnitt.
 
@@ -23,7 +23,7 @@ c_password_requirements.xml
 
 **Kennwortanforderungen**
 
-Um gültig zu sein, muss Ihr [!DNL Audience Manager] Kennwort die folgenden Anforderungen erfüllen:
+To be valid, your [!DNL Audience Manager] password must meet the following requirements:
 
 <table id="table_9B79E9F634664F6B995649E3158CCF20"> 
  <thead> 
@@ -64,15 +64,15 @@ Um gültig zu sein, muss Ihr [!DNL Audience Manager] Kennwort die folgenden Anfo
  </tbody> 
 </table>
 
-Weitere Informationen zum Zurücksetzen Ihres Passworts finden Sie unter [Kontoeinstellungen bearbeiten](../features/administration/edit-account-settings.md).
+For information about resetting your password, see [Edit Your Account Settings](../features/administration/edit-account-settings.md).
 
 **Kontosperre**
 
-Konten werden nach 5 fehlgeschlagenen Anmeldeversuchen gesperrt. Wenden Sie sich an [!DNL Audience Manager] den Administrator Ihres Unternehmens oder an Partnerdienste, um Ihr Konto zu entsperren.
+Konten werden nach 5 fehlgeschlagenen Anmeldeversuchen gesperrt. Contact your company's [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
 
 **Verlust/Vergessenes Passwort**
 
-Klicken Sie auf den **[!UICONTROL Forgot password]** Link von der Anmeldeseite, um Ihr Kennwort zurückzusetzen. Sie erhalten eine automatische E-Mail mit einem temporären Kennwort, das in 24 Stunden abläuft. Klicken Sie auf den Link in der E-Email, um auf Ihr Konto zuzugreifen und Ihr Kennwort zurückzusetzen.
+Click the **[!UICONTROL Forgot password]** link from the login page to reset your password. Sie erhalten eine automatische E-Mail mit einem temporären Kennwort, das in 24 Stunden abläuft. Klicken Sie auf den Link in der E-Email, um auf Ihr Konto zuzugreifen und Ihr Kennwort zurückzusetzen.
 
 >[!MORE_ LIKE_ THIS]
 >
