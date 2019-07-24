@@ -17,7 +17,7 @@ Gibt Daten zurück, wie viele Unique Users zwischen Ihren Segmenten gezählt wer
 
 >[!NOTE]
 >
->Die Überlappungsberichte in Audience Manager berücksichtigen RBAC-Prinzipien. Sie können nur Segmente aus Datenquellen anzeigen, auf die Sie basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) zugreifen können, zu der Sie gehören.
+>Die Überlappungsberichte in Audience Manager berücksichtigen RBAC-Prinzipien. You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
 
 <!-- 
 
@@ -27,18 +27,18 @@ c_segment_segment_overlap.xml
 
 ## Überblick
 
-Der [!UICONTROL Segment-to-Segment Overlap] Bericht kann Ihnen dabei helfen,
+The [!UICONTROL Segment-to-Segment Overlap] report can help you:
 
 * Identifizieren Sie Segmente mit hoher oder niedriger Überschneidung, je nach Ihren Anforderungen. Eigenschaften mit hoher Überlappung bieten eine zielgruppe, aber weniger individuelle Besucher. Eigenschaften mit geringer Überlappung können hilfreich sein, um einen größeren, individuellen Besucher zu erreichen.
 * Finden Sie unerwartete Überlappungen heraus und verwenden Sie diese Informationen, um neue, leistungsstarke Segmente zu erstellen.
 
 ## Beispielbericht
 
-Die folgende Abbildung zeigt einen Überblick über den [!UICONTROL Segment-to-Segment Overlap] Bericht.
+The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Segment Overlap] report.
 
 >[!NOTE]
 >
->Der [!UICONTROL Segment-to-Segment Overlap] Bericht gibt ein leeres Feld zurück, wenn es dasselbe Segment mit sich selbst vergleicht.
+>The [!UICONTROL Segment-to-Segment Overlap] report returns an empty field when it compares the same segment to itself.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -46,7 +46,7 @@ Die folgende Abbildung zeigt einen Überblick über den [!UICONTROL Segment-to-S
 
 Wählen Sie einen einzelnen Punkt aus, um die Datendetails in einem Popup-Fenster anzuzeigen. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
 
-## Datenfelder für Segmente zu Segmenten mit Überlappung definiert {#fields-defined}
+## Segment-to-Segment Overlap Data Pop Fields Defined {#fields-defined}
 
 <!-- 
 
@@ -54,7 +54,7 @@ r_s2s_data_pop.xml
 
  -->
 
-Das Popup für den [!UICONTROL Segment-to-Segment Overlap] Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik &quot;Individuelle Werte&quot; in der Tabelle Ihre *Echtzeitbenutzer repräsentiert*.
+The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
 
 | Metrik | Beschreibung |
 |---|---|
