@@ -17,7 +17,7 @@ source-git-commit: b8b195f51186151fa7a8658451d1ee9aa7010a75
 
 # Metadaten für die interne Verwendung
 
-Die Datei &quot;metadata. md&quot; enthält Replizierungsmetadaten, die an den Benutzerhandbuch&quot; Inhaltsverzeichnis. md&quot; im Repo übergeben werden. Wenn Sie Metadata. md-Inhalte für ein beliebiges Benutzerhandbuch ändern möchten, tun Sie dies in jeder beliebigen Inhaltsverzeichnis. md-Datei.
+Die Datei "metadata. md" enthält Replizierungsmetadaten, die an den Benutzerhandbuch" Inhaltsverzeichnis. md" im Repo übergeben werden. Wenn Sie Metadata. md-Inhalte für ein beliebiges Benutzerhandbuch ändern möchten, tun Sie dies in jeder beliebigen Inhaltsverzeichnis. md-Datei.
 
 | metadata | was es macht |
 |--- |--- |
