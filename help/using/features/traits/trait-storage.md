@@ -11,7 +11,7 @@ source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
 ---
 
 
-# Eigenschaftenspeicher {#trait-storage}
+# Trait Storage {#trait-storage}
 
 Eigenschaftenspeicher speichern und unterstützen Sie bei der Strukturierung von Eigenschaften.
 
@@ -19,33 +19,33 @@ Eigenschaftenspeicher speichern und unterstützen Sie bei der Strukturierung von
 
 ## Zweck von Eigenschaften-Speicherordnern
 
-In [!UICONTROL Trait Builder]sind Eigenschaften Speicherordner, die Eigenschaften in logische Gruppen aufnehmen und organisieren, die Sie erstellen. Greifen Sie über das [!UICONTROL Traits] Dashboard oder die Erstellung einer neuen Eigenschaft auf die Speicherordner zu. Denken Sie daran, dass Sie keine neue Eigenschaft erstellen können, ohne sie einem Speicherordner zuzuweisen.
+In [!UICONTROL Trait Builder], trait storage folders are directories that hold and organize traits into logical groups that you create. Access the storage folders from the [!UICONTROL Traits] dashboard or when creating a new trait. Denken Sie daran, dass Sie keine neue Eigenschaft erstellen können, ohne sie einem Speicherordner zuzuweisen.
 
 ![](assets/tb_storage.png)
 
-## Erstellen eines Trait-Speicherordners {#create-trait-storage-folder}
+## Create a Trait Storage Folder {#create-trait-storage-folder}
 
 Dieser Vorgang beschreibt, wie Sie einen Speicherordner für Ihre Eigenschaften erstellen.
 
 <!-- t_tb_create_storage.xml -->
 
-Sie können im [!UICONTROL Basic Information] Abschnitt einen neuen Speicherordner erstellen, wenn Sie eine neue Eigenschaft einrichten. Außerdem können Ordner im [!UICONTROL Trait Storage] Dashboard der Hauptliste [!UICONTROL Traits] erstellt werden.
+You can create a new storage folder in the [!UICONTROL Basic Information] section when setting up a new trait. Also, folders can be created in [!UICONTROL Trait Storage] section of the main [!UICONTROL Traits] list dashboard.
 
 So erstellen Sie einen neuen Speicherordner:
 
-1. Bewegen Sie den Mauszeiger im [!UICONTROL Trait Storage] Fenster über:
+1. In the [!UICONTROL Trait Storage] window, hover over:
    * **[!UICONTROL All Traits]** , um einen neuen Ordner für die Stammebene hinzuzufügen.
    * Ein vorhandener übergeordneter Ordner, um einen neuen untergeordneten Ordner hinzuzufügen.
 1. Klicken Sie auf das Symbol +, um den Ordner zu erstellen.
-1. Benennen Sie den Ordner und klicken **[!UICONTROL Save]** Sie auf.
+1. Name the folder and click **[!UICONTROL Save]**.
 
-## Umbenennen oder Löschen eines Trait-Speicherordners {#rename-delete-trait-storage-folder}
+## Rename or Delete a Trait Storage Folder {#rename-delete-trait-storage-folder}
 
 Dieser Vorgang beschreibt, wie Sie einen Speicherordner umbenennen oder löschen.
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-Sie können Speicherordner im [!UICONTROL Trait Storage] Dashboard der Hauptliste [!UICONTROL Traits] umbenennen oder löschen.
+You can rename or delete storage folders from the [!UICONTROL Trait Storage] section of the main [!UICONTROL Traits] list dashboard.
 
 * Benennen Sie einen Ordner um, indem Sie ihn über ihn bewegen und auf das Stiftsymbol klicken.
-* Löschen Sie einen Ordner, indem Sie ihn über ihn bewegen und auf das **X** -Symbol klicken.
+* Delete a folder by hovering over it and clicking the **X** icon.
