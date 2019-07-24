@@ -11,7 +11,7 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 ---
 
 
-# Amazon S 3: Info{#amazon-s-about}
+# Amazon S3: About{#amazon-s-about}
 
 Informationen über Amazon Simple Storage Service (Amazon S 3).
 
@@ -27,8 +27,8 @@ Die Verwendung von Amazon S 3 bietet folgende Vorteile:
 * **Sicherheit:** Amazon S 3 bietet eine starke Sicherheit.
 
    * Alle Ordner können nur für den entsprechenden Kunden oder Client aufgerufen werden.
-   * HTTPS-Protokollunterstützung für Uploads und Downloads. Beim Übertragen von Dateien sollten Sie immer HTTPS verwenden [!DNL Audience Manager].
-   * Amazon S 3 bietet Encryption-at-rest zum Verschlüsseln [von ausgehenden Datendateien](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Wir verwenden die [SSE-S 3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) -Verschlüsselungsmethode, mit der Verschlüsselungsschlüssel automatisch von Amazon S 3 generiert und verwaltet werden können.
+   * HTTPS-Protokollunterstützung für Uploads und Downloads. You should always use HTTPS when transferring files in [!DNL Audience Manager].
+   * Amazon S3 provides encryption-at-rest for encrypting [outbound data files](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). We use the [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) encryption method, which allows encryption keys to be automatically generated and managed by Amazon S3.
 
 * **Support für Debug und Backup:** Mit Amazon S 3 können [!DNL Audience Manager] Sie exakte Kopien von Dateien beibehalten, um das Debugging oder die Wiedergabe zu vereinfachen.
 
