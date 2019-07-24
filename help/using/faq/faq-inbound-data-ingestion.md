@@ -52,7 +52,7 @@ Wir empfehlen Folgendes:
 * Work with your data provider to format the daily inbound data file according to [!DNL Adobe] specifications.
 * Transfer a test data file to [!DNL Adobe] for format verification.
 * Work with your [!DNL Adobe] consultant to produce a taxonomy suitable for interpreting the contents of the data file.
-* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider&#39;s visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
+* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
 * Stellen Sie DIL/ID-Synchronisierung zur Produktion bereit. Die ID-Synchronisierung wird bereits als Modul im DIL-Code von Ihrem Adobe-Berater konfiguriert.
 * Transfer production data files to [!DNL Audience Manager]. Angesichts der Abhängigkeiten bei ID-Synchronisierungszuordnungen kann es sinnvoll sein, Daten nach der Bereitstellung des Produktionscodes bis zu einer Woche zu übertragen. Sie können die Datendateien jedoch sofort nach der Produktion übertragen.
 
