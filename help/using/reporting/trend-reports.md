@@ -11,7 +11,7 @@ source-git-commit: 18bb00d494d44d7028dcc51dcb2fc57b23420142
 ---
 
 
-# Trendberichte{#trend-reports}
+# Trend Reports{#trend-reports}
 
 Ein Trendbericht gibt Trenddaten zu Eigenschaften und Segmenten zurück.
 
@@ -27,7 +27,7 @@ c_trend_reports.xml
 
 Beispielsweise kann eine Agentur, die verschiedene Advertiserkonten verwaltet, Berechtigungen für Benutzergruppen konfigurieren, damit ein Team, das das Konto von Advertiser A verwaltet, die Berichtsdaten von Advertiser B nicht anzeigen kann.
 
-Führen Sie einen [!UICONTROL Trend] Bericht aus, wenn Sie Folgendes benötigen:
+Run a [!UICONTROL Trend] report when you need to:
 
 * Überprüfen Sie Trenddaten nach Eigenschaften und Segmenten.
 * Verfolgen Sie Trends nach 1, 7, 14, 30, 60 und 90 Tagen.
@@ -35,7 +35,7 @@ Führen Sie einen [!UICONTROL Trend] Bericht aus, wenn Sie Folgendes benötigen:
 * Identifizieren Sie starke oder schlechte Leistungseigenschaften und Segmente.
 * Exportieren Sie Daten (. csv-Format) für weitere Analysen und Freigabe.
 
-Die folgende Abbildung zeigt eine allgemeine Übersicht über wichtige Elemente im [!UICONTROL Trend] Bericht.
+The following illustration provides a high-level overview of key elements in the [!UICONTROL Trend] report.
 
 ![](assets/trend_reports.png)
 
@@ -48,12 +48,12 @@ Die folgende Abbildung zeigt eine allgemeine Übersicht über wichtige Elemente 
    **Anzeigeintervall:** Geben Sie das Anzeigeintervall (1, 7, 14, 30, 60 und 90 Tage) an.
 
 2. Suchen Sie nach einer Eigenschaft oder einem Segment nach Name oder ID.
-3. Ziehen Sie in der Ordnerliste die gewünschten Eigenschaften oder Segmente per Drag &amp; Drop an das [!UICONTROL Selections] Bedienfeld auf der rechten Seite.
+3. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
 4. Erstellen Sie den Bericht, um die Daten im grafischen Format anzuzeigen oder den Bericht in das CSV-Format zu exportieren.
 
-## Trendbericht ausführen {#run-trend-report}
+## Run a Trend Report {#run-trend-report}
 
-Dieser Vorgang beschreibt, wie Sie einen [!UICONTROL Trend] Bericht ausführen.
+This procedure describes how to run a [!UICONTROL Trend] report.
 
 <!-- 
 
@@ -61,30 +61,30 @@ t_working_with_trend_reports.xml
 
  -->
 
-1. Klicken Sie im **[!UICONTROL Analytics]** Dashboard **[!UICONTROL Trend Reports]** auf.
-1. Wählen Sie aus der **[!UICONTROL Report Type]** Dropdownliste den gewünschten Typ aus: **[!UICONTROL Trait]** oder **[!UICONTROL Segment]**.
+1. In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL Trend Reports]**.
+1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type: **[!UICONTROL Trait]** or **[!UICONTROL Segment]**.
 1. Klicken Sie auf die Datumsfelder, um einen Kalender anzuzeigen, und wählen Sie dann die Start- und Enddaten für Ihren Bericht aus.
 1. Geben Sie das Anzeigeintervall an: um 1, 7, 14, 30, 60 oder 90 Tage.
 1. Suchen Sie nach einer Eigenschaft oder einem Segment nach Name oder ID.
-1. Ziehen Sie in der Ordnerliste die gewünschten Eigenschaften oder Segmente per Drag &amp; Drop an das [!UICONTROL Selections] Bedienfeld auf der rechten Seite.
+1. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
 
-   Um eine optimale Leistung zu erzielen, führen Sie einen [!UICONTROL Trend] Bericht auf weniger als 20 Eigenschaften oder Segmenten gleichzeitig aus.
-1. Klicken **[!UICONTROL Graph Traits]** Sie auf oder **[!UICONTROL Graph Segments]** je nachdem, welchen Berichtstyp Sie anzeigen (Eigenschaften oder Segmente).
+   For best performance, run a [!UICONTROL Trend] report on fewer than 20 traits or segments at a time.
+1. Click **[!UICONTROL Graph Traits]** or **[!UICONTROL Graph Segments]**, depending on which type of report you are viewing (Traits or Segments).
 
    Diese Optionen ignorieren alle Ordner und Diagramme nur einzeln ausgewählte Eigenschaften oder Segmente.
 
    Oder
 
-   Klicken **[!UICONTROL Export to CSV]** Sie, um die Eigenschaften oder Segmentdaten sowie alle Ordner im CSV-Format zur weiteren Analyse und Freigabe zu exportieren. Dadurch werden die [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]und [!UICONTROL Total Trait Population] alle Tage exportiert.
+   Click **[!UICONTROL Export to CSV]** to export the trait or segment data and all folders in CSV format for further analysis and sharing. This exports the [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], and [!UICONTROL Total Trait Population] for all day ranges.
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] are calculated for [!UICONTROL Rule-based Traits] only.
+   >[!UICONTROL Total Trait Realizations] berechnet.[!UICONTROL Rule-based Traits]
 
 1. (Optional) Bewegen Sie den Mauszeiger über einzelne Eigenschaften oder Segmente, um die Anzahl der Besuche und das Datum für jeden Datenpunkt anzuzeigen.
 
    Sie können in der Tabelle auf die Spaltenüberschriften klicken, um die Ergebnisse in auf- oder absteigender Reihenfolge zu sortieren.
 
-Bei [!UICONTROL Trended Trait] Berichten weisen Nullen darauf hin, dass [!DNL Audience Manager] keine Daten für diesen Tag gesammelt wurden. Leere Einträge weisen darauf hin, dass die Eigenschaft nicht vorhanden war. Das folgende Beispiel zeigt Beispiele für beide Arten von Einträgen:
+For [!UICONTROL Trended Trait] reports, zeroes indicate that [!DNL Audience Manager] did not collect data for that day. Leere Einträge weisen darauf hin, dass die Eigenschaft nicht vorhanden war. Das folgende Beispiel zeigt Beispiele für beide Arten von Einträgen:
 
 ![](assets/trended_data.png)
