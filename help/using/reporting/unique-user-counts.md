@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Zählung individueller Benutzer in Überlappung und allgemeine Berichte{#counting-unique-users-in-overlap-and-general-reports}
+# Counting Unique Users in Overlap and General Reports{#counting-unique-users-in-overlap-and-general-reports}
 
 Diese Seite beschreibt die Variation in eindeutigen Benutzersummen zwischen Berichten für dieselben Eigenschaften und Zeiträume.
 
@@ -26,7 +26,7 @@ c_unique_user_counts.xml
 Die Überlappungsberichte zählen Benutzer als individuell, wenn sie für eine Eigenschaft qualifiziert sind:
 
 * Während des ausgewählten Zeitintervalls für den Bericht.
-* Dieser Wert hat einen [Zeitraum, der länger als](../features/traits/segment-ttl-explained.md) das ausgewählte Zeitintervall für den Bericht ist.
+* That has a [time-to-live](../features/traits/segment-ttl-explained.md) value longer than the selected time interval for the report.
 * Wenn sie in unserem System als aktiv angesehen werden (d. h. qualifiziert für jede andere Eigenschaft, hatten eine ID-Synchronisierung usw.) innerhalb der vergangenen 60 Tage.
 
 ## Allgemeiner Bericht: Unique User Count
