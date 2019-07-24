@@ -25,13 +25,13 @@ faq_reports.xml
 
 **Warum werden bei neuen Aufgerufenen Eigenschaften[!UICONTROL Trait Graph]manchmal weniger als erwartet oder 0 angezeigt?**
 
-Manchmal werden nach dem Hochladen von Eigenschaften [!UICONTROL Trait Graph] keine Ergebnisse oder weniger als erwartete Zahlen angezeigt. Dies geschieht, wenn das Datenvolumen, das wir erhalten, so großartig ist, dass der eingehende Verarbeitungsauftrag diese Informationen erst nach dem Termin der Berichterstellung für diesen Tag abschließen kann.
+Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. Dies geschieht, wenn das Datenvolumen, das wir erhalten, so großartig ist, dass der eingehende Verarbeitungsauftrag diese Informationen erst nach dem Termin der Berichterstellung für diesen Tag abschließen kann.
 
-Daher werden diese Daten an das Berichterstellungssystem gesendet und werden im Berichtsintervall für die Berichterstellung nicht angezeigt, das für die grafische Darstellung des [!UICONTROL Trait Graph]Berichts verwendet wird. Sie können diese Daten jedoch in den Berichten 7, 14, 30 und 60 Tage in einem [Trend](../reporting/trend-reports.md#trend-report-overview) oder [allgemeinen Bericht](../reporting/general-reports.md#general-reports-overview) am folgenden Tag anzeigen.
+As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
 
 <br> 
 
-**Einige Segmente fehlen in einem[!UICONTROL Overlap]Bericht. Wo sind sie?**
+**Einige Segmente fehlen in einem[!UICONTROL Overlap]Bericht. Where are they?**
 
 Um die rechnerspezifische Nachfrage zu reduzieren, lassen diese Berichte statistisch unbedeutende Daten aus den Ergebnissen weg. Ihre Segmente fehlen nicht. Sie werden einfach abgelegt, da sie keine aussagekräftigen oder nützlichen Benutzerpools erbringen, die Sie als Ziel auswählen können. Siehe auch:
 
@@ -42,7 +42,7 @@ Um die rechnerspezifische Nachfrage zu reduzieren, lassen diese Berichte statist
 
 **Wie kann ich feststellen, ob weitergeleitete Benutzer von dieser Kampagne oder aus anderen Quellen zu meiner Site gelangen, wenn ich eine E-Email-Marketingkampagne ausführe?**
 
-Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Sitebereichs an, den Sie überwachen möchten. Richten Sie dann eine Eigenschaftsregel ein, um diese Variable zu erfassen. Wenn Ihre URL beispielsweise eine Kampagnen-ID wie diese übergibt, `www.test123.com/electronics?campaign=123`erstellen Sie eine Eigenschaftsregel, um diese Daten aus der `h_referer` Variablen mit einer Trait-Regel zu erfassen, die nach einem Header sucht `h_referer = 'campaign=123'`.)
+Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Sitebereichs an, den Sie überwachen möchten. Richten Sie dann eine Eigenschaftsregel ein, um diese Variable zu erfassen. For example, if your URL passes in a campaign ID like this, `www.test123.com/electronics?campaign=123`, then create a trait rule to capture that data from the `h_referer` variable with a trait rule that looks for a header like `h_referer = 'campaign=123'`).
 
 <br> 
 
@@ -63,7 +63,7 @@ Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Siteber
 
 **Ich habe ein Segment, das aus nur einer Eigenschaft besteht. Wenn ich die Berichterstellungsmetriken betrachte, stimmen ihre Zähler nicht überein. Woran liegt das?**
 
-Siehe [Eigenschaften von Eigenschaften und Segmentpopulationen im Segmentaufbau](../features/segments/segment-builder-data.md).
+See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
 <br> 
 
@@ -80,7 +80,7 @@ Siehe [Eigenschaften von Eigenschaften und Segmentpopulationen im Segmentaufbau]
 
 **Ich Inbound A File and my Inbound Receipt zeigt eine hohe Anzahl erfolgreich verarbeiteter Datensätze, aber die Berichterstellung zeigt viel niedrigere Zahlen an. Warum?**
 
-Im Backend werden onboarded-Daten nur an Benutzer angehängt, die noch in AAM aktiv sind (Benutzer müssen die letzten [!UICONTROL DCS] Aktivitäten in den letzten 120 Tagen aufzeichnen). Wenn Sie demnach Daten für Benutzer eingeben, die bereits [!DNL Audience Manager]abgelaufen sind, werden Sie [!UICONTROL Inbound] möglicherweise darauf hingewiesen, dass eine bestimmte Anzahl von Benutzerdatensätzen onboarded war. Wenn diese Benutzer jedoch noch keine Aktivitäten hatten, werden diese Daten entfernt, wenn sie [!UICONTROL User Profile Store] auf den Bericht gelangt sind.
+In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!UICONTROL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
 
 <br> 
 
@@ -93,16 +93,16 @@ Angenommen, Sie haben 100 Einträge aufgezeichnet. Für jede dieser Kunden-IDs h
 Es gibt zwei Gründe, warum eine einzelne geräteübergreifende Kunden-ID mit mehreren Geräte-IDs verknüpft werden kann:
 
 * Benutzer melden sich bei demselben geräteübergreifenden Konto von mehreren Computern/Browsern an.
-* Benutzer löschen ihre Cookies. Hinweis: &quot; Abgebrochen&quot; -Cookies werden nach 120 Tagen der Benutzerinaktivität gelöscht.
+* Benutzer löschen ihre Cookies. Hinweis: " Abgebrochen" -Cookies werden nach 120 Tagen der Benutzerinaktivität gelöscht.
 
 <br> 
 
 **Warum sind[!UICONTROL Total Trait Realizations]meine vordefinierten Eigenschaften immer 0?**
 
-[!UICONTROL Total Trait Realizations] auf Seite laden. [!UICONTROL Total Trait Realizations] geben an, wie oft bestimmte Eigenschaften in Echtzeit ausgelöst wurden. Diese Zahl wird nur für regelbasierte Eigenschaften berechnet. Onboarded-Eigenschaften werden immer [!UICONTROL Total Trait Realizations] als 0 angezeigt.
+[!UICONTROL Total Trait Realizations] auf Seite laden. [!UICONTROL Total Trait Realizations] geben an, wie oft bestimmte Eigenschaften in Echtzeit ausgelöst wurden. Diese Zahl wird nur für regelbasierte Eigenschaften berechnet. Onboarded traits always show [!UICONTROL Total Trait Realizations] as 0.
 
 <br> 
 
-**Ich habe eine Eigenschaft erstellt und die[!UICONTROL Trait Graph]Ansicht eine größere Zahl[!UICONTROL Unique Trait Realizations]als die[!UICONTROL Total Trait Population]. Ist dies normal?**
+**Ich habe eine Eigenschaft erstellt und die[!UICONTROL Trait Graph]Ansicht eine größere Zahl[!UICONTROL Unique Trait Realizations]als die[!UICONTROL Total Trait Population]. Is this normal?**
 
-Sie sehen dies, da es sich bei den [!UICONTROL Unique Trait Realizations] Echtzeitmetriken um Echtzeitmetriken handelt, aber die Berichtsaufträge, die wir berechnen, [!UICONTROL Total Trait Population] sind nicht Echtzeit. Der Wert sollte [!UICONTROL Total Trait Population] größer als die [!UICONTROL Unique Trait Realizations] innerhalb weniger Tage sein.
+You are seeing this because the [!UICONTROL Unique Trait Realizations] are real-time metrics, but the reporting jobs we do to calculate the [!UICONTROL Total Trait Population] are not real-time. The [!UICONTROL Total Trait Population] should be larger than the [!UICONTROL Unique Trait Realizations] within a couple of days.
