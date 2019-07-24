@@ -11,17 +11,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Den GPT `setTargeting` -API-Aufruf ändern {#modify-the-gpt-settargeting-api-call}
+# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
 
-Fügen Sie eine if-Anweisung hinzu, um vor dem Aufruf der [!DNL Google Publisher Tag]`.setTargeting` Methode nach Audience Manager-Cookies zu suchen.
+Add an if statement to check for Audience Manager cookies before calling the [!DNL Google Publisher Tag] `.setTargeting` method.
 
-## Überprüfen von Audience Manager-Cookies mit `IF` einer Anweisung
+## Check for Audience Manager Cookies With an `IF` Statement
 
-Die `.setTargeting` Methode ruft Daten aus dem Zielcookie von Audience Manager und dem eindeutigen Benutzer-ID-Cookie ( `aam_uuid`) ab. Wenn `.setTargeting` jedoch vor [!UICONTROL DIL] der Anzeige dieser Cookies aufgerufen wird oder die Cookies leer sind, werden möglicherweise Fehler angezeigt, wenn die Seite geladen wird. Um dies zu vermeiden, schließen Sie die `.setTargeting` Methode in eine `if` Anweisung ein, die nach diesen Cookies sucht. Wenn sie nicht festgelegt sind, verhindert `.setTargeting` diese Anweisung, dass die `AamGpt` Funktion aufgerufen wird.
+The `.setTargeting` method gets data from the Audience Manager destination cookie and the unique user ID cookie ( `aam_uuid`). However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they're not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
 
 ### `IF` Muster-Codebeispiel
 
-In diesem Beispiel lautet der Zielgruppenname des Zielgruppen-Managers `Sample`. Sie legen diesen Namen fest, wenn Sie das Zielcookie in der Benutzeroberfläche von Audience Manager erstellen. [!UICONTROL DIL] legt das `aam_uuid` Cookie fest und der Name kann nicht geändert werden.
+In this example, the Audience Manager destination cookie name is `Sample`. Sie legen diesen Namen fest, wenn Sie das Zielcookie in der Benutzeroberfläche von Audience Manager erstellen. [!UICONTROL DIL] legt das `aam_uuid` Cookie fest und der Name kann nicht geändert werden.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -34,16 +34,16 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Je nachdem, wie [!DNL DFP]Sie integrieren möchten, benötigen Sie nur einige der Zeilen im obigen Codebeispiel:
+>Depending on how you want to integrate with [!DNL DFP], you only need some of the lines in the code sample above:
 >
 >* Clientseitige Integration: nur Linien 1-3 verwenden.
 >* Serverseitige Integration: keine der Zeilen erforderlich.
->* [!DNL DFP] Protokolldateien für die Berichterstellung in [!DNL Audience Manager]: nur Linien 4-6 verwenden. Dieser Code fügt den Wert des `aam_uuid` Cookies in die Protokolle ein, damit er für die Berichterstellung übernommen werden kann.
+>* [!DNL DFP] Protokolldateien für die Berichterstellung in [!DNL Audience Manager]: nur Linien 4-6 verwenden. This code inserts the value of the `aam_uuid` cookie into the logs so they can be ingested for reporting.
 
 
 ### `AamGpt` Funktionen und Datentypen
 
-Definiert die Schlüsselvariablen, die in der `if` Anweisung verwendet werden.
+Defines the key variables used in the `if` statement.
 
 <table id="table_881391C9BDDF4FACAFC37A47B14B31A1"> 
  <thead> 
@@ -57,17 +57,17 @@ Definiert die Schlüsselvariablen, die in der `if` Anweisung verwendet werden.
   <tr> 
    <td colname="col1"> <p> <code> Aamgpt. getkey </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Gibt den Schlüssel im Schlüssel-Wert-Segment-Paar zurück. Wenn Ihr Schlüssel-Wert-Paar beispielsweise <code> aus color = blue </code>besteht, gibt dies <code> Farbe </code>zurück. </p> </td> 
+   <td colname="col3"> <p>Gibt den Schlüssel im Schlüssel-Wert-Segment-Paar zurück. For example, if your key-value pair consisted of <code> color=blue </code>, this returns <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Aamgpt. getvalues </code> </p> </td> 
    <td colname="col2"> <p>Array von Zeichenfolgen </p> </td> 
-   <td colname="col3"> <p>Gibt Werte in einem Array zurück, z. B. <code> ["value 1", "value 2"] </code>. </p> </td> 
+   <td colname="col3"> <p>Returns values in an array, e.g., <code> ["value1","value2"] </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Aamgpt. getcookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Gibt die Benutzer-ID des Audience Manager zurück, z. <code></code>B. 12345. </p> </td> 
+   <td colname="col3"> <p>Returns the Audience Manager user ID, e.g., <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>
