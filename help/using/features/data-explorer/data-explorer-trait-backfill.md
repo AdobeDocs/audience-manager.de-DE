@@ -10,13 +10,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Aufstockung Trait Realizations {#backfill-trait-realizations}
+# Backfill Trait Realizations {#backfill-trait-realizations}
 
 Aufstockung von Eigenschaftseigenschaften, um historische Zielgruppen zu erfassen und Verlust relevanter Daten vor dem Erstellungsdatum von Eigenschaften zu vermeiden.
 
 [!UICONTROL Data Explorer Trait Backfill] ist eine Premium-Funktion, die das Erlebnis für Audience Manager verbessert, indem zusätzliche Anwendungsfälle entsperrt werden. Die Aufstockung erfordert zusätzliche Verarbeitungsleistung und steht allen Audience Manager-Kunden zu inkrementellen Kosten zur Verfügung. Weitere Einzelheiten erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
 
-Wenn Sie Eigenschaften aus nicht verwendeten Signalen erstellen, können Sie die Eigenschaftsrealizationen über einen bestimmten Zeitraum aufstocken. [!DNL Audience Manager] erfasst die Verlaufsdaten zu Zielgruppen, die für die neue Eigenschaft qualifiziert sind, und speichert sie im entsprechenden Profil. Sie können den Abschnitt **[!UICONTROL Backfill Options]** im [!UICONTROL Trait Expression] Abschnitt **[Eigenschaften erstellen](../../features/traits/about-trait-builder.md)**.
+Wenn Sie Eigenschaften aus nicht verwendeten Signalen erstellen, können Sie die Eigenschaftsrealizationen über einen bestimmten Zeitraum aufstocken. [!DNL Audience Manager] erfasst die Verlaufsdaten zu Zielgruppen, die für die neue Eigenschaft qualifiziert sind, und speichert sie im entsprechenden Profil. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the **[Trait Builder](../../features/traits/about-trait-builder.md)**.
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ Wenn Sie Eigenschaften aus nicht verwendeten Signalen erstellen, können Sie die
 
 Hier erfahren Sie, wie Sie Eigenschaften von Eigenschaften aufstocken:
 
-1. Navigieren Sie [!UICONTROL Audience Data > Signals > Search] zum amd-Ausführen einer Signatursuche oder verwenden Sie das [Signal-Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) , um die Signale zu identifizieren, die in der neuen Eigenschaft verwendet werden sollen.
+1. Go to [!UICONTROL Audience Data > Signals > Search] amd run a Signals Search or use the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) to identify the signals to use in the new trait.
 1. Erstellen Sie eine neue Eigenschaft basierend auf den gewünschten Signalen.
-1. Verwenden Sie den **[!UICONTROL Backfill Options]****[!UICONTROL Trait Expression]** Abschnitt, um das Zeitintervall auszuwählen, in dem Sie Eigenschaften für Eigenschaften aufstocken möchten. Vordefinierte Aufstockungsintervalle umfassen 1, 7, 14 und 30 Tage. Sie können auch einen benutzerdefinierten Datumsbereich von bis zu 30 Tagen auswählen.
+1. Use the **[!UICONTROL Backfill Options]** in the **[!UICONTROL Trait Expression]** section to select the time interval for which you want to backfill trait realizations. Vordefinierte Aufstockungsintervalle umfassen 1, 7, 14 und 30 Tage. Sie können auch einen benutzerdefinierten Datumsbereich von bis zu 30 Tagen auswählen.
    ![](assets/signals-trait-backfill.png)
-1. (Optional) Klicken **[!UICONTROL Estimate Realizations]** Sie in den **[!UICONTROL Estimated Trait Realizations]** Abschnitt, um die Schätzung [!UICONTROL Unique Trait Realizations] und [!UICONTROL Total Trait Population] die Werte für die Aufstockung in den letzten 7 Tagen anzuzeigen.
+1. (Optional) Click **[!UICONTROL Estimate Realizations]** in the **[!UICONTROL Estimated Trait Realizations]** section to see the estimated [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] values for the backfilled trait over the last 7 days.
    ![](assets/estimate-trait-realizations.png)
    >[!IMPORTANT]
    >
@@ -41,13 +41,13 @@ Hier erfahren Sie, wie Sie Eigenschaften von Eigenschaften aufstocken:
 
 Nachdem Sie die Erstellung abgeschlossen haben, werden die rückdatierten Realizationen in den Neuberechnungsstatistiken angezeigt.
 
-## Trait Backfill Latency {#trait-backfilling-latency}
+## Trait Backfilling Latency {#trait-backfilling-latency}
 
-Neu erstellte Eigenschaften erfassen Zielgruppen zwei bis drei Stunden nach der Erstellung. Aufgrund des umfangreichen Datenvolumens, der [!DNL Audience Manager] täglich ausgeführt wird, wird die Aufstockung jedoch nicht sofort im Diagramm [!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population] dargestellt.
+Neu erstellte Eigenschaften erfassen Zielgruppen zwei bis drei Stunden nach der Erstellung. However, due to the large volume of data that [!DNL Audience Manager] performs on a daily basis, the backfilled population is not immediately reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] graphs.
 
-Audience Manager aktualisiert die wiederherzugefüllte [!UICONTROL Trait Graph] Population innerhalb von 48 Stunden nach der Erstellung von Eigenschaften.
+Audience Manager updates the [!UICONTROL Trait Graph] with the backfilled population within 48 hours from trait creation.
 
-## Trait-Aufstockung {#trait-backfilling-limit}
+## Trait Backfilling Limit {#trait-backfilling-limit}
 
 [!UICONTROL Data Explorer] Damit können Sie bis zu 50 Eigenschaften pro Monat aufstocken, wobei der Aufstockungszähler am 1. Tag jedes Monats zurückgesetzt wird.
 
@@ -55,8 +55,8 @@ Audience Manager aktualisiert die wiederherzugefüllte [!UICONTROL Trait Graph] 
 >
 >Trait backfill quota does not carry from previous months. Wenn Sie z. B. 30 Eigenschaften in diesem Monat aufstocken, wird das Kontingent für die Aufstockung des nächsten Monats auf 50, nicht auf 70 zurückgesetzt.
 
-## Auswirkungen auf die Berichterstellung {#reporting-impact}
+## Impact on Reporting {#reporting-impact}
 
-Zurückgestellte Eigenschaftenrealizationen werden in den [!UICONTROL Unique Trait Realizations] und [!UICONTROL Total Trait Population] Metriken dargestellt, da [!DNL Audience Manager] historische Signale in Eigenschaftsrealizationen umgewandelt werden.
+Backfilled trait realizations are reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] metrics, as [!DNL Audience Manager] turns historical signals into trait realizations.
 
-Die Variable [!UICONTROL Trait Graph], [!UICONTROL General Reports]und [!UICONTROL Trend Reports] wird nicht rückwirkend mit historischen Metriken aktualisiert, die vor dem Erstellungsdatum der Eigenschaft zurückgesetzt wurden.
+However, the [!UICONTROL Trait Graph], [!UICONTROL General Reports], and [!UICONTROL Trend Reports] are not updated retroactively with historical metrics backfilled before the trait creation date.
