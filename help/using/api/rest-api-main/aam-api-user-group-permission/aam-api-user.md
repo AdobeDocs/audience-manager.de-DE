@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# User Management-API-Methoden {#user-management-api-methods}
+# User Management API Methods {#user-management-api-methods}
 
-Rest [!DNL API] -Methoden zur Verwaltung von Benutzern, einschließlich Erstellen, Aktualisieren, Auflisten, Löschen und Zurückgeben von Benutzerobjekten.
+Rest [!DNL API] methods to manage users, including creating, updating, listing, deleting, and returning user objects.
 
 <!-- c_rest_api_user_man_user.xml -->
 
-## Einen Benutzer erstellen {#create-user}
+## Create a User {#create-user}
 
 `POST` Eine Methode zum Erstellen eines neuen Benutzers.
 
@@ -62,11 +62,11 @@ Rest [!DNL API] -Methoden zur Verwaltung von Benutzern, einschließlich Erstelle
 }
 ```
 
-Wenn `isAdmin` &quot;true&quot; festgelegt ist, wird der Benutzer als Partner-Administrator erstellt. Mit dieser Eigenschaft können Sie auch erkennen, ob ein Benutzer ein Partner-Administrator ist.
+If `isAdmin` is set to true, the user is created as a partner admin. Mit dieser Eigenschaft können Sie auch erkennen, ob ein Benutzer ein Partner-Administrator ist.
 
-Gibt zurück, `409 Conflict` wenn der Benutzername bereits erfolgt ist.
+Returns `409 Conflict` if the username is already taken.
 
-## Einen Benutzer aktualisieren {#update-user}
+## Update a User {#update-user}
 
 `PUT` Eine Methode zum Aktualisieren eines Benutzers.
 
@@ -107,9 +107,9 @@ Gibt zurück, `409 Conflict` wenn der Benutzername bereits erfolgt ist.
 }
 ```
 
-Gibt zurück, `409 Conflict` wenn der Benutzername bereits erfolgt ist.
+Returns `409 Conflict` if the username is already taken.
 
-## Angemeldete Benutzer aktualisieren {#update-logged-in-user}
+## Update Logged-In User {#update-logged-in-user}
 
 `PUT` Eine Methode zum Aktualisieren des derzeit angemeldeten Benutzers.
 
@@ -117,7 +117,7 @@ Gibt zurück, `409 Conflict` wenn der Benutzername bereits erfolgt ist.
 
 >[!NOTE]
 >
->Während die meisten [!DNL API] Methoden nur von Partneradministratoren aufgerufen werden können, kann diese Methode von Nichtadministratoren aufgerufen werden.
+>Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
 
 ### Anfrage
 
@@ -150,9 +150,9 @@ Gibt zurück, `409 Conflict` wenn der Benutzername bereits erfolgt ist.
 }
 ```
 
-Gibt zurück, `409 Conflict` wenn der Benutzername bereits erfolgt ist.
+Returns `409 Conflict` if the username is already taken.
 
-## Angemeldete Benutzerkennwort aktualisieren {#update-logged-in-user-pw}
+## Update Logged-In User Password {#update-logged-in-user-pw}
 
 `PUT` Eine Methode zum Aktualisieren des derzeit angemeldeten Benutzers.
 
@@ -160,7 +160,7 @@ Gibt zurück, `409 Conflict` wenn der Benutzername bereits erfolgt ist.
 
 >[!NOTE]
 >
->Während die meisten [!DNL API] Methoden nur von Partneradministratoren aufgerufen werden können, kann diese Methode von Nichtadministratoren aufgerufen werden.
+>Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
 
 ### Anfrage
 
@@ -172,9 +172,9 @@ Gibt zurück, `409 Conflict` wenn der Benutzername bereits erfolgt ist.
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Gibt zurück, `200 OK` wenn erfolgreich. Gibt zurück `400 Bad Request` , wenn bei einem Kennwort etwas falsch ist.
+Returns `200 OK` if successful. Returns `400 Bad Request` if something is wrong with either password.
 
-## Angemeldete Benutzerkennwort zurücksetzen {#reset-logged-in-user-pw}
+## Reset Logged-In User Password {#reset-logged-in-user-pw}
 
 `PUT` Eine Methode zum Zurücksetzen des derzeit angemeldeten Benutzers. [!UICONTROL Audience Management] dem Benutzer ein vom System generiertes Kennwort senden.
 
@@ -182,15 +182,15 @@ Gibt zurück, `200 OK` wenn erfolgreich. Gibt zurück `400 Bad Request` , wenn b
 
 >[!NOTE]
 >
->Während die meisten [!DNL API] Methoden nur von Partneradministratoren aufgerufen werden können, kann diese Methode von Nichtadministratoren aufgerufen werden.
+>Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
 
 ### Anfrage
 
 `POST /self/reset-password`
 
-Gibt zurück, `200 OK` wenn erfolgreich.
+Returns `200 OK` if successful.
 
-## Zurückkehrendes Benutzerobjekt für eine Benutzer-ID {#return-user-object-for-id}
+## Return User Object for a User ID {#return-user-object-for-id}
 
 `Get` Eine Methode zum Zurückgeben des Benutzerobjekts für eine Benutzer-ID.
 
@@ -218,7 +218,7 @@ Gibt zurück, `200 OK` wenn erfolgreich.
 }
 ```
 
-## Zurückkehrendes Benutzerobjekt für angemeldete Benutzer {#return-user-object-for-logged-in-user}
+## Return User Object for Logged-In User {#return-user-object-for-logged-in-user}
 
 `Get` Eine Methode zum Zurückgeben des Benutzerobjekts für den derzeit angemeldeten Benutzer.
 
@@ -226,7 +226,7 @@ Gibt zurück, `200 OK` wenn erfolgreich.
 
 >[!NOTE]
 >
->Während die meisten [!DNL API] Methoden nur von Partneradministratoren aufgerufen werden können, kann diese Methode von Nichtadministratoren aufgerufen werden.
+>Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
 
 ### Anfrage
 
@@ -250,9 +250,9 @@ Gibt zurück, `200 OK` wenn erfolgreich.
 }
 ```
 
-## Listenbenutzer {#list-users}
+## List Users {#list-users}
 
-Eine `GET` Methode für Benutzer.
+A `GET` method to list users.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -284,7 +284,7 @@ Diese Abfrage gibt eine Liste aller Benutzer in den angegebenen Gruppen zurück.
 }
 ```
 
-## Benutzer löschen {#delete-users}
+## Delete a User {#delete-users}
 
 `DELETE` Eine Methode zum Löschen eines Benutzers.
 
@@ -294,9 +294,9 @@ Diese Abfrage gibt eine Liste aller Benutzer in den angegebenen Gruppen zurück.
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-Gibt zurück, `204 No Content` wenn erfolgreich. Bei Konflikten zurückgegeben `409 Conflict`.
+Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
-## Benutzer stapelweise löschen {#delete-users-bulk}
+## Delete Users in Bulk {#delete-users-bulk}
 
 `POST` Eine Methode zum Stapellöschen mehrerer Benutzer.
 
