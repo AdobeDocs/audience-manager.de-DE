@@ -11,29 +11,29 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 ---
 
 
-# Abgeleitete Signale {#derived-signals}
+# Derived Signals {#derived-signals}
 
-A [!UICONTROL derived signal] qualifiziert Site-Besucher für zusätzliche Eigenschaften basierend auf einer bereits gesehenen Eigenschaft. Mit anderen Worten, zusätzliche Eigenschaften für Eigenschaften können von einer zur Zeit ausgefüllten Eigenschaft abgeleitet werden, auch wenn ein Benutzer die neue Eigenschaft zuvor noch nie gesehen hat.
+A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. Mit anderen Worten, zusätzliche Eigenschaften für Eigenschaften können von einer zur Zeit ausgefüllten Eigenschaft abgeleitet werden, auch wenn ein Benutzer die neue Eigenschaft zuvor noch nie gesehen hat.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Zweck von abgeleiteten Signalen
 
-In [!DNL Audience Manager]können Sie eine Beziehung zwischen Signalen (oder Trait-Regeln) erstellen, die während eines Ereignisaufrufs an andere, angegebene Signale oder Eigenschaften weitergegeben werden. Angenommen, ein Ereignisaufruf geht von einem Signal aus, das aus dem Schlüsselwert [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`) besteht. [!DNL Audience Manager] das Signal mit anderen, mit dem [!UICONTROL derived signals] Tool erstellten Benutzern verbinden. Obwohl die zugehörigen Signale alle von Ihnen angegebenen Schlüsselwerte sein können, sind sie am nützlichsten, wenn sie mit vorhandenen Signalen verknüpft sind, die bereits als [!UICONTROL Trait Builder] Regeln eingerichtet wurden. Beispiel: Wenn eine Benutzeraktion das Signal [!DNL "product = new car"] auslöst, dass der Benutzer auch für die durch den Zielschlüssel und die Wertsignalen definierten Eigenschaften qualifiziert ist.
+In [!DNL Audience Manager], you can create a relationship between signals (or trait rules) passed in during an event call to other, specified signals or traits. For example, assume an event call passes in a signal composed of the key-value [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] das Signal mit anderen, mit dem [!UICONTROL derived signals] Tool erstellten Benutzern verbinden. Although the associated signals can be any key-values you specify, they are most useful when linked to existing signals already set up as [!UICONTROL Trait Builder] rules. For example, in the illustration below, when a user action fires the signal [!DNL "product = new car"] that user can also qualify for traits defined by the target key and value signals.
 
 ![](assets/derived_signal_example.png)
 
 ## Position der abgeleiteten Signale
 
-Erstellen und verwalten [!UICONTROL derived signals] Sie in **[!UICONTROL Tools > Derived Signals]** der Seitenleiste.
+Create and manage [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** from the sidebar navigation.
 
-## Erstellen eines abgeleiteten Signals {#create}
+## Create a Derived Signal {#create}
 
 <!-- t_tb_create_derived.xml -->
 
-So erstellen [!UICONTROL derived signal]Sie eine:
+To create a [!UICONTROL derived signal]:
 
-1. Wählen **[!UICONTROL Derived Signals]** Sie aus dem [!UICONTROL Tools] Menü.
+1. Select **[!UICONTROL Derived Signals]** from the [!UICONTROL Tools] menu.
 1. Geben Sie einen:
    * *(Optional)*[!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
@@ -44,19 +44,19 @@ So erstellen [!UICONTROL derived signal]Sie eine:
 
 >[!NOTE]
 >
->Die Zeichenbeschränkung für den [!UICONTROL Source Key][!UICONTROL Source Value][!UICONTROL Target Key], und [!UICONTROL Target Value] die Felder beträgt 228 Zeichen.
+>The character limit for the [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key], and [!UICONTROL Target Value] fields is 228 characters.
 
-## Abgeleitete Signale bearbeiten {#edit}
+## Edit a Derived Signal {#edit}
 
 <!-- t_tb_edit_derived.xml -->
 
-So bearbeiten Sie eine [!UICONTROL derived signal]:
+To edit a [!UICONTROL derived signal]:
 
-1. Bewegen Sie den Mauszeiger über das Signal und klicken **[!UICONTROL Edit]** Sie auf.
-2. Nehmen Sie den erforderlichen Code, den erforderlichen Schlüssel oder den erforderlichen Wert vor und klicken **[!UICONTROL Save]** Sie dann auf.
+1. Hover over the signal, then click **[!UICONTROL Edit]**.
+2. Make the required code, key, or value changes, then click **[!UICONTROL Save]**.
 
-## Löschen eines abgeleiteten Signals {#delete}
+## Delete a Derived Signal {#delete}
 
 <!-- t_tb_delete_derived.xml -->
 
-Um einen [!UICONTROL derived signal]Mauszeiger zu löschen, bewegen Sie den Mauszeiger über das Signal und klicken **[!UICONTROL Delete]** Sie dann auf.
+To delete a [!UICONTROL derived signal], hover over the signal, then click **[!UICONTROL Delete]**.
