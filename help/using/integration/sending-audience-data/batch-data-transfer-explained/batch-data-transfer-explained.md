@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Batch-Datenübertragungsprozess beschrieben {#batch-data-transfer-process-described}
+# Batch Data Transfer Process Described {#batch-data-transfer-process-described}
 
 Eine allgemeine Übersicht darüber, wie Audience Manager einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
 
@@ -23,7 +23,7 @@ Der Batch-Datenintegrationsprozess speichert Besucherinformationen auf unseren S
 
 * Sofortige Datenübertragungen sind nicht erforderlich.
 * Erfassen von Daten, um einen großen Pool segmentierter Benutzer zu erstellen.
-* Sie möchten Datendiskrepanzen und `HTTP` Aufrufe vom Browser verringern.
+* You want to reduce data discrepancies and `HTTP` calls from the browser.
 
 ![](assets/s2s_70.png)
 
@@ -33,4 +33,4 @@ Der Batch-Datenintegrationsprozess speichert Besucherinformationen auf unseren S
 1. Audience Manager und der Drittanbieter-Datenanbieter weisen dem Besucher eine eindeutige ID zu (normalerweise mit einem Cookie).
 1. Audience Manager ruft den Drittanbieter-Datenprovider auf, um Besucher-IDs abzugleichen.
 1. Eine geplante Anforderung (üblicherweise in einem täglichen Intervall) umgeht Besuchersegmentdaten zwischen Audience Manager und Ihrem Drittanbieter-Datenanbieter.
-1. Wenn eine Inbound [!UICONTROL Server-to-Server] -Datei verarbeitet wird, wird ein Beleg per E-Mail an Partnerlösungen gesendet und, falls konfiguriert, dem Partner. Weitere Informationen finden Sie unter [Beispielnachricht für Partner nach der eingehenden Verarbeitung](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
+1. Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner. For more information, see [Sample Message to Partners after Inbound Processing](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
