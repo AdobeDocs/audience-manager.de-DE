@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Zielgruppenoptimierung für Herausgeber{#audience-optimization-for-publishers}
 
-„Zielgruppenoptimierung für Herausgeber“ kann Ihnen dabei helfen, Leistungspotenziale bei Segmenten in Audience Manager ausfindig zu machen, die Ihre eigenen und verwaltete Inhalte betreffen. 
+„Zielgruppenoptimierung für Herausgeber“ kann Ihnen dabei helfen, Leistungspotenziale bei Segmenten in Audience Manager ausfindig zu machen, die Ihre eigenen und verwaltete Inhalte betreffen. Diese Berichte kombinieren Protokollierungsdaten auf Protokollebenen mit Audience Manager-Metriken, um Zielgruppenoptimierungen und Monetarisierungsmöglichkeiten zu informieren.
 
 ## Überblick {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] juxtapose die Leistungsdaten auf Protokollebene aus [!UICONTROL DFP][!DNL Audience Manager] Segmentmetriken. Die Berichte sind für Kunden verfügbar, die die Erfassung von Protokollen eingerichtet [!UICONTROL DFP][!DNL Audience Manager]haben. Wenn Sie noch keine Protokollerfassung eingerichtet haben, lesen Sie [DFP-Datendateien in Audience Manager](import-dfp.md) importieren, um Informationen zu diesem Verfahren zu erhalten.
+[!UICONTROL Audience Optimization for Publishers] juxtapose die Leistungsdaten auf Protokollebene aus [!UICONTROL DFP][!DNL Audience Manager] Segmentmetriken. The reports are available for customers that have set up log ingestion from [!UICONTROL DFP] into [!DNL Audience Manager]. If you haven't yet set up log ingestion, read [Import DFP Data Files Into Audience Manager](import-dfp.md) for information on how to do it.
 
 ## Metadaten {#metadata}
 
-Die in den Berichten angezeigten Leistungsinformationen werden aus Ihrer [!UICONTROL DFP] Instanz importiert. Sie müssen Metadatendateien senden, damit Ihre Elemente in den Berichten anstelle von IDs beschreibende, verständliche Namen hinzufügen können. Schritt 3 unter [Importieren von DFP-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschreibt, wie wir die Metadaten senden.
+The performance information displayed in the reports is imported from your [!UICONTROL DFP] instance. Sie müssen Metadatendateien senden, damit Ihre Elemente in den Berichten anstelle von IDs beschreibende, verständliche Namen hinzufügen können. Step 3 in [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) describes how to send us the metadata.
 
 ## Verfügbare Berichte {#available-reports}
 
