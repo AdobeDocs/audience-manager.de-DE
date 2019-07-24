@@ -16,9 +16,9 @@ Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen,
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12&captions=ger)
 
-## Eigenschaften aus Signaldashboard erstellen {#create-traits-from-signal-dashboard}
+## Create Traits from Signal Dashboard {#create-traits-from-signal-dashboard}
 
-So können [!UICONTROL Signal Dashboard] Sie neue Eigenschaften aus dem, [!UICONTROL Top Unused Signals][!UICONTROL New Unused Signals]und Ihren gespeicherten Suchen erstellen.
+The [!UICONTROL Signal Dashboard] allows you to create new traits from the [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals], and your saved searches.
 
 Wenn Sie eine neue Eigenschaft erstellen, wird der Eigenschaftstyp basierend auf dem Signaltyp voreingestellt:
 
@@ -26,28 +26,28 @@ Wenn Sie eine neue Eigenschaft erstellen, wird der Eigenschaftstyp basierend auf
 
 * **[!UICONTROL Onboarded]** Eigenschaften für onboarded-Signale.
 
-Um neue Eigenschaften zu erstellen, **[!UICONTROL Signal Dashboard]** identifizieren Sie das Signal, das Sie in der Eigenschaft verwenden möchten, und klicken Sie dann auf den entsprechenden **[!UICONTROL Create Rule-Based Trait]** Link oder **[!UICONTROL Create Onboarded Trait]** Link.
+To create new traits from the **[!UICONTROL Signal Dashboard]**, identify the signal that you want to use in the trait, then click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
 
 ![](assets/signals-create-trait.png)
 
-Sie werden zum **[Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md)** weitergeleitet, um Ihre neuen Eigenschaften zu erstellen.
+You'll be redirected to the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new trait(s).
 
-## Eigenschaften aus Signalsuche erstellen {#create-traits-from-signal-search}
+## Create Traits from Signal Search {#create-traits-from-signal-search}
 
-Erstellen Sie Eigenschaften basierend auf verwendeten oder nicht verwendeten Signalen, die nicht im Abschnitt angezeigt [!UICONTROL Signal Dashboard]werden.
+Create traits based on used or unused signals that are not shown in the [!UICONTROL Signal Dashboard].
 
 Suchen Sie nach bestimmten Signalen und erstellen Sie regelbasierte oder onboardierte Eigenschaften basierend auf den Ergebnissen. Gehen Sie wie folgt vor:
 
-1. Suchen **[!UICONTROL Audience Data > Signals > Search]** Sie nach einer Suche basierend auf den Schlüsselwertpaaren, nach denen Sie suchen, oder führen Sie sie aus, oder klicken Sie auf, **[!UICONTROL Search]** ohne ein Schlüsselwertpaar einzugeben, um alle Ergebnisse anzuzeigen.
+1. Go to **[!UICONTROL Audience Data > Signals > Search]** and run a search based on the key-value pairs that you are looking for, or click **[!UICONTROL Search]** without entering any key-value pair to display all results.
 2. Identifizieren Sie die Signale, die Sie in der Eigenschaft verwenden möchten, in der Ergebnisliste.
-   * Um eine Eigenschaft aus einem Signal zu erstellen, klicken Sie auf den entsprechenden **[!UICONTROL Create Rule-Based Trait]** Link oder **[!UICONTROL Create Onboarded Trait]** Link.
-   * Um eine Eigenschaft aus mehreren Signalen zu erstellen, klicken Sie auf das entsprechende Kontrollkästchen jedes Signals und klicken **[!UICONTROL Create Trait from Multiple Signals]** Sie dann auf.
+   * To create a trait from one signal, click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
+   * To create a trait from multiple signals, click the corresponding check box of each signal, then click **[!UICONTROL Create Trait from Multiple Signals]**.
    >[!NOTE]
    >Sie können Eigenschaften nur aus Signale desselben Typs erstellen. Sie können keine Eigenschaften basierend auf einer Kombination aus Echtzeit-Signal und Onboardansicht erstellen.
    >
    > ![](assets/signals-create-trait-search.png)
-   >Sie können auch Eigenschaften aus verwendeten Signalen erstellen. Signale, die bereits in Eigenschaften verwendet werden, haben die Anzahl der Eigenschaften, die in der **[!UICONTROL Included in Traits]** Spalte angezeigt werden. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das Signal enthalten.
+   >Sie können auch Eigenschaften aus verwendeten Signalen erstellen. Signals that are already used in traits have the number of traits displayed in the **[!UICONTROL Included in Traits]** column. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das Signal enthalten.
    >
    >![](assets/signals-used-traits.png)
 
-3. Verwenden Sie den **[Eigenschaftenaufbau,](../../features/traits/about-trait-builder.md)** um Ihre neuen Eigenschaften zu erstellen.
+3. Use the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new traits.
