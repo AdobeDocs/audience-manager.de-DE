@@ -11,7 +11,7 @@ source-git-commit: 1e38d1bc12eb19e33ba02fc2560eaf989f420168
 ---
 
 
-# Zielgruppenoptimierungsberichte{#audience-optimization-reports}
+# Audience Optimization Reports{#audience-optimization-reports}
 
 Die Berichte zur Zielgruppenoptimierung verwenden Datenvisualisierungsmethoden, um Informationen zu den Zielen in Ihrem Audience Manager-Konto zurückzugeben. In jedem Bericht können Sie auf fast jeden Datenpunkt klicken, um detaillierte Informationen zu diesem Element zurückzugeben. Diese Einblicke zur Zielgruppenoptimierung können auf verschiedene Anwendungsfälle in Werbung und Veröffentlichungskanälen angewendet werden, sind jedoch standardmäßig nicht verfügbar. Wenden Sie sich an Ihren Audience Manager-Berater, um zu beginnen.
 
