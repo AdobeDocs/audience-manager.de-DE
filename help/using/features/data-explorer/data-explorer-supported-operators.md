@@ -10,11 +10,11 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 ---
 
 
-# Unterstützte logische Operatoren {#supported-logical-operators}
+# Supported Logical Operators {#supported-logical-operators}
 
 Verwenden Sie logische Operatoren, um Schlüssel-Wert-Paare und Aufstockungseigenschaften zu gruppieren.
 
-## Unterstützte Operatoren für die Signalsuche {#supported-operators-search}
+## Supported Operators for Signal Search {#supported-operators-search}
 
 Verwenden Sie die folgenden unterstützten logischen Operatoren, um nach Schlüssel/Wert-Paaren zu suchen:
 
@@ -32,10 +32,10 @@ Verwenden Sie die folgenden unterstützten logischen Operatoren, um nach Schlüs
 
 | Operator | Evaluates to [!DNL True] When |
 |---|---|
-| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* Zeichen, die von diesem Operator angegeben werden. |
-| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *beginnt mit* Zeichen, die von diesem Operator angegeben werden. |
-| **[!UICONTROL Endswith]** | Der Wert in einem Schlüssel-Wert-Paar *endet mit* den von diesem Operator angegebenen Zeichen. |
+| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
+| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
+| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
 
-## Unterstützte Operatoren für Trait-Aufstockung und Schätzung {#supported-operators-backfilling}
+## Supported Operators for Trait Backfilling and Estimation {#supported-operators-backfilling}
 
-Sie können Eigenschaften aufstocken, die Ausdrücke enthalten, die eine der von [!UICONTROL Signal Search]Ihnen unterstützten Operatoren enthalten. Zusätzlich zu diesen Operatoren unterstützen die Aufstockung und Schätzung auch die [!UICONTROL AND]Operatoren und [!UICONTROL OR]und [!UICONTROL AND NOT] logische Operatoren, die zum Kombinieren von Schlüssel-Wert-Paaren innerhalb der backfill-Eigenschaftsausdrücke verwendet werden.
+You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.
