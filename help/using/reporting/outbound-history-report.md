@@ -11,7 +11,7 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 ---
 
 
-# Ausgehender Dateiverlauf {#outbound-file-history}
+# Outbound File History {#outbound-file-history}
 
 Zeigen Sie Informationen zum ausausgehenden Batch-Auftragsverlauf für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
 
@@ -21,12 +21,12 @@ t_reports_outbound_history.xml
 
  -->
 
-1. Klicken Sie **[!UICONTROL Analytics]** auf &gt; **[!UICONTROL Outbound File History]**.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outbound File History]**.
 
    ![Schrittergebnis](assets/outbound_history.png)
 
-1. Geben Sie in das **[!UICONTROL Search for a Destination]** Feld die Eingabe ein und wählen Sie das gewünschte Ziel aus.
-1. Geben Sie in das **[!UICONTROL Select a Date Range]** Feld die Start- und Enddaten für Ihren Bericht ein und klicken **[!UICONTROL Apply Date Filter]** Sie dann auf.
+1. In the **[!UICONTROL Search for a Destination]** box, start typing and select the desired destination.
+1. In the **[!UICONTROL Select a Date Range]** box, specify the start and end dates for your report, then click **[!UICONTROL Apply Date Filter]**.
 
    ![Schrittergebnis](assets/outbound_history_stats.png)
 
@@ -42,11 +42,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Datensynchronisierungsdateiname </td> 
-   <td colname="col2"> <p>Liste aller ausgehenden Dateien, die <span class="keyword"> Adobe</span> für dieses Ziel generiert hat, die zusammen verarbeitet wurden. </p> </td> 
+   <td colname="col2"> <p>List of all outbound files that <span class="keyword"> Adobe</span> generated for this destination that were processed together. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erfolgreich </td> 
-   <td colname="col2"> <p>Anzahl der Datensätze, die erfolgreich von <span class="keyword"> Audience Manager</span> an das Ziel gesendet wurden. </p> </td> 
+   <td colname="col2"> <p>Number of records that were successfully sent from <span class="keyword"> Audience Manager</span> to the destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> „Fehlgeschlagen“ </td> 
@@ -54,7 +54,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Empfangene Datensätze </td> 
-   <td colname="col2"> <p>Gesamtanzahl der Datensätze, die <span class="keyword"> Adobe</span> in den Dateien generiert hat und versucht, an das Ziel zu senden. In den meisten Fällen sollte dies die Gesamtanzahl erfolgreicher Dateien und fehlgeschlagener Dateien sein. </p> </td> 
+   <td colname="col2"> <p>Total number of records <span class="keyword"> Adobe</span> generated in the files and attempted to send to the destination. In den meisten Fällen sollte dies die Gesamtanzahl erfolgreicher Dateien und fehlgeschlagener Dateien sein. </p> </td> 
   </tr> 
  </tbody> 
 </table>
