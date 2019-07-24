@@ -10,7 +10,7 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 ---
 
 
-# Suchsignale nach Filtern suchen {#search-signals-by-filters}
+# Search Signals by Filters {#search-signals-by-filters}
 
 Lassen Sie die Schlüssel-Wertfelder leer, um nach einem breiteren Bereich von Signalen zu suchen, und verwenden Sie die verfügbaren Filter, um die Ergebnisse einzugrenzen.
 
