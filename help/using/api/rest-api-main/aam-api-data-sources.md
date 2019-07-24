@@ -19,7 +19,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!IMPORTANT]
 >
->Die Datenquellenmethoden [!DNL API] wurden umgeschrieben [!DNL Swagger] und migriert. Siehe:
+>The data source [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Siehe:
 >
 >* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration von Audience Manager-API-Code](../../api/api-swagger-migration.md)
