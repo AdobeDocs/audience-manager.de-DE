@@ -11,17 +11,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Erfassung von Inbound-Daten in Echtzeit {#real-time-inbound-data-ingestion}
+# Real-Time Inbound Data Ingestion {#real-time-inbound-data-ingestion}
 
-Der Echtzeit-Datenerfassungsprozess nutzt eine Reihe von `HTTP` Anforderungen aus dem Browser eines Benutzers, um Daten an Audience Manager weiterzugeben.
+The real-time inbound data ingestion process uses a series of `HTTP` requests from a user's browser to pass in data to Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
 Eingehende Daten sollten als Schlüssel-Wert-Paare mit dem Namen Signal formatiert werden. Typically, each signal is mapped to a segment created or managed through the user interface or [!DNL API].
 
-## URL-Zeichenfolgenparameter und -syntax {#url-string-syntax}
+## URL String Parameters and Syntax {#url-string-syntax}
 
-Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran, [Eigenschaften](../../../features/traits/create-onboarded-rule-based-traits.md) und [eine Ordnerstruktur](../../../features/traits/trait-storage.md#create-trait-storage-folder) in der [!DNL Audience Manager] Benutzeroberfläche zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.
+The [!DNL URL] for an inbound data transfer should contain the variables described below. Remember to [create traits](../../../features/traits/create-onboarded-rule-based-traits.md) and a [folder structure](../../../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI before setting up real-time data transfers.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschrieb
 
 ### URL-Syntax
 
-Bei einem eingehenden Erfassungsprozess in Echtzeit verwendet eine ordnungsgemäß formatierte [!DNL URL] Zeichenfolge die folgende Syntax:
+During a real-time inbound data ingestion process, a properly formatted [!DNL URL] string uses the following syntax:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
