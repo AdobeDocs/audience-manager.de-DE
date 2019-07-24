@@ -11,8 +11,8 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 ---
 
 
-# Zeitzonen in Audience Manager{#time-zones-in-audience-manager}
+# Time Zones in Audience Manager{#time-zones-in-audience-manager}
 
 Audience Manager verwendet koordinierte Weltzeit (UTC) für die gesamte Benutzeroberfläche.
 
-Sofern nichts anderes angegeben ist, sind alle Datumsangaben und Datumsbereiche, die Sie in der [!DNL Adobe][!DNL Audience Manager] Benutzeroberfläche auswählen können, [die koordinierte Weltzeit (UTC](https://www.timeanddate.com/worldclock/timezone/utc)). Wenn Sie z. B. Segmente zu Ihrem Ziel [erstellen,](../features/destinations/manage-destinations.md#segment-mappings) können Sie bei der Zuordnung von Segmenten zu Ihrem Ziel Mitternacht UTC anlegen. Dasselbe gilt für alle Daten in [!DNL Audience Manager].
+Unless otherwise specified, all the dates and date ranges you can select in the [!DNL Adobe] [!DNL Audience Manager] UI are [Coordinated Universal Time (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). For example, in the [Create Destination](../features/destinations/manage-destinations.md#segment-mappings) flow, when mapping segments to your destination, the start and end date you select are midnight UTC. The same applies for all the dates in [!DNL Audience Manager].
