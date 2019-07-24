@@ -12,7 +12,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Regeln für die Profilzusammenführung und häufig gestellte Fragen zum Gerätediagramm{#profile-merge-rules-and-device-graph-faq}
+# Profile Merge Rules and Device Graph FAQ{#profile-merge-rules-and-device-graph-faq}
 
 Antworten auf häufig verwendete Regeln für Profilzusammenführung und Gerätediagramm.
 
@@ -22,7 +22,7 @@ profile-merge-faq.xml
 
  -->
 
-## Gerätediagrammgrundlagen {#device-graph-basics}
+## Device Graph Basics {#device-graph-basics}
 
 **Was ist ein Gerätediagramm?**
 
@@ -32,13 +32,13 @@ Ein Gerätediagramm ist eine Reihe von ID-Zuordnungen, die Gruppen anonymer Ger�
 
 **Was ist ein externes Gerätediagramm?**
 
-Ein externes Gerätediagramm ist ein Gerätediagramm, in [!DNL Audience Manager] dem nicht exklusiv aus Ihren eigenen geräteübergreifenden Datenquellen erstellt wurde. Wenn Sie z. B. eine [Regel zum Profilzusammenführen erstellen](../features/profile-merge-rules/merge-rules-start.md) und die Optionen für [!UICONTROL Co-op Device Graph] das Gerät oder die Gerätediagramme von Drittanbietern auswählen, arbeiten Sie mit einem externen Gerätediagramm. Siehe [Geräteoptionen](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
 <br> 
 
 **Was sind einige häufige Anwendungsfälle für die Verwendung eines externen Gerätediagramms in einem[!UICONTROL Profile Merge Rule]?**
 
-Das Hauptziel der Verwendung eines Gerätediagramms in a besteht darin, [!UICONTROL Profile Merge Rule] mehrere Geräte zu evaluieren und zu qualifizieren, die zu einer einzelnen Person oder einem einzelnen Budget für ein bestimmtes Segment gehören. Das Segment selbst kann mehrere Verwendungen haben, z. B. das Targeting einer Zielgruppe von potenziellen potenziellen Werten durch eine DSP oder das Personalisieren des Onsite-Erlebnisses eines Kunden über eine Personalisierungs-Plattform auf der Site. Siehe [Anwendungsfälle für externe Geräte](../features/profile-merge-rules/external-graph-use-cases.md).
+The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. Das Segment selbst kann mehrere Verwendungen haben, z. B. das Targeting einer Zielgruppe von potenziellen potenziellen Werten durch eine DSP oder das Personalisieren des Onsite-Erlebnisses eines Kunden über eine Personalisierungs-Plattform auf der Site. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
 <br> 
 
@@ -54,11 +54,11 @@ Einmal wöchentlich.
 
 <br> 
 
-## Gerätediagramme und Regeln für die Profilzusammenführung {#device-graph-profile-merge-rules}
+## Device Graphs and Profile Merge Rules {#device-graph-profile-merge-rules}
 
 **Wie wird ein Gerätediagramm[!DNL Audience Manager]verwendet?**
 
-In [!DNL Audience Manager]werden Gerätediagramme als Konfigurationsoptionen angezeigt, wenn Sie [eine Regel zum Profilzusammenführen erstellen](../features/profile-merge-rules/merge-rules-start.md). Die folgenden [!UICONTROL Profile Merge Rules]Gerätediagramme helfen [!DNL Audience Manager]Ihnen:
+In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
 
 * Zusammenführen mehrerer Geräteprofile. Dadurch wird eine einzelne Überlagerung der Eigenschaften erstellt.
 * Werten Sie die Überlagerung für die Segmentqualifizierung aus (anstatt jedes Geräteprofil einzeln zu bewerten).
@@ -68,19 +68,19 @@ In [!DNL Audience Manager]werden Gerätediagramme als Konfigurationsoptionen ang
 
 **Wie viele[!UICONTROL Profile Merge Rules]kann ich erstellen?**
 
-Derzeit können Sie maximal 3 [!UICONTROL Profile Merge Rules]erstellen.
+Currently, you can create a maximum of 3 [!UICONTROL Profile Merge Rules].
 
 <br> 
 
 **Wie viele Geräteprofile[!DNL Audience Manager]werden zusammengeführt und gelesen, wenn Sie ein Gerätediagramm in einem[!UICONTROL Profile Merge Rule]Diagramm verwenden?**
 
-Wenn Sie ein Gerät für ein Segment verwenden, werden mithilfe von [!UICONTROL Profile Merge Rule]Audience Manager zusammengeführt und das aktuelle Geräteprofil sowie maximal 3 zusätzliche Geräteprofile, die von Ihrer ausgewählten Gerätediagramm-Option verknüpft sind, gelesen.
+When qualifying a device for a segment using a [!UICONTROL Profile Merge Rule], Audience Manager merges and reads the current device profile and a maximum of 3 additional device profiles linked by your selected device graph option.
 
 <br> 
 
 **Welche Geräte qualifizieren sich bei Verwendung eines Gerätediagramms in[!UICONTROL Profile Merge Rule]einer?**
 
-Die Geräte [!DNL Audience Manager] , die zusammengeführt und gelesen werden, sind dieselben Geräte, die für ein Segment qualifiziert sind.
+The devices [!DNL Audience Manager] merges and reads are the same devices that are qualified for a segment.
 
 >[!NOTE]
 >
@@ -88,29 +88,29 @@ Die Geräte [!DNL Audience Manager] , die zusammengeführt und gelesen werden, s
 
 <br> 
 
-**Welche Geräte*können für ein Segment*mit einem[!UICONTROL Profile Merge Rule]Gerätediagramm qualifiziert werden?**
+**Welche Geräte *können für ein Segment*mit einem[!UICONTROL Profile Merge Rule]Gerätediagramm qualifiziert werden?**
 
-Um ein Segment zu qualifizieren, müssen Geräte von Audience Manager auf unseren [Edge-Datenservern angezeigt worden sein,](../reference/system-components/components-edge.md) nachdem das Segment erstellt wurde. Außerdem werden die Edge-Server:
+To qualify for a segment, devices must have been seen by Audience Manager on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created. Außerdem werden die Edge-Server:
 
 * Speichern Sie Profildaten für maximal 14 Tage.
-* Löschen Sie ein Geräteprofil, wenn es für über 14 Tage inaktiv war. Hinweis: Diese Aktion entfernt nur Daten von der Kante. Andere Systeme behalten Datensätze für längere Zeiträume bei. Siehe Häufig gestellte Fragen [zu Datenschutz und Datenaufbewahrung](../faq/faq-privacy.md).
-* Setzen Sie das 14-Tage-Intervall zurück, wenn [!DNL Audience Manager] alle Aktivitäten für dieses Profil auf der gesamten Plattform erfasst werden.
+* Löschen Sie ein Geräteprofil, wenn es für über 14 Tage inaktiv war. Hinweis: Diese Aktion entfernt nur Daten von der Kante. Andere Systeme behalten Datensätze für längere Zeiträume bei. See the [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
+* Reset the 14-day interval if [!DNL Audience Manager] records any activity for that profile across the entire platform.
 
-Siehe auch [Datenerfassungskomponenten](../reference/system-components/components-data-collection.md).
+See also, [Data Collection Components](../reference/system-components/components-data-collection.md).
 
 <br> 
 
 **Wo können[!DNL Audience Manager]durch ein[!UICONTROL Profile Merge Rule]Gerät qualifizierte Segmente gesendet werden, die ein Gerätediagramm verwenden?**
 
-[!DNL Audience Manager] können Segmente in Batch-Dateien oder in Echtzeit an ein Ziel senden. Und, wie im obigen FAQ-Eintrag vermerkt, müssen die Geräte nach Erstellung des Segments auf [!DNL Audience Manager] unseren [Edge-Datenservern](../reference/system-components/components-edge.md) angezeigt werden.
+[!DNL Audience Manager] können Segmente in Batch-Dateien oder in Echtzeit an ein Ziel senden. And, as noted in the FAQ entry above, To qualify for a segment, devices must have been seen by [!DNL Audience Manager] on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created.
 
 <br> 
 
-## Segmente, Gerätediagramme und Regeln für die Profilzusammenführung {#segments-device-graphs-rules}
+## Segments, Device Graphs, and Profile Merge Rules {#segments-device-graphs-rules}
 
 **Wie[!DNL Audience Manager]wird ein Gerät nicht mehr segmentiert, wenn es nicht mehr für ein Segment mit einem[!UICONTROL Profile Merge Rule]Gerätediagramm qualifiziert ist?**
 
-Der Audience Manager führt bei der Auswertung von Segmenten mit einer [!UICONTROL Profile Merge Rule] Gerätegrafik bis zu vier Geräte zusammen. Wenn das unsegmentsignal ausgegeben wird, werden das aktuelle Gerät und drei weitere in Echtzeit angezeigte Geräte im Ziel aus dem Segment entfernt. Beispielsweise werden in einem sechs Gerätecluster bis zu vier Geräte zusammengeführt, ausgewertet und für ein Segment qualifiziert. Gleichermaßen werden bis zu vier Geräte zusammengeführt, ausgewertet und nicht segmentiert.
+Audience Manager merges up to four devices when evaluating segments with a [!UICONTROL Profile Merge Rule] that uses a device graph. Wenn das unsegmentsignal ausgegeben wird, werden das aktuelle Gerät und drei weitere in Echtzeit angezeigte Geräte im Ziel aus dem Segment entfernt. Beispielsweise werden in einem sechs Gerätecluster bis zu vier Geräte zusammengeführt, ausgewertet und für ein Segment qualifiziert. Gleichermaßen werden bis zu vier Geräte zusammengeführt, ausgewertet und nicht segmentiert.
 
 <br> 
 
@@ -122,13 +122,13 @@ Ja. Siehe Erläuterung oben.
 
 **Wenn ich ein Segment mit einem[!UICONTROL Profile Merge Rule]Gerät erstelle, das ein Gerätediagramm verwendet und das Segment sowohl Echtzeit- als auch Voreingestellte Daten verwendet, wird mein Segment aktualisiert, wenn sich die Daten auf der Seite ändern?**
 
-Nein. Derzeit [!DNL Audience Manager] werden Segmente mit einem [!UICONTROL Profile Merge Rule] Wert ausgewertet, der ein Gerätediagramm nur in Echtzeit verwendet. An online-Eigenschaften vorgenommene Aktualisierungen, nachdem das Segment ausgewertet wurde, werden verwendet, um das Segment zu qualifizieren, wenn das Gerät von unseren [Edge-Datenservern weiter gesehen](../reference/system-components/components-edge.md)wird. Dies geht davon aus, dass das Geräteprofil weiterhin auf den Edge-Servern aktiv ist und die Daten auf dem lokalen Gerät diesen Systemen zur Verfügung gestellt wurden. Siehe auch Häufig gestellte Fragen [zu Datenschutz und Datenaufbewahrung](../faq/faq-privacy.md).
+Nein. Currently, [!DNL Audience Manager] evaluates segments with a [!UICONTROL Profile Merge Rule] that uses a device graph in real-time only. Updates made to on-boarded traits after the segment has been evaluated will be used to qualify the segment when the device is next seen by our [edge data servers](../reference/system-components/components-edge.md). Dies geht davon aus, dass das Geräteprofil weiterhin auf den Edge-Servern aktiv ist und die Daten auf dem lokalen Gerät diesen Systemen zur Verfügung gestellt wurden. See also, the [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
 
 <br> 
 
 **Umfassen die Segmentgrößenschätzungen Geräte, die sich auf ein Segment beziehen, das auf Verbindungen basiert,[!UICONTROL Profile Merge Rule]die eine Gerätediagrammoption verwenden?**
 
-Nein. Siehe Definitionen für das und [!UICONTROL Estimated Real-Time Population][!UICONTROL Estimated Total Population] in [Trait- und Segmentpopulationsdaten im Segmentaufbau](../features/segments/segment-builder-data.md).
+Nein. See the definitions for the [!UICONTROL Estimated Real-Time Population] and [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
 <br> 
 
@@ -144,7 +144,7 @@ Nein. Heute zählt Audience Manager die Geräte, die dem authentifizierten Profi
 
 <br> 
 
-## Eigenschaften von Eigenschaften, Gerätediagrammen und Profilzusammenführungsregeln {#trait-freq-device-rules}
+## Trait Frequency, Device Graphs, and Profile Merge Rules {#trait-freq-device-rules}
 
 **Wie[!DNL Audience Manager]wird die Berechnung der Eigenschaftsfrequenz mit einem[!UICONTROL Profile Merge Rule]Gerätediagramm berechnet?**
 
@@ -163,7 +163,7 @@ Die Eigenschaftsfrequenz wird durch die Summe der Qualifikationen für eine best
    <td colname="col2"> <p> 
      <ul id="ul_52EA0F142E3F488CAAC7CF541E7F3472"> 
       <li id="li_11228EC0266A4A02BB4057B77FE93A8A">Geräte A und Gerät B werden durch ein Gerätediagramm verknüpft. </li> 
-      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">Sie haben eine <span class="wintitle"> Regel</span> zum Profilzusammenführen, die eine Gerätediagrammoption verwendet. </li> 
+      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">You have a <span class="wintitle"> Profile Merge Rule</span> that uses a device graph option. </li> 
       <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Ein einzelnes Segment (Segment 1), bestehend aus einer einzelnen Eigenschaft (Trait 1), bei der Trait 1 eine Frequenz von 8 hat. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -184,15 +184,15 @@ Die Eigenschaftsfrequenz wird durch die Summe der Qualifikationen für eine best
 
 <br> 
 
-## Berichte, Gerätediagramme und Regeln für die Profilzusammenführung {#reports-device-graphs-rules}
+## Reports, Device Graphs, and Profile Merge Rules {#reports-device-graphs-rules}
 
 **Kann ich die Anzahl der Geräte sehen, die durch ein[!UICONTROL Profile Merge Rule]Gerätediagramm erreicht werden können?**
 
-Ja. Berichte geben Daten auf [!UICONTROL Profile Merge Rule] Ebene zurück. Die Berichtsdaten werden täglich aktualisiert. Daten basieren auf den Geräten, die in Ihrem Konto angezeigt werden, nicht auf den von einem Gerätediagramm verknüpften Geräten. Siehe [Berichtsmetriken für Regeln](../features/profile-merge-rules/profile-link-metrics.md)zur Profilzusammenführung.
+Ja. Reports return data at the [!UICONTROL Profile Merge Rule] level. Die Berichtsdaten werden täglich aktualisiert. Daten basieren auf den Geräten, die in Ihrem Konto angezeigt werden, nicht auf den von einem Gerätediagramm verknüpften Geräten. See [Report Metrics for Profile Merge Rules](../features/profile-merge-rules/profile-link-metrics.md).
 
 <br> 
 
-**Kann ich feststellen, wie viele Geräte für ein bestimmtes Segment in*Echtzeit*qualifiziert sind, wobei[!UICONTROL Profile Merge Rules]es ein Gerätediagramm verwendet?**
+**Kann ich feststellen, wie viele Geräte für ein bestimmtes Segment in *Echtzeit*qualifiziert sind, wobei[!UICONTROL Profile Merge Rules]es ein Gerätediagramm verwendet?**
 
 Ja. Die Echtzeit-Populationsmetrik erfasst Segmentqualifikationen für das aktuelle Gerät (das in Echtzeit angezeigte Gerät) anhand der Profile aller Geräte, die mit einem Gerätediagramm verknüpft sind.
 
@@ -223,9 +223,9 @@ Ja. Die Echtzeit-Populationsmetrik erfasst Segmentqualifikationen für das aktue
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ergebnisse</b> </p> </td> 
-   <td colname="col2"> <p>Bei den vorherigen Elementen ist die Gesamtpopulation für Segment 1 1. </p> <p>In diesem Fall verwendet die <span class="wintitle"> Profilzusammenführungsregel</span> alle Geräte und deren Eigenschaften, um die Segmentqualifizierung zu bestimmen. Das bedeutet, dass Geräte 1, 2 und 3 für Segment 1 qualifiziert sind, aber wie oben vermerkt, ist in der Echtzeit-Segmentpopulation nur Device 1 enthalten. Dies liegt daran, dass: </p> <p> 
+   <td colname="col2"> <p>Bei den vorherigen Elementen ist die Gesamtpopulation für Segment 1 1. </p> <p>In this case, the <span class="wintitle"> Profile Merge Rule</span> uses all the devices and their traits to decide segment qualification. Das bedeutet, dass Geräte 1, 2 und 3 für Segment 1 qualifiziert sind, aber wie oben vermerkt, ist in der Echtzeit-Segmentpopulation nur Device 1 enthalten. Dies liegt daran, dass: </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Device 1 ist das aktuelle Gerät, das mit Audience Manager <span class="wintitle"> -Datenerfassungsservern</span> (<span class="wintitle"> DCS</span>) in Echtzeit interagiert. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Device 1 is the current device interacting with the Audience Manager <span class="wintitle"> Data Collection Servers</span> (<span class="wintitle"> DCS</span>) in real-time. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">Geräte 2 und 3 sind mit Device 1 durch ein Gerätediagramm verknüpft, aber sie interagieren nicht gleichzeitig mit dem DCS mit Gerät 1. </li> 
      </ul> </p> <p>Daher sind die Geräte 2 und 3 nicht in der Echtzeit-Segmentmetrik enthalten. </p> </td> 
   </tr> 
@@ -265,7 +265,7 @@ Ja. Die Gesamtanzahl der Segmentpopulationen umfasst die zusätzlichen Geräte, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ergebnisse</b> </p> </td> 
-   <td colname="col2"> <p>Bei den vorherigen Elementen beträgt die Gesamtpopulation für Segment 1 drei (3). </p> <p>In diesem Fall verwendet die <span class="wintitle"> Profilzusammenführungsregel</span> alle Geräte und deren Eigenschaften, um die Segmentqualifizierung zu bestimmen. Dies bedeutet, dass die Geräte 1, 2 und 3 für Segment 1 qualifiziert sind und alle drei in der Gesamtpopulation enthalten sind. </p> </td> 
+   <td colname="col2"> <p>Bei den vorherigen Elementen beträgt die Gesamtpopulation für Segment 1 drei (3). </p> <p>In this case, the <span class="wintitle"> Profile Merge Rule</span> uses all the devices and their traits to decide segment qualification. Dies bedeutet, dass die Geräte 1, 2 und 3 für Segment 1 qualifiziert sind und alle drei in der Gesamtpopulation enthalten sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
