@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Segmenttrendbericht{#segment-trend-report}
+# Segment Trend Report{#segment-trend-report}
 
 Der Segmenttrendbericht gibt Daten zu Impressionen und Durchklickraten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück.
 
@@ -21,31 +21,31 @@ Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein bess
 
 ## Nutzungsszenario {#use-cases}
 
-Verwenden Sie den [!UICONTROL Segment Trend] Bericht, um die Leistung eines Segments im Laufe der Zeit zu überprüfen und Trends anhand einer starken Leistung oder Skalierung zu bestimmen.
+Use the [!UICONTROL Segment Trend] report to validate a segment's performance over time and to pinpoint trends based on strong performance or scale.
 
-Mit diesem Bericht können Sie erkennen, welche Ihrer Webeigenschaften eine falsche oder fehlerhafte Steigerung und Fehlerbehebung zeigen. Dieser Bericht ist der nächste Schritt, nachdem Sie die Zielgruppe im [!UICONTROL Segment Performance] Bericht identifiziert haben, um sicherzustellen, dass die hohe oder schlechte Leistung in der [!UICONTROL Segment Performance] Registerkarte im Laufe der Zeit konsistent ist.
+Mit diesem Bericht können Sie erkennen, welche Ihrer Webeigenschaften eine falsche oder fehlerhafte Steigerung und Fehlerbehebung zeigen. This report is the next step after you identify your audience of interest in the [!UICONTROL Segment Performance] report, to ensure that the strong or poor performance you saw in the [!UICONTROL Segment Performance] tab is consistent over time.
 
-## Verwenden des Segmenttrendberichts {#using-the-report}
+## Using the Segment Trend Report {#using-the-report}
 
-Wechsel zwischen **[!UICONTROL Mapped]** und **[!UICONTROL Unmapped]** zur Auswahl von Segmenten, die einem Ziel zugeordnet sind oder nicht. Wählen Sie diese Option, um **[!UICONTROL All]** alle Segmente in den Bericht aufzunehmen.
+Toggle between **[!UICONTROL Mapped]** and **[!UICONTROL Unmapped]** to select segments that are mapped to a destination or not. Select **[!UICONTROL All]** to include all your segments in the report.
 
-Passen Sie das Look-Back-Fenster mit **[!UICONTROL Date Through]** dem Schieberegler an.
+Adjust the look-back window with the **[!UICONTROL Date Through]** slider.
 
-Klicken Sie auf eines der Segmente unter dem **[!UICONTROL Date Through]** Schieberegler, um die Option aufzurufen, um nur dieses Segment im Bericht zu belassen oder auszuschließen.
+Click any of the segments under the **[!UICONTROL Date Through]** slider to bring up the option to keep only that segment in the report or exclude it.
 
-Wählen **[!UICONTROL Line Item]** Sie die Eigenschaften in Ihrem Portfolio aus, für die Sie Informationen zurückgeben möchten.
+Use the **[!UICONTROL Line Item]** drop-down box to select the properties in your portfolio for which you want to return information.
 
-Wählen Sie in der **[!UICONTROL Segment Data Source]** Dropdown-Liste die Datenquellen aus, die die Segmente enthalten, die im Bericht angezeigt werden sollen.
+In the **[!UICONTROL Segment Data Source]** drop-down box, select the data sources containing the segments you want to see in the report.
 
-Verwenden Sie die **[!UICONTROL Segment]** Dropdownliste, um auszuwählen, welche Segmente im Bericht angezeigt werden sollen.
+Use the **[!UICONTROL Segment]** drop-down box to select which segments you want to see in the report.
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Line Item] IDs einbeziehen, wie in Schritt 3 von [DFP-Datendateien in Audience Manager importieren](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Dadurch stellen Sie sicher, dass der Bericht die Webeigenschaft anstelle [!UICONTROL Line Item] der [!UICONTROL Line Item] ID detailliert ausführt.
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item] IDs, as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item] ID.
 
-## Interpretieren der Ergebnisse {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
-Der [!UICONTROL Segment Trend] Bericht gibt Daten in einem Liniendiagramm nur für ein 14-Tage-Intervall zurück. In diesem Beispiel zeigt der Bericht Impressionen und Durchklicktrends für eine Gruppe zugeordneter und nicht zugeordneter Segmente.
+The [!UICONTROL Segment Trend] report returns data in a line graph for a 14-day interval only. In diesem Beispiel zeigt der Bericht Impressionen und Durchklicktrends für eine Gruppe zugeordneter und nicht zugeordneter Segmente.
 
 Bewegen Sie den Mauszeiger über eine Zeile, um weitere Informationen zu diesem bestimmten Segmenttrend abzurufen. Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
