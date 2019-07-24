@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Datenverarbeitungskomponenten{#data-processing-components}
+# Data Processing Components{#data-processing-components}
 
 Zu den Datenverarbeitungskomponenten gehören Hadoop, Snowflake, SOLR und Tableau.
 
@@ -25,7 +25,7 @@ Audience Manager verwendet die folgenden Komponenten zum Verarbeiten von Daten:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager]Hadoop ist Hadoop die Master-Datenbank, die alle [!DNL Audience Manager] Informationen über einen Benutzer enthält. Wenn die [Profil-Cache-Server beispielsweise Protokolldateien](../../reference/system-components/components-data-collection.md) erstellen, die Daten zu Ihren Benutzern enthalten, werden diese Daten zum Speichern an Hadoop gesendet. Weitere wichtige Hadoop-Elemente:
+In [!DNL Audience Manager], Hadoop is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md) create log files that contain data about your users, it sends that data to Hadoop for storage. Weitere wichtige Hadoop-Elemente:
 
 * **Hive:** Ein Data Warehouse für Hadoop. Hive verwaltet Ad-hoc-Abfragen auf die in Hadoop gespeicherten Daten.
 
@@ -33,24 +33,24 @@ In [!DNL Audience Manager]Hadoop ist Hadoop die Master-Datenbank, die alle [!DNL
 
 Kunden haben keinen direkten Zugriff auf diese Systeme. Kunden arbeiten jedoch indirekt daran, da diese Komponenten wichtige Daten über ihre Site-Besucher speichern.
 
-## Schneeflocke {#snowflake}
+## Snowflake {#snowflake}
 
-[Snowflake](https://www.snowflake.net/) ist eine umfangreiche Cloud-Datenbank. Es stellt Daten für viele Dashboard-Diagramme und zugehörige Textfelder bereit, die die % Änderung für jedes Element im Diagramm anzeigen. Wenn Sie die Dashboard-Berichte verwenden [!DNL Audience Manager] und betrachten, interagieren Sie mit den von [!UICONTROL Snowflake]Ihnen bereitgestellten Daten.
+[Snowflake](https://www.snowflake.net/) ist eine umfangreiche Cloud-Datenbank. Es stellt Daten für viele Dashboard-Diagramme und zugehörige Textfelder bereit, die die % Änderung für jedes Element im Diagramm anzeigen. If you use [!DNL Audience Manager] and look at the dashboard reports, you're interacting with data provided by [!UICONTROL Snowflake].
 
 
 
 ![](assets/dashboardreport.png)
 
-Dies ist keinesfalls eine umfassende Liste, aber einige gängige Dashboard-Berichte, die [!UICONTROL Snowflake] für Folgendes verantwortlich sind:
+This is by no means a comprehensive list, but some common dashboard reports that [!UICONTROL Snowflake] is responsible for include:
 
 * [Bericht zu täglichen Eigenschaften](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * [Bereitstellung und Leistungsbericht](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
-* Alle Überlappungsberichte (siehe Abschnitt [Interaktive Berichte](/help/using/reporting/dynamic-reports/dynamic-reports.md) finden Sie Informationen zu jedem Überlappungsbericht).
+* All the overlap reports (see the [Interactive Reports](/help/using/reporting/dynamic-reports/dynamic-reports.md) section for information about each overlap report).
 * [Bericht zu nicht verwendeten Signalen](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
-SOLR ist eine Open Source-Datenbank und ein Serversystem aus Apache. Es bietet robuste und schnelle Suchfunktionen über unsere großen Datensätze. Als [!DNL Audience Manager] Kunde können Sie die SOLR in Aktion sehen, wenn Sie Segmente erstellen. Er stellt Daten für den [!UICONTROL Estimated Historic Segment Size] Bericht bereit. SOLR ist aufgrund seiner Geschwindigkeit ideal für diese Rolle. Beispielsweise kann SOLR die historischen Größendaten beim Erstellen von Regeln aktualisieren und einem Segment neue Eigenschaften hinzufügen.
+SOLR ist eine Open Source-Datenbank und ein Serversystem aus Apache. Es bietet robuste und schnelle Suchfunktionen über unsere großen Datensätze. As an [!DNL Audience Manager] customer, you can see SOLR in action when you build segments. It provides data to the [!UICONTROL Estimated Historic Segment Size] report. SOLR ist aufgrund seiner Geschwindigkeit ideal für diese Rolle. Beispielsweise kann SOLR die historischen Größendaten beim Erstellen von Regeln aktualisieren und einem Segment neue Eigenschaften hinzufügen.
 
 
 
