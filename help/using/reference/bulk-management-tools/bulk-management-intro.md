@@ -104,7 +104,7 @@ Massenänderungen erfordern Authentifizierung. Wenn Sie eine Aktion auswählen, 
 Um die API-Authentifizierung einzurichten, müssen Sie Folgendes tun:
 
 * Kopieren Sie den geheimen Schlüssel in einer Textdatei (.txt) und speichern Sie ihn.
-* Benennen Sie die Textdatei mit Ihrer API-Client-ID. Wenn Ihre Client-ID beispielsweise &quot;Bulk-User&quot; lautet, speichern Sie den Schlüssel in einer Datei mit dem Titel&quot; Bulk-User. txt&quot; .
+* Benennen Sie die Textdatei mit Ihrer API-Client-ID. Wenn Ihre Client-ID beispielsweise "Bulk-User" lautet, speichern Sie den Schlüssel in einer Datei mit dem Titel" Bulk-User. txt" .
 * Speichern Sie den geheimen Schlüssel und Arbeitsblatt im selben Ordner.
 
 Wenn Sie Massenänderungen vornehmen, müssen Sie weiterhin einen Benutzernamen, ein Kennwort, eine Client-ID und eine Domäne eingeben, die API-Authentifizierung ist jedoch automatisch.
