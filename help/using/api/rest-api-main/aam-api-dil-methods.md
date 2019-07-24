@@ -11,17 +11,17 @@ source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 ---
 
 
-# Data Integration Library API-Methoden {#data-integration-library-api-methods}
+# Data Integration Library API Methods {#data-integration-library-api-methods}
 
-Methoden, mit denen Sie programmatisch mit dem ( [!UICONTROL Data Integration Library][!UICONTROL DIL].
+Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->Die Data Integration Library API wurde nicht mehr unterstützt. Diese API zum Generieren von DIL, die Sie jetzt selbst herunterladen können: [DIL-Download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>Die Data Integration Library API wurde nicht mehr unterstützt. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Rückgabeversionen für DIL {#return-version-dil}
+## Return Versions for DIL {#return-version-dil}
 
 `GET` Eine Methode, die eine Liste von Versionen zurückgibt, die vom ältesten zu den neuesten Versionen bestellt wurden.
 
@@ -33,15 +33,15 @@ Methoden, mit denen Sie programmatisch mit dem ( [!UICONTROL Data Integration Li
 
 ### Antwort
 
-Eine erfolgreiche Anforderung gibt Antwortcode `["4.0", "4.1"]` wie unten dargestellt zurück.
+A successful request returns response code `["4.0", "4.1"]` as shown below.
 
 ```
 ["4.0", "4.1"]
 ```
 
-## JSON-Schema für Version zurückgeben {#return-json-schema-version}
+## Return JSON Schema for Version {#return-json-schema-version}
 
-`GET` Eine Methode, die das [!DNL JSON] Schema für die [!UICONTROL DIL] Version zurückgibt. Unterstützt den Alias [!UICONTROL LATEST] für die Version, um die neueste Version von [!UICONTROL DIL]zu erhalten.
+`GET` Eine Methode, die das [!DNL JSON] Schema für die [!UICONTROL DIL] Version zurückgibt. Supports using alias [!UICONTROL LATEST] for version to get the latest version of [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -51,7 +51,7 @@ Eine erfolgreiche Anforderung gibt Antwortcode `["4.0", "4.1"]` wie unten darges
 
 ### Antwort
 
-Eine erfolgreiche Anforderung gibt Antwortcode `["4.0", "4.1"]` und Daten wie unten dargestellt zurück.
+A successful request returns response code `["4.0", "4.1"]` and data as shown below.
 
 ```
 { 
@@ -375,9 +375,9 @@ Eine erfolgreiche Anforderung gibt Antwortcode `["4.0", "4.1"]` und Daten wie un
 } 
 ```
 
-## DIL generieren {#generate-dil}
+## Generate DIL {#generate-dil}
 
-`GET` Eine Methode, die [!UICONTROL DIL] basierend auf der Weiterleitung an den Anforderungstext mithilfe der angegebenen Version erstellt [!UICONTROL DIL]wird. Wenn der Alias `LATEST` für die Version in der URL verwendet wird, wird [!UICONTROL DIL] die aktuelle Version generiert.
+`GET` Eine Methode, die [!UICONTROL DIL] basierend auf der Weiterleitung an den Anforderungstext mithilfe der angegebenen Version erstellt [!UICONTROL DIL]wird. If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -461,4 +461,4 @@ Eine erfolgreiche Anforderung gibt Antwortcode `["4.0", "4.1"]` und Daten wie un
 
 ### Antwort
 
-Ein erfolgreicher Update gibt Antwortcode `201 created` zusammen mit dem [!UICONTROL DIL][!DNL JavaScript] Code zurück.
+A successful update returns response code `201 created` along with the [!UICONTROL DIL] [!DNL JavaScript] code.
