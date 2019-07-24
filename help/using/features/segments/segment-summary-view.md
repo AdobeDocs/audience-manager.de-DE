@@ -11,14 +11,14 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Segmentzusammenfassung {#segment-summary-view}
+# Segment Summary View {#segment-summary-view}
 
-Auf der [!UICONTROL Segment Summary] Seite werden Details wie Name, Eigenschaften im Segment, Leistungsdaten und Zielgruppeninformationen angezeigt.
+The [!UICONTROL Segment Summary] page displays details such as name, traits in the segment, rules performance data, and destination mapping information.
 
 Klicken Sie auf einen Segmentnamen vom Hauptdashboard, um dessen Zusammenfassungsseite aufzurufen. Zu den Übersichtsabschnitten gehören:
 
 1. **[!UICONTROL Basic Information]:** Zeigt erforderliche und optionale Details an, die beim Erstellen des Segments angegeben wurden.
-1. **[!UICONTROL Segment Graph]:** Zeigt Leistungsdaten grafisch und für feste 1, 7, 14, 30, 60, 90 Tag und Segmentlebensdauer grafisch an. Wir erklären Segmentpopulationszahlen in einem [separaten Dokument](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Segment Graph]:** Zeigt Leistungsdaten grafisch und für feste 1, 7, 14, 30, 60, 90 Tag und Segmentlebensdauer grafisch an. We explain segment population numbers in a [separate document](../../features/segments/segment-builder-data.md).
 1. **[!UICONTROL Segment Rules]:** Listet Eigenschaften im Segment zusammen mit Qualifizierungsregeln auf.
 1. **[!UICONTROL Destination Mappings]:** Listet Zielzuordnungen für das Segment auf.
 1. **[!UICONTROL Management Tools]:** Mit diesen Steuerelementen können Sie Segmente erstellen, bearbeiten, klonen und löschen.
