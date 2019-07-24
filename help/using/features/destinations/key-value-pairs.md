@@ -11,11 +11,11 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 ---
 
 
-# Standard- und Serienschlüssel-Wert-Paare {#standard-and-serial-key-value-pairs}
+# Standard and Serial Key-Value Pairs {#standard-and-serial-key-value-pairs}
 
 Ein Schlüssel-Wert-Paar besteht aus verwandten Elementen: Ein Schlüssel, der eine Konstante ist, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis) und einen Wert, der zu dem Satz gehört (z. B. männlich/weiblich, grün, grün, 100). [!UICONTROL Destination Builder] sendet Daten, die als Schlüssel-Wert-Paare formatiert sind.
 
-## Grundlegende Schlüssel-Wert-Paare {#basic-key-value-pairs}
+## Basic Key-Value Pairs {#basic-key-value-pairs}
 
 Vollständig formatiert, könnte ein Basissatz von Schlüssel-Wert-Paar wie folgt aussehen:
 
@@ -23,9 +23,9 @@ Vollständig formatiert, könnte ein Basissatz von Schlüssel-Wert-Paar wie folg
 * `color = green`
 * `price > 100`
 
-## Standard- und Serienschlüssel-Wert-Paare {#standard-serial-key-value-pairs}
+## Standard and Serial Key-Value Pairs {#standard-serial-key-value-pairs}
 
-Ziele akzeptieren wichtige Wertdaten im oder *`standard`**`serialized`* Format.
+Destinations accept key-value data in *`standard`* or *`serialized`* format.
 
 * **Standardschlüssel-/Wertpaare:** Formatiert Zieldaten in separate Schlüssel/Wert-Paare. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren.
 * **Serialisierte Schlüssel-Wert-Paare:** Führt mehrere Werte zu einem einzelnen Schlüssel-Wert-Paar zusammen. In einem serialisierten Schlüssel-Wert-Paar trennt ein Sonderindikator die Werte innerhalb des Schlüsselwertsatzes.
@@ -54,9 +54,9 @@ Sowohl standardmäßige als auch serialisierte Schlüsselwerte können einzelne 
  </tbody>
 </table>
 
-## Trennzeichen und Trennzeichen {#delimiters-separators}
+## Delimiters and Separators {#delimiters-separators}
 
-Die Zeichen, die separate Werte innerhalb und zwischen Schlüssel und Werten trennen, werden als *`delimiters`* und *`separators`*bezeichnet. Diese werden besonders wichtig, wenn Sie Segmente in einem Serienformat an ein Ziel senden. Mit der Serialisierung können Sie mehrere Werte mit einem einzelnen Schlüssel übergeben und Schlüssel-Wert-Paare kombinieren. Trennzeichen und Trennzeichen werden wie folgt definiert:
+The characters that separate values within and between keys and values are known as *`delimiters`* and *`separators`*. Diese werden besonders wichtig, wenn Sie Segmente in einem Serienformat an ein Ziel senden. Mit der Serialisierung können Sie mehrere Werte mit einem einzelnen Schlüssel übergeben und Schlüssel-Wert-Paare kombinieren. Trennzeichen und Trennzeichen werden wie folgt definiert:
 
 * **Schlüsselwerttrennzeichen:** Trennt einen Schlüssel und einen Wert innerhalb eines Schlüssel-Wert-Paars.
 * **Schlüsselwerttrennzeichen:** Trennt Sätze von Schlüssel/Wert-Paaren.
@@ -64,7 +64,7 @@ Die Zeichen, die separate Werte innerhalb und zwischen Schlüssel und Werten tre
 
 ## Beispiele {#examples}
 
-Mit [!UICONTROL Destination Builder] Ihnen können Sie Schlüsselwertdaten auf verschiedene Arten formatieren. Sehen wir uns einige Beispiele für jeden Typ an.
+With [!UICONTROL Destination Builder] you can format key-value data in several different ways. Sehen wir uns einige Beispiele für jeden Typ an.
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
@@ -123,7 +123,7 @@ Mit [!UICONTROL Destination Builder] Ihnen können Sie Schlüsselwertdaten auf v
  </tbody> 
 </table>
 
-## Zielreihenbildung {#destination-serialized}
+## Destination Serialization {#destination-serialized}
 
 Ein serialisiertes Ziel kombiniert mehrere Eigenschaften in einer einzelnen Zeichenfolge und sendet diese Informationen an ein Ziel.
 
@@ -133,4 +133,4 @@ Die serialisierte Datenübertragung verbessert die Effizienz, da mehrere Eigensc
 
 ### Unterstützte Ziele
 
-In können [!DNL Audience Manager]Sie Daten serialisieren und an beliebige Ziele senden, mit denen Sie arbeiten möchten. Bevor Sie diese Funktion verwenden, müssen Sie das Ziel kennen [!DNL URL] und dabei einige erforderliche oder optionale Makros platzieren. Rufen Sie die Informationen zur Makroplatzierung von Ihrem Zielpartner ab. See [Destination Macros Defined](../../features/destinations/destination-macros.md#destination-macros-defined) for more information.
+In [!DNL Audience Manager], you can serialize and send data to just about any destination you want to work with. However, before using this feature, you will need to know the destination [!DNL URL] and where to place some required or optional macros. Rufen Sie die Informationen zur Makroplatzierung von Ihrem Zielpartner ab. See [Destination Macros Defined](../../features/destinations/destination-macros.md#destination-macros-defined) for more information.
