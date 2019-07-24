@@ -11,37 +11,37 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Nicht verwendete Eigenschaften{#top-unused-traits}
+# Top Unused Traits{#top-unused-traits}
 
 Die nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch keine Mitglieder eines Segments sind, basierend auf Eigenschaften, Datenquelle und Leistung.
 
 ## Nutzungsszenario {#use-cases}
 
-Mit dem [!UICONTROL Top Unused Traits] Bericht können Sie die Leistung der Eigenschaften erster und dritter Partei analysieren und vergleichen, die derzeit keinem Segment zugeordnet sind. Diese Ansicht kann auf die besten Eigenschaften hinweisen, die in einem Zielgruppensegment für die Kampagnenoptimierung oder für neue neue Gelegenheiten verwendet werden.
+With the [!UICONTROL Top Unused Traits] report, you can analyze and compare the performance of first and third party traits that are currently not mapped to a segment. Diese Ansicht kann auf die besten Eigenschaften hinweisen, die in einem Zielgruppensegment für die Kampagnenoptimierung oder für neue neue Gelegenheiten verwendet werden.
 
-## Verwenden des Berichts &quot;Bevorzugte Eigenschaften « {#using-the-report}
+## Using the Top Unused Traits Report {#using-the-report}
 
-Verwenden Sie **[!UICONTROL Data Provider Type]** die Steuerelemente, um zwischen Eigenschaften von Erstanbietern und Drittanbietern umzuschalten. Wählen Sie diese Option, um **[!UICONTROL All]** die ersten und dritten Eigenschaften des Berichts zurückzugeben.
+Use the **[!UICONTROL Data Provider Type]** controls to toggle between first party and third party traits. Select **[!UICONTROL All]** to return first and third party traits in the report.
 
-Mit **[!UICONTROL Impressions]** dem Schieberegler können Sie einen minimalen und einen maximalen Wert für zurückgegebene Impressionen auswählen. Alle Eigenschaften, die für weniger oder mehr als die eingestellten Beschränkungen verantwortlich sind, werden nicht im Bericht angezeigt.
+With the **[!UICONTROL Impressions]** slider, you can select a minimum and maximum value for returned impressions. Alle Eigenschaften, die für weniger oder mehr als die eingestellten Beschränkungen verantwortlich sind, werden nicht im Bericht angezeigt.
 
-Verwenden Sie die **[!UICONTROL Day Range]** Steuerelemente und **[!UICONTROL Date Through]** Steuerelemente, um Ihren Look-Back-Bereich anzupassen. Beachten Sie, dass für diesen Bericht nur der 30-Tage-Blickzeitraum zur Verfügung steht.
+Use the **[!UICONTROL Day Range]** and **[!UICONTROL Date Through]** controls to adjust your look-back range. Beachten Sie, dass für diesen Bericht nur der 30-Tage-Blickzeitraum zur Verfügung steht.
 
-Wählen **[!UICONTROL Order]** Sie die Webeigenschaften in Ihrem Portfolio aus, für die Sie Informationen zurückgeben möchten.
+Use the **[!UICONTROL Order]** drop-down box to select the web properties in your portfolio for which you want to return information.
 
-Wählen Sie in der **[!UICONTROL Data Provider]** Dropdown-Liste die Datenquellen aus, die die Eigenschaften enthalten, die im Bericht angezeigt werden sollen.
+In the **[!UICONTROL Data Provider]** drop-down box, select the data sources containing the traits you want to see in the report.
 
-Verwenden Sie die **[!UICONTROL Traits]** Dropdownliste, um auszuwählen, welche Eigenschaften im Bericht angezeigt werden sollen.
+Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to see in the report.
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten hinzufügen, [!UICONTROL Order IDs]wie in Schritt 3 von [DFP-Datendateien in Audience Manager importieren](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft anstelle [!UICONTROL Order] von &quot;und [!UICONTROL Order ID]«ausführt.
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
 
-## Interpretieren der Ergebnisse {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
 **Beispielbericht**
 
-Ihr [!UICONTROL Top Unused Traits] Bericht könnte wie folgt aussehen. Klicken Sie in Ihrem Bericht auf ein Punktdiagramm, um die zugrunde liegenden Daten anzuzeigen.
+Your [!UICONTROL Top Unused Traits] report could look similar to the one below. Klicken Sie in Ihrem Bericht auf ein Punktdiagramm, um die zugrunde liegenden Daten anzuzeigen.
 
 Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
@@ -88,7 +88,7 @@ Die Position Ihrer Eigenschaften in einem Bericht kann Ihnen sehr viel darüber 
 
 Die Eigenschaften, die sich oben auf der Impressions-Achse befinden, sind diejenigen, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Zielgruppe auf Ihrer Webeigenschaft basierend auf Ihren DFP-Daten erreichen.
 
-Auf der linken Seite der [!UICONTROL Unique Trait Realizations] Achse finden Sie hochpräzise Eigenschaften und rechts für Eigenschaften, die eine Skalierung ermöglichen.
+Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
