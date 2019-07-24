@@ -11,15 +11,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Häufig gestellte Fragen zu Kundendaten{#customer-data-feed-faq}
+# Customer Data Feed FAQ{#customer-data-feed-faq}
 
 Häufig gestellte Fragen zu Kundendatenfeeds (CDF).
 
-## Amazon S 3 Storage {#amazon-s3-storage}
+## Amazon S3 Storage {#amazon-s3-storage}
 
 **Wo[!DNL Amazon]befindet sich meine CDF-Datei?**
 
-Ihre CDF-Datei wird im `aam-cdf` Stammordner auf einem [!DNL Amazon S3] Server gespeichert. Dieses Standardpaket [!DNL Audience Manager]wird verwaltet. Siehe auch [Benennungskonventionen für Customer Data Feed](../features/cdf-files.md#cdf-naming-conventions).
+Your CDF file is stored in the `aam-cdf` root directory on an [!DNL Amazon S3] server. This default bucket is managed by [!DNL Audience Manager]. See also [Customer Data Feed File Naming Conventions](../features/cdf-files.md#cdf-naming-conventions).
 
 <br> 
 
@@ -35,21 +35,21 @@ Nein. Es sind keine benutzerdefinierten und alternativen Speicheroptionen verfü
 
 <br> 
 
-**In meinem Verzeichnis fehlt eine Datei für eine bestimmte Stunde. Wo ist es?**
+**In meinem Verzeichnis fehlt eine Datei für eine bestimmte Stunde. Where is it?**
 
-Eine fehlende Datei konnte [!DNL Audience Manager] Ihre CDF-Dateien für diese Stunde nicht verarbeiten. Dies geschieht normalerweise, wenn unsere Server bei der Verarbeitung von CDF-Dateien hinter uns kommen. In diesem Fall geht Ihre Datei nicht verloren. Sie wird in einem späteren stündlichen Verzeichnis angezeigt, nachdem unser System die Möglichkeit haben konnte, sich abzufangen. Siehe auch Benachrichtigungen zur [Verarbeitung von Data Data Feed](../features/cdf-files.md#cdf-file-processing-notifications).
+A missing file means [!DNL Audience Manager] was not able to process your CDF files for that hour. Dies geschieht normalerweise, wenn unsere Server bei der Verarbeitung von CDF-Dateien hinter uns kommen. In diesem Fall geht Ihre Datei nicht verloren. Sie wird in einem späteren stündlichen Verzeichnis angezeigt, nachdem unser System die Möglichkeit haben konnte, sich abzufangen. See also, [Customer Data Feed File Processing Notifications](../features/cdf-files.md#cdf-file-processing-notifications).
 
 <br> 
 
 **Woher weiß ich, wann meine CDF-Dateien bereit sind?**
 
-Siehe [Feed zur Verarbeitung von Datendateidaten für Kunden](../features/cdf-files.md#cdf-file-processing-notifications).
+See [Customer Data Feed File Processing Notifications](../features/cdf-files.md#cdf-file-processing-notifications).
 
 <br> 
 
-## Dateigrößen {#file-sizes}
+## File Sizes {#file-sizes}
 
-**Welche Art von Dateigrößen sollte ich erwarten? Wie groß ist eine durchschnittliche CDF-Datei?**
+**Welche Art von Dateigrößen sollte ich erwarten? How big is an average CDF file?**
 
 Es ist schwierig, Dateigrößen zu schätzen. Außerdem kann jede Datei eine andere Größe haben. Die Größen variieren von Stunde zu Stunde und von Tag zu Tag. Wenn Sie CDF-Dateien erhalten, hilft es Ihnen, eine Vielzahl von Daten zu verwalten.
 
@@ -61,17 +61,17 @@ Auch dies ist schwer zu schätzen. Wenn Sie jedoch CDF-Dateien erhalten, hilft e
 
 <br> 
 
-## Datenintegrität {#data-integrity}
+## Data Integrity {#data-integrity}
 
 **Wie kann ich die Integrität der auf Amazon S 3 hochgeladenen Daten prüfen?**
 
-Dateien mit mehr als 16 mib werden in 16 mib-Blöcke aufgeteilt und in [!DNL Amazon S3] den mehrteiligen Upload hochgeladen.
+Files exceeding 16MiB in size are split into 16MiB chunks and uploaded to [!DNL Amazon S3] using multi-part upload.
 
-[!DNL Amazon] generiert einen `ETag` Wert für mehrteilige Uploads. Zuerst werden die einzelnen MD 5-Prüfsummen jedes hochgeladenen Teils berechnet und anschließend in eine einzelne Zeichenfolge verkettet. Anschließend berechnet sie die MD 5-Prüfsumme der Zeichenfolge. Die resultierende Prüfsumme (die `ETag`) wird dann mit einem Bindestrich und der Gesamtanzahl der zum Hochladen verwendeten Teile angehängt. So könnte z. B. die Datei `ETag` für eine Datei, die während des Uploads in 5 Teile aufgeteilt wurde, wie folgt aussehen: `2c51427d19021e88cf3395365895b6d4-5`
+[!DNL Amazon] generiert einen `ETag` Wert für mehrteilige Uploads. Zuerst werden die einzelnen MD 5-Prüfsummen jedes hochgeladenen Teils berechnet und anschließend in eine einzelne Zeichenfolge verkettet. Anschließend berechnet sie die MD 5-Prüfsumme der Zeichenfolge. The resulting checksum (the `ETag`) is then appended with a hyphen and the total number of parts used for upload. For instance, the `ETag` for a file that was split into 5 parts during upload could look something like this: `2c51427d19021e88cf3395365895b6d4-5`
 
 <br> 
 
-## Datenaufbewahrung {#data-retension}
+## Data Retention {#data-retension}
 
 **Wie lange speichern Sie CDF-Dateien?**
 
