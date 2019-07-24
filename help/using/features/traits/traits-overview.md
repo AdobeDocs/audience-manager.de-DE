@@ -11,7 +11,7 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 ---
 
 
-# Übersicht über Eigenschaften {#traits-overview}
+# Traits Overview {#traits-overview}
 
 Verwalten Sie die Datenerfassung und die Erstellung von Zielgruppen mit regelbasierten, archivierten, algorithmischen oder Ordnereigenschaften. Lesen Sie die unten verknüpften Seiten, um mit Eigenschaften zu beginnen:
 
