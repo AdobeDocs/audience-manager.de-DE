@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Häufig gestellte Fragen zu API{#api-faq}
+# API FAQ{#api-faq}
 
 Allgemeine API-Fragen und Probleme.
 
@@ -21,28 +21,28 @@ faq_api.xml
 
  -->
 
-Die [REST-API](../api/rest-api-main/rest-api-main.md) -Dokumentation enthält Details zu spezifischen Methoden und Codebeispielen.
+The [REST API](../api/rest-api-main/rest-api-main.md) documentation contains details about specific methods and code samples.
 
 <br> 
 
 **Warum[!UICONTROL DIL]werden Ereignisaufrufe und[!UICONTROL GET][!UICONTROL POST]-methoden vorgenommen?**
 
-[!UICONTROL DIL] gibt Daten an eine [!DNL Audience Manager]`GET` oder `POST` eine Methode basierend auf der Länge der Abfragezeichenfolge des Ereignisaufrufs weiter. Dieses Verhalten ist standardmäßig `GET``POST` in der Standardeinstellung integriert. Es ist nicht spezifisch für [!DNL Audience Manager].
+[!UICONTROL DIL] gibt Daten an eine [!DNL Audience Manager]`GET` oder `POST` eine Methode basierend auf der Länge der Abfragezeichenfolge des Ereignisaufrufs weiter. This behavior is built in to `GET` and `POST` methods by default. It is not specific to [!DNL Audience Manager].
 
-* [!UICONTROL DIL] führt Ereignisaufrufe durch, wenn `GET` eine URL 2048 Zeichen oder weniger enthält. Ein `GET` Ereignisaufruf enthält Daten in der URL als Abfragezeichenfolgenparameter, die als Schlüssel-Wert-Paare übergeben werden.
+* [!UICONTROL DIL] führt Ereignisaufrufe durch, wenn `GET` eine URL 2048 Zeichen oder weniger enthält. A `GET` event call includes data in the URL as query string parameters, which are passed in as key-value pairs.
 
-* [!UICONTROL DIL] führt Ereignisaufrufe durch, wenn `POST` eine URL mehr als 2048 Zeichen enthält. Ein `POST` Ereignisaufruf enthält Daten im Textkörper der Anforderung. [!UICONTROL DIL] Daten in Schlüssel-Wert-Paare platziert und Informationen als Formulardaten übergibt und nicht in der URL-Abfragezeichenfolge.
+* [!UICONTROL DIL] führt Ereignisaufrufe durch, wenn `POST` eine URL mehr als 2048 Zeichen enthält. A `POST` event call includes data in the body of the request. [!UICONTROL DIL] Daten in Schlüssel-Wert-Paare platziert und Informationen als Formulardaten übergibt und nicht in der URL-Abfragezeichenfolge.
 
-Obwohl jede Methode Daten auf eine andere Weise weiterleitet, wirkt sich dies nicht auf Funktionalität aus. Bei beiden Methoden werden beispielsweise [!DNL Audience Manager] weiterhin Daten an die Ziele gesendet, ID-Synchronisierungen funktionieren normal und Sie können Eigenschaften aus Datensignalen erstellen.
+Obwohl jede Methode Daten auf eine andere Weise weiterleitet, wirkt sich dies nicht auf Funktionalität aus. For example, with either method, [!DNL Audience Manager] still sends data to destinations, ID syncs works normally, and you can create traits from data signals.
 
 <br> 
 
 **Was kann[!UICONTROL REST API]ich tun?**
 
-Mit den [!UICONTROL REST API]s können Sie programmgesteuert mit den meisten [!DNL Audience Manager] Funktionen und Funktionen arbeiten, die in der Benutzeroberfläche verfügbar sind.
+The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audience Manager] features and functions that are available in the user interface.
 
 <br> 
 
 **Wie erhalte ich eine[!UICONTROL REST API]Client-ID und einen geheimen Schlüssel?**
 
-Wenden Sie sich an Ihren Partner-Lösungsvertreter, um [!DNL API] Zugriffsberechtigungen zu erhalten. Unsere apis verwenden [oauth 2.0](https://oauth.net/2/) -Standards für die Token-Authentifizierung, Autorisierung und Verlängerung. Weitere Informationen finden Sie unter [oauth-Authentifizierung](../api/rest-api-main/aam-api-getting-started.md#oauth) .
+Contact your Partner Solutions representative to obtain [!DNL API] access credentials. Our APIs use [OAuth 2.0](https://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../api/rest-api-main/aam-api-getting-started.md#oauth) for more information.
