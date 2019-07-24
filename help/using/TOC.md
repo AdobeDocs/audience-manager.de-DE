@@ -9,18 +9,18 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 ---
 
 
-# Audience Manager Benutzerhandbuch {#user-guide}
+# Audience Manager User Guide {#user-guide}
 
 + [Audience Manager-Produktdokumentation](aam-home.md)
 + Überblick{#overview}
    + [Audience Manager - Übersicht](overview/aam-overview.md)
    + [Datenerfassung](overview/data-types-collected.md)
-   + Datensicherheit und Datenschutz {#data-security-and-privacy}
+   + Data Security and Privacy {#data-security-and-privacy}
       + [Übersicht](overview/data-security-and-privacy/data-security-privacy-overview.md)
       + [Datensicherheit](overview/data-security-and-privacy/data-security.md)
       + [Datenschutz](overview/data-security-and-privacy/data-privacy.md)
       + [Ausschluss-Management](overview/data-security-and-privacy/opt-out-management.md)
-   + Allgemeine Datenschutzregel (GDPR){#gdpr}
+   + General Data Protection Regulation (GDPR){#gdpr}
       + [DSGVO im Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
       + [GDPR-Überlegungen für Ziele](overview/aam-gdpr/aam-gdpr-partners.md)
       + [Häufig gestellte Fragen zur DSGVO](overview/aam-gdpr/aam-gdpr-faq.md)
@@ -32,7 +32,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [Kontoeinstellungen bearbeiten](features/administration/edit-account-settings.md)
       + [Verschleierung von IP-Adressen](features/administration/ip-obfuscation.md)
       + [Nutzungsbeschränkungen](features/administration/usage-limits.md)
-   + Algorithmische Modelle{#algorithmic-models}
+   + Algorithmic Models{#algorithmic-models}
       + [Algorithmische Modelle](features/algorithmic-models/understanding-models.md)
       + [Erstellen eines algorithmischen Modells](features/algorithmic-models/create-model.md)
       + [Algorithmische Modelle: Eigenschaftenausschluss](features/algorithmic-models/trait-exclusion-algo-models.md)
@@ -45,11 +45,11 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [Audience Lab Advanced Feature](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + Audience Marketplace für Datenanbieter{#audience-marketplace-for-data-providers}
+      + Audience Marketplace for Data Providers{#audience-marketplace-for-data-providers}
          + [Audience Marketplace für Datenanbieter](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Erstellen, Preis und Verwalten von Datenfeeds](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
          + [Rechnungsstellung für Datenfeed-Anbieter](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
-      + Audience Marketplace für Datenkäufer{#audience-marketplace-for-data-buyers}
+      + Audience Marketplace for Data Buyers{#audience-marketplace-for-data-buyers}
          + [Audience Marketplace für Datenkäufer](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
          + [Datenfeed-Abonnements verwalten](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [Rechnungsstellung für Datenfeed-Käufer](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
@@ -59,7 +59,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [Data Explorer - Überblick, Vorteile und Verwendungsfälle](features/data-explorer/data-explorer-overview.md)
       + [Erläuterungen zu Signalen](features/data-explorer/data-explorer-understanding-signals.md)
       + [Signales Dashboard](features/data-explorer/data-explorer-signals-dashboard.md)
-      + Signalsuche{#signals-search}
+      + Signals Search{#signals-search}
          + [Suchübersicht signalisieren](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [Suchsignale nach Schlüssel-Wert-Paaren](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [Suchsignale nach Filtern suchen](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
@@ -84,7 +84,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [get_ aamcookie-Code](features/destinations/get-aam-cookie-code.md)
       + [Analytics-Ziel konfigurieren](/help/using/features/destinations/create-analytics-destination.md)
       + [Audience Manager Technology Partners](/help/using/features/destinations/audience-manager-technology-partners.md)
-   + Regeln für die Profilzusammenführung{#profile-merge-rules}
+   + Profile Merge Rules{#profile-merge-rules}
       + [Übersicht über die Profilzusammenführung](features/profile-merge-rules/merge-rules-overview.md)
       + [Erste Schritte mit Profilzusammenführungsregeln](features/profile-merge-rules/merge-rules-start.md)
       + [Dashboard für Profilzusammenführung](features/profile-merge-rules/merge-rules-dashboard.md)
@@ -138,9 +138,9 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [Dashboard für Berichte](reporting/reports-dashboard.md)
    + [Allgemeine Berichte](reporting/general-reports.md)
    + [Trendberichte](reporting/trend-reports.md)
-   + Zielgruppenoptimierungsberichte {#audience-optimization-reports}
+   + Audience Optimization Reports {#audience-optimization-reports}
       + [Zielgruppenoptimierungsberichte](reporting/audience-optimization-reports/audience-optimization-reports.md)
-      + Zielgruppenoptimierung für Advertiser {#audience-optimization-advertisers}
+      + Audience Optimization for Advertisers {#audience-optimization-advertisers}
          + [Zielgruppenoptimierung für Advertiser - Überblick](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
          + [DCM-Datendateien in Audience Manager importieren](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Segmentleistungsbericht](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
@@ -158,7 +158,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [Anzeigenüberlappung](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [Segment auf Anzeigenüberlappung](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [Eindeutige Benutzerreichweite](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-      + Daten- und Metadatendateien für Zielgruppenoptimierungsberichte {#data-and-metadata-files}
+      + Data and Metadata Files for Audience Optimization Reports {#data-and-metadata-files}
          + [Daten- und Metadatendateien für Zielgruppenoptimierungsberichte](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
          + [Datendateien für Zielgruppenoptimierungsberichte](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [Übersicht und Zuordnungen für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
@@ -167,7 +167,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [Auslieferungsmethoden für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
          + [Statusaktualisierungen für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
       + [Bericht zu täglichen Eigenschaften](reporting/audience-optimization-reports/daily-trait-variation-report.md)
-   + Interaktive und Überlappungsberichte {#interactive-and-overlap-reports}
+   + Interactive and Overlap Reports {#interactive-and-overlap-reports}
       + [Übersicht über interaktive und überlappende Berichte](reporting/dynamic-reports/dynamic-reports.md)
       + [Bereitstellung und Leistungsbericht](reporting/dynamic-reports/delivery-performance-report.md)
       + [Überschneidungsbericht zwischen Eigenschaften](reporting/dynamic-reports/trait-trait-overlap-report.md)
@@ -183,21 +183,21 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [Ausgehender Dateiverlauf](reporting/outbound-history-report.md)
    + [Zählung individueller Benutzer in Überlappung und allgemeine Berichte](reporting/unique-user-counts.md)
    + [Datenstichproben und Fehlersätze in ausgewählten Audience Manager-Berichten](reporting/report-sampling.md)
-+ API und SDK-Code{#api-and-sdk-code}
++ API and SDK Code{#api-and-sdk-code}
    + [Übersicht über API und SDK-Code](api/api.md)
    + [Migration von Audience Manager-API-Code](api/api-swagger-migration.md)
-   + API-Methoden und -code für Datenerfassungsserver (DCS){#dcs}
+   + Data Collection Server (DCS) API Methods and Code{#dcs}
       + [DCS-API-Methoden und -code](api/dcs-intro/dcs-intro.md)
-      + DCS-Ereignisaufrufe{#dcs-event-calls}
+      + DCS Event Calls{#dcs-event-calls}
          + [DCS-Ereignisaufruf-apis](api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
          + [Daten an den DCS senden](api/dcs-intro/dcs-event-calls/dcs-url-send.md)
          + [Daten aus dem DCS empfangen](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
-      + DCS-apis{#dcs-apis}
+      + DCS APIs{#dcs-apis}
          + [DCS apis für Server-zu-Server-Datenübertragungen](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
          + [Abrufen von Benutzer-IDs und Regionen über den Experience Cloud ID-Dienst](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [Server-zu-Server-DCS API-Aufrufe erstellen](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
-      + DCS-API-Referenz{#dcs-api-reference}
+      + DCS API Reference{#dcs-api-reference}
          + [Übersicht über die DCS-API](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS-API-Methoden](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS-Fehlercodes, Nachrichten und Beispiele](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
@@ -213,7 +213,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [Data Integration Library API-Methoden](api/rest-api-main/aam-api-dil-methods.md)
       + [API-Methoden für Datenquellen](api/rest-api-main/aam-api-data-sources.md)
       + [API-Methoden für abgeleitete Signale](api/rest-api-main/aam-api-derived-signals.md)
-      + Ziel-API-Methoden{#destination-api-methods}
+      + Destination API Methods{#destination-api-methods}
          + [Ziel-API-Methoden - Übersicht](api/rest-api-main/aam-api-destinations/aam-api-destinations.md)
          + [Ziele erstellen](api/rest-api-main/aam-api-destinations/aam-api-create-destinations.md)
          + [Segmente einem Ziel zuordnen](api/rest-api-main/aam-api-destinations/aam-api-map-segments.md)
@@ -225,15 +225,15 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [Taxonomic API-Methoden](api/rest-api-main/aam-api-taxonomy.md)
       + [Eigenschaften-API-Methoden](api/rest-api-main/api-traits.md)
       + [Eigenschaftstypmethoden](api/rest-api-main/aam-api-trait-type.md)
-      + API-Methoden für Benutzer-, Gruppen- und Berechtigungen{#user-group-permissions}
+      + User, Group, and Permissions Management API Methods{#user-group-permissions}
          + [User Management-API-Methoden](api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)
          + [Gruppenverwaltungs-API-Methoden](api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)
          + [Zugriffssteuerungsungs-API-Methoden](api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
       + [API-Methoden für die DCS-Region](api/rest-api-main/aam-api-dcs-regions.md)
    + [SDK-Code](api/aam-sdk.md)
-+ DIL (Data Integration Library)-API{#dil-api}
++ Data Integration Library (DIL) API{#dil-api}
    + [Grundlegendes zur Data Integration Library (DIL)](dil/dil-overview.md)
-   + DIL-Methoden auf Klassenebene{#class-level-dil-methods}
+   + Class-level DIL Methods{#class-level-dil-methods}
       + [Erste Schritte mit DIL-APIS auf Klassenebene](dil/dil-class-overview/dil-start.md)
       + [DIL create](dil/dil-class-overview/dil-create.md)
       + [Getdil](dil/dil-class-overview/dil-get-instance.md)
@@ -246,48 +246,48 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [DIL-Anwendungsfälle und Codebeispiele](dil/dil-use-cases.md)
    + [Flash DIL](dil/dil-flash.md)
    + [DIL-Versionshinweise](/help/using/dil/dil-release-notes.md)
-+ Implementierungs- und Integrationsanleitungen{#implemenation-integration-guides}
++ Implementation and Integration Guides{#implemenation-integration-guides}
    + [Implementierungs- und Integrationsanleitungen](integration/implementation-and-integration.md)
    + [Datenintegrationsmethoden](integration/data-integration-methods.md)
-   + DFP mit Google Publisher Tags (GPT) integrieren{#integrate-dfp-using-gpt}
+   + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
       + [DFP mit GPT-Übersicht integrieren](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Senden von Segmenten an DFP mithilfe von GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Erstellen eines GPT-Ziels](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Ändern des GPT settargeting-API-Aufrufs](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Audience Manager-Code für Google Publisher Tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
-   + Integration mit Drittanbieterzielen {#integrating-third-party}
+   + Integrating with Third-Party Destinations {#integrating-third-party}
       + [Facebook WCA-Integration](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS als Zielgruppen-Manager-Ziel](integration/integrating-third-party/open-ad-server-destination.md)
       + [Openx als Zielgruppen-Manager-Ziel](integration/integrating-third-party/openx-destination.md)
       + [DFP als Zielgruppen-Manager-Ziel](integration/aam-dfp.md)
       + [Senden von Segmenten an eine Google adwords-Remarketing-Liste](integration/integrating-third-party/rlsa-integration.md)
    + [Implementieren von Audience Manager](integration/implement-audience-manager.md)
-   + Mediendatenintegration{#media-data-integration}
+   + Media Data Integration{#media-data-integration}
       + [Übersicht über die Mediendatenintegration](integration/media-data-integration/media-data-integration.md)
       + [Actionable Log Files](integration/media-data-integration/actionable-log-files.md)
       + [Erfassen von Kampagnenimpressionsdaten über Pixelabrufe](integration/media-data-integration/impression-data-pixels.md)
       + [Erfassen von Kampagnenklickdaten über Pixelaufrufe](integration/media-data-integration/click-data-pixels.md)
-   + Empfangen von Zielgruppendaten{#receiving-audience-data}
+   + Receiving Audience Data{#receiving-audience-data}
       + [Übersicht über die Zielgruppendaten](integration/receiving-audience-data/receiving-audience-data-overview.md)
       + [ID-Synchronisierung für ausgehende Datenübertragungen](integration/receiving-audience-data/id-sync-outbound.md)
-      + Echtzeit-Datenübertragungen in Echtzeit{#real-time-outbound-transfers}
+      + Real-Time Outbound Data Transfers{#real-time-outbound-transfers}
          + [Echtzeit-Datenübertragungen in Echtzeit](integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)
          + [Digital signierte HTTP-Anforderungen](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
          + [Oauth 2.0-Integration für Echtzeit-Ausgehende Übertragungen](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
-      + Batch-Ausgehende Datenübertragungen{#batch-outbound-data-transfers}
+      + Batch Outbound Data Transfers{#batch-outbound-data-transfers}
          + [Übersicht über Batch-Ausgehende Datenübertragungen](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
          + [Ausgehender Datendateiname: Syntax und Beispiele](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [Übertragungssteuerdateien für Protokolldateiübertragungen](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [Ausgehende Vorlagenmakros](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [Beispiele für ausgehende Makros](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
          + [Nutzen Sie die kontoübergreifenden Bucket-Zugriffsrechte von Amazon S3 für Ihre ausgehenden Dateien](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
-   + Senden von Zielgruppendaten{#sending-audience-data}
+   + Sending Audience Data{#sending-audience-data}
       + [Senden von Zielgruppendaten](integration/sending-audience-data/send-audience-data.md)
-      + Echtzeit-Datenintegration in Echtzeit {#real-time-inbound-data-integration}
+      + Real-Time Inbound Data Integration {#real-time-inbound-data-integration}
          + [Technische Spezifikationen für Inbound, Echtzeit-Datenübertragungen](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
          + [Pixelbasierte Datenübertragungen](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
          + [Erfassung von Inbound-Daten in Echtzeit](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
-      + Batch-Datenübertragungsprozess{#batch-data-transfer-process}
+      + Batch Data Transfer Process{#batch-data-transfer-process}
          + [Batch-Datenübertragungsprozess beschrieben](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
          + [Stapeldaten an den Audience Manager-Überblick senden](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [ID-Synchronisierung für eingehende Datenübertragungen](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
@@ -299,7 +299,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [Dateikomprimierung für Dateien mit Inbound-Datenübertragung](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Beispielnachricht für Partner nach der eingehenden Verarbeitung](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Benutzerspezifische Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
-   + Integration mit anderen Experience Cloud-Lösungen {#integration-other-solutions}
+   + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
       + [Integration von Audience Manager in Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implementieren des Zielgruppen-Management-Moduls](integration/integration-other-solutions/audience-management-module.md)
       + [Serverseitige Weiterleitung (Administratorhandbuch)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
@@ -310,7 +310,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [Anwendungsfälle für Herausgeber](reference/publisher-use-cases.md)
    + [Beta-Umgebung](reference/beta-environment.md)
    + [Boolesche Ausdrücke in Eigenschaften und Segmentaufbau](reference/boolean-expressions-tsb.md)
-   + Massenverwaltungswerkzeuge{#bulk-management-tools}
+   + Bulk Management Tools{#bulk-management-tools}
       + [Erste Schritte mit Massenverwaltung](reference/bulk-management-tools/bulk-management-intro.md)
       + [Massenanforderungen](reference/bulk-management-tools/bulk-requests.md)
       + [Massenaktualisierungen](reference/bulk-management-tools/bulk-updates.md)
@@ -328,7 +328,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [Kennwortanforderungen, gesperrte Konten und vergessene Passwörter](reference/password-requirements.md)
    + [Signale, Eigenschaften und Segmente](reference/signal-trait-segment.md)
    + [Unterstützte Browser](reference/supported-browsers.md)
-   + Systemkomponenten{#system-components}
+   + System Components{#system-components}
       + [Übersicht über Systemkomponenten](reference/system-components/components-overview.md)
       + [Wichtige Komponenten im Audience Manager-System](reference/system-components/components-stack.md)
       + [Datenaktionskomponenten](reference/system-components/components-data-action.md)
@@ -353,7 +353,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [Regeln für die Profilzusammenführung und häufig gestellte Fragen zum Gerätediagramm](faq/faq-profile-merge.md)
    + [Häufig gestellte Fragen zum Targeting](faq/faq-targeting.md)
    + [Häufig gestellte Fragen zum Reporting](faq/faq-reporting.md)
-+ Hilfe und rechtliche Hinweise{#help-and-legal}
++ Help and Legal{#help-and-legal}
    + [Übersicht](/help/using/help-legal/help-legal-overview.md)
    + [Bei Auftreten eines Problems](/help/using/help-legal/help-problem.md)
    + [Kontakt und rechtliche Informationen](/help/using/help-legal/help-legal-contact.md)
