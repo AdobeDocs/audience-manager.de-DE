@@ -11,11 +11,11 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 ---
 
 
-# Ausschluss-Management{#opt-out-management}
+# Opt-out Management{#opt-out-management}
 
 Adobe erfüllt alle branchenweiten Standards hinsichtlich der Abmeldeverwaltung. Lesen Sie die Informationen zu den vom Audience Manager unterstützten Abmeldetypen.
 
-## Globale Abmeldung {#global-opt-out}
+## Global Opt-Out {#global-opt-out}
 
 Das globale Opt-out stellt eine Abmeldung aus Audience Manager und anderen Adobe Experience Cloud-Lösungen für alle Marken dar. In der folgenden Tabelle sind die Methoden aufgeführt, die für die globale Abmeldefunktion verwendet werden:
 
@@ -29,11 +29,11 @@ Das globale Opt-out stellt eine Abmeldung aus Audience Manager und anderen Adobe
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p>Auf der <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Seite </a> "Ihre Datenschutzeinstellungen" finden Sie 1 Klick-Funktionen, mit denen Ihre Endbenutzer die Datenerfassung durch die Adobe Experience Cloud-Werbelösungen (einschließlich Audience Manager) steuern und ausschließen können. Informationen dazu finden Sie im <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Abschnitt Geschäftskunden </a> auf der Seite Datenschutzeinstellungen. </p> </td> 
+   <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page </a> provides 1-click features that let your end users control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section </a> of the Privacy Choices page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Direct API-Aufrufe an Audience Manager </p> </td> 
-   <td colname="col2"> <p>Sie können die Datenerfassung von allen Audience Manager-Marken abmelden, indem Sie unten einen Aufruf an die DCS-API durchführen und die <a href="../../reference/ids-in-aam.md"> Audience Manager-Benutzer-ID </a>einbinden: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" —cookie "demdex = 12345678901234567890123456789012345678; dextp = 12; DST = 12 " </code> </p> <p>Daher setzen wir die Cookies <code>demdex = NOTARGET</code> und <code>dextp = NOTARGET</code> für die gesendete Audience Manager-Benutzer-ID ein. </p> </td> 
+   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" —cookie "demdex = 12345678901234567890123456789012345678; dextp = 12; DST = 12 " </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobilgeräte </p> </td> 
@@ -56,15 +56,15 @@ Befolgen Sie die oben beschriebenen Abmeldeanforderungen:
 * Der Audience Manager stoppt alle Datensammlungen, Segmentierung oder Aktivierung.
 * Historische Daten werden nach 120 Tagen aus dem Benutzerprofil entfernt.
 
-## Ausschluss auf Partnerebene {#partner-opt-out}
+## Partner Level Opt-Out {#partner-opt-out}
 
-Das Opt-out auf Partnerebene ermöglicht die Abmeldung von der Datenerfassung durch bestimmte Audience Manager-Partner. Die Abmeldung auf Partnerebene funktioniert mit [deklarierten ID](../../features/declared-ids.md) -Aufrufen und Geräte-ID-Aufrufen, wie in den folgenden Abschnitten beschrieben.
+Das Opt-out auf Partnerebene ermöglicht die Abmeldung von der Datenerfassung durch bestimmte Audience Manager-Partner. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls and Device ID calls, as described in the sections below.
 
 ### Ausschluss auf Partnerebene mit deklarierten ID-Aufrufen
 
 Auf Partnerebene mit einem deklarierten ID-Aufruf folgen:
 
-* Die mit der CRM-ID verknüpfte letzte Geräte-ID ([Unique User ID](../../reference/ids-in-aam.md)für Audience [Manager)](../../reference/ids-in-aam.md) wird aus der Datenerfassung abgemeldet.
+* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
 * Audience Manager stoppt alle Datensammlungen, Segmentierungen oder Aktivierungen, die für die letzte Geräte-ID, die mit der CRM-ID verknüpft ist, vorwärtsgesetzt werden.
 * Es werden keine historischen Daten gelöscht.
 
@@ -72,7 +72,7 @@ Auf Partnerebene mit einem deklarierten ID-Aufruf folgen:
 
 **Abmeldeaufrufe**
 
-Wenn Audience Manager eine Abmeldeanfrage auf Partner-Ebene empfängt, enthält der vom DCS zurückgegebene JSON den [Fehlercode 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), mit der Meldung [!UICONTROL "Encountered opt out tag"]anstelle der Benutzer-ID des Audience Manager.
+When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
 
 <!-- 
 
@@ -94,11 +94,11 @@ Wenn Audience Manager eine Abmeldeanfrage auf Partner-Ebene empfängt, enthält 
 
 **Beispiele**
 
-Sie können eine deklarierte ID-Ausschluss-Anforderung mit den `d_cid` Schlüsselwertpaaren erstellen `d_cid_ic` . Die alten Parameter wie `d_dpid` und `d_dpuuid` funktionieren weiterhin, werden aber als veraltet betrachtet. Siehe [CID ersetzt DPID und DPUUID](../../reference/cid.md). In den Beispielen gibt *kursiv einen* Variablenplatzhalter an.
+You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. Siehe [CID ersetzt DPID und DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
 **Ausschlussmöglichkeiten mit CID und CID_ IC**
 
-Eine Beschreibung und eine Syntax finden Sie unter [URL-Variablen und Syntax für deklarierte IDs](../../features/declared-ids.md#variables-and-syntax).
+For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#variables-and-syntax).
 
 | Ausschluss mit | Codebeispiel |
 |--- |--- |
@@ -108,14 +108,14 @@ Eine Beschreibung und eine Syntax finden Sie unter [URL-Variablen und Syntax fü
 
 ### Ausschluss auf Partnerebene mit Geräte-ID-Aufrufen
 
-Sie können die Datenerfassung für eine bestimmte Geräte-ID für eine Marke abwählen, indem Sie die folgenden Aufrufe an die [DCS-API durchführen](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
+You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
 
 | Ausschluss mit | Codebeispiel |
 |--- |--- |
-| Eine eindeutige Benutzer-ID für Audience Manager (`uuid`). | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
-| Eine Experience Cloud ID (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
+| An Audience Manager Unique User ID (`uuid`). | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
+| An Experience Cloud ID (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
-Lesen Sie mehr darüber `uuid`und `mid``imsOrgId` im [Index von IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
+Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
 
 Befolgen einer Abmeldeoption auf Partnerebene mit einem Geräte-ID-Aufruf:
 
