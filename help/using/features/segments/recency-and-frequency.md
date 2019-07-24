@@ -82,13 +82,13 @@ Prüfen und verstehen Sie diese Beschränkungen und Regeln, wenn Sie Neuigkeit u
 
 Zum Zwischenspeichern von Ausdrücken zählen alle Benutzer, deren Anzahl der Eigenschaften unter dem gewünschten Wert liegt. Beispiele:
 
-* The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID &quot;1000&quot; a maximum of five times, including users who have not realized the trait.
+* The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times, including users who have not realized the trait.
 * When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an `AND` operator. Using the example above, this expression becomes valid when joined with another trait as shown here: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
 
-* For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. Dieser Ausdruck enthält alle Benutzer, die die Eigenschaft mit der ID &quot;1000&quot; in den letzten 2 Tagen mindestens fünfmal lokalisiert haben. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
+* For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. Dieser Ausdruck enthält alle Benutzer, die die Eigenschaft mit der ID "1000" in den letzten 2 Tagen mindestens fünfmal lokalisiert haben. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Steuerelemente für Segmentaufbau: Abschnitt &quot;Eigenschaften «](../../features/segments/segment-builder.md#segment-builder-controls-traits)
+>* [Steuerelemente für Segmentaufbau: Abschnitt "Eigenschaften «](../../features/segments/segment-builder.md#segment-builder-controls-traits)
 >* [Im Editor für den Segmentausdruck verwendete Code-Syntax](../../features/segments/segment-code-syntax.md)
 
