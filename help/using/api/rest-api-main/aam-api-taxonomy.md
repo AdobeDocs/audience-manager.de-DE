@@ -11,7 +11,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Taxonomic API-Methoden {#taxonomic-api-methods}
+# Taxonomic API Methods {#taxonomic-api-methods}
 
 Methoden, mit denen Sie die allgemeine Taxonomie von Audience Manager anzeigen können. Durch dieses optionale Classification-Schema werden Eigenschaften in branchenübliche Kategorien organisiert.
 
@@ -19,11 +19,11 @@ Methoden, mit denen Sie die allgemeine Taxonomie von Audience Manager anzeigen k
 
 >[!NOTE]
 >
->Sie können keine neuen taxonomischen Kategorien erstellen oder Eigenschaften mit diesen Methoden klassifizieren. Um eine Eigenschaft zu klassifizieren, geben Sie die entsprechende Eigenschaft `categoryId` mit einer Eigenschaft für das Erstellen oder Aktualisieren an.
+>Sie können keine neuen taxonomischen Kategorien erstellen oder Eigenschaften mit diesen Methoden klassifizieren. To classify a trait, specify the appropriate `categoryId` with a trait create or update method.
 
-## Geben Sie eine spezifische Taxonomie zurück. {#return-specific-taxonomy}
+## Return a Specific Taxonomy {#return-specific-taxonomy}
 
-Eine `GET` Methode, die Details über die angegebene Taxonomische Kategorie zurückgibt.
+A `GET` method that returns details about the specified taxonomic category.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -33,7 +33,7 @@ Eine `GET` Methode, die Details über die angegebene Taxonomische Kategorie zur�
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID an. Eine nicht erfolgreiche Anforderung gibt zurück, `404 No Content` wenn die ID nicht vorhanden ist.
+A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist.
 
 ```
 {
@@ -46,7 +46,7 @@ Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID
 }
 ```
 
-## Alle Taxonomischen Kategorien zurückgeben {#return-all-taxonomy-categories}
+## Return all Taxonomic Categories {#return-all-taxonomy-categories}
 
 `GET` Eine Methode, die eine Liste der Kategorien der obersten Ebene in einem Array zurückgibt.
 
@@ -89,9 +89,9 @@ Abgeschnitten.
 ]
 ```
 
-## Rückkehrende Taxonomische Unterkategorien {#return-taxonomy-sub-categories}
+## Return Taxonomic Sub-Categories {#return-taxonomy-sub-categories}
 
-Eine `GET` Methode, die Unterkategorien für die angegebene übergeordnete Kategorie in einem Array zurückgibt.
+A `GET` method that returns sub-categories for the specified parent category in an array.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -101,7 +101,7 @@ Eine `GET` Methode, die Unterkategorien für die angegebene übergeordnete Kateg
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID an. Eine nicht erfolgreiche Anforderung gibt zurück, `404 No Content` wenn die ID nicht vorhanden ist. Abgeschnitten.
+A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist. Abgeschnitten.
 
 ```
 [
