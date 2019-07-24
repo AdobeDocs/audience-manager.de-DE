@@ -13,7 +13,7 @@ source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
 
 # DIL-Werkzeuge
 
-Beschreibt Methoden im `DIL.tools` Namespace. Diese Dienstprogrammfunktionen helfen Ihnen bei der Durchführung bestimmter Aufgaben.
+Describes methods in the `DIL.tools` namespace. Diese Dienstprogrammfunktionen helfen Ihnen bei der Durchführung bestimmter Aufgaben.
 
 <!-- 
 
@@ -31,13 +31,13 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Zweck von `getSearchReferrer`
+### Purpose of `getSearchReferrer`
 
-Gibt in DIL Suchergebnisse (Namen und Schlüsselwörter) `getSearchReferrer` zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können spezifische Suchbegriffe an diese Funktion weitergeben oder die unterstützten Suchmaschinen ( [!DNL AOL][!DNL Ask][!DNL Bing], [!DNL Google]und [!DNL Yahoo]) `document.referrer` standardmäßig durchsuchen.
+In DIL, `getSearchReferrer` returns search results (names and key words) used to reach your site. You can pass in specific search terms to this function or let it search the supported search engines ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], and [!DNL Yahoo]) against `document.referrer` by default.
 
 ### Funktionssignatur
 
-Funktionssignatur: `DIL.tools.getSearchReferrer(uri, initConfig)`
+Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 ### Funktionsparameter
 
@@ -110,7 +110,7 @@ Und gibt Folgendes zurück:
 
 ## Decomposeuri
 
-Entpackt einen einheitlichen Ressourcenbezeichner ( [!DNL URI]) in seine Komponenten: `hash``host``href``pathname``protocol`, `search`und `[!DNL uriParams]`.
+Disassembles a Uniform Resource Identifier ( [!DNL URI]) into its constituent components: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, and `[!DNL uriParams]`.
 
 <!-- 
 
@@ -118,13 +118,13 @@ r_dil_decompose.xml
 
  -->
 
-Funktionssignatur: `DIL.tools.decomposeURI`
+Function signature: `DIL.tools.decomposeURI`
 
 ### Funktionsparameter
 
 `decomposeURI` akzeptiert:
 
-* *`uri {string}`*: *(Optional)* Eine Zeichenfolge, die den URI enthält. Wird standardmäßig `document.location.href` nicht angegeben.
+* *`uri {string}`*: *(Optional)* Eine Zeichenfolge, die den URI enthält. Defaults to `document.location.href` if not specified.
 
 Und gibt Folgendes zurück:
 
@@ -162,7 +162,7 @@ r_dil_get_metatags.xml
 
 ### Funktionssignatur
 
-Funktionssignatur: `DIL.tools.getMetaTags( 1 or more parameters)`
+Function signature: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Funktionsparameter
 
