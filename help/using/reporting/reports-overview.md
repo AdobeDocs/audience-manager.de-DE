@@ -13,7 +13,7 @@ source-git-commit: 687aaea0f62f90ab947be8aa7d93050c5562c307
 
 Einzelne Abschnitte beschreiben verfügbare Berichte, deren Zweck und typische Verwendungen. Alle Berichte sind über das Analytics-Dashboard verfügbar.
 
-Informationen zur Beschreibung der Zeitrahmen, wenn Audience Manager Informationen zum Ausfüllen von Berichten erhält, finden Sie unter [Einfluss der Datenauslieferung und der Dateiverarbeitungszeiten auf Berichte](/help/using/reference/reporting-file-transfer-timeframe.md).
+For information describing the time frames when Audience Manager receives information to populate reports, see [How Data Delivery and File Processing Times Affect Reports](/help/using/reference/reporting-file-transfer-timeframe.md).
 
 * [Zielgruppenoptimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
