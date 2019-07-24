@@ -11,18 +11,18 @@ source-git-commit: 8a616bcf9583abfb2a94ec2a0cabcaf97ea2aeeb
 ---
 
 
-# Eigenschaften-Dashboard {#traits-dashboard}
+# Traits Dashboard {#traits-dashboard}
 
-Das [!UICONTROL Traits] Dashboard ist ein zentraler Arbeitsbereich für die Verwaltung von Eigenschaften.
+The [!UICONTROL Traits] dashboard is a centralized workspace for managing traits.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-Das [!UICONTROL Traits] Dashboard enthält Funktionen und Tools, die Ihnen dabei helfen:
+The [!UICONTROL Traits] dashboard contains features and tools that help you:
 
 1. Sehen Sie sich alle Eigenschaften und Details in einer Tabelle mit Spalten an, die Sie sortieren können.
-1. Überprüfen und arbeiten Sie [mit aktiven Zielgruppeneigenschaften und Datenquellen-Synchronisierten Eigenschaften](../../features/traits/client-activity-synced-audience-traits.md).
+1. Review and work with [Active Audience Traits and Data Source Synced Traits](../../features/traits/client-activity-synced-audience-traits.md).
 1. Erstellen, bearbeiten und löschen Sie Eigenschaften.
 1. Anzeigen und Verwalten von Eigenschaftenordnern.
 1. Suchen Sie nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie bei der Suche auf einen Ordner, um die Ergebnisse auf diesen Ordner und dessen Unterordner einzuschränken.
