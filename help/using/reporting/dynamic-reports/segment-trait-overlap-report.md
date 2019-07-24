@@ -17,7 +17,7 @@ Gibt Daten zur Anzahl der eindeutigen Benutzer zurück, die zwischen einer besti
 
 >[!NOTE]
 >
->Die Überlappungsberichte in Audience Manager berücksichtigen RBAC-Prinzipien. Sie können nur Segmente und Eigenschaften aus Datenquellen anzeigen, auf die Sie auf Basis der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) zugreifen können, zu der Sie gehören.
+>Die Überlappungsberichte in Audience Manager berücksichtigen RBAC-Prinzipien. You can only see segments and traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
 
 <!-- 
 
@@ -27,11 +27,11 @@ c_segment_trait_overlap.xml
 
 ## Überblick
 
-Als Optimierungswerkzeug können Sie mit den [!UICONTROL Segment to Trait Overlap] Berichten besonders fokussierte Segmente erstellen oder die Segmentreichweite erweitern. Sie können beispielsweise fokussierte Segmente und Eigenschaften mit hoher Überlappung erstellen, um eine bestimmte Zielgruppe zu erreichen. Viele Überlappungen bedeuten jedoch möglicherweise weniger individuelle Benutzer (weniger Reichweite). Ausführen des Berichts zur Erweiterung der Reichweite durch Entfernen von Eigenschaften mit vielen Segmenten überlappen und durch Eigenschaften ersetzen, die weniger Überlappung aufweisen.
+As an optimization tool, the [!UICONTROL Segment to Trait Overlap] reports helps you build highly focused segments or expand segment reach. Sie können beispielsweise fokussierte Segmente und Eigenschaften mit hoher Überlappung erstellen, um eine bestimmte Zielgruppe zu erreichen. Viele Überlappungen bedeuten jedoch möglicherweise weniger individuelle Benutzer (weniger Reichweite). Ausführen des Berichts zur Erweiterung der Reichweite durch Entfernen von Eigenschaften mit vielen Segmenten überlappen und durch Eigenschaften ersetzen, die weniger Überlappung aufweisen.
 
 ### Beispielbericht
 
-Die folgende Abbildung zeigt einen Überblick über den [!UICONTROL Segment-to-Trait Overlap] Bericht.
+The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Trait Overlap] report.
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -39,7 +39,7 @@ Die folgende Abbildung zeigt einen Überblick über den [!UICONTROL Segment-to-T
 
 Wählen Sie einen einzelnen Punkt aus, um die Datendetails in einem Popup-Fenster anzuzeigen. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
 
-## Vergleichen von Segmenten mit Eigenschaften {#comparing-segments-to-traits}
+## Comparing Segments to Traits {#comparing-segments-to-traits}
 
 Beschreibt, wie Sie Segmente und Eigenschaften vergleichen können, um aussagekräftige Informationen aus den Ergebnissen abzuleiten.
 
@@ -80,12 +80,12 @@ Die Betrachtung der Überlappung zwischen Eigenschaften und Segmenten kann Ihnen
   </tr> 
   <tr> 
    <td colname="col1"><b>Ineffiziente Segmente suchen</b> </td> 
-   <td colname="col2"> <p>Wenn eine Eigenschaft Teil einer <span class="wintitle"> UND</span> -Gruppe in einer Segmentdefinition ist, sind die individuellen Besucher, die über diese Eigenschaft verfügen, bereits im Segment enthalten und nicht zum Hinzufügen zum Segment verfügbar. Sie können diesen Bericht verwenden, um relevante Eigenschaften mit geringer Überlappung zu finden und diese zur Segmentdefinition hinzuzufügen, wodurch die Reichweite des Zielgruppenpools erhöht wird. </p> </td> 
+   <td colname="col2"> <p>If a trait is part of an <span class="wintitle"> AND</span> group in a segment definition, the unique visitors who have that trait are already in the segment and not available for adding to the segment. Sie können diesen Bericht verwenden, um relevante Eigenschaften mit geringer Überlappung zu finden und diese zur Segmentdefinition hinzuzufügen, wodurch die Reichweite des Zielgruppenpools erhöht wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Grundlegendes zu den Datenfiltern im Bericht &quot;Segmente zu Trait-Überlagerungen « {#data-filters-s2t-report}
+## Understanding the Data Filters in the Segment-to-Trait Overlap Report {#data-filters-s2t-report}
 
 Beschreibt, wie die Eigenschaftenüberlappung und das eindeutige Segment % regler funktionieren.
 
@@ -95,7 +95,7 @@ r_s2t_sliders.xml
 
  -->
 
-Mit [!UICONTROL Segment-to-Trait overlap] dem Bericht können Sie zwei Schieberegler verwenden, um Daten durch die Überlappung % nach Merkmal oder Segment zu filtern.
+The [!UICONTROL Segment-to-Trait overlap] report lets you use two sliders to filter data by the overlap % by trait or segment.
 
 * **[!UICONTROL Filter Trait Uniques %:]** Filtert Daten nach den % der Unique Visitors, die zwischen der Eigenschaft und dem Segment freigegeben wurden.
 * **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtert Daten nach Prozentsatz der individuellen Besucher zwischen dem Segment und der Eigenschaft.
@@ -109,7 +109,7 @@ Das folgende Diagramm zeigt den Unterschied zwischen dem Eigenschaftenmerkmal % 
 
 ![](assets/s2t.png)
 
-## Datumsfelder für Segment-zu-Trait-Daten definiert {#fields-defined}
+## Segment-to-Trait Data Pop Fields Defined {#fields-defined}
 
 Beschreibt die im Popup-Fenster angezeigten Metriken, wenn Sie auf einen einzelnen Datenpunkt klicken.
 
@@ -119,7 +119,7 @@ r_s2t_data_pop.xml
 
  -->
 
-Das Popup für den [!UICONTROL Segment-to-Trait Overlap] Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik &quot;Individuelle Werte&quot; in der Tabelle Ihre *Echtzeitbenutzer repräsentiert*.
+The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
