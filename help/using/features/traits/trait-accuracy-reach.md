@@ -11,7 +11,7 @@ source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 ---
 
 
-# Genauigkeit und Reichweite {#accuracy-and-reach}
+# Accuracy and Reach {#accuracy-and-reach}
 
 Beschreibt die Beziehung zwischen Genauigkeit und Reichweite in algorithmischen Eigenschaften.
 
