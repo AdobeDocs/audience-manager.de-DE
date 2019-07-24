@@ -10,10 +10,10 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 ---
 
 
-# Suchsignale nach Schlüssel-Wert-Paaren {#search-signals-by-key-value-pairs}
+# Search Signals by Key-Value Pairs {#search-signals-by-key-value-pairs}
 
 Suchen Sie nach einem oder mehreren Signalen, basierend auf den jeweiligen Schlüsselwertpaaren.
-Um nach mehreren Signal zu suchen, klicken Sie auf ![die Schaltfläche &quot;Hinzufügen](assets/icon_add.png) &quot; . Geben Sie die Schlüssel/Wert-Paare ein, nach denen Sie suchen möchten, und verwenden Sie dann die folgenden Filter, um Ihre Ergebnisse einzugrenzen.
+To search for more than one signal, click the ![Add](assets/icon_add.png) button. Geben Sie die Schlüssel/Wert-Paare ein, nach denen Sie suchen möchten, und verwenden Sie dann die folgenden Filter, um Ihre Ergebnisse einzugrenzen.
 
 * **Signalstatus**: Suchen nach Signalen, die in Eigenschaften, nicht verwendeten Signalen oder beidem enthalten sind.
 * **Datensätze anzeigen für**: Wählen Sie das Zeitintervall aus, in dem nach empfangenen Signalen gesucht werden soll.
@@ -21,32 +21,32 @@ Um nach mehreren Signal zu suchen, klicken Sie auf ![die Schaltfläche &quot;Hin
 
 >[!IMPORTANT]
 >
->Für ein optimiertes Benutzererlebnis basieren die Schlüsselwertpaare auf der Datenstichprobe. Unter [Datenstichproben und Fehlerquoten](/help/using/reporting/report-sampling.md) finden Sie Einzelheiten dazu, wie [!DNL Audience Manager] die Datenstichproben verwendet werden und weshalb geringfügige Ergebnisvariationen beim Vergleich von Schlüsselwertsuche mit allgemeinen Suchen auftreten können.
+>Für ein optimiertes Benutzererlebnis basieren die Schlüsselwertpaare auf der Datenstichprobe. See [Data Sampling and Error Rates](/help/using/reporting/report-sampling.md) for details on how [!DNL Audience Manager] uses data sampling and why slight result variations may appear when comparing key-value search to general searches.
 
-Wenn Sie nach Signalen suchen, die mehrere Schlüssel/Wert-Paare verwenden, [!DNL Audience Manager] verknüpfen Sie die Paare mit dem logischen **UND** -Operator. Nehmen wir beispielsweise an, Sie führen eine Suche mit den folgenden Schlüsselwertpaaren durch:
+When searching for signals using multiple key-value pairs, [!DNL Audience Manager] links the pairs using the logical **AND** operator. Nehmen wir beispielsweise an, Sie führen eine Suche mit den folgenden Schlüsselwertpaaren durch:
 
 * [!DNL c_creative == "12345"]
 * [!DNL c_product == "smartphone"]
 * [!DNL c_location == "europe"]
 
-Diese Suche gibt nur Ergebnisse zurück, die sich für alle drei Filter in demselben Aufruf qualifizieren: `c_creative == "12345"``AND``c_product == "smartphone"``AND``c_location == "europe"`.
+This search will return only results that qualify for all three filters on the same call: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`.
 
 ![](assets/signals-search.png)
 
-## Unterscheidung zwischen Groß- und Kleinschreibung und automatische Suche {#case-insensitivity}
+## Case Insensitivity and Search Auto-Completion {#case-insensitivity}
 
 Bei den Suchfeldern für Schlüssel und Wert wird zwischen Groß- und Kleinschreibung unterschieden. Das Schlüsselsuchfeld enthält automatisch vervollständigte Vorschläge.
 
 ![](assets/signal-search-suggestions.png)
 
-Nehmen wir an, [!DNL Audience Manager] die folgenden Signale wurden erhalten:
+Let's say [!DNL Audience Manager] received the following signals:
 
 * `productCategory == smartphone`
 * `newProduct == iPhone`
 * `PRODUCT == phone`
 * `product == PHONE`
 
-Wenn Sie in `product` das Schlüsselsuchfeld eingeben, erhalten Sie automatisch vervollständigte Vorschläge für `productCategory``newProduct`, `PRODUCT`und `product`.
+When you enter `product` in the key search field, you receive auto-completed suggestions for `productCategory`, `newProduct`, `PRODUCT`, and `product`.
 
-Gleichermaßen `product == phone`[!UICONTROL Data Explorer] gibt bei der Suche die Ergebnisse für beide `PRODUCT == phone` und `product == PHONE`zurück.
-Bei zurückgestellten Eigenschaften für Eigenschaften wird zwischen Groß- und Kleinschreibung unterschieden. Eine Eigenschaft, die das Signal mit dem Schlüssel-Wert-Paar `PRODUCT == SMARTPHONE` enthält, qualifiziert das Signal auch mit dem Schlüssel-Wert-Paar `product == smartphone`.
+Similarly, when you search for `product == phone`, [!UICONTROL Data Explorer] returns results for both `PRODUCT == phone` and `product == PHONE`.
+Bei zurückgestellten Eigenschaften für Eigenschaften wird zwischen Groß- und Kleinschreibung unterschieden. A trait containing the signal with the key-value pair `PRODUCT == SMARTPHONE` also qualifies the signal with the key-value pair `product == smartphone`.
