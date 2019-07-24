@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Angehaltene und gelöschte Segmente {#paused-and-deleted-segments}
+# Paused and Deleted Segments {#paused-and-deleted-segments}
 
-Beschreibt die Auswirkungen auf segmentierte Benutzer, Daten und Ziele, wenn Sie ein aktives Segment anhalten oder löschen [!UICONTROL Segment Builder].
+Describes the effects on segmented users, data, and destinations when you pause or delete an active segment using [!UICONTROL Segment Builder].
 
-## Zugriff auf die Steuerelemente &quot;Pause&quot; und&quot; Löschen «
+## Zugriff auf die Steuerelemente "Pause" und" Löschen «
 
-Bewegen Sie den Mauszeiger über einen Segmentnamen in der Segmentliste, um die Symbole und **[!UICONTROL pause]****[!UICONTROL delete]** Symbole (in der [!UICONTROL Actions] Spalte) anzuzeigen. Diese Funktionen wirken sich wie unten beschrieben auf Segmente aus.
+Hover over a segment name in the segments list to expose the **[!UICONTROL pause]** and **[!UICONTROL delete]** icons (in the [!UICONTROL Actions] column). Diese Funktionen wirken sich wie unten beschrieben auf Segmente aus.
 
 ## Angehaltene Segmentfunktionen
 
@@ -42,4 +42,4 @@ Ein gelöschtes Segment:
 
 >[!NOTE]
 >
->Sie können Segmente mit einer [!DNL API] Methode anhalten und löschen. Weitere Informationen finden Sie unter [REST-apis](../../api/rest-api-main/rest-api-main.md).
+>You can also pause and delete segments using an [!DNL API] method. For more information, see [REST APIs](../../api/rest-api-main/rest-api-main.md).
