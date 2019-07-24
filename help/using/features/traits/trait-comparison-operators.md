@@ -11,15 +11,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Arbeiten mit Vergleichsoperatoren im Eigenschaftenaufbau {#working-with-comparison-operators-in-trait-builder}
+# Working with Comparison Operators in Trait Builder {#working-with-comparison-operators-in-trait-builder}
 
-In diesem Artikel werden die von Ihnen verwendeten Vergleichsoperatoren beschrieben [!UICONTROL Trait Builder].
+This article describes the comparison operators used by [!UICONTROL Trait Builder].
 
 ## Zweck von Vergleichsoperatoren
 
 <!-- c_tb_comparison_operators.xml -->
 
-Vergleichsoperatoren (oder relationale Operatoren) werden verwendet, um die Beziehung zwischen verschiedenen Werten zu vergleichen, zu testen oder zu bewerten. Beim [!UICONTROL Trait Builder]Erstellen von Signalregeln können Vergleichsoperatoren die Beziehung zwischen verschiedenen Schlüssel-Wert-Paaren testen. Sie können beispielsweise eine Signaturregel erstellen, um eine Zielgruppe für teure Kamera-Käufer zu definieren. In diesem Fall können Sie ein Kamera-/Preisschlüssel-Paar erstellen und einen Benutzer qualifizieren, wenn sie nach einer Kamera gesucht haben, deren Preis einem oder mehreren Sätzen entspricht.
+Vergleichsoperatoren (oder relationale Operatoren) werden verwendet, um die Beziehung zwischen verschiedenen Werten zu vergleichen, zu testen oder zu bewerten. In [!UICONTROL Trait Builder], when building signal rules, comparison operators let you test the relationship between different key-value pairs. Sie können beispielsweise eine Signaturregel erstellen, um eine Zielgruppe für teure Kamera-Käufer zu definieren. In diesem Fall können Sie ein Kamera-/Preisschlüssel-Paar erstellen und einen Benutzer qualifizieren, wenn sie nach einer Kamera gesucht haben, deren Preis einem oder mehreren Sätzen entspricht.
 
 ## Vorteile von Vergleichsoperatoren
 
@@ -44,11 +44,11 @@ Sie können Regeln mit den folgenden benannten Operatoren erstellen:
 
 | Operator | Evaluates to [!DNL True] When |
 |---|---|
-| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* Zeichen, die von diesem Operator angegeben werden. |
-| **[!UICONTROL Matcheswords]** | Der Wert in einem Schlüssel-Wert-Paar *stimmt mit* dem von diesem Operator angegebenen Muster überein. |
-| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *beginnt mit* Zeichen, die von diesem Operator angegeben werden. |
-| **[!UICONTROL Endswith]** | Der Wert in einem Schlüssel-Wert-Paar *endet mit* den von diesem Operator angegebenen Zeichen. |
-| **[!UICONTROL Matchesregex]** | Der Wert in einem Schlüssel-Wert-Paar *stimmt mit* dem durch einen regulären Ausdruck angegebenen Muster überein. [Learn more](../../features/traits/trait-builder-regex.md) about using regular expressions in [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
+| **[!UICONTROL Matcheswords]** | The value in a key-value pair *matches* the pattern specified by this operator. |
+| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
+| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
+| **[!UICONTROL Matchesregex]** | The value in a key-value pair *matches* the pattern specified by a regular expression. [Erfahren Sie mehr](../../features/traits/trait-builder-regex.md) über die Verwendung regulärer Ausdrücke.[!UICONTROL Trait Builder] |
 
 >[!MORE_ LIKE_ THIS]
 >
