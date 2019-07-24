@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Verbessern der Protokolldateiverarbeitung mit Suchtabellen{#improve-log-file-processing-times-with-lookup-tables}
+# Improve Log File Processing Times with Lookup Tables{#improve-log-file-processing-times-with-lookup-tables}
 
 Stellen Sie Daten in die Protokolldateien des Bereitstellungsberichts in Tabellen ein, die nur IDs enthalten. Sie können Nicht-ID-Metadaten in separaten Suchtabellen einfügen, um die Dateigröße und Verarbeitungszeiten zu reduzieren.
 
@@ -23,11 +23,11 @@ c_lookup_tables.xml
 
 ## Protokolldateimetadaten Vergrößern Dateigröße und Verarbeitungszeit
 
-Eine typische Protokolldatei, die vom [!UICONTROL Delivery Performance] Bericht verwendet wird, enthält normalerweise Tausende von Zeilen und Dutzend Spalten. Es besteht aus numerischen IDs und menschen lesbaren Informationen wie Namen für kreative Elemente, Werbetreibende, Einfügebestellungen usw.
+A typical log file used by the [!UICONTROL Delivery Performance] report usually contains thousands of rows and dozens of columns. Es besteht aus numerischen IDs und menschen lesbaren Informationen wie Namen für kreative Elemente, Werbetreibende, Einfügebestellungen usw.
 
-Diese Nicht-ID-Informationen werden als *`metadata`* (d. h. Informationen zu anderen Informationen) bezeichnet und in jede Zeile der Protokolldatei geschrieben.
+This non-ID information is referred to as *`metadata`* (i.e., information about other information) and gets written in each row of the log file.
 
-Der [!UICONTROL Delivery Performance] Bericht funktioniert jedoch hauptsächlich mit den IDs in der Protokolldatei. Die Metadaten sind nützlich, aber wiederholend. Dadurch werden die Dateigröße und die Datenerfassungszeiten erhöht.
+However, the [!UICONTROL Delivery Performance] report mainly works with the IDs in the log file. Die Metadaten sind nützlich, aber wiederholend. Dadurch werden die Dateigröße und die Datenerfassungszeiten erhöht.
 
 ## Dateigröße reduzieren und Verarbeitungszeit verkürzen mit Indextabellen
 
