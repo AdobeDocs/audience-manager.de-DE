@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Namenskonventionen für Metadatendateien{#naming-conventions-for-metadata-files}
+# Naming Conventions for Metadata Files{#naming-conventions-for-metadata-files}
 
 Benennen Sie Ihre Metadatendatei für Zielgruppenoptimierungen gemäß diesen Spezifikationen.
 
-## Syntax- und ID-Kategorien {#syntax}
+## Syntax and ID Categories {#syntax}
 
-Die folgende Syntax definiert die Struktur eines gut formatierten Metadatendateinamens. Hinweis: *Kursiv* zeigt einen Variablenplatzhalter an. Die anderen Elemente sind Konstanten und ändern sich nicht.
+Die folgende Syntax definiert die Struktur eines gut formatierten Metadatendateinamens. Note, *italics* indicates a variable placeholder. Die anderen Elemente sind Konstanten und ändern sich nicht.
 
 **Syntax:** *`yyyymmdd_0_childID`*
 
@@ -27,10 +27,10 @@ Die folgende Syntax definiert die Struktur eines gut formatierten Metadatendatei
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* Die mittlere Komponente **0** ist technisch gesehen die übergeordnete ID, die ein älteres Feld ist. Der Wert sollte immer als **0 festgelegt** werden.
+* The middle component **0** is technically the Parent ID, which is a legacy field. The value should always be set as **0**.
 * Je nach Dimension kann die untergeordnete ID einen Wert zwischen 1 und 10 aufweisen. Das sieht dann so aus:
 
-## Dimensionen der untergeordneten ID {#child-dimension}
+## Child ID dimensions {#child-dimension}
 
 Im Metadatendateinamen ist die untergeordnete ID ein Bezeichner, der den Datentyp in einer Datei klassifiziert und in eine Hierarchie legt. Sie können die untergeordnete ID im Dateinamen mit den folgenden Kategorien-IDs versehen:
 
@@ -39,9 +39,9 @@ Im Metadatendateinamen ist die untergeordnete ID ein Bezeichner, der den Datenty
 1. Platzierung
 1. Exchange-
 1. Site
-1. Advertiser (wenn Integrationscodes in einer [Datenquelle verwendet](../../../features/manage-datasources.md#details)werden)
+1. Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#details))
 1. Einfügereihenfolge (IO)
-1. Vertikal (d. h. eine bestimmte Branche oder Geschäftskategorie wie &quot;Computer&quot; ,&quot; Automobile&quot; , &quot;Liegenschaften&quot; usw.)
+1. Vertikal (d. h. eine bestimmte Branche oder Geschäftskategorie wie "Computer" ," Automobile" , "Liegenschaften" usw.)
 1. Taktik
 1. Geschäftseinheit oder Marke
 
