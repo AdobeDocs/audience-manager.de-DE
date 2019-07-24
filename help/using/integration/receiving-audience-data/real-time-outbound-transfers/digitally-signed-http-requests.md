@@ -11,27 +11,27 @@ source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
 ---
 
 
-# Digital signierte `HTTP` Anforderungen {#digitally-signed-http-requests}
+# Digitally Signed `HTTP` Requests {#digitally-signed-http-requests}
 
-Für Audience Manager sind die `HTTP` Server-zu-Server-Anforderungen für die Gültigkeit digital signiert. In diesem Dokument wird beschrieben, wie `HTTP` Sie Anforderungen mit privaten Schlüsseln signieren können.
+Audience Manager requires the `HTTP` server-to-server requests to be digitally signed for validity. This document describes how you can sign `HTTP` requests with private keys.
 
 ## Überblick {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-Mithilfe eines von Ihnen und freigegebenen privaten Schlüssels bereitgestellten [!DNL Audience Manager]privaten Schlüssels können wir `HTTP` die zwischen [IRIS](../../../reference/system-components/components-data-action.md#iris) und Ihrem HTTP-Server gesendeten Anforderungen digital signieren. Dies gewährleistet Folgendes:
+Using a private key provided by you and shared with [!DNL Audience Manager], we can digitally sign the `HTTP` requests that are sent between [IRIS](../../../reference/system-components/components-data-action.md#iris) and your HTTP server. Dies gewährleistet Folgendes:
 
 * **Authentizität**: Nur der Sender, der über den privaten Schlüssel ([!UICONTROL IRIS]) verfügt, kann gültige `HTTP(S)` Nachrichten an den Partner senden.
 * **Meldungsintegrität**: Bei diesem Ansatz sind Sie selbst dann `HTTP`von einem Mann im mittleren Angriff geschützt, wenn die Nachrichten verzerrt werden.
 
 [!UICONTROL IRIS] verfügt über integrierte Unterstützung, um die Schlüssel mit null Ausfallzeiten zu drehen, wie im Abschnitt [zum Drehen des privaten Schlüssels](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) unten dargestellt.
 
-## Informationen, die Sie bereitstellen müssen {#info-to-provide}
+## Information you need to provide {#info-to-provide}
 
-Für ein `HTTP` Echtzeit-Server-to-Server-Ziel wenden Sie sich an Ihren [!DNL Audience Manager] Berater und geben Sie Folgendes an:
+For an `HTTP` real-time server-to-server destination, contact your [!DNL Audience Manager] consultant and specify:
 
 * Der Schlüssel zum Signieren der Anforderung.
-* Der Name der `HTTP` Kopfzeile, die die generierte Signatur enthält (X-Signatur im Beispiel unten).
+* The name of the `HTTP` header that will hold the generated signature (X-Signature in the example header below).
 * Optional: der Hashtyp für die Unterschrift (md 5, Sha 1, Sha 256).
 
 ```
@@ -45,21 +45,21 @@ Für ein `HTTP` Echtzeit-Server-to-Server-Ziel wenden Sie sich an Ihren [!DNL Au
 POST message content
 ```
 
-## Funktionsweise {#how-it-works}
+## How it works {#how-it-works}
 
 1. [!UICONTROL IRIS] erstellt die `HTTP` Nachricht, die an den Partner gesendet wird.
 1. [!UICONTROL IRIS] erstellt eine Signatur basierend auf `HTTP` der Meldung und dem vom Partner gesendeten privaten Schlüssel.
 1. [!UICONTROL IRIS] sendet die `HTTP(S)` Anfrage an den Partner. Diese Meldung enthält die Unterschrift und die tatsächliche Nachricht, wie im obigen Beispiel gezeigt.
-1. Der Partnerserver erhält die `HTTP(S)` Anforderung. Er liest den Nachrichtentext und die von [!UICONTROL IRIS]Ihnen empfangene Unterschrift.
-1. Basierend auf dem empfangenen Nachrichtentext und dem privaten Schlüssel wird der Partnerserver die Unterschrift neu berechnen. Siehe [So berechnen Sie den](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) Unterschriftsabschnitt direkt unten.
-1. Vergleichen Sie die auf dem Partner-Server (Empfänger) erstellte Signatur mit dem empfangenen [!UICONTROL IRIS] (Absender).
-1. Stimmen die Signaturen überein, wurden die **Authentizität** und **die Meldungsintegrität** überprüft. Nur der Sender, der über den privaten Schlüssel verfügt, kann eine gültige Signatur (Authentizität) senden. Darüber hinaus kann ein Man in der Mitte die Nachricht nicht ändern und eine neue gültige Signatur generieren, da sie nicht über den privaten Schlüssel (Meldungsintegrität) verfügen.
+1. The partner server receives the `HTTP(S)` request. It reads the message body and the signature received from [!UICONTROL IRIS].
+1. Basierend auf dem empfangenen Nachrichtentext und dem privaten Schlüssel wird der Partnerserver die Unterschrift neu berechnen. See the [How to calculate the signature](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) section just below on how to achieve this.
+1. Compare the signature created on the partner server (receiver) with the one received from [!UICONTROL IRIS] (sender).
+1. If the signatures match, then the **authenticity** and **message integrity** have been validated. Nur der Sender, der über den privaten Schlüssel verfügt, kann eine gültige Signatur (Authentizität) senden. Darüber hinaus kann ein Man in der Mitte die Nachricht nicht ändern und eine neue gültige Signatur generieren, da sie nicht über den privaten Schlüssel (Meldungsintegrität) verfügen.
 
 ![](assets/iris-digitally-sign-http-request.png)
 
-## Berechnung der Signatur {#calculate-signature}
+## How to calculate the signature {#calculate-signature}
 
-[!DNL HMAC] (Hash-basierter Nachrichtenauthentifizierungscode) ist die Methode, die [!UICONTROL IRIS] für die Signaturunterzeichnung verwendet wird. Implementierungen und Bibliotheken sind grundsätzlich in jeder Programmiersprache verfügbar. [!DNL HMAC] hat keine bekannten Erweiterungsangriffe. Siehe Beispiel [!DNL Java] unten:
+[!DNL HMAC] (Hash-basierter Nachrichtenauthentifizierungscode) ist die Methode, die [!UICONTROL IRIS] für die Signaturunterzeichnung verwendet wird. Implementierungen und Bibliotheken sind grundsätzlich in jeder Programmiersprache verfügbar. [!DNL HMAC] hat keine bekannten Erweiterungsangriffe. See an example in [!DNL Java] below:
 
 ```
 // Message to be signed.
@@ -82,19 +82,19 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-Der RFC für die [!DNL HMAC] Hash-Implementierung lautet [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Testsite: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die hexadezimale Kodierung in base 64 [konvertieren](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) müssen).
+The RFC for the [!DNL HMAC] hash implementation is [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). A test site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (note that you have to [convert](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) the hex encoding to base64).
 
-## Drehen des privaten Schlüssels {#rotate-private-key}
+## Rotating the private key {#rotate-private-key}
 
-Aus Sicherheitsgründen wird empfohlen, den privaten Schlüssel regelmäßig zu drehen. Es liegt an Ihnen, den privaten Schlüssel und die Drehungsdauer festzulegen. Um die Schlüsseldrehung mit null Ausfallzeiten zu erzielen, [!UICONTROL IRIS] unterstützt das Hinzufügen mehrerer Unterschriftskopfzeilen. Eine Kopfzeile enthält die mit dem alten Schlüssel generierte Signatur, eine weitere Kopfzeile die mit dem neuen privaten Schlüssel generierte Unterschrift. Unter den Schritten finden Sie weitere Informationen:
+Aus Sicherheitsgründen wird empfohlen, den privaten Schlüssel regelmäßig zu drehen. Es liegt an Ihnen, den privaten Schlüssel und die Drehungsdauer festzulegen. In order to achieve the key rotation with zero downtime, [!UICONTROL IRIS] supports adding multiple signature headers. Eine Kopfzeile enthält die mit dem alten Schlüssel generierte Signatur, eine weitere Kopfzeile die mit dem neuen privaten Schlüssel generierte Unterschrift. Unter den Schritten finden Sie weitere Informationen:
 
 1. Partner communicates the new private key to [!DNL Adobe Audience Manager].
 1. [!UICONTROL IRIS] beginnt, zwei Unterschriftskopfzeilen zu senden (eine mit dem alten Schlüssel, die andere mit dem neuen Schlüssel).
 1. Sobald Sie beide Überschriften erhalten haben, können Sie den alten Schlüssel verwerfen und sich nur die neue Unterschrift ansehen.
-1. Der alte Schlüssel wird aus [!DNL Audience Manager] und [!UICONTROL IRIS] sendet nur die neue Signaturkopfzeile. Die Schlüssel wurden gedreht.
+1. The old key is removed from [!DNL Audience Manager] and [!UICONTROL IRIS] only sends the new signature header. Die Schlüssel wurden gedreht.
 
-## Zum Unterschreiben verwendete Daten {#data-signing}
+## Data used for signing {#data-signing}
 
-Bei `GET` Typ-Zielen ist die für die Unterzeichnung verwendete Meldung REQUEST *_ PATH + QUERY STRING* (z. B. */from-aam-s2s? sids = 1,2,3*). IRIS berücksichtigt nicht den Hostnamen oder `HTTP` die Header - diese können entlang des Pfads geändert/falsch konfiguriert werden oder falsch gemeldet werden.
+For `GET` type destinations, the message used for signing will be the *REQUEST_PATH + QUERY STRING* (e.g. */from-aam-s2s?sids=1,2,3*). IRIS does not take into account the hostname or `HTTP` headers - these can be modified / misconfigured along the path or reported incorrectly.
 
-Bei `POST` Typ-Zielen ist die zum Signieren verwendete Meldung der *ANFORDERUNGSKÖRPER*. Wiederum werden Überschriften oder andere Anforderungsparameter ignoriert.
+For `POST` type destinations, the message used for signing is the *REQUEST BODY*. Wiederum werden Überschriften oder andere Anforderungsparameter ignoriert.
