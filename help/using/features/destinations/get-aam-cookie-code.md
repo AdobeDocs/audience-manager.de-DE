@@ -13,9 +13,9 @@ source-git-commit: abb66d75a0d47f5257ea8c63bdb59e604db801d3
 
 # `get_aamCookie` Code {#get-aamcookie-code}
 
-Code, der für [!DNL DART Enterprise] (und andere Zieltypen) erforderlich ist, um den eindeutigen Benutzer-ID ([!DNL UUID])-Wert des Audience Manager zu erfassen.
+Code required by [!DNL DART Enterprise] (and other destination types) to capture the Audience Manager unique user ID ([!DNL UUID]) value.
 
-Definieren Sie diese Funktion am oberen Rand der Seite idealerweise im `<head>` Codeblock.
+Define this function at the top of the page, ideally within the `<head>` code block.
 
 <!-- r_aam_de_cookie.xml -->
 
