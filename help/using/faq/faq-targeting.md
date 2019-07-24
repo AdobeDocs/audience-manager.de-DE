@@ -11,7 +11,7 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 ---
 
 
-# Häufig gestellte Fragen zum Targeting{#targeting-faq}
+# Targeting FAQ{#targeting-faq}
 
 Häufig verwendete Fragen und Probleme.
 
@@ -25,7 +25,7 @@ faq_targeting.xml
 
 **Wo finde ich eine vollständige Liste von Drittanbietern von Drittanbietern, die von Audience Manager unterstützt werden?**
 
-Eine vollständige Liste der Drittanbieterdaten, die unterstützt werden, finden Sie unter [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) [!DNL Audience Manager] (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html).
+See the [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) for a complete list of third-party data providers that [!DNL Audience Manager] supports.
 
 <br> 
 
@@ -37,7 +37,7 @@ Die Antwort hängt von Ihren Zielen ab. Wenn Ihre Kampagne beispielsweise so kon
 
 **Kann ich für Einzelpersonen ein Marketing durchführen?**
 
-Mit Audience Manager können Sie Benutzer aggregieren und auf Grundlage freigegebener Attribute oder Eigenschaften für sie freigeben. Zur Einhaltung der Branchenvorschriften senden [!DNL Audience Manager] Kunden jedoch möglicherweise keine personenbezogenen identifizierbaren Informationen (PII) an unsere Systeme. Daher können Sie keine E-Mail-Adressen, einzelne Namen, physische Adressen usw. verwenden. für Targeting.
+Mit Audience Manager können Sie Benutzer aggregieren und auf Grundlage freigegebener Attribute oder Eigenschaften für sie freigeben. However, to comply with industry regulations, [!DNL Audience Manager] customers may not send personally identifiable information (PII) to our systems. Daher können Sie keine E-Mail-Adressen, einzelne Namen, physische Adressen usw. verwenden. für Targeting.
 
 <br> 
 
@@ -49,7 +49,7 @@ Es wird empfohlen, eine Server-zu-Server-Verbindung zu verwenden, um Daten mit I
 
 **Ist die eindeutige Benutzer-ID (UUID) des Audience Manager mit der eindeutigen Benutzer-ID eines Werbeservers verknüpft, indem die ID direkt auf der Seite synchronisiert wird?**
 
-Nein. ID-Synchronisierungen werden auf der Seite nicht für Herausgeber oder Server auf der Seite vorgenommen. Die UUID des Audience Manager wird in das `u=` Feld der Protokollserver-Protokolldateien eingefügt. Dies geschieht, wenn das Segment für das Targeting weitergegeben wird. Diese Funktion wird vom DIL-Code-Modul ausgeführt. Dies ist derselbe Mechanismus, mit dem wir die Benutzer-ID des Servers einem Audience Manager-Benutzer für die Berichterstellung zur Segmentleistung zuordnen können. Wenn jedoch auf der Site ein Anzeigen-Server vorhanden ist, synchronisieren wir IDs direkt auf der Seite.
+Nein. ID-Synchronisierungen werden auf der Seite nicht für Herausgeber oder Server auf der Seite vorgenommen. The Audience Manager UUID is inserted into the `u=` field of the ad server log files. Dies geschieht, wenn das Segment für das Targeting weitergegeben wird. Diese Funktion wird vom DIL-Code-Modul ausgeführt. Dies ist derselbe Mechanismus, mit dem wir die Benutzer-ID des Servers einem Audience Manager-Benutzer für die Berichterstellung zur Segmentleistung zuordnen können. Wenn jedoch auf der Site ein Anzeigen-Server vorhanden ist, synchronisieren wir IDs direkt auf der Seite.
 
 <br> 
 
@@ -61,7 +61,7 @@ Nein. ID-Synchronisierungen werden auf der Seite nicht für Herausgeber oder Ser
 
 **Kann einen Benutzer von der Anzeige und Mobilgeräten aus identifizieren.**
 
-Ja. Siehe [Deklarierte ID-Targeting](../features/declared-ids.md#declared-id-targeting).
+Ja. See [Declared ID Targeting](../features/declared-ids.md#declared-id-targeting).
 
 <br> 
 
@@ -81,7 +81,7 @@ Das Löschen von Cookies wirkt sich negativ auf Reichweiten- und Frequenzberechn
 
 **Was ist das Ablauffenster für Audience Manager-Cookies?**
 
-Über die Benutzeroberfläche können Sie das Ablaufintervall für die Cookies bestimmen. Sie können Cookies so einstellen, dass sie nach *n* Anzahl der Tage oder nie laufen.
+Über die Benutzeroberfläche können Sie das Ablaufintervall für die Cookies bestimmen. You can set cookies to expire after *n* number of days or never.
 
 <br> 
 
@@ -91,8 +91,8 @@ Dies hängt davon ab. Die Kosten basieren auf Unique Users. Wenn eine Kampagne N
 
 <br> 
 
-**Audience Manager zeigt[!UICONTROL Addressable Audiences]Metriken und Übereinstimmungsraten nur für[!UICONTROL Server-to-Server]Ziele an. Können Sie erklären, warum diese Zahlen für Cookie- und URL-Ziele nicht angezeigt werden?**
+**Audience Manager zeigt[!UICONTROL Addressable Audiences]Metriken und Übereinstimmungsraten nur für[!UICONTROL Server-to-Server]Ziele an. Can you explain why we don't see these figures for Cookie and URL destinations?**
 
-Er wird auf ID-Synchronisierungen heruntergefahren. Für [!UICONTROL Server-to-Server] Ziele übertragen wir Daten offline (entweder Echtzeit oder Stapel), und wir müssen die ID senden, die der Zielpartner versteht, damit er ihn wieder dem Browser zuordnet. Die segment addressable number ist eine Untergruppe der Gesamtanzahl der Segmente.
+Er wird auf ID-Synchronisierungen heruntergefahren. For [!UICONTROL Server-to-Server] destinations, we transfer data offline (either real-time or batch) and we need to send the ID that the destination partner understands, so they can map it back to the browser. Die segment addressable number ist eine Untergruppe der Gesamtanzahl der Segmente.
 
-Im Falle von Cookie- und URL-Zielen befindet sich der Benutzer bereits im Browser und die [!DNL Audience Manager] gesendeten Segmente sind nur die Segmente, für die sich der Benutzer qualifiziert hat. Der Zielpartner kann die Segmentzuordnungen einfach abrufen und mit diesen Informationen arbeiten. Berücksichtigen Sie daher die Übereinstimmungsraten für Cookie- und URL-Ziele immer 100%.
+In the case of Cookie and URL destinations, the user is already on the browser, and what [!DNL Audience Manager] sends is just the segments that the user qualified for. Der Zielpartner kann die Segmentzuordnungen einfach abrufen und mit diesen Informationen arbeiten. Berücksichtigen Sie daher die Übereinstimmungsraten für Cookie- und URL-Ziele immer 100%.
