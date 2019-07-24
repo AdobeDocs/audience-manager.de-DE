@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Im Editor für den Segmentausdruck verwendete Code-Syntax {#code-syntax-used-in-the-segment-expression-editor}
+# Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] Hiermit können Sie Eigenschaften für ein Segment mithilfe eines Code-Editors erstellen. Klicken Sie auf die **[!UICONTROL Segment Expressions (Code View)]** Registerkarte im [!UICONTROL Traits] Bedienfeld, um auf diese Funktion zuzugreifen.
+[!UICONTROL Segment Builder] Hiermit können Sie Eigenschaften für ein Segment mithilfe eines Code-Editors erstellen. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
 
 ## Syntax für Ausdrucksgenerator-Code
 
@@ -26,11 +26,11 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 >[!NOTE]
 >
->Standardmäßig gelten [!DNL Boolean][!UICONTROL OR] Bedingungen für mehrere Eigenschaften *in einem* Ausdruck.
+>By default, [!DNL Boolean] [!UICONTROL OR] conditions apply to multiple traits *within* an expression.
 
 ### Segmente mit booleschen Operatoren verbinden
 
-Um Gruppen von Segmenten zu erstellen, schließen Sie die Frequenzfunktion in Klammern ein und legen Sie die Beziehung *zwischen den* einzelnen Ausdrücken mit einem [!DNL Boolean] Operator ([!UICONTROL AND][!UICONTROL OR], und [!UICONTROL NOT]) fest.
+To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a [!DNL Boolean] operator ([!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
 
 ### Parameter
 
@@ -41,13 +41,13 @@ Um Gruppen von Segmenten zu erstellen, schließen Sie die Frequenzfunktion in Kl
 | Name oder Variable | Beschreibung |
 |---|---|
 | `FREQUENCY` | Ein Literal, das dem Ausdruck vorausgeht. |
-| ` [`&lt;`traitID`&gt;`T]` | Ein Array von Eigenschaften-IDs gefolgt vom Brief `T`. Trennen Sie mehrere Eigenschaften durch ein Komma. Beispiel, `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Optional)* Legt Neuigkeitsregeln für Eigenschaften im Segment fest. Der Brief `D` zeigt die Neuigkeit in Tagen an. |
+| ` [`&lt;`traitID`&gt;`T]` | An array of trait IDs followed by the letter `T`. Trennen Sie mehrere Eigenschaften durch ein Komma. Beispiel, `[123T, 456T]`. |
+| ` <Recency Operator><Numeric Value>D` | *(Optional)* Legt Neuigkeitsregeln für Eigenschaften im Segment fest. The letter `D` indicates recency in days. |
 | ` <Frequency Operator><Numeric Value>` | Legt Häufigkeitsregeln zu Eigenschaften im Segment fest. |
 
 ### Zulässige Neuigkeit- und Häufigkeitsoperatoren
 
-Legen [Sie Neuigkeit- und](../../features/segments/recency-and-frequency.md) Frequenzintervalle mit einem Vergleichsoperator und einer Ganzzahl fest. [!UICONTROL Segment Builder] verwendet Standardausdrücke wie &lt; (kleiner als), &gt; (größer als), = = (equal) usw. Die Typen von zulässigen Operatoren variieren jedoch, wenn Sie Neuigkeit oder Häufigkeit festlegen. In der folgenden Tabelle sind die zulässigen Neuigkeits-/Frequenzoperatoren aufgeführt.
+Set [recency and frequency](../../features/segments/recency-and-frequency.md) intervals with a comparison operator and an integer. [!UICONTROL Segment Builder] verwendet Standardausdrücke wie &lt; (kleiner als), &gt; (größer als), = = (equal) usw. Die Typen von zulässigen Operatoren variieren jedoch, wenn Sie Neuigkeit oder Häufigkeit festlegen. In der folgenden Tabelle sind die zulässigen Neuigkeits-/Frequenzoperatoren aufgeführt.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
