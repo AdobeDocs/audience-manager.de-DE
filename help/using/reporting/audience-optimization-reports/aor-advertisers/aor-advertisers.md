@@ -11,30 +11,30 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Zielgruppenoptimierung für Advertiser{#audience-optimization-for-advertisers}
+# Audience Optimization for Advertisers{#audience-optimization-for-advertisers}
 
 Mit Audience Optimization for Advertisers können Sie potenzielle Leistungsmöglichkeiten für Audience Manager-Segmente in Ihren gebührenpflichtigen Medienkampagnen identifizieren. Diese Berichte kombinieren Protokollierungsdaten auf Protokollebenen mit Audience Manager-Segmentmetriken, um segmentorientierte Optimierungen und einen effektiven Kanalmix zu informieren.
 
-## Datenerfassungsmethoden {#data-ingestion-methods}
+## Data Ingestion Methods {#data-ingestion-methods}
 
-Sie können Daten von diesen beiden Methoden [!DNL Audience Manager] zur Verwendung in diesen Berichten senden. Manchmal senden Kunden Daten nach beiden Methoden. Dadurch stellen Sie sicher, dass Ihre Berichte die umfassendsten und genauesten Informationen über einen Besucher enthalten. Um die [!UICONTROL Audience Optimization] Berichte zu verwenden, müssen Ihre Ereignisaufrufe *alle* in der Dokumentation [Übersicht und Zuordnungen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) aufgeführten Parameter enthalten. Sie können Daten über die folgenden unten aufgeführten Methoden senden.
+You can send data to [!DNL Audience Manager] for use in these reports by either of these methods. Manchmal senden Kunden Daten nach beiden Methoden. Dadurch stellen Sie sicher, dass Ihre Berichte die umfassendsten und genauesten Informationen über einen Besucher enthalten. To use the [!UICONTROL Audience Optimization] reports, your event calls must include *all* of the parameters listed in the [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) documentation. Sie können Daten über die folgenden unten aufgeführten Methoden senden.
 
-* Pixelaufrufe: Um die erforderlichen Metadatenparameter zu übermitteln, um [!DNL Audience Manager] die [Erfassung von Kampagnen-Klickdaten über Pixel-Aufrufe](../../../integration/media-data-integration/click-data-pixels.md) und [die Erfassung von Kampagnen-Impressionsdaten über Pixelaufrufe zu sehen](../../../integration/media-data-integration/impression-data-pixels.md).
+* Pixel calls: To pass the required metadata parameters to [!DNL Audience Manager] see [Capturing Campaign Click Data via Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md) and [Capturing Campaign Impression Data via Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md).
 
-* Datendateien: Wenn Sie Ihre eigenen Daten oder Daten aus einer nicht integrierten Quelle analysieren möchten, müssen [!DNL Audience Manager]Sie Daten- und Metadatendateien für diese Daten erstellen und hochladen. Weitere Informationen finden Sie unter [Datendateien für Berichte zur Zielgruppenoptimierung](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) und [Daten- und Metadatendateien für Zielgruppenoptimierungsberichte](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
+* Data files: If you want to use these reports to analyze your own data or data from a source that is not integrated with [!DNL Audience Manager], you need to create and upload data and metadata files for that data. For more information, see [Data Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) and [Data and Metadata Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
 
-## Rollenbasierte Zugriffssteuerungssteuerung (RBAC) {#rbac}
+## Role-Based Access Controls (RBAC) {#rbac}
 
-Welche Art von Berichten Sie anzeigen können, hängt von der [!UICONTROL RBAC] Gruppe ab, die Ihnen zugewiesen ist. Weitere Informationen finden Sie unter [Administration](../../../features/administration/administration-overview.md) und [Erstellen einer Gruppe](../../../features/administration/administration-overview.md#create-group) .
+The type of reports you can view depend on the [!UICONTROL RBAC] group you're assigned to. See [Administration](../../../features/administration/administration-overview.md) and [Create a Group](../../../features/administration/administration-overview.md#create-group) for more information.
 
-[!UICONTROL RBAC] müssen einige Datenquellen eingerichtet werden, damit die [!UICONTROL Audience Optimization] Berichte angezeigt werden. Ihr [!DNL Audience Manager] Berater richtet diese Datenquellen für Sie ein. Je mehr Datenquellen in den einzelnen [!UICONTROL RBAC] Benutzergruppen vorhanden sind, desto mehr Daten erhalten diese Gruppenmitglieder. Ihr Berater richtet mindestens eine dieser Datenquellen ein:
+[!UICONTROL RBAC] müssen einige Datenquellen eingerichtet werden, damit die [!UICONTROL Audience Optimization] Berichte angezeigt werden. Your [!DNL Audience Manager] consultant will set up these data sources for you. The more data sources in each [!UICONTROL RBAC] user group, the more data those group members will have access to. Ihr Berater richtet mindestens eine dieser Datenquellen ein:
 
 * Advertiser-Datenquelle
 * Markendatenquelle
 * Plattform-Datenquelle
 
-Benutzer, die mehreren [!UICONTROL RBAC] Benutzern angehören, können zwischen der Ansicht der einzelnen Gruppen wechseln. Die angezeigten Daten werden aktualisiert, um die ausgewählte Gruppe zu berücksichtigen. Wenn Ihr Unternehmen nicht verwendet [!UICONTROL RBAC]wird, verfügen alle Benutzer über Administratorrechte und Zugriff auf alle Datenquellen (Konversionsgruppen).
+Users that belong to more than one [!UICONTROL RBAC] user group can switch between each group's view. Die angezeigten Daten werden aktualisiert, um die ausgewählte Gruppe zu berücksichtigen. If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the data sources (conversion groups).
 
-## Konversionsgruppen {#conversion-groups}
+## Conversion Groups {#conversion-groups}
 
-Stellen Sie in den [!UICONTROL Audience Optimization] Berichten Synonyme mit Datenquellen **[!UICONTROL Conversion Groups]** dar, die mindestens eine Konversionseigenschaft enthalten. Datenquellen, die nicht mindestens eine Konversionseigenschaft enthalten, werden in den [!UICONTROL Audience Optimization] Berichten nicht angezeigt. Sie können die Konversionseigenschaften für Konversionsgruppen im Bericht [&quot;Gemeldete Konversionseigenschaften](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md) &quot; anzeigen.
+In the [!UICONTROL Audience Optimization] reports, **[!UICONTROL Conversion Groups]** are synonymous with data sources that contain at least one conversion trait. Data sources which do not contain at least one conversion trait do not appear in the [!UICONTROL Audience Optimization] reports. You can view the conversion traits for conversion groups in the [Reported Conversion Traits](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md) report.
