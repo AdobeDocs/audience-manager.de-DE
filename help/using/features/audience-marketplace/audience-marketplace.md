@@ -15,13 +15,13 @@ source-git-commit: db98258a1f88867af4cd1369d35fa243a89f3f65
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] ermöglicht es Datenanbietern und Käufern, auf Selbstbedienungswegen mit minimalem Aufwand Daten durchzuführen. Dies geschieht durch spezielle Funktionen, die je nach Rolle als Datenkäufer oder Datenverkäufer variieren. Sie können sogar ein Käufer und ein Verkäufer gleichzeitig sein. Und wenn dies nicht besser werden kann, [!UICONTROL Audience Marketplace] übernimmt es Verträge, Rechnungsstellung und Zahlungen zwischen Datenanbietern und Verkäufern.
+[!UICONTROL Audience Marketplace] ermöglicht es Datenanbietern und Käufern, auf Selbstbedienungswegen mit minimalem Aufwand Daten durchzuführen. Dies geschieht durch spezielle Funktionen, die je nach Rolle als Datenkäufer oder Datenverkäufer variieren. Sie können sogar ein Käufer und ein Verkäufer gleichzeitig sein. And, if this couldn’t get any better, [!UICONTROL Audience Marketplace] takes care of contracts, billing, and payments between data providers and sellers.
 
-Wenden Sie sich an Ihren [!DNL Audience Manager] Vertriebsspezialisten, um zu beginnen. [!UICONTROL Audience Marketplace for you]Sie können aktiviert werden.
+Talk to your [!DNL Audience Manager] sales specialist to get started. [!UICONTROL Audience Marketplace for you]Sie können aktiviert werden.
 
 >[!NOTE]
 >
->Benutzerrollen steuern, was Sie tun können und nicht tun [!UICONTROL Audience Marketplace]können.
+>User roles control what you can and cannot do in [!UICONTROL Audience Marketplace].
 >
 > * Administratoren können Datenfeeds erstellen, Abonnenten verwalten und Datenfeeds abonnieren.
 > * Benutzer können Feeds nur suchen und anzeigen.
