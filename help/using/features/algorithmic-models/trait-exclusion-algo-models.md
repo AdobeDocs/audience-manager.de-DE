@@ -10,13 +10,13 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 ---
 
 
-# Algorithmische Modelle: Eigenschaftenausschluss {#algorithmic-models-trait-exclusion}
+# Algorithmic Models: Trait Exclusion {#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion] bietet zusätzliche Steuerelemente im Modellierungsarbeitsablauf, mit denen Sie dem Modell die erforderlichen Schutzrails hinzufügen können, basierend auf Ihren Kenntnissen und regulatorischen Vorschriften. Verwenden Sie die [!UICONTROL Exclusions] Option, um auszuwählen, welche Eigenschaften beim Erstellen von Modellen aus einer oder mehreren Datenquellen ignoriert werden sollen.
+[!UICONTROL Trait Exclusion] bietet zusätzliche Steuerelemente im Modellierungsarbeitsablauf, mit denen Sie dem Modell die erforderlichen Schutzrails hinzufügen können, basierend auf Ihren Kenntnissen und regulatorischen Vorschriften. Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
 
 ## Nutzungsszenarios {#use-cases}
 
-Im Folgenden finden Sie einige Anwendungsfälle, die Sie ansprechen [!UICONTROL Trait Exclusion]können:
+Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
 * [!UICONTROL Trait Exclusion] ermöglicht es Ihnen, bestimmte Catch-alle-Eigenschaften, wie z. B. Site-Besuchereigenschaften, auszuschließen, sodass Sie das Modell nicht verfälschen und zu stagnierenden Ergebnissen führen.
 * Sie können Eigenschaften entfernen, über die Sie nichts wissen oder die nicht von einer Datenquelle vertrauen, um die einflussreiche Eigenschaften besser verstehen zu können.
@@ -24,19 +24,19 @@ Im Folgenden finden Sie einige Anwendungsfälle, die Sie ansprechen [!UICONTROL 
 
 >[!IMPORTANT]
 >
->Ein wichtiger Hinweis zum dritten Verwendungsfall. Wenn der Drittanbieter-Datenprovider dem Datenfeed *nach Erstellung des Modells*eine neue demografische Eigenschaft hinzufügt, wird die Eigenschaft automatisch vom Modell aufgenommen. Sie können Eigenschaften nicht aus der Modellierung ausschließen, nachdem Sie das Modell erstellt haben. Siehe [Wichtige Aspekte und Einschränkungen](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Seien Sie vorsichtig, wenn Sie diese Funktion verwenden und mit dem Datenanbieter zusammenarbeiten, um sicherzustellen, dass Sie über Änderungen an der Feed-Struktur informiert werden.
+>Ein wichtiger Hinweis zum dritten Verwendungsfall. If the third-party data provider adds a new demographic trait to the data feed *after you created the model*, the trait is automatically picked up by the model. Sie können Eigenschaften nicht aus der Modellierung ausschließen, nachdem Sie das Modell erstellt haben. See [Important Aspects &amp; Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Seien Sie vorsichtig, wenn Sie diese Funktion verwenden und mit dem Datenanbieter zusammenarbeiten, um sicherzustellen, dass Sie über Änderungen an der Feed-Struktur informiert werden.
 
 ![](assets/lam_exclude_traits.png)
 
-## Verwenden von Eigenschaftsausnahmen {#how-to-use}
+## How to Use Trait Exclusions {#how-to-use}
 
-Verwenden Sie den [Arbeitsablauf zum Erstellen von Modellen](../../features/algorithmic-models/create-model.md#build-model) , um neue algorithmische Modelle zu erstellen.
+Use the [Build a model](../../features/algorithmic-models/create-model.md#build-model) workflow to build new algorithmic models.
 
-1. Die [!UICONTROL Exclusions] Auswahl wird ausgegraut, bis Sie eine oder mehrere Datenquellen für die Modellierung auswählen.
-2. Nachdem Sie eine oder mehrere Datenquellen für die Modellierung ausgewählt haben, klicken **[!UICONTROL Browse All Traits]** Sie auf.
-3. Im **[!UICONTROL Select Traits to Exclude]** Fenster können Sie alle Eigenschaften anzeigen, die mit den zuvor ausgewählten Datenquellen verknüpft sind. Wählen Sie die Eigenschaften aus, die Sie ausschließen möchten.
+1. The [!UICONTROL Exclusions] selection is greyed out until you select one or more data sources for modeling.
+2. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
+3. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Wählen Sie die Eigenschaften aus, die Sie ausschließen möchten.
 4. Sie können die Eigenschaften nach Eigenschaftstyp filtern oder die Ordner im Eigenschaftenmodus durchsuchen. Beachten Sie, dass Eigenschaftenordner nur die Eigenschaften anzeigen, die mit Ihren ausgewählten Datenquellen verknüpft sind.
-5. Drücken **[!UICONTROL Exclude Selected Traits]** Sie auf.
+5. Press **[!UICONTROL Exclude Selected Traits]**.
 
 >[!TIP]
 >
@@ -46,9 +46,9 @@ Wenn Sie Videolehrgänge bevorzugen, sehen Sie sich unsere Video-Demonstration f
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=ger)
 
-## Wichtige Aspekte und Einschränkungen {#important-aspects-and-limitations}
+## Important Aspects &amp; Limitations {#important-aspects-and-limitations}
 
-Bitte beachten Sie die folgenden Aspekte und Einschränkungen in Bezug auf [!UICONTROL Trait Exclusion]:
+Please take note of the following aspects and limitations related to [!UICONTROL Trait Exclusion]:
 
 <table id="table_BA5C3545BC9E4717BD567B00C803AA53"> 
  <thead> 
@@ -60,14 +60,14 @@ Bitte beachten Sie die folgenden Aspekte und Einschränkungen in Bezug auf [!UIC
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ausgeschlossene Eigenschaften in der Modellzusammenfassung </p> </td>
-   <td colname="col2"> <p>Die ausgeschlossenen Eigenschaften <i>werden</i> in der Ansicht "Modelle - Zusammenfassung" nicht angezeigt. Die ausgeschlossenen Eigenschaften werden nur im Arbeitsablauf "Modell <b><span class="uicontrol"> bearbeiten</span></b> " angezeigt. </p> </td>
+   <td colname="col2"> <p>The excluded traits <i>do not show up</i> in the Models Summary view. You can see the excluded traits only in the <b><span class="uicontrol"> Edit Model</span></b> workflow. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rollenbasierte Zugriffssteuerungssteuerung (RBAC) </p> </td>
-   <td colname="col2"> <p>Beachten Sie die folgenden Einschränkungen für Unternehmen, die <a href="../../features/administration/administration-overview.md#administration"> RBAC verwenden</a>: </p> <p>
+   <td colname="col2"> <p>Note the following limitations for companies using <a href="../../features/administration/administration-overview.md#administration"> RBAC</a>: </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
-      <li id="li_2624FB35581F4807B8530910D63FFDBF">Wenn Sie keinen Zugriff auf die Anzeige einer Eigenschaft haben, <i>können</i> Sie diese Eigenschaft nicht aus dem Modell ausschließen. </li>
-      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Wenn Sie keinen Zugriff auf eine Eigenschaft <i>haben,</i> können Sie diese Eigenschaft nicht in der ausgeschlossenen Eigenschaftsliste anzeigen. </li>
+      <li id="li_2624FB35581F4807B8530910D63FFDBF">If you don't have access to view a trait, you <i>cannot</i> select that trait to be excluded from the model. </li>
+      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">If you don't have access to view a trait, you <i>cannot</i> view that trait in the excluded traits list. </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Bitte beachten Sie die folgenden Aspekte und Einschränkungen in Bezug auf [!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grundlinieneigenschaft ausschließen </p> </td>
-   <td colname="col2"> <p>Die Grundlinieneigenschaft wird standardmäßig ausgeschlossen, sodass sie nicht in der <b><span class="uicontrol"> Ausschlussliste</span></b> angezeigt wird, wenn das Modell erstellt wird. </p> </td>
+   <td colname="col2"> <p>The baseline trait is excluded by default, so it does not show up in the <b><span class="uicontrol"> Exclusions</span></b> list, when building the model. </p> </td>
   </tr>
  </tbody>
 </table>
