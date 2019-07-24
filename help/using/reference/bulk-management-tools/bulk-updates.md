@@ -12,7 +12,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Massenaktualisierungen{#bulk-updates}
+# Bulk Updates{#bulk-updates}
 
 Mit einer Massenaktualisierung können Sie mehrere Segmente, Eigenschaften und Segmente oder Eigenschaftenordner in einem einzelnen Vorgang bearbeiten. Führen Sie die folgenden Schritte aus, um Massenaktualisierungen vorzunehmen.
 
@@ -24,12 +24,12 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->Die Variable [!UICONTROL Bulk Management Tools]*wird nicht* unterstützt [!DNL Audience Manager]. Dieses Tool wird zur Bequemlichkeit und nur als Freundlichkeit bereitgestellt. Für Massenänderungen wird empfohlen, stattdessen mit den [Audience Manager-apis](../../api/rest-api-main/aam-api-getting-started.md) zu arbeiten. [RBAC-Gruppenberechtigungen,](../../features/administration/administration-overview.md) die in der [!DNL Audience Manager] Benutzeroberfläche zugewiesen [!UICONTROL Bulk Management Tools]wurden, werden in der Benutzeroberfläche berücksichtigt.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Dieses Tool wird zur Bequemlichkeit und nur als Freundlichkeit bereitgestellt. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC-Gruppenberechtigungen,](../../features/administration/administration-overview.md) die in der [!DNL Audience Manager] Benutzeroberfläche zugewiesen [!UICONTROL Bulk Management Tools]wurden, werden in der Benutzeroberfläche berücksichtigt.
 
-Um Massenaktualisierungen vorzunehmen, öffnen Sie das [!UICONTROL Bulk Management Tools] Arbeitsblatt und:
+To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and:
 
-1. Klicken Sie auf die **[!UICONTROL Headers]** Registerkarte und kopieren Sie die Aktualisierungskopfzeilen für das Element, das Sie bearbeiten möchten.
-1. Klicken Sie auf die **[!UICONTROL Update]** Registerkarte.
+1. Click the **[!UICONTROL Headers]** tab and copy the update headers for the item you want to edit.
+1. Click the **[!UICONTROL Update]** tab.
 1. Fügen Sie die Updatepakete in die erste Zeile des Aktualisierungsarbeitsblatts ein. Beachten Sie Folgendes:
 
    * Beim Aktualisieren eines Ordners sind alle Header erforderlich.
@@ -37,12 +37,12 @@ Um Massenaktualisierungen vorzunehmen, öffnen Sie das [!UICONTROL Bulk Manageme
 
 1. Fügen Sie die Daten, die Sie ändern möchten, in eine entsprechende Spalte ein, basierend auf der Kopfzeilenbeschriftung.
 1. Klicken Sie in der Symbolleiste des Arbeitsblatts auf eine Aktualisierungsschaltfläche, die dem Element entspricht, das Sie aktualisieren.
-Mit dieser Aktion wird das [!UICONTROL Account Information] Dialogfeld geöffnet.
+This action opens the [!UICONTROL Account Information] dialog box.
 
-1. Geben Sie die erforderlichen [Informationen ein](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) und klicken **[!UICONTROL Submit]** Sie auf.
+1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
 
-   Das Arbeitsblatt erstellt eine [!UICONTROL Results] Spalte. Die [!UICONTROL Results] Spalte gibt die JSON-Antwort für einen erfolgreichen Vorgang zurück. Beispiele finden Sie in [den REST-apis](../../api/rest-api-main/rest-api-main.md) . Vor der Eingabe der Daten sollte Ihr Massen-Updatesheet wie folgt aussehen:
+   The worksheet creates a [!UICONTROL Results] column. The [!UICONTROL Results] column returns the JSON response for a successful operation. See the [REST APIs](../../api/rest-api-main/rest-api-main.md) for examples. Vor der Eingabe der Daten sollte Ihr Massen-Updatesheet wie folgt aussehen:
 
 ![](assets/update.png)
 
-Wenn Ihre Massenaktualisierung einen Fehler zurückgibt oder fehlschlägt, finden [Sie weitere Informationen unter Fehlerbehebung für Massenverwaltungswerkzeuge](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
