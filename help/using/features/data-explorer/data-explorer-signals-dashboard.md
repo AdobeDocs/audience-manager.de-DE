@@ -10,21 +10,21 @@ source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 ---
 
 
-# Signales Dashboard {#signals-dashboard}
+# Signals Dashboard {#signals-dashboard}
 
-Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die von Audience Manager in den letzten 7 Tagen empfangen wurden, und identifizieren Sie potenzielle neue Eigenschaften. Nicht genutzte Signale erreichen den Audience Manager von Ihren Online-Eigenschaften, werden aber in keiner Ihrer vorhandenen Eigenschaften verwendet. Gehen Sie zum Anzeigen von [!UICONTROL Signals Dashboard]&gt; zu [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. Die Ansicht [!UICONTROL Signals Dashboard] zeigt Ihnen umsetzbare Einblicke auf der Grundlage Ihrer am aktivsten verwendeten Signale.
+Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die von Audience Manager in den letzten 7 Tagen empfangen wurden, und identifizieren Sie potenzielle neue Eigenschaften. Nicht genutzte Signale erreichen den Audience Manager von Ihren Online-Eigenschaften, werden aber in keiner Ihrer vorhandenen Eigenschaften verwendet. To view the [!UICONTROL Signals Dashboard], go to [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. The [!UICONTROL Signals Dashboard] shows you actionable insights based on your most active unused signals.
 
 >[!IMPORTANT]
 >
->In **[!UICONTROL Top Unused Signals]** den Abschnitten **[!UICONTROL New Unused Signals]** werden nur Datensätze mit mehr als **100 Vorkommen/Stunde angezeigt**. Signale unter diesem Schwellenwert sind in eingeschlossen [!UICONTROL Signals Search].
+>The **[!UICONTROL Top Unused Signals]** and **[!UICONTROL New Unused Signals]** sections only display records with more than **100 occurrences/hour**. Signals below that threshold are included in [!UICONTROL Signals Search].
 
-## Nicht verwendete Signale {#top-unused-signals}
+## Top Unused Signals {#top-unused-signals}
 
-Dieser Abschnitt zeigt Ihnen die 50 nicht verwendeten Signalen (sowohl neue als auch alte), die [!DNL Audience Manager] in den vergangenen 7 Tagen an die Gesamtanzahl gesendet wurden. Abhängig von den Daten [!DNL Audience Manager] kann diese Tabelle einige oder alle Einträge in der Tabelle **&quot;Neue nicht verwendete Signalen** &quot; enthalten.
+This section shows you the top 50 unused signals (both new and old) sent to [!DNL Audience Manager] in the past 7 days, based on their total count. Depending on the data [!DNL Audience Manager] receives, this table can include some or all of the entries in the **New Unused Signals** table.
 
 ![](assets/signals-top-unused.png)
 
-## Neue nicht verwendete Signale {#new-unused-signals}
+## New Unused Signals {#new-unused-signals}
 
 Dieser Abschnitt zeigt Ihnen die 50 neuen nicht verwendeten Signale, die in den vergangenen 7 Tagen empfangen wurden.
 
