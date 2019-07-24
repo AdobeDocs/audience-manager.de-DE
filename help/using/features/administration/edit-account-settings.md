@@ -12,17 +12,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Kontoeinstellungen bearbeiten {#edit-your-account-settings}
+# Edit Your Account Settings {#edit-your-account-settings}
 
 Benutzer ohne Administratorrechte können ihre eigenen Profile bearbeiten, einschließlich Ändern ihrer E-Mail-Adressen und Zurücksetzen ihrer Passwörter.
 
 <!-- t_edit_account_settings.xml -->
 
-Administratoren können Benutzer erstellen und Gruppen zu Berechtigungen hinzufügen, wie unter [Erstellen von Benutzern](../../features/administration/administration-overview.md#create-users) und [Erstellen einer Gruppe beschrieben](../../features/administration/administration-overview.md#create-group).
+Admin users can create users and add them to groups for permission purposes, as explained in [Create Users](../../features/administration/administration-overview.md#create-users) and [Create a Group](../../features/administration/administration-overview.md#create-group).
 
-1. Klicken ![](assets/icon_profile.png)Sie in der Kopfzeile des Audience Manager auf.
-1. Klicken **[!UICONTROL Account Settings]** Sie auf und klicken **[!UICONTROL Edit]** Sie dann, um die [!UICONTROL My Account] Seite anzuzeigen.
-1. Geben Sie bei Bedarf im **[!UICONTROL Email Address]** Feld Ihre neue E-Mail-Adresse an. Audience Manager sendet keine regelmäßigen Benachrichtigungen an Benutzer. Audience Manager-Administratoren haben Zugriff auf die E-Email-Adressen der Benutzer und können Benutzer bei Bedarf manuell e-email senden. Wenn ein Benutzer beispielsweise sein Kennwort vergisst, wird die in diesem Feld angegebene E-Mail-Adresse zum Senden eines temporären Kennworts und Anweisungen zum Zurücksetzen des Kennworts verwendet.
+1. In the Audience Manager header, click ![](assets/icon_profile.png).
+1. Click **[!UICONTROL Account Settings]**, then click **[!UICONTROL Edit]** to display the [!UICONTROL My Account] page.
+1. In the **[!UICONTROL Email Address]** field, specify your new email address, if necessary. Audience Manager sendet keine regelmäßigen Benachrichtigungen an Benutzer. Audience Manager-Administratoren haben Zugriff auf die E-Email-Adressen der Benutzer und können Benutzer bei Bedarf manuell e-email senden. Wenn ein Benutzer beispielsweise sein Kennwort vergisst, wird die in diesem Feld angegebene E-Mail-Adresse zum Senden eines temporären Kennworts und Anweisungen zum Zurücksetzen des Kennworts verwendet.
 1. Um Ihr Kennwort zurückzusetzen, geben Sie das aktuelle Kennwort an, geben Sie das neue Kennwort an und bestätigen Sie dann das neue Kennwort.
-Siehe auch [Passwortanforderungen, gesperrte Konten und vergessene Passwörter](../../reference/password-requirements.md).
+See also, [Password Requirements, Locked Accounts, and Forgotten Passwords](../../reference/password-requirements.md).
 1. Klicken Sie auf **[!UICONTROL Save]**.
