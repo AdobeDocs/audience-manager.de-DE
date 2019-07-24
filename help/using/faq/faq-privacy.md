@@ -11,21 +11,21 @@ source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
 ---
 
 
-# Häufig gestellte Fragen zu Datenschutz und Datenaufbewahrung{#privacy-and-data-retention-faq}
+# Privacy and Data Retention FAQ{#privacy-and-data-retention-faq}
 
 Antworten auf häufige Fragen oder Probleme zum Thema Datenschutz und Daten.
 
 <!-- faq_privacy.xml -->
 
-## Häufig gestellte Fragen zum Datenschutz {#privacy-faq}
+## Privacy FAQ {#privacy-faq}
 
 >[!TIP]
 >
->Weitere Informationen finden Sie im [Datenschutzcenter](https://www.adobe.com/privacy.html) von Adobe.
+>Visit the [Adobe Privacy Center](https://www.adobe.com/privacy.html) for more information.
 
 **Wie verwendet Audience Manager Cookies und welche Cookies werden gesetzt?**
 
-Siehe [Audience Manager-Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
+See [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
 
 **Können Audience Manager-Kunden in den USA Benutzer auf EU-Eigenschaften als Ziel auswählen?**
 
@@ -52,48 +52,48 @@ In der folgenden Tabelle sind die Verfolgungszeiten für verschiedene Datentypen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Back-End-Server </p> </td> 
-   <td colname="col2"> <p>120 Tage. </p> <p> Audience Manager löscht Benutzerdaten von unseren Back-End-Servern 120 Tage nach dem letzten Anzeigen eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 120-Tage-Zyklus aufzeichnet, werden diese Daten für weitere 120 Tage aufbewahrt. </p> </td> 
+   <td colname="col2"> <p>120 Tage. </p> <p> Audience Manager löscht Benutzerdaten von unseren Back-End-Servern 120 Tage nach dem letzten Anzeigen eines Benutzers auf der Audience Manager-Plattform. If <span class="keyword"> Audience Manager</span> records user activity within this 120-day cycle, we will keep this data for another 120-days. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-Server </p> </td> 
-   <td colname="col2"> <p> 14 Tage. </p> <p>Audience Manager löscht Benutzerdaten von unseren Edge-Servern 14 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 14-Tage-Zyklus aufzeichnet, werden diese Daten für weitere 14 Tage beibehalten. Wenn der Benutzer nach dem 14-Tage-Zeitraum erneut aktiv wird, gibt es eine Verzögerung zwischen dieser ersten neuen Seitenansicht und dem Zeitpunkt, zu dem der Benutzer nachvollziehbar wird. Es dauert 6 bis 18 Stunden, bis das vollständige Profil nach mehr als 14 Tagen Inaktivität wieder zur Edge-Mitte zurückkehrt. </p> </td> 
+   <td colname="col2"> <p> 14 Tage. </p> <p>Audience Manager löscht Benutzerdaten von unseren Edge-Servern 14 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. If <span class="keyword"> Audience Manager</span> records user activity in within this 14-day cycle, we will keep this data for another 14-days. Wenn der Benutzer nach dem 14-Tage-Zeitraum erneut aktiv wird, gibt es eine Verzögerung zwischen dieser ersten neuen Seitenansicht und dem Zeitpunkt, zu dem der Benutzer nachvollziehbar wird. Es dauert 6 bis 18 Stunden, bis das vollständige Profil nach mehr als 14 Tagen Inaktivität wieder zur Edge-Mitte zurückkehrt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rohprotokolle </p> </td> 
-   <td colname="col2"> <p>180 Tage (nach 180 Tagen ohne Aktivität entfernt). </p> <p>Rohprotokolle sind Daten, die von einem Edge-Server über HTTP-Aufrufe empfangen werden oder aus Onboarved-Dateien, die an <span class="keyword"> Audience Manager gesendet</span>wurden. </p> </td> 
+   <td colname="col2"> <p>180 Tage (nach 180 Tagen ohne Aktivität entfernt). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anzeigen-Server-Protokolle </p> </td> 
-   <td colname="col2"> <p><b>Berichterstellung</b> </p> <p>Protokolldateien werden für Berichterstellungszwecke bis zu 30 Tage beibehalten. Wir bleiben nicht übereinstimmende Protokolle (d. h. Protokolle, für die keine ID-Synchronisierung zwischen der Werbeserver-ID des Besuchers und <span class="keyword"> Audience Manager</span> -ID) in unserem Backend-Speicher <span class="keyword"> vorhanden ist,</span> werden in unserem Backend-Speicher gespeichert, und übereinstimmende Protokolle werden bis zu 30 Tage aufbewahrt. </p> <p><b>Actionable Log Files</b> </p> <p>Übereinstimmende und nicht übereinstimmende Protokolle werden bis zu 30 Tage aufbewahrt. </p> </td> 
+   <td colname="col2"> <p><b>Berichterstellung</b> </p> <p>Protokolldateien werden für Berichterstellungszwecke bis zu 30 Tage beibehalten. We do not persist unmatched logs (i.e. logs for which there is no ID sync between a visitor's ad server ID and <span class="keyword"> Audience Manager</span> ID) in our backend storage, and matched logs stored in <span class="keyword"> Amazon S3</span> are retained for up to 30 days. </p> <p><b>Actionable Log Files</b> </p> <p>Übereinstimmende und nicht übereinstimmende Protokolle werden bis zu 30 Tage aufbewahrt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CRM-Ebenenprofile (authentifizierte Profile) </p> </td> 
-   <td colname="col2"> <p>Das Standardmäßige Zeitintervall (TTL) für inaktive CRM-Ebenenprofile (Kunden-IDs) beträgt 24 Monate. Sie können die Benutzeroberfläche von Audience Manager jedoch verwenden, um das TTL-Intervall für inaktive CRM-Ebenenprofile zwischen einem Monat und 5 Jahren zu reduzieren oder zu erweitern. Dies können Sie beim Erstellen oder Bearbeiten einer geräteübergreifenden Datenquelle erreichen.</p> <p>Weitere Informationen finden Sie unter Datenquelleneinstellungen unter <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Erstellen einer geräteübergreifenden Datenquelle </a>.</p> </td> 
+   <td colname="col2"> <p>Das Standardmäßige Zeitintervall (TTL) für inaktive CRM-Ebenenprofile (Kunden-IDs) beträgt 24 Monate. Sie können die Benutzeroberfläche von Audience Manager jedoch verwenden, um das TTL-Intervall für inaktive CRM-Ebenenprofile zwischen einem Monat und 5 Jahren zu reduzieren oder zu erweitern. Dies können Sie beim Erstellen oder Bearbeiten einer geräteübergreifenden Datenquelle erreichen.</p> <p>For more information, see Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Create a Cross-Device Data Source </a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobilgeräte-IDs </p> </td> 
-   <td colname="col2"> <p>Die Aufbewahrungsbedingungen für Mobilgeräte-IDs (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) folgen dem in den ersten beiden Zeilen, Backend-Servern und Edge-Servern beschriebenen Cache. </p> </td> 
+   <td colname="col2"> <p>The retention conditions for mobile device IDs (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) follow the cadence described in the first two rows, back-end servers and edge servers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kundendatenfeeds (CDF) </p> </td> 
-   <td colname="col2"> <p>Eine CDF-Datei enthält dieselben Daten, die ein <span class="keyword"> Audience Manager</span> -Ereignisaufruf (/-ereignis) an unsere Server sendet. Der Aufbewahrungszeitraum beträgt 8 Tage. Weitere Informationen zu CDF finden Sie unter <a href="../features/cdf-files.md"> CDF-Einführung und</a> <a href="../faq/faq-cdf.md"> CDF-häufig gestellte Fragen</a>. </p> </td> 
+   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. Der Aufbewahrungszeitraum beträgt 8 Tage. For more details about CDF, please refer to <a href="../features/cdf-files.md"> CDF Intro</a> and <a href="../faq/faq-cdf.md"> CDF FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zuordnungen zwischen synchronisierten IDs </p> </td> 
-   <td colname="col2"> <p>Zuordnungen zwischen synchronisierten IDs können für die gesamte Benutzer-ID <a href="../reference/ids-in-aam.md"> des Audience Manager-ID (AAM UUID) beibehalten</a>werden. </p> </td> 
+   <td colname="col2"> <p>Mappings between synchronized IDs may be kept for the life of the associated <a href="../reference/ids-in-aam.md"> Audience Manager Unique User ID (AAM UUID)</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eingehende Daten </p> </td> 
-   <td colname="col2"> <p>Dies sind eingehende Daten, die <span class="keyword"> Sie</span> per FTP oder direkt in einen <span class="keyword"> Amazon S 3</span> -Ordner an Audience Manager senden. Siehe Häufig gestellte Fragen zu <a href="../faq/faq-inbound-data-ingestion.md"> Inbound Customer Data Capture</a>. </p> </td> 
+   <td colname="col2"> <p>This is inbound data you send to <span class="keyword"> Audience Manager</span> by FTP or directly to an <span class="keyword"> Amazon S3</span> directory. See the <a href="../faq/faq-inbound-data-ingestion.md"> Inbound Customer Data Ingestion FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ausgehende Daten </p> </td> 
-   <td colname="col2"> <p>Dies sind die Batch-Daten, die <span class="keyword"> Audience Manager</span> an Drittanbieter-Aktivierungspartner sendet. Der Aufbewahrungszeitraum beträgt 8 Tage. Weitere Informationen zu ausgehenden Daten finden Sie unter <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> Ausgehende Batch-Übertragungen</a>. </p> </td> 
+   <td colname="col2"> <p>This is the batch data that <span class="keyword"> Audience Manager</span> sends to third party activation partners. Der Aufbewahrungszeitraum beträgt 8 Tage. For more details about Outbound data, please refer to <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> Outbound Batch Transfers</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Trait-Qualifizierungsdatenspeicherung {#trait-qual}
+## Trait Qualification Data Retention {#trait-qual}
 
 In der folgenden Tabelle sind die Treueoptionen für Trait-Qualifikationen aufgeführt.
 
@@ -111,7 +111,7 @@ In der folgenden Tabelle sind die Treueoptionen für Trait-Qualifikationen aufge
   </tr> 
   <tr> 
    <td colname="col1"> <p>Trait-Limit erreicht </p> </td> 
-   <td colname="col2"> <p>Wir setzen ein Limit von 100.000 Eigenschaften für jedes Benutzerprofil ein. Die Beschränkung gilt für authentifizierte Profile und Geräteprofile. Wenn ein Benutzerprofil diese Grenze erreicht, löschen wir die ältesten Eigenschaften von Eigenschaften zunächst auf erster Ebene. </p> <p>Weitere Informationen finden Sie in unserem <a href="../features/traits/trait-qualification-reference.md#trait-qualification-limit"> Trait-Qualifikationsgrenzwert</a>. </p> </td> 
+   <td colname="col2"> <p>Wir setzen ein Limit von 100.000 Eigenschaften für jedes Benutzerprofil ein. Die Beschränkung gilt für authentifizierte Profile und Geräteprofile. Wenn ein Benutzerprofil diese Grenze erreicht, löschen wir die ältesten Eigenschaften von Eigenschaften zunächst auf erster Ebene. </p> <p>For more details, read our <a href="../features/traits/trait-qualification-reference.md#trait-qualification-limit"> Trait Qualification Limit</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
