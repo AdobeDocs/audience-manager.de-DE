@@ -11,15 +11,15 @@ source-git-commit: b54146cdc2e60215c951bd6a1bed7a830400bfb7
 ---
 
 
-# Integration von Audience Manager in Target {#integrate-audience-manager-with-target}
+# Integrate Audience Manager With Target {#integrate-audience-manager-with-target}
 
-Mit dieser Integration können Sie Audience Manager-Segmente an Adobe [!DNL Target]senden.
+This integration lets you send Audience Manager segments to Adobe [!DNL Target].
 
-Audience Manager - [!DNL Target] Integration erfordert:
+An Audience Manager - [!DNL Target] integration requires:
 
-* Der [Experience Cloud-Dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/). Wenn Sie diesen Dienst nicht verwenden, lesen Sie die [Implementierungshandbücher](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) , um zu beginnen.
-* Profiles &amp; Audiences. Wenn Sie für Profile und Zielgruppen nicht bereitgestellt werden, füllen Sie das Formular auf der Seite [&quot;Experience Cloud Integrations&quot; aus](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) oder wenden Sie sich an Ihren Berater, um zu beginnen.
+* The [Experience Cloud service](https://marketing.adobe.com/resources/help/en_US/mcvid/). If you're not using this service, see the [implementation guides](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) to get started.
+* Profiles &amp; Audiences. If you're not provisioned for Profiles and Audiences, complete the form on the [Experience Cloud Integrations page](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) or contact your consultant to get started.
 
-Alle Ihre Audience Manager-Segmente werden [!DNL Target] kurz nach Abschluss dieser Schritte im Implementierungsprozess angezeigt. Sehen **[!UICONTROL Audiences > Audience List]** Sie sich Ihre Audience Manager-Segmente an [!DNL Target].
+All of your Audience Manager segments will appear in [!DNL Target] shortly after you complete these steps in the implementation process. Look in **[!UICONTROL Audiences > Audience List]** to see your Audience Manager segments in [!DNL Target].
 
 ![](../assets/target.png)
