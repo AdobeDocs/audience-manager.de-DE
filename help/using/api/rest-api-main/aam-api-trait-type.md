@@ -11,7 +11,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Eigenschaftstypmethoden {#trait-type-methods}
+# Trait Type Methods {#trait-type-methods}
 
 Optionale Methoden, mit denen Sie einem benutzerdefinierten Typ oder einer Kategorie Eigenschaften zuweisen können, normalerweise entsprechend der Funktion oder für Ihre eigenen internen Berichterstellungsprozesse.
 
@@ -19,13 +19,13 @@ Optionale Methoden, mit denen Sie einem benutzerdefinierten Typ oder einer Kateg
 
 >[!NOTE]
 >
->Eigenschaften von Eigenschaften weisen Kategorien, die von der [allgemeinen Taxonomie verwendet werden, keine Eigenschaften](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)zu. Stellen Sie sich diese als Beschriftungen vor, die von der allgemeinen Taxonomie getrennt sind.
+>Trait type methods do not assign traits to categories used by the [common taxonomy](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Stellen Sie sich diese als Beschriftungen vor, die von der allgemeinen Taxonomie getrennt sind.
 
-Bei visueller Referenz handelt [!UICONTROL Trait Types] es sich um eine Dropdown-Steuerung im [!DNL UI] Abschnitt unter **[!UICONTROL Traits > Create new trait > Basic Information]**.
+For visual reference, [!UICONTROL Trait Types] is a dropdown control located in the [!DNL UI] under **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Neuen Eigenschaften-Typ erstellen {#create-trait-type}
+## Create a New Trait Type {#create-trait-type}
 
-Eine `POST` Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
+A `POST` method that lets you create a new trait type.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -56,9 +56,9 @@ Eine `POST` Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
 }
 ```
 
-## Rückgabeeigenschaften für einen Trait-Typ {#return-props}
+## Return Properties for a Trait Type {#return-props}
 
-Eine `GET` Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
+A `GET` method that returns details about the specified trait type.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -81,7 +81,7 @@ Eine `GET` Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
 }
 ```
 
-## Rückgabeeigenschaften für alle Trait-Typen {#return-props-all}
+## Return Properties for all Trait Types {#return-props-all}
 
 `GET` Eine Methode, die Details zu all Ihren Eigenschaften in einem Array zurückgibt.
 
