@@ -11,19 +11,19 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
 ---
 
 
-# Inhalt der eingehenden Datendatei: Syntax, Ungültige Zeichen, Variablen und Beispiele{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Erforderliche Felder, Syntax und Regeln, die Sie bei der Formatierung einer eingehenden Eigenschaftendatei befolgen sollten.
 
-## Syntax für Dateiinhalt {#file-content-syntax}
+## File Content Syntax {#file-content-syntax}
 
-Felder in der eingehenden Datendatei müssen in der unten stehenden Reihenfolge angezeigt werden. In diesem Beispiel wurden die `<``>` Symbole hinzugefügt, um jedes Element visuell zu trennen. Sie müssen diese nicht in Ihre Datendatei aufnehmen.
+Felder in der eingehenden Datendatei müssen in der unten stehenden Reihenfolge angezeigt werden. In this example, the `<` `>` symbols have been added to help separate each element visually. Sie müssen diese nicht in Ihre Datendatei aufnehmen.
 
 ```
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
 ```
 
-Weitere akzeptierte Dateiinhaltsformate finden Sie unter [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
+For other accepted file content formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Weitere akzeptierte Dateiinhaltsformate finden Sie unter [Benutzerdefinierte Par
 ><user ID2><TAB><trait ID>,<trait ID>,<trait ID>
 >```
 
-## Definierte Dateivariablen {#file-variables-defined}
+## File Variables Defined {#file-variables-defined}
 
 In der Tabelle werden die Variablen aufgeführt und definiert, die in einer ordnungsgemäß formatierten Datendatei verwendet werden. Eine *kursive* Formatierung gibt einen Variablenplatzhalter an.
 
@@ -54,12 +54,12 @@ In der Tabelle werden die Variablen aufgeführt und definiert, die in einer ordn
    <td colname="col1"> <p> <code> <i>Benutzer-ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Eine Benutzer-ID kann: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
-      <li id="li_23829FE2F6464E33859B3E388FCD106B">Eine eindeutige Benutzer-ID, die von <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> UUID des Audience Manager) </a>zugewiesen wird. </li> 
-      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Eine eindeutige Benutzer-ID, die in Ihrem CRM-System ( <a href="../../../reference/ids-in-aam.md"> DPUUID, Audience Manager </a>) zugewiesen wird. </li> 
+      <li id="li_23829FE2F6464E33859B3E388FCD106B">A unique user ID assigned by <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
+      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">A unique user ID assigned in your CRM system ( <a href="../../../reference/ids-in-aam.md"> DPUUID, in Audience Manager </a>). </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Eine mobile Android- oder ios-Geräte-ID in ihrem ursprünglichen, nicht geänderten Formular, wie vom Betriebssystem bereitgestellt. </li> 
      </ul> </p> <p>Für mobile IDs: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
-      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA-Format: IDs müssen großgeschrieben und nicht Hash sein. Beispiel: <code> 6 D 92078 A -8246-4 BA 4-AE 5 B -76104861 E 7 DC </code> </li> 
+      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA-Format: IDs müssen großgeschrieben und nicht Hash sein. For example, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
       <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android-Format: IDs müssen kleingeschrieben und nicht Hash sein. <code> Beispiel: 97987 bca-ae 59-4 c 7 d -94 ba-ee 4 f 19 ab 8 c 21 </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -69,14 +69,14 @@ In der Tabelle werden die Variablen aufgeführt und definiert, die in einer ordn
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>Eigenschafts-ID </i></code> </p> </td> 
-   <td colname="col2"> <p>Die Eigenschaft <span class="keyword"> "Zielgruppen-Manager </span> «. Wir bitten, <i>nur die eingehenden Eigenschaften</i> in eingehenden Datendateien einzuschließen. In der eingehenden Datenübertragung werden keine anderen Eigenschaften verarbeitet. </p> <p> <p>Hinweis: Die Eigenschafts-ID kann mithilfe der GET-Methode gefunden werden, die Details zu all Ihren Eigenschaften zurückgibt. Weitere Informationen finden Sie unter <a href="../../../api/rest-api-main/api-traits.md"> Eigenschaften-API-Methoden </a>. </p> </p> </td> 
+   <td colname="col2"> <p>The <span class="keyword"> Audience Manager </span> trait ID. We ask that you include <i>only onboarded traits</i> in inbound data files. In der eingehenden Datenübertragung werden keine anderen Eigenschaften verarbeitet. </p> <p> <p>Hinweis: Die Eigenschafts-ID kann mithilfe der GET-Methode gefunden werden, die Details zu all Ihren Eigenschaften zurückgibt. For more information, see <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Formatieren von Eigenschafts-IDs {#formatting-trait-ids}
+## Formatting Trait IDs {#formatting-trait-ids}
 
-Die folgende Tabelle beschreibt die Präfixe, die Eigenschaften oder IDs in einer eingehenden Datendatei identifizieren. Beispiele finden Sie in Beispieldateien [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) .
+Die folgende Tabelle beschreibt die Präfixe, die Eigenschaften oder IDs in einer eingehenden Datendatei identifizieren. See the [sample files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) for examples.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -88,20 +88,20 @@ Die folgende Tabelle beschreibt die Präfixe, die Eigenschaften oder IDs in eine
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_ sid = </code> </p> </td> 
-   <td colname="col2"> <p>Das Präfix <code> d_ sid </code> teilt unserem System mit, dass es sich bei der ID um eine <span class="keyword"> Zielgruppen-ID </span> handelt. Dies ist die gleiche ID, die in der Benutzeroberfläche angezeigt wird. Sie können auch Eigenschaften-IDs mit der API <code> GET </code> -Methode zurückgeben. Siehe <a href="../../../api/rest-api-main/api-traits.md"> Eigenschaften für Eigenschaften-API </a>. </p> </td>
+   <td colname="col2"> <p>The <code> d_sid </code> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. Dies ist die gleiche ID, die in der Benutzeroberfläche angezeigt wird. You can also return trait IDs with the API <code> GET </code> method. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_ unsid = </code> </p> </td> 
-   <td colname="col2"> <p>Mit <code> d_ unsid </code> präfix werden Benutzer aus dieser Eigenschaft entfernt. Das Präfix <code> d_ unsid </code> wird in einer <code> Überschreibungsdatei </code> ignoriert. </p> <p>Das <code> Präfix d_ unsid = </code> gibt unserem System an, dass es sich bei der ID um eine <span class="keyword"> Zielgruppen-ID </span> handelt. Dies ist die gleiche ID, die in der Benutzeroberfläche angezeigt wird. Sie können auch Eigenschaften-IDs mit der API <code> GET </code> -Methode zurückgeben. Siehe <a href="../../../api/rest-api-main/api-traits.md"> Eigenschaften für Eigenschaften-API </a>. </p> </td>
+   <td colname="col2"> <p>Data prefixed with <code> d_unsid </code> removes users from that trait. The <code> d_unsid </code> prefix is ignored in an <code> overwrite </code> file. </p> <p>The <code> d_unsid= </code> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. Dies ist die gleiche ID, die in der Benutzeroberfläche angezeigt wird. You can also return trait IDs with the API <code> GET </code> method. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic = </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Mit Trait-Regeln </a> können Sie Kriterien für die Eigenschaftenqualifikation festlegen. Wenn Sie eine Eigenschaftsregel als <code> ic = = merkmal-ID </code>formatieren, können Sie Eigenschaften in einer einfachen, kommageformatierten Liste senden. </p> <p>Nehmen wir beispielsweise an, Sie erstellen diese 3 Trait-Regeln: </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Mit Trait-Regeln </a> können Sie Kriterien für die Eigenschaftenqualifikation festlegen. If you format a trait rule as <code> ic == trait ID </code>, you can send in traits in a simple comma formatted list. </p> <p>Nehmen wir beispielsweise an, Sie erstellen diese 3 Trait-Regeln: </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic = = "123" </code> </li>
       <li> <code> ic = = "456" </code> </li>
       <li> <code> ic = = "789" </code> </li>
-     </ul> </p> <p>Diese Eigenschaften sind mit dem <code> Zeichenschlüssel </code> verknüpft. Dadurch können Sie eine einfachere Liste der Eigenschaften in der Datendatei erstellen. Außerdem müssen Sie das <code> Präfix nicht </code> einschließen. Daher könnte der Inhalt Ihrer Datendatei wie folgt aussehen: </p> <p>
+     </ul> </p> <p>These traits are associated with the <code> ic </code> key. Dadurch können Sie eine einfachere Liste der Eigenschaften in der Datendatei erstellen. And, you do not need to include the <code> ic </code> prefix. Daher könnte der Inhalt Ihrer Datendatei wie folgt aussehen: </p> <p>
      <code><i>Benutzer-ID</i> &lt; TAB &gt; 123.456.789 </code>
   </p> </td> 
   </tr> 
@@ -118,11 +118,11 @@ Die folgende Tabelle beschreibt die Präfixe, die Eigenschaften oder IDs in eine
  </tbody>
 </table>
 
-## Ungültige Zeichen in Eigenschafts-IDs, Benutzer-IDs und Schlüssel-Wert-Paaren {#invalid-chars}
+## Invalid Characters in Trait IDs, User IDs and Key-Value Pairs {#invalid-chars}
 
 ### Eigenschafts-IDs
 
-Merkmal-IDs bestehen nur aus numerischen Zeichen. Wir bitten, *nur die eingehenden Eigenschaften* in eingehenden Datendateien einzuschließen. In der eingehenden Datenübertragung werden keine anderen Eigenschaften verarbeitet.
+Merkmal-IDs bestehen nur aus numerischen Zeichen. We ask that you include *only onboarded traits* in inbound data files. In der eingehenden Datenübertragung werden keine anderen Eigenschaften verarbeitet.
 
 ### Anwender-IDs
 
@@ -142,7 +142,7 @@ Merkmal-IDs bestehen nur aus numerischen Zeichen. Wir bitten, *nur die eingehend
    <td colname="col1"> <p>Mobile ios- oder Android-Geräte-ID </p> </td> 
    <td colname="col2"> <p>Mobilgeräte-IDs müssen genau wie hier gezeigt formatiert werden: </p> <p> 
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
-      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA-Format: IDs müssen großgeschrieben und nicht Hash sein. Beispiel: <code> 6 D 92078 A -8246-4 BA 4-AE 5 B -76104861 E 7 DC </code> </li> 
+      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA-Format: IDs müssen großgeschrieben und nicht Hash sein. For example, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
       <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android-Format: IDs müssen kleingeschrieben und nicht Hash sein. <code> Beispiel: 97987 bca-ae 59-4 c 7 d -94 ba-ee 4 f 19 ab 8 c 21 </code> </li> 
      </ul> </p> </td>
   </tr>
@@ -175,16 +175,16 @@ Falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen ebenfalls
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p><i>Verwenden</i> Sie <code> anstelle </code> leerer Werte in Schlüssel/Wert-Paaren keine TAB. Verwenden Sie <code> nur TAB </code> , um Variablen in der eingehenden Datendatei zu trennen. </p> </td> 
+   <td colname="col2"> <p><i>Verwenden</i> Sie <code> anstelle </code> leerer Werte in Schlüssel/Wert-Paaren keine TAB. Only use <code> TAB </code> to separate variables in the inbound data file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \ n,\ t </code> </p> </td> 
-   <td colname="col2"> <p>Verwenden Sie nicht die neuen Zeichen- oder Tabulatorzeichen ( <code> \ n,\ t </code>) in Schlüssel oder Werten. </p> </td> 
+   <td colname="col2"> <p>Do not use the new line or tab characters ( <code> \n, \t </code>) in keys or in values. </p> </td> 
   </tr>
  </tbody>
 </table>
 
-## Datendateibeispiele {#data-file-examples}
+## Data File Examples {#data-file-examples}
 
 <table id="table_8017E070F7A54143A82CA153CBAEB5DA"> 
  <thead> 
@@ -195,7 +195,7 @@ Falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen ebenfalls
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>mit <code> d_ sid </code> oder <code> d_ unsid </code> </p> </td> 
+   <td colname="col1"> <p>With <code> d_sid </code> or <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>Diese Datendatei zeigt einen Benutzer, der für Eigenschaften 24, 26, 27 qualifiziert ist und aus der Eigenschaft 28 und 29 entfernt wurde. </p> <p> 
      <code>5976755918126206006027887090108252 &amp; amp; nbsp; &amp; amp; nbsp; d_ sid = 24, d_ sid = 26, d_ sid = 27, d_ unsid = 28, d_ unsid = 29 </code>
   </p> <p>Hinweis:  <p>Anstatt d_ unsid zu verwenden, können Sie auch Eigenschaften aus Benutzerprofilen entfernen, indem Sie die folgende Syntax verwenden: </p> <p> 
@@ -205,8 +205,8 @@ Falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen ebenfalls
   </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mit <code> ic = = </code> </p> </td> 
-   <td colname="col2"> <p>Diese Eigenschaften wurden einer Eigenschaftenregel mit <code></code> dem Präfix hinzugefügt. Sie können sie daher der Datendatei, die durch Kommas getrennt ist, hinzufügen. Eine Registerkarte trennt die UUID und die Eigenschafts-IDs. Das <code></code> Präfix "ic" ist in der Datei nicht erforderlich. </p> <p><b>Numerische IDs</b> </p> <p> 
+   <td colname="col1"> <p>With <code> ic== </code> </p> </td> 
+   <td colname="col2"> <p>These traits have been added to a trait rule with the <code> ic </code> prefix. Sie können sie daher der Datendatei, die durch Kommas getrennt ist, hinzufügen. Eine Registerkarte trennt die UUID und die Eigenschafts-IDs. The <code> ic </code> prefix is not required in the file. </p> <p><b>Numerische IDs</b> </p> <p> 
      <code>Dbwfoc 3 dhfmncfbh 2 M 4 F 9 zkjexmnnrdh 2 pxvni 1 &amp; amp; nbsp; &amp; amp; nbsp; 30608,50354,50338,50352,30626 </code>
   </p> <p><b>Zeichenfolgenids</b> </p> <p> 
      <code>Dbwfoc 3 dhfmncfbh 2 M 4 F 9 zkjexmnnrdh 2 pxvni 1 &amp; amp; nbsp; &amp; amp; nbsp; ic = 52, ic = 55 </code>
@@ -214,18 +214,18 @@ Falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen ebenfalls
   </tr> 
   <tr> 
    <td colname="col1"> <p>mit Schlüssel/Wert-Paaren </p> </td> 
-   <td colname="col2"> Diese Dateidaten verwenden Schlüssel-Wert-Paare, um Daten an <span class="keyword"> Audience Manager </span>weiterzugeben. <p> 
+   <td colname="col2"> This file data uses key-value pairs to pass in data to <span class="keyword"> Audience Manager </span>. <p> 
      <code>5976755918126206006027887090108252 &amp; amp; nbsp; " gender» =» weiblich», "luxury_ shopper» =» yes» </code>
   </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-[Laden Sie](assets/ftp_dpm_1234_1445374061.overwrite) die Musterdatendatei herunter, wenn Sie weitere Beispiele benötigen. Die Dateierweiterung hat eine `.overwrite` Dateierweiterung. Sie können es mit einem einfachen Texteditor öffnen.
+[Laden Sie](assets/ftp_dpm_1234_1445374061.overwrite) die Musterdatendatei herunter, wenn Sie weitere Beispiele benötigen. The download file has a `.overwrite` file extension. Sie können es mit einem einfachen Texteditor öffnen.
 
-## Beispielmatrix {#examples-matrix}
+## Examples Matrix {#examples-matrix}
 
-Das nachstehende Diagramm zeigt Beispiele für die korrekte Formatierung Ihrer Inbound-Dateien, abhängig vom [Typ der IDs](../../../reference/ids-in-aam.md) und der Methode, mit der Sie zu Profilen Eigenschaften hinzufügen möchten.
+The chart below shows examples of the correct way to format your Inbound files, depending on the [type of IDs](../../../reference/ids-in-aam.md) and the method by which you want to add traits to profiles.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -269,7 +269,7 @@ Das nachstehende Diagramm zeigt Beispiele für die korrekte Formatierung Ihrer I
  </tbody> 
 </table>
 
-### Beispiel 1 {#example-1}
+### Example 1 {#example-1}
 
 Verwenden Sie Eigenschaften-IDs, um Eigenschaften für die Eigenschaftenzuordnung für uuids von Audience Manager zu senden.
 
@@ -277,7 +277,7 @@ Verwenden Sie Eigenschaften-IDs, um Eigenschaften für die Eigenschaftenzuordnun
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
 ```
 
-### Beispiel 2 {#example-2}
+### Example 2 {#example-2}
 
 Verwenden Sie Eigenschaften-IDs, um Eigenschaften für die Deaktivierung von Eigenschaften für uuids von Audience Manager zu senden.
 
@@ -297,7 +297,7 @@ oder
 59767559181262060060278870901087098252 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Beispiel 3 {#example-3}
+### Example 3 {#example-3}
 
 Senden Sie Schlüssel-Wert-Paare, um Eigenschaften für die Eigenschaften von Audience Manager-uuids hinzuzufügen.
 
@@ -311,9 +311,9 @@ oder
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Beispiel 4 {#example-4}
+### Example 4 {#example-4}
 
-Verwenden Sie das Präfix &quot;ic&quot; , um Trait-Qualifizierungsinformationen für die uuids von Audience Manager zu senden.
+Verwenden Sie das Präfix "ic" , um Trait-Qualifizierungsinformationen für die uuids von Audience Manager zu senden.
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -325,7 +325,7 @@ oder
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Beispiel 5 {#example-5}
+### Example 5 {#example-5}
 
 Verwenden Sie Eigenschaften-IDs, um Eigenschaften für die Eigenschaftenzuordnung für Android-Geräte zu senden.
 
@@ -333,7 +333,7 @@ Verwenden Sie Eigenschaften-IDs, um Eigenschaften für die Eigenschaftenzuordnun
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Beispiel 6 {#example-6}
+### Example 6 {#example-6}
 
 Verwenden Sie Eigenschafts-IDs, um Eigenschaften von Eigenschaften für Android-Geräte zu senden.
 
@@ -353,7 +353,7 @@ oder
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Beispiel 7 {#example-7}
+### Example 7 {#example-7}
 
 Senden Sie Schlüssel-Wert-Paare, um Eigenschaften von Eigenschaften für Android-Geräte hinzuzufügen.
 
@@ -367,9 +367,9 @@ oder
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Beispiel 8 {#example-8}
+### Example 8 {#example-8}
 
-Verwenden Sie das Präfix &quot;ic&quot; , um Eigenschafteninformationen für Android-Geräte zu senden.
+Verwenden Sie das Präfix "ic" , um Eigenschafteninformationen für Android-Geräte zu senden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -381,7 +381,7 @@ oder
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 ```
 
-### Beispiel 9 {#example-9}
+### Example 9 {#example-9}
 
 Verwenden Sie Eigenschaften-IDs, um Eigenschaften für die Eigenschaftenzuordnung für ios-Geräte zu senden.
 
@@ -389,7 +389,7 @@ Verwenden Sie Eigenschaften-IDs, um Eigenschaften für die Eigenschaftenzuordnun
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Beispiel 10 {#example-10}
+### Example 10 {#example-10}
 
 Verwenden Sie Eigenschafts-IDs, um Eigenschaften für das Absenden von Eigenschaften für ios-Geräte zu senden.
 
@@ -409,7 +409,7 @@ oder
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Beispiel 11 {#example-11}
+### Example 11 {#example-11}
 
 Senden Sie Schlüssel-Wert-Paare, um Eigenschaften von Eigenschaften für ios-Geräte hinzuzufügen.
 
@@ -423,9 +423,9 @@ oder
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Beispiel 12 {#example-12}
+### Example 12 {#example-12}
 
-Verwenden Sie das Präfix &quot;ic&quot; , um Trait-Qualifizierungsinformationen für ios-Geräte zu senden.
+Verwenden Sie das Präfix "ic" , um Trait-Qualifizierungsinformationen für ios-Geräte zu senden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -437,7 +437,7 @@ oder
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> ic=52,ic=55
 ```
 
-### Beispiel 13 {#example-13}
+### Example 13 {#example-13}
 
 Verwenden Sie Eigenschaften-IDs, um Eigenschaftsinformationen zu Eigenschaften für dpuuids zu senden.
 
@@ -445,7 +445,7 @@ Verwenden Sie Eigenschaften-IDs, um Eigenschaftsinformationen zu Eigenschaften f
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Beispiel 14 {#example-14}
+### Example 14 {#example-14}
 
 Verwenden Sie Eigenschafts-IDs, um Eigenschaften für dpuuids zu senden.
 
@@ -465,7 +465,7 @@ oder
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Beispiel 15 {#example-15}
+### Example 15 {#example-15}
 
 Senden Sie Schlüssel-Wert-Paare, um Eigenschaften für dpuuids hinzuzufügen.
 
@@ -479,9 +479,9 @@ oder
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Beispiel 16 {#example-16}
+### Example 16 {#example-16}
 
-Verwenden Sie das Präfix &quot;ic&quot; , um Trait-Qualifizierungsinformationen für dpuuids zu senden.
+Verwenden Sie das Präfix "ic" , um Trait-Qualifizierungsinformationen für dpuuids zu senden.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
