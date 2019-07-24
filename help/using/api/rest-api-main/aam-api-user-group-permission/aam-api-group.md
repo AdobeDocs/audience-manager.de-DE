@@ -11,9 +11,9 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Gruppenverwaltungs-API-Methoden {#group-management-api-methods}
+# Group Management API Methods {#group-management-api-methods}
 
-Rest [!DNL API] -Methoden zur Verwaltung von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
+Rest [!DNL API] methods to manage groups, including creating, updating, listing, deleting groups.
 
 <!-- c_rest_api_user_man_group.xml -->
 
@@ -50,7 +50,7 @@ Rest [!DNL API] -Methoden zur Verwaltung von Gruppen, einschließlich Erstellen,
   }
 ```
 
-## Eine Gruppe aktualisieren {#update-group}
+## Update a Group {#update-group}
 
 `PUT` Eine Methode zum Aktualisieren einer Benutzergruppe.
 
@@ -85,7 +85,7 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Listengruppen {#list-groups}
+## List Groups {#list-groups}
 
 `GET` Eine Methode zum Auflisten von Benutzergruppen.
 
@@ -123,11 +123,11 @@ r_rest_api_group_list.xml
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Gibt zurück, `204 No Content` wenn erfolgreich. Bei Konflikten zurückgegeben `409 Conflict`.
+Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
-## Gruppen stapelweise löschen {#delete-groups-bulk}
+## Delete Groups in Bulk {#delete-groups-bulk}
 
-Eine `DELETE` Methode, um mehrere Gruppen stapelweise zu löschen und alle Mitglieder aus dieser Gruppe zu entfernen.
+A `DELETE` method to delete multiple groups in bulk and remove all members from that group.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -135,9 +135,9 @@ Eine `DELETE` Methode, um mehrere Gruppen stapelweise zu löschen und alle Mitgl
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Gibt zurück, `204 No Content` wenn erfolgreich. Bei Konflikten zurückgegeben `409 Conflict`.
+Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
-## Alle Berechtigungen für eine Gruppe auflisten {#list-permissions-group}
+## List All Permissions for a Group {#list-permissions-group}
 
 `GET` Eine Methode zur Liste der Berechtigungsobjekte einer Gruppe.
 
@@ -169,9 +169,9 @@ Gibt zurück, `204 No Content` wenn erfolgreich. Bei Konflikten zurückgegeben `
 ]
 ```
 
-Gibt zurück, `400 Bad Request` wenn die Gruppe nicht verfügbar ist.
+Returns `400 Bad Request` if the group is inaccessible.
 
-## Berechtigungen für eine Gruppe festlegen {#set-permissions-group}
+## Set Permissions for a Group {#set-permissions-group}
 
 `PUT` Eine Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode überschreibt die alten Berechtigungen mit den neuen Berechtigungen.
 
@@ -206,4 +206,4 @@ Gibt zurück, `400 Bad Request` wenn die Gruppe nicht verfügbar ist.
 
 Die Beispielantwort stellt die aktualisierte Liste der Berechtigungsobjekte dar.
 
-Gibt zurück, `200 OK` wenn erfolgreich. Gibt zurück, `400` wenn eine angegebene Berechtigung ungültig ist. Kann auch zurückgegeben `403` werden, wenn das Objekt vom angemeldeten Benutzer nicht zugänglich ist.
+Returns `200 OK` if successful. Returns `400` if any given permission is invalid. Can also return `403` if the object is not accessible by the logged-in user.
