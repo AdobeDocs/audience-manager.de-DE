@@ -11,7 +11,7 @@ source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 ---
 
 
-# Hilfe und rechtliche Hinweise{#help-and-legal}
+# Help and Legal{#help-and-legal}
 
 Ressourcen für Kundenunterstützung und rechtliche Hinweise zur Nutzung dieses Produkts und der Dokumentation.
 
