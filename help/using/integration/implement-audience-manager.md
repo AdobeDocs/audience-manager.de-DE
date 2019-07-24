@@ -11,9 +11,9 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 ---
 
 
-# Implementieren von Audience Manager {#implementing-audience-manager}
+# Implementing Audience Manager {#implementing-audience-manager}
 
-In diesem Abschnitt werden die Prozesse behandelt, die sich auf die erste Schritte mit der Datenverwaltungsplattform von Audience Manager ([!DNL DMP]) beziehen. Dieser Abschnitt hilft Geschäftsteams, Projektmanagern und Technologiemanagern, den Implementierungsprozess von Audience Manager zu verstehen. Erste Schritte mit Audience Manager können je nach Ihren Datenerfassungsanforderungen etwa sechs Wochen bis drei Monate dauern.
+This section outlines and explains the processes related to getting started with the Audience Manager data management platform ([!DNL DMP]). Dieser Abschnitt hilft Geschäftsteams, Projektmanagern und Technologiemanagern, den Implementierungsprozess von Audience Manager zu verstehen. Erste Schritte mit Audience Manager können je nach Ihren Datenerfassungsanforderungen etwa sechs Wochen bis drei Monate dauern.
 
 Unsere Implementierungstechniken helfen Ihnen, eine beratende Partnerschaft mit neuen Kunden zu erstellen. Dieser Vorgang ist für Folgendes konzipiert:
 
@@ -26,7 +26,7 @@ Unsere Partnerlösungen und Kontomanagement-Teams funktionieren vor, während un
 
 Audience Manager bietet einen schrittweisen Ansatz für die Einrichtung und Implementierung.
 
-## Phase definieren {#define-phase}
+## Define Phase {#define-phase}
 
 Die Definitionsphase führt Sie zu unseren Partnerlösungen-Projektinteressenten und beginnt mit dem Projektverwaltungsprozess.
 
@@ -133,18 +133,18 @@ Die folgende Tabelle beschreibt wichtige Aktivitäten, die während dieser Phase
 Zu diesen Phasen zählen:
 
 * eine abgeschlossene Datenerfassungsstrategie von Erstanbietern, Drittanbietern und Drittanbietern;
-* Ein Abgeschlossener [!DNL CRM] oder Data Warehouse-Erfassungsplan;
+* A completed [!DNL CRM] or data warehouse ingestion plan;
 * Definierte Anforderungen für die Zielgruppensegmentierung;
 * eine abgeschlossene Datentaxonomie;
 * Ein erweiterter Plan für die Datenintegration von Drittanbietern.
 
-## Build-, Test- und Train-Phase {#build-test-train-phase}
+## Build, Test, and Train Phase {#build-test-train-phase}
 
 Während der Build-, Test- und Train-Phase überprüfen Sie die Datenerfassungsstrategie und den Prototyp mit einem festgelegten Partner-Lösungslead.
 
 <!-- c_build_test_train.xml -->
 
-Ihre Datenerfassungsstrategie wird durchgängig [!DNL QA] getestet. Partnerlösungen verfolgen erkannte Bugs und koordinieren Problemlösungslösungen mit unseren Systemaktualen. Die Kundenschulung kann parallel zu diesen anderen Bemühungen gestartet werden.
+Your data collection strategy will undergo end-to-end [!DNL QA] testing. Partnerlösungen verfolgen erkannte Bugs und koordinieren Problemlösungslösungen mit unseren Systemaktualen. Die Kundenschulung kann parallel zu diesen anderen Bemühungen gestartet werden.
 
 Die folgende Tabelle beschreibt wichtige Aktivitäten, die während dieser Phase stattfinden:
 
@@ -158,13 +158,13 @@ Die folgende Tabelle beschreibt wichtige Aktivitäten, die während dieser Phase
 Zu diesen Phasen zählen:
 
 * Ein abgeschlossen und akzeptierter Datenerfassungsplan;
-* End-to-End [!DNL QA] Testing;
+* End-to-end [!DNL QA] testing;
 * Grundlegende Anweisung zu den Funktionen der Benutzeroberfläche von Audience Manager;
 * Akzeptieren und Abmelden.
 
-## Start, Support und Optimierung {#launch-support-optimize-phase}
+## Launch, Support, and Optimize Phase {#launch-support-optimize-phase}
 
-Während der Start-, Support- und Optimierungsphase wird Ihre Datenerfassung und Ihre Prototypimplementierung von der Entwicklung in eine Live-Produktionsumgebung verschoben. Wir erhalten weiterhin Schulungen zur Produkterfahrung und Strategien, mit denen Sie Ihre [!DNL ROI] datenbasierte Optimierung steigern können.
+Während der Start-, Support- und Optimierungsphase wird Ihre Datenerfassung und Ihre Prototypimplementierung von der Entwicklung in eine Live-Produktionsumgebung verschoben. We’ll continue training on product familiarization and strategies that can help increase your [!DNL ROI] through data-driven optimization.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -215,21 +215,21 @@ Aufgaben für diese Phase können Folgendes umfassen:
 * Reagieren auf Anforderungen, Fehler und Feedback von Benutzern;
 * Verbesserung der Komplexität mit den Funktionen und Berichten von Audience Manager.
 
-## Code-Implementierung {#code-implementation}
+## Code Implementation {#code-implementation}
 
-Obwohl der Bereitstellungsprozess komplex sein kann, ist die Codeimplementierung genauso einfach wie das Hinzufügen einiger Zeilen [!DNL JavaScript] neben dem schließenden `</body>` Tag Ihrer Website.
+Though the deployment process may seem complex, the code implementation is as simple as adding a few lines of [!DNL JavaScript] adjacent to the closing `</body>` tag of your website.
 
 <!-- c_code.xml -->
 
 ### Bereitstellung
 
-Die Audience Manager-Codefragmente werden aufgerufen [!DNL Akamai] , um die zuvor in der Benutzeroberfläche eingerichteten Geschäftsregeln herunterzuladen. Darüber hinaus speichern Clientbrowser diese Informationen, wodurch die Seiten- und Serverladezeiten reduziert werden. Unser Code und die Datenerfassungsmethode sind so ausgelegt, dass die Benutzererfahrung über Ihren gesamten Bestand hinweg aufrechterhalten wird.
+The Audience Manager code snippet calls [!DNL Akamai] to download the business rules set up previously in the user interface. Darüber hinaus speichern Clientbrowser diese Informationen, wodurch die Seiten- und Serverladezeiten reduziert werden. Unser Code und die Datenerfassungsmethode sind so ausgelegt, dass die Benutzererfahrung über Ihren gesamten Bestand hinweg aufrechterhalten wird.
 
 ### Teilnehmer
 
 Partnerlösungen können direkt mit Ihren technischen Teams zusammenarbeiten, um Code zu implementieren, endgültige Bedenken einzugehen und andere Anforderungen zu erfüllen.
 
-## Unterstützung nach der Implementierung {#post-implementation-support}
+## Post-Implementation Support {#post-implementation-support}
 
 Unsere Anstrengungen zur Zusammenarbeit werden bei der endgültigen Bereitstellung nicht beendet. Nachdem die Implementierung abgeschlossen ist, übernimmt unser Kundenbetreuer den Vorgang.
 
@@ -237,4 +237,4 @@ Unsere Anstrengungen zur Zusammenarbeit werden bei der endgültigen Bereitstellu
 
 Kundenbetreuer bieten nach Abschluss des Produktimplementierungsprozesses weiterhin Support- und Beratungsdienste. Sie können über regelmäßige Meetings mit Ihrem Kundenbetreuer verfügen. Diese Meetings stellen sicher, dass Sie die maximale Nutzung und den Wert aus Audience Manager erhalten.
 
-Wenden Sie sich [hier](https://www.adobe.com/products/audiencemanager.html) an uns, um weitere Informationen zu erhalten und um mit Audience Manager zu beginnen.
+Contact us [here](https://www.adobe.com/products/audiencemanager.html) for more information and to get started with Audience Manager.
