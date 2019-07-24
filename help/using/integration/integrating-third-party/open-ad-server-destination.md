@@ -11,34 +11,34 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# OAS als Zielgruppen-Manager-Ziel {#oas-as-an-audience-manager-destination}
+# OAS as an Audience Manager Destination {#oas-as-an-audience-manager-destination}
 
-Richten Sie [!DNL Open Ad Server] ein Ziel ein und senden Sie Audience Manager-Daten an diese Plattform.
+Set up [!DNL Open Ad Server] as a destination and send Audience Manager data to that platform.
 
-## OAS-Zielanforderungen {#oas-requirements}
+## OAS Destination Requirements {#oas-requirements}
 
-Standards für Codeplatzierung, unterstützte Schlüsselwertformate, Berichte und den Typ der gesendeten Segmentdaten [!DNL OAS].
+Standards for code placement, supported key-value formats, reports, and the type of segment data sent to [!DNL OAS].
 
 <!-- aam-oas-requirements.xml -->
 
 Für diesen Zieltyp ist Folgendes erforderlich:
 
 * **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library] muss für den Bestand bereitgestellt werden. [!UICONTROL DIL] verhindert, dass der spezielle Code für die Datenerfassung, Integration, das Lesen von Cookie-Werten und die Wiederherstellung von Seitendaten nicht geschrieben werden müssen.
-* **`get_aamCookie`Funktion:** Code, der die Benutzer-ID und die Cookie-Daten des Audience Manager erfasst. Fügen [Sie diesen Code](../../features/destinations/get-aam-cookie-code.md) oben auf der Seite oder innerhalb des `<head>` Codeblock ein.
-* **Versandprotokolle an Audience Manager senden:** Wenn Sie einen Segmentauslieferungsbericht wünschen (optional), geben Sie Audience Manager ein Tagesprotokoll mit Bereitstellungsdaten auf Impression-Ebene an. Die Daten können im Rohformat vorliegen, aber jeder Datensatz muss den Audience Manager [!UICONTROL UUID]enthalten. Zielgruppen-Manager können diese Daten [!DNL FTP]abrufen oder empfangen.
+* **`get_aamCookie`Funktion:** Code, der die Benutzer-ID und die Cookie-Daten des Audience Manager erfasst. Place [this code](../../features/destinations/get-aam-cookie-code.md) on the top of the page or inside the `<head>` codeblock.
+* **Versandprotokolle an Audience Manager senden:** Wenn Sie einen Segmentauslieferungsbericht wünschen (optional), geben Sie Audience Manager ein Tagesprotokoll mit Bereitstellungsdaten auf Impression-Ebene an. The data can be in a raw format, but each record must contain the Audience Manager [!UICONTROL UUID]. Audience Manager can pick up or receive these via [!DNL FTP].
 
 ### Cookie-Format und Schlüssel-Wert-Daten
 
 Audience Manager kann Segmentdaten wie folgt an ein Browser-Cookie senden:
 
-* Einzelne Schlüssel (`x=1&x=2`);
-* Mehrere Schlüssel (`x=1&x=2&y=3&y=4`);
-* Serialisierte Werte (`x=1,2,3`);
+* Single keys (`x=1&x=2`);
+* Multiple keys (`x=1&x=2&y=3&y=4`);
+* Serialized values (`x=1,2,3`);
 * Ein Trennzeichen mit Standardwerten, mit dem einzelne Schlüssel-Wert-Paare getrennt werden.
 
 ### Nur qualifizierte Segmente werden an OAS gesendet
 
-Die an die Menge übergebenen Daten [!DNL OAS] hängen davon ab, für wie viele Segmente ein bestimmter Benutzer qualifiziert ist. Angenommen, Sie richten 100 Zielgruppen-Management-Segmente ein. Wenn sich ein Site-Besucher für fünf davon qualifiziert, werden nur die fünf Segmente an OAS gesendet (nicht alle 100).
+The amount data passed in to [!DNL OAS] depends on how many segments a particular user qualifies for. Angenommen, Sie richten 100 Zielgruppen-Management-Segmente ein. Wenn sich ein Site-Besucher für fünf davon qualifiziert, werden nur die fünf Segmente an OAS gesendet (nicht alle 100).
 
 >[!MORE_ LIKE_ THIS]
 >
@@ -46,54 +46,54 @@ Die an die Menge übergebenen Daten [!DNL OAS] hängen davon ab, für wie viele 
 >* [Wichtige Wertpaare](../../reference/key-value-pairs-explained.md)
 
 
-## OAS-Ziel erstellen {#oas-dest-setup}
+## Create an OAS Destination {#oas-dest-setup}
 
-Erstellen Sie ein Cookie-basiertes Ziel für [!DNL OAS] Audience Manager.
+Create a cookie-based destination for [!DNL OAS] in Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-In Audience Manager ist ein *Ziel* ein anderes System (Anzeigen-Server, [!DNL DSP]Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] bietet die Tools, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Zielfunktionen von Audience Manager finden Sie unter *Zielgruppendaten &gt; Ziele*. Um zu beginnen, klicken Sie **[!UICONTROL Add New Destination]** auf und gehen Sie wie folgt vor.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] bietet die Tools, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager destination features are located in *Audience Data &gt; Destinations*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
 
 ### Schritt 1: Grundlegende Informationen
 
-So füllen Sie den [!UICONTROL Basic Information] Abschnitt aus:
+To complete the [!UICONTROL Basic Information] section:
 
 1. Geben Sie dem Ziel einen Namen.
-1. Wählen **[!UICONTROL "Cookie"]** Sie aus der [!UICONTROL Type] Dropdownliste aus.
-1. Klicken **[!UICONTROL Save]** Sie auf und wechseln Sie zu [!UICONTROL Configuration] den [!UICONTROL Segment Mappings] Abschnitten.
+1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list.
+1. Click **[!UICONTROL Save]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
 
 ### Schritt 2: Konfigurationsinformationen
 
-So füllen Sie den [!UICONTROL Configuration] Abschnitt aus:
+To complete the [!UICONTROL Configuration] section:
 
 1. **Cookie-Name:** Geben Sie einen kurzen, beschreibenden Namen für Ihr Cookie an.
-1. **Cookie-Domäne:** Lassen Sie leer, um ein Cookie in der Domäne der aktuellen Seite des Benutzers festzulegen. Wenn Sie eine Domäne angeben `.mydomain.com`möchten, präfix Sie den Namen mit einem Punkt wie dieser.
-1. Wählen Sie im [!UICONTROL Data Format] Abschnitt eine Schlüsseloption aus.
-1. Wenn Ihre Schlüssel Daten mit serialisierten Werten verwenden, wählen Sie das **[!UICONTROL Serialize]** Steuerelement aus und geben Sie das Serientrennzeichen an (das Zeichen, das die serialisierten Werte trennt).
-1. Klicken **[!UICONTROL Save]** Sie auf den [!UICONTROL Segment Mappings] Abschnitt und erweitern Sie ihn.
+1. **Cookie-Domäne:** Lassen Sie leer, um ein Cookie in der Domäne der aktuellen Seite des Benutzers festzulegen. If you want to specify a domain, prefix the name with a period like this, `.mydomain.com`.
+1. Choose a key option in the [!UICONTROL Data Format] section.
+1. If your keys use data with serialized values, select the **[!UICONTROL Serialize]** control and specify the serial delimiter (the character that separates the serialized values).
+1. Click **[!UICONTROL Save]** and expand the [!UICONTROL Segment Mappings] section.
 
 ### Schritt 3: Segmentzuordnungen
 
 So fügen Sie einem Cookie-Ziel ein Segment hinzu:
 
 1. **Segmente suchen:** Der [!UICONTROL Segment Mappings] Abschnitt enthält zwei Tools zur Suche nach Segmenten. So suchen Sie ein Segment:
-   * Option 1: Geben Sie einen Segmentnamen in das Suchfeld ein. Das Feld wird automatisch basierend auf dem Text aktualisiert. Klicken **[!UICONTROL Add]** Sie auf, sobald Sie das gewünschte Segment gefunden haben.
-   * Option 2: Klicken **[!UICONTROL Browse All Segments]** Sie, um ein Fenster zu öffnen, mit dem Sie nach Segmenten nach Namen oder Speicherort suchen können. Klicken Sie auf, **[!UICONTROL Add Selected Segments]** wenn Sie fertig sind.
+   * Option 1: Geben Sie einen Segmentnamen in das Suchfeld ein. Das Feld wird automatisch basierend auf dem Text aktualisiert. Click **[!UICONTROL Add]** once you find the segment you want to use.
+   * Option 2: Click **[!UICONTROL Browse All Segments]** to open a window that lets you browse for segments by name or storage location. Click **[!UICONTROL Add Selected Segments]** when done.
 1. **Zuordnungen hinzufügen:** Geben Sie in das Feld Zuordnungen die Segment-ID im Feld Zuordnungen ein und klicken **[!UICONTROL Save]** Sie auf.
 1. Klicken Sie auf **[!UICONTROL Done]**.
 
 ## OAS Setup {#oas-code-setup}
 
-Ändern [!DNL OAS] Sie die Einstellungen für die Verwendung mit Audience Manager-Segmentdaten.
+Modify [!DNL OAS] settings to work with Audience Manager segment data.
 
 <!-- aam-oas-code.xml -->
 
-So richten Sie [!DNL OAS]
+To set up [!DNL OAS]
 
-* Installieren [!UICONTROL DIL] Sie Code auf Ihrer gesamten Site.
+* Install [!UICONTROL DIL] code across your site.
 * Erstellen Sie OAS als Cookie-Ziel in Audience Manager.
-* Platzieren Sie die `get_aamCookie` Funktion am Anfang der Seite idealerweise im `<head>` Codeblock. Der `get_aamCookie` Code ist [hier verfügbar](../../features/destinations/get-aam-cookie-code.md).
-* Ändern Sie Ihr Anzeigentag, um die `get_aamCookie` Funktion aufzurufen, und schließen Sie den Cookie-Namen ein, den Sie beim Einrichten des [!DNL OAS] Ziels angegeben haben. Wenn Sie beispielsweise das Cookie `test_cookie`benannt haben, sollte das Anzeigen-Tag aufgerufen `get_aamCookie` und auf den Cookie-Namen verweisen.
+* Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../../features/destinations/get-aam-cookie-code.md).
+* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the [!DNL OAS] destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.
 * Ihr Anzeigentag könnte dem unten stehenden Beispiel ähnlich aussehen.
 
    ```js
@@ -101,4 +101,4 @@ So richten Sie [!DNL OAS]
     "&etc&u=" + get_aamCookie('aam_uuid')
    ```
 
-Denken Sie daran, die `u=` Variable einzuschließen. Es enthält die tatsächliche eindeutige Benutzer-ID ([!UICONTROL UUID]), die während eines Anzeigenaufrufs weitergegeben wird.
+Remember to include the `u=` variable. It holds the actual unique user ID ([!UICONTROL UUID]) passed in during an ad call.
