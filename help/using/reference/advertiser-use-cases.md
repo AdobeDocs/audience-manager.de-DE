@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Advertiser-Verwendungsfälle {#advertiser-use-cases}
+# Advertiser Use Cases {#advertiser-use-cases}
 
 Einige allgemeine Advertiser-Anforderungen müssen von Adobe Audience Manager erfüllt werden.
 
@@ -42,7 +42,7 @@ Einige allgemeine Advertiser-Anforderungen müssen von Adobe Audience Manager er
 
 ## Segmente mit hohem Wert erstellen und Reichweite mit Look-Alike-Modellierung verbessern
 
-Die [Dokumentation zu Modellen](../features/algorithmic-models/understanding-models.md) enthält Details zum [!DNL Audience Manager] algorithmischen Modellierungsprozess.
+The [Models](../features/algorithmic-models/understanding-models.md) documentation contains details about the [!DNL Audience Manager] algorithmic modeling process.
 
 <table id="table_47456520CA99459B92DACD2047951D2D"> 
  <thead> 
@@ -67,7 +67,7 @@ Die [Dokumentation zu Modellen](../features/algorithmic-models/understanding-mod
    <td colname="col3"> 
     <ul id="ul_EB3707C4449E44F195EE5655B724A9B4"> 
      <li id="li_268E6A408C634E5EAF2D536930EE77C7">Identifizieren Sie Kunden, die teure Einkäufe tätigen. </li> 
-     <li id="li_217F8D97449D40E798601C904D66FE5A">Führen Sie ein <span class="keyword"> Audience Manager</span> -Look-Alike-Modell aus, um die einflussreichsten Mitglieder der Zielgruppe in diesem Segment zu identifizieren. </li> 
+     <li id="li_217F8D97449D40E798601C904D66FE5A">Run an <span class="keyword"> Audience Manager</span> look-alike model to identify the most influential audience members in that segment. </li> 
      <li id="li_FC9CF9B3FE554032AF66E1C3721C83C9">Richten Sie diese Segmente ein, um die aktuelle Anzeigenwerbung oder Personalisierung über Adobe Target zu verbessern. </li> 
      <li id="li_14F94E368C5142718BF6707622D3D8DE">Schließen Sie die neuen Daten in zukünftigen Anzeigekampagnen über Adobe Target ein. </li> 
     </ul> </td> 
@@ -147,15 +147,15 @@ Die [Dokumentation zu Modellen](../features/algorithmic-models/understanding-mod
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Integrieren Sie Ihre eigenen Datensätze in <span class="keyword"> Audience Manager</span> , um Kundenangebote basierend auf saisonalen oder anderen Kaufverhaltensweisen zu verwalten. </td> 
+   <td colname="col1">Integrate your separate data sets in <span class="keyword"> Audience Manager</span> to help manage customer offers based on seasonal or other purchasing behavior. </td> 
    <td colname="col2"> 
     <ul id="ul_CFE6F446C287464B9141C7B6E2581A84"> 
-     <li id="li_4308DD38DC014622A08CB0425A9E98F1">Nutzen Sie <span class="keyword"> die Integrationsfunktionen des Audience Manager</span>, um die Verwendung von Offline-Daten zu unterstützen. </li> 
+     <li id="li_4308DD38DC014622A08CB0425A9E98F1">Leverage <span class="keyword"> Audience Manager</span>'s integration capabilities to support the use of offline data. </li> 
      <li id="li_B55C9849C43C483781DC5C3AEAA861F1">Steigern Sie die Konversionsraten und die Treue, indem Sie Kunden relevante kreative Erlebnisse bieten. </li> 
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_739F56A9703F418BBD6F391C2A8A25CA"> 
-     <li id="li_24C0DF2B23284764B48B0B4FC2808248">Erstellen Sie in <span class="keyword"> Audience Manager</span>ein Segment für Herbsturlaubsreisende. </li> 
+     <li id="li_24C0DF2B23284764B48B0B4FC2808248">In <span class="keyword"> Audience Manager</span>, create a segment for Fall vacation travelers. </li> 
      <li id="li_C8FE060793AA400CBDF33251B21B79C7">Erstellen Sie in Adobe Target eine Kampagne, um Fluglinien-Punkte für saisonale Käufe anzubieten. </li> 
      <li id="li_84D729B9AA2E40F8B3EFF6E53C8AA39A">Verwenden Sie Analytics, um Kundenaktivitäten über den Umrechnungstrichter zu verfolgen. Wenn ein Kunde nicht konvertiert, retargeting mit E-Mail-Marketing. </li> 
     </ul> </td> 
@@ -208,9 +208,9 @@ Die [Dokumentation zu Modellen](../features/algorithmic-models/understanding-mod
    <td colname="col2"> <p>Personalisiertes Kundenerlebnis hilft Ihnen, die Konversionsraten zu steigern. Das Präsentieren der richtigen Produkte, Angebote und kreativen Erlebnisse kann die Kaufaktivität steigern und Kundenbindung oder -loyalität verbessern. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_837B290D45DB412CA0CA3457EDCC4125"> 
-     <li id="li_CA85D32FD7F54490859B92B1E4A2DACB">In <span class="keyword"> Audience Manager</span>können Sie Segmentdaten von Drittanbietern für kleine Geschäftsinhaber erfassen. </li> 
+     <li id="li_CA85D32FD7F54490859B92B1E4A2DACB">In <span class="keyword"> Audience Manager</span>, ingest third-party segment data targeted to small business owners. </li> 
      <li id="li_E8FDBD2D67724FE497A496E907EDC45A">Erstellen Sie in Adobe Target eine Onsite-Kampagne, die kleine Geschäftsinhaber als zielgerichtete Nachrichten und Angebote anbietet. </li> 
-     <li id="li_B303975755D44E03A8C22832D8198564">Verfolgen Sie die Leistung mit <span class="keyword"> Audience Manager</span> -Berichten. </li> 
+     <li id="li_B303975755D44E03A8C22832D8198564">Track performance with <span class="keyword"> Audience Manager</span> reports. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
