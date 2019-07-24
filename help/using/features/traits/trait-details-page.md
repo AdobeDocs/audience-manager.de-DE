@@ -11,44 +11,44 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 ---
 
 
-# Eigenschaftendetails-Seite {#trait-details-page}
+# Trait Details Page {#trait-details-page}
 
-Die Detailseite für eine einzelne Eigenschaft bietet einen Überblick über Informationen wie den Eigenschaftsnamen, die ID, die Leistungsmetriken, Ausdrücke, die die Eigenschaft definieren, Segmente, zu denen sie gehören, und das Auditprotokoll des Eigenschaftenprotokolls. Um diese Details zu speichern, klicken [!UICONTROL Audience Data > Traits] Sie auf den Namen der Eigenschaft, mit der Sie arbeiten möchten.
+Die Detailseite für eine einzelne Eigenschaft bietet einen Überblick über Informationen wie den Eigenschaftsnamen, die ID, die Leistungsmetriken, Ausdrücke, die die Eigenschaft definieren, Segmente, zu denen sie gehören, und das Auditprotokoll des Eigenschaftenprotokolls. To vew these details, go to [!UICONTROL Audience Data > Traits] and click the name of the trait you want to work with.
 
 ## Basisinformationen {#basics}
 
-Der [!UICONTROL Basic Information] Abschnitt enthält Details zu erforderlichen und optionalen Feldern, die Sie beim Erstellen der Eigenschaft ausgefüllt haben. Dazu gehören beispielsweise Eigenschaften, Eigenschaften-ID, Beschreibung, Datenquelle und andere Metadaten. Diese Details variieren je nach Eigenschaftstyp (Ordner, Onboarded oder regelbasiert).
+The [!UICONTROL Basic Information] section shows details about required and optional fields you completed when building the trait. Dazu gehören beispielsweise Eigenschaften, Eigenschaften-ID, Beschreibung, Datenquelle und andere Metadaten. Diese Details variieren je nach Eigenschaftstyp (Ordner, Onboarded oder regelbasiert).
 
 ![](assets/basicInfo.png)
 
-## Eigenschaftendiagramm {#trait-graph}
+## Trait Graph {#trait-graph}
 
-Die Funktion [!UICONTROL Trait Graph] bietet eine vordefinierte Leistungsmetrik für die ausgewählte Eigenschaft. Halten Sie den Mauszeiger über eine Trendlinie, um weitere Daten für die ausgewählte Eigenschaft anzuzeigen.
+The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your selected trait. Halten Sie den Mauszeiger über eine Trendlinie, um weitere Daten für die ausgewählte Eigenschaft anzuzeigen.
 
-[!UICONTROL Unique Trait Realizations] eine Anzahl Unique Users darstellen, die diese Eigenschaft ihrem Profil über den angegebenen Zeitraum hinzugefügt hat. Die Angabe [!UICONTROL Total Trait Population] gibt die Anzahl der eindeutigen Benutzer an, die derzeit für diese Eigenschaft qualifiziert sind.
+[!UICONTROL Unique Trait Realizations] eine Anzahl Unique Users darstellen, die diese Eigenschaft ihrem Profil über den angegebenen Zeitraum hinzugefügt hat. The [!UICONTROL Total Trait Population] indicates the number of unique users currently qualified for this trait.
 
 * Bei regelbasierten Eigenschaften erfolgt die Eigenschaftsqualifizierung in Echtzeit, da sich Benutzer für eine Eigenschaft in ihrem Browser qualifizieren.
-* Bei Onboardanmerkungen erfolgt die Trait-Qualifizierung nach der Verarbeitung einer Inbound-Datei, d. h., die Inbound-Datei [wird in Audience Manager gespeist,](../../faq/faq-inbound-data-ingestion.md) d. h., die Eigenschaftsqualifikation wird ausgeführt.
+* For onboarded traits, trait qualification happens after an inbound file is processed, i.e. the inbound file is [fed into Audience Manager](../../faq/faq-inbound-data-ingestion.md) and that is when the trait qualification happens.
 * **Eindeutige Eigenschaftsrealizationen**: Eine Anzahl Unique Users, die diese Eigenschaft im angegebenen Zeitraum ihrem Profil hinzugefügt hat.
 * **Eigenschaftenpopulation insgesamt**: Die Anzahl der Unique Users, die derzeit für diese Eigenschaft qualifiziert sind.
 
 ![](assets/traitGraph.png)
 
-## Eigenschafts-Ausdruck {#trait-expression}
+## Trait Expression {#trait-expression}
 
-Der [!UICONTROL Trait Expression] Abschnitt zeigt Ihnen die Kriterien, die Benutzer erfüllen müssen, um die Eigenschaft zu qualifizieren. Diese Regeln werden festgelegt, wenn Sie [eine Eigenschaft erstellen oder bearbeiten](../../features/traits/about-trait-builder.md).
+The [!UICONTROL Trait Expression] section shows you the criteria users must meet to qualify for the trait. These rules are set when you [create or edit a trait](../../features/traits/about-trait-builder.md).
 
 ![](assets/traitExpression.png)
 
-## Eigenschaftssegmente {#trait-segments}
+## Trait Segments {#trait-segments}
 
-Der [!UICONTROL Segments with this Trait] Abschnitt listet alle Segmente auf, zu denen die ausgewählte Eigenschaft gehört. Sie können auf einen Segmentnamen klicken, um Details zu diesem Segment anzuzeigen.
+The [!UICONTROL Segments with this Trait] section lists all the segments the selected trait belongs to. Sie können auf einen Segmentnamen klicken, um Details zu diesem Segment anzuzeigen.
 
 ![](assets/traitSegments.png)
 
-## Eigenschafts-/Protokollprotokoll {#trait-audit-history}
+## Trait Audit/History Log {#trait-audit-history}
 
-Bei regelbasierten und onboardierten Eigenschaften [!UICONTROL Trait Expression Change History] werden Ihnen die letzten 10 Änderungen angezeigt, die an den Eigenschaftsregeln vorgenommen wurden und wer sie vorgenommen hat. Wenn Ihr Merkmal mehr als 10 Änderungen aufweist, klicken Sie auf, **[!UICONTROL Export to CSV]** um das gesamte Prüfprotokoll herunterzuladen. Das Auditprotokoll ist nicht für Ordner oder algorithmische Eigenschaften verfügbar.
+For rule-based and onboarded traits, the [!UICONTROL Trait Expression Change History] shows you the last 10 changes made to trait expression rules and who made them. If your trait has more than 10 changes, click **[!UICONTROL Export to CSV]** to download the entire audit log. Das Auditprotokoll ist nicht für Ordner oder algorithmische Eigenschaften verfügbar.
 
 >[!NOTE]
 >
