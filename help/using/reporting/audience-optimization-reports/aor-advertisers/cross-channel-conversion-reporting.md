@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Kanalübergreifende Konversion{#cross-channel-conversion}
 
-Mit der Option &quot;Kanalübergreifende Konvertierung&quot; in den Berichten zur Zielgruppenoptimierung können Sie Offline-Konversionen bereitgestellten Online-Impressionen oder -klicks zuordnen.
+Mit der Option "Kanalübergreifende Konvertierung" in den Berichten zur Zielgruppenoptimierung können Sie Offline-Konversionen bereitgestellten Online-Impressionen oder -klicks zuordnen.
 
-Die [!UICONTROL Cross Channel Conversion] Berichte kombinieren Ergebnisse aus der [!DNL DoubleClick Campaign Manager] (DCM) Plattform mit [!DNL Audience Manager] Konversionseigenschaften. Auf diese Weise können Sie Offline-Konversionen mit Online-Impressionen oder -klicks verknüpfen.
+The [!UICONTROL Cross Channel Conversion] reports combine results from the [!DNL DoubleClick Campaign Manager] (DCM) platform with [!DNL Audience Manager] conversion traits. Auf diese Weise können Sie Offline-Konversionen mit Online-Impressionen oder -klicks verknüpfen.
 
-Sie können die [!UICONTROL Cross Channel Conversion] Berichte [&quot;Segmentleistung](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) «und [&quot; Optimale Häufigkeit](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) &quot; verwenden.
+You can use the [!UICONTROL Cross Channel Conversion] for the [Segment Performance](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) and [Optimal Frequency](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) reports.
 
-Um die [!UICONTROL Cross Channel Conversion] Berichte anzuzeigen, wählen Sie das **[!UICONTROL AAM+DCM]** Element in der **[!UICONTROL Platform]** Dropdown-Liste aus.
+To view the [!UICONTROL Cross Channel Conversion] reports, select the **[!UICONTROL AAM+DCM]** item in the **[!UICONTROL Platform]** drop-down list.
 
-Die folgende Tabelle listet wichtige Überlegungen bei der Einrichtung [!UICONTROL Cross Channel Conversion]auf:
+The following table lists important considerations when setting up [!UICONTROL Cross Channel Conversion]:
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -33,11 +33,11 @@ Die folgende Tabelle listet wichtige Überlegungen bei der Einrichtung [!UICONTR
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Mindestanzahl von Konversionseigenschaften </p> </td> 
-   <td colname="col1"> <p>Es muss mindestens eine Konversionseigenschaft einer Datenquelle zugewiesen werden, damit die Berichte <span class="wintitle"> über kanalübergreifende Konversionsberichte</span> ausgeführt werden. Weitere Informationen zu Eigenschaften finden Sie unter <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Grundlegende Informationen zu Eigenschaften</a> . </p> </td> 
+   <td colname="col1"> <p>At least one conversion trait must be assigned to a data source in order for the <span class="wintitle"> Cross Channel Conversion</span> reports to run. See <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Basic Information for Traits</a> for more information on traits. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>Maximale Anzahl von Konversionseigenschaften </p> </td> 
-   <td colname="col1"> <p>Die Berichte beziehen sich auf <i>maximal</i> 50 Konversionseigenschaften vom Benutzer. Wenn Sie das Maximum erreichen, verwenden die Berichte die ersten 50 Konversionseigenschaften basierend auf der Eigenschaftskennung in aufsteigender Reihenfolge. </p> </td> 
+   <td colname="col1"> <p>The reports pull in a <i>maximum</i> of 50 conversion traits from the user. Wenn Sie das Maximum erreichen, verwenden die Berichte die ersten 50 Konversionseigenschaften basierend auf der Eigenschaftskennung in aufsteigender Reihenfolge. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Zuordnungsfenster </p> </td> 
