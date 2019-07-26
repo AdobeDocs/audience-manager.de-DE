@@ -11,9 +11,9 @@ source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
 ---
 
 
-# DCS Regions-IDs, Speicherorte und Hostnamen {#dcs-region-ids-locations-and-host-names}
+# DCS Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
 
-Der Hostname des regionalen [!UICONTROL DCS] Servers ist erforderlich, um an [!UICONTROL DCS]die. Dies liegt daran, dass die Informationen [!UICONTROL DCS] in Datenzentren, die geografisch zu den Besuchern der Site nah sind, gespeichert werden. Ihre Abfragen funktionieren, wenn Sie sie an den falschen [!UICONTROL DCS]Ort senden, diese Aufrufe sind jedoch ineffizient und können die Antwort verzögern. Um [!UICONTROL DCS] eine Anforderung zu erstellen, passen Sie die Regions-ID an den entsprechenden regionalen Hostnamen an und bilden Sie Ihre Abfrage mit dem richtigen Hostnamen.
+The regional [!UICONTROL DCS] server host name is required to make calls to the [!UICONTROL DCS]. This is because the [!UICONTROL DCS] stores information in data centers that are geographically close to site visitors. Your queries will work if you send them to the wrong [!UICONTROL DCS], but these calls are inefficient and can delay the response. To make a [!UICONTROL DCS] request, match the region ID to its corresponding regional host name and form your query with the proper host name.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -67,4 +67,4 @@ Der Hostname des regionalen [!UICONTROL DCS] Servers ist erforderlich, um an [!U
  </tbody> 
 </table>
 
-Sie können [!DNL API] auch Methoden verwenden, um eine Liste der verfügbaren [!UICONTROL DCS] Regionen zu erhalten. Siehe [DCS-Region-API-Methoden](../../../api/rest-api-main/aam-api-dcs-regions.md).
+You can also use [!DNL API] methods to get a list of the available [!UICONTROL DCS] regions. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
