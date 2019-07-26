@@ -30,7 +30,7 @@ To get started with [!UICONTROL Actionable Log Files], and to use our [Audience 
 
 If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
 
->[!NOTE] {important = &quot;high&quot;}
+>[!NOTE] {important = "high"}
 >
 >[!UICONTROL Actionable Log Files] nur mit [!DNL Google DCM] Protokolldateien arbeiten.
 
@@ -42,7 +42,7 @@ Sie müssen weiterhin regelbasierte Eigenschaften einrichten, um die verfolgbare
 
 For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
->[!IMPORTANT] {important = &quot;high&quot;}
+>[!IMPORTANT] {important = "high"}
 >
 >We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). Wir deklonen die Verwendung beider Optionen, da dies zu einer Erhöhung der Frequenzzahlen für Eigenschaften führt.
 
@@ -120,11 +120,11 @@ The signals described in the table are captured in [!DNL Audience Manager] like 
 https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
->[!NOTE] {important = &quot;high&quot;}
+>[!NOTE] {important = "high"}
 >
 >The event timestamp provided in the [!DNL DCM] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
 >
->* If a timestamp isn&#39;t available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
+>* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
 
 
@@ -136,11 +136,11 @@ One benefit of implementing [!UICONTROL Actionable Log Files] is the option to a
 
 Targeting von Benutzern, die kreative 123 Artikel gesehen, aber nicht auf oder konvertiert und Creative Creative Suite 456 angezeigt haben. Gehen Sie wie folgt vor:
 
-1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die die kreativen Elemente gesehen haben. Let&#39;s say you name the trait [!DNL Creative Trait 123]. Verwenden Sie die Eigenschaftenregel:
+1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die die kreativen Elemente gesehen haben. Let's say you name the trait [!DNL Creative Trait 123]. Verwenden Sie die Eigenschaftenregel:
 
    `d_creative == 123 AND d_event == imp`
 
-1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die klicken oder konvertieren. Let&#39;s say you name this one [!DNL Click and Converter]. Verwenden Sie die Eigenschaftenregel:
+1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die klicken oder konvertieren. Let's say you name this one [!DNL Click and Converter]. Verwenden Sie die Eigenschaftenregel:
 
    `d_event == click OR d_event=conv`
 
