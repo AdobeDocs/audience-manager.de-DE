@@ -15,8 +15,8 @@ source-git-commit: 80d3001618211f76a2166b214a5b88a04ac07037
 
 [!UICONTROL RESTful APIs] ermöglicht die programmatische Arbeit mit Audience Manager.
 
-Der Audience Manager [!DNL REST API] -Parameter ( [!DNL JavaScript Object Notation][JSON](https://www.json.org/)) dient zur Formatierung von gesendeten und empfangenen Daten. Ein Prinzipalvorteil besteht darin, [!DNL JSON] dass es hilfreich ist, [!DNL API] Abfragen von Entwicklern und Computern zu schreiben, zu lesen und zu analysieren.
+The Audience Manager [!DNL REST API] follows [!DNL JavaScript Object Notation] ( [JSON](https://www.json.org/)) standards for formatting sent and received data. A principal advantage of [!DNL JSON] is that it helps make [!DNL API] queries easy to write, read, and parse by developers and machines.
 
-Um Ihre Arbeit noch weiter zu vereinfachen, migrieren wir unsere REST-apis in [Swagger](https://swagger.io/solutions/api-documentation/). Weitere Informationen finden Sie unter [Audience Manager API-Code-Migration](/help/using/api/api-swagger-migration.md).
+To simplify your work even more, we are migrating our REST APIs to [Swagger](https://swagger.io/solutions/api-documentation/). For more information, see [Audience Manager API Code Migration](/help/using/api/api-swagger-migration.md).
 
-Überprüfen Sie das [Material &quot;Erste Schritte&quot;](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) , bevor Sie mit den Audience Manager [!DNL API] -Methoden arbeiten.
+Review the [Getting Started](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) material before working with the Audience Manager [!DNL API] methods.
