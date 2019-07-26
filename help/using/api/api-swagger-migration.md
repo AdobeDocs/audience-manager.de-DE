@@ -11,15 +11,15 @@ source-git-commit: d368699d0de9a43cb7cf2c1af64da941a811db71
 ---
 
 
-# Migration von Audience Manager-API-Code {#audience-manager-api-code-migration}
+# Audience Manager API Code Migration {#audience-manager-api-code-migration}
 
-Hier in Audience Manager sind wir Techniker, Entwickler und Code ninjas genau wie Sie. Ebenso wie Sie möchten wir mit zuverlässigen, genauen [!DNL API] Dokumentation arbeiten. Daher schreiben wir unseren [!DNL API] Inhalt neu und [!DNL Swagger] verschieben ihn an eine neue Position. Diese Änderungen helfen Ihnen, Ihr Erlebnis mit dem Audience Manager [!DNL API] -Code zu verbessern.
+Hier in Audience Manager sind wir Techniker, Entwickler und Code ninjas genau wie Sie. And, like you, we want to work with reliable, accurate [!DNL API] documentation. As a result, we're re-writing our [!DNL API] content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager [!DNL API] code.
 
-## Movin&#39;On Up {#code-migration-details}
+## Movin' On Up {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-Die [Adobe Audience Manager API-Docs-](https://bank.demdex.com/portal/swagger/index.html) Site ist das neue Zuhause unseres überprüften [!DNL API] Inhalts. Wir versuchen, einige Gruppen von [!DNL API] Methoden mit jeder Version neu zu schreiben und zu verschieben. Dies bedeutet, dass Sie sowohl den neuen Ort als auch die [REST-API](../api/rest-api-main/rest-api-main.md) -Dokumentation überprüfen müssen, um alle verfügbaren Methoden zu finden. Letztendlich befinden sich alle öffentlichen [!DNL API]s auf der [!DNL Audience Manager][!DNL API] Docs-Site. Die folgende Tabelle listet die überarbeitet und migrierten [!DNL API]s auf.
+The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised [!DNL API] content. We'll try to re-write and move a few sets of [!DNL API] methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/rest-api-main.md) documentation to find all of the available methods. Eventually, all of the public [!DNL API]s will be on the [!DNL Audience Manager] [!DNL API] docs site. The following table lists the revised and migrated [!DNL API]s.
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 
