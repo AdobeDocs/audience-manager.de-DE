@@ -15,33 +15,33 @@ NUTZUNGSBEDINGUNGEN, REPRODUKTION UND VERTEILUNG
 
 1. Definitionen.
 
-   &quot; Lizenz&quot; bezeichnet die Nutzungsbedingungen für Verwendung, Reproduktion und
+   " Lizenz" bezeichnet die Nutzungsbedingungen für Verwendung, Reproduktion und
 Verteilung gemäß den Abschnitten 1 bis 9 dieses Dokuments.
 
-   &quot; Licensor&quot; bezeichnet den Urheberrechtsinhaber oder die Entität, die vom Urheberrechtsinhaber autorisiert wurde, der die Lizenz gewährt.
+   " Licensor" bezeichnet den Urheberrechtsinhaber oder die Entität, die vom Urheberrechtsinhaber autorisiert wurde, der die Lizenz gewährt.
 
-   &quot; Juristische Entität&quot; bedeutet die Vereinigung der aktiven Entität und aller
+   " Juristische Entität" bedeutet die Vereinigung der aktiven Entität und aller
 anderen Entitäten, die diese Entität steuern, von dieser kontrolliert werden oder diese mit einer gemeinsamen
-Steuerung steuern. Für die Zwecke dieser Definition bedeutet &quot;control&quot; (i) die Leistungsfähigkeit, direkt oder indirekt, um die
+Steuerung steuern. Für die Zwecke dieser Definition bedeutet "control" (i) die Leistungsfähigkeit, direkt oder indirekt, um die
 Richtung oder Verwaltung dieser Entität zu verursachen, ob vertraglich oder
-anderweitig, oder (ii) Eigentümerschaft für 5% (50%) oder mehr der ausstehenden&quot; Teilen&quot; -Klicks oder (iii) vorteilhaftes Eigentum für diese Entität.
+anderweitig, oder (ii) Eigentümerschaft für 5% (50%) oder mehr der ausstehenden" Teilen" -Klicks oder (iii) vorteilhaftes Eigentum für diese Entität.
 
-   &quot; Sie&quot; (oder &quot;Your&quot; ) bezeichnet eine einzelne oder juristische Entität,
+   " Sie" (oder "Your" ) bezeichnet eine einzelne oder juristische Entität,
 die Berechtigungen für diese Lizenz erteilt.
 
-   &quot; Quelle&quot; ist das bevorzugte Formular für Änderungen, einschließlich der Softwarequellcode, der Dokumentationsquelle
+   " Quelle" ist das bevorzugte Formular für Änderungen, einschließlich der Softwarequellcode, der Dokumentationsquelle
 und der Konfigurationsdateien.
 
-   &quot; Objekt&quot; ist ein beliebiges Formular, das aus der mechanischen
+   " Objekt" ist ein beliebiges Formular, das aus der mechanischen
 Transformation oder Übersetzung eines Quellformulars resultiert, einschließlich kompilierter Objektcodes, generierter Dokumentation und
 Konversionen in andere Medientypen.
 
-   &quot; Work&quot; bezeichnet die Autorenarbeit, die unter der Option &quot;Quelle&quot; oder&quot;
-Objekt&quot; zur Verfügung gestellt wird, die unter der Lizenz verfügbar gemacht wird, wie durch einen
+   " Work" bezeichnet die Autorenarbeit, die unter der Option "Quelle" oder"
+Objekt" zur Verfügung gestellt wird, die unter der Lizenz verfügbar gemacht wird, wie durch einen
 Urheberrechtshinweis angegeben, der in der Arbeitsfläche
 enthalten ist oder damit verknüpft ist (im Anhang unten finden Sie ein Beispiel).
 
-   &quot; Abgeleitete Werke&quot; bezeichnet alle Aufgaben, ob im Quell- oder Objekt-Formular,
+   " Abgeleitete Werke" bezeichnet alle Aufgaben, ob im Quell- oder Objekt-Formular,
 die auf dem Arbeitsablauf (oder abgeleitet) basieren, für die die
 redaktionellen Überarbeitungen, Anmerkungen, Ausführungen oder andere Änderungen
 als Ganzes einer Originalarbeit des Authoring dienen. Für die Zwecke
@@ -49,20 +49,20 @@ dieser Lizenz umfassen die abgeleitete Funktionsweise keine Funktionen, die nich
 können, oder nur Links, die an die Schnittstellen von,
 Werk und Abgeleitete Werke gesendet werden.
 
-   &quot; Beitrag&quot; bezieht sich auf alle Authoring-Vorgänge, einschließlich
+   " Beitrag" bezieht sich auf alle Authoring-Vorgänge, einschließlich
 der Originalversion der Arbeit und aller Änderungen oder Ergänzungen
 dieser Werke oder Kopien, die absichtlich
 an den Lizenzgeber gesendet werden, um in den Urheberrechtsinhaber
 oder durch eine einzelne oder juristische Entität zu übertragen, die im Auftrag des
-Urheberrechtsinhabers zur Übermittlung berechtigt ist. Für die Zwecke dieser Definition bezeichnet &quot;Gesendet&quot; jede
+Urheberrechtsinhabers zur Übermittlung berechtigt ist. Für die Zwecke dieser Definition bezeichnet "Gesendet" jede
 Form einer elektronischen, verborgenen oder schriftlichen Kommunikation, die an den Lizenzgeber oder dessen Vertreter gesendet wird,
 einschließlich jedoch nicht beschränkt auf
 die Kommunikation bei elektronischen Mailinglisten, Quellcodesteuerungssystemen und Ausgabenverfolgungssystemen, die vom
 Lizenzgeber verwaltet werden, um die Arbeit zu besprechen und zu verbessern, jedoch
-nicht die Kommunikation, die durch den Urheberrechtsinhaber als&quot; Kein Beitrag&quot; gekennzeichnet oder anderweitig
+nicht die Kommunikation, die durch den Urheberrechtsinhaber als" Kein Beitrag" gekennzeichnet oder anderweitig
 zugewiesen.
 
-   &quot; Mitarbeiter&quot; bedeutet den Lizenzgeber und jede einzelne oder juristische Entität
+   " Mitarbeiter" bedeutet den Lizenzgeber und jede einzelne oder juristische Entität
 für Namen, für die ein Beitrag von einem Lizenzgeber empfangen und
 anschließend im Arbeitsablauf enthalten ist.
 
@@ -83,7 +83,7 @@ anfordernden oder Gegenschadenserfolgs in einer Rechtsanforderung) anfordern, da
 oder einen Beitrag, der im Arbeitsablauf enthalten ist, eine direkte
 oder Teilnehmende Patentverletzung darstellt, werden alle Patente, die Ihnen unter dieser Lizenz für diese Arbeit erteilt wurden, dem Datum der Einreichung der Kalender entsprechend beendet.
 
-4. Neuverteilung. Sie können Kopien der Vorgänge &quot;Work&quot; oder&quot; Derivative Works&quot; auf allen Medien (mit oder ohne
+4. Neuverteilung. Sie können Kopien der Vorgänge "Work" oder" Derivative Works" auf allen Medien (mit oder ohne
 Änderungen) sowie im Quell- oder Objekt-Formular reproduzieren und verteilen, sofern Sie
 folgende Bedingungen erfüllen:
 
@@ -97,7 +97,7 @@ die Sie verteilen, alle Copyright-, Patent-, Marken- und
 Zuordnungshinweise aus der Quellform des Arbeitsbereichs ausschließen,
 mit Ausnahme jener Hinweise, die keinem Teil der Abgeleitete Funktionsweise vorbehalten sind, und
 
-   (d) Wenn die Arbeitsmappe im Rahmen der Verteilung eine &quot;NOTICE&quot; -Textdatei enthält, muss
+   (d) Wenn die Arbeitsmappe im Rahmen der Verteilung eine "NOTICE" -Textdatei enthält, muss
 alle gespeicherten Werke, die Sie verteilen, eine lesbare Kopie der Zuordnungshinweise enthalten, die in dieser Benachrichtigungsdatei enthalten
 sind. Ausgenommen hiervon sind Hinweise, die keinem Teil der abgeleitete Arbeitsfläche vorbehalten sind, in mindestens einem
 der folgenden Orte: within a NOTICE file file distributed
@@ -128,7 +128,7 @@ Ursprungs der Work und Reproduktion des Inhalts der NOTICE-Datei erforderlich is
 
 7. Haftungsausschluss. Sofern nicht durch geltende Gesetze erforderlich oder
 nicht schriftlich geschrieben, stellt der Lizenzgeber die Arbeit (und die einzelnen
-Mitarbeiter bereitgestellt) auf einer &quot;AS IS&quot; -BASIS bereit, ohne
+Mitarbeiter bereitgestellt) auf einer "AS IS" -BASIS bereit, ohne
 jegliche ausdrückliche oder
 stillschweigende Garantie, einschließlich der Garantien oder Bedingungen
 von TITLE, NICHT-VERLETZUNG, MERCHANTABILITY oder FITNESS FÜR EINEN
@@ -137,7 +137,7 @@ BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Eignung für die Ve
 8. Haftungsbeschränkung. In kein Ereignis und unter keine Rechtstheorie,
 sei es in Tort (einschließlich Nachlässigkeit), Vertrag oder anderweitig, sofern nicht gesetzlich vorgeschrieben (wie absichtliche und grossfahrende
 Handlungen), muss jeder Mitarbeiter-Mitarbeiter für Schäden haftbar sein, einschließlich etwaiger direkter, indirekter, indirekter,
-zusätzlicher oder nachfolgender Schäden, die auftreten, wenn ein Zeichen diese Lizenz oder nicht der Einsatz der Arbeit (einschließlich, jedoch nicht beschränkt auf Schäden beim Verlust von &quot;Gefällt mir&quot; -Klicks,
+zusätzlicher oder nachfolgender Schäden, die auftreten, wenn ein Zeichen diese Lizenz oder nicht der Einsatz der Arbeit (einschließlich, jedoch nicht beschränkt auf Schäden beim Verlust von "Gefällt mir" -Klicks,
 der Arbeitsunterbrechung, dem Computerausfall oder -ausfall oder allen anderen kommerziellen Schäden oder Verlusten), selbst wenn solche Mitarbeiter
 wurde über die Wahrscheinlichkeit dieses Schadens informiert.
 
@@ -153,24 +153,24 @@ ENDE DER GESCHÄFTSBEDINGUNGEN
 ANHANG: Anwendung der Apache-Lizenz auf Ihre Arbeit.
 
     Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den Followertexthinweis
-    hinzu, wobei die Felder mit Klammern &quot; {}&quot;
-    durch Ihre eigenen Identifizierungsinformationen ersetzt werden. (Keine
-    Klammern!) Der Text sollte in der Ausgangssyntax
-    für das Dateiformat eingeschlossen werden. Wir empfehlen außerdem, dass &quot;afile
-    &quot; oder&quot; class name&quot; und &quot;description of purpose&quot; auf der
-    &quot; gedruckten Seite&quot; als Copyright-Benachrichtigung für einfache Eridentifizierung
-    innerhalb von Drittanbieter-Archiven enthalten sind.
+    hinzu, wobei die Felder mit Klammern " {}"
+    durch Ihre eigenen Identifizierungsinformationen ersetzt werden. (Don't include
+    the brackets!)  The text should be enclosed in the appropriate
+    comment syntax for the file format. We also recommend that a
+    file or class name and description of purpose be included on the
+    same "printed page" as the copyright notice for easier
+    identification within third-party archives.
 
 Copyright 2018 Adobe Systems, Inc
 
-Lizenziert unter der Apache-Lizenz, Version 2.0 (die Lizenz &quot;);
+Lizenziert unter der Apache-Lizenz, Version 2.0 (die Lizenz ");
 Sie dürfen diese Datei nur unter Einhaltung der Lizenzvereinbarung verwenden.
 Sie können eine Kopie der Lizenz unter
 
     https://www.apache.org/licenses/LICENSE-2.0
 
 Sofern nicht durch geltende Gesetze erforderlich oder das Schreiben nicht erfolgt, wird die unter der Lizenz verteilte Software
-auf einer &quot;AS IS&quot; -BASIS verteilt,
+auf einer "AS IS" -BASIS verteilt,
 ohne jegliche ausdrückliche oder implizite Bedingung.
 Weitere Informationen finden Sie in der Lizenz für die entsprechenden Berechtigungen und
 Einschränkungen unter der Lizenz.
