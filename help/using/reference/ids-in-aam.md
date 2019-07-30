@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Index von IDs in Audience Manager
 uuid: 292185 ec -7 c 6 a -414 b-ab 17-800 c 21 cb 1 f 01
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: cf0cec2fdf1272f075a825b09cf2fa11a3815432
 
 ---
 
@@ -25,6 +25,26 @@ In diesem Dokument finden Sie die vollständige Liste der Adobe Audience Manager
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <p>AAM UUID </p> </td> 
+   <td colname="col2"> <p> <b><span class="keyword"> Eindeutige Benutzer-ID des Audience Manager </span></b> </p> <p> A numerical, 38-digit device ID that <span class="keyword"> Audience Manager</span> associates to each device it interacts with. Bedenken Sie diese ID, wenn Sie eine Erwähnung Unique Users in der Benutzeroberfläche von Audience Manager anzeigen.<p><span class="keyword"> Audience Manager</span> versucht, diese ID als Cookie in der Domäne "demdex. net" zu speichern.</p> </p> <p>Die UUID des Audience Manager wird in Ereignisaufrufen als d_ uuid gesendet. </p> </td> 
+   <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Imsorgid </p> </td> 
+   <td colname="col2"> <p> <b>Organisations-ID</b> </p> <p>Dies ist die ID, mit der ein Unternehmen bei der Anmeldung für die Experience Cloud bereitgestellt wird. To learn how you can find your company's Organization ID, read <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> Organizations and Account Linking</a> and scroll down to Find your Organization ID.</p> </td> 
+   <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>PID </p> </td> 
+   <td colname="col2"> <p> <b>Partner-ID</b> </p> <p> The PID is a company's ID in <span class="keyword"> Audience Manager</span>. <span class="keyword"> Audience Manager</span> verknüpft eine imsorgid zu einer PID. </p> </td> 
+   <td colname="col3"> <p><code> 1352</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>ECID, MID </p> </td> 
+   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>The Experience Cloud ID (ECID, legacy abbreviations MID or MCID) is derived mathematically from your Organization ID and the <span class="keyword"> Audience Manager</span> Unique User ID. Solange diese IDs konstant bleiben, ist das Generieren der richtigen ECID für einen bestimmten Benutzer einfach ein mathematischer Fehler. Bei derselben Organisations-ID und denselben UUID für Audience Manager erhalten Sie immer denselben ECID-Wert. You can read more about the ECID in the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and Experience Cloud ID</a> document. </p> </td> 
+   <td colname="col3"> <p><code> mid=08382830887934830189014177072406221371 </code> </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <p>SID </p> </td> 
    <td colname="col2"> <p> <b>Eigenschafts-ID</b> </p> <p>The Trait ID uniquely identifies traits in the <span class="keyword"> Audience Manager</span> environment. Jeder Eigenschaft wird in der Benutzeroberfläche eine Eigenschafts-ID zugewiesen. </p> </td> 
@@ -64,26 +84,6 @@ In diesem Dokument finden Sie die vollständige Liste der Adobe Audience Manager
    <td colname="col1"> <p>CID, CID_ IC </p> </td>
    <td colname="col2"> <p> <b>Kunden-ID, Kunden-ID-Integrationscode</b> </p> <p> <b>Die Schlüssel CID und CID_ IC <a href="../reference/cid.md"> ersetzen DPID und DPUUID</a>.</b> Sie bieten dieselben Funktionen wie DPID und DPUUID, sind jedoch effizienter, da sie die Datenanbieter-ID und Benutzer-ID (oder Integrationscode) in ein einzelnes Schlüssel-Wert-Paar aufnehmen. </p> </td> 
    <td colname="col3"> <p><code> 81841% 013 ad 2948 b 1570 a 7 e 408 a 7 cfb 7 ff 4879 e 4 </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AAM UUID </p> </td> 
-   <td colname="col2"> <p> <b><span class="keyword"> Eindeutige Benutzer-ID des Audience Manager </span></b> </p> <p> A numerical, 38-digit device ID that <span class="keyword"> Audience Manager</span> associates to each device it interacts with. <span class="keyword"> Audience Manager</span> versucht, diese ID als Cookie in der Domäne "demdex. net" zu speichern. </p> <p>Die UUID des Audience Manager wird in Ereignisaufrufen als d_ uuid gesendet. </p> </td> 
-   <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Imsorgid </p> </td> 
-   <td colname="col2"> <p> <b>Organisations-ID</b> </p> <p>Dies ist die ID, mit der ein Unternehmen bei der Anmeldung für die Experience Cloud bereitgestellt wird. To learn how you can find your company's Organization ID, read <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> Organizations and Account Linking</a> and scroll down to Find your Organization ID.</p> </td> 
-   <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PID </p> </td> 
-   <td colname="col2"> <p> <b>Partner-ID</b> </p> <p> The PID is a company's ID in <span class="keyword"> Audience Manager</span>. <span class="keyword"> Audience Manager</span> verknüpft eine imsorgid zu einer PID. </p> </td> 
-   <td colname="col3"> <p><code> 1352</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ECID, MID </p> </td> 
-   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>The Experience Cloud ID (ECID, legacy abbreviations MID or MCID) is derived mathematically from your Organization ID and the <span class="keyword"> Audience Manager</span> Unique User ID. Solange diese IDs konstant bleiben, ist das Generieren der richtigen ECID für einen bestimmten Benutzer einfach ein mathematischer Fehler. Bei derselben Organisations-ID und denselben UUID für Audience Manager erhalten Sie immer denselben ECID-Wert. You can read more about the ECID in the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and Experience Cloud ID</a> document. </p> </td> 
-   <td colname="col3"> <p><code> mid=08382830887934830189014177072406221371 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="2"> <p>DAID </p> <p> 
