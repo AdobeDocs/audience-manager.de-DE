@@ -7,7 +7,7 @@ title: Rechnungsstellung für Datenfeed-Käufer
 keywords: Berichterstellung auf Segmentebene, Segmentebene, Segmentebene
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
+source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
 
 ---
 
@@ -47,6 +47,8 @@ So melden Sie [!DNL CPM] die Nutzung auf Segmentebene an:
 6. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
    ![confirmation-segment-usage](assets/confirm-segment-usage.png)
 7. Klicken Sie auf **[!UICONTROL Confirm]**.
+
+<br> 
 
 ## Bericht-CPM-Nutzung auf Datenfeed-Ebene {#feed-level-report}
 
@@ -221,6 +223,8 @@ Dieses Segment enthält 3 Eigenschaften aus separaten Datenanbietern. Da Segment
 Wir können nicht feststellen, welche Eigenschaft für eine Impression verantwortlich ist, da die Qualifikation auf einer [!UICONTROL OR] Bedingung basiert. Infolgedessen können Sie im Abschnitt [!UICONTROL Audience Marketplace > Payables] jeden Anbieter mit einer gewichteten Zuordnung der Impressionen basierend auf der Eigenschaftenpopulation vergleichen.
 
 ![rechnungsstellung-segment-or](assets/billing-segment-or.png)
+
+<br> 
 
 ### Fall 3: Segmente mit Anwendungsfällen für Modellierung und Aktivierung
 
