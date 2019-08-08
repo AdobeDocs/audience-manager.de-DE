@@ -7,16 +7,16 @@ solution: Audience Manager
 title: Ziele
 uuid: 5 c 7 dbdec-f 73 f -46 fe -9 f 12-7685 e 8 d 7334 f
 translation-type: tm+mt
-source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 ---
 
 
-# Ziele {#destinations}
+# Übersicht über Ziele {#destinations}
 
-In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool zum Erstellen und Verwalten von Cookies, [!DNL URL]oder Server-to-Server-Zielen.
+In Audience Manager ist ein Ziel ein Drittanbietersystem (Werbeserver, [!DNL DSP]Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool zum Erstellen und Verwalten von Cookies, [!DNL URL]oder Server-to-Server-Zielen.
 
-## Purpose and Advantages {#purposes}
+## Zweck und Vorteile {#purposes}
 
 <!-- c_destinations.xml -->
 
@@ -24,13 +24,13 @@ In Audience Manager, a destination is any third-party system (ad server, [!DNL D
 
 * **Datenwert schützen:** Anstatt alle Benutzerdaten an ein Ziel zu senden, können [!UICONTROL Destination Builder] Sie bestimmte Informationen nur über qualifizierte Benutzer teilen.
 * **Handeln Sie mit Ihren Daten:** Durch das Senden von Daten an einen Zielpartner können sie qualifizierte Zielgruppensegmente schnell entwickeln und gezielt ansprechen.
-* **Technischer Aufwand reduzieren:** Geschäftsbenutzer können Ziele auf der [!UICONTROL Destination Builder] Benutzeroberfläche sicher einrichten. Dadurch wird die Zeit für Tests vor der Bereitstellung reduziert. With [!UICONTROL Destination Builder], you create, manage, and delete destinations as your business needs change, all without working through a long development cycle.
+* **Technischer Aufwand reduzieren:** Geschäftsbenutzer können Ziele auf der [!UICONTROL Destination Builder] Benutzeroberfläche sicher einrichten. Dadurch wird die Zeit für Tests vor der Bereitstellung reduziert. Mit, [!UICONTROL Destination Builder]verwalten, verwalten und löschen Sie Ziele, wenn Sie sich ändern, ohne einen langen Entwicklungszyklus.
 
 ## Technische Aspekte {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
-Die Datenbereitstellung hängt davon ab, wie Ihr Datenpartner Ziel-Informationen erhalten möchte oder kann. Technical or engineering constraints may prevent a destination from receiving data via [!DNL URL], cookie, or server-to-server processes. Wenden Sie sich an Ihren Partner von Drittanbietern, um zu bestimmen, welche Methode sie verwenden können.
+Die Datenbereitstellung hängt davon ab, wie Ihr Datenpartner Ziel-Informationen erhalten möchte oder kann. Technische oder technische Einschränkungen können verhindern, dass ein Ziel Daten, [!DNL URL]Cookies oder Server-zu-Server-Prozesse empfängt. Wenden Sie sich an Ihren Partner von Drittanbietern, um zu bestimmen, welche Methode sie verwenden können.
 
 ## Geschäftliche Aspekte {#business-considerations}
 
@@ -39,7 +39,7 @@ Geschäftsentscheidungen für die Auswahl einer Auslieferungsmethode über einen
 * [!DNL URL]Ziele, die auf Cookies basieren, funktionieren fast synchron mit Benutzeraktionen auf einer Seite.
 * Server-zu-Server-Methoden eignen sich gut für das Erstellen tiefer Zielgruppensegmente im Laufe der Zeit.
 
-## Destination Types and Typical Uses {#destination-types}
+## Zieltypen und typische Verwendungen {#destination-types}
 
 Anhand der Beispiele in der folgenden Tabelle können Sie erkennen, wann ein bestimmtes Ziel und die Unterschiede zwischen den einzelnen Typen verwendet werden.
 
