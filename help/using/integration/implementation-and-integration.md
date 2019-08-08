@@ -5,7 +5,7 @@ seo-title: Arbeiten Sie mit Daten aus Experience Cloud-Lösungen oder anderen e
 solution: Audience Manager
 title: Implementierungs- und Integrationsanleitungen
 translation-type: tm+mt
-source-git-commit: 3940caf2c29ea9e6c405e806e16ffad0cad013bb
+source-git-commit: 92b47cb110a6d48c4e491e6aabeada61a9ac958b
 
 ---
 
@@ -19,4 +19,4 @@ Arbeiten Sie mit Daten aus Experience Cloud-Lösungen oder anderen externen Sys
 * [Mediendatenintegration](/help/using/integration/media-data-integration/media-data-integration.md)
 * [Empfangen von Zielgruppendaten](/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md)
 * [Senden von Zielgruppendaten](/help/using/integration/sending-audience-data/send-audience-data.md)
-* [Audience Manager Technology Partners](/help/using/features/destinations/audience-manager-technology-partners.md)
+* [Audience Manager Technology Partners](/help/using/integration/integrating-third-party/audience-manager-technology-partners.md)
