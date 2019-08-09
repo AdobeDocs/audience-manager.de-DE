@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Audience Manager-Produktdokumentation
 uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 916
 translation-type: tm+mt
-source-git-commit: d8a7f4125bc5dbf8b6eeb5b64efec7462da4c4e9
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Audience Manager Product Documentation {#audience-manager-product-documentation}
+# Audience Manager-Produktdokumentation {#audience-manager-product-documentation}
 
 Der Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 
@@ -20,13 +20,13 @@ Der Audience Manager bietet branchenführende Dienste für das Daten-Management 
   <tr> 
    <td colname="col1"> <p> <b>Neue und vorgestellte Funktionen</b> </p> <p>Lesen Sie die neuesten Funktionen von Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="features/destinations/manage-destinations.md#default-landing-page">Ziele-Homepage</a> </li>
+     <li><a href="features/destinations/destinations-home.md">Ziele-Homepage</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">Verschleierung von IP-Adressen</a> </li>
      <li><a href="overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-In für IAB TCF</a> </li>
      <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID-Zuordnungs-Begrenzung</a> </li>
      <li><a href="features/global-data-sources.md">Globale Data Sources</a> </li> 
-     </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md"> 2019 Documentation Updates</a>. </p> 
-     <p>If you are new to Audience Manager, see our <a href="reference/aam-glossary.md"> Glossary</a> and <a href= "reference/ids-in-aam.md">Index of IDs.</a></p></td>
+     </ul> </p> <p>Siehe auch Dokumentation zu Dokumentationen <a href="docs-updates/docs-2019.md"> 2019</a>. </p> 
+     <p>Wenn Sie neu bei Audience Manager sind, sehen Sie sich unser <a href="reference/aam-glossary.md"> Glossar</a> und den <a href= "reference/ids-in-aam.md">Index von IDs an.</a></p></td>
    <td colname="col2"> <p> <b>Versionshinweise</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">Neue Funktionen und Fehlerbehebungen finden Sie in den <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external">Experience Cloud-Versionshinweisen</a>. </li> 
