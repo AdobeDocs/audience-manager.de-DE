@@ -6,46 +6,46 @@ solution: Audience Manager
 title: Senden von Segmenten an eine Google adwords-Remarketing-Liste
 uuid: 5 ad 821 c 6-48 b 4-42 c 0-b 912-1563331 e 93 a 2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
+# Senden von Segmenten an eine Google Ads-Remarketing-Liste {#send-segments-to-a-google-adwords-remarketing-list}
 
-This procedure requires a [!DNL Google Ads] remarketing list, pixel code, and an Audience Manager [!DNL URL] destination. It is also known as a remarketing list for search ads ([!DNL RLSA]) integration. Gilt nur für gebührenpflichtige Suchvorgänge.
+Für dieses Verfahren sind eine [!DNL Google Ads] Remarketing-Liste, ein Pixelcode und ein Zielgruppen-Manager [!DNL URL] -Ziel erforderlich. Sie wird auch als Remarketing-Liste für Search Ads ([!DNL RLSA])-Integration bezeichnet. Gilt nur für gebührenpflichtige Suchvorgänge.
 
 >[!IMPORTANT]
 >Beachten Sie, dass dies keine produktdefinierte Integration der beiden Systeme ist.
 
-To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] URL destination:
+So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manager] URL-Ziel ein:
 
-1. In your [!DNL Google Ads] account, [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en) and write down your conversion ID.
+1. Erstellen Sie in Ihrem [!DNL Google Ads][Konto eine Website-Remarketing-Liste](https://support.google.com/adwords/answer/2454064?hl=en) und schreiben Sie Ihre Konversions-ID.
 1. Verwenden Sie die folgende URL als Vorlage für die Basis-URL und die sichere URL. Ersetzen Sie den xxxxxxxx-Abschnitt durch Ihre Konversions-ID.
 
    ```
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. [Erstellen Sie in Audience Manager ein URL-Ziel](../../features/destinations/manage-destinations.md#configure-url-destination) oder bearbeiten Sie ein vorhandenes Ziel. Verwenden Sie beim Erstellen des Ziels die folgenden Einstellungen:
+1. [Erstellen Sie in Audience Manager ein URL-Ziel](../../features/destinations/create-url-destination.md) oder bearbeiten Sie ein vorhandenes Ziel. Verwenden Sie beim Erstellen des Ziels die folgenden Einstellungen:
    * Typ: URL
    * Serialisieren: Aktiviert
    * Trennzeichen: Semikolon (;)
 
-1. In the [!UICONTROL Segment Mappings] section of your [!DNL URL] destination, add the code from step 2 to the [!DNL URL] and [!DNL Secure URL] fields. Prefix the code with `http:` and `https:` in the [!DNL URL] and [!DNL Secure URL] fields, respectively.
+1. Fügen Sie im [!UICONTROL Segment Mappings] Abschnitt Ihres [!DNL URL] Ziels den Code aus Schritt 2 in [!DNL URL] die Felder ein [!DNL Secure URL] . Präfix des Codes mit `http:` und `https:`[!DNL URL] in [!DNL Secure URL] den Feldern.
 
    >[!IMPORTANT]
    >
-   >Replace encoded ampersands `&` with un-encoded ampersands `&`
+   >Kodierte Kaufmännische `&` durch dekodierte und nicht kodierte Zeichen ersetzen `&`
 
-   Unsecure [!DNL URL] code:
+   Unsicherer [!DNL URL] Code:
 
    ```
     http://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
     value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-   Secure [!DNL URL] code:
+   Sicherer [!DNL URL] Code:
 
    ```
     https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
@@ -58,8 +58,8 @@ To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] URL
    >
    >Wenn Sie mit mehreren Segmenten arbeiten, erhalten Sie ein neues Pixel für jedes Segment, das Sie einem Google Ads-Ziel zuordnen möchten. Dadurch wird sichergestellt, dass die Daten auf die entsprechende Remarketing-Liste angewendet werden.
 
-1. When mapping a new segment to this destination in Audience Manager, define the mapping as `aam=segmentID` and replace `segmentID` with the ID of your segment.
-1. When defining a bucket in [!DNL Google Ads], create a rule that matches the mapping defined at step 6.
+1. Wenn Sie ein neues Segment diesem Ziel in Audience Manager zuordnen, definieren Sie die Zuordnung als `aam=segmentID` und ersetzen Sie sie durch `segmentID` die ID Ihres Segments.
+1. Erstellen Sie beim Definieren eines [!DNL Google Ads]Behälters eine Regel, die mit der in Schritt 6 definierten Zuordnung übereinstimmt.
 
 Eine abgeschlossene Zuordnung könnte wie folgt aussehen:
 
@@ -68,7 +68,7 @@ Eine abgeschlossene Zuordnung könnte wie folgt aussehen:
 >[!MORE_ LIKE_ THIS]
 >
 >* [Ziele](../../features/destinations/destinations.md)
->* [URL-Ziel erstellen](../../features/destinations/manage-destinations.md#configure-url-destination)
+>* [URL-Ziel erstellen](../../features/destinations/create-url-destination.md)
 >* [Info zu adwords Remarketing Lists](https://support.google.com/adwords/answer/2472738)
 >* [Funktionsweise von adwords Remarketing](https://support.google.com/adwords/answer/2454000)
 
