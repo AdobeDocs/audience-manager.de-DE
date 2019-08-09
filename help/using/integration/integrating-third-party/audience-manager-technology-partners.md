@@ -6,14 +6,14 @@ keywords: activation; Aktivierungspartner, Ziel, Ziele
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partner
 translation-type: tm+mt
-source-git-commit: ffdf5404235734adb77e93a3d231a65b2444cc1f
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
 # Audience Manager Activation Partners
 
-Diese Seite enthält nur aktuelle Audience Manager [-Server-zu-Server-Integrationen](/help/using/features/destinations/manage-destinations.md#add-edit-segments) . Weitere Informationen zu einer Integration finden Sie in der zugehörigen [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder Kundendienst.
+Diese Seite enthält nur aktuelle Audience Manager [-Server-zu-Server-Integrationen](/help/using/features/destinations/add-edit-segments.md) . Weitere Informationen zu einer Integration finden Sie in der zugehörigen [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder Kundendienst.
 
 <br> 
 
