@@ -5,7 +5,7 @@ seo-title: Datenexport-Steuerelemente zu einem Ziel hinzufügen
 solution: Audience Manager
 title: Datenexport-Steuerelemente zu einem Ziel hinzufügen
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 So fügen Sie einem Ziel eine Exportbeschriftung hinzu:
 
 1. Klicken Sie auf **[!UICONTROL Audience Data]**:
-   * Für neue Ziele: Klicken **[!UICONTROL Create New Destination]** Sie auf. Füllen Sie den [!UICONTROL Basic Information] Abschnitt aus, bevor Sie eine Datenexportbeschriftung auswählen. Weitere Informationen finden Sie unter [Erstellen eines Cookie-Ziels](../../features/destinations/manage-destinations.md#create-cookie-destination) oder [Erstellen eines URL-Ziels](../../features/destinations/manage-destinations.md#configure-url-destination) .
+   * Für neue Ziele: Klicken **[!UICONTROL Create New Destination]** Sie auf. Füllen Sie den [!UICONTROL Basic Information] Abschnitt aus, bevor Sie eine Datenexportbeschriftung auswählen. Weitere Informationen finden Sie unter [Erstellen eines Cookie-Ziels](../../features/destinations/create-cookie-destination.md) oder [Erstellen eines URL-Ziels](../../features/destinations/create-url-destination.md) .
    * Für vorhandene Ziele: Verwenden Sie das [!DNL Search] Kästchen, um Ihr Ziel zu finden, oder klicken Sie auf den Zielnamen, um ihn zu öffnen.
 1. Wählen Sie eine [!DNL Data Export Label]. Lassen Sie die Kontrollkästchen leer, wenn Sie keine Exportbeschränkungen festlegen möchten. Zu den Exportbeschriftungen zählen die folgenden Optionen:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
