@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenexportkontrolle
 uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
 translation-type: tm+mt
-source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -20,27 +20,27 @@ source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
 [!UICONTROL Data Export Controls] ermöglicht die Klassifizierung [von Datenquellen](../features/datasources-list-and-settings.md#data-sources-list-and-settings) und [Zielen](../features/destinations/destinations.md). Die von Ihnen angewandten Klassifizierungen bestimmen, wann Daten in ein Ziel exportiert werden können oder nicht. Diese Funktion besteht aus:
 
 * **[!UICONTROL Data Export Controls]**: Sie können Datenexportsteuerelemente für *Datenquellen festlegen*. Wenn diese Einstellung in einer Datenquelle festgelegt ist, schränken diese Steuerelemente die Verwendung der Datenquelle und deren Eigenschaften ein.
-* **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen auf *Zielen festlegen*. Bei Festlegung auf einem Ziel identifizieren diese Beschriftungen, wie das Ziel Daten verwendet. See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
+* **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen auf *Zielen festlegen*. Bei Festlegung auf einem Ziel identifizieren diese Beschriftungen, wie das Ziel Daten verwendet. Weitere [Informationen zum Hinzufügen von Exportbeschriftungen](/help/using/features/destinations/add-data-export-labels.md) zu einem Ziel finden Sie unter Datenexport-Beschriftungen hinzufügen.
 
 Auf der Grundlage der auf eine Datenquelle und ein Ziel angewendeten Classifications werden Sie durch die Exportsteuerelemente vom folgenden abgebrochen:
 
 * Hinzufügen einer Eigenschaft zu einem Segment, wenn die Eigenschaft zu einer Datenquelle gehört, die über eine Datenexportsteuerung verfügt, die mit einer oder mehreren der Ziele, denen das Segment zugeordnet ist, nicht kompatibel ist.
-For example, say a segment is mapped to a destination with the export label **[UICONTROL! This destination may enable a combination with personally identifiable information (PII)]**. Export controls stop you from adding a trait to that segment if the data source that the trait belongs to has a data export control that says **[UICONTROL! Cannot be tied to personally identifiable information (PII)]**.
+Angenommen, ein Segment wird einem Ziel mit der Exportbeschriftung **[UICONTROL zugeordnet! Dieses Ziel kann eine Kombination mit personenbezogenen Informationen (PII) aktivieren]**. Exportsteuerelemente verhindern, dass Sie eine Eigenschaft zu diesem Segment hinzufügen, wenn die Datenquelle, zu der die Eigenschaft gehört, ein Datenexportsteuerelement enthält, das **[UICONTROL LAUTET! Kann nicht an personenbezogene Informationen (PII]**) gebunden werden.
 * Wenn Sie Daten an ein Zielziel senden, wird eine Datenexportbeschriftung, die von einem Datenexportsteuerelement gesperrt wird, auf einer der folgenden Weisen gesperrt:
    * Die Datenquelle einer einbezogenen Eigenschaft;
    * Die Datenquelle einer Eigenschaft, die in einem eingeschlossenen Segment verwendet wird;
    * Die Regel zum Profilzusammenführen, die von einem einbezogenen Segment genutzt wird;
    * Eine der Datenquellen, die die Profilregel für die Profilzusammenführung enthält.
 
-[!UICONTROL Data Export Controls] sind für alle Audience Manager-Kunden automatisch verfügbar. Sie benötigen jedoch Administratorrechte, um einer Datenquelle Exportsteuerelemente hinzuzufügen. Adding export labels to a destination requires administrator permissions *or* sufficient privileges to create or edit a destination.
+[!UICONTROL Data Export Controls] sind für alle Audience Manager-Kunden automatisch verfügbar. Sie benötigen jedoch Administratorrechte, um einer Datenquelle Exportsteuerelemente hinzuzufügen. Für das Hinzufügen von Beschriftungen zu einem Ziel sind Administratorrechte *oder* ausreichende Rechte erforderlich, um ein Ziel zu erstellen oder zu bearbeiten.
 
-## Controls and labels defined {#controls-labels}
+## Definierte Steuerelemente und Beschriftungen {#controls-labels}
 
 [!UICONTROL Data Export Controls] Bereitstellen der folgenden Steuerelemente, um Datenquellen und Ziele zu klassifizieren.
 
-Um die Datenauslieferung zu blockieren, müssen Sie eine Datenquelle mit einem Exportsteuerelement klassifizieren und eine Exportbeschriftung zu einem Ziel hinzufügen. Wenn Sie nur die Exportsteuerelemente auf eine Datenquelle oder ein Ziel anwenden, wird die Datenauslieferung nicht eingeschränkt. When set on both the data source *and* destination, the export controls will limit the traits you can add to a segment and prevent sending the segment members to a destination.
+Um die Datenauslieferung zu blockieren, müssen Sie eine Datenquelle mit einem Exportsteuerelement klassifizieren und eine Exportbeschriftung zu einem Ziel hinzufügen. Wenn Sie nur die Exportsteuerelemente auf eine Datenquelle oder ein Ziel anwenden, wird die Datenauslieferung nicht eingeschränkt. Wenn sie sowohl für die Datenquelle *als auch für* das Ziel festgelegt werden, beschränken die Exportsteuerelemente die Eigenschaften, die Sie einem Segment hinzufügen können, und verhindert, dass die Segmentmitglieder an ein Ziel gesendet werden.
 
-Außerdem muss mindestens eine Exportbeschriftung mit einem Exportsteuerelement übereinstimmen, bevor die Datenauslieferungsbeschränkungen wirksam werden. For example, say you add the [!UICONTROL PII] export control to a data source. Als Nächstes fügen Sie die Onsite-Targeting-Bezeichnung zu einem Ziel hinzu. In diesem Fall schränken Exportsteuerelemente die Datenauslieferung kein, da die Einstellungen nicht übereinstimmen. However, if you add the [!UICONTROL PII] export label to the destination, the export controls will block the export.
+Außerdem muss mindestens eine Exportbeschriftung mit einem Exportsteuerelement übereinstimmen, bevor die Datenauslieferungsbeschränkungen wirksam werden. Beispiel: Sie fügen das [!UICONTROL PII] Exportsteuerelement zu einer Datenquelle hinzu. Als Nächstes fügen Sie die Onsite-Targeting-Bezeichnung zu einem Ziel hinzu. In diesem Fall schränken Exportsteuerelemente die Datenauslieferung kein, da die Einstellungen nicht übereinstimmen. Wenn Sie jedoch die [!UICONTROL PII] Exportbeschriftung zum Ziel hinzufügen, blockiert die Exportsteuerelemente den Export.
 
 >[!IMPORTANT]
 >
@@ -110,4 +110,4 @@ Außerdem muss mindestens eine Exportbeschriftung mit einem Exportsteuerelement 
 Überprüfen Sie zunächst die Datenquelle und die Zieldokumentation. Diese Artikel enthalten Anweisungen zum Hinzufügen von Exportsteuerelementen und Bezeichnungen zu Ihren Datenquellen und Zielen.
 
 * [Datenquelle erstellen](../features/manage-datasources.md#create-data-source)
-* [Datenexport-Beschriftungen zu einem Ziel hinzufügen](../features/destinations/manage-destinations.md#add-data-export-labels)
+* [Datenexport-Beschriftungen zu einem Ziel hinzufügen](../features/destinations/add-data-export-labels.md)
