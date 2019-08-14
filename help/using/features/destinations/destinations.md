@@ -1,13 +1,13 @@
 ---
 description: In Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigen-Server, DSP, Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. Zielaufbau ist das Tool, mit dem Sie Cookies, URL oder Server-to-Server-Ziele erstellen und verwalten.
-keywords: Integrationscode, Ziel, Ziel-Übersicht
+keywords: Integrationscode, Ziel, Ziel-Überblick, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel
 seo-description: In Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigen-Server, DSP, Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. Zielaufbau ist das Tool, mit dem Sie Cookies, URL oder Server-to-Server-Ziele erstellen und verwalten.
 seo-title: Ziele
 solution: Audience Manager
 title: Ziele
 uuid: 5 c 7 dbdec-f 73 f -46 fe -9 f 12-7685 e 8 d 7334 f
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
