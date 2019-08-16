@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Audience Manager Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
+source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
 
 ---
 
@@ -83,7 +83,9 @@ source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
          + [Analytics-Ziel konfigurieren](/help/using/features/destinations/create-analytics-destination.md)
       + Benutzerbasierte Ziele {#pbd}
       + Gerätebasierte Ziele (Server-to-Server) {#device-based}
+         + [Neue gerätebasierte Ziele hinzufügen](/help/using/features/destinations/add-device-based-destinations.md)
          + [Segmente für Server-zu-Server-Ziele hinzufügen oder bearbeiten](/help/using/features/destinations/add-edit-segments.md)
+         + [Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren](/help/using/features/destinations/twitter-tailored-audiences.md)
       + Benutzerdefinierte Ziele {#custom-destinations}
          + [URL-Ziel konfigurieren](/help/using/features/destinations/create-url-destination.md)
          + [Konfigurieren eines Cookie-Ziels](/help/using/features/destinations/create-cookie-destination.md)
