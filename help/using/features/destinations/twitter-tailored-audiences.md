@@ -5,7 +5,7 @@ seo-title: Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel kon
 solution: Audience Manager
 title: Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
 
 ---
 
