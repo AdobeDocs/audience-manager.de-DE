@@ -5,7 +5,7 @@ seo-title: Neue gerätebasierte Ziele hinzufügen
 solution: Audience Manager
 title: Neue gerätebasierte Ziele hinzufügen
 translation-type: tm+mt
-source-git-commit: b492065756d45ee6dfb185cc387409dea72a9923
+source-git-commit: d185a1d418e99abb99c36b28dfb419a1fb3b60f5
 
 ---
 
@@ -41,13 +41,13 @@ Nachdem Sie die Zielplattform-Integration konfiguriert haben, können Sie das ne
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und **[!DNL Audience Data > Destinations]** klicken **[!DNL Create Destination]** Sie auf.
 2. Geben Sie im **[!DNL Basic Information]** Abschnitt ein **[!DNL Name]** und **[!DNL Description]** für Ihr neues Ziel ein und verwenden Sie die Einstellungen in der Liste unten: ![setup](assets/dbd-new-basic.png)
+   * **[!DNL Category]**: [!DNL Integrated Platforms];
+   * **[!DNL Type]**: [!DNL Device-Based];
+   * **[!DNL Platform]**: Wählen Sie die Zielplattform aus, an die Zielgruppensegmente gesendet werden sollen.
+   * **[!DNL Account]**: Wählen Sie das gewünschte Advertiserkonto aus, das der ausgewählten Plattform zugeordnet ist.
 3. Klicken Sie auf **[!DNL Next]**.
 4. Wählen Sie die [Datenexportbeschriftungen](/help/using/features/data-export-controls.md#controls-labels) aus, die Sie für dieses Ziel festlegen möchten.
 5. Klicken Sie auf **[!DNL Save]**.
 6. Wählen Sie im **[!DNL Segment Mappings]** Abschnitt die Zielgruppensegmente aus, die Sie an dieses Ziel senden möchten.
 7. Speichern Sie das Ziel.
 
-* **[!DNL Category]**: [!DNL Integrated Platforms];
-* **[!DNL Type]**: [!DNL Device-Based];
-* **[!DNL Platform]**: Wählen Sie die Zielplattform aus, an die Zielgruppensegmente gesendet werden sollen.
-* **[!DNL Account]**: Wählen Sie das gewünschte Advertiserkonto aus, das der ausgewählten Plattform zugeordnet ist.
