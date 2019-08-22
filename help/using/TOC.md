@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Audience Manager Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
 
 ---
 
@@ -78,20 +78,29 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [Abgeleitete Signale](features/derived-signals.md)
    + Ziele{#destinations}
       + [Übersicht über Ziele](features/destinations/destinations.md)
-      + [Ziele-Homepage](/help/using/features/destinations/destinations-home.md)
+      + [Ziele-Homepage](features/destinations/destinations-home.md)
       + Adobe Experience Cloud-Ziele{#experience-cloud-destinations}
-         + [Analytics-Ziel konfigurieren](/help/using/features/destinations/create-analytics-destination.md)
-      + Benutzerbasierte Ziele {#pbd}
+         + [Analytics-Ziel konfigurieren](features/destinations/create-analytics-destination.md)
+      + Benutzerbasierte Ziele {#people-based-destinations}
+         + [Übersicht und Anwendungsfälle](features/destinations/people-based-destinations-overview.md)
+         + [Voraussetzungen und Überlegungen](features/destinations/people-based-destinations-prerequisites.md)
+         + Implementierungshandbuch {#pbd-implementation}
+            + [Implementierung - Übersicht](features/destinations/people-based-destinations-workflow.md)
+            + [Arbeitsablauf A - Personalisierung basierend auf allen Online-Aktivitäten zusammen mit Offline-Daten](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Arbeitsablauf B - Personalisierung basierend auf Offline-Daten](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Arbeitsablauf C - Personalisierung basierend auf authentifizierten Aktivitäten mit Offline-Daten](features/destinations/people-based-destinations-workflow-authenticated.md)
+         + [Authentifizierung mit benutzerbasierten Plattformen](features/destinations/people-based-destinations-authentication.md)
+         + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Gerätebasierte Ziele (Server-to-Server) {#device-based}
-         + [Neue gerätebasierte Ziele hinzufügen](/help/using/features/destinations/add-device-based-destinations.md)
-         + [Segmente für Server-zu-Server-Ziele hinzufügen oder bearbeiten](/help/using/features/destinations/add-edit-segments.md)
-         + [Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren](/help/using/features/destinations/twitter-tailored-audiences.md)
+         + [Neue gerätebasierte Ziele hinzufügen](features/destinations/add-device-based-destinations.md)
+         + [Segmente für Server-zu-Server-Ziele hinzufügen oder bearbeiten](features/destinations/add-edit-segments.md)
+         + [Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren](features/destinations/twitter-tailored-audiences.md)
       + Benutzerdefinierte Ziele {#custom-destinations}
-         + [URL-Ziel konfigurieren](/help/using/features/destinations/create-url-destination.md)
-         + [Konfigurieren eines Cookie-Ziels](/help/using/features/destinations/create-cookie-destination.md)
-         + [Optionale Einstellungen für Cookie-Ziele](/help/using/features/destinations/cookie-destination-options.md)
+         + [URL-Ziel konfigurieren](features/destinations/create-url-destination.md)
+         + [Konfigurieren eines Cookie-Ziels](features/destinations/create-cookie-destination.md)
+         + [Optionale Einstellungen für Cookie-Ziele](features/destinations/cookie-destination-options.md)
       + Ziele-Referenz {#destinations-reference}
-         + [Zielaufbau](/help/using/features/destinations/destination-builder.md)
+         + [Zielaufbau](features/destinations/destination-builder.md)
          + [get_ aamcookie-Code](features/destinations/get-aam-cookie-code.md)
          + [Zielmakros definiert](features/destinations/destination-macros.md)
          + [Standard- und Serienschlüssel-Wert-Paare](features/destinations/key-value-pairs.md)
@@ -362,6 +371,7 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [Häufig gestellte Fragen zur Datenerfassung und Produktintegration](faq/faq-data-collection.md)
    + [Häufig gestellte Fragen zur Datenaufnahme in eingehende Kunden](faq/faq-inbound-data-ingestion.md)
    + [Häufig gestellte Fragen zu Datenschutz und Datenaufbewahrung](faq/faq-privacy.md)
+   + [Häufig gestellte Fragen zu benutzerbasierten Zielen](faq/faq-people-based-destinations.md)
    + [Häufig gestellte Fragen zu Produktfunktionen und Funktionen](faq/faq-features.md)
    + [Regeln für die Profilzusammenführung und häufig gestellte Fragen zum Gerätediagramm](faq/faq-profile-merge.md)
    + [Häufig gestellte Fragen zum Targeting](faq/faq-targeting.md)
