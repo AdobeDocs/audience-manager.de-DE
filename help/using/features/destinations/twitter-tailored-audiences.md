@@ -5,7 +5,7 @@ seo-title: Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel kon
 solution: Audience Manager
 title: Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren
 translation-type: tm+mt
-source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
+source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
 
 ---
 
@@ -21,8 +21,6 @@ Bevor Sie Ihr [!DNL Twitter Tailored Audiences] Ziel konfigurieren, überprüfen
 1. Ihr [!DNL Twitter Ads] Konto muss für Werbung qualifiziert sein. Neue [!DNL Twitter Ads] Konten sind in den ersten 2 Wochen nach deren Erstellung nicht für Werbung zulässig.
 2. Für Ihr Twitter-Benutzerkonto, für das Sie Zugriff in Audience Manager haben, muss die Berechtigung [des Partner-Zielmanagers](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) aktiviert sein.
 3. Wenn Sie Ihre bestehende Twitter-Integration auf Selbstbedienungsverwaltung [](#update-existing-twitter-integrations)aktualisieren, muss Ihr Twitter-Benutzerkonto über die Berechtigung [für den Anzeigenmanager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) verfügen.
-
-
 
 ## Neues [!DNL Twitter Tailored Audiences] Ziel hinzufügen {#add-new-twitter-destination}
 
@@ -65,9 +63,18 @@ Um die Benutzererfahrung zu verbessern und den Konfigurationsprozess zu optimier
 Gehen Sie wie folgt vor, um Ihr vorhandenes [!DNL Twitter Tailored Audiences] Ziel in das Selbstbedienungsmodell zu migrieren.
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und wechseln **[!DNL Administration > Integrated Accounts]** Sie zu.
-2. Klicken Sie auf **[!DNL Add Account]**.
-3. Wählen [!DNL Twitter Tailored Audiences] Sie und klicken **[!DNL Confirm]** Sie auf, um zur Authentifizierungsseite umgeleitet zu werden. ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
-4. Sobald Sie sich bei Ihrem Twitter-Konto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie Ihre zugeordneten Advertiserkonten sehen sollten. Wählen Sie das gewünschte Advertiserkonto aus und klicken **[!DNL Confirm]** Sie auf.
+1. Klicken Sie auf **[!DNL Add Account]**.
+1. Wählen [!DNL Twitter Tailored Audiences] Sie und klicken **[!DNL Confirm]** Sie auf, um zur Authentifizierungsseite umgeleitet zu werden. ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
+1. Sobald Sie sich bei Ihrem [!DNL Twitter] Konto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie Ihre zugeordneten Advertiserkonten sehen sollten. Wählen Sie das gewünschte Advertiserkonto aus und klicken **[!DNL Confirm]** Sie auf.
+1. Wechseln Sie **[!UICONTROL Audience Data]** zu &gt; **[!UICONTROL Destinations]** und klicken Sie auf das Twitter-Ziel, das Sie konfigurieren möchten.
+1. Klicken Sie auf **[!UICONTROL Edit]**. Klicken Sie im **[!UICONTROL Basic Information]** Abschnitt auf das **[!UICONTROL Integrated Account]** Dropdown-Menü und wählen Sie das [!DNL Twitter] Konto aus, das Sie in Schritt 4 authentifiziert haben.
+1. **[!UICONTROL Save]** das Ziel.
+
+## Validierung der Migration auf Selbstbedienungsverwaltung {#migration-validation}
+
+Die vollständige Migration bestehender [!DNL Twitter] Integrationen zur Selbstbedienungsverwaltung kann bis zu 7 Tage dauern. Nach Abschluss der Migration zeigt Audience Manager eine Benachrichtigung in der Benutzeroberfläche an.
+
+In Ihrem [!DNL Twitter] Konto wird außerdem ein neuer Satz an Zielgruppen angezeigt, deren Namen von [! DNL [Adobe DMP Audience]]. Bitte warten Sie bis zu 7 Tage, bis die Zielgruppenpopulation vollständig aufgestockt wurde. Nach Abschluss der Migration sollten Sie diese neuen Zielgruppen anstelle der alten verwenden.
 
 ## Überlegungen zur Segmentzuordnung {#segment-mapping-considerations}
 
@@ -76,7 +83,7 @@ Achten Sie beim Zuordnen von Zielgruppensegmenten zu Twitter darauf, die folgend
 * Geben Sie für Menschen lesbare Segmentzuordnungsnamen an. Es wird empfohlen, denselben Namen wie für die Audience Manager-Segmente zu verwenden.
 * Verwenden Sie keine Kommas in Segmenten und Segmentzuordnungsnamen.
 
-**Beispiel**
+### Beispiel 
 
 * Segment oder Zuordnungsname korrigieren: " US- und europäische Käufer" ;
 * Falsches Segment oder Zuordnungsname: " US, Europäische 5 h 0 pP 3 rs" .
