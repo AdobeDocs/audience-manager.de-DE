@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Audience Manager Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
+source-git-commit: 8ceeee38dc798810559467ffc12177a2f1968b44
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
       + Benutzerbasierte Ziele {#people-based-destinations}
          + [Übersicht und Anwendungsfälle](features/destinations/people-based-destinations-overview.md)
          + [Voraussetzungen und Überlegungen](features/destinations/people-based-destinations-prerequisites.md)
-         + Implementierungshandbuch {#pbd-implementation}
+         + Implementierungshandbuch {#implementation-guide}
             + [Implementierung - Übersicht](features/destinations/people-based-destinations-workflow.md)
             + [Arbeitsablauf A - Personalisierung basierend auf allen Online-Aktivitäten zusammen mit Offline-Daten](features/destinations/people-based-destinations-workflow-combined.md)
             + [Arbeitsablauf B - Personalisierung basierend auf Offline-Daten](features/destinations/people-based-destinations-workflow-offline.md)
