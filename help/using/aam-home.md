@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager-Produktdokumentation
 uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 916
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
 
 ---
 
@@ -20,11 +20,10 @@ Der Audience Manager bietet branchenführende Dienste für das Daten-Management 
   <tr> 
    <td colname="col1"> <p> <b>Neue und vorgestellte Funktionen</b> </p> <p>Lesen Sie die neuesten Funktionen von Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/destinations/people-based-destinations-overview.md">Benutzerbasierte Ziele</a> </li>
+     <li><a href="features/destinations/twitter-tailored-audiences.md">Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren</a> </li>
      <li><a href="features/destinations/destinations-home.md">Ziele-Homepage</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">Verschleierung von IP-Adressen</a> </li>
-     <li><a href="overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-In für IAB TCF</a> </li>
-     <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID-Zuordnungs-Begrenzung</a> </li>
-     <li><a href="features/global-data-sources.md">Globale Data Sources</a> </li> 
      </ul> </p> <p>Siehe auch Dokumentation zu Dokumentationen <a href="docs-updates/docs-2019.md"> 2019</a>. </p> 
      <p>Wenn Sie neu bei Audience Manager sind, sehen Sie sich unser <a href="reference/aam-glossary.md"> Glossar</a> und den <a href= "reference/ids-in-aam.md">Index von IDs an.</a></p></td>
    <td colname="col2"> <p> <b>Versionshinweise</b> </p> <p> 
@@ -38,7 +37,7 @@ Der Audience Manager bietet branchenführende Dienste für das Daten-Management 
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe-Schulungen und -Lernprogramme</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> Produktdokumentation – Startseite</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager Training und Support</a> </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
