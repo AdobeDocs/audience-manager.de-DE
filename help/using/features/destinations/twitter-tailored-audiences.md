@@ -5,7 +5,7 @@ seo-title: Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel kon
 solution: Audience Manager
 title: Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren
 translation-type: tm+mt
-source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
+source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 
 ---
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um Ihr vorhandenes [!DNL Twitter Tailored Audiences] Zi
 
 Die vollständige Migration bestehender [!DNL Twitter] Integrationen zur Selbstbedienungsverwaltung kann bis zu 7 Tage dauern. Nach Abschluss der Migration zeigt Audience Manager eine Benachrichtigung in der Benutzeroberfläche an.
 
-In Ihrem [!DNL Twitter] Konto wird außerdem ein neuer Satz an Zielgruppen angezeigt, deren Namen von [! DNL [Adobe DMP Audience]]. Bitte warten Sie bis zu 7 Tage, bis die Zielgruppenpopulation vollständig aufgestockt wurde. Nach Abschluss der Migration sollten Sie diese neuen Zielgruppen anstelle der alten verwenden.
+Außerdem wird in Ihrem [!DNL Twitter] Konto ein neuer Satz an Zielgruppen angezeigt, deren Namen von [[!DNL Adobe DMP Audience]] vorangestellt werden. Bitte warten Sie bis zu 7 Tage, bis die Zielgruppenpopulation vollständig aufgestockt wurde. Nach Abschluss der Migration sollten Sie diese neuen Zielgruppen anstelle der alten verwenden.
 
 ## Überlegungen zur Segmentzuordnung {#segment-mapping-considerations}
 
