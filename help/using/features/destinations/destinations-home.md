@@ -5,7 +5,7 @@ seo-title: Ziele verwalten
 solution: Audience Manager
 title: Ziele verwalten
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 ---
 
@@ -23,7 +23,7 @@ Auf der Standardmäßigen Landingpage werden Ihre Ziele basierend auf dem Typ au
 
 * **Alle**: zeigt alle Arten von Zielen an.
 * **Adobe Experience Cloud**: zeigt Ziele an, die Daten an andere Adobe Experience Cloud-Lösungen senden. Derzeit wird nur Adobe Analytics unterstützt. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
-* **Integrierte Plattformen**: zeigt benutzerbasierte und gerätebasierte Ziele an (auch als Server-zu-Server-Ziele bezeichnet). Beachten Sie, dass benutzerbasierte Ziele derzeit nur für ausgewählte Kunden verfügbar sind.
+* **Integrierte Plattformen**: zeigt benutzerbasierte und gerätebasierte Ziele an (auch als Server-zu-Server-Ziele bezeichnet).
 * **Benutzerspezifisch**: zeigt Cookie- und URL-Ziele an.
 
 
