@@ -5,7 +5,7 @@ seo-title: Arbeitsablauf A - Personalisierung basierend auf allen Online-Aktivit
 solution: Audience Manager
 title: Arbeitsablauf A - Personalisierung basierend auf allen Online-Aktivitäten zusammen mit Offline-Daten
 translation-type: tm+mt
-source-git-commit: f3f47db944d9f771cbd55058f6652188cda0e147
+source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
 
 ---
 
