@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Eigenschaftendetails-Seite
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: aadcafe10d452a0abc02a430485a373c6c80cdc5
+source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
 
 ---
 
@@ -29,15 +29,16 @@ Die Funktion [!UICONTROL Trait Graph] bietet eine vordefinierte Leistungsmetrik 
 
 * Bei regelbasierten Eigenschaften erfolgt die Eigenschaftsqualifizierung in Echtzeit, da sich Benutzer für eine Eigenschaft in ihrem Browser qualifizieren.
 * Bei Onboardanmerkungen erfolgt die Trait-Qualifizierung nach der Verarbeitung einer Inbound-Datei, d. h., die Inbound-Datei [wird in Audience Manager gespeist,](../../faq/faq-inbound-data-ingestion.md) d. h., die Eigenschaftsqualifikation wird ausgeführt.
-* **Eindeutige Eigenschaftsrealizationen**: Eine Anzahl Unique Users, die diese Eigenschaft im angegebenen Zeitraum ihrem Profil hinzugefügt hat.
-* **Eigenschaftenpopulation insgesamt**: Die Anzahl der Unique Users, die derzeit für diese Eigenschaft qualifiziert sind.
+* **[!UICONTROL Unique Trait Realizations]**: Eine Anzahl Unique Users, die diese Eigenschaft im angegebenen Zeitraum ihrem Profil hinzugefügt hat.
+* **[!UICONTROL Total Trait Population]**: Die Anzahl der Unique Users, die derzeit für diese Eigenschaft qualifiziert sind.
 
    ![trait-graph](assets/trait-summary.png)
 
-* **Aufschlüsselung des Identitätstyps**: Die ersten drei Einträge zeigen die drei geräteübergreifenden Datenquellen mit der höchsten Anzahl an Einwohnern, die für die Eigenschaft qualifiziert sind, in absteigender Reihenfolge. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die für die Eigenschaft qualifiziert sind, aus den geräteübergreifenden Datenquellen, die nicht in den Top -3-Apps enthalten sind. Dieser Bericht wird nur angezeigt, wenn Sie im [!UICONTROL Show Results By] Dropdown-Menü rechts oben auf der Seite die Option "Geräteübergreifende ID" auswählen. Die standarddropdown-Option ist [!UICONTROL Device ID], wo dieser Bericht nicht angezeigt wird.
+* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei geräteübergreifenden Datenquellen mit der höchsten Anzahl an Einwohnern, die für die Eigenschaft qualifiziert sind, in absteigender Reihenfolge. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die für die Eigenschaft qualifiziert sind, aus den geräteübergreifenden Datenquellen, die nicht in den Top -3-Apps enthalten sind. Dieser Bericht wird nur angezeigt, wenn Sie im [!UICONTROL Show Results By] Dropdown-Menü rechts oben auf der Seite die Option "Geräteübergreifende ID" auswählen. Die standarddropdown-Option ist [!UICONTROL Device ID], wo dieser Bericht nicht angezeigt wird.
 
    ![trait-graph](assets/trait-identity.png)
-
+   > [!NOTE]
+   > Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] Bericht nur an, wenn Sie über geräteübergreifende IDs verfügen, die für die Eigenschaft qualifiziert sind.
 
 ## Eigenschafts-Ausdruck {#trait-expression}
 
