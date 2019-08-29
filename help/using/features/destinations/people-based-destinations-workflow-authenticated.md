@@ -5,7 +5,7 @@ seo-title: Arbeitsablauf C - Personalisierung basierend auf authentifizierten Ak
 solution: Audience Manager
 title: Arbeitsablauf C - Personalisierung basierend auf authentifizierten Aktivitäten mit Offline-Daten
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -49,16 +49,16 @@ Um authentifizierte Benutzer für regelbasierte Eigenschaften qualifizieren zu k
 
 Nehmen wir an, Sie haben die beiden folgenden Datenquellen erstellt.
 
-| Daten Quell-ID | Daten Quellinhalt |
-|-|-|
-| 999999 | Vorhanden Dpuuids (CRM-IDs)|
-| 987654 | Hashing E-Email-Adressen|
+| Datenquellen-ID | Inhalt der Datenquelle |
+|---|---|
+| 999999 | Vorhandene dpuuids (CRM-IDs) |
+| 987654 | Hash-E-Email-Adressen |
 
 Anschließend möchten Sie die folgenden CRM-IDs für die Eigenschaft in der Tabelle qualifizieren.
 
-| DPUUID (CRM-ID)| E-Mail address | Hash Email Address | Trait|
-|-|-|-|-|
-|68079982765673198504052656074456196039|`johndoe@example.com`| 55 e 79200 c 1635 b 37 ad 31 a 378 c 39 feb 12 f 120 f 116625093 a 19 bc 32 fff 15041149 | location = US|
+| DPUUID (CRM-ID) | E-Mail-Adresse | Hash-E-Email-Adresse | Trait- |
+|---|---|---|---|
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
 Ihre deklarierte ID sollte mit der folgenden Syntax übereinstimmen:
 
