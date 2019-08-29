@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Syntax und Beispiele für ausgehende Datendateiname
 uuid: effdcaf 6-c 37 c -45 f 3-9 d 2 f-a 938 a 9 da 47 a 6
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ---
 
@@ -93,7 +93,7 @@ Die Tabelle definiert die Elemente in einem ausausgehenden Datendateinamen.
 
 ### Szenario 1
 
-Dateien, die an einen [!DNL Amazon S3] Speicherort gesendet werden, mit *`PID-ALIAS="XYZCustomer"`* und mit [!DNL Google Advertiser IDs] dem Dateiinhalt.
+Dateien, die an einen [!DNL Amazon S3] Speicherort gesendet werden, mit *`PID_ALIAS="XYZCustomer"`* und mit [!DNL Google Advertiser IDs] dem Dateiinhalt.
 
 Z.B. inkrementelle Dateien:
 
@@ -112,7 +112,7 @@ Z.B. vollständige Dateien:
 
 ### Szenario 2
 
-Dateien, die an [!DNL FTP] den Speicherort gesendet werden, ohne *`PID-ALIAS`* und mit [!DNL Apple Advertiser IDs] dem Dateiinhalt:
+Dateien, die an [!DNL FTP] den Speicherort gesendet werden, ohne *`PID_ALIAS`* und mit [!DNL Apple Advertiser IDs] dem Dateiinhalt:
 
 Z.B. inkrementelle Dateien:
 
@@ -128,7 +128,7 @@ Z.B. vollständige Dateien:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Szenario 3**: Dateien, die an [!DNL FTP] den Speicherort gesendet werden, mit *`PID-ALIAS="XYZCustomer"`* und mit Benutzer-ID des Drittanbieters im Dateiinhalt ( *`Vendor ID=45454`*):
+**Szenario 3**: Dateien, die an [!DNL FTP] den Speicherort gesendet werden, mit *`PID_ALIAS="XYZCustomer"`* und mit Benutzer-ID des Drittanbieters im Dateiinhalt ( *`Vendor ID=45454`*):
 
 Z.B. inkrementelle Dateien:
 
