@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ausgehende Vorlagenmakros
 uuid: dec 082 d 3-306 b -4 ff 5-afb 2-418 bd 543 d 8 d 0
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 Listet die Makros auf, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
 
-## File Name and File Header Macros {#file-name-header-macros}
+## Dateiname und Dateiheader-Makros {#file-name-header-macros}
 
-In der Tabelle werden die Makros aufgelistet und beschrieben, die Sie im Dateinamen verwenden können, und um Kopfzeilenfelder zu definieren. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+In der Tabelle werden die Makros aufgelistet und beschrieben, die Sie im Dateinamen verwenden können, und um Kopfzeilenfelder zu definieren. Beispiele für Codebeispiele finden Sie unter [Ausgehende Makrobeispiele](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -44,8 +44,17 @@ In der Tabelle werden die Makros aufgelistet und beschrieben, die Sie im Dateina
    <td colname="col2"> <p>Bestell-/Ziel-ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> PIDALIAS </code> </p> </td> 
+   <td colname="col1"> <p> <code> PID_ ALIAS </code> </p> </td> 
    <td colname="col2"> <p>Ein Alias für eine Bestell-/Ziel-ID. </p> <p>Der Alias wird in der Admin-Benutzeroberfläche festgelegt. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <code> SPLITNUM </code> </p> </td> 
+   <td colname="col2"> <p>Gibt die Aufteilung von ausgehenden Dateien in mehrere Teile an. Ersetzen Sie den SPLITNUM-Abschnitt im Dateinamen durch die Teil-Nummer, die Nullen voraussetzt, und stellen Sie sicher, dass mindestens drei Zeichen für den SPLITNUM-Abschnitt vorhanden sind.</p>
+   <p>Das MAKTNUM-Makro muss nicht von &lt; &gt; Zeichen umgeben sein.</p><p>Beispiel: <code>&lt; SYNC_ TYPE &gt;_ &lt; ORDER_ ID &gt;_ &lt; DPID &gt;_ &lt; SYNC_ MODE &gt;_ &lt; TIMESTAMP &gt; SPLITNUM. csv</code>
+<p>s 3_ 123456_ 9999_ full_ 1566906141001. csv</p> 
+<p>s 3_ 123456_ 9999_ full_ 1566906141002. csv</p> 
+<p>s 3_ 123456_ 9999_ full_ 1566906141003. csv</p> 
+<p>Die letzten drei Ziffern (001.002.003) in den obigen Beispielen sind die SPLITNUM-ids.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_ MODE </code> </p> </td> 
@@ -70,14 +79,15 @@ In der Tabelle werden die Makros aufgelistet und beschrieben, die Sie im Dateina
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Eine 10-stellige UTC- und Unix-Zeitstempel. </p> <p>It can also be formatted as <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> following Java date/timestamp formatting rules. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>Eine 10-stellige UTC- und Unix-Zeitstempel. </p> <p>Sie kann auch als <code> &lt; TIMESTAMP; formatiert werden. format = "JJJMMDDHHMSS" &gt; </code> folgende Java-Datums-/Zeitstempelformatierungsregeln. </p> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-## Content Macros {#content-macros}
+## Inhaltsmakros {#content-macros}
 
-Makros zum Formatieren des Inhalts einer Datendatei. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Makros zum Formatieren des Inhalts einer Datendatei. Beispiele für Codebeispiele finden Sie unter [Ausgehende Makrobeispiele](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -105,7 +115,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. For code samples, see [Outb
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>Die Ausgabe dieses Makros ordnet die Datenanbieter-ID (DPID) den eindeutigen Benutzer-IDs (DPUUID) zu. Dieses Makro muss über eine Formatierungszeichenfolge verfügen, um die Ausgabe zu steuern. Die Beispielausgabe würde wie folgt aussehen: </p> <p> <code> " dpids = dpid 1, dpid 2,… dpid n | maxmappings = n | format = json " </code> </p> <p>The <code> maxMappings </code> setting determines how many mappings you want the macro to return. When <code> maxMappings=0 </code>, this macro returns all the mappings for each specified DPID. Die Daten werden nach Zeitstempel sortiert (erster erster Wert) und gibt Ergebnisse mit dem größten Zeitstempel zurück. </p> </td> 
+   <td colname="col2"> <p>Die Ausgabe dieses Makros ordnet die Datenanbieter-ID (DPID) den eindeutigen Benutzer-IDs (DPUUID) zu. Dieses Makro muss über eine Formatierungszeichenfolge verfügen, um die Ausgabe zu steuern. Die Beispielausgabe würde wie folgt aussehen: </p> <p> <code> " dpids = dpid 1, dpid 2,… dpid n | maxmappings = n | format = json " </code> </p> <p>Mit der <code></code> Einstellung "maxmappings" wird festgelegt, wie viele Zuordnungen das Makro zurückgeben soll. Wenn <code> maxmappings = 0 </code>, gibt dieses Makro alle Zuordnungen für jede angegebene DPID zurück. Die Daten werden nach Zeitstempel sortiert (erster erster Wert) und gibt Ergebnisse mit dem größten Zeitstempel zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if (SEGMENT_ LIST &amp; &amp; REMOVED_ SEGMENT_ LIST) endif </code> </p> </td> 
@@ -133,7 +143,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. For code samples, see [Outb
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ ATTRIBUTE_ VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Returns <code> 1 </code> as a static, hardcoded value. </p> </td> 
+   <td colname="col2"> <p>Gibt <code> 1 </code> als statischer, hartkodierter Wert zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -151,17 +161,17 @@ Makros zum Formatieren des Inhalts einer Datendatei. For code samples, see [Outb
    <td colname="col1"> <p> <code> SEGMENT_ LIST </code> </p> </td> 
    <td colname="col2"> <p>Gibt eine Liste von Segmenten in einer Liste zurück. Akzeptiert die folgenden optionalen Argumente: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> Segmentid </code>: Segment-ID. Herabgestuft. Use <code> sid </code>. </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Kundensegment-ID. Herabgestuft. Use <code> sid </code>. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> Segmentid </code>: Segment-ID. Herabgestuft. Verwenden <code> Sie sid </code>. </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Kundensegment-ID. Herabgestuft. Verwenden <code> Sie sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: Segment-ID </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Gibt <code> 5 </code>, einen statischen hartkodierten Wert zurück, der Daten als Segmentdaten identifiziert. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Veraltet. Verwenden Sie nicht. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> Lastupdatetime </code>: Ein Unix-Zeitstempel, der angibt, wann ein Segment zuletzt erstellt wurde. </li> 
-    </ul> <p>Setzen Sie diese Variablen nach dem Makro in geschweifte Klammern. For example, this code separates results with a pipe "|" character: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
+    </ul> <p>Setzen Sie diese Variablen nach dem Makro in geschweifte Klammern. Dieser Code trennt beispielsweise die Ergebnisse durch einen senkrechten Strich "|" Zeichen: <code> &lt; SEGMENT_ LIST: {seg|&lt; seg. type &gt;, &lt; seg. sid &gt;}; separator = "," &gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ ATTRIBUTE </code> </p> </td> 
-   <td colname="col2"> <p>Returns <code> 1 </code>, as a static, hardcoded value. </p> </td> 
+   <td colname="col2"> <p>Gibt <code> 1 </code>als statischer hartkodierter Wert zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_ MODE </code> </p> </td> 
@@ -195,7 +205,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. For code samples, see [Outb
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> Traitid </code>: Eigenschafts-ID. </li> 
      <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> Lastrealized </code>: Das letzte Mal, wenn die Eigenschaft das letzte Mal realisiert wurde. Unix-Zeitstempel. </li> 
-    </ul> <p>Setzen Sie diese Variablen nach dem Makro in geschweifte Klammern. For example, this code separates the results with a pipe "|" character: <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
+    </ul> <p>Setzen Sie diese Variablen nach dem Makro in geschweifte Klammern. Dieser Code trennt beispielsweise die Ergebnisse durch einen senkrechten Strich "|" Zeichen: <code> &lt; TRAIT_ LIST: {trait|&lt; trait. Id &gt;, &lt; trait. lastrealized &gt;}; separator = "," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
