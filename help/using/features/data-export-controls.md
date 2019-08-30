@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenexportkontrolle
 uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 Auf der Grundlage der auf eine Datenquelle und ein Ziel angewendeten Classifications werden Sie durch die Exportsteuerelemente vom folgenden abgebrochen:
 
 * Hinzufügen einer Eigenschaft zu einem Segment, wenn die Eigenschaft zu einer Datenquelle gehört, die über eine Datenexportsteuerung verfügt, die mit einer oder mehreren der Ziele, denen das Segment zugeordnet ist, nicht kompatibel ist.
-Angenommen, ein Segment wird einem Ziel mit der Exportbeschriftung **[UICONTROL zugeordnet! Dieses Ziel kann eine Kombination mit personenbezogenen Informationen (PII) aktivieren]**. Exportsteuerelemente verhindern, dass Sie eine Eigenschaft zu diesem Segment hinzufügen, wenn die Datenquelle, zu der die Eigenschaft gehört, ein Datenexportsteuerelement enthält, das **[UICONTROL LAUTET! Kann nicht an personenbezogene Informationen (PII]**) gebunden werden.
+Angenommen, ein Segment wird einem Ziel mit der Exportbeschriftung **[!DNL This destination may enable a combination with personally identifiable information (PII)]** zugeordnet. Mit Exportsteuerelementen wird verhindert, dass Sie eine Eigenschaft zu diesem Segment hinzufügen, wenn die Datenquelle, zu der die Eigenschaft gehört, ein Datenexportsteuerelement enthält, das sagt **[!DNL Cannot be tied to personally identifiable information (PII)]**.
 * Wenn Sie Daten an ein Zielziel senden, wird eine Datenexportbeschriftung, die von einem Datenexportsteuerelement gesperrt wird, auf einer der folgenden Weisen gesperrt:
    * Die Datenquelle einer einbezogenen Eigenschaft;
    * Die Datenquelle einer Eigenschaft, die in einem eingeschlossenen Segment verwendet wird;
@@ -44,7 +44,7 @@ Außerdem muss mindestens eine Exportbeschriftung mit einem Exportsteuerelement 
 
 >[!IMPORTANT]
 >
->[Sie können den Export eines Segments nicht blockieren, indem Sie ein Datenexportsteuerelement in die Datenquelle des Segments platzieren. Sie müssen das Steuerelement auf einer der folgenden Weisen festlegen:
+>Sie können den Export eines Segments nicht blockieren, indem Sie ein Datenexportsteuerelement in die Datenquelle des Segments platzieren. Sie müssen das Steuerelement entweder für Folgendes festlegen:
 > * Die Datenquellen der im Segment verwendeten Eigenschaften;
 > * Die Regel zum Profilzusammenführen, die vom Segment genutzt wird;
 > * Eine der Datenquellen, die die Profilregel des Segments enthält, verwendet.
