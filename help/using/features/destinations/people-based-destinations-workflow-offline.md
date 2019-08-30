@@ -5,7 +5,7 @@ seo-title: Arbeitsablauf B - Personalisierung basierend auf Offline-Daten
 solution: Audience Manager
 title: Arbeitsablauf B - Personalisierung basierend auf Offline-Daten
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -34,7 +34,7 @@ Sie möchten die Kunden-IDs aus der unten stehenden Tabelle für die entsprechen
 | 67412682083411995725538770443620307584 | 45678 |
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
-Um die Kunden-IDs in das oben aufgeführte Beispiel für die entsprechenden onboarded-Eigenschaften zu qualifizieren, müssen Sie eine [eingehende Datendatei](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) mit folgenden Inhalten hochladen:
+<br />Um die Kunden-IDs im obigen Beispiel für die entsprechenden onboarded-Eigenschaften zu qualifizieren, müssen Sie eine [eingehende Datendatei] (../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents. md) mit den folgenden Inhalten hochladen:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -49,6 +49,8 @@ Detaillierte Informationen zur Dateinamenstruktur finden Sie unter [Amazon S 3-N
 
 Je nachdem, ob Ihre [dpuuids](../../reference/ids-in-aam.md) klein sind, können Hash-E-Email-Adressen die Datenquelle konfigurieren, die die Hash-E-Email-Adressen speichert.
 
+ 
+
 **Szenario 1: Ihre[dpuuids](../../reference/ids-in-aam.md)sind bereits Kleinbuchstaben, Hash-E-Email-Adressen.**
 
 In diesem Fall müssen Sie die entsprechende Datenquelle als solche bezeichnen:
@@ -57,6 +59,8 @@ In diesem Fall müssen Sie die entsprechende Datenquelle als solche bezeichnen:
 1. Suchen Sie die Datenquelle, die Ihre [dpuuids enthält](../../reference/ids-in-aam.md), und klicken Sie darauf.
 1. Vergewissern Sie sich, dass die Option **[!UICONTROL Cannot be tied to personally identifiable information]** deaktiviert ist.
 1. Speichern Sie die Datenquelleneinstellungen.
+
+ 
 
 **Szenario 2: Ihre[dpuuids](../../reference/ids-in-aam.md)sind nicht Kleinbuchstaben, Hash-E-Email-Adressen.**
 
@@ -98,7 +102,7 @@ Als Erinnerung würden Sie jetzt zwei Datenquellen verwenden:
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
-<br/>
+ 
 
 Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) hat folgende Inhalte:
 
@@ -108,15 +112,16 @@ Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-d
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
-<br/>
+ 
 
 Die [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) muss diese Benennungsstruktur befolgen:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
 
-<br/>
+ 
 
-Im obigen Beispiel würde der Dateiname wie folgt aussehen: `c2c_id_999999_987654_1560431657.sync`
+Im obigen Beispiel würde der Dateiname wie folgt aussehen:`c2c_id_999999_987654_1560431657.sync`
+
 
 [Download-Beispieldatei hier](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)herunterladen.
 
