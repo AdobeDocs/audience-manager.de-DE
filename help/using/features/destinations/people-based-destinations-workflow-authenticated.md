@@ -5,7 +5,7 @@ seo-title: Arbeitsablauf C - Personalisierung basierend auf authentifizierten Ak
 solution: Audience Manager
 title: Arbeitsablauf C - Personalisierung basierend auf authentifizierten Aktivitäten mit Offline-Daten
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,9 +18,13 @@ Diese Seite enthält schrittweise Anleitungen zum Kombinieren von Offline [!DNL 
 
 Je nachdem, ob Ihre [dpuuids](../../reference/ids-in-aam.md) klein sind, können Hash-E-Email-Adressen die Datenquelle konfigurieren, die die Hash-E-Email-Adressen speichert.
 
+ 
+
 **Szenario 1: Ihre[dpuuids](../../reference/ids-in-aam.md)sind bereits Kleinbuchstaben, Hash-E-Email-Adressen.**
 
 Überspringen Sie in diesem Fall [Schritt 5 - Benutzerbasierte Plattformauthentifizierung konfigurieren](#configure-authentication).
+
+ 
 
 **Szenario 2: Ihre[dpuuids](../../reference/ids-in-aam.md)sind nicht Kleinbuchstaben, Hash-E-Email-Adressen.**
 
@@ -54,15 +58,21 @@ Nehmen wir an, Sie haben die beiden folgenden Datenquellen erstellt.
 | 999999 | Vorhandene dpuuids (CRM-IDs) |
 | 987654 | Hash-E-Email-Adressen |
 
+ 
+
 Anschließend möchten Sie die folgenden CRM-IDs für die Eigenschaft in der Tabelle qualifizieren.
 
 | DPUUID (CRM-ID) | E-Mail-Adresse | Hash-E-Email-Adresse | Trait- |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
+ 
+
 Ihre deklarierte ID sollte mit der folgenden Syntax übereinstimmen:
 
 `https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+
+ 
 
 Im obigen Beispiel sollte der deklarierte ID-Aufruf wie folgt aussehen:
 
