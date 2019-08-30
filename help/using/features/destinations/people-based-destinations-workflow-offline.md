@@ -5,7 +5,7 @@ seo-title: Arbeitsablauf B - Personalisierung basierend auf Offline-Daten
 solution: Audience Manager
 title: Arbeitsablauf B - Personalisierung basierend auf Offline-Daten
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -28,11 +28,11 @@ Unabhängig davon, ob Ihre vorhandenen Audience Manager-Kunden-IDs ([dpuuids](..
 
 Sie möchten die Kunden-IDs aus der unten stehenden Tabelle für die entsprechenden benannten Eigenschafts-IDs qualifizieren. Nehmen wir an, dass Ihre [dpuuids](../../reference/ids-in-aam.md) in einer Datenquelle mit der ID 999999 gespeichert werden und Ihre Audience Manager-Partner-ID 123 ist.
 
-| Kunde ID (DPUUID)| Onboarded Trait-ID |
-|-|-|
-|68079982765673198504052656074456196039|12345, 23456 |
-|67412682083411995725538770443620307584 |45678|
-|89159024796760343733111707646026765593 |11223, 93342, 27341|
+| Kunden-ID (DPUUID) | Onboarded Trait-ID |
+| -------------------------------------- | ------------------- |
+| 68079982765673198504052656074456196039 | 12345, 23456 |
+| 67412682083411995725538770443620307584 | 45678 |
+| 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 Um die Kunden-IDs in das oben aufgeführte Beispiel für die entsprechenden onboarded-Eigenschaften zu qualifizieren, müssen Sie eine [eingehende Datendatei](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) mit folgenden Inhalten hochladen:
 
@@ -88,15 +88,17 @@ Nehmen wir an, Sie möchten Ihren vorhandenen [dpuuids](../../reference/ids-in-a
 Als Erinnerung würden Sie jetzt zwei Datenquellen verwenden:
 
 | Datenquellen-ID | Inhalt der Datenquelle |
-|---|---|
+| -------------- | -------------------------- |
 | 999999 | Vorhandene dpuuids (CRM-IDs) |
 | 987654 | Hash-E-Email-Adressen |
 
 | Dpuuids (CRM-IDs) | E-Mail-Adresse | Hash-E-Email-Adresse |
-|---|---|---|
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
+
+<br/>
 
 Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) hat folgende Inhalte:
 
@@ -106,9 +108,13 @@ Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-d
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+<br/>
+
 Die [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) muss diese Benennungsstruktur befolgen:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+<br/>
 
 Im obigen Beispiel würde der Dateiname wie folgt aussehen: `c2c_id_999999_987654_1560431657.sync`
 
