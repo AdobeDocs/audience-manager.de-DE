@@ -5,7 +5,7 @@ seo-title: Arbeitsablauf A - Personalisierung basierend auf allen Online-Aktivit
 solution: Audience Manager
 title: Arbeitsablauf A - Personalisierung basierend auf allen Online-Aktivitäten zusammen mit Offline-Daten
 translation-type: tm+mt
-source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -55,7 +55,7 @@ In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen
 Nehmen wir an, Sie möchten Ihren vorhandenen [dpuuids](../../reference/ids-in-aam.md) den Hash-E-Email-Adressen aus der Tabelle unten zuordnen (rechts Spalte) und die Hash-E-Email-Adressen in der neuen Datenquelle speichern, die Sie in [Schritt 1 erstellt haben - Datenquelleneinstellungen konfigurieren](people-based-destinations-workflow-combined.md#configure-data-source-settings).
 
 | DPUUID (CRM-ID) | E-Mail-Adresse | Hash-E-Email-Adresse |
-| --- | --- | --- |
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
@@ -65,7 +65,7 @@ Sie können bis zu 10 Hash-E-Email-Adressen zu einer einzelnen [DPUUID verknüpf
 In unserem Beispiel würden Sie jetzt zwei Datenquellen haben.
 
 | Datenquellen-ID | Inhalt der Datenquelle |
-| --- | --- |
+| -------------- | -------------------------- |
 | 999999 | Vorhandene dpuuids (CRM-IDs) |
 | 987654 | Hash-E-Email-Adressen |
 
