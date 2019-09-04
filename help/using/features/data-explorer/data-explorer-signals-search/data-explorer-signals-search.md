@@ -4,12 +4,12 @@ seo-description: Suchen Sie nach verwendeten und nicht verwendeten Signalen, die
 seo-title: Signalsuche
 title: Signalsuche
 translation-type: tm+mt
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
 
 ---
 
 
-# Signals Search Overview {#signals-search}
+# Suchübersicht signalisieren {#signals-search}
 
 Suchen Sie nach verwendeten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu Zielgruppendaten &gt; Signale &gt; Suchen.
 
