@@ -5,7 +5,7 @@ seo-title: Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel kon
 solution: Audience Manager
 title: Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren
 translation-type: tm+mt
-source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
+source-git-commit: a16734f652f3c398f12660671103f5478cfdd89e
 
 ---
 
@@ -19,8 +19,9 @@ In diesem Artikel wird erläutert, wie [Twitter-angepasste Zielgruppen](https://
 Bevor Sie Ihr [!DNL Twitter Tailored Audiences] Ziel konfigurieren, überprüfen Sie die folgenden Twitter-Voraussetzungen, die Sie erfüllen müssen.
 
 1. Ihr [!DNL Twitter Ads] Konto muss für Werbung qualifiziert sein. Neue [!DNL Twitter Ads] Konten sind in den ersten 2 Wochen nach deren Erstellung nicht für Werbung zulässig.
-2. Für Ihr Twitter-Benutzerkonto, für das Sie Zugriff in Audience Manager haben, muss die Berechtigung [des Partner-Zielmanagers](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) aktiviert sein.
-3. Wenn Sie Ihre bestehende Twitter-Integration auf Selbstbedienungsverwaltung [](#update-existing-twitter-integrations)aktualisieren, muss Ihr Twitter-Benutzerkonto über die Berechtigung [für den Anzeigenmanager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) verfügen.
+1. Für Ihr Twitter-Benutzerkonto, für das Sie Zugriff in Audience Manager haben, muss die Berechtigung [des Partner-Zielmanagers](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) aktiviert sein.
+1. Wenn Sie Ihre bestehende Twitter-Integration auf Selbstbedienungsverwaltung [](#update-existing-twitter-integrations)aktualisieren, muss Ihr Twitter-Benutzerkonto über die Berechtigung [für den Anzeigenmanager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) verfügen.
+2. Wenn Sie das erste [!DNL Twitter Tailored Audiences] Ziel in Ihrer Audience Manager-Instanz erstellen, wenden Sie sich an Adobe Consulting oder den Kundendienst, um die [!DNL Twitter] ID-Synchronisierung (Datenquellen-ID = 1123) für Ihr Konto zu aktivieren. Dies ist für die korrekte Synchronisierung zwischen Audience Manager erforderlich.[!DNL Twitter]
 
 ## Neues [!DNL Twitter Tailored Audiences] Ziel hinzufügen {#add-new-twitter-destination}
 
