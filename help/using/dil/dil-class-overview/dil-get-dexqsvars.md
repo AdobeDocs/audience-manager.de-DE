@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Dexgetqsvars
 uuid: 6 d 21 c 7 a 4-43 f 8-456 b -8831-47343 dbb 047 e
 translation-type: tm+mt
-source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
 
-# dexGetQSVars{#dexgetqsvars}
+# Dexgetqsvars{#dexgetqsvars}
 
 Ruft einen bestimmten Wert von einem Anzeigenserver ab.
 
@@ -29,13 +29,12 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Zeichenfolge | Der Name der Variablen, für die Sie einen Wert erhalten möchten. |
 | `partner` | Zeichenfolge | Der zu suchende Partnername. |
-| `containerNSID` | Ganzzahl | The [!DNL NSID] of the container you're searching for. Defaults is `0`. |
+| `containerNSID` | Ganzzahl | Der [!DNL NSID] Container, nach dem Sie suchen. Standardeinstellungen `0`sind. |
 
 **Antwort**
 
-Returns the variable value for a [!UICONTROL DIL] instance.
+Gibt den Variablenwert für eine [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre class="java"><code>var value = DIL. dexgetqsvars ('<i>variablename</i>','<i>partnername</i>',<i>containernsid</i>);</code>
-</pre>
+<pre class="java"><code>var value = DIL. dexgetqsvars ('<i>variablename</i>','<i>partnername</i>',<i>containernsid</i>);</code></pre>
