@@ -1,19 +1,19 @@
 ---
 description: Der Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
-seo-description: Der Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
-seo-title: Audience Manager-Produktdokumentation
+seo-description: Technische Dokumentation und Self-Help für Audience Manager (AAM). AAM bietet branchenführende Dienste für die Datenverwaltung in der Online-Zielgruppe und bietet digitalen Werbetreibenden die Werkzeuge, die sie zur Steuerung und Nutzung ihrer Daten-Assets benötigen, um den Verkaufserfolg zu steigern.
+seo-title: Technische Dokumentation zu Adobe Audience Manager
 solution: Audience Manager
 title: Audience Manager-Produktdokumentation
 uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 916
 translation-type: tm+mt
-source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
+source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
 
 ---
 
 
 # Audience Manager-Produktdokumentation {#audience-manager-product-documentation}
 
-Der Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
+Dieses Handbuch zur technischen Dokumentation bietet Self-Help-Hilfe für Audience Manager - einen branchenführenden Dienst für die Datenverwaltung in der Online-Zielgruppe. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
