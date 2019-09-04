@@ -7,7 +7,7 @@ title: Rechnungsstellung für Datenfeed-Käufer
 keywords: Berichterstellung auf Segmentebene, Segmentebene, Segmentebene
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -40,15 +40,17 @@ Nach der Berichterstellung [!DNL CPM] auf Segmentebene weist automatisch [!UICON
 So melden Sie [!DNL CPM] die Nutzung auf Segmentebene an:
 
 1. Gehe **[!UICONTROL Audience Marketplace > Payables]** zu.
-2. Wählen Sie die **[!UICONTROL Segment Usage]** Registerkarte.
-3. Geben Sie die Nutzung für Ihre Segmente ein. Sie können das [!UICONTROL Search] Kästchen verwenden, um die Segmente zu filtern, wenn Sie nur für einige davon die Nutzung der Berichte benötigen.
-4. Klicken Sie auf **[!UICONTROL Edit Segments Usage]**.
-5. Geben Sie den [!DNL CPM] Nutzungsbetrag in die [!UICONTROL Usage] Spalte ein.
-6. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
-   ![confirmation-segment-usage](assets/confirm-segment-usage.png)
-7. Klicken Sie auf **[!UICONTROL Confirm]**.
+1. Wählen Sie die **[!UICONTROL Segment Usage]** Registerkarte.
+1. Geben Sie die Nutzung für Ihre Segmente ein. Sie können das [!UICONTROL Search] Kästchen verwenden, um die Segmente zu filtern, wenn Sie nur für einige davon die Nutzung der Berichte benötigen.
+1. Klicken Sie auf **[!UICONTROL Edit Segments Usage]**.
+1. Geben Sie den [!DNL CPM] Nutzungsbetrag in die [!UICONTROL Usage] Spalte ein.
+1. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
 
-<br> 
+   ![confirmation-segment-usage](assets/confirm-segment-usage.png)
+
+1. Klicken Sie auf **[!UICONTROL Confirm]**.
+
+ 
 
 ## Bericht-CPM-Nutzung auf Datenfeed-Ebene {#feed-level-report}
 
@@ -57,15 +59,15 @@ Die Berichterstellung auf Datenfeeds ist mühsam und anfällig für Fehlerverarb
 So melden Sie [!DNL CPM] die Nutzung auf Segmentebene an:
 
 1. Gehe **[!UICONTROL Audience Marketplace > Payables]** zu.
-2. Wählen Sie die **[!UICONTROL Feed Usage]** Registerkarte.
-3. Verwenden Sie das [!UICONTROL Search] Feld, um die Datenfeeds zu filtern und diejenigen zu identifizieren, für die Sie die Nutzung von Berichten verwenden müssen.
-4. Klicken Sie auf **[!UICONTROL Edit Feeds Usage]**.
-5. Berechnen Sie die [!DNL CPM] Nutzung für jeden Datenfeed anhand der [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)und geben Sie ihn in die [!UICONTROL Usage] Spalte ein.
-6. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
+1. Wählen Sie die **[!UICONTROL Feed Usage]** Registerkarte.
+1. Verwenden Sie das [!UICONTROL Search] Feld, um die Datenfeeds zu filtern und diejenigen zu identifizieren, für die Sie die Nutzung von Berichten verwenden müssen.
+1. Klicken Sie auf **[!UICONTROL Edit Feeds Usage]**.
+1. Berechnen Sie die [!DNL CPM] Nutzung für jeden Datenfeed anhand der [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)und geben Sie ihn in die [!UICONTROL Usage] Spalte ein.
+1. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
 
    ![confirmation-feed-usage](assets/confirm-feed-usage.png)
 
-7. Klicken Sie auf **[!UICONTROL Confirm]**.
+1. Klicken Sie auf **[!UICONTROL Confirm]**.
 
 <br> 
 
@@ -155,7 +157,7 @@ Nach der Berichtsnummer [!DNL CPM] für den vorherigen Kalendermonat [!DNL Adobe
 
 ## Impressionen auf Feed-Ebene basierend auf Eigenschaften-Qualifizierungsregeln zuweisen {#assign-impressions}
 
-Mit dem [!UICONTROL Activation] Verwendungsfall können Sie Eigenschaften im entsprechenden Datenfeed verwenden, um Segmente im [Segmentaufbau](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) zu erstellen und diese Segmente einem Ziel zuzuordnen. Die booleschen Operatoren [!UICONTROL AND], [!UICONTROL OR]und [!UICONTROL NOT] Sie können die Bedingungen für Eigenschaften und Segmentqualifizierung festlegen.
+Mit dem [!UICONTROL Activation] Verwendungsfall können Sie Eigenschaften im entsprechenden Datenfeed verwenden, um Segmente im [Segmentaufbau](../../../features/segments/segment-builder.md) zu erstellen und diese Segmente einem Ziel zuzuordnen. Die booleschen Operatoren [!UICONTROL AND], [!UICONTROL OR]und [!UICONTROL NOT] Sie können die Bedingungen für Eigenschaften und Segmentqualifizierung festlegen.
 
 Wenn Sie [die CPM-Auslastung auf Datenfeed-Ebene](#feed-level-report)melden, müssen Sie die Impressionen für jeden Datenfeed proportional zuweisen, gemäß den [!DNL Boolean] Operatoren in den Eigenschaftenregeln. In der folgenden Tabelle sind die korrekten Zuordnungen von Impressionen nach Boolescher Regel oder Eigenschaftstyp aufgeführt.
 
