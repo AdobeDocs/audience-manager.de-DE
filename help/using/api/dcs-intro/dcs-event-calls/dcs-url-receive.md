@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Daten aus dem DCS empfangen
 uuid: fbb 77197-8530-48 a 8-b 708-d 785 f 7214494
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -21,8 +21,9 @@ Lesen Sie dazu die Option Daten an das DCS [senden](../../../api/dcs-intro/dcs-e
 
 Ihre [!UICONTROL DCS] Anforderung muss enthalten `d_rtbd=json` sein, wenn Sie eine Antwort von der [!UICONTROL DCS] Wenn [!UICONTROL DCS] Sie diesen Parameter weglassen, werden keine Daten zurückgegeben. Ein grundlegender Aufruf an [!UICONTROL DCS] die Anforderungsdaten verwendet diese Syntax:
 
-<pre><code>https://domain alias.demdex.net/event<i></i>?<i>key 1</i>= <i>val 1</i>, &amp;<i>key 2</i>= <i>val 2</i>&amp; d_ dst = 1 &amp; d_ rtbd = json &amp; d_ cb =<i>callback</i></code>
-</pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 ## Beispielantwort {#sample-response}
 
