@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Daten an den DCS senden
 uuid: 024 e 307 d-bfcb -46 cf-ac 3 a-fc 71 df 0248 fe
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -23,7 +23,9 @@ Beginnen Sie hier, um weitere Informationen zum Durchführen `/event` von Aufruf
 
 Eine einfache `URL` Zeichenfolge, die Daten an die [!UICONTROL DCS] folgende Syntax sendet:
 
-<pre><code>https://domain alias.demdex.net/event<i></i>?<i>key 1</i>=<i>val 1</i>, &amp;<i>key 2</i>=<i>val 2</i>&amp; d_ dst = 1 &amp; d_ rtbd = json &amp; d_ cb =<i>callback</i></code></pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 >[!NOTE]
 >
@@ -85,8 +87,9 @@ Die folgende Tabelle definiert die grundlegenden Komponenten eines einfachen [!U
 
 Dieses Beispiel zeigt das fiktive Unternehmen [!DNL Acme, Inc.] , das über einen [!UICONTROL DCS][!DNL HTTP] Aufruf Daten an die Variable sendet. Beachten Sie, dass dieser Aufruf die optionalen Parameter `d_dst=1`, `d_rtbd=json``d_cb=callback`und. Diese weisen darauf hin, dass [!DNL Acme][!DNL JSON] eine Antwort von der [!UICONTROL DCS] Funktion mit einer Rückruffunktion empfangen werden soll. Denken Sie daran, dass dies nur ein Beispiel ist. Ausschneiden und Einfügen Sie diesen Code nicht.
 
-`https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
-
+```js
+https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
+```
 ## Nächste Schritte {#dcs-next-steps}
 
 Nachdem Sie sich mit dem Senden von Daten an die Benutzer [!UICONTROL DCS]vertraut machen, sollten Sie sich überlegen, wie Sie Daten daraus abrufen und diese Informationen analysieren. Siehe [Daten vom DCS empfangen](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
