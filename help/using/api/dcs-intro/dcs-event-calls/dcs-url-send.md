@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Daten an den DCS senden
 uuid: 024 e 307 d-bfcb -46 cf-ac 3 a-fc 71 df 0248 fe
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: 9c692ae41a309b4f1d8323a501619c02d2aef6a0
 
 ---
 
@@ -90,6 +90,7 @@ Dieses Beispiel zeigt das fiktive Unternehmen [!DNL Acme, Inc.] , das über eine
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
 ```
+
 ## Nächste Schritte {#dcs-next-steps}
 
 Nachdem Sie sich mit dem Senden von Daten an die Benutzer [!UICONTROL DCS]vertraut machen, sollten Sie sich überlegen, wie Sie Daten daraus abrufen und diese Informationen analysieren. Siehe [Daten vom DCS empfangen](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
