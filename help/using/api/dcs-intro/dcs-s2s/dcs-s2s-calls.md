@@ -4,7 +4,7 @@ solution: Audience Manager
 title: Server-zu-Server-DCS API-Aufrufe erstellen
 uuid: bdfe 3430-e 27 f -4 a 5 c -88 d 9-ae 164 d 28 f 601
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -21,7 +21,9 @@ Aufrufe erfordern den Hostnamen des regionalen DCS-Servers und der Benutzer-ID. 
 
 Eine standardmäßige Server-zu-Server-Anforderung, die Daten an die [!UICONTROL DCS] folgende Syntax sendet:
 
-<pre><code>" Host:<i>Domäne.</i>demdex. net "" https://DCS<i>host name.demdex.net/event?d_rtbd=json&amp;d_jsonv=1&amp;d_uuid=user</i><i>ID</i>.</code></pre>
+```js
+"Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
+```
 
 Ein Beispielaufruf sieht ähnlich wie das folgende Beispiel aus.
 
