@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segmentaufbau
 uuid: 5 ca 924 a 5-2 b 29-4802-ab 02-e 292 d 77 a 0 aae
 translation-type: tm+mt
-source-git-commit: 2733080505760bbcf39737f0ad0d2d7605d1f477
+source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
 
 ---
 
@@ -17,9 +17,7 @@ Beschreibt die erforderlichen und optionalen Schritte, die ein Segment erstellen
 
 ## Videodemonstration
 
-Das folgende Video führt Sie durch den Segmenterstellungsprozess. Lesen Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
-
->[!VIDEO](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)
+Beginnen Sie mit [dem Anschauen von Segmenten in Audience Manager](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4). Das Video führt Sie durch den Segmenterstellungsprozess. Lesen Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
 ## Segment erstellen {#create-segment}
 
