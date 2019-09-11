@@ -7,20 +7,20 @@ solution: Audience Manager
 title: Regelbasierte oder Onboardanmerkungen erstellen
 uuid: 4243 e 09 f -1 f 96-443 a -864 a-d 6 e 6918079 fa
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
 
-# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
+# Regelbasierte oder Onboardanmerkungen erstellen {#create-rules-based-or-onboarded-traits}
 
-Describes set up steps and features specific to the [!UICONTROL rules-based] and [!UICONTROL onboarded] trait creation process.
+Beschreibt die Schritte und Funktionen, die speziell für die [!UICONTROL rules-based] Erstellung und [!UICONTROL onboarded] Erstellung von Eigenschaften gelten.
 
 <!-- c_tb_rules_traits.xml -->
 
-## Basic Information for Traits {#basics}
+## Grundlegende Informationen zu Eigenschaften {#basics}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing traits. The [!UICONTROL Basic Information] settings are the same for rules-based, onboarded and algorithmic traits. Um eine neue Eigenschaft zu erstellen, geben Sie einen Namen (Sonderzeichen vermeiden), eine Datenquelle und einen Speicherordner ein. Other [!UICONTROL Basic Information] fields are optional.
+In können [!UICONTROL Trait Builder]Sie in den [!UICONTROL Basic Information] Einstellungen neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. Die [!UICONTROL Basic Information] Einstellungen gelten für regelbasierte, detaillierte und algorithmische Eigenschaften. Um eine neue Eigenschaft zu erstellen, geben Sie einen Namen (Sonderzeichen vermeiden), eine Datenquelle und einen Speicherordner ein. Andere [!UICONTROL Basic Information] Felder sind optional.
 
 <!-- c_tb_basics.xml -->
 
@@ -43,7 +43,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
        <li id="li_579302FE34B64FE0AE3C751012839229">Bindestriche </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Registerkarten </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">Vertikalbalken- oder Senkrechtstrich </li> 
-      </ul> </p> </p> <p>This helps reduce processing errors when you set up an <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> inbound data file transfer</a>. </p> </td> 
+      </ul> </p> </p> <p>Dadurch können Verarbeitungsfehler reduziert werden, wenn Sie eine <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> eingehende Datendateiübertragung einrichten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Beschreibung</span></b> </td> 
@@ -51,7 +51,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ereignistyp</span></b> </td> 
-   <td colname="col2"> Weist einem Typ oder einer Kategorie die Eigenschaft zu, normalerweise entsprechend der Funktion (z. B. Umrechnung, Site-Besucher, Partner, Seitenansicht usw.). Optional. </td> 
+   <td colname="col2"> Weist einem Typ oder einer Kategorie die Eigenschaft zu, normalerweise entsprechend der Funktion (z. B. Umrechnung, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Video Erstellen von Konversionseigenschaften in Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Datenquelle</span></b> </td> 
@@ -76,16 +76,16 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
  </tbody> 
 </table>
 
-## Set a Trait Expiration Interval {#set-expiration-interval}
+## Festlegen eines Eigenschaftsablaufintervalls {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft verbleibt (120 Tage ist Standard). Bei Festlegung auf 0 läuft die Trait-Mitgliedschaft nie ab.
+In [!UICONTROL Trait Builder]können [!UICONTROL Advanced Options] Sie ein Zeitintervall ([!DNL TTL]) für eine Eigenschaft festlegen. [!DNL TTL] definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft verbleibt (120 Tage ist Standard). Bei Festlegung auf 0 läuft die Trait-Mitgliedschaft nie ab.
 
 <!-- t_tb_ttl.xml -->
 
 ### TTL für eine Eigenschaft festlegen
 
-1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Erweitern Sie den [!UICONTROL Advanced Options] Abschnitt und geben Sie eine Zahl ein, um einen [!DNL TTL] Wert für die Eigenschaft festzulegen.
+2. Klicken Sie auf **[!UICONTROL Save]**.
    ![](assets/TTL.png)
 
 >[!MORE_ LIKE_ THIS]
