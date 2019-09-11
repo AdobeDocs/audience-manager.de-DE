@@ -7,7 +7,7 @@ title: Rechnungsstellung für Datenfeed-Käufer
 keywords: Berichterstellung auf Segmentebene, Segmentebene, Segmentebene
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
@@ -50,6 +50,10 @@ So melden Sie [!DNL CPM] die Nutzung auf Segmentebene an:
 
 1. Klicken Sie auf **[!UICONTROL Confirm]**.
 
+Siehe auch unsere Videodemonstration darüber, wie Sie die Nutzung auf Segmentebene melden können:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=ger)
+
  
 
 ## Bericht-CPM-Nutzung auf Datenfeed-Ebene {#feed-level-report}
@@ -59,15 +63,15 @@ Die Berichterstellung auf Datenfeeds ist mühsam und anfällig für Fehlerverarb
 So melden Sie [!DNL CPM] die Nutzung auf Segmentebene an:
 
 1. Gehe **[!UICONTROL Audience Marketplace > Payables]** zu.
-1. Wählen Sie die **[!UICONTROL Feed Usage]** Registerkarte.
-1. Verwenden Sie das [!UICONTROL Search] Feld, um die Datenfeeds zu filtern und diejenigen zu identifizieren, für die Sie die Nutzung von Berichten verwenden müssen.
-1. Klicken Sie auf **[!UICONTROL Edit Feeds Usage]**.
-1. Berechnen Sie die [!DNL CPM] Nutzung für jeden Datenfeed anhand der [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)und geben Sie ihn in die [!UICONTROL Usage] Spalte ein.
-1. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
+2. Wählen Sie die **[!UICONTROL Feed Usage]** Registerkarte.
+3. Verwenden Sie das [!UICONTROL Search] Feld, um die Datenfeeds zu filtern und diejenigen zu identifizieren, für die Sie die Nutzung von Berichten verwenden müssen.
+4. Klicken Sie auf **[!UICONTROL Edit Feeds Usage]**.
+5. Berechnen Sie die [!DNL CPM] Nutzung für jeden Datenfeed anhand der [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)und geben Sie ihn in die [!UICONTROL Usage] Spalte ein.
+6. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
 
    ![confirmation-feed-usage](assets/confirm-feed-usage.png)
 
-1. Klicken Sie auf **[!UICONTROL Confirm]**.
+7. Klicken Sie auf **[!UICONTROL Confirm]**.
 
 <br> 
 
