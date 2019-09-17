@@ -1,19 +1,19 @@
 ---
 description: Der Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
-seo-description: Technische Dokumentation und Self-Help für Audience Manager (AAM). AAM bietet branchenführende Dienste für die Datenverwaltung in der Online-Zielgruppe und bietet digitalen Werbetreibenden die Werkzeuge, die sie zur Steuerung und Nutzung ihrer Daten-Assets benötigen, um den Verkaufserfolg zu steigern.
+seo-description: Technische Dokumentation und Selbsthilfe für Audience Manager (AAM). AAM bietet branchenführende Dienste für das Datenmanagement von Online-Zielgruppen und bietet digitalen Werbetreibenden und Herausgebern die Werkzeuge, die sie zur Steuerung und Nutzung ihrer Daten-Assets benötigen, um den Verkaufserfolg zu fördern.
 seo-title: Technische Dokumentation zu Adobe Audience Manager
 solution: Audience Manager
 title: Audience Manager-Produktdokumentation
-uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 916
+uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
+source-git-commit: 54163f2d80398b69faf24c735d04e944eced035c
 
 ---
 
 
 # Audience Manager-Produktdokumentation {#audience-manager-product-documentation}
 
-Dieses Handbuch zur technischen Dokumentation bietet Self-Help-Hilfe für Audience Manager - einen branchenführenden Dienst für die Datenverwaltung in der Online-Zielgruppe. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
+Dieses Handbuch zur technischen Dokumentation bietet Hilfe zur Selbsthilfe für Audience Manager - einen branchenführenden Dienst für das Datenmanagement von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
@@ -21,20 +21,25 @@ Dieses Handbuch zur technischen Dokumentation bietet Self-Help-Hilfe für Audien
    <td colname="col1"> <p> <b>Neue und vorgestellte Funktionen</b> </p> <p>Lesen Sie die neuesten Funktionen von Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="features/destinations/people-based-destinations-overview.md">Benutzerbasierte Ziele</a> </li>
-     <li><a href="features/destinations/twitter-tailored-audiences.md">Twitter-angepasste Zielgruppen als selbstbedienungsbasiertes Ziel konfigurieren</a> </li>
-     <li><a href="features/destinations/destinations-home.md">Ziele-Homepage</a> </li>
+     <li><a href="features/destinations/twitter-tailored-audiences.md">Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel</a> </li>
+     <li><a href="features/destinations/destinations-home.md">Ziel-Homepage</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">Verschleierung von IP-Adressen</a> </li>
-     </ul> </p> <p>Siehe auch Dokumentation zu Dokumentationen <a href="docs-updates/docs-2019.md"> 2019</a>. </p> 
-     <p>Wenn Sie neu bei Audience Manager sind, sehen Sie sich unser <a href="reference/aam-glossary.md"> Glossar</a> und den <a href= "reference/ids-in-aam.md">Index von IDs an.</a></p></td>
+     </ul> </p> <p>Siehe auch <a href="docs-updates/docs-2019.md"> Aktualisierungen</a>der Dokumentation 2019. </p> 
+     <p>Wenn Sie neu im Audience Manager sind, finden Sie weitere Informationen in unserem <a href="reference/aam-glossary.md"> Glossar</a> und <a href= "reference/ids-in-aam.md">dem ID-Index.</a></p>
+     <br>
+     <p> <b>Gemeinsame Dokumentation</b> </p>
+     <p>Wir freuen uns über Beiträge zu unserer Dokumentation von allen unseren Lesern. Weitere Informationen zum Beginn der Beitragsarbeit finden Sie unter Übersicht über<a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html"> das </a>Handbuch zur Zusammenarbeit.</p>
+    </td>
    <td colname="col2"> <p> <b>Versionshinweise</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">Neue Funktionen und Fehlerbehebungen finden Sie in den <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external">Experience Cloud-Versionshinweisen</a>. </li> 
       <li id="li_EA594E939ED14D7780178DEA8E1AED64">Ältere Ankündigungen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html" format="https" scope="external">Frühere Versionshinweise</a>. </li> 
      </ul> </p> <p> <b>Experience Cloud-Ressourcen</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
-      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager-Community-Foren</a> </li> 
+      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Community-Foren zu Audience Manager</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe Datenschutzcenter</a> </li> 
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe-Schulungen und -Lernprogramme</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager-Übungen</a> </li> 
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe-Schulungen und -Zertifizierungen</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> Produktdokumentation – Startseite</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager Training und Support</a> </li> 
      </ul> </p> </td>
