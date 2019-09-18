@@ -1,54 +1,54 @@
 ---
-description: Eigenschaftenausschluss bietet zusätzliche Steuerelemente im Modellierungsarbeitsablauf, mit denen Sie dem Modell die erforderlichen Schutzrails hinzufügen können, basierend auf Ihren Kenntnissen und regulatorischen Vorschriften. Verwenden Sie die Option "Ausnahmen" , um auszuwählen, welche Eigenschaften beim Erstellen von Modellen aus einer oder mehreren Datenquellen ignoriert werden sollen.
-seo-description: Eigenschaftenausschluss bietet zusätzliche Steuerelemente im Modellierungsarbeitsablauf, mit denen Sie dem Modell die erforderlichen Schutzrails hinzufügen können, basierend auf Ihren Kenntnissen und regulatorischen Vorschriften. Verwenden Sie die Option "Ausnahmen" , um auszuwählen, welche Eigenschaften beim Erstellen von Modellen aus einer oder mehreren Datenquellen ignoriert werden sollen.
-seo-title: Algorithmische Modelleigenschaften - Ausschluss
-title: Algorithmische Modelleigenschaften - Ausschluss
-uuid: 1359800 b -6 e 6 c -41 e 1-88 b 4-23 d 31952 abb 3
+description: Der Eigenschaftsausschluss bietet zusätzliche Steuerelemente in Ihrem Modellarbeitsablauf, mit denen Sie die erforderlichen Schutzleisten zum Modell hinzufügen können, basierend auf Ihrer Domänenkompetenz und Ihren regulatorischen Anforderungen. Verwenden Sie die Option "Ausnahmen", um festzulegen, welche Eigenschaften beim Erstellen von Modellen aus einer oder mehreren Datenquellen ignoriert werden sollen.
+seo-description: Der Eigenschaftsausschluss bietet zusätzliche Steuerelemente in Ihrem Modellarbeitsablauf, mit denen Sie die erforderlichen Schutzleisten zum Modell hinzufügen können, basierend auf Ihrer Domänenkompetenz und Ihren regulatorischen Anforderungen. Verwenden Sie die Option "Ausnahmen", um festzulegen, welche Eigenschaften beim Erstellen von Modellen aus einer oder mehreren Datenquellen ignoriert werden sollen.
+seo-title: Algorithmischer Modelleigenschaftsausschluss
+title: Algorithmischer Modelleigenschaftsausschluss
+uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
 source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 ---
 
 
-# Algorithmic Models: Trait Exclusion {#algorithmic-models-trait-exclusion}
+# Algorithmische Modelle: Eigenschaftsausschluss {#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion] bietet zusätzliche Steuerelemente im Modellierungsarbeitsablauf, mit denen Sie dem Modell die erforderlichen Schutzrails hinzufügen können, basierend auf Ihren Kenntnissen und regulatorischen Vorschriften. Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
+[!UICONTROL Trait Exclusion] bietet zusätzliche Steuerelemente in Ihrem Modellierungsarbeitsablauf, mit denen Sie die erforderlichen Schutzschienen zum Modell hinzufügen können, basierend auf Ihrer Domänenkompetenz und Ihren regulatorischen Anforderungen. Verwenden Sie die [!UICONTROL Exclusions] Option, um festzulegen, welche Eigenschaften beim Erstellen von Modellen aus einer oder mehreren Datenquellen ignoriert werden sollen.
 
 ## Nutzungsszenarios {#use-cases}
 
-Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
+Im Folgenden finden Sie einige Anwendungsfälle, mit denen Sie sich befassen können [!UICONTROL Trait Exclusion]:
 
-* [!UICONTROL Trait Exclusion] ermöglicht es Ihnen, bestimmte Catch-alle-Eigenschaften, wie z. B. Site-Besuchereigenschaften, auszuschließen, sodass Sie das Modell nicht verfälschen und zu stagnierenden Ergebnissen führen.
-* Sie können Eigenschaften entfernen, über die Sie nichts wissen oder die nicht von einer Datenquelle vertrauen, um die einflussreiche Eigenschaften besser verstehen zu können.
-* Sie können bestimmte Eigenschaften (z. B. demografische Eigenschaften) ausschließen, um die möglichen Compliance-Verpflichtungen zu erfüllen.
+* [!UICONTROL Trait Exclusion] ermöglicht es Ihnen, bestimmte allgemeine Eigenschaften auszuschließen, wie z. B. Site-Besuchereigenschaften, sodass Sie das Modell nicht voreinstellen, was zu reduzierten Ergebnissen führt.
+* Sie können Eigenschaften, die Sie nicht kennen oder denen Sie nicht vertrauen, aus einer Datenquelle entfernen, um die einflussreichen Eigenschaften besser zu verstehen.
+* Sie können bestimmte Eigenschaften, wie demografische Merkmale, ausschließen, um eventuell vorhandene Compliance-Verpflichtungen zu erfüllen.
 
 >[!IMPORTANT]
 >
->Ein wichtiger Hinweis zum dritten Verwendungsfall. If the third-party data provider adds a new demographic trait to the data feed *after you created the model*, the trait is automatically picked up by the model. Sie können Eigenschaften nicht aus der Modellierung ausschließen, nachdem Sie das Modell erstellt haben. See [Important Aspects &amp; Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Seien Sie vorsichtig, wenn Sie diese Funktion verwenden und mit dem Datenanbieter zusammenarbeiten, um sicherzustellen, dass Sie über Änderungen an der Feed-Struktur informiert werden.
+>Ein wichtiger Hinweis zum dritten Verwendungsfall. Wenn der Drittanbieter für Daten eine neue demografische Eigenschaft zum Datenfeed hinzufügt, *nachdem Sie das Modell* erstellt haben, wird die Eigenschaft automatisch vom Modell übernommen. Sie können Eigenschaften nach dem Erstellen des Modells nicht von der Modellierung ausschließen. Siehe [Wichtige Aspekte und Einschränkungen](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Gehen Sie bei Verwendung dieser Funktion vorsichtig vor und arbeiten Sie mit dem Datenanbieter zusammen, um sicherzustellen, dass Sie über Änderungen an der Feed-Struktur informiert werden.
 
 ![](assets/lam_exclude_traits.png)
 
-## How to Use Trait Exclusions {#how-to-use}
+## So verwenden Sie Eigenschaftsausschlüsse {#how-to-use}
 
-Use the [Build a model](../../features/algorithmic-models/create-model.md#build-model) workflow to build new algorithmic models.
+Verwenden Sie den Arbeitsablauf [Erstellen eines Modells](../../features/algorithmic-models/create-model.md#build-model) , um neue algorithmische Modelle zu erstellen.
 
-1. The [!UICONTROL Exclusions] selection is greyed out until you select one or more data sources for modeling.
-2. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
-3. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Wählen Sie die Eigenschaften aus, die Sie ausschließen möchten.
-4. Sie können die Eigenschaften nach Eigenschaftstyp filtern oder die Ordner im Eigenschaftenmodus durchsuchen. Beachten Sie, dass Eigenschaftenordner nur die Eigenschaften anzeigen, die mit Ihren ausgewählten Datenquellen verknüpft sind.
+1. Die [!UICONTROL Exclusions] Auswahl wird so lange ausgegraut, bis Sie eine oder mehrere Datenquellen für die Modellierung auswählen.
+2. Nach Auswahl einer oder mehrerer Datenquellen zur Modellierung drücken Sie **[!UICONTROL Browse All Traits]**.
+3. Im **[!UICONTROL Select Traits to Exclude]** Fenster werden alle Eigenschaften angezeigt, die mit den zuvor ausgewählten Datenquellen verknüpft sind. Wählen Sie die Eigenschaften aus, die Sie ausschließen möchten.
+4. Sie können die Eigenschaften nach Eigenschaftstyp filtern oder die Eigenschaftsordner durchsuchen. Beachten Sie, dass Eigenschaftsordner nur die Eigenschaften anzeigen, die mit den ausgewählten Datenquellen verknüpft sind.
 5. Press **[!UICONTROL Exclude Selected Traits]**.
 
 >[!TIP]
 >
->Sie können ganze Ordner ausschließen, indem Sie die Ordnereigenschaft ausschließen, anstatt die Eigenschaften im Ordner einzeln auszuklammern. Beispielsweise müssen Sie in einem Ordner mit 20 Eigenschaften nur die Ordnereigenschaft ausschließen, anstatt alle Eigenschaften einzeln auszuschließen.
+>Sie können ganze Ordner ausschließen, indem Sie die Ordnereigenschaften ausschließen, anstatt die Eigenschaften im Ordner einzeln auszuschließen. In einem Ordner mit 20 Eigenschaften müssen Sie beispielsweise nur die Ordnereigenschaft ausschließen, anstatt alle Eigenschaften einzeln auszuschließen.
 
-Wenn Sie Videolehrgänge bevorzugen, sehen Sie sich unsere Video-Demonstration für Trait Exclusion an:
+Wenn Sie Videolehrgänge bevorzugen, sehen Sie sich unsere Videodemonstration für den Eigenschaftsausschluss an:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=ger)
 
-## Important Aspects &amp; Limitations {#important-aspects-and-limitations}
+## Wichtige Aspekte und Einschränkungen {#important-aspects-and-limitations}
 
-Please take note of the following aspects and limitations related to [!UICONTROL Trait Exclusion]:
+Bitte beachten Sie die folgenden Aspekte und Einschränkungen in Bezug auf [!UICONTROL Trait Exclusion]:
 
 <table id="table_BA5C3545BC9E4717BD567B00C803AA53"> 
  <thead> 
@@ -59,33 +59,33 @@ Please take note of the following aspects and limitations related to [!UICONTROL
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Ausgeschlossene Eigenschaften in der Modellzusammenfassung </p> </td>
-   <td colname="col2"> <p>The excluded traits <i>do not show up</i> in the Models Summary view. You can see the excluded traits only in the <b><span class="uicontrol"> Edit Model</span></b> workflow. </p> </td>
+   <td colname="col1"> <p>Ausgeschlossene Eigenschaften in der Modellzusammenfassungsansicht </p> </td>
+   <td colname="col2"> <p>Die ausgeschlossenen Eigenschaften werden in der Modellzusammenfassungsansicht <i>nicht angezeigt</i> . Sie können die ausgeschlossenen Eigenschaften nur im Arbeitsablauf <b><span class="uicontrol"> Modell</span></b> bearbeiten anzeigen. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rollenbasierte Zugriffssteuerungssteuerung (RBAC) </p> </td>
-   <td colname="col2"> <p>Note the following limitations for companies using <a href="../../features/administration/administration-overview.md#administration"> RBAC</a>: </p> <p>
+   <td colname="col1"> <p>Rollenbasierte Zugriffssteuerung (RBAC) </p> </td>
+   <td colname="col2"> <p>Beachten Sie die folgenden Einschränkungen für Unternehmen, die <a href="../../features/administration/administration-overview.md#administration"> RBAC</a>verwenden: </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
-      <li id="li_2624FB35581F4807B8530910D63FFDBF">If you don't have access to view a trait, you <i>cannot</i> select that trait to be excluded from the model. </li>
-      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">If you don't have access to view a trait, you <i>cannot</i> view that trait in the excluded traits list. </li>
+      <li id="li_2624FB35581F4807B8530910D63FFDBF">Wenn Sie keinen Zugriff auf eine Eigenschaft haben, können Sie diese Eigenschaft <i>nicht</i> aus dem Modell ausschließen. </li>
+      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Wenn Sie keinen Zugriff auf eine Eigenschaft haben, können Sie diese Eigenschaft in der Liste der ausgeschlossenen Eigenschaften <i>nicht</i> anzeigen. </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ausgeschlossene Eigenschaften nach dem Speichern von Modellen ändern </p> </td>
-   <td colname="col2"> <p>Sie können die ausgeschlossenen Eigenschaften nicht ändern, nachdem Sie ein Modell erstellt und gespeichert haben. Wenn Sie die Ergebnisse anpassen möchten, können Sie das Modell klonen und die ausgeschlossenen Eigenschaften ändern. </p> </td>
+   <td colname="col1"> <p>Ausgeschlossene Eigenschaften nach dem Speichern des Modells ändern </p> </td>
+   <td colname="col2"> <p>Sie können die ausgeschlossenen Eigenschaften nach dem Erstellen und Speichern eines Modells nicht mehr ändern. Wenn Sie die Ergebnisse optimieren möchten, können Sie das Modell klonen und die ausgeschlossenen Eigenschaften ändern. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maximale Anzahl von Eigenschaften, die Sie ausschließen können </p> </td>
-   <td colname="col2"> <p>Die maximale Anzahl von Eigenschaften, die Sie aus einem Modell ausschließen können, ist 500. Verwenden Sie Ordnereigenschaften, um Ihre Ausschlüsse zu maximieren. </p> </td>
+   <td colname="col2"> <p>Die maximale Anzahl von Eigenschaften, die Sie von einem Modell ausschließen können, ist 500. Verwenden Sie Ordnereigenschaften, um Ihre Ausnahmen zu maximieren. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Grundlinieneigenschaft ausschließen </p> </td>
-   <td colname="col2"> <p>The baseline trait is excluded by default, so it does not show up in the <b><span class="uicontrol"> Exclusions</span></b> list, when building the model. </p> </td>
+   <td colname="col1"> <p>Grundlinieneigenschaften ausschließen </p> </td>
+   <td colname="col2"> <p>Die Eigenschaft "Grundlinie"wird standardmäßig ausgeschlossen, daher wird sie beim Erstellen des Modells nicht in der Liste " <b><span class="uicontrol"> Ausnahmen</span></b> "angezeigt. </p> </td>
   </tr>
  </tbody>
 </table>
 
 ## Verwandte Links
 
-* [Grundlagen zu algorithmischen Eigenschaften](/help/using/features/algorithmic-models/understanding-models.md)
-* [Eigenschaftenausschluss - Lernprogramm](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
+* [Algorithmische Eigenschaften](/help/using/features/algorithmic-models/understanding-models.md)
+* [Eigenschaftsausschluss - Tutorial](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
