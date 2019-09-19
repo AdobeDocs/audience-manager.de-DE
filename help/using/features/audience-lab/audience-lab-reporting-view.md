@@ -1,24 +1,24 @@
 ---
-description: Der Berichtsabschnitt für Testgruppenberichte gibt Informationen zu Testgruppenkonversionen zurück, was einen einfachen Vergleich der Effektivität von Testsegmenten ermöglicht. Für die Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
-seo-description: Der Berichtsabschnitt für Testgruppenberichte gibt Informationen zu Testgruppenkonversionen zurück, was einen einfachen Vergleich der Effektivität von Testsegmenten ermöglicht. Für die Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
+description: Der Abschnitt "Berichte zu Testgruppen"gibt Informationen zu den Konversionen der Testgruppe zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
+seo-description: Der Abschnitt "Berichte zu Testgruppen"gibt Informationen zu den Konversionen der Testgruppe zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
 seo-title: Testgruppenberichte
 solution: Audience Manager
 title: Testgruppenberichte
 topic: DIL-API
-uuid: 21303 c 3 e -4 c 5-4728-a 759-96 c 2 a 1 d 99 b 69
+uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Test Group Reporting {#test-group-reporting}
+# Testgruppenberichte {#test-group-reporting}
 
-Der Berichtsabschnitt für Testgruppenberichte gibt Informationen zu Testgruppenkonversionen zurück, was einen einfachen Vergleich der Effektivität von Testsegmenten ermöglicht. Für die Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
+Der Abschnitt "Berichte zu Testgruppen"gibt Informationen zu den Konversionen der Testgruppe zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
 
-[!UICONTROL Audience Lab] gibt detaillierte Berichtsinformationen für die erstellten Testsegmente zurück und ermöglicht es Ihnen, die Berichtsdaten als [!DNL CSV] Dateien zu speichern. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] gibt detaillierte Berichtsinformationen für die von Ihnen erstellten Testsegmente zurück und ermöglicht Ihnen, die Berichtsdaten als [!DNL CSV] Dateien zu speichern. Sie können zwischen **[!UICONTROL Aggregate Reporting]** und **[!UICONTROL Trend Reporting]** wählen.
 
-**[!UICONTROL Aggregate Reporting]** gibt die absoluten Zahlen für Ihre Testsegmente zurück. **[!UICONTROL Trend Reporting]** gibt ein Diagramm des Trends *über einen bestimmten Zeitraum zurück*. Mit vier Registern können Sie die Berichte anpassen:
+**[!UICONTROL Aggregate Reporting]** gibt die absoluten Zahlen für Ihre Testsegmente zurück. **[!UICONTROL Trend Reporting]** gibt ein Diagramm des Trends *über einen bestimmten Zeitraum* zurück. Mit vier Registerkarten können Sie die Berichte anpassen:
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -29,36 +29,36 @@ Der Berichtsabschnitt für Testgruppenberichte gibt Informationen zu Testgruppen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Populationskonversionsrate</span></b> </p> </td> 
-   <td colname="col2"> <p>Gibt den Prozentsatz der Geräte zurück, die zu einem bestimmten Testsegment gehören, das konvertiert wurde. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Bevölkerungskonversionsrate</span></b> </p> </td> 
+   <td colname="col2"> <p>Gibt den Prozentsatz der Geräte zurück, die zu einem bestimmten Testsegment gehören und konvertiert wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Konverter</span></b> </p> </td> 
-   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die die in den Testgruppen ausgewählten Konversionseigenschaften ausfüllen. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> Sehen Sie sich dieses Video</a> an, um zu erfahren, wie Konversionseigenschaften erstellt werden. </p> </td> 
+   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die die in den Testgruppen ausgewählten Konvertierungseigenschaften gezeigt haben. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> Sehen Sie sich dieses Video</a> an, um zu erfahren, wie Sie Konversionseigenschaften erstellen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Summenkonversionen</span></b> </p> </td> 
-   <td colname="col2"> <p>Gibt die Anzahl der von den Testsegmenten generierten Konversionen zurück. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Gesamtumrechnungen</span></b> </p> </td> 
+   <td colname="col2"> <p>Gibt die Anzahl der Konversionen zurück, die von den Testsegmenten generiert wurden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Testsegmente testen</span></b> </p> </td> 
-   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die zu den Testsegmenten gehören. Toggle between <b><span class="uicontrol"> Total Population</span></b> or <b><span class="uicontrol"> Real-time Population</span></b>. The difference is explained in the <a href="../../faq/faq-reporting.md"> Reporting FAQ</a> . </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Segmentpopulationen testen</span></b> </p> </td> 
+   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die zu den Testsegmenten gehören. Wechsel zwischen <b><span class="uicontrol"> Gesamtbevölkerung</span></b> oder <b><span class="uicontrol"> Echtzeit-Bevölkerung</span></b>. Der Unterschied wird in den <a href="../../faq/faq-reporting.md"> Berichterstellungs-FAQ</a> erklärt. </p> </td>
   </tr>
  </tbody>
 </table>
 
-Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Bericht erstellt werden soll, oder Sie können alle kombinierten Eigenschaften auswählen. You can define a date range for which the information should be returned and export the report as a [!DNL CSV] file.
+Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Bericht generiert werden soll, oder Sie können alle kombinierten Eigenschaften auswählen. Sie können einen Datumsbereich definieren, für den die Informationen zurückgegeben werden sollen, und den Bericht als [!DNL CSV] Datei exportieren.
 
 >[!NOTE]
 >
->* Die Berichterstellung für eine Testgruppe füllt den Tag nach dem Startdatum.
->* Eine Konversion wird nur für ein Gerät nach dem Startdatum eines Tests gezählt und nach dem Hinzufügen des Geräts zu einem Testsegment. Wenn eine Konvertierung für dieses Gerät vor dem zugewiesenen Test erfolgt, wird die Konvertierung nicht gezählt.
+>* Die Berichterstellung für eine Testgruppe füllt den Tag nach dem Anfangsdatum.
+>* Eine Konversion wird für ein Gerät erst nach dem Startdatum eines Tests und nach dem Hinzufügen des Geräts zu einem Testsegment gezählt. Wenn für dieses Gerät eine Konversion erfolgt, bevor eine Testgruppe zugewiesen wird, wird die Konversion nicht gezählt.
 
 
-A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
+Ein zurückgegebenes **[!UICONTROL Aggregate Reporting]** Diagramm könnte wie folgt aussehen:
 
 ![](assets/aggregate-reporting.PNG)
 
-A returned **[!UICONTROL Trend Reporting]** chart could look like the one below. Select **[!UICONTROL Normalized]** in the check box if you want to ignore the absolute numbers and simply focus on the test segments trends.
+Ein zurückgegebenes **[!UICONTROL Trend Reporting]** Diagramm könnte wie das unten stehende aussehen. Aktivieren Sie **[!UICONTROL Normalized]** das Kontrollkästchen, wenn Sie die absoluten Zahlen ignorieren und sich einfach auf die Trends der Testsegmente konzentrieren möchten.
 
 ![](assets/trend-reporting.PNG)
