@@ -4,14 +4,14 @@ seo-description: Zu den Datenverarbeitungskomponenten gehören Hadoop, Snowflake
 seo-title: Datenverarbeitungskomponenten
 solution: Audience Manager
 title: Datenverarbeitungskomponenten
-uuid: d 458 d 869-7 a 23-4016-871 d -0 b 994 cf 4 af 06
+uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Data Processing Components{#data-processing-components}
+# Datenverarbeitungskomponenten{#data-processing-components}
 
 Zu den Datenverarbeitungskomponenten gehören Hadoop, Snowflake, SOLR und Tableau.
 
@@ -21,36 +21,36 @@ c_comproc.xml
 
  -->
 
-Audience Manager verwendet die folgenden Komponenten zum Verarbeiten von Daten:
+Audience Manager verwendet die folgenden Komponenten zur Datenverarbeitung:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], Hadoop is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md) create log files that contain data about your users, it sends that data to Hadoop for storage. Weitere wichtige Hadoop-Elemente:
+Hadoop [!DNL Audience Manager]ist die Master-Datenbank, die alles über einen Benutzer [!DNL Audience Manager] weiß. Wenn beispielsweise die [Profil-Cache-Server](../../reference/system-components/components-data-collection.md) Protokolldateien mit Daten zu Ihren Benutzern erstellen, werden diese Daten zur Speicherung an Hadoop gesendet. Weitere wichtige Hadoop-Elemente sind:
 
-* **Hive:** Ein Data Warehouse für Hadoop. Hive verwaltet Ad-hoc-Abfragen auf die in Hadoop gespeicherten Daten.
+* **** Hive: Ein Data Warehouse für Hadoop. Hive verwaltet Ad-hoc-Abfragen der in Hadoop gespeicherten Daten.
 
-* **Hbase:** Eine sehr große Hadoop-Datenbank. Sie verarbeitet und verwaltet eingehende und ausgehende Daten, Eigenschaftsregeln, algorithmische Modellinformationen und führt viele weitere Funktionen durch, mit denen Daten auf verschiedene Systeme gespeichert und verschoben werden.
+* **** HBase: Eine sehr große Hadoop-Datenbank. Es verarbeitet und verwaltet eingehende und ausgehende Daten, Eigenschaftsregeln, algorithmische Modellierungsinformationen und führt viele andere Funktionen zum Speichern und Verschieben von Daten auf verschiedene Systeme aus.
 
-Kunden haben keinen direkten Zugriff auf diese Systeme. Kunden arbeiten jedoch indirekt daran, da diese Komponenten wichtige Daten über ihre Site-Besucher speichern.
+Kunden haben keinen direkten Zugriff auf diese Systeme. Kunden arbeiten jedoch indirekt mit ihnen, da diese Komponenten wichtige Daten über ihre Site-Besucher speichern.
 
-## Snowflake {#snowflake}
+## Schneeflocke {#snowflake}
 
-[Snowflake](https://www.snowflake.net/) ist eine umfangreiche Cloud-Datenbank. Es stellt Daten für viele Dashboard-Diagramme und zugehörige Textfelder bereit, die die % Änderung für jedes Element im Diagramm anzeigen. If you use [!DNL Audience Manager] and look at the dashboard reports, you're interacting with data provided by [!UICONTROL Snowflake].
+[Schneeflocke](https://www.snowflake.net/) ist eine riesige Cloud-Datenbank. Es stellt Daten für viele Dashboard-Diagramme und zugehörige Textfelder bereit, die die Änderung in % für jedes Element im Diagramm anzeigen. Wenn Sie die Dashboard-Berichte verwenden [!DNL Audience Manager] und sich diese ansehen, interagieren Sie mit den von [!UICONTROL Snowflake]Ihnen bereitgestellten Daten.
 
 
 
 ![](assets/dashboardreport.png)
 
-This is by no means a comprehensive list, but some common dashboard reports that [!UICONTROL Snowflake] is responsible for include:
+Dies ist keineswegs eine umfassende Liste, aber einige allgemeine Dashboard-Berichte, die für Folgendes zuständig [!UICONTROL Snowflake] sind:
 
-* [Bericht zu täglichen Eigenschaften](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* [Bereitstellung und Leistungsbericht](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
-* All the overlap reports (see the [Interactive Reports](/help/using/reporting/dynamic-reports/dynamic-reports.md) section for information about each overlap report).
+* [Täglicher Bericht zur Eigenschaftsvarianz](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Liefer- und Leistungsbericht](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
+* Alle Überschneidungsberichte (Informationen zu den einzelnen Überschneidungsberichten finden Sie im Abschnitt [Interaktive Berichte](/help/using/reporting/dynamic-reports/dynamic-reports.md) ).
 * [Bericht zu nicht verwendeten Signalen](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
-SOLR ist eine Open Source-Datenbank und ein Serversystem aus Apache. Es bietet robuste und schnelle Suchfunktionen über unsere großen Datensätze. As an [!DNL Audience Manager] customer, you can see SOLR in action when you build segments. It provides data to the [!UICONTROL Estimated Historic Segment Size] report. SOLR ist aufgrund seiner Geschwindigkeit ideal für diese Rolle. Beispielsweise kann SOLR die historischen Größendaten beim Erstellen von Regeln aktualisieren und einem Segment neue Eigenschaften hinzufügen.
+SOLR ist eine Open-Source-Datenbank und ein Serversystem von Apache. Es bietet robuste und schnelle Suchfunktionen für unsere großen Datensätze. Als [!DNL Audience Manager] Kunde können Sie SOLR in Aktion sehen, wenn Sie Segmente erstellen. Er stellt Daten für den [!UICONTROL Estimated Historic Segment Size] Bericht bereit. SOLR ist aufgrund seiner Geschwindigkeit ideal für diese Rolle. SOLR kann beispielsweise die Daten der historischen Größe aktualisieren, wenn Sie Regeln erstellen und neue Eigenschaften zu einem Segment hinzufügen.
 
 
 
@@ -58,7 +58,7 @@ SOLR ist eine Open Source-Datenbank und ein Serversystem aus Apache. Es bietet r
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) , um Daten in den [interaktiven Berichten](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) und den [Zielgruppenoptimierungsberichten anzuzeigen](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Die interaktiven Berichte zeigen Leistungs- und Überlappungsdaten für Eigenschaften und Segmente an. Statt Zahlen in Spalten und Zeilen zu verwenden, werden Daten mit unterschiedlichen Formen, Farben und Größen zurückgegeben. Darüber hinaus können Sie für weitere Details einzelne Datenpunkte oder Datengruppen im Drilldown-Verfahren auswählen. Diese Visualisierungstechniken und Interaktivitätsinteraktivität erleichtern die Verständlichkeit von numerischen Daten.
+[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) , um Daten in den [interaktiven Berichten](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) und den [Zielgruppenoptimierungsberichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)anzuzeigen. Die interaktiven Berichte zeigen Leistungs- und Überlagerungsdaten für Eigenschaften und Segmente an. Statt in Spalten und Zeilen angeordnete Zahlen zu verwenden, geben sie Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie einzelne oder Gruppen von Datenpunkten auswählen und im Drilldown-Verfahren in den Berichtsergebnissen weitere Details anzeigen. Diese Visualisierungstechniken und die Berichtsinteraktivität erleichtern das Verständnis zahlreicher numerischer Daten.
 
 
 
