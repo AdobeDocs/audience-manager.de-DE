@@ -1,25 +1,25 @@
 ---
 description: REST-API-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
 seo-description: REST-API-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
-seo-title: Zugriffssteuerungsungs-API-Methoden
+seo-title: API-Methoden zur Berechtigungsverwaltung
 solution: Audience Manager
-title: Zugriffssteuerungsungs-API-Methoden
-uuid: 111 d 0 f 92-d 92 c -4 d 4 b-b 0 d 6-10 dd 3 fa 466 ad
+title: API-Methoden zur Berechtigungsverwaltung
+uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Permissions Management API Methods {#permissions-management-api-methods}
+# API-Methoden zur Berechtigungsverwaltung {#permissions-management-api-methods}
 
-Rest [!DNL API] methods to manage permissions for objects and groups.
+Die übrigen [!DNL API] Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## List Available Object Types {#list-object-types}
+## Verfügbare Objekttypen auflisten {#list-object-types}
 
-`GET` Eine Methode zur Liste verfügbarer Objekttypen, auf denen rollenbasierte Zugriffssteuerungselemente festgelegt werden können.
+Eine `GET` Methode zur Auflistung der verfügbaren Objekttypen, für die rollenbasierte Zugriffssteuerelemente festgelegt werden können.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -33,9 +33,9 @@ Rest [!DNL API] methods to manage permissions for objects and groups.
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## List Available Permissions for an Object Type {#list-permissions-object-type}
+## Verfügbare Berechtigungen für einen Objekttyp auflisten {#list-permissions-object-type}
 
-`GET` Eine Methode zur Liste der verfügbaren Berechtigungen für einen Objekttyp.
+Eine `GET` Methode zum Auflisten der verfügbaren Berechtigungen für einen Objekttyp.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -54,4 +54,4 @@ Rest [!DNL API] methods to manage permissions for objects and groups.
 
 >[!NOTE]
 >
->Die Objekttypen TAGS und abgeleitete SIGNALE haben keine regulären Berechtigungen. Steuerelemente für diese Objekttypen werden nur durch Alle oder Nichts Wildcard-Berechtigungen geändert.
+>Die Objekttypen TAGS und DERIVED SIGNALS haben keine regulären Berechtigungen zur Verwendung. Die Steuerelemente für diese Objekttypen werden nur durch die Berechtigungen "Alle"oder "Keine Platzhalter"geändert.
