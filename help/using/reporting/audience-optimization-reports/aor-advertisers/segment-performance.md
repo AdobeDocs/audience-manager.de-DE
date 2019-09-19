@@ -1,70 +1,70 @@
 ---
-description: Der Bericht "Segmentleistung" vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Konversionsraten. Ein zugeordnetes Segment ist ein Segment, das Sie erstellen und an ein Ziel für das Targeting senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht an ein Ziel für das Targeting gesendet haben. Beim Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten können Sie vorhandene Kampagnen optimieren und überflüssige Segmente suchen, die Sie möglicherweise an ein Ziel für Targeting senden möchten.
-seo-description: Der Bericht "Segmentleistung" vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Konversionsraten. Ein zugeordnetes Segment ist ein Segment, das Sie erstellen und an ein Ziel für das Targeting senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht an ein Ziel für das Targeting gesendet haben. Beim Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten können Sie vorhandene Kampagnen optimieren und überflüssige Segmente suchen, die Sie möglicherweise an ein Ziel für Targeting senden möchten.
+description: Der Segmentleistungsbericht vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Konversionsraten. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Der Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten hilft Ihnen, vorhandene Kampagnen zu optimieren und übersehene Segmente zu finden, die Sie zum Targeting an ein Ziel senden möchten.
+seo-description: Der Segmentleistungsbericht vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Konversionsraten. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Der Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten hilft Ihnen, vorhandene Kampagnen zu optimieren und übersehene Segmente zu finden, die Sie zum Targeting an ein Ziel senden möchten.
 seo-title: Segmentleistungsbericht
 solution: Audience Manager
 title: Segmentleistungsbericht
-uuid: 5156 a 4 c 7-831 d -4 a 95-a 1 be-eb 516 f 0 d 91 b 7
+uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 translation-type: tm+mt
 source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 
 ---
 
 
-# Segment Performance Report{#segment-performance-report}
+# Segmentleistungsbericht{#segment-performance-report}
 
-The [!UICONTROL Segment Performance] report compares mapped and unmapped segments by impressions and conversion rates. Ein zugeordnetes Segment ist ein Segment, das Sie erstellen und an ein Ziel für das Targeting senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht an ein Ziel für das Targeting gesendet haben. Beim Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten können Sie vorhandene Kampagnen optimieren und überflüssige Segmente suchen, die Sie möglicherweise an ein Ziel für Targeting senden möchten.
+Der [!UICONTROL Segment Performance] Bericht vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Konversionsraten. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Der Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten hilft Ihnen, vorhandene Kampagnen zu optimieren und übersehene Segmente zu finden, die Sie zum Targeting an ein Ziel senden möchten.
 
-## How to Read Your Mapped Segment Results {#read-mapped-segment-results}
+## So lesen Sie die zugeordneten Segmentergebnisse {#read-mapped-segment-results}
 
-The mapped [!UICONTROL Segment Performance] report displays all the segments you created and sent to a destination for targeting.The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments.
+Der zugeordnete [!UICONTROL Segment Performance] Bericht zeigt alle Segmente an, die Sie erstellt haben und an ein Targeting-Ziel gesendet haben. Die Position der zugeordneten Segmente in einem Bericht kann Ihnen eine Menge darüber vermitteln, welche Segmente sich gut entwickeln und wo Sie möglicherweise einige Anpassungen vornehmen müssen.
 
-Um den Bericht zu lesen, können Sie die Ergebnisse in 4 Abschnitte mit imaginären Zeilen (Rot) und die im Beispielbericht unten stehenden Kategorien unterteilen.
+Zum Lesen des Berichts hilft er dabei, die Ergebnisse in 4 Abschnitte mit imaginären Zeilen (in rot) und den im Beispielbericht unten aufgeführten Kategorien zu unterteilen.
 
 ![](assets/mapped-segment-performance.png)
 
-Die Beschriftungen im Beispiel und die folgende Tabelle können Ihnen dabei helfen, die Segmentleistung zu verstehen und auf diese Ergebnisse zu reagieren.
+Die Beschriftungen im Beispiel und in der folgenden Tabelle können Ihnen helfen, die Segmentleistung und die Reaktion auf diese Ergebnisse zu verstehen.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Position </th> 
-   <th colname="col2" class="entry"> Platzierung zeigt an </th> 
+   <th colname="col2" class="entry"> Platzierungsangaben </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Oben links</b> </p> </td> 
-   <td colname="col2"> <p>Gute Konversionsraten. </p> <p>Sie können mehr Konversionen erhalten, indem Sie die Impressionen erhöhen. </p> </td> 
+   <td colname="col2"> <p>Gute Konversionsraten. </p> <p>Möglicherweise erhalten Sie mehr Konversionen, indem Sie die Impressionen erhöhen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unten links</b> </p> </td> 
-   <td colname="col2"> <p>Niedrige Konversionsraten. </p> <p>Möglicherweise möchten Sie das Targeting dieser Segmente vermeiden. Segmente in diesem Abschnitt machen großartige Kandidaten für den Vergleich mit denen in den nicht zugeordneten Segmentergebnissen aus. Einige Ihrer nicht zugeordneten Segmente können besser funktionieren als die Segmente, die Sie bereits ansprechen. </p> </td> 
+   <td colname="col2"> <p>Niedrige Konversionsraten. </p> <p>Möglicherweise sollten Sie das Targeting dieser Segmente vermeiden. Segmente in diesem Abschnitt bieten gute Kandidaten für einen Vergleich mit denen in den nicht zugeordneten Segmentergebnissen. Einige Ihrer nicht zugeordneten Segmente können leistungsfähiger sein als die Segmente, für die Sie bereits Targeting durchführen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Oben rechts</b> </p> </td> 
-   <td colname="col2"> <p>Leistungsstarke Leistung. Lassen Sie diese Segmente allein. </p> </td> 
+   <td colname="col2"> <p>Starke Leistung. Lassen Sie diese Segmente allein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unten rechts</b> </p> </td> 
-   <td colname="col2"> <p>Niedrige Konversionsraten und hohe Impressionen. </p> <p>Segmente in diesem Abschnitt funktionieren nicht gut. Möglicherweise möchten Sie das Budget aus diesen Segmenten und in Segmente im oberen linken Quadrant des Berichts verschieben. Dadurch werden die Impressionen reduziert und möglicherweise die Konversionsraten für Segmente in diesem unteren rechten Abschnitt verbessert. Vergleichen Sie diese zugeordneten Segmente auch mit Ihren nicht zugeordneten Segmenten. Einige Ihrer nicht zugeordneten Segmente können besser funktionieren als die Segmente, die Sie bereits ansprechen. </p> </td> 
+   <td colname="col2"> <p>Niedrige Konversionsraten und hohe Impressionen. </p> <p>Segmente in diesem Abschnitt funktionieren nicht gut. Möglicherweise möchten Sie das Budget von diesen Segmenten in Segmente im oberen linken Quadranten des Berichts verschieben. Dies wird dazu beitragen, die Impressionen zu reduzieren, und kann dazu beitragen, die Konversionsraten für Segmente in diesem Abschnitt unten rechts zu verbessern. Vergleichen Sie diese zugeordneten Segmente auch mit Ihren nicht zugeordneten Segmenten. Einige Ihrer nicht zugeordneten Segmente können leistungsfähiger sein als die Segmente, für die Sie bereits Targeting durchführen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## How to Read Your Unmapped Segment Results {#read-unmapped-segment-results}
+## Lesen der nicht zugeordneten Segmentergebnisse {#read-unmapped-segment-results}
 
-Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. Einige dieser Segmente überschreiten möglicherweise Ihre zugeordneten Segmente. Dies liegt daran, dass ein nicht zugeordnetes Segment einen Satz von Qualifizierungskriterien erfüllen muss, die in diesen Bericht aufgenommen werden sollen. Ein nicht zugeordnetes Segment muss in diesen Bericht aufgenommen werden:
+Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance] Bericht ansehen, können Sie auf diese Weise neue Segmente finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen. Dies liegt daran, dass ein nicht zugeordnete Segment eine Reihe von Qualifikationskriterien erfüllen muss, die in diesen Bericht aufgenommen werden müssen. Um in diesen Bericht aufgenommen zu werden, muss ein nicht zugeordnete Segment:
 
-* Weisen Sie Konversionen größer als der Durchschnitt aller zugeordneten Segmente zu.
-* In den 100 wichtigsten Segmenten nach Konversionsrate.
+* Übernehmen Sie Konversionen, die den Durchschnitt aller zugeordneten Segmente überschreiten.
+* Befinden Sie sich nach Konversionsrate in den 100 unzugeordneten Segmenten.
 
-Um diesen Bericht zu lesen, können Sie die Ergebnisse in 4 Abschnitte mit imaginären Zeilen (Rot) und Kategorien, die im Beispielbericht unten aufgeführt sind, unterteilen.
+Zum Lesen dieses Berichts hilft es, die Ergebnisse in 4 Abschnitte mit imaginären Zeilen (in rot) und Kategorien zu unterteilen, die im folgenden Beispielbericht angezeigt werden.
 
 ![](assets/unmapped-segment-performance.png)
 
-In diesem Bericht möchten Sie sich nur auf diese nicht zugeordneten Segmente im linken oberen Bereich konzentrieren. Diese nicht zugeordneten Segmente stellen hohe Konversionsraten für eine niedrige Ebene von Impressionen im Vergleich zu Segmenten in den anderen drei Abschnitten bereit.
+In diesem Bericht möchten Sie sich nur auf die nicht zugeordneten Segmente im oberen linken Abschnitt konzentrieren. Diese nicht zugeordneten Segmente weisen im Vergleich zu Segmenten in den anderen drei Abschnitten hohe Konversionsraten für eine niedrige Impressionsstufe auf.
 
 >[!NOTE]
 >
->7-day and 30-day look-back periods are only available for Sunday **[!UICONTROL Date Through]** dates.
+>7- und 30-Tage-Lookback-Zeiträume sind nur für Sonntagsdaten **[!UICONTROL Date Through]** verfügbar.
