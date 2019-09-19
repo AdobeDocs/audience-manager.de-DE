@@ -1,18 +1,18 @@
 ---
-description: Sie können Ihre eigenen Eigenschaftenregeln mit dem Code-Editor von Eigenschaften erstellen. Suchen Sie den Code-Editor in Eigenschaften > Neu hinzufügen > Regelbasiert > Eigenschaften-Ausdruck und wechseln Sie zur Codeansicht. Audience Manager unterstützt alle verfügbaren Konstrukte regulärer Ausdrücke, auf die im Muster für reguläre Ausdrücke von Java verwiesen wird. Sie können reguläre Ausdrücke direkt im Expression Builder überprüfen.
-seo-description: Sie können Ihre eigenen Eigenschaftenregeln mit dem Code-Editor von Eigenschaften erstellen. Suchen Sie den Code-Editor in Eigenschaften > Neu hinzufügen > Regelbasiert > Eigenschaften-Ausdruck und wechseln Sie zur Codeansicht. Audience Manager unterstützt alle verfügbaren Konstrukte regulärer Ausdrücke, auf die im Muster für reguläre Ausdrücke von Java verwiesen wird. Sie können reguläre Ausdrücke direkt im Expression Builder überprüfen.
-seo-title: Verwenden von regulären Ausdrücken im Eigenschaftenaufbau
+description: Mit dem Code-Editor von Eigenschaften Builder können Sie eigene Eigenschaftsregeln erstellen. Suchen Sie den Code-Editor unter Eigenschaften > Neu hinzufügen > Regelbasiert > Eigenschaftsausdruck und wechseln Sie zur Codeansicht. Audience Manager unterstützt alle verfügbaren Konstrukte für reguläre Ausdrücke, auf die im Java-Klassenmuster für reguläre Ausdrücke verwiesen wird. Sie können alle regulären Ausdrücke direkt im Ausdrucksaufbau überprüfen.
+seo-description: Mit dem Code-Editor von Eigenschaften Builder können Sie eigene Eigenschaftsregeln erstellen. Suchen Sie den Code-Editor unter Eigenschaften > Neu hinzufügen > Regelbasiert > Eigenschaftsausdruck und wechseln Sie zur Codeansicht. Audience Manager unterstützt alle verfügbaren Konstrukte für reguläre Ausdrücke, auf die im Java-Klassenmuster für reguläre Ausdrücke verwiesen wird. Sie können alle regulären Ausdrücke direkt im Ausdrucksaufbau überprüfen.
+seo-title: Verwenden von regulären Ausdrücken im Eigenschaften-Aufbau
 solution: Audience Manager
-title: Verwenden von regulären Ausdrücken im Eigenschaftenaufbau
-uuid: c 263 dc 26-a 920-48 b 8-b 76 a -6 d 82 e 7836196
+title: Verwenden von regulären Ausdrücken im Eigenschaften-Aufbau
+uuid: c263dc26-a920-48b8-b76a-6d82e7836196
 translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
 
 
-# Using Regular Expressions in Trait Builder {#using-regular-expressions-in-trait-builder}
+# Verwenden von regulären Ausdrücken im Eigenschaften-Aufbau {#using-regular-expressions-in-trait-builder}
 
-You can create your own trait rules with the [!UICONTROL Trait Builder] code editor. Find the code editor in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] and switch to [!UICONTROL Code View]. Audience Manager supports all the available regular expression constructs referenced in the [!DNL Java Regular Expression Class Pattern]. You can validate any of the regular expressions directly in the [!DNL Expression Builder].
+Sie können eigene Eigenschaftsregeln mit dem [!UICONTROL Trait Builder] Code-Editor erstellen. Suchen Sie den Code-Editor in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] und wechseln Sie zu [!UICONTROL Code View]. Audience Manager unterstützt alle verfügbaren Konstrukte für reguläre Ausdrücke, auf die im [!DNL Java Regular Expression Class Pattern]Bericht verwiesen wird. Sie können alle regulären Ausdrücke direkt im [!DNL Expression Builder]Abschnitt überprüfen.
 
-See also, [Java Regular Expression Class Patterns](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Siehe auch [Java Reguläre Ausdrucksklassenmuster](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
