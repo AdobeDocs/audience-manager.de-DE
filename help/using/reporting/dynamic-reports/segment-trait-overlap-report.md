@@ -1,10 +1,10 @@
 ---
-description: Gibt Daten zur Anzahl der eindeutigen Benutzer zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
-seo-description: Gibt Daten zur Anzahl der eindeutigen Benutzer zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
+description: Gibt Daten zur Anzahl der Unique Users zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
+seo-description: Gibt Daten zur Anzahl der Unique Users zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
 seo-title: Überschneidungsbericht zwischen Segmenten und Eigenschaften
 solution: Audience Manager
 title: Überschneidungsbericht zwischen Segmenten und Eigenschaften
-uuid: a 6 b 3 dd 21-332 e -449 f-aa 1-2 beb 47 f 1794 e
+uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
 source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
@@ -13,11 +13,11 @@ source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 # Überschneidungsbericht zwischen Segmenten und Eigenschaften{#segment-to-trait-overlap-report}
 
-Gibt Daten zur Anzahl der eindeutigen Benutzer zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
+Gibt Daten zur Anzahl der Unique Users zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
 
 >[!NOTE]
 >
->Die Überlappungsberichte in Audience Manager berücksichtigen RBAC-Prinzipien. You can only see segments and traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Die Überschneidungsberichte in Audience Manager folgen den RBAC-Grundsätzen. Sie können nur Segmente und Eigenschaften aus Datenquellen anzeigen, auf die Sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) , der Sie angehören.
 
 <!-- 
 
@@ -27,11 +27,11 @@ c_segment_trait_overlap.xml
 
 ## Überblick
 
-As an optimization tool, the [!UICONTROL Segment to Trait Overlap] reports helps you build highly focused segments or expand segment reach. Sie können beispielsweise fokussierte Segmente und Eigenschaften mit hoher Überlappung erstellen, um eine bestimmte Zielgruppe zu erreichen. Viele Überlappungen bedeuten jedoch möglicherweise weniger individuelle Benutzer (weniger Reichweite). Ausführen des Berichts zur Erweiterung der Reichweite durch Entfernen von Eigenschaften mit vielen Segmenten überlappen und durch Eigenschaften ersetzen, die weniger Überlappung aufweisen.
+Als Optimierungstool unterstützen Sie die [!UICONTROL Segment to Trait Overlap] Berichte bei der Erstellung hochgradig fokussierter Segmente oder der Erweiterung der Segmentreichweite. Sie können beispielsweise fokussierte Segmente und Eigenschaften mit hoher Überschneidung erstellen, um eine bestimmte Zielgruppe zu erreichen. Eine große Überschneidung kann jedoch weniger Unique Users bedeuten (weniger Reichweite). Ausführen dieses Berichts, um die Reichweite zu vergrößern, indem Eigenschaften mit einer großen Segmentüberschneidung entfernt und durch Eigenschaften ersetzt werden, die weniger überlappen.
 
 ### Beispielbericht
 
-The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Trait Overlap] report.
+Die folgende Abbildung zeigt einen Überblick über den [!UICONTROL Segment-to-Trait Overlap] Bericht auf hoher Ebene.
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -39,7 +39,7 @@ The following illustration provides a high-level overview of the [!UICONTROL Seg
 
 Wählen Sie einen einzelnen Punkt aus, um die Datendetails in einem Popup-Fenster anzuzeigen. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
 
-## Comparing Segments to Traits {#comparing-segments-to-traits}
+## Segmente mit Eigenschaften vergleichen {#comparing-segments-to-traits}
 
 Beschreibt, wie Sie Segmente und Eigenschaften vergleichen können, um aussagekräftige Informationen aus den Ergebnissen abzuleiten.
 
@@ -49,22 +49,22 @@ c_compare_s2t.xml
 
  -->
 
-### Vergleich von Eigenschaften und Segmentindividuellen Segmenten: Ein Beispiel
+### Vergleich von Eigenschaften- und Segmentindividualitäten: Beispiel
 
-Auf den ersten Blick scheint es unlogisch, Segmente mit Eigenschaften zu vergleichen und zu versuchen, Schlüsse aus den Ergebnissen zu ziehen. Nach allen sind Segmente und Eigenschaften unterschiedlich. Wie können aus unterschiedlichen Elementen abgeleitete Daten also wirklich Bedeutung haben? In diesem Fall vergleichen wir jedoch keine Eigenschaften und Segmente, sondern die Anzahl der individuellen Besucher, die zwischen ihnen gezählt werden. Die Anzahl der geteilten Unique Visitor bietet den gemeinsamen Wert, der ein Segment zum Vergleich von Eigenschaften macht.
+Auf den ersten Blick mag es unlogisch erscheinen, Segmente mit Eigenschaften zu vergleichen und zu versuchen, Schlussfolgerungen aus den Ergebnissen zu ziehen. Schließlich sind Segmente und Eigenschaften unterschiedlich. Wie können also aus unterschiedlichen Elementen abgeleitete Daten eine Bedeutung haben? In diesem Fall vergleichen wir jedoch nicht Eigenschaften und Segmente, sondern die Anzahl der Unique Visitors, die zwischen ihnen geteilt werden. Die Anzahl freigegebener individueller Besucher stellt den gemeinsamen Wert bereit, der einen Vergleich der Eigenschaften eines Segments ermöglicht.
 
-Das folgende Diagramm zeigt die Beziehung zwischen einer Eigenschaft und dem Segment, zu dem sie gehört. In diesem Fall haben wir eine Eigenschaft mit 10 Besuchern und ein Segment mit 1.000 Besuchern. Sie teilen 3 Unique Visitors gemeinsam.
+Das folgende Diagramm zeigt die Beziehung zwischen einer Eigenschaft und dem Segment, zu dem sie gehört. In diesem Fall haben wir eine Eigenschaft mit 10 Besuchern und ein Segment mit 1.000 Besuchern. Sie teilen 3 individuelle Besucher gemeinsam.
 
 ![](assets/s2t.png)
 
-Die Unique Visitor-Anzahl ist der allgemeine, konstante Wert, der zwischen diesen verschiedenen Objektklassen freigegeben wird. Daher können Sie die Unique Visitor-Beziehung wie folgt bestimmen:
+Die Unique Visitor-Anzahl ist der gemeinsame, konstante Wert, der zwischen diesen verschiedenen Objektklassen geteilt wird. Daher können Sie die individuelle Besucherbeziehung zwischen ihnen wie folgt ermitteln:
 
-* Die Eigenschaft hat 30% der individuellen Besucher mit dem Segment (3/10 = 0,30).
-* Das Segment teilt 0,3% seiner individuellen Besucher mit der Eigenschaft (3/1.000 = 0.003).
+* Die Eigenschaft teilt 30 % ihrer Unique Visitors mit dem Segment (3/10 = 0,30).
+* Das Segment teilt 0,3 % seiner Unique Visitors mit der Eigenschaft (3/1.000 = 0.003)
 
-### Wert in Segment zu Eigenschaftsvergleichen suchen
+### Wert im Segment als Eigenschaftsvergleich suchen
 
-Die Betrachtung der Überlappung zwischen Eigenschaften und Segmenten kann Ihnen dabei helfen, den gesamten verfügbaren Besucherpool (Prognosen) zu schätzen oder ineffiziente Segmente mit zu viel Überlappung zu finden.
+Wenn Sie sich die Überschneidung zwischen Eigenschaften und Segmenten ansehen, können Sie den gesamten verfügbaren Besucherpool (Prognose) abschätzen oder ineffiziente Segmente mit zu großer Überschneidung finden.
 
 <table id="table_5B211EF95216426299EB20253A5A9C1B"> 
  <thead> 
@@ -76,18 +76,18 @@ Die Betrachtung der Überlappung zwischen Eigenschaften und Segmenten kann Ihnen
  <tbody> 
   <tr> 
    <td colname="col1"><b>Prognosen</b> </td> 
-   <td colname="col2"> <p>Um den verfügbaren Besucherpool zu ermitteln, summieren Sie den Unterschied zwischen der Gesamtsumme (weniger Überlappung) und der Segmentsumme (weniger Überlappung). </p> <p>Diese Kombination aus Segmenten kann bis zu 1004 neue Benutzer erreichen. </p> </td> 
+   <td colname="col2"> <p>Um den verfügbaren Besucherpool zu ermitteln, summieren Sie die Differenz zwischen der Eigenschaftensumme (weniger Überschneidung) und der Segmentsumme (weniger Überschneidung). </p> <p>Diese Kombination aus Segmenteigenschaften könnte bis zu 1004 neue Benutzer erreichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Ineffiziente Segmente suchen</b> </td> 
-   <td colname="col2"> <p>If a trait is part of an <span class="wintitle"> AND</span> group in a segment definition, the unique visitors who have that trait are already in the segment and not available for adding to the segment. Sie können diesen Bericht verwenden, um relevante Eigenschaften mit geringer Überlappung zu finden und diese zur Segmentdefinition hinzuzufügen, wodurch die Reichweite des Zielgruppenpools erhöht wird. </p> </td> 
+   <td colname="col2"> <p>Wenn eine Eigenschaft Teil einer <span class="wintitle"> UND</span> -Gruppe in einer Segmentdefinition ist, befinden sich die Unique Visitors mit dieser Eigenschaft bereits im Segment und können dem Segment nicht hinzugefügt werden. Sie können diesen Bericht verwenden, um relevante Eigenschaften mit geringer Überschneidung zu finden und sie der Segmentdefinition hinzuzufügen, wodurch die Reichweite des Segmentzielgruppenpools erhöht wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Understanding the Data Filters in the Segment-to-Trait Overlap Report {#data-filters-s2t-report}
+## Die Datenfilter im Bericht "Segment-zu-Eigenschaften-Überschneidung" {#data-filters-s2t-report}
 
-Beschreibt, wie die Eigenschaftenüberlappung und das eindeutige Segment % regler funktionieren.
+Beschreibt, wie die eindeutigen Überschneidungsregler für Eigenschaften und Segmente funktionieren.
 
 <!-- 
 
@@ -95,23 +95,23 @@ r_s2t_sliders.xml
 
  -->
 
-The [!UICONTROL Segment-to-Trait overlap] report lets you use two sliders to filter data by the overlap % by trait or segment.
+Mit dem [!UICONTROL Segment-to-Trait overlap] Bericht können Sie zwei Schieberegler verwenden, um Daten nach der Überschneidung % nach Eigenschaften oder Segment zu filtern.
 
-* **[!UICONTROL Filter Trait Uniques %:]** Filtert Daten nach den % der Unique Visitors, die zwischen der Eigenschaft und dem Segment freigegeben wurden.
-* **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtert Daten nach Prozentsatz der individuellen Besucher zwischen dem Segment und der Eigenschaft.
+* **[!UICONTROL Filter Trait Uniques %:]** Filtert Daten nach dem Prozentsatz der Unique Visitors, die zwischen der Eigenschaft und dem Segment freigegeben wurden.
+* **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtert Daten nach dem Prozentsatz der Unique Visitors, die zwischen dem Segment und der Eigenschaft gemeinsam verwendet werden.
 
 ### Beispiel 
 
-Das folgende Diagramm zeigt den Unterschied zwischen dem Eigenschaftenmerkmal % und dem Segment %. In diesem Fall geben die Eigenschaft und das Segment 3 Unique Visitors frei. Als Proportionen:
+Die folgende Abbildung zeigt die Differenz zwischen den individuellen Eigenschaften % und dem Segment %. In diesem Fall weisen Eigenschaften und Segmente 3 individuelle Besucher auf. Proportionen:
 
-* Die Eigenschaft hat 30% der individuellen Besucher mit dem Segment (3/10 = 0,30).
-* Das Segment teilt 0,3% seiner individuellen Besucher mit der Eigenschaft (3/1.000 = 0.003).
+* Die Eigenschaft teilt 30 % ihrer Unique Visitors mit dem Segment (3/10 = 0,30).
+* Das Segment teilt 0,3 % seiner Unique Visitors mit der Eigenschaft (3/1.000 = 0.003)
 
 ![](assets/s2t.png)
 
-## Segment-to-Trait Data Pop Fields Defined {#fields-defined}
+## Zu Eigenart definierte Felder für Daten-Popupfelder {#fields-defined}
 
-Beschreibt die im Popup-Fenster angezeigten Metriken, wenn Sie auf einen einzelnen Datenpunkt klicken.
+Beschreibt die Metriken, die beim Klicken auf einen einzelnen Datenpunkt im Popup-Fenster angezeigt werden.
 
 <!-- 
 
@@ -119,7 +119,7 @@ r_s2t_data_pop.xml
 
  -->
 
-The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
+Das Popup für den [!UICONTROL Segment-to-Trait Overlap] Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik "Individuelle Werte"in der Tabelle Ihre *Echtzeit-Benutzer* darstellt.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
@@ -134,15 +134,15 @@ The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metr
    <td colname="col2"> Eindeutige numerische ID für das Segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Datenanbieter-Name</span></b> </td> 
-   <td colname="col2"> Name des Segmentinhabers. </td> 
+   <td colname="col1"><b><span class="wintitle"> Name des Datenanbieters</span></b> </td> 
+   <td colname="col2"> Name des Segmenteigentümers. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Datenprovider-Typ</span></b> </td> 
-   <td colname="col2">Definiert den Typ des Anbieters, zu dem ein Merkmal gehört. Kann entweder: 
+   <td colname="col1"><b><span class="wintitle"> Datenanbietertyp</span></b> </td> 
+   <td colname="col2">Definiert den Provider-Typ, zu dem eine Eigenschaft gehört. Kann entweder: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Erstanbieter (eigene Eigenschaft). </li> 
-     <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Drittanbieter (von einem externen Partner/Anbieter). </li> 
+     <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Drittanbieter (von einem externen Datenpartner/Anbieter). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -154,33 +154,33 @@ The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metr
    <td colname="col2"> Name des Segments. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait Uniques Overlap %</span></b> </td> 
-   <td colname="col2"> % der individuellen Besucher, die mit dem Segment geteilt werden. </td> 
+   <td colname="col1"><b><span class="wintitle"> Eigenschaftsüberschneidung %</span></b> </td> 
+   <td colname="col2"> % der Unique Visitors, die eine Eigenschaft mit dem Segment teilen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Segmentübergreifende Überlappung %</span></b> </td> 
-   <td colname="col2"> % der individuellen Besucher, die ein Segment mit einer Eigenschaft teilen. </td> 
+   <td colname="col1"><b><span class="wintitle"> Segmentspezifische Überschneidung %</span></b> </td> 
+   <td colname="col2"> % der Unique Visitors teilen ein Segment mit einer Eigenschaft. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Überlappende Uniques</span></b> </td> 
-   <td colname="col2"> Anzahl der Unique Visitors, die zwischen dem Segment und der Eigenschaft freigegeben wurden. </td> 
+   <td colname="col1"><b><span class="wintitle"> Individuelle Überschneidungen</span></b> </td> 
+   <td colname="col2"> Anzahl der Unique Visitors, die für das Segment und die Eigenschaft freigegeben wurden. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Segmentaufbau</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Segmentspezifische</span></b> </td> 
    <td colname="col2"> Anzahl der individuellen Besucher im Segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait Uniques</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Eigenschaften</span></b> </td> 
    <td colname="col2"> Anzahl der individuellen Besucher in der Eigenschaft. </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Berichtsergebnisse mit den Datenreglern filtern](../../reporting/dynamic-reports/data-sliders.md)
+>* [Filtern von Berichtsergebnissen mit den Datenreglern](../../reporting/dynamic-reports/data-sliders.md)
 >* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Erklärung der Berichtsymbole und Tools](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Überlappungsberichte: Zeitplan und Mindestgröße des Segments aktualisieren](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben und Fehlersätze in ausgewählten Audience Manager-Berichten…](../../reporting/report-sampling.md)
->* [CSV-Dateien für Überlappungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Berichtssymbole und -werkzeuge erläutert](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Überschneidungsberichte: Zeitplan und Mindestsegmentgröße aktualisieren](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Datenstichproben und Fehlerquoten in ausgewählten Audience Manager-Berichten...](../../reporting/report-sampling.md)
+>* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)
