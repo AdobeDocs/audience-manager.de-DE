@@ -1,44 +1,44 @@
 ---
-description: Empfehlungen und Anwendungsfälle für Segmentretargeting und personalisierte Segmentqualifizierung mit dem Profillink-Gerätediagramm.
-seo-description: Empfehlungen und Anwendungsfälle für Segmentretargeting und personalisierte Segmentqualifizierung mit dem Profillink-Gerätediagramm.
-seo-title: Anwendungsbeispiele für Gerätediagramm-Diagramm
+description: Empfehlungen und Anwendungsfälle für Segment-Remotings und personalisierte Segmentqualifizierung mit dem Profillink-Gerätediagramm.
+seo-description: Empfehlungen und Anwendungsfälle für Segment-Remotings und personalisierte Segmentqualifizierung mit dem Profillink-Gerätediagramm.
+seo-title: Anwendungsfälle des Profillink-Gerätediagramms
 solution: Audience Manager
-title: Anwendungsbeispiele für Gerätediagramm-Diagramm
-uuid: bd 5567 fd-fcd 5-40 ba-b 6 f 1-035 d 2 ddbcd 3 a
+title: Anwendungsfälle des Profillink-Gerätediagramms
+uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Profile Link Device Graph Use Cases {#profile-link-device-graph-use-cases}
+# Anwendungsfälle des Profillink-Gerätediagramms {#profile-link-device-graph-use-cases}
 
-Recommendations and use cases for segment retargeting and personalized segment qualification with the [!UICONTROL Profile Link] device graph.
+Empfehlungen und Anwendungsfälle für Segment-Retargeting und personalisierte Segmentqualifizierung mit dem [!UICONTROL Profile Link] Gerätediagramm.
 
 ## Recommendations {#recommendations}
 
-Consider the [!UICONTROL Profile Link] device graph for campaigns that:
+Betrachten Sie das [!UICONTROL Profile Link] Gerätediagramm für Kampagnen, die:
 
-* Sie haben eine hohe Authentifizierung über ihre digitalen Eigenschaften. Use an [external device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a small amount of authenticated users.
-* Erfordert präzise Targeting bekannter Zielgruppen. The [!UICONTROL Profile Link device graph] is built using first-party, authenticated data.
-* Target bekannter Zielgruppen in Echtzeit und nicht authentifizierte Status.
+* Sie haben eine hochwertige Authentifizierung über ihre digitalen Eigenschaften hinweg. Verwenden Sie eine [externe Gerätediagrammoption](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) , wenn Sie nur über eine geringe Anzahl authentifizierter Benutzer verfügen.
+* Genaues Targeting bekannter Zielgruppen erforderlich. Die [!UICONTROL Profile Link device graph] Daten werden mit authentifizierten Erstanbieterdaten erstellt.
+* Targeting bekannter Zielgruppen über ihren authentifizierten und nicht authentifizierten Status in Echtzeit.
 
 ![](assets/merge-rule-triangle2.png)
 
-## Retargeting Use Case and Profile Merge Rule Configuration {#retargeting-use-cases}
+## Konfiguration der Anwendungsfall- und Profilzusammenführungsregel wiederholen {#retargeting-use-cases}
 
-Target-Zielgruppen, die zuvor auf mehreren Geräten für die Site und/oder In-App authentifiziert wurden. Segmente können aus folgenden Profilen bestehen:
+Retargeting von Zielgruppen, die sich zuvor auf mehreren Geräten authentifiziert haben, und/oder in der App. Segmente können aus folgenden Profilen bestehen:
 
 * Zuletzt bekanntes authentifiziertes Geräteprofil.
-* Anonyme Aktivität über jedes Geräteprofil hinweg.
+* Anonyme Aktivität für jedes Geräteprofil.
 
 >[!NOTE]
 >
->Eigenschaftsinformationen aus einem Profiltyp können zum Erstellen des Segments verwendet werden.
+>Eigenschafteninformationen aus beiden Profiltypen können zum Erstellen des Segments verwendet werden.
 
-### Retargeting-Beispiel
+### Beispiel für Retargeting
 
-Sehen wir uns an, wie dies mit einem Beispielkreditkartenunternehmen funktioniert. Dieses Beispiel verwendet Eigenschaftsinformationen, die aus der anonymen Aktivität erfasst wurden, die nur über 3 Geräteprofile hinweg erfasst wurde.
+Schauen wir uns einmal an, wie das bei einem Beispiel-Kreditkartenunternehmen funktioniert. In diesem Beispiel werden Eigenschaftsinformationen verwendet, die aus anonymer Aktivität gesammelt wurden und nur bei 3 Geräteprofilen angezeigt werden.
 
 <table id="table_8C5ABA47A0634EBA9B1AA1B5C2AABF07"> 
  <thead> 
@@ -50,50 +50,50 @@ Sehen wir uns an, wie dies mit einem Beispielkreditkartenunternehmen funktionier
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Bedingungen</b> </p> </td> 
-   <td colname="col2"> <p>In diesem Fall werden folgende Bedingungen angenommen: </p> <p> 
+   <td colname="col2"> <p>Dieser Anwendungsfall geht von folgenden Bedingungen aus: </p> <p> 
      <ul id="ul_72373D0F304044AE84E4CC055E3E8154"> 
-      <li id="li_375DA786ED4D4F18A74C8FE42ABF8448">Ein Benutzer hat drei Geräte und ist die letzte Authentifizierung auf der Kreditkartenfirmenwebsite/App auf allen 3 Geräten. </li> 
-      <li id="li_77FDBFAED21B4DE19AB2B6C112E0C64B">Auf dem ersten Gerät sieht ein Benutzer in einem nicht authentifizierten Zustand ein Angebot für eine Premium-Kreditkarte. </li> 
-      <li id="li_D3BE1B30BCCA49EA931AA9D97DD5F86D">Auf dem zweiten Gerät sieht ein Benutzer in einem nicht authentifizierten Zustand die Seite der Kreditkartenzahlungen. </li> 
-      <li id="li_39D894624FC44806B6DB2C77F459B39E">Auf dem dritten Gerät sieht ein Benutzer in einem nicht authentifizierten Zustand die Seite mit den Kreditkartengebühren und -raten. </li> 
+      <li id="li_375DA786ED4D4F18A74C8FE42ABF8448">Ein Benutzer verfügt über 3 Geräte und war die letzte Person, die sich auf allen 3 Geräten auf der Kreditkartenfirma-Site/der Kreditkartenanwendung authentifiziert hat. </li> 
+      <li id="li_77FDBFAED21B4DE19AB2B6C112E0C64B">Auf dem ersten Gerät zeigt ein Benutzer in einem nicht authentifizierten Status ein Angebot für eine Premium-Kreditkarte an. </li> 
+      <li id="li_D3BE1B30BCCA49EA931AA9D97DD5F86D">Auf dem zweiten Gerät zeigt ein Benutzer in einem nicht authentifizierten Status die Vorteilsseite der Premium-Kreditkarte an. </li> 
+      <li id="li_39D894624FC44806B6DB2C77F459B39E">Auf dem dritten Gerät zeigt ein Benutzer in einem nicht authentifizierten Status die Seite mit den Gebühren und Gebühren für die Kreditkarte an. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ergebnisse</b> </p> </td> 
-   <td colname="col2"> <p>Given these conditions, <span class="keyword"> Audience Manager</span>: </p> <p> 
+   <td colname="col2"> <p>Unter diesen Bedingungen <span class="keyword"> kann Audience Manager</span>: </p> <p> 
      <ul id="ul_1B6174F5C3AF4C32831D4217C5113789"> 
-      <li id="li_98FE54696B604C3C8D93CC1C1FBB48D9">Führt die anonyme, nicht authentifizierte Aktivität zusammen, die von allen 3 Geräten mit dem zuletzt authentifizierten Profil auf dem aktuellen Gerät erfasst wurde. </li> 
-      <li id="li_A73C7DCE36BA42B6BAD26D8A075416C1">Wertet den anonymen Benutzer für Segmentqualifizierung basierend auf: 
+      <li id="li_98FE54696B604C3C8D93CC1C1FBB48D9">Führt die anonyme, nicht authentifizierte Aktivität zusammen, die von allen 3 Geräten mithilfe des letzten authentifizierten Profils auf dem aktuellen Gerät erfasst wurde. </li> 
+      <li id="li_A73C7DCE36BA42B6BAD26D8A075416C1">Wertet den anonymen Benutzer für die Segmentqualifizierung auf Grundlage von: 
        <ul id="ul_EF66EAFD12CA44F5ACCB66319606D937"> 
-        <li id="li_541762056ECF4BC1ABF1F5116B5FED6C">Eine Kombination aus anonymen Aktivitäten für alle 3 Geräte. </li> 
+        <li id="li_541762056ECF4BC1ABF1F5116B5FED6C">Eine Kombination aus anonymer Aktivität auf allen 3 Geräten. </li> 
         <li id="li_C386CB62E5234E10AFEDE900ADC0E261">Das letzte authentifizierte Profil auf dem aktuellen Gerät. </li> 
        </ul> </li> 
-      <li id="li_5C9BDC8FF886494589F005C9658A923C">Sendet das Segment an ein beliebiges Echtzeit-Ziel für das Retargeting auf allen 3 Geräten. </li>
+      <li id="li_5C9BDC8FF886494589F005C9658A923C">Sendet das Segment an ein beliebiges Echtzeit-Ziel zum Retargeting auf allen 3 Geräten. </li>
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Retargeting-Regelbeispiel für Profilzusammenführung
+### Beispiel für eine Retargeting Profile Merge Rule
 
-To set up retargeting with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
+Um ein Retargeting mit einzurichten, [!UICONTROL Profile Link]sollten Ihre [!UICONTROL Authenticated Options] und [!UICONTROL Device Options] die Regel wie folgt konfiguriert sein. Die [!UICONTROL Authenticated Profile] Optionen unterscheiden sich von diesem Beispiel, da diese Einstellungen die Namen Ihrer geräteübergreifenden Datenquellen verwenden.
 
-![Regeleinrichtung für Profilzusammenführung](assets/merge-rules-internal3.png)
+![Einrichten der Regel zum Profilzusammenführen](assets/merge-rules-internal3.png)
 
-## Personalization Use Case and Profile Merge Rule Configuration {#personalization-use-case}
+## Konfiguration der Anwendungsfall- und Profilzusammenführungsregel für Personalisierung {#personalization-use-case}
 
-Personalisieren Sie das Erlebnis für authentifizierte Zielgruppen auf der Site und/oder in-App basierend auf der Aktivität auf mehreren Geräten. Segmente können aus folgenden Profilen bestehen:
+Personalisieren Sie das Erlebnis für authentifizierte Zielgruppen auf der Site und/oder in der App basierend auf der Aktivität auf mehreren Geräten. Segmente können aus folgenden Profilen bestehen:
 
-* Derzeit authentifizierte Geräteprofile.
+* Aktuell authentifiziertes Geräteprofil.
 * Anonyme Geräteprofile.
 
 >[!NOTE]
 >
->Ein Benutzer muss sich in einem authentifizierten Status befinden, um sich für ein Segment qualifizieren zu können.
+>Ein Benutzer muss sich in einem authentifizierten Zustand befinden, um sich für ein Segment qualifizieren zu können.
 
 ### Personalisierungsbeispiel
 
-Sehen wir uns an, wie dies mit einem Beispielkreditkartenunternehmen funktioniert.
+Schauen wir uns einmal an, wie das bei einem Beispiel-Kreditkartenunternehmen funktioniert.
 
 <table id="table_D2F4D5D27EB54224BB2CC1D843DDEDA3"> 
  <thead> 
@@ -105,42 +105,42 @@ Sehen wir uns an, wie dies mit einem Beispielkreditkartenunternehmen funktionier
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Bedingungen</b> </p> </td> 
-   <td colname="col2"> <p>In unserem Verwendungsfall werden folgende Bedingungen angenommen: </p> <p> 
+   <td colname="col2"> <p>Unser Anwendungsfall geht von folgenden Bedingungen aus: </p> <p> 
      <ul id="ul_C4D2108E7B1C4D3C89411A9CCCDA6DAC"> 
-      <li id="li_2F10EB17466B4B91A94DF707C3CB6BE5">Ein Benutzer hat drei Geräte und ist die letzte Authentifizierung auf der Kreditkartenfirmenwebsite/App auf allen 3 Geräten. </li> 
-      <li id="li_1559C4DA51254BCF95291133F32A4057">Auf dem ersten Gerät sieht ein Benutzer in einem nicht authentifizierten Zustand ein Angebot für eine Premium-Kreditkarte. </li> 
-      <li id="li_734465E5619C474291C42921160CEC6B">Auf dem zweiten Gerät sieht ein Benutzer in einem nicht authentifizierten Zustand die Seite der Kreditkartenzahlungen. </li> 
-      <li id="li_B96ABC0205384B59A1901708505B8BF8">Auf dem dritten Gerät sieht ein Benutzer in einem nicht authentifizierten Zustand die Seite mit den Kreditkartengebühren und -raten. </li> 
-      <li id="li_1A7BDBD546BD4B8EACF4292D885127F2">Auf einem dieser Geräte authentifiziert sich der Kunde (durch Anmeldung), um seinen Saldo zu prüfen. </li> 
+      <li id="li_2F10EB17466B4B91A94DF707C3CB6BE5">Ein Benutzer verfügt über 3 Geräte und war die letzte Person, die sich auf allen 3 Geräten auf der Kreditkartenfirma-Site/der Kreditkartenanwendung authentifiziert hat. </li> 
+      <li id="li_1559C4DA51254BCF95291133F32A4057">Auf dem ersten Gerät zeigt ein Benutzer in einem nicht authentifizierten Status ein Angebot für eine Premium-Kreditkarte an. </li> 
+      <li id="li_734465E5619C474291C42921160CEC6B">Auf dem zweiten Gerät zeigt ein Benutzer in einem nicht authentifizierten Status die Vorteilsseite der Premium-Kreditkarte an. </li> 
+      <li id="li_B96ABC0205384B59A1901708505B8BF8">Auf dem dritten Gerät zeigt ein Benutzer in einem nicht authentifizierten Status die Seite mit den Gebühren und Gebühren für die Kreditkarte an. </li> 
+      <li id="li_1A7BDBD546BD4B8EACF4292D885127F2">Auf einem dieser Geräte authentifiziert sich der Kunde (durch Anmeldung), um seinen Kontostand zu überprüfen. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ergebnisse</b> </p> </td> 
-   <td colname="col2"> <p>Given these conditions, <span class="keyword"> Audience Manager</span>: </p> <p> 
+   <td colname="col2"> <p>Unter diesen Bedingungen <span class="keyword"> kann Audience Manager</span>: </p> <p> 
      <ul id="ul_37DBF5FEABC5463D85C74AD9150EA177"> 
-      <li id="li_B60FFA5CF3F64FB69997AA05595900D7">Führt die anonyme, nicht authentifizierte Aktivität zusammen, die von allen 3 Geräten mithilfe des aktuellen authentifizierten Profils erfasst wurde. Das authentifizierte Profil stellt für jedes Gerät eine allgemeine Kennung bereit. </li> 
-      <li id="li_AB9FD87DD804474BA33805C364B7B92D">Wertet den authentifizierten Benutzer für Segmentqualifizierung basierend auf: 
+      <li id="li_B60FFA5CF3F64FB69997AA05595900D7">Führt die anonyme, nicht authentifizierte Aktivität zusammen, die von allen 3 Geräten mithilfe des aktuellen authentifizierten Profils erfasst wurde. Das authentifizierte Profil bietet auf jedem Gerät eine gemeinsame ID. </li> 
+      <li id="li_AB9FD87DD804474BA33805C364B7B92D">Wertet den authentifizierten Benutzer für die Segmentqualifizierung auf Grundlage folgender Elemente aus: 
        <ul id="ul_EAF99E72159D4E329052B71344D9C69B"> 
-        <li id="li_0B5E52BA6D8B493980291EA7B0AE235A">Eine Kombination aus anonymen Aktivitäten für alle 3 Geräte. </li> 
+        <li id="li_0B5E52BA6D8B493980291EA7B0AE235A">Eine Kombination aus anonymer Aktivität auf allen 3 Geräten. </li> 
         <li id="li_07588DEFBEF64F97850CB12CD62D0213">Ihr aktuelles authentifiziertes Profil. </li> 
        </ul> </li> 
-      <li id="li_E7CFCEAD7610496189F4486000D7860A">Sendet das Segment an ein beliebiges Echtzeit-Ziel, um ein personalisiertes Browsing-Erlebnis für den Benutzer zu erstellen, während es auf seinem aktuellen Gerät authentifiziert wird. <p>Hinweis: Dies qualifiziert alle 3 Geräte für das Segment unabhängig vom Authentifizierungsstatus. Dieses Ergebnis kann zu Datenschutzbedenken führen, wenn es sich um freigegebene Geräte handelt. </p> </li>
+      <li id="li_E7CFCEAD7610496189F4486000D7860A">Sendet das Segment an ein beliebiges Echtzeit-Ziel, um eine personalisierte Browsererfahrung für den Benutzer zu erstellen, während die Authentifizierung auf dem aktuellen Gerät erfolgt. <p>Hinweis:  Dadurch sind alle 3 Geräte für das Segment qualifiziert, unabhängig vom Authentifizierungsstatus. Dies kann zu Datenschutzproblemen führen, wenn es sich um freigegebene Geräte handelt. </p> </li>
      </ul> </p> </td>
   </tr>
  </tbody> 
 </table>
 
-### Beispiel für eine Regel zur Personalisierung der Personalisierung
+### Beispiel für eine Regel zum Zusammenführen des Personalisierungsprofils
 
-To set up personalization with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
+Um die Personalisierung mit [!UICONTROL Profile Link]zu konfigurieren, sollten Sie [!UICONTROL Authenticated Options] und [!UICONTROL Device Options] wie folgt aussehen: Die [!UICONTROL Authenticated Profile] Optionen unterscheiden sich von diesem Beispiel, da diese Einstellungen die Namen Ihrer geräteübergreifenden Datenquellen verwenden.
 
 ![](assets/merge-rules-internal4.png)
 
-For more information about how these device graph processes work, download our PDF, [Audience Manager and External Device Graphs](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf).
+Weitere Informationen zur Funktionsweise dieser Gerätediagrammprozesse finden Sie im PDF-, [Audience Manager- und Externe Gerätediagramme](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf).
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Anwendungsbeispiele für Diagramme externer Geräte](../../features/profile-merge-rules/external-graph-use-cases.md)
 >* [Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung](../../features/profile-merge-rules/merge-rule-targeting-options.md)
->* [Häufig gestellte Fragen zur Profilzusammenführung](../../faq/faq-profile-merge.md)
+>* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](../../faq/faq-profile-merge.md)
 
