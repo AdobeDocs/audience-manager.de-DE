@@ -1,27 +1,27 @@
 ---
-description: Beginnen Sie hier, um Informationen zu /event aufrufen. Dieser Abschnitt enthält Informationen über die Syntaxsyntax, Parameter, Formatierung und ein Beispiel für eine Anforderung.
-seo-description: Beginnen Sie hier, um Informationen zu /event aufrufen. Dieser Abschnitt enthält Informationen über die Syntaxsyntax, Parameter, Formatierung und ein Beispiel für eine Anforderung.
-seo-title: Daten an den DCS senden
+description: Hier finden Sie Informationen zum Durchführen von /event-Aufrufen an den DCS. Dieser Abschnitt enthält Informationen zur Aufrufsyntax, zu Parametern, zur Formatierung und ein Anforderungsbeispiel.
+seo-description: Hier finden Sie Informationen zum Durchführen von /event-Aufrufen an den DCS. Dieser Abschnitt enthält Informationen zur Aufrufsyntax, zu Parametern, zur Formatierung und ein Anforderungsbeispiel.
+seo-title: Daten an das DCS senden
 solution: Audience Manager
-title: Daten an den DCS senden
-uuid: 024 e 307 d-bfcb -46 cf-ac 3 a-fc 71 df 0248 fe
+title: Daten an das DCS senden
+uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 translation-type: tm+mt
 source-git-commit: 9c692ae41a309b4f1d8323a501619c02d2aef6a0
 
 ---
 
 
-# Daten an den DCS senden {#send-data-to-the-dcs}
+# Daten an das DCS senden {#send-data-to-the-dcs}
 
-Beginnen Sie hier, um weitere Informationen zum Durchführen `/event` von Aufrufen an [!UICONTROL DCS]. Dieser Abschnitt enthält Informationen über die Syntaxsyntax, Parameter, Formatierung und ein Beispiel für eine Anforderung.
+Beginnen Sie hier für Informationen über die Durchführung von `/event` Anrufen an die [!UICONTROL DCS]. Dieser Abschnitt enthält Informationen zur Aufrufsyntax, zu Parametern, zur Formatierung und ein Anforderungsbeispiel.
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Ersetzen Sie einen echten Wert für den Platzhalter, wenn Sie Daten an diese [!UICONTROL DCS] Methode senden.
+>In the code and examples, *italics* represents a variable placeholder. Ersetzen Sie einen echten Wert für den Platzhalter, wenn Sie Daten mit dieser Methode an den [!UICONTROL DCS] Benutzer senden.
 
-## Syntax aufrufen {#dcs-call-syntax}
+## Aufrufsyntax {#dcs-call-syntax}
 
-Eine einfache `URL` Zeichenfolge, die Daten an die [!UICONTROL DCS] folgende Syntax sendet:
+Eine einfache `URL` Zeichenfolge, die Daten an die [!UICONTROL DCS] Gruppe sendet, verwendet die unten dargestellte Syntax.
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -29,7 +29,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!NOTE]
 >
->Sie können Daten mithilfe der [!UICONTROL DCS]`POST` Methode auch an den Benutzer senden. Die Aufrufsyntax wird in [den DCS-API-Methoden beschrieben](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md).
+>Sie können Daten auch [!UICONTROL DCS] mithilfe der `POST` Methode an die Gruppe senden. Die Aufrufsyntax wird unter [DCS API-Methoden](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)beschrieben.
 
 ## Aufrufparameter {#dcs-call-parameters}
 
@@ -44,11 +44,11 @@ Die folgende Tabelle definiert die grundlegenden Komponenten eines einfachen [!U
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> domain alias. demdex. net</code> </p> </td> 
+   <td colname="col1"> <p> <code> domain alias.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Dieser Teil des Aufrufs enthält: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Ihr Domänenalias, der von <span class="keyword"> Audience Manager zugewiesen wurde</span> (z. B. <code> my_ domain. demdex. net</code>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Die Zieldomäne, die immer <code> demdex. net</code>lautet. Siehe <a href="../../../reference/demdex-calls.md">Aufrufe an die Domäne „demdex.net“</a>. </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Ihr von <span class="keyword"> Audience Manager</span> zugewiesener Domänenalias (z. B. <code> my_domain.demdex.net</code>). </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Die Zieldomäne, die immer <code> demdex.net</code>lautet. Siehe <a href="../../../reference/demdex-calls.md">Aufrufe an die Domäne „demdex.net“</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -56,36 +56,36 @@ Die folgende Tabelle definiert die grundlegenden Komponenten eines einfachen [!U
    <td colname="col2"> <p>Dieser Teil des Aufrufs: </p> <p> 
      <ul id="ul_6332444A305A4F12A7CBE471CA508516"> 
       <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifiziert den Aufruf als Ereignisaufruf. </li> 
-      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Definiert den Start der URL-Zeichenfolge, die die Daten enthält, die Sie an das <span class="wintitle"> DCS senden möchten</span>. </li> 
+      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Definiert den Anfang der URL-Zeichenfolge, die die Daten enthält, die Sie an den <span class="wintitle"> DCS</span>senden möchten. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Schlüssel</code> </p> </td> 
-   <td colname="col2"> <p>Eine eindeutige Kennung im Schlüssel-Wert-Paar. </p> <p>Diese Schlüssel/Wert-Paare verwenden ein bestimmtes Präfix, um den Datentyp zu identifizieren, den Sie an das <span class="wintitle"> DCS senden</span>. For more information, see <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Supported Attributes for DCS API Calls</a>. </p> </td> 
+   <td colname="col1"> <p> <code> key</code> </p> </td> 
+   <td colname="col2"> <p>Ein eindeutiger Bezeichner im Schlüssel-Wert-Paar. </p> <p>Diese Schlüssel-Wert-Paare verwenden ein spezifisches Präfix, um den Datentyp zu identifizieren, den Sie an den <span class="wintitle"> DCS</span>senden. For more information, see <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Supported Attributes for DCS API Calls</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> val</code> </p> </td> 
-   <td colname="col2"> <p>Ein Variablenwert, der zu einem Satz gehört, der durch einen Schlüssel im Schlüssel-Wert-Paar definiert wird. </p> <p>Bei Verwendung von Werten: </p> <p> 
+   <td colname="col2"> <p>Ein Variablenwert, der zu einem durch einen Schlüssel im Schlüssel-Wert-Paar definierten Satz gehört. </p> <p>Beim Arbeiten mit Werten: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">Fügen Sie Zeichenfolgendaten in doppelte Anführungszeichen ein (z. <code> B. Alter = "41 bis 55"</code>). </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Sie können mehrere Schlüssel in einem einzelnen Wert übergeben (z. <i><code>B. Schlüssel</i>=<i>val 1, val 2, val 3</i></code></i>). </i></li> 
-     </ul> </p> <p>Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatieren von Schlüssel/Wert-Paaren in DCS-Aufrufen</a>. </p> </td>
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">Schließen Sie Zeichenfolgendaten in doppelte Anführungszeichen ein (z. B. <code> age="41 bis 55"</code>). </li> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Sie können mehrere Schlüssel an einen einzelnen Wert übergeben (z. B. <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </i></li> 
+     </ul> </p> <p>Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_36E2C1A0538D4D2C94DFC1335720A524"> 
-      <li id="li_8902EED431CE4F0189A94868FA52DB1F"> <code> d_ dst = 1</code> </li> 
-      <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <code> d_ rtbd = json</code> </li> 
-      <li id="li_3430CD0438604B83BE6437E6EC480816"> <code>d_ cb =<i>callback</i></code> </li>
+      <li id="li_8902EED431CE4F0189A94868FA52DB1F"> <code> d_dst=1</code> </li> 
+      <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <code> d_rtbd=json</code> </li> 
+      <li id="li_3430CD0438604B83BE6437E6EC480816"> <code>d_cb=<i>callback</i></code> </li>
      </ul> </p> </td> 
-   <td colname="col2"> <p>Optionale Antwortparameter. </p> <p> Zum Senden von Daten an das <span class="wintitle"> DCS</span>sind keine Daten erforderlich. Wenn das <span class="wintitle"> DCS</span> jedoch eine Antwort zurückgeben soll, müssen Sie <code> d_ rtbd = json</code> in Ihre Anforderung einschließen. </p> <p>Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> d_ Key-Wert-Paare.</a> </p> </td> 
+   <td colname="col2"> <p>Optionale Antwortparameter. </p> <p> Keiner dieser Elemente ist erforderlich, um Daten an den <span class="wintitle"> DCS</span>zu senden. Wenn der <span class="wintitle"> DCS</span> jedoch eine Antwort zurückgeben soll, müssen Sie <code> d_rtbd=json</code> in Ihre Anforderung einbeziehen. </p> <p>Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> definiert</a>d_ Key-Value Paare. </p> </td> 
   </tr>
  </tbody>
 </table>
 
 ## Beispielaufruf {#dcs-sample-call}
 
-Dieses Beispiel zeigt das fiktive Unternehmen [!DNL Acme, Inc.] , das über einen [!UICONTROL DCS][!DNL HTTP] Aufruf Daten an die Variable sendet. Beachten Sie, dass dieser Aufruf die optionalen Parameter `d_dst=1`, `d_rtbd=json``d_cb=callback`und. Diese weisen darauf hin, dass [!DNL Acme][!DNL JSON] eine Antwort von der [!UICONTROL DCS] Funktion mit einer Rückruffunktion empfangen werden soll. Denken Sie daran, dass dies nur ein Beispiel ist. Ausschneiden und Einfügen Sie diesen Code nicht.
+Dieses Beispiel zeigt das fiktive Unternehmen, das Daten [!DNL Acme, Inc.] über einen [!UICONTROL DCS] Aufruf an die [!DNL HTTP] Gruppe sendet. Beachten Sie, dass dieser Aufruf die optionalen Parameter `d_dst=1`, `d_rtbd=json`und `d_cb=callback`enthält. Diese weisen darauf hin, dass [!DNL Acme] eine [!DNL JSON] Antwort von der [!UICONTROL DCS] mit einer Rückruffunktion empfangen werden soll. Denken Sie daran, das ist nur ein Beispiel. Ausschneiden und Einfügen dieses Codes sollten Sie vermeiden.
 
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
@@ -93,9 +93,9 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Nächste Schritte {#dcs-next-steps}
 
-Nachdem Sie sich mit dem Senden von Daten an die Benutzer [!UICONTROL DCS]vertraut machen, sollten Sie sich überlegen, wie Sie Daten daraus abrufen und diese Informationen analysieren. Siehe [Daten vom DCS empfangen](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Nun, da Sie mit dem Senden von Daten an die [!UICONTROL DCS]Kommission vertraut sind, ist es an der Zeit, zu untersuchen, wie man Daten zurückerhält und diese Informationen analysiert. Siehe Daten [vom DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)empfangen.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Wichtige Wertpaare](../../../reference/key-value-pairs-explained.md)
+>* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
 
