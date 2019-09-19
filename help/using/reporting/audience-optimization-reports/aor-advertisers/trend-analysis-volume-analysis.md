@@ -1,37 +1,37 @@
 ---
-description: Diese Berichte geben Daten zu Impressionen, Durchklickraten und Konversionen für eine breite Palette von Anzeigendimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild darüber zu erhalten, wie Ihre Kampagne im Laufe der Zeit läuft.
-seo-description: Diese Berichte geben Daten zu Impressionen, Durchklickraten und Konversionen für eine breite Palette von Anzeigendimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild darüber zu erhalten, wie Ihre Kampagne im Laufe der Zeit läuft.
+description: Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für ein breites Spektrum von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild von der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
+seo-description: Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für ein breites Spektrum von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild von der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
 seo-title: Trendanalyse- und Volumenanalyseberichte
 solution: Audience Manager
 title: Trendanalyse- und Volumenanalyseberichte
-uuid: 5 d 124 d 80-5 f 54-4970-92 cd -2 c 8 eba 42 efca
+uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Trend Analysis and Volume Analysis Reports{#trend-analysis-and-volume-analysis-reports}
+# Trendanalyse- und Volumenanalyseberichte{#trend-analysis-and-volume-analysis-reports}
 
-Diese Berichte geben Daten zu Impressionen, Durchklickraten und Konversionen für eine breite Palette von Anzeigendimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild darüber zu erhalten, wie Ihre Kampagne im Laufe der Zeit läuft.
+Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für ein breites Spektrum von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild von der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
 
-## Sample Trend Analysis Report {#sample-trend-analysis}
+## Beispiel für einen Trendanalysebericht {#sample-trend-analysis}
 
-The [!UICONTROL Trend Analysis] report returns data in a line graph for a 14-day interval only. In diesem Beispiel zeigt der Bericht Impressionen, Durchklickraten und Umrechnungstrends für eine Gruppe zugeordneter Segmente an.
+Der [!UICONTROL Trend Analysis] Bericht gibt Daten in einem Liniendiagramm nur für einen Zeitraum von 14 Tagen zurück. In diesem Beispiel zeigt der Bericht Impressions-, Clickthrough- und Konversionstrends für eine Reihe von zugeordneten Segmenten an.
 
 ![](assets/trend-analysis.png)
 
-## Sample Volume Analysis Report {#sample-volume-analysis}
+## Beispiel für einen Volumenanalysebericht {#sample-volume-analysis}
 
-The [!UICONTROL Volume Analysis] report returns data in a bar graph for your selected date range. In diesem Beispiel zeigt der Bericht Impressionen, Clickthrough und Konversionen nach Volumen für eine Reihe zugeordneter Segmente an.
+Der [!UICONTROL Volume Analysis] Bericht gibt Daten in einem Balkendiagramm für den ausgewählten Datumsbereich zurück. In diesem Beispiel zeigt der Bericht Impression, Clickthrough und Konversionen nach Volumen für eine Reihe von zugeordneten Segmenten an.
 
 >[!NOTE]
 >
->7-day and 30-day look-back periods are only available for Sunday **[!UICONTROL Date Through]** dates.
+>7- und 30-Tage-Lookback-Zeiträume sind nur für Sonntagsdaten **[!UICONTROL Date Through]** verfügbar.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->For information about mapped and unmapped segments, see the [Segment Performance Report](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentation.
+>Informationen zu zugeordneten und nicht zugeordneten Segmenten finden Sie in der Dokumentation zum [Segmentleistungsbericht](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) .
 
