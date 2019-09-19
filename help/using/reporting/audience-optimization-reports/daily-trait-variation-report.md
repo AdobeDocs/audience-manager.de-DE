@@ -1,59 +1,59 @@
 ---
-description: Dieser Bericht gibt eine Liste der Eigenschaften zurück, die mindestens 10.000 Mal in den letzten 30 Tagen vor dem (n) ausgewählten Datum (n) lokalisiert wurden und eine Standardabweichung größer oder gleich 1.7 in beiden Richtungen im selben Zeitintervall haben. Mit dem Bericht können Sie bewerten, wie viele Impressionen von Unique Users in einer Eigenschaftsvariablen im Laufe der Zeit schwanken.
-seo-description: Dieser Bericht gibt eine Liste der Eigenschaften zurück, die mindestens 10.000 Mal in den letzten 30 Tagen vor dem (n) ausgewählten Datum (n) lokalisiert wurden und eine Standardabweichung größer oder gleich 1.7 in beiden Richtungen im selben Zeitintervall haben. Mit dem Bericht können Sie bewerten, wie viele Impressionen von Unique Users in einer Eigenschaftsvariablen im Laufe der Zeit schwanken.
-seo-title: Bericht zu täglichen Eigenschaften
+description: Dieser Bericht gibt eine Liste der Eigenschaften zurück, die mindestens 10.000 Mal in den 30 Tagen vor dem/den ausgewählten Datum/en realisiert wurden und deren Standardabweichung im selben Zeitintervall in beide Richtungen 1,7 betragen oder übersteigt. Der Bericht hilft Ihnen bei der Beurteilung, wie viele Impressionen von Unique Users in einer Eigenschaft im Laufe der Zeit schwanken.
+seo-description: Dieser Bericht gibt eine Liste der Eigenschaften zurück, die mindestens 10.000 Mal in den 30 Tagen vor dem/den ausgewählten Datum/en realisiert wurden und deren Standardabweichung im selben Zeitintervall in beide Richtungen 1,7 betragen oder übersteigt. Der Bericht hilft Ihnen bei der Beurteilung, wie viele Impressionen von Unique Users in einer Eigenschaft im Laufe der Zeit schwanken.
+seo-title: Täglicher Bericht zur Eigenschaftsvarianz
 solution: Audience Manager
-title: Bericht zu täglichen Eigenschaften
-uuid: 4 e 82 bb 17-d 447-4 ed 1-a 4 fc-e 15 b 0 f 1 b 47 f 0
+title: Täglicher Bericht zur Eigenschaftsvarianz
+uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 translation-type: tm+mt
 source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 ---
 
 
-# Daily Trait Variation Report {#daily-trait-variation-report}
+# Täglicher Bericht zur Eigenschaftsvarianz {#daily-trait-variation-report}
 
-Dieser Bericht gibt eine Liste der Eigenschaften zurück, die mindestens 10.000 Mal in den letzten 30 Tagen vor dem (n) ausgewählten Datum (n) lokalisiert wurden und eine Standardabweichung größer oder gleich 1.7 in beiden Richtungen im selben Zeitintervall haben. Mit dem Bericht können Sie bewerten, wie viele Impressionen von Unique Users in einer Eigenschaftsvariablen im Laufe der Zeit schwanken.
+Dieser Bericht gibt eine Liste der Eigenschaften zurück, die mindestens 10.000 Mal in den 30 Tagen vor dem/den ausgewählten Datum/en realisiert wurden und deren Standardabweichung im selben Zeitintervall in beide Richtungen 1,7 betragen oder übersteigt. Der Bericht hilft Ihnen bei der Beurteilung, wie viele Impressionen von Unique Users in einer Eigenschaft im Laufe der Zeit schwanken.
 
 >[!NOTE]
 >
->Der Bericht "Tägliche Eigenschaften" in Audience Manager erfüllt RBAC-Prinzipien. You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Der Bericht "Variation der täglichen Eigenschaften"in Audience Manager entspricht den RBAC-Grundsätzen. Sie können Eigenschaften nur aus Datenquellen anzeigen, auf die Sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) , der Sie angehören.
 
-Standardabweichung misst die Größe oder Streuung aus dem arithmetischen Mittel (oder den durchschnittlichen/erwarteten Wert). Eine niedrige Standardabweichung bedeutet, dass die Datenpunkte tendenziell sehr nah am arithmetischen Mittel liegen. Eine hohe Standardabweichung zeigt an, dass die Datenpunkte über einen breiten Wertebereich verteilt sind.
+Die Standardabweichung misst den Umfang der Abweichung oder Streuung vom Mittelwert (oder vom Mittelwert/erwarteten Wert). Eine niedrige Standardabweichung deutet darauf hin, dass die Datenpunkte tendenziell sehr nahe am Mittelwert liegen. Eine hohe Standardabweichung zeigt an, dass die Datenpunkte über einen großen Wertebereich verteilt sind.
 
 ![](assets/daily_trait_variation.png)
 
-Use the [!UICONTROL Date] list to select one or more dates for your report. Am unteren Rand der Liste wird ein farbcodiertes Balkendiagramm angezeigt, das einen visuellen Vertreter für den Bereich der Standardabweichung für alle ausgewählten Daten bereitstellt. Die schwarze vertikale Linie zeigt das arithmetische Mittel an.
+Verwenden Sie die [!UICONTROL Date] Liste, um ein oder mehrere Daten für Ihren Bericht auszuwählen. Am Ende der Liste wird ein farbkodiertes Balkendiagramm angezeigt, das den Bereich der Standardabweichung für alle Eigenschaften über alle ausgewählten Daten hinweg visuell widerspiegelt. Die schwarze vertikale Linie zeigt den Mittelwert an.
 
-The middle column contains a list of traits, identified by [!UICONTROL Trait ID] and [!UICONTROL Trait Name]. Klicken Sie auf eine beliebige Eigenschaft, um ein Popup-Dialogfeld aufzurufen, mit dem Sie aus den folgenden Optionen auswählen können:
+Die mittlere Spalte enthält eine Liste der Eigenschaften, die durch [!UICONTROL Trait ID] und gekennzeichnet sind [!UICONTROL Trait Name]. Klicken Sie auf eine beliebige Eigenschaft, um ein Popup-Dialogfeld aufzurufen, in dem Sie eine der folgenden Optionen auswählen können:
 
-* **Nur beibehalten:** Entfernt alle anderen Eigenschaften aus dem Bericht und zeigt nur Daten für diese Eigenschaft an.
-* **Ausschließen:** Entfernt diese Eigenschaft aus dem Bericht und zeigt Daten zu allen anderen Eigenschaften an. Sie können mehrere Eigenschaften ausschließen.
-* **Daten anzeigen:** Ermöglicht die Anzeige von Daten für diese Zeile. Sie können auch alle Zeilen als Textdatei herunterladen.
+* **** Nur beibehalten: Entfernt alle anderen Eigenschaften aus dem Bericht und zeigt nur Daten zu dieser Eigenschaft an.
+* **** Ausschließen: Entfernt diese Eigenschaft aus dem Bericht und zeigt Daten zu allen anderen Eigenschaften an. Sie können mehrere Eigenschaften ausschließen.
+* **** Daten anzeigen: Hiermit können Sie Daten zu dieser Zeile anzeigen. Sie können auch alle Zeilen als Textdatei herunterladen.
 
-The [!UICONTROL Standard Deviation] column displays color-coded bar charts that display the standard deviation for each trait over the selected interval. Rote Balken weisen auf Eigenschaften mit einer negativen Standardabweichung hin (Datenpunkte sind tendenziell unter dem arithmetischen Mittel). Grüne Balken weisen auf Eigenschaften mit einer positiven Standardabweichung hin (Datenpunkte reichen tendenziell über dem Mittelwert). Bewegen Sie den Mauszeiger über eine Leiste, um ein Popup-Dialogfeld mit weiteren Informationen und Optionen anzuzeigen, um diese Eigenschaft beizubehalten oder auszuklammern und weitere Informationen anzuzeigen.
+Die [!UICONTROL Standard Deviation] Spalte zeigt farbkodierte Balkendiagramme an, die die Standardabweichung für jede Eigenschaft im ausgewählten Intervall anzeigen. Rote Balken weisen auf Eigenschaften mit einer negativen Standardabweichung hin (Datenpunkte liegen tendenziell unter dem Mittelwert). Grüne Balken weisen auf Eigenschaften mit einer positiven Standardabweichung hin (Datenpunkte liegen meist über dem Mittelwert). Bewegen Sie den Mauszeiger über eine Leiste, um ein Popup-Dialogfeld mit weiteren Informationen und Optionen anzuzeigen, um diese Eigenschaft beizubehalten oder auszuschließen und weitere Informationen anzuzeigen.
 
-Die Symbole werden unten im Bericht angezeigt, mit dem Sie Daten in verschiedenen Formaten exportieren können, alle Änderungen zurücksetzen können, die Sie am Bericht vorgenommen haben (z. B. Eigenschaften ausschließen), automatische Aktualisierungen aktivieren oder deaktivieren und die Daten des Berichts aktualisieren. See [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
+Am Ende des Berichts werden Symbole angezeigt, mit denen Sie Daten in verschiedene Formate exportieren, Änderungen am Bericht wiederherstellen (z. B. Eigenschaften ausschließen), automatische Aktualisierungen aktivieren oder deaktivieren und die Berichtsdaten aktualisieren können. Siehe [Berichtssymbole und erläuterte](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)Tools.
 
 ## Nutzungsszenarios {#use-cases}
 
-**Beispiel 1**: Dieser Bericht kann in Situationen mit einer hohen Saisonalität sehr nützlich sein. Nehmen wir an, Ihr Online-Shop testet Saisonpromotions verschiedener Typen und Preise. You have the following traits defined in [!DNL Audience Manager]:
+**Beispiel 1**: Dieser Bericht kann sehr nützlich sein, wenn Sie Eigenschaften mit hoher Saisonabhängigkeit haben. Nehmen wir zum Beispiel an, Ihr Online-Shop testet saisonale Promotions verschiedener Art und Preise. Folgende Eigenschaften sind definiert in [!DNL Audience Manager]:
 
 * `productPage == "December Promotion"`
 * `price > "500"`
 
-Say you run the [!UICONTROL Daily Trait Variation] report on the 20th of December and you notice a solid positive deviation on the above mentioned traits in the past 30 days. Dies kann empfehlen, dass Ihre Besucher nach den Produkten suchen, die in Ihrer Saisonpromotion erwähnt werden. Um diesen Trend nutzen zu können, können Sie mehr Bemühungen in das Targeting kreativer Elemente für diese spezifische Produktkategorie für Besucher investieren, die daran interessiert sind.
+Nehmen wir an, Sie führen den [!UICONTROL Daily Trait Variation] Bericht am 20. Dezember aus und Sie bemerken eine feste positive Abweichung von den oben genannten Eigenschaften in den letzten 30 Tagen. Dies kann darauf hindeuten, dass Ihre Besucher nach den in Ihrer saisonalen Promotion erwähnten Produkten suchen. Um diesen Trend zu nutzen, können Sie dann mehr Anstrengungen unternehmen, um kreative Elemente für diese spezifische Produktkategorie auf Besucher auszurichten, die daran interessiert sind.
 
-**Beispiel 2**: Dieser Bericht kann Ihnen helfen, Targeting-Anomalien in Bezug auf Tagging-Probleme oder fehlerhafte Fehlermeldungen zu identifizieren. Angenommen, Sie haben die folgende Eigenschaft basierend auf den Kategorien Ihres Online-Shops definiert:
+**Beispiel 2**: Dieser Bericht kann Ihnen dabei helfen, Targeting-Anomalien im Zusammenhang mit Tagging-Problemen oder Eigenschaftenfehlkonfigurationen zu identifizieren. Stellen Sie sich vor, Sie haben die folgenden Eigenschaften basierend auf den Kategorien Ihres Online-Stores definiert:
 
 * `productPage == "smartphones"`
 
-Aufgrund einer Neukonfiguration Ihres Speichers teilen Sie die Smartphone-Seite auf Grundlage von Markennamen in mehrere Seiten auf. However, you forget to update the traits defined in [!DNL Audience Manager].
+Durch eine Neukonfiguration Ihres Geschäfts teilen Sie die Smartphone-Seite basierend auf den Markennamen in mehrere Seiten. Sie vergessen jedoch, die unter [!DNL Audience Manager]"Eigenschaften"definierten Eigenschaften zu aktualisieren.
 
-One month later, you run the [!UICONTROL Daily Trait Variation] report and notice a large negative deviation on the `productPage == "smartphones"` trait, although your visitor number has increased, according to your site analytics. Based on this information, you realize that you haven't updated the traits in [!DNL Audience Manager] for your new product pages, so you know that you need to create the following traits:
+Einen Monat später führen Sie den [!UICONTROL Daily Trait Variation] Bericht aus und bemerken eine große negative Abweichung von der `productPage == "smartphones"` Eigenschaft, obwohl Ihre Besucherzahl entsprechend Ihrer Site-Analyse gestiegen ist. Anhand dieser Informationen erkennen Sie, dass Sie die Eigenschaften für Ihre neuen Produktseiten nicht aktualisiert haben. Daher wissen Sie, dass Sie die folgenden Eigenschaften erstellen müssen: [!DNL Audience Manager]
 
-* Productpage = = "samsung"
-* Productpage = = "apple"
-* Productpage = = "huawei"
+* productPage == "samsung"
+* productPage == "apple"
+* productPage == "huawei"
 
-Anschließend sehen Sie die Zielgruppe, die für die neu erstellten Eigenschaften qualifiziert ist.
+Sobald Sie dies tun, sehen Sie, dass sich Ihre Zielgruppe für die neu erstellten Eigenschaften qualifiziert.
