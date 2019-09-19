@@ -1,26 +1,26 @@
 ---
-description: Beschreibt die Schritte und Funktionen, die spezifisch für regelbasierte und onboarded Trait-Erstellung gelten.
-keywords: Eigenschaft erstellen; Eigenschaften erstellen
-seo-description: Beschreibt die Schritte und Funktionen, die spezifisch für regelbasierte und onboarded Trait-Erstellung gelten.
-seo-title: Regelbasierte oder Onboardanmerkungen erstellen
+description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften sind.
+keywords: Eigenschaften erstellen;Eigenschaften erstellen
+seo-description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften sind.
+seo-title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 solution: Audience Manager
-title: Regelbasierte oder Onboardanmerkungen erstellen
-uuid: 4243 e 09 f -1 f 96-443 a -864 a-d 6 e 6918079 fa
+title: Erstellen regelbasierter oder Onboarded-Eigenschaften
+uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
 source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
 
-# Regelbasierte oder Onboardanmerkungen erstellen {#create-rules-based-or-onboarded-traits}
+# Erstellen regelbasierter oder Onboarded-Eigenschaften {#create-rules-based-or-onboarded-traits}
 
-Beschreibt die Schritte und Funktionen, die speziell für die [!UICONTROL rules-based] Erstellung und [!UICONTROL onboarded] Erstellung von Eigenschaften gelten.
+Beschreibt die Einrichtung von Schritten und Funktionen, die für den Erstellungsprozess [!UICONTROL rules-based] und die Erstellung von [!UICONTROL onboarded] Eigenschaften spezifisch sind.
 
 <!-- c_tb_rules_traits.xml -->
 
 ## Grundlegende Informationen zu Eigenschaften {#basics}
 
-In können [!UICONTROL Trait Builder]Sie in den [!UICONTROL Basic Information] Einstellungen neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. Die [!UICONTROL Basic Information] Einstellungen gelten für regelbasierte, detaillierte und algorithmische Eigenschaften. Um eine neue Eigenschaft zu erstellen, geben Sie einen Namen (Sonderzeichen vermeiden), eine Datenquelle und einen Speicherordner ein. Andere [!UICONTROL Basic Information] Felder sind optional.
+In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen können Sie neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. Die [!UICONTROL Basic Information] Einstellungen sind für regelbasierte, integrierte und algorithmische Eigenschaften identisch. Um eine neue Eigenschaft zu erstellen, geben Sie einen Namen (ohne Sonderzeichen), eine Datenquelle und einen Speicherordner an. Andere [!UICONTROL Basic Information] Felder sind optional.
 
 <!-- c_tb_basics.xml -->
 
@@ -36,26 +36,26 @@ In können [!UICONTROL Trait Builder]Sie in den [!UICONTROL Basic Information] E
  <tbody> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol">Name</span></b> </td> 
-   <td colname="col2"> <p>Der Eigenschaftsname. Erforderlich. </p> <p>Maximale Länge: 255 Zeichen. </p> <p> <p>Hinweis: Vermeiden Sie die folgenden Sonderzeichen, wenn Sie Eigenschaften benennen: 
+   <td colname="col2"> <p>Der Eigenschaftsname. Erforderlich. </p> <p>Höchstlänge: 255 Zeichen. </p> <p> <p>Hinweis: Vermeiden Sie beim Benennen von Eigenschaften die folgenden Sonderzeichen: 
       <ul id="ul_AB38A333F21A4AA9B5656CBA69BA65E3"> 
        <li id="li_0E5033B540BC41E799075845388E85A7">Kommas </li> 
-       <li id="li_B1A6C3E3FB98473A91E4675EE09460F0">Bindestriche </li> 
-       <li id="li_579302FE34B64FE0AE3C751012839229">Bindestriche </li> 
+       <li id="li_B1A6C3E3FB98473A91E4675EE09460F0">Striche </li> 
+       <li id="li_579302FE34B64FE0AE3C751012839229">Hyphen </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Registerkarten </li> 
-       <li id="li_C203837501A94342923C99A7DAD1ED61">Vertikalbalken- oder Senkrechtstrich </li> 
-      </ul> </p> </p> <p>Dadurch können Verarbeitungsfehler reduziert werden, wenn Sie eine <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> eingehende Datendateiübertragung einrichten</a>. </p> </td> 
+       <li id="li_C203837501A94342923C99A7DAD1ED61">Vertikales Strich- oder Senkrechteck </li> 
+      </ul> </p> </p> <p>Auf diese Weise können Sie Verarbeitungsfehler beim Einrichten einer <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> eingehenden Datendateitransaktion</a>reduzieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Beschreibung</span></b> </td> 
-   <td colname="col2"> Einige Wörter, die den Zweck oder die Funktion des Merkmals beschreiben. Optional. </td> 
+   <td colname="col2"> Ein paar Worte, die helfen, den Zweck oder die Funktion der Eigenschaft zu beschreiben. Optional. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ereignistyp</span></b> </td> 
-   <td colname="col2"> Weist einem Typ oder einer Kategorie die Eigenschaft zu, normalerweise entsprechend der Funktion (z. B. Umrechnung, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Video Erstellen von Konversionseigenschaften in Audience Manager</a>. </p></td> 
+   <td colname="col2"> Weist die Eigenschaft einem Typ oder einer Kategorie zu, in der Regel entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im Video<a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">zum </a>Erstellen von Konversionseigenschaften in Audience Manager. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Datenquelle</span></b> </td> 
-   <td colname="col2"> Verbindet die Eigenschaft mit einem bestimmten Datenanbieter. Erforderlich. </td> 
+   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integrationscode</span></b> </td> 
@@ -71,14 +71,14 @@ In können [!UICONTROL Trait Builder]Sie in den [!UICONTROL Basic Information] E
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Datenkategorie</span></b> </td> 
-   <td colname="col2"> Klassifiziert Eigenschaften nach häufig verständlichen Kategorien. <p>Hinweis: Eigenschaften gehören nur zu einer Kategorie. Optional. </p> </td> 
+   <td colname="col2"> Klassifiziert Eigenschaften nach allgemein verständlichen Kategorien. <p>Hinweis:  Eigenschaften gehören nur zu einer Kategorie. Optional. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Festlegen eines Eigenschaftsablaufintervalls {#set-expiration-interval}
+## Ablaufintervall für Eigenschaften festlegen {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder]können [!UICONTROL Advanced Options] Sie ein Zeitintervall ([!DNL TTL]) für eine Eigenschaft festlegen. [!DNL TTL] definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft verbleibt (120 Tage ist Standard). Bei Festlegung auf 0 läuft die Trait-Mitgliedschaft nie ab.
+In [!UICONTROL Trait Builder]der [!UICONTROL Advanced Options] können Sie ein Intervall für die Live-Wiedergabe ([!DNL TTL]) für eine Eigenschaft festlegen. [!DNL TTL] definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft bleibt (standardmäßig 120 Tage). Bei Festlegung auf 0 läuft die Mitgliedschaft bei Eigenschaften nie ab.
 
 <!-- t_tb_ttl.xml -->
 
@@ -88,7 +88,7 @@ In [!UICONTROL Trait Builder]können [!UICONTROL Advanced Options] Sie ein Zeiti
 2. Klicken Sie auf **[!UICONTROL Save]**.
    ![](assets/TTL.png)
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Segmentzeit zu Live erklärt](../../features/traits/segment-ttl-explained.md)
+>* [Erläuterung der Segmentzeit bis zur Live-Übertragung](../../features/traits/segment-ttl-explained.md)
 
