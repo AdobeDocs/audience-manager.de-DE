@@ -1,24 +1,24 @@
 ---
-description: Methoden, mit denen Sie programmatisch mit algorithmischen Modellierungsfunktionen arbeiten können.
-keywords: API-erste Schritte; API für erste Schritte
-seo-description: Methoden, mit denen Sie programmatisch mit algorithmischen Modellierungsfunktionen arbeiten können.
+description: Methoden, mit denen Sie programmatisch mit algorithmischen Modellfunktionen arbeiten können.
+keywords: API Erste Schritte;Erste Schritte-API
+seo-description: Methoden, mit denen Sie programmatisch mit algorithmischen Modellfunktionen arbeiten können.
 seo-title: Algorithmische API-Methoden
 solution: Audience Manager
 title: Algorithmische API-Methoden
-uuid: 8 d 5304 d 7-c 1 cf -42 df -94 e 7-3 f 583944 bd 62
+uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
 translation-type: tm+mt
 source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
 
 ---
 
 
-# Algorithmic API Methods {#algorithmic-api-methods}
+# Algorithmische API-Methoden {#algorithmic-api-methods}
 
-Methoden, mit denen Sie programmatisch mit algorithmischen Modellierungsfunktionen arbeiten können.
+Methoden, mit denen Sie programmatisch mit algorithmischen Modellfunktionen arbeiten können.
 
 >[!IMPORTANT]
 >
->The algorithmic models [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Siehe:
+>Die algorithmischen Modellmethoden [!DNL API] wurden umgeschrieben [!DNL Swagger] und migriert. Siehe:
 >
->* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
->* [Migration von Audience Manager-API-Code](../../api/api-swagger-migration.md)
+>* [Adobe Audience Manager API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
+>* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
