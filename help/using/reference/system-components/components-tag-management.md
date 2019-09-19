@@ -1,19 +1,19 @@
 ---
-description: Zu den Audience Manager-Tag-Management-Komponenten gehören das Client Portal, Adobe Tag Manager (nicht mehr unterstützt zugunsten von Adobe Dynamischer Tag-Manager und Adobe Launch), DIL, Akamai und die Control-Datenbank.
-seo-description: Zu den Audience Manager-Tag-Management-Komponenten gehören das Client Portal, Adobe Tag Manager (nicht mehr unterstützt zugunsten von Adobe Dynamischer Tag-Manager und Adobe Launch), DIL, Akamai und die Control-Datenbank.
-seo-title: Tag-Management-Komponenten
+description: Zu den Komponenten des Zielgruppen-Manager-Tag-Managements gehören das Client-Portal, Adobe Tag-Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Launch), DIL, Akamai und die Steuerungsdatenbank.
+seo-description: Zu den Komponenten des Zielgruppen-Manager-Tag-Managements gehören das Client-Portal, Adobe Tag-Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Launch), DIL, Akamai und die Steuerungsdatenbank.
+seo-title: Komponenten des Tag-Managements
 solution: Audience Manager
-title: Tag-Management-Komponenten
-uuid: e 5059478-6 ba 7-4 e 1 a-afec-e 41 ad 7 a 27750
+title: Komponenten des Tag-Managements
+uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 translation-type: tm+mt
 source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 
 ---
 
 
-# Tag Management Components{#tag-management-components}
+# Komponenten des Tag-Managements{#tag-management-components}
 
-Zu den Audience Manager-Tag-Management-Komponenten gehören das Client Portal, Adobe Tag Manager (nicht mehr unterstützt zugunsten von Adobe Dynamischer Tag-Manager und Adobe Launch), DIL, Akamai und die Control-Datenbank.
+Zu den Komponenten des Zielgruppen-Manager-Tag-Managements gehören das Client-Portal, Adobe Tag-Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Launch), DIL, Akamai und die Steuerungsdatenbank.
 
 <!-- 
 
@@ -23,33 +23,33 @@ c_comptag.xml
 
 Audience Manager enthält die folgenden Komponenten:
 
-* [Client Portal](../../reference/system-components/components-tag-management.md#client-portal)
+* [Client-Portal](../../reference/system-components/components-tag-management.md#client-portal)
 * [DIL/TIM-Container](../../reference/system-components/components-tag-management.md#dil-tim)
-* [Dateninformationsbibliothek (DIL)](../../reference/system-components/components-tag-management.md#dil)
+* [Data Information Library (DIL)](../../reference/system-components/components-tag-management.md#dil)
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
-* [Control-Datenbank](../../reference/system-components/components-tag-management.md#control-database)
+* [Datenbank steuern](../../reference/system-components/components-tag-management.md#control-database)
 
-## Client Portal {#client-portal}
+## Client-Portal {#client-portal}
 
 Das Client-Portal ist die primäre Benutzeroberfläche für Tag- und Datenverwaltung. Kunden verwenden das Portal, um mit Tags zu arbeiten, Eigenschaften und Segmente zu erstellen, Ziele einzurichten und die Kampagnenleistung mit Berichten zu überwachen.
 
-## DIL/TIM Container {#dil-tim}
+## DIL/TIM-Container {#dil-tim}
 
-The [!UICONTROL DIL] container helps deploy [!DNL Audience Manager] data collection code to your website. [!UICONTROL TIM] ist der veraltete Tag-Insertion Manager. It is no longer used by [!DNL Audience Manager]. Instead, you use [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/) or the [!DNL Audience Manager] extension in [Adobe Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) to configure and generate container code that you place on pages in your inventory. The [!UICONTROL DTM] container works with the [!UICONTROL Data Information Library (DIL)] to collect data from your site and send it to [!DNL Audience Manager].
+Der [!UICONTROL DIL] Container hilft bei der Bereitstellung des [!DNL Audience Manager] Datenerfassungscodes auf Ihrer Website. [!UICONTROL TIM] ist der nicht mehr unterstützte Tag-Einfüge-Manager. Es wird nicht mehr von verwendet [!DNL Audience Manager]. Stattdessen verwenden Sie das [dynamische Tag-Management](https://marketing.adobe.com/resources/help/en_US/dtm/) oder die [!DNL Audience Manager] Erweiterung in [Adobe Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) , um den Containercode zu konfigurieren und zu generieren, den Sie auf Seiten in Ihrem Bestand platzieren. Der [!UICONTROL DTM] Container funktioniert mit dem [!UICONTROL Data Information Library (DIL)] , um Daten von Ihrer Site zu erfassen und an zu senden [!DNL Audience Manager].
 
 ## Data Integration Library (DIL){#dil} 
 
-The [Data Information Library](../../dil/dil-overview.md) (DIL) is a self-contained API module that collects data from your website. [!UICONTROL DIL] verhindert, dass der spezielle Code für die Datenerfassung, Integration, das Lesen von Cookie-Werten und die Wiederherstellung von Seitendaten nicht geschrieben werden müssen. [!UICONTROL DIL] führt diese Aktionen automatisch durch. [!UICONTROL DIL] Außerdem ist das kompakte Element. Es handelt sich um eine eigenständige Codebibliothek, mit der die für die Datenerfassung erforderliche Codemenge reduziert wird. Finally, [!UICONTROL DIL] helps you integrate [!DNL Audience Manager] with other products in the [!DNL Adobe] Experience Cloud.
+Die [Dateninformationsbibliothek](../../dil/dil-overview.md) (DIL) ist ein eigenständiges API-Modul, das Daten von Ihrer Website erfasst. [!UICONTROL DIL] hilft, die Notwendigkeit zu vermeiden, speziellen Code für die Datenerfassung, Integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben. [!UICONTROL DIL] führt diese Aktionen automatisch aus. Außerdem [!UICONTROL DIL] ist kompakt. Es handelt sich dabei um eine eigenständige Codebibliothek, die dazu beiträgt, die für die Datenerfassung erforderliche Codemenge zu reduzieren. Schließlich [!UICONTROL DIL] hilft Ihnen die Integration [!DNL Audience Manager] mit anderen Produkten in der [!DNL Adobe] Experience Cloud.
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] verwendet [Akamai](https://www.akamai.com/html/about/index.html) zum Hosten und Bereitstellen von Containercode aus unserer eigenen Tag-Management-Plattform, bekannt als [!UICONTROL TIM (Tag Insertion Manager)]. However, code deployment with [!UICONTROL TIM] has been phased out in favor of [!UICONTROL Adobe Dynamic Tag Management] and [!UICONTROL Adobe Launch].
+[!DNL Audience Manager] verwendet [Akamai](https://www.akamai.com/html/about/index.html) , um Containercode von unserer eigenen Tag-Management-Plattform namens [!UICONTROL TIM (Tag Insertion Manager)]. Die Codebereitstellung mit [!UICONTROL TIM] wurde jedoch zugunsten [!UICONTROL Adobe Dynamic Tag Management] und [!UICONTROL Adobe Launch]schrittweise eingestellt.
 
-## Control Database {#control-database}
+## Datenbank steuern {#control-database}
 
-Die Control-Datenbank:
+Die Steuerungsdatenbank:
 
-* Verarbeitet Client-Eingaben aus dem Portal (z. B. Eigenschaften und Ziele erstellen).
-* Sendet Daten an Akamai, einschließlich Daten zum Erstellen der Container-Vorlage und des iframe für die Zielveröffentlichung.
-* Gibt Daten für UI-Berichtssysteme zurück.
+* Verarbeitet Client-Eingaben aus dem Portal (z. B. Erstellen von Eigenschaften und Zielen).
+* Sendet Daten an Akamai, das Daten enthält, die zum Erstellen der Containervorlage und zum Veröffentlichen des iFrame verwendet werden.
+* Gibt Daten für UI-Berichterstellungssysteme zurück.
 
