@@ -1,39 +1,39 @@
 ---
-description: Informationen über Amazon Simple Storage Service (Amazon S 3).
-seo-description: Informationen über Amazon Simple Storage Service (Amazon S 3).
-seo-title: Amazon S 3 Info
+description: Informationen zum Amazon Simple Storage Service (Amazon S3).
+seo-description: Informationen zum Amazon Simple Storage Service (Amazon S3).
+seo-title: Amazon S3 Info
 solution: Audience Manager
-title: Amazon S 3 Info
-uuid: 8197 ecdf-df 8 f -488 d-bbc 0-d 8 d 4205 b 42 b 4
+title: Amazon S3 Info
+uuid: 8197ecdf-df8f-488d-bbc0-d8d4205b42b4
 translation-type: tm+mt
 source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 ---
 
 
-# Amazon S3: About{#amazon-s-about}
+# Amazon S3: Info{#amazon-s-about}
 
-Informationen über Amazon Simple Storage Service (Amazon S 3).
+Informationen zum Amazon Simple Storage Service (Amazon S3).
 
-Wir empfehlen, die Verwendung von Amazon S 3 anstelle von FTP als Methode zum Abrufen von Dateien und Bereitstellen von Dateien für Partner zu empfehlen. Amazon S 3 bietet eine einfache Oberfläche für Webdienste, mit der jede beliebige Datenmenge jederzeit und jederzeit im Internet gespeichert und abgerufen werden kann.
+Als bewährte Methode empfehlen wir die Verwendung von Amazon S3 anstelle von FTP als Methode zum Abrufen von Dateien und zum Senden von Dateien an Partner. Amazon S3 bietet eine einfache Web-Services-Schnittstelle, mit der Daten jederzeit und von jedem beliebigen Ort im Web gespeichert und abgerufen werden können.
 
-Die Verwendung von Amazon S 3 bietet folgende Vorteile:
+Die Vorteile der Verwendung von Amazon S3 umfassen:
 
-* **Skalierbarkeit:** Amazon S 3 bietet nahezu grenzenlose Skalierbarkeit.
-* **Zuverlässigkeit und Verfügbarkeit:** Amazon S 3 bietet hohe Haltbarkeit und hohe Verfügbarkeit von Speicherdiensten.
-* **Geschwindigkeit:** Amazon S 3 ermöglicht schnelle Datenübertragungen.
-* **Benutzerfreundlichkeit:** Amazon S 3 ist sehr einfach zu verwenden und zu implementieren. Ihre Implementierung kann in etwa einer Stunde ausgeführt werden. Die Implementierung eines FTP-Ordners dauert viel länger.
-* **Mehrteilige Uploads:** Große Dateien können schnell und effizient als mehrteilige Datei hochgeladen werden.
-* **Sicherheit:** Amazon S 3 bietet eine starke Sicherheit.
+* **** Skalierbarkeit: Amazon S3 bietet eine nahezu grenzenlose Skalierbarkeit.
+* **** Zuverlässigkeit und Verfügbarkeit: Amazon S3 bietet Speicherdienste mit hoher Haltbarkeit und hoher Verfügbarkeit.
+* **** Geschwindigkeit: Amazon S3 ermöglicht eine schnelle Datenübertragung.
+* **** Benutzerfreundlichkeit: Amazon S3 ist sehr einfach zu verwenden und zu implementieren. Ihre Implementierung kann in etwa einer Stunde ausgeführt werden. Die Implementierung eines FTP-Ordners dauert viel länger.
+* **** Mehrteilige Uploads: Große Dateien können schnell und effizient hochgeladen werden, wenn sie mehrteilig hochgeladen werden.
+* **** Sicherheit: Amazon S3 bietet hohe Sicherheit.
 
-   * Alle Ordner können nur für den entsprechenden Kunden oder Client aufgerufen werden.
-   * HTTPS-Protokollunterstützung für Uploads und Downloads. You should always use HTTPS when transferring files in [!DNL Audience Manager].
-   * Amazon S3 provides encryption-at-rest for encrypting [outbound data files](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). We use the [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) encryption method, which allows encryption keys to be automatically generated and managed by Amazon S3.
+   * Alle Ordner sind nur für den jeweiligen Kunden oder Kunden zugänglich.
+   * Unterstützung des HTTPS-Protokolls für Uploads und Downloads. Sie sollten beim Übertragen von Dateien immer HTTPS verwenden [!DNL Audience Manager].
+   * Amazon S3 bietet Verschlüsselung im Ruhezustand zum Verschlüsseln [ausgehender Datendateien](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Wir verwenden die Verschlüsselungsmethode [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) , die die automatische Erzeugung und Verwaltung von Verschlüsselungsschlüsseln durch Amazon S3 ermöglicht.
 
-* **Support für Debug und Backup:** Mit Amazon S 3 können [!DNL Audience Manager] Sie exakte Kopien von Dateien beibehalten, um das Debugging oder die Wiedergabe zu vereinfachen.
+* **** Debug- und Backup-Unterstützung: Mit Amazon S3 können Sie exakte Kopien von Dateien speichern, um das Debugging oder die erneute Übertragung zu erleichtern. [!DNL Audience Manager]
 
-Weitere Informationen zu Amazon S 3 finden Sie in den folgenden Ressourcen:
+Weitere Informationen zu Amazon S3 finden Sie in den folgenden Ressourcen:
 
-[Amazon Simple Storage Service (Amazon S 3)](https://aws.amazon.com/s3/) auf der Amazon Web Services-Website.
+[Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/) auf der Amazon Web Services-Website.
 
-[Erste Schritte mit Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) auf der Website der AWS-Dokumentation.
+[Erste Schritte mit dem Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) auf der AWS-Dokumentation-Website.
