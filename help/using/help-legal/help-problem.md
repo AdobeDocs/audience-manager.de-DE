@@ -1,6 +1,6 @@
 ---
-description: Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Geben Sie so viele dieser Informationen wie bei der Kundenunterstützung an. Dies hilft dem Team, Ihr Problem zu verstehen und zu beheben.
-seo-description: Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Geben Sie so viele dieser Informationen wie bei der Kundenunterstützung an. Dies hilft dem Team, Ihr Problem zu verstehen und zu beheben.
+description: Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Geben Sie bei der Kontaktaufnahme mit der Kundenunterstützung so viele Informationen wie möglich an. Dies hilft dem Team, Ihr Problem zu verstehen und zu lösen.
+seo-description: Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Geben Sie bei der Kontaktaufnahme mit der Kundenunterstützung so viele Informationen wie möglich an. Dies hilft dem Team, Ihr Problem zu verstehen und zu lösen.
 seo-title: Bei Auftreten eines Problems
 solution: Audience Manager
 title: Bei Auftreten eines Problems
@@ -12,7 +12,7 @@ source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 
 # Bei Auftreten eines Problems {#problem}
 
-Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Geben Sie so viele dieser Informationen wie bei der Kundenunterstützung an. Dies hilft dem Team, Ihr Problem zu verstehen und zu beheben.
+Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Geben Sie bei der Kontaktaufnahme mit der Kundenunterstützung so viele Informationen wie möglich an. Dies hilft dem Team, Ihr Problem zu verstehen und zu lösen.
 
 ## Basisinformationen {#basic-information}
 
@@ -24,13 +24,13 @@ r_problem.xml
 
 For technical issues or to log a bug, contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-* **Telefon:** 1-800-497-0335
+* **** Telefon: 1-800-497-0335
 
-   For toll-free numbers outside the United States, see our [regional Customer Care contact numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) site. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
+   Für gebührenfreie Nummern außerhalb der Vereinigten Staaten besuchen Sie unsere [regionale Kundenservice-Kontaktnummern](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) . When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
 
-* **E-Mail:** amsupport@adobe.com
+* **** E-Mail: amsupport@adobe.com
 
-Bitte haben Sie die folgenden Informationen bereit, bevor Sie sich an uns wenden.
+Bitte machen Sie die folgenden Informationen bereit, bevor Sie uns kontaktieren.
 
 <table id="table_28E76031E2804265B1A48AB2659F68F0"> 
  <thead> 
@@ -41,28 +41,28 @@ Bitte haben Sie die folgenden Informationen bereit, bevor Sie sich an uns wenden
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Problem - Zusammenfassung</b> </p> </td> 
-   <td colname="col2"> <p>Geben Sie eine kurze, beschreibende Zusammenfassung des Problems ein. </p> </td> 
+   <td colname="col1"> <p><b>Problemzusammenfassung</b> </p> </td> 
+   <td colname="col2"> <p>Geben Sie eine kurze, beschreibende Zusammenfassung des Problems. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Kontoinformationen</b> </p> </td> 
    <td colname="col2"> <p>Geben Sie Folgendes an: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Firmenname. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Subdomäne des Audience Manager</span> (falls bekannt). The sub-domain is the URL of the domain that sends data collection events to <span class="keyword"> Adobe</span> (e.g., <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Audience Manager</span> -Subdomäne (sofern bekannt). Die Subdomäne ist die URL der Domäne, die Datenerfassungsereignisse an <span class="keyword"> Adobe</span> sendet (z. B. <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Schritte zum Reproduzieren</b> </p> </td> 
-   <td colname="col2"> <p>Nehmen Sie so viele Einzelheiten wie möglich vor, einschließlich aller urls, die zum Duplizieren des Problems erforderlich sind, sowie des erwarteten Ergebnisses. Your description should contain enough detail that somebody unfamiliar with <span class="keyword"> Audience Manager</span> should be able to follow your steps or procedures and reproduce the problem. </p> </td> 
+   <td colname="col1"> <p><b>Zu reproduzierende Schritte</b> </p> </td> 
+   <td colname="col2"> <p>Machen Sie so viele Details wie möglich ein, einschließlich der URLs, die zum Duplizieren des Problems erforderlich sind, sowie des erwarteten Ergebnisses. Ihre Beschreibung sollte genügend Details enthalten, damit Personen, die sich nicht mit <span class="keyword"> Audience Manager</span> auskennen, Ihre Schritte oder Verfahren ausführen und das Problem reproduzieren können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Priorität</b> </p> </td> 
-   <td colname="col2"> <p>Weisen Sie diesem Problem eine Priorität zu. Der Prioritätsbereich liegt bei P 1 (am wichtigsten) bis P 4 (am wenigsten wichtig). </p> </td> 
+   <td colname="col2"> <p>Weisen Sie diesem Problem eine Priorität zu. Der Prioritätsbereich reicht von P1 (am wichtigsten) bis P4 (am wenigsten wichtig). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Geschäftliche Auswirkungen</b> </p> </td> 
-   <td colname="col2"> <p>Beschreiben Sie, wie sich dieses Problem auf Ihr Geschäft auswirkt. Verursacht dieses Problem z. B. den Umsatzverlust oder das unbrauchbare Produkt? Haben Sie dieses Problem bereits behoben? </p> </td> 
+   <td colname="col1"> <p><b>Geschäftliche Auswirkung</b> </p> </td> 
+   <td colname="col2"> <p>Beschreiben Sie, wie sich dieses Problem auf Ihr Geschäft auswirkt. Führt dieses Problem beispielsweise zu Umsatzverlusten oder macht das Produkt unbrauchbar? Haben Sie sich mit diesem Thema beschäftigt? </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Erwartungen</b> </p> </td> 
