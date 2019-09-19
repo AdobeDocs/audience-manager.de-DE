@@ -1,59 +1,59 @@
 ---
-description: Beschreibt die Schritte und Funktionen, die für den algorithmischen Eigenschaftserstellungsprozess eindeutig sind.
-seo-description: Beschreibt die Schritte und Funktionen, die für den algorithmischen Eigenschaftserstellungsprozess eindeutig sind.
-seo-title: Erstellen von algorithmischen Eigenschaften
+description: Beschreibt die Einrichtung von Schritten und Funktionen, die für die Erstellung algorithmischer Eigenschaften spezifisch sind.
+seo-description: Beschreibt die Einrichtung von Schritten und Funktionen, die für die Erstellung algorithmischer Eigenschaften spezifisch sind.
+seo-title: Erstellen algorithmischer Eigenschaften
 solution: Audience Manager
-title: Erstellen von algorithmischen Eigenschaften
-uuid: 50 c 2 d 2 d 1-f 412-479 b-bb 70-4 f 139429 c 388
+title: Erstellen algorithmischer Eigenschaften
+uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Create Algorithmic Traits {#create-algorithmic-traits}
+# Erstellen algorithmischer Eigenschaften {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->
 
-To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps below:
+Gehen Sie wie folgt vor, um eine algorithmische Eigenschaft zu erstellen [!UICONTROL Traits] und führen Sie folgende Schritte aus:
 
-1. Click **[!UICONTROL Create New Trait]** and select **[!UICONTROL Algorithmic]** from the drop down menu.
-1. In the [Basic Information](../../features/traits/create-onboarded-rule-based-traits.md) section
+1. Klicken Sie auf **[!UICONTROL Create New Trait]** und wählen Sie **[!UICONTROL Algorithmic]** aus dem Dropdownmenü.
+1. Im Abschnitt [Grundlegende Informationen](../../features/traits/create-onboarded-rule-based-traits.md)
    * Benennen Sie die Eigenschaft.
    * Wählen Sie eine Datenquelle aus.
-   * Wählen Sie einen Speicherordner.
-1. Expand the [!UICONTROL Configuration] pane and click **[!UICONTROL Browse All Models]**.
-Dadurch wird ein neues Fenster geöffnet, mit dem Sie das Modell auswählen können, das Sie mit der Eigenschaft verwenden möchten.
-1. Select a model and click **[!UICONTROL Add Selected Model to Trait]**.
-Durch das Hinzufügen des Modells werden die Einstellungen für Reichweite und Genauigkeit bereitgestellt.
-1. Wählen Sie die Reichweite oder Genauigkeit als Ziel aus und wählen Sie einen Wert aus den jeweiligen Dropdown-Menüs. Click **[!UICONTROL Save]** when done.
+   * Wählen Sie einen Speicherordner aus.
+1. Erweitern Sie den [!UICONTROL Configuration] Bereich und klicken Sie auf **[!UICONTROL Browse All Models]**.
+Dadurch wird ein neues Fenster geöffnet, in dem Sie das Modell auswählen können, das Sie mit der Eigenschaft verwenden möchten.
+1. Wählen Sie ein Modell aus und klicken Sie auf **[!UICONTROL Add Selected Model to Trait]**.
+Durch Hinzufügen des Modells werden die Einstellungen für Reichweite und Genauigkeit verfügbar gemacht.
+1. Wählen Sie als Ziel Reichweite oder Genauigkeit aus und wählen Sie einen Wert aus den entsprechenden Dropdownmenüs. Click **[!UICONTROL Save]** when done.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)
 
 
-## Configuration Settings for Algorithmic Traits {#configure-settings}
+## Konfigurationseinstellungen für algorithmische Eigenschaften {#configure-settings}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you associate an algorithmic model to a trait. Um den algorithmischen Eigenschaftserstellungsprozess abzuschließen, wählen Sie ein Modell aus und wählen Sie eine Ziel- oder Genauigkeit.
+In [!UICONTROL Trait Builder]diesem Abschnitt können Sie einem Merkmal ein algorithmisches Modell zuordnen [!UICONTROL Configuration] . Um den Prozess zur Erstellung algorithmischer Eigenschaften abzuschließen, wählen Sie ein Modell aus und wählen Sie ein Ziel für die Reichweite oder Genauigkeit.
 
 ### Voraussetzungen
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Erstellen Sie ein algorithmische Modell](../../features/algorithmic-models/create-model.md#build-model).
-* Warten Sie auf die Benachrichtigungs-E-Mail, mit der Sie wissen können, dass die Modelldaten abgeschlossen sind.
-* Complete the required fields in the [Basic Information](../../features/traits/create-onboarded-rule-based-traits.md) section.
+* [Erstellen Sie ein algorithmisches Modell](../../features/algorithmic-models/create-model.md#build-model).
+* Warten Sie, bis die Benachrichtigungs-E-Mail, in der Sie wissen, dass die Modelldatenausführung abgeschlossen ist, gesendet wurde.
+* Füllen Sie die erforderlichen Felder im Abschnitt [Grundlegende Informationen](../../features/traits/create-onboarded-rule-based-traits.md) aus.
 
-### Konfigurationsfelder und -einstellungen
+### Konfigurationsfelder und Einstellungen
 
 | Oberflächenelement | Erklärung |
 |---|---|
-| **[!UICONTROL Select Model for Algorithmic Trait]** | Click the **[!UICONTROL Update]** button to open the models window. Wählen Sie im Fenster das algorithmische Modell aus, das Sie zum Erstellen der Eigenschaft verwenden möchten. |
-| **[!UICONTROL Select Goal Accuracy]** | Wählen Sie diese Option, um eine Eigenschaft basierend auf der Genauigkeit zu erstellen. Die Genauigkeit ist ein ausgewerteter Wert, der angibt, wie nahe sich potenzielle Benutzer auf Ihrer Grundlinie befinden. Die Genauigkeit der Genauigkeit liegt zwischen 0 (am wenigsten genau) und 1 (am genauesten). |
-| **[!UICONTROL Reach and Accuracy Data Columns]** | In diesem Abschnitt werden bis zu 21 Zeilen numerischer Daten angezeigt, die die Genauigkeit und Reichweitewerte für Ihr Modell anzeigen. |
-| **[!UICONTROL Reach and Accuracy Slider]** | Im unteren Bereich des Diagramms können Sie mit dem Schieberegler einen numerischen Wert für Ihre Erreichbaren Ziele oder Genauigkeit festlegen. Sie können den Schieberegler festlegen und dann die Ziel- oder Genauigkeit-Schaltfläche auswählen, um eine Eigenschaft zu erstellen. |
+| **[!UICONTROL Select Model for Algorithmic Trait]** | Klicken Sie auf die **[!UICONTROL Update]** Schaltfläche, um das Modellfenster zu öffnen. Wählen Sie im Fenster das algorithmische Modell aus, das Sie zum Erstellen der Eigenschaft verwenden möchten. |
+| **[!UICONTROL Select Goal Accuracy]** | Wählen Sie diese Option, um eine Eigenschaft basierend auf der Genauigkeit zu erstellen. Die Genauigkeit ist ein bewerteter Wert, der angibt, wie nah potenzielle Benutzer Ihrer Grundlinie sind. Die Genauigkeitsskala reicht von 0 (am wenigsten genau) bis 1 (am genauesten). |
+| **[!UICONTROL Reach and Accuracy Data Columns]** | Dieser Abschnitt auf der rechten Seite enthält bis zu 21 Zeilen numerischer Daten, die die Genauigkeit und Reichweitenwerte für Ihr Modell anzeigen. |
+| **[!UICONTROL Reach and Accuracy Slider]** | Am unteren Rand des Diagramms befindet sich der Schieberegler, mit dem Sie einen numerischen Wert für Ihre Reichweiten- oder Genauigkeitsziele festlegen können. Sie können den Schieberegler einstellen und dann die Schaltfläche für die Reichweite oder Genauigkeit wählen, um eine Eigenschaft zu erstellen. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)
