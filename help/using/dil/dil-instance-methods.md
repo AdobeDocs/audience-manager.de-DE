@@ -1,22 +1,22 @@
 ---
-description: Mit DIL-apis auf Instanzebene können Sie Audience Manager-Objekte programmatisch erstellen und bearbeiten. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die von den Methoden auf Klassenebene bestimmt wird.
-keywords: Eigenschaften erstellen; Eigenschaft erstellen
-seo-description: Mit DIL-apis auf Instanzebene können Sie Audience Manager-Objekte programmatisch erstellen und bearbeiten. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die von den Methoden auf Klassenebene bestimmt wird.
+description: Mit den DIL-APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
+keywords: Eigenschaften erstellen;Eigenschaften erstellen
+seo-description: Mit den DIL-APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
 seo-title: DIL-Methoden auf Instanzebene
 solution: Audience Manager
 title: DIL-Methoden auf Instanzebene
-uuid: aa 5147 bb -51 d 5-41 d 4-a 78 a-e 550 f 7492056
+uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Instance-level DIL Methods{#instance-level-dil-methods}
+# DIL-Methoden auf Instanzebene{#instance-level-dil-methods}
 
-The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die von den Methoden auf Klassenebene bestimmt wird.
+Mit den [!UICONTROL DIL] APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
 
-## Getting started with Instance-level DIL Methods {#get-started-dil-methods}
+## Erste Schritte mit DIL-Methoden auf Instanzebene {#get-started-dil-methods}
 
 <!-- 
 
@@ -24,10 +24,10 @@ c_api_overview.xml
 
  -->
 
-When working with the instance-level [!UICONTROL DIL] APIs:
+Beim Arbeiten mit [!UICONTROL DIL] APIs auf Instanzebene:
 
-* Zugriff erfordert einen Partner- und Container-Namespace-ID (NSID). Wenden Sie sich an Ihren Audience Manager-Kundenbetreuer, um diese Informationen abzurufen.
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
+* Für den Zugriff sind ein Name des Partners und eine Container-Namespace-ID (NSID) erforderlich. Wenden Sie sich an Ihren Audience Manager-Kundenbetreuer, um diese Informationen zu erhalten.
+* Ersetzen Sie den *kursiv* formatierten Beispieltext in der API-Dokumentation durch Wert, ID oder andere Variable, die von der verwendeten Methode benötigt werden.
 
 <!-- 
 
@@ -35,9 +35,9 @@ c_instance_start.xml
 
  -->
 
-## signals {#signals}
+## signale {#signals}
 
-Fügt der Abfragezeichenfolge einer ausstehenden Anforderung Kunden- und Plattformzuordnungen hinzu.
+Fügt der Abfragezeichenfolge einer ausstehenden Anforderung Zuordnungen auf Kunden- und Plattformebene hinzu.
 
 <!-- 
 
@@ -45,17 +45,17 @@ r_dil_signals.xml
 
  -->
 
-**Funktionssignatur:**`signals: function ({key1:value1, key2:value2},prefix){}`
+**** Funktionssignatur: `signals: function ({key1:value1, key2:value2},prefix){}`
 
 >[!NOTE]
 >
->* Sie können andere API-Aufrufe an diese Methode verketten.
->* If the Adobe Experience Cloud JavaScript library is on the page, `submit()` waits for the Cloud to set a cookie before sending a request.
+>* Sie können andere API-Aufrufe mit dieser Methode verketten.
+>* Wenn sich die Adobe Experience Cloud-JavaScript-Bibliothek auf der Seite befindet, `submit()` wartet darauf, dass die Cloud ein Cookie setzt, bevor eine Anforderung gesendet wird.
 
 
 **Reservierte Anforderungsschlüssel**
 
-Die folgenden Anforderungs-Schlüssel sind reserviert und können von dieser Methode nicht überschrieben werden:
+Die folgenden Anforderungsschlüssel sind reserviert und können mit dieser Methode nicht überschrieben werden:
 
 * `sids`
 * `pdata`
@@ -69,40 +69,35 @@ Die folgenden Anforderungs-Schlüssel sind reserviert und können von dieser Met
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `obj` | Objekt | Ein Objekt, das die Schlüssel-Wert-Paare für Zuordnungen auf Plattformebene darstellt. Parameter akzeptiert Zeichenfolgen und Arrays als Eigenschaftswerte im Objekt. |
-| `prefix` | Zeichenfolge | Optional. Der Zeichenfolgenwert für die einzelnen Objektschlüssel (ersetzt den ursprünglichen Schlüssel). |
-| `return` | DIL. api | Gibt das API-Objekt der aktuellen DIL-Instanz zurück. |
+| `prefix` | Zeichenfolge | Optional. Der Zeichenfolgenwert, der jedem Objektschlüssel als Präfix vorangestellt wird (ersetzt den Originalschlüssel). |
+| `return` | DIL.api | Gibt das API-Objekt der aktuellen DIL-Instanz zurück. |
 
 **Antwort**
 
-Returns the API object of the current [!UICONTROL DIL] instance.
+Gibt das API-Objekt der aktuellen [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>' 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>' containerNSID: <i>containerNSID</i> }); 
  
-// Method 1 
-var obj = {key 1: 1, Schlüssel 2: 2}; 
-Datalib. api. sign(obj,' c_'). submit (); 
+// Methode 1 var obj = { key1 : 1, key2: 2 }; 
+dataLib.api.Signals(obj, 'c_').submit(); 
  
-// Method 2 
-datalib. api. sign({c_ zdid: 44321}). submit (); 
+// Methode 2 dataLib.api.signals({c_zdid: 54321}).submit(); 
  
-// Methode 3 
-// sendet'c_ key = a &amp; c_ key = 2 &amp; c_ key = 3 ' in Audience manager 
-var obj = {key: [' a ',' b ',' c ']}; 
-Datalib. api. sign(obj,' c_'). submit ();</code>
-</pre>
+// Methode 3 // wird 'c_key=a&amp;c_key=2&amp;c_key=3' an Audience Manager var obj = { key : ['a', 'b', 'c'] }; 
+dataLib.api.Signals(obj, 'c_').submit(); 
+</code></pre>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Namensanforderungen für Schlüsselvariablen](../features/traits/trait-key-name-requirements.md)
 
 
 ## traits {#traits}
 
-Fügt der Abfragezeichenfolge einer ausstehenden Anforderung sids hinzu.
+Fügt der Abfragezeichenfolge einer ausstehenden Anforderung SIDs hinzu.
 
 <!-- 
 
@@ -110,29 +105,28 @@ r_dil_traits.xml
 
  -->
 
-**Funktionssignatur:**`traits:function (sids){}`
+**** Funktionsunterschrift: `traits:function (sids){}`
 
 >[!NOTE]
 >
->Sie können andere API-Aufrufe an diese Methode verketten.
+>Sie können andere API-Aufrufe mit dieser Methode verketten.
 
 **Parameter**
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `sids` | Array | Eigenschaftssegment-IDs in einem Array. |
+| `sids` | Array | Eigenschaftensegment-IDs in einem Array. |
 
 **Antwort**
 
-Returns the API object of the current [!UICONTROL DIL] instance.
+Gibt das API-Objekt der aktuellen [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var partnerobject = DIL. create ({ 
- Partner: '<i>Name des Partners</i>', 
- Containernsid: <i>NSID</i> }); 
-Partnerobject. api. properties (<i>[123, 456, 789]</i>);</code>
-</pre>
+<pre><code>
+var partnerObject = DIL.create({ partner: '<i>Name</i>des Partners', containerNSID: <i>NSID</i> }); 
+partnerObject.api.traits(<i>[123, 456, 789]</i>); 
+</code></pre>
 
 ## logs {#logs}
 
@@ -144,25 +138,22 @@ r_dil_logs.xml
 
  -->
 
-**Funktionssignatur:**`logs: function {key1:value1, key2:value2}`
+**** Funktionsunterschrift: `logs: function {key1:value1, key2:value2}`
 
 **Antwort**
 
-Returns the API object of the current [!UICONTROL DIL] instance.
+Gibt das API-Objekt der aktuellen [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var partnerobject = DIL. create ({ 
- Partner: '<i>partner</i>', 
- Containernsid: <i>NSID</i> }); 
-Partnerobject. api. logs ({ 
- Datei: ' dil. js ', 
- message: ' Dies ist die erste Anforderung '});</code>
-</pre>
+<pre><code>
+var partnerObject = DIL.create({ partner: '<i>partner</i>', containerNSID: <i>NSID</i> }); 
+partnerObject.api.logs({ file: "dil.js", Meldung: 'Dies ist die erste Anforderung' });
+</code></pre>
 
 ## submit {#submit}
 
-Submits all pending data to Audience Manager for the [!UICONTROL DIL] instance.
+Sendet alle ausstehenden Daten an Audience Manager für die [!UICONTROL DIL] Instanz.
 
 <!-- 
 
@@ -170,40 +161,32 @@ r_dil_submit.xml
 
  -->
 
-**Funktionssignatur:**`submit: function () {}`
+**** Funktionssignatur: `submit: function () {}`
 
 >[!NOTE]
 >
->Sie können andere API-Aufrufe an diese Methode verketten. [!UICONTROL DIL] Schreibt außerdem kodierte Daten in ein Zielcookie. For example, spaces are encoded as `%20` and semicolons as `%3B`.
+>Sie können andere API-Aufrufe mit dieser Methode verketten. Schreibt auch kodierte Daten in ein Ziel-Cookie. [!UICONTROL DIL] Leerzeichen werden beispielsweise als `%20` und Semikolons als `%3B`kodiert.
 
 **Antwort**
 
-Returns the API object of the current [!UICONTROL DIL] instance.
+Gibt das API-Objekt der aktuellen [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>', 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>', containerNSID: <i>containerNSID</i> }); 
  
-Datalib. api. properties ([<i>123.456, 
-789</i>]). logs ({ 
- Datei: ' dil. js ', 
- message: Dies ist die erste Anforderung}}). 
-sign({ 
- c_ zdid: <i>1111</i> 
- d_ dma: '<i>default</i>'}). 
-submit ();</code>
-</pre>
+dataLib.api.traits([<i>123,456, 789</i>]).logs({ file: "dil.js", Meldung: 'Dies ist die erste Anforderung' }).signals({ c_zdid: <i>111</i> d_dma: '<i>default</i>' }).submit();
+</code></pre>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Präfix für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
+>* [Voraussetzungen für das Präfix für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
 
 
 ## afterResult {#afterresult}
 
-Eine Funktion, die nach dem Rückruf für die Standardzielveröffentlichung ausgeführt wird.
+Eine Funktion, die nach dem Rückruf beim Veröffentlichen des Standardziels ausgeführt wird.
 
 <!-- 
 
@@ -211,33 +194,28 @@ r_dil_after_result.xml
 
  -->
 
-**Funktionssignatur:**`afterResult: function (fn) {}`
+**** Funktionssignatur: `afterResult: function (fn) {}`
 
 >[!NOTE]
 >
->Sie können andere API-Aufrufe an diese Methode verketten.
+>Sie können andere API-Aufrufe mit dieser Methode verketten.
 
 **Parameter**
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `fn` | Funktion | Die Funktion, die Sie ausführen möchten, nachdem JSON ausgeführt wurde, wird vom Standardrückruf verarbeitet, der die Zielveröffentlichung verarbeitet. |
+| `fn` | Funktion | Die Funktion, die nach der Verarbeitung von JSON ausgeführt werden soll, wird durch den standardmäßigen Rückruf verarbeitet, der die Zielveröffentlichung verarbeitet. |
 
 **Antwort**
 
-Returns an API object of the current [!UICONTROL DIL] instance.
+Gibt ein API-Objekt der aktuellen [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>', 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>', containerNSID: <i>containerNSID</i> }); 
  
-Datalib. api. signs ({ 
- c_ zdid: <i>54321</i> 
- d_ dma: '<i>default</i>'}). 
-afterresult (function (json) { 
- //Do Sie etwas mit den JSON-Daten, die vom Server zurückgegeben werden. 
+dataLib.api.signals({ c_zdid: <i>54321</i> d_dma: '<i>default</i>' }).afterResult(function(json){ //Tun Sie etwas mit den JSON-Daten, die vom Server zurückgegeben werden. 
 }).submit();
 </code></pre>
 
@@ -251,36 +229,29 @@ r_dil_clear_data.xml
 
  -->
 
-**Funktionssignatur:**`clearData: function () {}`
+**** Funktionssignatur: `clearData: function () {}`
 
 >[!NOTE]
 >
->Sie können andere API-Aufrufe an diese Methode verketten.
+>Sie können andere API-Aufrufe mit dieser Methode verketten.
 
 **Antwort**
 
-Returns the API object of the current [!UICONTROL DIL] instance.
+Gibt das API-Objekt der aktuellen [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>', 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>', containerNSID: <i>containerNSID</i> }); 
  
-Datalib. api. properties ([<i>123.456, 789</i>]). logs ({ 
- Datei: ' dil. js ' 
- message: Dies ist die erste Anforderung}}). 
-sign({ 
- c_ zdid: <i>1111</i> 
- d_ dma: '<i>default</i>'}); 
+dataLib.api.traits([<i>123,456, 789</i>]).logs({ file: Meldung "dil.js": 'Dies ist die erste Anforderung' }).signals({ c_zdid: <i>111</i> d_dma: '<i>default</i>' }); 
  
-//Reset the ausstehende data 
-datalib. cleardata ();</code>
-</pre>
+//Zurücksetzen der ausstehenden dataLib.clearData();
+</code></pre>
 
 ## customQueryParams {#customqueryparams}
 
-Fügt benutzerdefinierte Abfrageparameter hinzu, die nicht explizit vom Datenerfassungsserver einer ausstehenden Anforderung definiert werden.
+Fügt benutzerdefinierte Abfrageparameter hinzu, die nicht explizit vom Datenerfassungsserver zu einer ausstehenden Anforderung definiert wurden.
 
 <!-- 
 
@@ -288,15 +259,15 @@ r_dil_custom_query_params.xml
 
  -->
 
-**Funktionssignatur:**`customQueryParams: function (obj) {}`
+**** Funktionssignatur: `customQueryParams: function (obj) {}`
 
 >[!NOTE]
 >
->Sie können andere API-Aufrufe an diese Methode verketten.
+>Sie können andere API-Aufrufe mit dieser Methode verketten.
 
 **Reservierte Anforderungsschlüssel**
 
-Die folgenden Anforderungs-Schlüssel sind reserviert und können von dieser Methode nicht überschrieben werden:
+Die folgenden Anforderungsschlüssel sind reserviert und können mit dieser Methode nicht überschrieben werden:
 
 * `sids`
 * `pdata`
@@ -311,17 +282,14 @@ Gibt das API-Objekt der aktuellen DIL-Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var partnerobject = DIL. create ({ 
- Partner: '<i>partner</i>', 
- Containernsid: <i>NSID</i> }); 
-Partnerobject. api. customqueryparams ({ 
- nid: 54231, 
- ntype: ' default '});</code>
-</pre>
+<pre><code>
+var partnerObject = DIL.create({ partner: '<i>partner</i>', containerNSID: <i>NSID</i> }); 
+partnerObject.api.customQueryParams({ nid: 54231, Typ: 'default' }); 
+</code></pre>
 
 ## getContainerNSID {#getcontainernsid}
 
-Returns the value of the container NSID for the [!UICONTROL DIL] instance. Nützlich für Debugging und Fehlerbehebung.
+Gibt den Wert der Container-NSID für die [!UICONTROL DIL] Instanz zurück. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -329,21 +297,19 @@ r_dil_get_container_nsid.xml
 
  -->
 
-**Funktionssignatur:**`dil.api.getContainerNSID: function () {}`
+**** Funktionssignatur: `dil.api.getContainerNSID: function () {}`
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>', 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>', containerNSID: <i>containerNSID</i> }); 
  
-//Verify the container NSID 
-var nsid = datalib. api. getcontainernsid ();</code>
-</pre>
+//Container NSID var nsid = dataLib.api.getContainerNSID() überprüfen;
+</code></pre>
 
 ## getEventLog {#geteventlog}
 
-Gibt chronologisch sortierte Ereignisprotokolldaten als Array von Zeichenfolgen zurück. Nützlich für Debugging und Fehlerbehebung.
+Gibt chronologisch sortierte Ereignisprotokolldaten als Zeichenfolgen-Array zurück. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -351,32 +317,23 @@ r_dil_get_event_log.xml
 
  -->
 
-**Funktionssignatur:**`dil.api.getEventLog: function () {}`
+**** Funktionssignatur: `dil.api.getEventLog: function () {}`
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>', 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>', containerNSID: <i>containerNSID</i> }); 
  
-Datalib. api. properties ([<i>123, 456, 789</i>]). logs ({ 
- Datei: ' dil. js ', 
- message: ' Dies ist die erste Anforderung '}); . sign ({ 
- c_ zdid: <i>1111</i> 
- d_ dma: '<i>default</i>'}); . submit (); 
+dataLib.api.traits([<i>123, 456, 789</i>]).logs({ file: "dil.js", Meldung: 'Dies ist die erste Anforderung' });.signals({ c_zdid: <i>111</i> d_dma: '<i>default</i>' });.submit(); 
  
-//Check log for messages 
-var log = datalib. api. geteventlog (); 
-if (log &amp; &amp; log. length) { 
- alert (log. join ('\ n ')); 
-} else { 
- alert (' No log messages '); 
-}</code>
-</pre>
+//Protokoll für Meldungen überprüfen var log = dataLib.api.getEventLog(); 
+if (log &amp;&amp; log.length) { alert(log.join('\n')); 
+else{ alert('Keine Protokollmeldungen'); 
+}</code></pre>
 
 ## getPartner {#getpartner}
 
-Returns the partner name for a [!UICONTROL DIL] instance. Nützlich für Debugging und Fehlerbehebung.
+Gibt den Partnernamen für eine [!UICONTROL DIL] Instanz zurück. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -384,21 +341,19 @@ r_dil_get_partner.xml
 
  -->
 
-**Funktionssignatur:**`dil.api.getPartner: function () {}`
+**** Funktionssignatur: `dil.api.getPartner: function () {}`
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>' 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>' containerNSID: <i>containerNSID</i> }); 
  
-//Verify the partner name 
-var partner = datalib. api. getpartner ();</code>
-</pre>
+//Überprüfen Sie den Partnernamen var partner = dataLib.api.getPartner();
+</code></pre>
 
 ## getState {#getstate}
 
-Returns the state of the current [!UICONTROL DIL] instance. Nützlich für Debugging und Fehlerbehebung.
+Gibt den Status der aktuellen [!UICONTROL DIL] Instanz zurück. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -406,65 +361,22 @@ r_dil_get_state.xml
 
  -->
 
-**Funktionssignatur:**`dil.api.getState: function () {}`
+**** Funktionssignatur: `dil.api.getState: function () {}`
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>', 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>', containerNSID: <i>containerNSID</i> }); 
  
-Datalib. api. properties ([<i>123, 456, 789</i>]). logs ({ 
- Datei: ' dil. js ', 
- message: ' Dies ist die erste Anforderung '}); . sign ({ 
- c. zdid: <i>1111</i> 
- d_ dma: '<i>default</i>'}); . submit (); 
+dataLib.api.traits([<i>123, 456, 789</i>]).logs({ file: 'dil.js', message:'Dies ist die erste Anforderung' });.signals({ c.zdid: <i>111</i> d_dma: '<i>default</i>' });.submit(); 
  
-var state = datalib. api. getstate (); 
+var state = dataLib.api.getState(); 
  
-/* Objektgliederung von Bundesstaat 
-= {{ 
- Pendingrequest: {<i>ausstehende Daten für den Aufruf an server</i>}, 
- Otherrequestinfo: { 
- Firingqueue: [], 
- ausgelöst: [], 
- Auslösen: false, 
- errored: [], 
- Reservedkeys: { 
- Sids: true, 
- pdata: true, 
- logdata: true, 
- callback: true, 
- Postcallbackfn: true, 
- Useideparequest: true, 
- }, 
- Firstrequesthasausgelöst: false, 
- num_ of_ jsonp_ responses: 0, 
- num_ of_ jsonp_ errors: 0, 
- num_ of_ img_ responses: 0, 
- num_ of_ img_ errors: 0 
- }, 
- Destinationpublishinginfo: { 
- THROTTLE_ START: 3000, 
- Throttletimerset: false, 
- id: " destination_ publishing_ iframe_' + partner +'_' + containernsid, 
- url: (Konstanten. ishttps? ' https://': ' https://fast.') + partner +' .demdex.net/dest3.html?d_nsid=' 
- + Containernsid +' #' + encodeuricomponent (document. location. href), 
- iframe: null, 
- Iframehasloaded: false, 
- Sendingmessages: false, 
- Nachrichten: [], 
- Messagesendinginterval: konstanten. POST_ MESSAGE_ ENABLED? 15: 100, 
-               //Recommend 100ms for IE 6 &amp; 7, 15ms for other browsers 
-               jsonProcessed: [] 
-     } 
-} 
-*/
-</code></pre>
+/*Objektbeschreibung des Status = { pendingRequest: {<i>ausstehende Daten für den Aufruf an den Server</i>}, otherRequestInfo:{ fireQueue: [], ausgelöst: [], ausgelöst: false, Fehler: [], reservedKeys: { sids: true, pdata: true, logdata: true, callback: true, postCallbackFn: true, useImageRequest: true, }, firstRequestHasFired: false, num_of_jsonp_response: 0, num_of_jsonp_errors: 0, num_of_img_response: 0, num_of_img_errors: 0 }, destinationPublishingInfo: { THROTTLE_START: 3000, throttleTimerSet: false, id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, url: (constants.isHTTPS ? https://' : "https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' + containerNSID + '#' + encodeURIComponent(document.location.href), iframe: null, iframeHasLoaded: false, sendMessages: false, Meldungen: [], messageSendingInterval: constants.POST_MESSAGE_ENABLED ? 15: 100, //100 ms für IE 6 und 7 empfehlen, 15 ms für andere Browser jsonVerarbeitete: [] } } */</code></pre>
 
 ## idSync {#idsync}
 
-Besteht aus zwei Funktionen, mit denen Datenpartner Benutzer-IDs zwischen sich selbst und Audience Manager austauschen und synchronisieren können.
+Besteht aus zwei Funktionen, mit denen Datenpartner Benutzer-IDs untereinander und mit Audience Manager austauschen und synchronisieren können.
 
 <!-- 
 
@@ -474,7 +386,7 @@ r_dil_idsync.xml
 
 **Funktionssignatur:**
 
-Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
+Funktioniert mit [!UICONTROL DIL] Versionen 2.10 und 3.1 oder höher.
 
 <table id="table_ADC7501511914805A6A6B24B2DFEBA51"> 
  <thead> 
@@ -485,19 +397,19 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <code> dil. Instance. api. idsync (initconfig) </code> </td> 
-   <td colname="col2"> <p>Zwischen verschiedenen Datenpartnern und Audience Manager. Beispiel: Partner X verwendet dies zur Synchronisierung einer Benutzer-ID mit Partner Y und sendet diese dann an Audience Manager. </p> <p> <p><b>Wichtig:</b> Diese Methode wird nicht mehr unterstützt. Please use the <code> idSyncByURL </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
+   <td colname="col2"> <p>Zwischen verschiedenen Datenpartnern und Audience Manager. Partner x würde dies beispielsweise verwenden, um eine Benutzer-ID mit Partner y zu synchronisieren und diese dann an Audience Manager zu senden. </p> <p> <p><b></b> Wichtig:  Diese Methode ist veraltet. Bitte verwenden Sie die <code> idSyncByURL- </code> Methode der Experience Cloud ID-Dienstinstanz. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code> dil. Instance. api. aamidsync (initconfig) </code> </td> 
-   <td colname="col2"> <p>Wenn Sie die Benutzer-ID bereits kennen und sie an Audience Manager senden möchten. </p> <p> <p><b>Wichtig:</b> Diese Methode wird nicht mehr unterstützt. Please use the <code> idSyncByDataSource </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
+   <td colname="col2"> <p>Wenn Sie die Benutzer-ID bereits kennen und sie an Audience Manager senden möchten. </p> <p> <p><b></b> Wichtig:  Diese Methode ist veraltet. Bitte verwenden Sie die <code> idSyncByDataSource- </code> Methode der Experience Cloud ID-Dienstinstanz. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Idsync Elements**
+**idSync-Elemente**
 
-`idSync` kann aus Folgendem bestehen:
+`idSync` kann Folgendes umfassen:
 
 <table id="table_5343BE784E694C67B09A0A8878CF8001"> 
  <thead> 
@@ -537,34 +449,27 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
 
 * **`%TIMESTAMP%`:** Generiert einen Zeitstempel (in Millisekunden). Wird für das Cache-Busting verwendet.
 * **`%DID%`:** Fügt die Audience Manager-ID für den Benutzer ein.
-* **`%HTTP_PROTO%`:** Legt das Seitenprotokoll ( `http` oder `https`) fest.
+* **`%HTTP_PROTO%`** : Legt das Seitenprotokoll fest ( `http` oder `https`).
 
 **Antwort**
 
-Both functions return `Successfully queued` if successful. Falls nicht, wird eine Fehlermeldungszeichenfolge zurückgegeben.
+Beide Funktionen werden `Successfully queued` bei erfolgreichem Abschluss zurückgegeben. Falls nicht, wird eine Fehlermeldungszeichenfolge zurückgegeben.
 
 **Beispielcode**
 
 `dilInstance.api.idSync(initConfig)`
 
-<pre><code class="js">// URL Fires with macros replaced 
-dilinstance. api. idsync ({ 
- dpid: ' 23 ', // muss eine Zeichenfolge sein 
- url: '//su.addthis.com/red/usync?pid=16&amp;puid=%DID%&amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net 
-% 2 Fibs % 3 Adpid % 3 D 420% 26 dpuuid % 3 D % 7 B % 7 Buid % 7 D % 7 D ', 
- Minutestolive: 20160 // optional, Standard auf 20160 Minuten (14 Tage)});</code>
-</pre>
+<pre><code class="js">
+// URL mit Makros ersetzen dilInstance.api.idSync({ dpid: '23', // muss eine String-URL sein: '//su.addthis.com/red/usync?pid=16&amp;puid=%DID%&amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net %2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D', Minuten Live: 20160 // optional, standardmäßig 20160 Minuten (14 Tage) });
+</code></pre>
 
 `dilInstance.api.aamIdSync(initConfig)`
 
-<pre><code class="js">// Fires ' https:/https:' +'//dpm.demdex.net/ibs:dpid= &lt; dpid &gt; &amp; dpuuid = &lt; dpuuid &gt;' 
-dilinstance. api. aamidsync ({ 
- dpid: ' 23 ', // muss eine Zeichenfolge sein 
- dpuuid: ' 98765 ', // muss eine Zeichenfolge sein 
- Minutestolive: 20160 // optional, Standard auf 20160 Minuten (14 Tage)});</code>
-</pre>
+<pre><code class="js">
+// Fehlerbehebungen 'https:/https:' + '//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&amp;dpuuid=&lt;dpuuid&gt;' dilInstance.api.aamIdSync({ dpid: '23', // muss eine Zeichenfolge sein: '98765', // muss eine Zeichenfolge minToLive sein: 20160 // optional, standardmäßig 20160 Minuten (14 Tage) });
+</code></pre>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Synchronisierungsfunktionen im Experience Cloud ID-Dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 
@@ -579,38 +484,36 @@ r_dil_result.xml
 
  -->
 
-**Funktionssignatur:**`result: function (callback) {}`
+**** Funktionssignatur: `result: function (callback) {}`
 
-Dieser Rückruf ersetzt den Standardrückruf, der die Zielveröffentlichung verarbeitet.
+Dieser Rückruf ersetzt den Standard-Rückruf, der die Zielveröffentlichung behandelt.
 
 >[!NOTE]
 >
->Sie können andere API-Aufrufe an diese Methode verketten.
+>Sie können andere API-Aufrufe mit dieser Methode verketten.
 
 **Parameter**
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `callback` | Funktion | Javascript-Funktion, die vom JSONP-Rückruf ausgeführt wird. |
+| `callback` | Funktion | JavaScript-Funktion, die vom JSONP-Rückruf ausgeführt wird. |
 
 **Antwort**
 
-Returns the API object of the current [!UICONTROL DIL] instance.
+Gibt das API-Objekt der aktuellen [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>', 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner: '<i>partnerName</i>', containerNSID: <i>containerNSID</i> }); 
  
-Datalib. api. properties ([<i>123, 456, 789</i>]). result (function (json) { 
- //Do Sie etwas, möglicherweise mit den JSON-Daten, die vom Server zurückgegeben werden. 
+dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){ //Tun Sie etwas, möglicherweise mit den JSON-Daten, die vom Server zurückgegeben werden. 
 });.submit();
 </code></pre>
 
-## secureDataCollection {#securedatacollection}
+##  secureDataCollection {#securedatacollection}
 
-`secureDataCollection` ein boolescher Parameter, der steuert, wie [!UICONTROL DIL] Aufrufe an [!UICONTROL Data Collection Servers (DCS)] und Akamai gesendet werden.
+`secureDataCollection` ist ein boolescher Parameter, der steuert, wie [!UICONTROL DIL] Aufrufe an die [!UICONTROL Data Collection Servers (DCS)] und Akamai gesendet werden.
 
 <!-- 
 
@@ -618,27 +521,27 @@ dil-secure-data-collection.xml
 
  -->
 
-* When `secureDataCollection= true` (default), [!UICONTROL DIL] always makes secure, HTTPS calls.
+* Wenn `secureDataCollection= true` (Standard), erfolgt [!UICONTROL DIL] immer ein sicherer HTTPS-Aufruf.
 
-* When `secureDataCollection= false`, [!UICONTROL DIL] makes either HTTP or HTTPS calls by following the security protocol set by the page.
+* Wenn `secureDataCollection= false`erfolgt [!UICONTROL DIL] entweder HTTP- oder HTTPS-Aufrufe gemäß dem von der Seite festgelegten Sicherheitsprotokoll.
 
 >[!IMPORTANT]
 >
->Set `secureDataCollection= false` if you use visitorAPI.js and [!UICONTROL DIL] on the same page. Siehe Codebeispiel unten.
+>Wird eingestellt, `secureDataCollection= false` wenn Sie visitorAPI.js und [!UICONTROL DIL] auf derselben Seite verwenden. Siehe Codebeispiel unten.
 
-<pre><code class="js">var dilinstance = DIL. create ({ 
- … 
- Securedatacollection: false});</code>
-</pre>
+<pre><code class="js">
+var dilInstance = DIL.create({ ... 
+     secureDataCollection: false });
+</code></pre>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [DIL erstellen](../dil/dil-class-overview/dil-create.md#dil-create)
 
 
 ## useCORSOnly {#usecorsonly}
 
-`useCORSOnly` ist ein boolescher true/false-Parameter, der steuert, wie der Browser Ressourcen aus anderen Domänen anfordert.
+`useCORSOnly` ist ein boolescher true/false-Parameter, der steuert, wie der Browser Ressourcen von anderen Domänen anfordert.
 
 <!-- 
 
@@ -648,33 +551,33 @@ dil-use-cors-only.xml
 
 **Übersicht**
 
-`useCORSOnly` ist standardmäßig falsch. False bedeutet, dass der Browser Ressourcenprüfungen mit CORS oder JSONP durchführen kann. However, [!UICONTROL DIL] always tries to request resources with CORS first. Bei älteren Browsern, die CORS nicht unterstützen, wird auf JSONP zurückgegriffen. If you need to force the browser to use CORS only, such as with sites that have high-security requirements, set `useCORSOnly:true`.
+`useCORSOnly` ist standardmäßig false. False bedeutet, dass der Browser Ressourcenprüfungen mit CORS oder JSONP durchführen kann. Es wird jedoch [!UICONTROL DIL] immer versucht, zunächst Ressourcen mit CORS anzufordern. Bei älteren Browsern, die CORS nicht unterstützen, wird auf JSONP zurückgegriffen. Wenn Sie den Browser zwingen müssen, nur CORS zu verwenden, z. B. bei Sites mit hohen Sicherheitsanforderungen, setzen Sie `useCORSOnly:true`.
 
 **Codebeispiel**
 
-<pre><code class="js">var dilinstance = DIL. create ({ 
- … 
- Usecorsonly: true});</code>
-</pre>
+<pre><code class="js">
+var dilInstance = DIL.create({ ... 
+     useCORSOnly: true });
+</code></pre>
 
 >[!IMPORTANT]
 >
->* We recommend that you set `useCORSOnly: true` only when you're sure that your site visitors have browsers that support this feature.
->* When `useCORSOnly: true`, [!UICONTROL DIL] will not make ID calls from Internet Explorer version 9 or older.
+>* Es wird empfohlen, diese Einstellung `useCORSOnly: true` nur dann vorzunehmen, wenn Sie sicher sind, dass Ihre Site-Besucher Browser haben, die diese Funktion unterstützen.
+>* Ab `useCORSOnly: true`diesem Zeitpunkt [!UICONTROL DIL] werden keine ID-Aufrufe von Internet Explorer Version 9 oder älter durchgeführt.
 >
 
 
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID-Dienst: Usecorsonly](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-use-cors-only.html)
+>* [DIL erstellen](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Experience Cloud ID-Dienst: UseCORSOnly](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-use-cors-only.html)
 >* [CORS-Unterstützung im Experience Cloud ID-Dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-cors.html)
 
 
 ## useImageRequest {#useimagerequest}
 
-Changes the request type to image `<img>` from script `<src>`.
+Ändert den Anforderungstyp in Bild `<img>` aus Skript `<src>`.
 
 <!-- 
 
@@ -682,22 +585,21 @@ r_dil_use_image_request.xml
 
  -->
 
-**Funktionssignatur:**`useImageRequest: function () {}`
+**** Funktionssignatur: `useImageRequest: function () {}`
 
 >[!NOTE]
 >
->Sie können andere API-Aufrufe an diese Methode verketten.
+>Sie können andere API-Aufrufe mit dieser Methode verketten.
 
 **Antwort**
 
-Returns an API object of the current [!UICONTROL DIL] instance.
+Gibt ein API-Objekt der aktuellen [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
-<pre><code>var datalib = DIL. create ({ 
- Partner: '<i>Partnername</i>', 
- Containernsid: <i>Containernsid</i> }); 
+<pre><code>
+var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> }); 
  
-Datalib. api. properties ([<i>123, 456, 789</i>]). useideparequest (). submit ();</code>
-</pre>
+dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
+</code></pre>
 
