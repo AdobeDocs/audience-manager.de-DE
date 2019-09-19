@@ -1,34 +1,34 @@
 ---
-description: Der Bericht "Individuelle Benutzerreichweite" gibt Daten in einem Punktdiagramm zurück. Jede Blase wird im direkten Verhältnis zur Anzahl der Unique Users für Ihre ausgewählte Dimension skaliert. Eine größere Blase deutet auf größere Reichweite hin als auf eine kleinere Blase. Der Bericht "Individuelle Benutzerreichweite" hilft Ihnen, den Advertiser, die Marke, die Kampagne, das kreative Element, die Platzierung oder die Site zu finden, die die größtmögliche Reichweite gegenüber Ihren Zielbenutzern bietet.
-seo-description: Der Bericht "Individuelle Benutzerreichweite" gibt Daten in einem Punktdiagramm zurück. Jede Blase wird im direkten Verhältnis zur Anzahl der Unique Users für Ihre ausgewählte Dimension skaliert. Eine größere Blase deutet auf größere Reichweite hin als auf eine kleinere Blase. Der Bericht "Individuelle Benutzerreichweite" hilft Ihnen, den Advertiser, die Marke, die Kampagne, das kreative Element, die Platzierung oder die Site zu finden, die die größtmögliche Reichweite gegenüber Ihren Zielbenutzern bietet.
+description: Der Bericht "Individuelle Benutzerreichweite"gibt Daten in einem Punktdiagramm zurück. Die Größe der Blasen richtet sich nach der Anzahl der individuellen Benutzer für die ausgewählte Dimension. Eine größere Blase deutet auf eine größere Reichweite als eine kleinere Blase hin. Der Bericht "Individuelle Benutzerreichweite"hilft Ihnen bei der Suche nach dem Anbieter, der Marke, der Kampagne, dem kreativen Element, der Platzierung oder der Site, der bzw. die die größtmögliche Reichweite gegenüber Ihren Zielnutzern bietet.
+seo-description: Der Bericht "Individuelle Benutzerreichweite"gibt Daten in einem Punktdiagramm zurück. Die Größe der Blasen richtet sich nach der Anzahl der individuellen Benutzer für die ausgewählte Dimension. Eine größere Blase deutet auf eine größere Reichweite als eine kleinere Blase hin. Der Bericht "Individuelle Benutzerreichweite"hilft Ihnen bei der Suche nach dem Anbieter, der Marke, der Kampagne, dem kreativen Element, der Platzierung oder der Site, der bzw. die die größtmögliche Reichweite gegenüber Ihren Zielnutzern bietet.
 seo-title: Eindeutige Benutzerreichweite
 solution: Audience Manager
 title: Eindeutige Benutzerreichweite
-uuid: 897245 ab-af 6 e -42 a 0-b 653-96703 b 65 c 764
+uuid: 897245ab-af6e-42a0-b653-96703b65c764
 translation-type: tm+mt
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
 
 
-# Unique User Reach{#unique-user-reach}
+# Eindeutige Benutzerreichweite{#unique-user-reach}
 
-Der Bericht "Individuelle Benutzerreichweite" gibt Daten in einem Punktdiagramm zurück. Jede Blase wird im direkten Verhältnis zur Anzahl der Unique Users für Ihre ausgewählte Dimension skaliert. Eine größere Blase deutet auf größere Reichweite hin als auf eine kleinere Blase.
+Der Bericht "Individuelle Benutzerreichweite"gibt Daten in einem Punktdiagramm zurück. Die Größe der Blasen richtet sich nach der Anzahl der individuellen Benutzer für die ausgewählte Dimension. Eine größere Blase deutet auf eine größere Reichweite als eine kleinere Blase hin.
 
-Der Bericht "Individuelle Benutzerreichweite" hilft Ihnen, den Advertiser, die Marke, die Kampagne, das kreative Element, die Platzierung oder die Site zu finden, die die größtmögliche Reichweite gegenüber Ihren Zielbenutzern bietet.
+Der Bericht "Individuelle Benutzerreichweite"hilft Ihnen bei der Suche nach dem Anbieter, der Marke, der Kampagne, dem kreativen Element, der Platzierung oder der Site, der bzw. die die größtmögliche Reichweite gegenüber Ihren Zielnutzern bietet.
 
 >[!NOTE]
 >
 >Bedenken Sie Folgendes:
 >
->* The [!UICONTROL Unique User Reach] report displays information only for users with [!UICONTROL Admin] permission levels. Your [!DNL Audience Manager] consultant or Customer Care can provision your account with [!UICONTROL Admin] permissions.
+>* Der [!UICONTROL Unique User Reach] Bericht zeigt Informationen nur für Benutzer mit [!UICONTROL Admin] Berechtigungsstufen an. Ihr [!DNL Audience Manager] Berater oder die Kundenunterstützung können Ihrem Konto [!UICONTROL Admin] Berechtigungen erteilen.
    >
    >
-* Die Look-back-Zeiträume von 7 Tagen und 30 Tagen sind nur für Sonntag verfügbar.
+* 7- und 30-Tage-Lookback-Zeiten sind nur für Sonntage verfügbar.
 
 
 ## Beispielbericht
 
-Your [!UICONTROL Unique User Reach] report could look similar to the one below. Klicken Sie in Ihrem Bericht auf ein Punktdiagramm, um die zugrunde liegenden Daten anzuzeigen.
+Ihr [!UICONTROL Unique User Reach] Bericht könnte dem unten stehenden ähneln. Klicken Sie in Ihrem Bericht auf eine Blase, um die zugrunde liegenden Daten anzuzeigen.
 
 ![](assets/unique-user-reach.png)
