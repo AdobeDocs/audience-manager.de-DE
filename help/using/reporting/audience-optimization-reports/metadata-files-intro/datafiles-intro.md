@@ -1,9 +1,9 @@
 ---
 description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten zur Zielgruppenoptimierung anzeigen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
 seo-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten zur Zielgruppenoptimierung anzeigen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
-seo-title: Datendateien für Zielgruppenoptimierungsberichte
+seo-title: ' Datendateien für Zielgruppenoptimierungsberichte'
 solution: Audience Manager
-title: Datendateien für Zielgruppenoptimierungsberichte
+title: ' Datendateien für Zielgruppenoptimierungsberichte'
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
 source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
@@ -11,7 +11,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 ---
 
 
-# Datendateien für Zielgruppenoptimierungsberichte{#data-files-for-audience-optimization-reports}
+#  Datendateien für Zielgruppenoptimierungsberichte{#data-files-for-audience-optimization-reports}
 
 Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten zur Zielgruppenoptimierung anzeigen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
 
