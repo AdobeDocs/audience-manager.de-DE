@@ -1,19 +1,19 @@
 ---
-description: Beschreibt die zugrunde liegende Software, die die interaktiven Berichte und den Zeitplan für die Datenaktualisierung ausweist.
-seo-description: Beschreibt die zugrunde liegende Software, die die interaktiven Berichte und den Zeitplan für die Datenaktualisierung ausweist.
-seo-title: Berichtstechnologie
+description: Beschreibt die zugrunde liegende Software, die interaktive Berichte und den Zeitplan für die Datenaktualisierung nutzt.
+seo-description: Beschreibt die zugrunde liegende Software, die interaktive Berichte und den Zeitplan für die Datenaktualisierung nutzt.
+seo-title: Berichttechnologie
 solution: Audience Manager
-title: Berichtstechnologie
-uuid: 5 f 3 d 815 b-e 1 e 6-42 f 2-b 848-ac 035 a 5 aa 77 d
+title: Berichttechnologie
+uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
 source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
 
 ---
 
 
-# Report Technology{#report-technology}
+# Berichttechnologie{#report-technology}
 
-Beschreibt die zugrunde liegende Software, die die interaktiven Berichte und den Zeitplan für die Datenaktualisierung ausweist.
+Beschreibt die zugrunde liegende Software, die interaktive Berichte und den Zeitplan für die Datenaktualisierung nutzt.
 
 <!-- 
 
@@ -21,22 +21,22 @@ c_report_technology.xml
 
  -->
 
-## Interaktive Berichte verwenden Tableau-Technologie
+## Interaktive Berichte - Tableau-Technologie
 
-[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) -Software, um Daten in den interaktiven Berichten anzuzeigen. With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you:
+[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) -Software, um Daten in den interaktiven Berichten anzuzeigen. Darüber [!DNL Tableau]hinaus verwenden die [!UICONTROL Delivery and Overlap] Berichte visuelle Hinweise und Symbole, die Ihnen helfen,
 
-* Finden Sie hohe und niedrige Leistungseigenschaften.
-* Volltoneigenschaften und Segmente mit niedrigem und hoher individueller Besucher.
-* Verwenden Sie Überlappungsdaten, um zielgerichtete Segmente zu erstellen.
-* Erweitern Sie die Reichweite, indem Sie verwandte Eigenschaften mit geringer Überlappung identifizieren.
+* Finden Sie Leistungsmerkmale mit hoher und niedriger Leistung.
+* Spotmerkmale und Segmente mit einer niedrigen und hohen Überschneidung bei Unique Visitor.
+* Verwenden Sie überlappende Daten, um zielgerichtete Segmente zu erstellen.
+* Erweitern Sie die Reichweite, indem Sie zugehörige Eigenschaften mit geringer Überschneidung identifizieren.
 
 ## Zeitplan für Datenaktualisierung
 
-Die Berichtsdaten werden pro Sonntag wöchentlich aktualisiert. Das Update verarbeitet Daten von Samstag (am Tag vor) zurück zum vorherigen Sonntag.
+Die Berichtsdaten werden jeden Sonntag wöchentlich aktualisiert. Die Aktualisierung verarbeitet Daten vom Samstag (dem Vortag) bis zum vorherigen Sonntag.
 
-## Shapes, Colors, and Sizes Used in Interactive Reports {#shapes-colors-sizes}
+## In interaktiven Berichten verwendete Formen, Farben und Größen {#shapes-colors-sizes}
 
-Die meisten interaktiven Berichte zeigen Ergebnisse mit unterschiedlichen Größen und Farben an. Dieses Anzeigeformat hilft Ihnen, die Daten visuell zu machen, ohne die Zeilen und Spalten von Zahlen durchblättern zu müssen.
+Die meisten interaktiven Berichte zeigen Ergebnisse mit Formen unterschiedlicher Größe und Farben an. Dieses Anzeigeformat hilft Ihnen, die Daten visuell zu verstehen, ohne durch Zeilen und Spalten von Zahlen blättern zu müssen.
 
 <!-- 
 
@@ -44,9 +44,9 @@ r_legend.xml
 
  -->
 
-### Berichtslegende
+### Report Legende
 
-In der folgenden Tabelle sind die Formen, Größen und Farben definiert, die in den dynamischen Berichten verwendet werden.
+Die folgende Tabelle definiert die in den dynamischen Berichten verwendeten Formen, Größen und Farben.
 
 <table id="table_EC180A96E3784FC6B81FCFB546C4A3FA"> 
  <thead> 
@@ -60,28 +60,28 @@ In der folgenden Tabelle sind die Formen, Größen und Farben definiert, die in 
    <td colname="col1"> <b>Formen</b> </td> 
    <td colname="col2"> 
     <ul id="ul_076773ABD0BB4CE6834ACFA8B3D6AC2E"> 
-     <li id="li_BBAB37A6EC1549B48C0E4D3BFAF7062C">Kreise weisen auf Ihre eigenen Erstanbietereigenschaften hin. </li> 
-     <li id="li_371331AE984A4A999CE0596EA13987E0">Quadrate weisen auf Eigenschaften von Drittanbietern hin. </li> 
+     <li id="li_BBAB37A6EC1549B48C0E4D3BFAF7062C">Kreise zeigen Ihre eigenen Eigenschaften von Erstanbietern an. </li> 
+     <li id="li_371331AE984A4A999CE0596EA13987E0">Quadrate geben Eigenschaften von Drittanbietern an. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Farben</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Red shades indicate <i>low</i> overlap. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Green shades indicate <i>high</i> overlap. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rote Farbtöne weisen auf eine <i>geringe</i> Überschneidung hin. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Schattierungen weisen auf eine <i>hohe</i> Überschneidung hin. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Größe</b> </td> 
-   <td colname="col2"> Die Größe erhöht oder verringert sich in direktem Verhältnis zu Reichweite (die Anzahl oder % der Klicks oder Unique Users in einer Eigenschaft oder einem Segment). </td> 
+   <td colname="col2"> Die Größe erhöht oder verringert sich in direktem Verhältnis zur Reichweite (die Anzahl oder % der Klicks oder Unique Users in einer Eigenschaft oder einem Segment). </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Report Icons and Tools Explained {#icons-tools-explained}
+## Berichtssymbole und -werkzeuge erläutert {#icons-tools-explained}
 
-Beschreibt, wie Sie die verschiedenen Symbolwerkzeuge in den dynamischen Berichten suchen und verwenden.
+Beschreibt das Suchen und Verwenden der verschiedenen Symbole, die in den dynamischen Berichten verwendet werden.
 
 <!-- 
 
@@ -91,7 +91,7 @@ r_icons.xml
 
 ### Datensymbole und Werkzeuge
 
-Unten in jedem dynamischen Berichtsfenster stehen die folgenden Symbole zur Verfügung. Die folgende Abbildung zeigt weitere Informationen zu diesen Werkzeugen.
+Die folgenden Symbole und Tools stehen am unteren Rand jedes dynamischen Berichtsfensters zur Verfügung. Die folgende Abbildung enthält weitere Informationen zu diesen Werkzeugen.
 
 ![](assets/tools_icons90.png)
 
@@ -99,32 +99,32 @@ Unten in jedem dynamischen Berichtsfenster stehen die folgenden Symbole zur Verf
 
 Mit diesen Tools können Sie Daten aus dem Bericht in vier verschiedene Formate exportieren.
 
-| Exportoption | Exportiert Daten |
+| Exportoption | Exportieren von Daten |
 |---|---|
-| **[!UICONTROL Image]** | Als Bild-Datei (. png). Nützlich, wenn Sie Berichtsdaten im ursprünglichen, grafischen Format herunterladen und freigeben möchten. |
+| **[!UICONTROL Image]** | Als Bild-Datei (.png). Nützlich, wenn Sie Berichtsdaten in ihrem ursprünglichen, grafischen Format herunterladen und freigeben möchten. |
 | **[!UICONTROL PDF]** | Als PDF-Datei. |
 | **[!UICONTROL Data]** | In einem neuen Browserfenster als numerische Daten in Spalten und Zeilen. |
-| **[!UICONTROL Crosstab]** | Als. csv-Datei. |
+| **[!UICONTROL Crosstab]** | Als .csv-Datei. |
 
-### Änderungen zurücksetzen
+### Änderungen wiederherstellen
 
-Wählen Sie dieses Tool aus, um interaktive Klicks rückgängig zu machen, die Sie möglicherweise im Bericht vorgenommen haben.
+Wählen Sie dieses Tool, um alle interaktiven Klickänderungen rückgängig zu machen, die Sie möglicherweise für den Bericht vorgenommen haben.
 
 ### Automatische Updates
 
-The [!UICONTROL Delivery-Performance] and [!UICONTROL Trait-to-Trait Overlap] reports are dynamic reports that respond and change based on user click actions.
+Bei den Berichten [!UICONTROL Delivery-Performance] und [!UICONTROL Trait-to-Trait Overlap] Berichten handelt es sich um dynamische Berichte, die je nach Benutzerklick-Aktionen reagieren und sich ändern.
 
-For example, say you want to select several advertisers in the [!UICONTROL Overlap] report. Wenn diese Option aktiviert ist, werden die automatischen Updates gestartet, sobald Sie ein Kontrollkästchen aktivieren. Dieses dynamische Verhalten kann Ihren Arbeitsablauf stören, da Sie warten müssen, bis der Bericht die Verarbeitung abgeschlossen hat, bevor Sie einen anderen Advertiser auswählen. Verwenden Sie dieses Werkzeug, um die Funktion (und wieder) nach Bedarf zu deaktivieren.
+Angenommen, Sie möchten im [!UICONTROL Overlap] Bericht mehrere Advertiser auswählen. Wenn diese Option aktiviert ist, werden die Daten bei automatischen Aktualisierungen zurückgegeben, sobald Sie ein Kontrollkästchen aktivieren. Dieses dynamische Verhalten kann Ihren Workflow unterbrechen, da Sie warten müssen, bis der Bericht fertig verarbeitet ist, bevor Sie einen anderen Anbieter auswählen. Verwenden Sie dieses Tool, um diese Funktion nach Bedarf zu deaktivieren (und wieder einzuschalten).
 
 ### Daten aktualisieren
 
-Klicken Sie auf das Aktualisierungssymbol, um einen Bericht auszuführen oder Ihren Datensatz neu zu laden. Wenn automatische Updates deaktiviert sind, klicken Sie auf Aktualisieren, um den Bericht auszuführen oder zu aktualisieren.
+Klicken Sie auf das Aktualisierungssymbol, um einen Bericht auszuführen oder den Datensatz neu zu laden. Wenn die automatischen Aktualisierungen deaktiviert sind, klicken Sie auf Aktualisieren, um den Bericht auszuführen oder zu aktualisieren.
 
-### Suchtool
+### Suchwerkzeug
 
-Die Suche wird durch ein generisches Lupensymbol dargestellt (nicht angezeigt). Das Suchfeld wird ausgeblendet, bis Sie auf der linken Seite des Bildschirms auf die Auswahlbeschriftungen klicken. Die folgende Tabelle beschreibt den Ort des Suchtools für jeden Bericht.
+Die Suche wird durch ein generisches Lupensymbol dargestellt (nicht angezeigt). Das Suchfeld wird ausgeblendet, bis Sie auf die Auswahlbeschriftungen links im Bildschirm klicken. Die nachstehende Tabelle beschreibt die Position des Suchwerkzeugs für jeden Bericht.
 
-| Bericht | Um Suche zu suchen, bewegen Sie den Mauszeiger über den |
+| Bericht | Um die Suche zu finden, halten Sie den Mauszeiger über |
 |---|---|
-| [!UICONTROL Delivery and Performance] anzeigen | Die Bezeichnung "Advertisername" . |
-| [!UICONTROL Overlap] Berichte | Die Bezeichnung "SID-Name" . |
+| [!UICONTROL Delivery and Performance] anzeigen | Die Beschriftung "Name des Advertisers". |
+| [!UICONTROL Overlap] Berichte | Die Beschriftung "SID-Name". |
