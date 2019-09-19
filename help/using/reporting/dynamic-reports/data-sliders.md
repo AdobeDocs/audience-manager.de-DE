@@ -1,19 +1,19 @@
 ---
-description: Verwenden Sie die verschiedenen Berichtsschieberegler, um nur die obigen, unterhalb oder innerhalb des angegebenen Bereichs anzuzeigen.
-seo-description: Verwenden Sie die verschiedenen Berichtsschieberegler, um nur die obigen, unterhalb oder innerhalb des angegebenen Bereichs anzuzeigen.
-seo-title: Berichtsergebnisse mit den Datenreglern filtern
+description: Verwenden Sie die verschiedenen Berichtsschieber, um nur die Daten anzuzeigen, die über, unter oder innerhalb des angegebenen Bereichs liegen.
+seo-description: Verwenden Sie die verschiedenen Berichtsschieber, um nur die Daten anzuzeigen, die über, unter oder innerhalb des angegebenen Bereichs liegen.
+seo-title: Filtern von Berichtsergebnissen mit den Datenreglern
 solution: Audience Manager
-title: Berichtsergebnisse mit den Datenreglern filtern
-uuid: ec 486 d 97-d 1 d 9-469 b-b 8 df -5821 f 30 d 10 ee
+title: Filtern von Berichtsergebnissen mit den Datenreglern
+uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Filter Report Results With the Data Sliders{#filter-report-results-with-the-data-sliders}
+# Filtern von Berichtsergebnissen mit den Datenreglern{#filter-report-results-with-the-data-sliders}
 
-Verwenden Sie die verschiedenen Berichtsschieberegler, um nur die obigen, unterhalb oder innerhalb des angegebenen Bereichs anzuzeigen.
+Verwenden Sie die verschiedenen Berichtsschieber, um nur die Daten anzuzeigen, die über, unter oder innerhalb des angegebenen Bereichs liegen.
 
 <!-- 
 
@@ -21,14 +21,14 @@ c_reach_slider.xml
 
  -->
 
-**Festlegen eines niedrigeren/oberen Bereichs für Berichtsergebnisse mit den Datenreglern**
+**Legen Sie einen unteren/oberen Bereich für die Berichtsergebnisse mit den Datenreglern fest.**
 
-Mit den Berichtsschiebereglern können Sie die von einem interaktiven Bericht zurückgegebenen Daten festlegen. Verschieben Sie den linken Schieberegler, um Daten unter einem bestimmten Wert auszuschließen. Verschieben Sie den rechten Regler, um Daten über einem bestimmten Wert auszuschließen. Der Bericht aktualisiert und gibt Daten zurück, die im gewünschten Bereich liegen. Verwenden Sie die Schieberegler:
+Mit den Berichtschiebereglern können Sie Beschränkungen für die von einem interaktiven Bericht zurückgegebenen Daten festlegen. Verschieben Sie den Schieberegler links, um Daten unter einem bestimmten Wert auszuschließen. Verschieben Sie den Schieberegler nach rechts, um Daten über einem bestimmten Wert auszuschließen. Der Bericht aktualisiert und gibt Daten zurück, die in den gewünschten Bereich fallen. Verwenden Sie die Schieberegler, um:
 
-* Reduzieren Sie die Gesamtanzahl der von den Berichten zurückgegebenen Daten.
+* Reduzieren Sie die von den Berichten zurückgegebene Datenmenge.
 * Konzentrieren Sie sich auf Eigenschaften oder Segmente, die in einen bestimmten Größenbereich fallen.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Die Datenfilter im Bericht "Segement-to-Trait-Überlappung «](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
+>* [Die Datenfilter im Bericht "Segment-zu-Eigenschaften-Überschneidung"](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 
