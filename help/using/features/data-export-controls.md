@@ -1,10 +1,10 @@
 ---
-description: Datenexportkontrollen verhindern, dass Sie Daten an Ziele senden, wenn diese Aktion Datenschutz- oder Datennutzungsvereinbarungen verletzt.
-seo-description: Datenexportkontrollen verhindern, dass Sie Daten an Ziele senden, wenn diese Aktion Datenschutz- oder Datennutzungsvereinbarungen verletzt.
+description: Mit den Datenexportkontrollen können Sie verhindern, dass Daten an Ziele gesendet werden, wenn diese Aktion Datenschutzvereinbarungen oder Datenverwendungsvereinbarungen verletzt.
+seo-description: Mit den Datenexportkontrollen können Sie verhindern, dass Daten an Ziele gesendet werden, wenn diese Aktion Datenschutzvereinbarungen oder Datenverwendungsvereinbarungen verletzt.
 seo-title: Datenexportkontrolle
 solution: Audience Manager
 title: Datenexportkontrolle
-uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
+uuid: de7f3608-c0cb-4049-973a-8be54525c600
 translation-type: tm+mt
 source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
@@ -13,41 +13,41 @@ source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
 # Datenexportkontrolle {#data-export-controls}
 
-[!UICONTROL Data Export Controls] verhindern, dass Daten an Ziele gesendet werden, wenn diese Aktion Datenschutz- oder Datennutzungsvereinbarungen verletzt.
+[!UICONTROL Data Export Controls] verhindern, dass Sie Daten an Ziele senden, wenn diese Aktion gegen Datenschutzvereinbarungen oder Datennutzungsvereinbarungen verstößt.
 
 ## Überblick {#overview}
 
-[!UICONTROL Data Export Controls] ermöglicht die Klassifizierung [von Datenquellen](../features/datasources-list-and-settings.md#data-sources-list-and-settings) und [Zielen](../features/destinations/destinations.md). Die von Ihnen angewandten Klassifizierungen bestimmen, wann Daten in ein Ziel exportiert werden können oder nicht. Diese Funktion besteht aus:
+[!UICONTROL Data Export Controls] können Sie [Datenquellen](../features/datasources-list-and-settings.md#data-sources-list-and-settings) und [Ziele](../features/destinations/destinations.md)klassifizieren. Die angewendeten Klassifizierungen bestimmen, wann Daten an ein Ziel exportiert werden können oder nicht. Diese Funktion umfasst:
 
-* **[!UICONTROL Data Export Controls]**: Sie können Datenexportsteuerelemente für *Datenquellen festlegen*. Wenn diese Einstellung in einer Datenquelle festgelegt ist, schränken diese Steuerelemente die Verwendung der Datenquelle und deren Eigenschaften ein.
-* **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen auf *Zielen festlegen*. Bei Festlegung auf einem Ziel identifizieren diese Beschriftungen, wie das Ziel Daten verwendet. Weitere [Informationen zum Hinzufügen von Exportbeschriftungen](/help/using/features/destinations/add-data-export-labels.md) zu einem Ziel finden Sie unter Datenexport-Beschriftungen hinzufügen.
+* **[!UICONTROL Data Export Controls]**: Sie können Datenexportsteuerelemente für *Datenquellen* festlegen. Wenn diese Steuerelemente in einer Datenquelle festgelegt sind, beschränken sie die Verwendung dieser Datenquelle und ihrer Eigenschaften.
+* **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen für *Ziele* festlegen. Wenn diese Beschriftungen auf einem Ziel festgelegt werden, wird angegeben, wie das Ziel Daten verwendet. Informationen zum Hinzufügen von Exportbeschriftungen zu einem Ziel finden Sie unter [Hinzufügen von Datenexportbeschriftungen zu einem Ziel](/help/using/features/destinations/add-data-export-labels.md) .
 
-Auf der Grundlage der auf eine Datenquelle und ein Ziel angewendeten Classifications werden Sie durch die Exportsteuerelemente vom folgenden abgebrochen:
+Basierend auf den Classifications, die auf eine Datenquelle und ein Ziel angewendet werden, verhindern die Exportsteuerelemente Folgendes:
 
-* Hinzufügen einer Eigenschaft zu einem Segment, wenn die Eigenschaft zu einer Datenquelle gehört, die über eine Datenexportsteuerung verfügt, die mit einer oder mehreren der Ziele, denen das Segment zugeordnet ist, nicht kompatibel ist.
-Angenommen, ein Segment wird einem Ziel mit der Exportbeschriftung **[!DNL This destination may enable a combination with personally identifiable information (PII)]** zugeordnet. Mit Exportsteuerelementen wird verhindert, dass Sie eine Eigenschaft zu diesem Segment hinzufügen, wenn die Datenquelle, zu der die Eigenschaft gehört, ein Datenexportsteuerelement enthält, das sagt **[!DNL Cannot be tied to personally identifiable information (PII)]**.
-* Wenn Sie Daten an ein Zielziel senden, wird eine Datenexportbeschriftung, die von einem Datenexportsteuerelement gesperrt wird, auf einer der folgenden Weisen gesperrt:
-   * Die Datenquelle einer einbezogenen Eigenschaft;
+* Hinzufügen einer Eigenschaft zu einem Segment, wenn die Eigenschaft zu einer Datenquelle mit einer Datenexportsteuerung gehört, die mit einer Datenexportbezeichnung für eines oder mehrere der Ziele, denen das Segment zugeordnet ist, nicht kompatibel ist.
+Beispiel: Ein Segment wird einem Ziel mit der Exportbeschriftung zugeordnet **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Exportsteuerelemente hindern Sie daran, diesem Segment eine Eigenschaft hinzuzufügen, wenn die Datenquelle, zu der die Eigenschaft gehört, über eine Datenexportkontrolle verfügt, die Folgendes besagt: **[!DNL Cannot be tied to personally identifiable information (PII)]**.
+* Das Senden von Daten an ein Ziel hat eine Datenexportbeschriftung, die von einem Datenexportsteuerelement blockiert wird für Folgendes:
+   * die Datenquelle einer eingeschlossenen Eigenschaft;
    * Die Datenquelle einer Eigenschaft, die in einem eingeschlossenen Segment verwendet wird;
-   * Die Regel zum Profilzusammenführen, die von einem einbezogenen Segment genutzt wird;
-   * Eine der Datenquellen, die die Profilregel für die Profilzusammenführung enthält.
+   * Die Regel zur Profilzusammenführung, die von einem eingeschlossenen Segment genutzt wird;
+   * Eine der Datenquellen, die von der Regel zum Zusammenführen von Segmenten verwendet werden.
 
-[!UICONTROL Data Export Controls] sind für alle Audience Manager-Kunden automatisch verfügbar. Sie benötigen jedoch Administratorrechte, um einer Datenquelle Exportsteuerelemente hinzuzufügen. Für das Hinzufügen von Beschriftungen zu einem Ziel sind Administratorrechte *oder* ausreichende Rechte erforderlich, um ein Ziel zu erstellen oder zu bearbeiten.
+[!UICONTROL Data Export Controls] automatisch für alle Audience Manager-Kunden verfügbar sind. Sie benötigen jedoch Administratorberechtigungen, um einer Datenquelle Exportsteuerelemente hinzuzufügen. Das Hinzufügen von Exportbeschriftungen zu einem Ziel erfordert Administratorberechtigungen *oder* ausreichende Berechtigungen zum Erstellen oder Bearbeiten eines Ziels.
 
 ## Definierte Steuerelemente und Beschriftungen {#controls-labels}
 
-[!UICONTROL Data Export Controls] Bereitstellen der folgenden Steuerelemente, um Datenquellen und Ziele zu klassifizieren.
+[!UICONTROL Data Export Controls] stellen Sie die folgenden Steuerelemente bereit, mit denen Sie Datenquellen und Ziele klassifizieren können.
 
-Um die Datenauslieferung zu blockieren, müssen Sie eine Datenquelle mit einem Exportsteuerelement klassifizieren und eine Exportbeschriftung zu einem Ziel hinzufügen. Wenn Sie nur die Exportsteuerelemente auf eine Datenquelle oder ein Ziel anwenden, wird die Datenauslieferung nicht eingeschränkt. Wenn sie sowohl für die Datenquelle *als auch für* das Ziel festgelegt werden, beschränken die Exportsteuerelemente die Eigenschaften, die Sie einem Segment hinzufügen können, und verhindert, dass die Segmentmitglieder an ein Ziel gesendet werden.
+Um die Datenbereitstellung zu blockieren, müssen Sie eine Datenquelle mit einer Exportsteuerung klassifizieren und eine Exportbeschriftung zu einem Ziel hinzufügen. Wenn Sie Exportsteuerelemente nur auf eine Datenquelle oder ein Ziel anwenden, schränkt diese Funktion die Datenbereitstellung nicht ein. Wenn diese Einstellung sowohl für die Datenquelle *als auch* das Ziel festgelegt wird, beschränken die Exportsteuerelemente die Eigenschaften, die Sie einem Segment hinzufügen können, und verhindern, dass die Segmentmitglieder an ein Ziel gesendet werden.
 
-Außerdem muss mindestens eine Exportbeschriftung mit einem Exportsteuerelement übereinstimmen, bevor die Datenauslieferungsbeschränkungen wirksam werden. Beispiel: Sie fügen das [!UICONTROL PII] Exportsteuerelement zu einer Datenquelle hinzu. Als Nächstes fügen Sie die Onsite-Targeting-Bezeichnung zu einem Ziel hinzu. In diesem Fall schränken Exportsteuerelemente die Datenauslieferung kein, da die Einstellungen nicht übereinstimmen. Wenn Sie jedoch die [!UICONTROL PII] Exportbeschriftung zum Ziel hinzufügen, blockiert die Exportsteuerelemente den Export.
+Darüber hinaus muss mindestens eine Exportbeschriftung mit einer Exportkontrolle übereinstimmen, bevor die Datenbereitstellungsbeschränkungen wirksam werden. Angenommen, Sie fügen einer Datenquelle das [!UICONTROL PII] Exportsteuerelement hinzu. Als Nächstes fügen Sie die Targeting-Bezeichnung auf der Site zu einem Ziel hinzu. In diesem Fall schränken Exportsteuerelemente die Datenauslieferung nicht ein, da die Einstellungen nicht übereinstimmen. Wenn Sie jedoch die [!UICONTROL PII] Exportbeschriftung zum Ziel hinzufügen, blockieren die Exportsteuerelemente den Export.
 
 >[!IMPORTANT]
 >
->Sie können den Export eines Segments nicht blockieren, indem Sie ein Datenexportsteuerelement in die Datenquelle des Segments platzieren. Sie müssen das Steuerelement entweder für Folgendes festlegen:
-> * Die Datenquellen der im Segment verwendeten Eigenschaften;
-> * Die Regel zum Profilzusammenführen, die vom Segment genutzt wird;
-> * Eine der Datenquellen, die die Profilregel des Segments enthält, verwendet.
+>Sie können den Export eines Segments nicht blockieren, indem Sie eine Datenexportkontrolle in der Datenquelle des Segments platzieren. Sie müssen das Steuerelement auf einen der folgenden Schritte festlegen:
+> * die Datenquellen der im Segment verwendeten Eigenschaften;
+> * Die vom Segment verwendete Regel zum Profilzusammenführen;
+> * Jede der Datenquellen, die von der Regel zum Zusammenführen von Segmenten verwendet wird.
 
 
 <br> 
@@ -56,7 +56,7 @@ Außerdem muss mindestens eine Exportbeschriftung mit einem Exportsteuerelement 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Datenexportsteuerelemente für eine Datenquelle </th> 
-   <th colname="col2" class="entry"> Datenexportbeschriftungen für ein Ziel </th> 
+   <th colname="col2" class="entry"> Datenexport-Bezeichnungen für ein Ziel </th> 
    <th colname="col3" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -64,42 +64,42 @@ Außerdem muss mindestens eine Exportbeschriftung mit einem Exportsteuerelement 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Keine Einschränkung</span></b> </td> 
    <td colname="col2"> Keine </td> 
-   <td colname="col3"> Standardmäßig werden Exportbeschränkungen für neue Datenquellen und Ziele nicht festgelegt. </td> 
+   <td colname="col3"> Standardmäßig werden für neue Datenquellen und Ziele keine Exportbeschränkungen festgelegt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Kann nicht an personenbezogene Informationen</span></b> (PII) gebunden werden </td> 
-   <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann eine Kombination mit personenbezogenen Informationen (PII) aktivieren.</span></b> </td> 
-   <td colname="col3">Wenn diese Option aktiviert ist, können Sie: 
+   <td colname="col1"> <b><span class="uicontrol"> Kann nicht mit persönlichen identifizierbaren Informationen</span></b> (PII) verknüpft werden </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann eine Kombination mit personenbezogenen Daten (PII) ermöglichen</span></b> </td> 
+   <td colname="col3">Bei Auswahl dieser Option ist Folgendes nicht möglich: 
     <ul id="ul_0D5A4D0373374217A4BACDFC3BB2F79D"> 
-     <li id="li_C32FC26C6E814412A1C73B840E81BB68">Fügen Sie Segmente zu Segmenten hinzu, die den Zielen zugeordnet sind, die PII verwenden. </li> 
-     <li id="li_BF4FD10807AF4E109CEA22FBD3F6F9B3">Ordnen Sie mit einer Eigenschaft erstellte Segmente von der Datenquelle an Ziele zu, die PII verwenden. </li> 
-    </ul> <p>Dies ist oft für Drittanbieter von Daten und bei der Verwendung von Datenquellen, die Anzeige-/Medienverfolgungsinformationen enthalten, erforderlich. </p> </td> 
+     <li id="li_C32FC26C6E814412A1C73B840E81BB68">Fügen Sie Eigenschaften zu Segmenten hinzu, die Zielen zugeordnet sind, die PII verwenden. </li> 
+     <li id="li_BF4FD10807AF4E109CEA22FBD3F6F9B3">Ordnen Sie mit einer Eigenschaft aus der Datenquelle erstellte Segmente Zielen zu, die PII verwenden. </li> 
+    </ul> <p>Dies wird häufig von Drittanbietern von Daten und bei der Verwendung von Datenquellen, die Anzeigen-/Medienverfolgungsinformationen enthalten, benötigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Kann nicht für das Targeting auf der Site verwendet werden</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann für das Targeting auf dem Site-Targeting verwendet werden.</span></b> </td> 
-   <td colname="col3">Wenn diese Option aktiviert ist, können Sie: 
+   <td colname="col1"> <b><span class="uicontrol"> Kann nicht für das Targeting von Onsite-Anzeigen verwendet werden</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann für Onsite-Anzeigen-Targeting verwendet werden</span></b> </td> 
+   <td colname="col3">Bei Auswahl dieser Option ist Folgendes nicht möglich: 
     <ul id="ul_5B17972E7E0C424A833AD540DFF3CBF2"> 
-     <li id="li_05810CEAC8CB4616BB2D52DDDADA84A8">Fügen Sie Segmente zu Segmenten hinzu, die Ziele zugeordnet sind, die die Anzeigenauslieferung basierend auf dem Webbrowserverlauf eines Besuchers anpassen. </li> 
-     <li id="li_B2C3479ECEA74F49B9A2CFDDEE128DF3">Ordnen Sie mit einer Eigenschaft erstellte Segmente von der Datenquelle zu Zielen zu, die die Anzeigenauslieferung basierend auf dem Webbrowserverlauf eines Besuchers anpassen. </li> 
+     <li id="li_05810CEAC8CB4616BB2D52DDDADA84A8">Fügen Sie Eigenschaften zu Segmenten hinzu, die Zielen zugeordnet sind, die die Anzeigenbereitstellung auf Grundlage des Webbrowserverlaufs eines Besuchers anpassen. </li> 
+     <li id="li_B2C3479ECEA74F49B9A2CFDDEE128DF3">Ordnen Sie Segmente, die mit einer Eigenschaft aus der Datenquelle erstellt wurden, Zielen zu, die die Anzeigenbereitstellung basierend auf dem Webbrowserverlauf eines Besuchers anpassen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Kann nicht für Targeting außerhalb der Site verwendet werden</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann für das Offsite-Targeting von Werbung verwendet werden.</span></b> </td> 
-   <td colname="col3">Diese Einschränkungen werden im Allgemeinen bei Auswahl verwendet: 
+   <td colname="col1"> <b><span class="uicontrol"> Kann nicht für Targeting von Offsite-Anzeigen verwendet werden</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann für Offsite-Anzeigen-Targeting verwendet werden</span></b> </td> 
+   <td colname="col3">Diese Einschränkungen werden im Allgemeinen mit Wenn ausgewählt verwendet. Sie können nicht: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
-     <li id="li_0F89583A603D4CD8804724954CFD52C6">Fügen Sie Segmente zu Segmenten hinzu, die Ziele zugeordnet sind, die Benutzer auf anderen Sites erneut ansprechen. </li> 
-     <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Ordnen Sie mit einer Eigenschaft erstellte Segmente von der Datenquelle zu Zielen zu, die Benutzer auf anderen Sites erneut ansprechen. </li> 
-    </ul> <p>Oft erforderlich, wenn Sie mit Daten aus sozialen Plattformen arbeiten. </p> </td> 
+     <li id="li_0F89583A603D4CD8804724954CFD52C6">Fügen Sie den Segmenten Eigenschaften hinzu, die Zielen zugeordnet sind, die Benutzer auf anderen Sites erneut ansprechen. </li> 
+     <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Ordnen Sie mit einer Eigenschaft aus der Datenquelle erstellte Segmente Zielen zu, die Benutzer auf anderen Sites erneut ansprechen. </li> 
+    </ul> <p>Wird häufig benötigt, wenn Daten von Social Media-Plattformen verarbeitet werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Kann nicht für Personalisierung auf der Site verwendet werden</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann für Personalisierung auf der Site verwendet werden.</span></b> </td> 
-   <td colname="col3">Wenn diese Option aktiviert ist, können Sie: 
+   <td colname="col1"> <b><span class="uicontrol"> Kann nicht für die Personalisierung vor Ort verwendet werden</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann für die Personalisierung von Onsite-Anzeigen verwendet werden</span></b> </td> 
+   <td colname="col3">Bei Auswahl dieser Option ist Folgendes nicht möglich: 
     <ul id="ul_3360EB209E07402A863F0E7473B99D3F"> 
-     <li id="li_88B3842B67E040EB9DC0BBEB8E5EC251">Fügen Sie Segmente zu Segmenten hinzu, die Ziele zugeordnet sind, die Inhalte basierend auf Benutzerinteressen oder dem Webbrowserverlauf anpassen. </li> 
-     <li id="li_6506254CCE6546039A3D82B60368C8B4">Ordnen Sie mit einer Eigenschaft erstellte Segmente von der Datenquelle zu Zielen zu, die Inhalte basierend auf Benutzerinteressen oder dem Webbrowserverlauf anpassen. </li> 
+     <li id="li_88B3842B67E040EB9DC0BBEB8E5EC251">Fügen Sie Eigenschaften zu Segmenten hinzu, die Zielen zugeordnet sind, die Inhalte auf Grundlage der Benutzerinteressen oder des Webbrowserverlaufs anpassen. </li> 
+     <li id="li_6506254CCE6546039A3D82B60368C8B4">Ordnen Sie Segmente, die mit einer Eigenschaft aus der Datenquelle erstellt wurden, Zielen zu, die Inhalte basierend auf Benutzerinteressen oder dem Web-Browsing-Verlauf anpassen. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -107,7 +107,7 @@ Außerdem muss mindestens eine Exportbeschriftung mit einem Exportsteuerelement 
 
 ## Arbeitsablauf{#workflow}
 
-Überprüfen Sie zunächst die Datenquelle und die Zieldokumentation. Diese Artikel enthalten Anweisungen zum Hinzufügen von Exportsteuerelementen und Bezeichnungen zu Ihren Datenquellen und Zielen.
+Lesen Sie zunächst die Dokumentation zu Datenquelle und Ziel. Diese Artikel enthalten Anweisungen zum Hinzufügen von Exportsteuerelementen und Beschriftungen zu Ihren Datenquellen und Zielen.
 
 * [Datenquelle erstellen](../features/manage-datasources.md#create-data-source)
-* [Datenexport-Beschriftungen zu einem Ziel hinzufügen](../features/destinations/add-data-export-labels.md)
+* [Hinzufügen von Datenexport-Bezeichnungen zu einem Ziel](../features/destinations/add-data-export-labels.md)
