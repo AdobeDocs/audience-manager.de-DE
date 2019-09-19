@@ -1,17 +1,17 @@
 ---
 description: Eine allgemeine Übersicht darüber, wie Audience Manager einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
 seo-description: Eine allgemeine Übersicht darüber, wie Audience Manager einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
-seo-title: Batch-Datenübertragungsprozess beschrieben
+seo-title: Stapeldatenübermittlungsprozess beschrieben
 solution: Audience Manager
-title: Batch-Datenübertragungsprozess beschrieben
-uuid: a 9 eee 940-151 c -44 f 8-9 fe 9-8 ab 47 d 8 fa 45 c
+title: Stapeldatenübermittlungsprozess beschrieben
+uuid: a9ee940-151c-44f8-9fe9-8ab47d8fa45c
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Batch Data Transfer Process Described {#batch-data-transfer-process-described}
+# Stapeldatenübermittlungsprozess beschrieben {#batch-data-transfer-process-described}
 
 Eine allgemeine Übersicht darüber, wie Audience Manager einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
 
@@ -19,18 +19,18 @@ Eine allgemeine Übersicht darüber, wie Audience Manager einen asynchronen Batc
 
 <!-- c_async.xml -->
 
-Der Batch-Datenintegrationsprozess speichert Besucherinformationen auf unseren Servern und synchronisiert dieses Material mit Daten, die von einem Anbieter in regelmäßigen Abständen gesendet werden. Der asynchrone Datenübertragungsprozess ist nützlich, wenn:
+Der Prozess der Batch-Datenintegration speichert Besucherinformationen auf unseren Servern und synchronisiert diese Materialien in regelmäßigen Abständen mit Daten, die von einem Anbieter gesendet werden. Der Prozess der asynchronen Datenübertragung ist nützlich, wenn:
 
-* Sofortige Datenübertragungen sind nicht erforderlich.
-* Erfassen von Daten, um einen großen Pool segmentierter Benutzer zu erstellen.
-* You want to reduce data discrepancies and `HTTP` calls from the browser.
+* Eine sofortige Datenübertragung ist nicht erforderlich.
+* Datenerfassung zum Aufbau eines großen Pools segmentierter Benutzer.
+* Sie möchten Datendiskrepanzen und `HTTP` Aufrufe vom Browser reduzieren.
 
 ![](assets/s2s_70.png)
 
-## Datenintegrationsschritte
+## Schritte zur Datenintegration
 
 1. Ein Benutzer besucht eine Kunden-Site.
-1. Audience Manager und der Drittanbieter-Datenanbieter weisen dem Besucher eine eindeutige ID zu (normalerweise mit einem Cookie).
-1. Audience Manager ruft den Drittanbieter-Datenprovider auf, um Besucher-IDs abzugleichen.
-1. Eine geplante Anforderung (üblicherweise in einem täglichen Intervall) umgeht Besuchersegmentdaten zwischen Audience Manager und Ihrem Drittanbieter-Datenanbieter.
-1. Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner. For more information, see [Sample Message to Partners after Inbound Processing](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
+1. Audience Manager und der Drittanbieter für Daten weisen dem Besucher eine eindeutige ID zu (üblicherweise mit einem Cookie).
+1. Audience Manager ruft den Drittanbieter-Datenanbieter auf, Besucher-IDs zuzuordnen.
+1. Bei einer geplanten Anforderung, die in der Regel in einem täglichen Intervall erfolgt, werden Besuchersegmentdaten zwischen Audience Manager und Ihrem Drittanbieter ausgetauscht.
+1. Bei jeder Verarbeitung einer eingehenden [!UICONTROL Server-to-Server] Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet. Weitere Informationen finden Sie unter [Beispielmeldung an Partner nach der eingehenden Verarbeitung](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
