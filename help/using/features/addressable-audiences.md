@@ -138,7 +138,7 @@ Datumsbereiche enthalten Daten für das ausgewählte Zeitintervall oder älter. 
 
 Und am 31. Tag erscheinen diese Besucher nur an den 60 Tagen, 90 Tagen und [!UICONTROL Lifetime] Ergebnissen. Sie sind aus dem 30-Tage-Intervall gealtert. Besucher verlieren nicht das [!UICONTROL Lifetime] Intervall.
 
-## Addressable Audience Metrics {#addressable-audience-metrics}
+##  Addressable Audience Metrics {#addressable-audience-metrics}
 
 In diesem Abschnitt werden die von [!UICONTROL Addressable Audiences]Ihnen bereitgestellten Metriktypen beschrieben.
 
