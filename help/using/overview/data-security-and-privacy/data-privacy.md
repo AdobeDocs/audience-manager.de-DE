@@ -1,10 +1,10 @@
 ---
-description: Beschreibt die Integration von Audience Manager und die Einhaltung von allgemeinen Best Practices in Bezug auf den Datenschutz und die Abmeldeverfahren.
-seo-description: Beschreibt die Integration von Audience Manager und die Einhaltung von allgemeinen Best Practices in Bezug auf den Datenschutz und die Abmeldeverfahren.
+description: Beschreibt die Integration von Audience Manager und die Einhaltung allgemein anerkannter bewährter Verfahren zum Schutz der Privatsphäre von Verbrauchern und Ausschluss-Verfahren.
+seo-description: Beschreibt die Integration von Audience Manager und die Einhaltung allgemein anerkannter bewährter Verfahren zum Schutz der Privatsphäre von Verbrauchern und Ausschluss-Verfahren.
 seo-title: Datenschutz
 solution: Audience Manager
 title: Datenschutz
-uuid: 865 e 7 b 4 e-fee 1-4 fa 4-8035-1595 fc 77 cd 96
+uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
 source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
@@ -13,24 +13,24 @@ source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
 # Datenschutz{#data-privacy}
 
-Beschreibt die Integration von Audience Manager und die Einhaltung von allgemeinen Best Practices in Bezug auf den Datenschutz und die Abmeldeverfahren.
+Beschreibt die Integration von Audience Manager und die Einhaltung allgemein anerkannter bewährter Verfahren zum Schutz der Privatsphäre von Verbrauchern und Ausschluss-Verfahren.
 
 ## Datenschutz{#data-privacy-center}
 
 See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
 
-## Consumer Privacy Protection {#consumer-privacy-protection}
+## Verbraucherschutz {#consumer-privacy-protection}
 
-Audience Manager erkennt den impliziten Vertrag zwischen Verbrauchern und den Online-Marken, mit denen sie interagieren. Beide Parteien nutzen den transparenten Austausch anonymer Datenelemente:
+Audience Manager erkennt den impliziten Pakt zwischen Verbrauchern und den Online-Marken, mit denen sie interagieren. Beide Parteien profitieren vom transparenten Austausch anonymer Datenelemente:
 
-* Kunden erhalten personalisierte Inhalte, preisgezählte Produktangebote und optimierte Benutzererfahrungen.
-* Marken erhalten wichtige Umsatzstreams, die mehrere Online-Geschäftsmodelle unterstützen.
+* Kunden erhalten personalisierte Inhalte, reduzierte Produktangebote und optimierte Benutzererfahrungen.
+* Marken erhalten wichtige Umsatzströme, die mehrere Online-Geschäftsmodelle unterstützen.
 
-In unserer fortlaufenden Unterstützung dieses Modells bemüht sich Audience Manager weiterhin, Transparenz und Kontrolle für Verbraucher bereitzustellen und die Selbstkontrollprinzipien Online Verhaltensbasierter Advertising (OBA) zu besprechen oder zu überschreiten.
+Durch unsere fortwährende Unterstützung dieses Modells setzt sich Audience Manager weiterhin für Transparenz und Kontrolle der Verbraucher ein und setzt sich dafür ein, die Selbstregulierungsgrundsätze der Online-verhaltensbasierten Werbung (OBA) einzuhalten oder zu übertreffen.
 
-## Opt-Out Management {#opt-out-management}
+## Abmeldeverwaltung {#opt-out-management}
 
-Die Ausschluss-Dokumentation wurde erweitert und in einen separaten Teil unserer Dokumentation verschoben. See [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md).
+Die Ausschluss-Dokumentation wurde erweitert und in einen anderen Teil unserer Dokumentation verschoben. Siehe [Abmeldeverwaltung](../../overview/data-security-and-privacy/opt-out-management.md).
 
 <!-- 
 
@@ -68,7 +68,7 @@ Die Ausschluss-Dokumentation wurde erweitert und in einen separaten Teil unserer
 
  -->
 
-## Collecting IP Addresses and IP Address Obfuscation {#collecting-ip-addresses}
+## Erfassen von IP-Adressen und IP-Adressenverschleierung {#collecting-ip-addresses}
 
 <!-- 
 
@@ -76,20 +76,20 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 -->
 
-Die IP-Adresse eines Besuchers auf der Website eines Kunden wird an das Adobe Data Processing Center (DPC) übertragen, wo die IP-Adresse gespeichert werden kann. Abhängig von der Netzwerkkonfiguration des Besuchers stellt die IP-Adresse möglicherweise nicht unbedingt die IP-Adresse des Besuchercomputers dar. Bei der IP-Adresse kann es sich z. B. um die externe IP-Adresse einer Network Address Translation-(NAT-)Firewall, eines HTTP-Proxys oder eines Internet-Gateways handeln.
+Die IP-Adresse eines Besuchers auf der Website eines Kunden wird an das Adobe Data Processing Center (DPC) übertragen, wo die IP-Adresse gespeichert werden kann. Je nach Netzwerkkonfiguration des Besuchers muss die IP-Adresse nicht unbedingt die IP-Adresse des Computers des Besuchers darstellen. Bei der IP-Adresse kann es sich z. B. um die externe IP-Adresse einer Network Address Translation-(NAT-)Firewall, eines HTTP-Proxys oder eines Internet-Gateways handeln.
 
-**IP-Verschleierungsmethode:** Nach den Prinzipien von "Datenschutz nach Design" erlaubt Adobe Audience Manager Kunden, IP-Verschleierung aus der Benutzeroberfläche zu aktivieren, entweder global in allen geografischen Regionen oder in bestimmten Ländern. Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort verworfen, wenn die IP-Adresse in Audience Manager übernommen wird. Audience Manager verwirft diesen Teil der IP-Adresse vor der Verarbeitung (einschließlich vor einer optionalen geografischen Suche oder Protokollierung der IP-Adresse). Beispiel:
+**** IP-Verschleierungsmethode: Gemäß den Grundsätzen von "Datenschutz nach Design"ermöglicht Adobe Audience Manager Kunden die Aktivierung der IP-Verschleierung über die Benutzeroberfläche, entweder global in allen geografischen Regionen oder für bestimmte Länder. Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort verworfen, wenn die IP-Adresse in Audience Manager aufgenommen wird. Audience Manager verwirft diesen Teil der IP-Adresse vor der Verarbeitung (auch vor einer optionalen geografischen Suche oder Protokollierung der IP-Adresse). Beispiel:
 
 * Bevor: `255.255.255.255`
 * Nachher: `255.255.255.0`
 
 >[!NOTE]
 >
->See [IP Address Obfuscation](/help/using/features/administration/ip-obfuscation.md) to learn how to enable IP address obfuscation in the Audience Manager UI.
+>Informationen zum Aktivieren der Verschleierung von IP-Adressen in der Benutzeroberfläche von Audience Manager finden Sie unter [IP-Adressenverschleierung](/help/using/features/administration/ip-obfuscation.md) .
 
-**Geografische Segmentierung:** Wenn Sie die IP-Adressenverschleierung aktivieren, können die verbleibenden Oktets der IP-Adresse weiterhin für Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die IP-Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige IP-Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie einen IP-Standort nach geografischer Region in beiden Fällen identifizieren können, aber mit einigen leichten Verlusten, wenn die IP-Verschleierung verwendet wird. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der IP-Adresse wahrscheinlich merklich beeinträchtigt. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentierungsdaten sind nur auf Ebene der Stadt oder Postleitzahl granular und nicht auf individueller Ebene. Read more about [geo-targeting](/help/using/features/traits/trait-geotarget-keys.md) and how to set up traits with geographic variables.
+**** Geografische Segmentierung: Wenn Sie die IP-Adressenverschleierung aktivieren, können die verbleibenden Oktette der IP-Adresse weiterhin für die Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die IP-Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige IP-Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie in beiden Fällen eine IP-Position nach geografischem Gebiet identifizieren können. Bei Verwendung der IP-Verschleierung ist die Genauigkeit jedoch etwas geringer. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der IP-Adresse wahrscheinlich merklich beeinträchtigt. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentdaten sind nur auf der Ebene der Stadt oder der Postleitzahl granular und nicht auf der Ebene der einzelnen Personen. Erfahren Sie mehr über das [Geo-Targeting](/help/using/features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
 
 ## Verwandte Konzepte {#related-concepts}
 
-* [Ausschluss-Management](/help/using/overview/data-security-and-privacy/opt-out-management.md)
-* [Häufig gestellte Fragen zu Datenschutz und Datenaufbewahrung](/help/using/faq/faq-privacy.md)
+* [Abmeldeverwaltung](/help/using/overview/data-security-and-privacy/opt-out-management.md)
+* [Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung](/help/using/faq/faq-privacy.md)
