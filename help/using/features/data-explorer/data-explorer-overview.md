@@ -1,43 +1,43 @@
 ---
-description: Mit dem Data Explorer können Sie historische Zielgruppen nutzen, indem Sie Eigenschaften basierend auf verwendeten und nicht verwendeten Signalen erstellen und diese mit historischen Daten aufstocken, um potenzielle Verluste an relevanten Zielgruppen zu vermeiden.
-seo-description: Mit dem Data Explorer können Sie historische Zielgruppen nutzen, indem Sie Eigenschaften basierend auf verwendeten und nicht verwendeten Signalen erstellen und diese mit historischen Daten aufstocken, um potenzielle Verluste an relevanten Zielgruppen zu vermeiden.
-seo-title: Übersicht, Vorteile und Verwendungsfälle
-title: Übersicht, Vorteile und Verwendungsfälle
-uuid: 3 bd 32 d 4 a-ade 3-413 d -837 a -9 edd 14 d 415 a 5
+description: Verwenden Sie Data Explorer, um historische Zielgruppen zu nutzen, indem Sie Eigenschaften basierend auf verwendeten und nicht verwendeten Signalen erstellen und diese mit historischen Daten aufstocken, um einen potenziellen Verlust relevanter Zielgruppen zu vermeiden.
+seo-description: Verwenden Sie Data Explorer, um historische Zielgruppen zu nutzen, indem Sie Eigenschaften basierend auf verwendeten und nicht verwendeten Signalen erstellen und diese mit historischen Daten aufstocken, um einen potenziellen Verlust relevanter Zielgruppen zu vermeiden.
+seo-title: Übersicht, Vorteile und Anwendungsfälle
+title: Übersicht, Vorteile und Anwendungsfälle
+uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
 source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 
 ---
 
 
-# Data Explorer - Overview, Benefits, and Use Cases {#overview-benefits-and-use-cases}
+# Data Explorer - Überblick, Vorteile und Anwendungsfälle {#overview-benefits-and-use-cases}
 
-Use [!UICONTROL Data Explorer] to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
+Nutzen Sie [!UICONTROL Data Explorer] zur Nutzung historischer Zielgruppen Eigenschaften, indem Sie Eigenschaften basierend auf verwendeten und nicht verwendeten Signalen erstellen und diese mit historischen Daten aufstocken, um potenzielle Verluste relevanter Zielgruppen zu vermeiden.
 
 ## Überblick {#overview}
 
-Das Erstellen von Eigenschaften basierend auf vorhandenen Erkenntnissen zu Ihrer Zielgruppe ist ein ziemlich einfacher Prozess, solange Sie immer wissen, wer Ihre Zielgruppe ist. Wie oft geschieht dies?
+Das Erstellen von Eigenschaften basierend auf vorhandenen Einblicken in Ihre Zielgruppe ist ein ziemlich einfacher Prozess, solange Sie immer wissen, wer Ihre Zielgruppe ist. Aber wie oft passiert das?
 
-[!UICONTROL Data Explorer] vereinfacht die Verwaltung Ihres Eigenschaftsverwaltungsprozesses, wenn Sie bei der Kategoriekursierung flexibler vorgehen. Two [!UICONTROL Data Explorer] components help you achieve this:
+[!UICONTROL Data Explorer] vereinfacht Ihr Eigenschaftsmanagement und bietet Ihnen eine höhere Flexibilität bei der Steuerkuratierung. Zwei [!UICONTROL Data Explorer] Komponenten unterstützen Sie dabei:
 
-* [Signalisiert Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) und [!UICONTROL Signals Search] hilft Ihnen dabei, Signale zu verfolgen, die Sie erhalten [!DNL Audience Manager] haben, um neue Eigenschaften zu erstellen oder zu vorhandenen hinzuzufügen.
+* [Signalen-Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) und [!UICONTROL Signals Search] -Unterstützung bei der Verfolgung von Signalen, die von [!DNL Audience Manager] Ihnen empfangen werden, um neue Eigenschaften zu erstellen oder vorhandene Eigenschaften zu ergänzen.
 
-* [Mit der Aufstockung von Eigenschaften](../../features/data-explorer/data-explorer-trait-backfill.md) können Sie historische Zielgruppen für neu erstellte Eigenschaften qualifizieren, damit Sie diese in zukünftige Targeting-Bemühungen aufnehmen können.
+* [Mit der Aufstockung](../../features/data-explorer/data-explorer-trait-backfill.md) der Eigenschaftenrealisierung können Sie historische Zielgruppen für neu erstellte Eigenschaften qualifizieren, sodass Sie sie in zukünftige Targeting-Bemühungen einbeziehen können.
 
 ## Vorteile {#benefits}
 
-Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
+Verwenden Sie [!UICONTROL Data Explorer] zum Optimieren der Zielgruppenerstellung auf verschiedene Weise:
 
-* **Konzentrieren Sie sich auf Zielgruppen mit hohem Wert**. Überwachen Sie Trendänderungen bei der Suche und dem Browsing-Verhalten auf Ihren Seiten und erstellen Sie dann spezifische Eigenschaften für ihr Verhalten. Vermeiden Sie die Erstellung von Eigenschafts-Eigenschaften und konzentrieren Sie sich auf relevante Signale.
-* **Vermeiden Sie Datenverlust**. Aufstockt Eigenschaften mit historischen Neuberechnungen, sodass Sie die Zielgruppensegmente nicht ausblenden, da Sie keine Eigenschaften erstellt haben, bevor Sie die Signale empfangen.
-* **Verbessern Sie Ihren Arbeitsablauf**. Entwerfen Sie Trendsignale und verwandeln Sie sie schnell in umsetzbare Eigenschaften.
+* **Konzentrieren Sie sich auf hochwertige Zielgruppen**. Verfolgen Sie Trendänderungen im Such- und Browsing-Verhalten auf Ihren Seiten und erstellen Sie dann spezifische Eigenschaften für ihr Verhalten. Beseitigung der Notwendigkeit, Eigenschaften "nur im Einzelfall"zu erstellen und sich auf relevante Signale zu konzentrieren.
+* **Vermeiden Sie Datenverlust**. Aufstockungseigenschaften mit historischen Erkenntnissen, damit Sie keine Zielgruppensegmente verpassen, da Sie keine Eigenschaften erstellt haben, bevor Sie die Signale empfangen haben.
+* **Verbessern Sie Ihren Workflow**. Entdecken Sie Trends und verwandeln Sie sie schnell in umsetzbare Eigenschaften.
 
 ## Nutzungsszenarios {#use-cases-data-explorer}
 
 ### Beispiel 1
 
-Ein globaler Elektronikhändler hat ein hohes Besucheraufkommen, aber die Konversionsraten sind niedriger als erwartet, obwohl sie den Inhalt für mehrere Plattformen optimiert haben. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. Das Unternehmen kann diesen Einblick nutzen, indem er ihren Bestand aktualisiert und auf die Besucher mit personalisierten Kampagnen abgestimmt hat.
+Ein globaler Elektronikhändler hat ein hohes Besucheraufkommen, aber die Konversionsraten sind niedriger als erwartet, obwohl er den Inhalt für mehrere Plattformen optimiert hat. Mithilfe des [Signal-Dashboards](../../features/data-explorer/data-explorer-signals-dashboard.md)wird ein hoher Anteil nicht verwendeter Signale identifiziert, was darauf hinweist, dass Besucher nach einer bestimmten Elektronik-Marke suchen, die derzeit nicht auf Lager ist. Das Unternehmen kann diese Erkenntnis nutzen, indem es seinen Bestand aktualisiert und diese Besucher mit personalisierten Kampagnen anspricht.
 
 ### Beispiel 2
 
-Nachdem ein Reisedienstleistungsanbieter ihrer Buchungswebsite neue Ziele hinzugefügt hat, möchten sie diese in historische Zielgruppen veröffentlichen, obwohl sie keine Eigenschaften für sie haben. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. Erstellen Sie dann neue Segmente mit den neuen Eigenschaften und richten Sie sie sofort mit dedizierten Kampagnen ein.
+Nachdem ein Reisedienstleister neue Ziele zu seiner Buchungswebsite hinzufügt, möchte er sie für historische Zielgruppen bewerben, obwohl keine Eigenschaften für sie erstellt wurden. Sie können die Signalsuche verwenden, um die ungenutzten Signale im Zusammenhang mit den neuen Zielen zu identifizieren, sie in neue Eigenschaften einzuschließen und mit historischen Erkenntnissen [aufzustocken](../../features/data-explorer/data-explorer-trait-backfill.md) . Erstellen Sie dann neue Segmente mit den neuen Eigenschaften und richten Sie sie sofort mit dedizierten Kampagnen aus.
