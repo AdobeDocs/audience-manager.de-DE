@@ -1,10 +1,10 @@
 ---
-description: Hier in Audience Manager sind wir Techniker, Entwickler und Code ninjas genau wie Sie. Ebenso wie Sie möchten wir mit zuverlässigen, genauen API-Dokumenten arbeiten. Daher schreiben wir den API-Inhalt in Swagger und verschieben ihn an eine neue Position. Diese Änderungen helfen Ihnen, Ihr Erlebnis mit dem Audience Manager-API-Code zu verbessern.
-seo-description: Hier in Audience Manager sind wir Techniker, Entwickler und Code ninjas genau wie Sie. Ebenso wie Sie möchten wir mit zuverlässigen, genauen API-Dokumenten arbeiten. Daher schreiben wir den API-Inhalt in Swagger und verschieben ihn an eine neue Position. Diese Änderungen helfen Ihnen, Ihr Erlebnis mit dem Audience Manager-API-Code zu verbessern.
-seo-title: Migration von Audience Manager-API-Code
+description: Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie möchten wir mit zuverlässiger, genauer API-Dokumentation arbeiten. Daher schreiben wir unseren API-Inhalt in Swagger neu und verschieben ihn an einen neuen Speicherort. Diese Änderungen sollen Ihnen helfen, Ihr Erlebnis mit dem Audience Manager-API-Code zu verbessern.
+seo-description: Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie möchten wir mit zuverlässiger, genauer API-Dokumentation arbeiten. Daher schreiben wir unseren API-Inhalt in Swagger neu und verschieben ihn an einen neuen Speicherort. Diese Änderungen sollen Ihnen helfen, Ihr Erlebnis mit dem Audience Manager-API-Code zu verbessern.
+seo-title: Audience Manager-API-Codemigration
 solution: Audience Manager
-title: Migration von Audience Manager-API-Code
-uuid: 93 cc 28 c 4-4 b 91-4 c 79-93 d 5-ece 9 bb 4 cc 9 d 5
+title: Audience Manager-API-Codemigration
+uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 translation-type: tm+mt
 source-git-commit: d368699d0de9a43cb7cf2c1af64da941a811db71
 
@@ -13,13 +13,13 @@ source-git-commit: d368699d0de9a43cb7cf2c1af64da941a811db71
 
 # Audience Manager API Code Migration {#audience-manager-api-code-migration}
 
-Hier in Audience Manager sind wir Techniker, Entwickler und Code ninjas genau wie Sie. And, like you, we want to work with reliable, accurate [!DNL API] documentation. As a result, we're re-writing our [!DNL API] content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager [!DNL API] code.
+Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie wollen wir mit zuverlässiger, genauer [!DNL API] Dokumentation arbeiten. Infolgedessen schreiben wir unseren [!DNL API] Inhalt neu [!DNL Swagger] und verschieben ihn an einen neuen Ort. Diese Änderungen sollen Ihnen helfen, Ihre Erfahrung mit dem Audience Manager- [!DNL API] Code zu verbessern.
 
 ## Movin' On Up {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised [!DNL API] content. We'll try to re-write and move a few sets of [!DNL API] methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/rest-api-main.md) documentation to find all of the available methods. Eventually, all of the public [!DNL API]s will be on the [!DNL Audience Manager] [!DNL API] docs site. The following table lists the revised and migrated [!DNL API]s.
+Die [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) -Site ist die neue Heimat für unsere überarbeiteten [!DNL API] Inhalte. Wir werden versuchen, mit jeder Version ein paar [!DNL API] Methoden neu zu schreiben und zu verschieben. Dies bedeutet, dass Sie sowohl den neuen Speicherort als auch die [REST API](../api/rest-api-main/rest-api-main.md) -Dokumentation einsehen müssen, um alle verfügbaren Methoden zu finden. Irgendwann werden alle öffentlichen [!DNL API]s auf der [!DNL Audience Manager] docs-Website [!DNL API] sein. In der folgenden Tabelle sind die überarbeiteten und migrierten [!DNL API]s aufgeführt.
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 
@@ -39,7 +39,7 @@ The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
      <ul id="ul_4CFB3FAAC0B04E5AADD80E7D7FAF2722"> 
       <li id="li_50EE5F6B2278480E9FEA04AD51664F9D"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_API" format="https" scope="external"> Data Feeds</a> </li> 
       <li id="li_5D372E3819014AB78C12048A9A2DC89F"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Feed_Request_API/" format="https" scope="external"> Datenfeed-Anforderung</a> </li> 
-      <li id="li_0582688D08C346C68B81D86A5C46E053"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Finance_API" format="https" scope="external"> Datenfeed-Finance</a> </li> 
+      <li id="li_0582688D08C346C68B81D86A5C46E053"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Finance_API" format="https" scope="external"> Datenfeed-Finanzen</a> </li> 
       <li id="li_C1C1CB42D6A74803B4672F6EE2D2D08C"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Plans_API" format="https" scope="external"> Datenfeed-Pläne</a> </li> 
       <li id="li_D8F9D791D0824287B9D0B0585E3106AB"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Feed_Subscription_API" format="https" scope="external"> Datenfeed-Abonnements</a> </li> 
      </ul> </p> </td> 
@@ -56,7 +56,7 @@ The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
    <td colname="col2"> <p> 
      <ul id="ul_FD05673B372141F3B0EF2C79A338F744"> 
       <li id="li_5D16FCAF6F0E411694A1CFBE9571BDAC"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segment_Folder_API" format="https" scope="external"> Segmentordner</a> </li> 
-      <li id="li_5DC088C0F8CA4FC193248366C8400030"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Trait_Folder_API" scope="external" format="https"> Eigenschaftenordner</a> </li> 
+      <li id="li_5DC088C0F8CA4FC193248366C8400030"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Trait_Folder_API" scope="external" format="https"> Eigenschaftsordner</a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
