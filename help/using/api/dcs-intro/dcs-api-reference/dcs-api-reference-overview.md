@@ -1,42 +1,42 @@
 ---
-description: Grundlegende Informationen, Beschreibungen und Definitionen für den DCS-API-Code, -methoden und -prozesse.
-seo-description: Grundlegende Informationen, Beschreibungen und Definitionen für den DCS-API-Code, -methoden und -prozesse in Adobe Audience Manager (AAM).
-seo-title: Übersicht über die DCS-API in Adobe Audience Manager (AAM)
-title: Übersicht über die DCS-API
+description: Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS API-Code, -Methoden und -Prozesse.
+seo-description: Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS API-Code, -Methoden und -Prozesse in Adobe Audience Manager (AAM).
+seo-title: Übersicht über die DCS-API-Referenz in Adobe Audience Manager (AAM)
+title: Übersicht über die DCS API
 translation-type: tm+mt
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 ---
 
 
-# Übersicht über die DCS-API
+# Übersicht über die DCS API
 
-Grundlegende Informationen, Beschreibungen und Definitionen für den DCS-API-Code, -methoden und -prozesse.
+Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS API-Code, -Methoden und -Prozesse.
 
-* [DCS-API-Methoden](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+* [DCS API-Methoden](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
    Senden Sie Daten mit GET- oder POST-Methoden an die DCS-API.
 
 * [DCS-Fehlercodes, Nachrichten und Beispiele](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
-   Fehlercodes und Meldungen, die von den Datenerfassungsservern (DCS) in numerischer Reihenfolge durch Code-ID generiert wurden.
+   Fehlercodes und Meldungen, die von den Datenerfassungsservern (Data Collection Servers, DCS) erzeugt wurden, werden in numerischer Reihenfolge nach Code-ID aufgeführt.
 
 * [ID-Überwachung und Blacklisting](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
 
-   Das DCS überwacht die empfangenen IDs und die schwarzen Listen, die in einer kurzen Zeitspanne ungewöhnlich hoch gesendet werden.
+   Der DCS überwacht die erhaltenen IDs und listet diejenigen auf, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden.
 
-* [DCS Regions-IDs, Speicherorte und Hostnamen](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
+* [DCS-Regions-IDs, Speicherorte und Hostnamen](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
-   Der regionale Hostname des DCS-Servers ist erforderlich, um dem DCS Aufrufe zu tätigen. Dies liegt daran, dass das DCS Informationen in Datenzentren speichert, die geografisch zu den Besuchern der Site nah sind. Ihre Abfragen funktionieren, wenn Sie sie an das falsche DCS senden, diese Aufrufe jedoch ineffizient sind und die Antwort verzögern können. Um eine DCS-Anforderung vorzunehmen, passen Sie die Regions-ID an den entsprechenden regionalen Hostnamen an und bilden Sie Ihre Abfrage mit dem richtigen Hostnamen.
+   Der regionale Hostname des DCS-Servers ist erforderlich, um den DCS aufzurufen. Der Grund dafür ist, dass der DCS Informationen in Rechenzentren speichert, die geografisch nahe an den Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche DCS senden, aber diese Aufrufe sind ineffizient und können die Antwort verzögern. Um eine DCS-Anforderung zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und erstellen Sie Ihre Abfrage mit dem richtigen Hostnamen.
 
-* [Formatieren von Schlüsselwertpaaren in DCS-Aufrufen](/help/using/api/dcs-intro/dcs-api-reference/dcs-key-format.md)
+* [Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen](/help/using/api/dcs-intro/dcs-api-reference/dcs-key-format.md)
 
-   Bei einem Aufruf akzeptiert das DCS wichtige Wertdaten im Standard- oder serialisierten Format. Lesen Sie diesen Abschnitt, um Informationen zur Formatierung von standardmäßigen und serialisierten Schlüsselwertdaten zu erhalten.
+   Bei einem Aufruf akzeptiert der DCS wichtige Daten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
 
-* [Race Conditions und Fehlerbearbeitung](/help/using/api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
+* [Rassenbedingungen und Fehlerbehandlung](/help/using/api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
 
-   Beschreibt, wie Sie Race-Bedingungen und die Verarbeitung von DCS-Fehlern verhindern.
+   Beschreibt, wie Racebedingungen und DCS-Fehlerverarbeitung verhindert werden.
 
 * [Unterstützte Attribute für DCS-API-Aufrufe](/help/using/api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
-   Listet die Syntax und unterstützte Attribute (oder Schlüssel/Wert-Paare) auf und beschreibt sie, die Sie an die Datenerfassungsserver (DCS) übergeben können. Diese Informationen können Ihnen dabei helfen, Ihre DCS-Anforderungen zu formatieren und die von diesem System zurückgegebenen Parameter zu verstehen.
+   Listet die Syntax und die unterstützten Attribute (oder Schlüssel-Wert-Paare) auf und beschreibt sie, die Sie an die Datenerfassungsserver (DCS) weitergeben können. Anhand dieser Informationen können Sie Ihre DCS-Anforderungen formatieren und die von diesem System zurückgegebenen Parameter verstehen.
