@@ -1,27 +1,27 @@
 ---
-description: API-Methoden, mit denen Sie mit abgeleiteten Signalen arbeiten können. Ein abgeleitetes Signal qualifiziert Site-Besucher auf zusätzliche Eigenschaften basierend auf einer bereits gesehenen Eigenschaft.
-seo-description: API-Methoden, mit denen Sie mit abgeleiteten Signalen arbeiten können. Ein abgeleitetes Signal qualifiziert Site-Besucher auf zusätzliche Eigenschaften basierend auf einer bereits gesehenen Eigenschaft.
-seo-title: API-Methoden für abgeleitete Signale
+description: API-Methoden, mit denen Sie mit abgeleiteten Signalen arbeiten können. Ein abgeleitetes Signal qualifiziert Site-Besucher für zusätzliche Eigenschaften, basierend auf einer Eigenschaft, die sie bereits gesehen haben.
+seo-description: API-Methoden, mit denen Sie mit abgeleiteten Signalen arbeiten können. Ein abgeleitetes Signal qualifiziert Site-Besucher für zusätzliche Eigenschaften, basierend auf einer Eigenschaft, die sie bereits gesehen haben.
+seo-title: Abgeleitete Signale-API-Methoden
 solution: Audience Manager
-title: API-Methoden für abgeleitete Signale
-uuid: 698019 bc-d 7 f 6-41 e 0-a 78 a -1 ab 0 bf 0 e 65 a 0
+title: Abgeleitete Signale-API-Methoden
+uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 translation-type: tm+mt
 source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
 
 ---
 
 
-# Derived Signals API Methods {#derived-signals-api-methods}
+# Abgeleitete Signale-API-Methoden {#derived-signals-api-methods}
 
-[!DNL API] Methoden, mit denen Sie mit abgeleiteten Signalen arbeiten können. Ein abgeleitetes Signal qualifiziert Site-Besucher auf zusätzliche Eigenschaften basierend auf einer bereits gesehenen Eigenschaft.
+[!DNL API] Methoden, mit denen Sie mit abgeleiteten Signalen arbeiten können. Ein abgeleitetes Signal qualifiziert Site-Besucher für zusätzliche Eigenschaften, basierend auf einer Eigenschaft, die sie bereits gesehen haben.
 
 <!-- c_separator.xml -->
 
-For more information about derived signals, see [Derived Signals](../../features/derived-signals.md).
+Weitere Informationen zu abgeleiteten Signalen finden Sie unter [Abgeleitete Signale](../../features/derived-signals.md).
 
 >[!IMPORTANT]
 >
->The derived signals [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Siehe:
+>Die abgeleiteten Signalmethoden [!DNL API] wurden umgeschrieben [!DNL Swagger] und migriert. Siehe:
 >
->* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
->* [Migration von Audience Manager-API-Code](../../api/api-swagger-migration.md)
+>* [Adobe Audience Manager API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
+>* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
