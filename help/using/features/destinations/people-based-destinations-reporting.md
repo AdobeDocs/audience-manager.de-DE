@@ -1,53 +1,53 @@
 ---
-description: 'Benutzerbasierte Ziele bieten die Vorstellung von Shareable Audiences in Audience Manager. Diese Metrik hilft Ihnen, zu verstehen, wie viele der Hash-E-Email-Adressen Audience Manager für die Zielplattform freigeben können. '
-seo-description: 'Benutzerbasierte Ziele bieten die Vorstellung von Shareable Audiences in Audience Manager. Diese Metrik hilft Ihnen, zu verstehen, wie viele der Hash-E-Email-Adressen Audience Manager für die Zielplattform freigeben können. '
-seo-title: Shareable Audiences
+description: 'Personalisierte Ziele führen den Begriff "Zielgruppen"in Audience Manager ein. Anhand dieser Metrik können Sie erkennen, wie viele der Hash-E-Mail-Adressen Audience Manager für die Zielplattform freigeben kann. '
+seo-description: 'Personalisierte Ziele führen den Begriff "Zielgruppen"in Audience Manager ein. Anhand dieser Metrik können Sie erkennen, wie viele der Hash-E-Mail-Adressen Audience Manager für die Zielplattform freigeben kann. '
+seo-title: Zielgruppen freigeben
 solution: Audience Manager
-title: Shareable Audiences
+title: Zielgruppen freigeben
 translation-type: tm+mt
 source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 ---
 
 
-# Shareable Audiences {#shareable-audiences}
+# Zielgruppen freigeben {#shareable-audiences}
 
-[!DNL People-Based Destinations] bringt die Idee [!DNL Shareable Audiences] von Audience Manager. Diese Metrik hilft Ihnen, zu verstehen, wie viele der Hash-E-Email-Adressen Audience Manager für die Zielplattform freigeben können.
+[!DNL People-Based Destinations] bringen Sie den Begriff " [!DNL Shareable Audiences] in Audience Manager". Anhand dieser Metrik können Sie erkennen, wie viele der Hash-E-Mail-Adressen Audience Manager für die Zielplattform freigeben kann.
 
-[!DNL Shareable Audiences] ist eine Metrik, die Ihnen dabei hilft, Zielgruppendaten im Kontext zu [!DNL People-Based Destinations]interpretieren. Diese Metrik kann auf der [!UICONTROL Destinations] Seite und auf der [!UICONTROL Segment] Seite angezeigt werden.
+[!DNL Shareable Audiences] ist eine Metrik, mit der Sie Zielgruppendaten im Kontext von interpretieren [!DNL People-Based Destinations]können. Sie können diese Metrik auf der [!UICONTROL Destinations] Seite und auf der [!UICONTROL Segment] Seite sehen.
 
-## Segmentnutzbare Zielgruppen {#segment-shareable-audiences}
+## Zielgruppen segmentieren {#segment-shareable-audiences}
 
-Die [!DNL Segment Shareable Audience] Metrik auf der Segmentseite zeigt die Anzahl der Hash-E-Email-Adressen aus der Datenquelle mit übereinstimmenden [dpuuids an](../../reference/ids-in-aam.md), die auch für das angegebene Segment im angegebenen Look-Back-Zeitraum qualifiziert sind, vorausgesetzt, die darauf angewendete Regel für die Profilzusammenführung wurde angewendet, und Audience Manager kann die Zielplattform gemeinsam nutzen.
+Die [!DNL Segment Shareable Audience] Metrik auf der Segmentseite gibt die Anzahl der Hash-E-Mail-Adressen aus der Datenquelle mit übereinstimmenden [DPUUIDs](../../reference/ids-in-aam.md)an, die sich auch in der angegebenen Rückblickzeit für das definierte Segment qualifizieren, da die Regel zur Profilzusammenführung auf das Segment angewendet wird und dass Audience Manager mit der Zielplattform freigegeben werden kann.
 
-Diese Metrik hat einen Look-Backback-Zeitraum von 1 Tag. Dies hilft Ihnen dabei, die Zielgruppenreichweite für das Segment in einem bestimmten Ziel zu verstehen.
+Diese Metrik verfügt über eine Rückblickzeit von 1 Tag. Auf diese Weise können Sie die Reichweite der Zielgruppe für das Segment in einem bestimmten Ziel verstehen.
 
-## Ziel-Shareable Audience {#destination-shareable-audience}
+## Zielpublikum {#destination-shareable-audience}
 
-Die [!DNL Destination Shareable Audience] Metrik auf einer benutzerbasierten Zielseite zeigt die Gesamtzahl der Hash-E-Email-Adressen aus der Datenquelle mit übereinstimmenden [dpuuids an](../../reference/ids-in-aam.md), die Audience Manager aus allen diesem Ziel zugeordneten Segmenten gemeinsam mit der Zielplattform verwenden kann.
+Die [!DNL Destination Shareable Audience] Metrik auf einer benutzerbasierten Zielseite gibt die Gesamtanzahl der Hash-E-Mail-Adressen aus der Datenquelle mit übereinstimmenden [DPUUIDs](../../reference/ids-in-aam.md)an, die Audience Manager für die Zielplattform freigeben kann, aus allen Segmenten, die diesem Ziel zugeordnet sind.
 
 ![shareable-audiences](assets/dest-shareable-audiences.png)
 
-Diese Metrik hat einen Lebensdauerzeitraum. Auf diese Weise erkennen Sie die Skalierung der Zielgruppe, die Sie aus der Hash-E-Mail-Adresse der Hash-E-Mail erhalten können.
+Diese Metrik verfügt über eine Lebensdauer-Rückblickzeit. Auf diese Weise können Sie die Größe der Zielgruppe verstehen, die Sie aus der Datenquelle für Hash-E-Mail-Adressen erreichen können.
 
 ## Beispiel 
 
-Ein Audience Manager-Kunde verfügt über eine Datenquelle mit 110.000 [dpuuids](../../reference/ids-in-aam.md) (CRM-IDs). Sie erfassen 100.000 E-Email-Adressen mit Hash in Audience Manager, um sie mit mehreren benutzerbasierten Zielen zu verwenden und eine ID-Synchronisierung für die 100.000 Hash-E-Email-Adressen mit den CRM-IDs durchzuführen. Der Kunde kann die [!DNL All Cross-Device Profiles] Zusammenführungsregel verwenden, um drei Zielgruppensegmente zu erstellen:
+Ein Audience Manager-Kunde verfügt über eine Datenquelle mit 110.000 [DPUUIDs](../../reference/ids-in-aam.md) (CRM-IDs). Sie erfassen 100.000 Hash-E-Mail-Adressen in Audience Manager, verwenden sie mit mehreren benutzerbasierten Zielen und führen eine ID-Synchronisierung für die 100.000 Hash-E-Mail-Adressen mit den CRM-IDs durch. Der Kunde kann die [!DNL All Cross-Device Profiles] Zusammenführungsregel verwenden, um drei Zielgruppensegmente zu erstellen:
 
-* Segment A mit einer Populationsanzahl von 10.000, "Destination A" zugeordnet;
-* Segment B mit einer Populationsanzahl von 20.000, "Destination A" zugeordnet;
-* Segment C mit einer Bevölkerung von 50.000, die Ziel B zugeordnet ist.
+* Segment A mit einer Bevölkerungszahl von 10.000, zugeordnet zu Ziel A;
+* Segment B mit einer Bevölkerungszahl von 20.000, zugeordnet zu Ziel A;
+* Segment C mit einer Bevölkerungszahl von 50.000, zugeordnet zu Ziel B.
 
 In diesem Szenario:
 
-* Segment A Shareable Audience = 10.000;
-* Segment B Shareable Audience = 20.000;
-* Segment C Shareable Audience = 50.000;
-* Ziel A Shareable Audience = Segment A Shareable Audience + Segment B shareable audience = 30.000;
-* Ziel B Shareable Audience = Segment C shareable Audience = 50.000.
+* Segment A Zielgruppe = 10.000;
+* Segment B Zielgruppe = 20.000;
+* Segment C Zielgruppe = 50.000;
+* Ziel einer freigegebenen Zielgruppe = Segment A freigegebene Zielgruppe + Segment B freigegebene Zielgruppe = 30.000;
+* Ziel B Zielgruppe = Segment C Zielgruppe = 50.000
 
-![shareable-audiences-chart](assets/shareable-audiences.png)
+![shareable-audiences-diagramm](assets/shareable-audiences.png)
 
 > [!NOTE]
 >
-> Im obigen Beispiel bedeutet dies nicht, dass alle 80.000 Hash-E-Mail-Adressen aus den drei Segmenten vorhandenen Konten auf den Zielplattformen entsprechen. Das bedeutet nur, dass Audience Manager die Hash-ids aus den drei Segmenten an ihre jeweiligen Ziele sendet. Wenn Zielgruppensegmente an benutzerbasierte Ziele gesendet werden, erfolgt die Zuordnung der Zielgruppe auf dem Partner. Ziel A kann bis zu 30.000 übereinstimmende Benutzerkonten aufweisen, während Ziel B über bis zu 50.000 übereinstimmende Benutzerkonten verfügt, aber es gibt keine Garantie für Übereinstimmungsraten. Adobe hat keinen Zugriff auf Partner-spezifische Metriken. Unter [Übereinstimmungsraten](../../faq/faq-people-based-destinations.md#match-rates) finden Sie häufig gestellte Fragen zu benutzerbasierten Ziele für Ziele in Übereinstimmungsraten.
+> Im obigen Beispiel bedeutet dies nicht, dass alle 80.000 Hash-E-Mail-Adressen aus den drei Segmenten mit vorhandenen Konten in den Zielplattformen übereinstimmen. Dies bedeutet nur, dass Audience Manager die Hash-IDs von den drei Segmenten an ihre jeweiligen Ziele sendet. Wenn Zielgruppensegmente an benutzerbasierte Ziele gesendet werden, erfolgt die Zielgruppenzuordnung auf der Partnerseite. Ziel A kann bis zu 30.000 passende Benutzerkonten haben, während Ziel B bis zu 50.000 passende Benutzerkonten haben kann, aber keine Garantie für Übereinstimmungsraten besteht. Adobe hat keinen Zugriff auf Partner-spezifische Metriken. Unter [Übereinstimmungsraten](../../faq/faq-people-based-destinations.md#match-rates) finden Sie häufig gestellte Fragen zur Sichtbarkeit benutzerbasierter Ziele in Übereinstimmungsraten.
