@@ -5,7 +5,7 @@ seo-title: Arbeitsablauf C - Personalisierung basierend auf authentifizierter Ak
 solution: Audience Manager
 title: Arbeitsablauf C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten
 translation-type: tm+mt
-source-git-commit: 455c198d7a096a620a2cf7c8b728b67335eadc8d
+source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
 
 ---
 
@@ -110,7 +110,7 @@ Verwenden Sie zum Erstellen neuer Segmente den [Segmentaufbau](../segments/segme
 
 >[!IMPORTANT]
 >
->Ein Audience Manager verarbeitet die Integration mit sozialen Plattformen über Authentifizierungstoken, die nach einer bestimmten Zeit ablaufen. Weitere Informationen zur Verlängerung der abgelaufenen Token finden Sie unter Erneuerung des Authentifizierungstokens.
+>Audience Manager verarbeitet die Integration mit sozialen Plattformen über Authentifizierungstoken, die nach einer bestimmten Zeit ablaufen. Weitere Informationen zur Verlängerung der abgelaufenen Token finden Sie unter Erneuerung des Authentifizierungstokens.
 
 ## Schritt 6: Erstellen eines benutzerbasierten Ziels {#create-destination}
 
