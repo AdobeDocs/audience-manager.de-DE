@@ -1,31 +1,31 @@
 ---
-description: Optionale Methoden, mit denen Sie einem benutzerdefinierten Typ oder einer Kategorie Eigenschaften zuweisen können, normalerweise entsprechend der Funktion oder für Ihre eigenen internen Berichterstellungsprozesse.
-seo-description: Optionale Methoden, mit denen Sie einem benutzerdefinierten Typ oder einer Kategorie Eigenschaften zuweisen können, normalerweise entsprechend der Funktion oder für Ihre eigenen internen Berichterstellungsprozesse.
-seo-title: Eigenschaftstypmethoden
+description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerspezifischen Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
+seo-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerspezifischen Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
+seo-title: Eigenschafts-Typmethoden
 solution: Audience Manager
-title: Eigenschaftstypmethoden
-uuid: 082931 d 5-457 b -4622-817 b -86303 f 38 c 26 a
+title: Eigenschafts-Typmethoden
+uuid: 082931d5-457b-4622-817b-86303f38c26a
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Trait Type Methods {#trait-type-methods}
+# Eigenschafts-Typmethoden {#trait-type-methods}
 
-Optionale Methoden, mit denen Sie einem benutzerdefinierten Typ oder einer Kategorie Eigenschaften zuweisen können, normalerweise entsprechend der Funktion oder für Ihre eigenen internen Berichterstellungsprozesse.
+Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerspezifischen Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->Trait type methods do not assign traits to categories used by the [common taxonomy](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Stellen Sie sich diese als Beschriftungen vor, die von der allgemeinen Taxonomie getrennt sind.
+>Mit den Methoden des Eigenschaftstyps werden keine Eigenschaften den von der [allgemeinen Taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)verwendeten Kategorien zugewiesen. Stellen Sie sich diese als Etiketten vor, die von der allgemeinen Taxonomie getrennt sind.
 
-For visual reference, [!UICONTROL Trait Types] is a dropdown control located in the [!DNL UI] under **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Als visuelle Referenz dient [!UICONTROL Trait Types] ein Dropdown-Steuerelement, das sich im [!DNL UI] darunter befindet **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Create a New Trait Type {#create-trait-type}
+## Erstellen eines neuen Eigenschaftstyps {#create-trait-type}
 
-A `POST` method that lets you create a new trait type.
+Eine `POST` Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -56,9 +56,9 @@ A `POST` method that lets you create a new trait type.
 }
 ```
 
-## Return Properties for a Trait Type {#return-props}
+## Rückgabeeigenschaften für einen Eigenschaftstyp {#return-props}
 
-A `GET` method that returns details about the specified trait type.
+Eine `GET` Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -81,9 +81,9 @@ A `GET` method that returns details about the specified trait type.
 }
 ```
 
-## Return Properties for all Trait Types {#return-props-all}
+## Rückgabeeigenschaften für alle Eigenschaftstypen {#return-props-all}
 
-`GET` Eine Methode, die Details zu all Ihren Eigenschaften in einem Array zurückgibt.
+Eine `GET` Methode, die Details zu allen Eigenschaftstypen in einem Array zurückgibt.
 
 <!-- r_rest_api_get_trait_types.xml -->
 
