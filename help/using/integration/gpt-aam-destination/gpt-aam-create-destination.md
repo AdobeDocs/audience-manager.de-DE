@@ -1,51 +1,51 @@
 ---
-description: Sie können qualifizierte Segmente über eine clientseitige (browserseitige) Integration oder eine serverseitige Integration an DFP senden. Wenn Sie die clientseitige Integration auswählen, müssen Sie ein Cookie-basiertes Ziel für Google Publisher Tags in Audience Manager erstellen.
-seo-description: Sie können qualifizierte Segmente über eine clientseitige (browserseitige) Integration oder eine serverseitige Integration an DFP senden. Wenn Sie die clientseitige Integration auswählen, müssen Sie ein Cookie-basiertes Ziel für Google Publisher Tags in Audience Manager erstellen.
-seo-title: Erstellen eines GPT-Ziels
+description: Sie können qualifizierte Segmente über eine clientseitige (Browser-seitige) Integration oder eine serverseitige Integration an DFP senden. Wenn Sie die clientseitige Integration auswählen, müssen Sie in Audience Manager ein cookie-basiertes Ziel für Google Publisher Tags erstellen.
+seo-description: Sie können qualifizierte Segmente über eine clientseitige (Browser-seitige) Integration oder eine serverseitige Integration an DFP senden. Wenn Sie die clientseitige Integration auswählen, müssen Sie in Audience Manager ein cookie-basiertes Ziel für Google Publisher Tags erstellen.
+seo-title: GPT-Ziel erstellen
 solution: Audience Manager
-title: Erstellen eines GPT-Ziels
-uuid: e 3 bbf 327-a 7 e 0-48 da-bc 84-8 f 531 b 7 f 6750
+title: GPT-Ziel erstellen
+uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
 
 
-# Create a GPT Destination {#create-a-gpt-destination}
+# GPT-Ziel erstellen {#create-a-gpt-destination}
 
-You can send qualified segments to [!DNL DFP] through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for [!DNL Google Publisher Tags] in Audience Manager.
+Sie können qualifizierte Segmente über eine clientseitige (Browser-seitige) Integration oder eine serverseitige Integration [!DNL DFP] an diese senden. Wenn Sie die clientseitige Integration auswählen, müssen Sie ein cookie-basiertes Ziel für [!DNL Google Publisher Tags] in Audience Manager erstellen.
 
 ## Ziele
 
-In Audience Manager, a *`destination`* is any other system (ad server, [!DNL DSP], ad network, etc.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] bietet die Tools, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager destination features are located in *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
+In Audience Manager *`destination`* ist ein beliebiges anderes System (Anzeigenserver, [!DNL DSP]Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Die Zielfunktionen von Audience Manager finden Sie unter *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und befolgen Sie die folgenden Schritte.
 
 ## Basisinformationen
 
-To complete the [!UICONTROL Basic Information] section:
+So füllen Sie den [!UICONTROL Basic Information] Abschnitt aus:
 
-1. Geben Sie dem Ziel einen Namen.
+1. Benennen Sie das Ziel.
 1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list.
-1. Click **[!UICONTROL Next]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
+1. Klicken Sie auf **[!UICONTROL Next]** und gehen Sie zu den Abschnitten [!UICONTROL Configuration] und [!UICONTROL Segment Mappings] .
 
 ## Cookie-Konfiguration
 
-Provide the following to complete the [!UICONTROL Configuration] section (other fields are optional):
+Geben Sie Folgendes an, um den [!UICONTROL Configuration] Abschnitt auszufüllen (andere Felder sind optional):
 
-1. **Cookie-Name:** Geben Sie einen kurzen, beschreibenden Namen für Ihr Cookie an.
-1. **Datenformat:** Wählen Sie die **[!UICONTROL "Single Key"]** Option aus.
-1. **Schlüssel:** Geben Sie einen Schlüsselnamen an.
-1. **Serialisieren:** Aktivieren **[!UICONTROL Enable]** Sie das Kontrollkästchen.
-1. **Serientrennzeichen:** Verwenden Sie nur Kommas.
+1. **** Cookie-Name: Geben Sie einen kurzen beschreibenden Namen für Ihr Cookie ein.
+1. **** Datenformat: Wählen Sie die **[!UICONTROL "Single Key"]** Option aus.
+1. **** Schlüssel: Geben Sie einen Schlüsselnamen ein.
+1. **** Serialisieren: Aktivieren Sie das **[!UICONTROL Enable]** Kontrollkästchen.
+1. **** Serieller Trennzeichen: Verwenden Sie nur ein Komma.
 
-## Segmentzuordnungen
+##  Segmentzuordnungen
 
 So fügen Sie einem Cookie-Ziel ein Segment hinzu:
 
-1. Find segments: The [!UICONTROL Segment Mappings] section provides two search tools to help locate segments. So suchen Sie ein Segment:
+1. Segmente suchen: Der [!UICONTROL Segment Mappings] Abschnitt enthält zwei Suchwerkzeuge, die Ihnen bei der Suche nach Segmenten helfen. So suchen Sie ein Segment:
 
-   * Option 1: Geben Sie einen Segmentnamen in das Suchfeld ein. Das Feld wird automatisch basierend auf eingegebenen Text aktualisiert. Click **[!UICONTROL Add]** once you find the segment you want to use.
-   * Option 2: Click **[!UICONTROL Browse All Segments]** to open a window that lets you browse for segments by name or storage location. Click **[!UICONTROL Add Selected Segments]** when done.
+   * Option 1: Geben Sie einen Segmentnamen in das Suchfeld ein. Das Feld wird automatisch anhand des eingegebenen Texts aktualisiert. Klicken Sie auf **[!UICONTROL Add]** , sobald Sie das gewünschte Segment gefunden haben.
+   * Option 2: Klicken Sie auf **[!UICONTROL Browse All Segments]** , um ein Fenster zu öffnen, in dem Sie nach Namen oder Speicherort nach Segmenten suchen können. Click **[!UICONTROL Add Selected Segments]** when done.
 
-1. **Zuordnungen hinzufügen:** Geben Sie in das Feld Zuordnungen die Segment-ID im Feld Zuordnungen ein und klicken **[!UICONTROL Save]** Sie auf.
+1. **** Zuordnungen hinzufügen: Geben Sie im Popup für Zuordnungen die Segment-ID in das Zuordnungsfeld ein und klicken Sie auf **[!UICONTROL Save]**.
 
 1. Klicken Sie auf **[!UICONTROL Done]**.
