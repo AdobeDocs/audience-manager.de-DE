@@ -1,10 +1,10 @@
 ---
-description: Beispiele für die Verwendung einiger gemeinsamer Makros zum Erstellen ausgehender Dateivorlagen.
-seo-description: Beispiele für die Verwendung einiger gemeinsamer Makros zum Erstellen ausgehender Dateivorlagen.
+description: Beispiele dafür, wie einige der gängigen Makros zum Erstellen von Vorlagen für ausgehende Dateien verwendet werden.
+seo-description: Beispiele dafür, wie einige der gängigen Makros zum Erstellen von Vorlagen für ausgehende Dateien verwendet werden.
 seo-title: Beispiele für ausgehende Makros
 solution: Audience Manager
 title: Beispiele für ausgehende Makros
-uuid: 823 d 85 d 4-d 883-45 cf -9 e 60-c 12 b 7 d 52 a 498
+uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Beispiele für ausgehende Makros {#outbound-macro-examples}
 
-Beispiele für die Verwendung einiger gemeinsamer Makros zum Erstellen ausgehender Dateivorlagen.
+Beispiele dafür, wie einige der gängigen Makros zum Erstellen von Vorlagen für ausgehende Dateien verwendet werden.
 
 >[!NOTE]
 >
->In the tables, **boldface** type identifies each macro with its related output. For the format examples, the `<` `>` symbols have been added to help visually separate each macro.
+>In den Tabellen identifiziert der **Fettdruck** -Typ jedes Makro mit seiner zugehörigen Ausgabe. Für die Formatbeispiele wurden die `<``>` Symbole hinzugefügt, um jedes Makro visuell voneinander zu trennen.
 
-## File Name Macros {#file-name-macros}
+## Dateinamenmakros {#file-name-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende Vorlagenmakros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -33,26 +33,26 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_ &lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: <code> ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_ &lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Ausgabe: <code> ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> MASTER_ DPID </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;MASTER_DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: <code> ftp_215_888_ 20915_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col1"> <p> <code> MASTER_DPID </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;MASTER_DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Ausgabe: <code> ftp_215_888_ 20915_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ORDER_ ID </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_ &lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: <code> ftp_ 215_888_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_ &lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Ausgabe: <code> ftp_ 215_888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> SYNC_ MODE </code> </p> </td> 
+   <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Ausgabe: </p> <p> 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Full: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
-      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Incremental: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Vollständig: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Inkrementell: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> SYNC_ TYPE </code> </p> </td> 
+   <td colname="col1"> <p> <code> SYNC_TYPE </code> </p> </td> 
    <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Ausgabe: </p> <p> 
      <ul id="ul_11B14E740E40474F8302BDB809C428FE"> 
       <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <code> ftp_215_888_iter_1449756724.sync </code> </li> 
@@ -61,15 +61,15 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_ &lt;TIMESTAMP&gt;_&lt;admin&gt;&lt;.sync&gt; </code> </p> <p>Output: <code> ftp_215_888_iter_ 1449756724.sync </code> </p> </td> 
+   <td colname="col1"> <p> <code> ZEITSTEMPEL </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_ &lt;TIMESTAMP&gt;_&lt;Admin&gt;&lt;.sync&gt; </code> </p> <p>Ausgabe: <code> ftp_215_888_iter_ 1449756724.sync </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Header Row Macros {#header-macros}
+## Kopfzeilenmakros {#header-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende Vorlagenmakros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -81,14 +81,14 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Output: <code> 888 full.sync </code> </p> <p>In der Ausgabe trennt das nicht druckbare Tabulatorzeichen jedes Element. </p> </td>
+   <td colname="col2"> <p>Format: <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Ausgabe: <code> 888 full.sync </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen ohne Drucken getrennt. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## File Content Macros {#file-content-macros}
+## Dateiinhaltsmakros {#file-content-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende Vorlagenmakros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -99,80 +99,79 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> DP_ UUID </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
+   <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: 123456 UUID1 UUID2 UUID3 <code></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> DP_ UUID_ LIST </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt; &lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
+   <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt; &lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: 123456 UUID1 UUID2 UUID3 <code></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>Weitere Informationen finden Sie im folgenden Abschnitt. </p> </td> 
+   <td colname="col2"> <p>Siehe den Abschnitt unten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> REMOVED_ SEGMENT_ LIST </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt; &lt;REMOVED_SEGMENT_LIST;separator=" "&gt; </code> </p> <p>Output: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
+   <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt; &lt;REMOVED_SEGMENT_LIST;separator=" "&gt; </code> </p> <p>Ausgabe: 123456 105955 101183 101180 101179 <code></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> SEGMENT_ LIST </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt; &lt;SEGMENT_LIST;separator=" "&gt; </code> </p> <p>Output: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
+   <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt; &lt;SEGMENT_LIST;separator=" "&gt; </code> </p> <p>Ausgabe: 123456 105955 101183 101180 101179 <code></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> if (SEGMENT_ LIST &amp; &amp; REMOVED_ SEGMENT_ LIST) endif </code> </p> </td> 
+   <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
    <td colname="col2"> <p><b>Format:</b> </p> <p> 
-     <code>{"Advertiserid": " &lt; PIDALIAS &gt; "," datacenterid ": 2, "TDID": " &lt; DP_ UUID &gt; "," Data ": [&lt; SEGMENT_ LIST: {seg|&lt; OPEN_ CURLY_ BRACKET &gt; "Name": " &lt; seg. alias &gt; " &lt; CLOSE_ CURLY_ BRACKET &gt;}; separator = "," &gt; &lt; if (SEGMENT_ LIST &amp; &amp; REMOVED_ SEGMENT_ LIST) &gt; &lt; COMMA &gt; &lt; endif &gt; &lt; REMOVED_ SEGMENT_ LIST: {seg|&lt; OPEN_ CURLY_ BRACKET &gt; "Name": " &lt; seg. alias &gt; "," ttlinminutes ": 0 &lt; CLOSE_ CURLY_ BRACKET &gt;}; separator = "," &gt;]} </code>
- </p><p><b>Ausgabe:</b></p> <p>
-     <code>//First Beispiel {"advertiserid": " 12345 "," Datacenterid ": 2, "TDID": " dfd 215 e 4-8 d 6 b -4 fdb -90 b 9-fab 4456 f 2 c 9 d "," Data ": [{"Name": " 4321 "}]} //Second Beispiel {" advertiserid ": " 12345 "," Datacenterid ": 2, "TDID": " 9099 e 8 fe-abab -5114-abaa -28 bdaa 0539 ca "," Data ": [{"Name": 4321 "}, {" Name ": " 987 "," Ttlinminutes ": 0}, {"Name": " 654 "," Ttlinminutes ": 0}]} </code>
- </p> <p> <p>Note:  In the first example, the macro only returns data for <code> SEGMENT_LIST </code> because <code> REMOVED_SEGMENT_LIST </code> is empty. Das zweite Beispiel gibt Daten für beide Makros zurück. </p> </p> </td> 
+     <code>
+       {"AdvertiserId":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UUUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURCURURE_BRACKET&gt;}; separator=","&gt;] </code></p><p><b>Ausgabe:</b></p> <p>
+     <code>//First example {"AdvertiserId":"12345", "DataCenterId": 2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":["Name":"4 321"}] //Zweites Beispiel {"AdvertiserId":"12345", "DataCenterId": 2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca{","Data":[ "Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} </code></p> <p> <p>Hinweis:  Im ersten Beispiel gibt das Makro nur Daten für <code> SEGMENT_LIST zurück, </code> da <code> REMOVED_SEGMENT_LIST leer </code> ist. Das zweite Beispiel gibt Daten für beide Makros zurück. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> SET_ ATTRIBUTE </code> </p> </td> 
-   <td colname="col2"> <p>Format: </p> <p> <code> &lt; TID &gt; &lt; TAB &gt; &lt; TAB &gt; &lt; DP_ UUID &gt; &lt; TAB &gt; &lt; SET_ ATTRIBUTE &gt; &lt; TAB &gt; &lt; OPT_ OUT &gt; &lt; TAB &gt; &lt; SEGMENT_ LIST: &lt; TAB &gt; &lt; SEGMENT_ LIST: {seg|&lt; seg. type &gt;, &lt; seg. alias &gt;, &lt; OUTPUT_ ATTRIBUTE_ VALUE &gt;, &lt; seg. lastupdatetime &gt; &amp;} &gt; </code> </p> <p>Ausgabe: </p> <p> <code> 1159 000880085796836537415162975097709717335000 17 t 0 aj 01 b 120 hp 1 0 5,103714,1,1344110 00 &amp; 5,103713,1,134325061000 </code> </p> </td> 
+   <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
+   <td colname="col2"> <p>Format: </p> <p> <code> &lt;PID&gt;&lt;TAB&gt;&lt;UUID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt;&lt;OPT_OUT&gt;&lt;TAB&gt;&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.alias&gt;,&lt;OUTPUT_ATTRIBUTE_VALUE&gt;,&lt;seg.lastUpdateTime&gt;&amp;}&gt; </code> </p> <p>Ausgabe: </p> <p> <code> 1159 00088008579683653741516297509717335000 17t0aj01b122 PS 1 0 5,103714,1,1344114661000 und 5,103713,1,1343250661000 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>In der Ausgabe trennt das nicht druckbare Tabulatorzeichen jedes Element. </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: 123456 UUID1 UUID2 UUID3 <code></code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen ohne Drucken getrennt. </p> </td> 
   </tr>
   <tr>
-   <td colname="col1"> <p> <code> TRAIT_ LIST </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;PID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt; &lt;TRAIT_LIST;separator="|"&gt; </code> </p> <p>Output: <code> 1131 12345 1 123|456|789 </code> </p> </td> 
+   <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;PID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt; &lt;TRAIT_LIST;separator="|"&gt; </code> </p> <p>Ausgabe: <code> 1131 12345 1 123|456|789 </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### `DPUUID` Beispiele
 
-To help you understand how the `DPUUID` macro outputs data, lets assume we have 2 `DPID`s mapped to `DPUUID`s as shown below:
+Damit Sie verstehen können, wie das `DPUUID` Makro Daten ausgibt, nehmen wir an, dass `DPID`s wie folgt `DPUUID`s zugeordnet sind:
 
-* DPID `1111` maps to DPUUIDs `AAAA` (timestamp = 1) and `BBBB` (timestamp = 2).
-* DPID `2222` maps to DPUUID `CCCC`.
+* DPID `1111` wird DPUUIDs zugeordnet `AAAA` (Zeitstempel = 1) und `BBBB` (Zeitstempel = 2).
+* DPID `2222` wird DPUUID zugeordnet `CCCC`.
 
-Anhand dieser Bedingungen werden in der folgenden Tabelle einige mögliche Format-Zeichenfolgen und deren Ausgabe aufgelistet.
+Unter diesen Bedingungen werden in der folgenden Tabelle einige mögliche Formatzeichenfolgen und deren Ausgabe aufgelistet.
 
 <table id="table_6A6D94F994C1475BB09126BA0B815B1F"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Zuordnungsbedingung </th> 
-   <th colname="col2" class="entry"> Makroformat </th> 
+   <th colname="col2" class="entry"> Makro-Format </th> 
    <th colname="col3" class="entry"> Ausgabe </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Alle Zuordnungen für eine einzelne DPID zurückgeben </p> </td> 
-   <td colname="col2"> <p> <code> &lt; DPUUIDS; format = "dpids = 1111 | maxmappings = 0 | format = json" &gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111", "AAAA"], ["1111", "BBBB"]] </code> </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=111|maxMappings=0|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","AAAA"],["1111","BBBB"]] </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Maximale 1 Zuordnung für alle dpids zurückgeben </p> </td> 
-   <td colname="col2"> <p> <code> &lt; DPUUIDS; format = "dpids = 1111,2222 | maxmappings = 1 | format = json" &gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111", "BBBB"], ["2222", "CCCC"]] </code> </p> <p>For DPID <code> 1111 </code>, the macro maps to DPUUID <code> BBBB </code> only because that ID has the larger timestamp. </p> </td> 
+   <td colname="col1"> <p>Maximal 1 Zuordnung für alle DPIDs zurückgeben </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Für DPID <code> 111 </code>wird das Makro DPUUID <code> BBBB </code> nur zugeordnet, weil diese ID den größeren Zeitstempel hat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maximal 2 Zuordnungen für eine einzelne DPID zurückgeben </p> </td> 
-   <td colname="col2"> <p> <code> &lt; DPUUIDS; format = "dpids = 2222 | maxmappings = 2 | format = json" &gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222", "CCCC"]] </code> </p> <p>Even though <code> maxMappings=2 </code>, this macro returns only 1 DPID to DPUUID mapping because the specified DPID has only one DPUUID. </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Obwohl <code> maxMappings=2 </code>, gibt dieses Makro nur 1 DPID für die DPUUID-Zuordnung zurück, da die angegebene DPID nur eine DPUUID hat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
