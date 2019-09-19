@@ -1,67 +1,67 @@
 ---
-description: Erstellen und verwalten Sie die im algorithmischen Modellierung verwendeten Eigenschaften oder Segmente, auch als Look-Alike-Modellierung bezeichnet. Modellfunktionen finden Sie unter Zielgruppendaten > Modelle.
-keywords: relative Gewichtung, Lookalike
-seo-description: Erstellen und verwalten Sie die im algorithmischen Modellierung verwendeten Eigenschaften oder Segmente, auch als Look-Alike-Modellierung bezeichnet. Modellfunktionen finden Sie unter Zielgruppendaten > Modelle.
-seo-title: Grundlagen zu algorithmischen Modellen
+description: Erstellen und verwalten Sie die Eigenschaften oder Segmente, die bei der algorithmischen Modellierung verwendet werden, auch als Look-alike-Modellierung bezeichnet. Modellfunktionen finden Sie unter Zielgruppendaten > Modelle.
+keywords: relatives Gewicht, aussehen
+seo-description: Erstellen und verwalten Sie die Eigenschaften oder Segmente, die bei der algorithmischen Modellierung verwendet werden, auch als Look-alike-Modellierung bezeichnet. Modellfunktionen finden Sie unter Zielgruppendaten > Modelle.
+seo-title: Algorithmische Modelle
 solution: Audience Manager
-title: Grundlagen zu algorithmischen Modellen
+title: Algorithmische Modelle
 topic: DIL-API
-uuid: 39441 e 72-5316-453 d -9 aff -0 e 0 b 633 aabcd
+uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
 source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
 
 ---
 
 
-# Grundlagen zu algorithmischen Modellen {#about-algorithmic-models}
+# Algorithmische Modelle {#about-algorithmic-models}
 
-Erstellen und verwalten Sie die im algorithmischen Modellierung verwendeten Eigenschaften oder Segmente, auch als Look-Alike-Modellierung bezeichnet. Modellfunktionen finden Sie in **[!UICONTROL Audience Data > Models]**.
+Erstellen und verwalten Sie die Eigenschaften oder Segmente, die bei der algorithmischen Modellierung verwendet werden, auch als Look-alike-Modellierung bezeichnet. Modellfunktionen befinden sich in **[!UICONTROL Audience Data > Models]**.
 
 <!-- c_models.xml -->
 
-## Grundlagen zu algorithmischen Modellen {#understanding-models}
+## Algorithmische Modelle {#understanding-models}
 
-Die folgenden Abschnitte stellen eine Überprüfung der algorithmischen Modellierung dar. [!DNL Audience Manager] Sie beschreiben, wie die Modellierung funktioniert, welche Vorteile und welcher Arbeitsablauf erzielt wird.
+Die folgenden Abschnitte stellen eine Übersicht über die algorithmische Modellierung in dar [!DNL Audience Manager]. Sie beschreiben, wie Modellierung funktioniert, die Vorteile und den Workflow.
 
 <!-- understanding-models.xml -->
 
 ## Neue Benutzer mit algorithmischer Modellierung suchen {#find-new-users}
 
-Die algorithmische Modellierung hilft Ihnen, neue, einzigartige Zielgruppen durch automatisierte Datenanalyse zu entdecken. Der Prozess beginnt, wenn Sie eine Eigenschaft oder ein Segment, ein Zeitintervall sowie Datenquellen aus der ersten und dritten Partei auswählen. Ihre Optionen bieten die Eingaben für das algorithmische Modell. Wenn der Analyseprozess ausgeführt wird, sucht er nach Benutzern, die auf freigegebenen Merkmalen der ausgewählten Population basieren. Nach Abschluss sind diese Daten im [Eigenschaftenaufbau](../../features/traits/about-trait-builder.md) verfügbar, wo Sie sie verwenden können, um Eigenschaften basierend auf [Genauigkeit und Reichweite zu erstellen](../../features/traits/trait-accuracy-reach.md). Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit regelbasierten Eigenschaften kombinieren, und andere Qualifikationsanforderungen mit booleschen Ausdrücken und Vergleichsoperatoren hinzufügen. Algorithmische Modellierung bietet Ihnen eine dynamische Möglichkeit, Werte aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
+Die algorithmische Modellierung hilft Ihnen, neue, einzigartige Zielgruppen durch die automatisierte Datenanalyse zu entdecken. Der Prozess beginnt, wenn Sie eine Eigenschaft oder ein Segment, ein Zeitintervall sowie Datenquellen von Erstanbietern und Drittanbietern auswählen. Ihre Auswahl bietet die Eingaben für das algorithmische Modell. Wenn der Analyseverfahren ausgeführt wird, sucht er anhand gemeinsamer Merkmale der ausgewählten Population nach infrage kommenden Benutzern. Nach Abschluss dieser Daten stehen Ihnen im [Eigenschaften-Builder](../../features/traits/about-trait-builder.md) zur Verfügung, mit dem Sie Eigenschaften erstellen können, die auf [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)basieren. Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit regelbasierten Eigenschaften kombinieren und weitere Qualifikationsanforderungen mit booleschen Ausdrücken und Vergleichsoperatoren hinzufügen. Algorithmische Modellierung bietet Ihnen eine dynamische Möglichkeit, Werte aus all Ihren verfügbaren Eigenschaftsdaten zu extrahieren.
 
 ## Vorteile {#advantages}
 
-Die Verwendung [!DNL Audience Manager] von Modellierung bietet die größten Vorteile:
+Die Verwendung der [!DNL Audience Manager] Modellierung bietet unter anderem folgende Vorteile:
 
-* **Genauigkeit der Daten:** Der Algorithmus wird regelmäßig ausgeführt, wodurch die Ergebnisse aktuell und relevant bleiben.
-* **Automatisierung:** Sie müssen keine umfangreichen statischen Regeln verwalten. Der Algorithmus findet Zielgruppen für Sie.
-* **Sparen Sie Zeit und reduzieren Sie die Arbeit:** Mit unserem Modellierungsprozess müssen Sie nicht wissen, welche Eigenschaften/Segmente funktionieren oder wie viel Zeit Sie für Kampagnen verbringen, um neue Zielgruppen zu entdecken. Das Modell kann dies für Sie tun.
-* **Zuverlässigkeit:** Die Modellierung funktioniert mit serverseitigen Such- und Qualifizierungsprozessen, die Ihre eigenen Daten und die ausgewählten Drittanbieterdaten auswerten, auf die Sie Zugriff haben. Das bedeutet, dass Sie die Besucher auf Ihrer Site nicht für eine Eigenschaftsvariable qualifizieren müssen.
+* **** Datengenauigkeit: Der Algorithmus wird regelmäßig ausgeführt, was dazu beiträgt, die Ergebnisse aktuell und relevant zu halten.
+* **** Automatisierung: Sie müssen nicht viele statische Regeln verwalten. Der Algorithmus findet Zielgruppen für Sie.
+* **** Sparen Sie Zeit und Mühe: Mit unserem Modellierungsprozess müssen Sie nicht erraten, welche Eigenschaften/Segmente funktionieren oder wie lange Ressourcen für Kampagnen verwendet werden, um neue Zielgruppen zu entdecken. Das Modell kann das für Sie tun.
+* **** Zuverlässigkeit: Die Modellierung funktioniert mit serverseitigen Erkennungs- und Qualifizierungsprozessen, die Ihre eigenen Daten und ausgewählte Drittanbieterdaten auswerten, auf die Sie Zugriff haben. Das bedeutet, dass Sie die Besucher Ihrer Site nicht sehen müssen, um sie für eine Eigenschaft zu qualifizieren.
 
 ## Arbeitsablauf{#workflow}
 
-Sie verwalten Modelle in **[!UICONTROL Audience Data > Models]**. Auf einer hohen Ebene umfasst der Workflow-Prozess Folgendes:
+Sie verwalten Modelle in **[!UICONTROL Audience Data > Models]**. Auf hoher Ebene umfasst der Workflow-Prozess Folgendes:
 
-* Wählen Sie die Ausgangsdaten aus, die der Algorithmus bewerten soll. Dies umfasst eine Eigenschaft oder ein Segment, einen Zeitraum und Datenquellen (Ihre eigenen Daten und Drittanbieterdaten, auf die Sie bereits [!DNL Audience Manager]zugreifen können). Im Arbeitsablauf für die Modellerstellung können Sie die Eigenschaften ausschließen, die Sie nicht mit Ihrem Modell stören möchten.
-* Speichern Sie Ihr Modell. Nach dem Speichern wird der algorithmische Evaluierungsprozess automatisch ausgeführt. Es kann jedoch bis zu 7 Tage dauern, bis dieser Vorgang abgeschlossen ist. [!DNL Audience Manager] sendet eine E-Email, wenn der Algorithmus abgeschlossen ist und die Ergebnisse für die Erstellung von Eigenschaften verfügbar sind.
-* Erstellen Sie algorithmische Eigenschaften in [!UICONTROL Trait Builder].
-* Eigenschaften in Segmenten kombinieren [!UICONTROL Segment Builder].
+* Wählen Sie die Ausgangsdaten aus, die der Algorithmus auswerten soll. Dazu gehören Eigenschaften oder Segmente, Zeiträume und Datenquellen (Ihre eigenen Daten und Daten von Drittanbietern, auf die Sie bereits Zugriff haben [!DNL Audience Manager]). Im Arbeitsablauf für die Modellerstellung können Sie die Eigenschaften ausschließen, die Sie nicht in Ihr Modell eingreifen möchten.
+* Speichern Sie Ihr Modell. Nach dem Speichern wird der algorithmische Evaluierungsprozess automatisch ausgeführt. Beachten Sie jedoch, dass dieser Vorgang bis zu 7 Tage dauern kann. [!DNL Audience Manager] sendet Ihnen eine E-Mail, wenn der Algorithmus abgeschlossen ist und Ergebnisse zur Eigenschaftserstellung verfügbar sind.
+* Erstellen Sie algorithmische Eigenschaften [!UICONTROL Trait Builder].
+* Kombinieren Sie Eigenschaften in Segmente [!UICONTROL Segment Builder].
 * Erstellen und senden Sie Segmentdaten an ein Ziel.
 
 ## Fehlerbehebung {#troubleshooting}
 
-Wir deaktivieren ein algorithmische Modell, das keine Daten für drei aufeinander folgende Ausführungen generiert. Beachten Sie, dass Sie den Status des Modells nicht wieder auf aktiv setzen können. Um sicherzustellen, dass Ihre Modelle Daten generieren, sollten Sie Modelle aus Datenquellen mit ausreichenden Eigenschaften erstellen, um Daten zu sammeln.
+Wir deaktivieren jedes algorithmische Modell, das bei der Generierung von Daten für drei aufeinander folgende Vorgänge fehlschlägt. Beachten Sie, dass Sie den Status des Modells anschließend nicht wieder auf "aktiv"zurücksetzen können. Um sicherzustellen, dass Ihre Modelle Daten generieren, sollten Sie Modelle aus Datenquellen mit ausreichenden Eigenschaften erstellen, aus denen Daten gesammelt werden können.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Ziele](../../features/destinations/destinations.md)
 >* [Eigenschaften](../../features/traits/trait-details-page.md)
 >* [Segmente](../../features/segments/segments-purpose.md)
 
 
-## Grundlegendes zu traitweight {#understanding-traitweight}
+## EigenschaftenGewicht verstehen {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] ist ein proprietärer Algorithmus, der automatisch neue Eigenschaften entdecken soll. Sie vergleicht Eigenschaftsdaten aus Ihren aktuellen Eigenschaften und Segmenten mit allen anderen First- und Drittanbieterdaten, auf die Sie über [!DNL Audience Manager]diese Daten zugreifen können. In diesem Abschnitt finden Sie eine Beschreibung des [!UICONTROL TraitWeight] algorithmischen Erkennungsprozesses.
+[!UICONTROL TraitWeight] ist ein proprietärer Algorithmus, der entwickelt wurde, um automatisch neue Eigenschaften zu entdecken. Es vergleicht Eigenschaftendaten aus Ihren aktuellen Eigenschaften und Segmenten mit allen anderen Erstanbieter- und Drittanbieterdaten, auf die Sie Zugriff haben [!DNL Audience Manager]. In diesem Abschnitt finden Sie eine Beschreibung des [!UICONTROL TraitWeight] algorithmischen Erkennungsprozesses.
 
 <!-- traitweight.xml -->
 
@@ -69,29 +69,29 @@ Wir deaktivieren ein algorithmische Modell, das keine Daten für drei aufeinande
 
 Die folgenden Schritte beschreiben den [!UICONTROL TraitWeight] Bewertungsprozess.
 
-### Schritt 1: Erstellen eines Ausgangswerts für den Trait-Vergleich
+### Schritt 1: Erstellen einer Grundlinie für den Vergleich von Eigenschaften
 
-Um eine Ausgangslinie zu erstellen, [!UICONTROL TraitWeight] werden alle mit einer Zielgruppe verknüpften Eigenschaften für ein 30-, 60-, 90-tägiges oder 90-tägiges Intervall gemessen. Als Nächstes werden Eigenschaften entsprechend ihrer Häufigkeit und deren Korrelation eingestuft. Die Häufigkeit misst die Gemeinsamkeit. Korrelation misst die Wahrscheinlichkeit, dass ein Merkmal nur in der Grundlinienzielgruppe vorhanden ist. Häufig angezeigte Eigenschaften weisen eine hohe Gemeinsamalität auf, ein wichtiges Merkmal, mit dem ein gewichtetes Ergebnis festgelegt wird, wenn es mit Eigenschaften kombiniert wird, die in den ausgewählten Datenquellen entdeckt wurden.
+Zum Erstellen einer Grundlinie [!UICONTROL TraitWeight] werden alle mit einer Zielgruppe verbundenen Eigenschaften für einen Zeitraum von 30, 60 oder 90 Tagen gemessen. Als Nächstes werden Eigenschaften nach ihrer Häufigkeit und ihrer Korrelation sortiert. Die Häufigkeit misst die Gemeinsamkeit. Korrelation misst die Wahrscheinlichkeit, dass eine Eigenschaft nur in der Basiszielgruppe vorhanden ist. Eigenschaften, die häufig auftreten, weisen eine hohe Gemeinsamkeit auf, ein wichtiges Merkmal, mit dem ein gewichteter Wert festgelegt wird, wenn sie mit Eigenschaften kombiniert werden, die in den ausgewählten Datenquellen gefunden werden.
 
 ### Schritt 2: Identische Eigenschaften in der Datenquelle suchen
 
-Nachdem Sie einen Ausgangswert für den Vergleich erstellt haben, sucht der Algorithmus nach identischen Eigenschaften in den ausgewählten Datenquellen. Führt in diesem Schritt alle erkannten Eigenschaften [!UICONTROL TraitWeight] durch und vergleicht sie mit der Grundlinie. Im Gegensatz zu der Grundlinie sind ungewöhnliche Eigenschaften jedoch höher als die, die häufiger angezeigt werden. Seltene Eigenschaften bieten einen hohen Grad an Spezifität. [!UICONTROL TraitWeight] bewertet Kombinationen aus allgemeinen Grundlinieneigenschaften und ungewöhnlichen (hochgradig spezifischen) Datenquelleneigenschaften als einflussreicher oder wünschenswerter als für beide Datensätze. In der Tat erkennt unser Modell diese großen, allgemeinen Eigenschaften und weist Datensätzen mit hohen Korrelationen keine übermäßige Priorität zu. Seltene Eigenschaften erhalten höhere Priorität, da sie eher neue, Unique Users als Eigenschaften darstellen, die über die gesamte Pinnwand hinweg zu hoch sind.
+Nachdem der Algorithmus eine Vergleichsbasis erstellt hat, sucht er nach identischen Eigenschaften in den ausgewählten Datenquellen. In diesem Schritt werden alle entdeckten Eigenschaften mit einer Häufigkeit [!UICONTROL TraitWeight] gezählt und mit der Grundlinie verglichen. Im Gegensatz zum Ausgangswert werden jedoch ungewöhnliche Eigenschaften höher eingestuft als diejenigen, die häufiger auftreten. Seltene Eigenschaften sollen eine hohe Spezifität aufweisen. [!UICONTROL TraitWeight] bewertet Kombinationen von allgemeinen Eigenschaften und ungewöhnlichen (hochspezifischen) Datenquelleneigenschaften als einflussreicherer oder wünschenswerter als Eigenschaften, die beide Datensätze gemeinsam haben. In der Tat erkennt unser Modell diese großen, gemeinsamen Eigenschaften und weist Datensätzen mit hohen Korrelationen keine übermäßige Priorität zu. Seltene Eigenschaften erhalten eine höhere Priorität, da sie mit größerer Wahrscheinlichkeit neue, einzigartige Benutzer darstellen als Eigenschaften mit hoher Gemeinsamkeit.
 
-### Schritt 3: Gewichtung zuweisen
+### Schritt 3: Stärke zuweisen
 
-In diesem Schritt [!UICONTROL TraitWeight] werden neu erkannte Eigenschaften nach dem Einfluss oder der gewünschten Priorität sortiert. Die Gewichtung ist ein Prozentsatz, der zwischen 0% und 100% ausführt. Eigenschaften, die näher an 100% rangiert sind, bedeuten, dass sie eher wie die Zielgruppe in Ihrer Grundlinienpopulation sind. Stark gewichtete Eigenschaften sind außerdem wertvoll, da sie neue individuelle Benutzer darstellen, die sich ähnlich wie die etablierte Grundzielgruppe verhalten. Denken Sie daran, [!UICONTROL TraitWeight] Eigenschaften mit hoher Gemeinsamalität in der Grundlinie und hoher Spezifität in den Vergleichsdatenquellen zu berücksichtigen, um wertvoller als die in den einzelnen Datensätzen geläufigen Eigenschaften zu sein.
+In diesem Schritt werden neu entdeckte Eigenschaften nach Einfluss oder Zweckmäßigkeit [!UICONTROL TraitWeight] sortiert. Die Waage ist ein Prozentsatz, der zwischen 0 % und 100 % liegt. Eigenschaften, die näher an 100 % platziert wurden, sind eher wie die Zielgruppe in Ihrer Grundgesamtheit. Darüber hinaus sind stark gewichtete Eigenschaften wertvoll, da sie neue, individuelle Benutzer darstellen, die sich ähnlich wie Ihre etablierte Zielgruppe verhalten. Denken Sie daran, [!UICONTROL TraitWeight] betrachtet Eigenschaften mit hoher Gemeinsamkeit im Ausgangswert und hoher Spezifität in den verglichenen Datenquellen als wertvoller als Eigenschaften, die in jedem Datensatz vorkommen.
 
-### Schritt 4: Auswertungsbenutzer
+### Schritt 4: Benutzer auswerten
 
-Jeder Benutzer in den ausgewählten Datenquellen erhält ein Benutzerergebnis, das der Summe aller Gewichtungen der einflussreichsten Eigenschaften des Benutzerprofils entspricht. Die Benutzerbewertungen werden dann zwischen 0 und 100% normalisiert.
+Jeder Benutzer in den ausgewählten Datenquellen erhält eine Benutzerbewertung, die der Summe aller Gewichtungen der einflussreichen Eigenschaften im Profil dieses Benutzers entspricht. Die Benutzerwerte werden dann zwischen 0 und 100 % normalisiert.
 
-### Schritt 5: Ergebnisse anzeigen und mit diesen arbeiten
+### Schritt 5: Anzeigen und Arbeiten mit Ergebnissen
 
-Audience Manager zeigt Ihr gewichtetes Modell in an [!UICONTROL Trait Builder]. Wenn Sie eine algorithmische Eigenschaft erstellen möchten, [!UICONTROL Trait Builder] können Sie Eigenschaften basierend auf dem gewichteten Ergebnis erstellen, das durch den Algorithmus während einer Datenausführung generiert wurde. Sie können eine höhere Genauigkeit wählen, um nur Benutzer zu qualifizieren, die sehr hohe Benutzerbewertungen haben und daher sehr ähnlich der Grundzielgruppe sind und nicht den Rest der Zielgruppe. Wenn Sie eine größere Zielgruppe erreichen möchten (Reichweite), können Sie die Genauigkeit verringern.
+Audience Manager zeigt Ihre gewichteten Modellergebnisse in [!UICONTROL Trait Builder]. Wenn Sie eine algorithmische Eigenschaft erstellen möchten, [!UICONTROL Trait Builder] können Sie Eigenschaften erstellen, die auf dem gewichteten Ergebnis basieren, das der Algorithmus während einer Datenausführung generiert hat. Sie können eine höhere Genauigkeit wählen, um nur Benutzer mit sehr hohen Benutzerwerten zu qualifizieren, die daher der Grundzielgruppe sehr ähnlich sind und nicht der übrigen Zielgruppe. Wenn Sie eine größere Zielgruppe (Reichweite) erreichen möchten, können Sie die Genauigkeit herabsetzen.
 
-### Schritt 6: Bewerten Sie die Bedeutung einer Eigenschaft über Verarbeitungszyklen hinweg erneut.
+### Schritt 6: Neubewertung der Bedeutung einer Eigenschaft über Verarbeitungszyklen hinweg
 
-In regelmäßigen Abständen [!UICONTROL TraitWeight] wird die Wichtigkeit einer Eigenschaft auf Grundlage der Größe und Änderung der Bevölkerung dieser Eigenschaft erneut ausgewertet. Dies geschieht, wenn die Anzahl der Benutzer, die für diese Eigenschaft qualifiziert sind, im Laufe der Zeit erhöht oder verringert wird. Dieses Verhalten wird in Eigenschaften, die sehr groß werden, sehr klar dargestellt. Angenommen, der Algorithmus verwendet Eigenschaften A für das Modellieren. Wenn die Population von Eigenschaften zunimmt, [!UICONTROL TraitWeight] bewerten Sie die Relevanz dieser Eigenschaft erneut und weisen eine niedrigere Bewertung zu oder ignorieren sie. In diesem Fall ist Merkmala zu häufig oder sehr umfangreich, um seine Population hervorzuheben. Nachdem der [!UICONTROL TraitWeight] Wert von Eigenschaften A (oder im Modell ignoriert) verringert wurde, verringert sich die Population der algorithmischen Eigenschaft. Die Liste einflussreicher Eigenschaften spiegelt die Evolution der Grundlinienpopulation wider. Verwenden Sie die Liste der einflussreichsten Eigenschaften, um zu verstehen, warum diese Änderungen vorgenommen wurden.
+In regelmäßigen Abständen [!UICONTROL TraitWeight] wird die Bedeutung eines Merkmals anhand der Größe und Änderung der Population dieser Eigenschaft neu bewertet. Dies geschieht, wenn die Anzahl der Benutzer, die für diese Eigenschaft qualifiziert sind, mit der Zeit steigt oder abnimmt. Dieses Verhalten wird am deutlichsten in Eigenschaften gesehen, die sehr groß werden. Angenommen, der Algorithmus verwendet die Eigenschaft A für die Modellierung. Wenn die Population von Eigenschaft A zunimmt, [!UICONTROL TraitWeight] wird die Bedeutung dieser Eigenschaft neu bewertet und es kann ein niedrigeres Ergebnis zugewiesen oder ignoriert werden. In diesem Fall ist Eigenschaft A zu häufig oder zu groß, um etwas Bedeutendes über seine Bevölkerung zu sagen. Nachdem Sie den Wert von Eigenschaft A [!UICONTROL TraitWeight] verringert haben (oder ihn im Modell ignoriert), verringert sich die Population der algorithmischen Eigenschaft. Die Liste der einflussreichen Eigenschaften spiegelt die Entwicklung der Grundgesamtheit wider. Verwenden Sie die Liste der einflussreichen Eigenschaften, um zu verstehen, warum diese Änderungen stattfinden.
 
 Verwandte Links:
 
@@ -100,11 +100,11 @@ Verwandte Links:
 
 ## Zeitplan für algorithmische Modelle und Eigenschaften aktualisieren {#update-schedule}
 
-Erstellen und Aktualisieren von Zeitplänen für neue oder vorhandene algorithmische Modelle und Eigenschaften.
+Erstellung und Aktualisierung von Zeitplänen für neue oder vorhandene algorithmische Modelle und Eigenschaften.
 
 <!-- c_model_update_schedule.xml -->
 
-### Algorithmische Modellerstellung und -aktualisierung
+### Zeitplan für die Erstellung und Aktualisierung algorithmischer Modelle
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead>
@@ -115,25 +115,25 @@ Erstellen und Aktualisieren von Zeitplänen für neue oder vorhandene algorithmi
  </thead>
  <tbody>
   <tr> 
-   <td colname="col1"> <b>Ein Modell erstellen oder klonen</b> </td>
-   <td colname="col2"> <p>Bei neuen oder geklonten Algorithmen wird der Erstellungsprozess einmal pro Tag unter folgender Adresse ausgeführt: 
+   <td colname="col1"> <b>Erstellen oder Klonen eines Modells</b> </td>
+   <td colname="col2"> <p>Bei neuen oder geklonten algorithmischen Modellen läuft der Erstellungsvorgang einmal täglich ab: 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
-      <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (November - März) </li> 
-      <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (März - November) </li> 
-     </ul> </p> <p>Modelle, die nach dem Erstellungstermin erstellt oder geklont wurden, werden am folgenden Tag verarbeitet. </p> <p>Wenn die erste Ausführung eines Modells keine Daten generiert, wird es ein zweites Mal ausgeführt, am nächsten Tag. Wenn der zweite Versuch auch keine Daten generiert, erfolgt ein dritter Versuch, am nächsten Tag. Das Modell wird beendet, wenn der dritte Versuch auch keine Daten generiert. In diesem Fall deaktivieren wir das Modell. Weitere Informationen finden Sie unter <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Fehlerbehebung für algorithmische Modelle</a>. </p> </td>
+      <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 17:00 Uhr EST (November - März) </li> 
+      <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 18:00 Uhr EDT (März - November) </li> 
+     </ul> </p> <p>Modelle, die nach Ablauf der Erstellungsfrist erstellt oder geklont wurden, werden am folgenden Tag verarbeitet. </p> <p>Wenn die erste Ausführung eines Modells keine Daten generiert, wird sie am nächsten Tag ein zweites Mal ausgeführt. Wenn der zweite Versuch auch keine Daten generiert, wird am nächsten Tag ein dritter Versuch unternommen. Das Modell wird nicht mehr ausgeführt, wenn der dritte Versuch ebenfalls keine Daten generiert. In diesem Fall deaktivieren wir das Modell. Weitere Informationen finden Sie unter <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Fehlerbehebung bei Algorithmusmodellen</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>Modell aktualisieren</b> </td> 
-   <td colname="col2"> <p>Unter idealen Bedingungen laufen vorhandene Modelle an Wochentagen, mindestens einmal alle 7 Tage. Wenn Sie beispielsweise am Montag ein Modell (um den Termin) erstellen, wird am Montag der folgende Montag aktualisiert. </p> <p>Ein Modell wird erneut ausgeführt, wenn es eine der folgenden Bedingungen erfüllt: </p> <p>
+   <td colname="col2"> <p>Unter idealen Bedingungen werden vorhandene Modelle an Wochentagen, mindestens alle 7 Tage, ausgeführt. Wenn Sie z. B. am Montag ein Modell erstellen (bis zum Termin), wird es spätestens am folgenden Montag aktualisiert. </p> <p>Ein Modell wird erneut ausgeführt, wenn eine der folgenden Bedingungen erfüllt ist: </p> <p>
      <ul id="ul_7B0442F6E840415B82705C7B7419D079"> 
-      <li id="li_27DCB92CE61F4388B5D253C13BD030BE">Die letzte Ausführung war nicht erfolgreich. </li> 
-      <li id="li_9887E50D291446AC868A8FCE6295536E">Es wurde erfolgreich ausgeführt, bevor und es in den vergangenen 7 Tagen überhaupt nicht ausgeführt wurde und das Modell verfügt über mindestens eine aktive Eigenschaft. </li>
+      <li id="li_27DCB92CE61F4388B5D253C13BD030BE">Die letzte Runde war nicht erfolgreich. </li> 
+      <li id="li_9887E50D291446AC868A8FCE6295536E">Es wurde vor UND in den letzten 7 Tagen noch nicht ausgeführt UND das Modell hat mindestens eine aktive Eigenschaft. </li>
      </ul> </p> </td>
   </tr>
  </tbody>
 </table>
 
-### Algorithmische Eigenschaften Erstellen und Aktualisieren Plan
+### Algorithmischer Plan zur Erstellung und Aktualisierung von Eigenschaften
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 
@@ -144,36 +144,36 @@ Erstellen und Aktualisieren von Zeitplänen für neue oder vorhandene algorithmi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Erstellen von Eigenschaften</b> </td> 
-   <td colname="col2"> <p>Der Eigenschaftserstellungsprozess wird jeden Tag bis Freitag ausgeführt. Im Allgemeinen werden neue algorithmische Eigenschaften innerhalb von 48 Stunden in der Benutzeroberfläche angezeigt. </p> </td> 
+   <td colname="col1"> <b>Eigenschaften erstellen</b> </td> 
+   <td colname="col2"> <p>Die Erstellung der Eigenschaften wird jeden Tag von Montag bis Freitag durchgeführt. Im Allgemeinen werden in der Benutzeroberfläche innerhalb von 48 Stunden neue algorithmische Eigenschaften angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Aktualisieren von Eigenschaften</b> </td> 
-   <td colname="col2"> <p>Vorhandene Eigenschaften werden mindestens einmal alle 7 Tage aktualisiert und folgen dem Zeitplan für Modellaktualisierungen. </p> </td> 
+   <td colname="col1"> <b>Eigenschaften aktualisieren</b> </td> 
+   <td colname="col2"> <p>Vorhandene Eigenschaften werden mindestens alle 7 Tage aktualisiert und folgen dem Zeitplan für Modellaktualisierungen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Modelllistenansicht {#models-list-view}
+## Modelllisten-Ansicht {#models-list-view}
 
 Die Listenansicht ist ein zentraler Arbeitsbereich, mit dem Sie Modelle erstellen, überprüfen und verwalten können.
 
 <!-- c_models_list_view.xml -->
 
-Die Modellseite enthält Funktionen und Tools, die Ihnen dabei helfen:
+Die Seite "Modelle"enthält Funktionen und Werkzeuge, die Ihnen helfen,
 
 * Erstellen Sie neue Modelle.
 * Verwalten Sie vorhandene Modelle (bearbeiten, anhalten, löschen oder klonen).
-* Suchen Sie nach Modellen nach Namen.
+* Suchen Sie nach Modellen anhand des Namens.
 * Erstellen Sie algorithmische Eigenschaften mit einem beliebigen Modell.
 
-## Modellzusammenfassung {#models-summary-view}
+## Modellzusammenfassungsansicht {#models-summary-view}
 
-Auf der Zusammenfassungsseite werden Modelldetails wie Name, Reichweite/Genauigkeit, Verarbeitungsverlauf und Eigenschaften angezeigt, die aus dem Modell erstellt wurden. Die Seite enthält auch Einstellungen, mit denen Sie Modelle erstellen und verwalten können. Klicken Sie in der Zusammenfassungsliste auf einen Modellnamen, um dessen Details anzuzeigen.
+Auf der Zusammenfassungsseite werden Modelldetails wie Name, Reichweite/Genauigkeit, Verarbeitungsverlauf und anhand des Modells erstellte Eigenschaften angezeigt. Die Seite enthält auch Einstellungen, mit denen Sie Modelle erstellen und verwalten können. Klicken Sie in der Zusammenfassungsliste auf einen Modellnamen, um dessen Details anzuzeigen.
 
 <!-- c_models_summary.xml -->
 
-Die Modellzusammenfassungsseite enthält die folgenden Abschnitte.
+Die Modellübersichtsseite enthält die folgenden Abschnitte.
 
 <table id="table_14AE8B324115442589E3F993101F72EA"> 
  <thead> 
@@ -185,28 +185,28 @@ Die Modellzusammenfassungsseite enthält die folgenden Abschnitte.
  <tbody> 
   <tr>
    <td colname="col1"> <p> <span class="wintitle"> Basisinformationen</span> </p> </td>
-   <td colname="col2"> <p>Enthält grundlegende Informationen zum Modell, z. B. seinem Namen und zum Zeitpunkt der letzten Ausführung. </p> </td>
+   <td colname="col2"> <p>Beinhaltet grundlegende Informationen zum Modell, z. B. den Namen und den Zeitpunkt des letzten Ausführung. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Modellreichweite und -genauigkeit</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt <a href="../../features/traits/trait-accuracy-reach.md"> Genauigkeit und</a> Reichweitendaten für das letzte Modell an. </p> </td>
+   <td colname="col2"> <p>Zeigt <a href="../../features/traits/trait-accuracy-reach.md"> Genauigkeit und Reichweitendaten</a> für die letzte Modellausführung an. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Modell-Verarbeitungsverlauf</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt das Verarbeitungsdatum und die Uhrzeit der letzten 10 Ausführungen an und ob Daten auf diesen ausgeführt wurden. </p> </td>
+   <td colname="col1"> <p> <span class="wintitle"> Modellverarbeitungsverlauf</span> </p> </td> 
+   <td colname="col2"> <p>Zeigt das Datum und die Uhrzeit der Verarbeitung der letzten 10 Ausführung und an, ob Daten für diese Ausführung generiert wurden. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Einflussreiche Eigenschaften</span> </p> </td> 
-   <td colname="col2"> <p>Die Tabelle <span class="wintitle"> Einflussreiche Eigenschaften</span> : </p> <p> 
+   <td colname="col2"> <p>Tabelle mit <span class="wintitle"> einflussreichen Eigenschaften</span> : </p> <p> 
      <ul id="ul_FB15A554CADC40D09F9AC6D384D54ECD"> 
-      <li id="li_343E25E8B3584D38B1E2BCB211033DBF"> Listet die 50 wichtigsten Einflusseigenschaften auf, die am besten in der Grundlinienpopulation des Modells dargestellt werden. </li> 
-      <li id="li_44957F46C0744A84A987D8F25D93E24E">Ordnet jede Eigenschaft in der Reihenfolge ihrer <span class="wintitle"> relativen Gewichtung</span> zu. Die <span class="wintitle"> relative Gewichtung</span> sortiert neu erkannte Eigenschaften in Hinblick auf Einfluss oder Wünschbarkeit. Die Gewichtung ist ein Prozentsatz, der zwischen 0% und 100% ausführt. Eigenschaften, die näher an 100% rangiert sind, bedeuten, dass sie eher wie die Zielgruppe in Ihrer Grundlinienpopulation sind. Siehe <a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> Traitweight</a>. </li> 
-      <li id="li_260151E23B1E484BA06C8494552A04F0">Zeigt die 30-Tage-individuellen Werte und die Gesamtfüllung für die einzelnen Merkmale an. </li> 
+      <li id="li_343E25E8B3584D38B1E2BCB211033DBF"> Listet die 50 einflussreichsten Eigenschaften auf, die am besten in der Grundgesamtheit des Modells dargestellt werden. </li> 
+      <li id="li_44957F46C0744A84A987D8F25D93E24E">Richtet die einzelnen Eigenschaften nach ihrem <span class="wintitle"> relativen Gewicht</span> aus. Das <span class="wintitle"> relative Gewicht</span> sortiert neu entdeckte Eigenschaften nach Einfluss oder Erwünschtheit. Die Waage ist ein Prozentsatz, der zwischen 0 % und 100 % liegt. Eigenschaften, die näher an 100 % platziert wurden, sind eher wie die Zielgruppe in Ihrer Grundgesamtheit. Siehe <a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> Grundlegendes zu TraitWeight</a>. </li> 
+      <li id="li_260151E23B1E484BA06C8494552A04F0">Zeigt die 30-Tage-Uniques und die Gesamtanzahl der Eigenschaften für jede Eigenschaft an. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Eigenschaften mit Modell</span> </p> </td>
-   <td colname="col2"> <p>Zeigt eine Liste der algorithmischen Eigenschaften basierend auf dem ausgewählten Modell an. Klicken Sie auf einen Eigenschaftsnamen oder eine Eigenschafts-ID, um weitere Informationen zu der Eigenschaft zu erhalten. Wählen <b><span class="uicontrol"> Sie Neue Eigenschaften mit Modell</span></b> erstellen, um zum algorithmischen Eigenschaftserstellungsprozess zu wechseln. </p> <p>Die Abschnittsbeschriftung ändert sich je nach dem Namen Ihres Modells. Beispiel: Sie erstellen ein Modell und geben das Modell A ein. Wenn Sie die Zusammenfassungsseite laden, wird der Name dieses Abschnitts in <span class="wintitle"> Eigenschaften mit Modell A geändert</span>. </p> </td>
+   <td colname="col2"> <p>Zeigt eine Liste der algorithmischen Eigenschaften, die auf dem ausgewählten Modell basieren. Klicken Sie auf einen Eigenschaftsnamen oder eine Eigenschaften-ID, um weitere Informationen zu den Eigenschaften anzuzeigen. Wählen Sie "Neue Eigenschaft mit Modell<b><span class="uicontrol"> </span></b> erstellen", um zum algorithmischen Eigenschaftenerstellungsprozess zu wechseln. </p> <p>Die Abschnittbeschriftung ändert sich je nach Name des Modells. Beispiel: Sie erstellen ein Modell und geben ihm einen Namen für Modell A. Wenn Sie die Zusammenfassungsseite laden, wird der Name dieses Abschnitts in <span class="wintitle"> Eigenschaften mit Modell A</span>geändert. </p> </td>
   </tr>
  </tbody>
 </table>
