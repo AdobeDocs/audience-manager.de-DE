@@ -1,39 +1,39 @@
 ---
-description: Der Bericht "Anzeigenüberlappung" wird als ein Heat Chart angezeigt, das hohe und niedrige Überlappungen zwischen Ihren Anzeigeneinheiten hervorhebt.
-seo-description: Der Bericht "Anzeigenüberlappung" wird als ein Heat Chart angezeigt, das hohe und niedrige Überlappungen zwischen Ihren Anzeigeneinheiten hervorhebt.
-seo-title: Anzeigenüberlappung
+description: Der Bericht "Anzeigeneinheit - Überschneidung"wird als Heatmap angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten hervorhebt.
+seo-description: Der Bericht "Anzeigeneinheit - Überschneidung"wird als Heatmap angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten hervorhebt.
+seo-title: Überschneidung der Anzeigeneinheit
 solution: Audience Manager
-title: Anzeigenüberlappung
-uuid: e 4467 e 81-acbf -474 e-b 501-89 d 57395651 f
+title: Überschneidung der Anzeigeneinheit
+uuid: e4467e81-acbf-474e-b501-89d57395651f
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Ad Unit Overlap{#ad-unit-overlap}
+# Überschneidung der Anzeigeneinheit{#ad-unit-overlap}
 
-The **[!UICONTROL Ad Unit Overlap]** report is displayed as a heat chart that highlights high and low overlaps between your Ad Units.
+Der **[!UICONTROL Ad Unit Overlap]** Bericht wird als Heat-Diagramm angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten hervorhebt.
 
 ## Nutzungsszenario {#use-cases}
 
-With the **[!UICONTROL Ad Unit Overlap]** report, you can gain insight into where your audience overlaps across your web properties. Der Bericht betrachtet Ihre 100 wichtigsten Eigenschaften und zeigt Ihnen die Überlappung.
+Mit dem **[!UICONTROL Ad Unit Overlap]** Bericht erhalten Sie einen Einblick, wo sich Ihre Zielgruppe über Ihre Webeigenschaften hinweg überschneidet. Der Bericht berücksichtigt Ihre 100 wichtigsten Eigenschaften und zeigt die Überschneidung zwischen ihnen.
 
-## Using the Ad Unit Overlap Report {#using-the-report}
+## Verwenden des Überschneidungsberichts für die Anzeigeneinheit {#using-the-report}
 
-Use the **[!UICONTROL Top N Base Ad Units]** and **[!UICONTROL Top N Overlapping Ad Units]** controls to select your desired number of ad units for the overlap. Sie können jeweils maximal 100 Elemente auswählen.
+Verwenden Sie die **[!UICONTROL Top N Base Ad Units]** und **[!UICONTROL Top N Overlapping Ad Units]** -Steuerelemente, um die gewünschte Anzahl von Anzeigeneinheiten für die Überschneidung auszuwählen. Sie können jeweils maximal 100 Elemente auswählen.
 
-Use the **Day Range** and **Date Through** controls to adjust your look-back range. Beachten Sie, dass der 7-Tage- und 30-Tage-Suchzeitraum nur für Sonntag verfügbar sind.
+Passen Sie den **Rückblickbereich** mit den Steuerelementen **"Zeitraum bis** Ende"an. Beachten Sie, dass die 7- und 30-Tage-Rückblickzeit nur für Sonntagsdaten verfügbar ist.
 
-Use the **[!UICONTROL Base Ad Unit]** and the **[!UICONTROL Overlap Ad Unit]** controls to select which of your ad units you want to display in the overlap report.
+Verwenden Sie die Steuerelemente **[!UICONTROL Base Ad Unit]** und **[!UICONTROL Overlap Ad Unit]** wählen Sie aus, welche Ihrer Anzeigeneinheiten im Überschneidungsbericht angezeigt werden sollen.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
+>Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs]angeben, wie in Schritt 3 des [Imports von DFP-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Ad Unit] anstelle der [!UICONTROL Ad Unit ID]Eigenschaft detailliert beschreibt.
 
-## Interpreting the Results {#interpreting-results}
+## Interpretieren der Ergebnisse {#interpreting-results}
 
-Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Bewegen Sie den Mauszeiger über eine Zelle, um weitere Informationen zu dieser Überlappung abzurufen. Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
+Ihr [!UICONTROL Ad Unit Overlap] Bericht könnte dem unten stehenden ähneln. Bewegen Sie den Mauszeiger über eine Zelle, um weitere Informationen zu dieser Überschneidung zu erhalten. Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
 ![](assets/publisher_ad_unit_overlap.png)
 
@@ -46,28 +46,28 @@ Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Be
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Überlappende Anzeigeneinheit</span> </p> </td> 
-   <td colname="col2"> <p>Der Name Ihres Bestandselements. Dies kann zum Beispiel einer der Websites oder einen Artikel auf Ihrer Website sein. Im obigen Bild sind die Basisanzeigeneinheiten Artikel 9 - 18. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Überschneidungsanzeigeeinheit</span> </p> </td> 
+   <td colname="col2"> <p>Der Name Ihres Bestandteils. Dies kann beispielsweise eine Ihrer Websites oder ein Artikel auf Ihrer Website sein. In der Abbildung oben sind die grundlegenden Anzeigeneinheiten Artikel 9 bis 18. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Basisanzeigeneinheit</span> </p> </td> 
-   <td colname="col2"> <p>Der Name Ihres Bestandselements. Dies kann zum Beispiel einer der Websites oder einen Artikel auf Ihrer Website sein. Im obigen Bild sind die Basisanzeigeneinheiten Artikel 1 - 8. </p> </td> 
+   <td colname="col2"> <p>Der Name Ihres Bestandteils. Dies kann beispielsweise eine Ihrer Websites oder ein Artikel auf Ihrer Website sein. In der Abbildung oben sind die grundlegenden Anzeigeneinheiten Artikel 1 bis 8. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Überlappende Anzeigeneinheit - Anzahl</span> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der Benutzer, die die Anzeigenartikelelemente 9 - 18 besucht haben. Diese Informationen werden aus den DFP-Protokollen extrahiert. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Anzahl individueller Anzeigeneinheiten überlappen</span> </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Benutzer, die die Artikel 9 bis 18 der Anzeigeneinheit besucht haben. Diese Informationen werden aus den DFP-Protokollen extrahiert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Basis-Anzeigeneinheit Individuelle Werte</span> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der Benutzer, die die Anzeigeneinheitenelemente 1 - 8 besucht haben. Diese Informationen werden aus den DFP-Protokollen extrahiert. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Anzahl individueller Werbeanzeigen</span> </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Benutzer, die die Elemente der Anzeigeneinheit 1 - 8 besucht haben. Diese Informationen werden aus den DFP-Protokollen extrahiert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Überlappende Uniques-Anzahl</span> </p> </td> 
-   <td colname="col2"> <p>The overlap between your users who have visited a <span class="wintitle"> Base Ad Unit</span> and <span class="wintitle"> Overlap Ad Unit</span>. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Anzahl individueller Überschneidungen</span> </p> </td> 
+   <td colname="col2"> <p>Die Überschneidung zwischen Ihren Benutzern, die eine <span class="wintitle"> Basis-Anzeigeneinheit</span> und <span class="wintitle"> Überschneidungsanzeigeeinheit</span>besucht haben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Überlappungsprozentsatz</span> </p> </td> 
-   <td colname="col2"> <p>The overlap between your users who have visited a <span class="wintitle"> Base Ad Unit</span> and <span class="wintitle"> Overlap Ad Unit</span>. This is the <span class="wintitle"> Overlap Uniques Count</span>, expressed as a percentage of the <span class="wintitle"> Base Ad Unit</span>. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Überschneidungsprozentsatz</span> </p> </td> 
+   <td colname="col2"> <p>Die Überschneidung zwischen Ihren Benutzern, die eine <span class="wintitle"> Basis-Anzeigeneinheit</span> und <span class="wintitle"> Überschneidungsanzeigeeinheit</span>besucht haben. Dies ist die Anzahl<span class="wintitle">der </span> individuellen Überschneidungen, ausgedrückt als Prozentsatz der <span class="wintitle"> Basis-Anzeigeneinheit</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
