@@ -1,111 +1,111 @@
 ---
-description: Audience Marketplace-Datenkäufer erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die mit Eigenschaften im Datenfeed auf Kosten pro Tausender-Anzeigenimpressionen (CPM) bereitgestellt werden. Die CPM-Nutzung erfolgt am 5. Tag jedes Kalendermonats und enthält Daten für den vorherigen Monat. Flat-Fee-Abonnenten müssen keine Verwendung für die Nutzung vornehmen.
-seo-description: Audience Marketplace-Datenkäufer erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die mit Eigenschaften im Datenfeed auf Kosten pro Tausender-Anzeigenimpressionen (CPM) bereitgestellt werden. Die CPM-Nutzung erfolgt am 5. Tag jedes Kalendermonats und enthält Daten für den vorherigen Monat. Flat-Fee-Abonnenten müssen keine Verwendung für die Nutzung vornehmen.
-seo-title: Rechnungsstellung für Datenfeed-Käufer
+description: Die Käufer von Audience Marketplace-Daten erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die anhand von Eigenschaften bereitgestellt werden, die im Datenfeed enthalten sind, und zwar zu einem Preis pro Tausend Anzeigenimpressionen (CPM). Die CPM-Nutzung ist am 5. Tag jedes Kalendermonats fällig und enthält Daten zum vorherigen Monat. Pauschalabonnenten müssen die Nutzung nicht melden.
+seo-description: Die Käufer von Audience Marketplace-Daten erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die anhand von Eigenschaften bereitgestellt werden, die im Datenfeed enthalten sind, und zwar zu einem Preis pro Tausend Anzeigenimpressionen (CPM). Die CPM-Nutzung ist am 5. Tag jedes Kalendermonats fällig und enthält Daten zum vorherigen Monat. Pauschalabonnenten müssen die Nutzung nicht melden.
+seo-title: Rechnungsstellung für Data Feed-Käufer
 solution: Audience Manager
-title: Rechnungsstellung für Datenfeed-Käufer
-keywords: Berichterstellung auf Segmentebene, Segmentebene, Segmentebene
-uuid: d 7236667-282 b -4160-9909-579721 af 4016
+title: Rechnungsstellung für Data Feed-Käufer
+keywords: Berichte auf Segmentebene, Segmentebene, Segmentebene
+uuid: d7236667-282b-4160-9909-579721af4016
 translation-type: tm+mt
 source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
 
-# Rechnungsstellung für Datenfeed-Käufer {#billing-for-data-feed-buyers}
+# Rechnungsstellung für Data Feed-Käufer {#billing-for-data-feed-buyers}
 
-Audience Marketplace-Datenkäufer erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die mit Eigenschaften im Datenfeed auf Kosten pro Tausender-Anzeigenimpressionen ([!DNL CPM]) bereitgestellt werden. [!DNL CPM] die Nutzung erfolgt am 5. Tag jedes Kalendermonats und enthält Daten für den vorherigen Monat. Flat-Fee-Abonnenten müssen keine Verwendung für die Nutzung vornehmen.
+Die Käufer von Audience Marketplace-Daten erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die anhand von Eigenschaften bereitgestellt werden, die im Datenfeed enthalten sind, und zwar zu einem Preis pro Tausend Anzeigenimpressionen ([!DNL CPM]). [!DNL CPM] Die Nutzung erfolgt am 5. Tag jedes Kalendermonats und beinhaltet Daten für den Vormonat. Pauschalabonnenten müssen die Nutzung nicht melden.
 
 <br> 
 
-## So melden Sie CPM-Nutzung {#report-cpm-usage}
+## Bericht zur CPM-Nutzung {#report-cpm-usage}
 
 <!-- t_marketplace_report_cpm_usage.xml -->
 
-[!UICONTROL Audience Marketplace] Datenkäufer erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die mit Eigenschaften im Datenfeed auf Kosten pro Tausender-Anzeigenimpressionen ([!DNL CPM]) bereitgestellt werden. [!DNL CPM] die Nutzung erfolgt am 5 Tag jedes Kalendermonats und enthält Daten für den vorherigen Monat. Flat-Fee-Abonnenten müssen keine Verwendung für die Nutzung vornehmen.
+[!UICONTROL Audience Marketplace] Datenkäufer stimmen zu, alle Anzeigenimpressionen zu melden, die mit den im Datenfeed enthaltenen Eigenschaften bereitgestellt werden, und zwar zu einem Preis pro Tausend Anzeigenimpressionen ([!DNL CPM]). [!DNL CPM] Die Nutzung erfolgt am 5. Tag jedes Kalendermonats und beinhaltet Daten für den vorherigen Monat. Pauschalabonnenten müssen die Nutzung nicht melden.
 
-[!UICONTROL Audience Marketplace] bietet zwei Möglichkeiten zur Berichterstellung [!DNL CPM] :
+[!UICONTROL Audience Marketplace] bietet zwei Möglichkeiten, die [!DNL CPM] Nutzung zu melden:
 
-* **Berichterstellung auf Segmentebene**: Dies ist die empfohlene [!DNL CPM] Verwendungsberichtsmethode. Wenn Sie [!DNL CPM] die Nutzung auf Segmentebene melden, wird der Berichtsabschnitt Datenfeeds automatisch mit den entsprechenden Nutzungsbeträgen ausgefüllt, basierend auf den Algorithmen, die in [der Kostenzuordnung für CPM-Datenfeeds beschrieben](#cost-attribution)sind.
-* **Berichterstellung auf Datenfeeds**: Diese Methode erfordert, dass Sie je nach den Algorithmen, [!DNL CPM] die in [der Kostenzuordnung für CPM-Datenfeeds beschrieben sind, die Nutzung für jeden Datenfeed einzeln melden](#cost-attribution). Diese Methode ist jedoch mühsam und fehleranfällig als die Berichterstellung auf Segmentebene.
+* **Berichte** auf Segmentebene: dies ist die empfohlene [!DNL CPM] Verwendungsberichtsmethode. Wenn Sie eine [!DNL CPM] Nutzung auf Segmentebene melden, wird der Bereich für die Berichterstellung auf Datenfeed-Ebene automatisch mit den entsprechenden Nutzungsbeträgen ausgefüllt, basierend auf den unter [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)beschriebenen Algorithmen.
+* **Berichte** auf Datenfeed-Ebene: Diese Methode erfordert, dass Sie die [!DNL CPM] Nutzung für jeden Datenfeed individuell melden, basierend auf den unter [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)beschriebenen Algorithmen. Diese Methode ist jedoch schwieriger und fehleranfälliger als die Berichterstellung auf Segmentebene.
 
 <br> 
 
-## CPM-Auslastung auf Segmentebene melden {#segment-level-report}
+## CPM-Nutzung auf Segmentebene melden {#segment-level-report}
 
-Auf der [!UICONTROL Segment Usage] Registerkarte können Sie die Nutzung auf Segmentebene melden und dabei die Segmente anzeigen, die nach den Zielen gruppiert sind, denen sie zugeordnet sind.
+Auf der [!UICONTROL Segment Usage] Registerkarte können Sie die Nutzung auf Segmentebene melden, während Sie die Segmente anzeigen, die nach den Zielen gruppiert sind, denen sie zugeordnet sind.
 
-Nach der Berichterstellung [!DNL CPM] auf Segmentebene weist automatisch [!UICONTROL Audience Marketplace] die entsprechende Datenfeeds die korrekte Nutzung zu, basierend auf der [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution).
+Nach der Berichterstellung zur [!DNL CPM] Nutzung auf Segmentebene weist [!UICONTROL Audience Marketplace] die entsprechenden Datenfeeds automatisch die korrekte Nutzung zu, basierend auf der [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution).
 
-So melden Sie [!DNL CPM] die Nutzung auf Segmentebene an:
+So melden Sie die [!DNL CPM] Nutzung auf Segmentebene:
 
-1. Gehe **[!UICONTROL Audience Marketplace > Payables]** zu.
+1. Geh zu **[!UICONTROL Audience Marketplace > Payables]**.
 1. Wählen Sie die **[!UICONTROL Segment Usage]** Registerkarte.
-1. Geben Sie die Nutzung für Ihre Segmente ein. Sie können das [!UICONTROL Search] Kästchen verwenden, um die Segmente zu filtern, wenn Sie nur für einige davon die Nutzung der Berichte benötigen.
+1. Füllen Sie die Nutzung für Ihre Segmente aus. Sie können das [!UICONTROL Search] Feld verwenden, um die Segmente zu filtern, wenn Sie nur für einige davon Berichte zur Nutzung erstellen müssen.
 1. Klicken Sie auf **[!UICONTROL Edit Segments Usage]**.
 1. Geben Sie den [!DNL CPM] Nutzungsbetrag in die [!UICONTROL Usage] Spalte ein.
-1. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
+1. Klicken Sie auf **[!UICONTROL Save]** , wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
 
-   ![confirmation-segment-usage](assets/confirm-segment-usage.png)
+   ![verify-segment-usage](assets/confirm-segment-usage.png)
 
 1. Klicken Sie auf **[!UICONTROL Confirm]**.
 
-Siehe auch unsere Videodemonstration darüber, wie Sie die Nutzung auf Segmentebene melden können:
+Sehen Sie sich auch unsere Videodemonstration an, wie Sie die Nutzung auf Segmentebene in Berichten darstellen können:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=ger)
 
  
 
-## Bericht-CPM-Nutzung auf Datenfeed-Ebene {#feed-level-report}
+## CPM-Nutzung auf Datenfeed-Ebene melden {#feed-level-report}
 
-Die Berichterstellung auf Datenfeeds ist mühsam und anfällig für Fehlerverarbeitung, da Sie die Nutzung für jeden Datenfeed einzeln berechnen [!DNL CPM] müssen. Es wird empfohlen, stattdessen [die CPM-Auslastung auf Segmentebene](#segment-level-report) zu melden.
+Die Berichterstellung auf Datenfeed-Ebene ist aufwändiger und fehleranfälliger, da Sie die [!DNL CPM] Nutzung für jeden Datenfeed einzeln berechnen müssen. Es wird empfohlen, die CPM-Nutzung stattdessen auf Segmentebene [zu melden](#segment-level-report) .
 
-So melden Sie [!DNL CPM] die Nutzung auf Segmentebene an:
+So melden Sie die [!DNL CPM] Nutzung auf Segmentebene:
 
-1. Gehe **[!UICONTROL Audience Marketplace > Payables]** zu.
+1. Geh zu **[!UICONTROL Audience Marketplace > Payables]**.
 2. Wählen Sie die **[!UICONTROL Feed Usage]** Registerkarte.
-3. Verwenden Sie das [!UICONTROL Search] Feld, um die Datenfeeds zu filtern und diejenigen zu identifizieren, für die Sie die Nutzung von Berichten verwenden müssen.
+3. Verwenden Sie das [!UICONTROL Search] Kästchen, um die Datenfeeds zu filtern und die Datenfeeds zu identifizieren, für die Sie die Verwendung in Berichten melden müssen.
 4. Klicken Sie auf **[!UICONTROL Edit Feeds Usage]**.
-5. Berechnen Sie die [!DNL CPM] Nutzung für jeden Datenfeed anhand der [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)und geben Sie ihn in die [!UICONTROL Usage] Spalte ein.
-6. Klicken **[!UICONTROL Save]** Sie auf, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
+5. Berechnen Sie die [!DNL CPM] Nutzung für jeden Datenfeed auf Grundlage der [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)und geben Sie ihn in die [!UICONTROL Usage] Spalte ein.
+6. Klicken Sie auf **[!UICONTROL Save]** , wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
 
-   ![confirmation-feed-usage](assets/confirm-feed-usage.png)
+   ![verify-feed-usage](assets/confirm-feed-usage.png)
 
 7. Klicken Sie auf **[!UICONTROL Confirm]**.
 
 <br> 
 
-## Massenberichterstellung
+## Massenberichte
 
-Um Fehler und Übergänge bei der Berichterstellung [!DNL CPM] zu reduzieren, können Sie die Massenberichtsoption verwenden, um eine [!DNL CSV] Datei mit den Datenfeeds und Segmenten herunterzuladen, die Nutzung auszufüllen und sie wieder zu laden [!DNL Audience Manager]. Sie können Massenberichte verwenden, um sowohl Feed- als auch Segmentnutzung zu melden.
+Um Fehler und Verwaltungsaufwand bei der Berichterstellung zu reduzieren, können Sie mit der Option für die Massenberichterstellung eine [!DNL CPM] Datei herunterladen, die die Datenfeeds und Segmente enthält, die Nutzung ausfüllen und wieder hochladen [!DNL CSV][!DNL Audience Manager] . Sie können Massenberichte verwenden, um sowohl die Feed- als auch die Segmentnutzung zu melden.
 
-So aktualisieren [!DNL CPM] Sie die Nutzung stapelweise:
+So aktualisieren Sie die [!DNL CPM] Verwendung als Massenspeicher:
 
-1. Gehe **[!UICONTROL Audience Marketplace > Payables]** zu.
-1. Wählen Sie die **[!UICONTROL Feed Usage]** oder **[!UICONTROL Segment Usage]** die Registerkarte abhängig vom Typ der Berichterstellung, die Sie aktualisieren möchten.
-1. Klicken **[!UICONTROL Edit Feeds Usage]** oder **[!UICONTROL Edit Segments Usage]**.
-1. Klicken **[!UICONTROL download the current usage]** Sie auf, um sicherzustellen, dass Sie eine gültige CSV-Datei verwenden.
+1. Geh zu **[!UICONTROL Audience Marketplace > Payables]**.
+1. Wählen Sie je nach Berichtstyp, den Sie aktualisieren möchten, die Registerkarte **[!UICONTROL Feed Usage]** oder **[!UICONTROL Segment Usage]** .
+1. Klicken Sie auf **[!UICONTROL Edit Feeds Usage]** oder **[!UICONTROL Edit Segments Usage]**.
+1. Klicken Sie auf **[!UICONTROL download the current usage]** , um sicherzustellen, dass Sie eine gültige CSV-Datei verwenden.
 1. Öffnen Sie die Datei auf Ihrem Computer und füllen Sie den Nutzungsbericht aus.
-1. Klicken **[!UICONTROL Choose a CSV file]** Sie auf, um den aktualisierten Nutzungsbericht hochzuladen.
+1. Klicken Sie auf **[!UICONTROL Choose a CSV file]** , um den aktualisierten Nutzungsbericht hochzuladen.
 
    ![usage-report-csv](assets/usage-report-csv.png)
 
-1. [!DNL Audience Manager] überprüft die Datei, sobald Sie sie hochladen, und fordert Sie auf, alle Fehler in der Datei zu erkennen.
+1. [!DNL Audience Manager] validiert die Datei, sobald Sie sie hochladen, und fordert Sie auf, etwaige Fehler in der Datei festzustellen.
 
 <br> 
 
-### Massenberichtüberprüfungsfehler
+### Validierungsfehler bei der Massenberichterstellung
 
 | Fehlermeldung | Beschreibung | Fehlerbehebung |
 | ------------- | -------------| -----|
-| Ungültige Eingabe | [!DNL Audience Manager] hat eine Änderung im [!DNL CSV] Dateischema erkannt, z. B. fehlende Spalten oder Änderungen an Spaltentiteln. | Vermeiden Sie eine Änderung der Tabellenstruktur. |
-| nicht gefunden | Die [!UICONTROL Segment Level Reporting][!DNL Audience Manager] Kombination [!UICONTROL Segment ID] und [!UICONTROL Destination ID] Kombination konnte nicht identifiziert werden. Für [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] können Sie die [!UICONTROL Data Provider Name][!UICONTROL Feed Name][!UICONTROL Use Case] und die Kombination nicht identifizieren. | Überprüfen [!UICONTROL Segment Level Reporting]Sie die Gültigkeit [!UICONTROL Segment ID] und [!UICONTROL Destination ID] Kombination. Überprüfen Sie die [!UICONTROL Feed Level Reporting]Gültigkeit des [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]und [!UICONTROL Use Case] der Kombination. |
-| Doppelte Datensätze gefunden | [!DNL Audience Manager] erkannte Datensätze mit unterschiedlichen Impressionswerten. | Überprüfen Sie den Bericht und stellen Sie sicher, dass Sie keine unterschiedlichen Nutzungswerte für denselben Datenfeed oder dieselbe Segmente melden. |
-| Nicht unterstützte Werte | [!DNL Audience Manager] nicht numerische Werte in der [!DNL Audience Manager] Spalte erkannt. | Überprüfen Sie den Bericht und stellen Sie sicher, dass Sie nur numerische Werte in der [!DNL Audience Manager] Spalte eingeben. |
-| Kopfzeilen für erforderliche Felder fehlen | [!DNL Audience Manager] erkannte Tabellenkopfzeilen für Pflichtfelder erkannten. Die erforderlichen [!UICONTROL Segment Level Reporting]Felder sind: [!UICONTROL Segment ID][!UICONTROL Destination ID]. Die erforderlichen [!UICONTROL Feed Level Reporting]Felder sind: [!UICONTROL Data Provider Name][!UICONTROL Data Feed Name], [!UICONTROL Use Case] | Überprüfen Sie den Bericht und stellen Sie sicher, dass die Kopfzeilen der Tabelle nicht manipuliert wurden. |
+| Ungültige Eingabe | [!DNL Audience Manager] Es wurde eine Änderung im [!DNL CSV] Dateischema erkannt, z. B. fehlende Spalten oder Änderungen an Spaltentiteln. | Ändern Sie die Tabellenstruktur nicht. |
+| nicht gefunden | Beispielsweise [!UICONTROL Segment Level Reporting]konnte [!DNL Audience Manager] die Kombination [!UICONTROL Segment ID] und [!UICONTROL Destination ID] nicht identifiziert werden. Beispielsweise [!UICONTROL Feed Level Reporting]konnte [!DNL Audience Manager] die Kombination [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]und [!UICONTROL Use Case] nicht identifiziert werden. | Überprüfen Sie [!UICONTROL Segment Level Reporting]die Gültigkeit der Kombination [!UICONTROL Segment ID] und [!UICONTROL Destination ID] . Überprüfen Sie [!UICONTROL Feed Level Reporting]zum Beispiel die Gültigkeit der [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]und [!UICONTROL Use Case] Kombination. |
+| Doppelte Datensätze gefunden | [!DNL Audience Manager] doppelte Datensätze mit unterschiedlichen Impressionswerten erkannt. | Überprüfen Sie den Bericht und stellen Sie sicher, dass Sie keine unterschiedlichen Nutzungswerte für denselben Datenfeed oder dasselbe Segment melden. |
+| Nicht unterstützte Werte | [!DNL Audience Manager] nicht numerische Werte in der [!DNL Audience Manager] Spalte erkannt. | Überprüfen Sie den Bericht und stellen Sie sicher, dass Sie nur numerische Werte in die [!DNL Audience Manager] Spalte eingeben. |
+| Kopfzeilen für fehlende obligatorische Felder | [!DNL Audience Manager] Fehlende Tabellenüberschriften für erforderliche Felder wurden erkannt. Die erforderlichen Felder [!UICONTROL Segment Level Reporting]sind beispielsweise: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Die erforderlichen Felder [!UICONTROL Feed Level Reporting]sind beispielsweise: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name], [!UICONTROL Use Case] | Überprüfen Sie den Bericht und stellen Sie sicher, dass die Tabellenüberschriften nicht manipuliert wurden. |
 
 >[!NOTE]
->Das Entfernen von Zeilen aus dem [!DNL CSV] Nutzungsbericht wirkt sich nicht auf den vorhandenen Nutzungsbericht aus. [!DNL Audience Manager] verarbeitet nur die Felder, die im Bericht enthalten sind.
+>Das Entfernen von Zeilen aus dem [!DNL CSV] Nutzungsbericht hat keine Auswirkungen auf den vorhandenen Nutzungsbericht. [!DNL Audience Manager] verarbeitet nur die im Bericht enthaltenen Felder.
 
 <br> 
 
@@ -120,13 +120,13 @@ So aktualisieren [!DNL CPM] Sie die Nutzung stapelweise:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Immer die Gesamtzahl der Impressionen melden</b> </p> </td> 
-   <td colname="col2"> <p>Für CPM-Impressionssummen: </p>
-   <p> Melden Sie die Gesamtzahl der Impressionen ohne Dezimalzahlen. Audience Manager berechnet automatisch den CPM basierend auf der Gesamtanzahl der Berichte.</p><p>Wenn Sie 1.234.567 Impressionen erfassen müssen, melden Sie es genau wie dies. Sie müssen die Gesamtanzahl der Impressionen nicht um 1.000 dividieren, um den CPM zu berechnen.</p><p>Eigenschaften, die zur Optimierung Ihres Web- oder App-Inhalts (Content Optimization) mithilfe von Tools wie Adobe Target oder einem Analytics-Ziel verwendet werden, tragen nicht zur Gesamtnutzung der CPM-Pläne bei. Datenanbieter werden normalerweise für die Inhaltsoptimierung mit einfachen Gebühren kompensiert.</p><p>Weitere Informationen finden Sie unter <a href="#cost-attribution">Kostenzuordnung für CPM-Datenfeeds</a> . </p> </td>
+   <td colname="col1"> <p><b>Gesamtanzahl der Impressionen immer melden</b> </p> </td> 
+   <td colname="col2"> <p>Bei CPM-Impressionssummen: </p>
+   <p> Geben Sie die Gesamtzahl der Impressionen ohne Dezimalstellen an. Audience Manager berechnet den CPM automatisch auf Basis der von Ihnen berichteten Gesamtanzahl.</p><p>Wenn Sie 1.234.567 Impressionen melden müssen, melden Sie sie genau so. Zur Berechnung des CPM müssen Sie die Gesamtanzahl der Impressionen nicht durch 1.000 dividieren.</p><p>Eigenschaften, die zur Optimierung Ihres Web- oder App-Inhalts (Inhaltsoptimierung) mithilfe von Tools wie Adobe Target oder einem Analytics-Ziel verwendet werden, tragen nicht zu den Nutzungs-Gesamtzahlen für CPM-Pläne bei. Datenanbieter erhalten in der Regel einen Ausgleich für die Inhaltsoptimierung, indem sie Pauschalentgelte verwenden.</p><p>Weitere Informationen finden Sie unter <a href="#cost-attribution">Kostenzuordnung für CPM-Datenfeeds</a> . </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p><b>Bindung an das monatliche Berichtsintervall</b> </p> </td> 
-   <td colname="col2"> <p>Das Berichtsystem wird nach dem 5. jedes Monats geschlossen. Wenn Sie die CPM-Auslastung bis dahin nicht erfassen können, müssen Sie diesen Betrag für den folgenden Monat dem Bericht hinzufügen. Nehmen wir beispielsweise an, Sie verwenden im Oktober 1000 Impressionen, verpassen den Termin für Oktober-Berichte und verwenden im November 1000 Impressionen. In diesem Fall melden Sie den Oktober und November (2000) im Dezember zwischen dem 1. und dem 5. Dezember.</p><p><b>Tipp</b>: Sie sollten immer versuchen, die CPM-Nutzung für den vorherigen Monat zwischen dem 1. und 5. Tag des folgenden Monats zu berichtigen.</p><p>Sie können die CPM-Auslastung als 5. des neuen Kalendermonats festlegen, dies wird jedoch nicht empfohlen. Die Berichterstellung für die CPM vor dem fünften jedes Monats gibt Audience Manager Zeit, die Daten zu überprüfen und zu verarbeiten.</p> </td>
+   <td colname="col1"> <p><b>An dem monatlichen Berichterstellungsintervall festhalten</b> </p> </td> 
+   <td colname="col2"> <p>Das Berichtssystem wird nach dem 5. jedes Monats geschlossen. Wenn Sie die CPM-Nutzung bis dahin nicht melden, müssen Sie diesen Betrag dem Bericht für den folgenden Monat hinzufügen. Nehmen wir beispielsweise an, Sie verwenden 1000 Impressionen im Oktober, versäumen den Berichtzeitpunkt Oktober und verwenden 1000 Impressionen im November. In diesem Fall melden Sie die Summe von Oktober und November (2000) im Dezember, zwischen dem 1. und dem 5.</p><p><b>Tipp</b>: Sie sollten immer versuchen, die CPM-Nutzung für den Vormonat zwischen dem 1. und dem 5. Tag des darauffolgenden Monats zu melden.</p><p>Sie können die CPM-Nutzung bis zum 5. des neuen Kalendermonats melden, dies wird jedoch nicht empfohlen. Die Berichterstellung zur CPM-Nutzung vor dem 5. eines jeden Monats gibt Audience Manager Zeit, die Daten zu überprüfen und zu verarbeiten.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -135,134 +135,134 @@ So aktualisieren [!DNL CPM] Sie die Nutzung stapelweise:
 
 ## Kostenzuordnung für CPM-Datenfeeds {#cost-attribution}
 
-In [!UICONTROL Audience Marketplace] müssen die Impressionsbeträge jeden Monat für jeden Ihrer Segmente selbst gemeldet werden. Wir empfehlen die Berichterstellung [!DNL CPM] auf Segmentebene, damit Kostenzuordnungen automatisch durchgeführt werden.
+In müssen [!UICONTROL Audience Marketplace] Sie die Impressionsbeträge jeden Monat für jedes Ihrer Segmente selbst melden. Wir empfehlen die [!DNL CPM] Verwendung von Berichten auf Segmentebene, damit die Kostenzuordnung automatisch erfolgt.
 
 <!-- marketplace_cpm_billing.xml -->
 
-### Rechnungszusammenfassung {#billing-summary}
+### Rechnungsübersicht {#billing-summary}
 
-Sie müssen die Impressionsbeträge [!DNL CPM] des Datenfeeds zwischen dem 1. und dem fünften Tag jedes Kalendermonats senden. Hierfür empfehlen wir Ihnen, [die CPM-Auslastung auf Segmentebene zu melden](#segment-level-report).
+Sie müssen Datenfeed-Impressionsbeträge zwischen dem 1. und dem 5. Tag jedes Kalendermonats übermitteln. [!DNL CPM] Um dies korrekt zu tun, empfehlen wir, die CPM-Nutzung auf Segmentebene [zu melden](#segment-level-report).
 
 >[!TIP]
->Wenn Sie die Nutzung auf [!DNL CPM] Segmentebene melden, wird der Berichtsabschnitt der Datenfeeds automatisch mit den entsprechenden Verwendungsbeträgen ausgefüllt.
+>Wenn Sie die [!DNL CPM] Nutzung auf Segmentebene melden, wird der Bereich für die Berichterstellung auf Datenfeed-Ebene automatisch mit den entsprechenden Nutzungsmengen ausgefüllt.
 
-Sie müssen alle [!UICONTROL Report CPM Usage at Data Feed Level]Impressionen einzeln kompilieren, die für jeden Feed im vorherigen Kalendermonat bereitgestellt wurden, und sie entsprechend der in diesem Artikel beschriebenen Rechnungszuweisung berichtieren.
+Falls erforderlich, müssen Sie [!UICONTROL Report CPM Usage at Data Feed Level]alle Impressionen, die im vorausgegangenen Kalendermonat für jeden Feed bereitgestellt wurden, einzeln kompilieren und sie gemäß der in diesem Artikel beschriebenen Rechnungszuweisung melden.
 
-Nach der Berichtsnummer [!DNL CPM] für den vorherigen Kalendermonat [!DNL Adobe] gehen Sie wie folgt vor:
+Führen Sie nach dem Bericht [!DNL CPM] der Nummer für den vorherigen Kalendermonat [!DNL Adobe] folgende Schritte aus:
 
-* Erstellen Sie eine Rechnung und Rechnungen entsprechend der [!DNL CPM] Rate für jeden abonnierten Datenfeed.
-* Gebührenpflichtige Daten (Verkäufer) entrichten, die auf der verwendeten [!DNL CPM] Verwendung basieren.
+* Erstellen Sie eine Rechnung und eine Rechnung, die Sie auf der Grundlage der [!DNL CPM] Rate für jeden abonnierten Datenfeed erstellen.
+* Gebühren für Datenanbieter (Verkäufer) werden auf der Grundlage Ihrer gemeldeten [!DNL CPM] Nutzung geschuldet.
 
 >[!IMPORTANT]
 >
->Als Käufer müssen alle gemeldeten Impressionen wahr und genau sein. Wenn die Impressionssummen nicht am 5. Tag jedes Monats gemeldet werden, müssen Sie im folgenden Monat Summen für den nicht gemeldeten Monat einbeziehen.
+>Als Käufer müssen alle gemeldeten Impressionssummen wahr und genau sein. Wenn Sie die Summen für Impressionen nicht bis zum 5. Tag jedes Monats melden, müssen Sie die Summen für den nicht gemeldeten Monat im folgenden Monat einschließen.
 
 <br> 
 
-## Impressionen auf Feed-Ebene basierend auf Eigenschaften-Qualifizierungsregeln zuweisen {#assign-impressions}
+## Zuweisen von Impressionen auf Feed-Ebene auf Grundlage von Eigenschaftenqualifizierungsregeln {#assign-impressions}
 
-Mit dem [!UICONTROL Activation] Verwendungsfall können Sie Eigenschaften im entsprechenden Datenfeed verwenden, um Segmente im [Segmentaufbau](../../../features/segments/segment-builder.md) zu erstellen und diese Segmente einem Ziel zuzuordnen. Die booleschen Operatoren [!UICONTROL AND], [!UICONTROL OR]und [!UICONTROL NOT] Sie können die Bedingungen für Eigenschaften und Segmentqualifizierung festlegen.
+Im [!UICONTROL Activation] Anwendungsfall können Sie Eigenschaften im entsprechenden Datenfeed verwenden, um Segmente im [Segmentaufbau](../../../features/segments/segment-builder.md) zu erstellen und diese Segmente einem Ziel zuzuordnen. Die booleschen Operatoren [!UICONTROL AND], [!UICONTROL OR]und [!UICONTROL NOT] können Sie die Bedingungen für die Eigenschaften- und Segmentqualifizierung festlegen.
 
-Wenn Sie [die CPM-Auslastung auf Datenfeed-Ebene](#feed-level-report)melden, müssen Sie die Impressionen für jeden Datenfeed proportional zuweisen, gemäß den [!DNL Boolean] Operatoren in den Eigenschaftenregeln. In der folgenden Tabelle sind die korrekten Zuordnungen von Impressionen nach Boolescher Regel oder Eigenschaftstyp aufgeführt.
+Wenn Sie CPM-Nutzung auf Datenfeed-Ebene [melden](#feed-level-report), müssen Sie Impressionen proportional für jeden Datenfeed zuweisen, entsprechend den in den Eigenschaftsqualifizierungsregeln verwendeten [!DNL Boolean] Operatoren. In der folgenden Tabelle wird die korrekte Zuordnung von Impressionen nach booleschen Regeln oder Eigenschaften aufgeführt.
 
 >[!TIP]
->[Bericht-CPM-Nutzung auf Segmentebene](#segment-level-report) , damit die Datenfeeds-Berichterstellung automatisch von Audience Manager durchgeführt werden kann.
+>[CPM-Nutzung auf Segmentebene](#segment-level-report) melden, damit die Berichte auf Datenfeed-Ebene automatisch von Audience Manager erstellt werden.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Regelqualifizierungslogik oder Typ </th> 
+   <th colname="col1" class="entry"> Regelqualifizierungslogik oder -typ </th> 
    <th colname="col2" class="entry"> Rechnungsverteilung </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> UND</span> </p> </td> 
-   <td colname="col2"> <p>Wenden Sie 100% der bereitgestellten Impressionssummen auf alle Provider-Eigenschaften in einem regelbasierten Segment an, das eine boolesche <span class="wintitle"> UND</span> -Bedingung verwendet. </p> </td> 
+   <td colname="col2"> <p>Wenden Sie in einem regelbasierten Segment, das eine boolesche <span class="wintitle"> UND</span> -Bedingung verwendet, 100 % der bereitgestellten Impressionssummen auf alle Provider-Eigenschaften an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> ODER</span> </p> </td> 
-   <td colname="col2"> <p>Wenden Sie gewichtete Zuordnungen der gelieferten Impressionssummen auf alle Provider-Eigenschaften in einem regelbasierten Segment an, das eine boolesche ODER-Bedingung verwendet. Die gewichtete Zuordnung wird mithilfe der folgenden Formel berechnet:</p><p><code>(Trait-Population/Segmentpopulation) * Anzahl der Impressionen * Kosten des CPM</code></p> </td> 
+   <td colname="col2"> <p>Wenden Sie die gewichtete Zuordnung der gelieferten Impressionssummen auf alle Provider-Eigenschaften in einem regelbasierten Segment an, das eine boolesche OR-Bedingung verwendet. Die gewichtete Zuordnung wird nach folgender Formel berechnet:</p><p><code>(Eigenschaftspopulation/Segmentpopulation) * Anzahl Impressionen * CPM-Kosten</code></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NICHT</span> </p> </td> 
-   <td colname="col2"> <p>Wenden Sie 100% der bereitgestellten Impressionssummen auf alle Provider-Eigenschaften in einem regelbasierten Segment an, das eine boolesche <span class="wintitle"> NOT</span> -Bedingung verwendet. </p> </td> 
+   <td colname="col2"> <p>Wenden Sie 100 % der gelieferten Impressionssummen auf alle Provider-Eigenschaften in einem regelbasierten Segment an, das eine boolesche <span class="wintitle"> NOT</span> -Bedingung verwendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Algorithmische Segmente </p> </td> 
-   <td colname="col2"> <p>Wenden Sie 100% der bereitgestellten Impressionssummen auf alle Anbieter-Feeds in einem Segment an, das algorithmische Eigenschaften enthält. </p> </td> 
+   <td colname="col2"> <p>Wenden Sie 100 % der gelieferten Impressionssummen auf alle Provider-Feeds in einem Segment an, das algorithmische Eigenschaften enthält. </p> </td> 
   </tr>
  </tbody>
 </table>
 
 <br> 
 
-## Rechnungsbeispiele {#billing-examples}
+## Beispiele für Rechnungsstellung {#billing-examples}
 
-Die folgenden Beispiele zeigen, wie [!DNL CPM] die Verwendungszuordnung auf Datenfeed-Ebene durchgeführt wird.
+Die folgenden Beispiele sollen veranschaulichen, wie die [!DNL CPM] Nutzungszuordnung auf Datenfeed-Ebene erfolgt.
 
 >[!IMPORTANT]
->Es wird empfohlen, [dass Sie die CPM-Auslastung auf Segmentebene](#segment-level-report) verwenden, um diesen Vorgang automatisch durchführen zu lassen.
+>Es wird empfohlen, die CPM-Nutzung stattdessen auf Segmentebene zu [melden](#segment-level-report) , damit dieser Prozess automatisch durchgeführt wird.
 
 Betrachten wir das folgende Szenario:
 
-![Rechnungsstellung](assets/billing-examples.png)
+![Abrechnungsbeispiele](assets/billing-examples.png)
 
 <br> 
 
-### Fall 1: Segmente mit UND Qualifizierungsregeln
+### Fall 1: Segmente mit UND Qualifikationsregeln
 
-Dieses Segment enthält 3 Eigenschaften aus separaten Datenanbietern. Da die Segmentqualifizierung auf einer [!UICONTROL AND] Bedingung basiert, müssen Besucher die Eigenschaften aus allen drei Feeds erstellen, um das Segment zu qualifizieren.
+Dieses Segment enthält 3 Eigenschaften von separaten Datenanbietern. Da die Segmentqualifizierung auf einer [!UICONTROL AND] Bedingung basiert, müssen Besucher die Eigenschaften aller drei Feeds nutzen, um sich für das Segment zu qualifizieren.
 
 ![](assets/billing-segment-and.png)
 
-Mit einer [!UICONTROL AND] Bedingung müssen Sie 100% der während des Monats empfangenen Impressionen allen drei Datenanbietern zuweisen. Im [!UICONTROL Audience Marketplace > Payables] Abschnitt werden alle Anbieter mit 1.000.000 Impressionen gutgeschrieben.
+Bei einer [!UICONTROL AND] Bedingung müssen Sie allen drei Datenanbietern 100 % der im Laufe des Monats erhaltenen Impressionen zuweisen. Im [!UICONTROL Audience Marketplace > Payables] Abschnitt werden jedem Anbieter 1.000.000 Impressionen gutgeschrieben.
 
-Dieses Beispiel gilt für Segmente, die [!DNL Boolean][!UICONTROL NOT] Operatoren verwenden oder für Segmente mit algorithmischen Eigenschaften.
+Dieses Beispiel gilt für Segmente, die [!DNL Boolean] [!UICONTROL NOT] Operatoren verwenden, oder für Segmente, die algorithmische Eigenschaften enthalten.
 
 <br> 
 
-### Fall 2: Segmente mit ODER Qualifizierungsregeln
+### Fall 2: Segmente mit ODER-Qualifikationsregeln
 
-Dieses Segment enthält 3 Eigenschaften aus separaten Datenanbietern. Da Segmentqualifizierung auf einer [!UICONTROL OR] Bedingung basiert, müssen Besucher mindestens eine der drei Eigenschaften ermitteln, die für das Segment qualifiziert sind.
+Dieses Segment enthält 3 Eigenschaften von separaten Datenanbietern. Da die Segmentqualifizierung auf einer [!UICONTROL OR] Bedingung basiert, müssen Besucher mindestens eine der drei Eigenschaften implementieren, um sich für das Segment qualifizieren zu können.
 
-Wir können nicht feststellen, welche Eigenschaft für eine Impression verantwortlich ist, da die Qualifikation auf einer [!UICONTROL OR] Bedingung basiert. Infolgedessen können Sie im Abschnitt [!UICONTROL Audience Marketplace > Payables] jeden Anbieter mit einer gewichteten Zuordnung der Impressionen basierend auf der Eigenschaftenpopulation vergleichen.
+Wir können nicht feststellen, welche Eigenschaft für eine Impression verantwortlich ist, da die Qualifizierung auf einer [!UICONTROL OR] Bedingung basiert. Infolgedessen werden jedem Anbieter im [!UICONTROL Audience Marketplace > Payables] Abschnitt eine gewichtete Zuordnung der Gesamtimpressionen gutgeschrieben, basierend auf der Eigenschaftspopulation.
 
-![rechnungsstellung-segment-or](assets/billing-segment-or.png)
+![Billing-Segment- oder](assets/billing-segment-or.png)
 
 <br> 
 
 ### Fall 3: Segmente mit Anwendungsfällen für Modellierung und Aktivierung
 
-In diesem Beispiel wird die Zuordnung basierend auf zwei Anwendungsfällen im Datenfeed beschrieben - Modeling und Aktivierung. In diesem Beispiel betrachten wir zwei Datenanbieter mit folgenden Informationen:
+In diesem Beispiel wird die Zuordnung anhand von zwei Data Feed-Anwendungsfällen - Modellierung und Aktivierung - beschrieben. Im Beispiel betrachten wir zwei Datenanbieter mit den folgenden Informationen:
 
 ![data-feed](assets/feed-use-cases.png)
 
-In der Tabelle unten enthält Segment X zwei Eigenschaften, T 1 und T 2 mit der Segmentregel T 1 OR T 2, wobei Folgendes gilt:
+In der weiter unten stehenden Tabelle enthält Segment X zwei Eigenschaften, T1 und T2, mit der Segmentregel T1 ODER T2, wobei:
 
-* T 1 ist eine Eigenschaft aus Data Feed A;
-* T 2 ist eine algorithmische Eigenschaft, die nach Eigenschaften von Drittanbietern aus Data Feed A und Data Feed B modelliert wird.
+* T1 ist eine Eigenschaft von Data Feed A;
+* T2 ist eine algorithmische Eigenschaft, die nach Eigenschaften von Drittanbietern aus Data Feed A und Data Feed B modelliert wurde.
 
-Das Segment wird einem Ziel zugeordnet und es werden 1.000.000 Impressionen für dieses Segment in einem Monat unter Verwendung [von Segmentebene-Berichterstellung eingegeben](#segment-level-report).
+Das Segment wird einem Ziel zugeordnet und in einem Monat werden 1.000.000 Impressionen für dieses Segment mithilfe der [Segmentstufenberichte](#segment-level-report)eingegeben.
 
 Von diesen 1.000.000 Impressionen:
 
-* T 1 bildet 40% der Segmentpopulation, was zu 400.000 Impressionen für Feed A führt.
-* T 2 besteht aus 60% der Segmentpopulation, was zu 600.000 Impressionen für Feed A und Feed B führt.
+* T1 macht 40 % der Segmentpopulation aus, was 400.000 Impressionen für Feed A bedeutet.
+* T2 macht 60 % der Segmentpopulation aus, was 600.000 Impressionen für Feed A und Feed B bedeutet.
 
-Auf Datenfeeds werden die Impressionen wie folgt zugeordnet:
+Auf Datenfeed-Ebene werden die Impressionen wie folgt zugeordnet:
 
-* Datenfeed A Empfängt 600.000 Impressionen aus Trait T 2 (was auf Eigenschaften aus Data Feed A und Data Feed B modelliert wird, d. h. beide erhalten die Impressionen) und 400.000 Impressionen aus der Eigenschaft T 1 (was eine Eigenschaft aus Data Feed A ist), insgesamt 1.000,8 000 Impressionen.
-* Data Feed B Empfängt 600.000 Impressionen aus der Eigenschaft T 2 (siehe Erläuterung oben) und 0 Impressionen von Eigenschaften T 1.
+* Data Feed A erhält 600.000 Impressionen von der Eigenschaft T2 (die anhand von Eigenschaften aus Data Feed A und Data Feed B modelliert wird, sodass beide die Impressionen erhalten) und 400.000 Impressionen von der Eigenschaft T1 (eine Eigenschaft von Data Feed A), insgesamt 1.000.000 Impressionen.
+* Data Feed B erhält 600.000 Impressionen von der Eigenschaft T2 (siehe Erklärung oben) und 0 Impressionen von der Eigenschaft T1.
 
-Die vorsichtliche Aufschlüsselung nach Datenfeed und Anwendungsfall lautet wie folgt:
+Die Aufschlüsselung auf einen Blick nach Datenfeed und Anwendungsfall lautet wie folgt:
 
 ![Feed-Aufschlüsselung](assets/feed-breakdown-alt.png)
 
 <br> 
 
-## Rechnungsstellung und Impression-Zuordnung für einfache gebührenpflichtige Datenfeeds {#billing-flat-fee}
+## Rechnungsstellung und Impressionszuordnung für einfache Feeds {#billing-flat-fee}
 
-Ein Flat-Fee-Feed sendet jeden Monat einen festen Betrag, unabhängig davon, wann das Abonnement beginnt oder wie viele Impressionen Sie verwenden. Gebühren werden nicht für eine teilweise monatliche Nutzung oder Intervalle berechnet. Wie bei der CPM-Abrechnung generiert Adobe eine Rechnung und rechnet Sie mit der monatlichen Gebühr für Ihre abonnierten Datenfeeds auf.
+Ein Datenfeed mit einer Pauschalgebühr berechnet Ihnen jeden Monat einen festen Betrag, unabhängig davon, wann das Abonnement beginnt oder wie viele Impressionen Sie verwenden. Die Gebühren werden nicht anteilig für die teilweise Monatsnutzung oder Intervalle berechnet. Wie bei der CPM-Abrechnung erstellt Adobe eine Rechnung und rechnet Sie zum monatlichen Pauschalpreis für Ihre abonnierten Data Feeds ab.
 
-Nehmen wir an, Sie haben sich entschieden, bestimmte Eigenschaften in einem Feed in der Mitte des Monats zu aktivieren. Unabhängig davon, wann Sie das Abonnement gestartet oder spezifische Eigenschaften aktiviert haben, werden Sie immer noch mit der vollen monatlichen Gebühr in Rechnung gestellt.
+Nehmen wir beispielsweise an, Sie haben beschlossen, in der Mitte des Monats bestimmte Eigenschaften in einem Feed zu aktivieren. Sie erhalten weiterhin die vollständige, monatliche Gebühr, unabhängig davon, wann Sie das Abonnement gestartet oder bestimmte Eigenschaften aktiviert haben.
