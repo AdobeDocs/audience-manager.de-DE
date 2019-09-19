@@ -1,10 +1,10 @@
 ---
-description: Allgemeine berichterstellungsbezogene Fragen und Probleme.
-seo-description: Allgemeine berichterstellungsbezogene Fragen und Probleme.
+description: Häufige Fragen und Probleme im Zusammenhang mit der Berichterstattung.
+seo-description: Häufige Fragen und Probleme im Zusammenhang mit der Berichterstattung.
 seo-title: Häufig gestellte Fragen zum Reporting
 solution: Audience Manager
 title: Häufig gestellte Fragen zum Reporting
-uuid: 78 cd 6 c 66-8 a 4 a -4748-ab 71-b 6 e 8 d 6078 c 94
+uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Häufig gestellte Fragen zum Reporting{#reporting-faq}
 
-Allgemeine berichterstellungsbezogene Fragen und Probleme.
+Häufige Fragen und Probleme im Zusammenhang mit der Berichterstattung.
 
 <br> 
 
@@ -23,34 +23,34 @@ faq_reports.xml
 
  -->
 
-**Warum werden bei neuen Aufgerufenen Eigenschaften[!UICONTROL Trait Graph]manchmal weniger als erwartet oder 0 angezeigt?**
+**Warum werden bei neuen Onboarded-Eigenschaften[!UICONTROL Trait Graph]manchmal weniger als erwartet Zahlen oder 0 angezeigt?**
 
-Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. Dies geschieht, wenn das Datenvolumen, das wir erhalten, so großartig ist, dass der eingehende Verarbeitungsauftrag diese Informationen erst nach dem Termin der Berichterstellung für diesen Tag abschließen kann.
+Manchmal werden nach dem Hochladen von Eigenschaften keine Ergebnisse angezeigt oder es werden weniger als erwartet Zahlen angezeigt. [!UICONTROL Trait Graph] Dies geschieht, wenn das Datenvolumen, das wir erhalten, so groß ist, dass der eingehende Verarbeitungsauftrag diese Informationen erst nach Ablauf der Berichtsfrist für diesen Tag abrufen kann.
 
-As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
-
-<br> 
-
-**Einige Segmente fehlen in einem[!UICONTROL Overlap]Bericht. Where are they?**
-
-Um die rechnerspezifische Nachfrage zu reduzieren, lassen diese Berichte statistisch unbedeutende Daten aus den Ergebnissen weg. Ihre Segmente fehlen nicht. Sie werden einfach abgelegt, da sie keine aussagekräftigen oder nützlichen Benutzerpools erbringen, die Sie als Ziel auswählen können. Siehe auch:
-
-* [Berichte zu Berichten und Datenstichproben](../reporting/report-sampling.md)
-* [Zählung individueller Benutzer in Überlappung und allgemeine Berichte](../reporting/unique-user-counts.md).
+Daher werden diese Daten zu spät an das Berichterstellungssystem gesendet und nicht im 1-Tage-Berichterstellungsintervall angezeigt, das für die Darstellung der Daten verwendet wird [!UICONTROL Trait Graph]. Sie können diese Daten jedoch am folgenden Tag im 7-, 14-, 30- und 60-Tage-Berichtintervall in einem [Trend](../reporting/trend-reports.md#trend-report-overview) - oder [allgemeinen Bericht](../reporting/general-reports.md#general-reports-overview) anzeigen.
 
 <br> 
 
-**Wie kann ich feststellen, ob weitergeleitete Benutzer von dieser Kampagne oder aus anderen Quellen zu meiner Site gelangen, wenn ich eine E-Email-Marketingkampagne ausführe?**
+**Einige Segmente fehlen in einem[!UICONTROL Overlap]Bericht. Wo sind sie?**
 
-Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Sitebereichs an, den Sie überwachen möchten. Richten Sie dann eine Eigenschaftsregel ein, um diese Variable zu erfassen. For example, if your URL passes in a campaign ID like this, `www.test123.com/electronics?campaign=123`, then create a trait rule to capture that data from the `h_referer` variable with a trait rule that looks for a header like `h_referer = 'campaign=123'`).
+Um die Rechenleistung zu reduzieren, lassen diese Berichte statistisch unbedeutende Ergebnisse aus. Ihre Segmente fehlen nicht, sie werden einfach weggelassen, weil sie keine aussagekräftigen Ergebnisse oder nützlichen Benutzerpools liefern, die Sie als Ziel auswählen können. Siehe auch:
+
+* [Methoden für Berichte und Datenbearbeitung](../reporting/report-sampling.md)
+* [Zählung individueller Benutzer in Überschneidungen und allgemeinen Berichten](../reporting/unique-user-counts.md).
 
 <br> 
 
-**Was ist der Unterschied zwischen der Echtzeit- und der Gesamtanzahl der Segmente?**
+**Wie kann ich bei einer E-Mail-Marketingkampagne feststellen, ob umgeleitete Benutzer von dieser Kampagne oder aus anderen Quellen zu meiner Site gelangen?**
 
-* **Echtzeit:** Die Anzahl Unique Users, die Teil des Segments sind und während eines festgelegten Zeitraums aktiv für Ihre Eigenschaften sind (d. [!DNL Audience Manager] h. für den betreffenden Zeitraum aufgezeichnet worden sein).
+Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Sitebereichs an, den Sie überwachen möchten. Richten Sie anschließend eine Eigenschaftsregel ein, um diese Variable zu erfassen. Wenn Ihre URL z. B. eine Kampagnen-ID wie die folgende eingibt, `www.test123.com/electronics?campaign=123`erstellen Sie eine Eigenschaftsregel, um die Daten aus der `h_referer` Variablen mit einer Eigenschaftsregel zu erfassen, die nach einer Überschrift wie `h_referer = 'campaign=123'`).
 
-* **Gesamtbesucherpopulation:** Eine Aggregation aller Benutzer, die aktuell in dieses Segment klassifiziert sind.
+<br> 
+
+**Was ist der Unterschied zwischen der Echtzeit- und der Gesamtanzahl der Segmentpopulationen?**
+
+* **** Echtzeit: Die Anzahl der Unique Users, die Teil des Segments sind und während eines bestimmten Zeitraums in Ihren Eigenschaften aktiv sind (d. h., sie [!DNL Audience Manager] müssen die Aktivität für diesen Benutzer für einen bestimmten Zeitraum aufgezeichnet haben).
+
+* **** Segmentpopulation insgesamt: Eine Aggregation aller Benutzer, die derzeit in diesem Segment klassifiziert sind.
 
 <!-- 
 
@@ -61,7 +61,7 @@ Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Siteber
 
 <br> 
 
-**Ich habe ein Segment, das aus nur einer Eigenschaft besteht. Wenn ich die Berichterstellungsmetriken betrachte, stimmen ihre Zähler nicht überein. Woran liegt das?**
+**Ich habe ein Segment, das aus nur einer Eigenschaft besteht. Wenn ich mir Berichtmetriken ansehe, stimmen ihre Zahlen nicht überein. Woran liegt das?**
 
 See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
@@ -78,31 +78,31 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
  -->
 
-**Ich Inbound A File and my Inbound Receipt zeigt eine hohe Anzahl erfolgreich verarbeiteter Datensätze, aber die Berichterstellung zeigt viel niedrigere Zahlen an. Warum?**
+**Ich habe eine Datei in den Posteingang eingelesen und meine Eingangsbestätigung zeigt eine hohe Anzahl erfolgreich verarbeiteter Datensätze, aber die Berichte zeigen deutlich niedrigere Zahlen an. Warum?**
 
-In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!UICONTROL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
+Im Backend werden Daten, die nicht an Bord sind, nur an Benutzer angehängt, die weiterhin in AAM aktiv sind (Benutzer müssen in den letzten 120 Tagen eine [!UICONTROL DCS] Aktivität hatten). Wenn Sie also Daten zu Benutzern einbeziehen, die bereits abgelaufen sind, [!DNL Audience Manager]können Sie [!UICONTROL Inbound] mitteilen, dass eine bestimmte Anzahl von Benutzerdatensätzen an Bord war. Wenn diese Benutzer jedoch keine kürzlich durchgeführte Aktivität hatten, werden diese Daten bei Erreichen unserer Zielgruppe gelöscht, [!UICONTROL User Profile Store] und die Berichterstellung wird diese Daten aufdecken.
 
 <br> 
 
-**Warum sind die Eigenschaftsangaben für mein geräteübergreifendes Merkmal wesentlich höher als die Gesamtanzahl der aufgenommenen Datensätze?**
+**Warum sind die individuellen Merkmale meiner geräteübergreifenden Onboarded-Eigenschaften viel höher als die Gesamtzahl der Onboarded-Datensätze?**
 
-Wenn Sie eine Datei für einen geräteübergreifenden Datenanbieter aufrufen, der die Kunden-ID abschließt, führt Audience Manager eine Suche durch, um alle Geräte-IDs abzurufen, die mit den einzelnen Kunden-IDs verknüpft sind. Audience Manager weist dann die onboarded-Eigenschaften der Geräte-ID zu, die mit der Kunden-ID verknüpft ist.
+Wenn Sie eine Datei für einen geräteübergreifenden Datenanbieter mit der Kunden-ID an Bord mitführen, führt Audience Manager eine Suche durch, um alle Geräte-IDs abzurufen, die mit jeder der integrierten Kunden-IDs verknüpft sind. Audience Manager weist dann die integrierten Eigenschaften der Geräte-ID zu, die der Kunden-ID zugeordnet ist.
 
-Angenommen, Sie haben 100 Einträge aufgezeichnet. Für jede dieser Kunden-IDs hat AAM im Durchschnitt drei Geräte-IDs zugeordnet. Daher wird die aufgenommene Eigenschaft 300 Geräte-IDs zugewiesen.
+Angenommen, Sie haben 100 Datensätze an Bord. Für jede dieser Kunden-IDs hat AAM durchschnittlich drei Geräte-IDs zugeordnet. Daher wird die Eigenschaft, die an Bord war, 300 Geräte-IDs zugewiesen.
 
 Es gibt zwei Gründe, warum eine einzelne geräteübergreifende Kunden-ID mit mehreren Geräte-IDs verknüpft werden kann:
 
-* Benutzer melden sich bei demselben geräteübergreifenden Konto von mehreren Computern/Browsern an.
-* Benutzer löschen ihre Cookies. Hinweis: " Abgebrochen" -Cookies werden nach 120 Tagen der Benutzerinaktivität gelöscht.
+* Benutzer melden sich von mehreren Computern/Browsern an demselben geräteübergreifenden Konto an.
+* Benutzer löschen ihre Cookies. Hinweis: "Abgebrochene"Cookies werden nach 120 Tagen Inaktivität des Benutzers gelöscht.
 
 <br> 
 
-**Warum sind[!UICONTROL Total Trait Realizations]meine vordefinierten Eigenschaften immer 0?**
+**Warum sind[!UICONTROL Total Trait Realizations]meine Onboared Eigenschaften immer 0?**
 
-[!UICONTROL Total Trait Realizations] auf Seite laden. [!UICONTROL Total Trait Realizations] geben an, wie oft bestimmte Eigenschaften in Echtzeit ausgelöst wurden. Diese Zahl wird nur für regelbasierte Eigenschaften berechnet. Onboarded traits always show [!UICONTROL Total Trait Realizations] as 0.
+[!UICONTROL Total Trait Realizations] entsprechen den Seitenladevorgängen. [!UICONTROL Total Trait Realizations] Geben Sie an, wie oft bestimmte Eigenschaften in Echtzeit ausgelöst wurden. Diese Zahl wird nur für regelbasierte Eigenschaften berechnet. Die integrierten Eigenschaften werden immer [!UICONTROL Total Trait Realizations] als 0 angezeigt.
 
 <br> 
 
-**Ich habe eine Eigenschaft erstellt und die[!UICONTROL Trait Graph]Ansicht eine größere Zahl[!UICONTROL Unique Trait Realizations]als die[!UICONTROL Total Trait Population]. Is this normal?**
+**Ich habe eine Eigenschaft erstellt und die[!UICONTROL Trait Graph]zeigt eine größere Anzahl[!UICONTROL Unique Trait Realizations]als die[!UICONTROL Total Trait Population]. Ist das normal?**
 
-You are seeing this because the [!UICONTROL Unique Trait Realizations] are real-time metrics, but the reporting jobs we do to calculate the [!UICONTROL Total Trait Population] are not real-time. The [!UICONTROL Total Trait Population] should be larger than the [!UICONTROL Unique Trait Realizations] within a couple of days.
+Sie sehen dies, weil es sich um Echtzeitmetriken [!UICONTROL Unique Trait Realizations] handelt, aber die Berichterstellungsaufträge, die wir zur Berechnung des Werts ausführen, [!UICONTROL Total Trait Population] sind nicht in Echtzeit. Die [!UICONTROL Total Trait Population] sollte innerhalb weniger Tage größer als die [!UICONTROL Unique Trait Realizations] sein.
