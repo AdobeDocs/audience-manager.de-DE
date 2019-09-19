@@ -1,10 +1,10 @@
 ---
-description: Beschreibt die gängigen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto anzusprechen.
-seo-description: Beschreibt die gängigen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto anzusprechen.
-seo-title: Gerätetargeting mit Schlüssel auf Plattformebene
+description: Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen über alle Eigenschaften in Ihrem Audience Manager-Konto hinweg anzusprechen.
+seo-description: Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen über alle Eigenschaften in Ihrem Audience Manager-Konto hinweg anzusprechen.
+seo-title: Geräte-Targeting mit Schlüsseln auf Plattformebene
 solution: Audience Manager
-title: Gerätetargeting mit Schlüssel auf Plattformebene
-uuid: bc 048 cc 5-3 df 1-49 bc-ac 78-0 ea 5 d 7 edd 9 cc
+title: Geräte-Targeting mit Schlüsseln auf Plattformebene
+uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,17 +13,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
-Beschreibt die gängigen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto anzusprechen.
+Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen über alle Eigenschaften in Ihrem Audience Manager-Konto hinweg anzusprechen.
 
-## Purpose of Platform-level Variables {#platform-variables}
+## Zweck der Variablen auf Plattformebene {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Platform-level variables let you take data passed in from a particular site and make it available for targeting across all the properties in your [!DNL Audience Manager] account. These variables are formed by [key-value pairs](../../reference/key-value-pairs-explained.md) with the key prefixed by `d_` as shown below.
+Mit Plattformvariablen können Sie Daten, die von einer bestimmten Site übergeben wurden, aufnehmen und für das Targeting über alle Eigenschaften in Ihrem [!DNL Audience Manager] Konto hinweg verfügbar machen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei der Schlüssel dem folgenden vorangestellt wird `d_` .
 
-## Platform-level Keys Defined by User Agent {#keys-user-agent}
+## Vom Benutzeragent definierte Schlüssel auf Plattformebene {#keys-user-agent}
 
-The [!UICONTROL Data Collection Servers] extract the values for these keys from the [user agent header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` requests. The values represent device-level information from the [!UICONTROL Device Atlas] database. Die Signale in der unten stehenden Tabelle sind verfügbar, wie aus dem Benutzeragenten-Beispiel extrahiert. [Laden Sie eine Liste der häufigsten Schlüssel](assets/device_keys.csv)entsprechend [!UICONTROL Device Atlas] den Messungen herunter.
+Die [!UICONTROL Data Collection Servers] Werte für diese Schlüssel werden aus dem [Benutzeragenten-Header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` Anforderungen extrahiert. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas] Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie aus dem Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gebräuchlichsten Schlüssel](assets/device_keys.csv)nach [!UICONTROL Device Atlas] Messungen herunter.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -41,9 +41,9 @@ The [!UICONTROL Data Collection Servers] extract the values for these keys from 
 
 >[!NOTE]
 >
->Even if one or more signals cannot be retrieved from the user agent header, the other signals will still be passed to the [!UICONTROL Data Collection Servers].
+>Auch wenn ein oder mehrere Signale nicht aus dem Benutzeragenten-Header abgerufen werden können, werden die anderen Signale trotzdem an den [!UICONTROL Data Collection Servers]Empfänger weitergeleitet.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
+>* [Voraussetzungen für das Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
 
