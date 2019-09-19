@@ -1,53 +1,53 @@
 ---
-description: Verwenden Sie die Optionen im Analytics-Menü, um das Dashboard und verschiedene Berichte anzuzeigen.
-seo-description: Verwenden Sie die Optionen im Analytics-Menü, um das Dashboard und verschiedene Berichte in Adobe Audience Manager (AAM) anzuzeigen.
+description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard und verschiedene Berichte anzuzeigen.
+seo-description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard und verschiedene Berichte in Adobe Audience Manager (AAM) anzuzeigen.
 seo-title: Berichtsübersicht in Adobe Audience Manager (AAM)
-title: Berichtübersicht
+title: Berichtsübersicht
 translation-type: tm+mt
 source-git-commit: 687aaea0f62f90ab947be8aa7d93050c5562c307
 
 ---
 
 
-# Berichtübersicht
+# Berichtsübersicht
 
-Einzelne Abschnitte beschreiben verfügbare Berichte, deren Zweck und typische Verwendungen. Alle Berichte sind über das Analytics-Dashboard verfügbar.
+In den einzelnen Abschnitten werden verfügbare Berichte, ihre Ziele und typischen Verwendungen beschrieben. Alle Berichte sind im Analytics-Dashboard verfügbar.
 
-For information describing the time frames when Audience Manager receives information to populate reports, see [How Data Delivery and File Processing Times Affect Reports](/help/using/reference/reporting-file-transfer-timeframe.md).
+Informationen zu den Zeiträumen, in denen Audience Manager Informationen zum Ausfüllen von Berichten erhält, finden Sie unter [Auswirkungen von Datenbereitstellung und Dateiverarbeitung auf Berichte](/help/using/reference/reporting-file-transfer-timeframe.md).
 
 * [Zielgruppenoptimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-   Die Berichte zur Zielgruppenoptimierung verwenden Datenvisualisierungsmethoden, um Informationen zu den Zielen in Ihrem Audience Manager-Konto zurückzugeben. In jedem Bericht können Sie auf fast jeden Datenpunkt klicken, um detaillierte Informationen zu diesem Element zurückzugeben. Diese Einblicke zur Zielgruppenoptimierung können auf verschiedene Anwendungsfälle in Werbung und Veröffentlichungskanälen angewendet werden, sind jedoch standardmäßig nicht verfügbar. Wenden Sie sich an Ihren Audience Manager-Berater, um zu beginnen.
+   Die Berichte zur Zielgruppenoptimierung verwenden Datenvisualisierungsmethoden, um Informationen zu den Zielen in Ihrem Audience Manager-Konto zurückzugeben. In jedem Bericht können Sie auf fast jeden Datenpunkt klicken, um detaillierte Informationen zu diesem Element zurückzugeben. Diese Einblicke zur Zielgruppenoptimierung können auf verschiedene Anwendungsfälle in Werbe- und Veröffentlichungskanälen angewendet werden, sind aber standardmäßig nicht verfügbar. Wenden Sie sich für die ersten Schritte an Ihren Audience Manager-Berater.
 
 * [Allgemeine Berichte](/help/using/reporting/general-reports.md)
 
-   Ein allgemeiner Bericht gibt Leistungsdaten zu Eigenschaften, Segmenten und Zielen zurück.
+   Ein Allgemeiner Bericht gibt Leistungsdaten zu Eigenschaften, Segmenten und Zielen zurück.
 
-* [Interaktive und Überlappungsberichte](/help/using/reporting/dynamic-reports/dynamic-reports.md)
+* [Interaktive Berichte und Überlagerungsberichte](/help/using/reporting/dynamic-reports/dynamic-reports.md)
 
-   Interaktive Berichte zeigen Leistungs- und Überlappungsdaten für Eigenschaften und Segmente an. Statt Zahlen in Spalten und Zeilen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie für weitere Details einzelne Datenpunkte oder Datengruppen im Drilldown-Verfahren auswählen. Diese Visualisierungstechniken und Interaktivitätsinteraktivität erleichtern die Verständlichkeit von numerischen Daten.
+   Interaktive Berichte zeigen Leistungs- und Überlagerungsdaten für Eigenschaften und Segmente an. Statt in Spalten und Zeilen angeordnete Zahlen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie einzelne oder Gruppen von Datenpunkten auswählen und im Drilldown-Verfahren in den Berichtsergebnissen weitere Details anzeigen. Diese Visualisierungstechniken und die Berichtsinteraktivität erleichtern das Verständnis zahlreicher numerischer Daten.
 
-* [Onboarding-Statusbericht: Info](/help/using/reporting/onboarding-status-report.md)
+* [Statusbericht zum Einstieg: Info](/help/using/reporting/onboarding-status-report.md)
 
-   Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerraten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und stellt zusammenfassende Metriken in Tabellenform bereit. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Diesen Bericht finden Sie in Analytics &gt; Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
+   Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter Analytics &gt; Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 
 * [Ausgehender Dateiverlauf](/help/using/reporting/outbound-history-report.md)
 
-   Zeigen Sie Informationen zum ausausgehenden Batch-Auftragsverlauf für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
+   Zeigt Informationen zum Auftragsverlauf für ausgehende Stapelaufträge für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
 
 * [Trendberichte](/help/using/reporting/trend-reports.md)
 
    Ein Trendbericht gibt Trenddaten zu Eigenschaften und Segmenten zurück.
 
-* [Zählung individueller Benutzer in Überlappung und allgemeine Berichte](/help/using/reporting/unique-user-counts.md)
+* [Zählung individueller Benutzer in Überschneidungen und allgemeinen Berichten](/help/using/reporting/unique-user-counts.md)
 
-   Beschreibt die Variation in eindeutigen Benutzersummen zwischen Berichten für dieselben Eigenschaften und Zeiträume.
+   Beschreibt die Schwankungen der Summen individueller Benutzer zwischen Berichten für dieselbe Eigenschaft und denselben Zeitraum.
 
-* [Dashboard für Berichte](/help/using/reporting/trend-reports.md)
+* [Berichte-Dashboard](/help/using/reporting/trend-reports.md)
 
-   Mit dem Dashboard können Sie Informationen über die Anzahl der individuellen Besucher Ihrer Partner anzeigen, aufgeschlüsselt nach Eigenschaften und Segmenten für einen bestimmten Zeitraum.
+   Verwenden Sie das Dashboard, um Informationen zu den individuellen Besucherzahlen Ihrer Partner anzuzeigen, aufgeschlüsselt nach Eigenschaftentypen und Segmenten für einen bestimmten Zeitraum.
 
-* [Datenstichproben und Fehlersätze in ausgewählten Audience Manager-Berichten](/help/using/reporting/report-sampling.md)
+* [Datenstichproben und Fehlerraten in ausgewählten Audience Manager-Berichten](/help/using/reporting/report-sampling.md)
 
-   Eine Zusammenfassung der Stichprobenmethode für einige Berichte, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichproben zurückgeben.
+   Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
 
