@@ -1,37 +1,37 @@
 ---
-description: Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die von Audience Manager in den letzten 7 Tagen empfangen wurden, und identifizieren Sie potenzielle neue Eigenschaften. Nicht genutzte Signale erreichen den Audience Manager von Ihren Online-Eigenschaften, werden aber in keiner Ihrer vorhandenen Eigenschaften verwendet. Um das Signal-Dashboard anzuzeigen, gehen Sie zu Zielgruppendaten > Signale. Das Signal-Dashboard zeigt Ihnen umsetzbare Einblicke auf Grundlage Ihrer am aktivsten genutzten Signale.
-seo-description: Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die von Audience Manager in den letzten 7 Tagen empfangen wurden, und identifizieren Sie potenzielle neue Eigenschaften. Nicht genutzte Signale erreichen den Audience Manager von Ihren Online-Eigenschaften, werden aber in keiner Ihrer vorhandenen Eigenschaften verwendet. Um das Signal-Dashboard anzuzeigen, gehen Sie zu Zielgruppendaten > Signale. Das Signal-Dashboard zeigt Ihnen umsetzbare Einblicke auf Grundlage Ihrer am aktivsten genutzten Signale.
-seo-title: Signales Dashboard
-title: Signales Dashboard
-uuid: 26 f 39507-097 f -427 d-bf 5 b-ab 6 d 035 c 1 dd 2
+description: Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die Audience Manager in den letzten 7 Tagen erhalten hat, und identifizieren Sie potenzielle neue Eigenschaften. Nicht verwendete Signale erreichen Audience Manager über Ihre Online-Eigenschaften, werden aber in keiner Ihrer vorhandenen Eigenschaften verwendet. Um das Signal-Dashboard anzuzeigen, gehen Sie zu Zielgruppendaten > Signale. Das Signal-Dashboard zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
+seo-description: Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die Audience Manager in den letzten 7 Tagen erhalten hat, und identifizieren Sie potenzielle neue Eigenschaften. Nicht verwendete Signale erreichen Audience Manager über Ihre Online-Eigenschaften, werden aber in keiner Ihrer vorhandenen Eigenschaften verwendet. Um das Signal-Dashboard anzuzeigen, gehen Sie zu Zielgruppendaten > Signale. Das Signal-Dashboard zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
+seo-title: Signal-Dashboard
+title: Signal-Dashboard
+uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
 
 
-# Signals Dashboard {#signals-dashboard}
+# Signal-Dashboard {#signals-dashboard}
 
-Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die von Audience Manager in den letzten 7 Tagen empfangen wurden, und identifizieren Sie potenzielle neue Eigenschaften. Nicht genutzte Signale erreichen den Audience Manager von Ihren Online-Eigenschaften, werden aber in keiner Ihrer vorhandenen Eigenschaften verwendet. To view the [!UICONTROL Signals Dashboard], go to [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. The [!UICONTROL Signals Dashboard] shows you actionable insights based on your most active unused signals.
+Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die Audience Manager in den letzten 7 Tagen erhalten hat, und identifizieren Sie potenzielle neue Eigenschaften. Nicht verwendete Signale erreichen Audience Manager über Ihre Online-Eigenschaften, werden aber in keiner Ihrer vorhandenen Eigenschaften verwendet. Gehen Sie [!UICONTROL Signals Dashboard]zu [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. Der [!UICONTROL Signals Dashboard] zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Top Unused Signals]** and **[!UICONTROL New Unused Signals]** sections only display records with more than **100 occurrences/hour**. Signals below that threshold are included in [!UICONTROL Signals Search].
+>Die Abschnitte **[!UICONTROL Top Unused Signals]** und **[!UICONTROL New Unused Signals]** zeigen nur Datensätze mit mehr als **100 Vorfällen/Stunde** an. Signale unterhalb dieses Schwellenwerts sind in [!UICONTROL Signals Search]enthalten.
 
-## Top Unused Signals {#top-unused-signals}
+## Obere nicht verwendete Signale {#top-unused-signals}
 
-This section shows you the top 50 unused signals (both new and old) sent to [!DNL Audience Manager] in the past 7 days, based on their total count. Depending on the data [!DNL Audience Manager] receives, this table can include some or all of the entries in the **New Unused Signals** table.
+Dieser Abschnitt zeigt Ihnen die 50 am häufigsten verwendeten (sowohl neuen als auch alten) Signale, die in den letzten 7 Tagen gesendet wurden, basierend auf ihrer Gesamtanzahl. [!DNL Audience Manager] Je nachdem, welche Daten [!DNL Audience Manager] empfangen werden, kann diese Tabelle einige oder alle Einträge in der Tabelle " **Neue nicht verwendete Signale** "enthalten.
 
 ![](assets/signals-top-unused.png)
 
-## New Unused Signals {#new-unused-signals}
+## Neue nicht verwendete Signale {#new-unused-signals}
 
-Dieser Abschnitt zeigt Ihnen die 50 neuen nicht verwendeten Signale, die in den vergangenen 7 Tagen empfangen wurden.
+Dieser Abschnitt zeigt Ihnen die 50 wichtigsten nicht verwendeten Signale, die Sie in den letzten 7 Tagen erhalten haben.
 
 ![](assets/signals-new-unused.png)
 
 ## Gespeicherte Suchen {#saved-searches}
 
-[!DNL Audience Manager] zeigt alle gespeicherten [Suchen](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) auf der Seite an [!UICONTROL Dashboard] und lädt sie jedes Mal neu, wenn [!UICONTROL Dashboard]Sie sie laden.
+[!DNL Audience Manager] zeigt alle [gespeicherten Suchvorgänge](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) auf der Seite an [!UICONTROL Dashboard] und lädt sie jedes Mal neu, wenn Sie die [!UICONTROL Dashboard].
 
-Gespeicherte Suchvorgänge zeigen die Top -50-Ergebnisse für die entsprechenden Kriterien an.
+Gespeicherte Suchen zeigen die 50 besten Ergebnisse für die entsprechenden Kriterien an.
