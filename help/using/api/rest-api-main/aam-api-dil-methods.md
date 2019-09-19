@@ -1,29 +1,29 @@
 ---
 description: Methoden, mit denen Sie programmatisch mit der Data Integration Library (DIL) arbeiten können.
 seo-description: Methoden, mit denen Sie programmatisch mit der Data Integration Library (DIL) arbeiten können.
-seo-title: Data Integration Library API-Methoden
+seo-title: API-Methoden für Datenintegrationsbibliothek
 solution: Audience Manager
-title: Data Integration Library API-Methoden
-uuid: 507 e 7 afd -3 ae 7-44 de -98 b 0-589 d 699 c 453 b
+title: API-Methoden für Datenintegrationsbibliothek
+uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 translation-type: tm+mt
 source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 
 ---
 
 
-# Data Integration Library API Methods {#data-integration-library-api-methods}
+# API-Methoden für Datenintegrationsbibliothek {#data-integration-library-api-methods}
 
-Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Methoden, mit denen Sie programmatisch mit dem [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->Die Data Integration Library API wurde nicht mehr unterstützt. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>Die Data Integration Library API wurde nicht mehr unterstützt. Diese API zum Generieren von DIL, die Sie jetzt hier selbst herunterladen können: DIL- [Download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Return Versions for DIL {#return-version-dil}
+## Rückgabeversionen für DIL {#return-version-dil}
 
-`GET` Eine Methode, die eine Liste von Versionen zurückgibt, die vom ältesten zu den neuesten Versionen bestellt wurden.
+Eine `GET` Methode, die eine Liste der bestellten Versionen vom ältesten zum neuesten zurückgibt.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -33,15 +33,15 @@ Methods that let you work programmatically with the [!UICONTROL Data Integration
 
 ### Antwort
 
-A successful request returns response code `["4.0", "4.1"]` as shown below.
+Bei einer erfolgreichen Anforderung wird der Antwortcode `["4.0", "4.1"]` wie unten dargestellt zurückgegeben.
 
 ```
 ["4.0", "4.1"]
 ```
 
-## Return JSON Schema for Version {#return-json-schema-version}
+## JSON-Schema für Version zurückgeben {#return-json-schema-version}
 
-`GET` Eine Methode, die das [!DNL JSON] Schema für die [!UICONTROL DIL] Version zurückgibt. Supports using alias [!UICONTROL LATEST] for version to get the latest version of [!UICONTROL DIL].
+Eine `GET` Methode, die das [!DNL JSON] Schema für die [!UICONTROL DIL] Version zurückgibt. Unterstützt den Einsatz von Alias [!UICONTROL LATEST] für Version, um die neueste Version von zu erhalten [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -51,7 +51,7 @@ A successful request returns response code `["4.0", "4.1"]` as shown below.
 
 ### Antwort
 
-A successful request returns response code `["4.0", "4.1"]` and data as shown below.
+Bei einer erfolgreichen Anforderung werden Antwortcode `["4.0", "4.1"]` und Daten wie unten dargestellt zurückgegeben.
 
 ```
 { 
@@ -375,9 +375,9 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 } 
 ```
 
-## Generate DIL {#generate-dil}
+## DIL generieren {#generate-dil}
 
-`GET` Eine Methode, die [!UICONTROL DIL] basierend auf der Weiterleitung an den Anforderungstext mithilfe der angegebenen Version erstellt [!UICONTROL DIL]wird. If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
+Eine `GET` Methode, die auf der Grundlage des übergebenen Anforderungstextes mit der angegebenen Version von generiert wird [!UICONTROL DIL][!UICONTROL DIL] . Wenn der Alias für die Version in der URL verwendet `LATEST` wird, wird die neueste Version von [!UICONTROL DIL] generiert.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -461,4 +461,4 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 
 ### Antwort
 
-A successful update returns response code `201 created` along with the [!UICONTROL DIL] [!DNL JavaScript] code.
+Bei einer erfolgreichen Aktualisierung wird Antwortcode `201 created` zusammen mit dem [!UICONTROL DIL][!DNL JavaScript] -Code zurückgegeben.
