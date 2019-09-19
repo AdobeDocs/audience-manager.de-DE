@@ -1,21 +1,21 @@
 ---
-description: Drittanbieter von Inhalten können Daten mit Audience Manager gemäß diesen technischen Spezifikationen austauschen. Eine Echtzeit-Integration (synchron) überträgt Daten in nahezu echtzeit als Benutzerbesuche oder führt Aktionen auf Ihrer Site durch. Technische, technische oder Entwicklungsteams sollten dieses Material verwenden, um Echtzeit-Datenübertragungen mit Audience Manager einzurichten.
-seo-description: Drittanbieter von Inhalten können Daten mit Audience Manager gemäß diesen technischen Spezifikationen austauschen. Eine Echtzeit-Integration (synchron) überträgt Daten in nahezu echtzeit als Benutzerbesuche oder führt Aktionen auf Ihrer Site durch. Technische, technische oder Entwicklungsteams sollten dieses Material verwenden, um Echtzeit-Datenübertragungen mit Audience Manager einzurichten.
-seo-title: Technische Spezifikationen für Inbound, Echtzeit-Datenübertragungen
+description: Drittanbieter von Inhalten können erwarten, dass sie Daten mit Audience Manager gemäß diesen technischen Spezifikationen austauschen. Bei einer Echtzeit-Integration (synchron) werden Daten in Echtzeit übertragen, wenn ein Benutzer Ihre Site besucht oder Aktionen ausführt. Technische, technische oder Entwicklungsteams sollten dieses Material verwenden, um die Einrichtung von Echtzeit-Datenübertragungen mit Audience Manager zu unterstützen.
+seo-description: Drittanbieter von Inhalten können erwarten, dass sie Daten mit Audience Manager gemäß diesen technischen Spezifikationen austauschen. Bei einer Echtzeit-Integration (synchron) werden Daten in Echtzeit übertragen, wenn ein Benutzer Ihre Site besucht oder Aktionen ausführt. Technische, technische oder Entwicklungsteams sollten dieses Material verwenden, um die Einrichtung von Echtzeit-Datenübertragungen mit Audience Manager zu unterstützen.
+seo-title: Technische Spezifikationen für eingehende Datenübertragungen in Echtzeit
 solution: Audience Manager
-title: Technische Spezifikationen für Inbound, Echtzeit-Datenübertragungen
-uuid: 722 aaf 40-c 60 f -451 c -99 ce-aa 773 f 7 f 301 d
+title: Technische Spezifikationen für eingehende Datenübertragungen in Echtzeit
+uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
 translation-type: tm+mt
 source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 ---
 
 
-# Technical Specifications for Inbound, Real-Time Data Transfers{#technical-specifications-for-inbound-real-time-data-transfers}
+# Technische Spezifikationen für eingehende Datenübertragungen in Echtzeit{#technical-specifications-for-inbound-real-time-data-transfers}
 
-Drittanbieter von Inhalten können Daten mit Audience Manager gemäß diesen technischen Spezifikationen austauschen. Eine Echtzeit-Integration (synchron) überträgt Daten in nahezu echtzeit als Benutzerbesuche oder führt Aktionen auf Ihrer Site durch. Technische, technische oder Entwicklungsteams sollten dieses Material verwenden, um Echtzeit-Datenübertragungen mit Audience Manager einzurichten.
+Drittanbieter von Inhalten können erwarten, dass sie Daten mit Audience Manager gemäß diesen technischen Spezifikationen austauschen. Bei einer Echtzeit-Integration (synchron) werden Daten in Echtzeit übertragen, wenn ein Benutzer Ihre Site besucht oder Aktionen ausführt. Technische, technische oder Entwicklungsteams sollten dieses Material verwenden, um die Einrichtung von Echtzeit-Datenübertragungen mit Audience Manager zu unterstützen.
 
 <!-- c_rt_realtime_intro.xml -->
 
-* [Pixelbasierte Datenübertragungen](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
-* [Erfassung von Inbound-Daten in Echtzeit](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
+* [Pixelbasierte Datenübertragung](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
+* [Dateneinbettung in Echtzeit](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
