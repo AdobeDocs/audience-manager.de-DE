@@ -1,32 +1,32 @@
 ---
-description: Als Option können Sie Datendateien mit der PGP-Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
-seo-description: Als Option können Sie Datendateien mit der PGP-Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
+description: Als Option können Sie Datendateien mit PGP-Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
+seo-description: Als Option können Sie Datendateien mit PGP-Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
 seo-title: Datei-PGP-Verschlüsselung für Inbound-Datentypen
 solution: Audience Manager
 title: Datei-PGP-Verschlüsselung für Inbound-Datentypen
-uuid: 89 caace 1-0259-48 fc -665 b-d 525 ec 7822 f 7
+uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# File PGP Encryption for Inbound Data Types{#file-pgp-encryption-for-inbound-data-types}
+# Datei-PGP-Verschlüsselung für Inbound-Datentypen{#file-pgp-encryption-for-inbound-data-types}
 
-As an option, you can encrypt data files with [!DNL PGP] encryption when sending them to Audience Manager.
+Als Option können Sie Datendateien mit [!DNL PGP] Verschlüsselung verschlüsseln, wenn sie an Audience Manager gesendet werden.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->Verschlüsselung und Komprimierung werden derzeit nicht in derselben Inbound-Datendatei unterstützt. You can select to either encrypt or [compress](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) your inbound files.
+>Wir unterstützen derzeit keine Verschlüsselung und Komprimierung in derselben eingehenden Datendatei. Sie können Ihre eingehenden Dateien entweder verschlüsseln oder [komprimieren](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) .
 
-Gehen Sie wie unten beschrieben vor, um eingehende Datendateien zu verschlüsseln.
+Gehen Sie wie folgt vor, um eingehende Datendateien zu verschlüsseln.
 
-1. Download the [Audience Manager public key](./assets/adobe_pgp.pub).
+1. Laden Sie den öffentlichen [Audience Manager-Schlüssel](./assets/adobe_pgp.pub)herunter.
 1. Importieren Sie den öffentlichen Schlüssel in Ihren vertrauenswürdigen Store.
 
-   For example, if you use [!DNL GPG], the command could be similar to the following:
+   Wenn Sie beispielsweise [!DNL GPG]Folgendes verwenden, könnte der Befehl wie folgt aussehen:
 
    `gpg --import adobe_pgp.pub`
 
@@ -34,7 +34,7 @@ Gehen Sie wie unten beschrieben vor, um eingehende Datendateien zu verschlüssel
 
    `gpg --list-keys`
 
-   Es sollte eine Meldung ähnlich dem Folgenden angezeigt werden:
+   Es sollte eine Meldung wie die folgende angezeigt werden:
 
    ```
    pub   4096R/8496CE32 2013-11-01
@@ -42,12 +42,12 @@ Gehen Sie wie unten beschrieben vor, um eingehende Datendateien zu verschlüssel
    sub   4096R/E3F2A363 2013-11-01
    ```
 
-1. Verschlüsseln Sie die eingehenden Daten mithilfe des folgenden Befehls:
+1. Verschlüsseln Sie die eingehenden Daten mit dem folgenden Befehl:
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   All encrypted data must use `.pgp` or `.gpg` as the file extension (e.g. `ftp_dpm_100_123456789.sync.pgp` or `ftp_dpm_100_123456789.overwrite.gpg`).
+   Alle verschlüsselten Daten müssen als Dateierweiterung verwendet `.pgp` oder `.gpg` verwendet werden (z.B. `ftp_dpm_100_123456789.sync.pgp` oder `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >Audience Manager supports only the [!DNL Advanced Encryption Standard (AES)] data-encryption algorithm. Audience Manager unterstützt alle Schlüsselgrößen.
+   >Audience Manager unterstützt nur den [!DNL Advanced Encryption Standard (AES)] Datenverschlüsselungsalgorithmus. Audience Manager unterstützt alle wichtigen Größen.
