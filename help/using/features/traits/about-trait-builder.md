@@ -1,27 +1,27 @@
 ---
-description: Eigenschaftenaufbau ist eine Funktion, die bei herkömmlichen Pixelbasierten Datenerfassungs- und Segmentierungsprozessen und Segmentierungsprozessen verbessert wird. Dies funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
-seo-description: Eigenschaftenaufbau ist eine Funktion, die bei herkömmlichen Pixelbasierten Datenerfassungs- und Segmentierungsprozessen und Segmentierungsprozessen verbessert wird. Dies funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
-seo-title: Grundlagen zum Eigenschaftenaufbau
+description: Eigenschaften-Builder ist eine Funktion, die die herkömmlichen pixelbasierten Datenerfassungs- und Zielgruppenerstellungs-/Segmentierungsprozesse verbessert. Es funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
+seo-description: Eigenschaften-Builder ist eine Funktion, die die herkömmlichen pixelbasierten Datenerfassungs- und Zielgruppenerstellungs-/Segmentierungsprozesse verbessert. Es funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
+seo-title: Eigenschaften-Aufbau
 solution: Audience Manager
-title: Grundlagen zum Eigenschaftenaufbau
-uuid: 4258616 c -7 a 9 f -4 fe 9-95 e 2-9 f 51896 a 14 ab
+title: Eigenschaften-Aufbau
+uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# About Trait Builder {#about-trait-builder}
+# Eigenschaften-Aufbau {#about-trait-builder}
 
-[!UICONTROL Trait Builder] ist eine Funktion, die bei herkömmlichen Pixelbasierten Datenerfassungs- und -segmentierungs-/Segmentierungsprozessen verbessert wird. Dies funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
+[!UICONTROL Trait Builder] ist eine Funktion, die die herkömmlichen pixelbasierten Datenerfassungs- und Zielgruppenerstellungs-/Segmentierungsprozesse verbessert. Es funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
 
 <!-- c_tb_about.xml -->
 
-Compared to pixels, which fire in response to simple "yes" or "true" conditions, [!UICONTROL Trait Builder] lets you:
+Im Vergleich zu Pixeln, die aufgrund einfacher "Ja"- oder "true"-Bedingungen ausgelöst werden, [!UICONTROL Trait Builder] können Sie:
 
-* Collect *all* page data so you can use it later to build relevant, useful traits.
-* Build traits based on [key-value pairs](../../reference/key-value-pairs-explained.md) passed in during data collection.
-* Evaluate complex data conditions with server-side rules that work with [Boolean expressions](../../reference/boolean-expressions-tsb.md) and [comparison operators](../../features/traits/trait-comparison-operators.md).
+* Erfassen Sie *alle* Seitendaten, damit Sie sie später verwenden können, um relevante, nützliche Eigenschaften zu erstellen.
+* Erstellen Sie Eigenschaften basierend auf [Schlüssel/Wert-Paaren](../../reference/key-value-pairs-explained.md) , die während der Datenerfassung weitergegeben werden.
+* Bewerten Sie komplexe Datenbedingungen mit serverseitigen Regeln, die mit [booleschen Ausdrücken](../../reference/boolean-expressions-tsb.md) und [Vergleichsoperatoren](../../features/traits/trait-comparison-operators.md)funktionieren.
 
-* Reduzieren oder entfernen Sie die Notwendigkeit, Datenerfassungspixel für Ihren Bestand zu verwalten.
-* Monitor performance with [!DNL Audience Manager] reports.
+* Verringern oder vermeiden Sie die Notwendigkeit, die Datenerfassungspixel auf Ihrem Bestand zu halten.
+* Überwachen Sie die Leistung mit [!DNL Audience Manager] Berichten.
