@@ -1,19 +1,19 @@
 ---
-description: Mit DIL-APIS auf Klassenebene können Sie Audience Manager-Objekte programmatisch erstellen und bearbeiten. Die Klassen auf Klassenebene funktionieren mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
-seo-description: Mit DIL-APIS auf Klassenebene können Sie Audience Manager-Objekte programmatisch erstellen und bearbeiten. Die Klassen auf Klassenebene funktionieren mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
+description: Mit den DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die APIs auf Klassenebene arbeiten mit anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
+seo-description: Mit den DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die APIs auf Klassenebene arbeiten mit anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
 seo-title: DIL-Methoden auf Klassenebene
 solution: Audience Manager
 title: DIL-Methoden auf Klassenebene
-uuid: 903 a 661 f -8871-4402-b 9 d 6-acae 920276 cb
+uuid: 903a661f-8871-4402-b9d6-acae920276cb
 translation-type: tm+mt
 source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 ---
 
 
-# Class-level DIL Methods{#class-level-dil-methods}
+# DIL-Methoden auf Klassenebene{#class-level-dil-methods}
 
-Mit DIL-APIS auf Klassenebene können Sie Audience Manager-Objekte programmatisch erstellen und bearbeiten. Die Klassen auf Klassenebene funktionieren mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
+Mit den DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die APIs auf Klassenebene arbeiten mit anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
 
 <!-- 
 
