@@ -155,12 +155,12 @@ Listet die Datenstruktur einer [!UICONTROL CDF] Datei auf und definiert sie. Daz
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Gerät </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">Behälter-ID </li> 
       <li id="li_660D17989BE54610A01229C47894E8A9"> Realisierte Eigenschaften </li> 
-      <li id="li_1591180564374204852785C6FFCA4F74"> Realisierte Segmente </li> 
+      <li id="li_1591180564374204852785C6FFCA4F74">Realisierte Segmente </li> 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Anfrageparameter </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-Adresse </li> 
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
-      <li id="li_7A05AF4790A1425A90D019681DF4A595"> Alle Segmente </li> 
+      <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle Segmente </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle Eigenschaften </li> 
      </ol> </p> <p>Feldbeschreibungen finden Sie unter Inhalt des <a href="#cdf-defined"> Kundendatenfeeds definiert</a>. </p> </td> 
   </tr> 
