@@ -1,39 +1,39 @@
 ---
-description: Der Bericht zu Anzeigeneinheitenüberlappung wird als ein Heat Chart angezeigt, das hohe und niedrige Überlappungen zwischen Ihren Anzeigeneinheiten und Audience Manager-Segmenten hervorhebt.
-seo-description: Der Bericht zu Anzeigeneinheitenüberlappung wird als ein Heat Chart angezeigt, das hohe und niedrige Überlappungen zwischen Ihren Anzeigeneinheiten und Audience Manager-Segmenten hervorhebt.
-seo-title: Segment auf Anzeigenüberlappung
+description: Der Bericht "Segmentüberschneidung zu Anzeigeneinheiten"wird als Heatmap angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten und Audience Manager-Segmenten hervorhebt.
+seo-description: Der Bericht "Segmentüberschneidung zu Anzeigeneinheiten"wird als Heatmap angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten und Audience Manager-Segmenten hervorhebt.
+seo-title: Überschneidung von Segment zu Anzeigeneinheit
 solution: Audience Manager
-title: Segment auf Anzeigenüberlappung
-uuid: aaa 20163-58 aa -42 c 9-8 f 72-a 1 dfb 0 d 20 e 57
+title: Überschneidung von Segment zu Anzeigeneinheit
+uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Segment to Ad Unit Overlap{#segment-to-ad-unit-overlap}
+# Überschneidung von Segment zu Anzeigeneinheit{#segment-to-ad-unit-overlap}
 
-Der Bericht zu Anzeigeneinheitenüberlappung wird als ein Heat Chart angezeigt, das hohe und niedrige Überlappungen zwischen Ihren Anzeigeneinheiten und Audience Manager-Segmenten hervorhebt.
+Der Bericht "Segmentüberschneidung zu Anzeigeneinheiten"wird als Heatmap angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten und Audience Manager-Segmenten hervorhebt.
 
 ## Nutzungsszenario {#use-cases}
 
-With the [!UICONTROL Segment to Ad Unit Overlap] report, you can understand which audiences visit your web properties. The report displays the overlap between members of your [!DNL Audience Manager] segments and the number of visitors to your web properties. Eine höhere Überschneidung bedeutet, dass viele Mitglieder eines Segments Ihre Webeigenschaft besuchen.
+Mit dem [!UICONTROL Segment to Ad Unit Overlap] Bericht können Sie verstehen, welche Zielgruppen Ihre Webeigenschaften besuchen. Der Bericht zeigt die Überschneidung zwischen Mitgliedern Ihrer [!DNL Audience Manager] Segmente und die Anzahl der Besucher Ihrer Webeigenschaften an. Eine höhere Überschneidung bedeutet, dass viele Mitglieder eines Segments Ihre Webeigenschaft besuchen.
 
-## Using the Segment to Ad Unit Overlap Report {#using-the-report}
+## Verwenden des Berichts "Segmentüberschneidung zu Anzeigeneinheiten" {#using-the-report}
 
-Use the **[!UICONTROL Top N Ad Units]** and **[!UICONTROL Top N Segments]** controls to select your desired number of ad units and segments for the overlap. Sie können jeweils maximal 100 Elemente auswählen.
+Verwenden Sie die **[!UICONTROL Top N Ad Units]** und **[!UICONTROL Top N Segments]** -Steuerelemente, um die gewünschte Anzahl von Anzeigeneinheiten und Segmenten für die Überschneidung auszuwählen. Sie können jeweils maximal 100 Elemente auswählen.
 
-Use the **Day Range** and **Date Through** controls to adjust your look-back range. Beachten Sie, dass der 7-Tage- und 30-Tage-Suchzeitraum nur für Sonntag verfügbar sind.
+Passen Sie den **Rückblickbereich** mit den Steuerelementen **"Zeitraum bis** Ende"an. Beachten Sie, dass die 7- und 30-Tage-Rückblickzeit nur für Sonntagsdaten verfügbar ist.
 
-Use the **[!UICONTROL Segment Name]** and the **[!UICONTROL Ad Unit]** boxes to filter any of segments and ad units.
+Verwenden Sie die **[!UICONTROL Segment Name]** und die **[!UICONTROL Ad Unit]** Kästchen, um beliebige Segmente und Anzeigeneinheiten zu filtern.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
+>Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs]angeben, wie in Schritt 3 des [Imports von DFP-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Ad Unit] anstelle der [!UICONTROL Ad Unit ID]Eigenschaft detailliert beschreibt.
 
-## Interpreting the Results {#interpreting-results}
+## Interpretieren der Ergebnisse {#interpreting-results}
 
-Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the one below. Bewegen Sie den Mauszeiger über eine Zelle, um weitere Informationen zu dieser Überlappung abzurufen. Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
+Ihr [!UICONTROL Segment to Ad Unit Overlap] Bericht könnte dem unten stehenden ähneln. Bewegen Sie den Mauszeiger über eine Zelle, um weitere Informationen zu dieser Überschneidung zu erhalten. Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
 ![](assets/publisher_segment_ad_unit_overlap.png)
 
@@ -47,23 +47,23 @@ Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the on
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Anzeigeneinheit </span> </p> </td> 
-   <td colname="col2"> <p>Der Name Ihres Bestandselements. Dies kann zum Beispiel einer der Websites oder einen Artikel auf Ihrer Website sein. </p> </td> 
+   <td colname="col2"> <p>Der Name Ihres Bestandteils. Dies kann beispielsweise eine Ihrer Websites oder ein Artikel auf Ihrer Website sein. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segmentechtzeit-Unique Time Anzahl</span> </p> </td> 
-   <td colname="col2"> <p>The number of unique visitors seen in real-time for the specified time range and who were qualified for the segment at the moment they were seen by <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Segmentanzahl individueller Echtzeit</span> </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Unique Visitors, die in Echtzeit im angegebenen Zeitraum gesehen wurden und die zum Zeitpunkt der Anzeige durch <span class="keyword"> Audience Manager</span>für das Segment qualifiziert waren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Anzeigeneinheit Individuelle Werte</span> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl Ihrer Besucher für diese spezifische Anzeigeneinheit. Diese Informationen werden aus den DFP-Protokollen extrahiert. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Anzahl individueller Anzeigeneinheiten</span> </p> </td> 
+   <td colname="col2"> <p>Die Anzahl Ihrer Besucher für diese bestimmte Anzeigeneinheit. Diese Informationen werden aus den DFP-Protokollen extrahiert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Überlappende Uniques-Anzahl</span> </p> </td> 
-   <td colname="col2"> <p>Die Mitglieder Ihres Segments, die dem Anzeigeneinheitenelement offen gelegt wurden. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Anzahl individueller Überschneidungen</span> </p> </td> 
+   <td colname="col2"> <p>Die Mitglieder Ihres Segments, die dem Anzeigenstückelement ausgesetzt waren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Überlappungsprozentsatz</span> </p> </td> 
-   <td colname="col2"> <p>Die Überlappung zwischen Anzeigeneinheiten und Segmentpopulationen. This is the <span class="wintitle"> Overlap Uniques Count</span>, expressed as a percentage of the <span class="wintitle"> Segment Real Time Uniques</span>. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Überschneidungsprozentsatz</span> </p> </td> 
+   <td colname="col2"> <p>Die Überschneidung zwischen Anzeigen- und Segmentpopulationen. Dies ist die Anzahl<span class="wintitle">individueller </span> Überschneidungen, ausgedrückt als Prozentsatz der <span class="wintitle"> Segment-Echtzeit-Uniques</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
