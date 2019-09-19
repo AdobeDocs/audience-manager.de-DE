@@ -1,53 +1,53 @@
 ---
-description: Der Segmenttrendbericht gibt Daten zu Impressionen und Durchklickraten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück. Ein zugeordnetes Segment ist ein Segment, das Sie erstellen und an ein Ziel für das Targeting senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht an ein Ziel für das Targeting gesendet haben. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild darüber zu erhalten, wie sich Ihre Zielgruppen im Laufe der Zeit verhalten.
-seo-description: Der Segmenttrendbericht gibt Daten zu Impressionen und Durchklickraten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück. Ein zugeordnetes Segment ist ein Segment, das Sie erstellen und an ein Ziel für das Targeting senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht an ein Ziel für das Targeting gesendet haben. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild darüber zu erhalten, wie sich Ihre Zielgruppen im Laufe der Zeit verhalten.
-seo-title: Segmenttrendbericht
+description: Der Segmenttrend-Bericht gibt Daten zu Impressionen und Clickthrough-Raten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild davon zu erhalten, wie sich Ihre Zielgruppen im Laufe der Zeit verhalten.
+seo-description: Der Segmenttrend-Bericht gibt Daten zu Impressionen und Clickthrough-Raten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild davon zu erhalten, wie sich Ihre Zielgruppen im Laufe der Zeit verhalten.
+seo-title: Segmenttrend-Bericht
 solution: Audience Manager
-title: Segmenttrendbericht
-uuid: f 84 e 8 d 0 a -74 e 5-430 c-b 61 c-efb 696 faee 93
+title: Segmenttrend-Bericht
+uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Segment Trend Report{#segment-trend-report}
+# Segmenttrend-Bericht{#segment-trend-report}
 
-Der Segmenttrendbericht gibt Daten zu Impressionen und Durchklickraten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück.
+Der Segmenttrend-Bericht gibt Daten zu Impressionen und Clickthrough-Raten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück.
 
-Ein zugeordnetes Segment ist ein Segment, das Sie erstellen und an ein Ziel für das Targeting senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht an ein Ziel für das Targeting gesendet haben.
+Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde.
 
-Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild darüber zu erhalten, wie sich Ihre Zielgruppen im Laufe der Zeit verhalten.
+Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild davon zu erhalten, wie sich Ihre Zielgruppen im Laufe der Zeit verhalten.
 
 ## Nutzungsszenario {#use-cases}
 
-Use the [!UICONTROL Segment Trend] report to validate a segment's performance over time and to pinpoint trends based on strong performance or scale.
+Verwenden Sie den [!UICONTROL Segment Trend] Bericht, um die Leistung eines Segments im Zeitverlauf zu validieren und Trends basierend auf leistungsstarker oder skalierbarer Leistung zu bestimmen.
 
-Mit diesem Bericht können Sie erkennen, welche Ihrer Webeigenschaften eine falsche oder fehlerhafte Steigerung und Fehlerbehebung zeigen. This report is the next step after you identify your audience of interest in the [!UICONTROL Segment Performance] report, to ensure that the strong or poor performance you saw in the [!UICONTROL Segment Performance] tab is consistent over time.
+Mit diesem Bericht können Sie erkennen, welche Ihrer Webeigenschaften eine Abweichung oder fehlerhafte Erhöhung aufweisen, und bei Bedarf eine Fehlerbehebung durchführen. Dieser Bericht ist der nächste Schritt, nachdem Sie Ihre Zielgruppe identifiziert haben, die für den [!UICONTROL Segment Performance] Bericht von Interesse ist, um sicherzustellen, dass die starke oder schlechte Leistung, die Sie auf der Registerkarte gesehen haben, im Laufe der Zeit konsistent ist [!UICONTROL Segment Performance] .
 
-## Using the Segment Trend Report {#using-the-report}
+## Verwenden des Segmenttrend-Berichts {#using-the-report}
 
-Toggle between **[!UICONTROL Mapped]** and **[!UICONTROL Unmapped]** to select segments that are mapped to a destination or not. Select **[!UICONTROL All]** to include all your segments in the report.
+Wechsel zwischen Segmenten **[!UICONTROL Mapped]** und **[!UICONTROL Unmapped]** zur Auswahl, die einem Ziel zugeordnet sind oder nicht. Wählen Sie **[!UICONTROL All]** diese Option, um alle Segmente in den Bericht einzubeziehen.
 
-Adjust the look-back window with the **[!UICONTROL Date Through]** slider.
+Passen Sie das Lookback-Fenster mit dem **[!UICONTROL Date Through]** Schieberegler an.
 
-Click any of the segments under the **[!UICONTROL Date Through]** slider to bring up the option to keep only that segment in the report or exclude it.
+Klicken Sie auf eines der Segmente unter dem **[!UICONTROL Date Through]** Schieberegler, um die Option aufzurufen, um nur dieses Segment im Bericht zu belassen oder auszuschließen.
 
-Use the **[!UICONTROL Line Item]** drop-down box to select the properties in your portfolio for which you want to return information.
+Verwenden Sie das **[!UICONTROL Line Item]** Dropdownfeld, um die Eigenschaften in Ihrem Portfolio auszuwählen, für die Sie Informationen zurückgeben möchten.
 
-In the **[!UICONTROL Segment Data Source]** drop-down box, select the data sources containing the segments you want to see in the report.
+Wählen Sie im **[!UICONTROL Segment Data Source]** Dropdownfeld die Datenquellen mit den Segmenten aus, die Sie im Bericht sehen möchten.
 
-Use the **[!UICONTROL Segment]** drop-down box to select which segments you want to see in the report.
+Verwenden Sie das **[!UICONTROL Segment]** Dropdownfeld, um auszuwählen, welche Segmente Sie im Bericht sehen möchten.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item] IDs, as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item] ID.
+>Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Line Item] IDs einschließen, wie in Schritt 3 des [Imports von DFP-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass die Webeigenschaft im Bericht [!UICONTROL Line Item] anstelle der [!UICONTROL Line Item] ID detailliert beschrieben wird.
 
-## Interpreting the Results {#interpreting-results}
+## Interpretieren der Ergebnisse {#interpreting-results}
 
-The [!UICONTROL Segment Trend] report returns data in a line graph for a 14-day interval only. In diesem Beispiel zeigt der Bericht Impressionen und Durchklicktrends für eine Gruppe zugeordneter und nicht zugeordneter Segmente.
+Der [!UICONTROL Segment Trend] Bericht gibt Daten in einem Liniendiagramm nur für einen Zeitraum von 14 Tagen zurück. In diesem Beispiel zeigt der Bericht Impressions- und Clickthrough-Trends für eine Reihe von zugeordneten und nicht zugeordneten Segmenten an.
 
-Bewegen Sie den Mauszeiger über eine Zeile, um weitere Informationen zu diesem bestimmten Segmenttrend abzurufen. Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
+Bewegen Sie den Mauszeiger über eine Zeile, um weitere Informationen zu diesem bestimmten Segmenttrend zu erhalten. Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
 ![](assets/publisher_segment_trend.png)
 
@@ -68,23 +68,23 @@ Bewegen Sie den Mauszeiger über eine Zeile, um weitere Informationen zu diesem 
    <td colname="col2"> <p>Die eindeutige ID dieses Segments. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Zeileneintrag</span> </p> </td> 
-   <td colname="col2"> <p>Die Webeigenschaft, für die dieser Bericht angezeigt wird. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Linienelement</span> </p> </td> 
+   <td colname="col2"> <p>Die Webeigenschaft, für die Sie diesen Bericht sehen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Klicks</span> </p> </td> 
-   <td colname="col2"> <p>Die Frequenz, mit der Mitglieder dieser Eigenschaft auf Elemente in Ihrer Webeigenschaft geklickt haben. </p> </td> 
+   <td colname="col2"> <p>Die Häufigkeit, mit der Mitglieder dieser Eigenschaft auf Elemente in Ihrer Webeigenschaft geklickt haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Eindrücke</span> </p> </td> 
-   <td colname="col2"> <p>Die Häufigkeit, mit der Mitglieder dieser Eigenschaft Ihren Bestand speichern. </p> </td> 
+   <td colname="col2"> <p>Die Häufigkeit, mit der Mitglieder dieser Eigenschaft Ihrem Bestand ausgesetzt wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> CTR</span> </p> </td> 
-   <td colname="col2"> <p>Clickthrough-Rate. Diese Metrik legt den Prozentsatz der Impressionen, gefolgt von Klicks, fest. Dividieren Sie Klicks durch Impressionen, um diese Metrik zu erhalten. </p> </td> 
+   <td colname="col2"> <p>Clickthrough-Rate. Diese Metrik gibt den Prozentsatz der Impressionen, gefolgt von Klicks, wieder. Unterteilen Sie Klicks nach Impressionen, um diese Metrik zu erhalten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segmentaufbau</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Segmentspezifische</span> </p> </td> 
    <td colname="col2"> <p>Die Anzahl der Segmentmitglieder innerhalb der letzten 30 Tage. </p> </td> 
   </tr> 
  </tbody> 
