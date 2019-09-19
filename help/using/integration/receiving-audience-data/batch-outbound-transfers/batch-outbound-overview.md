@@ -1,25 +1,25 @@
 ---
-description: Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter von Inhalten.
-seo-description: Adobe Audience Manager (AAM) sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter von Inhalten.
-seo-title: Batch-Ausgehende Datenübertragungen in Adobe Audience Manager (AAM)
-title: Batch-Ausgehende Datenübertragungen
+description: Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter für Inhalte.
+seo-description: Adobe Audience Manager (AAM) sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter für Inhalte.
+seo-title: Stapelausgehende Datenübertragungen in Adobe Audience Manager (AAM)
+title: Stapelausgehende Datenübertragungen
 translation-type: tm+mt
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 ---
 
 
-# Batch-Ausgehende Datenübertragungen
+# Stapelausgehende Datenübertragungen
 
-Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter von Inhalten.
+Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter für Inhalte.
 
-* [Ausgehender Datendateiname: Syntax und Beispiele](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+* [Name der ausgehenden Datendatei: Syntax und Beispiele](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
-   Beschreibt die erforderlichen Felder, Syntax und Konventionen zum Benennen einer ausgehenden Datendatei.
+   Beschreibt die erforderlichen Felder, die Syntax und die Konventionen, mit denen eine ausgehende Datendatei benannt wird.
 
-* [Übertragungssteuerdateien für Protokolldateiübertragungen](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
+* [Übertragungssteuerungsdateien für Protokolldateitransfers](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-   Die Dateien Transfer-Control (.info) liefern Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob die Datei von Audience Manager richtig verarbeitet wurde.
+   Transfer-Control-Dateien (.info) bieten Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
 
 * [Ausgehende Vorlagenmakros](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 
@@ -27,8 +27,8 @@ Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbie
 
 * [Beispiele für ausgehende Makros](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 
-   Beispiele für die Verwendung einiger gemeinsamer Makros zum Erstellen ausgehender Dateivorlagen.
+   Beispiele dafür, wie einige der gängigen Makros zum Erstellen von Vorlagen für ausgehende Dateien verwendet werden.
 
 * [Nutzen Sie die kontoübergreifenden Bucket-Zugriffsrechte von Amazon S3 für Ihre ausgehenden Dateien](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   Für Kunden, die mit Amazon Simple Storage Service (Amazon S 3) arbeiten, müssen wir nach Ihrem Amazon S 3-Zugriffsschlüssel und geheimen Schlüssel fragen, um die ausgehenden Datendateien an Ihren Behälter bereitzustellen.
+   Der Prozess zur Übertragung ausgehender Daten für Kunden, die Amazon Simple Storage Service (Amazon S3) verwenden, erfordert, dass wir Ihren Amazon S3-Zugriffsschlüssel und geheimen Schlüssel anfordern, um die ausgehenden Datendateien an Ihren Behälter zu liefern.
