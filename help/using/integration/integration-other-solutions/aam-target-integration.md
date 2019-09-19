@@ -1,25 +1,25 @@
 ---
 description: Mit dieser Integration können Sie Audience Manager-Segmente an Target senden.
 seo-description: Mit dieser Integration können Sie Audience Manager-Segmente an Target senden.
-seo-title: Integration von Audience Manager in Target
+seo-title: Audience Manager in Target integrieren
 solution: Audience Manager
-title: Integration von Audience Manager in Target
-uuid: c 5 ca 2101-99 fb -4178-9839-3 ec 5 b 605 c 040
+title: Audience Manager in Target integrieren
+uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 translation-type: tm+mt
 source-git-commit: b54146cdc2e60215c951bd6a1bed7a830400bfb7
 
 ---
 
 
-# Integrate Audience Manager With Target {#integrate-audience-manager-with-target}
+# Audience Manager in Target integrieren {#integrate-audience-manager-with-target}
 
-This integration lets you send Audience Manager segments to Adobe [!DNL Target].
+Mit dieser Integration können Sie Audience Manager-Segmente an Adobe senden [!DNL Target].
 
-An Audience Manager - [!DNL Target] integration requires:
+Audience Manager - [!DNL Target] Integration erfordert:
 
-* The [Experience Cloud service](https://marketing.adobe.com/resources/help/en_US/mcvid/). If you're not using this service, see the [implementation guides](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) to get started.
-* Profiles &amp; Audiences. If you're not provisioned for Profiles and Audiences, complete the form on the [Experience Cloud Integrations page](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) or contact your consultant to get started.
+* Der [Experience Cloud-Dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/). Wenn Sie diesen Dienst nicht verwenden, lesen Sie zunächst die [Implementierungshandbücher](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) .
+* Profiles &amp; Audiences. Wenn Sie nicht für Profile und Zielgruppen vorgesehen sind, füllen Sie das Formular auf der Seite " [Experience Cloud-Integrationen"aus](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) oder wenden Sie sich an Ihren Berater, um zu beginnen.
 
-All of your Audience Manager segments will appear in [!DNL Target] shortly after you complete these steps in the implementation process. Look in **[!UICONTROL Audiences > Audience List]** to see your Audience Manager segments in [!DNL Target].
+Alle Ihre Audience Manager-Segmente werden in angezeigt, [!DNL Target] sobald Sie diese Schritte im Implementierungsprozess abgeschlossen haben. Sehen Sie **[!UICONTROL Audiences > Audience List]** sich Ihre Audience Manager-Segmente an [!DNL Target].
 
 ![](../assets/target.png)
