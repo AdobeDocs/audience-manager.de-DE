@@ -1,25 +1,25 @@
 ---
-description: REST-API-Methoden zur Verwaltung von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
-seo-description: REST-API-Methoden zur Verwaltung von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
-seo-title: Gruppenverwaltungs-API-Methoden
+description: REST-API-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
+seo-description: REST-API-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
+seo-title: API-Methoden für Gruppenverwaltung
 solution: Audience Manager
-title: Gruppenverwaltungs-API-Methoden
-uuid: fe 042 eb 5-ea 12-42 fe-be 98-d 721 f 987 a 914
+title: API-Methoden für Gruppenverwaltung
+uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Group Management API Methods {#group-management-api-methods}
+# API-Methoden für Gruppenverwaltung {#group-management-api-methods}
 
-Rest [!DNL API] methods to manage groups, including creating, updating, listing, deleting groups.
+Die übrigen [!DNL API] Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Eine Gruppe erstellen {#create-group}
 
-`POST` Eine Methode zum Erstellen einer neuen Benutzergruppe.
+Eine `POST` Methode zum Erstellen einer neuen Benutzergruppe.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -27,7 +27,7 @@ Rest [!DNL API] methods to manage groups, including creating, updating, listing,
 
 `POST /api/v1/groups/`
 
-### Beispielanforderungskörper
+### Stichprobenanforderungskörper
 
 ```
  {
@@ -50,9 +50,9 @@ Rest [!DNL API] methods to manage groups, including creating, updating, listing,
   }
 ```
 
-## Update a Group {#update-group}
+## Eine Gruppe aktualisieren {#update-group}
 
-`PUT` Eine Methode zum Aktualisieren einer Benutzergruppe.
+Eine `PUT` Methode zum Aktualisieren einer Benutzergruppe.
 
 <!--
 r_rest_api_group_update.xml
@@ -62,7 +62,7 @@ r_rest_api_group_update.xml
 
 `PUT /api/v1/groups/`*`<groupId>`*
 
-### Beispielanforderungskörper
+### Stichprobenanforderungskörper
 
 ```
  {
@@ -85,9 +85,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## List Groups {#list-groups}
+## Listengruppen {#list-groups}
 
-`GET` Eine Methode zum Auflisten von Benutzergruppen.
+Eine `GET` Methode zur Auflistung von Benutzergruppen.
 
 <!--
 r_rest_api_group_list.xml
@@ -115,7 +115,7 @@ r_rest_api_group_list.xml
 
 ## Eine Gruppe löschen {#delete-groups}
 
-`DELETE` Eine Methode zum Löschen einer Benutzergruppe und zum Entfernen aller Mitglieder aus dieser Gruppe.
+Eine `DELETE` Methode zum Löschen einer Benutzergruppe und zum Entfernen aller Mitglieder aus dieser Gruppe.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -123,11 +123,11 @@ r_rest_api_group_list.xml
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
+Gibt `204 No Content` bei erfolgreicher Ausführung zurück. Im Falle eines Konflikts gibt es `409 Conflict`.
 
-## Delete Groups in Bulk {#delete-groups-bulk}
+## Gruppen stapelweise löschen {#delete-groups-bulk}
 
-A `DELETE` method to delete multiple groups in bulk and remove all members from that group.
+Eine `DELETE` Methode, mit der mehrere Gruppen stapelweise gelöscht und alle Mitglieder aus dieser Gruppe entfernt werden können.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -135,11 +135,11 @@ A `DELETE` method to delete multiple groups in bulk and remove all members from 
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
+Gibt `204 No Content` bei erfolgreicher Ausführung zurück. Im Falle eines Konflikts gibt es `409 Conflict`.
 
-## List All Permissions for a Group {#list-permissions-group}
+## Alle Berechtigungen für eine Gruppe auflisten {#list-permissions-group}
 
-`GET` Eine Methode zur Liste der Berechtigungsobjekte einer Gruppe.
+Eine `GET` Methode zum Auflisten der Berechtigungsobjekte in einer Gruppe.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -169,11 +169,11 @@ Returns `204 No Content` if successful. In case of conflict returns `409 Conflic
 ]
 ```
 
-Returns `400 Bad Request` if the group is inaccessible.
+Gibt zurück, `400 Bad Request` wenn auf die Gruppe nicht zugegriffen werden kann.
 
 ## Set Permissions for a Group {#set-permissions-group}
 
-`PUT` Eine Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode überschreibt die alten Berechtigungen mit den neuen Berechtigungen.
+Eine `PUT` Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode überschreibt die alten Berechtigungen mit den neuen Berechtigungen.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -206,4 +206,4 @@ Returns `400 Bad Request` if the group is inaccessible.
 
 Die Beispielantwort stellt die aktualisierte Liste der Berechtigungsobjekte dar.
 
-Returns `200 OK` if successful. Returns `400` if any given permission is invalid. Can also return `403` if the object is not accessible by the logged-in user.
+Gibt `200 OK` bei erfolgreicher Ausführung zurück. Gibt zurück, `400` wenn eine angegebene Berechtigung ungültig ist. Kann auch zurückgegeben werden, `403` wenn der angemeldete Benutzer nicht auf das Objekt zugreifen kann.
