@@ -1,41 +1,41 @@
 ---
-description: Der Besucher-Authentifizierungsstatus in Audience Manager bestimmt, ob die neuen Eigenschaften in das authentifizierte Profil des Besuchers geschrieben werden oder ob die Daten vom Geräteprofil erfasst wurden. Audience Manager verarbeitet die Besucher-ID-Authentifizierungsstatus UNBEKANNT und PROTOKOLLIERT_ OUT in Ereignisaufrufen auf die gleiche Weise.
+description: Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschafteninformationen in das authentifizierte Profil des Besuchers oder in das Geräteprofil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Authentifizierungsstatus UNKNOWN und LOGGED_OUT für Besucher-IDs auf die gleiche Weise.
 keywords: dpm.demdex.net
-seo-description: Der Besucher-Authentifizierungsstatus in Audience Manager bestimmt, ob die neuen Eigenschaften in das authentifizierte Profil des Besuchers geschrieben werden oder ob die Daten vom Geräteprofil erfasst wurden. Audience Manager verarbeitet die Besucher-ID-Authentifizierungsstatus UNBEKANNT und PROTOKOLLIERT_ OUT in Ereignisaufrufen auf die gleiche Weise.
-seo-title: Besucher-Authentifizierungsstatus in Audience Manager
+seo-description: Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschafteninformationen in das authentifizierte Profil des Besuchers oder in das Geräteprofil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Authentifizierungsstatus UNKNOWN und LOGGED_OUT für Besucher-IDs auf die gleiche Weise.
+seo-title: Authentifizierungsstatus von Besuchern in Audience Manager
 solution: Audience Manager
-title: Besucher-Authentifizierungsstatus in Audience Manager
-uuid: d 748 c 0 c 3-5833-4 fb 9-ab 3 e -793 f 5 f 252 e 47
+title: Authentifizierungsstatus von Besuchern in Audience Manager
+uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Visitor Authentication States in Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Authentifizierungsstatus von Besuchern in Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-Der Besucher-Authentifizierungsstatus in Audience Manager bestimmt, ob die neuen Eigenschaften in das authentifizierte Profil des Besuchers geschrieben werden oder ob die Daten vom Geräteprofil erfasst wurden. Audience Manager verarbeitet die Besucher-ID-Authentifizierungsstatus UNBEKANNT und PROTOKOLLIERT_ OUT in Ereignisaufrufen auf die gleiche Weise.
+Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschafteninformationen in das authentifizierte Profil des Besuchers oder in das Geräteprofil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Authentifizierungsstatus UNKNOWN und LOGGED_OUT für Besucher-IDs auf die gleiche Weise.
 
-Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` method includes the optional `AuthState` object. `AuthState` identifiziert Besucher gemäß ihrem [Authentifizierungsstatus](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] verarbeitet die neu gestalteten Eigenschaften je nach dem Authentifizierungsstatus, der im Aufruf übergeben wird, und der [Profilzusammenführung, die](../features/profile-merge-rules/merge-rules-dashboard.md) Sie für die Segmentierung verwenden.
+Ab [!DNL Experience Cloud] ID-Dienst Version 1.5 enthält die `setCustomerID` Methode das optionale `AuthState` Objekt. `AuthState` identifiziert Besucher gemäß ihrem [Authentifizierungsstatus](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nach Authentifizierungsstatus, der im Aufruf übergeben wird, und der [Profilzusammenführungsregel](../features/profile-merge-rules/merge-rules-dashboard.md) , die Sie für die Segmentierung verwenden.
 
-## Authentication Status: UNKNOWN {#auth-status-unknown}
+## Authentifizierungsstatus: UNBEKANNT {#auth-status-unknown}
 
 <table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informationen</b> aus dem authentifizierten Profil lesen </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Neue</b> Eigenschaften in das authentifizierte Profil schreiben </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Ja, wenn die Option "Authentifizierte Optionen zusammenführen" =" Zuletzt authentifizierte Profile" . </p> </td> 
-   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftsdaten werden dem Geräteprofil hinzugefügt. </p> </td> 
+   <td colname="col2"> <p>Ja, wenn die Authentifizierungsoption Merge Rule = "Last Authenticated Profiles" (Zusammenführungsregel der letzten authentifizierten Profile) ist. </p> </td> 
+   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftendaten werden dem Geräteprofil hinzugefügt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Nein, wenn die Option "Authentifizierte Optionen zusammenführen" =" Zur Zeit authentifizierte Profile" oder "Kein Authentifizierungsprofil" . </p> </td> 
+   <td colname="col2"> <p>Nein, wenn die authentifizierte Option Merge Rule = "Current Authenticated Profiles" oder "No Authenticated Profile" (Kein authentifiziertes Profil). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,24 +44,24 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
-## Authentication Status: AUTHENTICATED {#auth-status-authenticated}
+## Authentifizierungsstatus: AUTHENTICATED {#auth-status-authenticated}
 
 <table id="table_956ABF96024744308F7773E1F96482B7"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informationen</b> aus dem authentifizierten Profil lesen </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Neue</b> Eigenschaften in das authentifizierte Profil schreiben </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Ja, wenn die Option "Authentifizierte Optionen zusammenführen" =" Zur Zeit authentifizierte Profile" oder "Zuletzt authentifizierte Profile" . </p> </td> 
-   <td colname="col3" morerows="1"> <p>Ja, die Eigenschaftsdaten werden dem authentifizierten Profil hinzugefügt. </p> </td> 
+   <td colname="col2"> <p>Ja, wenn die Authentifizierungsoption Merge Rule = "Current Authenticated Profiles"oder "Last Authenticated Profiles"(Letzte authentifizierte Profile) ist. </p> </td> 
+   <td colname="col3" morerows="1"> <p>Ja, die Eigenschaftendaten werden dem authentifizierten Profil hinzugefügt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Nein, wenn die Option "Authentifizierte Option" =" Kein Authentifizierungsprofil" . </p> </td> 
+   <td colname="col2"> <p>Nein, wenn die Authentifizierungsoption Merge Rule = "No Authenticated Profile"(Kein authentifiziertes Profil). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,24 +70,24 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%011&d_sid=123456`
 
-## Authentication Status: LOGGED_OUT {#auth-status-logged-out}
+## Authentifizierungsstatus: LOGGED_OUT {#auth-status-logged-out}
 
 <table id="table_783F0CBB0431482AA49F41468FA65B19"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informationen</b> aus dem authentifizierten Profil lesen </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Neue</b> Eigenschaften in das authentifizierte Profil schreiben </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code>2</code> </p> </td> 
-   <td colname="col2"> Ja, wenn die Option "Authentifizierte Optionen zusammenführen" =" Zuletzt authentifizierte Profile « </td> 
-   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftsdaten werden in das Geräteprofil geschrieben. </p> </td> 
+   <td colname="col2"> Ja, wenn die Merge-Regel für die authentifizierte Option = "Letzte authentifizierte Profile" </td> 
+   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftendaten werden in das Geräteprofil geschrieben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> Nein, wenn die Option "Authentifizierte Optionen zusammenführen" =" Zur Zeit authentifizierte Profile" oder "Kein Authentifizierungsprofil « </td> 
+   <td colname="col2"> Nein, wenn die Merge-Regel für die authentifizierte Option = "Aktuelle authentifizierte Profile"oder "Kein authentifiziertes Profil" </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 >
 >[!DNL Audience Manager] führt in allen drei Fällen eine ID-Synchronisierung zwischen [CID und UUID](../reference/ids-in-aam.md) durch.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Kunden-IDs und Authentifizierungsstatus](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
 
