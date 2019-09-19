@@ -1,25 +1,25 @@
 ---
-description: Weitere Informationen zum Anfordern einer DCS-Antwort in einem /event. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
-seo-description: Weitere Informationen zum Anfordern einer DCS-Antwort in einem /event. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
-seo-title: Daten aus dem DCS empfangen
+description: Weitere Informationen zum Anfordern einer DCS-Antwort in einem /event-Aufruf finden Sie hier. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
+seo-description: Weitere Informationen zum Anfordern einer DCS-Antwort in einem /event-Aufruf finden Sie hier. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
+seo-title: Daten vom DCS empfangen
 solution: Audience Manager
-title: Daten aus dem DCS empfangen
-uuid: fbb 77197-8530-48 a 8-b 708-d 785 f 7214494
+title: Daten vom DCS empfangen
+uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
 source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
 
-# Daten aus dem DCS empfangen {#receive-data-from-the-dcs}
+# Daten vom DCS empfangen {#receive-data-from-the-dcs}
 
-Hier erfahren Sie, wie Sie eine [!UICONTROL DCS] Antwort in einem `/event` Aufruf anfordern. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
+Weitere Informationen zum Anfordern einer [!UICONTROL DCS] Antwort in einem `/event` Aufruf finden Sie hier. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
 
-Lesen Sie dazu die Option Daten an das DCS [senden](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
+Bevor Sie diesen Inhalt überprüfen, lesen Sie [Daten an den DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)senden.
 
 ## DCS-Antwortparameter: Eine Überprüfung {#dcs-response-parameters}
 
-Ihre [!UICONTROL DCS] Anforderung muss enthalten `d_rtbd=json` sein, wenn Sie eine Antwort von der [!UICONTROL DCS] Wenn [!UICONTROL DCS] Sie diesen Parameter weglassen, werden keine Daten zurückgegeben. Ein grundlegender Aufruf an [!UICONTROL DCS] die Anforderungsdaten verwendet diese Syntax:
+Ihre [!UICONTROL DCS] Anforderung muss enthalten sein, `d_rtbd=json` wenn Sie eine Antwort von der erhalten möchten [!UICONTROL DCS]. Wenn Sie diesen Parameter weglassen, [!UICONTROL DCS] werden keine Daten zurückgegeben. Ein einfacher Aufruf an die [!UICONTROL DCS] zum Anfordern von Daten verwendet folgende Syntax:
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -27,11 +27,11 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## Beispielantwort {#sample-response}
 
-Beachten Sie, dass der fiktive Unternehmen diesen Aufruf aus den [Daten Senden an die DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) -Dokumentation [!DNL Acme, Inc.] sendet:
+Denken Sie daran, dass das fiktive Unternehmen von der Dokumentation [Daten an den DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) senden folgenden Aufruf [!DNL Acme, Inc.] durchgeführt hat:
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
-Da dieser Aufruf den erforderlichen Antwortparameter enthält, wird das [!UICONTROL DCS] im Folgenden aufgeführte [!DNL JSON] Objekt zurückgesendet. Sie sind möglicherweise ähnlich oder komplexer.
+Da dieser Aufruf den erforderlichen Antwortparameter enthält, wird das [!UICONTROL DCS] unten dargestellte Objekt zurückgesendet [!DNL JSON] . Ihre mögen ähnlich oder komplexer sein.
 
 ```js
 {
@@ -44,24 +44,24 @@ Da dieser Aufruf den erforderlichen Antwortparameter enthält, wird das [!UICONT
 
 ## Antwortparameter {#response-parameters}
 
-In der folgenden Tabelle werden die allgemeineren Parameter aufgelistet und definiert, die in einer Antwort von der Antwort angezeigt [!UICONTROL DCS]werden. Dies gilt für Ereignisaufrufe oder andere [!UICONTROL DCS][!DNL API] Abfragen, die Daten zurückgeben.
+Die unten stehende Tabelle listet die gebräuchlichsten Parameter auf, die Sie in einer Antwort aus dem [!UICONTROL DCS]Abschnitt sehen können. Dies gilt für Ereignisaufrufe oder andere [!UICONTROL DCS] [!DNL API] Abfragen, die Daten zurückgeben.
 
 | Parameter | Beschreibung |
 |--- |--- |
-| `c` | Eine URL, die als [URL-Ziel festgelegt](../../../features/destinations/create-url-destination.md)wurde. |
-| `cn` | Der Name oder die ID, die im Cookie-Namensfeld eines [Cookie-Ziels festgelegt](../../../features/destinations/create-cookie-destination.md)ist. |
-| `cv` | Die Werte, die an das durch den "cn" definierte Ziel gesendet werden: Parameter "destinatonname" . |
-| `dcs_region` | Die [Server-to-Server-DCS-Aufrufe](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
-| `dests` | Dieses Objekt enthält Informationen für alle URL-Ziele, die in der Benutzeroberfläche konfiguriert sind. Die Liste dieses Objekts basiert auf den Aktionen des Benutzers. |
-| `dmn` | Diese Domäne wird im Feld Cookie-Domäne für ein Cookie-Ziel angegeben. Siehe [Optionale Einstellungen für Cookie-Ziele](../../../features/destinations/cookie-destination-options.md). Für Serverintegrationen mit Server empfehlen wir die Verwendung einer Domäne wie `aam-api.com`z. B. |
+| `c` | Eine URL, die als [URL-Ziel](../../../features/destinations/create-url-destination.md)festgelegt wurde. |
+| `cn` | Der Name oder die ID, die im Feld "Cookie-Name"eines [Cookie-Ziels](../../../features/destinations/create-cookie-destination.md)festgelegt wird. |
+| `cv` | Die Werte, die an das Ziel gesendet werden, definiert durch den Parameter "cn":"Zielname". |
+| `dcs_region` | Die [Server-zu-Server-DCS-Aufrufe](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
+| `dests` | Dieses Objekt enthält Informationen zu allen URL-Zielen, die in der Benutzeroberfläche konfiguriert sind. Die Liste dieses Objekts ist basierend auf den Aktionen des Benutzers dynamisch. |
+| `dmn` | Dies ist die Domäne, die im Feld "Cookie-Domäne"für ein Cookie-Ziel angegeben wird. Siehe [Optionale Einstellungen für Cookie-Ziele](../../../features/destinations/cookie-destination-options.md).  Für Server-zu-Server-Integrationen empfehlen wir die Verwendung einer Domäne wie `aam-api.com`. |
 | `e` | Die sichere URL, die in einem URL-Ziel festgelegt wurde. |
-| `stuff` | Dieses Objekt enthält Informationen für alle Cookie-Ziele. Die Liste dieses Objekts basiert auf den Aktionen des Benutzers. |
-| `tid` | Transaktions-ID, die eine eindeutige 12 Zeichen-ID für Debugging-Zwecke ist. Jeder /event Aufruf an den DCS erhält eine Tid, die Sie in Support-Erfragen für eine bessere und schnellere Antwort referenzieren können. |
-| `ttl` | Der Wert für die Dauer des Cookies in Tagen. |
-| `u` und `uuid` | Eindeutige Benutzer-ID von Audience Manager zugewiesen. Dies ist erforderlich, wenn [Sie Server-zu-Server-DCS-Aufrufe vornehmen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
-| `y` | Zieltyp, iframe (`iframe`) oder Bild (`img`). |
+| `stuff` | Dieses Objekt enthält Informationen zu allen Cookie-Zielen. Die Liste dieses Objekts ist basierend auf den Aktionen des Benutzers dynamisch. |
+| `tid` | Transaktions-ID, eine eindeutige 12-Zeichen-ID, die zum Debugging verwendet wird. Jeder /event-Aufruf an den DCS erhält eine Meldung, die Sie bei Supportanfragen für eine bessere und schnellere Antwort lesen können. |
+| `ttl` | Der Wert für die Cookie-Zeit bis zur Live-Übertragung in Tagen. |
+| `u` und `uuid` | Vom Audience Manager zugewiesene eindeutige Benutzer-ID. Dies ist erforderlich, wenn Sie DCS- [Aufrufe](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)von Server zu Server ausführen. |
+| `y` | Zieltyp, iFrame (`iframe`) oder Bild (`img`). |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Wichtige Wertpräfixe und vom DCS unterstützte Variablen](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [Präfixe und Variablen mit Schlüsselwerten, die vom DCS unterstützt werden](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
