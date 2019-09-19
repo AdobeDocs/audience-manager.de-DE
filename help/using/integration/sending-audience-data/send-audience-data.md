@@ -13,14 +13,14 @@ source-git-commit: 00ea159dff61de4b346d994a50b5dcfc2ccb8c89
 
 Senden Sie Zielgruppendaten aus anderen Quellen an Audience Manager.
 
-* [Echtzeit-Datenintegration in Echtzeit](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
+* [Integration von Inbound-Daten in Echtzeit](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-   Informationen zur Echtzeit-Audience Manager-Integration.
+   Informationen zur Integration von Echtzeit-Audience Manager.
 
-* [Batch-Datenübertragungsprozess beschrieben](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
+* [Stapeldatenübermittlungsprozess beschrieben](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
    Eine allgemeine Übersicht darüber, wie Audience Manager einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
 
-* [Benutzerspezifische Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+* [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
 
    Diese Seite enthält benutzerdefinierte Integrationen zwischen Audience Manager und Datenpartnern.
