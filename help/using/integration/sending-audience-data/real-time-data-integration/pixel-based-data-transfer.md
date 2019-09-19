@@ -1,37 +1,37 @@
 ---
-description: Einfache Pixel (die zum Qualifizieren von Benutzern für Eigenschaften verwendet werden können) führen Echtzeit-Datenübertragungen durch. Mit der Audience Manager-Oberfläche können Clients eine beliebige Anzahl von Pixeln selbstständig erstellen. Pixelzeichenfolgen bestehen aus einfachen IDs oder Schlüsselwertpaaren.
-seo-description: Einfache Pixel (die zum Qualifizieren von Benutzern für Eigenschaften verwendet werden können) führen Echtzeit-Datenübertragungen durch. Mit der Audience Manager-Oberfläche können Clients eine beliebige Anzahl von Pixeln selbstständig erstellen. Pixelzeichenfolgen bestehen aus einfachen IDs oder Schlüsselwertpaaren.
-seo-title: Pixelbasierte Datenübertragungen
+description: Einfache Pixel (die zur Qualifizierung von Benutzern für Eigenschaften verwendet werden können) führen Datenübertragungen in Echtzeit durch. Über die Audience Manager-Oberfläche können Clients eine beliebige Anzahl Pixel auf Selbstbedienungsbasis erstellen. Pixelzeichenfolgen bestehen aus einfachen IDs oder Schlüssel/Wert-Paaren.
+seo-description: Einfache Pixel (die zur Qualifizierung von Benutzern für Eigenschaften verwendet werden können) führen Datenübertragungen in Echtzeit durch. Über die Audience Manager-Oberfläche können Clients eine beliebige Anzahl Pixel auf Selbstbedienungsbasis erstellen. Pixelzeichenfolgen bestehen aus einfachen IDs oder Schlüssel/Wert-Paaren.
+seo-title: Pixelbasierte Datenübertragung
 solution: Audience Manager
-title: Pixelbasierte Datenübertragungen
-uuid: 8773 bfc 0-6 b 8 d -4 a 6 a-a 8 b 7-e 043744486 ab
+title: Pixelbasierte Datenübertragung
+uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
 translation-type: tm+mt
 source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 
 ---
 
 
-# Pixel-based Data Transfers {#pixel-based-data-transfers}
+# Pixelbasierte Datenübertragung {#pixel-based-data-transfers}
 
-Einfache Pixel (die zum Qualifizieren von Benutzern für Eigenschaften verwendet werden können) führen Echtzeit-Datenübertragungen durch. Mit der Audience Manager-Oberfläche können Clients eine beliebige Anzahl von Pixeln selbstständig erstellen. Pixelzeichenfolgen bestehen aus einfachen IDs oder Schlüsselwertpaaren.
+Einfache Pixel (die zur Qualifizierung von Benutzern für Eigenschaften verwendet werden können) führen Datenübertragungen in Echtzeit durch. Über die Audience Manager-Oberfläche können Clients eine beliebige Anzahl Pixel auf Selbstbedienungsbasis erstellen. Pixelzeichenfolgen bestehen aus einfachen IDs oder Schlüssel/Wert-Paaren.
 
 <!-- c_rt_inbound_pixel_transfers.xml -->
 
-Um eingehende Datenübertragungen zu aktivieren, würde der Anbieter und Client:
+Um eingehende Datenübertragungen zu aktivieren, würden Anbieter und Client:
 
-1. Legen Sie fest, welche Eigenschaften der Anbieter oder Partner auslösen soll.
-1. Besorgen Sie sich das Pixel für die Eigenschaft. In the traits list screen, hover over the **[!UICONTROL Actions]** column and click the **[!UICONTROL Get trait URL]** symbol for the desired trait.
-1. Provide the [!DNL URL] to the vendor or partner.
+1. Bestimmen Sie, welche Eigenschaften vom Anbieter oder Partner ausgelöst werden sollen.
+1. Rufen Sie das Pixel für die Eigenschaft ab. Bewegen Sie den Mauszeiger im Bildschirm "Eigenschaften"über die **[!UICONTROL Actions]** Spalte und klicken Sie auf das **[!UICONTROL Get trait URL]** Symbol für die gewünschte Eigenschaft.
+1. Stellen Sie die [!DNL URL] Informationen dem Anbieter oder Partner zur Verfügung.
 
 ## Beispiele
 
-This basic event call sends trait ID 1234 to [!DNL Audience Manager].
+Dieser grundlegende Ereignisaufruf sendet die Eigenschaften-ID 1234 an [!DNL Audience Manager].
 
 ```
 https://something.demdex.net/event?d_sid=1234
 ```
 
-You can serialize trait IDs in an event call to help reduce `HTTP` traffic from the page. Fügen Sie zusätzliche Eigenschafts-IDs an die URL-Zeichenfolge hinzu, wie im folgenden Beispiel gezeigt:
+Sie können Eigenschaften-IDs in einem Ereignisaufruf serialisieren, um den `HTTP` Traffic von der Seite zu reduzieren. Fügen Sie der URL-Zeichenfolge wie im folgenden Beispiel zusätzliche Eigenschaften-IDs hinzu:
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432
