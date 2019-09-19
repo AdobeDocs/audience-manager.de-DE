@@ -1,17 +1,17 @@
 ---
 description: Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten können, an die Sie Daten senden möchten (nur für Cookie-Ziele).
 seo-description: Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten können, an die Sie Daten senden möchten (nur für Cookie-Ziele).
-seo-title: Domänenverwaltungs-API-Methoden
+seo-title: API-Methoden für Domänenverwaltung
 solution: Audience Manager
-title: Domänenverwaltungs-API-Methoden
-uuid: f 2 f 08 bc 5-ea 42-4171-9 a 43-0 b 20976 f 0 cb 0
+title: API-Methoden für Domänenverwaltung
+uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Domain Management API Methods {#domain-management-api-methods}
+# API-Methoden für Domänenverwaltung {#domain-management-api-methods}
 
 Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten können, an die Sie Daten senden möchten (nur für Cookie-Ziele).
 
@@ -19,7 +19,7 @@ Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten 
 
 ## Create a New Domain {#create-new-domain}
 
-`POST` Eine Methode, mit der Sie eine neue Domäne für (nur Cookie-Ziele) erstellen können.
+Eine `POST` Methode, mit der Sie eine neue Domäne für (nur Cookie-Ziele) erstellen können.
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -37,7 +37,7 @@ Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten 
 
 ### Antwort
 
-A successful response returns `201 created` and the partner site, including its unique ID.
+Eine erfolgreiche Antwort wird zurückgegeben `201 created` und die Partner-Site, einschließlich der eindeutigen ID.
 
 ```
 {
@@ -47,9 +47,9 @@ A successful response returns `201 created` and the partner site, including its 
 }
 ```
 
-## Delete a Domain {#delete-domain}
+## Eine Domäne löschen {#delete-domain}
 
-`DELETE` Eine Methode, mit der Sie eine Domäne entfernen können (nur für Cookie-Ziele).
+Eine `DELETE` Methode, mit der Sie eine Domäne entfernen können (nur für Cookie-Ziele).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -59,11 +59,11 @@ A successful response returns `201 created` and the partner site, including its 
 
 ### Antwort
 
-A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found.
+Eine erfolgreiche Antwort wird zurückgegeben `204 no content`. Gibt zurück, `404 not found` wenn die Partner-Site nicht gefunden werden kann.
 
-## Return Properties for a Domain {#return-props-domain}
+## Rückgabeeigenschaften für eine Domäne {#return-props-domain}
 
-`GET` Eine Methode, die Details über die angegebene Domäne zurückgibt (nur für Cookie-Ziele).
+Eine `GET` Methode, die Details zur angegebenen Domäne zurückgibt (nur für Cookie-Ziele).
 
 <!-- r_get_partner_site.xml -->
 
@@ -73,7 +73,7 @@ A successful response returns `204 no content`. Returns `404 not found` if the p
 
 ### Antwort
 
-A successful response returns `200 OK` and data as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
+Eine erfolgreiche Antwort gibt `200 OK` und Daten zurück, wie im Beispiel unten dargestellt. Gibt zurück, `404 Not found` wenn die Site-ID oder der Partner nicht gefunden wurde.
 
 ```
 {
@@ -83,9 +83,9 @@ A successful response returns `200 OK` and data as shown in the sample below. Re
 }
 ```
 
-## Return Properties for all Domains {#return-props-all-domains}
+## Rückgabeeigenschaften für alle Domänen {#return-props-all-domains}
 
-A `GET` method that returns information about all your domains (for cookie destinations only).
+Eine `GET` Methode, die Informationen über alle Ihre Domänen zurückgibt (nur für Cookie-Ziele).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -95,7 +95,7 @@ A `GET` method that returns information about all your domains (for cookie desti
 
 ### Optionale Abfrageparameter
 
-You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *alle* Eigenschaften eines Objekts zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an die [!DNL API]übergeben. Siehe [Optionale Parameter](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -107,30 +107,30 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td> 
-   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Nummerierung beginnt bei 0. </td> 
+   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Die Nummerierung beginnt bei 0. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code> Pagesize</code> </td> 
-   <td colname="col2"> Legt die Anzahl der von der Anforderung zurückgegebenen Antwortergebnisse fest (Standard: 10). </td>
+   <td colname="col1"><code> pageSize</code> </td> 
+   <td colname="col2"> Legt die Anzahl der Antwortergebnisse fest, die von der Anforderung zurückgegeben werden (10 ist standardmäßig). </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Sortby</code> </td> 
-   <td colname="col2"> Sortiert und gibt Ergebnisse gemäß der angegebenen JSON-Eigenschaft zurück. </td>
+   <td colname="col1"><code> sortBy</code> </td> 
+   <td colname="col2"> Sortiert Ergebnisse und gibt sie entsprechend der angegebenen JSON-Eigenschaft zurück. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> absteigend</code> </td>
-   <td colname="col2"> Sortiert die Ergebnisse in absteigender Reihenfolge und gibt sie zurück. Aufsteigend ist die Standardeinstellung. </td>
+   <td colname="col2"> Sortiert die Ergebnisse und gibt sie in absteigender Reihenfolge zurück. "Aufsteigend"ist die Standardeinstellung. </td>
   </tr>
   <tr valign="top">
-   <td colname="col1"><code> suchen</code> </td>
-   <td colname="col2">Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Angenommen, Sie möchten Ergebnisse für alle Modelle mit dem Wort "Test" in allen Wertfeldern für dieses Element suchen. Ihre Beispielanforderung könnte wie folgt aussehen: <p><code> ' GET '' https://api.demdex.com/v1/models/?search=Test '</code>. </p> <p>Sie können nach jedem Wert suchen, der von einer "get all" -Methode zurückgegeben wird. </p> </td>
+   <td colname="col1"><code> search</code> </td>
+   <td colname="col2">Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Nehmen wir beispielsweise an, Sie möchten Ergebnisse für alle Modelle suchen, die das Wort "Test"in einem der Wertefelder für dieses Element enthalten. Ihre Musteranforderung könnte wie folgt aussehen: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Sie können nach jedem Wert suchen, der von der Methode "get all"zurückgegeben wird. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### Antwort
 
-A successful response returns `200 OK` and data in an array as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
+Eine erfolgreiche Antwort wird zurückgegeben `200 OK` und Daten in einem Array, wie im Beispiel unten dargestellt. Gibt zurück, `404 Not found` wenn die Site-ID oder der Partner nicht gefunden wurde.
 
 ```
 [
