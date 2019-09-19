@@ -1,49 +1,49 @@
 ---
-description: Die nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch keine Mitglieder eines Segments sind, basierend auf Eigenschaften, Datenquelle und Leistung.
-seo-description: Die nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch keine Mitglieder eines Segments sind, basierend auf Eigenschaften, Datenquelle und Leistung.
-seo-title: Nicht verwendete Eigenschaften
+description: Die wichtigsten nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch nicht zu einem Segment gehören, basierend auf dem Eigenschaftstyp, der Datenquelle und der Leistung.
+seo-description: Die wichtigsten nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch nicht zu einem Segment gehören, basierend auf dem Eigenschaftstyp, der Datenquelle und der Leistung.
+seo-title: Häufigste nicht verwendete Eigenschaften
 solution: Audience Manager
-title: Nicht verwendete Eigenschaften
-uuid: 90 bcd 333-41 b 8-416 e-aa 4 e-a 6661891 df 50
+title: Häufigste nicht verwendete Eigenschaften
+uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Top Unused Traits{#top-unused-traits}
+# Häufigste nicht verwendete Eigenschaften{#top-unused-traits}
 
-Die nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch keine Mitglieder eines Segments sind, basierend auf Eigenschaften, Datenquelle und Leistung.
+Die wichtigsten nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch nicht zu einem Segment gehören, basierend auf dem Eigenschaftstyp, der Datenquelle und der Leistung.
 
 ## Nutzungsszenario {#use-cases}
 
-With the [!UICONTROL Top Unused Traits] report, you can analyze and compare the performance of first and third party traits that are currently not mapped to a segment. Diese Ansicht kann auf die besten Eigenschaften hinweisen, die in einem Zielgruppensegment für die Kampagnenoptimierung oder für neue neue Gelegenheiten verwendet werden.
+Mit dem [!UICONTROL Top Unused Traits] Bericht können Sie die Leistung von Erst- und Drittanbietereigenschaften analysieren und vergleichen, die derzeit keinem Segment zugeordnet sind. Diese Ansicht kann die besten Eigenschaften hervorheben, die in einem Zielgruppensegment zur Kampagnenoptimierung oder zu neuen Netto-Chancen verwendet werden.
 
-## Using the Top Unused Traits Report {#using-the-report}
+## Verwenden des Berichts zu den wichtigsten nicht verwendeten Eigenschaften {#using-the-report}
 
-Use the **[!UICONTROL Data Provider Type]** controls to toggle between first party and third party traits. Select **[!UICONTROL All]** to return first and third party traits in the report.
+Mit den **[!UICONTROL Data Provider Type]** Steuerelementen können Sie zwischen Eigenschaften von Erstanbietern und Drittanbietern umschalten. Wählen Sie **[!UICONTROL All]** die Option zum Zurückgeben von Erstanbieter- und Drittanbieter-Eigenschaften im Bericht.
 
-With the **[!UICONTROL Impressions]** slider, you can select a minimum and maximum value for returned impressions. Alle Eigenschaften, die für weniger oder mehr als die eingestellten Beschränkungen verantwortlich sind, werden nicht im Bericht angezeigt.
+Mit dem **[!UICONTROL Impressions]** Schieberegler können Sie einen minimalen und einen maximalen Wert für zurückgegebene Impressionen auswählen. Alle Eigenschaften, die für weniger oder mehr als die von Ihnen festgelegten Beschränkungen verantwortlich sind, werden nicht im Bericht angezeigt.
 
-Use the **[!UICONTROL Day Range]** and **[!UICONTROL Date Through]** controls to adjust your look-back range. Beachten Sie, dass für diesen Bericht nur der 30-Tage-Blickzeitraum zur Verfügung steht.
+Passen Sie den Rückblickbereich mit den Steuerelementen **[!UICONTROL Day Range]** und **[!UICONTROL Date Through]** Steuerelementen an. Beachten Sie, dass für diesen Bericht nur der 30-Tage-Rückblickzeitraum verfügbar ist.
 
-Use the **[!UICONTROL Order]** drop-down box to select the web properties in your portfolio for which you want to return information.
+Verwenden Sie das **[!UICONTROL Order]** Dropdownfeld, um die Webeigenschaften in Ihrem Portfolio auszuwählen, für die Sie Informationen zurückgeben möchten.
 
-In the **[!UICONTROL Data Provider]** drop-down box, select the data sources containing the traits you want to see in the report.
+Wählen Sie im **[!UICONTROL Data Provider]** Dropdownfeld die Datenquellen mit den Eigenschaften aus, die Sie im Bericht sehen möchten.
 
-Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to see in the report.
+Verwenden Sie das **[!UICONTROL Traits]** Dropdownfeld, um auszuwählen, welche Eigenschaften im Bericht angezeigt werden sollen.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
+>Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Order IDs]angeben, wie in Schritt 3 des [Imports von DFP-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Order] anstelle der [!UICONTROL Order ID]Eigenschaft detailliert beschreibt.
 
-## Interpreting the Results {#interpreting-results}
+## Interpretieren der Ergebnisse {#interpreting-results}
 
 **Beispielbericht**
 
-Your [!UICONTROL Top Unused Traits] report could look similar to the one below. Klicken Sie in Ihrem Bericht auf ein Punktdiagramm, um die zugrunde liegenden Daten anzuzeigen.
+Ihr [!UICONTROL Top Unused Traits] Bericht könnte dem unten stehenden ähneln. Klicken Sie in Ihrem Bericht auf eine Blase, um die zugrunde liegenden Daten anzuzeigen.
 
-Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
+Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
 ![](assets/publisher_unused_traits.png)
 
@@ -56,27 +56,27 @@ Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informat
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Datenprovider-Typ</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, ob die ausgewählte Datenquelle Erstanbieter- oder Drittanbieter-Eigenschaften enthält. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Datenanbietertyp</span> </p> </td> 
+   <td colname="col2"> <p>Gibt an, ob die ausgewählte Datenquelle Eigenschaften von Erstanbietern oder Drittanbietern enthält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Eigenschafts-ID</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Eigenschaften-ID</span> </p> </td> 
    <td colname="col2"> <p>Die eindeutige ID dieser Eigenschaft. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Eigenschaftsname</span> </p> </td> 
-   <td colname="col2"> <p>Der alphanumerische Name, den Sie oder der Datenprovider dieser Eigenschaft zugewiesen haben. </p> </td> 
+   <td colname="col2"> <p>Der alphanumerische Name, den Sie oder der Datenanbieter dieser Eigenschaft zugewiesen haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Bestellung</span> </p> </td> 
-   <td colname="col2"> <p>Die Webeigenschaft, für die dieser Bericht angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Die Webeigenschaft, für die Sie diesen Bericht sehen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Eindrücke</span> </p> </td> 
-   <td colname="col2"> <p>Die Häufigkeit, mit der Mitglieder dieser Eigenschaft Ihren Bestand speichern. </p> </td> 
+   <td colname="col2"> <p>Die Häufigkeit, mit der Mitglieder dieser Eigenschaft Ihrem Bestand ausgesetzt wurden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Trait Uniques</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Eigenschaften</span> </p> </td> 
    <td colname="col2"> <p>Die Anzahl der Eigenschaftsmitglieder innerhalb der letzten 30 Tage. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,31 +84,31 @@ Weitere Informationen finden Sie unter Beschreibungen der zusätzlichen Informat
 
 ![](assets/publisher_unused_traits_final.png)
 
-Die Position Ihrer Eigenschaften in einem Bericht kann Ihnen sehr viel darüber informieren, welche Eigenschaften Sie zur Optimierung vorhandener Zielgruppensegmente verwenden könnten.
+Die Position Ihrer Eigenschaften in einem Bericht kann Ihnen viele Informationen darüber liefern, welche Eigenschaften Sie zur Optimierung vorhandener Zielgruppensegmente verwenden können.
 
-Die Eigenschaften, die sich oben auf der Impressions-Achse befinden, sind diejenigen, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Zielgruppe auf Ihrer Webeigenschaft basierend auf Ihren DFP-Daten erreichen.
+Die Eigenschaften, die sich oberhalb der Impressionsachse befinden, sind die Eigenschaften, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Zielgruppe basierend auf Ihren DFP-Daten in Ihrer Webeigenschaft erreichen.
 
-Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
+Suchen Sie links auf der [!UICONTROL Unique Trait Realizations] Achse nach hochpräzisen Eigenschaften und rechts nach Eigenschaften, die die Skalierung fördern können.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Position </th> 
-   <th colname="col2" class="entry"> Platzierung zeigt an </th> 
+   <th colname="col2" class="entry"> Platzierungsangaben </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Oben links</b> </p> </td> 
-   <td colname="col2"> <p>Eine hohe Anzahl von Impressionen, niedrige Anzahl von Eigenschaften. </p> <p>Dies ist eine sehr genaue Zielgruppe, die noch kein Mitglied eines Segments ist. Erwägen Sie das Targeting. </p> </td> 
+   <td colname="col2"> <p>Hohe Anzahl von Impressionen, niedrige Anzahl von Eigenschaften. </p> <p>Dies ist eine hochgenaue Zielgruppe, die noch nicht Mitglied eines Segments ist. Erwägen Sie Targeting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unten links</b> </p> </td> 
-   <td colname="col2"> <p>Geringe Anzahl von Impressionen, niedrige Anzahl von Eigenschaften. </p> <p> Schließen Sie diese Eigenschaften ab, da die Mitglieder nicht zu Impressionen in Ihren Webeigenschaften beitragen. </p> </td> 
+   <td colname="col2"> <p>Geringe Anzahl von Impressionen, niedrige Anzahl von Eigenschaften. </p> <p> Schließen Sie diese Eigenschaften aus, da die Mitglieder nicht zu Impressionen in Ihren Webeigenschaften beitragen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Oben rechts</b> </p> </td> 
-   <td colname="col2"> <p>Eine hohe Anzahl von Impressionen, eine große Anzahl von Eigenschaften. </p> <p>Eine hohe Reichweite gegenüber einer Zielgruppe, die noch nicht in einem Segment angezeigt wird. Diese Zielgruppe ist ein primärer Kandidat für Targeting aufgrund der hohen Anzahl von Impressionen und der Skala. </p> </td> 
+   <td colname="col2"> <p>Hohe Anzahl von Impressionen, hohe Anzahl von Eigenschaften. </p> <p>Eine hohe Reichweite gegen eine Zielgruppe, die noch nicht in einem Segment gekennzeichnet ist. Diese Zielgruppe ist aufgrund der hohen Anzahl von Impressionen und der Größenordnung ein erstklassiger Kandidat für das Targeting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unten rechts</b> </p> </td> 
