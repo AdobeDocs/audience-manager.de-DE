@@ -4,7 +4,7 @@ seo-description: Eine optionale boolesche Konfiguration, die festlegt, ob DIL Da
 seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
-uuid: c 5362 a 38-93 c 0-4 edb-bdcb -106 e 43 f 33 a 92
+uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
@@ -19,7 +19,7 @@ Eine optionale boolesche Konfiguration, die festlegt, ob DIL Daten an die Adobe 
 
 To use `isCoopSafe` you must:
 
-* Use [!UICONTROL DIL] v6.11 or higher.
+* Verwenden Sie [!UICONTROL DIL] v6.11 oder höher.
 * Teilnahme an der [Experience Cloud-Gerätekooperation](https://marketing.adobe.com/resources/help/en_US/mcdc/). Zukünftige Mitglieder der Gerätekooperation sollten diese Dokumentation ebenfalls lesen, um festzustellen, ob `isCoopSafe` mögliche Fragen über die Verwendung der Daten zur Erstellung eines Gerätediagramms beantwortet.
 
 * Wenden Sie sich an Ihren [!DNL Adobe]-Berater, wenn Sie eine Whitelist- oder Blacklist-Kennzeichnung für Ihr Gerätekooperationskonto erstellen möchten. Es gibt keinen Selbstbedienungspfad, um diese Flags zu aktivieren.
@@ -63,7 +63,7 @@ Die booleschen Optionen bestimmen, ob Kundendaten von der Gerätekooperation ver
 
 **Codebeispiel**
 
-Legen Sie dies fest, wenn DIL instanziiert wird.
+Legen Sie dies fest, wenn DIL instanziiert.
 
 ```js
 var dilInstance = DIL.create({ 
@@ -113,11 +113,11 @@ Mit diesen APIs können Sie den Status von `isCoopSafe` überschreiben. Sie erm�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Dilinstance. api. setascoopsafe (); </code> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
    <td colname="col2"> <p>Legt den POST-Parameter <code>d_coop_safe=1</code> in allen nachfolgenden Ereignisaufrufen fest. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Dilinstance. api. setascoopunsafe (); </code> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
    <td colname="col2"> <p>Legt den POST-Parameter <code>d_coop_unsafe=1</code> in allen nachfolgenden Ereignisaufrufen fest. </p> </td> 
   </tr> 
  </tbody> 
