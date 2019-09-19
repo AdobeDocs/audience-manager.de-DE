@@ -3,18 +3,18 @@ description: Verwenden Sie logische Operatoren, um Schlüssel-Wert-Paare und Auf
 seo-description: Verwenden Sie logische Operatoren, um Schlüssel-Wert-Paare und Aufstockungseigenschaften zu gruppieren.
 seo-title: Unterstützte logische Operatoren
 title: Unterstützte logische Operatoren
-uuid: 645 fcb 6 f -50 ac -49 bc -8 df 9-c 699 c 749 cf 8 f
+uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 translation-type: tm+mt
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
 
 
-# Supported Logical Operators {#supported-logical-operators}
+# Unterstützte logische Operatoren {#supported-logical-operators}
 
 Verwenden Sie logische Operatoren, um Schlüssel-Wert-Paare und Aufstockungseigenschaften zu gruppieren.
 
-## Supported Operators for Signal Search {#supported-operators-search}
+## Unterstützte Operatoren für die Signalsuche {#supported-operators-search}
 
 Verwenden Sie die folgenden unterstützten logischen Operatoren, um nach Schlüssel/Wert-Paaren zu suchen:
 
@@ -30,12 +30,12 @@ Verwenden Sie die folgenden unterstützten logischen Operatoren, um nach Schlüs
 
 ### Benannte Operatoren
 
-| Operator | Evaluates to [!DNL True] When |
+| Operator | Wertet [!DNL True] wann aus |
 |---|---|
-| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
-| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
-| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
+| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* die von diesem Operator angegebenen Zeichen. |
+| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *beginnt mit* den von diesem Operator angegebenen Zeichen. |
+| **[!UICONTROL Endswith]** | Der Wert in einem Schlüssel-Wert-Paar *endet mit* den von diesem Operator angegebenen Zeichen. |
 
-## Supported Operators for Trait Backfilling and Estimation {#supported-operators-backfilling}
+## Unterstützte Operatoren für die Aufstockung und Schätzung von Eigenschaften {#supported-operators-backfilling}
 
-You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.
+Sie können Eigenschaften, die Ausdrücke enthalten, die eine der von unterstützten Operatoren enthalten, aufstocken [!UICONTROL Signal Search]. Zusätzlich zu diesen Operatoren unterstützen Eigenschafts-Aufstockungen und Schätzungen auch die [!UICONTROL AND]-, [!UICONTROL OR]- und [!UICONTROL AND NOT] -logischen Operatoren, die zum Kombinieren von Schlüsselwertpaaren in den hinterfüllten Eigenschaftsausdrücken verwendet werden.
