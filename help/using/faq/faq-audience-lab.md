@@ -1,20 +1,20 @@
 ---
-description: Häufig gestellte Fragen zur Funktion "Zielgruppe Lab" .
-seo-description: Häufig gestellte Fragen zur Funktion "Zielgruppe Lab" .
+description: Häufig gestellte Fragen zur Funktion "Audience Lab"
+seo-description: Häufig gestellte Fragen zur Funktion "Audience Lab"
 seo-title: Häufig gestellte Fragen zu Audience Lab
 solution: Audience Manager
 title: Häufig gestellte Fragen zu Audience Lab
 topic: DIL-API
-uuid: b 1 daf 99 d-af 60-4 f 65-987 d -794 a 6 d 45 d 566
+uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Audience Lab FAQ{#audience-lab-faq}
+# Häufig gestellte Fragen zu Audience Lab{#audience-lab-faq}
 
-Häufig gestellte Fragen zur Funktion "Zielgruppe Lab" .
+Häufig gestellte Fragen zur Funktion "Audience Lab"
 
 <!-- 
 
@@ -24,34 +24,34 @@ audience-lab-faq.xml
 
 <br> 
 
-**Verfügen die in den Testgruppen erstellten Testsegmente über verschiedene Segment-IDs? How do I map the IDs to different destinations?**
+**Haben die in den Testgruppen erstellten Testsegmente unterschiedliche Segment-IDs? Wie ordnen Sie die IDs verschiedenen Zielen zu?**
 
-Ja, die Testsegmente verfügen über verschiedene Segment-IDs. For destinations with [!UICONTROL Auto-fill Destination Mapping] or segments sent to [!DNL Google], [!UICONTROL Audience Lab] will handle the mapping values just like the destinations normally would.
+Ja, die Testsegmente haben unterschiedliche Segment-IDs. Bei Zielen mit [!UICONTROL Auto-fill Destination Mapping] oder Segmenten, die an gesendet werden, [!DNL Google] [!UICONTROL Audience Lab]werden die Zuordnungswerte wie bei den Zielen normalerweise verarbeitet.
 
 <br> 
 
 **Kann dieselbe Konversionseigenschaft mit mehreren Testgruppen verknüpft werden?**
 
-Ja, dies ist zulässig. Angenommen, ein Test verwendet ein männliches Segment, das mit Umrechnung X verknüpft ist, und einen Test mit einem weiblichen Segment, das mit Umrechnung X verknüpft ist. Es ist nicht wichtig, dass beide Tests zu Konversionen führen, da sie zwei verschiedene Zielgruppen testen.
+Ja, das ist erlaubt. Man denke an einen Fall eines Tests mit einem männlichen Segment, das mit Konversion X verbunden ist, und einen Test mit einem weiblichen Segment, das mit Konversion X verbunden ist. Es spielt keine Rolle, dass beide Tests Konversionen fördern, da sie zwei verschiedene Zielgruppen testen.
 
 <br> 
 
-**Angenommen, eine Testgruppe verwendet ein authentifiziertes Profil für die Aufteilung des Testsegments. The authenticated profile is linked to 4[Audience Manager UUIDs](../reference/ids-in-aam.md). When the visitor exhibits a conversion trait from one of the four UUIDs, does[!UICONTROL Audience Lab]count this as one or four conversions?**
+**Angenommen, eine Testgruppe verwendet ein authentifiziertes Profil für die Teilung des Testsegments. Das authentifizierte Profil ist mit 4[Audience Manager-UUIDs](../reference/ids-in-aam.md)verknüpft. Wenn der Besucher eine Konversionseigenschaft aus einer der vier UUIDs aufweist, zählt[!UICONTROL Audience Lab]dies als eine oder vier Konversionen?**
 
-In this case, [!UICONTROL Audience Lab] only counts one conversion.
-
-<br> 
-
-**Was ist, wenn der Besucher aus dem oben stehenden Fall die Konversionseigenschaft aus einer der vier mit ihrem authentifizierten Profil verknüpften uuids zusammenstellt und dann die Konversionseigenschaft aus zwei weiteren uuids bereitstellt, die mit dem authentifizierten Profil verknüpft sind? Does this case count as one or three conversions?**
-
-[!UICONTROL Audience Lab] Gezählt werden in diesem Fall drei Konversionen, eines für jedes Gerät, das die Authentifizierungseigenschaft ausgab.
+In diesem Fall zählt [!UICONTROL Audience Lab] nur eine Konversion.
 
 <br> 
 
-**Kann ein Benutzer[!UICONTROL Segment: Read-Only]Zugriff haben, aber[!UICONTROL Audience Lab]auch Segmenterstellungszugriff testen?**
+**Was ist, wenn der Besucher aus dem oben stehenden Fall zuerst die Konversionseigenschaft einer der vier UUUIDs, die mit ihrem authentifizierten Profil verknüpft sind, anzeigt und dann auch die Konversionseigenschaft zweier anderer UUIDs, die mit dem authentifizierten Profil verknüpft sind, zeigt? Zählt dieser Fall als eine oder drei Konversionen?**
 
-See [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
+In diesem Fall werden drei Konvertierungen [!UICONTROL Audience Lab] gezählt, eine für jedes Gerät, das die Authentifizierungsmerkmale gezeigt hat.
 
-**Kann[!UICONTROL Audience Lab]ich zusammen mit den[!UICONTROL Profile Link Device Graph]externen Gerätediagrammen ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph) verwenden?**
+<br> 
 
-For now, [!UICONTROL Audience Lab] can only split out segment populations by the devices connected to a qualifying device, when using the [!UICONTROL Profile Link Device Graph]. We are working on adding support in [!UICONTROL Audience Lab] for the other device graphs and will let you know when we do so.
+**Kann ein Benutzer[!UICONTROL Segment: Read-Only]Zugriff auf die Segmenterstellung haben und gleichzeitig Zugriff auf die[!UICONTROL Audience Lab]Segmenterstellung haben?**
+
+Informationen zur Verwendung [ mit ](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) Berechtigungen finden Sie unter Segmenttestgruppe[!UICONTROL Audience Lab] [!UICONTROL RBAC]erstellen.
+
+**Kann ich[!UICONTROL Audience Lab]in Verbindung mit den Diagrammen[!UICONTROL Profile Link Device Graph]und externen Geräten ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Bandgerät Graph, Liveramp Device Graph) verwenden?**
+
+Derzeit [!UICONTROL Audience Lab] können Segmentpopulationen nur durch die Geräte, die an ein qualifizierendes Gerät angeschlossen sind, aufgeteilt werden, wenn die [!UICONTROL Profile Link Device Graph]Variable verwendet wird. Wir arbeiten daran, Unterstützung [!UICONTROL Audience Lab] für die anderen Gerätediagramme hinzuzufügen und werden Sie darüber informieren, wenn wir dies tun.
