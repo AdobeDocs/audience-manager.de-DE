@@ -1,19 +1,19 @@
 ---
-description: Zeigen Sie Informationen zum ausausgehenden Batch-Auftragsverlauf für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
-seo-description: Zeigen Sie Informationen zum ausausgehenden Batch-Auftragsverlauf für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
+description: Zeigt Informationen zum Auftragsverlauf für ausgehende Stapelaufträge für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
+seo-description: Zeigt Informationen zum Auftragsverlauf für ausgehende Stapelaufträge für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
 seo-title: Ausgehender Dateiverlauf
 solution: Audience Manager
 title: Ausgehender Dateiverlauf
-uuid: 3621 a 59 d -2 bb 5-4828-86 f 6-4 c 9 bfa 580764
+uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
 translation-type: tm+mt
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
 
 
-# Outbound File History {#outbound-file-history}
+# Ausgehender Dateiverlauf {#outbound-file-history}
 
-Zeigen Sie Informationen zum ausausgehenden Batch-Auftragsverlauf für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
+Zeigt Informationen zum Auftragsverlauf für ausgehende Stapelaufträge für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
 
 <!-- 
 
@@ -23,14 +23,14 @@ t_reports_outbound_history.xml
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outbound File History]**.
 
-   ![Schrittergebnis](assets/outbound_history.png)
+   ![Schritt-Ergebnis](assets/outbound_history.png)
 
-1. In the **[!UICONTROL Search for a Destination]** box, start typing and select the desired destination.
-1. In the **[!UICONTROL Select a Date Range]** box, specify the start and end dates for your report, then click **[!UICONTROL Apply Date Filter]**.
+1. Geben Sie im **[!UICONTROL Search for a Destination]** Feld die gewünschten Ziele ein.
+1. Geben Sie im **[!UICONTROL Select a Date Range]** Feld Start- und Enddaten für Ihren Bericht ein und klicken Sie dann auf **[!UICONTROL Apply Date Filter]**.
 
-   ![Schrittergebnis](assets/outbound_history_stats.png)
+   ![Schritt-Ergebnis](assets/outbound_history_stats.png)
 
-   Die folgende Tabelle enthält Informationen zu Spalten im Bericht:
+   Die folgende Tabelle enthält Informationen, die den Spalten im Bericht entsprechen:
 
 <table id="table_93076D46AC50411395E72B9B987E99BE"> 
  <thead> 
@@ -41,20 +41,20 @@ t_reports_outbound_history.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Datensynchronisierungsdateiname </td> 
-   <td colname="col2"> <p>List of all outbound files that <span class="keyword"> Adobe</span> generated for this destination that were processed together. </p> </td> 
+   <td colname="col1"> Name der Synchronisierungsdatei </td> 
+   <td colname="col2"> <p>Liste aller ausgehenden Dateien, die <span class="keyword"> Adobe</span> für dieses Ziel generiert hat und die zusammen verarbeitet wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erfolgreich </td> 
-   <td colname="col2"> <p>Number of records that were successfully sent from <span class="keyword"> Audience Manager</span> to the destination. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Datensätze, die erfolgreich von <span class="keyword"> Audience Manager</span> an das Ziel gesendet wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> „Fehlgeschlagen“ </td> 
    <td colname="col2"> <p>Anzahl der Datensätze, die nicht an das Ziel gesendet werden konnten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Empfangene Datensätze </td> 
-   <td colname="col2"> <p>Total number of records <span class="keyword"> Adobe</span> generated in the files and attempted to send to the destination. In den meisten Fällen sollte dies die Gesamtanzahl erfolgreicher Dateien und fehlgeschlagener Dateien sein. </p> </td> 
+   <td colname="col1"> Aufgenommene Datensätze </td> 
+   <td colname="col2"> <p>Gesamtanzahl der Datensätze, die <span class="keyword"> Adobe</span> in den Dateien generiert und an das Ziel gesendet hat. In den meisten Fällen sollte dies die Gesamtanzahl erfolgreicher und fehlgeschlagener Dateien sein. </p> </td> 
   </tr> 
  </tbody> 
 </table>
