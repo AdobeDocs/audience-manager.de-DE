@@ -4,20 +4,20 @@ seo-description: Methoden, mit denen Sie programmatisch mit Eigenschaften arbeit
 seo-title: Eigenschaften-API-Methoden
 solution: Audience Manager
 title: Eigenschaften-API-Methoden
-uuid: 7359070 c -0 d 7 b -4 dd 9-8 b 8 b -028 e 41 bb 5 a 4 e
+uuid: 7359070c-0d7b-4dd9-8b8b-028e41bb5a4e
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Trait API Methods {#trait-api-methods}
+# Eigenschaften-API-Methoden {#trait-api-methods}
 
 Methoden, mit denen Sie programmatisch mit Eigenschaften arbeiten können.
 
 >[!IMPORTANT]
 >
->The trait [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Siehe:
+>Die [!DNL API] Eigenschaftsmethoden wurden umgeschrieben [!DNL Swagger] und migriert. Siehe:
 >
->* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
->* [Migration von Audience Manager-API-Code](../../api/api-swagger-migration.md)
+>* [Adobe Audience Manager API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
+>* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
