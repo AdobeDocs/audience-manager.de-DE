@@ -1,19 +1,19 @@
 ---
-description: Spaltenkopfzeilenbeschriftungen definiert.
-seo-description: Spaltenkopfzeilenbeschriftungen definiert.
-seo-title: Bulk Management-Tools-Glossar
+description: Spaltenkopfbeschriftungen definiert.
+seo-description: Spaltenkopfbeschriftungen definiert.
+seo-title: Glossar zu Massenverwaltungswerkzeugen
 solution: Audience Manager
-title: Bulk Management-Tools-Glossar
-uuid: 4658 a 6 bc -9515-4 d 31-9715-0084760 b 0 cea
+title: Glossar zu Massenverwaltungswerkzeugen
+uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Bulk Management Tools Glossary{#bulk-management-tools-glossary}
+# Glossar zu Massenverwaltungswerkzeugen{#bulk-management-tools-glossary}
 
-Spaltenkopfzeilenbeschriftungen definiert.
+Spaltenkopfbeschriftungen definiert.
 
 <!-- 
 
@@ -23,7 +23,7 @@ Spaltenkopfzeilenbeschriftungen definiert.
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Dieses Tool wird zur Bequemlichkeit und nur als Freundlichkeit bereitgestellt. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC-Gruppenberechtigungen,](../../features/administration/administration-overview.md) die in der [!DNL Audience Manager] Benutzeroberfläche zugewiesen [!UICONTROL Bulk Management Tools]wurden, werden in der Benutzeroberfläche berücksichtigt.
+>Die [!UICONTROL Bulk Management Tools] werden *nicht* von unterstützt [!DNL Audience Manager]. Dieses Tool wird nur aus praktischen Gründen und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../../api/rest-api-main/aam-api-getting-started.md) arbeiten. [In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -34,27 +34,27 @@ Spaltenkopfzeilenbeschriftungen definiert.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Datasourceid</span> </p> </td> 
-   <td colname="col2"> <p>The ID of a <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> data source</a> you want to return or assign in bulk. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
+   <td colname="col2"> <p>Die ID einer <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Datenquelle</a> , die Sie stapelweise zurückgeben oder zuweisen möchten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Derivedsignalid</span> </p> </td> 
-   <td colname="col2"> <p>A <a href="../../features/derived-signals.md"> derived signal</a> ID. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> deriSignalId</span> </p> </td> 
+   <td colname="col2"> <p>Eine <a href="../../features/derived-signals.md"> abgeleitete Signal</a> -ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Beschreibung</span> </p> </td> 
    <td colname="col2"> <p>Eine kurze, informative Beschreibung, die Sie einem Objekt geben können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Destinationid</span> </p> </td> 
-   <td colname="col2"> <p>The ID of the <a href="../../features/destinations/destinations.md"> destination</a> you want to map or delete. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
+   <td colname="col2"> <p>Die ID des <a href="../../features/destinations/destinations.md"> Ziels</a> , das zugeordnet oder gelöscht werden soll. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Destinationmappingid</span> </p> </td> 
-   <td colname="col2"> <p>Eine spezielle ID, die einem Segment zugewiesen wird, wenn es einem Ziel zugeordnet ist. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> destinationMappingId</span> </p> </td> 
+   <td colname="col2"> <p>Eine spezielle ID, die einem Segment zugewiesen wird, wenn es einem Ziel zugeordnet wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Folderid</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term"> folderId</span> </p> </td> 
    <td colname="col2"> <p>Die ID Ihres Segment- oder Eigenschaftenordners. </p> </td> 
   </tr> 
   <tr> 
@@ -62,57 +62,57 @@ Spaltenkopfzeilenbeschriftungen definiert.
    <td colname="col2"> <p>Der Name des Objekts, mit dem Sie arbeiten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Parentfolderid</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term"> parentFolderId</span> </p> </td> 
    <td colname="col2"> <p>Die ID eines Segment- oder Eigenschaftenordners, der andere Ordner enthält. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sid</span> </p> </td> 
-   <td colname="col2"> <p>Segment-ID. </p> </td> 
+   <td colname="col2"> <p> Segment-ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Sourcekey</span> </p> </td> 
-   <td colname="col2"> <p>Signals are bits of data passed in to <span class="keyword"> Audience Manager</span> based on user activity. These are transmitted as <a href="../../reference/key-value-pairs-explained.md"> key-value pairs</a>. Der Quellschlüssel ist eine Konstante, die sich nicht ändert. Sie hilft dabei, den Quellwert zu kategorisieren, der sich ändern kann. See <a href="../../features/derived-signals.md"> Derived Signals</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
+   <td colname="col2"> <p>Signale sind Datenbits, die basierend auf der Benutzeraktivität an <span class="keyword"> Audience Manager</span> weitergegeben werden. Diese werden als <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare</a>übertragen. Der Quellschlüssel ist eine Konstante, die sich nicht ändert. Es hilft, den Quellwert zu kategorisieren, der sich ändern kann. Siehe <a href="../../features/derived-signals.md"> Abgeleitete Signale</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Sourcevalue</span> </p> </td> 
-   <td colname="col2"> <p>The source value is a variable passed in as part a <a href="../../reference/key-value-pairs-explained.md"> key-value pair</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
+   <td colname="col2"> <p>Der Quellwert ist eine Variable, die als Teil eines <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paars</a>übergeben wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, wann ein Segment an ein Ziel gesendet werden kann. Uses <tt>yyyy-mm-dd</tt> format. </p> </td> 
+   <td colname="col2"> <p>Gibt an, wann ein Segment an ein Ziel gesendet werden kann. Verwendet das Format <tt>yyyy-mm-dd</tt> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Targetkey</span> </p> </td> 
-   <td colname="col2">Der im abgeleiteten Signal verwendete Schlüssel. See <a href="../../features/derived-signals.md"> Derived Signals</a>. </td> 
+   <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
+   <td colname="col2">Der Schlüssel, der im abgeleiteten Signal verwendet wird. Siehe <a href="../../features/derived-signals.md"> Abgeleitete Signale</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Targetvalue</span> </p> </td> 
-   <td colname="col2"> <p>Der Wert, der mit einem abgeleiteten Signaturschlüssel weitergegeben wird. See <a href="../../features/derived-signals.md"> Derived Signals</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> targetValue</span> </p> </td> 
+   <td colname="col2"> <p>Der Wert, der mit einem abgeleiteten Signalschlüssel weitergegeben wird. Siehe <a href="../../features/derived-signals.md"> Abgeleitete Signale</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Traitalias</span> </p> </td> 
-   <td colname="col2"> <p>Eine an ein nicht-Cookie-basiertes Ziel übergebene ID. For a cookie-based destination, this is the key in a <a href="../../reference/key-value-pairs-explained.md"> key-value pair</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
+   <td colname="col2"> <p>Eine ID, die an ein nicht-Cookie-basiertes Ziel übergeben wird. Bei einem Cookie-basierten Ziel ist dies der Schlüssel in einem Schlüssel-Wert-Paar<a href="../../reference/key-value-pairs-explained.md"></a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Traitrule/segmentrule</span> </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Eigenschaft oder Segmentregel, die zur Datenerfassung verwendet wird. A bulk request returns the rules created in <span class="keyword"> Audience Manager</span> with the <a href="../../features/traits/about-trait-builder.md"> trait rule builder</a> or the <a href="../../features/segments/segment-builder.md"> segment rule builder</a>. Sie können diese Tools auch verwenden, um Regeln zu erstellen und sie stapelweise anzuwenden, wenn Sie ein Segment oder eine Eigenschaft aktualisieren. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
+   <td colname="col2"> <p>Die tatsächliche Eigenschaft oder Segmentregel, die zur Datenerfassung verwendet wird. Eine Massenanforderung gibt die in <span class="keyword"> Audience Manager</span> erstellten Regeln mit dem <a href="../../features/traits/about-trait-builder.md"> Eigenschaftenregel-Builder</a> oder dem <a href="../../features/segments/segment-builder.md"> Segmentregelaufbau</a>zurück. Sie können diese Werkzeuge auch verwenden, um Regeln zu erstellen und sie beim Aktualisieren eines Segments oder einer Eigenschaft stapelweise anzuwenden. </p> <p>Siehe auch <a href="../../reference/bulk-management-tools/bulk-rules.md"> Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Traittype</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
    <td colname="col2"> <p>Eine Zeichenfolge, die den Eigenschaftstyp angibt. Zu den Optionen zählen: </p> 
     <ul id="ul_AB5B4F87B14241DCBBE44B0B7BD4EF72"> 
-     <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> RULE_ BASED_ TRAIT</code> </li> 
-     <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_ BOARDED_ TRAIT </code> </li> 
+     <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> RULE_BASED_TRAIT</code> </li> 
+     <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_BOARDED_TRAIT </code> </li> 
      <li id="li_F38B58ADE3324E97A71E3F94F11945BE"> <code> SEGMENT</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> url</span> </p> </td> 
-   <td colname="col2"> <p>Pixel, das von DIL ausgelöst wird, wenn sich ein Benutzer für ein Segment qualifiziert. </p> </td> 
+   <td colname="col2"> <p>Pixel, die von DIL ausgelöst werden, wenn sich ein Benutzer für ein Segment qualifiziert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> Valuealias</span> </p> </td> 
-   <td colname="col2"> <p>The key in a <a href="../../reference/key-value-pairs-explained.md"> key-value pair</a> passed to a cookie destination. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
+   <td colname="col2"> <p>Der Schlüssel in einem Schlüssel-Wert-Paar<a href="../../reference/key-value-pairs-explained.md"> </a> , der an ein Cookie-Ziel übergeben wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
