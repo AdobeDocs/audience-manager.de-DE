@@ -4,42 +4,42 @@ seo-description: Beschreibt die Auswirkungen auf segmentierte Benutzer, Daten un
 seo-title: Angehaltene und gelöschte Segmente
 solution: Audience Manager
 title: Angehaltene und gelöschte Segmente
-uuid: 88 efe 4 af-f 9 a 4-4 bce -920 a -352 bd 4 d 505 dd
+uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Paused and Deleted Segments {#paused-and-deleted-segments}
+# Angehaltene und gelöschte Segmente {#paused-and-deleted-segments}
 
-Describes the effects on segmented users, data, and destinations when you pause or delete an active segment using [!UICONTROL Segment Builder].
+Beschreibt die Auswirkungen auf segmentierte Benutzer, Daten und Ziele, wenn Sie ein aktives Segment anhalten oder löschen [!UICONTROL Segment Builder].
 
-## Zugriff auf die Steuerelemente "Pause" und" Löschen «
+## Zugriff auf die Steuerelemente zum Anhalten und Löschen
 
-Hover over a segment name in the segments list to expose the **[!UICONTROL pause]** and **[!UICONTROL delete]** icons (in the [!UICONTROL Actions] column). Diese Funktionen wirken sich wie unten beschrieben auf Segmente aus.
+Bewegen Sie den Mauszeiger über einen Segmentnamen in der Segmentliste, um die Symbole **[!UICONTROL pause]** und **[!UICONTROL delete]** Symbole (in der [!UICONTROL Actions] Spalte) anzuzeigen. Diese Funktionen wirken sich wie unten beschrieben auf Segmente aus.
 
-## Angehaltene Segmentfunktionen
+## Angehaltene Segmentfunktionalität
 
 Ein angehaltenes (deaktiviertes) Segment:
 
 * Stoppt die Segmentierung neuer, qualifizierter Benutzer.
-* Behält den Segmentierungsstatus/die Mitgliedschaft eines Benutzers bei (wird kein Benutzer aus dem Segment entfernt).
+* Behält den Segmentierungsstatus/die Mitgliedschaft eines Benutzers bei (entfernt keinen Benutzer aus dem Segment).
 * Verbleibt in der Segmentliste und kann reaktiviert werden.
 * Sendet keine Daten an verbundene Ziele.
 * Gibt Daten in den verfügbaren Berichten zurück (bis zum Deaktivierungsdatum).
 
-## Gelöschte Segmentfunktionen
+## Funktion gelöschter Segmente
 
 Ein gelöschtes Segment:
 
 * Stoppt die Segmentierung neuer, qualifizierter Benutzer.
 * Entfernt qualifizierte Benutzer aus der Segmentmitgliedschaft.
 * Wird aus der Segmentliste entfernt.
-* Kann nicht rückgängig gemacht werden.
+* Die Markierung kann nicht aufgehoben werden.
 * Sendet keine Daten an verbundene Ziele.
 * Gibt keine Daten in den verfügbaren Berichten zurück.
 
 >[!NOTE]
 >
->You can also pause and delete segments using an [!DNL API] method. For more information, see [REST APIs](../../api/rest-api-main/rest-api-main.md).
+>Sie können Segmente auch mit einer [!DNL API] Methode anhalten und löschen. Weitere Informationen finden Sie unter [REST-APIs](../../api/rest-api-main/rest-api-main.md).
