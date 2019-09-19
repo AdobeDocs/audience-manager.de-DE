@@ -1,31 +1,31 @@
 ---
-description: Mit Audience Manager können Sie Daten von Erstanbietern, Drittanbietern und Drittanbietern sammeln und verwalten.
-seo-description: Mit Audience Manager können Sie Daten von Erstanbietern, Drittanbietern und Drittanbietern sammeln und verwalten.
-seo-title: Datenerfassung
+description: Mit Audience Manager können Sie Erstanbieter-, Zweitanbieter- und Drittanbieter-Daten erfassen und verwalten.
+seo-description: Mit Audience Manager können Sie Erstanbieter-, Zweitanbieter- und Drittanbieter-Daten erfassen und verwalten.
+seo-title: Datenerfassungstypen
 solution: Audience Manager
-title: Datenerfassung
-uuid: a 2 ddf 470-32 e 6-41 ec-a 1 d 7-a 6232 ef 084 b 9
+title: Datenerfassungstypen
+uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
 source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
 
 ---
 
 
-# Types of Data Collected{#types-of-data-collected}
+# Datenerfassungstypen{#types-of-data-collected}
 
-Mit Audience Manager können Sie Daten von Erstanbietern, Drittanbietern und Drittanbietern sammeln und verwalten.
+Mit Audience Manager können Sie Erstanbieter-, Zweitanbieter- und Drittanbieter-Daten erfassen und verwalten.
 
-Das Entsperren von Kundeninformationselementen, die in mehreren Silos gespeichert sind, stellt eine der größten Datenherausforderungen dar, die Unternehmen heute bewältigen. Von CRM-Datenbanken, von Registrierungssystemen, von Anzeigenservern usw. benötigen Unternehmen Tools, die wertvolle Daten zentralisieren und Kunden/Zielgruppen als ein strategisches Datenelement verwalten. Mit Audience Manager können Sie isolierte Kundeninformationen entsperren und die Datenerfassung aus mehreren Quellen verwalten. Erfasste Daten können basierend auf den Zeit-to-Live-Werten (TTL) des Datenelements verwaltet werden, wodurch der Herausgeber die Ablaufdaten aller Quellen kontrollieren kann. Audience Manager hilft Ihnen bei der Verwaltung der folgenden Datentypen:
+Die Entsperrung von in mehreren Silos gespeicherten Kundendatenelementen ist eine der größten Herausforderungen für Unternehmen heute. Von CRM-Datenbanken über Registrierungssysteme bis hin zu Anzeigenservern usw. benötigen Unternehmen Tools, mit deren Hilfe wertvolle Daten zentralisiert und Kunden-/Zielgruppeninformationen als ein einziges strategisches Datenelement verwaltet werden können. Mit Audience Manager können Sie isolierte Kundeninformationen entsperren und die Datenerfassung aus mehreren Quellen verwalten. Die erfassten Daten können auf Basis von TTL-Werten (Time-to-Live) des Datenelements verwaltet werden, wodurch der Herausgeber den Ablauf von Daten über alle Quellen hinweg steuern kann. Audience Manager unterstützt Sie bei der Verwaltung der folgenden Datentypen:
 
-| Datentyp | Wo Daten aus |
+| Datentyp | wobei Daten von |
 |---|---|
-| **Erstanbieter** | Bekannte. Daten werden online gesammelt (von Kundeninteraktionen auf Ihren Websites) oder offline. |
+| **Erstanbieter** | Bekannte. Daten werden online (aus Interaktionen der Verbraucher auf Ihren Websites) oder offline erfasst. |
 | **Zweitanbieter** | Strategische Partner und Werbetreibende. |
-| **Drittanbieter** | Datenanbieter und/oder Umtausch. Daten können Informationen wie Priorität, Demografie, Social/Lifestyle, psychografik und mehr enthalten. |
+| **Drittanbieter** | Datenanbieter und/oder Datenaustausch. Zu den Daten können Informationen wie Absichten, Demografie, Sozial-/Lebensstil, Psychografie und mehr gehören. |
 
 ## First-Party Data Collection {#first-party-data}
 
-Die Datenerfassung von Erstanbietern ist eine Hauptfunktion des Audience Manager. Diese Kernkompetenz berücksichtigt die Anforderungen unserer Kunden (Herausgeber oder Werbetreibende), die proprietäre Daten als Grundlage ihrer Marketingprogramme oder für das Targeting und die Modellierung mit anderen Datenquellen verwenden möchten.
+Die Datenerfassung durch Erstanbieter ist eine der wichtigsten Funktionen von Audience Manager. Diese Kernkompetenz richtet sich an die Bedürfnisse unserer Kunden (Herausgeber oder Werbetreibende), die proprietäre Daten als Eckpfeiler ihrer Marketingprogramme oder für Targeting und Modellierung mit anderen Datenquellen verwenden möchten.
 
 <!-- 
 
@@ -33,17 +33,17 @@ c_1st_party_data.xml
 
  -->
 
-Audience Manager arbeitet mit Kunden zusammen, um ihre Datenstrategie zu verstehen und diese Strategie dann einem benutzerdefinierten Datenerfassungsplan zuzuordnen. Unser Team für Partnerlösungen arbeitet mit Ihnen zusammen, um Sites, Rohdatensignale und andere Benutzerinteraktionen auf Ihren Websites zu bewerten. Mit diesen Informationen können Sie eine angepasste Datenerfassungsstrategie erstellen, die Datensignale auf Benutzerebene auf verschiedenen Seiten Ihres Bestands erfasst. Erfasste Daten werden gespeichert und einer vordefinierten Taxonomie zugeordnet, die jederzeit aktualisiert werden kann, da sich Ihr Unternehmen ändert.
+Audience Manager arbeitet mit Kunden zusammen, um deren Datenstrategie zu verstehen und diese Strategie dann einem benutzerdefinierten Datenerfassungsplan zuzuordnen. Unser Partner Solutions-Team arbeitet mit Ihnen zusammen, um Sites, Rohdatensignale und andere Benutzerinteraktionen auf Ihren Websites zu bewerten. Mit diesen Informationen helfen wir Ihnen bei der Erstellung einer maßgeschneiderten Datenerfassungsstrategie, die Datensignale auf Benutzerebene von verschiedenen Seiten in Ihrem Bestand erfasst. Erfasste Daten werden gespeichert und einer vordefinierten Taxonomie zugeordnet, die jederzeit aktualisiert werden kann, wenn sich Ihr Unternehmen ändert.
 
-Das folgende Beispiel zeigt, wie potenzielle Datenelemente von einer Musterseite erfasst werden können.
+Das folgende Beispiel zeigt, wie potenzielle Datenelemente von einer Einkaufsseite erfasst werden können.
 
 ![](assets/1st_party_800px.png)
 
-Nachdem die Rohdaten erfasst wurden, wird sie den kundendefinierten Eigenschaften innerhalb der Audience Manager-Plattform zugeordnet. Sowohl die Taxonomie als auch die Datenzuordnungen können jederzeit angepasst werden, ohne dass der Datenerfassungscode geändert wird.
+Nachdem die Rohdaten erfasst wurden, werden sie in der Audience Manager-Plattform wieder benutzerdefinierten Eigenschaften zugeordnet. Sowohl die Taxonomie als auch die Datenzuordnung können jederzeit angepasst werden, ohne dass Änderungen am Datenerfassungscode vorgenommen werden.
 
-## Second-Party Data Collection {#second-party-data}
+## Datenerfassung durch Zweitanbieter {#second-party-data}
 
-Daten von Drittanbietern stammen aus einem strategischen Geschäftspartner (der keine Daten verlag). Diese Informationen werden genau wie Erstanbieter-Daten erfasst und verwaltet.
+Daten von Zweitanbietern stammen von einem strategischen Geschäftspartner (es handelt sich nicht um Veröffentlichungsdaten). Diese Informationen werden wie Erstanbieter-Daten gesammelt und verwaltet.
 
 <!-- 
 
@@ -51,15 +51,15 @@ c_2nd_party_data.xml
 
  -->
 
-Bei einem zweiten Datenszenario senden Advertiser ihre eigenen Daten an Herausgeber, damit diese Informationen mit den Daten des Herausgebers kombinieren und dann ein gezielteres Werbeprogramm ausführen können. Darüber hinaus können Herausgeber ihren Zielgruppenpool erweitern, indem sie mit ihren Werbetreibenden zusammenarbeiten. In den meisten Fällen beinhalten diese Regeln vertragliche Beziehungen, die darauf beschränkt sind, das Audience Manager-Container-Tag auf der Partner-Site zu platzieren, um die Datenerfassung und Freigabe zu erleichtern.
+In einem Szenario mit Daten von Zweitanbietern senden Werbetreibende ihre eigenen Daten-Assets an Herausgeber, damit sie diese Informationen mit den Daten des Herausgebers kombinieren und dann ein gezielteres Werbetreff ausführen können. Darüber hinaus können Herausgeber ihren Zielgruppenpool durch Zusammenarbeit mit ihren Werbekunden erweitern. In den meisten Fällen beinhalten diese Vereinbarungen vertragliche Beziehungen, die sich darauf beschränken, den Audience Manager-Container-Tag auf die Partner-Site zu setzen, um die Datenerfassung und -freigabe zu erleichtern.
 
-Ein Beispiel für die Erfassung und das Remarketing von Drittanbietern könnte dazu führen, dass Automobilhersteller Daten auf ihren Autokonfigurationsseiten erfassen und diese Informationen dann mit wichtigen Partnern teilen. In diesem Fall könnte der Automobilhersteller verschiedene Anzeigen auf einer Audience Manager-Partnersite für Verbraucher bereitstellen, die verschiedene Arten von Fahrzeugoptionen konfiguriert haben (z. B. Farbe, Modell usw.).
+Ein Beispiel für die Datenerfassung und das Remarketing durch Zweitanbieter könnte sein, dass ein Automobilhersteller Daten auf seinen Seiten zur Fahrzeugkonfiguration sammelt und diese Informationen dann an wichtige Partner weitergibt. In diesem Fall könnte der Automobilhersteller verschiedene Anzeigen auf einer Audience Manager-Partnersite für Verbraucher bereitstellen, die verschiedene Arten von Fahrzeugoptionen konfiguriert haben (z. B. Farbe, Modell usw.).
 
 ![](assets/2nd_party_700px.png)
 
 ## Third-Party Data Collection {#third-party-data}
 
-Drittanbieterdaten sind Informationen, die von Anbietern außerhalb von Audience Manager erfasst und freigegeben werden.
+Daten von Drittanbietern sind Informationen, die von Anbietern außerhalb von Audience Manager erfasst und freigegeben werden.
 
 <!-- 
 
@@ -67,17 +67,17 @@ c_3rd_party_data.xml
 
  -->
 
-Drittanbieterdaten können verwendet werden, um vorhandene Datensegmente zu qualifizieren (z. B. Alter, Haushaltseinkommen usw.), Daten bereitzustellen, die zwar gefragt, aber nicht anderweitig verfügbar sind oder in Lookalike-Modellierung für eine bekannte Benutzerbasis von Erstanbieter- und Drittanbieterdaten verwendet werden. Audience Manager arbeitet mit Drittanbietern von Daten zusammen und hilft Ihnen dabei, den Datentyp zu verstehen, den diese Datenanbieter erfassen, damit Sie die richtigen strategischen Angebote für jeden Anbieter vornehmen können.
+Daten von Drittanbietern können verwendet werden, um vorhandene Datensegmente (z. B. Alter, Haushaltseinkommen usw.) zu qualifizieren, Daten bereitzustellen, die nachgefragt sind, aber nicht anderweitig verfügbar sind, oder um bei der Suche nach einem bekannten Benutzerstamm aus Erstanbieter- und Zweitanbieter-Daten verwendet zu werden. Audience Manager arbeitet mit vielen Drittanbietern von Daten zusammen und hilft Ihnen dabei, die Art der von diesen Datenanbietern erfassten Daten zu verstehen, sodass Sie mit jedem Anbieter die richtigen strategischen Geschäfte abschließen können.
 
 >[!NOTE]
 >
->For a full list of third-party data providers supported by [!DNL Audience Manager], see the [Adobe Audience Finder](https://www.adobe-audience-finder.com/).
+>Eine vollständige Liste der von Drittanbietern unterstützten Datenanbieter finden Sie [!DNL Audience Manager]im [Adobe Audience Finder](https://www.adobe-audience-finder.com/).
 
-Audience Manager wird basierend auf den verfügbaren apis und Datensätzen mit anderen Datenanbietern integriert. Die Datenerfassung funktioniert in Echtzeit, wenn ein Benutzer Ihre Site durchsucht oder über Out-of-Band-Methoden, bei denen IDs zwischen Partnern synchronisiert werden und die Daten zwischen Servern übertragen werden, nachdem ein Benutzer Ihre Site verlassen hat. In beiden Fällen nutzen Audience Manager-Clients die Vorteile von Drittanbieterdaten, die auf unserer Plattform synchronisiert werden, was bedeutet, dass jeder Client oder jede Domäne keine eigene Synchronisierung durchführen muss. Auf diese Weise können Sie die Reichweite erhöhen und Serveraufrufe auf der Seite reduzieren.
+Audience Manager kann auf Grundlage der verfügbaren APIs und Datensätze mit anderen Datenanbietern integriert werden. Die Datenerfassung funktioniert in Echtzeit, wenn ein Benutzer Ihre Site aufsucht, oder über Out-of-Band-Methoden, bei denen IDs zwischen Partnern synchronisiert werden und Daten zwischen Servern übertragen werden, nachdem ein Benutzer Ihre Site verlassen hat. In beiden Fällen profitieren Audience Manager-Clients davon, dass Daten von Drittanbietern auf unserer Plattform synchronisiert werden, d. h. jeder Client oder jede Domäne muss keine eigene Synchronisierung durchführen. Dies hilft, die Reichweite zu erhöhen und Serveraufrufe von der Seite zu verringern.
 
-## Match Partners {#match-partners}
+## Übereinstimmungspartner {#match-partners}
 
-Viele Kunden können mit Drittanbieter-Datenübereinstimmungspartnern arbeiten. Diese Entitäten verfügen über Beziehungen zu Sites, die über Registrierungsanforderungen verfügen und Kundendatendateien verarbeiten können, indem sie sie (in Echtzeit) basierend auf ihrem Registrierungsnetzwerk anpassen.
+Viele Kunden entscheiden sich für die Zusammenarbeit mit Drittanbieter-Datenerfassungspartnern. Diese Entitäten unterhalten Beziehungen zu Sites, die Registrierungsanforderungen haben und Kundendatendateien verarbeiten können, indem sie diese (in Echtzeit) je nach Registrierungsnetzwerk abgleichen.
 
 ![](assets/data_provider_match_700px.png)
 
