@@ -1,19 +1,19 @@
 ---
-description: Eine GET-Methode, die das Ziel für die angegebene destinationid zurückgibt.
-seo-description: Eine GET-Methode, die das Ziel für die angegebene destinationid zurückgibt.
-seo-title: Zurückgeben eines Ziels nach Ziel-ID
+description: Eine GET-Methode, die das Ziel für die angegebene destinationId zurückgibt.
+seo-description: Eine GET-Methode, die das Ziel für die angegebene destinationId zurückgibt.
+seo-title: Ziel nach Ziel-ID zurückgeben
 solution: Audience Manager
-title: Zurückgeben eines Ziels nach Ziel-ID
-uuid: abce 7426-55 a 5-4045-93 a 7-0487652 a 7189
+title: Ziel nach Ziel-ID zurückgeben
+uuid: abce7426-55a5-4045-93a7-0487652a7189
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Return A Destination by Destination ID {#return-a-destination-by-destination-id}
+# Ziel nach Ziel-ID zurückgeben {#return-a-destination-by-destination-id}
 
-A `GET` method that returns the destination for the specified `destinationId`.
+Eine `GET` Methode, die das Ziel für die angegebene `destinationId`Methode zurückgibt.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -23,7 +23,7 @@ A `GET` method that returns the destination for the specified `destinationId`.
 
 >[!NOTE]
 >
->To populate the `mappings` field pass in `includeMappings=true` in the URL.
+>Um das `mappings` Feld auszufüllen, geben Sie `includeMappings=true` die URL ein.
 
 ## Antwort
 
@@ -53,9 +53,9 @@ A `GET` method that returns the destination for the specified `destinationId`.
 }
 ```
 
-## Return All Destinations {#return-all-destinations}
+## Alle Ziele zurückgeben {#return-all-destinations}
 
-A `GET` method that returns all destinations for the specified partner.
+Eine `GET` Methode, die alle Ziele für den angegebenen Partner zurückgibt.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -65,15 +65,15 @@ A `GET` method that returns all destinations for the specified partner.
 
 >[!NOTE]
 >
->* *(Optional)* Geben Sie an, `containsSegment=<sid>` um ein Array aller Ziele zurückzugeben, die dem angegebenen Segment zugeordnet sind. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`.
+>* *(Optional)* Geben Sie ein Array aller Ziele `containsSegment=<sid>` zurück, die dem angegebenen Segment zugeordnet sind. Ihre Abfrage könnte z. B. wie folgt aussehen: `GET .../destinations/?containsSegment=4321`.
    >
    >
-* Gibt das vollständige Zielobjekt nicht zurück. Rufen Sie das Ziel nach Datenreihenfolge ab, wenn Sie ein vollständig ausgefülltes Objekt benötigen.
+* Gibt nicht das vollständige Zielobjekt zurück. Rufen Sie das Ziel nach Datenreihenfolge ab, wenn Sie ein vollständig ausgefülltes Objekt benötigen.
 
 
 ### Optionale Abfrageparameter
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* Eigenschaften eines Objekts zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an die [!DNL API]übergeben. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -85,23 +85,23 @@ You can use these optional parameters with API methods that return *all* propert
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Nummerierung beginnt bei 0. </td>
+   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Die Nummerierung beginnt bei 0. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Pagesize</code> </td>
-   <td colname="col2"> Legt die Anzahl der von der Anforderung zurückgegebenen Antwortergebnisse fest (Standard: 10). </td>
+   <td colname="col1"><code> pageSize</code> </td>
+   <td colname="col2"> Legt die Anzahl der Antwortergebnisse fest, die von der Anforderung zurückgegeben werden (10 ist standardmäßig). </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Sortby</code> </td>
-   <td colname="col2">Sorts and returns results according to the specified <span class="keyword"> JSON</span> property. </td>
+   <td colname="col1"><code> sortBy</code> </td>
+   <td colname="col2">Sortiert Ergebnisse und gibt sie entsprechend der angegebenen <span class="keyword"> JSON</span> -Eigenschaft zurück. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> absteigend</code> </td>
-   <td colname="col2"> Sortiert die Ergebnisse in absteigender Reihenfolge und gibt sie zurück. Aufsteigend ist die Standardeinstellung. </td>
+   <td colname="col2"> Sortiert die Ergebnisse und gibt sie in absteigender Reihenfolge zurück. "Aufsteigend"ist die Standardeinstellung. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> suchen</code> </td>
-   <td colname="col2">Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Angenommen, Sie möchten Ergebnisse für alle Modelle mit dem Wort "Test" in allen Wertfeldern für dieses Element suchen. Ihre Beispielanforderung könnte wie folgt aussehen: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Sie können nach jedem Wert suchen, der von einer "get all" -Methode zurückgegeben wird. </p> </td>
+   <td colname="col1"><code> search</code> </td>
+   <td colname="col2">Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Nehmen wir beispielsweise an, Sie möchten Ergebnisse für alle Modelle suchen, die das Wort "Test"in einem der Wertefelder für dieses Element enthalten. Ihre Musteranforderung könnte wie folgt aussehen: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Sie können nach jedem Wert suchen, der von der Methode "get all"zurückgegeben wird. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -138,9 +138,9 @@ You can use these optional parameters with API methods that return *all* propert
 ]
 ```
 
-## Return a Destination Mapping With the Mapping ID {#return-dest-mapping-id}
+## Eine Zielzuordnung mit der Zuordnungs-ID zurückgeben {#return-dest-mapping-id}
 
-A `GET` method that returns an individual destination mapping based on the `mappingId`.
+Eine `GET` Methode, die eine individuelle Zielzuordnung basierend auf der `mappingId`Methode zurückgibt.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -175,9 +175,9 @@ A `GET` method that returns an individual destination mapping based on the `mapp
 }
 ```
 
-## Return Destination Mappings {#return-dest-mappings}
+## Zuordnungen rückkehrender Ziele {#return-dest-mappings}
 
-A `GET` method that returns the mappings for a destination.
+Eine `GET` Methode, die die Zuordnungen für ein Ziel zurückgibt.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -249,9 +249,9 @@ A `GET` method that returns the mappings for a destination.
 {
 ```
 
-## Return All Available Destination Platforms {#return-dest-platforms}
+## Alle verfügbaren Zielplattformen zurückgeben {#return-dest-platforms}
 
-`GET` Eine Methode, die alle verfügbaren Geräteplattformen für Ziele zurückgibt.
+Eine `GET` Methode, die alle verfügbaren Geräteplattformen für Ziele zurückgibt.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -267,9 +267,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Return S2S and Bulk S2S Destination Job History {#return-job-history}
+## S2S- und Bulk-S2S-Zielauftragsverlauf zurückgeben {#return-job-history}
 
-A `GET` method that returns outbound [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) and bulk [!UICONTROL S2S] destination job history information.
+Eine `GET` Methode, die Informationen zum Ausgangsauftragsverlauf [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) und zum Massenzielauftragsverlauf [!UICONTROL S2S] zurückgibt.
 
 <!-- r_get_job_history.xml -->
 
@@ -277,7 +277,7 @@ A `GET` method that returns outbound [!UICONTROL Server-to-Server] ( [!UICONTROL
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Required query parameters: `startDate` = *&lt;`epochtime`&gt;* and `endDate` = *&lt;`epochtime`&gt;*.
+Erforderliche Abfrageparameter: `startDate` = *&lt;`epochtime`&gt;* und `endDate` = *&lt;`epochtime`&gt;*.
 
 ### Antwort
 
