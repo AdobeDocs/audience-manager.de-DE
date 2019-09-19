@@ -1,36 +1,36 @@
 ---
-description: Erstellen Sie Ziele mit diesen restful-API-Methoden.
-seo-description: Erstellen Sie Ziele mit diesen restful-API-Methoden.
+description: Erstellen Sie Ziele mit diesen RESTful-API-Methoden.
+seo-description: Erstellen Sie Ziele mit diesen RESTful-API-Methoden.
 seo-title: Ziele erstellen
 solution: Audience Manager
 title: Ziele erstellen
-uuid: 12 f 04151-ad 0 e -4 cb 6-8 f 3 b-b 5 c 427 dc 2 cef
+uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 
 ---
 
 
-# Create Destinations {#create-destinations}
+# Ziele erstellen {#create-destinations}
 
-Create destinations with these [!UICONTROL RESTful API] methods.
+Erstellen Sie Ziele mit diesen [!UICONTROL RESTful API] Methoden.
 
 <!-- c_create_destinations.xml -->
 
 ## Unterstützte Zieltypen: Nur URL und Cookie
 
-The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot create [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
+Mit den verfügbaren `POST` Methoden können Sie [!UICONTROL URL] und [!UICONTROL cookie destinations] nur. Zurzeit können Sie [!UICONTROL server-to-server destinations] mit diesen [!DNL REST API] Methoden nicht erstellen. Mit den entsprechenden `GET` Zielmethoden können Sie jedoch Informationen zu in der Benutzeroberfläche [!UICONTROL server-to-server destinations] erstellten Informationen abrufen.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Ziele](../../../features/destinations/destinations.md#destination-api-methods)
->* [Zielreihenbildung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Wichtige Wertpaare](../../../reference/key-value-pairs-explained.md)
+>* [Ziele](../../../features/destinations/destinations.md)
+>* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
 
 
-## Create a Non-Serial URL Destination {#create-nonserial-dest}
+## Erstellen eines nicht seriellen URL-Ziels {#create-nonserial-dest}
 
-`POST` Eine Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die aus einzelnen Schlüsselwertpaaren bestehen (z. B. `gender=male` oder `gender=female`).
+Eine `POST` Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die aus einzelnen Schlüssel-Wert-Paaren bestehen (z. B. `gender=male` oder `gender=female`).
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -40,7 +40,7 @@ The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL coo
 
 ### Beispielanforderung
 
-Diese Anforderung erstellt ein einzelnes Ziel. Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
+Diese Anforderung erstellt ein einzelnes Ziel. Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
 
 ```
 { 
@@ -53,7 +53,7 @@ Diese Anforderung erstellt ein einzelnes Ziel. Alle Anforderungswerte sind erfor
 
 ### Antwort
 
-A successful request returns `201 created` and the destination.
+Eine erfolgreiche Anforderung `201 created` und das Ziel werden zurückgegeben.
 
 ```
 { 
@@ -81,14 +81,14 @@ A successful request returns `201 created` and the destination.
 } 
 ```
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Zielreihenbildung](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 
-## Create a Serialized URL Destination {#create-serial-url-dest}
+## Ein serialisiertes URL-Ziel erstellen {#create-serial-url-dest}
 
-`POST` Eine Methode, mit der Sie ein Ziel erstellen können, das mehrere Werte akzeptiert, die mit einem einzelnen Schlüssel verknüpft sind (z. `color=blue, red, green`B.).
+Eine `POST` Methode, mit der Sie ein Ziel erstellen können, das mehrere Werte akzeptiert, die einem Schlüssel zugeordnet sind (z. B. `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -98,7 +98,7 @@ A successful request returns `201 created` and the destination.
 
 ### Beispielanforderung
 
-Specify the secure [!DNL URL] and delimiter for the key-value pair passed in to the destination. Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
+Geben Sie das sichere [!DNL URL] und das Trennzeichen für das Schlüssel-Wert-Paar an, das an das Ziel übergeben wird. Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
 
 ```
 { 
@@ -114,7 +114,7 @@ Specify the secure [!DNL URL] and delimiter for the key-value pair passed in to 
 
 ### Antwort
 
-A successful update returns response code `201 created` and the destination.
+Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel zurückgegeben.
 
 ```
 { 
@@ -142,14 +142,14 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Zielreihenbildung](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 
-## Create a Cookie Destination: Single-Key, Non-Serialized {#create-cookie-dest-single}
+## Cookie-Ziel erstellen: Einzelschlüssel, nicht serialisiert {#create-cookie-dest-single}
 
-`POST` Eine Methode, mit der Sie ein [!UICONTROL cookie destination] Segment erstellen können, das aus einzelnen Schlüsselwertpaaren (z. B. `gender=male` oder `gender=female`) besteht.
+Eine `POST` Methode, mit der Sie eine Methode erstellen können, [!UICONTROL cookie destination] die Segmente akzeptiert, die aus einzelnen Schlüssel-Wert-Paaren bestehen (z. B. `gender=male` oder `gender=female`).
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -159,7 +159,7 @@ A successful update returns response code `201 created` and the destination.
 
 ### Beispielanforderung
 
-Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
+Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
 
 ```
 { 
@@ -184,7 +184,7 @@ Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ### Antwort
 
-A successful update returns response code `201 created` and the destination.
+Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel zurückgegeben.
 
 ```
 { 
@@ -216,15 +216,15 @@ A successful update returns response code `201 created` and the destination.
 } 
 ```
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Zielreihenbildung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Wichtige Wertpaare](../../../reference/key-value-pairs-explained.md)
+>* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
 
 
-## Create a Cookie Destination: Single Key, Serialized {#create-cookie-dest-single-serial}
+## Cookie-Ziel erstellen: Einzelschlüssel, serialisiert {#create-cookie-dest-single-serial}
 
-`POST` Eine Methode, mit der Sie ein Ziel erstellen können, das mehrere Werte akzeptiert, die mit einem einzelnen Schlüssel verknüpft sind (z. `color=blue, red, green`B.).
+Eine `POST` Methode, mit der Sie ein Ziel erstellen können, das mehrere Werte akzeptiert, die einem Schlüssel zugeordnet sind (z. B. `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -234,7 +234,7 @@ A successful update returns response code `201 created` and the destination.
 
 ### Beispielanforderung
 
-Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
+Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
 
 ```
 { 
@@ -260,7 +260,7 @@ Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ### Antwort
 
-A successful update returns response code `201 created` and the destination.
+Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel zurückgegeben.
 
 ```
 { 
@@ -293,15 +293,15 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Zielreihenbildung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Wichtige Wertpaare](../../../reference/key-value-pairs-explained.md)
+>* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
 
 
-## Create a Cookie Destination: Multi-Key, Non-Serialized {#create-cookie-dest-multi}
+## Cookie-Ziel erstellen: Multi-Key, nicht serialisiert {#create-cookie-dest-multi}
 
-`POST` Eine Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die mehrere Schlüssel mit verschiedenen Werten enthalten (z. `gender=male; gender=female; color=blue; color=red`B.).
+Eine `POST` Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die mehrere Schlüssel mit unterschiedlichen Werten enthalten (z. B. `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -311,7 +311,7 @@ A successful update returns response code `201 created` and the destination.
 
 ### Beispielanforderung
 
-Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
+Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
 
 ```
 { 
@@ -335,7 +335,7 @@ Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ### Antwort
 
-A successful update returns response code `201 created` and the destination.
+Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel zurückgegeben.
 
 ```
 { 
@@ -366,9 +366,9 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
-## Create a Cookie Destination: Multi-Key, Serialized {#create-cookie-dest-multi-serial}
+## Cookie-Ziel erstellen: Mehrere Schlüssel, serialisiert {#create-cookie-dest-multi-serial}
 
-`POST` Eine Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die mehrere Schlüssel und Werte enthalten (z. `gender=male, female; color=blue, red, green`B.).
+Eine `POST` Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die mehrere Schlüssel und Werte enthalten (z. B. `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -378,7 +378,7 @@ A successful update returns response code `201 created` and the destination.
 
 ### Beispielanforderung
 
-Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
+Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
 
 ```
 { 
@@ -403,7 +403,7 @@ Alle Anforderungswerte sind erforderlich, sofern nicht anders angegeben.
 
 ### Antwort
 
-A successful update returns response code `201 created` and the destination.
+Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel zurückgegeben.
 
 ```
 { 
@@ -435,8 +435,8 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Zielreihenbildung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Wichtige Wertpaare](../../../reference/key-value-pairs-explained.md)
+>* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
 
