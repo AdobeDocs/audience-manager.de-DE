@@ -1,11 +1,11 @@
 ---
-description: Das DCS überwacht die empfangenen IDs und die schwarzen Listen, die in einer kurzen Zeitspanne ungewöhnlich hoch gesendet werden.
-keywords: id; Überwachung; blacklisting; dcs
-seo-description: Das DCS überwacht die empfangenen IDs und die schwarzen Listen, die in einer kurzen Zeitspanne ungewöhnlich hoch gesendet werden.
+description: Der DCS überwacht die erhaltenen IDs und listet diejenigen auf, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden.
+keywords: id;Monitoring;Blacklisting;dcs
+seo-description: Der DCS überwacht die erhaltenen IDs und listet diejenigen auf, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden.
 seo-title: ID-Überwachung und Blacklisting
 solution: Audience Manager
 title: ID-Überwachung und Blacklisting
-uuid: 498 e 0316-cf 1 b -43 e 9-88 ba -338 ee 0 daf 225
+uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
 source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 
@@ -14,38 +14,38 @@ source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 
 # ID-Überwachung und Blacklisting
 
-The [!UICONTROL DCS] monitors the IDs it receives and blacklists those that are being sent at an unusually high rate over a short period of time.
+Die [!UICONTROL DCS] überwacht die IDs, die sie erhält, und führt diejenigen auf, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden.
 
 ## Überblick
 
-To protect the Audience Manager infrastructure against malicious activity, the [!UICONTROL DCS] uses an advanced algorithm to monitor the IDs it receives. These can be [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s), or [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s). See [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md) for detailed explanations of the IDs supported by Audience Manager.
+Zum Schutz der Audience Manager-Infrastruktur vor böswilligen Aktivitäten [!UICONTROL DCS] verwendet die Gruppe einen erweiterten Algorithmus, um die erhaltenen IDs zu überwachen. Dabei kann es sich um [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s) oder [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s) handeln. Ausführliche Erläuterungen zu den von Audience Manager unterstützten IDs finden Sie unter [IDs in Audience Manager](../../../reference/ids-in-aam.md) .
 
-The [!UICONTROL DCS] monitors the frequency at which it receives these IDs to detect potential malicious activity. When the [!UICONTROL DCS] detects an unusually large amount of [!UICONTROL DCS] requests for any given ID in a short amount of time, that ID is blacklisted.
+Die [!UICONTROL DCS] überwacht die Häufigkeit, mit der sie diese IDs erhält, um potenzielle bösartige Aktivitäten zu erkennen. Wenn der [!UICONTROL DCS] Benutzer eine ungewöhnlich große Anzahl von [!UICONTROL DCS] Anforderungen für eine bestimmte ID in kurzer Zeit erkennt, wird diese ID auf die schwarze Liste gesetzt.
 
 ## Fehlercodes
 
-You can identify blacklisted IDs by the error codes received from the [!UICONTROL DCS]. Folgende Fehlercodes können Sie erhalten:
+Sie können die schwarzen IDs anhand der Fehlercodes identifizieren, die vom [!UICONTROL DCS]. Die Fehlercodes, die Sie möglicherweise erhalten, sind:
 
 * 303: Blockierte Kunden-ID;
-* 306: Blockierte Geräte-ID;
+* 306: Blockierte deklarierte Geräte-ID;
 * 307: Blockierter Profilvorgang für ID.
 
-See [DCS Error Codes, Messages, and Examples](dcs-error-codes.md) for details on the error codes that you may receive.
+Einzelheiten zu den Fehlercodes, die Sie möglicherweise erhalten, finden Sie unter [DCS-Fehlercodes, -Meldungen und -Beispiele](dcs-error-codes.md) .
 
-## Schwarze Auflistung
+## Nicht-schwarze Liste
 
-Ids mit schwarzen Listen sollten in zukünftigen Anforderungen nicht verwendet werden, da sie zu falschen Datenberichten führen. The [!UICONTROL DCS] does not support un-blacklisting of IDs.
+Blacklist-IDs sollten in zukünftigen Anforderungen nicht verwendet werden, da sie zu fehlerhaften Datenberichten führen. Die [!UICONTROL DCS] Option zur Aufhebung der schwarzen Liste von IDs wird nicht unterstützt.
 
 ## Auswirkungen auf die ID-Synchronisierung
 
-[!UICONTROL DCS] Aufrufe können einen oder mehrere Typen von IDs enthalten. Aufrufe mit einer einzelnen ID werden vollständig ignoriert, wenn diese ID auf der schwarzen Liste aufgeführt ist und in diesem Fall keine ID-Synchronisierung stattfindet.
+[!UICONTROL DCS] -Aufrufe können einen oder mehrere ID-Typen enthalten. Aufrufe, die eine einzelne ID enthalten, werden vollständig ignoriert, wenn diese ID auf der Blacklist steht, und in diesem Fall findet keine ID-Synchronisierung statt.
 
-When a multiple ID call also includes a blacklisted ID, the [!UICONTROL DCS] disregards the blacklisted ID and only uses the remaining, non-blacklisted IDs for synchronization.
+Wenn ein Aufruf mit mehreren IDs auch eine ID in der schwarzen Liste enthält, ignoriert der [!UICONTROL DCS] Aufruf die schwarze Liste und verwendet nur die verbleibenden, nicht in der schwarzen Liste aufgeführten IDs für die Synchronisierung.
 
-## Ursachen und Fehlerbehebungen für die ID-Blacklisting
+## Ursachen und Fehlerbehebungen für ID Blacklisting
 
-Die häufigste Ursache von IDs, die in der schwarzen Liste aufgeführt werden, ist die falsche Integration zwischen der Kundeninfrastruktur und Audience Manager. Wenn Sie eine ID mit einer schwarzen Liste identifizieren, sollten Sie Ihre Audience Manager-Integrationen gründlich überprüfen. See **Implementation and Integration Guides** for detailed explanations of how you should configure Audience Manager to work with other Experience Cloud solutions or external systems.
+Die häufigste Ursache für die Sperrung von IDs ist die falsche Integration zwischen der Kundeninfrastruktur und Audience Manager. Wenn Sie eine in der schwarzen Liste aufgeführte ID identifizieren, überprüfen Sie Ihre Audience Manager-Integrationen gründlich. Ausführliche Erläuterungen zur Konfiguration von Audience Manager für die Verwendung mit anderen Experience Cloud-Lösungen oder externen Systemen finden Sie in den **Implementierungs- und Integrationsanleitungen** .
 
-Another frequent cause of blacklisted IDs are indexing bots (web crawlers), which generally cause increases in traffic, leading to the same IDs being sent to the [!UICONTROL DCS] multiple times. Wenn Sie die Indexierung als Grund für die ID-Blacklisting identifizieren, sollten Sie den Bot-Zugriff auf Ihre Website beschränken.
+Eine weitere häufige Ursache für die Sperrung von IDs ist das Indizieren von Bots (Webcrawler), was im Allgemeinen zu einer Zunahme des Traffics führt, sodass dieselben IDs mehrmals an die [!UICONTROL DCS] gesendet werden. Wenn Sie die Indizierung von Bots als Grund für die schwarze Liste von IDs identifizieren, sollten Sie den Bot-Zugriff auf Ihre Website einschränken.
 
-Wenn Sie Probleme mit der Identifizierung von Integrationsproblemen haben, wenden Sie sich nicht an den Kundensupport. Prior to opening a support request, make sure to keep the `.har` `HTTP` archive of your browser ready. Dieses Archiv hilft dem Supportteam, die ID-Blacklisting zu identifizieren.
+Wenn Sie Probleme mit der Integration nur schwer erkennen können, wenden Sie sich bitte an den Kundensupport. Bevor Sie eine Supportanfrage öffnen, stellen Sie sicher, dass das `.har` `HTTP` Archiv Ihres Browsers bereit ist. Dieses Archiv hilft dem Supportteam herauszufinden, warum die ID-Blacklist auftrat.
