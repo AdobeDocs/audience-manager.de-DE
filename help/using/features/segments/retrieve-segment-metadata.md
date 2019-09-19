@@ -1,47 +1,47 @@
 ---
-description: Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie diese Informationen als Datenpartner für Ihre Kunden freigeben (oder selbst mit ihnen arbeiten), erhalten Sie einen tatsächlichen Namen und eine Beschreibung für Kunden in Berichten, Dashboards oder anderen Benutzeroberflächen (UI). Datenpartner können diese Anzeigenamen ihren Kunden entweder mit manuellen oder automatisierten Methoden zur Verfügung stellen, die in diesem Abschnitt beschrieben sind.
-seo-description: Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie diese Informationen als Datenpartner für Ihre Kunden freigeben (oder selbst mit ihnen arbeiten), erhalten Sie einen tatsächlichen Namen und eine Beschreibung für Kunden in Berichten, Dashboards oder anderen Benutzeroberflächen (UI). Datenpartner können diese Anzeigenamen ihren Kunden entweder mit manuellen oder automatisierten Methoden zur Verfügung stellen, die in diesem Abschnitt beschrieben sind.
+description: Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie als Datenpartner diese Informationen mit Ihren Kunden teilen (oder selbst daran arbeiten), bieten ein tatsächlicher Name und eine Beschreibung eine bessere Benutzererfahrung in Berichten, Dashboards oder anderen Benutzeroberflächen (UI). Datenpartner können diese Anzeigenamen ihren Kunden entweder mit den in diesem Abschnitt beschriebenen manuellen oder automatisierten Methoden zur Verfügung stellen.
+seo-description: Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie als Datenpartner diese Informationen mit Ihren Kunden teilen (oder selbst daran arbeiten), bieten ein tatsächlicher Name und eine Beschreibung eine bessere Benutzererfahrung in Berichten, Dashboards oder anderen Benutzeroberflächen (UI). Datenpartner können diese Anzeigenamen ihren Kunden entweder mit den in diesem Abschnitt beschriebenen manuellen oder automatisierten Methoden zur Verfügung stellen.
 seo-title: Abrufen von Segmentmetadaten
 solution: Audience Manager
 title: Abrufen von Segmentmetadaten
-uuid: 719 e 2 c 41-8788-4 e 8 a -967 a-e 367421 f 9 f 84
+uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Retrieving Segment Metadata {#retrieving-segment-metadata}
+# Abrufen von Segmentmetadaten {#retrieving-segment-metadata}
 
-Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. As a data partner, when you share this information with your customers (or work with it yourself), an actual name and description provide a better experience for customers in reports, dashboards, or other user interfaces ([!DNL UI]). Datenpartner können diese Anzeigenamen ihren Kunden entweder mit manuellen oder automatisierten Methoden zur Verfügung stellen, die in diesem Abschnitt beschrieben sind.
+Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie als Datenpartner diese Informationen mit Ihren Kunden teilen (oder selbst daran arbeiten), bieten ein tatsächlicher Name und eine Beschreibung eine bessere Benutzererfahrung in Berichten, Dashboards oder anderen Benutzeroberflächen ([!DNL UI]). Datenpartner können diese Anzeigenamen ihren Kunden entweder mit den in diesem Abschnitt beschriebenen manuellen oder automatisierten Methoden zur Verfügung stellen.
 
-## Manual method {#manual-method}
+## Manuelle Methode {#manual-method}
 
-Als Datenpartner werden Sie wahrscheinlich dazu verwendet, Zielgruppenmetadaten über manuelle Prozesse von Ihren Kunden abzurufen. This could include files attached to emails or from customers adding that data through a [!DNL UI] you've built and maintained for this purpose. Diese Prozesse funktionieren, sind aber oft mühsam, zeitraubend und erfordern möglicherweise manuelle Dateneingaben. Diese Methoden dienen häufig dazu, eine Integration schnell und schnell zu ermöglichen, bieten jedoch langfristig nicht das beste Kundenerlebnis. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
+Als Datenpartner sind Sie wahrscheinlich daran gewöhnt, Zielgruppen-Metadaten von Ihren Kunden durch manuelle Prozesse zu erhalten. Dies kann Dateien umfassen, die an E-Mails oder von Kunden angehängt werden, die diese Daten über eine von [!DNL UI] Ihnen zu diesem Zweck erstellte und verwaltete Datei hinzufügen. Diese Prozesse funktionieren, sind aber oft umständlich und zeitaufwendig und erfordern möglicherweise eine manuelle Dateneingabe. Diese Methoden werden häufig verwendet, um eine Integration schnell zu implementieren, bieten aber langfristig nicht die beste Kundenerfahrung. Alternativ können Sie die verwenden, [!DNL Audience Manager] um Segmentmetadaten automatisch abzurufen [!DNL API] .
 
-## Automated method {#automated-method}
+## Automatisierte Methode {#automated-method}
 
-[!DNL Audience Manager] bietet eine Reihe [von REST-apis](../../api/rest-api-main/rest-api-main.md) , mit denen Sie Segmentmetadaten automatisch abrufen können. With the [!DNL API], you can create jobs that retrieve segment metadata at scheduled intervals or automatically, whenever you process [!DNL Audience Manager] data and find a new segment ID. Weitere Informationen finden Sie unter unten.
+[!DNL Audience Manager] bietet eine Reihe von [REST-APIs](../../api/rest-api-main/rest-api-main.md) , mit denen Sie Segmentmetadaten automatisch abrufen können. Mit der [!DNL API]können Sie Aufträge erstellen, die Segmentmetadaten in planmäßigen Intervallen oder automatisch abrufen, sobald Sie Daten verarbeiten [!DNL Audience Manager] und eine neue Segment-ID finden. Weitere Informationen finden Sie in den unten stehenden Schritten.
 
-### Schritt 1: Überprüfen der Audience Manager-apis
+### Schritt 1: Überprüfen der Audience Manager-APIs
 
-The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] [!DNL API] before.
+Der Abschnitt [Erste Schritte mit REST-APIs](../../api/rest-api-main/aam-api-getting-started.md) enthält Informationen zu allgemeinen Anforderungen, Authentifizierung, verfügbaren Methoden usw. Das ist ein guter Anfang, wenn Sie noch nicht mit dem [!DNL Audience Manager][!DNL API] vorher gearbeitet haben.
 
-### Schritt 2: Anmeldedaten für oauth 2 anfordern
+### Schritt 2: Zugriffsberechtigungen für OAuth2 anfordern
 
-You need a client ID and secret to make [!DNL API] calls. Während des Integrationssetups können Sie eine Client-ID und ein geheimer Schlüssel von Ihrem Integrationsspezialisten abrufen. You can also send an email request to [!UICONTROL Audience Manager Customer Care] at [!DNL amsupport@adobe.com].
+Sie benötigen eine Client-ID und ein Geheimnis, um [!DNL API] Aufrufe zu tätigen. Sie können während des Integrationsprozesses eine Client-ID und ein Geheimnis von Ihrem Integrationsspezialisten abrufen. Sie können auch eine E-Mail-Anfrage an [!UICONTROL Audience Manager Customer Care] eine Adresse senden [!DNL amsupport@adobe.com].
 
-### Schritt 3: Erfassen kundenspezifischer Informationen aus allen integrierten Kunden
+### Schritt 3: Erfassen kundenspezifischer Informationen von jedem integrierten Kunden
 
-Fordern Sie Folgendes von jedem integrierten Kunden an:
+Fordern Sie bei jedem integrierten Kunden Folgendes an:
 
-* Benutzername: Dies gilt für einen eingeschränkten Benutzer, der über schreibgeschützte Berechtigungen für das Ziel verfügt, das einer bestimmten Integration zugeordnet ist.
+* Benutzername: Dies gilt für einen eingeschränkten Benutzer mit schreibgeschützten Berechtigungen für das Ziel, das mit einer bestimmten Integration verknüpft ist.
 * Kennwort: Das Benutzerkennwort.
-* Ziel-ID: Dies ist die ID (eine Ganzzahl), die dem Ziel zugeordnet ist, das für die spezifische Server-zu-Server-Integration erstellt wurde.
+* Ziel-ID: Dies ist die ID (eine Ganzzahl), die mit dem Ziel verknüpft ist, das für die jeweilige Server-zu-Server-Integration erstellt wurde.
 
-### Schritt 4: Segmentmetadaten mit einem API-Aufruf abrufen
+### Schritt 4: Abrufen von Segmentmetadaten mit einem API-Aufruf
 
-After completing the previous steps, you can use a `GET` method to retrieve segment metadata. For a sample request and response, see [Return Destination Mappings](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). This call returns segment data formatted as key-value pairs in a [!DNL JSON] object. Einige der wichtigen Segmentattribute, die in der Antwort zurückgegeben werden, sind in der folgenden Tabelle aufgeführt.
+Nach Abschluss der vorherigen Schritte können Sie eine `GET` Methode zum Abrufen von Segmentmetadaten verwenden. Eine Beispielanforderung und -antwort finden Sie unter Zuordnungen [rückkehrender Ziele](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). Dieser Aufruf gibt Segmentdaten zurück, die als Schlüssel-Wert-Paare in einem [!DNL JSON] Objekt formatiert sind. Einige der wichtigen Segmentattribute, die in der Antwort zurückgegeben werden, sind in der folgenden Tabelle aufgeführt.
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -52,22 +52,22 @@ After completing the previous steps, you can use a `GET` method to retrieve segm
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Destinationmappingid</code> </p> </td> 
-   <td colname="col2"> <p>The <span class="keyword"> Audience Manager</span> segment ID. </p> </td> 
+   <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
+   <td colname="col2"> <p>Die Segment-ID von <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Elementname</code> </p> </td> 
+   <td colname="col1"> <p> <code> elementName</code> </p> </td> 
    <td colname="col2"> <p>Der Segmentname. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Elementdescription</code> </p> </td> 
+   <td colname="col1"> <p> <code> elementDescription</code> </p> </td> 
    <td colname="col2"> <p>Ein Text, der das Segment kurz beschreibt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Elementstatus</code> </p> </td> 
-   <td colname="col2"> <p>Der aktuelle Status der Segmentzuordnung. Zu den zurückgegebenen Statusoptionen gehören: </p> 
+   <td colname="col1"> <p> <code> elementStatus</code> </p> </td> 
+   <td colname="col2"> <p>Der aktuelle Status der Segmentzuordnung. Zu den Rückgabestatusoptionen gehören: </p> 
     <ul id="ul_BA3A1F5A773D4ECD9A1A3A1118BDDA8A"> 
-     <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <code> aktiv</code> </li> 
+     <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <code> active</code> </li> 
      <li id="li_98C04A861C2D4364B5FBD24498E8E9C5"> <code> inaktiv</code> </li> 
      <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <code> gelöscht</code> </li> 
     </ul> </td> 
