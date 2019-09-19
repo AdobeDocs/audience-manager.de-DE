@@ -1,19 +1,19 @@
 ---
-description: Das Erstellen und Aktualisieren von Arbeitsblättern akzeptiert eine traitrule-Kopfzeile, mit der Sie mehrere Regeln in einem einzelnen Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen zu erstellen.
-seo-description: Das Erstellen und Aktualisieren von Arbeitsblättern akzeptiert eine traitrule-Kopfzeile, mit der Sie mehrere Regeln in einem einzelnen Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen zu erstellen.
-seo-title: Erstellen oder Aktualisieren von Trait-Regeln und Segmentregeln
+description: Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren einen Header der EigenschaftRegel, mit dem Sie mehrere Regeln in einem Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen durchzuführen.
+seo-description: Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren einen Header der EigenschaftRegel, mit dem Sie mehrere Regeln in einem Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen durchzuführen.
+seo-title: Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln
 solution: Audience Manager
-title: Erstellen oder Aktualisieren von Trait-Regeln und Segmentregeln
-uuid: bdd 5 f 8 f 1-bb 83-4844-b 681-654 e 45 ace 3 e 1
+title: Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln
+uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Create or Update Trait Rules and Segment Rules{#create-or-update-trait-rules-and-segment-rules}
+# Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln{#create-or-update-trait-rules-and-segment-rules}
 
-Das Erstellen und Aktualisieren von Arbeitsblättern akzeptiert eine traitrule-Kopfzeile, mit der Sie mehrere Regeln in einem einzelnen Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen zu erstellen.
+Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren einen Header der EigenschaftRegel, mit dem Sie mehrere Regeln in einem Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen durchzuführen.
 
 <!-- 
 
@@ -23,38 +23,38 @@ Das Erstellen und Aktualisieren von Arbeitsblättern akzeptiert eine traitrule-K
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Dieses Tool wird zur Bequemlichkeit und nur als Freundlichkeit bereitgestellt. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC-Gruppenberechtigungen,](../../features/administration/administration-overview.md) die in der [!DNL Audience Manager] Benutzeroberfläche zugewiesen [!UICONTROL Bulk Management Tools]wurden, werden in der Benutzeroberfläche berücksichtigt.
+>Die [!UICONTROL Bulk Management Tools] werden *nicht* von unterstützt [!DNL Audience Manager]. Dieses Tool wird nur aus praktischen Gründen und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../../api/rest-api-main/aam-api-getting-started.md) arbeiten. [In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
 
-## Working with trait rules {#trait-rules}
+## Arbeiten mit Eigenschaftsregeln {#trait-rules}
 
-In Ihrem Arbeitsblatt gibt die Spalte der Eigenschaftenregel Regeln zurück, die aus booleschen Ausdrücken, Vergleichsoperatoren und regulären Ausdrücken bestehen. You can create rules with trait or segment builder in [!DNL Audience Manager] and copy them to your worksheet. Wenn Sie mit der Regelsyntax vertraut sind, können Sie Ausdrücke direkt in den Arbeitsblättern schreiben.
+In Ihrem Arbeitsblatt gibt die Spalte mit den Eigenschaftsregeln Regeln zurück und akzeptiert Regeln, die aus booleschen Ausdrücken, Vergleichsoperatoren und regulären Ausdrücken bestehen. Sie können Regeln mit Eigenschaften oder Segmentaufbau erstellen [!DNL Audience Manager] und sie in Ihr Arbeitsblatt kopieren. Wenn Sie mit der Regelsyntax vertraut sind, können Sie Ausdrücke direkt in die Arbeitsblätter schreiben.
 
-## Rule builder example {#rule-builder-example}
+## Beispiel zum Regelaufbau {#rule-builder-example}
 
-Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. Es handelt sich jedoch nicht um eine schrittweise Anleitung für diese Tools. Stattdessen beginnen wir mit einer einfachen Regel, die bereits erstellt wurde. For instructions about how to use the rule builders see [Segment Builder](../../features/segments/segment-builder.md) and [Trait Builder](../../features/traits/about-trait-builder.md).
+Schauen wir uns ein Beispiel an, das zeigt, wie Sie eine Regel erstellen können, die Sie zum Arbeitsblatt für Massen [!UICONTROL Segment Builder] verwenden können. Es handelt sich jedoch nicht um eine Reihe von schrittweisen Anweisungen für diese Werkzeuge. Stattdessen beginnen wir mit einer einfachen Regel, die bereits erstellt wurde. Anweisungen zur Verwendung der Regelaufbau finden Sie unter [Segmentaufbau](../../features/segments/segment-builder.md) und [Eigenschaftenaufbau](../../features/traits/about-trait-builder.md).
 
-With the visual rule builder, we've created a segment rule with 3 traits and a Boolean [!UICONTROL AND] operator.
+Mit dem visuellen Regelaufbau haben wir eine Segmentregel mit 3 Eigenschaften und einem booleschen [!UICONTROL AND] Operator erstellt.
 
 ![](assets/visualrule.png)
 
-Click **[!UICONTROL Code View]** to get the text version of this rule.
+Klicken Sie auf **[!UICONTROL Code View]** , um die Textversion dieser Regel abzurufen.
 
 >[!TIP]
 >
->Click **[!UICONTROL Validate Expression]** to check your rule logic. Dadurch wird verhindert, dass Sie eine ungültige Regel hochladen.
+>Klicken Sie auf **[!UICONTROL Validate Expression]** , um Ihre Regellogik zu überprüfen. Dadurch wird verhindert, dass Sie eine ungültige Regel hochladen.
 
 ![](assets/coderule.png)
 
-Paste the rule into the [!UICONTROL Bulk Management Tools] worksheet and commit your changes to update segment rules in bulk.
+Fügen Sie die Regel in das [!UICONTROL Bulk Management Tools] Arbeitsblatt ein und übernehmen Sie Ihre Änderungen, um Segmentregeln stapelweise zu aktualisieren.
 
 ![](assets/segmentrule.png)
 
-## Creating your own rules {#create-rules}
+## Erstellen eigener Regeln {#create-rules}
 
-You can write your own rules outside of [!UICONTROL Rule Builder]. Bevor Sie beginnen, lesen Sie die Dokumentation, die sich auf Dinge wie Operatoren, Ausdruck und erforderliche Variablen bezieht. Wir empfehlen Ihnen Folgendes:
+Sie können Ihre eigenen Regeln außerhalb von schreiben [!UICONTROL Rule Builder]. Bevor Sie beginnen, lesen Sie unbedingt die Dokumentation zu Operatoren, Ausdrücken und erforderlichen Variablen. Es wird empfohlen, Folgendes zu überprüfen:
 
-* [Arbeiten mit Vergleichsoperatoren im Eigenschaftenaufbau](../../features/traits/trait-comparison-operators.md)
+* [Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau](../../features/traits/trait-comparison-operators.md)
 * [Reihenfolge der Vorgänge](../../features/traits/trait-operator-precedence.md)
-* [Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
-* [Beispielausdrücke mit Booleschen und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
+* [Voraussetzungen für das Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
+* [Beispielausdrücke mit booleschen Operatoren und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
 
