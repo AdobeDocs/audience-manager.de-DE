@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datensicherheit
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 91444ad943fcd020c83e522922d67ef400bf8824
 
 ---
 
@@ -25,24 +25,24 @@ In Audience Manager denken wir an Sicherheit in drei Hauptkategorien:
 | **Datenleck/Transparenz** | Tiefer und umsetzbarer Einblick in Aktivitäten vor Ort, die Datenleckage verursachen oder zu Datenlecks beitragen |
 | **Prozess-/Richtlinienverbesserungen** | Kunden durch Zusammenarbeit mit branchenüblichen Best Practices für Datenschutz und Datensicherheit |
 
-## Systeme, Schulung und Zugriff {#systems-training-access}
+## Systems, Training, and Access {#systems-training-access}
 
 Prozesse, die unser System und Ihre Daten schützen.
 
-**** Überprüfung der externen Sicherheit:  Audience Manager überprüft die Sicherheit jährlich und vierteljährlich.
+**** External Security Validation:  Audience Manager tests security on an annual and quarterly basis.
 
-* Jährlich: Einmal im Jahr wird Audience Manager einem vollständigen Penetrationstest unterzogen, der von einem unabhängigen Drittanbieter durchgeführt wird. Der Test wurde entwickelt, um Sicherheitslücken in der Anwendung zu identifizieren. Zu den Tests gehören das Prüfen auf Site-übergreifende Skripterstellung, SQL-Injektionen, Formularparametermanipulation und andere Schwachstellen auf Anwendungsebene.
-* Vierteljährlich: Jedes Quartal überprüfen interne Teams auf Sicherheitslücken. Zu diesen Tests gehören Netzwerkprüfungen auf offene Ports und Service-Schwachstellen.
+* Yearly: Once a year, Audience Manager undergoes a full penetration test conducted by an independent third-party company. The test is designed to identify security vulnerabilities in the application. The tests include scanning for cross-site scripting, SQL injections, form parameter manipulation, and other application-level vulnerabilities.
+* Quarterly: Once each quarter, internal teams check for security vulnerabilities. Zu diesen Tests gehören Netzwerkprüfungen auf offene Ports und Service-Schwachstellen.
 
-**** Systemsicherheit:  Um die Sicherheit und den Schutz von Daten zu gewährleisten, muss Audience Manager Folgendes tun:
+**Systems Security:**  To help keep data safe and private, Audience Manager:
 
 * Blockiert Anfragen von nicht autorisierten IP-Adressen.
 * Schützt Daten hinter Firewalls, VPNs und mit Virtual Private Cloud-Speicher.
-* Verfolgt Änderungen in den Kunden- und Steuerungsdatenbanken mit auslöserbasierter Prüfprotokollierung. Diese Protokolle verfolgen alle Änderungen auf Datenbankebene, einschließlich der Benutzer-ID und IP-Adresse, von der aus Änderungen vorgenommen werden.
+* Verfolgt Änderungen in den Kunden- und Steuerungsdatenbanken mit auslöserbasierter Prüfprotokollierung. These logs track all changes at the database level, including the user ID and IP address from which changes are made.
 
-**** Sicherheitselemente:  Audience Manager verfügt über ein dediziertes Netzwerkteam, das Firewalls und Einbrucherkennungsgeräte überwacht. Nur wichtige Mitarbeiter haben Zugang zu unserer Sicherheitstechnik und unseren Daten.
+**Security Assets:**  Audience Manager has a dedicated network operations team that monitors firewalls and intrusion-detection devices. Nur wichtige Mitarbeiter haben Zugang zu unserer Sicherheitstechnik und unseren Daten.
 
-**** Sicherheitsschulung:  Intern gilt unser Engagement für Sicherheit auch für Entwickler, die an unserem Produkt arbeiten. Adobe bietet Entwicklern formelle Schulungen zum Erstellen sicherer Anwendungen und Dienste.
+**Security Training:**  Internally, our commitment to security extends to developers who work on our product. Adobe bietet Entwicklern formelle Schulungen zum Erstellen sicherer Anwendungen und Dienste.
 
 **** Sicherer Zugriff:  Audience Manager erfordert sichere Kennwörter, um sich beim System anzumelden. Siehe [Kennwortanforderungen](../../reference/password-requirements.md).
 
@@ -68,12 +68,24 @@ Adobe Audience Manager unterstützt zwei Hauptmethoden zum Übertragen von S2S-D
 
 Beide Methoden sind unter Berücksichtigung der Sicherheit unserer Kunden- und Partnerdaten konzipiert, während die Daten zwischen ihren Systemen und unserem System liegen.
 
-**** SFTP: Bei der SFTP-Option wählen die meisten Kunden die Bereitstellung von Dateien über das Secure FTP (SFTP)-Protokoll, das das Secure Shell (SSH)-Protokoll verwendet. Diese Methode stellt sicher, dass Dateien während des Fluges zwischen den Systemen des Kunden und dem Adobe-System verschlüsselt werden. Für jeden Kunden erstellen wir auf unseren SFTP-Servern einen per Gefängnis geschützten Speicherort, der an ein Benutzerkonto auf diesem System gebunden ist. Nur die autorisierten und privilegierten internen Systembenutzer des Kunden können auf diesen per Knopfdruck geschützten Speicherort zugreifen. Dieses Gefängnis ist für andere Kunden nie zugänglich.
+**** SFTP: Bei der SFTP-Option wählen die meisten Kunden die Bereitstellung von Dateien über das Secure FTP (SFTP)-Protokoll, das das Secure Shell (SSH)-Protokoll verwendet. Diese Methode stellt sicher, dass Dateien während des Fluges zwischen den Systemen des Kunden und dem Adobe-System verschlüsselt werden. Für jeden Kunden erstellen wir auf unseren SFTP-Servern einen per Gefängnis geschützten Speicherort, der an ein Benutzerkonto auf diesem System gebunden ist. Only the customer's credentialed and privileged internal system users can access this jailed drop-box location. Dieses Gefängnis ist für andere Kunden nie zugänglich.
 
-**** Amazon Web Services S3 über HTTPS: Für die S3-Auslieferungsoption empfehlen wir allen Kunden, ihre S3-Clients so zu konfigurieren, dass die HTTPS-Verschlüsselungsmethode für Dateiübertragungen verwendet wird (dies ist nicht die Standardeinstellung, daher muss sie explizit konfiguriert werden). Die HTTPS-Option wird sowohl vom s3cmd-Befehlszeilenwerkzeug als auch von den S3-Bibliotheken unterstützt, die in jeder gängigen Programmiersprache verfügbar sind. Bei aktivierter HTTPS-Option werden die Daten des Kunden während des Fluges zu unseren Systemen verschlüsselt. Für jeden Kunden erstellen wir einen separaten S3-Behälter-Unterordner, auf den nur die Anmeldeinformationen dieses Kunden und die unserer internen Systembenutzer zugreifen können.
+**** Amazon Web Services S3 über HTTPS: Für die S3-Auslieferungsoption empfehlen wir allen Kunden, ihre S3-Clients so zu konfigurieren, dass die HTTPS-Verschlüsselungsmethode für Dateiübertragungen verwendet wird (dies ist nicht die Standardeinstellung, daher muss sie explizit konfiguriert werden). The HTTPS option is supported both by the s3cmd command line tool as well as the S3 libraries available in every major programming language. With this HTTPS option enabled, customer's data is encrypted while in flight to our systems. Für jeden Kunden erstellen wir einen separaten S3-Behälter-Unterordner, auf den nur die Anmeldeinformationen dieses Kunden und die unserer internen Systembenutzer zugreifen können.
 
-Informationen zum Hinzufügen der PGP-Verschlüsselung zu Ihren Datendateien finden Sie unter [File PGP Encryption for Inbound Data Types](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
+To add PGP encryption to your data files, see File PGP Encryption for Inbound Data Types.[](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
 
-## Schutz von Daten durch Escapezeichen {#escaping-data}
+## Protecting Data by Escaping {#escaping-data}
 
 Beachten Sie, dass ausgehende Daten [!DNL Audience Manager] nicht entkommen, um sie gegen mögliche Site-übergreifende Skripterstellung (XSS) usw. zu schützen. Es liegt in der Verantwortung des Kunden, eingehenden Daten zu entkommen.
+
+## HTTP Strict-Transport-Security (#hsts)
+
+[!DNL HTTP Strict-Transport-Security (HSTS)] ist ein Sicherheitsrichtlinienmechanismus für Web-Seiten, der hilft, sich vor Cookie-Hijacking und Downgrade-Angriffen zu schützen, indem kein Traffic zugelassen [!DNL HTTP] wird und der alle [!DNL HTTP] Traffic transparent aktualisiert [!DNL HTTPS].
+
+Diese Richtlinie verbessert die Datensicherheit zwischen Clients und Adobe Edge-Servern.
+
+### Beispiel {#hsts-example}
+
+Wenn Sie versuchen, Zugriff zu erhalten `http://bank.demdex.com`, [!DNL HSTS] wird die Anforderung automatisch aktualisiert, `https://bank.demdex.com`falls der Browser die [!DNL HTTPS] Domäne nicht automatisch anfordert.
+
+Weitere Informationen zu HSTS finden Sie unter [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) .
