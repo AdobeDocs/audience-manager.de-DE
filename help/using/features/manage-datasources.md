@@ -1,13 +1,13 @@
 ---
 description: Um eine neue Datenquelle zu erstellen, gehen Sie zu Zielgruppendaten > Datenquellen > Neu hinzufügen und führen Sie die Schritte für jeden Abschnitt durch, der hier beschrieben wird. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
-keywords: cdf;benutzerdefinierter Datenfeed
+keywords: Datenquellen;Datenquelle verwalten;Zielgruppen-Manager-Datenquelle
 seo-description: Um eine neue Datenquelle zu erstellen, gehen Sie zu Zielgruppendaten > Datenquellen > Neu hinzufügen und führen Sie die Schritte für jeden Abschnitt durch, der hier beschrieben wird. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
 seo-title: Datenquelle erstellen
 solution: Audience Manager
-title: Datenquelle erstellen
+title: Data Sources verwalten
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 
 ---
 
@@ -53,31 +53,31 @@ So füllen Sie den [!UICONTROL Data Source Details] Abschnitt aus:
 
 ## Data Source Settings {#settings}
 
-Diese Einstellungen bestimmen, wie eine Datenquelle identifiziert, verwendet und freigegeben wird. Sie können auch die Fehlermeldung für eingehende Datendateien aktivieren. So füllen Sie den [!UICONTROL Data Source Settings] Abschnitt aus:
+Diese Einstellungen bestimmen, wie eine Datenquelle identifiziert, verwendet und freigegeben wird. You can also enable error reporting for inbound data files. So füllen Sie den [!UICONTROL Data Source Settings] Abschnitt aus:
 
 1. Aktivieren Sie ein [!UICONTROL Data Source Setting] Kontrollkästchen, um eine Option auf Ihre Datenquelle anzuwenden.
 2. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORE_LIKE_THIS]
 >
->* [Datenquelleneinstellungen und Menüoptionen](../features/datasources-list-and-settings.md#settings-menu-options)
+>* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
 
 
-## Datenquelle löschen {#delete-data-source}
+## Delete a Data Source {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Löschen Sie eine Datenquelle, die Sie nicht mehr benötigen.
+Delete a data source that you no longer need.
 
 >[!NOTE]
 >
->Beachten Sie die folgenden Einschränkungen:
+>Please note the following restrictions:
 >
->* Sie können keine [Active Audience- oder Datenquelle-synchronisierten Eigenschaften](../features/traits/client-activity-synced-audience-traits.md)löschen.
->* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Verwenden Sie den [Hauptdienst](https://marketing.adobe.com/resources/help/en_US/mcloud/) , um die Zuordnung dieser Datenquellen aufzuheben.
+>* You cannot delete an Active Audience or Data Source Synced Trait.[](../features/traits/client-activity-synced-audience-traits.md)
+>* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your  report suites. [!DNL Analytics] Use the Core Service to unmap these data sources.[](https://marketing.adobe.com/resources/help/en_US/mcloud/)
 
 
 1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
 1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Datenquellen.
-Mit dem [!UICONTROL Search] Feld können Sie die gewünschten Datenquellen suchen, wenn Sie eine lange Liste haben.
-1. Klicken Sie auf ![](assets/icon_trash.png)und bestätigen Sie dann den Löschvorgang.
+You can use the  box to locate the desired data sources if you have a long list.[!UICONTROL Search]
+1. Click  , then confirm the deletion.![](assets/icon_trash.png)
