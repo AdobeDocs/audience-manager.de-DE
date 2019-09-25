@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
+source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
 
 ---
 
@@ -17,7 +17,7 @@ Antworten auf häufige Fragen oder Probleme zum Thema Datenschutz und Daten.
 
 <!-- faq_privacy.xml -->
 
-## Datenschutz FAQ {#privacy-faq}
+##  Datenschutz FAQ {#privacy-faq}
 
 >[!TIP]
 >
@@ -52,26 +52,26 @@ In der folgenden Tabelle sind die Aufbewahrungszeiten für verschiedene Datentyp
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Back-End-Server </p> </td> 
-   <td colname="col2"> <p>120 Tage. </p> <p> Audience Manager löscht Benutzerdaten von unseren Back-End-Servern 120 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 120-Tage-Zyklus aufzeichnet, behalten wir diese Daten weitere 120 Tage bei. </p> </td> 
+   <td colname="col2"> <p>120-days. </p> <p> Audience Manager löscht Benutzerdaten von unseren Back-End-Servern 120 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 120-Tage-Zyklus aufzeichnet, behalten wir diese Daten weitere 120 Tage bei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-Server </p> </td> 
-   <td colname="col2"> <p> 14 Tage. </p> <p>Audience Manager löscht Benutzerdaten von unseren Edge-Servern 14 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 14-Tage-Zyklus aufzeichnet, behalten wir diese Daten weitere 14 Tage bei. Wenn der Benutzer nach dem 14-Tage-Zeitraum wieder aktiv wird, kommt es zu einer Verzögerung zwischen dieser ersten neuen Seitenansicht und dem Zeitpunkt, zu dem der Benutzer handlungsfähig wird. Nach mehr als 14 Tagen Inaktivität dauert es 6-18 Stunden, bis das gesamte Profil wieder in die Edge-Mitte gebracht wird. </p> </td> 
+   <td colname="col2"> <p> 14-days. </p> <p>Audience Manager löscht Benutzerdaten von unseren Edge-Servern 14 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 14-Tage-Zyklus aufzeichnet, behalten wir diese Daten weitere 14 Tage bei. If the user becomes active again after the 14-day period, there will be a delay between that first new page view and when the user becomes actionable. It takes 6-18 hours to get the full profile back out to the edge center after more than 14-days of inactivity. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rohprotokolle </p> </td> 
-   <td colname="col2"> <p>180 Tage (nach 180 Tagen ohne Aktivität entfernt). </p> <p>Rohprotokolle sind Daten, die von einem Edge-Server über HTTP-Aufrufe oder von an <span class="keyword"> Audience Manager</span>gesendeten Dateien empfangen werden. </p> </td> 
+   <td colname="col1"> <p>Raw logs </p> </td> 
+   <td colname="col2"> <p>180-days (removed after 180-days of no activity). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Anzeigenserver-Protokolle </p> </td> 
-   <td colname="col2"> <p><b>Berichterstellung</b> </p> <p>Protokolldateien werden bis zu 30 Tage für die Berichterstellung gespeichert. Wir bestehen nicht übereinstimmende Protokolle (d. h. Protokolle, für die keine ID-Synchronisierung zwischen der Anzeigen-Server-ID eines Besuchers und der <span class="keyword"> Audience Manager</span> -ID besteht) in unserem Backend-Speicher, und in <span class="keyword"> Amazon S3</span> gespeicherte übereinstimmende Protokolle werden bis zu 30 Tage lang aufbewahrt. </p> <p><b>Actionable Log Files</b> </p> <p>Sowohl übereinstimmende als auch nicht übereinstimmende Protokolle werden bis zu 30 Tage lang aufbewahrt. </p> </td> 
+   <td colname="col1"> <p>Ad Server Logs </p> </td> 
+   <td colname="col2"> <p><b>Berichterstellung</b> </p> <p>Log files are retained for reporting purposes for up to 30 days. We do not persist unmatched logs (i.e. logs for which there is no ID sync between a visitor's ad server ID and  Audience Manager ID) in our backend storage, and matched logs stored in  Amazon S3 are retained for up to 30 days.<span class="keyword"></span><span class="keyword"></span> </p> <p><b>Actionable Log Files</b> </p> <p>Both matched and unmatched logs are retained for up to 30 days. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Profile auf CRM-Ebene (authentifizierte Profile) </p> </td> 
-   <td colname="col2"> <p>Das Standardintervall für die Time-to-live (TTL) für inaktive CRM-Profile (Kunden-IDs) beträgt 24 Monate. Sie können jedoch die Benutzeroberfläche von Audience Manager verwenden, um das TTL-Intervall für inaktive CRM-Profile zwischen einem Monat und fünf Jahren zu reduzieren oder zu verlängern. Dies ist beim Erstellen oder Bearbeiten einer geräteübergreifenden Datenquelle möglich.</p> <p>Weitere Informationen finden Sie unter Datenquelleneinstellungen in <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Erstellen einer geräteübergreifenden Datenquelle </a>.</p> </td> 
+   <td colname="col1"> <p>CRM-level profiles (authenticated profiles) </p> </td> 
+   <td colname="col2"> <p>The default time-to-live (TTL) interval for inactive CRM-level profiles (Customer IDs) is 24 months. However, you can use the Audience Manager UI to reduce or extend the TTL interval for inactive CRM-level profiles between one month and 5 years. You can accomplish this when creating or editing a Cross-Device data source.</p> <p>For more information, see Data Source Settings in  Create a Cross-Device Data Source .<a href="../features/profile-merge-rules/merge-rules-start.md#settings"></a></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mobilgerät-IDs </p> </td> 
+   <td colname="col1"> <p>Mobile Device IDs </p> </td> 
    <td colname="col2"> <p>Die Aufbewahrungsbedingungen für Mobilgeräte-IDs (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) folgen der in den ersten beiden Zeilen beschriebenen Kadenz: Back-End-Server und Edge-Server. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ In der folgenden Tabelle sind die Aufbewahrungszeiten für verschiedene Datentyp
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zuordnungen zwischen synchronisierten IDs </p> </td> 
-   <td colname="col2"> <p>Zuordnungen zwischen synchronisierten IDs können während der gesamten Dauer der zugehörigen Unique User ID (AAM UUID)<a href="../reference/ids-in-aam.md">für </a> Audience Manager beibehalten werden. </p> </td> 
+   <td colname="col2"> <p>Die Lebensdauer der <a href="../features/administration/usage-limits.md#id-mapping-limits"> ID-Zuordnungen</a> zwischen Cookie-IDs von Audience Manager (Unique User IDs von<a href="../reference/ids-in-aam.md">Audience Manager oder AAM UUIDs</a>) und Cookie-IDs von Drittanbietern ist auf 120 Tage beschränkt. Die Lebensdauer der ID-Zuordnung wird jedes Mal zurückgesetzt, wenn das Audience Manager-Cookie im Audience Manager-Netzwerk angezeigt wird. Die letzte Synchronisierung der ID-Zuordnung bleibt während der gesamten Dauer der zugehörigen Unique User ID (AAM UUID)<a href="../reference/ids-in-aam.md">für </a>Audience Manager erhalten.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inbound-Daten </p> </td> 
