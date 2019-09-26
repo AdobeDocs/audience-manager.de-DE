@@ -5,12 +5,15 @@ seo-title: Implementierungsleitlinien für benutzerspezifische Ziele
 solution: Audience Manager
 title: Durchführungsleitlinien
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Durchführungsleitlinien {#implementation-guidance}
+
+>[!IMPORTANT]
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
 [!DNL People-Based Destinations] bietet mehrere Implementierungsstrategien, je nachdem, wie Ihre Kundendaten strukturiert sind. In diesem Artikel erhalten Sie einen Überblick über die Implementierungsschritte, die Sie je nach Szenario ausführen [!DNL People-Based Destinations]müssen.
 
@@ -35,25 +38,25 @@ Ihr Unternehmen, eine Fluggesellschaft, hat verschiedene Kundenstufen (Bronze, S
 
 Um sie über soziale Medien und ähnliche benutzerbasierte Kanäle hinweg als Ziel festzulegen, können Sie Ihre [Hash-E-Mail-Adressen](people-based-destinations-prerequisites.md) in Audience Manager einbinden und sie mit Ihren bestehenden Online-Aktivitätseigenschaften kombinieren, um neue Zielgruppensegmente zu erstellen. Als Nächstes können Sie diese Segmente verwenden, um Ihre Zielgruppe zielgerichtet zu gestalten [!DNL People-Based Destinations].
 
-**B) Zielgruppen-Targeting, das ausschließlich auf Ihrer Offline-Benutzeraktivität** basiert. In diesem Szenario enthält Ihr [!DNL CRM] System Ihre E-Mail-Adressen und andere Kundenattribute Ihrer Kunden. Kunden haben jedoch noch gar nicht mit Ihrer Website interagiert, sodass Sie keine Kundenaktivität in Audience Manager haben. Here's an example that illustrates this scenario:
+**B) Zielgruppen-Targeting, das ausschließlich auf Ihrer Offline-Benutzeraktivität** basiert. In diesem Szenario enthält Ihr [!DNL CRM] System Ihre E-Mail-Adressen und andere Kundenattribute Ihrer Kunden. Kunden haben jedoch noch gar nicht mit Ihrer Website interagiert, sodass Sie keine Kundenaktivität in Audience Manager haben. Hier ist ein Beispiel, das dieses Szenario illustriert:
 
-Ihr Unternehmen, ein Anbieter von Telekommunikationsdiensten, speichert Kundendaten wie E-Mail-Adressen und erworbene Telekommunikationspläne in einem internen [!DNL CRM]Bereich. You want to target existing customers in social platforms to offer them upgrade packages based on their existing subscriptions. To do this, you can ingest your hashed customer email addresses into Audience Manager, and create segments based on the existing customer subscriptions. Then, you can send these segments to  to target your customers with personalized offers.[!DNL People-Based Destinations]
+Ihr Unternehmen, ein Anbieter von Telekommunikationsdiensten, speichert Kundendaten wie E-Mail-Adressen und erworbene Telekommunikationspläne in einem internen [!DNL CRM]Bereich. Sie möchten bestehende Kunden in sozialen Plattformen gezielt ansprechen, um ihnen Upgradepakete basierend auf ihren bestehenden Abonnements anzubieten. Dazu können Sie Ihre Hash-E-Mail-Adressen von Kunden in Audience Manager erfassen und Segmente basierend auf bestehenden Kundenabonnements erstellen. Anschließend können Sie diese Segmente versenden, um Ihre Kunden mit personalisierten Angeboten [!DNL People-Based Destinations] als Ziel auszuwählen.
 
-## 2. Define the Type of Targeted Email Addresses {#define-target-email}
+## 2. Definieren des Typs der zielgerichteten E-Mail-Adressen {#define-target-email}
 
-The second step in defining your implementation strategy is deciding what type of customer email addresses you want to target.
+Der zweite Schritt bei der Definition Ihrer Implementierungsstrategie ist die Entscheidung, welche Art von E-Mail-Adressen von Kunden Sie als Ziel auswählen möchten.
 
-**A) Audience targeting based on your authenticated email addresses**. In this scenario, your users have multiple accounts associated with multiple email addresses, and you want to target them with personalized offers, based only on the email address that they authenticate on your website, in real time.
+**A) Zielgruppen-Targeting auf Basis Ihrer authentifizierten E-Mail-Adressen**. In diesem Szenario verfügen Ihre Benutzer über mehrere Konten, die mehreren E-Mail-Adressen zugeordnet sind, und Sie möchten sie mit personalisierten Angeboten in Echtzeit ansprechen, die nur auf der E-Mail-Adresse basieren, die sie auf Ihrer Website authentifizieren.
 
-**B) Zielgruppen-Targeting auf Basis all Ihrer zugehörigen E-Mail-Adressen**. In this scenario, your users have multiple accounts associated with multiple email addresses, and you want to target them across all of their associated email addresses, regardless of authenticated activity.
+**B) Zielgruppen-Targeting auf Basis all Ihrer zugehörigen E-Mail-Adressen**. In diesem Szenario haben Ihre Benutzer mehrere Konten, die mehreren E-Mail-Adressen zugeordnet sind, und Sie möchten sie unabhängig von der authentifizierten Aktivität auf alle zugehörigen E-Mail-Adressen ausrichten.
 
-## 3. Identify the Type of Customer IDs (CRM IDs) That You Have {#identify-customer-id}
+## 3. Identifizieren Sie den Typ der Kunden-IDs (CRM-IDs), die Sie haben {#identify-customer-id}
 
-Targeting audiences in [!DNL People-Based Destinations] requires you to send [SHA256 hashed](people-based-destinations-prerequisites.md) versions of your customer email addresses. Depending on your existing Audience Manager configuration, you may find yourself in one of the following two scenarios:
+Für das Targeting von Zielgruppen in [!DNL People-Based Destinations] müssen Sie [SHA256-Hash](people-based-destinations-prerequisites.md) -Versionen Ihrer E-Mail-Adressen Ihrer Kunden senden. Je nach Ihrer vorhandenen Audience Manager-Konfiguration befinden Sie sich in einem der folgenden beiden Szenarien:
 
-**A) Your Audience Manager customer IDs ([DPUUIDs](../../reference/ids-in-aam.md)) are already lowercase, hashed email addresses**. In this scenario, you can use these existing IDs to target your audiences in .[!DNL People-Based Destinations]
+**A) Ihre Audience Manager-Kunden-IDs ([DPUUIDs](../../reference/ids-in-aam.md)) sind bereits in Kleinbuchstaben und mit Hashing versehen**. In diesem Szenario können Sie diese vorhandenen IDs verwenden, um Ihre Zielgruppen in [!DNL People-Based Destinations]auszurichten.
 
-**B) Your Audience Manager customer IDs (DPUUIDs) are not lowercase, hashed email addresses.[](../../reference/ids-in-aam.md)** In diesem Szenario können Ihre vorhandenen Kunden-IDs nicht an gesendet werden [!DNL People-Based Destinations]. Zur Verwendung [!DNL People-Based Destinations]müssen Sie eine ID-Synchronisierung zwischen Ihren bestehenden Kunden-IDs und den Kleinbuchstaben- und Hash-Versionen Ihrer E-Mail-Adressen Ihrer Kunden durchführen. Dazu verwenden Sie entweder die [dateibasierte ID-Synchronisierung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) oder [deklarierte IDs](../declared-ids.md).
+**B) Ihre Audience Manager-Kunden-IDs ([DPUUIDs](../../reference/ids-in-aam.md)) sind nicht in Kleinbuchstaben, sondern Hash-E-Mail-Adressen**. In diesem Szenario können Ihre vorhandenen Kunden-IDs nicht an gesendet werden [!DNL People-Based Destinations]. Zur Verwendung [!DNL People-Based Destinations]müssen Sie eine ID-Synchronisierung zwischen Ihren bestehenden Kunden-IDs und den Kleinbuchstaben- und Hash-Versionen Ihrer E-Mail-Adressen Ihrer Kunden durchführen. Dazu verwenden Sie entweder die [dateibasierte ID-Synchronisierung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) oder [deklarierte IDs](../declared-ids.md).
 
 ## 4. Qualifikation der Eigenschaften {#trait-qualification}
 
@@ -72,12 +75,12 @@ Abhängig vom Typ der Kunden-IDs, die Sie in Audience Manager haben (siehe [3). 
 **B) Erstellen Sie eine neue Datenquelle**. Diese Option gilt für das Szenario, in dem Ihre Audience Manager-Kunden-IDs ([DPUUIDs](../../reference/ids-in-aam.md)) keine Hash-E-Mail-Adressen sind. In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen und Ihre Hash-E-Mail-Adressen mit einbeziehen. Sie können dies auf zwei Arten tun:
 
 * Verwenden Sie die dateibasierte ID-Synchronisierung. Einzelheiten dazu, wie ID-Synchronisierungsdateien aussehen sollten, finden Sie unter [Name und Inhaltsanforderungen für ID-Synchronisierungsdateien](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) . Bei Verwendung dieser Methode können Sie alle Ihre Hash-E-Mail-Adressen aus Ihrer [!DNL CRM] Datenbank als Ziel auswählen.
-* Verwenden Sie [deklarierte IDs](../declared-ids.md) , um beim Übergeben authentifizierter Kunden-IDs Ihre Hash-E-Mail-Adressen zu deklarieren. When using this method, Audience Manager, on your behalf, only targets your hashed email addresses from users who have authenticated online. Die E-Mail-Adressen, die auf benutzerbasierte Kanäle abzielen, sind nur die Adressen in den deklarierten ID-Ereignisaufrufen. Other email addresses associated with the customer ID are not activated in real-time.
+* Verwenden Sie [deklarierte IDs](../declared-ids.md) , um beim Übergeben authentifizierter Kunden-IDs Ihre Hash-E-Mail-Adressen zu deklarieren. Bei Verwendung dieser Methode wendet Audience Manager in Ihrem Namen nur auf Ihre Hash-E-Mail-Adressen von Benutzern, die sich online authentifiziert haben, ein. Die E-Mail-Adressen, die auf benutzerbasierte Kanäle abzielen, sind nur die Adressen in den deklarierten ID-Ereignisaufrufen. Andere mit der Kunden-ID verknüpfte E-Mail-Adressen werden nicht in Echtzeit aktiviert.
 
-## 6. Use a Profile Merge Rule for Segmentation {#use-profile-merge-rules}
+## 6. Eine Regel zur Profilzusammenführung für die Segmentierung verwenden {#use-profile-merge-rules}
 
-Depending on your use case (see 1. [ Defining Your Use Case), there are two ways to use  for segmentation.](people-based-destinations-workflow.md#defining-your-use-case)[!DNL Profile Merge Rules]
+Je nach Anwendungsfall (siehe [1). Definieren des Anwendungsfalls](people-based-destinations-workflow.md#defining-your-use-case)) gibt es zwei Möglichkeiten, die für die Segmentierung verwendet werden [!DNL Profile Merge Rules] können.
 
-**A) Use existing .[!DNL Profile Merge Rules]** This option applies to the first use case (audience targeting based on combined online and offline user activity). In this scenario, you have existing customer activity in Audience Manager and you have already defined at least one Profile Merge Rule that you have used in segmentation. In this case, you don't need to create any new .[!DNL Profile Merge Rules]
+**A) Vorhandene verwenden[!DNL Profile Merge Rules]**. Diese Option gilt für den ersten Anwendungsfall (Zielgruppen-Targeting auf der Grundlage der kombinierten Online- und Offline-Benutzeraktivität). In diesem Szenario haben Sie in Audience Manager über bestehende Kundenaktivitäten verfügen und bereits mindestens eine Profilzusammenführungsregel definiert, die Sie für die Segmentierung verwendet haben. In diesem Fall müssen Sie keine neuen erstellen [!DNL Profile Merge Rules].
 
-**B) Create a new,  Merge Rule.[!DNL All Cross-Device Profiles]** This option applies to the second use case (audience targeting based exclusively on offline user activity). In this scenario you are bringing your offline customer data from your  into Audience Manager, and want to create segments from that data. [!DNL CRM] To do this,  introduces a new, fourth Profile Merge Rule, called . [!DNL People-Based Destinations]**[!DNL All Cross-Device Profiles]** This is the rule that you need to use when segmenting purely offline data.
+**B) Erstellen Sie eine neue[!DNL All Cross-Device Profiles]Merge-Regel**. Diese Option gilt für den zweiten Anwendungsfall (Zielgruppen-Targeting, das ausschließlich auf Offline-Benutzeraktivität basiert). In diesem Szenario bringen Sie Ihre Offline-Kundendaten von Ihrem [!DNL CRM] in Audience Manager und möchten aus diesen Daten Segmente erstellen. Dazu führt Sie [!DNL People-Based Destinations] eine neue, vierte Regel zur Profilzusammenführung mit dem Namen **[!DNL All Cross-Device Profiles]**. Diese Regel müssen Sie bei der Segmentierung von reinen Offlinedaten verwenden.
