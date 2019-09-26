@@ -5,7 +5,7 @@ seo-title: Übersicht über benutzerspezifische Ziele und Anwendungsfälle
 solution: Audience Manager
 title: Übersicht und Anwendungsfälle
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
@@ -13,6 +13,9 @@ source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 # Übersicht und Anwendungsfälle {#overview-use-cases}
 
 Verwenden Sie diese Option, [!DNL People-Based Destinations] um Zielgruppensegmente von Erstanbietern an benutzerbasierte Umgebungen zu senden. Diese Umgebungen sind geschlossene Ökosysteme, die zu einer Entität gehören, die den Inhalt steuert, der darin angezeigt wird. Dazu gehören soziale Plattformen wie [!DNL Facebook]und andere Plattformen, die zur Personalisierung der angezeigten Inhalte auf Kundenkonten angewiesen sind.
+
+>[!IMPORTANT]
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
 ## Überblick {#overview}
 
