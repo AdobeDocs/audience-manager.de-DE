@@ -5,12 +5,15 @@ seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Erwägungen
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Voraussetzungen und Erwägungen {#prerequisites-considerations}
+
+>[!IMPORTANT]
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
 Nachfolgend finden Sie einen Überblick über die Kundenanforderungen, die Sie erfüllen müssen, bevor Sie sich für [!DNL People-Based Destinations]die Anmeldung anmelden.
 
