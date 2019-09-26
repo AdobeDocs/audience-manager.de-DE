@@ -5,7 +5,7 @@ seo-title: Übersicht über benutzerspezifische Ziele und Anwendungsfälle
 solution: Audience Manager
 title: Übersicht und Anwendungsfälle
 translation-type: tm+mt
-source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -16,7 +16,7 @@ Verwenden Sie diese Option, [!DNL People-Based Destinations] um Zielgruppensegme
 
 ## Überblick {#overview}
 
-[!DNL People-Based Destinations] ermöglichen Ihnen die Anwendung der Segmentierung auf Online- und Offlinedaten, um Zielgruppensegmente basierend auf Hash-Bezeichnern wie E-Mail-Adressen oder Telefonnummern zu erstellen. Anschließend können Sie diese Segmente an "umschlossene Gärten"senden, z. B. [!DNL Facebook]an die Zielgruppe, unabhängig von deren Online-Interaktionen oder Authentifizierungsstatus. [!DNL People-Based Destinations] können Ihnen dabei helfen,
+[!DNL People-Based Destinations] ermöglichen Ihnen die Anwendung der Segmentierung auf Online- und Offlinedaten, um Zielgruppensegmente basierend auf [Hash-Bezeichnern](people-based-destinations-prerequisites.md#hashing-requirements)wie E-Mail-Adressen oder Telefonnummern zu erstellen. Anschließend können Sie diese Segmente an "umschlossene Gärten"senden, z. B. [!DNL Facebook]an die Zielgruppe auf den sozialen Plattformen. [!DNL People-Based Destinations] können Ihnen dabei helfen,
 
 * Targeting von Offline- und Online-Zielgruppen in Plattformen wie [!DNL Facebook]auf Basis von Hash-E-Mail-Adressen;
 * Ergänzung der vorhandenen Geräte- und Cookie-Targeting-Funktionen von Audience Manager;
@@ -25,7 +25,7 @@ Verwenden Sie diese Option, [!DNL People-Based Destinations] um Zielgruppensegme
 * Zielgruppen in Cookie-Umgebungen ohne Cookies auswählen;
 * Targeting von Zielgruppen durch Deduplizierung von E-Mail-Adressen, die mit Kunden-IDs übereinstimmen.
 
-Sie können [!DNL People-Based Destinations] zum Segmentieren und Targeting von Kunden mit hohem Wert, die Ihre Website möglicherweise noch nie besucht haben, oder zum Anhalten des Targeting von Kunden, die bereits offline konvertiert haben, verwenden. Darüber hinaus können Sie Offline-Erstanbieter-Daten mit Online-Erstanbieterdaten, einschließlich Kundendaten aus anderen Adobe Experience Cloud-Lösungen, kombinieren, um Ihre Social-Media-Werbemaßnahmen zu optimieren. [!DNL Profile Merge Rules]
+Sie können [!DNL People-Based Destinations] zum Segmentieren und Targeting von Kunden mit hohem Wert, die Ihre Website möglicherweise nicht besuchen, oder zum Anhalten des Targeting von Kunden, die bereits offline konvertiert haben, verwenden. Darüber hinaus können Sie Ihre Offline-Erstanbieter-Daten mit Ihren Online-Erstanbieterdaten, einschließlich Kundendaten aus anderen Adobe Experience Cloud-Lösungen, kombinieren, um Ihre Social-Media-Werbemaßnahmen zu optimieren. [!DNL Profile Merge Rules]
 
 ![pbd-overview](assets/pbd-overview.png)
 
@@ -45,15 +45,15 @@ Die "herkömmlichere"Methode zum Targeting von Zielgruppen über benutzerbasiert
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Mit Audience Manager [!DNL People-Based Destinations]können Sie alle Kundendaten zentralisieren, Zielgruppensegmente erstellen und sie über mehrere benutzerbasierte Kanäle aktivieren. Dies ist über die Benutzeroberfläche von Audience Manager möglich, sodass Sie keine zusätzlichen Daten manuell auf jede Plattform hochladen müssen, wodurch Sie wertvolle Zeit in diesem Prozess einsparen können.
+Mithilfe [!DNL People-Based Destinations]von Audience Manager können Sie Ihre Kundendaten zentralisieren, Zielgruppensegmente erstellen und sie über mehrere benutzerbasierte Kanäle aktivieren. Dies ist über die Benutzeroberfläche von Audience Manager möglich, sodass Sie keine zusätzlichen Daten manuell auf jede Plattform hochladen müssen, wodurch Sie wertvolle Zeit in diesem Prozess einsparen können.
 
 **Erstellen und aktivieren Sie Zielgruppensegmente aus reinen Offline-Profilen.**
 
-[!DNL People-Based Destinations] Behebung des Problems, das zuvor nur Zielgruppensegmente je nach Geräteaktivität aktivieren konnte. Mit [!DNL People-Based Destinations]dieser Funktion können Sie Segmente aus reinen Offlinedaten von Ihren eigenen erstellen [!DNL CRM]und sie auf benutzerbasierten Plattformen aktivieren. Außerdem können Sie Offlinedaten mit Gerätedaten korrelieren, die Sie bereits in Audience Manager haben.
+[!DNL People-Based Destinations] Behebung des Problems, das zuvor nur Zielgruppensegmente je nach Geräteaktivität aktivieren konnte. Mit [!DNL People-Based Destinations]dieser Funktion können Sie Segmente aus reinen Offlinedaten von Ihren eigenen erstellen [!DNL CRM]und sie auf benutzerbasierten Plattformen aktivieren. Außerdem können Sie Ihre Offlinedaten mit den Gerätedaten korrelieren, die Sie bereits in Audience Manager haben.
 
 **Nutzen Sie die Datenverwaltung und Datenschutzkontrollen von Audience Manager, um Kundendaten sicher zu verarbeiten.**
 
-[!DNL People-Based Destinations] Verwenden Sie nur Hash-IDs, sodass Ihre Kundendaten immer geschützt sind, vom Zeitpunkt an, zu dem Sie sie an Bord des Audience Managers haben, bis zu dem Zeitpunkt, zu dem sie Ihr Zielziel erreicht haben. Dadurch werden Datenschutzrisiken beseitigt, die beim manuellen Hochladen vertraulicher Kundendaten in jede Aktivierungsplattform entstehen.
+[!DNL People-Based Destinations] erfordert, dass Sie nur unwiderruflich mit Hash-IDs arbeiten. Dadurch wird das Risiko reduziert, das beim manuellen Hochladen von Kundendaten in jede Zielplattform besteht.
 
 ## Nutzungsszenarios {#use-cases}
 
@@ -61,12 +61,12 @@ Damit Sie besser verstehen können, wie und wann Sie diese Funktion verwenden so
 
 ### Use Case #1 {#use-case-1}
 
-Ein Online-Händler möchte bestehende Kunden über soziale Plattformen erreichen und ihnen personalisierte Angebote basierend auf ihren bisherigen Bestellungen zeigen. Damit können sie [!DNL People-Based Destinations]Hash-E-Mail-Adressen von sich aus [!DNL CRM] zu Audience Manager erfassen, Segmente aus den Offlinedaten erstellen und diese Segmente an die sozialen Plattformen senden, für die sie werben möchten, und ihre Werbeausgaben optimieren.
+Ein Online-Händler möchte bestehende Kunden über soziale Plattformen erreichen und ihnen personalisierte Angebote basierend auf ihren bisherigen Bestellungen zeigen. Der Online-Händler kann somit [!DNL People-Based Destinations]Hash-E-Mail-Adressen von sich aus [!DNL CRM] an Audience Manager erfassen, Segmente aus eigenen Offline-Daten erstellen und diese Segmente an die sozialen Plattformen senden, für die sie werben möchten, und so ihre Werbeausgaben optimieren.
 
 ### Use Case #2 {#use-case-2}
 
-Eine Fluggesellschaft hat verschiedene Kundenstufen (Bronze, Silver und Gold) und möchte über soziale Plattformen für jede dieser Stufen personalisierte Angebote bereitstellen. Das Unternehmen verwendet Audience Manager, um die Kundenaktivität auf der Website zu analysieren. Nicht alle Kunden verwenden jedoch die mobile App der Fluggesellschaft, und einige von ihnen haben sich noch nie bei der Website des Unternehmens angemeldet. Die einzigen IDs, die das Unternehmen bei diesen Kunden hat, sind Mitgliedschafts-IDs und E-Mail-Adressen.
+Eine Fluggesellschaft hat verschiedene Kundenstufen (Bronze, Silver und Gold) und möchte über soziale Plattformen für jede dieser Stufen personalisierte Angebote bereitstellen. Das Unternehmen verwendet Audience Manager, um die Kundenaktivität auf der Website zu analysieren. Nicht alle Kunden verwenden jedoch die mobile App der Fluggesellschaft, und einige von ihnen haben sich noch nicht bei der Website des Unternehmens angemeldet. Die einzigen IDs, die das Unternehmen bei diesen Kunden hat, sind Mitgliedschafts-IDs und E-Mail-Adressen.
 
-Um sie über soziale Medien und ähnliche benutzerbasierte Kanäle hinweg als Ziel festzulegen, können sie die Kundendaten aus dem Audience Manager [!DNL CRM] mit den Hash-E-Mail-Adressen als Bezeichner einbinden.
+Um sie über soziale Medien und ähnliche benutzerbasierte Kanäle hinweg als Ziel festzulegen, können sie die Kundendaten von ihren Kunden in Audience Manager einbinden und dabei die Hash-E-Mail-Adressen als ID verwenden. [!DNL CRM]
 
-Als Nächstes können sie die Offline-Daten mit bestehenden Online-Aktivitätsmerkmalen kombinieren, um neue Zielgruppensegmente zu erstellen, die sie als Ziel verwenden können [!DNL People-Based Destinations].
+Als Nächstes können sie ihre Offline-Daten mit ihren bestehenden Online-Aktivitätsmerkmalen kombinieren, um neue Zielgruppensegmente zu erstellen, die sie als Ziel verwenden können [!DNL People-Based Destinations].
