@@ -5,7 +5,7 @@ seo-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als geräte
 solution: Audience Manager
 title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
 translation-type: tm+mt
-source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
+source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
 
 ---
 
@@ -88,6 +88,10 @@ Achten Sie beim Zuordnen von Zielgruppensegmenten zu Twitter darauf, die folgend
 
 * Korrigieren Sie den Segment- oder Zuordnungsnamen: "US-amerikanische und europäische Käufer";
 * Falscher Segment- oder Zuordnungsname: "US, European 5h0pP3rs".
+
+## Überlegungen zu Übereinstimmungsraten {#match-rates-considerations}
+
+Bei der Verwendung [!UICONTROL Twitter Tailored Audiences]werden die Werte [!UICONTROL Segment Addressable Audience] und [!UICONTROL Segment Match Rate] Metriken auf der Zielseite nicht angezeigt. Dies ist ein normales Verhalten, da die Zielgruppenübereinstimmung mit den Übereinstimmungsraten für dieses Ziel von [!UICONTROL Twitter]Adobe verarbeitet und gehostet wird.
 
 >[!IMPORTANT]
 >
