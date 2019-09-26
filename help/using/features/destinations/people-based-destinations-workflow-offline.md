@@ -5,12 +5,15 @@ seo-title: Workflow B - Personalisierung auf Basis von Nur-Offline-Daten
 solution: Audience Manager
 title: Workflow B - Personalisierung auf Basis von Nur-Offline-Daten
 translation-type: tm+mt
-source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Workflow B - Personalisierung auf Basis von Nur-Offline-Daten {#workflow-b}
+
+>[!IMPORTANT]
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
 Diese Seite enthält eine schrittweise Anleitung zum Erstellen von Zielgruppensegmenten aus reinen Offline-Kundendaten und zum Senden dieser Segmente an People-Based-Ziele.
 
