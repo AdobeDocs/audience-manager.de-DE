@@ -5,12 +5,15 @@ seo-title: Zielgruppen freigeben
 solution: Audience Manager
 title: Zielgruppen freigeben
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Zielgruppen freigeben {#shareable-audiences}
+
+>[!IMPORTANT]
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
 [!DNL People-Based Destinations] bringen Sie den Begriff " [!DNL Shareable Audiences] in Audience Manager". Anhand dieser Metrik können Sie erkennen, wie viele der Hash-E-Mail-Adressen Audience Manager für die Zielplattform freigeben kann.
 
