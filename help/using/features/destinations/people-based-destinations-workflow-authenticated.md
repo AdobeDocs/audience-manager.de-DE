@@ -5,12 +5,15 @@ seo-title: Arbeitsablauf C - Personalisierung basierend auf authentifizierter Ak
 solution: Audience Manager
 title: Arbeitsablauf C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten
 translation-type: tm+mt
-source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Arbeitsablauf C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten {#workflow-c}
+
+>[!IMPORTANT]
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
 Diese Seite enthält eine schrittweise Anleitung, wie Offline- [!DNL CRM] Daten mit Echtzeit-Verhaltensdaten für authentifizierte Benutzer kombiniert werden können, um Zielgruppensegmente zu erstellen und diese Zielgruppensegmente dann an [!DNL People-Based Destinations]zu senden.
 
@@ -89,7 +92,7 @@ Der nächste Schritt ist die Erstellung einer neuen Zusammenführungsregel, mit 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**.
 2. Klicken Sie auf **[!UICONTROL Add New Rule]**.
 3. Geben Sie eine Regel zum Zusammenführen des Profils ein **[!UICONTROL Name]** und **[!UICONTROL Description]**.
-4. Wählen Sie im **[!UICONTROL Profile Merge Rule Setup]** Abschnitt die **[!UICONTROL All Cross-Device Profiles]** Regel aus der **[!UICONTROL Cross-Device Options]** Liste.
+4. Wählen Sie im **[!UICONTROL Profile Merge Rule Setup]** Abschnitt die **[!UICONTROL Current Authenticated Profiles]** oder **[!UICONTROL Last Authenticated Profiles]** -Regel aus der **[!UICONTROL Cross-Device Options]** Liste aus.
 5. Wählen Sie in der **[!UICONTROL Cross-Device Profile Options]** Liste die Datenquellen aus, für die Sie die Segmentierung ausführen möchten. Dies sollten die Datenquellen sein, die Ihre vorhandenen DPUUIDs enthalten.
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
