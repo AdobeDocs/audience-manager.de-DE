@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Neuigkeit und Häufigkeit
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 translation-type: tm+mt
-source-git-commit: c7e8b67ccad4479487b471668462937c5be6be34
+source-git-commit: 1cbff10b9e978755e139e7d5b996249de5ebb5bd
 
 ---
 
 
 # Recency and Frequency {#recency-and-frequency}
 
-In [!UICONTROL Segment Builder], recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
+In [!UICONTROL Segment Builder]Neuigkeit und Häufigkeit können Sie Besucher basierend auf Aktionen segmentieren, die in einem bestimmten Tagesintervall stattfinden oder sich wiederholen.
 
 Audience Manager definiert [!DNL recency] und [!DNL frequency] wie folgt:
 
@@ -45,6 +45,10 @@ In [!UICONTROL Segment Builder], [!UICONTROL Recency] und [!UICONTROL Frequency]
   <tr> 
    <td colname="col1"> <p> <b>Mindestwert</b> </p> </td> 
    <td colname="col2"> <p>Die Neuigkeit muss größer als 0 sein. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <b>Eigenschaftstypen</b> </p> </td> 
+   <td colname="col2"> <p>Sie können Neuigkeitssteuerelemente nur auf regelbasierte und Ordnereigenschaften anwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Eigenschaften von Drittanbietern</b> </p> </td> 
@@ -65,48 +69,55 @@ In [!UICONTROL Segment Builder], [!UICONTROL Recency] und [!UICONTROL Frequency]
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Eigenschaften von Drittanbietern</b> </p> </td> 
-   <td colname="col2"> <p>Sie können keine Frequenzregeln für einzelne Eigenschaften oder Eigenschaftsgruppen von Drittanbietern festlegen, die Eigenschaften von Drittanbietern enthalten. Neuigkeit und Häufigkeit gelten nur für Ihre eigenen Eigenschaften. </p> </td> 
+   <td colname="col2"> <p>Sie können keine Frequenzregeln für einzelne Eigenschaften oder Eigenschaftsgruppen von Drittanbietern festlegen, die Eigenschaften von Drittanbietern enthalten. Recency and frequency applies to your own traits only. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Neuigkeitsanforderungen</b> </p> </td> 
-   <td colname="col2"> <p>Sie können Frequenzanforderungen konfigurieren, <i>ohne</i> die Neuigkeitsanforderungen zu konfigurieren. Legen Sie einfach einen Frequenzwert fest und lassen Sie das Neuigkeitsfeld leer. </p> </td> 
+   <td colname="col1"> <p> <b>Trait Types</b> </p> </td> 
+   <td colname="col2"> <p>You can apply frequency controls to rule-based and folder traits only. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Regeln zum Profilzusammenführen</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Eigenschafts-, externe Gerätediagramme und Regeln</a>zur Profilzusammenführung. </p> </td> 
+   <td colname="col1"> <p> <b>Recency Requirements</b> </p> </td> 
+   <td colname="col2"> <p>You can configure frequency requirements without configuring recency requirements. <i></i> Just set a frequency value and leave the recency field blank. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><b>Profile Merge Rules</b> </p> </td> 
+   <td colname="col2"> <p>See  Trait Frequency, External Device Graphs, and Profile Merge Rules.<a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"></a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Beispiele zu Neuigkeiten {#recency-examples}
+## Recency Examples {#recency-examples}
 
-Die folgenden zwei Beispiele zeigen, wie die Neuigkeit funktioniert, je nach Auswahl in der Benutzeroberfläche:
+Here are two examples of how recency works, depending on your selection in the UI:
 
-### Verwenden eines Kleiner-als-Zeichen-Operators (&lt;=)
+### Using a less than or equal to operator (&lt;=)
 
-![Kleiner als gleich](assets/less-than-equal-to.png)
+![Less-than-equal-to](assets/less-than-equal-to.png)
 
 In this example, you select the &lt;= operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times within the last five days. The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
 
-![Last-five-days](assets/last-5-days.png)
+![Letzte fünf Tage](assets/last-5-days.png)
 
-### Using a greater than or equal to operator (=&gt;)
+### Verwenden eines Größer- oder Gleichheitszeichens (=&gt;)
 
-![Greater-than-equal-to](assets/greater-than-equal-to.png)
+![Größer als gleich](assets/greater-than-equal-to.png)
 
-In this example, you select the =&gt; operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times anytime between their first qualification on the Audience Manager platform and the cut-off time five days ago. The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
+In diesem Beispiel wählen Sie den Operator =&gt;, wie im Screenshot dargestellt. Dadurch wird Ihr Benutzer für das Segment qualifiziert, wenn er zwischen der ersten Qualifizierung auf der Audience Manager-Plattform und der Unterbrechung vor fünf Tagen mindestens dreimal für eine der drei Eigenschaften qualifiziert ist. Die nachstehende Zeitschiene zeigt die Segmentqualifikation zum Zeitpunkt der Segmenterstellung, am 1. Oktober und zehn Tage später.
 
-![Earlier-qualification](assets/earlier-qualification.png)
+![Frühere Qualifizierung](assets/earlier-qualification.png)
 
 
-## Frequency Capping Examples {#frequency-capping}
+## Beispiele für Frequenzzuordnung {#frequency-capping}
 
-Ausdrücke für die Frequenzbegrenzung umfassen alle Benutzer, deren Anzahl an Eigenschaften unter dem gewünschten Wert liegt. Here are a few examples:
+Ausdrücke für die Frequenzbegrenzung umfassen alle Benutzer, deren Anzahl an Eigenschaften unter dem gewünschten Wert liegt. Im Folgenden finden Sie einige Beispiele zu Recht und falsch:
 
-* The expression  includes all users that have realized the trait with the ID "1000" a maximum of five times, including users who have not realized the trait.`frequency([1000T]) <= 5`
-* When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an  operator. `AND` Using the example above, this expression becomes valid when joined with another trait as shown here: .`frequency([1000T]) <= 5 AND isSiteVisitorTrait`
+* Falsch - Der Ausdruck `frequency([1000T]) <= 5` umfasst alle Benutzer, die die Eigenschaft mit der ID "1000"maximal fünfmal erkannt haben, aber auch Benutzer, die die Eigenschaft nicht erkannt haben. Deshalb validiert Audience Manager diesen Ausdruck nicht aus Leistungsgründen, da er zu viele Benutzer für das Segment qualifiziert.
 
-* Für Anwendungsfälle mit der Frequenzbegrenzung für Werbung können Sie eine Segmentregel wie die folgende erstellen: `(frequency([1000T] <= 2D) >= 5)`. Dieser Ausdruck umfasst alle Benutzer, die die Eigenschaft mit der ID "1000"in den letzten 2 Tagen mindestens fünfmal erkannt haben. Legen Sie die Frequenzgrenze fest, indem Sie dieses Segment mit einem `NOT` Satz im Segment im Anzeigenserver an den Anzeigen-Server senden. Dieser Ansatz erreicht eine höhere Leistung bei [!DNL Audience Manager] gleichzeitiger Verwendung des gleichen Zwecks für die Frequenzzuordnung.
+* Recht: Wenn Sie alle Benutzer einbeziehen möchten, die die Eigenschaft mit der ID "1000"maximal fünfmal erfüllt haben, fügen Sie dem Ausdruck eine weitere Bedingung hinzu, um sicherzustellen, dass die Benutzer mindestens einmal für die Eigenschaft qualifiziert sind:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
+
+* Rechts- Wenn Sie möchten, dass die Neuigkeits-/Frequenzanforderungen weniger als eine bestimmte Anzahl von Malen oder Tagen betragen, verbinden Sie diese Eigenschaft mit einem anderen `AND` Operator. Anhand des Beispiels im ersten Aufzählungspunkt wird dieser Ausdruck gültig, wenn er mit einer anderen Eigenschaft verbunden wird, wie im Folgenden gezeigt: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+
+* Right - Für Anwendungsfälle mit der Beschränkung der Werbefrequenz können Sie eine Segmentregel wie die folgende erstellen: `(frequency([1000T] <= 2D) >= 5)`. Dieser Ausdruck umfasst alle Benutzer, die die Eigenschaft mit der ID "1000"in den letzten 2 Tagen mindestens fünfmal erkannt haben. Legen Sie die Frequenzgrenze fest, indem Sie dieses Segment mit einem `NOT` Satz im Segment im Anzeigenserver an den Anzeigen-Server senden. Dieser Ansatz erreicht eine höhere Leistung bei [!DNL Audience Manager] gleichzeitiger Verwendung des gleichen Zwecks für die Frequenzzuordnung.
 
 >[!MORE_LIKE_THIS]
 >
