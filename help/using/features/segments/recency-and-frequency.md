@@ -6,18 +6,18 @@ solution: Audience Manager
 title: Neuigkeit und Häufigkeit
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c7e8b67ccad4479487b471668462937c5be6be34
 
 ---
 
 
 # Recency and Frequency {#recency-and-frequency}
 
-In [!UICONTROL Segment Builder]Neuigkeit und Häufigkeit können Sie Besucher basierend auf Aktionen segmentieren, die in einem bestimmten Tagesintervall stattfinden oder sich wiederholen.
+In [!UICONTROL Segment Builder], recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
 
 Audience Manager definiert [!DNL recency] und [!DNL frequency] wie folgt:
 
-* **[!UICONTROL Recency]** : Die Anzahl der Tage, in denen ein Benutzer eine (oder mehrere) Eigenschaft angezeigt oder qualifiziert hat.
+* **[!UICONTROL Recency]** : Wie kürzlich hat ein Benutzer eine (oder mehrere) Eigenschaften angezeigt oder qualifiziert.
 * **[!UICONTROL Frequency]** : Die Rate, mit der ein Benutzer eine (oder mehrere) Eigenschaft angezeigt oder qualifiziert hat.
 
 [!UICONTROL Recency] und [!UICONTROL Frequency] Einstellungen helfen Ihnen, Besucher basierend auf ihrem tatsächlichen (oder wahrgenommenen) Interesse an einer Site, einem Abschnitt oder einem bestimmten kreativen Element zu segmentieren. Benutzer, die sich beispielsweise für ein Segment mit hohen Anforderungen an Aktualität und Häufigkeit qualifizieren, sind möglicherweise mehr an einer Site oder einem Produkt interessiert als Benutzer, die die Site oder das Produkt seltener oder seltener besuchen.
@@ -78,12 +78,33 @@ In [!UICONTROL Segment Builder], [!UICONTROL Recency] und [!UICONTROL Frequency]
  </tbody> 
 </table>
 
-## Beispiele für Frequenzzuordnung {#frequency-capping}
+## Beispiele zu Neuigkeiten {#recency-examples}
 
-Ausdrücke für die Frequenzbegrenzung umfassen alle Benutzer, deren Anzahl an Eigenschaften unter dem gewünschten Wert liegt. Hier einige Beispiele:
+Die folgenden zwei Beispiele zeigen, wie die Neuigkeit funktioniert, je nach Auswahl in der Benutzeroberfläche:
 
-* Der Ausdruck `frequency([1000T]) <= 5` umfasst alle Benutzer, die die Eigenschaft mit der ID "1000"maximal fünfmal erfüllt haben, einschließlich Benutzer, die die Eigenschaft nicht erkannt haben.
-* Wenn die Neuigkeits-/Frequenzanforderungen kleiner als eine bestimmte Anzahl von Malen oder Tagen sein müssen, verbinden Sie diese Eigenschaft mit einem anderen `AND` Operator. Mit dem obigen Beispiel wird dieser Ausdruck gültig, wenn er mit einer anderen Eigenschaft verbunden wird, wie im Folgenden gezeigt: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+### Verwenden eines Kleiner-als-Zeichen-Operators (&lt;=)
+
+![Kleiner als gleich](assets/less-than-equal-to.png)
+
+In this example, you select the &lt;= operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times within the last five days. The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
+
+![Last-five-days](assets/last-5-days.png)
+
+### Using a greater than or equal to operator (=&gt;)
+
+![Greater-than-equal-to](assets/greater-than-equal-to.png)
+
+In this example, you select the =&gt; operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times anytime between their first qualification on the Audience Manager platform and the cut-off time five days ago. The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
+
+![Earlier-qualification](assets/earlier-qualification.png)
+
+
+## Frequency Capping Examples {#frequency-capping}
+
+Ausdrücke für die Frequenzbegrenzung umfassen alle Benutzer, deren Anzahl an Eigenschaften unter dem gewünschten Wert liegt. Here are a few examples:
+
+* The expression  includes all users that have realized the trait with the ID "1000" a maximum of five times, including users who have not realized the trait.`frequency([1000T]) <= 5`
+* When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an  operator. `AND` Using the example above, this expression becomes valid when joined with another trait as shown here: .`frequency([1000T]) <= 5 AND isSiteVisitorTrait`
 
 * Für Anwendungsfälle mit der Frequenzbegrenzung für Werbung können Sie eine Segmentregel wie die folgende erstellen: `(frequency([1000T] <= 2D) >= 5)`. Dieser Ausdruck umfasst alle Benutzer, die die Eigenschaft mit der ID "1000"in den letzten 2 Tagen mindestens fünfmal erkannt haben. Legen Sie die Frequenzgrenze fest, indem Sie dieses Segment mit einem `NOT` Satz im Segment im Anzeigenserver an den Anzeigen-Server senden. Dieser Ansatz erreicht eine höhere Leistung bei [!DNL Audience Manager] gleichzeitiger Verwendung des gleichen Zwecks für die Frequenzzuordnung.
 
