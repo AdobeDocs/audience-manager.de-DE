@@ -17,11 +17,11 @@ Audience Manager nimmt Datensicherheit und Datenschutz sehr ernst. Wir arbeiten 
 
 Zu den Sicherheitspraktiken von Audience Manager gehören externe und interne Audits, Aktivitätsprotokollierung, Schulungen und andere Verfahren zum Schutz unserer Systeme und Ihrer wertvollen Daten. Wir glauben, dass ein sicheres Produkt dazu beiträgt, das Vertrauen der Kunden in uns aufzubauen und zu erhalten.
 
-In Audience Manager, we think about security in three main categories:
+In Audience Manager denken wir an Sicherheit in drei Hauptkategorien:
 
-| Security Type | Provides Support For |
+| Sicherheitstyp | Unterstützung für |
 |---|---|
-| **Information security** | Enterprise-level authentication, encryption, and data storage practices |
+| **Informationssicherheit** | Authentifizierungs-, Verschlüsselungs- und Datenspeicherverfahren auf Unternehmensebene |
 | **Datenleck/Transparenz** | Tiefer und umsetzbarer Einblick in Aktivitäten vor Ort, die Datenleckage verursachen oder zu Datenlecks beitragen |
 | **Prozess-/Richtlinienverbesserungen** | Kunden durch Zusammenarbeit mit branchenüblichen Best Practices für Datenschutz und Datensicherheit |
 
@@ -50,15 +50,15 @@ Prozesse, die unser System und Ihre Daten schützen.
 
 Prozesse, die dazu beitragen, die Sicherheit personenbezogener Daten zu gewährleisten. Weitere Informationen zum Datenschutz finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
 
-**** PII-Daten:  Audience Manager verbietet Kunden und Datenpartnern vertraglich, PII-Informationen an unser System zu senden. Additionally, the Unique User ID (UUID) does not contain or use PII data as part of the ID-generation algorithm.
+**** PII-Daten:  Audience Manager verbietet Kunden und Datenpartnern vertraglich, PII-Informationen an unser System zu senden. Darüber hinaus enthält oder verwendet die Unique User ID (UUID) keine PII-Daten als Teil des ID-Generierungsalgorithmus.
 
-**** IP Addresses:  Audience Manager does collect IP addresses. IP addresses are used in data-processing and log-aggregation processes. They are also required for geographic/location look-ups and targeting. Additionally, all IP addresses within retained log files are obfuscated within 90 days.
+**** IP-Adressen:  Audience Manager erfasst IP-Adressen. IP-Adressen werden in Datenverarbeitungs- und Protokollaggregationsprozessen verwendet. Sie sind auch für geografische/Standortsuche und Targeting erforderlich. Darüber hinaus werden alle IP-Adressen innerhalb der gespeicherten Protokolldateien innerhalb von 90 Tagen verschleiert.
 
 ## Datenunterteilung {#data-partitioning}
 
 Prozesse, die dazu beitragen, Daten einzelner Kunden zu schützen.
 
-**** Eigenschaftsdatenunterteilung:  Ihre Daten (Eigenschaften, IDs usw.) vom Client partitioniert. Dadurch wird verhindert, dass unbeabsichtigte Informationen zwischen verschiedenen Kunden angezeigt werden. So werden z. B. Eigenschaftsdaten in Cookies vom Kunden getrennt und in einer kundenspezifischen Subdomäne gespeichert. Es kann nicht versehentlich von einem anderen Audience Manager-Client gelesen oder verwendet werden. Darüber hinaus [!UICONTROL Profile Cache Servers (PCS)] werden die im System gespeicherten Eigenschaftsdaten auch vom Kunden aufgeteilt. Dadurch wird verhindert, dass andere Clients Ihre Daten versehentlich in einem Ereignisaufruf oder einer anderen Anforderung verwenden.
+**** Eigenschaftsdatenunterteilung:  Ihre Daten (Eigenschaften, IDs usw.) vom Client partitioniert. Dadurch wird verhindert, dass versehentlich Informationen zwischen verschiedenen Kunden angezeigt werden. So werden z. B. Eigenschaftsdaten in Cookies vom Kunden getrennt und in einer kundenspezifischen Subdomäne gespeichert. Es kann nicht versehentlich von einem anderen Audience Manager-Client gelesen oder verwendet werden. Darüber hinaus [!UICONTROL Profile Cache Servers (PCS)] werden die im System gespeicherten Eigenschaftsdaten auch vom Kunden aufgeteilt. Dadurch wird verhindert, dass andere Clients Ihre Daten versehentlich in einem Ereignisaufruf oder einer anderen Anforderung verwenden.
 
 **** Datenunterteilung in Berichten:  Client-IDs sind Teil des identifizierenden Schlüssels in allen Berichtstabellen, und Berichtsabfragen werden nach ID gefiltert. Dadurch wird verhindert, dass Ihre Daten in den Berichten eines anderen Audience Manager-Kunden angezeigt werden.
 
@@ -80,14 +80,14 @@ Beachten Sie, dass ausgehende Daten [!DNL Audience Manager] nicht entkommen, um 
 
 ## HTTP Strict-Transport-Security {#hsts}
 
-[!DNL HTTP Strict-Transport-Security (HSTS)] is an industry-wide web security mechanism which helps protect against cookie hijacking and protocol downgrade attacks.
+[!DNL HTTP Strict-Transport-Security (HSTS)] ist ein branchenweiter Web-Sicherheitsmechanismus, der hilft, vor Cookie-Hijacking und Protokolldowngrade-Angriffen zu schützen.
 
-The policy instructs the web browser that once a secure  call was made to a given domain, no subsequent unsecure calls () should be allowed to that domain. [!DNL HTTPS][!DNL HTTP] Dies schützt vor Man-in-the-Middle-Angriffen, bei denen ein Angreifer versuchen könnte, [!DNL HTTPS] Anrufe zu unbesicherten [!DNL HTTP] Anrufen herabzustufen."
+Die Richtlinie weist den Webbrowser an, dass nach einem sicheren [!DNL HTTPS] Aufruf an eine bestimmte Domäne keine weiteren unsicheren Aufrufe ([!DNL HTTP]) in diese Domäne zulässig sein sollten. Dies schützt vor Man-in-the-Middle-Angriffen, bei denen ein Angreifer versuchen könnte, [!DNL HTTPS] Anrufe zu unbesicherten [!DNL HTTP] Anrufen herabzustufen."
 
-This policy improves data security between clients and Adobe Edge servers.[](../../reference/system-components/components-edge.md)
+Diese Richtlinie verbessert die Datensicherheit zwischen Clients und Adobe [Edge](../../reference/system-components/components-edge.md) -Servern.
 
 ### Beispiel {#hsts-example}
 
-When trying to access ,  will automatically upgrade the request to  , in case the browser doesn’t automatically request the  domain.`http://bank.demdex.com`[!DNL HSTS]`https://bank.demdex.com`[!DNL HTTPS]
+Wenn Sie versuchen, Zugriff zu erhalten `http://bank.demdex.com`, [!DNL HSTS] wird die Anforderung automatisch aktualisiert, `https://bank.demdex.com`falls der Browser die [!DNL HTTPS] Domäne nicht automatisch anfordert.
 
 Weitere Informationen zu HSTS finden Sie unter [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) .
