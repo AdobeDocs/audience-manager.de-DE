@@ -5,7 +5,7 @@ seo-title: Workflow B - Personalisierung auf Basis von Nur-Offline-Daten
 solution: Audience Manager
 title: Workflow B - Personalisierung auf Basis von Nur-Offline-Daten
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
 ---
 
@@ -13,13 +13,13 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 # Workflow B - Personalisierung auf Basis von Nur-Offline-Daten {#workflow-b}
 
 >[!IMPORTANT]
->Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Please consult your own legal counsel for legal guidance.
 
-Diese Seite enthält eine schrittweise Anleitung zum Erstellen von Zielgruppensegmenten aus reinen Offline-Kundendaten und zum Senden dieser Segmente an People-Based-Ziele.
+This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
 
 ## Schritt 1: Integrierte Offline-Eigenschaften {#step-1-onboard-traits}
 
-Der erste Schritt beim Erstellen von Zielgruppensegmenten in diesem Szenario besteht darin, Ihre Offline-Kundendaten in Audience Manager zu importieren.
+The first step creating audience segments in this scenario is to bring your offline customer data into Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -38,7 +38,7 @@ Sie möchten die Kunden-IDs aus der unten stehenden Tabelle für die entsprechen
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-Um die Kunden-IDs im obigen Beispiel für die entsprechenden Eigenschaften mit Onboard zu qualifizieren, müssen Sie eine [Inbound-Datendatei](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) mit folgendem Inhalt hochladen:
+To qualify the customer IDs in the example above for the corresponding onboarded traits, you must upload an [inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) with the following contents:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -51,33 +51,33 @@ Detaillierte Informationen zur Dateistruktur finden Sie unter [Amazon S3-Anforde
 
 ## Schritt 2: Konfigurieren der Datenquelleneinstellungen {#configure-data-source-settings}
 
-Je nachdem, ob es sich bei Ihren [DPUUIDs](../../reference/ids-in-aam.md) um Kleinbuchstaben und Hash-E-Mail-Adressen handelt, müssen Sie möglicherweise die Datenquelle konfigurieren, in der die Hash-E-Mail-Adressen gespeichert werden.
+Depending on whether your DPUUIDs are lowercase, hashed email addresses, you might need to configure the data source that will store the hashed email addresses.[](../../reference/ids-in-aam.md)
 
  
 
-**Szenario 1: Ihre[DPUUIDs](../../reference/ids-in-aam.md)sind bereits in Kleinbuchstaben, mit Hash-E-Mail-Adressen.**
+**Scenario 1: your DPUUIDs are already lowercase, hashed email addresses.[](../../reference/ids-in-aam.md)**
 
-In diesem Fall müssen Sie die entsprechende Datenquelle als solche kennzeichnen:
+In this case, you need to need to label the corresponding data source as such:
 
-1. Gehen Sie zu **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Data Sources]**.
+1. Go to  -&gt; .**[!UICONTROL Audience Data]****[!UICONTROL Data Sources]**
 1. Suchen Sie die Datenquelle, die Ihre [DPUUIDs](../../reference/ids-in-aam.md)enthält, und klicken Sie darauf.
 1. Stellen Sie sicher, dass die Option deaktiviert **[!UICONTROL Cannot be tied to personally identifiable information]** ist.
 1. Speichern Sie die Datenquelleneinstellungen.
 
  
 
-**Szenario 2: Ihre[DPUUIDs](../../reference/ids-in-aam.md)sind nicht in Kleinbuchstaben, sondern Hash-E-Mail-Adressen.**
+**Scenario 2: your DPUUIDs are not lowercase, hashed email addresses.[](../../reference/ids-in-aam.md)**
 
 In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen, in der Ihre Hash-E-Mail-Adressen gespeichert werden. So geht das:
 
-1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Data Sources]**, und klicken Sie auf **[!UICONTROL Add New]**.
+1. Log in to your Audience Manager account and go to  -&gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Data Sources]****[!UICONTROL Add New]**
 1. Geben Sie ein **[!UICONTROL Name]** und **[!UICONTROL Description]** für Ihre neue Datenquelle ein.
 1. Wählen Sie im **[!UICONTROL ID Type]** Dropdownmenü die Option **[!UICONTROL Cross Device]**.
 1. Wählen Sie im **[!UICONTROL Data Source Settings]** Abschnitt die Optionen **[!UICONTROL Inbound]** und **[!UICONTROL Outbound]** aus und aktivieren Sie die **[!UICONTROL Share associated cross-device IDs in people-based destinations]** Option.
 1. Verwenden Sie das Dropdownmenü, um die **[!UICONTROL Emails(SHA256, lowercased)]** Bezeichnung für diese Datenquelle auszuwählen.
    >[!IMPORTANT]
    >
-   >Diese Option bezeichnet die Datenquelle nur als mit diesem spezifischen Algorithmus Hash-Daten. In Audience Manager werden die Daten in diesem Schritt nicht zwischengespeichert. Vergewissern Sie sich, dass die E-Mail-Adressen, die Sie bei der Speicherung in dieser Datenquelle planen, bereits mit dem [!DNL SHA256] Algorithmus Hashing ausgeführt wurden. Andernfalls können Sie es nicht für [!DNL People-Based Destinations]die Anwendung verwenden.
+   >This option only labels the data source as containing data hashed with that specific algorithm. In Audience Manager werden die Daten in diesem Schritt nicht zwischengespeichert. Vergewissern Sie sich, dass die E-Mail-Adressen, die Sie bei der Speicherung in dieser Datenquelle planen, bereits mit dem [!DNL SHA256] Algorithmus Hashing ausgeführt wurden. Otherwise, you won't be able to use it for .[!DNL People-Based Destinations]
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
@@ -85,7 +85,7 @@ In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen
    >
    > Häufig gestellte Fragen dazu, wie Sie Ihre Offlinedaten in Audience Manager für People-Based-Ziele importieren sollten, finden Sie unter [DatenOnboarding](people-based-destinations-prerequisites.md#data-onboarding) .
 
-## Schritt 3: Zuordnen von DPUUIDs zu Hash-E-Mail-Adressen über dateibasierte ID-Synchronisierung {#match-ids-emails}
+## Step 3 - Match DPUUIDs to Hashed Email Addresses via File-Based ID Synchronization {#match-ids-emails}
 
 >[!IMPORTANT]
 >
@@ -95,12 +95,12 @@ Angenommen, Sie möchten Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.m
 
 Zur Erinnerung haben Sie jetzt zwei Datenquellen:
 
-| Datenquellen-ID | Datenquellinhalte |
+| Data source ID | Datenquellinhalte |
 | -------------- | -------------------------- |
-| 999999 | Vorhandene DPUUIDs (CRM-IDs) |
-| 987654 | Hash-E-Mail-Adressen |
+| 999999 | Existing DPUUIDs (CRM IDs) |
+| 987654 | Hashed email addresses |
 
-| DPUUIDs (CRM-IDs) | E-Mail-Adresse | Hash-E-Mail-Adresse |
+| DPUUIDs (CRM IDs) | E-Mail-Adresse | Hash-E-Mail-Adresse |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
@@ -108,7 +108,7 @@ Zur Erinnerung haben Sie jetzt zwei Datenquellen:
 
  
 
-Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) enthält folgenden Inhalt:
+In unserem Beispiel würde Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) folgenden Inhalt haben:
 
 ```
 68079982765673198504052656074456196039<TAB>55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
@@ -129,22 +129,24 @@ Im Beispiel oben würde der Dateiname wie folgt aussehen:
 
 [Beispieldatei hier](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)herunterladen.
 
+Nachdem Sie die ID-Synchronisierungsdatei erstellt haben, müssen Sie sie in einen [!DNL Amazon S3] Behälter hochladen. Informationen zum Hochladen von ID-Synchronisierungsdateien finden Sie unter Stapeldaten an Audience Manager [senden](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
+
 ## Schritt 4: Erstellen einer Regel zur Profilzusammenführung für die Segmentierung {#create-profile-merge-rule}
 
-Der nächste Schritt ist die Erstellung einer neuen Zusammenführungsregel, mit der Sie die Zielgruppensegmente erstellen können, die an Ihre [!DNL People-Based Destinations]Benutzer gesendet werden.
+The next step is creating a new merge rule that will help you create the audience segments to send to your .[!DNL People-Based Destinations]
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**.
 2. Klicken [!UICONTROL Add New Rule].
-3. Geben Sie eine Regel zum Zusammenführen des Profils ein **[!UICONTROL Name]** und **[!UICONTROL Description]**.
-4. Wählen Sie im **[!UICONTROL Profile Merge Rule Setup]** Abschnitt die **[!UICONTROL All Cross-Device Profiles]** Regel aus der **[!UICONTROL Cross-Device Options]** Liste.
+3. Enter a profile merge rule  and .**[!UICONTROL Name]****[!UICONTROL Description]**
+4. In the  section, select the  rule from the  list.**[!UICONTROL Profile Merge Rule Setup]****[!UICONTROL All Cross-Device Profiles]****[!UICONTROL Cross-Device Options]**
 5. Wählen Sie in der **[!UICONTROL Cross-Device Profile Options]** Liste die Datenquelle aus, der Ihre Eigenschaften zugeordnet sind.
    ![merge-rule-setup](assets/pbd-pmr.png)
 
 ## Schritt 5: Erstellen von Zielgruppensegmenten {#create-audience-segments}
 
-Um neue Segmente aus reinen Offline-Daten zu erstellen, verwenden Sie den [Segmentaufbau](../segments/segment-builder.md) und stellen Sie sicher, dass Sie die neue Regel zum Profilzusammenführen verwenden, die Sie im vorherigen Schritt erstellt haben, wenn Sie das Segment erstellen.
+To create new segments from offline-only data, use the Segment Builder and make sure you use the new profile merge rule that you created in the previous step when creating the segment.[](../segments/segment-builder.md)
 
-## Schritt 6: Personalisierte Plattformauthentifizierung konfigurieren {#configure-authentication}
+## Step 6 - Configure People-Based Platform Authentication {#configure-authentication}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer sozialen Plattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
    ![people-based-integration](assets/pbd-config.png)
@@ -161,7 +163,7 @@ Um neue Segmente aus reinen Offline-Daten zu erstellen, verwenden Sie den [Segme
 
 ## Schritt 7: Erstellen eines benutzerbasierten Ziels {#create-destination}
 
-1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** und klicken Sie auf **[!UICONTROL Create Destination]**.
+1. Log in to your Audience Manager account, go to  &gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Destinations]****[!UICONTROL Create Destination]**
 1. Geben Sie im **[!UICONTROL Basic Information]** Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
    * **[!UICONTROL Category]**: Integrierte Plattformen;
    * **[!UICONTROL Type]**: Volksansässige;
@@ -169,7 +171,7 @@ Um neue Segmente aus reinen Offline-Daten zu erstellen, verwenden Sie den [Segme
    * **[!UICONTROL Account]**: Wählen Sie das gewünschte Advertiser-Konto aus, das mit der ausgewählten Plattform verknüpft ist.
       ![create-destination](assets/pbd-create-destination.png)
 1. Klicken Sie auf **[!UICONTROL Next]**.
-1. Wählen Sie **[!UICONTROL Data Export Labels]** das Ziel aus, das Sie für dieses Ziel festlegen möchten.
+1. Choose the  that you want to set for this destination.**[!UICONTROL Data Export Labels]**
 1. Wählen Sie im **[!UICONTROL Configuration]** Abschnitt die Datenquelle aus, die Ihre Hash-Datenquellen enthält.
 1. Wählen Sie im **[!UICONTROL Segment Mappings]** Abschnitt die Segmente aus, die Sie an dieses Ziel senden möchten. Dies sind die Segmente, die Sie in [Schritt 5 - Zielgruppensegmente](people-based-destinations-workflow-offline.md#create-audience-segments)erstellen erstellt haben.
 1. Speichern Sie das Ziel.
