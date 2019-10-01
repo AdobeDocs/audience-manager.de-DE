@@ -1,9 +1,9 @@
 ---
-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
-seo-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
-seo-title: Real-Time Outbound Data Transfers
+description: Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
+seo-description: Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
+seo-title: Ausgehende Datenübertragungen in Echtzeit
 solution: Audience Manager
-title: Real-Time Outbound Data Transfers
+title: Ausgehende Datenübertragungen in Echtzeit
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
 source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
@@ -11,19 +11,19 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 ---
 
 
-# Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
+# Ausgehende Datenübertragungen in Echtzeit {#real-time-outbound-data-transfers}
 
-The outbound real-time data transfer process delivers user data as a series of  formatted messages to a destination platform.[!DNL JSON]
+Der ausgehende Echtzeit-Datenübertragungsprozess liefert Benutzerdaten als eine Reihe [!DNL JSON] formatierter Nachrichten an eine Zielplattform.
 
 <!-- c_outbound_json.xml -->
 
 ## Empfehlungen
 
-To use this method, the destination platform must meet the following requirements:
+Um diese Methode zu verwenden, muss die Zielplattform die folgenden Anforderungen erfüllen:
 
-* It must provide an endpoint [!DNL URL] that can scale to receive a high volume of messages from Audience Manager;
-* It must accept data in  format ();[!DNL JSON]`Content-type: application/json`
-* It must accept secure  data transfers. `HTTPS` [!DNL Audience Manager] sendet keine Nachrichten über das unsichere `HTTP` Protokoll.
+* Es muss einen Endpunkt bereitstellen, [!DNL URL] der skaliert werden kann, um ein hohes Volumen an Nachrichten von Audience Manager zu erhalten.
+* Sie muss Daten im [!DNL JSON] Format (`Content-type: application/json`) annehmen.
+* Es muss sichere `HTTPS` Datenübertragungen akzeptieren. [!DNL Audience Manager] sendet keine Nachrichten über das unsichere `HTTP` Protokoll.
 
 ## Häufigkeit
 
@@ -60,57 +60,57 @@ Die folgende Tabelle definiert die Elemente in der zurückgegebenen [!DNL JSON] 
    <td colname="col3"> <p>Zeitpunkt der Ausführung der Anforderung. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>user_DPID</i></code> </td> 
+   <td colname="col1"><code><i>User_DPID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Eine ID, die den Typ der Geräte-IDs angibt, die in der Meldung in der Eigenschaft User.DataPartner_UUID enthalten sind. </p> 
+   <td colname="col3"> <p>An ID that indicates the type of device IDs contained within the message, in the User.DataPartner_UUID property. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android-IDs (GAID): <code> 20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS-IDs (IDFA): <code> 20915</code> </li>
-     <li>Web-/Cookie-IDs: variiert nach Zielplattform</li>
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android IDs (GAID):  20914<code></code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS IDs (IDFA):  20915<code></code> </li>
+     <li>Web/Cookie IDs: varies by destination platform</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>client_ID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Stellt das Zielkonto in der Zielplattform dar. This ID originates from the destination platform.</p> </td> 
+   <td colname="col3"> <p>Represents the target account in the destination platform. This ID originates from the destination platform.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Die ID des Zielobjekts von Audience Manager. Diese ID stammt aus Audience Manager.</p> </td> 
+   <td colname="col3"> <p>The ID of the Audience Manager “destination” object. This ID originates from Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Gesamtzahl der Benutzer in der <code> POST</code> -Anforderung. </p> </td> 
+   <td colname="col3"> <p>Total number of users in the <code> POST</code> request. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Benutzer</i></code> </td> 
    <td colname="col2"> <p>Array </p> </td> 
-   <td colname="col3"> <p>An array of user objects. By default, each message will contain between 1 and 10 users, to keep the message size optimal. </p> </td> 
+   <td colname="col3"> <p>An array of user objects. Standardmäßig enthält jede Nachricht 1 bis 10 Benutzer, damit die Nachrichtengröße optimal bleibt. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>The  Audience Manager UUID.<span class="keyword"></span> </p> </td> 
+   <td colname="col3"> <p>Die UUID für <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Destination platform UUID or the global device ID. </p> </td> 
+   <td colname="col3"> <p>UUID der Zielplattform oder der globalen Geräte-ID. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
+   <td colname="col1"><code><i>user.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> The  Audience Manager region ID where we've seen this device. <span class="keyword"></span> For instance, if the device had some activity in Paris (Europe), the region ID would be  6. <code></code> Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
+   <td colname="col3"> Die <span class="keyword"> Audience Manager</span> -Regions-ID, in der wir dieses Gerät gesehen haben. Wenn das Gerät z. B. in Paris (Europa) aktiv wäre, wäre die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmente</i></code> </td> 
    <td colname="col2"> <p>Array </p> </td> 
-   <td colname="col3"> <p>An array of segment objects. For real-time messages, the array contains all of the segments the user belongs to. For batch messages, the array contains only segment changes since the last batch.</p> </td> 
+   <td colname="col3"> <p>Ein Array von Segmentobjekten. Bei Echtzeitmeldungen enthält das Array alle Segmente, denen der Benutzer angehört. Bei Stapelmeldungen enthält das Array nur Segmentänderungen seit dem letzten Stapel.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
    <td colname="col3"> <p>Der Bezeichner für das Segment. In den meisten Fällen ist dies die vom Audience Manager generierte Segment-ID (eine Ganzzahl). In einigen Fällen können Kunden, sofern die Zielplattform dies zulässt, die Segmentkennung in der Benutzeroberfläche von Audience Manager definieren (Feld "open text"), die dann in dieser Eigenschaft angezeigt wird. </p> </td> 
   </tr> 
