@@ -1,33 +1,41 @@
 ---
-description: Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
-seo-description: Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
-seo-title: Ausgehende Datenübertragungen in Echtzeit
+description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+seo-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+seo-title: Real-Time Outbound Data Transfers
 solution: Audience Manager
-title: Ausgehende Datenübertragungen in Echtzeit
+title: Real-Time Outbound Data Transfers
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
+source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 
 ---
 
 
-#  Ausgehende Datenübertragungen in Echtzeit {#real-time-outbound-data-transfers}
+# Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
 
-Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von [!DNL JSON] Objekten zurück, die mit einer `POST` Methode übergeben werden.
+The outbound real-time data transfer process delivers user data as a series of  formatted messages to a destination platform.[!DNL JSON]
 
 <!-- c_outbound_json.xml -->
 
 ## Empfehlungen
 
-Zur Verwendung dieser Methode empfehlen wir Ihrem Datenpartner,
+To use this method, the destination platform must meet the following requirements:
 
-* Akzeptiert Daten im [!DNL JSON] Format.
-* Stellt eine URL bereit, die vom `POST` Aufruf zum Zurückgeben von Daten verwendet werden kann.
-* Akzeptiert sichere `HTTPS` Datenübertragungen. [!DNL Audience Manager] wird diese Datei nicht mit dem unsicheren `HTTP` Protokoll senden.
+* It must provide an endpoint [!DNL URL] that can scale to receive a high volume of messages from Audience Manager;
+* It must accept data in  format ();[!DNL JSON]`Content-type: application/json`
+* It must accept secure  data transfers. `HTTPS` [!DNL Audience Manager] sendet keine Nachrichten über das unsichere `HTTP` Protokoll.
 
 ## Häufigkeit
 
-Mit dieser Datenübertragungsmethode können Daten in Echtzeit gesendet werden, wenn Benutzer sich für Segmente qualifizieren. Darüber hinaus kann diese Methode Stapel von Offline- oder Onboarded-Daten genauso oft wie alle 24 Stunden senden.
+Mit dieser Datenübertragungsmethode können Daten in Echtzeit gesendet werden, wenn Benutzer sich für Segmente qualifizieren. Echtzeit-Nachrichten werden nur gesendet, wenn der Benutzer online ist und aktiv für das Audience Manager Edge-Netzwerk sichtbar ist. Optional kann diese Methode auch Stapel von Offline- oder Onboarded-Daten so oft wie alle 24 Stunden senden.
+
+## Stapelübertragungen
+
+Sowohl Echtzeit- als auch Batch-Übertragungen werden an denselben Endpunkt gesendet und verwenden dasselbe Nachrichtenformat. Wenn Batch-Transfers aktiviert sind, wird der Zielplattform eine Spitze des Nachrichtenvolumens angezeigt, während die Batch-Nachrichten gesendet werden. Viele der Segmentqualifikationen, die durch Echtzeitmeldungen gesendet werden, werden in den Batch-Nachrichten wiederholt. Bei der Stapelübertragung werden nur die Segmentqualifikationen (oder Unqualifikationen) berücksichtigt, die sich seit der letzten Charge geändert haben.
+
+## Ratenbeschränkungen
+
+Für den Durchsatz bereitgestellter Nachrichten gibt es keine Ratenbeschränkungen. Das Festlegen von Ratenbeschränkungen könnte zu Datenverlusten führen.
 
 ## Erforderliche Antworten
 
@@ -54,21 +62,22 @@ Die folgende Tabelle definiert die Elemente in der zurückgegebenen [!DNL JSON] 
   <tr valign="top"> 
    <td colname="col1"><code><i>user_DPID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Eine ID, die angibt, ob die Datei Android- oder iOS-IDs enthält. Verwendet die folgenden ID-Werte: </p> 
+   <td colname="col3"> <p>Eine ID, die den Typ der Geräte-IDs angibt, die in der Meldung in der Eigenschaft User.DataPartner_UUID enthalten sind. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
      <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android-IDs (GAID): <code> 20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS-IDs (IDFA): <code> 20915</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS-IDs (IDFA): <code> 20915</code> </li>
+     <li>Web-/Cookie-IDs: variiert nach Zielplattform</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>client_ID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Client-ID, die von dem System verwendet wird, an das Sie Daten senden. </p> </td> 
+   <td colname="col3"> <p>Stellt das Zielkonto in der Zielplattform dar. This ID originates from the destination platform.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Die ID, die Ihnen von Ihrem Zielpartner zugewiesen wurde. </p> </td> 
+   <td colname="col3"> <p>Die ID des Zielobjekts von Audience Manager. Diese ID stammt aus Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -78,37 +87,37 @@ Die folgende Tabelle definiert die Elemente in der zurückgegebenen [!DNL JSON] 
   <tr valign="top"> 
    <td colname="col1"><code><i>Benutzer</i></code> </td> 
    <td colname="col2"> <p>Array </p> </td> 
-   <td colname="col3"> <p>Ein Array von Benutzerobjekten. </p> </td> 
+   <td colname="col3"> <p>An array of user objects. By default, each message will contain between 1 and 10 users, to keep the message size optimal. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>AAM_UUID</i></code> </td> 
+   <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die UUID für <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col3"> <p>The  Audience Manager UUID.<span class="keyword"></span> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>DataPartner_UUID</i></code> </td> 
+   <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>UUID des Datenpartners. Lassen Sie das Feld leer, wenn Ihr Datenpartner keine UUID hat. </p> </td> 
+   <td colname="col3"> <p>Destination platform UUID or the global device ID. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>AAM_Regions</i></code> </td> 
+   <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> Die <span class="keyword"> Audience Manager</span> -Regions-ID, in der wir dieses Gerät gesehen haben. Wenn das Gerät z. B. in Paris (Europa) aktiv wäre, wäre die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
+   <td colname="col3"> The  Audience Manager region ID where we've seen this device. <span class="keyword"></span> For instance, if the device had some activity in Paris (Europe), the region ID would be  6. <code></code> Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmente</i></code> </td> 
    <td colname="col2"> <p>Array </p> </td> 
-   <td colname="col3"> <p>Ein Array von Segmentobjekten. </p> </td> 
+   <td colname="col3"> <p>An array of segment objects. For real-time messages, the array contains all of the segments the user belongs to. For batch messages, the array contains only segment changes since the last batch.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Die Segment-ID-Zielzuordnung. </p> </td> 
+   <td colname="col3"> <p>Der Bezeichner für das Segment. In den meisten Fällen ist dies die vom Audience Manager generierte Segment-ID (eine Ganzzahl). In einigen Fällen können Kunden, sofern die Zielplattform dies zulässt, die Segmentkennung in der Benutzeroberfläche von Audience Manager definieren (Feld "open text"), die dann in dieser Eigenschaft angezeigt wird. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Status</i></code> </td> 
+   <td colname="col1"><code><i>Segment.Status</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Definiert den Status eines Benutzers im Segment. akzeptiert Folgendes: </p> 
+   <td colname="col3"> <p>Definiert den Status eines Benutzers im Segment. Akzeptiert die folgenden Werte: </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
      <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>: Aktiv (Standard) </li> 
      <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>: Inaktiv, ausgeschaltet oder nicht segmentiert. </li> 
@@ -116,13 +125,14 @@ Die folgende Tabelle definiert die Elemente in der zurückgegebenen [!DNL JSON] 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Aus einem Segment entfernt, das auf der Segmentregel basiert. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Aus einem Segment entfernt, basierend auf dem <a href="../../../features/traits/segment-ttl-explained.md"> Time-to-Live-Intervall</a>des Segments. </li> 
-     <li id="li_F48D1052BA2B45108225641292CC748D">In einen inaktiven Status verschoben, wenn sie in den letzten 120 Tagen nicht gesehen wurden. </li> 
+     <li id="li_F48D1052BA2B45108225641292CC748D">In einen inaktiven Status verschoben, wenn sie in den letzten 120 Tagen nicht gesehen wurden. </li>
+     <li>Entfernt aufgrund einer Datenschutzänderungsanfrage (d.h. [!DNL GDPR])</li>
     </ul> <p>Alle Partner-IDs, die mit einer <span class="keyword"> Audience Manager</span> -ID synchronisiert werden, erhalten das Flag <code> "Status":"0"</code> , wenn ein Benutzer nicht segmentiert ist. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>DateTime</i></code> </td> 
+   <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>Der Zeitpunkt der letzten Segmentqualifizierung.</p> </td> 
+   <td colname="col3"> <p>Der Zeitpunkt, zu dem die Qualifizierung des Benutzersegments zuletzt überprüft wurde.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,9 +141,9 @@ Die folgende Tabelle definiert die Elemente in der zurückgegebenen [!DNL JSON] 
 
 Sie können Ihren ausgehenden Datenübertragungsprozess in Echtzeit durch [Signieren von HTTP-Anfragen](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) mit privaten Schlüsseln oder durch [!DNL Audience Manager] Authentifizierung über das [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) -Protokoll sichern.
 
-## Codebeispiel
+## Anfrage
 
-Eine Echtzeitdatenantwort kann wie folgt aussehen:
+Eine Echtzeitanforderung kann wie folgt aussehen:
 
 ```js
 {
@@ -145,6 +155,7 @@ Eine Echtzeitdatenantwort kann wie folgt aussehen:
 "Users": [{  
    "AAM_UUID": "19393572368547369350319949416899715727",
    "DataPartner_UUID": "4250948725049857",
+   "AAM_Regions": ["9"],
    "Segments": [{
             "Segment_ID": "14356",
             "Status": "1",
@@ -160,6 +171,7 @@ Eine Echtzeitdatenantwort kann wie folgt aussehen:
    {
    "AAM_UUID": "0578240750487542456854736923319946899715232",
    "DataPartner_UUID": "848457757347734",
+   "AAM_Regions": ["9"],
    "Segments": [{
             "Segment_ID": "10329",
             "Status": "1",
