@@ -5,7 +5,7 @@ seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Erwägungen
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 
 ---
 
@@ -50,16 +50,19 @@ Obwohl Sie Zielgruppen auf Basis von von von Ihnen hochgeladenen Hash-E-Mail-Adr
 
 ## Daten-Hashing gegen Verschlüsselung {#data-hashing-encryption}
 
-Verschlüsselung ist eine Zweiwegefunktion. Alle verschlüsselten Informationen können auch mit dem richtigen Entschlüsselungsschlüssel entschlüsselt werden. Das Verschlüsseln von Daten im Zusammenhang mit Audience Manager stellt eine ernste Gefahr dar, da jede verschlüsselte Form von personenbezogenen Daten auch entschlüsselt werden kann. Im Gegensatz zur Verschlüsselung [!DNL People-Based Destinations] sind sie stattdessen für die Verwendung mit Hashdaten konzipiert.
+Encryption is a two-way function. Any encrypted information can also be decrypted, using the correct decryption key. Encrypting data in the context of Audience Manager poses serious risks, since any encrypted form of personally identifiable information can also be decrypted. As opposed to encryption, [!DNL People-Based Destinations] are designed to work with hashed data instead.
 
-Hashing ist eine Einwegfunktion, die die Eingabe verwirft, um ein einzigartiges Ergebnis zu erzielen. Durch den Einsatz geeigneter Hashing-Algorithmen wie [!DNL SHA256]z. B. gibt es keine Möglichkeit, die Hashing-Funktion umzukehren und die nicht verschachtelten Informationen offen zu legen. Die E-Mail-Adressen, die Sie an Audience Manager senden, müssen mit dem [!DNL SHA256] Algorithmus in Hashing gesetzt werden. Auf diese Weise können Sie sicherstellen, dass keine entsperrten E-Mail-Adressen zu Audience Manager gelangen.
+Hashing is a one-way function that scrambles the input to produce a unique result. By using proper hashing algorithms, like , there is no way to reverse the hashing function and reveal the unscrambled information. [!DNL SHA256] The email addresses that you will onboard to Audience Manager must be hashed with the  algorithm. [!DNL SHA256] This way, you can ensure that no unhashed email addresses reach Audience Manager.
 
-## Hashanforderungen {#hashing-requirements}
+## Hashing Requirements {#hashing-requirements}
 
-Achten Sie beim Hashing der E-Mail-Adressen auf die folgenden Anforderungen:
+When hashing the email addresses, make sure to comply with the following requirements:
 
-* Entfernen Sie alle führenden und nachfolgenden Leerzeichen aus der E-Mail-Zeichenfolge. example: `johndoe@example.com`, nicht `<space>johndoe@example.com<space>`;
-* Stellen Sie sicher, dass die Hash-Zeichenfolge Kleinbuchstaben hat. example: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, nicht `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com``<space>johndoe@example.com<space>`
+* When hashing the email strings, make sure to hash the lowercase string;
+   * Beispiel: , not ;`example@email.com``EXAMPLE@EMAIL.COM`
+* Make sure the hashed string is all lowercase
+   * Beispiel: , not ;`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149``55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`
 * Salt die Zeichenfolge nicht.
 
 Mit Adobe Experience Cloud haben Sie die Möglichkeit, Kunden-IDs über den Experience Cloud ID-Dienst zu hash. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Support für setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
