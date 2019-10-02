@@ -17,7 +17,7 @@ source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 
 Diese Seite enthält eine schrittweise Anleitung zum Erstellen von Zielgruppensegmenten aus reinen Offline-Kundendaten und zum Senden dieser Segmente an People-Based-Ziele.
 
-## Step 1 - Onboard Offline Traits {#step-1-onboard-traits}
+## Schritt 1: Integrierte Offline-Eigenschaften {#step-1-onboard-traits}
 
 Der erste Schritt beim Erstellen von Zielgruppensegmenten in diesem Szenario besteht darin, Ihre Offline-Kundendaten in Audience Manager zu importieren.
 
@@ -25,20 +25,20 @@ Der erste Schritt beim Erstellen von Zielgruppensegmenten in diesem Szenario bes
 >
 > Bevor Sie fortfahren, stellen Sie sicher, dass die Kundenaktivität, die Sie im Begriff sind zu berücksichtigen, bereits in Audience Manager mit den entsprechenden [integrierten Eigenschaften](../traits/trait-qualification-reference.md)definiert ist.
 
-Regardless of whether your existing Audience Manager customer IDs (DPUUIDs) are hashed emails or not, you must perform the trait onboarding against the data source that contains your DPUUIDs.[](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md)
+Unabhängig davon, ob es sich bei Ihren bestehenden Audience Manager-Kunden-IDs ([DPUUIDs](../../reference/ids-in-aam.md)) um Hash-E-Mails handelt oder nicht, müssen Sie die Eigenschaft für die Datenquelle, die Ihre [DPUUIDs](../../reference/ids-in-aam.md)enthält, aktivieren.
 
 ### Beispiel 
 
-You want to qualify the customer IDs from the table below for the corresponding onboarded trait IDs. Let's consider that your DPUUIDs are stored in a data source with the ID 999999, and your Audience Manager Partner ID is 123.[](../../reference/ids-in-aam.md)
+Sie möchten die Kunden-IDs aus der unten stehenden Tabelle für die entsprechenden IDs für nicht integrierte Eigenschaften qualifizieren. Denken wir daran, dass Ihre [DPUUIDs](../../reference/ids-in-aam.md) in einer Datenquelle mit der ID 999999 gespeichert sind und Ihre Audience Manager Partner-ID 123 beträgt.
 
-| Customer ID (DPUUID) | Onboarded Trait ID |
+| Kunden-ID (DPUUID) | Integrierte Eigenschaften-ID |
 | -------------------------------------- | ------------------- |
 | 68079982765673198504052656074456196039 | 12345, 23456 |
 | 67412682083411995725538770443620307584 | 45678 |
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-To qualify the customer IDs in the example above for the corresponding onboarded traits, you must upload an [inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) with the following contents:
+Um die Kunden-IDs im obigen Beispiel für die entsprechenden Eigenschaften mit Onboard zu qualifizieren, müssen Sie eine [Inbound-Datendatei](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) mit folgendem Inhalt hochladen:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -46,9 +46,8 @@ To qualify the customer IDs in the example above for the corresponding onboarded
 89159024796760343733111707646026765593<TAB>d_sid=11223,d_sid=93342,d_sid=27341
 ```
 
-The file name would look like this: .
-`ftp_dpm_999999_123_TIMESTAMP.sync.gz`
-See Amazon S3 Name and File Size Requirements for Inbound Data Files for detailed information on the file name structure.[](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+Der Dateiname würde wie folgt aussehen: `ftp_dpm_999999_123_TIMESTAMP.sync.gz`.
+Detaillierte Informationen zur Dateistruktur finden Sie unter [Amazon S3-Anforderungen an Name und Dateigröße für Inbound-Datendateien](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) .
 
 ## Step 2 - Configure Data Source Settings {#configure-data-source-settings}
 
@@ -109,7 +108,7 @@ Zur Erinnerung haben Sie jetzt zwei Datenquellen:
 
  
 
-In unserem Beispiel würde Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) folgenden Inhalt haben:
+In our example, your ID synchronization file would have the following contents:[](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
 
 ```
 68079982765673198504052656074456196039<TAB>55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
@@ -128,13 +127,13 @@ Die [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-da
 Im Beispiel oben würde der Dateiname wie folgt aussehen:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
+[Beispieldatei hier](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)herunterladen.
 
 Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3] To learn how to upload ID synchronization files, see Send Batch Data to Audience Manager.[](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
 
 ## Step 4 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule}
 
-Der nächste Schritt ist die Erstellung einer neuen Zusammenführungsregel, mit der Sie die Zielgruppensegmente erstellen können, die an Ihre [!DNL People-Based Destinations]Benutzer gesendet werden.
+The next step is creating a new merge rule that will help you create the audience segments to send to your .[!DNL People-Based Destinations]
 
 1. Log in to your Audience Manager account and go to  -&gt; .**[!UICONTROL Audience Data]****[!UICONTROL Profile Merge Rules]**
 2. Klicken [!UICONTROL Add New Rule].
@@ -147,7 +146,7 @@ Der nächste Schritt ist die Erstellung einer neuen Zusammenführungsregel, mit 
 
 Um neue Segmente aus reinen Offline-Daten zu erstellen, verwenden Sie den [Segmentaufbau](../segments/segment-builder.md) und stellen Sie sicher, dass Sie die neue Regel zum Profilzusammenführen verwenden, die Sie im vorherigen Schritt erstellt haben, wenn Sie das Segment erstellen.
 
-## Schritt 6: Personalisierte Plattformauthentifizierung konfigurieren {#configure-authentication}
+## Step 6 - Configure People-Based Platform Authentication {#configure-authentication}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer sozialen Plattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
    ![people-based-integration](assets/pbd-config.png)
@@ -172,7 +171,7 @@ Um neue Segmente aus reinen Offline-Daten zu erstellen, verwenden Sie den [Segme
    * **[!UICONTROL Account]**: Wählen Sie das gewünschte Advertiser-Konto aus, das mit der ausgewählten Plattform verknüpft ist.
       ![create-destination](assets/pbd-create-destination.png)
 1. Klicken Sie auf **[!UICONTROL Next]**.
-1. Choose the  that you want to set for this destination.**[!UICONTROL Data Export Labels]**
+1. Wählen Sie **[!UICONTROL Data Export Labels]** das Ziel aus, das Sie für dieses Ziel festlegen möchten.
 1. Wählen Sie im **[!UICONTROL Configuration]** Abschnitt die Datenquelle aus, die Ihre Hash-Datenquellen enthält.
-1. In the  section, select the segments that you want to send to this destination. **[!UICONTROL Segment Mappings]** Dies sind die Segmente, die Sie in [Schritt 5 - Zielgruppensegmente](people-based-destinations-workflow-offline.md#create-audience-segments)erstellen erstellt haben.
-1. Speichern Sie das Ziel.
+1. Wählen Sie im **[!UICONTROL Segment Mappings]** Abschnitt die Segmente aus, die Sie an dieses Ziel senden möchten. This would be the segments that you created at Step 5 - Create Audience Segments.[](people-based-destinations-workflow-offline.md#create-audience-segments)
+1. Save the destination.
