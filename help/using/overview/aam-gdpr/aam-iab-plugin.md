@@ -5,7 +5,7 @@ seo-title: Audience Manager Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager Plug-In für IAB TCF
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: c238a37e1a72edb0679f657d0178e04b8d848ec2
 
 ---
 
@@ -18,13 +18,13 @@ Ein wichtiger Aspekt der Datenschutzverpflichtungen, die Sie gegenüber Ihren An
 
 Adobe bietet Ihnen die Möglichkeit, die Datenschutzoptionen Ihrer Benutzer über die [Opt-in-Funktion](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html) und die Unterstützung des [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) zu verwalten und zu übermitteln.
 
-Dieser Artikel beschreibt die Audience Manager-Anwendungsfälle, die das IAB TCF unterstützen, und wie Sie die IAB TCF-Unterstützung in Audience Manager implementieren. Audience Manager ist in der IAB-TCF mit der Anbieter-ID 565 registriert.
+Dieser Artikel beschreibt die Audience Manager-Anwendungsfälle, die das IAB TCF unterstützen, und wie Sie die IAB TCF-Unterstützung in Audience Manager implementieren. Audience Manager is registered in the IAB TCF with the vendor ID 565.
 
-Das Audience Manager-Plug-in für die IAB-TCF verwendet die [Opt-in-Funktion](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html), die wiederum Teil der Adobe [Experience Cloud ID Service (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) -Bibliothek ist.
+The Audience Manager Plug-in for IAB TCF utilizes the Opt-in functionality, which is, in turn, part of the Adobe Experience Cloud ID Service (ECID) library.[](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 
-## Anwendungsbereich und Beschränkungen {#scope-and-limitations}
+## Scope and Limitations {#scope-and-limitations}
 
-Als Herausgeber oder Advertiser, der mit Audience Manager arbeitet, können Sie Benutzeroptionen gemäß IAB-TCF an Audience Manager übermitteln. Dadurch erhalten Sie eine einfache und konsistente Möglichkeit, allen Partnern, mit denen Sie arbeiten, Benutzeroptionen mitzuteilen. Audience Manager kann Ihnen dabei helfen, die Datenschutzentscheidungen Ihrer Benutzer zu respektieren.
+As a Publisher or Advertiser working with Audience Manager, you are able to convey user choices to Audience Manager as per IAB TCF. Dadurch erhalten Sie eine einfache und konsistente Möglichkeit, allen Partnern, mit denen Sie arbeiten, Benutzeroptionen mitzuteilen. Audience Manager kann Ihnen dabei helfen, die Datenschutzentscheidungen Ihrer Benutzer zu respektieren.
 
 Die in diesem Artikel beschriebene Unterstützung der IAB-TCF stellt die erste Phase der geplanten Unterstützung des IAB-Rahmens durch Audience Manager dar. Derzeit unterstützt Audience Manager nicht:
 
@@ -63,30 +63,30 @@ Die IAB-Rahmenvorschriften verfolgen folgende Standardziele:
 * Inhaltsauswahl, Bereitstellung und Berichterstellung
 * Videoinformationen
 
-Eine Beschreibung der fünf Standardzwecke finden Sie auf der Seite[ der ](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features)IAB-Rahmenspezifikation.
+Refer to the IAB framework specification page for a description of the five standard purposes.[](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features)
 
-Benutzer können ihre Einwilligung für eine Kombination aus Standardzwecken und Anbietern erteilen. Beispielsweise könnten Benutzer ihre Einwilligung zur Speicherung, Personalisierung und Messung erteilen und allen vom CMP angezeigten Drittanbietern ihre Einwilligung erteilen. Oder in einem anderen Beispiel könnten sie ihre Zustimmung für alle fünf Standardzwecke erteilen, aber nur einigen Anbietern, die vom CMP gezeigt werden, ihre Zustimmung erteilen.
+Benutzer können ihre Einwilligung für eine Kombination aus Standardzwecken und Anbietern erteilen. For example, users could grant their consent for storage, personalization, and measurement and grant their consent to all third-party vendors displayed by the CMP. Or, in another example, they could grant their consent for all five standard purposes but only grant consent to a few of the vendors displayed by the CMP.
 
-Sobald der Benutzer seine Datenschutzeinstellungen ausgewählt hat, werden die Benutzerauswahl(en) in der IAB-TCF-Genehmigungszeichenfolge aufgezeichnet. Die IAB-TCF-Genehmigungszeichenfolge speichert die Kombination von genehmigten Zwecken und Anbietern zusammen mit anderen Metadateninformationen (weitere Informationen finden Sie auf der [IAB-Seite](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) ). Jeder in der IAB TCF registrierte Anbieter bewertet die IAB TCF-Zustimmungszeichenfolge und trifft Entscheidungen auf der Grundlage der Datenschutzentscheidungen der Nutzer. Beachten Sie, dass die Datenschutzeinstellungen der Benutzer für alle zugelassenen Anbieter gültig sind.
+Once the user selects their privacy choices, the user choice(s) are recorded in the IAB TCF consent string. The IAB TCF consent string stores the combination of approved purposes and vendors, along with other metadata information (see the IAB page for more information). [](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) Every vendor registered in the IAB TCF evaluates the IAB TCF consent string and makes decisions based on the users' privacy choices. Keep in mind that the users' privacy choices are valid across all approved vendors.
 
-## Von Audience Manager benötigte Standardzwecke {#aam-standard-purposes}
+## Standard purposes needed by Audience Manager {#aam-standard-purposes}
 
 Audience Manager bewertet die in der IAB TFC-Zustimmungszeichenfolge gespeicherten Benutzerentscheidungen für:
 
-* Informationsspeicherung und -zugriff (Zweck-ID 1 in der Liste der [globalen Anbieter](https://vendorlist.consensu.org/vendorlist.json))
-* Personalisierung (Ziel-ID 2)
-* Messung (Zweck-ID 5)
-* Die Zustimmung des Audience Manager-Anbieters, Daten für einen Herausgeber zu speichern, zu verarbeiten oder zu aktivieren.
+* Information storage and access (purpose ID 1 in the global vendor list)[](https://vendorlist.consensu.org/vendorlist.json)
+* Personalization (purpose ID 2)
+* Measurement (purpose ID 5)
+* Audience Manager vendor consent to store, process, or activate on data for a publisher.
 
 >[!IMPORTANT]
 >
 >Audience Manager needs consent for *all three purposes, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs.
 
-## Das Verhalten von Audience Manager hängt davon ab, ob der Benutzer seine Zustimmung erteilt {#aam-behavior-consent}
+## Audience Manager behavior depends on whether the user grants consent {#aam-behavior-consent}
 
-Audience Manager funktioniert unterschiedlich, je nachdem, ob Audience Manager in der IAB-TCF-Zustimmungszeichenfolge erkennt, dass der Benutzer die Zustimmung zu den drei Zwecken (Speicherung, Personalisierung, Messung) erteilt hat oder nicht.
+Audience Manager works differently depending on whether Audience Manager detects in the IAB TCF consent string that the user has provided consent for the three purposes (storage, personalization, measurement) or not.
 
-| Wenn Ihr Benutzer seine Zustimmung *erteilt*, dann Audience Manager: | Wenn Ihr Benutzer die Zustimmung *ablehnt* , dann Audience Manager: |
+| When your user provides consent, Audience Manager:** | Wenn Ihr Benutzer die Zustimmung *ablehnt* , dann Audience Manager: |
 |---|---|
 | <ul><li>Führt alle von Ihnen angeforderten Fälle von Audience Manager aus.</li><li>Sendet Zustimmung an Dritte in ID-Syncs (durch Übergabe von gdpr = 1 und der Zustimmungszeichenfolge als gdpr_approval bei ID-Synchronisierungsaufrufen).</li><li>Wertet die von Anzeigenserverpixeln weitergegebene Zustimmung aus und berücksichtigt sie.</li><li>Bezeichnet von Partnern initiierte ID-Synchronisierungen.</li></ul> | <ul><li>Speichert keine neuen Benutzerdaten in Ihrer Instanz. Dazu gehören Partner-IDs, Signale, Eigenschaften oder Pixeldaten.</li><li>Initiiert keine Synchronisierung der Drittanbieter-IDs.</li><li>Die ID-Synchronisierungen, die vom Partner initiiert wurden, werden nicht berücksichtigt.</li></ul> |
 
@@ -106,16 +106,16 @@ Durch die Implementierung der IAB-TCF müssen Sie keinen benutzerdefinierten Cod
 
 ![Verwendungsfall für Herausgeber](assets/publisher-use-case.png)
 
-## Anwendungsfall für Advertiser {#advertiser-use-case}
+## Advertiser Use Case {#advertiser-use-case}
 
 Audience Manager bewertet und berücksichtigt die in [Pixelaufrufen](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)weitergegebene Zustimmung gemäß der IAB-TCF.
 
-Pixel werden von Audience Manager-Kunden in der Regel auf ihren Partnerseiten platziert oder in Werbeseiten platziert, um sie in die Anzeigenantwort einzubeziehen. Im ersten Fall muss Ihr Partner den Parameter "approval"programmgesteuert abrufen und ihn dem Pixel hinzufügen, bevor er ausgelöst wird. Im zweiten Fall, der häufiger vorkommt und unten detailliert beschrieben wird, hängen Anzeigenserver die von der Supply-Side Platform (SSP) oder dem Herausgeber-Anzeigenserver erhaltenen Parameter an alle Pixel an.
+Pixel werden von Audience Manager-Kunden in der Regel auf ihren Partnerseiten platziert oder in Werbeseiten platziert, um sie in die Anzeigenantwort einzubeziehen. In the first case, your partner must programmatically retrieve the consent parameter and add it to the pixel before firing. In the second case, which is more common and is described in detail below, ad servers append the consent parameters they receive from the Supply-Side Platform (SSP) or publisher ad servers to all pixels.
 
-Audience Manager verwendet zwei Parameter, um die Zustimmung des Benutzers in Pixelaufrufen zu übermitteln:
+Audience Manager uses two parameters to pass user consent in pixel calls:
 
-* `gdpr` kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen;
-* `gdpr_consent` ist die URL-sichere base64-kodierte GDPR-Zustimmungszeichenfolge (siehe [Spezifikation](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications)). Ein Beispielaufruf für ein Impressions-Pixel mit den beiden Parametern könnte wie folgt aussehen:
+* `gdpr` can be 0 (GDPR does not apply) or 1 (GDPR applies);
+* `gdpr_consent` is the URL-safe base64-encoded GDPR consent string (see specification). [](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications) A sample call for an impression pixel, with the two parameters could look like below:
 
 ```
 http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstring&d_src=datasource_id&d_site=siteID&d_creative=creative_id&d_adgroup=adgroup_id&d_placement=placement_id
@@ -132,11 +132,11 @@ Der Anwendungsfall wird im Bild und in den unten stehenden Schritten beschrieben
 
 ## Aktivierungspartner, die die IAB-TCF unterstützen {#aam-activation-partners}
 
-Mit dem Audience Manager-Plug-in für die IAB-TCF können Sie die IAB-TCF-Zustimmungszeichenfolge an Aktivierungspartner weiterleiten und dabei die Datenschutzeinstellungen der Benutzer beachten. Informationen darüber, welche Aktivierungspartner die IAB-TCF unterstützen (genau ab 7. Juli 2019), finden Sie in unserem **[Partner Excel-Blatt](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx)**.
+Mit dem Audience Manager-Plug-in für die IAB-TCF können Sie die IAB-TCF-Zustimmungszeichenfolge an Aktivierungspartner weiterleiten und dabei die Datenschutzeinstellungen der Benutzer beachten. Informationen darüber, welche Aktivierungspartner die IAB-TCF unterstützen (genau ab 7. Juli 2019), finden Sie in unserem **[Partner Excel-Blatt](/help/using/overview/aam-gdpr/assets/AAM-Partners-October2019.xlsx)**.
 
 ## IAB-Implementierung testen {#test-iab-implementation}
 
-Um zu testen, ob Sie das Audience Manager-Plug-in für IAB TCF korrekt implementiert haben, lesen Sie [Verwendungsfall 4 unter Validierungsmethoden für Ausschluss- und IAB-Implementierung](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html).
+Um zu testen, ob Sie das Audience Manager-Plug-in für IAB TCF korrekt implementiert haben, lesen Sie [Verwendungsfall 4 in Validierungsmethoden für Ausschluss- und IAB-Implementierung](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html).
 
 ## IAB und Ausschluss in Audience Manager. Rangfolge. {#iab-and-optout}
 
