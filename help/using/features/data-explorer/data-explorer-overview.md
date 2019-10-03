@@ -5,7 +5,7 @@ seo-title: Übersicht, Vorteile und Anwendungsfälle
 title: Übersicht, Vorteile und Anwendungsfälle
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -41,3 +41,9 @@ Ein globaler Elektronikhändler hat ein hohes Besucheraufkommen, aber die Konver
 ### Beispiel 2
 
 Nachdem ein Reisedienstleister neue Ziele zu seiner Buchungswebsite hinzufügt, möchte er sie für historische Zielgruppen bewerben, obwohl keine Eigenschaften für sie erstellt wurden. Sie können die Signalsuche verwenden, um die ungenutzten Signale im Zusammenhang mit den neuen Zielen zu identifizieren, sie in neue Eigenschaften einzuschließen und mit historischen Erkenntnissen [aufzustocken](../../features/data-explorer/data-explorer-trait-backfill.md) . Erstellen Sie dann neue Segmente mit den neuen Eigenschaften und richten Sie sie sofort mit dedizierten Kampagnen aus.
+
+### Verwenden von Data Explorer zur Überprüfung der Erstellung von Eigenschaften für Ihre eingebetteten Daten
+
+Eine der leistungsfähigsten Funktionen von Audience Manager ist die Möglichkeit, Offlinedaten zu integrieren und sie mit Ihren Online-Daten zu verbinden. In dem folgenden Video erfahren Sie, wie Sie überprüfen können, ob Sie alle erforderlichen Eigenschaften erstellt haben, um diese integrierten Daten zu nutzen. [!UICONTROL Data Explorer]
+
+[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=ger)
