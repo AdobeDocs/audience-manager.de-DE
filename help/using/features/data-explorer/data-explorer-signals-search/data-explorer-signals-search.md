@@ -4,7 +4,7 @@ seo-description: Suchen Sie nach benutzten und nicht verwendeten Signalen, die Ã
 seo-title: Sprache
 title: Sprache
 translation-type: tm+mt
-source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -19,5 +19,4 @@ Suchen Sie nach benutzten und nicht verwendeten Signalen, die Ã¼ber bestimmte Ze
 * [Suchergebnisse filtern](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Suchkriterien speichern](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
-
-
+[!VIDEO](https://video.tv.adobe.com/v/25148/?captions=ger)
