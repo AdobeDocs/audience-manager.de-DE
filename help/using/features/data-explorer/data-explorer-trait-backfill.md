@@ -5,7 +5,7 @@ seo-title: Eigenschaften-Realisierungen für Aufstockungen
 title: Eigenschaften-Realisierungen für Aufstockungen
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -44,6 +44,10 @@ So stocken Sie Eigenschaftenrealisierungen auf:
 1. Erstellen Sie die Eigenschaft.
 
 Nachdem Sie die Eigenschaft erstellt haben, sehen Sie, wie die in der Realisierungsstatistik enthaltenen rückständigen Realisierungen aussehen.
+
+Sehen Sie sich das unten stehende Video an, um sich einen Video mit einer Anleitung zum Aufstocken von Eigenschaften anzusehen.
+
+[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=ger)
 
 ## Latenz zum Aufstocken von Eigenschaften {#trait-backfilling-latency}
 
