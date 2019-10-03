@@ -6,7 +6,7 @@ solution: Audience Manager
 title: GDPR-Überlegungen zu Zielen
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 translation-type: tm+mt
-source-git-commit: 69be038d0f2d31b6b5eda20041082c1890abc38f
+source-git-commit: c238a37e1a72edb0679f657d0178e04b8d848ec2
 
 ---
 
@@ -46,7 +46,7 @@ Einige Partner, wie in der folgenden Tabelle aufgeführt, haben ihre Integration
    <td colname="col3"> <p>Noch nicht live </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>LiveRamp </p> </td> 
+   <td colname="col1"> <p> LiveRamp </p> </td> 
    <td colname="col2"> <p>ID-Syncs für Benutzer in der Europäischen Union werden vom Partner gelöscht </p> </td> 
    <td colname="col3"> <p>Noch nicht live </p> </td> 
   </tr> 
@@ -55,17 +55,17 @@ Einige Partner, wie in der folgenden Tabelle aufgeführt, haben ihre Integration
 
 ## Aktualisierung der Benutzeroberfläche von Audience Manager - Yahoo/Oath/DataX-Integration {#ui-update}
 
-Zusätzlich zu den oben erwähnten Aktualisierungen des IAB-Frameworks haben Yahoo/Oath/DataX neue Parameter, **gdpr** und **gdpr_mode**, zu ihren Taxonomie- und Audience-APIs hinzugefügt. Ihre Parameter teilen Yahoo/Oath/DataX mit, dass sie berechtigt sind, ein bestimmtes Segment als Datenprozessor oder als Datencontroller zu verarbeiten. Daher müssen Audience Manager-Kunden, die Segmente an ein Yahoo/Oath/DataX-Ziel senden, den entsprechenden Parameter (Prozessor oder Controller) entsprechend ihrer Vereinbarung mit Oath angeben.
+Zusätzlich zu den oben erwähnten Aktualisierungen des IAB-Frameworks haben Yahoo/Oath/DataX neue Parameter, **gdpr** und **gdpr_mode**, zu ihren Taxonomie- und Audience-APIs hinzugefügt. Their parameters inform Yahoo/Oath/DataX that they have the rights to process a certain segment as a Data Processor or as a Data Controller. Daher müssen Audience Manager-Kunden, die Segmente an ein Yahoo/Oath/DataX-Ziel senden, den entsprechenden Parameter (Prozessor oder Controller) entsprechend ihrer Vereinbarung mit Oath angeben.
 
-Wenden Sie sich an Ihren Berater oder an den Kundendienst, um den richtigen Parameter festzulegen. Adobe kann dieses Update nur im Namen eines Kunden vornehmen, wenn wir eine schriftliche Korrespondenz erhalten und diese Aktualisierung anfordern. Bitte wenden Sie sich an Ihren Yahoo/Oath/DataX-Kundenbetreuer, um die vollständige Definition dieser Parameter zu verstehen.
+Please reach out to your Consultant or Client Care to set the correct parameter. Adobe cannot make this update on behalf of a customer unless we receive written correspondence, requesting this update. Please reach out to your Yahoo/Oath/DataX representative to understand the full definition of these parameters.
 
-## Audience Manager-Partner mit Unsegmentierungsfunktionen {#aam-partners-with-unsegmentation}
+## Audience Manager Partners With Unsegmentation Capabilities {#aam-partners-with-unsegmentation}
 
-Um unseren Kunden bei der Automatisierung von GDPR-Anforderungen zu helfen, benachrichtigt Audience Manager unsere Aktivierungspartner über Löschungsanfragen von Datensubjekten, indem er ihnen Segmentinformationen sendet (oder entfernt).
+In order to help our customers automate GDPR requests, Audience Manager notifies our activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
 
-Einige unserer Aktivierungspartner:
+However, some of our activation partners:
 
-1. Keine Unterstützung von Nicht-Segment-Anfragen von Adobe und/oder
-1. Wir können keine Updates von uns häufiger als einmal in 30 Tagen erhalten.
+1. Cannot support unsegment requests from Adobe and/or
+1. Are not able to receive updates from us more frequently than once in 30 days.
 
-In diesen Fällen ist es nicht möglich, Löschanforderungen automatisch über Audience Manager an Aktivierungspartner zu senden. Laden Sie sich unser [Partner-Excel-Blatt](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx) herunter, um zu sehen, welche Audience Manager-Aktivierungspartner das Segment nicht unterstützen.
+In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager. Download our [Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-October2019.xlsx) to see which Audience Manager activation partners support unsegment.
