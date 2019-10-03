@@ -1,14 +1,14 @@
 ---
-description: Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie ein algorithmisches Modell in Model Builder erstellen können.
-keywords: algo-Funktionsweise
-seo-description: Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie ein algorithmisches Modell in Model Builder erstellen können.
-seo-title: Algorithmisches Modell erstellen
+description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+keywords: algo how works
+seo-description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+seo-title: Create an Algorithmic Model
 solution: Audience Manager
 title: Algorithmisches Modell erstellen
-topic: DIL-API
+topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -23,7 +23,7 @@ Beschreibt die erforderlichen und optionalen Schritte zum Erstellen eines algori
 
 ### Bereich "Modellaufbau"
 
-[!UICONTROL Model Builder] besteht aus den [!UICONTROL Basic Information] und [!UICONTROL Configuration] Abschnitten. Um ein Modell zu erstellen, füllen Sie die erforderlichen Felder in diesen beiden Abschnitten aus. Speichern Sie Ihr Modell, um den Algorithmus zu starten. [!DNL Audience Manager] sendet Ihnen eine automatisierte Benachrichtigung nach Abschluss der ersten Datenausführung. Nachdem Sie die E-Mail erhalten haben, können Sie zum [Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md) wechseln und algorithmische Eigenschaften erstellen.
+[!UICONTROL Model Builder] besteht aus den [!UICONTROL Basic Information] und [!UICONTROL Configuration] Abschnitten. Um ein Modell zu erstellen, füllen Sie die erforderlichen Felder in diesen beiden Abschnitten aus. Speichern Sie Ihr Modell, um den Algorithmus zu starten. [!DNL Audience Manager] sends you an automated notification after the first data run completes. Nachdem Sie die E-Mail erhalten haben, können Sie zum [Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md) wechseln und algorithmische Eigenschaften erstellen.
 
 >[!NOTE]
 >
@@ -45,30 +45,30 @@ Gehen Sie zum Erstellen eines Modells zum [!UICONTROL Models] Abschnitt und klic
    * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, für die Sie ein Modell erstellen möchten.   Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt.
    * Wählen Sie einen 30-, 60- oder 90-tägigen Rückblickzeitraum. Hiermit wird ein Zeitraum für das Modell festgelegt.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Wählen Sie eine Datenquelle aus der [!UICONTROL Available Data] Liste aus.
+   * Select a data source from the  list.[!UICONTROL Available Data]
    * Click **[!UICONTROL Save]** when done.
 
 ## Grundlegende Informationen für algorithmische Modelle {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-In [!UICONTROL Model Builder]den [!UICONTROL Basic Information] Einstellungen können Sie neue oder vorhandene Modelle erstellen. Um ein neues Modell zu erstellen, geben Sie einen Namen ein und wechseln Sie zu den [!UICONTROL Configuration] Einstellungen. Das Beschreibungsfeld ist optional.
+In [!UICONTROL Model Builder]den [!UICONTROL Basic Information] Einstellungen können Sie neue oder vorhandene Modelle erstellen. Um ein neues Modell zu erstellen, geben Sie einen Namen ein und wechseln Sie zu den [!UICONTROL Configuration] Einstellungen. The description field is optional.
 
 | Feld | Beschreibung |
 |---|---|
-| **[!UICONTROL Name]** | Geben Sie dem Modell einen kurzen logischen Namen, der seine Funktion oder seinen Zweck beschreibt. Vermeiden Sie Abkürzungen, Sonderzeichen und Akzentzeichen. |
-| **[!UICONTROL Description]** | Ein Feld für weitere beschreibende Informationen zum Modell. |
-| **[!UICONTROL Status]** | Aktiviert oder deaktiviert das Modell (standardmäßig aktiv). |
+| **[!UICONTROL Name]** | Give your model a short, logical name that describes its function or purpose. Avoid abbreviations, special characters, and accent marks. |
+| **[!UICONTROL Description]** | A field for additional descriptive information about the model. |
+| **[!UICONTROL Status]** | Activates or deactivates the model (active by default). |
 
 ## Konfiguration {#configuration}
 
-In [!UICONTROL Model Builder]diesem Abschnitt können Sie dem Modell Eigenschaften oder Segmente [!UICONTROL Configuration] hinzufügen. Wählen Sie in diesem Abschnitt eine Basiseigenschaft oder ein Segment, einen Rückblickzeitraum und Daten aus Ihren Erstanbieter- und Drittanbieter-Datenquellen aus.
+In , the  section lets you add traits or segments to the model. [!UICONTROL Model Builder][!UICONTROL Configuration] In this section, select a baseline trait or segment, a look-back period, and data from your first and third-party data sources.
 
 <!-- r_model_configuration.xml -->
 
 ### Voraussetzungen
 
-Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] Abschnitt aus.
+Complete the required fields in the  section first.[!UICONTROL Basic Information]
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -81,7 +81,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Grundlegende Eigenschaft oder Segment auswählen (1)</b> </p> </td> 
+   <td colname="col1"> <p><b>Select a Baseline Trait or Segment (1)</b> </p> </td> 
    <td colname="col2"> <p>Klicken Sie auf die Schaltfläche Eigenschaften oder Segmente, um eine Liste aller Eigenschaften oder Segmente anzuzeigen. Ihr ausgewähltes Segment oder Ihre Eigenschaft wird zur Grundlage, die die Systemalgorithmen für die Modellierung verwenden. </p> <p> <p><b>Hinweis</b>:Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie ein Erstanbieter-Look-like-Modell erstellen, damit Sie mehr eigene Besucher finden können, die wie Ihre Konverter aussehen.
 
-[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=ger)
 
 >[!MORE_LIKE_THIS]
 >
