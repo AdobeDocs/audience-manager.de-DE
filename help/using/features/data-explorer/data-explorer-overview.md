@@ -5,7 +5,7 @@ seo-title: Übersicht, Vorteile und Anwendungsfälle
 title: Übersicht, Vorteile und Anwendungsfälle
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -46,4 +46,4 @@ Nachdem ein Reisedienstleister neue Ziele zu seiner Buchungswebsite hinzufügt, 
 
 Eine der leistungsfähigsten Funktionen von Audience Manager ist die Möglichkeit, Offlinedaten zu integrieren und sie mit Ihren Online-Daten zu verbinden. In dem folgenden Video erfahren Sie, wie Sie überprüfen können, ob Sie alle erforderlichen Eigenschaften erstellt haben, um diese integrierten Daten zu nutzen. [!UICONTROL Data Explorer]
 
-[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=ger)
