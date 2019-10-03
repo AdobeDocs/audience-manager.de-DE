@@ -5,7 +5,7 @@ seo-title: Erweiterte Suche nach Adobe Analytics
 title: Erweiterte Suche nach Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -25,3 +25,7 @@ Mit dieser Integration können Sie die Anzeigenamen für Schlüssel/Wert-Paare a
 
    ![](assets/signals-search-analytics.png)
 1. Die Suchergebnisse zeigen Ihnen nun die Anzeigenamen für die Schlüssel/Wert-Paare, die in die **[!UICONTROL Key or Key Name]** Spalte eingegeben wurden, oder für alle Signale in der Report Suite, wenn Sie die Schlüsselwertfelder leer lassen.
+
+Das folgende Video zeigt, wie Sie Ihre Adobe Analytics-Daten ermitteln und verwenden können, einschließlich der Suche nach verwendeten und nicht verwendeten Signalen, der Erstellung von Analytics-Eigenschaften und des Verständnisses der Daten. [!UICONTROL Data Explorer]
+
+[!VIDEO](https://video.tv.adobe.com/v/25150?captions=ger)
