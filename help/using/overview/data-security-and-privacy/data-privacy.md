@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenschutz
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -89,7 +89,7 @@ The [!DNL IP] address of a visitor to a customer’s website is transmitted to a
 
 Sehen Sie sich das unten stehende Video an, um zu verstehen, wie [!DNL IP] Adressenverschleierung in Audience Manager funktioniert.
 
-[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=ger)
 
 **** Geografische Segmentierung: Wenn Sie die [!DNL IP] Adressenverschleierung aktivieren, können die verbleibenden Oktette der [!DNL IP] Adresse weiterhin für die Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die [!DNL IP] Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige [!DNL IP] Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie einen Standort in jedem Fall nach geografischem Gebiet identifizieren können, allerdings mit etwas geringer Präzision, wenn [!DNL IP] [!DNL IP] Verschleierung verwendet wird. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentdaten sind nur auf der Ebene der Stadt oder der Postleitzahl granular und nicht auf der Ebene der einzelnen Personen. Erfahren Sie mehr über das [Geo-Targeting](/help/using/features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
 
