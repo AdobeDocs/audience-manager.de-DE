@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenschutz
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -76,18 +76,22 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 -->
 
-Die IP-Adresse eines Besuchers auf der Website eines Kunden wird an das Adobe Data Processing Center (DPC) übertragen, wo die IP-Adresse gespeichert werden kann. Je nach Netzwerkkonfiguration des Besuchers muss die IP-Adresse nicht unbedingt die IP-Adresse des Computers des Besuchers darstellen. Bei der IP-Adresse kann es sich z. B. um die externe IP-Adresse einer Network Address Translation-(NAT-)Firewall, eines HTTP-Proxys oder eines Internet-Gateways handeln.
+The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
 
-**** IP-Verschleierungsmethode: Gemäß den Grundsätzen von "Datenschutz nach Design"ermöglicht Adobe Audience Manager Kunden die Aktivierung der IP-Verschleierung über die Benutzeroberfläche, entweder global in allen geografischen Regionen oder für bestimmte Länder. Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort verworfen, wenn die IP-Adresse in Audience Manager aufgenommen wird. Audience Manager verwirft diesen Teil der IP-Adresse vor der Verarbeitung (auch vor einer optionalen geografischen Suche oder Protokollierung der IP-Adresse). Beispiel:
+**** IP-Verschleierungsmethode: Gemäß den Grundsätzen von "Privacy By Design"ermöglicht Adobe Audience Manager Kunden, Verschleierung über die Benutzeroberfläche zu aktivieren, entweder global über alle geografischen Regionen oder für bestimmte Länder. [!DNL IP] Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der [!DNL IP] Adresse sofort verworfen, wenn die [!DNL IP] Adresse in Audience Manager aufgenommen wird. Audience Manager verwirft diesen Teil der [!DNL IP] Adresse vor der Verarbeitung (auch vor einer optionalen geografischen Suche oder Protokollierung der [!DNL IP] Adresse). Beispiel:
 
 * Bevor: `255.255.255.255`
 * Nachher: `255.255.255.0`
 
 >[!NOTE]
 >
->Informationen zum Aktivieren der Verschleierung von IP-Adressen in der Benutzeroberfläche von Audience Manager finden Sie unter [IP-Adressenverschleierung](/help/using/features/administration/ip-obfuscation.md) .
+>Siehe [IP-Adressenverschleierung](/help/using/features/administration/ip-obfuscation.md) , um zu erfahren, wie Sie die [!DNL IP] Adressenverschleierung in der Benutzeroberfläche von Audience Manager aktivieren.
 
-**** Geografische Segmentierung: Wenn Sie die IP-Adressenverschleierung aktivieren, können die verbleibenden Oktette der IP-Adresse weiterhin für die Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die IP-Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige IP-Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie in beiden Fällen eine IP-Position nach geografischem Gebiet identifizieren können. Bei Verwendung der IP-Verschleierung ist die Genauigkeit jedoch etwas geringer. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der IP-Adresse wahrscheinlich merklich beeinträchtigt. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentdaten sind nur auf der Ebene der Stadt oder der Postleitzahl granular und nicht auf der Ebene der einzelnen Personen. Erfahren Sie mehr über das [Geo-Targeting](/help/using/features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
+Sehen Sie sich das unten stehende Video an, um zu verstehen, wie [!DNL IP] Adressenverschleierung in Audience Manager funktioniert.
+
+[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=ger)
+
+**** Geografische Segmentierung: Wenn Sie die [!DNL IP] Adressenverschleierung aktivieren, können die verbleibenden Oktette der [!DNL IP] Adresse weiterhin für die Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die [!DNL IP] Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige [!DNL IP] Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie einen Standort in jedem Fall nach geografischem Gebiet identifizieren können, allerdings mit etwas geringer Präzision, wenn [!DNL IP] [!DNL IP] Verschleierung verwendet wird. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentdaten sind nur auf der Ebene der Stadt oder der Postleitzahl granular und nicht auf der Ebene der einzelnen Personen. Erfahren Sie mehr über das [Geo-Targeting](/help/using/features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
 
 ## Verwandte Konzepte {#related-concepts}
 
