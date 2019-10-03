@@ -5,7 +5,7 @@ seo-title: Erweiterte Suche nach Adobe Analytics
 title: Erweiterte Suche nach Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -28,4 +28,4 @@ Mit dieser Integration können Sie die Anzeigenamen für Schlüssel/Wert-Paare a
 
 Das folgende Video zeigt, wie Sie Ihre Adobe Analytics-Daten ermitteln und verwenden können, einschließlich der Suche nach verwendeten und nicht verwendeten Signalen, der Erstellung von Analytics-Eigenschaften und des Verständnisses der Daten. [!UICONTROL Data Explorer]
 
-[!VIDEO](https://video.tv.adobe.com/v/25150?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25150?captions=ger)
