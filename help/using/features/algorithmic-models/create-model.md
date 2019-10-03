@@ -8,7 +8,7 @@ title: Algorithmisches Modell erstellen
 topic: DIL-API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -42,10 +42,10 @@ Gehen Sie zum Erstellen eines Modells zum [!UICONTROL Models] Abschnitt und klic
    * *(Optional)* Geben Sie eine kurze Beschreibung des Modells ein.
    * Legen Sie den Status für das Modell auf **[!UICONTROL Active]** oder **[!UICONTROL Inactive]** fest. Inaktive Modelle werden nicht ausgeführt und erzeugen keine Daten.
 1. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration) :
-   * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, für die Sie ein Modell erstellen möchten. Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt.
+   * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, für die Sie ein Modell erstellen möchten.   Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt.
    * Wählen Sie einen 30-, 60- oder 90-tägigen Rückblickzeitraum. Hiermit wird ein Zeitraum für das Modell festgelegt.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Wählen Sie eine Datenquelle aus der [!UICONTROL Available Data] Liste.
+   * Wählen Sie eine Datenquelle aus der [!UICONTROL Available Data] Liste aus.
    * Click **[!UICONTROL Save]** when done.
 
 ## Grundlegende Informationen für algorithmische Modelle {#basic-information}
@@ -82,7 +82,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Grundlegende Eigenschaft oder Segment auswählen (1)</b> </p> </td> 
-   <td colname="col2"> <p>Klicken Sie auf die Schaltfläche Eigenschaften oder Segmente, um eine Liste aller Eigenschaften oder Segmente anzuzeigen. Ihr ausgewähltes Segment oder Ihre Eigenschaft wird zur Grundlage, die die Systemalgorithmen für die Modellierung verwenden. </p> <p> <p><b>Hinweis</b>:  Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt. </p> </p> </td> 
+   <td colname="col2"> <p>Klicken Sie auf die Schaltfläche Eigenschaften oder Segmente, um eine Liste aller Eigenschaften oder Segmente anzuzeigen. Ihr ausgewähltes Segment oder Ihre Eigenschaft wird zur Grundlage, die die Systemalgorithmen für die Modellierung verwenden. </p> <p> <p><b>Hinweis</b>:Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Rückblickzeit auswählen (2)</b> </p> </td> 
@@ -102,6 +102,10 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
   </tr> 
  </tbody>
 </table>
+
+Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie ein Erstanbieter-Look-like-Modell erstellen, damit Sie mehr eigene Besucher finden können, die wie Ihre Konverter aussehen.
+
+[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=ger)
 
 >[!MORE_LIKE_THIS]
 >
