@@ -5,7 +5,7 @@ seo-title: Eigenschaften-Realisierungen für Aufstockungen
 title: Eigenschaften-Realisierungen für Aufstockungen
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -47,7 +47,7 @@ Nachdem Sie die Eigenschaft erstellt haben, sehen Sie, wie die in der Realisieru
 
 Sehen Sie sich das unten stehende Video an, um sich einen Video mit einer Anleitung zum Aufstocken von Eigenschaften anzusehen.
 
-[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=ger)
 
 ## Latenz zum Aufstocken von Eigenschaften {#trait-backfilling-latency}
 
