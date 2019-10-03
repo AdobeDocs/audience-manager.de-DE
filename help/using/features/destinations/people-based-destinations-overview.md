@@ -5,7 +5,7 @@ seo-title: Übersicht über benutzerspezifische Ziele und Anwendungsfälle
 solution: Audience Manager
 title: Übersicht und Anwendungsfälle
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -57,6 +57,10 @@ Mithilfe [!DNL People-Based Destinations]von Audience Manager können Sie Ihre K
 **Nutzen Sie die Datenverwaltung und Datenschutzkontrollen von Audience Manager, um Kundendaten sicher zu verarbeiten.**
 
 [!DNL People-Based Destinations] erfordert, dass Sie nur unwiderruflich mit Hash-IDs arbeiten. Dadurch wird das Risiko reduziert, das beim manuellen Hochladen von Kundendaten in jede Zielplattform besteht.
+
+Sehen Sie sich das folgende Video an, um einen Überblick über den Datenfluss bei der Verwendung zu erhalten [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=ger)
 
 ## Nutzungsszenarios {#use-cases}
 
