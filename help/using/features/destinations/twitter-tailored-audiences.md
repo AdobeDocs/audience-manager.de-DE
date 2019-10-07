@@ -1,11 +1,11 @@
 ---
-description: This article explains how to configure Twitter Tailored Audiences for both new and existing integrations.
-seo-description: This article explains how to configure Twitter Tailored Audiences for both new and existing integrations.
+description: In diesem Artikel wird beschrieben, wie Sie Twitter-Zielgruppen für neue und vorhandene Integrationen konfigurieren.
+seo-description: In diesem Artikel wird beschrieben, wie Sie Twitter-Zielgruppen für neue und vorhandene Integrationen konfigurieren.
 seo-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
 solution: Audience Manager
 title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
 translation-type: tm+mt
-source-git-commit: c6318921b49603015b4670a361ec85ffa29abb30
+source-git-commit: a267dab29a8d0e47a27a7db2a4288ae677a1180d
 
 ---
 
@@ -45,37 +45,37 @@ Nachdem Sie Audience Manager und Ihre [!DNL Twitter Tailored Audiences]verknüpf
 >Sie können den Namen eines vorhandenen gerätebasierten Ziels nicht ändern. Stellen Sie sicher, dass Sie einen Namen angeben, der Ihnen bei der korrekten Identifizierung des Ziels hilft.
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!DNL Audience Data > Destinations]** und klicken Sie auf **[!DNL Create Destination]**.
-2. In the **[!DNL Basic Information]** section, enter a **[!DNL Name]** and **[!DNL Description]** for your new destination, and use the settings below: ![setup](assets/dbd-new-basic.png)
+2. Geben Sie im **[!DNL Basic Information]** Abschnitt einen Wert **[!DNL Name]** und **[!DNL Description]** für Ihr neues Ziel ein und verwenden Sie die folgenden Einstellungen: ![Setup](assets/dbd-new-basic.png)
 3. Klicken Sie auf **[!DNL Next]**.
-4. Choose the Data Export Labels that you want to set for this destination.[](/help/using/features/data-export-controls.md#controls-labels)
+4. Wählen Sie die [Datenexportbeschriftungen](/help/using/features/data-export-controls.md#controls-labels) aus, die Sie für dieses Ziel festlegen möchten.
 5. Klicken Sie auf **[!DNL Save]**.
-6. In the  section, select the audience segments that you want to send to this destination.**[!DNL Segment Mappings]**
-7. Save the destination.
+6. Wählen Sie im **[!DNL Segment Mappings]** Abschnitt die Zielgruppensegmente aus, die Sie an dieses Ziel senden möchten.
+7. Speichern Sie das Ziel.
 
-## Update Existing Twitter Integrations To Self-Service Administration {#update-existing-twitter-integrations}
+## Vorhandene Twitter-Integrationen auf Selbstbedienungsverwaltung aktualisieren {#update-existing-twitter-integrations}
 
-To improve the user experience and streamline the configuration process, we are upgrading the  integration to a self-service model, where you can perform the configuration yourself, from the Audience Manager UI. [!DNL Twitter Tailored Audiences] This section describes the steps you need to take to update your existing Twitter integration.
+Um die Benutzerfreundlichkeit zu verbessern und den Konfigurationsprozess zu optimieren, aktualisieren wir die [!DNL Twitter Tailored Audiences] Integration auf ein Selbstbedienungsmodell, bei dem Sie die Konfiguration über die Benutzeroberfläche von Audience Manager selbst durchführen können. In diesem Abschnitt werden die Schritte beschrieben, die Sie zur Aktualisierung Ihrer vorhandenen Twitter-Integration unternehmen müssen.
 
 >[!IMPORTANT]
 >
->The steps described below only apply if you have an existing integration with [!DNL Twitter Tailored Audiences], configured by an Audience Manager consultant or Customer Care. The full upgrade process of your destination to the self-service model may take up to 5 business days. In the meantime, your destination is still active and Audience Manager continues to send audiences to it.
-> See item number 3 in Prerequisites before migrating your  to the self-service model.[](#prerequisites)[!DNL Twitter Tailored Audiences]
+>Die unten beschriebenen Schritte gelten nur, wenn Sie über eine bestehende Integration mit verfügen, die von einem Audience Manager-Berater oder der Kundenunterstützung konfiguriert [!DNL Twitter Tailored Audiences]wurde.
+> Siehe Element Nr. 3 unter [Voraussetzungen](#prerequisites) , bevor Sie Ihre [!DNL Twitter Tailored Audiences] Version in das Selbstbedienungsmodell migrieren.
 
-Follow the steps below to migrate your existing  destination to the self-service model.[!DNL Twitter Tailored Audiences]
+Gehen Sie wie folgt vor, um Ihr bestehendes [!DNL Twitter Tailored Audiences] Ziel in das Selbstbedienungsmodell zu migrieren.
 
-1. Log in to your Audience Manager account and go to .**[!DNL Administration > Integrated Accounts]**
-1. Klicken Sie auf **[!DNL Add Account]**.
-1. Select  and click  to be redirected to the authentication page. [!DNL Twitter Tailored Audiences]**[!DNL Confirm]** ![integrated-platforms](assets/dbd-integrated-platforms.png)
-1. Nachdem Sie sich bei Ihrem [!DNL Twitter] Konto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
-1. Gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** und klicken Sie auf das zu konfigurierende Twitter-Ziel.
-1. Klicken Sie auf **[!UICONTROL Edit]**. Klicken Sie im **[!UICONTROL Basic Information]** Abschnitt auf das **[!UICONTROL Integrated Account]** [!DNL Twitter] Dropdown-Menü und wählen Sie das Konto aus, für das Sie sich in Schritt 4 authentifiziert haben.
-1. **[!UICONTROL Save]** das Ziel.
+1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!DNL Administration > Integrated Accounts]**.
+2. Klicken Sie auf **[!DNL Add Account]**.
+3. Wählen Sie [!DNL Twitter Tailored Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite umgeleitet zu werden. ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
+4. Nachdem Sie sich bei Ihrem [!DNL Twitter] Konto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
+5. Gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** und klicken Sie auf das zu konfigurierende Twitter-Ziel.
+6. Klicken Sie auf **[!UICONTROL Edit]**. Klicken Sie im **[!UICONTROL Basic Information]** Abschnitt auf das **[!UICONTROL Integrated Account]** [!DNL Twitter] Dropdown-Menü und wählen Sie das Konto aus, für das Sie sich in Schritt 4 authentifiziert haben.
+7. **[!UICONTROL Save]** das Ziel.
 
-## Validieren der Migration zur Selbstbedienungsverwaltung {#migration-validation}
+<!-- ## Validating the Migration to Self-Service Administration {#migration-validation}
 
-Die vollständige Migration vorhandener [!DNL Twitter] Integrationen zur Selbstbedienung kann bis zu 7 Tage dauern. Nach Abschluss der Migration zeigt Audience Manager eine Benachrichtigung in der Benutzeroberfläche an.
+The complete migration of existing [!DNL Twitter] integrations to self-service administration can take up to 7 days. Once the migration is complete, Audience Manager shows you a notification in the UI.
 
-Außerdem wird in Ihrem [!DNL Twitter] Konto eine neue Gruppe von Zielgruppen mit dem Präfix [[!DNL Adobe DMP Audience]] angezeigt. Bitte geben Sie bis zu 7 Tage Zeit, bis die Zielgruppe vollständig aufgestockt wurde. Nach Abschluss der Migration sollten Sie diese neuen Zielgruppen anstelle der alten verwenden.
+You will also see a new set of audiences in your [!DNL Twitter] account, with their names prefixed by [[!DNL Adobe DMP Audience]]. Please allow up to 7 days for the audience population to be completely backfilled. Once the migration is complete, you should use these new audiences instead of the old ones. -->
 
 ## Überlegungen zur Segmentzuordnung {#segment-mapping-considerations}
 
