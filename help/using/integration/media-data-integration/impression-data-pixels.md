@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
+source-git-commit: 7f71a099157e81c8d17cf018a4c84a69e2205bb4
 
 ---
 
@@ -28,7 +28,7 @@ Der Ereignisaufruf erfasst Impressions- und Konversionsdaten und sendet diese an
 Ereignisaufrufe bestehen aus Schlüssel-Wert-Paaren, die die folgende Syntax verwenden:
 
 <pre>
-http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>&amp;d_campaign=<i>campaign_id</i>[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=Cache-Buster-Wert
+http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>&amp;d_campaign=<i>campaign_id</i>[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=Cache-Busterwert
 </pre>
 
 Im Schlüssel-Wert-Paar ist die Wertvariable eine ID oder ein Makro, die bzw. das vom Anzeigenserver eingefügt wird. Beim Laden des Ad-Tags `%macro%` wird dieser durch die erforderlichen entsprechenden Werte ersetzt. Dieser Aufruf gibt keine Antwort zurück.
