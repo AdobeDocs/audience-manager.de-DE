@@ -5,7 +5,7 @@ seo-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als geräte
 solution: Audience Manager
 title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
 translation-type: tm+mt
-source-git-commit: a267dab29a8d0e47a27a7db2a4288ae677a1180d
+source-git-commit: 7966cac59b982b5f36af6975607df64545b74058
 
 ---
 
@@ -32,9 +32,9 @@ In diesem Abschnitt werden die Schritte beschrieben, die Sie beim Konfigurieren 
 Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie Audience Manager und Ihr [!DNL Twitter Tailored Audiences] Konto verknüpfen. So geht das:
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!DNL Administration > Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer Zielplattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
-2. Klicken Sie auf **[!DNL Add Account]**.
-3. Wählen Sie [!DNL Twitter Tailored Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite umgeleitet zu werden.                     ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
-4. Nachdem Sie sich authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
+1. Klicken Sie auf **[!DNL Add Account]**.
+1. Wählen Sie [!DNL Twitter Tailored Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite umgeleitet zu werden.                     ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
+1. Nachdem Sie sich authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
 
 ### Schritt 2: Neues gerätebasiertes Ziel erstellen {#step2-create-new-destination}
 
@@ -45,12 +45,12 @@ Nachdem Sie Audience Manager und Ihre [!DNL Twitter Tailored Audiences]verknüpf
 >Sie können den Namen eines vorhandenen gerätebasierten Ziels nicht ändern. Stellen Sie sicher, dass Sie einen Namen angeben, der Ihnen bei der korrekten Identifizierung des Ziels hilft.
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!DNL Audience Data > Destinations]** und klicken Sie auf **[!DNL Create Destination]**.
-2. Geben Sie im **[!DNL Basic Information]** Abschnitt einen Wert **[!DNL Name]** und **[!DNL Description]** für Ihr neues Ziel ein und verwenden Sie die folgenden Einstellungen: ![Setup](assets/dbd-new-basic.png)
-3. Klicken Sie auf **[!DNL Next]**.
-4. Wählen Sie die [Datenexportbeschriftungen](/help/using/features/data-export-controls.md#controls-labels) aus, die Sie für dieses Ziel festlegen möchten.
-5. Klicken Sie auf **[!DNL Save]**.
-6. Wählen Sie im **[!DNL Segment Mappings]** Abschnitt die Zielgruppensegmente aus, die Sie an dieses Ziel senden möchten.
-7. Speichern Sie das Ziel.
+1. Geben Sie im **[!DNL Basic Information]** Abschnitt einen Wert **[!DNL Name]** und **[!DNL Description]** für Ihr neues Ziel ein und verwenden Sie die folgenden Einstellungen: ![Setup](assets/dbd-new-basic.png)
+1. Klicken Sie auf **[!DNL Next]**.
+1. Wählen Sie die [Datenexportbeschriftungen](/help/using/features/data-export-controls.md#controls-labels) aus, die Sie für dieses Ziel festlegen möchten.
+1. Klicken Sie auf **[!DNL Save]**.
+1. Wählen Sie im **[!DNL Segment Mappings]** Abschnitt die Zielgruppensegmente aus, die Sie an dieses Ziel senden möchten.
+1. Speichern Sie das Ziel.
 
 ## Vorhandene Twitter-Integrationen auf Selbstbedienungsverwaltung aktualisieren {#update-existing-twitter-integrations}
 
@@ -64,12 +64,12 @@ Um die Benutzerfreundlichkeit zu verbessern und den Konfigurationsprozess zu opt
 Gehen Sie wie folgt vor, um Ihr bestehendes [!DNL Twitter Tailored Audiences] Ziel in das Selbstbedienungsmodell zu migrieren.
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!DNL Administration > Integrated Accounts]**.
-2. Klicken Sie auf **[!DNL Add Account]**.
-3. Wählen Sie [!DNL Twitter Tailored Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite umgeleitet zu werden. ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
-4. Nachdem Sie sich bei Ihrem [!DNL Twitter] Konto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
-5. Gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** und klicken Sie auf das zu konfigurierende Twitter-Ziel.
-6. Klicken Sie auf **[!UICONTROL Edit]**. Klicken Sie im **[!UICONTROL Basic Information]** Abschnitt auf das **[!UICONTROL Integrated Account]** [!DNL Twitter] Dropdown-Menü und wählen Sie das Konto aus, für das Sie sich in Schritt 4 authentifiziert haben.
-7. **[!UICONTROL Save]** das Ziel.
+1. Klicken Sie auf **[!DNL Add Account]**.
+1. Wählen Sie [!DNL Twitter Tailored Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite umgeleitet zu werden. ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
+1. Nachdem Sie sich bei Ihrem [!DNL Twitter] Konto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
+1. Gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** und klicken Sie auf das zu konfigurierende Twitter-Ziel.
+1. Klicken Sie auf **[!UICONTROL Edit]**. Klicken Sie im **[!UICONTROL Basic Information]** Abschnitt auf das **[!UICONTROL Integrated Account]** [!DNL Twitter] Dropdown-Menü und wählen Sie das Konto aus, für das Sie sich in Schritt 4 authentifiziert haben.
+1. **[!UICONTROL Save]** das Ziel.
 
 <!-- ## Validating the Migration to Self-Service Administration {#migration-validation}
 
