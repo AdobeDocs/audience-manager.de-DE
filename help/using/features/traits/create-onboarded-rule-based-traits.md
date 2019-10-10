@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -53,7 +53,7 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Datenquelle</span></b> </td> 
-   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie keine Adobe Analytics-Report Suites haben, ist die Datenquellen-Typauswahl deaktiviert und Sie können nur Ihre Audience Manager-Datenquellen sehen.</p>  </td> 
+   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie Adobe Analytics-Report Suites nicht verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur für Audience Manager-Datenquellen verfügbar.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ereignistyp</span></b> </td> 
