@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segmentaufbau
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
+source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 
 ---
 
@@ -27,22 +27,24 @@ Beginnen Sie mit dem Anzeigen des Videos["Segmente ](https://images-tv.adobe.com
 
 [!UICONTROL Segment Builder] besteht aus 3 getrennten Abschnitten: [!UICONTROL Basic Information], [!UICONTROL Traits]und [!UICONTROL Destinations Mapping]. Um ein Segment zu erstellen, füllen Sie die erforderlichen Felder in den [!UICONTROL Basic Information] und in den [!UICONTROL Traits] Abschnitten aus. [!UICONTROL Destinations Mapping] sind optional. Weitere Hilfe finden Sie in den unten stehenden Anweisungen.
 
+![create-segment](assets/create-segment.png)
+
 1. Im Abschnitt [Grundlegende Informationen](../../features/segments/segment-builder.md#segment-builder-controls-basics) :
    * Benennen Sie das Segment. Die maximale Länge eines Segmentnamens beträgt 255 Zeichen.
    * Legen Sie den Segmentstatus fest (standardmäßig aktiv).
-   * Wählen Sie eine Datenquelle.
+   * Wählen Sie eine Datenquelle. Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus. Wenn Sie keine Adobe Analytics-Report Suites haben, ist die Datenquellen-Typauswahl deaktiviert und Sie können nur Ihre Audience Manager-Datenquellen sehen.
    * Wählen Sie eine Regel zur Profilzusammenführung, die für die Segmentqualifizierung verwendet werden soll.
    * Weisen Sie das Segment einem Speicherordner zu.
-1. Im Abschnitt [Eigenschaften](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+2. Im Abschnitt [Eigenschaften](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
    * Suchen Sie nach der Eigenschaft, die Sie einem Segment hinzufügen möchten, und klicken Sie auf **[!UICONTROL Add Trait]**. Fügen Sie eine weitere Eigenschaft hinzu, um eine Eigenschaftsgruppe zu erstellen.
    * Rufen Sie das Modal Erweiterte Suche auf, indem Sie auf **[!UICONTROL Browse All Traits]**. Suchen Sie nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können Eigenschaften auch nach Eigenschaftstyp filtern.
-   * Beim Erstellen Ihres Segments erhalten Sie Empfehlungen [zu](trait-recommendations.md) den Live-Eigenschaften.
+   * Beim Aufbau des Segments erhalten Sie Empfehlungen [zu](trait-recommendations.md) den Live-Eigenschaften.
    * Durch Klicken und Ziehen können Sie verschiedene Gruppen erstellen.
    * Bewegen Sie den Mauszeiger über Gruppen, um Beziehungen zu booleschen [!UICONTROL AND], [!UICONTROL OR]und [!UICONTROL AND NOT] Werten festzulegen.
    * Bewegen Sie den Mauszeiger über das Uhrensymbol, um der Eigenschaft [Neuigkeits- und Häufigkeitsregeln](../../features/segments/recency-and-frequency.md) hinzuzufügen.
    * Zeigen Sie Daten zur Segmentpopulation an, während Sie Eigenschaften hinzufügen oder entfernen. Klicken Sie auf **[!UICONTROL Calculate Estimates]** , um die geschätzten Populationszahlen anzuzeigen (oder zu aktualisieren). Weitere Informationen zu [Segmentpopulationsdaten](../../features/segments/segment-builder-data.md#segment-populations) finden Sie im Segmentaufbau.
    * Click **[!UICONTROL Save]** when done.
-1. *(Optional)* Ordnen Sie ein Segment einem Ziel im Abschnitt [Zielzuordnung](../../features/segments/segment-builder.md#segment-builder-controls-destinations) zu:
+3. *(Optional)* Ordnen Sie ein Segment einem Ziel im Abschnitt [Zielzuordnung](../../features/segments/segment-builder.md#segment-builder-controls-destinations) zu:
    * Suchen Sie nach dem Ziel und klicken Sie auf **[!UICONTROL Add Destination]**. Beachten Sie, dass das Ziel bereits vorhanden sein muss, bevor Sie es zu einem Segment hinzufügen können.
    * Click **[!UICONTROL Save]** when done.
 
@@ -74,7 +76,7 @@ Mit [!UICONTROL Segment Builder]den [!UICONTROL the Basic Information] Einstellu
   </tr> 
   <tr> 
    <td colname="col1"> <b>Datenquelle</b> </td> 
-   <td colname="col2"> <p>Verbindet das Segment mit einem bestimmten Datenanbieter. </p> </td> 
+   <td colname="col2"> <p>Verbindet das Segment mit einem bestimmten Datenanbieter. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie keine Adobe Analytics-Report Suites haben, ist die Datenquellen-Typauswahl deaktiviert und Sie können nur Ihre Audience Manager-Datenquellen sehen.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Regel zur Profilzusammenführung</b> </td> 
