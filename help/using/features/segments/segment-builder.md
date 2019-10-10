@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segmentaufbau
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -32,7 +32,7 @@ Beginnen Sie mit dem Anzeigen des Videos["Segmente ](https://images-tv.adobe.com
 1. Im Abschnitt [Grundlegende Informationen](../../features/segments/segment-builder.md#segment-builder-controls-basics) :
    * Benennen Sie das Segment. Die maximale Länge eines Segmentnamens beträgt 255 Zeichen.
    * Legen Sie den Segmentstatus fest (standardmäßig aktiv).
-   * Wählen Sie eine Datenquelle. Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus. Wenn Sie keine Adobe Analytics-Report Suites haben, ist die Datenquellen-Typauswahl deaktiviert und Sie können nur Ihre Audience Manager-Datenquellen sehen.
+   * Wählen Sie eine Datenquelle. Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus. Wenn Sie Adobe Analytics-Report Suites nicht verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur für Audience Manager-Datenquellen verfügbar.
    * Wählen Sie eine Regel zur Profilzusammenführung, die für die Segmentqualifizierung verwendet werden soll.
    * Weisen Sie das Segment einem Speicherordner zu.
 2. Im Abschnitt [Eigenschaften](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
@@ -76,7 +76,7 @@ Mit [!UICONTROL Segment Builder]den [!UICONTROL the Basic Information] Einstellu
   </tr> 
   <tr> 
    <td colname="col1"> <b>Datenquelle</b> </td> 
-   <td colname="col2"> <p>Verbindet das Segment mit einem bestimmten Datenanbieter. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie keine Adobe Analytics-Report Suites haben, ist die Datenquellen-Typauswahl deaktiviert und Sie können nur Ihre Audience Manager-Datenquellen sehen.</p></p> </td> 
+   <td colname="col2"> <p>Verbindet das Segment mit einem bestimmten Datenanbieter. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie Adobe Analytics-Report Suites nicht verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur für Audience Manager-Datenquellen verfügbar.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Regel zur Profilzusammenführung</b> </td> 
