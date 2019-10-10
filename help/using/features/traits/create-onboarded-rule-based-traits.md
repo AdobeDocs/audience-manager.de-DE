@@ -1,13 +1,13 @@
 ---
-description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften sind.
+description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften gelten.
 keywords: Eigenschaften erstellen;Eigenschaften erstellen
-seo-description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften sind.
+seo-description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften gelten.
 seo-title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 solution: Audience Manager
 title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 
 ---
 
@@ -23,6 +23,8 @@ Beschreibt die Einrichtung von Schritten und Funktionen, die für den Erstellung
 In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen können Sie neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. Die [!UICONTROL Basic Information] Einstellungen sind für regelbasierte, integrierte und algorithmische Eigenschaften identisch. Um eine neue Eigenschaft zu erstellen, geben Sie einen Namen (ohne Sonderzeichen), eine Datenquelle und einen Speicherordner an. Andere [!UICONTROL Basic Information] Felder sind optional.
 
 <!-- c_tb_basics.xml -->
+
+![create-property](assets/create-trait.png)
 
 ### Grundlegende Informationsfelder definiert
 
@@ -50,12 +52,12 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
    <td colname="col2"> Ein paar Worte, die helfen, den Zweck oder die Funktion der Eigenschaft zu beschreiben. Optional. </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <b><span class="uicontrol"> Datenquelle</span></b> </td> 
+   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie keine Adobe Analytics-Report Suites haben, ist die Datenquellen-Typauswahl deaktiviert und Sie können nur Ihre Audience Manager-Datenquellen sehen.</p>  </td> 
+  </tr>
+   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ereignistyp</span></b> </td> 
    <td colname="col2"> Weist die Eigenschaft einem Typ oder einer Kategorie zu, in der Regel entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im Video<a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">zum </a>Erstellen von Konversionseigenschaften in Audience Manager. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Datenquelle</span></b> </td> 
-   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integrationscode</span></b> </td> 
@@ -66,7 +68,7 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
    <td colname="col2"> Allgemeine Hinweise zu einer Eigenschaft. Optional. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Gespeichert in</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Store</span></b> </td> 
    <td colname="col2"> Legt fest, zu welchem Speicherordner die Eigenschaft gehört. Erforderlich. </td> 
   </tr> 
   <tr> 
