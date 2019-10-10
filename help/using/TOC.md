@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager-Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
+source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
 
 ---
 
@@ -186,7 +186,6 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
          + [Benennungskonventionen für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [Inhaltsformat für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [Bereitstellungsmethoden für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-         + [Statusaktualisierungen für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
       + [Täglicher Bericht zur Eigenschaftsvarianz](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Interaktive Berichte und Überlagerungsberichte {#interactive-and-overlap-reports}
       + [Übersicht über interaktive und überlagerte Berichte](reporting/dynamic-reports/dynamic-reports.md)
