@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Übersicht und Zuordnungen für Metadatendateien
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -59,43 +59,43 @@ In der folgenden Tabelle sind die Schlüssel-Wert-Paare aufgeführt, die die von
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Advertiser </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>Datenquelle-ID oder Integrationscode</i></code> </p> <p>Dies ist die Datenquelle-ID oder der Integrationscode des Advertisers, die bzw. der beim Erstellen einer Datenquelle bereitgestellt wird. Siehe <a href="../../../features/manage-datasources.md#create-data-source"> Datenquelle</a>erstellen. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dies ist die Datenquelle-ID oder der Integrationscode des Advertisers, die bzw. der beim Erstellen einer Datenquelle bereitgestellt wird. Siehe <a href="../../../features/manage-datasources.md#create-data-source"> Datenquelle</a>erstellen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Business Unit (BU) </p> </td> 
-   <td colname="col2"> <p> <code>d_bu = <i>Business Unit ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_bu = <i>business unit ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kampagne </p> </td> 
-   <td colname="col2"> <p> <code>d_campaign = <i>Kampagnen-ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_campaign = <i>campaign ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kreativ </p> </td> 
-   <td colname="col2"> <p> <code>d_creative = <i>Creative ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_creative = <i>creative ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exchange- </p> </td> 
    <td colname="col2"> <p>Akzeptiert zwei verschiedene Schlüssel/Wert-Paare: </p> 
     <ul id="ul_3B3B751A8A134096B0912E81A0983B9D"> 
-     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID für den Austausch, der die Anzeige bereitstellte</i></code> </li> 
-     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID für die Site, auf der eine Anzeige bereitgestellt wird</i></code> </li> 
+     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID for the exchange that served the ad</i></code> </li> 
+     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID for the site an ad served on</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Einfügereihenfolge (IO) </p> </td> 
-   <td colname="col2"> <p> <code>d_io = <i>Einfügebestellungs-ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_io = <i>insertion order ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plattform </p> </td> 
-   <td colname="col2"> <p> <code>d_src = <i>Datenquellen-ID</i></code> </p> <p>Dies ist die <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Datenquellen</a> -ID für die Plattform, die Metadateninformationen bereitstellt (z. B. DFA, Atlas, GBM, MediaMath usw.). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Dies ist die <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Datenquellen</a> -ID für die Plattform, die Metadateninformationen bereitstellt (z. B. DFA, Atlas, GBM, MediaMath usw.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Taktik </p> </td> 
-   <td colname="col2"> <p> <code>d_tactic = <i>taktische ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_tactic = <i>tactic ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertikal </p> </td> 
-   <td colname="col2"> <p> <code>d_vert = <i>vertikale ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_vert = <i>vertical ID</i></code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Siehe [Inhaltsformat für Metadatendateien](../../../reporting/audience-optimiza
 
 ### Dateibereitstellung
 
-Nachdem Sie einer Datei einen Namen gegeben und Daten hinzugefügt haben, senden Sie diese an einen Amazon S3-Speicherordner, der von [!DNL Audience Manager]bereitgestellt wird. Siehe [Bereitstellungsmethoden für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md) und [Statusaktualisierungen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md).
+Nachdem Sie einer Datei einen Namen gegeben und Daten hinzugefügt haben, senden Sie diese an einen Amazon S3-Speicherordner, der von [!DNL Audience Manager]bereitgestellt wird. Siehe [Bereitstellungsmethoden für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORE_LIKE_THIS]
 >
