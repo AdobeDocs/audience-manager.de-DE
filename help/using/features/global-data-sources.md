@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Globale Data Sources
 uuid: null
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 
 ---
 
@@ -21,11 +21,12 @@ Die folgende Tabelle beschreibt die globalen Datenquellen, die von Audience Mana
 
 | Datenquellen-ID | Beschreibung |
 |---|---|
-| 20914 | **Google Advertising ID** - **** GAIDs stellen Geräte dar, auf denen das Android-Betriebssystem ausgeführt wird. |
-| 20915 | **Apple ID for Advertising** - **** IDFAs stellen Geräte dar, auf denen das iOS-Betriebssystem ausgeführt wird. |
-| 121963 | **Roku-ID für Werbung** - **** RIDAs stellen Roku-Streaming-Geräte dar. |
-| 389146 | **Microsoft Advertising ID** - **** MAIDs stellen Geräte dar, auf denen das Betriebssystem Windows 10 ausgeführt wird. |
-| 404660 | **Samsung** DUIDs stellen Samsung Smart TVs dar. |
+| 20914 | **Google Advertising ID** - **** GAIDs stellen Geräte dar, auf denen das [!DNL Android] Betriebssystem ausgeführt wird. |
+| 20915 | **Apple ID for Advertising** - **** IDFAs stellen Geräte dar, auf denen das [!DNL iOS] Betriebssystem ausgeführt wird. |
+| 121963 | **Roku-ID für Werbung** - **** RIDAs stellen [!DNL Roku] Streaming-Geräte dar. |
+| 389146 | **Microsoft Advertising ID** - **** MAIDs stellen Geräte dar, auf denen das [!DNL Windows 10] Betriebssystem ausgeführt wird. |
+| 404660 | **Samsung** DUIDs stellen [!DNL Samsung] Smart-TVs dar. |
+| 488258 | **Amazon Fire TV Advertising** IDs stellen Geräte dar, auf denen [!DNL Amazon Fire OS] |
 
 ## Importieren von Daten aus globalen Datenquellen
 
