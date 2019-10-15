@@ -1,19 +1,19 @@
 ---
-description: Beim Löschen von Stapeln können Sie mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale und Ziele mit einem einzigen Vorgang entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanforderung durchzuführen.
-seo-description: Beim Löschen von Stapeln können Sie mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale und Ziele mit einem einzigen Vorgang entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanforderung durchzuführen.
+description: Durch das Löschen von Stapeln können Sie mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale, Datenquellen, Modelle und Ziele mit einem einzigen Vorgang entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanforderung durchzuführen.
+seo-description: Durch das Löschen von Stapeln können Sie mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale, Datenquellen, Modelle und Ziele mit einem einzigen Vorgang entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanforderung durchzuführen.
 seo-title: Massenlöschung
 solution: Audience Manager
 title: Massenlöschung
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
 
 # Massenlöschung{#bulk-delete}
 
-Beim Löschen von Stapeln können Sie mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale und Ziele mit einem einzigen Vorgang entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanforderung durchzuführen.
+Durch das Löschen von Stapeln können Sie mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale, Datenquellen, Modelle und Ziele mit einem einzigen Vorgang entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanforderung durchzuführen.
 
 <!-- 
 
