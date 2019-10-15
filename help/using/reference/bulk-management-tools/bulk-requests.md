@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Massenanforderungen
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: cb17d417aa6b3cc213e69c5d71051f235d81c2a5
 
 ---
 
@@ -32,10 +32,11 @@ Um Massenanforderungen zu erstellen, öffnen Sie das [!UICONTROL Bulk Management
 1. Click the **[!UICONTROL Request]** tab.
 2. Klicken Sie in der Symbolleiste oben im Arbeitsblatt auf eine Anforderungsschaltfläche, die den Daten entspricht, mit denen Sie arbeiten möchten. Sie können Folgendes anfordern:
 
-   * Datenanbieter-IDs
+   * Algorithmische Modelle
+   * Datenquellen
    *  Abgeleitete Signale
    * Zielzuordnungen
-   * Regelbasierte und an Bord befindliche Eigenschaften
+   * Algorithmische, regelbasierte und nicht an Bord befindliche Eigenschaften
    * Segmente
    * Eigenschaften- und Segmentordner-IDs
    Die [!DNL Audience Manager] API schreibt Massendaten zurück in das [!UICONTROL Request] Arbeitsblatt.
