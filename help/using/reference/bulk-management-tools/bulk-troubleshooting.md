@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fehlerbehebung für Tipps für Massenverwaltungswerkzeuge
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 
 ---
 
@@ -65,4 +65,8 @@ In der folgenden Tabelle sind einige häufig auftretende Probleme aufgeführt, d
   </tr> 
  </tbody> 
 </table>
+
+## Fehlermeldungen
+
+Manchmal können Sie Fehlermeldungen erhalten, wenn Sie Massenänderungen vornehmen. Informationen zur Interpretation der Fehlermeldung finden Sie in der API-Dokumentation unter [Antwortcodes definiert](/help/using/api/rest-api-main/aam-api-getting-started.md) .
 
