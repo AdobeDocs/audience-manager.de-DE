@@ -6,14 +6,16 @@ solution: Audience Manager
 title: Übersicht über Regeln zum Profilzusammenführen
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
 # Übersicht über Regeln zum Profilzusammenführen {#profile-merge-rules-overview}
 
-Mit [!UICONTROL Profile Merge Rules] Ihnen erhalten Sie die Kontrolle über die für die Segmentierung verwendeten Datensätze und können eine Person präzise auf mehreren Geräten ansprechen.
+Mit [!UICONTROL Profile Merge Rules] dieser Funktion können Sie steuern, welche Datensätze für die Segmentierung verwendet werden, und Benutzer präzise auf mehrere Geräte ausrichten.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28974?captions=ger)
 
 ## Datenerfassung und Targeting mit anonymen und authentifizierten Profilen {#data-collection-targeting}
 
@@ -21,7 +23,7 @@ Die Zielgruppensegmentierung und das Targeting basieren in der Regel auf Daten, 
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] Die Art und Weise, wie Daten und Segmente für Benutzer zum Targeting erfasst werden, wird grundlegend geändert. [!DNL Audience Manager] Damit können Sie mit zwei verschiedenen Profiltypen, einem Geräteprofil und einem authentifizierten Profil arbeiten.
+[!UICONTROL Profile Merge Rules] Die Art und Weise, wie Daten und Segmente für Benutzer zum Targeting erfasst werden, wird grundlegend geändert. [!DNL Audience Manager] Damit können Sie mit zwei verschiedenen Profiltypen, einem Geräteprofil und einem [authentifizierten Profil](../../reference/visitor-authentication-states.md)arbeiten.
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -50,7 +52,7 @@ Die Zielgruppensegmentierung und das Targeting basieren in der Regel auf Daten, 
  </tbody>
 </table>
 
-Diese verschiedenen Profile steuern die Daten, die Sie für die Segmentierung verwenden können. Beispielsweise können Sie mit einem authentifizierten Profil genaue Segmente basierend auf Daten von mehreren Geräten für eine Person erstellen. Dies bedeutet, dass Sie Kunden auf mehreren Geräten eine einheitliche Markendarstellung bieten können. Darüber hinaus ermöglicht die geräteübergreifende Authentifizierung die Zuordnung der verschiedenen Plattformen, die eine Person für ihre Online-Aktivitäten verwendet. [!DNL Audience Manager] Das nennt man das [!UICONTROL Profile Link Device Graph].
+Diese verschiedenen Profile steuern die Daten, die Sie für die Segmentierung verwenden können. Beispielsweise können Sie mit einem [authentifizierten Profil](../../reference/visitor-authentication-states.md)genaue Segmente erstellen, die auf Daten von mehreren Geräten für einen einzelnen Benutzer basieren. Dies bedeutet, dass Sie Kunden auf mehreren Geräten eine einheitliche Markendarstellung bieten können. Dazu speichert Audience Manager die Zuordnung der verschiedenen Geräte, die eine Person für ihre Online-Aktivitäten verwendet, zu ihrem [authentifizierten Profil](../../reference/visitor-authentication-states.md). Diese Zuordnungen werden als " [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 
@@ -58,23 +60,8 @@ Diese verschiedenen Profile steuern die Daten, die Sie für die Segmentierung ve
 
 Mit [!UICONTROL Profile Merge Rules] der folgenden Funktion:
 
-* Targeting von Benutzern auf Basis authentifizierter Profile, anonymer Profile oder Kombinationen aus beiden.
+* Targeting von Benutzern basierend auf [authentifiziertem Profil](../../reference/visitor-authentication-states.md), anonymen Profilen oder Kombinationen aus beiden.
 * Targeting eines bestimmten Kunden auf allen Geräten.
 * Erstellen Sie ein Gerätediagramm basierend auf deterministischen Daten.
 * Feinabstimmung der Daten in Ihren Segmenten auf der Grundlage verschiedener Profile.
 * Erhalten Sie weitere Einblicke in Ihre Zielgruppe.
-
-## Erste Schritte {#getting-started}
-
-Weitere Informationen finden Sie in den folgenden Abschnitten und in den [FAQ](../../faq/faq-profile-merge.md) [!UICONTROL Profile Merge Rules].
-
-* [Erste Schritte mit Regeln zur Profilzusammenführung](/help/using/features/profile-merge-rules/merge-rules-start.md)
-* [Dashboard "Regeln für Profilzusammenführung"](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
-* [Optionen für Profilzusammenführungsregeln definiert](/help/using/features/profile-merge-rules/merge-rule-definitions.md)
-* [Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
-* [Anwendungsfälle des Profillink-Gerätediagramms](/help/using/features/profile-merge-rules/profile-link-use-case.md)
-* [Anwendungsbeispiele für Diagramme externer Geräte](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
-* [Berichtsmetriken für Regeln zur Profilzusammenführung](/help/using/features/profile-merge-rules/profile-link-metrics.md)
-* [Regeln zur Profilzusammenführung und Prozesse zur Aufhebung der Segmentierung des Geräts](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
-* [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)
-* [Wichtige Überlegungen für Regeln zum Profilzusammenführen mit Gerätediagrammen](/help/using/features/profile-merge-rules/considerations-pmr-device-graph.md)
