@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Berichtsmetriken für Regeln zur Profilzusammenführung
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
-#  Berichtsmetriken für Regeln zur Profilzusammenführung {#report-metrics-for-profile-merge-rules}
+# Berichtsmetriken für Regeln zur Profilzusammenführung {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Link] Metriken liefern Daten zu Personen und Geräten, die sich für Ihre Site authentifizieren. Die Daten und Diagramme in [!UICONTROL Profile Link] werden beim Erstellen einer Zusammenführungsregel oder beim Klicken auf eine vorhandene Regel im [!UICONTROL Profile Merge Rules] Dashboard dynamisch aktualisiert. Diese Metriken können Gerätediagramme aus den [!DNL Adobe Experience Cloud Device Co-op] oder anderen Gerätediagrammen von Drittanbietern enthalten.
+[!UICONTROL Profile Merge Rule] Metriken liefern Daten zu Personen und Geräten, die sich für Ihre Site authentifizieren. Die Daten und Diagramme in [!UICONTROL Profile Merge Rule Reports] werden dynamisch aktualisiert, wenn Sie eine Zusammenführungsregel erstellen oder auf eine vorhandene Regel im [!UICONTROL Profile Merge Rules] Dashboard klicken. Diese Metriken können Gerätediagramme aus den [!DNL Adobe Experience Cloud Device Co-op] oder anderen Gerätediagrammen von Drittanbietern enthalten.
 
 ## Regelmetriken zusammenführen {#merge-rule-metrics}
 
@@ -32,7 +32,7 @@ Berichte geben Daten in nebeneinander liegenden Balkendiagrammen zurück, wenn I
    <td colname="col2"> <p>Zeigt: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Aktive Personen</span>: Die Anzahl der Personen, die sich in den letzten 60 Tagen bei Ihrer Site authentifiziert haben. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Geräteübergreifend</span>: Die Gesamtzahl der <a href="../../features/profile-merge-rules/merge-rules-start.md#create-data-source"> geräteübergreifenden IDs</a> , die während der Lebensdauer, die die Datenquelle<a href="../../features/manage-datasources.md#create-data-source"> hat, in der </a> Datenquelledes ausgewählten <a href="../../features/profile-merge-rules/merge-rule-definitions.md"> authentifizierten Profils</a> gespeichert wurden. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Geräteübergreifend</span>: Die Gesamtzahl der <a href="merge-rules-start.md#create-data-source"> geräteübergreifenden IDs</a> , die während der Lebensdauer, die die Datenquelle<a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> hat, in der </a> Datenquelledes ausgewählten <a href="merge-rule-definitions.md"> authentifizierten Profils</a> gespeichert wurden. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % Aktive Personen</span>: Zeigt <span class="wintitle"> Aktive Personen</span> als % an. </li> 
     </ul> <p> <span class="wintitle"> Mit authentifizierter Aktivität</span> können Sie Datenquellen nach Aktivität, Volumen und Prozent vergleichen. Es kann Ihnen helfen, eine Datenquelle zu finden, die viele Personen und einen hohen Prozentsatz aktiver Benutzer hat. Oder Sie können einen Wert beim Vergleich von Datenquellen mit einem hohen Anteil aktiver Benutzer im Vergleich zur Gesamtgröße der Zielgruppe finden. Manchmal ist beispielsweise eine Datenquelle mit einer niedrigen Gesamtlebensdauer und einer hohen Aktivität wertvoller als eine Datenquelle mit einer hohen Lebensdauer und einer niedrigen Aktivitätszahl. </p> <p> <p>Hinweis: Die <span class="wintitle"> Metriken für authentifizierte Aktivitäten</span> enthalten nur <span class="wintitle"> Profillinkdaten</span> . Dieser Bericht enthält keine <span class="wintitle"> Gerätediagrammdaten</span> . </p> </p> </td> 
   </tr> 
@@ -104,19 +104,17 @@ Die [!UICONTROL Merge Rules] Berichte zeigen auch Daten zur Gesamtzahl der Perso
 
 Ein Standardbericht [!UICONTROL Profile Link] sieht wie im folgenden Beispiel aus. Regeln zusammenführen, die mehrere Datenquellen (bis zu 3) verwenden, zeigen Diagramme auf separaten Registerkarten für jede Datenquelle an. Diese Zusammenführungsregel enthält keine [!UICONTROL Device Co-op] Daten.
 
-![](assets/coop-metrics1.png)
+![](assets/profile-link-metrics.png)
 
 ### Profillinkbericht mit Gerätediagrammdaten
 
-Ein [!UICONTROL Profile Link] Bericht, der Gerätediagrammdaten aus dem [!UICONTROL Adobe Experience Cloud Device Co-op] oder einem Gerätediagramm eines Drittanbieters enthält, zeigt [!UICONTROL Profile Link] und zeigt Gerätediagramme mit nebeneinander liegenden Balkendiagrammen an. Wenn Sie diese Diagramme nebeneinander anordnen, können Sie die Vorteile der Verwendung der Diagramme [!UICONTROL Experience Cloud Device Co-op] im Vergleich zu [!UICONTROL Profile Link] selbst bewerten. Regeln zusammenführen, die mehrere Datenquellen (bis zu 3) verwenden, zeigen Diagramme auf separaten Registerkarten für jede Datenquelle an. Zur Erinnerung: Das [!UICONTROL Authenticated Activity] Diagramm und die Metriken geben keine Daten aus dem [!DNL Adobe] Gerätediagramm oder anderen Gerätediagrammen von Drittanbietern zurück, auf die Sie möglicherweise Zugriff haben [!DNL Audience Manager].
+Ein [!UICONTROL Profile Link Device Graph] Bericht, der Gerätediagrammdaten aus dem [!UICONTROL Adobe Experience Cloud Device Co-op] oder einem Gerätediagramm eines Drittanbieters enthält, zeigt [!UICONTROL Profile Link] und zeigt Gerätediagramme mit nebeneinander liegenden Balkendiagrammen an. Wenn Sie diese Diagramme nebeneinander anordnen, können Sie die Vorteile der Verwendung der Diagramme [!UICONTROL Experience Cloud Device Co-op] im Vergleich zu [!UICONTROL Profile Link] selbst bewerten. Regeln zusammenführen, die mehrere Datenquellen (bis zu 3) verwenden, zeigen Diagramme auf separaten Registerkarten für jede Datenquelle an. Zur Erinnerung: Das [!UICONTROL Authenticated Activity] Diagramm und die Metriken geben keine Daten aus dem [!DNL Adobe] Gerätediagramm oder anderen Gerätediagrammen von Drittanbietern zurück, auf die Sie möglicherweise Zugriff haben [!DNL Audience Manager].
 
-![](assets/coop-metrics2.png)
+![](assets/profile-link-graph.png)
 
 ## Trenddiagramme für Profillinks {#profile-link-trend}
 
 Zusätzlich zu den anderen Datenvisualisierungen enthalten [!UICONTROL Profile Link] Berichte ein Liniendiagramm. Das Liniendiagramm zeigt Ihnen Trends im Zeitverlauf für Ihre Profilregeln. Trenddiagramme (und andere Berichte) stehen zur Verfügung, wenn Sie auf eine Regel auf der [!UICONTROL Profile Merge Rules] Einstiegsseite ( **[!UICONTROL Audience Data > Profile Merge Rules]**) klicken. Diese Diagramme enthalten Gerätediagrammdaten, wenn Sie Mitglied der [!UICONTROL Device Co-op] oder anderer Gerätediagramme von Drittanbietern sind, auf die Sie möglicherweise Zugriff haben [!DNL Audience Manager]. Klicken Sie auf eine Trendlinie, um die zugrunde liegenden Daten anzuzeigen.
-
-![](assets/authenticated_trends.png)
 
 >[!MORE_LIKE_THIS]
 >
