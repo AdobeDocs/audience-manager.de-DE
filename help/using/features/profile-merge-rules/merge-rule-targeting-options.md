@@ -1,75 +1,79 @@
 ---
-description: Mit den Optionen für Regeln zur Profilzusammenführung können Sie den Fokus auf bestimmte Zielgruppen je nach Geschäftsanforderungen oder Zielen erweitern oder verschärfen. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt. Derzeit funktionieren Regeln zum Profilzusammenführen nur mit Echtzeit-Zielen.
-seo-description: Mit den Optionen für Regeln zur Profilzusammenführung können Sie den Fokus auf bestimmte Zielgruppen je nach Geschäftsanforderungen oder Zielen erweitern oder verschärfen. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt. Derzeit funktionieren Regeln zum Profilzusammenführen nur mit Echtzeit-Zielen.
+description: Mit den Optionen für Regeln zur Profilzusammenführung können Sie den Fokus auf bestimmte Zielgruppen je nach Geschäftsanforderungen oder Zielen erweitern oder verschärfen. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt.
+seo-description: Mit den Optionen für Regeln zur Profilzusammenführung können Sie den Fokus auf bestimmte Zielgruppen je nach Geschäftsanforderungen oder Zielen erweitern oder verschärfen. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt.
 seo-title: Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung
 solution: Audience Manager
 title: Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
 # Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung {#general-use-cases-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rules] Mit diesen Optionen können Sie den Fokus der Zielgruppe auf bestimmte Zielgruppen basierend auf geschäftlichen Anforderungen oder Zielen erweitern oder verschärfen. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt. Arbeiten Sie derzeit nur mit Echtzeit-Zielen [!UICONTROL Profile Merge Rules] .
-
-![](assets/merge-rules-options.png)
+[!UICONTROL Profile Merge Rules] Mit diesen Optionen können Sie den Fokus der Zielgruppe auf bestimmte Zielgruppen basierend auf geschäftlichen Anforderungen oder Zielen erweitern oder verschärfen. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt. [!UICONTROL Profile Merge Rules] mit Echtzeit- und Stapelzielen arbeiten.
 
 >[!TIP]
 >
->Definitionen und Beschreibungen dieser [!UICONTROL Merge Rule] Einstellungen finden Sie unter Optionen für [Profilzusammenführungsregeln definiert](../../features/profile-merge-rules/merge-rule-definitions.md).
+>Definitionen und Beschreibungen dieser [!UICONTROL Merge Rule] Einstellungen finden Sie unter Optionen für [Profilzusammenführungsregeln definiert](merge-rule-definitions.md).
 
-## Fokussiertes Targeting {#focused-targeting}
+## Geräte-Targeting {#device-personalization}
 
-Die Benutzerauthentifizierung für eine Website sollte einen deklarierten ID-Aufruf an auslösen [!DNL Audience Manager]. Nach diesem Ereignis werden [!DNL Audience Manager] Eigenschaftendaten in ein authentifiziertes Profil geschrieben (und daraus gelesen). Das authentifizierte Profil ermöglicht Folgendes [!DNL Audience Manager]:
+Dieses Szenario gilt für Marketingexperten, die ein einzelnes Geräteprofil für ein Zielgruppensegment auswerten möchten, das in Audience Manager definiert ist, um dem Gerät ein konsistentes Erlebnis mit Targeting-Plattformen zu bieten, die Geräte-IDs (DSPs, On-Site-Personalisierungsplattformen und andere gerätebasierte Targeting-Plattformen) unterstützen, wobei die Benutzerauthentifizierung nicht berücksichtigt wird.
 
-* Schreiben Sie Eigenschaften in das authentifizierte Profil, das für einen bestimmten Benutzer spezifisch ist.
-* Identifizieren und unterscheiden Sie zwischen mehreren Gerätebenutzern für die Segmentierung.
+Um eine Regel zu erstellen, die nur auf Geräteprofile abzielt, wählen Sie **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
-### Authentifizierte Benutzer erreichen
+![device-only](assets/device-only.png)
 
-Mit den Optionen für das authentifizierte Profil können Sie Regeln erstellen, mit denen Sie Benutzer, die auf der Grundlage von Offline-Attributen bei einer Website oder App angemeldet sind, als Ziel auswählen können. Ein Finanzdienstleistungsunternehmen würde diese Option beispielsweise verwenden, um authentifizierte Benutzer mit gezielten Kreditkartenaktualisierungsangeboten oder spezialisierten Serviceangeboten auf Basis des Einkommens oder der Offline-Aktivität anzusprechen. Ein weiteres Beispiel wäre eine Fluglinie, die authentifizierte Vielflieger mit auf der Grundlage der gesammelten Meilen getätigten Geschäften anspricht.
+Nehmen wir an, John besitzt drei Smartphones. Zwei davon sind iPhone 7s auf Data Plan A, und einer davon ist ein Samsung auf Data Plan B. John's Mobilnetzbetreiber möchte ihm auf keinem der drei Geräte ein Upgrade seines Datenplans anbieten, jedoch nur für iPhone 7-Geräte, die auf Data Plan A ausgeführt werden.
 
-Um eine Regel zu erstellen, die nur authentifizierte Benutzer erreicht, wählen Sie **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL No Device Profile]**. Mit dieser Option wird ein Segment ausschließlich anhand authentifizierter Profildaten bewertet. Diese Regel ignoriert Daten im anonymen Geräteprofil.
+Durch die Verwendung der **[!UICONTROL No Cross-Device Profile]** +- **[!UICONTROL Device Profile]** Regel [!DNL Device 1] und [!DNL Device 3] beide sind für das Segment qualifiziert, während Device 2 ignoriert wird.
 
-Wenn Sie auch Daten in das anonyme Geräteprofil aufnehmen möchten, verwenden Sie die **[!UICONTROL Current Authenticated Profile]** +- **[!UICONTROL Current Device Profile]** Regel.
+![device-only](assets/device-management.png)
 
-### Benutzer auf Basis des vorherigen Authentifizierungsstatus erreichen
+## Freigegebenes Geräte-Targeting {#target-shared-devices}
 
-Diese Optionen greifen auf bestimmte Benutzer zu, wenn sie suchen, aber nicht angemeldet sind. Dies können Sie mit Optionen durchführen, die auf abgeleitetem Targeting auf Benutzerebene basieren. Inferred Targeting hilft Ihnen, Personen zu erreichen, die nicht explizit für Ihre Site authentifiziert sind, aber möglicherweise online surfen. Es funktioniert durch Lesen (aber nicht Schreiben) von Daten aus dem zuletzt authentifizierten Profil. Um das authentifizierte Profil sauber zu halten, schreibt man neue Eigenschaften-Qualifikationen in das Geräteprofil und nicht in das authentifizierte Profil. [!DNL Audience Manager] Angenommen, Sie sind ein Vermarkter, der verschiedene Angebote mit bestehenden Kunden testen möchte, die nicht bei Ihrer Site oder App angemeldet sind. Als Vermarkter können Sie diese Anzeigen mit aktuellen, nicht authentifizierten Kunden testen, um zu sehen, welche Angebote die beste Antwort erhalten.
+Nehmen wir an, John und seine Frau Jane, benutzen den gleichen Laptop, um einen Online-Shop zu besuchen und verschiedene Artikel zu bestellen.
 
-Ein Beispiel für eine Regel, die Benutzer auf Grundlage der vorherigen Authentifizierung erreicht, ist:
+John nutzt sein eigenes Konto, um Reisetickets und Sonderangebote zu buchen, während Jane ihr eigenes Konto für Musik und Filme nutzt.
 
-* **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
+Das Marketingteam des Stores kann mithilfe der **[!UICONTROL Current Authenticated Profiles]** +- **[!UICONTROL No Device Profile]** Regel John und Jane mit spezifischen Angeboten ausrichten, die ausschließlich auf ihrer authentifizierten Aktivität basieren.
 
-## Erweitertes Targeting {#expanded-targeting}
+![current-no-device](assets/current-no-device.png)
 
-Neben Regeln, die bestimmten Kunden helfen, benötigen Marketingexperten auch Regeln, die die Größe der für das Targeting verfügbaren Datensätze erhöhen. [!UICONTROL Profile Merge Rules] können Sie dies mit der Geräteprofiloption tun. Die Geräteoptionen erweitern den Datensatz, der für die Segmentierung geeignet ist, da sie auf Eigenschaften basieren, die realisiert wurden, während sich ein Benutzer auf einem oder mehreren Geräten in einem anonymen Status befand. Dies kann nützlich sein, wenn Sie versuchen, einen Benutzer über alle Geräte mit einem Personengerät-Diagramm oder mit allen Geräten in einem Haushalt mit einem Haushaltsgerät-Diagramm zu erreichen. Ein Anwendungsfall für diese Option könnte die Werbung für ein Familienurlaubsangebot sein. In diesem Fall möchten Sie jedes Gerät in einem Haushalt mit dem Angebot erreichen, wenn ein Benutzer auf einem Gerät Interesse an dem Angebot gezeigt hat.
+Durch die Verwendung dieser Regel ignoriert Audience Manager das Geräteprofil vollständig und qualifiziert die CRM-ID von John für das Segment und nicht die CRM-ID von Jane.
 
-Um eine Regel zu erstellen, die den Targeting-Datensatz erweitert, wählen Sie die **[!UICONTROL Last Authenticated Profiles]** +- **[!UICONTROL Device Graph]** Regel.
+![shared-device-targeting](assets/shared-device-targeting.png)
 
-<!-- 
+## Online-/Offline-Targeting {#device-household-targeting}
 
-<p>Rules that use the device graph option extend your data set even further. With the device graph option, <span class="keyword"> Audience Manager</span> relies on the device profiles aggregated from the last 3 devices that a visitor used for authentication to your site. The device graph rules include: </p> 
-<p> 
- <ul id="ul_3008B6AF16EC408F98EC4088111281FB"> 
-  <li id="li_FA2087F1ED454CD0B9E09656B79ED23B"> <b><span class="uicontrol"> Current Authenticated Profiles</span></b> + <b><span class="uicontrol"> Profile Merge Device Graph</span></b> or a Co-op device graph option </li> 
-  <li id="li_001A8DB517CB4EE394DBD530F2080FD5"> <b><span class="uicontrol"> Last Authenticated Profiles</span></b> + <b><span class="uicontrol"> Profile Merge Device Graph</span></b> or a Co-op device graph option </li> 
- </ul> </p> 
-<p> 
- <note type="tip">
-  Create a simple rule with 
-  <b><span class="uicontrol"> No Authenticated Profile</span></b> + 
-  <b><span class="uicontrol"> Current Device Profile</span></b> when you're still developing a strategy and are unsure about which options to choose or if your site doesn't use authentication. 
- </note> </p>
+Dieser Anwendungsfall umfasst das Identitätsmanagement von Haushalten. Ein Unternehmen kann ein einzelnes Geräteprofil mit dem letzten auf diesem Gerät authentifizierten Profil zusammenführen, indem es die Regel **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Profile]** verwendet.
 
- -->
+![last-device-profile](assets/last-device-profile.png)
+
+Betrachten wir ein Segment, das aus Haushalten mit einem Einkommen von über 100.000 US-Dollar pro Jahr besteht und mindestens ein Gerät enthält, das ein [!DNL iPhone 7] on ist [!DNL Data Plan B]. Wir haben zwei Profile für den Haushalt (geräteübergreifende Profile), die jeweils an zwei verschiedene Geräteprofile angeschlossen sind. Die Eigenschaften, die für die Berechtigung für das Segment erforderlich sind, werden über die Geräte- und geräteübergreifenden Profile verteilt.
+
+Audience Manager führt alle Geräte- und geräteübergreifenden Profilpaare zusammen, um zu sehen, ob der zusammengeführte Eigenschaftensatz für das Segment geeignet ist. Da Audience Manager jedes in der Zusammenführung enthaltene Profil auswertet, können sowohl ein Geräteprofil als auch ein Haushaltsprofil segmentiert werden.
+
+Durch die Verknüpfung zwischen dem Gerät und dem Profil für den Haushalt kann sich Audience Manager [!DNL Household 2] für das Segment qualifizieren, jedoch nicht [!DNL Household 1]. Von [!DNL Household 2]hier aus qualifiziert sich nur [!DNL Device 3] das Segment. Dadurch [!UICONTROL Profile Merge Rule] konnte der Marketingspezialist eine einheitliche Marketingbotschaft an ein einzelnes Gerät ([!DNL Device 3]) und den weiteren Haushalt ([!DNL Household 2]) senden.
+
+![Haushaltsführung](assets/household-management.png)
+
+## Personales Targeting {#all-cross-device}
+
+Dieses Targeting-Szenario steht nur Kunden zur Verfügung, die das [!DNL People-Based Destinations] Add-on gekauft haben. Diese Regel ermöglicht es Marketingexperten, Kunden anhand ihrer eigenen, authentifizierten Daten zu erreichen.
+
+Nehmen wir an, ein Online-Händler möchte über soziale Plattformen bestehende Kunden erreichen und ihnen personalisierte Angebote auf Basis ihrer bisherigen Bestellungen zeigen. Damit können sie [!UICONTROL People-Based Destinations]Hash-E-Mail-Adressen von sich aus [!DNL CRM] zu Audience Manager erfassen, Segmente aus den Offlinedaten erstellen und diese Segmente an die sozialen Plattformen senden, für die sie werben möchten, und ihre Werbeausgaben optimieren.
+
+Weitere Informationen zu dieser Option finden Sie unter [Benutzerbasierte Ziele](../destinations/people-based-destinations-overview.md).
+
+![all-cross-device](assets/all-cross-device.png)
 
 ## Gerätediagrammoptionen {#device-graph-options}
 
-Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile Merge] Regel hängt von Bedingungen ab, die für Ihre digitalen Eigenschaften und Geschäftsziele spezifisch sind. Diese allgemeinen Richtlinien helfen Ihnen dabei, zu verstehen, wann ein Diagrammtyp im Vergleich zu einem anderen verwendet werden soll. Beachten Sie, dass Sie Mitglied der [!DNL Adobe Experience Cloud Device Co-op] oder eine vertragliche Beziehung zu einem externen Gerätediagramm haben müssen, um diese Optionen nutzen zu können. Die nachstehende Tabelle gibt einen Überblick darüber, wann eine Gerätediagrammoption gewählt werden soll. Für spezifische Anwendungsfälle siehe [Profillink-Gerätediagramm Verwendungsfälle](../../features/profile-merge-rules/profile-link-use-case.md) und [Anwendungsfälle](../../features/profile-merge-rules/external-graph-use-cases.md)für externe Gerätediagramme.
+Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile Merge] Regel hängt von Bedingungen ab, die für Ihre digitalen Eigenschaften und Geschäftsziele spezifisch sind. Diese allgemeinen Richtlinien helfen Ihnen dabei, zu verstehen, wann ein Diagrammtyp im Vergleich zu einem anderen verwendet werden soll. Beachten Sie, dass Sie Mitglied der [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) sein oder eine vertragliche Beziehung zu einem externen Gerätediagramm haben müssen, um diese Optionen nutzen zu können. Die nachstehende Tabelle gibt einen Überblick darüber, wann eine Gerätediagrammoption gewählt werden soll. Für spezifische Anwendungsfälle siehe [Profillink-Gerätediagramm Verwendungsfälle](profile-link-use-case.md) und [Anwendungsfälle](external-graph-use-cases.md)für externe Gerätediagramme.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -80,7 +84,7 @@ Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Profillink</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Gerätediagramm für Profillink</span> </p> </td> 
    <td colname="col2"> <p><span class="wintitle"> Regeln zur Profilzusammenführung</span> , die mit der Option <span class="wintitle"> Profillink</span> erstellt wurden, eignen sich ideal für: </p> <p> 
      <ul id="ul_FF44FA894BB2448887C8EDA9C8407EF9"> 
       <li id="li_E22505210C664FE6A9AA7C61244B36DA">Digitale Eigenschaften mit einer hohen Kundenauthentifizierung. </li> 
@@ -100,9 +104,13 @@ Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile
  </tbody> 
 </table>
 
+Sehen Sie sich das unten stehende Video an, um einen Überblick über mögliche Anwendungsfälle für [!UICONTROL Profile Merge Rules]zu erhalten.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=ger)
+
 >[!MORE_LIKE_THIS]
 >
->* [Anwendungsfälle des Profillink-Gerätediagramms](../../features/profile-merge-rules/profile-link-use-case.md)
->* [Anwendungsbeispiele für Diagramme externer Geräte](../../features/profile-merge-rules/external-graph-use-cases.md)
+>* [Anwendungsfälle des Profillink-Gerätediagramms](profile-link-use-case.md)
+>* [Anwendungsbeispiele für Diagramme externer Geräte](external-graph-use-cases.md)
 >* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](../../faq/faq-profile-merge.md)
 
