@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Optionen für Profilzusammenführungsregeln definiert
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
+source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
 
 ---
 
@@ -84,7 +84,7 @@ Im [!UICONTROL Cross-Device Profile Options] finden Sie alle geräteübergreifen
 
 ## Geräteoptionen {#device-options}
 
-Mit der [!UICONTROL Device Options] Option können Sie den von einem *`device profile`* Benutzer verwendeten Typ auswählen [!UICONTROL Profile Merge Rule]. Ein Geräteprofil besteht aus Eigenschaften, die von Benutzern beim anonymen Durchsuchen des Internets erfasst werden. Mindestens eine Regel zum Profilzusammenführen enthält eine authentifizierte Option und eine Geräteoption.
+Mit der [!UICONTROL Device Options] Option können Sie den von einem *`device profile`* Benutzer verwendeten Typ auswählen [!UICONTROL Profile Merge Rule]. Ein Geräteprofil basiert auf Eigenschaften, die bei anonymer Browseraktivität gesammelt wurden. Mindestens eine Regel zum Profilzusammenführen enthält eine authentifizierte Option und eine Geräteoption.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
