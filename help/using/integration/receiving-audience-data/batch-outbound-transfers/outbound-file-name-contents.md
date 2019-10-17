@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Syntax und Beispiele für ausgehende Datendateinamen
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 translation-type: tm+mt
-source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
+source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
 
 ---
 
@@ -60,7 +60,7 @@ Die Tabelle definiert die Elemente in einem ausgehenden Datendateinamen.
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser-ID </span> (roh, unhash) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID for Advertisers </span> (roh, unhash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">Anbieter-ID - Benutzer-IDs von Drittanbietern (Web/Cookie) </li> 
-     </ul> </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Globale Datenquellen</a> .</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -68,14 +68,14 @@ Die Tabelle definiert die Elemente in einem ausgehenden Datendateinamen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>Der Synchronisierungsmodus ist ein Makro-Platzhalter, der dem Dateinamen je nach Synchronisierungstyp eine Bezeichnung hinzufügt. Zu den Synchronisierungstypen gehören "full"und "incremental". Sie werden im Dateinamen als <code> iter </code> oder <code> full angezeigt </code>. </p> 
+   <td colname="col2"> <p>Der Synchronisierungsmodus ist ein Makro-Platzhalter, der dem Dateinamen je nach Synchronisierungstyp eine Bezeichnung hinzufügt. Zu den Synchronisierungstypen gehören "full"und "incremental". Sie werden im Dateinamen als <code> iter </code> oder <code> full </code>angezeigt. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
      <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>: Gibt eine "iterative"oder inkrementelle Synchronisierung an. Eine inkrementelle Datei enthält nur neue Daten, die seit der letzten Synchronisierung erfasst wurden. </li> 
-     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> vollständig </code>: Gibt eine vollständige Synchronisierung an. Eine vollständig synchronisierte Datei enthält alte Daten und alle neuen Daten, die seit der letzten Synchronisierung erfasst wurden. </li> 
+     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>: Gibt eine vollständige Synchronisierung an. Eine vollständig synchronisierte Datei enthält alte Daten und alle neuen Daten, die seit der letzten Synchronisierung erfasst wurden. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>ZEITSTEMPEL </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>TIMESTAMP </i></code> </p> </td> 
    <td colname="col2"> <p>Ein 13-stelliger UNIX-Zeitstempel in Millisekunden in der UTC-Zeitzone. </p> </td> 
   </tr> 
   <tr> 
@@ -178,7 +178,7 @@ Die Tabelle listet Variablen auf, die den Inhalt einer Datendatei definieren.
    <td colname="col2"> <p>Eine eindeutige Benutzer-ID, die von <span class="keyword"> Audience Manager zugewiesen wird </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>&lt;Leerzeichen&gt; </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
    <td colname="col2"> <p>Trennen Sie die UUID- und Segmentdaten durch ein Leerzeichen </p> </td> 
   </tr> 
   <tr> 
