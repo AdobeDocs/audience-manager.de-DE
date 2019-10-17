@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Anwendungsbeispiele für Diagramme externer Geräte
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -23,7 +23,7 @@ Berücksichtigen Sie die Diagrammoptionen für Geräte [!DNL Experience Cloud De
 * Targeting großer Zielgruppen. Die Gerätegrafiken [!DNL Experience Cloud Device Co-op] und Drittanbieter enthalten authentifizierte und nicht authentifizierte Daten.
 * Segment authentifizierte und/oder nicht authentifizierte Besucher auf der Ebene des Einzelnen und des Haushalts.
 
-![](../assets/merge-rule-triangle1.png)
+![](assets/merge-rule-triangle1.png)
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -127,5 +127,5 @@ Mit dem **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op
 >
 >* [Anwendungsfälle des Profillink-Gerätediagramms](profile-link-use-case.md)
 >* [Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung](merge-rule-targeting-options.md)
->* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](faq-profile-merge.md)
+>* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](../../faq/faq-profile-merge.md)
 
