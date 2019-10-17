@@ -1,19 +1,19 @@
 ---
-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten zur Zielgruppenoptimierung anzeigen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
-seo-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten zur Zielgruppenoptimierung anzeigen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
-seo-title: ' Datendateien für Zielgruppenoptimierungsberichte'
+description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Zielgruppenoptimierungsberichten und für ausführbare Protokolldateien verwenden. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
+seo-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Zielgruppenoptimierungsberichten und für ausführbare Protokolldateien verwenden. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
+seo-title: Datendateien für Zielgruppenoptimierungsberichte und ausführbare Protokolldateien
 solution: Audience Manager
-title: ' Datendateien für Zielgruppenoptimierungsberichte'
+title: Datendateien für Zielgruppenoptimierungsberichte und ausführbare Protokolldateien
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
+source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 ---
 
 
-#  Datendateien für Zielgruppenoptimierungsberichte{#data-files-for-audience-optimization-reports}
+# Datendateien für Zielgruppenoptimierungsberichte und ausführbare Protokolldateien {#data-files-for-audience-optimization-reports}
 
-Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten zur Zielgruppenoptimierung anzeigen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
+Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren, um sie in den [Zielgruppenoptimierungsberichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) anzuzeigen und Eigenschaften mithilfe der Daten mithilfe von [ausführbaren Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md)zu erstellen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
 
 ## Überblick {#overview}
 
@@ -25,7 +25,7 @@ Eine Datendatei muss von einer Metadatendatei begleitet sein. Der Inhalt der Met
 
 Die folgende Syntax definiert die Struktur eines gut formatierten Datendateinamens. Beachten Sie, dass *kursiv* ein Platzhalter für eine Variable angegeben wird, der sich je nach Dateiinhalt ändert.
 
-**Syntax:** <pre><code><i>Ereignistyp</i>_<i>yyymmdd</i></code></pre>
+**Syntax:** <pre><i>Ereignistyp</i>_<i>yyymmdd</i></code></pre>
 
 In einem Dateinamen:
 
@@ -35,15 +35,15 @@ In einem Dateinamen:
 
 Benennen Sie Ihre Datendateien unter Berücksichtigung dieser Anforderungen nach ihrem Inhalt wie folgt:
 
-* Impressionsdaten: <pre><code>impressions_<i>yyymmdd<i>.gz</code></pre>
-* Klickdaten: <pre><code>clicks_<i>yyymmdd</i>.gz</code></pre>
-* Konversionsdaten: <pre><code>conversions_<i>yyymmdd</i>.gz</code></pre>
+* Impressionsdaten: <pre>impressions_<i>yyymmdd<i>.gz</code></pre>
+* Klickdaten: <pre>clicks_<i>yyymmdd</i>.gz</code></pre>
+* Konversionsdaten: <pre>conversions_<i>yyymmdd</i>.gz</code></pre>
 
 ## Inhaltsformat für Datendateien {#content-format}
 
 Die folgende Syntax definiert die Inhaltsstruktur in der gut formatierten Datendatei. Beachten Sie, dass *kursiv* ein Platzhalter für eine Variable steht und in einer Datendatei durch eine Beschriftung ersetzt wird.
 
-**Syntax:** <pre><code><i>Kopfzeilenbeschriftung 1</i> | <i>Kopfzeilenbeschriftung 2</i> ... <i>Kopfzeilenbeschriftung n</i> | <i>version</i></code></pre>
+**Syntax:** <pre><i>Kopfzeilenbeschriftung 1</i> | <i>Kopfzeilenbeschriftung 2</i> ... <i>Kopfzeilenbeschriftung n</i> | <i>version</i></code></pre>
 
 Inhalt der Datei:
 
@@ -67,7 +67,7 @@ In der folgenden Tabelle sind die Spaltenüberschriften für Ihre Datendatei auf
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Zeitstempel </p> </td> 
-   <td colname="col2"> <p>Ein UTC-Datum und eine Uhrzeit für Impression, Klick oder Konversionsereignis. Verwenden Sie das Format <code> JJJJ-TT-MM hh:mm:ss</code> . </p> </td> 
+   <td colname="col2"> <p>Ein UTC-Datum und eine Uhrzeit für Impression, Klick oder Konversionsereignis. Verwenden Sie das <code> yyyy-dd-mm hh:mm:ss</code> Format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzer-ID </p> </td> 
@@ -145,7 +145,7 @@ Laden Sie Ihre Impressions-, Klick- oder Konvertierungsdatendateien in einen Ama
 
 Die Daten werden in einem separaten Namespace für jeden Kunden in einem Amazon S3-Ordner gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Note, *italics* indicates a variable placeholder. Andere Elemente sind Konstanten oder Schlüssel und bleiben unverändert.
 
-**Syntax:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>Dateityp</i>_<i>yyymmdd</i></code></pre>
+**Syntax:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>Dateityp</i>_<i>yyymmdd</i></code></pre>
 
 In der folgenden Tabelle werden diese Elemente in einem Dateibereitstellungspfad definiert.
 
@@ -162,7 +162,7 @@ In der folgenden Tabelle werden diese Elemente in einem Dateibereitstellungspfad
    <td colname="col2"> <p>Dies ist der Anfang des Ordnerspeicherpfads. Sie erhalten den vollständigen Pfad, wenn alles eingerichtet ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>pid=<i>AAM-ID</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
    <td colname="col2"> <p>Dieses Schlüssel-Wert-Paar, das Ihre <span class="keyword"> Audience Manager</span> -Kunden-ID enthält. </p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ In der folgenden Tabelle werden diese Elemente in einem Dateibereitstellungspfad
    <td colname="col2"> <p> Ein Ordner auf höherer Ebene für Datendateien. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>Dateityp</i>_<i>yyymmdd</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
    <td colname="col2"> <p>Ein Dateitypname, der angibt, welche Art von Daten er enthält, und ein Zeitstempel für die Bereitstellung. </p> </td> 
   </tr> 
  </tbody> 
