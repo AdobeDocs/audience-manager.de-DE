@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Optionen für Profilzusammenführungsregeln definiert
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
 
 ---
 
 
-# Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
+# Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
 
 Mit den Optionen für Zusammenführungsregeln können Sie den Typ der Daten steuern, die Audience Manager für die Segmentierung verwendet. Eine Zusammenführungsregel kann Geräteprofile enthalten, die vom [!UICONTROL Profile Link] Gerätediagramm, den [!UICONTROL Adobe Experience Cloud Device Co-op]und/oder anderen Drittanbieter für Gerätediagramme zugeordnet sind, die mit Audience Manager integriert sind. Sie können maximal 4 erstellen [!UICONTROL Profile Merge Rules]. Die vierte Version [!UICONTROL Profile Merge Rule] steht ausschließlich Kunden zur Verfügung, die das [!UICONTROL People-Based Destinations] Add-on gekauft haben.
 
