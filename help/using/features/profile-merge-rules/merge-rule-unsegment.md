@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Regeln zur Profilzusammenführung und Prozesse zur Aufhebung der Segmentierung des Geräts
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -32,7 +32,7 @@ Zur Erinnerung: Die [!UICONTROL Device Options] sind im Abschnitt verfügbar, we
 
 [!DNL Audience Manager] Sie können eine geräteübergreifende ID aus einem Segment entfernen, wenn Sie die [!UICONTROL Profile Merge Rule] Option **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** verwenden. Unter diesen Bedingungen erfolgt die Aufhebung der Segmentierung, wenn die geräteübergreifende ID nicht mehr für ein Segment qualifiziert ist, da Updates oder Änderungen am geräteübergreifenden Profil das Segment nicht mehr qualifizieren. Dies geschieht, wenn sich die Segmentqualifizierungskriterien ändern oder Sie einen [!UICONTROL AND NOT] Operator auf eine Segmentregel anwenden oder [Neuigkeits- und Häufigkeitsbedingungen](../segments/recency-and-frequency.md) angeben, die die Einstellungen "kleiner als/gleich"verwenden. Anwendungsfälle werden in der Dokumentation zur [sofortigen geräteübergreifenden Unterdrückung](instant-cross-device-suppression.md) beschrieben.
 
-![](../assets/current-no-device.png)
+![](assets/current-no-device.png)
 
 ## Gerätediagrammoptionen und Gerätesegmentierung {#device-graph-options-unsegmentation}
 
