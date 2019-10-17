@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zu Regeln zur Profilzusammenführung und zu Gerätediagrammen
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: ddec078f406b5386b10247b42f1b8bde6b0253e4
 
 ---
 
@@ -28,13 +28,13 @@ Ein Gerätediagramm ist ein Satz von ID-Zuordnungen, die Gruppen anonymer Gerät
 
 **Was ist ein externes Gerätediagramm?**
 
-Ein externes Gerätediagramm ist ein Gerätediagramm, [!DNL Audience Manager] das nicht ausschließlich aus eigenen geräteübergreifenden Datenquellen erstellt wurde. Wenn Sie z. B. eine [Profilzusammenführungsregel](merge-rules-start.md) erstellen und die Diagrammoptionen für Geräte [!UICONTROL Co-op Device Graph] oder Geräte von Drittanbietern wählen, arbeiten Sie mit einem externen Gerätediagramm. Siehe [Geräteoptionen](merge-rule-definitions.md#device-options).
+Ein externes Gerätediagramm ist ein Gerätediagramm, [!DNL Audience Manager] das nicht ausschließlich aus eigenen geräteübergreifenden Datenquellen erstellt wurde. Wenn Sie z. B. eine [Profilzusammenführungsregel](../features/profile-merge-rules/merge-rules-start.md) erstellen und die Diagrammoptionen für Geräte [!UICONTROL Co-op Device Graph] oder Geräte von Drittanbietern wählen, arbeiten Sie mit einem externen Gerätediagramm. Siehe [Geräteoptionen](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
 **Was sind einige häufige Anwendungsfälle für die Verwendung eines externen Gerätediagramms in einem[!UICONTROL Profile Merge Rule]?**
 
-Das Hauptziel der Verwendung eines Gerätediagramms in einem [!UICONTROL Profile Merge Rule] besteht darin, mehrere Geräte einer einzelnen Person oder eines einzelnen Haushalts für ein bestimmtes Segment zu bewerten und zu qualifizieren. Das Segment selbst kann mehrere Verwendungszwecke haben, z. B. zum Targeting einer Zielgruppe mit einer Anzeige, die von einem DSP bereitgestellt wird, oder zum Personalisieren des Onsite-Erlebnisses eines Kunden über eine On-Site-Personalisierungsplattform. See [External Device Graph Use Cases](external-graph-use-cases.md).
+Das Hauptziel der Verwendung eines Gerätediagramms in einem [!UICONTROL Profile Merge Rule] besteht darin, mehrere Geräte einer einzelnen Person oder eines einzelnen Haushalts für ein bestimmtes Segment zu bewerten und zu qualifizieren. Das Segment selbst kann mehrere Verwendungszwecke haben, z. B. zum Targeting einer Zielgruppe mit einer Anzeige, die von einem DSP bereitgestellt wird, oder zum Personalisieren des Onsite-Erlebnisses eines Kunden über eine On-Site-Personalisierungsplattform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -54,7 +54,7 @@ Einmal pro Woche.
 
 **Wie wird[!DNL Audience Manager]ein Gerätediagramm verwendet?**
 
-Gerätediagramme werden [!DNL Audience Manager]als Konfigurationsoptionen angezeigt, wenn Sie eine [Profilzusammenführungsregel](merge-rules-start.md)erstellen. Diese Gerätegrafiken [!UICONTROL Profile Merge Rules]unterstützen [!DNL Audience Manager]Folgendes:
+Gerätediagramme werden [!DNL Audience Manager]als Konfigurationsoptionen angezeigt, wenn Sie eine [Profilzusammenführungsregel](../features/profile-merge-rules/merge-rules-start.md)erstellen. Diese Gerätegrafiken [!UICONTROL Profile Merge Rules]unterstützen [!DNL Audience Manager]Folgendes:
 
 * Zusammenführen mehrerer Geräteprofile Dadurch wird eine einzige Übermenge von Eigenschaften erstellt.
 * Bewerten Sie die Eigenschaftenübersetzung für die Segmentqualifizierung (anstatt jedes Geräteprofil einzeln zu bewerten).
@@ -90,7 +90,7 @@ Die Geräte [!DNL Audience Manager] zusammenführen und lesen sind dieselben Ger
 
 **Wie wird die Segmentierung eines Geräts[!DNL Audience Manager]aufgehoben, wenn es nicht mehr für ein Segment mit einem[!UICONTROL Profile Merge Rule]Gerätediagramm qualifiziert ist?**
 
-Audience Manager führt bei der Auswertung von Segmenten bis zu 100 Geräte mit einem [!UICONTROL Profile Merge Rule] Gerät zusammen, das ein Diagramm verwendet. Wenn das Segmentsignal ausgegeben wird, werden das aktuelle Gerät und bis zu 99 zusätzliche Geräte aus dem Segment im Ziel entfernt. Weitere Informationen zur Aufhebung der Segmentierung finden Sie unter Regeln zur [Profilzusammenführung und Geräte-Aufhebung der Segmentierung](merge-rule-unsegment.md).
+Audience Manager führt bei der Auswertung von Segmenten bis zu 100 Geräte mit einem [!UICONTROL Profile Merge Rule] Gerät zusammen, das ein Diagramm verwendet. Wenn das Segmentsignal ausgegeben wird, werden das aktuelle Gerät und bis zu 99 zusätzliche Geräte aus dem Segment im Ziel entfernt. Weitere Informationen zur Aufhebung der Segmentierung finden Sie unter Regeln zur [Profilzusammenführung und Geräte-Aufhebung der Segmentierung](../features/profile-merge-rules/merge-rule-unsegment.md).
 
  
 
@@ -168,7 +168,7 @@ Die Häufigkeit der Eigenschaften wird durch die Summe der Anzahl der Qualifikat
 
 **Kann ich die Anzahl der Geräte sehen, die mit einem[!UICONTROL Profile Merge Rule]Gerätediagramm erreicht werden können?**
 
-Ja. Berichte geben Daten auf der [!UICONTROL Profile Merge Rule] Ebene zurück. Berichtdaten werden täglich aktualisiert. Die Daten basieren auf den Geräten in Ihrem Konto, nicht auf den Geräten, die mit einem Gerätediagramm verknüpft sind. Siehe [Berichtsmetriken für Regeln](profile-link-metrics.md)zur Profilzusammenführung.
+Ja. Berichte geben Daten auf der [!UICONTROL Profile Merge Rule] Ebene zurück. Berichtdaten werden täglich aktualisiert. Die Daten basieren auf den Geräten in Ihrem Konto, nicht auf den Geräten, die mit einem Gerätediagramm verknüpft sind. Siehe [Berichtsmetriken für Regeln](../features/profile-merge-rules/profile-link-metrics.md)zur Profilzusammenführung.
 
  
 
@@ -258,5 +258,5 @@ Nein.
 
 >[!MORE_LIKE_THIS]
 >
->* [Profillink](merge-rules-overview.md)
+>* [Profillink](../features/profile-merge-rules/profile-link-use-case.md)
 
