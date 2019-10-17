@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager-Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: e324a298bf72b223e4ebf5627f3314e1613d3761
 
 ---
 
@@ -178,9 +178,9 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
          + [Überschneidung der Anzeigeneinheit](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [Überschneidung von Segment zu Anzeigeneinheit](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [Eindeutige Benutzerreichweite](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-      + Daten- und Metadatendateien für Zielgruppenoptimierungsberichte {#data-and-metadata-files}
-         + [Daten- und Metadatendateien für Zielgruppenoptimierungsberichte](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-         + [Datendateien für Zielgruppenoptimierungsberichte](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+      + Daten- und Metadatendateien für Zielgruppenoptimierungsberichte und ausführbare Protokolldateien {#data-and-metadata-files}
+         + [ Protokolldaten und Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+         + [Datendateien für Zielgruppenoptimierungsberichte und ausführbare Protokolldateien](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [Übersicht und Zuordnungen für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [Benennungskonventionen für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [Inhaltsformat für Metadatendateien](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
@@ -322,6 +322,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
       + [Integration von Audience Manager in Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implementieren des Zielgruppen-Management-Moduls](integration/integration-other-solutions/audience-management-module.md)
       + [Serverseitige Weiterleitung (Administratorhandbuch)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Veröffentlichen eines Adobe Analytics-Segments in der Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + Referenz{#reference}
    + [Referenzübersicht](reference/reference.md)
    + [Amazon S3: Info](reference/amazon-s3.md)
