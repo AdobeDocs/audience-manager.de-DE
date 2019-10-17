@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: b258c7dbdcf359394fbdcad6511c4113f8d88d91
+source-git-commit: 5643b1490738aa452e45517610d31e37c361a780
 
 ---
 
@@ -247,11 +247,13 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Arbeiten mit ausführbaren Signalen in der Benutzeroberfläche von Audience Manager {#actionable-signals-in-ui}
 
-Sie können Ihre aussagekräftigen Signale über die [Signalsuche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) anzeigen, indem Sie die Auswahl der **aussagekräftigen Protokolldateien** verwenden.
+Sie können Ihre eingehenden umsetzbaren Signale in der [Signalsuche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) anzeigen.
+
+Wechseln Sie zu **Zielgruppendaten** (1) &gt; **Signale** (2) &gt; **Suche** (3) und wählen Sie den Filter **Aktive Protokolldateien** (4).
 
 ![Umsetzbare Signale in der Benutzeroberfläche](/help/using/integration/assets/alf-in-signals.png)
 
-Um regelbasierte Eigenschaften mit den umsetzbaren Signalen zu erstellen, wählen Sie " **Umsetzbare Protokolldateien**", wählen Sie die umsetzbaren Signale aus, die Sie als Eigenschaftsregeln verwenden möchten, und drücken Sie die **Taste Eigenschaften aus ausgewählten Signalen** erstellen.
+Um regelbasierte Eigenschaften mit den umsetzbaren Signalen zu erstellen, wählen Sie " **Umsetzbare Protokolldateien** "(1), wählen Sie die umsetzbaren Signale aus, die Sie als Eigenschaftsregeln verwenden möchten (2) und drücken Sie die **Taste "Eigenschaften aus ausgewählten Signalen** erstellen"(3).
 
 ![Eigenschaften aus Signalen erstellen](/help/using/integration/assets/alf-create-trait.png)
 
