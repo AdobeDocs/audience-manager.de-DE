@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erste Schritte mit Regeln zur Profilzusammenführung
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -62,7 +62,11 @@ Mit den mit diesen Einstellungen verknüpften Textfeldern können Sie die [!UICO
 
 ## Eine Regel zum Zusammenführen von Profilen erstellen {#create-profile-merge-rule}
 
-Um eine [!UICONTROL Profile Merge Rule]zu erstellen, gehen Sie zu den Schritten für die einzelnen Abschnitte, die hier beschrieben werden, **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** und führen Sie sie aus. Sie können bis zu 3 Zusammenführungsregeln erstellen, nachdem Sie eine geräteübergreifende Datenquelle eingerichtet haben. Zum Erstellen, Bearbeiten oder Löschen einer Regel sind Administratorrechte erforderlich. Alle Benutzer können bestehende anzeigen und verwenden [!UICONTROL Profile Merge Rules].
+Um eine [!UICONTROL Profile Merge Rule]zu erstellen, gehen Sie zu den Schritten für die einzelnen Abschnitte, die hier beschrieben werden, **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** und führen Sie sie aus.
+
+Sie können bis zu 3 Zusammenführungsregeln erstellen, nachdem Sie eine geräteübergreifende Datenquelle eingerichtet haben. Sie erhalten Zugriff auf eine 4. Regel zur Profilzusammenführung ([!UICONTROL All Cross-Device Profiles]), wenn Sie sich für [People-Based-Ziele](../destinations/people-based-destinations-overview.md)registrieren.
+
+Zum Erstellen, Bearbeiten oder Löschen einer Regel sind Administratorrechte erforderlich. Alle Benutzer können bestehende anzeigen und verwenden [!UICONTROL Profile Merge Rules].
 
 <!-- create-profile-merge-rule.xml -->
 
