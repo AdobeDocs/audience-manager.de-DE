@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dashboard "Regeln für Profilzusammenführung"
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -23,7 +23,7 @@ Das [!UICONTROL Profile Merge Rules] Dashboard bietet einen einheitlichen Arbeit
 
 Beim Arbeiten mit [!UICONTROL Profile Merge Rules]können Sie:
 
-* Erstellen Sie maximal 4 Regeln aus Ihren geräteübergreifenden Datenquellen. Siehe [Erstellen einer geräteübergreifenden Datenquelle](merge-rules-start.md#create-data-source).
+* Erstellen Sie maximal 4 [!UICONTROL Profile Merge Rules] aus geräteübergreifenden Datenquellen. Siehe [Erstellen einer geräteübergreifenden Datenquelle](merge-rules-start.md#create-data-source).
 * Legen Sie eine Standardzusammenführungsregel fest. [Der Segmentaufbau](../segments/segment-builder.md) wendet die Standardregel automatisch auf alle neuen Segmente an, die Sie erstellen.
 * Wenden Sie [Datenexportsteuerelemente](../data-export-controls.md) auf eine Zusammenführungsregel an. [!UICONTROL Data Export Controls] verhindern, dass Sie Daten an Zielorte senden, wenn dies gegen Datenschutzvereinbarungen oder Nutzungsvereinbarungen verstößt.
 * Verfolgen Sie die durchschnittliche Anzahl der Geräte für jeden Benutzer.
