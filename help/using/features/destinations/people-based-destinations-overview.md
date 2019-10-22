@@ -5,7 +5,7 @@ seo-title: Übersicht über benutzerspezifische Ziele und Anwendungsfälle
 solution: Audience Manager
 title: Übersicht und Anwendungsfälle
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
 
@@ -26,7 +26,7 @@ Verwenden Sie diese Option, [!DNL People-Based Destinations] um Zielgruppensegme
 * Beseitigung der Kosten im Zusammenhang mit Drittanbieterdaten über Einstiegslösungen;
 * Beseitigung von Kosten für die Entwicklung benutzerspezifischer Daten zu Arbeitsabläufen;
 * Zielgruppen in Cookie-Umgebungen ohne Cookies auswählen;
-* Targeting von Zielgruppen durch Deduplizierung von E-Mail-Adressen, die mit Kunden-IDs übereinstimmen.
+* Targeting von Zielgruppen durch Deduplizierung von Hash-E-Mail-Adressen, die mit Kunden-IDs übereinstimmen.
 
 Sie können [!DNL People-Based Destinations] zum Segmentieren und Targeting von Kunden mit hohem Wert, die Ihre Website möglicherweise nicht besuchen, oder zum Anhalten des Targeting von Kunden, die bereits offline konvertiert haben, verwenden. Darüber hinaus können Sie Ihre Offline-Erstanbieter-Daten mit Ihren Online-Erstanbieterdaten, einschließlich Kundendaten aus anderen Adobe Experience Cloud-Lösungen, kombinieren, um Ihre Social-Media-Werbemaßnahmen zu optimieren. [!DNL Profile Merge Rules]
 
