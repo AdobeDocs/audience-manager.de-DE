@@ -5,8 +5,9 @@ seo-title: Segmentzusammenfassungsansicht
 solution: Audience Manager
 title: Segmentzusammenfassungsansicht
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
+keywords: Aufschlüsselung nach Identitätstyp, Aufschlüsselung nach Identität, Bericht zur Zielgruppenidentität
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
 
 ---
 
