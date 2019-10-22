@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Optionen für Profilzusammenführungsregeln definiert
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -31,7 +31,7 @@ Profile Merge Rules ermöglichen eine Reihe von Regelkombinationen, die jeweils 
 | Zuletzt authentifizierte Profile | Geräteprofil | Alle Kunden | Echtzeit und Stapel | Ja | [Online-/Offline-Targeting](merge-rule-targeting-options.md#device-household-targeting) |
 | Zuletzt authentifizierte Profile |  Gerätediagramm für Profillink | Nur Nordamerika und Kanada | Echtzeit und Stapel | Ja | [Geräteübergreifendes Targeting](profile-link-use-case.md#cross-device-personalization) |
 | Zuletzt authentifizierte Profile | Grafik für externes Gerät (einschließlich Co-op-Gerätediagramm) | Alle Kunden | Echtzeit und Stapel | Nein | [Erweitertes geräteübergreifendes Targeting](external-graph-use-cases.md#advanced-graph-expansion) |
-| Alle geräteübergreifenden Profile | nicht angegeben | Kunden mit [benutzerspezifischen Zielen](../destinations/people-based-destinations-overview.md) exklusiv | Nur Stapel | Nein | [Personales Targeting](merge-rule-targeting-options.md#all-cross-device) |
+| Alle geräteübergreifenden Profile | nicht angegeben | Kunden mit [benutzerspezifischen Zielen](../destinations/people-based-destinations-overview.md) exklusiv | Nur Stapel | Nein | [Targeting für benutzerspezifische Ziele](merge-rule-targeting-options.md#all-cross-device) |
 
 ## Bewertung des Segments zur Profilzusammenführung {#segment-evaluation}
 
