@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -61,11 +61,15 @@ Durch die Verknüpfung zwischen dem Gerät und dem Profil für den Haushalt kann
 
 ![Haushaltsführung](assets/household-management.png)
 
-## Personales Targeting {#all-cross-device}
+## Targeting für benutzerspezifische Ziele {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
 Dieses Targeting-Szenario steht nur Kunden zur Verfügung, die das [!DNL People-Based Destinations] Add-on gekauft haben. Diese Regel ermöglicht es Marketingexperten, Kunden anhand ihrer eigenen, authentifizierten Daten zu erreichen.
 
-Nehmen wir an, ein Online-Händler möchte über soziale Plattformen bestehende Kunden erreichen und ihnen personalisierte Angebote auf Basis ihrer bisherigen Bestellungen zeigen. Damit können sie [!UICONTROL People-Based Destinations]Hash-E-Mail-Adressen von sich aus [!DNL CRM] zu Audience Manager erfassen, Segmente aus den Offlinedaten erstellen und diese Segmente an die sozialen Plattformen senden, für die sie werben möchten, und ihre Werbeausgaben optimieren.
+Nehmen wir an, ein Online-Händler möchte über soziale Plattformen bestehende Kunden erreichen und ihnen personalisierte Angebote auf Basis ihrer bisherigen Bestellungen zeigen. Mit [!UICONTROL People-Based Destinations]dieser Funktion können sie Hash-E-Mail-Adressen von sich aus [!DNL CRM] in Audience Manager erfassen, Segmente aus den Offlinedaten erstellen und diese Segmente an die sozialen Plattformen senden, für die sie werben möchten, indem sie diese Hash-ID verwenden und ihre Werbeausgaben optimieren.
 
 Weitere Informationen zu dieser Option finden Sie unter [Benutzerbasierte Ziele](../destinations/people-based-destinations-overview.md).
 
