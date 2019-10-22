@@ -5,8 +5,9 @@ seo-title: Eigenschaftendetailseite
 solution: Audience Manager
 title: Eigenschaftendetailseite
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
+keywords: Aufschlüsselung nach Identitätstyp, Aufschlüsselung nach Identität, Bericht zur Zielgruppenidentität
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
 
 ---
 
