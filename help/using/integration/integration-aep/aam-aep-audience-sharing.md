@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform
 keywords: Freigabe von AEP-Zielgruppen, AEP-Segmente, Plattformsegmente
 translation-type: tm+mt
-source-git-commit: 421f15b79fa647bf4fbf71a425c7f7792fb302e5
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -36,9 +36,9 @@ Darüber hinaus werden Ihre Experience Platform-Segmente über [Hauptdienste](ht
 
 Die nachstehende Tabelle gibt einen Überblick über Anwendungsfälle für die Freigabe von Zielgruppen:
 
-| `*` | **Adobe Experience Platform** | **Audience Manager** | **Zentrale Dienste** |
+| **Nutzungsszenario** | **Adobe Experience Platform** | **Audience Manager** | **Zentrale Dienste** |
 ---------|----------|---------|---------
-| **Anwendungsfall für die Freigabe von Zielgruppen** | <ul><li>Kundenprofile mit Audience Manager-Daten erweitern</li><li>Verwenden von Audience Manager-Daten in der Segmentierung der Experience Platform</li></ul> | <ul><li>Daten von Drittanbietern zu Segmenten hinzufügen</li><li>Algorithmische Modellierung</li><li>Aktivierung zu weiteren Zielen</li></ul> | Verwenden Sie Experience Platform-Segmente in anderen Experience Cloud-Lösungen, z. B. Adobe Target oder Analytics. |
+| **Freigeben von Zielgruppen** | <ul><li>Kundenprofile mit Audience Manager-Daten erweitern</li><li>Verwenden von Audience Manager-Daten in der Segmentierung der Experience Platform</li></ul> | <ul><li>Daten von Drittanbietern zu Segmenten hinzufügen</li><li>Algorithmische Modellierung</li><li>Aktivierung zu weiteren Zielen</li></ul> | Verwenden Sie Experience Platform-Segmente in anderen Experience Cloud-Lösungen, z. B. Adobe Target oder Analytics. |
 
 <br> 
 
