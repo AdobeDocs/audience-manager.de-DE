@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zur Ingestion von Inbound-Kundendaten
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -84,41 +84,41 @@ Berücksichtigen Sie die folgenden Anwendungsfälle, in denen der Datenanbieter 
    <td colname="col1"> <p><b>1. Fall</b> </p> </td> 
    <td colname="col2"> <p>Am Montag meldet sich ein Besucher, der in der CRM-Datenbank als Besucher-ABC identifiziert wurde, an, wodurch eine clientseitige ID-Synchronisierung initiiert wird. <span class="keyword"> Audience Manager</span> speichert die Zuordnung von Besucher-ABC zu <span class="keyword"> Audience Manager</span> Visitor 123. </p> <p>Am Dienstag überträgt die CRM-Datenbank eine Datendatei (<span class="filepath"> .sync</span>) mit folgendem Datensatz an den <span class="keyword"> Audience Manager- </span>Server: </p> <p> 
      <ul class="simplelist"> 
-      <li><code> ABC "gender"="male","luxuriöse_Einkäufer"="yes"</code> </li> 
+      <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
      </ul> </p> <p>In diesem Fall <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
       <li id="li_DC4F5E63D8134A29B703BDF264F02F65">Erkennt Besucher-ABC aus der gespeicherten ID-Synchronisierungszuordnung. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> Verbindet die Eigenschaften <code> männlich</code> und <code> luxuriös_shopper</code> mit dem Profil visitor 123. </li> 
+      <li id="li_62E085FC184D41C3863B1CE832F77946"> Ordnet die Eigenschaften <code> male</code> und <code> luxury_shopper</code> das Profil "Besucher 123"zu. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>2. Fall</b> </p> </td> 
    <td colname="col2"> <p>Am Montag sendet die CRM-Datenbank eine Datendatei (<span class="filepath"> .sync</span>) mit folgendem Datensatz an den <span class="keyword"> Audience Manager</span> -Server: </p> <p> 
      <ul class="simplelist"> 
-      <li><code> DEF "gender"="women","wine_enthusiast"="yes"</code> </li> 
+      <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
      </ul> </p> <p> <span class="keyword"> Audience Manager</span> verfügt über keinen Datensatz zu diesem Besucher (oder einer zugehörigen Besucher-ID), sodass dieser Datensatz nicht verarbeitet wird. </p> <p>Am Dienstag meldet sich die Besucher-DEF an. Diese Aktion initiiert die erste clientseitige ID-Synchronisierung für diesen Besucher. Diese Aktion ordnet Besucher-DEF der <span class="keyword"> Audience Manager</span> -ID 456 zu. Diesem Besucher sind jedoch keine CRM-Daten zugeordnet. Daher wird <span class="keyword"> Audience Manager</span> nicht zurückgehen und alte Dateien erneut verarbeiten. </p> <p>Am Mittwoch sendet die CRM-Datenbank eine weitere Datendatei mit folgendem Datensatz an den <span class="keyword"> Audience Manager</span> -Server: </p> <p> 
      <ul class="simplelist"> 
-      <li><code> DEF "gender"="women","wine_enthusiast"="yes","dma"="paris"</code> </li> 
+      <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
      </ul> </p> <p>In diesem Fall <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
      <li id="li_64D64A16E99E492BAAE1080867F854A9">Erkennt Besucher-DEF aus der gespeicherten ID-Synchronisierungszuordnung. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Verbindet die Eigenschaften <code> weiblich</code>, <code> paris</code>und <code> wine_enthusiast</code> mit dem Profil visitor 456. </li> 
+     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Verbindet die Eigenschaften <code> female</code>, <code> paris</code>und <code> wine_enthusiast</code> mit dem Besucherprofil 456. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>3. Fall</b> </p> </td> 
-   <td colname="col2"> <p>Am Montag erhält der <span class="keyword"> Audience Manager</span> -Server zwei Dateien mit den folgenden Datensätzen: </p> <p> <code> .sync</code> -Datei mit: </p> <p> 
+   <td colname="col2"> <p>Am Montag erhält der <span class="keyword"> Audience Manager</span> -Server zwei Dateien mit den folgenden Datensätzen: </p> <p> <code> .sync</code> Datei mit: </p> <p> 
      <ul class="simplelist"> 
       <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> <code> .overwrite</code> -Datei mit: </p> 
+     </ul> </p> <p> <code> .overwrite</code> Datei mit: </p> 
     <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
      <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
-     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="women" "wine_enthusiast"="yes"</code> </li> 
+     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
     </ul> <p><span class="keyword"> Audience Manager</span> speichert einen zugeordneten Datensatz von Besucher-JKL zu ID 789, ausgehend von einer vorherigen ID-Synchronisierung. </p> <p>In diesem Fall <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
      <li id="li_6DABD380311D49738DAD98F5E6DE45B8">Erkennt Besucher-JKL aus der gespeicherten ID-Synchronisierungszuordnung. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Verbindet die Eigenschaften <code> weiblich</code> und <code> wine_enthusiast</code> mit dem Profil der Besucher-ID 789. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignoriert die Eigenschaftsverknüpfung für Besucher-GHI, da ihre ID nur im aktuellen Stapel synchronisiert wurde. Um Eigenschaften mit Besucher-GHI zu verknüpfen, müssen Sie sie in zukünftige <code> .overwrite</code> -Dateien einschließen. </li> 
+     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Ordnet die Eigenschaften <code> female</code> und <code> wine_enthusiast</code> das Profil der Besucher-ID 789 zu. </li> 
+     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignoriert die Eigenschaftsverknüpfung für Besucher-GHI, da ihre ID nur im aktuellen Stapel synchronisiert wurde. Um Eigenschaften mit Besucher-GHI zu verknüpfen, müssen Sie sie in zukünftige <code> .overwrite</code> Dateien aufnehmen. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -174,8 +174,8 @@ Die folgenden Anwendungsfälle zeigen, wie diese Dateitypen gespeicherte Besuche
    <td colname="col1"> <p><b>Inkrementell und vollständig</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E89301D815174D45B9B238F2CDE6CCC6"> 
-      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">Tag 1 <code> .sync</code> -Dateiinhalt: <code> visitor123 = a,b,c</code> </li> 
-      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">Tag 2 <code> .overwrite</code> -Dateiinhalte: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">Tag 1 <code> .sync</code> Dateiinhalt: <code> visitor123 = a,b,c</code> </li> 
+      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">Inhalt der <code> .overwrite</code> Datei Tag 2: <code> visitor123 = c,d,e</code> </li> 
       <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> Tag 3 Besucherprofil-ID 123 enthält <code> c,d,e </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -183,8 +183,8 @@ Die folgenden Anwendungsfälle zeigen, wie diese Dateitypen gespeicherte Besuche
    <td colname="col1"> <p><b>Nur inkrementell</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_8271C9796BD040E4B8DC64DCE4FE2AD3"> 
-      <li id="li_347959BDE83549F794E6661C95097891">Tag 1 <code> .sync</code> -Dateiinhalt: <code> visitor123 = a,b,c </code> </li> 
-      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">Tag 2 <code> .sync</code> -Dateiinhalt: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_347959BDE83549F794E6661C95097891">Tag 1 <code> .sync</code> Dateiinhalt: <code> visitor123 = a,b,c </code> </li> 
+      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">Inhalt der <code> .sync</code> Datei Tag 2: <code> visitor123 = c,d,e</code> </li> 
       <li id="li_6E17809D49C74F4991B0B445469055E6">Tag 3 Besucherprofil-ID 123 enthält <code> a,b,c,d,e</code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -242,7 +242,7 @@ Ja. [!DNL Audience Manager] speichert keine E-Mail-Adressen in unserer Datenbank
 
 **Ist beim Inhalt der Datendatei die Groß-/Kleinschreibung zu beachten? Wie wäre es mit der ID-Synchronisierung?**
 
-Es gibt zwei grundlegende Komponenten einer Datendatei: Eine Unique User ID (UUID) und Profildaten, üblicherweise in Form von Schlüssel-Wert-Paaren oder -Codes. Bei der UUID wird zwischen Groß- und Kleinschreibung unterschieden. Im Allgemeinen wird bei Profil- oder Schlüsselwertdaten nicht zwischen Groß- und Kleinschreibung unterschieden.
+Es gibt zwei grundlegende Komponenten einer Datendatei: Eine Benutzer-ID (siehe Benutzer-ID in [Dateivariablen definiert](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) und Profildaten, üblicherweise in Form von Schlüssel-Wert-Paaren oder -Codes. Bei der Benutzer-ID wird zwischen Groß- und Kleinschreibung unterschieden. Im Allgemeinen wird bei Profil- oder Schlüsselwertdaten nicht zwischen Groß- und Kleinschreibung unterschieden.
 
 <br> 
 
