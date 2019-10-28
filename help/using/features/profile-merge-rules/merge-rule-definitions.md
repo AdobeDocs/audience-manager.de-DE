@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Optionen für Profilzusammenführungsregeln definiert
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
 
 ---
 
@@ -29,7 +29,7 @@ Profile Merge Rules ermöglichen eine Reihe von Regelkombinationen, die jeweils 
 | Kein geräteübergreifendes Profil | Grafik für externes Gerät (einschließlich Co-op-Gerätediagramm) | Alle Kunden | Echtzeit und Stapel | Nein | [Erweitertes Geräte-Targeting](external-graph-use-cases.md#audience-expansion) |
 | Aktuelle authentifizierte Profile | Kein Geräteprofil | Alle Kunden | Nur Echtzeit | Nein | [Freigegebenes Geräte-Targeting](merge-rule-targeting-options.md#target-shared-devices) |
 | Zuletzt authentifizierte Profile | Geräteprofil | Alle Kunden | Echtzeit und Stapel | Ja | [Online-/Offline-Targeting](merge-rule-targeting-options.md#device-household-targeting) |
-| Zuletzt authentifizierte Profile |  Gerätediagramm für Profillink | Nur Nordamerika und Kanada | Echtzeit und Stapel | Ja | [Geräteübergreifendes Targeting](profile-link-use-case.md#cross-device-personalization) |
+| Zuletzt authentifizierte Profile |  Gerätediagramm für Profillink | Alle Kunden | Echtzeit und Stapel | Ja | [Geräteübergreifendes Targeting](profile-link-use-case.md#cross-device-personalization) |
 | Zuletzt authentifizierte Profile | Grafik für externes Gerät (einschließlich Co-op-Gerätediagramm) | Alle Kunden | Echtzeit und Stapel | Nein | [Erweitertes geräteübergreifendes Targeting](external-graph-use-cases.md#advanced-graph-expansion) |
 | Alle geräteübergreifenden Profile | nicht angegeben | Kunden mit [benutzerspezifischen Zielen](../destinations/people-based-destinations-overview.md) exklusiv | Nur Stapel | Nein | [Targeting für benutzerspezifische Ziele](merge-rule-targeting-options.md#all-cross-device) |
 
