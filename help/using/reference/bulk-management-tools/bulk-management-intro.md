@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -111,9 +111,9 @@ Die folgende Tabelle listet die Vorgänge auf, die Sie durchführen können, und
 Sehen wir uns an, wie Sie mehrere Eigenschaften gleichzeitig erstellen. So erstellen Sie mehrere Eigenschaften in einem Massenvorgang:
 
 1. Klicken Sie auf die **[!UICONTROL Headers]** Registerkarte und kopieren Sie alle Beschriftungen unter der [!UICONTROL Create a Trait] Option.
-
 2. Klicken Sie auf die **[!UICONTROL Create]** Registerkarte und fügen Sie die Beschriftungen beginnend in Zeile 1 Spalte A ein.
 3. Geben Sie Informationen zu den einzelnen Spaltenüberschriften an und klicken Sie auf **[!UICONTROL Create Traits]**. Diese Aktion fordert Sie zur Bestätigung Ihrer Authentifizierung auf. Ihr Massenauftrag wird ausgeführt, nachdem Sie Ihre Authentifizierung bestätigt haben. Überprüfen Sie in der linken unteren Ecke des Arbeitsblatts, ob eine Benachrichtigung zum Auftragsstatus angezeigt wird.
+
 
 >[!NOTE]
 >
