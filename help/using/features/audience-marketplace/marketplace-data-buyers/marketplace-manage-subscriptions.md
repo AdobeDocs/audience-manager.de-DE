@@ -7,7 +7,7 @@ title: Verwalten von Datenfeed-Abonnements
 topic: DIL-API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ Nachdem Sie einen Datenfeed abonniert haben:
 
 * Lesen Sie die Dokumentation zur Rechnungsstellung und zur Zahlung. Siehe die entsprechenden Links unten.
 
->[!MORE_LIKE_THIS]
->
->* [Rechnungsstellung und Impressionszuordnung für CPM-Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Rechnungsstellung und Impressionszuordnung für einfache Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Bericht zur CPM-Nutzung](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
-
-
 ## Einen privaten Datenfeed abonnieren {#subscript-private-data-feed}
 
 Käufer abonnieren private Datenfeeds und Pläne in **[!UICONTROL Audience Marketplace > Marketplace]**.
@@ -76,12 +69,6 @@ So abonnieren Sie einen privaten Datenfeed:
 
    * **[!UICONTROL Request approved]**: Der Status in der [!UICONTROL Marketplace] Liste ändert sich in "Zugriff gewährt" und Sie erhalten eine automatische Benachrichtigung. An dieser Stelle können Sie den Feed abonnieren. Anweisungen finden Sie unter [Abonnieren eines öffentlichen Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) .
    * **[!UICONTROL Request denied]**: Der Text "Angefordert"wird aus der [!UICONTROL Marketplace] Liste für den Feed entfernt. Sie können versuchen, ein Abonnement erneut zu erwerben oder einen anderen Feed auszuwählen.
-
->[!MORE_LIKE_THIS]
->
->* [Abonnieren eines öffentlichen Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [Rabatte für Datenkäufer](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
-
 
 ## Data Feed-Rabatte für Käufer {#buyer-discount}
 
@@ -139,11 +126,6 @@ Im Beispiel erhält der Käufer einen Rabatt von 10 % auf den [!UICONTROL Segmen
 
 ![](assets/buyer-discount.png)
 
->[!MORE_LIKE_THIS]
->
->* [Der Marktplatz: Info](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## Abonnierte Feed-Daten suchen {#find-subscribed-data-fee}
 
 Die Daten (Eigenschaften) für Ihre Datenfeeds werden in ihren eigenen Speicherordnern angezeigt. Wechseln Sie zu **[!UICONTROL Audience Data > Traits]** und erweitern Sie den **[!UICONTROL 3rd-Party Data]** Ordner, um die Eigenschaften in Ihren abonnierten Feeds anzuzeigen und zu bearbeiten. Suchen Sie nach dem Unterordner, der nach Ihrem Datenanbieter benannt ist. Diese enthalten Ordner, die nach den einzelnen Daten-Feeds benannt sind, und Listeneigenschaften, die vom Feed bereitgestellt werden.
@@ -151,11 +133,6 @@ Die Daten (Eigenschaften) für Ihre Datenfeeds werden in ihren eigenen Speichero
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
-
->[!MORE_LIKE_THIS]
->
->* [Abonnieren eines öffentlichen Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
-
 
 ## Abmelden von einem Datenfeed {#unsubscribe}
 
@@ -290,11 +267,6 @@ Auf dieser Seite finden Sie die folgenden Informationen:
    * Klicken Sie auf **[!UICONTROL Cancel]** , um die Seite zu verlassen, ohne Änderungen vorzunehmen.
    * Klicken Sie auf **[!UICONTROL Review & Subscribe]** , um einen Datenfeed zu abonnieren. Diese Schaltfläche ist ausgegraut, bis Sie einen [!UICONTROL Subscription] Umschalter aktivieren [!UICONTROL On]. Siehe auch [Abonnieren eines öffentlichen Datenfeeds](#subscript-public-data-feed) und [Abonnieren eines privaten Datenfeeds](#subscript-private-data-feed).
 
->[!MORE_LIKE_THIS]
->
->* [Der Marktplatz: Info](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## Anwendungsfälle des Datenfeeds {#use-cases}
 
 Als [!UICONTROL Audience Marketplace] Datenkäufer können Sie Daten für Überschneidungen, Modellierung und Aktivierungsfälle erwerben. Jeder Anwendungsfall ist für einen bestimmten Zweck konzipiert und schränkt die Möglichkeiten ein. Diese Verwendungsfallbeschreibungen können Ihnen dabei helfen, die richtige Entscheidung darüber zu treffen, welche Art von Datenplan Sie kaufen möchten.
@@ -317,3 +289,13 @@ Mit diesem Anwendungsfall können Sie Lieferanteneigenschaften anhand Ihrer Eige
 ### Activation
 
 In diesem Anwendungsfall können Sie Daten an ein [Ziel](../../../features/destinations/destinations.md)senden. Ein Ziel ist [!UICONTROL Audience Manager]ein Drittanbietersystem (Anzeigen-Server, [!DNL DSP], [!DNL DMP]Austausch usw.) , für die Sie Daten freigeben möchten. In einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
+
+>[!MORELIKETHIS]
+>
+>* [Rechnungsstellung und Impressionszuordnung für CPM-Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Rechnungsstellung und Impressionszuordnung für einfache Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [Bericht zur CPM-Nutzung](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Abonnieren eines öffentlichen Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Rabatte für Datenkäufer](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [Der Marktplatz: Info](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+
