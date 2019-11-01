@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Zielmakros definiert
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,11 +45,11 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Datenquellen-ID: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Eine interne Kunden-ID: <code> CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Deklarierte ID: Der Partner möchte diese Werte als deklarierte ID <code> 1:CustomerABC</code>übergeben. </li> 
-    </ul> <p>Um dies mit der <code>%dpid_<i>Datenquelle-ID</i>%</code>zu tun, formatiert der <span class="keyword"> Audience Manager</span> -Partner das Makro wie folgt: </p> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Deklarierte ID: Der Partner möchte diese Werte als deklarierte ID übergeben <code> 1:CustomerABC</code>. </li> 
+    </ul> <p>Dazu formatiert der <code>%dpid_<i>data source id</i>%</code> Audience Manager<span class="keyword"> </span>-Partner das Makro wie folgt: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>Das Makro ersetzt <code> 1</code> durch <code> CustomerABC</code>. </p> <p> 
+    </ul> <p>Das Makro wird durch <code> 1</code> ersetzt <code> CustomerABC</code>. </p> <p> 
      <draft-comment>
        Auf Basis von AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
@@ -101,6 +101,6 @@ Cache-Busting verhindert, dass Browser Inhalte speichern und wiederverwenden. Be
 
 Beide Makros verhindern die Zwischenspeicherung, können aber effizienter `%rnd%` sein. Wenn zum Beispiel mehrere Benutzer eine Seite gleichzeitig anzeigen, erhalten sie `%timestamp%`denselben Datums-/Uhrzeitwert. Daher [!DNL URL] ist der Aufruf nicht eindeutig und mehrere Aufrufe werden nur einmal gezählt. Generiert jedoch einen eindeutigen numerischen Wert für jeden Aufruf (auch wenn Benutzer dieselbe Seite gleichzeitig sehen). `%rnd%` Das bedeutet, dass die [!DNL URL] Zeichenfolge unterschiedliche Werte enthält und als eindeutig gezählt wird.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Zielmakros definiert](../../features/destinations/destination-macros.md#destination-macros-defined)
