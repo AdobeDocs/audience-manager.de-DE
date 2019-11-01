@@ -7,7 +7,7 @@ title: Audience Marketplace für Datenkäufer
 topic: DIL-API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d9a4244f68e95c872d3686da10ee3a774250fbfe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,7 +87,7 @@ Sehen Sie sich das unten stehende Video an, um einen vollständigen Überblick d
 
 In der [!UICONTROL Marketplace] Liste werden manchmal der Name und die Eigenschaften des Anbieters als privat gekennzeichnet. Dies zeigt einen [privaten Datenfeed](../../../features/audience-marketplace/marketplace-private-feeds.md)an. Mit einem privaten Datenfeed können Verkäufer den Zugriff auf ihre Daten einschränken. Verkäufer können Feeds privat gestalten, wenn sie spezielle Angebote, Rabatte oder Zugriffskontrollen anbieten. Als Käufer müssen Sie eine Abonnementanforderung an den Verkäufer senden, wenn Sie Zugriff auf einen privaten Feed haben möchten. Weitere Informationen finden Sie unter [Abonnieren eines privaten Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) .
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Grundlegendes zur Abo-Detailseite im Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
 >* [Rabatte für Datenkäufer](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
