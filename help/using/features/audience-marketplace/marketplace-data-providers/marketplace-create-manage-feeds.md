@@ -7,7 +7,7 @@ title: Datenfeeds erstellen, bewerten und verwalten
 topic: DIL-API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,11 +59,6 @@ Bewegen Sie den Schieberegler im [!UICONTROL Settings] Abschnitt zu:
 * **[!UICONTROL Private]** und **[!UICONTROL Unbranded]**: Die [!UICONTROL Marketplace] Liste des Käufers enthält nur den Datenfeed-Namen und die Beschreibung. Der Name des Datenanbieters wird als [!UICONTROL Private Seller].
 
 Informationen dazu, wie ein privater Feed für Käufer aussieht, finden Sie im Abschnitt "Käufer"in [privaten Datenfeeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
-
->[!MORE_LIKE_THIS]
->
->* [Private Daten-Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 
 ## Deaktivieren des Daten-Feeds eines Abonnenten {#deactivate-data-feed}
 
@@ -183,11 +178,6 @@ Gehen Sie zu [!UICONTROL My Shared Data] und um Käuferanforderungen zu überpr�
 3. Klicken Sie im [!UICONTROL Allow Access] Abschnitt jedes Anforderungsfelds auf das Kontrollkästchen, um eine Anforderung zu genehmigen, oder auf das X, um den Zugriff zu verweigern.
 4. Bestätigen oder brechen Sie die ausgewählte Aktion im Bestätigungs-Popup ab.
 
->[!MORE_LIKE_THIS]
->
->* [Private Daten-Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
-
 ## Rabatte für Datenanbieter {#discounts}
 
 Mit [!UICONTROL Audience Marketplace]Rabatten können Sie den veröffentlichten Preis eines Datenfeeds für einzelne Abonnenten reduzieren. Sie können Rabatte für Abonnenten anbieten, die eine Abonnementanforderung eingereicht haben, oder für Abonnenten, die Details zu einem Datenfeed angefordert haben. Rabatte gelten für Feeds [!DNL CPM] und pauschale Feeds. Rabatte können hilfreich sein, wenn Sie für neue Kunden Abonnementanreize bereitstellen oder die Kundentreue belohnen möchten.
@@ -212,3 +202,8 @@ In diesen Beispielen hat der Verkäufer dem [!UICONTROL Software Audience] Daten
 Datenanbieter können alle ihre Abonnenten und diskontierten Feeds anzeigen **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [Private Daten-Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
+
