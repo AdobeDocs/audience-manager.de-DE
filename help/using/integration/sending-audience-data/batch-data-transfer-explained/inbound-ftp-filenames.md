@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Anforderungen an den FTP-Namen und die Dateigröße für eingehende Datendateien
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: ec2d05290874a95e9cc9b8318fcc5e1e1986f5b9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -52,29 +52,29 @@ Die Tabelle definiert die Elemente in einem [!DNL FTP] Dateinamen.
    <td colname="col2"> <p>Pfad und Name des FTP-Ordners für <span class="keyword"> Audience Manager</span> . Wenden Sie sich an Ihren Kundenbetreuer, um den FTP-Ordner und die Anmeldeinformationen zu erhalten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>DPID</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>Eine ID, die <span class="keyword"> Audience Manager</span> anweist, wenn eine Datendatei Ihre eigenen Benutzer-IDs oder Android- oder iOS-IDs enthält. Akzeptiert die folgenden Optionen: </p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b></b> Datenpartner-ID: Dies ist eine eindeutige ID, die Audience Manager Ihrem Unternehmen oder Ihrer Organisation zuweist. Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten mit Ihren eigenen Benutzer-IDs senden. Beispiel: <code>...ftp_dpm_21_123456789.sync</code> teilt <span class="keyword"> Audience Manager</span> mit, dass ein Partner mit ID 21 die Datei gesendet hat und dass sie Benutzer-IDs enthält, die von diesem Partner zugewiesen wurden. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b></b> Android-IDs (GAID): Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie eine Android-ID enthält. Beispiel: <code>...ftp_dpm_20914_123456789.sync</code> teilt <span class="keyword"> Audience Manager</span> mit, dass die Datendatei nur Android-IDs enthält. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b></b> iOS-IDs (IDFA): Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Beispiel: <code>...ftp_dpm_20915_123456789.sync</code> teilt <span class="keyword"> Audience Manager</span> mit, dass die Datendatei nur iOS-IDs enthält. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b></b> Datenpartner-ID: Dies ist eine eindeutige ID, die Audience Manager Ihrem Unternehmen oder Ihrer Organisation zuweist. Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten mit Ihren eigenen Benutzer-IDs senden. Beispielsweise <code>...ftp_dpm_21_123456789.sync</code> teilt <span class="keyword"> Audience Manager</span> mit, dass ein Partner mit ID 21 die Datei gesendet hat und dass sie Benutzer-IDs enthält, die von diesem Partner zugewiesen wurden. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b></b> Android-IDs (GAID): Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie eine Android-ID enthält. Weist <code>...ftp_dpm_20914_123456789.sync</code> Audience Manager<span class="keyword"> </span> beispielsweise an, dass die Datendatei nur Android-IDs enthält. </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b></b> iOS-IDs (IDFA): Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Weist <code>...ftp_dpm_20915_123456789.sync</code> Audience Manager<span class="keyword"> </span> beispielsweise an, dass die Datendatei nur iOS-IDs enthält. </li> 
     </ul> <p> <p>Hinweis:  Mischen Sie keine ID-Typen in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise die Android-ID enthält, sollten Sie keine iOS-IDs oder Ihre eigenen IDs in die Datendatei aufnehmen. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
    <td colname="col2"> <p>Ein Platzhalter für eine ID. Sie können sie beispielsweise auf Ihre <span class="keyword"> Audience Manager</span> -ID einstellen, wenn Sie die DPID auf eine Datenquellen-ID oder eine Android- oder iOS-ID festlegen. Dadurch kann <span class="keyword"> Audience Manager</span> die Dateidaten wieder mit Ihrem Unternehmen verknüpfen. </p> <p>Beispiel: </p> 
     <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
-     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> zeigt, dass ein Partner mit ID 21 Daten aus einer Datenquelle gesendet hat, die die ID 33 verwendet. </li> 
+     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> zeigt, dass ein Partner mit ID 21 Daten aus einer Datenquelle mit ID 33 gesendet hat. </li> 
      <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> zeigt, dass ein Partner mit ID 21 Daten gesendet hat, die Android-IDs enthalten. </li> 
      <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> zeigt, dass ein Partner mit ID 21 Daten gesendet hat, die iOS-IDs enthalten. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
+   <td colname="col1"> <p> <code> (.sync |.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>Zu den Synchronisierungsoptionen gehören: </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
       <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normales Szenario, bei dem Drittanbieter von Daten Eigenschaften pro Benutzer senden, die im Audience Manager-System hinzugefügt oder entfernt werden sollen. </li> 
-      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> überschreiben</code>: Ermöglicht Kunden und Datenanbietern das Senden einer Liste von Eigenschaften pro Benutzer, die alle vorhandenen Eigenschaften dieses Benutzers für eine bestimmte Datenquelle in Audience Manager überschreiben sollten. Sie müssen nicht alle Benutzer in eine Überschreibungsdatei einschließen. Schließen Sie nur die Benutzer ein, die Sie ändern möchten. Eigenschaften, die nicht der Zieldatenquelle zugewiesen sind, werden nicht gelöscht. </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Ermöglicht Kunden und Datenanbietern das Senden einer Liste von Eigenschaften pro Benutzer, die alle vorhandenen Eigenschaften dieses Benutzers für eine bestimmte Datenquelle in Audience Manager überschreiben sollten. Sie müssen nicht alle Benutzer in eine Überschreibungsdatei einschließen. Schließen Sie nur die Benutzer ein, die Sie ändern möchten. Eigenschaften, die nicht der Zieldatenquelle zugewiesen sind, werden nicht gelöscht. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -82,11 +82,11 @@ Die Tabelle definiert die Elemente in einem [!DNL FTP] Dateinamen.
    <td colname="col2"> <p>Eine Ganzzahl. Wird verwendet, wenn Sie große Dateien in mehrere Teile teilen, um die Verarbeitungszeit zu verbessern. Die Zahl gibt an, welcher Teil der Originaldatei Sie senden. </p> <p>Zur effizienten Dateiverarbeitung teilen Sie die Datendateien wie folgt: </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Unkomprimiert: 1 GB </li> 
-     <li id="li_A9638EB46ED14E0680B6575D5457E32F">Komprimiert:200-300 MB </li> 
+     <li id="li_A9638EB46ED14E0680B6575D5457E32F">Komprimiert: 200-300 MB </li> 
     </ul> <p>Siehe die ersten beiden Beispiele für <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"> Dateinamen</a> unten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>ZEITSTEMPEL</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Ein 10-stelliger UTC UNIX-Zeitstempel in Sekunden. Mit dem Zeitstempel wird jeder Dateiname eindeutig. </p> 
     <draft-comment> 
      <p> <p>Hinweis:  Audience Manager verwendet den Zeitstempel nicht während der Verarbeitung von eingehenden Dateien. Der Zeitstempel im Dateinamen wurde in Audience Manager nicht mehr unterstützt, ist aber dennoch für die Abwärtskompatibilität erforderlich. </p> </p> 
@@ -126,7 +126,7 @@ Betrachten Sie die unten stehenden Zahlen für eine schnellste/früheste Verarbe
  <tbody> 
   <tr> 
    <td colname="col1"><b>komprimiert</b> </td> 
-   <td colname="col2"> <p>200-300 MB </p> </td> 
+   <td colname="col2"> <p> 200-300 MB </p> </td> 
    <td colname="col3"> <p>3 GB </p> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ Betrachten Sie die unten stehenden Zahlen für eine schnellste/früheste Verarbe
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Namensanforderungen von Amazon S3 für Inbound-Datendateien](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
