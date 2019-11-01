@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erläuterung der Segmentzeit bis zur Live-Übertragung
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 translation-type: tm+mt
-source-git-commit: 17906734132813984437216f2a6cbc1c7bf14937
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Beispiel: Sie haben Segment 1, das aus Eigenschaft A (30 Tage [!DNL TTL]) und Ei
 
 Denken Sie daran, dass das [!DNL TTL] Set auf Ihrem [!DNL Audience Manager] Pixel unabhängig von dem [!DNL TTL] Satz auf anderen Pixeln von Drittanbietern ([!DNL DSP]s, Werbenetzwerke usw.) funktioniert.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Ablaufintervall für Eigenschaften festlegen](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
 
