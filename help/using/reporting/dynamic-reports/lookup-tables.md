@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Verbessern Sie die Verarbeitungszeit für Protokolldateien mit Suchtabellen.
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -70,7 +70,7 @@ Die nachstehende Lookup-Datei enthält die Metadaten und kann mit der Anzeigen-I
 
 Wenn Ihr Ad-Serving-System über eine API verfügt, müssen Sie möglicherweise keine Metadaten in einer Lookup-Datei senden. Wir können diese Informationen möglicherweise über die API abrufen. In diesem Fall sollten Ihre Protokolldateien nur IDs enthalten. Wir arbeiten mit Ihnen zusammen, um zu ermitteln, ob Metadaten über eine API abgerufen werden können.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Liefer- und Leistungsbericht](../../reporting/dynamic-reports/delivery-performance-report.md)
 
