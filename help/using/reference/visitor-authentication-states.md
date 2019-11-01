@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Authentifizierungsstatus von Besuchern in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -82,7 +82,7 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <code>2</code> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
    <td colname="col2"> Ja, wenn die Merge-Regel für die authentifizierte Option = "Letzte authentifizierte Profile" </td> 
    <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftendaten werden in das Geräteprofil geschrieben. </p> </td> 
   </tr> 
@@ -100,7 +100,7 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 >
 >[!DNL Audience Manager] führt in allen drei Fällen eine ID-Synchronisierung zwischen [CID und UUID](../reference/ids-in-aam.md) durch.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Kunden-IDs und Authentifizierungsstatus](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
 
