@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL-Anwendungsfälle und Codebeispiele
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 translation-type: tm+mt
-source-git-commit: 8763bff3960e2033951cf68e65f5ad44377b2917
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,7 +45,10 @@ Dieses einfache Beispiel sendet Farb- und Preisdaten in Form von Schlüssel-Wert
 
 <pre class="&ldquo;java&rdquo;"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals({ c_color:"blue", c_price:"900" }); 
+sample_dil.api.signals({ 
+   c_color:"blue", 
+   c_price:"900" 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -54,10 +57,13 @@ sample_dil.api.submit();
 Dieses erweiterte Beispiel zeigt, wie Daten in einem Objekt an Audience Manager gesendet werden. Beim Arbeiten mit dieser Methode [!UICONTROL DIL] können Sie ein Objekt als Funktionsparameter an die [!DNL signals()] Methode übergeben. [!UICONTROL DIL] Ihr Code könnte wie folgt aussehen:
 
 <pre class="java"><code>
-var my_object = { color : "blue", price : "900" }; 
+var my_object = { 
+   color : "blue", 
+   price : "900" 
+}; 
  
-var sample_dil = DIL.create({ partner : "<i>Name</i>des Partners" }); 
-//Laden Sie das Objekt und hängen Sie "c_"an alle Schlüssel in den Schlüssel-Wert-Paaren an und senden Sie Daten an AudienceManager. 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+//Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
 sample_dil.api.signals(my_object,"c_").submit();
 </code></pre>
 
@@ -66,19 +72,23 @@ sample_dil.api.signals(my_object,"c_").submit();
 In diesem Fall `my_object` verwendet die Variable ein Array, um Daten zu speichern. Dieses Beispiel baut auf den Informationen auf, die von der oben empfohlenen Methode weitergegeben wurden, fügt jedoch eine zusätzliche Ebene hinzu, um einen Produkttyp und ein Modell aufzunehmen. Ihr Code könnte wie folgt aussehen:
 
 <pre class="java"><code>
-var my_object = [{ color : "blue", price : "900" }, { type : "acura", Modell: "tl" }]; 
+var my_objects = [{ 
+   color : "blue", 
+   price : "900" 
+}, { 
+   type : "acura", 
+   model : "tl" 
+}]; 
  
-var sample_dil = DIL.create({ partner : "<i>Name</i>des Partners" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
-for (var i = 0; i &lt; my_object.length; i++) //Laden Sie das Objekt und hängen Sie "c_" an alle Schlüssel in den Schlüssel-Wert-Paaren an.  
-{ sample_dil.api.Signals(my_object[i], "c_"); 
-} sample_dil.api.submit();
+for (var i = 0; i < my_objects.length; i++) 
+//Load the object and append "c_" to all the keys in the key-value pairs.  
+{ 
+    sample_dil.api.signals(my_objects[i], "c_"); 
+} 
+sample_dil.api.submit();
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [signale](../dil/dil-instance-methods.md#signals)
-
 
 ## Verweisende URL erfassen {#capture-referring-url}
 
@@ -99,7 +109,7 @@ c_dil_hrefer_over_https.xml
 Ihr Code könnte wie folgt aussehen:
 
 <pre class="java"><code>
-var adobe_dil = DIL.create({ partner : "<i>Name</i>des Partners" }); 
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
@@ -141,8 +151,13 @@ In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff "Zuhause"aus [!
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer &amp;&amp; search_referrer.valid) { adobe_dil.api.signals({ c_se : se.name, c_st : se.keywords }).submit(); 
-}</code></pre>
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
+    c_se : se.name, 
+    c_st : se.keywords 
+  }).submit(); 
+}
+</code></pre>
 
 **Beispiel für nicht aufgelisteten Suchmaschinencode**
 
@@ -150,10 +165,18 @@ In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff "Zuhause"gesuch
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, { hostPattern:/dogpile\./, queryParam:"q" }); 
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
+    hostPattern:/dogpile\./, 
+    queryParam:"q" 
+}); 
  
-if (search_referrer &amp;&amp; search_referrer.valid) { adobe_dil.api.signals({ c_se : se.name, c_st : se.keywords }).submit(); 
-}</code></pre>
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
+    c_se : se.name, 
+    c_st : se.keywords 
+  }).submit(); 
+}
+</code></pre>
 
 ## Schlüsselwerte anderen Schlüsseln zuordnen {#map-key-values}
 
@@ -187,11 +210,6 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
->[!MORE_LIKE_THIS]
->
->* [Voraussetzungen für das Präfix für Schlüsselvariablen](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
-
-
 ## Traffic-DIL im Google Tag-Manager (GTM) {#traffic-dil-gtm}
 
 Richten Sie DIL mit einem GTM-Tag ein und bedienen Sie es.
@@ -204,7 +222,7 @@ t_dil_google_tagmanager.xml
 
 Bei diesem Verfahren wird davon ausgegangen, dass Sie über ein [!DNL Google Tag Manager] Konto, einige Kenntnisse zu diesem Produkt und Ihre Audience Manager- `dil.js` Datei verfügen.
 
-So senden Sie die `dil.js` Datei in GTM
+So senden Sie die `dil.js` Datei in GTM:
 
 1. Erstellen Sie einen neuen Behälter oder öffnen Sie einen vorhandenen Behälter.
 1. Fügen Sie dem Container ein neues Tag hinzu.
@@ -218,7 +236,9 @@ So senden Sie die `dil.js` Datei in GTM
 1. Veröffentlichen Sie den Container.
 1. Generieren Sie Container-Tag-Code und legen Sie ihn in Ihrem Bestand ab.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google Tag Manager-Hilfe](https://support.google.com/tagmanager#topic=3441530)
+>* [Signale](../dil/dil-instance-methods.md#signals)
+>* [Voraussetzungen für das Präfix für Schlüsselvariablen](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
 
