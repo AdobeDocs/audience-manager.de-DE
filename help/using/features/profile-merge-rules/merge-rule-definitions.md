@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Optionen für Profilzusammenführungsregeln definiert
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -127,7 +127,7 @@ Mit der [!UICONTROL Device Options] Option können Sie den von einem *`device pr
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](../../faq/faq-profile-merge.md)
 
