@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Kundendatenfeeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,7 +59,7 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code> Ereigniszeit</code> </p> </td> 
+   <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>Zeitstempel </p> </td> 
    <td colname="col3"> <p>Der Zeitpunkt, zu dem eine CDF-Datei von den <span class="wintitle"> Datenerfassungsservern</span> verarbeitet wurde. Der Zeitstempel verwendet das Format <i>yyyy-mm-dd hh:mm:ss</i> und wird in der UTC-Zeitzone eingestellt. </p> <p> <p>Hinweis: Die Ereigniszeit <i>ist nicht</i>: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
@@ -68,37 +68,37 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Gerät</code> </p> </td> 
+   <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
    <td colname="col3"> <p>Dies ist die <span class="wintitle"> Unique User ID</span> (UUID), eine 38-stellige Geräte-ID für Ihren Site-Besucher. Weitere Informationen finden Sie unter <a href="../reference/ids-in-aam.md">Index of IDs in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Behälter-ID</code> </p> </td> 
+   <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numerisch </p> </td> 
    <td colname="col3"> <p>Die ID des Containers, der ID auslöst, wird synchronisiert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Realisierte Eigenschaften</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
    <td colname="col2"> <p>Numerisches Array </p> </td> 
    <td colname="col3"> <p>Ein Array von Eigenschaften-IDs, die alle Eigenschaften enthalten, die ein Besucher im Ereignisaufruf implementiert (qualifiziert) hat. </p> <p>Beachten Sie, dass das Array Eigenschaften enthalten kann, für die sich der Besucher zuvor qualifiziert hatte und für die er sich durch diesen Ereignisaufruf erneut qualifiziert hat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Realisierte Segmente</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Segments</code> </p> </td> 
    <td colname="col2"> <p>Numerisches Array </p> </td> 
    <td colname="col3"> <p>Ein Array von Segment-IDs, die alle Segmente enthalten, die ein Besucher im Ereignisaufruf (qualifiziert) durchgeführt hat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Anfrageparameter</code> </p> </td> 
+   <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Eine Zeichenfolge, die alle Parameter erfasst (Variablen, IDs, Schlüssel-Wert-Paare, Anzeigen-IDs für Geräte usw.) beim Ereignisaufruf weitergegeben. </p> <p>Kurzes Beispiel: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.did:92D56353-49C5-431E-B474-FC528D585810,c_contextData a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>Eine Zeichenfolge, die alle Parameter erfasst (Variablen, IDs, Schlüssel-Wert-Paare, Anzeigen-IDs für Geräte usw.) beim Ereignisaufruf weitergegeben. </p> <p>Kurzes Beispiel: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Typ der Referrer-Daten</code> </p> </td> 
+   <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
    <td colname="col3"> <p>Die nicht kodierte URL der verweisenden Seite (sofern vorhanden). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> IP-Datentyp</code> </p> </td> 
+   <td colname="col1"> <p><code> IP Data Type</code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
    <td colname="col3"> <p>Die IP-Adresse des Besuchers, der im Ereignisaufruf erfasst wurde. </p> </td> 
   </tr> 
@@ -108,12 +108,12 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
    <td colname="col3"> <p>Die <span class="keyword"> Experience Cloud</span> ID (MID), die dem Site-Besucher zugewiesen ist. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Alle Segmente</code> </p> </td> 
+   <td colname="col1"> <p><code> All Segments</code> </p> </td> 
    <td colname="col2"> <p>Numerisches Array </p> </td> 
    <td colname="col3"> <p>Ein Array von Segment-IDs, die zuvor realisierte Segmente und neue Segmente enthalten, für die der Besucher qualifiziert ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Alle Eigenschaften</code> </p> </td> 
+   <td colname="col1"> <p><code> All Traits</code> </p> </td> 
    <td colname="col2"> <p>Numerisches Array </p> </td> 
    <td colname="col3"> <p>Ein Array von Eigenschaften-IDs von Erstanbietern und Drittanbietern, die zuvor realisierte Eigenschaften und neue Eigenschaften enthalten, für die sich der Besucher seit dem letzten generierten Datenfeed qualifiziert hat. </p> </td> 
   </tr> 
@@ -142,9 +142,9 @@ Listet die Datenstruktur einer [!UICONTROL CDF] Datei auf und definiert sie. Daz
    <td colname="col1"> <p>Feldtrennzeichen und Trennzeichen </p> </td> 
    <td colname="col2"> <p>Diese nicht druckbaren Zeichen definieren die Elemente und die Struktur Ihrer CDF-Datei: </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
-      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Strg + A (ASCII <code> 001</code> oder <code> ^ A</code>) trennt Daten in einzelnen Feldern mit einem nicht druckbaren Leerzeichen. </li> 
-      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Strg+b (ASCII <code> 002</code> oder <code> ^ B</code>) trennt Daten, Array- und Anforderungsparameter. </li> 
-      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Strg + C (ASCII <code> 003</code> oder <code> ^ C</code>) definiert Schlüssel/Wert-Paare. </li> 
+      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Strg+a (ASCII <code> 001</code> oder <code> ^A</code>) trennt Daten in einzelnen Feldern mit einem Indikator für nicht druckbare Leerzeichen. </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Strg+b (ASCII <code> 002</code> oder <code> ^B</code>) trennt Daten von einem Array und Anforderungsparameter. </li> 
+      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Strg+C (ASCII <code> 003</code> oder <code> ^C</code>) definiert Schlüssel-Wert-Paare. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -155,12 +155,12 @@ Listet die Datenstruktur einer [!UICONTROL CDF] Datei auf und definiert sie. Daz
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Gerät </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">Behälter-ID </li> 
       <li id="li_660D17989BE54610A01229C47894E8A9"> Realisierte Eigenschaften </li> 
-      <li id="li_1591180564374204852785C6FFCA4F74">Realisierte Segmente </li> 
+      <li id="li_1591180564374204852785C6FFCA4F74"> Realisierte Segmente </li> 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Anfrageparameter </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-Adresse </li> 
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
-      <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle Segmente </li> 
+      <li id="li_7A05AF4790A1425A90D019681DF4A595"> Alle Segmente </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle Eigenschaften </li> 
      </ol> </p> <p>Feldbeschreibungen finden Sie unter Inhalt des <a href="#cdf-defined"> Kundendatenfeeds definiert</a>. </p> </td> 
   </tr> 
@@ -224,7 +224,7 @@ In der folgenden Tabelle sind die Elemente in einem [!UICONTROL CDF] Dateinamen 
    <td colname="col2"> <p>Dies ist der standardmäßige Stammspeicherbehälter für Ihre CDF-Datei auf einem Amazon S3-Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Name <i>des S3-Behälters</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>your S3 bucket name</i> </code> </p> </td> 
    <td colname="col2"> <p>Der Name des schreibgeschützten S3-Behälters, der Ihre CDF-Dateien enthält. </p> </td> 
   </tr> 
   <tr> 
@@ -236,11 +236,11 @@ In der folgenden Tabelle sind die Elemente in einem [!UICONTROL CDF] Dateinamen 
    <td colname="col2"> <p>Ein Zeitwert, der in 24-Stunden-Notation ausgedrückt und in der UTC-Zeitzone eingestellt wird. <a href="#different-processing-times">Siehe auch </a> Zeiten für Kundendaten-Feed-Dateien und Zeiten für Dateiinhalte.... </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>Partner-ID</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
    <td colname="col2"> <p>Ihre Partner-ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>AAM-Prozess-ID</i>_0</code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
    <td colname="col2"> <p>Eine interne <span class="keyword"> Audience Manager</span> -Prozess-ID. </p> </td> 
   </tr> 
   <tr> 
@@ -300,7 +300,7 @@ In den folgenden Tabellen werden die Elemente in einer [!UICONTROL CDF] `.info` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Dateien</code> </p> </td> 
+   <td colname="col1"> <p> <code> Files</code> </p> </td> 
    <td colname="col2"> <p>Startet das Array, das Metadaten zu Ihren CDF-Dateien enthält. </p> </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ In den folgenden Tabellen werden die Elemente in einer [!UICONTROL CDF] `.info` 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Der Amazon S3 ETag. Die Zahl nach dem Bindestrich zeigt die Anzahl der Teile, die zum Erstellen der Datei während des mehrteiligen Uploads verwendet wurden. Das <code> ETag</code> ist nicht identisch mit der MD5-Prüfsumme der Datei. </p> </td> 
+   <td colname="col2"> <p>Der Amazon S3 ETag. Die Zahl nach dem Bindestrich zeigt die Anzahl der Teile, die zum Erstellen der Datei während des mehrteiligen Uploads verwendet wurden. Die <code> ETag</code> ist nicht identisch mit der MD5-Prüfsumme der Datei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
@@ -333,15 +333,15 @@ In den folgenden Tabellen werden die Elemente in einer [!UICONTROL CDF] `.info` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Gesamt</code> </p> </td> 
+   <td colname="col1"> <p> <code> Totals</code> </p> </td> 
    <td colname="col2"> <p>Startet das Objekt, das aggregierte Daten zu allen CDF-Dateien enthält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Tag</code> </p> </td> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
    <td colname="col2"> <p>Der Tag, an dem die Daten verfügbar sind. Verwendet das Format <i>yyyy-mm-dd</i> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Stunde</code> </p> </td> 
+   <td colname="col1"> <p> <code> Hour</code> </p> </td> 
    <td colname="col2"> <p>Die Stunde, für die Daten verfügbar sind. Verwendet das 24-Stunden-Format, das in der UTC-Zeitzone festgelegt ist. </p> </td> 
   </tr> 
   <tr> 
@@ -376,7 +376,7 @@ Die folgende Tabelle enthält weitere Details zu Ihren [!UICONTROL CDF] Datei-Ze
 | Dateiname | Der Zeitstempel im Namen der CDF-Datei kennzeichnet den Zeitpunkt, zu dem die Bereitstellung der Datei vorbereitet [!DNL Audience Manager] wurde. Dieser Zeitstempel wird in der UTC-Zeitzone eingestellt. Es verwendet den `hour=` Parameter, wobei die Uhrzeit als 2-stellige Stunde in 24-Stunden-Notation formatiert wird. Diese Zeit kann sich von der in den Dateiinhalten aufgezeichneten Ereigniszeit unterscheiden. BREAKWbeim Arbeiten mit CDF-Dateien werden Sie manchmal bemerken, dass Ihr S3-Behälter für eine bestimmte Stunde leer ist. Ein leerer Behälter bedeutet:<ul><li>Es gibt keine Daten für diese bestimmte Stunde. </li><li> Unsere Server sind unter hoher Belastung und können keine Dateien für eine bestimmte Stunde verarbeiten. Wenn der Server erfasst, werden die Dateien, die in früheren Zeitbehälterdateien enthalten sein sollten, in einen Behälter mit einem späteren Zeitwert gelegt. Dies wird beispielsweise angezeigt, wenn eine Datei, die im 17-Stunden-Bucket enthalten sein sollte, im 18-Stunden-Bucket (mit `hour=18` dem Dateinamen) angezeigt wird. In diesem Fall hat der Server wahrscheinlich die Verarbeitung der Datei in Stunde 17 begonnen, konnte sie jedoch nicht innerhalb dieses Zeitintervalls abschließen. Stattdessen wird die Datei in den nächsten Stundenzähler verschoben.</li></ul><br>**Wichtig**: Verwenden Sie nicht den Zeitstempel für Dateinamen, um Ereignisse nach Zeit zu gruppieren. Wenn Sie nach Zeit gruppieren müssen, verwenden Sie den `EventTime` Zeitstempel im Dateiinhalt. |
 | Dateiinhalt | Der Zeitstempel im Inhalt der CDF-Datei kennzeichnet den Zeitpunkt, zu dem die Datenerfassungsserver mit der Verarbeitung der Datei begonnen haben. Dieser Zeitstempel wird in der UTC-Zeitzone eingestellt. Es verwendet das `EventTime` Feld, wobei die Uhrzeit als *`yyyy-mm-dd hh:mm:ss`*. Diese Zeit ist nahe an der tatsächlichen Zeit des Ereignisses auf der Seite, kann jedoch von der Stundenanzeige im Dateinamen abweichen. <br> **Tipp**: Im Gegensatz zum `hour=` Zeitstempel im Dateinamen können Sie Daten nach Zeit gruppieren `EventTime` lassen. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Häufig gestellte Fragen zum Kundendatenfeed](../faq/faq-cdf.md)
 
