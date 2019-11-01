@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ziele erstellen
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ Erstellen Sie Ziele mit diesen [!UICONTROL RESTful API] Methoden.
 ## Unterstützte Zieltypen: Nur URL und Cookie
 
 Mit den verfügbaren `POST` Methoden können Sie [!UICONTROL URL] und [!UICONTROL cookie destinations] nur. Zurzeit können Sie [!UICONTROL server-to-server destinations] mit diesen [!DNL REST API] Methoden nicht erstellen. Mit den entsprechenden `GET` Zielmethoden können Sie jedoch Informationen zu in der Benutzeroberfläche [!UICONTROL server-to-server destinations] erstellten Informationen abrufen.
-
->[!MORE_LIKE_THIS]
->
->* [Ziele](../../../features/destinations/destinations.md)
->* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
-
 
 ## Erstellen eines nicht seriellen URL-Ziels {#create-nonserial-dest}
 
@@ -80,11 +73,6 @@ Eine erfolgreiche Anforderung `201 created` und das Ziel werden zurückgegeben.
    "mappings":null
 } 
 ```
-
->[!MORE_LIKE_THIS]
->
->* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
 
 ## Ein serialisiertes URL-Ziel erstellen {#create-serial-url-dest}
 
@@ -141,11 +129,6 @@ Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel
    "mappings":null 
 }
 ```
-
->[!MORE_LIKE_THIS]
->
->* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
 
 ## Cookie-Ziel erstellen: Einzelschlüssel, nicht serialisiert {#create-cookie-dest-single}
 
@@ -215,12 +198,6 @@ Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel
    "uparamEnabled":false
 } 
 ```
-
->[!MORE_LIKE_THIS]
->
->* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
-
 
 ## Cookie-Ziel erstellen: Einzelschlüssel, serialisiert {#create-cookie-dest-single-serial}
 
@@ -292,12 +269,6 @@ Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel
    "uparamEnabled":false
 }
 ```
-
->[!MORE_LIKE_THIS]
->
->* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
-
 
 ## Cookie-Ziel erstellen: Multi-Key, nicht serialisiert {#create-cookie-dest-multi}
 
@@ -435,8 +406,9 @@ Bei einer erfolgreichen Aktualisierung werden Antwortcode `201 created` und Ziel
 }
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
+>* [Ziele](../../../features/destinations/destinations.md)
 >* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
 
