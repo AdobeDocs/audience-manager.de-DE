@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Kennwortanforderungen, gesperrte Konten und vergessene Kennwörter
 uuid: bca892eb-3577-4382-8110-131f78d23069
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -74,7 +74,7 @@ Konten werden nach 5 fehlgeschlagenen Anmeldeversuchen gesperrt. Wenden Sie sich
 
 Klicken Sie auf der Anmeldeseite auf den **[!UICONTROL Forgot password]** Link, um Ihr Kennwort zurückzusetzen. Sie erhalten eine automatische E-Mail mit einem temporären Kennwort, das nach 24 Stunden abläuft. Klicken Sie auf den Link in der E-Mail, um auf Ihr Konto zuzugreifen und Ihr Kennwort zurückzusetzen.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Datensicherheit](../overview/data-security-and-privacy/data-security.md)
 >* [Datensicherheit](../overview/data-security-and-privacy/data-privacy.md)
