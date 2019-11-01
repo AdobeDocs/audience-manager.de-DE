@@ -7,20 +7,29 @@ title: Eigenschaftendetailseite
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: Aufschlüsselung nach Identitätstyp, Aufschlüsselung nach Identität, Bericht zur Zielgruppenidentität
 translation-type: tm+mt
-source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
 # Eigenschaftendetailseite {#trait-details-page}
 
-Die Detailseite für eine einzelne Eigenschaft bietet einen Überblick über Informationen wie Eigenschaftsname, ID, Leistungsmetriken, Ausdrücke, die die Eigenschaft definieren, Segmente, zu denen sie gehört, und das Eigenschafts-Prüfprotokoll. Um diese Details anzuzeigen, gehen Sie zu [!UICONTROL Audience Data > Traits] und klicken Sie auf den Namen der Eigenschaft, mit der Sie arbeiten möchten.
+Die Detailseite für eine einzelne Eigenschaft bietet einen Überblick über die Eigenschaftendetails, wie den Eigenschaftsnamen, die ID, Leistungsmetriken, Ausdrücke, die die Eigenschaft definieren, Segmente, zu denen sie gehört, und das Eigenschafts-Prüfprotokoll. Um diese Details anzuzeigen, gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Traits]** und klicken Sie auf den Namen der Eigenschaft, mit der Sie arbeiten möchten.
 
-## Basisinformationen {#basics}
+## Eigenschaftsverwaltungswerkzeuge {#trait-management-tools}
 
-Der [!UICONTROL Basic Information] Abschnitt enthält Details zu erforderlichen und optionalen Feldern, die Sie beim Erstellen der Eigenschaft ausgefüllt haben. Dazu gehören Eigenschaften wie der Eigenschaftstyp, ID der Eigenschaft, Beschreibung, Datenquelle und andere Metadaten. Diese Details variieren je nach Eigenschaftstyp (Ordner, Bordkarte oder regelbasiert).
+Oben auf der Seite mit den Eigenschaftendetails befinden sich die Werkzeuge, mit denen Sie Ihre Eigenschaften verwalten können:
 
-![](assets/basicInfo.png)
+1. **[!UICONTROL Add New]**: Verwenden Sie diese Option, um neue regelbasierte, algorithmische oder Onboard-Eigenschaften zu erstellen.
+2. **[!UICONTROL Edit]**: Verwenden Sie diese Option, um die Konfiguration der aktuellen Eigenschaft zu ändern.
+3. **[!UICONTROL Delete]**: Verwenden Sie diese Option, um die aktuelle Eigenschaft aus Ihrem Audience Manager-Konto zu entfernen.
+4. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option, um ähnliche Eigenschaften wie die, die Sie anzeigen, aus [!UICONTROL Audience Marketplace] Datengebühren zu finden, die Sie nicht abonniert haben. Unter [Audience Marketplace for Data Buyers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) erfahren Sie, wie Sie auf dem Markt navigieren und ähnliche Eigenschaften finden.
+
+![basic-property-information](assets/basic-trait-information.png)
+
+## Eigenschaften-Informationen {#basics}
+
+Der [!UICONTROL Trait Information] Abschnitt enthält Details zu erforderlichen und optionalen Feldern, die Sie beim Erstellen der Eigenschaft ausgefüllt haben. Dazu gehören Eigenschaften wie der Eigenschaftstyp, ID der Eigenschaft, Beschreibung, Datenquelle und andere Metadaten. Diese Details variieren je nach Eigenschaftstyp (Ordner, Bordkarte oder regelbasiert).
 
 ## Eigenschaftsdiagramm {#trait-graph}
 
