@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Anwendungsbeispiele für Diagramme externer Geräte
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -123,7 +123,7 @@ Mit dem **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op
 
 ![advanced-graph-extension](assets/advanced-device-graph-expansion.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Anwendungsfälle des Profillink-Gerätediagramms](profile-link-use-case.md)
 >* [Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung](merge-rule-targeting-options.md)
