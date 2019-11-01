@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segmente einem Ziel zuordnen
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ Ordnen Sie mit diesen [!DNL RESTful API] Methoden Segmente Zielen zu.
 ## Unterstützte Zieltypen: Nur URL und Cookie
 
 Mit den verfügbaren `POST` Methoden können Sie Segmente [!UICONTROL URL] und [!UICONTROL cookie destinations] nur zuordnen. Derzeit können Segmente [!UICONTROL server-to-server destinations] mit diesen [!DNL REST API] Methoden nicht zugeordnet werden. Verwenden Sie stattdessen die Benutzeroberfläche. Mit den entsprechenden `GET` Zielmethoden können Sie jedoch Informationen zu in der Benutzeroberfläche [!UICONTROL server-to-server destinations] erstellten Informationen abrufen.
-
->[!MORE_LIKE_THIS]
->
->* [Ziele](../../../features/destinations/destinations.md)
->* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
-
 
 ## Zuordnen eines Segments zu einem nicht serialisierten URL-Ziel {#map-segment-non-serial}
 
@@ -584,3 +577,10 @@ Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
     "traitAlias": null
 }
 ```
+
+>[!MORELIKETHIS]
+>
+>* [Ziele](../../../features/destinations/destinations.md)
+>* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
+
