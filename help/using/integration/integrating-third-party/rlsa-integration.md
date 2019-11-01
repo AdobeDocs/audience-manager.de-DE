@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segmente an eine Google AdWords Remarketing-Liste senden
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manag
    ```
 
 1. In Audience Manager [erstellen Sie ein URL-Ziel](../../features/destinations/create-url-destination.md) oder bearbeiten Sie ein vorhandenes Ziel. Verwenden Sie beim Erstellen des Ziels die folgenden Einstellungen:
-   * Typ: URL
+   * Typ:URL
    * Serialisieren: Aktiviert
    * Trennzeichen: Semikolon (;)
 
@@ -65,7 +65,7 @@ Eine abgeschlossene Zuordnung könnte wie folgt aussehen:
 
 ![](../assets/rlsa_mapping.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Ziele](../../features/destinations/destinations.md)
 >* [URL-Ziel erstellen](../../features/destinations/create-url-destination.md)
