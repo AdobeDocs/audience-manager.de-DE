@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Signale, Eigenschaften und Segmente
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -56,7 +56,7 @@ c_signal_trait_segment.xml
   <tr> 
    <td colname="col1"><b>Segment</b> </td> 
    <td colname="col2"> <p>Benutzer, die einen Satz gemeinsamer Attribute verwenden und für verwandte Eigenschaften qualifiziert sind. </p> <p>Mithilfe boolescher Ausdrücke können Sie zusammen mit den Anforderungen an Neuigkeit und Häufigkeit Segmentqualifikationsregeln erstellen. </p> <p>Erstellen Sie präzise Qualifikationsanforderungen mit Kombinationen aus Eigenschaften und Segmentregeln. </p> </td> 
-   <td colname="col3"> <p>Aus den verfügbaren Eigenschaften und Signalen können Sie eine Segmentregel erstellen, die wie folgt ausgedrückt wird: </p> <p><code> (product=camera AND type=digital SLR) ODER (price&gt;1000)</code> </p> </td> 
+   <td colname="col3"> <p>Aus den verfügbaren Eigenschaften und Signalen können Sie eine Segmentregel erstellen, die wie folgt ausgedrückt wird: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ Ein Ereignisaufruf sendet Daten von Ihrer Website an [!DNL Audience Manager]. De
 https://<domain>/event?product=camera&price>100
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Segmente: Zweck, Zusammensetzung und Regeln](../features/segments/segments-purpose.md)
 
