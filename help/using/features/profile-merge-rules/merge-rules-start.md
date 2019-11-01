@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erste Schritte mit Regeln zur Profilzusammenführung
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -54,11 +54,6 @@ So füllen Sie den [!UICONTROL Data Source Details] Abschnitt aus:
 * **[!UICONTROL Data retention for inactive Customer IDs]**: Mit diesem Steuerelement können Sie die Datenaufbewahrungszeit für inaktive Kunden-IDs festlegen. Dadurch wird bestimmt, wie lange Audience Manager Kunden-IDs in unserer Datenbank aufbewahrt, nachdem sie zuletzt auf der Audience Manager-Plattform gesehen wurden. Der Standardwert ist 24 Monate (720 Tage). Der Mindestwert, den Sie einstellen können, ist 1 Monat und der Höchstwert 5 Jahre. Beachten Sie, dass wir alle Monate als 30 Tage zählen. Audience Manager führt einen Prozess aus, bei dem inaktive Kunden-IDs einmal pro Woche gelöscht werden, entsprechend der für inaktive Kunden-IDs festgelegten Datenaufbewahrung.
 
 Mit den mit diesen Einstellungen verknüpften Textfeldern können Sie die [!UICONTROL Data Source] mit einem Alias umbenennen, der in den Optionen[für die ](merge-rule-definitions.md)Profilzusammenführungsregel angezeigt wird. Wenn Sie beispielsweise einen Alias hinzufügen, wird dieser Name in **[!UICONTROL Use as Authenticated Profile]** der [!UICONTROL Authenticated Profile Options] Liste angezeigt. Wenn Sie einem Alias einen Namen hinzufügen, **[!UICONTROL Use as a Device Graph]** wird dieser in der [!UICONTROL Device Options] Liste angezeigt.
-
->[!MORE_LIKE_THIS]
->
->* [Datenquelle erstellen](../manage-datasources.md#create-data-source)
-
 
 ## Eine Regel zum Zusammenführen von Profilen erstellen {#create-profile-merge-rule}
 
@@ -214,3 +209,8 @@ Weitere Informationen finden Sie im [!UICONTROL DIL] Abschnitt "Legacy"in [Dekla
 </table>
 
 Siehe auch [Audience Manager-Methoden für Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) und [Audience Manager-Methoden für iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
+
+>[!MORELIKETHIS]
+>
+>* [Datenquelle erstellen](../manage-datasources.md#create-data-source)
+
