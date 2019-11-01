@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Überschneidungsbericht zwischen Segmenten
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: 339d5550b22949862415d2abc812217e5479c993
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -62,12 +62,12 @@ Das Popup für den [!UICONTROL Segment-to-Segment Overlap] Bericht enthält die 
 | **[!UICONTROL Segment ID2]** | Eindeutige numerische ID für das Segment, das Sie beim Ausführen des Berichts auswählen. Erscheint als Spalte-ID für das Segment. |
 | **[!UICONTROL Segment Name1]** | Name des Segments, das in der Berichtsergebniszeile angezeigt wird. |
 | **[!UICONTROL Segment Name2]** | Name des Segments, das Sie beim Ausführen des Berichts auswählen. Wird in der Berichtsergebnisspalte angezeigt. |
-| **[!UICONTROL Overlap %]** | Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel: Überschneidende individuelle Elemente / (Basis-Segment-Uniques + Überschneidende Segment-Uniques - Überschneidende Uniques) |
+| **[!UICONTROL Overlap %]** | Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel:Überschneidende individuelle Elemente / (Basis-Segment-Uniques + Überschneidende Segment-Uniques - Überschneidende Uniques) |
 | **[!UICONTROL Overlap Uniques]** | Die Anzahl der Unique Visitors, die zwischen verglichenen Segmenten freigegeben wurden. |
 | **[!UICONTROL Segment Uniques1]** | Die Anzahl der individuellen Besucher in Segment 1. |
 | **[!UICONTROL Segment Uniques2]** | Die Anzahl der individuellen Besucher in Segment 2. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filtern von Berichtsergebnissen mit den Datenreglern](../../reporting/dynamic-reports/data-sliders.md)
 >* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
