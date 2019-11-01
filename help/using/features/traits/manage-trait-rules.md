@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Verwalten von Eigenschaftsregeln
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,13 +61,6 @@ Durch Klicken **[!UICONTROL Add Rule]** wird die Eigenschaft gespeichert und in 
 
 ![](assets/tb_sample_rule2.png)
 
->[!MORE_LIKE_THIS]
->
->* [Neue Regelgruppe erstellen](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Regeln zwischen Gruppen verschieben](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Eine Eigenschaftsregel löschen](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## Create a New Rule Group {#create-rule-group}
 
 Dieser Vorgang beschreibt, wie Sie eine neue Regelgruppe erstellen.
@@ -84,23 +77,9 @@ Dadurch wird die Regel automatisch von der aktuellen Gruppe getrennt und in eine
    >Ziehen Sie eine Regel zurück in die ursprüngliche Gruppe, wenn Sie sie versehentlich verschieben.
 1. Wählen Sie einen [!DNL Boolean] Operator ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) aus dem Dropdown-Menü, um die Beziehung zwischen den Regelgruppen festzulegen.
 
->[!MORE_LIKE_THIS]
->
->* [Eine Eigenschaftsregel erstellen](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Regeln zwischen Gruppen verschieben](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Eine Eigenschaftsregel löschen](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## Regeln zwischen Gruppen verschieben {#move-rules-between-groups}
 
 Um eine Regel zu verschieben, klicken Sie auf und ziehen Sie sie in eine andere Gruppe.
-
->[!MORE_LIKE_THIS]
->
->* [Eine Eigenschaftsregel erstellen](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Neue Regelgruppe erstellen](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Eine Eigenschaftsregel löschen](../../features/traits/manage-trait-rules.md#delete-trait)
-
 
 ## Eigenschaften bearbeiten {#edit-trait}
 
@@ -122,3 +101,12 @@ Dieser Vorgang beschreibt, wie Sie eine Eigenschaftsregel löschen.
 1. Bewegen Sie den Mauszeiger im [!UICONTROL Traits] Dashboard über die [!UICONTROL Actions] Spalten für die Eigenschaft, die Sie bearbeiten möchten, und klicken Sie auf das Stiftsymbol. Dadurch werden die Symbole zur Eigenschaftsverwaltung angezeigt.
 1. Expand the [!UICONTROL Trait Expression] section.
 1. Bewegen Sie den Mauszeiger über die Regel, die Sie löschen möchten, und klicken Sie auf das X-Symbol. Die Regel wird sofort gelöscht.
+
+>[!MORELIKETHIS]
+>
+>* [Neue Regelgruppe erstellen](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [Regeln zwischen Gruppen verschieben](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [Eine Eigenschaftsregel erstellen](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [Eine Eigenschaftsregel löschen](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [Regeln zwischen Gruppen verschieben](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+
