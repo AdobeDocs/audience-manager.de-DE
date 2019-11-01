@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ziel-API-Methoden
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -30,7 +30,7 @@ Listet die vom `destinationType` Parameter verwendeten Variablen auf. Geben Sie 
 | `PUSH` | [!UICONTROL URL] |
 | `ADS` | [!UICONTROL Cookie] |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Auswählen eines Zieltyps](../../../features/destinations/destinations.md)
 
