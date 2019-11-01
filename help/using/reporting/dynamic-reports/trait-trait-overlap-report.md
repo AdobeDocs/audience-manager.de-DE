@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Überschneidungsbericht zwischen Eigenschaften
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -102,7 +102,7 @@ Das Popup für den [!UICONTROL Trait-to-Trait Overlap] Bericht enthält die folg
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filtern von Berichtsergebnissen mit den Datenreglern](../../reporting/dynamic-reports/data-sliders.md)
 >* [In dynamischen Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
