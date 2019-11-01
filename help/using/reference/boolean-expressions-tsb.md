@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Boolesche Ausdrücke im Eigenschaften- und Segmentaufbau
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -76,7 +76,7 @@ Der [!UICONTROL OR] Operator ist nützlich, wenn Sie Signale mit allgemeinen Anf
 
 Der [!UICONTROL AND NOT] Operator ist hilfreich, wenn es einfacher ist, eine Zielgruppe durch *Ausschluss* anstatt durch *Einbeziehung* zu definieren. Angenommen, Sie haben einen Verkauf und möchten Besucher in Kunden segmentieren, die nur Artikel zum vollen Preis betrachten. Anstatt eine Liste der Signale für alle qualifizierenden Voll- oder Verkaufspreise zu erstellen, ist es möglicherweise einfacher, Besucher zu qualifizieren, wenn sie *keinen Verkaufspreis gesehen haben* . Dies ist administrativ effizient, da Sie in der Regel weniger Verkaufspreisartikel haben als die zum vollen Preis angebotenen. Bei einem booleschen Wert [!UICONTROL NOT]dürfen Besucher nicht ** das Verkaufssignal anzeigen, um sich für eine Vollpreismitgliedschaft in der Zielgruppe zu qualifizieren. Im Gegensatz dazu [!UICONTROL AND NOT] ist dies das Gegenteil des [!UICONTROL AND] Anwendungsfalls, der gezeigt hat, wie die Zielgruppenmitgliedschaft durch Einbindung bestimmt wird (d.h. der Besucher qualifiziert sich auf der Grundlage von 2 explizit angegebenen Signalen).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Arbeiten mit Vergleichsoperatoren in TraitBuilder](../features/traits/trait-comparison-operators.md)
 >* [Reihenfolge der Vorgänge in EigenschaftenBuilder-Ausdrücken](../features/traits/trait-operator-precedence.md)
