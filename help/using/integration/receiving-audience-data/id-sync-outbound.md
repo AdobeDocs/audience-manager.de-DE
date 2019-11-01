@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ID-Synchronisierung für ausgehende Datenübertragungen
 uuid: f3849be8-1094-47db-9296-7482f020af18
 translation-type: tm+mt
-source-git-commit: e206d3a3cba259dc215f2f4190c9b4e03264f080
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -46,31 +46,31 @@ Die Variablen [!DNL URL] für Ihren Aufruf zur ID-Synchronisierung mit Inbound s
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
    <td colname="col2">Eindeutige ID für den Datenanbieter (von <span class="keyword"> Audience Manager</span>zugewiesen). </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
    <td colname="col2"> Eindeutige Benutzer-ID. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i></code> </td> 
-   <td colname="col2">Eine kodierte URL-Umleitung mit dem in das Makro <code> ${DD_UUID}</code> eingebetteten Makro. <p><b></b> Hinweis: Wird nur hinzugefügt, wenn der Datenanbieter den Aufruf initiiert. </p> </td> 
+   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
+   <td colname="col2">Eine kodierte URL-Umleitung mit dem darin eingebetteten Makro <code> ${DD_UUID}</code> . <p><b></b> Hinweis: Wird nur hinzugefügt, wenn der Datenanbieter den Aufruf initiiert. </p> </td> 
   </tr> 
     </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i></code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> kann 0 (GDPR ist nicht anwendbar) oder 1 (GDPR gilt) betragen.</p><p><b>Hinweis:</b> <ul><li>Die Parameter <code>gdpr</code> und <code>gdpr_approval</code> werden schrittweise in ID-Synchronisierungs-URLs mit Aktivierungspartnern ausgeführt. Siehe Aktivierungspartner, die die IAB-TCF im <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager-Plugin für die IAB-TCF unterstützen.</a></li><li>Dieser Parameter kann nur zusammen mit <code>gdpr_approval verwendet werden.</code></li></ul></p></td>
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
+   <td colname="col2"> <p><code>gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen.</p><p><b>Hinweis:</b> <ul><li>Die <code>gdpr</code> und <code>gdpr_consent</code> Parameter werden schrittweise in URLs zur ID-Synchronisierung mit Aktivierungspartnern bereitgestellt. Siehe Aktivierungspartner, die die IAB-TCF im <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager-Plugin für die IAB-TCF unterstützen.</a></li><li>Dieser Parameter kann nur zusammen mit <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code><i>gdpr_approval=&lt;ENCODED STRING&gt;</i></code> </td> 
-   <td colname="col2"><p><code>gdpr_approval</code> ist die URL-sichere Base64-kodierte GDPR-Zustimmungszeichenfolge (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-Spezifikation</a>).</p><p><b></b> Hinweis: Dieser Parameter kann nur zusammen mit <code>gdpr</code>verwendet werden.</p> </td> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> ist die URL-sichere Base64-kodierte GDPR-Zustimmungszeichenfolge (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-Spezifikation</a>).</p><p><b></b> Hinweis: Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [API-Methoden und Code für Datenerfassungsserver (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Datenerfassungskomponenten](../../reference/system-components/components-data-collection.md)
