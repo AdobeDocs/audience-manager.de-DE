@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Sie können Regeln mit den folgenden benannten Operatoren erstellen:
 | **[!UICONTROL Endswith]** | Der Wert in einem Schlüssel-Wert-Paar *endet mit* den von diesem Operator angegebenen Zeichen. |
 | **[!UICONTROL Matchesregex]** | Der Wert in einem Schlüssel-Wert-Paar *entspricht* dem Muster, das durch einen regulären Ausdruck angegeben wird. [Erfahren Sie mehr](../../features/traits/trait-builder-regex.md) über die Verwendung regulärer Ausdrücke in [!UICONTROL Trait Builder]. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Boolesche Ausdrücke im Eigenschaften- und Segmentaufbau](../../reference/boolean-expressions-tsb.md)
 >* [Boolesche Ausdrücke in EigenschaftenBuilder](../../reference/boolean-expressions-tsb.md)
