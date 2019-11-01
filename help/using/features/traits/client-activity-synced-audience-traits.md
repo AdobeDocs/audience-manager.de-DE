@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Eigenschaften aktiver Zielgruppen und von Datenquelle synchronisierte Eigenschaften
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,7 +35,7 @@ Eine [!UICONTROL Active Audience] Eigenschaft enthält alle Geräte, die in Ihre
 >
 >[!UICONTROL Data Source Synced Traits] sind nützlich für die Fehlerbehebung. Klicken Sie auf einen Eigenschaftsnamen, um die Metriken auf der Seite "Eigenschaftszusammenfassung"zu überprüfen. Wenn Ihre ausgewählte Eigenschaft Daten zurückgibt, deutet das darauf hin, dass der ID-Synchronisierungsprozess ordnungsgemäß eingerichtet ist und Daten gesendet werden [!DNL Audience Manager].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Addressable Audiences](../../features/addressable-audiences.md)
 
