@@ -8,7 +8,7 @@ title: Audience Marketplace für Datenanbieter
 topic: DIL-API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ Zu den Funktionen gehören:
 
 In [!UICONTROL My Shared Data]einigen Fällen wird ein Feed-Status als privat markiert. Dies zeigt einen privaten Datenfeed an. Mit einem privaten Datenfeed können Verkäufer den Zugriff auf ihre Daten und sogar den Namen des Datenfeeds einschränken. Verkäufer können Feeds privat gestalten, wenn sie spezielle Angebote, Rabatte oder wichtige Zugriffsrechte anbieten. Mit privaten Datenfeeds überprüfen und genehmigen Anbieter alle Zugangsanforderungen für Käufer. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). Informationen zum Erstellen eines öffentlichen oder privaten Datenfeeds finden Sie unter [Erstellen eines öffentlichen oder privaten Datenfeeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Rabatte für Datenanbieter](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
 
