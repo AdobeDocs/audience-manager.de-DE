@@ -8,7 +8,7 @@ title: Algorithmische Modelle
 topic: DIL-API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ Sie verwalten Modelle in **[!UICONTROL Audience Data > Models]**. Auf hoher Eben
 ## Fehlerbehebung {#troubleshooting}
 
 Wir deaktivieren jedes algorithmische Modell, das bei der Generierung von Daten für drei aufeinander folgende Vorgänge fehlschlägt. Beachten Sie, dass Sie den Status des Modells anschließend nicht wieder auf "aktiv"zurücksetzen können. Um sicherzustellen, dass Ihre Modelle Daten generieren, sollten Sie Modelle aus Datenquellen mit ausreichenden Eigenschaften erstellen, aus denen Daten gesammelt werden können.
-
->[!MORE_LIKE_THIS]
->
->* [Ziele](../../features/destinations/destinations.md)
->* [Eigenschaften](../../features/traits/trait-details-page.md)
->* [Segmente](../../features/segments/segments-purpose.md)
-
 
 ## EigenschaftenGewicht verstehen {#understanding-traitweight}
 
@@ -210,3 +203,10 @@ Die Modellübersichtsseite enthält die folgenden Abschnitte.
   </tr>
  </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>* [Ziele](../../features/destinations/destinations.md)
+>* [Eigenschaften](../../features/traits/trait-details-page.md)
+>* [Segmente](../../features/segments/segments-purpose.md)
+
