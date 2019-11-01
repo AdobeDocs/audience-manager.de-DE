@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erfassen von Kampagnen-Klickdaten über Pixelaufrufe
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: dbc96973ed2214d171fe32b7e1314d40c22c2d79
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -79,12 +79,12 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_id%</code> </p> </td> 
-   <td colname="col2"> <p>Datenanbieter-ID. </p> <p>Wird häufig mit <code> d_dpuuid</code> verwendet, um eine Datenanbieter-ID mit einer Benutzer-ID zu verknüpfen. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>Datenanbieter-ID. </p> <p>Wird häufig verwendet, <code> d_dpuuid</code> um eine Datenanbieter-ID mit einer Benutzer-ID zu verknüpfen. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
-   <td colname="col2"> <p>Vom Datenanbieter bereitgestellte eindeutige Benutzer-ID. </p> <p>Wird häufig mit <code> d_dpid</code> verwendet, um eine Benutzer-ID mit einer Datenanbieter-ID zu verknüpfen. </p> </td> 
+   <td colname="col2"> <p>Vom Datenanbieter bereitgestellte eindeutige Benutzer-ID. </p> <p>Wird häufig verwendet, <code> d_dpid</code> um eine Benutzer-ID mit einer Datenanbieter-ID zu verknüpfen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
@@ -118,18 +118,18 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
-   <td colname="col02"> <p> <code> %d_uid%</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
    <td colname="col2"> <p>Geben Sie die ID des Besuchers direkt in der URL an, anstatt sich auf das Demdex-Cookie zu verlassen. </p> <p>Optional. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_apply%</code> </p> </td> 
-   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/aam-gdpr/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a> </p><p><code>gdpr</code> kann 0 (GDPR ist nicht anwendbar) oder 1 (GDPR gilt) betragen.</p> <p>Der Standardwert ist 0.</p><p>Optional.</p></td> 
+   <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
+   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/aam-gdpr/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a> </p><p><code>gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen.</p> <p>Der Standardwert ist 0.</p><p>Optional.</p></td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p> <code>gdpr_approval</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_approval%</code> </p> </td> 
-   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/aam-gdpr/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a></p><p> Wenn <code>gdpr = 1</code>, wird <code>%gdpr_consent%</code> durch die Zeichenfolge <code>gdpr_consent</code> ersetzt (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB-Spezifikation</a>).</p> <p>Der Standardwert ist 0.</p><p>Optional.</p></td> 
+   <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
+   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/aam-gdpr/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a></p><p> Wenn <code>gdpr=1</code>, wird <code>%gdpr_consent%</code> durch die Zeichenfolge <code>gdpr_consent</code> ersetzt (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB-Spezifikation</a>).</p> <p>Der Standardwert ist 0.</p><p>Optional.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,7 +160,7 @@ Basierend auf dem obigen Beispiel wird der Browser zu folgenden Elementen umgele
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Daten- und Metadatendateien für Zielgruppenoptimierungsberichte](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
