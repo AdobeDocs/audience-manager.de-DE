@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erstellen algorithmischer Eigenschaften
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -27,11 +27,6 @@ Dadurch wird ein neues Fenster geöffnet, in dem Sie das Modell auswählen könn
 1. Wählen Sie ein Modell aus und klicken Sie auf **[!UICONTROL Add Selected Model to Trait]**.
 Durch Hinzufügen des Modells werden die Einstellungen für Reichweite und Genauigkeit verfügbar gemacht.
 1. Wählen Sie als Ziel Reichweite oder Genauigkeit aus und wählen Sie einen Wert aus den entsprechenden Dropdownmenüs. Click **[!UICONTROL Save]** when done.
-
->[!MORE_LIKE_THIS]
->
->* [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)
-
 
 ## Konfigurationseinstellungen für algorithmische Eigenschaften {#configure-settings}
 
@@ -54,6 +49,7 @@ In [!UICONTROL Trait Builder]diesem Abschnitt können Sie einem Merkmal ein algo
 | **[!UICONTROL Reach and Accuracy Data Columns]** | Dieser Abschnitt auf der rechten Seite enthält bis zu 21 Zeilen numerischer Daten, die die Genauigkeit und Reichweitenwerte für Ihr Modell anzeigen. |
 | **[!UICONTROL Reach and Accuracy Slider]** | Am unteren Rand des Diagramms befindet sich der Schieberegler, mit dem Sie einen numerischen Wert für Ihre Reichweiten- oder Genauigkeitsziele festlegen können. Sie können den Schieberegler einstellen und dann die Schaltfläche für die Reichweite oder Genauigkeit wählen, um eine Eigenschaft zu erstellen. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)
+
