@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Geräte-Targeting mit Schlüsseln auf Plattformebene
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ Die [!UICONTROL Data Collection Servers] Werte für diese Schlüssel werden aus 
 >
 >Auch wenn ein oder mehrere Signale nicht aus dem Benutzeragenten-Header abgerufen werden können, werden die anderen Signale trotzdem an den [!UICONTROL Data Collection Servers]Empfänger weitergeleitet.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Voraussetzungen für das Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
 
