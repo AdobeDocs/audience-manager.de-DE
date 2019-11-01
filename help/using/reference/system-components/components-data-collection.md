@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenerfassungskomponenten
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -93,7 +93,7 @@ Dies sind Systeme, die Daten empfangen, die von verschiedenen Server-zu-Server-I
 
 Das [!UICONTROL PCS] erstellt Daten und schreibt sie in die Protokolldateien. Diese werden zur Verarbeitung, Berichterstellung und Speicherung an andere Datenbanksysteme gesendet.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Adobe Datenschutzcenter](https://www.adobe.com/privacy.html)
 
