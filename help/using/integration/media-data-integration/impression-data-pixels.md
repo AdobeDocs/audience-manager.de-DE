@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: f072c5328ac75bf3376f80e86418d25d4f10df23
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,10 +67,10 @@ Impressionsereignisaufrufe akzeptieren Daten, die zu Schlüssel-Wert-Paaren gebi
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>In diesem Zusammenhang instanziiert <code> d_cid ein Schlüssel-Wert-Paar, mit dem Sie einen Mobilgerätetyp einer eindeutigen Benutzer-ID (DPUUID) zuordnen </code> können. Eine feste ID bestimmt den Mobilgerätetyp. Der Wert (die Benutzer-ID) kann variieren. Trennen Sie das Schlüssel-Wert-Paar durch <code> %01 </code>, das ein nicht druckbares Steuerzeichen ist. Dieser Parameter akzeptiert die folgenden Schlüssel: </p> 
+   <td colname="col2"> <p>In diesem Zusammenhang instanziiert <code> d_cid </code> ein Schlüssel-Wert-Paar, mit dem Sie einen Mobilgerätetyp einer eindeutigen Benutzer-ID (DPUUID) zuordnen können. Eine feste ID bestimmt den Mobilgerätetyp. Der Wert (die Benutzer-ID) kann variieren. Trennen Sie das Schlüssel-Wert-Paar durch <code> %01 </code>(ein nicht druckbares Steuerzeichen). Dieser Parameter akzeptiert die folgenden Schlüssel: </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014: Identifiziert ein Android-(GAID-)Gerät. Beispiel: <code> d_cid = 20914 %01 1234 </code> besagt, dass Benutzer 1234 mit einem Android-Gerät verknüpft ist. </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015: Identifiziert ein iOS-Gerät (IDFA). Beispiel: <code> d_cid = 20915 %01 5678 </code> besagt, dass Benutzer 5678 mit einem iOS-Gerät verknüpft ist. </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014: Identifiziert ein Android-(GAID-)Gerät. Beispiel: <code> d_cid = 20914 %01 1234 </code> Der Benutzer 1234 ist mit einem Android-Gerät verknüpft. </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015: Identifiziert ein iOS-Gerät (IDFA). Beispiel: <code> d_cid = 20915 %01 5678 </code> Benutzer 5678 ist mit einem iOS-Gerät verknüpft. </li> 
     </ul> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
@@ -95,11 +95,11 @@ Impressionsereignisaufrufe akzeptieren Daten, die zu Schlüssel-Wert-Paaren gebi
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/aam-gdpr/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a></p> <p><code>gdpr</code> kann 0 (GDPR ist nicht anwendbar) oder 1 (GDPR gilt) betragen.</p> <p>Der Standardwert ist 0.</p><p>Optional.</p> </td> 
+   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/aam-gdpr/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a></p> <p><code>gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen.</p> <p>Der Standardwert ist 0.</p><p>Optional.</p> </td> 
   </tr>
    <tr> 
-   <td colname="col1"> <code>gdpr_approval</code> </td> 
-   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/aam-gdpr/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a></p><p> Wenn <code>gdpr = 1</code>, wird <code>%gdpr_consent%</code> durch die Zeichenfolge <code>gdpr_consent</code> ersetzt (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB-Spezifikation</a>).</p> <p>Der Standardwert ist 0.</p><p>Optional.</p> </td> 
+   <td colname="col1"> <code>gdpr_consent</code> </td> 
+   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/aam-gdpr/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a></p><p> Wenn <code>gdpr=1</code>, wird <code>%gdpr_consent%</code> durch die Zeichenfolge <code>gdpr_consent</code> ersetzt (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB-Spezifikation</a>).</p> <p>Der Standardwert ist 0.</p><p>Optional.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,7 +108,7 @@ Impressionsereignisaufrufe akzeptieren Daten, die zu Schlüssel-Wert-Paaren gebi
 >
 >Wenden Sie sich an Ihren Adobe Audience Manager-Berater oder führen Sie einen Kundenbetreuer, um die exakte URL der jeweiligen Clientdomäne anzuzeigen.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Daten- und Metadatendateien für Zielgruppenoptimierungsberichte](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
