@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Liefer- und Leistungsbericht
 uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,14 +35,6 @@ Mit dem [!UICONTROL Delivery and Performance] Bericht können Sie die Leistung v
 
 Wählen Sie einen einzelnen Punkt aus, um die Datendetails in einem Popup-Fenster anzuzeigen. Sie können auch auf eine Punktgruppe klicken und den Cursor darüber ziehen, um nur Daten zu diesen Datenelementen zurückzugeben. Mit diesen Aktionen werden die Berichtsergebnisse automatisch aktualisiert.
 
->[!MORE_LIKE_THIS]
->
->* [Verbessern Sie die Verarbeitungszeit für Protokolldateien mit Suchtabellen.](../../reporting/dynamic-reports/lookup-tables.md)
->* [Filtern von Berichtsergebnissen mit den Datenreglern](../../reporting/dynamic-reports/data-sliders.md)
->* [Definieren der Pop-Felder für Bereitstellungs- und Leistungsdaten](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
->* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-
-
 ## Definieren der Pop-Felder für Bereitstellungs- und Leistungsdaten {#field-definitions}
 
 Beschreibt die Metriken, die beim Klicken auf einen einzelnen Datenpunkt im Popup-Fenster angezeigt werden.
@@ -66,7 +58,10 @@ Das Popup für den Bericht "Bereitstellung und Leistung"enthält die folgenden M
 | **[!UICONTROL Reach]** | Anzahl der individuellen Besucher. |
 | **[!UICONTROL Click Through]** | Anzahl der Klicks eines Besuchers auf eine Anzeige. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Verbessern Sie die Verarbeitungszeit für Protokolldateien mit Suchtabellen.](../../reporting/dynamic-reports/lookup-tables.md)
+>* [Filtern von Berichtsergebnissen mit den Datenreglern](../../reporting/dynamic-reports/data-sliders.md)
+>* [Definieren der Pop-Felder für Bereitstellungs- und Leistungsdaten](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
+>* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 
