@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Deklarierte IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -36,7 +36,7 @@ Einige Browser und die meisten Mobilgeräte akzeptieren keine Drittanbieter-Cook
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Ereignisaufruf</b> </td> 
-   <td colname="col2"> <p>Zur Arbeit benötigen Sie <span class="wintitle"> DIL </span> und den <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID-Dienst- </a> Code auf der Seite. <span class="wintitle"> DIL </span> ruft <span class="wintitle"> deklarierte IDs </span> aus der <code> setVisitorID- </code> Funktion ab, die vom Experience Cloud ID-Dienst bereitgestellt wird, <span class="keyword"> und leitet diese an </span> Audience Manager weiter <span class="keyword"></span> . </p> </td> 
+   <td colname="col2"> <p>Zur Arbeit benötigen Sie <span class="wintitle"> DIL </span> und den <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID-Dienst- </a> Code auf der Seite. <span class="wintitle"> DIL </span> ruft <span class="wintitle"> deklarierte IDs </span> aus der <code> setVisitorID </code> Funktion ab, die vom Experience Cloud ID-Dienst bereitgestellt wird, <span class="keyword"> und leitet diese an </span> Audience Manager weiter <span class="keyword"></span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Übereinstimmung-ID</b> </td> 
@@ -89,7 +89,7 @@ Eine Beschreibung und Syntax finden Sie unter [URL-Variablen und -Syntax für de
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mehrere <code> Schlüssel-Wert-Paare d_cid </code> und <code> d_cid_ic </code> . </p> </td> 
+   <td colname="col1"> <p>Mehrere <code> d_cid </code> und <code> d_cid_ic </code> Schlüssel/Wert-Paare. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -108,16 +108,16 @@ Diese Methoden funktionieren weiterhin, werden jedoch als veraltet betrachtet. D
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> nur d_uid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uid=AAM-ID </code> </p> </td> 
+   <td colname="col1"> <p> <code> d_uuid </code> erst dann </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid=AAM ID </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ausschluss auf Partnerebene </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= der Benutzer-ID&amp;d_dpid= Datenanbieter-ID </code> </p> <p>Ein Ausschluss auf Partnerebene wird für die neueste Zuordnung dieses <code> dpid </code> + <code> dpuuid- </code> Paars zu einer AAM-UUID gespeichert. Wenn es keine bereits vorhandene Zuordnung gibt, prüft Audience Manager, ob die Anforderung eine AAM-UUID im Cookie enthält, und verwendet sie, falls dies der Fall ist, zum Speichern der Ausschluss-ID. Andernfalls generiert Audience Manager eine neue AAM-UUID und speichert die Ausschluss-Option darunter. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Ein Ausschluss auf Partnerebene wird für die neueste Zuordnung dieses <code> dpid </code> +- <code> dpuuid </code> Paars zu einer AAM-UUID gespeichert. Wenn es keine bereits vorhandene Zuordnung gibt, prüft Audience Manager, ob die Anforderung eine AAM-UUID im Cookie enthält, und verwendet sie, falls dies der Fall ist, zum Speichern der Ausschluss-ID. Andernfalls generiert Audience Manager eine neue AAM-UUID und speichert die Ausschluss-Option darunter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> und explizite <code> d_uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= user ID&amp;<i>d_dpid=data provider-ID</i></code> </p> <p> <code> d_uuid hat </code> immer Vorrang. Wenn die <code> Kombination "dpid </code> + <code> dpuuid"einer anderen AAM-UUID zugeordnet </code> ist, wird die Abmeldung unter der AAM-UUID gespeichert, die in der Anforderung übergeben wird ( <code> d_uuid </code>). </p> </td> 
+   <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> und explizit <code> d_uuid </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> immer Vorrang hat. Wenn die <code> dpid </code> +- <code> dpuuid </code> Kombination einer anderen AAM-UUID zugeordnet wird, wird die Abmeldung unter der AAM-UUUID gespeichert, die in der Anforderung weitergegeben wird ( <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,12 +142,12 @@ In jedem Schlüssel-Wert-Paar:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid =<i>Datenanbieter-ID</i> %01<i>Benutzer-ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Enthält eine Datenanbieter-ID und eine zugehörige eindeutige Benutzer-ID in einem Schlüssel/Wert-Paar. <code> d_cid </code> ersetzt <code> d_dpid </code> und <code> d_dpuuid </code>, die als veraltet gelten, aber weiterhin unterstützt werden. Siehe <a href="../reference/cid.md">CID ersetzt DPID und DPUUID </a>. </p> </td> 
+   <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>Enthält eine Datenanbieter-ID und eine zugehörige eindeutige Benutzer-ID in einem Schlüssel/Wert-Paar. <code> d_cid </code> ersetzt <code> d_dpid </code> und <code> d_dpuuid </code>, die als nicht mehr unterstützt, aber dennoch unterstützt werden. Siehe <a href="../reference/cid.md">CID ersetzt DPID und DPUUID </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid_ic =<i>Integrationscode</i> %01<i>Benutzer-ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Enthält einen Integrationscode und eine zugehörige eindeutige Benutzer-ID in einem einzelnen Schlüssel/Wert-Paar. <code> d_cid_ic </code> ersetzt <code> d_dpid </code> und <code> d_dpuuid </code>, die nicht mehr unterstützt werden, aber weiterhin unterstützt werden. Siehe <a href="../reference/cid.md">CID ersetzt DPID und DPUUID </a>. </p> </td> 
+   <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>Enthält einen Integrationscode und eine zugehörige eindeutige Benutzer-ID in einem einzelnen Schlüssel/Wert-Paar. <code> d_cid_ic </code> ersetzt <code> d_dpid </code> und <code> d_dpuuid </code>, die nicht mehr unterstützt, aber trotzdem unterstützt werden. Siehe <a href="../reference/cid.md">CID ersetzt DPID und DPUUID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -173,18 +173,13 @@ Angesichts dieser Schlüssel-Wert-Paare und ihrer erforderlichen Syntax würden 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mehrere <code> Schlüssel-Wert-Paare d_cid </code> und <code> d_cid_ic </code> . </p> </td> 
+   <td colname="col1"> <p>Mehrere <code> d_cid </code> und <code> d_cid_ic </code> Schlüssel/Wert-Paare. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
->
->* [CID ersetzt DPID und DPUUID](../reference/cid.md)
-
-
-##  Deklarierte ID-Variablen {#declared-id-variables}
+## Deklarierte ID-Variablen {#declared-id-variables}
 
 Beschreibt die Konfigurationsvariablen, mit denen deklarierte IDs [!UICONTROL DIL] an [!DNL Audience Manager.]
 
@@ -285,3 +280,8 @@ myCallback({
 ## Keine Target- und Ausschluss-Aufrufe {#do-not-target}
 
 Der [!UICONTROL declared ID] Prozess berücksichtigt die Voreinstellungen der Site-Besucher, um das Zielgruppen-Manager-Targeting auf Ihrer Website abzuwählen. Wenn Audience Manager eine Abmeldeanforderung erhält, gibt das [!UICONTROL DCS] Objekt ein leeres [!DNL JSON] Objekt anstelle der Audience Manager-Benutzer-ID zurück.
+
+>[!MORELIKETHIS]
+>
+>* [CID ersetzt DPID und DPUUID](../reference/cid.md)
+
