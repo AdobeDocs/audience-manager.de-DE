@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -130,12 +130,6 @@ Die [!DNL JSON] Antwort enthält Ihr neues Zugriffstoken. Die Antwort sollte wie
 
 Audience Manager [!UICONTROL REST API] unterstützt Autorisierungscode und implizite Authentifizierung. Um diese Zugriffsmethoden verwenden zu können, müssen sich Ihre Benutzer anmelden, um Zugriff auf Token zu erhalten und sie zu aktualisieren. `https://api.demdex.com/oauth/authorize`
 
->[!MORE_LIKE_THIS]
->
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 Vereinfacht](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
-
 ## Authentifizierte API-Anforderungen erstellen {#authenticated-api-requests}
 
 Voraussetzungen für den Aufruf von [!DNL API] Methoden nach Erhalt eines Authentifizierungstokens.
@@ -146,11 +140,6 @@ Aufrufe anhand der verfügbaren [!DNL API] Methoden durchzuführen:
 
 * Legen Sie im `HTTP` Header `Authorization: Bearer <token>`fest.
 * Rufen Sie die erforderliche [!DNL API] Methode auf.
-
->[!MORE_LIKE_THIS]
->
->* [OAuth-Authentifizierung](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-
 
 ## Optionale API-Abfrageparameter {#optional-api-query-parameters}
 
@@ -164,10 +153,10 @@ Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *a
 |--- |--- |
 | Seite | Gibt Ergebnisse nach Seitenzahl zurück. Die Nummerierung beginnt bei 0. |
 | pageSize | Legt die Anzahl der Antwortergebnisse fest, die von der Anforderung zurückgegeben werden (10 ist standardmäßig). |
-|  sortBy | Sortiert Ergebnisse und gibt sie entsprechend der angegebenen [!DNL JSON] Eigenschaft zurück. |
+| sortBy | Sortiert Ergebnisse und gibt sie entsprechend der angegebenen [!DNL JSON] Eigenschaft zurück. |
 | absteigend | Sortiert die Ergebnisse und gibt sie in absteigender Reihenfolge zurück. "Aufsteigend"ist die Standardeinstellung. |
 | Suche | Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Nehmen wir beispielsweise an, Sie möchten Ergebnisse für alle Modelle suchen, die das Wort "Test"in einem der Wertefelder für dieses Element enthalten. Ihre Musteranforderung könnte wie folgt aussehen: `GET https://api.demdex.com/v1/models/?search=Test`.  Sie können nach jedem Wert suchen, der von der Methode "get all"zurückgegeben wird. |
-|  folderId | Gibt alle IDs für Eigenschaften im angegebenen Ordner zurück. Nicht für alle Methoden verfügbar. |
+| folderId | Gibt alle IDs für Eigenschaften im angegebenen Ordner zurück. Nicht für alle Methoden verfügbar. |
 | Berechtigungen | Gibt eine Liste der Segmente basierend auf der angegebenen Berechtigung zurück.  READ ist Standard. Zu den Berechtigungen gehören:<ul><li>`READ` : Geben Sie Informationen zu einem Segment zurück und zeigen Sie es an.</li><li>`WRITE` : Aktualisieren Sie `PUT` ein Segment.</li><li>`CREATE` : Verwenden Sie `POST` zum Erstellen eines Segments.</li><li>`DELETE` : Segmente löschen. Erfordert Zugriff auf zugrunde liegende Eigenschaften, falls vorhanden. Sie benötigen beispielsweise Rechte zum Löschen der Eigenschaften, die zu einem Segment gehören, wenn Sie es entfernen möchten.</li></ul><br>Geben Sie mehrere Berechtigungen mit separaten Schlüssel/Wert-Paaren an. Um beispielsweise eine Liste mit Segmenten zurückzugeben, die nur über `READ` und `WRITE` Berechtigungen verfügen, geben Sie `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Boolescher Wert) Auf "true"setzen, um die Berechtigungen für das Segment zurückzugeben. Standard ist „false“. |
 
@@ -238,3 +227,10 @@ Neue Versionen dieser [!DNL API]Dateien werden regelmäßig veröffentlicht. Bei
 | 404 | nicht gefunden | Die Ressource konnte für den angegebenen Pfad nicht gefunden werden. |
 | 409 | Konflikt | Die Anforderung konnte aufgrund eines Konflikts mit dem Zustand der Ressource nicht abgeschlossen werden. |
 | 500 | Serverfehler | Auf dem Server ist ein unerwarteter Fehler aufgetreten, durch den die Anforderung nicht erfüllt werden konnte. |
+
+>[!MORELIKETHIS]
+>
+>* [OAuth-Authentifizierung](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 Vereinfacht](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+
