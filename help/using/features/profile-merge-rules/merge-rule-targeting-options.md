@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -112,7 +112,7 @@ Sehen Sie sich das unten stehende Video an, um einen Überblick über mögliche 
 
 >[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=ger)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Anwendungsfälle des Profillink-Gerätediagramms](profile-link-use-case.md)
 >* [Anwendungsbeispiele für Diagramme externer Geräte](external-graph-use-cases.md)
