@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Anwendungsfälle des Profillink-Gerätediagramms
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ Auf diese Weise [!UICONTROL Profile Merge Rule] können Marketingexperten allen 
 
 ![geräteübergreifende Personalisierung](assets/cross-device-personalization.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Anwendungsbeispiele für Diagramme externer Geräte](external-graph-use-cases.md)
 >* [Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung](merge-rule-targeting-options.md)
