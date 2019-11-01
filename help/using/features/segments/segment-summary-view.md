@@ -1,24 +1,38 @@
 ---
 description: Auf der Seite "Segmentzusammenfassung"werden Details wie Name, Eigenschaften im Segment, Regeln, Leistungsdaten und Zielzuordnungsinformationen angezeigt.
 seo-description: Auf der Seite "Segmentzusammenfassung"werden Details wie Name, Eigenschaften im Segment, Regeln, Leistungsdaten und Zielzuordnungsinformationen angezeigt.
-seo-title: Segmentzusammenfassungsansicht
+seo-title: Segmentdetailseite
 solution: Audience Manager
-title: Segmentzusammenfassungsansicht
+title: Segmentdetailseite
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: Aufschlüsselung nach Identitätstyp, Aufschlüsselung nach Identität, Bericht zur Zielgruppenidentität
 translation-type: tm+mt
-source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
-# Segmentzusammenfassungsansicht {#segment-summary-view}
+# Segmentdetailseite {#segment-summary-view}
 
-Auf der [!UICONTROL Segment Summary] Seite werden Details wie Name, Eigenschaften im Segment, Leistungsdaten zu Regeln und Informationen zur Zielzuordnung angezeigt.
+Die Detailseite für ein einzelnes Segment bietet einen Überblick über die Segmentdetails, wie Segmentname, ID, Leistungsmetriken, Regeln, die das Segment definieren, und die Zielzuordnungen. Um diese Details anzuzeigen, gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Segments]** und klicken Sie auf den Namen des Segments, mit dem Sie arbeiten möchten.
 
-Klicken Sie auf einen Segmentnamen im Hauptdashboard, um auf die zugehörige Zusammenfassungsseite zuzugreifen. Zu den Übersichtsabschnitten gehören:
+## Segmentverwaltungswerkzeuge {#segment-management-tools}
 
-1. **[!UICONTROL Basic Information]** : Zeigt erforderliche und optionale Details an, die beim Erstellen des Segments angegeben wurden.
+Auf der oberen Seite der Segmentdetailseite finden Sie die Tools, mit denen Sie Ihre Segmente verwalten können:
+
+1. **[!UICONTROL Add New]**: Verwenden Sie diese Option, um das Segment zu aktivieren [!UICONTROL Segment Builder] und neue Segmente zu erstellen.
+2. **[!UICONTROL Edit]**: Verwenden Sie diese Option, um die Konfiguration des aktuellen Segments zu ändern.
+3. **[!UICONTROL Duplicate]**: Verwenden Sie diese Option, um eine Kopie des aktuellen Segments zu erstellen.
+4. **[!UICONTROL Delete]**: Verwenden Sie diese Option, um das aktuelle Segment aus Ihrem Audience Manager-Konto zu entfernen.
+5. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option, um ähnliche Segmente wie die angezeigten zu finden, aus [!UICONTROL Audience Marketplace] Datenfeeds, die Sie nicht abonniert haben. Unter [Audience Marketplace für Datenkäufer](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) erfahren Sie, wie Sie auf dem Markt navigieren und ähnliche Segmente finden.
+
+![basic-segment-information](assets/basic-segment-information.png)
+
+## Segmentinformationen {#basics}
+
+Unter den Segmentverwaltungstools finden Sie die folgenden Segmentinformationen:
+
+1. **[!UICONTROL Basic Information]** : Zeigt erforderliche und optionale Details an, die beim Erstellen des Segments angegeben wurden. Eine detaillierte Übersicht über die Bedeutung dieser Felder finden Sie unter [Segmentaufbau](segment-builder.md) .
 2. **[!UICONTROL Segment Graph]** : Zeigt Leistungsdaten grafisch und für feste Zeiträume von 1, 7, 14, 30, 60 und 90 Tagen an. Wir erklären die Segmentpopulationszahlen in einem [separaten Artikel](../../features/segments/segment-builder-data.md).
 
    ![segmentdiagramm](assets/segment-graph.png)
@@ -31,6 +45,7 @@ Klicken Sie auf einen Segmentnamen im Hauptdashboard, um auf die zugehörige Zus
    >
    >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] Bericht nur dann an, wenn Sie geräteübergreifende IDs für das Segment qualifiziert haben.
 
+   Sehen Sie sich das unten stehende Video an, um eine Übersicht zu [!UICONTROL Identity Type Breakdown]erhalten.
    >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=ger)
 
 4. **[!UICONTROL Segment Rules]** : Listet Eigenschaften im Segment zusammen mit Qualifizierungsregeln auf.
