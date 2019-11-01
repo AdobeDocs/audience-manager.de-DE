@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zur Ingestion von Inbound-Kundendaten
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -268,7 +268,7 @@ Als Best Practice empfehlen wir, [!DNL Amazon S3] weil der Prozess einfacher ist
 
 Es kommt darauf an. [!DNL Audience Manager] liest bis zu 119000 Einträge aus der [!DNL Amazon SQS] Warteschlange und teilt sie in bis zu 3 Stapel auf. Ihre Dateien werden nur dann gleichzeitig verarbeitet, wenn sie im selben Stapel landen. Aufgrund der hohen Datenmenge, die täglich von [!DNL Audience Manager] uns aufgenommen wird, können wir jedoch keine Dateiverarbeitungsaufträge garantieren.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Stapeldatenübermittlungsprozess beschrieben](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
