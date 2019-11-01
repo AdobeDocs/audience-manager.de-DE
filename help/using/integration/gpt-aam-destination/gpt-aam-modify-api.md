@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ändern des GPT-setTargeting-API-Aufrufs
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -57,7 +57,7 @@ Definiert die in der `if` Anweisung verwendeten Schlüsselvariablen.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Gibt den Schlüssel im Schlüssel-Wert-Segment-Paar zurück. Wenn Ihr Schlüssel-Wert-Paar z. B. aus <code> color=blue bestand </code>, gibt dies die <code> Farbe zurück </code>. </p> </td> 
+   <td colname="col3"> <p>Gibt den Schlüssel im Schlüssel-Wert-Segment-Paar zurück. Wenn Ihr Schlüssel-Wert-Paar beispielsweise aus <code> color=blue </code>besteht, wird dies zurückgegeben <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
@@ -72,7 +72,7 @@ Definiert die in der `if` Anweisung verwendeten Schlüsselvariablen.
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [GPT-Ziel erstellen](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Audience Manager-Code für Google Publisher-Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
