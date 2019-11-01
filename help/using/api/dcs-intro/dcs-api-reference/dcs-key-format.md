@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -65,7 +65,7 @@ Bei serialisierten Schlüssel-Wert-Paaren müssen Sie die Marker angeben, die We
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Daten an das DCS senden](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [Präfixe und Variablen mit Schlüsselwerten, die vom DCS unterstützt werden](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
