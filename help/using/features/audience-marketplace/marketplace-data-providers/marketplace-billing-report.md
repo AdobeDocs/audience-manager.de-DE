@@ -7,7 +7,7 @@ title: Rechnungsstellung für Datenfeed-Anbieter
 topic: DIL-API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -119,7 +119,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Rechnungsstellung und Impressionszuordnung für CPM-Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Rechnungsstellung und Impressionszuordnung für einfache Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
