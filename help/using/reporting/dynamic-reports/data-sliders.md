@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Filtern von Berichtsergebnissen mit den Datenreglern
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ Mit den Berichtschiebereglern können Sie Beschränkungen für die von einem int
 * Reduzieren Sie die von den Berichten zurückgegebene Datenmenge.
 * Konzentrieren Sie sich auf Eigenschaften oder Segmente, die in einen bestimmten Größenbereich fallen.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Die Datenfilter im Bericht "Segment-zu-Eigenschaften-Überschneidung"](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 
