@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,10 +87,11 @@ In [!UICONTROL Trait Builder]der [!UICONTROL Advanced Options] können Sie ein I
 ### TTL für eine Eigenschaft festlegen
 
 1. Erweitern Sie den [!UICONTROL Advanced Options] Abschnitt und geben Sie eine Zahl ein, um einen [!DNL TTL] Wert für die Eigenschaft festzulegen.
-2. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
+
    ![](assets/TTL.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Erläuterung der Segmentzeit bis zur Live-Übertragung](../../features/traits/segment-ttl-explained.md)
 
