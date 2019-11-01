@@ -7,7 +7,7 @@ title: Audience Marketplace für Datenkäufer
 topic: DIL-API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 
 ---
 
@@ -51,15 +51,15 @@ Die [!UICONTROL Marketplace] Liste enthält Informationen, die Sie sortieren und
 * **[!UICONTROL Private Feeds]**: Siehe [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
 * **[!UICONTROL Currently Subscribed Plan Count]**: Die Anzahl der Abonnements, die Sie bei einem Datenanbieter haben.
 
+ 
+
 Verwenden Sie die folgenden Filter, die auf der linken Seite der [!UICONTROL Marketplace] Seite verfügbar sind, um die besten Datenfeeds für Ihre Anforderungen leicht zu finden:
 
 * **[!UICONTROL Similarity To]**: Filtern Sie Datenfeeds basierend auf ihrer Ähnlichkeit mit einer Eigenschaft oder einem Segment Ihrer Wahl. Beim Eingeben der Eigenschaft oder des Segments, mit der bzw. dem Sie vergleichen möchten, können Sie die Eigenschaften- oder Segment-ID oder deren jeweilige Namen verwenden.
-* **[!UICONTROL Similarity Cutoff]**: Ziehen Sie den Schieberegler, um die Datenfeeds nach der Ähnlichkeit ihrer Eigenschaften mit Ihrer ausgewählten Eigenschaft oder Ihrem Segment zu filtern.
+* **[!UICONTROL Similarity Cutoff]**: Ziehen Sie den Schieberegler, um die Datenfeeds nach der Ähnlichkeit ihrer Eigenschaften mit Ihrer ausgewählten Eigenschaft oder Ihrem Segment zu filtern. Weitere Informationen zu den Ergebnissen von [Eigenschaften-Ähnlichkeitswerten finden Sie unter Bewertung der Eigenschafts-Ähnlichkeit](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**: Filtern Sie die Datenfeeds nach Ihrem Abonnementstatus.
 * **[!UICONTROL Plan Use Case]**: Filtern Sie Datenfeeds nach unterstützten Anwendungsfällen: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** und **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: Filtern Sie Datenfeeds nach ihrem Preistyp.
-
-Sehen Sie sich das folgende Video an, um einen Überblick über die Verwendung dieser Filter zu erhalten.
 
 ## Suchen ähnlicher Eigenschaften {#finding-similar-traits}
 
@@ -81,7 +81,6 @@ Um die vollständige Liste ähnlicher Eigenschaften anzuzeigen, klicken Sie auf 
 Sehen Sie sich das unten stehende Video an, um einen vollständigen Überblick darüber zu erhalten, wie ähnliche Eigenschaften gefunden werden können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/?captions=ger)
-
 
 ## Private Daten-Feeds {#private-data-feeds}
 
