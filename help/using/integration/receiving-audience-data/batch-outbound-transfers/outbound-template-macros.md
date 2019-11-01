@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ausgehende Vorlagenmakros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -60,7 +60,7 @@ In der Tabelle sind die Makros aufgeführt und beschrieben, die Sie im Dateiname
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Gibt den Synchronisierungstyp an und umfasst: </p> 
     <ul id="ul_CA5057DA18144AB8BC17B3EB79891B25"> 
-     <li id="li_6DFEE438860D4DB18EF831E3AF525F1E"> <code> vollständig </code>: Volle Synchronisierung. </li> 
+     <li id="li_6DFEE438860D4DB18EF831E3AF525F1E"> <code> full </code>: Volle Synchronisierung. </li> 
      <li id="li_1A7BBBB40AD94FC39B06F4FC49586595"> <code> iter </code>: Inkrementelle Synchronisierung. </li> 
     </ul> </td> 
   </tr> 
@@ -78,8 +78,8 @@ In der Tabelle sind die Makros aufgeführt und beschrieben, die Sie im Dateiname
    <td colname="col2"> <p>Wird als Trennzeichen verwendet und fügt dieses Makro eine Registerkarte zwischen Feldern ein. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ZEITSTEMPEL </code> </p> </td> 
-   <td colname="col2"> <p>Ein 10-stelliger UTC-, Unix-Zeitstempel. </p> <p>Sie kann auch als <code> &lt;TIMESTAMP; format="JJJJMMTTHMMSS"&gt; </code> folgen Sie den Java-Formatierungsregeln für Datum/Zeitstempel. </p> </td> 
+   <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
+   <td colname="col2"> <p>Ein 10-stelliger UTC-, Unix-Zeitstempel. </p> <p>Sie kann auch wie <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> folgende Java-Formatierungsregeln für Datum/Zeitstempel formatiert werden. </p> </td> 
   </tr>
 
 </tbody> 
@@ -115,7 +115,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>Die Ausgabe dieses Makros ordnet die Datenanbieter-ID (DPID) den zugehörigen eindeutigen Benutzer-IDs (DPUUID) zu. Dieses Makro muss über eine Formatierungszeichenfolge verfügen, um seine Ausgabe zu steuern. Die Beispielausgabe würde wie folgt aussehen: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>Die <code> Einstellung "maxMappings" </code> bestimmt, wie viele Zuordnungen das Makro zurückgeben soll. Wenn <code> maxMappings=0 </code>, gibt dieses Makro alle Zuordnungen für jede angegebene DPID zurück. Die Daten werden nach Zeitstempel sortiert (neueste zuerst) und geben die Ergebnisse mit dem größten Zeitstempel zuerst zurück. </p> </td> 
+   <td colname="col2"> <p>Die Ausgabe dieses Makros ordnet die Datenanbieter-ID (DPID) den zugehörigen eindeutigen Benutzer-IDs (DPUUID) zu. Dieses Makro muss über eine Formatierungszeichenfolge verfügen, um seine Ausgabe zu steuern. Die Beispielausgabe würde wie folgt aussehen: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>Die <code> maxMappings </code> Einstellung bestimmt, wie viele Zuordnungen das Makro zurückgeben soll. Wenn <code> maxMappings=0 </code>dieses Makro alle Zuordnungen für jede angegebene DPID zurückgibt. Die Daten werden nach Zeitstempel sortiert (neueste zuerst) und geben die Ergebnisse mit dem größten Zeitstempel zuerst zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -143,7 +143,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Gibt <code> 1 </code> als statischen, fest programmierten Wert zurück. </p> </td> 
+   <td colname="col2"> <p>Gibt <code> 1 </code> als statischer, fest programmierter Wert zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -161,23 +161,23 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>Gibt eine Liste der Segmente in einer Liste zurück. Akzeptiert die folgenden optionalen Argumente: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: Segment-ID. Herabgestuft. Verwenden Sie <code> Sid </code>. </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Kunden-Segment-ID. Herabgestuft. Verwenden Sie <code> Sid </code>. </li> 
-     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>:Segment-ID </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Gibt <code> 5 </code>zurück, einen statischen, fest programmierten Wert, der Daten als Segmentdaten identifiziert. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Veraltet. Nicht anwenden. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>:Segment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Kunden-Segment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
+     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: Segment-ID </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Gibt <code> 5 </code>einen statischen, fest programmierten Wert zurück, der Daten als Segmentdaten identifiziert. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Nicht mehr verwendet. Nicht anwenden. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Ein Unix-Zeitstempel, der angibt, wann ein Segment zuletzt realisiert wurde. </li> 
     </ul> <p>Geben Sie diese Variablen in geschweifte Klammern nach dem Makro ein. Beispielsweise trennt dieser Code die Ergebnisse mit einem Senkzeichen "|": <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>Gibt <code> 1 </code>als statischen, fest programmierten Wert zurück. </p> </td> 
+   <td colname="col2"> <p>Gibt <code> 1 </code>als statischer, fest programmierter Wert zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Gibt den Synchronisierungstyp an und umfasst: </p> 
     <ul id="ul_A3ADC37E66F043DABDA9C4066024B6C1"> 
-     <li id="li_A1859F63ACF24618884C41F2DAB19ABB"> <code> vollständig </code>: Volle Synchronisierung. </li> 
+     <li id="li_A1859F63ACF24618884C41F2DAB19ABB"> <code> full </code>: Volle Synchronisierung. </li> 
      <li id="li_520DDED3662B428DB9DB55D494221D97"> <code> iter </code>: Inkrementelle Synchronisierung. </li> 
     </ul> </td> 
   </tr> 
@@ -200,12 +200,12 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
     <ul id="ul_E9CDC4DD47B9435086FF42143D9E8177"> 
      <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code> type </code>: Identifiziert die Eigenschaftentypen nach numerischer ID. Rückgabe: 
       <ul id="ul_D2357E6CF47B4EBC8D3772D17B2EADA3"> 
-       <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code> 10, </code> das eine DPM-Eigenschaft identifiziert (offline, an Bord eines eingehenden Auftrags). </li> 
-       <li id="li_7AFF8A1D0E1140459CC95CF43A97B9B6"> <code> 3 </code> , die eine regelbasierte Eigenschaft identifiziert (Echtzeit, über den DCS integriert). </li> 
+       <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code> 10 </code> , das eine DPM-Eigenschaft identifiziert (offline, an Bord eines eingehenden Auftrags). </li> 
+       <li id="li_7AFF8A1D0E1140459CC95CF43A97B9B6"> <code> 3 </code> , das eine regelbasierte Eigenschaft identifiziert (Echtzeit, über den DCS integriert). </li> 
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>: Eigenschaften-ID. </li> 
      <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>: Das letzte Mal, dass die Eigenschaft realisiert wurde. Unix-Zeitstempel. </li> 
-    </ul> <p>Geben Sie diese Variablen in geschweifte Klammern nach dem Makro ein. Beispielsweise trennt dieser Code die Ergebnisse mit einem Senkzeichen "|": <code> &lt;TRAIT_LIST:{property|&lt;property.id&gt;,&lt;property.lastRealized&gt;};separator="," </code> </p> </td> 
+    </ul> <p>Geben Sie diese Variablen in geschweifte Klammern nach dem Makro ein. Beispielsweise trennt dieser Code die Ergebnisse mit einem Senkzeichen "|": <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
@@ -214,7 +214,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Beispiele für ausgehende Makros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 
