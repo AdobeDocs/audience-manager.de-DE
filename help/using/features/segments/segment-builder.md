@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segmentaufbau
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 ---
 
@@ -97,7 +97,7 @@ Mit [!UICONTROL Segment Builder]den [!UICONTROL the Basic Information] Einstellu
 
 In [!UICONTROL Segment Builder][!UICONTROL Traits] diesem Abschnitt können Sie Eigenschaften in einem Segment verwalten, Eigenschaftsgruppen erstellen und Qualifizierungskriterien festlegen. Um einem Segment eine Eigenschaft hinzuzufügen, geben Sie den Eigenschaftsnamen in das Suchfeld ein und klicken Sie auf [!UICONTROL Add Trait]. Speichern Sie die Eigenschaft (sofern fertig) oder wechseln Sie zu [!UICONTROL Destinations Mapping].
 
-<!-- r_segment_traits_section.xml -->
+<!-- r_segment_traits_section.xml-->
 
 **** Voraussetzungen: Füllen Sie die erforderlichen Felder im [!UICONTROL Basic Information] Abschnitt aus.
 
@@ -106,7 +106,8 @@ In [!UICONTROL Segment Builder][!UICONTROL Traits] diesem Abschnitt können Sie 
 | Grundansicht | Dieser Abschnitt enthält visuelle Steuerelemente, mit denen Sie: <ul><li>Erstellen Sie neue und verwalten Sie vorhandene Segmente.</li><li>Entfernen Sie Eigenschaften aus einem Segment.</li><li>Fügen Sie einem Segment bis zu 50 (maximal) Eigenschaften hinzu.</li><li>Ziehen Sie Eigenschaften per Drag &amp; Drop, um neue Gruppen zu erstellen.</li><li>Zeigen Sie Eigenschaften und Eigenschaftsgruppen in einem Segment an.</li><li>Legen Sie Qualifizierungskriterien mit booleschen Ausdrücken, Vergleichsoperatoren und Einstellungen für Neuigkeit/Häufigkeit fest.</li></ul> |
 | Codeansicht | Öffnet eine Entwicklungsumgebung, in der Sie Eigenschaften, Gruppen und Qualifikationsanforderungen mit Code anstelle der visuellen Schnittstelle erstellen und verwalten können. Die Codeansicht ist nützlich, wenn Ihre Segmente: <ul><li>Enthält mehr als 50 Eigenschaften in einem einzelnen Segment. Hinweis: Segmente sind auf maximal 5000 Eigenschaften beschränkt.</li><li>Enthält viele Eigenschaftsgruppen.</li><li>Komplexe Qualifikationsanforderungen</li></ul> |
 | Durchsuchen | Hilft Ihnen, Eigenschaften zu finden, die einem Segment hinzugefügt werden sollen. |
-| Empfehlungen | Hier finden Sie Live-Empfehlungen für ähnliche Eigenschaften, die Sie der Segmentregel hinzufügen können. Mehr darüber finden Sie unter [Eigenschaftsempfehlungen](trait-recommendations.md). |
+| Empfehlungen | Erhalten Sie Live-Empfehlungen für ähnliche Eigenschaften von Ihren Erstanbietereigenschaften und [!UICONTROL Audience Marketplace] -Daten-Feeds, die Sie abonniert haben. Fügen Sie diese Empfehlungen zur Segmentregel hinzu, um Ihre Zielgruppe zu erweitern. Mehr darüber finden Sie unter [Eigenschaftsempfehlungen](trait-recommendations.md). |
+| Marketplace Recommendations | Rufen Sie Live-Empfehlungen für ähnliche Eigenschaften aus [!UICONTROL Audience Marketplace] Datenfeeds ab, die Sie nicht abonniert haben. Mehr darüber finden Sie unter [Eigenschaftsempfehlungen](trait-recommendations.md). |
 | Daten zur tatsächlichen und geschätzten Segmentgröße | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
 ## Eigenschaften aus einem Segment entfernen {#remove-traits}
