@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dashboard "Regeln für Profilzusammenführung"
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ Beim Arbeiten mit [!UICONTROL Profile Merge Rules]können Sie:
 * Verfolgen Sie die durchschnittliche Anzahl der Geräte für jeden Benutzer.
 * Mit einfachen Steuerelementen können Sie Regeln erstellen, bearbeiten und löschen. Nur Administratoren können Regeln verwalten, andere Benutzer können sie jedoch anzeigen und auf Segmente anwenden. Siehe [Optionen für](merge-rule-definitions.md) Profilzusammenführungsregeln definiert und [Anwendungsfälle für Zusammenführungsregeln](merge-rule-targeting-options.md).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](../../faq/faq-profile-merge.md)
 
