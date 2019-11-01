@@ -5,7 +5,7 @@ seo-title: Hinzufügen von Datenexportsteuerelementen zu einem Ziel
 solution: Audience Manager
 title: Hinzufügen von Datenexportsteuerelementen zu einem Ziel
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -36,6 +36,6 @@ So fügen Sie einem Ziel Exportbeschriftungen hinzu:
    >Exportbeschränkungen funktionieren nur, wenn Sie eine [übereinstimmende Exportkontrolle](../../features/data-export-controls.md) für eine Datenquelle festlegen.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Datenquelle erstellen](../../features/manage-datasources.md#create-data-source)
