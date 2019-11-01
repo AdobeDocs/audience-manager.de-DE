@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Daten an das DCS senden
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 translation-type: tm+mt
-source-git-commit: 9c692ae41a309b4f1d8323a501619c02d2aef6a0
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,8 +67,8 @@ Die folgende Tabelle definiert die grundlegenden Komponenten eines einfachen [!U
    <td colname="col1"> <p> <code> val</code> </p> </td> 
    <td colname="col2"> <p>Ein Variablenwert, der zu einem durch einen Schlüssel im Schlüssel-Wert-Paar definierten Satz gehört. </p> <p>Beim Arbeiten mit Werten: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">Schließen Sie Zeichenfolgendaten in doppelte Anführungszeichen ein (z. B. <code> age="41 bis 55"</code>). </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Sie können mehrere Schlüssel an einen einzelnen Wert übergeben (z. B. <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </i></li> 
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">Schließen Sie Zeichenfolgendaten in doppelte Anführungszeichen ein (z. B. <code> age="41 to 55"</code>). </li> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Sie können mehrere Schlüssel an einen einzelnen Wert übergeben (z. B. <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
      </ul> </p> <p>Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen</a>. </p> </td>
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Die folgende Tabelle definiert die grundlegenden Komponenten eines einfachen [!U
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <code> d_rtbd=json</code> </li> 
       <li id="li_3430CD0438604B83BE6437E6EC480816"> <code>d_cb=<i>callback</i></code> </li>
      </ul> </p> </td> 
-   <td colname="col2"> <p>Optionale Antwortparameter. </p> <p> Keiner dieser Elemente ist erforderlich, um Daten an den <span class="wintitle"> DCS</span>zu senden. Wenn der <span class="wintitle"> DCS</span> jedoch eine Antwort zurückgeben soll, müssen Sie <code> d_rtbd=json</code> in Ihre Anforderung einbeziehen. </p> <p>Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> definiert</a>d_ Key-Value Paare. </p> </td> 
+   <td colname="col2"> <p>Optionale Antwortparameter. </p> <p> Keiner dieser Elemente ist erforderlich, um Daten an den <span class="wintitle"> DCS</span>zu senden. Wenn der <span class="wintitle"> DCS</span> jedoch eine Antwort zurückgeben soll, müssen Sie diese <code> d_rtbd=json</code> in Ihre Anforderung aufnehmen. </p> <p>Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> definiert</a>d_ Key-Value Paare. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -95,7 +95,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 Nun, da Sie mit dem Senden von Daten an die [!UICONTROL DCS]Kommission vertraut sind, ist es an der Zeit, zu untersuchen, wie man Daten zurückerhält und diese Informationen analysiert. Siehe Daten [vom DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)empfangen.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
 
