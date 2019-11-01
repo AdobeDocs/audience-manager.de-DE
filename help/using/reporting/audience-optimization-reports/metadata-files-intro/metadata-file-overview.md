@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Übersicht und Zuordnungen für Metadatendateien
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -136,7 +136,7 @@ Siehe [Inhaltsformat für Metadatendateien](../../../reporting/audience-optimiza
 
 Nachdem Sie einer Datei einen Namen gegeben und Daten hinzugefügt haben, senden Sie diese an einen Amazon S3-Speicherordner, der von [!DNL Audience Manager]bereitgestellt wird. Siehe [Bereitstellungsmethoden für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Datendateien für Zielgruppenoptimierungsberichte](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Erfassen von Kampagnen-Klickdaten über Pixelaufrufe](../../../integration/media-data-integration/click-data-pixels.md)
