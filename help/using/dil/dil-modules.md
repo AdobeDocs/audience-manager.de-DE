@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL-Module
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> Zeichenfolge </td> 
-   <td colname="col3"> <p>Ein Array von Zeichenfolgen, die nicht aufgezählte <span class="keyword"> Analytics- </span> Variablen wie <code> pageName </code>, <code> channel, </code> campaign <code>, </code> product <code></code>usw. enthalten. </p> </td> 
+   <td colname="col3"> <p>Ein Array von Zeichenfolgen, die nicht aufgezählte <span class="keyword"> Analytics- </span> Variablen wie <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>usw. enthalten. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
@@ -61,7 +61,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
    <td colname="col2"> Ganzzahl </td> 
-   <td colname="col3"> <p>Gibt an, wie viele iterierte Namen Sie zurückgeben möchten. Um beispielsweise zwei Props oder eVars zurückzugeben, setzen Sie <code> maxIndex:2 </code>. </p> </td> 
+   <td colname="col3"> <p>Gibt an, wie viele iterierte Namen Sie zurückgeben möchten. Wenn Sie beispielsweise zwei Props oder eVars zurückgeben möchten, legen Sie diese fest <code> maxIndex:2 </code>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
@@ -78,8 +78,8 @@ r_dil_sc_init.xml
    <td colname="col2"> Objekt </td> 
    <td colname="col3"> <p>Zusätzliche Optionen: </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Wenn Sie nichts anderes angeben, werden Punkte durch den standardmäßigen Unterstrich ( _ ) ersetzt. </p> <p>Beispiel: <code> s.contextData = {abc.def = '123'} </code>würde in der Abfragezeichenfolge des Ereignisaufrufs <code> c_contextData_abc_def=123 </code> resultieren. </p> <p>Diese Option ist nur in <span class="wintitle"> DIL </span> Version 5.0 oder höher verfügbar. </p> </li> 
-     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Beispiel: <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> würde dazu führen, dass das Zeichenfolgenarray aus der Datenerfassung von Kontextdaten gefiltert wird. Bei dieser Option werden persönliche identifizierbare Informationen (PII) ausgeschlossen. </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Wenn Sie nichts anderes angeben, werden Punkte durch den standardmäßigen Unterstrich ( _ ) ersetzt. </p> <p>Beispielsweise <code> s.contextData = {abc.def = '123'} </code>würde die Abfragezeichenfolge <code> c_contextData_abc_def=123 </code> des Ereignisaufrufs angezeigt. </p> <p>Diese Option ist nur in <span class="wintitle"> DIL </span> Version 5.0 oder höher verfügbar. </p> </li> 
+     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Beispielsweise <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> würde das Zeichenfolgenarray aus der Datenerfassung von Kontextdaten gefiltert. Bei dieser Option werden persönliche identifizierbare Informationen (PII) ausgeschlossen. </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -136,7 +136,7 @@ Um alle überwachten [!DNL Analytics] Datenpunkte ohne die oben dargestellte zus
 DIL.modules.siteCatalyst.init(s, scDil);
 ```
 
-##  GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
+## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
 Die `GA.submitUniversalAnalytics();` Funktion sendet Daten von Google [!DNL Universal Analytics] an Audience Manager. Diese [!UICONTROL DIL] Funktion ist für die Verwendung mit `analytics.js`, der neuesten Code-Bibliothek für Google [!DNL Universal Analytics].
 
@@ -173,7 +173,7 @@ Die `GA.submitUniversalAnalytics();` Funktion akzeptiert die folgenden Eigenscha
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>Die globale Variable für Ihre Instanz von <span class="keyword"> Google Analytics </span>. Dies ist in der Regel <code> ga </code> standardmäßig, es sei denn, Sie haben Ihren <span class="keyword"> Google Analytics- </span> Code angepasst. </p> </td> 
+   <td colname="col2"> <p>Die globale Variable für Ihre Instanz von <span class="keyword"> Google Analytics </span>. Dies ist in der Regel <code> ga </code> standardmäßig der Fall, es sei denn, Sie haben Ihren <span class="keyword"> Google Analytics- </span> Code angepasst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -181,7 +181,7 @@ Die `GA.submitUniversalAnalytics();` Funktion akzeptiert die folgenden Eigenscha
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>(Optional)</i> In der <code> Bibliothek "analytics.js"ist die interne Eigenschaft die minimierte Variable </code> "b" <code></code> . Diese Variable enthält <span class="keyword"> Google Analytics- </span> Daten. </p> <p>Diese Eigenschaft ist optional, da Sie sie nur festlegen müssen, wenn Google den Namen der internen Variablen ändert. Wenn diese minimierte Variable beispielsweise in <code> "a"geändert wird </code>, würden Sie <code> GA.submitUniversalAnalytics() aufrufen. wie </code> folgt: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>(Optional)</i> In der <code> analytics.js </code> Bibliothek ist die interne Eigenschaft die minimierte Variable <code> 'b' </code>. Diese Variable enthält <span class="keyword"> Google Analytics- </span> Daten. </p> <p>Diese Eigenschaft ist optional, da Sie sie nur festlegen müssen, wenn Google den Namen der internen Variablen ändert. Wenn diese minimierte Variable zum Beispiel in geändert wurde <code> 'a' </code>, würden Sie <code> GA.submitUniversalAnalytics(); </code> Folgendes aufrufen: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -200,12 +200,7 @@ var dilInstance = DIL.create({
 DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 ```
 
->[!MORE_LIKE_THIS]
->
->* [ga-Objektmethoden-Referenz](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-
-
-##  GA.init {#ga-init}
+## GA.init {#ga-init}
 
 Die `GA.init()` Funktion sendet Daten aus der veralteten/veralteten Version von an Audience Manager [!DNL Google Analytics] .
 
@@ -312,9 +307,10 @@ Der URL-Ereignisaufruf für Audience Manager könnte wie folgt aussehen:
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google Analytics-Trackingcode](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Vollständige Webaktualisierung: ga.js/dc.js auf analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
 >* [Hinzufügen von "analytics.js"zu Ihrer Site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [ga-Objektmethoden-Referenz](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
