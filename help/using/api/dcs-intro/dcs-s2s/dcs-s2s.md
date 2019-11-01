@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS-APIs für Server-zu-Server-Datenübertragungen
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -44,7 +44,7 @@ Wir werden neue Methoden hinzufügen, sobald sie verfügbar werden. Die ersten S
 * [Erhalten Sie Benutzer-IDs und Regionen mit der Experience Cloud ID...](dcs-mcid-ids.md)
 * [Ausführen von Server-zu-Server-DCS-API-Aufrufen](dcs-s2s-calls.md)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DCS API-Referenz](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
