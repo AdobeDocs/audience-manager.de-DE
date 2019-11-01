@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Zweck, Zusammensetzung und Regeln von Segmenten
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
-source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -48,7 +48,7 @@ Segmente verbessern sich bei standardmäßigen pixelbasierten Zielgruppenerstell
 * Senden von Segmentdaten an einen Zielpartner
 * Überwachen der Leistung mit Audience Manager-Berichten.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Signale, Eigenschaften und Segmente](../../reference/signal-trait-segment.md)
 
