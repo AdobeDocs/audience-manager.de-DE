@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zum Kundendatenfeed
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -83,7 +83,7 @@ Die Daten werden nach 8 (8) Tagen gelöscht.
 
 Sie können CDF-Dateien nur für die letzten 8 Tage erstellen. CDF-Dateien für Intervalle, die älter als die letzten 8 Tage sind, können nicht erneut generiert werden.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Kundendatenfeeds](../features/cdf-files.md)
 
