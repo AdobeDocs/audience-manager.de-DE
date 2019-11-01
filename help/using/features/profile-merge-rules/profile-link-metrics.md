@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Berichtsmetriken für Regeln zur Profilzusammenführung
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -116,7 +116,7 @@ Ein [!UICONTROL Profile Link Device Graph] Bericht, der Gerätediagrammdaten aus
 
 Zusätzlich zu den anderen Datenvisualisierungen enthalten [!UICONTROL Profile Link] Berichte ein Liniendiagramm. Das Liniendiagramm zeigt Ihnen Trends im Zeitverlauf für Ihre Profilregeln. Trenddiagramme (und andere Berichte) stehen zur Verfügung, wenn Sie auf eine Regel auf der [!UICONTROL Profile Merge Rules] Einstiegsseite ( **[!UICONTROL Audience Data > Profile Merge Rules]**) klicken. Diese Diagramme enthalten Gerätediagrammdaten, wenn Sie Mitglied der [!UICONTROL Device Co-op] oder anderer Gerätediagramme von Drittanbietern sind, auf die Sie möglicherweise Zugriff haben [!DNL Audience Manager]. Klicken Sie auf eine Trendlinie, um die zugrunde liegenden Daten anzuzeigen.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](../../faq/faq-profile-merge.md)
 
