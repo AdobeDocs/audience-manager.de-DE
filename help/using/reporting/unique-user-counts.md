@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Zählung individueller Benutzer in Überschneidungen und allgemeinen Berichten
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -33,7 +33,7 @@ Die Überschneidungsberichte zählen Benutzer als eindeutig, wenn sie sich für 
 
 Der Bericht "Allgemein"zählt Sitebesucher als eindeutig, wenn sie sich im ausgewählten Zeitraum für die Eigenschaft qualifiziert haben.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Interaktive Berichte](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [Allgemeine Berichte](../reporting/general-reports.md#general-reports-overview)
