@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Amazon S3-Anforderungen an Name und Dateigröße für eingehende Datendateien
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -151,7 +151,7 @@ Betrachten Sie die unten stehenden Zahlen für eine schnellste/früheste Verarbe
 >
 >Der Prozess der eingehenden Datenvalidierung markiert leere Dateien als ungültig und verarbeitet sie nicht.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [FTP-Namensanforderungen für Inbound-Datendateien](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
