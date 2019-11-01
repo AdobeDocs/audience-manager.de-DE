@@ -6,22 +6,22 @@ solution: Audience Manager
 title: Trait Recommendations
 uuid: null
 translation-type: tm+mt
-source-git-commit: a67998b925002438b20fdde81f1abec4acbd5602
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
 # Trait Recommendations
 
-Beim Erstellen Ihrer Segmente erhalten Sie Empfehlungen zu Eigenschaften im Live-Format.
+Erhalten Sie beim Erstellen Ihrer Segmente Live-Eigenschaftenempfehlungen aus Ihren eigenen Erstanbieter-Eigenschaften und [!UICONTROL Audience Marketplace] -Datenfeeds.
 
 ## Videodemonstration
 
-Beginnen Sie damit, sich das unten stehende [!UICONTROL Trait Recommendations] Video anzusehen, und lesen Sie es für weitere Informationen.
+Beginnen Sie damit, sich das unten stehende [!UICONTROL Trait Recommendations] Video anzusehen, und lesen Sie es für weitere Informationen. Die Videodemonstration zeigt Ihnen, wie Sie mit Empfehlungen aus Ihren eigenen Erstanbieter-Eigenschaften sowie mit Eigenschaftsempfehlungen aus [!UICONTROL Audience Marketplace] Datenfeeds arbeiten können, die *Sie bereits abonniert* haben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=ger)
 
-Im nächsten Video wird der Arbeitsablauf für [!UICONTROL Marketplace Recommendations]das Hinzufügen von Eigenschaftsempfehlungen zu Ihren Segmenten - von Datenfeeds in [!UICONTROL Audience Marketplace]- erläutert.
+Das nächste Video skizziert den Arbeitsablauf für [!UICONTROL Marketplace Recommendations]und zeigt Ihnen, wie Sie Ihren Segmenten Eigenschaften hinzufügen, basierend auf Empfehlungen aus Data Feeds in [!UICONTROL Audience Marketplace]. Diese Empfehlungen basieren auf Datenfeeds, die *Sie nicht abonniert* haben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=ger)
 
@@ -32,13 +32,13 @@ With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Se
 
 Audience Manager zeigt Ihnen Eigenschaftsempfehlungen sowohl aus Ihren Erstanbietereigenschaften, im **[!UICONTROL Recommendations]** Abschnitt als auch aus **[!UICONTROL Audience Marketplace]** dem **[!UICONTROL Recommendations from Marketplace]** Abschnitt an.
 
-![Übersicht über Traffic-Empfehlungen](assets/trait-recommendations-overview-full.png)
-
 Fügen Sie die empfohlenen Merkmale zu Ihrem Segment hinzu, um Ihre Zielgruppe zu erweitern.
+
+![Übersicht über Traffic-Empfehlungen](assets/trait-recommendations-overview-full.png)
 
 **Kurz gesagt:**
 
-* Audience Manager zeigt Eigenschaften von Erstanbietern im [!UICONTROL Recommendations] Abschnitt an. Empfehlungen von Marktplätzen aus öffentlichen und privaten Feeds, die Sie nicht abonniert haben, sind im [!UICONTROL Recommendations from Marketplace] Abschnitt sichtbar.
+* Audience Manager zeigt Eigenschaften von Erstanbietern im [!UICONTROL Recommendations] Abschnitt an. Empfehlungen von Marktplätzen aus öffentlichen und privaten Feeds, die Sie nicht abonniert haben, sind im [!UICONTROL Recommendations from Marketplace] Abschnitt sichtbar. Klicken Sie auf den Feed-Namen, um ihn aufzurufen [!UICONTROL Audience Marketplace] und abonnieren.
 * Audience Manager zeigt maximal fünfzig Eigenschaften an, die denen in der Segmentregel ähneln.
 * Sie können die Datenquellen herausfiltern, aus denen keine Empfehlungen angezeigt werden sollen.
 * Bei der Berechnung von Ähnlichkeiten berücksichtigt Audience Manager [UUIDs](../../reference/ids-in-aam.md) , die in den letzten 30 Tagen für die Eigenschaft qualifiziert waren.
@@ -50,6 +50,8 @@ Mit [!UICONTROL Trait Recommendations]dieser Funktion können Sie Ihre Arbeitsab
 
 * Als Marketingspezialist können Sie mithilfe ähnlicher Eigenschaften schnell Zielgruppen finden, die an ergänzenden Produkten interessiert sind, sodass Sie Ihre Reichweite erhöhen können.
 * Wenn Sie Audience Manager als Herausgeber verwenden, [!UICONTROL Trait Recommendations]können Sie das Verhalten der Zielgruppe verstehen und bessere Segmente für den Anzeigenverkauf oder die Benutzerakquise erstellen.
+* Als [!UICONTROL Audience Marketplace] Datenkäufer möchte ich relevante Drittanbieterdaten ermitteln, ohne eine große Anzahl von Feeds durchsuchen zu müssen.
+* Als [!UICONTROL Audience Marketplace] Datenanbieter möchte ich den Käufern relevante Daten empfehlen, damit ich von optimalen und relevanten Abonnements profitieren kann.
 
 ## Unterschiede zwischen Eigenschaftsempfehlungen und Algorithmusmodellen
 
@@ -79,7 +81,7 @@ Beim Erstellen oder Bearbeiten eines Segments im [Segmentaufbau](segment-builder
 
 1. Gehen Sie zu **Zielgruppendaten &gt; Segmente** und klicken Sie auf Neu **hinzufügen**.
 2. Fügen Sie der Segmentregel im Dropdownfeld **Eigenschaften** mindestens eine Eigenschaft hinzu.
-3. Sie können empfohlene Eigenschaften von Erstanbietern im **[!UICONTROL Recommendations]** Abschnitt und von Drittanbietern empfohlene Eigenschaften im **[!UICONTROL Recommendations from Marketplace]** Abschnitt anzeigen. Alle diese Empfehlungen ähneln den Eigenschaften, die Sie der Segmentregel hinzugefügt haben. Blättern Sie nach unten, um alle empfohlenen Eigenschaften anzuzeigen.
+3. Sie können empfohlene Eigenschaften und [!UICONTROL Audience Marketplace] Eigenschaftsempfehlungen von Erstanbietern aus Feeds, die Sie abonniert haben, im **[!UICONTROL Recommendations]** Abschnitt anzeigen. Der **[!UICONTROL Recommendations from Marketplace]** Abschnitt zeigt Empfehlungen zu Eigenschaften von Feeds an, die Sie nicht abonniert haben. Alle diese Empfehlungen ähneln den Eigenschaften, die Sie der Segmentregel hinzugefügt haben. Blättern Sie nach unten, um alle empfohlenen Eigenschaften anzuzeigen.
 4. (Optional) Um empfohlene Erstanbieter-Eigenschaften aus bestimmten Datenquellen auszuschließen, klicken Sie auf das **X** -Symbol für die Datenquellen, die Sie ausschließen möchten.
    > [!NOTE]
    >
@@ -134,7 +136,7 @@ Wenn Sie auf eine Eigenschaft eines Erstanbieters klicken, wird ein Popup-Fenste
 
 Um Eigenschaftsempfehlungen zu erstellen, berechnet Audience Manager die [Jaccard-Ähnlichkeit](https://en.wikipedia.org/wiki/Jaccard_index) zwischen der Zieleigenschaft und allen anderen Eigenschaften, auf die Ihr Konto Zugriff hat, einschließlich Drittanbieterdaten. Audience Manager zeigt dann bis zu fünfzig Eigenschaften mit der höchsten Ähnlichkeit an.
 
-## Ähnlichkeitsbewertung
+## Ähnlichkeitsbewertung {#trait-similarity-score}
 
 Audience Manager berechnet die [!UICONTROL Trait Similarity Score] Werte zwischen zwei Eigenschaften, indem Schnittmenge und Vereinigung im Hinblick auf die Anzahl der [!UICONTROL UUID]s berechnet und dann die beiden dividiert werden. Für zwei Eigenschaften A und B sieht die Berechnung wie folgt aus:
 
@@ -151,7 +153,7 @@ Wenn Sie die obige Formel verwenden, führt dies zu Folgendem: 25.000 / 1.975.00
 
 ### Beispiel 2 - Bewertung der Ähnlichkeit von Eigenschaften
 
-Wenn dieselben Eigenschaften A und B 400.000 [!UICONTRL ]UUIDs enthielten, die für beide Eigenschaften infrage kommen, [!UICONTROL Trait Similarity Score] ist der Wert viel höher:
+Wenn dieselben Eigenschaften A und B 400.000 [!UICONTROL UUID]s hatten, die für beide Eigenschaften infrage kommen, ist der Wert [!UICONTROL Trait Similarity Score] viel höher:
 400.000 / 1.600.000 = 0,25
 
 ![Eigenschaften-Empfehlungen-hohe Überschneidung](assets/Trait-Recommendations-High-overlap.png)
@@ -169,7 +171,13 @@ Verwenden Sie die unten stehende Tabelle als grobe Hilfslinie, um Ähnlichkeiten
 
 ## Rollenbasierte Zugriffssteuerung (RBAC)
 
-Für Unternehmen, die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]) verwenden, benötigen Sie die Berechtigung zum Erstellen und Bearbeiten von Segmenten, um empfohlene Eigenschaften anzuzeigen. Die empfohlenen Eigenschaften, die Sie sehen, sind nur diejenigen aus Datenquellen, auf die Sie über [!UICONTROL RBAC]Zugriff haben. Lesen Sie mehr über [!UICONTROL RBAC] Steuerelemente [hier](../administration/administration-overview.md).
+Für Unternehmen, die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]) verwenden, benötigen Sie die Berechtigung zum Erstellen und Bearbeiten von Segmenten, um empfohlene Eigenschaften anzuzeigen. Die angezeigten Eigenschaftenempfehlungen sind nur diejenigen aus Datenquellen, auf die Sie über [!UICONTROL RBAC]Zugriff haben.
+
+> [!IMPORTANT]
+>
+> Um einem Segment [!UICONTROL Marketplace Recommendations] hinzuzufügen, müssen Benutzer zunächst die entsprechenden Datenfeeds abonnieren. Nur Benutzer mit Administratorrechten können [!UICONTROL Audience Marketplace] Datenfeeds abonnieren.
+
+Lesen Sie mehr über [!UICONTROL RBAC] Steuerelemente [hier](../administration/administration-overview.md).
 
 ## Einschränkungen
 
