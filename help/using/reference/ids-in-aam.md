@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Index der IDs in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 translation-type: tm+mt
-source-git-commit: 7e553755d4510dc6803e77cca7d567e0d6e7cb2d
+source-git-commit: 7d168c754a9b99dfd88718a0c27c34f3c1dc61d5
 
 ---
 
@@ -34,13 +34,13 @@ Die vollständige Liste der Adobe Audience Manager-IDs finden Sie in diesem Doku
 
 ## Globale Geräte-IDs {#global-device-ids}
 
-Globale Geräte-IDs sind Anzeigen-IDs für Geräte, die für jedes Gerät einzeln vom Gerätehersteller oder vom Betriebssystem bereitgestellt werden. In der folgenden Tabelle werden die IDs und ihr Format erläutert.
+Globale Geräte-IDs sind Anzeigen-IDs für Geräte, die für jedes Gerät einzeln vom Gerätehersteller oder vom Betriebssystem bereitgestellt werden. In der folgenden Tabelle werden die IDs und ihr Format erläutert. Weitere Informationen zu globalen Geräte-IDs und ihrer Verwendung in Audience Manager finden Sie unter [Globale Datenquellen](/help/using/features/global-data-sources.md).
 
-| ID | Name und Beschreibung | Beispiel  |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [!DNL IDFA] | [!DNL Identifier for Advertisers] IDs sind vom Gerätehersteller bereitgestellte Mobilgerätekennungen. Diese IDs stellen Geräte dar, auf denen das iOS-Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Großbuchstaben, die in fünf Gruppen angezeigt und durch Bindestriche getrennt werden, im Format 8-4-4-4-12, mit einer Gesamtlänge von 36 Zeichen.<br> Beispiel: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
-| [!DNL GAID] | [!DNL Google Advertising ID]s sind Mobilgerätekennungen, die von Android-Geräteherstellern bereitgestellt werden. Diese IDs stellen Geräte dar, auf denen das [!DNL Android] Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
-| [!DNL RIDA] | [!DNL Roku IDs for Advertising] repräsentieren [!DNL Roku] Streaming-Geräte. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`. |
-| [!DNL MAID] | [!DNL Microsoft Advertising ID]s sind Geräte-IDs, die von [!DNL Windows 10] pro Gerät und pro Benutzer generiert werden. | [!DNL MAID]s werden als alphanumerische Zeichenfolgen formatiert. |
-| [!DNL DUID] | [!DNL Samsung DUID]s sind Gerätekennungen, die von Samsung Smart TVs bereitgestellt werden. | Samsung [!DNL DUID]s werden als alphanumerische Zeichenfolgen formatiert. |
-| [!DNL Amazon Fire TV Advertising ID] | Geräte-IDs, die Geräte darstellen, auf denen das [!DNL Fire OS] Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `df07c7dc-cea7-4a89-b328-810ff5acb15d` |
+| ID | Globale Datenquelle-ID | Name und Beschreibung | Beispiel  |
+| --------------------- | ------ | ------------ | ---------------- |
+| [!DNL IDFA] | 20915 | [!DNL Identifier for Advertisers] IDs sind vom Gerätehersteller bereitgestellte Mobilgerätekennungen. Diese IDs stellen Geräte dar, auf denen das iOS-Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Großbuchstaben, die in fünf Gruppen angezeigt und durch Bindestriche getrennt werden, im Format 8-4-4-4-12, mit einer Gesamtlänge von 36 Zeichen.<br> Beispiel: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
+| [!DNL GAID] | 20914 | [!DNL Google Advertising ID]s sind Mobilgerätekennungen, die von Android-Geräteherstellern bereitgestellt werden. Diese IDs stellen Geräte dar, auf denen das [!DNL Android] Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
+| [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] repräsentieren [!DNL Roku] Streaming-Geräte. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`. |
+| [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID]s sind Geräte-IDs, die von [!DNL Windows 10] pro Gerät und pro Benutzer generiert werden. | [!DNL MAID]s werden als alphanumerische Zeichenfolgen formatiert. |
+| [!DNL DUID] | 404660 | [!DNL Samsung DUID]s sind Gerätekennungen, die von Samsung Smart TVs bereitgestellt werden. | Samsung [!DNL DUID]s werden als alphanumerische Zeichenfolgen formatiert. |
+| [!DNL Amazon Fire TV Advertising ID] | 488258 | Geräte-IDs, die Geräte darstellen, auf denen das [!DNL Fire OS] Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `df07c7dc-cea7-4a89-b328-810ff5acb15d` |
