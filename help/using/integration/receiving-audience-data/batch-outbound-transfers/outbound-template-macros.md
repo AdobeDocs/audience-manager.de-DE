@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ausgehende Vorlagenmakros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
 
 ---
 
@@ -38,6 +38,10 @@ In der Tabelle sind die Makros aufgeführt und beschrieben, die Sie im Dateiname
   <tr> 
    <td colname="col1"> <p> <code> MASTER_DPID </code> </p> </td> 
    <td colname="col2"> <p>Benutzer-ID-Schlüssel Datenanbieter-ID. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> NEW_LINE </code> </p> </td> 
+   <td colname="col2"> <p> Ermöglicht die Erstellung von mehrzeiligen Kopfzeilen für ausgehende Bestellungen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
@@ -161,7 +165,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>Gibt eine Liste der Segmente in einer Liste zurück. Akzeptiert die folgenden optionalen Argumente: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>:Segment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: Segment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Kunden-Segment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: Segment-ID </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Gibt <code> 5 </code>einen statischen, fest programmierten Wert zurück, der Daten als Segmentdaten identifiziert. </li> 
