@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
 
 ---
 
@@ -39,7 +39,7 @@ Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20191015.xlsm)** he
 Zur Verwendung der [!DNL Bulk Management Tools]Variablen benötigen Sie Folgendes:
 
 * Ihre [!DNL Experience Cloud] Anmeldung. Als Kunde sollten Sie bereits über diese Anmeldeinformationen verfügen.
-* Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) herunter, um die neueste Version zu erhalten.
+* Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](assets/BAAAM_V2_20191015.xlsm) herunter, um die neueste Version zu erhalten.
 * Microsoft Excel wird auf [!DNL macOS] oder 64 Bit ausgeführt [!DNL Microsoft Windows].
 * Beim Öffnen des Arbeitsblatts müssen Sie Makros **** aktivieren, damit das Arbeitsblatt funktioniert [!DNL Bulk Management Tools] .
 
@@ -118,10 +118,4 @@ Sehen wir uns an, wie Sie mehrere Eigenschaften gleichzeitig erstellen. So erste
 >[!NOTE]
 >
 >Beim Arbeiten mit großen Anforderungen reagiert das Arbeitsblatt möglicherweise nicht mehr und scheint inaktiv zu sein. In diesen Fällen lassen Sie es einfach in Ruhe. Das Arbeitsblatt reagiert, wenn die Massenanforderung abgeschlossen ist. Wenn das Arbeitsblatt über einen langen Zeitraum nicht reagiert, finden Sie weitere Informationen im Abschnitt [Fehlerbehebung](../../reference/bulk-management-tools/bulk-troubleshooting.md).
-
-
-
->[!MORELIKETHIS]
->
->* [Massenverwaltungsarbeitsblatt herunterladen](assets/BAAAM_August_2018.xlsm)
 
