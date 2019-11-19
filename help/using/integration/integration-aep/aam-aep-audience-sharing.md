@@ -4,9 +4,9 @@ seo-description: In diesem Artikel wird beschrieben, wie Zielgruppen von Audienc
 seo-title: Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform
 solution: Audience Manager
 title: Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform
-keywords: Freigabe von AEP-Zielgruppen, AEP-Segmente, Plattformsegmente, Segmentfreigabe, Freigabe von Zielgruppen
+keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
 translation-type: tm+mt
-source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
+source-git-commit: b3f7ee5730ed91c656f0dea1bacfabad703755fd
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
 
 >[!NOTE]
 >
->Diese Seite enthält eine Beta-Dokumentation, in der die Funktionen beschrieben werden, die Kunden von Audience Manager *und* Adobe Experience Platform zur Verfügung stehen. Diese Dokumentation kann vor der endgültigen Produktversion geändert werden.
+> Die auf dieser Seite beschriebene Funktionalität steht Kunden von Audience Manager und Adobe Experience Platform zur Verfügung.
 >
 > Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter, um den Zugriff auf diese Funktion freizugeben.
 
