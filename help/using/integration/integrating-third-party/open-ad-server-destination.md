@@ -77,8 +77,8 @@ So füllen Sie den [!UICONTROL Configuration] Abschnitt aus:
 So fügen Sie einem Cookie-Ziel ein Segment hinzu:
 
 1. **** Segmente suchen: Der [!UICONTROL Segment Mappings] Abschnitt enthält zwei Suchwerkzeuge, die Ihnen bei der Suche nach Segmenten helfen. So suchen Sie ein Segment:
-   * Option 1: Geben Sie einen Segmentnamen in das Suchfeld ein. Das Feld wird automatisch anhand des Textes aktualisiert. Klicken Sie auf **[!UICONTROL Add]** , sobald Sie das gewünschte Segment gefunden haben.
-   * Option 2: Klicken Sie auf **[!UICONTROL Browse All Segments]** , um ein Fenster zu öffnen, in dem Sie nach Namen oder Speicherort nach Segmenten suchen können. Click **[!UICONTROL Add Selected Segments]** when done.
+    * Option 1: Geben Sie einen Segmentnamen in das Suchfeld ein. Das Feld wird automatisch anhand des Textes aktualisiert. Klicken Sie auf **[!UICONTROL Add]** , sobald Sie das gewünschte Segment gefunden haben.
+    * Option 2: Klicken Sie auf **[!UICONTROL Browse All Segments]** , um ein Fenster zu öffnen, in dem Sie nach Namen oder Speicherort nach Segmenten suchen können. Click **[!UICONTROL Add Selected Segments]** when done.
 1. **** Zuordnungen hinzufügen: Geben Sie im Popup für Zuordnungen die Segment-ID in das Zuordnungsfeld ein und klicken Sie auf **[!UICONTROL Save]**.
 1. Klicken Sie auf **[!UICONTROL Done]**.
 
