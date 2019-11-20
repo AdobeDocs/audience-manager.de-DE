@@ -5,7 +5,7 @@ seo-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als geräte
 solution: Audience Manager
 title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
 translation-type: tm+mt
-source-git-commit: 4af2d7a4e2162f8d69273cf76aecb5f1ff00e7b6
+source-git-commit: 0f1ab99b648dd6e1eda5f2e5b6bd1f620c0331ee
 
 ---
 
