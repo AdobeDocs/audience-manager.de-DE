@@ -2,11 +2,11 @@
 description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
 seo-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
 seo-title: Adobe Audience Manager Technology Partners
-keywords: Aktivierung; Aktivierungspartner, Ziel, Ziele
+keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 
 ---
 
@@ -18,8 +18,8 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 <br> 
 
 * **Aktualisiert** = Zeigt das letzte Datum an, an dem ein Update für diesen Aktivierungspartner vorgenommen wurde.
-* **Unsegment** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Regel zur Profilzusammenführung verwendet wird. Die Aufhebung der Segmentierung wird auch im Zusammenhang mit GDPR-Löschanforderungen verwendet, die [Profile Merge Rules und Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) und [Audience Manager Partner mit Unsegmentierungsfunktionen](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation)lesen. Audience Manager sendet Segmentinformationen an die Ziele, die mit "Ja"gekennzeichnet sind.
-* **Das Empfangen von IAB TCF-Zustimmungssignalen** = Das Audience Manager-Plug-in für IAB TCF ermöglicht es Ihnen, die IAB-TCF-Zustimmungszeichenfolge an Aktivierungspartner weiterzuleiten und dabei die Datenschutzeinstellungen der Benutzer zu beachten. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
+* **Unsegment** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Regel zur Profilzusammenführung verwendet wird. Die Aufhebung der Segmentierung wird auch im Zusammenhang mit GDPR-Löschanforderungen verwendet, die [Profile Merge Rules und Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) und [Audience Manager Partner mit Unsegmentierungsfunktionen](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)lesen. Audience Manager sendet Segmentinformationen an die Ziele, die mit "Ja"gekennzeichnet sind.
+* **Das Empfangen von IAB TCF-Zustimmungssignalen** = Das Audience Manager-Plug-in für IAB TCF ermöglicht es Ihnen, die IAB-TCF-Zustimmungszeichenfolge an Aktivierungspartner weiterzuleiten und dabei die Datenschutzeinstellungen der Benutzer zu beachten. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = Diese Spalte listet die Partner auf, die die sofortige geräteübergreifende Unterdrückung unterstützen. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **Mobilgerät-IDs** = In dieser Spalte werden Partner aufgeführt, die Mobilgeräte-IDs aus Audience Manager empfangen können.
 
