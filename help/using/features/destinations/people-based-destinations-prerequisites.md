@@ -5,7 +5,7 @@ seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Erwägungen
 translation-type: tm+mt
-source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
+source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 ---
 
@@ -77,7 +77,7 @@ Da [!DNL People-Based Destinations] Sie die Aktivierung von Erstanbieter-Zielgru
 
 Bevor Sie sich für anmelden, [!DNL People-Based Destinations]müssen Sie die Zustimmung Ihrer Kunden einholen, bevor Sie ihre Informationen für Werbezwecke verwenden.
 
-Falls Ihre Kunden Werbekampagnen ausschließen möchten, finden Sie unter [Opt-out-Verwaltung](../../overview/data-security-and-privacy/opt-out-management.md) weitere Informationen dazu, wie Sie Audience Manager daran hindern können, Daten weiter zu erfassen.
+Falls Ihre Kunden Werbekampagnen ausschließen möchten, finden Sie unter [Opt-out-Verwaltung](../../overview/data-security-and-privacy/data-privacy-requests.md) weitere Informationen dazu, wie Sie Audience Manager daran hindern können, Daten weiter zu erfassen.
 
 ## Erstanbieter-Datenaktivierung forcieren {#enforcing-first-party-activation}
 
