@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Übersicht über Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
+source-git-commit: 77b13fc37aa0a61b0740ff8c2694e11e2349ec12
 
 ---
 
@@ -21,12 +21,6 @@ Mit Audience Manager sind Sie nicht an eine Datenverkäufer-, Austausch- oder na
 
 Audience Manager wurde 2008 als Demdex gestartet. Es wurde 2011 von Adobe Systems erworben und anschließend als Audience Manager umbenannt.
 
-<!-- 
-
-c_history_and_background.xml
-
- -->
-
 ## Verlauf {#history}
 
 Seit 2008 ist Audience Manager (ehemals [!UICONTROL Demdex]) ein Pionier auf dem Markt für das Online-Zielgruppen-Management. Audience Manager-Dienste nutzen dynamische, mehrkanalige Online-Datenstrategien. Unsere Plattform und unsere Dienstleistungen werden von einer Vielzahl unterschiedlicher Branchen genutzt, von Automobilen (AutoTrader) über Fluggesellschaften (American Airlines) bis hin zu Finanzdienstleistungsunternehmen (American Express). Audience Manager nutzt Technologien auf Unternehmensebene, um die Skalierbarkeit, Zuverlässigkeit, Analyse und Leistung bereitzustellen und Ihrem Unternehmen den Online-Erfolg zu ermöglichen. Audience Manager kann mit der Adobe Experience Cloud integriert werden, um Sie bei der Zentralisierung, Verwaltung und Durchführung von Aktionen für Ihre Datenelemente in einer wachsenden Anzahl von digital adressierbaren Kanälen zu unterstützen.
@@ -36,4 +30,3 @@ Seit 2008 ist Audience Manager (ehemals [!UICONTROL Demdex]) ein Pionier auf dem
 Audience Manager unterstützt Sie bei der Verwaltung Ihrer Datenpipeline. Unser Service ist ein Katalysator, der generische Benutzer und Rohdatensignale in tatsächliche Zielgruppensegmente umwandelt, die für Marketingbemühungen über mehrere Kanäle verwendet werden. Darüber hinaus bietet Audience Manager Tools für Tag-Management und Zielgruppenanalyse, die gleichzeitig den Datenschutz- und Datensicherheitsanforderungen von Kunden und Verbrauchern entsprechen.
 
 ![](assets/am_overview_80.png)
-
