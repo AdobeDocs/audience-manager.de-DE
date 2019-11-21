@@ -4,9 +4,9 @@ seo-description: Beschreibt die Syntax und die Parameter, die beim ersten HTTP-A
 seo-title: ID-Synchronisierung für eingehende Datenübertragungen
 solution: Audience Manager
 title: ID-Synchronisierung für eingehende Datenübertragungen
-uuid: 037e74a6-acfd-4cef-b693-16b7aa8e976
+uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -61,11 +61,11 @@ Die Variablen [!DNL URL] für Ihren Aufruf zur ID-Synchronisierung mit Inbound s
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Optional. Fügen Sie diesen Parameter hinzu, wenn Sie das <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager-Plugin für die IAB-TCF verwenden.</a></p> <p><code> gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen. </p> <p> <b></b> Hinweis: Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr_consent</code>.</p></td> 
+   <td colname="col2"> <p>Optional. Fügen Sie diesen Parameter hinzu, wenn Sie das <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plugin für die IAB-TCF verwenden.</a></p> <p><code> gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen. </p> <p> <b></b> Hinweis: Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Optional. Fügen Sie diesen Parameter hinzu, wenn Sie das <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager-Plugin für die IAB-TCF verwenden.</a></p> <p><code>gdpr_consent</code> ist die URL-sichere Base64-kodierte GDPR-Zustimmungszeichenfolge (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-Spezifikation</a>). </p> <p> <b></b> Hinweis: Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Optional. Fügen Sie diesen Parameter hinzu, wenn Sie das <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plugin für die IAB-TCF verwenden.</a></p> <p><code>gdpr_consent</code> ist die URL-sichere Base64-kodierte GDPR-Zustimmungszeichenfolge (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-Spezifikation</a>). </p> <p> <b></b> Hinweis: Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
