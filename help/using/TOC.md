@@ -1,10 +1,10 @@
 ---
 product: audience-manager
 audience: end-user
-user-guide-title: Audience Manager-Benutzerhandbuch
+user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: a5411ff8ff852cc02607e4a624075bf0e1828ee9
 
 ---
 
@@ -15,16 +15,20 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 + Überblick{#overview}
    + [Übersicht über Audience Manager](overview/aam-overview.md)
    + [Datenerfassungstypen](overview/data-types-collected.md)
-   + Data Security and Privacy {#data-security-and-privacy}
-      + [Übersicht](overview/data-security-and-privacy/data-security-privacy-overview.md)
-      + [Datensicherheit](overview/data-security-and-privacy/data-security.md)
-      + [Datenschutz](overview/data-security-and-privacy/data-privacy.md)
-      + [Abmeldeverwaltung](overview/data-security-and-privacy/opt-out-management.md)
-   + Allgemeine Datenschutzverordnung{#gdpr}
-      + [DSGVO im Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
-      + [GDPR-Überlegungen zu Zielen](overview/aam-gdpr/aam-gdpr-partners.md)
-      + [Häufig gestellte Fragen zur DSGVO](overview/aam-gdpr/aam-gdpr-faq.md)
-      + [Audience Manager Plug-In für IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+   + [Datensicherheit](overview/data-security-and-privacy/data-security.md)
+   + Datenschutz{#data-privacy}
+      + [Datenschutz-Übersicht](overview/data-security-and-privacy/data-privacy.md)
+      + [Datenschutzanforderungen](overview/data-security-and-privacy/data-privacy-requests.md)
+      + Datenschutzreferenz {#data-privacy-reference}
+         + [Audience Manager-IDs](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [CCPA-Glossar](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+         + [Glossar](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [GDPR-Überlegungen zu Zielen](overview/data-security-and-privacy/aam-gdpr-partners.md)
+         + [GDPR-Versionshinweise für Audience Manager-Kunden](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+      + Genehmigungsverwaltung {#consent-management}
+         + [Genehmigungsverwaltung](overview/data-security-and-privacy/data-privacy-consent.md)
+         + [Audience Manager Plug-In für IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
+   + [Datenverwaltung](overview/data-security-and-privacy/data-governance.md)
 + Funktionen{#features}
    + [Addressable Audiences](features/addressable-audiences.md)
    + Administration{#administration}
@@ -36,7 +40,7 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
       + [Algorithmische Modelle](features/algorithmic-models/understanding-models.md)
       + [Algorithmisches Modell erstellen](features/algorithmic-models/create-model.md)
       + [Algorithmische Modelle: Eigenschaftsausschluss](features/algorithmic-models/trait-exclusion-algo-models.md)
-   + Audience Lab{#audience-lab}
+   +  Audience Lab{#audience-lab}
       + [Übersicht über Audience Lab](features/audience-lab/audience-lab.md)
       + [Verwalten von Testgruppen](features/audience-lab/audience-lab-manage-test-groups.md)
       + [Gruppeninformationen testen](features/audience-lab/audience-lab-information-view.md)
