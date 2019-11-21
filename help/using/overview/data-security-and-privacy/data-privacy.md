@@ -1,99 +1,58 @@
 ---
 description: Beschreibt die Integration von Audience Manager und die Einhaltung allgemein anerkannter bewährter Verfahren zum Schutz der Privatsphäre von Verbrauchern und Ausschluss-Verfahren.
 seo-description: Beschreibt die Integration von Audience Manager und die Einhaltung allgemein anerkannter bewährter Verfahren zum Schutz der Privatsphäre von Verbrauchern und Ausschluss-Verfahren.
-seo-title: Datenschutz
+seo-title: Datenschutz-Übersicht
 solution: Audience Manager
-title: Datenschutz
+title: Datenschutz-Übersicht
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ---
 
 
-# Datenschutz{#data-privacy}
+# Datenschutz-Übersicht {#data-privacy}
 
-Beschreibt die Integration von Audience Manager und die Einhaltung allgemein anerkannter bewährter Verfahren zum Schutz der Privatsphäre von Verbrauchern und Ausschluss-Verfahren.
+## Überblick
 
-## Datenschutz{#data-privacy-center}
+In der Dokumentation zum Datenschutz werden die Integration von Audience Manager und die Einhaltung allgemein anerkannter Best Practices zum Schutz der Privatsphäre von Kunden und Ausschluss-Verfahren beschrieben.
 
-See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
-
-## Verbraucherschutz {#consumer-privacy-protection}
-
-Audience Manager erkennt den impliziten Pakt zwischen Verbrauchern und den Online-Marken, mit denen sie interagieren. Beide Parteien profitieren vom transparenten Austausch anonymer Datenelemente:
+Audience Manager erkennt die Bedeutung der Beziehung zwischen Verbrauchern und den Online-Marken, mit denen sie interagieren. Beide Parteien profitieren vom transparenten Austausch anonymer Datenelemente:
 
 * Kunden erhalten personalisierte Inhalte, reduzierte Produktangebote und optimierte Benutzererfahrungen.
 * Marken erhalten wichtige Umsatzströme, die mehrere Online-Geschäftsmodelle unterstützen.
 
-Durch unsere fortwährende Unterstützung dieses Modells setzt sich Audience Manager weiterhin für Transparenz und Kontrolle der Verbraucher ein und setzt sich dafür ein, die Selbstregulierungsgrundsätze der Online-verhaltensbasierten Werbung (OBA) einzuhalten oder zu übertreffen.
+Durch unsere fortwährende Unterstützung dieses Modells wird Audience Manager Ihnen weiterhin die Werkzeuge zur Verfügung stellen, mit denen Sie Ihre Fähigkeit zur Transparenz und Kontrolle Ihrer Kunden unterstützen können. Gleichzeitig bieten wir Ihnen personalisierte Anzeigen gemäß den Selbstregulierungsgrundsätzen der [Online-verhaltensbasierten Werbung (OBA) an](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
-## Abmeldeverwaltung {#opt-out-management}
+ 
 
-Die Ausschluss-Dokumentation wurde erweitert und in einen anderen Teil unserer Dokumentation verschoben. Siehe [Abmeldeverwaltung](../../overview/data-security-and-privacy/opt-out-management.md).
+Mit der [allgemeinen Datenschutzverordnung (GDPR)](https://eugdpr.org/) wurden mehrere neue Datenschutzrechte für Mitglieder der Europäischen Union eingeführt, darunter das **Recht auf Zugang** und das **Recht auf Vergessenwerden**. Das bedeutet, dass jeder EU-Bürger, dessen personenbezogene Daten von Ihrem Unternehmen gesammelt wurden, jederzeit den Zugriff auf seine Daten oder deren Löschung beantragen kann. Werden diese Anforderungen nicht erfüllt, kann dies zu Geldstrafen in Höhe von mehreren Millionen Dollar für Ihr Unternehmen führen.
 
-<!-- 
+Zur Einhaltung des GDPR unterstützt Audience Manager den Datenzugriff und das Löschen von [Anforderungen](data-privacy-requests.md).
 
-<p>  </p>
-<table id="table_A1FF33B328BD451FAFF6C6B8422F928B"> 
- <tgroup cols="2">
-  <colspec colnum="1" colname="col1" colwidth="1.00*" />
-  <colspec colnum="2" colname="col2" colwidth="2.74*" />
-  <thead> 
-   <tr> 
-    <th colname="col1" class="entry"> Opt-Out For </th> 
-    <th colname="col2" class="entry"> Description </th> 
-   </tr>
-  </thead> 
-  <tbody> 
-   <tr> 
-    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-    <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page</a> provides 1-click features that let you control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section</a> of the Privacy Choices page. </p> </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>Browsers that do not support third-party cookies </p> </td> 
-    <td colname="col2"> <p>See <a href="../../features/declared-ids.md#declared-id-targeting"> Declared ID Targeting</a>. </p> </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>Mobile devices </p> </td> 
-    <td colname="col2"> <p>See the opt-out and privacy settings for: </p> <p> 
-      <ul id="ul_86EFAB879215403D937B5148C26A41D9"> 
-       <li id="li_C0B544E8F4FE473B94A5436D3A60BDB1"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Android devices</a> </li> 
-       <li id="li_26C787BAB729499A9FEDF055E9AB0637"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> iOS devices</a> </li> 
-      </ul> </p> </td> 
-   </tr> 
-  </tbody> 
- </tgroup> 
-</table>
+Das [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), das am 1. Januar 2020 in Kraft tritt, wird kalifornischen Einwohnern neue Rechte in Bezug auf ihre personenbezogenen Daten einräumen und bestimmten Stellen, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auferlegen.
 
- -->
+Das CCPA bietet kalifornischen Einwohnern neue Datenschutzrechte, darunter das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen und zu wissen, ob ihre personenbezogenen Daten verkauft oder offen gelegt werden (und wem). In Erwartung der CCPA unterstützt Audience Manager den Zugriff auf CCPA und das Löschen von [Anforderungen](data-privacy-requests.md).
 
-## Erfassen von IP-Adressen und IP-Adressenverschleierung {#collecting-ip-addresses}
+Weitere Informationen finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) .
 
-<!-- 
+## Compliance {#compliance}
 
-Adobe has enabled processes and offers settings that allow customers to use Audience Manager in compliance with applicable data privacy laws.
+Audience Manager unterstützt Sie bei der Erfüllung Ihrer Verpflichtungen aus bestimmten Datenschutzbestimmungen durch Datenschutzwerkzeuge wie den [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) für den Datenzugriff und das Löschen von Anforderungen.
 
--->
+Dieser Dienst bietet eine [!DNL RESTful API] Benutzeroberfläche, die Sie bei der Verwaltung von Verbraucherdatenanforderungen unterstützt. Mithilfe des [Datenschutzdienstes](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)können Sie auf Anfrage eines einzelnen Verbrauchers Anfragen zum Zugriff auf und zum Löschen von privaten oder persönlichen Daten einreichen, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
 
-The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
-
-**** IP-Verschleierungsmethode: Gemäß den Grundsätzen von "Privacy By Design"ermöglicht Adobe Audience Manager Kunden, Verschleierung über die Benutzeroberfläche zu aktivieren, entweder global über alle geografischen Regionen oder für bestimmte Länder. [!DNL IP] Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der [!DNL IP] Adresse sofort verworfen, wenn die [!DNL IP] Adresse in Audience Manager aufgenommen wird. Audience Manager verwirft diesen Teil der [!DNL IP] Adresse vor der Verarbeitung (auch vor einer optionalen geografischen Suche oder Protokollierung der [!DNL IP] Adresse). Beispiel:
-
-* Bevor: `255.255.255.255`
-* Nachher: `255.255.255.0`
-
->[!NOTE]
->
->Siehe [IP-Adressenverschleierung](/help/using/features/administration/ip-obfuscation.md) , um zu erfahren, wie Sie die [!DNL IP] Adressenverschleierung in der Benutzeroberfläche von Audience Manager aktivieren.
-
-Sehen Sie sich das unten stehende Video an, um zu verstehen, wie [!DNL IP] Adressenverschleierung in Audience Manager funktioniert.
-
->[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=ger)
-
-**** Geografische Segmentierung: Wenn Sie die [!DNL IP] Adressenverschleierung aktivieren, können die verbleibenden Oktette der [!DNL IP] Adresse weiterhin für die Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die [!DNL IP] Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige [!DNL IP] Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie einen Standort in jedem Fall nach geografischem Gebiet identifizieren können, allerdings mit etwas geringer Präzision, wenn [!DNL IP] [!DNL IP] Verschleierung verwendet wird. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentdaten sind nur auf der Ebene der Stadt oder der Postleitzahl granular und nicht auf der Ebene der einzelnen Personen. Erfahren Sie mehr über das [Geo-Targeting](/help/using/features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
+Während Datenzugriffs- und Löschanforderungen über den [Datenschutzdienst](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)verarbeitet werden, werden [Abmeldeanforderungen](data-privacy-requests.md#opt-out-requests) derzeit über die [DCS-API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)unterstützt. Weitere Informationen finden Sie unter [Datenschutzanforderungen](data-privacy-requests.md) .
 
 ## Verwandte Konzepte {#related-concepts}
 
-* [Abmeldeverwaltung](/help/using/overview/data-security-and-privacy/opt-out-management.md)
-* [Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung](/help/using/faq/faq-privacy.md)
+* [Datenschutzanforderungen](data-privacy-requests.md)
+* [Genehmigungsverwaltung](data-privacy-consent.md)
+* [Audience Manager Plug-In für IAB TCF](aam-iab-plugin.md)
+* [Audience Manager-IDs](data-privacy-ids.md)
+* [CCPA-Glossar](aam-ccpa-glossary.md)
+* [Glossar](aam-gdpr-glossary.md)
+* [GDPR-Überlegungen zu Zielen](aam-gdpr-partners.md)
+* [GDPR-Versionshinweise für Audience Manager-Kunden](aam-gdpr-readiness.md)
+* [Datenverwaltung](data-governance.md)
+* [Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung](../../faq/faq-privacy.md)
