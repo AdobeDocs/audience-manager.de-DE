@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ID-Synchronisierung für ausgehende Datenübertragungen
 uuid: f3849be8-1094-47db-9296-7482f020af18
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -60,7 +60,7 @@ Die Variablen [!DNL URL] für Ihren Aufruf zur ID-Synchronisierung mit Inbound s
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen.</p><p><b>Hinweis:</b> <ul><li>Die <code>gdpr</code> und <code>gdpr_consent</code> Parameter werden schrittweise in URLs zur ID-Synchronisierung mit Aktivierungspartnern bereitgestellt. Siehe Aktivierungspartner, die die IAB-TCF im <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager-Plugin für die IAB-TCF unterstützen.</a></li><li>Dieser Parameter kann nur zusammen mit <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen.</p><p><b>Hinweis:</b> <ul><li>Die <code>gdpr</code> und <code>gdpr_consent</code> Parameter werden schrittweise in URLs zur ID-Synchronisierung mit Aktivierungspartnern bereitgestellt. Siehe Aktivierungspartner, die die IAB-TCF im <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager-Plugin für die IAB-TCF unterstützen.</a></li><li>Dieser Parameter kann nur zusammen mit <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
