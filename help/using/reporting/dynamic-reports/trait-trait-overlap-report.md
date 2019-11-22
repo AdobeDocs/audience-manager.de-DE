@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Überschneidungsbericht zwischen Eigenschaften
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -68,36 +68,44 @@ Das Popup für den [!UICONTROL Trait-to-Trait Overlap] Bericht enthält die folg
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Name des Datenanbieters</span></b> </td> 
-   <td colname="col2"> Name des Eigentümers der Eigenschaft. </td> 
+   <td colname="col1"><b><span class="wintitle"> Überschneidung %</span></b> </td> 
+   <td colname="col2"> Zeigt die % der eindeutigen Überschneidung zwischen den verglichenen Eigenschaften (Überschneidung von Uniques/Eigenschaften). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Datenanbietertyp</span></b> </td> 
-   <td colname="col2">Definiert den Provider-Typ, zu dem eine Eigenschaft gehört. Kann entweder: 
+   <td colname="col1"><b><span class="wintitle"> Datenquelle-Typ</span></b> </td> 
+   <td colname="col2">Definiert den Typ der Datenquelle, zu der ein Merkmal gehört. Kann entweder: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Erstanbieter (eigene Eigenschaft). </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Drittanbieter (von einem externen Datenpartner/Anbieter). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Eigenschaften-ID</span></b> </td> 
-   <td colname="col2"> Eindeutige numerische ID für diese Eigenschaft. </td> 
+   <td colname="col1"><b><span class="wintitle"> Überschneidende Eigenschaften-ID</span></b> </td> 
+   <td colname="col2"> Eindeutige numerische ID für die überlappende Eigenschaft. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Eigenschaftsname</span></b> </td> 
-   <td colname="col2"> Name der Eigenschaft. </td> 
+   <td colname="col1"><b><span class="wintitle"> Überschneidender Eigenschaftsname</span></b> </td> 
+   <td colname="col2"> Name der überlappenden Eigenschaft. </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Eigenschaften-ID 2</span></b> </td> 
+   <td colname="col2"> Eindeutige numerische ID für die Eigenschaft in Ihrer Basisdatenquelle. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Überschneidung %</span></b> </td> 
-   <td colname="col2"> Zeigt die % der eindeutigen Überschneidung zwischen den verglichenen Eigenschaften (Überschneidung von Uniques/Eigenschaften). </td> 
+   <td colname="col1"><b><span class="wintitle"> Eigenschaftsname 2</span></b> </td> 
+   <td colname="col2"> Name der Eigenschaft in Ihrer Basisdatenquelle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Individuelle Überschneidungen</span></b> </td> 
-   <td colname="col2"> <p>Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel:</p> <p>Überschneidende individuelle Elemente / (Basis-Segment-Uniques + Überschneidende Segment-Uniques - Überschneidende Uniques)</p> </td> 
+   <td colname="col2"> <p>Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel:</p> <p>Überschneidende individuelle Elemente / (Basiseigenschaftsmerkmale + Überschneidende Eigenschaftsmerkmale - Überschneidende individuelle Elemente)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Eigenschaften</span></b> </td> 
-   <td colname="col2"> Die Anzahl der individuellen Besucher in der Eigenschaft. </td> 
+   <td colname="col1"><b><span class="wintitle"> Überschneidende Eigenschaften</span></b> </td> 
+   <td colname="col2"> Die Anzahl der individuellen Besucher aus der überlappenden Eigenschaft. </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Basiseigenschaftsvariablen</span></b> </td> 
+   <td colname="col2"> Die Anzahl der individuellen Besucher aus der Basiseigenschaft. </td> 
   </tr> 
  </tbody> 
 </table>
