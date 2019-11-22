@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Überschneidungsbericht zwischen Segmenten und Eigenschaften
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -134,11 +134,11 @@ Das Popup für den [!UICONTROL Segment-to-Trait Overlap] Bericht enthält die fo
    <td colname="col2"> Eindeutige numerische ID für das Segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Name des Datenanbieters</span></b> </td> 
-   <td colname="col2"> Name des Segmenteigentümers. </td> 
+   <td colname="col1"><b><span class="wintitle"> Eigenschaftsdatenquelle </span></b> </td> 
+   <td colname="col2"> Name des Eigenschafteninhabers. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Datenanbietertyp</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Datenquelle-Typ</span></b> </td> 
    <td colname="col2">Definiert den Provider-Typ, zu dem eine Eigenschaft gehört. Kann entweder: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Erstanbieter (eigene Eigenschaft). </li> 
@@ -146,12 +146,12 @@ Das Popup für den [!UICONTROL Segment-to-Trait Overlap] Bericht enthält die fo
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID</span></b> </td> 
-   <td colname="col2"> Eindeutige numerische ID für das Segment. </td> 
+   <td colname="col1"><b><span class="wintitle"> Eigenschaften-ID</span></b> </td> 
+   <td colname="col2"> Eindeutige numerische ID für die Eigenschaft. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID-Name</span></b> </td> 
-   <td colname="col2"> Name des Segments. </td> 
+   <td colname="col1"><b><span class="wintitle"> Eigenschaftsname</span></b> </td> 
+   <td colname="col2"> Name der Eigenschaft. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Eigenschaftsüberschneidung %</span></b> </td> 
