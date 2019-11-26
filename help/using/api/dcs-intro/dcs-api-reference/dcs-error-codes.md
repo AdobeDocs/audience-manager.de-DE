@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS-Fehlercodes, Nachrichten und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -80,7 +80,7 @@ In the tables below, *italics* represents a variable placeholder.
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
    <td colname="col2"> <p>Referrer <code>HTTP referer</code> ist für Partner nicht zulässig <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>Der [!DNL HTTP-Referrer]-Header für den Aufruf ist für die Partner-ID im Aufruf nicht zulässig. Überprüfen Sie, ob der [!DNL HTTP-Referrer]-Header korrekt ist.</p> </td>
+   <td colname="col3"> <p>Die <code>HTTP referer</code> Kopfzeile im Aufruf ist für die Partner-ID im Aufruf nicht zulässig. Überprüfen Sie, ob die <code>HTTP referer</code> Kopfzeile korrekt ist.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
