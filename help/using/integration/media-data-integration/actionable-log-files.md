@@ -1,13 +1,13 @@
 ---
 description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne Pixel anhängen zu müssen.
-keywords: Verwertbare Protokolle, Alf, ALF
+keywords: actionable logs, alf, ALF
 seo-description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne angehängte Pixel verwenden zu müssen.
 seo-title: Actionable Log Files
 solution: Audience Manager
 title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 >[!NOTE]
 >
->Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )`usw.) in diesem Dokument Codeelemente und Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../reference/code-style-elements.md).
+>Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument Codeelemente und Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../reference/code-style-elements.md).
 
 ## Zielsetzung {#purpose}
 
@@ -160,7 +160,7 @@ Bei einer [!DNL DCM] Protokolldatei von durchschnittlich 2 Millionen Zeilen werd
 
 ### Umsetzbare Signale aus generischen Anzeigenserverprotokollen {#generic-logs-signals}
 
-Zunächst müssen Sie Ihre Anzeigenserverprotokolle in unseren Amazon S3-Behältern ablegen. Lesen Sie dazu die [Datendateien für Zielgruppenoptimierungsberichte und die ausführbaren Protokolldateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater. Die Tabelle enthält die aussagekräftigen Signale aus generischen Protokolldateien:
+Zunächst müssen Sie Ihre Anzeigenserverprotokolle in unseren Amazon S3-Behältern hinterlegen. Lesen Sie dazu die [Datendateien für Zielgruppenoptimierungsberichte und die ausführbaren Protokolldateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater. Die Tabelle enthält die aussagekräftigen Signale aus generischen Protokolldateien:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -186,8 +186,8 @@ Zunächst müssen Sie Ihre Anzeigenserverprotokolle in unseren Amazon S3-Behält
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> Ein UTC-Datum und eine Uhrzeit für Impression, Klick oder Konversionsereignis. Verwenden Sie die Funktion   <code>yyyy-dd-mm hh:mm:ss format.</code> </p></td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> Ein UTC-Datum und eine Uhrzeit für Impression, Klick oder Konversionsereignis. Verwenden Sie das <code>yyyy-MM-dd HH:mm:ss</code> Format. </p></td> 
+   <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
