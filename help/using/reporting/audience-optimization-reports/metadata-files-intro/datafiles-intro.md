@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datendateien für Zielgruppenoptimierungsberichte und ausführbare Protokolldateien
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
+source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ---
 
@@ -35,7 +35,7 @@ In einem Dateinamen:
 
 Benennen Sie Ihre Datendateien unter Berücksichtigung dieser Anforderungen nach ihrem Inhalt wie folgt:
 
-* Impressionsdaten: <pre>impressions_<i>yyymmdd<i>.gz</code></pre>
+* Impressionsdaten: <pre>impressions_<i>yyymmdd</i>.gz</code></pre>
 * Klickdaten: <pre>clicks_<i>yyymmdd</i>.gz</code></pre>
 * Konversionsdaten: <pre>conversions_<i>yyymmdd</i>.gz</code></pre>
 
@@ -67,7 +67,7 @@ In der folgenden Tabelle sind die Spaltenüberschriften für Ihre Datendatei auf
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Zeitstempel </p> </td> 
-   <td colname="col2"> <p>Ein UTC-Datum und eine Uhrzeit für Impression, Klick oder Konversionsereignis. Verwenden Sie das <code> yyyy-dd-mm hh:mm:ss</code> Format. </p> </td> 
+   <td colname="col2"> <p>Ein UTC-Datum und eine Uhrzeit für Impression, Klick oder Konversionsereignis. Verwenden Sie das <code> yyyy-MM-dd HH:mm:ss</code> Format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzer-ID </p> </td> 
