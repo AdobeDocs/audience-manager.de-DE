@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Verwalten von Testgruppen
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
 
 ---
 
@@ -59,6 +59,7 @@ So erstellen Sie eine neue [!UICONTROL Segment Test Group]:
    * Fügen Sie Konversionseigenschaften hinzu, indem Sie im Fenster "Konversionseigenschaften"eingeben. Dies ist ein **obligatorischer** Schritt, und Sie können nicht mit dem nächsten Schritt fortfahren, es sei denn, Sie fügen mindestens eine Konversionseigenschaft hinzu.
    * Sie können auf Wunsch bis zu 5 Konversionseigenschaften hinzufügen.
    * Es wird eine Warnung angezeigt, wenn Sie eine Konversionseigenschaft auswählen, die bereits für andere Testgruppen verwendet wurde.
+   * Beachten Sie, dass Audience Manager die Verwendung von [Ordnereigenschaften](/help/using/features/traits/about-folder-traits.md) als Konversionseigenschaften nicht unterstützt. Wenn Sie eine Ordnereigenschaft als Konversionseigenschaft auswählen, werden im Test 0 Summenberichte und Trendberichte angezeigt.
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 
