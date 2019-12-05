@@ -1,25 +1,25 @@
 ---
-description: Audience Manager erfordert die digitale Signierung der HTTP-Server-zu-Server-Anforderungen für die Gültigkeit. In diesem Dokument wird beschrieben, wie Sie HTTP-Anforderungen mit privaten Schlüsseln signieren können.
-seo-description: Audience Manager erfordert die digitale Signierung der HTTP-Server-zu-Server-Anforderungen für die Gültigkeit. In diesem Dokument wird beschrieben, wie Sie HTTP-Anforderungen mit privaten Schlüsseln signieren können.
-seo-title: Digital signierte HTTP-Anforderungen
+description: Audience Manager erfordert die digitale Signierung der HTTP(S)-Server-zu-Server-Anforderungen für die Gültigkeit. In diesem Dokument wird beschrieben, wie Sie HTTP-Anforderungen mit privaten Schlüsseln signieren können.
+seo-description: Audience Manager erfordert die digitale Signierung der HTTP(S)-Server-zu-Server-Anforderungen für die Gültigkeit. In diesem Dokument wird beschrieben, wie Sie HTTP(S)-Anforderungen mit privaten Schlüsseln signieren können.
+seo-title: Digital signierte HTTP(S)-Anforderungen
 solution: Audience Manager
-title: Digital signierte HTTP-Anforderungen
+title: Digital signierte HTTP(S)-Anforderungen
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
+source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
 
 ---
 
 
-# Digital signierte `HTTP` Anforderungen {#digitally-signed-http-requests}
+# Digital signierte `HTTP(S)` Anforderungen {#digitally-signed-http-requests}
 
-Audience Manager erfordert, dass die `HTTP` Server-zu-Server-Anforderungen für ihre Gültigkeit digital signiert werden. In diesem Dokument wird beschrieben, wie Sie `HTTP` Anforderungen mit privaten Schlüsseln signieren können.
+Audience Manager erfordert, dass die `HTTP(S)` Server-zu-Server-Anforderungen für ihre Gültigkeit digital signiert werden. In diesem Dokument wird beschrieben, wie Sie `HTTP(S)` Anforderungen mit privaten Schlüsseln signieren können.
 
 ## Überblick {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-Mithilfe eines privaten Schlüssels, der von Ihnen bereitgestellt und für [!DNL Audience Manager]Sie freigegeben wurde, können wir die `HTTP` Anforderungen, die zwischen [IRIS](../../../reference/system-components/components-data-action.md#iris) und Ihrem HTTP-Server gesendet werden, digital signieren. Dadurch wird sichergestellt:
+Mithilfe eines privaten Schlüssels, der von Ihnen bereitgestellt und für [!DNL Audience Manager]Sie freigegeben wurde, können wir die `HTTP(S)` Anforderungen, die zwischen [IRIS](../../../reference/system-components/components-data-action.md#iris) und Ihrem HTTP(S)-Server gesendet werden, digital signieren. Dadurch wird sichergestellt:
 
 * **Authentizität**: nur der Absender mit dem privaten Schlüssel ([!UICONTROL IRIS]) kann gültige `HTTP(S)` Nachrichten an den Partner senden.
 * **Nachrichtenintegrität**: mit diesem Ansatz, sogar auf `HTTP`werden Sie vor einem Mann im mittleren Angriff geschützt, wo die Nachrichten verzerrt werden.
@@ -28,10 +28,10 @@ Mithilfe eines privaten Schlüssels, der von Ihnen bereitgestellt und für [!DNL
 
 ## Informationen, die Sie bereitstellen müssen {#info-to-provide}
 
-Wenden Sie sich an Ihren `HTTP` Berater, um ein [!DNL Audience Manager] Echtzeit-Server-zu-Server-Ziel zu erhalten, und geben Sie Folgendes an:
+Wenden Sie sich an Ihren `HTTP(S)` Berater, um ein [!DNL Audience Manager] Echtzeit-Server-zu-Server-Ziel zu erhalten, und geben Sie Folgendes an:
 
 * Der zum Signieren der Anforderung verwendete Schlüssel.
-* Der Name der `HTTP` Kopfzeile, die die generierte Signatur enthält (X-Signatur in der Beispielüberschrift unten).
+* Der Name der `HTTP(S)` Kopfzeile, die die generierte Signatur enthält (X-Signatur in der Beispielüberschrift unten).
 * Optional: der Hash-Typ, der für die Signatur verwendet wird (md5, sha1, sha256).
 
 ```
@@ -47,8 +47,8 @@ POST message content
 
 ## How it works {#how-it-works}
 
-1. [!UICONTROL IRIS] erstellt die `HTTP` Nachricht, die an den Partner gesendet werden soll.
-1. [!UICONTROL IRIS] erstellt eine Signatur, die auf der `HTTP` Nachricht und dem vom Partner mitgeteilten privaten Schlüssel basiert.
+1. [!UICONTROL IRIS] erstellt die `HTTP(S)` Nachricht, die an den Partner gesendet werden soll.
+1. [!UICONTROL IRIS] erstellt eine Signatur, die auf der `HTTP(S)` Nachricht und dem vom Partner mitgeteilten privaten Schlüssel basiert.
 1. [!UICONTROL IRIS] sendet die `HTTP(S)` Anfrage an den Partner. Diese Meldung enthält die Unterschrift und die tatsächliche Meldung, wie im Beispiel oben dargestellt.
 1. Der Partnerserver erhält die `HTTP(S)` Anforderung. Er liest den Nachrichtentext und die Signatur, die von [!UICONTROL IRIS]ihm empfangen wurde.
 1. Basierend auf dem Nachrichtentext und dem privaten Schlüssel berechnet der Partnerserver die Signatur neu. Weitere Informationen dazu finden Sie im Abschnitt [Wie man die Signatur](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) berechnet.
@@ -63,8 +63,8 @@ POST message content
 
 ```
 // Message to be signed.
-// For GET type HTTP destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
-// For POST type HTTP destinations, the message used for signing will be the REQUEST_BODY.
+// For GET type HTTP(S) destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
+// For POST type HTTP(S) destinations, the message used for signing will be the REQUEST_BODY.
 // String getData = "/from-aam-s2s?sids=1,2,3";
 String postData = "POST message content";
 // Algorithm used. Currently supported: HmacSHA1, HmacSHA256, HmacMD5.
@@ -95,6 +95,6 @@ Aus Sicherheitsgründen wird empfohlen, den privaten Schlüssel regelmäßig zu 
 
 ## Zum Unterschreiben verwendete Daten {#data-signing}
 
-Bei `GET` Musterzielen wird die Signaturmeldung *REQUEST_PATH + QUERY STRING* (z. B. */from-aam-s2s?sids=1,2,3*). IRIS berücksichtigt nicht den Hostnamen oder die `HTTP` Header - diese können geändert/falsch konfiguriert werden oder falsch gemeldet werden.
+Bei `GET` Musterzielen wird die Signaturmeldung *REQUEST_PATH + QUERY STRING* (z. B. */from-aam-s2s?sids=1,2,3*). IRIS berücksichtigt nicht den Hostnamen oder die `HTTP(S)` Header - diese können geändert/falsch konfiguriert werden oder falsch gemeldet werden.
 
 Bei `POST` Ziel-Typen ist die zum Signieren verwendete Meldung der *ANFORDERUNGSKÖRPER*. Auch hier werden Kopfzeilen oder andere Anforderungsparameter ignoriert.
