@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Anforderungen an den FTP-Namen und die Dateigröße für eingehende Datendateien
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 881ccf512e9776948e4507e321e972dd2079e21a
 
 ---
 
@@ -17,11 +17,11 @@ Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dat
 
 >[!WARNING]
 >
->FTP-Übertragung für eingehende Datendateien wird nicht mehr unterstützt. Verwenden Sie Amazon S3, um Offlinedaten zu berücksichtigen. Weitere Informationen finden Sie unter [Amazon S3-Anforderungen an Name und Dateigröße für Inbound-Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) .
+>Die Unterstützung für FTP-Konfigurationen wird schrittweise eingestellt. Während die Erfassung eingehender Datendateien in bestehenden FTP-Integrationen weiterhin unterstützt wird, empfehlen wir dringend, für neue Integrationen Offlinedaten mit Amazon S3 zu integrieren. Weitere Informationen finden Sie unter [Amazon S3-Anforderungen an Name und Dateigröße für Inbound-Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) .
 
 >[!NOTE]
 >
->Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )`usw.) in diesem Dokument Codeelemente und Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
+>Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument Codeelemente und Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
 
 ## Syntax des Dateinamens {#file-name-syntax}
 
