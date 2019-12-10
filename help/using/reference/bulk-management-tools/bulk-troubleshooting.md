@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fehlerbehebung für Tipps für Massenverwaltungswerkzeuge
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
+source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 ---
 
@@ -34,7 +34,7 @@ Faktoren wie hoher Netzwerkverkehr, Servernutzung und große Datensätze können
 * Löschen Sie alle Zeilen, die bereits aktualisiert wurden.
 * Versuchen Sie die Massenanforderung erneut.
 
-## Lange Verzögerungen oder nicht reagierendes Verhalten {#delays-behavior}
+## Authentifizierungsfehler, lange Verzögerungen oder nicht reagierendes Verhalten {#delays-behavior}
 
 In der folgenden Tabelle sind einige häufig auftretende Probleme aufgeführt, die bei der Erstellung von Massenanforderungen in den Arbeitsblättern auftreten können. Versuchen Sie, diese Probleme mit den empfohlenen Lösungen zu beheben. Wenn die empfohlenen Lösungen das Problem nicht beheben, sollten Sie Ihre Arbeit speichern, Ihren Computer neu starten und die Anforderung erneut versuchen, ohne andere Anwendungen zu starten oder zu bearbeiten.
 
@@ -46,6 +46,12 @@ In der folgenden Tabelle sind einige häufig auftretende Probleme aufgeführt, d
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>Authentifizierungsfehler</b> </td> 
+   <td colname="col2"> 
+    <b>Aktualisierung auf neueste Version von Microsoft Excel</b>: Wenn eine neue Version von Microsoft Excel veröffentlicht wird und Sie eine ältere Version verwenden, tritt möglicherweise ein Authentifizierungsfehler im Arbeitsblatt für die Massenverwaltung auf. Aktualisieren Sie auf die neueste Version von Microsoft Excel, um den Authentifizierungsfehler zu beheben.
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>Lange Verzögerungen</b> </td> 
    <td colname="col2"> 
