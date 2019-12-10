@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
+source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
 
 ---
 
@@ -32,15 +32,15 @@ Diese Funktion verwendet eine Microsoft Excel-Tabelle mit Makros, die sichere, a
 
 ## Herunterladen{#download}.
 
-Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20191015.xlsm)** herunter.
+Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20191205.xlsm)** herunter.
 
 ## Voraussetzungen {#prereqs}
 
 Zur Verwendung der [!DNL Bulk Management Tools]Variablen benötigen Sie Folgendes:
 
 * Ihre [!DNL Experience Cloud] Anmeldung. Als Kunde sollten Sie bereits über diese Anmeldeinformationen verfügen.
-* Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](assets/BAAAM_V2_20191015.xlsm) herunter, um die neueste Version zu erhalten.
-* Microsoft Excel wird auf [!DNL macOS] oder 64 Bit ausgeführt [!DNL Microsoft Windows].
+* Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](assets/BAAAM_V2_20191205.xlsm) herunter, um die neueste Version zu erhalten.
+* Microsoft Excel wird auf [!DNL macOS] oder 64 Bit ausgeführt [!DNL Microsoft Windows]. Es wird empfohlen, die neueste Version von Microsoft Excel zu verwenden.
 * Beim Öffnen des Arbeitsblatts müssen Sie Makros **** aktivieren, damit das Arbeitsblatt funktioniert [!DNL Bulk Management Tools] .
 
 ## Authentifizierungsanforderungen und Optionen {#auth-reqs}
