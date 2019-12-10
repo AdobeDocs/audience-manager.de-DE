@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Optionen für Profilzusammenführungsregeln definiert
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -29,7 +29,7 @@ Profile Merge Rules ermöglichen eine Reihe von Regelkombinationen, die jeweils 
 | Kein geräteübergreifendes Profil | Grafik für externes Gerät (einschließlich Co-op-Gerätediagramm) | Alle Kunden | Echtzeit und Stapel | Nein | [Erweitertes Geräte-Targeting](external-graph-use-cases.md#audience-expansion) |
 | Aktuelle authentifizierte Profile | Kein Geräteprofil | Alle Kunden | Nur Echtzeit | Nein | [Freigegebenes Geräte-Targeting](merge-rule-targeting-options.md#target-shared-devices) |
 | Zuletzt authentifizierte Profile | Geräteprofil | Alle Kunden | Echtzeit und Stapel | Ja | [Online-/Offline-Targeting](merge-rule-targeting-options.md#device-household-targeting) |
-| Zuletzt authentifizierte Profile |  Gerätediagramm für Profillink | Alle Kunden | Echtzeit und Stapel | Ja | [Geräteübergreifendes Targeting](profile-link-use-case.md#cross-device-personalization) |
+| Zuletzt authentifizierte Profile | Gerätediagramm für Profillink | Alle Kunden | Echtzeit und Stapel | Ja | [Geräteübergreifendes Targeting](profile-link-use-case.md#cross-device-personalization) |
 | Zuletzt authentifizierte Profile | Grafik für externes Gerät (einschließlich Co-op-Gerätediagramm) | Alle Kunden | Echtzeit und Stapel | Nein | [Erweitertes geräteübergreifendes Targeting](external-graph-use-cases.md#advanced-graph-expansion) |
 | Alle geräteübergreifenden Profile | nicht angegeben | Kunden mit [benutzerspezifischen Zielen](../destinations/people-based-destinations-overview.md) exklusiv | Nur Stapel | Nein | [Targeting für benutzerspezifische Ziele](merge-rule-targeting-options.md#all-cross-device) |
 
@@ -69,7 +69,7 @@ Mit [!UICONTROL Cross-Device Options] dieser Option können Sie authentifizierte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Zuletzt authentifizierte Profile</span></b> </p> </td> 
-   <td colname="col2"> <p>Weist <span class="keyword"> Audience Manager</span> an, Daten aus dem authentifizierten Profil des Benutzers zu lesen, der sich zuletzt auf dem Gerät angemeldet hat. </p> <p>Wenn diese Option aktiviert ist, schreibt <span class="keyword"> Audience Manager</span> keine neuen Eigenschaftendaten in das authentifizierte Profil, wenn der Benutzer anonym ist. Bei der Authentifizierung werden neue Eigenschaftendaten in das authentifizierte Profil des Benutzers geschrieben. </p> </td>
+   <td colname="col2"> <p>Weist <span class="keyword"> Audience Manager</span> an, Daten aus dem authentifizierten Profil des Benutzers zu lesen, der sich zuletzt auf dem Gerät angemeldet hat. </p> <p>Wenn diese Option aktiviert ist, schreibt <span class="keyword"> Audience Manager</span> keine neuen Eigenschaftendaten in das authentifizierte Profil, wenn der Benutzer anonym ist. Bei der Authentifizierung werden neue Eigenschaftsdaten in das authentifizierte Profil des Benutzers geschrieben. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Alle geräteübergreifenden Profile</span></b> </p> </td> 
@@ -126,6 +126,10 @@ Mit der [!UICONTROL Device Options] Option können Sie den von einem *`device pr
   </tr>
  </tbody>
 </table>
+
+## Richtlinien für externe Zusammenschlüsse {#external-merge-policies}
+
+Zielgruppensegmente, die auf der Grundlage von außerhalb von Audience Manager definierten Zusammenführungsregeln automatisch aus anderen Experience Cloud-Lösungen erstellt wurden, werden als mit einem [!UICONTROL External Merge Policy]gekennzeichnet. Siehe [Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
