@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossar
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -31,7 +31,7 @@ Lernen Sie die wichtigsten Begriffe kennen, die für GDPR verwendet werden. Wir 
 
  
 
-**** Datenprozessor: Der "Prozessor" ist "die ... juristische Person ..., die personenbezogene Daten für den Verantwortlichen verarbeitet". Im Zusammenhang mit Audience Manager agiert Adobe bei der Ausführung des Dienstes als "Datenprozessor"für alle personenbezogenen Daten, die es im Auftrag des Controllers verarbeitet. Adobe verarbeitet personenbezogene Daten nur entsprechend den Anweisungen des Datenleiters (wie in unserer Vereinbarung mit dem Kunden oder durch in Audience Manager durchgeführte Aktionen beschrieben).
+**** Datenprozessor: Der "Prozessor" ist "die ... juristische Person ..., die personenbezogene Daten für den Verantwortlichen verarbeitet". Im Kontext von Audience Manager agiert Adobe bei der Ausführung des Dienstes als "Datenprozessor"für alle personenbezogenen Daten, die es über Audience Manager für den Controller verarbeitet. Adobe verarbeitet personenbezogene Daten nur entsprechend den Anweisungen des Datenleiters (wie in unserer Vereinbarung mit dem Kunden oder durch in Audience Manager durchgeführte Aktionen beschrieben).
 
  
 
@@ -39,11 +39,11 @@ Lernen Sie die wichtigsten Begriffe kennen, die für GDPR verwendet werden. Wir 
 
  
 
-**** Zustimmung: Zustimmung bedeutet "jede frei gegebene, spezifische, informierte und unmissverständliche Angabe der Wünsche der betroffenen Person, mit der sie durch eine Erklärung oder durch eine eindeutige Bekräftigung ihre Zustimmung zur Verarbeitung der sie betreffenden personenbezogenen Daten erklärt". Die Zustimmung liegt in der Verantwortung des Data Controllers, nicht von Adobe über Audience Manager.
+**** Zustimmung: Zustimmung bedeutet "jede frei gegebene, spezifische, informierte und unmissverständliche Angabe der Wünsche der betroffenen Person, mit der sie durch eine Erklärung oder durch eine eindeutige Bekräftigung ihre Zustimmung zur Verarbeitung der sie betreffenden personenbezogenen Daten erklärt". Die Zustimmung liegt in der Verantwortung des Data Controllers, nicht von Adobe (über Audience Manager).
 
  
 
-**** Zugriff: Betroffene Personen haben das Recht, vom Datenverantwortlichen die Bestätigung zu verlangen, dass er ihre personenbezogenen Daten verarbeitet. Verarbeitet der für die Verarbeitung der personenbezogenen Daten Verantwortliche die personenbezogenen Daten der betroffenen Person, so muss er Zugang zu den personenbezogenen Daten und eine Kopie davon gewähren. Datenkontrolleure können Adobe bitten, bei Zugriffsanfragen von Datensubjekten behilflich zu sein.
+**** Zugriff: Betroffene Personen haben das Recht, vom Datenverantwortlichen die Bestätigung zu verlangen, ob der Verantwortliche ihre personenbezogenen Daten verarbeitet. Verarbeitet der für die Verarbeitung der personenbezogenen Daten Verantwortliche die personenbezogenen Daten der betroffenen Person, so muss er Zugang zu den personenbezogenen Daten und eine Kopie davon gewähren. Datenkontrolleure können Adobe bitten, bei Zugriffsanfragen von Datensubjekten behilflich zu sein.
 
  
 
