@@ -5,7 +5,7 @@ seo-title: CCPA-Glossar
 solution: Audience Manager
 title: CCPA-Glossar
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -14,9 +14,11 @@ source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ## Überblick {#overview}
 
-In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager verschiedene CCPA-Anforderungen erfüllt.
+In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager als Service Provider verschiedene CCPA-Anforderungen erfüllt.
 
-Das California Consumer Privacy Act (CCPA) wird am 1. Januar 2020 in Kraft treten und ist eine weitere Gelegenheit, die Privatsphäre zu einem integrierten Bestandteil Ihrer Verbrauchererfahrung zu machen. Audience Manager nutzt die vorhandene Datenschutzinfrastruktur, um Ihnen bei der Verwendung von Audience Manager bei der Erfüllung Ihrer CCPA-Verpflichtungen zu helfen. So können Sie vor und nach dem 1. Januar 2020 CCPA-fähig sein. Audience Manager freut sich darauf, mit Ihnen zusammenzuarbeiten, wenn Sie neue Verpflichtungen durch die Verwendung unserer Datenverwaltung und Datenschutz durch Designfunktionen angehen.
+Das California Consumer Privacy Act (CCPA) wird am 1. Januar 2020 in Kraft treten und ist eine weitere Gelegenheit, die Privatsphäre zu einem integrierten Bestandteil Ihrer Verbrauchererfahrung zu machen. Audience Manager nutzt die vorhandene Datenschutzinfrastruktur, um Ihnen bei der Verwendung von Audience Manager bei der Erfüllung Ihrer CCPA-Verpflichtungen zu helfen. So können Sie vor und nach dem 1. Januar 2020 CCPA-fähig sein.
+
+Audience Manager freut sich darauf, mit Ihnen zusammenzuarbeiten, wenn Sie neue Verpflichtungen durch die Verwendung unserer Datenverwaltung und Datenschutz durch Designfunktionen angehen.
 
 ## CCPA-Glossar {#CCPA-glossay}
 
@@ -31,10 +33,6 @@ Lernen Sie die Schlüsselbegriffe kennen, die im Zusammenhang mit CCPA verwendet
  
 
 **Persönliche Informationen**: Informationen, die einen bestimmten Verbraucher oder Haushalt identifizieren, sich darauf beziehen, beschreiben, mit einem bestimmten Verbraucher oder Haushalt in Verbindung stehen oder in angemessener Weise mit ihm verbunden werden könnten. Personenbezogene Informationen umfassen Informationen, die einen bestimmten Verbraucher identifizieren, sich darauf beziehen, beschreiben, mit ihm in Verbindung stehen oder in angemessener Weise direkt oder indirekt mit einem bestimmten Verbraucher verbunden sein könnten.
-
- 
-
-**Pseudonymisierung/Pseudonymisierung**: Verarbeitung personenbezogener Daten in einer Weise, die dazu führt, dass die personenbezogenen Daten ohne Verwendung zusätzlicher Informationen nicht mehr einem bestimmten Verbraucher zuzurechnen sind, sofern die zusätzlichen Informationen getrennt aufbewahrt werden und technische und organisatorische Maßnahmen getroffen werden, um sicherzustellen, dass die personenbezogenen Daten nicht einem bestimmten oder bestimmbaren Verbraucher zugerechnet werden.
 
  
 
