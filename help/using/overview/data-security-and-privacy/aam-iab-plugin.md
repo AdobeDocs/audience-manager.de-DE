@@ -5,7 +5,7 @@ seo-title: Audience Manager Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager Plug-In für IAB TCF
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -40,7 +40,7 @@ Sie müssen die folgenden Voraussetzungen erfüllen, um die IAB-TCF mit Audience
 1. Sie müssen Experience Cloud ID-Dienst (ECID) Version 4.1 oder höher verwenden. [Laden Sie](https://github.com/Adobe-Marketing-Cloud/id-service/releases) unsere neueste ECID-Version herunter.
 1. Sie müssen Audience Manager Data Integration Library (DIL) Version 9.0 oder neuer verwenden, die [hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)heruntergeladen werden kann. Lesen Sie mehr über [DIL in der Audience Manager-Dokumentation](../..//dil/dil-overview.md).
 1. Wenn Sie zum Importieren von Daten in Audience Manager Server-Side Forwarding (SSF) verwenden, müssen Sie auch auf die neueste Version von AppMeasurement aktualisieren. Laden Sie AppMeasurement mit dem [Analytics-Code-Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)herunter.
-1. Sie müssen entweder eine kommerzielle oder eigene Consent Management Platform (CMP) verwenden, die IAB unterstützt und bei der IAB TCF registriert ist. Siehe Liste der [CMP, die im Rahmen](https://advertisingconsent.eu/cmp-list/)der IAB registriert sind.
+1. Sie müssen entweder eine kommerzielle oder eigene Consent Management Platform (CMP) verwenden, die die IAB TCF unterstützt und bei der IAB TCF registriert ist. Siehe Liste der [CMP, die im Rahmen](https://advertisingconsent.eu/cmp-list/)der IAB registriert sind.
 
 ## Empfehlungen und Implementierungen {#recommendations}
 
