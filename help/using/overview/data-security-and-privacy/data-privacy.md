@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenschutz-Übersicht
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 In der Dokumentation zum Datenschutz werden die Integration von Audience Manager und die Einhaltung allgemein anerkannter Best Practices zum Schutz der Privatsphäre von Kunden und Ausschluss-Verfahren beschrieben.
 
-Audience Manager erkennt die Bedeutung der Beziehung zwischen Verbrauchern und den Online-Marken, mit denen sie interagieren. Beide Parteien profitieren vom transparenten Austausch anonymer Datenelemente:
+Audience Manager erkennt die Bedeutung der Beziehung zwischen Verbrauchern und den Online-Marken, mit denen sie interagieren. Beide Parteien profitieren vom transparenten Austausch pseudonymer Datenelemente:
 
 * Kunden erhalten personalisierte Inhalte, reduzierte Produktangebote und optimierte Benutzererfahrungen.
 * Marken erhalten wichtige Umsatzströme, die mehrere Online-Geschäftsmodelle unterstützen.
@@ -40,7 +40,7 @@ Weitere Informationen finden Sie im [Adobe Privacy Center](https://www.adobe.com
 
 Audience Manager unterstützt Sie bei der Erfüllung Ihrer Verpflichtungen aus bestimmten Datenschutzbestimmungen durch Datenschutzwerkzeuge wie den [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) für den Datenzugriff und das Löschen von Anforderungen.
 
-Dieser Dienst bietet eine [!DNL RESTful API] Benutzeroberfläche, die Sie bei der Verwaltung von Verbraucherdatenanforderungen unterstützt. Mithilfe des [Datenschutzdienstes](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)können Sie auf Anfrage eines einzelnen Verbrauchers Anfragen zum Zugriff auf und zum Löschen von privaten oder persönlichen Daten einreichen, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
+Dieser Dienst bietet eine [!DNL RESTful API] Benutzeroberfläche, die Sie bei der Verwaltung von Verbraucherdatenanforderungen unterstützt. Mithilfe des [Datenschutzdienstes](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)können Sie auf der Grundlage einer Anfrage eines einzelnen Verbrauchers Anfragen zum Zugriff auf und Löschen personenbezogener Daten einreichen, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
 
 Während Datenzugriffs- und Löschanforderungen über den [Datenschutzdienst](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)verarbeitet werden, werden [Abmeldeanforderungen](data-privacy-requests.md#opt-out-requests) derzeit über die [DCS-API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)unterstützt. Weitere Informationen finden Sie unter [Datenschutzanforderungen](data-privacy-requests.md) .
 
