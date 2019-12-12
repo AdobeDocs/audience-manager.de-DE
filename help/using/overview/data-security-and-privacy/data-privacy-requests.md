@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Datenschutzanforderungen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -35,7 +35,7 @@ Der [Datenschutzdienst](https://www.adobe.io/apis/experienceplatform/home/servic
 
 Sie können individuelle Datenzugriffsanfragen über die Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienstes (Dokumentation [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) oder durch Aufruf der [!DNL Privacy Service API] (Dokumentation [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) und [!DNL API] Referenz [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)) senden.
 
-Mit der Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienstes können Sie neue Auftragsanforderungen entweder mithilfe des [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON] Datei erstellen.
+Die Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienstes ermöglicht Ihnen, neue Auftragsanforderungen entweder mithilfe des [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON] Datei zu erstellen.
 
 Um zu sehen, wie eine gültige [!DNL JSON] Datei aussieht, können Sie eine JSON-Musterdatei [herunterladen](../data-security-and-privacy/assets/access_request.json).
 
@@ -45,20 +45,20 @@ Wir verstehen Ihre Verpflichtung, Ihre Datenschutzanforderungen innerhalb der ge
 
 Sie können Datenlöschungsanfragen über die Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienstes ( [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)Dokumentation) oder durch Aufruf der [!DNL Privacy Service API] (Dokumentation [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) und API-Referenz [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)) senden.
 
-Mit der Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienstes können Sie neue Auftragsanforderungen entweder mithilfe des [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON] Datei erstellen.
+Die Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienstes ermöglicht Ihnen, neue Auftragsanforderungen entweder mithilfe des [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON] Datei zu erstellen.
 
 Um zu sehen, wie eine gültige [!DNL JSON] Datei aussieht, können Sie eine JSON-Musterdatei [herunterladen](../data-security-and-privacy/assets/access_request.json).
 
-Wir verstehen Ihre Verpflichtung, innerhalb von 30 Tagen nach Erhalt Ihrer Daten Kundenanfragen zu erfüllen. Daher versuchen wir, Ihre Anforderung zum Löschen von Daten so schnell wie möglich zu bearbeiten.
+Adobe versteht Ihre Verpflichtung, Kundenanfragen zum Datenschutz innerhalb von 30 Tagen nach Empfang zu erfüllen. Aus diesem Grund ist Adobe verpflichtet, Ihre Anforderung zum Löschen von Daten so schnell wie möglich zu bearbeiten.
 
-Als Antwort auf Datenlöschungsanforderungen löschen wir Eigenschaften und Segmente, die mit der Audience Manager-ID in der Anforderung verknüpft sind. Darüber hinaus werden die jeweiligen Audience Manager-IDs für die Datensubjekte endgültig aus der weiteren Datenerfassung durch Audience Manager ausgeschlossen und die entsprechenden ID-Zuordnungen werden entfernt.
+Als Antwort auf Ihre Anforderungen zum Löschen von Benutzerdaten löscht Audience Manager Eigenschaften und Segmente, die mit der Zielgruppen-Manager-ID in der Anforderung verknüpft sind. Darüber hinaus werden die jeweiligen Audience Manager-IDs für die einzelne Person, die von der weiteren Datenerfassung durch Audience Manager ausgeschlossen wurde, und die entsprechenden ID-Zuordnungen entfernt.
 
 Wenn Sie deklarierte IDs, wie z. B. geräteübergreifende [!DNL CRM] IDs oder Cookie-IDs, in Datenschutzanforderungen senden, führt Audience Manager den erforderlichen Löschvorgang auf allen verknüpften Geräten durch (bis zu 100 Geräte pro deklarierter ID).
 
-Audience Manager benachrichtigt Aktivierungspartner über Löschanforderungen, indem er ihnen Segmentinformationen für Datensubjekte sendet, die das Löschen bestimmter Daten anfordern. Einige Aktivierungspartner:
+Audience Manager versucht, Aktivierungspartner über Löschanforderungen zu benachrichtigen, indem er ihnen Segmentinformationen für Datensubjekte sendet, die das Löschen bestimmter Daten anfordern. Einige Aktivierungspartner:
 
-1. Segmentanforderungen von Adobe können nicht unterstützt (oder entfernt werden) und/oder
-2. Sie können keine Updates von uns mit einer Häufigkeit von weniger als 30 Tagen erhalten. In diesen Fällen sind Audience Manager-Kunden nicht in der Lage, Löschanforderungen automatisch über Audience Manager an Aktivierungspartner zu senden.
+1. Nicht-Segment-Anforderungen aus Audience Manager können nicht unterstützt (oder entfernt) und/oder
+2. sind nicht in der Lage, Updates von Audience Manager mit einer Häufigkeit von weniger als 30 Tagen zu erhalten. In diesen Fällen sind Audience Manager-Kunden nicht in der Lage, Löschanforderungen automatisch über Audience Manager an Aktivierungspartner zu senden.
 
 In diesen Fällen ist es nicht möglich, Löschanforderungen automatisch über Audience Manager an Aktivierungspartner zu senden.
 
@@ -66,7 +66,7 @@ Laden Sie sich unser [Partner-Excel-Blatt](assets/AAM-Partners-October2019.xlsx)
 
 ## Abmeldeanforderungen {#opt-out-requests}
 
-Adobe erfüllt alle branchenweit geltenden Standards für die Abmeldeverwaltung. Lesen Sie für vollständige Informationen zu den von Audience Manager unterstützten Abmeldearten.
+Audience Manager unterstützt branchenweite Standards für die Abmeldeverwaltung. Lesen Sie für vollständige Informationen zu den von Audience Manager unterstützten Abmeldearten.
 
 Während Datenzugriffs- und Löschanforderungen über den [Datenschutzdienst](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)verarbeitet werden, werden Abmeldeanforderungen derzeit über die DCS-API unterstützt. Lesen Sie weiter, um zu erfahren, wie die Ausschluss-API-Aufrufe aussehen sollten.
 
@@ -108,7 +108,7 @@ Ihre Endbenutzer können sich auch von der globalen Datenerfassung abmelden, ind
 
 Befolgen Sie die oben beschriebenen Abmeldeanfragen:
 
-* Audience Manager beendet in Zukunft die Datenerfassung, Segmentierung oder Aktivierung.
+* Audience Manager beendet in Zukunft die Datenerfassung, Segmentierung oder Aktivierung, solange der Benutzer seine Browser-Cookies nicht löscht.
 * Historische Daten werden nach 120 Tagen aus dem Benutzerprofil entfernt.
 
 ### Abmeldung auf Partnerebene mit erklärten ID-Aufrufen
@@ -161,12 +161,12 @@ Nach einer Abmeldung auf Partnerebene mit einem Geräte-ID-Aufruf:
 
 ## Audience Manager-Partner mit Unsegmentierungsfunktionen {#aam-partners-with-unsegmentation}
 
-Um unseren Kunden bei der Automatisierung von Datendatenschutzanforderungen zu helfen, benachrichtigt Audience Manager unsere Aktivierungspartner über Löschungsanfragen von Datensubjekten, indem er ihnen Segmentinformationen sendet (oder entfernt).
+Um Ihnen bei der Automatisierung Ihrer Anfragen zum Datenschutz zu helfen, versucht Audience Manager, Aktivierungspartner über Löschungsanfragen von Datensubjekten zu benachrichtigen, indem sie diese vom Segment trennen (oder entfernen).
 
 Einige unserer Aktivierungspartner:
 
-1. Keine Unterstützung von Nicht-Segment-Anfragen von Adobe und/oder
-1. Wir können keine Updates von uns häufiger als einmal in 30 Tagen erhalten.
+1. Nicht segmentbezogene Anforderungen von Audience Manager können nicht unterstützt werden und/oder
+2. sind nicht in der Lage, häufiger Updates von Audience Manager als einmal in 30 Tagen zu erhalten.
 
 In diesen Fällen ist es nicht möglich, Löschanforderungen automatisch über Audience Manager an Aktivierungspartner zu senden.
 
@@ -174,6 +174,6 @@ Laden Sie sich unser [Partner-Excel-Blatt](assets/AAM-Partners-October2019.xlsx)
 
 ## Datenkorrekturanforderungen {#correction}
 
-Da Audience Manager nicht die Quelle der Daten ist, ist die Datenkorrektur in Audience Manager eingeschränkt. Die Korrektur könnte bedeuten, dass die Datensubjekt entweder aufgefordert wurde, von einer falschen Eigenschaft/einem fehlerhaften Segment disqualifiziert oder für die gewünschte Eigenschaft/das gewünschte Segment qualifiziert zu sein.
+Da Audience Manager nicht die Quelle der Daten ist, ist die Datenkorrektur in Audience Manager eingeschränkt. Die Korrektur könnte bedeuten, dass der Verbraucher entweder beantragt hat, von einer falschen Eigenschaft/einem falschen Segment ausgeschlossen oder für die gewünschte Eigenschaft/das gewünschte Segment qualifiziert zu werden.
 
 Audience Manager-Kunden können die relevanten Signale/Eigenschaften/Segmente gegen Benutzerprofile erfassen und diese Informationen über die [Offline-Datenerfassung](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an Audience Manager senden. Bitte beachten Sie, dass der Benutzer weiterhin für die ursprünglichen Eigenschaften und Segmente qualifiziert ist, wenn er sein Verhalten wiederholt.
