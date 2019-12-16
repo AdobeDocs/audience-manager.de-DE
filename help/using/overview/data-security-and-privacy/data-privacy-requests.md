@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Datenschutzanforderungen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -170,7 +170,7 @@ Einige unserer Aktivierungspartner:
 
 In diesen Fällen ist es nicht möglich, Löschanforderungen automatisch über Audience Manager an Aktivierungspartner zu senden.
 
-Laden Sie sich unser [Partner-Excel-Blatt](assets/AAM-Partners-October2019.xlsx) herunter, um zu sehen, welche Audience Manager-Aktivierungspartner das Segment nicht unterstützen.
+Laden Sie sich unser [Partner-Excel-Blatt](assets/AAM-Partners-December2019.xlsx) herunter, um zu sehen, welche Audience Manager-Aktivierungspartner das Segment nicht unterstützen.
 
 ## Datenkorrekturanforderungen {#correction}
 
