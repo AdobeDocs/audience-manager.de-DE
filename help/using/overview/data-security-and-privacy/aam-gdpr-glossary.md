@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossar
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -35,7 +35,7 @@ Lernen Sie die wichtigsten Begriffe kennen, die für GDPR verwendet werden. Wir 
 
  
 
-**** Datenfach: Die Person, auf die sich die personenbezogenen Daten beziehen. Im Kontext von Audience Manager sind Datensubjekte die Kunden oder Endbenutzer von Audience Manager. Wenn Audience Manager Anforderungen direkt von Datensubjekten empfängt, werden diese Anforderungen an die jeweiligen Adobe-Kunden weitergeleitet.
+**** Datenfach: Die Person, auf die sich die personenbezogenen Daten beziehen. Im Kontext von Audience Manager sind Datensubjekte die Kunden oder Endbenutzer von Audience Manager. Wenn Adobe Anforderungen direkt von Datensubjekten erhält, werden diese Anforderungen an die jeweiligen Audience Manager-Kunden weitergeleitet.
 
  
 
