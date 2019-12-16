@@ -6,7 +6,7 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: Datenverwaltung
 translation-type: tm+mt
-source-git-commit: b47819d5e6394e78d744ada1bb7090d337938983
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -34,7 +34,7 @@ Sehen Sie sich das unten stehende Video an, um zu verstehen, wie [!DNL IP] Adres
 
 >[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=ger)
 
-**** Geografische Segmentierung: Wenn Sie die [!DNL IP] Adressenverschleierung aktivieren, können die verbleibenden Oktette der [!DNL IP] Adresse weiterhin für die Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die [!DNL IP] Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige [!DNL IP] Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie einen Standort in jedem Fall nach geografischem Gebiet identifizieren können, allerdings mit etwas geringer Präzision, wenn [!DNL IP] [!DNL IP] Verschleierung verwendet wird. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentdaten sind nur auf der Ebene der Stadt oder der Postleitzahl granular und nicht auf der Ebene der einzelnen Personen. Erfahren Sie mehr über das [Geo-Targeting](../../features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
+**** Geografische Segmentierung: Wenn Sie die [!DNL IP] Adressenverschleierung aktivieren, können die verbleibenden Oktette der [!DNL IP] Adresse weiterhin für die Geo-Segmentierung und Berichterstellung in Audience Manager verwendet werden. Wenn Sie die [!DNL IP] Adressenverschleierung nicht aktivieren, verwendet Audience Manager die vollständige [!DNL IP] Adresse. Sie können die Funktion Geografische Segmentierung verwenden, mit der Sie einen Standort in jedem Fall nach geografischem Gebiet identifizieren können. Bei der Verwendung der [!DNL IP] [!DNL IP] Verschleierung ist die Genauigkeit jedoch etwas geringer. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. Das Abrufen von Informationen auf Regions- und Landesebene sollte nur leicht beeinträchtigt werden. Geografische Segmentdaten sind nur auf der Ebene der Stadt oder der Postleitzahl granular und nicht auf der Ebene der einzelnen Personen. Erfahren Sie mehr über das [Geo-Targeting](../../features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
 
 ## Datenaufbewahrung in Audience Manager {#data-retention}
 
@@ -42,4 +42,4 @@ Die Anwendung geeigneter, sicherer und zeitnaher Datenaufbewahrungsrichtlinien a
 
 ## Grenzübergreifende Datenübertragung {#data-transfers}
 
-Die GDPR verbietet die Übermittlung von Daten außerhalb Europas nicht. Sie erfordert, dass die Datenschutzbestimmungen für europäische Daten überall dort bestehen bleiben, wo die Daten übertragen werden. Weitere Informationen erhalten Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) . CCPA hat keine grenzübergreifenden Datenübertragungsbeschränkungen.
+Wenn Audience Manager personenbezogene Daten von Kunden über nationale Grenzen hinweg übermittelt, erfolgt dies in Übereinstimmung mit dem geltenden Recht. Weitere Informationen erhalten Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) .
