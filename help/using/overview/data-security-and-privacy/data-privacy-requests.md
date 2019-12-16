@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Datenschutzanforderungen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -49,7 +49,7 @@ Die Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienste
 
 Um zu sehen, wie eine gültige [!DNL JSON] Datei aussieht, können Sie eine JSON-Musterdatei [herunterladen](../data-security-and-privacy/assets/access_request.json).
 
-Adobe versteht Ihre Verpflichtung, Kundenanfragen zum Datenschutz innerhalb von 30 Tagen nach Empfang zu erfüllen. Aus diesem Grund ist Adobe verpflichtet, Ihre Anforderung zum Löschen von Daten so schnell wie möglich zu bearbeiten.
+Adobe versteht Ihr Eintreten für die Einhaltung der Datenschutzanforderungen von Kunden innerhalb von 30 Tagen. Aus diesem Grund ist Adobe verpflichtet, Ihre Anforderung zum Löschen von Daten so schnell wie möglich zu bearbeiten.
 
 Als Antwort auf Ihre Anforderungen zum Löschen von Benutzerdaten löscht Audience Manager Eigenschaften und Segmente, die mit der Zielgruppen-Manager-ID in der Anforderung verknüpft sind. Darüber hinaus werden die jeweiligen Audience Manager-IDs für die einzelne Person, die von der weiteren Datenerfassung durch Audience Manager ausgeschlossen wurde, und die entsprechenden ID-Zuordnungen entfernt.
 
@@ -108,7 +108,7 @@ Ihre Endbenutzer können sich auch von der globalen Datenerfassung abmelden, ind
 
 Befolgen Sie die oben beschriebenen Abmeldeanfragen:
 
-* Audience Manager beendet in Zukunft die Datenerfassung, Segmentierung oder Aktivierung, solange der Benutzer seine Browser-Cookies nicht löscht.
+* Audience Manager beendet die Datenerfassung, Segmentierung oder Aktivierung, solange der Benutzer seine Browser-Cookies nicht löscht.
 * Historische Daten werden nach 120 Tagen aus dem Benutzerprofil entfernt.
 
 ### Abmeldung auf Partnerebene mit erklärten ID-Aufrufen
