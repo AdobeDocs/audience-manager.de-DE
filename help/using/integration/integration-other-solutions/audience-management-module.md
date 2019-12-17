@@ -1,13 +1,13 @@
 ---
 description: Fügen Sie das Zielgruppen-Management-Modul zu Adobe Analytics AppMeasurement hinzu, um Analytics-Daten an Audience Manager weiterzuleiten, anstatt dass der Audience Manager Data Integration Library (DIL)-Code ein Pixel von der Seite sendet.
-keywords: Zielgruppenanalyse; Analyse; ssf; serverseitige Weiterleitung
+keywords: audience analytics; analytics; ssf; server side forwarding
 seo-description: Fügen Sie das Zielgruppen-Management-Modul zu Adobe Analytics AppMeasurement hinzu, um Analytics-Daten an Audience Manager weiterzuleiten, anstatt dass der Audience Manager Data Integration Library (DIL)-Code ein Pixel von der Seite sendet.
 seo-title: Implementieren des Zielgruppen-Management-Moduls
 solution: Audience Manager
 title: Implementieren des Zielgruppen-Management-Moduls
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: d6bfffa97813eeafd7e478f0520b2a62eb63cb94
 
 ---
 
@@ -15,6 +15,10 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 # Implementieren des Zielgruppen-Management-Moduls {#implement-the-audience-management-module}
 
 Fügen Sie die [!UICONTROL Audience Management Module] zu [!DNL Adobe Analytics] hinzu, um [!UICONTROL AppMeasurement] Daten an Audience Manager weiterzuleiten, anstatt dass der Audience Manager [!DNL Analytics] ([!UICONTROL Data Integration Library][!UICONTROL DIL] )-Code ein Pixel von der Seite sendet.
+
+>[!NOTE]
+>
+>Die Anweisungen auf dieser Seite beziehen sich auf Implementierungen mit [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) oder einer anderen Tag-Management-Lösung, *außer* [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Es wird empfohlen, Adobe Launch zu verwenden. Bei Verwendung von Launch müssen Sie keinen Code manuell kopieren, wie auf dieser Seite gezeigt.
 
 ## Voraussetzungen {#prereqs}
 
