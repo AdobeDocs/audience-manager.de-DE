@@ -5,7 +5,7 @@ seo-title: Audience Manager Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager Plug-In für IAB TCF
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
 
 ---
 
@@ -44,7 +44,7 @@ Sie müssen die folgenden Voraussetzungen erfüllen, um die IAB-TCF mit Audience
 
 ## Empfehlungen und Implementierungen {#recommendations}
 
-Um die IAB TCF-Unterstützung in Audience Manager zu aktivieren, lesen Sie unsere Dokumentation [wie Sie IAB mit Opt-in](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)einrichten.
+Um die IAB TCF-Unterstützung in Audience Manager zu aktivieren, lesen Sie unsere Dokumentation [wie Sie IAB mit Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)einrichten.
 
 Dies ist am einfachsten, wenn Sie die ECID-Teilnahme mit [Adobe Launch](https://docs.adobelaunch.com/) in Ihren Eigenschaften instrumentieren. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
@@ -133,7 +133,7 @@ Mit dem Audience Manager-Plug-in für die IAB-TCF können Sie die IAB-TCF-Zustim
 
 ## IAB-Implementierung testen {#test-iab-implementation}
 
-Um zu testen, ob Sie das Audience Manager-Plug-in für IAB TCF korrekt implementiert haben, lesen Sie [Verwendungsfall 4 unter Validierungsmethoden für Ausschluss- und IAB-Implementierung](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html).
+Um zu testen, ob Sie das Audience Manager-Plug-in für IAB TCF korrekt implementiert haben, lesen Sie [Verwendungsfall 4 in Validierungsmethoden für Ausschluss- und IAB-Implementierung](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88).
 
 ## IAB und Ausschluss in Audience Manager. Rangfolge. {#iab-and-optout}
 
