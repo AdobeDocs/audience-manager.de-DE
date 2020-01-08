@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
+source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
 
@@ -113,7 +113,7 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + Regeln zum Profilzusammenführen{#profile-merge-rules}
       + [Übersicht über Regeln zum Profilzusammenführen](features/profile-merge-rules/merge-rules-overview.md)
       + [Erste Schritte mit Regeln zur Profilzusammenführung](features/profile-merge-rules/merge-rules-start.md)
-      + [Dashboard "Regeln für Profilzusammenführung"](features/profile-merge-rules/merge-rules-dashboard.md)
+      + [Dashboard &quot;Regeln für Profilzusammenführung&quot;](features/profile-merge-rules/merge-rules-dashboard.md)
       + [Optionen für Profilzusammenführungsregeln definiert](features/profile-merge-rules/merge-rule-definitions.md)
       + [Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung](features/profile-merge-rules/merge-rule-targeting-options.md)
       + [Anwendungsfälle des Profillink-Gerätediagramms](features/profile-merge-rules/profile-link-use-case.md)
@@ -348,7 +348,6 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
       + [Fehlerbehebung für Tipps für Massenverwaltungswerkzeuge](reference/bulk-management-tools/bulk-troubleshooting.md)
       + [Glossar zu Massenverwaltungswerkzeugen](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID ersetzt DPID und DPUUID](reference/cid.md)
-   + [Glossar](reference/aam-glossary.md)
    + [Auswirkungen von Datenbereitstellung und Dateiverarbeitung auf Berichte](reference/reporting-file-transfer-timeframe.md)
    + [Index der IDs in Audience Manager](reference/ids-in-aam.md)
    + [Erläuterung von wichtigen Seiten](reference/key-value-pairs-explained.md)
@@ -391,3 +390,4 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + [Aktualisierungen der Dokumentation 2017](docs-updates/docs-2017.md)
    + [Aktualisierungen der Dokumentation 2016](docs-updates/docs-2016.md)
    + [Aktualisierungen der Dokumentation 2015](docs-updates/docs-2015.md)
++ [Glossar](reference/aam-glossary.md)
