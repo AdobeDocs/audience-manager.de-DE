@@ -6,22 +6,22 @@ solution: Audience Manager
 title: Bericht zu nicht verwendeten Signalen
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
 
 ---
 
 
 # Bericht zu nicht verwendeten Signalen{#unused-signals-report}
 
-Dieser Bericht gibt die Häufigkeit aller nicht verwendeten Informationen zurück, die im Bestand erfasst und an Audience Manager gesendet wurden.
+Dieser Bericht gibt die Häufigkeit aller nicht verwendeten Informationen zurück, die im Bestand erfasst und an Audience Manager gesendet wurden. Um auf diesen Bericht zuzugreifen, navigieren Sie zu **Analytics > Zielgruppenberichte > Andere Berichte > Nicht verwendete Signale**.
 
-<!-- 
+>[!NOTE]
+>
+>Wenn die Meldung &quot;Sie haben keinen Zugriff auf Zielgruppenberichte&quot;angezeigt wird, wenden Sie sich an Ihren Audience Manager-Berater oder die Kundenunterstützung, um den Bericht für Sie bereitzustellen.
 
-c_unused_signals.xml
+![Screenshot des Berichts über nicht verwendete Signale](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## Bericht zu nicht verwendeten Signalen
+## Überblick
 
 Ein Signal ist eine Information von Ihrer Website, an die [!DNL Audience Manager] in Form von [Schlüssel-Wert-Paaren](../../reference/key-value-pairs-explained.md) (z.B. `color=blue, price>100, gender=female`usw.) weitergegeben wird.
 
@@ -45,7 +45,7 @@ Nicht verwendete Signale bestehen aus Daten, die Sie erfassen, aber keiner Eigen
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Sicherstellen der Einheitlichkeit von Eigenschaften oder Hinzufügen verwandter Werte zu einem Schlüssel</b> </p> </td> 
-   <td colname="col2"> <p>Überprüfen Sie den Bericht, um verschiedene Variationen von Werten für ein bestimmtes Signal zu berücksichtigen. </p> <p>Angenommen, Sie haben eine Eigenschaft für den Bundesstaat "North Carolina"in einem Schlüssel-Wert-Paar definiert als <code> c_state = North Carolina</code>. Der Bericht kann Ihnen helfen, Namensvarianten zu finden und diese zu den Eigenschaften hinzuzufügen (z.B. <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Alternativ dazu können Sie Namensvarianten mit dem Bericht ausfindig machen und diese durch einen einheitlichen Wert für alle Sites ersetzen. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Überprüfen Sie den Bericht, um verschiedene Variationen von Werten für ein bestimmtes Signal zu berücksichtigen. </p> <p>Angenommen, Sie haben eine Eigenschaft für den Bundesstaat "North Carolina"in einem Schlüssel-Wert-Paar definiert als <code> c_state = North Carolina</code>. Der Bericht kann Ihnen dabei helfen, Namensvarianten zu finden und diese der Eigenschaft hinzuzufügen (z. B. <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Alternativ dazu können Sie Namensvarianten mit dem Bericht ausfindig machen und diese durch einen einheitlichen Wert für alle Sites ersetzen. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Neue Eigenschaften erstellen</b> </p> </td> 
