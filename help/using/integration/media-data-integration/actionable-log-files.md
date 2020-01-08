@@ -1,13 +1,13 @@
 ---
 description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne Pixel anhängen zu müssen.
 keywords: actionable logs, alf, ALF
-seo-description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne angehängte Pixel verwenden zu müssen.
+seo-description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne Pixel anhängen zu müssen.
 seo-title: Actionable Log Files
 solution: Audience Manager
 title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
+source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
 
 ---
 
@@ -35,7 +35,7 @@ Wenn Sie bereits Protokolldaten importieren, bitten Sie Ihren [!DNL Audience Man
 
 >[!IMPORTANT]
 >
-> Ende 2019 [!UICONTROL Actionable Log Files] wird die Verfügbarkeit auf neue Anzeigen-Server erweitert. Bitten Sie zunächst Ihren [!DNL Audience Manager] Berater oder [Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html) .
+> Anfang 2020 [!UICONTROL Actionable Log Files] wird die Verfügbarkeit neuer Werbeserver erweitert. Bitten Sie zunächst Ihren [!DNL Audience Manager] Berater oder [Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html) .
 
 ## Arbeiten mit ausführbaren Protokolldateien {#working-with-actionable-log-files}
 
@@ -148,7 +148,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Bei einer [!DNL DCM] Protokolldatei von durchschnittlich 2 Millionen Zeilen werden alle Eigenschaften, die aus umsetzbaren Signalen erstellt werden, innerhalb von etwa einer Stunde nach der Verarbeitung der Protokolle realisiert.
 
->[!NOTE] {important="high"}
+>[!NOTE] {important=&quot;high&quot;}
 >
 >Der in den [!DNL DCM] Protokollen angegebene Ereigniszeitstempel wird berücksichtigt und an den übergeben [!UICONTROL Data Collection Servers].
 >
@@ -249,11 +249,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Sie können Ihre eingehenden umsetzbaren Signale in der [Signalsuche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) anzeigen.
 
-Wechseln Sie zu **Zielgruppendaten** (1) &gt; **Signale** (2) &gt; **Suche** (3) und wählen Sie den Filter **Aktive Protokolldateien** (4).
+Wechseln Sie zu **Zielgruppendaten** (1) > **Signale** (2) > **Suche** (3) und wählen Sie den Filter **Aktive Protokolldateien** (4).
 
 ![Umsetzbare Signale in der Benutzeroberfläche](/help/using/integration/assets/alf-in-signals.png)
 
-Um regelbasierte Eigenschaften mit den umsetzbaren Signalen zu erstellen, wählen Sie " **Umsetzbare Protokolldateien** "(1), wählen Sie die umsetzbaren Signale aus, die Sie als Eigenschaftsregeln verwenden möchten (2) und drücken Sie die **Taste "Eigenschaften aus ausgewählten Signalen** erstellen"(3).
+Um regelbasierte Eigenschaften mit den umsetzbaren Signalen zu erstellen, wählen Sie &quot; **Umsetzbare Protokolldateien** &quot;(1), wählen Sie die umsetzbaren Signale aus, die Sie als Eigenschaftsregeln verwenden möchten (2) und drücken Sie die **Taste &quot;Eigenschaften aus ausgewählten Signalen** erstellen&quot;(3).
 
 ![Eigenschaften aus Signalen erstellen](/help/using/integration/assets/alf-create-trait.png)
 
@@ -264,7 +264,7 @@ Ein Vorteil der Implementierung [!UICONTROL Actionable Log Files] ist die Mögli
 
 ### Retargeting-Benutzer
 
-Retarget-Benutzer, die kreative Elemente des Typs 123 gesehen haben, aber nicht auf "Kreativ"geklickt oder konvertiert haben, und ihnen kreative Elemente des Typs 456 zeigen. Führen Sie folgende Schritte aus:
+Retarget-Benutzer, die kreative Elemente des Typs 123 gesehen haben, aber nicht auf &quot;Kreativ&quot;geklickt oder konvertiert haben, und ihnen kreative Elemente des Typs 456 zeigen. Führen Sie folgende Schritte aus:
 
 1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die das kreative Element gesehen haben. Nehmen wir an, Sie benennen die Eigenschaft [!DNL Creative Trait 123]. Verwenden Sie die Eigenschaftsregel:
 
