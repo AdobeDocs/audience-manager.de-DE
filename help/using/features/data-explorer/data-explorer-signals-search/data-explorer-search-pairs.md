@@ -5,7 +5,7 @@ seo-title: Suchsignale nach Schlüsselwertpaaren
 title: Suchsignale nach Schlüsselwertpaaren
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 translation-type: tm+mt
-source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -32,6 +32,10 @@ Bei der Suche nach Signalen mit mehreren Schlüssel/Wert-Paaren werden die Paare
 Diese Suche gibt nur Ergebnisse zurück, die für alle drei Filter bei demselben Aufruf qualifiziert sind: `c_creative == "12345"``AND``c_product == "smartphone"``AND``c_location == "europe"` .
 
 ![](assets/signals-search.png)
+
+## Von der Signalsuche ausgeschlossene Signale {#excluded-signals}
+
+Schlüsselvariablen, die von Audience Manager verwendet werden und denen die Präfixe `d_` und `h_` Präfixe vorangestellt werden, werden nicht durch [!UICONTROL Signals Search]übersehen. Weitere Informationen finden Sie unter [Voraussetzungen für das Präfix für Schlüsselvariablen](../../traits/trait-variable-prefixes.md) .
 
 ## Groß-/Kleinschreibung und automatischer Abschluss der Suche {#case-insensitivity}
 
