@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
+source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 
 ---
 
@@ -35,7 +35,7 @@ Wenn Sie bereits Protokolldaten importieren, bitten Sie Ihren [!DNL Audience Man
 
 >[!IMPORTANT]
 >
-> Anfang 2020 [!UICONTROL Actionable Log Files] wird die Verfügbarkeit neuer Werbeserver erweitert. Bitten Sie zunächst Ihren [!DNL Audience Manager] Berater oder [Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html) .
+> Ende 2019 [!UICONTROL Actionable Log Files] begann die Verfügbarkeit neuer Werbeserver zu erweitern. Bitten Sie zunächst Ihren [!DNL Audience Manager] Berater oder [Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html) .
 
 ## Arbeiten mit ausführbaren Protokolldateien {#working-with-actionable-log-files}
 
