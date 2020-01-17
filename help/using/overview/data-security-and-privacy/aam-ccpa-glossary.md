@@ -1,11 +1,11 @@
 ---
-description: In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager verschiedene CCPA-Anforderungen erfüllt.
-seo-description: In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager verschiedene CCPA-Anforderungen erfüllt.
+description: In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager die verschiedenen CCPA-Anforderungen erfüllt.
+seo-description: In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager die verschiedenen CCPA-Anforderungen erfüllt.
 seo-title: CCPA-Glossar
 solution: Audience Manager
 title: CCPA-Glossar
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager als Service Provider verschiedene CCPA-Anforderungen erfüllt.
 
-Das California Consumer Privacy Act (CCPA) wird am 1. Januar 2020 in Kraft treten und ist eine weitere Gelegenheit, die Privatsphäre zu einem integrierten Bestandteil Ihrer Verbrauchererfahrung zu machen. Audience Manager nutzt die vorhandene Datenschutzinfrastruktur, um Ihnen bei der Verwendung von Audience Manager bei der Erfüllung Ihrer CCPA-Verpflichtungen zu helfen. So können Sie vor und nach dem 1. Januar 2020 CCPA-fähig sein.
+Das California Consumer Privacy Act (CCPA), das am 1. Januar 2020 in Kraft trat, bietet eine weitere Möglichkeit, Privatsphäre zu einem integrierten Bestandteil Ihrer Verbrauchererfahrung zu machen. Audience Manager nutzt die vorhandene Datenschutzinfrastruktur, um Sie bei der Verwendung von Audience Manager bei der Erfüllung Ihrer CCPA-Verpflichtungen zu unterstützen und so CCPA-bereit zu sein.
 
 Audience Manager freut sich darauf, mit Ihnen zusammenzuarbeiten, wenn Sie neue Verpflichtungen durch die Verwendung unserer Datenverwaltung und Datenschutz durch Designfunktionen angehen.
 
-## CCPA-Glossar {#CCPA-glossay}
+## CCPA-Glossar {#CCPA-glossary}
 
 Lernen Sie die Schlüsselbegriffe kennen, die im Zusammenhang mit CCPA verwendet werden. Wir haben einige der am häufigsten verwendeten Begriffe unten hervorgehoben.
 
@@ -45,3 +45,10 @@ Lernen Sie die Schlüsselbegriffe kennen, die im Zusammenhang mit CCPA verwendet
  
 
 **Eindeutiger Bezeichner/Eindeutiger persönlicher Bezeichner**: eine beständige Kennung, die verwendet werden kann, um einen Verbraucher, eine Familie oder ein Gerät, das mit einem Verbraucher oder einer Familie verbunden ist, über einen bestimmten Zeitraum und über verschiedene Dienste hinweg zu erkennen, einschließlich, aber nicht beschränkt auf eine Gerätekennung; eine Internet-Protokolladresse; Cookies, Beacons, Pixel-Tags, mobile Anzeigenkennungen oder ähnliche Technologien; Kundennummer, eindeutiges Pseudonym oder Benutzeralias; Telefonnummern oder andere Formen dauerhafter oder wahrscheinlicher Identifikatoren, die zur Identifizierung eines bestimmten Verbrauchers oder Geräts verwendet werden können.
+
+ 
+
+>[!MORELIKETHIS]
+>
+>[Datenschutz-Übersicht](/help/using/overview/data-security-and-privacy/data-privacy.md)
+
