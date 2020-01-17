@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenschutz-Übersicht
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -30,9 +30,9 @@ Mit der [allgemeinen Datenschutzverordnung (GDPR)](https://eugdpr.org/) wurden m
 
 Zur Einhaltung des GDPR unterstützt Audience Manager den Datenzugriff und das Löschen von [Anforderungen](data-privacy-requests.md).
 
-Das [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), das am 1. Januar 2020 in Kraft tritt, wird kalifornischen Einwohnern neue Rechte in Bezug auf ihre personenbezogenen Daten einräumen und bestimmten Stellen, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auferlegen.
+Das [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), das am 1. Januar 2020 in Kraft trat, verleiht kalifornischen Bürgern neue Rechte in Bezug auf ihre persönlichen Daten und erlegt bestimmten Einrichtungen, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf.
 
-Das CCPA bietet kalifornischen Einwohnern neue Datenschutzrechte, darunter das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen und zu wissen, ob ihre personenbezogenen Daten verkauft oder offen gelegt werden (und wem). In Erwartung der CCPA unterstützt Audience Manager den Zugriff auf CCPA und das Löschen von [Anforderungen](data-privacy-requests.md).
+Die CCPA gewährt kalifornischen Einwohnern neue Datenschutzrechte, darunter das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen und zu wissen, ob ihre personenbezogenen Daten verkauft oder offen gelegt werden (und wem). Um CCPA einzuhalten, unterstützt Audience Manager den Zugriff auf CCPA und das Löschen von [Anforderungen](data-privacy-requests.md).
 
 Weitere Informationen finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) .
 
