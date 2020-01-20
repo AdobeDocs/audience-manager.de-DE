@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Ziele
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
-source-git-commit: 431a254f1a70958db29621a59acc6239d2a6b005
+source-git-commit: e141d04201b94bac30cdbe97818cb8eb91ebbaea
 
 ---
 
@@ -46,7 +46,6 @@ Die Beispiele in der folgenden Tabelle helfen Ihnen dabei, zu verstehen, wann ei
 | Zieltyp | Wird normalerweise verwendet, wenn | Beispiel  | Zu beachten |
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | Sie müssen Daten an andere Adobe Experience Cloud-Lösungen senden. | Senden von Daten an Adobe Analytics |  |
-| **[!UICONTROL People-Based Destinations]** | Sie müssen Zielgruppensegmente an benutzerbasierte Umgebungen wie Facebook senden. | Auslieferung personalisierter Angebote an Bestandskunden anhand ihrer Einkaufshistorie | Zielgruppen-Targeting erfolgt über Hash-IDs. Siehe [Benutzerbasierte Ziele](people-based-destinations-overview.md) |
+| **[!UICONTROL People-Based Destinations]** | Sie müssen Zielgruppensegmente an benutzerbasierte Umgebungen wie Facebook senden. | Auslieferung personalisierter Angebote an Bestandskunden anhand ihrer Einkaufshistorie | Zielgruppen-Targeting erfolgt über Hash-IDs. Siehe [Benutzerbasierte Ziele](people-based-destinations-overview.md). |
 | **[!UICONTROL Device-Based Destinations]**(** Server-zu-Server **) | <ul><li>Eine sofortige Datenübertragung ist nicht erforderlich.</li><li>Erfassen von Daten zum Aufbau eines großen Zielgruppenpools qualifizierter Benutzer.</li></ul> | Datenerfassung im Zeitverlauf (Stunden oder Tage), um sie in einem Kampagnensatz zu verwenden, der zu einem späteren Zeitpunkt ausgeführt werden soll. | <ul><li>Überträgt Daten zu neuen und vorherigen Site-Besuchern. </li><li>Besucher müssen nicht mehr angezeigt werden, um sich für andere Segmente zu qualifizieren.</li></ul> |
 | **[!UICONTROL Custom Destinations]**(** URL **oder** Cookie **) | Sie müssen Daten sofort übertragen, damit ein Ziel sofort Aktionen an einen qualifizierten Benutzer durchführen kann. | Senden von Daten von einer Ticketeinkaufssite. Verwenden Sie eine URL oder ein Cookie-Ziel, um den Benutzer zu qualifizieren und das Targeting sofort durchzuführen. | <ul><li>Überträgt nur Daten zu neuen Besuchern. </li><li>Besucher müssen erneut angezeigt werden, um sich für das Segment zu qualifizieren.</li></ul> |
-
