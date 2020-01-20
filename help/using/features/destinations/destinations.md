@@ -1,13 +1,13 @@
 ---
 description: In Audience Manager ist ein Ziel ein beliebiges Drittanbietersystem (Anzeigenserver, DSP, Werbungsnetzwerk usw.) , für die Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
-keywords: Integrationscode, Ziel, Zielübersicht, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel
+keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: In Audience Manager ist ein Ziel ein beliebiges Drittanbietersystem (Anzeigenserver, DSP, Werbungsnetzwerk usw.) , für die Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
 seo-title: Ziele
 solution: Audience Manager
 title: Ziele
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 431a254f1a70958db29621a59acc6239d2a6b005
 
 ---
 
@@ -45,5 +45,8 @@ Die Beispiele in der folgenden Tabelle helfen Ihnen dabei, zu verstehen, wann ei
 
 | Zieltyp | Wird normalerweise verwendet, wenn | Beispiel  | Zu beachten |
 |--- |--- |--- |--- |
-| **URL** oder **Cookie** | Sie müssen Daten sofort übertragen, damit ein Ziel sofort Aktionen an einen qualifizierten Benutzer durchführen kann. | Senden von Daten von einer Ticketeinkaufssite. Verwenden Sie eine URL oder ein Cookie-Ziel, um den Benutzer zu qualifizieren und das Targeting sofort durchzuführen. | <ul><li>Überträgt nur Daten zu neuen Besuchern. </li><li>Besucher müssen erneut angezeigt werden, um sich für das Segment zu qualifizieren.</li></ul> |
-| **Server-zu-Server** | <ul><li>Eine sofortige Datenübertragung ist nicht erforderlich.</li><li>Erfassen von Daten zum Aufbau eines großen Zielgruppenpools qualifizierter Benutzer.</li></ul> | Datenerfassung im Zeitverlauf (Stunden oder Tage), um sie in einem Kampagnensatz zu verwenden, der zu einem späteren Zeitpunkt ausgeführt werden soll. | <ul><li>Überträgt Daten zu neuen und vorherigen Site-Besuchern. </li><li>Besucher müssen nicht mehr angezeigt werden, um sich für andere Segmente zu qualifizieren.</li></ul> |
+| **[!UICONTROL Adobe Experience Cloud Destinations]** | Sie müssen Daten an andere Adobe Experience Cloud-Lösungen senden. | Senden von Daten an Adobe Analytics |  |
+| **[!UICONTROL People-Based Destinations]** | Sie müssen Zielgruppensegmente an benutzerbasierte Umgebungen wie Facebook senden. | Auslieferung personalisierter Angebote an Bestandskunden anhand ihrer Einkaufshistorie | Zielgruppen-Targeting erfolgt über Hash-IDs. Siehe [Benutzerbasierte Ziele](people-based-destinations-overview.md) |
+| **[!UICONTROL Device-Based Destinations]**(** Server-zu-Server **) | <ul><li>Eine sofortige Datenübertragung ist nicht erforderlich.</li><li>Erfassen von Daten zum Aufbau eines großen Zielgruppenpools qualifizierter Benutzer.</li></ul> | Datenerfassung im Zeitverlauf (Stunden oder Tage), um sie in einem Kampagnensatz zu verwenden, der zu einem späteren Zeitpunkt ausgeführt werden soll. | <ul><li>Überträgt Daten zu neuen und vorherigen Site-Besuchern. </li><li>Besucher müssen nicht mehr angezeigt werden, um sich für andere Segmente zu qualifizieren.</li></ul> |
+| **[!UICONTROL Custom Destinations]**(** URL **oder** Cookie **) | Sie müssen Daten sofort übertragen, damit ein Ziel sofort Aktionen an einen qualifizierten Benutzer durchführen kann. | Senden von Daten von einer Ticketeinkaufssite. Verwenden Sie eine URL oder ein Cookie-Ziel, um den Benutzer zu qualifizieren und das Targeting sofort durchzuführen. | <ul><li>Überträgt nur Daten zu neuen Besuchern. </li><li>Besucher müssen erneut angezeigt werden, um sich für das Segment zu qualifizieren.</li></ul> |
+
