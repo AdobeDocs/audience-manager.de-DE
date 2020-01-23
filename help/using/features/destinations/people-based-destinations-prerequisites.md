@@ -5,7 +5,7 @@ seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Erwägungen
 translation-type: tm+mt
-source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
+source-git-commit: 301a5c553cfd5658f4d594773ab6248012cc50fa
 
 ---
 
@@ -32,11 +32,11 @@ Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um diese Premium-Funktion nutzen 
 
 Bevor Sie Ihre Erstanbieter-Zielgruppensegmente [!DNL People-Based Destinations] [!DNL Facebook]an senden können, stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen:
 
-1. Für Ihr [!DNL Facebook] Benutzerkonto muss die Berechtigung "Kampagnen **** verwalten"für das Anzeigenkonto aktiviert sein, das Sie verwenden möchten.
-1. Fügen Sie das **Adobe Experience Cloud** -Geschäftskonto als Werbepartner zu Ihrem [!DNL Facebook Ad Account]Konto hinzu. Verwenden Sie `business ID=206617933627973`. Weitere Informationen finden Sie unter Partner zu Ihrem Business Manager [hinzufügen](https://www.facebook.com/business/help/708679622611131) .
+1. Für Ihr [!DNL Facebook] Benutzerkonto muss die Berechtigung &quot;Kampagnen **** verwalten&quot;für das Anzeigenkonto aktiviert sein, das Sie verwenden möchten.
+2. Fügen Sie das **Adobe Experience Cloud** -Geschäftskonto als Werbepartner zu Ihrem [!DNL Facebook Ad Account]Konto hinzu. Verwenden Sie `business ID=206617933627973`. Weitere Informationen finden Sie unter Partner zu Ihrem Business Manager [hinzufügen](https://www.facebook.com/business/help/1717412048538897) .
    >[!IMPORTANT]
-   > Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die Berechtigung "Kampagnen **verwalten** "aktivieren. Dies ist für die [!DNL People-Based Destinations] Integration erforderlich.
-1. Lesen und unterzeichnen Sie die [!DNL Facebook Custom Audiences] Nutzungsbedingungen. Um das zu tun, gehen Sie zu `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, wo `accountID` ist Ihr [!DNL Facebook Ad Account ID].
+   > Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die Berechtigung &quot;Kampagnen **verwalten** &quot;aktivieren. Dies ist für die [!DNL People-Based Destinations] Integration erforderlich.
+3. Lesen und unterzeichnen Sie die [!DNL Facebook Custom Audiences] Nutzungsbedingungen. Um das zu tun, gehen Sie zu `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, wo `accountID` ist Ihr [!DNL Facebook Ad Account ID].
 
 ## Daten bei der Einschiffung {#data-onboarding}
 
@@ -67,7 +67,7 @@ Achten Sie beim Hashing der E-Mail-Adressen auf die folgenden Anforderungen:
 
 Sehen Sie sich das folgende Video an, um die Hashing-Anforderungen von [!UICONTROL People-Based Destinations]zu verstehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
 Mit Adobe Experience Cloud haben Sie die Möglichkeit, Kunden-IDs über den Experience Cloud ID-Dienst zu hash. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Support für setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
 
