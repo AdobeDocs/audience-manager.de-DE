@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
+source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
 
 ---
 
@@ -81,7 +81,7 @@ source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
       + [Globale Data Sources](features/global-data-sources.md)
    + [Deklarierte IDs](features/declared-ids.md)
    + [Abgeleitete Signale](features/derived-signals.md)
-   + Ziele{#destinations}
+   + Ziele {#destinations}
       + [Zielübersicht](features/destinations/destinations.md)
       + [Ziel-Homepage](features/destinations/destinations-home.md)
       + Adobe Experience Cloud-Ziele{#experience-cloud-destinations}
@@ -327,8 +327,7 @@ source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
       + [Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integration mit anderen Experience Cloud-Lösungen {#integration-other-solutions}
       + [Integration von Audience Manager in Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
-      + [Implementieren des Zielgruppen-Management-Moduls](integration/integration-other-solutions/audience-management-module.md)
-      + [Serverseitige Weiterleitung (Administratorhandbuch)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Weiterleiten von Daten aus Adobe Analytics an Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Veröffentlichen eines Adobe Analytics-Segments in der Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + Referenz{#reference}
    + [Referenzübersicht](reference/reference.md)
