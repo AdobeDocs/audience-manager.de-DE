@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Implementieren des Zielgruppen-Management-Moduls
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
+source-git-commit: 7e8ba292f2f901b1323d30d682066b49df885a0c
 
 ---
 
@@ -19,10 +19,6 @@ Führen Sie die Schritte in diesem Lernprogramm aus, um [!DNL Analytics] Daten a
 >[!TIP]
 >
 >Es wird empfohlen, Daten [!UICONTROL Adobe Launch] an Audience Manager weiterzuleiten [!UICONTROL Analytics] . Durch die Verwendung [!UICONTROL Launch]müssen Sie keinen Code manuell in kopieren, wie auf dieser Seite gezeigt [!UICONTROL AppMeasurement].
-
->[!NOTE]
->
->Die Anweisungen auf dieser Seite beziehen sich auf Implementierungen mit [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) oder einer anderen Tag-Management-Lösung, *außer* [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Es wird empfohlen, Adobe Launch zu verwenden. Durch die Verwendung [!DNL Launch]müssen Sie keinen Code manuell in kopieren, wie auf dieser Seite gezeigt [!UICONTROL AppMeasurement].
 
 ## Voraussetzungen {#prereqs}
 
