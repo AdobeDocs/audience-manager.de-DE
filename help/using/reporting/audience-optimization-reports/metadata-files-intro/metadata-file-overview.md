@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Übersicht und Zuordnungen für Metadatendateien
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
 
 ---
 
@@ -17,7 +17,7 @@ Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verst
 
 ## Überblick {#overview}
 
-Eine Übersicht über Metadaten und deren Verwendung. Eine Metadatendatei muss von einer Datendatei begleitet sein. Der Inhalt der Metadatendatei stimmt mit den Datendateiinformationen mit den entsprechenden, für Menschen lesbaren Beschriftungen in den Berichtmenüs überein. Weitere Informationen finden Sie unter [Datendateien für Zielgruppenoptimierungsberichte](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+Eine Übersicht über Metadaten und deren Verwendung. Eine Metadatendatei muss von einer Datendatei begleitet sein. Der Inhalt der Metadatendatei stimmt mit den Datendateiinformationen mit den entsprechenden, für Menschen lesbaren Beschriftungen in den Berichtmenüs überein. Weitere Informationen finden Sie unter [Datendateien für Zielgruppenoptimierungsberichte und ausführbare Protokolldateien](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### Metadatendateien enthalten Daten zu anderen Daten
 
@@ -31,7 +31,7 @@ Der Ereignisaufruf organisiert Informationen in Gruppen definierter Schlüssel/W
 
 Die Metadatendatei muss eine numerische ID mit einem lesbaren Namen verknüpfen. Beispiel: Ein Ereignisaufruf enthält eine kreative ID in einem Schlüsselwertpaar wie diesem: `d_creative:1234`. Ohne Metadatendatei würde dieses Kreativelement in einem Optionsmenü als 1234 angezeigt.
 
-Eine ordnungsgemäß formatierte Metadatendatei kann dieses kreative Element jedoch mit einem echten Namen wie "Werbetreibende Kreative A"verbinden, einem Namen, den Sie in einem Bericht lesen und erkennen können.
+Eine ordnungsgemäß formatierte Metadatendatei kann dieses kreative Element jedoch mit einem echten Namen wie &quot;Werbetreibende Kreative A&quot;verbinden, einem Namen, den Sie in einem Bericht lesen und erkennen können.
 
 ### Wann benötigen Sie eine Metadatendatei
 
@@ -126,7 +126,7 @@ Siehe [Benennungskonventionen für Metadatendateien](../../../reporting/audience
 
 ### Dateiinhalt
 
-In diesem Beispiel spiegeln die Dateiinhalte die Kreativ- und Kampagnen-IDs wider, die beim Ereignisaufruf weitergegeben werden. Das neue Element hier ist ein lesbarer Name. Nach der Verarbeitung wird der Name in dieser Datei als Option im Menü "Kreativ"eines [!UICONTROL Audience Optimization] Berichts angezeigt.
+In diesem Beispiel spiegeln die Dateiinhalte die Kreativ- und Kampagnen-IDs wider, die beim Ereignisaufruf weitergegeben werden. Das neue Element hier ist ein lesbarer Name. Nach der Verarbeitung wird der Name in dieser Datei als Option im Menü &quot;Kreativ&quot;eines [!UICONTROL Audience Optimization] Berichts angezeigt.
 
 ![](assets/metadata_file_contents.png)
 
