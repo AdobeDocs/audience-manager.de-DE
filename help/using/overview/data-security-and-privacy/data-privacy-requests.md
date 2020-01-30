@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Datenschutzanforderungen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ## Überblick {#overview}
 
-Dieses Dokument bietet einen Überblick über die Verwaltung der individuellen Datenschutzanforderungen und Abmeldeanforderungen, die Sie über die Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienstes und über das **[!DNL Privacy Service API]** Dialogfeld an Audience Manager senden können.
+Dieses Dokument bietet einen Überblick über die Verwaltung der individuellen Datenschutzanforderungen und Abmeldeanforderungen, die Sie über die Benutzeroberfläche[ des ](https://gdprui.cloud.adobe.io/)Datenschutzdienstes und über das **[!DNL Privacy Service API]**Dialogfeld an Audience Manager senden können.
 
 Mit diesen Tools können Sie Anfragen zum Datenschutz von Verbraucherdaten senden, die unter GDPR und CCPA gestellt werden.
 
@@ -25,9 +25,9 @@ Bevor Sie diesen Artikel lesen, sollten Sie das Glossar [GDPR](../data-security-
 Sie können einzelne Anforderungen auf zwei Arten senden, um auf Benutzerdaten zuzugreifen und sie aus Audience Manager zu löschen:
 
 * Über die Benutzeroberfläche des [Datenschutzdienstes](https://gdprui.cloud.adobe.io/). Die Dokumentation finden Sie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Durch die **[!DNL Privacy Service API]**. Die Dokumentation [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) und die API-Referenz [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Durch die **[!DNL Privacy Service API]**. Die Dokumentation[hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)und die API-Referenz[hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-Beim Senden individueller Datendatenschutzanforderungen können Sie alle Audience Manager-IDs (IDs), wie im Abschnitt **[Audience Manager-IDs](data-privacy-ids.md)** beschrieben, zusammen mit ihren jeweiligen Namespace-IDs (Datenquellen-IDs) senden.
+Beim Senden individueller Datendatenschutzanforderungen können Sie alle Audience Manager-IDs (IDs), wie im Abschnitt **[Audience Manager-IDs](data-privacy-ids.md)**beschrieben, zusammen mit ihren jeweiligen Namespace-IDs (Datenquellen-IDs) senden.
 
 Der [Datenschutzdienst](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) unterstützt zwei Arten von Anforderungen: Anforderungen zum Datenzugriff und zum Löschen von Daten.
 
@@ -170,7 +170,7 @@ Einige unserer Aktivierungspartner:
 
 In diesen Fällen ist es nicht möglich, Löschanforderungen automatisch über Audience Manager an Aktivierungspartner zu senden.
 
-Laden Sie sich unser [Partner-Excel-Blatt](assets/AAM-Partners-December2019.xlsx) herunter, um zu sehen, welche Audience Manager-Aktivierungspartner das Segment nicht unterstützen.
+Sehen Sie sich die [Liste der gerätebasierten Ziele](/help/using/features/destinations/device-based-destinations-list.md) an, um zu sehen, welche Audience Manager-Aktivierungspartner das Segmentieren unterstützen.
 
 ## Datenkorrekturanforderungen {#correction}
 
