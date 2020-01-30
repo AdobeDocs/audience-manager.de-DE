@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Bereitstellungsmethoden für Metadatendateien
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -14,6 +14,10 @@ source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
 # Bereitstellungsmethoden für Metadatendateien{#delivery-methods-for-metadata-files}
 
 Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen speziellen [!DNL Amazon S3] Ordner für Ihr Audience Manager-Konto senden. Informationen zu Bereitstellungs-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+
+>[!IMPORTANT]
+>
+> Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützung, um einen [!DNL Amazon S3] Ordner für Ihre Metadatendateien einzurichten.
 
 ## Syntax und Beispiel des Bereitstellungspfads {#syntax}
 
