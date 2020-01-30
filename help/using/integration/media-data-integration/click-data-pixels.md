@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erfassen von Kampagnen-Klickdaten über Pixelaufrufe
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -14,6 +14,14 @@ source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
 Die Klick-Tracking ermöglicht die Messung des Besuchereinsatzes während der gesamten Kampagne, da sie Klick-basierte Aktivitäten für Kreative von Drittanbietern erfasst. Ähnlich wie bei der Impressionserfassung wird ein Ereignisaufruf zur Verarbeitung an die Audience Manager-Datenerfassungsserver ([!UICONTROL DCS]) gesendet. Der Besucher wird dann zur gewünschten Webadresse weitergeleitet.
+
+>[!IMPORTANT]
+>
+>Damit Audience Manager die Felder, die er in Ereignisaufrufen erhält, korrekt interpretieren und Ihre Kampagnendaten in [Audience Optimization-Berichten](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)wiedergeben kann, müssen Sie Metadatendateien senden, die diese Felder lesbaren Werten zuordnen. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) und wenden Sie sich an Ihren Audience Manager-Berater oder den Kundendienst, um einen Amazon S3-Ordner für Metadatendateien einzurichten.
+
+>[!NOTE]
+>
+>Wenden Sie sich an Ihren Adobe Audience Manager-Berater oder führen Sie einen Kundenbetreuer, um die exakte URL der jeweiligen Clientdomäne anzuzeigen.
 
 ## Voraussetzungen
 
@@ -36,7 +44,7 @@ Die Antwort leitet den Browser zu dem [!DNL URL] im `d_rd` Parameter angegebenen
 
 Basierend auf dem obigen Beispiel wird der Browser zu folgenden Elementen umgeleitet [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=123`]
+`https://adobe.com/callback?creative=123`
 
 ## Unterstützte Makros
 
@@ -85,7 +93,7 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
    <td colname="col2"> <p>Vom Datenanbieter bereitgestellte eindeutige Benutzer-ID. </p> <p>Wird häufig verwendet, <code> d_dpid</code> um eine Benutzer-ID mit einer Datenanbieter-ID zu verknüpfen. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
@@ -157,7 +165,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 Basierend auf dem obigen Beispiel wird der Browser zu folgenden Elementen umgeleitet [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
+`https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
 >[!MORELIKETHIS]
 >
