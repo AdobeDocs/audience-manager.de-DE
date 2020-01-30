@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -15,7 +15,11 @@ source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Kampagnenattribute an Audience Manager zu senden.
 
-Diese Methode wird oft als "Verpixeln des kreativen Elements"bezeichnet. Diese Datenpunkte werden von den Drittanbieter-Anzeigenservermakros dynamisch in den [!DNL Audience Manager] Pixelcode eingefügt, die dazu verwendet werden, alle Impressionen und Klicks basierend auf den wichtigen Berichterstellungsattributen der Kampagne zuzuordnen und zu melden. Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerspezifischer Konversionspfade und helfen Kunden, die Sequenz von Anzeigenserverereignissen zu verbessern, die zu Konversionen führen.
+Diese Methode wird oft als &quot;Verpixeln des kreativen Elements&quot;bezeichnet. Diese Datenpunkte werden von den Drittanbieter-Anzeigenservermakros dynamisch in den [!DNL Audience Manager] Pixelcode eingefügt, die dazu verwendet werden, alle Impressionen und Klicks basierend auf den wichtigen Berichterstellungsattributen der Kampagne zuzuordnen und zu melden. Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerspezifischer Konversionspfade und helfen Kunden, die Sequenz von Anzeigenserverereignissen zu verbessern, die zu Konversionen führen.
+
+>[!IMPORTANT]
+>
+>Damit Audience Manager die Felder, die er in Ereignisaufrufen erhält, korrekt interpretieren und Ihre Kampagnendaten in [Audience Optimization-Berichten](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)wiedergeben kann, müssen Sie Metadatendateien senden, die diese Felder lesbaren Werten zuordnen. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) und wenden Sie sich an Ihren Audience Manager-Berater oder den Kundendienst, um einen Amazon S3-Ordner für Metadatendateien einzurichten.
 
 ## Ereignisaufrufsyntax
 
@@ -51,7 +55,7 @@ Impressionsereignisaufrufe akzeptieren Daten, die zu Schlüssel-Wert-Paaren gebi
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>Datenquellen-ID oder Integrationscode für Ihren Advertiser. </p> <p>Erforderlich für <span class="wintitle"> Berichte zur Zielgruppenoptimierung </span> . </p> </td> 
+   <td colname="col2"> <p>Datenquellen-ID oder Integrationscode für Ihren Advertiser. </p> <p>Erforderlich für <span class="wintitle"> Berichte zur Zielgruppenoptimierung </span> . </p> <p>Optional.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
