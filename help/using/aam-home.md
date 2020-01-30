@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager-Produktdokumentation
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 1eeab9f3e4d87131323cf5a5a4f4f8702f92c120
+source-git-commit: f2f3e40e7866c7610de520952f5dfd65823554f3
 
 ---
 
@@ -25,9 +25,7 @@ Dieses Handbuch zur technischen Dokumentation bietet Hilfe zur Selbsthilfe für 
      <li><a href="features/segments/trait-recommendations.md">Intelligente Recommendations for Audience Marketplace-Daten, powered by Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Erweiterungen der Profile Merge Rules</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Aktualisierung der Massenverwaltungswerkzeuge</a></li>
-     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
-     <li><a href="features/destinations/people-based-destinations-overview.md">Benutzerbasierte Ziele</a> </li>
-     </ul> </p> <p>Siehe auch <a href="docs-updates/docs-2019.md"> Aktualisierungen</a>der Dokumentation 2019. </p> 
+     </ul> </p> <p>Siehe auch <a href="docs-updates/docs-2020.md"> Aktualisierungen</a>der Dokumentation 2020. </p> 
      <br> 
      <p> <b>Gemeinsame Dokumentation</b> </p>
      <p>Wir freuen uns über Beiträge zu unserer Dokumentation von allen unseren Lesern. Weitere Informationen zum Beginn der Beitragsarbeit finden Sie unter Übersicht über<a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html"> das </a>Handbuch zur Zusammenarbeit.</p>
