@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datendateien für Zielgruppenoptimierungsberichte und ausführbare Protokolldateien
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -141,11 +141,15 @@ In der folgenden Tabelle sind die Spaltenüberschriften für Ihre Datendatei auf
 
 Laden Sie Ihre Impressions-, Klick- oder Konvertierungsdatendateien in einen Amazon S3-Ordner für Ihr [!DNL Audience Manager] Konto hoch. Informationen zu Bereitstellungs-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
 
+>[!IMPORTANT]
+>
+> Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützung, um einen [!DNL Amazon S3] Ordner für Ihre Datendateien einzurichten.
+
 **Syntax und Beispiele für Bereitstellungspfad**
 
-Die Daten werden in einem separaten Namespace für jeden Kunden in einem Amazon S3-Ordner gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Note, *italics* indicates a variable placeholder. Andere Elemente sind Konstanten oder Schlüssel und bleiben unverändert.
+Die Daten werden in einem separaten Namespace für jeden Kunden in einem [!DNL Amazon S3] Ordner gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Note, *italics* indicates a variable placeholder. Andere Elemente sind Konstanten oder Schlüssel und bleiben unverändert.
 
-**Syntax:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>Dateityp</i>_<i>yyymmdd</i></code></pre>
+**Syntax:** <pre> .../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>Dateityp</i>_<i>yyymmdd</i></code></pre>
 
 In der folgenden Tabelle werden diese Elemente in einem Dateibereitstellungspfad definiert.
 
@@ -163,7 +167,7 @@ In der folgenden Tabelle werden diese Elemente in einem Dateibereitstellungspfad
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dieses Schlüssel-Wert-Paar, das Ihre <span class="keyword"> Audience Manager</span> -Kunden-ID enthält. </p> </td> 
+   <td colname="col2"> <p>Dieses Schlüssel-Wert-Paar enthält Ihre <span class="keyword"> Audience Manager</span> -Kunden-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
