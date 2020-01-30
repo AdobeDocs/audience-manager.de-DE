@@ -1,13 +1,13 @@
 ---
 description: Häufig gestellte Fragen zum Übertragen von Offlinedaten in Audience Manager
-keywords: ftp oder s3;s3 oder ftp
+keywords: ftp or s3;s3 or ftp
 seo-description: Häufig gestellte Fragen zum Übertragen von Offlinedaten in Audience Manager
 seo-title: Häufig gestellte Fragen zur Ingestion von Inbound-Kundendaten
 solution: Audience Manager
 title: Häufig gestellte Fragen zur Ingestion von Inbound-Kundendaten
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 22336b052af1c438136e4a6cfd6ad88393503f16
 
 ---
 
@@ -64,65 +64,73 @@ Siehe [Dateikomprimierung für eingehende Datenübertragungsdateien](../integrat
 
 <br> 
 
-**Kann ich eine Eingangs-Datendatei ([!DNL .sync]oder eine[!DNL .overwrite]-Datei) hochladen, bevor ich[!DNL Audience Manager]Code in der Produktionsumgebung implementiere?**
+**Kann ich eine Eingangs-Datendatei ([!DNL .sync] oder eine [!DNL .overwrite]-Datei) hochladen, bevor ich [!DNL Audience Manager] Code in der Produktionsumgebung implementiere?**
 
-* Wenn der Datenanbieter so konfiguriert ist, dass er [Profillink](../features/profile-merge-rules/merge-rules-overview.md) für geräteübergreifendes Targeting verwendet, werden die Daten, die kurz nach einer ID-Synchronisierung für das Targeting verfügbar sind, mit der entsprechenden [!DNL Audience Manager] Besucher-ID identifiziert.
+Ja. Solange Sie zum Speichern der hochgeladenen CRM-Daten eine geräteübergreifende Datenquelle verwenden, speichert Audience Manager die Daten immer. Nach den im Oktober 2019 von Audience Manager gestarteten Erweiterungen der Regeln zur Profilzusammenführung, die ausschließlich Offline-Anwendungsfälle ermöglichen, können Sie Daten hochladen und Aktionen ausführen, ohne den Audience Manager-Code überhaupt in die Produktion einsetzen zu müssen. Siehe:
 
-* Wenn der Datenanbieter nicht für die Verwendung der [!UICONTROL Profile Link] Funktion konfiguriert ist, verarbeitet [!DNL Audience Manager] nur die Daten für Besucher-IDs in der eingehenden Datendatei, die zuvor mit einer [!DNL Audience Manager] Besucher-ID synchronisiert/abgeglichen wurden.
+* [Übersicht über die Erweiterungen der Regeln zum Profilzusammenführen](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* Benutzerbasierte Ziele - [Personalisierung auf Basis von Nur-Offline-Daten](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
-Berücksichtigen Sie die folgenden Anwendungsfälle, in denen der Datenanbieter nicht für die Verwendung konfiguriert ist [!UICONTROL Profile Merge]:
+<!---
+* If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
+
+* If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
+
+Consider the following use cases in which the data provider is not configured to use [!UICONTROL Profile Merge]:
 
 <table id="table_1A367ED6D016428FB21B3F3BC261BA98"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nutzungsszenario </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
+   <th colname="col1" class="entry"> Use Case </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>1. Fall</b> </p> </td> 
-   <td colname="col2"> <p>Am Montag meldet sich ein Besucher, der in der CRM-Datenbank als Besucher-ABC identifiziert wurde, an, wodurch eine clientseitige ID-Synchronisierung initiiert wird. <span class="keyword"> Audience Manager</span> speichert die Zuordnung von Besucher-ABC zu <span class="keyword"> Audience Manager</span> Visitor 123. </p> <p>Am Dienstag überträgt die CRM-Datenbank eine Datendatei (<span class="filepath"> .sync</span>) mit folgendem Datensatz an den <span class="keyword"> Audience Manager- </span>Server: </p> <p> 
+   <td colname="col1"> <p><b>Case 1</b> </p> </td> 
+   <td colname="col2"> <p>On Monday, a visitor identified in the CRM database as visitor ABC logs in, which initiates a client-side ID sync. <span class="keyword"> Audience Manager</span> stores the mapping of visitor ABC to <span class="keyword"> Audience Manager</span> visitor 123. </p> <p>On Tuesday, the CRM database transfers a data file (<span class="filepath"> .sync</span>) to the <span class="keyword"> Audience Manager </span>server with the following record: </p> <p> 
      <ul class="simplelist"> 
       <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
-     </ul> </p> <p>In diesem Fall <span class="keyword"> Audience Manager</span>: </p> <p> 
+     </ul> </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
-      <li id="li_DC4F5E63D8134A29B703BDF264F02F65">Erkennt Besucher-ABC aus der gespeicherten ID-Synchronisierungszuordnung. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> Ordnet die Eigenschaften <code> male</code> und <code> luxury_shopper</code> das Profil "Besucher 123"zu. </li> 
+      <li id="li_DC4F5E63D8134A29B703BDF264F02F65">Recognizes visitor ABC from the stored ID sync mapping. </li> 
+      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associates the traits <code> male</code> and <code> luxury_shopper</code> with the visitor 123 profile. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>2. Fall</b> </p> </td> 
-   <td colname="col2"> <p>Am Montag sendet die CRM-Datenbank eine Datendatei (<span class="filepath"> .sync</span>) mit folgendem Datensatz an den <span class="keyword"> Audience Manager</span> -Server: </p> <p> 
+   <td colname="col1"> <p><b>Case 2</b> </p> </td> 
+   <td colname="col2"> <p>On Monday, the CRM database pushes a data file (<span class="filepath"> .sync</span>) to the <span class="keyword"> Audience Manager</span> server with the following record: </p> <p> 
      <ul class="simplelist"> 
       <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
-     </ul> </p> <p> <span class="keyword"> Audience Manager</span> verfügt über keinen Datensatz zu diesem Besucher (oder einer zugehörigen Besucher-ID), sodass dieser Datensatz nicht verarbeitet wird. </p> <p>Am Dienstag meldet sich die Besucher-DEF an. Diese Aktion initiiert die erste clientseitige ID-Synchronisierung für diesen Besucher. Diese Aktion ordnet Besucher-DEF der <span class="keyword"> Audience Manager</span> -ID 456 zu. Diesem Besucher sind jedoch keine CRM-Daten zugeordnet. Daher wird <span class="keyword"> Audience Manager</span> nicht zurückgehen und alte Dateien erneut verarbeiten. </p> <p>Am Mittwoch sendet die CRM-Datenbank eine weitere Datendatei mit folgendem Datensatz an den <span class="keyword"> Audience Manager</span> -Server: </p> <p> 
+     </ul> </p> <p> <span class="keyword"> Audience Manager</span> does not have a record of this visitor (or an associated visitor ID) so this record is not processed. </p> <p>On Tuesday, visitor DEF logs in. This action initiates the first client-side ID sync for that visitor. This action maps visitor DEF to <span class="keyword"> Audience Manager</span> ID 456. However, this visitor does not have CRM data associated with their profile. As a result, <span class="keyword"> Audience Manager</span> does not go back and reprocess old files. </p> <p>On Wednesday, the CRM database pushes another data file to the <span class="keyword"> Audience Manager</span> server with the following record: </p> <p> 
      <ul class="simplelist"> 
       <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
-     </ul> </p> <p>In diesem Fall <span class="keyword"> Audience Manager</span>: </p> 
+     </ul> </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
-     <li id="li_64D64A16E99E492BAAE1080867F854A9">Erkennt Besucher-DEF aus der gespeicherten ID-Synchronisierungszuordnung. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Verbindet die Eigenschaften <code> female</code>, <code> paris</code>und <code> wine_enthusiast</code> mit dem Besucherprofil 456. </li> 
+     <li id="li_64D64A16E99E492BAAE1080867F854A9">Recognizes visitor DEF from the stored ID sync mapping. </li> 
+     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associates the traits <code> female</code>, <code> paris</code>, and <code> wine_enthusiast</code> with the visitor 456 profile. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>3. Fall</b> </p> </td> 
-   <td colname="col2"> <p>Am Montag erhält der <span class="keyword"> Audience Manager</span> -Server zwei Dateien mit den folgenden Datensätzen: </p> <p> <code> .sync</code> Datei mit: </p> <p> 
+   <td colname="col1"> <p><b>Case 3</b> </p> </td> 
+   <td colname="col2"> <p>On Monday, the <span class="keyword"> Audience Manager</span> server receives two files with the following records: </p> <p> <code> .sync</code> file containing: </p> <p> 
      <ul class="simplelist"> 
       <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> <code> .overwrite</code> Datei mit: </p> 
+     </ul> </p> <p> <code> .overwrite</code> file containing: </p> 
     <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
      <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
      <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
-    </ul> <p><span class="keyword"> Audience Manager</span> speichert einen zugeordneten Datensatz von Besucher-JKL zu ID 789, ausgehend von einer vorherigen ID-Synchronisierung. </p> <p>In diesem Fall <span class="keyword"> Audience Manager</span>: </p> 
+    </ul> <p><span class="keyword"> Audience Manager</span> holds a mapped record of visitor JKL to ID 789, from a previous ID sync. </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
-     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">Erkennt Besucher-JKL aus der gespeicherten ID-Synchronisierungszuordnung. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Ordnet die Eigenschaften <code> female</code> und <code> wine_enthusiast</code> das Profil der Besucher-ID 789 zu. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignoriert die Eigenschaftsverknüpfung für Besucher-GHI, da ihre ID nur im aktuellen Stapel synchronisiert wurde. Um Eigenschaften mit Besucher-GHI zu verknüpfen, müssen Sie sie in zukünftige <code> .overwrite</code> Dateien aufnehmen. </li> 
+     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">Recognizes visitor JKL from the stored ID sync mapping. </li> 
+     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associates the traits <code> female</code> and <code> wine_enthusiast</code> with visitor ID 789's profile. </li> 
+     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignores the trait association for visitor GHI, since its ID was only synced in the current batch. To associate traits with visitor GHI, you need to include them in future <code> .overwrite</code> files. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 <br> 
 
