@@ -5,7 +5,7 @@ seo-title: Audience Manager Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager Plug-In für IAB TCF
 translation-type: tm+mt
-source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -107,7 +107,7 @@ Durch die Implementierung der IAB-TCF müssen Sie keinen benutzerdefinierten Cod
 
 Audience Manager bewertet und berücksichtigt die in [Pixelaufrufen](../../integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)weitergegebene Zustimmung gemäß der IAB-TCF.
 
-Pixel werden von Audience Manager-Kunden in der Regel auf ihren Partnerseiten platziert oder in Werbeseiten platziert, um sie in die Anzeigenantwort einzubeziehen. Im ersten Fall muss Ihr Partner den Parameter "approval"programmgesteuert abrufen und ihn dem Pixel hinzufügen, bevor er ausgelöst wird. Im zweiten Fall, der häufiger vorkommt und unten detailliert beschrieben wird, hängen Anzeigenserver die von der Supply-Side Platform (SSP) oder dem Herausgeber-Anzeigenserver erhaltenen Parameter an alle Pixel an.
+Pixel werden von Audience Manager-Kunden in der Regel auf ihren Partnerseiten platziert oder in Werbeseiten platziert, um sie in die Anzeigenantwort einzubeziehen. Im ersten Fall muss Ihr Partner den Parameter &quot;approval&quot;programmgesteuert abrufen und ihn dem Pixel hinzufügen, bevor er ausgelöst wird. Im zweiten Fall, der häufiger vorkommt und unten detailliert beschrieben wird, hängen Anzeigenserver die von der Supply-Side Platform (SSP) oder dem Herausgeber-Anzeigenserver erhaltenen Parameter an alle Pixel an.
 
 Audience Manager verwendet zwei Parameter, um die Zustimmung des Benutzers in Pixelaufrufen zu übermitteln:
 
@@ -129,7 +129,7 @@ Der Anwendungsfall wird im Bild und in den unten stehenden Schritten beschrieben
 
 ## Aktivierungspartner, die die IAB-TCF unterstützen {#aam-activation-partners}
 
-Mit dem Audience Manager-Plug-in für die IAB-TCF können Sie die IAB-TCF-Zustimmungszeichenfolge an Aktivierungspartner weiterleiten und dabei die Datenschutzeinstellungen der Benutzer beachten. Informationen darüber, welche Aktivierungspartner die IAB TCF unterstützen, finden Sie in unserem Excel- **[Arbeitsblatt](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-December2019.xlsx)** für Partner.
+Mit dem Audience Manager-Plug-in für die IAB-TCF können Sie die IAB-TCF-Zustimmungszeichenfolge an Aktivierungspartner weiterleiten und dabei die Datenschutzeinstellungen der Benutzer beachten. Informationen darüber, welche Aktivierungspartner die IAB TCF unterstützen, finden Sie in unserer [Liste der gerätebasierten Ziele](/help/using/features/destinations/device-based-destinations-list.md).
 
 ## IAB-Implementierung testen {#test-iab-implementation}
 
@@ -137,7 +137,7 @@ Um zu testen, ob Sie das Audience Manager-Plug-in für IAB TCF korrekt implement
 
 ## IAB und Ausschluss in Audience Manager. Rangfolge. {#iab-and-optout}
 
-Eine weitere Datenschutzoption, die Ihren Benutzern zur Verfügung steht, ist die Möglichkeit, die Datenerfassung auszuschließen. Adobe stellt Benutzern auf der Seite " [Datenschutzoptionen](https://www.adobe.com/privacy/opt-out.html#customeruse) "die entsprechenden Mittel zur Verfügung.
+Eine weitere Datenschutzoption, die Ihren Benutzern zur Verfügung steht, ist die Möglichkeit, die Datenerfassung auszuschließen. Adobe stellt Benutzern auf der Seite &quot; [Datenschutzoptionen](https://www.adobe.com/privacy/opt-out.html#customeruse) &quot;die entsprechenden Mittel zur Verfügung.
 
 Audience Manager behandelt Abmeldeanforderungen in einem [separaten Artikel in unserer Dokumentation](data-privacy-requests.md).
 
