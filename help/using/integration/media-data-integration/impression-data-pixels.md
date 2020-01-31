@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
@@ -16,10 +16,6 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Kampagnenattribute an Audience Manager zu senden.
 
 Diese Methode wird oft als &quot;Verpixeln des kreativen Elements&quot;bezeichnet. Diese Datenpunkte werden von den Drittanbieter-Anzeigenservermakros dynamisch in den [!DNL Audience Manager] Pixelcode eingefügt, die dazu verwendet werden, alle Impressionen und Klicks basierend auf den wichtigen Berichterstellungsattributen der Kampagne zuzuordnen und zu melden. Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerspezifischer Konversionspfade und helfen Kunden, die Sequenz von Anzeigenserverereignissen zu verbessern, die zu Konversionen führen.
-
->[!IMPORTANT]
->
->Damit Audience Manager die Felder, die er in Ereignisaufrufen erhält, korrekt interpretieren und Ihre Kampagnendaten in [Audience Optimization-Berichten](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)wiedergeben kann, müssen Sie Metadatendateien senden, die diese Felder lesbaren Werten zuordnen. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) und wenden Sie sich an Ihren Audience Manager-Berater oder den Kundendienst, um einen Amazon S3-Ordner für Metadatendateien einzurichten.
 
 ## Ereignisaufrufsyntax
 
@@ -111,6 +107,10 @@ Impressionsereignisaufrufe akzeptieren Daten, die zu Schlüssel-Wert-Paaren gebi
 >[!NOTE]
 >
 >Wenden Sie sich an Ihren Adobe Audience Manager-Berater oder führen Sie einen Kundenbetreuer, um die exakte URL der jeweiligen Clientdomäne anzuzeigen.
+
+## Zusätzliche Funktionen - Zielgruppenoptimierungsberichte
+
+Sie können Pixelaufrufe verwenden, um die [Zielgruppenoptimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)zu aktivieren. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) , wenn Sie Pixel verwenden möchten, um Berichte zu aktivieren.
 
 >[!MORELIKETHIS]
 >
