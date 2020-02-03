@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenerfassungstypen
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
+source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
 
 ---
 
@@ -39,8 +39,14 @@ Das folgende Beispiel zeigt, wie potenzielle Datenelemente von einer Einkaufssei
 
 ![shopping-cart-data](assets/shopping-cart-data.png)
 
-|Element|Beschreibung||—|—|| 1|**Geschlecht**. Der Vorname eines Bestellers gibt normalerweise das Geschlecht an. In unserem Beispiel ist der Vorname des Käufers Maria, also wissen wir, dass der Käufer eine Frau ist. Namen werden nie von Audience Manager gespeichert. || 2|**Interessen**. Die Artikel im Warenkorb können auf verschiedene Interessen hinweisen. In unserem Beispiel gibt Maria viel für Fitnessgeräte aus. ||3|**Wohntyp**. Je nach Lieferadresse und/oder Rechnungsadresse können Sie entscheiden, ob Mary Fitnessgeräte für sich selbst oder für eine Firma kauft.|
-|4|**Location**. ZIP-Codes sind zuverlässiger als IP-Adressen, wenn es um die Standortbestimmung geht. ||5|**Förderaffinität**. Wenn ein Käufer Werbecodes oder Geschenkkarten verwendet, sind sie wahrscheinlich ein Schnäppchenjäger, der nach den besten Geschäften sucht. || 6|**Ausgabenkraft**. Preisdaten, die mit Postleitzahlen korrelieren, weisen auf die Ausgabenstärke des jeweiligen Ortes hin.|
+| Element | Beschreibung |
+|---|---|
+| 1 | **Geschlecht**. Der Vorname eines Bestellers gibt normalerweise das Geschlecht an. In unserem Beispiel ist der Vorname des Käufers Maria, also wissen wir, dass der Käufer eine Frau ist. Namen werden nie von Audience Manager gespeichert. |
+| 2 | **Interessen**. Die Artikel im Warenkorb können auf verschiedene Interessen hinweisen. In unserem Beispiel gibt Maria viel für Fitnessgeräte aus. |
+| 3 | **Wohnungstyp**. Je nach Lieferadresse und/oder Rechnungsadresse können Sie entscheiden, ob Mary Fitnessgeräte für sich selbst oder für eine Firma kauft. |
+| 4 | **Ort**. ZIP-Codes sind zuverlässiger als IP-Adressen, wenn es um die Standortbestimmung geht. |
+| 5 | **Förderaffinität**. Wenn ein Käufer Werbecodes oder Geschenkkarten verwendet, sind sie wahrscheinlich ein Schnäppchenjäger, der nach den besten Geschäften sucht. |
+| 6 | **Ausgeben von Strom**. Preisdaten, die mit Postleitzahlen korrelieren, weisen auf die Ausgabenstärke des jeweiligen Ortes hin. |
 
 Nachdem die Rohdaten erfasst wurden, werden sie in der Audience Manager-Plattform wieder benutzerdefinierten Eigenschaften zugeordnet. Sowohl die Taxonomie als auch die Datenzuordnung können jederzeit angepasst werden, ohne dass Änderungen am Datenerfassungscode vorgenommen werden.
 
