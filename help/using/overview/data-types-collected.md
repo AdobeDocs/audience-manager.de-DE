@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenerfassungstypen
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
+source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
 
 ---
 
@@ -37,7 +37,10 @@ Audience Manager arbeitet mit Kunden zusammen, um deren Datenstrategie zu verste
 
 Das folgende Beispiel zeigt, wie potenzielle Datenelemente von einer Einkaufsseite erfasst werden können.
 
-![](assets/1st_party_800px.png)
+![shopping-cart-data](assets/shopping-cart-data.png)
+
+|Element|Beschreibung||—|—|| 1|**Geschlecht**. Der Vorname eines Bestellers gibt normalerweise das Geschlecht an. In unserem Beispiel ist der Vorname des Käufers Maria, also wissen wir, dass der Käufer eine Frau ist. Namen werden nie von Audience Manager gespeichert. || 2|**Interessen**. Die Artikel im Warenkorb können auf verschiedene Interessen hinweisen. In unserem Beispiel gibt Maria viel für Fitnessgeräte aus. ||3|**Wohntyp**. Je nach Lieferadresse und/oder Rechnungsadresse können Sie entscheiden, ob Mary Fitnessgeräte für sich selbst oder für eine Firma kauft.|
+|4|**Location**. ZIP-Codes sind zuverlässiger als IP-Adressen, wenn es um die Standortbestimmung geht. ||5|**Förderaffinität**. Wenn ein Käufer Werbecodes oder Geschenkkarten verwendet, sind sie wahrscheinlich ein Schnäppchenjäger, der nach den besten Geschäften sucht. || 6|**Ausgabenkraft**. Preisdaten, die mit Postleitzahlen korrelieren, weisen auf die Ausgabenstärke des jeweiligen Ortes hin.|
 
 Nachdem die Rohdaten erfasst wurden, werden sie in der Audience Manager-Plattform wieder benutzerdefinierten Eigenschaften zugeordnet. Sowohl die Taxonomie als auch die Datenzuordnung können jederzeit angepasst werden, ohne dass Änderungen am Datenerfassungscode vorgenommen werden.
 
@@ -53,9 +56,9 @@ c_2nd_party_data.xml
 
 In einem Szenario mit Daten von Zweitanbietern senden Werbetreibende ihre eigenen Daten-Assets an Herausgeber, damit sie diese Informationen mit den Daten des Herausgebers kombinieren und dann ein gezielteres Werbetreff ausführen können. Darüber hinaus können Herausgeber ihren Zielgruppenpool durch Zusammenarbeit mit ihren Werbekunden erweitern. In den meisten Fällen beinhalten diese Vereinbarungen vertragliche Beziehungen, die sich darauf beschränken, den Audience Manager-Container-Tag auf die Partner-Site zu setzen, um die Datenerfassung und -freigabe zu erleichtern.
 
-Ein Beispiel für die Datenerfassung und das Remarketing durch Zweitanbieter könnte sein, dass ein Automobilhersteller Daten auf seinen Seiten zur Fahrzeugkonfiguration sammelt und diese Informationen dann an wichtige Partner weitergibt. In diesem Fall könnte der Automobilhersteller verschiedene Anzeigen auf einer Audience Manager-Partnersite für Verbraucher bereitstellen, die verschiedene Arten von Fahrzeugoptionen konfiguriert haben (z. B. Farbe, Modell usw.).
+Ein Beispiel für die Erhebung und das Remarketing von Daten von Zweitanbietern könnte darin bestehen, dass ein Bekleidungseinzelhandel Daten über seine Produkte sammelt und diese Informationen dann an wichtige Partner weitergibt. In diesem Fall könnten die verkauften Anzeigen auf einer Audience Manager-Partnersite für Kunden, die verschiedene Jackettfarben und -größen auswählen, verschiedene Anzeigen bereitstellen.
 
-![](assets/2nd_party_700px.png)
+![](assets/shopping-cart-traits.png)
 
 ## Third-Party Data Collection {#third-party-data}
 
