@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenerfassungstypen
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
+source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
 
 ---
 
@@ -88,5 +88,4 @@ Audience Manager kann auf Grundlage der verfügbaren APIs und Datensätze mit an
 
 Viele Kunden entscheiden sich für die Zusammenarbeit mit Drittanbieter-Datenerfassungspartnern. Diese Entitäten unterhalten Beziehungen zu Sites, die Registrierungsanforderungen haben und Kundendatendateien verarbeiten können, indem sie diese (in Echtzeit) je nach Registrierungsnetzwerk abgleichen.
 
-![](assets/data_provider_match_700px.png)
-
+![data-provider-match](assets/data-provider-match.png)
