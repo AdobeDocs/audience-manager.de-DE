@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenerfassungstypen
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
+source-git-commit: f37f5c3747357205fa35bff6bb2322b8b909cb3c
 
 ---
 
@@ -46,7 +46,7 @@ Das folgende Beispiel zeigt, wie potenzielle Datenelemente von einer Einkaufssei
 | 3 | **Wohnungstyp**. Je nach Lieferadresse und/oder Rechnungsadresse können Sie entscheiden, ob Mary Fitnessgeräte für sich selbst oder für eine Firma kauft. |
 | 4 | **Ort**. ZIP-Codes sind zuverlässiger als IP-Adressen, wenn es um die Standortbestimmung geht. |
 | 5 | **Förderaffinität**. Wenn ein Käufer Werbecodes oder Geschenkkarten verwendet, sind sie wahrscheinlich ein Schnäppchenjäger, der nach den besten Geschäften sucht. |
-| 6 | **Ausgeben von Strom**. Preisdaten, die mit Postleitzahlen korrelieren, weisen auf die Ausgabenstärke des jeweiligen Ortes hin. |
+| 6 | **Ausgeben von Strom**. Preisdaten, die mit Postleitzahlen korrelieren, geben die Ausgabenstärke eines bestimmten Ortes an. |
 
 Nachdem die Rohdaten erfasst wurden, werden sie in der Audience Manager-Plattform wieder benutzerdefinierten Eigenschaften zugeordnet. Sowohl die Taxonomie als auch die Datenzuordnung können jederzeit angepasst werden, ohne dass Änderungen am Datenerfassungscode vorgenommen werden.
 
@@ -62,7 +62,7 @@ c_2nd_party_data.xml
 
 In einem Szenario mit Daten von Zweitanbietern senden Werbetreibende ihre eigenen Daten-Assets an Herausgeber, damit sie diese Informationen mit den Daten des Herausgebers kombinieren und dann ein gezielteres Werbetreff ausführen können. Darüber hinaus können Herausgeber ihren Zielgruppenpool durch Zusammenarbeit mit ihren Werbekunden erweitern. In den meisten Fällen beinhalten diese Vereinbarungen vertragliche Beziehungen, die sich darauf beschränken, den Audience Manager-Container-Tag auf die Partner-Site zu setzen, um die Datenerfassung und -freigabe zu erleichtern.
 
-Ein Beispiel für die Erhebung und das Remarketing von Daten von Zweitanbietern könnte darin bestehen, dass ein Bekleidungseinzelhandel Daten über seine Produkte sammelt und diese Informationen dann an wichtige Partner weitergibt. In diesem Fall könnten die verkauften Anzeigen auf einer Audience Manager-Partnersite für Kunden, die verschiedene Jackettfarben und -größen auswählen, verschiedene Anzeigen bereitstellen.
+Ein Beispiel für die Erhebung und das Remarketing von Daten von Zweitanbietern könnte darin bestehen, dass ein Bekleidungshändler Daten über seine Produkte sammelt und diese Informationen dann an wichtige Partner weitergibt. In diesem Fall könnten die verkauften Anzeigen auf einer Audience Manager-Partnersite für Kunden, die verschiedene Jackettfarben und -größen auswählen, verschiedene Anzeigen bereitstellen.
 
 ![](assets/shopping-cart-traits.png)
 
