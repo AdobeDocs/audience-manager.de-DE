@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenerfassungstypen
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f37f5c3747357205fa35bff6bb2322b8b909cb3c
+source-git-commit: 708c998fbe1cbd3e9acb51e31ee1c89e2f06d28d
 
 ---
 
@@ -45,7 +45,7 @@ Das folgende Beispiel zeigt, wie potenzielle Datenelemente von einer Einkaufssei
 | 2 | **Interessen**. Die Artikel im Warenkorb können auf verschiedene Interessen hinweisen. In unserem Beispiel gibt Maria viel für Fitnessgeräte aus. |
 | 3 | **Wohnungstyp**. Je nach Lieferadresse und/oder Rechnungsadresse können Sie entscheiden, ob Mary Fitnessgeräte für sich selbst oder für eine Firma kauft. |
 | 4 | **Ort**. ZIP-Codes sind zuverlässiger als IP-Adressen, wenn es um die Standortbestimmung geht. |
-| 5 | **Förderaffinität**. Wenn ein Käufer Werbecodes oder Geschenkkarten verwendet, sind sie wahrscheinlich ein Schnäppchenjäger, der nach den besten Geschäften sucht. |
+| 5 | **Promotion-Affinität**. Wenn ein Käufer Werbecodes oder Geschenkkarten verwendet, sind sie wahrscheinlich ein Schnäppchenjäger, der nach den besten Geschäften sucht. |
 | 6 | **Ausgeben von Strom**. Preisdaten, die mit Postleitzahlen korrelieren, geben die Ausgabenstärke eines bestimmten Ortes an. |
 
 Nachdem die Rohdaten erfasst wurden, werden sie in der Audience Manager-Plattform wieder benutzerdefinierten Eigenschaften zugeordnet. Sowohl die Taxonomie als auch die Datenzuordnung können jederzeit angepasst werden, ohne dass Änderungen am Datenerfassungscode vorgenommen werden.
