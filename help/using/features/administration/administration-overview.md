@@ -1,14 +1,14 @@
 ---
 description: Mit den Optionen im Menü "Administration"können Sie Audience Manager-Benutzer erstellen und sie Gruppen zuweisen. Sie können auch Beschränkungen (Eigenschaften, Segmente, Ziele und Modelle) anzeigen.
-keywords: rbac;RBAC;rollenbasiert;rollenbasierte;rollenbasierte Zugriffssteuerung
+keywords: rbac;RBAC;role based;role-based;role-based access controls
 seo-description: Mit den Optionen im Menü "Administration"können Sie Audience Manager-Benutzer erstellen und sie Gruppen zuweisen. Sie können auch Beschränkungen (Eigenschaften, Segmente, Ziele und Modelle) anzeigen.
-seo-title: Administrations-
+seo-title: Administration
 solution: Audience Manager
-title: Administrations-
-topic: DIL-API
+title: Administration
+topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ---
 
@@ -29,7 +29,7 @@ Unternehmenskunden, die eine Datenverwaltungsplattform für alle ihre Daten verw
 
 Erstellen Sie Benutzer in [!DNL Audience Manager] und geben Sie Benutzerdetails an, melden Sie sich an und weisen Sie Benutzer Gruppen zu.
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Users]**.
+1. Klicken **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Klicken Sie auf ![](assets/icon_add.png) , um die [!UICONTROL Create New User] Seite anzuzeigen.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
    * **** Benutzername: Geben Sie einen eindeutigen Benutzernamen für Audience Manager an.
@@ -46,7 +46,7 @@ Erstellen Sie Benutzer in [!DNL Audience Manager] und geben Sie Benutzerdetails 
    * **** Ausgesperrt: 5 Fehlerhafte Anmeldeversuche sperren einen Benutzer.
 1. Wählen Sie unter **[!UICONTROL Assigned Groups]**der Dropdownliste die gewünschten Gruppen aus, denen Sie diesen Benutzer zuweisen möchten.
 Weitere Informationen zu Gruppen und Berechtigungen finden Sie unter Gruppe [erstellen](../../features/administration/administration-overview.md#create-group).
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken **[!UICONTROL Save]**.
 
 ## Eine Gruppe erstellen {#create-group}
 
@@ -56,7 +56,7 @@ Eine *Gruppe* ist eine Sammlung von Benutzern, die Zugriff auf Ziel-, Segment- u
 
 So erstellen Sie eine Gruppe:
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
+1. Klicken **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
 1. Klicken Sie auf ![](assets/icon_add.png) , um die [!UICONTROL Group Settings] Seite zu öffnen.
 1. Mit [!UICONTROL Group Details]:
    * Benennen Sie die Gruppe.
@@ -66,7 +66,7 @@ So erstellen Sie eine Gruppe:
 Dadurch wird ein Berechtigungsfenster für das ausgewählte Objekt geöffnet.
 1. Aktivieren Sie das Kontrollkästchen für die Berechtigungen, die Gruppenmitglieder haben sollen.
 1. *(Optional)* Weisen Sie der Gruppe [Wildcard-Berechtigungen](../../features/administration/administration-overview.md#wild-card-permissions) zu.
-1. Klicken Sie auf **[!UICONTROL Save Group]**.
+1. Klicken **[!UICONTROL Save Group]**.
 
 ## Grundlegendes zu Wildcard-Berechtigungen {#wild-card-permissions}
 
@@ -134,3 +134,21 @@ Nachfolgend finden Sie eine Beschreibung der Bedeutung der einzelnen Platzhalter
 **Signale**
 
 * `VIEW_ALL_SIGNALS` - Benutzer können alle in [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md)erfassten Signale anzeigen.
+
+## Nutzungsszenarios {#use-cases}
+
+### Überwachen des Benutzerzugriffs {#monitoring-user-access}
+
+[!UICONTROL Role-Based Access Control] Sie können den Anmeldestatus des Benutzers überwachen, um ein klares Bild davon zu erhalten, wer auf Ihre Audience Manager-Instanz zugreifen kann.
+
+Je nach Ihren Geschäftsanforderungen können Sie Benutzerkonten bei Bedarf aktivieren und deaktivieren.
+
+![monitor-user-access](assets/monitor-user-access.png)
+
+### Sicherstellen des Zugriffs auf sensible Datenquellen {#protect-sensitive-data-sources}
+
+Sie können für jede Benutzergruppe Einstellungen auf [!UICONTROL Role-Based Access Control] Eigenschaften-, Segment- und Zielebene vornehmen.
+
+Mit dieser Funktion können Sie verwalten, wie Benutzer bestimmte Datensätze anzeigen, erstellen, lesen, schreiben und bearbeiten, und sogar Benutzer daran hindern, auf Datensätze zuzugreifen, die ihnen nicht zur Verfügung stehen sollten.
+
+![Zugangsschutz](assets/access-protection.png)
