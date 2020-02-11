@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
+source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
 
 Mit der Zielgruppenfreigabe-Funktion von Audience Manager und Adobe Experience Platform können Sie Ihre Audience Manager-Eigenschaften und -Segmente für Adobe Experience Platform freigeben und umgekehrt.
 
-Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden, um Audience Manager-Daten zu Ihren Kundenprofilen hinzuzufügen und den Experience Platform- [Segmentierungsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)zu nutzen.
+Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden, um Audience Manager-Daten zu Ihren Kundenprofilen hinzuzufügen und den Experience Platform- [Segmentierungsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)zu nutzen.
 
 In Audience Manager können Sie Experience Platform-Segmente für Anwendungsfälle von Data Management Platform verwenden, z. B.:
 * Fügen Sie Daten[ von ](/help/using/overview/data-types-collected.md#third-party-data)Drittanbietern zu Ihren Segmenten hinzu.
@@ -46,7 +46,7 @@ Die nachstehende Tabelle gibt einen Überblick über Anwendungsfälle für die F
 
 Ihre Audience Manager-Eigenschaften und -Segmente werden in Experience Platform als **Zielgruppen** im Segmentarbeitsablauf angezeigt. Weitere Informationen zu den Segmenten und Eigenschaften von Audience Manager in Experience Platform finden Sie unter:
 
-* [Übersicht über den Segmentdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)
+* [Übersicht über den Segmentdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
 * [Benutzerhandbuch zum Segmentaufbau in der Erlebnisplattform](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
 
 <br> 
