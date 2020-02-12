@@ -1,21 +1,25 @@
 ---
-description: Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das zur Einrichtung eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 werden drei Versionen des TLS-Protokolls verwendet, die TLS 1.0, 1.1 und 1.2 verwenden.
-seo-description: Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das zur Einrichtung eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 werden drei Versionen des TLS-Protokolls verwendet, die TLS 1.0, 1.1 und 1.2 verwenden.
-seo-title: TLS 1.0 – veraltete Funktionen
+description: Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das zur Einrichtung eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 gab es drei Versionen des TLS-Protokolls, die TLS 1.0, 1.1 und 1.2 verwendeten.
+seo-description: Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das zur Einrichtung eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 gab es drei Versionen des TLS-Protokolls, die TLS 1.0, 1.1 und 1.2 verwendeten.
+seo-title: TLS 1.0 und 1.1 Veraltet
 solution: Audience Manager
-title: TLS 1.0 – veraltete Funktionen
+title: TLS 1.0 und 1.1 Veraltet
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 translation-type: tm+mt
-source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
+source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
 
 ---
 
 
-# TLS 1.0 – veraltete Funktionen{#tls-deprecation}
+# TLS 1.0 und 1.1 Veraltet{#tls-deprecation}
 
-Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das zur Einrichtung eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 werden drei Versionen des TLS-Protokolls verwendet: TLS 1.0, 1.1 und 1.2.
+Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das zur Einrichtung eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 wurden drei Versionen des TLS-Protokolls verwendet: TLS 1.0, 1.1 und 1.2.
 
-Im März 2019 [!DNL Adobe] hat die Unterstützung für das [!DNL TLS 1.0] Protokoll eingestellt. Die Funktion von Adobe Audience Manager funktioniert nicht für Endbenutzer, die Browser verwenden, die nur unterstützt werden [!DNL TLS 1.0]. Wir empfehlen in der Tat die Verwendung von [!DNL TLS 1.2], d.h. zum Zeitpunkt der Erstellung, der neuesten Version des Protokolls. Alle modernen Browser verwenden [!DNL TLS 1.2]. Wir haben für Sie eine Liste mit Browsern, Versionen und deren [!DNL TLS] Unterstützung zusammengestellt. Weitere Informationen finden Sie unter [diesem Wikipedia-Link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Im März 2019 [!DNL Adobe] hat die Unterstützung für das [!DNL TLS 1.0] Protokoll eingestellt. Die Funktion von Adobe Audience Manager funktioniert nicht für Endbenutzer, die Browser verwenden, die nur unterstützt [!DNL TLS 1.0]werden.
+
+Im März 2020 [!DNL Adobe] wird die Unterstützung für das [!DNL TLS 1.1] Protokoll eingestellt. Die Funktionen von Adobe Audience Manager funktionieren nicht mehr für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.1]unterstützt werden.
+
+Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des Protokolls, die zum Zeitpunkt des Schreibens vorliegt. Alle modernen Browser verwenden [!DNL TLS 1.2]. Wir haben für Sie eine Liste mit Browsern, Versionen und deren [!DNL TLS] Unterstützung zusammengestellt. Weitere Informationen finden Sie unter [diesem Wikipedia-Link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
