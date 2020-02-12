@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
+source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
 
 ---
 
@@ -366,7 +366,7 @@ source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
       + [Das Edge Data Center](reference/system-components/components-edge.md)
    + [Stilkonventionen für Code- und Textelemente](reference/code-style-elements.md)
    + [Zeitzonen in Audience Manager](reference/aam-time-zones.md)
-   + [TLS 1.0 – veraltete Funktionen](reference/tls-support.md)
+   + [TLS 1.0 und 1.1 Veraltet](reference/tls-support.md)
    + [Aufrufe an die Domäne „demdex.net“ ](reference/demdex-calls.md)
    + [Authentifizierungsstatus von Besuchern in Audience Manager](reference/visitor-authentication-states.md)
 + Häufig gestellte Fragen (FAQ){#faqs}
