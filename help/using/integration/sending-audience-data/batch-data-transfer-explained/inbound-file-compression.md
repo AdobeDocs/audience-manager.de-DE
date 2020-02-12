@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dateikomprimierung für eingehende Datenübertragungsdateien
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -24,6 +24,8 @@ Audience Manager unterstützt auch nicht komprimierte Dateien.
 >[!IMPORTANT]
 >
 >Wir unterstützen derzeit keine Verschlüsselung und Komprimierung in derselben eingehenden Datendatei. Sie können Ihre eingehenden Dateien entweder [verschlüsseln](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) oder komprimieren.
+>
+> Beachten Sie jedoch, dass PGP-Verschlüsselung eine integrierte Komprimierung beinhaltet.
 
 ## Amazon S3-Komprimierung
 
