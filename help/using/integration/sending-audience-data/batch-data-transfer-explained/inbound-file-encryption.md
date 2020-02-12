@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datei-PGP-Verschlüsselung für Inbound-Datentypen
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -20,6 +20,8 @@ Als Option können Sie Datendateien mit [!DNL PGP] Verschlüsselung verschlüsse
 >[!IMPORTANT]
 >
 >Wir unterstützen derzeit keine Verschlüsselung und Komprimierung in derselben eingehenden Datendatei. Sie können Ihre eingehenden Dateien entweder verschlüsseln oder [komprimieren](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) .
+>
+> Beachten Sie jedoch, dass PGP-Verschlüsselung eine integrierte Komprimierung beinhaltet.
 
 Gehen Sie wie folgt vor, um eingehende Datendateien zu verschlüsseln.
 
