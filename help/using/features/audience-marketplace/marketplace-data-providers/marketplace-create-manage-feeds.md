@@ -4,17 +4,15 @@ seo-description: Ein Datenfeed erfordert einen Namen, eine Beschreibung, eine Da
 seo-title: Datenfeeds erstellen, bewerten und verwalten
 solution: Audience Manager
 title: Datenfeeds erstellen, bewerten und verwalten
-topic: DIL-API
+topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
 ---
 
 
 # Datenfeeds erstellen, bewerten und verwalten {#create-price-and-manage-data-feeds}
-
-Ein Datenfeed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds sind deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Datenfeeds unter [!UICONTROL Audience Marketplace] &gt; [!UICONTROL My Shared Data]. Nur für Datenverkäufer verfügbar.
 
 ## Erstellen eines öffentlichen oder privaten Datenfeeds {#create-public-private-data-feed}
 
@@ -25,12 +23,12 @@ Ein Datenfeed erfordert einen Namen, eine Beschreibung, eine Datenquelle und ein
 Sie müssen über Administratorrechte verfügen, um einen öffentlichen oder privaten Datenfeed zu erstellen.
 So erstellen Sie einen Datenfeed:
 
-1. Klicken Sie auf **[!UICONTROL New Data Feed]**.
+1. Klicken **[!UICONTROL New Data Feed]**.
 1. Benennen Sie den Datenfeed. Datenkäufer können anhand des Namens nach Ihrem Feed suchen.
 1. Geben Sie eine kurze Beschreibung ein (maximal 255 Zeichen).
 
    Eine gute Beschreibung sollte Ihren Feed genau beschreiben. Sie können beispielsweise Text für Marketingkategorien, demografische Daten und geografische Reichweite (z. B. [!DNL US] Nordamerika) einbeziehen. Der Beschreibungstext ist durchsuchbar und hilft Käufern, Ihren Feed zu finden oder zu bewerten. Eine gute Beschreibung ist ein wichtiger Teil, um Abonnenten zu Ihrem Datenfeed zu gewinnen.
-1. Wählen Sie eine Datenquelle aus den **[!UICONTROL Data Source]** Optionen.
+1. Wählen Sie eine Datenquelle aus den **[!UICONTROL Data Source]** Optionen. Datenfeeds sind auf eine einzige Datenquelle beschränkt. Sie können demselben Datenfeed nicht mehrere Datenquellen zuweisen.
 
    >[!IMPORTANT]
    >
@@ -40,25 +38,25 @@ So erstellen Sie einen Datenfeed:
 
    Feeds können mehrere Pläne enthalten. Pläne können mehrere Anwendungsfälle enthalten. Weitere Informationen finden Sie unter [Planungstypen für Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
-1. Klicken Sie auf **[!UICONTROL Save]** , um Ihre Datengebühr *ohne* Aktivierung zu speichern.
+1. Klicken Sie auf **[!UICONTROL Save]** , um Ihren Datenfeed zu speichern, *ohne* ihn zu aktivieren.
 1. So speichern und aktivieren Sie einen Datenfeed:
    1. Bewegen Sie den **[!UICONTROL Availability]** Schieberegler nach **[!UICONTROL Active]**.
-   1. Klicken Sie auf **[!UICONTROL Save]**.
+   1. Klicken **[!UICONTROL Save]**.
    >[!NOTE]
    >
    >* Gespeicherte und aktivierte Datenfeeds können nicht gelöscht werden.
    >* Käufer sehen nur aktive Feeds.
 
 
-### Optional: Erstellen eines privaten Datenfeeds
+###  Optional: Erstellen eines privaten Datenfeeds
 
 Bewegen Sie den Schieberegler im [!UICONTROL Settings] Abschnitt zu:
 
-* **[!UICONTROL Private]** und **[!UICONTROL Branded]**: Die [!UICONTROL Marketplace] Liste des Käufers zeigt den Namen des Verkäufers in der Spalte "Anbieter"an und alle anderen Daten werden ausgeblendet.
+* **[!UICONTROL Private]** und **[!UICONTROL Branded]**: Die [!UICONTROL Marketplace] Liste des Käufers zeigt den Namen des Verkäufers in der Spalte &quot;Anbieter&quot;an und alle anderen Daten werden ausgeblendet.
 
 * **[!UICONTROL Private]** und **[!UICONTROL Unbranded]**: Die [!UICONTROL Marketplace] Liste des Käufers enthält nur den Datenfeed-Namen und die Beschreibung. Der Name des Datenanbieters wird als [!UICONTROL Private Seller].
 
-Informationen dazu, wie ein privater Feed für Käufer aussieht, finden Sie im Abschnitt "Käufer"in [privaten Datenfeeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
+Informationen dazu, wie ein privater Feed für Käufer aussieht, finden Sie im Abschnitt &quot;Käufer&quot;in [privaten Datenfeeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
 
 ## Deaktivieren des Daten-Feeds eines Abonnenten {#deactivate-data-feed}
 
