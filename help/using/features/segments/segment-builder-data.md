@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Eigenschaften- und Segmentpopulationsdaten im Segmentaufbau
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
 
 ---
 
@@ -82,7 +82,7 @@ Die folgende Tabelle definiert die geschätzten Populationsmetriken.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Geschätzte Gesamtbevölkerung (Potenzial)</span> </p> </td> 
-   <td colname="col2"> <p>Die geschätzte Anzahl individueller Besucher, die sich in Ihrem neuen oder geänderten Segment befinden könnten. Wie bei fast jeder Schätzung garantiert die bisherige Performance keine zukünftigen Ergebnisse, aber Sie können die geschätzte Gesamtsumme wie folgt verwenden: </p> <p> 
+   <td colname="col2"> <p>Die geschätzte Anzahl individueller Besucher, die sich in Ihrem neuen oder geänderten Segment befinden könnten. Wie bei fast jeder Schätzung garantiert die bisherige Leistung keine zukünftigen Ergebnisse, aber Sie können die geschätzte Gesamtsumme wie folgt verwenden: </p> <p> 
      <ul id="ul_0490DD08C7C8493DADFB11B5872A73BC"> 
       <li id="li_AE38C8C8A4B24021BAC724B51A4799E2">Erkennen Sie, wie viele Personen ein neues oder überarbeitetes Segment beim Erstellen eines Segments erreichen kann. </li> 
       <li id="li_E830EC2B12DC46D4B0A4DD807A8936F6">Passen Sie das Segment je nach Ihren Zielen an. Große Segmente sind beispielsweise nützlich für Kampagnen zur Markenwahrnehmung, kleinere Segmente sind nützlich für gezielte Targeting- oder Targeting-Kampagnen. </li> 
@@ -136,11 +136,11 @@ Die folgende Tabelle definiert die tatsächlichen Echtzeit- und Gesamtpopulation
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Population in Echtzeit (vorhanden)</span> </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Anzahl der Geräte, die in Echtzeit mit aktuellen Profilen gesehen werden, die beim Zusammenführen mit bis zu 3 anderen Geräteprofilen, die mit dem Gerätediagramm verbunden sind, die Eigenschaften enthalten, die für das Segment zu dem Zeitpunkt gelten, zu dem es von <span class="keyword"> Audience Manager</span>gesehen wurde. </p> </td>
+   <td colname="col2"> <p>Die tatsächliche Anzahl der Geräte, die in Echtzeit mit aktuellen Profilen gesehen werden, die beim Zusammenführen mit bis zu 100 anderen Geräteprofilen, die mit dem Gerätediagramm verbunden sind, die Eigenschaften enthalten, die für das Segment in dem Moment gelten, in dem es von <span class="keyword"> Audience Manager</span>gesehen wurde. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Gesamtbevölkerung (vorhanden)</span> </p> </td> 
-   <td colname="col2"> <p>Die Gesamtanzahl der Geräte mit Profilen, die bei der Zusammenführung mit bis zu 3 anderen Geräteprofilen, die über das Gerätediagramm angeschlossen sind, für das Segment qualifiziert waren. </p> </td>
+   <td colname="col2"> <p>Die Gesamtzahl der Geräte mit Profilen, die bei der Zusammenführung mit bis zu 100 anderen Geräteprofilen, die über das Gerätediagramm angeschlossen sind, für das Segment qualifiziert wurden. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -151,7 +151,7 @@ Die folgende Tabelle definiert die tatsächlichen Echtzeit- und Gesamtpopulation
 
 ### Einschränkungen aufgrund von Zusammenführungsregeln bei der Schätzung von Segmentpopulationen
 
-Zurzeit gibt es eine bekannte Einschränkung, da unser Segmentgrößenschätzer keine Regeln für die Profilzusammenführung berücksichtigt. Betrachten Sie beispielsweise Segmente mit der **Regel**"Kein authentifiziertes Profil + Aktuelles Geräteprofil"[](../../features/profile-merge-rules/merge-rule-definitions.md). Aufgrund der Art und Weise, wie wir derzeit die Segmentschätzungszahlen berechnen, enthalten die geschätzten Populationen authentifizierte Profile. Die vorhandenen Segmentpopulationen ignorieren jedoch korrekt authentifizierte Profile.
+Zurzeit gibt es eine bekannte Einschränkung, da unser Segmentgrößenschätzer keine Regeln für die Profilzusammenführung berücksichtigt. Betrachten Sie z. B. Segmente mit der **Regel**&quot;Kein authentifiziertes Profil + Aktuelles Geräteprofil&quot;[](../../features/profile-merge-rules/merge-rule-definitions.md). Aufgrund der Art und Weise, wie wir derzeit die Segmentschätzungszahlen berechnen, enthalten die geschätzten Populationen authentifizierte Profile. Die vorhandenen Segmentpopulationen ignorieren jedoch korrekt authentifizierte Profile.
 
 >[!MORELIKETHIS]
 >
