@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zum Kundendatenfeed
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7018705c130bf7c65f3a69da5e4bd9e0666423bc
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 Häufig gestellte Fragen zu CDF-Dateien (Customer Data Feed).
 
-## Amazon S3-Speicher {#amazon-s3-storage}
+## Amazon S3-Datenspeicherung {#amazon-s3-storage}
 
 **Wo ist meine CDF-Datei gespeichert[!DNL Amazon]?**
 
@@ -23,15 +23,15 @@ Ihre CDF-Datei wird im `aam-cdf` Stammverzeichnis auf einem [!DNL Amazon S3] Ser
 
 <br> 
 
-**Ist mein Speicherbehälter sicher?**
+**Ist meine Datenspeicherung sicher?**
 
-Ja. Kunden haben nur Zugriff auf ihren eigenen Speicherplatz. Sie haben Lesezugriff auf Ihren Speicherbehälter. Sie haben keinen Schreibzugriff.
+Ja. Kunden haben nur Zugriff auf ihren eigenen Datenspeicherung-Bereich. Sie haben einen schreibgeschützten Zugriff auf Ihre Datenspeicherung. Sie haben keinen Schreibzugriff.
 
 <br> 
 
-**Kann ich meinen Speicherbehälter anpassen oder Dateien in einem anderen Verzeichnis speichern?**
+**Kann ich meinen Datenspeicherung-Bucket anpassen oder Dateien in einem anderen Verzeichnis speichern?**
 
-Nein. Es stehen keine Optionen zur Anpassung und alternativen Speicherung zur Verfügung.
+Nein. Es stehen keine Optionen für Anpassung und alternative Datenspeicherung zur Verfügung.
 
 <br> 
 
@@ -51,13 +51,13 @@ Siehe Benachrichtigungen zur Verarbeitung von [Kundendaten-Feed-Dateien](../feat
 
 **Welche Dateigrößen sollte ich erwarten? Wie groß ist eine durchschnittliche CDF-Datei?**
 
-Es ist schwierig, die Dateigrößen einzuschätzen. Und jede Datei kann eine andere Größe haben. Die Größe variiert von Stunde zu Stunde und Tag. Wenn Sie CDF-Dateien erhalten möchten, ist es hilfreich, sich auf die Verwaltung vieler Daten vorzubereiten.
+Es ist schwierig, die Dateigrößen einzuschätzen. Und jede Datei kann eine andere Größe haben. Die Größe variiert von Stunde zu Stunde und von Tag zu Tag. Wenn Sie CDF-Dateien erhalten möchten, ist es hilfreich, sich auf die Verwaltung einer Vielzahl von Daten vorzubereiten.
 
 <br> 
 
 **Wie viele Dateien erhalte ich?**
 
-Auch das ist schwer einzuschätzen. Wenn Sie jedoch CDF-Dateien erhalten möchten, ist es hilfreich, sich auf die Verwaltung vieler Daten vorzubereiten.
+Auch das ist schwer einzuschätzen. Wenn Sie jedoch CDF-Dateien erhalten möchten, ist es hilfreich, sich auf die Verwaltung einer Vielzahl von Daten vorzubereiten.
 
 <br> 
 
@@ -65,9 +65,7 @@ Auch das ist schwer einzuschätzen. Wenn Sie jedoch CDF-Dateien erhalten möchte
 
 **Wie kann ich die Integrität der auf Amazon S3 hochgeladenen Daten überprüfen?**
 
-Dateien mit einer Größe von mehr als 16 MiB werden in 16-MiB-Blöcke aufgeteilt und mit mehrteiligen Uploads hochgeladen [!DNL Amazon S3] .
-
-[!DNL Amazon] generiert einen `ETag` Wert für mehrteilige Uploads. Zuerst werden die einzelnen MD5-Prüfsummen jedes hochgeladenen Teils berechnet und dann in einer einzigen Zeichenfolge verkettet. Anschließend wird die MD5-Prüfsumme der Zeichenfolge berechnet. Die resultierende Prüfsumme (die `ETag`) wird dann mit einem Bindestrich und der Gesamtanzahl der zum Hochladen verwendeten Teile angehängt. Beispielsweise könnte die `ETag` für eine Datei, die während des Hochladevorgangs in 5 Teile aufgeteilt wurde, wie folgt aussehen: `2c51427d19021e88cf3395365895b6d4-5`
+[!DNL Amazon] Teilt große Dateien in kleinere Teile und lädt sie hoch, um sie mit dem mehrteiligen Upload zu [!DNL Amazon S3] verwenden. Dann wird ein `ETag` Wert für den mehrteiligen Upload generiert. Zuerst werden die einzelnen MD5-Prüfsummen jedes hochgeladenen Teils berechnet und dann in einer einzigen Zeichenfolge verkettet. Anschließend wird die MD5-Prüfsumme der Zeichenfolge berechnet. Die resultierende Prüfsumme (die `ETag`) wird dann mit einem Bindestrich und der Gesamtanzahl der zum Hochladen verwendeten Teile angehängt. Beispielsweise könnte die `ETag` für eine Datei, die während des Hochladevorgangs in 5 Teile aufgeteilt wurde, wie folgt aussehen: `2c51427d19021e88cf3395365895b6d4-5`
 
 <br> 
 
