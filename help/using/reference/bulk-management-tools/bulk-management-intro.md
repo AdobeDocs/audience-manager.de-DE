@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
+source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
 
 ---
 
@@ -32,16 +32,16 @@ Diese Funktion verwendet eine Microsoft Excel-Tabelle mit Makros, die sichere, a
 
 ## Herunterladen{#download}.
 
-Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20191205.xlsm)** herunter.
+Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20191205.xlsm)**herunter.
 
 ## Voraussetzungen {#prereqs}
 
 Zur Verwendung der [!DNL Bulk Management Tools]Variablen benötigen Sie Folgendes:
 
 * Ihre [!DNL Experience Cloud] Anmeldung. Als Kunde sollten Sie bereits über diese Anmeldeinformationen verfügen.
-* Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](assets/BAAAM_V2_20191205.xlsm) herunter, um die neueste Version zu erhalten.
-* Microsoft Excel wird auf [!DNL macOS] oder 64 Bit ausgeführt [!DNL Microsoft Windows]. Es wird empfohlen, die neueste Version von Microsoft Excel zu verwenden.
-* Beim Öffnen des Arbeitsblatts müssen Sie Makros **** aktivieren, damit das Arbeitsblatt funktioniert [!DNL Bulk Management Tools] .
+* Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](assets/BAAAM_V2_20200311.xlsm) herunter, um die neueste Version zu erhalten.
+* Microsoft Excel wird auf [!DNL macOS] oder 64-Bit ausgeführt [!DNL Microsoft Windows]. Es wird empfohlen, die neueste Version von Microsoft Excel zu verwenden.
+* Wenn Sie das Arbeitsblatt öffnen, müssen Sie Makros **** aktivieren, damit das Arbeitsblatt funktioniert [!DNL Bulk Management Tools] .
 
 ## Authentifizierungsanforderungen und Optionen {#auth-reqs}
 
@@ -49,7 +49,7 @@ Massenänderungen erfordern eine Authentifizierung. Bevor Sie eine Aktion durchf
 
 **API-Authentifizierungsanforderungen**
 
-Die im Oktober 2019 veröffentlichte zweite Version der Bulk Management Tools vereinfacht den Authentifizierungsprozess. Die Authentifizierungsschritte in dieser Version sind nachfolgend beschrieben:
+Die im Oktober 2019 veröffentlichte zweite Version der Bulk Management Tools vereinfacht den Authentifizierungsprozess. Die Authentifizierungsschritte in dieser Version sind im Folgenden beschrieben:
 
 1. Öffnen Sie die Tabelle und navigieren Sie zum **Konfigurationsblatt** .
 2. Führen Sie die im Arbeitsblatt beschriebenen Schritte aus.
@@ -60,20 +60,20 @@ Beim Durchführen von Massenänderungen müssen Sie weiterhin bestätigen, dass 
 
 **Domänenauthentifizierungsoptionen**
 
-Mit der Domänenauthentifizierung können Sie Massenanforderungen testen oder direkt auf Ihr Produktionskonto anwenden. Massenänderungen an der Betaumgebung haben keine Auswirkungen auf Ihr Produktionskonto. Produktionsänderungen sind sofort wirksam. Das Bulk Management Sheet ermöglicht Ihnen, in den folgenden Umgebungen zu arbeiten:
+Mit der Domänenauthentifizierung können Sie Massenanforderungen testen oder direkt auf Ihr Produktionskonto anwenden. Massenänderungen an der Beta-Umgebung wirken sich nicht auf Ihr Produktionskonto aus. Produktionsänderungen sind sofort wirksam. Das Bulk Management Sheet ermöglicht Ihnen die Arbeit in den folgenden Umgebung:
 
 * Beta
 * Produktion
 
 ## Aktionen und Operationen {#actions-ops}
 
-Das [!UICONTROL Bulk Management Tools] Arbeitsblatt besteht aus Authentifizierungsschaltflächen, Aktionsregisterkarten, Aktionsschaltflächen und einer **[!UICONTROL Headers]** Registerkarte. Die **[!UICONTROL Headers]** Registerkarte enthält die vorformatierten Spaltenüberschriften, die von den Registerkarten für Aktionen verwendet werden. Die Registerkarte "Aktion"enthält Makros, mit denen Sie den ausgewählten Massenvorgang durchführen. Um einen Massenvorgang auszuführen, kopieren Sie eine Reihe von Kopfzeilen in die entsprechende Registerkarte "Aktion", geben Kopfzeilendaten ein und klicken auf eine Aktionsschaltfläche.
+Das [!UICONTROL Bulk Management Tools] Arbeitsblatt besteht aus Authentifizierungsschaltflächen, Aktionsregisterkarten, Aktionsschaltflächen und einer **[!UICONTROL Headers]** Registerkarte. Die **[!UICONTROL Headers]** Registerkarte enthält die vorformatierten Spaltenüberschriften, die von den Registerkarten für Aktionen verwendet werden. Die Registerkarte &quot;Aktion&quot;enthält Makros, mit denen Sie den ausgewählten Massenvorgang durchführen. Um einen Massenvorgang auszuführen, kopieren Sie eine Reihe von Kopfzeilen in die entsprechende Registerkarte &quot;Aktion&quot;, geben Kopfzeilendaten ein und klicken auf eine Aktionsschaltfläche.
 
 Klicken Sie nach der [Authentifizierung](#auth-reqs)auf eine Aktionsschaltfläche, um zu beginnen.
 
 ![](assets/baaam-worksheet.png)
 
-Die folgende Tabelle listet die Vorgänge auf, die Sie durchführen können, und die Elemente, die Sie mit den [!UICONTROL Bulk Management Tools] Arbeitsblättern bearbeiten können.
+In der folgenden Tabelle werden die Vorgänge, die Sie ausführen können, und die Elemente, die Sie mit den [!UICONTROL Bulk Management Tools] Arbeitsblättern bearbeiten können, Liste.
 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
