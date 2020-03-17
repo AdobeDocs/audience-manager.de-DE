@@ -1,13 +1,13 @@
 ---
-description: Um eine neue Datenquelle zu erstellen, gehen Sie zu Zielgruppendaten > Datenquellen > Neu hinzufügen und führen Sie die Schritte für jeden Abschnitt durch, der hier beschrieben wird. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
-keywords: Datenquellen;Datenquelle verwalten;Zielgruppen-Manager-Datenquelle
-seo-description: Um eine neue Datenquelle zu erstellen, gehen Sie zu Zielgruppendaten > Datenquellen > Neu hinzufügen und führen Sie die Schritte für jeden Abschnitt durch, der hier beschrieben wird. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
+description: Um eine neue Datenquelle zu erstellen, gehen Sie zu "Audience-Daten"> "Datenquellen"> "Hinzufügen Neu"und führen Sie die Schritte für jeden dieser Abschnitte aus. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
+keywords: data sources;manage data source;audience manager data source
+seo-description: Um eine neue Datenquelle zu erstellen, gehen Sie zu "Audience-Daten"> "Datenquellen"> "Hinzufügen Neu"und führen Sie die Schritte für jeden dieser Abschnitte aus. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
 seo-title: Datenquelle erstellen
 solution: Audience Manager
 title: Data Sources verwalten
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -29,12 +29,12 @@ Um eine neue Datenquelle zu erstellen, gehen Sie zu den Schritten für jeden Abs
 So füllen Sie den [!UICONTROL Data Source Details] Abschnitt aus:
 
 1. Benennen Sie die Datenquelle.
-1. *(Optional)* Beschreiben Sie die Datenquelle. Eine kurze Beschreibung hilft Ihnen, die Rolle oder den Zweck der Datenquelle zu definieren.
+1. *(Optional)* Beschreiben Sie die Datenquelle. Eine knappe Beschreibung hilft Ihnen, die Rolle oder den Zweck der Datenquelle zu definieren.
 1. Geben Sie einen Integrationscode ein. Im Allgemeinen sind Integrationscodes optional. Sie sind erforderlich, wenn Sie:
 
    * [Erstellen Sie eine geräteübergreifende Datenquelle](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Verwenden Sie den [Experience Cloud ID-Dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-   * Arbeiten Sie mit [Regeln](../features/profile-merge-rules/merge-rules-start.md)zum Profilzusammenführen.
+   * Verwenden Sie den Identitätsdienst [für Adobe Experience Platform](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+   * Arbeiten mit [Profil Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Wählen Sie eine **[!UICONTROL ID Type]**. Zu den ID-Typ-Optionen zählen:
 
@@ -53,10 +53,10 @@ So füllen Sie den [!UICONTROL Data Source Details] Abschnitt aus:
 
 ## Data Source Settings {#settings}
 
-Diese Einstellungen bestimmen, wie eine Datenquelle identifiziert, verwendet und freigegeben wird. Sie können auch die Fehlermeldung für eingehende Datendateien aktivieren. So füllen Sie den [!UICONTROL Data Source Settings] Abschnitt aus:
+Diese Einstellungen bestimmen, wie eine Datenquelle identifiziert, verwendet und freigegeben wird. Sie können auch den Berichte &quot;error&quot;für eingehende Datendateien aktivieren. So füllen Sie den [!UICONTROL Data Source Settings] Abschnitt aus:
 
 1. Aktivieren Sie ein [!UICONTROL Data Source Setting] Kontrollkästchen, um eine Option auf Ihre Datenquelle anzuwenden.
-2. Klicken Sie auf **[!UICONTROL Save]**.
+2. Klicken **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
@@ -73,11 +73,11 @@ Löschen Sie eine Datenquelle, die Sie nicht mehr benötigen.
 >
 >Beachten Sie die folgenden Einschränkungen:
 >
->* Sie können keine [Active Audience- oder Datenquelle-synchronisierten Eigenschaften](../features/traits/client-activity-synced-audience-traits.md)löschen.
->* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Verwenden Sie den [Hauptdienst](https://marketing.adobe.com/resources/help/en_US/mcloud/) , um die Zuordnung dieser Datenquellen aufzuheben.
+>* Eine [aktive Audience oder eine Datenquelle-synchronisierte Eigenschaft](../features/traits/client-activity-synced-audience-traits.md)kann nicht gelöscht werden.
+>* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt es Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Verwenden Sie den [Hauptdienst](https://marketing.adobe.com/resources/help/en_US/mcloud/) , um die Zuordnung dieser Datenquellen aufzuheben.
 
 
-1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
+1. Klicken **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Datenquellen.
 Mit dem [!UICONTROL Search] Feld können Sie die gewünschten Datenquellen suchen, wenn Sie eine lange Liste haben.
 1. Klicken Sie auf ![](assets/icon_trash.png)und bestätigen Sie dann den Löschvorgang.
