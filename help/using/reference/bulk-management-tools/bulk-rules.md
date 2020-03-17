@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,17 +23,17 @@ Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren einen Header der
 
 >[!NOTE]
 >
->Die [!UICONTROL Bulk Management Tools] werden *nicht* von unterstützt [!DNL Audience Manager]. Dieses Tool wird nur aus praktischen Gründen und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../../api/rest-api-main/aam-api-getting-started.md) arbeiten. [In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
+>[In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
 
 ## Arbeiten mit Eigenschaftsregeln {#trait-rules}
 
-In Ihrem Arbeitsblatt gibt die Spalte mit den Eigenschaftsregeln Regeln zurück und akzeptiert Regeln, die aus booleschen Ausdrücken, Vergleichsoperatoren und regulären Ausdrücken bestehen. Sie können Regeln mit Eigenschaften oder Segmentaufbau erstellen [!DNL Audience Manager] und sie in Ihr Arbeitsblatt kopieren. Wenn Sie mit der Regelsyntax vertraut sind, können Sie Ausdrücke direkt in die Arbeitsblätter schreiben.
+In Ihrem Arbeitsblatt gibt die Spalte mit den Eigenschaftsregeln Regeln zurück, die aus booleschen Ausdrücken, Vergleichsoperatoren und regulären Ausdrücken bestehen, und akzeptiert diese. Sie können Regeln mit Eigenschaften oder Segmentaufbau erstellen [!DNL Audience Manager] und sie in Ihr Arbeitsblatt kopieren. Wenn Sie mit der Regelsyntax vertraut sind, können Sie Ausdruck direkt in die Arbeitsblätter schreiben.
 
 ## Beispiel zum Regelaufbau {#rule-builder-example}
 
-Schauen wir uns ein Beispiel an, das zeigt, wie Sie eine Regel erstellen können, die Sie zum Arbeitsblatt für Massen [!UICONTROL Segment Builder] verwenden können. Es handelt sich jedoch nicht um eine Reihe von schrittweisen Anweisungen für diese Werkzeuge. Stattdessen beginnen wir mit einer einfachen Regel, die bereits erstellt wurde. Anweisungen zur Verwendung der Regelaufbau finden Sie unter [Segmentaufbau](../../features/segments/segment-builder.md) und [Eigenschaftenaufbau](../../features/traits/about-trait-builder.md).
+Schauen wir uns ein Beispiel an, das zeigt, wie Sie eine Regel erstellen können, die Sie zum Arbeitsblatt für Massen [!UICONTROL Segment Builder] verwenden können. Es handelt sich jedoch nicht um eine Reihe von schrittweisen Anleitungen für diese Werkzeuge. Stattdessen werden wir mit einer einfachen Regel Beginn machen, die bereits erstellt wurde. Anweisungen zur Verwendung der Regelaufbau finden Sie unter [Segmentaufbau](../../features/segments/segment-builder.md) und [Eigenschaftenaufbau](../../features/traits/about-trait-builder.md).
 
-Mit dem visuellen Regelaufbau haben wir eine Segmentregel mit 3 Eigenschaften und einem booleschen [!UICONTROL AND] Operator erstellt.
+Mit dem visuellen Rule Builder haben wir eine Segmentregel mit 3 Eigenschaften und einem booleschen [!UICONTROL AND] Operator erstellt.
 
 ![](assets/visualrule.png)
 
@@ -45,16 +45,16 @@ Klicken Sie auf **[!UICONTROL Code View]** , um die Textversion dieser Regel abz
 
 ![](assets/coderule.png)
 
-Fügen Sie die Regel in das [!UICONTROL Bulk Management Tools] Arbeitsblatt ein und übernehmen Sie Ihre Änderungen, um Segmentregeln stapelweise zu aktualisieren.
+Fügen Sie die Regel in das [!UICONTROL Bulk Management Tools] Arbeitsblatt ein und übernehmen Sie die Änderungen, um die Segmentregeln stapelweise zu aktualisieren.
 
 ![](assets/segmentrule.png)
 
 ## Erstellen eigener Regeln {#create-rules}
 
-Sie können Ihre eigenen Regeln außerhalb von schreiben [!UICONTROL Rule Builder]. Bevor Sie beginnen, lesen Sie unbedingt die Dokumentation zu Operatoren, Ausdrücken und erforderlichen Variablen. Es wird empfohlen, Folgendes zu überprüfen:
+Sie können Ihre eigenen Regeln auch außerhalb von schreiben [!UICONTROL Rule Builder]. Lesen Sie vor dem Beginn unbedingt die Dokumentation zu Operatoren, Ausdrücken und erforderlichen Variablen. Es wird empfohlen, Folgendes zu überprüfen:
 
 * [Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau](../../features/traits/trait-comparison-operators.md)
 * [Reihenfolge der Vorgänge](../../features/traits/trait-operator-precedence.md)
 * [Voraussetzungen für das Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
-* [Beispielausdrücke mit booleschen Operatoren und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
+* [Ausdruck mit booleschen Operatoren und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
 
