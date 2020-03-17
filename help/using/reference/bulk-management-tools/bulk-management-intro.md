@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->Die [!UICONTROL Bulk Management Tools] werden *nicht* von unterstützt [!DNL Audience Manager]. Dieses Tool wird nur aus praktischen Gründen und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../../api/rest-api-main/aam-api-getting-started.md) arbeiten. [In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
+>[In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
 
 ## Überblick {#overview}
 
@@ -32,7 +32,7 @@ Diese Funktion verwendet eine Microsoft Excel-Tabelle mit Makros, die sichere, a
 
 ## Herunterladen{#download}.
 
-Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20191205.xlsm)**herunter.
+Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20200311.xlsm)**herunter.
 
 ## Voraussetzungen {#prereqs}
 
