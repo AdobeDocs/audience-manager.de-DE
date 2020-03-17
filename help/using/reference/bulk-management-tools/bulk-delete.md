@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Massenlöschung
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
-source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ Durch das Löschen von Stapeln können Sie mehrere Segmente, Eigenschaften, Ordn
 
 >[!NOTE]
 >
->Die [!UICONTROL Bulk Management Tools] werden *nicht* von unterstützt [!DNL Audience Manager]. Dieses Tool wird nur aus praktischen Gründen und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../../api/rest-api-main/aam-api-getting-started.md) arbeiten. [In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
+>[In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
