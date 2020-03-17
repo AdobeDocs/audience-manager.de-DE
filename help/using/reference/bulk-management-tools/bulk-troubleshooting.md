@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fehlerbehebung für Tipps für Massenverwaltungswerkzeuge
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -25,7 +25,7 @@ Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Mas
 
 >[!NOTE]
 >
->Die [!UICONTROL Bulk Management Tools] werden *nicht* von unterstützt [!DNL Audience Manager]. Dieses Tool wird nur aus praktischen Gründen und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../../api/rest-api-main/aam-api-getting-started.md) arbeiten. [In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
+>[In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
 
 Faktoren wie hoher Netzwerkverkehr, Servernutzung und große Datensätze können dazu führen, dass eine Massenanforderung fehlschlägt oder ein Timeout auftritt. Wenn ein Problem vorliegt, stoppt das Arbeitsblatt das Schreiben von Daten und zeigt eine Fehlermeldung an. In diesem Fall sollten Sie:
 
@@ -36,7 +36,7 @@ Faktoren wie hoher Netzwerkverkehr, Servernutzung und große Datensätze können
 
 ## Authentifizierungsfehler, lange Verzögerungen oder nicht reagierendes Verhalten {#delays-behavior}
 
-In der folgenden Tabelle sind einige häufig auftretende Probleme aufgeführt, die bei der Erstellung von Massenanforderungen in den Arbeitsblättern auftreten können. Versuchen Sie, diese Probleme mit den empfohlenen Lösungen zu beheben. Wenn die empfohlenen Lösungen das Problem nicht beheben, sollten Sie Ihre Arbeit speichern, Ihren Computer neu starten und die Anforderung erneut versuchen, ohne andere Anwendungen zu starten oder zu bearbeiten.
+In der folgenden Tabelle werden einige häufig auftretende Probleme bei der Ausführung von Massenanforderungen in den Arbeitsblättern Liste. Versuchen Sie, diese Probleme mit den empfohlenen Lösungen zu beheben. Wenn die empfohlenen Lösungen das Problem nicht beheben, sollten Sie Ihre Arbeit speichern, Ihren Computer neu starten und die Anforderung erneut versuchen, ohne andere Anwendungen zu starten oder zu bearbeiten.
 
 <table id="table_AC6FB99402214A4EAC6E709465BB67AF"> 
  <thead> 
@@ -57,7 +57,7 @@ In der folgenden Tabelle sind einige häufig auftretende Probleme aufgeführt, d
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
      <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Kompatibilitätsmodus deaktivieren</b>: Überprüfen Sie, ob andere Arbeitsblätter im Kompatibilitätsmodus von Microsoft Excel geöffnet sind. Der Kompatibilitätsmodus kann die Laufzeit erhöhen. Schließen Sie alle Tabellen, die Sie in diesem Modus geöffnet haben, und versuchen Sie es erneut. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Systemressourcen</b>: Begrenzte Systemressourcen tragen zu langen Verzögerungen bei. Versuchen Sie, alle anderen Programme zu schließen, bevor Sie eine Massenanfrage stellen. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Systemressourcen</b>: Begrenzte Systemressourcen tragen zu langen Verzögerungen bei. Schließen Sie alle anderen Programm, bevor Sie eine Massenanforderung stellen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ In der folgenden Tabelle sind einige häufig auftretende Probleme aufgeführt, d
     <ul id="ul_142E63CDD556414AB639E51734FEDBCF"> 
      <li id="li_DBB6C819603D46B5AECC9C854FDAFDF1">Vergewissern Sie sich, dass Sie über die richtigen Kopfzeilen für die Auswahlaktion verfügen. </li> 
      <li id="li_391C9031907A4085BDAD42054960045C">Stellen Sie sicher, dass Sie das richtige Arbeitsblatt für die kopierten Kopfzeilen verwenden. </li> 
-     <li id="li_76A7241989204933858621FAAB5C3408">Überprüfen Sie die Position der Daten, die Sie in einem Massenvorgang verwenden möchten. Alle Überschriften beginnen in Spalte A Zeile 1. Alle Daten werden in den entsprechenden Überschriften ab Spalte A Zeile 2 (direkt unter den Überschriften) eingegeben. </li> 
+     <li id="li_76A7241989204933858621FAAB5C3408">Überprüfen Sie die Position der Daten, die Sie in einem Massenvorgang verwenden möchten. Alle Überschriften werden in Spalte A Zeile 1 Beginn. Alle Daten werden in den entsprechenden Überschriften ab Spalte A Zeile 2 (direkt unter den Überschriften) eingegeben. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
