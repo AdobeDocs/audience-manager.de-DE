@@ -1,20 +1,20 @@
 ---
-description: Mit den DIL-APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
-keywords: Eigenschaften erstellen;Eigenschaften erstellen
-seo-description: Mit den DIL-APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
+description: Mit den DIL-APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene erweitern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
+keywords: create traits;create trait
+seo-description: Mit den DIL-APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene erweitern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
 seo-title: DIL-Methoden auf Instanzebene
 solution: Audience Manager
 title: DIL-Methoden auf Instanzebene
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
 # DIL-Methoden auf Instanzebene{#instance-level-dil-methods}
 
-Mit den [!UICONTROL DIL] APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene verbessern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
+Mit den [!UICONTROL DIL] APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene erweitern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
 
 ## Erste Schritte mit DIL-Methoden auf Instanzebene {#get-started-dil-methods}
 
@@ -26,8 +26,8 @@ c_api_overview.xml
 
 Beim Arbeiten mit [!UICONTROL DIL] APIs auf Instanzebene:
 
-* Für den Zugriff sind ein Name des Partners und eine Container-Namespace-ID (NSID) erforderlich. Wenden Sie sich an Ihren Audience Manager-Kundenbetreuer, um diese Informationen zu erhalten.
-* Ersetzen Sie den *kursiv* formatierten Beispieltext in der API-Dokumentation durch Wert, ID oder andere Variable, die von der verwendeten Methode benötigt werden.
+* Für den Zugriff sind ein Partnername und eine Container-Namensraum-ID (NSID) erforderlich. Wenden Sie sich an Ihren Audience Manager-Kundenbetreuer, um diese Informationen zu erhalten.
+* Ersetzen Sie den *kursiv* formatierten Beispieltext in der API-Dokumentation durch Wert, ID oder andere Variable, die von der Methode, mit der Sie arbeiten, benötigt werden.
 
 <!-- 
 
@@ -37,7 +37,7 @@ c_instance_start.xml
 
 ## signale {#signals}
 
-Fügt der Abfragezeichenfolge einer ausstehenden Anforderung Zuordnungen auf Kunden- und Plattformebene hinzu.
+Fügt der Zeichenfolge einer ausstehenden Anforderung eine Zuordnung auf Kunden- und Plattformebene hinzu.
 
 <!-- 
 
@@ -45,7 +45,7 @@ r_dil_signals.xml
 
  -->
 
-**** Funktionssignatur: `signals: function ({key1:value1, key2:value2},prefix){}`
+**Funktionssignatur:** `signals: function ({key1:value1, key2:value2},prefix){}`
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ dataLib.api.signals(obj, 'c_').submit();
 
 ## traits {#traits}
 
-Fügt der Abfragezeichenfolge einer ausstehenden Anforderung SIDs hinzu.
+Fügt der Abfrage-Zeichenfolge einer ausstehenden Anforderung SIDs hinzu.
 
 <!-- 
 
@@ -107,7 +107,7 @@ r_dil_traits.xml
 
  -->
 
-**** Funktionsunterschrift: `traits:function (sids){}`
+**Funktionsunterschrift:** `traits:function (sids){}`
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ partnerObject.api.traits(<i>[123, 456, 789]</i>);
 
 ## logs {#logs}
 
-Fügen Sie Daten zu Protokolldateien in der ausstehenden Anforderung hinzu.
+Hinzufügen Daten, um Dateien in der ausstehenden Anforderung zu protokollieren.
 
 <!-- 
 
@@ -143,7 +143,7 @@ r_dil_logs.xml
 
  -->
 
-**** Funktionsunterschrift: `logs: function {key1:value1, key2:value2}`
+**Funktionsunterschrift:** `logs: function {key1:value1, key2:value2}`
 
 **Antwort**
 
@@ -172,7 +172,7 @@ r_dil_submit.xml
 
  -->
 
-**** Funktionssignatur: `submit: function () {}`
+**Funktionssignatur:** `submit: function () {}`
 
 >[!NOTE]
 >
@@ -210,7 +210,7 @@ r_dil_after_result.xml
 
  -->
 
-**** Funktionssignatur: `afterResult: function (fn) {}`
+**Funktionssignatur:** `afterResult: function (fn) {}`
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ r_dil_clear_data.xml
 
  -->
 
-**** Funktionssignatur: `clearData: function () {}`
+**Funktionssignatur:** `clearData: function () {}`
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ dataLib.clearData();
 
 ## customQueryParams {#customqueryparams}
 
-Fügt benutzerdefinierte Abfrageparameter hinzu, die nicht explizit vom Datenerfassungsserver zu einer ausstehenden Anforderung definiert wurden.
+Fügt einer ausstehenden Anforderung benutzerdefinierte Abfragen hinzu, die nicht explizit vom Datenerfassungsserver definiert wurden.
 
 <!-- 
 
@@ -292,7 +292,7 @@ r_dil_custom_query_params.xml
 
  -->
 
-**** Funktionssignatur: `customQueryParams: function (obj) {}`
+**Funktionssignatur:** `customQueryParams: function (obj) {}`
 
 >[!NOTE]
 >
@@ -328,7 +328,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Gibt den Wert der Container-NSID für die [!UICONTROL DIL] Instanz zurück. Nützlich für Debugging und Fehlerbehebung.
+Gibt den Wert der NSID des Containers für die [!UICONTROL DIL] Instanz zurück. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -336,7 +336,7 @@ r_dil_get_container_nsid.xml
 
  -->
 
-**** Funktionssignatur: `dil.api.getContainerNSID: function () {}`
+**Funktionssignatur:** `dil.api.getContainerNSID: function () {}`
 
 **Beispielcode**
 
@@ -352,7 +352,7 @@ var nsid = dataLib.api.getContainerNSID();
 
 ## getEventLog {#geteventlog}
 
-Gibt chronologisch sortierte Ereignisprotokolldaten als Zeichenfolgen-Array zurück. Nützlich für Debugging und Fehlerbehebung.
+Gibt chronologisch sortierte Ereignis-Protokolldaten als Zeichenfolgen-Array zurück. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -360,7 +360,7 @@ r_dil_get_event_log.xml
 
  -->
 
-**** Funktionssignatur: `dil.api.getEventLog: function () {}`
+**Funktionssignatur:** `dil.api.getEventLog: function () {}`
 
 **Beispielcode**
 
@@ -389,7 +389,7 @@ if (log && log.length) {
 
 ## getPartner {#getpartner}
 
-Gibt den Partnernamen für eine [!UICONTROL DIL] Instanz zurück. Nützlich für Debugging und Fehlerbehebung.
+Gibt den Namen des Partners für eine [!UICONTROL DIL] Instanz zurück. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -397,7 +397,7 @@ r_dil_get_partner.xml
 
  -->
 
-**** Funktionssignatur: `dil.api.getPartner: function () {}`
+**Funktionssignatur:** `dil.api.getPartner: function () {}`
 
 **Beispielcode**
 
@@ -421,7 +421,7 @@ r_dil_get_state.xml
 
  -->
 
-**** Funktionssignatur: `dil.api.getState: function () {}`
+**Funktionssignatur:** `dil.api.getState: function () {}`
 
 **Beispielcode**
 
@@ -505,11 +505,11 @@ Funktioniert mit [!UICONTROL DIL] Versionen 2.10 und 3.1 oder höher.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Zwischen verschiedenen Datenpartnern und Audience Manager. Partner x würde dies beispielsweise verwenden, um eine Benutzer-ID mit Partner y zu synchronisieren und diese dann an Audience Manager zu senden. </p> <p> <p><b></b> Wichtig:  Diese Methode ist veraltet. Bitte verwenden Sie die <code> idSyncByURL </code> Methode der Experience Cloud ID-Dienstinstanz. </p> </p> </td> 
+   <td colname="col2"> <p>Zwischen verschiedenen Datenpartnern und Audience Manager. Partner x würde dies beispielsweise verwenden, um eine Benutzer-ID mit Partner y zu synchronisieren und diese dann an Audience Manager zu senden. </p> <p> <p><b>Wichtig:</b>  Diese Methode ist veraltet. Bitte verwenden Sie die <code> idSyncByURL </code> Methode der Adobe Experience Platform Identity Service-Instanz. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Wenn Sie die Benutzer-ID bereits kennen und sie an Audience Manager senden möchten. </p> <p> <p><b></b> Wichtig:  Diese Methode ist veraltet. Bitte verwenden Sie die <code> idSyncByDataSource </code> Methode der Experience Cloud ID-Dienstinstanz. </p> </p> </td> 
+   <td colname="col2"> <p>Wenn Sie die Benutzer-ID bereits kennen und sie an Audience Manager senden möchten. </p> <p> <p><b>Wichtig:</b>  Diese Methode ist veraltet. Bitte verwenden Sie die <code> idSyncByDataSource </code> Methode der Adobe Experience Platform Identity Service-Instanz. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -554,9 +554,9 @@ Funktioniert mit [!UICONTROL DIL] Versionen 2.10 und 3.1 oder höher.
 
 `idSync` akzeptiert die folgenden Makros:
 
-* **`%TIMESTAMP%`:** Generiert einen Zeitstempel (in Millisekunden). Wird für das Cache-Busting verwendet.
-* **`%DID%`:** Fügt die Audience Manager-ID für den Benutzer ein.
-* **`%HTTP_PROTO%`** : Legt das Seitenprotokoll fest ( `http` oder `https`).
+* **`%TIMESTAMP%`:**Generiert einen Zeitstempel (in Millisekunden). Wird für das Cache-Busting verwendet.
+* **`%DID%`:**Fügt die Audience Manager-ID für den Benutzer ein.
+* **`%HTTP_PROTO%`:**Legt das Seitenprotokoll fest (`http`oder`https`).
 
 **Antwort**
 
@@ -597,7 +597,7 @@ r_dil_result.xml
 
  -->
 
-**** Funktionssignatur: `result: function (callback) {}`
+**Funktionssignatur:** `result: function (callback) {}`
 
 Dieser Rückruf ersetzt den Standard-Rückruf, der die Zielveröffentlichung behandelt.
 
@@ -679,7 +679,7 @@ var dilInstance = DIL.create({
 >[!IMPORTANT]
 >
 >* Es wird empfohlen, diese Einstellung `useCORSOnly: true` nur dann vorzunehmen, wenn Sie sicher sind, dass Ihre Site-Besucher Browser haben, die diese Funktion unterstützen.
->* Ab `useCORSOnly: true`diesem Zeitpunkt [!UICONTROL DIL] werden keine ID-Aufrufe von Internet Explorer Version 9 oder älter durchgeführt.
+>* Ab `useCORSOnly: true`diesem Zeitpunkt werden [!UICONTROL DIL] keine ID-Aufrufe von Internet Explorer Version 9 oder älter durchgeführt.
 >
 
 
@@ -694,7 +694,7 @@ r_dil_use_image_request.xml
 
  -->
 
-**** Funktionssignatur: `useImageRequest: function () {}`
+**Funktionssignatur:** `useImageRequest: function () {}`
 
 >[!NOTE]
 >
@@ -719,8 +719,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Namensanforderungen für Schlüsselvariablen](../features/traits/trait-key-name-requirements.md)
 >* [Voraussetzungen für das Präfix für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
->* [Synchronisierungsfunktionen im Experience Cloud ID-Dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Synchronisierungsfunktionen im Identitätsdienst für Adobe Experience Platform](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 >* [DIL erstellen](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID-Dienst: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [CORS-Unterstützung im Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [CORS-Unterstützung im Identitätsdienst für die Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
