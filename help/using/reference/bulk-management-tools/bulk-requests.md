@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Massenanforderungen
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
-source-git-commit: cb17d417aa6b3cc213e69c5d71051f235d81c2a5
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
 
 # Massenanforderungen{#bulk-requests}
 
-Eine Massenanforderung gibt Daten zurück, die Sie mit den verschiedenen Headern in den Arbeitsblättern "Aktualisieren", "Erstellen", "Schätzung"und "Löschen"verwenden können.
+Eine Massenanforderung gibt Daten zurück, die Sie mit den verschiedenen Headern in den Arbeitsblättern &quot;Aktualisieren&quot;, &quot;Erstellen&quot;, &quot;Schätzung&quot;und &quot;Löschen&quot;verwenden können.
 
 <!-- 
 
@@ -23,9 +23,9 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->Die [!UICONTROL Bulk Management Tools] werden *nicht* von unterstützt [!DNL Audience Manager]. Dieses Tool wird nur aus praktischen Gründen und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../../api/rest-api-main/aam-api-getting-started.md) arbeiten. [In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
+>[In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
 
-Das [!UICONTROL Request] Arbeitsblatt hat keinen eigenen Satz von Spaltenüberschriften und Sie müssen keine IDs in eine der Spalten kopieren. Stattdessen werden Daten basierend auf der Aktionsschaltfläche zurückgegeben, auf die Sie in der Symbolleiste klicken. Außerdem gibt eine optionale Berichterstellungsfunktion eine Frequenz-Anzahl für Pixelfeuer und eine eindeutige Benutzeranzahl für mehrere feste Zeitintervalle zurück.
+Das [!UICONTROL Request] Arbeitsblatt hat keinen eigenen Satz von Spaltenüberschriften und Sie müssen keine IDs in eine der Spalten kopieren. Stattdessen werden Daten basierend auf der Aktionsschaltfläche zurückgegeben, auf die Sie in der Symbolleiste klicken. Eine optionale Berichte-Funktion gibt außerdem eine Frequenzzahl für Pixelfeuer und eine eindeutige Benutzeranzahl für mehrere feste Zeitintervalle zurück.
 
 Um Massenanforderungen zu erstellen, öffnen Sie das [!UICONTROL Bulk Management Tools] Arbeitsblatt und:
 
@@ -34,7 +34,7 @@ Um Massenanforderungen zu erstellen, öffnen Sie das [!UICONTROL Bulk Management
 
    * Algorithmische Modelle
    * Datenquellen
-   *  Abgeleitete Signale
+   * Abgeleitete Signale
    * Zielzuordnungen
    * Algorithmische, regelbasierte und nicht an Bord befindliche Eigenschaften
    * Segmente
