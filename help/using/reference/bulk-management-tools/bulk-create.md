@@ -1,17 +1,17 @@
 ---
 description: Mit der Massenerstellung können Sie mehrere Datenquellen, abgeleitete Signale, Segmente, Eigenschaften und andere Elemente mit einem einzigen Vorgang erstellen. Befolgen Sie diese Anweisungen, um eine Anforderung zur Massenerstellung zu erstellen.
 seo-description: Mit der Massenerstellung können Sie mehrere Datenquellen, abgeleitete Signale, Segmente, Eigenschaften und andere Elemente mit einem einzigen Vorgang erstellen. Befolgen Sie diese Anweisungen, um eine Anforderung zur Massenerstellung zu erstellen.
-seo-title: Masseneinrichtung
+seo-title: Massenanfertigung
 solution: Audience Manager
-title: Masseneinrichtung
+title: Massenanfertigung
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 3051ca9f7c4039dafdfa01b89226c1fa8717e610
 
 ---
 
 
-# Masseneinrichtung{#bulk-create}
+# Massenanfertigung{#bulk-create}
 
 Mit der Massenerstellung können Sie mehrere Datenquellen, abgeleitete Signale, Segmente, Eigenschaften und andere Elemente mit einem einzigen Vorgang erstellen. Befolgen Sie diese Anweisungen, um eine Anforderung zur Massenerstellung zu erstellen.
 
@@ -23,7 +23,7 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->Die [!UICONTROL Bulk Management Tools] werden *nicht* von unterstützt [!DNL Audience Manager]. Dieses Tool wird nur aus praktischen Gründen und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../../api/rest-api-main/aam-api-getting-started.md) arbeiten. [In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
+>[In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
 
 >[!CAUTION]
 >
@@ -32,13 +32,12 @@ t_bulk_create.xml
 Um Objekte stapelweise zu erstellen, öffnen Sie das [!UICONTROL Bulk Management Tools] Arbeitsblatt und:
 
 1. Klicken Sie auf die **[!UICONTROL Headers]** Registerkarte und kopieren Sie die Kopfzeilen für das Element, das Sie hinzufügen möchten.
-1. Click the **[!UICONTROL Create]** tab.
-1. Fügen Sie die Überschriften zum Erstellen in die erste Zeile des Aktualisierungsarbeitsblatts ein.
-1. Fügen Sie die Daten, die Sie ändern möchten, basierend auf der Kopfzeilenbeschriftung in eine entsprechende Spalte ein oder geben Sie sie ein.
-1. Klicken Sie in der Symbolleiste des Arbeitsblatts auf die Schaltfläche Erstellen, die dem zu aktualisierenden Element entspricht.
+2. Click the **[!UICONTROL Create]** tab.
+3. Fügen Sie die Überschriften zum Erstellen in die erste Zeile des Aktualisierungsarbeitsblatts ein.
+4. Fügen Sie die Daten, die Sie ändern möchten, basierend auf der Kopfzeilenbeschriftung in eine entsprechende Spalte ein oder geben Sie sie ein.
+5. Klicken Sie in der Symbolleiste des Arbeitsblatts auf die Schaltfläche Erstellen, die dem zu aktualisierenden Element entspricht.
 Diese Aktion öffnet das [!UICONTROL Account Information] Dialogfeld.
-
-1. Geben Sie die erforderlichen [Anmeldedaten](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) ein und klicken Sie auf **[!UICONTROL Submit]**.
+6. Geben Sie die erforderlichen [Anmeldedaten](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) ein und klicken Sie auf **[!UICONTROL Submit]**.
 
 Das Arbeitsblatt erstellt eine [!UICONTROL Results] Spalte. Die [!UICONTROL Results] Spalte gibt die JSON-Antwort für einen erfolgreichen Vorgang zurück. Beispiele finden Sie in den [REST-APIs](../../api/rest-api-main/rest-api-main.md) . Bevor Sie Daten eingeben, sollte das Arbeitsblatt zur Massenerstellung dem folgenden Beispiel ähneln. Beachten Sie, dass hier nicht alle verschiedenen Erstellungsoptionen angezeigt werden. Diese Funktion hilft Ihnen, zu verstehen, wie ein ausgefülltes Arbeitsblatt aussehen könnte.
 
