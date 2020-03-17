@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -25,7 +25,7 @@ faq_data_collection_integration.xml
 
 **Wie kann ich den eingehenden Traffic von dem[!UICONTROL DCS]Traffic in[!UICONTROL DCS]Protokolldateiexporten unterscheiden?**
 
-Eigenschaften, über die [!UICONTROL Inbound] sie eingebettet sind, werden auf [!UICONTROL Inbound] dieselbe Weise aufgefüllt, wie sie von [!UICONTROL DCS]ihnen gefüllt werden. Es gibt einige verschiedene Möglichkeiten, zu erkennen, dass Traffic von [!UICONTROL Inbound]:
+Eigenschaften, über die [!UICONTROL Inbound] sie eingebettet sind, werden auf [!UICONTROL Inbound] dieselbe Weise aufgefüllt, wie sie von [!UICONTROL DCS]ihnen aufgefüllt werden. Es gibt einige verschiedene Möglichkeiten, zu erkennen, dass Traffic von [!UICONTROL Inbound]:
 
 * Remote IP wird auf 68.67.173.18 eingestellt
 * DomainID wird auf 5325 eingestellt
@@ -33,7 +33,7 @@ Eigenschaften, über die [!UICONTROL Inbound] sie eingebettet sind, werden auf [
 
 <br> 
 
-**Können Sie mir eine Liste der IP-Adressen geben, die ich für dpm.demdex.net als Whitelist angeben kann?**
+**Können Sie mir eine Liste von IP-Adressen zur Verfügung stellen, die ich für dpm.demdex.net als Whitelist angeben kann?**
 
 Leider können wir das nicht. Diese IPs werden dynamisch, nach geografischer Region, über [!DNL Amazon Web Services]zugewiesen. Das bedeutet, dass [!DNL Audience Manager] nicht der IP-Bereich gesteuert wird, der dieser Adresse zugewiesen werden kann.
 
@@ -45,12 +45,12 @@ Ja, siehe unten.
 
 | Element | Adresse |
 ---------|----------|
-|  ftp-in.demdex.com | 54.225.117.163 |
+| ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
 <br> 
 
-**Welche Anforderungen gelten für die Codeplatzierung und das Laden der Seite für eine[!UICONTROL DIL]/[!DNL Analytics]Datenintegration?**
+**Welches sind die Anforderungen an die Codeplatzierung und das Laden der Seite für eine[!UICONTROL DIL]/[!DNL Analytics]Datenintegration?**
 
 Um [!DNL Analytics] Daten in [!DNL Audience Manager]zu laden, laden Sie [!UICONTROL DIL] nach dem `s_code` Modul, aber *vor* der `s.t()` Funktion. Fügen Sie beispielsweise Ihren Code in der folgenden Reihenfolge ein oder stellen Sie sicher, dass er geladen wird:
 
@@ -64,15 +64,15 @@ Richten Sie als Best Practice Ihre [!DNL Audience Manager]- [!DNL Analytics] Int
 
 * Stell [!UICONTROL DIL] direkt in die `s_code`.
 
-* Serve [!UICONTROL DIL] und die `s_code` durch [!DNL Adobe Launch] oder [!DNL Adobe DTM].
+* Serve [!UICONTROL DIL] und die `s_code` durch [!DNL Adobe Experience Platform Launch] oder [!DNL Adobe DTM].
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
 <br> 
 
-**Warum fehlen meine[!DNL Analytics]Variablen bei einem[!DNL Audience Manager]Ereignisaufruf?**
+**Warum fehlen meine[!DNL Analytics]Variablen bei einem[!DNL Audience Manager]Ereignis-Aufruf?**
 
-Dies geschieht normalerweise, wenn:
+Dies geschieht in der Regel, wenn:
 
 * Die Bereitstellung erfolgt [!UICONTROL DIL] über ein Tag-Management-System, das es asynchron mit anderen Codeelementen auf der Seite lädt.
 * Die `s.t()` Funktion wird vor dem Laden geladen [!UICONTROL DIL].
@@ -99,14 +99,14 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **Kann ich Seitendaten erfassen, wenn ich kein[!DNL Analytics]Kunde bin?**
 
-Ja. Das [!UICONTROL DIL] Modul hilft Ihnen bei der Erfassung von Seitendaten, auch wenn Sie nicht verwenden [!DNL Analytics]. Bei ordnungsgemäßer Einrichtung [!UICONTROL DIL] können Sie Daten zu folgenden Themen erfassen:
+Ja. Das [!UICONTROL DIL] Modul hilft Ihnen bei der Erfassung von Seitendaten, auch wenn Sie nicht verwenden [!DNL Analytics]. Bei ordnungsgemäßer Einrichtung [!UICONTROL DIL] können Sie Daten aus und über Folgendes erfassen:
 
 * Meta-Tags
 * URLs und URL-Kopfzeilen
 * Suchmaschinentypen
 * Keywords
 
-Darüber hinaus können Kunden ein einfaches Onsite-Objekt bereitstellen und es mit Schlüssel-Wert-Paaren füllen, auf denen Sie Daten erfassen [!UICONTROL DIL] möchten. Auf diese Weise können Sie bestimmte Zielgruppendaten auf Ihrer Site ohne [!DNL Audience Management] Aktualisierungen hinzufügen und entfernen. Wenden Sie sich an Ihren Partner Solutions-Kundenbetreuer, um dies korrekt einzurichten und sicherzustellen, dass das [!DNL DIL] Modul das Seitenobjekt korrekt referenziert.
+Darüber hinaus können Kunden ein einfaches Onsite-Objekt bereitstellen und es mit Schlüssel-Wert-Paaren füllen, auf denen Sie Daten erfassen [!UICONTROL DIL] möchten. Auf diese Weise können Sie bestimmte Datenpunkte zu Ihrer Audience ohne [!DNL Audience Management] Aktualisierungen hinzufügen und entfernen. Wenden Sie sich an Ihren Partner Solutions-Kundenbetreuer, um dies korrekt einzurichten und sicherzustellen, dass das [!DNL DIL] Modul das Seitenobjekt korrekt referenziert.
 
 <br> 
 
@@ -131,21 +131,21 @@ Ja, Sie [!DNL Audience Manager] können Daten bereitstellen, die für Benutzer g
 
 <br> 
 
-**Ich möchte Daten auf einer Site erfassen und Benutzer über DFP auf einer anderen Site als Ziel auswählen. Muss ich Code für die andere Eigenschaft bereitstellen, wenn ich an diesem Speicherort keine Daten erfassen möchte?**
+**Ich möchte Daten zu einer Site und Zielgruppe über DFP auf einer anderen Site erfassen. Muss ich Code für die andere Eigenschaft bereitstellen, wenn ich an diesem Speicherort keine Daten erfassen möchte?**
 
-Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie dort kein DIL bereitstellen. Solange Sie über DFP Zugriff auf den Bestand auf der zweiten Site haben, können Sie die Datenerfassung von der ursprünglichen Site und dem Ziel über DFP verwenden.
+Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie dort kein DIL bereitstellen. Solange Sie über DFP Zugriff auf den Bestand auf der zweiten Site haben, können Sie die Datenerfassung von der ersten Site und Zielgruppe über DFP nutzen.
 
 <br> 
 
 **Was ist der beste Drittanbieter für Daten?**
 
-Jeder Anbieter bringt etwas Besonderes in die Tabelle, sodass die Antwort davon abhängt, was Sie suchen. Wir können Überschneidungsberichte (kostenlos) aktivieren, um Ihnen zu vermitteln, welcher Anbieter am besten für Sie geeignet ist.
+Jeder Anbieter bringt etwas Einzigartiges in die Tabelle, daher hängt die Antwort davon ab, was Sie suchen. Wir können überschneidenden Berichte (kostenlos) aktivieren, um Ihnen zu vermitteln, welcher Anbieter für Sie am besten geeignet ist.
 
 <br> 
 
 **Wie werden Cookies gesetzt und Variablen an DFP übergeben?[!DNL Audience Manager]**
 
-[!DNL Audience Manager] setzt 2 Cookies: Eine sendet Segmentvariablen an das DFP-Tag und die andere setzt unsere Unique User ID (UUID), die auch von DFP gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag können wir Berichte auf Benutzerebene erstellen und die Zielgruppe ermitteln.
+[!DNL Audience Manager] setzt 2 Cookies: Eine sendet Segmentvariablen an das DFP-Tag und die andere setzt unsere Unique User ID (UUID), die auch von DFP gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag können wir Berichte und Audiencen auf Benutzerebene ermitteln.
 
 <br> 
 
@@ -161,7 +161,7 @@ Eine Datei wurde aufgenommen, wenn sich die Erweiterung von `.sync` zu `.process
 
 <br> 
 
-**Ich möchte die Funktionalität der[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)testen. Ich sende Ereignisaufrufe wie die unten dargestellte. Die Aufrufe enthalten[deklarierte IDs](../features/declared-ids.md)und Signale, die einige Eigenschaften und Segmente realisieren sollten, die ich bereits eingerichtet habe. Kann ich die Variablen[!UICONTROL General Reports][!UICONTROL Trend Reports]und verwenden, um zu überprüfen, ob die Eigenschaften- und Segmentpopulationen zunehmen?**
+**Ich möchte die Funktionalität der[DCS-API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)testen. Ich schicke Ereignis-Anrufe wie die unten abgebildete. Die Aufrufe enthalten[deklarierte IDs](../features/declared-ids.md)und Signale, die einige Eigenschaften und Segmente realisieren sollten, die ich bereits eingerichtet habe. Kann ich die Variablen[!UICONTROL General Reports][!UICONTROL Trend Reports]und verwenden, um zu überprüfen, ob die Eigenschaften- und Segmentpopulationen zunehmen?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
@@ -169,20 +169,20 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 Nein, verlassen Sie sich nicht auf die [!UICONTROL General Reports] und [!UICONTROL Trend Reports] in diesem Fall.
 
-Die Berichte berechnen Populationen anhand der nicht authentifizierten Profildatensätze (UUIDs), die wir im Backend zum Zeitpunkt der Berichterstellung sehen.
+Die Berichte berechnen Populationen anhand der nicht authentifizierten Profil Records (UUIDs), die wir im Backend zum Zeitpunkt der Berichterstellung sehen.
 
 Bei einem ersten Aufruf an die [!UICONTROL DCS]werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. kein [demdex-Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) auf der Clientseite vorhanden). Der [!UICONTROL DCS] generiert nach dem Zufallsprinzip eine UUID, setzt ein [!DNL demdex] Cookie und gibt sie im Antwortaufruf weiter. Die UUID wird jedoch nicht an das Backend übertragen.
 
 >[!NOTE]
 >
->Die generierte UUID wird erst dann in unserem Backend-Datenspeicher materialisiert, wenn das Gerät, auf dem das Cookie gesetzt wird, weitere Aktivitäten auslöst.
+>Die generierte UUID wird erst dann in unserer Backend-Daten-Datenspeicherung materialisiert, wenn das Gerät, auf dem das Cookie gesetzt wird, eine weitere Aktivität auslöst.
 
-Aus diesem Grund spiegeln die Berichte nicht die Ereignisse wider, die von den deklarierten IDs in Ihrem Aufruf ausgelöst werden. Es wird empfohlen, UUID, ECID (ehemals MID) oder Mobilgeräte-IDs für den Fall zu verwenden, dass der Benutzer bei einem Test die [!UICONTROL DCS]ID aufruft. Anschließend können Sie die Eigenschaften- und Segmentrealisierungen im [!UICONTROL General Reports] und im [!UICONTROL Trend Reports].
+Aus diesem Grund spiegeln die Berichte nicht die Ereignis wider, die von den deklarierten IDs in Ihrem Aufruf ausgelöst werden. Es wird empfohlen, UUID-, ECID- (ehemals MID) oder Mobilgeräte-IDs in Ereignis-Testaufrufen für die [!UICONTROL DCS]App zu verwenden. Anschließend können Sie die Eigenschaften- und Segmentrealisierungen im [!UICONTROL General Reports] und im [!UICONTROL Trend Reports].
 
 Siehe auch [Index der Audience Manager-IDs](../reference/ids-in-aam.md).
 
 <br> 
 
-**Wie lange dauert es, bis Benutzerprofile über[Regionen](../api/dcs-intro/dcs-api-reference/dcs-regions.md)hinweg synchronisiert werden?**
+**Wie lange dauert die Synchronisierung von Profilen über[Regionen](../api/dcs-intro/dcs-api-reference/dcs-regions.md)hinweg?**
 
-Normalerweise dauert es bis zu 24 Stunden, bis ein Benutzerprofil regionsübergreifend synchronisiert wird. In seltenen Fällen kann der Prozess jedoch bis zu 48 Stunden dauern.
+Die regionsübergreifende Synchronisierung eines Profils dauert in der Regel bis zu 24 Stunden. In seltenen Fällen kann der Prozess jedoch bis zu 48 Stunden dauern.
