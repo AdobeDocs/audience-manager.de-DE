@@ -5,7 +5,7 @@ seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Erwägungen
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 ---
 
@@ -37,6 +37,18 @@ Bevor Sie Ihre Erstanbieter-Audiencen [!DNL People-Based Destinations] [!DNL Fac
    >[!IMPORTANT]
    > Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die Berechtigung &quot;Campaign **verwalten** &quot;aktivieren. Dies ist für die [!DNL People-Based Destinations] Integration erforderlich.
 3. Lesen und unterzeichnen Sie die [!DNL Facebook Custom Audiences] Nutzungsbedingungen. Um das zu tun, gehen Sie zu `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, wo `accountID` ist Ihr [!DNL Facebook Ad Account ID].
+
+### [!DNL LinkedIn]
+
+>[!IMPORTANT]
+>
+> Die [!DNL People-Based Destinations] Integration mit [!DNL LinkedIn] befindet sich derzeit in der Beta-Testphase und steht nur einer begrenzten Anzahl von Kunden zur Verfügung.
+> 
+> Nach Abschluss des Beta-Tests steht diese Integration allen Audience Manager-Kunden zur Verfügung, die sich angemeldet haben [!DNL People-Based Destinations].
+
+Bevor Sie Ihre Erstanbieter-Audiencen [!DNL People-Based Destinations] an senden können, stellen Sie sicher, dass Ihr [!DNL LinkedIn]Konto über die [!DNL LinkedIn Campaign Manager] [!DNL Creative Manager] oder höhere Berechtigungsstufe verfügt.
+
+Informationen zum Bearbeiten Ihrer [!DNL LinkedIn Campaign Manager] Benutzerberechtigungen finden Sie unter [Hinzufügen, Bearbeiten und Entfernen von Benutzerberechtigungen in Werbekonten](https://www.linkedin.com/help/lms/answer/5753)
 
 ## Daten bei der Einschiffung {#data-onboarding}
 
