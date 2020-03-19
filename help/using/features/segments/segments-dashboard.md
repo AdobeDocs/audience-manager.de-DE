@@ -1,25 +1,27 @@
 ---
 description: Das Segments-Dashboard ist ein zentralisierter Arbeitsbereich zum Verwalten von Zielen.
 seo-description: Das Segments-Dashboard ist ein zentralisierter Arbeitsbereich zum Verwalten von Zielen.
-seo-title: Segmentlisten-Ansicht
+seo-title: Ansicht der SegmentListe
 solution: Audience Manager
-title: Segmentlisten-Ansicht
+title: Ansicht der SegmentListe
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 2a3a562d5bc516c338c113db08303cf36e832f47
 
 ---
 
 
-# Segmentlisten-Ansicht {#segments-list-view}
+# Ansicht der SegmentListe {#segments-list-view}
 
-Das [!UICONTROL Segments] Dashboard ist ein zentralisierter Arbeitsbereich zur Verwaltung von Zielen.
+Das [Segments-Dashboard](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) ist ein zentralisierter Arbeitsbereich zur Verwaltung Ihrer Audiencen. Sie können das [!UICONTROL Segments] Dashboard anzeigen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
-Die Hauptseite [!UICONTROL Segments] enthält Funktionen und Tools, die Ihnen helfen,
+![segment-Dashboard](assets/segments-dashboard.png)
 
-* Erstellen Sie neue Segmente.
-* Bearbeiten und Löschen von Segmenten.
-* Vorhandene Segmente klonen (duplizieren).
+Die [!UICONTROL Segments] Seite enthält Funktionen und Tools, die Ihnen helfen,
+
+* Erstellen neuer Segmente;
+* Bearbeiten und Löschen von Segmenten;
+* Klonen (Duplikat) bestehender Segmente;
 * Zeigen Sie alle Segmente in einer Tabelle mit sortierbaren Spalten an.
-* Verwalten des Segmentspeichers
+* Segmentverwaltung, Datenspeicherung
 * Suchen Sie nach Segmenten anhand des Namens.
