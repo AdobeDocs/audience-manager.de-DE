@@ -5,8 +5,9 @@ seo-title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 solution: Audience Manager
 title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
 
 ---
 
@@ -39,7 +40,7 @@ Leider können wir das nicht. Diese IPs werden dynamisch, nach geografischer Reg
 
 <br> 
 
-**Können Sie mir eine IP-Adresse zur Verfügung stellen, die ich als Whitelist für Ihren eingehenden und ausgehenden FTP-Server verwenden kann?**
+**Können Sie mir eine IP-Adresse zur Verfügung stellen, die ich für Ihren eingehenden und ausgehenden sFTP-Server als Whitelist angeben kann?**
 
 Ja, siehe unten.
 
