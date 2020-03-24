@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
          + [Segmenttrend-Bericht](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Häufigste nicht verwendete Eigenschaften](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
          + [Überschneidung der Anzeigeneinheit](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
-         + [Segmentüberschneidung in Anzeigeneinheit](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
+         + [Überschneidung von Segment zu Anzeigeneinheit](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [Eindeutige Benutzerreichweite](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Daten- und Metadatendateien für Audiencen-Optimierungsberichte und ausführbare Protokolldateien {#data-and-metadata-files}
          + [ Daten- und Metadatendateien protokollieren](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
@@ -370,6 +370,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
    + [Aufrufe an die Domäne „demdex.net“ ](reference/demdex-calls.md)
    + [Besucher-Authentifizierungsstatus in Audience Manager](reference/visitor-authentication-states.md)
 + Häufig gestellte Fragen (FAQ){#faqs}
+   + [Häufig gestellte Fragen zu Audience Manager](faq/faq-overview.md)
    + [API-FAQs](faq/faq-api.md)
    + [Häufig gestellte Fragen zu Audience Lab](faq/faq-audience-lab.md)
    + [Häufig gestellte Fragen zum Kundendatenfeed](faq/faq-cdf.md)
