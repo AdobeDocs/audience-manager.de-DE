@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Eigenschaftsqualifikationsreferenz
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 40ac91af26ed4a95492dde872288dc2e9059cdf9
+source-git-commit: ceda75d2bc57aa164cb048c20e3fcff33000cddb
 
 ---
 
@@ -30,9 +30,17 @@ Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird in Au
 
 ![unique-property-realization](assets/trait-graph.png)
 
-Die [!UICONTROL Unique Trait Realizations] Anzahl der Besucher, die das Merkmal innerhalb verschiedener Zeiträume zu ihrem Profil hinzugefügt haben.
+Je nach Ergebnistyp, der im Diagramm angezeigt werden soll (gefiltert nach [!UICONTROL Device ID] oder [!UICONTORL geräteübergreifender ID]), haben die Metriken eine unterschiedliche Bedeutung:
 
-Die [!UICONTROL Total Trait Population] Anzahl der Besucher, die diese Eigenschaft auf ihrem Profil haben.
+Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
+
+* Die [!UICONTROL Unique Trait Realizations] Anzahl der anonymen Gerätebenutzer, die die Eigenschaft innerhalb verschiedener Zeiträume zu ihrem Profil hinzugefügt haben.
+* Der Wert [!UICONTROL Total Trait Population] zählt die Gesamtzahl der anonymen Besucher, die die Eigenschaft auf ihrem Profil aufweisen.
+
+Beim Filtern der Ergebnisse nach [!UICONTROL Cross-Device ID]:
+
+* Die [!UICONTROL Unique Trait Realizations] Anzahl der authentifizierten Besucher, die das Merkmal innerhalb verschiedener Zeiträume zu ihrem Profil hinzugefügt haben.
+* Der Wert [!UICONTROL Total Trait Population] zählt die Gesamtzahl der authentifizierten Besucher, die diese Eigenschaft auf ihrem Profil haben.
 
 Stellen Sie sich die Zahlen so vor. In der Abbildung oben zeigt die Ansicht [Eigenschaftendetails](../../features/traits/trait-details-page.md) 90.173 die Anzahl der aktiven Geräte, die Ihre Eigenschaften gestern besucht haben. Der Wert [!UICONTROL Total Trait Population] von 55.757 stellt die Anzahl der Benutzer dar, die derzeit für diese Eigenschaft qualifiziert sind. Die [!UICONTROL Total Trait Population] Zahl zeigt die Gesamtanzahl der Benutzer an, die für die Segmentierung/das Targeting verwendet werden könnten. Normalerweise bleiben Benutzer 120 Tage lang Teil einer Eigenschaft.
 
