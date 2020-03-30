@@ -1,18 +1,18 @@
 ---
 description: Der Marktplatz ist der Ort, an dem Datenkäufer recherchieren und öffentliche und private Datenfeeds abonnieren. Führen Sie die folgenden Schritte aus, um einen öffentlichen Datenfeed zu abonnieren.
 seo-description: Der Marktplatz ist der Ort, an dem Datenkäufer recherchieren und öffentliche und private Datenfeeds abonnieren. Führen Sie die folgenden Schritte aus, um einen öffentlichen Datenfeed zu abonnieren.
-seo-title: Verwalten von Datenfeed-Abonnements
+seo-title: Data Feed-Abonnements verwalten
 solution: Audience Manager
-title: Verwalten von Datenfeed-Abonnements
-topic: DIL-API
+title: Data Feed-Abonnements verwalten
+topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
 
 ---
 
 
-# Verwalten von Datenfeed-Abonnements {#manage-data-feed-subscriptions}
+# Data Feed-Abonnements verwalten {#manage-data-feed-subscriptions}
 
 Hier [!UICONTROL Marketplace] suchen Datenkäufer und abonnieren öffentliche und private Datenfeeds. Führen Sie die folgenden Schritte aus, um einen öffentlichen Datenfeed zu abonnieren.
 
@@ -32,24 +32,45 @@ So abonnieren Sie einen öffentlichen Datenfeed:
 
    ![](assets/plan-details.png)
 
-1. Wählen Sie in der Tabelle "Abonnements"eine Verwendungsart aus und:
+1. Wählen Sie in der Tabelle &quot;Abonnement&quot;eine Anwendungsszenario aus und:
    * Bewegen Sie den **[!UICONTROL Subscription]** Schieberegler nach **[!UICONTROL On]**.
-   * Klicken Sie auf **[!UICONTROL Review & Subscribe]**. Dadurch wird das [!UICONTROL Terms and Conditions] Fenster geöffnet.
+   * Klicken **[!UICONTROL Review & Subscribe]**. Dadurch wird das [!UICONTROL Terms and Conditions] Fenster geöffnet.
    ![](assets/subscribe3.png)
 
 1. Im [!UICONTROL Terms and Conditions] Fenster:
 
-   * **** Wichtig: Lassen Sie das **[!UICONTROL ID sync]** Kontrollkästchen aktiviert. Diese Einstellung hilft, die Übereinstimmungsraten mit Ihrem Datenanbieter zu verbessern.
-   * Markieren Sie das Feld "Bedingungen"und klicken Sie auf **[!UICONTROL Accept]** , um den Abonnementprozess abzuschließen.
+   * **Wichtig:** Lassen Sie das **[!UICONTROL ID sync]** Kontrollkästchen aktiviert. Diese Einstellung hilft, die Übereinstimmungsraten mit Ihrem Datenanbieter zu verbessern.
+   * Markieren Sie das Feld &quot;Geschäftsbedingungen&quot;und klicken Sie auf **[!UICONTROL Accept]** , um den Abonnement abzuschließen.
    ![](assets/subscribe4.png)
 
 ### Nächste Schritte
 
 Nachdem Sie einen Datenfeed abonniert haben:
 
-* Überprüfen Sie das Abonnement, indem Sie Ihren [!UICONTROL Traits] Ordner überprüfen. Siehe [Speicher für abonnierte Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
+* Überprüfen Sie das Abonnement, indem Sie Ihren [!UICONTROL Traits] Ordner überprüfen. Siehe [Datenspeicherung für abonnierte Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
 
 * Lesen Sie die Dokumentation zur Rechnungsstellung und zur Zahlung. Siehe die entsprechenden Links unten.
+
+### Best Practices {#best-practices}
+
+Im Folgenden finden Sie eine Reihe Best Practices, die Sie beim Arbeiten mit [!UICONTROL Audience Marketplace]Folgendem empfehlen:
+
+Wenn wir neue Drittanbieter- und Zweitanbieter-Datensätze durchsuchen, empfehlen wir [!UICONTROL Audience Marketplace]zunächst, Datenfeeds zu aktivieren [!UICONTROL Segments & Overlap]. Auf diese Weise können Benutzer Daten untersuchen, indem sie Segmente erstellen, um die Größe der Audience zu bewerten, und Überschneidungsberichte ausführen, um Einblicke in die Audience zu erhalten. Bei den meisten Datenanbietern ist dieser Anwendungsfall kostenlos Angebot, sodass Sie diese Analyse ohne zusätzliche Kosten durchführen können.
+
+Befolgen Sie beim Ausführen von Überschneidungsberichten die folgenden Best Practices, um sicherzustellen, dass Sie nützliche Ergebnisse erhalten.
+
+1. Stellen Sie sicher, dass Ihre sich überlappenden Datensätze hinsichtlich Datentyp und Erfassungsmethoden ähnlich sind, z. B.:
+   * Geografischer Besucher
+   * Cookie im Vergleich zu mobilen IDs
+   * Lookback-Fenster
+   * Offline- oder Online-Aktivität
+   * Die Häufigkeit, mit der der Datenanbieter die Daten aktualisiert
+
+1. Überschneidungen können im Laufe der Zeit leicht zunehmen. Stellen Sie daher sicher, dass bis zu 30 Tage vergehen, bevor Sie Überschneidungsberichte ausführen, damit die Daten synchronisiert werden können.
+1. Die Überschneidung kann zunehmen, wenn Sie Daten eines Datenanbieters in mehreren Marketing-Kampagnen verwenden.
+und Initiativen. Dadurch erhalten Benutzer aus den beiden Datensätzen mehr Möglichkeiten zum Synchronisieren.
+1. Es gibt keine Garantie dafür, dass sich Ihre Datensätze überschneiden. Damit eine Überschneidung gültig ist, muss ein Benutzer aus dem Kundendatensatz während des Berichte mit dem Datensatz des Datenanbieters verknüpft sein. Wenn die Mediendaten des Kunden nicht an die Benutzer im Datensatz des Datenanbieters gesendet wurden, gibt es keine Überschneidung.
+1. Denke nicht an niedrige Überschneidungen. Profitieren Sie von einer geringen Überschneidung beim Potenzieller Kunde und binden Sie neue Benutzer ein.
 
 ## Einen privaten Datenfeed abonnieren {#subscript-private-data-feed}
 
@@ -59,20 +80,20 @@ Käufer abonnieren private Datenfeeds und Pläne in **[!UICONTROL Audience Marke
 
 >[!TIP]
 >
->Manchmal bieten Datenanbieter einen Rabatt auf einen privaten Datenfeed an. Möglicherweise möchten Sie beim Senden Ihrer Abonnementanfrage nach einem möglichen Rabatt fragen.
+>Manchmal kann es vorkommen, dass Datenanbieter einen Rabatt auf einen privaten Datenfeed Angebot haben. Möglicherweise möchten Sie beim Senden Ihrer Abonnement-Anfrage nach einem Rabatt fragen.
 
 So abonnieren Sie einen privaten Datenfeed:
 
 1. Klicken Sie auf den Datenfeed-Namen im [!UICONTROL Marketplace].
-1. Klicken Sie auf **[!UICONTROL Request Access]**. Dadurch wird das Dialogfeld "Anforderung"geöffnet.
-1. Schreiben Sie im Dialogfeld "Anforderung"einen Hinweis an den Anbieter, in dem Sie Ihr Interesse an dem Datenfeed zum Ausdruck bringen, und klicken Sie auf **[!UICONTROL Send]**. Der Verkäufer wird Ihre Nachricht überprüfen und Ihre Anfrage genehmigen oder ablehnen. Während Sie auf Genehmigung warten, wird in der [!UICONTROL Marketplace] Liste für diesen Datenfeed "Angefordert"angezeigt.
+1. Klicken **[!UICONTROL Request Access]**. Dadurch wird das Dialogfeld &quot;Anforderung&quot;geöffnet.
+1. Schreiben Sie im Dialogfeld &quot;Anforderung&quot;einen Hinweis an den Anbieter, in dem Sie Ihr Interesse an dem Datenfeed zum Ausdruck bringen, und klicken Sie auf **[!UICONTROL Send]**. Der Verkäufer wird Ihre Nachricht überprüfen und Ihre Anfrage genehmigen oder ablehnen. Während Sie auf die Genehmigung warten, wird in der [!UICONTROL Marketplace] Liste für diesen Datenfeed &quot;Angefordert&quot;angezeigt.
 
-   * **[!UICONTROL Request approved]**: Der Status in der [!UICONTROL Marketplace] Liste ändert sich in "Zugriff gewährt" und Sie erhalten eine automatische Benachrichtigung. An dieser Stelle können Sie den Feed abonnieren. Anweisungen finden Sie unter [Abonnieren eines öffentlichen Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) .
-   * **[!UICONTROL Request denied]**: Der Text "Angefordert"wird aus der [!UICONTROL Marketplace] Liste für den Feed entfernt. Sie können versuchen, ein Abonnement erneut zu erwerben oder einen anderen Feed auszuwählen.
+   * **[!UICONTROL Request approved]**: Der Status in der [!UICONTROL Marketplace] Liste ändert sich in &quot;Zugriff gewährt&quot; und Sie erhalten eine automatische Benachrichtigung. An dieser Stelle können Sie den Feed abonnieren. Anweisungen finden Sie unter [Abonnieren eines öffentlichen Datenfeeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) .
+   * **[!UICONTROL Request denied]**: Der Text &quot;Angefordert&quot;wird aus der [!UICONTROL Marketplace] Liste für den Feed entfernt. Sie können versuchen, ein Abonnement erneut zu erwerben oder einen anderen Feed auszuwählen.
 
 ## Data Feed-Rabatte für Käufer {#buyer-discount}
 
-Darüber hinaus können Anbieter [!UICONTROL Audience Marketplace]den Käufern einen Rabatt auf den veröffentlichten Preis eines [!DNL CPM] oder pauschalen Datenfeeds anbieten. Abzinsungsbeträge sind jedoch für Käufer in der [!DNL Marketplace] Feed-Liste nicht sichtbar. Sie können jedoch auch einen Rabatt beantragen, wenn Sie einen privaten Datenfeed abonnieren oder weitere Informationen zu einem bestimmten Feed anfordern.
+In [!UICONTROL Audience Marketplace]diesem Fall können Anbieter Angebot-Käufer einen Rabatt auf den veröffentlichten Preis eines [!DNL CPM] oder pauschalen Datenfeeds gewähren. Abzinsungsbeträge sind jedoch für Käufer in der [!DNL Marketplace] Feed-Liste nicht sichtbar. Sie können jedoch auch einen Rabatt beantragen, wenn Sie einen privaten Datenfeed abonnieren oder weitere Informationen zu einem bestimmten Feed anfordern.
 
 ## Rabatt anfordern {#request-discount}
 
@@ -97,7 +118,7 @@ Darüber hinaus können Anbieter [!UICONTROL Audience Marketplace]den Käufern e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Neue private Datenfeed-Abonnenten</b> </p> </td> 
-   <td colname="col2"> <p>Fordern Sie einen Rabatt in Ihrer Abonnementanforderung an. Siehe <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed"> Abonnieren eines privaten Datenfeeds</a>. </p> </td>
+   <td colname="col2"> <p>Fordern Sie einen Rabatt in Ihrem Abonnement an. Siehe <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed"> Abonnieren eines privaten Datenfeeds</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Potenzielle Abonnenten</b> </p> </td> 
@@ -111,7 +132,7 @@ Darüber hinaus können Anbieter [!UICONTROL Audience Marketplace]den Käufern e
  </tbody> 
 </table>
 
-## Überprüfen Sie die reduzierten Feeds. {#review-discounted-feeds}
+## Überprüfen Sie die vergünstigten Feeds. {#review-discounted-feeds}
 
 So überprüfen Sie Ihre vergünstigten Feeds:
 
@@ -128,7 +149,7 @@ Im Beispiel erhält der Käufer einen Rabatt von 10 % auf den [!UICONTROL Segmen
 
 ## Abonnierte Feed-Daten suchen {#find-subscribed-data-fee}
 
-Die Daten (Eigenschaften) für Ihre Datenfeeds werden in ihren eigenen Speicherordnern angezeigt. Wechseln Sie zu **[!UICONTROL Audience Data > Traits]** und erweitern Sie den **[!UICONTROL 3rd-Party Data]** Ordner, um die Eigenschaften in Ihren abonnierten Feeds anzuzeigen und zu bearbeiten. Suchen Sie nach dem Unterordner, der nach Ihrem Datenanbieter benannt ist. Diese enthalten Ordner, die nach den einzelnen Daten-Feeds benannt sind, und Listeneigenschaften, die vom Feed bereitgestellt werden.
+Die Daten (Eigenschaften) für Ihre Datenfeeds werden in ihren eigenen Ordnern zur Datenspeicherung der Eigenschaften angezeigt. Gehen Sie zu **[!UICONTROL Audience Data > Traits]** und erweitern Sie den **[!UICONTROL 3rd-Party Data]** Ordner auf Ansicht und arbeiten Sie mit den Eigenschaften in Ihren abonnierten Feeds. Suchen Sie nach dem Unterordner, der nach Ihrem Datenanbieter benannt ist. Diese enthalten Ordner, die nach den vom Feed bereitgestellten Datenfeed- und Listen-Eigenschaften benannt sind.
 
 <!-- marketplace-feed-storage.xml -->
 
@@ -143,7 +164,7 @@ Datenkäufer melden sich von Datenfeeds und Plänen ab **[!UICONTROL Audience Ma
 So melden Sie sich von einem Datenfeed ab:
 
 1. Klicken Sie auf den Datenfeed-Namen im [!UICONTROL Marketplace].
-1. Im [!UICONTROL Use Case] Abschnitt finden Sie den gewünschten Plan und verschieben Sie den **[!UICONTROL Subscription]** Regler nach **[!UICONTROL Off]**.
+1. Im [!UICONTROL Use Case] Abschnitt finden Sie den gewünschten Plan und verschieben Sie den **[!UICONTROL Subscription]** Schieberegler nach **[!UICONTROL Off]**.
 
 ## Deaktivierung des Datenfeeds: Warum es passiert und wie man reagiert {#data-feed-deactivation-reasons}
 
@@ -155,26 +176,26 @@ Darüber [!UICONTROL Audience Marketplace]hinaus können Datenanbieter den Zugri
 
 Es kann rätselhaft oder sogar verstörend sein, wenn ein Feed, den Sie abonnieren, abgeschaltet wird. Datenanbieter können einen Datenfeed jedoch aus verschiedenen Gründen deaktivieren. Einige häufige Gründe sind:
 
-* **** Rechnungsstellung: Datenanbieter deaktivieren einen Feed, wenn Sie immer zu spät mit Gebührenzahlungen kommen oder Ihre Gebühren nicht bezahlen.
-* **** Feed-Aktualisierungen: Datenanbieter müssen Feeds deaktivieren, wenn sie ihre Feed-Taxonomie oder Kostenstruktur aktualisieren.
-* **** Inaktive Käufer: Datenanbieter behalten sich das Recht vor, Feeds zu deaktivieren, wenn Abonnenten über einen längeren Zeitraum keine Ausgaben anzeigen.
-* **** Inaktive Verkäufer: Datenanbieter, die die Daten verlassen, [!UICONTROL Audience Marketplace] deaktivieren und löschen alle ihre Datenfeeds.
+* **Rechnungsstellung:** Datenanbieter deaktivieren einen Feed, wenn Sie immer zu spät mit Gebührenzahlungen kommen oder wenn Sie Ihre Gebühren nicht bezahlen.
+* **Feed-Aktualisierungen:** Datenanbieter müssen Feeds deaktivieren, wenn sie ihre Feed-Taxonomie oder Kostenstruktur aktualisieren.
+* **Inaktive Käufer:** Datenanbieter behalten sich das Recht vor, Feeds zu deaktivieren, wenn Abonnenten über einen längeren Zeitraum keine Ausgaben anzeigen.
+* **Inaktive Verkäufer:** Datenanbieter, die die Daten verlassen, [!UICONTROL Audience Marketplace] deaktivieren und löschen alle ihre Datenfeeds.
 
 >[!TIP]
 >
->Wenden Sie sich direkt an Ihren Datenanbieter, wenn Sie glauben, dass ein Datenfeed versehentlich deaktiviert wurde. Ihr [!DNL Adobe] Berater kann Ihnen bei Kontaktinformationen oder beim Support helfen.
+>Wenden Sie sich direkt an Ihren Datenanbieter, wenn Sie glauben, dass ein Datenfeed versehentlich deaktiviert wurde. Ihr [!DNL Adobe] Berater kann Ihnen bei Kontaktinformationen oder beim zusätzlichen Support behilflich sein.
 
 ## Deaktivierungs-E-Mail {#deactivation-email}
 
-Wenn ein Datenanbieter einen Ihrer Datenfeeds deaktiviert, [!DNL Audience Manager] wird eine E-Mail an die Benutzer in Ihrem Unternehmen gesendet, die über [!UICONTROL Administrator] Berechtigungen verfügen. Manchmal klassifizieren E-Mail-Filter diese Nachricht als Spam. Daher können Sie diese wichtige Benachrichtigung verpassen. Diese E-Mail enthält die folgenden Elemente, um Sie bei der Identifizierung der Deaktivierungsmeldung zu unterstützen:
+Wenn ein Datenanbieter einen Ihrer Datenfeeds deaktiviert, [!DNL Audience Manager] wird eine E-Mail an die Benutzer in Ihrer Firma gesendet, die über [!UICONTROL Administrator] Berechtigungen verfügen. Manchmal klassifizieren E-Mail-Filter diese Nachricht als Spam. Daher können Sie diese wichtige Benachrichtigung verpassen. Diese E-Mail enthält die folgenden Elemente, um Sie bei der Identifizierung der Deaktivierungsmeldung zu unterstützen:
 
-* **** Von: Die Deaktivierungs-E-Mail stammt von `aam-noreply@adobe.com`. Pro-Tipp: Antworten Sie nicht auf diese E-Mail.
+* **Von:** Die Deaktivierungs-E-Mail stammt von `aam-noreply@adobe.com`. Pro-Tipp: Antworten Sie nicht auf diese E-Mail.
 
-* **** Betreffzeile: Das Abonnement des *Namens des Datenfeeds hier* wird abgebrochen.
+* **Betreffzeile:** Abonnement zum *Namen des Datenfeeds hier* wird abgebrochen.
 
-* **** Anlagen: Die E-Mail enthält eine Anlage mit dem Titel " `list-of-affected-entities-by-feed-revocation.csv`". Dies ist eine verwirrte Art, zu sagen, die Anlage listet alle Eigenschaften auf, die im abgebrochenen Feed enthalten sind. Als Käufer von Daten sollten Sie diese Anlage lesen. Es hilft Ihnen, deaktivierte Eigenschaften aus Ihren Segmenten und [algorithmischen Modellen](../../../features/algorithmic-models/understanding-models.md)zu finden und zu entfernen.
+* **Anlagen:** Die E-Mail enthält eine Anlage mit dem Titel &quot; `list-of-affected-entities-by-feed-revocation.csv`&quot;. Das ist eine verwirrte Art, zu sagen, dass die Anlage alle Eigenschaften, die im abgebrochenen Feed enthalten sind, Liste. Als Käufer von Daten sollten Sie diese Anlage lesen. Es hilft Ihnen, deaktivierte Eigenschaften aus Ihren Segmenten und [algorithmischen Modellen](../../../features/algorithmic-models/understanding-models.md)zu finden und zu entfernen.
 
-## Eigenschaftsliste deaktiviert {#deactivation-trait-list}
+## Liste der Eigenschaften deaktiviert {#deactivation-trait-list}
 
 Die Liste, die eine Deaktivierungs-E-Mail begleitet, enthält die folgenden Felder.
 
@@ -246,7 +267,7 @@ Wenn Sie auf den Namen eines Datenplans in der [!UICONTROL Marketplace]Liste kli
 Auf dieser Seite finden Sie die folgenden Informationen:
 
 1. **Basisinformationen**. Dazu gehören Feed-Informationen wie:
-   * Data Feed-Name. Wie oben gezeigt lautet der Name dieses Feeds beispielsweise "Beispieldaten-Feed".
+   * Data Feed-Name. Wie oben gezeigt lautet der Name dieses Feeds beispielsweise &quot;Beispieldaten-Feed&quot;.
    * Name des Datenanbieters;
    * Datenfeed-ID;
    * Beschreibung;
@@ -269,7 +290,7 @@ Auf dieser Seite finden Sie die folgenden Informationen:
 
 ## Anwendungsfälle des Datenfeeds {#use-cases}
 
-Als [!UICONTROL Audience Marketplace] Datenkäufer können Sie Daten für Überschneidungen, Modellierung und Aktivierungsfälle erwerben. Jeder Anwendungsfall ist für einen bestimmten Zweck konzipiert und schränkt die Möglichkeiten ein. Diese Verwendungsfallbeschreibungen können Ihnen dabei helfen, die richtige Entscheidung darüber zu treffen, welche Art von Datenplan Sie kaufen möchten.
+Als [!UICONTROL Audience Marketplace] Datenkäufer können Sie Daten für Überschneidungen, Modellierungs- und Anwendungsfälle der Aktivierung erwerben. Jeder Anwendungsfall ist für einen bestimmten Zweck konzipiert und schränkt das, was Sie mit den Daten tun können, ein. Diese Verwendungsfallbeschreibungen können Ihnen dabei helfen, die richtige Entscheidung darüber zu treffen, welche Art von Datenplan Sie kaufen möchten.
 
 ## Vergleichen mit Segmenten und Überschneidungsplänen {#comparisons}
 
@@ -279,12 +300,12 @@ Als [!UICONTROL Audience Marketplace] Datenkäufer können Sie Daten für Übers
 
 In diesem Anwendungsfall können Sie Ihre Eigenschaften mit Anbietereigenschaften in einem Bericht mit [Eigenschaften-zu-Eigenschaften-Überschneidungen vergleichen.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Außerdem können Sie Anbietereigenschaften zu einem Segment erstellen oder hinzufügen und weitere Vergleiche mit [Segment-zu-Eigenschaften](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) - und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) -Berichten anstellen. Überschneidungsvergleiche können Ihnen helfen,
 
-* **** Reichweite der Zielgruppe erweitern: Eine geringe Überschneidung deutet darauf hin, dass Ihre Eigenschaften Benutzer enthalten, die Sie noch nicht gesehen haben. Möglicherweise möchten Sie, dass diese Eigenschaften versuchen, neue Benutzer zu erreichen.
-* **** Vorhandene Zielgruppen verbessern: Eine hohe Überschneidung deutet darauf hin, dass Ihre Eigenschaften denen des Datenanbieters ähnlich sind. Möglicherweise möchten Sie, dass diese Eigenschaften zu gezielten, schrittweisen Verbesserungen für eine bereits entwickelte Zielgruppe beitragen.
+* **Reichweite der Audience erweitern:** Eine geringe Überschneidung deutet darauf hin, dass Ihre Eigenschaften Benutzer enthalten, die Sie noch nicht gesehen haben. Möglicherweise möchten Sie, dass diese Eigenschaften versuchen, neue Benutzer zu erreichen.
+* **Vorhandene Audiencen verbessern:** Eine hohe Überschneidung deutet darauf hin, dass Ihre Eigenschaften denen des Datenanbieters ähnlich sind. Möglicherweise möchten Sie, dass diese Eigenschaften zu gezielten, schrittweisen Verbesserungen an einer bereits entwickelten Audience beitragen.
 
 ### Algorithmische Modelle
 
-Mit diesem Anwendungsfall können Sie Lieferanteneigenschaften anhand Ihrer Eigenschaften mit [algorithmischer Modellierung](../../../features/algorithmic-models/understanding-models.md#understanding-models)bewerten. Zum Beispiel verwendet unser algorithmisches Modellierungssystem eine Ihrer Eigenschaften als Grundlage für den Vergleich mit einer Lieferanteneigenschaft. Wenn das Modell ausgeführt wird, kann es anzeigen, ob Zielgruppen in Eigenschaften von Anbietern ähnliche Konversionsattribute wie Ihre Eigenschaften verwenden.
+Mit diesem Anwendungsfall können Sie Lieferanteneigenschaften anhand Ihrer Eigenschaften mit [algorithmischer Modellierung](../../../features/algorithmic-models/understanding-models.md#understanding-models)bewerten. Zum Beispiel verwendet unser algorithmisches Modellierungssystem eine Ihrer Eigenschaften als Grundlage für den Vergleich mit einer Lieferanteneigenschaft. Wenn das Modell ausgeführt wird, kann es anzeigen, ob Audiencen in Lieferanteneigenschaften ähnliche Konversionsattribute wie Ihre Eigenschaften aufweisen.
 
 ### Activation
 
