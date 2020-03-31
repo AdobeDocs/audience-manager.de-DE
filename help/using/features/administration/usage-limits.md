@@ -4,10 +4,10 @@ seo-description: Audience Manager legt eine Höchstgrenze für die Anzahl der Ei
 seo-title: Nutzungsbeschränkungen
 solution: Audience Manager
 title: Nutzungsbeschränkungen
-keywords: ID-Zuordnung, ID-Zuordnungen, Cookie-Zuordnungen
+keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
+source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
 
 ---
 
@@ -18,24 +18,24 @@ Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segm
 
 ## ID-Zuordnungs-Begrenzung {#id-mapping-limits}
 
-In der folgenden Tabelle sind die Grenzwerte für die [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs aufgeführt. Sobald eine ID eine der unten stehenden Beschränkungen erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer Logik [!DNL FIFO] (first in, first out) basieren, indem die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzugefügt wird. Einzelheiten zu den von Audience Manager unterstützten IDs finden Sie im [Index der IDs](../../reference/ids-in-aam.md) in Audience Manager.
+In der folgenden Tabelle werden die Grenzwerte für die [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs Liste. Sobald eine ID eine der unten stehenden Beschränkungen erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer Logik [!DNL FIFO] (first in, first out) basieren, indem die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzugefügt wird. Einzelheiten zu den vom Audience Manager unterstützten IDs finden Sie im [IDs](../../reference/ids-in-aam.md) -Index im Audience Manager.
 
 | ID-Zuordnung | Maximale Beschränkung |
 |-----------|-------------- |
-| Geräte-Advertising-ID (DAID) für geräteübergreifende ID (CRM-ID) | 100 Geräte-Advertising-IDs (DAIDs) bis 1 geräteübergreifende ID (CRM-ID) |
-| Geräteübergreifende ID (CRM-ID) für Geräte-Advertising-ID (DAID) | 10 geräteübergreifende IDs (CRM-IDs) bis 1 Geräte-Advertising-ID (DAID) |
+| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-Device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Geräte-Anzeigen-IDs ([DAID](../../reference/ids-in-aam.md)) bis 1 geräteübergreifende ID ([DPUUID](../../reference/ids-in-aam.md)) |
+| Geräteübergreifende ID ([DPUUID](../../reference/ids-in-aam.md)) für Geräte-Advertising-ID ([DAID](../../reference/ids-in-aam.md)) | 10 geräteübergreifende IDs ([DPUUID](../../reference/ids-in-aam.md)) bis 1 Geräte-Anzeigen-ID ([DAID](../../reference/ids-in-aam.md)) pro [DPID](../../reference/ids-in-aam.md) |
 | Cookie/Browser-ID zu Cookie-/Browser-ID | 1000 Cookie-/Browser-IDs zu 1 Cookie-/Browser-ID |
 
 ## Elementgrenzen {#item-limits}
 
-Die Tabellen zeigen die aktuellen Beschränkungen nach Elementtyp an. Sie können keine neuen Eigenschaften, Segmente, Ziele oder [!UICONTROL Algorithmic Models] Ziele erstellen, wenn Sie eine bestimmte Beschränkung für eines dieser Elemente erreichen. Wenn Sie einen Grenzwert erreichen, müssen Sie ein älteres Element löschen, bevor Sie ein neues erstellen können.
+In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie können keine neuen Eigenschaften, Segmente, Ziele oder [!UICONTROL Algorithmic Models] Ziele erstellen, wenn Sie eine bestimmte Beschränkung für eines dieser Elemente erreichen. Wenn Sie einen Grenzwert erreichen, müssen Sie ein älteres Element löschen, bevor Sie ein neues erstellen können.
 
 ### Eigenschaftsbeschränkungen
 
 | Eigenschaftstyp | Maximale Beschränkung |
 | -------------------------- | ------------------------------------- |
 | Eigenschaften insgesamt | 100,000 |
-| Eigenschaften gesamt | 150,000. Weitere Informationen zur Qualifizierung von Eigenschaften finden Sie unter Qualifizierungsgrenze für Eigenschaften in der [Referenzhandbuch](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit)zu Eigenschaften. |
+| Gesamtqualifikationen für Eigenschaften | 150,000. Weitere Informationen zur Qualifizierung von Eigenschaften finden Sie unter Qualifizierungsgrenze für Eigenschaften in der [Referenzhandbuch](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit)zu Eigenschaften. |
 | Algorithmus | 50 |
 | Regelbasiert | 100,000 |
 | Onboarded | 100,000 |
@@ -62,7 +62,7 @@ Die Tabellen zeigen die aktuellen Beschränkungen nach Elementtyp an. Sie könne
 | Element | Maximale Beschränkung |
 | -------- | ----- |
 | Aktive Algorithmische Modelle | 20. Audience Manager only counts *active* algorithmic models against the limit. |
-| Algorithmische Modelle - maximale Zielgruppengröße | 25,000,000.  Beachten Sie, dass dieser Grenzwert nicht erhöht werden kann. Sie können die Größe der Zielgruppe verringern, indem Sie weniger Datenquellen für das Modell auswählen oder ein kürzeres Lookback-Fenster auswählen. |
+| Algorithmische Modelle mit maximaler Audience | 25,000,000.  Beachten Sie, dass dieser Grenzwert nicht erhöht werden kann. Sie können die Größe der Audience verringern, indem Sie weniger Datenquellen für das Modell auswählen oder ein kürzeres Lookback-Fenster auswählen. |
 | Maximale Anzahl ausgeschlossener Eigenschaften für ein Modell | 500. Siehe [Eigenschaftsausschluss in Algorithmischer Modellierung](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 
 ### Ordnerbeschränkungen
@@ -77,15 +77,15 @@ Die Tabellen zeigen die aktuellen Beschränkungen nach Elementtyp an. Sie könne
 | --------------- | ------------- |
 | Abgeleitete Signale | 50.000. |
 
-### Beschränkung für Unternehmensbenutzerkonten
+### Firma Benutzerkontenbeschränkung
 
 | Element | Maximale Beschränkung |
 | ----------- | ------------- |
-| Maximale Anzahl der Benutzerkonten für ein Unternehmen | 1.000. |
+| Maximale Anzahl Benutzerkonten für eine Firma | 1.000. |
 
 ## Nutzung überwachen {#monitor-usage}
 
-Sie können die Nutzung und die Beschränkungen für Ihr Konto unter **[!UICONTROL Administration > Limits]**. Zugriff erfordert Administratorberechtigungen.
+Sie können die Nutzung und die Beschränkungen für Ihr Konto unter **[!UICONTROL Administration > Limits]**. Für den Zugriff sind Administratorberechtigungen erforderlich.
 
 ![Nutzungsbeschränkungen für Bild](assets/usage-limits.png)
 
