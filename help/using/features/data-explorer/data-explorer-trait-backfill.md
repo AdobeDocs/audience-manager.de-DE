@@ -5,7 +5,7 @@ seo-title: Eigenschaften-Realisierungen für Aufstockungen
 title: Eigenschaften-Realisierungen für Aufstockungen
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -16,7 +16,7 @@ Aufstockung von Eigenschaftenrealisierungen, um historische Audiencen zu erfasse
 
 >[!IMPORTANT]
 >
-> [!UICONTROL Data Explorer Trait Backfill] ist eine Premium-Funktion, die das Audience Manager-Erlebnis verbessert, indem zusätzliche Anwendungsfälle freigegeben werden. Die Aufstockung erfordert zusätzliche Verarbeitungsleistung und steht allen Audience Manager-Kunden zu inkrementellen Kosten zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
+>[!UICONTROL Data Explorer Trait Backfill] ist eine Premium-Funktion, die das Audience Manager-Erlebnis verbessert, indem zusätzliche Anwendungsfälle freigegeben werden. Die Aufstockung erfordert zusätzliche Verarbeitungsleistung und steht allen Audience Manager-Kunden zu inkrementellen Kosten zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
 
 Wenn Sie Eigenschaften aus nicht verwendeten Signalen erstellen, können Sie die Eigenschaften über einen bestimmten Zeitraum aufstocken. [!DNL Audience Manager] erfasst die Verlaufsdaten zu Audiencen, die für die neue Eigenschaft infrage kommen, und speichert sie im entsprechenden Profil. Sie können den **[!UICONTROL Backfill Options]** Abschnitt [!UICONTROL Trait Expression] im **[Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md)**sehen.
 
