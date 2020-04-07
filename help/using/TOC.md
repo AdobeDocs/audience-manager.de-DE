@@ -2,10 +2,10 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager User Guide
+user-guide-title: Audience Manager-Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -134,6 +134,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Im Segment-Ausdruck-Editor verwendete Code-Syntax](features/segments/segment-code-syntax.md)
       + [Eigenschaften- und Segmentpopulationsdaten im Segmentaufbau](features/segments/segment-builder-data.md)
       + [Trait Recommendations](features/segments/trait-recommendations.md)
+      + [Referenz zu Eigenschaften und Segmentqualifikationen](features/traits/trait-and-segment-qualification-reference.md)
    + Eigenschaften{#traits}
       + [Übersicht über Eigenschaften](/help/using/features/traits/traits-overview.md)
       + [Eigenschaftendetailseite](features/traits/trait-details-page.md)
@@ -158,7 +159,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Geotargeting mit Schlüsseln auf Plattformebene](features/traits/trait-geotarget-keys.md)
       + [Geräte-Targeting mit Schlüsseln auf Plattformebene](features/traits/trait-device-targeting.md)
       + [Ausdruck mit booleschen Operatoren und Vergleichsoperatoren](features/traits/trait-expression-samples.md)
-      + [Eigenschaftsqualifikationsreferenz](features/traits/trait-qualification-reference.md)
+      + [Referenz zu Eigenschaften und Segmentqualifikationen](features/traits/trait-and-segment-qualification-reference.md)
    + [Besucher Profil Viewer](features/visitor-profile-viewer.md)
 + Berichterstellung{#reporting}
    + [Berichtübersicht](reporting/reports-overview.md)
@@ -292,7 +293,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Übersicht zur Mediendatenintegration](integration/media-data-integration/media-data-integration.md)
       + [Actionable Log Files](integration/media-data-integration/actionable-log-files.md)
       + [Erfassen von Kampagnenimpressionsdaten über Pixelabrufe](integration/media-data-integration/impression-data-pixels.md)
-      + [Erfassen von Campaign-Click-Daten über Pixelaufrufe](integration/media-data-integration/click-data-pixels.md)
+      + [Erfassen von Kampagnen-Klickdaten über Pixelaufrufe](integration/media-data-integration/click-data-pixels.md)
    + Daten zur Audience empfangen{#receiving-audience-data}
       + [Übersicht über das Empfangen von Audiencen](integration/receiving-audience-data/receiving-audience-data-overview.md)
       + [ID-Synchronisierung für ausgehende Datenübertragungen](integration/receiving-audience-data/id-sync-outbound.md)
