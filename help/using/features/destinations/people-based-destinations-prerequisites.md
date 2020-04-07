@@ -5,7 +5,7 @@ seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Erwägungen
 translation-type: tm+mt
-source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -32,10 +32,10 @@ Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um diese Premium-Funktion nutzen 
 
 Bevor Sie Ihre Erstanbieter-Audiencen [!DNL People-Based Destinations] [!DNL Facebook]an senden können, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-1. Für Ihr [!DNL Facebook] Benutzerkonto muss die Berechtigung &quot;Campaign **** verwalten&quot;für das Anzeigenkonto aktiviert sein, das Sie verwenden möchten.
+1. Für Ihr [!DNL Facebook] Benutzerkonto muss die Berechtigung &quot;Kampagnen **** verwalten&quot;für das Anzeigenkonto aktiviert sein, das Sie verwenden möchten.
 2. Hinzufügen Sie das **Adobe Experience Cloud** -Geschäftskonto als Werbepartner in Ihrem [!DNL Facebook Ad Account]. Verwenden Sie `business ID=206617933627973`. Weitere Informationen finden Sie unter [Hinzufügen Partner zu Ihrem Business Manager](https://www.facebook.com/business/help/1717412048538897) .
    >[!IMPORTANT]
-   > Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die Berechtigung &quot;Campaign **verwalten** &quot;aktivieren. Dies ist für die [!DNL People-Based Destinations] Integration erforderlich.
+   > Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die Berechtigung &quot;Kampagnen **verwalten** &quot;aktivieren. Dies ist für die [!DNL People-Based Destinations] Integration erforderlich.
 3. Lesen und unterzeichnen Sie die [!DNL Facebook Custom Audiences] Nutzungsbedingungen. Um das zu tun, gehen Sie zu `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, wo `accountID` ist Ihr [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn]
@@ -101,5 +101,5 @@ Verwenden Sie bei der Verwendung [!UICONTROL People-Based Destinations]die [Data
 
 Es gibt zwei Möglichkeiten, Ihre Offlinedaten in Audience Manager zu laden [!DNL People-Based Destinations].
 
-* [Senden Sie Stapeldaten](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an Audience Manager, um Hash-E-Mail-Adressen zu erfassen. Bei dieser Methode können Sie die Hash-E-Mail-Adressen aus Ihrer [!DNL CRM] Datenbank in verwenden [!DNL People-Based Destinations]. Bei Verwendung dieser Methode können Sie außerdem die Hash-E-Mail-Adressen für [Onboarded-Eigenschaften](../traits/trait-qualification-reference.md)qualifizieren.
+* [Senden Sie Stapeldaten](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an Audience Manager, um Hash-E-Mail-Adressen zu erfassen. Bei dieser Methode können Sie die Hash-E-Mail-Adressen aus Ihrer [!DNL CRM] Datenbank in verwenden [!DNL People-Based Destinations]. Bei Verwendung dieser Methode können Sie außerdem die Hash-E-Mail-Adressen für [Onboarded-Eigenschaften](../traits/trait-and-segment-qualification-reference.md)qualifizieren.
 * Verwenden Sie [deklarierte IDs](../declared-ids.md) , um beim Übergeben authentifizierter Kunden-IDs Hash-E-Mail-Adressen zu deklarieren. Wenn Sie diese Methode verwenden, sendet Audience Manager in Ihrem Namen nur an [!DNL People-Based Destinations] die Hash-E-Mail-Adressen von Benutzern, die sich online authentifiziert haben. Die E-Mail-Adressen, die über benutzerbasierte Kanal aktiviert werden, sind nur die Adressen in den deklarierten ID-Ereignis-Aufrufen. Andere mit der Kunden-ID verknüpfte E-Mail-Adressen werden nicht in Echtzeit gesendet.
