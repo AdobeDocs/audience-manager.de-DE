@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trait Recommendations
 uuid: null
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 ---
 
@@ -80,9 +80,9 @@ Beim Erstellen oder Bearbeiten eines Segments im [Segmentaufbau](segment-builder
 ### Neue Segmente
 
 1. Gehen Sie zu **Audiencen > Segmente** und klicken Sie auf **Hinzufügen Neu**.
-2. Fügen Sie der Segmentregel im Dropdownfeld **Eigenschaften** mindestens eine Eigenschaft hinzu.
-3. Sie können empfohlene Eigenschaften und [!UICONTROL Audience Marketplace] Eigenschaftsempfehlungen von Erstanbietern aus Feeds, die Sie abonniert haben, im **[!UICONTROL Recommendations]** Abschnitt anzeigen. Der **[!UICONTROL Recommendations from Marketplace]** Abschnitt zeigt Empfehlungen zu Eigenschaften von Feeds an, die Sie nicht abonniert haben. Alle diese Empfehlungen ähneln den Eigenschaften, die Sie der Segmentregel hinzugefügt haben. Blättern Sie nach unten, um alle empfohlenen Eigenschaften anzuzeigen.
-4. (Optional) Um empfohlene Erstanbieter-Eigenschaften aus bestimmten Datenquellen auszuschließen, klicken Sie auf das **X** -Symbol für die Datenquellen, die Sie ausschließen möchten.
+1. Fügen Sie der Segmentregel im Dropdownfeld **Eigenschaften** mindestens eine Eigenschaft hinzu.
+1. Sie können empfohlene Eigenschaften und [!UICONTROL Audience Marketplace] Eigenschaftsempfehlungen von Erstanbietern aus Feeds, die Sie abonniert haben, im **[!UICONTROL Recommendations]** Abschnitt anzeigen. Der **[!UICONTROL Recommendations from Marketplace]** Abschnitt zeigt Empfehlungen zu Eigenschaften von Feeds an, die Sie nicht abonniert haben. Alle diese Empfehlungen ähneln den Eigenschaften, die Sie der Segmentregel hinzugefügt haben. Blättern Sie nach unten, um alle empfohlenen Eigenschaften anzuzeigen.
+1. (Optional) Um empfohlene Erstanbieter-Eigenschaften aus bestimmten Datenquellen auszuschließen, klicken Sie auf das **X** -Symbol für die Datenquellen, die Sie ausschließen möchten.
 
    >[!NOTE]
    >
