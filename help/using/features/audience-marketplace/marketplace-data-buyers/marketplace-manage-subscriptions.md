@@ -7,7 +7,7 @@ title: Data Feed-Abonnements verwalten
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
+source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 ---
 
@@ -26,22 +26,22 @@ So abonnieren Sie einen öffentlichen Datenfeed:
 
 1. Geh zu **[!UICONTROL Audience Marketplace > Marketplace]**. Verwenden Sie die Suchfunktion oder durchsuchen Sie die Liste, um einen Datenfeed zu finden.
 
-   ![](assets/subscribe1.png)
+   ![abonnieren](assets/subscribe1.png)
 
 1. Klicken Sie auf den Namen des zu verwendenden Datenfeeds. Dadurch wird die Seite mit den [Plandetails](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) für den ausgewählten Feed geöffnet.
 
-   ![](assets/plan-details.png)
+   ![plan-details](assets/plan-details.png)
 
 1. Wählen Sie in der Tabelle &quot;Abonnement&quot;eine Anwendungsszenario aus und:
    * Bewegen Sie den **[!UICONTROL Subscription]** Schieberegler nach **[!UICONTROL On]**.
    * Klicken **[!UICONTROL Review & Subscribe]**. Dadurch wird das [!UICONTROL Terms and Conditions] Fenster geöffnet.
-   ![](assets/subscribe3.png)
+   ![abonnieren](assets/subscribe3.png)
 
 1. Im [!UICONTROL Terms and Conditions] Fenster:
 
    * **Wichtig:** Lassen Sie das **[!UICONTROL ID sync]** Kontrollkästchen aktiviert. Diese Einstellung hilft, die Übereinstimmungsraten mit Ihrem Datenanbieter zu verbessern.
    * Markieren Sie das Feld &quot;Geschäftsbedingungen&quot;und klicken Sie auf **[!UICONTROL Accept]** , um den Abonnement abzuschließen.
-   ![](assets/subscribe4.png)
+   ![abonnieren](assets/subscribe4.png)
 
 ### Nächste Schritte
 
