@@ -1,17 +1,17 @@
 ---
 description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
 seo-description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
-seo-title: Datenstichproben und Fehlerraten in ausgewählten Audience Manager-Berichten
+seo-title: Datenstichproben und Fehlerraten in den Berichten zum ausgewählten Audiencen-Manager
 solution: Audience Manager
-title: Datenstichproben und Fehlerraten in ausgewählten Audience Manager-Berichten
+title: Datenstichproben und Fehlerraten in den Berichten zum ausgewählten Audiencen-Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
 
-# Datenstichproben und Fehlerraten in ausgewählten Audience Manager-Berichten{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Datenstichproben und Fehlerraten in den Berichten zum ausgewählten Audiencen-Manager{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
 
@@ -21,9 +21,9 @@ Einige [!DNL Audience Manager] Berichte zeigen Ergebnisse basierend auf einem St
 
 Diese Berichte verwenden Stichprobendaten, weil sie eine enorme Rechenleistung benötigen, um Ergebnisse zu erzielen. Die Probenahme hilft dabei, ein Gleichgewicht zwischen geringeren Rechenanforderungen, der Aufrechterhaltung der Systemleistung und der Bereitstellung präziser Ergebnisse herzustellen.
 
-Berichte, die Stichproben verwenden, schließen Eigenschaften und Segmente aus, wenn sie die Mindestanforderungen an individuelle Besucher nicht erfüllen. Diese Mindestanforderungen lauten wie folgt:
+Berichte mit Stichproben schließen Eigenschaften und Segmente aus, wenn sie nicht den Mindestanforderungen an individuelle Besucher entsprechen. Diese Mindestanforderungen lauten wie folgt:
 
-* Eigenschaften: 28.000 [einzigartige Eigenschaften](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) über einen Zeitraum von 14 Tagen.
+* Eigenschaften: 28.000 [einzigartige Eigenschaften](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) über einen Zeitraum von 14 Tagen.
 * Segmente: 70.000 Echtzeit-Benutzer über einen Zeitraum von 14 Tagen.
 
 ## Fehlerquoten {#error-rates}
@@ -44,7 +44,7 @@ Beachten Sie, dass unsere Tests und Modelle zeigen, dass die Fehlerquote im umge
 | 100,000 | 95 % weisen eine Fehlerquote von 4 % auf. |
 | 500.000 (oder mehr) | 95 % weisen eine Fehlerquote von 2 % auf. |
 
-## Berichte mit Beispieldaten {#reports-using-sampled-data}
+## Berichte, die Beispieldaten verwenden {#reports-using-sampled-data}
 
 Zu den [!DNL Audience Manager] Berichten, die Stichprobendaten verwenden, gehören:
 
