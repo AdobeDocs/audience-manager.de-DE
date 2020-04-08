@@ -5,7 +5,7 @@ seo-title: Arbeitsablauf B - Personalisierung auf Basis von Nur-Offline-Daten
 solution: Audience Manager
 title: Arbeitsablauf B - Personalisierung auf Basis von Nur-Offline-Daten
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 ---
 
@@ -38,7 +38,8 @@ Sie möchten die Kunden-IDs aus der unten stehenden Tabelle für die entsprechen
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-Um die Kunden-IDs im obigen Beispiel für die entsprechenden Eigenschaften mit Onboard zu qualifizieren, müssen Sie eine [Inbound-Datendatei](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) mit folgendem Inhalt hochladen:
+
+Um die Kunden-IDs im obigen Beispiel für die entsprechenden Eigenschaften mit Onboard zu qualifizieren, müssen Sie eine [eingehende Datendatei](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) mit folgendem Inhalt hochladen:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -168,7 +169,7 @@ Verwenden Sie zum Erstellen neuer Segmente aus reinen Offline-Daten den [Segment
 ## Schritt 7: Erstellen eines benutzerbasierten Ziels {#create-destination}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** und klicken Sie auf **[!UICONTROL Create Destination]**.
-1. Geben Sie im **[!UICONTROL Basic Information]** Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
+1. Geben Sie **[!UICONTROL Basic Information]** im Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
    * **[!UICONTROL Category]**: Integrierte Plattformen;
    * **[!UICONTROL Type]**: Volksansässige;
    * **[!UICONTROL Platform]**: Wählen Sie die personalisierte Plattform aus, an die Sie Audiencen senden möchten.
