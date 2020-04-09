@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager-Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
 
 ---
 
@@ -387,6 +387,13 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
    + [Übersicht](/help/using/help-legal/help-legal-overview.md)
    + [Bei Auftreten eines Problems](/help/using/help-legal/help-problem.md)
    + [Kontakt und rechtliche Informationen](/help/using/help-legal/help-legal-contact.md)
++ Häufigste Probleme beim Kundensupport{#top-support-issues}
+   + [Übersicht](/help/using/support-issues/support-issues-overview.md)
+   + [Warum sind meine Trait-Populationen mit Onboarded um den 15. Oktober auf 0 gesunken? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Warum werden meine Eigenschaften oder Segmente nicht auf der Seite Überschneidungsberichte angezeigt?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Warum können unsere schreibgeschützten Benutzer Eigenschaften und Segmente erstellen, bearbeiten oder löschen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [Wir sind kein Audience Manager-Kunde, aber sehen Sie sich die Audience Manager JavaScript-Aufrufe auf unserer Site an.](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Sollte mein Audience Manager Audience Lab Segmente auf der Seite mit den Zieldetails zugeordnet sehen?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Dokumentation – Aktualisierungen{#documentation-updates}
    + [Aktualisierungen der Dokumentation 2020](docs-updates/docs-2020.md)
    + [Aktualisierungen der Dokumentation 2019](docs-updates/docs-2019.md)
