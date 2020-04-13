@@ -5,7 +5,7 @@ seo-title: Wir verwenden keinen Audience Manager, aber es werden Audience Manage
 solution: Audience Manager
 title: Wir verwenden keinen Audience Manager, aber es werden Audience Manager-Javascript-Aufrufe im Javascript-Debugger angezeigt - Warum?
 translation-type: tm+mt
-source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
+source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
 
 ---
 
@@ -14,10 +14,12 @@ source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
 
 ## Frage
 
-Adobe Audience Manager wird nicht verwendet, aber im Javascript-Debugger werden JavaScript-Aufrufe von Audience Manager angezeigt.  Warum sollte das passieren?
+Adobe Audience Manager wird nicht verwendet, aber im Javascript-Debugger werden JavaScript-Aufrufe von Audience Manager angezeigt.
+
+Warum geschieht das?
 
 ## Antwort
 
-Es ist wahrscheinlich, dass Sie den Besucher-ID-Dienst für Ihre Eigenschaft ausführen. Wenn Sie dies tun, bezieht sich diese AAM-Referenz nicht unbedingt auf die Eigenschaft, die Audience Manager ausführt, aber es bedeutet, dass Audience Manager diesen Dienst tatsächlich aktiviert.
+Es ist wahrscheinlich, dass Sie den [Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) für Ihre Eigenschaft ausführen. Ist dies der Fall, bezieht sich der Verweis auf Audience Manager nicht unbedingt auf die Eigenschaft, die Audience Manager ausführt. Stattdessen bedeutet dies, dass Audience Manager diesen Dienst aktiviert.
 
-Beachten Sie, dass der AAM-Aufruf in der Regel zur Synchronisierung von Set-Kunden-IDs erfolgt.
+Der Audience Manager-Serveraufruf wird normalerweise zur [Synchronisierung von Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)durchgeführt.
