@@ -1,28 +1,28 @@
 ---
-description: In diesem Artikel wird beschrieben, wie Sie Twitter-Zielgruppen für neue und vorhandene Integrationen konfigurieren.
-seo-description: In diesem Artikel wird beschrieben, wie Sie Twitter-Zielgruppen für neue und vorhandene Integrationen konfigurieren.
-seo-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
+description: In diesem Artikel wird beschrieben, wie Sie Twitter-Audiencen für neue und vorhandene Integrationen konfigurieren.
+seo-description: In diesem Artikel wird beschrieben, wie Sie Twitter-Audiencen für neue und vorhandene Integrationen konfigurieren.
+seo-title: Konfigurieren von auf Twitter zugeschnittenen Audiencen als gerätebasiertes Selbstbedienungsziel
 solution: Audience Manager
-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
+title: Konfigurieren von auf Twitter zugeschnittenen Audiencen als gerätebasiertes Selbstbedienungsziel
 translation-type: tm+mt
-source-git-commit: 0f1ab99b648dd6e1eda5f2e5b6bd1f620c0331ee
+source-git-commit: fb1bec17023b7b70c53659d68e2fbc431d9022fa
 
 ---
 
 
 # Konfiguration [!DNL Twitter Tailored Audiences] als gerätebasiertes Selbstbedienungsziel {#configure-twitter}
 
-In diesem Artikel wird beschrieben, wie Sie eine Integration mit [Twitter-Zielgruppen](https://business.twitter.com/en/targeting/tailored-audiences.html)konfigurieren.
+In diesem Artikel wird beschrieben, wie Sie eine Integration mit [Twitter-Audiencen](https://business.twitter.com/en/targeting/tailored-audiences.html)konfigurieren.
 
 ## Voraussetzungen {#prerequisites}
 
 Bevor Sie Ihr [!DNL Twitter Tailored Audiences] Ziel konfigurieren, überprüfen Sie die folgenden Twitter-Voraussetzungen, die Sie erfüllen müssen.
 
 1. Ihr [!DNL Twitter Ads] Konto muss für Werbung zugelassen sein. Neue [!DNL Twitter Ads] Konten sind in den ersten 2 Wochen nach ihrer Erstellung nicht für Werbung zugelassen.
-2. Für Ihr [!DNL Twitter] Benutzerkonto, für das Sie Zugriff in Audience Manager autorisiert haben, muss die Berechtigung für den [Partner-Zielgruppen-Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) aktiviert sein.
+2. Für Ihr [!DNL Twitter] Benutzerkonto, für das Sie Zugriff in Audience Manager autorisiert haben, muss die Berechtigung für den [Partner-Audience-Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) aktiviert sein.
 3. Wenden Sie sich beim Erstellen des ersten [!DNL Twitter Tailored Audiences] Ziels in Ihrer Audience Manager-Instanz an Adobe Consulting oder den Kundendienst, um die [!DNL Twitter] ID-Synchronisierung (Datenquelle-ID = 1123) für Ihr Konto zu aktivieren. Dies ist für die korrekte Synchronisierung zwischen Audience Manager und [!DNL Twitter]erforderlich.
 
-## Neues [!DNL Twitter Tailored Audiences] Ziel hinzufügen {#add-new-twitter-destination}
+## Hinzufügen eines neuen [!DNL Twitter Tailored Audiences] Ziels {#add-new-twitter-destination}
 
 In diesem Abschnitt werden die Schritte beschrieben, die Sie beim Konfigurieren eines neuen gerätebasierten Ziels für [!DNL Twitter Tailored Audiences]ausführen müssen. Bei diesem Szenario wird davon ausgegangen, dass Sie über Ihren Adobe-Berater oder die Kundenunterstützung kein vorhandenes [!DNL Twitter Tailored Audiences] Ziel konfiguriert haben.
 
@@ -31,13 +31,13 @@ In diesem Abschnitt werden die Schritte beschrieben, die Sie beim Konfigurieren 
 Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie Audience Manager und Ihr [!DNL Twitter Tailored Audiences] Konto verknüpfen. So geht das:
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!DNL Administration > Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer Zielplattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
-1. Klicken Sie auf **[!DNL Add Account]**.
+1. Klicken **[!DNL Add Account]**.
 1. Wählen Sie [!DNL Twitter Tailored Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite umgeleitet zu werden.                     ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
 1. Nachdem Sie sich authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
 
 ### Schritt 2: Neues gerätebasiertes Ziel erstellen {#step2-create-new-destination}
 
-Nachdem Sie Audience Manager und Ihre [!DNL Twitter Tailored Audiences]verknüpft haben, können Sie das neue Ziel erstellen. So geht das:
+Nachdem Sie den Audience Manager und Ihre verknüpft haben, [!DNL Twitter Tailored Audiences]können Sie das neue Ziel erstellen. So geht das:
 
 >[!NOTE]
 >
@@ -45,10 +45,10 @@ Nachdem Sie Audience Manager und Ihre [!DNL Twitter Tailored Audiences]verknüpf
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!DNL Audience Data > Destinations]** und klicken Sie auf **[!DNL Create Destination]**.
 1. Geben Sie im **[!DNL Basic Information]** Abschnitt einen Wert **[!DNL Name]** und **[!DNL Description]** für Ihr neues Ziel ein und verwenden Sie die folgenden Einstellungen: ![Setup](assets/dbd-new-basic.png)
-1. Klicken Sie auf **[!DNL Next]**.
+1. Klicken **[!DNL Next]**.
 1. Wählen Sie die [Datenexportbeschriftungen](/help/using/features/data-export-controls.md#controls-labels) aus, die Sie für dieses Ziel festlegen möchten.
-1. Klicken Sie auf **[!DNL Save]**.
-1. Wählen Sie im **[!DNL Segment Mappings]** Abschnitt die Zielgruppensegmente aus, die Sie an dieses Ziel senden möchten.
+1. Klicken **[!DNL Save]**.
+1. Wählen Sie im **[!DNL Segment Mappings]** Abschnitt die Audiencen-Segmente aus, die Sie an dieses Ziel senden möchten.
 1. Speichern Sie das Ziel.
 
 <!--
@@ -79,15 +79,15 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 
 ## Überlegungen zur Segmentzuordnung {#segment-mapping-considerations}
 
-Achten Sie beim Zuordnen von Zielgruppensegmenten zu [!UICONTROL Twitter]darauf, die folgenden Segmentbenennungsanforderungen zu erfüllen:
+Achten Sie beim Zuordnen von Segmentsegmenten zu [!UICONTROL Twitter]darauf, die folgenden Segmentbenennungsanforderungen zu erfüllen:
 
-* Stellen Sie für Menschen lesbare Segmentzuordnungsnamen bereit. Es wird empfohlen, denselben Namen wie für die Segmente von Audience Manager zu verwenden.
-* Verwenden Sie keine Sonderzeichen (`,``%``:``;``@``/` `=` `?` `$`) in Segmentzuordnungsnamen. Wenn Ihr Audience Manager-Segmentname diese Zeichen enthält, entfernen Sie diese, bevor Sie das Segment einem [!UICONTROL Twitter] Ziel zuordnen.
+* Stellen Sie für Menschen lesbare Segmentzuordnungsnamen bereit. Es wird empfohlen, denselben Namen zu verwenden, den Sie für die Audience Manager-Segmente verwendet haben.
+* Verwenden Sie keine Sonderzeichen (`,``%``:``;``@``/` `=` `?` `$`) in Segmentzuordnungsnamen. Wenn der Segmentname in Audience Manager diese Zeichen enthält, entfernen Sie diese, bevor Sie das Segment einem [!UICONTROL Twitter] Ziel zuordnen.
 
 ### Beispiel 
 
-* Korrigieren Sie den Segment- oder Zuordnungsnamen: "US-amerikanische und europäische Käufer";
-* Falscher Segment- oder Zuordnungsname: "US, European 5h0pP3rs".
+* Korrigieren Sie den Segment- oder Zuordnungsnamen: &quot;US-amerikanische und europäische Käufer&quot;;
+* Falscher Segment- oder Zuordnungsname: &quot;US, European 5h0pP3rs&quot;.
 
 >[!IMPORTANT]
 >
@@ -95,5 +95,5 @@ Achten Sie beim Zuordnen von Zielgruppensegmenten zu [!UICONTROL Twitter]darauf,
 
 ## Überlegungen zu Übereinstimmungsraten {#match-rates-considerations}
 
-* Bei der Verwendung [!UICONTROL Twitter Tailored Audiences]werden die Werte [!UICONTROL Segment Addressable Audience] und [!UICONTROL Segment Match Rate] Metriken auf der Zielseite nicht angezeigt. Dies ist ein normales Verhalten, da die Zielgruppenübereinstimmung mit den Übereinstimmungsraten für dieses Ziel von [!UICONTROL Twitter]Adobe verarbeitet und gehostet wird.
-* Zurzeit unterstützt die Integration zwischen Audience Manager und [!UICONTROL Twitter Tailored Audiences] nicht die Rückfüllung historischer Zielgruppen. Das bedeutet, dass nur die Segmentqualifikationen, die *nach* der Zuordnung des Segments zu einem Twitter-Ziel auftreten, in Echtzeit an gesendet werden [!UICONTROL Twitter] .
+* Bei der Verwendung [!UICONTROL Twitter Tailored Audiences]werden die Werte [!UICONTROL Segment Addressable Audience] und [!UICONTROL Segment Match Rate] Metriken auf der Zielseite nicht angezeigt. Dies ist ein normales Verhalten, da Audiencen, die mit den Übereinstimmungsraten für dieses Ziel übereinstimmen, von [!UICONTROL Twitter]nicht von Adobe verwaltet und gehostet werden.
+* Die Integration zwischen Audience Manager und [!UICONTROL Twitter Tailored Audiences] unterstützt Backfills für historische Audiencen. Alle Segmentqualifikationen werden an gesendet, [!UICONTROL Twitter] wenn Sie das Ziel erstellen.
