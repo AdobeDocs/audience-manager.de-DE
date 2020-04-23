@@ -1,12 +1,12 @@
 ---
-description: Audience Manager erfordert die digitale Signierung der HTTP(S)-Server-zu-Server-Anforderungen für die Gültigkeit. In diesem Dokument wird beschrieben, wie Sie HTTP-Anforderungen mit privaten Schlüsseln signieren können.
-seo-description: Audience Manager erfordert die digitale Signierung der HTTP(S)-Server-zu-Server-Anforderungen für die Gültigkeit. In diesem Dokument wird beschrieben, wie Sie HTTP(S)-Anforderungen mit privaten Schlüsseln signieren können.
+description: Audience Manager erfordert, dass die HTTP(S)-Server-zu-Server-Anforderungen digital signiert werden. In diesem Dokument wird beschrieben, wie Sie HTTP-Anforderungen mit privaten Schlüsseln signieren können.
+seo-description: Audience Manager erfordert, dass die HTTP(S)-Server-zu-Server-Anforderungen digital signiert werden. In diesem Dokument wird beschrieben, wie Sie HTTP(S)-Anforderungen mit privaten Schlüsseln signieren können.
 seo-title: Digital signierte HTTP(S)-Anforderungen
 solution: Audience Manager
 title: Digital signierte HTTP(S)-Anforderungen
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
+source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
 
 ---
 
@@ -49,7 +49,7 @@ POST message content
 
 1. [!UICONTROL IRIS] erstellt die `HTTP(S)` Nachricht, die an den Partner gesendet werden soll.
 1. [!UICONTROL IRIS] erstellt eine Signatur, die auf der `HTTP(S)` Nachricht und dem vom Partner mitgeteilten privaten Schlüssel basiert.
-1. [!UICONTROL IRIS] sendet die `HTTP(S)` Anfrage an den Partner. Diese Meldung enthält die Unterschrift und die tatsächliche Meldung, wie im Beispiel oben dargestellt.
+1. [!UICONTROL IRIS] sendet die `HTTP(S)` Anfrage an den Partner. Diese Meldung enthält die Unterschrift und die eigentliche Meldung, wie im Beispiel oben dargestellt.
 1. Der Partnerserver erhält die `HTTP(S)` Anforderung. Er liest den Nachrichtentext und die Signatur, die von [!UICONTROL IRIS]ihm empfangen wurde.
 1. Basierend auf dem Nachrichtentext und dem privaten Schlüssel berechnet der Partnerserver die Signatur neu. Weitere Informationen dazu finden Sie im Abschnitt [Wie man die Signatur](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) berechnet.
 1. Vergleichen Sie die auf dem Partnerserver (Empfänger) erstellte Signatur mit der Signatur, die Sie von [!UICONTROL IRIS] (Absender) erhalten haben.
@@ -89,12 +89,10 @@ Die RFC für die [!DNL HMAC] Hash-Implementierung lautet [https://www.ietf.org/r
 Aus Sicherheitsgründen wird empfohlen, den privaten Schlüssel regelmäßig zu drehen. Es liegt an Ihnen, den privaten Schlüssel und den Drehungszeitraum zu bestimmen. Um die Schlüsseldrehung bei null Ausfallzeiten zu erzielen, [!UICONTROL IRIS] unterstützt das Hinzufügen mehrerer Unterschriften-Kopfzeilen. Eine Kopfzeile enthält die Signatur, die mit dem alten Schlüssel generiert wurde, eine andere Kopfzeile enthält die Signatur, die mit dem neuen privaten Schlüssel generiert wurde. Siehe die Schritte im Detail:
 
 1. Der Partner kommuniziert den neuen privaten Schlüssel mit [!DNL Adobe Audience Manager].
-1. [!UICONTROL IRIS] beginnt, zwei Unterschriften-Header zu senden (einer mit dem alten Schlüssel, der andere mit dem neuen Schlüssel).
-1. Sobald Sie beide Header empfangen haben, können Sie den alten Schlüssel verwerfen und nur die neue Signatur betrachten.
 1. Der alte Schlüssel wird entfernt [!DNL Audience Manager] und sendet [!UICONTROL IRIS] nur den neuen Unterschriften-Header. Die Schlüssel wurden gedreht.
 
 ## Zum Unterschreiben verwendete Daten {#data-signing}
 
-Bei `GET` Musterzielen wird die Signaturmeldung *REQUEST_PATH + QUERY STRING* (z. B. */from-aam-s2s?sids=1,2,3*). IRIS berücksichtigt nicht den Hostnamen oder die `HTTP(S)` Header - diese können geändert/falsch konfiguriert werden oder falsch gemeldet werden.
+Bei `GET` Musterzielen wird die Signaturmeldung *REQUEST_PATH + ABFRAGE STRING* (z. */from-aam-s2s?sids=1,2,3*). IRIS berücksichtigt nicht den Hostnamen oder die `HTTP(S)` Header - diese können geändert/falsch konfiguriert werden oder falsch gemeldet werden.
 
 Bei `POST` Ziel-Typen ist die zum Signieren verwendete Meldung der *ANFORDERUNGSKÖRPER*. Auch hier werden Kopfzeilen oder andere Anforderungsparameter ignoriert.
