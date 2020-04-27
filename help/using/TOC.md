@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager-Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -202,7 +202,6 @@ source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
       + [Täglicher Bericht &quot;Eigenschaftsvarianz&quot;](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Interaktive Berichte und Überlagerungsberichte {#interactive-and-overlap-reports}
       + [Interaktive Berichte und Überlagerungsberichte - Übersicht](reporting/dynamic-reports/dynamic-reports.md)
-      + [Versand- und Leistungsbericht](reporting/dynamic-reports/delivery-performance-report.md)
       + [Überschneidungsbericht zwischen Eigenschaften](reporting/dynamic-reports/trait-trait-overlap-report.md)
       + [Überschneidungsbericht zwischen Segmenten und Eigenschaften](reporting/dynamic-reports/segment-trait-overlap-report.md)
       + [Überschneidungsbericht zwischen Segmenten](reporting/dynamic-reports/segment-segment-overlap-report.md)
