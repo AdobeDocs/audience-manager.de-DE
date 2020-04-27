@@ -5,7 +5,7 @@ seo-title: Übersicht über Audiencen
 solution: Audience Manager
 title: Prognostische Audiencen für Audience Manager
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
@@ -97,7 +97,7 @@ Bei der Auswertung von Erstanbieter-Audiencen und der Zuweisung von Ergebnissen 
 ## Überlegungen und Einschränkungen {#considerations}
 
 >[!IMPORTANT]
-> Lesen Sie diesen Artikel sorgfältig durch, bevor Sie zur Implementierungsphase übergehen.
+> Lesen Sie diesen Abschnitt sorgfältig durch, bevor Sie zur Implementierungsphase übergehen.
 
 Berücksichtigen Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] Modelle die folgenden Überlegungen und Einschränkungen:
 
