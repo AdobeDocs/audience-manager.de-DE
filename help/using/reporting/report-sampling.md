@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datenstichproben und Fehlerraten in den Berichten zum ausgewählten Audiencen-Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
 
@@ -51,3 +51,4 @@ Zu den [!DNL Audience Manager] Berichten, die Stichprobendaten verwenden, gehör
 * [Berichte](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) überlappen (Eigenschaften in Eigenschaften, Segmente in Eigenschaften und Segmente in Segmente).
 * [Addressable Audience](../features/addressable-audiences.md) Data (Daten auf Kunden- und Segmentebene).
 * Die Metrik [Geräte](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) insgesamt für einen [!UICONTROL Profile Merge Rule].
+* [Der Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) verwendet auf der [!UICONTROL Search] Registerkarte und in allen [!UICONTROL Saved Searches]Funktionen Stichprobendaten.
