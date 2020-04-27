@@ -1,52 +1,51 @@
 ---
 description: Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie ein algorithmisches Modell in Model Builder erstellen können.
-keywords: algo-Funktionsweise
+keywords: algo how works
 seo-description: Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie ein algorithmisches Modell in Model Builder erstellen können.
 seo-title: Algorithmisches Modell erstellen
 solution: Audience Manager
 title: Algorithmisches Modell erstellen
-topic: DIL-API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# Algorithmisches Modell erstellen {#create-an-algorithmic-model}
+# Look-Alike-Modell erstellen {#create-an-algorithmic-model}
 
-Beschreibt die erforderlichen und optionalen Schritte zum Erstellen eines algorithmischen Modells in [!UICONTROL Model Builder].
+Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie eine [!UICONTROL Look-Alike Model]erstellen können.
 
-## Modell erstellen {#build-model}
+## Bereich &quot;Modellaufbau&quot;
 
-<!-- t_model_build.xml -->
-
-### Bereich "Modellaufbau"
-
-[!UICONTROL Model Builder] besteht aus den [!UICONTROL Basic Information] und [!UICONTROL Configuration] Abschnitten. Um ein Modell zu erstellen, füllen Sie die erforderlichen Felder in diesen beiden Abschnitten aus. Speichern Sie Ihr Modell, um den Algorithmus zu starten. [!DNL Audience Manager] sendet Ihnen eine automatisierte Benachrichtigung nach Abschluss der ersten Datenausführung. Nachdem Sie die E-Mail erhalten haben, können Sie zum [Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md) wechseln und algorithmische Eigenschaften erstellen.
+[!UICONTROL Model Builder] besteht aus den [!UICONTROL Basic Information] und [!UICONTROL Configuration] Abschnitten. Um ein Modell zu erstellen, füllen Sie die erforderlichen Felder in diesen beiden Abschnitten aus. Speichern Sie Ihr Modell, um den Algorithmus Beginn. [!DNL Audience Manager] sendet Ihnen eine automatisierte Benachrichtigung nach Abschluss der ersten Datenausführung. Nachdem Sie die E-Mail erhalten haben, können Sie zum [Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md) wechseln und algorithmische Eigenschaften erstellen.
 
 >[!NOTE]
 >
->* Der Modellprozess wird nur einmal ausgeführt, wenn Sie ein Modell erstellen und keine Eigenschaften mit diesem erstellen.
+>* Der Modellierungsprozess wird nur einmal ausgeführt, wenn Sie ein Modell erstellen und keine Eigenschaften mit diesem erstellen.
 >* Erstellen Sie Modelle aus Datenquellen, die eine aussagekräftige Menge an Informationen enthalten. Modelle mit unzureichenden Daten werden ausgeführt, aber keine Ergebnisse zurückgegeben.
 >* *Erstellen Sie keine* Modelle mit anderen algorithmischen Eigenschaften oder Segmenten.
 >* Die automatisierte E-Mail-Benachrichtigung wird nur einmal gesendet (nach der ersten Datenausführung).
 
 
-### Modell erstellen
+## Modell erstellen
 
-Gehen Sie zum Erstellen eines Modells zum [!UICONTROL Models] Abschnitt und klicken Sie auf **[!UICONTROL Add New]** und befolgen Sie die folgenden Schritte:
+Gehen Sie wie folgt vor, um eine [!UICONTROL Look-Alike Model]zu erstellen:
 
-1. Im Abschnitt [Grundlegende Informationen](../../features/algorithmic-models/create-model.md#basic-information)
+1. Gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie **[!UICONTROL Add New]** in den [!UICONTROL Look-Alike Modeling] Abschnitt.
+   ![look-alike-add](assets/look-alike-add.png)
+2. Im Abschnitt &quot; [Grundlegende Informationen](../../features/algorithmic-models/create-model.md#basic-information) &quot;
    * Benennen Sie das Modell.
    * *(Optional)* Geben Sie eine kurze Beschreibung des Modells ein.
-   * Legen Sie den Status für das Modell auf **[!UICONTROL Active]** oder **[!UICONTROL Inactive]** fest. Inaktive Modelle werden nicht ausgeführt und erzeugen keine Daten.
-1. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration) :
+   * Legen Sie den Status für das Modell auf **[!UICONTROL Active]** oder **[!UICONTROL Inactive]**fest. Inaktive Modelle werden nicht ausgeführt und erzeugen keine Daten.
+      ![look-alike-basic](assets/look-alike-basic.png)
+3. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration) :
    * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, für die Sie ein Modell erstellen möchten. Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt.
    * Wählen Sie einen 30-, 60- oder 90-tägigen Rückblickzeitraum. Hiermit wird ein Zeitraum für das Modell festgelegt.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Wählen Sie eine Datenquelle aus der [!UICONTROL Available Data] Liste.
-   * Click **[!UICONTROL Save]** when done.
+   * Klicken Sie **[!UICONTROL Save]** nach Abschluss des Vorgangs auf .
+      ![look-alike-configuration](assets/look-alike-configuration.png)
 
 ## Grundlegende Informationen für algorithmische Modelle {#basic-information}
 
@@ -82,7 +81,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Grundlegende Eigenschaft oder Segment auswählen (1)</b> </p> </td> 
-   <td colname="col2"> <p>Klicken Sie auf die Schaltfläche Eigenschaften oder Segmente, um eine Liste aller Eigenschaften oder Segmente anzuzeigen. Ihr ausgewähltes Segment oder Ihre Eigenschaft wird zur Grundlage, die die Systemalgorithmen für die Modellierung verwenden. </p> <p> <p><b>Hinweis</b>:Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt. </p> </p> </td> 
+   <td colname="col2"> <p>Klicken Sie auf die Schaltfläche Eigenschaften oder Segmente, um eine Liste aller Eigenschaften oder Segmente anzuzeigen. Ihr ausgewähltes Segment oder Ihre Eigenschaft wird zur Grundlage, die die Systemalgorithmen für die Modellierung verwenden. </p> <p> <p><b>Hinweis</b>:  Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Rückblickzeit auswählen (2)</b> </p> </td> 
@@ -90,7 +89,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Algorithmus auswählen (3)</b> </p> </td> 
-   <td colname="col2"> <p>Der Modellaufbau funktioniert derzeit nur mit unserem proprietären <span class="keyword"> Eigenschaftsgewichtsalgorithmus</span> . <span class="keyword"> Audience Manager</span> kann in späteren Versionen weitere algorithmische Funktionen hinzufügen. </p> </td>
+   <td colname="col2"> <p>Der Modellaufbau funktioniert derzeit nur mit unserem proprietären <span class="keyword"> Eigenschaften-Gewichtung</span> -Algorithmus. <span class="keyword"> Audience Manager</span> kann in späteren Versionen weitere Algorithmusfunktionen hinzufügen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Modelldaten aus Datenquelle auswählen (4)</b> </p> </td> 
@@ -105,9 +104,9 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie ein Erstanbieter-Look-like-Modell erstellen, damit Sie mehr eigene Besucher finden können, die wie Ihre Konverter aussehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
->* [EigenschaftenGewicht verstehen](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
+>* [Verstehen von EigenschaftenWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
 
