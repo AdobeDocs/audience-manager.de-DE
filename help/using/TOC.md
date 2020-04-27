@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager-Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
+source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
 
 ---
 
@@ -39,9 +39,15 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
       + [Nutzungsbeschränkungen](features/administration/usage-limits.md)
       + [Berichte zur Aktivität](features/administration/activity-usage-reporting.md)
    + Algorithmische Modelle{#algorithmic-models}
-      + [Algorithmische Modelle](features/algorithmic-models/understanding-models.md)
-      + [Algorithmisches Modell erstellen](features/algorithmic-models/create-model.md)
-      + [Algorithmische Modelle: Eigenschaftsausschluss](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + [Übersicht über Algorithmische Modelle](features/algorithmic-models/algo-models-overview.md)
+      + Look-Alike-Modellierung {#look-alike-modeling}
+         + [Look-Alike-Modellierung](features/algorithmic-models/understanding-models.md)
+         + [Look-Alike-Modell erstellen](features/algorithmic-models/create-model.md)
+         + [Look-Alike Modeling: Eigenschaftsausschluss](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + Prognostizierende Audiencen {#predictive-audiences}
+         + [Übersicht über Audiencen](features/algorithmic-models/predictive-audiences.md)
+         + [Erste Schritte mit Prognostischen Audiencen](features/algorithmic-models/predictive-audiences-start.md)
+         + [Berichte für prognostizierte Audiencen](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audience Lab{#audience-lab}
       + [Übersicht über Audience Lab](features/audience-lab/audience-lab.md)
       + [Verwalten von Testgruppen](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -381,6 +387,7 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
    + [Häufig gestellte Fragen zu benutzerspezifischen Zielen](faq/faq-people-based-destinations.md)
    + [Häufig gestellte Fragen zu Produktfunktionen](faq/faq-features.md)
    + [Häufig gestellte Fragen zu Profil Merge Rules and Device Graph](faq/faq-profile-merge.md)
+   + [Häufig gestellte Fragen zu Predictive Audiencen](faq/faq-predictive-audiences.md)
    + [Häufig gestellte Fragen zum Targeting](faq/faq-targeting.md)
    + [Häufig gestellte Fragen zum Reporting](faq/faq-reporting.md)
 + Hilfe und Recht{#help-and-legal}
