@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trendberichte
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 18bb00d494d44d7028dcc51dcb2fc57b23420142
+source-git-commit: 760818663ff3eb32c6de876c756697e1d9034369
 
 ---
 
@@ -23,9 +23,9 @@ c_trend_reports.xml
 
  -->
 
-[!DNL Audience Manager] verwendet [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um die Benutzergruppenberechtigungen auf die [!UICONTROL Trend] Berichte auszudehnen. Benutzer können nur die Eigenschaften und Segmente in Berichten anzeigen, die sie anzeigen dürfen. [!UICONTROL RBAC] -Funktion können Sie steuern, welche Berichtsdaten interne Teams anzeigen können.
+[!DNL Audience Manager] verwendet [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um die Benutzergruppenberechtigungen auf die [!UICONTROL Trend] Berichte auszudehnen. Benutzer können nur die Eigenschaften und Segmente in Berichten anzeigen, für die sie über die Berechtigung zur Ansicht verfügen. [!UICONTROL RBAC] Mit dieser Funktion können Sie steuern, welche Berichte-Daten interne Teams zur Ansicht bereitstellen können.
 
-Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann z. B. Benutzergruppenberechtigungen so konfigurieren, dass einem Team, das das Konto von Advertiser A verwaltet, die Berichtsdaten von Advertiser B nicht angezeigt werden.
+Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann beispielsweise Benutzergruppenberechtigungen so konfigurieren, dass ein Team, das das Konto des Advertiser A verwaltet, die Daten des Berichte von Advertiser B nicht sehen kann.
 
 Führen Sie einen [!UICONTROL Trend] Bericht aus, wenn Sie:
 
@@ -40,16 +40,12 @@ Die folgende Abbildung zeigt einen Überblick über die wichtigsten Elemente des
 ![](assets/trend_reports.png)
 
 1. Konfigurieren Sie die folgenden Optionen:
-
-   **** Berichtstyp: Wählen Sie den gewünschten Berichtstyp aus (Eigenschaft oder Segment).
-
-   **** Datumsbereich: Geben Sie den Datumsbereich für den Bericht an (Start- und Enddatum).
-
-   **** Anzeigenintervall: Geben Sie das Anzeigeintervall an (Intervall zwischen 1, 7, 14, 30, 60 und 90 Tagen).
-
-2. Suchen Sie nach einer Eigenschaft oder einem Segment nach Name oder ID.
-3. Ziehen Sie aus der Ordnerliste die Eigenschaften oder Segmente, die Sie in den Bericht aufnehmen möchten, in das [!UICONTROL Selections] Bedienfeld auf der rechten Seite.
-4. Generieren Sie den Bericht, um ihn als Daten im grafischen Format anzuzeigen, oder exportieren Sie ihn in das CSV-Format.
+   **Berichtstyp:** Wählen Sie den gewünschten Berichtstyp aus (Eigenschaft oder Segment).
+   **Datumsbereich:** Geben Sie den Datumsbereich für den Bericht an (Beginn- und Enddatum).
+   **Anzeigenintervall:** Geben Sie das Anzeigeintervall an (Intervall zwischen 1, 7, 14, 30, 60 und 90 Tagen).
+1. Suchen Sie nach einer Eigenschaft oder einem Segment nach Name oder ID.
+1. Ziehen Sie die Eigenschaften oder Segmente, die Sie in Berichten anzeigen möchten, aus der Liste in das [!UICONTROL Selections] Bedienfeld auf der rechten Seite.
+1. Generieren Sie den Bericht, um ihn als Daten im grafischen Format anzuzeigen, oder exportieren Sie ihn in das CSV-Format.
 
 ## Run a Trend Report {#run-trend-report}
 
@@ -62,29 +58,49 @@ t_working_with_trend_reports.xml
  -->
 
 1. In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL Trend Reports]**.
-1. Wählen Sie aus der **[!UICONTROL Report Type]** Dropdownliste den gewünschten Typ aus: **[!UICONTROL Trait]** oder **[!UICONTROL Segment]**.
+1. Wählen Sie in der **[!UICONTROL Report Type]** Dropdown-Liste den gewünschten Typ aus: **[!UICONTROL Trait]** oder **[!UICONTROL Segment]**.
 1. Klicken Sie auf die Datumsfelder, um einen Kalender anzuzeigen, und wählen Sie dann die Start- und Enddaten für Ihren Bericht aus.
 1. Legen Sie das Anzeigenintervall fest: bis zu 1, 7, 14, 30, 60 oder 90 Tage.
 1. Suchen Sie nach einer Eigenschaft oder einem Segment nach Name oder ID.
-1. Ziehen Sie aus der Ordnerliste die Eigenschaften oder Segmente, die Sie in den Bericht aufnehmen möchten, in das [!UICONTROL Selections] Bedienfeld auf der rechten Seite.
-
-   Um eine optimale Leistung zu erzielen, führen Sie einen [!UICONTROL Trend] Bericht mit weniger als 20 Eigenschaften oder Segmenten gleichzeitig aus.
-1. Klicken Sie auf **[!UICONTROL Graph Traits]** oder **[!UICONTROL Graph Segments]**, je nachdem, welchen Berichtstyp Sie anzeigen (Eigenschaften oder Segmente).
-
-   Diese Optionen ignorieren alle Ordner und Diagramme nur einzeln ausgewählte Eigenschaften oder Segmente.
+1. Ziehen Sie die Eigenschaften oder Segmente, die Sie in Berichten anzeigen möchten, aus der Liste in das [!UICONTROL Selections] Bedienfeld auf der rechten Seite.
+   * Um eine optimale Leistung zu erzielen, führen Sie einen [!UICONTROL Trend] Bericht mit weniger als 20 Eigenschaften oder Segmenten gleichzeitig aus.
+1. Klicken Sie auf **[!UICONTROL Graph Traits]** oder **[!UICONTROL Graph Segments]**, je nachdem, welchen Berichtstyp Sie anzeigen (Eigenschaften oder Segmente). Diese Optionen ignorieren alle Ordner und Diagramme nur einzeln ausgewählte Eigenschaften oder Segmente.
 
    Oder
 
-   Klicken Sie auf , **[!UICONTROL Export to CSV]** um die Eigenschaften- oder Segmentdaten und alle Ordner im CSV-Format für weitere Analysen und Freigabe zu exportieren. Dadurch werden die [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]und [!UICONTROL Total Trait Population] für alle Tagesbereiche exportiert.
+   Klicken Sie auf , **[!UICONTROL Export to CSV]** um die Eigenschaften- oder Segmentdaten und alle Ordner im CSV-Format für weitere Analyse und Freigabe zu exportieren. Dadurch werden die [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]und [!UICONTROL Total Trait Population] für alle Tagesbereiche exportiert.
 
    >[!NOTE]
    >
    >[!UICONTROL Total Trait Realizations] werden [!UICONTROL Rule-based Traits] nur berechnet.
 
-1. (Optional) Bewegen Sie den Mauszeiger über einzelne Eigenschaften oder Segmente, um die Anzahl der Besuche und das Datum für jeden Datenpunkt anzuzeigen.
+1. (Optional) Bewegen Sie den Mauszeiger über einzelne Eigenschaften oder Segmente, um die Anzahl der Besuche und das Datum für jeden Datenpunkt anzuzeigen. Sie können auf die Spaltenüberschriften in der Tabelle klicken, um die Ergebnisse in auf- oder absteigender Reihenfolge zu sortieren.
 
-   Sie können auf die Spaltenüberschriften in der Tabelle klicken, um die Ergebnisse in auf- oder absteigender Reihenfolge zu sortieren.
+## Trendberichtsergebnisse für Eigenschaften {#trend-report-results-traits}
 
-Bei [!UICONTROL Trended Trait] Berichten geben Nullen an, dass für diesen Tag keine Daten erfasst [!DNL Audience Manager] wurden. Leere Einträge weisen darauf hin, dass die Eigenschaft nicht vorhanden war. Das folgende Beispiel zeigt Beispiele für beide Einsendungstypen:
+Die folgenden Filter stehen zur Verfügung, wenn Sie einen Bericht ausführen [!UICONTROL Trend Report] und **[!UICONTROL Trait]** als Berichtstyp auswählen.
 
-![](assets/trended_data.png)
+Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
+
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Total Trait Realization] ist die Gesamtzahl der anonymen Mäuse-Eigenschaften innerhalb des ausgewählten Zeitraums.
+* [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Besucher, die diese Eigenschaft auf ihrem Profil haben.
+
+Beim Filtern der Ergebnisse nach [!UICONTROL Cross-Device ID]:
+
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl der authentifizierten Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Total Trait Realization] ist die Gesamtzahl der authentifizierten Eigenschaften innerhalb des ausgewählten Zeitraums.
+* [!UICONTROL Total Trait Population] ist die Anzahl der authentifizierten Besucher, die diese Eigenschaft auf ihrem Profil haben.
+
+![trend-report-properties](assets/trend-report-traits.png)
+
+Zeroes geben an, dass für diesen Tag keine Daten gesammelt [!DNL Audience Manager] wurden. Leere Einträge weisen darauf hin, dass die Eigenschaft nicht vorhanden war.
+
+## Trendberichtsergebnisse für Segmente {#segment-report-results-traits}
+
+Die folgenden Filter stehen zur Verfügung, wenn Sie einen Bericht ausführen [!UICONTROL Trend Report] und **[!UICONTROL Segments]** als Berichtstyp auswählen.
+
+* **[!UICONTROL Real-time Segment Population]**: die Anzahl der Besucher, die innerhalb des ausgewählten Zeitraums für das Segment qualifiziert sind.
+* **[!UICONTROL Total Segment Population]**: die Gesamtzahl der für das Segment qualifizierten Besucher.
+
+![trend-report-segmente](assets/trend-report-segments.png)
