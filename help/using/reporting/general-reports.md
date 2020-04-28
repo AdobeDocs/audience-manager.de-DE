@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Allgemeine Berichte
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -84,33 +84,51 @@ Die Zahlen in der [!UICONTROL General Reports] werden direkt aus unserer [!UICON
 
 ## Allgemeine Berichte - Ergebnisse für Eigenschaften {#general-report-results-traits}
 
-Die folgenden Metriken stehen zur Verfügung, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Trait]** als Berichtstyp auswählen:
+Die folgenden Filter stehen zur Verfügung, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Trait]** als Berichtstyp auswählen.
 
-**Eindeutige Eigenschaften**
+Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
 
-Diese Metrik stellt die eindeutige Anzahl der Unique User IDs (UUID) [von](../reference/ids-in-aam.md) Audience Manager dar, die für die Eigenschaft in Ihrem ausgewählten Zeitraum qualifiziert sind. Wenn ein Benutzer Ihre Homepage beispielsweise dreimal am 10.10.2010 besucht, wird eine Unique Trait Realization angezeigt.
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Total Trait Realization] die Gesamtzahl der anonymen Eigenschaften innerhalb des ausgewählten Zeitraums.
+* [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Besucher, die diese Eigenschaft auf ihrem Profil haben.
 
-**Eigenschaften insgesamt**
+![general-report-properties-device](assets/general-report-traits-deviceid.png)
 
-Diese Metrik stellt die Gesamtanzahl der ausgelösten Eigenschaften für die Eigenschaft im ausgewählten Zeitraum dar. Wenn ein Benutzer z. B. Ihre Homepage besuchte und dann zu Ihren Tech-Nachrichten- und Sportnachrichten-Bereichen navigierte, wurden diese im Bericht &quot;Allgemein&quot;als drei Gesamtmerkmalen und eine einzigartige Erkenntnis angezeigt.
+Beim Filtern der Ergebnisse nach [!UICONTROL Cross-Device ID]:
 
-**Gesamtzahl der Eigenschaften**
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl der authentifizierten Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Total Trait Realization] ist die Gesamtzahl der authentifizierten Eigenschaften innerhalb des ausgewählten Zeitraums.
+* [!UICONTROL Total Trait Population] ist die Anzahl der authentifizierten Besucher, die diese Eigenschaft auf ihrem Profil haben.
 
-Diese Metrik stellt die Gesamtanzahl der Audience Manager-UUIDs dar, die derzeit für die Eigenschaft qualifiziert sind. Verwenden Sie diese Zahl, um die Gesamtanzahl der Benutzer zu verstehen, die Sie für die Segmentierung und das Targeting verwenden können. Normalerweise bleiben Benutzer [120 Tage](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)lang Teil einer Eigenschaft. Beispielsweise würde ein Benutzer, der Ihre Homepage heute dreimal besucht und nie danach zurückkehrt, bis zu 120 Tagen täglich als Benutzer in dieser Population bleiben. Bei 120 Tagen würden sie aus der Bevölkerung entfernt. Lesen Sie unsere [Eigenschaften- und Segmentqualifizierungsreferenz](../features/traits/trait-and-segment-qualification-reference.md) für weitere Beispiele zum Unterschied zwischen individuellen Eigenschaften und der Gesamtanzahl der Eigenschaften.
+![general-report-properties-cross-device](assets/general-report-traits-cross-device.png)
 
-Die folgende Abbildung zeigt die Ergebnisse der Ausführung eines allgemeinen Berichts für den Berichtstyp &quot;Eigenschaft&quot;.
+<!-- 
+### Unique Trait Realizations
 
-![](assets/general_reports_metrics.png)
+This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
+
+### Total Trait Realizations
+
+This metric represents the total amount of trait fires for the trait in your selected time range. For example, if a user visited your homepage, then navigated to your tech news and your sports news sections, they would appear in the General Report as three total trait realizations, and one unique trait realization.
+
+### Total Trait Population
+
+This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
+
+The illustration below shows the results of running a general report for the Trait report type. -->
+<!-- 
+![](assets/general_reports_metrics.png) -->
+
 
 ## Allgemeine Berichtsergebnisse für Segmente {#general-report-results-segments}
 
 Die folgenden Metriken stehen zur Verfügung, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Segment]** als Berichtstyp auswählen:
 
-**Population von Echtzeit-Segmenten**
+### Population von Echtzeit-Segmenten
 
 Diese Metrik stellt die tatsächliche Anzahl individueller Besucher dar, die in Echtzeit während des angegebenen Zeitraums gesehen wurden und die zu dem Zeitpunkt für das Segment qualifiziert waren, zu dem sie von Audience Manager gesehen wurden.
 
-**Segmentpopulation insgesamt**
+### Segmentpopulation insgesamt
 
 Diese Metrik stellt die Gesamtanzahl der Audience Manager-UUIDs dar, die für das Segment innerhalb der von Ihnen gewählten Rückblickzeit qualifiziert sind. Ihre Segmentpopulation mit 1 Tag stellt Ihre genaueste Benutzerbasis für das Targeting dar.
 
