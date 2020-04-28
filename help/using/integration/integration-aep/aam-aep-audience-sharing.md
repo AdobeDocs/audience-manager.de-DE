@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: efc07cb0aacc31f3708c98e1c82c195c202c10ef
+source-git-commit: 100767fe1d8baaa49fb6e83fdae23144ce9748a7
 
 ---
 
@@ -71,11 +71,11 @@ Ein Beispiel für eine Eigenschaft, die automatisch aus einem Experience Platfor
 
 | Element Nr. | Name | Beschreibung |
 ---------|----------|---------
-| 1 | Eigenschaftstyp | Eigenschaften, die aus Experience Platform-Segmenten erstellt wurden, werden als integrierte Eigenschaften in Audience Manager erstellt. |
-| 2 | Datenquelle | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden in der Datenquelle **Adobe Experience Platform Audience Sharing** gespeichert. |
-| 3 | Integrationscode | Der Integrationscode entspricht der Segment-ID in Experience Platform. |
-| 4 | Eigenschaften-Ausdruck | Der Ausdruck der Eigenschaft ist `segID = segment ID in Experience Platform`. |
-| 5 | Segmente mit dieser Eigenschaft | Ein automatisch erstelltes Segment, das diese Eigenschaft als Komposition verwendet. |
+| 1 | [!UICONTROL Trait Type] | Eigenschaften, die aus Experience Platform-Segmenten erstellt wurden, werden als integrierte Eigenschaften in Audience Manager erstellt. |
+| 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden in der Datenquelle gespeichert **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
+| 3 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in Experience Platform. |
+| 4 | [!UICONTROL Trait Expression] | Der Ausdruck der Eigenschaft ist `segID = segment ID in Experience Platform`. |
+| 5 | [!UICONTROL Segments with this Trait] | Ein automatisch erstelltes Segment, das diese Eigenschaft als Komposition verwendet. |
 
 <br> 
 
@@ -91,7 +91,21 @@ Ein Beispiel für ein Segment, das automatisch aus einem Experience Platform-Seg
 
 | Element Nr. | Name | Beschreibung |
 ---------|----------|---------
-| 1 | Integrationscode | Der Integrationscode entspricht der Segment-ID in Experience Platform. |
-| 2 | Datenquelle | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden in der Datenquelle **Adobe Experience Platform Audience Sharing** gespeichert. |
-| 3 | Profil Merge Rule | **Die Richtlinie** für die externe Zusammenführung gibt an, dass automatisch erstellte Segmente der in Experience Platform festgelegten Richtlinie für die Zusammenführung entsprechen. |
-| 4 | Segmentregel | Das Segment besteht aus den Eigenschaften, die im Abschnitt &quot; [Eigenschaften&quot;beschrieben werden](#aep-segments-as-aam-traits). |
+| 1 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in Experience Platform. |
+| 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden in der Datenquelle gespeichert **[!DNL Adobe Experience Platform Audience Sharing]**. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in Experience Platform festgelegten Richtlinie für die Zusammenführung entsprechen. |
+| 4 | [!UICONTROL Segment Rule] | Das Segment besteht aus den Eigenschaften, die im Abschnitt &quot; [Eigenschaften&quot;beschrieben werden](#aep-segments-as-aam-traits). |
+
+## Unterschiede bei der Segmentpopulation zwischen Audience Manager und Experience Platform verstehen
+
+Die Anzahl der Segmentpopulationen kann je nach Audience Manager- und Erlebnisplattformsegment variieren. Während Segmentzahlen immer relativ nahe liegen, können kleine Populationsunterschiede auf Folgendes zurückzuführen sein:
+
+* Laufzeit von Segmentierungsaufträgen Audience Manager führt einen Segmentierungsauftrag aus, mit dem die Zahlen in der Oberfläche einmal täglich aktualisiert werden. Dieser Auftrag wird selten an den Segmentierungsaufträgen in Experience Platform ausgerichtet.
+* [Profil Merge Rules](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager und [Merge Policies](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform funktionieren anders, und das für jede Version verwendete Identitätsdiagramm ist unterschiedlich. Daher werden einige Unterschiede zwischen Segmentpopulationen erwartet.
+
+
+>[!MORELIKETHIS]
+>
+>* [Übersicht über den Segmentdienst](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Benutzerhandbuch zum Segmentaufbau in der Erlebnisplattform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
