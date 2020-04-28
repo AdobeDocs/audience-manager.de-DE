@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Algorithmisches Modell erstellen
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
 
 ---
 
@@ -34,13 +34,14 @@ Gehen Sie wie folgt vor, um eine [!UICONTROL Look-Alike Model]zu erstellen:
 
 1. Gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie **[!UICONTROL Add New]** in den [!UICONTROL Look-Alike Modeling] Abschnitt.
    ![look-alike-add](assets/look-alike-add.png)
-2. Im Abschnitt &quot; [Grundlegende Informationen](../../features/algorithmic-models/create-model.md#basic-information) &quot;
+1. Im Abschnitt &quot; [Grundlegende Informationen](../../features/algorithmic-models/create-model.md#basic-information) &quot;
    * Benennen Sie das Modell.
    * *(Optional)* Geben Sie eine kurze Beschreibung des Modells ein.
    * Legen Sie den Status für das Modell auf **[!UICONTROL Active]** oder **[!UICONTROL Inactive]**fest. Inaktive Modelle werden nicht ausgeführt und erzeugen keine Daten.
       ![look-alike-basic](assets/look-alike-basic.png)
-3. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration) :
-   * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, für die Sie ein Modell erstellen möchten. Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt.
+1. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration) :
+   * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, für die Sie ein Modell erstellen möchten. Suchen Sie nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können Eigenschaften auch nach Eigenschaftstyp ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
+      ![browse-Eigenschaften](assets/browse-traits.png)
    * Wählen Sie einen 30-, 60- oder 90-tägigen Rückblickzeitraum. Hiermit wird ein Zeitraum für das Modell festgelegt.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Wählen Sie eine Datenquelle aus der [!UICONTROL Available Data] Liste.
