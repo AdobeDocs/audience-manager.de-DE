@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: f191035a1ad4b83bb3d391de80e1f925d6295df7
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ## Überblick {#overview}
 
-Mit der Audience Sharing-Funktion von Audience Manager und Adobe Experience Platform können Sie Ihre Audience Manager-Eigenschaften und -Segmente für Adobe Experience Platform freigeben und umgekehrt. Sie benötigen den [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) , um die Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
+Mit der Audience Sharing-Funktion von Audience Manager und Adobe Experience Platform können Sie Ihre Audience Manager-Eigenschaften und -Segmente für Adobe Experience Platform freigeben und umgekehrt. Sie benötigen den [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) , um die Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
 
 Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden, um Audience Manager-Daten zu Ihren Profilen hinzuzufügen und den Experience Platform- [Segmentierungsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)zu nutzen.
 
@@ -46,7 +46,7 @@ Ihre Audience Manager-Eigenschaften und -Segmente werden in Experience Platform 
 
 * [Übersicht über den Segmentdienst](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 * [Benutzerhandbuch zum Segmentaufbau in der Erlebnisplattform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
+* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 <br> 
 
@@ -91,7 +91,23 @@ Ein Beispiel für ein Segment, das automatisch aus einem Experience Platform-Seg
 
 | Element Nr. | Name | Beschreibung |
 ---------|----------|---------
-| 1 | Integrationscode | Der Integrationscode entspricht der Segment-ID in Experience Platform. |
-| 2 | Datenquelle | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden in der Datenquelle **Adobe Experience Platform Audience Sharing** gespeichert. |
-| 3 | Profil Merge Rule | **Die Richtlinie** für die externe Zusammenführung gibt an, dass automatisch erstellte Segmente der in Experience Platform festgelegten Richtlinie für die Zusammenführung entsprechen. |
-| 4 | Segmentregel | Das Segment besteht aus den Eigenschaften, die im Abschnitt &quot; [Eigenschaften&quot;beschrieben werden](#aep-segments-as-aam-traits). |
+| 1 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in Experience Platform. |
+| 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden in der Datenquelle gespeichert **[!DNL Adobe Experience Platform Audience Sharing]**. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in Experience Platform festgelegten Richtlinie für die Zusammenführung entsprechen. |
+| 4 | [!UICONTROL Segment Rule] | Das Segment besteht aus den Eigenschaften, die im Abschnitt &quot; [Eigenschaften&quot;beschrieben werden](#aep-segments-as-aam-traits). |
+
+## Unterschiede bei der Segmentpopulation zwischen Audience Manager und Experience Platform verstehen
+
+Die Anzahl der Segmentpopulationen kann je nach Audience Manager- und Erlebnisplattformsegment variieren. Während Segmentzahlen für ähnliche oder identische Audiencen nahe liegen sollten, können Populationsunterschiede auf Folgendes zurückzuführen sein:
+
+* Laufzeit von Segmentierungsaufträgen Audience Manager führt einen Segmentierungsauftrag aus, mit dem die Zahlen in der Oberfläche einmal täglich aktualisiert werden. Dieser Auftrag wird selten an den Segmentierungsaufträgen in Experience Platform ausgerichtet.
+* [Profil Merge Rules](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager und [Merge Policies](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform funktionieren anders, und das für jede Version verwendete Identitätsdiagramm ist unterschiedlich. Daher werden einige Unterschiede zwischen Segmentpopulationen erwartet.
+
+
+>[!MORELIKETHIS]
+>
+>* [Übersicht über den Segmentdienst](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Benutzerhandbuch zum Segmentaufbau in der Erlebnisplattform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
+
