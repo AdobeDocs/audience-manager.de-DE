@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: d086b0cacd93f126ae7b362f4a2632bdccfcb1c2
 
 ---
 
@@ -34,7 +34,22 @@ Beachten Sie beim Arbeiten mit dem API-Code [für](https://bank.demdex.com/porta
 
 * **Dokumentation und Codebeispiele:** Text in *Kursivschrift* stellt eine Variable dar, die Sie beim Herstellen oder Empfangen von [!DNL API] Daten angeben oder übermitteln. Ersetzen Sie *kursiv gedruckten* Text durch Ihren eigenen Code, Ihre eigenen Parameter oder andere erforderliche Informationen.
 
-## Empfehlungen: Erstellen eines generischen API-Benutzers {#requirements}
+## JWT-Authentifizierung (Dienstkonto) {#jwt}
+
+Um eine sichere Service-to-Service-Adobe-I/O-API-Sitzung einzurichten, müssen Sie ein JSON-WebToken (JWT) erstellen, das die Identität Ihrer Integration kapselt, und diese dann gegen ein Zugriffstoken tauschen. Jede Anforderung an einen Adobe-Dienst muss das Zugriffstoken zusammen mit dem API-Schlüssel (Client-ID) im Autorisierungs-Header enthalten, der beim Erstellen der [Dienstkontointegration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) in der [Adobe-E/A-Konsole](https://console.adobe.io/)generiert wurde.
+
+Detaillierte Anweisungen zum Konfigurieren der Authentifizierung finden Sie unter [JWT-Authentifizierung](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) (Dienstkontoauthentifizierung).
+
+## OAuth-Authentifizierung (überholt) {#oauth}
+
+>[!WARNING]
+> Authentifizierung und Erneuerung von Audience Manager- [!UICONTROL REST API] Token über [!DNL OAuth 2.0] ist jetzt veraltet.
+>
+> Bitte verwenden Sie stattdessen die [JWT-Authentifizierung](#jwt-service-account-authentication-jwt) (Dienstkonto).
+
+Der Audience Manager [!UICONTROL REST API] entspricht den [!DNL OAuth 2.0] Standards für die Token-Authentifizierung und -Erneuerung. In den folgenden Abschnitten wird beschrieben, wie Sie sich authentifizieren und Beginn mit den [!DNL API]s arbeiten.
+
+## Erstellen eines generischen API-Benutzers {#requirements}
 
 Es wird empfohlen, ein separates technisches Benutzerkonto für die Arbeit mit Audience Manager [!DNL API]einzurichten. Dies ist ein generisches Konto, das nicht an einen bestimmten Benutzer in Ihrem Unternehmen gebunden ist oder mit diesem verknüpft ist. Mit diesem [!DNL API] Benutzerkonto können Sie zwei Dinge erreichen:
 
@@ -44,10 +59,6 @@ Es wird empfohlen, ein separates technisches Benutzerkonto für die Arbeit mit A
 Beispiel oder Anwendungsfall für diesen Kontotyp: Sie möchten mit den [Massenverwaltungstools](../../reference/bulk-management-tools/bulk-management-intro.md)viele Segmente gleichzeitig ändern. Um dies zu tun, muss Ihr Benutzerkonto [!DNL API] Zugriff haben. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den entsprechenden Schlüssel und das geheime Schlüssel zum [!DNL API] Aufrufen verfügt. Dies ist auch nützlich, wenn Sie eigene Anwendungen entwickeln, die Audience Manager [!DNL API]verwenden.
 
 Wenden Sie sich an Ihren Audience Manager-Berater, um ein generisches [!DNL API]Benutzerkonto einzurichten.
-
-## OAuth Authentication {#oauth}
-
-Der Audience Manager [!UICONTROL REST API] entspricht den [!DNL OAuth 2.0] Standards für die Token-Authentifizierung und -Erneuerung. In den folgenden Abschnitten wird beschrieben, wie Sie sich authentifizieren und Beginn mit den [!DNL API]s arbeiten.
 
 ## Arbeitsablauf für die Kennwortauthentifizierung {#password-authentication-workflow}
 
@@ -108,6 +119,7 @@ Die folgenden Schritte beschreiben den Arbeitsablauf für die Verwendung eines A
 Geben Sie eine Aktualisierungstoken-Anforderung an Ihren bevorzugten [!DNL JSON] Client weiter. Beim Erstellen der Anforderung:
 
 * Verwenden Sie eine `POST` Methode zum Aufrufen `https://api.demdex.com/oauth/token`.
+* Anforderungsheader: Wenn Sie [Adobe-E/A](https://www.adobe.io/) -Token verwenden, müssen Sie die `x-api-key` Kopfzeile angeben. Sie können Ihren API-Schlüssel abrufen, indem Sie die Anweisungen auf der Seite [Dienstkontointegration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) befolgen.
 * Konvertieren Sie Ihre Client-ID und Ihr Geheimnis in eine Base-64-kodierte Zeichenfolge. Trennen Sie die ID und das Geheimnis während des Konvertierungsprozesses durch einen Doppelpunkt. Beispielsweise werden die Anmeldeinformationen `testId : testSecret` in `dGVzdElkOnRlc3RTZWNyZXQ=`konvertiert.
 * Übergeben Sie die HTTP-Header `Authorization:Basic <base-64 clientID:clientSecret>` und `Content-Type: application/x-www-form-urlencoded`. Ihre Kopfzeile könnte z. B. wie folgt aussehen: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * Geben Sie im Anforderungstext das Aktualisierungstoken an, das Sie in Ihrer vorherigen Zugriffsanforderung erhalten haben, `grant_type:refresh_token` und übergeben Sie es an. Die Anfrage sollte wie folgt aussehen: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
