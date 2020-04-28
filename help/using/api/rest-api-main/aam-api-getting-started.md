@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: afaaaa50bdbe1dd0104af7e715d76985cb3d443c
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -45,18 +45,7 @@ Beispiel oder Anwendungsfall für diesen Kontotyp: Sie möchten mit den [Massenv
 
 Wenden Sie sich an Ihren Audience Manager-Berater, um ein generisches [!DNL API]Benutzerkonto einzurichten.
 
-## JWT-Authentifizierung (Dienstkonto) {#jwt}
-
-Um eine sichere Service-to-Service-Adobe-I/O-API-Sitzung einzurichten, müssen Sie ein JSON-WebToken (JWT) erstellen, das die Identität Ihrer Integration kapselt, und diese dann gegen ein Zugriffstoken tauschen. Jede Anforderung an einen Adobe-Dienst muss das Zugriffstoken zusammen mit dem API-Schlüssel (Client-ID) im Autorisierungs-Header enthalten, der beim Erstellen der [Dienstkontointegration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) in der [Adobe-E/A-Konsole](https://console.adobe.io/)generiert wurde.
-
-Detaillierte Anweisungen zum Konfigurieren der Authentifizierung finden Sie unter [JWT-Authentifizierung](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) (Dienstkontoauthentifizierung).
-
-## OAuth-Authentifizierung (überholt) {#oauth}
-
->[!WARNING]
-> Authentifizierung und Erneuerung von Audience Manager- [!UICONTROL REST API] Token über [!DNL OAuth 2.0] ist jetzt veraltet.
->
-> Bitte verwenden Sie stattdessen die [JWT-Authentifizierung](#jwt-service-account-authentication-jwt) (Dienstkonto).
+## OAuth Authentication {#oauth}
 
 Der Audience Manager [!UICONTROL REST API] entspricht den [!DNL OAuth 2.0] Standards für die Token-Authentifizierung und -Erneuerung. In den folgenden Abschnitten wird beschrieben, wie Sie sich authentifizieren und Beginn mit den [!DNL API]s arbeiten.
 
@@ -80,7 +69,7 @@ Hinweis: Wenn Sie ein Aktualisierungstoken erhalten möchten, geben Sie dies an,
 
 Geben Sie eine Token-Anforderung an Ihren bevorzugten [!DNL JSON] Client weiter. Beim Erstellen der Anforderung:
 
-* Verwenden Sie eine `POST` Methode zum Aufrufen `https://aam.adobe.io/oauth/token`.
+* Verwenden Sie eine `POST` Methode zum Aufrufen `https://api.demdex.com/oauth/token`.
 * Konvertieren Sie Ihre Client-ID und Ihr Geheimnis in eine Base-64-kodierte Zeichenfolge. Trennen Sie die ID und das Geheimnis während des Konvertierungsprozesses durch einen Doppelpunkt. Beispielsweise werden die Anmeldeinformationen `testId : testSecret` in `dGVzdElkOnRlc3RTZWNyZXQ=`konvertiert.
 * Geben Sie die [!DNL HTTP] Kopfzeilen `Authorization:Basic <base-64 clientID:clientSecret>` und `Content-Type: application/x-www-form-urlencoded` . Ihre Kopfzeile könnte z. B. wie folgt aussehen: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Richten Sie den Anforderungstext wie folgt ein:
@@ -118,7 +107,7 @@ Die folgenden Schritte beschreiben den Arbeitsablauf für die Verwendung eines A
 
 Geben Sie eine Aktualisierungstoken-Anforderung an Ihren bevorzugten [!DNL JSON] Client weiter. Beim Erstellen der Anforderung:
 
-* Verwenden Sie eine `POST` Methode zum Aufrufen `https://aam.adobe.io/oauth/token`.
+* Verwenden Sie eine `POST` Methode zum Aufrufen `https://api.demdex.com/oauth/token`.
 * Konvertieren Sie Ihre Client-ID und Ihr Geheimnis in eine Base-64-kodierte Zeichenfolge. Trennen Sie die ID und das Geheimnis während des Konvertierungsprozesses durch einen Doppelpunkt. Beispielsweise werden die Anmeldeinformationen `testId : testSecret` in `dGVzdElkOnRlc3RTZWNyZXQ=`konvertiert.
 * Übergeben Sie die HTTP-Header `Authorization:Basic <base-64 clientID:clientSecret>` und `Content-Type: application/x-www-form-urlencoded`. Ihre Kopfzeile könnte z. B. wie folgt aussehen: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * Geben Sie im Anforderungstext das Aktualisierungstoken an, das Sie in Ihrer vorherigen Zugriffsanforderung erhalten haben, `grant_type:refresh_token` und übergeben Sie es an. Die Anfrage sollte wie folgt aussehen: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
@@ -139,7 +128,7 @@ Die [!DNL JSON] Antwort enthält Ihr neues Zugriffstoken. Die Antwort sollte wie
 
 ## Autorisierungscode und implizite Authentifizierung {#authentication-code-implicit}
 
-Audience Manager [!UICONTROL REST API] unterstützt Autorisierungscode und implizite Authentifizierung. Um diese Zugriffsmethoden verwenden zu können, müssen sich Ihre Benutzer anmelden, um Zugriff auf Token zu erhalten und sie zu aktualisieren. `https://aam.adobe.io/oauth/authorize`
+Audience Manager [!UICONTROL REST API] unterstützt Autorisierungscode und implizite Authentifizierung. Um diese Zugriffsmethoden verwenden zu können, müssen sich Ihre Benutzer anmelden, um Zugriff auf Token zu erhalten und sie zu aktualisieren. `https://api.demdex.com/oauth/authorize`
 
 ## Authentifizierte API-Anforderungen erstellen {#authenticated-api-requests}
 
@@ -166,7 +155,7 @@ Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *a
 | pageSize | Legt die Anzahl der Antwortergebnisse fest, die von der Anforderung zurückgegeben werden (10 ist standardmäßig). |
 | sortBy | Sortiert Ergebnisse und gibt sie entsprechend der angegebenen [!DNL JSON] Eigenschaft zurück. |
 | absteigend | Sortiert die Ergebnisse und gibt sie in absteigender Reihenfolge zurück. Aufsteigend ist der Standardwert. |
-| Suche | Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Nehmen wir beispielsweise an, Sie möchten Ergebnisse für alle Modelle suchen, die das Wort &quot;Test&quot;in einem der Wertefelder für dieses Element enthalten. Ihre Musteranforderung könnte wie folgt aussehen:   `GET https://aam.adobe.io/v1/models/?search=Test`.  Sie können nach jedem Wert suchen, der von der Methode &quot;get all&quot;zurückgegeben wird. |
+| Suche | Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Nehmen wir beispielsweise an, Sie möchten Ergebnisse für alle Modelle suchen, die das Wort &quot;Test&quot;in einem der Wertefelder für dieses Element enthalten. Ihre Musteranforderung könnte wie folgt aussehen:   `GET https://api.demdex.com/v1/models/?search=Test`.  Sie können nach jedem Wert suchen, der von der Methode &quot;get all&quot;zurückgegeben wird. |
 | folderId | Gibt alle IDs für Eigenschaften im angegebenen Ordner zurück. Nicht für alle Methoden verfügbar. |
 | Berechtigungen | Gibt eine Liste von Segmenten basierend auf der angegebenen Berechtigung zurück.  READ ist Standard. Zu den Berechtigungen gehören:<ul><li>`READ` : Rückgabe- und Segmentinformationen zur Ansicht.</li><li>`WRITE` : Aktualisieren Sie `PUT` ein Segment.</li><li>`CREATE` : Verwenden Sie `POST` zum Erstellen eines Segments.</li><li>`DELETE` : Segmente löschen. Erfordert Zugriff auf zugrunde liegende Eigenschaften, falls vorhanden. Sie benötigen beispielsweise Rechte zum Löschen der Eigenschaften, die zu einem Segment gehören, wenn Sie es entfernen möchten.</li></ul><br>Geben Sie mehrere Berechtigungen mit separaten Schlüssel/Wert-Paaren an. Um beispielsweise eine Liste von Segmenten mit `READ` und nur `WRITE` Berechtigungen zurückzugeben, geben Sie `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Boolescher Wert) Auf &quot;true&quot;setzen, um die Berechtigungen für das Segment zurückzugeben. Standard ist „false“. |
@@ -176,7 +165,7 @@ Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *a
 Wenn keine *Seiteninformationen angegeben* werden, gibt die Anforderung Nur- [!DNL JSON] Ergebnisse in einem Array zurück. Wenn Seiteninformationen angegeben *werden* , wird die zurückgegebene Liste in ein [!DNL JSON] Objekt eingeschlossen, das Informationen zum Gesamtergebnis und zur aktuellen Seite enthält. Ihre Musteranforderung mit Seitenoptionen könnte wie folgt aussehen:
 
 ```
-GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
+GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## API-URLs {#api-urls}
@@ -191,17 +180,17 @@ In der folgenden Tabelle werden die Anforderungs-URLs, die zum Übergeben von [!
 
 | [!DNL API] Methoden | Anfrage [!DNL URL] |
 |--- |--- |
-| Algorithmisches Modellieren | `https://aam.adobe.io/v1/models/` |
-| Datenquelle | `https://aam.adobe.io/v1/datasources/` |
-| Abgeleitete Signale | `https://aam.adobe.io/v1/signals/derived/` |
-| Ziele  | `https://aam.adobe.io/v1/destinations/` |
-| Domänen | `https://aam.adobe.io/v1/partner-sites/` |
-| Ordner | Eigenschaften:  `https://aam.adobe.io/v1/folders/traits /`<br>Segmente:  `https://aam.adobe.io/v1/folders/segments /` |
-| Schema | `https://aam.adobe.io/v1/schemas/` |
-| Segmente | `https://aam.adobe.io/v1/segments/` |
-| Eigenschaften | `https://aam.adobe.io/v1/traits/` |
-| Eigenschaftstypen | `https://aam.adobe.io/v1/customer-trait-types` |
-| Taxonomie | `https://aam.adobe.io/v1/taxonomies/0/` |
+| Algorithmisches Modellieren | `https://api.demdex.com/v1/models/` |
+| Datenquelle | `https://api.demdex.com/v1/datasources/` |
+| Abgeleitete Signale | `https://api.demdex.com/v1/signals/derived/` |
+| Ziele  | `https://api.demdex.com/v1/destinations/` |
+| Domänen | `https://api.demdex.com/v1/partner-sites/` |
+| Ordner | Eigenschaften:  `https://api.demdex.com/v1/folders/traits /`<br>Segmente:  `https://api.demdex.com/v1/folders/segments /` |
+| Schema | `https://api.demdex.com/v1/schemas/` |
+| Segmente | `https://api.demdex.com/v1/segments/` |
+| Eigenschaften | `https://api.demdex.com/v1/traits/` |
+| Eigenschaftstypen | `https://api.demdex.com/v1/customer-trait-types` |
+| Taxonomie | `https://api.demdex.com/v1/taxonomies/0/` |
 
 ## Umgebung {#environments}
 
@@ -209,7 +198,7 @@ Die [!DNL Audience Manager] Arbeitsabläufe [!DNL API]bieten Zugang zu verschied
 
 | Umgebung | Hostname |
 |---|---|
-| **Produktion** | `https://aam.adobe.io/...` |
+| **Produktion** | `https://api.demdex.com/...` |
 | **Beta** | `https://api-beta.demdex.com/...` |
 
 >[!NOTE]
