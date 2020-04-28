@@ -5,7 +5,7 @@ seo-title: Algorithmischer Modelleigenschaftsausschluss
 title: Algorithmischer Modelleigenschaftsausschluss
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: ee291fd9a06261afb71cc393fff0f4a1ee5cf7f4
 
 ---
 
@@ -35,8 +35,10 @@ Verwenden Sie den Arbeitsablauf zum [Erstellen eines Modells](../../features/alg
 1. Die [!UICONTROL Exclusions] Auswahl wird so lange ausgegraut, bis Sie eine oder mehrere Datenquellen für die Modellierung auswählen.
 2. Nach Auswahl einer oder mehrerer Datenquellen zur Modellierung drücken Sie **[!UICONTROL Browse All Traits]** die Eingabetaste.
 3. Im **[!UICONTROL Select Traits to Exclude]** Fenster werden alle Eigenschaften angezeigt, die mit den zuvor ausgewählten Datenquellen verknüpft sind. Wählen Sie die Eigenschaften aus, die Sie ausschließen möchten.
-4. Sie können die Eigenschaften nach Eigenschaftstyp filtern oder die Eigenschaftsordner durchsuchen. Beachten Sie, dass Eigenschaftsordner nur die Eigenschaften anzeigen, die mit den ausgewählten Datenquellen verknüpft sind.
+4. Sie können die Eigenschaften nach Eigenschafts- und Populationstyp filtern oder die Eigenschaftsordner durchsuchen. Beachten Sie, dass Eigenschaftsordner nur die Eigenschaften anzeigen, die mit den ausgewählten Datenquellen verknüpft sind.
 5. Drücken Sie **[!UICONTROL Exclude Selected Traits]**.
+
+![Eigenschaftenausschlüsse](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
