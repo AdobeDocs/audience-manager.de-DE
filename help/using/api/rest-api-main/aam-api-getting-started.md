@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
+source-git-commit: 1bbfa4b537a344d58f20763bb40ebe0827ad8698
 
 ---
 
@@ -242,10 +242,11 @@ Die [!DNL Audience Manager] Arbeitsabläufe [!DNL API]bieten Zugang zu verschied
 
 Je nach der von Ihnen verwendeten Authentifizierungsmethode müssen Sie die URLs Ihrer Umgebung entsprechend der unten stehenden Tabelle anpassen.
 
-| Umgebung | Hostname für OAuth-Authentifizierung | Hostname für JWT-Authentifizierung |
+| Umgebung | Hostname für JWT-Authentifizierung | Hostname für OAuth-Authentifizierung |
 |---|---|---|
-| **Produktion** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
-| **Beta** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
+| **Produktion** | `https://aam.adobe.io/...` | `https://api.demdex.com/...` |
+| **Beta** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
+
 
 >[!NOTE]
 >
