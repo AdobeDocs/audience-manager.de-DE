@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 184f9c298f776977c375e4c7a918c5a131c4bcd1
+source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
 
 ---
 
@@ -26,6 +26,7 @@ Was Sie bei der Arbeit mit Audience Manager [!DNL API]tun müssen und sollten.
 Beachten Sie beim Arbeiten mit dem API-Code [für](https://bank.demdex.com/portal/swagger/index.html#/) Audience Manager Folgendes:
 
 * **Anforderungsparameter:** Sofern nicht anders angegeben, sind alle Anforderungsparameter erforderlich.
+* **Anforderungsheader**: Wenn Sie [Adobe-E/A](https://www.adobe.io/) -Token verwenden, müssen Sie die `x-api-key` Kopfzeile angeben. Sie können Ihren API-Schlüssel abrufen, indem Sie die Anweisungen auf der Seite [Dienstkontointegration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) befolgen.
 * **[!DNL JSON]Inhaltstyp:**Geben Sie`content-type: application/json`und *geben Sie Ihren Code ein*`accept: application/json`.
 
 * **Anforderungen und Antworten:** Senden von Anforderungen als korrekt formatiertes [!DNL JSON] Objekt [!DNL Audience Manager] antwortet mit [!DNL JSON] formatierten Daten. Serverantworten können angeforderte Daten, einen Statuscode oder beides enthalten.
@@ -38,8 +39,8 @@ Beachten Sie beim Arbeiten mit dem API-Code [für](https://bank.demdex.com/porta
 
 Die REST-APIs von Audience Manager unterstützen zwei Authentifizierungsmethoden.
 
-* [Die JWT-Authentifizierung](#jwt) (Dienstkonto) ist die empfohlene Authentifizierungsmethode.
-* [OAuth-Authentifizierung (nicht mehr unterstützt)](#oauth). Kunden mit vorhandenen OAuth-Integrationen können diese Methode weiterhin verwenden.
+* [JWT-Authentifizierung](#jwt)(Dienstkonto). Dies ist die empfohlene Authentifizierungsmethode.
+* [OAuth-Authentifizierung (nicht mehr unterstützt)](#oauth). Diese Methode wird nicht mehr unterstützt, Kunden mit vorhandenen OAuth-Integrationen können diese Methode weiterhin verwenden.
 
 >[!IMPORTANT]
 >
@@ -130,7 +131,6 @@ Die folgenden Schritte beschreiben den Arbeitsablauf für die Verwendung eines A
 Geben Sie eine Aktualisierungstoken-Anforderung an Ihren bevorzugten [!DNL JSON] Client weiter. Beim Erstellen der Anforderung:
 
 * Verwenden Sie eine `POST` Methode zum Aufrufen `https://api.demdex.com/oauth/token`.
-<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * Konvertieren Sie Ihre Client-ID und Ihr Geheimnis in eine Base-64-kodierte Zeichenfolge. Trennen Sie die ID und das Geheimnis während des Konvertierungsprozesses durch einen Doppelpunkt. Beispielsweise werden die Anmeldeinformationen `testId : testSecret` in `dGVzdElkOnRlc3RTZWNyZXQ=`konvertiert.
 * Übergeben Sie die HTTP-Header `Authorization:Basic <base-64 clientID:clientSecret>` und `Content-Type: application/x-www-form-urlencoded`. Ihre Kopfzeile könnte z. B. wie folgt aussehen: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * Geben Sie im Anforderungstext das Aktualisierungstoken an, das Sie in Ihrer vorherigen Zugriffsanforderung erhalten haben, `grant_type:refresh_token` und übergeben Sie es an. Die Anfrage sollte wie folgt aussehen: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
