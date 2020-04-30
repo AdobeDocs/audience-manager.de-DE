@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 'Aufrufe an die Domäne „demdex.net“ '
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -32,14 +32,14 @@ Audience Manager und der Adobe Experience Platform Identity Service rufen Daten 
    <td colname="col2"> <p><span class="wintitle"> DPM</span> ist eine Abkürzung für <span class="wintitle"> Data Provider Match</span>. Es teilt internen <span class="keyword"> Adobe</span> -Systemen mit, dass ein Aufruf von <span class="keyword"> Audience Manager</span> oder vom <span class="wintitle"> ID-Dienst</span> Kundendaten zur Synchronisierung weiterleitet oder eine ID anfordert. Dies ist der häufigste <code> demdex.net</code> Aufruf, den Sie vom <span class="keyword"> Audience Manager</span> oder vom <span class="wintitle"> ID-Dienst</span>sehen können. </p> <p><span class="wintitle"> Grundlagen zum DPM</span> -Aufruf: </p> <p> 
      <ul id="ul_44023BB060774518BE414EE10820C141"> 
       <li id="li_0F94D1988A6944BA885FD40AB26FC49F"> <b> <span class="keyword"> Audience Manager</span> </b>: Ein <span class="wintitle"> DPM</span> -Aufruf von <span class="keyword"> Audience Manager</span> sendet Daten an die Datenerfassungsserver <span class="wintitle"> und</span> Profil-Cache-Server <span class="wintitle"></span>. Siehe <a href="../reference/system-components/components-data-collection.md"> Datenerfassungskomponenten</a>. </li> 
-      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> <span class="wintitle"> ID-Dienst</span> </b>: Ein <span class="wintitle"> DPM</span> -Aufruf des <span class="wintitle"> ID-Diensts</span> ist eine Anforderung einer Besucher-ID. Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst</a> für die Adobe Experience Platform und <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_id_request.html" format="https" scope="external"> wie der Identitätsdienst für Adobe Experience Platform IDs</a>anfordert und festlegt. </li> 
-     </ul> </p> <p> <p>Hinweis:  Kunden des <span class="wintitle"> ID-Diensts</span> können das <span class="wintitle"> DPM</span> -Präfix im Domänennamen ändern. Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-subdomain-config.html" format="https" scope="external"> audienceManager Server und audienceManagerServerSecure</a>. </p> </p> </td> 
+      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> <span class="wintitle"> ID-Dienst</span> </b>: Ein <span class="wintitle"> DPM</span> -Aufruf des <span class="wintitle"> ID-Diensts</span> ist eine Anforderung einer Besucher-ID. Siehe <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst</a> für die Adobe Experience Platform und <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/id-request.html" format="https" scope="external"> wie der Identitätsdienst für Adobe Experience Platform IDs</a>anfordert und festlegt. </li> 
+     </ul> </p> <p> <p>Hinweis:  <span class="wintitle"> Kunden des ID-Diensts</span> können das <span class="wintitle"> DPM</span> -Präfix im Domänennamen ändern. Siehe <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/subdomain-config.html" format="https" scope="external"> audienceManager Server und audienceManagerServerSecure</a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)
->* [Cookies in Audience Manager](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html)
+>* [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+>* [Cookies in Audience Manager](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html)
 
