@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -25,7 +25,7 @@ Antworten auf häufige Fragen oder Probleme zum Thema Datenschutz und Daten.
 
 **Wie verwendet Audience Manager Cookies und welche Cookies setzt er?**
 
-See [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
+See [Audience Manager Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html).
 
 **Können Audience Manager-Kunden in der US-Zielgruppe EU-Immobilien nutzen?**
 
