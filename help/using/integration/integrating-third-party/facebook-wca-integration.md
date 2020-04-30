@@ -5,7 +5,7 @@ seo-title: Facebook-WCA-Integration
 solution: Audience Manager
 title: Facebook-WCA-Integration
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -29,9 +29,9 @@ Auf dieser Seite wird der Vorgang zum Erstellen von WCA-Pixeln (Facebook Website
 1. Facebook-Anzeigenkonto
 2. Audiencen-Manager-Segmente, die Ihrem neuen Facebook-Ziel zugewiesen werden können. Hier [erfahren Sie, wie Sie ein Segment](/help/using/features/segments/segment-builder.md) in der Benutzeroberfläche von Audience Manager erstellen.
 3. Adobe Experience Platform Identity Service (ECID) Version 4.1.0 oder neuer. Laden Sie die neueste Version **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**herunter.
-4. Audience Manager Data Integration Library (DIL) Version 9.0 oder neuer, **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**herunterzuladen. Wenn Sie zum Importieren von Daten in Audience Manager[serverseitige Weiterleitungen (SSF)](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)verwenden, müssen Sie stattdessen AppMeasurement Version 2.12 oder höher verwenden. Laden Sie AppMeasurement mit dem[Analytics-Code-Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)herunter.
+4. Audience Manager Data Integration Library (DIL) Version 9.0 oder neuer, **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**herunterzuladen. Wenn Sie zum Importieren von Daten in Audience Manager[serverseitige Weiterleitungen (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)verwenden, müssen Sie stattdessen AppMeasurement Version 2.12 oder höher verwenden. Laden Sie AppMeasurement mit dem[Analytics-Code-Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)herunter.
 
-Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mithilfe von [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) oder [Adobe Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/)zu installieren oder zu aktualisieren.
+Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mithilfe von [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) oder [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)zu installieren oder zu aktualisieren.
 
 ## Schritt 1: Erstellen eines Facebook-Ziels in Audience Manager {#step-1-create-facebook-destination}
 
@@ -97,9 +97,9 @@ Siehe [Erstellen einer benutzerspezifischen Website-Audience](https://www.facebo
 | Im letzten | Optionale Einstellung. |
 | Name der Audience | Es wird empfohlen, denselben Segmentnamen des Audience-Managers für Konsistenz zu verwenden, es sei denn, Sie fügen dieser Audience zusätzliche Bedingungen hinzu. |
 
-## Schritt 4: Zuweisen der Audience zu einem Campaign im Facebook Ads Manager {#step-4-assign-audience-to-campaign}
+## Schritt 4: Zuweisen der Audience zu einer Kampagne im Facebook Ads Manager {#step-4-assign-audience-to-campaign}
 
-Nachdem Sie die benutzerdefinierte Audience erstellt haben, weisen Sie sie einem Anzeigen-Campaign zu. Erstellen Sie ein neues Campaign oder bearbeiten Sie ein vorhandenes. Ihre neu erstellte Audience wird dann in der Facebook-Benutzeroberfläche aufgeführt. Ihr Campaign Zielgruppe Benutzer, die beim Besuch Ihrer Site das Pixelfeuer in ihrem Browser gesehen haben, wenn Audience Manager sie in das Segment einbezieht.
+Nachdem Sie die benutzerdefinierte Audience erstellt haben, weisen Sie sie einer Kampagne der Anzeige zu. Erstellen Sie eine neue Kampagne oder bearbeiten Sie eine vorhandene, und Ihre neu erstellte Audience wird in der Facebook-Benutzeroberfläche aufgelistet. Ihre Kampagne der Anzeige Zielgruppe Benutzer, die beim Besuch Ihrer Site das Pixelfeuer in ihrem Browser gesehen haben, sofern Audience Manager sie in das Segment einbezieht.
 
 ## Zusammenfassung {#summary}
 
