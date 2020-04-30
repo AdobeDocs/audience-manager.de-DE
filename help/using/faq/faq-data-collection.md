@@ -7,7 +7,7 @@ title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -57,7 +57,7 @@ Um [!DNL Analytics] Daten in [!DNL Audience Manager]zu laden, laden Sie [!UICONT
 
 1. [!DNL Analytics] `s_code`
 
-2. [!DNL Audience Manager] [!UICONTROL DIL] -Modul
+2. [!DNL Audience Manager] [!UICONTROL DIL] module
 
 3. [!DNL Analytics]`s.t()`-Funktion 
 
@@ -172,7 +172,7 @@ Nein, verlassen Sie sich nicht auf die [!UICONTROL General Reports] und [!UICONT
 
 Die Berichte berechnen Populationen anhand der nicht authentifizierten Profil Records (UUIDs), die wir im Backend zum Zeitpunkt der Berichterstellung sehen.
 
-Bei einem ersten Aufruf an die [!UICONTROL DCS]werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. kein [demdex-Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) auf der Clientseite vorhanden). Der [!UICONTROL DCS] generiert nach dem Zufallsprinzip eine UUID, setzt ein [!DNL demdex] Cookie und gibt sie im Antwortaufruf weiter. Die UUID wird jedoch nicht an das Backend übertragen.
+Bei einem ersten Aufruf an die [!UICONTROL DCS]werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. kein [demdex-Cookie](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) auf der Clientseite vorhanden). Der [!UICONTROL DCS] generiert nach dem Zufallsprinzip eine UUID, setzt ein [!DNL demdex] Cookie und gibt sie im Antwortaufruf weiter. Die UUID wird jedoch nicht an das Backend übertragen.
 
 >[!NOTE]
 >
