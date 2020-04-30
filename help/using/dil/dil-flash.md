@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 translation-type: tm+mt
-source-git-commit: d72460ee33be0bfffe56eff04286284b2e5f3918
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -21,7 +21,7 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] ist eine [!DNL ActionScript] Code-Bibliothek, mit der Sie mit Videodaten in Audience Manager arbeiten können. [!DNL Flash DIL] erfasst SWF-Inhalte, die die Adobe- [!UICONTROL AppMeasurement] Bibliothek an Analytics übergibt. [!DNL Flash DIL] sendet diese Daten an das separate [!UICONTROL DIL] JavaScript-Datenerfassungsmodul, das diese Informationen an Audience Manager weiterleitet. Analysedaten ( [!UICONTROL Props], [!UICONTROL eVars]Ereignisse usw.) Die aus der [!DNL FLA] Datei erfassten Daten stehen in Audience Manager als Eigenschaften oder nicht verwendete Signale zur Verfügung.
+[!UICONTROL Flash DIL] ist eine [!DNL ActionScript] Codebibliothek, mit der Sie mit Videodaten in Audience Manager arbeiten können. [!DNL Flash DIL] erfasst SWF-Inhalte, die die Adobe- [!UICONTROL AppMeasurement] Bibliothek an Analytics übergibt. [!DNL Flash DIL] sendet diese Daten an das separate [!UICONTROL DIL] JavaScript-Datenerfassungsmodul, das diese Informationen an Audience Manager weiterleitet. Analytics-Daten ( [!UICONTROL Props], [!UICONTROL eVars]Ereignis usw.) Aus der [!DNL FLA] Datei erfasste Daten stehen im Audience Manager als Eigenschaften oder nicht verwendete Signale zur Verfügung.
 
 ## Anforderungen für die Flash DIL-Datenerfassung {#requirements}
 
@@ -53,7 +53,7 @@ Versuchen Sie, das JS- [!UICONTROL DIL] Datenerfassungsmodul auf der Seite zu pl
 
 ## Von Flash DIL erfasste Daten {#data-collected}
 
-[!UICONTROL Flash DIL] erfasst Seitenansichts-, Link-Tracking-, Medien- und andere Medienansichtsereignisse aus der Adobe- [!UICONTROL AppMeasurement] Bibliothek.
+[!UICONTROL Flash DIL] erfasst die Ansicht von Seiten, die Linktracking, die Medienverfolgung und andere Ereignis zur Ansicht von Medien aus der Adobe- [!UICONTROL AppMeasurement] Bibliothek.
 
 <!-- 
 
@@ -61,7 +61,7 @@ r_flash_dil_data_collected.xml
 
  -->
 
-**Seitenansichtsereignisse**
+**Ereignisse zur Ansicht der Seite**
 
 Erfasst die folgenden Daten aus Adobe AppMeasurement, sofern nicht anders angegeben `s.trackVars`[!UICONTROL Flash DIL] :
 
@@ -73,7 +73,7 @@ Erfasst die folgenden Daten aus Adobe AppMeasurement, sofern nicht anders angege
 * `prop1 - prop75`
 * `eVar1 - eVar75`
 
-**Linkverfolgungsereignisse**
+**Linktracking-Ereignis**
 
 Erfasst die folgenden Daten von Adobe, sofern nicht anders angegeben `s.linkTrackVars`[!UICONTROL Flash DIL] : [!UICONTROL AppMeasurement]:
 
@@ -81,9 +81,9 @@ Erfasst die folgenden Daten von Adobe, sofern nicht anders angegeben `s.linkTrac
 * `pev1` (Link-URL)
 * `pev2`(Linktext)
 
-**Medienverfolgungsereignisse**
+**Medienverfolgung - Ereignisse**
 
-Erfasst, sofern nicht anders angegeben, `s.Media.trackVars`alle im Abschnitt "Seitenansichtsereignisse"aufgelisteten Daten [!UICONTROL Flash DIL] .
+Wenn nicht anders angegeben von `s.Media.trackVars`erfasst [!UICONTROL Flash DIL] , werden alle im Abschnitt &quot;Ereignis der Ansicht&quot;aufgelisteten Daten erfasst.
 
 **Andere Datenpunkte**
 
@@ -105,15 +105,15 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignisse funktionieren wie Eigenschaften in Audience Manager. Eigenschaften sind Schlüssel-Wert-Paare und werden zum Aufbau von Segmenten verwendet. Beispiel: In einer Analytics-Prop wie `c30=foo`ist `c30` der Schlüssel (eine Konstante) und `foo` der Wert (eine Variable).
+Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignis funktionieren wie Eigenschaften in Audience Manager. Eigenschaften sind Schlüssel-Wert-Paare und werden zum Aufbau von Segmenten verwendet. Beispiel: In einer Analytics-Prop wie `c30=foo`ist `c30` der Schlüssel (eine Konstante) und `foo` der Wert (eine Variable).
 
-**Übereinstimmung von Audience Manager-Eigenschaften mit Analytics-Variablen**
+**Audience Manager-Eigenschaften mit Analytics-Variablen abgleichen**
 
-Um die von Analytics weitergeleiteten Daten zu verwenden, [!UICONTROL Flash DIL]sollten Sie Audience Manager-Eigenschaften erstellen, denen der Schlüsselwert vorangestellt wurde `c_`.
+Um die Analytics-Daten zu verwenden, die übergeben werden, [!UICONTROL Flash DIL]sollten Sie Audience Manager-Eigenschaften erstellen, denen der Schlüsselwert vorangestellt wird `c_`.
 
 Beispiele finden Sie in der Tabelle:
 
-| Analytics-Datenelement | Analytics-Beispiel | Eigenschaften von Audience Manager |
+| Analytics-Datenelement | Analytics-Beispiel | Audience Manager-Eigenschaft |
 |---|---|---|
 | **prop** | `c30=foo` | `c_prop30=foo` |
 | **evar** | `v35=bar` | `c_evar35=bar` |
@@ -121,11 +121,11 @@ Beispiele finden Sie in der Tabelle:
 
 **DIL/Analytics-Daten als nicht verwendete Signale**
 
-Audience Manager akzeptiert Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignisse auch ohne entsprechende Eigenschaften. In diesem Fall sind die Daten nicht für die Erstellung von Eigenschaften verfügbar und werden stattdessen im Bericht " [Nicht verwendete Signale"](../reporting/dynamic-reports/unused-signals.md) angezeigt. Um diese Informationen optimal zu nutzen, erstellen Sie Audience Manager-Eigenschaften, die mit den von der [!UICONTROL Flash DIL] Bibliothek weitergeleiteten Analytics-Daten übereinstimmen.
+Audience Manager akzeptiert Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignis auch ohne entsprechende Eigenschaften. In diesem Fall sind die Daten nicht für die Erstellung von Eigenschaften verfügbar und werden stattdessen im Bericht [&quot;](../reporting/dynamic-reports/unused-signals.md) Nicht verwendete Signale&quot;angezeigt. Um diese Informationen optimal nutzen zu können, erstellen Sie Audience Manager-Eigenschaften, die mit den von der [!UICONTROL Flash DIL] Bibliothek übergebenen Analytics-Daten übereinstimmen.
 
 ## Flash DIL ActionScript Library {#flash-dil-actionscript}
 
-Code für Ihr [!DNL Flash] Objekt zum Senden von Analytics-Daten an Audience Manager.
+Code für Ihr [!DNL Flash] Objekt, um Analytics-Daten an Audience Manager zu senden.
 
 <!-- 
 
@@ -156,7 +156,10 @@ s.loadModule(d);
 >
 >* [Eigenschaften](../features/traits/trait-details-page.md)
 >* [Signale, Eigenschaften und Segmente](../reference/signal-trait-segment.md)
->* [Erläuterung von wichtigen Seiten](../reference/key-value-pairs-explained.md)
+>* [Erläuterung von Seiten mit Schlüsselwert](../reference/key-value-pairs-explained.md)
 >* [Voraussetzungen für das Präfix für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
->* [AppMeasurement Flash-, Flex- und OSMF-Implementierungshandbuch](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
 
+
+<!-- Victor/Vlad: Do we still need this link? It doesn't look like this content has been migrated.
+>* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
+-->
