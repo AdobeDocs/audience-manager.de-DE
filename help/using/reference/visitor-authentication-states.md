@@ -1,22 +1,22 @@
 ---
-description: Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschafteninformationen in das authentifizierte Profil des Besuchers oder in das Geräteprofil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Authentifizierungsstatus UNKNOWN und LOGGED_OUT für Besucher-IDs auf die gleiche Weise.
+description: Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschaftsinformationen in das authentifizierte Profil des Besuchers oder in das Gerätehilfen-Profil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Besucher-ID-Authentifizierungsstatus UNKNOWN und LOGGED_OUT in Ereignis-Aufrufen auf dieselbe Weise.
 keywords: dpm.demdex.net
-seo-description: Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschafteninformationen in das authentifizierte Profil des Besuchers oder in das Geräteprofil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Authentifizierungsstatus UNKNOWN und LOGGED_OUT für Besucher-IDs auf die gleiche Weise.
-seo-title: Authentifizierungsstatus von Besuchern in Audience Manager
+seo-description: Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschaftsinformationen in das authentifizierte Profil des Besuchers oder in das Gerätehilfen-Profil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Besucher-ID-Authentifizierungsstatus UNKNOWN und LOGGED_OUT in Ereignis-Aufrufen auf dieselbe Weise.
+seo-title: Besucher-Authentifizierungsstatus in Audience Manager
 solution: Audience Manager
-title: Authentifizierungsstatus von Besuchern in Audience Manager
+title: Besucher-Authentifizierungsstatus in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
-# Authentifizierungsstatus von Besuchern in Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Besucher-Authentifizierungsstatus in Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschafteninformationen in das authentifizierte Profil des Besuchers oder in das Geräteprofil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Authentifizierungsstatus UNKNOWN und LOGGED_OUT für Besucher-IDs auf die gleiche Weise.
+Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschaftsinformationen in das authentifizierte Profil des Besuchers oder in das Gerätehilfen-Profil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Besucher-ID-Authentifizierungsstatus UNKNOWN und LOGGED_OUT in Ereignis-Aufrufen auf dieselbe Weise.
 
-Ab [!DNL Experience Cloud] ID-Dienst Version 1.5 enthält die `setCustomerID` Methode das optionale `AuthState` Objekt. `AuthState` identifiziert Besucher gemäß ihrem [Authentifizierungsstatus](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nach Authentifizierungsstatus, der im Aufruf übergeben wird, und der [Profilzusammenführungsregel](../features/profile-merge-rules/merge-rules-dashboard.md) , die Sie für die Segmentierung verwenden.
+Ab [!DNL Experience Cloud] ID-Dienst Version 1.5 enthält die `setCustomerID` Methode das optionale `AuthState` Objekt. `AuthState` identifiziert Besucher gemäß ihrem [Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nach Authentifizierungsstatus, der im Aufruf übergeben wird, und der [Profil Merge Rule](../features/profile-merge-rules/merge-rules-dashboard.md) , die Sie für die Segmentierung verwenden.
 
 ## Authentifizierungsstatus: UNBEKANNT {#auth-status-unknown}
 
@@ -31,11 +31,11 @@ Ab [!DNL Experience Cloud] ID-Dienst Version 1.5 enthält die `setCustomerID` Me
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Ja, wenn die Authentifizierungsoption Merge Rule = "Last Authenticated Profiles" (Zusammenführungsregel der letzten authentifizierten Profile) ist. </p> </td> 
-   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftendaten werden dem Geräteprofil hinzugefügt. </p> </td> 
+   <td colname="col2"> <p>Ja, wenn die Authentifizierungsoption Merge Rule = "Last Authenticated Profils". </p> </td> 
+   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftsdaten werden dem Profil des Geräts hinzugefügt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Nein, wenn die authentifizierte Option Merge Rule = "Current Authenticated Profiles" oder "No Authenticated Profile" (Kein authentifiziertes Profil). </p> </td> 
+   <td colname="col2"> <p>Nein, wenn die Authentifizierungsoption Merge Rule = "Current Authenticated Profils" oder "No Authenticated Profil". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,11 +57,11 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Ja, wenn die Authentifizierungsoption Merge Rule = "Current Authenticated Profiles"oder "Last Authenticated Profiles"(Letzte authentifizierte Profile) ist. </p> </td> 
+   <td colname="col2"> <p>Ja, wenn die Authentifizierungsoption Merge Rule = "Current Authenticated Profils" oder "Last Authenticated Profils" ist. </p> </td> 
    <td colname="col3" morerows="1"> <p>Ja, die Eigenschaftendaten werden dem authentifizierten Profil hinzugefügt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Nein, wenn die Authentifizierungsoption Merge Rule = "No Authenticated Profile"(Kein authentifiziertes Profil). </p> </td> 
+   <td colname="col2"> <p>Nein, wenn die authentifizierte Option Merge Rule = "No Authenticated Profil". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,11 +83,11 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Ja, wenn die Merge-Regel für die authentifizierte Option = "Letzte authentifizierte Profile" </td> 
-   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftendaten werden in das Geräteprofil geschrieben. </p> </td> 
+   <td colname="col2"> Ja, wenn die Merge-Regel für die authentifizierte Option = "Letzte authentifizierte Profil" </td> 
+   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftsdaten werden in das Profil des Geräts geschrieben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> Nein, wenn die Merge-Regel für die authentifizierte Option = "Aktuelle authentifizierte Profile"oder "Kein authentifiziertes Profil" </td> 
+   <td colname="col2"> Nein, wenn die Merge-Regel für die authentifizierte Option = "Aktuelle authentifizierte Profil"oder "Kein authentifiziertes Profil" </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,5 +102,5 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 
 >[!MORELIKETHIS]
 >
->* [Kunden-IDs und Authentifizierungsstatus](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
+>* [Kunden-IDs und Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
 
