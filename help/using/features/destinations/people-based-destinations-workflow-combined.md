@@ -1,11 +1,11 @@
 ---
-description: 'Diese Seite enthält eine schrittweise Anleitung dazu, wie Sie Offline-CRM-Daten mit Verhaltensdaten kombinieren, die Sie bereits in Audience Manager haben, um neue Zielgruppensegmente zu erstellen, und diese Zielgruppensegmente dann an benutzerbasierte Ziele senden.  '
-seo-description: 'Diese Seite enthält eine schrittweise Anleitung dazu, wie Sie Offline-CRM-Daten mit Verhaltensdaten kombinieren, die Sie bereits in Audience Manager haben, um neue Zielgruppensegmente zu erstellen, und diese Zielgruppensegmente dann an benutzerbasierte Ziele senden.   '
+description: 'Diese Seite enthält eine schrittweise Anleitung zum Kombinieren von Offline-CRM-Daten mit Verhaltensdaten, die Sie bereits im Audience Manager haben, um neue Audiencen zu erstellen, und zum anschließenden Senden dieser Audiencen an benutzerbasierte Ziele.  '
+seo-description: 'Diese Seite enthält eine schrittweise Anleitung zum Kombinieren von Offline-CRM-Daten mit Verhaltensdaten, die Sie bereits im Audience Manager haben, um neue Audiencen zu erstellen, und zum anschließenden Senden dieser Audiencen an benutzerbasierte Ziele.   '
 seo-title: Arbeitsablauf A - Personalisierung auf der Grundlage aller Online-Aktivitäten in Kombination mit Offline-Daten
 solution: Audience Manager
 title: Arbeitsablauf A - Personalisierung auf der Grundlage aller Online-Aktivitäten in Kombination mit Offline-Daten
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 # Arbeitsablauf A - Personalisierung auf der Grundlage aller Online-Aktivitäten in Kombination mit Offline-Daten {#workflow-a}
 
 >[!IMPORTANT]
->Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
-Diese Seite enthält eine schrittweise Anleitung, wie Sie Offline- [!DNL CRM] Daten mit Verhaltensdaten kombinieren, die Sie bereits in Audience Manager haben, um neue Zielgruppensegmente zu erstellen, und diese Zielgruppensegmente dann an [!DNL People-Based Destinations]senden.
+Diese Seite enthält eine schrittweise Anleitung zum Kombinieren von Offline- [!DNL CRM] Daten mit Verhaltensdaten, die Sie bereits in Audience Manager haben, um neue Audiencen zu erstellen, und zum Senden dieser Audiencen an [!DNL People-Based Destinations].
 
 ## Schritt 1: Konfigurieren der Datenquelleneinstellungen {#configure-data-source-settings}
 
@@ -27,15 +27,15 @@ Je nachdem, ob es sich bei Ihren [DPUUIDs](../../reference/ids-in-aam.md) um Kle
 
 In diesem Fall müssen Sie die entsprechende Datenquelle als solche kennzeichnen:
 
-1. Gehen Sie zu [!UICONTROL Audience Data] -&gt; [!UICONTROL Data Sources].
+1. Gehen Sie zu [!UICONTROL Audience Data] -> [!UICONTROL Data Sources].
 1. Suchen Sie die Datenquelle, die Ihre [DPUUIDs](../../reference/ids-in-aam.md)enthält, und klicken Sie darauf.
 1. Wählen Sie im **[!UICONTROL ID Type]** Dropdownmenü die Option **[!UICONTROL Cross Device]**.
 1. Stellen Sie sicher, dass die Option deaktiviert [!UICONTROL Cannot be tied to personally identifiable information] ist.
 1. Wählen Sie im **[!UICONTROL Data Source Settings]** Abschnitt die Optionen **[!UICONTROL Inbound]** und **[!UICONTROL Outbound]** aus und aktivieren Sie die **[!UICONTROL Share associated cross-device IDs in people-based destinations]** Option.
-1. Verwenden Sie das Dropdownmenü, um die **[!UICONTROL Emails(SHA256, lowercased)]** Bezeichnung für diese Datenquelle auszuwählen.
+1. Verwenden Sie das Dropdown-Menü, um die **[!UICONTROL Emails(SHA256, lowercased)]** Bezeichnung für diese Datenquelle auszuwählen.
    >[!IMPORTANT]
    >
-   >Diese Option bezeichnet die Datenquelle nur als mit diesem spezifischen Algorithmus Hash-Daten. In Audience Manager werden die Daten in diesem Schritt nicht zwischengespeichert. Vergewissern Sie sich, dass die E-Mail-Adressen, die Sie bei der Speicherung in dieser Datenquelle planen, bereits mit dem [!DNL SHA256] Algorithmus Hashing ausgeführt wurden. Andernfalls können Sie es nicht für [!DNL People-Based Destinations]die Anwendung verwenden.
+   >Diese Option bezeichnet die Datenquelle nur als mit diesem spezifischen Algorithmus Hash-Daten. Audience Manager stellt die Daten in diesem Schritt nicht in Hashing dar. Vergewissern Sie sich, dass die E-Mail-Adressen, die Sie bei der Speicherung in dieser Datenquelle planen, bereits mit dem [!DNL SHA256] Algorithmus Hashing ausgeführt wurden. Andernfalls können Sie es nicht für [!DNL People-Based Destinations]die Anwendung verwenden.
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Speichern Sie die Datenquelleneinstellungen.
@@ -46,31 +46,31 @@ In diesem Fall müssen Sie die entsprechende Datenquelle als solche kennzeichnen
 
 In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen, in der Ihre Hash-E-Mail-Adressen gespeichert werden. So geht das:
 
-1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**, und klicken Sie auf **[!UICONTROL Add New]**.
+1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**, und klicken Sie auf **[!UICONTROL Add New]**.
 1. Geben Sie ein [!UICONTROL Name] und [!UICONTROL Description] für Ihre neue Datenquelle ein.
 1. Wählen Sie im **[!UICONTROL ID Type]** Dropdownmenü die Option **[!UICONTROL Cross Device]**.
-1. In the  section, select both the  and  options, and enable the  option.**[!UICONTROL Data Source Settings]****[!UICONTROL Inbound]****[!UICONTROL Outbound]****[!UICONTROL Share associated cross-device IDs in people-based destinations]**
-1. Verwenden Sie das Dropdownmenü, um die **[!UICONTROL Emails(SHA256, lowercased)]** Bezeichnung für diese Datenquelle auszuwählen.
+1. Wählen Sie im **[!UICONTROL Data Source Settings]** Abschnitt die Optionen **[!UICONTROL Inbound]** und **[!UICONTROL Outbound]** aus und aktivieren Sie die **[!UICONTROL Share associated cross-device IDs in people-based destinations]** Option.
+1. Verwenden Sie das Dropdown-Menü, um die **[!UICONTROL Emails(SHA256, lowercased)]** Bezeichnung für diese Datenquelle auszuwählen.
    >[!IMPORTANT]
    >
-   >Diese Option bezeichnet die Datenquelle nur als mit diesem spezifischen Algorithmus Hash-Daten. In Audience Manager werden die Daten in diesem Schritt nicht zwischengespeichert. Vergewissern Sie sich, dass die E-Mail-Adressen, die Sie bei der Speicherung in dieser Datenquelle planen, bereits mit dem [!DNL SHA256] Algorithmus Hashing ausgeführt wurden. Andernfalls können Sie es nicht für [!DNL People-Based Destinations]die Anwendung verwenden.
+   >Diese Option bezeichnet die Datenquelle nur als mit diesem spezifischen Algorithmus Hash-Daten. Audience Manager stellt die Daten in diesem Schritt nicht in Hashing dar. Vergewissern Sie sich, dass die E-Mail-Adressen, die Sie bei der Speicherung in dieser Datenquelle planen, bereits mit dem [!DNL SHA256] Algorithmus Hashing ausgeführt wurden. Andernfalls können Sie es nicht für [!DNL People-Based Destinations]die Anwendung verwenden.
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Speichern Sie die Datenquelleneinstellungen.
 
 Sehen Sie sich das Video unten an, in dem Sie erfahren, wie Sie eine Datenquelle erstellen [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >
-> Häufig gestellte Fragen dazu, wie Sie Ihre Offlinedaten in Audience Manager für People-Based-Ziele importieren sollten, finden Sie unter [DatenOnboarding](people-based-destinations-prerequisites.md#data-onboarding) .
+> Häufig gestellte Fragen dazu, wie Sie Ihre Offlinedaten in den Audience Manager für personenbasierte Ziele einbeziehen sollten, finden Sie unter [DatenOnboarding](people-based-destinations-prerequisites.md#data-onboarding) .
 
 ## Schritt 2: Zuordnen von DPUUIDs zu Hash-E-Mail-Adressen über dateibasierte ID-Synchronisierung {#match-ids-emails}
 
 >[!IMPORTANT]
 >
-> This step only applies to Scenario 2 described above. [](people-based-destinations-workflow-combined.md#configure-data-source-settings) Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits mit Hashing-E-Mail-Adressen versehen sind, fahren Sie mit [Schritt 3 - Eine Profilzusammenführungsregel für die Segmentierung](people-based-destinations-workflow-combined.md#create-merge-rule)erstellen fort.
+> Dieser Schritt gilt nur für das oben beschriebene [Szenario 2](people-based-destinations-workflow-combined.md#configure-data-source-settings) . Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits mit Hashing-E-Mail-Adressen versehen sind, fahren Sie mit [Schritt 3 - Eine Profil-Merge-Regel für die Segmentierung](people-based-destinations-workflow-combined.md#create-merge-rule)erstellen fort.
 
 Angenommen, Sie möchten Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) mit den Hash-E-Mail-Adressen aus der Tabelle unten (rechte Spalte) abgleichen und die Hash-E-Mail-Adressen in der neuen Datenquelle speichern, die Sie in [Schritt 1 - Datenquelleneinstellungen](people-based-destinations-workflow-combined.md#configure-data-source-settings)konfigurieren erstellt haben.
 
@@ -86,14 +86,14 @@ Sie können bis zu 10 Hash-E-Mail-Adressen mit einer einzigen [DPUUID](../../ref
 
 In unserem Beispiel würden Sie nun über zwei Datenquellen verfügen.
 
-| Datenquellen-ID | Datenquellinhalte |
+| Datenquellen-ID | Datenquelleninhalte |
 | -------------- | -------------------------- |
 | 999999 | Vorhandene DPUUIDs (CRM-IDs) |
 | 987654 | Hash-E-Mail-Adressen |
 
  
 
-Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) enthält folgenden Inhalt:
+Ihre [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) enthält den folgenden Inhalt:
 
 ```
 68079982765673198504052656074456196039<TAB>55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
@@ -114,35 +114,37 @@ Im Beispiel oben würde der Dateiname wie folgt aussehen:
 
 [Beispieldatei hier](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)herunterladen.
 
+<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
+
 Nachdem Sie die ID-Synchronisierungsdatei erstellt haben, müssen Sie sie in einen [!DNL Amazon S3] Behälter hochladen. Informationen zum Hochladen von ID-Synchronisierungsdateien finden Sie unter Stapeldaten an Audience Manager [senden](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
-## Schritt 3: Erstellen einer Regel zur Profilzusammenführung für die Segmentierung {#create-merge-rule}
+## Schritt 3: Erstellen einer Profil Merge Rule for Segmentation {#create-merge-rule}
 
-Der nächste Schritt ist die Erstellung einer neuen Zusammenführungsregel, mit der Sie die Zielgruppensegmente erstellen können, die an Ihre benutzerbasierten Ziele gesendet werden.
+Im nächsten Schritt erstellen Sie eine neue Zusammenführungsregel, mit der Sie die Audiencen erstellen können, die an Ihre benutzerspezifischen Ziele gesendet werden.
 
 >[!IMPORTANT]
 >
-> Wenn Sie bereits über eine Regel verfügen, die mit den [!UICONTROL Current Authenticated Profiles] Optionen oder [!UICONTROL Last Authenticated Profiles] Optionen definiert wurde, können Sie zu [Schritt 4 - Zielgruppensegmente](people-based-destinations-workflow-combined.md#create-audience-segments)erstellen überspringen.
+> Wenn Sie bereits eine Regel mit den [!UICONTROL Current Authenticated Profiles] bzw. [!UICONTROL Last Authenticated Profiles] Optionen definiert haben, können Sie zu [Schritt 4 - Segmente](people-based-destinations-workflow-combined.md#create-audience-segments)erstellen überspringen.
 
-1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Profile Merge Rules]**.
-1. Klicken Sie auf **[!UICONTROL Add New Rule]**.
-1. Geben Sie eine Regel zum Zusammenführen des Profils ein **[!UICONTROL Name]** und **[!UICONTROL Description]**.
-1. Wählen Sie im **[!UICONTROL Profile Merge Rule Setup]** Abschnitt die **[!UICONTROL Current Authenticated Profiles]** oder die **[!UICONTROL Last Authenticated Profiles]** Optionen aus.
+1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
+1. Klicken **[!UICONTROL Add New Rule]**.
+1. Geben Sie eine Profil Merge-Regel ein **[!UICONTROL Name]** und **[!UICONTROL Description]**.
+1. Wählen Sie im **[!UICONTROL Profile Merge Rule Setup]** Abschnitt die **[!UICONTROL Current Authenticated Profiles]** bzw. die **[!UICONTROL Last Authenticated Profiles]** Optionen aus.
 1. Wählen Sie in der **[!UICONTROL Cross-Device Profile Options]** Liste die Datenquellen aus, für die Sie die Segmentierung ausführen möchten. Dies sollten die Datenquellen sein, die Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md)enthalten.
 
-## Schritt 4: Zielgruppensegmente erstellen {#create-audience-segments}
+## Schritt 4: Erstellen von Segmenten für Audiencen {#create-audience-segments}
 
-Verwenden Sie zum Erstellen neuer Zielgruppensegmente den [Segmentaufbau](../segments/segment-builder.md). Wenn Sie bereits Zielgruppensegmente haben, an die Sie senden möchten, fahren Sie mit [!DNL People-Based Destinations]Schritt 5 - [Konfiguration der People-Based Platform-Authentifizierung](people-based-destinations-workflow-combined.md#configure-authentication)fort.
+Verwenden Sie den [Segmentaufbau](../segments/segment-builder.md), um neue Segmentsegmente zu erstellen. Wenn Sie bereits Audiencen haben, an die Sie senden möchten, fahren Sie mit [!DNL People-Based Destinations]Schritt 5 - [Personenbasierte Plattformauthentifizierung](people-based-destinations-workflow-combined.md#configure-authentication)konfigurieren fort.
 
 ## Schritt 5: Konfiguration der Authentifizierung für benutzerbasierte Plattformen {#configure-authentication}
 
-1. Log in to your Audience Manager account and go to  &gt; . **[!UICONTROL Administration]****[!UICONTROL Integrated Accounts]** Wenn Sie eine zuvor konfigurierte Integration mit einer sozialen Plattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
+1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer sozialen Plattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
    ![people-based-integration](assets/pbd-config.png)
-1. Klicken Sie auf **[!UICONTROL Add Account]**.
+1. Klicken **[!UICONTROL Add Account]**.
 1. Verwenden Sie das **[!UICONTROL People-Based Platform]** Dropdownmenü, um die Plattform auszuwählen, mit der Sie die Integration konfigurieren möchten.
    ![people-based-platform](assets/pbd-add.png)
 1. Klicken Sie auf **[!UICONTROL Confirm]** , um zur Authentifizierungsseite der ausgewählten Plattform umgeleitet zu werden.
-1. Nachdem Sie sich bei Ihrem Social-Plattform-Konto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!UICONTROL Confirm]**.
+1. Nachdem Sie sich bei Ihrem Social-Plattformkonto authentifiziert haben, werden Sie zum Audience-Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!UICONTROL Confirm]**.
 1. Audience Manager zeigt oben auf der Seite eine Benachrichtigung an, um Sie darüber zu informieren, ob das Konto erfolgreich hinzugefügt wurde. Mit der Benachrichtigung können Sie auch eine E-Mail-Adresse hinzufügen, um Benachrichtigungen zu erhalten, wenn die Social-Plattform-Authentifizierung demnächst abläuft.
 
 >[!IMPORTANT]
@@ -151,15 +153,15 @@ Verwenden Sie zum Erstellen neuer Zielgruppensegmente den [Segmentaufbau](../seg
 
 ## Schritt 6: Erstellen eines benutzerbasierten Ziels {#create-destination}
 
-1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** und klicken Sie auf **[!UICONTROL Create Destination]**.
-1. Geben Sie im **[!UICONTROL Basic Information]** Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
+1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** und klicken Sie auf **[!UICONTROL Create Destination]**.
+1. Geben Sie **[!UICONTROL Basic Information]** im Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
    * **[!UICONTROL Category]**: Integrierte Plattformen;
    * **[!UICONTROL Type]**: Volksansässige;
-   * **[!UICONTROL Platform]**: Wählen Sie die personalbasierte Plattform aus, an die Sie Zielgruppensegmente senden möchten.
+   * **[!UICONTROL Platform]**: Wählen Sie die personalisierte Plattform aus, an die Sie Audiencen senden möchten.
    * **[!UICONTROL Account]**: Wählen Sie das gewünschte Advertiser-Konto aus, das mit der ausgewählten Plattform verknüpft ist.
       ![create-destination](assets/pbd-create-destination.png)
-1. Klicken Sie auf **[!UICONTROL Next]**.
+1. Klicken **[!UICONTROL Next]**.
 1. Wählen Sie **[!UICONTROL Data Export Labels]** das Ziel aus, das Sie für dieses Ziel festlegen möchten.
-1. In the  section, select the data source that contains your hashed data sources.**[!UICONTROL Configuration]**
-1. Wählen Sie im **[!UICONTROL Segment Mappings]** Abschnitt die Segmente aus, die Sie an dieses Ziel senden möchten. Dies sind die Segmente, die Sie in [Schritt 4 - Zielgruppensegmente](people-based-destinations-workflow-combined.md#create-audience-segments)erstellen erstellt haben.
+1. Wählen Sie im **[!UICONTROL Configuration]** Abschnitt die Datenquelle aus, die Ihre Hash-Datenquellen enthält.
+1. Wählen Sie im **[!UICONTROL Segment Mappings]** Abschnitt die Segmente aus, die Sie an dieses Ziel senden möchten. Dies sind die Segmente, die Sie unter [Schritt 4 - Segmente](people-based-destinations-workflow-combined.md#create-audience-segments)erstellen erstellt haben.
 1. Speichern Sie das Ziel.
