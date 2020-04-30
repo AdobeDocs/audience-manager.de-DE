@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Deklarierte IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -36,7 +36,7 @@ Einige Browser und die meisten Mobilgeräte akzeptieren keine Drittanbieter-Cook
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Ereignis-Aufruf</b> </td> 
-   <td colname="col2"> <p>Für die Arbeit benötigen Sie <span class="wintitle"> DIL </span> und den <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identitätsdienst für Adobe Experience Platform </a> auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierte IDs </span> aus der <code> setVisitorID </code> Funktion, die vom <span class="keyword"> Adobe Experience Platform Identity Service bereitgestellt wird, </span> und leitet diese an den <span class="keyword"> Audience Manager weiter </span>. </p> </td> 
+   <td colname="col2"> <p>Für die Arbeit benötigen Sie <span class="wintitle"> DIL </span> und den <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Identitätsdienst für Adobe Experience Platform </a> auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierte IDs </span> aus der <code> setVisitorID </code> Funktion, die vom <span class="keyword"> Adobe Experience Platform Identity Service bereitgestellt wird, </span> und leitet diese an den <span class="keyword"> Audience Manager weiter </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Übereinstimmung-ID</b> </td> 
@@ -187,7 +187,7 @@ Beschreibt die Konfigurationsvariablen, mit denen deklarierte IDs [!UICONTROL DI
 
 <!-- r_dil_declared_id_vars.xml -->
 
-Bei Verwendung mit dem [Adobe Experience Platform-Identitätsdienst](https://marketing.adobe.com/resources/help/en_US/mcvid/)müssen Sie nicht mehr [!UICONTROL declared IDs] mit den veralteten `dpid` und `dpuuid` Variablen weitergeben. Stattdessen [!UICONTROL DIL] verlassen sich die aktuellen Versionen auf die `visitorService` Funktion, um die [!UICONTROL declared IDs] aus der `setCustomerIDs` Funktion in der [!UICONTROL Adobe Experience Platform Identity Service]zu erhalten. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). Sie rufen `visitorService` wie unten gezeigt `DIL.create` an.
+Bei Verwendung mit dem [Adobe Experience Platform-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html)müssen Sie nicht mehr [!UICONTROL declared IDs] mit den veralteten `dpid` und `dpuuid` Variablen weitergeben. Stattdessen [!UICONTROL DIL] verlassen sich die aktuellen Versionen auf die `visitorService` Funktion, um die [!UICONTROL declared IDs] aus der `setCustomerIDs` Funktion in der [!UICONTROL Adobe Experience Platform Identity Service]zu erhalten. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Sie rufen `visitorService` wie unten gezeigt `DIL.create` an.
 
 ```js
 var vDil = DIL.create({
@@ -198,7 +198,7 @@ var vDil = DIL.create({
 });
 ```
 
-Im `namespace` Schlüssel-Wert-Paar `MCORG` ist Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im [!UICONTROL Administration] Abschnitt des [!DNL Experience Cloud] Dashboards. Sie benötigen Administratorrechte, um dieses Dashboard Ansicht. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+Im `namespace` Schlüssel-Wert-Paar `MCORG` ist Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im [!UICONTROL Administration] Abschnitt des [!DNL Experience Cloud] Dashboards. Sie benötigen Administratorrechte, um dieses Dashboard Ansicht. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
 
 ## Veraltete Funktionen {#deprecated-functions}
 
