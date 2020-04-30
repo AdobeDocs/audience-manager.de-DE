@@ -7,7 +7,7 @@ solution: Audience Manager
 title: DIL-Methoden auf Instanzebene
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -719,7 +719,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Namensanforderungen für Schlüsselvariablen](../features/traits/trait-key-name-requirements.md)
 >* [Voraussetzungen für das Präfix für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
->* [Synchronisierungsfunktionen im Identitätsdienst für Adobe Experience Platform](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Synchronisierungsfunktionen im Identitätsdienst für Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL erstellen](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [CORS-Unterstützung im Identitätsdienst für die Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
