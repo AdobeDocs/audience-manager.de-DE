@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zum Targeting
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -23,43 +23,43 @@ faq_targeting.xml
 
  -->
 
-**Wo finde ich eine vollständige Liste der Drittanbieter für Daten, die von Audience Manager unterstützt werden?**
+**Wo finde ich eine vollständige Liste von Drittanbieter für Daten, die von Audience Manager unterstützt werden?**
 
-Eine vollständige Liste der von Drittanbietern unterstützten Datenanbieter finden Sie im [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) [!DNL Audience Manager] .
+Im [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.html) finden Sie eine vollständige Liste der Drittanbieter für Daten, die [!DNL Audience Manager] unterstützt werden.
 
 <br> 
 
-**Sollte ich Daten von Drittanbietern in Audience Manager oder einem DSP verwenden, um Benutzer, die ich noch nie mit Daten von Drittanbietern auf meiner Site gesehen habe, als Ziel anzusehen?**
+**Sollte ich zur Zielgruppe von Benutzern, die ich noch nie mit Daten von Drittanbietern auf meiner Site gesehen habe, Daten von Drittanbietern im Audience Manager oder in einem DSP verwenden?**
 
-Die Antwort hängt von deinen Zielen ab. Wenn Ihre Kampagne zum Beispiel darauf ausgelegt ist, neue Kunden mit Daten von Drittanbietern zu finden, arbeiten Sie direkt mit einem DSP zusammen. Denken Sie daran, dass Audience Manager Daten nur dann mit einem Drittanbieter synchronisiert, wenn dieser Benutzer angezeigt wird. Wenn wir noch nie einen Benutzer gesehen haben, verfügt unser System nicht über Informationen für diesen Besucher. Für Kampagnen, die nur Daten von Drittanbietern für das Targeting von Benutzern verwenden möchten, die noch keine Ihrer Eigenschaften besucht haben, erstellen Sie diese Segmente über das DSP.
+Die Antwort hängt von deinen Zielen ab. Wenn Ihre Kampagne z. B. darauf ausgelegt ist, neue Kunden mit Daten von Drittanbietern zu finden, arbeiten Sie direkt mit einem DSP zusammen. Denken Sie daran, dass Audience Manager Daten nur dann mit einem Drittanbieter synchronisiert, wenn dieser Benutzer angezeigt wird. Wenn wir noch nie einen Benutzer gesehen haben, wird unser System keine Informationen für diesen Site-Besucher haben. Für Kampagnen, die nur Daten von Drittanbietern für die Zielgruppe von Benutzern verwenden möchten, die noch keine Ihrer Eigenschaften besucht haben, erstellen Sie diese Segmente über das DSP.
 
 <br> 
 
 **Kann ich für Einzelpersonen vermarkten?**
 
-Mit Audience Manager können Sie Benutzer zusammenfassen und basierend auf gemeinsamen Attributen oder Eigenschaften auf sie vermarkten. Zur Einhaltung der Branchenvorschriften dürfen [!DNL Audience Manager] Kunden jedoch keine personenbezogenen Daten (PII) an unsere Systeme senden. Daher können Sie keine E-Mail-Adressen, Namen, physischen Adressen usw. verwenden. für Targeting.
+Mit Audience Manager können Sie Benutzer anhand von freigegebenen Attributen oder Eigenschaften mit Aggregaten versehen und für sie vermarkten. Zur Einhaltung der Branchenvorschriften dürfen [!DNL Audience Manager] Kunden jedoch keine personenbezogenen Daten (PII) an unsere Systeme senden. Daher können Sie keine E-Mail-Adressen, Namen, physischen Adressen usw. verwenden. für Targeting.
 
 <br> 
 
 **Wie kann ich das Targeting von Daten sicher gestalten?**
 
-Es wird empfohlen, eine Server-zu-Server-Verbindung zum Datenaustausch mit Ihrer bevorzugten Targeting-Plattform zu verwenden. Audience Manager tauscht Daten mit den meisten der wichtigsten DSPs über Server-zu-Server-Verbindungen aus. Die Übertragung von Server-zu-Server-Daten verhindert, dass andere Akteure Ihre Daten abfangen und diese Zielgruppendaten erneut verkaufen.
+Es wird empfohlen, eine Server-zu-Server-Verbindung zu verwenden, um Daten mit Ihrer bevorzugten Targeting-Plattform auszutauschen. Audience Manager tauscht Daten mit den meisten der wichtigsten DSPs über Server-zu-Server-Verbindungen aus. Die Übertragung von Server-zu-Server-Daten verhindert, dass andere Akteure Ihre Daten abfangen und diese Audiencen erneut verkaufen.
 
 <br> 
 
-**Ist die eindeutige Benutzer-ID (UUID) von Audience Manager durch ID-Synchronisierung direkt auf der Seite an die eindeutige Benutzer-ID eines Anzeigenservers gebunden?**
+**Ist die Unique User ID (UUID) von Audience Manager durch ID-Synchronisierung direkt auf der Seite an die eindeutige Benutzer-ID eines Anzeigenservers gebunden?**
 
-Nein. ID-Synchronisierungen werden für lokale Herausgeber oder Server nicht auf der Seite vorgenommen. Die Audience Manager-UUID wird in das `u=` Feld der Protokolldateien des Anzeigenservers eingefügt. Dies geschieht, wenn das Segment für das Targeting weitergegeben wird. Diese Funktion wird vom DIL-Codemodul ausgeführt. Dies ist der gleiche Mechanismus, mit dem wir die Benutzer-ID des Servers einem Audience Manager-Benutzer für die Segmentleistungsberichterstellung zuordnen können. Wenn jedoch ein Anzeigenserver auf der Site vorhanden ist, werden IDs direkt auf der Seite synchronisiert.
-
-<br> 
-
-**Zählt Audience Manager Benutzer, die sich von verschiedenen Geräten aus anmelden, als ein Unique User oder als verschiedene Unique Users?**
-
-[Deklariertes ID-Targeting](../features/declared-ids.md#declared-id-targeting) hilft Audience Manager bei der Identifizierung eines Besuchers auf mehreren Geräten mit einer einzigen eindeutigen Kennung. Aus der Targeting- oder Zielperspektive betrachtet sind dies jedoch immer noch 2 (oder mehr) Benutzer, da DSPs diese mehreren IDs nicht miteinander in Einklang bringen können.
+Nein. ID-Synchronisierungen werden für lokale Herausgeber oder Server nicht auf der Seite vorgenommen. Die Audience Manager-UUID wird in das `u=` Feld der Protokolldateien des Anzeigenservers eingefügt. Dies geschieht, wenn das Segment für das Targeting weitergegeben wird. Diese Funktion wird vom DIL-Codemodul ausgeführt. Dies ist der gleiche Mechanismus, mit dem wir die Benutzer-ID des Servers einem Audience Manager-Benutzer für den Berichte der Segmentleistung zuordnen können. Wenn jedoch ein Anzeigenserver auf der Site vorhanden ist, werden IDs direkt auf der Seite synchronisiert.
 
 <br> 
 
-**Kann Audience Manager einen Benutzer anhand von Anzeige- und Mobilgeräten identifizieren.**
+**Zählt Audience Manager Benutzer, die sich von verschiedenen Geräten aus anmelden, als einen Unique User oder als verschiedene Unique Users?**
+
+[Deklariertes ID-Targeting](../features/declared-ids.md#declared-id-targeting) hilft Audience Manager bei der Identifizierung eines Besuchers auf mehreren Geräten mit einer einzigen eindeutigen ID. Aus der Targeting- oder Zielperspektive betrachtet sind dies jedoch immer noch 2 (oder mehr) Benutzer, da DSPs diese mehreren IDs nicht miteinander in Einklang bringen können.
+
+<br> 
+
+**Kann Audience Manager Benutzer anhand von Anzeige- und Mobilgeräten identifizieren.**
 
 Ja. Siehe [Deklariertes ID-Targeting](../features/declared-ids.md#declared-id-targeting).
 
@@ -67,15 +67,15 @@ Ja. Siehe [Deklariertes ID-Targeting](../features/declared-ids.md#declared-id-ta
 
 **Kann ich Benutzer mit online erfassten Daten bewerten und sie anhand dieses Modellwerts neu ausrichten?**
 
-Ja. Audience Manager kann Datendateien bereitstellen, mit denen Sie Benutzer bewerten können. Sie müssen jedoch mit anderen Anbietern oder Software zusammenarbeiten, um diese Informationen zu analysieren und zu bewerten. Senden Sie diese Daten in Form von Schlüssel/Wert-Paaren an Audience Manager. Wir können diese Informationen nehmen und an bestehende Benutzerprofile anhängen. Wenden Sie sich an Ihren Partner Solutions-Kundenbetreuer, um diesen Prozess zu überprüfen.
+Ja. Audience Manager kann Datendateien bereitstellen, mit denen Sie Benutzer bewerten können. Sie müssen jedoch mit anderen Anbietern oder Software zusammenarbeiten, um diese Informationen zu analysieren und zu bewerten. Senden Sie diese Daten in Form von Schlüssel/Wert-Paaren an den Audience Manager. Wir können diese Informationen nehmen und an bestehende Profil anhängen. Wenden Sie sich an Ihren Partner Solutions-Kundenbetreuer, um diesen Prozess zu überprüfen.
 
 <br> 
 
 **Wie hoch sind die Löschraten von Cookies in einem bestimmten Zeitraum von 1 bis 2 Monaten?**
 
-Das Löschen von Cookies ist schwer zu messen. Die meisten Cookies werden von einigen wenigen Besuchern gelöscht, die häufig Cookies löschen. Die meisten Browser-Cookies sind jedoch für mindestens 30 Tage stabil, auch wenn einige von ihnen eine begrenzte Lebensdauer haben. Einige Studien deuten darauf hin, dass das Targeting von oberen Trichter, das länger als 30 Tage ist, effektiv 7 % der Zielgruppe im Browser über einen Zeitraum von 30 Tagen eliminiert. Wie Sie wissen, sind 30-Tage-Kampagnen für eine bestimmte kreative Botschaft in der Branche Standard. Nach dem, was wir gesehen haben, ist diese 7%-ige Abnahme korrekt.
+Das Löschen von Cookies ist schwer zu messen. Die meisten Cookies werden von einigen Besuchern gelöscht, die häufig Cookies löschen. Die meisten Browser-Cookies sind jedoch für mindestens 30 Tage stabil, auch wenn einige von ihnen möglicherweise eine begrenzte Lebensdauer haben. Einige Studien deuten darauf hin, dass das Targeting von Hochtrichter, das länger als 30 Tage ist, 7 % der Audience der Browser-Zielgruppe über einen Zeitraum von 30 Tagen effektiv eliminiert. Wie Sie wissen, sind 30-tägige Kampagnen für eine bestimmte kreative Botschaft in der Branche Standard. Nach dem, was wir gesehen haben, ist diese 7%-ige Abnahme korrekt.
 
-Das Löschen von Cookies hat negative Auswirkungen auf die Reichweiten- und Frequenzberechnungen. Daher betonen wir den Wert von Verhaltensdaten, wenn wir versuchen, die wahre Natur von Verbrauchertrends für die Anzeigenkampagnenplanung zu verstehen. Unsere Kunden können Audience Manager-Berichte zur Segmentüberschneidung, optimale Impressionshäufigkeitsberichte und eindeutige Benutzertrends über bestimmte Datumsbereiche hinweg nutzen, um die Kampagnenplanung und optimale Datumsbereiche für die Ausführung von Kampagnen wissenschaftlicher zu gestalten.
+Das Löschen von Cookies hat negative Auswirkungen auf die Reichweiten- und Frequenzberechnungen. Daher betonen wir den Wert von Verhaltensdaten, wenn wir versuchen, die wahre Natur von Verbrauchertrends bei der Planung der Display-Kampagne zu verstehen. Unsere Kunden können Audience Manager-Segmentüberschneidungsberichte, optimale Impressionshäufigkeitsberichte und eindeutige Benutzertrends über bestimmte Datumsbereiche hinweg nutzen, um die Kampagne besser planen und optimale Datumsbereiche für laufende Kampagnen zu erhalten.
 
 <br> 
 
@@ -85,9 +85,9 @@ In der Benutzeroberfläche können Sie das Ablaufintervall für Cookies festlege
 
 <br> 
 
-**Kostet uns die Implementierung eines kreativen Kampagnenkreises in einem Ereignisaufruf mehr?**
+**Kostet uns die Implementierung einer kreativen Kampagne in einem Ereignis-Aufruf mehr?**
 
-Es kommt darauf an. Die Kosten basieren auf Unique Users. Wenn eine Kampagne netto neue Benutzer ergibt, dann ja, das kostet mehr. Wenn Ihre Kampagne Orte erreicht, an denen wir bereits Daten erfassen, dann entstehen keine zusätzlichen Kosten. Wenn Ihre Kampagne auf verwandten Sites läuft, auf denen erhebliche Überschneidungen bestehen, entstehen zusätzliche Kosten für die neuen Unique Users, die wir sehen.
+Es kommt darauf an. Die Kosten basieren auf Unique Users. Wenn eine Kampagne zu neuen Nutzern führt, dann ja, das kostet mehr. Wenn Ihre Kampagne Orte erreicht, an denen wir bereits Daten sammeln, dann gibt es keine zusätzlichen Kosten. Wenn Ihre Kampagne auf verwandten Sites mit erheblichen Überschneidungen ausgeführt wird, entstehen zusätzliche Kosten für die neuen Unique Users, die wir sehen.
 
 <br> 
 
