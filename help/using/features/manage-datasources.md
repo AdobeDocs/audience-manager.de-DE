@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Data Sources verwalten
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -33,7 +33,7 @@ So füllen Sie den [!UICONTROL Data Source Details] Abschnitt aus:
 1. Geben Sie einen Integrationscode ein. Im Allgemeinen sind Integrationscodes optional. Sie sind erforderlich, wenn Sie:
 
    * [Erstellen Sie eine geräteübergreifende Datenquelle](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Verwenden Sie den Identitätsdienst [für Adobe Experience Platform](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+   * Verwenden Sie den Identitätsdienst [für Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/home.html).
    * Arbeiten mit [Profil Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Wählen Sie eine **[!UICONTROL ID Type]**. Zu den ID-Typ-Optionen zählen:
@@ -74,7 +74,7 @@ Löschen Sie eine Datenquelle, die Sie nicht mehr benötigen.
 >Beachten Sie die folgenden Einschränkungen:
 >
 >* Eine [aktive Audience oder eine Datenquelle-synchronisierte Eigenschaft](../features/traits/client-activity-synced-audience-traits.md)kann nicht gelöscht werden.
->* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt es Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Verwenden Sie den [Hauptdienst](https://marketing.adobe.com/resources/help/en_US/mcloud/) , um die Zuordnung dieser Datenquellen aufzuheben.
+>* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt es Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Verwenden Sie den [Hauptdienst](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) , um die Zuordnung dieser Datenquellen aufzuheben.
 
 
 1. Klicken **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
