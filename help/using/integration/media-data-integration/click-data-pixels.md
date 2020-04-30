@@ -6,25 +6,25 @@ solution: Audience Manager
 title: Erfassen von Kampagnen-Klickdaten über Pixelaufrufe
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Die Klick-Tracking ermöglicht die Messung des Besuchereinsatzes während der gesamten Kampagne, da sie Klick-basierte Aktivitäten für Kreative von Drittanbietern erfasst. Ähnlich wie bei der [Impressionserfassung](/help/using/integration/media-data-integration/impression-data-pixels.md)wird ein Ereignisaufruf zur Verarbeitung an die Audience Manager-Datenerfassungsserver ([!UICONTROL DCS]) gesendet. Der Besucher wird dann zur gewünschten Webadresse weitergeleitet.
+Die Klick-Tracking ermöglicht die Messung der Interaktion mit Besuchern in Ihrer gesamten Kampagne, da Klick-basierte Aktivitäten für Kreative von Drittanbietern aufgezeichnet werden. Ähnlich wie bei der [Impressionserfassung](/help/using/integration/media-data-integration/impression-data-pixels.md)wird ein Ereignis-Aufruf zur Verarbeitung an die Audience Manager-Datenerfassungsserver ([!UICONTROL DCS]) gesendet. Der Besucher wird dann an die gewünschte Internetadresse weitergeleitet.
 
 >[!NOTE]
 >
->Wenden Sie sich an Ihren Adobe Audience Manager-Berater oder führen Sie einen Kundenbetreuer, um die exakte URL der jeweiligen Clientdomäne anzuzeigen.
+>Wenden Sie sich an Ihren Adobe Audience Manager-Kundenbetreuer oder den Kundenbetreuer, um die genaue URL der jeweiligen Kundendomäne anzuzeigen.
 
 ## Voraussetzungen
 
 Für Klick-Tracking-Aufrufe sind die folgenden Parameter erforderlich:
 
-* `d_event=click`: Ein Schlüssel-Wert-Paar, das einen Ereignisaufruf als Klickereignis identifiziert.
-* `d_rd=redirect URL`: Ein Schlüssel-Wert-Paar, das eine doppelte Umleitung enthält [!DNL URL]. Wenn Sie ein Online-Kodierungstool verwenden, führen Sie die Zeichenfolge über den Encoder aus und kodieren Sie dann das Ergebnis erneut, damit die Umleitung funktioniert.
+* `d_event=click`: Ein Schlüssel-Wert-Paar, das einen Ereignis-Aufruf als ein click-Ereignis identifiziert.
+* `d_rd=redirect URL`: Ein Schlüssel-Wert-Paar, das eine Dublette-kodierte Umleitung enthält [!DNL URL]. Wenn Sie ein Online-Kodierungstool verwenden, führen Sie die Zeichenfolge über den Encoder aus und kodieren Sie dann das Ergebnis erneut, damit die Umleitung funktioniert.
 
 Darüber hinaus kann der Aufruf Schlüssel-Wert-Paare enthalten, die für die Eigenschaftsqualifikation oder zur Bereitstellung von Daten und Metadaten für andere Berichte verwendet werden können.
 
@@ -44,7 +44,7 @@ Basierend auf dem obigen Beispiel wird der Browser zu folgenden Elementen umgele
 
 ## Unterstützte Makros
 
-Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros. Ein Makro ist eine kleine Einheit von eigenständigem Code, der aktiviert wird, wenn das Anzeigen-Tag zur Kampagnen- und Benutzerverfolgung geladen wird. Die Makros werden zusammen mit dem Ziel weitergeleitet, [!DNL URL]sofern sie mit folgendem Format gekennzeichnet sind: `%macro%`. Einige Schlüssel haben keine Makros und akzeptieren stattdessen einen hartkodierten ID-Wert. Schlüssel, die hartcodierte Werte akzeptieren, sind erforderlich, wenn Sie Daten in den [Zielgruppenoptimierungsberichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)analysieren möchten.
+Klicken Sie auf Ereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros. Ein Makro ist eine kleine Einheit eigenständigen Codes, die aktiviert wird, wenn das Anzeigen-Tag zur Kampagne- und Benutzerverfolgung geladen wird. Die Makros werden zusammen mit dem Ziel weitergeleitet, [!DNL URL]sofern sie mit dem folgenden Format gekennzeichnet sind: `%macro%`. Einige Schlüssel haben keine Makros und akzeptieren stattdessen einen hartkodierten ID-Wert. Schlüssel, die hartcodierte Werte akzeptieren, sind erforderlich, wenn Sie Daten in den [Audiencen-Optimierungsberichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)analysieren möchten.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -63,17 +63,17 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Kein Makro. </p> <p>Akzeptiert einen hartkodierten ID-Wert. </p> </td> 
-   <td colname="col2"> <p>Advertiser-ID.</p> <p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dies nicht mit Audience Manager-Datenquellen in Zusammenhang steht.</p> <p> Erforderlich für Berichte zur <span class="wintitle"> Zielgruppenoptimierung</span> . </p> </td> 
+   <td colname="col2"> <p>Advertiser-ID.</p> <p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dies nicht mit Audience Manager-Datenquellen in Zusammenhang steht.</p> <p> Erforderlich für Berichte zur <span class="wintitle"> Audience-Optimierung</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>Numerische ID für die Geschäftseinheit. </p> <p> Erforderlich für Berichte zur <span class="wintitle"> Zielgruppenoptimierung</span> . </p> </td> 
+   <td colname="col2"> <p>Numerische ID für die Geschäftseinheit. </p> <p> Erforderlich für Berichte zur <span class="wintitle"> Audience-Optimierung</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p> Erforderlich für Berichte zur <span class="wintitle"> Zielgruppenoptimierung</span> . </p> </td> 
+   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p> Erforderlich für Berichte zur <span class="wintitle"> Audience-Optimierung</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -93,7 +93,7 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -163,12 +163,12 @@ Basierend auf dem obigen Beispiel wird der Browser zu folgenden Elementen umgele
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## Zusätzliche Funktionen - Zielgruppenoptimierungsberichte
+## Zusätzliche Funktionen - Berichte zur Audience-Optimierung
 
-Sie können Pixelaufrufe verwenden, um die [Zielgruppenoptimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)zu aktivieren. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) , wenn Sie Pixel verwenden möchten, um Berichte zu aktivieren.
+Sie können Pixelaufrufe verwenden, um die [Audience-Optimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)zu aktivieren. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) , wenn Sie Pixel verwenden möchten, um Berichte zu aktivieren.
 
 
 >[!MORELIKETHIS]
 >
->* [Daten- und Metadatendateien für Zielgruppenoptimierungsberichte](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Daten- und Metadatendateien für Audiencen-Optimierungsberichte](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
