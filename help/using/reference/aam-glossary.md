@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossar
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -60,7 +60,7 @@ In der [ansprechbaren Audience](/help/using/features/addressable-audiences.md)st
 
 **Kundenattribute**
 
-See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
+See [Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
 
 <br> 
 
@@ -112,7 +112,7 @@ Die [!UICONTROL Data Integration Library] ist eine API-Bibliothek, die zur Erfas
 
 **Experience Cloud ID (ECID)**
 
-Zuvor die [!DNL Marketing Cloud] ID benannt (MID oder MCID). Die [!DNL Experience Cloud] ID ist für den ID-Dienst von zentraler Bedeutung. Es handelt sich um eine eindeutige und beständige Kennung für Ihre Site-Besucher. Siehe Cookies und den [Adobe Experience Platform-Identitätsdienst](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
+Zuvor die [!DNL Marketing Cloud] ID benannt (MID oder MCID). Die [!DNL Experience Cloud] ID ist für den ID-Dienst von zentraler Bedeutung. Es handelt sich um eine eindeutige und beständige Kennung für Ihre Site-Besucher. Siehe Cookies und den [Adobe Experience Platform-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
 <br> 
 
@@ -223,7 +223,7 @@ In der [ansprechbaren Audience](/help/using/features/addressable-audiences.md)st
 
 **Segmentgesamtheit**
 
-In der [ansprechbaren Audience](/help/using/features/addressable-audiences.md)stellt diese Metrik eine Zählung aller Geräte dar, die während der Berichtausblicksphase zu Ihrem Segment gehörten.
+In der [ansprechbaren Audience](/help/using/features/addressable-audiences.md)stellt diese Metrik die Anzahl aller Geräte dar, die während der Berichtausblicksphase zu Ihrem Segment gehörten.
 
 <br> 
 
@@ -269,7 +269,7 @@ TTL definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft b
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) .
+Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
 
 ## W-X-Y-Z {#w-z}
 
