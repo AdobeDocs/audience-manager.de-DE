@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Kundendatenfeeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -105,7 +105,7 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die <span class="keyword"> Experience Cloud</span> -ID (MID), die dem Site-Besucher zugewiesen ist. Siehe auch <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst</a>für die Adobe Experience Platform. </p> </td> 
+   <td colname="col3"> <p>Die <span class="keyword"> Experience Cloud</span> -ID (MID), die dem Site-Besucher zugewiesen ist. Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst</a>für die Adobe Experience Platform. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -149,7 +149,7 @@ Listen und definiert die Datenstruktur einer [!UICONTROL CDF] Datei. Dazu gehör
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feldsequenz </p> </td> 
-   <td colname="col2"> <p> <p>Wichtig: Audience Manager <span class="keyword"></span> behält sich das Recht vor, neue Felder am Ende der CDF-Datei in zukünftigen Versionen hinzuzufügen. Das bedeutet, dass das technische Design Ihres Dateianalysesystems keine feste Anzahl von Spalten annehmen sollte (obwohl es eine feste Reihenfolge für vorhandene Spalten annehmen kann). </p> </p> <p>Daten in Ihrer CDF-Datei werden in der unten stehenden Reihenfolge angezeigt. </p> <p> 
+   <td colname="col2"> <p> <p>Wichtig: <span class="keyword"> Audience Manager</span> behält sich das Recht vor, neue Felder am Ende der CDF-Datei in zukünftigen Versionen hinzuzufügen. Das bedeutet, dass das technische Design Ihres Dateianalysesystems keine feste Anzahl von Spalten annehmen sollte (obwohl es eine feste Reihenfolge für vorhandene Spalten annehmen kann). </p> </p> <p>Daten in Ihrer CDF-Datei werden in der unten stehenden Reihenfolge angezeigt. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Ereignis </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Gerät </li> 
@@ -159,7 +159,7 @@ Listen und definiert die Datenstruktur einer [!UICONTROL CDF] Datei. Dazu gehör
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Anfrageparameter </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-Adresse </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID). Siehe auch <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst für die Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID). Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst für die Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle Segmente </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle Eigenschaften </li> 
      </ol> </p> <p>Feldbeschreibungen finden Sie unter Inhalt des <a href="#cdf-defined"> Kundendatenfeeds definiert</a>. </p> </td> 
