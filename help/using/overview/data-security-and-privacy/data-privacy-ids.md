@@ -6,20 +6,20 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
 title: Audience Manager-IDs
 translation-type: tm+mt
-source-git-commit: 30352749e926d5730e9cc8beef3936c9ed6d2986
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Audience Manager-IDs {#aam-ids}
 
-Bei der Übermittlung von [Datenschutzanforderungen](data-privacy-requests.md) an Adobe Audience Manager müssen Sie eine der unten aufgeführten IDs (IDs) einschließen. Weitere Informationen zu den ID-Formaten finden Sie in unserem [Index der Audience Manager-IDs](../../reference/ids-in-aam.md).
+Bei der Übermittlung von [Datenschutzanforderungen](data-privacy-requests.md) an Adobe Audience Manager müssen Sie eine der unten aufgeführten IDs (IDs) angeben. Weitere Informationen zu den ID-Formaten finden Sie in unserem [Index der Audience Manager-IDs](../../reference/ids-in-aam.md).
 
-##  Adobe Audience Manager Unique User ID
+## Adobe Audience Manager Unique User ID
 
 * **Benutzer-ID**: `aam_uuid`
 * **Definition**: Adobe Audience Manager Unique User ID
-* **Namespace-ID**: 0
+* **Namensraum-ID**: 0
 
 **JSON-Beispiel**:
 
@@ -77,7 +77,7 @@ Bei der Übermittlung von [Datenschutzanforderungen](data-privacy-requests.md) a
 
 * **Benutzer-ID**: `mid`
 * **Definition**: [!DNL Adobe Experience Cloud ID], früher bekannt als [!DNL Visitor ID] oder [!DNL Marketing Cloud ID]
-* **Namespace-ID**: 4
+* **Namensraum-ID**: 4
 
 >[!NOTE]
 >
@@ -135,9 +135,9 @@ Bei der Übermittlung von [Datenschutzanforderungen](data-privacy-requests.md) a
 
 **Benutzer-ID**: `cid`
 
-**Definition**: Kunden-ID, z. B. ein Cookie, das Sie für anonyme Sitebesucher einrichten, eine [!DNL CRM] ID eines Offline-Systems oder ein Hash-Benutzername.
+**Definition**: Kunden-ID, z. B. ein für anonyme Site-Besucher eingerichtetes Cookie, eine [!DNL CRM] ID eines Offline-Systems oder ein Hash-Benutzername.
 
-**Namespace-ID**: Kundenspezifisch. Bitte finden Sie es in Ihrer Audience Manager-Instanz.
+**Namensraum-ID**: Kundenspezifisch. Bitte finden Sie es in Ihrer Audience Manager-Instanz.
 
 **JSON-Beispiel**:
 
@@ -183,7 +183,7 @@ Weitere Informationen finden Sie unter [Globale Datenquellen](../../features/glo
 
 >[!IMPORTANT]
 >
-> Wenn Sie Mobile verwenden, [!DNL SDK]sollten Sie außerdem die Experience Cloud ID (`MID`) zusammen mit mobilen Anzeigen-IDs senden, um vollständige Antworten auf die Fragen "Zugriff"und "Löschen"zu erhalten.
+> Wenn Sie Mobile verwenden, [!DNL SDK]sollten Sie außerdem die Experience Cloud ID (`MID`) zusammen mit mobilen Anzeigen-IDs senden, um vollständige Antworten auf die Fragen &quot;Zugriff&quot;und &quot;Löschen&quot;zu erhalten.
 
 **JSON-Beispiel**:
 
@@ -214,9 +214,9 @@ Weitere Informationen finden Sie unter [Globale Datenquellen](../../features/glo
 
 **Benutzer-ID**: `d_cid_ic`
 
-**Definition**: Ein Integrationscode für die Datenquelle. Dies kann anstelle der Datenquellen-ID/Namespace-ID in der [!DNL API] Anforderung verwendet [!DNL Adobe Experience Cloud Privacy Core Service]werden.
+**Definition**: Ein Integrationscode für die Datenquelle. Dies kann anstelle der Datenquellen-ID/Namensraum-ID in der [!DNL API] Anforderung verwendet [!DNL Adobe Experience Cloud Privacy Core Service]werden.
 
-**Namespace-ID**: Nicht anwendbar
+**Namensraum-ID**: Nicht anwendbar
 
 **JSON-Beispiel**:
 
