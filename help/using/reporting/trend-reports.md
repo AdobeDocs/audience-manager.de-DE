@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trendberichte
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 760818663ff3eb32c6de876c756697e1d9034369
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -95,6 +95,10 @@ Beim Filtern der Ergebnisse nach [!UICONTROL Cross-Device ID]:
 ![trend-report-properties](assets/trend-report-traits.png)
 
 Zeroes geben an, dass für diesen Tag keine Daten gesammelt [!DNL Audience Manager] wurden. Leere Einträge weisen darauf hin, dass die Eigenschaft nicht vorhanden war.
+
+Sehen Sie sich das unten stehende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Trendberichtsergebnisse für Segmente {#segment-report-results-traits}
 
