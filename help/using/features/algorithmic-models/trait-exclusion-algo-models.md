@@ -5,7 +5,7 @@ seo-title: Algorithmischer Modelleigenschaftsausschluss
 title: Algorithmischer Modelleigenschaftsausschluss
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -47,6 +47,10 @@ Verwenden Sie den Arbeitsablauf zum [Erstellen eines Modells](../../features/alg
 Wenn Sie Videolehrgänge bevorzugen, sehen Sie sich unsere Videodemonstration für den Eigenschaftsausschluss an:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+
+Sehen Sie sich außerdem das unten stehende Video an, um sich ausführlich anzusehen, wie geräteübergreifende Metriken funktionieren.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Wichtige Aspekte und Einschränkungen {#important-aspects-and-limitations}
 
