@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segmentaufbau
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -52,6 +52,10 @@ Beginn durch Anzeigen des Videos zum [Erstellen von Segmenten im Audience Manage
 1. *(Optional)* Ordnen Sie ein Segment einem Ziel im Abschnitt [Zielzuordnung](../../features/segments/segment-builder.md#segment-builder-controls-destinations) zu:
    * Suchen Sie nach dem Ziel und klicken Sie auf **[!UICONTROL Add Destination]**. Beachten Sie, dass das Ziel bereits vorhanden sein muss, bevor Sie es zu einem Segment hinzufügen können.
    * Klicken Sie **[!UICONTROL Save]** nach Abschluss des Vorgangs auf .
+
+Sehen Sie sich das unten stehende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Segmentaufbau-Steuerelemente: Abschnitt &quot;Grundlegende Informationen&quot; {#segment-builder-controls-basics}
 
