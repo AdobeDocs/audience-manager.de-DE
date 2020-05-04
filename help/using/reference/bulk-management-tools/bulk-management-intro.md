@@ -1,13 +1,13 @@
 ---
 description: Mit den Massenverwaltungswerkzeugen können Sie mehrere Objekte gleichzeitig mit einem einzigen Vorgang erstellen und verwalten. Mit den Massenverwaltungswerkzeugen können Sie mit Datenquellen, abgeleiteten Signalen, Zielen, Ordnern, Segmenten und Eigenschaften arbeiten.
-keywords: baaam;BAAAM
+keywords: baaam;BAAAM;download baaam
 seo-description: Mit den Massenverwaltungswerkzeugen können Sie mehrere Objekte gleichzeitig mit einem einzigen Vorgang erstellen und verwalten. Mit den Massenverwaltungswerkzeugen können Sie mit Datenquellen, abgeleiteten Signalen, Zielen, Ordnern, Segmenten und Eigenschaften arbeiten.
 seo-title: Erste Schritte mit der Massenverwaltung
 solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
 
 ---
 
@@ -32,14 +32,14 @@ Diese Funktion verwendet eine Microsoft Excel-Tabelle mit Makros, die sichere, a
 
 ## Herunterladen{#download}.
 
-Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20200311.xlsm)**herunter.
+Laden Sie das aktuelle Arbeitsblatt **[hier](assets/BAAAM_V2_20200502.xlsm)**herunter.
 
 ## Voraussetzungen {#prereqs}
 
 Zur Verwendung der [!DNL Bulk Management Tools]Variablen benötigen Sie Folgendes:
 
 * Ihre [!DNL Experience Cloud] Anmeldung. Als Kunde sollten Sie bereits über diese Anmeldeinformationen verfügen.
-* Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](assets/BAAAM_V2_20200311.xlsm) herunter, um die neueste Version zu erhalten.
+* Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](assets/BAAAM_V2_20200502.xlsm) herunter, um die neueste Version zu erhalten.
 * Microsoft Excel wird auf [!DNL macOS] oder 64-Bit ausgeführt [!DNL Microsoft Windows]. Es wird empfohlen, die neueste Version von Microsoft Excel zu verwenden.
 * Wenn Sie das Arbeitsblatt öffnen, müssen Sie Makros **** aktivieren, damit das Arbeitsblatt funktioniert [!DNL Bulk Management Tools] .
 
