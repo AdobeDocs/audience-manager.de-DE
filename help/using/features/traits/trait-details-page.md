@@ -5,9 +5,12 @@ seo-title: Eigenschaftendetailseite
 solution: Audience Manager
 title: Eigenschaftendetailseite
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: identity type breakdown, identity breakdown, audience identity reporting
+keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 0%
 
 ---
 
@@ -37,12 +40,20 @@ Der Bericht [!UICONTROL Trait Graph] enthält Leistungsmetriken auf einen Blick 
 
 [!UICONTROL Unique Trait Realizations] stellen eine Anzahl individueller Benutzer dar, die ihr Profil über einen bestimmten Zeitraum mit dieser Eigenschaft versehen haben. Die [!UICONTROL Total Trait Population] gibt die Anzahl der Unique Users an, die derzeit für diese Eigenschaft qualifiziert sind.
 
-* Bei regelbasierten Eigenschaften erfolgt die Qualifizierung von Eigenschaften in Echtzeit, da Benutzer sich für eine Eigenschaft in ihrem Browser qualifizieren.
-* Bei Eigenschaften, die nicht an Bord sind, erfolgt die Qualifizierung der Eigenschaften nach der Verarbeitung einer eingehenden Datei, d. h. die eingehende Datei wird in den Audience Manager [](../../faq/faq-inbound-data-ingestion.md) eingespeist, und zwar dann, wenn die Eigenschaftsqualifikation erfolgt.
+Bei regelbasierten Eigenschaften erfolgt die Qualifizierung von Eigenschaften in Echtzeit, da Benutzer sich für eine Eigenschaft in ihrem Browser qualifizieren.
+
+Bei Eigenschaften, die nicht an Bord sind, erfolgt die Qualifizierung der Eigenschaften nach der Verarbeitung einer eingehenden Datei, d. h. die eingehende Datei wird in den Audience Manager [](../../faq/faq-inbound-data-ingestion.md) eingespeist, und zwar dann, wenn die Eigenschaftsqualifikation erfolgt.
+
+Die [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
+
+* **[!UICONTROL Show results by]**
+   * **[!UICONTROL Cross-Device ID]**: Wählen Sie diese Option, um die Ergebnisse für Eigenschaften anzuzeigen, die Daten für authentifizierte Profil erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt, und es werden keine Daten im [!UICONTROL Device ID] Bericht angezeigt.
+   * **[!UICONTROL Device ID]**: Wählen Sie diese Option, um die Ergebnisse für Eigenschaften anzuzeigen, die Daten für Geräte-Profil erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Device ID] Bericht angezeigt, und es werden keine Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt.
+
+      ![trait-graph](assets/trait-summary.png)
+
 * **[!UICONTROL Unique Trait Realizations]**: Anzahl der Unique Users, die dieses Merkmal ihrem Profil über einen bestimmten Zeitraum hinzugefügt haben.
 * **[!UICONTROL Total Trait Population]**: Die Anzahl der Unique Users, die derzeit für diese Eigenschaft qualifiziert sind.
-
-   ![trait-graph](assets/trait-summary.png)
 
 * **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei wichtigsten geräteübergreifenden Datenquellen mit der höchsten Bevölkerungszahl, die sich für die Eigenschaft qualifiziert haben, in absteigender Reihenfolge. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die sich für die Eigenschaft qualifiziert haben, aus den geräteübergreifenden Datenquellen, die nicht zu den drei oberen gehören. Dieser Bericht wird nur angezeigt, wenn Sie im [!UICONTROL Show Results By] Dropdown-Menü oben rechts auf der Seite die Option Geräteübergreifende ID auswählen. Die standardmäßige Dropdown-Option ist [!UICONTROL Device ID]die, bei der dieser Bericht nicht angezeigt wird.
 
