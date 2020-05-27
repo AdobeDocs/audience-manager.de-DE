@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Liste und Einstellungen für Data Sources
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 1%
 
 ---
 
@@ -96,6 +99,10 @@ Das [!UICONTROL Data Source Settings] enthält die unten aufgeführten Steuerele
 ### Einstellungen für eingehende Datenquelle
 
 Aktivieren Sie das **[!UICONTROL Inbound]** Kontrollkästchen, wenn Ihre Datenquelle für den Empfang von Eingangsdaten entwickelt wurde. Wenn Sie das **[!UICONTROL Inbound]** Kontrollkästchen aktivieren, stehen Ihnen 2 weitere Kontrollgruppen zur Verfügung, die nachfolgend beschrieben werden.
+
+>[!NOTE]
+>
+>Das **[!UICONTROL Inbound]** Kontrollkästchen dient nur zum Anzeigen oder Ausblenden der unten beschriebenen Datenquellen-Steuerelemente. Die Aufhebung der **[!UICONTROL Inbound]** Option hat keinerlei Auswirkungen auf die Datenerfassung. Ihre eingebetteten Daten werden unabhängig von der aktivierten Option verarbeitet.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
