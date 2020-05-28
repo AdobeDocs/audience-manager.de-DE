@@ -7,7 +7,7 @@ title: Eigenschaftendetailseite
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: c761682f31c777368a21744b21d7302829007c66
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Die [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
    * **[!UICONTROL Cross-Device ID]**: Wählen Sie diese Option, um die Ergebnisse für Eigenschaften anzuzeigen, die Daten für authentifizierte Profil erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt, und es werden keine Daten im [!UICONTROL Device ID] Bericht angezeigt.
    * **[!UICONTROL Device ID]**: Wählen Sie diese Option, um die Ergebnisse für Eigenschaften anzuzeigen, die Daten für Geräte-Profil erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Device ID] Bericht angezeigt, und es werden keine Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt.
 
-      ![trait-graph](assets/trait-summary.png)
+      ![trait-graph](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**: Anzahl der Unique Users, die dieses Merkmal ihrem Profil über einen bestimmten Zeitraum hinzugefügt haben.
 * **[!UICONTROL Total Trait Population]**: Die Anzahl der Unique Users, die derzeit für diese Eigenschaft qualifiziert sind.
