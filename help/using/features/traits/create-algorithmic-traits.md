@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Erstellen algorithmischer Eigenschaften
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -17,26 +20,26 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 Gehen Sie wie folgt vor, um eine algorithmische Eigenschaft zu erstellen [!UICONTROL Traits] und führen Sie folgende Schritte aus:
 
-1. Klicken Sie auf **[!UICONTROL Create New Trait]** und wählen Sie **[!UICONTROL Algorithmic]** aus dem Dropdownmenü.
-1. Im Abschnitt [Grundlegende Informationen](../../features/traits/create-onboarded-rule-based-traits.md)
+1. Klicken Sie auf **[!UICONTROL Create New Trait]** und wählen Sie **[!UICONTROL Algorithmic]** aus dem Dropdown-Menü.
+1. Im Abschnitt &quot; [Grundlegende Informationen](../../features/traits/create-onboarded-rule-based-traits.md) &quot;
    * Benennen Sie die Eigenschaft.
    * Wählen Sie eine Datenquelle aus.
-   * Wählen Sie einen Speicherordner aus.
+   * Wählen Sie einen Ordner &quot;Datenspeicherung&quot;.
 1. Erweitern Sie den [!UICONTROL Configuration] Bereich und klicken Sie auf **[!UICONTROL Browse All Models]**.
 Dadurch wird ein neues Fenster geöffnet, in dem Sie das Modell auswählen können, das Sie mit der Eigenschaft verwenden möchten.
 1. Wählen Sie ein Modell aus und klicken Sie auf **[!UICONTROL Add Selected Model to Trait]**.
 Durch Hinzufügen des Modells werden die Einstellungen für Reichweite und Genauigkeit verfügbar gemacht.
-1. Wählen Sie als Ziel Reichweite oder Genauigkeit aus und wählen Sie einen Wert aus den entsprechenden Dropdownmenüs. Click **[!UICONTROL Save]** when done.
+1. Wählen Sie als Ziel Reichweite oder Genauigkeit aus und wählen Sie einen Wert aus den entsprechenden Dropdownmenüs. Klicken Sie **[!UICONTROL Save]** nach Abschluss des Vorgangs auf .
 
 ## Konfigurationseinstellungen für algorithmische Eigenschaften {#configure-settings}
 
-In [!UICONTROL Trait Builder]diesem Abschnitt können Sie einem Merkmal ein algorithmisches Modell zuordnen [!UICONTROL Configuration] . Um den Prozess zur Erstellung algorithmischer Eigenschaften abzuschließen, wählen Sie ein Modell aus und wählen Sie ein Ziel für die Reichweite oder Genauigkeit.
+In [!UICONTROL Trait Builder]diesem Abschnitt können Sie einem Merkmal ein algorithmisches Modell [!UICONTROL Configuration] zuordnen. Um den Prozess zur Erstellung algorithmischer Eigenschaften abzuschließen, wählen Sie ein Modell aus und wählen Sie ein Ziel für die Reichweite oder Genauigkeit.
 
 ### Voraussetzungen
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Erstellen Sie ein algorithmisches Modell](../../features/algorithmic-models/create-model.md#build-model).
+* [Erstellen Sie ein Look-Alike-Modell](../../features/algorithmic-models/create-model.md).
 * Warten Sie, bis die Benachrichtigungs-E-Mail, in der Sie wissen, dass die Modelldatenausführung abgeschlossen ist, gesendet wurde.
 * Füllen Sie die erforderlichen Felder im Abschnitt [Grundlegende Informationen](../../features/traits/create-onboarded-rule-based-traits.md) aus.
 
