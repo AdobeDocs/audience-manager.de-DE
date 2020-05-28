@@ -1,27 +1,30 @@
 ---
-description: Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen speziellen Amazon S3-Ordner für Ihr Audience Manager-Konto senden. Informationen zu Bereitstellungs-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
-seo-description: Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen speziellen Amazon S3-Ordner für Ihr Audience Manager-Konto senden. Informationen zu Bereitstellungs-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
-seo-title: Bereitstellungsmethoden für Metadatendateien
+description: Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen Amazon S3-Ordner für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+seo-description: Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen Amazon S3-Ordner für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+seo-title: Versand-Methoden für Metadatendateien
 solution: Audience Manager
-title: Bereitstellungsmethoden für Metadatendateien
+title: Versand-Methoden für Metadatendateien
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
 
-# Bereitstellungsmethoden für Metadatendateien{#delivery-methods-for-metadata-files}
+# Versand-Methoden für Metadatendateien{#delivery-methods-for-metadata-files}
 
-Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen speziellen [!DNL Amazon S3] Ordner für Ihr Audience Manager-Konto senden. Informationen zu Bereitstellungs-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen speziellen [!DNL Amazon S3] Ordner für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
 
 >[!IMPORTANT]
 >
-> Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützung, um einen [!DNL Amazon S3] Ordner für Ihre Metadatendateien einzurichten.
+> Wenden Sie sich an Ihren Audience Manager-Berater oder an den Kundendienst, um einen [!DNL Amazon S3] Ordner für Ihre Metadatendateien einzurichten.
 
-## Syntax und Beispiel des Bereitstellungspfads {#syntax}
+## Versand-Pfadsyntax und Beispiel {#syntax}
 
-Daten werden für jeden Kunden in einem [!DNL Amazon S3] Verzeichnis in einem separaten Namespace gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Beachten Sie, dass spitze Klammern einen variablen Platzhalter `<>` angeben. Die anderen Elemente sind Konstanten und bleiben unverändert.
+Die Daten werden in einem separaten Namensraum für jeden Kunden in einem [!DNL Amazon S3] Verzeichnis gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Beachten Sie, dass spitze Klammern einen variablen Platzhalter `<>` angeben. Die anderen Elemente sind Konstanten und bleiben unverändert.
 
 **Syntax:**
 
@@ -37,14 +40,14 @@ Daten werden für jeden Kunden in einem [!DNL Amazon S3] Verzeichnis in einem se
 
 <br> 
 
-In der folgenden Tabelle werden diese Elemente in einem Dateibereitstellungspfad definiert.
+In der folgenden Tabelle werden diese Elemente in einem Dateipfad definiert.
 
 
 | Dateiparameter | Beschreibung |
 ---------|----------|
-| `.../log_ingestion/` | Dies ist der Anfang des Ordnerspeicherpfads. Sie erhalten den vollständigen Pfad, wenn alles eingerichtet ist. |
+| `.../log_ingestion/` | Dies ist der Beginn des Ordnerpfads für die Datenspeicherung. Sie erhalten den vollständigen Pfad, wenn alles eingerichtet ist. |
 | `pid=<AAM ID>` | Dieses Schlüssel-Wert-Paar enthält Ihre Audience Manager-Kunden-ID. |
-| `dpid=<d_src>` | Dieses Schlüssel-Wert-Paar enthält die Datenquelle-ID, die bei einem Ereignisaufruf weitergegeben wird. Die Datenquellen-ID ist der Wert, der den gesamten Inhalt Ihrer Datei mit den tatsächlichen Daten verknüpft, zu denen sie gehört. </br> Angenommen, Sie haben ein kreatives Element mit der ID 123 und dem Namen &quot;Werbetreibende Kreative A&quot;. Da ein Ereignisaufruf nur in der ID weitergegeben wird, müssen Sie &quot;Werbetreibende Kreative A&quot;in die Metadatendatei aufnehmen. Die Kampagne und das kreative Element gehören zu einer Datenquelle. Die Datenquellen-ID verbindet diese und ermöglicht es uns, Dateiinhalte exakt mit einer ID zu verknüpfen, die bei einem Ereignisaufruf gesendet wird. Siehe [Ermitteln von Dateinamen, Inhalten und Bereitstellungspfaden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-filenames)durch Ereignisaufruf-IDs. |
+| `dpid=<d_src>` | Dieses Schlüssel-Wert-Paar enthält die Datenquellen-ID, die bei einem Ereignis-Aufruf übergeben wird. Die Datenquellen-ID ist der Wert, der den gesamten Inhalt Ihrer Datei mit den tatsächlichen Daten verknüpft, zu denen sie gehört. </br> Angenommen, Sie haben ein kreatives Element mit der ID 123 und dem Namen &quot;Werbetreibende Kreative A&quot;. Da ein Ereignis-Aufruf nur in der ID weitergegeben wird, müssen Sie &quot;Werbetreibende Kreative A&quot;in die Metadatendatei aufnehmen. Kampagne und Kreativelemente gehören zu einer Datenquelle. Die Datenquellen-ID verbindet diese und ermöglicht es uns, Dateiinhalte exakt mit einer ID zu verknüpfen, die bei einem Ereignis-Aufruf gesendet wird. Siehe [Bestimmen von Dateinamen, Inhalten und Versand-Pfaden durch Ereignis-Aufruf-IDs](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
 | `<yyyymmdd_0_child ID>` | Dies ist der Dateiname. Siehe [Benennungskonventionen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). |
 
 ## Dateiverarbeitungszeiten und -aktualisierungen {#processing-times}
