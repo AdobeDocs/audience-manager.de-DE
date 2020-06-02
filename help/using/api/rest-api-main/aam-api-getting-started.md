@@ -8,7 +8,7 @@ uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
 source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1890'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Die REST-APIs von Audience Manager unterstützen zwei Authentifizierungsmethoden
 
 Bevor Sie die JWT-Authentifizierung konfigurieren können, stellen Sie sicher, dass Sie Zugriff auf die [Adobe Developer Console](https://console.adobe.io/)haben. Wenden Sie sich für Zugriffsanfragen an Ihren Unternehmensadministrator.
 
-### Authentifizierung {Authentifizierung}
+### Authentifizierung
 
 Gehen Sie wie folgt vor, um die JWT-Authentifizierung (Service Account) zu konfigurieren:
 
