@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zu Profil Merge Rules and Device Graph
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -259,7 +259,7 @@ Ja. Die Populationsmetrik für das gesamte Segment umfasst die zusätzlichen Ger
 
 Nein.
 
-**Warum werden Segmentexporte nach Adobe Campaign nach dem 16. März 2020 als 0 angezeigt?**
+**Warum sehe ich nach dem 16. März 2020 bei Segmentexporten nach Adobe Campaign eine Segmentpopulation von Null?**
 
 Ende 2019 haben wir eine Reihe von Profil Merge Rules Erweiterungen veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 strikt berücksichtigt. Segmente, die einem Ziel mit geräteübergreifenden IDs zugeordnet sind, produzieren daher in einigen Profil Merge Rules Konfigurationen keine Exporte mehr.
 
