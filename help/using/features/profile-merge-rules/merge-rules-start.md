@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Erste Schritte mit Profil-Zusammenführungsregeln
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 1%
 
 ---
 
@@ -98,6 +101,19 @@ So füllen Sie den [!UICONTROL Proflie Merge Rule Setup] Abschnitt aus:
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
 4. Klicken **[!UICONTROL Save]**.
+
+### Überlegungen zu Adobe Campaign-Zielen mit geräteübergreifenden IDs als Benutzer-ID-Schlüssel {#considerations}
+
+Ende 2019 haben wir eine Reihe von Profil Merge Rules Erweiterungen veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 strikt berücksichtigt. Segmente, die einem Ziel mit geräteübergreifenden IDs zugeordnet sind, produzieren daher in einigen Profil Merge Rules Konfigurationen keine Exporte mehr.
+
+Um die richtige Integration zwischen Ihrer Audience Manager-Instanz und Zielen mithilfe geräteübergreifender IDs, z. B. Adobe Campaign, sicherzustellen, stellen Sie sicher, dass folgende Anforderungen erfüllt sind:
+
+1. Überprüfen Sie die Segmentzusammenführungsregel, die von den Segmenten verwendet wird, die Ihrem Adobe Campaign Deklarierte ID-Ziel zugeordnet sind. Die Profil Merge-Regel muss die [!UICONTROL Last Authenticated Profile] Option verwenden, damit alle authentifizierten Profil in die Exporte einbezogen werden können. Wenn Ihre Profil Merge Rule eine andere Option verwendet, wechseln Sie zu [!UICONTROL Last Authenticated Profile].
+2. Wählen Sie in den Einstellungen für die Profil-Zusammenführungsregel die Datenquelle für das Adobe Campaign Deklariert aus.
+
+>[!NOTE]
+>
+> Für Kunden, die sich in dieser Situation befinden, wurde die Profil Merge Rule-Beschränkung um 1 erhöht, sodass Sie eine dedizierte Profil-Merge-Regel für die Segmente erstellen können, die dem Adobe Campaign Deklarierte ID-Ziel zugeordnet sind, ohne die Profil Merge-Regeln für andere Anwendungsfälle zu ändern.
 
 ## Regelcode zusammenführen konfigurieren {#configure-merge-rule-code}
 
