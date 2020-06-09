@@ -6,23 +6,26 @@ keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager Server-to-Server-Ziele
 translation-type: tm+mt
-source-git-commit: 7a2a42ed3b591e1466adf93f3fd31ce6555775a2
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 58%
 
 ---
 
 
-# Gerätebasierte Zielgruppen im Zielgruppen-Manager
+# Gerätebasierte Ziele im Audience Manager
 
-Diese Seite enthält nur die aktuellen [gerätebasierten Zielorte](/help/using/features/destinations/add-device-based-destinations.md) von Audience Manager. In Audience Manager werden gerätebasierte Ziele auch als Server-zu-Server-Ziele bezeichnet. Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
+Diese Seite enthält nur die aktuellen [gerätebasierten Ziele](/help/using/features/destinations/add-device-based-destinations.md) von Audience Manager. In Audience Manager werden gerätebasierte Ziele auch als Server-zu-Server-Ziele bezeichnet. Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
 
 <br> 
 
 * **Letzte Aktualisierung** = Zeigt das letzte Datum an, an dem ein Update für dieses gerätebasierte Ziel vorgenommen wurde.
 * **Aktualisierungen** = Gibt an, ob Audience Manager Daten in Echtzeit oder im Stapel (1 Tag) an dieses Ziel sendet.
-* **Unsegment** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Regel zur Profilzusammenführung verwendet wird. Die Segmentierung wird auch im Zusammenhang mit GDPR-Löschanforderungen verwendet. Lesen Sie [Profile Merge Rules and Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) and [Audience Manager Partners with Unsegmentierungsfunktionen](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). Audience Manager sendet Segmentinformationen an die unten mit **Ja** gekennzeichneten Ziele.
-* **Das Empfangen von IAB TCF-Zustimmungssignalen** = Das Audience Manager-Plug-in für IAB TCF ermöglicht es Ihnen, die IAB-TCF-Zustimmungszeichenfolge an Aktivierungspartner weiterzuleiten und dabei die Datenschutzeinstellungen der Benutzer zu beachten. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **ICDS** = Diese Spalte listet die Partner auf, die die sofortige geräteübergreifende Unterdrückung unterstützen. Lesen Sie mehr über [sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **Mobilgerät-IDs** = In dieser Spalte werden Partner aufgeführt, die Mobilgeräte-IDs aus Audience Manager empfangen können.
+* **Unsegment** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräte-Profil deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Profil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profil Merge Rule verwendet wird. Die Segmentierung wird auch im Zusammenhang mit GDPR-Löschanforderungen verwendet. Lesen Sie [Profil Merge Rules and Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) and [Audience Manager Partners with Unsegmentation Capability](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). Audience Manager sendet Segmentinformationen an die Ziele, die unten mit **Ja** gekennzeichnet sind.
+* **Das Empfangen von IAB TCF-Zustimmungssignalen** = Das Audience Manager-Plug-in für IAB TCF ermöglicht es Ihnen, die IAB TC-Zeichenfolge an Aktivierung-Partner weiterzuleiten und dabei die Datenschutzentscheidungen der Nutzer zu beachten. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **ICDS** = Diese Spalte Liste die Partner, die eine sofortige geräteübergreifende Unterdrückung unterstützen. Lesen Sie mehr über [sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **Mobilgerät-IDs** = In dieser Spalte werden Listen von Partnern aufgeführt, die Mobilgeräte-IDs von Audience Manager empfangen können.
 
 <br> 
 
@@ -73,7 +76,7 @@ Diese Seite enthält nur die aktuellen [gerätebasierten Zielorte](/help/using/f
 | easyfundraising | 27/06/2019 | 1xday | Nein | Nein | Nein | Ja |
 | Epsilon-Konversant | 03/03/2017 | Echtzeit | Nein | Nein | Nein | Nein |
 | Exponentiell | 27/02/2017 | Echtzeit | Ja | Nein | Ja | Nein |
-| EURES Marketing | 11/04/2017 | 1xday | Ja | Nein | Nein | Nein |
+| Eyereturn-Marketing | 11/04/2017 | 1xday | Ja | Nein | Nein | Nein |
 | EyeView Digital | 14/06/2018 | 1xday | Ja | Nein | Nein | Ja |
 | Fiksu | 03/03/2017 | 1xday | Ja | Nein | Nein | Ja |
 | FlashSprechen | 02/03/2017 | 1xday | Nein | Nein | Nein | Nein |
@@ -82,7 +85,7 @@ Diese Seite enthält nur die aktuellen [gerätebasierten Zielorte](/help/using/f
 | Gamut Media | 03/03/2017 | Echtzeit |  | Nein | Nein |  |
 | Google AdsWords-Anzeige | 02/08/2018 | Echtzeit | Ja | Ja | Nein | Ja |
 | Google DoubleClick Bid Manager (DBM) | 24/04/2017 | Echtzeit | Ja | Ja | Ja | Ja |
-| Google DoubleClick Campaign Manager (DCM fka DFA) | 24/04/2017 | Echtzeit | Ja | Ja | Ja | Ja |
+| Google DoubleClick Kampagne Manager (DCM fka DFA) | 24/04/2017 | Echtzeit | Ja | Ja | Ja | Ja |
 | Google DoubleClick for Publishers (DFP, DFPP) | 24/04/2017 | Echtzeit | Ja | Ja | Ja | Ja |
 | GumGum | 02/06/2017 | 1xday | Ja | Nein | Nein | Nein |
 | Index Exchange (früher Casale Media) | 03/03/2017 | 1xday | Ja | Nein | Nein | Nein |
@@ -94,7 +97,7 @@ Diese Seite enthält nur die aktuellen [gerätebasierten Zielorte](/help/using/f
 | Jivox | 30/08/2017 | Echtzeit | Nein | Nein | Nein | Nein |
 | Saftmobil | 03/03/2017 | 1xday | Ja | Nein | Nein | Ja |
 | Krux | 30/06/2017 | 1xday | Nein | Nein | Nein | Ja |
-| liftoff.io | 09/11/2017 | 1xday | Ja | Nein | Nein | Ja |
+| Liftoff.io | 09/11/2017 | 1xday | Ja | Nein | Nein | Ja |
 | LiveIntent | 17/07/2017 | 1xday | Ja | Nein | Nein | Nein |
 | LiveRail | 20/01/2017 | 1xday |  | Nein | Nein |  |
 | Logicad | 22/06/2017 | 1xday | Nein | Nein | Nein | Nein |
@@ -108,7 +111,7 @@ Diese Seite enthält nur die aktuellen [gerätebasierten Zielorte](/help/using/f
 | Native Touch | 02/03/2017 | 1xday | Ja | Nein | Nein | Ja |
 | Nativo | 27/02/2017 | 2x/Tag | Ja | Nein | Nein | Nein |
 | Mail.ru | 29/04/2019 | 1xday | Ja | Nein | Nein | Ja |
-| Mobile Fackkräfte | 25/05/2018 | 1xday | Ja | Nein | Nein | Ja |
+| Handwerkliche Fachkräfte | 25/05/2018 | 1xday | Ja | Nein | Nein | Ja |
 | Minenräumung | 02/03/2017 | Echtzeit | Nein | Nein | Nein | Nein |
 | Neustar | 28/03/2017 | 1xday | Ja | Nein | Nein | Nein |
 | OnAd | 13/02/2017 | Echtzeit | Ja | Nein | Ja | Nein |
@@ -149,7 +152,7 @@ Diese Seite enthält nur die aktuellen [gerätebasierten Zielorte](/help/using/f
 | Taboola | 03/08/2017 | 1xday | Nein | Ja | Nein | Nein |
 | Band | 03/03/2017 | Echtzeit | Nein | Nein | Nein | Ja |
 | Telaria | 25/04/2019 | 1xday | Ja | Nein | Nein | Ja |
-| Telematik | 03/03/2017 | Echtzeit | Ja | Nein | Nein | Nein |
+| Telematiksysteme | 03/03/2017 | Echtzeit | Ja | Nein | Nein | Nein |
 | The Trade Desk | 03/03/2017 | Echtzeit | Ja | Ja | Ja | Ja |
 | Thnk Realtime | 05/02/2016 | Echtzeit |  | Nein | Nein |  |
 | Tremor-Video | 03/03/2017 | 1xday | Ja | Nein | Nein | Nein |
@@ -158,7 +161,7 @@ Diese Seite enthält nur die aktuellen [gerätebasierten Zielorte](/help/using/f
 | TubeMogul | 03/03/2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | Umschalten/Amobee | 03/03/2027 | Echtzeit | Nein | Nein | Nein | Ja |
 | Twenga | 29/10/2018 | Echtzeit | Ja | Nein | Nein | Nein |
-| Twitter-Zielgruppen | 27/03/2017 | Echtzeit | Ja | Nein | Ja | Nein |
+| Twitter-Audiencen | 27/03/2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | Unterton | 11/07/2017 | 1xday | Nein | Nein | Nein | Nein |
 | Verve | 15/06/2017 | 1xday | Ja | Nein | Nein | Ja |
 | VideoAmp | 03/03/2017 | Echtzeit | Nein | Nein | Nein | Nein |
