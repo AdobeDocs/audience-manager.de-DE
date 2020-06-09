@@ -6,22 +6,25 @@ keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
 translation-type: tm+mt
-source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 59%
 
 ---
 
 
-# Audience Manager-Aktivierungspartner
+# Audience Manager Aktivierung Partner
 
 Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integrationen](/help/using/features/destinations/add-edit-segments.md) .  Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
 
 <br> 
 
-* **Aktualisiert** = Zeigt das letzte Datum an, an dem ein Update für diesen Aktivierungspartner vorgenommen wurde.
-* **Unsegment** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Regel zur Profilzusammenführung verwendet wird. Die Aufhebung der Segmentierung wird auch im Zusammenhang mit GDPR-Löschanforderungen verwendet, die [Profile Merge Rules und Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) und [Audience Manager Partner mit Unsegmentierungsfunktionen](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)lesen. Audience Manager sendet Segmentinformationen an die Ziele, die mit "Ja"gekennzeichnet sind.
-* **Das Empfangen von IAB TCF-Zustimmungssignalen** = Das Audience Manager-Plug-in für IAB TCF ermöglicht es Ihnen, die IAB-TCF-Zustimmungszeichenfolge an Aktivierungspartner weiterzuleiten und dabei die Datenschutzeinstellungen der Benutzer zu beachten. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS** = Diese Spalte listet die Partner auf, die die sofortige geräteübergreifende Unterdrückung unterstützen. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **Mobilgerät-IDs** = In dieser Spalte werden Partner aufgeführt, die Mobilgeräte-IDs aus Audience Manager empfangen können.
+* **Aktualisiert** = Zeigt das letzte Datum an, an dem ein Update für diese Aktivierung-Partnereinrichtung vorgenommen wurde.
+* **Unsegment** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräte-Profil deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Profil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profil Merge Rule verwendet wird. Die Aufhebung der Segmentierung wird auch im Zusammenhang mit GDPR-Löschanforderungen verwendet. Regeln zum Zusammenführen von [Profilen und Prozessen](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) zur Gerätesegmentierung lesen und [Audiencen-Manager-Partner mit Unsegmentierungsfunktionen](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager sendet Segmentinformationen an die Ziele, die mit &quot;Ja&quot;gekennzeichnet sind.
+* **Das Empfangen von IAB TCF-Zustimmungssignalen** = Das Audience Manager-Plug-in für IAB TCF ermöglicht es Ihnen, die IAB TC-Zeichenfolge an Aktivierung-Partner weiterzuleiten und dabei die Datenschutzentscheidungen der Nutzer zu beachten. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = Diese Spalte Liste die Partner, die eine sofortige geräteübergreifende Unterdrückung unterstützen. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **Mobilgerät-IDs** = In dieser Spalte werden Listen von Partnern aufgeführt, die Mobilgeräte-IDs von Audience Manager empfangen können.
 
 <br> 
 
@@ -69,7 +72,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | Deponie (FKA Media6) | 02/03/2017 | Ja | Nein | Nein | Ja |
 | Epsilon-Konversant | 03/03/2017 | Nein | Nein | Nein | Nein |
 | Exponentiell | 27/02/2017 | Ja | Nein | Ja | Nein |
-| EURES Marketing | 11/04/2017 | Ja | Nein | Nein | Nein |
+| Eyereturn-Marketing | 11/04/2017 | Ja | Nein | Nein | Nein |
 | EyeView Digital | 14/06/2018 | Ja | Nein | Nein | Ja |
 | Fiksu | 03/03/2017 | Ja | Nein | Nein | Ja |
 | FlashSprechen | 02/03/2017 | Nein | Nein | Nein | Nein |
@@ -78,7 +81,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | Gamut Media | 03/03/2017 |  | Nein | Nein |  |
 | Google AdsWords-Anzeige | 02/08/2018 | Ja | Ja | Nein | Ja |
 | Google DoubleClick Bid Manager (DBM) | 24/04/2017 | Ja | Ja | Ja | Ja |
-| Google DoubleClick Campaign Manager (DCM fka DFA) | 24/04/2017 | Ja | Ja | Ja | Ja |
+| Google DoubleClick Kampagne Manager (DCM fka DFA) | 24/04/2017 | Ja | Ja | Ja | Ja |
 | Google DoubleClick for Publishers (DFP, DFPP) | 24/04/2017 | Ja | Ja | Ja | Ja |
 | GumGum | 02/06/2017 | Ja | Nein | Nein | Nein |
 | Index Exchange (früher Casale Media) | 03/03/2017 | Ja | Nein | Nein | Nein |
@@ -90,7 +93,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | Jivox | 30/08/2017 | Nein | Nein | Nein | Nein |
 | Saftmobil | 03/03/2017 | Ja | Nein | Nein | Ja |
 | Krux | 30/06/2017 | Nein | Nein | Nein | Ja |
-| liftoff.io | 09/11/2017 | Ja | Nein | Nein | Ja |
+| Liftoff.io | 09/11/2017 | Ja | Nein | Nein | Ja |
 | LiveIntent | 17/07/2017 | Ja | Nein | Nein | Nein |
 | LiveRail | 20/01/2017 |  | Nein | Nein |  |
 | Logicad | 22/06/2017 | Nein | Nein | Nein | Nein |
@@ -104,7 +107,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | Native Touch | 02/03/2017 | Ja | Nein | Nein | Ja |
 | Nativo | 27/02/2017 | Ja | Nein | Nein | Nein |
 | Mail.ru | 29/04/2019 | Ja | Nein | Nein | Ja |
-| Mobile Fackkräfte | 25/05/2018 | Ja | Nein | Nein | Ja |
+| Handwerkliche Fachkräfte | 25/05/2018 | Ja | Nein | Nein | Ja |
 | Minenräumung | 02/03/2017 | Nein | Nein | Nein | Nein |
 | Neustar | 28/03/2017 | Ja | Nein | Nein | Nein |
 | OnAd | 13/02/2017 | Ja | Nein | Ja | Nein |
@@ -129,7 +132,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | AUSFÜHREN | 17/02/2017 | Ja | Nein | Nein | Nein |
 | Sabio Mobile | 17/02/2017 | Nein | Nein | Nein | Ja |
 | Simpli.fi | 17/02/2017 | Nein | Nein | Nein | Ja |
-| Sizmek Audience Hub | 17/02/2017 | Ja | Nein | Nein |  |
+| Sizmek-Audience-Hub | 17/02/2017 | Ja | Nein | Nein |  |
 | Slipper | 04/09/2018 | Ja | Nein | Nein | Ja |
 | Smart Adserver | 31/07/2017 | Ja | Nein | Ja | Ja |
 | So-net Media Networks Logcad |  | Ja | Nein | Nein |  |
@@ -145,7 +148,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | Taboola | 03/08/2017 | Nein | Ja | Nein | Nein |
 | Band | 03/03/2017 | Nein | Nein | Nein | Ja |
 | Telaria | 25/04/2019 | Ja | Nein | Nein | Ja |
-| Telematik | 03/03/2017 | Ja | Nein | Nein | Nein |
+| Telematiksysteme | 03/03/2017 | Ja | Nein | Nein | Nein |
 | The Trade Desk | 03/03/2017 | Ja | Ja | Ja | Ja |
 | Thnk Realtime | 05/02/2016 |  | Nein | Nein |  |
 | Tremor-Video | 03/03/2017 | Ja | Nein | Nein | Nein |
@@ -154,7 +157,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | TubeMogul | 03/03/2017 | Ja | Nein | Ja | Nein |
 | Umschalten/Amobee | 03/03/2027 | Nein | Nein | Nein | Ja |
 | Twenga | 29/10/2018 | Ja | Nein | Nein | Nein |
-| Twitter-Zielgruppen | 27/03/2017 | Ja | Nein | Ja | Nein |
+| Twitter-Audiencen | 27/03/2017 | Ja | Nein | Ja | Nein |
 | Unterton | 11/07/2017 | Nein | Nein | Nein | Nein |
 | Verve | 15/06/2017 | Ja | Nein | Nein | Ja |
 | VideoAmp | 03/03/2017 | Nein | Nein | Nein | Nein |
