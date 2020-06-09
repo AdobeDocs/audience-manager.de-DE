@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Zielmakros definiert
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 1%
 
 ---
 
@@ -46,7 +49,7 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Datenquellen-ID: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Eine interne Kunden-ID: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Deklarierte ID: Der Partner möchte diese Werte als deklarierte ID übergeben <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Dazu formatiert der <code>%dpid_<i>data source id</i>%</code> Audience Manager<span class="keyword"> </span>-Partner das Makro wie folgt: </p> 
+    </ul> <p>Dazu formatiert der <code>%dpid_<i>data source id</i>%</code>Audience Manager <span class="keyword"></span> -Partner das Makro wie folgt: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>Das Makro wird durch <code> 1</code> ersetzt <code> CustomerABC</code>. </p> <p> 
@@ -54,9 +57,17 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
        Auf Basis von AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
   </tr> 
+  <tr>
+    <td><p><code>${GDPR}</code></p></td>
+    <td><p>Gibt an, ob GDPR-Regelungen für den Besucher gelten. Verwenden Sie dieses Makro, um die Zustimmung in Segmente einzubeziehen, die an in IAB integrierte URL-Ziele gesendet werden. Weitere Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in für IAB TCF</a> .</p></td>
+  </tr>
+   <tr>
+    <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
+    <td><p>Die Zustimmungszeichenfolge (einschließlich der IAB-Anbieter-ID), die erfasst wird, wenn Besucher die Zustimmung zu Ihrer Site erteilen oder verweigern. Verwenden Sie dieses Makro, um die Zustimmungszeichenfolge in Segmente einzuschließen, die an in IAB integrierte URL-Ziele gesendet werden. Ersetzen Sie dies <code>XXXX</code> durch die Ziel-Partner-ID. Weitere Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in für IAB TCF</a> . </p></td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
-   <td colname="col2"> <p>Erkennt das Protokoll, das auf der übergeordneten Webseite verwendet wird, und fügt es in die Ziel-URL ein. Beispiel: 
+   <td colname="col2"> <p>Erkennt das Protokoll, das auf der übergeordneten Webseite verwendet wird, und fügt es in die Ziel-URL ein. Beispiel:
      <br> 
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
       <li id="li_B41EF140CC274CB68FE7213DD8B908C0">Wenn die Webseite <b>https</b>://aam_client.com lautet, wird dieses Makro durch <b>https</b>://url-destination.com ersetzt. </li> 
@@ -69,7 +80,7 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>Fügt die <span class="wintitle"> Datenerfassungsserverregion (DCS)</span> in die Ziel-URL ein. Um die Latenz zu minimieren, werden Besucher, die einen HTTP-Aufruf an <span class="keyword"> Audience Manager</span>richten, zum nächstgelegenen <span class="wintitle"> DCS</span> -Rechenzentrum umgeleitet. Dies wird durch DNS erreicht, das den Standort des Besuchers erkennen und an das entsprechende Rechenzentrum weiterleiten kann. </p> </td> 
+   <td colname="col2"> <p>Fügt die <span class="wintitle"> Datenerfassungsserverregion (DCS)</span> in die Ziel-URL ein. Um Latenzzeiten zu minimieren, werden sie, wenn der Besucher einen HTTP-Aufruf an <span class="keyword"> Audience Manager</span>durchführt, an das nächstgelegene <span class="wintitle"> DCS</span> -Rechenzentrum weitergeleitet. Dies wird durch DNS erreicht, das den Standort des Besuchers ermitteln und an das entsprechende Rechenzentrum weiterleiten kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
@@ -86,20 +97,20 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
 
 Die `%rnd%` und `%timestamp%` Makros fügen eindeutige Werte in eine [!DNL URL] Zeichenfolge ein, um die Zwischenspeicherung im Browser zu verhindern.
 
-## Cache-Busting mit `%rnd%` und `%timestamp%`{#dest-cache-busting}
+## Cache-Busting mit `%rnd%` und `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
-Browser speichern (speichern) häufig angeforderte Inhalte im Arbeitsspeicher. Beim Laden einer Seite werden gespeicherte Inhalte aus dem Cache und nicht von einem Remote-Server bereitgestellt. Dieser Prozess hilft, effiziente Downloadzeiten zu erhalten, da die Daten lokal und nicht von einem anderen Standort aus bereitgestellt werden. Da für die Zwischenspeicherung kein Serveraufruf erforderlich ist, kann die Berichterstellung dadurch verzerrt werden, dass die Anzahl der individuellen Anforderungen künstlich verringert wird.
+Browser speichern (speichern) häufig angeforderte Inhalte im Arbeitsspeicher. Beim Laden einer Seite werden gespeicherte Inhalte aus dem Cache und nicht von einem Remote-Server bereitgestellt. Dieser Prozess hilft, effiziente Downloadzeiten zu erhalten, da die Daten lokal und nicht von einem anderen Standort aus bereitgestellt werden. Da für die Zwischenspeicherung kein Serveraufruf erforderlich ist, kann dies den Berichte verfälschen, indem die Anzahl der individuellen Anforderungen künstlich verringert wird.
 
-Cache-Busting verhindert, dass Browser Inhalte speichern und wiederverwenden. Bei dieser Methode wird Code verwendet, der eine zufällige Nummer oder einen Zeitstempel in eine URL-Zeichenfolge einfügt, sodass sie für den Browser eindeutig aussieht. Daher wird jeder `HTTP` Aufruf als separate Anforderung an den Server gezählt. Das Erzwingen eines neuen Serveraufrufs für jede Anforderung hilft, die Genauigkeit der Berichterstellung zu wahren und Diskrepanzen zu reduzieren. [!DNL Audience Manager] stellt zwei Makros zum Zwischenspeichern bereit:
+Cache-Busting verhindert, dass Browser Inhalte speichern und wiederverwenden. Bei dieser Methode wird Code verwendet, der eine zufällige Nummer oder einen Zeitstempel in eine URL-Zeichenfolge einfügt, sodass sie für den Browser eindeutig aussieht. Daher wird jeder `HTTP` Aufruf als separate Anforderung an den Server gezählt. Das Erzwingen eines neuen Serveraufrufs für jede Anforderung hilft, die Genauigkeit des Berichte zu erhalten und Diskrepanzen zu reduzieren. [!DNL Audience Manager] stellt zwei Makros zum Zwischenspeichern bereit:
 
 * `%rnd%`: Fügt eine Zufallszahl in eine URL ein.
-* `%timestamp%`: Fügt das Unix-Datum/die Uhrzeit in eine URL ein.
+* `%timestamp%`: Fügt das Unix-Datum/die Unix-Uhrzeit in eine URL ein.
 
-## Vergleichen `%rnd%` und `%timestamp%`{#compare-rnd-timestamp}
+## Vergleichen `%rnd%` und `%timestamp%` {#compare-rnd-timestamp}
 
-Beide Makros verhindern die Zwischenspeicherung, können aber effizienter `%rnd%` sein. Wenn zum Beispiel mehrere Benutzer eine Seite gleichzeitig anzeigen, erhalten sie `%timestamp%`denselben Datums-/Uhrzeitwert. Daher [!DNL URL] ist der Aufruf nicht eindeutig und mehrere Aufrufe werden nur einmal gezählt. Generiert jedoch einen eindeutigen numerischen Wert für jeden Aufruf (auch wenn Benutzer dieselbe Seite gleichzeitig sehen). `%rnd%` Das bedeutet, dass die [!DNL URL] Zeichenfolge unterschiedliche Werte enthält und als eindeutig gezählt wird.
+Beide Makros verhindern die Zwischenspeicherung, können aber effizienter `%rnd%` sein. Wenn beispielsweise mehrere Benutzer eine Seite gleichzeitig `%timestamp%`Ansicht haben, erhalten sie denselben Datums-/Uhrzeitwert. Daher [!DNL URL] ist der Aufruf nicht eindeutig und mehrere Aufrufe werden nur einmal gezählt. Generiert jedoch einen eindeutigen numerischen Wert für jeden Aufruf (auch wenn Benutzer dieselbe Seite gleichzeitig sehen). `%rnd%` Das bedeutet, dass die [!DNL URL] Zeichenfolge unterschiedliche Werte enthält und als eindeutig gezählt wird.
 
 >[!MORELIKETHIS]
 >
