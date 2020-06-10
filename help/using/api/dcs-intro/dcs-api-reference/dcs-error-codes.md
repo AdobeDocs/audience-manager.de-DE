@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS-Fehlercodes, Nachrichten und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -212,22 +212,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Blockierte Kunden-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID als bösartig identifiziert und auf der Blacklist wurde. </p> </td> 
+   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID als bösartig identifiziert und einer Denylist hinzugefügt wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Blockierte Datenquellen-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Datenquellen-ID als bösartig identifiziert und auf der Blacklist wurde. </p> </td> 
+   <td colname="col3"> <p>Wird zurückgegeben, wenn die Datenquellen-ID als bösartig identifiziert und einer Denylist hinzugefügt wurde </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Blockierte deklarierte Geräte-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Die Geräte-ID wurde als bösartig identifiziert und wurde auf der Blacklist. Dies kann vorkommen, wenn wir in kurzer Zeit eine extreme Anzahl von <span class="wintitle"> DCS</span> -Anfragen mit dieser Geräte-ID erhalten. </p> </td>
+   <td colname="col3"> <p>Die Geräte-ID wurde als bösartig identifiziert und zu einer Denylist hinzugefügt. Dies kann vorkommen, wenn wir eine extreme Anzahl von <span class="wintitle"> DCS</span> -Anforderungen mit dieser Geräte-ID in kurzer Zeit erhalten. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Blockierter Profil für <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Eine Lese-/Schreibaktion wurde blockiert, da eine ID als bösartig erkannt und auf der Blacklist wurde. Siehe Fehlercode 306. </p> </td> 
+   <td colname="col3"> <p>Eine Lese-/Schreibaktion wurde blockiert, da eine ID als bösartig erkannt und einer Denylist hinzugefügt wurde Siehe Fehlercode 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
