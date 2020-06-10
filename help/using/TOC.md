@@ -5,12 +5,15 @@ audience: end-user
 user-guide-title: Audience Manager-Benutzerhandbuch
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1711'
+ht-degree: 9%
 
 ---
 
 
-# Audience Manager-Benutzerhandbuch {#user-guide}
+# Audience Manager User Guide {#user-guide}
 
 + [Produktdokumentation zu Audience Manager](aam-home.md)
 + Überblick{#overview}
@@ -167,7 +170,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
       + [Ausdruck mit booleschen Operatoren und Vergleichsoperatoren](features/traits/trait-expression-samples.md)
       + [Referenz zu Eigenschaften und Segmentqualifikationen](features/traits/trait-and-segment-qualification-reference.md)
    + [Besucher Profil Viewer](features/visitor-profile-viewer.md)
-+ Berichterstellung{#reporting}
++ Berichterstellung {#reporting}
    + [Berichtübersicht](reporting/reports-overview.md)
    + [Dashboard für Berichte](reporting/reports-dashboard.md)
    + [Allgemeine Berichte](reporting/general-reports.md)
@@ -233,7 +236,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
          + [Übersicht über die DCS API](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API-Methoden](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS-Fehlercodes, Nachrichten und Beispiele](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [ID-Überwachung und Blacklisting](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+         + [ID-Überwachung und -Denylierung](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [DCS-Regions-IDs, Speicherorte und Hostnamen](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Rassenbedingungen und Fehlerbehandlung](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
