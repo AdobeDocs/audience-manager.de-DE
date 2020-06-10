@@ -1,17 +1,20 @@
 ---
-description: Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS API-Code, -Methoden und -Prozesse.
-seo-description: Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS API-Code, -Methoden und -Prozesse in Adobe Audience Manager (AAM).
+description: Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS-API-Code, -Methoden und -Prozesse.
+seo-description: Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS-API-Code, -Methoden und -Prozesse in Adobe Audience Manager (AAM).
 seo-title: Übersicht über die DCS-API-Referenz in Adobe Audience Manager (AAM)
 title: Übersicht über die DCS API
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
 
 # Übersicht über die DCS API
 
-Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS API-Code, -Methoden und -Prozesse.
+Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS-API-Code, -Methoden und -Prozesse.
 
 * [DCS API-Methoden](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
@@ -21,13 +24,13 @@ Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS API-Code
 
    Fehlercodes und Meldungen, die von den Datenerfassungsservern (Data Collection Servers, DCS) erzeugt wurden, werden in numerischer Reihenfolge nach Code-ID aufgeführt.
 
-* [ID-Überwachung und Blacklisting](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+* [ID-Überwachung und -Denylierung](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   Der DCS überwacht die erhaltenen IDs und listet diejenigen auf, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden.
+   Der DCS überwacht die IDs, die er erhält, und fügt die IDs, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden, einer Deny-Liste hinzu.
 
 * [DCS-Regions-IDs, Speicherorte und Hostnamen](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
-   Der regionale Hostname des DCS-Servers ist erforderlich, um den DCS aufzurufen. Der Grund dafür ist, dass der DCS Informationen in Rechenzentren speichert, die geografisch nahe an den Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche DCS senden, aber diese Aufrufe sind ineffizient und können die Antwort verzögern. Um eine DCS-Anforderung zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und erstellen Sie Ihre Abfrage mit dem richtigen Hostnamen.
+   Der regionale Hostname des DCS-Servers ist erforderlich, um den DCS aufzurufen. Der Grund dafür ist, dass der DCS Informationen in Rechenzentren speichert, die geografisch nahe an Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche DCS senden, aber diese Aufrufe sind ineffizient und können die Antwort verzögern. Um eine DCS-Anforderung zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und erstellen Sie Ihre Abfrage mit dem richtigen Hostnamen.
 
 * [Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen](/help/using/api/dcs-intro/dcs-api-reference/dcs-key-format.md)
 
@@ -39,4 +42,4 @@ Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS API-Code
 
 * [Unterstützte Attribute für DCS-API-Aufrufe](/help/using/api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
-   Listet die Syntax und die unterstützten Attribute (oder Schlüssel-Wert-Paare) auf und beschreibt sie, die Sie an die Datenerfassungsserver (DCS) weitergeben können. Anhand dieser Informationen können Sie Ihre DCS-Anforderungen formatieren und die von diesem System zurückgegebenen Parameter verstehen.
+   Listen und Beschreibungen der Syntax und unterstützten Attribute (oder Schlüssel/Wert-Paare), die Sie an die Datenerfassungsserver (DCS) weitergeben können. Anhand dieser Informationen können Sie Ihre DCS-Anforderungen formatieren und die von diesem System zurückgegebenen Parameter verstehen.
