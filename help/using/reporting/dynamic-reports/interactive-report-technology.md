@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Berichttechnologie
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 1faafcda1060c1fab9de454976aac7cf191f456a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -72,7 +72,7 @@ Die folgende Tabelle definiert die in den dynamischen Berichten verwendeten Form
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
      <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rote Farbtöne weisen auf eine <i>geringe</i> Überschneidung hin. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Schattierungen weisen auf eine <i>hohe</i> Überschneidung hin. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Farbtöne weisen auf eine <i>hohe</i> Überschneidung hin. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -84,4 +84,4 @@ Die folgende Tabelle definiert die in den dynamischen Berichten verwendeten Form
 
 ## Tableau-Dokumentation {#tableau-documentation}
 
-Weitere Informationen zu den Tableau-Steuerelementen in unseren interaktiven Berichten finden Sie in der offiziellen Dokumentation für [Tableau Server unter Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
+Weitere Informationen zu den Tableau-Steuerelementen in unseren interaktiven Berichten finden Sie in der offiziellen Dokumentation für [Tableau Server unter Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
