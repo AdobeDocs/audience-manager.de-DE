@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Berichttechnologie
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
+source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +29,7 @@ c_report_technology.xml
 [!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) -Software, um Daten in den interaktiven Berichten anzuzeigen. Darüber [!DNL Tableau]hinaus verwenden die [!UICONTROL Delivery and Overlap] Berichte visuelle Hinweise und Symbole, die Ihnen helfen,
 
 * Finden Sie Leistungsmerkmale mit hoher und niedriger Leistung.
-* Spotmerkmale und Segmente mit einer niedrigen und hohen Überschneidung bei Unique Visitor.
+* Spot-Eigenschaften und -Segmente mit niedrigen und hohen individuellen Besuchern überlappen sich.
 * Verwenden Sie überlappende Daten, um zielgerichtete Segmente zu erstellen.
 * Erweitern Sie die Reichweite, indem Sie zugehörige Eigenschaften mit geringer Überschneidung identifizieren.
 
@@ -79,52 +82,6 @@ Die folgende Tabelle definiert die in den dynamischen Berichten verwendeten Form
  </tbody> 
 </table>
 
-## Berichtssymbole und -werkzeuge erläutert {#icons-tools-explained}
+## Tableau-Dokumentation {#tableau-documentation}
 
-Beschreibt das Suchen und Verwenden der verschiedenen Symbole, die in den dynamischen Berichten verwendet werden.
-
-<!-- 
-
-r_icons.xml
-
- -->
-
-### Datensymbole und Werkzeuge
-
-Die folgenden Symbole und Tools stehen am unteren Rand jedes dynamischen Berichtsfensters zur Verfügung. Die folgende Abbildung enthält weitere Informationen zu diesen Werkzeugen.
-
-![](assets/tools_icons90.png)
-
-### Daten exportieren
-
-Mit diesen Tools können Sie Daten aus dem Bericht in vier verschiedene Formate exportieren.
-
-| Exportoption | Exportieren von Daten |
-|---|---|
-| **[!UICONTROL Image]** | Als Bild-Datei (.png). Nützlich, wenn Sie Berichtsdaten in ihrem ursprünglichen, grafischen Format herunterladen und freigeben möchten. |
-| **[!UICONTROL PDF]** | Als PDF-Datei. |
-| **[!UICONTROL Data]** | In einem neuen Browserfenster als numerische Daten in Spalten und Zeilen. |
-| **[!UICONTROL Crosstab]** | Als .csv-Datei. |
-
-### Änderungen wiederherstellen
-
-Wählen Sie dieses Tool, um alle interaktiven Klickänderungen rückgängig zu machen, die Sie möglicherweise für den Bericht vorgenommen haben.
-
-### Automatische Updates
-
-Bei den Berichten [!UICONTROL Delivery-Performance] und [!UICONTROL Trait-to-Trait Overlap] Berichten handelt es sich um dynamische Berichte, die je nach Benutzerklick-Aktionen reagieren und sich ändern.
-
-Angenommen, Sie möchten im [!UICONTROL Overlap] Bericht mehrere Advertiser auswählen. Wenn diese Option aktiviert ist, werden die Daten bei automatischen Aktualisierungen zurückgegeben, sobald Sie ein Kontrollkästchen aktivieren. Dieses dynamische Verhalten kann Ihren Workflow unterbrechen, da Sie warten müssen, bis der Bericht fertig verarbeitet ist, bevor Sie einen anderen Anbieter auswählen. Verwenden Sie dieses Tool, um diese Funktion nach Bedarf zu deaktivieren (und wieder einzuschalten).
-
-### Daten aktualisieren
-
-Klicken Sie auf das Aktualisierungssymbol, um einen Bericht auszuführen oder den Datensatz neu zu laden. Wenn die automatischen Aktualisierungen deaktiviert sind, klicken Sie auf Aktualisieren, um den Bericht auszuführen oder zu aktualisieren.
-
-### Suchwerkzeug
-
-Die Suche wird durch ein generisches Lupensymbol dargestellt (nicht angezeigt). Das Suchfeld wird ausgeblendet, bis Sie auf die Auswahlbeschriftungen links im Bildschirm klicken. Die nachstehende Tabelle beschreibt die Position des Suchwerkzeugs für jeden Bericht.
-
-| Bericht | Um die Suche zu finden, halten Sie den Mauszeiger über |
-|---|---|
-| [!UICONTROL Delivery and Performance] anzeigen | Die Beschriftung "Name des Advertisers". |
-| [!UICONTROL Overlap] Berichte | Die Beschriftung "SID-Name". |
+Weitere Informationen zu den Tableau-Steuerelementen in unseren interaktiven Berichten finden Sie in der offiziellen Dokumentation für [Tableau Server unter Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
