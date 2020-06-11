@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Überschneidungsbericht zwischen Segmenten
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +20,7 @@ Gibt Daten darüber zurück, wie viele Unique Users für Ihre Segmente freigegeb
 
 >[!NOTE]
 >
->Die Überschneidungsberichte in Audience Manager folgen den RBAC-Grundsätzen. Sie können nur Segmente aus Datenquellen sehen, auf die Sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) , der Sie angehören.
+>Die Überschneidungsberichte im Audience Manager folgen den RBAC-Grundsätzen. Sie können nur Segmente aus Datenquellen sehen, auf die Sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) , der Sie angehören.
 
 <!-- 
 
@@ -29,7 +32,7 @@ c_segment_segment_overlap.xml
 
 Der [!UICONTROL Segment-to-Segment Overlap] Bericht hilft Ihnen bei Folgendem:
 
-* Identifizieren Sie Segmente mit hoher oder niedriger Überschneidung, je nach Ihren Anforderungen. Eigenschaften mit hoher Überschneidung geben Ihnen eine zielgerichtete Zielgruppe, aber weniger individuelle Besucher. Eigenschaften mit geringer Überschneidung können nützlich sein, um einen größeren, individuellen Besuchersatz zu erreichen.
+* Identifizieren Sie Segmente mit hoher oder niedriger Überschneidung, je nach Ihren Anforderungen. Eigenschaften mit hoher Überschneidung geben Ihnen eine zielgerichtete Audience, aber weniger individuelle Besucher. Eigenschaften mit geringer Überschneidung können nützlich sein, um einen größeren, eindeutigen Besucher zu erreichen.
 * Finden Sie unerwartete Überschneidungen und verwenden Sie diese Informationen, um neue, leistungsstarke Segmente zu erstellen.
 
 ## Beispielbericht
@@ -44,7 +47,7 @@ Die folgende Abbildung zeigt einen Überblick über den [!UICONTROL Segment-to-S
 
 ## Drilldown für einzelne Datenpunkte
 
-Wählen Sie einen einzelnen Punkt aus, um die Datendetails in einem Popup-Fenster anzuzeigen. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
+Wählen Sie in einem Popup-Fenster einen individuellen Punkt für die Datendetails der Ansicht aus. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
 
 ## Von Segment zu Segment überschneidende Datenpop-Felder definiert {#fields-defined}
 
@@ -54,7 +57,7 @@ r_s2s_data_pop.xml
 
  -->
 
-Das Popup für den [!UICONTROL Segment-to-Segment Overlap] Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik "Individuelle Werte"in der Tabelle Ihre *Echtzeit-Benutzer* darstellt.
+Das Popup für den [!UICONTROL Segment-to-Segment Overlap] Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik &quot;Individuelle Werte&quot;in der Tabelle Ihre *Echtzeit-Benutzer* darstellt.
 
 | Metrik | Beschreibung |
 |---|---|
@@ -63,8 +66,8 @@ Das Popup für den [!UICONTROL Segment-to-Segment Overlap] Bericht enthält die 
 | **[!UICONTROL Overlapping Segment ID]** | Eindeutige numerische ID für das Segment, das Sie beim Ausführen des Berichts auswählen. Erscheint als Spalte-ID für das Segment. |
 | **[!UICONTROL Overlapping Segment Name]** | Name des Segments, das Sie beim Ausführen des Berichts auswählen. Wird in der Berichtsergebnisspalte angezeigt. |
 | **[!UICONTROL Base Segment Uniques]** | Die Anzahl der individuellen Besucher in Ihrem Basissegment. |
-| **[!UICONTROL Base Segment Uniques]** | Die Anzahl der individuellen Besucher in Ihrem sich überschneidenden Segment. |
-| **[!UICONTROL Overlapping Uniques]** | Die Anzahl der Unique Visitors, die zwischen verglichenen Segmenten freigegeben wurden. |
+| **[!UICONTROL Base Segment Uniques]** | Die Anzahl der individuellen Besucher im sich überschneidenden Segment. |
+| **[!UICONTROL Overlapping Uniques]** | Die Anzahl der eindeutigen Besucher, die zwischen den Vergleichssegmenten freigegeben wurden. |
 | **[!UICONTROL Overlap %]** | Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel: Überschneidende individuelle Elemente / (Basis-Segment-Uniques + Überschneidende Segment-Uniques - Überschneidende Uniques) |
 
 
@@ -75,5 +78,5 @@ Das Popup für den [!UICONTROL Segment-to-Segment Overlap] Bericht enthält die 
 >* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Berichtssymbole und -werkzeuge erläutert](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Überschneidungsberichte: Zeitplan und Mindestsegmentgröße aktualisieren](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben und Fehlerquoten in ausgewählten Audience Manager-Berichten...](../../reporting/report-sampling.md)
+>* [Datenstichproben und Fehlerquoten in ausgewählten Audiencen-Manager-Berichten...](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)
