@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zu Produktfunktionen
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 2b70b651a626c2b5667edb58c8c6068152a9d770
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 Häufige Fragen und Probleme zu Produkten und Funktionen.
 
-<br> 
+ 
 
 <!-- 
 
@@ -32,7 +35,7 @@ So *`Organization ID`* sieht zum Beispiel eine aus: `1FD6776A524453CC0A490D44@Ad
 
 Der *`Organization ID`* wird von der [DIL](../dil/dil-overview.md) -API von Audience Manager, dem [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)und anderen [!DNL Experience Cloud] Lösungen verwendet. Benutzer mit Administratorberechtigungen finden die *`Organization ID`* auf der [!DNL Adobe Admin Console]. Siehe Häufig gestellte Fragen zur [Administration - Benutzerverwaltung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-<br> 
+ 
 
 **Kann ich Eigenschaften oder Ziele stapelweise erstellen?**
 
@@ -42,25 +45,31 @@ Ja. Siehe [Massenverwaltungswerkzeuge](../reference/bulk-management-tools/bulk-m
 >
 >Die [!UICONTROL Bulk Management Tools] Werkzeuge *werden von* nicht [!DNL Audience Manager]unterstützt. Sie werden nur aus Gründen der Bequemlichkeit und als Höflichkeit zur Verfügung gestellt. Bei Massenänderungen sollten Sie stattdessen mit den [Audience Manager-APIs](../api/api.md) arbeiten.
 
-<br> 
+ 
+
+**Beim Ausführen eines Massen-ID-Exports an ein Ziel fehlen einige Kunden-IDs. Why does that happen?**
+
+Wenn eine Geräte-ID ([AAM UUID](../reference/ids-in-aam.md)) mit mehreren CRM-IDs ([DPUUIDs](../reference/ids-in-aam.md)) verknüpft ist, wird nur die neueste Zuordnung exportiert. Aus diesem Grund wird möglicherweise eine niedrigere Anzahl von Geräte-IDs als erwartet exportiert.
+
+ 
 
 **Kann der Bedarf an Tags oder Pixeln von Drittanbietern[!DNL Audience Manager]verringert und die Seitenladezeit verkürzt werden?**
 
 Wenn [!DNL Audience Manager] sie mit Ihrem Drittanbieter-Datenpartner integriert ist, können Sie ihre Pixel und Tags durch einen Server-zu-Server-ID-Aufruf von ersetzen [!DNL Audience Manager]. In diesem Fall [!DNL Audience Manager] würde ein einzelner ID-Aufruf ausgelöst, wenn ein Benutzer zum ersten Mal angezeigt wird und diese Informationen mit Ihrem Drittanbieter-Partner synchronisiert werden. Dadurch entfällt die Notwendigkeit, mehrere Pixel von jeder Seite aufzurufen. Die Reduzierung von Pixelaufrufen kann die Seitenladezeit verbessern.
 
-<br> 
+ 
 
 **Ich habe einen Datenfeed abonniert. Wo werden diese Daten gespeichert?**
 
 Ihr Datenfeed und alle im Feed enthaltenen Eigenschaften werden als Unterordner und Eigenschaften in angezeigt [!DNL Audience Manager]. Gehen Sie zu **[!UICONTROL Audience Data > Traits]** und erweitern Sie den [!UICONTROL 3rd-Party Data] Ordner, um Ihre Eigenschaften Ansicht oder Segmente und Modelle mit diesen Daten zu erstellen.
 
-<br> 
+ 
 
 **Was ist[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager zum Erstellen und Verwalten verwendet [!UICONTROL Tag Insertion Manager] (TIM) [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
+Audience Manager verwendet [!UICONTROL Tag Insertion Manager] (TIM), um [!UICONTROL data collection code (DIL)]zu erstellen und zu verwalten. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
-<br> 
+ 
 
 **Was sind die Unterschiede zwischen Algorithmusmodellen und Eigenschaftsempfehlungen? Wann sollte ich sie alle benutzen?**
 
@@ -82,8 +91,8 @@ Sie sollten Eigenschaftsempfehlungen in folgenden Fällen verwenden:
 * Sie verwenden die Segmente für kurze Kampagnen oder wenn Sie die Audience, die konvertiert, schnell unterdrücken möchten;
 * Du versuchst, die Reichweite zu maximieren.
 
-<br> 
+ 
 
-**Unterscheiden sich die Segmente von Adobe Analytics und Audience Manager?**
+**Gibt es Unterschiede zwischen Adobe Analytics- und Audience Manager-Segmenten?**
 
-Ja, lesen Sie bitte [Grundlegendes zu Segmenten in Analytics und Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) für eine ausführliche Beschreibung der Unterschiede.
+Ja. Eine ausführliche Beschreibung der Unterschiede finden Sie unter [Verstehen von Segmenten in Analytics und Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) .
