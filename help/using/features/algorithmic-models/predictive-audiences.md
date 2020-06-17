@@ -3,14 +3,17 @@ description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe de
 seo-description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe der Datenwissenschaft in Echtzeit in verschiedene Personengruppen zu klassifizieren.
 seo-title: Übersicht über Audiencen
 solution: Audience Manager
-title: Prognostische Audiencen für Audience Manager
+title: Audience Manager Predictive Audiencen
 translation-type: tm+mt
-source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
+source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+workflow-type: tm+mt
+source-wordcount: '1275'
+ht-degree: 0%
 
 ---
 
 
-# Übersicht über Audiencen {#predictive-audiences}
+# [!UICONTROL Predictive Audiences] Übersicht {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] hilft Ihnen, eine unbekannte Audience in Echtzeit mithilfe fortschrittlicher Datenwissenstechniken in verschiedene Personen zu klassifizieren.
 
@@ -19,11 +22,11 @@ source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 In einem Marketingkontext ist eine Audience ein Segment, das von Besuchern, Benutzern oder potenziellen Käufern definiert wird, die eine bestimmte Reihe von Eigenschaften gemeinsam haben, wie demografische Merkmale, Browsing-Gewohnheiten, Shopping-Geschichte usw.
 
-[!UICONTROL Predictive Audiences] Modelle gehen noch einen Schritt weiter, indem Sie die maschinellen Lernfunktionen von Audience Manager nutzen, um unbekannte Audiencen in verschiedene Personas zu klassifizieren. Audience Manager hilft Ihnen dabei, die Tendenz Ihrer unbekannten Erstanbieter-Audience für eine Reihe bekannter Erstanbieter-Audiencen zu berechnen.
+[!UICONTROL Predictive Audiences] Modelle gehen noch einen Schritt weiter, indem Sie die maschinellen Lernfähigkeiten von Audience Manager nutzen, um unbekannte Audiencen in verschiedene Personen zu klassifizieren. Audience Manager hilft Ihnen dabei, die Tendenz Ihrer unbekannten Erstanbieter-Audience für eine Reihe bekannter Erstanbieter-Audiencen zu berechnen.
 
 Wenn Sie ein [!UICONTROL Predictive Audiences] Modell erstellen, wählen Sie zunächst die Grundeigenschaften oder Segmente aus, nach denen die Audience Ihrer Zielgruppe klassifiziert werden soll. Diese Eigenschaften oder Segmente definieren Ihre Personas.
 
-Während der Bewertungsphase erstellt das Modell ein neues [!UICONTROL Predictive Audiences] Segment für jede Eigenschaft oder jedes Segment, die bzw. das Sie als Basiswert definiert haben. Wenn Audience Manager das nächste Mal einen Besucher aus Ihrer Zielgruppe-Audience anzeigt, der nicht für eine Persona klassifiziert ist (die für keine Ihrer Basiseigenschaften oder -segmente qualifiziert war), bestimmt das [!UICONTROL Predictive Audiences] Modell, zu welchem der Vorhersagesegmente der Besucher gehören soll, und fügt den Besucher zu diesem Segment hinzu.
+Während der Bewertungsphase erstellt das Modell ein neues [!UICONTROL Predictive Audiences] Segment für jede Eigenschaft oder jedes Segment, die bzw. das Sie als Basiswert definiert haben. Wenn Audience Manager das nächste Mal einen Besucher aus Ihrer Zielgruppe-Audience sehen, der nicht für eine Persona klassifiziert ist (die für keine Ihrer Grundeigenschaften oder Segmente qualifiziert war), bestimmt das [!UICONTROL Predictive Audiences] Modell, zu welchen der Vorhersagesegmente der Besucher gehören soll, und fügt den Besucher zu diesem Segment hinzu.
 
 Sie können die vom Modell erstellten prädiktiven Segmente auf der [!UICONTROL Segments] Seite identifizieren. Jedes [!UICONTROL Predictive Audiences] Modell hat einen eigenen Ordner unter dem [!UICONTROL Predictive Audiences] Ordner, und Sie können die Segmente jedes Modells sehen, indem Sie auf den Modellordner klicken.
 
@@ -31,7 +34,7 @@ Sie können die vom Modell erstellten prädiktiven Segmente auf der [!UICONTROL 
 
 ## Nutzungsszenarios {#use-cases}
 
-Damit Sie besser verstehen können, wie und wann Sie diese Funktion verwenden können, [!UICONTROL Predictive Audiences]gibt es einige Anwendungsfälle, die Audience Manager-Kunden mithilfe dieser Funktion lösen können.
+Damit Sie besser verstehen können, wie und wann Sie diese Funktion verwenden können, [!UICONTROL Predictive Audiences]gibt es einige Anwendungsfälle, die Audience Manager mithilfe dieser Funktion lösen können.
 
 ### Verwendungsfall Nr. 1
 
@@ -75,7 +78,7 @@ Sie können beliebige Eigenschaften oder Segmente Ihrer Erstanbieter auswählen,
 * Wählen Sie Grundlinieneigenschaften oder Segmente mit minimaler Überschneidung.
 * Achten Sie darauf, dass Sie granulare Eigenschaften in allen digitalen Eigenschaften erfassen.
 
-### Auswahlkriterien für die Audience der Zielgruppe {#selection-audience}
+### Auswahlkriterien für die Audience des Targets {#selection-audience}
 
 Ähnlich wie bei der Personenauswahl sollten Sie Ihre Eigenschaft oder Ihr Segment auswählen, das Ihre Zielgruppe so definiert, dass es Echtzeit-Benutzer mit komplexen Eigenschaften zur Klassifizierung in die richtige Persona hat.
 
@@ -111,7 +114,7 @@ Berücksichtigen Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] 
 * Die Segmentbewertung [!UICONTROL Predictive Audiences] verwendet den Standard, den Sie in Ihrem Konto definiert **[!UICONTROL Profile Merge Rule]** haben. Weitere Informationen finden Sie [!UICONTROL Profile Merge Rules] in der [Dokumentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
 * Einige Eigenschaften und Segmente werden nicht als Basis- oder Zielgruppe-Audiencen unterstützt. [!UICONTROL Predictive Audiences] die Modelle können nicht gespeichert werden, wenn eine der folgenden Audiencen als Basislinien oder Zielgruppe ausgewählt wird:
    * Prognostische Eigenschaften und Segmente, die mit Prognoseeigenschaften erstellt wurden;
-   * [Eigenschaften oder Segmente der Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
+   * [Adobe Experience Platformen](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) oder Segmente;
    * Algorithmische Eigenschaften;
    * Eigenschaften von Zweitanbietern und Drittanbietern.
 
@@ -130,4 +133,4 @@ Eigenschaften mit zusätzlichen Einschränkungen, die nicht Teil der [!UICONTROL
 
 Die Eigenschaften und Segmente, die Sie für die Klassifizierung &quot;Personas&quot;und &quot;Audience&quot;auswählen, unterliegen den Audience Manager- [Rollenbasierten Zugriffskontrollen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
 
-Audience Manager-Benutzer können nur Eigenschaften oder Segmente für Personas- und Zielgruppen-Audiencen auswählen, für die sie über [Berechtigung zur Ansicht](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)verfügen.
+Audience Manager können nur Eigenschaften oder Segmente für Personas- und Zielgruppen-Audiencen auswählen, die [zur Ansicht](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)berechtigt sind.
