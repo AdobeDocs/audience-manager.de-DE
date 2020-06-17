@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: b1d953837766f5822f5ba0246f7e10042c6f1072
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 21%
@@ -111,7 +111,7 @@ Impression Ereignis-Aufrufe akzeptieren Daten, die zu Schlüssel/Wert-Paaren geb
 >
 >Bitte wenden Sie sich an Ihren Adobe Audience Manager Consulting oder Kundenbetreuer, um die exakte URL für die Kundendomäne zu erhalten.
 
-## Zusätzliche Funktionen - [!DNL Audience Optimization Reports]
+## Zusätzliche Funktionen - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
 Sie können Pixelaufrufe verwenden, um die [Audience-Optimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)zu aktivieren. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) , wenn Sie Pixel verwenden möchten, um Berichte zu aktivieren.
 
