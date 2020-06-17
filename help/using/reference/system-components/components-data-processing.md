@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Datenverarbeitungskomponenten
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 9a92420b1f0116c0fd71db56895720e0ee894f30
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
@@ -25,9 +28,9 @@ Audience Manager verwendet die folgenden Komponenten zur Datenverarbeitung:
 
 ## Hadoop {#hadoop}
 
-Hadoop [!DNL Audience Manager]ist die Master-Datenbank, die alles über einen Benutzer [!DNL Audience Manager] weiß. Wenn der [Profil-Cache-Server](../../reference/system-components/components-data-collection.md) beispielsweise Protokolldateien mit Benutzerdaten erstellt, sendet er diese Daten zur Datenspeicherung an Hadoop. Weitere wichtige Hadoop-Elemente sind:
+In [!DNL Audience Manager]Hadoop ist die Hauptdatenbank, die alles über einen Benutzer [!DNL Audience Manager] weiß. Wenn der [Profil-Cache-Server](../../reference/system-components/components-data-collection.md) beispielsweise Protokolldateien mit Benutzerdaten erstellt, sendet er diese Daten zur Datenspeicherung an Hadoop. Weitere wichtige Hadoop-Elemente sind:
 
-* **Hive:** Ein Data Warehouse für Hadoop. Hive verwaltet Ad-hoc-Abfragen an den in Hadoop gespeicherten Daten.
+* **Hive:** Eine data warehouse für Hadoop. Hive verwaltet Ad-hoc-Abfragen an den in Hadoop gespeicherten Daten.
 
 * **HBase:** Eine sehr große Hadoop-Datenbank. Es verarbeitet und verwaltet eingehende und ausgehende Daten, Eigenschaftsregeln, algorithmische Modellierungsinformationen und führt viele andere Funktionen zum Speichern und Verschieben von Daten auf verschiedene Systeme aus.
 
