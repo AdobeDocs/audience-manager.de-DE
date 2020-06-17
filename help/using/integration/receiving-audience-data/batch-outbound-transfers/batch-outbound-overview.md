@@ -2,14 +2,17 @@
 description: Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter für Inhalte.
 seo-description: Adobe Audience Manager (AAM) sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter für Inhalte.
 seo-title: Stapelausgehende Datenübertragungen in Adobe Audience Manager (AAM)
-title: Stapelausgehende Datenübertragungen
+title: Batch-Ausgehende Datenübertragungen
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
 
 
-# Stapelausgehende Datenübertragungen
+# Batch-Ausgehende Datenübertragungen
 
 Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter für Inhalte.
 
@@ -17,13 +20,17 @@ Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbie
 
    Beschreibt die erforderlichen Felder, die Syntax und die Konventionen, mit denen eine ausgehende Datendatei benannt wird.
 
+* [Batch-Datenübertragungsintegration konfigurieren](batch-server-configuration.md)
+
+   Beschreibt die Methoden, mit denen Sie Ihre Batch-Datenübertragungsintegration konfigurieren können.
+
 * [Übertragungssteuerungsdateien für Protokolldateitransfers](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-   Transfer-Control-Dateien (.info) bieten Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
+   Transfer-Control-Dateien (.info) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
 
 * [Ausgehende Vorlagenmakros](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 
-   Listet die Makros auf, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
+   Liste der Makros, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
 
 * [Beispiele für ausgehende Makros](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 
@@ -31,4 +38,4 @@ Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbie
 
 * [Nutzen Sie die kontoübergreifenden Bucket-Zugriffsrechte von Amazon S3 für Ihre ausgehenden Dateien](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   Der Prozess zur Übertragung ausgehender Daten für Kunden, die Amazon Simple Storage Service (Amazon S3) verwenden, erfordert, dass wir Ihren Amazon S3-Zugriffsschlüssel und geheimen Schlüssel anfordern, um die ausgehenden Datendateien an Ihren Behälter zu liefern.
+   Der Prozess der Datenübertragung bei Kunden, die Amazon Simple Datenspeicherung Service (Amazon S3) verwenden, erfordert, dass wir Ihren Amazon S3-Zugriffsschlüssel und -geheimen Schlüssel anfordern, um die ausgehenden Datendateien an Ihren Behälter zu liefern.
