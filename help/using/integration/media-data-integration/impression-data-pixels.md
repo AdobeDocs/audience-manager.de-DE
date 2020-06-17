@@ -1,22 +1,22 @@
 ---
-description: Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Kampagnen-Attribute an Audience Manager zu senden.
-seo-description: Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Kampagnen-Attribute an Audience Manager zu senden.
+description: Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Attribute der Kampagne an Audience Manager zu senden.
+seo-description: Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Attribute der Kampagne an Audience Manager zu senden.
 seo-title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 20%
+source-wordcount: '713'
+ht-degree: 21%
 
 ---
 
 
 # Erfassen von Kampagnenimpressionsdaten über Pixelabrufe{#capturing-campaign-impression-data-via-pixel-calls}
 
-Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Kampagnen-Attribute an Audience Manager zu senden.
+Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Attribute der Kampagne an Audience Manager zu senden.
 
 Diese Methode wird oft als &quot;Verpixeln des kreativen Elements&quot;bezeichnet. Diese Datenpunkte werden von den Drittanbieter-Anzeigenservermakros dynamisch in den [!DNL Audience Manager] Pixelcode eingefügt, die dazu verwendet werden, alle Impressionen und Klicks basierend auf den Schlüsselattributen der Berichte der Kampagne zuzuordnen und zu melden. Die aggregierten Daten bieten eine einheitliche Ansicht der Performance von Kampagnen, helfen bei der Identifizierung benutzerspezifischer Konversionspfade und helfen Kunden, die Sequenz von Anzeigen-Server-Ereignissen zu verbessern, die zu Konversionen führen.
 
@@ -62,7 +62,7 @@ Impression Ereignis-Aufrufe akzeptieren Daten, die zu Schlüssel/Wert-Paaren geb
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>Cache-Busting-Wert. <span class="keyword"> Audience Manager sendet </span> automatisch Cachesteuerungs-Header, die von den meisten Browsern und Proxys berücksichtigt werden. Wenn Sie zusätzliche Cache-Busting durchführen möchten, fügen Sie diesen Parameter in einen Ereignis-Aufruf ein, gefolgt von einer zufälligen Zeichenfolge. </p> <p> Optional. </p> </td> 
+   <td colname="col2"> <p>Cache-Busting-Wert. <span class="keyword"> Audience Manager sendet </span> automatisch Cachesteuerungs-Kopfzeilen, die von den meisten Browsern und Proxys berücksichtigt werden. Wenn Sie zusätzliche Cache-Busting durchführen möchten, fügen Sie diesen Parameter in einen Ereignis-Aufruf ein, gefolgt von einer zufälligen Zeichenfolge. </p> <p> Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
@@ -109,9 +109,9 @@ Impression Ereignis-Aufrufe akzeptieren Daten, die zu Schlüssel/Wert-Paaren geb
 
 >[!NOTE]
 >
->Wenden Sie sich an Ihren Adobe Audience Manager-Kundenbetreuer oder den Kundenbetreuer, um die genaue URL der jeweiligen Kundendomäne anzuzeigen.
+>Bitte wenden Sie sich an Ihren Adobe Audience Manager Consulting oder Kundenbetreuer, um die exakte URL für die Kundendomäne zu erhalten.
 
-## Zusätzliche Funktionen - Berichte zur Audience-Optimierung
+## Zusätzliche Funktionen - [!DNL Audience Optimization Reports]
 
 Sie können Pixelaufrufe verwenden, um die [Audience-Optimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)zu aktivieren. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) , wenn Sie Pixel verwenden möchten, um Berichte zu aktivieren.
 
