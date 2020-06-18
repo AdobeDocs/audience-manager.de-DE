@@ -1,19 +1,22 @@
 ---
-description: Beschreibt die Komponenten eines Audience Manager-Segments, die Ausdrücke zum Festlegen von Kriterien für die Zielgruppenqualifizierung und die Art und Weise, wie Daten in einem Ereignisaufruf gesendet werden.
-seo-description: Beschreibt die Komponenten eines Audience Manager-Segments, die Ausdrücke zum Festlegen von Kriterien für die Zielgruppenqualifizierung und die Art und Weise, wie Daten in einem Ereignisaufruf gesendet werden.
+description: Beschreibt die Komponenten eines Audience Manager-Segments, die Ausdruck, die zum Festlegen von Kriterien für die Audience-Qualifizierung verwendet werden, und wie Daten in einem Ereignis-Aufruf gesendet werden.
+seo-description: Beschreibt die Komponenten eines Audience Manager-Segments, die Ausdruck, die zum Festlegen von Kriterien für die Audience-Qualifizierung verwendet werden, und wie Daten in einem Ereignis-Aufruf gesendet werden.
 seo-title: Signale, Eigenschaften und Segmente
 solution: Audience Manager
 title: Signale, Eigenschaften und Segmente
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 1%
 
 ---
 
 
 # Signale, Eigenschaften und Segmente{#signals-traits-and-segments}
 
-Beschreibt die Komponenten eines Audience Manager-Segments, die Ausdrücke zum Festlegen von Kriterien für die Zielgruppenqualifizierung und die Art und Weise, wie Daten in einem Ereignisaufruf gesendet werden.
+Beschreibt die Komponenten eines [!DNL Audience Manager] Segments, die Ausdruck, die zum Festlegen von Qualifizierungskriterien für Audiencen verwendet werden, und wie Daten in einem Ereignis-Aufruf gesendet werden.
 
 <!-- 
 
@@ -23,7 +26,7 @@ c_signal_trait_segment.xml
 
 **Zusammensetzung und Zweck**
 
-[!DNL Audience Manager] Daten bestehen aus Signalen, Eigenschaften, Segmenten und zugehörigen Qualifikationsregeln. Die Datenelemente und Regeln werden kombiniert, um Segmente zu erstellen. Segmente organisieren Site-Besucher in verwandte Gruppen. Die folgende Tabelle definiert die drei Hauptkomponenten eines [!DNL Audience Manager] Segments.
+[!DNL Audience Manager] Daten bestehen aus Signalen, Eigenschaften, Segmenten und zugehörigen Qualifikationsregeln. Die Datenelemente und Regeln werden kombiniert, um Segmente zu erstellen. Segmente ordnen Site-Besucher in verwandte Gruppen an. Die folgende Tabelle definiert die drei Hauptkomponenten eines [!DNL Audience Manager] Segments.
 
 <table id="table_E8373A01C3414C42B4983A59BF0F0669"> 
  <thead> 
@@ -55,7 +58,7 @@ c_signal_trait_segment.xml
   </tr> 
   <tr> 
    <td colname="col1"><b>Segment</b> </td> 
-   <td colname="col2"> <p>Benutzer, die einen Satz gemeinsamer Attribute verwenden und für verwandte Eigenschaften qualifiziert sind. </p> <p>Mithilfe boolescher Ausdrücke können Sie zusammen mit den Anforderungen an Neuigkeit und Häufigkeit Segmentqualifikationsregeln erstellen. </p> <p>Erstellen Sie präzise Qualifikationsanforderungen mit Kombinationen aus Eigenschaften und Segmentregeln. </p> </td> 
+   <td colname="col2"> <p>Benutzer, die einen Satz gemeinsamer Attribute verwenden und für verwandte Eigenschaften qualifiziert sind. </p> <p>Mit booleschen Ausdrücken können Sie neben den Anforderungen an Neuigkeit und Häufigkeit Segmentqualifikationsregeln erstellen. </p> <p>Erstellen Sie präzise Qualifizierungsanforderungen mit Kombinationen aus Eigenschaften und Segmentregeln. </p> </td> 
    <td colname="col3"> <p>Aus den verfügbaren Eigenschaften und Signalen können Sie eine Segmentregel erstellen, die wie folgt ausgedrückt wird: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
   </tr> 
  </tbody> 
@@ -67,15 +70,13 @@ Verwenden Sie das unten stehende Diagramm, um eine mentale Note der Beziehung zw
 
 **Eigenschaften und Segmentregeln mit Visual Tools und Codeeditoren erstellen**
 
-Kunden verwalten Eigenschaften und Segmente mit visuellen Werkzeugen und Codeeditoren in der [!DNL Audience Manager] Benutzeroberfläche. Mit den visuellen Werkzeugen können Sie Regeln mit Suchfunktionen, Popup-Optionen, Dropdownmenüs und Drag &amp; Drop-Funktionen erstellen. Die Code-Editoren bieten fortgeschrittenen Benutzern die Möglichkeit, Zielgruppensegmentierungskriterien programmatisch zu entwickeln.
+Kunden verwalten Eigenschaften und Segmente mit visuellen Werkzeugen und Codeeditoren in der [!DNL Audience Manager] Benutzeroberfläche. Mit den visuellen Werkzeugen können Sie Regeln mit Suchfunktionen, Popup-Optionen, Dropdownmenüs und Drag &amp; Drop-Funktionen erstellen. Die Codeeditoren bieten fortgeschrittenen Anwendern die Möglichkeit, Audiencen-Segmentierungskriterien programmatisch zu entwickeln.
 
-**Ereignisaufrufe Daten an Audience Manager senden**
+**Ereignis-Aufrufe Daten an Audience Manager senden**
 
-Ein Ereignisaufruf sendet Daten von Ihrer Website an [!DNL Audience Manager]. Der Aufruf enthält Signal-, Eigenschaften- und Segmentdaten in einer HTTP-Anforderung. Das Ereignis selbst ist alles nach dem `/event` Teil einer URL-Zeichenfolge. Wie im Beispiel unten gezeigt, erfordert dieser Prozess nur einen einzelnen Ereignisaufruf, um mehrere Variablen an [!DNL Audience Manager]weiterzugeben.
+Ein Ereignis-Aufruf sendet Daten von Ihrer Website an [!DNL Audience Manager]. Der Aufruf enthält Signal-, Eigenschaften- und Segmentdaten in einer [!DNL HTTP] Anforderung. Das Ereignis selbst ist alles nach dem `/event` Teil einer [!DNL URL] Zeichenfolge. Wie im folgenden Beispiel gezeigt, erfordert dieser Vorgang nur einen einzigen Ereignis-Aufruf, um mehrere Variablen an [!DNL Audience Manager]zu übergeben.
 
-```
-https://<domain>/event?product=camera&price>100
-```
+`https://<domain>/event?product=camera&price>100`
 
 >[!MORELIKETHIS]
 >
