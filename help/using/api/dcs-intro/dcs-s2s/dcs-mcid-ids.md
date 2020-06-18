@@ -1,26 +1,29 @@
 ---
 description: Informationen zum Lesen des Besucher-Cookies für die IDs, die zum Aufrufen der DCS API erforderlich sind, finden Sie in diesem Abschnitt.
 seo-description: Informationen zum Lesen des Besucher-Cookies für die IDs, die zum Aufrufen der DCS API erforderlich sind, finden Sie in diesem Abschnitt.
-seo-title: Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für die Adobe Experience Platform
+seo-title: Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für Adobe Experience Platformen
 solution: Audience Manager
-title: Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für die Adobe Experience Platform
+title: Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für Adobe Experience Platformen
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 2%
 
 ---
 
 
-# Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für die Adobe Experience Platform {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
+# Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für Adobe Experience Platformen {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
-Informationen zum Lesen des Besucher-Cookies für die IDs, die zum Durchführen von [!UICONTROL DCS] API-Aufrufen erforderlich sind, finden Sie in diesem Abschnitt.
+Informationen zum Lesen des Besucher-Cookies für die IDs, die zum Durchführen von [!DNL DCS] API-Aufrufen erforderlich sind, finden Sie in diesem Abschnitt.
 
 ## Abrufen der Benutzer-ID aus dem ID-Dienst-Cookie {#get-user-ids-from-service-cookie}
 
-Der [Adobe Experience Platform-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) weist Benutzern, die Ihre Website besuchen, IDs für Besucher und Regionen zu. Diese IDs identifizieren Benutzer in allen Lösungen in der [!DNL Experience Cloud] und sind erforderlich, wenn Sie [!UICONTROL DCS] Aufrufe tätigen möchten.
+Der Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/en/id-service/using/home.html) weist Benutzern, die Ihre Website besuchen, Besucher- und Regions-IDs zu. Diese IDs identifizieren Benutzer in allen Lösungen in der [!DNL Experience Cloud] und sind erforderlich, wenn Sie [!DNL DCS] Aufrufe tätigen möchten.
 
 * Der [!UICONTROL user ID] ist erforderlich, um Daten zu identifizieren und mit einem bestimmten Besucher zu verbinden.
-* Die [!UICONTROL region ID] ist erforderlich, da sie an einen regionalen Servernamen gebunden ist, den Sie an die [!UICONTROL DCS]Gruppe senden müssen. Die [!UICONTROL DCS] Daten werden in Rechenzentren gespeichert, die den Site-Besuchern am nächsten liegen. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Die [!UICONTROL region ID] ist erforderlich, da sie an einen regionalen Servernamen gebunden ist, den Sie an die [!DNL DCS]Gruppe senden müssen. Die [!DNL DCS] Daten werden in Rechenzentren gespeichert, die den Site-Besuchern am nächsten liegen. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 ID-Dienstkunden können diese Informationen aus dem ID-Dienst-Cookie oder durch Aufruf einer Funktion extrahieren. Die folgende Tabelle beschreibt die Aufgaben oder Schritte, die Sie zum Einstieg ausführen müssen.
 
@@ -35,8 +38,8 @@ Code *kursiv* stellt einen variablen Platzhalter dar.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>1. Überprüfen Sie Ihren <span class="keyword"> Experience Cloud</span> -Status</b> </p> </td> 
-   <td colname="col2"> <p>Sie benötigen ein <span class="keyword"> Experience Cloud</span> -Konto, um den ID-Dienst verwenden zu können. Wenn Sie über ein <span class="keyword"> Experience Cloud</span> -Konto verfügen, großartig! </p> <p> Wenn Sie nicht Teil der <span class="keyword"> Experience Cloud</span>sind, registrieren Sie sich. Wir würden dich gerne haben und es gibt immer Platz für mehr. Anweisungen zum Einrichten eines Kontos finden Sie unter <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> Aktivieren Ihrer Lösungen für Hauptdienste</a>. </p> </td> 
+   <td colname="col1"> <p> <b>1. Überprüfen Sie den Status Ihres <span class="keyword"> Experience Cloud</span></b> </p> </td> 
+   <td colname="col2"> <p>Sie benötigen ein <span class="keyword"> Experience Cloud</span> -Konto, um den ID-Dienst verwenden zu können. Wenn Sie ein <span class="keyword"> Experience Cloud</span> Account haben, super! </p> <p> Wenn Sie nicht Teil des <span class="keyword"> Experience Cloud</span>sind, dann melden Sie sich an. Wir würden dich sehr gerne haben und es gibt immer Platz für mehr. Anweisungen zum Einrichten eines Kontos finden Sie unter <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> Aktivieren Ihrer Lösungen für Hauptdienste</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. Set up the <span class="keyword"> ID service</span></b> </p> </td> 
@@ -69,4 +72,4 @@ Eine andere Möglichkeit, die Besucher-ID abzurufen, ist die `getMarketingCloudV
 
 ## Nächste Schritte {#next-steps}
 
-Sobald Sie über die Benutzer- und Regions-ID verfügen, können Sie Beginn zum Senden und Empfangen von [!UICONTROL DCS] Daten haben. Siehe [Durchführen von DCS-API-Aufrufen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Sobald Sie über die Benutzer- und Regions-ID verfügen, können Sie Beginn zum Senden und Empfangen von [!DNL DCS] Daten haben. Siehe [Durchführen von DCS-API-Aufrufen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
