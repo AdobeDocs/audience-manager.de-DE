@@ -1,53 +1,43 @@
 ---
-description: Eine Übersicht für technische und nicht-technische Kunden, die Daten von anderen Systemen (offline) in Audience Manager einbringen möchten.
-keywords: Inbound, Batch, Batch-Upload, Stapeldaten
-seo-description: Eine Übersicht für technische und nicht-technische Kunden, die Daten von anderen Systemen (offline) in Audience Manager einbringen möchten. Verwenden Sie dazu die Option zum Hochladen von Stapeln in Audience Manager.
+description: Eine Übersicht für technische und nicht-technische Kunden, die Daten aus anderen Systemen (offline) in den Audience Manager bringen möchten.
+keywords: inbound, batch, batch upload, batch data
+seo-description: Eine Übersicht für technische und nicht-technische Kunden, die Daten aus anderen Systemen (offline) in den Audience Manager bringen möchten. Verwenden Sie dazu die Option zum Hochladen von Stapeln in Audience Manager.
 seo-title: Stapeldaten an Audience Manager senden - Übersicht
 solution: Audience Manager
 title: Stapeldaten an Audience Manager senden - Übersicht
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 translation-type: tm+mt
-source-git-commit: 2e3adc8f0b2fe6efd9ca57f1d763ee4476d2edee
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 3%
 
 ---
 
 
-# Stapeldaten an Audience Manager senden - Übersicht{#send-batch-data-to-audience-manager-overview}
+# Stapeldaten an Audience Manager senden - Übersicht {#send-batch-data-to-audience-manager-overview}
 
-Eine Übersicht für technische und nicht-technische Kunden, die Daten von anderen Systemen (offline) in Audience Manager einbringen möchten.
+Eine Übersicht für technische und nicht-technische Kunden, die Daten von anderen Systemen (offline) in [!DNL Audience Manager]einbringen möchten.
 
 ## Vorteile
 
 <!-- c_offline_to_online.xml -->
 
-Sie können Daten aus anderen Systemen in Audience Manager verfügbar machen. Unser System kann Ihnen helfen, Werte zu entsperren und Benutzerdaten zu nutzen, die Sie zuvor gesammelt haben. Dazu gehören Informationen zu Käufen, Kundenumfragen, Registrierungsdaten, [!DNL CRM] Datenbanken usw. Obwohl jede Integration ihre eigenen Herausforderungen darstellt, teilen sie alle diese gemeinsamen Schritte. Überprüfen Sie dieses Material, um den Aufwand für die Online-Nutzung Ihrer Offlinedaten zu reduzieren.
+Sie können Daten aus anderen Systemen in bereitstellen [!DNL Audience Manager]. Unser System kann Ihnen helfen, Werte zu entsperren und Benutzerdaten zu nutzen, die Sie zuvor gesammelt haben. Dazu gehören Informationen zu Käufen, Umfragen von Kunden, Registrierungsdaten, [!DNL CRM] Datenbanken usw. Obwohl jede Integration ihre eigenen Herausforderungen darstellt, teilen sie alle diese gemeinsamen Schritte. Lesen Sie sich dieses Material durch, um den Aufwand für die Online-Nutzung Ihrer Offlinedaten zu reduzieren.
 
 ## Schritt 1: Benutzer-IDs synchronisieren
 
-Während der Synchronisierung weist Audience Manager Kunden und ihren Benutzern eindeutige IDs zu. Diese IDs werden als [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) bzw. [!UICONTROL Unique User ID] ([!UICONTROL UUID]) bezeichnet. Audience Manager verwendet das [!UICONTROL DPID] und [!UICONTROL UUID] , um Benutzer zu identifizieren und sie für Eigenschaften, Segmente, Zielgruppen und Berichte zu qualifizieren. Zusätzlich sucht unser Datenerfassungscode ([!UICONTROL DIL]) nach diesen IDs, um Besucherdaten von Ihrer Website zu erfassen. Wenn dieser Schritt abgeschlossen ist, sollten Audience Manager und Ihr Offline-Repository für jeden Benutzerdatensatz entsprechende IDs enthalten.
+Weist während der Synchronisierung Kunden und ihren Benutzern eindeutige IDs zu. [!DNL Audience Manager] Diese IDs werden als [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) bzw. [!UICONTROL Unique User ID] ([!UICONTROL UUID]) bezeichnet. [!DNL Audience Manager] verwendet das [!UICONTROL DPID] und [!UICONTROL UUID] , um Benutzer zu identifizieren und sie für Eigenschaften, Segmente, Audiencen und Berichte zu qualifizieren. Darüber hinaus sucht unser Datenerfassungscode ([!UICONTROL DIL]) nach diesen IDs, um Besucher-Daten von Ihrer Website zu erfassen. Wenn dieser Schritt abgeschlossen ist [!DNL Audience Manager] und Ihr Offline-Repository für jeden Benutzerdatensatz entsprechende IDs enthalten sollte.
 
 Wichtige Überlegungen zu diesem Schritt:
 
-* **** Platzierung der Client-ID: Audience Manager muss wissen, wo Ihre Client-ID auf Ihrer Website angezeigt wird (z. B. in einem Cookie, einer Analytics-Variablen, im Seiten-Code usw.).
-* **[!DNL PII]Ausschließen**: Benutzer-IDs dürfen keine personenbezogenen Informationen enthalten ([!DNL PII]).
-* **** Groß- und Kleinschreibung und Inhaltsempfindlichkeit: Während einer Echtzeit-Datensynchronisierung müssen Benutzer-IDs, die von Audience Manager von Ihrer Site erfasst werden, den von Ihrem Offline-Repository weitergeleiteten IDs entsprechen. Wenn z. B. Offlinedokumente Informationen über [!DNL User123]die ID enthalten, diese aber von Ihrer Site als [!DNL USER123]dargestellt wird, sieht Audience Manager diese als unterschiedliche Besucher an. Daher können Online-Informationen für diesen Besucher nicht mit den entsprechenden Datensätzen in Ihrer Offline-Datenbank verknüpft werden. IDs müssen exakt übereinstimmen.
+* **Platzierung der Client-ID:** [!DNL Audience Manager] muss wissen, wo Ihre Client-ID auf Ihrer Website angezeigt wird (z. B. in einem Cookie, einer Analytics-Variablen, im Seitencode usw.).
+* **Ausschließen[!DNL PII]:** Benutzer-IDs dürfen keine personenbezogenen Informationen enthalten ([!DNL PII]).
+* **Groß- und Kleinschreibung und Inhaltsempfindlichkeit:** Während einer Echtzeit-Datensynchronisierung müssen Benutzer-IDs, die von Ihrer Site erfasst werden, den IDs entsprechen, die von Ihrem Offline-Repository weitergegeben werden. [!DNL Audience Manager] Wenn z. B. Offlinedokumente Informationen über [!DNL User123][!DNL USER123]die ID enthalten, diese aber von Ihrer Site gerendert wird, sieht der Audience Manager diese als unterschiedliche Besucher. Daher können Online-Informationen für diesen Besucher nicht mit den entsprechenden Datensätzen in Ihrer Offlinedatenbank verknüpft werden. IDs müssen exakt übereinstimmen.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
-<!-- 
-
-<p> <b>Step 2: Create a Translation File</b> </p> 
-<p>A translation file classifies data according to uniform and logical hierarchy. It is a taxonomy that helps you organize information from general categories (e.g., geography) to more precise classifications (e.g., <i>geography > United States > New York</i>). Also, it labels data with to easy to understand names such as "gender=male" or "color=green" instead of with your internal SKUs, abbreviations, or other names. The file lets Audience Manager display this information in a readable, logical manner. You and your data partners must create and share the translation file with Audience Manager before any real-time or server-to-server data transfers can begin. You can update this file on a schedule relevant to your business needs. </p> 
-<p>Important considerations about this step: </p> 
-<ul id="ul_6A05AECB0BD649B1BF1B34058E9008E2"> 
- <li id="li_39817ED898F14156A77FCAC066FE0968"> <b>Create a comprehensive list:</b> The translation file must include all the possible values that can be passed in on a particular key. For example, if you have category key called "color" and it accepts the values "red," "green," and "blue," the translation file must contain <i>all</i> those elements. </li> 
- <li id="li_19CAD7683BCF45278E2991C1EDBC9903"> <b>Case and content sensitivity:</b> The key-values in the file must match the values actually passed in to Audience Manager from your website. </li> 
-</ul> 
-<p>See DATA TRANSLATION FILE. </p>
-
- -->
-
-## Schritt 2:Datendateiformat
+## Schritt 2: Datendateiformat
 
 Dateinamen und Inhalte folgen strikten Richtlinien. Sie *müssen* Datendateien entsprechend den Spezifikationen in diesem Handbuch benennen und organisieren. Siehe:
 
@@ -56,11 +46,11 @@ Dateinamen und Inhalte folgen strikten Richtlinien. Sie *müssen* Datendateien e
 
 ## Online-Daten stehen für Offline-Marketingbemühungen zur Verfügung
 
-Wenn Sie Offlinedaten online stellen, können Sie diese Informationen weiterhin für Offlinekampagnen verwenden. Zu diesem Zweck exportiert Audience Manager Eigenschaften- und Segmentinformationen an einen [!DNL FTP] oder [!DNL Amazon S3] einen Ort Ihrer Wahl. Wenden Sie sich für weitere Informationen oder Unterstützung an Ihren Partner Solutions Manager.
+Wenn Sie Offlinedaten online stellen, können Sie diese Informationen weiterhin für Offline-Kampagnen verwenden. Exportiert dazu Eigenschaften- und Segmentinformationen [!DNL Audience Manager] an einen [!DNL FTP] oder [!DNL Amazon S3] einen Ort Ihrer Wahl. Wenden Sie sich für weitere Informationen oder Unterstützung an Ihren Partner Solutions Manager.
 
-## Umgebungen
+## Umgebung
 
-Audience Manager bietet die folgenden Umgebungen für das Ablegen von Dateien:
+[!DNL Audience Manager] stellt die folgenden Umgebung für das Ablegen von Dateien bereit:
 
 <table id="table_A61AA64578944B23B5A7355F2A76E882"> 
  <thead> 
