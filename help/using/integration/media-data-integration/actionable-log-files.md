@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1378'
 ht-degree: 3%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 3%
 
 Um damit beginnen zu können, [!UICONTROL Actionable Log Files]müssen Sie Protokolldaten in importieren [!DNL Audience Manager]. Die folgenden Links helfen Ihnen beim Einstieg:
 
-* Protokolle [!UICONTROL Google DCM] finden Sie unter [Importieren von DCM-Datendateien in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
-* Protokolle [!UICONTROL Google DFP] finden Sie unter DFP-Datendateien in Audience Manager [importieren](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) und *wenden Sie sich an Ihren* [!DNL Audience Manager] Berater.
+* Protokolle [!UICONTROL Google DCM] finden Sie unter DCM-Datendateien in Audience Manager [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
+* Protokolle [!UICONTROL Google DFP] finden Sie unter DFP-Datendateien in Audience Manager [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 * Weitere Anzeigenserverprotokolle finden Sie unter [Daten- und Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 
 Wenn Sie bereits Protokolldaten importieren, bitten Sie Ihren [!DNL Audience Manager]Berater oder die [!DNL Audience Manager] Kundenunterstützung [, diese](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) [!UICONTROL Actionable Log Files] für Sie zu aktivieren.
@@ -45,7 +45,7 @@ Wenn Sie bereits Protokolldaten importieren, bitten Sie Ihren [!DNL Audience Man
 
 Damit [!UICONTROL Actionable Log Files]werden die Informationen aus den Anzeigenserverprotokollen auf [!DNL Audience Manager] dieselbe Weise erfasst wie Daten aus Website-Interaktionen in Echtzeit. [!DNL Audience Manager] stellt eine Verbindung zu Ihrer Datenspeicherung des Anzeigenserverprotokolls her, analysiert die Informationen aus den Protokollen und sendet die Protokolldaten als umsetzbare Signale an unsere [Datenerfassungsserver](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-Sie müssen weiterhin regelbasierte Eigenschaften einrichten, um die umsetzbaren Signale zu erfassen. Erfahren Sie, wie Sie regelbasierte Eigenschaften entweder in der Benutzeroberfläche [des](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager oder mithilfe unserer [Massenverwaltungswerkzeuge](../../reference/bulk-management-tools/bulk-create.md)einrichten. Blättern Sie nach unten zum Abschnitt [Akzeptable Signale](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) für eine Liste aller Schlüssel, die Sie in regelbasierten Eigenschaften verwenden können.
+Sie müssen weiterhin regelbasierte Eigenschaften einrichten, um die umsetzbaren Signale zu erfassen. Erfahren Sie, wie Sie regelbasierte Eigenschaften entweder in der Benutzeroberfläche [des](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Managers oder mithilfe unserer [Massenverwaltungswerkzeuge](../../reference/bulk-management-tools/bulk-create.md)einrichten. Blättern Sie nach unten zum Abschnitt [Akzeptable Signale](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) für eine Liste aller Schlüssel, die Sie in regelbasierten Eigenschaften verwenden können.
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ Die Tabelle Liste die aussagekräftigen Signale aus den [!DNL DCM] Protokolldate
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dies nicht mit Audience Manager-Datenquellen in Zusammenhang steht.</p> <p>Dieses Feld ordnet die Advertiser-Gruppen-ID von DCM zu. </p> </td> 
+   <td colname="col3"><p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dies nicht mit den Datenquellen des Audience Managers in Zusammenhang steht.</p> <p>Dieses Feld ordnet die Advertiser-Gruppen-ID von DCM zu. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -196,7 +196,7 @@ Zunächst müssen Sie Ihre Anzeigenserverprotokolle in unseren Amazon S3-Behält
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dieses Feld nicht mit <a href="../../features/datasources-list-and-settings.md">Audience Manager-Datenquellen in Zusammenhang steht.</a></p></td> 
+   <td colname="col3"> <p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dieses Feld nicht mit den Datenquellen des <a href="../../features/datasources-list-and-settings.md">Audience Managers in Zusammenhang steht.</a></p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -249,7 +249,7 @@ Die in der Tabelle beschriebenen Signale werden [!DNL Audience Manager] wie ein 
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
-## Arbeiten mit ausführbaren Signalen in der Benutzeroberfläche von Audience Manager {#actionable-signals-in-ui}
+## Arbeiten mit funktionsfähigen Signalen in der Benutzeroberfläche des Audience Managers {#actionable-signals-in-ui}
 
 Sie können Ihre eingehenden umsetzbaren Signale in der [Signalsuche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) -Oberfläche Ansicht haben.
 
