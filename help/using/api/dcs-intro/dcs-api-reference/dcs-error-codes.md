@@ -6,10 +6,10 @@ solution: Audience Manager
 title: DCS-Fehlercodes, Nachrichten und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ff245c2cca417e9b1fd51460ddbadd25d5696006
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 4%
+source-wordcount: '1509'
+ht-degree: 3%
 
 ---
 
@@ -22,76 +22,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Systemfehlercodes {#system-error-codes}
 
-<table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Code-ID </th> 
-   <th colname="col2" class="entry"> Fehlermeldung </th> 
-   <th colname="col3" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>0 </p> </td> 
-   <td colname="col2"> <p>Nicht spezifizierter Fehler </p> </td> 
-   <td colname="col3"> <p>Dies ist ein allgemeiner Fehler, der Ereignis verarbeitet, die nicht von den anderen Fehlerhandlern abgedeckt werden. Die Behebung dieses Fehlers ist schwierig. Sie kann durch eine Vielzahl unbekannter Aktionen oder Ereignisse verursacht werden. </p> <p>Wenn Sie diesen Fehler erhalten, versuchen Sie es erneut mit Ihrer <span class="wintitle"> DCS</span> -Anforderung. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, wenn das Problem weiterhin besteht. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>config für Hostname konnte nicht gefunden werden: <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>Der Hostname, der in der Anfrage gesendet wurde, wurde nicht von unserem Partner-Bereitstellungsteam eingerichtet. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, wenn diese Fehlermeldung angezeigt wird. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Ungültiger <code> d_orgid</code> Wert (die Konfiguration für diese Organisations-ID konnte nicht gefunden werden): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Die Organisations-ID ist nicht korrekt. </p> <p>Überprüfen Sie Ihre ID und versuchen Sie es erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder noch nicht über eine solche verfügen, finden Sie Informationen dazu, wie Sie diese finden, im Abschnitt "Administrationsseite"in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organisationen und unter Kontoverknüpfung</a> . </p> </td> 
-  </tr>
- </tbody>
-</table>
+|Fehlercode|Fehlermeldung|Beschreibung|
+|—|—|—|
+|0|Nicht angegebener Fehler|Dies ist ein Sammelfehler, der Ereignis verarbeitet, die nicht von den anderen Fehlerhandlern abgedeckt werden. Die Behebung dieses Fehlers ist schwierig. Sie kann durch eine Vielzahl unbekannter Aktionen oder Ereignisse verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie es erneut mit Ihrer [!DNL DCS] Anforderung. Wenden Sie sich an Ihren [!DNL Adobe] Kundenbetreuer, wenn das Problem weiterhin besteht.|
+|1|Die Konfiguration für den Hostnamen konnte nicht gefunden werden: `hostname`|Der Hostname, der in der Anfrage gesendet wurde, wurde nicht von unserem Partnerbereitstellungsteam eingerichtet. Wenden Sie sich an Ihren [!DNL Adobe] Kundenbetreuer, wenn diese Fehlermeldung angezeigt wird.|
+|2|Ungültiger `d_orgid` Wert (die Konfiguration für diese Organisations-ID konnte nicht gefunden werden): `ID`|Die Organisations-ID ist nicht korrekt. Überprüfen Sie Ihre ID und versuchen Sie es erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder noch nicht über eine solche verfügen, finden Sie weitere Informationen dazu, wie Sie diese finden, im Abschnitt &quot; [Organisationen und Kontoverknüpfungen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) &quot;unter &quot;Administrationsseite&quot;.|
 
 ## Integrationsfehlercodes {#integration-error-codes}
 
-<table id="table_EFF06FB3D045459BA7802872AF22DF79"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Code-ID </th> 
-   <th colname="col2" class="entry"> Nachricht </th> 
-   <th colname="col3" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>100 </p> </td> 
-   <td colname="col2"> <p>Hostname für Anforderung konnte nicht abgerufen werden </p> </td> 
-   <td colname="col3"> <p>Ein API-Aufruf hat den Host-HTTP-Header in der Anforderung nicht gesendet. </p> <p>Hinzufügen Host-Header zum Aufruf und versuchen Sie es erneut. Beachten Sie, dass dies in den meisten Browsern und API-Clients automatisch erfolgt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Ungültige Experience Cloud-ID übergeben <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Der <span class="wintitle"> DCS</span> -Aufruf enthält eine ungültige <span class="keyword"> Experience Cloud</span> -ID. </p> <p>Überprüfen Sie das <code> d_mid=</code> Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige <span class="keyword"> Experience Cloud</span> -ID eingeben und versuchen Sie es erneut. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>Ungültige AAM-ID in Anfrage weitergegeben <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Der <span class="wintitle"> DCS</span> -Aufruf enthält eine ungültige <span class="keyword"> Audience Manager</span> -ID. </p> <p>Überprüfen Sie das <code> d_uuid=</code> Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige <span class="keyword"> Audience Manager</span> -ID eingeben und versuchen Sie es erneut. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>Alle Kunden-IDs sind ungültig </p> </td> 
-   <td colname="col3"> <p>Alle Kunden-IDs in Ihrem Aufruf sind ungültig. Überprüfen Sie Ihre IDs und versuchen Sie es erneut. </p> </td> 
-  </tr>
-    <tr> 
-   <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>Referrer <code>HTTP referer</code> ist für Partner nicht zulässig <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>Die <code>HTTP referer</code> Kopfzeile im Aufruf ist für die Partner-ID im Aufruf nicht zulässig. Überprüfen Sie, ob die <code>HTTP referer</code> Kopfzeile korrekt ist.</p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>Ungültiges <span class="wintitle"> IMS</span> -Token erhalten </p> </td> 
-   <td colname="col3"> <p>Für Audience Manager - Adobe Target-Integrationen zurückgegeben. Der Fehler wird ausgegeben, wenn ein DCS-Aufruf mit einem ungültigen IMS-Token erfolgt. Das Token ist möglicherweise fehlerhaft, abgelaufen oder der Benutzer ist möglicherweise nicht berechtigt, auf die erforderliche Ressource zuzugreifen. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Fehlercode|Fehlermeldung|Beschreibung|
+|—|—|—|
+|100|Der Hostname für die Anforderung konnte nicht abgerufen werden|Ein [!DNL API] Aufruf hat den Host- [!DNL HTTP] Header in der Anforderung nicht gesendet. Hinzufügen Sie den Host-Header auf den Aufruf und versuchen Sie es erneut. Die meisten Browser und [!DNL API] Clients tun dies automatisch. |
+|101|Ungültige [!DNL Experience Cloud] ID übergeben `ID`|Der [!DNL DCS] Aufruf enthält eine ungültige [!DNL Experience Cloud] ID. Überprüfen Sie das `d_mid=` Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige [!DNL Experience Cloud] ID übergeben, und versuchen Sie es erneut. |
+|102|Ungültige [!DNL AAM ID] weitergeleitete Anforderung `ID`|Der [!DNL DCS] Aufruf enthält eine ungültige [!DNL Audience Manager] ID. Überprüfen Sie das `d_uuid=` Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige [!DNL Audience Manager] ID übergeben, und versuchen Sie es erneut. |
+|104|Alle Kunden-IDs sind ungültig | Alle Kunden-IDs in Ihrem Aufruf sind ungültig. Überprüfen Sie Ihre IDs und versuchen Sie es erneut.|
+|109|Referrer `HTTP referer` ist für Partner nicht zulässig `Partner ID`|Die `HTTP referer` Kopfzeile im Aufruf ist für die Partner-ID im Aufruf nicht zulässig. Überprüfen Sie, ob die `HTTP referer` Kopfzeile korrekt ist.|
+|111|Ungültiger `IMS` Token erhalten|Zurückgegeben für [!DNL Audience Manager] - [!DNL Adobe Target] Integrationen. Der Fehler wird ausgegeben, wenn ein Aufruf an die [!DNL DCS]Seite mit einem ungültigen [!DNL IMS] Token erfolgt. Das Token ist möglicherweise fehlerhaft, abgelaufen oder der Benutzer ist möglicherweise nicht berechtigt, auf die erforderliche Ressource zuzugreifen.|
 
 ## Ausschluss-Fehlercodes {#opt-out-error-codes}
 
