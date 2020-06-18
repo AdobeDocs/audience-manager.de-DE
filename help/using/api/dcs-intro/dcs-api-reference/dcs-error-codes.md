@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS-Fehlercodes, Nachrichten und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # DCS-Fehlercodes, Nachrichten und Beispiele {#dcs-error-codes-messages-and-examples}
 
-Fehlercodes und Meldungen, die von der [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]) in numerischer Reihenfolge nach Code-ID generiert werden.
+Fehlercodes und Meldungen, die von der [!UICONTROL Data Collection Servers] ([!DNL DCS]) in numerischer Reihenfolge nach Code-ID generiert werden.
 
 In the tables below, *italics* represents a variable placeholder.
 
@@ -67,8 +67,8 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Ungültige Experience Cloud-ID weitergegeben <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Der <span class="wintitle"> DCS</span> -Aufruf enthält eine ungültige <span class="keyword"> Experience Cloud</span> -ID. </p> <p>Überprüfen Sie das <code> d_mid=</code> Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige <span class="keyword"> Experience Cloud</span> -ID übermitteln, und versuchen Sie es erneut. </p> </td> 
+   <td colname="col2"> <p>Ungültige Experience Cloud-ID übergeben <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>Der <span class="wintitle"> DCS</span> -Aufruf enthält eine ungültige <span class="keyword"> Experience Cloud</span> -ID. </p> <p>Überprüfen Sie das <code> d_mid=</code> Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige <span class="keyword"> Experience Cloud</span> -ID eingeben und versuchen Sie es erneut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
@@ -88,7 +88,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
    <td colname="col2"> <p>Ungültiges <span class="wintitle"> IMS</span> -Token erhalten </p> </td> 
-   <td colname="col3"> <p>Für Audience Manager - Adobe Zielgruppe-Integrationen zurückgegeben. Der Fehler wird ausgegeben, wenn ein DCS-Aufruf mit einem ungültigen IMS-Token erfolgt. Das Token ist möglicherweise fehlerhaft, abgelaufen oder der Benutzer ist möglicherweise nicht berechtigt, auf die erforderliche Ressource zuzugreifen. </p> </td>
+   <td colname="col3"> <p>Für Audience Manager - Adobe Target-Integrationen zurückgegeben. Der Fehler wird ausgegeben, wenn ein DCS-Aufruf mit einem ungültigen IMS-Token erfolgt. Das Token ist möglicherweise fehlerhaft, abgelaufen oder der Benutzer ist möglicherweise nicht berechtigt, auf die erforderliche Ressource zuzugreifen. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -247,7 +247,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Anforderung enthält eine ungültige globale Geräte-ID </p> </td> 
-   <td colname="col3"> <p>Der <span class="wintitle">DCS</span> gibt diesen Fehlercode zurück, wenn die Anforderung eine ungültige globale Geräte-ID enthält. DCS ignoriert die ungültige ID und gibt einen 312-Fehler zusammen mit den spezifischen Fehlern der ungültigen ID aus. Detaillierte Informationen zu den richtigen <a href="../../../features/global-data-sources.md" format="dita" scope="local">Anzeigen-ID-Formaten und den entsprechenden globalen Datenquellen finden Sie in Audience Manager</a> unter Globale Datenquellen <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">und</a> IDs.</p>
+   <td colname="col3"> <p>Der <span class="wintitle">DCS</span> gibt diesen Fehlercode zurück, wenn die Anforderung eine ungültige globale Geräte-ID enthält. DCS ignoriert die ungültige ID und gibt einen 312-Fehler zusammen mit den spezifischen Fehlern der ungültigen ID aus. Detaillierte Informationen zu den richtigen <a href="../../../features/global-data-sources.md" format="dita" scope="local">Anzeigen-ID-Formaten und den entsprechenden globalen Datenquellen finden Sie im Audience Manager</a> unter "Globale Datenquellen <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">und</a> ID-Index"unter den entsprechenden globalen Datenquellen.</p>
    <p>Beispiel für einen falschen Aufruf: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Erklärung: Eine <span class="keyword">IDFA (DPID 20915)</span> muss eine Groß-/Kleinschreibung sein. Die in der Anforderung angegebene ID ist klein.</p>
    </td>
@@ -255,18 +255,18 @@ In the tables below, *italics* represents a variable placeholder.
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>CMP-ID ist in GCL nicht vorhanden</p> </td> 
-   <td colname="col3"> <p>Wenn <code>gdpr=1</code> und die IAB-TC-Zeichenfolge durch eine CMP-ID generiert wird, die zum Zeitpunkt der Auswertung nicht in der zwischengespeicherten Version der Global CMP-Liste von Audience Manager vorhanden ist, verwirft das Audience Manager-Plug-in für IAB TCF die IAB-TC-Zeichenfolge und verarbeitet die Anforderung wie gewohnt. Das IAB TCF v2.0 ${GDPR} Makro ist auf 0 gesetzt und das ${GDPR_CONSENT_XXX} Makro ist leer.</p>
+   <td colname="col3"> <p>Wenn <code>gdpr=1</code> und die IAB-TC-Zeichenfolge durch eine CMP-ID generiert wird, die zum Zeitpunkt der Auswertung nicht in der zwischengespeicherten Version der Global CMP-Liste des Audience Managers vorhanden ist, verwirft das Audience Manager-Plug-in für die IAB-TCF die IAB-TC-Zeichenfolge und verarbeitet die Anforderung wie gewohnt. Das IAB TCF v2.0 ${GDPR} Makro ist auf 0 gesetzt und das ${GDPR_CONSENT_XXX} Makro ist leer.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>CMP-ID wird als in GCL gelöscht gekennzeichnet</p> </td> 
-   <td colname="col3"> <p>Wenn <code>gdpr=1</code> und die IAB-TC-Zeichenfolge von einem CMP generiert wird, der in unserer zwischengespeicherten Version der Global CMP-Liste als gelöscht gekennzeichnet ist, verwirft das Audience Manager-Plug-in für IAB TCF die TC-Zeichenfolge und verarbeitet die Anforderung wie gewohnt, wenn die Bewertungszeit über die Löschzeit aus der Global CMP-Liste hinausgeht. Das IAB TCF v2.0 ${GDPR} Makro ist auf 0 gesetzt und das ${GDPR_CONSENT_XXX} Makro ist leer.</p></td>
+   <td colname="col3"> <p>Wenn <code>gdpr=1</code> und die IAB-TC-Zeichenfolge von einem CMP generiert wird, der in unserer zwischengespeicherten Version der Global CMP-Liste als gelöscht gekennzeichnet ist, verwirft das Audience Manager-Plug-in für die IAB-TCF die TC-Zeichenfolge und verarbeitet die Anforderung wie gewohnt, wenn die Bewertungszeit über die Löschzeit aus der Global CMP-Liste hinausgeht. Das IAB TCF v2.0 ${GDPR} Makro ist auf 0 gesetzt und das ${GDPR_CONSENT_XXX} Makro ist leer.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
    <td colname="col2"> <p>Die Zeichenfolge für die Zustimmung gibt keine Zustimmung</p> </td> 
-   <td colname="col3"> <p>Wenn keine Einwilligung angegeben wird, schließt das Audience Manager-Plug-in für die IAB-TCF den Benutzer von der weiteren Datenerfassung ab oder löscht den Aufruf vollständig, wenn kein Partnerkontext erkannt wurde.</p>
+   <td colname="col3"> <p>Wenn keine Zustimmung erteilt wird, schließt das Audience Manager-Plug-in für die IAB-TCF den Benutzer von der weiteren Datenerfassung ab oder löscht den Aufruf vollständig, wenn kein Partnerkontext erkannt wurde.</p>
    </td>
   </tr>
 
@@ -275,7 +275,7 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Beispielfehlermeldungen {#sample-error-codes}
 
-Die [!UICONTROL DCS] gibt Fehlercodes und -meldungen in einem [!DNL JSON] Objekt oder in einem X-Header in der HTTP-Antwort-Zeichenfolge zurück.
+Die [!DNL DCS] gibt Fehlercodes und -meldungen in einem [!DNL JSON] Objekt oder in einem X-Header in der HTTP-Antwort-Zeichenfolge zurück.
 
 ### Beispiel-DCS-Fehlercode und -Meldung
 
