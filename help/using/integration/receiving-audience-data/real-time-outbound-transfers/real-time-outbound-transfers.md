@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Ausgehende Datenübertragungen in Echtzeit
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 4%
 
 ---
 
@@ -21,13 +24,13 @@ Der ausgehende Echtzeit-Datenübertragungsprozess liefert Benutzerdaten als eine
 
 Um diese Methode zu verwenden, muss die Zielplattform die folgenden Anforderungen erfüllen:
 
-* Es muss einen Endpunkt bereitstellen, [!DNL URL] der skaliert werden kann, um ein hohes Volumen an Nachrichten von Audience Manager zu erhalten.
+* Es muss einen Endpunkt bereitstellen, [!DNL URL] der skalierbar sein kann, um ein hohes Volumen an Nachrichten von Audience Manager zu empfangen.
 * Sie muss Daten im [!DNL JSON] Format (`Content-type: application/json`) annehmen.
 * Es muss sichere `HTTPS` Datenübertragungen akzeptieren. [!DNL Audience Manager] sendet keine Nachrichten über das unsichere `HTTP` Protokoll.
 
 ## Häufigkeit
 
-Mit dieser Datenübertragungsmethode können Daten in Echtzeit gesendet werden, wenn Benutzer sich für Segmente qualifizieren. Echtzeit-Nachrichten werden nur gesendet, wenn der Benutzer online ist und aktiv für das Audience Manager Edge-Netzwerk sichtbar ist. Optional kann diese Methode auch Stapel von Offline- oder Onboarded-Daten so oft wie alle 24 Stunden senden.
+Mit dieser Datenübertragungsmethode können Daten in Echtzeit gesendet werden, wenn Benutzer sich für Segmente qualifizieren. Echtzeit-Nachrichten werden nur gesendet, wenn der Benutzer online ist und aktiv für das Edge-Netzwerk des Audience Managers sichtbar ist. Optional kann diese Methode auch Stapel von Offline- oder Onboarded-Daten so oft wie alle 24 Stunden senden.
 
 ## Stapelübertragungen
 
@@ -39,7 +42,7 @@ Für den Durchsatz bereitgestellter Nachrichten gibt es keine Ratenbeschränkung
 
 ## Erforderliche Antworten
 
-Standardmäßig muss der Empfängerserver den `200 OK` Code zurückgeben, um eine erfolgreiche Quittung anzuzeigen. Andere Codes werden als Fehler interpretiert. Diese Antwort wird innerhalb von 3000 Millisekunden erwartet. Bei einem Fehler [!DNL Audience Manager] wird nur ein Wiederholungsversuch durchgeführt.
+Standardmäßig muss der Empfänger-Server den `200 OK` Code zurückgeben, um eine erfolgreiche Quittung anzuzeigen. Andere Codes werden als Fehler interpretiert. Diese Antwort wird innerhalb von 3000 Millisekunden erwartet. Bei einem Fehler [!DNL Audience Manager] wird nur ein Wiederholungsversuch durchgeführt.
 
 ## Parameter
 
@@ -57,7 +60,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
   <tr valign="top"> 
    <td colname="col1"> <code><i>ProcessTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>Zeitpunkt der Ausführung der Anforderung. </p> </td> 
+   <td colname="col3"> <p>Zeitpunkt, zu dem die Anforderung ausgeführt wurde. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_DPID</i></code> </td> 
@@ -72,12 +75,12 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Stellt das Zielkonto in der Zielplattform dar. Diese ID stammt von der Zielplattform.</p> </td> 
+   <td colname="col3"> <p>Stellt das Zielgruppen-Konto in der Zielplattform dar. Diese ID stammt von der Zielplattform.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Die ID des Zielobjekts von Audience Manager. Diese ID stammt aus Audience Manager.</p> </td> 
+   <td colname="col3"> <p>Die ID des Audience Manager-"target"-Objekts. Diese ID stammt von Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -92,7 +95,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die UUID für <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col3"> <p>Der <span class="keyword"> Audience Manager</span> HAT SICH GEEIGNET. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -102,7 +105,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> Die <span class="keyword"> Audience Manager</span> -Regions-ID, in der wir dieses Gerät gesehen haben. Wenn das Gerät z. B. in Paris (Europa) aktiv wäre, wäre die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
+   <td colname="col3"> Die <span class="keyword"> Audience Manager</span> -Regions-ID, auf der wir dieses Gerät gesehen haben. Wenn das Gerät z. B. in Paris (Europa) eine Aktivität hätte, wäre die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -112,7 +115,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Der Bezeichner für das Segment. In den meisten Fällen ist dies die vom Audience Manager generierte Segment-ID (eine Ganzzahl). In einigen Fällen können Kunden, sofern die Zielplattform dies zulässt, die Segmentkennung in der Benutzeroberfläche von Audience Manager definieren (Feld "open text"), die dann in dieser Eigenschaft angezeigt wird. </p> </td> 
+   <td colname="col3"> <p>Der Bezeichner für das Segment. In den meisten Fällen ist dies die vom Audience Manager generierte Segment-ID (eine Ganzzahl). In einigen Fällen können Kunden, sofern die Zielplattform dies zulässt, die Segmentkennung in der Benutzeroberfläche des Audience Managers definieren (Open Text Field), die dann in dieser Eigenschaft übernommen wird. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
@@ -139,7 +142,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
 
 ## Sicherheit
 
-Sie können Ihren ausgehenden Datenübertragungsprozess in Echtzeit durch [Signieren von HTTP-Anfragen](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) mit privaten Schlüsseln oder durch [!DNL Audience Manager] Authentifizierung über das [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) -Protokoll sichern.
+Sie können Ihren ausgehenden Datenübermittlungsprozess in Echtzeit durch [Signieren von HTTP-Anfragen](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) mit privaten Schlüsseln oder durch [!DNL Audience Manager] Authentifizierung über das [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) -Protokoll sichern.
 
 ## Anfrage
 
