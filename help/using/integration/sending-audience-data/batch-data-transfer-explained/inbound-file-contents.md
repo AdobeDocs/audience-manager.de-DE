@@ -6,12 +6,15 @@ solution: Audience Manager
 title: Syntax der Inbound-Datendateiinhalte, ungültige Zeichen, Variablen und Beispiele
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1245'
+ht-degree: 3%
 
 ---
 
 
-# Inhalt der eingehenden Datendatei: Syntax, ungültige Zeichen, Variablen und Beispiele{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Inhalt der eingehenden Datendatei: Syntax, ungültige Zeichen, Variablen und Beispiele {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Erforderliche Felder, Syntax und Regeln, die Sie beim Formatieren einer eingehenden Eigenschaftendatendatei beachten sollten.
 
@@ -29,7 +32,8 @@ Weitere akzeptierte Dateiinhaltsformate finden Sie unter [Benutzerdefinierte Par
 >
 >Wir haben eine Grenze von 200 Zeilen, die wir für jede Benutzer-ID verarbeiten können, die in der eingehenden Datendatei gesendet wird. Wenn Sie beispielsweise 300 Zeilen für eine Benutzer-ID senden, werden die ersten 200 Zeilen beibehalten und die zusätzlichen 100 Zeilen verworfen. Im folgenden Beispiel sind Sie gut, weil Sie jeweils 3 Zeilen für Benutzer-ID 1 und Benutzer-ID 2 senden. Wir erzwingen keine Begrenzung der Anzahl der Eigenschaften oder Schlüssel-Wert-Paare, die Sie in eine Zeile einbeziehen.
 >
->```
+>
+```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
@@ -40,7 +44,7 @@ Weitere akzeptierte Dateiinhaltsformate finden Sie unter [Benutzerdefinierte Par
 
 ## Definierte Dateivariablen {#file-variables-defined}
 
-In der Tabelle sind die Variablen aufgeführt und definiert, die in einer ordnungsgemäß formatierten eingehenden Datendatei verwendet werden. Eine *kursive* Formatierung gibt einen Variablenplatzhalter an.
+Die Tabelle Liste und definiert die Variablen, die in einer ordnungsgemäß formatierten eingehenden Datendatei verwendet werden. Eine *kursive* Formatierung gibt einen Variablenplatzhalter an.
 
 <table id="table_FE043CE392B34D5194111188E5C39671"> 
  <thead> 
@@ -59,8 +63,8 @@ In der Tabelle sind die Variablen aufgeführt und definiert, die in einer ordnun
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Eine mobile Android- oder iOS-Geräte-ID in ihrem ursprünglichen, unveränderten Formular, wie vom mobilen Betriebssystem verfügbar. </li> 
      </ul> </p> <p>Für mobile IDs: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
-      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA-Format: IDs müssen in Großbuchstaben und nicht mit Hashing versehen sein. Beispiel, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android-Format: IDs müssen in Kleinbuchstaben und nicht mit Hashing versehen sein. Beispiel, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA-Format: IDs müssen in Großbuchstaben und nicht mit Hashing versehen sein. Beispiel: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android-Format: IDs müssen in Kleinbuchstaben vorliegen und dürfen nicht mit Hashing versehen werden. Beispiel: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +73,7 @@ In der Tabelle sind die Variablen aufgeführt und definiert, die in einer ordnun
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>Die <span class="keyword"> Eigenschaften-ID von Audience Manager </span> . Wir bitten Sie, <i>nur Eigenschaften</i> an Bord in eingehende Datendateien einzuschließen. Bei der eingehenden Datenübertragung werden keine anderen Eigenschaftsarten verarbeitet. </p> <p> <p>Hinweis:  Die Eigenschaften-ID kann mithilfe der GET-Methode gefunden werden, die Details zu all Ihren Eigenschaften zurückgibt. Weitere Informationen finden Sie unter <a href="../../../api/rest-api-main/api-traits.md"> Eigenschaften-API-Methoden </a>. </p> </p> </td> 
+   <td colname="col2"> <p>Die <span class="keyword"> Audience Manager- </span> Eigenschaften-ID. Wir bitten Sie, <i>nur Eigenschaften</i> an Bord in eingehende Datendateien einzuschließen. Bei der eingehenden Datenübertragung werden keine anderen Eigenschaftsarten verarbeitet. </p> <p> <p>Hinweis:  Die Eigenschaften-ID kann mithilfe der GET-Methode gefunden werden, die Details zu all Ihren Eigenschaften zurückgibt. Weitere Informationen finden Sie unter <a href="../../../api/rest-api-main/api-traits.md"> Eigenschaften-API-Methoden </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,12 +100,12 @@ In der folgenden Tabelle werden die Präfixe beschrieben, die Eigenschaftsnamen 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Mit Eigenschaftsregeln </a> können Sie Kriterien für die Eigenschaftsqualifikation festlegen. Wenn Sie eine Eigenschaftsregel wie <code> ic == trait ID </code>folgt formatieren, können Sie Eigenschaften in einer einfachen kommageformatierten Liste senden. </p> <p>Beispiel: Sie erstellen die folgenden 3 Eigenschaftenregeln: </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Mit Eigenschaftsregeln </a> können Sie Kriterien für die Eigenschaftsqualifikation festlegen. Wenn Sie eine Eigenschaftsregel wie <code> ic == trait ID </code>folgt formatieren, können Sie Eigenschaften in einer einfachen, kommagetrennten Liste senden. </p> <p>Beispiel: Sie erstellen die folgenden 3 Eigenschaftenregeln: </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>Diese Eigenschaften sind mit dem <code> ic </code> Schlüssel verknüpft. Auf diese Weise können Sie eine einfachere Eigenschaftenliste in der Datendatei erstellen. Außerdem müssen Sie das <code> ic </code> Präfix nicht einschließen. Der Inhalt Ihrer Datendatei könnte daher wie folgt aussehen: </p> <p>
+     </ul> </p> <p>Diese Eigenschaften sind mit dem <code> ic </code> Schlüssel verknüpft. Auf diese Weise können Sie eine einfachere Liste der Eigenschaften in der Datendatei erstellen. Außerdem müssen Sie das <code> ic </code> Präfix nicht einschließen. Der Inhalt Ihrer Datendatei könnte daher wie folgt aussehen: </p> <p>
      <code> 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
       <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
@@ -144,8 +148,8 @@ Eigenschaften-IDs bestehen nur aus numerischen Zeichen. Wir bitten Sie, *nur Eig
    <td colname="col1"> <p>iOS (IDFA) oder Android-Geräte-ID </p> </td> 
    <td colname="col2"> <p>Mobilgeräte-IDs müssen wie folgt streng formatiert sein: </p> <p> 
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
-      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA-Format: IDs müssen in Großbuchstaben und nicht mit Hashing versehen sein. Beispiel, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android-Format: IDs müssen in Kleinbuchstaben und nicht mit Hashing versehen sein. Beispiel, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA-Format: IDs müssen in Großbuchstaben und nicht mit Hashing versehen sein. Beispiel: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android-Format: IDs müssen in Kleinbuchstaben vorliegen und dürfen nicht mit Hashing versehen werden. Beispiel: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -173,7 +177,7 @@ Auch falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen Prob
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bindestrich (-) </p> </td> 
-   <td colname="col2"> <p>Wir ignorieren Bindestriche am Anfang der Schlüssel. Zum Beispiel <code> -product = camera </code> wird als <code> product = camera </code>. </p> </td> 
+   <td colname="col2"> <p>Wir ignorieren Bindestriche am Beginn der Schlüssel. Zum Beispiel <code> -product = camera </code> wird als <code> product = camera </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
@@ -201,7 +205,7 @@ Auch falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen Prob
    <td colname="col2"> <p>Diese Datendatei zeigt einen Benutzer, der für die Eigenschaften 24, 26, 27 qualifiziert ist, und wurde aus den Eigenschaften 28 und 29 entfernt. </p> <p> 
      <code>
        59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
-     </code> </p> <p>Hinweis:  <p>Statt d_unsid zu verwenden, können Sie Eigenschaften auch mithilfe der folgenden Syntax aus Benutzerprofilen entfernen: </p> <p> 
+     </code> </p> <p>Hinweis:  <p>Statt d_unsid zu verwenden, können Sie auch Eigenschaften aus Profilen entfernen, indem Sie die folgende Syntax verwenden: </p> <p> 
       <code>
         59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
       </code> </p> <p> 
@@ -221,7 +225,7 @@ Auch falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen Prob
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mit Schlüssel-Wert-Paaren </p> </td> 
-   <td colname="col2"> Diese Dateidaten verwenden Schlüssel-Wert-Paare, um Daten an <span class="keyword"> Audience Manager zu übermitteln </span>. <p> 
+   <td colname="col2"> Diese Dateidaten verwenden Schlüssel-Wert-Paare, um Daten an <span class="keyword"> Audience Manager weiterzugeben </span>. <p> 
      <code>
        59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
@@ -233,16 +237,16 @@ Auch falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen Prob
 
 ## Beispielmatrix {#examples-matrix}
 
-Das folgende Diagramm zeigt Beispiele für die richtige Formatierung Ihrer Inbound-Dateien, je nach [Typ der IDs](../../../reference/ids-in-aam.md) und der Methode, mit der Sie Eigenschaften zu Profilen hinzufügen möchten.
+Das folgende Diagramm zeigt Beispiele für die richtige Formatierung Ihrer Inbound-Dateien, je nach [Typ der IDs](../../../reference/ids-in-aam.md) und der Methode, nach der Sie Eigenschaften zu Profilen hinzufügen möchten.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> ID-Typ/Vorgang </th> 
-   <th colname="col2" class="entry"> Mit d_sid Eigenschaften zu einem Benutzerprofil hinzufügen </th> 
-   <th colname="col3" class="entry"> Mit d_unsid können Sie Eigenschaften aus einem Benutzerprofil entfernen </th> 
-   <th colname="col4" class="entry"> Senden Sie Schlüsselwertpaare, um Eigenschaften zu einem Benutzerprofil hinzuzufügen </th> 
-   <th colname="col5" class="entry"> Verwenden Sie das Präfix "ic", um Eigenschaften zu einem Benutzerprofil hinzuzufügen </th> 
+   <th colname="col2" class="entry"> Verwenden Sie d_sid, um Eigenschaften zu einem Profil hinzuzufügen </th> 
+   <th colname="col3" class="entry"> Mit d_unsid können Sie Eigenschaften aus einem Profil entfernen </th> 
+   <th colname="col4" class="entry"> Senden Sie Schlüssel-Wert-Paare, um Eigenschaften zu einem Profil hinzuzufügen </th> 
+   <th colname="col5" class="entry"> Verwenden Sie das Präfix "ic", um Eigenschaften zu einem Profil hinzuzufügen </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -264,7 +268,7 @@ Das folgende Diagramm zeigt Beispiele für die richtige Formatierung Ihrer Inbou
    <td colname="col1"> <p>Apple IDFA für iOS-Geräte </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-9"> Beispiel 9 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-10"> Beispiel 10 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-11"> Beispiel 10 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-11"> Beispiel 11 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-12"> Beispiel 12 </a> </p> </td> 
   </tr> 
   <tr> 
@@ -279,7 +283,7 @@ Das folgende Diagramm zeigt Beispiele für die richtige Formatierung Ihrer Inbou
 
 ### Example 1 {#example-1}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftsqualifikation für Audience Manager-UUIDs zu senden.
+Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftenqualifikation zu senden [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -287,7 +291,7 @@ Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftsqualifikation 
 
 ### Example 2 {#example-2}
 
-Verwenden Sie Eigenschafts-IDs, um Informationen zum Ausschluss von Eigenschaften für Audience Manager-UUIDs zu senden.
+Verwenden Sie Eigenschaften-IDs, um Informationen zum Disqualifizierung für Eigenschaften zu senden [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -307,7 +311,7 @@ oder
 
 ### Example 3 {#example-3}
 
-Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen für Audience Manager-UUIDs hinzuzufügen.
+Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen hinzuzufügen [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -321,7 +325,7 @@ oder
 
 ### Example 4 {#example-4}
 
-Verwenden Sie das Präfix "ic", um Informationen zur Eigenschaftsqualifikation für Audience Manager-UUIDs zu senden.
+Verwenden Sie das Präfix &quot;ic&quot;, um Informationen zur Eigenschaftsqualifikation zu senden [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -335,7 +339,7 @@ oder
 
 ### Example 5 {#example-5}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftsqualifikation für Android-Geräte zu senden.
+Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftenqualifikation für [!DNL Android] Geräte zu senden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -343,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-Verwenden Sie Eigenschafts-IDs, um Informationen zum Verlust von Eigenschaften für Android-Geräte zu senden.
+Verwenden Sie Eigenschaften-IDs, um Informationen zum Disqualifizierung für [!DNL Android] Geräte zu senden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -363,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen für Android-Geräte hinzuzufügen.
+Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen für [!DNL Android] Geräte hinzuzufügen.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -377,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-Verwenden Sie das Präfix "ic", um Informationen zur Eigenschaftsqualifikation für Android-Geräte zu senden.
+Verwenden Sie das Präfix &quot;ic&quot;, um Informationen zur Eigenschaftsqualifikation für [!DNL Android] Geräte zu senden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -391,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftsqualifikation für iOS-Geräte zu senden.
+Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftenqualifikation für [!DNL iOS] Geräte zu senden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -399,7 +403,7 @@ Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftsqualifikation 
 
 ### Example 10 {#example-10}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zum Identitätsverlust für iOS-Geräte zu senden.
+Verwenden Sie Eigenschaften-IDs, um Informationen zum Disqualifizierung für [!DNL iOS] Geräte zu senden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -419,7 +423,7 @@ oder
 
 ### Example 11 {#example-11}
 
-Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen für iOS-Geräte hinzuzufügen.
+Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen für [!DNL iOS] Geräte hinzuzufügen.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -433,7 +437,7 @@ oder
 
 ### Example 12 {#example-12}
 
-Verwenden Sie das Präfix "ic", um Informationen zur Eigenschaftsqualifikation für iOS-Geräte zu senden.
+Verwenden Sie das Präfix &quot;ic&quot;, um Informationen zur Eigenschaftsqualifikation für [!DNL iOS] Geräte zu senden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -447,7 +451,7 @@ oder
 
 ### Example 13 {#example-13}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftsqualifikation für DPUUIDs zu senden.
+Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftsqualifikation zu senden [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -455,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-Verwenden Sie Eigenschafts-IDs, um Informationen zum Ausschluss von Eigenschaften für DPUUIDs zu senden.
+Verwenden Sie Eigenschaften-IDs, um Informationen zum Disqualifizierung für Eigenschaften zu senden [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -475,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen für DPUUIDs hinzuzufügen.
+Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen hinzuzufügen [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -489,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-Verwenden Sie das Präfix "ic", um Informationen zur Eigenschaftsqualifikation für DPUUIDs zu senden.
+Verwenden Sie das `ic` Präfix, um Informationen zur Eigenschaftsqualifikation zu senden [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
