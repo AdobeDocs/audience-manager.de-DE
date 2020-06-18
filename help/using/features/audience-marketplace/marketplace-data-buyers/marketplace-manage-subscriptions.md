@@ -7,7 +7,10 @@ title: Data Feed-Abonnements verwalten
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 1%
 
 ---
 
@@ -309,7 +312,7 @@ Mit diesem Anwendungsfall können Sie Lieferanteneigenschaften anhand Ihrer Eige
 
 ### Activation
 
-In diesem Anwendungsfall können Sie Daten an ein [Ziel](../../../features/destinations/destinations.md)senden. Ein Ziel ist [!UICONTROL Audience Manager]ein Drittanbietersystem (Anzeigen-Server, [!DNL DSP], [!DNL DMP]Austausch usw.) , für die Sie Daten freigeben möchten. In einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
+In diesem Anwendungsfall können Sie Daten an ein [Ziel](../../../features/destinations/destinations.md)senden. Ein Ziel ist [!DNL Audience Manager]ein Drittanbietersystem (Anzeigen-Server, [!DNL DSP], [!DNL DMP]Austausch usw.) , für die Sie Daten freigeben möchten. In einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
 
 >[!MORELIKETHIS]
 >
