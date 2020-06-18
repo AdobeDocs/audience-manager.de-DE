@@ -1,21 +1,24 @@
 ---
-description: Auf dieser Seite werden Informationen, die direkt von unseren Partnern bereitgestellt werden, zusammengefasst, sobald sie verfügbar werden, sowie alle Auswirkungen, die sich auf Ihre Audience Manager-Praxis beziehen. Die wichtigsten Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, sind das Ergebnis der GDPR (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft trat, und des neuen IAB GDPR Transparency & Consent Framework (IAB Framework).
-seo-description: Auf dieser Seite werden Informationen, die direkt von unseren Partnern bereitgestellt werden, zusammengefasst, sobald sie verfügbar werden, sowie alle Auswirkungen, die sich auf Ihre Audience Manager-Praxis beziehen. Die wichtigsten Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, sind das Ergebnis der GDPR (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft trat, und des neuen IAB GDPR Transparency & Consent Framework (IAB Framework).
+description: Auf dieser Seite werden die Informationen, die direkt von unseren Partnern bereitgestellt werden, zusammengefasst, sobald sie zur Verfügung stehen, sowie alle Auswirkungen, die sich auf Ihre Audience Manager-Praxis beziehen. Die wichtigsten Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, sind das Ergebnis der GDPR (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft trat, und des neuen IAB GDPR Transparency & Consent Framework (IAB Framework).
+seo-description: Auf dieser Seite werden die Informationen, die direkt von unseren Partnern bereitgestellt werden, zusammengefasst, sobald sie zur Verfügung stehen, sowie alle Auswirkungen, die sich auf Ihre Audience Manager-Praxis beziehen. Die wichtigsten Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, sind das Ergebnis der GDPR (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft trat, und des neuen IAB GDPR Transparency & Consent Framework (IAB Framework).
 seo-title: GDPR-Überlegungen zu Zielen
 solution: Audience Manager
 title: GDPR-Überlegungen zu Zielen
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 translation-type: tm+mt
-source-git-commit: 48d2060df55a693a768e956f88a5a03414435ba9
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
 
 # GDPR-Überlegungen zu Zielen{#gdpr-considerations-for-destinations}
 
-Auf dieser Seite werden Informationen, die direkt von unseren Partnern bereitgestellt werden, zusammengefasst, sobald sie verfügbar werden, sowie alle Auswirkungen, die sich auf Ihre Audience Manager-Praxis beziehen. Die wichtigsten Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, sind das Ergebnis der GDPR (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft trat, und des neuen IAB GDPR Transparency &amp; Consent Framework (IAB Framework).
+Auf dieser Seite werden die Informationen, die direkt von unseren Partnern bereitgestellt werden, zusammengefasst, sobald sie zur Verfügung stehen, sowie alle Auswirkungen, die sich auf Ihre Audience Manager-Praxis beziehen. Die wichtigsten Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, sind das Ergebnis der GDPR (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft trat, und des neuen IAB GDPR Transparency &amp; Consent Framework (IAB Framework).
 
-Adobe-Partner besitzen ihre Geschäftsprozesse und können sich entscheiden, ihre Integrationsanforderungen von Zeit zu Zeit mit Audience Manager zu aktualisieren. Wir arbeiten aktiv mit unserem Audience Manager Partner-Ökosystem zusammen, um unsere Kunden über Änderungen auf dem Laufenden zu halten.
+Adobe-Partner besitzen ihre Geschäftsprozesse und können sich entscheiden, ihre Integrationsanforderungen von Zeit zu Zeit zu Audience Manager zu aktualisieren. Wir arbeiten aktiv mit unserem Audience Manager-Partner-Ökosystem zusammen, um unsere Kunden über Veränderungen auf dem Laufenden zu halten.
 
 <!-- ## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
 
@@ -53,8 +56,8 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Aktualisierung der Benutzeroberfläche von Audience Manager - Yahoo/Oath/DataX-Integration {#ui-update}
+## Audience Manager-Benutzeroberflächenaktualisierung - Yahoo/Oath/DataX-Integration {#ui-update}
 
-Zusätzlich zu den oben erwähnten Aktualisierungen des IAB-Frameworks haben Yahoo/Oath/DataX neue Parameter, **gdpr** und **gdpr_mode**, zu ihren Taxonomie- und Audience-APIs hinzugefügt. Ihre Parameter teilen Yahoo/Oath/DataX mit, dass sie berechtigt sind, ein bestimmtes Segment als Datenprozessor oder als Datencontroller zu verarbeiten. Daher müssen Audience Manager-Kunden, die Segmente an ein Yahoo/Oath/DataX-Ziel senden, den entsprechenden Parameter (Prozessor oder Controller) entsprechend ihrer Vereinbarung mit Oath angeben.
+Zusätzlich zu den oben erwähnten Aktualisierungen des IAB-Frameworks haben Yahoo/Oath/DataX neue Parameter, **gdpr** und **gdpr_mode**, zu ihren Taxonomie- und Audience-APIs hinzugefügt. Ihre Parameter teilen Yahoo/Oath/DataX mit, dass sie berechtigt sind, ein bestimmtes Segment als Datenprozessor oder als Datencontroller zu verarbeiten. Daher müssen Audience Manager, die Segmente an ein Yahoo/Oath/DataX-Ziel senden, den entsprechenden Parameter (Prozessor oder Controller) entsprechend ihrer Vereinbarung mit Oath angeben.
 
 Wenden Sie sich an Ihren Berater oder an den Kundendienst, um den richtigen Parameter festzulegen. Adobe kann dieses Update nur im Namen eines Kunden vornehmen, wenn wir eine schriftliche Korrespondenz erhalten und diese Aktualisierung anfordern. Bitte wenden Sie sich an Ihren Yahoo/Oath/DataX-Kundenbetreuer, um die vollständige Definition dieser Parameter zu verstehen.
