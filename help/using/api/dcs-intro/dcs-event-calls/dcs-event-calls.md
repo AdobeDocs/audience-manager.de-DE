@@ -1,30 +1,33 @@
 ---
-description: Ereignisaufrufe senden Informationen an den DCS in einer URL-Zeichenfolge. In einer typischen Audience Manager-Bereitstellung verwenden Kunden unseren JavaScript-Datenerfassungscode (DIL), um Daten an den DCS zu senden. Manchmal können Kunden jedoch unseren JavaScript-Code nicht auf ihre Seiten setzen. Wenn Sie aufgrund von Unternehmensrichtlinien oder anderen technischen Problemen keinen JavaScript-Code auf Ihren Seiten platzieren können, können Sie mit Audience Manager trotzdem Daten von DCS mit diesen Ereignisaufruf-APIs senden und zurückgeben.
-seo-description: Ereignisaufrufe senden Informationen an den DCS in einer URL-Zeichenfolge. In einer typischen Audience Manager-Bereitstellung verwenden Kunden unseren JavaScript-Datenerfassungscode (DIL), um Daten an den DCS zu senden. Manchmal können Kunden jedoch unseren JavaScript-Code nicht auf ihre Seiten setzen. Wenn Sie aufgrund von Unternehmensrichtlinien oder anderen technischen Problemen keinen JavaScript-Code auf Ihren Seiten platzieren können, können Sie mit Audience Manager trotzdem Daten von DCS mit diesen Ereignisaufruf-APIs senden und zurückgeben.
-seo-title: DCS-Ereignis-Aufruf-APIs
+description: Ereignis-Aufrufe senden Informationen an den DCS in einer URL-Zeichenfolge. Bei einer typischen Audience Manager-Implementierung verwenden Kunden unseren JavaScript-Datenerfassungscode (DIL), um Daten an den DCS zu senden. Manchmal können Kunden jedoch unseren JavaScript-Code nicht auf ihre Seiten setzen. Wenn Sie aufgrund von Firma-Richtlinien oder anderen technischen Problemen nicht unseren JavaScript-Code auf Ihren Seiten platzieren können, können Sie mit Audience Manager trotzdem Daten von DCS mit diesen Ereignis-Aufruf-APIs senden und zurückgeben.
+seo-description: Ereignis-Aufrufe senden Informationen an den DCS in einer URL-Zeichenfolge. Bei einer typischen Audience Manager-Implementierung verwenden Kunden unseren JavaScript-Datenerfassungscode (DIL), um Daten an den DCS zu senden. Manchmal können Kunden jedoch unseren JavaScript-Code nicht auf ihre Seiten setzen. Wenn Sie aufgrund von Firma-Richtlinien oder anderen technischen Problemen nicht unseren JavaScript-Code auf Ihren Seiten platzieren können, können Sie mit Audience Manager trotzdem Daten von DCS mit diesen Ereignis-Aufruf-APIs senden und zurückgeben.
+seo-title: DCS Ereignis Call APIs
 solution: Audience Manager
-title: DCS-Ereignis-Aufruf-APIs
+title: DCS Ereignis Call APIs
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
 
-# DCS-Ereignis-Aufruf-APIs {#dcs-event-call-apis}
+# DCS Ereignis Call APIs {#dcs-event-call-apis}
 
-Ereignisaufrufe senden Informationen an die [!UICONTROL DCS] in einer [!DNL URL] Zeichenfolge. In einer typischen Audience Manager-Bereitstellung verwenden Kunden unseren [!DNL JavaScript] Datenerfassungscode ([!UICONTROL DIL]), um Daten an die [!UICONTROL DCS]zu senden. Manchmal können Kunden jedoch unseren [!DNL JavaScript] Code nicht auf ihre Seiten setzen. Wenn Sie aufgrund von Unternehmensrichtlinien oder anderen technischen Problemen daran gehindert werden, unseren [!DNL JavaScript] Code auf Ihren Seiten zu platzieren, können Sie mit Audience Manager trotzdem Daten von [!UICONTROL DCS] diesen Ereignisaufrufen senden und zurückgeben [!DNL API]lassen.
+Ereignis-Aufrufe senden Informationen an die [!DNL DCS] in einer [!DNL URL] Zeichenfolge. Bei einer typischen Bereitstellung von Audience Managern verwenden Kunden unseren [!DNL JavaScript] Datenerfassungscode ([!UICONTROL DIL]), um Daten an die [!DNL DCS]Datenbank zu senden. Manchmal können Kunden jedoch unseren [!DNL JavaScript] Code nicht auf ihre Seiten setzen. Wenn Sie aufgrund von Firma-Richtlinien oder anderen technischen Problemen nicht unseren [!DNL JavaScript] Code auf Ihren Seiten platzieren können, können Sie mit Audience Manager weiterhin Daten aus [!DNL DCS] diesen Ereignis-Aufrufen senden und zurückgeben [!DNL API]lassen.
 
 ## Erste Schritte {#dcs-getting-started}
 
 Dieser Abschnitt enthält Informationen und zugehörige Referenz, die Ihnen zeigen, wie:
 
-* Rufen Sie den [!UICONTROL DCS]an.
-* Daten von der [!UICONTROL DCS].
+* Rufen Sie den [!DNL DCS]an.
+* Daten von der [!DNL DCS].
 * Formatieren Sie Datenelemente in Ihren Aufrufen.
-* Machen Sie sich mit den von der [!UICONTROL DCS].
+* Machen Sie sich mit den von der [!DNL DCS]Variablen zurückgegebenen Parametern vertraut.
 
-Die ersten Schritte finden Sie in den folgenden Abschnitten. Beginnen Sie mit dem [Senden von Daten an den DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Anschließend können Sie Daten vom DCS [empfangen](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Die ersten Schritte finden Sie in den folgenden Abschnitten. Beginn mit [Daten an den DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)senden. Anschließend können Sie Daten vom DCS [empfangen](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 * [Daten an das DCS senden](dcs-url-send.md)
 * [Daten vom DCS empfangen](dcs-url-receive.md)
