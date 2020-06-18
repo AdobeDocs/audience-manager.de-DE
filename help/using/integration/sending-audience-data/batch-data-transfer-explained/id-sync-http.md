@@ -6,26 +6,29 @@ solution: Audience Manager
 title: ID-Synchronisierung für eingehende Datenübertragungen
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
 
 # ID-Synchronisierung für eingehende Datenübertragungen{#id-synchronization-for-inbound-data-transfers}
 
-Beschreibt die Syntax und die Parameter, die beim ersten `HTTP` Aufruf zum Synchronisieren von Benutzer-IDs zwischen einem Anbieter und Audience Manager verwendet werden. Die ID-Synchronisierung kann beginnen, nachdem Sie Ihre Datentaxonomie an Audience Manager gesendet haben.
+Beschreibt die Syntax und die Parameter, die beim ersten `HTTP` Aufruf zum Synchronisieren von Benutzer-IDs zwischen einem Anbieter und [!DNL Audience Manager]einem Anbieter verwendet werden. Die ID-Synchronisierung kann nach dem Senden der Datentaxonomie an beginnen [!DNL Audience Manager].
 
 <!-- c_id_sync_in.xml -->
 
-Die ID-Synchronisierung ist der erste Schritt im Prozess der asynchronen Datenübertragung. In diesem Schritt vergleichen Audience Manager und der Anbieter IDs für die jeweiligen Site-Besucher und stimmen sie damit überein. Ein [!DNL Audience Manager] Kunde kann beispielsweise einen Benutzer mit der ID 123 kennen. Ihr Datenpartner könnte diesen Benutzer jedoch mit der ID 456 identifizieren. Der Synchronisierungsprozess ermöglicht es [!DNL Audience Manager] und einem Datenanbieter, diese unterschiedlichen IDs miteinander zu vereinbaren und Benutzer in ihren jeweiligen Systemen zu identifizieren. Nach Abschluss des Vorgangs sollte Ihr Drittanbieter-Partner über entsprechende IDs für jeden eindeutigen Benutzer in unseren Netzwerken verfügen. [!DNL Audience Manager]
+Die ID-Synchronisierung ist der erste Schritt im Prozess der asynchronen Datenübertragung. In diesem Schritt vergleicht [!DNL Audience Manager] der Anbieter IDs für die jeweiligen Site-Besucher und stimmt sie überein. Ein [!DNL Audience Manager] Kunde kann beispielsweise einen Benutzer mit der ID 123 kennen. Ihr Datenpartner könnte diesen Benutzer jedoch mit der ID 456 identifizieren. Der Synchronisierungsprozess ermöglicht es [!DNL Audience Manager] und einem Datenlieferanten, diese unterschiedlichen IDs miteinander zu vereinbaren und Benutzer in ihren jeweiligen Systemen zu identifizieren. Nach Abschluss des Vorgangs sollte Ihr Drittanbieter-Partner über entsprechende IDs für jeden eindeutigen Benutzer in unseren Netzwerken verfügen. [!DNL Audience Manager]
 
-Sie können die folgenden Methoden zum Abrufen Ihrer Daten verwenden [!DNL Audience Manager]:
+Sie können die folgenden Methoden verwenden, um Ihre Daten abzurufen [!DNL Audience Manager]:
 
 * [HTTP-Anforderung zur ID-Synchronisierung](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
 * [Deklariertes ID-Ereignis](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
 * [ID-Synchronisierung aus einem E-Mail-eingebetteten Bild](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
-## ID-Synchronisierungsanfrage `HTTP`{#id-sync-http}
+## ID-Synchronisierungsanfrage `HTTP` {#id-sync-http}
 
 Bei einem ID-Austausch sollte eine ordnungsgemäß formatierte [!DNL URL] Zeichenfolge wie folgt aussehen:
 
@@ -49,11 +52,11 @@ Die Variablen [!DNL URL] für Ihren Aufruf zur ID-Synchronisierung mit Inbound s
  <tbody> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Eindeutige ID für den Content Provider (von <span class="keyword"> Audience Manager</span>zugewiesen). </p> </td> 
+   <td colname="col2"> <p>Eindeutige ID für den Content Provider (durch <span class="keyword"> Audience Manager</span>zugewiesen). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>URL (Prozent) Kodierte Darstellung Ihrer Unique User ID. Neben der Kodierung reservierter ASCII-Zeichen sollten alle Nicht-ASCII-Zeichen entsprechend der UTF-8-Zeichenkodierungstabelle prozentual kodiert werden. </p> <p>Weitere Informationen finden Sie auf der Website <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL-Kodierung/Dekodierung</a> . </p> </td> 
+   <td colname="col2"> <p>URL (Prozent) Kodierte Darstellung Ihrer Unique User ID. Neben der Kodierung reservierter ASCII-Zeichen sollten alle Nicht-ASCII-Zeichen basierend auf der UTF-8-Zeichenkodierungstabelle prozentual kodiert werden. </p> <p>Weitere Informationen finden Sie auf der Website <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL-Kodierung/Dekodierung</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
@@ -61,11 +64,11 @@ Die Variablen [!DNL URL] für Ihren Aufruf zur ID-Synchronisierung mit Inbound s
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Optional. Fügen Sie diesen Parameter hinzu, wenn Sie das <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plugin für die IAB-TCF verwenden.</a></p> <p><code> gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen. </p> <p> <b></b> Hinweis: Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr_consent</code>.</p></td> 
+   <td colname="col2"> <p>Optional. Hinzufügen Sie diesen Parameter, wenn Sie das <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF verwenden.</a></p> <p><code> gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen. </p> <p> <b>Hinweis:</b> Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Optional. Fügen Sie diesen Parameter hinzu, wenn Sie das <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plugin für die IAB-TCF verwenden.</a></p> <p><code>gdpr_consent</code> ist die URL-sichere Base64-kodierte GDPR-Zustimmungszeichenfolge (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-Spezifikation</a>). </p> <p> <b></b> Hinweis: Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Optional. Hinzufügen Sie diesen Parameter, wenn Sie das <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF verwenden.</a></p> <p><code>gdpr_consent</code> ist die URL-sichere Base64-kodierte GDPR-Zustimmungszeichenfolge (siehe <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-Spezifikation</a>). </p> <p> <b>Hinweis:</b> Dieser Parameter kann nur zusammen mit verwendet werden <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +79,7 @@ Weitere Informationen finden Sie unter [Deklarierte IDs](../../../features/decla
 
 ## ID-Synchronisierung aus einem E-Mail-eingebetteten Bild {#id-sync-email-image}
 
-Das Format für die Zuordnung von IDs über ein E-Mail-Bild ist identisch mit dem oben gezeigten. Beachten Sie jedoch, dass Bilder in einer E-Mail aktiviert werden müssen, damit dies funktioniert. Dies kann sich auf die ID-Synchronisierung per E-Mail auswirken, da die meisten E-Mail-Systeme Bilder standardmäßig deaktivieren.
+Das Format für die Zuordnung von IDs über ein E-Mail-Bild ist mit dem oben gezeigten Format identisch. Beachten Sie jedoch, dass Bilder in einer E-Mail aktiviert werden müssen, damit dies funktioniert. Dies kann sich auf die ID-Synchronisierung per E-Mail auswirken, da die meisten E-Mail-Systeme Bilder standardmäßig deaktivieren.
 
 >[!MORELIKETHIS]
 >
