@@ -7,18 +7,21 @@ title: Unterstützte Attribute für DCS-API-Aufrufe
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 2%
 
 ---
 
 
 # Unterstützte Attribute für DCS-API-Aufrufe {#supported-attributes-for-dcs-api-calls}
 
-Listen und Beschreibungen der Syntax und der unterstützten Attribute (oder Schlüssel-Wert-Paare), die Sie an das [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]) weitergeben können. Diese Informationen helfen Ihnen dabei, Ihre [!UICONTROL DCS] Anforderungen zu formatieren und die von diesem System zurückgegebenen Parameter zu verstehen.
+Listen und Beschreibungen der Syntax und der unterstützten Attribute (oder Schlüssel-Wert-Paare), die Sie an das [!UICONTROL Data Collection Servers] ([!DNL DCS]) weitergeben können. Diese Informationen helfen Ihnen dabei, Ihre [!DNL DCS] Anforderungen zu formatieren und die von diesem System zurückgegebenen Parameter zu verstehen.
 
 ## Attributpräfixe {#attribute-prefixes}
 
-Die [!UICONTROL DCS] Daten werden anhand bestimmter Präfixe klassifiziert, die den Schlüsseln in Schlüssel/Wert-Paaren hinzugefügt werden.
+Die [!DNL DCS] Daten werden anhand bestimmter Präfixe klassifiziert, die den Schlüsseln in Schlüssel/Wert-Paaren hinzugefügt werden.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -34,7 +37,7 @@ Die [!UICONTROL DCS] Daten werden anhand bestimmter Präfixe klassifiziert, die 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Attribute von Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> -Attribute. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -42,14 +45,14 @@ Die [!UICONTROL DCS] Daten werden anhand bestimmter Präfixe klassifiziert, die 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Private, benutzerdefinierte Attribute. </p> <p> Der DCS akzeptiert Ihre eigenen privaten Daten, wenn der Schlüssel ein <code> p_</code> Präfix hat. Private Daten werden zur Eigenschaftsbewertung verwendet, werden jedoch nicht in unserem System gespeichert. Nehmen wir beispielsweise an, Sie haben eine Eigenschaft definiert als <code> customers = p_age&lt;25</code> und Sie geben <code> p_age=23</code> einen Ereignis-Aufruf weiter. Unter diesen Umständen qualifiziert sich der Benutzer, der die altersbasierten Qualifikationskriterien erfüllt, für die Eigenschaft, das Schlüssel-Wert-Paar wird jedoch gelöscht, nachdem der <span class="keyword"> Audience Manager</span> die Anforderung erhalten hat und nicht protokolliert wird. </p> </td>
+   <td colname="col2"> <p>Private, benutzerdefinierte Attribute. </p> <p> Der DCS akzeptiert Ihre eigenen privaten Daten, wenn der Schlüssel ein <code> p_</code> Präfix hat. Private Daten werden zur Eigenschaftsbewertung verwendet, werden jedoch nicht in unserem System gespeichert. Nehmen wir beispielsweise an, Sie haben eine Eigenschaft definiert als <code> customers = p_age&lt;25</code> und Sie geben <code> p_age=23</code> einen Ereignis-Aufruf weiter. Unter diesen Bedingungen qualifiziert sich der Benutzer, der die altersbasierten Qualifikationskriterien erfüllt, für die Eigenschaft, das Schlüssel-Wert-Paar wird jedoch gelöscht, nachdem der <span class="keyword"> Audience Manager</span> die Anforderung erhalten hat und nicht protokolliert wird. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ## d_ Attribute {#d-attributes}
 
-Alle diese Optionen sind optional, es sei denn, Sie möchten eine Antwort von der [!UICONTROL DCS]. Wenn die Antwort [!UICONTROL DCS] zurückgegeben werden soll, ist dies `d_rtbd=json` erforderlich.
+Alle diese Optionen sind optional, es sei denn, Sie möchten eine Antwort von der [!DNL DCS]. Wenn die Antwort [!DNL DCS] zurückgegeben werden soll, ist dies `d_rtbd=json` erforderlich.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -69,7 +72,7 @@ Alle diese Optionen sind optional, es sei denn, Sie möchten eine Antwort von de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Enthält ein oder mehrere Paare von Datenanbieter-IDs (<code> DPID</code>) und Datenanbieter-Benutzer-IDs (<code> DPUUID</code>), die vom <span class="keyword"> Audience Manager</span>zugewiesen wurden. Wenn Sie mehrere Paare von <code> DPID</code>s und <code> DPUUID</code>s verwenden, trennen Sie jedes Paar durch das nicht druckbare Zeichen <code> %01</code>. Beispiel: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> ersetzt <code> d_dpid</code> und <code> d_dpuuid</code>, die nicht mehr unterstützt, aber trotzdem unterstützt werden. Siehe <a href="../../../reference/cid.md">CID ersetzt DPID und DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Enthält ein oder mehrere Paare von Datenanbieter-IDs (<code> DPID</code>) und Datenanbieter-Benutzer-IDs (<code> DPUUID</code>), die von <span class="keyword"> Audience Manager</span>zugewiesen wurden. Wenn Sie mehrere Paare von <code> DPID</code>s und <code> DPUUID</code>s verwenden, trennen Sie jedes Paar durch das nicht druckbare Zeichen <code> %01</code>. Beispiel: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> ersetzt <code> d_dpid</code> und <code> d_dpuuid</code>, die nicht mehr unterstützt, aber trotzdem unterstützt werden. Siehe <a href="../../../reference/cid.md">CID ersetzt DPID und DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
@@ -77,7 +80,7 @@ Alle diese Optionen sind optional, es sei denn, Sie möchten eine Antwort von de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Deaktivieren Sie die Verwendung von Drittanbieter-Cookies, um die Kinderschutzbestimmungen einzuhalten. Dieser Parameter wird vom Identitätsdienst für Adobe Experience Platform dynamisch festgelegt und hängt von der <code> idSyncDisable3rdPartySyncing</code> Konfiguration ab. Siehe <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA-Unterstützung im Identitätsdienst</a>für die Adobe Experience Platform. </p> </td>
+   <td colname="col2"> <p>Deaktivieren Sie die Verwendung von Drittanbieter-Cookies, um die Kinderschutzbestimmungen einzuhalten. Dieser Parameter wird vom Adobe Adobe Experience Platform Identity Service dynamisch festgelegt und hängt von der <code> idSyncDisable3rdPartySyncing</code> Konfiguration ab. Siehe <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA-Unterstützung im Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -119,7 +122,7 @@ Alle diese Optionen sind optional, es sei denn, Sie möchten eine Antwort von de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Gibt die Experience Cloud-ID an, die vom <span class="keyword"> Experience Cloud</span> ID-Dienst festgelegt und verwendet wird. Weitere Informationen zur ECID finden Sie unter <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und Experience Cloud-Identitätsdienst</a>. </p> </td> 
+   <td colname="col2"> <p>Gibt die Experience Cloud-ID an, die vom <span class="keyword"> Experience Cloud</span> -ID-Dienst festgelegt und verwendet wird. Weitere Informationen zur ECID finden Sie unter <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -127,7 +130,7 @@ Alle diese Optionen sind optional, es sei denn, Sie möchten eine Antwort von de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Ermöglicht es Audience Manager, Mobilanforderungen von Desktop-Anforderungen zu unterscheiden. Folgende Werte werden unterstützt: </p> <p> 
+   <td colname="col2"> <p>Ermöglicht es Audience Managern, mobile Anforderungen von Desktop-Anforderungen zu unterscheiden. Folgende Werte werden unterstützt: </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
