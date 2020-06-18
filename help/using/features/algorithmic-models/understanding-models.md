@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Look-Alike-Modellierung
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1685'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +72,7 @@ Jeder Benutzer in den ausgewählten Datenquellen erhält eine Benutzerbewertung,
 
 ### Schritt 5: Anzeigen und Arbeiten mit Ergebnissen
 
-Audience Manager zeigt die gewichteten Modellergebnisse in [!UICONTROL Trait Builder]. Wenn Sie eine algorithmische Eigenschaft erstellen möchten, [!UICONTROL Trait Builder] können Sie Eigenschaften erstellen, die auf dem gewichteten Ergebnis basieren, das der Algorithmus während einer Datenausführung generiert hat. Sie können eine höhere Genauigkeit wählen, um nur Benutzer mit sehr hohen Benutzerwerten zu qualifizieren, die sich daher sehr ähnlich wie die Audience vor dem Ausgangswert und nicht mit der übrigen Audience verhalten. Wenn Sie eine größere Audience (Reichweite) erreichen möchten, können Sie die Genauigkeit herabsetzen.
+[!DNL Audience Manager] zeigt Ihre gewichteten Modellergebnisse an [!UICONTROL Trait Builder]. Wenn Sie eine algorithmische Eigenschaft erstellen möchten, [!UICONTROL Trait Builder] können Sie Eigenschaften erstellen, die auf dem gewichteten Ergebnis basieren, das der Algorithmus während einer Datenausführung generiert hat. Sie können eine höhere Genauigkeit wählen, um nur Benutzer mit sehr hohen Benutzerwerten zu qualifizieren, die sich daher sehr ähnlich wie die Audience vor dem Ausgangswert und nicht mit der übrigen Audience verhalten. Wenn Sie eine größere Audience (Reichweite) erreichen möchten, können Sie die Genauigkeit herabsetzen.
 
 ### Schritt 6: Neubewertung der Bedeutung einer Eigenschaft über Verarbeitungszyklen hinweg
 
