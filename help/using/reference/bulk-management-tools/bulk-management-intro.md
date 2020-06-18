@@ -7,14 +7,17 @@ solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-Mit den Massenverwaltungswerkzeugen können Sie mehrere Objekte gleichzeitig mit einem einzigen Vorgang erstellen und verwalten. Mit den Massenverwaltungswerkzeugen können Sie mit Datenquellen, abgeleiteten Signalen, Zielen, Ordnern, Modellen, Segmenten und Eigenschaften arbeiten.
+Mit der [!DNL Bulk Management Tools] können Sie mehrere Objekte gleichzeitig mit einem einzigen Vorgang erstellen und verwalten. Sie können [!DNL Bulk Management Tools] mit [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]und [!UICONTROL traits]arbeiten.
 
 <!-- 
 
@@ -28,7 +31,7 @@ c_bulk_start.xml
 
 ## Überblick {#overview}
 
-Diese Funktion verwendet eine Microsoft Excel-Tabelle mit Makros, die sichere, authentifizierte Aufrufe der [!DNL Audience Manager] APIs durchführen. Die API stellt die Methoden und Dienste bereit, mit denen Sie Massenänderungen vornehmen können. Sie müssen nicht wissen, wie Sie mit unseren APIs kodieren oder arbeiten, um sie zu verwenden. Das Arbeitsblatt enthält Spaltenüberschriften und Registerkarten, die bestimmte Massenänderungsfunktionen ausführen. Um Massenänderungen vorzunehmen, fügen Sie die vordefinierten Kopfzeilen nur bestimmten Arbeitsblättern hinzu, geben die Informationen an, die Sie stapelweise ändern möchten, und klicken Sie auf eine Aktionsschaltfläche. Das Arbeitsblatt und die APIs erledigen den Rest der Arbeit für Sie.
+Diese Funktion verwendet eine [!DNL Microsoft Excel] Tabelle mit Makros, die sichere, authentifizierte Aufrufe der [!DNL Audience Manager] APIs durchführen. Die API stellt die Methoden und Dienste bereit, mit denen Sie Massenänderungen vornehmen können. Sie müssen nicht wissen, wie Sie mit unseren APIs kodieren oder arbeiten, um sie zu verwenden. Das Arbeitsblatt enthält Spaltenüberschriften und Registerkarten, die bestimmte Massenänderungsfunktionen ausführen. Um Massenänderungen vorzunehmen, fügen Sie die vordefinierten Kopfzeilen nur bestimmten Arbeitsblättern hinzu, geben die Informationen an, die Sie stapelweise ändern möchten, und klicken Sie auf eine Aktionsschaltfläche. Das Arbeitsblatt und die APIs erledigen den Rest der Arbeit für Sie.
 
 ## Herunterladen{#download}.
 
@@ -40,7 +43,7 @@ Zur Verwendung der [!DNL Bulk Management Tools]Variablen benötigen Sie Folgende
 
 * Ihre [!DNL Experience Cloud] Anmeldung. Als Kunde sollten Sie bereits über diese Anmeldeinformationen verfügen.
 * Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt](assets/BAAAM_V2_20200502.xlsm) herunter, um die neueste Version zu erhalten.
-* Microsoft Excel wird auf [!DNL macOS] oder 64-Bit ausgeführt [!DNL Microsoft Windows]. Es wird empfohlen, die neueste Version von Microsoft Excel zu verwenden.
+* [!DNL Microsoft Excel] auf [!DNL macOS] oder 64-Bit [!DNL Microsoft Windows]. Wir empfehlen Ihnen, die neueste Version von zu verwenden [!DNL Microsoft Excel].
 * Wenn Sie das Arbeitsblatt öffnen, müssen Sie Makros **** aktivieren, damit das Arbeitsblatt funktioniert [!DNL Bulk Management Tools] .
 
 ## Authentifizierungsanforderungen und Optionen {#auth-reqs}
@@ -49,9 +52,9 @@ Massenänderungen erfordern eine Authentifizierung. Bevor Sie eine Aktion durchf
 
 **API-Authentifizierungsanforderungen**
 
-Die im Oktober 2019 veröffentlichte zweite Version der Bulk Management Tools vereinfacht den Authentifizierungsprozess. Die Authentifizierungsschritte in dieser Version sind im Folgenden beschrieben:
+Die zweite Version des [!DNL Bulk Management Tools], die im Oktober 2019 veröffentlicht wurde, vereinfacht den Authentifizierungsprozess. Die Authentifizierungsschritte in dieser Version sind im Folgenden beschrieben:
 
-1. Öffnen Sie die Tabelle und navigieren Sie zum **Konfigurationsblatt** .
+1. Öffnen Sie die Tabelle und navigieren Sie zum **[!UICONTROL Config]** Arbeitsblatt.
 2. Führen Sie die im Arbeitsblatt beschriebenen Schritte aus.
    ![](assets/baaam-authentication.png)
 3. Nach Abschluss der Schritte sind Sie berechtigt, Massenänderungen vorzunehmen.
