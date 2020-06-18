@@ -5,9 +5,9 @@ seo-title: Übersicht über Audiencen
 solution: Audience Manager
 title: Audience Manager Predictive Audiencen
 translation-type: tm+mt
-source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Als Marketingspezialist möchte ich vorhersagen, in welcher Customer Journey die
 
 Als Medien-Firma möchte ich meine Audience kategorisieren, damit ich meine Werbeflächen zu Premium-Preisen verkaufen kann, während ich meinen Besucher relevante Anzeigen anbieten kann.
 
-## Funktionsweise prädiktiver Audiencen
+## Funktionsweise von [!UICONTROL Predictive Audiences] Modellen {#how-predictive-audiences-models-work}
 
 Wenn Sie ein [!UICONTROL Predictive Audiences] Modell erstellen, gehen Sie drei Schritte durch:
 
@@ -82,14 +82,14 @@ Sie können beliebige Eigenschaften oder Segmente Ihrer Erstanbieter auswählen,
 
 Ähnlich wie bei der Personenauswahl sollten Sie Ihre Eigenschaft oder Ihr Segment auswählen, das Ihre Zielgruppe so definiert, dass es Echtzeit-Benutzer mit komplexen Eigenschaften zur Klassifizierung in die richtige Persona hat.
 
-### Prognostische Audiencen - Modellschulungsphase {#model-training}
+### [!UICONTROL Predictive Audiences] Modellschulungsphase {#model-training}
 
 Bevor der Algorithmus Ihre Erstanbieter-Audience in die richtige Person klassifizieren kann, muss er sich auf Ihre Daten stützen.
 
 Für jede von Ihnen definierte Person analysiert der Algorithmus die jeweilige Audience und bewertet jede beliebige Echtzeit- und/oder Onboard-Eigenschaften-Aktivität für seine Benutzer in den letzten 30 Tagen.
 Dieser Schritt findet einmal alle 24 Stunden statt, um Änderungen in Ihrer Erstanbieter-Audience zu berücksichtigen.
 
-### Prognostische Audiencen Modellklassifizierungsphase {#model-classification}
+### [!UICONTROL Predictive Audiences] Modellklassifizierungsphase {#model-classification}
 
 Wenn ein Besucher, der zur Audience der Zielgruppe gehört, in Echtzeit angezeigt wird, bewertet das Modell, ob der Besucher zu den definierten Personas gehört. Für jeden Besucher, der keiner der Personen angehört, weist das Modell einen persönlichen Qualifikationswert zu.
 
@@ -109,7 +109,7 @@ Berücksichtigen Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] 
 * Zweiter- und Drittanbieterdaten werden derzeit nicht in unterstützt [!UICONTROL Predictive Audiences].
 * Die Audience wird nur für Erstanbieter-Audiencen in Echtzeit klassifiziert. Die Klassifizierung der integrierten Erstanbieter-Audiencen wird in zukünftigen Aktualisierungen möglicherweise unterstützt.
    >[!IMPORTANT]
-   > Zurzeit wird der Wert [!UICONTROL Total Segment Population] Ihrer Vorhersagesegmente als 0 angezeigt und [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) werden für Predictive-Audiencen nicht unterstützt. Dieses Verhalten wird sich in einem zukünftigen Update ändern.
+   > Zurzeit wird der Wert [!UICONTROL Total Segment Population] Ihrer prädiktiven Segmente als 0 angezeigt und [Batch-Ausgehende Datenübertragungen](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) werden nicht unterstützt [!UICONTROL Predictive Audiences]. Dieses Verhalten wird sich in einem zukünftigen Update ändern.
 * [!UICONTROL Predictive Audiences] führt eine Audience-Classification anhand Ihrer Erstanbieter-Eigenschaften aus allen Erstanbieter-Datenquellen durch.
 * Die Segmentbewertung [!UICONTROL Predictive Audiences] verwendet den Standard, den Sie in Ihrem Konto definiert **[!UICONTROL Profile Merge Rule]** haben. Weitere Informationen finden Sie [!UICONTROL Profile Merge Rules] in der [Dokumentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
 * Einige Eigenschaften und Segmente werden nicht als Basis- oder Zielgruppe-Audiencen unterstützt. [!UICONTROL Predictive Audiences] die Modelle können nicht gespeichert werden, wenn eine der folgenden Audiencen als Basislinien oder Zielgruppe ausgewählt wird:
@@ -118,7 +118,7 @@ Berücksichtigen Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] 
    * Algorithmische Eigenschaften;
    * Eigenschaften von Zweitanbietern und Drittanbietern.
 
-## Datenexportkontrolle{#dec}
+## [!UICONTROL Data Export Controls] {#dec}
 
 Prognostische Segmente, die von [!UICONTROL Predictive Audiences] Modellen erstellt wurden, erben die [Datenexportsteuerelemente](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) aus den folgenden Erstanbieter-Datenquellen:
 
@@ -129,7 +129,7 @@ Die neu erstellten Prognosemerkmale und -segmente unterliegen denselben Datensch
 
 Eigenschaften mit zusätzlichen Einschränkungen, die nicht Teil der [!UICONTROL Predictive Audiences] Segmentdatenschutzbeschränkungen sind, werden aus der Schulungsphase ausgeschlossen und werden für das Modell nicht relevant.
 
-## Rollenbasierte Zugriffskontrollen{#rbac}
+## [!UICONTROL Role-Based Access Controls] {#rbac}
 
 Die Eigenschaften und Segmente, die Sie für die Klassifizierung &quot;Personas&quot;und &quot;Audience&quot;auswählen, unterliegen den Audience Manager- [Rollenbasierten Zugriffskontrollen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
 
