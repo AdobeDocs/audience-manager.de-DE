@@ -6,16 +6,19 @@ solution: Audience Manager
 title: DCS API-Methoden
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 translation-type: tm+mt
-source-git-commit: bdea2609b84d7f80d67452b4c43e11cbef01a368
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
 
 # DCS API-Methoden {#dcs-api-methods}
 
-Senden Sie Daten an die [!UICONTROL DCS][!DNL API] mit `GET` oder `POST` Methoden.
+Senden Sie Daten an die [!DNL DCS][!DNL API] mit `GET` oder `POST` Methoden.
 
-Sie können Daten entweder mit einer der [!UICONTROL DCS] oder mit einer der `GET` `POST` Methoden an die Sehen Sie sich die unten stehenden Beispielaufrufe mit [curl](https://curl.haxx.se/)an. In allen drei Beispielaufrufen fügen wir die Signale `c_likes = famous popstar` und `c_loves = famous actress` das Geräteprofil hinzu `12345678901234567890123456789012345678`.
+Sie können Daten entweder mit einer der [!DNL DCS] oder mit einer der `GET` `POST` Methoden an die Gruppe senden. Sehen Sie sich die unten stehenden Beispielaufrufe mit [curl](https://curl.haxx.se/)an. In allen drei Beispielaufrufen fügen wir die Signale `c_likes = famous popstar` und `c_loves = famous actress` das Profil des Geräts hinzu `12345678901234567890123456789012345678`.
 
 
 ## Daten über GET senden {#send-data-via-get}
