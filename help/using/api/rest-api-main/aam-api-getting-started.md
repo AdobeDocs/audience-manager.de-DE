@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Die [!DNL Audience Manager] Unterstützung [!DNL REST APIs] umfasst zwei Authent
 >
 >Je nach Authentifizierungsmethode müssen Sie Ihre Anforderung [!DNL URLs] entsprechend anpassen. Einzelheiten zu den zu verwendenden Hostnamen finden Sie im Abschnitt [Umgebung](#environments) .
 
-## JWT-Authentifizierung (Dienstkonto) {#jwt}
+## JWT ([!DNL Service Account])-Authentifizierung {#jwt}
 
 ### Voraussetzungen {#prerequisites}
 
@@ -278,14 +278,14 @@ Neue Versionen dieser [!DNL API]Dateien werden regelmäßig veröffentlicht. Bei
 
 | Antwortcode-ID | Antworttext | Definition |
 |---|---|---|
-| 200 | `OK` | Die Anforderung wurde erfolgreich verarbeitet. Gibt bei Bedarf erwartete Inhalte oder Daten zurück. |
-| 201 | `Created` | Die Ressource wurde erstellt. Gibt für `PUT` und `POST` Anforderungen zurück. |
-| 204 | `No Content` | Die Ressource wurde gelöscht. Der Antwortkörper ist leer. |
-| 400 | `Bad Request` | Der Server hat die Anforderung nicht verstanden. In der Regel aufgrund einer fehlerhaften Syntax. Überprüfen Sie Ihre Anforderung und versuchen Sie es erneut. |
-| 403 | `Forbidden` | Sie haben keinen Zugriff auf die Ressource. |
-| 404 | `Not Found` | Die Ressource konnte für den angegebenen Pfad nicht gefunden werden. |
-| 409 | `Conflict` | Die Anforderung konnte aufgrund eines Konflikts mit dem Zustand der Ressource nicht abgeschlossen werden. |
-| 500 | `Server Error` | Auf dem Server ist ein unerwarteter Fehler aufgetreten, durch den die Anforderung nicht erfüllt werden konnte. |
+| `200` | `OK` | Die Anforderung wurde erfolgreich verarbeitet. Gibt bei Bedarf erwartete Inhalte oder Daten zurück. |
+| `201` | `Created` | Die Ressource wurde erstellt. Gibt für `PUT` und `POST` Anforderungen zurück. |
+| `204` | `No Content` | Die Ressource wurde gelöscht. Der Antwortkörper ist leer. |
+| `400` | `Bad Request` | Der Server hat die Anforderung nicht verstanden. In der Regel aufgrund einer fehlerhaften Syntax. Überprüfen Sie Ihre Anforderung und versuchen Sie es erneut. |
+| `403` | `Forbidden` | Sie haben keinen Zugriff auf die Ressource. |
+| `404` | `Not Found` | Die Ressource konnte für den angegebenen Pfad nicht gefunden werden. |
+| `409` | `Conflict` | Die Anforderung konnte aufgrund eines Konflikts mit dem Zustand der Ressource nicht abgeschlossen werden. |
+| `500` | `Server Error` | Auf dem Server ist ein unerwarteter Fehler aufgetreten, durch den die Anforderung nicht erfüllt werden konnte. |
 
 >[!MORELIKETHIS]
 >
