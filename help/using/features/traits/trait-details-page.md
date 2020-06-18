@@ -7,79 +7,79 @@ title: Eigenschaftendetailseite
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: c761682f31c777368a21744b21d7302829007c66
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
 
-# Eigenschaftendetailseite {#trait-details-page}
+# [!UICONTROL Trait] Detailseite {#trait-details-page}
 
-Die Detailseite für eine einzelne Eigenschaft bietet einen Überblick über die Eigenschaftendetails, wie den Eigenschaftsnamen, die ID, die Leistungsmetriken, die Ausdruck, die die Eigenschaft definieren, die Segmente, zu denen sie gehört, und das Eigenschafts-Prüfprotokoll. Um diese Details Ansicht, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** und klicken Sie auf den Namen der Eigenschaft, mit der Sie arbeiten möchten.
+Die Detailseite für eine Einzelperson [!UICONTROL trait] bietet einen Überblick über die [!UICONTROL trait] Details, wie z. B. [!UICONTROL trait] Name, ID, Leistungsmetriken, Ausdruck, die die Variable definieren [!UICONTROL trait], Segmente, zu denen sie gehört, und das [!UICONTROL trait] Prüfprotokoll. Um diese Details Ansicht, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** und klicken Sie auf den Namen des [!UICONTROL trait] gewünschten Artikels.
 
-## Eigenschaftsverwaltungswerkzeuge {#trait-management-tools}
+## [!UICONTROL Trait] Verwaltungstools {#trait-management-tools}
 
-Oben auf der Seite mit den Eigenschaftendetails befinden sich die Werkzeuge, mit denen Sie Ihre Eigenschaften verwalten können:
+Oben auf der [!UICONTROL trait] Detailseite finden Sie die Tools, mit denen Sie Ihre [!UICONTROL traits]:
 
-1. **[!UICONTROL Add New]**: Verwenden Sie diese Option, um neue regelbasierte, algorithmische oder Onboard-Eigenschaften zu erstellen.
-2. **[!UICONTROL Edit]**: Verwenden Sie diese Option, um die Konfiguration der aktuellen Eigenschaft zu ändern.
-3. **[!UICONTROL Delete]**: Verwenden Sie diese Option, um die aktuelle Eigenschaft aus Ihrem Audience Manager-Konto zu entfernen.
-4. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option, um ähnliche Eigenschaften wie die, die Sie anzeigen, aus [!UICONTROL Audience Marketplace] Datengebühren zu finden, die Sie nicht abonniert haben. Unter [Audience Marketplace for Data Buyers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) erfahren Sie, wie Sie auf dem Markt navigieren und ähnliche Eigenschaften finden.
+1. **[!UICONTROL Add New]**: Verwenden Sie diese Option, um neue [!UICONTROL rule-based], [!UICONTROL algorithmic]oder [!UICONTROL onboarded traits]zu erstellen.
+2. **[!UICONTROL Edit]**: Verwenden Sie diese Option, um die Konfiguration der aktuellen Version zu ändern [!UICONTROL trait].
+3. **[!UICONTROL Delete]**: Verwenden Sie diese Option, um den aktuellen Eintrag [!UICONTROL trait] aus Ihrem Audience Manager-Konto zu entfernen.
+4. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option ähnlich [!UICONTROL traits] wie die angezeigte, aus den [!UICONTROL Audience Marketplace] Datengebühren, die Sie nicht abonniert haben. Siehe [Audience Marketplace für Datenkäufer](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) , um zu erfahren, wie Sie in der Seite navigieren [!UICONTROL Marketplace] und ähnliche Eigenschaften finden.
 
 ![basic-property-information](assets/basic-trait-information.png)
 
-## Eigenschaften-Informationen {#basics}
+## [!UICONTROL Trait] Informationen {#basics}
 
-Der [!UICONTROL Trait Information] Abschnitt enthält Details zu erforderlichen und optionalen Feldern, die Sie beim Erstellen der Eigenschaft ausgefüllt haben. Dazu gehören Eigenschaften wie der Eigenschaftstyp, ID der Eigenschaft, Beschreibung, Datenquelle und andere Metadaten. Diese Details variieren je nach Eigenschaftstyp (Ordner, Bordkarte oder regelbasiert).
+Der [!UICONTROL Trait Information] Abschnitt enthält Details zu erforderlichen und optionalen Feldern, die Sie beim Erstellen der [!UICONTROL trait]Datei ausgefüllt haben. Dazu gehören Elemente wie [!UICONTROL trait] Typ, [!UICONTROL trait] ID, Beschreibung [!UICONTROL data source]und andere Metadaten. Diese Details variieren je nach [!UICONTROL trait] Typ ([!UICONTROL folder], [!UICONTROL onboarded]oder [!UICONTROL rule-based]).
 
-## Eigenschaftsdiagramm {#trait-graph}
+## [!UICONTROL Trait Graph] {#trait-graph}
 
-Der Bericht [!UICONTROL Trait Graph] enthält Leistungsmetriken auf einen Blick für Ihre ausgewählte Eigenschaft. Halten Sie den Cursor über eine Trendlinie, um weitere Daten für die ausgewählte Eigenschaft anzuzeigen.
+Der Bericht [!UICONTROL Trait Graph] enthält Leistungsmetriken auf einen Blick für die ausgewählte Version [!UICONTROL trait]. Halten Sie den Cursor über eine Trendlinie, um weitere Daten für die ausgewählte Zeile anzuzeigen [!UICONTROL trait].
 
-[!UICONTROL Unique Trait Realizations] stellen eine Anzahl individueller Benutzer dar, die ihr Profil über einen bestimmten Zeitraum mit dieser Eigenschaft versehen haben. Die [!UICONTROL Total Trait Population] gibt die Anzahl der Unique Users an, die derzeit für diese Eigenschaft qualifiziert sind.
+[!UICONTROL Unique Trait Realizations] stellen eine Anzahl individueller Benutzer dar, die dies über einen bestimmten Zeitraum ihrem Profil [!UICONTROL trait] hinzugefügt haben. Die [!UICONTROL Total Trait Population] gibt die Anzahl der Unique Users an, die derzeit für diese Aktion qualifiziert sind [!UICONTROL trait].
 
-Bei regelbasierten Eigenschaften erfolgt die Qualifizierung von Eigenschaften in Echtzeit, da Benutzer sich für eine Eigenschaft in ihrem Browser qualifizieren.
+Die [!UICONTROL rule-based traits]Qualifizierung erfolgt [!UICONTROL trait] beispielsweise in Echtzeit, da Benutzer sich für eine [!UICONTROL trait] in ihrem Browser qualifizieren.
 
-Bei Eigenschaften, die nicht an Bord sind, erfolgt die Qualifizierung der Eigenschaften nach der Verarbeitung einer eingehenden Datei, d. h. die eingehende Datei wird in den Audience Manager [](../../faq/faq-inbound-data-ingestion.md) eingespeist, und zwar dann, wenn die Eigenschaftsqualifikation erfolgt.
+Die [!UICONTROL onboarded traits]Qualifizierung erfolgt [!UICONTROL trait] beispielsweise nach der Verarbeitung einer eingehenden Datei, d. h., die eingehende Datei wird in den Audience Manager [](../../faq/faq-inbound-data-ingestion.md) eingespeist und dann erfolgt die [!UICONTROL trait] Qualifizierung.
 
 Die [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
 
 * **[!UICONTROL Show results by]**
-   * **[!UICONTROL Cross-Device ID]**: Wählen Sie diese Option, um die Ergebnisse für Eigenschaften anzuzeigen, die Daten für authentifizierte Profil erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt, und es werden keine Daten im [!UICONTROL Device ID] Bericht angezeigt.
-   * **[!UICONTROL Device ID]**: Wählen Sie diese Option, um die Ergebnisse für Eigenschaften anzuzeigen, die Daten für Geräte-Profil erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Device ID] Bericht angezeigt, und es werden keine Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt.
+   * **[!UICONTROL Cross-Device ID]**: Wählen Sie diese Option aus, um die Ergebnisse für [!UICONTROL traits] die Datenerfassung für authentifizierte Profil anzuzeigen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt, und es werden keine Daten im [!UICONTROL Device ID] Bericht angezeigt.
+   * **[!UICONTROL Device ID]**: Wählen Sie diese Option aus, um die Ergebnisse für [!UICONTROL traits] die Datenerfassung für Geräte-Profil anzuzeigen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Device ID] Bericht angezeigt, und es werden keine Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt.
 
       ![trait-graph](assets/trait-summary.gif)
 
-* **[!UICONTROL Unique Trait Realizations]**: Anzahl der Unique Users, die dieses Merkmal ihrem Profil über einen bestimmten Zeitraum hinzugefügt haben.
-* **[!UICONTROL Total Trait Population]**: Die Anzahl der Unique Users, die derzeit für diese Eigenschaft qualifiziert sind.
+* **[!UICONTROL Unique Trait Realizations]**: Anzahl der Unique Users, die dies über einen bestimmten Zeitraum zu ihrem Profil hinzugefügt [!UICONTROL trait] haben.
+* **[!UICONTROL Total Trait Population]**: Die Anzahl der Unique Users, die derzeit für diese Einstellung qualifiziert sind [!UICONTROL trait].
 
-* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei wichtigsten geräteübergreifenden Datenquellen mit der höchsten Bevölkerungszahl, die sich für die Eigenschaft qualifiziert haben, in absteigender Reihenfolge. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die sich für die Eigenschaft qualifiziert haben, aus den geräteübergreifenden Datenquellen, die nicht zu den drei oberen gehören. Dieser Bericht wird nur angezeigt, wenn Sie im [!UICONTROL Show Results By] Dropdown-Menü oben rechts auf der Seite die Option Geräteübergreifende ID auswählen. Die standardmäßige Dropdown-Option ist [!UICONTROL Device ID]die, bei der dieser Bericht nicht angezeigt wird.
+* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei Top [!UICONTROL cross-device data sources] mit der höchsten Bevölkerungszahl, die sich für die [!UICONTROL trait]in absteigender Reihenfolge qualifiziert haben. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die sich für die [!UICONTROL trait], von den [!UICONTROL cross-device data sources] , die nicht in den oberen drei. Dieser Bericht wird nur angezeigt, wenn Sie oben rechts auf der Seite [!UICONTROL Cross-device ID] im [!UICONTROL Show Results By] Dropdownmenü auswählen. Die standardmäßige Dropdown-Option ist [!UICONTROL Device ID]die, bei der dieser Bericht nicht angezeigt wird.
 
    ![trait-graph](assets/trait-identity.png)
 
    >[!NOTE]
    >
-   >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] Bericht nur dann an, wenn Sie geräteübergreifende IDs für die Eigenschaft qualifiziert haben.
+   >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] Bericht nur an, wenn Sie über [!UICONTROL cross-device] IDs verfügen, die für den Bericht qualifiziert sind [!UICONTROL trait].
 
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
-## Eigenschaften-Ausdruck {#trait-expression}
+## [!UICONTROL Trait] Ausdruck {#trait-expression}
 
-Der [!UICONTROL Trait Expression] Abschnitt zeigt Ihnen, welche Kriterien Benutzer erfüllen müssen, um sich für die Eigenschaft zu qualifizieren. Diese Regeln werden festgelegt, wenn Sie eine Eigenschaft [erstellen oder bearbeiten](../../features/traits/about-trait-builder.md).
+Der [!UICONTROL Trait Expression] Abschnitt zeigt Ihnen, welche Kriterien Benutzer erfüllen müssen, um sich für die [!UICONTROL trait]Teilnahme zu qualifizieren. Diese Regeln werden festgelegt, wenn Sie eine Eigenschaft [erstellen oder bearbeiten](../../features/traits/about-trait-builder.md).
 
 ![](assets/traitExpression.png)
 
-## Eigenschaftensegmente {#trait-segments}
+## [!UICONTROL Trait] Segmente {#trait-segments}
 
-Der [!UICONTROL Segments with this Trait] Abschnitt Liste alle Segmente, zu denen die Eigenschaft gehört. Sie können auf einen Segmentnamen klicken, um Details zu diesem Segment anzuzeigen.
+Im [!UICONTROL Segments with this Trait] Abschnitt werden alle Segmente Liste, zu denen die Auswahl [!UICONTROL trait] gehört. Sie können auf einen Segmentnamen klicken, um Details zu diesem Segment anzuzeigen.
 
 ![](assets/traitSegments.png)
 
-## Eigenschafts-/Verlaufsprotokoll {#trait-audit-history}
+## [!UICONTROL Trait] Audit-/Verlaufsprotokoll {#trait-audit-history}
 
-Bei regelbasierten und nicht an Bord befindlichen Eigenschaften [!UICONTROL Trait Expression Change History] zeigt die Seite die letzten 10 Änderungen an den Eigenschaftsregeln und wer sie vorgenommen hat. Wenn Ihre Eigenschaft mehr als 10 Änderungen aufweist, klicken Sie auf **[!UICONTROL Export to CSV]** , um das gesamte Prüfprotokoll herunterzuladen. Das Prüfprotokoll steht nicht für Ordner- oder algorithmische Eigenschaften zur Verfügung.
+Für [!UICONTROL rule-based] und [!UICONTROL onboarded traits]zeigt die [!UICONTROL Trait Expression Change History] Liste die letzten 10 Änderungen an den [!UICONTROL trait] Ausdruck-Regeln an und wer sie vorgenommen hat. Wenn Sie mehr als 10 Änderungen [!UICONTROL trait] vorgenommen haben, klicken Sie auf **[!UICONTROL Export to CSV]** , um das gesamte Prüfprotokoll herunterzuladen. Das Prüfprotokoll steht nicht zur Verfügung [!UICONTROL folder] oder [!UICONTROL algorithmic traits].
 
 >[!NOTE]
 >
