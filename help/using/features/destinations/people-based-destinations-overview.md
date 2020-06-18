@@ -5,9 +5,9 @@ seo-title: Übersicht über benutzerspezifische Ziele und Anwendungsfälle
 solution: Audience Manager
 title: Übersicht und Anwendungsfälle
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Sie können [!DNL People-Based Destinations] zur Segmentierung und Zielgruppe vo
 
 [!DNL People-Based Destinations] ist eine Premium-Audience Manager-Integration. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um diese Premium-Funktion nutzen zu können.
 
-## Warum Sie benutzerspezifische Ziele verwenden sollten {#why-use}
+## Warum sollten Sie [!UICONTROL People-Based Destinations] {#why-use}
 
 **Bieten Sie Ihren Kunden konsistente Erlebnisse über Kanal hinweg, indem Sie die Segmentierung Ihrer gesamten Audience innerhalb des Audience Managers verwalten.**
 
@@ -47,7 +47,7 @@ Wenn Sie Ihre Audiencen nicht über Audience Manager in benutzerspezifischen Kan
 
 **Erzielen Sie Audiencen in personalisierten Kanälen, ohne dass Sie eine spezielle Dateneinstiegslösung oder eine benutzerdefinierte Workflows benötigen, um Audiencen zu senden.**
 
-Die &quot;herkömmlichere&quot;Methode zum Targeting von Audiencen auf Basis benutzerspezifischer Kanal besteht darin, dass Sie Ihre Kundendaten in ein Format exportieren müssen, das von der Plattform akzeptiert wird, auf der Sie eine Werbung schalten möchten, und anschließend die dedizierte Dateneingabemethode der Plattform verwenden müssen, um Ihre Kundendaten in Ihr Advertiser-Konto zu übertragen. Dies ist alles eine manuelle Arbeit, die Sie für jede Plattform tun müssen, auf der Sie werben möchten. Darüber hinaus können verschiedene Plattformen unterschiedliche Anforderungen an das Datenformat haben, wodurch der Prozess noch aufwändiger wird.
+Die &quot;herkömmlichere&quot;Methode zum Targeting von Audiencen auf Basis benutzerspezifischer Kanal besteht darin, dass Sie Ihre Kundendaten in ein Format exportieren müssen, das von der Plattform akzeptiert wird, auf der Sie eine Werbung schalten möchten, und anschließend die dedizierte Dateneingabemethode der Plattform verwenden müssen, um Ihre Kundendaten in Ihr Advertiser-Konto zu übertragen. Dies ist alles eine manuelle Arbeit, die Sie für jede Plattform tun müssen, auf der Sie Werbung machen möchten. Darüber hinaus können verschiedene Plattformen unterschiedliche Anforderungen an das Datenformat haben, wodurch der Prozess noch aufwändiger wird.
 
 ![pbd-overview](assets/pbd-diagram.png)
 
