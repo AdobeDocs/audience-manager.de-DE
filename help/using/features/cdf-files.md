@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Kundendatenfeeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ Grundlegende Informationen zu [!UICONTROL Customer Data Feed] ([!UICONTROL CDF])
 
 <!-- cdf-intro.xml -->
 
-Eine [!UICONTROL CDF] Datei enthält dieselben Daten, die ein [!DNL Audience Manager] Ereignis-Aufruf ( `/event`) an unsere Server sendet. Dazu gehören Daten wie Benutzer-IDs, Eigenschaften-IDs, Segment-IDs und alle anderen Parameter, die von einem Ereignis-Aufruf erfasst werden. Interne [!DNL Audience Manager] Systeme verarbeiten Ereignis-Daten in einer [!UICONTROL CDF] Datei, deren Inhalt in einer bestimmten Reihenfolge angeordnet ist. [!DNL Audience Manager] versucht, [!UICONTROL CDF] Dateien stündlich zu generieren und speichert sie in einem sicheren, kundenspezifischen Behälter auf einem [!DNL Amazon S3] Server. Wir stellen diese Dateien zur Verfügung, damit Sie mit [!DNL Audience Manager] Daten arbeiten können, die nicht den durch unsere Benutzeroberfläche festgelegten Beschränkungen unterliegen.
+Eine [!UICONTROL CDF] Datei enthält dieselben Daten, die ein [!DNL Audience Manager] Ereignis-Aufruf (`/event`) an unsere Server sendet. Dazu gehören Daten wie Benutzer-IDs, Eigenschaften-IDs, Segment-IDs und alle anderen Parameter, die von einem Ereignis-Aufruf erfasst werden. Interne [!DNL Audience Manager] Systeme verarbeiten Ereignis-Daten in einer [!UICONTROL CDF] Datei, deren Inhalt in einer bestimmten Reihenfolge angeordnet ist. [!DNL Audience Manager] versucht, [!UICONTROL CDF] Dateien stündlich zu generieren und speichert sie in einem sicheren, kundenspezifischen Behälter auf einem [!DNL Amazon S3] Server. Wir stellen diese Dateien zur Verfügung, damit Sie mit [!DNL Audience Manager] Daten arbeiten können, die nicht den durch unsere Benutzeroberfläche festgelegten Beschränkungen unterliegen.
 
 >[!NOTE]
 >
@@ -105,7 +108,7 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die <span class="keyword"> Experience Cloud</span> -ID (MID), die dem Site-Besucher zugewiesen ist. Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst</a>für die Adobe Experience Platform. </p> </td> 
+   <td colname="col3"> <p>Die dem Site-Besucher zugewiesene <span class="keyword"> Experience Cloud</span> -ID (MID). Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -159,7 +162,7 @@ Listen und definiert die Datenstruktur einer [!UICONTROL CDF] Datei. Dazu gehör
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Anfrageparameter </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-Adresse </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID). Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst für die Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (oder MID). Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst für Adobe Experience Platformen</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle Segmente </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle Eigenschaften </li> 
      </ol> </p> <p>Feldbeschreibungen finden Sie unter Inhalt des <a href="#cdf-defined"> Kundendatenfeeds definiert</a>. </p> </td> 
@@ -373,8 +376,8 @@ Die folgende Tabelle enthält weitere Details zu Ihren [!UICONTROL CDF] Datei-Ze
 
 | Zeitstempelposition | Beschreibung |
 |--- |--- |
-| Dateiname | Der Zeitstempel im Namen der CDF-Datei kennzeichnet den Zeitpunkt, zu dem die Datei für den Versand vorbereitet [!DNL Audience Manager] wurde. Dieser Zeitstempel wird in der UTC-Zeitzone eingestellt. Es verwendet den `hour=` Parameter, wobei die Uhrzeit als 2-stellige Stunde in 24-Stunden-Notation formatiert wird. Dieser Zeitpunkt kann sich von der im Dateiinhalt aufgezeichneten Ereignis-Zeit unterscheiden. BREAKWbeim Arbeiten mit CDF-Dateien werden Sie manchmal bemerken, dass Ihr S3-Behälter für eine bestimmte Stunde leer ist. Ein leerer Behälter bedeutet:<ul><li>Es gibt keine Daten für diese bestimmte Stunde. </li><li> Unsere Server sind unter hoher Belastung und können keine Dateien für eine bestimmte Stunde verarbeiten. Wenn der Server erfasst, werden die Dateien, die in früheren Zeitbehälterdateien enthalten sein sollten, in einen Behälter mit einem späteren Zeitwert gelegt. Dies wird beispielsweise angezeigt, wenn eine Datei, die im 17-Stunden-Bucket enthalten sein sollte, im 18-Stunden-Bucket (mit `hour=18` dem Dateinamen) angezeigt wird. In diesem Fall hat der Server wahrscheinlich die Verarbeitung der Datei in Stunde 17 begonnen, konnte sie jedoch nicht innerhalb dieses Zeitintervalls abschließen. Stattdessen wird die Datei in den nächsten Stundenzähler verschoben.</li></ul><br>**Wichtig **: Verwenden Sie nicht den Zeitstempel für Dateinamen, um Ereignis nach Zeit zu gruppieren. Wenn Sie nach Zeit gruppieren müssen, verwenden Sie den`EventTime`Zeitstempel im Dateiinhalt. |
-| Dateiinhalt | Der Zeitstempel im Inhalt der CDF-Datei kennzeichnet den Zeitpunkt, zu dem die Datenerfassungsserver mit der Verarbeitung der Datei begonnen haben. Dieser Zeitstempel wird in der UTC-Zeitzone eingestellt. Es verwendet das `EventTime` Feld, wobei die Uhrzeit als *`yyyy-mm-dd hh:mm:ss`*. Diese Uhrzeit entspricht der tatsächlichen Uhrzeit des Ereignisses auf der Seite, kann jedoch von der Stundenanzeige im Dateinamen abweichen. <br> **Tipp**: Im Gegensatz zum `hour=` Zeitstempel im Dateinamen können Sie Daten nach Zeit gruppieren `EventTime` lassen. |
+| Dateiname | Der Zeitstempel im [!DNL CDF] Dateinamen kennzeichnet den Zeitpunkt, zu dem die Datei für den Versand vorbereitet [!DNL Audience Manager] wurde. Dieser Zeitstempel wird in der [!DNL UTC] Zeitzone festgelegt. Es verwendet den `hour=` Parameter, wobei die Uhrzeit als 2-stellige Stunde in 24-Stunden-Notation formatiert wird. Dieser Zeitpunkt kann sich von der im Dateiinhalt aufgezeichneten Ereignis-Zeit unterscheiden. Beim Arbeiten mit [!DNL CDF] Dateien werden Sie manchmal bemerken, dass der [!DNL S3] Behälter für eine bestimmte Stunde leer ist. Ein leerer Behälter bedeutet:<ul><li>Es gibt keine Daten für diese bestimmte Stunde. </li><li> Unsere Server sind unter hoher Belastung und können keine Dateien für eine bestimmte Stunde verarbeiten. Wenn der Server erfasst, werden die Dateien, die in früheren Zeitbehälterdateien enthalten sein sollten, in einen Behälter mit einem späteren Zeitwert gelegt. Dies wird beispielsweise angezeigt, wenn eine Datei, die im 17-Stunden-Bucket enthalten sein sollte, im 18-Stunden-Bucket (mit `hour=18` dem Dateinamen) angezeigt wird. In diesem Fall hat der Server wahrscheinlich die Verarbeitung der Datei in Stunde 17 begonnen, konnte sie jedoch nicht innerhalb dieses Zeitintervalls abschließen. Stattdessen wird die Datei in den nächsten Stundenzähler verschoben.</li></ul><br>**Wichtig **: Verwenden Sie nicht den Zeitstempel für Dateinamen, um Ereignis nach Zeit zu gruppieren. Wenn Sie nach Zeit gruppieren müssen, verwenden Sie den`EventTime`Zeitstempel im Dateiinhalt. |
+| Dateiinhalt | Der Zeitstempel im [!DNL CDF] Dateiinhalt kennzeichnet den Zeitpunkt, zu dem die Verarbeitung der Datei [!DNL Data Collection Servers] begonnen hat. Dieser Zeitstempel wird in der [!DNL UTC] Zeitzone festgelegt. Es verwendet das `EventTime` Feld, wobei die Uhrzeit als *`yyyy-mm-dd hh:mm:ss`*. Diese Uhrzeit entspricht der tatsächlichen Uhrzeit des Ereignisses auf der Seite, kann jedoch von der Stundenanzeige im Dateinamen abweichen. <br> **Tipp**: Im Gegensatz zum `hour=` Zeitstempel im Dateinamen können Sie Daten nach Zeit gruppieren `EventTime` lassen. |
 
 >[!MORELIKETHIS]
 >
