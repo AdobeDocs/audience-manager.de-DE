@@ -7,7 +7,7 @@ title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -27,9 +27,9 @@ faq_data_collection_integration.xml
 
  -->
 
-**Wie kann ich den eingehenden Traffic von dem[!UICONTROL DCS]Traffic in[!UICONTROL DCS]Protokolldateiexporten unterscheiden?**
+**Wie kann ich den eingehenden Traffic von dem[!DNL DCS]Traffic in[!DNL DCS]Protokolldateiexporten unterscheiden?**
 
-Eigenschaften, über die [!UICONTROL Inbound] sie eingebettet sind, werden auf [!UICONTROL Inbound] dieselbe Weise aufgefüllt, wie sie von [!UICONTROL DCS]ihnen aufgefüllt werden. Es gibt einige verschiedene Möglichkeiten, zu erkennen, dass Traffic von [!UICONTROL Inbound]:
+Eigenschaften, über die [!UICONTROL Inbound] sie eingebettet sind, werden auf [!UICONTROL Inbound] dieselbe Weise aufgefüllt, wie sie von [!DNL DCS]ihnen aufgefüllt werden. Es gibt einige verschiedene Möglichkeiten, zu erkennen, dass Traffic von [!UICONTROL Inbound]:
 
 * Remote IP wird auf 68.67.173.18 eingestellt
 * DomainID wird auf 5325 eingestellt
@@ -37,13 +37,13 @@ Eigenschaften, über die [!UICONTROL Inbound] sie eingebettet sind, werden auf [
 
 <br> 
 
-**Können Sie mir eine Liste von IP-Adressen zur Liste dpm.demdex.net hinzufügen?**
+**Können Sie mir eine Liste von IP-Adressen geben, die ich zu einer zulassungsliste für dpm.demdex.net hinzufügen kann?**
 
 Leider können wir das nicht. Diese IPs werden dynamisch, nach geografischer Region, über [!DNL Amazon Web Services]zugewiesen. Das bedeutet, dass [!DNL Audience Manager] nicht der IP-Bereich gesteuert wird, der dieser Adresse zugewiesen werden kann.
 
 <br> 
 
-**Können Sie mir eine IP-Adresse geben, die ich zu einer Liste für Ihren eingehenden und ausgehenden sFTP-Server hinzufügen kann?**
+**Können Sie mir eine IP-Adresse angeben, die ich zu einer zulassungsliste für Ihren eingehenden und ausgehenden sFTP-Server hinzufügen kann?**
 
 Ja, siehe unten.
 
@@ -175,13 +175,13 @@ Nein, verlassen Sie sich nicht auf die [!UICONTROL General Reports] und [!UICONT
 
 Die Berichte berechnen Populationen anhand der nicht authentifizierten Profil Records (UUIDs), die wir im Backend zum Zeitpunkt der Berichterstellung sehen.
 
-Bei einem ersten Aufruf an die [!UICONTROL DCS]werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. kein [demdex-Cookie](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) auf der Clientseite vorhanden). Der [!UICONTROL DCS] generiert nach dem Zufallsprinzip eine UUID, setzt ein [!DNL demdex] Cookie und gibt sie im Antwortaufruf weiter. Die UUID wird jedoch nicht an das Backend übertragen.
+Bei einem ersten Aufruf an die [!DNL DCS]werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. kein [demdex-Cookie](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) auf der Clientseite vorhanden). Der [!DNL DCS] generiert nach dem Zufallsprinzip eine UUID, setzt ein [!DNL demdex] Cookie und gibt sie im Antwortaufruf weiter. Die UUID wird jedoch nicht an das Backend übertragen.
 
 >[!NOTE]
 >
 >Die generierte UUID wird erst dann in unserer Backend-Daten-Datenspeicherung materialisiert, wenn das Gerät, auf dem das Cookie gesetzt wird, eine weitere Aktivität auslöst.
 
-Aus diesem Grund spiegeln die Berichte nicht die Ereignis wider, die von den deklarierten IDs in Ihrem Aufruf ausgelöst werden. Es wird empfohlen, UUID-, ECID- (ehemals MID) oder Mobilgeräte-IDs in Ereignis-Testaufrufen für die [!UICONTROL DCS]App zu verwenden. Anschließend können Sie die Eigenschaften- und Segmentrealisierungen im [!UICONTROL General Reports] und im [!UICONTROL Trend Reports].
+Aus diesem Grund spiegeln die Berichte nicht die Ereignis wider, die von den deklarierten IDs in Ihrem Aufruf ausgelöst werden. Es wird empfohlen, UUID-, ECID- (ehemals MID) oder Mobilgeräte-IDs in Ereignis-Testaufrufen für die [!DNL DCS]App zu verwenden. Anschließend können Sie die Eigenschaften- und Segmentrealisierungen im [!UICONTROL General Reports] und im [!UICONTROL Trend Reports].
 
 Siehe auch [Index der Audience Manager-IDs](../reference/ids-in-aam.md).
 
