@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 5%
 
 ---
 
@@ -23,13 +26,13 @@ Antworten auf häufige Fragen oder Probleme zum Thema Datenschutz und Daten.
 >
 >Weitere Informationen finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy.html) .
 
-**Wie verwendet Audience Manager Cookies und welche Cookies setzt er?**
+**Wie verwendet der Audience Manager Cookies und welche Cookies setzt er?**
 
 See [Audience Manager Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html).
 
-**Können Audience Manager-Kunden in der US-Zielgruppe EU-Immobilien nutzen?**
+**Können Audience Manager in der US-Zielgruppe auf EU-Immobilien zugreifen?**
 
-Ja. Audience Manager arbeitet mit Kunden, die über internationale Immobilien und Lagerbestände verfügen. Die EU verfügt über strenge Datenschutzvorschriften, aber Audience Manager verfügt über Kunden, die Erstanbieter-Daten für Audiencen-Targeting in Europa verwenden. Audience Manager kann das Targeting auf EU-Audiencen unterstützen, es liegt jedoch in Ihrer Verantwortung, die Datenschutzbestimmungen vor Ort einzuhalten.
+Ja. Audience Manager arbeitet mit Kunden, die über internationale Immobilien und Lagerbestände verfügen. Die EU hat strenge Datenschutzvorschriften, aber Audience Manager hat Kunden, die Erstanbieter-Daten für das Targeting von Audiencen in Europa verwenden. Audience Manager können das Targeting auf EU-Audiencen unterstützen, aber es liegt in Ihrer Verantwortung, die lokalen Datenschutzbestimmungen einzuhalten.
 
 <!-- 
 
@@ -52,11 +55,11 @@ In der folgenden Tabelle werden die Speicherzeiten für verschiedene Datentypen 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Back-End-Server </p> </td> 
-   <td colname="col2"> <p>120 Tage. </p> <p> Audience Manager löscht Benutzerdaten von unseren Back-End-Servern 120 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzerdaten innerhalb dieses 120-Tage-Zyklus erfasst, behalten wir diese Daten weitere 120 Tage bei. </p> </td> 
+   <td colname="col2"> <p>120 Tage. </p> <p> Audience Manager löscht Benutzerdaten von unseren Back-End-Servern 120 Tage nach der letzten Anzeige eines Audience Managers. Wenn <span class="keyword"> Audience Manager</span> die Benutzerdaten innerhalb dieses 120-Tage-Zyklus aufzeichnet, behalten wir diese Daten weitere 120 Tage bei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-Server </p> </td> 
-   <td colname="col2"> <p> 14 Tage. </p> <p>Audience Manager löscht Benutzerdaten von unseren Edge-Servern 14 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzerdaten innerhalb dieses 14-tägigen Zyklus erfasst, behalten wir diese Daten noch 14 Tage bei. Wenn der Benutzer nach Ablauf des Zeitraums von 14 Tagen wieder aktiv wird, kommt es zu einer Verzögerung zwischen der ersten Ansicht der neuen Seite und dem Zeitpunkt, zu dem der Benutzer handlungsfähig wird. Nach mehr als 14 Tagen Inaktivität dauert es 6-18 Stunden, bis das gesamte Profil wieder zum Edge Center zurückgebracht wird. </p> </td> 
+   <td colname="col2"> <p> 14 Tage. </p> <p>Audience Manager löscht Benutzerdaten von unseren Edge-Servern 14 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzerdaten innerhalb dieses 14-tägigen Zyklus aufzeichnet, behalten wir diese Daten weitere 14 Tage bei. Wenn der Benutzer nach Ablauf des Zeitraums von 14 Tagen wieder aktiv wird, kommt es zu einer Verzögerung zwischen der ersten Ansicht der neuen Seite und dem Zeitpunkt, zu dem der Benutzer handlungsfähig wird. Nach mehr als 14 Tagen Inaktivität dauert es 6-18 Stunden, bis das gesamte Profil wieder zum Edge Center zurückgebracht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rohprotokolle </p> </td> 
@@ -80,7 +83,7 @@ In der folgenden Tabelle werden die Speicherzeiten für verschiedene Datentypen 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zuordnungen zwischen synchronisierten IDs </p> </td> 
-   <td colname="col2"> <p>Die Lebensdauer der <a href="../features/administration/usage-limits.md#id-mapping-limits"> ID-Zuordnungen</a> zwischen Audience Manager-Cookie-IDs (eindeutige Benutzer-IDs für<a href="../reference/ids-in-aam.md">Audiencen-Manager oder AAM-UUIDs</a>) und Drittanbieter-Cookie-IDs ist auf 120 Tage beschränkt. Die Lebensdauer der ID-Zuordnung wird jedes Mal zurückgesetzt, wenn das Audience Manager-Cookie im Audience Manager-Netzwerk angezeigt wird. Die letzte Synchronisierung der ID-Zuordnung bleibt während der gesamten Dauer der zugehörigen Unique User ID (AAM UUID) <a href="../reference/ids-in-aam.md">von</a>Audience Manager erhalten.</p></td> 
+   <td colname="col2"> <p>Die Lebensdauer der <a href="../features/administration/usage-limits.md#id-mapping-limits"> ID-Zuordnungen</a> zwischen Audience Manager-Cookie-IDs (Unique User IDs des<a href="../reference/ids-in-aam.md">Audience Managers oder AAM UUIDs</a>) und Drittanbieter-Cookie-IDs ist auf 120 Tage beschränkt. Die Lebensdauer der ID-Zuordnung wird jedes Mal zurückgesetzt, wenn das Audience Manager-Cookie im Audience Manager-Netzwerk angezeigt wird. Die letzte Synchronisierung der ID-Zuordnung bleibt während der gesamten Dauer der zugehörigen Unique User ID des <a href="../reference/ids-in-aam.md">Audience Managers (AAM UUID)</a>erhalten.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inbound-Daten </p> </td> 
