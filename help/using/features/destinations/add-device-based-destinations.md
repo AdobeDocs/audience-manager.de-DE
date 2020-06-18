@@ -1,13 +1,13 @@
 ---
-description: In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche von Audience Manager konfigurieren.
-seo-description: In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche von Audience Manager konfigurieren.
+description: In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche des Audience Managers konfigurieren.
+seo-description: In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche des Audience Managers konfigurieren.
 seo-title: Neue gerätebasierte Ziele Hinzufügen
 solution: Audience Manager
 title: Neue gerätebasierte Ziele Hinzufügen
 translation-type: tm+mt
-source-git-commit: 69fb3601ac9de300032abc8730a40c41abc12d97
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Neue gerätebasierte Ziele Hinzufügen {#add-new-device-based-destinations}
 
-In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche von Audience Manager konfigurieren.
+In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche des Audience Managers konfigurieren.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Der Prozess zum Hinzufügen eines neuen gerätebasierten Ziels besteht aus zwei 
 
 Wenden Sie sich beim Erstellen des ersten gerätebasierten Ziels mit einer integrierten Plattform an den Adobe Consulting oder den Kundendienst, um die ID-Synchronisierung zwischen Audience Manager und der integrierten Kontoplattform zu aktivieren. Dies ist für die korrekte Synchronisierung zwischen Audience Manager und der Zielplattform erforderlich.
 
-## Schritt 1. Authentifizierung mit einer Zielplattform {#step1}
+## Schritt 1. Authentifizierung mit einer Ziel-Platform {#step1}
 
 Bevor Sie ein neues gerätebasiertes Ziel erstellen können, müssen Sie die Integration zwischen Audience Manager und der Zielplattform konfigurieren. So geht das:
 
@@ -39,7 +39,7 @@ Bevor Sie ein neues gerätebasiertes Ziel erstellen können, müssen Sie die Int
 
    ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
 
-1. Nachdem Sie sich bei Ihrem Zielplattformkonto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
+1. Nachdem Sie sich bei Ihrem Zielplattformkonto authentifiziert haben, werden Sie an den Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!DNL Confirm]**.
 
 ## Schritt 2: Neues gerätebasiertes Ziel erstellen {#step2}
 
