@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: b1d953837766f5822f5ba0246f7e10042c6f1072
+source-git-commit: aefd0a0798797b8bbe9cadc1af9f2e86e772bb4c
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 21%
@@ -26,7 +26,7 @@ Diese Methode wird oft als &quot;Verpixeln des kreativen Elements&quot;bezeichne
 >
 >Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) kennzeichnen Codeelemente und -optionen. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../reference/code-style-elements.md).
 
-Der Ereignisaufruf erfasst Impressions- und Konversionsdaten und sendet diese an die [!DNL Audience Manager] [Datenerfassungs-Server](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). Dieser Prozess beruht auf Werbe-Servern von Drittanbietern, wo der Aufruf in ein Creative platziert wird und somit bestimmt wird, welche Inhalte in den Code eingefügt werden. Die Werbeserver von Drittanbietern (z. B. [!DNL DFA]) können diesen Code in jeder Ad-Impression platzieren. Darüber hinaus verwendet ein Anzeigenaufruf kein [!DNL JavaScript] oder Frame-Busting-Techniken, um auf Publisher-Daten außerhalb des Anzeigen-Tags zuzugreifen.
+Der Ereignisaufruf erfasst Impressions- und Konversionsdaten und sendet diese an die [!DNL Audience Manager] [Datenerfassungs-Server](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). Dieser Prozess beruht auf Werbe-Servern von Drittanbietern, wo der Aufruf in ein Creative platziert wird und somit bestimmt wird, welche Inhalte in den Code eingefügt werden. Die Werbeserver von Drittanbietern (z. B. [!DNL DFA]) können diesen Code in jeder Ad-Impression platzieren. Darüber hinaus verwendet ein Anzeigenaufruf kein [!DNL JavaScript] oder Frame-Busting-Techniken, um auf Publisher-Daten außerhalb des Anzeigen-Tags zuzugreifen.
 
 Ereignis-Aufrufe bestehen aus Schlüssel-Wert-Paaren, die die folgende Syntax verwenden:
 
