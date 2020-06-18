@@ -6,14 +6,17 @@ solution: Audience Manager
 title: Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 1%
 
 ---
 
 
 # Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen {#formatting-key-value-pairs-in-dcs-calls}
 
-Bei einem Aufruf [!UICONTROL DCS] akzeptiert der Benutzer Schlüsselwertdaten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
+Bei einem Aufruf [!DNL DCS] akzeptiert der Benutzer Schlüsselwertdaten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
 
 ## Standardpaare und serialisierte Schlüsselwertpaare {#standard-serialized}
 
@@ -28,7 +31,7 @@ Bei einem Aufruf [!UICONTROL DCS] akzeptiert der Benutzer Schlüsselwertdaten im
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Standard</b> </td> 
-   <td colname="col2"> <p>Ein Standard-Schlüssel-Wert-Paar besteht aus einem Schlüssel und einem Wert. Diese Struktur organisiert Daten in separate Schlüssel-Wert-Paare. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren. Dies ist die häufigste Methode zum Senden von Daten an den DCS. </p> </td>
+   <td colname="col2"> <p>Ein standardmäßiges Schlüssel-Wert-Paar besteht aus einem Schlüssel und einem Wert. Diese Struktur organisiert Daten in separate Schlüssel-Wert-Paare. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren. Dies ist die häufigste Methode zum Senden von Daten an den DCS. </p> </td>
    <td colname="col3"> <code> key1=val1&amp;key2=val2&amp;key3=val3</code> </td>
   </tr>
   <tr> 
@@ -69,5 +72,5 @@ Bei serialisierten Schlüssel-Wert-Paaren müssen Sie die Marker angeben, die We
 >
 >* [Daten an das DCS senden](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [Präfixe und Variablen mit Schlüsselwerten, die vom DCS unterstützt werden](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
->* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
+>* [Erläuterung von Seiten mit Schlüsselwert](../../../reference/key-value-pairs-explained.md)
 
