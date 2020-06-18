@@ -1,27 +1,30 @@
 ---
-description: Methoden, mit denen Sie Audience Manager-DCS-Regionen programmatisch auflisten können.
-seo-description: Methoden, mit denen Sie Audience Manager-DCS-Regionen programmatisch auflisten können.
+description: Methoden, mit denen Sie Audience Manager-DCS-Regionen programmatisch Liste erhalten.
+seo-description: Methoden, mit denen Sie Audience Manager-DCS-Regionen programmatisch Liste erhalten.
 seo-title: API-Methoden für DCS-Regionen
 solution: Audience Manager
 title: API-Methoden für DCS-Regionen
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
 
 # API-Methoden für DCS-Regionen {#dcs-region-api-methods}
 
-Methoden, mit denen Sie Audience Manager- [!UICONTROL DCS] Regionen programmatisch auflisten können.
+Methoden, mit denen Sie Audience Manager- [!DNL DCS] Regionen programmatisch Liste haben.
 
 <!-- c_rest_api_regions.xml -->
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Eine bestimmte DCS-Region auflisten {#list-specific-dcs-region}
+## Liste einer bestimmten DCS-Region {#list-specific-dcs-region}
 
-Eine `GET` Methode zur Auflistung einer bestimmten [!UICONTROL DCS] Region.
+Eine `GET` Methode zur Liste eines bestimmten [!DNL DCS] Bereichs.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -49,9 +52,9 @@ Gibt `200 OK` bei erfolgreicher Ausführung zurück.
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## DCS-Regionen auflisten {#list-dcs-regions}
+## Liste DCS-Regionen {#list-dcs-regions}
 
-Eine `GET` Methode zur Auflistung von [!UICONTROL DCS] Regionen.
+Eine `GET` Methode zur Liste von [!DNL DCS] Regionen.
 
 <!-- r_rest_api_regions_list.xml -->
 
