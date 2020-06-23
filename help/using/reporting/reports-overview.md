@@ -1,53 +1,56 @@
 ---
-description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard und verschiedene Berichte anzuzeigen.
-seo-description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard und verschiedene Berichte in Adobe Audience Manager (AAM) anzuzeigen.
-seo-title: Berichtsübersicht in Adobe Audience Manager (AAM)
-title: Berichtsübersicht
+description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard und verschiedene Berichte Ansicht.
+seo-description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard und verschiedene Berichte in Adobe Audience Manager (AAM) Ansicht.
+seo-title: Übersicht über Berichte in Adobe Audience Manager (AAM)
+title: Übersicht über Berichte
 translation-type: tm+mt
-source-git-commit: 687aaea0f62f90ab947be8aa7d93050c5562c307
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 5%
 
 ---
 
 
-# Berichtsübersicht
+# Übersicht über Berichte
 
-In den einzelnen Abschnitten werden verfügbare Berichte, ihre Ziele und typischen Verwendungen beschrieben. Alle Berichte sind im Analytics-Dashboard verfügbar.
+In den einzelnen Abschnitten werden verfügbare Berichte, ihre Ziele und typischen Verwendungen beschrieben. Alle Berichte sind im [!UICONTROL Analytics] Dashboard verfügbar.
 
-Informationen zu den Zeiträumen, in denen Audience Manager Informationen zum Ausfüllen von Berichten erhält, finden Sie unter [Auswirkungen von Datenbereitstellung und Dateiverarbeitung auf Berichte](/help/using/reference/reporting-file-transfer-timeframe.md).
+Informationen zu den Zeiträumen, in denen Audience Manager Informationen zum Ausfüllen von Berichten erhalten, finden Sie unter Auswirkungen von [Versand- und Dateiverarbeitungszeiten auf Berichte](/help/using/reference/reporting-file-transfer-timeframe.md).
 
-* [Zielgruppenoptimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Berichte zur Optimierung der Audience](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-   Die Berichte zur Zielgruppenoptimierung verwenden Datenvisualisierungsmethoden, um Informationen zu den Zielen in Ihrem Audience Manager-Konto zurückzugeben. In jedem Bericht können Sie auf fast jeden Datenpunkt klicken, um detaillierte Informationen zu diesem Element zurückzugeben. Diese Einblicke zur Zielgruppenoptimierung können auf verschiedene Anwendungsfälle in Werbe- und Veröffentlichungskanälen angewendet werden, sind aber standardmäßig nicht verfügbar. Wenden Sie sich für die ersten Schritte an Ihren Audience Manager-Berater.
+   Die [!UICONTROL Audience Optimization] Berichte verwenden Datenvisualisierungsmethoden, um Informationen zu den Zielen in Ihrem Audience Manager-Konto zurückzugeben. In jedem Bericht können Sie auf fast jeden Datenpunkt klicken, um detaillierte Informationen zu diesem Element zurückzugeben. Diese Einblicke zur Optimierung der Audience können auf verschiedene Anwendungsfälle in Werbe- und Publishing-Kanälen angewendet werden, sind aber standardmäßig nicht verfügbar. Wenden Sie sich an Ihren Audience Manager-Berater, um loszulegen.
 
 * [Allgemeine Berichte](/help/using/reporting/general-reports.md)
 
-   Ein Allgemeiner Bericht gibt Leistungsdaten zu Eigenschaften, Segmenten und Zielen zurück.
+   Eine [!UICONTROL General report] gibt Leistungsdaten zu [!UICONTROL traits], [!UICONTROL segments]und [!UICONTROL destinations]zurück.
 
 * [Interaktive Berichte und Überlagerungsberichte](/help/using/reporting/dynamic-reports/dynamic-reports.md)
 
-   Interaktive Berichte zeigen Leistungs- und Überlagerungsdaten für Eigenschaften und Segmente an. Statt in Spalten und Zeilen angeordnete Zahlen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie einzelne oder Gruppen von Datenpunkten auswählen und im Drilldown-Verfahren in den Berichtsergebnissen weitere Details anzeigen. Diese Visualisierungstechniken und die Berichtsinteraktivität erleichtern das Verständnis zahlreicher numerischer Daten.
+   Interaktive Berichte zeigen Leistungs- und Überlagerungsdaten für Eigenschaften und Segmente an. Statt in Spalten und Zeilen angeordnete Zahlen zu verwenden, geben diese Berichte Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie einzelne oder Gruppen von Datenpunkten auswählen und im Drilldown-Verfahren die Berichtsergebnisse aufschlüsseln, um weitere Details zu erhalten. Diese Visualisierungstechniken und die Berichtsinteraktivität erleichtern das Verständnis zahlreicher numerischer Daten.
 
 * [Statusbericht zum Einstieg: Info](/help/using/reporting/onboarding-status-report.md)
 
-   Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter Analytics &gt; Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
+   The [!UICONTROL Onboarding Status Report] checks success and failure rates for processing records in your inbound data source files. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht in [!UICONTROL Analytics > Onboarding Status Report]. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 
 * [Ausgehender Dateiverlauf](/help/using/reporting/outbound-history-report.md)
 
-   Zeigt Informationen zum Auftragsverlauf für ausgehende Stapelaufträge für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
+   Informationen zum Verlauf [!UICONTROL outbound] von Stapelaufträgen für ein bestimmtes Ziel und einen bestimmten Zeitraum.
 
 * [Trendberichte](/help/using/reporting/trend-reports.md)
 
-   Ein Trendbericht gibt Trenddaten zu Eigenschaften und Segmenten zurück.
+   Ein [!UICONTROL Trend report] gibt Trenddaten zu [!UICONTROL traits] und [!UICONTROL segments]zurück.
 
 * [Zählung individueller Benutzer in Überschneidungen und allgemeinen Berichten](/help/using/reporting/unique-user-counts.md)
 
-   Beschreibt die Schwankungen der Summen individueller Benutzer zwischen Berichten für dieselbe Eigenschaft und denselben Zeitraum.
+   Beschreibt die Schwankungen der Summen individueller Benutzer zwischen Berichten für denselben [!UICONTROL trait] und denselben Zeitraum.
 
-* [Berichte-Dashboard](/help/using/reporting/trend-reports.md)
+* [Dashboard für Berichte](/help/using/reporting/trend-reports.md)
 
-   Verwenden Sie das Dashboard, um Informationen zu den individuellen Besucherzahlen Ihrer Partner anzuzeigen, aufgeschlüsselt nach Eigenschaftentypen und Segmenten für einen bestimmten Zeitraum.
+   Verwenden Sie das Dashboard zur Ansicht von Informationen über die Anzahl der individuellen Besucher Ihrer Partner, aufgeschlüsselt nach [!UICONTROL trait] Typen und [!UICONTROL segments] für einen bestimmten Zeitraum.
 
-* [Datenstichproben und Fehlerraten in ausgewählten Audience Manager-Berichten](/help/using/reporting/report-sampling.md)
+* [Datenstichproben und Fehlerraten in Berichten zu ausgewählten Audience Managern](/help/using/reporting/report-sampling.md)
 
    Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
 
