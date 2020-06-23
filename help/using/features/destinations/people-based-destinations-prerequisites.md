@@ -5,9 +5,9 @@ seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Erwägungen
 translation-type: tm+mt
-source-git-commit: 8b72a42f9458fba97d02d2f16228e7d985ca3463
+source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 >[!IMPORTANT]
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
-Nachfolgend finden Sie einen Überblick über die Kundenanforderungen, die Sie erfüllen müssen, bevor Sie sich für [!DNL People-Based Destinations]die Anmeldung anmelden.
+Nachfolgend finden Sie einen Überblick über die Kundenanforderungen, die Sie erfüllen müssen, bevor Sie sich für [!UICONTROL People-Based Destinations]die Anmeldung anmelden.
 
 >[!IMPORTANT]
 > Lesen Sie diesen Artikel sorgfältig durch, bevor Sie zur Implementierungsphase übergehen.
 
 ## Anmelden für [!UICONTROL People-Based Destinations] {#signing-up}
 
-[!DNL People-Based Destinations] ist eine Premium-Funktion, mit der Sie Ihre Audience Manager besser ansprechen können, indem Sie Erstanbieter-Audiencen in personalisierten Umgebung aktivieren, Ihre Audience auf benutzerdefinierte Angebot in sozialen Netzwerken oder über E-Mail-Marketing ausrichten können.
+[!UICONTROL People-Based Destinations] ist eine Premium-Funktion, mit der Sie Ihre Audience Manager besser ansprechen können, indem Sie Erstanbieter-Audiencen in personalisierten Umgebung aktivieren, Ihre Audience auf benutzerdefinierte Angebot in sozialen Netzwerken oder über E-Mail-Marketing ausrichten können.
 
 Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um diese Premium-Funktion nutzen zu können.
 
@@ -33,33 +33,33 @@ Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um diese Premium-Funktion nutzen 
 
 ### [!DNL Facebook]
 
-Bevor Sie Ihre Erstanbieter-Audiencen [!DNL People-Based Destinations] [!DNL Facebook]an senden können, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor Sie Ihre Erstanbieter-Audience [!UICONTROL People-Based Destinations] an [!UICONTROL segments] [!DNL Facebook]senden können, stellen Sie sicher, dass folgende Voraussetzungen erfüllt sind:
 
 1. Für Ihr [!DNL Facebook] Benutzerkonto muss die Berechtigung &quot;Kampagnen **** verwalten&quot;für das Anzeigenkonto aktiviert sein, das Sie verwenden möchten.
 2. Hinzufügen Sie das **Adobe Experience Cloud** -Geschäftskonto als Werbepartner in Ihrem [!DNL Facebook Ad Account]. Verwenden Sie `business ID=206617933627973`. Weitere Informationen finden Sie unter [Hinzufügen Partner zu Ihrem Business Manager](https://www.facebook.com/business/help/1717412048538897) .
    >[!IMPORTANT]
-   > Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die Berechtigung &quot;Kampagnen **verwalten** &quot;aktivieren. Dies ist für die [!DNL People-Based Destinations] Integration erforderlich.
+   > Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die Berechtigung &quot;Kampagnen **verwalten** &quot;aktivieren. Dies ist für die [!UICONTROL People-Based Destinations] Integration erforderlich.
 3. Lesen und unterzeichnen Sie die [!DNL Facebook Custom Audiences] Nutzungsbedingungen. Um das zu tun, gehen Sie zu `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, wo `accountID` ist Ihr [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn]
 
-Bevor Sie Ihre Erstanbieter-Audiencen [!DNL People-Based Destinations] an senden können, stellen Sie sicher, dass Ihr [!DNL LinkedIn]Konto über die [!DNL LinkedIn Campaign Manager] [!DNL Creative Manager] oder höhere Berechtigungsstufe verfügt.
+Bevor Sie Ihre Erstanbieter-Audiencen [!UICONTROL People-Based Destinations] an senden können, stellen Sie sicher, dass Ihr [!DNL LinkedIn]Konto über die [!DNL LinkedIn Campaign Manager] [!DNL Creative Manager] oder höhere Berechtigungsstufe verfügt.
 
-Informationen zum Bearbeiten Ihrer [!DNL LinkedIn Campaign Manager] Benutzerberechtigungen finden Sie unter [Hinzufügen, Bearbeiten und Entfernen von Benutzerberechtigungen in Werbekonten](https://www.linkedin.com/help/lms/answer/5753)
+Weitere Informationen zum Bearbeiten Ihrer [!DNL LinkedIn Campaign Manager] Benutzerberechtigungen finden Sie unter [Hinzufügen, Bearbeiten und Entfernen von Benutzerberechtigungen für Werbekonten](https://www.linkedin.com/help/lms/answer/5753) in der LinkedIn-Dokumentation.
 
 ## Daten bei der Einschiffung {#data-onboarding}
 
-Die Datenerfassung für [!DNL People-Based Destinations] derzeit unterstützt bis zu 10 Hash-E-Mail-Adressen, die mit einer Kunden-ID ([!DNL CRM ID]) pro Batch-Übertragung verknüpft sind. Durch das Hochladen von mehr als 10 mit einer Kunden-ID verknüpften Hash-E-Mail-Adressen werden 10 davon von Audience Manager in beliebiger Reihenfolge aufgenommen.
+Die Datenerfassung für [!UICONTROL People-Based Destinations] derzeit unterstützt bis zu 10 Hash-E-Mail-Adressen, die mit einer Kunden-ID ([!DNL CRM ID]) pro Batch-Übertragung verknüpft sind. Durch das Hochladen von mehr als 10 mit einer Kunden-ID verknüpften Hash-E-Mail-Adressen werden 10 davon von Audience Manager in beliebiger Reihenfolge aufgenommen.
 
 Beim Hochladen von mehr als 10 mit einer Kunden-ID verknüpften Hash-E-Mail-Adressen in mehreren Batch-Übertragungen behält der Audience Manager die letzten 10 hinzugefügten E-Mail-Adressen bei.
 
 ## Datenschutz{#data-privacy}
 
-Obwohl [!DNL People-Based Destinations] Sie die Zielgruppe von Audiencen auf der Grundlage von von Ihnen hochgeladenen Hash-E-Mail-Adressen ermöglichen, ist es Ihnen weiterhin verboten, direkt identifizierbare Besucher-Informationen in Audience Manager hochzuladen. In der Phase der Dateneingabe müssen Sie sicherstellen, dass die zu verwendenden E-Mail-Adressen mit dem [!DNL SHA256] Algorithmus verschlüsselt werden. Andernfalls können Sie sie nicht in verwenden [!DNL People-Based Destinations].
+Obwohl [!UICONTROL People-Based Destinations] Sie die Zielgruppe von Audiencen auf der Grundlage von von Ihnen hochgeladenen Hash-E-Mail-Adressen ermöglichen, ist es Ihnen weiterhin verboten, direkt identifizierbare Besucher-Informationen in Audience Manager hochzuladen. In der Phase der Dateneingabe müssen Sie sicherstellen, dass die zu verwendenden E-Mail-Adressen mit dem [!DNL SHA256] Algorithmus verschlüsselt werden. Andernfalls können Sie sie nicht in verwenden [!UICONTROL People-Based Destinations].
 
 ## Daten-Hashing im Vergleich zur Verschlüsselung {#data-hashing-encryption}
 
-Verschlüsselung ist eine Zweiwegefunktion. Alle verschlüsselten Informationen können auch mit dem richtigen Entschlüsselungsschlüssel entschlüsselt werden. Das Verschlüsseln von Daten im Zusammenhang mit Audience Managern stellt eine ernsthafte Gefahr dar, da jede verschlüsselte Form von personenbezogenen Daten auch entschlüsselt werden kann. Im Gegensatz zur Verschlüsselung [!DNL People-Based Destinations] sind sie stattdessen für die Verwendung mit Hashdaten konzipiert.
+Verschlüsselung ist eine Zweiwegefunktion. Alle verschlüsselten Informationen können auch mit dem richtigen Entschlüsselungsschlüssel entschlüsselt werden. Das Verschlüsseln von Daten im Zusammenhang mit Audience Managern stellt eine ernsthafte Gefahr dar, da jede verschlüsselte Form von personenbezogenen Daten auch entschlüsselt werden kann. Im Gegensatz zur Verschlüsselung [!UICONTROL People-Based Destinations] sind sie stattdessen für die Verwendung mit Hashdaten konzipiert.
 
 Hashing ist eine Einwegfunktion, die die Eingabe verwirft, um ein einzigartiges Ergebnis zu erzielen. Durch den Einsatz geeigneter Hashing-Algorithmen wie [!DNL SHA256]z. B. gibt es keine Möglichkeit, die Hashing-Funktion umzukehren und die nicht verschachtelten Informationen offen zu legen. Die E-Mail-Adressen, die Sie an Audience Manager senden, müssen mit dem [!DNL SHA256] Algorithmus verschlüsselt werden. Auf diese Weise können Sie sicherstellen, dass keine entsperrten E-Mail-Adressen Audience Manager erreichen.
 
@@ -78,25 +78,25 @@ Sehen Sie sich das folgende Video an, um die Hashing-Anforderungen von [!UICONTR
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Mit Adobe Experience Cloud haben Sie die Möglichkeit, Kunden-IDs über den Identitätsdienst für Adobe Experience Platformen zu hash. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Support für setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
+Mit Adobe Experience Cloud haben Sie die Möglichkeit, Kunden-IDs über die [!DNL Adobe Experience Platform Identity Service (ECID)]. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Support für setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
 
 ## Abrufen der Benutzerberechtigung {#obtaining-user-permission}
 
-Da Sie [!DNL People-Based Destinations] bei der Aktivierung von Erstanbieter-Audiencen in personalisierten Kanälen unterstützen, ist es Ihre Verantwortung, Ihre Kunden darüber zu informieren und die erforderlichen Einwilligungen zu erhalten, wie Sie diese Daten für Werbezwecke oder andere Zwecke verwenden werden.
+Da Sie [!UICONTROL People-Based Destinations] bei der Aktivierung von Erstanbieter-Audiencen in personalisierten Kanälen unterstützen, ist es Ihre Verantwortung, Ihre Kunden darüber zu informieren und die erforderlichen Einwilligungen zu erhalten, wie Sie diese Daten für Werbezwecke oder andere Zwecke verwenden werden.
 
-Bevor Sie sich für anmelden, [!DNL People-Based Destinations]müssen Sie die Zustimmung Ihrer Kunden einholen, bevor Sie ihre Informationen für Werbezwecke verwenden.
+Bevor Sie sich für anmelden, [!UICONTROL People-Based Destinations]müssen Sie die Zustimmung Ihrer Kunden einholen, bevor Sie ihre Informationen für Werbezwecke verwenden.
 
 Falls Ihre Kunden die Kampagnen für Werbung ausschließen möchten, finden Sie unter [Ausschluss-Verwaltung](../../overview/data-security-and-privacy/data-privacy-requests.md) weitere Informationen dazu, wie Audience Manager daran gehindert werden können, Daten zu erfassen.
 
 ## Aktivierung von Erstanbieter-Daten erzwingen {#enforcing-first-party-activation}
 
-Bei der Verwendung [!DNL People-Based Destinations]können Sie Erstanbieter-Daten nur verwenden, um Audiencen in benutzerbasierten Kanälen zu aktivieren. Sie können keine Daten von Drittanbietern zur Aktivierung der Audience in benutzerbasierten Kanälen verwenden.
+Bei der Verwendung [!UICONTROL People-Based Destinations]können Sie Erstanbieter-Daten nur verwenden, um Audiencen in benutzerbasierten Kanälen zu aktivieren. Sie können keine Daten von Drittanbietern zur Aktivierung der Audience in benutzerbasierten Kanälen verwenden.
 
-Verwenden Sie bei der Verwendung [!UICONTROL People-Based Destinations]die [Data Export Controls](../data-export-controls.md) , um Ihre Datenquellen und Ziele gemäß den Richtlinien und Anforderungen von Zielplattformen und Datenanbietern zu kennzeichnen.
+Verwenden Sie bei der Verwendung [!UICONTROL People-Based Destinations]die [Datenexportkontrolle](../data-export-controls.md) , um Ihre [!UICONTROL data sources] und [!UICONTROL destinations] gemäß den Richtlinien und Anforderungen von Zielplattformen und Datenanbietern zu kennzeichnen.
 
 ## Integriertes authentifiziertes Hash-IDs mit deklariertem ID-Targeting {#onboard-authenticated-declared-id}
 
-Es gibt zwei Möglichkeiten, Ihre Offlinedaten in Audience Manager zu bringen [!DNL People-Based Destinations].
+Es gibt zwei Möglichkeiten, Ihre Offlinedaten in Audience Manager zu bringen [!UICONTROL People-Based Destinations].
 
-* [Senden Sie Stapeldaten](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an Audience Manager, um Hash-E-Mail-Adressen zu erfassen. Bei dieser Methode können Sie die Hash-E-Mail-Adressen aus Ihrer [!DNL CRM] Datenbank in verwenden [!DNL People-Based Destinations]. Bei Verwendung dieser Methode können Sie außerdem die Hash-E-Mail-Adressen für [Onboarded-Eigenschaften](../traits/trait-and-segment-qualification-reference.md)qualifizieren.
-* Verwenden Sie [deklarierte IDs](../declared-ids.md) , um beim Übergeben authentifizierter Kunden-IDs Hash-E-Mail-Adressen zu deklarieren. Bei Verwendung dieser Methode sendet Audience Manager in Ihrem Namen nur an [!DNL People-Based Destinations] die Hash-E-Mail-Adressen von Benutzern, die sich online authentifiziert haben. Die E-Mail-Adressen, die über benutzerbasierte Kanal aktiviert werden, sind nur die Adressen in den deklarierten ID-Ereignis-Aufrufen. Andere mit der Kunden-ID verknüpfte E-Mail-Adressen werden nicht in Echtzeit gesendet.
+* [Senden Sie Stapeldaten](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an Audience Manager, um Hash-E-Mail-Adressen zu erfassen. Bei dieser Methode können Sie die Hash-E-Mail-Adressen aus Ihrer [!DNL CRM] Datenbank in verwenden [!UICONTROL People-Based Destinations]. Bei Verwendung dieser Methode können Sie außerdem die Hash-E-Mail-Adressen für [Onboarded-Eigenschaften](../traits/trait-and-segment-qualification-reference.md)qualifizieren.
+* Verwenden Sie [deklarierte IDs](../declared-ids.md) , um beim Übergeben authentifizierter Kunden-IDs Hash-E-Mail-Adressen zu deklarieren. Bei Verwendung dieser Methode sendet Audience Manager in Ihrem Namen nur an [!UICONTROL People-Based Destinations] die Hash-E-Mail-Adressen von Benutzern, die sich online authentifiziert haben. Die E-Mail-Adressen, die über benutzerbasierte Kanal aktiviert werden, sind nur die Adressen in den deklarierten ID-Ereignis-Aufrufen. Andere mit der Kunden-ID verknüpfte E-Mail-Adressen werden nicht in Echtzeit gesendet.
