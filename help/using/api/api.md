@@ -7,15 +7,15 @@ solution: Audience Manager
 title: API- und SDK-Code
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '74'
 ht-degree: 1%
 
 ---
 
 
-# API- und SDK-Code {#api-and-sdk-code}
+# [!DNL API] und [!DNL SDK] Code {#api-and-sdk-code}
 
 [!DNL API]s und Toolkits, mit denen Sie programmatisch arbeiten können [!DNL Audience Manager].
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 >Diese Funktionen werden von unseren [!DNL API]s nicht unterstützt:
 >
 >* [!UICONTROL General], [!UICONTROL Trend]und [!UICONTROL Interactive] Berichte.
->* Veraltete Funktionalität des Tag-Einfüge-Managers ([!DNL TIM]).
+>* Veraltete [!DNL Tag Insertion Manager] ([!DNL TIM]) Funktionalität.
 
 
 Details:
