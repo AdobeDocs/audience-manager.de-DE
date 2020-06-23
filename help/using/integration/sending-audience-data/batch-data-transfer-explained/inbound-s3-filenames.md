@@ -6,15 +6,15 @@ solution: Audience Manager
 title: Amazon S3-Anforderungen an Name und Dateigröße für eingehende Datendateien
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1154'
 ht-degree: 2%
 
 ---
 
 
-# Amazon S3-Anforderungen an Name und Dateigröße für eingehende Datendateien{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Anforderungen an Name und Dateigröße für eingehende Datendateien {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dateigrößen, die beim Senden der Daten an [!DNL Audience Manager]eingehalten werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an ein [!DNL Audience Manager] /- [!DNL Amazon S3] Verzeichnis senden.
 
