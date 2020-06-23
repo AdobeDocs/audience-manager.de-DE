@@ -7,27 +7,25 @@ solution: Audience Manager
 title: Deklarierte IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1191'
 ht-degree: 3%
 
 ---
 
 
-# Deklarierte IDs {#declared-ids}
+# [!UICONTROL Declared IDs] {#declared-ids}
 
-Funktionsweise deklarierter IDs, Einrichtung von Verfahren, Codebeispielen und Variablen.
+Funktionsweise, [!UICONTROL declared IDs] Einrichten von Prozeduren, Codebeispielen und Variablen.
 
-## Deklariertes ID-Targeting {#declared-id-targeting}
+## [!UICONTROL Declared ID] Zielsetzung {#declared-id-targeting}
 
-Austausch und Synchronisierung von Benutzer-IDs [!DNL Audience Manager] von Geräten oder Browsern, die keine persistenten Datenspeicherung wie Drittanbieter-Cookies verwenden oder akzeptieren.
+Tauschen Sie Benutzer-IDs mit [!DNL Audience Manager] Geräten oder Browsern aus, die keine persistenten Datenspeicherung verwenden oder akzeptieren, wie z. B. Drittanbieter, und synchronisieren Sie diese [!DNL cookies].
 
-<!-- declared_id_about.xml -->
+## Zweck des [!UICONTROL Declared ID] Targeting {#declared-id-targeting-purpose}
 
-## Zweck des deklarierten ID-Targeting {#declared-id-targeting-purpose}
-
-Einige Browser und die meisten Mobilgeräte akzeptieren keine Drittanbieter-Cookies. Dadurch wird es schwierig, Informationen über Site-Besucher beizubehalten oder beständige IDs zuzuweisen. Um dieses Problem zu beheben, [!DNL Audience Manager] können Sie [!UICONTROL DIL] es verwenden, um einen Ereignis-Aufruf [!UICONTROL declared IDs] zu übermitteln. Darüber hinaus [!UICONTROL declared ID] kann ein Benutzer als universelle ID fungieren, die für denselben Benutzer in allen Lösungen in der [!DNL Experience Cloud]Benutzeroberfläche gilt. Die folgende Tabelle beschreibt den ID-Targeting-/Abgleichungsprozess:
+Einige Browser und die meisten Mobilgeräte akzeptieren kein Drittanbieter [!DNL cookies]. Dadurch wird es schwierig, Informationen über Site-Besucher beizubehalten oder beständige IDs zuzuweisen. Um dieses Problem zu beheben, [!DNL Audience Manager] können Sie [!UICONTROL DIL] es verwenden, um einen Ereignis-Aufruf [!UICONTROL declared IDs] zu übermitteln. Darüber hinaus [!UICONTROL declared ID] kann ein Benutzer als universelle ID fungieren, die für denselben Benutzer in allen Lösungen in der [!DNL Experience Cloud]Benutzeroberfläche gilt. Die folgende Tabelle beschreibt den ID-Targeting-/Abgleichungsprozess:
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -60,18 +58,18 @@ Um zu beginnen, müssen Sie den [!DNL Experience Cloud] ID-Dienst und [!UICONTRO
 
 ## Ausschluss-Anrufe {#opt-out-calls}
 
-Der [!UICONTROL declared ID] [!DNL Audience Manager] Vorgang berücksichtigt die Voreinstellungen des Site-Besuchers, um das Targeting auf Ihrer Website abzuwählen. Wenn [!DNL Audience Manager] eine Abmeldeanfrage gesendet wird, enthält die vom Benutzer zurückgegebene [!DNL JSON] Fehlermeldung den Fehlercode 171 mit der Meldung &quot;Engetroffen Opt-out Tag&quot; anstelle der [!DNL DCS] [!DNL Audience Manager] Benutzer-ID.
+Der [!UICONTROL declared ID] [!DNL Audience Manager] Vorgang berücksichtigt die Voreinstellungen des Site-Besuchers, um das Targeting auf Ihrer Website abzuwählen. Wenn [!DNL Audience Manager] eine Abmeldeanforderung eingeht, enthält der vom Benutzer zurückgegebene [!DNL JSON] Fehlercode 171 mit der Meldung [!DNL DCS] anstelle der `Encountered opt out tag`[!DNL Audience Manager] Benutzer-ID.
 
 * [!DNL Audience Manager] kann ein [!UICONTROL declared ID] Opt-out zusammen mit einem [!DNL Audience Manager] in der [!UICONTROL UUID] [!DNL URL].
 * Der [!UICONTROL declared ID] Ausschluss wird im [!UICONTROL Profil Cache Server ([!UICONTROL PCS]) pro Partner gespeichert. Es gibt keinen Ausschluss auf Plattformebene [!UICONTROL declared IDs]. Darüber hinaus [!DNL Audience Manager] wird der Benutzer an der Kante aus dieser bestimmten Region ausgeschlossen (das Opt-out erfolgt nicht über [!DNL DCS] Regionen hinweg).
 
 Weitere Informationen zum Ausschluss von der Datenerfassung finden Sie unter [Datenschutz](../overview/data-security-and-privacy/data-privacy.md) .
 
-## Deklarierte ID-Ausschluss-Beispiele {#opt-out-examples}
+## [!UICONTROL Declared ID] Ausschluss-Beispiele {#opt-out-examples}
 
 Sie können eine [!UICONTROL declared ID] Abmeldeanforderung mit den Paaren `d_cid` und `d_cid_ic` Schlüssel-Wert durchführen. Die alten Parameter wie `d_dpid` und `d_dpuuid` funktionieren weiterhin, werden jedoch als veraltet betrachtet. Siehe [CID ersetzt DPID und DPUUID](../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
-### Ausschluss mit CID und CID_IC
+### Opt-Outs mit [!UICONTROL CID] und [!UICONTROL CID_IC]
 
 Eine Beschreibung und Syntax finden Sie unter [URL-Variablen und -Syntax für deklarierte IDs](../features/declared-ids.md#variables-and-syntax).
 
@@ -98,7 +96,7 @@ Eine Beschreibung und Syntax finden Sie unter [URL-Variablen und -Syntax für de
  </tbody> 
 </table>
 
-### Opt-Outs mit DPID, DPUUID und UUID (nicht mehr unterstützt)
+### Opt-Outs mit [!UICONTROL DPID], [!UICONTROL DPUUID]und [!UICONTROL UUID] (nicht mehr unterstützt)
 
 Diese Methoden funktionieren weiterhin, werden jedoch als veraltet betrachtet. Diese Informationen werden zu veralteten Zwecken und als Referenz bereitgestellt. Ältere Opt-outs umfassen:
 
@@ -125,9 +123,7 @@ Diese Methoden funktionieren weiterhin, werden jedoch als veraltet betrachtet. D
  </tbody> 
 </table>
 
-## Variablen und Syntax für deklarierte IDs {#variables-and-syntax}
-
-<!-- c_declared_id_var_syntax.xml -->
+## Variablen und Syntax für [!UICONTROL Declared IDs] {#variables-and-syntax}
 
 In der folgenden Tabelle werden die Schlüssel-Wert-Paare Liste, die bei Verwendung Ihre [!DNL Audience Manager] Datenanbieter-ID und Benutzer-IDs oder Integrationscodes weitergeben. Note, *italics* indicates a variable placeholder. Es wurden Leerzeichen hinzugefügt, um das Lesen zu vereinfachen.
 
@@ -182,13 +178,11 @@ Angesichts dieser Schlüssel-Wert-Paare und ihrer erforderlichen Syntax würden 
  </tbody> 
 </table>
 
-## Deklarierte ID-Variablen {#declared-id-variables}
+## [!UICONTROL Declared ID] Variablen {#declared-id-variables}
 
-Beschreibt die Konfigurationsvariablen, mit denen deklarierte IDs [!UICONTROL DIL] an [!DNL Audience Manager.]
+Beschreibt die Konfigurationsvariablen, die verwendet werden, um [!UICONTROL declared IDs] [!UICONTROL DIL] an [!DNL Audience Manager.]
 
-## DIL verwendet den Identitätsdienst für Adobe Experience Platformen, um deklarierte IDs zu übergeben {#dil-id-service-pass-declared-ids}
-
-<!-- r_dil_declared_id_vars.xml -->
+## [!UICONTROL DIL] verwendet [!DNL Adobe Experience Platform Identity Service] die [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
 Bei Verwendung mit dem Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/en/id-service/using/home.html)müssen Sie nicht mehr [!UICONTROL declared IDs] mit den veralteten `dpid` und `dpuuid` Variablen weitergeben. Stattdessen [!UICONTROL DIL] verlassen sich die aktuellen Versionen auf die `visitorService` Funktion, um die [!UICONTROL declared IDs] aus der `setCustomerIDs` Funktion in der [!UICONTROL Adobe Experience Platform Identity Service]zu erhalten. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Sie rufen `visitorService` wie unten gezeigt `DIL.create` an.
 
@@ -230,9 +224,9 @@ In der folgenden Tabelle werden die vom `declaredId` Objekt verwendeten Variable
  </tbody> 
 </table>
 
-### `DPID` und `DPUUID`
+### [!UICONTROL DPID] und [!UICONTROL DPUUID]
 
-[!DNL Audience Manager] vergleicht und stimmt mit der kombinierten `DPID` und `DPUUID` einer entsprechenden Benutzer-ID in unserem System überein. Wenn keine ID vorhanden ist, [!DNL Audience Manager] wird eine neue Benutzer-ID erstellt und mit der `DPID/DPUUID` Kombination synchronisiert. Sobald eine Benutzer-ID (die [!DNL Audience Manager] ) `UUID`[!DNL JSON] übereinstimmt oder erstellt wird, gibt sie diese ID in der Antwort auf das Cookie in der Domäne des Kunden (Erstanbieter-Cookie) oder in einer anderen lokalen Datenspeicherung zurück.
+[!DNL Audience Manager] vergleicht und stimmt mit der kombinierten `DPID` und `DPUUID` einer entsprechenden Benutzer-ID in unserem System überein. Wenn keine ID vorhanden ist, [!DNL Audience Manager] wird eine neue Benutzer-ID erstellt und mit der `DPID/DPUUID` Kombination synchronisiert. Sobald eine Benutzer-ID (die [!DNL Audience Manager] ) `UUID`übereinstimmt oder erstellt wird, gibt sie diese ID in der [!DNL JSON] Antwort auf die [!DNL cookie] [!DNL cookie]Domäne des Kunden (Erstanbieter-ID) oder eine andere lokale Datenspeicherung zurück.
 
 Rufen Sie diese Funktion auf, wenn Sie [!UICONTROL DIL] v6.1 oder früher verwenden. Diese Funktion wurde jedoch zugunsten der neuen Version aufgegeben, die [!UICONTROL declared IDs] von der [!DNL Adobe Experience Platform Identity Service].
 
@@ -250,7 +244,7 @@ DIL.create({
 >
 >Sie müssen programmgesteuert den Code entwickeln, der die ID-Werte für die Schlüssel `d_dpuuid` und `d_dpid` -Schlüssel bereitstellt.
 
-### Weitergeben von IDs nach DIL-Instanziierungen
+### Weitergeben von IDs nach [!UICONTROL DIL] Instanziierung
 
 >[!NOTE]
 >
