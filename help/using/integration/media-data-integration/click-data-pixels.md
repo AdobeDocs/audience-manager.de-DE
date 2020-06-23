@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Erfassen von Kampagnen-Klickdaten über Pixelaufrufe
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '652'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Die Klick-Tracking ermöglicht die Messung der Interaktion mit Besuchern in Ihrer gesamten Kampagne, da Klick-basierte Aktivitäten für Kreative von Drittanbietern aufgezeichnet werden. Ähnlich wie bei der [Impressionserfassung](/help/using/integration/media-data-integration/impression-data-pixels.md)wird ein Ereignis-Aufruf zur Verarbeitung an die Audience Manager-Datenerfassungsserver ([!DNL DCS]) gesendet. Der Besucher wird dann an die gewünschte Internetadresse weitergeleitet.
+Die Klick-Tracking ermöglicht die Messung der Interaktion mit Besuchern in Ihrer gesamten Kampagne, da Klick-basierte Aktivitäten für Kreative von Drittanbietern aufgezeichnet werden. Ähnlich wie bei der [Impressionserfassung](/help/using/integration/media-data-integration/impression-data-pixels.md)wird ein Ereignis-Aufruf zur Verarbeitung an die [!DNL Audience Manager] Datenerfassungsserver ([!DNL DCS]) gesendet. Der Besucher wird dann an die gewünschte Internetadresse weitergeleitet.
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ Basierend auf dem obigen Beispiel wird der Browser zu folgenden Elementen umgele
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## Zusätzliche Funktionen - Berichte zur Audience-Optimierung
+## Zusätzliche Funktionen - [!UICONTROL Audience Optimization Reports]
 
 Sie können Pixelaufrufe verwenden, um die [Audience-Optimierungsberichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)zu aktivieren. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) , wenn Sie Pixel verwenden möchten, um Berichte zu aktivieren.
 
