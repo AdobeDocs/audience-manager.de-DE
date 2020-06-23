@@ -1,12 +1,12 @@
 ---
 description: Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS-API-Code, -Methoden und -Prozesse.
 seo-description: Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS-API-Code, -Methoden und -Prozesse in Adobe Audience Manager (AAM).
-seo-title: Übersicht über die DCS-API-Referenz in Adobe Audience Manager (AAM)
+seo-title: Übersicht über die DCS API-Referenz in Adobe Audience Manager (AAM)
 title: Übersicht über die DCS API
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Übersicht über die DCS API
 
-Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS-API-Code, -Methoden und -Prozesse.
+Konzeptbezogene Informationen, Beschreibungen und Definitionen für [!DNL DCS API] Code, Methoden und Prozesse.
 
 * [DCS API-Methoden](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Senden Sie Daten mit GET- oder POST-Methoden an die DCS-API.
+   Senden Sie Daten mit den Methoden GET oder POST an die [!DNL DCS API] Kommission.
 
 * [DCS-Fehlercodes, Nachrichten und Beispiele](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
@@ -26,7 +26,7 @@ Konzeptbezogene Informationen, Beschreibungen und Definitionen für DCS-API-Code
 
 * [ID-Überwachung und -Denylierung](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   Der DCS überwacht die IDs, die er erhält, und fügt die IDs, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden, einer Deny-Liste hinzu.
+   Der DCS überwacht die IDs, die er erhält, und fügt die IDs, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden, zu einer blockierungsliste hinzu.
 
 * [DCS-Regions-IDs, Speicherorte und Hostnamen](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
