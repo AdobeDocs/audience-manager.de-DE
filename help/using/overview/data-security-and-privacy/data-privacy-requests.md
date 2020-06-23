@@ -1,15 +1,15 @@
 ---
-description: In diesem Dokument werden die technischen Einzelheiten der Einhaltung der Datenschutzbestimmungen für den Audience Manager behandelt.
-seo-description: In diesem Dokument werden die technischen Einzelheiten der Einhaltung der Datenschutzbestimmungen für den Audience Manager behandelt.
+description: In diesem Dokument werden die technischen Einzelheiten im Zusammenhang mit der Einhaltung der Datenschutzbestimmungen für den Audience Manager behandelt.
+seo-description: In diesem Dokument werden die technischen Einzelheiten im Zusammenhang mit der Einhaltung der Datenschutzbestimmungen für den Audience Manager behandelt.
 seo-title: Datenschutzanforderungen
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Datenschutzanforderungen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1471'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Sie können einzelne Anforderungen senden, um auf Verbrauchsdaten zuzugreifen un
 * Über die Benutzeroberfläche des [Privacy Service](https://privacyui.cloud.adobe.io/). Die Dokumentation finden Sie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Durch die **[!DNL Privacy Service API]**. Die Dokumentation [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) und die [!DNL API] Referenz [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-Beim Senden individueller Datendatenschutzanforderungen können Sie alle Audience Manager-IDs (IDs), wie im Abschnitt &quot; **[Audience Manager-IDs](data-privacy-ids.md)**&quot;beschrieben, zusammen mit ihren jeweiligen Namensraum-IDs (Datenquellen-IDs) senden.
+Beim Senden individueller Datendatenschutzanforderungen können Sie alle [!DNL Audience Manager] IDs (IDs), wie im Abschnitt &quot; **[Audience Manager-IDs](data-privacy-ids.md)**&quot;beschrieben, zusammen mit ihren jeweiligen Namensraum-IDs (Datenquellen-IDs) senden.
 
 Der [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) unterstützt zwei Anforderungstypen: Anforderungen zum Datenzugriff und zum Löschen von Daten.
 
@@ -44,9 +44,9 @@ Um zu sehen, wie eine gültige [!DNL JSON] Datei aussieht, können Sie eine JSON
 
 Wir verstehen Ihre Verpflichtung, Ihre Datenschutzanforderungen innerhalb der gesetzlich festgelegten Frist zu erfüllen.
 
-## Datenlöschungsanforderungen{#delete-data}
+## Datenlöschungsanforderungen {#delete-data}
 
-Sie können Datenlöschungsanfragen über die Benutzeroberfläche [des](https://privacyui.cloud.adobe.io/) Privacy Service ( [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)Dokumentation) oder durch Aufruf der [!DNL Privacy Service API] ( [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) angezeigte Dokumentation und API-Referenz [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)) senden.
+Sie können Datenlöschungsanfragen über die Benutzeroberfläche [des](https://privacyui.cloud.adobe.io/) Privacy Service ( [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)Dokumentation) oder durch Aufruf der [!DNL Privacy Service API] (Dokumentation [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) und [!DNL API] Referenz [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)) senden.
 
 Über die Benutzeroberfläche [des](https://privacyui.cloud.adobe.io/) Privacy Service können Sie neue Auftragsanforderungen entweder mithilfe der [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON] Datei erstellen.
 
@@ -56,7 +56,7 @@ Adobe versteht Ihr Eintreten für die Einhaltung der Datenschutzanforderungen vo
 
 Löscht als Reaktion auf die Anforderung zum Löschen von Benutzerdaten Eigenschaften und Segmente, die mit der in der Anforderung enthaltenen [!DNL Audience Manager] [!DNL Audience Manager] Kennung verknüpft sind. Darüber hinaus werden die entsprechenden [!DNL Audience Manager] IDs für die von der weiteren Datenerfassung abgewiesene Person [!DNL Audience Manager] und die entsprechenden ID-Zuordnungen entfernt.
 
-Wenn Sie deklarierte IDs, wie z. B. geräteübergreifende [!DNL CRM] IDs oder Cookie-IDs, in Datendatenschutzanforderungen senden, [!DNL Audience Manager] führen Sie den erforderlichen Löschvorgang auf allen verknüpften Geräten durch (bis zu 100 Geräte pro deklarierter ID).
+Wenn Sie deklarierte IDs, wie z. B. geräteübergreifende [!DNL CRM] IDs oder [!DNL cookie] IDs, in Datenschutzanforderungen senden, führen [!DNL Audience Manager] Sie den erforderlichen Löschvorgang auf allen verknüpften Geräten durch (bis zu 100 Geräte pro deklarierter ID).
 
 [!DNL Audience Manager] versucht, die Aktivierung-Partner über Löschungsanfragen zu benachrichtigen, indem sie ihnen Segmentinformationen für Datensubjekte senden, die das Löschen bestimmter Daten anfordern. Einige Partnereinrichtungen der Aktivierung:
 
@@ -124,14 +124,14 @@ Nach einer Abmeldung auf Partnerebene mit einem deklarierten ID-Aufruf:
 * Die letzte Geräte-ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)), die mit der [CRM-ID](../../reference/ids-in-aam.md) verknüpft ist, wird bei der Datenerfassung nicht berücksichtigt.
 * [!DNL Audience Manager] beendet alle Datenerfassung, Segmentierung oder Aktivierung für die [!DNL CRM] ID und die letzte Geräte-ID, die mit der [!DNL CRM] ID verknüpft ist;
 * [!DNL Audience Manager] Aufhebung der Segmentierung der Ausschluss- [!DNL CRM] ID und der letzten Geräte-ID aus allen Segmenten;
-* Zielpartner erhalten die Anforderung zum Entfernen des Segments für die [!DNL CRM] ID und die letzte Geräte-ID. Die Segmentierung funktioniert sowohl für [Echtzeit](data-privacy-requests.md#aam-partners-with-unsegmentation) - als auch für Stapelziele.
+* [!UICONTROL Destination] Partner erhalten die Nicht-Segment-Anforderung für die [!DNL CRM] ID und die letzte Geräte-ID. Die Segmentierung funktioniert sowohl für [Echtzeit](data-privacy-requests.md#aam-partners-with-unsegmentation) - als auch für Stapelziele.
 * Es werden keine Verlaufsdaten gelöscht.
 
 Wenn [!DNL Audience Manager] eine Abmeldeanfrage auf Partnerebene gesendet wird, enthält der vom [!DNL JSON] zurückgegebene [!DNL DCS] Fehlercode 171 [mit der Meldung](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes)anstelle der [!UICONTROL "Encountered opt out tag"][!DNL Audience Manager] Benutzer-ID.
 
 Sie können eine deklarierte ID-Abmeldeanforderung mit den Paaren `d_cid` und dem Schlüssel- `d_cid_ic` -Wert erstellen. Die alten Parameter wie `d_dpid` und `d_dpuuid` funktionieren weiterhin, werden jedoch als veraltet betrachtet. Siehe [CID ersetzt DPID und DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
-#### Ausschluss mit CID und CID_IC
+#### Ausschluss mit [!DNL CID] und [!DNL CID_IC]
 
 Eine Beschreibung und Syntax finden Sie unter [URL-Variablen und -Syntax für deklarierte IDs](../../features/declared-ids.md#variables-and-syntax).
 
@@ -162,7 +162,7 @@ Nach einer Abmeldung auf Partnerebene mit einem Geräte-ID-Aufruf:
 * Zielpartner erhalten die Anforderung zum Entfernen des Segments für die Geräte-ID. Die Segmentierung funktioniert sowohl für [Echtzeit](data-privacy-requests.md#aam-partners-with-unsegmentation) - als auch für Stapelziele.
 * Es werden keine Verlaufsdaten gelöscht.
 
-## Audience Manager-Partner mit Unsegmentierungsfunktionen {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] Partner mit Unsegmentierungsfunktionen {#aam-partners-with-unsegmentation}
 
 Um Ihnen bei der Automatisierung Ihrer Verbraucherdatendatenschutzanforderungen zu helfen, [!DNL Audience Manager] wird versucht, die Aktivierung-Partner über Löschungsanfragen von Datensubjekten zu informieren, indem diese die Segmentinformationen löschen (oder entfernen).
 
@@ -177,6 +177,6 @@ Prüfen Sie die [Liste der gerätebasierten Ziele](/help/using/features/destinat
 
 ## Datenkorrekturanforderungen {#correction}
 
-Da dies nicht die Quelle der Daten [!DNL Audience Manager] ist, ist die Datenkorrektur in [!DNL Audience Manager]diesem Bereich begrenzt. Die Korrektur könnte bedeuten, dass der Verbraucher entweder beantragt hat, von einer falschen Eigenschaft/einem falschen Segment ausgeschlossen oder für die gewünschte Eigenschaft/das gewünschte Segment qualifiziert zu werden.
+Da dies nicht die Quelle der Daten [!DNL Audience Manager] ist, ist die Datenkorrektur in [!DNL Audience Manager]diesem Bereich begrenzt. Die Korrektur könnte bedeuten, dass der Verbraucher beantragt hat, entweder von einer falschen [!UICONTROL trait]/[!UICONTROL segment] oder der gewünschten [!UICONTROL trait]/[!UICONTROL segment]qualifiziert zu werden.
 
-[!DNL Audience Manager] Kunden können die relevanten Signale/Eigenschaften/Segmente gegen Profil von Benutzern erfassen und diese Informationen über die [Offline-Datenerfassung](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an senden [!DNL Audience Manager]. Bitte beachten Sie, dass der Benutzer weiterhin für die ursprünglichen Eigenschaften und Segmente qualifiziert ist, wenn er sein Verhalten wiederholt.
+[!DNL Audience Manager] Kunden können die relevanten Signale/Eigenschaften/Segmente gegen Profil von Benutzern erfassen und diese Informationen über die [Offline-Datenerfassung](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an senden [!DNL Audience Manager]. Bitte beachten Sie, dass der Benutzer sich weiterhin für das Original qualifiziert [!UICONTROL trait] und [!UICONTROL segments] sein Verhalten wiederholt.
