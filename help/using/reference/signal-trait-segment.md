@@ -6,75 +6,39 @@ solution: Audience Manager
 title: Signale, Eigenschaften und Segmente
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 1%
+source-wordcount: '374'
+ht-degree: 0%
 
 ---
 
 
-# Signale, Eigenschaften und Segmente{#signals-traits-and-segments}
+# [!UICONTROL Signals], [!UICONTROL Traits]und [!UICONTROL Segments] {#signals-traits-and-segments}
 
-Beschreibt die Komponenten eines [!DNL Audience Manager] Segments, die Ausdruck, die zum Festlegen von Qualifizierungskriterien für Audiencen verwendet werden, und wie Daten in einem Ereignis-Aufruf gesendet werden.
+Beschreibt die Komponenten eines [!DNL Audience Manager] [!UICONTROL segment]Ereignisses, die Ausdruck zum Festlegen von Kriterien für die Audience-Qualifizierung und die Art und Weise, wie Daten in einem Aufruf gesendet werden.
 
-<!-- 
+## Zusammensetzung und Zweck
 
-c_signal_trait_segment.xml
+[!DNL Audience Manager] Daten bestehen aus [!UICONTROL signals], [!UICONTROL traits]und [!UICONTROL segments]zugehörigen Qualifikationsregeln. Die Datenelemente und -regeln werden zu [!UICONTROL segments]ihrer Erstellung kombiniert. [!UICONTROL Segments] Site-Besucher in verwandte Gruppen zu organisieren. In der folgenden Tabelle sind die drei Hauptkomponenten in einem [!DNL Audience Manager][!UICONTROL segment]definiert.
 
- -->
+| Element | Besteht aus | Beispiel  |
+|---|---|---|
+| [!UICONTROL Signal] | [!UICONTROL Signals] sind die kleinsten Dateneinheiten in [!DNL Audience Manager] und werden als [Schlüssel-Wert-Paare](../reference/key-value-pairs-explained.md)ausgedrückt.<br><br><ul><li>Der Schlüssel ist eine Konstante, die einen Datensatz definiert (z.B. Geschlecht, Farbe, Preis).</li><li>Der Wert ist eine Variable, die sich auf die Konstante bezieht (z. B. männlich/weiblich, grün, 100).</li></ul>Vergleichsoperatoren verbinden das Schlüssel-Wert-Paar und legen die Beziehung zwischen ihnen fest. | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
+| [!UICONTROL Trait] | Kombinationen aus einer oder mehreren Kombinationen [!UICONTROL signals].<br><br> [!DNL Boolean] Mit Ausdrücken und Vergleichsoperatoren können Sie [!UICONTROL trait] Qualifikationsregeln erstellen. <br><br>Präzise Qualifizierungsanforderungen mit Kombinationen aus [!UICONTROL traits] und [!UICONTROL trait] Gruppen. | In der verfügbaren Liste [!UICONTROL signals]können Sie eine `High End Camera Browser` Regel erstellen, die wie folgt aussieht: `product=camera AND price>1000` |
+| [!UICONTROL Segment] | Benutzer, die einen Satz gemeinsamer Attribute verwenden und sich für verwandte Attribute qualifizieren [!UICONTROL traits]. [!DNL Boolean] Mit Ausdrücken können Sie neben Neuigkeits-/Häufigkeitsanforderungen auch [!UICONTROL segment] Qualifizierungsregeln erstellen.<br><br> Erstellen Sie präzise Qualifizierungsanforderungen mit Kombinationen aus [!UICONTROL trait] und [!UICONTROL segment] Regeln. | In der verfügbaren [!UICONTROL traits] und [!UICONTROL signals]können Sie eine [!UICONTROL segment] Regel erstellen, die wie folgt ausdrückt:`(product=camera AND type=digital SLR) OR (price>1000)` |
 
-**Zusammensetzung und Zweck**
-
-[!DNL Audience Manager] Daten bestehen aus Signalen, Eigenschaften, Segmenten und zugehörigen Qualifikationsregeln. Die Datenelemente und Regeln werden kombiniert, um Segmente zu erstellen. Segmente ordnen Site-Besucher in verwandte Gruppen an. Die folgende Tabelle definiert die drei Hauptkomponenten eines [!DNL Audience Manager] Segments.
-
-<table id="table_E8373A01C3414C42B4983A59BF0F0669"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Besteht aus </th> 
-   <th colname="col3" class="entry"> Beispiel  </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><b>Signal</b> </td> 
-   <td colname="col2"> <p>Signale sind die kleinsten Dateneinheiten in <span class="keyword"> Audience Manager</span> und werden als <a href="../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare</a>ausgedrückt. </p> 
-    <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
-     <li id="li_89574A3B4A734726AD43405AE6D85FF5">Der Schlüssel ist eine Konstante, die einen Datensatz definiert (z.B. Geschlecht, Farbe, Preis). </li> 
-     <li id="li_D35601B33EE24EC5857F45D9577254D4">Der Wert ist eine Variable, die sich auf die Konstante bezieht (z. B. männlich/weiblich, grün, 100). </li> 
-    </ul> <p>Vergleichsoperatoren verbinden das Schlüssel-Wert-Paar und legen die Beziehung zwischen ihnen fest. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_A6D8D30A37C94437A7BF38736C6F8556"> 
-     <li id="li_74C87C34FA254783AC0DEBBC69B35AC4"><code> product=camera</code> </li> 
-     <li id="li_C1727B9136024E56B60374597A7DCA00"><code> price&gt;1000</code> </li> 
-     <li id="li_B2E7798768EE444AB978F3F27B0BC0B5"><code> type=digital SLR</code> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Trait-</b> </td> 
-   <td colname="col2"> <p>Kombinationen aus einem oder mehreren Signalen. </p> <p>Mit booleschen Ausdrücken und Vergleichsoperatoren können Sie Eigenschaftenqualifizierungsregeln erstellen. </p> <p>Erstellen Sie präzise Qualifizierungsanforderungen mit Kombinationen aus Eigenschaften und Eigenschaftsgruppen. </p> </td> 
-   <td colname="col3"> <p>Aus den verfügbaren Signalen können Sie eine Regel für den High-End-Kamera-Browser erstellen, die wie folgt ausgedrückt wird: </p> <p><code> product=camera AND price&gt;1000</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Segment</b> </td> 
-   <td colname="col2"> <p>Benutzer, die einen Satz gemeinsamer Attribute verwenden und für verwandte Eigenschaften qualifiziert sind. </p> <p>Mit booleschen Ausdrücken können Sie neben den Anforderungen an Neuigkeit und Häufigkeit Segmentqualifikationsregeln erstellen. </p> <p>Erstellen Sie präzise Qualifizierungsanforderungen mit Kombinationen aus Eigenschaften und Segmentregeln. </p> </td> 
-   <td colname="col3"> <p>Aus den verfügbaren Eigenschaften und Signalen können Sie eine Segmentregel erstellen, die wie folgt ausgedrückt wird: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Verwenden Sie das unten stehende Diagramm, um eine mentale Note der Beziehung zwischen Signalen, Eigenschaften und Segmenten zu erhalten.
+Verwenden Sie das unten stehende Diagramm, um eine mentale Notiz der Beziehung zwischen [!UICONTROL signals], [!UICONTROL traits]und zu behalten [!UICONTROL segments].
 
 ![](assets/signals-traits-segments.png)
 
-**Eigenschaften und Segmentregeln mit Visual Tools und Codeeditoren erstellen**
+**Erstellen[!UICONTROL Traits]und[!UICONTROL Segment]Erstellen von Regeln mit Visual Tools und Codeeditoren**
 
-Kunden verwalten Eigenschaften und Segmente mit visuellen Werkzeugen und Codeeditoren in der [!DNL Audience Manager] Benutzeroberfläche. Mit den visuellen Werkzeugen können Sie Regeln mit Suchfunktionen, Popup-Optionen, Dropdownmenüs und Drag &amp; Drop-Funktionen erstellen. Die Codeeditoren bieten fortgeschrittenen Anwendern die Möglichkeit, Audiencen-Segmentierungskriterien programmatisch zu entwickeln.
+Kunden verwalten [!UICONTROL traits] und [!UICONTROL segments] mit visuellen Werkzeugen und Codeeditoren in der [!DNL Audience Manager] Benutzeroberfläche. Mit den visuellen Werkzeugen können Sie Regeln mit Suchfunktionen, Popup-Optionen, Dropdownmenüs und Drag &amp; Drop-Funktionen erstellen. Die Codeeditoren bieten fortgeschrittenen Anwendern die Möglichkeit, Audiencen-Segmentierungskriterien programmatisch zu entwickeln.
 
-**Ereignis-Aufrufe Daten an Audience Manager senden**
+**Ereignis-Aufrufe Daten senden an[!DNL Audience Manager]**
 
-Ein Ereignis-Aufruf sendet Daten von Ihrer Website an [!DNL Audience Manager]. Der Aufruf enthält Signal-, Eigenschaften- und Segmentdaten in einer [!DNL HTTP] Anforderung. Das Ereignis selbst ist alles nach dem `/event` Teil einer [!DNL URL] Zeichenfolge. Wie im folgenden Beispiel gezeigt, erfordert dieser Vorgang nur einen einzigen Ereignis-Aufruf, um mehrere Variablen an [!DNL Audience Manager]zu übergeben.
+Ein Ereignis-Aufruf sendet Daten von Ihrer Website an [!DNL Audience Manager]. Der Aufruf enthält [!UICONTROL signal], [!UICONTROL trait]und [!UICONTROL segment] Daten in einer [!DNL HTTP] Anforderung. Das Ereignis selbst ist alles nach dem `/event` Teil einer [!DNL URL] Zeichenfolge. Wie im folgenden Beispiel gezeigt, erfordert dieser Vorgang nur einen einzigen Ereignis-Aufruf, um mehrere Variablen an [!DNL Audience Manager]zu übergeben.
 
 `https://<domain>/event?product=camera&price>100`
 
