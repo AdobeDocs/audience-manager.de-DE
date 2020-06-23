@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Syntax der Inbound-Datendateiinhalte, ungültige Zeichen, Variablen und Beispiele
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -78,9 +78,9 @@ Die Tabelle Liste und definiert die Variablen, die in einer ordnungsgemäß form
  </tbody> 
 </table>
 
-## Formatieren von Eigenschaften-IDs {#formatting-trait-ids}
+## Formatierung [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-In der folgenden Tabelle werden die Präfixe beschrieben, die Eigenschaftsnamen oder IDs in einer eingehenden Datendatei identifizieren. Beispiele finden Sie in den [Beispieldateien](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) .
+In der folgenden Tabelle werden die Präfixe beschrieben, mit denen [!UICONTROL trait] Namen oder IDs in einer eingehenden Datendatei identifiziert werden. Beispiele finden Sie in den [Beispieldateien](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) .
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -124,13 +124,13 @@ In der folgenden Tabelle werden die Präfixe beschrieben, die Eigenschaftsnamen 
  </tbody>
 </table>
 
-## Ungültige Zeichen in Eigenschaften-IDs, Benutzer-IDs und Schlüssel-Wert-Paaren {#invalid-chars}
+## Ungültige Zeichen in [!UICONTROL Trait IDs]und [!UICONTROL User IDs] Schlüsselwertpaaren {#invalid-chars}
 
-### Eigenschaften-IDs
+### [!UICONTROL Trait IDs]
 
-Eigenschaften-IDs bestehen nur aus numerischen Zeichen. Wir bitten Sie, *nur Eigenschaften* an Bord in eingehende Datendateien einzuschließen. Bei der eingehenden Datenübertragung werden keine anderen Eigenschaftsarten verarbeitet.
+[!UICONTROL Trait IDs] bestehen nur aus numerischen Zeichen. Wir bitten Sie, *nur[!UICONTROL onboarded traits]*in eingehende Datendateien einzuschließen. Wir verarbeiten keine anderen[!UICONTROL trait]Arten der eingehenden Datenübertragung.
 
-### Anwender-IDs
+### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -237,7 +237,7 @@ Auch falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen Prob
 
 ## Beispielmatrix {#examples-matrix}
 
-Das folgende Diagramm zeigt Beispiele für die richtige Formatierung Ihrer Inbound-Dateien, je nach [Typ der IDs](../../../reference/ids-in-aam.md) und der Methode, nach der Sie Eigenschaften zu Profilen hinzufügen möchten.
+Das unten stehende Diagramm zeigt Beispiele für die richtige Formatierung Ihrer Inbound-Dateien, je nach [Typ der IDs](../../../reference/ids-in-aam.md) und der Methode, mit der Sie Profilen [!UICONTROL traits] hinzufügen möchten.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -283,7 +283,7 @@ Das folgende Diagramm zeigt Beispiele für die richtige Formatierung Ihrer Inbou
 
 ### Example 1 {#example-1}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftenqualifikation zu senden [!DNL Audience Manager][!DNL UUIDs].
+Verwenden Sie [!UICONTROL trait IDs] zum Senden von [!UICONTROL trait] Qualifizierungsinformationen für [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -291,7 +291,7 @@ Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftenqualifikation
 
 ### Example 2 {#example-2}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zum Disqualifizierung für Eigenschaften zu senden [!DNL Audience Manager][!DNL UUIDs].
+Verwenden Sie [!UICONTROL trait IDs] zum Senden von [!UICONTROL trait] Disqualifizierungsinformationen für [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -311,7 +311,7 @@ oder
 
 ### Example 3 {#example-3}
 
-Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen hinzuzufügen [!DNL Audience Manager][!DNL UUIDs].
+Senden Sie Schlüssel-Wert-Paare, um [!UICONTROL trait] Qualifizierungsinformationen hinzuzufügen [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -325,7 +325,7 @@ oder
 
 ### Example 4 {#example-4}
 
-Verwenden Sie das Präfix &quot;ic&quot;, um Informationen zur Eigenschaftsqualifikation zu senden [!DNL Audience Manager][!DNL UUIDs].
+Verwenden Sie das `ic` Präfix, um [!UICONTROL trait] Qualifizierungsinformationen zu senden [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -339,7 +339,7 @@ oder
 
 ### Example 5 {#example-5}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftenqualifikation für [!DNL Android] Geräte zu senden.
+Verwenden Sie [!UICONTROL trait IDs] zum Senden von [!UICONTROL trait] Qualifizierungsinformationen für [!DNL Android] Geräte.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -347,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zum Disqualifizierung für [!DNL Android] Geräte zu senden.
+Verwenden Sie [!UICONTROL trait IDs] zum Senden von [!UICONTROL trait] Informationen zum Ausschluss von [!DNL Android] Geräten.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -367,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen für [!DNL Android] Geräte hinzuzufügen.
+Senden Sie Schlüssel-Wert-Paare, um [!UICONTROL trait] Qualifizierungsinformationen für [!DNL Android] Geräte hinzuzufügen.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -381,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-Verwenden Sie das Präfix &quot;ic&quot;, um Informationen zur Eigenschaftsqualifikation für [!DNL Android] Geräte zu senden.
+Verwenden Sie das `ic` Präfix, um [!UICONTROL trait] Informationen zur Qualifizierung für [!DNL Android] Geräte zu senden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -395,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftenqualifikation für [!DNL iOS] Geräte zu senden.
+Verwenden Sie [!UICONTROL trait IDs] zum Senden von [!UICONTROL trait] Qualifizierungsinformationen für [!DNL iOS] Geräte.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -403,7 +403,7 @@ Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftenqualifikation
 
 ### Example 10 {#example-10}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zum Disqualifizierung für [!DNL iOS] Geräte zu senden.
+Verwenden Sie [!UICONTROL trait IDs] zum Senden von [!UICONTROL trait] Informationen zum Ausschluss von [!DNL iOS] Geräten.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -423,7 +423,7 @@ oder
 
 ### Example 11 {#example-11}
 
-Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen für [!DNL iOS] Geräte hinzuzufügen.
+Senden Sie Schlüssel-Wert-Paare, um [!UICONTROL trait] Qualifizierungsinformationen für [!DNL iOS] Geräte hinzuzufügen.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -437,7 +437,7 @@ oder
 
 ### Example 12 {#example-12}
 
-Verwenden Sie das Präfix &quot;ic&quot;, um Informationen zur Eigenschaftsqualifikation für [!DNL iOS] Geräte zu senden.
+Verwenden Sie das `ic` Präfix, um [!UICONTROL trait] Informationen zur Qualifizierung für [!DNL iOS] Geräte zu senden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -451,7 +451,7 @@ oder
 
 ### Example 13 {#example-13}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zur Eigenschaftsqualifikation zu senden [!DNL DPUUIDs].
+Verwenden Sie [!UICONTROL trait IDs] zum Senden von [!UICONTROL trait] Qualifizierungsinformationen für [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -459,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-Verwenden Sie Eigenschaften-IDs, um Informationen zum Disqualifizierung für Eigenschaften zu senden [!DNL DPUUIDs].
+Verwenden Sie [!UICONTROL trait IDs] zum Senden von [!UICONTROL trait] Disqualifizierungsinformationen für [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -479,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-Senden Sie Schlüssel-Wert-Paare, um Eigenschaften-Qualifizierungsinformationen hinzuzufügen [!DNL DPUUIDs].
+Senden Sie Schlüssel-Wert-Paare, um [!UICONTROL trait] Qualifizierungsinformationen hinzuzufügen [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -493,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-Verwenden Sie das `ic` Präfix, um Informationen zur Eigenschaftsqualifikation zu senden [!DNL DPUUIDs].
+Verwenden Sie das `ic` Präfix, um [!UICONTROL trait] Qualifizierungsinformationen zu senden [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
