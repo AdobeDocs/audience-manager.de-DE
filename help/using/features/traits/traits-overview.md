@@ -6,14 +6,17 @@ seo-title: Übersicht über Eigenschaften
 solution: Audience Manager
 title: Übersicht über Eigenschaften
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 0b173db313053bb9c1d90b681d00ad4bd6fb8b34
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 4%
 
 ---
 
 
-# Übersicht über Eigenschaften {#traits-overview}
+# [!UICONTROL Traits] Übersicht {#traits-overview}
 
-Verwalten Sie die Datenerfassung und Audience mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften. Lesen Sie die unten verlinkten Seiten, um mit Eigenschaften zu beginnen:
+Verwalten Sie die Datenerfassung und die Erstellung von Audiencen mit [!UICONTROL rules-based], [!UICONTROL onboarded][!UICONTROL algorithmic] oder [!UICONTROL folder traits]. Lesen Sie die unten verlinkten Seiten, um zu beginnen mit [!UICONTROL traits]:
 
 * [Eigenschaftendetailseite](/help/using/features/traits/trait-details-page.md)
 * [Trait Builder (Eigenschaftenaufbau)](/help/using/features/traits/about-trait-builder.md)
