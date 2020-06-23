@@ -6,41 +6,35 @@ solution: Audience Manager
 title: Liste und Einstellungen für Data Sources
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
 
 
-# Liste und Einstellungen für Data Sources {#data-sources-list-and-settings}
+# [!UICONTROL Data Sources] Liste und Einstellungen {#data-sources-list-and-settings}
 
-Ansicht einer Liste der derzeit konfigurierten Datenquellen, Hinzufügen neuer Datenquellen und Bearbeiten vorhandener Quellen.
+Ansicht einer Liste Ihrer derzeit konfigurierten Version [!UICONTROL data sources], Hinzufügen neuer Elemente [!UICONTROL data sources]und Bearbeiten vorhandener Elemente [!UICONTROL data sources].
 
-<!-- c_datasources.xml -->
+Sie können auch [!UICONTROL data sources] mit [!DNL API] Methoden verwalten. Weitere Informationen finden Sie unter [Datenquellen-API-Methoden](../api/rest-api-main/aam-api-data-sources.md).
 
-Sie können Datenquellen auch mit [!DNL API] Methoden verwalten. Weitere Informationen finden Sie unter [Datenquellen-API-Methoden](../api/rest-api-main/aam-api-data-sources.md).
-
-## Ansicht der Data Sources-Liste {#list-view}
+## [!UICONTROL Data Sources]Listenansicht{#list-view}
 
 Das [!UICONTROL Data Sources] Dashboard ist ein zentralisierter Arbeitsbereich zur Verwaltung von Datenquellen.
 
-<!-- c_datasources_list.xml -->
-
 Das [!UICONTROL Data Sources] Dashboard (**[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**) enthält Funktionen und Werkzeuge, mit denen Sie:
 
-* Zeigen Sie alle vorhandenen Datenquellen an, einschließlich der Beschreibung und des Status jeder Datenquelle und ob es sich um [!UICONTROL Inbound], [!UICONTROL Outbound]beide oder eine [!UICONTROL Shared Provider]Datenquelle handelt.
-* Suche nach Datenquellen anhand des Namens.
-* Erstellen, bearbeiten und löschen Sie Datenquellen.
+* Zeigen Sie alle vorhandenen Daten [!UICONTROL data sources]an, einschließlich der Beschreibung und des Status jeder Datenquelle und ob es sich um [!UICONTROL Inbound], [!UICONTROL Outbound]beide oder eine [!UICONTROL Shared Provider]Datenquelle handelt.
+* Suche nach [!UICONTROL data sources] Name.
+* Create, edit, and delete [!UICONTROL data sources].
 
-## Datenquelleneinstellungen und Menüoptionen {#settings-menu-options}
+## [!DNL Data Source] Einstellungen und Menüoptionen {#settings-menu-options}
 
-Die Einstellungen in den verschiedenen Bereichen der [!UICONTROL Data Source] Verwaltungsoberfläche identifizieren Ihre Datenquelle, legen fest, wie sie verwendet oder freigegeben wird, und ermöglichen Ihnen die Aktivierung des Berichte für den Fehler [!UICONTROL Onboarding Status Report].
+Die Einstellungen in den verschiedenen Bereichen der [!UICONTROL Data Source] Verwaltungsoberfläche geben Aufschluss über Ihre [!DNL data source]Verwendung, legen fest, wie sie verwendet oder freigegeben werden, und ermöglichen Ihnen die Aktivierung des Berichte für Fehler [!UICONTROL Onboarding Status Report].
 
-## Datenquellendetails {#details}
-
-<!-- datasource-settings-definitions.xml -->
+## [!DNL Data Source] Details {#details}
 
 Zusätzlich zu den Textfeldern enthält der [!UICONTROL Data Source Details] Abschnitt die unten aufgeführten Steuerelemente und Optionen.
 
@@ -67,7 +61,7 @@ Zusätzlich zu den Textfeldern enthält der [!UICONTROL Data Source Details] Abs
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ID-Definition</span></b> </p> </td> 
-   <td colname="col2"> <p>Die Optionen für die <b><span class="uicontrol"> ID-Definition</span></b> definieren die Beziehung, die eine Datenquelle zu einer <span class="keyword"> Audience Manager</span> -Benutzer-ID (UUID) und den zugehörigen Geräten hat, die mit der <span class="keyword"> Adobe Experience Cloud Device Co-op</span> oder einem anderen Gerätediagramm eines Drittanbieters verknüpft sind, das in <span class="keyword"> Audience Manager</span>integriert ist. Zu den Optionen zählen: </p> <p> 
+   <td colname="col2"> <p>Die Optionen für die <b><span class="uicontrol"> ID-Definition</span></b> definieren die Beziehung, die eine Datenquelle zu einer <span class="keyword"> Audience Manager</span> -Benutzer-ID (UUID) und zugehörigen Geräten hat, die mit der <span class="keyword"> Adobe Experience Cloud Device Co-op</span> oder einem anderen, mit <span class="keyword"> Audience Manager</span>integrierten Gerätediagramm von Drittanbietern verknüpft sind. Zu den Optionen zählen: </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
       <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol"> Person:</span></b> Die ID, mit der eine einzelne Person definiert wird. Diese ID kann mehreren <span class="keyword"> Audience Manager</span> -IDs zugeordnet werden. </li> 
       <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol"> Haushalt:</span></b> Die ID, mit der eine Gruppe von Personen definiert wird. Diese ID kann mehreren Audience Manager-IDs zugeordnet werden. </li> 
@@ -76,13 +70,13 @@ Zusätzlich zu den Textfeldern enthält der [!UICONTROL Data Source Details] Abs
  </tbody> 
 </table>
 
-## Datenexportkontrolle {#export-controls}
+## [!UICONTROL Data Export Controls] {#export-controls}
 
-[Data Export Controls](../features/data-export-controls.md) sind optionale Classification-Regeln, die Sie auf eine Datenquelle und ein Ziel anwenden können. Sie verhindern, dass Sie Daten an ein Ziel senden, wenn diese Aktion gegen eine Datenschutz- oder Nutzungsvereinbarung verstößt. Überspringen Sie diesen Abschnitt, wenn Sie nicht verwenden [!UICONTROL Data Export Controls].
+[Data Export Controls](../features/data-export-controls.md) sind optionale Classification-Regeln, die Sie auf ein [!UICONTROL data source] und anwenden können [!UICONTROL destination]. Sie hindern Sie daran, Daten an eine [!UICONTROL destination] zu senden, wenn diese Aktion eine Datenschutz- oder Nutzungsvereinbarung verletzt. Überspringen Sie diesen Abschnitt, wenn Sie nicht verwenden [!UICONTROL Data Export Controls].
 
 >[!IMPORTANT]
 >
->Exportbeschränkungen funktionieren nur, wenn Sie eine entsprechende Exportbeschriftung für ein Ziel festlegen.
+>Exportbeschränkungen funktionieren nur, wenn Sie eine entsprechende Exportbeschriftung auf einem [!UICONTROL destination]festlegen.
 
 Zu den Optionen zählen:
 
@@ -92,17 +86,17 @@ Zu den Optionen zählen:
 * **[!UICONTROL Cannot be used for off-site ad targeting]**
 * **[!UICONTROL Cannot be used for on-site personalization]**
 
-## Data Source Settings {#data-source-settings}
+## [!UICONTROL Data Source] Einstellungen {#data-source-settings}
 
 Das [!UICONTROL Data Source Settings] enthält die unten aufgeführten Steuerelemente und Optionen. Einige dieser Einstellungen verfügen über zusätzliche Unteroptionen und Menüelemente, die Sie zum Ändern einer Datenquelle auswählen können.
 
-### Einstellungen für eingehende Datenquelle
+### [!UICONTROL Inbound Data Source] Einstellungen
 
 Aktivieren Sie das **[!UICONTROL Inbound]** Kontrollkästchen, wenn Ihre Datenquelle für den Empfang von Eingangsdaten entwickelt wurde. Wenn Sie das **[!UICONTROL Inbound]** Kontrollkästchen aktivieren, stehen Ihnen 2 weitere Kontrollgruppen zur Verfügung, die nachfolgend beschrieben werden.
 
 >[!NOTE]
 >
->Das **[!UICONTROL Inbound]** Kontrollkästchen dient nur zum Anzeigen oder Ausblenden der unten beschriebenen Datenquellen-Steuerelemente. Die Aufhebung der **[!UICONTROL Inbound]** Option hat keinerlei Auswirkungen auf die Datenerfassung. Ihre eingebetteten Daten werden unabhängig von der aktivierten Option verarbeitet.
+>Das **[!UICONTROL Inbound]** Kontrollkästchen dient nur zum Ein- oder Ausblenden der unten beschriebenen [!UICONTROL data source] Steuerelemente. Die Aufhebung der **[!UICONTROL Inbound]** Option hat keinerlei Auswirkungen auf die Datenerfassung. Ihre eingebetteten Daten werden unabhängig von der aktivierten Option verarbeitet.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
@@ -118,7 +112,7 @@ Aktivieren Sie das **[!UICONTROL Inbound]** Kontrollkästchen, wenn Ihre Datenqu
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Kunden-ID</span></b>: Identifiziert eingehende Daten mit einer Kunden-ID. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager-ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Audience Manager</span> -ID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Experience Cloud</span> -ID. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Experience Cloud</span> -ID. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -128,7 +122,7 @@ Aktivieren Sie das **[!UICONTROL Inbound]** Kontrollkästchen, wenn Ihre Datenqu
  </tbody> 
 </table>
 
-### Andere Datenquelleneinstellungen
+### Other [!UICONTROL Data Source] Settings
 
 <table id="table_82FEFA8DC8294FA18FB4C17F02DF5152"> 
  <thead> 
@@ -152,19 +146,19 @@ Aktivieren Sie das **[!UICONTROL Inbound]** Kontrollkästchen, wenn Ihre Datenqu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Als Gerätediagramm verwenden</span></b> </p> </td> 
-   <td colname="col2"> <p>Erstellt eine Datenquelle als Gerätediagramm, das Sie anderen <span class="keyword"> Audience Manager</span> -Kunden bereitstellen können. Bevor Sie diese Option auswählen, teilen Sie Ihrem <span class="keyword"> Audience Manager</span> -Berater mit, für welche Kunden diese <span class="wintitle"> Datenquelle</span> freigegeben werden soll. Ihr Berater muss diese Firmen im Rahmen unserer internen Verfahren bereitstellen. </p> <p>Diese Option zeigt ein Textfeld an, in dem Sie die Datenquelle mit einem Alias umbenennen können. Wenn Sie einen Alias verwenden, setzt dieser neue Name den Namen der Datenquelle außer Kraft und erscheint in den <span class="wintitle"> Geräteoptionen</span> , wenn Sie eine Profil Merge-Regel <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"></a>erstellen. </p> </td> 
+   <td colname="col2"> <p>Erstellt eine Datenquelle als Gerätediagramm, das Sie anderen <span class="keyword"> Audience Manager</span> zur Verfügung stellen können. Bevor Sie diese Option auswählen, teilen Sie Ihrem <span class="keyword"> Audience Manager</span> -Berater mit, für welche Kunden diese <span class="wintitle"> Datenquelle</span> freigegeben werden soll. Ihr Berater muss diese Firmen im Rahmen unserer internen Verfahren bereitstellen. </p> <p>Diese Option zeigt ein Textfeld an, in dem Sie die Datenquelle mit einem Alias umbenennen können. Wenn Sie einen Alias verwenden, setzt dieser neue Name den Namen der Datenquelle außer Kraft und erscheint in den <span class="wintitle"> Geräteoptionen</span> , wenn Sie eine Profil Merge-Regel <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"></a>erstellen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Freigeben der zugehörigen Besucher- oder Geräte-IDs für bestimmte Audience Manager-Kunden</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Freigeben von zugehörigen Besucher- oder Geräte-IDs für bestimmte Audience Manager</span></b> </p> </td> 
    <td colname="col2"> <p>Ihre geräteübergreifende Datenquelle enthält IDs aus einem Gerätediagramm. Ein Gerätediagramm ist eine Sammlung von IDs, die einem Cluster eine oder mehrere <span class="keyword"> Audience Manager</span> -IDs zuordnen. Dieser Cluster repräsentiert normalerweise eine Person oder eine größere Gruppe im Haushalt. Nur für Konten verfügbar, die als "Datenanbieter"aufgeführt sind. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Freigeben von zugehörigen Besucher- oder Geräte-IDs über die Audience Manager-Plattform</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Freigeben von zugehörigen Besucher- oder Geräte-IDs für die Audience Manager-Platform</span></b> </p> </td> 
    <td colname="col2"> <p>Ihre Datenquelle enthält Besucher- oder Geräte-IDs, die für andere <span class="keyword"> Experience Cloud</span> -Lösungen freigegeben werden können. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Datenaufbewahrung für inaktive Kunden-IDs</span></b> </p> </td> 
-   <td colname="col2"> <p>Ermöglicht Ihnen das Festlegen der Datenaufbewahrungszeit für inaktive Kunden-IDs. Dadurch wird bestimmt, wie lange Audience Manager Kunden-IDs in unserer Datenbank aufbewahrt, nachdem sie zuletzt auf der Audience Manager-Plattform angezeigt wurden.</p> <p>Der Standardwert ist 24 Monate (720 Tage). Der Mindestwert, den Sie einstellen können, ist 1 Monat und der Höchstwert 5 Jahre. Beachten Sie, dass wir alle Monate als 30 Tage zählen.</p> <p>Audience Manager führt einen Prozess aus, bei dem inaktive Kunden-IDs einmal wöchentlich gelöscht werden, entsprechend der für inaktive Kunden-IDs festgelegten Datenaufbewahrung.</p> <p>Audience Manager führt einen Prozess aus, bei dem inaktive Kunden-IDs einmal wöchentlich gelöscht werden, entsprechend der für inaktive Kunden-IDs festgelegten Datenaufbewahrung.</p> <p><b>Hinweis</b>: Diese Steuerung ist nur für geräteübergreifende Datenquellen verfügbar. Siehe auch <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Erstellen einer geräteübergreifenden Datenquelle </a>.</p></td> 
+   <td colname="col2"> <p>Ermöglicht Ihnen das Festlegen der Datenaufbewahrungszeit für inaktive Kunden-IDs. Dadurch wird bestimmt, wie lange Audience Manager Kunden-IDs in unserer Datenbank aufbewahren, nachdem sie zuletzt auf der Audience Manager-Plattform gesehen wurden.</p> <p>Der Standardwert ist 24 Monate (720 Tage). Der Mindestwert, den Sie einstellen können, ist 1 Monat und der Höchstwert 5 Jahre. Beachten Sie, dass wir alle Monate als 30 Tage zählen.</p> <p>Audience Manager führt einen Prozess aus, bei dem inaktive Kunden-IDs einmal wöchentlich gelöscht werden, entsprechend der für inaktive Kunden-IDs festgelegten Datenaufbewahrung.</p> <p>Audience Manager führt einen Prozess aus, bei dem inaktive Kunden-IDs einmal wöchentlich gelöscht werden, entsprechend der für inaktive Kunden-IDs festgelegten Datenaufbewahrung.</p> <p><b>Hinweis</b>: Diese Steuerung ist nur für geräteübergreifende Datenquellen verfügbar. Siehe auch <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Erstellen einer geräteübergreifenden Datenquelle </a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Unique Trait Integration Codes</span></b> </p> </td> 
