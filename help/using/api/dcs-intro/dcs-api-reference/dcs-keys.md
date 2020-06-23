@@ -7,15 +7,15 @@ title: Unterstützte Attribute für DCS-API-Aufrufe
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
 
 
-# Unterstützte Attribute für DCS-API-Aufrufe {#supported-attributes-for-dcs-api-calls}
+# Unterstützte Attribute für [!DNL DCS] Aufrufe [!DNL API] {#supported-attributes-for-dcs-api-calls}
 
 Listen und Beschreibungen der Syntax und der unterstützten Attribute (oder Schlüssel-Wert-Paare), die Sie an das [!UICONTROL Data Collection Servers] ([!DNL DCS]) weitergeben können. Diese Informationen helfen Ihnen dabei, Ihre [!DNL DCS] Anforderungen zu formatieren und die von diesem System zurückgegebenen Parameter zu verstehen.
 
@@ -50,7 +50,7 @@ Die [!DNL DCS] Daten werden anhand bestimmter Präfixe klassifiziert, die den Sc
  </tbody> 
 </table>
 
-## d_ Attribute {#d-attributes}
+## [!DNL d_] Attribute {#d-attributes}
 
 Alle diese Optionen sind optional, es sei denn, Sie möchten eine Antwort von der [!DNL DCS]. Wenn die Antwort [!DNL DCS] zurückgegeben werden soll, ist dies `d_rtbd=json` erforderlich.
 
