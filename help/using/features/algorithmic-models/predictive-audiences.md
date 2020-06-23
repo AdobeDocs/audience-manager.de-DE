@@ -5,9 +5,9 @@ seo-title: Übersicht über Audiencen
 solution: Audience Manager
 title: Audience Manager Predictive Audiencen
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Berücksichtigen Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] 
    >[!IMPORTANT]
    > Zurzeit wird der Wert [!UICONTROL Total Segment Population] Ihrer prädiktiven Segmente als 0 angezeigt und [Batch-Ausgehende Datenübertragungen](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) werden nicht unterstützt [!UICONTROL Predictive Audiences]. Dieses Verhalten wird sich in einem zukünftigen Update ändern.
 * [!UICONTROL Predictive Audiences] führt eine Audience-Classification anhand Ihrer Erstanbieter-Eigenschaften aus allen Erstanbieter-Datenquellen durch.
-* Die Segmentbewertung [!UICONTROL Predictive Audiences] verwendet den Standard, den Sie in Ihrem Konto definiert **[!UICONTROL Profile Merge Rule]** haben. Weitere Informationen finden Sie [!UICONTROL Profile Merge Rules] in der [Dokumentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
+* Die Segmentbewertung [!UICONTROL Predictive Audiences] verwendet den Standard, den Sie in Ihrem Konto definiert **[!UICONTROL Profile Merge Rule]** haben. Weitere Informationen finden Sie [!UICONTROL Profile Merge Rules] in der [Dokumentation](../profile-merge-rules/merge-rules-overview.md).
 * Einige Eigenschaften und Segmente werden nicht als Basis- oder Zielgruppe-Audiencen unterstützt. [!UICONTROL Predictive Audiences] die Modelle können nicht gespeichert werden, wenn eine der folgenden Audiencen als Basislinien oder Zielgruppe ausgewählt wird:
    * Prognostische Eigenschaften und Segmente, die mit Prognoseeigenschaften erstellt wurden;
    * [Adobe Experience Platformen](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) oder Segmente;
