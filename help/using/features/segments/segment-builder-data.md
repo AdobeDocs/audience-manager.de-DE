@@ -6,40 +6,31 @@ solution: Audience Manager
 title: Eigenschaften- und Segmentpopulationsdaten im Segmentaufbau
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: 63d89cac2f18538f56e2f6d0f64257ea9b5788bd
+source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
 
-# Trait and Segment Population Data in Segment Builder {#trait-and-segment-population-data-in-segment-builder}
+# [!UICONTROL Trait] und [!UICONTROL Segment] Populationsdaten in [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
-Hinzufügen und entfernen Sie Eigenschaften, [!UICONTROL Segment Builder] um die tatsächlichen Eigenschaftspopulationen zusammen mit den tatsächlichen und geschätzten Segmentpopulationsdaten anzuzeigen. Anhand der Daten zur geschätzten Populationsgröße können Sie das richtige Segment für Ihre Kampagne erstellen.
+Hinzufügen und entfernen Sie [!UICONTROL traits] in, [!UICONTROL Segment Builder] um die tatsächlichen [!UICONTROL trait] Populationen zusammen mit den tatsächlichen und geschätzten Segmentpopulationsdaten anzuzeigen. Anhand der Daten zur geschätzten Populationsgröße können Sie das richtige Segment für Ihre Kampagne erstellen.
 
-## Populationsdaten zu Eigenschaften {#trait-population-data}
+## [!UICONTROL Trait] Populationsdaten {#trait-population-data}
 
-[!UICONTROL Segment Builder] zeigt Ihnen den letzten Tag [!UICONTROL Total Trait Population] an, an dem Sie einem Segment eine Eigenschaft hinzufügen. Diese Daten werden im blauen Feld um Ihre ausgewählte Eigenschaft im [!UICONTROL Basic View] Abschnitt angezeigt.
+[!UICONTROL Segment Builder] zeigt Ihnen den letzten Tag [!UICONTROL Total Trait Population] an, an dem Sie einem Segment eine [!UICONTROL trait] hinzufügen. Diese Daten werden im blauen Feld um Ihre Auswahl [!UICONTROL trait] im [!UICONTROL Basic View] Abschnitt angezeigt.
 
 ![](assets/trait-size.png)
 
-Die folgende Tabelle definiert die Populationsmetriken der Eigenschaften
+Die folgende Tabelle definiert die Populationsmetriken der Eigenschaften:
 
-<table id="table_9D837CF9ACA04D04BEE5925EC0B4A5D2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrik </th> 
-   <th colname="col2" class="entry"> Beschreibung </th>
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Gesamtzahl der Eigenschaften</span> </p> </td>
-   <td colname="col2"> <p>Die Anzahl der eindeutigen IDs, deren Profil die ausgewählten Eigenschaften enthält. </p> </td>
-  </tr> 
- </tbody> 
-</table>
+
+| Metrik | Beschreibung |
+---------|----------|
+| [!UICONTROL Total Trait Population] | Die Anzahl der eindeutigen IDs, deren Profil die ausgewählten Eigenschaften enthält. |
+
 
 ## Berechnen von tatsächlichen und geschätzten Segmentpopulationen {#calculating-real-estimated-populations}
 
@@ -98,9 +89,9 @@ Die folgende Tabelle definiert die geschätzten Populationsmetriken.
 
 [!UICONTROL Profile Merge Rules] Auswirkungen auf die tatsächlichen Echtzeit- und Gesamtbevölkerungszahlen. Diese Summen variieren, je nachdem, ob das Segment einer Gerätediagrammoption angehört oder nicht. [!UICONTROL Profile Merge Rule] Siehe auch Optionen für die [Profil-Zusammenführungsregel definiert](../../features/profile-merge-rules/merge-rule-definitions.md).
 
-### Segmentpopulationsdaten für Regeln ohne Gerätediagrammoption zusammenführen
+### Segmentpopulationsdaten für [!UICONTROL Merge Rules] ohne [!UICONTROL Device Graph Option]
 
-Die folgende Tabelle definiert die tatsächlichen Echtzeit- und Gesamtpopulationsmetriken, wenn Ihre Segmente von einer [!UICONTROL Profile Merge Rule] erstellten ohne Gerätediagrammoption verwendet werden. Dies sind die Geräteoptionseinstellungen **[!UICONTROL No Device Options]** und **[!UICONTROL Current Device Proflie]**.
+Die folgende Tabelle definiert die tatsächlichen Echtzeit- und Gesamtpopulationsmetriken, wenn Ihre Segmente von einem [!UICONTROL Profile Merge Rule] erstellten ohne [!UICONTROL device graph] Option verwendet werden. Dies sind die Geräteoptionseinstellungen **[!UICONTROL No Device Options]** und **[!UICONTROL Current Device Proflie]**.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -125,36 +116,23 @@ Die folgende Tabelle definiert die tatsächlichen Echtzeit- und Gesamtpopulation
  </tbody> 
 </table>
 
-### Segmentpopulationsdaten für die Option &quot;Regeln mit einem Gerätediagramm zusammenführen&quot;
+### Segmentpopulationsdaten für [!UICONTROL Merge Rules] mit einer [!UICONTROL Device Graph] Option
 
-Die folgende Tabelle definiert die tatsächlichen Echtzeit- und Gesamtpopulationsmetriken, wenn Ihre Segmente von einer mit einer Gerätediagrammoption [!UICONTROL Profile Merge Rule] erstellten verwendet werden. Dies sind die Geräteoptionseinstellungen für das [!UICONTROL Profile Link Device Graph], das [!DNL Adobe] Gerätediagramm und andere Gerätediagramme von Drittanbietern, die Ihnen zur Verfügung stehen.
+Die folgende Tabelle definiert die tatsächlichen Echtzeit- und Gesamtpopulationsmetriken, wenn Ihre Segmente von einer mit einer [!UICONTROL Profile Merge Rule] Option erstellten [!DNL device graph] verwendet werden. Dies sind die Geräteoptionseinstellungen für die [!UICONTROL Profile Link Device Graph], die [!DNL Adobe] und andere für Sie verfügbare [!DNL device graph][!DNL device graph] Optionen von Drittanbietern.
 
-<table id="table_157EC6E5B5C44EB899854CA10B090F60"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrik </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Population in Echtzeit (vorhanden)</span> </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Anzahl der Geräte, die in Echtzeit mit aktuellen Profilen gesehen werden, die bei der Zusammenführung mit bis zu 100 anderen Profilen, die mit dem Gerätediagramm verbunden sind, die Eigenschaften enthalten, die für das Segment gelten, sobald es von <span class="keyword"> Audience Manager</span>gesehen wurde. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Gesamtbevölkerung (vorhanden)</span> </p> </td> 
-   <td colname="col2"> <p>Die Gesamtzahl der Geräte mit Profilen, die bei der Zusammenführung mit bis zu 100 anderen Profilen, die über das Gerätediagramm angeschlossen sind, für das Segment qualifiziert waren. </p> </td>
-  </tr>
- </tbody>
-</table>
+
+| Spalte A | Spalte B |
+---------|----------|
+| [!UICONTROL Real-Time Population (Existing) ] | Die tatsächliche Anzahl der Geräte, die in Echtzeit mit aktuellen Profilen gesehen werden, die bei der Zusammenführung mit bis zu 100 anderen Profilen, die mit dem Gerätediagramm verbunden sind, die Eigenschaften enthalten, die für das Segment zu dem Zeitpunkt gelten, zu dem es vom Audience Manager gesehen wurde. |
+| [!UICONTROL Total Population (Existing)] | Die Gesamtzahl der Geräte mit Profilen, die bei der Zusammenführung mit bis zu 100 anderen Profilen, die über das Gerätediagramm angeschlossen sind, für das Segment qualifiziert waren. |
 
 ### Einschränkungen aufgrund von Ausdrücken zur Neuigkeit und Häufigkeit bei der Schätzung von Segmentpopulationen
 
 [!UICONTROL Segment Builder] unterstützt Segmentgrößenschätzungen für Segmentregeln, die bis zu 4 Neuigkeiten und Frequenzen-Ausdruck enthalten. Wenn Sie beim Erstellen einer Segmentregel mehr als 4 Neuigkeits- und Häufigkeitsangaben wählen, zeigt die Segmentschätzung bei der Schätzung der Ausdruck einen Fehler an.
 
-### Einschränkungen aufgrund von Zusammenführungsregeln bei der Schätzung von Segmentpopulationen
+### Einschränkungen aufgrund der [!UICONTROL Merge Rules] Schätzung von Segmentpopulationen
 
-Zurzeit gibt es eine bekannte Einschränkung, da unser Segmentgrößenschätzer keine Profil-Zusammenführungsregeln berücksichtigt. Betrachten Sie z. B. Segmente mit der **Regel**&quot;Kein authentifiziertes Profil + Aktuelles Profil&quot;[](../../features/profile-merge-rules/merge-rule-definitions.md). Aufgrund der Art, wie wir die Segmentschätzungszahlen derzeit berechnen, umfassen die geschätzten Populationen authentifizierte Profil. Die vorhandenen Segmentpopulationen ignorieren jedoch korrekt authentifizierte Profil.
+Gegenwärtig gibt es eine bekannte Einschränkung, da unser Segmentgrößenschätzer nicht berücksichtigt [!UICONTROL profile merge rules]. Betrachten Sie beispielsweise Segmente mit der **[!UICONTROL No Authenticated Profile + Current Device Profile]** Zusammenführungsregel[](../../features/profile-merge-rules/merge-rule-definitions.md). Aufgrund der Art, wie wir die Segmentschätzungszahlen derzeit berechnen, umfassen die geschätzten Populationen authentifizierte Profil. Die vorhandenen Segmentpopulationen ignorieren jedoch korrekt authentifizierte Profil.
 
 >[!MORELIKETHIS]
 >
