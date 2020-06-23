@@ -1,18 +1,21 @@
 ---
 description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften gelten.
-keywords: Eigenschaften erstellen;Eigenschaften erstellen
+keywords: create trait;create traits
 seo-description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften gelten.
 seo-title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 solution: Audience Manager
 title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
 
-# Erstellen regelbasierter oder Onboarded-Eigenschaften {#create-rules-based-or-onboarded-traits}
+# Erstellen[!UICONTROL Rules-Based] oder [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
 Beschreibt die Einrichtung von Schritten und Funktionen, die für den Erstellungsprozess [!UICONTROL rules-based] und die Erstellung von [!UICONTROL onboarded] Eigenschaften spezifisch sind.
 
@@ -20,7 +23,7 @@ Beschreibt die Einrichtung von Schritten und Funktionen, die für den Erstellung
 
 ## Grundlegende Informationen zu Eigenschaften {#basics}
 
-In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen können Sie neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. Die [!UICONTROL Basic Information] Einstellungen sind für regelbasierte, integrierte und algorithmische Eigenschaften identisch. Um eine neue Eigenschaft zu erstellen, geben Sie einen Namen (ohne Sonderzeichen), eine Datenquelle und einen Speicherordner an. Andere [!UICONTROL Basic Information] Felder sind optional.
+In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen können Sie neue erstellen oder bestehende bearbeiten [!UICONTROL traits]. Die [!UICONTROL Basic Information] Einstellungen sind für [!UICONTROL rules-based], [!UICONTROL onboarded] und [!UICONTROL algorithmic traits]identisch. Um eine neue zu erstellen, geben Sie einen Namen (ohne Sonderzeichen), eine ein [!UICONTROL trait]und wählen Sie eine [!UICONTROL data source][!UICONTROL storage folder]. Andere [!UICONTROL Basic Information] Felder sind optional.
 
 <!-- c_tb_basics.xml -->
 
@@ -37,7 +40,7 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol">Name</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Name</span></b> </td> 
    <td colname="col2"> <p>Der Eigenschaftsname. Erforderlich. </p> <p>Höchstlänge: 255 Zeichen. </p> <p> <p>Hinweis: Vermeiden Sie beim Benennen von Eigenschaften die folgenden Sonderzeichen: 
       <ul id="ul_AB38A333F21A4AA9B5656CBA69BA65E3"> 
        <li id="li_0E5033B540BC41E799075845388E85A7">Kommas </li> 
@@ -48,16 +51,16 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
       </ul> </p> </p> <p>Auf diese Weise können Sie Verarbeitungsfehler beim Einrichten einer <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> eingehenden Datendateitransaktion</a>reduzieren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Beschreibung</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol">Beschreibung</span></b> </td> 
    <td colname="col2"> Ein paar Worte, die helfen, den Zweck oder die Funktion der Eigenschaft zu beschreiben. Optional. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Datenquelle</span></b> </td> 
-   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie Adobe Analytics-Report Suites nicht verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur für Audience Manager-Datenquellen verfügbar.</p>  </td> 
+   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie Adobe Analytics Report Suites nicht verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur Audience Manager-Datenquellen.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ereignistyp</span></b> </td> 
-   <td colname="col2"> Weist die Eigenschaft einem Typ oder einer Kategorie zu, in der Regel entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im Video<a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">zum </a>Erstellen von Konversionseigenschaften in Audience Manager. </p></td> 
+   <td colname="col2"> Weist die Eigenschaft einem Typ oder einer Kategorie zu, in der Regel entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Ansicht der Seite usw.). Optional. <p> Weitere Informationen zum Erstellen von Konversionseigenschaften finden Sie im Video <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Erstellen von Konversionseigenschaften in Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integrationscode</span></b> </td> 
@@ -68,26 +71,26 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
    <td colname="col2"> Allgemeine Hinweise zu einer Eigenschaft. Optional. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Store</span></b> </td> 
-   <td colname="col2"> Legt fest, zu welchem Speicherordner die Eigenschaft gehört. Erforderlich. </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Store in</span></b> </td> 
+   <td colname="col2"> Legt fest, zu welcher Datenspeicherung der Eigenschaftsordner gehört. Erforderlich. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Datenkategorie</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Kategorie der Daten</span></b> </td> 
    <td colname="col2"> Klassifiziert Eigenschaften nach allgemein verständlichen Kategorien. <p>Hinweis:  Eigenschaften gehören nur zu einer Kategorie. Optional. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Ablaufintervall für Eigenschaften festlegen {#set-expiration-interval}
+## Festlegen eines [!UICONTROL Trait] Ablaufintervalls {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder]der [!UICONTROL Advanced Options] können Sie ein Intervall für die Live-Wiedergabe ([!DNL TTL]) für eine Eigenschaft festlegen. [!DNL TTL] definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft bleibt (standardmäßig 120 Tage). Bei Festlegung auf 0 läuft die Mitgliedschaft bei Eigenschaften nie ab.
+In [!UICONTROL Trait Builder]der [!UICONTROL Advanced Options] können Sie ein Time-to-Live-Intervall ([!DNL TTL]) für einen [!UICONTROL trait]Bericht festlegen. [!DNL TTL] legt fest, wie viele Tage ein qualifizierter Besucher in einem [!UICONTROL trait] (standardmäßig 120 Tage) verbleibt. Bei Festlegung auf 0 läuft die [!UICONTROL trait] Mitgliedschaft nie ab.
 
 <!-- t_tb_ttl.xml -->
 
-### TTL für eine Eigenschaft festlegen
+### Festlegen der TTL für eine [!UICONTROL trait]
 
-1. Erweitern Sie den [!UICONTROL Advanced Options] Abschnitt und geben Sie eine Zahl ein, um einen [!DNL TTL] Wert für die Eigenschaft festzulegen.
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Erweitern Sie den [!UICONTROL Advanced Options] Abschnitt und geben Sie eine Zahl ein, um einen [!DNL TTL] Wert für den Abschnitt festzulegen [!UICONTROL trait].
+1. Klicken **[!UICONTROL Save]**.
 
    ![](assets/TTL.png)
 
