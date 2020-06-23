@@ -6,17 +6,17 @@ solution: Audience Manager
 title: Anforderungen an den FTP-Namen und die Dateigröße für eingehende Datendateien
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 3%
 
 ---
 
 
-# Anforderungen an den FTP-Namen und die Dateigröße für eingehende Datendateien{#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP] Anforderungen an Name und Dateigröße für eingehende Datendateien {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an Audience Manager eingehalten werden müssen. Legen Sie die Dateinamen und -größen beim Senden von Daten an einen Audience Manager- [!DNL FTP] Ordner gemäß diesen Spezifikationen fest.
+Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dateigrößen, die beim Senden der Daten an [!DNL Audience Manager]eingehalten werden müssen. Legen Sie die Dateinamen und -größen beim Senden von Daten an einen Audience Manager- [!DNL FTP] Ordner gemäß diesen Spezifikationen fest.
 
 >[!WARNING]
 >
