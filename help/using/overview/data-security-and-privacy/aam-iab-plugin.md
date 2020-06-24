@@ -5,15 +5,15 @@ seo-title: Audience Manager Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager Plug-In für IAB TCF
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2449'
 ht-degree: 7%
 
 ---
 
 
-# Audience Manager Plug-In für IAB TCF {#aam-iab-plugin}
+# [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## Überblick
 
@@ -43,6 +43,10 @@ Derzeit unterstützt Audience Manager nicht:
 
 * Workflows von Mobilgeräten;
 * An Segmentierung von Exporten angehängte Zustimmung.
+
+## Auf [!DNL IAB TCF v2.0] {#upgrading}
+
+Kunden, die ihre [!DNL Audience Manager Plug-in for IAB TCF] Implementierung von [!DNL IAB TCF] v1.1 auf [!DNL IAB TCF] v2.0 aktualisieren oder [!DNL IAB TCF] v2.0 zum ersten Mal aktivieren, sollten dieselben Richtlinien zu Voraussetzungen und Implementierung befolgen, wie nachfolgend beschrieben.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -179,7 +183,7 @@ Weitere Informationen zu den unterstützten Zielmakros finden Sie unter [Zielmak
 
 ## Geräteübergreifende Verwaltung der Zustimmung
 
-Das Audience Manager-Plug-in für die IAB-TCF meldet die IDs, die bei einer Anforderung vorhanden sind, automatisch ab, wenn Ihre Site-Besucher nicht über die entsprechenden Berechtigungen verfügen. Wenn die Anforderung eine [geräteübergreifende ID (CRM-ID)](../../reference/ids-in-aam.md)enthält, wählt der Audience Manager die ID zusammen mit dem letzten mit dieser [geräteübergreifenden ID (CRM-ID)](../../reference/ids-in-aam.md)verknüpften Gerät aus.
+Das Audience Manager-Plug-in für die IAB-TCF meldet die bei einer Anforderung vorhandenen IDs automatisch ab, wenn Ihre Site-Besucher nicht über die entsprechenden Berechtigungen verfügen. Wenn die Anforderung eine [geräteübergreifende ID (CRM-ID)](../../reference/ids-in-aam.md)enthält, wählt der Audience Manager die ID zusammen mit dem letzten mit dieser [geräteübergreifenden ID (CRM-ID)](../../reference/ids-in-aam.md)verknüpften Gerät aus.
 
 ## IAB-Implementierung testen {#test-iab-implementation}
 
