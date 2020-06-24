@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: aefd0a0798797b8bbe9cadc1af9f2e86e772bb4c
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 21%
+source-wordcount: '735'
+ht-degree: 20%
 
 ---
 
@@ -98,7 +98,7 @@ Impression Ereignis-Aufrufe akzeptieren Daten, die zu Schlüssel/Wert-Paaren geb
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a></p> <p><code>gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen.</p> <p>Der Standardwert ist 0.</p><p>Optional.</p> </td> 
+   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a></p> <p><code>gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen.</p> <p>Der Standardwert ist 0.</p><p>Optional.</p><p>Wenn <code>gdpr=1</code>dann sollte der <code>gdpr_consent</code> Parameter den IAB TC-Parameter für die Genehmigung enthalten, um die Daten erfolgreich zu verarbeiten. Andernfalls werden alle Daten gelöscht.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
