@@ -1,19 +1,23 @@
 ---
-description: Zu den Datenaktionskomponenten gehören Kundendatenfeeds, der Datenerfassungsserver, SFTP/S3/HTTP-Herausgeber, IRIS und der Profilcache-Server.
-seo-description: Zu den Datenaktionskomponenten gehören Kundendatenfeeds, der Datenerfassungsserver, SFTP/S3/HTTP-Herausgeber, IRIS und der Profilcache-Server.
+description: Zu den Datenaktionskomponenten gehören Kundendatenfeeds, der Datenerfassungsserver, SFTP/S3/HTTP-Herausgeber, IRIS und der Profil-Cache-Server.
+seo-description: Zu den Datenaktionskomponenten gehören Kundendatenfeeds, der Datenerfassungsserver, SFTP/S3/HTTP-Herausgeber, IRIS und der Profil-Cache-Server.
 seo-title: Datenaktionskomponenten
 solution: Audience Manager
 title: Datenaktionskomponenten
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
+feature: system components
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 0%
 
 ---
 
 
 # Datenaktionskomponenten{#data-action-components}
 
-Zu den Datenaktionskomponenten gehören Kundendatenfeeds, der Datenerfassungsserver, SFTP/S3/HTTP-Herausgeber, IRIS und der Profilcache-Server.
+Zu den Datenaktionskomponenten gehören Kundendatenfeeds, der Datenerfassungsserver, SFTP/S3/HTTP-Herausgeber, IRIS und der Profil-Cache-Server.
 
 <!-- 
 
@@ -25,7 +29,7 @@ Aktionskomponenten sind Systeme und Prozesse, mit denen Sie Daten ein- und austa
 
 ## Kundendaten-Feeds (CDF) {#cdf}
 
-[!UICONTROL CDF] sind Dateien, die stündlich an Kunden gesendet werden. Diese enthalten Benutzer-IDs sowie zugehörige Segment-IDs, Eigenschaften-IDs und andere Daten. Weitere Informationen finden Sie unter Übersicht über den [Kundendaten-Feed](../../features/cdf-files.md).
+[!UICONTROL CDF] sind Dateien, die stündlich an Kunden gesendet werden. Diese enthalten Benutzer-IDs zusammen mit zugehörigen Segment-IDs, Eigenschaften-IDs und anderen Daten. Weitere Informationen finden Sie unter Übersicht über den [Kundendaten-Feed](../../features/cdf-files.md).
 
 ## Datenerfassungsserver (DCS) {#dcs}
 
@@ -52,7 +56,7 @@ Es gibt keine Steuerelemente der Benutzeroberfläche, mit denen Kunden direkt ar
 Beispiele für [!UICONTROL IRIS] Dienste und Funktionen:
 
 * Schnelle Synchronisierung (innerhalb von 30 Sekunden) von Cookies und Segmenten. Es kann das [!DNL Audience Manager] Cookie, Partner-Cookies oder beides synchronisieren.
-* Datenübertragung in Echtzeit [!UICONTROL IRIS] ist für das Senden von Segmentqualifizierungsereignissen in Echtzeit an einen Partner oder ein anderes Ziel verantwortlich. Diese Daten sind JSON-formatiert und über eine HTTP- `POST` Anforderung gesendet.
+* Datenübertragung in Echtzeit [!UICONTROL IRIS] ist für den Versand von Segmentqualifizierungs-Ereignissen in Echtzeit an einen Partner oder einen anderen Zielort verantwortlich. Diese Daten sind JSON-formatiert und über eine HTTP- `POST` Anforderung gesendet.
 
 * Massenübertragung von Server zu Server: Wenn Sie große Datenmengen mit austauschen, [!DNL Audience Manager]ist [!UICONTROL IRIS] das System, mit dem Ihre Server Daten übertragen.
 
@@ -66,13 +70,13 @@ Um den Traffic zwischen [!UICONTROL IRIS] und Segmentzielen zu optimieren, [!UIC
 
 1. **Neue Segmentdisqualifizierung**: Wenn ein Gerät sich nicht mehr für ein Segment qualifiziert, [!UICONTROL IRIS] sendet es alle mit diesem Gerät verbundenen Segmentqualifikationen und -disqualifikationen an alle Ziele, die diesen Segmenten zugeordnet sind.
 
-1. **Aktualisierungen** der Zielzuordnung: Wenn eine Zielzuordnung aktualisiert wird, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn Audience Manager das Gerät das nächste Mal anzeigt.
+1. **Aktualisierungen** der Zielzuordnung: Wenn eine Zielzuordnung aktualisiert wird, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn der Audience Manager das Gerät das nächste Mal sieht.
 
-1. **Aktualisierungen** des Gerätediagramms: Wenn eine Geräte-ID aus dem Gerätediagramm, das zur Bewertung eines Segments verwendet wird, hinzugefügt oder entfernt wird, alle mit diesem Gerät verknüpften Segmente an alle Ziele gesendet werden, die diesen Segmenten zugeordnet sind, sobald Audience Manager das Gerät das nächste Mal anzeigt. [!UICONTROL IRIS]
+1. **Aktualisierungen** des Gerätediagramms: Wenn eine Geräte-ID aus dem Gerätediagramm zur Segmentauswertung hinzugefügt oder entfernt wird, werden alle mit diesem Gerät verknüpften Segmente an alle Ziele gesendet, die diesen Segmenten zugeordnet sind, sobald der Audience Manager das Gerät das nächste Mal sieht. [!UICONTROL IRIS]
 
 >[!IMPORTANT]
 >
->Wenn Audience Manager drei aufeinander folgende Tage lang keine der oben genannten Updates erkennt, [!UICONTROL IRIS] sendet er alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn Audience Manager das Gerät das nächste Mal anzeigt.
+>Wenn Audience Manager drei aufeinander folgende Tage keine der oben genannten Updates erkennt und alle mit einem Gerät verknüpften Segmente an alle Ziele sendet, die diesen Segmenten zugeordnet sind, wird das Gerät beim nächsten Mal angezeigt, wenn der Audience Manager das Gerät sieht. [!UICONTROL IRIS]
 
 **Beispieldatendatei**
 
@@ -144,6 +148,6 @@ Das folgende Beispiel enthält Echtzeitsegmentdaten aus [!UICONTROL IRIS]. Beach
 }
 ```
 
-## Profil-Cache-Server (PCS) {#pcs}
+## Profil Cache Server (PCS) {#pcs}
 
 Siehe [Datenerfassungskomponenten](../../reference/system-components/components-data-collection.md).
