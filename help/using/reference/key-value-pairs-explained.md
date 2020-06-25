@@ -2,17 +2,21 @@
 description: Definiert und beschreibt Standard- und serialisierte Schlüssel/Wert-Paare.
 keywords: integration code
 seo-description: Definiert und beschreibt Standard- und serialisierte Schlüssel/Wert-Paare.
-seo-title: Erläuterung von wichtigen Seiten
+seo-title: Erläuterung von Seiten mit Schlüsselwert
 solution: Audience Manager
-title: Erläuterung von wichtigen Seiten
+title: Erläuterung von Seiten mit Schlüsselwert
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
+feature: reference
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 4%
 
 ---
 
 
-# Erläuterung von wichtigen Seiten{#key-value-pairs-explained}
+# Erläuterung von Seiten mit Schlüsselwert{#key-value-pairs-explained}
 
 Definiert und beschreibt Standard- und serialisierte Schlüssel/Wert-Paare.
 
@@ -43,10 +47,10 @@ Ziele akzeptieren Schlüsselwertdaten in *`standard`* oder *`serialized`* Format
 
 Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die Werte *innerhalb* und *zwischen* den Schlüssel-Wert-Paaren trennen. Elemente in Schlüssel-Wert-Paaren werden wie folgt definiert:
 
-* **** Schlüssel: Ein eindeutiger Bezeichner im Schlüssel-Wert-Paar.
-* **** Wertetrennzeichen: Trennt einzelne Schlüssel/Wert-Paare.
-* **** Trennzeichen für Schlüsselwerte: Trennt einen Schlüssel von den Werten in einem Schlüssel-Wert-Paar.
-* **** Serielles Trennzeichen: Trennt einzelne Werte in serialisierten Schlüssel/Wert-Paaren.
+* **Schlüssel:** Ein eindeutiger Bezeichner im Schlüssel-Wert-Paar.
+* **Wertetrennzeichen:** Trennt einzelne Schlüssel/Wert-Paare.
+* **Trennzeichen für Schlüsselwerte:** Trennt einen Schlüssel von den Werten in einem Schlüssel-Wert-Paar.
+* **Serielles Trennzeichen:** Trennt einzelne Werte in serialisierten Schlüssel/Wert-Paaren.
 
 ## Standardelemente und serialisierte Schlüsselwertelemente {#standard-serialized-key-value-elements}
 
@@ -63,7 +67,7 @@ Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die Wert
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Einzelschlüssel</b> <p>(Standard) </p> </td> 
+   <td colname="col1"> <b>Einzelner Schlüssel</b> <p>(Standard) </p> </td> 
    <td colname="col2"> <code> x=1&amp;x=2 </code> </td> 
    <td colname="col3"> x </td> 
    <td colname="col4" morerows="3"> = </td> 
@@ -76,7 +80,7 @@ Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die Wert
    <td colname="col3"> x, y </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Einzelschlüssel</b> <p>(seriell) </p> </td> 
+   <td colname="col1"> <b>Einzelner Schlüssel</b> <p>(seriell) </p> </td> 
    <td colname="col2"> <code> x=1;2;3 </code> </td> 
    <td colname="col3"> x </td> 
    <td colname="col5"> Keine </td> 
