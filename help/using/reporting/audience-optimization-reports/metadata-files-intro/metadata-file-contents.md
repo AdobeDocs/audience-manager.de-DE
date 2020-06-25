@@ -1,25 +1,29 @@
 ---
-description: Formatieren Sie den Inhalt der Metadatendatei für die Zielgruppenoptimierung entsprechend diesen Spezifikationen.
-seo-description: Formatieren Sie den Inhalt der Metadatendatei für die Zielgruppenoptimierung entsprechend diesen Spezifikationen.
+description: Formatieren Sie den Inhalt Ihrer Metadatendatei zur Optimierung der Audience entsprechend diesen Spezifikationen.
+seo-description: Formatieren Sie den Inhalt Ihrer Metadatendatei zur Optimierung der Audience entsprechend diesen Spezifikationen.
 seo-title: Inhaltsformat für Metadatendateien
 solution: Audience Manager
 title: Inhaltsformat für Metadatendateien
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 0%
 
 ---
 
 
 # Inhaltsformat für Metadatendateien{#content-format-for-metadata-files}
 
-Formatieren Sie den Inhalt der Metadatendatei für die Zielgruppenoptimierung entsprechend diesen Spezifikationen.
+Formatieren Sie den Inhalt Ihrer Metadatendatei zur Optimierung der Audience entsprechend diesen Spezifikationen.
 
 ## Syntax {#syntax}
 
 Die folgende Syntax definiert die Struktur von gut geformten Inhalten in einer Metadatendatei. Note, *italics* indicates a variable placeholder.
 
-**** Syntax:  *content-ID* | *name* | *-1*
+**Syntax:**  *content-ID* | *name* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
@@ -29,9 +33,9 @@ Die dritte Spalte **-1** ist technisch gesehen die übergeordnete ID, bei der es
 >
 >Beachten Sie, dass pro Dimension eine Metadatendatei benötigt wird, sodass im Bucket mehrere Metadatendateien erwartet werden. Die Dimensionen werden im Artikel [Benennungsregeln für Metadatendatei](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)aufgeführt.
 
-**Separate Dateieinträge mit "^a"(Control-A"oder "ASCII 001")**
+**Separate Dateieinträge mit &quot;^a&quot;(Control-A&quot;oder &quot;ASCII 001&quot;)**
 
-Verwenden Sie `^a` (Control-A oder ASCII 001), um Inhalte in Ihren Metadatendateien zu trennen. Da es sich hierbei um nicht druckbare Zeichen handelt, zeigt das Syntaxbeispiel oben nur ein Rohr "|"für Anzeigezwecke.
+Verwenden Sie `^a` (Control-A oder ASCII 001), um Inhalte in Ihren Metadatendateien zu trennen. Da es sich hierbei um nicht druckbare Zeichen handelt, zeigt das Syntaxbeispiel oben nur eine Pipe &quot;|&quot;für Anzeigezwecke.
 
 Bei Bedarf können Sie die Beispieldatei [20181105_0_1](assets/20181105_0_1.zip)herunterladen. Entpacken Sie sie und bearbeiten Sie sie in Ihrem Editor Ihrer Wahl und passen Sie sie entsprechend Ihren tatsächlichen Metadateninhalt an, da sie bereits das erforderliche Trennzeichen enthält.
 
