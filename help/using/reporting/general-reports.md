@@ -5,8 +5,12 @@ seo-title: Allgemeine Berichte im Audience Manager
 solution: Audience Manager
 title: Allgemeine Berichte
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
+feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 0%
 
 ---
 
@@ -88,7 +92,7 @@ Die folgenden Filter stehen zur Verfügung, wenn Sie einen allgemeinen Bericht a
 
 Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] ist die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Unique Trait Realizations] die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
 * [!UICONTROL Total Trait Realization] die Gesamtzahl der anonymen Eigenschaften innerhalb des ausgewählten Zeitraums.
 * [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Besucher, die diese Eigenschaft auf ihrem Profil haben.
 
@@ -126,11 +130,11 @@ Die folgenden Metriken stehen zur Verfügung, wenn Sie einen allgemeinen Bericht
 
 ### Population von Echtzeit-Segmenten
 
-Diese Metrik stellt die tatsächliche Anzahl individueller Besucher dar, die in Echtzeit während des angegebenen Zeitraums gesehen wurden und die zu dem Zeitpunkt für das Segment qualifiziert waren, zu dem sie von Audience Manager gesehen wurden.
+Diese Metrik stellt die tatsächliche Anzahl individueller Besucher dar, die in Echtzeit während des angegebenen Zeitraums gesehen wurden und die zu dem Zeitpunkt, zu dem sie vom Audience Manager gesehen wurden, für das Segment qualifiziert waren.
 
 ### Segmentpopulation insgesamt
 
-Diese Metrik stellt die Gesamtanzahl der Audience Manager-UUIDs dar, die für das Segment innerhalb der von Ihnen gewählten Rückblickzeit qualifiziert sind. Ihre Segmentpopulation mit 1 Tag stellt Ihre genaueste Benutzerbasis für das Targeting dar.
+Diese Metrik stellt die Gesamtanzahl der UUIDs des Audience Managers dar, die für das Segment innerhalb der von Ihnen gewählten Rückblickzeit qualifiziert sind. Ihre Segmentpopulation mit 1 Tag stellt Ihre genaueste Benutzerbasis für das Targeting dar.
 
 >[!NOTE]
 >
@@ -146,7 +150,7 @@ Die folgenden Metriken stehen zur Verfügung, wenn Sie einen allgemeinen Bericht
 
 **Population von Echtzeit-Segmenten**
 
-Diese Metrik stellt die tatsächliche Anzahl individueller Besucher dar, die in Echtzeit während des angegebenen Zeitraums gesehen wurden und die zu dem Zeitpunkt für das Segment qualifiziert waren, zu dem sie von Audience Manager gesehen wurden.
+Diese Metrik stellt die tatsächliche Anzahl individueller Besucher dar, die in Echtzeit während des angegebenen Zeitraums gesehen wurden und die zu dem Zeitpunkt, zu dem sie vom Audience Manager gesehen wurden, für das Segment qualifiziert waren.
 
 **Segmentpopulation insgesamt**
 
