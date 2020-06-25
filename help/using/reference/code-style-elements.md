@@ -5,8 +5,12 @@ seo-title: Stilkonventionen für Code- und Textelemente
 solution: Audience Manager
 title: Stilkonventionen für Code- und Textelemente
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
+feature: reference
 translation-type: tm+mt
-source-git-commit: 8e4afebaa2035fca6f8535314be5f072f26e0217
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +28,7 @@ Diese Elemente identifizieren Codeoptionen und Variablen, die in der Hilfe-Dokum
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>Variable</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
    <td colname="col2"> <p>Variablen werden kursiv <i>dargestellt</i>. Ersetzen Sie den entsprechenden Wert für den Variablennamen. </p> <p>Aus Gründen der Übersichtlichkeit werden manchmal Variablen und andere Codeelemente zwischen &lt; &gt; Klammern angezeigt. Sie müssen diese Symbole nicht in Ihrem Code verwenden. </p> </td> 
   </tr> 
   <tr> 
