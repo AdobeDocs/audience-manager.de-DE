@@ -6,8 +6,12 @@ seo-title: Besucher-Authentifizierungsstatus in Audience Manager
 solution: Audience Manager
 title: Besucher-Authentifizierungsstatus in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
+feature: reference
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 1%
 
 ---
 
