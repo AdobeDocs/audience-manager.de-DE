@@ -5,8 +5,12 @@ seo-title: Überlagerungsberichte - Zeitplan und Mindestsegmentgröße aktualisi
 solution: Audience Manager
 title: Überlagerungsberichte - Zeitplan und Mindestsegmentgröße aktualisieren
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +25,9 @@ Beschreibt die für den Aktualisierungsprozess des Überschneidungsberichts erfo
 
 * Ein Segment muss mindestens 70.000 Benutzer in Echtzeit während der letzten 14 Tage enthalten. Erfahren Sie mehr über die [Mindestanforderungen an individuelle Besucher für Eigenschaften und Segmente](../../reporting/report-sampling.md#data-sampling-ratio).
 * Ein Segment muss vor Donnerstag UTC um 12 Uhr erstellt worden sein (2 volle Tage vor Beginn des Aktualisierungsprozesses des wöchentlichen Überschneidungsberichts).
-* Ihr Unternehmen muss ein Full- [!DNL Audience Manager] Kunde sein. Wenden Sie sich an Ihren [!DNL Audience Manager] Berater oder an den Kundendienst, um weitere Informationen zu erhalten.
+* Ihre Firma muss Vollkunde [!DNL Audience Manager] sein. Wenden Sie sich an Ihren [!DNL Audience Manager] Berater oder an den Kundendienst, um weitere Informationen zu erhalten.
 
-## Segmentgröße und/oder Erstellungszeit beeinflussen die Berichterstellung {#segment-size}
+## Segmentgröße und/oder Erstellungszeit beeinflussen Berichte {#segment-size}
 
 Wenn in einem der [!UICONTROL Overlap] Berichte kein Segment angezeigt wird, kann dies daran liegen, dass das Segment diese Mindestanforderungen nicht erfüllt.
 
