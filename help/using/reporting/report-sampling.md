@@ -1,17 +1,21 @@
 ---
 description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
 seo-description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
-seo-title: Datenstichproben und Fehlerraten in den Berichten zum ausgewählten Audiencen-Manager
+seo-title: Datenstichproben und Fehlerraten in Berichten zu ausgewählten Audience Managern
 solution: Audience Manager
-title: Datenstichproben und Fehlerraten in den Berichten zum ausgewählten Audiencen-Manager
+title: Datenstichproben und Fehlerraten in Berichten zu ausgewählten Audience Managern
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
 
-# Datenstichproben und Fehlerraten in den Berichten zum ausgewählten Audiencen-Manager{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Datenstichproben und Fehlerraten in Berichten zu ausgewählten Audience Managern{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
 
