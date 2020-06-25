@@ -5,8 +5,12 @@ seo-title: Trendberichte
 solution: Audience Manager
 title: Trendberichte
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
+feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '650'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +86,7 @@ Die folgenden Filter stehen zur Verfügung, wenn Sie einen Bericht ausführen [!
 
 Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] ist die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Unique Trait Realizations] die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
 * [!UICONTROL Total Trait Realization] ist die Gesamtzahl der anonymen Mäuse-Eigenschaften innerhalb des ausgewählten Zeitraums.
 * [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Besucher, die diese Eigenschaft auf ihrem Profil haben.
 
