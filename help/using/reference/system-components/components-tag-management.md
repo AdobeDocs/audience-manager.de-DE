@@ -1,19 +1,23 @@
 ---
-description: Zu den Tag-Management-Komponenten von Audience Manager gehören das Client-Portal, Adobe Tag Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Experience Platform Launch), DIL, Akamai und die Steuerungsdatenbank.
-seo-description: Zu den Tag-Management-Komponenten von Audience Manager gehören das Client-Portal, Adobe Tag Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Experience Platform Launch), DIL, Akamai und die Steuerungsdatenbank.
+description: Zu den Audience Manager-Tag-Management-Komponenten gehören das Client-Portal, Adobe Tag-Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Experience Platform Launch), DIL, Akamai und die Steuerdatenbank.
+seo-description: Zu den Audience Manager-Tag-Management-Komponenten gehören das Client-Portal, Adobe Tag-Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Experience Platform Launch), DIL, Akamai und die Steuerdatenbank.
 seo-title: Komponenten des Tag-Managements
 solution: Audience Manager
 title: Komponenten des Tag-Managements
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
+feature: system components
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
 
 # Komponenten des Tag-Managements{#tag-management-components}
 
-Zu den Tag-Management-Komponenten von Audience Manager gehören das Client-Portal, Adobe Tag Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Experience Platform Launch), DIL, Akamai und die Steuerungsdatenbank.
+Zu den Audience Manager-Tag-Management-Komponenten gehören das Client-Portal, Adobe Tag-Manager (nicht mehr unterstützt für Adobe Dynamic Tag Manager und Adobe Experience Platform Launch), DIL, Akamai und die Steuerdatenbank.
 
 <!-- 
 
@@ -21,7 +25,7 @@ c_comptag.xml
 
  -->
 
-Audience Manager umfasst die folgenden Komponenten:
+Audience Manager enthält die folgenden Komponenten:
 
 * [Client-Portal](../../reference/system-components/components-tag-management.md#client-portal)
 * [DIL/TIM-Container](../../reference/system-components/components-tag-management.md#dil-tim)
@@ -39,7 +43,7 @@ Der [!UICONTROL DIL] Container hilft bei der Bereitstellung des [!DNL Audience M
 
 ## Data Integration Library (DIL){#dil} 
 
-Die [Dateninformationsbibliothek](../../dil/dil-overview.md) (DIL) ist ein eigenständiges API-Modul, das Daten von Ihrer Website erfasst. [!UICONTROL DIL] hilft, die Notwendigkeit zu vermeiden, speziellen Code für die Datenerfassung, Integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben. [!UICONTROL DIL] führt diese Aktionen automatisch aus. Außerdem [!UICONTROL DIL] ist kompakt. Es handelt sich dabei um eine eigenständige Codebibliothek, die dazu beiträgt, die für die Datenerfassung erforderliche Codemenge zu reduzieren. Schließlich [!UICONTROL DIL] hilft Ihnen die Integration [!DNL Audience Manager] mit anderen Produkten in der [!DNL Adobe] Experience Cloud.
+Die [Dateninformationsbibliothek](../../dil/dil-overview.md) (DIL) ist ein eigenständiges API-Modul, das Daten von Ihrer Website erfasst. [!UICONTROL DIL] hilft, die Notwendigkeit zu vermeiden, speziellen Code für die Datenerfassung, Integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben. [!UICONTROL DIL] führt diese Aktionen automatisch aus. Außerdem [!UICONTROL DIL] ist kompakt. Es handelt sich dabei um eine eigenständige Codebibliothek, die dazu beiträgt, die für die Datenerfassung erforderliche Codemenge zu reduzieren. Schließlich [!UICONTROL DIL] hilft Ihnen die Integration [!DNL Audience Manager] mit anderen Produkten im [!DNL Adobe] Experience Cloud.
 
 ## Akamai {#akamai}
 
