@@ -5,8 +5,12 @@ seo-title: Häufigste nicht verwendete Eigenschaften
 solution: Audience Manager
 title: Häufigste nicht verwendete Eigenschaften
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Die wichtigsten nicht verwendeten Eigenschaften werden als Streudiagramm von Eig
 
 ## Nutzungsszenario {#use-cases}
 
-Mit dem [!UICONTROL Top Unused Traits] Bericht können Sie die Leistung von Erst- und Drittanbietereigenschaften analysieren und vergleichen, die derzeit keinem Segment zugeordnet sind. Diese Ansicht kann die besten Eigenschaften hervorheben, die in einem Zielgruppensegment zur Kampagnenoptimierung oder zu neuen Netto-Chancen verwendet werden.
+Mit dem [!UICONTROL Top Unused Traits] Bericht können Sie die Leistung von Erst- und Drittanbietereigenschaften analysieren und vergleichen, die derzeit keinem Segment zugeordnet sind. Diese Ansicht kann auf die besten Eigenschaften hinweisen, die in einem Audiencen-Segment zur Optimierung der Kampagne oder zu neuen Netto-Chancen verwendet werden.
 
 ## Verwenden des Berichts zu den wichtigsten nicht verwendeten Eigenschaften {#using-the-report}
 
@@ -29,19 +33,19 @@ Passen Sie den Rückblickbereich mit den Steuerelementen **[!UICONTROL Day Range
 
 Verwenden Sie das **[!UICONTROL Order]** Dropdownfeld, um die Webeigenschaften in Ihrem Portfolio auszuwählen, für die Sie Informationen zurückgeben möchten.
 
-Wählen Sie im **[!UICONTROL Data Provider]** Dropdownfeld die Datenquellen mit den Eigenschaften aus, die Sie im Bericht sehen möchten.
+Wählen Sie im **[!UICONTROL Data Provider]** Dropdown-Feld die Datenquellen mit den Eigenschaften aus, die Sie im Bericht sehen möchten.
 
 Verwenden Sie das **[!UICONTROL Traits]** Dropdownfeld, um auszuwählen, welche Eigenschaften im Bericht angezeigt werden sollen.
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Order IDs]angeben, wie in Schritt 3 des [Imports von DFP-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Order] anstelle der [!UICONTROL Order ID]Eigenschaft detailliert beschreibt.
+>Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Order IDs]angeben, wie in Schritt 3 von &quot;DFP-Datendateien in Audience Manager [importieren&quot;beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Order] anstelle der [!UICONTROL Order ID]Eigenschaft detailliert beschreibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
 **Beispielbericht**
 
-Ihr [!UICONTROL Top Unused Traits] Bericht könnte dem unten stehenden ähneln. Klicken Sie in Ihrem Bericht auf eine Blase, um die zugrunde liegenden Daten anzuzeigen.
+Ihr [!UICONTROL Top Unused Traits] Bericht könnte dem unten stehenden ähneln. Klicken Sie in Ihrem Bericht auf einen Punkt, um die zugrunde liegenden Daten Ansicht.
 
 Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
@@ -76,7 +80,7 @@ Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Be
    <td colname="col2"> <p>Die Häufigkeit, mit der Mitglieder dieser Eigenschaft Ihrem Bestand ausgesetzt wurden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Eigenschaften</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Eigenschaftsvariablen</span> </p> </td> 
    <td colname="col2"> <p>Die Anzahl der Eigenschaftsmitglieder innerhalb der letzten 30 Tage. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,9 +88,9 @@ Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Be
 
 ![](assets/publisher_unused_traits_final.png)
 
-Die Position Ihrer Eigenschaften in einem Bericht kann Ihnen viele Informationen darüber liefern, welche Eigenschaften Sie zur Optimierung vorhandener Zielgruppensegmente verwenden können.
+Die Position Ihrer Eigenschaften in einem Bericht kann Ihnen viele Informationen darüber liefern, welche Eigenschaften Sie zur Optimierung vorhandener Audiencen verwenden können.
 
-Die Eigenschaften, die sich oberhalb der Impressionsachse befinden, sind die Eigenschaften, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Zielgruppe basierend auf Ihren DFP-Daten in Ihrer Webeigenschaft erreichen.
+Die Eigenschaften, die höher auf der Impressionsachse liegen, sind die Eigenschaften, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Audience in Ihrer Webeigenschaft erreichen, basierend auf Ihren DFP-Daten.
 
 Suchen Sie links auf der [!UICONTROL Unique Trait Realizations] Achse nach hochpräzisen Eigenschaften und rechts nach Eigenschaften, die die Skalierung fördern können.
 
@@ -100,7 +104,7 @@ Suchen Sie links auf der [!UICONTROL Unique Trait Realizations] Achse nach hochp
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Oben links</b> </p> </td> 
-   <td colname="col2"> <p>Hohe Anzahl von Impressionen, niedrige Anzahl von Eigenschaften. </p> <p>Dies ist eine hochgenaue Zielgruppe, die noch nicht Mitglied eines Segments ist. Erwägen Sie Targeting. </p> </td> 
+   <td colname="col2"> <p>Hohe Anzahl von Impressionen, niedrige Anzahl von Eigenschaften. </p> <p>Dies ist eine hochgenaue Audience, die noch nicht Teil eines Segments ist. Erwägen Sie Targeting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unten links</b> </p> </td> 
@@ -108,7 +112,7 @@ Suchen Sie links auf der [!UICONTROL Unique Trait Realizations] Achse nach hochp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Oben rechts</b> </p> </td> 
-   <td colname="col2"> <p>Hohe Anzahl von Impressionen, hohe Anzahl von Eigenschaften. </p> <p>Eine hohe Reichweite gegen eine Zielgruppe, die noch nicht in einem Segment gekennzeichnet ist. Diese Zielgruppe ist aufgrund der hohen Anzahl von Impressionen und der Größenordnung ein erstklassiger Kandidat für das Targeting. </p> </td> 
+   <td colname="col2"> <p>Hohe Anzahl von Impressionen, hohe Anzahl von Eigenschaften Realisierungen. </p> <p>Eine hohe Reichweite gegen eine Audience, die noch nicht in einem Segment gekennzeichnet ist. Diese Audience ist aufgrund der hohen Anzahl von Impressionen und der Größenordnung ein erstklassiger Kandidat für das Targeting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unten rechts</b> </p> </td> 
