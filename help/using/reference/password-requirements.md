@@ -1,19 +1,23 @@
 ---
-description: Audience Manager kann so konfiguriert werden, dass alle 30 Tage Kennwörter ablaufen. Wenden Sie sich an Ihren Audience Manager-Berater oder an den Kundendienst, wenn Sie das Passwortablauf aktivieren möchten. Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Kennworts finden Sie in diesem Abschnitt.
-seo-description: Audience Manager kann so konfiguriert werden, dass alle 30 Tage Kennwörter ablaufen. Wenden Sie sich an Ihren Audience Manager-Berater oder an den Kundendienst, wenn Sie das Passwortablauf aktivieren möchten. Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Kennworts finden Sie in diesem Abschnitt.
-seo-title: Kennwortanforderungen, gesperrte Konten und vergessene Kennwörter
+description: Audience Manager können so konfiguriert werden, dass alle 30 Tage Passwörter ablaufen. Wenden Sie sich an Ihren Audience Manager- oder Kundendienst, wenn Sie das Passwortablauf aktivieren möchten. Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Kennworts finden Sie in diesem Abschnitt.
+seo-description: Audience Manager können so konfiguriert werden, dass alle 30 Tage Passwörter ablaufen. Wenden Sie sich an Ihren Audience Manager- oder Kundendienst, wenn Sie das Passwortablauf aktivieren möchten. Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Kennworts finden Sie in diesem Abschnitt.
+seo-title: Passwortanforderungen, gesperrte Konten und vergessene Passwörter
 solution: Audience Manager
-title: Kennwortanforderungen, gesperrte Konten und vergessene Kennwörter
+title: Passwortanforderungen, gesperrte Konten und vergessene Passwörter
 uuid: bca892eb-3577-4382-8110-131f78d23069
+feature: reference
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 2%
 
 ---
 
 
 # Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}
 
-Audience Manager kann so konfiguriert werden, dass alle 30 Tage Kennwörter ablaufen. Wenden Sie sich an Ihren Audience Manager-Berater oder an den Kundendienst, wenn Sie das Passwortablauf aktivieren möchten. Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Kennworts finden Sie in diesem Abschnitt.
+Audience Manager können so konfiguriert werden, dass alle 30 Tage Passwörter ablaufen. Wenden Sie sich an Ihren Audience Manager- oder Kundendienst, wenn Sie das Passwortablauf aktivieren möchten. Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Kennworts finden Sie in diesem Abschnitt.
 
 <!-- 
 
@@ -68,7 +72,7 @@ Weitere Informationen zum Zurücksetzen des Kennworts finden Sie unter [Kontoein
 
 **Kontosperre**
 
-Konten werden nach 5 fehlgeschlagenen Anmeldeversuchen gesperrt. Wenden Sie sich an den [!DNL Audience Manager] Administrator Ihres Unternehmens oder einen Partner Services-Mitarbeiter, um Ihr Konto zu entsperren.
+Konten werden nach 5 fehlgeschlagenen Anmeldeversuchen gesperrt. Wenden Sie sich an den [!DNL Audience Manager] Administrator Ihrer Firma oder an einen Vertreter des Partnerdienstes, um Ihr Konto zu entsperren.
 
 **Passwort vergessen/verloren**
 
