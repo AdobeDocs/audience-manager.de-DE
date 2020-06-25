@@ -1,19 +1,23 @@
 ---
-description: Zeigt Informationen zum Auftragsverlauf für ausgehende Stapelaufträge für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
-seo-description: Zeigt Informationen zum Auftragsverlauf für ausgehende Stapelaufträge für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
+description: Informationen zum Auftragsverlauf für ausgehende Ansichten für ein bestimmtes Ziel und einen bestimmten Zeitraum.
+seo-description: Informationen zum Auftragsverlauf für ausgehende Ansichten für ein bestimmtes Ziel und einen bestimmten Zeitraum.
 seo-title: Ausgehender Dateiverlauf
 solution: Audience Manager
 title: Ausgehender Dateiverlauf
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
+feature: inbound and outbound reports
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
 
 # Ausgehender Dateiverlauf {#outbound-file-history}
 
-Zeigt Informationen zum Auftragsverlauf für ausgehende Stapelaufträge für ein bestimmtes Ziel und einen bestimmten Zeitraum an.
+Informationen zum Auftragsverlauf für ausgehende Ansichten für ein bestimmtes Ziel und einen bestimmten Zeitraum.
 
 <!-- 
 
@@ -21,12 +25,12 @@ t_reports_outbound_history.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outbound File History]**.
+1. Klicken **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
 
    ![Schritt-Ergebnis](assets/outbound_history.png)
 
-1. Geben Sie im **[!UICONTROL Search for a Destination]** Feld die gewünschten Ziele ein.
-1. Geben Sie im **[!UICONTROL Select a Date Range]** Feld Start- und Enddaten für Ihren Bericht ein und klicken Sie dann auf **[!UICONTROL Apply Date Filter]**.
+1. Geben Sie im **[!UICONTROL Search for a Destination]** Feld Beginn ein und wählen Sie das gewünschte Ziel aus.
+1. Geben Sie im **[!UICONTROL Select a Date Range]** Feld Beginns- und Enddaten für Ihren Bericht ein und klicken Sie dann auf **[!UICONTROL Apply Date Filter]**.
 
    ![Schritt-Ergebnis](assets/outbound_history_stats.png)
 
@@ -46,7 +50,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Erfolgreich </td> 
-   <td colname="col2"> <p>Anzahl der Datensätze, die erfolgreich von <span class="keyword"> Audience Manager</span> an das Ziel gesendet wurden. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Datensätze, die erfolgreich vom <span class="keyword"> Audience Manager</span> zum Ziel gesendet wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> „Fehlgeschlagen“ </td> 
