@@ -5,8 +5,12 @@ seo-title: Glossar zu Massenverwaltungswerkzeugen
 solution: Audience Manager
 title: Glossar zu Massenverwaltungswerkzeugen
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 2%
 
 ---
 
@@ -71,7 +75,7 @@ Spaltenkopfbeschriftungen definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Signale sind Datenbits, die basierend auf der Aktivität des Benutzers an <span class="keyword"> Audience Manager</span> übergeben werden. Diese werden als <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare</a>übertragen. Der Quellschlüssel ist eine Konstante, die sich nicht ändert. Es hilft, den Quellwert zu kategorisieren, der sich ändern kann. Siehe <a href="../../features/derived-signals.md"> Abgeleitete Signale</a>. </p> </td> 
+   <td colname="col2"> <p>Signale sind Datenbits, die basierend auf der Aktivität des Benutzers an <span class="keyword"> Audience Manager</span> weitergegeben werden. Diese werden als <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare</a>übertragen. Der Quellschlüssel ist eine Konstante, die sich nicht ändert. Es hilft, den Quellwert zu kategorisieren, der sich ändern kann. Siehe <a href="../../features/derived-signals.md"> Abgeleitete Signale</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -95,7 +99,7 @@ Spaltenkopfbeschriftungen definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>Die eigentliche Eigenschaft oder Segmentregel, die zur Datenerfassung verwendet wird. Eine Massenanforderung gibt die Regeln zurück, die im <span class="keyword"> Audience Manager</span> mit dem <a href="../../features/traits/about-trait-builder.md"> Eigenschaftenregel-Builder</a> oder dem <a href="../../features/segments/segment-builder.md"> Segmentregelaufbau</a>erstellt wurden. Sie können diese Werkzeuge auch verwenden, um Regeln zu erstellen und sie beim Aktualisieren eines Segments oder einer Eigenschaft stapelweise anzuwenden. </p> <p>Siehe auch <a href="../../reference/bulk-management-tools/bulk-rules.md"> Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln</a>. </p> </td> 
+   <td colname="col2"> <p>Die eigentliche Eigenschaft oder Segmentregel, die zur Datenerfassung verwendet wird. Eine Massenanforderung gibt die Regeln zurück, die in <span class="keyword"> Audience Manager</span> mit dem <a href="../../features/traits/about-trait-builder.md"> Eigenschaftenregel-Builder</a> oder dem <a href="../../features/segments/segment-builder.md"> Segmentregelaufbau</a>erstellt wurden. Sie können diese Werkzeuge auch verwenden, um Regeln zu erstellen und sie beim Aktualisieren eines Segments oder einer Eigenschaft stapelweise anzuwenden. </p> <p>Siehe auch <a href="../../reference/bulk-management-tools/bulk-rules.md"> Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
