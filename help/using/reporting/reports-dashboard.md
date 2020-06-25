@@ -1,19 +1,23 @@
 ---
-description: Verwenden Sie das Dashboard, um Informationen zu den individuellen Besucherzahlen Ihrer Partner anzuzeigen, aufgeschlüsselt nach Eigenschaftentypen und Segmenten für einen bestimmten Zeitraum.
-seo-description: Verwenden Sie das Dashboard, um Informationen zu den individuellen Besucherzahlen Ihrer Partner anzuzeigen, aufgeschlüsselt nach Eigenschaftentypen und Segmenten für einen bestimmten Zeitraum.
-seo-title: Berichte-Dashboard
+description: Verwenden Sie das Dashboard zur Ansicht von Informationen über die individuellen Besucher Ihrer Partner, aufgeschlüsselt nach Eigenschaftsarten und Segmenten für einen bestimmten Zeitraum.
+seo-description: Verwenden Sie das Dashboard zur Ansicht von Informationen über die individuellen Besucher Ihrer Partner, aufgeschlüsselt nach Eigenschaftsarten und Segmenten für einen bestimmten Zeitraum.
+seo-title: Dashboard für Berichte
 solution: Audience Manager
-title: Berichte-Dashboard
+title: Dashboard für Berichte
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 0%
 
 ---
 
 
-# Berichte-Dashboard {#reports-dashboard}
+# Dashboard für Berichte {#reports-dashboard}
 
-Verwenden Sie das Dashboard, um Informationen über die Zählung Ihrer individuellen Besucher für einen bestimmten Zeitraum nach Eigenschafts- und Segmenttypen aufzuschlüsseln.
+Verwenden Sie das Dashboard zur Ansicht von Informationen zu den Zahlen Ihrer individuellen Besucher, aufgeschlüsselt nach Eigenschaftsarten und Segmenten, für einen bestimmten Zeitraum.
 
 <!-- 
 
@@ -21,18 +25,18 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] verwendet [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um die Benutzergruppenberechtigungen auf die [!UICONTROL Dashboard]zu erweitern. Benutzer können nur Informationen im Dashboard anzeigen, die sie anzeigen dürfen. [!UICONTROL RBAC] -Funktion können Sie steuern, welche Berichtsdaten interne Teams anzeigen können.
+[!DNL Audience Manager] verwendet [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um die Benutzergruppenberechtigungen auf die [!UICONTROL Dashboard]zu erweitern. Benutzer können nur Informationen zu dem Dashboard anzeigen, für das sie über die Berechtigung zur Ansicht verfügen. [!UICONTROL RBAC] Mit dieser Funktion können Sie steuern, welche Berichte-Daten interne Teams zur Ansicht bereitstellen können.
 
-Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann z. B. Benutzergruppenberechtigungen so konfigurieren, dass einem Team, das das Konto von Advertiser A verwaltet, die Berichtsdaten von Advertiser B nicht angezeigt werden. Dieses Dashboard kann zur Fehlerbehebung von Problemen bei der Datenbereitstellung verwendet werden.
+Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann beispielsweise Benutzergruppenberechtigungen so konfigurieren, dass ein Team, das das Konto des Advertiser A verwaltet, die Daten des Berichte von Advertiser B nicht sehen kann. Dieses Dashboard kann zur Fehlerbehebung bei Problemen mit dem Data-Versand verwendet werden.
 
-Wenn Sie z. B. einen Tiefpunkt oder eine Spitze bei Unique Users mit der Unterteilung des Typs Unique User (regelbasiert im Vergleich zu eingebettet) feststellen, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Datenbereitstellungsproblem zu verfolgen. Wenn Sie einen Tiefpunkt bei den Unique Users und bei den eingebetteten Unique Users feststellen, können Sie zum [!UICONTROL On-boarding Status] Bericht gehen, um zu sehen, ob ein Problem mit einer eingehenden Datei aufgetreten ist.
+Wenn Sie z. B. einen Tiefpunkt oder eine Spitze bei Unique Users mit der Unterteilung des Typs Unique User (regelbasiert im Vergleich zu eingebettet) bemerken, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Data-Versand-Problem zu verfolgen. Wenn Sie einen Tiefpunkt bei den Unique Users und bei den eingebetteten Unique Users feststellen, können Sie zum [!UICONTROL On-boarding Status] Bericht gehen, um zu sehen, ob ein Problem mit einer eingehenden Datei aufgetreten ist.
 
 **So greifen Sie auf das Dashboard zu:**
 
 1. Klicken Sie im oberen Navigationsmenü auf **[!UICONTROL Dashboard]**.
-2. *Optional* Wählen Sie den gewünschten Zeitraum aus dem letzten Berichtsdatum aus der Dropdownliste (7 Tage, 14 Tage (Standard), 30 Tage oder 60 Tage).
+2. *Optional* Wählen Sie den gewünschten Zeitraum ab dem Datum des letzten Berichte aus der Dropdown-Liste (7 Tage, 14 Tage (Standard), 30 Tage oder 60 Tage).
 
-   Je nach ausgewähltem Zeitraum zeigt die Delta-Änderung in den [!UICONTROL Largest Traits] &gt;- [!UICONTROL Most Changed Traits] und [!UICONTROL Largest Segments] &gt;- [!UICONTROL Most Changed Segments] Bedienfeldern die Veränderung der Unique Visitors in der Zielgruppe im Zeitraum an, der heute endet, im Vergleich zum vorherigen Zeitraum derselben Länge. Wenn Sie beispielsweise 7 Tage auswählen, vergleicht das Delta die individuellen Besucher der letzten sieben Tage mit den individuellen Besuchern der letzten sieben Tage.
+   Je nach ausgewähltem Zeitraum zeigt die Delta-Änderung in den [!UICONTROL Largest Traits] ->- [!UICONTROL Most Changed Traits] und [!UICONTROL Largest Segments] >- [!UICONTROL Most Changed Segments] Bedienfeldern die Veränderung der individuellen Besucher in der Audience über den Zeitraum an, der heute endet, im Vergleich zum vorhergehenden Zeitraum. Wenn Sie z. B. &quot;7 Tage&quot;auswählen, vergleicht das Delta die individuellen Besucher der letzten sieben Tage mit den eindeutigen Besuchern der letzten sieben Tage.
 
    >[!NOTE]
    >
@@ -48,25 +52,25 @@ Wenn Sie z. B. einen Tiefpunkt oder eine Spitze bei Unique Users mit der Unterte
 
 ## Partner Uniques {#partner-uniques}
 
-Berechtigung zum Anzeigen erforderlich: [!UICONTROL View All Traits].
+Berechtigung erforderlich für Ansicht: [!UICONTROL View All Traits].
 
 ![](assets/partner_uniques.png)
 
-Dieser Bereich zeigt die Anzahl der individuellen Besucher während des angegebenen Zeitraums an. Einzelne farbkodierte Linien stellen die Gesamtanzahl der individuellen Besucher und die Anzahl der individuellen Besucher dar, die mit algorithmischen, regelbasierten und Bordmerkmalen erfasst werden.
+In diesem Bereich wird die Anzahl der individuellen Besucher während des angegebenen Zeitraums angezeigt. Die einzelnen farbkodierten Zeilen stellen die Gesamtzahl der individuellen Besucher und die Anzahl der individuellen Besucher dar, die mit algorithmischen, regelbasierten und integrierten Eigenschaften erfasst werden.
 
 >[!NOTE]
 >
->Die Gesamtanzahl der Unique Visitors stellt Besucher dar, die über regelbasierte oder über Bordmerkmale erfasste Besucher erfasst wurden. Die Gesamtanzahl der individuellen Besucher entspricht jedoch nicht der Summe der individuellen Besucher, die mit den regelbasierten und integrierten Eigenschaften erfasst wurden. Derselbe eindeutige Benutzer kann in einem dieser beiden Eigenschaftstypen dargestellt werden.
+>Die Gesamtanzahl der individuellen Besucher stellt Besucher dar, die über regelbasierte oder nicht integrierte Eigenschaften erfasst werden. Die Gesamtanzahl der individuellen Besucher entspricht jedoch nicht der Summe der individuellen Besucher, die mit den regelbasierten und integrierten Eigenschaften erfasst wurden. Derselbe eindeutige Benutzer kann in einem dieser beiden Eigenschaftstypen dargestellt werden.
 
 ## Größte Eigenschaften/am meisten geänderte Eigenschaften {#largest-traits}
 
-Berechtigung zum Anzeigen erforderlich: [!UICONTROL View Traits].
+Berechtigung erforderlich für Ansicht: [!UICONTROL View Traits].
 
 ![](assets/largest_traits.png)
 
-Dieser Bereich zeigt die Anzahl der individuellen Besucher an, die von verschiedenen Eigenschaften erfasst wurden.
+In diesem Bedienfeld wird die Anzahl der individuellen Besucher angezeigt, die von verschiedenen Eigenschaften erfasst werden.
 
-Verwenden Sie die **[!UICONTROL Show]** Dropdownliste, um Informationen zu verschiedenen Arten von Eigenschaften anzuzeigen: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded]oder [!UICONTROL Rule-Based].
+Verwenden Sie die **[!UICONTROL Show]** Dropdown-Liste, um Informationen zu den verschiedenen Arten von Eigenschaften anzuzeigen: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded]oder [!UICONTROL Rule-Based].
 
 Dieses Bedienfeld enthält die folgenden Registerkarten:
 
@@ -80,18 +84,18 @@ Dieses Bedienfeld enthält die folgenden Registerkarten:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Größte Eigenschaften</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der individuellen Besucher sortiert nach Anzahl (am höchsten bis am niedrigsten) und listet die Delta-Veränderung individueller Besucher während des angegebenen Zeitraums auf. </p> </td> 
+   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der individuellen Besucher sortiert nach Anzahl (am höchsten bis am niedrigsten) sowie Listen der Delta-Änderung individueller Besucher während des angegebenen Zeitraums an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Am meisten geänderte Eigenschaften</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt Informationen zur Anzahl der individuellen Besucher sortiert nach der Delta-Änderung an. </p> </td> 
+   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der individuellen Besucher nach der Delta-Änderung sortiert an. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Größte Segmente/Am meisten geänderte Segmente {#most-changed-segments}
 
-Berechtigung zum Anzeigen erforderlich: [!UICONTROL View Segments].
+Berechtigung erforderlich für Ansicht: [!UICONTROL View Segments].
 
 ![](assets/largest_segments.png)
 
@@ -113,7 +117,7 @@ Dieses Bedienfeld enthält die folgenden Registerkarten:
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Am häufigsten geänderte Segmente</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt Informationen zur Anzahl der individuellen Besucher sortiert nach der Delta-Änderung an. </p> </td> 
+   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der individuellen Besucher nach der Delta-Änderung sortiert an. </p> </td> 
   </tr> 
  </tbody> 
 </table>
