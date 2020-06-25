@@ -1,19 +1,23 @@
 ---
-description: Listet die Browser auf, die von der Benutzeroberfläche von Audience Manager unterstützt werden. Cookies und JavaScript müssen in allen Browsern aktiviert sein.
-seo-description: Listet die Browser auf, die von der Benutzeroberfläche von Audience Manager unterstützt werden. Cookies und JavaScript müssen in allen Browsern aktiviert sein.
+description: Liste der Browser, die von der Benutzeroberfläche des Audience Managers unterstützt werden. Cookies und JavaScript müssen in allen Browsern aktiviert sein.
+seo-description: Liste der Browser, die von der Benutzeroberfläche des Audience Managers unterstützt werden. Cookies und JavaScript müssen in allen Browsern aktiviert sein.
 seo-title: Unterstützte Browser
 solution: Audience Manager
 title: Unterstützte Browser
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
+feature: reference
 translation-type: tm+mt
-source-git-commit: 662ddd04bde203a35440669ac9677eb067e136a1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 20%
 
 ---
 
 
 # Unterstützte Browser{#supported-browsers} 
 
-Diese Seite listet die Browser auf, die von der Benutzeroberfläche von Audience Manager unterstützt werden. Cookies und JavaScript müssen in allen Browsern aktiviert sein.
+Auf dieser Seite werden die Browser Liste, die von der Benutzeroberfläche des Audience Managers unterstützt werden. Cookies und JavaScript müssen in allen Browsern aktiviert sein.
 
 <!-- 
 
@@ -29,7 +33,7 @@ Adobe unterstützt die neueste Hauptversion dieser Browser:
 
 * **Microsoft Edge**
 
-   (Adobe beendet die Unterstützung für Internet Explorer 11 in Audience Manager am 10. Juli 2019. Wechseln Sie so bald wie möglich zur neuesten Hauptversion von Microsoft Edge oder einem anderen unterstützten Browser.)
+   (Adobe beendet die Unterstützung für Internet Explorer 11 innerhalb des Audience Managers am 10. Juli 2019. Wechseln Sie so bald wie möglich zur neuesten Hauptversion von Microsoft Edge oder einem anderen unterstützten Browser.)
 
    Die neueste Edge-Version erhalten Sie unter [https://www.microsoft.com/windows/microsoft-edge](https://www.microsoft.com/windows/microsoft-edge).
 
@@ -41,4 +45,4 @@ Adobe unterstützt die neueste Hauptversion dieser Browser:
 
    Die neueste Safari-Version erhalten Sie unter [http://www.apple.com/safari/download](http://www.apple.com/safari/download).
 
-Andere Browser funktionieren möglicherweise, werden aber von unseren technischen und Produktteams nicht unterstützt. Wenn Sie Probleme mit der Arbeit haben [!DNL Audience Manager], stellen Sie sicher, dass Sie einen aktuellen und unterstützten Browser verwenden.
+Andere Browser funktionieren möglicherweise, werden aber von unseren technischen Teams und Produktteams nicht unterstützt. Wenn Sie Probleme mit der Arbeit haben [!DNL Audience Manager], stellen Sie sicher, dass Sie einen aktuellen und unterstützten Browser verwenden.
