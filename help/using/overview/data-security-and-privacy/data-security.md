@@ -5,8 +5,9 @@ seo-title: Datensicherheit in Audience Manager
 solution: Audience Manager
 title: Datensicherheit in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -61,7 +62,7 @@ Prozesse, die dazu beitragen, die Sicherheit personenbezogener Daten zu gewährl
 
 Prozesse, die dazu beitragen, Daten einzelner Kunden zu schützen.
 
-**Eigenschaftsdatenunterteilung:**  Ihre Daten ([!UICONTROL traits]IDs usw.) vom Client partitioniert. Dadurch wird verhindert, dass unbeabsichtigte Informationen zwischen verschiedenen Kunden angezeigt werden. So werden z. B. Eigenschaftsdaten in Cookies vom Kunden unterteilt und in einer kundenspezifischen Subdomäne gespeichert. Es kann nicht versehentlich von einem anderen Audience Manager-Client gelesen oder verwendet werden. Darüber hinaus [!UICONTROL Profile Cache Servers (PCS)] werden die im System gespeicherten Eigenschaftsdaten auch vom Kunden aufgeteilt. Dadurch wird verhindert, dass andere Clients Ihre Daten versehentlich in einem Ereignis-Aufruf oder einer anderen Anforderung verwenden.
+**Eigenschaftsdatenunterteilung:**  Ihre Daten ([!UICONTROL traits]IDs usw.) vom Client partitioniert. Dadurch wird verhindert, dass versehentlich Informationen zwischen verschiedenen Kunden angezeigt werden. So werden z. B. Eigenschaftsdaten in Cookies vom Kunden unterteilt und in einer kundenspezifischen Subdomäne gespeichert. Es kann nicht versehentlich von einem anderen Audience Manager-Client gelesen oder verwendet werden. Darüber hinaus [!UICONTROL Profile Cache Servers (PCS)] werden die im System gespeicherten Eigenschaftsdaten auch vom Kunden aufgeteilt. Dadurch wird verhindert, dass andere Clients Ihre Daten versehentlich in einem Ereignis-Aufruf oder einer anderen Anforderung verwenden.
 
 **Datenunterteilung in Berichten:**  Client-IDs sind in allen Berichte-Tabellen Teil des Identifizierungsschlüssels, und die Report-Abfragen werden nach ID gefiltert. Dadurch wird verhindert, dass Ihre Daten in den Berichten eines anderen Audience Manager angezeigt werden.
 
