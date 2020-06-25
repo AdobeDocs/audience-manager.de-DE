@@ -5,8 +5,12 @@ seo-title: Importieren von DFP-Datendateien in Audience Manager
 solution: Audience Manager
 title: Importieren von DFP-Datendateien in Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +23,7 @@ Bevor Audience Manager die Zielgruppenoptimierung für Herausgeber aktivieren ka
 
 Beachten Sie, dass der in diesem Abschnitt beschriebene Prozess abgeschlossen werden muss, *bevor* Sie zu den Voraussetzungen für die Aktivierung der Protokollerfassung wechseln.
 
-Um DFP-Protokolldateien ( [!DNL DoubleClick For Publishers]) verwenden zu können, müssen [!DNL Audience Manager]Sie zunächst unsere Unique User ID (UUID)[ für ](../../../reference/ids-in-aam.md)Audience Manager im Tag-Aufruf festlegen. Auf diese Weise ist unsere ID in den DFP-Protokollen enthalten und wir können IDs zwischen DFP und [!DNL Audience Manager]DFP abgleichen. Verwenden Sie [!DNL Audience Manager] Code oder den [!UICONTROL DIL] Code, um die [!UICONTROL Audience Management Module] [!DNL Audience Manager] UUID in einem Erstanbieter-Cookie festzulegen.
+Um DFP-Protokolldateien ( [!DNL DoubleClick For Publishers]) verwenden zu können, müssen [!DNL Audience Manager]Sie zunächst unsere UUID (Unique User ID) für den [Audience Manager im Tag-Aufruf (Ad-Tag-ID)](../../../reference/ids-in-aam.md) festlegen. Auf diese Weise ist unsere ID in den DFP-Protokollen enthalten und wir können IDs zwischen DFP und [!DNL Audience Manager]DFP abgleichen. Verwenden Sie [!DNL Audience Manager] Code oder den [!UICONTROL DIL] Code, um die [!UICONTROL Audience Management Module] [!DNL Audience Manager] UUID in einem Erstanbieter-Cookie festzulegen.
 
 So legen Sie die [!DNL Audience Manager] ID im Tag-Aufruf fest, wie in unserer Dokumentation beschrieben:
 
@@ -45,7 +49,7 @@ Sie müssen die [!DNL Audience Manager] ID selbst festlegen und können mit [!DN
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Schritt 1 </p> </td> 
-   <td colname="col2"> <p>Vergewissern Sie sich, dass die erforderlichen Schritte zum Festlegen der UUID für <span class="keyword"> Audience Manager</span> (siehe oben) ausgeführt wurden, bevor Sie zu Schritt 2 wechseln </p> </td> 
+   <td colname="col2"> <p>Vergewissern Sie sich, dass die erforderlichen Schritte zum Festlegen der UUID für den <span class="keyword"> Audience Manager</span> (siehe oben) ausgeführt wurden, bevor Sie zu Schritt 2 wechseln. </p> </td> 
    <td colname="col3"> <p><span class="keyword"> Audience Manager</span> -Kundenunterstützung oder -Beratung </p> </td> 
   </tr> 
   <tr> 
@@ -53,34 +57,34 @@ Sie müssen die [!DNL Audience Manager] ID selbst festlegen und können mit [!DN
    <td colname="col2"> <p>Ihr DFP-Administrator erstellt: </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
       <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Ein Dienstkonto zum Erfassen von DFP-Protokollen in <span class="keyword"> Audience Manager</span>. </li> 
-      <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Neue Anmeldeinformationen. <p>Hinweis:  Dies erfordert möglicherweise eine eindeutige E-Mail-Adresse, die für dieses Projekt spezifisch ist, und wird bei der Bereitstellung des Zugriffs auf das Google Storage Bucket verwendet. </p> </li> 
+      <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Neue Anmeldeinformationen. <p>Hinweis:  Dies erfordert möglicherweise eine eindeutige E-Mail-Adresse, die für dieses Projekt spezifisch ist, und wird bei der Bereitstellung des Zugriffs auf das Google Datenspeicherung Bucket verwendet. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Ein privater Schlüssel (JSON-basierte Berechtigung) </li> 
      </ol> </p> </td> 
-   <td colname="col3"> <p>DFP-Administrator </p> </td> 
+   <td colname="col3"> <p>Ihr DFP-Administrator </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schritt 3 </p> </td> 
    <td colname="col2"> <p>Ihr DFP-Administrator gewährt API-Zugriff auf das Dienstkonto. Dieser Schritt ermöglicht den Zugriff auf die Metadaten, um Dimensionen (Zeilenelemente, Bestellungen, kreative Elemente) zu definieren. <p>Hinweis:  Verwenden Sie den in Schritt 2 eingerichteten E-Mail-Zugriff auf das Dienstkonto, um Zugriff auf die API zu gewähren. </p> </p> </td> 
-   <td colname="col3"> <p>DFP-Administrator </p> </td> 
+   <td colname="col3"> <p>Ihr DFP-Administrator </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schritt 4 </p> </td> 
-   <td colname="col2"> <p>Ihr DFP-Administrator legt den Zugriff auf das Google Storage Bucket fest. Denken Sie daran: </p> <p> 
+   <td colname="col2"> <p>Ihr DFP-Administrator hat Zugriff auf das Google Datenspeicherung Bucket. Denken Sie daran: </p> <p> 
      <ul id="ul_3E8DCC73454243D998BD9024D0966A4E"> 
       <li id="li_3691DBD28006412288458175F75873C6">Dies kann über eine Google-Gruppe erfolgen. </li> 
-      <li id="li_4774806B263245CEAAAB89BD2AA7F23F">Verknüpfen Sie die eindeutige E-Mail-Adresse, die dem Dienstkonto zugewiesen ist, mit dem Speicherbehälter. </li> 
+      <li id="li_4774806B263245CEAAAB89BD2AA7F23F">Verknüpfen Sie die eindeutige E-Mail-Adresse, die dem Dienstkonto zugewiesen ist, mit dem Behälter "Datenspeicherung". </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>DFP-Administrator </p> </td> 
+   <td colname="col3"> <p>Ihr DFP-Administrator </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schritt 5 </p> </td> 
    <td colname="col2"> <p>Ihr DFP-Administrator stellt die DFP-Netzwerk-ID bereit. Auf diese Weise können wir die Netzwerk-ID bei Aufrufen an die API weitergeben. </p> </td> 
-   <td colname="col3"> <p>DFP-Administrator </p> </td> 
+   <td colname="col3"> <p>Ihr DFP-Administrator </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schritt 6 </p> </td> 
    <td colname="col2"> <p>Kompilieren Sie die Voraussetzungen in einer E-Mail an die AAM-Kundenunterstützung (aamsupport@adobe.com), um den Protokollerfassungsprozess zu starten. Entwerfen Sie die E-Mail mit der Vorlage im nächsten Abschnitt. </p> </td> 
-   <td colname="col3"> <p>Sie oder <span class="keyword"> Audience Manager</span> Consulting in Ihrem Namen </p> </td> 
+   <td colname="col3"> <p>Sie, oder <span class="keyword"> Audience Manager</span> Consulting in Ihrem Namen </p> </td> 
   </tr> 
  </tbody> 
 </table>
