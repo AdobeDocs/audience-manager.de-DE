@@ -1,12 +1,13 @@
 ---
 description: Der Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 seo-description: Technische Dokumentation und Selbsthilfe für Audience Manager (AAM). AAM bietet branchenführende Dienstleistungen für Online-Audiencen-Data Management und bietet Anbietern digitaler Werbung und Herausgebern die Werkzeuge, die sie zur Steuerung und Nutzung ihrer Daten benötigen, um den Verkaufserfolg zu fördern.
-seo-title: Adobe Audience Manager - Produktdokumentation
+seo-title: Produktdokumentation für Adobe Audience Manager
 solution: Audience Manager
-title: Produktdokumentation zu Audience Manager
+title: Produktdokumentation für Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
+feature: overview
 translation-type: tm+mt
-source-git-commit: 54d108d3ab2a5476e919d706be74821d6ef8c2bd
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 15%
@@ -15,9 +16,9 @@ ht-degree: 15%
 
 
 
-# Produktdokumentation zu Audience Manager {#audience-manager-product-documentation}
+# Produktdokumentation für Audience Manager {#audience-manager-product-documentation}
 
-Dieses Handbuch bietet Hilfe zur Selbsthilfe für Audience Manager - einen branchenführenden Service für Online-Audience-Data Management. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
+Dieser Leitfaden bietet Hilfe zur Selbsthilfe für Audience Manager - ein branchenführender Dienst für Online-Audience-Data Management. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Werkzeuge zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 
 ## Verwenden des Handbuchs zur Produktdokumentation
 
@@ -27,14 +28,14 @@ Dieses Handbuch bietet Hilfe zur Selbsthilfe für Audience Manager - einen branc
 
 ## Lesen Sie diese Seite
 
-* Beginn, in dem Sie die Hauptfunktionen **von** Audience Manager im Abschnitt ansehen, um eine Momentaufnahme der Probleme zu erhalten, die Sie mit Audience Manager lösen können. Siehe auch Übersicht über [Audience Manager](/help/using/overview/aam-overview.md) und kehren Sie dann zu dieser Seite zurück.
-* Lesen Sie als Nächstes **Erste Schritte mit Audience Manager** , um sich mit Audience Manager-Konzepten vertraut zu machen. Lesen Sie auch die Leitfäden zur geschäftlichen und technischen Implementierung.
-* Lesen Sie die neuesten Versionshinweise zu Audience Manager und lesen Sie die neuesten Funktionen im Abschnitt **Versionshinweise und neueste Funktionen**.
-* Schließlich können Sie weitere Experience Cloud-Ressourcen wie Foren, Videolehrgänge, persönliche und Online-Schulungen im Abschnitt **Lernzentrum - Empfohlener Audience-Manager und Experience Cloud-Ressourcen** erkunden.
+* Beginn, indem Sie die Hauptfunktion **des Abschnitts** Audience Manager für eine Momentaufnahme der Probleme, die Audience Manager Ihnen bei der Lösung helfen können, überprüfen. Siehe auch Übersicht über den [Audience Manager](/help/using/overview/aam-overview.md) und kehren Sie dann zu dieser Seite zurück.
+* Lesen Sie als Nächstes **Erste Schritte mit Audience Manager** , um sich mit den Konzepten des Audience Managers vertraut zu machen. Lesen Sie auch die Leitfäden zur geschäftlichen und technischen Implementierung.
+* Lesen Sie die Versionshinweise zu den neuesten Audience Managern und lesen Sie die neuesten Funktionen im Abschnitt **Versionshinweise und neueste Funktionen**.
+* Im Bereich **Lernzentrum - Empfohlene Audience Manager- und Experience Cloud-Ressourcen** können Sie weitere Ressourcen zum Experience Cloud wie Foren, Videolehrgänge, persönliche und Online-Schulungen erkunden.
 
 <br> 
 
-## Hauptfunktionen von Audience Manager
+## Hauptfunktion des Audience Managers
 
 <table>
    <td>
@@ -78,7 +79,7 @@ Dieses Handbuch bietet Hilfe zur Selbsthilfe für Audience Manager - einen branc
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Wichtige Konzeptdokumentation</b></p>
-   <p>Auf den folgenden Seiten erhalten Sie ein tiefergehendes Verständnis der Konzepte von Audience Manager: 
+   <p>Auf den folgenden Seiten erhalten Sie ein tiefergehendes Verständnis der Konzepte des Audience Managers: 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Übersicht über Audience Manager</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Signale, Eigenschaften und Segmente</a></li><li><a href="/help/using/reference/aam-glossary.md"> Glossar</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Index der IDs</a></li></ul></p>
    <br> 
    <p><b>Audience Manager implementieren</b></p>
@@ -92,8 +93,8 @@ Dieses Handbuch bietet Hilfe zur Selbsthilfe für Audience Manager - einen branc
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Erste Schritte mit REST-APIs</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Erste Schritte mit der DCS API</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Hinzufügen der Audience Manager-Erweiterung auf Adobe Experience Platform Launch</a></li>
-    <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Hinzufügen Audience Manager für Ihre App</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Hinzufügen der Erweiterung des Audience Managers auf Adobe Experience Platform Launch</a></li>
+    <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Hinzufügen Audience Manager zur App</a></li>
      </ul> </p>
     </td>
 
@@ -159,9 +160,9 @@ Dieses Handbuch bietet Hilfe zur Selbsthilfe für Audience Manager - einen branc
      <br> 
      <p> <b>Neueste Funktionen</b> </p> <p> 
      Lesen Sie die neuesten Audience Manager-Funktionen:</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plugin für IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Prognostizierende Audiencen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivität</a></li>
+     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Prognostizierende Audiencen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivität</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA) - Überarbeitung der Support- und Datenschutzdokumentation</a></li>
-     <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligente Recommendations für Audience Marketplace-Daten, powered by Adobe Sensei</a></li>
+     <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligente Empfehlungen für Audience Marketplace-Daten, powered by Adobe Sensei</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Verbesserungen an Profil Merge Rules</a></li></ul><p>
     </td>
   </tr> 
@@ -189,7 +190,7 @@ Read about the latest Audience Manager features:
 
 <br> 
 
-## Learning Center - Empfohlene Audience Manager- und Experience Cloud-Ressourcen
+## Lernzentrum - Empfohlene Audience Manager- und Experience Cloud-Ressourcen
 
 
 <table> 
@@ -197,11 +198,11 @@ Read about the latest Audience Manager features:
   <tr> 
    <td colname="col2"> 
      <p> <b>Experience Cloud-Ressourcen</b> </p>
-     <p>Besuchen Sie die unten stehenden Links, um sich mit anderen Audience-Manager-Kunden in Community-Foren zu verbinden, Ansichten-Lernvideos zu unseren Funktionen zu erhalten oder Probleme im Learning &amp; Support Center zu beheben.</p>
+     <p>Besuchen Sie die unten stehenden Links, um sich mit anderen Audience Manager in Community-Foren zu verbinden, Ansichten-Lernvideos zu unseren Funktionen zu erhalten oder Probleme im Learning &amp; Support Center zu beheben.</p>
      <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
-      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Community-Foren von Audience Manager</a> </li>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Tutorials zu Audience Manager</a> </li> 
+      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Community-Foren für Audience Manager</a> </li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager-Lernprogramme</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe Datenschutzcenter</a> </li>  
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe-Schulungen und -Zertifizierungen</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud-Produktdokumentation - Startseite</a> </li> 
