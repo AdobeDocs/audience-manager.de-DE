@@ -5,8 +5,9 @@ seo-title: Überschneidungsbericht zwischen Segmenten
 solution: Audience Manager
 title: Überschneidungsbericht zwischen Segmenten
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 3%
@@ -20,7 +21,7 @@ Gibt Daten darüber zurück, wie viele Unique Users für Ihre Segmente freigegeb
 
 >[!NOTE]
 >
->Die Überschneidungsberichte im Audience Manager folgen den RBAC-Grundsätzen. Sie können nur Segmente aus Datenquellen sehen, auf die Sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) , der Sie angehören.
+>Die Überschneidungsberichte in Audience Manager folgen den RBAC-Grundsätzen. Sie können nur Segmente aus Datenquellen sehen, auf die Sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) , der Sie angehören.
 
 <!-- 
 
@@ -64,11 +65,11 @@ Das Popup für den [!UICONTROL Segment-to-Segment Overlap] Bericht enthält die 
 | **[!UICONTROL Base Segment ID]** | Eindeutige numerische ID für das Segment, das in den Berichtsergebnissen angezeigt wird. Erscheint als Zeilen-ID für das Segment. |
 | **[!UICONTROL Base Segment Name]** | Name des Segments, das in der Berichtsergebniszeile angezeigt wird. |
 | **[!UICONTROL Overlapping Segment ID]** | Eindeutige numerische ID für das Segment, das Sie beim Ausführen des Berichts auswählen. Erscheint als Spalte-ID für das Segment. |
-| **[!UICONTROL Overlapping Segment Name]** | Name des Segments, das Sie beim Ausführen des Berichts auswählen. Wird in der Berichtsergebnisspalte angezeigt. |
+| **[!UICONTROL Overlapping Segment Name]** | Name des Segments, das Sie beim Ausführen des Berichts auswählen. Erscheint in der Berichtsergebnisspalte. |
 | **[!UICONTROL Base Segment Uniques]** | Die Anzahl der individuellen Besucher in Ihrem Basissegment. |
 | **[!UICONTROL Base Segment Uniques]** | Die Anzahl der individuellen Besucher im sich überschneidenden Segment. |
 | **[!UICONTROL Overlapping Uniques]** | Die Anzahl der eindeutigen Besucher, die zwischen den Vergleichssegmenten freigegeben wurden. |
-| **[!UICONTROL Overlap %]** | Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel: Überschneidende individuelle Elemente / (Basis-Segment-Uniques + Überschneidende Segment-Uniques - Überschneidende Uniques) |
+| **[!UICONTROL Overlap %]** | Um die Überschneidung in % zu erhalten, verwendet Audience Manager die folgende Formel: Überschneidende individuelle Elemente / (Basis-Segment-Uniques + Überschneidende Segment-Uniques - Überschneidende Uniques) |
 
 
 
@@ -78,5 +79,5 @@ Das Popup für den [!UICONTROL Segment-to-Segment Overlap] Bericht enthält die 
 >* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Berichtssymbole und -werkzeuge erläutert](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Überschneidungsberichte: Zeitplan und Mindestsegmentgröße aktualisieren](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben und Fehlerquoten in ausgewählten Audiencen-Manager-Berichten...](../../reporting/report-sampling.md)
+>* [Datenstichproben und Fehlerquoten in den Berichten zu ausgewählten Audience Managern...](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)
