@@ -1,19 +1,23 @@
 ---
-description: Hier finden Sie einige allgemeine Herausgeberanforderungen, die von Adobe Audience Manager erfüllt werden.
-seo-description: Hier finden Sie einige allgemeine Herausgeberanforderungen, die von Adobe Audience Manager erfüllt werden.
+description: Ein Blick auf einige allgemeine Herausgeberanforderungen erfüllt durch Adobe Audience Manager.
+seo-description: Ein Blick auf einige allgemeine Herausgeberanforderungen erfüllt durch Adobe Audience Manager.
 seo-title: Anwendungsfälle für Herausgeber
 solution: Audience Manager
 title: Anwendungsfälle für Herausgeber
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
+feature: reference
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 2%
 
 ---
 
 
 # Anwendungsfälle für Herausgeber{#publisher-use-cases}
 
-Hier finden Sie einige allgemeine Herausgeberanforderungen, die von Adobe Audience Manager erfüllt werden.
+Ein Blick auf einige allgemeine Herausgeberanforderungen erfüllt durch Adobe Audience Manager.
 
 <!-- 
 
@@ -33,18 +37,18 @@ c_pub_use_case.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Erstellen Sie ein einzelnes Repository, das Ihnen einen Überblick über alle Ihre Audiencen und Datenpunkte bietet. Dazu gehören Informationen wie das Site-Verhalten (potenziell aus Analytics), Anzeigenimpressionen, Offline-Registrierungsdatenbanken, CRM-Datenbanken, Videokonsum, E-Mail-Initiativen und Promotions. </p> </td> 
+   <td colname="col1"> <p>Erstellen Sie ein einzelnes Repository, das Ihnen einen Überblick über alle Ihre Audiencen und Datenpunkte bietet. Dazu gehören Informationen wie Site-Verhalten (potenziell von Analytics), Display-Impressionen, Offline-Registrierungsdatenbanken, CRM-Datenbanken, Videokonsum, E-Mail-Initiativen und Promotions. </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_FB6683152C7D4D65AF951BA55E123427"> 
-      <li id="li_45C12198EDDE4107AE59947BBAA51A60">Entdecken Sie Audiencen, führen Sie intelligentere Anzeigen- oder Vertriebs-Campaign aus und verwalten Sie Kundeneinblicke. </li> 
+      <li id="li_45C12198EDDE4107AE59947BBAA51A60">Entdecken Sie Audiencen, führen Sie intelligentere Anzeigen- oder Vertriebslösungen aus und verwalten Sie Kundeneinblicke. </li> 
       <li id="li_53727E7A3D494299B4631439612AC226">Aggregat-bezogene Kundeneinblicke über all Ihre Kanal hinweg. </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Ermöglicht es Ihrem Ad Sales Research-Team, Herausgeber-Audiencen-Profil zu monetarisieren, und hebt "Do it self"-Enthusiasten hervor, die für ein bevorstehendes Home Depot-Campaign relevant sind. </p> </td> 
+   <td colname="col3"> <p>Ermöglicht es Ihrem Ad Sales Research-Team, Herausgeber-Audience-Profil zu monetarisieren, und hebt "Do it self"-Enthusiasten hervor, wie es für eine kommende Home Depot-Kampagne relevant ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Erstellen von Segmenten für die Audience von Werbeanzeigen mit Analysedaten von Erstanbietern**
+**Erstellen von Segmenten für die Audience von Werbeanzeigen mit Analytics-Daten von Erstanbietern**
 
 <table id="table_EE77D9F5BAD1473C8E058EE778AF2C3F"> 
  <thead> 
@@ -88,9 +92,9 @@ c_pub_use_case.xml
    <td colname="col2"> <p><span class="keyword"> Die Echtzeit-Analyse von Audience Manager</span>hilft, die Erkennbarkeit von Audiencen zu verbessern, wodurch das Onsite-Erlebnis durch die Bereitstellung relevanter, personalisierter Inhalte verbessert wird. </p> <p>Dadurch erhalten Sie die Möglichkeit, Ihre Premium-Audience-Produkte um die Personalisierung von Inhalten als Zeileneintrag zu ergänzen. </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EEED2DAD504C486F8C00992219C893F7"> 
-      <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics stellt Erstanbieter-Daten zum Interesse der Audience an Reiseinhalten bereit. Erstellen Sie auf der Grundlage dieser Informationen ein Segment mit dem Namen "Reisende". </li> 
-      <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3">Integrieren Sie <span class="keyword"> Audience Manager</span> in ein System wie Adobe CQ, um Campaign zur Inhaltsperformalisierung zu verwalten. </li> 
-      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">Zielgruppe des Reisesegments an eine Fluglinie, ein Hotel oder einen Gastfreundschaftswerber, um die Anzeigeneinnahmen aus Ihrem Bestand zu verbessern. </li> 
+      <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics stellt Erstanbieterdaten zum Interesse der Audience an Reiseinhalten bereit. Erstellen Sie auf der Grundlage dieser Informationen ein Segment mit dem Namen "Reisende". </li> 
+      <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3">Integrieren Sie <span class="keyword"> Audience Manager</span> in ein System wie Adobe CQ, um Kampagnen zur Personalisierung von Inhalten zu verwalten. </li> 
+      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">Target des Reisesegments an eine Fluglinie, ein Hotel oder einen Gastfreundschaftswerber, um die Anzeigeneinnahmen aus Ihrem Bestand zu verbessern. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -115,7 +119,7 @@ Dieser Anwendungsfall funktioniert mit Analytics-Daten von Erstanbietern, die an
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">Erstellen Sie ein Segment "Einkommenssteuerforscher". </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Ausrichten des an Turbo Tax verkauften On-side-Campaigns mit einem Offsite-Reichweitenerweiterungs-Campaign über ein DSP wie Adobe Advertising Cloud. </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Ausrichten der an Turbo Tax verkauften On-side-Kampagne mit einer Offsite-Reichweitenerweiterung über ein DSP wie Adobe Advertising Cloud. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -137,7 +141,7 @@ Die Dokumentation zu [Modellen](../features/algorithmic-models/understanding-mod
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_6B69497AA7F543249FF820B1D5DC604F"> 
-      <li id="li_7022E99BC3C6475988B8424528A221A8">Nutzen Sie Site-Verhalten, Offlinedaten, Drittanbieter-Daten und Campaign-Metriken, um wertvolle Audiencen-Profil zu erstellen. </li> 
+      <li id="li_7022E99BC3C6475988B8424528A221A8">Nutzen Sie Site-Verhalten, Offlinedaten, Drittanbieter-Daten und Kampagnen-Metriken, um wertvolle Audiencen-Profil zu erstellen. </li> 
       <li id="li_DBD50B14B3D34D9AB72C42E245406FE8">Modellieren Sie diese Segmente mit anderen Datenquellen, um die Reichweite zu erhöhen. </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p> 
@@ -149,7 +153,7 @@ Die Dokumentation zu [Modellen](../features/algorithmic-models/understanding-mod
      <ul id="ul_51091241D6B94A849A383538045D797C"> 
       <li id="li_88798E58BA574FA196CFC02C9C55A293">Identifizieren Sie "Xbox-Gamer"in Ihrer Kundendatenbank. </li> 
       <li id="li_1136BBC68C8242CE9F116F2C70A4C164">Führen Sie ein aussehendes Modell aus, um die einflussreichsten Benutzer in diesem Segment zu finden und zu identifizieren. </li> 
-      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">Zielgruppe dieser Segmente zur Optimierung der Onsite-Display-Werbung mit Test&amp;Zielgruppe. </li> 
+      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">Target dieser Segmente zur Optimierung der Onsite-Display-Werbung mit Test&amp;Target. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -171,7 +175,7 @@ Die Dokumentation zu [Modellen](../features/algorithmic-models/understanding-mod
      <ul id="ul_DB5B31FB1C7D4D36B9C32912921B39B5"> 
       <li id="li_7B750D619A8F40329B027559DDC5CFB0">Kombinieren Sie Erstanbieter- und Drittanbieter-Daten, um relevantere, umsetzbare Segmente für die Audience zu erstellen. </li> 
       <li id="li_E0BC69F4F1BC4A2FA8B1807815072642">Verpacken und verkaufen Sie erweiterte Segmente an Werbetreibende, die nach bestimmten demografischen Merkmalen wie Alter, Geschlecht, Einkommen usw. suchen. </li> 
-      <li id="li_87FD5150D9F74FC9973FECD5DA363C34">Erstellen Sie die richtigen Segmente für Anzeigenverkäufe für jede beliebige Campaign-Strategie. </li> 
+      <li id="li_87FD5150D9F74FC9973FECD5DA363C34">Erstellen Sie die richtigen Segmente für Anzeigenverkäufe für jede Kampagne. </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_9AABE5394A2B4352A9A368C3F887F583"> 
