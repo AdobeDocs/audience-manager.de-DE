@@ -1,25 +1,29 @@
 ---
-description: Wir verwenden keinen Audience Manager, aber es werden Audience Manager-Javascript-Aufrufe im Javascript-Debugger angezeigt - Warum?
+description: Wir verwenden keinen Audience Manager, aber wir sehen Audience Manager Javascript-Aufrufe im Javascript-Debugger - Warum?
 seo-description: Wir verwenden nicht, aber wir sehen Audience Manager Javascript-Aufrufe im Javascript-Debugger - Warum?
-seo-title: Wir verwenden keinen Audience Manager, aber es werden Audience Manager-Javascript-Aufrufe im Javascript-Debugger angezeigt - Warum?
+seo-title: Wir verwenden keinen Audience Manager, aber wir sehen Audience Manager Javascript-Aufrufe im Javascript-Debugger - Warum?
 solution: Audience Manager
-title: Wir verwenden keinen Audience Manager, aber es werden Audience Manager-Javascript-Aufrufe im Javascript-Debugger angezeigt - Warum?
+title: Wir verwenden keinen Audience Manager, aber wir sehen Audience Manager Javascript-Aufrufe im Javascript-Debugger - Warum?
+feature: support
 translation-type: tm+mt
-source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 1%
 
 ---
 
 
-# Wir sind kein Audience Manager-Kunde, aber sehen Sie sich die Audience Manager JavaScript-Aufrufe auf unserer Site an.
+# Wir sind kein Audience Manager-Kunde, aber sehen Sie sich die Audience Manager Javascript-Aufrufe auf unserer Website.
 
 ## Frage
 
-Adobe Audience Manager wird nicht verwendet, aber im Javascript-Debugger werden JavaScript-Aufrufe von Audience Manager angezeigt.
+Wir verwenden keinen Adobe Audience Manager, aber wir sehen Audience Manager-Javascript-Aufrufe im Javascript-Debugger.
 
 Warum geschieht das?
 
 ## Antwort
 
-Es ist wahrscheinlich, dass Sie den [Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) für Ihre Eigenschaft ausführen. Ist dies der Fall, bezieht sich der Verweis auf Audience Manager nicht unbedingt auf die Eigenschaft, die Audience Manager ausführt. Stattdessen bedeutet dies, dass Audience Manager diesen Dienst aktiviert.
+Es ist wahrscheinlich, dass Sie den [Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) für Ihre Eigenschaft ausführen. Ist dies der Fall, bezieht sich der Verweis auf diesen Audience Manager nicht unbedingt auf die Eigenschaft, die Audience Manager ausführt. Stattdessen bedeutet es, dass Audience Manager diesen Dienst antreibt.
 
-Der Audience Manager-Serveraufruf wird normalerweise zur [Synchronisierung von Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)durchgeführt.
+Der Audience Manager-Server-Aufruf wird in der Regel zur [Synchronisierung von Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)durchgeführt.
