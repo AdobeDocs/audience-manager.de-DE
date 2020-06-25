@@ -5,8 +5,12 @@ seo-title: 'Bericht zur optimalen Häufigkeit '
 solution: Audience Manager
 title: 'Bericht zur optimalen Häufigkeit '
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 69b8464dad7918d9f0dd0c5570c1d84f7f8e4c2b
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +25,7 @@ Das Konversionsvolumen sinkt normalerweise mit höheren Impressionsfrequenzbehä
 
 Die Gesamtumrechnungsrate steigt jedoch mit jedem Impressionsfrequenzbehälter. Mit jedem Behälter werden mehr Konvertierungen generiert, sodass die Summe der Konversionen (der Zähler) der Gesamtanzahl der möglichen Konversionen (der Nenner) nähert und somit der Prozentsatz steigt.
 
-Wie im Beispielbericht dargestellt, bietet der Schnittpunkt der 2-zeiligen Ausschnitte einen Leitfaden zur &quot;optimalen&quot;Impressionsfrequenz, d. h. zur optimalen Anzahl der zu bedienenden Impressionen, bevor der Kunde mit der Feststellung sinkender Erträge beginnt.
+Wie im Beispielbericht dargestellt, bietet der Schnittpunkt der 2-zeiligen Ausschnitte einen Leitfaden zur &quot;optimalen&quot;Impressionsfrequenz, d. h. zur optimalen Anzahl der zu bedienenden Impressionen, bevor die Beginn den Rückgang der Renditen erkennen.
 
 ## Beispielbericht
 
