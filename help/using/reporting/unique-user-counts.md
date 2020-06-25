@@ -5,8 +5,12 @@ seo-title: Zählung individueller Benutzer in Überschneidungen und allgemeinen 
 solution: Audience Manager
 title: Zählung individueller Benutzer in Überschneidungen und allgemeinen Berichten
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +35,7 @@ Die Überschneidungsberichte zählen Benutzer als eindeutig, wenn sie sich für 
 
 ## Allgemeiner Bericht: Individuelle Benutzeranzahl
 
-Der Bericht "Allgemein"zählt Sitebesucher als eindeutig, wenn sie sich im ausgewählten Zeitraum für die Eigenschaft qualifiziert haben.
+Der Bericht &quot;Allgemein&quot;zählt Site-Besucher als eindeutig, wenn sie sich im ausgewählten Zeitraum für die Eigenschaft qualifiziert haben.
 
 >[!MORELIKETHIS]
 >
