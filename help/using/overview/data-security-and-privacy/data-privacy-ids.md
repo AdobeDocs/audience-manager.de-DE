@@ -1,24 +1,28 @@
 ---
 description: Dieses Dokument behandelt die Typen von Audience Manager-IDs, die Sie in Datendatenschutzanforderungen verwenden können.
 seo-description: Dieses Dokument behandelt die Typen von Audience Manager-IDs, die Sie in Datendatenschutzanforderungen verwenden können.
-seo-title: Audience Manager-IDs
+seo-title: Audience Manager-IDs (IDs)
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
-title: Audience Manager-IDs
+title: Audience Manager-IDs (IDs)
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 10%
 
 ---
 
 
-# Audience Manager-IDs {#aam-ids}
+# Audience Manager-IDs (IDs) {#aam-ids}
 
-Bei der Übermittlung von [Datenschutzanforderungen](data-privacy-requests.md) an Adobe Audience Manager müssen Sie eine der unten aufgeführten IDs (IDs) angeben. Weitere Informationen zu den ID-Formaten finden Sie in unserem [Index der Audience Manager-IDs](../../reference/ids-in-aam.md).
+Bei der Übermittlung von [Datendatenschutzanforderungen](data-privacy-requests.md) an Adobe Audience Manager müssen Sie eine der unten aufgeführten IDs (IDs) angeben. Weitere Informationen zu den ID-Formaten finden Sie in unserem [Index der Audience Manager-IDs](../../reference/ids-in-aam.md).
 
-## Adobe Audience Manager Unique User ID
+## Individuelle Benutzer-ID des Adobe Audience Managers
 
 * **Benutzer-ID**: `aam_uuid`
-* **Definition**: Adobe Audience Manager Unique User ID
+* **Definition**: Individuelle Benutzer-ID des Adobe Audience Managers
 * **Namensraum-ID**: 0
 
 **JSON-Beispiel**:
@@ -183,7 +187,7 @@ Weitere Informationen finden Sie unter [Globale Datenquellen](../../features/glo
 
 >[!IMPORTANT]
 >
-> Wenn Sie Mobile verwenden, [!DNL SDK]sollten Sie außerdem die Experience Cloud ID (`MID`) zusammen mit mobilen Anzeigen-IDs senden, um vollständige Antworten auf die Fragen &quot;Zugriff&quot;und &quot;Löschen&quot;zu erhalten.
+> Wenn Sie das Mobilgerät verwenden [!DNL SDK]sollten Sie außerdem die Experience Cloud-ID (`MID`) zusammen mit mobilen Anzeigen-IDs senden, um vollständige Antworten auf &quot;Zugriff&quot;und &quot;Löschen&quot;zu erhalten.
 
 **JSON-Beispiel**:
 
