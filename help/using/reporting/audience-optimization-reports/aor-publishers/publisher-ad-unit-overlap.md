@@ -5,8 +5,12 @@ seo-title: Überschneidung der Anzeigeneinheit
 solution: Audience Manager
 title: Überschneidung der Anzeigeneinheit
 uuid: e4467e81-acbf-474e-b501-89d57395651f
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
@@ -17,19 +21,19 @@ Der **[!UICONTROL Ad Unit Overlap]** Bericht wird als Heat-Diagramm angezeigt, d
 
 ## Nutzungsszenario {#use-cases}
 
-Mit dem **[!UICONTROL Ad Unit Overlap]** Bericht erhalten Sie einen Einblick, wo sich Ihre Zielgruppe über Ihre Webeigenschaften hinweg überschneidet. Der Bericht berücksichtigt Ihre 100 wichtigsten Eigenschaften und zeigt die Überschneidung zwischen ihnen.
+Mit dem **[!UICONTROL Ad Unit Overlap]** Bericht erhalten Sie einen Einblick, wo sich Ihre Audience über Ihre Webeigenschaften hinweg überschneidet. Der Bericht berücksichtigt Ihre 100 wichtigsten Eigenschaften und zeigt die Überschneidung zwischen ihnen.
 
 ## Verwenden des Überschneidungsberichts für die Anzeigeneinheit {#using-the-report}
 
 Verwenden Sie die **[!UICONTROL Top N Base Ad Units]** und **[!UICONTROL Top N Overlapping Ad Units]** -Steuerelemente, um die gewünschte Anzahl von Anzeigeneinheiten für die Überschneidung auszuwählen. Sie können jeweils maximal 100 Elemente auswählen.
 
-Passen Sie den **Rückblickbereich** mit den Steuerelementen **"Zeitraum bis** Ende"an. Beachten Sie, dass die 7- und 30-Tage-Rückblickzeit nur für Sonntagsdaten verfügbar ist.
+Passen Sie den **Rückblickbereich** mit den Steuerelementen **&quot;Zeitraum bis** Ende&quot;an. Beachten Sie, dass die 7- und 30-Tage-Rückblickzeit nur für Sonntagsdaten verfügbar ist.
 
 Verwenden Sie die Steuerelemente **[!UICONTROL Base Ad Unit]** und **[!UICONTROL Overlap Ad Unit]** wählen Sie aus, welche Ihrer Anzeigeneinheiten im Überschneidungsbericht angezeigt werden sollen.
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs]angeben, wie in Schritt 3 des [Imports von DFP-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Ad Unit] anstelle der [!UICONTROL Ad Unit ID]Eigenschaft detailliert beschreibt.
+>Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs]angeben, wie in Schritt 3 von &quot;DFP-Datendateien in Audience Manager [importieren&quot;beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Ad Unit] anstelle der [!UICONTROL Ad Unit ID]Eigenschaft detailliert beschreibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
@@ -67,7 +71,7 @@ Ihr [!UICONTROL Ad Unit Overlap] Bericht könnte dem unten stehenden ähneln. Be
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Überschneidungsprozentsatz</span> </p> </td> 
-   <td colname="col2"> <p>Die Überschneidung zwischen Ihren Benutzern, die eine <span class="wintitle"> Basis-Anzeigeneinheit</span> und <span class="wintitle"> Überschneidungsanzeigeeinheit</span>besucht haben. Dies ist die Anzahl<span class="wintitle">der </span> individuellen Überschneidungen, ausgedrückt als Prozentsatz der <span class="wintitle"> Basis-Anzeigeneinheit</span>. </p> </td> 
+   <td colname="col2"> <p>Die Überschneidung zwischen Ihren Benutzern, die eine <span class="wintitle"> Basis-Anzeigeneinheit</span> und <span class="wintitle"> Überschneidungsanzeigeeinheit</span>besucht haben. Dies ist die Anzahl <span class="wintitle"> der</span>individuellen Überschneidungen, ausgedrückt als Prozentsatz der <span class="wintitle"> Basis-Anzeigeneinheit</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
