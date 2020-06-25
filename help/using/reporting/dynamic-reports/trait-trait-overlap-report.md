@@ -5,8 +5,12 @@ seo-title: Überschneidungsbericht zwischen Eigenschaften
 solution: Audience Manager
 title: Überschneidungsbericht zwischen Eigenschaften
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 2%
 
 ---
 
@@ -29,8 +33,8 @@ c_overlap_reports.xml
 
 Der [!UICONTROL Trait-to-Trait Overlap] Bericht gibt Daten zu dem Prozentsatz der Unique Users zurück, die für alle Ihre eigenen Eigenschaften und Eigenschaften von Drittanbietern freigegeben wurden. Als Optimierungstool hilft Ihnen dieser Bericht:
 
-* Erstellen Sie Segmente mit hoher oder niedriger Überschneidung, je nach Bedarf. Eigenschaften mit hoher Überschneidung geben Ihnen eine zielgerichtete Zielgruppe, aber weniger individuelle Besucher. Eigenschaften mit geringer Überschneidung können nützlich sein, um einen größeren, individuellen Besuchersatz zu erreichen.
-* Validieren von Drittanbieter-Eigenschaftendaten: Eine starke Überschneidung ähnlicher Eigenschaften von Erstanbietern und Drittanbietern deutet darauf hin, dass die Eigenschaften Ihres Datenpartners korrekt und vertrauenswürdig sind. Umgekehrt kann eine geringe Überschneidung darauf hindeuten, dass eine Eigenschaft eines Drittanbieters möglicherweise nicht die gleichen Informationen wie Ihre eigene, ähnliche Eigenschaft eines Erstanbieters enthält.
+* Erstellen Sie Segmente mit hoher oder niedriger Überschneidung, je nach Bedarf. Eigenschaften mit hoher Überschneidung geben Ihnen eine zielgerichtete Audience, aber weniger individuelle Besucher. Eigenschaften mit geringer Überschneidung können nützlich sein, um einen größeren, eindeutigen Besucher zu erreichen.
+* Validieren von Drittanbieter-Eigenschaftendaten: Eine starke Überschneidung von ähnlichen Eigenschaften von Erstanbietern und Drittanbietern deutet darauf hin, dass die Eigenschaften Ihres Datenpartners korrekt und vertrauenswürdig sind. Umgekehrt kann eine geringe Überschneidung darauf hindeuten, dass eine Eigenschaft eines Drittanbieters möglicherweise nicht die gleichen Informationen wie Ihre eigene, ähnliche Eigenschaft eines Erstanbieters enthält.
 * Finden Sie unerwartete Überschneidungen zwischen Eigenschaften und verwenden Sie diese Informationen, um innovative Segmente zu erstellen.
 
 ## Beispielbericht
@@ -45,11 +49,11 @@ Die folgende Abbildung zeigt einen Überblick über die Elemente im [!UICONTROL 
 
 ## Drilldown für einzelne Datenpunkte
 
-Wählen Sie einen einzelnen Punkt aus, um die Datendetails in einem Popup-Fenster anzuzeigen. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
+Wählen Sie in einem Popup-Fenster einen individuellen Punkt für die Datendetails der Ansicht aus. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
 
 ## Eigenschaften-zu-Eigenschaften-Überschneidungsfelder für Popupfelder definiert {#field-definitions}
 
-Beschreibt die Metriken, die beim Klicken auf einen einzelnen Datenpunkt im Popup-Fenster angezeigt werden.
+Beschreibt die Metriken, die im Popup-Fenster angezeigt werden, wenn Sie auf einen einzelnen Datenpunkt klicken.
 
 <!-- 
 
@@ -57,7 +61,7 @@ r_t2t_data_pop.xml
 
  -->
 
-Das Popup für den [!UICONTROL Trait-to-Trait Overlap] Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik "Individuelle Werte"in der Tabelle Ihre *Echtzeit-Benutzer* darstellt.
+Das Popup für den [!UICONTROL Trait-to-Trait Overlap] Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik &quot;Individuelle Werte&quot;in der Tabelle Ihre *Echtzeit-Benutzer* darstellt.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
@@ -97,15 +101,15 @@ Das Popup für den [!UICONTROL Trait-to-Trait Overlap] Bericht enthält die folg
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Individuelle Überschneidungen</span></b> </td> 
-   <td colname="col2"> <p>Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel:</p> <p>Überschneidende individuelle Elemente / (Basiseigenschaftsmerkmale + Überschneidende Eigenschaftsmerkmale - Überschneidende individuelle Elemente)</p> </td> 
+   <td colname="col2"> <p>Um die Überschneidung in % zu erhalten, verwendet Audience Manager die folgende Formel:</p> <p>Überschneidende individuelle Elemente / (Basiseigenschaftsmerkmale + Überschneidende Eigenschaftsmerkmale - Überschneidende individuelle Elemente)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Überschneidende Eigenschaften</span></b> </td> 
-   <td colname="col2"> Die Anzahl der individuellen Besucher aus der überlappenden Eigenschaft. </td> 
+   <td colname="col2"> Die Anzahl der eindeutigen Besucher aus der überlappenden Eigenschaft. </td> 
   </tr> 
     <tr> 
-   <td colname="col1"><b><span class="wintitle"> Basiseigenschaftsvariablen</span></b> </td> 
-   <td colname="col2"> Die Anzahl der individuellen Besucher aus der Basiseigenschaft. </td> 
+   <td colname="col1"><b><span class="wintitle"> Basiseigenschaften - Individuelle Werte</span></b> </td> 
+   <td colname="col2"> Die Anzahl der eindeutigen Besucher aus der Basiseigenschaft. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -116,5 +120,5 @@ Das Popup für den [!UICONTROL Trait-to-Trait Overlap] Bericht enthält die folg
 >* [In dynamischen Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Berichtssymbole und -werkzeuge erläutert](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Überschneidungsberichte: Zeitplan und Mindestsegmentgröße aktualisieren](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben und Fehlerquoten in ausgewählten Audience Manager-Berichten...](../../reporting/report-sampling.md)
+>* [Datenstichproben und Fehlerquoten in den Berichten zu ausgewählten Audience Managern...](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)
