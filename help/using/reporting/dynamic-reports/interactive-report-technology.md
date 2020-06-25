@@ -5,8 +5,9 @@ seo-title: Berichttechnologie
 solution: Audience Manager
 title: Berichttechnologie
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: 1faafcda1060c1fab9de454976aac7cf191f456a
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -72,7 +73,7 @@ Die folgende Tabelle definiert die in den dynamischen Berichten verwendeten Form
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
      <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rote Farbtöne weisen auf eine <i>geringe</i> Überschneidung hin. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Farbtöne weisen auf eine <i>hohe</i> Überschneidung hin. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Schattierungen weisen auf eine <i>hohe</i> Überschneidung hin. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
