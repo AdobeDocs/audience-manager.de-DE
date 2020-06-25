@@ -1,11 +1,15 @@
 ---
-description: In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager die verschiedenen CCPA-Anforderungen erfüllt.
-seo-description: In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager die verschiedenen CCPA-Anforderungen erfüllt.
+description: Dieser Artikel erläutert die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) und wie Adobe Audience Manager die verschiedenen CCPA-Anforderungen angeht.
+seo-description: Dieser Artikel erläutert die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) und wie Adobe Audience Manager die verschiedenen CCPA-Anforderungen angeht.
 seo-title: CCPA-Glossar
 solution: Audience Manager
 title: CCPA-Glossar
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 0%
 
 ---
 
@@ -14,11 +18,11 @@ source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ## Überblick {#overview}
 
-In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager als Service Provider verschiedene CCPA-Anforderungen erfüllt.
+In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager als Dienstleister verschiedene CCPA-Anforderungen erfüllt.
 
-Das California Consumer Privacy Act (CCPA), das am 1. Januar 2020 in Kraft trat, bietet eine weitere Möglichkeit, Privatsphäre zu einem integrierten Bestandteil Ihrer Verbrauchererfahrung zu machen. Audience Manager nutzt die vorhandene Datenschutzinfrastruktur, um Sie bei der Verwendung von Audience Manager bei der Erfüllung Ihrer CCPA-Verpflichtungen zu unterstützen und so CCPA-bereit zu sein.
+Das California Consumer Privacy Act (CCPA), das am 1. Januar 2020 in Kraft trat, bietet eine weitere Möglichkeit, Privatsphäre zu einem integrierten Bestandteil Ihrer Verbrauchererfahrung zu machen. Audience Manager nutzt die vorhandene Infrastruktur zum Schutz der Privatsphäre, um Ihnen bei der Erfüllung Ihrer CCPA-Verpflichtungen zu helfen, wenn Sie Audience Manager verwenden, sodass Sie CCPA bereit sind.
 
-Audience Manager freut sich darauf, mit Ihnen zusammenzuarbeiten, wenn Sie neue Verpflichtungen durch die Verwendung unserer Datenverwaltung und Datenschutz durch Designfunktionen angehen.
+Audience Manager freut sich auf Ihre Partnerschaft, wenn Sie neue Verpflichtungen durch die Verwendung unserer Datenverwaltung und Datenschutz durch Designfunktionen angehen.
 
 ## CCPA-Glossar {#CCPA-glossary}
 
@@ -40,11 +44,11 @@ Lernen Sie die Schlüsselbegriffe kennen, die im Zusammenhang mit CCPA verwendet
 
  
 
-**Service Provider**: eine alleinige Eigentümerin, Personengesellschaft, Gesellschaft mit beschränkter Haftung, Gesellschaft, Vereinigung oder andere juristische Person, die zum Gewinn oder finanziellen Nutzen ihrer Aktionäre oder sonstigen Eigentümer organisiert oder betrieben wird, die Informationen im Namen eines Unternehmens verarbeitet und an die das Unternehmen die personenbezogenen Daten eines Verbrauchers für einen Geschäftszweck gemäß einem schriftlichen Vertrag weitergibt, sofern der Vertrag dem Unternehmen, das die Informationen erhält, untersagt, die personenbezogenen Daten für andere Zwecke als für die Zwecke zu speichern, zu verwenden der besondere Zweck der Erbringung der im Vertrag für das Unternehmen genannten Dienstleistungen oder, soweit dieser Titel dies anderweitig zulässt, einschließlich der Speicherung, Verwendung oder Offenlegung der personenbezogenen Daten für einen anderen gewerblichen Zweck als die Erbringung der im Vertrag mit dem Unternehmen genannten Dienstleistungen.
+**Dienstleister**: eine alleinige Eigentümerin, Personengesellschaft, Firma über beschränkte Haftung, Gesellschaft, Vereinigung oder andere juristische Person, die zum Gewinn oder finanziellen Nutzen ihrer Aktionäre oder sonstigen Eigentümer organisiert oder betrieben wird, die Informationen im Namen eines Unternehmens verarbeitet und an die das Unternehmen die personenbezogenen Daten eines Verbrauchers für einen Geschäftszweck gemäß einem schriftlichen Vertrag weitergibt, sofern der Vertrag dem Unternehmen, das die Informationen erhält, untersagt, die personenbezogenen Daten für andere Zwecke als für andere Zwecke zu speichern, zu verwenden der besondere Zweck der Erbringung der im Vertrag für das Unternehmen genannten oder anderweitig durch diesen Titel zugelassenen Dienstleistungen, einschließlich der Speicherung, Verwendung oder Offenlegung der personenbezogenen Daten für einen anderen gewerblichen Zweck als die Erbringung der im Vertrag mit dem Unternehmen genannten Dienstleistungen.
 
  
 
-**Eindeutiger Bezeichner/Eindeutiger persönlicher Bezeichner**: eine beständige Kennung, die verwendet werden kann, um einen Verbraucher, eine Familie oder ein Gerät, das mit einem Verbraucher oder einer Familie verbunden ist, über einen bestimmten Zeitraum und über verschiedene Dienste hinweg zu erkennen, einschließlich, aber nicht beschränkt auf eine Gerätekennung; eine Internet-Protokolladresse; Cookies, Beacons, Pixel-Tags, mobile Anzeigenkennungen oder ähnliche Technologien; Kundennummer, eindeutiges Pseudonym oder Benutzeralias; Telefonnummern oder andere Formen dauerhafter oder wahrscheinlicher Identifikatoren, die zur Identifizierung eines bestimmten Verbrauchers oder Geräts verwendet werden können.
+**Eindeutiger Bezeichner/Eindeutiger persönlicher Bezeichner**: eine beständige Kennung, die verwendet werden kann, um einen Verbraucher, eine Familie oder ein Gerät, das mit einem Verbraucher oder einer Familie verbunden ist, über einen bestimmten Zeitraum und über verschiedene Dienste hinweg zu erkennen, einschließlich, aber nicht beschränkt auf eine Geräte-ID; eine Internet-Protokolladresse; Cookies, Beacons, Pixel-Tags, mobile Anzeigenkennungen oder ähnliche Technologien; Kundennummer, eindeutiges Pseudonym oder Benutzeralias; Telefonnummern oder andere Formen dauerhafter oder wahrscheinlicher Identifikatoren, die zur Identifizierung eines bestimmten Verbrauchers oder Geräts verwendet werden können.
 
  
 
