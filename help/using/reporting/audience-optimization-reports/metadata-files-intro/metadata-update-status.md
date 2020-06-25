@@ -5,8 +5,12 @@ seo-title: Statusaktualisierungen für Metadatendateien
 solution: Audience Manager
 title: Statusaktualisierungen für Metadatendateien
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Der S3-Statusordner enthält eine `.info` Datei mit Erfolgs- und Fehlerinformationen zu den hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
 
-Der Inhalt Ihrer `.info` Datei sieht ähnlich aus wie in diesem Beispiel.
+Der Inhalt Ihrer `.info` Datei sieht in etwa wie in diesem Beispiel aus.
 
 ```js
 //sample file path
@@ -58,7 +62,7 @@ Der Inhalt Ihrer `.info` Datei sieht ähnlich aus wie in diesem Beispiel.
 
 ## Definierte Schlüssel-Wert-Paare für Metadaten {#key-value-pairs}
 
-In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und die Schlüssel in einer Metadaten-Statusdatei aufgelistet und definiert `Summary` .
+Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abschnitten `Files` und `Summary` Abschnitten einer Metadaten-Statusdatei.
 
 **Tasten im Dateiarray**
 
@@ -71,7 +75,7 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und die
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code>Beschreibung</code> </p> </td> 
+   <td colname="col1"> <p> <code> Description</code> </p> </td> 
    <td colname="col2"> <p>Enthält eine kurze Beschreibung, warum die Verarbeitung fehlgeschlagen ist. Dieses Feld ist leer, wenn die Verarbeitung erfolgreich war. </p> </td> 
   </tr> 
   <tr> 
@@ -80,26 +84,26 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und die
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Die MD5-Prüfsumme für die Metadatendatei, die in Ihren <code> Metadatenordner</code> hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>Die MD5-Prüfsumme für die in Ihr <code> meta</code> Verzeichnis hochgeladene Metadatendatei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Der Name der Metadatendatei, die in Ihren <code> Metadatenordner</code> hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>Der Name der Metadatendatei, die in Ihr <code> meta</code> Verzeichnis hochgeladen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Der lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungsregeln für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Übergeordnet</code> </p> </td> 
-   <td colname="col2"> <p>Der lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungsregeln für Metadatendateien</a>. </p> </td> 
+   <td colname="col1"> <p> <code> Parent</code> </p> </td> 
+   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
    <td colname="col2"> <p>Gibt 2 Textwerte zurück, die den Verarbeitungsstatus Ihrer Metadatendatei beschreiben: </p> 
     <ul id="ul_3814EBB6B42B4EB294B1ABA5782190B6"> 
-     <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> ERFOLG</code> </li> 
-     <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FEHLER</code> </li> 
+     <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCCESS</code> </li> 
+     <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FAILURE</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -116,15 +120,15 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und die
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Tag</code> </p> </td> 
-   <td colname="col2"> <p>Dateiverarbeitungsdatum im <code><i>Format yyyy-mm-dd</i></code> . </p> </td> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
+   <td colname="col2"> <p>Dateiverarbeitungsdatum im <code><i>yyyy-mm-dd</i></code> Format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
    <td colname="col2"> <p>Gibt 2 Textwerte zurück, die den Verarbeitungsstatus für alle Ihre Dateien für einen ganzen Tag beschreiben: </p> 
     <ul id="ul_3FC092CA043A486C9C79FECF71FAF8FB"> 
-     <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> ERFOLG</code> </li> 
-     <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FEHLER</code> </li> 
+     <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCCESS</code> </li> 
+     <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FAILURE</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -137,11 +141,11 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und die
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimeRFC2822</code> </p> </td> 
-   <td colname="col2"> <p>Gibt einen für Menschen lesbaren Zeitstempel für die Verarbeitung der Startzeiten zurück. </p> </td> 
+   <td colname="col2"> <p>Gibt einen für Menschen lesbaren Zeitstempel zur Verarbeitung der Beginn zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimePOSIX</code> </p> </td> 
-   <td colname="col2"> <p>Ein UNIX-Zeitstempel zur Verarbeitung der Startzeiten. </p> </td> 
+   <td colname="col2"> <p>Ein UNIX-Zeitstempel zur Verarbeitung der Beginn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
