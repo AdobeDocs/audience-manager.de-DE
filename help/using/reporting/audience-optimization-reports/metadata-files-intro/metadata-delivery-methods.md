@@ -1,12 +1,13 @@
 ---
-description: Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen Amazon S3-Ordner für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
-seo-description: Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen Amazon S3-Ordner für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+description: Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen speziellen Amazon S3-Ordner für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+seo-description: Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen speziellen Amazon S3-Ordner für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
 seo-title: Versand-Methoden für Metadatendateien
 solution: Audience Manager
 title: Versand-Methoden für Metadatendateien
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
+feature: log files
 translation-type: tm+mt
-source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen spezielle
 
 >[!IMPORTANT]
 >
-> Wenden Sie sich an Ihren Audience Manager-Berater oder an den Kundendienst, um einen [!DNL Amazon S3] Ordner für Ihre Metadatendateien einzurichten.
+> Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützung, um zu beginnen und einen [!DNL Amazon S3] Ordner für Ihre Metadatendateien einzurichten.
 
 ## Versand-Pfadsyntax und Beispiel {#syntax}
 
