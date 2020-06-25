@@ -4,8 +4,9 @@ seo-description: Adobe bietet Ihnen die Möglichkeit, die Datenschutzoptionen Ih
 seo-title: Audience Manager Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager Plug-In für IAB TCF
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 40e30379f051398a5f6c8ee7db49b6c5c5e146cd
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 7%
@@ -89,7 +90,7 @@ Die folgende Abbildung zeigt ein Beispiel für ein CMP-Dialogfeld, das einem ers
 
 Einzelheiten zu den verschiedenen Zwecken und Berechtigungen, die in der IAB TCF v2.0 enthalten sind, finden Sie in den Richtlinien des [IAB Europe Transparency &amp; Consent Framework](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
 
-Benutzer können ihre Einwilligung oder ihr berechtigtes Interesse (sofern verfügbar) für eine Kombination von Zwecken und Lieferanten gewähren. Beispielsweise könnten Benutzer ihre Zustimmung zur Speicherung von Informationen auf einem Gerät, zur Entwicklung und Verbesserung von Produkten und zur Erteilung ihrer Zustimmung an alle vom CMP angezeigten Drittanbieter erteilen.
+Benutzer können ihre Einwilligung oder ihr berechtigtes Interesse (sofern verfügbar) für eine Kombination von Zwecken und Lieferanten gewähren. Beispielsweise könnten Benutzer ihre Zustimmung zur Speicherung von Informationen auf einem Gerät, zur Entwicklung und Verbesserung von Produkten und ihre Zustimmung zu allen vom CMP angezeigten Drittanbietern erteilen.
 
 Oder in einem anderen Beispiel könnten sie ihre Zustimmung oder ihr berechtigtes Interesse für alle Zwecke erteilen, aber nur einigen Anbietern, die vom CMP gezeigt werden, Einwilligung oder berechtigtes Interesse erteilen.
 
