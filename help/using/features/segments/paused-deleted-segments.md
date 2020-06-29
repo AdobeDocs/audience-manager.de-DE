@@ -5,8 +5,12 @@ seo-title: Angehaltene und gelöschte Segmente
 solution: Audience Manager
 title: Angehaltene und gelöschte Segmente
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
+feature: Segments
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Beschreibt die Auswirkungen auf segmentierte Benutzer, Daten und Ziele, wenn Sie
 
 ## Zugriff auf die Steuerelemente zum Anhalten und Löschen
 
-Bewegen Sie den Mauszeiger über einen Segmentnamen in der Segmentliste, um die Symbole **[!UICONTROL pause]** und **[!UICONTROL delete]** Symbole (in der [!UICONTROL Actions] Spalte) anzuzeigen. Diese Funktionen wirken sich wie unten beschrieben auf Segmente aus.
+Bewegen Sie den Mauszeiger über einen Segmentnamen in der Liste &quot;segmente&quot;, um die Symbole **[!UICONTROL pause]** und **[!UICONTROL delete]** Symbole (in der [!UICONTROL Actions] Spalte) anzuzeigen. Diese Funktionen wirken sich wie unten beschrieben auf Segmente aus.
 
 ## Angehaltene Segmentfunktionalität
 
@@ -25,7 +29,7 @@ Ein angehaltenes (deaktiviertes) Segment:
 
 * Stoppt die Segmentierung neuer, qualifizierter Benutzer.
 * Behält den Segmentierungsstatus/die Mitgliedschaft eines Benutzers bei (entfernt keinen Benutzer aus dem Segment).
-* Verbleibt in der Segmentliste und kann reaktiviert werden.
+* Verbleibt in der Segment-Liste und kann reaktiviert werden.
 * Sendet keine Daten an verbundene Ziele.
 * Gibt Daten in den verfügbaren Berichten zurück (bis zum Deaktivierungsdatum).
 
@@ -35,7 +39,7 @@ Ein gelöschtes Segment:
 
 * Stoppt die Segmentierung neuer, qualifizierter Benutzer.
 * Entfernt qualifizierte Benutzer aus der Segmentmitgliedschaft.
-* Wird aus der Segmentliste entfernt.
+* Wird aus der Liste entfernt.
 * Die Markierung kann nicht aufgehoben werden.
 * Sendet keine Daten an verbundene Ziele.
 * Gibt keine Daten in den verfügbaren Berichten zurück.
