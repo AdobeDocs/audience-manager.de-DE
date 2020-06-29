@@ -5,8 +5,12 @@ seo-title: Ziel nach Ziel-ID zurückgeben
 solution: Audience Manager
 title: Ziel nach Ziel-ID zurückgeben
 uuid: abce7426-55a5-4045-93a7-0487652a7189
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +27,7 @@ Eine `GET` Methode, die das Ziel für die angegebene `destinationId`Methode zur�
 
 >[!NOTE]
 >
->Um das `mappings` Feld auszufüllen, geben Sie `includeMappings=true` die URL ein.
+>Um das `mappings` Feld auszufüllen, übergeben Sie es `includeMappings=true` in die URL.
 
 ## Antwort
 
@@ -71,9 +75,9 @@ Eine `GET` Methode, die alle Ziele für den angegebenen Partner zurückgibt.
 * Gibt nicht das vollständige Zielobjekt zurück. Rufen Sie das Ziel nach Datenreihenfolge ab, wenn Sie ein vollständig ausgefülltes Objekt benötigen.
 
 
-### Optionale Abfrageparameter
+### Optionale Abfrage-Parameter
 
-Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* Eigenschaften eines Objekts zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an die [!DNL API]übergeben. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* Eigenschaften eines Objekts zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn diese Abfrage an die [!DNL API]übergeben wird. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -85,7 +89,7 @@ Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* Ei
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Die Nummerierung beginnt bei 0. </td>
+   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Nummerierung von Beginn bei 0. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
@@ -96,8 +100,8 @@ Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* Ei
    <td colname="col2">Sortiert Ergebnisse und gibt sie entsprechend der angegebenen <span class="keyword"> JSON</span> -Eigenschaft zurück. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> absteigend</code> </td>
-   <td colname="col2"> Sortiert die Ergebnisse und gibt sie in absteigender Reihenfolge zurück. "Aufsteigend"ist die Standardeinstellung. </td>
+   <td colname="col1"><code> descending</code> </td>
+   <td colname="col2"> Sortiert die Ergebnisse und gibt sie in absteigender Reihenfolge zurück. Aufsteigend ist der Standardwert. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
@@ -249,7 +253,7 @@ Eine `GET` Methode, die die Zuordnungen für ein Ziel zurückgibt.
 {
 ```
 
-## Alle verfügbaren Zielplattformen zurückgeben {#return-dest-platforms}
+## Alle verfügbaren Ziel-Platformen zurückgeben {#return-dest-platforms}
 
 Eine `GET` Methode, die alle verfügbaren Geräteplattformen für Ziele zurückgibt.
 
@@ -269,7 +273,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## S2S- und Bulk-S2S-Zielauftragsverlauf zurückgeben {#return-job-history}
 
-Eine `GET` Methode, die Informationen zum Ausgangsauftragsverlauf [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) und zum Massenzielauftragsverlauf [!UICONTROL S2S] zurückgibt.
+Eine `GET` Methode, die Informationen zum Ausgangsauftragsverlauf [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) und zum Massenziel- [!UICONTROL S2S] Auftragsverlauf zurückgibt.
 
 <!-- r_get_job_history.xml -->
 
@@ -277,7 +281,7 @@ Eine `GET` Methode, die Informationen zum Ausgangsauftragsverlauf [!UICONTROL Se
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Erforderliche Abfrageparameter: `startDate` = *&lt;`epochtime`&gt;* und `endDate` = *&lt;`epochtime`&gt;*.
+Erforderliche Parameter für die Abfrage: `startDate` = *&lt;`epochtime`>* und `endDate` = *&lt;`epochtime`>*.
 
 ### Antwort
 
