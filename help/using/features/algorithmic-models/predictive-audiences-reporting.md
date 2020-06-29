@@ -3,16 +3,20 @@ description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe de
 seo-description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe der Datenwissenschaft in Echtzeit in verschiedene Personengruppen zu klassifizieren.
 seo-title: Berichte für prognostizierte Audiencen
 solution: Audience Manager
-title: Prognostische Audiencen für Audience Manager
+title: Audience Manager Predictive Audiencen
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8259f07c91efa0efd88e8f7c87cb1829ffadd77d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
 
 ---
 
 
 # Berichte für prognostizierte Audiencen
 
-Nachdem Sie ein [!UICONTROL Predictive Audiences] Modell gespeichert haben, schulen Audience Manager-Beginn es. Innerhalb weniger Stunden werden mit dem berechneten Modell Audiencen auf den [Datenerfassungsservern](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)analysiert. Berichte wird am folgenden Tag verfügbar sein.
+Nachdem Sie ein [!UICONTROL Predictive Audiences] Modell gespeichert haben, trainieren Audience Manager Beginn es. Innerhalb weniger Stunden werden mit dem berechneten Modell Audiencen auf den [Datenerfassungsservern](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)analysiert. Berichte wird am folgenden Tag verfügbar sein.
 
 Um die Ergebnisse Ihrer [!UICONTROL Predictive Audiences] Klassifizierung anzuzeigen, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, und klicken Sie in der Liste auf das gewünschte Modell.
 
@@ -22,7 +26,7 @@ Verwenden Sie die Filteroptionen auf der linken Seite, um nach dem Modellnamen z
 
 Die Modelltabelle enthält die folgenden Informationen:
 
-* **[!UICONTROL ID]**: die Modell-ID jedes Modell in Ihrem Audience Manager-Konto eindeutig identifiziert;
+* **[!UICONTROL ID]**: die Modell-ID identifiziert jedes Modell in Ihrem Audience Manager-Konto eindeutig.
 * **[!UICONTROL Name]**: den Namen, den Sie im Modellerstellungsschritt angegeben haben;
 * **[!UICONTROL Description]**: die Beschreibung, die Sie im Modellerstellungsschritt angegeben haben;
 * **[!UICONTROL Model Type]**: die Art jedes Modells ([!UICONTROL Look-Alike Modeling] oder [!UICONTROL Predictive Audiences]);
