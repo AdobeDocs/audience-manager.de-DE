@@ -5,8 +5,12 @@ seo-title: API-Methoden für Datenquellen
 solution: Audience Manager
 title: API-Methoden für Datenquellen
 uuid: 92ab725d-6f0a-497b-8302-39a34dc58636
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 17%
 
 ---
 
@@ -21,6 +25,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >
 >Die Datenquellen- [!DNL API] Methoden wurden neu geschrieben [!DNL Swagger] und migriert. Siehe:
 >
->* [Adobe Audience Manager API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
+>* [Adobe Audience Manager-API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
 >
