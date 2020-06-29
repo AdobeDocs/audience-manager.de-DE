@@ -1,35 +1,39 @@
 ---
-description: Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. Sie können maximal 4 Regeln zur Profilzusammenführung erstellen.
-seo-description: Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. Sie können maximal 4 Regeln zur Profilzusammenführung erstellen.
-seo-title: Dashboard "Regeln für Profilzusammenführung"
+description: Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. Sie können maximal 4 Profil Merge Rules erstellen.
+seo-description: Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. Sie können maximal 4 Profil Merge Rules erstellen.
+seo-title: Dashboard zum Zusammenführen von Profilen
 solution: Audience Manager
-title: Dashboard "Regeln für Profilzusammenführung"
+title: Dashboard zum Zusammenführen von Profilen
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
 
-# Dashboard "Regeln für Profilzusammenführung" {#profile-merge-rules-dashboard}
+# Dashboard zum Zusammenführen von Profilen {#profile-merge-rules-dashboard}
 
 Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. Sie können maximal 4 erstellen [!UICONTROL Profile Merge Rules].
 
-Die vierte Regel zur Profilzusammenführung ([!UICONTROL All Cross-Device Profiles]) steht nur Kunden zur Verfügung, die das [!UICONTROL People-Based Destinations] Add-on erwerben.
+Die vierte Profil Merge Rule ([!UICONTROL All Cross-Device Profiles]) steht nur Kunden zur Verfügung, die das [!UICONTROL People-Based Destinations] Add-On erwerben.
 
-Das [!UICONTROL Profile Merge Rules] Dashboard bietet einen einheitlichen Arbeitsbereich, in dem Sie Ihre [!UICONTROL Profile Merge Rules]Daten verwalten können. Das Dashboard befindet sich unter **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Profile Merge Rules]**. Ihr Regeln-Dashboard könnte dem unten gezeigten Beispiel ähnlich aussehen.
+Das [!UICONTROL Profile Merge Rules] Dashboard bietet eine einheitliche Arbeitsfläche, mit der Sie Ihre [!UICONTROL Profile Merge Rules]Daten verwalten können. Das Dashboard befindet sich unter **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**. Ihr Dashboard für Regeln könnte dem unten gezeigten Beispiel ähnlich aussehen.
 
 ![](assets/profile-dashboard.png)
 
 Beim Arbeiten mit [!UICONTROL Profile Merge Rules]können Sie:
 
 * Erstellen Sie maximal 4 [!UICONTROL Profile Merge Rules] aus geräteübergreifenden Datenquellen. Siehe [Erstellen einer geräteübergreifenden Datenquelle](merge-rules-start.md#create-data-source).
-* Legen Sie eine Standardzusammenführungsregel fest. [Der Segmentaufbau](../segments/segment-builder.md) wendet die Standardregel automatisch auf alle neuen Segmente an, die Sie erstellen.
+* Legen Sie eine Standardzusammenführungsregel fest. [Der Segmentaufbau](../segments/segment-builder.md) wendet die Standardregel automatisch auf alle neu erstellten Segmente an.
 * Wenden Sie [Datenexportsteuerelemente](../data-export-controls.md) auf eine Zusammenführungsregel an. [!UICONTROL Data Export Controls] verhindern, dass Sie Daten an Zielorte senden, wenn dies gegen Datenschutzvereinbarungen oder Nutzungsvereinbarungen verstößt.
 * Verfolgen Sie die durchschnittliche Anzahl der Geräte für jeden Benutzer.
-* Mit einfachen Steuerelementen können Sie Regeln erstellen, bearbeiten und löschen. Nur Administratoren können Regeln verwalten, andere Benutzer können sie jedoch anzeigen und auf Segmente anwenden. Siehe [Optionen für](merge-rule-definitions.md) Profilzusammenführungsregeln definiert und [Anwendungsfälle für Zusammenführungsregeln](merge-rule-targeting-options.md).
+* Mit einfachen Steuerelementen können Sie Regeln erstellen, bearbeiten und löschen. Nur Administratoren können Regeln verwalten, andere Benutzer können sie jedoch Ansichten vornehmen und auf Segmente anwenden. Siehe Optionen für die [Profil-Zusammenführungsregel definiert](merge-rule-definitions.md) und [Anwendungsfälle für Zusammenführungsregeln](merge-rule-targeting-options.md).
 
 >[!MORELIKETHIS]
 >
->* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](../../faq/faq-profile-merge.md)
+>* [Häufig gestellte Fragen zu Profil-Zusammenführungsregeln](../../faq/faq-profile-merge.md)
 
