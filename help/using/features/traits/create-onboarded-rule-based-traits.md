@@ -6,8 +6,9 @@ seo-title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 solution: Audience Manager
 title: Erstellen regelbasierter oder Onboarded-Eigenschaften
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 5%
@@ -83,7 +84,7 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
 
 ## Festlegen eines [!UICONTROL Trait] Ablaufintervalls {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder]der [!UICONTROL Advanced Options] können Sie ein Time-to-Live-Intervall ([!DNL TTL]) für einen [!UICONTROL trait]Bericht festlegen. [!DNL TTL] legt fest, wie viele Tage ein qualifizierter Besucher in einem [!UICONTROL trait] (standardmäßig 120 Tage) verbleibt. Bei Festlegung auf 0 läuft die [!UICONTROL trait] Mitgliedschaft nie ab.
+In [!UICONTROL Trait Builder]der [!UICONTROL Advanced Options] können Sie ein Intervall für die Live-Übertragung ([!DNL TTL]) für einen [!UICONTROL trait]Bericht festlegen. [!DNL TTL] legt fest, wie viele Tage ein qualifizierter Besucher in einem [!UICONTROL trait] (standardmäßig 120 Tage) verbleibt. Bei Festlegung auf 0 läuft die [!UICONTROL trait] Mitgliedschaft nie ab.
 
 <!-- t_tb_ttl.xml -->
 
