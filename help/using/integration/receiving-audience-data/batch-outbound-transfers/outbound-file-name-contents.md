@@ -5,8 +5,12 @@ seo-title: Syntax und Beispiele für ausgehende Datendateinamen
 solution: Audience Manager
 title: Syntax und Beispiele für ausgehende Datendateinamen
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +27,7 @@ Beschreibt die erforderlichen Felder, die Syntax und die Konventionen, mit denen
 
 ## Syntax- und Dateinamenelemente {#syntax-file-name}
 
-Ausgehende Dateinamen enthalten die folgenden Elemente. Alle folgenden Elemente sind optional.
+Ausgehende Dateinamen enthalten die folgenden Elemente. Alle unten stehenden Elemente sind optional.
 
 ```
 [SYNC_TYPE][_DID][_MASTER_DPID][_PID_ALIAS][_SYNC-MODE][_TIMESTAMP]SPLITNUM.sync[.gz]
@@ -55,7 +59,7 @@ Die Tabelle definiert die Elemente in einem ausgehenden Datendateinamen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
-   <td colname="col2"> <p>Datenanbieter- oder Datenquellen-ID. Diese ID identifiziert den Typ der Benutzer-ID im Dateiinhalt. Die häufigsten Benutzer-ID-Schlüssel sind: </p> <p> 
+   <td colname="col2"> <p>Datenanbieter- oder Datenquellen-ID. Diese ID identifiziert den Typ der Benutzer-ID, die im Dateiinhalt vorhanden ist. Die häufigsten Benutzer-ID-Schlüssel sind: </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser-ID </span> (roh, unhash) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID for Advertisers </span> (roh, unhash) </li> 
@@ -68,7 +72,7 @@ Die Tabelle definiert die Elemente in einem ausgehenden Datendateinamen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>Der Synchronisierungsmodus ist ein Makro-Platzhalter, der dem Dateinamen je nach Synchronisierungstyp eine Bezeichnung hinzufügt. Zu den Synchronisierungstypen gehören "full"und "incremental". Sie werden im Dateinamen als <code> iter </code> oder <code> full </code>angezeigt. </p> 
+   <td colname="col2"> <p>Der Synchronisierungsmodus ist ein Makro-Platzhalter, der dem Dateinamen je nach Synchronisierungstyp eine Bezeichnung hinzufügt. Zu den Synchronisierungstypen gehören "vollständig"und "inkrementell". Sie werden im Dateinamen als <code> iter </code> oder <code> full </code>angezeigt. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
      <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>: Gibt eine "iterative"oder inkrementelle Synchronisierung an. Eine inkrementelle Datei enthält nur neue Daten, die seit der letzten Synchronisierung erfasst wurden. </li> 
      <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>: Gibt eine vollständige Synchronisierung an. Eine vollständig synchronisierte Datei enthält alte Daten und alle neuen Daten, die seit der letzten Synchronisierung erfasst wurden. </li> 
@@ -147,7 +151,7 @@ z. B. vollständige Dateien:
 
 ## Inhalt der ausgehenden Datendatei: Syntax und Parameter {#outbound-contents-syntax}
 
-Beschreibt die erforderlichen Felder, die Syntax und die Konventionen, mit denen Informationen in einer ausgehenden Datendatei organisiert werden. Formatieren Sie Ihre Daten entsprechend diesen Spezifikationen.
+Beschreibt die erforderlichen Felder, die Syntax und die Konventionen, die zum Organisieren von Informationen in einer ausgehenden Datendatei verwendet werden. Formatieren Sie Ihre Daten entsprechend diesen Spezifikationen.
 
 <!-- c_outbound_data_file.xml -->
 
@@ -163,7 +167,7 @@ Die Felder in der Datendatei werden in der folgenden Reihenfolge angezeigt:
 
 ### Parameter
 
-Die Tabelle listet Variablen auf, die den Inhalt einer Datendatei definieren.
+Die Tabelle Liste Variablen, die den Inhalt einer Datendatei definieren.
 
 <table id="table_109BA747CFDA40108370EFEB208C7E11"> 
  <thead> 
@@ -175,7 +179,7 @@ Die Tabelle listet Variablen auf, die den Inhalt einer Datendatei definieren.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p>Eine eindeutige Benutzer-ID, die von <span class="keyword"> Audience Manager zugewiesen wird </span>. </p> </td> 
+   <td colname="col2"> <p>Eine vom <span class="keyword"> Audience Manager zugewiesene eindeutige Benutzer-ID </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
@@ -187,7 +191,7 @@ Die Tabelle listet Variablen auf, die den Inhalt einer Datendatei definieren.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>Die Segment-ID, von der der Benutzer disqualifiziert wurde. Trennen Sie mehrere Segmente durch ein Komma. Bei vollständiger Synchronisierung können Sie die entfernten Segmente ignorieren, da die Datendatei die vollständige Liste der aktuellen Segmente für den Benutzer enthält. Normalerweise möchten Sie wissen, zu welchen Segmenten ein Benutzer gehört und nicht zu den Segmenten, aus denen er entfernt wurde. Siehe auch Name der <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> ausgehenden Datendatei: Syntax und Beispiele </a>. </p> </td> 
+   <td colname="col2"> <p>Die Segment-ID, von der der Benutzer disqualifiziert wurde. Trennen Sie mehrere Segmente durch ein Komma. Bei einer vollständigen Synchronisierung können Sie die entfernten Segmente ignorieren, da die Datendatei die vollständige Liste der aktuellen Segmente für den Benutzer enthält. Normalerweise möchten Sie wissen, zu welchen Segmenten ein Benutzer gehört und nicht zu den Segmenten, aus denen er entfernt wurde. Siehe auch Name der <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> ausgehenden Datendatei: Syntax und Beispiele </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
