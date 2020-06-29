@@ -1,17 +1,21 @@
 ---
 description: Übersicht über die Integration von DFP mit Google Publisher Tags (GPT).
 seo-description: Übersicht über die Integration von DFP mit Google Publisher Tags (GPT) in Adobe Audience Manager (AAM).
-seo-title: Integration von DFP mit Google Publisher Tags (GPT) in Adobe Audience Manager (AAM)
+seo-title: DFP mit Google Publisher Tags (GPT) in Adobe Audience Manager (AAM) integrieren
 title: DFP mit Google Publisher Tags (GPT) integrieren
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 5%
 
 ---
 
 
 # DFP mit Google Publisher Tags (GPT) integrieren
 
-Die unten aufgeführten Artikel bieten einen Überblick darüber, wie DFP mit Google Publisher Tags (GPT) integriert werden kann. Sie können eine serverseitige Integration verwenden oder GPT als Ziel einrichten, um Audience Manager-Segmentdaten an DFP zu senden. Außerdem lernen Sie die erforderlichen Schritte zum Erfassen der DFP-Protokolldateien für die Berichterstellung in Audience Manager kennen.
+Die unten aufgeführten Artikel bieten einen Überblick darüber, wie DFP mit Google Publisher Tags (GPT) integriert werden kann. Sie können eine serverseitige Integration verwenden oder GPT als Ziel einrichten, um Audience Manager-Segmentdaten an DFP zu senden. Außerdem erfahren Sie, wie Sie DFP-Protokolldateien für den Berichte in Audience Manager erfassen können.
 
 * [Anforderungen und Methoden zum Senden von Segmenten an DFP mithilfe von Google Publisher Tags (GPT)](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
@@ -23,7 +27,7 @@ Die unten aufgeführten Artikel bieten einen Überblick darüber, wie DFP mit Go
 
 * [Ändern des GPT-setTargeting-API-Aufrufs](/help/using/integration/gpt-aam-destination/gpt-aam-modify-api.md)
 
-   Fügen Sie eine if-Anweisung hinzu, um nach Audience Manager-Cookies zu suchen, bevor Sie die Google Publisher Tag.setTargeting-Methode aufrufen.
+   Hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
 
 * [Audience Manager-Code für Google Publisher-Tags](/help/using/integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
