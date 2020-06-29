@@ -5,8 +5,12 @@ seo-title: SDK-Code
 solution: Audience Manager
 title: SDK-Code
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
+feature: API
 translation-type: tm+mt
-source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +25,7 @@ Audience Manager stellt Software Development Kits ([!DNL SDK]s) für [!DNL Andro
 
 * Gehen Sie zu [Launch](https://launch.adobe.com/), um zu beginnen.
 * Gehen Sie zu [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks), um zu sehen, was in den Experience Platform SDK Repositorys enthalten ist.
-* Um Audience Manager mit dem neuen SDK v.5 in Ihre App zu implementieren, lesen Sie die [Adobe Audience Manager-Dokumentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) auf der neuen SDK-Seite.
+* Um Audience Manager mit dem neuen SDK v.5 in Ihre App zu implementieren, lesen Sie die Dokumentation zum [Adobe Audience Manager](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) auf der neuen SDK-Seite.
 
 <br> 
 
