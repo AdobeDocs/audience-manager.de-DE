@@ -1,40 +1,44 @@
 ---
-description: Mit Ordnereigenschaften können Sie Eigenschaften, die sich im selben Ordner und in allen untergeordneten Ordnern befinden, automatisch in einem Zielgruppensegment zusammenfassen.
-keywords: Schätzung der Segmentgröße;Auswahl
-seo-description: Mit Ordnereigenschaften können Sie Eigenschaften, die sich im selben Ordner und in allen untergeordneten Ordnern befinden, automatisch in einem Zielgruppensegment zusammenfassen.
+description: Mit Ordnereigenschaften können Sie Eigenschaften, die sich im selben Ordner und in allen untergeordneten Ordnern befinden, automatisch in ein Zielgruppensegment Aggregat.
+keywords: segment size estimator;sse
+seo-description: Mit Ordnereigenschaften können Sie Eigenschaften, die sich im selben Ordner und in allen untergeordneten Ordnern befinden, automatisch in ein Zielgruppensegment Aggregat.
 seo-title: Ordnereigenschaften
 solution: Audience Manager
 title: Ordnereigenschaften
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 0%
 
 ---
 
 
 # Ordnereigenschaften: Info {#folder-traits-about}
 
-[!UICONTROL Folder traits] können Sie Eigenschaften, die sich im selben Ordner und in allen untergeordneten Ordnern befinden, automatisch in einem Zielgruppensegment zusammenfassen.
+[!UICONTROL Folder traits] können Sie Eigenschaften, die sich im selben Ordner und in allen untergeordneten Ordnern befinden, automatisch in ein Zielgruppensegment Aggregat setzen.
 
 ## Vorteile der Verwendung von Ordnereigenschaften {#benefits}
 
-Eine [!UICONTROL folder trait] enthält alle Eigenschaften in einem übergeordneten Ordner und die zugehörigen untergeordneten Ordner. Dadurch können Sie Ihre Benutzer automatisch segmentieren und auf verschiedene Ordnerebenen ausrichten. Angenommen, Sie haben eine Ordnerstruktur wie die folgende:
+Eine [!UICONTROL folder trait] enthält alle Eigenschaften in einem übergeordneten Ordner und die zugehörigen untergeordneten Ordner. Auf diese Weise können Sie Ihre Benutzer automatisch auf verschiedenen Ordnerebenen segmentieren und Zielgruppen vornehmen. Angenommen, Sie haben eine Ordnerstruktur wie die folgende:
 
 `*` Elektronik (übergeordnet)
 
-    `*` Laptops (Kinder)
+    `*` Laptops (untergeordnet)
 
         `*` Marken (Enkel)
 
-[!UICONTROL Folder traits] alle Benutzer in diesen Ordnern in einem automatisch erstellten Ordner qualifizieren [!DNL Electronics] [!UICONTROL Folder Trait] (basierend auf dem Namen des übergeordneten Ordners). Und dieser Prozess wiederholt sich selbst, wenn Sie die Dateistruktur nach unten verschieben. In diesem Fall erfassen Ordnereigenschaften alle Benutzer der Ordner "Laptops und Marken"in einem automatisch erstellten Laptop [!UICONTROL Folder Trait].
+[!UICONTROL Folder traits] alle Benutzer in diesen Ordnern in einem automatisch erstellten Ordner qualifizieren [!DNL Electronics] [!UICONTROL Folder Trait] (basierend auf dem Namen des übergeordneten Ordners). Und dieser Prozess wiederholt sich selbst, wenn Sie die Dateistruktur nach unten verschieben. In diesem Fall erfassen Ordnereigenschaften alle Benutzer der Ordner &quot;Laptops und Marken&quot;in einem automatisch erstellten Laptop [!UICONTROL Folder Trait].
 
-[!UICONTROL Folder traits] sind in Segmentausdrücken auswählbar. Die Auswahl eines [!UICONTROL folder trait] Ordners entspricht der Auswahl aller Eigenschaften in diesem Ordner und dessen Unterordnern mit einer [!UICONTROL OR] Gruppierung.
+[!UICONTROL Folder traits] sind in Segmentwerten auswählbar. Die Auswahl eines [!UICONTROL folder trait] Ordners entspricht der Auswahl aller Eigenschaften in diesem Ordner und dessen Unterordnern mit einer [!UICONTROL OR] Gruppierung.
 
 ![](assets/folder-traits-compare-border.jpg)
 
 ## Ordnereigenschaften - Neuigkeit und Häufigkeit {#folder-traits-realization}
 
-Die Häufigkeit eines Ordnermerkmals ist die Summe der Realisierungen der Eigenschaften in seinem Ordner und seinen untergeordneten Ordnern. Die folgende Abbildung zeigt die Eigenschaften A, B und C, die im Ordner "Automobile"leben. Beachten Sie, dass alle Eigenschaften die folgenden Realisierungen aufweisen:
+Die Häufigkeit eines Ordnermerkmals ist die Summe der Realisierungen der Eigenschaften in seinem Ordner und seinen untergeordneten Ordnern. Die folgende Abbildung zeigt die Eigenschaften A, B und C, die im Ordner &quot;Automobile&quot;leben. Beachten Sie, dass alle Eigenschaften die folgenden Realisierungen aufweisen:
 
 * Eigenschaft A: 5
 * Eigenschaft B: 1
@@ -44,24 +48,24 @@ In diesem Fall [!DNL Automobile Folder Trait] hat die Kommission 7 Erkenntnissen
 
 ![](assets/folder_traits_rollup_border.png)
 
-## Berichte zu Ordnereigenschaften {#folder-traits-reporting}
+## Ordnereigenschaften-Berichte {#folder-traits-reporting}
 
-[!UICONTROL Folder traits] erfasst alle Benutzer aus den Eigenschaften in der Ordnerstruktur darunter. If you move a trait from a folder to another folder, the change propagates to our data collection servers just like a trait rule change. [](../../reference/system-components/components-data-collection.md) The reporting updates in the next reporting run to reflect this change across the reporting date ranges (1, 7, 14, 30, 60, 90). The old reporting numbers from the previous days will not change.
+[!UICONTROL Folder traits] erfasst alle Benutzer aus den Eigenschaften in der Ordnerstruktur darunter. Wenn Sie eine Eigenschaft aus einem Ordner in einen anderen Ordner verschieben, wird die Änderung genau wie eine Änderung der Eigenschaftsregel auf unsere [Datenerfassungsserver](../../reference/system-components/components-data-collection.md) übertragen. Die Berichte-Aktualisierungen im nächsten Berichte werden ausgeführt, um diese Änderung über die Datumsbereiche des Berichte (1, 7, 14, 30, 60, 90) hinweg widerzuspiegeln. Die alten Berichte aus den Vortagen bleiben unverändert.
 
-## Role-Based Access Controls (RBAC) Permissions {#role-based-access-controls}
+## Rollenbasierte Zugriffskontrollen (RBAC) - Berechtigungen {#role-based-access-controls}
 
-For companies using  (), your users with the appropriate  permissions are able to change the data source associated to the . [!UICONTROL Role-Based Access Controls][!UICONTROL RBAC][!UICONTROL RBAC][!UICONTROL folder trait] A user must belong to a group with either of the following:
+Bei Firmen, die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]) verwenden, können Ihre Benutzer mit den entsprechenden [!UICONTROL RBAC] Berechtigungen die der Datenquelle zugeordnete Datenquelle ändern [!UICONTROL folder trait]. Ein Benutzer muss zu einer Gruppe mit einer der folgenden Komponenten gehören:
 
-* `READ` and `WRITE` group permissions to a trait data source.
-* `VIEW_ALL_TRAITS` and `EDIT_ALL_TRAITS` wild card permissions for trait data sources.
+* `READ` und `WRITE` Gruppenberechtigungen für eine Eigenschaftsdatenquelle.
+* `VIEW_ALL_TRAITS` und `EDIT_ALL_TRAITS` Platzhalterberechtigungen für Datenquellen mit Eigenschaften.
 
-Learn how to assign  permissions in our administration documentation.[!UICONTROL RBAC][](../../features/administration/administration-overview.md#create-group)
+Erfahren Sie, wie Sie [!UICONTROL RBAC] Berechtigungen in unserer [Verwaltungsdokumentation](../../features/administration/administration-overview.md#create-group)zuweisen.
 
-## Limits and Other Considerations {#limits}
+## Beschränkungen und sonstige Erwägungen {#limits}
 
 | Element | Beschreibung |
 |---|---|
-| Trait type | [!UICONTROL Onboarded traits] and  contribute at most 1 realization to a 's frequency.[!UICONTROL algorithmic traits][!UICONTROL folder trait] |
-| Moving traits between folders | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second . [!UICONTROL folder trait] This means that if you delete or move a trait from the folder, the users in the trait's population will be unsegmented from the segments using the folder trait as a segment expression. <br> Beim Zuordnen von Adobe Analytics-Segmenten oder Report Suites zu Ihrer Experience Cloud-Organisation erstellt Audience Manager automatisch neue, entsprechende, schreibgeschützte Segmente und Eigenschaften. Sie können den Speicherort dieser Eigenschaften nicht in Audience Manager bearbeiten oder ändern. Änderungen, die Sie an Ihren zugeordneten Adobe Analytics-Segmenten oder Report Suites vornehmen, werden jedoch in Audience Manager übernommen. |
-| Systemvariablen | [!UICONTROL Folder traits] kann nicht in Ereignisaufrufen mithilfe des `d_sid` Parameters ausgeführt werden. |
-| Berichterstellung   | [!UICONTROL Folder traits] sind automatisch berechnete Eigenschaften und werden nicht in angezeigt **[!UICONTROL Overlap Reports]**. |
+| Eigenschaftstyp | [!UICONTROL Onboarded traits] und [!UICONTROL algorithmic traits] tragen maximal 1 Realisierung zur Häufigkeit eines [!UICONTROL folder trait]Ereignisses bei. |
+| Eigenschaften zwischen Ordnern verschieben | Wenn Sie eine Eigenschaft aus einem Ordner in einen anderen verschieben, wird diese Eigenschaft aus der ersten Ordnereigenschaft deaktiviert und für die zweite qualifiziert [!UICONTROL folder trait]. Wenn Sie also eine Eigenschaft aus dem Ausdruck löschen oder verschieben, werden die Benutzer in der Eigenschaftspopulation mithilfe der Ordnereigenschaft nicht segmentiert. <br> Beim Zuordnen von Adobe Analytics-Segmenten oder Report Suites zu Ihrer Experience Cloud-Organisation erstellt Audience Manager automatisch neue, zugehörige, schreibgeschützte Segmente und Eigenschaften. Sie können die Position der Datenspeicherung dieser Eigenschaften nicht von Audience Manager aus bearbeiten oder ändern. Änderungen, die Sie an Ihren zugeordneten Adobe Analytics-Segmenten oder Report Suites vornehmen, werden jedoch in Audience Manager übernommen. |
+| Systemvariablen | [!UICONTROL Folder traits] kann nicht in Ereignis-Aufrufen mithilfe des `d_sid` Parameters ausgeführt werden. |
+| Berichterstellung | [!UICONTROL Folder traits] sind automatisch berechnete Eigenschaften und werden nicht in angezeigt **[!UICONTROL Overlap Reports]**. |
