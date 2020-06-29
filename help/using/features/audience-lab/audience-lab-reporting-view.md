@@ -1,22 +1,26 @@
 ---
-description: Der Abschnitt "Berichte zu Testgruppen"gibt Informationen zu den Konversionen der Testgruppe zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
-seo-description: Der Abschnitt "Berichte zu Testgruppen"gibt Informationen zu den Konversionen der Testgruppe zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
-seo-title: Testgruppenberichte
+description: Der Abschnitt zum Berichte der Testgruppe gibt Informationen zu Testgruppenkonversionen zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
+seo-description: Der Abschnitt zum Berichte der Testgruppe gibt Informationen zu Testgruppenkonversionen zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
+seo-title: Berichte der Testgruppe
 solution: Audience Manager
-title: Testgruppenberichte
-topic: DIL-API
+title: Berichte der Testgruppe
+topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 
-# Testgruppenberichte {#test-group-reporting}
+# Berichte der Testgruppe {#test-group-reporting}
 
-Der Abschnitt "Berichte zu Testgruppen"gibt Informationen zu den Konversionen der Testgruppe zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
+Der Abschnitt zum Berichte der Testgruppe gibt Informationen zu Testgruppenkonversionen zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
 
-[!UICONTROL Audience Lab] gibt detaillierte Berichtsinformationen für die von Ihnen erstellten Testsegmente zurück und ermöglicht Ihnen, die Berichtsdaten als [!DNL CSV] Dateien zu speichern. Sie können zwischen **[!UICONTROL Aggregate Reporting]** und **[!UICONTROL Trend Reporting]** wählen.
+[!UICONTROL Audience Lab] gibt detaillierte Berichte-Informationen für die von Ihnen erstellten Testsegmente zurück und ermöglicht Ihnen, die Berichte-Daten als [!DNL CSV] Dateien zu speichern. Sie können zwischen **[!UICONTROL Aggregate Reporting]** und **[!UICONTROL Trend Reporting]** wählen.
 
 **[!UICONTROL Aggregate Reporting]** gibt die absoluten Zahlen für Ihre Testsegmente zurück. **[!UICONTROL Trend Reporting]** gibt ein Diagramm des Trends *über einen bestimmten Zeitraum* zurück. Mit vier Registerkarten können Sie die Berichte anpassen:
 
@@ -29,7 +33,7 @@ Der Abschnitt "Berichte zu Testgruppen"gibt Informationen zu den Konversionen de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Bevölkerungskonversionsrate</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Bevölkerung Konversionsrat</span></b> </p> </td> 
    <td colname="col2"> <p>Gibt den Prozentsatz der Geräte zurück, die zu einem bestimmten Testsegment gehören und konvertiert wurden. </p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +46,7 @@ Der Abschnitt "Berichte zu Testgruppen"gibt Informationen zu den Konversionen de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Segmentpopulationen testen</span></b> </p> </td> 
-   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die zu den Testsegmenten gehören. Wechsel zwischen <b><span class="uicontrol"> Gesamtbevölkerung</span></b> oder <b><span class="uicontrol"> Echtzeit-Bevölkerung</span></b>. Der Unterschied wird in den <a href="../../faq/faq-reporting.md"> Berichterstellungs-FAQ</a> erklärt. </p> </td>
+   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die zu den Testsegmenten gehören. Wechsel zwischen <b><span class="uicontrol"> Gesamtbevölkerung</span></b> oder <b><span class="uicontrol"> Echtzeit-Bevölkerung</span></b>. Der Unterschied wird in den <a href="../../faq/faq-reporting.md"> Berichte FAQ</a> erklärt. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -51,8 +55,8 @@ Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Beric
 
 >[!NOTE]
 >
->* Die Berichterstellung für eine Testgruppe füllt den Tag nach dem Anfangsdatum.
->* Eine Konversion wird für ein Gerät erst nach dem Startdatum eines Tests und nach dem Hinzufügen des Geräts zu einem Testsegment gezählt. Wenn für dieses Gerät eine Konversion erfolgt, bevor eine Testgruppe zugewiesen wird, wird die Konversion nicht gezählt.
+>* Berichte für eine Testgruppe füllt den Tag nach dem Beginn.
+>* Eine Konversion wird für ein Beginn erst nach dem Testdatum und nach dem Hinzufügen des Geräts zu einem Testsegment gezählt. Wenn für dieses Gerät eine Konversion erfolgt, bevor eine Testgruppe zugewiesen wird, wird die Konversion nicht gezählt.
 
 
 Ein zurückgegebenes **[!UICONTROL Aggregate Reporting]** Diagramm könnte wie folgt aussehen:
