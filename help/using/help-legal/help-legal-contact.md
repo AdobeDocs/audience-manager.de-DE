@@ -4,8 +4,12 @@ seo-description: Hier finden Sie Angaben zur Kontaktaufnahme mit Adobe und recht
 seo-title: Kontakt und rechtliche Informationen
 solution: Audience Manager
 title: Kontakt und rechtliche Informationen
+feature: Support
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 88%
 
 ---
 
