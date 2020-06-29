@@ -1,14 +1,18 @@
 ---
-description: Mit Audience Marketplace können Datenanbieter und -käufer Datengeschäfte auf SelbstbedienungsWeise mit minimalem Aufwand durchführen. Dies erfolgt durch die Bereitstellung spezieller Funktionen, die je nach Ihrer Rolle als Datenkäufer oder Datenverkäufer variieren. Sie können sogar gleichzeitig Käufer und Verkäufer sein. Und wenn dies nicht besser werden könnte, kümmert sich Audience Marketplace um Verträge, Abrechnungen und Zahlungen zwischen Datenanbietern und Verkäufern.
-keywords: Google Analytics
-seo-description: Mit Audience Marketplace können Datenanbieter und -käufer Datengeschäfte auf SelbstbedienungsWeise mit minimalem Aufwand durchführen. Dies erfolgt durch die Bereitstellung spezieller Funktionen, die je nach Ihrer Rolle als Datenkäufer oder Datenverkäufer variieren. Sie können sogar gleichzeitig Käufer und Verkäufer sein. Und wenn dies nicht besser werden könnte, kümmert sich Audience Marketplace um Verträge, Abrechnungen und Zahlungen zwischen Datenanbietern und Verkäufern.
+description: Mit Audience Marketplace können Datenanbieter und -käufer Datengeschäfte auf SelbstbedienungsWeise mit minimalem Aufwand ausführen. Dies erfolgt durch die Bereitstellung spezieller Funktionen, die je nach Ihrer Rolle als Datenkäufer oder Datenverkäufer variieren. Sie können sogar gleichzeitig Käufer und Verkäufer sein. Und wenn dies nicht besser werden könnte, kümmert sich Audience Marketplace um Verträge, Abrechnungen und Zahlungen zwischen Datenanbietern und Verkäufern.
+keywords: Google analytics
+seo-description: Mit Audience Marketplace können Datenanbieter und -käufer Datengeschäfte auf SelbstbedienungsWeise mit minimalem Aufwand ausführen. Dies erfolgt durch die Bereitstellung spezieller Funktionen, die je nach Ihrer Rolle als Datenkäufer oder Datenverkäufer variieren. Sie können sogar gleichzeitig Käufer und Verkäufer sein. Und wenn dies nicht besser werden könnte, kümmert sich Audience Marketplace um Verträge, Abrechnungen und Zahlungen zwischen Datenanbietern und Verkäufern.
 seo-title: Audience Marketplace
 solution: Audience Manager
 title: Audience Marketplace
-topic: DIL-API
+topic: DIL API
 uuid: a94d2ee7-d854-4e68-bd6b-42827ca72f67
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: db98258a1f88867af4cd1369d35fa243a89f3f65
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +28,7 @@ Talk to your [!DNL Audience Manager] sales specialist to get started. Sie könne
 >Benutzerrollen steuern, was Sie tun können und was nicht [!UICONTROL Audience Marketplace].
 >
 > * Administratoren können Datenfeeds erstellen, Abonnenten verwalten und Datenfeeds abonnieren.
-> * Benutzer können nur Feeds suchen und anzeigen.
+> * Benutzer können nur Feeds suchen und Ansichten bereitstellen.
 
 
 * [Audience Marketplace für Datenanbieter](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
