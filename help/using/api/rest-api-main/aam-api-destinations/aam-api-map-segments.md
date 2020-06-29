@@ -5,8 +5,12 @@ seo-title: Segmente einem Ziel zuordnen
 solution: Audience Manager
 title: Segmente einem Ziel zuordnen
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 8%
 
 ---
 
@@ -394,7 +398,7 @@ Eine erfolgreiche Antwort gibt das Array der erstellten Zuordnungen zurück.
 ]
 ```
 
-## Hinzufügen mehrerer Segmente zu einem Ziel {#add-segments-dest}
+## Mehrere Segmente an ein Ziel Hinzufügen {#add-segments-dest}
 
 Eine `POST` Methode, mit der Sie einem Ziel mehrere Segmente zuordnen können.
 
@@ -582,5 +586,5 @@ Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
 >
 >* [Ziele](../../../features/destinations/destinations.md)
 >* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Erläuterung von wichtigen Seiten](../../../reference/key-value-pairs-explained.md)
+>* [Erläuterung von Seiten mit Schlüsselwert](../../../reference/key-value-pairs-explained.md)
 
