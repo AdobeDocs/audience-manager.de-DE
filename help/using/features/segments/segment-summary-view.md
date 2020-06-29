@@ -6,8 +6,9 @@ solution: Audience Manager
 title: Segmentdetailseite
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Auf der oberen Seite der Segmentdetailseite finden Sie die Tools, mit denen Sie 
 2. **[!UICONTROL Edit]**: Verwenden Sie diese Option, um die Konfiguration des aktuellen Segments zu ändern.
 3. **[!UICONTROL Duplicate]**: Verwenden Sie diese Option, um eine Kopie des aktuellen Segments zu erstellen.
 4. **[!UICONTROL Delete]**: Verwenden Sie diese Option, um das aktuelle Segment aus Ihrem Audience Manager-Konto zu entfernen.
-5. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option, um ähnliche Segmente wie die, die Sie anzeigen, aus [!UICONTROL Audience Marketplace] Datenfeeds zu finden, die Sie nicht abonniert haben. Unter [Audience Marketplace for Data Buyers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) erfahren Sie, wie Sie im Marketplace navigieren und ähnliche Segmente finden.
+5. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option, um ähnliche Segmente wie die, die Sie anzeigen, aus [!UICONTROL Audience Marketplace] Datenfeeds zu finden, die Sie nicht abonniert haben. Siehe [Audience Marketplace für Datenkäufer](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) , um zu erfahren, wie Sie im Marketplace navigieren und ähnliche Segmente finden.
 
 ![basic-segment-information](assets/basic-segment-information.png)
 
@@ -46,7 +47,7 @@ Unter den Segmentverwaltungstools finden Sie die folgenden Segmentinformationen:
 
    >[!NOTE]
    >
-   >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] Bericht nur dann an, wenn Sie geräteübergreifende IDs für das Segment qualifiziert haben.
+   >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] Bericht nur an, wenn Sie geräteübergreifende IDs für das Segment qualifiziert haben.
 
    Sehen Sie sich das unten stehende Video an, um eine Übersicht zu [!UICONTROL Identity Type Breakdown]erhalten.
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
