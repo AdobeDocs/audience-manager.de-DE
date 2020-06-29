@@ -5,8 +5,12 @@ seo-title: Dateikomprimierung für eingehende Datenübertragungsdateien
 solution: Audience Manager
 title: Dateikomprimierung für eingehende Datenübertragungsdateien
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +33,7 @@ Audience Manager unterstützt auch nicht komprimierte Dateien.
 
 ## Amazon S3-Komprimierung
 
-Für die Bereitstellung [!DNL Amazon S3]müssen Sie `.gz` oder nicht komprimierte Dateien verwenden. Komprimierte Dateien müssen 1 GB oder kleiner sein. Wenn die Dateien größer sind, besprechen Sie den Datei- und Übertragungsvorgang mit dem Kundendienst. Obwohl sehr große Dateien verarbeitet werden [!DNL Audience Manager] können, gibt es Möglichkeiten, die Dateigröße zu reduzieren oder die Datenübertragung effizienter zu gestalten.
+Für Versände [!DNL Amazon S3]müssen Sie `.gz` oder nicht komprimierte Dateien verwenden. Komprimierte Dateien müssen 1 GB oder kleiner sein. Wenn die Dateien größer sind, besprechen Sie den Datei- und Übertragungsvorgang mit dem Kundendienst. Obwohl sehr große Dateien verarbeitet werden [!DNL Audience Manager] können, gibt es unter Umständen Möglichkeiten, die Dateigröße zu reduzieren oder die Datenübertragung effizienter zu gestalten.
 
 >[!IMPORTANT]
 >
@@ -39,5 +43,5 @@ Für die Bereitstellung [!DNL Amazon S3]müssen Sie `.gz` oder nicht komprimiert
 
 * Dateien sollten [!DNL .gzip] komprimiert werden (und eine [!DNL .gz] Dateierweiterung aufweisen).
 * Die maximale komprimierte Dateigröße für eine `.gz` komprimierte Datei beträgt 1 GB.
-* Optimale Aufteilung für die schnellste/schnellste Verarbeitung Ihrer Dateien ist etwa 1 GB unkomprimiert oder 200-300 MB komprimiert.
+* Optimale Aufteilung für die schnellste/schnellste Verarbeitung Ihrer Dateien, ist etwa 1 GB unkomprimiert oder 200-300 MB komprimiert.
 * [!DNL Amazon S3] legt für hochgeladene Dateien eine eigene maximale Dateigröße von 5 GB fest.
