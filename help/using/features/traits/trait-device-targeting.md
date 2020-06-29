@@ -1,27 +1,31 @@
 ---
-description: Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen über alle Eigenschaften in Ihrem Audience Manager-Konto hinweg anzusprechen.
-seo-description: Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen über alle Eigenschaften in Ihrem Audience Manager-Konto hinweg anzusprechen.
-seo-title: Geräte-Targeting mit Schlüsseln auf Plattformebene
+description: Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, die Sie zur Zielgruppe von Benutzern mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto verwenden können.
+seo-description: Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, die Sie zur Zielgruppe von Benutzern mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto verwenden können.
+seo-title: Geräte-Targeting mit Schlüsseln auf Platform
 solution: Audience Manager
-title: Geräte-Targeting mit Schlüsseln auf Plattformebene
+title: Geräte-Targeting mit Schlüsseln auf Platform
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
 
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
-Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, die Sie verwenden können, um Benutzer mit gerätebezogenen Variablen über alle Eigenschaften in Ihrem Audience Manager-Konto hinweg anzusprechen.
+Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, die Sie zur Zielgruppe von Benutzern mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto verwenden können.
 
-## Zweck der Variablen auf Plattformebene {#platform-variables}
+## Zweck der Variablen auf Platform {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Mit Plattformvariablen können Sie Daten, die von einer bestimmten Site übergeben wurden, aufnehmen und für das Targeting über alle Eigenschaften in Ihrem [!DNL Audience Manager] Konto hinweg verfügbar machen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei der Schlüssel dem folgenden vorangestellt wird `d_` .
+Mithilfe von Variablen auf Platform können Sie Daten, die von einer bestimmten Site übergeben werden, für das Targeting in allen Eigenschaften Ihres [!DNL Audience Manager] Kontos nutzen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei der Schlüssel dem folgenden vorangestellt wird `d_` .
 
-## Vom Benutzeragent definierte Schlüssel auf Plattformebene {#keys-user-agent}
+## Vom Benutzeragent definierte Platformen {#keys-user-agent}
 
 Die [!UICONTROL Data Collection Servers] Werte für diese Schlüssel werden aus dem [Benutzeragenten-Header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` Anforderungen extrahiert. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas] Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie aus dem Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gebräuchlichsten Schlüssel](assets/device_keys.csv)nach [!UICONTROL Device Atlas] Messungen herunter.
 
