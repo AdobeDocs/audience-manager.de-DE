@@ -5,8 +5,12 @@ seo-title: Audience Manager-Code für Google Publisher-Tags
 solution: Audience Manager
 title: Audience Manager-Code für Google Publisher-Tags
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 1%
 
 ---
 
