@@ -5,8 +5,12 @@ seo-title: API-FAQs
 solution: Audience Manager
 title: API-FAQs
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +29,13 @@ Die Dokumentation zur [REST-API](../api/rest-api-main/rest-api-main.md) enthält
 
 <br> 
 
-**Warum werden[!UICONTROL DIL]Ereignisaufrufe mit[!UICONTROL GET]und[!UICONTROL POST]Methoden durchgeführt?**
+**Warum werden[!UICONTROL DIL]Ereignis-Aufrufe mit[!UICONTROL GET]und[!UICONTROL POST]Methoden durchgeführt?**
 
-[!UICONTROL DIL] übergibt Daten basierend auf der Länge der Abfragezeichenfolge des Ereignisaufrufs [!DNL Audience Manager] mit einer `GET` oder `POST` -Methode an. Dieses Verhalten ist standardmäßig in `GET` und `POST` Methoden integriert. Es ist nicht spezifisch für [!DNL Audience Manager].
+[!UICONTROL DIL] übergibt Daten basierend auf der Länge der Abfrage-Zeichenfolge des Ereignis-Aufrufs [!DNL Audience Manager] mit einer `GET` oder `POST` -Methode an. Dieses Verhalten ist standardmäßig in `GET` und `POST` Methoden integriert. Es ist nicht spezifisch für [!DNL Audience Manager].
 
-* [!UICONTROL DIL] Ereignisaufrufe mit `GET` URLs mit maximal 2048 Zeichen. Ein `GET` Ereignisaufruf enthält Daten in der URL als Abfragezeichenfolgenparameter, die als Schlüssel-Wert-Paare übergeben werden.
+* [!UICONTROL DIL] führt Ereignis-Aufrufe mit `GET` ein, wenn eine URL maximal 2048 Zeichen enthält. Ein `GET` Ereignis-Aufruf enthält Daten in der URL als Abfrage-Zeichenfolgenparameter, die als Schlüssel-Wert-Paare übergeben werden.
 
-* [!UICONTROL DIL] führt Ereignisaufrufe aus, `POST` wenn eine URL mehr als 2048 Zeichen enthält. Ein `POST` Ereignisaufruf enthält Daten im Hauptteil der Anforderung. [!UICONTROL DIL] Daten werden in Schlüssel-Wert-Paare eingesetzt und Informationen werden als Formulardaten und nicht in die URL-Abfragezeichenfolge übergeben.
+* [!UICONTROL DIL] führt Ereignis-Aufrufe mit `POST` aus, wenn eine URL mehr als 2048 Zeichen enthält. Ein `POST` Ereignis-Aufruf enthält Daten im Hauptteil der Anforderung. [!UICONTROL DIL] setzt Daten in Schlüssel-Wert-Paare und gibt Informationen als Formulardaten statt in die URL-Abfrage-Zeichenfolge weiter.
 
 Obwohl jede Methode Daten auf andere Weise weitergibt, hat dies keine Auswirkungen auf die Funktionalität. Bei beiden Methoden werden beispielsweise immer noch Daten an Ziele gesendet, ID-Synchronisierungen funktionieren normal und Sie können Eigenschaften aus Datensignalen erstellen. [!DNL Audience Manager]
 
