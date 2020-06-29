@@ -3,9 +3,13 @@ description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe de
 seo-description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe der Datenwissenschaft in Echtzeit in verschiedene Personengruppen zu klassifizieren.
 seo-title: Verwalten von PrognoseAudiencen
 solution: Audience Manager
-title: Prognostische Audiencen für Audience Manager
+title: Audience Manager Predictive Audiencen
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8259f07c91efa0efd88e8f7c87cb1829ffadd77d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
