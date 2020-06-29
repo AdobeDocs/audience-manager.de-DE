@@ -5,8 +5,9 @@ seo-title: Erste Schritte mit Profil-Zusammenführungsregeln
 solution: Audience Manager
 title: Erste Schritte mit Profil-Zusammenführungsregeln
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -54,7 +55,7 @@ So füllen Sie den [!UICONTROL Data Source Details] Abschnitt aus:
 
 * **[!UICONTROL Use as a Device Graph]**: Dieses Steuerelement steht nur für Konten zur Verfügung, die als Datenanbieter aufgeführt sind. Wenn Sie dieses Kontrollkästchen aktivieren, wird Ihre Datenquelle als Gerätediagramm erstellt und Sie können sie für andere [!DNL Audience Manager] Kunden freigeben. Wenden Sie sich an Ihren [!DNL Audience Manager] Berater, um sich als Datenanbieter einzurichten und anzugeben, für welche Kunden diese freigegeben werden [!UICONTROL Data Source] soll. Ihr Berater stellt Ihre Konto- und Gerätediagrammfreigabe über interne Bereitstellungsprozesse bereit.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: Mit diesem Steuerelement können Sie die Datenaufbewahrungszeit für inaktive Kunden-IDs festlegen. Dadurch wird bestimmt, wie lange Audience Manager Kunden-IDs in unserer Datenbank aufbewahrt, nachdem sie zuletzt auf der Audience Manager-Plattform angezeigt wurden. Der Standardwert ist 24 Monate (720 Tage). Der Mindestwert, den Sie einstellen können, ist 1 Monat und der Höchstwert 5 Jahre. Beachten Sie, dass wir alle Monate als 30 Tage zählen. Audience Manager führt einen Prozess aus, bei dem inaktive Kunden-IDs einmal wöchentlich gelöscht werden, entsprechend der für inaktive Kunden-IDs festgelegten Datenaufbewahrung.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: Mit diesem Steuerelement können Sie die Datenaufbewahrungszeit für inaktive Kunden-IDs festlegen. Dadurch wird bestimmt, wie lange Audience Manager Kunden-IDs in unserer Datenbank aufbewahren, nachdem sie zuletzt auf der Audience Manager-Plattform gesehen wurden. Der Standardwert ist 24 Monate (720 Tage). Der Mindestwert, den Sie einstellen können, ist 1 Monat und der Höchstwert 5 Jahre. Beachten Sie, dass wir alle Monate als 30 Tage zählen. Audience Manager führt einen Prozess aus, bei dem inaktive Kunden-IDs einmal wöchentlich gelöscht werden, entsprechend der für inaktive Kunden-IDs festgelegten Datenaufbewahrung.
 
 Mit den mit diesen Einstellungen verknüpften Textfeldern können Sie die [!UICONTROL Data Source] mit einem Alias umbenennen, der in den Optionen [für die](merge-rule-definitions.md)Profil-Merge-Regel angezeigt wird. Wenn Sie beispielsweise einen Alias zu **[!UICONTROL Use as Authenticated Profile]** hinzufügen, wird dieser Name in der [!UICONTROL Authenticated Profile Options] Liste angezeigt. Wenn Sie einem Alias einen Namen hinzufügen, **[!UICONTROL Use as a Device Graph]** wird dieser in der [!UICONTROL Device Options] Liste angezeigt.
 
@@ -125,7 +126,7 @@ Befolgen Sie diese Anweisungen, um den [!UICONTROL Adobe Experience Platform Ide
 
 Sie müssen eine [geräteübergreifende Datenquellen](#create-data-source) - und [Profil-Zusammenführungsregel](#create-profile-merge-rule) einrichten, *bevor* Sie diese Verfahren abschließen.
 
-## Kunden mit dem Identitätsdienst für Adobe Experience Platform {#id-service-customers}
+## Für Adobe Experience Platformen mit Identitätsdienst {#id-service-customers}
 
 Die [!UICONTROL Adobe Experience Platform Identity Service] und die neueste Version von [DIL](../../dil/dil-overview.md) werden beim Arbeiten mit [!UICONTROL Profile Merge Rules]DIL empfohlen. Sie müssen jedoch nicht die verwenden, [!UICONTROL Adobe Experience Platform Identity Service] um mit dieser Funktion zu arbeiten. Wenn Sie nur [!UICONTROL DIL]die [ältere DIL verwenden, lesen Sie den Abschnitt](#legacy-dil) unten.
 
