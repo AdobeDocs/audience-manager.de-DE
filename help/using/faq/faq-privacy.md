@@ -5,8 +5,9 @@ seo-title: Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung
 solution: Audience Manager
 title: Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
+feature: Data Governance and Privacy
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 5%
@@ -59,7 +60,7 @@ In der folgenden Tabelle werden die Speicherzeiten für verschiedene Datentypen 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-Server </p> </td> 
-   <td colname="col2"> <p> 14 Tage. </p> <p>Audience Manager löscht Benutzerdaten von unseren Edge-Servern 14 Tage nach der letzten Anzeige eines Benutzers auf der Audience Manager-Plattform. Wenn <span class="keyword"> Audience Manager</span> die Benutzerdaten innerhalb dieses 14-tägigen Zyklus aufzeichnet, behalten wir diese Daten weitere 14 Tage bei. Wenn der Benutzer nach Ablauf des Zeitraums von 14 Tagen wieder aktiv wird, kommt es zu einer Verzögerung zwischen der ersten Ansicht der neuen Seite und dem Zeitpunkt, zu dem der Benutzer handlungsfähig wird. Nach mehr als 14 Tagen Inaktivität dauert es 6-18 Stunden, bis das gesamte Profil wieder zum Edge Center zurückgebracht wird. </p> </td> 
+   <td colname="col2"> <p> 14 Tage. </p> <p>Audience Manager löscht Benutzerdaten von unseren Edge-Servern 14 Tage nach der letzten Anzeige eines Audience Managers. Wenn <span class="keyword"> Audience Manager</span> die Benutzerdaten innerhalb dieses 14-tägigen Zyklus aufzeichnet, behalten wir diese Daten weitere 14 Tage bei. Wenn der Benutzer nach Ablauf des Zeitraums von 14 Tagen wieder aktiv wird, kommt es zu einer Verzögerung zwischen der ersten Ansicht der neuen Seite und dem Zeitpunkt, zu dem der Benutzer handlungsfähig wird. Nach mehr als 14 Tagen Inaktivität dauert es 6-18 Stunden, bis das gesamte Profil wieder zum Edge Center zurückgebracht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rohprotokolle </p> </td> 
