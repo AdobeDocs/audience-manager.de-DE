@@ -1,23 +1,27 @@
 ---
-description: Listet die Makros auf, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
-seo-description: Listet die Makros auf, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
+description: Liste der Makros, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
+seo-description: Liste der Makros, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
 seo-title: Ausgehende Vorlagenmakros
 solution: Audience Manager
 title: Ausgehende Vorlagenmakros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 3%
 
 ---
 
 
 # Ausgehende Vorlagenmakros {#outbound-template-macros}
 
-Listet die Makros auf, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
+Liste der Makros, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Header-Makros und Inhaltsmakros.
 
 ## Dateiname und Dateikopfzeilen-Makros {#file-name-header-macros}
 
-In der Tabelle sind die Makros aufgeführt und beschrieben, die Sie im Dateinamen verwenden können, sowie die Header-Felder. Codebeispiele finden Sie unter Beispiele für [ausgehende Makros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Die Tabelle enthält eine Liste und beschreibt die Makros, die Sie im Dateinamen und zur Definition von Kopfzeilenfeldern verwenden können. Codebeispiele finden Sie unter Beispiele für [ausgehende Makros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -29,7 +33,7 @@ In der Tabelle sind die Makros aufgeführt und beschrieben, die Sie im Dateiname
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ASCII_SOH </code> </p> </td> 
-   <td colname="col2"> <p>Ein nicht druckbares ASCII-Zeichen. Es zeigt den Anfang einer Zeile oder eines Inhaltsabschnitts an. Sie kann auch zum Trennen von Datenspalten in einer Datei verwendet werden. </p> </td> 
+   <td colname="col2"> <p>Ein nicht druckbares ASCII-Zeichen. Er zeigt den Beginn einer Zeile oder eines Inhaltsabschnitts an. Sie kann auch zum Trennen von Datenspalten in einer Datei verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -91,7 +95,7 @@ In der Tabelle sind die Makros aufgeführt und beschrieben, die Sie im Dateiname
 
 ## Inhaltsmakros {#content-macros}
 
-Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie unter Beispiele für [ausgehende Makros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Makros, die zum Formatieren des Inhalts einer Datendatei verwendet werden. Codebeispiele finden Sie unter Beispiele für [ausgehende Makros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -111,7 +115,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Gibt eine Liste mit mehreren IDs für einen Datenpartner zurück. Dies ist nützlich, wenn Sie eine große Organisation mit mehreren Unterteilungen oder anderen Unternehmensgruppen haben, für die Sie Daten freigeben dürfen. Dieses Makro gibt eine Liste der IDs für diese untergeordneten Gruppen zurück. </p> </td> 
+   <td colname="col2"> <p>Gibt eine Liste zurück, die mehrere IDs für einen Datenpartner enthält. Dies ist nützlich, wenn Sie eine große Organisation mit mehreren Unterteilungen oder anderen Unternehmensgruppen haben, für die Sie Daten freigeben dürfen. Dieses Makro gibt eine Liste der IDs für diese untergeordneten Gruppen zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -123,7 +127,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
-   <td colname="col2"> <p>Diese Kombination von Makros erstellt eine bedingte Anweisung, die die Segmente auflistet, zu denen Benutzer gehören und aus denen sie entfernt wurden. Gibt eine leere Zeichenfolge zurück, wenn beide Bedingungen nicht erfüllt sind oder keine Daten vorliegen. </p> </td> 
+   <td colname="col2"> <p>Diese Kombination von Makros erstellt eine bedingte Anweisung, zu der die Listen gehören, zu denen die Benutzer gehören und aus denen sie entfernt wurden. Gibt eine leere Zeichenfolge zurück, wenn beide Bedingungen nicht erfüllt sind oder keine Daten vorliegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
@@ -159,11 +163,11 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Gibt eine Liste der ggf. entfernten Segmente zurück. </p> </td> 
+   <td colname="col2"> <p>Gibt eine Liste von Segmenten zurück, die entfernt wurden (sofern vorhanden). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Gibt eine Liste der Segmente in einer Liste zurück. Akzeptiert die folgenden optionalen Argumente: </p> 
+   <td colname="col2"> <p>Gibt eine Liste von Segmenten in einer Liste zurück. Akzeptiert die folgenden optionalen Argumente: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: Segment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Kunden-Segment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
@@ -171,7 +175,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Gibt <code> 5 </code>einen statischen, fest programmierten Wert zurück, der Daten als Segmentdaten identifiziert. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Nicht mehr verwendet. Nicht anwenden. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Ein Unix-Zeitstempel, der angibt, wann ein Segment zuletzt realisiert wurde. </li> 
-    </ul> <p>Geben Sie diese Variablen in geschweifte Klammern nach dem Makro ein. Beispielsweise trennt dieser Code die Ergebnisse mit einem Senkzeichen "|": <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
+    </ul> <p>Geben Sie diese Variablen in geschweifte Klammern nach dem Makro ein. Beispielsweise trennt dieser Code die Ergebnisse mit einem senkrechten "|"-Zeichen: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -200,7 +204,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Gibt eine Liste der Eigenschaften zurück. Akzeptiert die folgenden optionalen Argumente: </p> 
+   <td colname="col2"> <p>Gibt eine Liste von Eigenschaften zurück. Akzeptiert die folgenden optionalen Argumente: </p> 
     <ul id="ul_E9CDC4DD47B9435086FF42143D9E8177"> 
      <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code> type </code>: Identifiziert die Eigenschaftentypen nach numerischer ID. Rückgabe: 
       <ul id="ul_D2357E6CF47B4EBC8D3772D17B2EADA3"> 
@@ -209,7 +213,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>: Eigenschaften-ID. </li> 
      <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>: Das letzte Mal, dass die Eigenschaft realisiert wurde. Unix-Zeitstempel. </li> 
-    </ul> <p>Geben Sie diese Variablen in geschweifte Klammern nach dem Makro ein. Beispielsweise trennt dieser Code die Ergebnisse mit einem Senkzeichen "|": <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
+    </ul> <p>Geben Sie diese Variablen in geschweifte Klammern nach dem Makro ein. Beispielsweise trennt dieser Code die Ergebnisse mit einem senkrechten "|"-Zeichen: <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
