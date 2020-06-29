@@ -1,12 +1,16 @@
 ---
-description: Inwieweit beeinflusst das Intervall für die Gültigkeitsdauer der Eigenschaften die Segmentmitgliedschaft.
-seo-description: Inwieweit beeinflusst das Intervall für die Gültigkeitsdauer der Eigenschaften die Segmentmitgliedschaft.
+description: Inwieweit beeinflusst das Intervall für die Gültigkeitsdauer der Eigenschaften (TTL) die Segmentmitgliedschaft.
+seo-description: Inwieweit beeinflusst das Intervall für die Gültigkeitsdauer der Eigenschaften (TTL) die Segmentmitgliedschaft.
 seo-title: Erläuterung zu Segment- und Eigenschaftenzeit
 solution: Audience Manager
 title: Erläuterung der Segmentzeit bis zur Live-Übertragung
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +23,13 @@ Einfluss des Intervalls [!UICONTROL time-to-live] für Eigenschaften ([!DNL TTL]
 
 ## Zeit bis zum Live
 
-[!DNL TTL] definiert, wie lange ein Besucher der Site nach dem letzten Ereignis zur Qualifizierung der Eigenschaften in einem Segment verbleibt. [!DNL TTL] wird auf Eigenschaften und nicht auf Segmenten eingestellt. Besucher werden aus einem Segment ausgeschlossen, wenn sie sich vor Ablauf des [!DNL TTL] Intervalls nicht für eine Eigenschaft qualifizieren. Die Standardeinstellung [!DNL TTL] für neue Eigenschaften ist 120 Tage. Bei Festlegung auf 0 Tage läuft die Eigenschaft nie ab. [Legen Sie den TTL-Wert](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) fest, wenn Sie eine Eigenschaft im Abschnitt der Benutzeroberfläche für die [!UICONTROL Advanced Options] Eigenschaftserstellung erstellen oder bearbeiten.
+[!DNL TTL] definiert, wie lange ein Site-Besucher nach dem Ereignis der letzten Eigenschaftenqualifikation in einem Segment verbleibt. [!DNL TTL] wird auf Eigenschaften und nicht auf Segmenten eingestellt. Besucher werden aus einem Segment ausgeschlossen, wenn sie sich nicht vor Ablauf des [!DNL TTL] Intervalls für eine Eigenschaft qualifizieren. Die Standardeinstellung [!DNL TTL] für neue Eigenschaften ist 120 Tage. Bei Festlegung auf 0 Tage läuft die Eigenschaft nie ab. [Legen Sie den TTL-Wert](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) fest, wenn Sie eine Eigenschaft im Abschnitt der Benutzeroberfläche für die [!UICONTROL Advanced Options] Eigenschaftserstellung erstellen oder bearbeiten.
 
 ### 1 Tag TTL Erläuterung
 
-Bei der Einstellung [!DNL TTL] auf 1 Tag beginnt der TTL-Timer am nächsten Tag nach der Erkennung der Eigenschaften, wobei die Stunden, die im Tag der Eigenschaftenrealisierung verbleiben, nicht berücksichtigt werden.
+Bei der Einstellung [!DNL TTL] auf 1 Tag wird der TTL-Timer am nächsten Tag nach der Erkennung der Eigenschaften Beginn, wobei die Stunden, die im Tag der Eigenschaftenrealisierung verbleiben, nicht berücksichtigt werden.
 
-Audience Manager berechnet den [!DNL TTL] Ablauf von Eigenschaften mit 1 Tag [!DNL TTL] anhand der folgenden Formel:
+Audience Manager berechnet die [!DNL TTL] Ablaufzeit für Eigenschaften mit 1 Tag [!DNL TTL] anhand der folgenden Formel:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
