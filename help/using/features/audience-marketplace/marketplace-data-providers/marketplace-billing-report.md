@@ -1,27 +1,31 @@
 ---
-description: Erstellen Sie einen Audience Marketplace-Abrechnungsbericht, um die Datenfeed-Nutzung für den vorherigen Monat für jeden Ihrer Abonnenten anzuzeigen. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
-seo-description: Erstellen Sie einen Audience Marketplace-Abrechnungsbericht, um die Datenfeed-Nutzung für den vorherigen Monat für jeden Ihrer Abonnenten anzuzeigen. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
+description: Erstellen Sie einen Audience Marketplace-Abrechnungsbericht, um die Nutzung von Ansichten-Datenfeeds für den Vormonat für jeden Ihrer Abonnenten zu ermöglichen. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
+seo-description: Erstellen Sie einen Audience Marketplace-Abrechnungsbericht, um die Nutzung von Ansichten-Datenfeeds für den Vormonat für jeden Ihrer Abonnenten zu ermöglichen. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
 seo-title: Rechnungsstellung für Datenfeed-Anbieter
 solution: Audience Manager
 title: Rechnungsstellung für Datenfeed-Anbieter
-topic: DIL-API
+topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 2%
 
 ---
 
 
 # Rechnungsstellung für Datenfeed-Anbieter {#billing-for-data-feed-providers}
 
-Erstellen Sie einen [!DNL Audience Marketplace] Rechnungsbericht, um die Nutzung von Datenfeeds für den vorherigen Monat für jeden Ihrer Abonnenten anzuzeigen. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
+Erstellen Sie einen [!DNL Audience Marketplace] Rechnungsbericht zur Ansicht der Datenfeed-Nutzung für den Vormonat für jeden Ihrer Abonnenten. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
 
 ## Herunterladen eines Rechnungsberichts {#download-billing-report}
 
 So laden Sie einen Bericht herunter:
 
 1. Geh zu **[!UICONTROL Audience Marketplace > Receivables]**.
-1. Klicken Sie auf **[!UICONTROL Generate Billing Report]**.
+1. Klicken **[!UICONTROL Generate Billing Report]**.
 
 ## Berichtsfelder definiert {#report-fields-defined}
 
@@ -41,7 +45,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Name des Datenanbieters</span></b> </p> </td> 
-   <td colname="col2"> <p>Name Ihres Unternehmens oder Ihrer Organisation. </p> </td> 
+   <td colname="col2"> <p>Ihre Firma oder Ihr Firmenname. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Käufer PID</span></b> </p> </td> 
@@ -49,7 +53,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Käufername</span></b> </p> </td> 
-   <td colname="col2"> <p>Name des Unternehmens oder der Organisation des Käufers. </p> </td> 
+   <td colname="col2"> <p>Name der Firma oder des Unternehmens des Käufers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Feed-ID</span></b> </p> </td> 
@@ -73,12 +77,12 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
    <td colname="col2"> <p>Gibt CPM- oder Pauschalabrechnung an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Listenpreis</span></b> </p> </td> 
-   <td colname="col2"> <p>Die Abonnementgebühr für jeden Datenfeed. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Liste Preis</span></b> </p> </td> 
+   <td colname="col2"> <p>Die Abonnement-Gebühr für jeden Datenfeed. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Rabattpreis</span></b> </p> </td> 
-   <td colname="col2"> <p>Die Abonnementgebühr für einen diskontierten Data Feed. Siehe <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Rabatte für Datenanbieter</a>. </p> </td> 
+   <td colname="col2"> <p>Die Abonnement-Gebühr für einen diskontierten Data Feed. Siehe <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Rabatte für Datenanbieter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Einheiten</span></b> </p> </td> 
@@ -90,7 +94,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Gesamtkosten</span></b> </p> </td> 
-   <td colname="col2"> <p>Der Betrag, den <span class="keyword"> Audience Manager</span> einem Käufer in Rechnung stellt. </p> </td> 
+   <td colname="col2"> <p>Der Betrag <span class="keyword"> Audience Manager</span> belastet den Käufer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Abrechnungszeitraum</span></b> </p> </td> 
@@ -98,22 +102,22 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Entrydatum</span></b> </p> </td> 
-   <td colname="col2"> <p>Das Datum, an dem ein Käufer Abonnement-/Nutzungsinformationen eingegeben hat. </p> </td> 
+   <td colname="col2"> <p>Das Datum, an dem der Käufer Abonnement-/Nutzungsinformationen eingegeben hat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Startdatum des Abonnements</span></b> </p> </td> 
-   <td colname="col2"> <p>Das Datum, an dem ein Käufer sein Datenfeed-Abonnement gestartet hat. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Abonnement Beginn</span></b> </p> </td> 
+   <td colname="col2"> <p>Das Datum, an dem ein Käufer sein Data Feed-Abonnement gestartet hat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Enddatum des Abonnements</span></b> </p> </td> 
-   <td colname="col2"> <p>Das Datum, an dem ein Käufer sein Datenfeed-Abonnement beendet hat. </p> </td> 
+   <td colname="col2"> <p>Das Datum, an dem ein Käufer sein Data Feed-Abonnement beendet hat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Markierung</span></b> </p> </td> 
    <td colname="col2"> <p> <i>Nur</i>für CPM-Feeds. Zu den Flag-Optionen gehören: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Gibt an, dass ein Abonnent Nutzungsinformationen an <span class="keyword"> Audience Manager</span>gemeldet hat. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Gibt an, dass ein Abonnent keine Nutzungsinformationen an <span class="keyword"> Audience Manager</span>gemeldet hat. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Gibt an, dass ein Abonnent dem <span class="keyword"> Audience Manager</span>Nutzungsinformationen gemeldet hat. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Gibt an, dass ein Abonnent keine Nutzungsinformationen an den <span class="keyword"> Audience Manager</span>gemeldet hat. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
