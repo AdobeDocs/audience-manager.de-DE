@@ -4,8 +4,12 @@ seo-description: Lassen Sie die Schlüsselwertfelder leer, um nach einem breiter
 seo-title: Suchsignale nach Filtern
 title: Suchsignale nach Filtern
 uuid: 99b00d48-6415-4cb1-848a-5401b34c43a6
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
