@@ -5,8 +5,12 @@ seo-title: Namensanforderungen für Schlüsselvariablen
 solution: Audience Manager
 title: Namensanforderungen für Schlüsselvariablen
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
+feature: Traits
 translation-type: tm+mt
-source-git-commit: bdbc2525a13eb04898b0a844ba478cde07e83252
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +31,4 @@ Der Name [!UICONTROL Expression Builder]einer Schlüsselvariablen in einem Schl�
 
 ## Präfix der Schlüsselvariablen mit `c_`
 
-Das `c_` Präfix ist *immer* erforderlich, wenn die Parameter, die Daten über eine Ereignisaufruf-URL senden, diese Syntax verwenden.
+Das `c_` Präfix ist *immer* erforderlich, wenn die Parameter, die Daten über eine Ereignis-Aufruf-URL senden, diese Syntax verwenden.
