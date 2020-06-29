@@ -5,8 +5,9 @@ seo-title: Audience Manager-API-Codemigration
 solution: Audience Manager
 title: Audience Manager-API-Codemigration
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
+feature: API
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 2%
@@ -16,7 +17,7 @@ ht-degree: 2%
 
 # Audience Manager API Code Migration {#audience-manager-api-code-migration}
 
-Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie wollen wir mit zuverlässiger, genauer [!DNL API] Dokumentation arbeiten. Infolgedessen schreiben wir unseren [!DNL API] Inhalt neu [!DNL Swagger] und verschieben ihn an einen neuen Ort. Diese Änderungen sollen Ihnen helfen, Ihre Benutzererfahrung mit dem Audience Manager- [!DNL API] Code zu verbessern.
+Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie wollen wir mit zuverlässiger, genauer [!DNL API] Dokumentation arbeiten. Infolgedessen schreiben wir unseren [!DNL API] Inhalt neu [!DNL Swagger] und verschieben ihn an einen neuen Ort. Diese Änderungen sollen dazu beitragen, dass Sie mit dem Audience Manager- [!DNL API] Code besser umgehen können.
 
 ## Movin&#39; On Up {#code-migration-details}
 
