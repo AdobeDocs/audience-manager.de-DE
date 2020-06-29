@@ -6,8 +6,12 @@ seo-title: Algorithmisches Modell erstellen
 solution: Audience Manager
 title: Algorithmisches Modell erstellen
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 0%
 
 ---
 
@@ -94,7 +98,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Algorithmus auswählen (3)</b> </p> </td> 
-   <td colname="col2"> <p>Der Modellaufbau funktioniert derzeit nur mit unserem proprietären <span class="keyword"> Eigenschaften-Gewichtung</span> -Algorithmus. <span class="keyword"> Audience Manager</span> kann in späteren Versionen weitere Algorithmusfunktionen hinzufügen. </p> </td>
+   <td colname="col2"> <p>Der Modellaufbau funktioniert derzeit nur mit unserem proprietären <span class="keyword"> Eigenschaften-Gewichtung</span> -Algorithmus. <span class="keyword"> Audience Manager</span> kann in späteren Versionen weitere algorithmische Funktionen hinzufügen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Modelldaten aus Datenquelle auswählen (4)</b> </p> </td> 
