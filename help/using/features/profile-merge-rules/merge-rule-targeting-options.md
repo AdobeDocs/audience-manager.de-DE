@@ -5,8 +5,12 @@ seo-title: Allgemeine Anwendungsfälle für Profil-Zusammenführungsregeln
 solution: Audience Manager
 title: Allgemeine Anwendungsfälle für Profil-Zusammenführungsregeln
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ## Geräte-Targeting {#device-personalization}
 
-Dieses Szenario gilt für Marketingexperten, die ein einzelnes Gerätesegment für ein in Audience Manager definiertes Audiencen-Profil auswerten möchten, um eine konsistente Geräteerfahrung mit Targeting-Plattformen zu erzielen, die Geräte-IDs (DSPs, Personalisierungsplattformen vor Ort und andere gerätebasierte Targeting-Plattformen) unterstützen, wobei die Benutzerauthentifizierung nicht berücksichtigt wird.
+Dieses Szenario gilt für Marketingexperten, die ein einzelnes Gerätesegment für ein in Audience Manager definiertes Audiencen-Profil auswerten möchten, um eine konsistente Darstellung für das Gerät mithilfe von Targeting-Plattformen zu gewährleisten, die Geräte-IDs (DSPs, Personalisierungsplattformen vor Ort und andere gerätebasierte Targeting-Plattformen) unterstützen, wobei die Benutzerauthentifizierung nicht berücksichtigt wird.
 
 Um eine Regel zu erstellen, die nur Profil des Geräts Zielgruppe, wählen Sie **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
@@ -43,7 +47,7 @@ Das Marketing-Team des Geschäfts kann die **[!UICONTROL Current Authenticated P
 
 ![current-no-device](assets/current-no-device.png)
 
-Durch die Verwendung dieser Regel ignoriert Audience Manager vollständig das Profil des Geräts, indem John die CRM-ID für das Segment qualifiziert und Janes CRM-ID nicht qualifiziert wird.
+Durch die Verwendung dieser Regel ignoriert Audience Manager das Profil des Geräts vollständig und qualifiziert die CRM-ID von John für das Segment und nicht die CRM-ID von Jane.
 
 ![shared-device-targeting](assets/shared-device-targeting.png)
 
@@ -57,7 +61,7 @@ Betrachten wir ein Segment, das aus Haushalten mit einem Einkommen von über 100
 
 Audience Manager führt alle Geräte- und geräteübergreifenden Profil-Paare zusammen, um festzustellen, ob der zusammengeführte Eigenschaftensatz für das Segment geeignet ist. Da Audience Manager jedes Profil auswertet, das in der Zusammenführung enthalten war, können sowohl ein Geräte-Profil als auch ein Profil für den Haushalt segmentiert werden.
 
-Die Verbindung zwischen dem Profil und dem Haushaltsgerät ermöglicht es Audience Manager, sich [!DNL Household 2] für das Segment zu qualifizieren, jedoch nicht [!DNL Household 1]. Von [!DNL Household 2]hier aus qualifiziert sich nur [!DNL Device 3] das Segment. Dadurch [!UICONTROL Profile Merge Rule] konnte der Marketingspezialist eine einheitliche Marketingbotschaft an ein einzelnes Gerät ([!DNL Device 3]) und den weiteren Haushalt ([!DNL Household 2]) senden.
+Die Verbindung zwischen dem Profil des Geräts und dem des Haushaltsgeräts ermöglicht es dem Audience Manager, sich [!DNL Household 2] für das Segment zu qualifizieren, jedoch nicht [!DNL Household 1]. Von [!DNL Household 2]hier aus qualifiziert sich nur [!DNL Device 3] das Segment. Dadurch [!UICONTROL Profile Merge Rule] konnte der Marketingspezialist eine einheitliche Marketingbotschaft an ein einzelnes Gerät ([!DNL Device 3]) und den weiteren Haushalt ([!DNL Household 2]) senden.
 
 ![Haushaltsführung](assets/household-management.png)
 
@@ -69,7 +73,7 @@ Die Verbindung zwischen dem Profil und dem Haushaltsgerät ermöglicht es Audien
 
 Dieses Targeting-Szenario steht nur Kunden zur Verfügung, die das [!DNL People-Based Destinations] Add-on gekauft haben. Diese Regel ermöglicht es Marketingexperten, Kunden anhand ihrer eigenen, authentifizierten Daten zu erreichen.
 
-Nehmen wir einmal an, ein Online-Händler möchte über soziale Plattformen zu bestehenden Kunden gelangen und ihnen personalisierte Angebot auf Basis ihrer bisherigen Bestellungen zeigen. Mit [!UICONTROL People-Based Destinations]dieser Funktion können sie Hash-E-Mail-Adressen von sich aus [!DNL CRM] in Audience Manager erfassen, Segmente aus den Offlinedaten erstellen und diese Segmente an die Social-Plattformen senden, für die sie werben möchten, indem sie diese Hash-ID verwenden und ihre Werbeausgaben optimieren.
+Nehmen wir einmal an, ein Online-Händler möchte über soziale Plattformen zu bestehenden Kunden gelangen und ihnen personalisierte Angebot auf Basis ihrer bisherigen Bestellungen zeigen. Mit [!UICONTROL People-Based Destinations]dieser Funktion können sie Hash-E-Mail-Adressen von sich aus [!DNL CRM] in Audience Manager aufnehmen, Segmente aus den Offlinedaten erstellen und diese Segmente an die Social-Plattformen senden, für die sie werben möchten, indem sie diese Hash-ID verwenden und ihre Werbeausgaben optimieren.
 
 Weitere Informationen zu dieser Option finden Sie unter [Benutzerbasierte Ziele](../destinations/people-based-destinations-overview.md).
 
@@ -98,12 +102,12 @@ Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile
   </tr> 
   <tr> 
    <td colname="col1"> <p>Optionen für externe Gerätediagramme </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Profil Merge</span> -Regeln, die mit der <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud-Gerätekooperation</a> oder einem externen Gerätediagramm in <span class="keyword"> Audience Manager</span> erstellt wurden, eignen sich ideal für: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profil Merge</span> -Regeln, die mit dem <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> oder einem externen Gerätediagramm, das mit <span class="keyword"> Audience Manager</span> integriert ist, erstellt wurden, eignen sich ideal für: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Digitale Eigenschaften mit niedriger Kundenauthentifizierung. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Umfassende Kampagnen mit hoher Reichweite. </li> 
       <li id="li_14AEC54CE34440889A3A36324EC6F497">Anwendungsfälle, bei denen Kunden sich nicht in einem authentifizierten Zustand befinden müssen, um sich für die Segmentierung zu qualifizieren. </li> 
-     </ul> </p> <p> <p>Tipp: Die <span class="keyword"> Gerätekooperation</span> ist die beste Option, wenn Sie ein <span class="keyword"> Experience Cloud</span> -Kunde mit niedriger Authentifizierung und keiner Beziehung zu einem Device Graph Provider sind. </p> </p> </td> 
+     </ul> </p> <p> <p>Tipp: Die <span class="keyword"> Device Co-op</span> ist die beste Option, wenn Sie ein <span class="keyword"> Experience Cloud</span> -Kunde mit niedriger Authentifizierung sind und keine Beziehung zu einem Device Graph Provider haben. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
