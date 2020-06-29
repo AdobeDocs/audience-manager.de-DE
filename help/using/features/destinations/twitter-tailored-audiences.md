@@ -4,8 +4,9 @@ seo-description: In diesem Artikel wird beschrieben, wie Sie Twitter-Audiencen f
 seo-title: Konfigurieren von auf Twitter zugeschnittenen Audiencen als gerätebasiertes Selbstbedienungsziel
 solution: Audience Manager
 title: Konfigurieren von auf Twitter zugeschnittenen Audiencen als gerätebasiertes Selbstbedienungsziel
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 1%
