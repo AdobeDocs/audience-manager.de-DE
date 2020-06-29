@@ -5,21 +5,25 @@ seo-title: Abgeleitete Signale
 solution: Audience Manager
 title: Abgeleitete Signale
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
+feature: Traits
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
 
 # Abgeleitete Signale {#derived-signals}
 
-Ein [!UICONTROL derived signal] qualifiziert Site-Besucher für zusätzliche Eigenschaften, basierend auf einer Eigenschaft, die sie bereits gesehen haben. Mit anderen Worten, eine zusätzliche Eigenschaftsqualifikation kann von einer derzeit dargestellten Eigenschaft abgeleitet werden, selbst wenn ein Benutzer die neue Eigenschaft noch nie zuvor gesehen hat.
+Ein [!UICONTROL derived signal] qualifiziert Site-Besucher für zusätzliche Eigenschaften basierend auf einer Eigenschaft, die sie bereits gesehen haben. Mit anderen Worten, eine zusätzliche Eigenschaftsqualifikation kann von einer derzeit dargestellten Eigenschaft abgeleitet werden, selbst wenn ein Benutzer die neue Eigenschaft noch nie zuvor gesehen hat.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Zweck abgeleiteter Signale
 
-In [!DNL Audience Manager]diesem Fall können Sie eine Beziehung zwischen Signalen (oder Eigenschaftsregeln) herstellen, die während eines Ereignisaufrufs an andere, angegebene Signale oder Eigenschaften weitergegeben werden. Nehmen wir beispielsweise an, dass ein Ereignisaufruf in einem Signal, das aus dem Schlüsselwert [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`) besteht, weitergegeben wird. [!DNL Audience Manager] würde dieses Signal mit allen anderen, die mit dem [!UICONTROL derived signals] Tool erstellt wurden, verbinden. Die zugehörigen Signale können alle von Ihnen angegebenen Schlüsselwerte sein, sind jedoch am nützlichsten, wenn sie mit bereits als [!UICONTROL Trait Builder] Regeln eingerichteten Signalen verknüpft werden. Beispiel: Wenn eine Benutzeraktion das Signal auslöst, kann [!DNL "product = new car"] der Benutzer in der unten stehenden Abbildung auch Eigenschaften erkennen, die durch die Zielschlüssel- und -wertsignale definiert wurden.
+In [!DNL Audience Manager]diesem Fall können Sie eine Beziehung zwischen Signalen (oder Eigenschaftsregeln) herstellen, die während eines Ereignis-Aufrufs an andere, festgelegte Signale oder Eigenschaften weitergegeben werden. Nehmen wir beispielsweise an, dass ein Ereignis-Aufruf in einem , das aus dem Schlüsselwert [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`) besteht, gesendet wird. [!DNL Audience Manager] würde dieses Signal mit allen anderen, die mit dem [!UICONTROL derived signals] Tool erstellt wurden, verbinden. Die zugehörigen Signale können alle von Ihnen angegebenen Schlüsselwerte sein, sie sind jedoch am nützlichsten, wenn sie mit bereits als [!UICONTROL Trait Builder] Regeln eingerichteten Signalen verknüpft werden. Beispiel: Wenn eine Benutzeraktion das Signal auslöst, kann [!DNL "product = new car"] der Benutzer in der unten stehenden Abbildung auch Eigenschaften erkennen, die durch die Schlüssel- und Wertsignale der Zielgruppe definiert wurden.
 
 ![](assets/derived_signal_example.png)
 
@@ -35,12 +39,12 @@ To create a [!UICONTROL derived signal]:
 
 1. Wählen Sie **[!UICONTROL Derived Signals]** aus dem [!UICONTROL Tools] Menü.
 1. Geben Sie ein:
-   * *(Optional)*[!UICONTROL Integration Code]
+   * *(Optional)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
    * [!UICONTROL Source Value]
    * [!UICONTROL Target Key]
    * [!UICONTROL Target Value]
-1. Klicken Sie auf **[!UICONTROL Add Signal]**.
+1. Klicken **[!UICONTROL Add Signal]**.
 
 >[!NOTE]
 >
@@ -59,4 +63,4 @@ To edit a [!UICONTROL derived signal]:
 
 <!-- t_tb_delete_derived.xml -->
 
-Um ein Signal zu löschen, halten Sie den Mauszeiger über das Signal und klicken Sie auf [!UICONTROL derived signal]**[!UICONTROL Delete]**.
+Um ein Signal zu löschen, [!UICONTROL derived signal]halten Sie den Mauszeiger über das Signal und klicken Sie auf **[!UICONTROL Delete]**.
