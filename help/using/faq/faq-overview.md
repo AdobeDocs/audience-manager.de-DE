@@ -1,18 +1,22 @@
 ---
-description: Häufige Fragen und Probleme im Audience Manager
-seo-description: Häufige Fragen und Probleme im Audience Manager
-seo-title: Häufig gestellte Fragen zu Audience Manager
+description: Allgemeine Fragen und Fragen zum Audience Manager.
+seo-description: Allgemeine Fragen und Fragen zum Audience Manager.
+seo-title: Häufig gestellte Fragen zu Audience Managern
 solution: Audience Manager
-title: Häufig gestellte Fragen zu Audience Manager
+title: Häufig gestellte Fragen zu Audience Managern
+feature: Overview
 translation-type: tm+mt
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
 
-# Häufig gestellte Fragen zu Audience Manager {#audience-manager-faq}
+# Häufig gestellte Fragen zu Audience Managern {#audience-manager-faq}
 
-Dieser Abschnitt Aggregat eine Liste der FAQ-Kategorien für verschiedene Funktionen von Audience Manager.
+Dieser Abschnitt Aggregat eine Liste der FAQ-Kategorien für verschiedene Funktionalitäten des Audience Managers.
 
 * [API-FAQs](faq-api.md)
 * [Häufig gestellte Fragen zu Audience Lab](faq-audience-lab.md)
