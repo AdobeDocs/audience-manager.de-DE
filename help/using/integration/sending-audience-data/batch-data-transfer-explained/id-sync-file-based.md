@@ -5,8 +5,12 @@ seo-title: Anforderungen an den Namen und den Inhalt von ID-Synchronisierungsdat
 solution: Audience Manager
 title: Anforderungen an den Namen und den Inhalt von ID-Synchronisierungsdateien
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +21,7 @@ Beschreibt die erforderlichen Felder, Syntax und Benennungskonventionen für die
 
 >[!NOTE]
 >
->Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )`usw.) in diesem Dokument Codeelemente und Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
+>Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument Codeelemente und Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
 
 ## Syntax und Beispiele für Dateinamen {#file-name-syntax}
 
@@ -53,7 +57,7 @@ ID-Dateinamen enthalten die folgenden erforderlichen und optionalen Elemente:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
-   <td colname="col2"> <p>Ein 10-stelliger UNIX-Zeitstempel in Sekunden. Mit dem Zeitstempel wird jeder Dateiname eindeutig. </p> </td> 
+   <td colname="col2"> <p>Ein 10-stelliger UNIX-Zeitstempel in Sekunden. Der Zeitstempel hilft, jeden Dateinamen eindeutig zu machen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .sync</code> </p> </td> 
@@ -78,11 +82,11 @@ Die folgenden Beispiele zeigen korrekt formatierte Dateinamen. Ihre Dateinamen k
  <li> <code> adobe_id_111_222_333_444_1454442149.sync</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
- <li> <code>c2c_id_123_898_145442149.sync.gz</code> </li> 
+ <li> <code>c2c_id_123_898_1454442149.sync.gz</code> </li> 
 </ul>
 
 >[!NOTE]
-> Informationen zur Benennung der ID-Synchronisierungsdatei (c2c-Präfix) für benutzerbasierte Ziele finden Sie unter [Workflow A - Personalisierung auf Basis aller Online-Aktivitäten in Kombination mit Offline-Daten](../../../features/destinations/people-based-destinations-workflow-combined.md) oder [Workflow B - Personalisierung auf Basis von Nur-Offline-Daten](../../../features/destinations/people-based-destinations-workflow-offline.md).
+> Informationen zur Benennung der ID-Synchronisierungsdatei (c2c-Präfix) für benutzerbasierte Ziele finden Sie unter [Arbeitsablauf A - Personalisierung auf Basis der gesamten Online-Aktivität in Kombination mit Offline-Daten](../../../features/destinations/people-based-destinations-workflow-combined.md) oder [Arbeitsablauf B - Personalisierung auf Basis von Nur-Offline-Daten](../../../features/destinations/people-based-destinations-workflow-offline.md).
 
 ## Syntax und Beispiele für Dateiinhalte {#file-content-syntax}
 
@@ -98,11 +102,11 @@ abc123 def456 ghi789 xyz987
 
 ## Synchronisierung stimmt mit DPUUIDs mit UUIDs überein {#sync-matches-dpuuids-uuids}
 
-Eine ID-Synchronisierungsdatei dient dazu, die [DPUUIDs](../../../reference/ids-in-aam.md) aus Ihren eigenen Datenquellen mit [!DNL Audience Manager] UUIDs zu synchronisieren. Die Synchronisierung ordnet die [!DNL DPUUID]s vom Master [!DNL DPID] und die zugehörigen [!DNL DPID]s den [!DNL Audience Manager] [!DNL UUID]s zu. Wo Sie die IDs in den Dateinamen setzen, bestimmt die Zuordnung dieser IDs zueinander. Nehmen Sie beispielsweise die beiden folgenden Beispieldateien:
+Eine ID-Synchronisierungsdatei dient dazu, die [DPUUIDs](../../../reference/ids-in-aam.md) aus Ihren eigenen Data Sources mit [!DNL Audience Manager] UUIDs zu synchronisieren. Die Synchronisierung ordnet die [!DNL DPUUID]s vom Master [!DNL DPID] und die zugehörigen [!DNL DPID]s den [!DNL Audience Manager] [!DNL UUID]s zu. Wo Sie die IDs in den Dateinamen setzen und der Haupttext bestimmt, wie diese IDs einander zugeordnet werden. Nehmen Sie beispielsweise die beiden folgenden Beispieldateien:
 
-* **** Datei 1: `adobe_id_0_12345_1476312152.sync`
+* **Datei 1:** `adobe_id_0_12345_1476312152.sync`
 
-* **** Datei 2:  `adobe_id_12345_67890_1476312876.sync`
+* **Datei 2:**  `adobe_id_12345_67890_1476312876.sync`
 
 <br/>
 
@@ -110,7 +114,7 @@ Bei Verwendung des Beispielnamens und des Beispielinhalts ordnen die IDs wie fol
 
 **Datei 1** ( [Beispieldatei](assets/adobe_id_0_12345_1476312152.sync)herunterladen)
 
-| DPID 0 = UUIDs für Adobe Audience Manager | DPID 12345 |
+| DPID 0 = Adobe Audience Manager-UUIDs | DPID 12345 |
 |---|---|
 | 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR38 |
 | 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
@@ -118,7 +122,7 @@ Bei Verwendung des Beispielnamens und des Beispielinhalts ordnen die IDs wie fol
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Schritt 1: Der ID-Synchronisierungsprozess synchronisiert die [!DNL DPUUID]s aus [!DNL DPID] 12345 mit den [!DNL Audience Manager] [!DNL UUID]s in der linken Spalte. Beachten Sie, dass die [!DNL DPID] 0 im Dateinamen [!DNL Audience Manager] [!DNL UUID]s darstellt.
+Schritt 1: Der ID-Synchronisierungsprozess synchronisiert die [!DNL DPUUID]s aus [!DNL DPID] 12345 mit den [!DNL Audience Manager] [!DNL UUID]s in der linken Spalte. Beachten Sie, dass der [!DNL DPID] Wert &quot;0&quot;im Dateinamen [!DNL Audience Manager] [!DNL UUID]s darstellt.
 <br/>
 
 **Datei 2** ( [Beispieldatei](assets/adobe_id_12345_67890_1477846458.sync)herunterladen)
@@ -131,7 +135,7 @@ Schritt 1: Der ID-Synchronisierungsprozess synchronisiert die [!DNL DPUUID]s aus
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Schritt 2: die [!DNL DPUUID]s aus [!DNL DPID] 12345 wurden in Schritt 1 mit den Audience Manager- [!DNL UUID]Dateien synchronisiert. Diese ID-Synchronisierung synchronisiert die [!DNL DPUUID]s aus [!DNL DPID] 67890 mit den Audience Manager- [!DNL UUID]Dateien aus Schritt 1.
+Schritt 2: die [!DNL DPUUID]s aus [!DNL DPID] 12345 wurden in Schritt 1 mit den Audience Managern synchronisiert [!DNL UUID]werden. Diese ID-Synchronisierung synchronisiert die [!DNL DPUUID]s aus [!DNL DPID] 67890 mit den Audience Managern aus Schritt 1 [!DNL UUID].
 
 <br/>
 
@@ -141,6 +145,6 @@ Benutzer-IDs können nicht:
 
 * Haben Sie Registerkarten in der ID selbst. Tabs werden nur zur Trennung einzelner IDs in der Datendatei verwendet.
 * enthält personenbezogene Daten ([!UICONTROL PII]).
-* Verwenden Sie die [!DNL URL] Kodierung. Nur nicht kodierte IDs übergeben.
+* Verwenden Sie die [!DNL URL] Kodierung. Geben Sie nur nicht kodierte IDs ein.
 
 Zeilen, die mit Tabulatoren oder Leerzeichen enden, werden nicht verarbeitet oder realisiert. Achten Sie in der Regel darauf, das Ende der Zeilen frei zu halten.
