@@ -5,8 +5,9 @@ seo-title: Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst fü
 solution: Audience Manager
 title: Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für Adobe Experience Platformen
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
+feature: DCS
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -39,7 +40,7 @@ Code *kursiv* stellt einen variablen Platzhalter dar.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>1. Überprüfen Sie den Status Ihres <span class="keyword"> Experience Cloud</span></b> </p> </td> 
-   <td colname="col2"> <p>Sie benötigen ein <span class="keyword"> Experience Cloud</span> -Konto, um den ID-Dienst verwenden zu können. Wenn Sie ein <span class="keyword"> Experience Cloud</span> Account haben, super! </p> <p> Wenn Sie nicht Teil des <span class="keyword"> Experience Cloud</span>sind, dann melden Sie sich an. Wir würden dich sehr gerne haben und es gibt immer Platz für mehr. Anweisungen zum Einrichten eines Kontos finden Sie unter <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> Aktivieren Ihrer Lösungen für Hauptdienste</a>. </p> </td> 
+   <td colname="col2"> <p>Sie benötigen ein <span class="keyword"> Experience Cloud</span> -Konto, um den ID-Dienst verwenden zu können. Wenn Sie ein <span class="keyword"> Experience Cloud</span> Account haben, super! </p> <p> Wenn Sie nicht Teil des <span class="keyword"> Experience Cloud</span>sind, dann melden Sie sich an. Wir würden dich gerne haben und es gibt immer Platz für mehr. Anweisungen zum Einrichten eines Kontos finden Sie unter <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> Aktivieren Ihrer Lösungen für Hauptdienste</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. Set up the <span class="keyword"> ID service</span></b> </p> </td> 
