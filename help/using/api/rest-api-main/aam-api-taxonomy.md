@@ -1,19 +1,23 @@
 ---
-description: Methoden, mit denen Sie die allgemeine Taxonomie von Audience Manager anzeigen können. Dieses optionale Klassifizierungssystem gliedert Eigenschaften in branchenübliche Kategorien.
-seo-description: Methoden, mit denen Sie die allgemeine Taxonomie von Audience Manager anzeigen können. Dieses optionale Klassifizierungssystem gliedert Eigenschaften in branchenübliche Kategorien.
+description: Methoden, mit denen Sie die Ansicht des Audience Managers gemeinsame Taxonomie. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in branchenüblichen Kategorien.
+seo-description: Methoden, mit denen Sie die Ansicht des Audience Managers gemeinsame Taxonomie. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in branchenüblichen Kategorien.
 seo-title: Taxonomische API-Methoden
 solution: Audience Manager
 title: Taxonomische API-Methoden
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
 
 # Taxonomische API-Methoden {#taxonomic-api-methods}
 
-Methoden, mit denen Sie die allgemeine Taxonomie von Audience Manager anzeigen können. Dieses optionale Klassifizierungssystem gliedert Eigenschaften in branchenübliche Kategorien.
+Methoden, mit denen Sie die Ansicht des Audience Managers gemeinsame Taxonomie. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in branchenüblichen Kategorien.
 
 <!-- c_rest_api_taxonomy.xml -->
 
@@ -46,7 +50,7 @@ Eine erfolgreiche Antwort `200 OK` und die Kategorie für die angegebene ID werd
 }
 ```
 
-## Alle Taxonomiekategorien zurückgeben {#return-all-taxonomy-categories}
+## Rückgabe aller taxonomischen Kategorien {#return-all-taxonomy-categories}
 
 Eine `GET` Methode, die eine Liste der Kategorien der obersten Ebene in einem Array zurückgibt.
 
@@ -89,9 +93,9 @@ Kürzlich wegen der Kürze.
 ]
 ```
 
-## Rückkehrende Taxonomische Unterkategorien {#return-taxonomy-sub-categories}
+## Rückgabe von steuerpflichtigen Unterpositionen {#return-taxonomy-sub-categories}
 
-Eine `GET` Methode, die Unterkategorien für die angegebene übergeordnete Kategorie in einem Array zurückgibt.
+Eine `GET` Methode, die in einem Array untergeordnete Kategorien für die angegebene übergeordnete Kategorie zurückgibt.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
