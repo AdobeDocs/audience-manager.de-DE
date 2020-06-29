@@ -1,25 +1,29 @@
 ---
-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerspezifischen Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
-seo-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerspezifischen Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
+description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
+seo-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
 seo-title: Eigenschafts-Typmethoden
 solution: Audience Manager
 title: Eigenschafts-Typmethoden
 uuid: 082931d5-457b-4622-817b-86303f38c26a
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 4%
 
 ---
 
 
 # Eigenschafts-Typmethoden {#trait-type-methods}
 
-Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerspezifischen Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
+Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->Mit den Methoden des Eigenschaftstyps werden keine Eigenschaften den von der [allgemeinen Taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)verwendeten Kategorien zugewiesen. Stellen Sie sich diese als Etiketten vor, die von der allgemeinen Taxonomie getrennt sind.
+>Eigenschafts-Typmethoden weisen Kategorien, die von der [allgemeinen Taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)verwendet werden, keine Eigenschaften zu. Stellen Sie sich diese als Etiketten vor, die von der allgemeinen Taxonomie getrennt sind.
 
 Als visuelle Referenz dient [!UICONTROL Trait Types] ein Dropdown-Steuerelement, das sich im [!DNL UI] darunter befindet **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
