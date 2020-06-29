@@ -5,8 +5,12 @@ seo-title: API-Methoden für Benutzerverwaltung
 solution: Audience Manager
 title: API-Methoden für Benutzerverwaltung
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +66,7 @@ Eine `POST` Methode zum Erstellen eines neuen Benutzers.
 }
 ```
 
-Wenn "true" `isAdmin` festgelegt ist, wird der Benutzer als Partner-Administrator erstellt. Diese Eigenschaft informiert Sie auch darüber, ob ein Benutzer ein Partner-Administrator ist.
+Wenn &quot;true&quot; `isAdmin` festgelegt ist, wird der Benutzer als Partner-Administrator erstellt. Diese Eigenschaft informiert Sie auch darüber, ob ein Benutzer ein Partner-Administrator ist.
 
 Gibt zurück, `409 Conflict` wenn der Benutzername bereits verwendet wurde.
 
@@ -250,9 +254,9 @@ Eine `Get` Methode zur Rückgabe des Benutzerobjekts für den derzeit angemeldet
 }
 ```
 
-## Benutzer auflisten {#list-users}
+## Listen {#list-users}
 
-Eine `GET` Methode zum Auflisten von Benutzern.
+Eine `GET` Methode zur Liste von Benutzern.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -260,7 +264,7 @@ Eine `GET` Methode zum Auflisten von Benutzern.
 
 `GET /api/v1/users/`
 
-Sie können mehrere Gruppen-IDs in den Abfrageparametern angeben:
+Sie können mehrere Gruppen-IDs in den Parametern für die Abfrage angeben:
 
 `GET /api/v1/users/?groupId=343&groupdId=12`
 
