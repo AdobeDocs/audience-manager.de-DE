@@ -5,8 +5,12 @@ seo-title: DIL-Anwendungsfälle und Codebeispiele
 solution: Audience Manager
 title: DIL-Anwendungsfälle und Codebeispiele
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +25,9 @@ c_dil_use_case.xml
 
  -->
 
-## Datenelemente mit DIL an Audience Manager senden {#send-data-elements-dil}
+## Datenelemente an Audience Manager mit DIL senden {#send-data-elements-dil}
 
-Erstellen Sie eine Objektvariable, die Informationen zu Seitenelementen an Audience Manager sendet. Dies ist nützlich für die allgemeine Datenerfassung oder als Alternative zur Datenerfassung mit Analytics-Variablen.
+Erstellen Sie eine Objektvariable, die Informationen zu Seitenelementen an Audience Manager sendet. Dies ist nützlich für die allgemeine Datenerfassung oder als Alternative zum Sammeln von Daten mit Analytics-Variablen.
 
 <!-- 
 
@@ -33,7 +37,7 @@ c_dil_send_page_objects.xml
 
 **Beschreibung**
 
-Der folgende Code zeigt, wie Sie Seitendaten erfassen und an Audience Manager senden können [!UICONTROL DIL]. Diese Beispiele verwenden eine Variable, um Datenelemente in einer flachen Liste oder in einem Array zu speichern. Denken Sie daran, Variablen als [Schlüssel-Wert-Paare](../reference/key-value-pairs-explained.md)zu übergeben. Beachten Sie auch das `c_` Präfix vor dem Schlüssel im Schlüssel-Wert-Paar. Dieses [erforderliche Präfix](../features/traits/trait-variable-prefixes.md) identifiziert Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie manuell `c_` an den Schlüssel anhängen. Im zweiten Beispiel [!UICONTROL DIL] wird dies automatisch für Sie ausgeführt.
+Der folgende Code zeigt, wie Sie Seitendaten erfassen und an den Audience Manager senden können [!UICONTROL DIL]. Diese Beispiele verwenden eine Variable, um Datenelemente in einer flachen Liste oder in einem Array zu speichern. Denken Sie daran, Variablen als [Schlüssel-Wert-Paare](../reference/key-value-pairs-explained.md)zu übergeben. Beachten Sie auch das `c_` Präfix vor dem Schlüssel im Schlüssel-Wert-Paar. Dieses [erforderliche Präfix](../features/traits/trait-variable-prefixes.md) identifiziert Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie manuell `c_` an den Schlüssel anhängen. Im zweiten Beispiel [!UICONTROL DIL] wird dies automatisch für Sie ausgeführt.
 
 **Konstante Werteigenschaften beibehalten**
 
@@ -115,7 +119,7 @@ adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 
 ## Suchmaschinentypen und Suchbegriffe erfassen {#capture-search-engine-types}
 
-Senden Sie Informationen zu Suchmaschinentypen und Suchbegriffssuchen an Audience Manager.
+Senden Sie Informationen über Suchmaschinentypen und Suchbegriffe an Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -133,7 +137,7 @@ Standardmäßig werden Suchvorgänge aus diesen Suchmaschinen (einschließlich i
 
 **Beschreibung**
 
-Der folgende Code zeigt, wie Sie den Werber für die Suche nach einer der unterstützten Suchmaschinen abrufen. In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;Zuhause&quot;aus [!DNL Google] Kanada gesucht hat ( `www.google.ca`). Dieser Code hilft Ihnen, diese Suchbegriffe zu erfassen und sie an Audience Manager zu senden.
+Der folgende Code zeigt, wie Sie den Werber für die Suche nach einer der unterstützten Suchmaschinen abrufen. In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;Zuhause&quot;aus [!DNL Google] Kanada gesucht hat ( `www.google.ca`). Dieser Code hilft Ihnen, diese Suchbegriffe zu erfassen und an den Audience Manager zu senden.
 
 **Einfacher Code**
 
@@ -145,7 +149,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Beispiel für aufgelisteten Suchmaschinencode**
 
-In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;Zuhause&quot;aus [!DNL Google] Kanada gesucht hat ( `www.google.ca`). Beachten Sie, wie der Code den erforderlichen `c_` Parameter für Suchmaschinen ( `c_se`) und Suchbegriffe ( `c_st`) präfixiert. `c_` ist ein [erforderliches Präfix](../features/traits/trait-variable-prefixes.md) , das Audience Manager als benutzerdefinierte Variablen identifiziert.
+In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;Zuhause&quot;aus [!DNL Google] Kanada gesucht hat ( `www.google.ca`). Beachten Sie, wie der Code den erforderlichen `c_` Parameter für Suchmaschinen ( `c_se`) und Suchbegriffe ( `c_st`) präfixiert. `c_` ist ein [erforderliches Präfix](../features/traits/trait-variable-prefixes.md) , das diese als kundendefinierte Variablen für Audience Manager identifiziert.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -192,7 +196,7 @@ c_dil_map_keys.xml
 
 In einem Schlüssel-Wert-Paar identifiziert das `c_` Präfix, das an den Schlüssel angehängt wird, das Signal als benutzerdefinierte Daten. Kundendefinierte Daten werden für das Targeting auf der jeweiligen Site verwendet, die Daten bei einem Ereignis-Aufruf weitergegeben hat. Manchmal möchten Sie jedoch, dass diese Informationen für alle Eigenschaften in Ihrem Audience Manager-Konto verfügbar sind. Zuordnen des Werts in einem Schlüssel-Wert-Paar zu einem Schlüssel auf Plattformebene zu diesem Zweck. `c_` Dem Schlüssel auf Plattformebene wird ein Präfix vorangestellt `d_` und das Signal für das Targeting für alle Eigenschaften in Ihrem Konto bereitgestellt.
 
-Sie erfassen z. B. ZIP-Code-Daten von einer bestimmten Site, möchten diese aber in alle Audience Manager-Eigenschaften Zielgruppe haben. Um die Postleitzahl auf Plattformebene verfügbar zu machen, können Sie Ihren kundendefinierten ZIP-Code-Schlüssel (z.B. `c_zip`) zu einem Plattform definierten Schlüssel wie unten dargestellt.
+Sie erfassen z. B. ZIP-Code-Daten von einer bestimmten Site, möchten diese aber auf alle Audience Manager-Eigenschaften Zielgruppe haben. Um die Postleitzahl auf Plattformebene verfügbar zu machen, können Sie Ihren kundendefinierten ZIP-Code-Schlüssel (z.B. `c_zip`) zu einem Plattform definierten Schlüssel wie unten dargestellt.
 
 **Codebeispiel**
 
