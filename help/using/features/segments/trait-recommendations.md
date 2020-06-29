@@ -4,9 +4,12 @@ seo-description: Beim Erstellen Ihrer Segmente erhalten Sie Empfehlungen zu Eige
 seo-title: Trait Recommendations
 solution: Audience Manager
 title: Trait Recommendations
-uuid: null
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 019396917482340f15b4eb23736b15322815bd84
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1573'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +30,7 @@ Das nächste Video skizziert den Arbeitsablauf für [!UICONTROL Marketplace Reco
 
 ## Überblick
 
-[!UICONTROL Trait Recommendations], powered by [!DNL Adobe Sensei], bringt Datenwissenschaften in Ihre tägliche Workflows mit Audience Manager.
+[!UICONTROL Trait Recommendations], powered by [!DNL Adobe Sensei], bringt Datenwissenschaft in Ihre tägliche Workflows.
 With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule.
 
 Audience Manager zeigt Ihnen Eigenschaftsempfehlungen sowohl aus Ihren Erstanbietereigenschaften, im **[!UICONTROL Recommendations]** Abschnitt als auch aus **[!UICONTROL Audience Marketplace]** dem **[!UICONTROL Recommendations from Marketplace]** Abschnitt an.
@@ -38,10 +41,10 @@ Fügen Sie die empfohlenen Merkmale zu Ihrem Segment hinzu, um Ihre Zielgruppe z
 
 **Kurz gesagt:**
 
-* Audience Manager zeigt Eigenschaften von Erstanbietern im [!UICONTROL Recommendations] Abschnitt an. Empfehlungen von Marktplätzen aus öffentlichen und privaten Feeds, die Sie nicht abonniert haben, sind im [!UICONTROL Recommendations from Marketplace] Abschnitt sichtbar. Klicken Sie auf den Feed-Namen, um ihn aufzurufen [!UICONTROL Audience Marketplace] und abonnieren.
+* Audience Manager zeigt Erstanbieter-Eigenschaften im [!UICONTROL Recommendations] Abschnitt an. Empfehlungen von Marktplätzen aus öffentlichen und privaten Feeds, die Sie nicht abonniert haben, sind im [!UICONTROL Recommendations from Marketplace] Abschnitt sichtbar. Klicken Sie auf den Feed-Namen, um ihn aufzurufen [!UICONTROL Audience Marketplace] und abonnieren.
 * Audience Manager zeigt maximal fünfzig Eigenschaften an, die denen in der Segmentregel ähneln.
 * Sie können die Datenquellen herausfiltern, aus denen keine Empfehlungen angezeigt werden sollen.
-* Bei der Berechnung von Ähnlichkeiten berücksichtigt Audience Manager [UUIDs](../../reference/ids-in-aam.md) , die in den letzten 30 Tagen für die Eigenschaft qualifiziert waren.
+* Bei der Berechnung von Ähnlichkeiten betrachtet Audience Manager [UUIDs](../../reference/ids-in-aam.md) , die in den letzten 30 Tagen für die Eigenschaft qualifiziert waren.
 * Wenn Sie die Fehlermeldung &quot;Keine ähnlichen Eigenschaften gefunden. Eigenschaften sind möglicherweise zu neu.&quot;, bedeutet dies, dass entweder in den letzten 30 Tagen keine Aktivität für diese Eigenschaft stattgefunden hat oder Audience Manager die Empfehlungen für diese Eigenschaft noch nicht aktualisiert hat. Bitte versuchen Sie es in 24 Stunden erneut.
 
 ## Nutzungsszenarios
@@ -139,11 +142,11 @@ Wenn Sie auf eine Eigenschaft eines Erstanbieters klicken, wird ein Popup-Fenste
 
 ## Funktionsweise
 
-Zur Erstellung von Eigenschaftsempfehlungen berechnet Audience Manager die [Jaccard-Ähnlichkeit](https://en.wikipedia.org/wiki/Jaccard_index) zwischen der Eigenschaft &quot;Zielgruppe&quot;und allen anderen Eigenschaften, auf die Ihr Konto Zugriff hat, einschließlich Drittanbieterdaten. Audience Manager zeigt dann bis zu fünfzig Eigenschaften mit der höchsten Ähnlichkeit an.
+Um Eigenschaftsempfehlungen zu erstellen, berechnet Audience Manager die [Jaccard-Ähnlichkeit](https://en.wikipedia.org/wiki/Jaccard_index) zwischen den Eigenschaften der Zielgruppe und allen anderen Eigenschaften, auf die Ihr Konto Zugriff hat, einschließlich Drittanbieterdaten. Audience Manager zeigt dann bis zu fünfzig Eigenschaften mit der höchsten Ähnlichkeit an.
 
 ## Ähnlichkeitsbewertung {#trait-similarity-score}
 
-Audiencen-Manager berechnen die [!UICONTROL Trait Similarity Score] Werte zwischen zwei Eigenschaften, indem der Schnittpunkt und die Vereinigung in Bezug auf die Anzahl der [!UICONTROL UUID]s berechnet werden, und teilen Sie dann die beiden Eigenschaften. Für die beiden Eigenschaften A und B sieht die Berechnung wie folgt aus:
+Audience Manager berechnen die [!UICONTROL Trait Similarity Score] Werte zwischen zwei Eigenschaften, indem sie die Schnittmenge und die Vereinigung in Bezug auf die Anzahl der [!UICONTROL UUID]s berechnen und dann die beiden teilen. Für die beiden Eigenschaften A und B sieht die Berechnung wie folgt aus:
 
 ![jaccard-Ähnlichkeit](assets/jaccard_similarity.png)
 
