@@ -1,19 +1,23 @@
 ---
-description: Beschreibt Methoden im DIL.tools-Namespace. Diese Dienstprogrammfunktionen unterstützen Sie bei der Ausführung bestimmter Aufgaben.
-seo-description: Beschreibt Methoden im DIL.tools-Namespace. Diese Dienstprogrammfunktionen unterstützen Sie bei der Ausführung bestimmter Aufgaben.
+description: Beschreibt Methoden im Namensraum DIL.tools. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+seo-description: Beschreibt Methoden im Namensraum DIL.tools. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 seo-title: DIL-Tools
 solution: Audience Manager
 title: DIL-Tools
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 3%
 
 ---
 
 
 # DIL-Tools
 
-Beschreibt Methoden im `DIL.tools` -Namespace. Diese Dienstprogrammfunktionen unterstützen Sie bei der Ausführung bestimmter Aufgaben.
+Beschreibt Methoden im `DIL.tools` Namensraum. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 
 <!-- 
 
@@ -33,7 +37,7 @@ r_dil_get_search_referrer.xml
 
 ### Zweck `getSearchReferrer`
 
-Gibt in DIL die Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet wurden. `getSearchReferrer` Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]und [!DNL Yahoo]) `document.referrer` standardmäßig suchen lassen.
+Gibt in DIL die Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet wurden `getSearchReferrer` . Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]und [!DNL Yahoo]) `document.referrer` standardmäßig suchen lassen.
 
 ### Funktionsunterschrift
 
@@ -70,11 +74,11 @@ Und gibt zurück:
   </tr> 
   <tr> 
    <td>Übergeben einer benutzerspezifischen URL</td> 
-   <td>Gibt die auf einer benutzerspezifischen URL basierende Suchreferrer zurück.</td> 
+   <td>Gibt den Werber für die Suche basierend auf einer benutzerdefinierten URL zurück.</td> 
    <td> 
   <code>
-        var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
+        var&nbsp;results&nbsp;= 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
   </code>
 </td> 
   </tr> 
@@ -84,10 +88,10 @@ Und gibt zurück:
    <td> 
   <code>
       var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/
-    search.aspx?q=adobe+rules",{ 
-       hostPattern:/ehow\./, 
-         queryParam:"p" 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/
+      search.aspx?q=adobe+rules",{ 
+      &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+      &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
   </code>
   </td></tr> 
@@ -96,11 +100,11 @@ Und gibt zurück:
    <td> Übergeben Sie einen benutzerdefinierten Regex, um eine benutzerdefinierte Suche durchzuführen. </td> 
    <td> 
     <code>
-      var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-    {
-       hostPattern:/ehow\./, 
-           search_pattern:/[&amp;\?]p=([^&amp;]+/ 
+      var&nbsp;results&nbsp;= 
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
+      {
+        &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+        &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
       });
     </code>
    </td> 
@@ -171,9 +175,12 @@ Funktionsunterschrift: `DIL.tools.getMetaTags( 1 or more parameters)`
 ### Beispielcode
 
 <pre class="&ldquo;javascript&rdquo;"><code>
-var dataLib = DIL.create({ partner: '<i>partnerName'</i>, containerNSID: <i>containerNSID</i> }); 
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
+}); 
 
-dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>', '<i>description</i>'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
@@ -181,5 +188,6 @@ var dataLib = DIL.create({
      partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
 }); 
+
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>
