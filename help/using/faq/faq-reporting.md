@@ -5,8 +5,9 @@ seo-title: Häufig gestellte Fragen zum Reporting
 solution: Audience Manager
 title: Häufig gestellte Fragen zum Reporting
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
+feature: Reporting
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 1%
@@ -30,7 +31,7 @@ faq_reports.xml
 
 Manchmal werden nach dem Hochladen von Eigenschaften keine Ergebnisse angezeigt oder es werden weniger als erwartet [!UICONTROL Trait Graph] angezeigt. Dies geschieht, wenn das Datenvolumen, das wir erhalten, so groß ist, dass der eingehende Verarbeitungsauftrag diese Informationen erst nach Ablauf der Frist für diesen Berichte abrufen kann.
 
-Daher werden diese Daten verspätet an das Berichte-System gesendet und nicht im 1-Tage-Berichte-Intervall angezeigt, das für die Plotterstellung des  verwendet wird [!UICONTROL Trait Graph]. Sie können diese Daten jedoch am darauffolgenden Tag im 7-, 14-, 30- und 60-tägigen Berichtintervall in einem [Trend](../reporting/trend-reports.md#trend-report-overview) - oder [Gesamtbericht](../reporting/general-reports.md#general-reports-overview) Ansicht werden.
+Daher werden diese Daten verspätet an das Berichte-System gesendet und nicht im 1-Tage-Berichte-Intervall angezeigt, das für die Darstellung der Daten verwendet wird [!UICONTROL Trait Graph]. Sie können diese Daten jedoch am darauffolgenden Tag im 7-, 14-, 30- und 60-tägigen Berichtintervall in einem [Trend](../reporting/trend-reports.md#trend-report-overview) - oder [Gesamtbericht](../reporting/general-reports.md#general-reports-overview) Ansicht werden.
 
 <br> 
 
