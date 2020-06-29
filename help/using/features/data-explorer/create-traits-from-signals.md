@@ -1,22 +1,26 @@
 ---
-description: Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Zielgruppen, die sich nach der Erstellung von Eigenschaften qualifizieren.
-seo-description: Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Zielgruppen, die sich nach der Erstellung von Eigenschaften qualifizieren.
+description: Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Audiencen, die sich nach der Erstellung von Eigenschaften qualifizieren.
+seo-description: Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Audiencen, die sich nach der Erstellung von Eigenschaften qualifizieren.
 seo-title: Eigenschaften aus Signalen erstellen
 title: Eigenschaften aus Signalen erstellen
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
 
 # Eigenschaften aus Signalen erstellen
 
-Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Zielgruppen, die sich nach der Erstellung von Eigenschaften qualifizieren. Sehen Sie sich das Video für eine kurze Demonstration an oder lesen Sie es für detaillierte Informationen:
+Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Audiencen, die sich nach der Erstellung von Eigenschaften qualifizieren. Sehen Sie sich das Video für eine kurze Demonstration an oder lesen Sie es für detaillierte Informationen:
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
-## Eigenschaften aus dem Signal-Dashboard erstellen {#create-traits-from-signal-dashboard}
+## Eigenschaften aus Signal-Dashboard erstellen {#create-traits-from-signal-dashboard}
 
 Mit der [!UICONTROL Signal Dashboard] können Sie neue Eigenschaften aus den [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals]und gespeicherten Suchen erstellen.
 
@@ -30,7 +34,7 @@ Um neue Eigenschaften aus der **[!UICONTROL Signal Dashboard]** zu erstellen, id
 
 ![](assets/signals-create-trait.png)
 
-Sie werden zum **[Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md)** umgeleitet, um Ihre neuen Eigenschaften zu erstellen.
+Sie werden zum **[Eigenschaften-Builder](../../features/traits/about-trait-builder.md)**umgeleitet, um Ihre neuen Eigenschaften zu erstellen.
 
 ## Eigenschaften aus der Signalsuche erstellen {#create-traits-from-signal-search}
 
@@ -39,15 +43,15 @@ Erstellen Sie Eigenschaften basierend auf verwendeten oder nicht verwendeten Sig
 Suchen Sie nach bestimmten Signalen und erstellen Sie auf Basis der Ergebnisse regelbasierte oder Onboard-Eigenschaften. So geht das:
 
 1. Gehen Sie zu **[!UICONTROL Audience Data > Signals > Search]** und führen Sie eine Suche basierend auf den Schlüssel-Wert-Paaren durch, nach denen Sie suchen, oder klicken Sie auf **[!UICONTROL Search]** , ohne ein Schlüssel-Wert-Paar einzugeben, um alle Ergebnisse anzuzeigen.
-2. Identifizieren Sie die Signale, die Sie in der Eigenschaft in der Ergebnisliste verwenden möchten.
+2. Identifizieren Sie die Signale, die Sie in der Liste der Ergebnisse in der Eigenschaft verwenden möchten.
    * Um eine Eigenschaft aus einem Signal zu erstellen, klicken Sie auf den entsprechenden **[!UICONTROL Create Rule-Based Trait]** oder **[!UICONTROL Create Onboarded Trait]** Link.
    * Um eine Eigenschaft aus mehreren Signalen zu erstellen, klicken Sie auf das entsprechende Kontrollkästchen der einzelnen Signale und dann auf **[!UICONTROL Create Trait from Multiple Signals]**.
    >[!NOTE]
    >Sie können Eigenschaften nur aus Signalen desselben Typs erstellen. Sie können keine Eigenschaften erstellen, die auf einer Kombination aus einem Echtzeit-Signal und einem Onboard-Signal basieren.
    >
    > ![](assets/signals-create-trait-search.png)
-   >Sie können Eigenschaften auch aus verwendeten Signalen erstellen. Signale, die bereits in Eigenschaften verwendet werden, weisen die Anzahl der Eigenschaften in der **[!UICONTROL Included in Traits]** Spalte auf. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das Signal enthalten.
+   >Sie können Eigenschaften auch aus den verwendeten Signalen erstellen. Signale, die bereits in Eigenschaften verwendet werden, weisen die Anzahl der Eigenschaften in der **[!UICONTROL Included in Traits]** Spalte auf. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das Signal enthalten.
    >
    >![](assets/signals-used-traits.png)
 
-3. Verwenden Sie den **[Eigenschaften-Builder](../../features/traits/about-trait-builder.md)** , um Ihre neuen Eigenschaften zu erstellen.
+3. Verwenden Sie den **[Eigenschaften-Builder](../../features/traits/about-trait-builder.md)**, um Ihre neuen Eigenschaften zu erstellen.
