@@ -5,8 +5,12 @@ seo-title: Musternachricht an Partner nach der eingehenden Verarbeitung
 solution: Audience Manager
 title: Musternachricht an Partner nach der eingehenden Verarbeitung
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +26,7 @@ Das folgende Beispiel zeigt eine E-Mail-Musternachricht. Die Tabelle unter der N
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Von: aam-noreply@adobe.com </b> </p> <p> <b>Betrifft: Adobe Audience Manager Server-to-Server-Verarbeitungsergebnis:</b> </p> <p> <b>Sehr geehrter Adobe Partner: (ID:7)</b><b></b> </p> <p> <b>Wir haben Ihre Adobe Audience Manager Server-to-Server-Dateibereitstellung erhalten.</b> </p> <p> <b></b> Dateiname: <i></i> </p> <p> <b> s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>eingegangenen Aufzeichnungen: 40669900</b> </p> <p><b>Formatfehler: 0</b> </p> <p> <b>Ungültige AAM-ID: 112 </b> </p> <p> <b>Keine übereinstimmende AAM-ID: 0 </b> </p> <p> <b>Keine Eigenschaft realisiert: 26730823 </b> </p> <p> <b>verarbeitete Datensätze: 40669900 </b> </p> <p> <b>Gespeicherte Datensätze: 13938958 </b> </p> <p> <b>Geräte insgesamt: 21 </b> </p> <p> <b>Signale insgesamt: 918878926 </b> </p> <p> <b>Nicht verwendete Signale insgesamt: 660348376 </b> </p> <p> <b>Gesamtzahl der realisierten Eigenschaften: 258086908 </b> </p> <p> <b>Entfernte Eigenschaften insgesamt: 0 </b> </p> <p> <b>Überprüfung der Gesamteigenschaften fehlgeschlagen: 0 </b> </p> <p> <b>Gesamtzahl der Benutzer mit Eigenschaften, bei denen die Überprüfung fehlgeschlagen ist: 0 </b> </p> <p> <b>Auftragsstartzeit: 2018-05-17 18:07:49 </b> </p> <p> <b>Auftragsendzeit: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>Von: aam-noreply@adobe.com </b> </p> <p> <b>Betrifft: Verarbeitungsergebnis von Adobe Audience Manager zu Server:</b> </p> <p> <b>Sehr geehrter Adobe Partner: (ID:7)</b> <b></b> </p> <p> <b>Wir haben Ihren Adobe Audience Manager-Server-to-Server-Versand erhalten.</b> </p> <p> <b>Dateiname:</b> <i></i> </p> <p> <b> s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>eingegangenen Aufzeichnungen: 40669900</b> </p> <p><b>Formatfehler: 0</b> </p> <p> <b>Ungültige AAM-ID: 112 </b> </p> <p> <b>Keine übereinstimmende AAM-ID: 0 </b> </p> <p> <b>Keine Eigenschaft realisiert: 26730823 </b> </p> <p> <b>Aufbereitete Datensätze: 40669900 </b> </p> <p> <b>Gespeicherte Datensätze: 13938958 </b> </p> <p> <b>Geräte insgesamt: 21 </b> </p> <p> <b>Signale insgesamt: 918878926 </b> </p> <p> <b>Nicht verwendete Signale insgesamt: 660348376 </b> </p> <p> <b>Gesamtzahl der realisierten Eigenschaften: 258086908 </b> </p> <p> <b>Entfernte Eigenschaften insgesamt: 0 </b> </p> <p> <b>Überprüfung der Gesamtzahl der Eigenschaften fehlgeschlagen: 0 </b> </p> <p> <b>Gesamtzahl der Benutzer mit Eigenschaften, bei denen die Überprüfung fehlgeschlagen ist: 0 </b> </p> <p> <b>Beginn des Auftrags: 2018-05-17 18:07:49 </b> </p> <p> <b>Auftragsendzeit: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,23 +51,23 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail e
   </tr> 
   <tr> 
    <td colname="col1"> Formatfehler </td> 
-   <td colname="col2"> <p>Anzahl der Zeilen, die nicht dem erwarteten Format entsprachen. Diese Linien waren vom eingehenden Auftrag nicht erkennbar. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Zeilen, die nicht dem erwarteten Format entsprachen. Diese Linien waren vom Inbound-Auftrag nicht erkennbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ungültige AAM-ID </td> 
-   <td colname="col2"> <p>Anzahl der Audience Manager-UUIDs, die nicht dem erwarteten 38-stelligen Format entsprachen. Oder die in der Datei gesendeten UUIDs von Audience Manager sind keine Zahlen. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Audience Manager-UUIDs, die nicht dem erwarteten 38-stelligen Format entsprachen. Oder die Audience Manager-UUIDs, die in der Datei gesendet werden, sind keine Zahlen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Keine übereinstimmende AAM-ID </td> 
-   <td colname="col2"> <p>Gesamtanzahl der Benutzer, für die Audience Manager keine übereinstimmende UUID gefunden hat. Diese Dateien wurden nicht mit ID synchronisiert, sodass Audience Manager die UUID nicht nachschlagen kann. </p> </td> 
+   <td colname="col2"> <p>Gesamtanzahl der Benutzer, für die Audience Manager keine übereinstimmende UUID gefunden haben. Diese Dateien wurden nicht mit ID synchronisiert, sodass Audience Manager die UUID nicht nachschlagen kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Keine Eigenschaft realisiert </td> 
-   <td colname="col2"> <p>Anzahl der Datensätze, bei denen keines der Signale in der Zeile einem Audience Manager-Merkmal zugeordnet ist. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Datensätze, bei denen keines der Signale auf der Linie einem Audience Manager-Merkmal zugeordnet ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Aufbereitete Datensätze </td> 
-   <td colname="col2"> <p>Gesamtzahl der verarbeiteten Datensätze in Audience Manager. In den meisten Fällen sollte diese Zahl mit der Zahl der eingegangenen Datensätze übereinstimmen. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl der verarbeiteten Datensätze, Audience Manager. In den meisten Fällen sollte diese Zahl mit der Zahl der eingegangenen Datensätze übereinstimmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Gespeicherte Datensätze </td> 
@@ -79,7 +83,7 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail e
   </tr> 
   <tr> 
    <td colname="col1"> Nicht verwendete Signale </td> 
-   <td colname="col2"> <p>Gesamtanzahl nicht verwendeter Signale für alle Benutzer in allen eingehenden Dateien (Schlüssel/Wert-Paare, die nicht Audience Manager-Eigenschaften zugeordnet wurden). In den meisten Fällen bedeutet dies, dass Audience Manager keine Regeln für das Signal definiert hat. </p> </td> 
+   <td colname="col2"> <p>Gesamtanzahl der nicht verwendeten Signale für alle Benutzer in allen eingehenden Dateien (Schlüssel/Wert-Paare, die nicht den Eigenschaften des Audience Managers zugeordnet wurden). In den meisten Fällen bedeutet dies, dass für Audience Manager keine Signalregeln definiert sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Gesamtzahl der realisierten Eigenschaften </td> 
@@ -87,7 +91,7 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail e
   </tr> 
   <tr> 
    <td colname="col1"> Gesamtzahl entfernter Eigenschaften </td> 
-   <td colname="col2"> <p> Gesamtzahl der entfernten Eigenschaften für alle Benutzer in allen eingehenden Dateien. Bei vollständigen Synchronisierungen geschieht dies, wenn der Benutzer die Eigenschaft in einem vorherigen, aber nicht in der aktuellen Ausführung hatte. </p> </td> 
+   <td colname="col2"> <p> Gesamtanzahl der entfernten Eigenschaften für alle Benutzer in allen eingehenden Dateien. Bei vollständigen Synchronisierungen geschieht dies, wenn der Benutzer die Eigenschaft in einem vorherigen, aber nicht in der aktuellen Ausführung hatte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Überprüfung der Gesamtzahl der Eigenschaften fehlgeschlagen </td> 
@@ -98,8 +102,8 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail e
    <td colname="col2"> <p>Die Anzahl der Datensätze mit Eigenschaften, bei denen die Überprüfung fehlgeschlagen ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Startzeit des Auftrags </td> 
-   <td colname="col2"> <p>Der Zeitpunkt, zu dem der eingehende Auftrag beginnt. </p> </td> 
+   <td colname="col1"> Beginn </td> 
+   <td colname="col2"> <p>Der Zeitpunkt, zu dem der eingehende Auftrag Beginn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Auftragsendzeit </td> 
