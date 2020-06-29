@@ -6,8 +6,9 @@ seo-title: Häufig gestellte Fragen zu Produktfunktionen
 solution: Audience Manager
 title: Häufig gestellte Fragen zu Produktfunktionen
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 2b70b651a626c2b5667edb58c8c6068152a9d770
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -33,7 +34,7 @@ Die *`Organization ID`* ist eine eindeutige ID, mit der Ihr Unternehmen identifi
 
 So *`Organization ID`* sieht zum Beispiel eine aus: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-Der *`Organization ID`* wird von der [DIL](../dil/dil-overview.md) -API von Audience Manager, dem [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)und anderen [!DNL Experience Cloud] Lösungen verwendet. Benutzer mit Administratorberechtigungen finden die *`Organization ID`* auf der [!DNL Adobe Admin Console]. Siehe Häufig gestellte Fragen zur [Administration - Benutzerverwaltung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Die *`Organization ID`* wird von der [DIL](../dil/dil-overview.md) -API des Audience Managers, dem Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/en/id-service/using/home.html)und anderen [!DNL Experience Cloud] Lösungen verwendet. Benutzer mit Administratorberechtigungen finden die *`Organization ID`* auf der [!DNL Adobe Admin Console]. Siehe Häufig gestellte Fragen zur [Administration - Benutzerverwaltung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -67,7 +68,7 @@ Ihr Datenfeed und alle im Feed enthaltenen Eigenschaften werden als Unterordner 
 
 **Was ist[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager verwendet [!UICONTROL Tag Insertion Manager] (TIM), um [!UICONTROL data collection code (DIL)]zu erstellen und zu verwalten. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
+Audience Manager, der zum Erstellen und Verwalten verwendet [!UICONTROL Tag Insertion Manager] (TIM) wird [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
  
 
@@ -93,6 +94,6 @@ Sie sollten Eigenschaftsempfehlungen in folgenden Fällen verwenden:
 
  
 
-**Gibt es Unterschiede zwischen Adobe Analytics- und Audience Manager-Segmenten?**
+**Unterscheiden sich die Segmente von Adobe Analytics und Audience Manager?**
 
-Ja. Eine ausführliche Beschreibung der Unterschiede finden Sie unter [Verstehen von Segmenten in Analytics und Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) .
+Ja, lesen Sie bitte [Die Segmente in Analytics und Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) für eine ausführliche Beschreibung der Unterschiede.
