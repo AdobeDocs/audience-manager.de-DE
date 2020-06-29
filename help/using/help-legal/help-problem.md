@@ -4,8 +4,12 @@ seo-description: Unser Kundendienst hilft Ihnen im Falle eines Problems gern wei
 seo-title: Bei Auftreten eines Problems
 solution: Audience Manager
 title: Bei Auftreten eines Problems
+feature: Support
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 26%
 
 ---
 
@@ -24,11 +28,11 @@ r_problem.xml
 
 For technical issues or to log a bug, contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-* **** Telefon: 1-800-497-0335
+* **Telefon:** 1-800-497-0335
 
    Für gebührenfreie Nummern außerhalb der Vereinigten Staaten besuchen Sie unsere [regionale Kundenservice-Kontaktnummern](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) . When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
 
-* **** E-Mail: amsupport@adobe.com
+* **E-Mail:** amsupport@adobe.com
 
 Bitte machen Sie die folgenden Informationen bereit, bevor Sie uns kontaktieren.
 
@@ -48,13 +52,13 @@ Bitte machen Sie die folgenden Informationen bereit, bevor Sie uns kontaktieren.
    <td colname="col1"> <p><b>Kontoinformationen</b> </p> </td> 
    <td colname="col2"> <p>Geben Sie Folgendes an: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
-      <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Firmenname. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Audience Manager</span> -Subdomäne (sofern bekannt). Die Subdomäne ist die URL der Domäne, die Datenerfassungsereignisse an <span class="keyword"> Adobe</span> sendet (z. B. <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Name der Firma. </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Unterdomäne des Audience Managers</span> (sofern bekannt). Die Unterdomäne ist die URL der Domäne, die Datenerfassungs-Ereignis an <span class="keyword"> Adobe</span> sendet (z. B. <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Zu reproduzierende Schritte</b> </p> </td> 
-   <td colname="col2"> <p>Machen Sie so viele Details wie möglich ein, einschließlich der URLs, die zum Duplizieren des Problems erforderlich sind, sowie des erwarteten Ergebnisses. Ihre Beschreibung sollte genügend Details enthalten, damit Personen, die sich nicht mit <span class="keyword"> Audience Manager</span> auskennen, Ihre Schritte oder Verfahren ausführen und das Problem reproduzieren können. </p> </td> 
+   <td colname="col2"> <p>Machen Sie möglichst detaillierte Angaben, einschließlich der URLs, die zum Duplikat des Problems erforderlich sind, sowie des erwarteten Ergebnisses. Ihre Beschreibung sollte ausreichend detailliert sein, damit Personen, die sich nicht mit <span class="keyword"> Audience Manager</span> auskennen, Ihre Schritte oder Verfahren ausführen und das Problem reproduzieren können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Priorität</b> </p> </td> 
