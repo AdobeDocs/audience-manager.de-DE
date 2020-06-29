@@ -1,12 +1,16 @@
 ---
-description: Audience Manager erfordert, dass die HTTP(S)-Server-zu-Server-Anforderungen digital signiert werden. In diesem Dokument wird beschrieben, wie Sie HTTP-Anforderungen mit privaten Schlüsseln signieren können.
-seo-description: Audience Manager erfordert, dass die HTTP(S)-Server-zu-Server-Anforderungen digital signiert werden. In diesem Dokument wird beschrieben, wie Sie HTTP(S)-Anforderungen mit privaten Schlüsseln signieren können.
+description: Audience Manager erfordert, dass die HTTP(S)-Server-zu-Server-Anforderungen für ihre Gültigkeit digital signiert werden. In diesem Dokument wird beschrieben, wie Sie HTTP-Anforderungen mit privaten Schlüsseln signieren können.
+seo-description: Audience Manager erfordert, dass die HTTP(S)-Server-zu-Server-Anforderungen für ihre Gültigkeit digital signiert werden. In diesem Dokument wird beschrieben, wie Sie HTTP(S)-Anforderungen mit privaten Schlüsseln signieren können.
 seo-title: Digital signierte HTTP(S)-Anforderungen
 solution: Audience Manager
 title: Digital signierte HTTP(S)-Anforderungen
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
