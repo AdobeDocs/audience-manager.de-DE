@@ -5,8 +5,12 @@ seo-title: API-Methoden für Gruppenverwaltung
 solution: Audience Manager
 title: API-Methoden für Gruppenverwaltung
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
 
@@ -85,9 +89,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Listengruppen {#list-groups}
+## Listen {#list-groups}
 
-Eine `GET` Methode zur Auflistung von Benutzergruppen.
+Eine `GET` Methode zur Liste von Benutzergruppen.
 
 <!--
 r_rest_api_group_list.xml
@@ -137,9 +141,9 @@ Eine `DELETE` Methode, mit der mehrere Gruppen stapelweise gelöscht und alle Mi
 
 Gibt `204 No Content` bei erfolgreicher Ausführung zurück. Im Falle eines Konflikts gibt es `409 Conflict`.
 
-## Alle Berechtigungen für eine Gruppe auflisten {#list-permissions-group}
+## Liste aller Berechtigungen für eine Gruppe {#list-permissions-group}
 
-Eine `GET` Methode zum Auflisten der Berechtigungsobjekte in einer Gruppe.
+Eine `GET` Methode zur Liste der Berechtigungsobjekte in einer Gruppe.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -204,6 +208,6 @@ Eine `PUT` Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode ü
 ]
 ```
 
-Die Beispielantwort stellt die aktualisierte Liste der Berechtigungsobjekte dar.
+Die Beispielantwort stellt die aktualisierte Liste von Berechtigungsobjekten dar.
 
 Gibt `200 OK` bei erfolgreicher Ausführung zurück. Gibt zurück, `400` wenn eine angegebene Berechtigung ungültig ist. Kann auch zurückgegeben werden, `403` wenn der angemeldete Benutzer nicht auf das Objekt zugreifen kann.
