@@ -5,8 +5,9 @@ seo-title: Zielmakros definiert
 solution: Audience Manager
 title: Zielmakros definiert
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -49,7 +50,7 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Datenquellen-ID: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Eine interne Kunden-ID: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Deklarierte ID: Der Partner möchte diese Werte als deklarierte ID übergeben <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Dazu formatiert der <code>%dpid_<i>data source id</i>%</code>Audience Manager <span class="keyword"></span> -Partner das Makro wie folgt: </p> 
+    </ul> <p>Um dies mit dem <code>%dpid_<i>data source id</i>%</code>zu tun, formatiert der <span class="keyword"> Audience Manager</span> -Partner das Makro wie folgt: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>Das Makro wird durch <code> 1</code> ersetzt <code> CustomerABC</code>. </p> <p> 
@@ -59,11 +60,11 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>Gibt an, ob GDPR-Regelungen für den Besucher gelten. Verwenden Sie dieses Makro, um die Zustimmung in Segmente einzubeziehen, die an in IAB integrierte URL-Ziele gesendet werden. Weitere Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in für IAB TCF</a> .</p></td>
+    <td><p>Gibt an, ob GDPR-Regelungen für den Besucher gelten. Verwenden Sie dieses Makro, um die Zustimmung in Segmente einzubeziehen, die an in IAB integrierte URL-Ziele gesendet werden. Weitere Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF</a> .</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>Die Zustimmungszeichenfolge (einschließlich der IAB-Anbieter-ID), die erfasst wird, wenn Besucher die Zustimmung zu Ihrer Site erteilen oder verweigern. Verwenden Sie dieses Makro, um die Zustimmungszeichenfolge in Segmente einzuschließen, die an in IAB integrierte URL-Ziele gesendet werden. Ersetzen Sie dies <code>XXXX</code> durch die Ziel-Partner-ID. Weitere Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in für IAB TCF</a> . </p></td>
+    <td><p>Die Zustimmungszeichenfolge (einschließlich der IAB-Anbieter-ID), die erfasst wird, wenn Besucher die Zustimmung zu Ihrer Site erteilen oder verweigern. Verwenden Sie dieses Makro, um die Zustimmungszeichenfolge in Segmente einzuschließen, die an in IAB integrierte URL-Ziele gesendet werden. Ersetzen Sie dies <code>XXXX</code> durch die Ziel-Partner-ID. Weitere Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF</a> . </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
