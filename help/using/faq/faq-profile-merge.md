@@ -6,8 +6,9 @@ seo-title: Häufig gestellte Fragen zu Profil Merge Rules and Device Graph
 solution: Audience Manager
 title: Häufig gestellte Fragen zu Profil Merge Rules and Device Graph
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 2%
@@ -160,7 +161,7 @@ Die Häufigkeit der Eigenschaften wird durch die Summe der Anzahl der Qualifikat
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ergebnisse</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> fasst die Häufigkeit für Eigenschaft 1 zusammen und verwendet 8 (3 + 5 = 8), um die Segmentqualifizierung zu bestimmen. Geräte A und B sind für Segment 1 qualifiziert, da die Häufigkeit 8 beträgt. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> fasst die Häufigkeit für Eigenschaft 1 zusammen und verwendet 8 (3 + 5 = 8), um die Segmentqualifizierung zu entscheiden. Geräte A und B sind für Segment 1 qualifiziert, da die Häufigkeit 8 beträgt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,7 +209,7 @@ Ja. Die Echtzeit-Populationsmetrik erfasst Segmentqualifikationen für das aktue
    <td colname="col1"> <p> <b>Ergebnisse</b> </p> </td> 
    <td colname="col2"> <p>Bei den vorherigen Elementen ist die Gesamtpopulation für Segment 1 eins. </p> <p>In diesem Fall verwendet die <span class="wintitle"> Profil Merge Rule</span> alle Geräte und deren Eigenschaften, um die Segmentqualifizierung zu bestimmen. Das bedeutet, dass die Geräte 1, 2 und 3 für Segment 1 qualifiziert sind. Wie oben erwähnt, wird jedoch nur Gerät 1 in der Segmentpopulation in Echtzeit berücksichtigt. Dies liegt daran, </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Gerät 1 ist das aktuelle Gerät, das mit den Audience Manager- <span class="wintitle"> Datenerfassungsservern</span> (<span class="wintitle"> DCS</span>) in Echtzeit interagiert. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Gerät 1 ist das aktuelle Gerät, das mit dem Audience Manager <span class="wintitle"> Data Collection Server</span> (<span class="wintitle"> DCS</span>) in Echtzeit interagiert. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">Die Geräte 2 und 3 werden mit Gerät 1 durch ein Gerätediagramm verknüpft, sie interagieren jedoch nicht mit dem DCS gleichzeitig mit Gerät 1. </li> 
      </ul> </p> <p>Dementsprechend werden die Geräte 2 und 3 nicht in die Populationsmetrik für Segmente in Echtzeit einbezogen. </p> </td> 
   </tr> 
