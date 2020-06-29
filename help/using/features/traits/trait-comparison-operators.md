@@ -5,8 +5,12 @@ seo-title: Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau
 solution: Audience Manager
 title: Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +23,11 @@ In diesem Artikel werden die Vergleichsoperatoren beschrieben, die von [!UICONTR
 
 <!-- c_tb_comparison_operators.xml -->
 
-Vergleichsoperatoren (oder relationale Operatoren) werden verwendet, um die Beziehung zwischen verschiedenen Werten zu vergleichen, zu testen oder zu bewerten. Bei [!UICONTROL Trait Builder]der Erstellung von Signalregeln können Sie mit Vergleichsoperatoren die Beziehung zwischen verschiedenen Schlüssel/Wert-Paaren testen. Sie können beispielsweise eine Signalregel erstellen, um eine Zielgruppe für teure Kamerakäufer zu definieren. In diesem Fall können Sie ein Schlüssel-Wert-Paar für Kamera/Preis erstellen und einen Benutzer qualifizieren, wenn er nach einer Kamera gesucht hat, deren Preis mindestens einem bestimmten Betrag entspricht.
+Vergleichsoperatoren (oder relationale Operatoren) werden verwendet, um die Beziehung zwischen verschiedenen Werten zu vergleichen, zu testen oder zu bewerten. Bei [!UICONTROL Trait Builder]der Erstellung von Signalregeln können Sie mit Vergleichsoperatoren die Beziehung zwischen verschiedenen Schlüssel/Wert-Paaren testen. Sie können beispielsweise eine Signalregel erstellen, um eine Audience für teure Kamerabezocke zu definieren. In diesem Fall können Sie ein Schlüssel-Wert-Paar für Kamera/Preis erstellen und einen Benutzer qualifizieren, wenn er nach einer Kamera gesucht hat, deren Preis mindestens einem bestimmten Betrag entspricht.
 
 ## Vorteile von Vergleichsoperatoren
 
-Vergleichsoperatoren sind nützlich, wenn Sie Eigenschaften auf der Grundlage mehrerer Werte bewerten und erstellen müssen. Eine Betrachtung der Preise für Waren und Dienstleistungen kann diese Bedingung illustrieren. Ihr Unternehmen könnte z. B. Besucher anhand der Preise der von Ihnen angezeigten Produkte identifizieren wollen. Es kann jedoch administrativ ineffizient sein, einzelne Segmente basierend auf bestimmten Werten zu definieren. Vergleichsoperatoren tragen dazu bei, diese Hürde zu überwinden, indem Segmentierungsauslöser auf der Grundlage von Preisschwellen oder -bereichen eingerichtet werden.
+Vergleichsoperatoren sind nützlich, wenn Sie Eigenschaften auf der Grundlage mehrerer Werte bewerten und erstellen müssen. Eine Betrachtung der Preise für Waren und Dienstleistungen kann diese Bedingung illustrieren. Ihr Unternehmen könnte z. B. Besucher anhand der Preise der von Ihnen Ansicht Produkte identifizieren wollen. Es kann jedoch administrativ ineffizient sein, einzelne Segmente basierend auf bestimmten Werten zu definieren. Vergleichsoperatoren tragen dazu bei, diese Hürde zu überwinden, indem Segmentierungsauslöser auf der Grundlage von Preisschwellen oder -bereichen eingerichtet werden.
 
 ## Vergleichsoperatoren
 
@@ -33,9 +37,9 @@ Sie können Regeln mit den folgenden Vergleichsoperatoren erstellen:
 |---|---|
 | **==** | Gleich |
 | **!=** | Nicht gleich |
-| **&gt;** | Größer als |
+| **>** | Größer als |
 | **&lt;** | Kleiner als |
-| **=&gt;** | Größer als/gleich |
+| **=>** | Größer als/gleich |
 | **&lt;=** | Kleiner als/gleich |
 
 ## Benannte Operatoren
@@ -46,14 +50,14 @@ Sie können Regeln mit den folgenden benannten Operatoren erstellen:
 |---|---|
 | **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* die von diesem Operator angegebenen Zeichen. |
 | **[!UICONTROL Matcheswords]** | Der Wert in einem Schlüssel-Wert-Paar *entspricht* dem von diesem Operator angegebenen Muster. |
-| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *beginnt mit* den von diesem Operator angegebenen Zeichen. |
+| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *Beginn mit* den von diesem Operator angegebenen Zeichen. |
 | **[!UICONTROL Endswith]** | Der Wert in einem Schlüssel-Wert-Paar *endet mit* den von diesem Operator angegebenen Zeichen. |
-| **[!UICONTROL Matchesregex]** | Der Wert in einem Schlüssel-Wert-Paar *entspricht* dem Muster, das durch einen regulären Ausdruck angegeben wird. [Erfahren Sie mehr](../../features/traits/trait-builder-regex.md) über die Verwendung regulärer Ausdrücke in [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | Der Wert in einem Schlüssel-Wert-Paar *entspricht* dem von einem regulären Ausdruck angegebenen Muster. [Erfahren Sie mehr](../../features/traits/trait-builder-regex.md) über die Verwendung von regulären Ausdrücken in [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
->* [Boolesche Ausdrücke im Eigenschaften- und Segmentaufbau](../../reference/boolean-expressions-tsb.md)
->* [Boolesche Ausdrücke in EigenschaftenBuilder](../../reference/boolean-expressions-tsb.md)
->* [Reihenfolge der Vorgänge in EigenschaftenBuilder-Ausdrücken](../../features/traits/trait-operator-precedence.md)
->* [Beispielausdrücke mit booleschen Operatoren und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
+>* [Boolesche Ausdruck im Eigenschaften- und Segmentaufbau](../../reference/boolean-expressions-tsb.md)
+>* [Die booleschen Ausdruck in TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Reihenfolge der Vorgänge in TraitBuilder-Ausdrücken](../../features/traits/trait-operator-precedence.md)
+>* [Ausdruck mit booleschen Operatoren und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
 
