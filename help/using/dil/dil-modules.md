@@ -1,19 +1,23 @@
 ---
-description: Beschreibt Methoden im DIL.modules-Namespace. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
-seo-description: Beschreibt Methoden im DIL.modules-Namespace. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
+description: Beschreibt Methoden im Namensraum DIL.modules. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
+seo-description: Beschreibt Methoden im Namensraum DIL.modules. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
 seo-title: DIL-Module
 solution: Audience Manager
 title: DIL-Module
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 3%
 
 ---
 
 
 # DIL-Module{#dil-modules}
 
-Beschreibt Methoden im `DIL.modules` -Namespace. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
+Beschreibt Methoden im `DIL.modules` Namensraum. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
 
 <!-- 
 
@@ -23,9 +27,9 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-Funktioniert mit [!UICONTROL DIL] dem Senden von [!DNL Analytics] Tag-Elementen (Variablen, Props, eVars usw.) in Audience Manager. Gibt Daten in einer kommagetrennten Liste zurück. Verfügbar in Version 2.6.
+Funktioniert mit [!UICONTROL DIL] dem Senden von [!DNL Analytics] Tag-Elementen (Variablen, Props, eVars usw.) auf Audience Manager. Gibt Daten in einer kommagetrennten Liste zurück. Verfügbar in Version 2.6.
 
-**** Funktionssignatur: `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
+**Funktionssignatur:** `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
 >[!NOTE]
 >
@@ -56,7 +60,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> Objekt </td> 
-   <td colname="col3"> <p>Ein Array von Objekten, das aufgezählte <span class="keyword"> Analytics- </span> Variablen wie props und evars enthält (z. B. <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
+   <td colname="col3"> <p>Ein Array von Objekten, die aufgezählte <span class="keyword"> Analytics- </span> Variablen wie props und evars enthalten (z. <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
@@ -78,7 +82,7 @@ r_dil_sc_init.xml
    <td colname="col2"> Objekt </td> 
    <td colname="col3"> <p>Zusätzliche Optionen: </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Wenn Sie nichts anderes angeben, werden Punkte durch den standardmäßigen Unterstrich ( _ ) ersetzt. </p> <p>Beispielsweise <code> s.contextData = {abc.def = '123'} </code>würde die Abfragezeichenfolge <code> c_contextData_abc_def=123 </code> des Ereignisaufrufs angezeigt. </p> <p>Diese Option ist nur in <span class="wintitle"> DIL </span> Version 5.0 oder höher verfügbar. </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Wenn Sie nichts anderes angeben, werden Punkte durch den standardmäßigen Unterstrich ( _ ) ersetzt. </p> <p>Dies <code> s.contextData = {abc.def = '123'} </code>würde beispielsweise zu <code> c_contextData_abc_def=123 </code> einer Abfrage des Ereignis-Aufrufs führen. </p> <p>Diese Option ist nur in <span class="wintitle"> DIL </span> Version 5.0 oder höher verfügbar. </p> </li> 
      <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Beispielsweise <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> würde das Zeichenfolgenarray aus der Datenerfassung von Kontextdaten gefiltert. Bei dieser Option werden persönliche identifizierbare Informationen (PII) ausgeschlossen. </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
@@ -130,7 +134,7 @@ DIL.modules.siteCatalyst.init(s, scDil, {
 });
 ```
 
-Um alle überwachten [!DNL Analytics] Datenpunkte ohne die oben dargestellte zusätzliche Funktion zu verfolgen, rufen Sie `siteCatalyst.init` wie folgt auf:
+Um alle überwachten [!DNL Analytics] Datenpunkte ohne die oben dargestellte zusätzliche Funktion zu verfolgen, rufen Sie `siteCatalyst.init` diese wie folgt auf:
 
 ```
 DIL.modules.siteCatalyst.init(s, scDil);
@@ -138,7 +142,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-Die `GA.submitUniversalAnalytics();` Funktion sendet Daten von Google [!DNL Universal Analytics] an Audience Manager. Diese [!UICONTROL DIL] Funktion ist für die Verwendung mit `analytics.js`, der neuesten Code-Bibliothek für Google [!DNL Universal Analytics].
+Die `GA.submitUniversalAnalytics();` Funktion sendet Daten von Google [!DNL Universal Analytics] an den Audience Manager. Diese [!UICONTROL DIL] Funktion ist für die Verwendung mit `analytics.js`, die die neueste Code-Bibliothek für Google [!DNL Universal Analytics].
 
 <!-- 
 
@@ -157,7 +161,7 @@ dil-google-universal-analytics.xml
 
 
 
-**** Funktionssignatur: `DIL.modules.GA.submitUniversalAnalytics(gaObject, dilInstance, internalPropertyName);`
+**Funktionssignatur:** `DIL.modules.GA.submitUniversalAnalytics(gaObject, dilInstance, internalPropertyName);`
 
 **Eigenschaften**
 
@@ -188,7 +192,7 @@ Die `GA.submitUniversalAnalytics();` Funktion akzeptiert die folgenden Eigenscha
 
 **Beispiel**
 
-Denken Sie daran, zuerst das [!DNL Google Analytics] Objekt zu definieren, bevor Sie `ga` und [!UICONTROL DIL]`GA.submitUniversalAnalytics();` . Ihr Code könnte wie folgt aussehen:
+Denken Sie daran, zuerst das [!DNL Google Analytics] Objekt zu definieren, bevor Sie `ga` und [!UICONTROL DIL] `GA.submitUniversalAnalytics();`. Ihr Code könnte wie folgt aussehen:
 
 ```js
 //Instantiate DIL 
@@ -202,7 +206,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 
 ## GA.init {#ga-init}
 
-Die `GA.init()` Funktion sendet Daten aus der veralteten/veralteten Version von an Audience Manager [!DNL Google Analytics] .
+Die `GA.init()` Funktion sendet Daten aus der veralteten/veralteten Version von an den Audience Manager [!DNL Google Analytics] .
 
 <!-- 
 
@@ -212,9 +216,9 @@ r_dil_ga_init.xml
 
 >[!IMPORTANT]
 >
->`GA.init()` funktioniert nur mit dem alten Google Analytics-Trackingcode `ga.js` oder `dc.js`. Sie können diese [!UICONTROL DIL] Funktion nicht aufrufen, wenn Sie `analytics.js`die neueste Codebibliothek für Google verwenden [!DNL Universal Analytics]. [!DNL Audience Manager] Kunden, die [!UICONTROL DIL]GA.submitUniversalAnalytics verwenden [!DNL Universal Analytics] und [ sehen sollten](../dil/dil-modules.md#ga-submit-universal-analytics).
+>`GA.init()` funktioniert nur mit dem alten Google Analytics-Trackingcode `ga.js` oder `dc.js`. Sie können diese [!UICONTROL DIL] Funktion nicht aufrufen, wenn Sie `analytics.js`die neueste Codebibliothek für Google verwenden [!DNL Universal Analytics]. [!DNL Audience Manager] Kunden, die [!UICONTROL DIL] GA.submitUniversalAnalytics verwenden [!DNL Universal Analytics] und [diese sehen sollten](../dil/dil-modules.md#ga-submit-universal-analytics).
 
-**** Funktionssignatur: `DIL.modules.GA.init(_gaq, dilInstance, trackVars);`
+**Funktionssignatur:** `DIL.modules.GA.init(_gaq, dilInstance, trackVars);`
 
 **Parameter**
 
@@ -301,9 +305,9 @@ Um alle überwachten GA-Metriken ohne die oben dargestellte zusätzliche Funktio
 
 `DIL.modules.GA.init(_gaq, dilInstance).submit();`
 
-**Beispielereignisaufruf**
+**Beispiel-Ereignis-Aufruf**
 
-Der URL-Ereignisaufruf für Audience Manager könnte wie folgt aussehen:
+Der URL-Ereignis-Aufruf an Audience Manager könnte wie folgt aussehen:
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 
@@ -311,6 +315,6 @@ Der URL-Ereignisaufruf für Audience Manager könnte wie folgt aussehen:
 >
 >* [Google Analytics-Trackingcode](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Vollständige Webaktualisierung: ga.js/dc.js auf analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
->* [Hinzufügen von "analytics.js"zu Ihrer Site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [Hinzufügen von &quot;analytics.js&quot;zu Ihrer Site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [ga-Objektmethoden-Referenz](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
