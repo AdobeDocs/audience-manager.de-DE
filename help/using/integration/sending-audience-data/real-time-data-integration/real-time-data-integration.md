@@ -1,18 +1,22 @@
 ---
-description: Informationen zur Integration von Echtzeit-Audience Manager.
-seo-description: Informationen zur Integration von Echtzeit-Audience Manager.
+description: Informationen zur Echtzeit-Audience Manager-Integration.
+seo-description: Informationen zur Echtzeit-Audience Manager-Integration.
 seo-title: Integration von Inbound-Daten in Echtzeit
 solution: Audience Manager
 title: Integration von Inbound-Daten in Echtzeit
 uuid: 96f292bb-608c-41d3-8baa-a58ecb411db0
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: ea95df8531c00c183f22b09a4a78fc6b35ee279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 0%
 
 ---
 
 
 # Integration von Inbound-Daten in Echtzeit {#real-time-inbound-data-integration}
 
-Informationen zur Integration von Echtzeit-Audience Manager.
+Informationen zur Echtzeit-Audience Manager-Integration.
 
 <!-- c_rt_data_int.xml -->
