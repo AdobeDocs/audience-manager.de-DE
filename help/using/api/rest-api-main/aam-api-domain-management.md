@@ -5,8 +5,12 @@ seo-title: API-Methoden für Domänenverwaltung
 solution: Audience Manager
 title: API-Methoden für Domänenverwaltung
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 3%
 
 ---
 
@@ -93,9 +97,9 @@ Eine `GET` Methode, die Informationen über alle Ihre Domänen zurückgibt (nur 
 
 `GET https://api.demdex.com/v1/partner-sites/`
 
-### Optionale Abfrageparameter
+### Optionale Abfrage-Parameter
 
-Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *alle* Eigenschaften eines Objekts zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an die [!DNL API]übergeben. Siehe [Optionale Parameter](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *alle* Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn diese Abfrage an die [!DNL API]übergeben wird. Siehe [Optionale Parameter](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -107,7 +111,7 @@ Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *a
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td> 
-   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Die Nummerierung beginnt bei 0. </td> 
+   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Nummerierung von Beginn bei 0. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
@@ -118,8 +122,8 @@ Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *a
    <td colname="col2"> Sortiert Ergebnisse und gibt sie entsprechend der angegebenen JSON-Eigenschaft zurück. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> absteigend</code> </td>
-   <td colname="col2"> Sortiert die Ergebnisse und gibt sie in absteigender Reihenfolge zurück. "Aufsteigend"ist die Standardeinstellung. </td>
+   <td colname="col1"><code> descending</code> </td>
+   <td colname="col2"> Sortiert die Ergebnisse und gibt sie in absteigender Reihenfolge zurück. Aufsteigend ist der Standardwert. </td>
   </tr>
   <tr valign="top">
    <td colname="col1"><code> search</code> </td>
