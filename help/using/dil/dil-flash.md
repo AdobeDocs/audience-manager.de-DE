@@ -1,19 +1,23 @@
 ---
-description: Erfassen von Daten, die von FLA-Dateien an Analytics gesendet werden, und Arbeiten mit diesen Informationen in Audience Manager.
-seo-description: Erfassen von Daten, die von FLA-Dateien an Analytics gesendet werden, und Arbeiten mit diesen Informationen in Audience Manager.
+description: Erfassen Sie Daten, die von FLA-Dateien an Analytics gesendet werden, und arbeiten Sie mit diesen Informationen in Audience Manager.
+seo-description: Erfassen Sie Daten, die von FLA-Dateien an Analytics gesendet werden, und arbeiten Sie mit diesen Informationen in Audience Manager.
 seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 1%
 
 ---
 
 
 # Flash DIL{#flash-dil}
 
-Erfassen von Daten, die von FLA-Dateien an Analytics gesendet werden, und Arbeiten mit diesen Informationen in Audience Manager.
+Erfassen Sie Daten, die von FLA-Dateien an Analytics gesendet werden, und arbeiten Sie mit diesen Informationen in Audience Manager.
 
 <!-- 
 
@@ -21,7 +25,7 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] ist eine [!DNL ActionScript] Codebibliothek, mit der Sie mit Videodaten in Audience Manager arbeiten können. [!DNL Flash DIL] erfasst SWF-Inhalte, die die Adobe- [!UICONTROL AppMeasurement] Bibliothek an Analytics übergibt. [!DNL Flash DIL] sendet diese Daten an das separate [!UICONTROL DIL] JavaScript-Datenerfassungsmodul, das diese Informationen an Audience Manager weiterleitet. Analytics-Daten ( [!UICONTROL Props], [!UICONTROL eVars]Ereignis usw.) Aus der [!DNL FLA] Datei erfasste Daten stehen im Audience Manager als Eigenschaften oder nicht verwendete Signale zur Verfügung.
+[!UICONTROL Flash DIL] ist eine [!DNL ActionScript] Codebibliothek, mit der Sie mit Videodaten in Audience Manager arbeiten können. [!DNL Flash DIL] erfasst SWF-Inhalte, die die Adobe- [!UICONTROL AppMeasurement] Bibliothek an Analytics übergibt. [!DNL Flash DIL] sendet diese Daten an das separate [!UICONTROL DIL] JavaScript-Datenerfassungsmodul, das diese Informationen an den Audience Manager weiterleitet. Analytics-Daten ( [!UICONTROL Props], [!UICONTROL eVars]Ereignisse usw.) Aus der [!DNL FLA] Datei erfasste Daten stehen im Audience Manager als Eigenschaften oder nicht verwendete Signale zur Verfügung.
 
 ## Anforderungen für die Flash DIL-Datenerfassung {#requirements}
 
@@ -97,7 +101,7 @@ Daten aus diesen Parametern werden standardmäßig erfasst:
 
 ## Flash-DIL-Daten in Audience Manager {#flash-dil-data}
 
-Das [!UICONTROL Flash DIL] Modul wandelt Adobe AppMeasurement-Daten in Audience Manager-Eigenschaften und nicht verwendete Signale um.
+Das [!UICONTROL Flash DIL] Modul wandelt Adobe AppMeasurement-Daten in Audience Manager- und nicht verwendete Signale um.
 
 <!-- 
 
@@ -105,15 +109,15 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignis funktionieren wie Eigenschaften in Audience Manager. Eigenschaften sind Schlüssel-Wert-Paare und werden zum Aufbau von Segmenten verwendet. Beispiel: In einer Analytics-Prop wie `c30=foo`ist `c30` der Schlüssel (eine Konstante) und `foo` der Wert (eine Variable).
+Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignisse funktionieren wie Eigenschaften im Audience Manager. Eigenschaften sind Schlüssel-Wert-Paare und werden zum Aufbau von Segmenten verwendet. Beispiel: In einer Analytics-Eigenschaft wie `c30=foo`ist `c30` der Schlüssel (eine Konstante) und `foo` der Wert (eine Variable).
 
 **Audience Manager-Eigenschaften mit Analytics-Variablen abgleichen**
 
-Um die Analytics-Daten zu verwenden, die übergeben werden, [!UICONTROL Flash DIL]sollten Sie Audience Manager-Eigenschaften erstellen, denen der Schlüsselwert vorangestellt wird `c_`.
+Um die von Analytics übergebenen Daten zu verwenden, [!UICONTROL Flash DIL]sollten Sie Audience Manager-Eigenschaften erstellen, denen der Schlüsselwert vorangestellt wird `c_`.
 
 Beispiele finden Sie in der Tabelle:
 
-| Analytics-Datenelement | Analytics-Beispiel | Audience Manager-Eigenschaft |
+| Analytics-Datenelement | Analytics-Beispiel | Als Audience Manager-Eigenschaft |
 |---|---|---|
 | **prop** | `c30=foo` | `c_prop30=foo` |
 | **evar** | `v35=bar` | `c_evar35=bar` |
@@ -121,7 +125,7 @@ Beispiele finden Sie in der Tabelle:
 
 **DIL/Analytics-Daten als nicht verwendete Signale**
 
-Audience Manager akzeptiert Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignis auch ohne entsprechende Eigenschaften. In diesem Fall sind die Daten nicht für die Erstellung von Eigenschaften verfügbar und werden stattdessen im Bericht [&quot;](../reporting/dynamic-reports/unused-signals.md) Nicht verwendete Signale&quot;angezeigt. Um diese Informationen optimal nutzen zu können, erstellen Sie Audience Manager-Eigenschaften, die mit den von der [!UICONTROL Flash DIL] Bibliothek übergebenen Analytics-Daten übereinstimmen.
+Audience Manager akzeptiert Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignis auch ohne entsprechende Eigenschaft. In diesem Fall sind die Daten nicht für die Erstellung von Eigenschaften verfügbar und werden stattdessen im Bericht [&quot;](../reporting/dynamic-reports/unused-signals.md) Nicht verwendete Signale&quot;angezeigt. Um diese Informationen optimal nutzen zu können, erstellen Sie Audience Manager-Eigenschaften, die mit den von der [!UICONTROL Flash DIL] Bibliothek weitergeleiteten Analytics-Daten übereinstimmen.
 
 ## Flash DIL ActionScript Library {#flash-dil-actionscript}
 
