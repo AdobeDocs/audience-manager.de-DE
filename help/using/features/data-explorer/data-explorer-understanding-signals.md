@@ -1,30 +1,34 @@
 ---
-description: Signale sind die kleinste Informationseinheit in Audience Manager. Sie stellen Benutzerinteraktionen oder Benutzeraktivitäten in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergeleitet, um in Eigenschaftsregeln verwendet zu werden.
-seo-description: Signale sind die kleinste Informationseinheit in Audience Manager. Sie stellen Benutzerinteraktionen oder Benutzeraktivitäten in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergeleitet, um in Eigenschaftsregeln verwendet zu werden.
+description: Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. Sie stellen Benutzerinteraktionen oder die Aktivität von Benutzern in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergegeben, um in Eigenschaftsregeln verwendet zu werden.
+seo-description: Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. Sie stellen Benutzerinteraktionen oder die Aktivität von Benutzern in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergegeben, um in Eigenschaftsregeln verwendet zu werden.
 seo-title: Signale verstehen
 title: Signale verstehen
 uuid: 04a0554e-954e-484a-8838-9161ef416872
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 0%
 
 ---
 
 
 # Signale verstehen
 
-Signale sind die kleinste Informationseinheit in Audience Manager. Sie stellen Benutzerinteraktionen oder Benutzeraktivitäten in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergeleitet, um in Eigenschaftsregeln verwendet zu werden.
+Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. Sie stellen Benutzerinteraktionen oder die Aktivität von Benutzern in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergegeben, um in Eigenschaftsregeln verwendet zu werden.
 
 [!DNL Audience Manager] verwendet Schlüssel-Wert-Paare zur Darstellung von Signalen. Beispielsweise könnte das folgende Signal darauf hindeuten, dass ein Besucher eine Webseite mit Elektronik erreicht hat:
 
 * `page = electronics`
 
-Das [Signal-Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) zeigt mehrere Arten von Signalattributen an, mit denen Sie neue Eigenschaften erstellen können. Im Folgenden finden Sie eine detaillierte Übersicht der verfügbaren Signaleigenschaften:
+Das [Signal-Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) zeigt mehrere Arten von Signalattributen an, mit denen Sie neue Eigenschaften erstellen können. Im Folgenden finden Sie eine detaillierte Ansicht der verfügbaren Signaleigenschaften:
 
 * *Das Schlüssel-Wert-Paar* zeigt Ihnen das Schlüssel-Wert-Paar des von [!DNL Audience Manager]Ihnen empfangenen Signals.
-* *Der Signaltyp* beschreibt die Kategorie jedes Signals. Signale fallen in eine der folgenden Kategorien:
+* *Der Signaltyp* beschreibt die Kategorie der einzelnen Signale. Die Signale fallen in eine der folgenden Kategorien:
    * [Umsetzbare Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md): Echtzeitsignale, die von Ihren Protokolldateien zur Medienleistung empfangen werden;
    * [!DNL Adobe Analytics]: von Ihrem [!DNL Adobe Analytics] Konto empfangene Echtzeitsignale;
-   * Allgemeine Online-Daten: Echtzeitdaten, die durch Ihre Zielgruppenaktivität generiert wurden und nicht in den ausführbaren Protokolldateien enthalten sind, [!DNL Adobe Analytics];
+   * Allgemeine Online-Daten: Echtzeit-Daten, die von Ihrer Audience-Aktivität generiert wurden und nicht in den ausführbaren Protokolldateien enthalten sind, und [!DNL Adobe Analytics];
    * An Bord befindliche Datensätze: Daten, die durch Batch-Datenübertragung empfangen wurden.
 * *Signalquelle* hängt vom Signaltyp ab:
    * Bei an Bord befindlichen Signalen ist die Signalquelle der Name der Datenquelle.
@@ -35,7 +39,7 @@ Das [Signal-Dashboard](../../features/data-explorer/data-explorer-signals-dashbo
 
 ## Aktualisierungsfrequenz der Signaldaten
 
-Aufgrund der großen Datenmenge, die Audience Manager täglich verarbeitet, [!UICONTROL Data Explorer] werden die angezeigten Signaldaten je nach Signaltyp in festen Zeitintervallen aktualisiert:
+Aufgrund der großen Datenmenge, die Audience Manager täglich verarbeitet, [!UICONTROL Data Explorer] werden die angezeigten Signaldaten je nach Signaltyp in festen Zeitabständen aktualisiert:
 
 * Echtzeit-Signaldaten (relevante Protokolldateien, [!DNL Adobe Analytics] Daten und allgemeine Online-Daten) werden alle 4 bis 6 Stunden aktualisiert.
 * An Bord befindliche Signaldaten werden alle 24 Stunden aktualisiert.
