@@ -5,8 +5,12 @@ seo-title: dexGetQSVars
 solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 Ruft einen bestimmten Wert von einem Anzeigen-Server ab.
 
-**** Funktionssignatur: `dexGetQSVars: function (variableName, partner, containerNSID) {}`
+**Funktionssignatur:** `dexGetQSVars: function (variableName, partner, containerNSID) {}`
 
 <!-- 
 
@@ -29,7 +33,7 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Zeichenfolge | Der Name der Variablen, für die Sie einen Wert abrufen möchten. |
 | `partner` | Zeichenfolge | Der zu suchende Name des Partners. |
-| `containerNSID` | Ganzzahl | Der Behälter, [!DNL NSID] nach dem Sie suchen. Die Standardeinstellung ist `0`. |
+| `containerNSID` | Ganzzahl | Der [!DNL NSID] Container, nach dem du suchst. Die Standardeinstellung ist `0`. |
 
 **Antwort**
 
