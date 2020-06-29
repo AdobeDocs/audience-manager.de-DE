@@ -1,13 +1,17 @@
 ---
 description: Ruft eine Partner-spezifische DIL-Instanz ab.
-keywords: Audience Manager API;aam API;Audience Manager-API;aam-API
+keywords: audience manager api;aam api;audience manager apis;aam apis
 seo-description: Ruft eine Partner-spezifische DIL-Instanz ab.
 seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 13%
 
 ---
 
@@ -16,7 +20,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 Ruft eine Partner-spezifische DIL-Instanz ab.
 
-**** Funktionssignatur: `getDil: function (partner, containerNSID) {}`
+**Funktionssignatur:** `getDil: function (partner, containerNSID) {}`
 
 <!-- r_dil_get_dil.xml -->
 
@@ -29,7 +33,7 @@ Ruft eine Partner-spezifische DIL-Instanz ab.
 
 ## Antwort
 
-Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine Partner-spezifische [!UICONTROL DIL] Instanz zurück. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung `The DIL instance with partner <name> and containerNSID <ID> was not found.`"
+Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine Partner-spezifische [!UICONTROL DIL] Instanz zurück. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Beispielcode
 
