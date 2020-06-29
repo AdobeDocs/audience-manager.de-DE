@@ -5,15 +5,19 @@ seo-title: Datei-PGP-Verschlüsselung für Inbound-Datentypen
 solution: Audience Manager
 title: Datei-PGP-Verschlüsselung für Inbound-Datentypen
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 
 
 # Datei-PGP-Verschlüsselung für Inbound-Datentypen{#file-pgp-encryption-for-inbound-data-types}
 
-Sie können Datendateien mit [!DNL PGP] Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
+Sie können Datendateien mit [!DNL PGP] Verschlüsselung verschlüsseln, wenn Sie sie an den Audience Manager senden.
 
 <!-- c_encryption.xml -->
 
@@ -21,7 +25,7 @@ Sie können Datendateien mit [!DNL PGP] Verschlüsselung verschlüsseln, wenn Si
 >
 >[!DNL PGP] Verschlüsselung beinhaltet Dateikomprimierung. Wenn Sie [!DNL PGP] verschlüsselte Inbound-Dateien senden, stellen Sie sicher, dass Sie sie nicht mit gzip [komprimieren](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) (`.gz`).
 >
->[!DNL PGP] Verschlüsselte eingehende Dateien, die ebenfalls [komprimiert](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) werden, sind in Audience Manager ungültig.
+>[!DNL PGP] verschlüsselte eingehende Dateien, die ebenfalls [komprimiert](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) sind, sind im Audience Manager ungültig.
 
 Gehen Sie wie folgt vor, um eingehende Datendateien zu verschlüsseln.
 
@@ -52,4 +56,4 @@ Gehen Sie wie folgt vor, um eingehende Datendateien zu verschlüsseln.
 
    >[!NOTE]
    >
-   >Audience Manager unterstützt nur den [!DNL Advanced Encryption Standard (AES)] Datenverschlüsselungsalgorithmus. Audience Manager unterstützt alle wichtigen Größen.
+   >Audience Manager unterstützt nur den [!DNL Advanced Encryption Standard (AES)] Datenverschlüsselungsalgorithmus. Audience Manager unterstützt alle Schlüsselgrößen.
