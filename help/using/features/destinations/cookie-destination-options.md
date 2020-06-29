@@ -4,8 +4,12 @@ seo-description: In Destination Builder enthält der Abschnitt "Konfiguration"di
 seo-title: Optionale Einstellungen für Cookie-Ziele
 solution: Audience Manager
 title: Optionale Einstellungen für Cookie-Ziele
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 4%
 
 ---
 
@@ -35,20 +39,20 @@ In [!UICONTROL Destination Builder]enthält der [!UICONTROL Configuration sectio
      </ul> </p> <p> Lassen Sie das Feld <span class="wintitle"> Cookie-Domäne</span> leer, um ein Cookie für alle Domänen festzulegen. Dies ist die Standardeinstellung. </p> <p>So legen Sie Cookies für eine bestimmte Domäne und Subdomänen fest: </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Geben Sie den Namen der Domäne in das Feld <span class="wintitle"> Cookie-Domäne</span> ein. </li> 
-      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Starten Sie den Domänennamen mit einem Punkt. Beispiel, <code> .somedomain.com</code>. </li> 
+      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Beginn des Domänennamens mit einem Punkt. Beispiel, <code> .somedomain.com</code>. </li> 
       <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Beispiel</b> </p> </td> 
-   <td colname="col2"> <p>Ein einfaches Beispiel: Angenommen, wir haben eine fiktive Website namens sports.com. Sports.com hat Domains für Golf, Baseball und Fußball. Um ein Cookie in allen Sportredomänen einzurichten, geben Sie dieses wie folgt in das Feld " <span class="wintitle"> Cookie-Domäne</span> "ein: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Dies weist <span class="keyword"> Audience Manager</span> an, ein Cookie in einer Domäne zu setzen, die pattern <code><i>something</i></code>.sports.com enthält. Eine komplexere Beispielreihe finden Sie unten. </p> </td> 
+   <td colname="col2"> <p>Ein einfaches Beispiel: Angenommen, wir haben eine fiktive Website namens sports.com. Sports.com hat Domains für Golf, Baseball und Fußball. Um ein Cookie in allen Sportredomänen einzurichten, geben Sie dieses wie folgt in das Feld " <span class="wintitle"> Cookie-Domäne</span> "ein: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Dadurch wird <span class="keyword"> Audience Manager</span> angewiesen, ein Cookie in einer Domäne zu setzen, die pattern <code><i>something</i></code>.sports.com enthält. Eine komplexere Beispielreihe finden Sie unten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Beispiele für komplexe Cookie-Domänen
 
-Diese Beispiele zeigen Ihnen, ob ein Cookie basierend auf der Konfiguration der [!DNL Audience Manager] [!UICONTROL Cookie Domain] Option gesetzt wird.
+Diese Beispiele zeigen Ihnen, ob ein Cookie basierend auf der Konfiguration der [!DNL Audience Manager] Option gesetzt [!UICONTROL Cookie Domain] wird.
 
 <table id="table_3A7B9479CDA6493FA8104D8D9841E914"> 
  <thead> 
@@ -92,7 +96,7 @@ Diese Beispiele zeigen Ihnen, ob ein Cookie basierend auf der Konfiguration der 
 Die [!UICONTROL Publish Data To] Einstellungen geben ein Cookie zurück, wenn die Domäne die von den ausgewählten Optionen festgelegten Kriterien erfüllt. Zu den Optionen zählen:
 
 * **[!UICONTROL All of our domains]**: (Standard) Gibt eine [!DNL cookie] für jede Domäne zurück.
-* **[!UICONTROL Only the selected domains]**: Gibt ein Cookie nur für die in der Domänenliste ausgewählten Domänen zurück.
+* **[!UICONTROL Only the selected domains]**: Gibt ein Cookie nur für die in der Liste &quot;Domänen&quot;ausgewählten Domänen zurück.
 * **[!UICONTROL All of our domains except the selected domains]**: Verhindert, dass ausgewählte Domänen eine [!DNL cookie]empfangen. Alle anderen Domänen können eine [!DNL cookie]empfangen.
 
 >[!MORELIKETHIS]
