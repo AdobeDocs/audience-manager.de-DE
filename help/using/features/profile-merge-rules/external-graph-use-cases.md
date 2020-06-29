@@ -1,27 +1,31 @@
 ---
-description: Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das von Audience Manager getrennt ist. Dazu gehören die Adobe Experience Cloud Device Co-op und andere Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätegrafikunternehmen von Drittanbietern hat.
-seo-description: Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das von Audience Manager getrennt ist. Dazu gehören die Adobe Experience Cloud Device Co-op und andere Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätegrafikunternehmen von Drittanbietern hat.
+description: Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für Unbekannte Nutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören die Adobe Experience Cloud-Gerätekooperation und andere Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagrammen von Drittanbietern verwendet.
+seo-description: Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für Unbekannte Nutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören die Adobe Experience Cloud-Gerätekooperation und andere Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagrammen von Drittanbietern verwendet.
 seo-title: Anwendungsbeispiele für Diagramme externer Geräte
 solution: Audience Manager
 title: Anwendungsbeispiele für Diagramme externer Geräte
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 2%
 
 ---
 
 
 # Anwendungsbeispiele für Diagramme externer Geräte {#external-device-graph-use-cases}
 
-Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das von Audience Manager getrennt ist. Dies umfasst die [!DNL Adobe Experience Cloud Device Co-op] und andere Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätegraphen von Drittanbietern hat.
+Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für Unbekannte Nutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dies umfasst die [!DNL Adobe Experience Cloud Device Co-op] und andere Integrationen, die Adobe mit den deterministischen oder probabilistischen Gerätediagrammen von Drittanbietern hat.
 
 ## Recommendations {#recommendations}
 
-Berücksichtigen Sie die Diagrammoptionen für Geräte [!DNL Experience Cloud Device Co-op] und Drittanbieter für Kampagnen, die:
+Betrachten Sie die Diagrammoptionen für Geräte [!DNL Experience Cloud Device Co-op] und Drittanbieter für Kampagnen, die:
 
 * Sie haben eine niedrige Authentifizierungsebene über ihre digitalen Eigenschaften. Verwenden Sie die [!UICONTROL Profile Link Device Graph option] , wenn Sie über eine große Anzahl authentifizierter Benutzer verfügen.
-* Targeting großer Zielgruppen. Die Gerätegrafiken [!DNL Experience Cloud Device Co-op] und Drittanbieter enthalten authentifizierte und nicht authentifizierte Daten.
-* Segment authentifizierte und/oder nicht authentifizierte Besucher auf der Ebene des Einzelnen und des Haushalts.
+* Target große Audiencen. Die Gerätediagramme [!DNL Experience Cloud Device Co-op] und die Diagramme von Drittanbietern enthalten authentifizierte und nicht authentifizierte Daten.
+* Segmentieren authentifizierter und/oder nicht authentifizierter Besucher auf der Ebene des Einzelnen und des Haushalts.
 
 ![](assets/merge-rule-triangle1.png)
 <!-- 
@@ -95,27 +99,27 @@ These strategies are designed to bring an unauthenticated or unknown user back t
 
 ## Erweitertes Geräte-Targeting {#audience-expansion}
 
-Dieser Verwendungsfall verdeutlicht, wie Sie die Größe Ihrer adressierbaren Zielgruppe mit einer präzisen geräteübergreifenden Personalisierung über das [!DNL Adobe Co-Op Device Graph] oder andere erweitern können [!DNL External Device Graphs].
+Dieser Verwendungsfall zeigt, wie Sie die Größe Ihrer adressierbaren Audience mit einer präzisen geräteübergreifenden Personalisierung über das [!DNL Adobe Co-Op Device Graph] oder andere erweitern können [!DNL External Device Graphs].
 
 Nehmen wir an, Jane besitzt drei Geräte, mit denen sie regelmäßig nach Pauschalangeboten sucht: ihr Laptop ([!DNL Device 1]), ihr Smartphone ([!DNL Device 2]) und ihr Tablet ([!DNL Device 3]). Jane suchte auf dem Laptop nach Flügen, Hotels und Führungen. Während sie Smartphone und Tablet benutzte, besuchte sie nur die Homepage des Reisebüros.
 
-Mit der [!UICONTROL No Cross-Device Profile] +- [!UICONTROL Adobe Co-op Device Graph] Regel kann das Reisebüro alle drei Geräteprofile zusammenführen, da sie über die [!UICONTROL Adobe Co-op Device Graph]Regel mit demselben Inhaber verknüpft sind.
+Durch die Verwendung der [!UICONTROL No Cross-Device Profile] +- [!UICONTROL Adobe Co-op Device Graph] Regel kann das Reisebüro alle drei Geräte-Profil zusammenführen, da sie mit demselben Inhaber über die [!UICONTROL Adobe Co-op Device Graph]zusammengeführt werden.
 
-![Zielgruppenausdehnungsregel](assets/audience-expansion-rule.png)
+![Audience-Erweiterungs-Regel](assets/audience-expansion-rule.png)
 
-In unserem Beispiel wurden alle Eigenschaften erfasst, die erforderlich sind, um sich für das Segment zu qualifizieren [!DNL Device 1]. Da Audience Manager alle Geräteprofile qualifiziert, die an der Profilzusammenführung für ein Segment teilgenommen haben, werden nun alle drei Janes Geräteprofile segmentiert.
+In unserem Beispiel wurden alle Eigenschaften erfasst, die erforderlich sind, um sich für das Segment zu qualifizieren [!DNL Device 1]. Da Audience Manager jedes Profil, das an der Segmentzusammenführung teilgenommen hat, für ein Segment qualifiziert, werden alle drei Jane-Geräte-Profil nun segmentiert.
 
-Durch diese Regel wurde die Anzahl der Geräteprofile, die für das Segment infrage kommen, von 1 auf 3 erhöht und das Reisebüro hat es ermöglicht, allen drei Geräten im Besitz von Jane eine einheitliche Nachricht zu senden.
+Durch diese Regel wurde die Anzahl der Gerätesegmente, die für das Profil infrage kommen, von 1 auf 3 erhöht und das Reisebüro hat es ermöglicht, allen drei  im Besitz von Jane eine einheitliche Nachricht zu senden.
 
-![Zielgruppenerweiterung](assets/audience-expansion.png)
+![Audience-Erweiterung](assets/audience-expansion.png)
 
 ## Erweitertes geräteübergreifendes Targeting {#advanced-graph-expansion}
 
-Dieser Verwendungsfall zeigt, wie Sie das Zielgruppen-Targeting für authentifizierte Besucher mit Geräten aus einem externen Gerätediagramm oder aus dem [!DNL Adobe Co-Op Device Graph]Gerät mithilfe der **[!UICONTROL Last Authenticated Profiles]** +- **[!UICONTROL Adobe Co-Op Device Graph]** Regel erweitern können.
+In diesem Verwendungsfall wird gezeigt, wie Sie das Audience-Targeting für authentifizierte Besucher mit Geräten aus einem externen Gerätediagramm oder aus dem [!DNL Adobe Co-Op Device Graph]Gerät mithilfe der **[!UICONTROL Last Authenticated Profiles]** +- **[!UICONTROL Adobe Co-Op Device Graph]** Regel erweitern können.
 
 ![last-device-graph](assets/last-device-coop.png)
 
-Im Beispiel unten möchte das Unternehmen Acme Inc. alle Haushalte mit einem Einkommen über 100.000 US-Dollar pro Jahr ansprechen, die [!DNL Acme Inc.] Abonnenten haben [!DNL Data Plan A], die ein [!DNL iPhone 7] Gerät verwenden.
+Im unten stehenden Beispiel möchte die Acme Inc.-Firma alle Haushalte mit einem Einkommen von über 100.000 US-Dollar pro Jahr, die [!DNL Acme Inc.] Abonnenten haben [!DNL Data Plan A], die ein [!DNL iPhone 7] Gerät verwenden, mit einer Zielgruppe versehen.
 
 John verwendet sein iPhone 7 auf Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig enthält der John- [!DNL Co-Op Device Graph] Cluster zwei weitere Geräte, die er regelmäßig verwendet: sein Laptop ([!DNL Device 1]) und sein sekundäres Smartphone [!DNL Device 2] (ein [!DNL Samsung S7] on [!DNL Data Plan B]).
 
@@ -125,7 +129,7 @@ Mit dem **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op
 
 >[!MORELIKETHIS]
 >
->* [Anwendungsfälle des Profillink-Gerätediagramms](profile-link-use-case.md)
->* [Allgemeine Anwendungsfälle für Regeln zur Profilzusammenführung](merge-rule-targeting-options.md)
->* [Häufig gestellte Fragen zu Regeln zur Profilzusammenführung](../../faq/faq-profile-merge.md)
+>* [Anwendungsfälle für Profil Link Device Graph](profile-link-use-case.md)
+>* [Allgemeine Anwendungsfälle für Profil-Zusammenführungsregeln](merge-rule-targeting-options.md)
+>* [Häufig gestellte Fragen zu Profil-Zusammenführungsregeln](../../faq/faq-profile-merge.md)
 
