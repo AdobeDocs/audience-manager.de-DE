@@ -5,8 +5,9 @@ seo-title: Adobe Audience Manager Technology Partners
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 59%
@@ -14,15 +15,15 @@ ht-degree: 59%
 ---
 
 
-# Audience Manager Aktivierung Partner
+# Audience Manager Aktivierung Partners
 
-Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integrationen](/help/using/features/destinations/add-edit-segments.md) .  Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
+Diese Seite enthält nur aktuelle [Server-zu-Server-Integrationen](/help/using/features/destinations/add-edit-segments.md) des Audience Managers.  Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
 
 <br> 
 
 * **Aktualisiert** = Zeigt das letzte Datum an, an dem ein Update für diese Aktivierung-Partnereinrichtung vorgenommen wurde.
-* **Unsegment** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräte-Profil deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Profil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profil Merge Rule verwendet wird. Die Aufhebung der Segmentierung wird auch im Zusammenhang mit GDPR-Löschanforderungen verwendet. Regeln zum Zusammenführen von [Profilen und Prozessen](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) zur Gerätesegmentierung lesen und [Audiencen-Manager-Partner mit Unsegmentierungsfunktionen](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager sendet Segmentinformationen an die Ziele, die mit &quot;Ja&quot;gekennzeichnet sind.
-* **Das Empfangen von IAB TCF-Zustimmungssignalen** = Das Audience Manager-Plug-in für IAB TCF ermöglicht es Ihnen, die IAB TC-Zeichenfolge an Aktivierung-Partner weiterzuleiten und dabei die Datenschutzentscheidungen der Nutzer zu beachten. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **Unsegment** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräte-Profil deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Profil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profil Merge Rule verwendet wird. Die Aufhebung der Segmentierung wird auch im Zusammenhang mit GDPR-Löschanforderungen verwendet. Regeln zum Zusammenführen von [Profilen und Prozessen](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) zur Gerätesegmentierung lesen und [Audience Manager mit Unsegmentierungsfunktionen](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager sendet Segmentinformationen an die Ziele, die mit &quot;Ja&quot;gekennzeichnet sind.
+* **Das Empfangen von IAB TCF-Zustimmungssignalen** = Das Audience Manager-Plug-in für IAB TCF ermöglicht es Ihnen, die IAB-TC-Zeichenfolge an Aktivierung-Partner weiterzuleiten und dabei die Datenschutzentscheidungen der Nutzer zu beachten. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = Diese Spalte Liste die Partner, die eine sofortige geräteübergreifende Unterdrückung unterstützen. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **Mobilgerät-IDs** = In dieser Spalte werden Listen von Partnern aufgeführt, die Mobilgeräte-IDs von Audience Manager empfangen können.
 
@@ -60,7 +61,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | Centro | 27/02/2017 | Nein | Nein | Nein | Ja |
 | ChoiceStream | 27/02/2017 | Nein | Nein | Nein | Nein |
 | Clearstream.tv | 27/02/2017 | Ja | Nein | Nein | Nein |
-| Collective AMP Platform | 27/02/2017 | Nein | Nein | Nein | Nein |
+| Collective AMP-Platform | 27/02/2017 | Nein | Nein | Nein | Nein |
 | Criteo | 27/02/2017 | Nein | Ja | Nein | Ja |
 | Kreuz | 27/02/2017 | Ja | Nein | Nein | Nein |
 | D.A.C. AudienceOne | 27/02/2017 | Ja | Nein | Nein | Nein |
@@ -116,7 +117,7 @@ Diese Seite enthält nur aktuelle Audience Manager- [Server-zu-Server-Integratio
 | Opera Mediaworks | 13/02/2017 | Ja | Nein | Nein | Ja |
 | Gehirn | 03/04/2017 | Ja | Nein | Nein | Nein |
 | OwnerIQ | 13/02/2017 | Ja | Nein | Ja | Nein |
-| Plattform 161 | 28/11/2018 | Ja | Nein | Nein | Ja |
+| Platform 161 | 28/11/2018 | Ja | Nein | Nein | Ja |
 | PocketMath | 22/02/2017 | Ja | Nein | Nein | Ja |
 | Powerlinks | 17/05/2017 | Ja | Nein | Nein | Nein |
 | Öffentlich | 13/02/2017 | Ja | Nein | Nein | Nein |
