@@ -4,8 +4,12 @@ seo-description: Auf dieser Seite finden Sie Informationen zu den neuesten DIL-V
 seo-title: DIL-Versionshinweise
 solution: Audience Manager
 title: DIL-Versionshinweise
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 0672a1567cdda3f2af665b6d0355b05f635a1928
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 0%
 
 ---
 
