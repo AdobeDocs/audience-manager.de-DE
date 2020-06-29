@@ -1,20 +1,24 @@
 ---
-description: Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird in Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Die nachstehende Tabelle enthält detaillierte Informationen zur Qualifikation der Eigenschaften.
+description: Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird im Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Die nachstehende Tabelle enthält detaillierte Informationen zur Qualifikation der Eigenschaften.
 keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
-seo-description: Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird in Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Die nachstehende Tabelle enthält detaillierte Informationen zur Qualifikation der Eigenschaften.
+seo-description: Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird im Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Die nachstehende Tabelle enthält detaillierte Informationen zur Qualifikation der Eigenschaften.
 seo-title: Eigenschaftsqualifikationsreferenz
 solution: Audience Manager
 title: Eigenschaftsqualifikationsreferenz
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '825'
+ht-degree: 0%
 
 ---
 
 
 # Referenz zu Eigenschaften und Segmentqualifikationen {#trait-qualification-reference}
 
-Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird in Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Weitere Informationen zur Qualifizierung des [Eigenschaftstyps finden Sie unter Qualifizierung nach](#trait-type) Eigenschaftstyp.
+Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird im Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Weitere Informationen zur Qualifizierung des [Eigenschaftstyps finden Sie unter Qualifizierung nach](#trait-type) Eigenschaftstyp.
 
 Weitere Informationen zur Segmentqualifizierung finden Sie unter Segmentpopulationen in [Echtzeit und Segmentpopulation](#real-time-segment) insgesamt.
 
@@ -25,10 +29,10 @@ Weitere Informationen zur Segmentqualifizierung finden Sie unter Segmentpopulati
 | Eigenschaftstyp | Qualifikationskriterien |
 |---|---|
 | Regelbasierte Eigenschaften | Die Qualifizierung von Eigenschaften erfolgt in Echtzeit, da Benutzer sich für eine Eigenschaft in ihrem Browser qualifizieren. Ihre Beginn qualifizieren sich ca. 4 Stunden nach der [Erstellung der Eigenschaft](create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) in der Benutzeroberfläche für eine regelbasierte Eigenschaft. Regelbasierte Eigenschaften ermöglichen Ihnen die Verwendung von [Neuigkeits- und Häufigkeitssteuerelementen](../segments/recency-and-frequency.md) für die Begrenzung der Anzeigenfrequenz und andere Anwendungsfälle. |
-| Integrierte Eigenschaften | Die Qualifizierung von Eigenschaften erfolgt nach der Verarbeitung einer eingehenden Datei, d. h., die eingehende Datei wird in Audience Manager [](../../faq/faq-inbound-data-ingestion.md) importiert und dann erfolgt die Qualifizierung der Eigenschaften. Sie sollten etwa 4 Stunden nach dem Erstellen einer nicht integrierten Eigenschaft warten, bevor Sie eine eingehende Datei zur Verarbeitung hochladen. Bei nicht an Bord befindlichen Eigenschaften beträgt die maximale Anzahl von Qualifikationen für ein Profil 1. |
+| Integrierte Eigenschaften | Die Qualifizierung von Eigenschaften erfolgt nach der Verarbeitung einer eingehenden Datei, d. h., die eingehende Datei wird in den Audience Manager [](../../faq/faq-inbound-data-ingestion.md) importiert und dann erfolgt die Qualifizierung der Eigenschaften. Sie sollten etwa 4 Stunden nach dem Erstellen einer nicht integrierten Eigenschaft warten, bevor Sie eine eingehende Datei zur Verarbeitung hochladen. Bei nicht an Bord befindlichen Eigenschaften beträgt die maximale Anzahl von Qualifikationen für ein Profil 1. |
 | Algorithmische Eigenschaften | Bei algorithmischen Eigenschaften ist die maximale Anzahl von Qualifikationen für ein Profil 1. |
 | Ordnereigenschaften | Eine Ordnereigenschaft fasst die Eigenschaftsqualifikationen der darin enthaltenen Eigenschaften zusammen. Eigenschaften von [Read-Ordnern: Info](about-folder-traits.md) für weitere Informationen. |
-| Eigenschaften der aktiven Audience und von Datenquelle synchronisierte Eigenschaften | Eine [!UICONTROL Active Audience] Eigenschaft enthält alle in Ihrem Audience Manager-Konto verwalteten Geräte. [!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Lesen Sie mehr über [Aktive Audience-Eigenschaften und Datenquelle-synchronisierte Eigenschaften](client-activity-synced-audience-traits.md). |
+| Eigenschaften der aktiven Audience und von Datenquelle synchronisierte Eigenschaften | Eine [!UICONTROL Active Audience] Eigenschaft enthält alle Geräte, die in Ihrem Audience Manager-Konto verwaltet werden. [!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Lesen Sie mehr über [Aktive Audience-Eigenschaften und Datenquelle-synchronisierte Eigenschaften](client-activity-synced-audience-traits.md). |
 
 ## Eindeutige Eigenschaften und Gesamtanzahl der Eigenschaften {#unique-trait-realizations}
 
