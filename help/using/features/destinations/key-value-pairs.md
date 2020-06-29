@@ -5,8 +5,12 @@ seo-title: Standard- und Serial-Key-Value-Paare
 solution: Audience Manager
 title: Standard- und Serial-Key-Value-Paare
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Ein Schlüssel-Wert-Paar besteht aus verwandten Elementen: Ein Schlüssel, bei d
 
 ## Grundlegende Schlüsselwertpaare {#basic-key-value-pairs}
 
-Voll geformt könnte ein einfacher Satz Schlüsselwertpaare wie folgt aussehen:
+Voll geformt könnte ein einfacher Satz Schlüssel-Wert-Paars wie folgt aussehen:
 
 * `gender = male`
 * `color = green`
@@ -27,8 +31,8 @@ Voll geformt könnte ein einfacher Satz Schlüsselwertpaare wie folgt aussehen:
 
 Ziele akzeptieren Schlüsselwertdaten in *`standard`* oder *`serialized`* Format.
 
-* **** Standard-Schlüssel/Wert-Paare: Formatiert Zieldaten in separate Schlüssel-Wert-Paare. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren.
-* **** Serialisierte Schlüssel-Wert-Paare: Fasst mehrere Werte in ein einziges Schlüssel-Wert-Paar zusammen. In einem serialisierten Schlüssel-Wert-Paar trennt ein spezieller Indikator die Werte innerhalb des Schlüsselwertsatzes.
+* **Standard-Schlüssel/Wert-Paare:** Formatiert Zieldaten in separate Schlüssel-Wert-Paare. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren.
+* **Serialisierte Schlüssel-Wert-Paare:** Fasst mehrere Werte in ein einziges Schlüssel-Wert-Paar zusammen. In einem serialisierten Schlüssel-Wert-Paar trennt ein spezieller Indikator die Werte innerhalb des Schlüssel-Wert-Satzes.
 
 Sowohl Standard- als auch serialisierte Schlüsselwerte können einzelne oder mehrere Werte enthalten. Die folgende Tabelle enthält Beispiele für die Formate für Standard- und serielle Schlüsselwerte.
 
@@ -48,8 +52,8 @@ Sowohl Standard- als auch serialisierte Schlüsselwerte können einzelne oder me
   </tr>
   <tr> 
    <td colname="col1"> <p> <b>Serialisiert</b> </p> </td> 
-   <td colname="col2"> <p> <code> x = 1; 2 </code> </p> </td> 
-   <td colname="col3"> <p> <code> x = 1; 2 &amp; y = 3; 4 </code> </p> </td>
+   <td colname="col2"> <p> <code> x = 1 ; 2 </code> </p> </td> 
+   <td colname="col3"> <p> <code> x = 1 ; 2 &amp; y = 3 ; 4 </code> </p> </td>
   </tr>
  </tbody>
 </table>
@@ -58,9 +62,9 @@ Sowohl Standard- als auch serialisierte Schlüsselwerte können einzelne oder me
 
 Die Zeichen, die Werte innerhalb und zwischen Schlüsseln und Werten trennen, werden als *`delimiters`* und bezeichnet *`separators`*. Diese werden besonders dann wichtig, wenn Sie Segmente in einem seriellen Format an ein Ziel senden. Mit der Serialisierung können Sie mehrere Werte mit einem Schlüssel übergeben und Schlüssel/Wert-Paare kombinieren. Trennzeichen und Trennzeichen werden wie folgt definiert:
 
-* **** Trennzeichen für Schlüsselwerte: Trennt einen Schlüssel und einen Wert in einem Schlüssel/Wert-Paar.
-* **** Trennzeichen für Schlüsselwerte: Trennt Sätze von Schlüssel-Wert-Paaren.
-* **** Serielles Trennzeichen: Trennt mehrere Werte innerhalb von Sätzen von serialisierten Schlüssel/Wert-Paaren.
+* **Trennzeichen für Schlüsselwerte:** Trennt einen Schlüssel und einen Wert innerhalb eines Schlüssel-Wert-Paars.
+* **Trennzeichen für Schlüsselwerte:** Trennt Sätze von Schlüssel-Wert-Paaren.
+* **Serielles Trennzeichen:** Trennt mehrere Werte innerhalb von Sätzen von serialisierten Schlüssel/Wert-Paaren.
 
 ## Beispiele {#examples}
 
@@ -99,7 +103,7 @@ Mit [!UICONTROL Destination Builder] dieser Funktion können Sie Schlüsselwertd
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Serieller Einzelschlüssel</b> </p> </td> 
-   <td colname="col2"> <p> <code> X = 1; 2 ; 3 </code> </p> </td> 
+   <td colname="col2"> <p> <code> X = 1 ; 2 ; 3 </code> </p> </td> 
    <td colname="col3"> <p>Ein Schlüsselwertsatz, der mehrere Werte mit einem Schlüssel übergibt. Da dieser Schlüssel mehrere Werte hat, wird er als serialisiertes Schlüssel-Wert-Paar bezeichnet. Das Beispiel enthält folgende Elemente: </p> 
     <ul id="ul_69C4C662B9BD4F77BB940D921B316CCF"> 
      <li id="li_718BEC527E69417C9F88D3DBD3357A28">Schlüssel: X </li> 
@@ -110,7 +114,7 @@ Mit [!UICONTROL Destination Builder] dieser Funktion können Sie Schlüsselwertd
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Mehrere Schlüssel/Wert-Paare</b> (seriell) </p> </td> 
-   <td colname="col2"> <p> <code> X = 1; 2 &amp; Y = 3; 4 </code> </p> </td> 
+   <td colname="col2"> <p> <code> X = 1 ; 2 &amp; Y = 3 ; 4 </code> </p> </td> 
    <td colname="col3"> <p>Eine Reihe von mehreren Schlüssel/Wert-Paaren, die mehrere Werte auf separaten Schlüsseln übergeben. Das Beispiel enthält folgende Elemente: </p> 
     <ul id="ul_CB50133B2E944818B9F2A0586EF69774"> 
      <li id="li_FD3D7ECC2BF046E99B1ED0B73EFE341F">Schlüssel: X, Y </li> 
