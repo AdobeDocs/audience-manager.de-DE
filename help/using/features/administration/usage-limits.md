@@ -6,19 +6,23 @@ solution: Audience Manager
 title: Nutzungsbeschränkungen
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
+feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 5%
 
 ---
 
 
 # Nutzungsbeschränkungen {#usage-limits}
 
-Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segmente, Ziele und algorithmischen Modelle fest, die Sie für ein Konto erstellen können. Beschränkungen gelten für diese Elemente, unabhängig davon, ob sie in der Benutzeroberfläche oder programmgesteuert mit [!DNL API] Methoden erstellt wurden. Nutzungsbeschränkungen schützen Audience Manager vor automatisierten Prozessen, die möglicherweise versuchen, unsere [!DNL API]s oder Benutzeroberfläche zu gefährden.
+Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segmente, Ziele und algorithmischen Modelle fest, die Sie für ein Konto erstellen können. Beschränkungen gelten für diese Elemente, unabhängig davon, ob sie in der Benutzeroberfläche oder programmgesteuert mit [!DNL API] Methoden erstellt wurden. Nutzungsbeschränkungen schützen Audience Manager vor automatisierten Prozessen, die unsere [!DNL API]s oder Benutzeroberfläche beeinträchtigen könnten.
 
 ## ID-Zuordnungs-Begrenzung {#id-mapping-limits}
 
-In der folgenden Tabelle werden die Grenzwerte für die [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs Liste. Sobald eine ID eine der unten stehenden Beschränkungen erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer Logik [!DNL FIFO] (first in, first out) basieren, indem die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzugefügt wird. Einzelheiten zu den vom Audience Manager unterstützten IDs finden Sie im [IDs](../../reference/ids-in-aam.md) -Index im Audience Manager.
+In der folgenden Tabelle werden die Grenzwerte für die [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs Liste. Sobald eine ID eine der unten stehenden Beschränkungen erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer Logik [!DNL FIFO] (first in, first out) basieren, indem die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzugefügt wird. Einzelheiten zu den von Audience Manager unterstützten IDs finden Sie im Audience Manager unter [IDs](../../reference/ids-in-aam.md) -Index.
 
 | ID-Zuordnung | Maximale Beschränkung |
 |-----------|-------------- |
