@@ -1,26 +1,30 @@
 ---
-description: Eigenschaften-Aufbau bewertet Ausdrücke nach der Reihenfolge der unten aufgeführten Vorgänge, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
-seo-description: Eigenschaften-Aufbau bewertet Ausdrücke nach der Reihenfolge der unten aufgeführten Vorgänge, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
+description: Eigenschaften-Builder bewertet Ausdruck nach der Reihenfolge der unten aufgeführten Vorgänge, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
+seo-description: Eigenschaften-Builder bewertet Ausdruck nach der Reihenfolge der unten aufgeführten Vorgänge, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
 seo-title: Reihenfolge der Vorgänge im Eigenschaften-Aufbau
 solution: Audience Manager
 title: Reihenfolge der Vorgänge im Eigenschaften-Aufbau
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 3%
 
 ---
 
 
 # Reihenfolge der Vorgänge im Eigenschaften-Aufbau {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] Ausdrücke werden entsprechend der Reihenfolge der unten aufgeführten Vorgänge ausgewertet, von der höchsten bis zur niedrigsten Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
+[!UICONTROL Trait Builder] bewertet die Ausdruck nach der Reihenfolge der Vorgänge, die unten aufgeführt wird, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
 
 <!-- c_tb_operator_precedence.xml -->
 
 <table id="table_F0FA45B652C7464B90D35526817110FF"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Priorität des Operators </th> 
+   <th colname="col1" class="entry"> Rangfolge des Operators </th> 
    <th colname="col2" class="entry"> Symbol </th> 
    <th colname="col3" class="entry"> Kommentare </th> 
   </tr> 
@@ -29,7 +33,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   <tr> 
    <td colname="col1"> Klammern </td> 
    <td colname="col2"> ( ) </td> 
-   <td colname="col3"> Ausdrücke in Klammern werden immer zuerst ausgewertet und folgen der Rangfolge. </td> 
+   <td colname="col3"> Ausdruck in Klammern werden immer zuerst ausgewertet und folgen der Rangfolge. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Vergleichsoperatoren </td> 
