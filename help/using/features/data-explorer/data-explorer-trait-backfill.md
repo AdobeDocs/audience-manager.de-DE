@@ -4,8 +4,12 @@ seo-description: Aufstockung von Eigenschaftenrealisierungen, um historische Aud
 seo-title: Eigenschaften-Realisierungen für Aufstockungen
 title: Eigenschaften-Realisierungen für Aufstockungen
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +20,7 @@ Aufstockung von Eigenschaftenrealisierungen, um historische Audiencen zu erfasse
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill] ist eine Premium-Funktion, die das Audience Manager-Erlebnis verbessert, indem zusätzliche Anwendungsfälle freigegeben werden. Die Aufstockung erfordert zusätzliche Verarbeitungsleistung und steht allen Audience Manager-Kunden zu inkrementellen Kosten zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
+>[!UICONTROL Data Explorer Trait Backfill] ist eine Premium-Funktion, die den Audience Manager durch die Erschließung zusätzlicher Nutzungsszenarien verbessert. Die Aufstockung erfordert zusätzliche Verarbeitungsleistung und steht allen Audience Manager zu inkrementellen Kosten zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
 
 Wenn Sie Eigenschaften aus nicht verwendeten Signalen erstellen, können Sie die Eigenschaften über einen bestimmten Zeitraum aufstocken. [!DNL Audience Manager] erfasst die Verlaufsdaten zu Audiencen, die für die neue Eigenschaft infrage kommen, und speichert sie im entsprechenden Profil. Sie können den **[!UICONTROL Backfill Options]** Abschnitt [!UICONTROL Trait Expression] im **[Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md)**sehen.
 
@@ -55,7 +59,7 @@ Sehen Sie sich das unten stehende Video an, um sich einen Video mit einer Anleit
 
 Neu erstellter Beginn Eigenschaften, der Audiencen zwei bis drei Stunden nach der Erstellung erfasst. Aufgrund der großen Datenmenge, die täglich [!DNL Audience Manager] arbeitet, wird die aufgestockte Population jedoch nicht sofort in den Diagrammen [!UICONTROL Unique Trait Realizations] und [!UICONTROL Total Trait Population] Diagrammen wiedergegeben.
 
-Audience Manager aktualisiert die [!UICONTROL Trait Graph] mit der aufgestockten Population innerhalb von 48 Stunden nach Erstellung der Eigenschaften.
+Audience Manager aktualisiert die [!UICONTROL Trait Graph] Variable innerhalb von 48 Stunden nach Erstellung der Eigenschaften mit der aufgestockten Population.
 
 ## Maximale Nachfüllung der Eigenschaften {#trait-backfilling-limit}
 
