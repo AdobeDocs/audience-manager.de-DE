@@ -4,10 +4,14 @@ seo-description: Dieser Abschnitt enthält allgemeine Informationen zur Testgrup
 seo-title: Gruppeninformationen testen
 solution: Audience Manager
 title: Gruppeninformationen testen
-topic: DIL-API
+topic: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +24,7 @@ Sie können auch Informationen zum Grundliniensegment anzeigen, das Sie für die
 
 Die Daten **[!UICONTROL Test Segments]** werden zufällig mit Benutzern aus dem Ausgangssegment gefüllt, das Sie für die Testgruppe verwendet haben. Die Übersicht zeigt die Prozentsätze der Benutzer, die Sie den einzelnen Testsegmenten zugewiesen haben.
 
-Das **[!UICONTROL Conversion Traits]** Laufwerk für die Berichte für die Testgruppen. Um eine Eigenschaft als Konversion festzulegen, wählen Sie beim Erstellen oder Bearbeiten von Eigenschaften in der [!UICONTROL Trait Builder]Option **Konversion** als **[Ereignistyp](../../features/traits/create-onboarded-rule-based-traits.md).**
+Das **[!UICONTROL Conversion Traits]** Laufwerk des Berichte für die Testgruppen. Um eine Eigenschaft als Konversion festzulegen, wählen Sie beim Erstellen oder Bearbeiten von Eigenschaften in der [!UICONTROL Trait Builder]Option **Konversion** als **[Ereignistyp](../../features/traits/create-onboarded-rule-based-traits.md).**
 
 Die **[!UICONTROL Destinations]** Karte kann reduziert werden. Drücken Sie die Pfeile, um einzelne Ziele zu öffnen oder zu schließen und die folgenden Informationen für Testsegmente abzurufen, gruppiert nach den Zielen, denen diese zugeordnet sind:
 
@@ -31,6 +35,6 @@ Die **[!UICONTROL Destinations]** Karte kann reduziert werden. Drücken Sie die 
 
 >[!NOTE]
 >
->Denken Sie daran, dass Sie keine Testgruppen bearbeiten können, nachdem Sie sie abgeschlossen haben. Sie können sie nur anhalten, löschen oder duplizieren.
+>Denken Sie daran, dass Sie die Testgruppen nach dem Abschluss nicht bearbeiten können. Sie können sie nur anhalten, löschen oder Duplikat daraus machen.
 
 ![](assets/test-groups-information.PNG)
