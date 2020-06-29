@@ -5,8 +5,12 @@ seo-title: Abgeleitete Signale-API-Methoden
 solution: Audience Manager
 title: Abgeleitete Signale-API-Methoden
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
+feature: API
 translation-type: tm+mt
-source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -23,5 +27,5 @@ Weitere Informationen zu abgeleiteten Signalen finden Sie unter [Abgeleitete Sig
 >
 >Die abgeleiteten Signalmethoden [!DNL API] wurden umgeschrieben [!DNL Swagger] und migriert. Siehe:
 >
->* [Adobe Audience Manager API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
+>* [Adobe Audience Manager-API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
