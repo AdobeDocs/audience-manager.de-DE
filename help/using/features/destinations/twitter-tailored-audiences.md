@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Konfigurieren von auf Twitter zugeschnittenen Audiencen als gerätebasiertes Selbstbedienungsziel
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '553'
 ht-degree: 1%
 
 ---
@@ -73,5 +73,4 @@ Achten Sie beim Zuordnen von Segmentsegmenten zu [!UICONTROL Twitter]darauf, die
 
 ## Überlegungen zu Übereinstimmungsraten {#match-rates-considerations}
 
-* Bei der Verwendung [!UICONTROL Twitter Tailored Audiences]werden die Werte [!UICONTROL Segment Addressable Audience] und [!UICONTROL Segment Match Rate] Metriken auf der Zielseite nicht angezeigt. Dies ist ein normales Verhalten, da Audiencen, die mit den Übereinstimmungsraten für dieses Ziel übereinstimmen, von [!UICONTROL Twitter]nicht von Adobe verwaltet und gehostet werden.
 * Die Integration zwischen Audience Manager und [!UICONTROL Twitter Tailored Audiences] unterstützt Backfills für historische Audiencen. Alle Segmentqualifikationen werden an gesendet, [!UICONTROL Twitter] wenn Sie das Ziel erstellen.
