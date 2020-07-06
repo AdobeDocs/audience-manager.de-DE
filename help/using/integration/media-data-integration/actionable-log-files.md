@@ -2,21 +2,21 @@
 description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne Pixel anhängen zu müssen.
 keywords: actionable logs, alf, ALF
 seo-description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne Pixel anhängen zu müssen.
-seo-title: Actionable Log Files
+seo-title: Ausführbare Protokolldateien
 solution: Audience Manager
-title: Actionable Log Files
+title: Ausführbare Protokolldateien
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 3%
+source-wordcount: '1376'
+ht-degree: 4%
 
 ---
 
 
-# Actionable Log Files {#actionable-log-files}
+# Ausführbare Protokolldateien {#actionable-log-files}
 
 [!UICONTROL Actionable Log Files] ermöglichen Ihnen, Mediendaten aus Protokolldateien des Anzeigenservers zu erfassen und mithilfe der Daten Eigenschaften in Audience Manager zu erstellen. Capture impressions, clicks, and conversions from ad servers as traits without having to append [pixels](../../integration/media-data-integration/impression-data-pixels.md).
 
@@ -153,7 +153,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Bei einer [!DNL DCM] Protokolldatei von durchschnittlich 2 Millionen Zeilen werden alle Eigenschaften, die aus umsetzbaren Signalen erstellt werden, innerhalb von etwa einer Stunde nach der Verarbeitung der Protokolle realisiert.
 
->[!NOTE] {important=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >Der in den [!DNL DCM] Protokollen angegebene Ereignis-Zeitstempel wird berücksichtigt und an den übergeben [!UICONTROL Data Collection Servers].
 >
@@ -299,6 +303,6 @@ Retarget-Benutzer, die kreative Elemente des Typs 123 gesehen haben, aber nicht 
 
 >[!MORELIKETHIS]
 >
->* [DCM-Datendateien in Audience Manager importieren](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [Berichte zur Optimierung der Audience](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [Importieren von DCM-Datendateien in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Berichte zur Zielgruppenoptimierung](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
