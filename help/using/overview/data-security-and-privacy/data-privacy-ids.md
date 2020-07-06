@@ -1,29 +1,29 @@
 ---
-description: Dieses Dokument behandelt die Typen von Audience Manager-IDs, die Sie in Datendatenschutzanforderungen verwenden können.
-seo-description: Dieses Dokument behandelt die Typen von Audience Manager-IDs, die Sie in Datendatenschutzanforderungen verwenden können.
-seo-title: Audience Manager-IDs (IDs)
+description: In diesem Dokument werden die Typen von Audience Manager-IDs beschrieben, die Sie in Datendatenschutzanfragen verwenden können.
+seo-description: In diesem Dokument werden die Typen von Audience Manager-IDs beschrieben, die Sie in Datendatenschutzanfragen verwenden können.
+seo-title: Audience Manager-IDs
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
-title: Audience Manager-IDs (IDs)
+title: Audience Manager-IDs
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Audience Manager-IDs (IDs) {#aam-ids}
+# Audience Manager-IDs {#aam-ids}
 
-Bei der Übermittlung von [Datendatenschutzanforderungen](data-privacy-requests.md) an Adobe Audience Manager müssen Sie eine der unten aufgeführten IDs (IDs) angeben. Weitere Informationen zu den ID-Formaten finden Sie in unserem [Index der Audience Manager-IDs](../../reference/ids-in-aam.md).
+Bei der Übermittlung von [Datenschutzanfragen](data-privacy-requests.md) an Adobe Audience Manager müssen Sie eine der unten aufgeführten IDs angeben. Weitere Informationen zu den ID-Formaten finden Sie in unserem [Index of IDs in Audience Manager](../../reference/ids-in-aam.md).
 
-## Individuelle Benutzer-ID des Adobe Audience Managers
+## Adobe Audience Manager Unique User ID
 
 * **Benutzer-ID**: `aam_uuid`
-* **Definition**: Individuelle Benutzer-ID des Adobe Audience Managers
-* **Namensraum-ID**: 0
+* **Definition**: Adobe Audience Manager Unique User ID
+* **Namespace-ID**: 0
 
 **JSON-Beispiel**:
 
@@ -52,7 +52,7 @@ Bei der Übermittlung von [Datendatenschutzanforderungen](data-privacy-requests.
 
 >[!NOTE]
 >
->You can also use the [!DNL CORE] namespace.
+>Sie können auch den [!DNL CORE]-Namespace verwenden.
 
 ```json
  "users": [
@@ -81,11 +81,11 @@ Bei der Übermittlung von [Datendatenschutzanforderungen](data-privacy-requests.
 
 * **Benutzer-ID**: `mid`
 * **Definition**: [!DNL Adobe Experience Cloud ID], früher bekannt als [!DNL Visitor ID] oder [!DNL Marketing Cloud ID]
-* **Namensraum-ID**: 4
+* **Namespace-ID**: 4
 
 >[!NOTE]
 >
->You can also use the [!DNL ECID] namespace. Siehe zweites [!DNL JSON] Beispiel.
+>Sie können auch den [!DNL ECID]-Namespace verwenden. Siehe das zweite [!DNL JSON]-Beispiel.
 
 **JSON-Beispiel**:
 
@@ -135,13 +135,13 @@ Bei der Übermittlung von [Datendatenschutzanforderungen](data-privacy-requests.
 ]
 ```
 
-## Customer ID
+## Kunden-ID
 
 **Benutzer-ID**: `cid`
 
-**Definition**: Kunden-ID, z. B. ein für anonyme Site-Besucher eingerichtetes Cookie, eine [!DNL CRM] ID eines Offline-Systems oder ein Hash-Benutzername.
+**Definition**: Kunden-ID, z. B. ein für anonyme Site-Besucher eingerichtetes Cookie, eine [!DNL CRM]-ID eines Offline-Systems oder ein Hash-Benutzername.
 
-**Namensraum-ID**: Kundenspezifisch. Bitte finden Sie es in Ihrer Audience Manager-Instanz.
+**Namespace-ID**: Kundenspezifisch. Sie finden sie in Ihrer Audience Manager-Instanz.
 
 **JSON-Beispiel**:
 
@@ -172,22 +172,22 @@ Bei der Übermittlung von [Datendatenschutzanforderungen](data-privacy-requests.
   }
 ```
 
-## Mobilwerbung-ID
+## Mobile Advertising-ID
 
 **Benutzer-ID**: `d_cid`
 
-**Definition**: Anzeigen-IDs für Mobilgeräte
+**Definition**: IDs für mobile Werbung.
 
 **Namespace-ID**:
 
 * [!DNL IDFA:] 20915
 * [!DNL GAID:] 20914
 
-Weitere Informationen finden Sie unter [Globale Datenquellen](../../features/global-data-sources.md) .
+Weitere Informationen finden Sie unter [Globale Data Sources](../../features/global-data-sources.md).
 
 >[!IMPORTANT]
 >
-> Wenn Sie das Mobilgerät verwenden [!DNL SDK]sollten Sie außerdem die Experience Cloud-ID (`MID`) zusammen mit mobilen Anzeigen-IDs senden, um vollständige Antworten auf &quot;Zugriff&quot;und &quot;Löschen&quot;zu erhalten.
+> Wenn Sie das [!DNL SDK] verwenden, sollten Sie außerdem die Experience Cloud ID (`MID`) zusammen mit den Mobile Advertising-IDs senden, um vollständige Antworten auf Zugriffs- und Löschanfragen zu erhalten.
 
 **JSON-Beispiel**:
 
@@ -214,13 +214,13 @@ Weitere Informationen finden Sie unter [Globale Datenquellen](../../features/glo
 ]
 ```
 
-## Integrationscode
+## Integrations-Code
 
 **Benutzer-ID**: `d_cid_ic`
 
-**Definition**: Ein Integrationscode für die Datenquelle. Dies kann anstelle der Datenquellen-ID/Namensraum-ID in der [!DNL API] Anforderung verwendet [!DNL Adobe Experience Cloud Privacy Core Service]werden.
+**Definition**: Ein Integrations-Code für die Datenquelle. Dieser kann anstelle der Datenquellen-ID/Namespace-ID in der [!DNL API]-Anfrage an [!DNL Adobe Experience Cloud Privacy Core Service] verwendet werden.
 
-**Namensraum-ID**: Nicht anwendbar
+**Namespace-ID**: Nicht zutreffend
 
 **JSON-Beispiel**:
 
