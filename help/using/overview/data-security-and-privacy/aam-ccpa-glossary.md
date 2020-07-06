@@ -1,6 +1,6 @@
 ---
-description: Dieser Artikel erläutert die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) und wie Adobe Audience Manager die verschiedenen CCPA-Anforderungen angeht.
-seo-description: Dieser Artikel erläutert die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) und wie Adobe Audience Manager die verschiedenen CCPA-Anforderungen angeht.
+description: In diesem Artikel werden die Konzepte und Terminologie des Kalifornischen Verbraucherdatenschutzgesetzes (California Consumer Privacy Act, CCPA) sowie die Art und Weise, in der Adobe Audience Manager die verschiedenen CCPA-Anforderungen erfüllt, erklärt.
+seo-description: In diesem Artikel werden die Konzepte und Terminologie des Kalifornischen Verbraucherdatenschutzgesetzes (California Consumer Privacy Act, CCPA) sowie die Art und Weise, in der Adobe Audience Manager die verschiedenen CCPA-Anforderungen erfüllt, erklärt.
 seo-title: CCPA-Glossar
 solution: Audience Manager
 title: CCPA-Glossar
@@ -8,7 +8,7 @@ feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,41 +18,41 @@ ht-degree: 0%
 
 ## Überblick {#overview}
 
-In diesem Artikel werden die Konzepte und Terminologie des California Consumer Privacy Act (CCPA) erläutert und erläutert, wie Adobe Audience Manager als Dienstleister verschiedene CCPA-Anforderungen erfüllt.
+In diesem Artikel werden die Konzepte und Terminologie des Kalifornischen Verbraucherdatenschutzgesetzes (California Consumer Privacy Act, CCPA) sowie die Art und Weise, in der Adobe Audience Manager als ein Dienstleister die verschiedenen CCPA-Anforderungen erfüllt, erklärt.
 
-Das California Consumer Privacy Act (CCPA), das am 1. Januar 2020 in Kraft trat, bietet eine weitere Möglichkeit, Privatsphäre zu einem integrierten Bestandteil Ihrer Verbrauchererfahrung zu machen. Audience Manager nutzt die vorhandene Infrastruktur zum Schutz der Privatsphäre, um Ihnen bei der Erfüllung Ihrer CCPA-Verpflichtungen zu helfen, wenn Sie Audience Manager verwenden, sodass Sie CCPA bereit sind.
+Das Kalifornische Verbraucherdatenschutzgesetz (California Consumer Privacy Act, CCPA), das am 1. Januar 2020 in Kraft trat, bietet eine weitere Möglichkeit, Privatsphäre zu einem integrierten Bestandteil Ihres Verbrauchererlebnisses zu machen. Audience Manager nutzt die vorhandene Datenschutzinfrastruktur, um Ihnen bei der Erfüllung Ihrer CCPA-Verpflichtungen bei der Verwendung von Audience Manager zu helfen und CCPA-fähig zu sein.
 
-Audience Manager freut sich auf Ihre Partnerschaft, wenn Sie neue Verpflichtungen durch die Verwendung unserer Datenverwaltung und Datenschutz durch Designfunktionen angehen.
+Audience Manager freut sich darauf, mit Ihnen zusammenzuarbeiten, wenn Sie neue Verpflichtungen mithilfe unserer Data Governance- und Datenschutzfunktionen adressieren.
 
 ## CCPA-Glossar {#CCPA-glossary}
 
-Lernen Sie die Schlüsselbegriffe kennen, die im Zusammenhang mit CCPA verwendet werden. Wir haben einige der am häufigsten verwendeten Begriffe unten hervorgehoben.
+Machen Sie sich mit den wichtigsten Begriffen im Zusammenhang mit CCPA vertraut. Nachfolgend haben wir einige der am häufigsten verwendeten Begriffe hervorgehoben.
 
-**California Consumer Privacy Act (CCPA)**: ein Gesetz, das die Rechte der Privatsphäre und den Verbraucherschutz für Einwohner des Bundesstaates Kalifornien (USA) verbessert.
-
- 
-
-**Gerät**: alle physischen Objekte, die direkt oder indirekt mit dem Internet oder einem anderen Gerät verbunden werden können.
+**Kalifornisches Verbraucherdatenschutzgesetz (California Consumer Privacy Act, CCPA)**: Eine Gesetzesvorlage, die die Privatsphäre und den Verbraucherschutz für Einwohner des US-Bundesstaates Kalifornien verbessert.
 
  
 
-**Persönliche Informationen**: Informationen, die einen bestimmten Verbraucher oder Haushalt identifizieren, sich darauf beziehen, beschreiben, mit einem bestimmten Verbraucher oder Haushalt in Verbindung stehen oder in angemessener Weise mit ihm verbunden werden könnten. Personenbezogene Informationen umfassen Informationen, die einen bestimmten Verbraucher identifizieren, sich darauf beziehen, beschreiben, mit ihm in Verbindung stehen oder in angemessener Weise direkt oder indirekt mit einem bestimmten Verbraucher verbunden sein könnten.
+**Gerät**: Jedes physische Objekt, das direkt oder indirekt eine Verbindung zum Internet oder zu einem anderen Gerät herstellen kann.
 
  
 
-**Verkauf/Verkauf/Verkauf/Verkauf**: Verkauf, Vermietung, Freigabe, Offenlegung, Verbreitung, Bereitstellung, Weitergabe oder anderweitige Übermittlung mündlicher, schriftlicher oder auf elektronischem oder anderem Wege personenbezogener Daten eines Verbrauchers durch das Unternehmen an ein anderes Unternehmen oder einen Dritten gegen eine monetäre oder sonstige wertvolle Gegenleistung.
+**Personenbezogene Informationen**: Informationen, die einen bestimmten Verbraucher oder Haushalt identifizieren, sich auf ihn beziehen, ihn beschreiben, mit ihm in Verbindung gebracht werden können oder hinreichend – direkt oder indirekt – mit ihm verknüpft werden können. Personenbezogene Informationen umfassen, ohne darauf beschränkt zu sein, Informationen, die einen bestimmten Verbraucher identifizieren, sich auf ihn beziehen, ihn beschreiben, mit ihm in Verbindung gebracht werden können oder hinreichend – direkt oder indirekt – mit ihm verknüpft werden können.
 
  
 
-**Dienstleister**: eine alleinige Eigentümerin, Personengesellschaft, Firma über beschränkte Haftung, Gesellschaft, Vereinigung oder andere juristische Person, die zum Gewinn oder finanziellen Nutzen ihrer Aktionäre oder sonstigen Eigentümer organisiert oder betrieben wird, die Informationen im Namen eines Unternehmens verarbeitet und an die das Unternehmen die personenbezogenen Daten eines Verbrauchers für einen Geschäftszweck gemäß einem schriftlichen Vertrag weitergibt, sofern der Vertrag dem Unternehmen, das die Informationen erhält, untersagt, die personenbezogenen Daten für andere Zwecke als für andere Zwecke zu speichern, zu verwenden der besondere Zweck der Erbringung der im Vertrag für das Unternehmen genannten oder anderweitig durch diesen Titel zugelassenen Dienstleistungen, einschließlich der Speicherung, Verwendung oder Offenlegung der personenbezogenen Daten für einen anderen gewerblichen Zweck als die Erbringung der im Vertrag mit dem Unternehmen genannten Dienstleistungen.
+**Verkaufen/Verkauf/Verkauft**: Verkaufen, Vermieten, Freigeben, Offenlegen, Verbreiten, Bereitstellen, Übertragen oder anderweitige mündliche, schriftliche oder elektronische Kommunikation der persönlichen Daten eines Verbrauchers durch das Unternehmen an ein anderes Unternehmen oder a Dritte für finanzielle oder andere wertvolle Gegenleistung.
 
  
 
-**Eindeutiger Bezeichner/Eindeutiger persönlicher Bezeichner**: eine beständige Kennung, die verwendet werden kann, um einen Verbraucher, eine Familie oder ein Gerät, das mit einem Verbraucher oder einer Familie verbunden ist, über einen bestimmten Zeitraum und über verschiedene Dienste hinweg zu erkennen, einschließlich, aber nicht beschränkt auf eine Geräte-ID; eine Internet-Protokolladresse; Cookies, Beacons, Pixel-Tags, mobile Anzeigenkennungen oder ähnliche Technologien; Kundennummer, eindeutiges Pseudonym oder Benutzeralias; Telefonnummern oder andere Formen dauerhafter oder wahrscheinlicher Identifikatoren, die zur Identifizierung eines bestimmten Verbrauchers oder Geräts verwendet werden können.
+**Dienstleister**: Ein Einzelunternehmen, eine Personengesellschaft, eine Gesellschaft mit beschränkter Haftung, eine Körperschaft, eine Vereinigung oder eine andere juristische Person, der/die für den Gewinn oder finanziellen Vorteil der Aktionäre oder anderer Eigentümer organisiert oder betrieben wird, der/die Informationen im Namen eines Unternehmens verarbeitet und dem/der das Unternehmen die persönlichen Informationen eines Verbrauchers für einen Geschäftszweck gemäß einem schriftlichen Vertrag offenlegt, unter der Voraussetzung, dass der Vertrag dem Unternehmen, das die Informationen erhält, verbietet, die personenbezogenen Daten für einen anderen Zweck als für den spezifischen Zweck der Erbringung der im Vertrag mit dem Unternehmen festgelegten Dienstleistungen zu speichern, zu verwenden oder offenzulegen, oder wie anderweitig durch diesen Titel erlaubt, einschließlich der Speicherung, Verwendung oder Offenlegung der personenbezogenen Daten für einen anderen kommerziellen Zweck als die Erbringung der im Vertrag mit dem Unternehmen festgelegten Dienstleistungen.
+
+ 
+
+**Eindeutige Kennung/Eindeutige persönliche Kennung**: Ein dauerhafte Kennung, die verwendet werden kann, um einen Verbraucher, eine Familie oder ein Gerät, das mit einem Verbraucher oder einer Familie verbunden ist, im Laufe der Zeit und über verschiedene Dienste hinweg zu erkennen, einschließlich, aber nicht beschränkt auf eine Gerätekennung; eine Internetprotokolladresse; Cookies, Beacons, Pixel-Tags, mobile Anzeigenkennungen oder ähnliche Technologien; Kundennummern, eindeutige Pseudonyme oder Benutzeraliase; Telefonnummern oder andere Formen von dauerhaften oder probabilistischen Kennungen, die verwendet werden können, um einen bestimmten Verbraucher oder ein bestimmtes Gerät zu identifizieren.
 
  
 
 >[!MORELIKETHIS]
 >
->[Datenschutz-Übersicht](/help/using/overview/data-security-and-privacy/data-privacy.md)
+>[Datenschutz – Überblick](/help/using/overview/data-security-and-privacy/data-privacy.md)
 
