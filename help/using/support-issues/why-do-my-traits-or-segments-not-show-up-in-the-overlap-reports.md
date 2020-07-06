@@ -1,32 +1,32 @@
 ---
-description: Erläuterung, warum Eigenschaften und Segmente möglicherweise nicht auf der Seite Überschneidungsberichte angezeigt werden.
-seo-description: Erläuterung, warum Eigenschaften und Segmente möglicherweise nicht auf der Seite Überschneidungsberichte angezeigt werden.
-seo-title: Warum werden meine Eigenschaften oder Segmente nicht auf der Seite Überschneidungsberichte angezeigt?
+description: Erklärung, warum Eigenschaften und Segmente nicht auf der Seite „Overlap Reports“ angezeigt werden.
+seo-description: Erklärung, warum Eigenschaften und Segmente nicht auf der Seite „Overlap Reports“ angezeigt werden.
+seo-title: Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angezeigt?
 solution: Audience Manager
-title: Warum werden meine Eigenschaften oder Segmente nicht auf der Seite Überschneidungsberichte angezeigt?
+title: Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angezeigt?
 feature: support
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Warum werden meine Eigenschaften oder Segmente nicht auf der Seite Überschneidungsberichte angezeigt?
+# Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angezeigt?
 
-Erläuterung, warum Eigenschaften und Segmente möglicherweise nicht auf der Seite Überschneidungsberichte angezeigt werden.
+Erklärung, warum Eigenschaften und Segmente nicht auf der Seite „Overlap Reports“ angezeigt werden.
 
 ## Frage
 
-Warum sehen Benutzer beim Versuch, einen Überschneidungsbericht auszuführen, nicht bestimmte Eigenschaften und Segmente, die auf der Seite &quot;Überschneidungsberichte&quot;aufgeführt sind?
+Warum sehen Benutzer bestimmte Eigenschaften und Segmente nicht auf der Seite „Overlap Reports“, wenn sie versuchen, einen Überlagerungsbericht auszuführen?
 
 ## Antwort
 
-Damit eine Eigenschaft oder ein Segment in den Überschneidungsberichten aufgeführt wird, muss eine Anforderung an den individuellen Besucher erfüllt sein.
+Eine Mindestanforderung an Unique Visitors muss erfüllt sein, damit eine Eigenschaft oder ein Segment in den Überlagerungsberichten aufgeführt wird.
 
 * Eigenschaften: 28000 über einen Zeitraum von 14 Tagen
-* Für Segmente: 70000 Echtzeit-Benutzer über einen Zeitraum von 14 Tagen
+* Segmente: 70000 Echtzeitbenutzer über einen Zeitraum von 14 Tagen
 
-Weitere Informationen dazu finden Sie in den Berichten [zu ausgewählten Audience Managern](..//reporting/report-sampling.md)unter &quot;Datenbearbeitung&quot;und &quot;Fehlerquoten&quot;.
+Weitere Informationen hierzu finden Sie auf der Seite [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten](..//reporting/report-sampling.md).
