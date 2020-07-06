@@ -1,23 +1,23 @@
 ---
-description: Häufige API-Fragen und -Probleme
-seo-description: Häufige API-Fragen und -Probleme
-seo-title: API-FAQs
+description: Häufige Fragen und Probleme im Zusammenhang mit APIs.
+seo-description: Häufige Fragen und Probleme im Zusammenhang mit APIs.
+seo-title: Häufig gestellte Fragen zu APIs
 solution: Audience Manager
-title: API-FAQs
+title: Häufig gestellte Fragen zu APIs
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# API-FAQs{#api-faq}
+# Häufig gestellte Fragen zu APIs {#api-faq}
 
-Häufige API-Fragen und -Probleme
+Häufige Fragen und Probleme im Zusammenhang mit APIs.
 
 <!-- 
 
@@ -25,28 +25,28 @@ faq_api.xml
 
  -->
 
-Die Dokumentation zur [REST-API](../api/rest-api-main/rest-api-main.md) enthält Details zu bestimmten Methoden und Codebeispielen.
+Die Dokumentation zur [REST-API](../api/rest-api-main/rest-api-main.md) enthält Details zu bestimmten Methoden und Code-Beispiele.
 
 <br> 
 
-**Warum werden[!UICONTROL DIL]Ereignis-Aufrufe mit[!UICONTROL GET]und[!UICONTROL POST]Methoden durchgeführt?**
+**Warum führt [!UICONTROL DIL] Ereignisaufrufe mit den [!UICONTROL GET]- und [!UICONTROL POST]-Methoden aus?**
 
-[!UICONTROL DIL] übergibt Daten basierend auf der Länge der Abfrage-Zeichenfolge des Ereignis-Aufrufs [!DNL Audience Manager] mit einer `GET` oder `POST` -Methode an. Dieses Verhalten ist standardmäßig in `GET` und `POST` Methoden integriert. Es ist nicht spezifisch für [!DNL Audience Manager].
+[!UICONTROL DIL] übergibt Daten an [!DNL Audience Manager] mithilfe einer `GET`- oder `POST`-Methode basierend auf der Länge der Abfragezeichenfolge des Ereignisaufrufs. Dieses Verhalten ist standardmäßig in `GET`- und `POST`-Methoden integriert. Es ist nicht spezifisch für [!DNL Audience Manager].
 
-* [!UICONTROL DIL] führt Ereignis-Aufrufe mit `GET` ein, wenn eine URL maximal 2048 Zeichen enthält. Ein `GET` Ereignis-Aufruf enthält Daten in der URL als Abfrage-Zeichenfolgenparameter, die als Schlüssel-Wert-Paare übergeben werden.
+* [!UICONTROL DIL] führt Ereignisaufrufe mit `GET` aus, wenn eine URL maximal 2048 Zeichen enthält. Ein Ereignisaufruf mit `GET` enthält Daten in der URL als Abfragezeichenfolgenparameter, die als Schlüssel-Wert-Paare übergeben werden.
 
-* [!UICONTROL DIL] führt Ereignis-Aufrufe mit `POST` aus, wenn eine URL mehr als 2048 Zeichen enthält. Ein `POST` Ereignis-Aufruf enthält Daten im Hauptteil der Anforderung. [!UICONTROL DIL] setzt Daten in Schlüssel-Wert-Paare und gibt Informationen als Formulardaten statt in die URL-Abfrage-Zeichenfolge weiter.
+* [!UICONTROL DIL] führt Ereignisaufrufe mit `POST` aus, wenn eine URL mehr als 2048 Zeichen enthält. Ein Ereignisaufruf mit `POST` enthält Daten im Hauptteil der Anfrage. [!UICONTROL DIL] fügt Daten in Schlüssel-Wert-Paare ein und übergibt Informationen als Formulardaten und nicht in der URL-Abfragezeichenfolge.
 
-Obwohl jede Methode Daten auf andere Weise weitergibt, hat dies keine Auswirkungen auf die Funktionalität. Bei beiden Methoden werden beispielsweise immer noch Daten an Ziele gesendet, ID-Synchronisierungen funktionieren normal und Sie können Eigenschaften aus Datensignalen erstellen. [!DNL Audience Manager]
-
-<br> 
-
-**Was erlaubt mir die[!UICONTROL REST API]s zu tun?**
-
-Mit den [!UICONTROL REST API][!DNL Audience Manager] s können Sie programmatisch mit den meisten Funktionen und Funktionen arbeiten, die in der Benutzeroberfläche verfügbar sind.
+Obwohl jede Methode Daten auf unterschiedliche Weise übergibt, hat dies keine Auswirkungen auf die Funktionalität. Beispielsweise sendet [!DNL Audience Manager] bei beiden Methoden weiterhin Daten an Ziele, die ID-Synchronisierung funktioniert normal und Sie können Eigenschaften aus Datensignalen erstellen.
 
 <br> 
 
-**Wie erhalte ich eine[!UICONTROL REST API]Client-ID und ein Geheimnis?**
+**Was erlaubt mir die [!UICONTROL REST API]s?**
 
-Wenden Sie sich an Ihren Partner Solutions-Kundenbetreuer, um [!DNL API] Zugangsdaten zu erhalten. Unsere APIs verwenden [OAuth 2.0](https://oauth.net/2/) -Standards für die Token-Authentifizierung, -Autorisierung und -Erneuerung. Weitere Informationen finden Sie unter [OAuth-Authentifizierung](../api/rest-api-main/aam-api-getting-started.md#oauth) .
+Mit den [!UICONTROL REST API]s können Sie programmatisch mit den meisten Funktionen und Funktionen von [!DNL Audience Manager] arbeiten, die in der Benutzeroberfläche verfügbar sind.
+
+<br> 
+
+**Wie erhalte ich eine [!UICONTROL REST API]-Client-ID und ein Geheimnis?**
+
+Wenden Sie sich an Ihren Partner Solutions-Support-Mitarbeiter, um Zugangsdaten für [!DNL API] zu erhalten. Unsere APIs verwenden [OAuth 2.0](https://oauth.net/2/)-Standards für die Token-Authentifizierung, -Autorisierung und -Erneuerung. Weitere Informationen finden Sie unter [OAuth-Authentifizierung](../api/rest-api-main/aam-api-getting-started.md#oauth).
