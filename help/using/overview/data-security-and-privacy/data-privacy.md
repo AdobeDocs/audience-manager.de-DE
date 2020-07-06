@@ -1,64 +1,64 @@
 ---
-description: Beschreibt die Integration der Audience Manager und die Einhaltung allgemein anerkannter bewährter Verfahren in Bezug auf den Schutz der Privatsphäre der Verbraucher und die Abmeldeverfahren.
-seo-description: Beschreibt die Integration der Audience Manager und die Einhaltung allgemein anerkannter bewährter Verfahren in Bezug auf den Schutz der Privatsphäre der Verbraucher und die Abmeldeverfahren.
-seo-title: Datenschutz-Übersicht
+description: Beschreibt die Integration von Audience Manager und die Einhaltung allgemein anerkannter Best Practices in Bezug auf Verbraucherschutz und Opt-out-Verfahren.
+seo-description: Beschreibt die Integration von Audience Manager und die Einhaltung allgemein anerkannter Best Practices in Bezug auf Verbraucherschutz und Opt-out-Verfahren.
+seo-title: Datenschutz – Überblick
 solution: Audience Manager
-title: Datenschutz-Übersicht
+title: Datenschutz – Überblick
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Datenschutz-Übersicht {#data-privacy}
+# Datenschutz – Überblick {#data-privacy}
 
 ## Überblick
 
-In der Datenschutzdokumentation werden die [!DNL Audience Manager] Integration und Einhaltung allgemein anerkannter Best Practices zum Schutz der Privatsphäre von Verbrauchern und Opt-out-Verfahren beschrieben.
+The Data Privacy documentation describes [!DNL Audience Manager] integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
 
-[!DNL Audience Manager] erkennt die Bedeutung der Beziehung zwischen Verbrauchern und den Online-Marken an, mit denen sie interagieren. Beide Parteien profitieren vom transparenten Austausch pseudonymer Datenelemente:
+[!DNL Audience Manager] erkennt die Bedeutung der Beziehung zwischen Verbrauchern und den Online-Marken, mit denen sie interagieren. Beide Parteien profitieren vom transparenten Austausch pseudonymer Datenelemente:
 
-* Kunden erhalten personalisierte Inhalte, reduzierte Angebot und optimierte Benutzererfahrungen.
+* Verbraucher erhalten personalisierte Inhalte, vergünstigte Produktangebote und optimierte Benutzererlebnisse.
 * Marken erhalten wichtige Umsatzströme, die mehrere Online-Geschäftsmodelle unterstützen.
 
-In unserer fortgesetzten Unterstützung dieses Modells [!DNL Audience Manager] bleiben wir entschlossen, Ihnen die Werkzeuge zur Verfügung zu stellen, die Ihnen helfen, Transparenz und Kontrolle für Ihre Verbraucher zu bieten, und gleichzeitig personalisierte Anzeigen gemäß den [Online-Verhaltensbasierenden Selbstregulierungsgrundsätzen](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/)für Werbung bereitzustellen.
+In our continuing support of this model, [!DNL Audience Manager] remains committed to providing you with the tools to help support your ability to provide  transparency and control to your consumers, while delivering personalized ads subject to the [Online Behavioral Advertising (OBA) Self-Regulatory Principles](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
 ## [!DNL GDPR] {#gdpr}
 
-Mit der [allgemeinen Datenschutzverordnung (GDPR)](https://eugdpr.org/) wurden mehrere neue Datenschutzrechte für die Mitglieder der Europäischen Vereinigung eingeführt, darunter das **Recht auf Zugang** und das **Recht auf Vergessenwerden**. Das bedeutet, dass jeder [!DNL EU] Bürger, dessen personenbezogene Daten von Ihrem Unternehmen gesammelt wurden, jederzeit den Zugriff auf oder die Löschung seiner Daten beantragen kann. Werden diese Anforderungen nicht erfüllt, kann dies zu Geldstrafen in Höhe von mehreren Millionen Dollar für Ihr Unternehmen führen.
+Mit der [Datenschutz-Grundverordnung (DSGVO)](https://eugdpr.org/) wurden mehrere neue Datenschutzrechte für Mitglieder der Europäischen Union eingeführt, darunter das **Recht auf Zugriff** und das **Recht auf Vergessenwerden**. This means that any [!DNL EU] citizen whose personal data has been collected by your business can request to access or delete their data at any time. Die Nichtbeachtung dieser Anforderungen kann für Ihr Unternehmen Geldstrafen in Millionenhöhe nach sich ziehen.
 
-Zur Einhaltung [!DNL GDPR]der Anforderungen [!DNL Audience Manager] unterstützt Datenzugriff und Löschen von [Anforderungen](data-privacy-requests.md).
+To comply with [!DNL GDPR], [!DNL Audience Manager] supports data access and delete [requests](data-privacy-requests.md).
 
 ## [!DNL CCPA] {#ccpa}
 
-Das [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), das am 1. Januar 2020 in Kraft trat, verleiht kalifornischen Bürgern neue Rechte in Bezug auf ihre persönlichen Daten und erlegt bestimmten Einrichtungen, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf.
+Das [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), das am 1. Januar 2020 in Kraft trat, gewährt den Einwohnern Kaliforniens neue Rechte in Bezug auf ihre personenbezogenen Daten und legt bestimmten Unternehmen, die in Kalifornien geschäftlich tätig sind, Datenschutzpflichten auf.
 
-[!DNL CCPA] gewährt kalifornischen Bürgern neue Datenschutzrechte, darunter das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen und zu wissen, ob ihre personenbezogenen Daten verkauft oder offen gelegt werden (und wem). Zur Einhaltung [!DNL CCPA]der Anforderungen [!DNL Audience Manager] unterstützt [!DNL CCPA] den Zugriff und das Löschen von [Anforderungen](data-privacy-requests.md).
+[!DNL CCPA]Das bietet Einwohnern Kaliforniens neue Datenschutzrechte, einschließlich des Rechts, auf ihre personenbezogenen Daten zuzugreifen und diese zu löschen und zu erfahren, ob ihre persönlichen Daten verkauft oder weitergegeben werden (und an wen). Zur Einhaltung [!DNL CCPA]der Anforderungen [!DNL Audience Manager] unterstützt [!DNL CCPA] den Zugriff und das Löschen von [Anforderungen](data-privacy-requests.md).
 
-Weitere Informationen finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) .
+Weitere Informationen finden Sie im [Adobe Privacy Center](https://www.adobe.com/de/privacy/opt-out.html).
 
-## Compliance {#compliance}
+## Einhaltung von Vorschriften {#compliance}
 
-[!DNL Audience Manager] hilft Ihnen bei der Erfüllung Ihrer Verpflichtungen aus bestimmten Datenschutzbestimmungen, durch Datenschutzwerkzeuge wie den [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) für den Datenzugriff und das Löschen von Anfragen.
+[!DNL Audience Manager]Mit können Sie Ihre Verpflichtungen aus bestimmten Datenschutzbestimmungen durch Datenschutz-Tools wie den [Adobe Experience Platform Privacy Service](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html) für Datenzugriffs- und Löschanfragen erfüllen.
 
-Dieser Dienst bietet eine [!DNL RESTful API] Benutzeroberfläche, die Sie bei der Verwaltung von Verbraucherdatenanforderungen unterstützt. Mithilfe des [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)können Sie auf Wunsch des einzelnen Verbrauchers Anfragen zum Zugriff auf personenbezogene Daten und zum Löschen von Daten stellen, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
+Dieser Dienst bietet eine [!DNL RESTful API] und eine Benutzeroberfläche, die Sie bei der Verwaltung von Datenanfragen von Verbrauchern unterstützen. Mithilfe des [Privacy Service](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html) können Sie auf Anfrage eines einzelnen Verbrauchers Anfragen zum Zugriff auf und zum Löschen personenbezogener Daten senden, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
 
-Während Datenzugriffs- und Löschanforderungen über den [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)verarbeitet werden, werden [Abmeldeanforderungen](data-privacy-requests.md#opt-out-requests) derzeit über die [DCS-API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)unterstützt. Weitere Informationen finden Sie unter [Datenschutzanforderungen](data-privacy-requests.md) .
+Während Datenzugriffs- und Löschanfragen über den [Privacy Service](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html) verarbeitet werden, werden [Opt-out-Anfragen](data-privacy-requests.md#opt-out-requests) derzeit über die [DCS-API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) unterstützt. Weitere Informationen finden Sie unter [Datenschutzanfragen](data-privacy-requests.md).
 
 ## Verwandte Konzepte {#related-concepts}
 
-* [Datenschutzanforderungen](data-privacy-requests.md)
-* [Genehmigungsverwaltung](data-privacy-consent.md)
-* [Audience Manager Plug-In für IAB TCF](aam-iab-plugin.md)
-* [Audience Manager-IDs](data-privacy-ids.md)
+* [Datenschutzanfragen](data-privacy-requests.md)
+* [Zustimmungsverwaltung](data-privacy-consent.md)
+* [Audience Manager-Plug-In für IAB TCF](aam-iab-plugin.md)
+* [Audience Manager-IDs](data-privacy-ids.md)
 * [CCPA-Glossar](aam-ccpa-glossary.md)
-* [Glossar GDPR](aam-gdpr-glossary.md)
-* [GDPR-Überlegungen zu Zielen](aam-gdpr-partners.md)
-* [GDPR-Bereitschaftsleitlinie für Audience Manager](aam-gdpr-readiness.md)
-* [Datenverwaltung](data-governance.md)
-* [Häufig gestellte Fragen zum Datenschutz und zur Datenaufbewahrung](../../faq/faq-privacy.md)
+* [DSGVO-Glossar](aam-gdpr-glossary.md)
+* [DSGVO-Überlegungen für Ziele](aam-gdpr-partners.md)
+* [DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden](aam-gdpr-readiness.md)
+* [Data Governance](data-governance.md)
+* [Häufig gestellte Fragen zu Datenschutz und Datenhaltung](../../faq/faq-privacy.md)
