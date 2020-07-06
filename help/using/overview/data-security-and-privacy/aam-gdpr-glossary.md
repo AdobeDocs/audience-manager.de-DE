@@ -1,70 +1,70 @@
 ---
-description: In diesem Artikel werden die Konzepte und Terminologie der Europäischen Datenschutzverordnung (GDPR) erläutert und erläutert, wie der Adobe Audience Manager als Datenprozessor die verschiedenen GDPR-Anforderungen erfüllt.
-seo-description: In diesem Artikel werden die Konzepte und Terminologie der Europäischen Datenschutzverordnung (GDPR) erläutert und erläutert, wie der Adobe Audience Manager als Datenprozessor die verschiedenen GDPR-Anforderungen erfüllt.
-seo-title: Glossar GDPR
+description: In diesem Artikel werden die Konzepte und Terminologie des Europäischen Datenschutz-Grundverordnung (DSGVO) sowie die Art und Weise, in der Adobe Audience Manager als ein Datenverarbeiter die verschiedenen DSGVO-Anforderungen erfüllt, erklärt.
+seo-description: In diesem Artikel werden die Konzepte und Terminologie des Europäischen Datenschutz-Grundverordnung (DSGVO) sowie die Art und Weise, in der Adobe Audience Manager als ein Datenverarbeiter die verschiedenen DSGVO-Anforderungen erfüllt, erklärt.
+seo-title: DSGVO-Glossar
 solution: Audience Manager
-title: Glossar GDPR
+title: DSGVO-Glossar
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Glossar GDPR {#gdpr-glossary}
+# DSGVO-Glossar {#gdpr-glossary}
 
 ## Überblick {#overview}
 
-In diesem Artikel werden die Konzepte und Terminologie der Europäischen Datenschutzverordnung (GDPR) erläutert und erläutert, wie der Adobe Audience Manager als Datenprozessor die verschiedenen GDPR-Anforderungen erfüllt.
+In diesem Artikel werden die Konzepte und Terminologie des Europäischen Datenschutz-Grundverordnung (DSGVO) sowie die Art und Weise, in der Adobe Audience Manager als ein Datenverarbeiter die verschiedenen DSGVO-Anforderungen erfüllt, erklärt.
 
-Das GDPR trat am 25. Mai 2018 in Kraft und hatte in erster Linie zum Ziel, den Bürgern in der EU (Datensubjekte) mehr Kontrolle über ihre personenbezogenen Daten zu geben und gleichzeitig die regulatorische Umgebung für internationale Unternehmen durch eine bessere Vereinheitlichung der Rechtsvorschriften innerhalb der EU zu vereinfachen. Im Rahmen der GDPR-Bereitschaft von Adobe verfügt das Adobe Audience Manager-Team über erweiterte Services und Verfahren, um den Zugriff und das Löschen von Anforderungen von Datensubjekten, Ihren Kunden, zu unterstützen.
+Die DSGVO trat am 25. Mai 2018 in Kraft, mit dem vorrangigen Ziel, Einzelpersonen in der EU (betroffene Personen) mehr Kontrolle über ihre personenbezogenen Daten zu geben und gleichzeitig das Regelungsumfeld für internationale Unternehmen durch eine bessere Vereinheitlichung der Vorschriften innerhalb der EU zu vereinfachen. Im Rahmen der DSGVO-Bereitschaft von Adobe hat das Adobe Audience Manager-Team die erforderlichen Dienste und Prozesse verbessert, um Zugriffs- und Löschanfragen von betroffenen Personen, Ihren Verbrauchern, zu unterstützen.
 
-Lesen Sie auch die FAQ zum [Experience Cloud GDPR.](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) für ein besseres Verständnis der Funktionsweise von GDPR in Experience Cloud.
+Lesen Sie auch [Experience Cloud – Häufig gestellte Fragen zur DSGVO](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md), um ein besseres Verständnis der Funktionsweise der DSGVO in Experience Cloud zu erhalten.
 
-## Glossar GDPR {#gdpr-glossay}
+## DSGVO-Glossar {#gdpr-glossay}
 
-Lernen Sie die wichtigsten Begriffe kennen, die im Zusammenhang mit dem GDPR verwendet werden. Wir haben einige der am häufigsten verwendeten Begriffe unten hervorgehoben.
-
- 
-
-**Datencontroller:** Die GDPR definiert &quot;Verantwortlichen&quot;als &quot;die ... juristische Person ..., die allein oder gemeinsam mit anderen die Ziele und Wege der Verarbeitung personenbezogener Daten bestimmt.&quot; Audience Manager sind Datenkontrolleure. Kunden steuern, wie Daten in Audience Manager verwaltet werden.
+Machen Sie sich mit den wichtigsten Begriffen im Zusammenhang mit der DSGVO vertraut. Nachfolgend haben wir einige der am häufigsten verwendeten Begriffe hervorgehoben.
 
  
 
-**Datenprozessor:** Der &quot;Prozessor&quot; ist &quot;die ... juristische Person ..., die personenbezogene Daten für den Verantwortlichen verarbeitet&quot;. Im Rahmen des Audience Managers agiert Adobe bei der Ausführung des Dienstes als &quot;Datenprozessor&quot;für alle personenbezogenen Daten, die es im Auftrag des Controllers über Audience Manager verarbeitet. Adobe verarbeitet personenbezogene Daten nur entsprechend den Anweisungen des Datenleiters (wie in unserer Vereinbarung mit dem Kunden oder durch im Audience Manager durchgeführte Maßnahmen beschrieben).
+**Datenverantwortlicher:** Die DSGVO definiert „Verantwortlicher“ als „die ... juristische Person ... die allein oder gemeinsam mit anderen die Zwecke und Mittel der Verarbeitung personenbezogener Daten bestimmt“. Audience Manager-Kunden sind Datenverantwortliche. Die Kunden steuern, wie Daten in Audience Manager verwaltet werden.
 
  
 
-**Datenfach:** Die Person, auf die sich die personenbezogenen Daten beziehen. Im Rahmen des Audience Managers sind Datensubjekte die Audience Manager- oder Endbenutzer. Wenn Adobe Anfragen direkt von Datensubjekten erhält, werden diese Anfragen an den jeweiligen Audience Manager weitergeleitet.
+**Datenverarbeiter:** Der „Verarbeiter“ ist „die ... juristische Person ..., die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet“. Im Rahmen von Audience Manager fungiert Adobe beim Betrieb des Dienstes als „Datenverarbeiter“ für alle personenbezogenen Daten, die im Auftrag des Verantwortlichen über Audience Manager verarbeitet werden. Adobe verarbeitet personenbezogene Daten nur gemäß den Anweisungen des Datenverantwortlichen (wie in unserer Vereinbarung mit dem Kunden oder durch Maßnahmen im Audience Manager festgelegt).
 
  
 
-**Zustimmung:** Zustimmung bedeutet &quot;jede frei gegebene, spezifische, informierte und unmissverständliche Angabe der Wünsche der betroffenen Person, mit der sie durch eine Erklärung oder durch eine eindeutige Bekräftigung ihre Zustimmung zur Verarbeitung der sie betreffenden personenbezogenen Daten erklärt&quot;. Die Zustimmung liegt in der Verantwortung des Data Controllers, nicht von Adobe (durch Audience Manager).
+**Betroffene Person:** Die Person, auf die sich die personenbezogenen Daten beziehen. Im Rahmen von Audience Manager sind die betroffenen Personen die Kunden oder Endbenutzer des Audience Manager-Kunden. Wenn Adobe Anfragen direkt von betroffenen Personen erhält, werden diese Anfragen an die jeweiligen Audience Manager-Kunden weitergeleitet.
 
  
 
-**Zugriff:** Betroffene Personen haben das Recht, vom Datenverantwortlichen die Bestätigung zu verlangen, ob der Verantwortliche ihre personenbezogenen Daten verarbeitet. Verarbeitet der für die Verarbeitung Verantwortliche die personenbezogenen Daten der betroffenen Person, muss er Zugang zu den personenbezogenen Daten und eine Kopie davon gewähren. Datenkontrolleure können Adobe bitten, bei Zugriffsanfragen von Datensubjekten behilflich zu sein.
+**Zustimmung:** Zustimmung bedeutet „jede frei gegebene, spezifische, informierte und unmissverständliche Angabe der Wünsche der betroffenen Person, mit der sie durch eine Erklärung oder durch eine eindeutige Bekräftigung ihre Zustimmung zur Verarbeitung der sie betreffenden personenbezogenen Daten erklärt“. Die Zustimmung liegt in der Verantwortung des Datenverantwortlichen, nicht von Adobe (über Audience Manager).
 
  
 
-**Löschen:** GDPR umreißt das &quot;Recht auf Vergessenheit&quot;oder &quot;Recht auf Löschung&quot;. Betroffene Personen haben das Recht, von Datenkontrolleuren die Löschung ihrer personenbezogenen Daten zu verlangen. Die Datencontroller arbeiten mit ihren Prozessoren, einschließlich Adobe, zusammen, um Löschanforderungen von Datensubjekten zu unterstützen.
+**Zugriff:** Die betroffenen Personen haben das Recht, vom für die Verarbeitung Verantwortlichen zu verlangen, dass er bestätigt, ob der für die Verarbeitung Verantwortliche ihre personenbezogenen Daten verarbeitet. Wenn der für die Datenverarbeitung Verantwortliche die personenbezogenen Daten der betroffenen Person verarbeitet, muss er Zugriff auf die personenbezogenen Daten und eine Kopie davon gewähren. Die Datenverantwortlichen können Adobe um Unterstützung bei Zugriffsanträgen von betroffenen Personen bitten.
 
  
 
-**Korrektur:** Betroffene Personen haben das Recht, von Datenkontrolleuren die Berichtigung unrichtiger personenbezogener Daten zu verlangen. Die Datencontroller arbeiten mit Prozessoren, einschließlich Adobe, zusammen, um Korrekturanforderungen von Datensubjekten zu unterstützen.
+**Löschen:** Die DSGVO beschreibt das „Recht auf Vergessenwerden“ oder das „Recht auf Löschung“. Die betroffenen Personen haben das Recht, von Datenverantwortlichen die Löschung ihrer personenbezogenen Daten zu verlangen. Die Datenverantwortlichen arbeiten mit ihren Verarbeitern, einschließlich Adobe, zusammen, um Löschanfragen von betroffenen Personen zu unterstützen.
 
  
 
-**Audience Manager-IDs:** Adobe Audience Manager speichert verschiedene IDs. Die Seite &quot; [Audience Manager-IDs](data-privacy-ids.md) &quot;enthält eine Zusammenfassung dieser IDs, der zugehörigen Datenquellen und eine kurze Beschreibung. Wenn Sie Anforderungen an den [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)senden, verweisen Sie auf diese IDs, um Löschungs- oder Zugriffsanfragen für Ihre betroffenen Personen vorzunehmen.
+**Korrektur:** Die betroffenen Personen haben das Recht, von Datenverantwortlichen die Berichtigung unrichtiger personenbezogener Daten zu verlangen. Die Datenverantwortlichen arbeiten mit den Verarbeitern, einschließlich Adobe, zusammen, um Korrekturanfragen von betroffenen Personen zu unterstützen.
 
  
 
-**Persönliche Daten:** GDPR erweitert die Definition der personenbezogenen Daten. Unter GDPR können alle Daten im Audience Manager je nach Anwendungsfall des Kunden als personenbezogene Daten klassifiziert werden.
+**Audience Manager-IDs:** Adobe Audience Manager speichert verschiedene Arten von IDs. Auf der Seite [Audience Manager-IDs](data-privacy-ids.md) finden Sie eine Zusammenfassung dieser IDs, der zugehörigen Datenquellen und kurze Beschreibungen. Wenn Sie Anfragen an den [Adobe Experience Platform Privacy Service](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html) senden, verweisen Sie auf diese IDs, um Lösch- oder Zugriffsanfragen für Ihre betroffenen Personen zu stellen.
 
  
 
-**Verbotene Daten:** Audience Manager untersagt Kunden die Eingabe direkt identifizierbarer Informationen wie Vor- und Nachname, E-Mail-ID, CRM-ID, die zur direkten Identifizierung einer Person verwendet werden können. Adobe Experience Cloud-Lösungen verbieten auch vertrauliche Informationen. Einzelheiten zu diesen Anforderungen finden Sie in Ihrem Vertrag mit Adobe. Wenn diese Datenpunktarten in Audience Manager eingebunden werden müssen, sollten Sie sich vor der Erfassung an Ihr Adobe-Beratungsteam wenden, um Empfehlungen zum Hashing dieser IDs zu erhalten.
+**Persönliche/personenbezogene Daten:** Die DSGVO erweitert die Definition personenbezogener Daten. Gemäß der DSGVO können alle Daten in Audience Manager je nach Anwendungsfall beim Kunden als personenbezogene Daten klassifiziert werden.
+
+ 
+
+**Verbotene Daten:** Audience Manager verbietet Kunden die Eingabe direkt identifizierbarer Informationen wie Vor- und Nachname, E-Mail-ID und CRM-ID, die zur direkten Identifizierung einer Person verwendet werden können. Adobe Experience Cloud-Lösungen verbieten außerdem vertrauliche Informationen. Weitere Informationen zu diesen Anforderungen finden Sie in Ihrem Vertrag mit Adobe. Wenn diese Arten von Datenpunkten in Audience Manager erfasst werden müssen, wenden Sie sich an Ihr Adobe-Beratungs-Team, um Empfehlungen zum Hashing dieser IDs vor der Erfassung zu erhalten.
