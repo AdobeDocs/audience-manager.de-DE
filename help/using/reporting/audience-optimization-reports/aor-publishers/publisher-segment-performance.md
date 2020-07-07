@@ -1,21 +1,21 @@
 ---
 description: Der Segmentleistungsbericht vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Echtzeit-Segmentindividualitäten. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
 seo-description: Der Segmentleistungsbericht vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Echtzeit-Segmentindividualitäten. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
-seo-title: Segmentleistungsbericht
+seo-title: Bericht zur Segmentleistung
 solution: Audience Manager
-title: Segmentleistungsbericht
+title: Bericht zur Segmentleistung
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 2%
 
 ---
 
 
-# Segmentleistungsbericht{#segment-performance-report}
+# Bericht zur Segmentleistung{#segment-performance-report}
 
 Der Segmentleistungsbericht vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Echtzeit-Segmentindividualitäten.
 
@@ -44,7 +44,7 @@ Verwenden Sie das **[!UICONTROL Segment]** Dropdownfeld, um auszuwählen, welche
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Line Item IDs]angeben, wie in Schritt 3 von &quot;DFP-Datendateien in Audience Manager [importieren&quot;beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Line Item] anstelle der [!UICONTROL Line Item ID]Eigenschaft detailliert beschreibt.
+>Bei der Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Line Item IDs]angeben, wie in Schritt 3 von &quot;Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)importieren&quot;beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Line Item] anstelle der [!UICONTROL Line Item ID]Eigenschaft detailliert beschreibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
