@@ -8,9 +8,9 @@ title: Ausführbare Protokolldateien
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1574'
 ht-degree: 3%
 
 ---
@@ -33,14 +33,18 @@ ht-degree: 3%
 Um damit beginnen zu können, [!UICONTROL Actionable Log Files]müssen Sie Protokolldaten in importieren [!DNL Audience Manager]. Die folgenden Links helfen Ihnen beim Einstieg:
 
 * Protokolle [!UICONTROL Google DCM] finden Sie unter DCM-Datendateien in Audience Manager [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
-* Weitere Informationen zu Protokollen [!UICONTROL Google Ad Manager] (zuvor Google DFP) finden Sie unter DFP-Datendateien in den Audience Manager [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
+* Weitere Informationen zu Protokollen [!UICONTROL Google Ad Manager] (zuvor Google DFP) finden Sie unter Google Ad Manager-Datendateien in den Audience Manager [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 * Weitere Anzeigenserverprotokolle finden Sie unter [Daten- und Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 
 Wenn Sie bereits Protokolldaten importieren, bitten Sie Ihren [!DNL Audience Manager]Berater oder die [!DNL Audience Manager] Kundenunterstützung [, diese](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) [!UICONTROL Actionable Log Files] für Sie zu aktivieren.
 
+<!--
+
 >[!IMPORTANT]
 >
-> Ende 2019 [!UICONTROL Actionable Log Files] begann die Verfügbarkeit neuer Werbeserver zu erweitern. Bitten Sie zunächst Ihren [!DNL Audience Manager] Berater oder [Kundendienst](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) .
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+
+-->
 
 ## Arbeiten mit ausführbaren Protokolldateien {#working-with-actionable-log-files}
 
