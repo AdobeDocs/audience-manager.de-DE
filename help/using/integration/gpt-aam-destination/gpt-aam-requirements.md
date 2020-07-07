@@ -1,23 +1,23 @@
 ---
-description: Sie können qualifizierte Segmente entweder über eine clientseitige oder über eine serverseitige Integration an DFP senden. Die Anforderungen und damit zusammenhängende Informationen zu beiden Methoden sind unten aufgeführt.
-seo-description: Sie können qualifizierte Segmente entweder über eine clientseitige oder über eine serverseitige Integration an DFP senden. Die Anforderungen und damit zusammenhängende Informationen zu beiden Methoden sind unten aufgeführt.
-seo-title: Anforderungen und Methoden zum Senden von Segmenten an DFP mithilfe von Google Publisher Tags (GPT)
+description: Sie können qualifizierte Segmente entweder über eine clientseitige oder über eine serverseitige Integration an Google Ad Manager senden. Die Anforderungen und damit zusammenhängende Informationen zu beiden Methoden sind unten aufgeführt.
+seo-description: Sie können qualifizierte Segmente entweder über eine clientseitige oder über eine serverseitige Integration an Google Ad Manager senden. Die Anforderungen und damit zusammenhängende Informationen zu beiden Methoden sind unten aufgeführt.
+seo-title: Anforderungen und Methoden zum Senden von Segmenten an Google Ad Manager mithilfe von Google Publisher Tags (GPT)
 solution: Audience Manager
-title: Anforderungen und Methoden zum Senden von Segmenten an DFP mithilfe von Google Publisher Tags (GPT)
+title: Anforderungen und Methoden zum Senden von Segmenten an Google Ad Manager mithilfe von Google Publisher Tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 7%
+source-wordcount: '524'
+ht-degree: 0%
 
 ---
 
 
-# Anforderungen und Methoden zum Senden von Segmenten an DFP mithilfe von Google Publisher Tags (GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-Sie können qualifizierte Segmente entweder über eine clientseitige oder [!DNL DFP] über eine serverseitige Integration senden. Die Anforderungen und damit zusammenhängende Informationen zu beiden Methoden sind unten aufgeführt.
+Sie können qualifizierte Segmente an [!DNL Google Ad Manager] (früher DFP) entweder über eine clientseitige oder über eine serverseitige Integration senden. Die Anforderungen und damit zusammenhängende Informationen zu beiden Methoden sind unten aufgeführt.
 
 ## Clientseitige Integration {#client-side-integration}
 
@@ -47,7 +47,7 @@ Die Datenmenge, an die ein Benutzer weitergeleitet wird, [!DNL GPT] hängt davon
 
 ## Serverseitige Integration {#server-side-integration}
 
-Wenden Sie sich an Ihren Audience Manager-Berater oder an den Kundendienst, wenn Sie eine serverseitige Integration mithilfe von [!DNL DFP][!DNL GPT]konfigurieren möchten. Sie müssen Ihre [!DNL DFP] Konto-Netzwerk-ID und Audience-Link-ID angeben.
+Wenden Sie sich an Ihren Audience Manager-Berater oder an den Kundendienst, wenn Sie eine serverseitige Integration mithilfe von [!DNL Google Ad Manager][!DNL GPT]konfigurieren möchten. Sie müssen Ihre [!DNL Google Ad Manager] Konto-Netzwerk-ID und Audience-Link-ID angeben.
 
 >[!IMPORTANT]
 >
