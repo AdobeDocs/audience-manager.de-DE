@@ -216,7 +216,7 @@ ht-degree: 0%
       + [Berichtstechnologie](reporting/dynamic-reports/interactive-report-technology.md)
    + [Integrationsstatusbericht](reporting/onboarding-status-report.md)
    + [Ausgehender Dateiverlauf](reporting/outbound-history-report.md)
-   +  \[Zählen von Unique Users in Überlagerungen und allgemeinen Berichten](reporting/unique-user-counts.md).
+   + [Zählen von Unique Users in Überlagerungen und allgemeinen Berichten](reporting/unique-user-counts.md).
    + [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten](reporting/report-sampling.md)
 + API- und SDK-Code {#api-and-sdk-code}
    + [API- und SDK-Code – Überblick](api/api.md)
@@ -401,7 +401,7 @@ ht-degree: 0%
 + Häufigste Support-Anfragen {#top-support-issues}
    + [Überblick](/help/using/support-issues/support-issues-overview.md)
    + [Warum sind meine integrierten Eigenschaftspopulationen um den 15. Oktober auf 0 zurückgegangen? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
-   + [Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angezeigt?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angefzeigt?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Warum können unsere Benutzer mit „Nur Lesen“-Berechtigung Eigenschaften und Segmente erstellen, bearbeiten oder löschen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Wir sind kein Audience Manager-Kunde, sehen aber die Javascript-Aufrufe von Audience Manager auf unserer Website.](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Sollte ich meine Audience Manager Audience Lab zugeordneten Segmente auf der Zieldetailseite sehen?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
