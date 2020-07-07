@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+source-git-commit: 5e8dfca8de0faeecbd44da1804b71bbe77bc89be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1754'
+ht-degree: 94%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 0%
          + [Kanalübergreifende Konversion](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Zielgruppenoptimierung für Publisher {#audience-optimization-publishers}
          + [Zielgruppenoptimierung für Publisher – Überblick](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Importieren von DFP-Datendateien in Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager importieren](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Bericht zur Segmentleistung](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Segment-Trend-Bericht](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Häufigste nicht verwendete Eigenschaften](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -216,7 +216,7 @@ ht-degree: 0%
       + [Berichtstechnologie](reporting/dynamic-reports/interactive-report-technology.md)
    + [Integrationsstatusbericht](reporting/onboarding-status-report.md)
    + [Ausgehender Dateiverlauf](reporting/outbound-history-report.md)
-   + [Zählen von Unique Users in Überlagerungen und allgemeinen Berichten](reporting/unique-user-counts.md).
+   +  \[Zählen von Unique Users in Überlagerungen und allgemeinen Berichten](reporting/unique-user-counts.md).
    + [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten](reporting/report-sampling.md)
 + API- und SDK-Code {#api-and-sdk-code}
    + [API- und SDK-Code – Überblick](api/api.md)
@@ -284,9 +284,9 @@ ht-degree: 0%
 + Implementierungs- und Integrationshandbücher {#implementation-integration-guides}
    + [Implementierungs- und Integrationshandbücher](integration/implementation-and-integration.md)
    + [Datenintegrationsmethoden](integration/data-integration-methods.md)
-   + Integrieren von DFP mit Google Publisher Tags (GPT) {#integrate-dfp-using-gpt}
-      + [Integrieren von DFP mit GPT – Überblick](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [Senden von Segmenten an DFP mit GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
+   + Google Ad Manager mit Google Publisher Tags (GPT) integrieren{#integrate-dfp-using-gpt}
+      + [Google Ad Manager mithilfe der GPT-Übersicht integrieren](integration/gpt-aam-destination/gpt-aam-overview.md)
+      + [Senden von Segmenten an Google Ad Manager mithilfe von GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Erstellen eines GPT-Ziels](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Ändern des GPT-API-Aufrufs setTargeting](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Audience Manager-Code für Google Publisher Tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -294,7 +294,7 @@ ht-degree: 0%
       + [Facebook-WCA-Integration](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS als Audience Manager-Ziel](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX als Audience Manager-Ziel](integration/integrating-third-party/openx-destination.md)
-      + [DFP als Audience Manager-Ziel](integration/aam-dfp.md)
+      + [Google Ad Manager (früher DFP) als Audience Manager-Ziel](integration/aam-dfp.md)
       + [Senden von Segmenten an eine Remarketing-Liste für Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Implementieren von Audience Manager](integration/implement-audience-manager.md)
    + Mediendatenintegration {#media-data-integration}
@@ -401,7 +401,7 @@ ht-degree: 0%
 + Häufigste Support-Anfragen {#top-support-issues}
    + [Überblick](/help/using/support-issues/support-issues-overview.md)
    + [Warum sind meine integrierten Eigenschaftspopulationen um den 15. Oktober auf 0 zurückgegangen? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
-   + [Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angefzeigt?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angezeigt?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Warum können unsere Benutzer mit „Nur Lesen“-Berechtigung Eigenschaften und Segmente erstellen, bearbeiten oder löschen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Wir sind kein Audience Manager-Kunde, sehen aber die Javascript-Aufrufe von Audience Manager auf unserer Website.](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Sollte ich meine Audience Manager Audience Lab zugeordneten Segmente auf der Zieldetailseite sehen?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
