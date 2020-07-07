@@ -1,21 +1,21 @@
 ---
 description: Der Segmenttrend-Bericht gibt Daten zu Impressionen und Clickthrough-Raten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild davon zu erhalten, wie sich Ihre Audiencen im Laufe der Zeit verhalten.
 seo-description: Der Segmenttrend-Bericht gibt Daten zu Impressionen und Clickthrough-Raten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild davon zu erhalten, wie sich Ihre Audiencen im Laufe der Zeit verhalten.
-seo-title: Segmenttrend-Bericht
+seo-title: Segment-Trend-Bericht
 solution: Audience Manager
-title: Segmenttrend-Bericht
+title: Segment-Trend-Bericht
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '609'
+ht-degree: 3%
 
 ---
 
 
-# Segmenttrend-Bericht{#segment-trend-report}
+# Segment-Trend-Bericht{#segment-trend-report}
 
 Der Segmenttrend-Bericht gibt Daten zu Impressionen und Clickthrough-Raten von zugeordneten und nicht zugeordneten Segmenten im Zeitverlauf zurück.
 
@@ -23,7 +23,7 @@ Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an 
 
 Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild davon zu erhalten, wie sich Ihre Audiencen im Laufe der Zeit verhalten.
 
-## Nutzungsszenario {#use-cases}
+## Anwendungsfall {#use-cases}
 
 Verwenden Sie den [!UICONTROL Segment Trend] Bericht, um die Leistung eines Segments im Zeitverlauf zu validieren und Trends basierend auf leistungsstarker oder skalierbarer Leistung zu bestimmen.
 
@@ -45,7 +45,7 @@ Verwenden Sie das **[!UICONTROL Segment]** Dropdownfeld, um auszuwählen, welche
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Line Item] IDs einschließen, wie in Schritt 3 von &quot;DFP-Datendateien in Audience Manager [importieren&quot;beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise stellen Sie sicher, dass die Webeigenschaft im Bericht [!UICONTROL Line Item] anstelle der [!UICONTROL Line Item] ID detailliert beschrieben wird.
+>Bei der Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Line Item] IDs einschließen, wie in Schritt 3 von &quot;Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)importieren&quot;beschrieben. Auf diese Weise stellen Sie sicher, dass die Webeigenschaft im Bericht [!UICONTROL Line Item] anstelle der [!UICONTROL Line Item] ID detailliert beschrieben wird.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
