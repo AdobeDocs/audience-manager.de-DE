@@ -1,21 +1,21 @@
 ---
 description: Hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
 seo-description: Hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
-seo-title: Ändern des GPT-setTargeting-API-Aufrufs
+seo-title: Ändern des GPT-API-Aufrufs setTargeting
 solution: Audience Manager
-title: Ändern des GPT-setTargeting-API-Aufrufs
+title: Ändern des GPT-API-Aufrufs setTargeting
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
 
-# Ändern des GPT- `setTargeting` API-Aufrufs {#modify-the-gpt-settargeting-api-call}
+# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
 
 Hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der [!DNL Google Publisher Tag] `.setTargeting` Methode nach Audience Manager-Cookies zu suchen.
 
@@ -38,11 +38,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Je nachdem, wie Sie mit [!DNL DFP]integrieren möchten, benötigen Sie nur einige der Zeilen im obigen Codebeispiel:
+>Je nachdem, wie Sie mit [!DNL Google Ad Manager]integrieren möchten, benötigen Sie nur einige der Zeilen im obigen Codebeispiel:
 >
 >* Clientseitige Integration: nur Zeilen 1-3 verwenden.
 >* Serverseitige Integration: Keine der Zeilen wird benötigt.
->* Protokolldateien [!DNL DFP] zum Berichte in [!DNL Audience Manager]: nur die Zeilen 4-6 verwenden. Mit diesem Code wird der Wert des `aam_uuid` Cookies in die Protokolle eingefügt, damit sie zum Berichte aufgenommen werden können.
+>* Protokolldateien [!DNL Google Ad Manager] zum Berichte in [!DNL Audience Manager]: nur die Zeilen 4-6 verwenden. Mit diesem Code wird der Wert des `aam_uuid` Cookies in die Protokolle eingefügt, damit sie zum Berichte aufgenommen werden können.
 
 
 ### `AamGpt` Funktionen und Datentypen
@@ -78,6 +78,6 @@ Definiert die in der `if` Anweisung verwendeten Schlüsselvariablen.
 
 >[!MORELIKETHIS]
 >
->* [GPT-Ziel erstellen](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Audience Manager-Code für Google Publisher-Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Erstellen eines GPT-Ziels](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+>* [Audience Manager-Code für Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
