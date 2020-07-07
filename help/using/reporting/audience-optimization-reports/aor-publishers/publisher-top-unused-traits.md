@@ -7,10 +7,10 @@ title: Häufigste nicht verwendete Eigenschaften
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Die wichtigsten nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch nicht zu einem Segment gehören, basierend auf dem Eigenschaftstyp, der Datenquelle und der Leistung.
 
-## Nutzungsszenario {#use-cases}
+## Anwendungsfall {#use-cases}
 
 Mit dem [!UICONTROL Top Unused Traits] Bericht können Sie die Leistung von Erst- und Drittanbietereigenschaften analysieren und vergleichen, die derzeit keinem Segment zugeordnet sind. Diese Ansicht kann auf die besten Eigenschaften hinweisen, die in einem Audiencen-Segment zur Optimierung der Kampagne oder zu neuen Netto-Chancen verwendet werden.
 
@@ -39,7 +39,7 @@ Verwenden Sie das **[!UICONTROL Traits]** Dropdownfeld, um auszuwählen, welche 
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Order IDs]angeben, wie in Schritt 3 von &quot;DFP-Datendateien in Audience Manager [importieren&quot;beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Order] anstelle der [!UICONTROL Order ID]Eigenschaft detailliert beschreibt.
+>Bei der Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Order IDs]angeben, wie in Schritt 3 von &quot;Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)importieren&quot;beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Order] anstelle der [!UICONTROL Order ID]Eigenschaft detailliert beschreibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
@@ -90,7 +90,7 @@ Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Be
 
 Die Position Ihrer Eigenschaften in einem Bericht kann Ihnen viele Informationen darüber liefern, welche Eigenschaften Sie zur Optimierung vorhandener Audiencen verwenden können.
 
-Die Eigenschaften, die höher auf der Impressionsachse liegen, sind die Eigenschaften, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Audience in Ihrer Webeigenschaft erreichen, basierend auf Ihren DFP-Daten.
+Die Eigenschaften, die höher auf der Impressionsachse liegen, sind die Eigenschaften, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Audience in Ihrer Webeigenschaft erreichen, basierend auf Ihren [!DNL Google Ad Manager] Daten.
 
 Suchen Sie links auf der [!UICONTROL Unique Trait Realizations] Achse nach hochpräzisen Eigenschaften und rechts nach Eigenschaften, die die Skalierung fördern können.
 
