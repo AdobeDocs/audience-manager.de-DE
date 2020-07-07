@@ -8,10 +8,10 @@ title: Ausführbare Protokolldateien
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 4%
+source-wordcount: '1597'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 Um damit beginnen zu können, [!UICONTROL Actionable Log Files]müssen Sie Protokolldaten in importieren [!DNL Audience Manager]. Die folgenden Links helfen Ihnen beim Einstieg:
 
 * Protokolle [!UICONTROL Google DCM] finden Sie unter DCM-Datendateien in Audience Manager [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
-* Protokolle [!UICONTROL Google DFP] finden Sie unter DFP-Datendateien in Audience Manager [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
+* Weitere Informationen zu Protokollen [!UICONTROL Google Ad Manager] (zuvor Google DFP) finden Sie unter DFP-Datendateien in den Audience Manager [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 * Weitere Anzeigenserverprotokolle finden Sie unter [Daten- und Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 
 Wenn Sie bereits Protokolldaten importieren, bitten Sie Ihren [!DNL Audience Manager]Berater oder die [!DNL Audience Manager] Kundenunterstützung [, diese](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) [!UICONTROL Actionable Log Files] für Sie zu aktivieren.
@@ -163,6 +163,35 @@ Removed  {importance="high"} for ExL
 >
 >* Wenn für eine Datenzeile in der [!DNL DCM] Protokolldatei kein Zeitstempel verfügbar ist, wird die Uhrzeit des `HTTP` Aufrufs als Zeitstempel des Ereignisses verwendet.
 >* Wenn die Datenzeile in der [!DNL DCM] Protokolldatei einen fehlerhaften Zeitstempel enthält, wird die gesamte Zeile ignoriert.
+
+
+<br> 
+
+### Umsetzbare Signale aus [!DNL Google Ad Manager] Protokollen {#ad-manager-logs-signals}
+
+Die Tabelle Liste die aussagekräftigen Signale aus den [!DNL Google Ad Manager] Protokolldateien:
+
+
+| Header Name in Protokolldatei | Signal | Beschreibung |
+---------|----------|---------
+| `LineItemId` | `d_lineitem` | Die numerische ID für den bereitgestellten Ad-Manager-Zeileneintrag |
+| `OrderId` | `d_orderid` | Die numerische ID für die Anzeigenmanagerreihenfolge, die den bereitgestellten Zeileneintrag und das kreative Element enthielt. |
+| `CreativeId` | `d_creative` | Die numerische ID für das bereitgestellte Ad Manager-Kreativelement. |
+| `-` | `d_event` | Gibt den Ereignistyp an. Audience Manager liest den Ereignistyp aus dem Protokolldateinamen von Ad Manager und wandelt ihn in ein umsetzbares Signal um. Akzeptierte Werte sind: <br> <ul><li>d_Ereignis = imp für Impressionen.</li><li>d_Ereignis = Klicken für Klicks.</li><li>d_Ereignis = conv für Konversionen und Aktivitäten.</li></ul> |
+| `-` | `d_src` | Die ID der Datenquelle, mit der Sie Ad Manager-Daten erfassen. Siehe [Erstellen einer Datenquelle](/help/using/features/manage-datasources.md). |
+
+Die in der Tabelle beschriebenen Signale werden in Audience Manager wie ein Echtzeit-HTTP-Aufruf erfasst. Der folgende Beispielaufruf enthält Informationen zu einem Konversions-Ereignis von Google Ad Manager. Aufrufe müssen nicht unbedingt alle Signale in den Beispielaufruf einschließen.
+
+```
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_lineitem=112&d_orderid=22223&d_creative=3983524
+```
+
+>[!NOTE]
+>
+>Der in den [!DNL Google Ad Manager] Protokollen angegebene Ereignis-Zeitstempel wird berücksichtigt und an den übergeben [!UICONTROL Data Collection Servers].
+>
+>* Wenn für eine Datenzeile in der [!DNL Google Ad Manager] Protokolldatei kein Zeitstempel verfügbar ist, wird die Uhrzeit des `HTTP` Aufrufs als Zeitstempel des Ereignisses verwendet.
+>* Wenn die Datenzeile in der [!DNL Google Ad Manager] Protokolldatei einen fehlerhaften Zeitstempel enthält, wird die gesamte Zeile ignoriert.
 
 
 <br> 
