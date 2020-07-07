@@ -1,25 +1,25 @@
 ---
 description: Der Bericht "Anzeigeneinheit - Überschneidung"wird als Heatmap angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten hervorhebt.
 seo-description: Der Bericht "Anzeigeneinheit - Überschneidung"wird als Heatmap angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten hervorhebt.
-seo-title: Überschneidung der Anzeigeneinheit
+seo-title: Überlagerung von Anzeigeneinheiten
 solution: Audience Manager
-title: Überschneidung der Anzeigeneinheit
+title: Überlagerung von Anzeigeneinheiten
 uuid: e4467e81-acbf-474e-b501-89d57395651f
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
-# Überschneidung der Anzeigeneinheit{#ad-unit-overlap}
+# Überlagerung von Anzeigeneinheiten{#ad-unit-overlap}
 
 Der **[!UICONTROL Ad Unit Overlap]** Bericht wird als Heat-Diagramm angezeigt, das die hohen und niedrigen Überschneidungen zwischen Ihren Anzeigeneinheiten hervorhebt.
 
-## Nutzungsszenario {#use-cases}
+## Anwendungsfall {#use-cases}
 
 Mit dem **[!UICONTROL Ad Unit Overlap]** Bericht erhalten Sie einen Einblick, wo sich Ihre Audience über Ihre Webeigenschaften hinweg überschneidet. Der Bericht berücksichtigt Ihre 100 wichtigsten Eigenschaften und zeigt die Überschneidung zwischen ihnen.
 
@@ -33,7 +33,7 @@ Verwenden Sie die Steuerelemente **[!UICONTROL Base Ad Unit]** und **[!UICONTROL
 
 >[!IMPORTANT]
 >
->Bei Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs]angeben, wie in Schritt 3 von &quot;DFP-Datendateien in Audience Manager [importieren&quot;beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Ad Unit] anstelle der [!UICONTROL Ad Unit ID]Eigenschaft detailliert beschreibt.
+>Bei der Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs]angeben, wie in Schritt 3 von &quot;Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)importieren&quot;beschrieben. Auf diese Weise stellen Sie sicher, dass der Bericht die Webeigenschaft [!UICONTROL Ad Unit] anstelle der [!UICONTROL Ad Unit ID]Eigenschaft detailliert beschreibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
@@ -59,11 +59,11 @@ Ihr [!UICONTROL Ad Unit Overlap] Bericht könnte dem unten stehenden ähneln. Be
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Anzahl individueller Anzeigeneinheiten überlappen</span> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der Benutzer, die die Artikel 9 bis 18 der Anzeigeneinheit besucht haben. Diese Informationen werden aus den DFP-Protokollen extrahiert. </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Benutzer, die die Artikel 9 bis 18 der Anzeigeneinheit besucht haben. Diese Informationen werden aus den Google Ad Manager-Protokollen extrahiert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Anzahl individueller Werbeanzeigen</span> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der Benutzer, die die Elemente der Anzeigeneinheit 1 - 8 besucht haben. Diese Informationen werden aus den DFP-Protokollen extrahiert. </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Benutzer, die die Elemente der Anzeigeneinheit 1 - 8 besucht haben. Diese Informationen werden aus den Google Ad Manager-Protokollen extrahiert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Anzahl individueller Überschneidungen</span> </p> </td> 
