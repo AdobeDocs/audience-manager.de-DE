@@ -7,10 +7,10 @@ solution: Audience Manager
 title: Adobe Audience Manager-Server-to-Server-Ziele
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '1122'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] gerätebasierte Ziele 
 
  
 
-| Integration | Zuletzt aktualisiert | Updates | Segment aufheben | Empfang von [!DNL IAB TCF] Genehmigungssignalen | [!DNL ICDS] | Mobilgerät-IDs |
+| Integration | Zuletzt aktualisiert | Updates | Segment aufheben | Empfang von [!DNL IAB TCF] Genehmigungssignalen | [!DNL ICDS] | Mobilgeräte-IDs |
 |---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 26/09/2018 | 1xday | Ja | Nein | Nein | Ja |
 | [!DNL 4info] | 09/02/2017 | 1xday | Nein | Nein | Nein | Ja |
