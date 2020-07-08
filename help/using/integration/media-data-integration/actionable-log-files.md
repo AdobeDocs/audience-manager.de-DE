@@ -8,9 +8,9 @@ title: Ausführbare Protokolldateien
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
+source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1605'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 Um damit beginnen zu können, [!UICONTROL Actionable Log Files]müssen Sie Protokolldaten in importieren [!DNL Audience Manager]. Die folgenden Links helfen Ihnen beim Einstieg:
 
-* Protokolle [!UICONTROL Google DCM] finden Sie unter DCM-Datendateien in Audience Manager [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
+* Protokolle [!UICONTROL Google Campaign Manager] finden Sie unter Google Kampagne Manager-Datendateien in Audience Manager [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 * Weitere Informationen zu Protokollen [!UICONTROL Google Ad Manager] (zuvor Google DFP) finden Sie unter Google Ad Manager-Datendateien in den Audience Manager [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) importieren *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 * Weitere Anzeigenserverprotokolle finden Sie unter [Daten- und Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *und* wenden Sie sich an Ihren [!DNL Audience Manager] Berater.
 
@@ -62,9 +62,9 @@ Signale sind die [kleinsten Dateneinheiten](../../reference/signal-trait-segment
 
 Um diese Informationen für die Erstellung und Segmentierung von Audiencen zu verwenden, müssen Sie die regelbasierten Eigenschaften selbst einrichten.
 
-### Verfolgbare Signale aus Google DCM-Protokollen {#dcm-logs-signals}
+### Verfolgbare Signale aus Google Kampagne Manager-Protokollen {#dcm-logs-signals}
 
-Die Tabelle Liste die aussagekräftigen Signale aus den [!DNL DCM] Protokolldateien:
+Die Tabelle Liste die aussagekräftigen Signale aus den [!DNL Google Campaign Manager] Protokolldateien:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -79,13 +79,13 @@ Die Tabelle Liste die aussagekräftigen Signale aus den [!DNL DCM] Protokolldate
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Nur für Konversions-Ereignis verfügbar. </p> <p>Stellt die numerische ID für die Konversions-Aktivität in DCM dar. Dieses Feld wird der Aktivitäten-ID von DCM zugeordnet. </p> <p> <p>Tipp: Sie können mehrere oder spezifische Konvertierungs-Aktivitäten aus DCM erfassen. Erstellen Sie Eigenschaften <code> d_conversion = activity ID</code> für jede Konvertierungs-Aktivität von DCM. </p> </p> </td> 
+   <td colname="col3"> <p>Nur für Konversions-Ereignis verfügbar. </p> <p>Stellt die numerische ID für die Konversions-Aktivität in Google Kampagne Manager dar. Dieses Feld wird der Aktivitäten-ID von Google Kampagne Manager zugeordnet. </p> <p> <p>Tipp: Sie können mehrere oder spezifische Konvertierungs-Aktivitäten aus Google Kampagne Manager erfassen. Erstellen Sie Eigenschaften <code> d_conversion = activity ID</code> für jede Konversions-Aktivität aus Google Kampagne Manager. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Conversion ID</code> </p> </td> 
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
-   <td colname="col3"> <p>Nur für Konversions-Ereignis verfügbar. </p> <p>Dieses Feld ist der Konversions-ID in DCM zugeordnet. Gibt die Aktivität vor der Benutzerkonversion von DCM an. </p> <p>Akzeptierte Werte sind: </p> <p> 
+   <td colname="col3"> <p>Nur für Konversions-Ereignis verfügbar. </p> <p>Dieses Feld ist der Konversions-ID im Google Kampagne Manager zugeordnet. Gibt die Aktivität an, die der Benutzerkonversion von Google Kampagne Manager vorausgeht. </p> <p>Akzeptierte Werte sind: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> für Konvertierungen nach dem Klicken. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> für Konvertierungen nach Impressionen. </li> 
@@ -102,25 +102,25 @@ Die Tabelle Liste die aussagekräftigen Signale aus den [!DNL DCM] Protokolldate
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dies nicht mit den Datenquellen des Audience Managers in Zusammenhang steht.</p> <p>Dieses Feld ordnet die Advertiser-Gruppen-ID von DCM zu. </p> </td> 
+   <td colname="col3"><p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dies nicht mit den Datenquellen des Audience Managers in Zusammenhang steht.</p> <p>Dieses Feld wird der Advertiser-Gruppen-ID aus Google Kampagne Manager zugeordnet. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col3"> <p>Geschäftseinheit-ID. Dieses Feld ist der Advertiser-ID von DCM zugeordnet. </p> </td> 
+   <td colname="col3"> <p>Geschäftseinheit-ID. Dieses Feld wird der Advertiser-ID von Google Kampagne Manager zugeordnet. </p> </td> 
    <td colname="col4"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Campaign ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>Die von DCM bereitgestellte Kampagnen-ID.</p> </td> 
+   <td colname="col3"> <p>Die vom Google Kampagne Manager bereitgestellte Kampagnen-ID.</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Creative ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col3"> <p>Die von DCM bereitgestellte Creative-ID. </p> </td> 
+   <td colname="col3"> <p>Die vom Google Kampagne Manager bereitgestellte Creative-ID. </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Die Tabelle Liste die aussagekräftigen Signale aus den [!DNL DCM] Protokolldate
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Gibt den Ereignistyp an. Audience Manager liest den Ereignistyp aus dem DCM-Protokolldateinamen und wandelt ihn in ein umsetzbares Signal um. </p> <p>Akzeptierte Werte sind: </p> <p> 
+   <td colname="col3"> <p>Gibt den Ereignistyp an. Audience Manager liest den Ereignistyp aus dem Protokolldateinamen von Google Kampagne Manager und wandelt ihn in ein umsetzbares Signal um. </p> <p>Akzeptierte Werte sind: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> für Impressionen. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> für Klicks. </li> 
@@ -143,19 +143,19 @@ Die Tabelle Liste die aussagekräftigen Signale aus den [!DNL DCM] Protokolldate
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>Die ID der Datenquelle, mit der Sie DCM-Daten erfassen. Siehe Erstellen <a href="../../features/manage-datasources.md#create-data-source"> einer Datenquelle</a>. </p> </td> 
+   <td colname="col3"> <p>Die ID der Datenquelle, mit der Sie Google Kampagne Manager-Daten erfassen. Siehe Erstellen <a href="../../features/manage-datasources.md#create-data-source"> einer Datenquelle</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-Die in der Tabelle beschriebenen Signale werden [!DNL Audience Manager] wie ein Echtzeit- `HTTP` Aufruf erfasst. Der folgende Beispielaufruf enthält Informationen zu einem Konversions-Ereignis von [!DNL DCM]. Aufrufe müssen nicht unbedingt *alle* Signale in den Beispielaufruf einschließen.
+Die in der Tabelle beschriebenen Signale werden [!DNL Audience Manager] wie ein Echtzeit- `HTTP` Aufruf erfasst. Der folgende Beispielaufruf enthält Informationen zu einem Konversions-Ereignis von [!DNL Google Campaign Manager]. Aufrufe müssen nicht unbedingt *alle* Signale in den Beispielaufruf einschließen.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-Bei einer [!DNL DCM] Protokolldatei von durchschnittlich 2 Millionen Zeilen werden alle Eigenschaften, die aus umsetzbaren Signalen erstellt werden, innerhalb von etwa einer Stunde nach der Verarbeitung der Protokolle realisiert.
+Bei einer [!DNL Google Campaign Manager] Protokolldatei von durchschnittlich 2 Millionen Zeilen werden alle Eigenschaften, die aus umsetzbaren Signalen erstellt werden, innerhalb von etwa einer Stunde nach der Verarbeitung der Protokolle realisiert.
 
 <!--
 Removed  {importance="high"} for ExL
@@ -163,10 +163,10 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->Der in den [!DNL DCM] Protokollen angegebene Ereignis-Zeitstempel wird berücksichtigt und an den übergeben [!UICONTROL Data Collection Servers].
+>Der in den [!DNL Google Campaign Manager] Protokollen angegebene Ereignis-Zeitstempel wird berücksichtigt und an den übergeben [!UICONTROL Data Collection Servers].
 >
->* Wenn für eine Datenzeile in der [!DNL DCM] Protokolldatei kein Zeitstempel verfügbar ist, wird die Uhrzeit des `HTTP` Aufrufs als Zeitstempel des Ereignisses verwendet.
->* Wenn die Datenzeile in der [!DNL DCM] Protokolldatei einen fehlerhaften Zeitstempel enthält, wird die gesamte Zeile ignoriert.
+>* Wenn für eine Datenzeile in der [!DNL Google Campaign Manager] Protokolldatei kein Zeitstempel verfügbar ist, wird die Uhrzeit des `HTTP` Aufrufs als Zeitstempel des Ereignisses verwendet.
+>* Wenn die Datenzeile in der [!DNL Google Campaign Manager] Protokolldatei einen fehlerhaften Zeitstempel enthält, wird die gesamte Zeile ignoriert.
 
 
 <br> 
@@ -322,9 +322,9 @@ Retarget-Benutzer, die kreative Elemente des Typs 123 gesehen haben, aber nicht 
 
 4. Ordnen Sie das Segment mit kreativem 456 [!DNL Retarget Users] einem Ziel- und Zielgruppe-Benutzer im Ziel zu.
 
-### Verwenden Sie die DCM Floodlight-Aktivität in den Audience Optimization-Berichten oder im Audience Lab
+### Verwenden Sie die Floodlight-Aktivität von Google Kampagne Manager in den Audience Optimization-Berichten oder im Audience Lab
 
-[Floodlight-Tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) ermöglichen es Advertisers, Benutzerkonversionen zu verfolgen. Mit [!UICONTROL Actionable Log Files]dieser Funktion können Sie die [!DNL DCM] Konversionen in den [Audiencen-Optimierungsberichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md) oder im Lab der [Audience](../../features/audience-lab/audience-lab.md)verfolgen:
+[Floodlight-Tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) ermöglichen es Advertisers, Benutzerkonversionen zu verfolgen. Mit [!UICONTROL Actionable Log Files]dieser Funktion können Sie die [!DNL Google Campaign Manager] Konversionen in den [Audiencen-Optimierungsberichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md) oder im Lab der [Audience](../../features/audience-lab/audience-lab.md)verfolgen:
 
 1. Erstellen Sie eine Eigenschaft und verwenden Sie die folgende Eigenschaftsregel, um eine Konvertierung aus den Anzeigenserverprotokollen zu erfassen:
 
@@ -336,6 +336,6 @@ Retarget-Benutzer, die kreative Elemente des Typs 123 gesehen haben, aber nicht 
 
 >[!MORELIKETHIS]
 >
->* [Importieren von DCM-Datendateien in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Google Kampagne Manager-Datendateien in Audience Manager importieren](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Berichte zur Zielgruppenoptimierung](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
