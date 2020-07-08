@@ -7,9 +7,9 @@ title: Kanalübergreifende Konversion
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 4%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 Mit der Option &quot;Konvertierung über mehrere Kanal&quot;in den Berichten zur Audience-Optimierung können Sie Offlinekonversionen bereitgestellten Online-Impressionen oder -Klicks zuordnen.
 
-Die [!UICONTROL Cross Channel Conversion] Berichte kombinieren die Ergebnisse der [!DNL DoubleClick Campaign Manager] (DCM-)Plattform mit [!DNL Audience Manager] Konversionseigenschaften. Auf diese Weise können Sie Offline-Konversionen mit Online-Impressionen oder -Klicks verknüpfen.
+Die [!UICONTROL Cross Channel Conversion] Berichte kombinieren die Ergebnisse der [!DNL Google Campaign Manager] Plattform mit [!DNL Audience Manager] Konversionseigenschaften. Auf diese Weise können Sie Offline-Konversionen mit Online-Impressionen oder -Klicks verknüpfen.
 
 Sie können die [!UICONTROL Cross Channel Conversion] für die [Berichte &quot;Segmentleistung](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) &quot;und &quot; [Optimale Häufigkeit](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) &quot;verwenden.
 
-Um die [!UICONTROL Cross Channel Conversion] Berichte Ansicht, wählen Sie das **[!UICONTROL AAM+DCM]** Element in der **[!UICONTROL Platform]** Dropdown-Liste aus.
+Um die [!UICONTROL Cross Channel Conversion] Berichte Ansicht, wählen Sie das **[!UICONTROL AAM + Ad Server Name]** Element in der **[!UICONTROL Platform]** Dropdown-Liste aus.
 
 In der folgenden Tabelle werden wichtige Überlegungen zur Einrichtung [!UICONTROL Cross Channel Conversion]aufgeführt:
 
@@ -41,7 +41,7 @@ In der folgenden Tabelle werden wichtige Überlegungen zur Einrichtung [!UICONTR
   </tr>
   <tr> 
    <td> <p>Zuordnungsfenster </p> </td> 
-   <td> <p> <b><span class="uicontrol"> Das Zuordnungsfenster von AAM+DCM</span></b> beträgt 14 Tage, d. h., es werden nur Konversionseigenschaften berücksichtigt, die in den letzten zwei Wochen ausgestellt wurden. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> Das Zuordnungsfenster von AAM+Google Kampagne Manager</span></b> beträgt 14 Tage, d. h., es werden nur Konversionseigenschaften berücksichtigt, die in den letzten zwei Wochen ausgestellt wurden. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Last Touch-Methode </p> </td> 
