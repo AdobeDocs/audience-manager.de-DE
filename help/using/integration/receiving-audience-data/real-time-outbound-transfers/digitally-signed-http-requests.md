@@ -7,9 +7,9 @@ title: Digital signierte HTTP(S)-Anforderungen
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4877aa5391193ee2187609fdc9cb3740c91feb96
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -90,10 +90,7 @@ Die RFC für die [!DNL HMAC] Hash-Implementierung lautet [https://www.ietf.org/r
 
 ## Drehen des privaten Schlüssels {#rotate-private-key}
 
-Aus Sicherheitsgründen wird empfohlen, den privaten Schlüssel regelmäßig zu drehen. Es liegt an Ihnen, den privaten Schlüssel und den Drehungszeitraum zu bestimmen. Um die Schlüsseldrehung bei null Ausfallzeiten zu erzielen, [!UICONTROL IRIS] unterstützt das Hinzufügen mehrerer Unterschriften-Kopfzeilen. Eine Kopfzeile enthält die Signatur, die mit dem alten Schlüssel generiert wurde, eine andere Kopfzeile enthält die Signatur, die mit dem neuen privaten Schlüssel generiert wurde. Siehe die Schritte im Detail:
-
-1. Der Partner kommuniziert den neuen privaten Schlüssel mit [!DNL Adobe Audience Manager].
-1. Der alte Schlüssel wird entfernt [!DNL Audience Manager] und sendet [!UICONTROL IRIS] nur den neuen Unterschriften-Header. Die Schlüssel wurden gedreht.
+Um den privaten Schlüssel zu drehen, müssen die Partner den neuen privaten Schlüssel ihrem [!DNL Adobe Audience Manager] Berater mitteilen. Der alte Schlüssel wird entfernt [!DNL Audience Manager] und sendet [!UICONTROL IRIS] nur den neuen Unterschriften-Header. Die Schlüssel wurden gedreht.
 
 ## Zum Unterschreiben verwendete Daten {#data-signing}
 
