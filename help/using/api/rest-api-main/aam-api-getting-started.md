@@ -7,9 +7,9 @@ title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -40,22 +40,28 @@ Beachten Sie beim Arbeiten mit [Audience Manager-API](https://bank.demdex.com/po
 
 Die [!DNL Audience Manager] Unterstützung [!DNL REST APIs] umfasst zwei Authentifizierungsmethoden.
 
-* [JWT-Authentifizierung](#jwt)(Dienstkonto). Dies ist die empfohlene Authentifizierungsmethode.
+* [JWT-Authentifizierung](#jwt) (Service Account) mit [Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] ist das Entwickler-Ökosystem und die Community von Adobe. Es enthält die [Adobe I/O-Entwicklerwerkzeuge und APIs](https://www.adobe.io/apis/experienceplatform.html) und [APIs für alle Adobe-Produkte](https://www.adobe.io/apis.html). Dies ist die empfohlene Art der Einrichtung und Verwendung [!DNL Adobe][!DNL APIs].
 * [OAuth-Authentifizierung (nicht mehr unterstützt)](#oauth). Diese Methode wird nicht mehr unterstützt, Kunden mit vorhandenen [!DNL OAuth] Integrationen können diese Methode weiterhin verwenden.
 
 >[!IMPORTANT]
 >
 >Je nach Authentifizierungsmethode müssen Sie Ihre Anforderung [!DNL URLs] entsprechend anpassen. Einzelheiten zu den zu verwendenden Hostnamen finden Sie im Abschnitt [Umgebung](#environments) .
 
-## [!DNL JWT] ([!DNL Service Account]) Authentifizierung {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Authentifizierung mit Adobe I/O {#jwt}
+
+### Adobe-E/A-Übersicht {#adobeio}
+
+[!DNL Adobe I/O] ist das Entwickler-Ökosystem und die Community von Adobe. Es enthält die [Adobe I/O-Entwicklerwerkzeuge und APIs](https://www.adobe.io/apis/experienceplatform.html) und [APIs für alle Adobe-Produkte](https://www.adobe.io/apis.html).
+
+Dies ist die empfohlene Art der Einrichtung und Verwendung [!DNL Adobe][!DNL APIs].
 
 ### Voraussetzungen {#prerequisites}
 
-Bevor Sie die [!DNL JWT] Authentifizierung konfigurieren können, stellen Sie sicher, dass Sie Zugriff auf die [Adobe Developer Console](https://console.adobe.io/)haben. Wenden Sie sich für Zugriffsanfragen an Ihren Unternehmensadministrator.
+Bevor Sie die [!DNL JWT] Authentifizierung konfigurieren können, stellen Sie sicher, dass Sie Zugriff auf die [Adobe Developer Console](https://console.adobe.io/) in [Adobe I/O](https://www.adobe.io/)haben. Wenden Sie sich für Zugriffsanfragen an Ihren Unternehmensadministrator.
 
 ### Authentifizierung
 
-Gehen Sie wie folgt vor, um die [!DNL JWT (Service Account)] Authentifizierung zu konfigurieren:
+Gehen Sie wie folgt vor, um die [!DNL JWT (Service Account)] Authentifizierung mithilfe [!DNL Adobe I/O]der folgenden Schritte zu konfigurieren:
 
 1. Melden Sie sich bei der [Adobe Developer Console](https://console.adobe.io/)an.
 1. Führen Sie die Schritte unter [Dienstkontoverbindung](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)aus.
