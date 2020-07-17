@@ -1,21 +1,21 @@
 ---
 description: Beschreibt die Makros, die Sie einer Ziel-URL hinzufügen können.
 seo-description: Beschreibt die Makros, die Sie einer Ziel-URL hinzufügen können.
-seo-title: Zielmakros definiert
+seo-title: Definierte Zielmakros
 solution: Audience Manager
-title: Zielmakros definiert
+title: Definierte Zielmakros
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# Zielmakros definiert {#destination-macros-defined}
+# Definierte Zielmakros {#destination-macros-defined}
 
 Beschreibt die Makros, die Sie einem Ziel hinzufügen können [!DNL URL].
 
@@ -115,4 +115,4 @@ Beide Makros verhindern die Zwischenspeicherung, können aber effizienter `%rnd%
 
 >[!MORELIKETHIS]
 >
->* [Zielmakros definiert](../../features/destinations/destination-macros.md#destination-macros-defined)
+>* [Definierte Zielmakros](../../features/destinations/destination-macros.md#destination-macros-defined)
