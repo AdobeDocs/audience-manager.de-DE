@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -58,11 +58,11 @@ Bei einem Ereignis-Aufruf wird der geografische Standort in einem Schlüssel-Wer
 
 ![](assets/dcs-map.png)
 
-Als Kunde wenden Sie sich über unseren Datenerfassungscode [!DNL DCS] indirekt an den Kunden. Sie können auch direkt mit der [!DNL DCS] über eine Reihe von APIs arbeiten. Siehe API-Methoden und Code für [Datenerfassungsserver (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
+Als Kunde wenden Sie sich über unseren Datenerfassungscode [!DNL DCS] indirekt an den Kunden. Sie können auch direkt mit der [!DNL DCS] über eine Reihe von APIs arbeiten. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-Das [!UICONTROL PCS] ist eine große Datenbank (im Grunde ein riesiges serverseitiges Cookie). Es speichert Daten, die von Server-zu-Server-Transfers und der [!DNL DCS]Variablen für aktive Benutzer empfangen wurden. [!UICONTROL PCS] Daten bestehen aus Geräte-IDs, authentifizierten Profil-IDs und den zugehörigen Eigenschaften. Wenn der Benutzer einen Echtzeitaufruf [!DNL DCS] [!UICONTROL PCS] erhält, prüft er, ob andere Eigenschaften vorliegen, denen ein Benutzer angehören kann oder für die er sich qualifiziert. Wenn zu einem Segment zu einem späteren Zeitpunkt eine Eigenschaft hinzugefügt wird, werden diese Eigenschaften-IDs dem Segment hinzugefügt [!UICONTROL PCS] und Benutzer können sich automatisch für dieses Segment qualifizieren, ohne eine bestimmte Site oder App zu besuchen. Das [!UICONTROL PCS] [!DNL Audience Manager]hilft, das Verständnis Ihrer Benutzer zu vertiefen, da es Benutzer in Echtzeit oder hinter den Kulissen mit neuen und historischen Eigenschaftsdaten abgleichen und segmentieren kann. Mit diesem Verhalten erhalten Sie ein vollständiges und genaueres Bild Ihrer Benutzer als mit der Qualifikation in Echtzeit.
+Das [!UICONTROL PCS] ist eine große Datenbank (im Grunde ein riesiges serverseitiges Cookie). Sie speichert Daten, die für aktive Benutzer von Server-zu-Server-Übertragungen und den [!DNL DCS] empfangen wurden. [!UICONTROL PCS]-Daten bestehen aus Geräte-IDs, authentifizierten Profil-IDs und den zugehörigen Eigenschaften. Wenn der Benutzer einen Echtzeitaufruf [!DNL DCS] [!UICONTROL PCS] erhält, prüft er, ob andere Eigenschaften vorliegen, denen ein Benutzer angehören kann oder für die er sich qualifiziert. Wenn zu einem Segment zu einem späteren Zeitpunkt eine Eigenschaft hinzugefügt wird, werden diese Eigenschaften-IDs dem Segment hinzugefügt [!UICONTROL PCS] und Benutzer können sich automatisch für dieses Segment qualifizieren, ohne eine bestimmte Site oder App zu besuchen. Das [!UICONTROL PCS] [!DNL Audience Manager]hilft, das Verständnis Ihrer Benutzer zu vertiefen, da es Benutzer in Echtzeit oder hinter den Kulissen mit neuen und historischen Eigenschaftsdaten abgleichen und segmentieren kann. Mit diesem Verhalten erhalten Sie ein vollständiges und genaueres Bild Ihrer Benutzer als mit der Qualifikation in Echtzeit.
 
 Es gibt keine Steuerelemente für die Benutzeroberfläche, mit denen unsere Kunden direkt mit dem [!UICONTROL PCS]System arbeiten können. Der Zugriff des Kunden auf die [!UICONTROL PCS] Website erfolgt indirekt über seine Rolle als Datenspeicher und Datenübertragung. Der [!UICONTROL PCS] läuft auf dem Apache Cassandra.
 
@@ -83,9 +83,9 @@ Die [!UICONTROL PCS] Flusheigenschaften werden angezeigt, wenn sie 17 Tage lang 
 
 **Andere[!UICONTROL DCS/PCS]Prozesse: Datenschutzabmeldung**
 
-Diese Serversysteme bearbeiten Datenschutzanforderungen und Abmeldeanforderungen für Benutzer. Benutzercookie-Informationen werden nicht in der Protokolldatei erfasst, wenn ein Benutzer sich aus der Datenerfassung ausgeschlossen hat. Weitere Informationen zu unseren Datenschutzrichtlinien finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
+Diese Serversysteme bearbeiten Datenschutzanforderungen und Abmeldeanforderungen für Benutzer. Benutzercookie-Informationen werden nicht in der Protokolldatei erfasst, wenn ein Benutzer sich aus der Datenerfassung ausgeschlossen hat. Weitere Informationen zu unseren Datenschutzrichtlinien finden Sie im [Adobe Privacy Center](https://www.adobe.com/de/privacy/advertising-services.html).
 
-## Data Integration Library (DIL){#dil} 
+## Data Integration Library (DIL)- {#dil}.
 
 [!UICONTROL DIL] ist Code, den Sie für die Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Diensten und Methoden finden Sie in der [DIL-API](../../dil/dil-overview.md) .
 
@@ -99,5 +99,5 @@ Das [!UICONTROL PCS] erstellt Daten und schreibt sie in die Protokolldateien. Di
 
 >[!MORELIKETHIS]
 >
->* [Adobe Datenschutzcenter](https://www.adobe.com/privacy.html)
+>* [Datenschutzzentrum von Adobe](https://www.adobe.com/de/privacy.html)
 
