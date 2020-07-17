@@ -1,16 +1,16 @@
 ---
 description: Ansicht einer Liste der derzeit konfigurierten Datenquellen, Hinzufügen neuer Datenquellen und Bearbeiten vorhandener Quellen.
 seo-description: Ansicht einer Liste der derzeit konfigurierten Datenquellen, Hinzufügen neuer Datenquellen und Bearbeiten vorhandener Quellen.
-seo-title: Liste und Einstellungen für Data Sources
+seo-title: Liste der Data Sources und Einstellungen
 solution: Audience Manager
-title: Liste und Einstellungen für Data Sources
+title: Liste der Data Sources und Einstellungen
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -113,7 +113,7 @@ Aktivieren Sie das **[!UICONTROL Inbound]** Kontrollkästchen, wenn Ihre Datenqu
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Kunden-ID</span></b>: Identifiziert eingehende Daten mit einer Kunden-ID. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager-ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Audience Manager</span> -ID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Experience Cloud</span> -ID. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Experience Cloud</span> -ID. See <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -154,7 +154,7 @@ Aktivieren Sie das **[!UICONTROL Inbound]** Kontrollkästchen, wenn Ihre Datenqu
    <td colname="col2"> <p>Ihre geräteübergreifende Datenquelle enthält IDs aus einem Gerätediagramm. Ein Gerätediagramm ist eine Sammlung von IDs, die einem Cluster eine oder mehrere <span class="keyword"> Audience Manager</span> -IDs zuordnen. Dieser Cluster repräsentiert normalerweise eine Person oder eine größere Gruppe im Haushalt. Nur für Konten verfügbar, die als "Datenanbieter"aufgeführt sind. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Freigeben von zugehörigen Besucher- oder Geräte-IDs für die Audience Manager-Platform</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Freigeben von zugehörigen Besucher- oder Geräte-IDs über die Audience Manager-Plattform</span></b> </p> </td> 
    <td colname="col2"> <p>Ihre Datenquelle enthält Besucher- oder Geräte-IDs, die für andere <span class="keyword"> Experience Cloud</span> -Lösungen freigegeben werden können. </p> </td> 
   </tr>
   <tr> 
