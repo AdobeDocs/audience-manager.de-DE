@@ -1,21 +1,21 @@
 ---
 description: Eine GET-Methode, die das Ziel für die angegebene destinationId zurückgibt.
 seo-description: Eine GET-Methode, die das Ziel für die angegebene destinationId zurückgibt.
-seo-title: Ziel nach Ziel-ID zurückgeben
+seo-title: Zurückgeben eines Ziels nach Ziel-ID
 solution: Audience Manager
-title: Ziel nach Ziel-ID zurückgeben
+title: Zurückgeben eines Ziels nach Ziel-ID
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
 
-# Ziel nach Ziel-ID zurückgeben {#return-a-destination-by-destination-id}
+# Zurückgeben eines Ziels nach Ziel-ID {#return-a-destination-by-destination-id}
 
 Eine `GET` Methode, die das Ziel für die angegebene `destinationId`Methode zurückgibt.
 
@@ -253,7 +253,7 @@ Eine `GET` Methode, die die Zuordnungen für ein Ziel zurückgibt.
 {
 ```
 
-## Alle verfügbaren Ziel-Platformen zurückgeben {#return-dest-platforms}
+## Alle verfügbaren Zielplattformen zurückgeben {#return-dest-platforms}
 
 Eine `GET` Methode, die alle verfügbaren Geräteplattformen für Ziele zurückgibt.
 
