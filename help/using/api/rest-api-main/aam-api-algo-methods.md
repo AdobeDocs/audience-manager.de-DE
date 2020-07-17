@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 1%
+ht-degree: 23%
 
 ---
 
@@ -25,4 +25,4 @@ Methoden, mit denen Sie programmatisch mit algorithmischen Modellfunktionen arbe
 >Die algorithmischen Modellmethoden [!DNL API] wurden umgeschrieben [!DNL Swagger] und migriert. Siehe:
 >
 >* [Adobe Audience Manager-API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
->* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
+>* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
