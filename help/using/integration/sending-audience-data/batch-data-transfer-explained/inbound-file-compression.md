@@ -1,21 +1,21 @@
 ---
 description: Als Option können Sie Datendateien komprimieren, wenn sie an Audience Manager gesendet werden.
 seo-description: Als Option können Sie Datendateien komprimieren, wenn sie an Audience Manager gesendet werden.
-seo-title: Dateikomprimierung für eingehende Datenübertragungsdateien
+seo-title: Dateikomprimierung für eingehende Datenübertragungsdateien.
 solution: Audience Manager
-title: Dateikomprimierung für eingehende Datenübertragungsdateien
+title: Dateikomprimierung für eingehende Datenübertragungsdateien.
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Dateikomprimierung für eingehende Datenübertragungsdateien{#file-compression-for-inbound-data-transfer-files}
+# Dateikomprimierung für eingehende Datenübertragungsdateien{#file-compression-for-inbound-data-transfer-files}.
 
 Sie können Datendateien komprimieren, wenn Sie sie an Audience Manager senden.
 
