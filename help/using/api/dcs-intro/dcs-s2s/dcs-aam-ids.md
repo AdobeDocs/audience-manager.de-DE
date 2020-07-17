@@ -1,21 +1,21 @@
 ---
 description: In diesem Abschnitt wird beschrieben, wie Sie eine DCS-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die für Echtzeitaufrufe des DCS erforderlich sind.
 seo-description: In diesem Abschnitt wird beschrieben, wie Sie eine DCS-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die für Echtzeitaufrufe des DCS erforderlich sind.
-seo-title: Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort
+seo-title: Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort
 solution: Audience Manager
-title: Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort
+title: Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
 
-# Get User IDs and Regions From a DCS Response {#get-user-ids-and-regions-from-a-dcs-response}
+# Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort {#get-user-ids-and-regions-from-a-dcs-response}
 
 In diesem Abschnitt wird beschrieben, wie Sie eine [!DNL DCS] Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die für Echtzeitaufrufe an den [!DNL DCS]Benutzer erforderlich sind.
 
@@ -33,7 +33,7 @@ Diese Parameter werden nachfolgend beschrieben. Code *kursiv* stellt einen varia
   <tr> 
    <th colname="col1" class="entry"> Parameter </th> 
    <th colname="col2" class="entry"> Datentyp </th> 
-   <th colname="col3" class="entry"> Beispiel  </th> 
+   <th colname="col3" class="entry"> Beispiel </th> 
   </tr> 
  </thead>
  <tbody> 
