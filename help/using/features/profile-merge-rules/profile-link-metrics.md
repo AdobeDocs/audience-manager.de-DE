@@ -1,21 +1,21 @@
 ---
 description: Profil-Link-Metriken liefern Daten zu Personen und Geräten, die sich für Ihre Site authentifizieren. Die Daten und Grafiken in Profil Link werden dynamisch aktualisiert, wenn Sie eine Zusammenführungsregel erstellen oder wenn Sie im Dashboard Profil Merge Rules auf eine bestehende Regel klicken. Diese Metriken können Gerätediagramme aus der Adobe Experience Cloud Device Co-op- oder anderen Gerätediagrammquellen von Drittanbietern enthalten.
 seo-description: Profil-Link-Metriken liefern Daten zu Personen und Geräten, die sich für Ihre Site authentifizieren. Die Daten und Grafiken in Profil Link werden dynamisch aktualisiert, wenn Sie eine Zusammenführungsregel erstellen oder wenn Sie im Dashboard Profil Merge Rules auf eine bestehende Regel klicken. Diese Metriken können Gerätediagramme aus der Adobe Experience Cloud Device Co-op- oder anderen Gerätediagrammquellen von Drittanbietern enthalten.
-seo-title: Berichtsmetriken für Profil-Zusammenführungsregeln
+seo-title: Berichtsmetriken für Profilzusammenführungsrichtlinien
 solution: Audience Manager
-title: Berichtsmetriken für Profil-Zusammenführungsregeln
+title: Berichtsmetriken für Profilzusammenführungsrichtlinien
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Berichtsmetriken für Profil-Zusammenführungsregeln {#report-metrics-for-profile-merge-rules}
+# Berichtsmetriken für Profilzusammenführungsrichtlinien {#report-metrics-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rule] Metriken liefern Daten zu Personen und Geräten, die sich für Ihre Site authentifizieren. Die Daten und Diagramme in [!UICONTROL Profile Merge Rule Reports] werden beim Erstellen einer Zusammenführungsregel oder beim Klicken auf eine vorhandene Regel aus dem [!UICONTROL Profile Merge Rules] Dashboard dynamisch aktualisiert. Diese Metriken können Gerätediagramme aus den [!DNL Adobe Experience Cloud Device Co-op] oder anderen Gerätediagrammen von Drittanbietern enthalten.
 
@@ -68,7 +68,7 @@ Die [!UICONTROL Merge Rules] Berichte zeigen auch Daten zur Gesamtzahl der Perso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Profillink</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Profil-Link</span> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_B2FF2341573840549FFB96579F537082"> 
       <li id="li_B37323C2F2434F41B407500AC5C15447">Personen insgesamt: 60 Tage </li> 
