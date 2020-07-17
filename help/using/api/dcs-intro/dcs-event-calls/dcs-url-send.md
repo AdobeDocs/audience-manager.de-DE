@@ -1,21 +1,21 @@
 ---
 description: Beginn für Informationen zum Durchführen von /Ereignis-Aufrufen an den DCS. Dieser Abschnitt enthält Informationen zur Aufrufsyntax, zu Parametern, zur Formatierung und ein Anforderungsbeispiel.
 seo-description: Beginn für Informationen zum Durchführen von /Ereignis-Aufrufen an den DCS. Dieser Abschnitt enthält Informationen zur Aufrufsyntax, zu Parametern, zur Formatierung und ein Anforderungsbeispiel.
-seo-title: Daten an das DCS senden
+seo-title: Senden von Daten an den DCS
 solution: Audience Manager
-title: Daten an das DCS senden
+title: Senden von Daten an den DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# Daten an das DCS senden {#send-data-to-the-dcs}
+# Senden von Daten an den DCS {#send-data-to-the-dcs}
 
 Beginn hier für Informationen über `/event` Anrufe an die [!DNL DCS]. Dieser Abschnitt enthält Informationen zur Aufrufsyntax, zu Parametern, zur Formatierung und ein Anforderungsbeispiel.
 
@@ -52,7 +52,7 @@ Die folgende Tabelle definiert die grundlegenden Komponenten eines einfachen [!D
    <td colname="col2"> <p>Dieser Teil des Aufrufs enthält: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Ihr von <span class="keyword"> Audience Manager</span> zugewiesener Domänenalias (z.B. <code> my_domain.demdex.net</code>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Die Zieldomäne, die immer <code> demdex.net</code>lautet. Siehe <a href="../../../reference/demdex-calls.md">Aufrufe an die Domäne „demdex.net“</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Die Zieldomäne, die immer <code> demdex.net</code>lautet. Siehe <a href="../../../reference/demdex-calls.md">Grundlegendes zu Aufrufen an die Domäne „demdex.net“</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Die folgende Tabelle definiert die grundlegenden Komponenten eines einfachen [!D
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">Schließen Sie Zeichenfolgendaten in Dubletten-Anführungszeichen ein (z. B. <code> age="41 to 55"</code>). </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Sie können mehrere Schlüssel an einen einzelnen Wert übergeben (z. B. <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
-     </ul> </p> <p>Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen</a>. </p> </td>
+     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -97,9 +97,9 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Nächste Schritte {#dcs-next-steps}
 
-Nun, da Sie mit dem Senden von Daten an die [!DNL DCS]Kommission vertraut sind, ist es an der Zeit, zu untersuchen, wie man Daten zurückerhält und diese Informationen analysiert. Siehe Daten [vom DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)empfangen.
+Nun, da Sie mit dem Senden von Daten an die [!DNL DCS]Kommission vertraut sind, ist es an der Zeit, zu untersuchen, wie man Daten zurückerhält und diese Informationen analysiert. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >
->* [Erläuterung von Seiten mit Schlüsselwert](../../../reference/key-value-pairs-explained.md)
+>* [Schlüssel-Wert-Paare – Erklärung](../../../reference/key-value-pairs-explained.md)
 
