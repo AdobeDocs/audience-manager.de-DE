@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -64,7 +64,7 @@ Die Tabelle definiert die Elemente in einem ausgehenden Datendateinamen.
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser-ID </span> (roh, unhash) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID for Advertisers </span> (roh, unhash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">Anbieter-ID - Benutzer-IDs von Drittanbietern (Web/Cookie) </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Globale Datenquellen</a> .</p></td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Globale Data Sources</a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -191,7 +191,7 @@ Die Tabelle Liste Variablen, die den Inhalt einer Datendatei definieren.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>Die Segment-ID, von der der Benutzer disqualifiziert wurde. Trennen Sie mehrere Segmente durch ein Komma. Bei einer vollständigen Synchronisierung können Sie die entfernten Segmente ignorieren, da die Datendatei die vollständige Liste der aktuellen Segmente für den Benutzer enthält. Normalerweise möchten Sie wissen, zu welchen Segmenten ein Benutzer gehört und nicht zu den Segmenten, aus denen er entfernt wurde. Siehe auch Name der <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> ausgehenden Datendatei: Syntax und Beispiele </a>. </p> </td> 
+   <td colname="col2"> <p>Die Segment-ID, von der der Benutzer disqualifiziert wurde. Trennen Sie mehrere Segmente durch ein Komma. Bei einer vollständigen Synchronisierung können Sie die entfernten Segmente ignorieren, da die Datendatei die vollständige Liste der aktuellen Segmente für den Benutzer enthält. Normalerweise möchten Sie wissen, zu welchen Segmenten ein Benutzer gehört und nicht zu den Segmenten, aus denen er entfernt wurde. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
