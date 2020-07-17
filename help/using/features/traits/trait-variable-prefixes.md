@@ -1,21 +1,21 @@
 ---
 description: In diesem Artikel werden die Präfixe beschrieben, die Sie beim Erstellen von Eigenschaftsregeln an Schlüsselvariablen anhängen müssen.
 seo-description: In diesem Artikel werden die Präfixe beschrieben, die Sie beim Erstellen von Eigenschaftsregeln an Schlüsselvariablen anhängen müssen.
-seo-title: Voraussetzungen für das Präfix für Schlüsselvariablen
+seo-title: Anforderungen an Präfixe für Schlüsselvariablen
 solution: Audience Manager
-title: Voraussetzungen für das Präfix für Schlüsselvariablen
+title: Anforderungen an Präfixe für Schlüsselvariablen
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Voraussetzungen für das Präfix für Schlüsselvariablen {#prefix-requirements-for-key-variables}
+# Anforderungen an Präfixe für Schlüsselvariablen {#prefix-requirements-for-key-variables}
 
 In diesem Artikel werden die Präfixe beschrieben, die Sie beim Erstellen von Eigenschaftsregeln an Schlüsselvariablen anhängen müssen.
 
