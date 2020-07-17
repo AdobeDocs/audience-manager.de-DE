@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1105'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -667,11 +667,11 @@ dil-use-cors-only.xml
 
  -->
 
-**Übersicht**
+**Überblick**
 
 `useCORSOnly` ist standardmäßig false. False bedeutet, dass der Browser Ressourcenprüfungen mit CORS oder JSONP durchführen kann. Es wird jedoch [!UICONTROL DIL] immer versucht, zunächst Ressourcen mit CORS anzufordern. Bei älteren Browsern, die CORS nicht unterstützen, wird auf JSONP zurückgegriffen. Wenn Sie den Browser zwingen müssen, nur CORS zu verwenden, z. B. bei Sites mit hohen Sicherheitsanforderungen, setzen Sie `useCORSOnly:true`.
 
-**Codebeispiel**
+**Code-Beispiel**
 
 <pre><code class="js">
 var dilInstance = DIL.create({ 
@@ -684,6 +684,7 @@ var dilInstance = DIL.create({
 >
 >* Es wird empfohlen, diese Einstellung `useCORSOnly: true` nur dann vorzunehmen, wenn Sie sicher sind, dass Ihre Site-Besucher Browser haben, die diese Funktion unterstützen.
 >* Ab `useCORSOnly: true`diesem Zeitpunkt werden [!UICONTROL DIL] keine ID-Aufrufe von Internet Explorer Version 9 oder älter durchgeführt.
+
 >
 
 
@@ -721,10 +722,10 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 
 >[!MORELIKETHIS]
 >
->* [Namensanforderungen für Schlüsselvariablen](../features/traits/trait-key-name-requirements.md)
->* [Voraussetzungen für das Präfix für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
+>* [Anforderungen an Namen für Schlüsselvariablen](../features/traits/trait-key-name-requirements.md)
+>* [Anforderungen an Präfixe für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
 >* [Synchronisierungsfunktionen im Identitätsdienst für Adobe Experience Platformen](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
->* [DIL erstellen](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Erstellen einer DIL](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Identitätsdienst für Adobe Experience Platformen: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [CORS-Unterstützung im Identitätsdienst für Adobe Experience Platformen](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
