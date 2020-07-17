@@ -1,9 +1,9 @@
 ---
 description: Der Bericht "Konversionseigenschaften"zeigt alle Eigenschaften an, die zu einem bestimmten Datum als Konversionseigenschaften für eine Konversionsgruppe bezeichnet wurden. Konversionseigenschaften für Konversionsgruppen können sich von Berichte, der ausgeführt wird, in Berichte ändern. Der Bericht zeigt Konversionseigenschaften nach Konversionsgruppe für das ausgewählte Berichte an.
 seo-description: Der Bericht "Konversionseigenschaften"zeigt alle Eigenschaften an, die zu einem bestimmten Datum als Konversionseigenschaften für eine Konversionsgruppe bezeichnet wurden. Konversionseigenschaften für Konversionsgruppen können sich von Berichte, der ausgeführt wird, in Berichte ändern. Der Bericht zeigt Konversionseigenschaften nach Konversionsgruppe für das ausgewählte Berichte an.
-seo-title: In Berichten aufgeführte Konversionsmerkmale
+seo-title: In Berichten aufgeführte Konversionseigenschaften
 solution: Audience Manager
-title: In Berichten aufgeführte Konversionsmerkmale
+title: In Berichten aufgeführte Konversionseigenschaften
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
 feature: audience optimization reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 5%
 ---
 
 
-# In Berichten aufgeführte Konversionsmerkmale{#reported-conversion-traits}
+# In Berichten aufgeführte Konversionseigenschaften{#reported-conversion-traits}
 
 Der Bericht &quot;Konversionseigenschaften&quot;zeigt alle Eigenschaften an, die zu einem bestimmten Datum als Konversionseigenschaften für eine Konversionsgruppe bezeichnet wurden.
 
