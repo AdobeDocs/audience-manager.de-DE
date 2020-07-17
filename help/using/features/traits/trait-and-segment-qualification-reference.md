@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Referenz zu Eigenschaften und Segmentqualifikationen {#trait-qualification-reference}
+# Referenz: Eigenschafts- und Segmentqualifikationen {#trait-qualification-reference}
 
 Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird im Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Weitere Informationen zur Qualifizierung des [Eigenschaftstyps finden Sie unter Qualifizierung nach](#trait-type) Eigenschaftstyp.
 
@@ -32,7 +32,7 @@ Weitere Informationen zur Segmentqualifizierung finden Sie unter Segmentpopulati
 | Integrierte Eigenschaften | Die Qualifizierung von Eigenschaften erfolgt nach der Verarbeitung einer eingehenden Datei, d. h., die eingehende Datei wird in den Audience Manager [](../../faq/faq-inbound-data-ingestion.md) importiert und dann erfolgt die Qualifizierung der Eigenschaften. Sie sollten etwa 4 Stunden nach dem Erstellen einer nicht integrierten Eigenschaft warten, bevor Sie eine eingehende Datei zur Verarbeitung hochladen. Bei nicht an Bord befindlichen Eigenschaften beträgt die maximale Anzahl von Qualifikationen für ein Profil 1. |
 | Algorithmische Eigenschaften | Bei algorithmischen Eigenschaften ist die maximale Anzahl von Qualifikationen für ein Profil 1. |
 | Ordnereigenschaften | Eine Ordnereigenschaft fasst die Eigenschaftsqualifikationen der darin enthaltenen Eigenschaften zusammen. Eigenschaften von [Read-Ordnern: Info](about-folder-traits.md) für weitere Informationen. |
-| Eigenschaften der aktiven Audience und von Datenquelle synchronisierte Eigenschaften | Eine [!UICONTROL Active Audience] Eigenschaft enthält alle Geräte, die in Ihrem Audience Manager-Konto verwaltet werden. [!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Lesen Sie mehr über [Aktive Audience-Eigenschaften und Datenquelle-synchronisierte Eigenschaften](client-activity-synced-audience-traits.md). |
+| Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften | Eine [!UICONTROL Active Audience] Eigenschaft enthält alle Geräte, die in Ihrem Audience Manager-Konto verwaltet werden. [!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Lesen Sie mehr über [Aktive Audience-Eigenschaften und Datenquelle-synchronisierte Eigenschaften](client-activity-synced-audience-traits.md). |
 
 ## Eindeutige Eigenschaften und Gesamtanzahl der Eigenschaften {#unique-trait-realizations}
 
