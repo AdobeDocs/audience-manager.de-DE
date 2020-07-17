@@ -1,27 +1,27 @@
 ---
 description: Informationen zum Lesen des Besucher-Cookies für die IDs, die zum Aufrufen der DCS API erforderlich sind, finden Sie in diesem Abschnitt.
 seo-description: Informationen zum Lesen des Besucher-Cookies für die IDs, die zum Aufrufen der DCS API erforderlich sind, finden Sie in diesem Abschnitt.
-seo-title: Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für Adobe Experience Platformen
+seo-title: Abrufen von Benutzer-IDs und Regionen über Adobe Experience Platform Identity Service
 solution: Audience Manager
-title: Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für Adobe Experience Platformen
+title: Abrufen von Benutzer-IDs und Regionen über Adobe Experience Platform Identity Service
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
-# Abrufen von Benutzer-IDs und Regionen über den Identitätsdienst für Adobe Experience Platformen {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
+# Abrufen von Benutzer-IDs und Regionen über Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
 Informationen zum Lesen des Besucher-Cookies für die IDs, die zum Durchführen von [!DNL DCS] API-Aufrufen erforderlich sind, finden Sie in diesem Abschnitt.
 
 ## Abrufen der Benutzer-ID aus dem ID-Dienst-Cookie {#get-user-ids-from-service-cookie}
 
-Der Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/en/id-service/using/home.html) weist Benutzern, die Ihre Website besuchen, Besucher- und Regions-IDs zu. Diese IDs identifizieren Benutzer in allen Lösungen in der [!DNL Experience Cloud] und sind erforderlich, wenn Sie [!DNL DCS] Aufrufe tätigen möchten.
+Der Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) weist Benutzern, die Ihre Website besuchen, Besucher- und Regions-IDs zu. Diese IDs identifizieren Benutzer in allen Lösungen in der [!DNL Experience Cloud] und sind erforderlich, wenn Sie [!DNL DCS] Aufrufe tätigen möchten.
 
 * Der [!UICONTROL user ID] ist erforderlich, um Daten zu identifizieren und mit einem bestimmten Besucher zu verbinden.
 * Die [!UICONTROL region ID] ist erforderlich, da sie an einen regionalen Servernamen gebunden ist, den Sie an die [!DNL DCS]Gruppe senden müssen. Die [!DNL DCS] Daten werden in Rechenzentren gespeichert, die den Site-Besuchern am nächsten liegen. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
@@ -48,7 +48,7 @@ Code *kursiv* stellt einen variablen Platzhalter dar.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Cookie des <span class="keyword"> ID-Diensts</span> lesen</b> </p> </td> 
-   <td colname="col2"> <p>Der <span class="keyword"> ID-Dienst</span> speichert die Benutzer- und Regions-ID im AMCV-Cookie. Der vollständige Cookie-Name lautet <code>AMCV_<i>###</i>@AdobeOrg</code>. Die <code><i>###</i></code> Elemente sind Platzhalter für Ihre Organisations-ID. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>Parsen Sie das AMCV-Cookie für diese Schlüssel/Wert-Paare: </p> <p> 
+   <td colname="col2"> <p>Der <span class="keyword"> ID-Dienst</span> speichert die Benutzer- und Regions-ID im AMCV-Cookie. Der vollständige Cookie-Name lautet <code>AMCV_<i>###</i>@AdobeOrg</code>. Die <code><i>###</i></code> Elemente sind Platzhalter für Ihre Organisations-ID. See <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>Parsen Sie das AMCV-Cookie für diese Schlüssel/Wert-Paare: </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: Dieses Schlüssel-Wert-Paar enthält die <span class="keyword"> Experience Cloud</span> -Benutzer-ID. </li> 
       <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: Dieses Schlüssel-Wert-Paar enthält die Regions-ID (manchmal auch als <span class="term"> Standorthinweis</span>bezeichnet), die mit einem regionalen Servernamen verknüpft ist. </li> 
