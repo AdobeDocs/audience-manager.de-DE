@@ -1,20 +1,20 @@
 ---
 description: Mit dem Destination Builder können Sie cookie- oder DNL-URL-Ziele erstellen. Sie können mit dem Destination Builder keine Server-zu-Server-(S2S-)Ziele erstellen, aber Sie können deren Segmentzuordnungen verwalten. Wenden Sie sich an Ihren Berater, um ein S2S-Ziel einzurichten. Der Destination Builder befindet sich unter "Audience-Daten"> "Ziele".
 seo-description: Mit dem Destination Builder können Sie cookie- oder DNL-URL-Ziele erstellen. Sie können mit dem Destination Builder keine Server-zu-Server-(S2S-)Ziele erstellen, aber Sie können deren Segmentzuordnungen verwalten. Wenden Sie sich an Ihren Berater, um ein S2S-Ziel einzurichten. Der Destination Builder befindet sich unter "Audience-Daten"> "Ziele".
-seo-title: Zielaufbau
+seo-title: Destination Builder
 solution: Audience Manager
-title: Zielaufbau
+title: Destination Builder
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Zielaufbau {#destination-builder}
+# Destination Builder {#destination-builder}
 
 [!UICONTROL Destination Builder] können Sie Cookie-basierte Ziele oder [!DNL URL] Ziele erstellen. Sie können keine Server-zu-Server-([!DNL S2S]) Ziele mit erstellen, [!UICONTROL Destination Builder]aber die Segmentzuordnungen verwalten. Wenden Sie sich an Ihren Berater, um ein [!DNL S2S] Ziel einzurichten. [!UICONTROL Destination Builder] befindet sich in **[!UICONTROL Audience Data > Destinations]**.
 
