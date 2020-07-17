@@ -1,21 +1,21 @@
 ---
 description: Weitere Informationen zum Anfordern einer DCS-Antwort in einem /Ereignis-Aufruf finden Sie hier. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
 seo-description: Weitere Informationen zum Anfordern einer DCS-Antwort in einem /Ereignis-Aufruf finden Sie hier. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
-seo-title: Daten vom DCS empfangen
+seo-title: Empfangen von Daten vom DCS
 solution: Audience Manager
-title: Daten vom DCS empfangen
+title: Empfangen von Daten vom DCS
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Daten vom DCS empfangen {#receive-data-from-the-dcs}
+# Empfangen von Daten vom DCS {#receive-data-from-the-dcs}
 
 Weitere Informationen zum Anfordern einer [!DNL DCS] Antwort in einem `/event` Aufruf finden Sie hier. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
 
@@ -57,7 +57,7 @@ In der Tabelle unten finden Sie Listen und die gebräuchlichsten Parameter, die 
 | `cv` | Die Werte, die an das Ziel gesendet werden, definiert durch den Parameter &quot;cn&quot;:&quot;Zielname&quot;. |
 | `dcs_region` | Die [Server-zu-Server-DCS-Aufrufe](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Dieses Objekt enthält Informationen zu allen URL-Zielen, die in der Benutzeroberfläche konfiguriert sind. Die Liste dieses Objekts ist je nach Benutzeraktionen dynamisch. |
-| `dmn` | Dies ist die Domäne, die im Feld &quot;Cookie-Domäne&quot;für ein Cookie-Ziel angegeben wird. Siehe [Optionale Einstellungen für Cookie-Ziele](../../../features/destinations/cookie-destination-options.md).  Für Server-zu-Server-Integrationen empfehlen wir die Verwendung einer Domäne wie `aam-api.com`. |
+| `dmn` | Dies ist die Domäne, die im Feld &quot;Cookie-Domäne&quot;für ein Cookie-Ziel angegeben wird. See [Optional Settings for Cookie Destinations](../../../features/destinations/cookie-destination-options.md).  Für Server-zu-Server-Integrationen empfehlen wir die Verwendung einer Domäne wie `aam-api.com`. |
 | `e` | Die sichere URL, die in einem URL-Ziel festgelegt wurde. |
 | `stuff` | Dieses Objekt enthält Informationen zu allen Cookie-Zielen. Die Liste dieses Objekts ist je nach Benutzeraktionen dynamisch. |
 | `tid` | Transaktions-ID, eine eindeutige 12-Zeichen-ID, die zum Debugging verwendet wird. Jeder /Ereignis-Aufruf an den DCS erhält eine Meldung, die Sie bei Supportanfragen für eine bessere und schnellere Antwort lesen können. |
