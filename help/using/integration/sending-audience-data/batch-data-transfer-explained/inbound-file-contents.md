@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -64,8 +64,8 @@ Die Tabelle Liste und definiert die Variablen, die in einer ordnungsgemäß form
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Eine mobile Android- oder iOS-Geräte-ID in ihrem ursprünglichen, unveränderten Formular, wie vom mobilen Betriebssystem verfügbar. </li> 
      </ul> </p> <p>Für mobile IDs: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
-      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA-Format: IDs müssen in Großbuchstaben und nicht mit Hashing versehen sein. Beispiel: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android-Format: IDs müssen in Kleinbuchstaben vorliegen und dürfen nicht mit Hashing versehen werden. Beispiel: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA-Format: IDs müssen in Großbuchstaben und nicht mit Hashing versehen sein. Beispiel, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android-Format: IDs müssen in Kleinbuchstaben vorliegen und dürfen nicht mit Hashing versehen werden. Beispiel, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -93,11 +93,11 @@ In der folgenden Tabelle werden die Präfixe beschrieben, mit denen [!UICONTROL 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Das <code> d_sid </code> Präfix weist unser System darauf hin, dass die ID eine <span class="keyword"> Audience Manager- </span> Eigenschafts-ID ist. Dies ist die gleiche ID, die auf der Benutzeroberfläche angezeigt wird. Sie können Eigenschaften-IDs auch mit der API- <code> GET </code> Methode zurückgeben. Siehe <a href="../../../api/rest-api-main/api-traits.md"> Eigenschaften-API-Methoden </a>. </p> </td>
+   <td colname="col2"> <p>Das <code> d_sid </code> Präfix weist unser System darauf hin, dass die ID eine <span class="keyword"> Audience Manager- </span> Eigenschafts-ID ist. Dies ist die gleiche ID, die auf der Benutzeroberfläche angezeigt wird. Sie können Eigenschaften-IDs auch mit der API- <code> GET </code> Methode zurückgeben. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Daten mit dem Präfix <code> d_unsid </code> entfernen Benutzer aus dieser Eigenschaft. Das <code> d_unsid </code> Präfix wird in einer <code> overwrite </code> Datei ignoriert. </p> <p>Das <code> d_unsid= </code> Präfix weist unser System darauf hin, dass die ID eine <span class="keyword"> Audience Manager- </span> Eigenschafts-ID ist. Dies ist die gleiche ID, die auf der Benutzeroberfläche angezeigt wird. Sie können Eigenschaften-IDs auch mit der API- <code> GET </code> Methode zurückgeben. Siehe <a href="../../../api/rest-api-main/api-traits.md"> Eigenschaften-API-Methoden </a>. </p> </td>
+   <td colname="col2"> <p>Daten mit dem Präfix <code> d_unsid </code> entfernen Benutzer aus dieser Eigenschaft. Das <code> d_unsid </code> Präfix wird in einer <code> overwrite </code> Datei ignoriert. </p> <p>Das <code> d_unsid= </code> Präfix weist unser System darauf hin, dass die ID eine <span class="keyword"> Audience Manager- </span> Eigenschafts-ID ist. Dies ist die gleiche ID, die auf der Benutzeroberfläche angezeigt wird. Sie können Eigenschaften-IDs auch mit der API- <code> GET </code> Methode zurückgeben. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -149,8 +149,8 @@ In der folgenden Tabelle werden die Präfixe beschrieben, mit denen [!UICONTROL 
    <td colname="col1"> <p>iOS (IDFA) oder Android-Geräte-ID </p> </td> 
    <td colname="col2"> <p>Mobilgeräte-IDs müssen wie folgt streng formatiert sein: </p> <p> 
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
-      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA-Format: IDs müssen in Großbuchstaben und nicht mit Hashing versehen sein. Beispiel: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android-Format: IDs müssen in Kleinbuchstaben vorliegen und dürfen nicht mit Hashing versehen werden. Beispiel: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA-Format: IDs müssen in Großbuchstaben und nicht mit Hashing versehen sein. Beispiel, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android-Format: IDs müssen in Kleinbuchstaben vorliegen und dürfen nicht mit Hashing versehen werden. Beispiel, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -508,5 +508,5 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORELIKETHIS]
 >
->* [Trait Builder (Eigenschaftenaufbau)](../../../features/traits/about-trait-builder.md)
+>* [Trait Builder ](../../../features/traits/about-trait-builder.md)
 
