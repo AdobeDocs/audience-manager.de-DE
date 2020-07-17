@@ -1,20 +1,20 @@
 ---
 description: 'Diese Seite enthält eine schrittweise Anleitung zum Erstellen von Audiencen-Segmenten aus reinen Offline-Kundendaten und zum Senden dieser Segmente an People-Based-Ziele.  '
 seo-description: 'Diese Seite enthält eine schrittweise Anleitung zum Erstellen von Audiencen-Segmenten aus reinen Offline-Kundendaten und zum Senden dieser Segmente an People-Based-Ziele.  '
-seo-title: Arbeitsablauf B - Personalisierung auf Basis von Nur-Offline-Daten
+seo-title: Workflow B – Personalisierung basierend auf reinen Offline-Daten
 solution: Audience Manager
-title: Arbeitsablauf B - Personalisierung auf Basis von Nur-Offline-Daten
+title: Workflow B – Personalisierung basierend auf reinen Offline-Daten
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# Arbeitsablauf B - Personalisierung auf Basis von Nur-Offline-Daten {#workflow-b}
+# Workflow B – Personalisierung basierend auf reinen Offline-Daten {#workflow-b}
 
 >[!IMPORTANT]
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
@@ -31,7 +31,7 @@ Der erste Schritt beim Erstellen von Audiencen-Segmenten in diesem Szenario best
 
 Unabhängig davon, ob es sich bei Ihren bestehenden Audience Manager-IDs ([DPUUIDs](../../reference/ids-in-aam.md)) um Hash-E-Mails handelt oder nicht, müssen Sie die Eigenschaft für die Datenquelle, die Ihre [DPUUIDs](../../reference/ids-in-aam.md)enthält, aktivieren.
 
-### Beispiel 
+### Beispiel
 
 Sie möchten die Kunden-IDs aus der unten stehenden Tabelle für die entsprechenden IDs für nicht integrierte Eigenschaften qualifizieren. Denken wir daran, dass Ihre [DPUUIDs](../../reference/ids-in-aam.md) in einer Datenquelle mit der ID 999999 gespeichert sind und Ihre Audience Manager-Partner-ID 123 beträgt.
 
@@ -155,7 +155,7 @@ Im nächsten Schritt erstellen Sie eine neue Zusammenführungsregel, mit der Sie
 
 Verwenden Sie zum Erstellen neuer Segmente aus reinen Offline-Daten den [Segmentaufbau](../segments/segment-builder.md) und stellen Sie sicher, dass Sie die neue Segmentzusammenführungsregel verwenden, die Sie im vorherigen Profil erstellt haben.
 
-## Schritt 6: Personalisierte Platform konfigurieren {#configure-authentication}
+## Schritt 6: Personalisierte Plattformauthentifizierung konfigurieren {#configure-authentication}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer sozialen Plattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
    ![people-based-integration](assets/pbd-config.png)
@@ -173,8 +173,8 @@ Verwenden Sie zum Erstellen neuer Segmente aus reinen Offline-Daten den [Segment
 ## Schritt 7: Erstellen eines benutzerbasierten Ziels {#create-destination}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]**, und klicken Sie auf **[!UICONTROL Create Destination]**.
-1. Geben Sie im **[!UICONTROL Basic Information]** Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
-   * **[!UICONTROL Category]**: Integrierte Platformen;
+1. Geben Sie **[!UICONTROL Basic Information]** im Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
+   * **[!UICONTROL Category]**: Integrierte Plattformen;
    * **[!UICONTROL Type]**: Volksansässige;
    * **[!UICONTROL Platform]**: Wählen Sie die personalisierte Plattform aus, an die Sie Audiencen senden möchten.
    * **[!UICONTROL Account]**: Wählen Sie das gewünschte Advertiser-Konto aus, das mit der ausgewählten Plattform verknüpft ist.
