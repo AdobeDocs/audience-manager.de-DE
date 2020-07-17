@@ -1,21 +1,21 @@
 ---
 description: Der Echtzeit-Inbound-Datenerfassungsprozess nutzt eine Reihe von HTTP-Anfragen vom Browser des Benutzers, um Daten an den Audience Manager zu übermitteln.
 seo-description: Der Echtzeit-Inbound-Datenerfassungsprozess nutzt eine Reihe von HTTP-Anfragen vom Browser des Benutzers, um Daten an den Audience Manager zu übermitteln.
-seo-title: Dateneinbettung in Echtzeit
+seo-title: Erfassung eingehender Daten in Echtzeit
 solution: Audience Manager
-title: Dateneinbettung in Echtzeit
+title: Erfassung eingehender Daten in Echtzeit
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
-# Dateneinbettung in Echtzeit {#real-time-inbound-data-ingestion}
+# Erfassung eingehender Daten in Echtzeit {#real-time-inbound-data-ingestion}
 
 Der Prozess der Dateneingabe in Echtzeit nutzt eine Reihe von `HTTP` Anforderungen aus dem Browser des Benutzers, um Daten an den Audience Manager weiterzugeben.
 
