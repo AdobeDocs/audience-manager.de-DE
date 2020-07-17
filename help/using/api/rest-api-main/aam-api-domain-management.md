@@ -1,21 +1,21 @@
 ---
 description: Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten können, an die Sie Daten senden möchten (nur für Cookie-Ziele).
 seo-description: Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten können, an die Sie Daten senden möchten (nur für Cookie-Ziele).
-seo-title: API-Methoden für Domänenverwaltung
+seo-title: API-Methoden für die Domänenverwaltung
 solution: Audience Manager
-title: API-Methoden für Domänenverwaltung
+title: API-Methoden für die Domänenverwaltung
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# API-Methoden für Domänenverwaltung {#domain-management-api-methods}
+# API-Methoden für die Domänenverwaltung {#domain-management-api-methods}
 
 Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten können, an die Sie Daten senden möchten (nur für Cookie-Ziele).
 
