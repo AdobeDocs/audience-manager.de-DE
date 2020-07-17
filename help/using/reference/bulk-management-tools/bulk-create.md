@@ -1,21 +1,21 @@
 ---
 description: Mit der Massenerstellung können Sie mehrere Datenquellen, abgeleitete Signale, Segmente, Eigenschaften und andere Elemente mit einem einzigen Vorgang erstellen. Befolgen Sie diese Anweisungen, um eine Anforderung zur Massenerstellung zu erstellen.
 seo-description: Mit der Massenerstellung können Sie mehrere Datenquellen, abgeleitete Signale, Segmente, Eigenschaften und andere Elemente mit einem einzigen Vorgang erstellen. Befolgen Sie diese Anweisungen, um eine Anforderung zur Massenerstellung zu erstellen.
-seo-title: Massenanfertigung
+seo-title: Massenerstellungen
 solution: Audience Manager
-title: Massenanfertigung
+title: Massenerstellungen
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Massenanfertigung{#bulk-create}
+# Massenerstellungen{#bulk-create}
 
 Mit der Massenerstellung können Sie mehrere Datenquellen, abgeleitete Signale, Segmente, Eigenschaften und andere Elemente mit einem einzigen Vorgang erstellen. Befolgen Sie diese Anweisungen, um eine Anforderung zur Massenerstellung zu erstellen.
 
