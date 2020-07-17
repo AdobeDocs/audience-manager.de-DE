@@ -1,21 +1,21 @@
 ---
 description: 'null '
 seo-description: 'null '
-seo-title: Erfassen von Kampagnen-Klickdaten über Pixelaufrufe
+seo-title: Erfassen von Kampagnenklickdaten über Pixelaufrufe
 solution: Audience Manager
-title: Erfassen von Kampagnen-Klickdaten über Pixelaufrufe
+title: Erfassen von Kampagnenklickdaten über Pixelaufrufe
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
 
-# Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
+# Erfassen von Kampagnenklickdaten über Pixelaufrufe {#capturing-campaign-click-data-via-pixel-calls}
 
 Die Klick-Tracking ermöglicht die Messung der Interaktion mit Besuchern in Ihrer gesamten Kampagne, da Klick-basierte Aktivitäten für Kreative von Drittanbietern aufgezeichnet werden. Ähnlich wie bei der [Impressionserfassung](/help/using/integration/media-data-integration/impression-data-pixels.md)wird ein Ereignis-Aufruf zur Verarbeitung an die [!DNL Audience Manager] Datenerfassungsserver ([!DNL DCS]) gesendet. Der Besucher wird dann an die gewünschte Internetadresse weitergeleitet.
 
@@ -23,7 +23,7 @@ Die Klick-Tracking ermöglicht die Messung der Interaktion mit Besuchern in Ihre
 >
 >Bitte kontaktieren Sie Ihren [!DNL Audience Manager] Consulting- oder Kundenbetreuer für die exakten [!DNL URL] spezifischen Kundendomänen.
 
-## Voraussetzungen
+## Anforderungen
 
 Für Klick-Tracking-Aufrufe sind die folgenden Parameter erforderlich:
 
@@ -97,7 +97,7 @@ Klicken Sie auf Ereignisse unterstützen die in der folgenden Tabelle aufgeführ
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). For more information about the ECID, see <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
