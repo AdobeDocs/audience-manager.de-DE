@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
 
-# CSV Files for Overlap Reports{#csv-files-for-overlap-reports}
+# CSV-Dateien für Überlagerungsberichte{#csv-files-for-overlap-reports}
 
 Sie können eine CSV-Datei für einen Overlap Report anfordern, wenn dieser Bericht die Rekordgrenze von 1 Million erreicht. Ein Bericht hat diese Grenze möglicherweise erreicht, wenn die Meldung &quot;Unerwarteter Fehler ist aufgetreten&quot;angezeigt wird. Wenden Sie sich an den Kundendienst, um eine komprimierte .csv-Datei anzufordern, die Sie in Ihr eigenes Datenbanksystem importieren und damit arbeiten können. Dateien stehen für Berichte zur Überschneidung von Segment zu Segment, Segment zu Eigenschaften und Eigenschaften zur Verfügung.
 
 ## Metadaten zu Dateinamen {#file-name-metadata}
 
-In der folgenden Liste werden die Dateibenennungsregeln und Dateierweiterungen beschrieben, die in einer überlappenden .csv-Datei verwendet werden. In the examples, *italics* indicates a variable placeholder.
+In der folgenden Liste werden die Dateibenennungsregeln und Dateierweiterungen beschrieben, die in einer überlappenden .csv-Datei verwendet werden. In den Beispielen werden Variablenplatzhalter *kursiv* angegeben.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
