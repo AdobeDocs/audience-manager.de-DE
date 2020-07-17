@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ In den einzelnen Abschnitten werden verfügbare Berichte, ihre Ziele und typisch
 
 Informationen zu den Zeiträumen, in denen Audience Manager Informationen zum Ausfüllen von Berichten erhalten, finden Sie unter Auswirkungen von [Versand- und Dateiverarbeitungszeiten auf Berichte](/help/using/reference/reporting-file-transfer-timeframe.md).
 
-* [Berichte zur Optimierung der Audience](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Berichte zur Zielgruppenoptimierung](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
    Die [!UICONTROL Audience Optimization] Berichte verwenden Datenvisualisierungsmethoden, um Informationen zu den Zielen in Ihrem Audience Manager-Konto zurückzugeben. In jedem Bericht können Sie auf fast jeden Datenpunkt klicken, um detaillierte Informationen zu diesem Element zurückzugeben. Diese Einblicke zur Optimierung der Audience können auf verschiedene Anwendungsfälle in Werbe- und Publishing-Kanälen angewendet werden, sind aber standardmäßig nicht verfügbar. Wenden Sie sich an Ihren Audience Manager-Berater, um loszulegen.
 
@@ -39,19 +39,19 @@ Informationen zu den Zeiträumen, in denen Audience Manager Informationen zum Au
 
    Informationen zum Verlauf [!UICONTROL outbound] von Stapelaufträgen für ein bestimmtes Ziel und einen bestimmten Zeitraum.
 
-* [Trendberichte](/help/using/reporting/trend-reports.md)
+* [Trend-Berichte](/help/using/reporting/trend-reports.md)
 
    Ein [!UICONTROL Trend report] gibt Trenddaten zu [!UICONTROL traits] und [!UICONTROL segments]zurück.
 
-* [Zählung individueller Benutzer in Überschneidungen und allgemeinen Berichten](/help/using/reporting/unique-user-counts.md)
+*  \[Zählen von Unique Users in Überlagerungen und allgemeinen Berichten](/help/using/reporting/unique-user-counts.md).
 
    Beschreibt die Schwankungen der Summen individueller Benutzer zwischen Berichten für denselben [!UICONTROL trait] und denselben Zeitraum.
 
-* [Dashboard für Berichte](/help/using/reporting/trend-reports.md)
+* [Berichte-Dashboard](/help/using/reporting/trend-reports.md)
 
    Verwenden Sie das Dashboard zur Ansicht von Informationen über die Anzahl der individuellen Besucher Ihrer Partner, aufgeschlüsselt nach [!UICONTROL trait] Typen und [!UICONTROL segments] für einen bestimmten Zeitraum.
 
-* [Datenstichproben und Fehlerraten in Berichten zu ausgewählten Audience Managern](/help/using/reporting/report-sampling.md)
+* [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten](/help/using/reporting/report-sampling.md)
 
    Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
 
