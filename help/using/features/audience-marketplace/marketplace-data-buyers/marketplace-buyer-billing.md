@@ -1,9 +1,9 @@
 ---
 description: Die Käufer von Audience Marketplace-Daten erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die anhand der im Datenfeed enthaltenen Eigenschaften bereitgestellt werden, und zwar zu einem Preis pro Tausend Anzeigenimpressionen (CPM). Die CPM-Nutzung ist am 5. Tag jedes Kalendermonats fällig und enthält Daten zum vorherigen Monat. Pauschalabonnenten müssen die Nutzung nicht melden.
 seo-description: Die Käufer von Audience Marketplace-Daten erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die anhand der im Datenfeed enthaltenen Eigenschaften bereitgestellt werden, und zwar zu einem Preis pro Tausend Anzeigenimpressionen (CPM). Die CPM-Nutzung ist am 5. Tag jedes Kalendermonats fällig und enthält Daten zum vorherigen Monat. Pauschalabonnenten müssen die Nutzung nicht melden.
-seo-title: Rechnungsstellung für Data Feed-Käufer
+seo-title: Abrechnung für Daten-Feed-Käufer
 solution: Audience Manager
-title: Rechnungsstellung für Data Feed-Käufer
+title: Abrechnung für Daten-Feed-Käufer
 keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Rechnungsstellung für Data Feed-Käufer {#billing-for-data-feed-buyers}
+# Abrechnung für Daten-Feed-Käufer {#billing-for-data-feed-buyers}
 
 Die Käufer von Audience Marketplace-Daten erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die anhand der im Datenfeed enthaltenen Eigenschaften bereitgestellt werden, und zwar zu einem Preis pro Tausend Anzeigenimpressionen ([!DNL CPM]). [!DNL CPM] Die Nutzung erfolgt am 5. Tag jedes Kalendermonats und beinhaltet Daten für den Vormonat. Pauschalabonnenten müssen die Nutzung nicht melden.
 
