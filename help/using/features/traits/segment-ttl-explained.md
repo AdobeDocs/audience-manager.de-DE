@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Erläuterung der Segment- und Eigenschaftenzeit bis zum Live {#segment-time-to-live-explained}
+# Segment und TTL einer Eigenschaft – Erklärung {#segment-time-to-live-explained}
 
 Einfluss des Intervalls [!UICONTROL time-to-live] für Eigenschaften ([!DNL TTL]) auf die Segmentmitgliedschaft.
 
@@ -23,7 +23,7 @@ Einfluss des Intervalls [!UICONTROL time-to-live] für Eigenschaften ([!DNL TTL]
 
 ## Zeit bis zum Live
 
-[!DNL TTL] definiert, wie lange ein Site-Besucher nach dem Ereignis der letzten Eigenschaftenqualifikation in einem Segment verbleibt. [!DNL TTL] wird auf Eigenschaften und nicht auf Segmenten eingestellt. Besucher werden aus einem Segment ausgeschlossen, wenn sie sich nicht vor Ablauf des [!DNL TTL] Intervalls für eine Eigenschaft qualifizieren. Die Standardeinstellung [!DNL TTL] für neue Eigenschaften ist 120 Tage. Bei Festlegung auf 0 Tage läuft die Eigenschaft nie ab. [Legen Sie den TTL-Wert](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) fest, wenn Sie eine Eigenschaft im Abschnitt der Benutzeroberfläche für die [!UICONTROL Advanced Options] Eigenschaftserstellung erstellen oder bearbeiten.
+[!DNL TTL] definiert, wie lange ein Site-Besucher nach dem Ereignis der letzten Eigenschaftenqualifikation in einem Segment verbleibt. [!DNL TTL] wird für Eigenschaften und nicht für Segmente festgelegt. Visitors fall out of a segment if they do not qualify for a trait before the end of the [!DNL TTL] interval. Die Standardeinstellung [!DNL TTL] für neue Eigenschaften ist 120 Tage. Bei Festlegung auf 0 Tage läuft die Eigenschaft nie ab. [Legen Sie den TTL-Wert](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) fest, wenn Sie eine Eigenschaft im Abschnitt der Benutzeroberfläche für die [!UICONTROL Advanced Options] Eigenschaftserstellung erstellen oder bearbeiten.
 
 ### 1 Tag TTL Erläuterung
 
