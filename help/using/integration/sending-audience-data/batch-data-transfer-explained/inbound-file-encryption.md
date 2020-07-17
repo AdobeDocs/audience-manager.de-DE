@@ -1,21 +1,21 @@
 ---
 description: Als Option können Sie Datendateien mit PGP-Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
 seo-description: Als Option können Sie Datendateien mit PGP-Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
-seo-title: Datei-PGP-Verschlüsselung für Inbound-Datentypen
+seo-title: Datei-PGP-Verschlüsselung für eingehende Datentypen
 solution: Audience Manager
-title: Datei-PGP-Verschlüsselung für Inbound-Datentypen
+title: Datei-PGP-Verschlüsselung für eingehende Datentypen
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Datei-PGP-Verschlüsselung für Inbound-Datentypen{#file-pgp-encryption-for-inbound-data-types}
+# Datei-PGP-Verschlüsselung für eingehende Datentypen{#file-pgp-encryption-for-inbound-data-types}
 
 Sie können Datendateien mit [!DNL PGP] Verschlüsselung verschlüsseln, wenn Sie sie an den Audience Manager senden.
 
