@@ -1,20 +1,20 @@
 ---
 description: Wenn Sie in Trait Recommendations in Segment Builder ein Segment erstellen oder bearbeiten, erhalten Sie Empfehlungen zu zusätzlichen Merkmalen, die Sie einschließen können. Diese sind vergleichbar mit den Merkmalen in der Segmentregel. Fügen Sie die empfohlenen Merkmale zu Ihrem Segment hinzu, um Ihre Zielgruppe zu erweitern.
 seo-description: Beim Erstellen Ihrer Segmente erhalten Sie Empfehlungen zu Eigenschaften im Live-Format.
-seo-title: Trait Recommendations
+seo-title: Eigenschaftenempfehlungen
 solution: Audience Manager
-title: Trait Recommendations
+title: Eigenschaftenempfehlungen
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
 
-# Trait Recommendations
+# Eigenschaftenempfehlungen
 
 Erhalten Sie beim Erstellen Ihrer Segmente Live-Eigenschaftenempfehlungen aus Ihren eigenen Erstanbieter-Eigenschaften und [!UICONTROL Audience Marketplace] -Datenfeeds.
 
@@ -60,21 +60,21 @@ Mit [!UICONTROL Trait Recommendations]können Sie Ihre Workflows je nach Verwend
 
 ### Algorithmische Modelle
 
-[!UICONTROL Algorithmic Models] Findet nicht nur die einflussreichsten Eigenschaften, sondern bewertet auch die Benutzer anhand dieser Eigenschaften und weist jedem Benutzer ein individuelles Ergebnis zu. Anschließend erstellen Sie algorithmische Eigenschaften zur Zielgruppe Ihrer Benutzer. Mit den Steuerelementen für Genauigkeit und Reichweite im [!UICONTROL Trait Builder]können Sie festlegen, welche Benutzer zu den einflussreichen Eigenschaften gehören, die Sie Zielgruppen vornehmen möchten.
+[!UICONTROL Algorithmic Models] Findet nicht nur die einflussreichsten Eigenschaften, sondern bewertet auch die Benutzer anhand dieser Eigenschaften und weist jedem Benutzer ein individuelles Ergebnis zu. Anschließend erstellen Sie algorithmische Eigenschaften, um Ihre Benutzer anzusprechen. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
 
-[!UICONTROL Algorithmic Models] ermöglicht Ihnen, Benutzer mit unterschiedlichen Genauigkeitsstufen auszuwählen und zu testen, in [!UICONTROL Audience Lab] welcher Benutzergruppe sie besser konvertiert. Weitere Informationen finden Sie unter [Vergleichen von Modellen in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
+[!UICONTROL Algorithmic Models] ermöglicht Ihnen, Benutzer mit unterschiedlichen Genauigkeitsstufen auszuwählen und zu testen, in [!UICONTROL Audience Lab] welcher Benutzergruppe sie besser konvertiert. Weitere Informationen finden Sie im detaillierten Anwendungsfall unter [Vergleichen von Modellen in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
-In [!UICONTROL Algorithmic Models]diesem Fall wird das Modell alle 8 Tage ausgeführt und aktualisiert die für algorithmische Eigenschaften qualifizierten Benutzer.
+In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 
-### Trait Recommendations
+### Eigenschaftenempfehlungen
 
 [!UICONTROL Trait Recommendations] ist eine schnelle Möglichkeit, Einblicke in andere Eigenschaften zu erhalten, die den Eigenschaften in einem Segment ähnlich sind.
 
 Sie sollten [!UICONTROL Trait Recommendations] Folgendes verwenden:
 
-* Beim Erstellen eines Segments benötigen Sie schnelle Einblicke.
-* Sie verwenden die Segmente für kurze Kampagnen oder wenn Sie die Audience, die konvertiert, schnell unterdrücken möchten;
-* Du versuchst, die Reichweite zu maximieren.
+* Sie benötigen schnelle Einblicke beim Erstellen eines Segments.
+* Sie verwenden die Segmente für kurze Kampagnen oder wenn Sie schnell konvertierende Zielgruppen unterdrücken möchten.
+* Sie versuchen, die Reichweite zu maximieren.
 
 ## Arbeitsablauf
 
