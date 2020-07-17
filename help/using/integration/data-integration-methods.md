@@ -122,7 +122,7 @@ Beschreibt technische und geschäftliche Gründe für das Senden von Daten über
 * **Technische Überlegungen:** Der Versand von Daten hängt von den technischen Möglichkeiten des Datenpartners ab. Audience Manager können Daten in Echtzeit vom Browser oder durch Batch-Aktualisierungen über Offline-, Server-zu-Server-Kommunikationsprozesse senden/empfangen.
 * **Geschäftsaspekte:** Die geschäftlichen Gründe für die Auswahl der einen oder anderen Versand-Methode hängen von den technischen Möglichkeiten Ihres Zielpartners und davon ab, wie Sie diese Daten verwenden möchten. In der Regel sind synchrone Datenübertragungen nützlich, wenn Sie sofort auf Benutzerdaten reagieren müssen. Asynchrone Datenübertragungen können nützlich sein, wenn sofortiges Handeln nicht erforderlich ist und Sie Zeit haben, tiefere Profil für die spätere Verwendung zu erstellen.
 
-## Datenübertragungsprozess in Echtzeit {#real-time-data-transfer-process}
+## Real-Time Data Transfer Process {#real-time-data-transfer-process}
 
 Eine allgemeine Übersicht darüber, wie Audience Manager einen synchronen Datenaustausch mit einem Drittanbieter durchführt.
 
@@ -144,7 +144,7 @@ Der Datenintegrationsprozess in Echtzeit funktioniert wie folgt:
 
 ![](assets/rt_reduce70.png)
 
-## Batch-Datenübermittlungsprozess {#batch-data-transfer-process}
+## Batch-Datenübertragungsprozess {#batch-data-transfer-process}
 
 Eine allgemeine Übersicht darüber, wie Audience Manager Daten synchron (in Echtzeit) mit einem Drittanbieter austauschen.
 
