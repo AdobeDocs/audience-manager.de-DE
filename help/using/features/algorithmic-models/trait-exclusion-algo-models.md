@@ -9,12 +9,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Look-Alike Modeling: Eigenschaftsausschluss {#algorithmic-models-trait-exclusion}
+# Look-alike-Modellierung: Eigenschaftsausschluss {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] bietet zusätzliche Steuerelemente in Ihrem Modellierungsarbeitsablauf, mit denen Sie die erforderlichen Schutzschienen zum Modell hinzufügen können, basierend auf Ihrer Domänenkompetenz und Ihren regulatorischen Anforderungen. Verwenden Sie die [!UICONTROL Exclusions] Option, um festzulegen, welche Eigenschaften beim Erstellen von Modellen aus einer oder mehreren Datenquellen ignoriert werden sollen.
 
