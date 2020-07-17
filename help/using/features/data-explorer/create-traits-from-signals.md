@@ -1,20 +1,20 @@
 ---
 description: Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Audiencen, die sich nach der Erstellung von Eigenschaften qualifizieren.
 seo-description: Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Audiencen, die sich nach der Erstellung von Eigenschaften qualifizieren.
-seo-title: Eigenschaften aus Signalen erstellen
-title: Eigenschaften aus Signalen erstellen
+seo-title: Erstellen von Eigenschaften aus Signalen
+title: Erstellen von Eigenschaften aus Signalen
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Eigenschaften aus Signalen erstellen
+# Erstellen von Eigenschaften aus Signalen
 
 Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Audiencen, die sich nach der Erstellung von Eigenschaften qualifizieren. Sehen Sie sich das Video für eine kurze Demonstration an oder lesen Sie es für detaillierte Informationen:
 
@@ -46,6 +46,7 @@ Suchen Sie nach bestimmten Signalen und erstellen Sie auf Basis der Ergebnisse r
 2. Identifizieren Sie die Signale, die Sie in der Liste der Ergebnisse in der Eigenschaft verwenden möchten.
    * Um eine Eigenschaft aus einem Signal zu erstellen, klicken Sie auf den entsprechenden **[!UICONTROL Create Rule-Based Trait]** oder **[!UICONTROL Create Onboarded Trait]** Link.
    * Um eine Eigenschaft aus mehreren Signalen zu erstellen, klicken Sie auf das entsprechende Kontrollkästchen der einzelnen Signale und dann auf **[!UICONTROL Create Trait from Multiple Signals]**.
+
    >[!NOTE]
    >Sie können Eigenschaften nur aus Signalen desselben Typs erstellen. Sie können keine Eigenschaften erstellen, die auf einer Kombination aus einem Echtzeit-Signal und einem Onboard-Signal basieren.
    >
