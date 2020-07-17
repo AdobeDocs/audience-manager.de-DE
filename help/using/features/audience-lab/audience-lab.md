@@ -1,9 +1,9 @@
 ---
 description: Erstellen Sie sich gegenseitig ausschließende Testsegmente in Segmenttestgruppen, um die Effektivität verschiedener Ziele zu vergleichen und zu messen. Sie können eine Kontrollgruppe beilegen und Ihr Segment in Prozentsätze eines Ganzen unterteilen, um die Wirksamkeit zu testen.
 seo-description: Erstellen Sie sich gegenseitig ausschließende Testsegmente in Segmenttestgruppen, um die Effektivität verschiedener Ziele zu vergleichen und zu messen. Sie können eine Kontrollgruppe beilegen und Ihr Segment in Prozentsätze eines Ganzen unterteilen, um die Wirksamkeit zu testen.
-seo-title: Zielgruppe Lab
+seo-title: 'Audience Lab '
 solution: Audience Manager
-title: Zielgruppe Lab
+title: 'Audience Lab '
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,8 +26,8 @@ Erstellen Sie sich gegenseitig ausschließende Testsegmente, um die Effektivitä
 
 Die [!UICONTROL Audience Lab] Standardkarte zeigt eine Ansicht für jede der Testgruppen an. Klicken Sie auf eine Karte, um auf die **[!UICONTROL Test Group]** Ansicht zuzugreifen. Diese Ansicht enthält die folgenden Informationen:
 
-* **[Gruppeninformationen testen](../../features/audience-lab/audience-lab-information-view.md)**
-* **[Berichte der Testgruppe](../../features/audience-lab/audience-lab-reporting-view.md)**
+* **[Informationen zu Testgruppen](../../features/audience-lab/audience-lab-information-view.md)**
+* **[Testgruppenberichte](../../features/audience-lab/audience-lab-reporting-view.md)**
 
 Sie können **bis zu 10 Testgruppen** mit jeweils **bis zu 15 Testsegmenten** erstellen.
 
