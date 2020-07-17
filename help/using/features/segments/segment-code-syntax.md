@@ -1,21 +1,21 @@
 ---
 description: Mit dem Segmentaufbau können Sie Eigenschaftenregeln für ein Segment mithilfe eines Code-Editors erstellen. Klicken Sie im Bereich "Eigenschaften"auf die Registerkarte "Ausdruck segmentieren (Code-Ansicht)", um auf diese Funktion zuzugreifen.
 seo-description: Mit dem Segmentaufbau können Sie Eigenschaftenregeln für ein Segment mithilfe eines Code-Editors erstellen. Klicken Sie im Bereich "Eigenschaften"auf die Registerkarte "Ausdruck segmentieren (Code-Ansicht)", um auf diese Funktion zuzugreifen.
-seo-title: Im Segment-Ausdruck-Editor verwendete Code-Syntax
+seo-title: Im Ausdruckseditor für Segmente verwendete Code-Syntax
 solution: Audience Manager
-title: Im Segment-Ausdruck-Editor verwendete Code-Syntax
+title: Im Ausdruckseditor für Segmente verwendete Code-Syntax
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
 
-# Im Segment-Ausdruck-Editor verwendete Code-Syntax {#code-syntax-used-in-the-segment-expression-editor}
+# Im Ausdruckseditor für Segmente verwendete Code-Syntax {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] können Sie Eigenschaftenregeln für ein Segment mithilfe eines Code-Editors erstellen. Klicken Sie auf die **[!UICONTROL Segment Expressions (Code View)]** Registerkarte im [!UICONTROL Traits] Bedienfeld, um auf diese Funktion zuzugreifen.
 
@@ -80,7 +80,7 @@ Legen Sie [Neuigkeits- und Häufigkeit](../../features/segments/recency-and-freq
 >[!MORELIKETHIS]
 >
 >* [Neuigkeit und Häufigkeit](../../features/segments/recency-and-frequency.md)
->* [Boolesche Ausdruck im Eigenschaften- und Segmentaufbau](../../reference/boolean-expressions-tsb.md)
+>* [Boolesche Ausdruck in Trait und Segment Builder](../../reference/boolean-expressions-tsb.md)
 >* [Arbeiten mit Vergleichsoperatoren in TraitBuilder](../../features/traits/trait-comparison-operators.md)
 >* [Reihenfolge der Vorgänge in TraitBuilder-Ausdrücken](../../features/traits/trait-operator-precedence.md)
 
