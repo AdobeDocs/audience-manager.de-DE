@@ -1,9 +1,9 @@
 ---
 description: Benutzer, die keine Administratoren sind, können ihre eigenen Profil bearbeiten, beispielsweise ihre E-Mail-Adressen ändern und ihre Kennwörter zurücksetzen.
 seo-description: Benutzer, die keine Administratoren sind, können ihre eigenen Profil bearbeiten, beispielsweise ihre E-Mail-Adressen ändern und ihre Kennwörter zurücksetzen.
-seo-title: Kontoeinstellungen bearbeiten
+seo-title: Bearbeiten Ihrer Kontoeinstellungen
 solution: Audience Manager
-title: Kontoeinstellungen bearbeiten
+title: Bearbeiten Ihrer Kontoeinstellungen
 topic: DIL API
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
 feature: Administration
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Kontoeinstellungen bearbeiten {#edit-your-account-settings}
+# Bearbeiten Ihrer Kontoeinstellungen {#edit-your-account-settings}
 
 Benutzer, die keine Administratoren sind, können ihre eigenen Profil bearbeiten, beispielsweise ihre E-Mail-Adressen ändern und ihre Kennwörter zurücksetzen.
 
