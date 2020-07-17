@@ -1,27 +1,27 @@
 ---
 description: Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an Audience Manager eingehalten werden müssen. Legen Sie die Dateinamen und -größen beim Senden von Daten an ein Audience Manager-FTP-Verzeichnis gemäß diesen Spezifikationen fest.
 seo-description: Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an Audience Manager eingehalten werden müssen. Legen Sie die Dateinamen und -größen beim Senden von Daten an ein Audience Manager-FTP-Verzeichnis gemäß diesen Spezifikationen fest.
-seo-title: Anforderungen an den FTP-Namen und die Dateigröße für eingehende Datendateien
+seo-title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datendateien
 solution: Audience Manager
-title: Anforderungen an den FTP-Namen und die Dateigröße für eingehende Datendateien
+title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datendateien
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
-# [!DNL FTP] Anforderungen an Name und Dateigröße für eingehende Datendateien {#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP]Anforderungen an Namen und Dateigrößen der über eingehenden Datendateien{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
 Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dateigrößen, die beim Senden der Daten an [!DNL Audience Manager]eingehalten werden müssen. Legen Sie die Dateinamen und -größen beim Senden von Daten an einen Audience Manager- [!DNL FTP] Ordner gemäß diesen Spezifikationen fest.
 
 >[!WARNING]
 >
->Die Unterstützung für [!DNL FTP] Konfigurationen wird schrittweise eingestellt. Während die Erfassung eingehender Datendateien in bestehenden [!DNL FTP] Integrationen weiterhin unterstützt wird, empfehlen wir dringend, Offlinedaten für neue Integrationen [!DNL Amazon S3] zu verwenden. Weitere Informationen finden Sie unter [Amazon S3-Anforderungen an Name und Dateigröße für Inbound-Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) .
+>We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Weitere Informationen finden Sie unter [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Die Tabelle definiert die Elemente in einem [!DNL FTP] Dateinamen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Gzip ist das zulässige Komprimierungsformat für einen FTP-Dateinamen. Wenn Sie die Dateikomprimierung verwenden, stellen Sie sicher, dass der Dateiname die richtige Erweiterung hat. </p> <p>Komprimierte Dateien müssen mindestens 3 GB groß sein. Falls Ihre Dateien größer sind, wenden Sie sich bitte an den Kundendienst. Obwohl Audience Manager große Dateien verarbeiten kann, können wir Ihnen möglicherweise helfen, die Dateigröße zu reduzieren und die Datenübertragung effizienter zu gestalten. Siehe <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Datei-Komprimierung für Inbound-Datenübertragungsdateien</a> . </p> </td> 
+   <td colname="col2"> <p>Gzip ist das zulässige Komprimierungsformat für einen FTP-Dateinamen. Wenn Sie die Dateikomprimierung verwenden, stellen Sie sicher, dass der Dateiname die richtige Erweiterung hat. </p> <p>Komprimierte Dateien müssen mindestens 3 GB groß sein. Falls Ihre Dateien größer sind, wenden Sie sich bitte an den Kundendienst. Obwohl Audience Manager große Dateien verarbeiten kann, können wir Ihnen möglicherweise helfen, die Dateigröße zu reduzieren und die Datenübertragung effizienter zu gestalten. Siehe <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Dateikomprimierung für eingehende Datenübertragungsdateien</a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,5 +143,5 @@ Betrachten Sie die unten stehenden Zahlen für eine schnellste/früheste Verarbe
 
 >[!MORELIKETHIS]
 >
->* [Namensanforderungen von Amazon S3 für Inbound-Datendateien](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+>* [Anforderungen an Namen der über Amazon S3 eingehenden Datendateien](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
