@@ -1,21 +1,21 @@
 ---
 description: REST-API-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
 seo-description: REST-API-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
-seo-title: API-Methoden zur Berechtigungsverwaltung
+seo-title: API-Methoden für die Berechtigungsverwaltung
 solution: Audience Manager
-title: API-Methoden zur Berechtigungsverwaltung
+title: API-Methoden für die Berechtigungsverwaltung
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 3%
+ht-degree: 14%
 
 ---
 
 
-# API-Methoden zur Berechtigungsverwaltung {#permissions-management-api-methods}
+# API-Methoden für die Berechtigungsverwaltung {#permissions-management-api-methods}
 
 Die übrigen [!DNL API] Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
 
