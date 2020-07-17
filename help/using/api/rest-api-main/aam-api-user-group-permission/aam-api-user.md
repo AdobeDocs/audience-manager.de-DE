@@ -1,21 +1,21 @@
 ---
 description: REST-API-Methoden zur Verwaltung von Benutzern, einschließlich Erstellen, Aktualisieren, Auflisten, Löschen und Zurückgeben von Benutzerobjekten.
 seo-description: REST-API-Methoden zur Verwaltung von Benutzern, einschließlich Erstellen, Aktualisieren, Auflisten, Löschen und Zurückgeben von Benutzerobjekten.
-seo-title: API-Methoden für Benutzerverwaltung
+seo-title: API-Methoden für die Benutzerverwaltung
 solution: Audience Manager
-title: API-Methoden für Benutzerverwaltung
+title: API-Methoden für die Benutzerverwaltung
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# API-Methoden für Benutzerverwaltung {#user-management-api-methods}
+# API-Methoden für die Benutzerverwaltung {#user-management-api-methods}
 
 Verwenden Sie keine [!DNL API] Methoden zum Verwalten von Benutzern, einschließlich Erstellen, Aktualisieren, Auflisten, Löschen und Zurückgeben von Benutzerobjekten.
 
