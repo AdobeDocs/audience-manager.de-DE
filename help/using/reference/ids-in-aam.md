@@ -2,21 +2,21 @@
 description: In diesem Dokument finden Sie die vollständige Liste der Adobe Audience Manager-IDs.
 keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
 seo-description: In diesem Dokument finden Sie die vollständige Liste der Adobe Audience Manager-IDs.
-seo-title: Index der IDs in Audience Manager
+seo-title: Index of IDs in Audience Manager.
 solution: Audience Manager
-title: Index der IDs in Audience Manager
+title: Index of IDs in Audience Manager.
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Index der IDs in [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
+# Index of IDs in [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
 
 ## Überblick {#overview}
 
@@ -50,7 +50,7 @@ Informationen zu den in den folgenden Beispielen verwendeten Präfixen finden Si
 
 Globale Geräte-IDs sind Anzeigen-IDs für Geräte, die für jedes Gerät einzeln vom Gerätehersteller oder vom Betriebssystem bereitgestellt werden. In der folgenden Tabelle werden die IDs und ihr Format erläutert. Weitere Informationen zu globalen Geräte-IDs und deren Verwendung finden Sie unter [!DNL Audience Manager][Globale Datenquellen](/help/using/features/global-data-sources.md).
 
-| ID | [!DNL Global Data Source ID] | Name und Beschreibung | Beispiel  |
+| ID | [!DNL Global Data Source ID] | Name und Beschreibung | Beispiel |
 | --------------------- | ------ | ------------ | ---------------- |
 | [!DNL IDFA] | 20915 | [!DNL Identifier for Advertisers] IDs sind vom Gerätehersteller bereitgestellte Identifikatoren für Mobilgeräte. Diese IDs stellen Geräte dar, auf denen das [!DNL iOS] Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Großbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen.<br> Beispiel: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
 | [!DNL GAID] | 20914 | [!DNL Google Advertising ID]s sind Mobilgerätekennungen, die von Android-Geräteherstellern bereitgestellt werden. Diese IDs stellen Geräte dar, auf denen das [!DNL Android] Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
