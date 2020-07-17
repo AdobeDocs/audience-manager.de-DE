@@ -1,23 +1,23 @@
 ---
 description: Erstellt eine partner-spezifische DIL-Instanz.
 seo-description: Erstellt eine partner-spezifische DIL-Instanz.
-seo-title: DIL erstellen
+seo-title: Erstellen einer DIL
 solution: Audience Manager
-title: DIL erstellen
+title: Erstellen einer DIL
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
 
 # DIL-Erstellungsmethode{#dil-create}
 
-## DIL erstellen {#dil-create-new}
+## Erstellen einer DIL {#dil-create-new}
 
 Erstellt eine partner-spezifische [!UICONTROL DIL] Instanz.
 
@@ -49,7 +49,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Durch diese Eigenschaft wird die Container-ID festgelegt, die von <span class="keyword">Audience Manager</span> für ID-Synchronisationen verwendet wird. Sie würden festlegen, <code> containerNSID </code> wenn <span class="wintitle"> DIL auf mehreren Sites bereitgestellt </span> wird. Jede dieser Sites verfügt über eine eigene Container-ID und ID-Synchronisierung. Wenn Sie nur eine Site haben, ist die Container-ID standardmäßig 0, und Sie müssen dies nicht korrekt festlegen. Wenden Sie sich an Ihren Berater, um eine Liste Ihrer Sites und ihrer Container-IDs zu erhalten. </p> <p>Im Identitätsdienst für <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platformen </a>entspricht die Eigenschaft <code> idSyncContainerID </code> in <code> containerNSID </code> DIL <span class="wintitle"> </span>. Beachten Sie Folgendes, wenn Sie <span class="wintitle"> DIL </span> und <i></i> den ID-Dienst über mehrere Sites hinweg verwenden: </p> <p> 
+   <td colname="col3"> <p>Durch diese Eigenschaft wird die Container-ID festgelegt, die von <span class="keyword">Audience Manager</span> für ID-Synchronisationen verwendet wird. Sie würden festlegen, <code> containerNSID </code> wenn <span class="wintitle"> DIL auf mehreren Sites bereitgestellt </span> wird. Jede dieser Sites verfügt über eine eigene Container-ID und ID-Synchronisierung. Wenn Sie nur eine Site haben, ist die Container-ID standardmäßig 0, und Sie müssen dies nicht korrekt festlegen. Wenden Sie sich an Ihren Berater, um eine Liste Ihrer Sites und ihrer Container-IDs zu erhalten. </p> <p>Im Identitätsdienst für <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platformen </a>entspricht die Eigenschaft <code> idSyncContainerID </code> in <code> containerNSID </code> DIL <span class="wintitle"> </span>. Beachten Sie Folgendes, wenn Sie <span class="wintitle"> DIL </span> und <i></i> den ID-Dienst über mehrere Sites hinweg verwenden: </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">Stellen Sie für jede Site dieselben Container-IDs ein <code> containerNSID </code> und <code> idSyncContainerID </code>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF">Sowohl <span class="wintitle"> DIL </span> als auch der ID-Dienst werden versuchen, ID-Synchronisierungen an unseren Datenerfassungs-iFrame zu senden. Der iFrame stellt jedoch sicher, dass <span class="wintitle"> DIL </span> keine ID-Synchronisierung auslöst. Dadurch wird Doppelarbeit vermieden. </li> 
@@ -66,7 +66,7 @@ r_dil_create.xml
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Ihnen vom <span class="keyword"> Audience Manager zugewiesene Datenpartner-ID </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Ihre eindeutige ID für einen Benutzer. </li> 
-    </ul> <p> <p>Wichtig:  Verwenden Sie nur nicht kodierte Werte für Ihre IDs. Ein Codieren der führt zu doppelt codierten Identifikatoren. </p> </p> <p> <p>Hinweis:  Wenn Sie den Identitätsdienst für <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platformen verwenden </a>, stellen Sie Kunden-IDs mit der <code> setCustomerIDs </code> Methode anstelle von <span class="wintitle"> DIL ein </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
+    </ul> <p> <p>Wichtig:  Verwenden Sie nur nicht kodierte Werte für Ihre IDs. Ein Codieren der führt zu doppelt codierten Identifikatoren. </p> </p> <p> <p>Hinweis:  Wenn Sie den Identitätsdienst für <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platformen verwenden </a>, stellen Sie Kunden-IDs mit der <code> setCustomerIDs </code> Methode anstelle von <span class="wintitle"> DIL ein </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -192,7 +192,7 @@ Definiert die von der `visitorService` Variablen verwendeten Eigenschaften. Dies
 |---|---|---|
 | `namespace` | Zeichenfolge | Erforderlich. Stellt die Experience Cloud-Organisations-ID dar. Dies ist für die Experience Cloud-Core-Service-Funktionalität erforderlich. Derselbe Parameter, mit dem die Besucher-ID-Funktion instanziiert wird. |
 
-**Codebeispiel:**
+**Code-Beispiel:**
 
 ```
 var vDil = DIL.create({ 
