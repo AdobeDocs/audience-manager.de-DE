@@ -9,12 +9,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Data Explorer - Überblick, Vorteile und Anwendungsfälle {#overview-benefits-and-use-cases}
+# Data Explorer – Überblick, Vorteile und Anwendungsfälle {#overview-benefits-and-use-cases}
 
 Nutzung [!UICONTROL Data Explorer] zur Nutzung historischer Audiencen durch Erstellen von Eigenschaften auf der Grundlage von verwendeten und nicht verwendeten Signalen und Aufstocken dieser Eigenschaften mit historischen Daten, um einen potenziellen Verlust relevanter Audiencen zu vermeiden.
 
