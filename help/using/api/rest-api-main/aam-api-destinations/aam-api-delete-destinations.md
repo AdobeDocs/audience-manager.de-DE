@@ -1,21 +1,21 @@
 ---
 description: DELETE- und POST-Methoden, mit denen Sie Ziele und Segmentzuordnungen entfernen können.
 seo-description: DELETE- und POST-Methoden, mit denen Sie Ziele und Segmentzuordnungen entfernen können.
-seo-title: Ziele löschen
+seo-title: Löschen von Zielen
 solution: Audience Manager
-title: Ziele löschen
+title: Löschen von Zielen
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 
-# Ziele löschen {#delete-destinations}
+# Löschen von Zielen {#delete-destinations}
 
 `DELETE` und `POST` Methoden, mit denen Sie Ziele und Segmentzuordnungen entfernen können.
 
