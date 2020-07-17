@@ -1,21 +1,21 @@
 ---
 description: Ein Schlüssel-Wert-Paar besteht aus den zugehörigen Elementen A-Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und einen Wert, bei dem es sich um eine Variable handelt, die zum Satz gehört (z. B. männlich/weiblich, grün, 100). Der Destination Builder sendet Daten, die als Schlüssel/Wert-Paare formatiert sind.
 seo-description: Ein Schlüssel-Wert-Paar besteht aus den zugehörigen Elementen A-Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und einen Wert, bei dem es sich um eine Variable handelt, die zum Satz gehört (z. B. männlich/weiblich, grün, 100). Der Destination Builder sendet Daten, die als Schlüssel/Wert-Paare formatiert sind.
-seo-title: Standard- und Serial-Key-Value-Paare
+seo-title: Standardmäßige und serialisierte Schlüssel-Wert-Paare
 solution: Audience Manager
-title: Standard- und Serial-Key-Value-Paare
+title: Standardmäßige und serialisierte Schlüssel-Wert-Paare
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Standard- und Serial-Key-Value-Paare {#standard-and-serial-key-value-pairs}
+# Standardmäßige und serialisierte Schlüssel-Wert-Paare {#standard-and-serial-key-value-pairs}
 
 Ein Schlüssel-Wert-Paar besteht aus verwandten Elementen: Ein Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und ein Wert, bei dem es sich um eine Variable handelt, die zum Datensatz gehört (z. B. männlich/weiblich, grün, 100). [!UICONTROL Destination Builder] sendet Daten, die als Schlüssel-Wert-Paare formatiert sind.
 
@@ -27,7 +27,7 @@ Voll geformt könnte ein einfacher Satz Schlüssel-Wert-Paars wie folgt aussehen
 * `color = green`
 * `price > 100`
 
-## Standard- und Serial-Key-Value-Paare {#standard-serial-key-value-pairs}
+## Standardmäßige und serialisierte Schlüssel-Wert-Paare {#standard-serial-key-value-pairs}
 
 Ziele akzeptieren Schlüsselwertdaten in *`standard`* oder *`serialized`* Format.
 
