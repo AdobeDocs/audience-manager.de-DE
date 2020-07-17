@@ -1,21 +1,21 @@
 ---
 description: Spaltenkopfbeschriftungen definiert.
 seo-description: Spaltenkopfbeschriftungen definiert.
-seo-title: Glossar zu Massenverwaltungswerkzeugen
+seo-title: Tools zur Massenverwaltung – Glossar
 solution: Audience Manager
-title: Glossar zu Massenverwaltungswerkzeugen
+title: Tools zur Massenverwaltung – Glossar
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Glossar zu Massenverwaltungswerkzeugen{#bulk-management-tools-glossary}
+# Tools zur Massenverwaltung – Glossar{#bulk-management-tools-glossary}
 
 Spaltenkopfbeschriftungen definiert.
 
@@ -99,7 +99,7 @@ Spaltenkopfbeschriftungen definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>Die eigentliche Eigenschaft oder Segmentregel, die zur Datenerfassung verwendet wird. Eine Massenanforderung gibt die Regeln zurück, die in <span class="keyword"> Audience Manager</span> mit dem <a href="../../features/traits/about-trait-builder.md"> Eigenschaftenregel-Builder</a> oder dem <a href="../../features/segments/segment-builder.md"> Segmentregelaufbau</a>erstellt wurden. Sie können diese Werkzeuge auch verwenden, um Regeln zu erstellen und sie beim Aktualisieren eines Segments oder einer Eigenschaft stapelweise anzuwenden. </p> <p>Siehe auch <a href="../../reference/bulk-management-tools/bulk-rules.md"> Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln</a>. </p> </td> 
+   <td colname="col2"> <p>Die eigentliche Eigenschaft oder Segmentregel, die zur Datenerfassung verwendet wird. Eine Massenanforderung gibt die Regeln zurück, die in <span class="keyword"> Audience Manager</span> mit dem <a href="../../features/traits/about-trait-builder.md"> Eigenschaftenregel-Builder</a> oder dem <a href="../../features/segments/segment-builder.md"> Segmentregelaufbau</a>erstellt wurden. Sie können diese Werkzeuge auch verwenden, um Regeln zu erstellen und sie beim Aktualisieren eines Segments oder einer Eigenschaft stapelweise anzuwenden. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
