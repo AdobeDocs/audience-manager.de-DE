@@ -1,20 +1,20 @@
 ---
 description: Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. Sie stellen Benutzerinteraktionen oder die Aktivität von Benutzern in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergegeben, um in Eigenschaftsregeln verwendet zu werden.
 seo-description: Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. Sie stellen Benutzerinteraktionen oder die Aktivität von Benutzern in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergegeben, um in Eigenschaftsregeln verwendet zu werden.
-seo-title: Signale verstehen
-title: Signale verstehen
+seo-title: Grundlegendes zu Signalen
+title: Grundlegendes zu Signalen
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Signale verstehen
+# Grundlegendes zu Signalen
 
 Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. Sie stellen Benutzerinteraktionen oder die Aktivität von Benutzern in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergegeben, um in Eigenschaftsregeln verwendet zu werden.
 
