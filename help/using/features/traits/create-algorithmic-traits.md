@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ In [!UICONTROL Trait Builder]diesem Abschnitt können Sie einem Merkmal ein algo
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Erstellen Sie ein Look-Alike-Modell](../../features/algorithmic-models/create-model.md).
+* [Erstellen eines Look-alike-Modells](../../features/algorithmic-models/create-model.md).
 * Warten Sie, bis die Benachrichtigungs-E-Mail, in der Sie wissen, dass die Modelldatenausführung abgeschlossen ist, gesendet wurde.
 * Füllen Sie die erforderlichen Felder im Abschnitt [Grundlegende Informationen](../../features/traits/create-onboarded-rule-based-traits.md) aus.
 
