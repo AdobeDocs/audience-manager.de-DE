@@ -1,20 +1,20 @@
 ---
 description: Optimieren Sie die Signalsuchbemühungen, indem Sie bis zu 10 Suchkriterien speichern, die Sie bei Bedarf verwenden können, und verfolgen Sie sie im Dashboard. Audience Manager lädt die gespeicherten Suchen jedes Mal neu, wenn Sie das Dashboard laden.
 seo-description: Optimieren Sie die Signalsuchbemühungen, indem Sie bis zu 10 Suchkriterien speichern, die Sie bei Bedarf verwenden können, und verfolgen Sie sie im Dashboard. Audience Manager lädt die gespeicherten Suchen jedes Mal neu, wenn Sie das Dashboard laden.
-seo-title: Suchkriterien speichern
-title: Suchkriterien speichern
+seo-title: Speichern von Suchkriterien
+title: Speichern von Suchkriterien
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Suchkriterien speichern {#save-search-criteria}
+# Speichern von Suchkriterien {#save-search-criteria}
 
 Optimieren Sie die Signalsuchbemühungen, indem Sie bis zu 10 Suchkriterien speichern, die Sie bei Bedarf verwenden können, und verfolgen Sie sie auf der [!UICONTROL Signals Dashboard]Seite. Audience Manager lädt die gespeicherten Suchvorgänge jedes Mal neu, wenn Sie die Datei laden [!UICONTROL Signals Dashboard].
 
