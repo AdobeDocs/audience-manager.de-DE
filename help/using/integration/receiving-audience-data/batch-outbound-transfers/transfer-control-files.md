@@ -1,21 +1,21 @@
 ---
 description: Transfer-Control-Dateien (.info) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
 seo-description: Transfer-Control-Dateien (.info) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
-seo-title: Übertragungssteuerungsdateien für Protokolldateitransfers
+seo-title: Übertragungssteuerungsdateien für Protokolldateiübertragungen
 solution: Audience Manager
-title: Übertragungssteuerungsdateien für Protokolldateitransfers
+title: Übertragungssteuerungsdateien für Protokolldateiübertragungen
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Übertragungssteuerungsdateien für Protokolldateitransfers {#transfer-control-files-for-log-file-transfers}
+# Übertragungssteuerungsdateien für Protokolldateiübertragungen {#transfer-control-files-for-log-file-transfers}
 
 Transfer-Control-Dateien ([!DNL .info]) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
 
