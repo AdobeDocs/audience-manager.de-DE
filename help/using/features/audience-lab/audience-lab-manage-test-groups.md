@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -74,6 +74,7 @@ To create a new [!UICONTROL Segment Test Group]:
    * Ziele werden ausgegraut, wenn sie für ein bestimmtes Testsegment basierend auf [Datenexportkontrollen](../../features/data-export-controls.md)nicht verfügbar sind.
    * Benutzer sehen nur die Ziele, auf die sie Zugriff haben, je nach der [RBAC-Benutzergruppe](../../features/administration/administration-overview.md) , zu der sie gehören.
    * Schließlich müssen Sie ein Beginn für Ihre Testgruppe auswählen. Dieses Datum kennzeichnet den Beginn des Zeitraums, in dem Ihre Testgruppe an Zielen veröffentlicht wird. Wählen Sie **Kein Enddatum** für einen unbegrenzten Vergleich der Testsegmente.
+
    >[!NOTE]
    >
    >[!UICONTROL Profile Merge Rules] mit einem authentifizierten Profil werden nur in Echtzeit-Zielen unterstützt. Wenn ein Testsegment mit einer Profil-Mergeregel dieser Konfiguration an ein dateibasiertes Server-zu-Server-Ziel gesendet wird, werden die Audiencen möglicherweise nicht aufgefüllt.
@@ -84,6 +85,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    * Überprüfen Sie die Informationen, die Sie in den vorherigen Schritten hinzugefügt haben, und wählen Sie **[!UICONTROL Finalize Group]**.
    * Denken Sie daran, dass eine Testgruppe, sobald Sie sie fertig gestellt haben, dupliziert oder gelöscht, jedoch nicht bearbeitet werden kann.
+
    >[!NOTE]
    >* Sie können die Testgruppen jederzeit im Erstellungsprozess speichern und zu einem späteren Zeitpunkt zum Assistenten zurückkehren. Der Status der Testgruppe wird angezeigt **[!UICONTROL Draft]** und die Testgruppe sendet erst dann Daten an Ziele, wenn Sie die Segmenttestgruppe fertigstellen.
    >* Bei Testentwürfen können Sie die Testgruppen durch Klicken auf **[!UICONTROL Edit]** der Testgruppenkarte in der Haupt- [!UICONTROL Audience Lab] Ansicht bearbeiten.
