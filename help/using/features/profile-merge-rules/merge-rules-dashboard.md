@@ -1,25 +1,25 @@
 ---
 description: Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. Sie können maximal 4 Profil Merge Rules erstellen.
 seo-description: Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. Sie können maximal 4 Profil Merge Rules erstellen.
-seo-title: Dashboard zum Zusammenführen von Profilen
+seo-title: Profilzusammenführungsrichtlinien-Dashboard
 solution: Audience Manager
-title: Dashboard zum Zusammenführen von Profilen
+title: Profilzusammenführungsrichtlinien-Dashboard
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Dashboard zum Zusammenführen von Profilen {#profile-merge-rules-dashboard}
+# Profilzusammenführungsrichtlinien-Dashboard {#profile-merge-rules-dashboard}
 
-Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. Sie können maximal 4 erstellen [!UICONTROL Profile Merge Rules].
+Erstellen und verwalten Sie alle Mergeregeln aus dem Dashboard. You can create a maximum of 4 [!UICONTROL Profile Merge Rules].
 
-Die vierte Profil Merge Rule ([!UICONTROL All Cross-Device Profiles]) steht nur Kunden zur Verfügung, die das [!UICONTROL People-Based Destinations] Add-On erwerben.
+Die vierte Profilzusammenführungsrichtlinie ([!UICONTROL All Cross-Device Profiles]) steht nur Kunden zur Verfügung, die das Add-on [!UICONTROL People-Based Destinations] erwerben.
 
 Das [!UICONTROL Profile Merge Rules] Dashboard bietet eine einheitliche Arbeitsfläche, mit der Sie Ihre [!UICONTROL Profile Merge Rules]Daten verwalten können. Das Dashboard befindet sich unter **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**. Ihr Dashboard für Regeln könnte dem unten gezeigten Beispiel ähnlich aussehen.
 
