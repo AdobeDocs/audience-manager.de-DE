@@ -1,9 +1,9 @@
 ---
 description: Die Detailseite für eine einzelne Eigenschaft bietet einen Überblick über Informationen wie Eigenschaftsname, ID, Leistungsmetriken, Ausdruck, die die Eigenschaft definieren, Segmente, zu denen sie gehört, und das Eigenschafts-Prüfprotokoll. Um diese Details anzuzeigen, gehen Sie zu "Audience-Daten"> "Eigenschaften"und klicken Sie auf den Namen der Eigenschaft, mit der Sie arbeiten möchten.
 seo-description: Die Detailseite für eine einzelne Eigenschaft bietet einen Überblick über Informationen wie Eigenschaftsname, ID, Leistungsmetriken, Ausdruck, die die Eigenschaft definieren, Segmente, zu denen sie gehört, und das Eigenschafts-Prüfprotokoll. Um diese Details anzuzeigen, gehen Sie zu "Audience-Daten"> "Eigenschaften"und klicken Sie auf den Namen der Eigenschaft, mit der Sie arbeiten möchten.
-seo-title: Eigenschaftendetailseite
+seo-title: Detailseite einer Eigenschaft
 solution: Audience Manager
-title: Eigenschaftendetailseite
+title: Detailseite einer Eigenschaft
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 feature: Traits
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ Der [!UICONTROL Trait Expression] Abschnitt zeigt Ihnen, welche Kriterien Benutz
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait] Segmente {#trait-segments}
+## [!UICONTROL Trait]Segmente {#trait-segments}
 
 Im [!UICONTROL Segments with this Trait] Abschnitt werden alle Segmente Liste, zu denen die Auswahl [!UICONTROL trait] gehört. Sie können auf einen Segmentnamen klicken, um Details zu diesem Segment anzuzeigen.
 
