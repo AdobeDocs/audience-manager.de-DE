@@ -1,21 +1,21 @@
 ---
 description: Eigenschaften-Builder ist eine Funktion, die die herkömmlichen pixelbasierten Datenerfassungs- und Segmentierungsprozesse verbessert. Es funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
 seo-description: Eigenschaften-Builder ist eine Funktion, die die herkömmlichen pixelbasierten Datenerfassungs- und Segmentierungsprozesse verbessert. Es funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
-seo-title: Eigenschaften-Aufbau
+seo-title: Info zu Trait Builder
 solution: Audience Manager
-title: Eigenschaften-Aufbau
+title: Info zu Trait Builder
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Eigenschaften-Aufbau {#about-trait-builder}
+# Info zu Trait Builder {#about-trait-builder}
 
 [!UICONTROL Trait Builder] ist eine Funktion, die die herkömmlichen pixelbasierten Datenerfassungs- und Segmentierungsprozesse verbessert. Es funktioniert durch die Verarbeitung von Seitendaten mit serverseitigen Regeln, die Sie in der Benutzeroberfläche erstellen.
 
