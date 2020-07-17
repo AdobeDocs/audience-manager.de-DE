@@ -1,21 +1,21 @@
 ---
 description: Eine Massenanforderung gibt Daten zurück, die Sie mit den verschiedenen Headern in den Arbeitsblättern "Aktualisieren", "Erstellen", "Schätzung"und "Löschen"verwenden können.
 seo-description: Eine Massenanforderung gibt Daten zurück, die Sie mit den verschiedenen Headern in den Arbeitsblättern "Aktualisieren", "Erstellen", "Schätzung"und "Löschen"verwenden können.
-seo-title: Massenanforderungen
+seo-title: Massenanfragen
 solution: Audience Manager
-title: Massenanforderungen
+title: Massenanfragen
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Massenanforderungen{#bulk-requests}
+# Massenanfragen{#bulk-requests}
 
 Eine Massenanforderung gibt Daten zurück, die Sie mit den verschiedenen Headern in den Arbeitsblättern &quot;Aktualisieren&quot;, &quot;Erstellen&quot;, &quot;Schätzung&quot;und &quot;Löschen&quot;verwenden können.
 
@@ -41,8 +41,9 @@ Um Massenanforderungen zu erstellen, öffnen Sie das [!UICONTROL Bulk Management
    * Abgeleitete Signale
    * Zielzuordnungen
    * Algorithmische, regelbasierte und nicht an Bord befindliche Eigenschaften
-   * Segmente
+   * Segmente 
    * Eigenschaften- und Segmentordner-IDs
+
    Die [!DNL Audience Manager] API schreibt Massendaten zurück in das [!UICONTROL Request] Arbeitsblatt.
 
 >[!NOTE]
