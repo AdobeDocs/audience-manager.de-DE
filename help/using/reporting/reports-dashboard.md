@@ -1,21 +1,21 @@
 ---
 description: Verwenden Sie das Dashboard zur Ansicht von Informationen über die individuellen Besucher Ihrer Partner, aufgeschlüsselt nach Eigenschaftsarten und Segmenten für einen bestimmten Zeitraum.
 seo-description: Verwenden Sie das Dashboard zur Ansicht von Informationen über die individuellen Besucher Ihrer Partner, aufgeschlüsselt nach Eigenschaftsarten und Segmenten für einen bestimmten Zeitraum.
-seo-title: Dashboard für Berichte
+seo-title: Berichte-Dashboard
 solution: Audience Manager
-title: Dashboard für Berichte
+title: Berichte-Dashboard
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Dashboard für Berichte {#reports-dashboard}
+# Berichte-Dashboard {#reports-dashboard}
 
 Verwenden Sie das Dashboard zur Ansicht von Informationen zu den Zahlen Ihrer individuellen Besucher, aufgeschlüsselt nach Eigenschaftsarten und Segmenten, für einen bestimmten Zeitraum.
 
