@@ -1,21 +1,21 @@
 ---
 description: In diesem Artikel werden die Vergleichsoperatoren beschrieben, die von Eigenschaften Builder verwendet werden.
 seo-description: In diesem Artikel werden die Vergleichsoperatoren beschrieben, die von Eigenschaften Builder verwendet werden.
-seo-title: Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau
+seo-title: Arbeiten mit Vergleichsoperatoren in Trait Builder
 solution: Audience Manager
-title: Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau
+title: Arbeiten mit Vergleichsoperatoren in Trait Builder
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
 
-# Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau {#working-with-comparison-operators-in-trait-builder}
+# Arbeiten mit Vergleichsoperatoren in Trait Builder {#working-with-comparison-operators-in-trait-builder}
 
 In diesem Artikel werden die Vergleichsoperatoren beschrieben, die von [!UICONTROL Trait Builder]verwendet werden.
 
@@ -56,8 +56,8 @@ Sie können Regeln mit den folgenden benannten Operatoren erstellen:
 
 >[!MORELIKETHIS]
 >
->* [Boolesche Ausdruck im Eigenschaften- und Segmentaufbau](../../reference/boolean-expressions-tsb.md)
+>* [Boolesche Ausdruck in Trait und Segment Builder](../../reference/boolean-expressions-tsb.md)
 >* [Die booleschen Ausdruck in TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Reihenfolge der Vorgänge in TraitBuilder-Ausdrücken](../../features/traits/trait-operator-precedence.md)
->* [Ausdruck mit booleschen Operatoren und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
+>* [Beispielausdrücke mit Booleschen und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
 
