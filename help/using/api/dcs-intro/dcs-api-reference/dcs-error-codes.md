@@ -1,9 +1,9 @@
 ---
 description: Fehlercodes und Meldungen, die von den Datenerfassungsservern (Data Collection Servers, DCS) erzeugt wurden, werden in numerischer Reihenfolge nach Code-ID aufgeführt.
 seo-description: Fehlercodes und Meldungen, die von den Datenerfassungsservern (Data Collection Servers, DCS) erzeugt wurden, werden in numerischer Reihenfolge nach Code-ID aufgeführt.
-seo-title: DCS-Fehlercodes, Nachrichten und Beispiele
+seo-title: DCS-Fehlercodes, Meldungen und Beispiele
 solution: Audience Manager
-title: DCS-Fehlercodes, Nachrichten und Beispiele
+title: DCS-Fehlercodes, Meldungen und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# DCS-Fehlercodes, Nachrichten und Beispiele {#dcs-error-codes-messages-and-examples}
+# DCS-Fehlercodes, Meldungen und Beispiele {#dcs-error-codes-messages-and-examples}
 
 Fehlercodes und Meldungen, die von der [!UICONTROL Data Collection Servers] ([!DNL DCS]) in numerischer Reihenfolge nach Code-ID generiert werden.
 
@@ -159,22 +159,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Blockierte Kunden-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID als bösartig identifiziert und einer Denylist hinzugefügt wurde. </p> </td> 
+   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID als bösartig identifiziert und einer Blockierungsliste hinzugefügt wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Blockierte Datenquellen-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Datenquellen-ID als bösartig identifiziert und einer Denylist hinzugefügt wurde </p> </td> 
+   <td colname="col3"> <p>Wird zurückgegeben, wenn die Datenquellen-ID als bösartig identifiziert und einer Blockierungsliste hinzugefügt wurde </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Blockierte deklarierte Geräte-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Die Geräte-ID wurde als bösartig identifiziert und zu einer Denylist hinzugefügt. Dies kann vorkommen, wenn wir eine extreme Anzahl von <span class="wintitle"> DCS</span> -Anforderungen mit dieser Geräte-ID in kurzer Zeit erhalten. </p> </td>
+   <td colname="col3"> <p>Die Geräte-ID wurde als bösartig identifiziert und zu einer Blockierungsliste hinzugefügt. Dies kann vorkommen, wenn wir eine extreme Anzahl von <span class="wintitle"> DCS</span> -Anforderungen mit dieser Geräte-ID in kurzer Zeit erhalten. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Blockierter Profil für <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Eine Lese-/Schreibaktion wurde blockiert, da eine ID als bösartig erkannt und einer Denylist hinzugefügt wurde Siehe Fehlercode 306. </p> </td> 
+   <td colname="col3"> <p>Eine Lese-/Schreibaktion wurde blockiert, da eine ID als bösartig erkannt und einer Blockierungsliste hinzugefügt wurde Siehe Fehlercode 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
@@ -245,4 +245,4 @@ Die [!DNL DCS] gibt Fehlercodes und -meldungen in einem [!DNL JSON] Objekt oder 
 
 Fehlercodes, die vom X-Header erfasst werden, werden in der URL-Zeichenfolge wie folgt angezeigt `X-Error: 101,102`.
 
-[Rassenbedingungen und Fehlerbehandlung](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
+[Wettlaufsituationen (Race Conditions) und Fehlerbehandlung](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
