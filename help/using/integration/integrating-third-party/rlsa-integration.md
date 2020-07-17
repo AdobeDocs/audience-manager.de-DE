@@ -1,21 +1,21 @@
 ---
 description: Dieser Vorgang erfordert eine AdWords-Remarketing-Liste, Pixelcode und ein Audience Manager-URL-Ziel. Es wird auch als Remarketing-Liste für die RLSA-Integration (Search Ads) bezeichnet. Gilt nur für die gebührenpflichtige Suche.
 seo-description: Dieser Vorgang erfordert eine AdWords-Remarketing-Liste, Pixelcode und ein Audience Manager-URL-Ziel. Es wird auch als Remarketing-Liste für die RLSA-Integration (Search Ads) bezeichnet. Gilt nur für die gebührenpflichtige Suche.
-seo-title: Segmente an eine Marketing-Liste für Google AdWords senden
+seo-title: Senden von Segmenten an eine Remarketing-Liste für Google AdWords
 solution: Audience Manager
-title: Segmente an eine Marketing-Liste für Google AdWords senden
+title: Senden von Segmenten an eine Remarketing-Liste für Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 0%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
 
-# Segmente an eine Remarketing-Liste für Google-Anzeigen senden {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
 Dieser Vorgang erfordert eine [!DNL Google Ads] Remarketing-Liste, Pixelcode und einen Audience Manager [!DNL URL] [!DNL destination]. Es wird auch als Remarketing-Liste für die Integration von Suchmaschinenwerbung ([!DNL RLSA]) bezeichnet. Gilt nur für die gebührenpflichtige Suche.
 
@@ -31,7 +31,7 @@ So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manag
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. In Audience Manager [erstellen Sie ein [!DNL-URL-Ziel]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie ein vorhandenes [!DNL destination]. Verwenden Sie beim Erstellen der [!DNL destination]Variablen die folgenden Einstellungen:
+1. In Audience Manager [erstellen Sie eine [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie eine vorhandene [!DNL destination]. Verwenden Sie beim Erstellen der [!DNL destination]Variablen die folgenden Einstellungen:
    * Typ: URL
    * Serialisieren: Aktiviert
    * Trennzeichen: Semikolon (;)
@@ -72,7 +72,7 @@ Eine abgeschlossene Zuordnung könnte wie folgt aussehen:
 >[!MORELIKETHIS]
 >
 >* [[!DNL-Ziele]](../../features/destinations/destinations.md)
->* [Erstellen eines [!DNL-URL-Ziels]](../../features/destinations/create-url-destination.md)
+>* [Erstellen Sie eine [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
 >* [AdWords Remarketing-Listen](https://support.google.com/adwords/answer/2472738)
 >* [Funktionsweise von AdWords Remarketing](https://support.google.com/adwords/answer/2454000)
 
