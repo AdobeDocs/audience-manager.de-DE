@@ -1,21 +1,21 @@
 ---
 description: Eigenschafts-Datenspeicherung-Ordner speichern und unterstützen Sie bei der Organisation von Eigenschaften.
 seo-description: Eigenschafts-Datenspeicherung-Ordner speichern und unterstützen Sie bei der Organisation von Eigenschaften.
-seo-title: Eigenschafts-Datenspeicherung
+seo-title: Eigenschaftsspeicherung
 solution: Audience Manager
-title: Eigenschafts-Datenspeicherung
+title: Eigenschaftsspeicherung
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Eigenschafts-Datenspeicherung {#trait-storage}
+# Eigenschaftsspeicherung {#trait-storage}
 
 Eigenschafts-Datenspeicherung-Ordner speichern und unterstützen Sie bei der Organisation von Eigenschaften.
 
@@ -39,7 +39,7 @@ So erstellen Sie einen neuen Ordner für die Datenspeicherung:
 
 1. Bewegen Sie den Mauszeiger im [!UICONTROL Trait Storage] Fenster über:
    * **[!UICONTROL All Traits]** , um einen neuen Stammordner hinzuzufügen.
-   * Ein vorhandener übergeordneter Ordner, um einen neuen untergeordneten Ordner hinzuzufügen.
+   * Ein vorhandener übergeordneter Ordner zum Hinzufügen eines neuen Untergeordnet-Ordners.
 1. Klicken Sie auf das Symbol +, um den Ordner zu erstellen.
 1. Benennen Sie den Ordner und klicken Sie auf **[!UICONTROL Save]**.
 
