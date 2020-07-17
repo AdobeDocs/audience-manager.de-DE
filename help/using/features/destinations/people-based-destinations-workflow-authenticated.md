@@ -1,20 +1,20 @@
 ---
 description: 'Diese Seite enthält eine schrittweise Anleitung zum Kombinieren von Offline-CRM-Daten mit Echtzeit-Verhaltensdaten für authentifizierte Audiencen, um diese Audiencen zu erstellen, und zum anschließenden Senden dieser Segmente an benutzerbasierte Ziele. '
 seo-description: 'Diese Seite enthält eine schrittweise Anleitung zum Kombinieren von Offline-CRM-Daten mit Echtzeit-Verhaltensdaten für authentifizierte Audiencen, um diese Audiencen zu erstellen, und zum anschließenden Senden dieser Segmente an benutzerbasierte Ziele.  '
-seo-title: Arbeitsablauf C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten
+seo-title: Workflow C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten
 solution: Audience Manager
-title: Arbeitsablauf C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten
+title: Workflow C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Arbeitsablauf C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten {#workflow-c}
+# Workflow C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten {#workflow-c}
 
 >[!IMPORTANT]
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
@@ -29,7 +29,7 @@ Je nachdem, ob es sich bei Ihren [DPUUIDs](../../reference/ids-in-aam.md) um Kle
 
 **Szenario 1: Ihre[DPUUIDs](../../reference/ids-in-aam.md)sind bereits in Kleinbuchstaben, mit Hash-E-Mail-Adressen.**
 
-In diesem Fall gehen Sie zu [Schritt 5 - Authentifizierung](#configure-authentication)benutzerdefinierter Platformen konfigurieren.
+In diesem Fall gehen Sie zu [Schritt 5 - Personenbasierte Plattformauthentifizierung](#configure-authentication)konfigurieren.
 
  
 
@@ -60,7 +60,7 @@ Sehen Sie sich das Video unten an, in dem Sie erfahren, wie Sie eine Datenquelle
 
 Um authentifizierte Benutzer für regelbasierte Eigenschaften zu qualifizieren, müssen Sie die Eigenschaftenqualifikation über [deklarierte IDs](../declared-ids.md)senden.
 
-### Beispiel 
+### Beispiel
 
 Angenommen, Sie haben die folgenden beiden Datenquellen erstellt.
 
@@ -73,7 +73,7 @@ Angenommen, Sie haben die folgenden beiden Datenquellen erstellt.
 
 Anschließend sollten Sie die unten stehenden CRM-IDs für die Eigenschaft in der Tabelle qualifizieren.
 
-| DPUUID (CRM-ID) | E-Mail-Adresse | Hash-E-Mail-Adresse | Trait- |
+| DPUUID (CRM-ID) | E-Mail-Adresse | Hash-E-Mail-Adresse | Eigenschaft |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
@@ -106,9 +106,9 @@ Im nächsten Schritt erstellen Sie eine neue Zusammenführungsregel, mit der Sie
 
 ## Schritt 4: Erstellen von Segmenten für Audiencen {#create-audience-segments}
 
-Verwenden Sie zum Erstellen neuer Segmente den [Segmentaufbau](../segments/segment-builder.md). Wenn Sie bereits Audiencen haben, an die Sie senden möchten, fahren Sie mit [!DNL People-Based Destinations]Schritt 5 - [Authentifizierung](#configure-authentication)benutzerdefinierter Platformen konfigurieren fort.
+Verwenden Sie zum Erstellen neuer Segmente den [Segmentaufbau](../segments/segment-builder.md). Wenn Sie bereits Audiencen haben, an die Sie senden möchten, fahren Sie mit [!DNL People-Based Destinations]Schritt 5 - [Personenbasierte Plattformauthentifizierung](#configure-authentication)konfigurieren fort.
 
-## Schritt 5: Personalisierte Platform konfigurieren {#configure-authentication}
+## Schritt 5: Konfiguration der Authentifizierung für benutzerbasierte Plattformen {#configure-authentication}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer sozialen Plattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
    ![people-based-integration](assets/pbd-config.png)
@@ -127,7 +127,7 @@ Verwenden Sie zum Erstellen neuer Segmente den [Segmentaufbau](../segments/segme
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]**, und klicken Sie auf **[!UICONTROL Create Destination]**.
 1. Geben Sie **[!UICONTROL Basic Information]** im Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
-   * **[!UICONTROL Category]**: Integrierte Platformen;
+   * **[!UICONTROL Category]**: Integrierte Plattformen;
    * **[!UICONTROL Type]**: Volksansässige;
    * **[!UICONTROL Platform]**: Wählen Sie die personalisierte Plattform aus, an die Sie Audiencen senden möchten.
    * **[!UICONTROL Account]**: Wählen Sie das gewünschte Advertiser-Konto aus, das mit der ausgewählten Plattform verknüpft ist.
