@@ -1,9 +1,9 @@
 ---
 description: Der Marktplatz ist der Ort, an dem Datenkäufer recherchieren und öffentliche und private Datenfeeds abonnieren. Führen Sie die folgenden Schritte aus, um einen öffentlichen Datenfeed zu abonnieren.
 seo-description: Der Marktplatz ist der Ort, an dem Datenkäufer recherchieren und öffentliche und private Datenfeeds abonnieren. Führen Sie die folgenden Schritte aus, um einen öffentlichen Datenfeed zu abonnieren.
-seo-title: Data Feed-Abonnements verwalten
+seo-title: Verwalten von Daten-Feed-Abonnements
 solution: Audience Manager
-title: Data Feed-Abonnements verwalten
+title: Verwalten von Daten-Feed-Abonnements
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Data Feed-Abonnements verwalten {#manage-data-feed-subscriptions}
+# Verwalten von Daten-Feed-Abonnements {#manage-data-feed-subscriptions}
 
 Hier [!UICONTROL Marketplace] suchen Datenkäufer und abonnieren öffentliche und private Datenfeeds. Führen Sie die folgenden Schritte aus, um einen öffentlichen Datenfeed zu abonnieren.
 
@@ -39,12 +39,14 @@ So abonnieren Sie einen öffentlichen Datenfeed:
 1. Wählen Sie in der Tabelle &quot;Abonnement&quot;eine Anwendungsszenario aus und:
    * Bewegen Sie den **[!UICONTROL Subscription]** Schieberegler nach **[!UICONTROL On]**.
    * Klicken **[!UICONTROL Review & Subscribe]**. Dadurch wird das [!UICONTROL Terms and Conditions] Fenster geöffnet.
+
    ![abonnieren](assets/subscribe3.png)
 
 1. Im [!UICONTROL Terms and Conditions] Fenster:
 
    * **Wichtig:** Lassen Sie das **[!UICONTROL ID sync]** Kontrollkästchen aktiviert. Diese Einstellung hilft, die Übereinstimmungsraten mit Ihrem Datenanbieter zu verbessern.
    * Markieren Sie das Feld &quot;Geschäftsbedingungen&quot;und klicken Sie auf **[!UICONTROL Accept]** , um den Abonnement abzuschließen.
+
    ![abonnieren](assets/subscribe4.png)
 
 ### Nächste Schritte
@@ -313,7 +315,7 @@ Mit diesem Anwendungsfall können Sie Lieferanteneigenschaften anhand Ihrer Eige
 
 ### Activation
 
-In diesem Anwendungsfall können Sie Daten an ein [Ziel](../../../features/destinations/destinations.md)senden. Ein Ziel ist [!DNL Audience Manager]ein Drittanbietersystem (Anzeigen-Server, [!DNL DSP], [!DNL DMP]Austausch usw.) , für die Sie Daten freigeben möchten. In einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
+In diesem Anwendungsfall können Sie Daten an ein [Ziel](../../../features/destinations/destinations.md)senden. Ein Ziel ist [!DNL Audience Manager]ein Drittanbietersystem (Anzeigen-Server, [!DNL DSP], [!DNL DMP]Austausch usw.) für das Sie Daten freigeben möchten. In einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
 
 >[!MORELIKETHIS]
 >
