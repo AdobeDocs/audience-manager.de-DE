@@ -1,9 +1,9 @@
 ---
 description: Der Bericht "Optimale Häufigkeit"hilft Ihnen dabei, das optimale Gleichgewicht zwischen der Anzahl der bereitgestellten Impressionen und Konversionen zu ermitteln. Damit können Sie die Anzahl der Impressionen anpassen, die angezeigt werden sollen, bevor Sie mit der Anzeige von sinkenden Renditen beginnen.
 seo-description: Der Bericht "Optimale Häufigkeit"hilft Ihnen dabei, das optimale Gleichgewicht zwischen der Anzahl der bereitgestellten Impressionen und Konversionen zu ermitteln. Damit können Sie die Anzahl der Impressionen anpassen, die angezeigt werden sollen, bevor Sie mit der Anzeige von sinkenden Renditen beginnen.
-seo-title: 'Bericht zur optimalen Häufigkeit '
+seo-title: Bericht zur optimalen Häufigkeit
 solution: Audience Manager
-title: 'Bericht zur optimalen Häufigkeit '
+title: Bericht zur optimalen Häufigkeit
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: audience optimization reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# Bericht zur optimalen Häufigkeit {#optimal-frequency-report}
+# Bericht zur optimalen Häufigkeit{#optimal-frequency-report}
 
 Der Bericht &quot;Optimale Häufigkeit&quot;hilft Ihnen dabei, das optimale Gleichgewicht zwischen der Anzahl der bereitgestellten Impressionen und Konversionen zu ermitteln. Damit können Sie die Anzahl der Impressionen anpassen, die angezeigt werden sollen, bevor Sie mit der Anzeige von sinkenden Renditen beginnen.
 
