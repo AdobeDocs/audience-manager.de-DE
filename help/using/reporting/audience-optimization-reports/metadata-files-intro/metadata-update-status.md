@@ -92,11 +92,11 @@ Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abs
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
