@@ -1,9 +1,9 @@
 ---
 description: Ein Datenfeed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds sind deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Datenfeeds unter Audience Marketplace > Meine freigegebenen Daten ein. Nur für Datenverkäufer verfügbar.
 seo-description: Ein Datenfeed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds sind deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Datenfeeds unter Audience Marketplace > Meine freigegebenen Daten ein. Nur für Datenverkäufer verfügbar.
-seo-title: Datenfeeds erstellen, bewerten und verwalten
+seo-title: Erstellen, Bewerten und Verwalten von Daten-Feeds
 solution: Audience Manager
-title: Datenfeeds erstellen, bewerten und verwalten
+title: Erstellen, Bewerten und Verwalten von Daten-Feeds
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Datenfeeds erstellen, bewerten und verwalten {#create-price-and-manage-data-feeds}
+# Erstellen, Bewerten und Verwalten von Daten-Feeds {#create-price-and-manage-data-feeds}
 
 ## Erstellen eines öffentlichen oder privaten Datenfeeds {#create-public-private-data-feed}
 
@@ -46,6 +46,7 @@ So erstellen Sie einen Datenfeed:
 1. So speichern und aktivieren Sie einen Datenfeed:
    1. Bewegen Sie den **[!UICONTROL Availability]** Schieberegler nach **[!UICONTROL Active]**.
    1. Klicken **[!UICONTROL Save]**.
+
    >[!NOTE]
    >
    >* Gespeicherte und aktivierte Datenfeeds können nicht gelöscht werden.
