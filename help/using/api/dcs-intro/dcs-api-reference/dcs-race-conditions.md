@@ -1,21 +1,21 @@
 ---
 description: Beschreibt, wie Racebedingungen und DCS-Fehlerverarbeitung verhindert werden.
 seo-description: Beschreibt, wie Racebedingungen und DCS-Fehlerverarbeitung verhindert werden.
-seo-title: Rassenbedingungen und Fehlerbehandlung
+seo-title: Wettlaufsituationen (Race Conditions) und Fehlerbehandlung
 solution: Audience Manager
-title: Rassenbedingungen und Fehlerbehandlung
+title: Wettlaufsituationen (Race Conditions) und Fehlerbehandlung
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Rassenbedingungen und Fehlerbehandlung {#race-conditions-and-error-handling}
+# Wettlaufsituationen (Race Conditions) und Fehlerbehandlung {#race-conditions-and-error-handling}
 
 Beschreibt, wie Racebedingungen und [!DNL DCS] Fehlerverarbeitung verhindert werden.
 
