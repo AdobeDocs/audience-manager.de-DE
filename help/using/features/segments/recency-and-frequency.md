@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Recency and Frequency {#recency-and-frequency}
+# Neuigkeit und Häufigkeit {#recency-and-frequency}
 
 In [!UICONTROL Segment Builder]Neuigkeit und Häufigkeit können Sie Besucher basierend auf Aktionen segmentieren, die in einem bestimmten Tagesintervall stattfinden oder sich wiederholen.
 
@@ -84,8 +84,8 @@ In [!UICONTROL Segment Builder], [!UICONTROL Recency] und [!UICONTROL Frequency]
    <td colname="col2"> <p>Sie können Frequenzanforderungen konfigurieren, <i>ohne</i> die Neuigkeitsanforderungen zu konfigurieren. Legen Sie einfach einen Frequenzwert fest und lassen Sie das Neuigkeitsfeld leer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Regeln zum Zusammenführen von Profilen</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Eigenschafts-, externe Gerätediagramme und Profil-Zusammenführungsregeln</a>. </p> </td> 
+   <td colname="col1"> <p><b>Profilzusammenführungsrichtlinien</b> </p> </td> 
+   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,5 +126,5 @@ Häufigkeitsbeschränkende Ausdruck umfassen alle Benutzer, deren Anzahl an [!UI
 >[!MORELIKETHIS]
 >
 >* [Segmentaufbau-Steuerelemente: Eigenschaftenabschnitt](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Im Segment-Ausdruck-Editor verwendete Code-Syntax](../../features/segments/segment-code-syntax.md)
+>* [Im Ausdruckseditor für Segmente verwendete Code-Syntax](../../features/segments/segment-code-syntax.md)
 
