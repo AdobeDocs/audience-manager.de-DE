@@ -1,33 +1,33 @@
 ---
-description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe der Datenwissenschaft in Echtzeit in verschiedene Personengruppen zu klassifizieren.
-seo-description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe der Datenwissenschaft in Echtzeit in verschiedene Personengruppen zu klassifizieren.
-seo-title: Übersicht über Audiencen
+description: Vorhersagekräftige Zielgruppen helfen Ihnen, unbekannte Zielgruppen mithilfe von Datenwissenschaft in Echtzeit in eindeutige Personas zu klassifizieren.
+seo-description: Vorhersagekräftige Zielgruppen helfen Ihnen, unbekannte Zielgruppen mithilfe von Datenwissenschaft in Echtzeit in eindeutige Personas zu klassifizieren.
+seo-title: Vorhersagekräftige Zielgruppen – Überblick
 solution: Audience Manager
-title: Audience Manager Predictive Audiencen
+title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# [!UICONTROL Predictive Audiences] Übersicht {#predictive-audiences}
+# [!UICONTROL Predictive Audiences] Überblick {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] hilft Ihnen, eine unbekannte Audience in Echtzeit mithilfe fortschrittlicher Datenwissenstechniken in verschiedene Personen zu klassifizieren.
 
 >[!IMPORTANT]
->Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
+>Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Please consult your own legal counsel for legal guidance.
 
-In einem Marketingkontext ist eine Audience ein Segment, das von Besuchern, Benutzern oder potenziellen Käufern definiert wird, die eine bestimmte Reihe von Eigenschaften gemeinsam haben, wie demografische Merkmale, Browsing-Gewohnheiten, Shopping-Geschichte usw.
+In einem Marketing-Kontext ist eine Persona ein Zielgruppensegment, das durch Besucher, Benutzer oder potenzielle Käufer definiert wird, die bestimmte Eigenschaften wie demografische Daten, Surfgewohnheiten, Einkaufsverlauf usw. gemeinsam haben.
 
-[!UICONTROL Predictive Audiences] Modelle gehen noch einen Schritt weiter, indem Sie die maschinellen Lernfähigkeiten von Audience Manager nutzen, um unbekannte Audiencen in verschiedene Personen zu klassifizieren. Audience Manager hilft Ihnen dabei, die Tendenz Ihrer unbekannten Erstanbieter-Audience für eine Reihe bekannter Erstanbieter-Audiencen zu berechnen.
+[!UICONTROL Predictive Audiences]-Modelle gehen noch einen Schritt weiter und ermöglichen es Ihnen, mithilfe der maschinellen Lernfunktionen von Audience Manager unbekannte Zielgruppen in eindeutige Personas zu klassifizieren. Mit Audience Manager können Sie dies erreichen, indem Sie die Neigung Ihrer unbekannten Erstanbieterzielgruppe für eine Reihe bekannter Erstanbieterzielgruppen berechnen.
 
-Wenn Sie ein [!UICONTROL Predictive Audiences] Modell erstellen, wählen Sie zunächst die Grundeigenschaften oder Segmente aus, nach denen die Audience Ihrer Zielgruppe klassifiziert werden soll. Diese Eigenschaften oder Segmente definieren Ihre Personas.
+Wenn Sie ein [!UICONTROL Predictive Audiences] Modell erstellen, wählen Sie zunächst die Grundeigenschaften oder Segmente aus, nach denen die Audience Ihrer Zielgruppe klassifiziert werden soll. These traits or segments will define your personas.
 
-Während der Bewertungsphase erstellt das Modell ein neues [!UICONTROL Predictive Audiences] Segment für jede Eigenschaft oder jedes Segment, die bzw. das Sie als Basiswert definiert haben. Wenn Audience Manager das nächste Mal einen Besucher aus Ihrer Zielgruppe-Audience sehen, der nicht für eine Persona klassifiziert ist (die für keine Ihrer Grundeigenschaften oder Segmente qualifiziert war), bestimmt das [!UICONTROL Predictive Audiences] Modell, zu welchen der Vorhersagesegmente der Besucher gehören soll, und fügt den Besucher zu diesem Segment hinzu.
+During the evaluation phase, the model creates a new [!UICONTROL Predictive Audiences] segment for each trait or segment that you defined as baseline. The next time Audience Manager sees a visitor from your target audience who is not classified for a persona  (did not qualify for any of your baseline traits or segments), the [!UICONTROL Predictive Audiences] model will determine which of the predictive segments the visitor should belong to, and add the visitor to that segment.
 
 Sie können die vom Modell erstellten prädiktiven Segmente auf der [!UICONTROL Segments] Seite identifizieren. Jedes [!UICONTROL Predictive Audiences] Modell hat einen eigenen Ordner unter dem [!UICONTROL Predictive Audiences] Ordner, und Sie können die Segmente jedes Modells sehen, indem Sie auf den Modellordner klicken.
 
@@ -79,7 +79,7 @@ Sie können beliebige Eigenschaften oder Segmente Ihrer Erstanbieter auswählen,
 * Wählen Sie Grundlinieneigenschaften oder Segmente mit minimaler Überschneidung.
 * Achten Sie darauf, dass Sie granulare Eigenschaften in allen digitalen Eigenschaften erfassen.
 
-### Auswahlkriterien für die Audience des Targets {#selection-audience}
+### Auswahlkriterien für die Audience der Zielgruppe {#selection-audience}
 
 Ähnlich wie bei der Personenauswahl sollten Sie Ihre Eigenschaft oder Ihr Segment auswählen, das Ihre Zielgruppe so definiert, dass es Echtzeit-Benutzer mit komplexen Eigenschaften zur Klassifizierung in die richtige Persona hat.
 
@@ -105,7 +105,7 @@ Bei der Auswertung von Erstanbieter-Audiencen und der Zuweisung von Ergebnissen 
 
 Berücksichtigen Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] Modelle die folgenden Überlegungen und Einschränkungen:
 
-* Sie können bis zu 10 [!UICONTROL Predictive Audiences] Modelle erstellen.
+* Sie können bis zu 10 [!UICONTROL Predictive Audiences]-Modelle erstellen.
 * Für jedes Modell können Sie bis zu 50 Basiseigenschaften/Segmente auswählen.
 * Zweiter- und Drittanbieterdaten werden derzeit nicht in unterstützt [!UICONTROL Predictive Audiences].
 * Die Audience wird nur für Erstanbieter-Audiencen in Echtzeit klassifiziert. Die Klassifizierung der integrierten Erstanbieter-Audiencen wird in zukünftigen Aktualisierungen möglicherweise unterstützt.
