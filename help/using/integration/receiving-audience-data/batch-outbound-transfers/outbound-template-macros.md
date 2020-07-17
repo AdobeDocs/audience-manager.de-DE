@@ -115,7 +115,7 @@ Makros, die zum Formatieren des Inhalts einer Datendatei verwendet werden. Codeb
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Gibt eine Liste zurück, die mehrere IDs für einen Datenpartner enthält. Dies ist nützlich, wenn Sie eine große Organisation mit mehreren Unterteilungen oder anderen Unternehmensgruppen haben, für die Sie Daten freigeben dürfen. Dieses Makro gibt eine Liste der IDs für diese untergeordneten Gruppen zurück. </p> </td> 
+   <td colname="col2"> <p>Gibt eine Liste zurück, die mehrere IDs für einen Datenpartner enthält. Dies ist nützlich, wenn Sie eine große Organisation mit mehreren Unterteilungen oder anderen Unternehmensgruppen haben, für die Sie Daten freigeben dürfen. Dieses Makro gibt eine Liste der IDs für diese Untergeordnet Gruppen zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -131,7 +131,7 @@ Makros, die zum Formatieren des Inhalts einer Datendatei verwendet werden. Codeb
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> -ID. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud ID.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
