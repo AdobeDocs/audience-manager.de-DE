@@ -1,21 +1,21 @@
 ---
 description: Ein Trendbericht gibt Trenddaten zu Eigenschaften und Segmenten zurück.
 seo-description: Ein Trendbericht gibt Trenddaten zu Eigenschaften und Segmenten zurück.
-seo-title: Trendberichte
+seo-title: Trend-Berichte
 solution: Audience Manager
-title: Trendberichte
+title: Trend-Berichte
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Trendberichte{#trend-reports}
+# Trend-Berichte{#trend-reports}
 
 Ein Trendbericht gibt Trenddaten zu Eigenschaften und Segmenten zurück.
 
@@ -86,7 +86,7 @@ Die folgenden Filter stehen zur Verfügung, wenn Sie einen Bericht ausführen [!
 
 Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
 * [!UICONTROL Total Trait Realization] ist die Gesamtzahl der anonymen Mäuse-Eigenschaften innerhalb des ausgewählten Zeitraums.
 * [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Besucher, die diese Eigenschaft auf ihrem Profil haben.
 
