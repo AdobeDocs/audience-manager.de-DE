@@ -2,21 +2,21 @@
 description: Erstellen, bearbeiten und löschen Sie Ordnereigenschaften.
 keywords: Folder Trait;Folder Traits;folder traits;folder trait
 seo-description: Erstellen, bearbeiten und löschen Sie Ordnereigenschaften.
-seo-title: Ordnereigenschaften verwalten
+seo-title: Verwalten von Ordnereigenschaften
 solution: Audience Manager
-title: Ordnereigenschaften verwalten
+title: Verwalten von Ordnereigenschaften
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
-# Ordnereigenschaften verwalten {#manage-folder-traits}
+# Verwalten von Ordnereigenschaften {#manage-folder-traits}
 
 Erstellen, bearbeiten und löschen Sie Ordnereigenschaften.
 
@@ -30,7 +30,8 @@ Eine [!UICONTROL folder trait] wird automatisch erstellt, wenn Sie einen neuen O
 1. Bewegen Sie den Mauszeiger im [!UICONTROL Trait Storage] Fenster über:
 
    * &quot;Alle Eigenschaften&quot;Text, um einen neuen Stammordner hinzuzufügen.
-   * Ein vorhandener übergeordneter Ordner, um einen neuen untergeordneten Ordner hinzuzufügen.
+   * Ein vorhandener übergeordneter Ordner zum Hinzufügen eines neuen Untergeordnet-Ordners.
+
    ![](assets/folder_traits_create.PNG)
 
 1. Klicken Sie auf das Symbol +, um den Ordner zu erstellen. Beachten Sie, dass Sie in Ihrer Taxonomie maximal 2.000 Ordner erstellen können. Weitere Informationen finden Sie in der Dokumentation zu den [Nutzungsbeschränkungen](../../features/administration/usage-limits.md).
