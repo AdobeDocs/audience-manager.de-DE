@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 
-# Startseite Ziele {#destinations-home}
+# Ziele-Homepage {#destinations-home}
 
 Die [!UICONTROL Destination] Landingpage Liste alle Ihre [!DNL URL]-, Cookie- und Server-zu-Server-Ziele. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte zu Zielen erstellen können. Die Landingpage liegt in **[!UICONTROL Audience Data > Destinations]**.
 
@@ -27,7 +27,7 @@ Die Standardeinstellung für die Landingpage Liste Ihre Ziele je nach Typ. Sie k
 
 * **Alle**: zeigt alle Zieltypen an.
 * **Adobe Experience Cloud**: zeigt Ziele, die Daten an andere Adobe Experience Cloud-Lösungen senden. Derzeit wird nur Adobe Analytics unterstützt. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
-* **Integrierte Platformen**: zeigt benutzerbasierte und gerätebasierte Ziele (auch als Server-zu-Server-Ziele bezeichnet).
+* **Integrierte Plattformen**: zeigt benutzerbasierte und gerätebasierte Ziele (auch als Server-zu-Server-Ziele bezeichnet).
 * **Benutzerdefiniert**: zeigt Cookie- und URL-Ziele an.
 
 
