@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -29,7 +29,7 @@ Diese Seite enthält nur aktuelle [Server-zu-Server-Integrationen](/help/using/f
 
 <br> 
 
-| Integration | Aktualisierung von | Segment aufheben | Empfang von IAB-TCF-Genehmigungssignalen | ICDS | Mobilgerät-IDs |
+| Integration | Aktualisierung von | Segment aufheben | Empfang von IAB-TCF-Genehmigungssignalen | ICDS | Mobilgeräte-IDs |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
 | 4C Insights | 26/09/2018 | Ja | Nein | Nein | Ja |
 | 4info | 09/02/2017 | Nein | Nein | Nein | Ja |
@@ -61,7 +61,7 @@ Diese Seite enthält nur aktuelle [Server-zu-Server-Integrationen](/help/using/f
 | Centro | 27/02/2017 | Nein | Nein | Nein | Ja |
 | ChoiceStream | 27/02/2017 | Nein | Nein | Nein | Nein |
 | Clearstream.tv | 27/02/2017 | Ja | Nein | Nein | Nein |
-| Collective AMP-Platform | 27/02/2017 | Nein | Nein | Nein | Nein |
+| Collective AMP Platform | 27/02/2017 | Nein | Nein | Nein | Nein |
 | Criteo | 27/02/2017 | Nein | Ja | Nein | Ja |
 | Kreuz | 27/02/2017 | Ja | Nein | Nein | Nein |
 | D.A.C. AudienceOne | 27/02/2017 | Ja | Nein | Nein | Nein |
@@ -117,7 +117,7 @@ Diese Seite enthält nur aktuelle [Server-zu-Server-Integrationen](/help/using/f
 | Opera Mediaworks | 13/02/2017 | Ja | Nein | Nein | Ja |
 | Gehirn | 03/04/2017 | Ja | Nein | Nein | Nein |
 | OwnerIQ | 13/02/2017 | Ja | Nein | Ja | Nein |
-| Platform 161 | 28/11/2018 | Ja | Nein | Nein | Ja |
+| Plattform 161 | 28/11/2018 | Ja | Nein | Nein | Ja |
 | PocketMath | 22/02/2017 | Ja | Nein | Nein | Ja |
 | Powerlinks | 17/05/2017 | Ja | Nein | Nein | Nein |
 | Öffentlich | 13/02/2017 | Ja | Nein | Nein | Nein |
