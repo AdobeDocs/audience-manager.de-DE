@@ -45,7 +45,7 @@ Das Einrichtungsverfahren ist jedoch in der [DoubleClick Kampagne Manager-Hilfe]
 
 1. [Abrufen einer Datendatei-URL](https://support.google.com/dcm/partner/answer/3370482?hl=en&amp;ref_topic=6107456).
 
-   Wenden Sie sich an Ihren [!DNL Google Campaign Manager] Kundenbetreuer oder Platform Solutions Consultant. Sie erhalten eine URL zu Ihren Datendateien. [!DNL Google] kann das Format für Behälter- und Dateinamen in zukünftigen Versionen ändern. Wenden Sie sich erneut an Ihren [!DNL Google Campaign Manager] Kundenbetreuer, um sicherzustellen, dass Sie die richtigen Formate verwenden.
+   Wenden Sie sich an Ihren [!DNL Google Campaign Manager] Kundenbetreuer oder Plattformlösungen-Berater. Sie erhalten eine URL zu Ihren Datendateien. [!DNL Google] kann das Format für Behälter- und Dateinamen in zukünftigen Versionen ändern. Wenden Sie sich erneut an Ihren [!DNL Google Campaign Manager] Kundenbetreuer, um sicherzustellen, dass Sie die richtigen Formate verwenden.
 
 1. [Legen Sie Behälterberechtigungen](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission)fest.
 
