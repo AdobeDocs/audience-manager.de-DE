@@ -1,21 +1,21 @@
 ---
 description: Richten Sie OpenX als Ziel ein und senden Sie Audience Manager-Segmentdaten an diese Plattform.
 seo-description: Richten Sie OpenX als Ziel ein und senden Sie Audience Manager-Segmentdaten an diese Plattform.
-seo-title: OpenX als Audience Manager-Ziel
+seo-title: OpenX als Audience Manager-Ziel
 solution: Audience Manager
-title: OpenX als Audience Manager-Ziel
+title: OpenX als Audience Manager-Ziel
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# OpenX als Audience Manager-Ziel{#openx-as-an-audience-manager-destination}
+# OpenX als Audience Manager-Ziel{#openx-as-an-audience-manager-destination}
 
 Richten Sie [!DNL OpenX] als Ziel ein und senden Sie Audience Manager-Segmentdaten an diese Plattform.
 
@@ -54,7 +54,7 @@ Erstellen Sie ein Cookie-Ziel für [!DNL OpenX] den Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-Im Audience Manager ist ein *Ziel* ein anderes System (Anzeigen-Server, [!DNL DSP]Werbungsnetzwerk usw.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Data Versand-Prozesse erstellen und verwalten können. Die Audience Manager-Zielfunktionen finden Sie unter *Audience Data > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und befolgen Sie die folgenden Schritte.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Data Versand-Prozesse erstellen und verwalten können. Die Audience Manager-Zielfunktionen finden Sie unter *Audience Data > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und befolgen Sie die folgenden Schritte.
 
 ### Schritt 1: Basisinformationen
 
