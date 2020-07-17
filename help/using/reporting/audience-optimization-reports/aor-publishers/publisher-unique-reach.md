@@ -1,25 +1,25 @@
 ---
 description: Der Bericht "Individuelle Benutzerreichweite"gibt Daten in einem Punktdiagramm zurück. Die Größe der Blasen richtet sich direkt nach der Anzahl der individuellen Benutzer Ihrer ausgewählten Werbeeinheiten. Eine größere Blase deutet auf eine größere Reichweite als eine kleinere Blase hin. Der Bericht "Individuelle Benutzerreichweite"hilft Ihnen bei der Suche nach der Werbeeinheit, die Ihre Zielnutzer am meisten erreicht.
 seo-description: Der Bericht "Individuelle Benutzerreichweite"gibt Daten in einem Punktdiagramm zurück. Die Größe der Blasen richtet sich direkt nach der Anzahl der individuellen Benutzer Ihrer ausgewählten Werbeeinheiten. Eine größere Blase deutet auf eine größere Reichweite als eine kleinere Blase hin. Der Bericht "Individuelle Benutzerreichweite"hilft Ihnen bei der Suche nach der Werbeeinheit, die Ihre Zielnutzer am meisten erreicht.
-seo-title: Eindeutige Benutzerreichweite
+seo-title: Unique User-Reichweite
 solution: Audience Manager
-title: Eindeutige Benutzerreichweite
+title: Unique User-Reichweite
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Eindeutige Benutzerreichweite{#unique-user-reach}
+# Unique User-Reichweite{#unique-user-reach}
 
 Der Bericht &quot;Individuelle Benutzerreichweite&quot;gibt Daten in einem Punktdiagramm zurück. Die Größe der Blasen richtet sich direkt nach der Anzahl der individuellen Benutzer Ihrer ausgewählten Werbeeinheiten. Eine größere Blase deutet auf eine größere Reichweite als eine kleinere Blase hin. Der Bericht &quot;Individuelle Benutzerreichweite&quot;hilft Ihnen bei der Suche nach der Werbeeinheit, die Ihre Zielnutzer am meisten erreicht.
 
-## Nutzungsszenario {#use-cases}
+## Anwendungsfall {#use-cases}
 
 Mit dem [!UICONTROL Unique User Reach] Bericht können Sie die Eigenschaften in Ihrem Portfolio identifizieren, die eine große Anzahl individueller Benutzer anziehen.
 
