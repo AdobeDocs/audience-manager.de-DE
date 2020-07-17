@@ -1,21 +1,21 @@
 ---
 description: Gibt Daten zur Anzahl der Unique Users zurück, die für alle Ihre Erstanbieter- und Drittanbieter-Eigenschaften freigegeben wurden.
 seo-description: Gibt Daten zur Anzahl der Unique Users zurück, die für alle Ihre Erstanbieter- und Drittanbieter-Eigenschaften freigegeben wurden.
-seo-title: Überschneidungsbericht zwischen Eigenschaften
+seo-title: Überlagerungsbericht zwischen Eigenschaften
 solution: Audience Manager
-title: Überschneidungsbericht zwischen Eigenschaften
+title: Überlagerungsbericht zwischen Eigenschaften
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
 
-# Überschneidungsbericht zwischen Eigenschaften{#trait-to-trait-overlap-report}
+# Überlagerungsbericht zwischen Eigenschaften{#trait-to-trait-overlap-report}
 
 Gibt Daten zur Anzahl der Unique Users zurück, die für alle Ihre Erstanbieter- und Drittanbieter-Eigenschaften freigegeben wurden.
 
@@ -119,6 +119,6 @@ Das Popup für den [!UICONTROL Trait-to-Trait Overlap] Bericht enthält die folg
 >* [Filtern von Berichtsergebnissen mit den Datenreglern](../../reporting/dynamic-reports/data-sliders.md)
 >* [In dynamischen Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Berichtssymbole und -werkzeuge erläutert](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Überschneidungsberichte: Zeitplan und Mindestsegmentgröße aktualisieren](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben und Fehlerquoten in den Berichten zu ausgewählten Audience Managern...](../../reporting/report-sampling.md)
+>* [Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten...](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)
