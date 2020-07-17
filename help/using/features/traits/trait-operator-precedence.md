@@ -1,21 +1,21 @@
 ---
 description: Eigenschaften-Builder bewertet Ausdruck nach der Reihenfolge der unten aufgeführten Vorgänge, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
 seo-description: Eigenschaften-Builder bewertet Ausdruck nach der Reihenfolge der unten aufgeführten Vorgänge, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
-seo-title: Reihenfolge der Vorgänge im Eigenschaften-Aufbau
+seo-title: Reihenfolge der Vorgänge in Trait Builder
 solution: Audience Manager
-title: Reihenfolge der Vorgänge im Eigenschaften-Aufbau
+title: Reihenfolge der Vorgänge in Trait Builder
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
 
-# Reihenfolge der Vorgänge im Eigenschaften-Aufbau {#order-of-operations-in-trait-builder}
+# Reihenfolge der Vorgänge in Trait Builder {#order-of-operations-in-trait-builder}
 
 [!UICONTROL Trait Builder] bewertet die Ausdruck nach der Reihenfolge der Vorgänge, die unten aufgeführt wird, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst bewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die Operatoren nach Priorität geordnet, von hoch bis niedrig.
 
