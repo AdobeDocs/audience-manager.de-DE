@@ -1,20 +1,20 @@
 ---
 description: Aufstockung von Eigenschaftenrealisierungen, um historische Audiencen zu erfassen und den Verlust relevanter Daten vor dem Erstellungsdatum einer Eigenschaft zu vermeiden.
 seo-description: Aufstockung von Eigenschaftenrealisierungen, um historische Audiencen zu erfassen und den Verlust relevanter Daten vor dem Erstellungsdatum einer Eigenschaft zu vermeiden.
-seo-title: Eigenschaften-Realisierungen für Aufstockungen
-title: Eigenschaften-Realisierungen für Aufstockungen
+seo-title: Aufstocken von Eigenschaftsrealisierungen
+title: Aufstocken von Eigenschaftsrealisierungen
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Eigenschaften-Realisierungen für Aufstockungen {#backfill-trait-realizations}
+# Aufstocken von Eigenschaftsrealisierungen {#backfill-trait-realizations}
 
 Aufstockung von Eigenschaftenrealisierungen, um historische Audiencen zu erfassen und den Verlust relevanter Daten vor dem Erstellungsdatum einer Eigenschaft zu vermeiden.
 
