@@ -1,31 +1,31 @@
 ---
 description: Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, die Sie zur Zielgruppe von Benutzern mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto verwenden können.
 seo-description: Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, die Sie zur Zielgruppe von Benutzern mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto verwenden können.
-seo-title: Geräte-Targeting mit Schlüsseln auf Platform
+seo-title: Geräte-Targeting mit Schlüsseln auf Plattformebene
 solution: Audience Manager
-title: Geräte-Targeting mit Schlüsseln auf Platform
+title: Geräte-Targeting mit Schlüsseln auf Plattformebene
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
+# Geräte-Targeting mit Schlüsseln auf Plattformebene {#device-targeting-with-platform-level-keys}
 
 Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, die Sie zur Zielgruppe von Benutzern mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto verwenden können.
 
-## Zweck der Variablen auf Platform {#platform-variables}
+## Zweck der Variablen auf Plattformebene {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Mithilfe von Variablen auf Platform können Sie Daten, die von einer bestimmten Site übergeben werden, für das Targeting in allen Eigenschaften Ihres [!DNL Audience Manager] Kontos nutzen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei der Schlüssel dem folgenden vorangestellt wird `d_` .
+Mit Plattformvariablen können Sie Daten, die von einer bestimmten Site übergeben wurden, aufnehmen und für das Targeting über alle Eigenschaften in Ihrem [!DNL Audience Manager] Konto hinweg verfügbar machen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei der Schlüssel dem folgenden vorangestellt wird `d_` .
 
-## Vom Benutzeragent definierte Platformen {#keys-user-agent}
+## Vom Benutzeragent definierte Schlüssel auf Plattformebene {#keys-user-agent}
 
 Die [!UICONTROL Data Collection Servers] Werte für diese Schlüssel werden aus dem [Benutzeragenten-Header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` Anforderungen extrahiert. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas] Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie aus dem Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gebräuchlichsten Schlüssel](assets/device_keys.csv)nach [!UICONTROL Device Atlas] Messungen herunter.
 
@@ -49,5 +49,5 @@ Die [!UICONTROL Data Collection Servers] Werte für diese Schlüssel werden aus 
 
 >[!MORELIKETHIS]
 >
->* [Voraussetzungen für das Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
+>* [Anforderungen an Präfixe für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
 
