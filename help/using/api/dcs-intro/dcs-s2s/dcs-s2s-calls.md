@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -50,7 +50,7 @@ Ein Beispielaufruf ähnelt dem folgenden Beispiel.
    <td colname="col2"> <p>Dieser Teil des Aufrufs enthält: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Ihr von <span class="keyword"> Audience Manager</span> zugewiesener Domänenalias (z.B. <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Die Zieldomäne, die immer <i><code> demdex.net</code></i>lautet. Siehe <a href="../../../reference/demdex-calls.md">Aufrufe an die Domäne „demdex.net“</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Die Zieldomäne, die immer <i><code> demdex.net</code></i>lautet. Siehe <a href="../../../reference/demdex-calls.md">Grundlegendes zu Aufrufen an die Domäne „demdex.net“</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -87,4 +87,4 @@ Ein Beispielaufruf ähnelt dem folgenden Beispiel.
 
 ## Beispielantwort {#sample-response}
 
-Siehe Daten [vom DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)empfangen.
+See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
