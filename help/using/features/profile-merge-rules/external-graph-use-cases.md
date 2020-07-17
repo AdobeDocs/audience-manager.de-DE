@@ -1,21 +1,21 @@
 ---
 description: Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für Unbekannte Nutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören die Adobe Experience Cloud-Gerätekooperation und andere Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagrammen von Drittanbietern verwendet.
 seo-description: Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für Unbekannte Nutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören die Adobe Experience Cloud-Gerätekooperation und andere Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagrammen von Drittanbietern verwendet.
-seo-title: Anwendungsbeispiele für Diagramme externer Geräte
+seo-title: Anwendungsfälle für externe Gerätediagramme
 solution: Audience Manager
-title: Anwendungsbeispiele für Diagramme externer Geräte
+title: Anwendungsfälle für externe Gerätediagramme
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Anwendungsbeispiele für Diagramme externer Geräte {#external-device-graph-use-cases}
+# Anwendungsfälle für externe Gerätediagramme {#external-device-graph-use-cases}
 
 Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für Unbekannte Nutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dies umfasst die [!DNL Adobe Experience Cloud Device Co-op] und andere Integrationen, die Adobe mit den deterministischen oder probabilistischen Gerätediagrammen von Drittanbietern hat.
 
@@ -24,7 +24,7 @@ Empfehlungen und Anwendungsfälle für Prospektion, Retargeting und Personalisie
 Betrachten Sie die Diagrammoptionen für Geräte [!DNL Experience Cloud Device Co-op] und Drittanbieter für Kampagnen, die:
 
 * Sie haben eine niedrige Authentifizierungsebene über ihre digitalen Eigenschaften. Verwenden Sie die [!UICONTROL Profile Link Device Graph option] , wenn Sie über eine große Anzahl authentifizierter Benutzer verfügen.
-* Target große Audiencen. Die Gerätediagramme [!DNL Experience Cloud Device Co-op] und die Diagramme von Drittanbietern enthalten authentifizierte und nicht authentifizierte Daten.
+* Zielgruppe große Audiencen. Die Gerätediagramme [!DNL Experience Cloud Device Co-op] und die Diagramme von Drittanbietern enthalten authentifizierte und nicht authentifizierte Daten.
 * Segmentieren authentifizierter und/oder nicht authentifizierter Besucher auf der Ebene des Einzelnen und des Haushalts.
 
 ![](assets/merge-rule-triangle1.png)
@@ -129,7 +129,7 @@ Mit dem **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op
 
 >[!MORELIKETHIS]
 >
->* [Anwendungsfälle für Profil Link Device Graph](profile-link-use-case.md)
->* [Allgemeine Anwendungsfälle für Profil-Zusammenführungsregeln](merge-rule-targeting-options.md)
+>* [Anwendungsfälle für das Profil-Link-Gerätediagramm](profile-link-use-case.md)
+>* [Allgemeine Anwendungsfälle für Profilzusammenführungsrichtlinien](merge-rule-targeting-options.md)
 >* [Häufig gestellte Fragen zu Profil-Zusammenführungsregeln](../../faq/faq-profile-merge.md)
 
