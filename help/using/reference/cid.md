@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}
+# CID ersetzt DPID und DPUUID{#cid-replaces-dpid-and-dpuuid}
 
 Aktualisieren Sie Ihren Code auf die Verwendung `d_cid` oder `d_cid_ic` anstelle von `d_dpid` und `d_dpuuid`. Die Variablen DPID und DPUUID funktionieren weiterhin, sollten jedoch als veraltet betrachtet werden. Dazu gehören DPID- und DPUUID-Varianten ohne die `d_ prefix`.
 
 ## DPID und DPUUID: Eine Überprüfung {#dpid-dpuuid-review}
 
-Die DPID und die DPUUID sind Schlüssel/Wert-Paare, die eine Datenanbieter-ID und eine Benutzer-ID enthalten. Diese Schlüssel/Wert-Paare verknüpfen Anbieter-IDs mit Benutzer-IDs. Sie senden Daten bei Ereignis-Aufrufen, bei eingehenden Synchronisierungs-Ereignissen und bei ID-Aufrufen ein. Ohne diese Dienste [!DNL Audience Manager]und andere Dienste oder Funktionen wäre es nicht möglich, IDs zuzuordnen und zu synchronisieren. Diese Variablen werden manchmal mit oder ohne das `d_` Präfix wie unten dargestellt ausgedrückt. Beachten Sie, dass *kursiv* im Code einen variablen Platzhalter angibt.
+Die DPID und die DPUUID sind Schlüssel/Wert-Paare, die eine Datenanbieter-ID und eine Benutzer-ID enthalten. Diese Schlüssel/Wert-Paare verknüpfen Anbieter-IDs mit Benutzer-IDs. Sie senden Daten bei Ereignis-Aufrufen, bei eingehenden Synchronisierungs-Ereignissen und bei ID-Aufrufen ein. Ohne diese Dienste [!DNL Audience Manager]und andere Dienste oder Funktionen wäre es nicht möglich, IDs zuzuordnen und zu synchronisieren. Diese Variablen werden manchmal mit oder ohne das `d_` Präfix wie unten dargestellt ausgedrückt. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -59,7 +59,7 @@ Die Schlüssel-Wert-Paare CID und CID_IC ersetzen DPID und DPUUID. Sie bieten di
 * Das =-Symbol trennt den Schlüssel von den zugehörigen Werten.
 * Das nicht druckbare ASCII-Zeichen %01 trennt die Werte.
 
-`d_cid` und `d_cid_ic` verwenden Sie die folgende Syntax. Beachten Sie, dass *kursiv* im Code einen variablen Platzhalter angibt.
+`d_cid` und `d_cid_ic` verwenden Sie die folgende Syntax. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
@@ -97,7 +97,7 @@ Die folgende Tabelle zeigt Beispiele nach Ereignistyp.
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Ereignistyp </th> 
-   <th colname="col2" class="entry"> Beispiel  </th> 
+   <th colname="col2" class="entry"> Beispiel </th> 
   </tr>
  </thead>
  <tbody> 
