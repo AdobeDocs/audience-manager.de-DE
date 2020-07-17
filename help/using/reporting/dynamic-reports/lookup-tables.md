@@ -1,21 +1,21 @@
 ---
 description: Fügen Sie Daten in die Protokolldateien des Versands Performance-Berichts in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um Dateigröße und Verarbeitungszeit zu reduzieren.
 seo-description: Fügen Sie Daten in die Protokolldateien des Versands Performance-Berichts in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um Dateigröße und Verarbeitungszeit zu reduzieren.
-seo-title: Verbessern Sie die Verarbeitungszeit für Protokolldateien mit Suchtabellen.
+seo-title: Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen
 solution: Audience Manager
-title: Verbessern Sie die Verarbeitungszeit für Protokolldateien mit Suchtabellen.
+title: Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
 
-# Verbessern Sie die Verarbeitungszeit für Protokolldateien mit Suchtabellen.{#improve-log-file-processing-times-with-lookup-tables}
+# Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen{#improve-log-file-processing-times-with-lookup-tables}
 
 Fügen Sie Daten in die Protokolldateien des Versands Performance-Berichts in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um Dateigröße und Verarbeitungszeit zu reduzieren.
 
