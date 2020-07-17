@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Überschneidungsberichte: Zeitplan und Mindestsegmentgröße aktualisieren{#overlap-reports-update-schedule-and-minimum-segment-size}
+# Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße{#overlap-reports-update-schedule-and-minimum-segment-size}
 
 Beschreibt die für den Aktualisierungsprozess des Überschneidungsberichts erforderlichen Anforderungen an die Segmentgröße und die Erstellungszeit.
 
@@ -34,7 +34,7 @@ Wenn in einem der [!UICONTROL Overlap] Berichte kein Segment angezeigt wird, kan
 <table id="table_BE2937C1FA314BBDBD1D026321D6E6B1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nutzungsszenario </th> 
+   <th colname="col1" class="entry"> Anwendungsfall </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -52,7 +52,7 @@ Wenn in einem der [!UICONTROL Overlap] Berichte kein Segment angezeigt wird, kan
 
 >[!MORELIKETHIS]
 >
->* [Überschneidungsbericht zwischen Eigenschaften](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
->* [Überschneidungsbericht zwischen Segmenten und Eigenschaften](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
->* [Überschneidungsbericht zwischen Segmenten](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
+>* [Überlagerungsbericht zwischen Eigenschaften](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
+>* [Überlagerungsbericht zwischen Segmenten und Eigenschaften](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
+>* [Überlagerungsbericht zwischen Segmenten](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
 
