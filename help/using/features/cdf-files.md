@@ -2,16 +2,16 @@
 description: Grundlegende Informationen zu CDF-Dateien (Customer Data Feed) und Anweisungen zum Einstieg. Beginn hier, wenn Sie an CDF-Dateien interessiert sind oder einfach mehr Informationen benötigen.
 keywords: second party data;2nd party;2nd party data;second party
 seo-description: Grundlegende Informationen zu CDF-Dateien (Customer Data Feed) und Anweisungen zum Einstieg. Beginn hier, wenn Sie an CDF-Dateien interessiert sind oder einfach mehr Informationen benötigen.
-seo-title: Kundendatenfeeds
+seo-title: Kundendaten-Feeds
 solution: Audience Manager
-title: Kundendatenfeeds
+title: Kundendaten-Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Grundlegende Informationen zu [!UICONTROL Customer Data Feed] ([!UICONTROL CDF])
 
 ## Dateiinhalt und Zweck {#file-contents-purpose}
 
-Eine [!UICONTROL CDF] Datei enthält dieselben Daten, die ein [!DNL Audience Manager] Ereignis-Aufruf (`/event`) an unsere Server sendet. Dazu gehören Daten wie Benutzer-IDs, [!UICONTROL trait IDs][!UICONTROL segment IDs]und alle anderen Parameter, die von einem Ereignis-Aufruf erfasst werden. Interne [!DNL Audience Manager] Systeme verarbeiten Ereignis-Daten in einer [!UICONTROL CDF] Datei, deren Inhalt in einer bestimmten Reihenfolge angeordnet ist. [!DNL Audience Manager] versucht, [!UICONTROL CDF] Dateien stündlich zu generieren und speichert sie in einem sicheren, kundenspezifischen Behälter auf einem [!DNL Amazon S3] Server. Wir stellen diese Dateien zur Verfügung, damit Sie mit [!DNL Audience Manager] Daten arbeiten können, die nicht den durch unsere Benutzeroberfläche festgelegten Beschränkungen unterliegen.
+Eine [!UICONTROL CDF]-Datei enthält dieselben Daten, die ein [!DNL Audience Manager]-Ereignisaufruf (`/event`) an unsere Server sendet. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Interne [!DNL Audience Manager] Systeme verarbeiten Ereignis-Daten in einer [!UICONTROL CDF] Datei, deren Inhalt in einer bestimmten Reihenfolge angeordnet ist. [!DNL Audience Manager] versucht, [!UICONTROL CDF] Dateien stündlich zu generieren und speichert sie in einem sicheren, kundenspezifischen Behälter auf einem [!DNL Amazon S3] Server. Wir stellen diese Dateien zur Verfügung, damit Sie mit [!DNL Audience Manager] Daten arbeiten können, die nicht den durch unsere Benutzeroberfläche festgelegten Beschränkungen unterliegen.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Es gibt keinen Self-Service-Vorgang für Beginn [!UICONTROL CDF] File Versand. C
 * Richten Sie Ihren [!DNL Amazon S3] Datenspeicherung-Behälter ein.
 * Geben Sie Ihrem Dateipaket [!DNL S3] für die Datenspeicherung schreibgeschützte Authentifizierungsberechtigungen an. Sie können keine Ordner und Dateien anderer Kunden anzeigen oder darauf zugreifen.
 
-Dateibenachrichtigungen und [!UICONTROL CDF] -dateien werden in Ihrem [!DNL S3] Bucket angezeigt, sobald sie zum Download bereit sind. Sie sind für die Überwachung und das Herunterladen von Dateien aus Ihrem zugewiesenen [!DNL S3] Verzeichnis verantwortlich. Siehe Benachrichtigungen zur Verarbeitung von [Kundendaten-Feed-Dateien](#cdf-file-processing-notifications).
+Dateibenachrichtigungen und [!UICONTROL CDF] -dateien werden in Ihrem [!DNL S3] Bucket angezeigt, sobald sie zum Download bereit sind. Sie sind für die Überwachung und das Herunterladen von Dateien aus Ihrem zugewiesenen [!DNL S3] Verzeichnis verantwortlich. Siehe [Verarbeitungsbenachrichtigungen für CDF-Dateien](#cdf-file-processing-notifications).
 
 ## Nächste Schritte {#next-steps}
 
@@ -105,7 +105,7 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die dem Site-Besucher zugewiesene <span class="keyword"> Experience Cloud</span> -ID (MID). Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>Die dem Site-Besucher zugewiesene <span class="keyword"> Experience Cloud</span> -ID (MID). Siehe auch <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -157,7 +157,7 @@ Listen und definiert die Datenstruktur einer [!UICONTROL CDF] Datei. Dazu gehör
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Anfrageparameter </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-Adresse </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (oder MID). Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Identitätsdienst für Adobe Experience Platformen</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (oder MID). See also, <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle Segmente </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle Eigenschaften </li> 
      </ol> </p> <p>Feldbeschreibungen finden Sie unter Inhalt des <a href="#cdf-defined"> Kundendatenfeeds definiert</a>. </p> </td> 
@@ -195,7 +195,7 @@ Ein typischer [!UICONTROL CDF] Dateiname enthält die unten aufgeführten Elemen
 s3://aam-cdf/YOUR-S3-BUCKET-NAME/day=yyyy-mm-dd/hour=hh/AAM-CDF-PARTNER-ID-AAM PROCESS-ID_0.gz
 ```
 
-### Beispiel 
+### Beispiel
 
 ```
 s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
@@ -307,7 +307,7 @@ Die folgenden Tabellen werden Liste und definieren die Elemente in einer [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Der Dateiname. Siehe <a href="#cdf-naming-conventions"> Benutzerdaten-Feed-Dateibenennungskonventionen</a>. </p> </td> 
+   <td colname="col2"> <p>Der Dateiname. See <a href="#cdf-naming-conventions"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 
@@ -370,5 +370,5 @@ Die folgende Tabelle enthält weitere Details zu Ihren [!UICONTROL CDF] Datei-Ze
 
 >[!MORELIKETHIS]
 >
->* [Häufig gestellte Fragen zum Kundendatenfeed](../faq/faq-cdf.md)
+>* [Häufig gestellte Fragen zu Kundendaten-Feeds](../faq/faq-cdf.md)
 
