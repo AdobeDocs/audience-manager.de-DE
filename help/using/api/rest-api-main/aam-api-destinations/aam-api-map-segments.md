@@ -1,21 +1,21 @@
 ---
 description: Ordnen Sie Ziele mit diesen RESTful-API-Methoden Segmente zu.
 seo-description: Ordnen Sie Ziele mit diesen RESTful-API-Methoden Segmente zu.
-seo-title: Segmente einem Ziel zuordnen
+seo-title: Zuordnen von Segmenten zu einem Ziel
 solution: Audience Manager
-title: Segmente einem Ziel zuordnen
+title: Zuordnen von Segmenten zu einem Ziel
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
 
-# Segmente einem Ziel zuordnen {#map-segments-to-a-destination}
+# Zuordnen von Segmenten zu einem Ziel {#map-segments-to-a-destination}
 
 Ordnen Sie mit diesen [!DNL RESTful API] Methoden Segmente Zielen zu.
 
@@ -482,7 +482,7 @@ Gibt ein Array erstellter Zuordnungen zurück.
 ]
 ```
 
-## Ziel nach Ziel-ID aktualisieren {#update-dest-data-order}
+## Update a Destination by Destination ID {#update-dest-data-order}
 
 Eine `PUT` Methode, mit der Sie ein vorhandenes Ziel aktualisieren können `destinationId`.
 
@@ -584,7 +584,7 @@ Sofern nicht anders angegeben, sind alle Anforderungswerte erforderlich.
 
 >[!MORELIKETHIS]
 >
->* [Ziele](../../../features/destinations/destinations.md)
+>* [Ziele ](../../../features/destinations/destinations.md)
 >* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Erläuterung von Seiten mit Schlüsselwert](../../../reference/key-value-pairs-explained.md)
+>* [Schlüssel-Wert-Paare – Erklärung](../../../reference/key-value-pairs-explained.md)
 
