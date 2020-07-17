@@ -1,9 +1,9 @@
 ---
 description: Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Attribute der Kampagne an Audience Manager zu senden.
 seo-description: Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Attribute der Kampagne an Audience Manager zu senden.
-seo-title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
+seo-title: Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe
 solution: Audience Manager
-title: Erfassen von Kampagnenimpressionsdaten über Pixelabrufe
+title: Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Integration with Campaign
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 20%
 ---
 
 
-# Erfassen von Kampagnenimpressionsdaten über Pixelabrufe{#capturing-campaign-impression-data-via-pixel-calls}
+# Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe{#capturing-campaign-impression-data-via-pixel-calls}
 
 Eine Methode zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Attribute der Kampagne an Audience Manager zu senden.
 
