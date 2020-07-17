@@ -1,9 +1,9 @@
 ---
 description: Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter Analytics > Onboarding Status Report. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 seo-description: Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter Analytics > Onboarding Status Report. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
-seo-title: Onboarding-Statusbericht
+seo-title: Integrationsstatusbericht
 solution: Audience Manager
-title: Onboarding-Statusbericht
+title: Integrationsstatusbericht
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: inbound and outbound reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# Onboarding-Statusbericht{#onboarding-status-report-about}
+# Integrationsstatusbericht{#onboarding-status-report-about}
 
 Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter Analytics > Onboarding Status Report. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 
@@ -124,7 +124,7 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Bezeichnungen und Be
    <td colname="col1"> <p> <b>Name der Synchronisierungsdatei</b> </p> </td> 
    <td colname="col2"> <p>Listen, die von <span class="keyword"> Audience Managern</span> von Ihnen empfangen und verarbeitet wurden, wurden als eingehende Datenquelle ausgewählt. </p> <p>Die Dateiverarbeitung schlägt fehl, wenn der Dateiname falsch formatiert ist. Die Anforderungen an den Dateinamen hängen davon ab, wie Sie diese Daten an den <span class="keyword"> Audience Manager</span>senden. Zu den Versand-Methoden zählen <span class="keyword"> Amazon S3</span> und FTP. Anweisungen zum Benennen der Dateien finden Sie unter: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Namensanforderungen von Amazon S3 für Inbound-Datendateien </a> </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Anforderungen an Namen der über Amazon S3 eingehenden Datendateien </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
