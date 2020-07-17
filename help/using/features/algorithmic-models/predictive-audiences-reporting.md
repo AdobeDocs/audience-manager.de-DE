@@ -1,20 +1,20 @@
 ---
-description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe der Datenwissenschaft in Echtzeit in verschiedene Personengruppen zu klassifizieren.
-seo-description: Predictive Audiencen helfen Ihnen, unbekannte Audiencen mithilfe der Datenwissenschaft in Echtzeit in verschiedene Personengruppen zu klassifizieren.
-seo-title: Berichte für prognostizierte Audiencen
+description: Vorhersagekräftige Zielgruppen helfen Ihnen, unbekannte Zielgruppen mithilfe von Datenwissenschaft in Echtzeit in eindeutige Personas zu klassifizieren.
+seo-description: Vorhersagekräftige Zielgruppen helfen Ihnen, unbekannte Zielgruppen mithilfe von Datenwissenschaft in Echtzeit in eindeutige Personas zu klassifizieren.
+seo-title: Berichte zu vorhersagekräftigen Zielgruppen
 solution: Audience Manager
-title: Audience Manager Predictive Audiencen
+title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Berichte für prognostizierte Audiencen
+# Berichte zu vorhersagekräftigen Zielgruppen
 
 Nachdem Sie ein [!UICONTROL Predictive Audiences] Modell gespeichert haben, trainieren Audience Manager Beginn es. Innerhalb weniger Stunden werden mit dem berechneten Modell Audiencen auf den [Datenerfassungsservern](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)analysiert. Berichte wird am folgenden Tag verfügbar sein.
 
