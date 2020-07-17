@@ -1,21 +1,21 @@
 ---
 description: Benennen Sie Ihre Metadatendatei für die Optimierung der Audience entsprechend diesen Spezifikationen.
 seo-description: Benennen Sie Ihre Metadatendatei für die Optimierung der Audience entsprechend diesen Spezifikationen.
-seo-title: Benennungskonventionen für Metadatendateien
+seo-title: Namenskonventionen für Metadatendateien
 solution: Audience Manager
-title: Benennungskonventionen für Metadatendateien
+title: Namenskonventionen für Metadatendateien
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
 
-# Benennungskonventionen für Metadatendateien{#naming-conventions-for-metadata-files}
+# Namenskonventionen für Metadatendateien{#naming-conventions-for-metadata-files}
 
 Benennen Sie Ihre Metadatendatei für die Optimierung der Audience entsprechend diesen Spezifikationen.
 
