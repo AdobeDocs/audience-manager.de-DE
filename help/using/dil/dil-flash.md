@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -125,7 +125,7 @@ Beispiele finden Sie in der Tabelle:
 
 **DIL/Analytics-Daten als nicht verwendete Signale**
 
-Audience Manager akzeptiert Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignis auch ohne entsprechende Eigenschaft. In diesem Fall sind die Daten nicht für die Erstellung von Eigenschaften verfügbar und werden stattdessen im Bericht [&quot;](../reporting/dynamic-reports/unused-signals.md) Nicht verwendete Signale&quot;angezeigt. Um diese Informationen optimal nutzen zu können, erstellen Sie Audience Manager-Eigenschaften, die mit den von der [!UICONTROL Flash DIL] Bibliothek weitergeleiteten Analytics-Daten übereinstimmen.
+Audience Manager akzeptiert Analytics [!UICONTROL Props], [!UICONTROL eVars]und Ereignis auch ohne entsprechende Eigenschaft. In diesem Fall sind die Daten nicht für die Erstellung von Eigenschaften verfügbar und werden stattdessen im Bericht &quot; [Nicht verwendete Signale&quot;angezeigt](../reporting/dynamic-reports/unused-signals.md) . Um diese Informationen optimal nutzen zu können, erstellen Sie Audience Manager-Eigenschaften, die mit den von der [!UICONTROL Flash DIL] Bibliothek weitergeleiteten Analytics-Daten übereinstimmen.
 
 ## Flash DIL ActionScript Library {#flash-dil-actionscript}
 
@@ -158,8 +158,8 @@ s.loadModule(d);
 
 >[!MORELIKETHIS]
 >
->* [Eigenschaften](../features/traits/trait-details-page.md)
+>* [Eigenschaften ](../features/traits/trait-details-page.md)
 >* [Signale, Eigenschaften und Segmente](../reference/signal-trait-segment.md)
->* [Erläuterung von Seiten mit Schlüsselwert](../reference/key-value-pairs-explained.md)
->* [Voraussetzungen für das Präfix für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
+>* [Schlüssel-Wert-Paare – Erklärung](../reference/key-value-pairs-explained.md)
+>* [Anforderungen an Präfixe für Schlüsselvariablen](../features/traits/trait-variable-prefixes.md)
 
