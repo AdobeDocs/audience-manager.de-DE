@@ -1,21 +1,21 @@
 ---
 description: Audience Manager erhält täglich eine enorme Datenmenge. Dies wirkt sich auf den Zeitraum aus, der für die Verarbeitung Ihrer Daten und die Generierung von Berichtsergebnissen benötigt wird. Der Inhalt in diesem Abschnitt beschreibt, wie sich diese Zeitintervalle auf Ihr Audience Manager-Konto auswirken. Die hier beschriebenen Zeitrahmen und Zeitpläne sind ebenfalls nur allgemeine Richtlinien. Diese Pläne stellen keine Serviceleistungsvereinbarungen (SLAs) oder Verpflichtungen im Zusammenhang mit dem Versand von Daten dar. Adobe behält sich das Recht vor, die Zeiträume und Zeitpläne jederzeit und ohne Vorankündigung zu ändern.
 seo-description: Audience Manager erhält täglich eine enorme Datenmenge. Dies wirkt sich auf den Zeitraum aus, der für die Verarbeitung Ihrer Daten und die Generierung von Berichtsergebnissen benötigt wird. Der Inhalt in diesem Abschnitt beschreibt, wie sich diese Zeitintervalle auf Ihr Audience Manager-Konto auswirken. Die hier beschriebenen Zeitrahmen und Zeitpläne sind ebenfalls nur allgemeine Richtlinien. Diese Pläne stellen keine Serviceleistungsvereinbarungen (SLAs) oder Verpflichtungen im Zusammenhang mit dem Versand von Daten dar. Adobe behält sich das Recht vor, die Zeiträume und Zeitpläne jederzeit und ohne Vorankündigung zu ändern.
-seo-title: Auswirkungen von Versand- und Dateiverarbeitungszeiten auf Berichte
+seo-title: Auswirkungen von Datenbereitstellungs- und Dateiverarbeitungszeiten auf Berichte
 solution: Audience Manager
-title: Auswirkungen von Versand- und Dateiverarbeitungszeiten auf Berichte
+title: Auswirkungen von Datenbereitstellungs- und Dateiverarbeitungszeiten auf Berichte
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Auswirkungen von Versand- und Dateiverarbeitungszeiten auf Berichte{#how-data-delivery-and-file-processing-times-affect-reports}
+# Auswirkungen von Datenbereitstellungs- und Dateiverarbeitungszeiten auf Berichte{#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager erhält täglich eine enorme Datenmenge. Dies wirkt sich auf den Zeitraum aus, der für die Verarbeitung Ihrer Daten und die Generierung von Berichtsergebnissen benötigt wird. Der Inhalt in diesem Abschnitt beschreibt, wie sich diese Zeitintervalle auf Ihr Audience Manager-Konto auswirken. Die hier beschriebenen Zeitrahmen und Zeitpläne sind ebenfalls nur allgemeine Richtlinien. Diese Pläne stellen keine Serviceleistungsvereinbarungen (SLAs) oder Verpflichtungen im Zusammenhang mit dem Versand von Daten dar. Adobe behält sich das Recht vor, die Zeiträume und Zeitpläne jederzeit und ohne Vorankündigung zu ändern.
 
@@ -42,10 +42,10 @@ In der folgenden Tabelle sind die Zeitintervalle in unseren allgemeinen und Echt
 | Dateityp | Beschreibung |
 |---|---|
 | Inbound File Ingestion (Offlinedaten) | Die Dateiverarbeitung wird zweimal täglich ausgeführt. Diese Verfahren erfassen Daten und bereiten sie für den Versand vor. Die Versand der Datei variieren, da sie von der Gesamtanzahl der zu verarbeitenden Kundendaten betroffen sind. Sie sollten eine maximale Latenz von 48 Stunden zwischen dem Zeitpunkt, zu dem die Datei in Audience Manager hochgeladen wird, und dem Zeitpunkt erwarten, zu dem die Daten für Berichte und Aktivierung verfügbar sind. |
-| Ausgehende Dateien (Export) | Die Dateiverarbeitung und der Versand erfolgt einmal täglich um etwa 14:00 Uhr UTC. Denken Sie daran, dass die Gesamtanzahl und -größe dieser Dateien Auswirkungen auf die Verarbeitung und den Versand haben. In einigen Fällen kann es zu einer Verzögerung bei der Dateiverarbeitung bis zu 24 Stunden kommen. In diesem Fall sendet Audience Manager 2 Dateien für einen bestimmten Tag anstelle von 1. In seltenen Fällen, in denen Audience Manager die Verarbeitung einer Datei ganz einstellen müssen, werden wir unsere Kunden benachrichtigen. Angesichts dieser Umstände ist es schwierig, die Versand für ausgehende Daten zu schätzen. Um festzustellen, ob Sie einen vollständigen Satz von Dateien erhalten haben, überprüfen Sie den Zeitstempel und suchen Sie nach fehlenden Tagen. Dies ist ein 13-stelliger UNIX UTC-Zeitstempel, der den Zeitpunkt der Erstellung der Datei aufzeichnet. Siehe [Ausgehende Datenübertragungen](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)in Echtzeit. |
+| Ausgehende Dateien (Export) | Die Dateiverarbeitung und der Versand erfolgt einmal täglich um etwa 14:00 Uhr UTC. Denken Sie daran, dass die Gesamtanzahl und -größe dieser Dateien Auswirkungen auf die Verarbeitung und den Versand haben. In einigen Fällen kann es zu einer Verzögerung bei der Dateiverarbeitung bis zu 24 Stunden kommen. In diesem Fall sendet Audience Manager 2 Dateien für einen bestimmten Tag anstelle von 1. In seltenen Fällen, in denen Audience Manager die Verarbeitung einer Datei ganz einstellen müssen, werden wir unsere Kunden benachrichtigen. Angesichts dieser Umstände ist es schwierig, die Versand für ausgehende Daten zu schätzen. Um festzustellen, ob Sie einen vollständigen Satz von Dateien erhalten haben, überprüfen Sie den Zeitstempel und suchen Sie nach fehlenden Tagen. Dies ist ein 13-stelliger UNIX UTC-Zeitstempel, der den Zeitpunkt der Erstellung der Datei aufzeichnet. See [Real-Time Outbound Data Transfers](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Protokolldateien des Anzeigenservers | Die Dateiverarbeitung wird in Echtzeit ausgeführt, um Protokolldateidatensätze zu erfassen, sobald die stündlichen Dateien bereit sind. Der Vorgang zum Vorbereiten der Dateien für den Berichte wird einmal täglich ausgeführt. Die Versand der Datei variieren, da sie von der Gesamtanzahl der zu verarbeitenden Kundendaten betroffen sind. Sie sollten eine maximale Latenz von 48 Stunden zwischen dem Zeitpunkt, zu dem Sie die Datei in den Audience Manager hochladen, und dem Zeitpunkt erwarten, zu dem die Daten für Berichte und Aktivierung verfügbar sind. |
 
 >[!MORELIKETHIS]
 >
->* [Häufig gestellte Fragen zur Ingestion von Inbound-Kundendaten](../faq/faq-inbound-data-ingestion.md)
+>* [Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten](../faq/faq-inbound-data-ingestion.md)
 
