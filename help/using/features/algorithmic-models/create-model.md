@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Look-Alike-Modell erstellen {#create-an-algorithmic-model}
+# Erstellen eines Look-alike-Modells {#create-an-algorithmic-model}
 
 Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie eine [!UICONTROL Look-Alike Model]erstellen können.
 
