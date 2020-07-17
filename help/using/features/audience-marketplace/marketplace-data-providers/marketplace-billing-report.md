@@ -1,9 +1,9 @@
 ---
 description: Erstellen Sie einen Audience Marketplace-Abrechnungsbericht, um die Nutzung von Ansichten-Datenfeeds für den Vormonat für jeden Ihrer Abonnenten zu ermöglichen. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
 seo-description: Erstellen Sie einen Audience Marketplace-Abrechnungsbericht, um die Nutzung von Ansichten-Datenfeeds für den Vormonat für jeden Ihrer Abonnenten zu ermöglichen. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
-seo-title: Rechnungsstellung für Datenfeed-Anbieter
+seo-title: Abrechnung für Daten-Feed-Anbieter
 solution: Audience Manager
-title: Rechnungsstellung für Datenfeed-Anbieter
+title: Abrechnung für Daten-Feed-Anbieter
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Rechnungsstellung für Datenfeed-Anbieter {#billing-for-data-feed-providers}
+# Abrechnung für Daten-Feed-Anbieter {#billing-for-data-feed-providers}
 
 Erstellen Sie einen [!DNL Audience Marketplace] Rechnungsbericht zur Ansicht der Datenfeed-Nutzung für den Vormonat für jeden Ihrer Abonnenten. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
 
