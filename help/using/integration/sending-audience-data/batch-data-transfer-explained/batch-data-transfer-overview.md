@@ -2,21 +2,21 @@
 description: Eine Übersicht für technische und nicht-technische Kunden, die Daten aus anderen Systemen (offline) in den Audience Manager bringen möchten.
 keywords: inbound, batch, batch upload, batch data
 seo-description: Eine Übersicht für technische und nicht-technische Kunden, die Daten aus anderen Systemen (offline) in den Audience Manager bringen möchten. Verwenden Sie dazu die Option zum Hochladen von Stapeln in Audience Manager.
-seo-title: Stapeldaten an Audience Manager senden - Übersicht
+seo-title: Senden von Batch-Daten an Audience Manager – Überblick
 solution: Audience Manager
-title: Stapeldaten an Audience Manager senden - Übersicht
+title: Senden von Batch-Daten an Audience Manager – Überblick
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Stapeldaten an [!DNL Audience Manager] Übersicht senden {#send-batch-data-to-audience-manager-overview}
+# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
 
 Eine Übersicht für technische und nicht-technische Kunden, die Daten von anderen Systemen (offline) in [!DNL Audience Manager]einbringen möchten.
 
@@ -40,7 +40,7 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 
 Dateinamen und Inhalte folgen strikten Richtlinien. Sie *müssen* Datendateien entsprechend den Spezifikationen in diesem Handbuch benennen und organisieren. Siehe:
 
-* [Namensanforderungen von Amazon S3 für Inbound-Datendateien](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Anforderungen an Namen der über Amazon S3 eingehenden Datendateien](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * [Inhalt der eingehenden Datendatei: Syntax, Variablen und Beispiele](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Online-Daten stehen für Offline-Marketingbemühungen zur Verfügung
@@ -56,7 +56,7 @@ Wenn Sie Offlinedaten online stellen, können Sie diese Informationen weiterhin 
   <tr> 
    <th colname="col1" class="entry"> Umgebung </th> 
    <th colname="col02" class="entry"> Diensleistung </th> 
-   <th colname="col2" class="entry"> Position </th> 
+   <th colname="col2" class="entry"> Standort </th> 
   </tr> 
  </thead>
  <tbody> 
