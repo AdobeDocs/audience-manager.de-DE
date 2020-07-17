@@ -1,21 +1,21 @@
 ---
 description: Gibt Daten zur Anzahl der Unique Users zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
 seo-description: Gibt Daten zur Anzahl der Unique Users zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
-seo-title: Überschneidungsbericht zwischen Segmenten und Eigenschaften
+seo-title: Überlagerungsbericht zwischen Segmenten und Eigenschaften
 solution: Audience Manager
-title: Überschneidungsbericht zwischen Segmenten und Eigenschaften
+title: Überlagerungsbericht zwischen Segmenten und Eigenschaften
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Überschneidungsbericht zwischen Segmenten und Eigenschaften{#segment-to-trait-overlap-report}
+# Überlagerungsbericht zwischen Segmenten und Eigenschaften{#segment-to-trait-overlap-report}
 
 Gibt Daten zur Anzahl der Unique Users zurück, die zwischen einer bestimmten Eigenschaft und einem ganzen Segment freigegeben wurden.
 
@@ -73,7 +73,7 @@ Wenn Sie sich die Überschneidung zwischen Eigenschaften und Segmenten ansehen, 
 <table id="table_5B211EF95216426299EB20253A5A9C1B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nutzungsszenario </th> 
+   <th colname="col1" class="entry"> Anwendungsfall </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr>
  </thead>
@@ -99,12 +99,12 @@ r_s2t_sliders.xml
 
  -->
 
-Mit dem [!UICONTROL Segment-to-Trait overlap] Bericht können Sie zwei Schieberegler verwenden, um Daten nach der Überschneidung % nach Eigenschaften oder Segment zu filtern.
+Im [!UICONTROL Segment-to-Trait overlap] Bericht können Sie zwei Schieberegler verwenden, um Daten nach der Überschneidung % nach Eigenschaften oder Segment zu filtern.
 
 * **[!UICONTROL Filter Trait Uniques %:]** Daten zu Filtern nach % der eindeutigen Besucher, die zwischen der Eigenschaft und dem Segment freigegeben wurden.
 * **[!UICONTROL Filter Segment Uniques Overlap %:]** Daten zu Filtern nach dem Prozentsatz der Unique Besuchers, die zwischen dem Segment und der Eigenschaft gemeinsam genutzt werden.
 
-### Beispiel 
+### Beispiel
 
 Die folgende Abbildung zeigt die Differenz zwischen den individuellen Eigenschaften % und dem Segment %. In diesem Fall weisen die Eigenschaften und Segmente 3 eindeutige Besucher auf. Proportionen:
 
@@ -185,6 +185,6 @@ Das Popup für den [!UICONTROL Segment-to-Trait Overlap] Bericht enthält die fo
 >* [Filtern von Berichtsergebnissen mit den Datenreglern](../../reporting/dynamic-reports/data-sliders.md)
 >* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Berichtssymbole und -werkzeuge erläutert](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Überschneidungsberichte: Zeitplan und Mindestsegmentgröße aktualisieren](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben und Fehlerquoten in den Berichten zu ausgewählten Audience Managern...](../../reporting/report-sampling.md)
+>* [Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten...](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)
