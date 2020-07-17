@@ -1,21 +1,21 @@
 ---
 description: Bei jeder Verarbeitung einer eingehenden Server-zu-Server-Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
 seo-description: Bei jeder Verarbeitung einer eingehenden Server-zu-Server-Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
-seo-title: Musternachricht an Partner nach der eingehenden Verarbeitung
+seo-title: Beispielnachricht an Partner nach der eingehenden Verarbeitung
 solution: Audience Manager
-title: Musternachricht an Partner nach der eingehenden Verarbeitung
+title: Beispielnachricht an Partner nach der eingehenden Verarbeitung
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Musternachricht an Partner nach der eingehenden Verarbeitung{#sample-message-to-partners-after-inbound-processing}
+# Beispielnachricht an Partner nach der eingehenden Verarbeitung{#sample-message-to-partners-after-inbound-processing}
 
 Bei jeder Verarbeitung einer eingehenden [!UICONTROL Server-to-Server] Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
 
