@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -59,6 +59,6 @@ Sie können Ihre eigenen Regeln auch außerhalb von schreiben [!UICONTROL Rule B
 
 * [Arbeiten mit Vergleichsoperatoren im Eigenschaften-Aufbau](../../features/traits/trait-comparison-operators.md)
 * [Reihenfolge der Vorgänge](../../features/traits/trait-operator-precedence.md)
-* [Voraussetzungen für das Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
-* [Ausdruck mit booleschen Operatoren und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
+* [Anforderungen an Präfixe für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
+* [Beispielausdrücke mit Booleschen und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
 
