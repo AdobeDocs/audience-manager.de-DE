@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 76%
 
 Eine optionale boolesche Konfiguration, die festlegt, ob DIL Daten an die Adobe Experience Cloud-Gerätekooperation sendet oder nicht.
 
-## Voraussetzungen {#requirements}
+## Anforderungen {#requirements}
 
 To use `isCoopSafe` you must:
 
 * Verwenden Sie [!UICONTROL DIL] v6.11 oder höher.
-* Teilnahme an der [Experience Cloud-Gerätekooperation](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). Zukünftige Mitglieder der Gerätekooperation sollten diese Dokumentation ebenfalls lesen, um festzustellen, ob `isCoopSafe` mögliche Fragen über die Verwendung der Daten zur Erstellung eines Gerätediagramms beantwortet.
+* Teilnahme an der [Experience Cloud-Gerätekooperation](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html). Zukünftige Mitglieder der Gerätekooperation sollten diese Dokumentation ebenfalls lesen, um festzustellen, ob `isCoopSafe` mögliche Fragen über die Verwendung der Daten zur Erstellung eines Gerätediagramms beantwortet.
 
 * Work with your [!DNL Adobe] consultant to set an allowlist or a denylist flag on your Device Co-op account. Es gibt keinen Selbstbedienungspfad, um diese Flags zu aktivieren.
 
@@ -35,7 +35,7 @@ To use `isCoopSafe` you must:
 <table id="table_A24C63D2A21F47EDBAC8FA5E7BE888D8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nutzungsszenario </th> 
+   <th colname="col1" class="entry"> Anwendungsfall </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -65,7 +65,7 @@ Die booleschen Optionen bestimmen, ob Kundendaten von der Gerätekooperation ver
 
 * `isCoopSafe: false`: Von einem Mobile-SDK oder einer Website erfasste Besucherdaten *können nicht* zur Erstellung des Gerätediagramms verwendet werden.
 
-**Codebeispiel**
+**Code-Beispiel**
 
 Legen Sie dies fest, wenn DIL instanziiert.
 
