@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Beschriebener Datenübertragungsprozess in Echtzeit{#real-time-data-transfer-process-described}
+# Real-Time Data Transfer Process Described{#real-time-data-transfer-process-described}
 
 Eine allgemeine Übersicht darüber, wie Audience Manager Datenübertragungen in Echtzeit mit einem Content Provider eines Drittanbieters durchführt.
 
