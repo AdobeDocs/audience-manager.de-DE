@@ -1,20 +1,20 @@
 ---
 description: In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche des Audience Managers konfigurieren.
 seo-description: In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche des Audience Managers konfigurieren.
-seo-title: Neue gerätebasierte Ziele Hinzufügen
+seo-title: Hinzufügen neuer gerätebasierter Ziele
 solution: Audience Manager
-title: Neue gerätebasierte Ziele Hinzufügen
+title: Hinzufügen neuer gerätebasierter Ziele
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Neue gerätebasierte Ziele Hinzufügen {#add-new-device-based-destinations}
+# Hinzufügen neuer gerätebasierter Ziele {#add-new-device-based-destinations}
 
 In diesem Artikel wird beschrieben, wie Sie neue gerätebasierte Ziele über die Benutzeroberfläche des Audience Managers konfigurieren.
 
@@ -30,7 +30,7 @@ Der Prozess zum Hinzufügen eines neuen gerätebasierten Ziels besteht aus zwei 
 
 Wenden Sie sich beim Erstellen des ersten gerätebasierten Ziels mit einer integrierten Plattform an den Adobe Consulting oder den Kundendienst, um die ID-Synchronisierung zwischen Audience Manager und der integrierten Kontoplattform zu aktivieren. Dies ist für die korrekte Synchronisierung zwischen Audience Manager und der Zielplattform erforderlich.
 
-## Schritt 1. Authentifizierung mit einer Ziel-Platform {#step1}
+## Schritt 1. Authentifizierung mit einer Zielplattform {#step1}
 
 Bevor Sie ein neues gerätebasiertes Ziel erstellen können, müssen Sie die Integration zwischen Audience Manager und der Zielplattform konfigurieren. So geht das:
 
