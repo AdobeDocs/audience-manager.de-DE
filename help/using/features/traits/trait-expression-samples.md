@@ -1,21 +1,21 @@
 ---
 description: Beispiele für das Erstellen von Ausdrücken im Ausdruck Builder-Codeeditor.
 seo-description: Beispiele für das Erstellen von Ausdrücken im Ausdruck Builder-Codeeditor.
-seo-title: Ausdruck mit booleschen Operatoren und Vergleichsoperatoren
+seo-title: Beispielausdrücke mit Booleschen und Vergleichsoperatoren
 solution: Audience Manager
-title: Ausdruck mit booleschen Operatoren und Vergleichsoperatoren
+title: Beispielausdrücke mit Booleschen und Vergleichsoperatoren
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
 
-# Ausdruck mit booleschen Operatoren und Vergleichsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
+# Beispielausdrücke mit Booleschen und Vergleichsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
 
 Beispiele für das Erstellen von Ausdrücken im [!UICONTROL Expression Builder] Code-Editor.
 
