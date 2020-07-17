@@ -1,21 +1,21 @@
 ---
 description: Die Segmentierung beschreibt Prozesse, die Geräte-Profil deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Profil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profil Merge Rule verwendet wird.
 seo-description: Die Segmentierung beschreibt Prozesse, die Geräte-Profil deaktivieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Profil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profil Merge Rule verwendet wird.
-seo-title: Profil Merge Rules and Device Un Segmentation Processes
+seo-title: Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung
 solution: Audience Manager
-title: Profil Merge Rules and Device Un Segmentation Processes
+title: Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Profil Merge Rules and Device Un Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
+# Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung {#profile-merge-rules-and-device-un-segmentation-processes}
 
 Die Segmentierung beschreibt Prozesse, die Geräte-Profil deaktivieren und aus Segmenten entfernen. Die Fähigkeit, ein Profil aus einem Segment zu entfernen, hängt von der Geräteoption ab, mit der ein Segment erstellt wurde [!UICONTROL Profile Merge Rule].
 
@@ -51,6 +51,6 @@ Zur Erinnerung: Die [!UICONTROL Device Options] sind im Abschnitt verfügbar, we
 
 >[!MORELIKETHIS]
 >
->* [Häufig gestellte Fragen zu Profil Merge Rules and Device Graph](../../faq/faq-profile-merge.md)
+>* [Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zum Gerätediagramm](../../faq/faq-profile-merge.md)
 >* [Sofortige geräteübergreifende Unterdrückung](instant-cross-device-suppression.md)
 
