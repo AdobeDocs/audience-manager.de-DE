@@ -27,7 +27,7 @@ ht-degree: 15%
 
 Die technischen Details der Echtzeit-Segmentierung werden ausführlich in den [Profil-Zusammenführungsregeln und den Device-Aufhebung-Segmentierungsprozessen](merge-rule-unsegment.md)beschrieben. Lesen Sie weiter für die praktische Umsetzung der oben beschriebenen Anwendungsfälle.
 
-## Nach der Konvertierung kein Target mehr {#do-not-target-once}
+## Nach der Konvertierung keine Zielgruppe durchführen {#do-not-target-once}
 
 Vergewissern Sie sich, dass Ihre Benutzer, die bereits konvertiert haben (ein Produkt gekauft, ein Abonnement gekauft usw.) wird nicht die gleiche Meldung angezeigt wie vor der Konvertierung. Sie können dies mithilfe der [!UICONTROL AND NOT] folgenden Logik abrufen.
 
@@ -38,7 +38,7 @@ Ihre Besucher qualifizieren sich für das Segment, solange sie nicht konvertiert
 
 ![](assets/and_not_use_case.png)
 
-## Kein Target nach x Impressionen {#do-not-target-after-x}
+## Nach x Impressionen nicht Zielgruppe {#do-not-target-after-x}
 
 Sie können sicherstellen, dass Ihre Benutzer nicht mit demselben kreativen Element überschwemmt werden, indem Sie die Neuigkeits- und Häufigkeitseinstellungen festlegen. Erstellen Sie in diesem Szenario ein Segment mit zwei Eigenschaften, wie in den folgenden Schritten beschrieben.
 
