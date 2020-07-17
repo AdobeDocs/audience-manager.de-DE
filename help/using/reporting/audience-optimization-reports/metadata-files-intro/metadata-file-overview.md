@@ -1,21 +1,21 @@
 ---
 description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zur Optimierung der Audience zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
 seo-description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zur Optimierung der Audience zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
-seo-title: Übersicht und Zuordnungen für Metadatendateien
+seo-title: Überblick und Zuordnungen für Metadatendateien
 solution: Audience Manager
-title: Übersicht und Zuordnungen für Metadatendateien
+title: Überblick und Zuordnungen für Metadatendateien
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Übersicht und Zuordnungen für Metadatendateien{#overview-and-mappings-for-metadata-files}
+# Überblick und Zuordnungen für Metadatendateien{#overview-and-mappings-for-metadata-files}
 
 Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zur Optimierung der Audience zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
 
@@ -63,7 +63,7 @@ In der folgenden Tabelle werden die Schlüssel-Wert-Paare mit den von den [!UICO
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Advertiser </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dies ist die Datenquelle-ID oder der Integrationscode des Advertisers, die bzw. der beim Erstellen einer Datenquelle bereitgestellt wird. Siehe <a href="../../../features/manage-datasources.md#create-data-source"> Datenquelle</a>erstellen. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dies ist die Datenquelle-ID oder der Integrationscode des Advertisers, die bzw. der beim Erstellen einer Datenquelle bereitgestellt wird. See <a href="../../../features/manage-datasources.md#create-data-source"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Business Unit (BU) </p> </td> 
@@ -126,7 +126,7 @@ In einem Dateinamen:
 
 ![](assets/metadata_file_name.png)
 
-Siehe [Benennungskonventionen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Dateiinhalt
 
@@ -134,15 +134,15 @@ In diesem Beispiel spiegeln die Dateiinhalte die kreativen IDs und Kampagnen-IDs
 
 ![](assets/metadata_file_contents.png)
 
-Siehe [Inhaltsformat für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
+See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### File Versand
 
-Nachdem Sie einer Datenspeicherung einen Namen gegeben und Daten hinzugefügt haben, senden Sie diese an einen Amazon S3-Ordner, der von [!DNL Audience Manager]bereitgestellt wird. Siehe [Versand-Methoden für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Nachdem Sie einer Datenspeicherung einen Namen gegeben und Daten hinzugefügt haben, senden Sie diese an einen Amazon S3-Ordner, der von [!DNL Audience Manager]bereitgestellt wird. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
 >* [Datendateien für Berichte zur Optimierung der Audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [Erfassen von Kampagnen-Klickdaten über Pixelaufrufe](../../../integration/media-data-integration/click-data-pixels.md)
->* [Erfassen von Kampagnenimpressionsdaten über Pixelabrufe](../../../integration/media-data-integration/impression-data-pixels.md)
+>* [Erfassen von Kampagnenklickdaten über Pixelaufrufe](../../../integration/media-data-integration/click-data-pixels.md)
+>* [Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe](../../../integration/media-data-integration/impression-data-pixels.md)
 
