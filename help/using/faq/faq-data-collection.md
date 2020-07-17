@@ -38,13 +38,13 @@ Eigenschaften, die über [!UICONTROL Inbound] integriert wurden, werden von [!UI
 
 <br> 
 
-**Können Sie mir eine Liste von IP-Adressen geben, die ich zu einer zulassungsliste für dpm.demdex.net hinzufügen kann?**
+**Können Sie mir eine Liste von IP-Adressen geben, die ich zu einer Zulassungsliste für dpm.demdex.net hinzufügen kann?**
 
 Leider ist das nicht möglich. Diese IPs werden dynamisch nach geografischen Regionen über [!DNL Amazon Web Services] zugewiesen. Infolgedessen hat [!DNL Audience Manager] keine Kontrolle über den Bereich der IPs, die dieser Adresse zugewiesen werden können.
 
 <br> 
 
-**Können Sie mir eine IP-Adresse angeben, die ich zu einer zulassungsliste für Ihren eingehenden und ausgehenden sFTP-Server hinzufügen kann?**
+**Können Sie mir eine IP-Adresse angeben, die ich zu einer Zulassungsliste für Ihren eingehenden und ausgehenden sFTP-Server hinzufügen kann?**
 
 Ja, siehe unten.
 
