@@ -2,16 +2,16 @@
 description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften gelten.
 keywords: create trait;create traits
 seo-description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften gelten.
-seo-title: Erstellen regelbasierter oder Onboarded-Eigenschaften
+seo-title: Erstellen regelbasierter oder integrierter Eigenschaften
 solution: Audience Manager
-title: Erstellen regelbasierter oder Onboarded-Eigenschaften
+title: Erstellen regelbasierter oder integrierter Eigenschaften
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -52,7 +52,7 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
       </ul> </p> </p> <p>Auf diese Weise können Sie Verarbeitungsfehler beim Einrichten einer <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> eingehenden Datendateitransaktion</a>reduzieren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol">Beschreibung</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Beschreibung</span></b> </td> 
    <td colname="col2"> Ein paar Worte, die helfen, den Zweck oder die Funktion der Eigenschaft zu beschreiben. Optional. </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
    <td colname="col2"> Weist die Eigenschaft einem Typ oder einer Kategorie zu, in der Regel entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Ansicht der Seite usw.). Optional. <p> Weitere Informationen zum Erstellen von Konversionseigenschaften finden Sie im Video <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Erstellen von Konversionseigenschaften in Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Integrationscode</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Integrations-Code</span></b> </td> 
    <td colname="col2"> Ein Feld für eine ID, SKU oder einen anderen Wert, der von Ihren internen Geschäftsprozessen verwendet wird. Optional. </td> 
   </tr> 
   <tr> 
