@@ -1,20 +1,20 @@
 ---
 description: Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die der Audience Manager in den letzten 7 Tagen erhalten hat, und ermitteln Sie potenzielle neue Eigenschaften. Nicht verwendete Signale greifen von Ihren Online-Eigenschaften auf den Audience Manager zu, werden jedoch in keiner Ihrer vorhandenen Eigenschaften verwendet. Um das Signal-Dashboard Ansicht, gehen Sie zu Audience Data > Signals. Das Signal-Dashboard zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
 seo-description: Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die der Audience Manager in den letzten 7 Tagen erhalten hat, und ermitteln Sie potenzielle neue Eigenschaften. Nicht verwendete Signale greifen von Ihren Online-Eigenschaften auf den Audience Manager zu, werden jedoch in keiner Ihrer vorhandenen Eigenschaften verwendet. Um das Signal-Dashboard Ansicht, gehen Sie zu Audience Data > Signals. Das Signal-Dashboard zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
-seo-title: Dashboard
-title: Dashboard
+seo-title: Signale-Dashboard
+title: Signale-Dashboard
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Dashboard {#signals-dashboard}
+# Signale-Dashboard {#signals-dashboard}
 
 Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die der Audience Manager in den letzten 7 Tagen erhalten hat, und ermitteln Sie potenzielle neue Eigenschaften. Nicht verwendete Signale greifen von Ihren Online-Eigenschaften auf den Audience Manager zu, werden jedoch in keiner Ihrer vorhandenen Eigenschaften verwendet. Um die Ansicht [!UICONTROL Signals Dashboard]zu wählen, gehen Sie zu [!UICONTROL Audience Data] > [!UICONTROL Signals]. Der [!UICONTROL Signals Dashboard] zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
 
