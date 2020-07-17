@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ Einige Browser und die meisten Mobilgeräte akzeptieren kein Drittanbieter [!DNL
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Ereignis-Aufruf</b> </td> 
-   <td colname="col2"> <p>Zur Arbeit benötigen Sie <span class="wintitle"> DIL </span> und den <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> -Code auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierte IDs </span> aus der <code> setVisitorID </code> Funktion, die vom Identitätsdienst der <span class="keyword"> Adobe Experience Platform bereitgestellt wird, </span> und übergibt diese an den <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Zur Arbeit benötigen Sie <span class="wintitle"> DIL </span> und den <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> -Code auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierte IDs </span> aus der <code> setVisitorID </code> Funktion, die vom Identitätsdienst der <span class="keyword"> Adobe Experience Platform bereitgestellt wird, </span> und übergibt diese an den <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Übereinstimmung-ID</b> </td> 
@@ -59,7 +59,7 @@ Um zu beginnen, müssen Sie den [!DNL Experience Cloud] ID-Dienst und [!UICONTRO
 
 ## Ausschluss-Anrufe {#opt-out-calls}
 
-Der [!UICONTROL declared ID] [!DNL Audience Manager] Vorgang berücksichtigt die Voreinstellungen des Site-Besuchers, um das Targeting auf Ihrer Website abzuwählen. Wenn [!DNL Audience Manager] eine Abmeldeanforderung eingeht, enthält der vom Benutzer zurückgegebene [!DNL JSON] Fehlercode 171 mit der Meldung [!DNL DCS] anstelle der `Encountered opt out tag`[!DNL Audience Manager] Benutzer-ID.
+Der [!UICONTROL declared ID] [!DNL Audience Manager] Vorgang berücksichtigt die Voreinstellungen des Site-Besuchers, um das Targeting auf Ihrer Website abzuwählen. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] kann ein [!UICONTROL declared ID] Opt-out zusammen mit einem [!DNL Audience Manager] in der [!UICONTROL UUID] [!DNL URL].
 * Der [!UICONTROL declared ID] Ausschluss wird im [!UICONTROL Profil Cache Server ([!UICONTROL PCS]) pro Partner gespeichert. Es gibt keinen Ausschluss auf Plattformebene [!UICONTROL declared IDs]. Darüber hinaus [!DNL Audience Manager] wird der Benutzer an der Kante aus dieser bestimmten Region ausgeschlossen (das Opt-out erfolgt nicht über [!DNL DCS] Regionen hinweg).
@@ -68,7 +68,7 @@ Weitere Informationen zum Ausschluss von der Datenerfassung finden Sie unter [Da
 
 ## [!UICONTROL Declared ID] Ausschluss-Beispiele {#opt-out-examples}
 
-Sie können eine [!UICONTROL declared ID] Abmeldeanforderung mit den Paaren `d_cid` und `d_cid_ic` Schlüssel-Wert durchführen. Die alten Parameter wie `d_dpid` und `d_dpuuid` funktionieren weiterhin, werden jedoch als veraltet betrachtet. Siehe [CID ersetzt DPID und DPUUID](../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
+You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. Die veralten Parameter wie `d_dpid` und `d_dpuuid` funktionieren weiterhin, werden jedoch als veraltet betrachtet. Siehe [CID ersetzt DPID und DPUUID](../reference/cid.md). In den Beispielen werden Variablenplatzhalter *kursiv* angegeben.
 
 ### Opt-Outs mit [!UICONTROL CID] und [!UICONTROL CID_IC]
 
@@ -77,17 +77,17 @@ Eine Beschreibung und Syntax finden Sie unter [URL-Variablen und -Syntax für de
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ausschluss mit </th> 
-   <th colname="col2" class="entry"> Codebeispiel </th> 
+   <th colname="col1" class="entry"> Opt-out über </th> 
+   <th colname="col2" class="entry"> Code-Beispiel </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Eine Datenanbieter-ID und Benutzer-ID. </p> </td> 
+   <td colname="col1"> <p>Eine Datenanbieter-ID und eine Benutzer-ID. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ein Integrationscode und eine Benutzer-ID. </p> </td> 
+   <td colname="col1"> <p>Einen Integrations-Code und eine Benutzer-ID. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ Diese Methoden funktionieren weiterhin, werden jedoch als veraltet betrachtet. D
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Ausschluss (überholt) </th> 
-   <th colname="col2" class="entry"> Codebeispiel </th> 
+   <th colname="col2" class="entry"> Code-Beispiel </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -160,16 +160,16 @@ Angesichts dieser Schlüssel-Wert-Paare und ihrer erforderlichen Syntax würden 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Ereignis-Aufruf beinhaltet </th> 
-   <th colname="col2" class="entry"> Codebeispiel </th> 
+   <th colname="col2" class="entry"> Code-Beispiel </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Eine Datenanbieter-ID und Benutzer-ID. </p> </td> 
+   <td colname="col1"> <p>Eine Datenanbieter-ID und eine Benutzer-ID. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ein Integrationscode und eine Benutzer-ID. </p> </td> 
+   <td colname="col1"> <p>Einen Integrations-Code und eine Benutzer-ID. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -185,7 +185,7 @@ Beschreibt die Konfigurationsvariablen, die verwendet werden, um [!UICONTROL dec
 
 ## [!UICONTROL DIL] verwendet [!DNL Adobe Experience Platform Identity Service] die [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Bei Verwendung mit dem Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/en/id-service/using/home.html)müssen Sie nicht mehr [!UICONTROL declared IDs] mit den veralteten `dpid` und `dpuuid` Variablen weitergeben. Stattdessen [!UICONTROL DIL] verlassen sich die aktuellen Versionen auf die `visitorService` Funktion, um die [!UICONTROL declared IDs] aus der `setCustomerIDs` Funktion in der [!UICONTROL Adobe Experience Platform Identity Service]zu erhalten. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Sie rufen `visitorService` wie unten gezeigt `DIL.create` an.
+Bei Verwendung mit dem Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html)müssen Sie nicht mehr [!UICONTROL declared IDs] mit den veralteten `dpid` und `dpuuid` Variablen weitergeben. Stattdessen [!UICONTROL DIL] verlassen sich die aktuellen Versionen auf die `visitorService` Funktion, um die [!UICONTROL declared IDs] aus der `setCustomerIDs` Funktion in der [!UICONTROL Adobe Experience Platform Identity Service]zu erhalten. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Sie rufen `visitorService` wie unten gezeigt `DIL.create` an.
 
 ```js
 var vDil = DIL.create({
@@ -275,7 +275,7 @@ myCallback({
 })
 ```
 
-## Keine Target- und Ausschluss-Aufrufe {#do-not-target}
+## Keine Zielgruppe- und Ausschluss-Aufrufe {#do-not-target}
 
 Der [!UICONTROL declared ID] [!DNL Audience Manager] Vorgang berücksichtigt die Voreinstellungen des Site-Besuchers, um das Targeting auf Ihrer Website abzuwählen. Wenn [!DNL Audience Manager] eine Abmeldeanforderung eingeht, gibt die [!DNL DCS] ein leeres [!DNL JSON] Objekt anstelle der [!DNL Audience Manager] Benutzer-ID zurück.
 
