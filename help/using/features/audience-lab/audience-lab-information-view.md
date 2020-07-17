@@ -1,9 +1,9 @@
 ---
 description: Dieser Abschnitt enthält allgemeine Informationen zur Testgruppe und zu den darin unterteilten Testsegmenten, zu den ausgewählten Konversionseigenschaften und den zugeordneten Zielen. Der Abschnitt enthält außerdem Steuerelemente zum Duplizieren oder Löschen der Testgruppe.
 seo-description: Dieser Abschnitt enthält allgemeine Informationen zur Testgruppe und zu den darin unterteilten Testsegmenten, zu den ausgewählten Konversionseigenschaften und den zugeordneten Zielen. Der Abschnitt enthält außerdem Steuerelemente zum Duplizieren oder Löschen der Testgruppe.
-seo-title: Gruppeninformationen testen
+seo-title: Informationen zu Testgruppen
 solution: Audience Manager
-title: Gruppeninformationen testen
+title: Informationen zu Testgruppen
 topic: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 feature: Audience Lab
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Gruppeninformationen testen {#test-group-information}
+# Informationen zu Testgruppen {#test-group-information}
 
 Dieser Abschnitt enthält allgemeine Informationen zur Testgruppe und zu den darin unterteilten Testsegmenten, zu den ausgewählten Konversionseigenschaften und den zugeordneten Zielen. Der Abschnitt enthält außerdem Steuerelemente zum Duplizieren oder Löschen der Testgruppe.
 
@@ -35,6 +35,6 @@ Die **[!UICONTROL Destinations]** Karte kann reduziert werden. Drücken Sie die 
 
 >[!NOTE]
 >
->Denken Sie daran, dass Sie die Testgruppen nach dem Abschluss nicht bearbeiten können. Sie können sie nur anhalten, löschen oder Duplikat daraus machen.
+>Denken Sie daran, dass Sie keine Testgruppen bearbeiten können, nachdem Sie sie fertig gestellt haben, können Sie sie nur anhalten, löschen oder Duplikat machen.
 
 ![](assets/test-groups-information.PNG)
