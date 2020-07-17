@@ -1,9 +1,9 @@
 ---
 description: Mit den Datenexportkontrollen können Sie verhindern, dass Daten an Ziele gesendet werden, wenn diese Aktion Datenschutzvereinbarungen oder Datenverwendungsvereinbarungen verletzt.
 seo-description: Mit den Datenexportkontrollen können Sie verhindern, dass Daten an Ziele gesendet werden, wenn diese Aktion Datenschutzvereinbarungen oder Datenverwendungsvereinbarungen verletzt.
-seo-title: Datenexportkontrolle
+seo-title: Datenexportkontrollen
 solution: Audience Manager
-title: Datenexportkontrolle
+title: Datenexportkontrollen
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 1%
 ---
 
 
-# Datenexportkontrolle {#data-export-controls}
+# Datenexportkontrollen {#data-export-controls}
 
 [!UICONTROL Data Export Controls] verhindern, dass Sie Daten an Ziele senden, wenn diese Aktion gegen Datenschutzvereinbarungen oder Datennutzungsvereinbarungen verstößt.
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 [!UICONTROL Data Export Controls] können Sie [Datenquellen](../features/datasources-list-and-settings.md#data-sources-list-and-settings) und [Ziele](../features/destinations/destinations.md)klassifizieren. Die angewendeten Klassifizierungen bestimmen, wann Daten an ein Ziel exportiert werden können oder nicht. Diese Funktion umfasst:
 
 * **[!UICONTROL Data Export Controls]**: Sie können Datenexportsteuerelemente für *Datenquellen* festlegen. Wenn diese Steuerelemente in einer Datenquelle festgelegt sind, beschränken sie die Verwendung dieser Datenquelle und ihrer Eigenschaften.
-* **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen für *Ziele* festlegen. Wenn diese Beschriftungen auf einem Ziel festgelegt werden, wird angegeben, wie das Ziel Daten verwendet. Informationen zum Hinzufügen von Exportbeschriftungen zu einem Ziel finden Sie unter [Hinzufügen](/help/using/features/destinations/add-data-export-labels.md) Datenexportbeschriftungen zu einem Ziel.
+* **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen für *Ziele* festlegen. Wenn diese Beschriftungen für ein Ziel festgelegt werden, geben sie an, wie das Ziel Daten verwendet. Informationen zum Hinzufügen von Exportbeschriftungen zu einem Ziel finden Sie unter [Hinzufügen](/help/using/features/destinations/add-data-export-labels.md) Datenexportbeschriftungen zu einem Ziel.
 
 Basierend auf den Classifications, die auf eine Datenquelle und ein Ziel angewendet werden, verhindern die Exportsteuerelemente Folgendes:
 
@@ -113,5 +113,5 @@ Darüber hinaus muss mindestens eine Exportbeschriftung mit einer Exportkontroll
 
 Lesen Sie zunächst die Dokumentation zu Datenquelle und Ziel. Diese Artikel enthalten Anweisungen zum Hinzufügen von Exportsteuerelementen und Beschriftungen zu Ihren Datenquellen und Zielen.
 
-* [Datenquelle erstellen](../features/manage-datasources.md#create-data-source)
+* [Erstellen einer Datenquelle](../features/manage-datasources.md#create-data-source)
 * [Hinzufügen Datenexportbeschriftungen an ein Ziel](../features/destinations/add-data-export-labels.md)
