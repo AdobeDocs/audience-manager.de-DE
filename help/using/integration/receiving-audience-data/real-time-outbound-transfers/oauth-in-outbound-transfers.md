@@ -1,16 +1,16 @@
 ---
 description: Beim Veröffentlichen von Segmenten am Partnerziel über eine Echtzeit-Server-zu-Server-Integration kann Audience Manager so eingerichtet werden, dass die Authentifizierung beim Erstellen der Anforderungen mit OAuth 2.0 erfolgt. Dies bietet die Möglichkeit, authentifizierte Anfragen von Audience Manager bis zu Ihrem Endpunkt auszustellen.
 seo-description: Beim Veröffentlichen von Segmenten am Partnerziel über eine Echtzeit-Server-zu-Server-Integration kann Audience Manager so eingerichtet werden, dass die Authentifizierung beim Erstellen der Anforderungen mit OAuth 2.0 erfolgt. Dies bietet die Möglichkeit, authentifizierte Anfragen von Audience Manager bis zu Ihrem Endpunkt auszustellen.
-seo-title: OAuth 2.0-Integration für ausgehende Echtzeit-Transfers
+seo-title: OAuth 2.0-Integration für ausgehende Übertragungen in Echtzeit
 solution: Audience Manager
-title: OAuth 2.0-Integration für ausgehende Echtzeit-Transfers
+title: OAuth 2.0-Integration für ausgehende Übertragungen in Echtzeit
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Die [!DNL Adobe Audience Manager] OAuth 2.0 [](https://tools.ietf.org/html/rfc67
 
 ![](assets/oauth2-iris.png)
 
-## Voraussetzungen {#auth-requirements}
+## Anforderungen {#auth-requirements}
 
 Als [!DNL Audience Manager] Partner sind die folgenden Endpunkte erforderlich, um authentifizierte Anforderungen zu empfangen:
 
@@ -42,7 +42,7 @@ Dieser Endpunkt akzeptiert die in Schritt 1 angegebenen Anmeldeinformationen und
 
 * Der Endpunkt muss `HTTP POST` Anforderungen akzeptieren.
 * Der Endpunkt muss die [!DNL Authorization] Kopfzeile akzeptieren und anzeigen. Der Wert für diese Kopfzeile lautet: `Basic <credentials_provided_by_partner>`.
-* Der Endpunkt muss sich die [!DNL Content-type] Kopfzeile ansehen und überprüfen, ob der Wert `application/x-www-form-urlencoded ; charset=UTF-8`vorliegt.
+* Der Endpunkt muss sich die [!DNL Content-type] Kopfzeile ansehen und überprüfen, ob sein Wert `application/x-www-form-urlencoded ; charset=UTF-8`ist.
 * Der Hauptteil des Antrags wird `grant_type=client_credentials`sein.
 
 ### Beispielanfrage des Audience Managers zum Partnerendpunkt, um ein InhaberToken zu erhalten
