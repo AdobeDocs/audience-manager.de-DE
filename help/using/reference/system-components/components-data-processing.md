@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -47,13 +47,13 @@ Kunden haben keinen direkten Zugriff auf diese Systeme. Kunden arbeiten jedoch i
 
 Dies ist keineswegs eine umfassende Liste, aber einige häufige Dashboard-Berichte, für die folgende Aufgaben [!UICONTROL Snowflake] zuständig sind:
 
-* [Täglicher Bericht &quot;Eigenschaftsvarianz&quot;](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Täglicher Bericht zur Eigenschaftsvarianz](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * Alle Überschneidungsberichte (Informationen zu den einzelnen Überschneidungsberichten finden Sie im Abschnitt [Interaktive Berichte](/help/using/reporting/dynamic-reports/dynamic-reports.md) ).
 * [Bericht zu nicht verwendeten Signalen](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
-SOLR ist eine Open-Source-Datenbank und ein Serversystem von Apache. Es bietet robuste und schnelle Suchfunktionen für unsere großen Datensätze. Als [!DNL Audience Manager] Kunde können Sie SOLR in Aktion sehen, wenn Sie Segmente erstellen. Er stellt Daten für den [!UICONTROL Estimated Historic Segment Size] Bericht bereit. SOLR ist aufgrund seiner Schnelligkeit ideal für diese Rolle. SOLR kann beispielsweise die Daten der historischen Größe aktualisieren, wenn Sie Regeln erstellen und neue Eigenschaften zu einem Segment hinzufügen.
+SOLR ist eine Open-Source-Datenbank und ein Serversystem von Apache. Es bietet robuste und schnelle Suchfunktionen für unsere großen Datensätze. Als [!DNL Audience Manager] Kunde können Sie SOLR in Aktion sehen, wenn Sie Segmente erstellen. Er stellt Daten für den [!UICONTROL Estimated Historic Segment Size] Bericht bereit. SOLR ist aufgrund seiner Geschwindigkeit ideal für diese Rolle. SOLR kann beispielsweise die Daten der historischen Größe aktualisieren, wenn Sie Regeln erstellen und neue Eigenschaften zu einem Segment hinzufügen.
 
 
 
