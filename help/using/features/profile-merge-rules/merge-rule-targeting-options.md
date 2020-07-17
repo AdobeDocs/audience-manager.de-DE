@@ -1,21 +1,21 @@
 ---
 description: Mit den Optionen für Profil Merge Rules können Sie die Audience je nach Geschäftsanforderungen oder Geschäftszielen auf bestimmte Audiencen ausweiten oder verschärfen. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt.
 seo-description: Mit den Optionen für Profil Merge Rules können Sie die Audience je nach Geschäftsanforderungen oder Geschäftszielen auf bestimmte Audiencen ausweiten oder verschärfen. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt.
-seo-title: Allgemeine Anwendungsfälle für Profil-Zusammenführungsregeln
+seo-title: Allgemeine Anwendungsfälle für Profilzusammenführungsrichtlinien
 solution: Audience Manager
-title: Allgemeine Anwendungsfälle für Profil-Zusammenführungsregeln
+title: Allgemeine Anwendungsfälle für Profilzusammenführungsrichtlinien
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Allgemeine Anwendungsfälle für Profil-Zusammenführungsregeln {#general-use-cases-for-profile-merge-rules}
+# Allgemeine Anwendungsfälle für Profilzusammenführungsrichtlinien {#general-use-cases-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rules] Mit diesen Optionen können Sie die Audience je nach Geschäftsanforderungen oder Geschäftszielen auf bestimmte Audiencen ausweiten oder verstärken. In diesen allgemeinen Anwendungsfällen wird untersucht, wie die verfügbaren Optionen verwendet werden können, und es werden Regeln zum Zusammenführen von Targeting für einzelne Geräte, Haushalte und Geräte erstellt. [!UICONTROL Profile Merge Rules] mit Echtzeit- und Stapelzielen arbeiten.
 
@@ -81,7 +81,7 @@ Weitere Informationen zu dieser Option finden Sie unter [Benutzerbasierte Ziele]
 
 ## Gerätediagrammoptionen {#device-graph-options}
 
-Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile Merge] Regel hängt von Bedingungen ab, die für Ihre digitalen Eigenschaften und Geschäftsziele spezifisch sind. Diese allgemeinen Richtlinien helfen Ihnen dabei, zu verstehen, wann ein Diagrammtyp im Vergleich zu einem anderen verwendet werden soll. Beachten Sie, dass Sie Mitglied der [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) sein oder eine vertragliche Beziehung zu einem externen Gerätediagramm haben müssen, um diese Optionen nutzen zu können. Die nachstehende Tabelle gibt einen Überblick darüber, wann eine Gerätediagrammoption gewählt werden soll. Für spezifische Anwendungsfälle siehe Anwendungsfälle [und Anwendungsfälle für](profile-link-use-case.md) Profil-Link-Gerätediagramme [](external-graph-use-cases.md).
+Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile Merge] Regel hängt von Bedingungen ab, die für Ihre digitalen Eigenschaften und Geschäftsziele spezifisch sind. Diese allgemeinen Richtlinien helfen Ihnen dabei, zu verstehen, wann ein Diagrammtyp im Vergleich zu einem anderen verwendet werden soll. Beachten Sie, dass Sie Mitglied der [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html) sein oder eine vertragliche Beziehung zu einem externen Gerätediagramm haben müssen, um diese Optionen nutzen zu können. Die nachstehende Tabelle gibt einen Überblick darüber, wann eine Gerätediagrammoption gewählt werden soll. Für spezifische Anwendungsfälle siehe Anwendungsfälle [und Anwendungsfälle für](profile-link-use-case.md) Profil-Link-Gerätediagramme [](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -118,7 +118,7 @@ Sehen Sie sich das unten stehende Video an, um einen Überblick über mögliche 
 
 >[!MORELIKETHIS]
 >
->* [Anwendungsfälle für Profil Link Device Graph](profile-link-use-case.md)
->* [Anwendungsbeispiele für Diagramme externer Geräte](external-graph-use-cases.md)
+>* [Anwendungsfälle für das Profil-Link-Gerätediagramm](profile-link-use-case.md)
+>* [Anwendungsfälle für externe Gerätediagramme](external-graph-use-cases.md)
 >* [Häufig gestellte Fragen zu Profil-Zusammenführungsregeln](../../faq/faq-profile-merge.md)
 
