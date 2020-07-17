@@ -1,22 +1,22 @@
 ---
 description: Mit Audience Analytics können Sie Audience Manager-Segmente an Analytics senden. Um diese Funktion zu verwenden, erstellen Sie in Audience Manager Analytics-Ziel- und Zuordnungssegmente.
 seo-description: Mit Audience Analytics können Sie Audience Manager-Segmente an Analytics senden. Um diese Funktion zu verwenden, erstellen Sie in Audience Manager Analytics-Ziel- und Zuordnungssegmente.
-seo-title: Analytics-Ziel konfigurieren
+seo-title: Konfigurieren eines Analytics-Ziels
 solution: Audience Manager
-title: Analytics-Ziel konfigurieren
+title: Konfigurieren eines Analytics-Ziels
 feature: Integration with Analytics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
-# Analytics-Ziel konfigurieren
+# Konfigurieren eines Analytics-Ziels
 
-## Voraussetzungen {#requirements}
+## Anforderungen {#requirements}
 
 Zum Konfigurieren eines Analytics-Ziels muss der Audience Manager über Administratorrechte verfügen. Siehe Benutzer [erstellen](/help/using/features/administration/administration-overview.md#create-users) im Administrationshandbuch. Beachten Sie, dass die Berechtigung für `CREATE_DESTINATIONS` Platzhalter [](/help/using/features/administration/administration-overview.md#wild-card-permissions) nicht ausreicht, um Analytics-Ziele zu erstellen.
 Weitere Informationen finden Sie unter Voraussetzungen in [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html).
@@ -35,7 +35,7 @@ Dieser Abschnitt enthält Felder und Optionen, die den Analytics-Zielerstellungs
 1. Klicken Sie auf **Grundlegende Informationen** , um die Steuerelemente anzuzeigen.
 2. Benennen Sie das Ziel. Vermeiden Sie Abkürzungen und Sonderzeichen.
 3. *(Optional)* Beschreiben Sie das Ziel. Eine knappe Beschreibung ist eine effektive Methode, um mehr Informationen über ein Ziel zu definieren oder bereitzustellen.
-4. *(Optional)* Lassen Sie in der Liste &quot; **Platform** &quot;die Standardeinstellung auf **Alle**. Zurzeit tun diese Optionen nichts. Sie unterstützen Funktionen, die zu einem späteren Zeitpunkt hinzugefügt werden können.
+4. *(Optional)* Lassen Sie in der Liste &quot; **Plattform** &quot;die Standardeinstellung auf **Alle**. Zurzeit tun diese Optionen nichts. Sie unterstützen Funktionen, die zu einem späteren Zeitpunkt hinzugefügt werden können.
 5. Wählen Sie in der Liste **Kategorie** die Option **Adobe Experience Cloud**.
 6. Wählen Sie in der Liste **Typ** die Option **Adobe Analytics**.
 7. Klicken Sie auf **Speichern** , um die Konfigurationseinstellungen aufzurufen, oder auf **Datenexportbeschriftungen** , um Exportsteuerelemente auf das Ziel anzuwenden.
