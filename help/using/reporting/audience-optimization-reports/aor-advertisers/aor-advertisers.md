@@ -1,16 +1,16 @@
 ---
 description: Die Optimierung der Audience für Werbetreibende kann Ihnen dabei helfen, potenzielle Leistungsmöglichkeiten für Audience Manager in Ihren gebührenpflichtigen Kampagnen zu ermitteln. Diese Berichte kombinieren Leistungsdaten zur Kampagne auf Protokollierungsebene mit Segmentmetriken auf Audience Manager-Ebene, um segmentorientierte Optimierungen und einen effektiven Kanal-Mix zu ermöglichen.
 seo-description: Die Optimierung der Audience für Werbetreibende kann Ihnen dabei helfen, potenzielle Leistungsmöglichkeiten für Audience Manager in Ihren gebührenpflichtigen Kampagnen zu ermitteln. Diese Berichte kombinieren Leistungsdaten zur Kampagne auf Protokollierungsebene mit Segmentmetriken auf Audience Manager-Ebene, um segmentorientierte Optimierungen und einen effektiven Kanal-Mix zu ermöglichen.
-seo-title: Optimierung der Audience für Werbetreibende
+seo-title: Zielgruppenoptimierung für Advertiser
 solution: Audience Manager
-title: Optimierung der Audience für Werbetreibende
+title: Zielgruppenoptimierung für Advertiser
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
