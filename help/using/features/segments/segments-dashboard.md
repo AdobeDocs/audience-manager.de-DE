@@ -1,21 +1,21 @@
 ---
 description: Das Segments-Dashboard ist ein zentralisierter Arbeitsbereich zum Verwalten von Zielen.
 seo-description: Das Segments-Dashboard ist ein zentralisierter Arbeitsbereich zum Verwalten von Zielen.
-seo-title: Ansicht der SegmentListe
+seo-title: 'Ansicht: Segmentliste'
 solution: Audience Manager
-title: Ansicht der SegmentListe
+title: 'Ansicht: Segmentliste'
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Ansicht der SegmentListe {#segments-list-view}
+# Ansicht: Segmentliste {#segments-list-view}
 
 Das [Segments-Dashboard](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) ist ein zentralisierter Arbeitsbereich zur Verwaltung Ihrer Audiencen. Sie können das [!UICONTROL Segments] Dashboard anzeigen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
