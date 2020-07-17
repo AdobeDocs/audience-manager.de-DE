@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 1%
 
 Bei einem Aufruf [!DNL DCS] akzeptiert der Benutzer Schlüsselwertdaten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
 
-## Standardpaare und serialisierte Schlüsselwertpaare {#standard-serialized}
+## Standard and Serialized Key-Value Pairs {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Schlüsselwerttyp </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
-   <th colname="col3" class="entry"> Beispiel  </th> 
+   <th colname="col3" class="entry"> Beispiel </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -71,7 +71,7 @@ Bei serialisierten Schlüssel-Wert-Paaren müssen Sie die Marker angeben, die We
 
 >[!MORELIKETHIS]
 >
->* [Daten an das DCS senden](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
+>* [Senden von Daten an den DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [Präfixe und Variablen mit Schlüsselwerten, die vom DCS unterstützt werden](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
->* [Erläuterung von Seiten mit Schlüsselwert](../../../reference/key-value-pairs-explained.md)
+>* [Schlüssel-Wert-Paare – Erklärung](../../../reference/key-value-pairs-explained.md)
 
