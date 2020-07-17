@@ -1,21 +1,21 @@
 ---
 description: Audience Manager verwendet Koordinierte Universalzeit (UTC) in der gesamten Benutzeroberfläche.
 seo-description: Audience Manager verwendet Koordinierte Universalzeit (UTC) in der gesamten Benutzeroberfläche.
-seo-title: Zeitzonen im Audience Manager
+seo-title: Zeitzonen in Audience Manager
 solution: Audience Manager
-title: Zeitzonen im Audience Manager
+title: Zeitzonen in Audience Manager
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
 
-# Zeitzonen im Audience Manager{#time-zones-in-audience-manager}
+# Zeitzonen in Audience Manager{#time-zones-in-audience-manager}
 
 Audience Manager verwendet Koordinierte Universalzeit (UTC) in der gesamten Benutzeroberfläche.
 
