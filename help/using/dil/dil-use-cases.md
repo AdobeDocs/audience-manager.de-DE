@@ -1,21 +1,21 @@
 ---
 description: Codebeispiele und Beschreibungen für spezifische DIL-Anwendungsfälle.
 seo-description: Codebeispiele und Beschreibungen für spezifische DIL-Anwendungsfälle.
-seo-title: DIL-Anwendungsfälle und Codebeispiele
+seo-title: DIL-Anwendungsfälle und Code-Beispiele
 solution: Audience Manager
-title: DIL-Anwendungsfälle und Codebeispiele
+title: DIL-Anwendungsfälle und Code-Beispiele
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# DIL-Anwendungsfälle und Codebeispiele{#dil-use-cases-and-code-samples}
+# DIL-Anwendungsfälle und Code-Beispiele{#dil-use-cases-and-code-samples}
 
 Codebeispiele und Beschreibungen für spezifische DIL-Anwendungsfälle.
 
@@ -108,7 +108,7 @@ c_dil_hrefer_over_https.xml
 >
 >Diese Methode funktioniert nur, wenn Benutzer zwischen Seiten mit ähnlichen Protokollen (HTTP oder HTTPS) wechseln. Beispielsweise behält der Browser eine verweisende URL bei, wenn Sie von einer sicheren Site zu einer anderen sicheren Site navigieren. Browser behalten die verweisende URL nicht bei, wenn Sie zwischen sicheren und unsicheren Sites wechseln. Dieses Verhalten ist eine normale Browserfunktionalität und kann nicht umgangen werden [!UICONTROL DIL].
 
-**Codebeispiel**
+**Code-Beispiel**
 
 Ihr Code könnte wie folgt aussehen:
 
@@ -198,7 +198,7 @@ In einem Schlüssel-Wert-Paar identifiziert das `c_` Präfix, das an den Schlüs
 
 Sie erfassen z. B. ZIP-Code-Daten von einer bestimmten Site, möchten diese aber auf alle Audience Manager-Eigenschaften Zielgruppe haben. Um die Postleitzahl auf Plattformebene verfügbar zu machen, können Sie Ihren kundendefinierten ZIP-Code-Schlüssel (z.B. `c_zip`) zu einem Plattform definierten Schlüssel wie unten dargestellt.
 
-**Codebeispiel**
+**Code-Beispiel**
 
 Ihr Code könnte wie folgt aussehen:
 
@@ -244,5 +244,5 @@ So senden Sie die `dil.js` Datei in GTM
 >
 >* [Google Tag Manager-Hilfe](https://support.google.com/tagmanager#topic=3441530)
 >* [Signale](../dil/dil-instance-methods.md#signals)
->* [Voraussetzungen für das Präfix für Schlüsselvariablen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+>* [Anforderungen an Präfixe für Schlüsselvariablen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
