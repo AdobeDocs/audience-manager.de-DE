@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## Neue Benutzer suchen mit [!UICONTROL Look-Alike Modeling] {#find-new-users}
 
-[!UICONTROL Look-Alike Modeling] hilft Ihnen bei der Erkennung neuer, einzigartiger Audiencen durch die automatisierte Analyse von Daten. Der Prozess wird Beginn, wenn Sie ein [!UICONTROL trait] oder [!UICONTROL segment], ein Zeitintervall sowie ein Erstanbieter- und ein Drittanbieter auswählen [!UICONTROL data sources]. Ihre Auswahl bietet die Eingaben für das algorithmische Modell. Wenn der Analyseverfahren ausgeführt wird, sucht er anhand gemeinsamer Merkmale der ausgewählten Population nach den infrage kommenden Benutzern. Nach Abschluss dieser Daten stehen Ihnen im [Eigenschaften-Builder](../../features/traits/about-trait-builder.md) zur Verfügung, mit dem Sie Eigenschaften erstellen können, die auf der [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)basieren. Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit [!UICONTROL rules-based traits] kombinieren und weitere Qualifizierungsanforderungen mit [!DNL Boolean] Ausdrücken und Vergleichsoperatoren hinzufügen. [!UICONTROL Look-Alike Modeling] gibt Ihnen eine dynamische Möglichkeit, Werte aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
+[!UICONTROL Look-Alike Modeling] hilft Ihnen bei der Erkennung neuer, einzigartiger Audiencen durch die automatisierte Analyse von Daten. Der Prozess wird Beginn, wenn Sie ein [!UICONTROL trait] oder [!UICONTROL segment], ein Zeitintervall sowie ein Erstanbieter- und ein Drittanbieter auswählen [!UICONTROL data sources]. Ihre Auswahl bietet die Eingaben für das algorithmische Modell. Wenn der Analyseverfahren ausgeführt wird, sucht er anhand gemeinsamer Merkmale der ausgewählten Population nach infrage kommenden Benutzern. Nach Abschluss dieser Daten stehen Ihnen im [Eigenschaften-Builder](../../features/traits/about-trait-builder.md) zur Verfügung, mit dem Sie Eigenschaften erstellen können, die auf der [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)basieren. Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit [!UICONTROL rules-based traits] kombinieren und weitere Qualifizierungsanforderungen mit [!DNL Boolean] Ausdrücken und Vergleichsoperatoren hinzufügen. [!UICONTROL Look-Alike Modeling] gibt Ihnen eine dynamische Möglichkeit, Werte aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
 
 ## Vorteile {#advantages}
 
@@ -102,7 +102,7 @@ Erstellen und Aktualisieren von Zeitplänen für neue oder vorhandene [!UICONTRO
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 17:00 Uhr EST (November - März) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 18:00 Uhr EDT (März - November) </li> 
-     </ul> </p> <p>Modelle, die nach Ablauf der Erstellungsfrist erstellt oder geklont wurden, werden am folgenden Tag verarbeitet. </p> <p>Wenn die erste Ausführung eines Modells keine Daten generiert, wird sie am nächsten Tag ein zweites Mal ausgeführt. Wenn der zweite Versuch auch keine Daten generiert, wird am nächsten Tag ein dritter Versuch unternommen. Das Modell wird nicht mehr ausgeführt, wenn der dritte Versuch ebenfalls keine Daten generiert. In diesem Fall deaktivieren wir das Modell. Weitere Informationen finden Sie unter <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Fehlerbehebung für Look-Alike-Modelle</a>. </p> </td>
+     </ul> </p> <p>Modelle, die nach Ablauf der Erstellungsfrist erstellt oder geklont wurden, werden am folgenden Tag verarbeitet. </p> <p>Wenn die erste Ausführung eines Modells keine Daten generiert, wird sie am nächsten Tag ein zweites Mal ausgeführt. Wenn der zweite Versuch auch keine Daten generiert, wird am nächsten Tag ein dritter Versuch unternommen. Das Modell wird nicht mehr ausgeführt, wenn beim dritten Versuch auch keine Daten generiert werden. In diesem Fall deaktivieren wir das Modell. Weitere Informationen finden Sie unter <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Fehlerbehebung für Look-Alike-Modelle</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>Modell aktualisieren</b> </td> 
@@ -191,7 +191,7 @@ Die Modellübersichtsseite enthält die folgenden Abschnitte.
 
 >[!MORELIKETHIS]
 >
->* [Ziele](../../features/destinations/destinations.md)
->* [Eigenschaften](../../features/traits/trait-details-page.md)
->* [Segmente](../../features/segments/segments-purpose.md)
+>* [Ziele ](../../features/destinations/destinations.md)
+>* [Eigenschaften ](../../features/traits/trait-details-page.md)
+>* [Segmente ](../../features/segments/segments-purpose.md)
 
