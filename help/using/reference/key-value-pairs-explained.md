@@ -2,21 +2,21 @@
 description: Definiert und beschreibt Standard- und serialisierte Schlüssel/Wert-Paare.
 keywords: integration code
 seo-description: Definiert und beschreibt Standard- und serialisierte Schlüssel/Wert-Paare.
-seo-title: Erläuterung von Seiten mit Schlüsselwert
+seo-title: Schlüssel-Wert-Paare – Erklärung
 solution: Audience Manager
-title: Erläuterung von Seiten mit Schlüsselwert
+title: Schlüssel-Wert-Paare – Erklärung
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Erläuterung von Seiten mit Schlüsselwert{#key-value-pairs-explained}
+# Schlüssel-Wert-Paare – Erklärung{#key-value-pairs-explained}
 
 Definiert und beschreibt Standard- und serialisierte Schlüssel/Wert-Paare.
 
@@ -32,7 +32,7 @@ Ein Schlüssel-Wert-Paar besteht aus zwei zugehörigen Datenelementen: Ein Schl�
 * `color = green`
 * `price > 100`
 
-## Standardpaare und serialisierte Schlüsselwertpaare {#standard-serialized-pairs}
+## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
 Ziele akzeptieren Schlüsselwertdaten in *`standard`* oder *`serialized`* Format. Die Standardformatierung ordnet Daten in separate Schlüssel/Wert-Paare an. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren. Bei der serialisierten Formatierung werden dagegen mehrere Werte zu einem Satz zusammengefasst, der durch einen einzigen Schlüssel definiert wird. Bei einem serialisierten Paar wird außerdem ein spezieller Indikator verwendet, um die Werte innerhalb des Schlüsselwertsatzes zu trennen. Schließlich können die standardmäßigen und serialisierten Schlüsselwerte einzelne oder mehrere Werte enthalten. Die folgende Tabelle enthält Beispiele für die Formate für Standard- und serielle Schlüsselwerte.
 
