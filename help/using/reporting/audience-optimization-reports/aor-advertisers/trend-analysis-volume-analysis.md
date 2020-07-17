@@ -1,16 +1,16 @@
 ---
 description: Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für ein breites Spektrum von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild von der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
 seo-description: Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für ein breites Spektrum von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild von der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
-seo-title: Trend-Analysen- und Volumenberichte für Analysen
+seo-title: Berichte zur Trendanalyse und Volumenanalyse
 solution: Audience Manager
-title: Trend-Analysen- und Volumenberichte für Analysen
+title: Berichte zur Trendanalyse und Volumenanalyse
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
