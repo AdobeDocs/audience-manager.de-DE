@@ -1,20 +1,20 @@
 ---
 description: Ein Überblick über die wichtigsten Komponenten und Datenflüsse im Audience Manager-System.
 seo-description: Ein Überblick über die wichtigsten Komponenten und Datenflüsse im Audience Manager-System.
-seo-title: Übersicht über die Systemkomponenten
-title: Übersicht über die Systemkomponenten
+seo-title: Systemkomponenten – Überblick
+title: Systemkomponenten – Überblick
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
 
-# Übersicht über die Systemkomponenten{#system-components-overview}
+# Systemkomponenten – Überblick{#system-components-overview}
 
 Ein Überblick über die wichtigsten Komponenten und Datenflüsse im Audience Manager-System.
 
@@ -36,7 +36,7 @@ Dieser Leitfaden versucht, eine Balance zwischen allgemeinen Beschreibungen und 
 * [Datenaktionskomponenten](/help/using/reference/system-components/components-data-action.md)
 * [Datenerfassungskomponenten](/help/using/reference/system-components/components-data-collection.md)
 * [Datenverarbeitungskomponenten](/help/using/reference/system-components/components-data-processing.md)
-* [Komponenten des Tag-Managements](/help/using/reference/system-components/components-tag-management.md)
-* [Platform Architektur: Datenflusszuordnung](/help/using/reference/system-components/components-platform-architecture.md)
-* [Das Edge Data Center](/help/using/reference/system-components/components-edge.md)
+* [Komponenten des Tag Managements](/help/using/reference/system-components/components-tag-management.md)
+* [Plattformarchitektur: Datenflusskarte](/help/using/reference/system-components/components-platform-architecture.md)
+* [Grundlegendes zum Edge-Datenzentrum](/help/using/reference/system-components/components-edge.md)
 
