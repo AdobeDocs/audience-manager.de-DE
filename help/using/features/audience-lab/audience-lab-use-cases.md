@@ -1,9 +1,9 @@
 ---
 description: Audience Lab ermöglicht mehrere Anwendungsfälle, indem Sie Ausgangssegmente zum Erstellen von Testgruppen verwenden können. Sie können Testgruppen in mehrere sich gegenseitig ausschließende Testsegmente unterteilen, diese unterschiedlichen Zielen zuordnen und dann feststellen, welche der Segmente am effektivsten zur Förderung von Konversionen beitragen.
 seo-description: Audience Lab ermöglicht mehrere Anwendungsfälle, indem Sie Ausgangssegmente zum Erstellen von Testgruppen verwenden können. Sie können Testgruppen in mehrere sich gegenseitig ausschließende Testsegmente unterteilen, diese unterschiedlichen Zielen zuordnen und dann feststellen, welche der Segmente am effektivsten zur Förderung von Konversionen beitragen.
-seo-title: Anwendungsfälle im Audience Lab
+seo-title: 'Anwendungsfälle: Audience Lab'
 solution: Audience Manager
-title: Anwendungsfälle im Audience Lab
+title: 'Anwendungsfälle: Audience Lab'
 topic: DIL API
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Anwendungsfälle im Audience Lab {#audience-lab-use-cases}
+# Anwendungsfälle: Audience Lab {#audience-lab-use-cases}
 
 [!UICONTROL Audience Lab] ermöglicht mehrere Anwendungsfälle, indem Sie Ausgangssegmente zum Erstellen von Testgruppen verwenden können. Sie können Testgruppen in mehrere sich gegenseitig ausschließende Testsegmente unterteilen, diese unterschiedlichen Zielen zuordnen und dann feststellen, welche der Segmente am effektivsten zur Förderung von Konversionen beitragen.
 
