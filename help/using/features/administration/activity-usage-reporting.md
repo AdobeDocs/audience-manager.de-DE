@@ -2,16 +2,16 @@
 description: Aktivität Usage Berichte hilft Ihnen bei der Ansicht und Verfolgung der Nutzung der Aktivität für Ihre Audience Manager-Instanz, sodass Sie Ihre tatsächliche Nutzung mit Ihrer vertraglichen Verpflichtung vergleichen können.
 keywords: activity, usage, reporting, commitment
 seo-description: Aktivität Usage Berichte hilft Ihnen bei der Ansicht und Verfolgung der Nutzung der Aktivität für Ihre Audience Manager-Instanz, sodass Sie Ihre tatsächliche Nutzung mit Ihrer vertraglichen Verpflichtung vergleichen können.
-seo-title: Berichte zur Aktivität
+seo-title: Berichte zur Aktivitätsnutzung
 solution: Audience Manager
-title: Berichte zur Aktivität
+title: Berichte zur Aktivitätsnutzung
 topic: Activity Usage Reporting
 feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Überblick {#overview}
 
-Die [!UICONTROL Activity Usage Report] hilft Ihnen bei der Ansicht und Verfolgung der Nutzung Ihrer Aktivität in Ihrer Audience Manager-Instanz und gibt Ihnen eine klare Vorstellung davon, wie die Nutzung Ihrer Aktivität mit Ihrer vertraglichen Verpflichtung vergleichbar ist.
+Mit dem [!UICONTROL Activity Usage Report] können Sie die Aktivitätsnutzung Ihrer Audience Manager-Instanz anzeigen und verfolgen und erhalten eine klare Vorstellung davon, wie Ihre Aktivitätsnutzung im Vergleich zu Ihrer vertraglichen Verpflichtung aussieht.
 
 Darüber hinaus können Sie die [!UICONTROL Activity Usage Report] , wann immer Sie möchten, für die Aufbewahrung von Datensätzen und benutzerspezifische Analyse herunterladen.
 
