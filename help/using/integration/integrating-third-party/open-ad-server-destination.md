@@ -1,21 +1,21 @@
 ---
 description: Richten Sie Open Ad Server als Ziel ein und senden Sie Audience Manager-Daten an diese Plattform.
 seo-description: Richten Sie Open Ad Server als Ziel ein und senden Sie Audience Manager-Daten an diese Plattform.
-seo-title: OAS als Audience Manager-Ziel
+seo-title: OAS als Audience Manager-Ziel
 solution: Audience Manager
-title: OAS als Audience Manager-Ziel
+title: OAS als Audience Manager-Ziel
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# OAS als Audience Manager-Ziel {#oas-as-an-audience-manager-destination}
+# OAS als Audience Manager-Ziel {#oas-as-an-audience-manager-destination}
 
 Richten Sie [!DNL Open Ad Server] als Ziel ein und senden Sie Audience Manager-Daten an diese Plattform.
 
@@ -47,7 +47,7 @@ Die Menge an Daten, an die ein Benutzer weitergeleitet wird, [!DNL OAS] hängt d
 >[!MORELIKETHIS]
 >
 >* [get_aamCookie-Code](../../features/destinations/get-aam-cookie-code.md)
->* [Erläuterung von Seiten mit Schlüsselwert](../../reference/key-value-pairs-explained.md)
+>* [Schlüssel-Wert-Paare – Erklärung](../../reference/key-value-pairs-explained.md)
 
 
 ## OAS-Ziel erstellen {#oas-dest-setup}
@@ -56,7 +56,7 @@ Erstellen Sie ein cookie-basiertes Ziel für [!DNL OAS] den Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-Im Audience Manager ist ein *Ziel* ein anderes System (Anzeigen-Server, [!DNL DSP]Werbungsnetzwerk usw.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Data Versand-Prozesse erstellen und verwalten können. Die Audience Manager-Zielfunktionen finden Sie unter *Audience Data > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und befolgen Sie die folgenden Schritte.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Data Versand-Prozesse erstellen und verwalten können. Die Audience Manager-Zielfunktionen finden Sie unter *Audience Data > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und befolgen Sie die folgenden Schritte.
 
 ### Schritt 1: Basisinformationen
 
