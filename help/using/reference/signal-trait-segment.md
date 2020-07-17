@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Beschreibt die Komponenten eines [!DNL Audience Manager] [!UICONTROL segment]Ere
 
 [!DNL Audience Manager] Daten bestehen aus [!UICONTROL signals], [!UICONTROL traits]und [!UICONTROL segments]zugehörigen Qualifikationsregeln. Die Datenelemente und -regeln werden zu [!UICONTROL segments]ihrer Erstellung kombiniert. [!UICONTROL Segments] Site-Besucher in verwandte Gruppen zu organisieren. In der folgenden Tabelle sind die drei Hauptkomponenten in einem [!DNL Audience Manager][!UICONTROL segment]definiert.
 
-| Element | Besteht aus | Beispiel  |
+| Element | Besteht aus | Beispiel |
 |---|---|---|
 | [!UICONTROL Signal] | [!UICONTROL Signals] sind die kleinsten Dateneinheiten in [!DNL Audience Manager] und werden als [Schlüssel-Wert-Paare](../reference/key-value-pairs-explained.md)ausgedrückt.<br><br><ul><li>Der Schlüssel ist eine Konstante, die einen Datensatz definiert (z.B. Geschlecht, Farbe, Preis).</li><li>Der Wert ist eine Variable, die sich auf die Konstante bezieht (z. B. männlich/weiblich, grün, 100).</li></ul>Vergleichsoperatoren verbinden das Schlüssel-Wert-Paar und legen die Beziehung zwischen ihnen fest. | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
 | [!UICONTROL Trait] | Kombinationen aus einer oder mehreren Kombinationen [!UICONTROL signals].<br><br> [!DNL Boolean] Mit Ausdrücken und Vergleichsoperatoren können Sie [!UICONTROL trait] Qualifikationsregeln erstellen. <br><br>Präzise Qualifizierungsanforderungen mit Kombinationen aus [!UICONTROL traits] und [!UICONTROL trait] Gruppen. | In der verfügbaren Liste [!UICONTROL signals]können Sie eine `High End Camera Browser` Regel erstellen, die wie folgt aussieht: `product=camera AND price>1000` |
