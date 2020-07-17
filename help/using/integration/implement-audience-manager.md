@@ -1,21 +1,21 @@
 ---
 description: In diesem Abschnitt werden die Vorgänge für die ersten Schritte mit der Audience Manager Data Management Platform (DMP) erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologieverwaltern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Die ersten Schritte mit Audience Manager können je nach Bedarf Ihrer Datenerfassung etwa sechs bis drei Monate dauern.
 seo-description: In diesem Abschnitt werden die Vorgänge für die ersten Schritte mit der Audience Manager Data Management Platform (DMP) erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologieverwaltern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Die ersten Schritte mit Audience Manager können je nach Bedarf Ihrer Datenerfassung etwa sechs bis drei Monate dauern.
-seo-title: Implementierung von Audience Manager
+seo-title: Implementieren von Audience Manager
 solution: Audience Manager
-title: Implementierung von Audience Manager
+title: Implementieren von Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Implementierung von Audience Manager {#implementing-audience-manager}
+# Implementieren von Audience Manager {#implementing-audience-manager}
 
 In diesem Abschnitt werden die Vorgänge für die ersten Schritte mit der Audience Manager Data Management-Plattform ([!DNL DMP]) erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologieverwaltern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Die ersten Schritte mit Audience Manager können je nach Bedarf Ihrer Datenerfassung etwa sechs bis drei Monate dauern.
 
