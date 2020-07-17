@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1379'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -78,8 +78,8 @@ Abhängig vom Typ der Kunden-IDs, die Sie in Audience Manager haben (siehe [3). 
 
 **B) Erstellen Sie eine neue Datenquelle**. Diese Option gilt für den Fall, dass Ihre Audience Manager-Kunden-IDs ([DPUUIDs](../../reference/ids-in-aam.md)) keine Hash-E-Mail-Adressen sind. In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen und Ihre Hash-E-Mail-Adressen mit einbeziehen. Sie können dies auf zwei Arten tun:
 
-* Verwenden Sie die dateibasierte ID-Synchronisierung. Einzelheiten dazu, wie ID-Synchronisierungsdateien aussehen sollten, finden Sie unter [Name und Inhaltsanforderungen für ID-Synchronisierungsdateien](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) . Bei Verwendung dieser Methode können Sie alle Ihre Hash-E-Mail-Adressen aus Ihrer [!DNL CRM] Datenbank Zielgruppe haben.
-* Verwenden Sie [deklarierte IDs](../declared-ids.md) , um beim Übergeben authentifizierter Kunden-IDs Ihre Hash-E-Mail-Adressen zu deklarieren. Bei Verwendung dieser Methode werden von Audience Manager in Ihrem Namen nur Ihre Hash-E-Mail-Adressen von Benutzern Zielgruppe, die sich online authentifiziert haben. Die E-Mail-Adressen, die auf benutzerbasierte Kanal abzielen, sind nur die Adressen in den deklarierten ID-Ereignis-Aufrufen. Andere mit der Kunden-ID verknüpfte E-Mail-Adressen werden nicht in Echtzeit aktiviert.
+* Verwenden Sie die dateibasierte ID-Synchronisierung. Einzelheiten dazu, wie ID-Synchronisierungsdateien aussehen sollten, finden Sie unter [Anforderungen an den Namen und den Inhalt von ID-Synchronisierungsdateien](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md). When using this method, you can target all of your hashed email addresses from your [!DNL CRM] database.
+* Use [declared IDs](../declared-ids.md) to declare your hashed email addresses when passing in authenticated customer IDs. Bei Verwendung dieser Methode werden von Audience Manager in Ihrem Namen nur Ihre Hash-E-Mail-Adressen von Benutzern Zielgruppe, die sich online authentifiziert haben. Die E-Mail-Adressen, die auf benutzerbasierte Kanal abzielen, sind nur die Adressen in den deklarierten ID-Ereignis-Aufrufen. Andere mit der Kunden-ID verknüpfte E-Mail-Adressen werden nicht in Echtzeit aktiviert.
 
 ## 6. Profil Merge Rule for Segmentation verwenden {#use-profile-merge-rules}
 
