@@ -49,11 +49,11 @@ ID-Dateinamen enthalten die folgenden erforderlichen und optionalen Elemente:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> Die Master-Datenanbieter-ID ist die übergeordnete ID der DPIDs im Dateinamen. Außerdem entspricht die erste Benutzer-ID in der Datendatei der Master-ID. Die folgenden DPIDs sind andere IDs, die zum Master gehören. Bei der Synchronisierung werden DPIDs im Dateinamen UUIDs in der Datei zugeordnet. </td> 
+   <td colname="col2"> Die Übergeordnet-Datenanbieter-ID ist die übergeordnete ID der DPIDs im Dateinamen. Außerdem entspricht die erste Benutzer-ID in der Datendatei der Übergeordnet-ID. Die nachfolgenden DPIDs sind andere IDs, die zum Übergeordnete gehören. Bei der Synchronisierung werden DPIDs im Dateinamen UUIDs in der Datei zugeordnet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
-   <td colname="col2"> <p>Datenanbieter-IDs. Diese IDs stellen Entitäten oder Datenquellen dar, die mit der Master-DPID verknüpft sind. Bei der Synchronisierung werden DPIDs im Dateinamen UUIDs in der Datei zugeordnet. </p> <p>Die Anzahl der DPIDs im Dateinamen muss mit der Anzahl der UUIDs in der Datendatei übereinstimmen. Angenommen, Ihr Dateiname enthält eine Master-DPID und 3 DPIDs. Ihre Datendatei muss vier entsprechende Spalten von UUIDs enthalten, die wie im Abschnitt Dateiinhalt unten beschrieben formatiert sind. </p> </td> 
+   <td colname="col2"> <p>Datenanbieter-IDs. Diese IDs stellen Entitäten oder Datenquellen dar, die mit der Übergeordnet DPID verknüpft sind. Bei der Synchronisierung werden DPIDs im Dateinamen UUIDs in der Datei zugeordnet. </p> <p>Die Anzahl der DPIDs im Dateinamen muss mit der Anzahl der UUIDs in der Datendatei übereinstimmen. Angenommen, Ihr Dateiname enthält eine Übergeordnet-DPID und 3 DPIDs. Ihre Datendatei muss vier entsprechende Spalten von UUIDs enthalten, die wie im Abschnitt Dateiinhalt unten beschrieben formatiert sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
@@ -102,7 +102,7 @@ abc123 def456 ghi789 xyz987
 
 ## Synchronisierung stimmt mit DPUUIDs mit UUIDs überein {#sync-matches-dpuuids-uuids}
 
-Eine ID-Synchronisierungsdatei dient dazu, die [DPUUIDs](../../../reference/ids-in-aam.md) aus Ihren eigenen Data Sources mit [!DNL Audience Manager] UUIDs zu synchronisieren. Die Synchronisierung ordnet die [!DNL DPUUID]s vom Master [!DNL DPID] und die zugehörigen [!DNL DPID]s den [!DNL Audience Manager] [!DNL UUID]s zu. Wo Sie die IDs in den Dateinamen setzen und der Haupttext bestimmt, wie diese IDs einander zugeordnet werden. Nehmen Sie beispielsweise die beiden folgenden Beispieldateien:
+Eine ID-Synchronisierungsdatei dient dazu, die [DPUUIDs](../../../reference/ids-in-aam.md) aus Ihren eigenen Data Sources mit [!DNL Audience Manager] UUIDs zu synchronisieren. Die Synchronisierung ordnet die [!DNL DPUUID]s aus dem Übergeordnete [!DNL DPID] und den zugehörigen [!DNL DPID]s den [!DNL Audience Manager] [!DNL UUID]s zu. Wo Sie die IDs in den Dateinamen setzen und der Haupttext bestimmt, wie diese IDs einander zugeordnet werden. Nehmen Sie beispielsweise die beiden folgenden Beispieldateien:
 
 * **Datei 1:** `adobe_id_0_12345_1476312152.sync`
 
