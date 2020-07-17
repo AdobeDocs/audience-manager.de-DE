@@ -1,21 +1,21 @@
 ---
 description: Audience Manager nutzt verteilte, modernste Computing-Topologien, um die Anforderungen an unsere Systeme durch externe Quellen zu erfüllen.
 seo-description: Audience Manager nutzt verteilte, modernste Computing-Topologien, um die Anforderungen an unsere Systeme durch externe Quellen zu erfüllen.
-seo-title: Das Edge Data Center
+seo-title: Grundlegendes zum Edge-Datenzentrum
 solution: Audience Manager
-title: Das Edge Data Center
+title: Grundlegendes zum Edge-Datenzentrum
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Das Edge Data Center{#understanding-the-edge-data-center}
+# Grundlegendes zum Edge-Datenzentrum{#understanding-the-edge-data-center}
 
 Audience Manager nutzt verteilte, modernste Computing-Topologien, um die Anforderungen an unsere Systeme durch externe Quellen zu erfüllen.
 
