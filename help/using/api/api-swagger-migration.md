@@ -1,23 +1,23 @@
 ---
 description: Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie möchten wir mit zuverlässiger, genauer API-Dokumentation arbeiten. Daher schreiben wir unseren API-Inhalt in Swagger neu und verschieben ihn an einen neuen Speicherort. Diese Änderungen sollen Ihnen helfen, Ihre Benutzererfahrung mit dem Audience Manager-API-Code zu verbessern.
 seo-description: Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie möchten wir mit zuverlässiger, genauer API-Dokumentation arbeiten. Daher schreiben wir unseren API-Inhalt in Swagger neu und verschieben ihn an einen neuen Speicherort. Diese Änderungen sollen Ihnen helfen, Ihre Benutzererfahrung mit dem Audience Manager-API-Code zu verbessern.
-seo-title: Audience Manager-API-Codemigration
+seo-title: Audience Manager-API-Codemigration
 solution: Audience Manager
-title: Audience Manager-API-Codemigration
+title: Audience Manager-API-Codemigration
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# Audience Manager API Code Migration {#audience-manager-api-code-migration}
+# Audience Manager-API-Codemigration {#audience-manager-api-code-migration}
 
-Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie wollen wir mit zuverlässiger, genauer [!DNL API] Dokumentation arbeiten. Infolgedessen schreiben wir unseren [!DNL API] Inhalt neu [!DNL Swagger] und verschieben ihn an einen neuen Ort. Diese Änderungen sollen dazu beitragen, dass Sie mit dem Audience Manager- [!DNL API] Code besser umgehen können.
+Hier im Audience Manager sind wir Ingenieure, Entwickler und Code-Ninjas wie Sie. Und wie Sie wollen wir mit zuverlässiger, genauer [!DNL API] Dokumentation arbeiten. Infolgedessen schreiben wir unseren [!DNL API] Inhalt neu [!DNL Swagger] und verschieben ihn an einen neuen Ort. Diese Änderungen sollen Ihnen helfen, Ihre Benutzererfahrung mit dem Audience Manager- [!DNL API] Code zu verbessern.
 
 ## Movin&#39; On Up {#code-migration-details}
 
@@ -92,8 +92,8 @@ Die [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
 ---------|----------
 | **[!UICONTROL Algorithmic Models**] | [Algorithmische Modelle](https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API) |
 | **[!UICONTROL Audience Marketplace]** | <ul><li>[Data Feeds](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[Datenfeed-Anforderung](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[Datenfeed-Finanzen](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[Datenfeed-Pläne](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[Datenfeed-Abonnements](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
-| **[!UICONTROL Data Sources]** | [Datenquellen](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
+| **[!UICONTROL Data Sources]** | [Data Sources ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
 | **[!UICONTROL Folders]** | <ul><li>[Segmentordner](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[Eigenschaftsordner](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul> |
 | **[!UICONTROL Reporting]** | [Berichterstellung](https://bank.demdex.com/portal/swagger/index.html#/Reporting%20API) |
-| **[!UICONTROL Segments]** | <ul><li>[Segmente](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Segmenttestgruppen](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[Segment-Test-Gruppenentwurf-API](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
-| **[!UICONTROL Traits]** | [Eigenschaften](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
+| **[!UICONTROL Segments]** | <ul><li>[Segmente ](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Segmenttestgruppen](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[Segment-Test-Gruppenentwurf-API](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
+| **[!UICONTROL Traits]** | [Eigenschaften ](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
