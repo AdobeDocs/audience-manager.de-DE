@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -21,5 +21,5 @@ Drittanbieter von Inhalten können erwarten, dass sie Daten mit Audience Manager
 
 <!-- c_rt_realtime_intro.xml -->
 
-* [Pixelbasierte Datenübertragung](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
-* [Dateneinbettung in Echtzeit](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
+* [Pixelbasierte Datenübertragungen](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
+* [Erfassung eingehender Daten in Echtzeit](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
