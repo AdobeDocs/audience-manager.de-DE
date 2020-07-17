@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -92,7 +92,7 @@ Die folgenden Filter stehen zur Verfügung, wenn Sie einen allgemeinen Bericht a
 
 Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
 * [!UICONTROL Total Trait Realization] die Gesamtzahl der anonymen Eigenschaften innerhalb des ausgewählten Zeitraums.
 * [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Besucher, die diese Eigenschaft auf ihrem Profil haben.
 
