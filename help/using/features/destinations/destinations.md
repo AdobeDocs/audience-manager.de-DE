@@ -1,7 +1,7 @@
 ---
-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
+description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.) für das Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
+seo-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.) für das Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
 seo-title: 'Ziele '
 solution: Audience Manager
 title: 'Ziele '
@@ -11,14 +11,14 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# [!UICONTROL Destinations] Übersicht {#destinations}
+# [!UICONTROL Destinations] Überblick {#destinations}
 
-Im Audience Manager [!UICONTROL destination] ist ein Drittanbietersystem (Anzeigenserver, [!DNL DSP]Werbungsnetzwerk usw.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool, das Sie zum Erstellen und Verwalten [!UICONTROL cookie], [!DNL URL]oder [!UICONTROL server-to-server destinations]Verwalten verwendet haben.
+Im Audience Manager [!UICONTROL destination] ist ein Drittanbietersystem (Anzeigenserver, [!DNL DSP]Werbungsnetzwerk usw.) für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool, das Sie zum Erstellen und Verwalten [!UICONTROL cookie], [!DNL URL]oder [!UICONTROL server-to-server destinations]Verwalten verwendet haben.
 
 ## Zweck und Vorteile {#purposes}
 
@@ -47,7 +47,7 @@ Geschäftsentscheidungen bei der Auswahl einer Versand-Methode im Vergleich zu e
 
 Die Beispiele in der folgenden Tabelle helfen Ihnen dabei, zu verstehen, wann ein bestimmter Typ verwendet werden soll [!UICONTROL destination] und welche Unterschiede zwischen den einzelnen Typen bestehen.
 
-| [!UICONTROL Destination] Geben Sie | Wird normalerweise verwendet, wenn | Beispiel  | Zu beachten |
+| [!UICONTROL Destination] Geben Sie | Wird normalerweise verwendet, wenn | Beispiel | Zu beachten |
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | Sie müssen Daten an andere Adobe Experience Cloud-Lösungen senden. | Senden von Daten an Adobe Analytics. |  |
 | **[!UICONTROL People-Based Destinations]** | Sie müssen Audiencen-Segmente an benutzerbasierte Umgebung wie Facebook senden. | Auslieferung personalisierter Angebot an Bestandskunden anhand ihrer Einkaufshistorie | Audiencen-Targeting erfolgt über Hash-IDs. Siehe [Benutzerbasierte Ziele](people-based-destinations-overview.md). |
