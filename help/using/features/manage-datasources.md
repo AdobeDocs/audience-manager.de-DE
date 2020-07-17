@@ -2,7 +2,7 @@
 description: Um eine neue Datenquelle zu erstellen, gehen Sie zu "Audience-Daten"> "Datenquellen"> "Hinzufügen Neu"und führen Sie die Schritte für jeden dieser Abschnitte aus. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
 keywords: data sources;manage data source;audience manager data source
 seo-description: Um eine neue Datenquelle zu erstellen, gehen Sie zu "Audience-Daten"> "Datenquellen"> "Hinzufügen Neu"und führen Sie die Schritte für jeden dieser Abschnitte aus. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
-seo-title: Datenquelle erstellen
+seo-title: Erstellen einer Datenquelle
 solution: Audience Manager
 title: Data Sources verwalten
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ So füllen Sie den [!UICONTROL Data Source Details] Abschnitt aus:
 1. Geben Sie eine [!UICONTROL integration code]an. Im Allgemeinen [!UICONTROL integration codes] sind sie optional. Sie sind erforderlich, wenn Sie:
 
    * [Erstellen Sie eine geräteübergreifende Datenquelle](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Verwenden Sie den Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+   * Use the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
    * Arbeiten mit [Profil Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Wählen Sie eine **[!UICONTROL ID Type]**. [!UICONTROL ID Type] umfassen:
