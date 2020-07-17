@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -32,10 +32,10 @@ Auf dieser Seite wird das Erstellen von [!DNL Facebook Website Custom Audiences]
 
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] Segmente, die für die Zuweisung zu Ihrem neuen [!DNL Facebook] Ziel bereit sind. Hier [erfahren Sie, wie Sie ein Segment](/help/using/features/segments/segment-builder.md) in der [!DNL Audience Manager] Benutzeroberfläche erstellen.
-3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Version 4.1.0 oder neuer. Laden Sie die neueste Version **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**herunter.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) Version 9.0 oder neuer, von **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**herunterzuladen. Wenn Sie zum Importieren von Daten auch[serverseitige Weiterleitungen (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)verwenden,[!DNL Audience Manager]müssen Sie AppMeasurement Version 2.12 oder höher verwenden. Herunterladen[!DNL AppMeasurement]mit dem[Analytics Code-Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Version 4.1.0 oder neuer. Download the latest version **[here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) Version 9.0 oder neuer, von **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**herunterzuladen. Wenn Sie zum Importieren von Daten auch[serverseitige Weiterleitungen (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)verwenden,[!DNL Audience Manager]müssen Sie AppMeasurement Version 2.12 oder höher verwenden. Download[!DNL AppMeasurement]using the[Analytics Code Manager](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/code-manager-admin.html).
 
-Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mithilfe von [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) oder [Adobe Dynamisches Tag-Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)zu installieren oder zu aktualisieren.
+Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mithilfe von [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) oder [Adobe Dynamisches Tag-Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html)zu installieren oder zu aktualisieren.
 
 ## Schritt 1: Erstellen Sie eine [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
