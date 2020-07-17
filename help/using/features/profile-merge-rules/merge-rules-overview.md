@@ -1,21 +1,21 @@
 ---
 description: Mit Profil Merge Rules erhalten Sie die Kontrolle über die für die Segmentierung verwendeten Datensätze und können eine Zielgruppe auf mehreren Geräten durchführen.
 seo-description: Mit Profil Merge Rules erhalten Sie die Kontrolle über die für die Segmentierung verwendeten Datensätze und können eine Zielgruppe auf mehreren Geräten durchführen.
-seo-title: Übersicht über Profil Merge Rules
+seo-title: Profilzusammenführungsrichtlinien – Überblick
 solution: Audience Manager
-title: Übersicht über Profil Merge Rules
+title: Profilzusammenführungsrichtlinien – Überblick
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# [!UICONTROL Profile Merge Rules] Übersicht {#profile-merge-rules-overview}
+# [!UICONTROL Profile Merge Rules] Überblick {#profile-merge-rules-overview}
 
 Mit [!UICONTROL Profile Merge Rules] dieser Funktion können Sie steuern, welche Datensätze für die Segmentierung verwendet werden, und Benutzer auf mehreren Geräten präzise Zielgruppen vornehmen.
 
@@ -42,8 +42,8 @@ Diese verschiedenen Profil steuern die Daten, die Sie für die Segmentierung ver
 
 Mit [!UICONTROL Profile Merge Rules] der folgenden Funktion:
 
-* Target-Benutzer basierend auf [authentifiziertem Profil](../../reference/visitor-authentication-states.md), anonymen Profilen oder Kombinationen aus beidem.
-* Target eines bestimmten Kunden auf allen Geräten.
+* Zielgruppe von Benutzern auf der Grundlage von [authentifiziertem Profil](../../reference/visitor-authentication-states.md), anonymen Profilen oder Kombinationen aus beidem.
+* Zielgruppe eines bestimmten Kunden auf allen Geräten.
 * Erstellen Sie ein Gerätediagramm basierend auf deterministischen Daten.
 * Feinabstimmung der Daten in Ihrem [!UICONTROL segments] auf Grundlage verschiedener Profil.
 * Erhalten Sie weitere Einblicke in Ihre Audience.
