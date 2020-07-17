@@ -2,18 +2,18 @@
 description: Erhalten Sie Audiencen von Audience Manager.
 seo-description: Erhalten Sie Audiencen-Daten von Adobe Audience Manager (AAM).
 seo-title: Empfangen von Audiencen-Daten in Adobe Audience Manager (AAM)
-title: Daten zur Audience empfangen
+title: 'Empfangen von Zielgruppendaten '
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
 
-# Daten zur Audience empfangen
+# Empfangen von Zielgruppendaten 
 
 Erhalten Sie Audiencen von Audience Manager.
 
@@ -25,6 +25,6 @@ Erhalten Sie Audiencen von Audience Manager.
 
    Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
 
-* [Batch-Ausgehende Datenübertragungen](batch-outbound-transfers/batch-outbound-overview.md)
+* [Ausgehende Batch-Datenübertragungen ](batch-outbound-transfers/batch-outbound-overview.md)
 
    Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter für Inhalte.
