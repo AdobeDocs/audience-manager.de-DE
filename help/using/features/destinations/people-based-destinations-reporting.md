@@ -1,20 +1,20 @@
 ---
 description: 'Personenbezogene Reiseziele führen den Begriff der freigegebenen Audiencen in Audience Manager ein. Anhand dieser Metrik können Sie erkennen, wie viele der Hash-E-Mail-Adressen Audience Manager für die Zielplattform freigeben können. '
 seo-description: 'Personenbezogene Reiseziele führen den Begriff der freigegebenen Audiencen in Audience Manager ein. Anhand dieser Metrik können Sie erkennen, wie viele der Hash-E-Mail-Adressen Audience Manager für die Zielplattform freigeben können. '
-seo-title: Freigegebene Audiencen
+seo-title: Teilbare Zielgruppen
 solution: Audience Manager
-title: Freigegebene Audiencen
+title: Teilbare Zielgruppen
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Freigegebene Audiencen {#shareable-audiences}
+# Teilbare Zielgruppen {#shareable-audiences}
 
 >[!IMPORTANT]
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
@@ -37,7 +37,7 @@ Die [!DNL Destination Shareable Audience] Metrik auf einer benutzerbasierten Zie
 
 Diese Metrik verfügt über eine Lebensdauer-Rückblickzeit. Auf diese Weise können Sie den Umfang der Audience verstehen, die Sie aus der Datenquelle für Hash-E-Mail-Adressen erreichen können.
 
-## Beispiel 
+## Beispiel
 
 Ein Audience Manager hat eine Datenquelle mit 110.000 [DPUUIDs](../../reference/ids-in-aam.md) (CRM-IDs). Sie erfassen 100.000 Hash-E-Mail-Adressen in Audience Manager, verwenden sie mit mehreren benutzerbasierten Zielen und führen eine ID-Synchronisierung für die 100.000 Hash-E-Mail-Adressen mit den CRM-IDs durch. Der Kunde kann die [!DNL All Cross-Device Profiles] Zusammenführungsregel verwenden, um drei Audiencen zu erstellen:
 
