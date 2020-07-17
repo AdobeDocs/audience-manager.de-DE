@@ -1,21 +1,21 @@
 ---
 description: Dabei handelt es sich um spezielle Eigenschaften, die von adressierbaren Audiencen verwendet werden. Aktive Audience- und Datenquelle-synchronisierte Eigenschaften befinden sich unter "Audience-Daten"> "Eigenschaften"> "Audiencen-Eigenschaften".
 seo-description: Dabei handelt es sich um spezielle Eigenschaften, die von adressierbaren Audiencen verwendet werden. Aktive Audience- und Datenquelle-synchronisierte Eigenschaften befinden sich unter "Audience-Daten"> "Eigenschaften"> "Audiencen-Eigenschaften".
-seo-title: Eigenschaften der aktiven Audience und von Datenquelle synchronisierte Eigenschaften
+seo-title: Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften
 solution: Audience Manager
-title: Eigenschaften der aktiven Audience und von Datenquelle synchronisierte Eigenschaften
+title: Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Eigenschaften der aktiven Audience und von Datenquelle synchronisierte Eigenschaften {#active-audience-traits-and-data-source-synced-traits}
+# Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften {#active-audience-traits-and-data-source-synced-traits}
 
 Dies sind spezielle Eigenschaften, die von [!UICONTROL Addressable Audiences]Ihnen verwendet werden. [!UICONTROL Active Audience] und [!UICONTROL Data Source Synced Traits] befinden sich in [!UICONTROL Audience Data > Traits > Audience Traits].
 
@@ -41,5 +41,5 @@ Eine [!UICONTROL Active Audience] Eigenschaft enthält alle Geräte, die in Ihre
 
 >[!MORELIKETHIS]
 >
->* [Addressable Audiences](../../features/addressable-audiences.md)
+>* [Ansprechbare Zielgruppen](../../features/addressable-audiences.md)
 
