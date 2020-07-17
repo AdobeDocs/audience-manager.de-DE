@@ -1,20 +1,20 @@
 ---
 description: Suchen Sie nach einem oder mehreren Signalen, basierend auf ihren jeweiligen Schlüssel-Wert-Paaren.
 seo-description: Suchen Sie nach einem oder mehreren Signalen, basierend auf ihren jeweiligen Schlüssel-Wert-Paaren.
-seo-title: Suchsignale nach Schlüsselwertpaaren
-title: Suchsignale nach Schlüsselwertpaaren
+seo-title: Suchsignale nach Schlüssel-Wert-Paaren
+title: Suchsignale nach Schlüssel-Wert-Paaren
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Suchsignale nach Schlüsselwertpaaren {#search-signals-by-key-value-pairs}
+# Suchsignale nach Schlüssel-Wert-Paaren {#search-signals-by-key-value-pairs}
 
 Suchen Sie nach einem oder mehreren Signalen, basierend auf ihren jeweiligen Schlüssel-Wert-Paaren.
 Wenn Sie nach mehr als einem Signal suchen möchten, klicken Sie auf die ![Hinzufügen](assets/icon_add.png) . Geben Sie die Schlüssel-Wert-Paare ein, nach denen Sie suchen möchten, und verwenden Sie dann die folgenden Filter, um die Ergebnisse einzugrenzen.
