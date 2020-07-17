@@ -1,21 +1,21 @@
 ---
 description: REST-API-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
 seo-description: REST-API-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
-seo-title: API-Methoden für Gruppenverwaltung
+seo-title: API-Methoden für die Gruppenverwaltung
 solution: Audience Manager
-title: API-Methoden für Gruppenverwaltung
+title: API-Methoden für die Gruppenverwaltung
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
 
-# API-Methoden für Gruppenverwaltung {#group-management-api-methods}
+# API-Methoden für die Gruppenverwaltung {#group-management-api-methods}
 
 Die übrigen [!DNL API] Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
 
