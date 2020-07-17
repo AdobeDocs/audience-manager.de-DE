@@ -1,21 +1,21 @@
 ---
 description: Eine allgemeine Übersicht darüber, wie Audience Manager einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
 seo-description: Eine allgemeine Übersicht darüber, wie Audience Manager einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
-seo-title: Stapeldatenübermittlungsprozess beschrieben
+seo-title: Beschreibung des Batch-Datenübertragungsprozesses
 solution: Audience Manager
-title: Stapeldatenübermittlungsprozess beschrieben
+title: Beschreibung des Batch-Datenübertragungsprozesses
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 feature: null
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Stapeldatenübermittlungsprozess beschrieben {#batch-data-transfer-process-described}
+# Beschreibung des Batch-Datenübertragungsprozesses {#batch-data-transfer-process-described}
 
 Eine allgemeine Übersicht darüber, wie [!DNL Audience Manager] ein asynchroner Batch-Datenaustausch mit einem Drittanbieter durchgeführt wird.
 
