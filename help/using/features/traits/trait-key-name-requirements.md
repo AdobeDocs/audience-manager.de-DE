@@ -1,21 +1,21 @@
 ---
 description: In diesem Artikel werden die Benennungskonventionen beschrieben, die von der Schlüsselvariablen in einem Schlüssel-Wert-Paar verwendet werden.
 seo-description: In diesem Artikel werden die Benennungskonventionen beschrieben, die von der Schlüsselvariablen in einem Schlüssel-Wert-Paar verwendet werden.
-seo-title: Namensanforderungen für Schlüsselvariablen
+seo-title: Anforderungen an Namen für Schlüsselvariablen
 solution: Audience Manager
-title: Namensanforderungen für Schlüsselvariablen
+title: Anforderungen an Namen für Schlüsselvariablen
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
 
-# Namensanforderungen für Schlüsselvariablen {#name-requirements-for-key-variables}
+# Anforderungen an Namen für Schlüsselvariablen {#name-requirements-for-key-variables}
 
 In diesem Artikel werden die Benennungskonventionen beschrieben, die von der Schlüsselvariablen in einem Schlüssel-Wert-Paar verwendet werden.
 
