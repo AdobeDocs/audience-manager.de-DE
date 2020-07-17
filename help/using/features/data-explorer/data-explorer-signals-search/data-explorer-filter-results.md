@@ -1,20 +1,20 @@
 ---
 description: Filtern Sie die Ergebnisse einer Signalsuche nach dem Signaltyp.
 seo-description: Filtern Sie die Ergebnisse einer Signalsuche nach dem Signaltyp.
-seo-title: Suchergebnisse filtern
-title: Suchergebnisse filtern
+seo-title: Filtern von Suchergebnissen
+title: Filtern von Suchergebnissen
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Suchergebnisse filtern {#filter-search-results}
+# Filtern von Suchergebnissen {#filter-search-results}
 
 Filtern Sie die Ergebnisse einer Signalsuche nach dem Signaltyp.
 
