@@ -1,16 +1,16 @@
 ---
 description: Hinzufügen und entfernen Sie Eigenschaften im Segmentaufbau, um tatsächliche Eigenschaftspopulationen zusammen mit tatsächlichen und geschätzten Segmentpopulationsdaten anzuzeigen. Anhand der Daten zur geschätzten Populationsgröße können Sie das richtige Segment für Ihre Kampagne erstellen.
 seo-description: Hinzufügen und entfernen Sie Eigenschaften im Segmentaufbau, um tatsächliche Eigenschaftspopulationen zusammen mit tatsächlichen und geschätzten Segmentpopulationsdaten anzuzeigen. Anhand der Daten zur geschätzten Populationsgröße können Sie das richtige Segment für Ihre Kampagne erstellen.
-seo-title: Eigenschaften- und Segmentpopulationsdaten im Segmentaufbau
+seo-title: Eigenschafts- und Segmentpopulationsdaten in Segment Builder
 solution: Audience Manager
-title: Eigenschaften- und Segmentpopulationsdaten im Segmentaufbau
+title: Eigenschafts- und Segmentpopulationsdaten in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -88,7 +88,7 @@ Die folgende Tabelle definiert die geschätzten Populationsmetriken.
 
 ## Vorhandene (tatsächliche) Segmentpopulationsdaten definiert {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] Auswirkungen auf die tatsächlichen Echtzeit- und Gesamtbevölkerungszahlen. Diese Summen variieren, je nachdem, ob das Segment einer Gerätediagrammoption angehört oder nicht. [!UICONTROL Profile Merge Rule] Siehe auch Optionen für die [Profil-Zusammenführungsregel definiert](../../features/profile-merge-rules/merge-rule-definitions.md).
+[!UICONTROL Profile Merge Rules] Auswirkungen auf die tatsächlichen Echtzeit- und Gesamtbevölkerungszahlen. Diese Summen variieren, je nachdem, ob das Segment einer Gerätediagrammoption angehört oder nicht. [!UICONTROL Profile Merge Rule] See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
 
 ### Segmentpopulationsdaten für [!UICONTROL Merge Rules] ohne [!UICONTROL Device Graph Option]
 
@@ -137,6 +137,6 @@ Gegenwärtig gibt es eine bekannte Einschränkung, da unser Segmentgrößenschä
 
 >[!MORELIKETHIS]
 >
->* [Häufig gestellte Fragen zu Profil Merge Rules and Device Graph](../../faq/faq-profile-merge.md)
->* [Profillink](../profile-merge-rules/merge-rules-overview.md)
+>* [Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zum Gerätediagramm](../../faq/faq-profile-merge.md)
+>* [Profil-Link](../profile-merge-rules/merge-rules-overview.md)
 
