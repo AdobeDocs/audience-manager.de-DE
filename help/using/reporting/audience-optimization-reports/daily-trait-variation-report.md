@@ -1,21 +1,21 @@
 ---
 description: Dieser Bericht gibt eine Liste von Eigenschaften zurück, die in den 30 Tagen vor dem/den gewählten Datum/en mindestens 10.000 Mal realisiert wurden und die eine Standardabweichung von 1,7 in beide Richtungen im selben Zeitintervall aufweisen. Der Bericht hilft Ihnen bei der Beurteilung, wie viele Impressionen von Unique Users in einer Eigenschaft im Laufe der Zeit schwanken.
 seo-description: Dieser Bericht gibt eine Liste von Eigenschaften zurück, die in den 30 Tagen vor dem/den gewählten Datum/en mindestens 10.000 Mal realisiert wurden und die eine Standardabweichung von 1,7 in beide Richtungen im selben Zeitintervall aufweisen. Der Bericht hilft Ihnen bei der Beurteilung, wie viele Impressionen von Unique Users in einer Eigenschaft im Laufe der Zeit schwanken.
-seo-title: Täglicher Bericht "Eigenschaftsvarianz"
+seo-title: Täglicher Bericht zur Eigenschaftsvarianz
 solution: Audience Manager
-title: Täglicher Bericht "Eigenschaftsvarianz"
+title: Täglicher Bericht zur Eigenschaftsvarianz
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Täglicher Bericht &quot;Eigenschaftsvarianz&quot; {#daily-trait-variation-report}
+# Täglicher Bericht zur Eigenschaftsvarianz {#daily-trait-variation-report}
 
 Dieser Bericht gibt eine Liste von Eigenschaften zurück, die in den 30 Tagen vor dem/den gewählten Datum/en mindestens 10.000 Mal realisiert wurden und die eine Standardabweichung von 1,7 in beide Richtungen im selben Zeitintervall aufweisen. Der Bericht hilft Ihnen bei der Beurteilung, wie viele Impressionen von Unique Users in einer Eigenschaft im Laufe der Zeit schwanken.
 
