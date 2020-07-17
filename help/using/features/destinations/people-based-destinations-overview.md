@@ -3,18 +3,18 @@ description: 'Verwenden Sie benutzerbasierte Ziele, um Erstanbieter-Audiencen an
 seo-description: 'Verwenden Sie benutzerbasierte Ziele, um Erstanbieter-Audiencen an benutzerbasierte Umgebung zu senden. Bei diesen Umgebung handelt es sich um geschlossene Ökosysteme, die zu einer Entität gehören, die die darin angezeigten Inhalte steuert. Dazu gehören soziale Plattformen wie Facebook und andere Plattformen, die zur Personalisierung der angezeigten Inhalte auf Kundenkonten angewiesen sind.  '
 seo-title: Übersicht über benutzerspezifische Ziele und Anwendungsfälle
 solution: Audience Manager
-title: Übersicht und Anwendungsfälle
+title: Überblick und Anwendungsfälle
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Übersicht und Anwendungsfälle {#overview-use-cases}
+# Überblick und Anwendungsfälle {#overview-use-cases}
 
 Verwenden Sie diese Option, [!DNL People-Based Destinations] um Erstanbieter-Audiencen an benutzerbasierte Umgebung zu senden. Bei diesen Umgebung handelt es sich um geschlossene Ökosysteme, die zu einer Entität gehören, die die darin angezeigten Inhalte steuert. Dazu gehören soziale Plattformen wie [!DNL Facebook]und andere Plattformen, die zur Personalisierung der angezeigten Inhalte auf Kundenkonten angewiesen sind.
 
@@ -25,24 +25,24 @@ Verwenden Sie diese Option, [!DNL People-Based Destinations] um Erstanbieter-Aud
 
 [!DNL People-Based Destinations] ermöglichen Ihnen die Anwendung der Segmentierung auf Online- und Offlinedaten, um Audiencen basierend auf [Hash-Bezeichnern](people-based-destinations-prerequisites.md#hashing-requirements)wie E-Mail-Adressen oder Telefonnummern zu erstellen. Anschließend können Sie diese Segmente an &quot;umschlossene Gärten&quot;senden, z. B. [!DNL Facebook]an die Zielgruppe Ihrer Audience auf sozialen Plattformen. [!DNL People-Based Destinations] können Ihnen dabei helfen,
 
-* Target von Offline- und Online-Audiencen in Plattformen wie [!DNL Facebook]auf Basis von Hash-E-Mail-Adressen;
+* Zielgruppe von Offline- und Online-Audiencen auf Plattformen wie [!DNL Facebook]den Hash-E-Mail-Adressen;
 * Ergänzung der bestehenden Geräte- und Cookie-Targeting-Funktionen von Audience Manager;
 * Beseitigung der Kosten im Zusammenhang mit Drittanbieterdaten über Einstiegslösungen;
 * Beseitigung von Kosten im Zusammenhang mit der Entwicklung benutzerspezifischer Daten über Workflows;
-* Target-Audiencen in Umgebung ohne Cookies;
-* Target-Audiencen durch Deduplizierung von Hash-E-Mail-Adressen, die mit Kunden-IDs übereinstimmen.
+* Audiencen der Zielgruppe in Umgebung ohne Cookies;
+* Audiencen der Zielgruppe durch Deduplizierung von Hash-E-Mail-Adressen, die mit Kunden-IDs übereinstimmen.
 
 Sie können [!DNL People-Based Destinations] zur Segmentierung und Zielgruppe von Kunden mit hohem Wert, die Ihre Website möglicherweise nicht besuchen, oder zur Einstellung des Targeting von Kunden, die bereits offline konvertiert haben, verwenden. Darüber hinaus können Sie Ihre Offline-Erstanbieter-Daten mit Ihren Online-Erstanbieterdaten, einschließlich Kundendaten aus anderen Adobe Experience Cloud-Lösungen, kombinieren, um Ihre Social-Media-Werbemaßnahmen zu optimieren. [!DNL Profile Merge Rules]
 
 ![pbd-overview](assets/pbd-overview.png)
 
-## Availability {#availability}
+## Verfügbarkeit {#availability}
 
 [!DNL People-Based Destinations] ist eine Premium-Audience Manager-Integration. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um diese Premium-Funktion nutzen zu können.
 
 ## Warum sollten Sie [!UICONTROL People-Based Destinations] {#why-use}
 
-**Stellen Sie Ihren Kunden eine konsistente Erlebnis für alle Kanal bereit, indem Sie die gesamte Segmentierung der Audience innerhalb des Audience Managers verwalten.**
+**Bieten Sie Ihren Kunden konsistente Erlebnisse über Kanal hinweg, indem Sie die Segmentierung Ihrer gesamten Audience innerhalb des Audience Managers verwalten.**
 
 Wenn Sie Ihre Audiencen nicht über Audience Manager in benutzerspezifischen Kanälen aktivieren, führt dies zu unterschiedlichen Erlebnissen zwischen dem, was Ihre Kunden beim Besuch Ihrer Website sehen, und dem, was sie z. B. in ihren [!DNL Facebook] Feeds sehen. Ein konsistentes Targeting über Kanal hinweg kann Ihren Anzeigenumsatz erhöhen und gleichzeitig Ihre Anzeigenausgaben optimieren.
 
