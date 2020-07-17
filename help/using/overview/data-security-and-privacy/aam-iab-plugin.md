@@ -8,8 +8,8 @@ feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2449'
+ht-degree: 40%
 
 ---
 
@@ -66,11 +66,11 @@ Sie müssen die folgenden Voraussetzungen erfüllen, um das Audience Manager-Plu
 1. Sie müssen Adobe Experience Platform Identity Service (ECID) Version 5 (oder neuer) verwenden. [Laden](https://github.com/Adobe-Marketing-Cloud/id-service/releases) Sie unsere neueste ECID-Version herunter.
 2. You must be using Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Weitere Informationen zur DIL finden Sie [in der Dokumentation zu Audience Manager](../..//dil/dil-overview.md). Es wird empfohlen, [Adobe Launch](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) für die einfachste DIL-Implementierung für Audience Manager zu verwenden.
 3. Alternatively, if you use [!DNL Server-Side Forwarding] (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Laden Sie AppMeasurement mit dem [Analytics-Code-Manager](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/code-manager-admin.html) herunter.
-4. Sie müssen eine Consent Management Platform (CMP) verwenden, entweder kommerziell oder eigens, die mit IAB TCF v2.0 integriert ist und bei der IAB TCF registriert ist. Siehe dazu die Liste der [beim IAB-Framework registrieren CMPs](https://iabeurope.eu/cmp-list/).
+4. Sie müssen entweder eine kommerzielle oder eigene Consent Management Platform (CMP) verwenden, die mit IAB TCF v2.0 integriert ist und bei der IAB TCF registriert ist. Siehe dazu die Liste der [beim IAB-Framework registrieren CMPs](https://iabeurope.eu/cmp-list/).
 
 >[!WARNING]
 >
->Wenn Sie eine Consent Management Platform (CMP) verwenden, die IAB TCF v.2.0 nicht unterstützt, sendet Audience Manager den `gdpr=0` Parameter automatisch in ID-Syncs, auch wenn sich Ihre Besucher in der europäischen Vereinigung befinden. Um festzustellen, ob Ihre GDPR-Validierung aktiv ist, sollten Sie mit Ihrer Platform für die Consent Management (CMP) bestätigen, dass sie IAB TCF v2.0 unterstützen.
+>Wenn Sie eine Consent Management Platform (CMP) verwenden, die IAB TCF v.2.0 nicht unterstützt, sendet Audience Manager den `gdpr=0` Parameter automatisch in ID-Syncs, auch wenn sich Ihre Besucher in der europäischen Vereinigung befinden. Um festzustellen, ob Ihre GDPR-Validierung aktiv ist, sollten Sie mit Ihrer Consent Management Platform (CMP) bestätigen, dass sie IAB TCF v2.0 unterstützen.
 
 ## Empfehlungen und Implementierung {#recommendations}
 
@@ -184,7 +184,7 @@ Weitere Informationen zu den unterstützten Zielmakros finden Sie unter [Zielmak
 
 ## Geräteübergreifende Verwaltung der Zustimmung
 
-Das Audience Manager-Plug-in für die IAB-TCF meldet die IDs, die bei einer Anforderung vorhanden sind, automatisch ab, wenn Ihre Site-Besucher nicht über die entsprechenden Berechtigungen verfügen. Wenn die Anforderung eine [geräteübergreifende ID (CRM-ID)](../../reference/ids-in-aam.md)enthält, wählt der Audience Manager die ID zusammen mit dem letzten mit dieser [geräteübergreifenden ID (CRM-ID)](../../reference/ids-in-aam.md)verknüpften Gerät aus.
+Das Audience Manager-Plug-in für die IAB-TCF meldet die bei einer Anforderung vorhandenen IDs automatisch ab, wenn Ihre Site-Besucher nicht über die entsprechenden Berechtigungen verfügen. Wenn die Anforderung eine [geräteübergreifende ID (CRM-ID)](../../reference/ids-in-aam.md)enthält, wählt der Audience Manager die ID zusammen mit dem letzten mit dieser [geräteübergreifenden ID (CRM-ID)](../../reference/ids-in-aam.md)verknüpften Gerät aus.
 
 ## Testen der IAB-Implementierung {#test-iab-implementation}
 
