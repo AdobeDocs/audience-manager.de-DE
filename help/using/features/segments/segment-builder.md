@@ -1,16 +1,16 @@
 ---
 description: Beschreibt das Erstellen von Segmenten mit dem Segmentaufbau.
 seo-description: Beschreibt das Erstellen von Segmenten mit dem Segmentaufbau.
-seo-title: Segmentaufbau
+seo-title: Segment Builder
 solution: Audience Manager
-title: Segmentaufbau
+title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -135,7 +135,7 @@ In [!UICONTROL Segment Builder]diesem Abschnitt können Sie [!UICONTROL Traits] 
 | Durchsuchen | Hilft Ihnen [!UICONTROL traits] zu einer [!UICONTROL segment]hinzuzufügen. |
 | Empfehlungen | Hier erhalten Sie Live-Empfehlungen für ähnliche Dienste [!UICONTROL traits]von Ihren Erstanbieter- [!UICONTROL traits] und [!UICONTROL Audience Marketplace] Datenfeeds, die Sie abonniert haben. Hinzufügen Sie diese Empfehlungen an die [!UICONTROL segment] Regel, um Ihre Audience zu erweitern. Mehr darüber finden Sie unter [Eigenschaftsempfehlungen](trait-recommendations.md). |
 | **[!UICONTROL Marketplace Recommendations]** | Rufen Sie Live-Empfehlungen für ähnliche Dienste [!UICONTROL traits]aus [!UICONTROL Audience Marketplace] Datenfeeds ab, die Sie nicht abonniert haben. Mehr darüber finden Sie unter [Eigenschaftsempfehlungen](trait-recommendations.md). |
-| Daten zur tatsächlichen und geschätzten [!UICONTROL Segment] Größe | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
+| Daten zur tatsächlichen und geschätzten [!UICONTROL Segment] Größe | Siehe [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](segment-builder-data.md). |
 
 ## Entfernen [!UICONTROL Traits] von [!UICONTROL Segment] {#remove-traits}
 
