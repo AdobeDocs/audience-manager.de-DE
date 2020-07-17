@@ -1,21 +1,21 @@
 ---
 description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
 seo-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
-seo-title: Eigenschafts-Typmethoden
+seo-title: Eigenschaftstypmethoden
 solution: Audience Manager
-title: Eigenschafts-Typmethoden
+title: Eigenschaftstypmethoden
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
 
-# Eigenschafts-Typmethoden {#trait-type-methods}
+# Eigenschaftstypmethoden {#trait-type-methods}
 
 Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
 
