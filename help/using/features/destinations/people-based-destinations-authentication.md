@@ -1,20 +1,20 @@
 ---
 description: 'Diese Seite enthält Anleitungen zum Konfigurieren und Verwalten der Integration zwischen Audience Manager- und benutzerbasierten Plattformen. '
 seo-description: 'Diese Seite enthält Anleitungen zum Konfigurieren und Verwalten der Integration zwischen Audience Manager- und benutzerbasierten Plattformen. '
-seo-title: Authentifizierung mit benutzerspezifischen Platformen
+seo-title: Authentifizierung mit benutzerbezogenen Plattformen
 solution: Audience Manager
-title: Authentifizierung mit benutzerspezifischen Platformen
+title: Authentifizierung mit benutzerbezogenen Plattformen
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Authentifizierung mit benutzerspezifischen Platformen {#authentication-with-people-based-platforms}
+# Authentifizierung mit benutzerbezogenen Plattformen {#authentication-with-people-based-platforms}
 
 >[!IMPORTANT]
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
@@ -24,7 +24,7 @@ Diese Seite enthält Anleitungen, wie Sie Ihre Integration zwischen Audience Man
 >[!NOTE]
 >Dies ist ein obligatorischer Schritt für benutzerspezifische Ziele, unabhängig von Ihrem Implementierungsszenario.
 
-## Personalisierte Platform konfigurieren {#configure-authentication}
+## Personalisierte Plattformauthentifizierung konfigurieren {#configure-authentication}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer sozialen Plattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
    ![people-based-integration](assets/pbd-config.png)
@@ -33,7 +33,7 @@ Diese Seite enthält Anleitungen, wie Sie Ihre Integration zwischen Audience Man
    ![people-based-platform](assets/pbd-add.png)
 4. Klicken Sie auf **[!UICONTROL Confirm]** , um zur Authentifizierungsseite der ausgewählten Plattform umgeleitet zu werden.
 5. Nachdem Sie sich bei Ihrem Social-Plattform-Konto authentifiziert haben, werden Sie an den Audience Manager weitergeleitet, wo Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das gewünschte Advertiser-Konto aus und klicken Sie auf **[!UICONTROL Confirm]**.
-6. Audience Manager zeigt oben auf der Seite eine Benachrichtigung an, um Sie darüber zu informieren, ob das Konto erfolgreich hinzugefügt wurde. Mit der Benachrichtigung können Sie auch eine E-Mail-Adresse für Kontakt hinzufügen, um Benachrichtigungen von Adobe zu erhalten, wenn die Social-Plattform-Authentifizierung demnächst abläuft.
+6. Audience Manager zeigt oben auf der Seite eine Benachrichtigung an, um Sie darüber zu informieren, ob das Konto erfolgreich hinzugefügt wurde. Mit der Benachrichtigung können Sie auch eine E-Mail-Adresse für Kontaktpersonen hinzufügen, um Benachrichtigungen von Adobe zu erhalten, wenn die Social-Plattform-Authentifizierung demnächst abläuft.
 
 ## Ablauf und Benachrichtigungsverwaltung für Authentifizierungstoken {#token-expiration-notification}
 
