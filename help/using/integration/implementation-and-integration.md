@@ -3,13 +3,13 @@ description: Arbeiten Sie mit Daten aus Experience Cloud-Lösungen oder anderen
 seo-description: Arbeiten Sie mit Daten aus Experience Cloud-Lösungen oder anderen externen Systemen in Audience Manager.
 seo-title: Arbeiten Sie mit Daten aus Experience Cloud-Lösungen oder anderen externen Systemen in Audience Manager.
 solution: Audience Manager
-title: Implementierungs- und Integrationsleitfäden
+title: Implementierungs- und Integrationshandbücher
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 60%
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 60%
 Work with data from [!DNL Experience Cloud] solutions or other external systems in [!DNL Audience Manager].
 
 * [Datenintegrationsmethoden](data-integration-methods.md)
-* [Implementierung von Audience Manager](implement-audience-manager.md)
-* [Mediendatenintegration](/help/using/integration/media-data-integration/media-data-integration.md)
-* [Daten zur Audience empfangen](/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md)
-* [Senden von Audiencen](/help/using/integration/sending-audience-data/send-audience-data.md)
+* [Implementieren von Audience Manager](implement-audience-manager.md)
+* [Mediendatenintegration ](/help/using/integration/media-data-integration/media-data-integration.md)
+* [Empfangen von Zielgruppendaten ](/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md)
+* [Senden von Zielgruppendaten](/help/using/integration/sending-audience-data/send-audience-data.md)
