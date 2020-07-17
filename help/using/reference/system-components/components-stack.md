@@ -1,21 +1,21 @@
 ---
 description: 'Audience Manager gruppiert seine Systeme und Prozesse in vier Kategorien: Tag-Management, Datenerfassung, Organisation und Datenverarbeitung.'
 seo-description: 'Audience Manager gruppiert seine Systeme und Prozesse in vier Kategorien: Tag-Management, Datenerfassung, Organisation und Datenverarbeitung.'
-seo-title: Schlüsselkomponenten im Audience Manager-System
+seo-title: Schlüsselkomponenten im Audience Manager-System
 solution: Audience Manager
-title: Schlüsselkomponenten im Audience Manager-System
+title: Schlüsselkomponenten im Audience Manager-System
 uuid: dedb15e6-b8dd-4eea-ab84-d99f160e4d34
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
 
-# Schlüsselkomponenten im Audience Manager-System{#key-components-in-the-audience-manager-system}
+# Schlüsselkomponenten im Audience Manager-System{#key-components-in-the-audience-manager-system}
 
 Audience Manager gruppiert seine Systeme und Prozesse in vier Kategorien: Tag-Management, Datenerfassung, Datenorganisation und Datenverarbeitung.
 
