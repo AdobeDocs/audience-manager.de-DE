@@ -1,20 +1,20 @@
 ---
 description: 'Diese Seite enthält eine schrittweise Anleitung dazu, wie Sie Offline-CRM-Daten mit Verhaltensdaten kombinieren, die Sie bereits in Audience Manager haben, um neue Audiencen zu erstellen, und diese Audiencen dann an benutzerbasierte Ziele senden.  '
 seo-description: 'Diese Seite enthält eine schrittweise Anleitung dazu, wie Sie Offline-CRM-Daten mit Verhaltensdaten kombinieren, die Sie bereits in Audience Manager haben, um neue Audiencen zu erstellen, und diese Audiencen dann an benutzerbasierte Ziele senden.   '
-seo-title: Arbeitsablauf A - Personalisierung auf der Grundlage aller Online-Aktivitäten in Kombination mit Offline-Daten
+seo-title: Workflow A – Personalisierung basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten
 solution: Audience Manager
-title: Arbeitsablauf A - Personalisierung auf der Grundlage aller Online-Aktivitäten in Kombination mit Offline-Daten
+title: Workflow A – Personalisierung basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Arbeitsablauf A - Personalisierung auf der Grundlage aller Online-Aktivitäten in Kombination mit Offline-Daten {#workflow-a}
+# Workflow A – Personalisierung basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten {#workflow-a}
 
 >[!IMPORTANT]
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
@@ -136,9 +136,9 @@ Im nächsten Schritt erstellen Sie eine neue Zusammenführungsregel, mit der Sie
 
 ## Schritt 4: Erstellen von Segmenten für Audiencen {#create-audience-segments}
 
-Verwenden Sie den [Segmentaufbau](../segments/segment-builder.md), um neue Segmentsegmente zu erstellen. Wenn Sie bereits Audiencen haben, an die Sie senden möchten, fahren Sie mit [!DNL People-Based Destinations]Schritt 5 - [Authentifizierung](people-based-destinations-workflow-combined.md#configure-authentication)benutzerdefinierter Platformen konfigurieren fort.
+Verwenden Sie den [Segmentaufbau](../segments/segment-builder.md), um neue Segmentsegmente zu erstellen. Wenn Sie bereits Audiencen haben, an die Sie senden möchten, fahren Sie mit [!DNL People-Based Destinations]Schritt 5 - [Personenbasierte Plattformauthentifizierung](people-based-destinations-workflow-combined.md#configure-authentication)konfigurieren fort.
 
-## Schritt 5: Personalisierte Platform konfigurieren {#configure-authentication}
+## Schritt 5: Konfiguration der Authentifizierung für benutzerbasierte Plattformen {#configure-authentication}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Wenn Sie eine zuvor konfigurierte Integration mit einer sozialen Plattform haben, sollte diese auf dieser Seite aufgeführt werden. Andernfalls ist die Seite leer.
    ![people-based-integration](assets/pbd-config.png)
@@ -156,8 +156,8 @@ Verwenden Sie den [Segmentaufbau](../segments/segment-builder.md), um neue Segme
 ## Schritt 6: Erstellen eines benutzerbasierten Ziels {#create-destination}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]**, und klicken Sie auf **[!UICONTROL Create Destination]**.
-1. Geben Sie **[!UICONTROL Basic Information]** im Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
-   * **[!UICONTROL Category]**: Integrierte Platformen;
+1. Geben Sie im **[!UICONTROL Basic Information]** Abschnitt eine **[!UICONTROL Name]** und **[!UICONTROL Description]** für die neue Datenquelle ein und verwenden Sie die folgenden Einstellungen:
+   * **[!UICONTROL Category]**: Integrierte Plattformen;
    * **[!UICONTROL Type]**: Volksansässige;
    * **[!UICONTROL Platform]**: Wählen Sie die personalisierte Plattform aus, an die Sie Audiencen senden möchten.
    * **[!UICONTROL Account]**: Wählen Sie das gewünschte Advertiser-Konto aus, das mit der ausgewählten Plattform verknüpft ist.
