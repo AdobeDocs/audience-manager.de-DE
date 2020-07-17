@@ -1,21 +1,21 @@
 ---
 description: Datenexportbeschriftungen funktionieren mit den Exportsteuerelementen, die Sie in einer Datenquelle festlegen. Datenexportbeschriftungen verhindern, dass Sie eingeschränkte Eigenschaften zu einem Segment hinzufügen und Segmentdaten an ein Ziel senden. Sie können mehrere Exportbeschriftungen für ein neues oder vorhandenes Cookie- oder URL-Ziel festlegen.
-seo-description: Datenexportbeschriftungen funktionieren mit den Exportsteuerelementen, die Sie in einer Datenquelle festlegen. Datenexport-Bezeichnungen verhindern, dass Sie eingeschränkte Eigenschaften zu einem Segment hinzufügen und Segmentdaten an ein Ziel senden. Sie können mehrere Exportbeschriftungen für ein neues oder vorhandenes Cookie- oder URL-Ziel festlegen.
-seo-title: Hinzufügen von Datenexportsteuerelementen an ein Ziel
+seo-description: Datenexportbeschriftungen funktionieren mit den Exportsteuerelementen, die Sie in einer Datenquelle festlegen. Datenexportbeschriftungen verhindern, dass Sie eingeschränkte Eigenschaften zu einem Segment hinzufügen und Segmentdaten an ein Ziel senden. Sie können mehrere Exportbeschriftungen für ein neues oder vorhandenes Cookie- oder URL-Ziel festlegen.
+seo-title: Hinzufügen von Datenexportkontrollen zu einem Ziel
 solution: Audience Manager
-title: Hinzufügen von Datenexportsteuerelementen an ein Ziel
+title: Hinzufügen von Datenexportkontrollen zu einem Ziel
 feature: Data Export Controls
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
 
-# Hinzufügen Datenexportbeschriftungen an ein Ziel {#add-data-export-labels}
+# Add Data Export Labels to a Destination {#add-data-export-labels}
 
 [!DNL Data Export Labels] mit der [!DNL Export Controls] festgelegten Datenquelle arbeiten. [!DNL Data Export Labels] verhindern, dass Sie eingeschränkte Eigenschaften zu einem Segment hinzufügen und Segmentdaten an ein Ziel senden. Sie können mehrere Exportbeschriftungen für ein neues oder vorhandenes [!DNL cookie] oder [!DNL URL] Ziel festlegen.
 
@@ -35,6 +35,7 @@ So fügen Sie einem Ziel Exportbeschriftungen hinzu:
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >Exportbeschränkungen funktionieren nur, wenn Sie eine [übereinstimmende Exportkontrolle](../../features/data-export-controls.md) für eine Datenquelle festlegen.
@@ -42,4 +43,4 @@ So fügen Sie einem Ziel Exportbeschriftungen hinzu:
 
 >[!MORELIKETHIS]
 >
->* [Datenquelle erstellen](../../features/manage-datasources.md#create-data-source)
+>* [Erstellen einer Datenquelle](../../features/manage-datasources.md#create-data-source)
