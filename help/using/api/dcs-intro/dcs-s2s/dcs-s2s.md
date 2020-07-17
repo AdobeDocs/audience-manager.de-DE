@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -44,11 +44,11 @@ In diesem Handbuch werden derzeit folgende Schritte beschrieben:
 
 Wir werden neue Methoden hinzufügen, sobald sie verfügbar werden. Die ersten Schritte finden Sie in den folgenden Abschnitten.
 
-* [Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort](dcs-aam-ids.md)
+* [Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort](dcs-aam-ids.md)
 * [Abrufen von Benutzer-IDs und Regionen über die Experience Cloud-ID...](dcs-mcid-ids.md)
 * [Ausführen von Server-zu-Server-DCS-API-Aufrufen](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
 >
->* [DCS API-Referenz](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [DCS-API-Referenz ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
