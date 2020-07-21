@@ -216,7 +216,7 @@ ht-degree: 94%
       + [Berichtstechnologie](reporting/dynamic-reports/interactive-report-technology.md)
    + [Integrationsstatusbericht](reporting/onboarding-status-report.md)
    + [Ausgehender Dateiverlauf](reporting/outbound-history-report.md)
-   +  \[Zählen von Unique Users in Überlagerungen und allgemeinen Berichten](reporting/unique-user-counts.md).
+   + [Zählen von Unique Users in Überlagerungen und allgemeinen Berichten](reporting/unique-user-counts.md)
    + [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten](reporting/report-sampling.md)
 + API- und SDK-Code {#api-and-sdk-code}
    + [API- und SDK-Code – Überblick](api/api.md)
