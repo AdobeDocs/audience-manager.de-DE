@@ -7,10 +7,10 @@ title: DCS-Fehlercodes, Meldungen und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 3%
+source-wordcount: '1518'
+ht-degree: 4%
 
 ---
 
@@ -23,22 +23,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Systemfehlercodes {#system-error-codes}
 
-|Fehlercode|Fehlermeldung|Beschreibung|
-|—|—|—|
-|0|Nicht angegebener Fehler|Dies ist ein Sammelfehler, der Ereignis verarbeitet, die nicht von den anderen Fehlerhandlern abgedeckt werden. Die Behebung dieses Fehlers ist schwierig. Sie kann durch eine Vielzahl unbekannter Aktionen oder Ereignisse verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie es erneut mit Ihrer [!DNL DCS] Anforderung. Wenden Sie sich an Ihren [!DNL Adobe] Kundenbetreuer, wenn das Problem weiterhin besteht.|
-|1|Die Konfiguration für den Hostnamen konnte nicht gefunden werden: `hostname`|Der Hostname, der in der Anfrage gesendet wurde, wurde nicht von unserem Partnerbereitstellungsteam eingerichtet. Wenden Sie sich an Ihren [!DNL Adobe] Kundenbetreuer, wenn diese Fehlermeldung angezeigt wird.|
-|2|Ungültiger `d_orgid` Wert (die Konfiguration für diese Organisations-ID konnte nicht gefunden werden): `ID`|Die Organisations-ID ist nicht korrekt. Überprüfen Sie Ihre ID und versuchen Sie es erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder noch nicht über eine solche verfügen, finden Sie weitere Informationen dazu, wie Sie diese finden, im Abschnitt &quot; [Organisationen und Kontoverknüpfungen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) &quot;unter &quot;Administrationsseite&quot;.|
+| Fehler-Code | Fehlermeldung | Beschreibung |
+|---|---|---|
+| 0 | Nicht spezifizierter Fehler | Dies ist ein allgemeiner Fehler, der Ereignis verarbeitet, die nicht von den anderen Fehlerhandlern abgedeckt werden. Die Behebung dieses Fehlers ist schwierig. Sie kann durch eine Vielzahl unbekannter Aktionen oder Ereignisse verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie es erneut mit Ihrer [!DNL DCS] Anforderung. Wenden Sie sich an Ihren [!DNL Adobe] Kundenbetreuer, wenn das Problem weiterhin besteht. |
+| 1 | config für Hostname konnte nicht gefunden werden: `hostname` | Der Hostname, der in der Anfrage gesendet wurde, wurde nicht von unserem Partner-Bereitstellungsteam eingerichtet. Wenden Sie sich an Ihren [!DNL Adobe] Kundenbetreuer, wenn diese Fehlermeldung angezeigt wird. |
+| 2 | Ungültiger `d_orgid` Wert (die Konfiguration für diese Organisations-ID konnte nicht gefunden werden): `ID` | Die Organisations-ID ist nicht korrekt. Überprüfen Sie Ihre ID und versuchen Sie es erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder noch nicht über eine solche verfügen, finden Sie Informationen dazu, wie Sie diese finden, im Abschnitt &quot; [Organisationen und Kontoverknüpfungen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) &quot;unter &quot;Administrationsseite&quot;. |
 
 ## Integrationsfehlercodes {#integration-error-codes}
 
-|Fehlercode|Fehlermeldung|Beschreibung|
-|—|—|—|
-|100|Der Hostname für die Anforderung konnte nicht abgerufen werden|Ein [!DNL API] Aufruf hat den Host- [!DNL HTTP] Header in der Anforderung nicht gesendet. Hinzufügen Sie den Host-Header auf den Aufruf und versuchen Sie es erneut. Die meisten Browser und [!DNL API] Clients tun dies automatisch. |
-|101|Ungültige [!DNL Experience Cloud] ID übergeben `ID`|Der [!DNL DCS] Aufruf enthält eine ungültige [!DNL Experience Cloud] ID. Überprüfen Sie das `d_mid=` Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige [!DNL Experience Cloud] ID übergeben, und versuchen Sie es erneut. |
-|102|Ungültige [!DNL AAM ID] weitergeleitete Anforderung `ID`|Der [!DNL DCS] Aufruf enthält eine ungültige [!DNL Audience Manager] ID. Überprüfen Sie das `d_uuid=` Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige [!DNL Audience Manager] ID übergeben, und versuchen Sie es erneut. |
-|104|Alle Kunden-IDs sind ungültig | Alle Kunden-IDs in Ihrem Aufruf sind ungültig. Überprüfen Sie Ihre IDs und versuchen Sie es erneut.|
-|109|Referrer `HTTP referer` ist für Partner nicht zulässig `Partner ID`|Die `HTTP referer` Kopfzeile im Aufruf ist für die Partner-ID im Aufruf nicht zulässig. Überprüfen Sie, ob die `HTTP referer` Kopfzeile korrekt ist.|
-|111|Ungültiger `IMS` Token erhalten|Zurückgegeben für [!DNL Audience Manager] - [!DNL Adobe Target] Integrationen. Der Fehler wird ausgegeben, wenn ein Aufruf an die [!DNL DCS]Seite mit einem ungültigen [!DNL IMS] Token erfolgt. Das Token ist möglicherweise fehlerhaft, abgelaufen oder der Benutzer ist möglicherweise nicht berechtigt, auf die erforderliche Ressource zuzugreifen.|
+| Fehler-Code | Fehlermeldung | Beschreibung |
+|---|---|---|
+| 100 | Hostname für Anforderung konnte nicht abgerufen werden | Bei einem [!DNL API] Aufruf wurde der Host- [!DNL HTTP] Header in der Anforderung nicht gesendet. Hinzufügen Sie den Host-Header auf den Aufruf und versuchen Sie es erneut. Die meisten Browser und [!DNL API] Clients tun dies automatisch. |
+| 101 | Ungültige [!DNL Experience Cloud] ID übergeben `ID` | Der [!DNL DCS] Aufruf enthält eine ungültige [!DNL Experience Cloud] ID. Überprüfen Sie das `d_mid=` Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige [!DNL Experience Cloud] ID übergeben, und versuchen Sie es erneut. |
+| 102 | Ungültige [!DNL AAM ID] weitergeleitete Anforderung `ID` | Der [!DNL DCS] Aufruf enthält eine ungültige [!DNL Audience Manager] ID. Überprüfen Sie das `d_uuid=` Schlüssel-Wert-Paar in der Kopfzeile. Vergewissern Sie sich, dass Sie die richtige [!DNL Audience Manager] ID übergeben, und versuchen Sie es erneut. |
+| 104 | Alle Kunden-IDs sind ungültig | Alle Kunden-IDs in Ihrem Aufruf sind ungültig. Überprüfen Sie Ihre IDs und versuchen Sie es erneut. |
+| 109 | Referrer `HTTP referer` ist für Partner nicht zulässig `Partner ID` | Die `HTTP referer` Kopfzeile im Aufruf ist für die Partner-ID im Aufruf nicht zulässig. Überprüfen Sie, ob die `HTTP referer` Kopfzeile korrekt ist. |
+| 111 | Ungültiges `IMS` Token erhalten | Für [!DNL Audience Manager] - [!DNL Adobe Target] Integrationen zurückgegeben. Der Fehler wird ausgegeben, wenn ein Aufruf an die [!DNL DCS]Seite mit einem ungültigen [!DNL IMS] Token erfolgt. Das Token ist möglicherweise fehlerhaft, abgelaufen oder der Benutzer ist möglicherweise nicht berechtigt, auf die erforderliche Ressource zuzugreifen. |
 
 ## Ausschluss-Fehlercodes {#opt-out-error-codes}
 
@@ -120,12 +120,12 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>204 </p> </td> 
    <td colname="col2"> <p>Migration konnte nicht durchgeführt werden, da das Profil für das Primärgerät nicht gelesen werden konnte. </p> </td> 
-   <td colname="col3"> <p>Wenn Sie diesen Fehler erhalten, treten bei unserem Datenspeicher (<span class="wintitle"> PCS</span>) möglicherweise Skalierungsprobleme auf. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, wenn das Problem weiterhin besteht. </p> </td> 
+   <td colname="col3"> <p>Wenn Sie diesen Fehler erhalten, treten bei unserem Datenspeicher (<span class="wintitle"> PCS</span>) möglicherweise Skalierungsprobleme auf. Wenden Sie sich an Ihren Kundenbetreuer, wenn das Problem weiterhin besteht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
    <td colname="col2"> <p>Die Migration von <code><i>ID</i></code> <code><i>ID</i></code>zu konnte nicht durchgeführt werden, da das Lesen des Profils fehlgeschlagen ist für <code><i>ID</i></code> </p> </td>
-   <td colname="col3"> <p>Wenn Sie diesen Fehler erhalten, treten bei unserem Datenspeicher (<span class="wintitle"> PCS</span>) möglicherweise Skalierungsprobleme auf. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, wenn das Problem weiterhin besteht. </p> </td> 
+   <td colname="col3"> <p>Wenn Sie diesen Fehler erhalten, treten bei unserem Datenspeicher (<span class="wintitle"> PCS</span>) möglicherweise Skalierungsprobleme auf. Wenden Sie sich an Ihren Kundenbetreuer, wenn das Problem weiterhin besteht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
