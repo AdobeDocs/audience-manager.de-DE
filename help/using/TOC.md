@@ -4,11 +4,11 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 94%
       + [Berichte zur Zielgruppenoptimierung](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Zielgruppenoptimierung für Advertiser {#audience-optimization-advertisers}
          + [Zielgruppenoptimierung für Advertiser – Überblick](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Google Kampagne Manager-Datendateien in Audience Manager importieren](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importieren von Google Kampagne Manager-Datendateien in Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Bericht zur Segmentleistung](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Berichte zur Trendanalyse und Volumenanalyse](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Bericht zur optimalen Häufigkeit](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -188,7 +188,7 @@ ht-degree: 94%
          + [Kanalübergreifende Konversion](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Zielgruppenoptimierung für Publisher {#audience-optimization-publishers}
          + [Zielgruppenoptimierung für Publisher – Überblick](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager importieren](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Importieren von Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Bericht zur Segmentleistung](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Segment-Trend-Bericht](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Häufigste nicht verwendete Eigenschaften](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -266,7 +266,7 @@ ht-degree: 94%
          + [API-Methoden für die Berechtigungsverwaltung](api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
       + [API-Methoden für DCS-Regionen](api/rest-api-main/aam-api-dcs-regions.md)
    + [SDK-Code](api/aam-sdk.md)
-+ Data Integration Library (DIL)-API {#dil-api}.
++ Data Integration Library (DIL)-API {#dil-api}
    + [Grundlegendes zur Data Integration Library (DIL)](dil/dil-overview.md)
    + DIL-Methoden auf Klassenebene {#class-level-dil-methods}
       + [Erste Schritte mit DIL-APIs auf Klassenebene](dil/dil-class-overview/dil-start.md)
@@ -284,8 +284,8 @@ ht-degree: 94%
 + Implementierungs- und Integrationshandbücher {#implementation-integration-guides}
    + [Implementierungs- und Integrationshandbücher](integration/implementation-and-integration.md)
    + [Datenintegrationsmethoden](integration/data-integration-methods.md)
-   + Google Ad Manager mit Google Publisher Tags (GPT) integrieren{#integrate-dfp-using-gpt}
-      + [Google Ad Manager mithilfe der GPT-Übersicht integrieren](integration/gpt-aam-destination/gpt-aam-overview.md)
+   + Integrieren von Google Ad Manager mit Google Publisher Tags (GPT) {#integrate-dfp-using-gpt}
+      + [Integrieren von Google Ad Manager mithilfe der GPT-Übersicht](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Senden von Segmenten an Google Ad Manager mithilfe von GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Erstellen eines GPT-Ziels](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Ändern des GPT-API-Aufrufs setTargeting](integration/gpt-aam-destination/gpt-aam-modify-api.md)
@@ -311,7 +311,7 @@ ht-degree: 94%
          + [OAuth 2.0-Integration für ausgehende Übertragungen in Echtzeit](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + Ausgehende Batch-Datenübertragungen {#batch-outbound-data-transfers}
          + [Ausgehende Batch-Datenübertragungen – Überblick](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
-         + [Batch-Datenübertragungsintegration konfigurieren](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
+         + [Konfigurieren der Batch-Datenübertragungsintegration ](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [Name der ausgehenden Datendatei: Syntax und Beispiele](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [Übertragungssteuerungsdateien für Protokolldateiübertragungen](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [Ausgehende Vorlagenmakros](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
@@ -332,16 +332,16 @@ ht-degree: 94%
          + [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datendateien](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Datei-PGP-Verschlüsselung für eingehende Datentypen](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
-         + [Dateikomprimierung für eingehende Datenübertragungsdateien](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+         + [Dateikomprimierung für eingehende Datenübertragungsdateien](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Beispielnachricht an Partner nach der eingehenden Verarbeitung](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integration mit Adobe Experience Platform {#integration-experience-platform}
       + [Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integration mit anderen Experience Cloud-Lösungen {#integration-other-solutions}
-      + [Audience Manager mit Adobe Target integrieren](integration/integration-other-solutions/aam-target-integration.md)
+      + [Integration von Audience Manager mit Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Weiterleiten von Daten von Adobe Analytics an Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Veröffentlichen eines Adobe Analytics-Segments im Experience Cloud (öffnet die Adobe Analytics-Dokumentation)](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Audience Manager mit Adobe Campaign integrieren (Dokumentation zum Adobe Campaign wird geöffnet)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Veröffentlichen eines Adobe Analytics-Segments in Experience Cloud (öffnet die Adobe Analytics-Dokumentation)](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrieren von Audience Manager mit Adobe Campaign (öffnet die Dokumentation zu Adobe Campaign)](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referenz {#reference}
    + [Referenz – Überblick](reference/reference.md)
    + [Amazon S3: Info](reference/amazon-s3.md)
@@ -361,7 +361,7 @@ ht-degree: 94%
       + [Tools zur Massenverwaltung – Glossar](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID ersetzt DPID und DPUUID](reference/cid.md)
    + [Auswirkungen von Datenbereitstellungs- und Dateiverarbeitungszeiten auf Berichte](reference/reporting-file-transfer-timeframe.md)
-   + [Index of IDs in Audience Manager](reference/ids-in-aam.md).
+   + [Index of IDs in Audience Manager](reference/ids-in-aam.md)
    + [Schlüssel-Wert-Paare – Erklärung](reference/key-value-pairs-explained.md)
    + [Passwortanforderungen, gesperrte Konten und vergessene Passwörter](reference/password-requirements.md)
    + [Signale, Eigenschaften und Segmente](reference/signal-trait-segment.md)
@@ -403,7 +403,7 @@ ht-degree: 94%
    + [Warum sind meine integrierten Eigenschaftspopulationen um den 15. Oktober auf 0 zurückgegangen? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angezeigt?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Warum können unsere Benutzer mit „Nur Lesen“-Berechtigung Eigenschaften und Segmente erstellen, bearbeiten oder löschen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
-   + [Wir sind kein Audience Manager-Kunde, sehen aber die Javascript-Aufrufe von Audience Manager auf unserer Website.](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Wir sind kein Audience Manager-Kunde, sehen aber die Javascript-Aufrufe von Audience Manager auf unserer Website](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Sollte ich meine Audience Manager Audience Lab zugeordneten Segmente auf der Zieldetailseite sehen?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Dokumentation – Aktualisierungen {#documentation-updates}
    + [Aktualisierungen der Dokumentation: 2020](docs-updates/docs-2020.md)
