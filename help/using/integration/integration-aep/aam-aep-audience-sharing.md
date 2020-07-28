@@ -7,9 +7,9 @@ title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
+source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1441'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## Überblick {#overview}
 
-Die Funktion zum Teilen von Audiencen zwischen Audience Manager und Adobe Experience Platform ermöglicht es Ihnen, Ihre Audience Manager-Eigenschaften und -Segmente für die Adobe Experience Platform und umgekehrt freizugeben. Sie benötigen den [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) , um die Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
+Die Funktion zum Teilen von Audiencen zwischen Audience Manager und Adobe Experience Platform ermöglicht es Ihnen, Ihre Audience Manager-Eigenschaften und -Segmente für die Adobe Experience Platform und umgekehrt freizugeben. Sie benötigen den [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) , um die Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
 
 Sie können Audience Manager-Eigenschaften und -Segmente in der Experience Platform verwenden, um Ihren Kundendaten Audience Manager-Profilen hinzuzufügen und vom Experience Platform- [Segmentierungsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)zu profitieren.
 
@@ -149,7 +149,7 @@ Audience Manager aktualisiert die Berichte-Nummern in der Benutzeroberfläche ei
 
 ### Unterschiede zwischen Profil Merge Rules und Merge Policies
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager- und [Merge-Richtlinien](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in der Experience Platform unterschiedlich funktionieren und das für jede einzelne Version verwendete Identitätsdiagramm variiert. Daher werden einige Unterschiede zwischen Segmentpopulationen erwartet.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager und [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform unterschiedlich funktionieren und das für jede Version verwendete Identitätsdiagramm variiert. Daher werden einige Unterschiede zwischen Segmentpopulationen erwartet.
 
 ### Segmentzusammensetzung in Experience Platform
 
