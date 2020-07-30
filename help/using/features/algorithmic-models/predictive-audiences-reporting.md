@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 6%
@@ -34,7 +34,7 @@ Die Modelltabelle enthält die folgenden Informationen:
    * **[!UICONTROL Pending]**: das Modell wird initialisiert und in Kürze werden Beginn zu Ergebnissen führen;
    * **[!UICONTROL Active]**: das Modell läuft erfolgreich und liefert Ergebnisse;
    * **[!UICONTROL Warning]**: das Profil konnte aufgrund unzureichender Daten (d. h. geringer Grundlinienpopulation, Benutzerdaten sind nicht reich) keine Ergebnisse erzielen;
-   * **[!UICONTROL Error]**: Das Modell konnte nicht ausgeführt werden. Wenden Sie sich an Ihren Adobe-Kundenbetreuer.
+   * **[!UICONTROL Error]**: Das Modell konnte nicht ausgeführt werden. Sie sollten sich an Ihren Kundenbetreuer wenden.
 
 ## Modellübersichtsbericht{#model-report}
 
@@ -69,7 +69,7 @@ Das Symbol zeigt an, ob das Vorhandensein der Eigenschaft die Wahrscheinlichkeit
 
 Klicken Sie auf , um die einflussreichen Eigenschaften für Ihre gesamte Person Ansicht [!UICONTROL View All Influential Traits].
 
-Im [!UICONTROL Influential Traits] Fenster werden die folgenden Informationen zu jeder Person aus dem ausgewählten Modell angezeigt:
+Im [!UICONTROL Influential Traits] Fenster werden die folgenden Informationen zu jeder Person des ausgewählten Modells angezeigt:
 
 ![influenzielle Eigenschaften](assets/predictive-audiences-influential-traits.png)
 
