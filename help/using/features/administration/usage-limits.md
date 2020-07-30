@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
+source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie könn
 | [!UICONTROL Look-Alike Models] maximale Audience | 25,000,000.  Beachten Sie, dass dieser Grenzwert nicht erhöht werden kann. Sie können die Größe der Audience verringern, indem Sie weniger Datenquellen für das Modell auswählen oder ein kürzeres Lookback-Fenster auswählen. |
 | Maximale Anzahl der ausgeschlossenen Eigenschaften für eine [!UICONTROL Look-Alike Model] | 500. Siehe [Eigenschaftsausschluss in Algorithmischer Modellierung](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Naximum [!UICONTROL Predictive Audiences Models] | 10 |
-| Max. Anzahl der Baseline-Personas für [!UICONTROL Predictive Audiences] Modelle | 50 |
+| Maximale Anzahl der Baseline-Personas für [!UICONTROL Predictive Audiences Models] | 50 |
 
 ### Ordnerbeschränkungen
 
