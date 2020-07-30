@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '492'
 ht-degree: 8%
 
 ---
@@ -39,9 +39,10 @@ Sobald Sie wissen, welche Datenquelle Sie verwenden werden, führen Sie die folg
    ![smart-persona-select-Audience](assets/predictive-audiences-audience.png)
 1. Klicken Sie auf **[!UICONTROL Next]** , nachdem Sie Ihre Audience ausgewählt haben.
 1. Füllen Sie die Modelldetails aus:
-   1. **[!UICONTROL Model Name]**: Geben Sie einen beschreibenden Namen für das Modell ein, damit Sie es später identifizieren können. Die Namen der vom Modell generierten Segmente werden mit dem Modellnamen Beginn.
-   2. **[!UICONTROL Description]**: Geben Sie eine Beschreibung des Modells ein, mit der Sie den Verwendungsfall identifizieren können.
-   3. **[!UICONTROL Data Source]**: Wählen Sie die Erstanbieter-Datenquelle aus, der die [!UICONTROL Predictive Audiences] Segmente aus diesem Modell zugewiesen werden sollen.
+   * **[!UICONTROL Model Name]**: Geben Sie einen beschreibenden Namen für das Modell ein, damit Sie es später identifizieren können. Die Namen der vom Modell generierten Segmente werden mit dem Modellnamen Beginn.
+   * **[!UICONTROL Description]**: Geben Sie eine Beschreibung des Modells ein, mit der Sie den Verwendungsfall identifizieren können.
+   * **[!UICONTROL Data Source]**: Wählen Sie die Erstanbieter-Datenquelle aus, der die [!UICONTROL Predictive Audiences] Segmente aus diesem Modell zugewiesen werden sollen.
+   * **[!UICONTROL Profile Merge Rule]**: Wählen Sie die [!UICONTROL Profile Merge Rule] für alle von diesem Modell [!UICONTROL segments] erstellten Prognosen zu zuweisen. Wenn es sich bei Ihrer ausgewählten Zielgruppe um eine Audience handelt, [!UICONTROL segment]sollten Sie dieselbe Audience [!UICONTROL Profile Merge Rule] der Zielgruppe auswählen.
       ![Predictive-Audiencen-save](assets/predictive-audiences-save.png)
 1. Klicken **[!UICONTROL Save]**.
 
