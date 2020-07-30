@@ -7,7 +7,7 @@ title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -139,7 +139,7 @@ Die folgende Tabelle zeigt, wie bestimmte Datenexportbeschriftungen den erkannte
 | Dieses Ziel kann für Onsite-Anzeigen-Targeting verwendet werden | Onsite-Werbung |
 | Dieses Ziel kann für die Personalisierung von Onsite-Anzeigen verwendet werden | Onsite-Personalisierung |
 
-## Segmentpopulationsunterschiede zwischen Audience Manager und Experience Platform verstehen
+## Segmentpopulationsunterschiede zwischen Audience Manager und Experience Platform verstehen {#aep-aam-segment-population-differences}
 
 Die Segmentpopulationszahlen können je nach Audience Manager- und Experience Platform-Segment variieren. Während Segmentzahlen für ähnliche oder identische Audiencen nahe liegen sollten, können Populationsunterschiede auf die unten aufgeführten Faktoren zurückzuführen sein.
 
