@@ -8,9 +8,9 @@ title: Kundendaten-Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,13 @@ Grundlegende Informationen zu [!UICONTROL Customer Data Feed] ([!UICONTROL CDF])
 
 Eine [!UICONTROL CDF]-Datei enthält dieselben Daten, die ein [!DNL Audience Manager]-Ereignisaufruf (`/event`) an unsere Server sendet. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Interne [!DNL Audience Manager] Systeme verarbeiten Ereignis-Daten in einer [!UICONTROL CDF] Datei, deren Inhalt in einer bestimmten Reihenfolge angeordnet ist. [!DNL Audience Manager] versucht, [!UICONTROL CDF] Dateien stündlich zu generieren und speichert sie in einem sicheren, kundenspezifischen Behälter auf einem [!DNL Amazon S3] Server. Wir stellen diese Dateien zur Verfügung, damit Sie mit [!DNL Audience Manager] Daten arbeiten können, die nicht den durch unsere Benutzeroberfläche festgelegten Beschränkungen unterliegen.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Sie sollten keine [!UICONTROL CDF] Dateien als Proxy verwenden, um den Seitenverkehr zu überwachen, Berichtsdiskrepanzen zu überwinden, Abrechnungen usw. vorzunehmen.
+>Beachten Sie beim Arbeiten mit CDF-Dateien die folgenden Einschränkungen:
+>
+>* Bevor Sie CDF-Datei-Versand einrichten, vergewissern Sie sich bitte, dass Sie über die entsprechenden Berechtigungen von Drittanbietern für den Export von Eigenschaften von Drittanbietern verfügen.
+>* Sie sollten keine [!UICONTROL CDF] Dateien als Proxy verwenden, um den Seitenverkehr zu überwachen, Berichtsdiskrepanzen zu überwinden, Abrechnungen usw. vorzunehmen.
+
 
 ## Erste Schritte {#getting-started}
 
@@ -303,7 +307,7 @@ Die folgenden Tabellen werden Liste und definieren die Elemente in einer [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Der Amazon S3 ETag. Die Zahl nach dem Bindestrich zeigt die Anzahl der Teile, die zum Erstellen der Datei während des mehrteiligen Uploads verwendet wurden. Der Wert <code> ETag</code> ist nicht identisch mit der MD5-Prüfsumme der Datei. </p> </td> 
+   <td colname="col2"> <p>Das Amazon S3 ETag. Die Zahl nach dem Bindestrich zeigt die Anzahl der Teile, die zum Erstellen der Datei während des mehrteiligen Uploads verwendet wurden. Der Wert <code> ETag</code> ist nicht identisch mit der MD5-Prüfsumme der Datei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
