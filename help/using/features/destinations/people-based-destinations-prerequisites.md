@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Voraussetzungen und Überlegungen
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: f9e6aedb408db218c548f469330ece584db75853
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 4%
@@ -28,7 +28,7 @@ Nachfolgend finden Sie einen Überblick über die Kundenanforderungen, die Sie e
 
 [!UICONTROL People-Based Destinations] ist eine Premium-Funktion, mit der Sie Ihre Audience Manager besser ansprechen können, indem Sie Erstanbieter-Audiencen in personalisierten Umgebung aktivieren, Ihre Audience auf benutzerdefinierte Angebot in sozialen Netzwerken oder über E-Mail-Marketing ausrichten können.
 
-Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um diese Premium-Funktion nutzen zu können.
+Wenden Sie sich an Ihren Kundenbetreuer, um diese Premium-Funktion nutzen zu können.
 
 ## Partnerspezifische Voraussetzungen {#partner-prerequisites}
 
@@ -81,7 +81,7 @@ Sehen Sie sich das folgende Video an, um die Hashing-Anforderungen von [!UICONTR
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Mit Adobe Experience Cloud haben Sie die Möglichkeit, Kunden-IDs über die [!DNL Adobe Experience Platform Identity Service (ECID)]. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Support für setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
+Adobe Experience Cloud bietet Ihnen die Möglichkeit, Kunden-IDs über das [!DNL Adobe Experience Platform Identity Service (ECID)]Formular zu hash. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Support für setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
 
 ## Abrufen der Benutzerberechtigung {#obtaining-user-permission}
 
