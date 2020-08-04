@@ -1,15 +1,15 @@
 ---
-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
-seo-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
+description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Liste "Adobe Exchange"(falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder den Kundendienst.
+seo-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Liste "Adobe Exchange"(falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder den Kundendienst.
 seo-title: Adobe Audience Manager-Server-to-Server-Ziele
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager-Server-to-Server-Ziele
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1116'
 ht-degree: 72%
 
 ---
@@ -84,7 +84,6 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] gerätebasierte Ziele 
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Ja | Nein | Nein | Nein |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Ja | Ja | Nein | Ja |
 | [!DNL Gamut Media] | 03/03/2017 | Echtzeit |  | Nein | Nein |  |
-| [!DNL Google AdsWords Display] | 02/08/2018 | Echtzeit | Ja | Ja | Nein | Ja |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | Echtzeit | Ja | Ja | Ja | Ja |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Echtzeit | Ja | Ja | Ja | Ja |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 24/04/2017 | Echtzeit | Ja | Ja | Ja | Ja |
