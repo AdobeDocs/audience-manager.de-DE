@@ -7,9 +7,9 @@ title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datend
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '894'
 ht-degree: 9%
 
 ---
@@ -35,7 +35,7 @@ Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dat
 
 Weitere akzeptierte Dateinamenformate finden Sie unter [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
->[!NOTE] {important=&quot;high&quot;}
+>[!NOTE]
 >
 >[!DNL Audience Manager] verarbeitet [!DNL ASCII] und [!DNL UTF-8] kodiert.
 
