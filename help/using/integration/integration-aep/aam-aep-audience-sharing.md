@@ -7,7 +7,7 @@ title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## Überblick {#overview}
 
-Die Funktion zum Teilen von Audiencen zwischen Audience Manager und Adobe Experience Platform ermöglicht es Ihnen, Ihre Audience Manager-Eigenschaften und -Segmente für die Adobe Experience Platform und umgekehrt freizugeben. Sie benötigen den [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) , um die Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
+Mit der Audience Sharing-Funktion zwischen Audience Manager und Adobe Experience Platform können Sie Ihre Audience Manager-Eigenschaften und -Segmente für Adobe Experience Platform und umgekehrt freigeben. Sie benötigen den [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) , um die Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
 
 Sie können Audience Manager-Eigenschaften und -Segmente in der Experience Platform verwenden, um Ihren Kundendaten Audience Manager-Profilen hinzuzufügen und vom Experience Platform- [Segmentierungsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)zu profitieren.
 
@@ -40,7 +40,7 @@ Die nachstehende Tabelle gibt einen Überblick über Anwendungsfälle für die F
 
 | **Anwendungsfall** | **Adobe Experience Platform** | **Audience Manager** | **Zentrale Dienste** |
 ---------|----------|---------|---------
-| **Freigabe von Audiencen** | <ul><li>Aufwerten von Profilen mit Audience Manager-Daten</li><li>Audience Manager-Daten in der Segmentierung von Experience Platformen verwenden</li></ul> | <ul><li>Daten von Drittanbietern in Segmente Hinzufügen</li><li>Algorithmische Modellierung</li><li>Aktivierung zu weiteren Zielen</li></ul> | Verwenden Sie Experience Platformen-Segmente in anderen Experience Cloud-Lösungen, wie z. B. Adobe Target oder Analytics. |
+| **Freigabe von Audiencen** | <ul><li>Aufwerten von Profilen mit Audience Manager-Daten</li><li>Audience Manager-Daten in der Segmentierung von Experience Platformen verwenden</li></ul> | <ul><li>Daten von Drittanbietern in Segmente Hinzufügen</li><li>Algorithmische Modellierung</li><li>Aktivierung zu weiteren Zielen</li></ul> | Verwenden Sie Experience Platformen-Segmente in anderen Experience Cloud-Lösungen, z. B. Adobe Target oder Analytics. |
 
 <br> 
 
@@ -54,7 +54,7 @@ Ihre Audience Manager-Eigenschaften und -Segmente werden in Experience Platform 
 
 <br> 
 
-## Adobe Experience Platformen in Audience Manager {#aep-segments-in-aam}
+## Adobe Experience Platform-Segmente in Audience Manager {#aep-segments-in-aam}
 
 Segmente, die Sie in Experience Platform erstellen, werden in der Benutzeroberfläche Ihres Audience Managers als Signale, Eigenschaften und Segmente mit den folgenden Satzregeln angezeigt:
 
@@ -114,7 +114,9 @@ Um die Einhaltung der Datenverwendungsvorschriften in der Experience Platform du
 
 Beim Austausch von Audiencen zwischen Audience Manager und Experience Platform werden alle Datenexportsteuerelemente, die auf Audience Manager angewendet wurden, in entsprechende Beschriftungen und Marketingaktionen übersetzt, die von der Experience Platform Data Governance erkannt werden, und umgekehrt.
 
->[!NOTE] Allgemeine Informationen zu Datenexportkontrollen finden Sie in der Dokumentation [zu den](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)Datenexportkontrollen.
+>[!NOTE]
+>
+>Allgemeine Informationen zu Datenexportkontrollen finden Sie in der Dokumentation [zu den](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)Datenexportkontrollen.
 Dieses Dokument bietet eine Referenz dafür, wie bestimmte Datenexportsteuerelemente des Audience Managers mit Datenverwendungsbeschriftungen und Marketingaktionen in der Plattform verknüpft sind.
 
 ### Datenexport-Steuerelemente in Datenverwendungsbeschriftungen
