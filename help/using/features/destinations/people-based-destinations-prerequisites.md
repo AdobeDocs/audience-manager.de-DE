@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Voraussetzungen und Überlegungen
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 4%
+source-wordcount: '1015'
+ht-degree: 3%
 
 ---
 
@@ -50,9 +50,17 @@ Weitere Informationen zum Bearbeiten Ihrer [!DNL LinkedIn Campaign Manager] Benu
 
 Videoanweisungen finden Sie unter [Das benutzerspezifische Ziel](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) von LinkedIn verstehen und konfigurieren.
 
+### [!DNL Google Customer Match]
+
+Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience segments to a [!DNL Google Customer Match] destination, it is mandatory that [!DNL Google] adds you to their allow list.
+
+Contact your [!DNL Google] representative and follow the allow list instructions described in the [Use Customer Match partners to upload your data](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) [!DNL Google] documentation.
+
+Once this process has been completed, you can create your [!UICONTROL People-Based Destination].
+
 ## Datenintegration {#data-onboarding}
 
-Die Datenerfassung für [!UICONTROL People-Based Destinations] derzeit unterstützt bis zu 10 Hash-E-Mail-Adressen, die mit einer Kunden-ID ([!DNL CRM ID]) pro Batch-Übertragung verknüpft sind. Durch das Hochladen von mehr als 10 mit einer Kunden-ID verknüpften Hash-E-Mail-Adressen werden 10 davon von Audience Manager in beliebiger Reihenfolge aufgenommen.
+Data ingestion for [!UICONTROL People-Based Destinations] currently supports up to 10 hashed email addresses linked to one customer ID ([!DNL CRM ID]), per batch transfer. Uploading more than 10 hashed email addresses linked to one customer ID causes Audience Manager to ingest 10 of them, in no specific order.
 
 Beim Hochladen von mehr als 10 mit einer Kunden-ID verknüpften Hash-E-Mail-Adressen in mehreren Batch-Übertragungen behält der Audience Manager die letzten 10 hinzugefügten E-Mail-Adressen bei.
 
@@ -81,23 +89,23 @@ Sehen Sie sich das folgende Video an, um die Hashing-Anforderungen von [!UICONTR
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud bietet Ihnen die Möglichkeit, Kunden-IDs über das [!DNL Adobe Experience Platform Identity Service (ECID)]Formular zu hash. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Support für setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
+Adobe Experience Cloud bietet Ihnen die Möglichkeit, Kunden-IDs über das [!DNL Adobe Experience Platform Identity Service (ECID)]Formular zu hash. See [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) for detailed information on how to use ECID to hash customer IDs.
 
-## Abrufen der Benutzerberechtigung {#obtaining-user-permission}
+## Obtaining User Permission {#obtaining-user-permission}
 
-Da Sie [!UICONTROL People-Based Destinations] bei der Aktivierung von Erstanbieter-Audiencen in personalisierten Kanälen unterstützen, ist es Ihre Verantwortung, Ihre Kunden darüber zu informieren und die erforderlichen Einwilligungen zu erhalten, wie Sie diese Daten für Werbezwecke oder andere Zwecke verwenden werden.
+Since [!UICONTROL People-Based Destinations] helps you activate first-party audience data in people-based channels, it is your responsibility to inform and obtain any necessary consents from your customers of how you will use their data for advertising or other purposes.
 
-Bevor Sie sich für anmelden, [!UICONTROL People-Based Destinations]müssen Sie die Zustimmung Ihrer Kunden einholen, bevor Sie ihre Informationen für Werbezwecke verwenden.
+Before you sign up for [!UICONTROL People-Based Destinations], make sure to obtain your customers&#39; consent before using their information for advertising purposes.
 
-Falls Ihre Kunden die Kampagnen für Werbung ausschließen möchten, finden Sie unter [Ausschluss-Verwaltung](../../overview/data-security-and-privacy/data-privacy-requests.md) weitere Informationen dazu, wie Audience Manager daran gehindert werden können, Daten zu erfassen.
+In case your customers wish to opt-out of advertising campaigns, see [Opt-out Management](../../overview/data-security-and-privacy/data-privacy-requests.md) for details on how to stop Audience Manager from collecting data any further.
 
-## Aktivierung von Erstanbieter-Daten erzwingen {#enforcing-first-party-activation}
+## Enforcing First-Party Data Activation {#enforcing-first-party-activation}
 
-Bei der Verwendung [!UICONTROL People-Based Destinations]können Sie Erstanbieter-Daten nur verwenden, um Audiencen in benutzerbasierten Kanälen zu aktivieren. Sie können keine Daten von Drittanbietern zur Aktivierung der Audience in benutzerbasierten Kanälen verwenden.
+When using [!UICONTROL People-Based Destinations], you can only use first-party data to activate audience segments in people-based channels. You cannot use any second- or third-party data for audience activation in people-based channels.
 
-Verwenden Sie bei der Verwendung [!UICONTROL People-Based Destinations]die [Datenexportkontrolle](../data-export-controls.md) , um Ihre [!UICONTROL data sources] und [!UICONTROL destinations] gemäß den Richtlinien und Anforderungen von Zielplattformen und Datenanbietern zu kennzeichnen.
+When using [!UICONTROL People-Based Destinations], use [Data Export Controls](../data-export-controls.md) to label your [!UICONTROL data sources] and [!UICONTROL destinations] according to the guidelines and requirements from destination platforms and data providers.
 
-## Integriertes authentifiziertes Hash-IDs mit deklariertem ID-Targeting {#onboard-authenticated-declared-id}
+## Onboard Authenticated Hashed IDs through Declared ID Targeting {#onboard-authenticated-declared-id}
 
 Es gibt zwei Möglichkeiten, Ihre Offline-Daten für [!UICONTROL People-Based Destinations] in Audience Manager zu laden.
 
