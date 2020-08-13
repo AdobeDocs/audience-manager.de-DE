@@ -7,9 +7,9 @@ title: Audience Manager-Produktdokumentation
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 98%
 
 ---
@@ -160,10 +160,10 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
      <br> 
      <p> <b>Neueste Funktionen</b> </p> <p> 
      Informieren Sie sich über die neuesten Audience Manager-Funktionen:</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Vorhersagekräftige Zielgruppen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivitätsnutzung</a></li>
+     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match for People-Based Destinations</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Vorhersagekräftige Zielgruppen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivitätsnutzung</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Unterstützung des Kalifornischen Verbraucherdatenschutzgesetzes (California Consumer Privacy Act, CCPA) und Überarbeitung der Datenschutzdokumentation</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligente Empfehlungen für Audience Marketplace-Daten, unterstützt von Adobe Sensei</a></li>
-     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Verbesserungen der Profilzusammenführungsrichtlinien</a></li></ul><p>
+     </ul><p>
     </td>
   </tr> 
  </tbody> 
