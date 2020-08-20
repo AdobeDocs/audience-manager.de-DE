@@ -8,9 +8,9 @@ title: Deklarierte IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1187'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,7 @@ Einige Browser und die meisten Mobilgeräte akzeptieren kein Drittanbieter [!DNL
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Ereignis-Aufruf</b> </td> 
-   <td colname="col2"> <p>Zur Arbeit benötigen Sie <span class="wintitle"> DIL </span> und den <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> -Code auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierte IDs </span> aus der <code> setVisitorID </code> Funktion, die vom Identitätsdienst der <span class="keyword"> Adobe Experience Platform bereitgestellt wird, </span> und übergibt diese an den <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Zur Arbeit benötigen Sie <span class="wintitle"> DIL </span> und den <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service- </a> Code auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierte IDs </span> aus der <code> setVisitorID </code> Funktion, die vom <span class="keyword"> Adobe Experience Platform Identity Service bereitgestellt wird, </span> und übergibt diese an den <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Übereinstimmung-ID</b> </td> 
@@ -55,14 +55,14 @@ Einige Browser und die meisten Mobilgeräte akzeptieren kein Drittanbieter [!DNL
  </tbody>
 </table>
 
-Um zu beginnen, müssen Sie den [!DNL Experience Cloud] ID-Dienst und [!UICONTROL DIL] über die Seiten Ihrer Site, die Sie für die Datenerfassung verwenden möchten, konfigurieren. Siehe [DIL-Variablen erstellen](../dil/dil-class-overview/dil-create.md#dil-create) und [deklarieren](../features/declared-ids.md#declared-id-variables).
+Um zu beginnen, müssen Sie den [!DNL Experience Cloud] ID-Dienst und [!UICONTROL DIL] über die Seiten Ihrer Site, die Sie für die Datenerfassung verwenden möchten, konfigurieren. Siehe [DIL Erstellen](../dil/dil-class-overview/dil-create.md#dil-create) und [Deklarieren von ID-Variablen](../features/declared-ids.md#declared-id-variables).
 
 ## Ausschluss-Anrufe {#opt-out-calls}
 
 Der [!UICONTROL declared ID] [!DNL Audience Manager] Vorgang berücksichtigt die Voreinstellungen des Site-Besuchers, um das Targeting auf Ihrer Website abzuwählen. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] kann ein [!UICONTROL declared ID] Opt-out zusammen mit einem [!DNL Audience Manager] in der [!UICONTROL UUID] [!DNL URL].
-* Der [!UICONTROL declared ID] Ausschluss wird im [!UICONTROL Profil Cache Server ([!UICONTROL PCS]) pro Partner gespeichert. Es gibt keinen Ausschluss auf Plattformebene [!UICONTROL declared IDs]. Darüber hinaus [!DNL Audience Manager] wird der Benutzer an der Kante aus dieser bestimmten Region ausgeschlossen (das Opt-out erfolgt nicht über [!DNL DCS] Regionen hinweg).
+* Das [!UICONTROL declared ID] Opt-out wird in der Datei [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) pro Partner gespeichert. Es gibt keinen Ausschluss auf Plattformebene [!UICONTROL declared IDs]. Darüber hinaus [!DNL Audience Manager] wird der Benutzer an der Kante aus dieser bestimmten Region ausgeschlossen (das Opt-out erfolgt nicht über [!DNL DCS] Regionen hinweg).
 
 Weitere Informationen zum Ausschluss von der Datenerfassung finden Sie unter [Datenschutz](../overview/data-security-and-privacy/data-privacy.md) .
 
@@ -115,11 +115,11 @@ Diese Methoden funktionieren weiterhin, werden jedoch als veraltet betrachtet. D
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ausschluss auf Partnerebene </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Ein Ausschluss auf Partnerebene wird für die neueste Zuordnung dieses <code> dpid </code> +- <code> dpuuid </code> Paars zu einer AAM-UUID gespeichert. Wenn es keine bereits vorhandene Zuordnung gibt, prüft Audience Manager, ob die Anforderung eine AAM-UUID im Cookie enthält, und verwendet diese gegebenenfalls zum Speichern der Ausschluss-ID. Andernfalls generiert Audience Manager eine neue AAM-UUID und speichert die Ausschluss-Option darin. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Ein Ausschluss auf Partnerebene wird für die neueste Zuordnung dieses <code> dpid </code> +- <code> dpuuid </code> Paars zu einer AAM UUID gespeichert. Wenn es keine bereits vorhandene Zuordnung gibt, prüft Audience Manager, ob die Anforderung eine AAM UUUID im Cookie enthält. Ist dies der Fall, verwendet diese zum Speichern der Ausschluss-ID. Andernfalls generiert Audience Manager eine neue AAM UUID und speichert die Ausschluss-ID darin. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> und explizit <code> d_uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> immer Vorrang hat. Wenn die <code> dpid </code> +- <code> dpuuid </code> Kombination einer anderen AAM-UUID zugeordnet wird, wird die Abmeldung unter der AAM-UUUID gespeichert, die in der Anforderung weitergegeben wird ( <code> d_uuid </code>). </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> immer Vorrang hat. Wenn die <code> dpid </code> +- <code> dpuuid </code> Kombination einer anderen AAM UUUID zugeordnet wird, wird die Ausschluss-ID unter der AAM UUID gespeichert, die in der Anforderung weitergegeben wird ( <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -185,7 +185,7 @@ Beschreibt die Konfigurationsvariablen, die verwendet werden, um [!UICONTROL dec
 
 ## [!UICONTROL DIL] verwendet [!DNL Adobe Experience Platform Identity Service] die [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Bei Verwendung mit dem Identitätsdienst für [Adobe Experience Platformen](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html)müssen Sie nicht mehr [!UICONTROL declared IDs] mit den veralteten `dpid` und `dpuuid` Variablen weitergeben. Stattdessen [!UICONTROL DIL] verlassen sich die aktuellen Versionen auf die `visitorService` Funktion, um die [!UICONTROL declared IDs] aus der `setCustomerIDs` Funktion in der [!UICONTROL Adobe Experience Platform Identity Service]zu erhalten. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Sie rufen `visitorService` wie unten gezeigt `DIL.create` an.
+Bei Verwendung mit dem [Adobe Experience Platform-Identitätsdienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html)müssen Sie nicht mehr [!UICONTROL declared IDs] mit den veralteten `dpid` und `dpuuid` Variablen weitergeben. Stattdessen [!UICONTROL DIL] verlassen sich die aktuellen Versionen auf die `visitorService` Funktion, um die [!UICONTROL declared IDs] aus der `setCustomerIDs` Funktion in der [!UICONTROL Adobe Experience Platform Identity Service]zu erhalten. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Sie rufen `visitorService` wie unten gezeigt `DIL.create` an.
 
 ```js
 var vDil = DIL.create({
