@@ -7,7 +7,7 @@ title: Ausgehende Vorlagenmakros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 3%
@@ -33,7 +33,7 @@ Die Tabelle enthält eine Liste und beschreibt die Makros, die Sie im Dateinamen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ASCII_SOH </code> </p> </td> 
-   <td colname="col2"> <p>Ein nicht druckbares ASCII-Zeichen. Er zeigt den Beginn einer Zeile oder eines Inhaltsabschnitts an. Sie kann auch zum Trennen von Datenspalten in einer Datei verwendet werden. </p> </td> 
+   <td colname="col2"> <p>Ein nicht druckbares ASCII-Zeichen. Es zeigt den Beginn einer Zeile oder eines Inhaltsabschnitts an. Sie kann auch zum Trennen von Datenspalten in einer Datei verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -107,7 +107,7 @@ Makros, die zum Formatieren des Inhalts einer Datendatei verwendet werden. Codeb
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geschweifte Klammer } ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>}</code> ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -135,7 +135,7 @@ Makros, die zum Formatieren des Inhalts einer Datendatei verwendet werden. Codeb
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine offene geschweifte Klammer { ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine offene geschweifte Klammer <code>{</code> ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
