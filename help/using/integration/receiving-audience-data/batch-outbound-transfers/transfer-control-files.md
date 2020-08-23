@@ -7,9 +7,9 @@ title: Übertragungssteuerungsdateien für Protokolldateiübertragungen
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
@@ -76,7 +76,7 @@ Wenn die erste Datei in der Sequenz beispielsweise den Namen hatte: [!DNL ftp_12
 }
 ```
 
->[HINWEIS]
+>[!NOTE]
 >
 > Die Gesamtzahl der Stapel ist nicht in der [!DNL .info] Datei selbst angegeben. Das heißt, die Summen enthalten nicht die [!DNL .info] Datei, ihre Bytegröße oder ihre Zeilenzahl.
 >
