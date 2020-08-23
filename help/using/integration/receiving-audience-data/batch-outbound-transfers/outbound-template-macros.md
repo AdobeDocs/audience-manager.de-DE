@@ -135,11 +135,11 @@ Makros, die zum Formatieren des Inhalts einer Datendatei verwendet werden. Codeb
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine offene geschweifte Klammer { ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine offene geschweifte Klammer <code>{</code> ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
-   <td colname="col2"> <p>Herabgestuft. Nicht anwenden. </p> </td> 
+   <td colname="col2"> <p>Herabgestuft.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
