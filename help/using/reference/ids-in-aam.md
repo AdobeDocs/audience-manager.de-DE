@@ -2,15 +2,15 @@
 description: In diesem Dokument finden Sie die vollständige Liste der Adobe Audience Manager-IDs.
 keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
 seo-description: In diesem Dokument finden Sie die vollständige Liste der Adobe Audience Manager-IDs.
-seo-title: Index of IDs in Audience Manager.
+seo-title: Index of IDs in Audience Manager
 solution: Audience Manager
-title: Index of IDs in Audience Manager.
+title: Index of IDs in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '943'
 ht-degree: 5%
 
 ---
@@ -56,5 +56,5 @@ Globale Geräte-IDs sind Anzeigen-IDs für Geräte, die für jedes Gerät einzel
 | [!DNL GAID] | 20914 | [!DNL Google Advertising ID]s sind Mobilgerätekennungen, die von Android-Geräteherstellern bereitgestellt werden. Diese IDs stellen Geräte dar, auf denen das [!DNL Android] Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
 | [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] repräsentieren [!DNL Roku] Streaming-Geräte. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`. |
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID]s sind Geräte-IDs, die von [!DNL Windows 10] pro Gerät und pro Benutzer generiert werden. | [!DNL MAID]s werden als alphanumerische Zeichenfolgen formatiert. |
-| [!DNL DUID] | 404660 | [!DNL Samsung DUID]s sind Geräte-IDs, die von [!DNL Samsung] Smart-TVs bereitgestellt werden. | [!DNL Samsung] [!DNL DUID]s werden als alphanumerische Zeichenfolgen formatiert. |
+| [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] sind Geräte-IDs, die von [!DNL Samsung] Smart-TVs bereitgestellt werden. | [!DNL Samsung] [!DNL TIFA] IDs werden als alphanumerische Zeichenfolgen formatiert. |
 | [!DNL Amazon Fire TV Advertising ID] | 488258 | Geräte-IDs, die Geräte darstellen, auf denen das [!DNL Fire OS] Betriebssystem ausgeführt wird. | Das Format besteht ausschließlich aus 32 Hexadezimalziffern in Kleinbuchstaben, die in fünf Gruppen angezeigt werden und durch Bindestriche getrennt sind, im Format 8-4-4-4-12, mit insgesamt 36 Zeichen. <br>Beispiel: `df07c7dc-cea7-4a89-b328-810ff5acb15d` |
