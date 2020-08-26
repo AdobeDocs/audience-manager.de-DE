@@ -7,9 +7,9 @@ title: Erste Schritte mit Profilzusammenführungsrichtlinien
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dc22ed98b51b5633532bab45a79a14ee14dba5f5
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1304'
 ht-degree: 4%
 
 ---
@@ -114,7 +114,7 @@ Um die richtige Integration zwischen Ihrer Audience Manager-Instanz und Zielen m
 
 >[!NOTE]
 >
-> Für Kunden, die sich in dieser Situation befinden, wurde die Profil Merge Rule-Beschränkung um 1 erhöht, sodass Sie eine dedizierte Profil-Merge-Regel für die Segmente erstellen können, die dem Adobe Campaign Deklarierte ID-Ziel zugeordnet sind, ohne die Profil Merge-Regeln für andere Anwendungsfälle zu ändern.
+> Wenn Sie die maximale Anzahl von [!UICONTROL Profile Merge Rules] und Unterstützung bei der Konfiguration der Komponenten gemäß den oben stehenden Anweisungen erreicht haben, wenden Sie sich bitte an den Kundendienst.
 
 ## Regelcode zusammenführen konfigurieren {#configure-merge-rule-code}
 
@@ -126,9 +126,9 @@ Befolgen Sie diese Anweisungen, um den [!UICONTROL Adobe Experience Platform Ide
 
 Sie müssen eine [geräteübergreifende Datenquellen](#create-data-source) - und [Profil-Zusammenführungsregel](#create-profile-merge-rule) einrichten, *bevor* Sie diese Verfahren abschließen.
 
-## Für Adobe Experience Platformen mit Identitätsdienst {#id-service-customers}
+## Für Adobe Experience Platform Identity Service-Kunden {#id-service-customers}
 
-Die [!UICONTROL Adobe Experience Platform Identity Service] und die neueste Version von [DIL](../../dil/dil-overview.md) werden beim Arbeiten mit [!UICONTROL Profile Merge Rules]DIL empfohlen. Sie müssen jedoch nicht die verwenden, [!UICONTROL Adobe Experience Platform Identity Service] um mit dieser Funktion zu arbeiten. Wenn Sie nur [!UICONTROL DIL]die [ältere DIL verwenden, lesen Sie den Abschnitt](#legacy-dil) unten.
+Die [!UICONTROL Adobe Experience Platform Identity Service] und die neueste Version von [DIL](../../dil/dil-overview.md) werden empfohlen, wenn Sie mit arbeiten [!UICONTROL Profile Merge Rules]. Sie müssen jedoch nicht die verwenden, [!UICONTROL Adobe Experience Platform Identity Service] um mit dieser Funktion zu arbeiten. Wenn Sie nur [!UICONTROL DIL]die [alte DIL verwenden, lesen Sie den Abschnitt](#legacy-dil) weiter unten.
 
 ### Konfigurieren der Funktion &quot;Kunden-ID festlegen&quot;
 
