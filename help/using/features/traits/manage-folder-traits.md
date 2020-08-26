@@ -8,9 +8,9 @@ title: Verwalten von Ordnereigenschaften
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '362'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ Eine [!UICONTROL folder trait] wird automatisch erstellt, wenn Sie einen neuen O
 
 1. Klicken Sie auf das Symbol +, um den Ordner zu erstellen. Beachten Sie, dass Sie in Ihrer Taxonomie maximal 2.000 Ordner erstellen können. Weitere Informationen finden Sie in der Dokumentation zu den [Nutzungsbeschränkungen](../../features/administration/usage-limits.md).
 1. Benennen Sie den Ordner und klicken Sie auf **Speichern**. Ein Ordner mit dem Namen &quot;Elektronik&quot;verfügt beispielsweise über eine Ordnereigenschaft mit dem Namen &quot;Elektronik-Ordnereigenschaft&quot;. Sie können die neue Ordnereigenschaft im Dashboard Eigenschaften Ansicht und auswählen.
-1. Die neue Ordnereigenschaft wird automatisch der [!DNL Audience Manager] generierten Datenquelle zugewiesen. Ihre Benutzer mit entsprechenden Berechtigungen für die [!UICONTROL Rollenbasierte Zugriffskontrolle ([!DNL RBAC])] können die Datenquelle im Arbeitsablauf für die Eigenschaften des Bearbeitungsordners ändern. Siehe Ordnereigenschaften [bearbeiten](../../features/traits/manage-folder-traits.md#edit-folder-trait).
+1. Die neue Ordnereigenschaft wird automatisch der [!DNL Audience Manager] generierten Datenquelle zugewiesen. Ihre Benutzer mit entsprechenden [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) Berechtigungen können die Datenquelle im Arbeitsablauf zum Bearbeiten von Ordnereigenschaften ändern. Siehe Ordnereigenschaften [bearbeiten](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
 ## Ordnereigenschaften bearbeiten {#edit-folder-trait}
 
