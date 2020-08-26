@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Globale Data Sources
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -24,12 +24,12 @@ Die folgende Tabelle beschreibt die von Audience Manager unterstützten globalen
 
 | Datenquellen-ID | Beschreibung |
 |---|---|
-| 20914 | **Google Advertising ID** - **** GAIDs stellen Geräte dar, auf denen das [!DNL Android] Betriebssystem ausgeführt wird. |
-| 20915 | **Apple ID for Advertising** - **** IDFAs stellen Geräte dar, auf denen das [!DNL iOS] Betriebssystem ausgeführt wird. |
-| 121963 | **Roku-ID für Werbung** - **** RIDAs stellen [!DNL Roku] Streaming-Geräte dar. |
-| 389146 | **Microsoft Advertising ID** - **** MAIDs stellen Geräte dar, auf denen das [!DNL Windows 10] Betriebssystem ausgeführt wird. |
-| 404660 | **Samsung** DUIDs stellen [!DNL Samsung] Smart-TVs dar. |
-| 488258 | **Amazon Fire TV Advertising** IDs stellen Geräte dar, auf denen [!DNL Amazon Fire OS] |
+| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** IDs stellen Geräte dar, auf denen das [!DNL Android] Betriebssystem ausgeführt wird. |
+| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** IDs stellen Geräte dar, auf denen das [!DNL iOS] Betriebssystem ausgeführt wird. |
+| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** IDs stellen [!DNL Roku] Streaming-Geräte dar. |
+| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** IDs stellen Geräte dar, auf denen das [!DNL Windows 10] Betriebssystem ausgeführt wird. |
+| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** IDs stellen [!DNL Samsung] Smart-TVs dar. |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** Geräte darstellen, die [!DNL Amazon Fire OS] |
 
 ## Importieren von Daten aus globalen Datenquellen
 
@@ -52,11 +52,11 @@ Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) import
 
 ## Richtlinie zum Ablauf der Geräte-ID
 
-Audience Manager verwirft Geräte-Anzeigen-IDs nach 120 Tagen Inaktivität automatisch, ähnlich wie bei [AAM-](../faq/faq-privacy.md)UUIDs.
+Audience Manager verwirft Geräte-Anzeigen-IDs nach 120 Tagen Inaktivität automatisch, ähnlich wie [AAM](../faq/faq-privacy.md)UUIDs.
 
 ## Neue globale Datenquellen anfordern
 
-Um neue globale Datenquellen anzufordern, die dem Audience Manager hinzugefügt werden sollen, wenden Sie sich an Adobe Consulting oder den Adobe-Kundendienst und geben Sie detaillierte Informationen zu den erforderlichen Datenquellen an:
+Wenden Sie sich an den Kundendienst von Adobe Consulting oder Adobe und geben Sie detaillierte Informationen zu den erforderlichen Datenquellen an, um neue globale Datenquellen anzufordern, die dem Audience Manager hinzugefügt werden sollen:
 
 * Name der angeforderten Plattform (z. B. [!UICONTROL Apple IDFA]);
 * Name der Firma/Organisation, die die Plattform verwaltet (z. B. [!UICONTROL Apple Inc.]);
