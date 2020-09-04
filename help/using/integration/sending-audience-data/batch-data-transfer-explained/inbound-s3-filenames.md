@@ -7,10 +7,10 @@ title: Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden 
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 6%
+source-wordcount: '1006'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dat
 
 [!DNL S3] Dateinamen enthalten die folgenden erforderlichen und optionalen Elemente:
 
-* **[!DNL S3]Präfix:**`s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* **[!DNL S3]Präfix:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
 * **Dateinamenelemente:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
@@ -64,13 +64,13 @@ Die Tabelle definiert die Elemente in einem [!DNL S3] Dateinamen.
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>Die <span class="term"> Datenanbieter-ID</span> (DPID) ist ein Bezeichner, der dem Audience Manager <span class="keyword"></span> mitteilt, ob eine Datendatei Ihre eigenen Benutzer-IDs oder Android- oder iOS-IDs enthält. Akzeptiert die folgenden Optionen: </p> <p> <b>Datenpartner-ID</b> </p> <p>Hierbei handelt es sich um eine eindeutige ID, die Ihr Audience Manager Ihrer Firma oder Organisation zuweist. Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten mit Ihren eigenen Benutzer-IDs senden. Weist <code>...ftp_dpm_21_123456789.sync</code> beispielsweise <span class="keyword"> Audience Manager</span> an, dass ein Partner mit ID 21 die Datei gesendet hat und die Benutzer-IDs enthält, die ihm zugewiesen wurden. </p> <p> <b>Android-IDs (GAID)</b> </p> <p> Verwenden Sie die ID 20914 als DPID in einem Datendateinamen, wenn die Datei Android-IDs enthält. Wenn Sie die ID 20914 als DPID verwenden, müssen Sie Ihre Firma für den <span class="keyword"> Audience Manager</span>weiterhin identifizieren. Das bedeutet, dass der Dateiname den <code><i>_DPID_TARGET_DATA_OWNER</i></code> Parameter verwenden muss, um Ihre Firmen-ID zu speichern. Angenommen, Sie übergeben Dateien mit Android-IDs und Ihre Datenanbieter-ID ist 21. In diesem Fall würde der Dateiname wie <code>...ftp_dpm_20914_21_123456789.sync</code>. Dies weist <span class="keyword"> Audience Manager</span> darauf hin, dass die Datei Android-IDs enthält und von einem mit ID 21 identifizierten Partner stammt. </p> <p> <b>iOS-IDs (IDFA)</b> </p> <p> Verwenden Sie die ID 20915 als DPID in einem Datendateinamen, wenn die Datei iOS-IDs enthält. Wenn Sie ID 20915 als DPID verwenden, müssen Sie Ihre Firma für den <span class="keyword"> Audience Manager</span>weiterhin identifizieren. Das bedeutet, dass der Dateiname den <code><i>_DPID_TARGET_DATA_OWNER</i></code> Parameter verwenden muss, um Ihre Firmen-ID zu speichern. Angenommen, Sie übergeben Dateien mit Android-IDs und Ihre Datenanbieter-ID ist 21. In diesem Fall würde der Dateiname wie <code>...ftp_dpm_20915_21_123456789.sync</code>. Dies bedeutet, dass <span class="keyword"> Audience Manager</span> die Datei iOS-IDs enthält und von einem Partner stammt, der mit ID 21 identifiziert wurde. </p> 
-    <draft-comment> 
+    <!-- 
      <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Datenpartner-ID:</b> Hierbei handelt es sich um eine eindeutige ID, die Ihr Audience Manager Ihrer Firma oder Organisation zuweist. Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten mit Ihren eigenen Benutzer-IDs senden. Weist <code>...ftp_dpm_21_123456789.sync</code> beispielsweise <span class="keyword"> Audience Manager</span> an, dass ein Partner mit ID 21 die Datei gesendet hat und die Benutzer-IDs enthält, die ihm zugewiesen wurden. </li> 
-      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-IDs (GAID):</b> Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie eine Android-ID enthält. Weist <code>...ftp_dpm_20914_21_123456789.sync</code> Audience Manager <span class="keyword"></span> beispielsweise an, dass die Datendatei nur Android-IDs enthält. Hinweis: Die ID 21 </li> 
-      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-IDs (IDFA):</b> Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Weist <code>...ftp_dpm_20915_123456789.sync</code> Audience Manager <span class="keyword"></span> beispielsweise an, dass die Datendatei nur iOS-IDs enthält. </li> 
+      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Data Partner ID:</b> This is a unique ID Audience Manager assigns to your company or organization. Use this assigned ID in a file name when sending in data that contains your own user IDs. For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that a partner with ID 21 sent the file and it contains user IDs assigned by that partner. </li> 
+      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID):</b> Use ID 20914 in a data file name if it contains Android ID. For example, <code>...ftp_dpm_20914_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only. Note, the ID 21 </li> 
+      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA):</b> Use ID 20915 in a data file name if it contains iOS IDs. For example, <code>...ftp_dpm_20915_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only. </li> 
      </ul> 
-    </draft-comment> <p> <p>Hinweis:  Mischen Sie keine ID-Typen in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise die Android-ID enthält, sollten Sie keine iOS-IDs oder Ihre eigenen IDs in die Datendatei aufnehmen. </p> </p><p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Globale Data Sources</a>.</p> <p>Siehe auch den unten stehenden <code><i>_DPID_TARGET_DATA_OWNER</i></code> Eintrag. </p> </td> 
+    --> <p> <p>Hinweis:  Mischen Sie keine ID-Typen in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise die Android-ID enthält, sollten Sie keine iOS-IDs oder Ihre eigenen IDs in die Datendatei aufnehmen. </p> </p><p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Globale Data Sources</a>.</p> <p>Siehe auch den unten stehenden <code><i>_DPID_TARGET_DATA_OWNER</i></code> Eintrag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -88,9 +88,9 @@ Die Tabelle definiert die Elemente in einem [!DNL S3] Dateinamen.
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Ein 10-stelliger UTC UNIX-Zeitstempel in Sekunden. Der Zeitstempel hilft, jeden Dateinamen eindeutig zu machen. </p> 
-    <draft-comment> 
-     <p> <p>Hinweis:  Audience Manager verwendet den Zeitstempel bei der Verarbeitung von eingehenden Dateien nicht. Der Zeitstempel im Dateinamen wurde in Audience Manager nicht mehr unterstützt, ist aber dennoch für die Abwärtskompatibilität erforderlich. </p> </p> 
-    </draft-comment> </td> 
+    <!-- 
+     <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
