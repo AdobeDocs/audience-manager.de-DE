@@ -1,15 +1,15 @@
 ---
-description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zur Optimierung der Audience zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
-seo-description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zur Optimierung der Audience zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
+description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zu Audience Optimizationen zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
+seo-description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zu Audience Optimizationen zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
 seo-title: Überblick und Zuordnungen für Metadatendateien
 solution: Audience Manager
 title: Überblick und Zuordnungen für Metadatendateien
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '836'
 ht-degree: 4%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # Überblick und Zuordnungen für Metadatendateien{#overview-and-mappings-for-metadata-files}
 
-Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zur Optimierung der Audience zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
+Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte zu Audience Optimizationen zeigen lesbare Namen in den verschiedenen Berichtoptionen an.
 
 ## Überblick {#overview}
 
-Eine Übersicht über Metadaten und deren Verwendung. Eine Metadatendatei muss von einer Datendatei begleitet sein. Der Inhalt der Metadatendatei stimmt mit den Datendateiinformationen mit den entsprechenden, für Menschen lesbaren Beschriftungen in den Berichtmenüs überein. Weitere Informationen finden Sie unter [Datendateien für Berichte zur Optimierung der Audience und zu ausführbaren Protokolldateien](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+Eine Übersicht über Metadaten und deren Verwendung. Eine Metadatendatei muss von einer Datendatei begleitet sein. Der Inhalt der Metadatendatei stimmt mit den Datendateiinformationen mit den entsprechenden, für Menschen lesbaren Beschriftungen in den Berichtmenüs überein. Weitere Informationen finden Sie unter [Datendateien für Audience Optimizationen-Berichte und ausführbare Protokolldateien](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### Metadatendateien enthalten Daten zu anderen Daten
 
@@ -39,7 +39,7 @@ Eine ordnungsgemäß formatierte Metadatendatei kann dieses kreative Element jed
 
 ### Wann benötigen Sie eine Metadatendatei?
 
-Zunächst sind eine Metadatendatei und alle unten aufgeführten Parameter für einen Ereignis-Aufruf erforderlich, wenn Sie die [Audience-Optimierungsberichte](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)verwenden möchten.
+Zunächst sind eine Metadatendatei und alle unten aufgeführten Parameter für einen Ereignis-Aufruf erforderlich, wenn Sie die [Audience Optimizationen-Berichte](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)verwenden möchten.
 
 Zweitens benötigen Sie eine Metadatendatei, wenn Sie Ihre eigenen Daten an [!DNL Audience Manager] oder wenn Sie Daten aus den Berichten anderer Anbieter sehen möchten, mit denen wir nicht integriert sind. Beispielsweise [!DNL Audience Manager] ist Google mit dem [Dublette-Click-Kampagne-Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) von Google integriert. Aufgrund dieser Beziehung [!DNL Audience Manager] können IDs mit Namen und Beschreibungen verknüpft werden, die von den Berichtsoptionen verwendet werden. Ohne Integration können wir weiterhin Daten erfassen, aber die Berichtsoptionen zeigen numerische IDs anstelle eines beschreibenden Namens an.
 
@@ -112,7 +112,7 @@ Die von diesen Schlüssel-Wert-Paaren weitergeleiteten IDs helfen beim Erstellen
 
 In diesem Beispiel erstellen wir eine Metadatendatei, die kreative Namen in einen [!UICONTROL Audience Optimization] Bericht einfügt. Dazu müssen wir kreative IDs, Kampagnen und Datenquellen-IDs aus einem Ereignis-Aufruf extrahieren.
 
-![](assets/metadata_file_event.png)
+![ereignis-Metadatendatei-Schema](assets/metadata_file_event.png)
 
 ### Dateiname
 
@@ -124,7 +124,7 @@ In einem Dateinamen:
 
 * Die Kreativ- und Kampagnen-IDs stellen eher eine Kategorie als eine tatsächliche ID dar.
 
-![](assets/metadata_file_name.png)
+![schema des Metadatendateinamens](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,17 +132,17 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 In diesem Beispiel spiegeln die Dateiinhalte die kreativen IDs und Kampagnen-IDs wider, die beim Ereignis-Aufruf übergeben werden. Das neue Element hier ist ein lesbarer Name. Nach der Verarbeitung wird der Name in dieser Datei als Option im Menü &quot;Kreativ&quot;eines [!UICONTROL Audience Optimization] Berichts angezeigt.
 
-![](assets/metadata_file_contents.png)
+![schema für Metadatendateiinhalte](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### File Versand
 
-Nachdem Sie einer Datenspeicherung einen Namen gegeben und Daten hinzugefügt haben, senden Sie diese an einen Amazon S3-Ordner, der von [!DNL Audience Manager]bereitgestellt wird. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Nachdem Sie einer Datei einen Namen gegeben und Daten hinzugefügt haben, senden Sie diese an ein Amazon S3-Datenspeicherung-Verzeichnis, das von [!DNL Audience Manager]bereitgestellt wird. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
->* [Datendateien für Berichte zur Optimierung der Audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [Datendateien für Berichte zur Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Erfassen von Kampagnenklickdaten über Pixelaufrufe](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe](../../../integration/media-data-integration/impression-data-pixels.md)
 
