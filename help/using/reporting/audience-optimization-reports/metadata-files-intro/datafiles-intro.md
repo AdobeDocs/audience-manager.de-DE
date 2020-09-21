@@ -1,15 +1,15 @@
 ---
-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten zur Optimierung der Audience und für ausführbare Protokolldateien verwenden. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
-seo-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten zur Optimierung der Audience und für ausführbare Protokolldateien verwenden. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
+description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten "Audience Optimization"und für "Verfolgbare Protokolldateien"verwenden. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
+seo-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren und in den Berichten "Audience Optimization"und für "Verfolgbare Protokolldateien"verwenden. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
 seo-title: Datendateien für Berichte zur Zielgruppenoptimierung und ausführbare Protokolldateien
 solution: Audience Manager
 title: Datendateien für Berichte zur Zielgruppenoptimierung und ausführbare Protokolldateien
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1010'
 ht-degree: 5%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Datendateien für Berichte zur Zielgruppenoptimierung und ausführbare Protokolldateien {#data-files-for-audience-optimization-reports}
 
-Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren, um sie in den [Audiencen-Optimierungsberichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) Ansicht, und Eigenschaften mithilfe der Daten mithilfe von [ausführbaren Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md)erstellen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
+Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren, um sie in den [Audience Optimizationen-Berichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) Ansicht, und Eigenschaften mithilfe der Daten mithilfe von [ausführbaren Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md)erstellen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
 
 ## Überblick {#overview}
 
-Mit einer ordnungsgemäß benannten und formatierten Datendatei können Sie Impressions-, Klick- oder Konversionsdaten in die [Audience Optimierungsberichte](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)importieren. Dies ist nützlich, wenn Sie mit einem Partner arbeiten, der nicht in die Report Suite integriert ist [!DNL Audience Manager] und mit diesen Daten arbeiten möchten. Dieser Prozess erfordert separate Dateien für Impressions-, Klick- und Konvertierungsdaten. Mischen Sie diese Ereignisse nicht in einer einzigen Datei.
+Mit einer ordnungsgemäß benannten und formatierten Datendatei können Sie Impressions-, Klick- oder Konvertierungsdaten in die [Audience Optimizationen-Berichte](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)importieren. Dies ist nützlich, wenn Sie mit einem Partner arbeiten, der nicht in die Report Suite integriert ist [!DNL Audience Manager] und mit diesen Daten arbeiten möchten. Dieser Prozess erfordert separate Dateien für Impressions-, Klick- und Konvertierungsdaten. Mischen Sie diese Ereignisse nicht in einer einzigen Datei.
 
 Eine Datendatei muss von einer Metadatendatei begleitet sein. Der Inhalt der Metadatendatei stimmt mit den Datendateiinformationen mit den entsprechenden, für Menschen lesbaren Beschriftungen in den Berichtmenüs überein. Weitere Informationen finden Sie unter [Übersicht und Zuordnungen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -29,7 +29,7 @@ Eine Datendatei muss von einer Metadatendatei begleitet sein. Der Inhalt der Met
 
 Die folgende Syntax definiert die Struktur eines gut formatierten Datendateinamens. Beachten Sie, dass *kursiv* ein Platzhalter für eine Variable angegeben wird, der sich je nach Dateiinhalt ändert.
 
-**Syntax:** <pre><i>Ereignistyp</i>_<i>yyymmdd</i></code></pre>
+**Syntax:** `event type_yyyymmdd`
 
 In einem Dateinamen:
 
@@ -39,15 +39,15 @@ In einem Dateinamen:
 
 Benennen Sie Ihre Datendateien unter Berücksichtigung dieser Anforderungen nach ihrem Inhalt wie folgt:
 
-* Impressionsdaten: <pre>impressions_<i>yyymmdd</i>.gz</code></pre>
-* Klickdaten: <pre>clicks_<i>yyymmdd</i>.gz</code></pre>
-* Konversionsdaten: <pre>conversions_<i>yyymmdd</i>.gz</code></pre>
+* Impressionsdaten: `impressions_yyyymmdd.gz`
+* Klickdaten: `clicks_yyyymmdd.gz`
+* Konversionsdaten: `conversions_yyyymmdd.gz`
 
 ## Content Format for Data Files {#content-format}
 
 Die folgende Syntax definiert die Inhaltsstruktur in der gut formatierten Datendatei. Beachten Sie, dass *kursiv* ein Platzhalter für eine Variable steht und in einer Datendatei durch eine Beschriftung ersetzt wird.
 
-**Syntax:** <pre><i>Kopfzeilenbeschriftung 1</i> | <i>Kopfzeilenbeschriftung 2</i> ... <i>Header-Beschriftung n</i> | <i>version</i></code></pre>
+**Syntax:** `header label 1 | header label 2 ... header label n | version`
 
 Inhalt der Datei:
 
@@ -143,7 +143,7 @@ In der folgenden Tabelle sind die Spaltenüberschriften für die Datendatei List
 
 ## Delivery Methods for Data Files {#delivery-methods}
 
-Laden Sie Ihre Impressions-, Klick- oder Konvertierungsdatendateien in einen Amazon S3-Ordner für Ihr [!DNL Audience Manager] Konto hoch. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+Laden Sie Ihre Impressions-, Klick- oder Konvertierungsdatendateien in ein Amazon S3-Verzeichnis für Ihr [!DNL Audience Manager] Konto hoch. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
 
 >[!IMPORTANT]
 >
@@ -153,7 +153,7 @@ Laden Sie Ihre Impressions-, Klick- oder Konvertierungsdatendateien in einen Ama
 
 Die Daten werden in einem separaten Namensraum für jeden Kunden in einem [!DNL Amazon S3] Verzeichnis gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Note, *italics* indicates a variable placeholder. Andere Elemente sind Konstanten oder Schlüssel und bleiben unverändert.
 
-**Syntax:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>Dateityp</i>_<i>yyymmdd</i></code></pre>
+**Syntax:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
 
 In der folgenden Tabelle werden diese Elemente in einem Dateipfad definiert.
 
