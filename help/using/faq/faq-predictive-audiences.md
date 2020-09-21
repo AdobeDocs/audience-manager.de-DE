@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 67%
+source-wordcount: '1024'
+ht-degree: 64%
 
 ---
 
@@ -115,6 +115,12 @@ Ja, falls im Profil des Benutzer keine Eigenschaften angegeben sind. In diesem F
 **Kann ein Benutzer, der in eines der Vorhersagesegmente klassifiziert wurde, in ein anderes [!UICONTROL Predictive Audiences]-Segment umklassifiziert werden?**
 
 Ja. Da der Algorithmus täglich trainiert wird, wendet er die Änderungen für jede der Personas in Bezug auf die Bewertung der Eigenschaften an. Wenn ein Benutzer, der Teil eines [!UICONTROL Predictive Audiences]-Segments ist, aktiv ist, können die Änderungen in seinem Eigenschaftswert die Classification basierend auf der Aktivität der letzten 30 Tage ändern.
+
+ 
+
+**Kann ich regulären Segmenten Vorhersageeigenschaften hinzufügen?**
+
+Wenn Sie einem normalen Segment eine prädiktive Eigenschaft hinzufügen, wird das Segment zu einem prädiktiven Segment. Folglich sind alle verknüpften Profil nicht segmentiert. Prognostische Segmente können nur an Echtzeit-Ziele gesendet werden.
 
  
 
