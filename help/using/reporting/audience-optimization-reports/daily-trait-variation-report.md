@@ -7,9 +7,9 @@ title: Täglicher Bericht zur Eigenschaftsvarianz
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Dieser Bericht gibt eine Liste von Eigenschaften zurück, die in den 30 Tagen vo
 
 Die Standardabweichung misst den Umfang der Abweichung oder Streuung vom Mittelwert (oder vom Mittelwert/erwarteten Wert). Eine niedrige Standardabweichung deutet darauf hin, dass die Datenpunkte tendenziell sehr nahe am Mittelwert liegen. Eine hohe Standardabweichung zeigt an, dass die Datenpunkte über einen großen Wertebereich verteilt sind.
 
-![](assets/daily_trait_variation.png)
+![Screenshot-Bericht zur täglichen Eigenschaftsänderung](assets/daily_trait_variation.png)
 
 Verwenden Sie die [!UICONTROL Date] Liste, um ein oder mehrere Daten für Ihren Bericht auszuwählen. Am unteren Rand der Liste wird ein farbkodiertes Balkendiagramm angezeigt, das den Bereich der Standardabweichung für alle Eigenschaften über alle ausgewählten Daten hinweg visuell widerspiegelt. Die schwarze vertikale Linie zeigt den Mittelwert an.
 
@@ -56,8 +56,8 @@ Durch eine Neukonfiguration Ihres Geschäfts teilen Sie die Smartphone-Seite bas
 
 Einen Monat später führen Sie den [!UICONTROL Daily Trait Variation] Bericht aus und bemerken eine große negative Abweichung von der `productPage == "smartphones"` Eigenschaft, obwohl Ihre Besucher-Anzahl gestiegen ist, wie Ihre Site-Analyse zeigt. Anhand dieser Informationen erkennen Sie, dass Sie die Eigenschaften für Ihre neuen Produktseiten nicht aktualisiert haben. Daher wissen Sie, dass Sie die folgenden Eigenschaften erstellen müssen: [!DNL Audience Manager]
 
-* productPage == &quot;samsung&quot;
-* productPage == &quot;apple&quot;
-* productPage == &quot;huawei&quot;
+* `productPage == "samsung"`
+* `productPage == "apple"`
+* `productPage == "huawei"`
 
 Sobald Sie dies tun, sehen Sie, dass Ihre Audience für die neu erstellten Eigenschaften qualifiziert ist.
