@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
+source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 64%
 
 ---
@@ -106,6 +106,8 @@ Wenn Sie jedoch ein [!UICONTROL Profile Merge Rule] Gerät nur auf der Grundlage
 
 Analysieren Sie Ihren Anwendungsfall sorgfältig und entscheiden Sie, von welchen [!UICONTROL trait] Typen das Modell lernen soll und welche Art von Daten das Modell für die Klassifizierung verwenden soll.
 
+ 
+
 **Kann ein vorkommen, dass ein Benutzer aus der Zielgruppe, der nicht Teil einer/s Persona-Eigenschaft/-Segments ist, nicht klassifiziert wird?**
 
 Ja, falls im Profil des Benutzer keine Eigenschaften angegeben sind. In diesem Fall erhält der Benutzer eine Übereinstimmungsbewertung von 0 für alle Persona-Eigenschaften/-Segmente und wird daher nicht in eines der Vorhersagesegmente klassifiziert.
@@ -120,7 +122,7 @@ Ja. Da der Algorithmus täglich trainiert wird, wendet er die Änderungen für j
 
 **Kann ich regulären Segmenten Vorhersageeigenschaften hinzufügen?**
 
-Wenn Sie einem normalen Segment eine prädiktive Eigenschaft hinzufügen, wird das Segment zu einem prädiktiven Segment. Folglich sind alle verknüpften Profil nicht segmentiert. Prognostische Segmente können nur an Echtzeit-Ziele gesendet werden.
+Wenn Sie einem regulären Segment eine prädiktive Eigenschaft hinzufügen, wird daraus ein prädiktives Segment. Folglich sind alle verknüpften Profil nicht segmentiert. Prognostische Segmente können nur an Echtzeit-Ziele gesendet werden.
 
  
 
