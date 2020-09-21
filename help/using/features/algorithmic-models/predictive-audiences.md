@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1be20c2412a272e6374b8b84e6a5c1628da18497
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 8%
+source-wordcount: '1551'
+ht-degree: 7%
 
 ---
 
@@ -114,12 +114,15 @@ Berücksichtigen Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] 
 * Zweiter- und Drittanbieterdaten werden derzeit nicht in unterstützt [!UICONTROL Predictive Audiences].
 * Die Audience wird nur für Erstanbieter-Audiencen in Echtzeit klassifiziert. Die Klassifizierung der integrierten Erstanbieter-Audiencen wird in zukünftigen Aktualisierungen möglicherweise unterstützt.
    >[!IMPORTANT]
+   > Wenn Sie einem regulären Segment eine prädiktive Eigenschaft hinzufügen, wird daraus ein prädiktives Segment. Folglich sind alle verknüpften Profil nicht segmentiert.
+
+   >[!IMPORTANT]
    > Zurzeit können prädiktive Segmente nur in Echtzeit-Zielen aktiviert werden. Die [!UICONTROL Total Segment Population] und [!UICONTROL Addressable Audience] die prädiktiven Segmente werden als 0 angezeigt, und für [Batch-ausgehende Datenübertragungen](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) werden sie nicht unterstützt [!UICONTROL Predictive Audiences]. Dieses Verhalten wird sich in einem zukünftigen Update ändern.
 * [!UICONTROL Predictive Audiences] führt eine Audience-Classification anhand Ihrer Erstanbieter-Eigenschaften aus allen Erstanbieter-Datenquellen durch.
 * Die Segmentbewertung [!UICONTROL Predictive Audiences] verwendet die **[!UICONTROL Profile Merge Rule]** , die Sie bei der Modellerstellung auswählen. Weitere Informationen finden Sie [!UICONTROL Profile Merge Rules] in der [Dokumentation](../profile-merge-rules/merge-rules-overview.md).
 * Einige Eigenschaften und Segmente werden nicht als Basis- oder Zielgruppe-Audiencen unterstützt. [!UICONTROL Predictive Audiences] die Modelle können nicht gespeichert werden, wenn eine der folgenden Audiencen als Basislinien oder Zielgruppe ausgewählt wird:
    * Prognostische Eigenschaften und Segmente, die mit Prognoseeigenschaften erstellt wurden;
-   * [Adobe Experience Platformen](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) oder Segmente;
+   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) -Eigenschaften oder -Segmente;
    * Algorithmische Eigenschaften;
    * Eigenschaften von Zweitanbietern und Drittanbietern.
 
