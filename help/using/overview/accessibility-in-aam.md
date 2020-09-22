@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Zugänglichkeit im Audience Manager
 feature: overview
 translation-type: tm+mt
-source-git-commit: 032e01f2483543271680093ae3286bcf3b3b3740
+source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Um die Verwendung für alle zu erleichtern, haben wir Unterstützung für mehrer
 
    ![access-highlight](assets/accesibility-highlight.png)
 
-* Die `Return` Tasten und `Space` Tasten aktivieren das ausgewählte Element.
+* Die `Return` (`Enter`) und `Space` Tasten aktivieren das ausgewählte Element.
 
 ## Barrierefreie Tabellensortierung {#table-sorting}
 
@@ -62,6 +62,4 @@ Beispielsweise enthalten die Ladebildschirme einen Ladekreisel in einem weißen 
 
 [!DNL Audience Manager] ist bestrebt, eine immer größere Zugänglichkeit zu gewährleisten, wodurch das Produkt für alle leicht zu verwenden ist.
 
-Weitere Informationen zu Verbesserungen der Barrierefreiheit und dem Compliance-Status finden Sie im Barrierefreiheitskonformitätsbericht.
-
-Darüber hinaus empfehlen wir Ihnen, das Feedback-Formular zur [Adobe-Zugänglichkeit zu verwenden, um uns Verbesserungsvorschläge und Zugänglichkeitsprobleme zu senden, mit denen Sie arbeiten](https://www.adobe.com/accessibility/feedback.html) . Wir freuen uns, Ihr Feedback zu berücksichtigen und zu verbessern [!DNL Audience Manager].
+Wir empfehlen Ihnen, das Feedback-Formular [zur](https://www.adobe.com/accessibility/feedback.html) Adobe-Zugänglichkeit zu verwenden, um uns Verbesserungsvorschläge und Zugänglichkeitsprobleme zu senden, mit denen Sie arbeiten. Wir freuen uns, Ihr Feedback zu berücksichtigen und zu verbessern [!DNL Audience Manager].
