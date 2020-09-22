@@ -8,10 +8,10 @@ breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: cab5afd291b2b6ef3f458b4a86fc0c0f6c90d630
+source-git-commit: a726ad4fa4d1404efd363f8ed61222fcf3795c34
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 100%
+source-wordcount: '1760'
+ht-degree: 99%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 100%
          + [Zustimmungsverwaltung](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Audience Manager-Plug-In für IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Data Governance](overview/data-security-and-privacy/data-governance.md)
+   + [Zugänglichkeit im Audience Manager](overview/accessibility-in-aam.md)
 + Funktionen {#features}
    + [Ansprechbare Zielgruppen](features/addressable-audiences.md)
    + Administration {#administration}
