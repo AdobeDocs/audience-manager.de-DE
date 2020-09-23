@@ -8,7 +8,7 @@ breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a726ad4fa4d1404efd363f8ed61222fcf3795c34
+source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 99%
@@ -78,8 +78,8 @@ ht-degree: 99%
       + [Data Explorer – Überblick, Vorteile und Anwendungsfälle](features/data-explorer/data-explorer-overview.md)
       + [Grundlegendes zu Signalen](features/data-explorer/data-explorer-understanding-signals.md)
       + [Signale-Dashboard](features/data-explorer/data-explorer-signals-dashboard.md)
-      + Signalsuche {#signals-search}
-         + [Signalsuche – Überblick](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
+      + Signalsuche{#signal-search}
+         + [Übersicht über die Signalsuche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [Suchsignale nach Schlüssel-Wert-Paaren](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [Suchsignale nach Filtern](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
          + [Erweiterte Suche für Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
