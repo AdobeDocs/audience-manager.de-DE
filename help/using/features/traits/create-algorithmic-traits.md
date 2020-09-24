@@ -7,9 +7,9 @@ title: Erstellen algorithmischer Eigenschaften
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aeaf8b14e901b4a39486ba3740f0582c9cf34559
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '343'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,12 @@ Gehen Sie wie folgt vor, um eine algorithmische Eigenschaft zu erstellen [!UICON
 1. Erweitern Sie den [!UICONTROL Configuration] Bereich und klicken Sie auf **[!UICONTROL Browse All Models]**.
 Dadurch wird ein neues Fenster geöffnet, in dem Sie das Modell auswählen können, das Sie mit der Eigenschaft verwenden möchten.
 1. Wählen Sie ein Modell aus und klicken Sie auf **[!UICONTROL Add Selected Model to Trait]**.
-Durch Hinzufügen des Modells werden die Einstellungen für Reichweite und Genauigkeit verfügbar gemacht.
+
+   >[!NOTE]
+   > 
+   > Sie können ausgewählte Modelle nicht durch vorhandene algorithmische Eigenschaften ersetzen. Um ein anderes Modell zu verwenden, müssen Sie eine neue algorithmische Eigenschaft erstellen.
+
+   Durch Hinzufügen des Modells werden die Einstellungen für Reichweite und Genauigkeit verfügbar gemacht.
 1. Wählen Sie als Ziel Reichweite oder Genauigkeit aus und wählen Sie einen Wert aus den entsprechenden Dropdownmenüs. Klicken Sie **[!UICONTROL Save]** nach Abschluss des Vorgangs auf .
 
 ## Konfigurationseinstellungen für algorithmische Eigenschaften {#configure-settings}
