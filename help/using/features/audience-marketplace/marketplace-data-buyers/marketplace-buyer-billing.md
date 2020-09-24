@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Die Käufer von Audience Marketplace-Daten erklären sich damit einverstanden, a
 
 [!UICONTROL Audience Marketplace] Datenkäufer stimmen zu, alle Anzeigenimpressionen zu melden, die mit den im Datenfeed enthaltenen Eigenschaften bereitgestellt werden, und zwar zu einem Preis pro Tausend Anzeigenimpressionen ([!DNL CPM]). [!DNL CPM] Die Nutzung erfolgt am 5. Tag jedes Kalendermonats und beinhaltet Daten für den vorherigen Monat. Pauschalabonnenten müssen die Nutzung nicht melden.
 
-[!UICONTROL Audience Marketplace] Angebot zwei Möglichkeiten zur [!DNL CPM] Nutzungsberichterstellung:
+[!UICONTROL Audience Marketplace] angebot zwei Möglichkeiten zur [!DNL CPM] Nutzungsberichterstellung:
 
 * **Berichte** auf Segmentebene: dies ist die empfohlene Berichte- [!DNL CPM] Methode. Wenn Sie eine [!DNL CPM] Nutzung auf Segmentebene melden, wird der Berichte auf Datenfeed-Ebene automatisch mit den entsprechenden Nutzungsbeträgen ausgefüllt, basierend auf den unter [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)beschriebenen Algorithmen.
 * **Berichte** auf Datenfeed-Ebene: Diese Methode erfordert, dass Sie die [!DNL CPM] Nutzung für jeden Datenfeed individuell melden, basierend auf den unter [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution)beschriebenen Algorithmen. Diese Methode ist jedoch umständlicher und fehleranfälliger als Berichte auf Segmentebene.
@@ -126,7 +126,7 @@ So aktualisieren Sie die [!DNL CPM] Verwendung als Massenspeicher:
   <tr> 
    <td colname="col1"> <p><b>Gesamtanzahl der Impressionen immer melden</b> </p> </td> 
    <td colname="col2"> <p>Bei CPM-Impressionssummen: </p>
-   <p> Geben Sie die Gesamtanzahl der Impressionen ohne Dezimalstellen an. Audience Manager berechnet den CPM automatisch auf Basis der von Ihnen angegebenen Gesamtanzahl.</p><p>Wenn Sie 1.234.567 Impressionen melden müssen, melden Sie sie genau so. Sie müssen die Gesamtanzahl der Impressionen nicht durch 1.000 dividieren, um den CPM zu berechnen.</p><p>Eigenschaften, die zur Optimierung Ihres Web- oder App-Inhalts (Inhaltsoptimierung) mithilfe von Tools wie Adobe Target oder einem Analytics-Ziel verwendet werden, tragen nicht zu den Nutzungshöchstwerten für CPM-Pläne bei. Datenanbieter erhalten in der Regel einen Ausgleich für die Inhaltsoptimierung, indem sie Pauschalentgelte verwenden.</p><p>Weitere Informationen finden Sie unter <a href="#cost-attribution">Kostenzuordnung für CPM-Datenfeeds</a> . </p> </td>
+   <p> Geben Sie die Gesamtanzahl der Impressionen ohne Dezimalstellen an. Audience Manager berechnet den CPM automatisch auf Basis der von Ihnen angegebenen Gesamtanzahl.</p><p>Wenn Sie 1.234.567 Impressionen melden müssen, melden Sie sie genau so. Sie müssen die Gesamtanzahl der Impressionen nicht durch 1.000 dividieren, um den CPM zu berechnen.</p><p>Eigenschaften, die zur Optimierung Ihres Web- oder App-Inhalts (Inhaltsoptimierung) mithilfe von Tools wie Adobe Target oder einem Analytics-Ziel verwendet werden, tragen nicht zu den Nutzungs-Gesamtzahlen für CPM-Pläne bei. Datenanbieter erhalten in der Regel einen Ausgleich für die Inhaltsoptimierung, indem sie Pauschalentgelte verwenden.</p><p>Weitere Informationen finden Sie unter <a href="#cost-attribution">Kostenzuordnung für CPM-Datenfeeds</a> . </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>An Monatsintervall des Berichte festhalten</b> </p> </td> 
@@ -152,7 +152,7 @@ Sie müssen Datenfeed-Impressionsbeträge zwischen dem 1. und dem 5. Tag jedes K
 
 Falls erforderlich, müssen Sie [!UICONTROL Report CPM Usage at Data Feed Level]alle Impressionen, die im vorausgegangenen Kalendermonat für jeden Feed bereitgestellt wurden, einzeln kompilieren und sie gemäß der in diesem Artikel beschriebenen Rechnungszuweisung melden.
 
-Führen Sie nach der Berichterstellung [!DNL CPM] für die Nummer des vorherigen Kalendermonats [!DNL Adobe] folgende Schritte aus:
+Führen Sie nach dem Bericht [!DNL CPM] der Nummer für den vorherigen Kalendermonat [!DNL Adobe] folgende Schritte aus:
 
 * Erstellen Sie eine Rechnung und eine Rechnung, die Sie auf der Grundlage der [!DNL CPM] Rate für jeden abonnierten Datenfeed erstellen.
 * Gebühren für Datenanbieter (Verkäufer) werden auf der Grundlage Ihrer gemeldeten [!DNL CPM] Nutzung geschuldet.
@@ -170,7 +170,8 @@ Im [!UICONTROL Activation] Anwendungsfall können Sie Eigenschaften im entsprech
 Wenn Sie CPM-Nutzung auf Datenfeed-Ebene [melden](#feed-level-report), müssen Sie Impressionen proportional für jeden Datenfeed zuweisen, entsprechend den in den Eigenschaftsqualifizierungsregeln verwendeten [!DNL Boolean] Operatoren. In der folgenden Tabelle wird die korrekte Zuordnung von Impressionen nach booleschen Regeln oder Eigenschaften Liste.
 
 >[!TIP]
->[Bericht zur CPM-Nutzung auf Segmentebene](#segment-level-report) , damit der Berichte auf Datenfeed-Ebene automatisch vom Audience Manager ausgeführt wird.
+>
+> [Bericht zur CPM-Nutzung auf Segmentebene](#segment-level-report) , damit der Berichte auf Datenfeed-Ebene automatisch vom Audience Manager ausgeführt wird.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -267,6 +268,6 @@ Die Aufschlüsselung auf einen Blick nach Datenfeed und Anwendungsfall lautet wi
 
 ## Rechnungsstellung und Impressionszuordnung für einfache Feeds {#billing-flat-fee}
 
-Ein Datenfeed mit einer Pauschale berechnet Ihnen monatlich einen festen Betrag, unabhängig davon, wann das Abonnement Beginn oder wie viele Impressionen Sie verwenden. Die Gebühren werden nicht anteilig für die teilweise Monatsnutzung oder für Intervalle berechnet. Wie bei der CPM-Abrechnung erstellt Adobe eine Rechnung und rechnet Sie zum monatlichen Pauschalpreis für Ihre abonnierten Data Feeds ab.
+Ein Datenfeed mit einer Pauschale berechnet Ihnen monatlich einen festen Betrag, unabhängig davon, wann das Abonnement Beginn oder wie viele Impressionen Sie verwenden. Die Gebühren werden nicht anteilig für die teilweise Monatsnutzung oder für Intervalle berechnet. Wie bei der CPM-Abrechnung erstellt die Adobe eine Rechnung und rechnet Sie zum monatlichen Pauschalpreis für Ihre abonnierten Daten-Feeds ab.
 
 Nehmen wir beispielsweise an, Sie haben beschlossen, in der Mitte des Monats bestimmte Eigenschaften in einem Feed zu aktivieren. Sie werden weiterhin zum vollen Monatspreis in Rechnung gestellt, unabhängig davon, wann Sie das Abonnement gestartet oder bestimmte Eigenschaften aktiviert haben.
