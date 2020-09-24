@@ -7,9 +7,9 @@ title: Definierte Zielmakros
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '671'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
 
 Die `%rnd%` und `%timestamp%` Makros fügen eindeutige Werte in eine [!DNL URL] Zeichenfolge ein, um die Zwischenspeicherung im Browser zu verhindern.
 
-## Cache-Busting mit `%rnd%` und `%timestamp%` {#dest-cache-busting}
+## Cache-Busting mit %rnd% und %timestamp% {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ Cache-Busting verhindert, dass Browser Inhalte speichern und wiederverwenden. Be
 * `%rnd%`: Fügt eine Zufallszahl in eine URL ein.
 * `%timestamp%`: Fügt das Unix-Datum/die Unix-Uhrzeit in eine URL ein.
 
-## Vergleichen `%rnd%` und `%timestamp%` {#compare-rnd-timestamp}
+## Vergleich von %rnd% und %timestamp% {#compare-rnd-timestamp}
 
 Beide Makros verhindern die Zwischenspeicherung, können aber effizienter `%rnd%` sein. Wenn beispielsweise mehrere Benutzer eine Seite gleichzeitig `%timestamp%`Ansicht haben, erhalten sie denselben Datums-/Uhrzeitwert. Daher [!DNL URL] ist der Aufruf nicht eindeutig und mehrere Aufrufe werden nur einmal gezählt. Generiert jedoch einen eindeutigen numerischen Wert für jeden Aufruf (auch wenn Benutzer dieselbe Seite gleichzeitig sehen). `%rnd%` Das bedeutet, dass die [!DNL URL] Zeichenfolge unterschiedliche Werte enthält und als eindeutig gezählt wird.
 
