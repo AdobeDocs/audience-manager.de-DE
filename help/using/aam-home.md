@@ -1,26 +1,26 @@
 ---
 description: Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Tools zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 seo-description: Technische Dokumentation und Selbsthilfe für Audience Manager (AAM). Mit AAM bieten wir branchenführende Dienste für das Daten-Management von Online-Zielgruppen und stellen digitalen Werbetreibenden die Tools zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
-seo-title: Technische Produktdokumentation für Adobe Audience Manager
+seo-title: Adobe Audience Manager-Handbuch
 solution: Audience Manager
-title: Audience Manager-Produktdokumentation
+title: Audience Manager-Handbuch
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
+source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
 
 
-# Audience Manager-Produktdokumentation {#audience-manager-product-documentation}
+# Audience Manager Guide {#audience-manager-product-documentation}
 
 In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Audience Manager – einem branchenführenden Service für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Tools zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 
-## Verwenden dieses Handbuchs zur Produktdokumentation
+## Verwenden dieses Handbuchs
 
 * Durchsuchen Sie den Inhalt nach Thema und Unterthema in der **linken Navigation**.
 * Verwenden Sie das **Suchfeld** oben auf der Seite, wenn Sie wissen, wonach Sie suchen.
@@ -160,7 +160,7 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
      <br> 
      <p> <b>Neueste Funktionen</b> </p> <p> 
      Informieren Sie sich über die neuesten Audience Manager-Funktionen:</p>
-     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match for People-Based Destinations</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Vorhersagekräftige Zielgruppen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivitätsnutzung</a></li>
+     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google-Kundenabgleich für benutzerspezifische Ziele</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Vorhersagekräftige Zielgruppen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivitätsnutzung</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Unterstützung des Kalifornischen Verbraucherdatenschutzgesetzes (California Consumer Privacy Act, CCPA) und Überarbeitung der Datenschutzdokumentation</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligente Empfehlungen für Audience Marketplace-Daten, unterstützt von Adobe Sensei</a></li>
      </ul><p>
