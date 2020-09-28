@@ -7,9 +7,9 @@ title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datend
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: d6d15ed68cd70fd7da1037a7cb397a00d252e4dd
+source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '914'
 ht-degree: 9%
 
 ---
@@ -57,11 +57,12 @@ Die Tabelle definiert die Elemente in einem [!DNL FTP] Dateinamen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Eine ID, die dem <span class="keyword"> Audience Manager</span> mitteilt, ob eine Datendatei Ihre eigenen Benutzer-IDs oder Android- oder iOS-IDs enthält. Akzeptiert die folgenden Optionen:</p> 
+   <td colname="col2"> <p>Eine ID, die dem <span class="keyword"> Audience Manager</span> mitteilt, ob eine Datendatei Ihre eigenen Benutzer-IDs, Android-IDs, iOS-IDs oder andere IDs enthält, die zu <a href="/help/using/features/global-data-sources.md"> globalen Datenquellen</a>gehören. Akzeptiert die folgenden Optionen:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Datenanbieter-ID (auch als Datenquellen-ID bezeichnet):</b> Hierbei handelt es sich um einen eindeutigen ID-Audience Manager, der einem Datenanbieter zugewiesen wird. Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten mit Ihren eigenen Benutzer-IDs senden. Weist <code>...ftp_dpm_21_123456789.sync</code> beispielsweise <span class="keyword"> Audience Manager</span> an, dass ein Partner mit ID 21 die Datei gesendet hat und die Benutzer-IDs enthält, die ihm zugewiesen wurden. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-IDs (GAID):</b> Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie eine Android-ID enthält. Weist <code>...ftp_dpm_20914_123456789.sync</code> Audience Manager <span class="keyword"></span> beispielsweise an, dass die Datendatei nur Android-IDs enthält. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-IDs (IDFA):</b> Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Weist <code>...ftp_dpm_20915_123456789.sync</code> Audience Manager <span class="keyword"></span> beispielsweise an, dass die Datendatei nur iOS-IDs enthält. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Datenquellen-ID (auch als Datenanbieter-ID bezeichnet):</b> Hierbei handelt es sich um eine eindeutige ID, die Audience Manager einer Datenquelle zuweist (siehe Audience Manager- <a href="/help/using/reference/ids-in-aam.md"> Index der IDs </a>). Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten mit Ihren eigenen Benutzer-IDs senden. Weisen Sie z. B. <code>...ftp_dpm_21_123456789.sync</code> Audience Manager <span class="keyword"></span> zu integrierten Daten an IDs aus, die zu Datenquelle 21 gehören. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-IDs (GAID):</b> Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie Android-IDs enthält. Weist <code>...ftp_dpm_20914_123456789.sync</code> Audience Manager <span class="keyword"></span> beispielsweise an, dass die Datendatei nur Android-IDs enthält. </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-IDs (IDFA):</b> Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Weist <code>...ftp_dpm_20915_123456789.sync</code> Audience Manager <span class="keyword"></span> beispielsweise an, dass die Datendatei nur iOS-IDs enthält. </li>
+     <li> <b>IDs, die zu anderen globalen Datenquellen</b>gehören: Sie können Roku-IDs für Werbung (RIDA), Microsoft Advertising IDs (MAID) und andere IDs einbinden. Verwenden Sie die ID für jede Datenquelle, wie im Artikel <a href="/help/using/features/global-data-sources.md"> zu</a>globalen Datenquellen beschrieben.</li> 
     </ul> <p> <p>Hinweis:  Mischen Sie keine ID-Typen in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise die Android-ID enthält, sollten Sie keine iOS-IDs oder Ihre eigenen IDs in die Datendatei aufnehmen. </p> </p> </td> 
   </tr> 
   <tr> 
