@@ -7,10 +7,10 @@ title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datend
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
+source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 9%
+source-wordcount: '1042'
+ht-degree: 8%
 
 ---
 
@@ -60,18 +60,19 @@ Die Tabelle definiert die Elemente in einem [!DNL FTP] Dateinamen.
    <td colname="col2"> <p>Eine ID, die dem <span class="keyword"> Audience Manager</span> mitteilt, ob eine Datendatei Ihre eigenen Benutzer-IDs, Android-IDs, iOS-IDs oder andere IDs enthält, die zu <a href="/help/using/features/global-data-sources.md"> globalen Datenquellen</a>gehören. Akzeptiert die folgenden Optionen:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Datenquellen-ID (auch als Datenanbieter-ID bezeichnet):</b> Hierbei handelt es sich um eine eindeutige ID, die Audience Manager einer Datenquelle zuweist (siehe Audience Manager- <a href="/help/using/reference/ids-in-aam.md"> Index der IDs </a>). Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten mit Ihren eigenen Benutzer-IDs senden. Weisen Sie z. B. <code>...ftp_dpm_21_123456789.sync</code> Audience Manager <span class="keyword"></span> zu integrierten Daten an IDs aus, die zu Datenquelle 21 gehören. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-IDs (GAID):</b> Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie Android-IDs enthält. Weist <code>...ftp_dpm_20914_123456789.sync</code> Audience Manager <span class="keyword"></span> beispielsweise an, dass die Datendatei nur Android-IDs enthält. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-IDs (IDFA):</b> Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Weist <code>...ftp_dpm_20915_123456789.sync</code> Audience Manager <span class="keyword"></span> beispielsweise an, dass die Datendatei nur iOS-IDs enthält. </li>
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-IDs (GAID):</b> Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie Android-IDs enthält. Sie müssen das Feld verwenden, <code><i>_DPID_TARGET_DATA_OWNER</i></code> wenn Sie Android-IDs verwenden. Weist <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> Audience Manager <span class="keyword"> beispielsweise an, dass die Datendatei nur Android-IDs enthält und die IDs für die Eigenschaften der</span> <code><i>_DPID_TARGET_DATA_OWNER</i></code> Datenquelle qualifiziert sein sollten.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-IDs (IDFA):</b> Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Sie müssen das Feld verwenden, <code><i>_DPID_TARGET_DATA_OWNER</i></code> wenn Sie iOS-IDs verwenden. Weisen Sie beispielsweise <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> den <span class="keyword"> Audience Manager</span> an, dass die Datendatei nur iOS-IDs enthält und die IDs für die Eigenschaften der <code><i>_DPID_TARGET_DATA_OWNER</i></code> Datenquelle qualifiziert sein sollten.</li>
      <li> <b>IDs, die zu anderen globalen Datenquellen</b>gehören: Sie können Roku-IDs für Werbung (RIDA), Microsoft Advertising IDs (MAID) und andere IDs einbinden. Verwenden Sie die ID für jede Datenquelle, wie im Artikel <a href="/help/using/features/global-data-sources.md"> zu</a>globalen Datenquellen beschrieben.</li> 
     </ul> <p> <p>Hinweis:  Mischen Sie keine ID-Typen in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise die Android-ID enthält, sollten Sie keine iOS-IDs oder Ihre eigenen IDs in die Datendatei aufnehmen. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Ein Platzhalter für eine ID. Sie können sie beispielsweise auf Ihre <span class="keyword"> Audience Manager</span> -ID einstellen, wenn Sie die DPID auf eine Datenquellen-ID oder eine Android- oder iOS-ID festlegen. Dadurch kann <span class="keyword"> Audience Manager</span> die Dateidaten wieder mit Ihrem Unternehmen verknüpfen. </p> <p>Beispiel: </p> 
-    <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
-     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> zeigt, dass ein Partner mit ID 21 Daten aus einer Datenquelle mit ID 33 gesendet hat. </li> 
-     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> zeigt, dass ein Partner mit ID 21 Daten gesendet hat, die Android-IDs enthalten. </li> 
-     <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> zeigt, dass ein Partner mit ID 21 Daten gesendet hat, die iOS-IDs enthalten. </li> 
+   <td colname="col2"> <p>Dieses Feld gibt Audience Manager an, zu welcher Datenquelle Daten an Bord gesendet werden sollen. Dieses Feld ist obligatorisch, wenn Sie die DPID auf eine Android-ID, iOS-ID oder eine andere ID festlegen, die zu globalen Datenquellen gehört. Dadurch kann <span class="keyword"> Audience Manager</span> die Dateidaten wieder mit Ihrem Unternehmen verknüpfen. </p> <p>Beispiel: </p> 
+    <ul> 
+     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> weist Audience Manager an, dass Sie Kunden-IDs aus der Datenquelle 33 für Eigenschaften oder Signale aus der Datenquelle 21 qualifizieren. </li> 
+     <li> <b>Android-IDs (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> weist <span class="keyword"> Audience Manager</span> an, dass die Datendatei nur Android-IDs enthält und die IDs für die Eigenschaften von Datenquelle 21 qualifiziert sein sollten.</li> 
+     <li> <b>iOS-IDs (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> weist <span class="keyword"> Audience Manager</span> an, dass die Datendatei nur iOS-IDs enthält und die IDs für die Eigenschaften von Datenquelle 21 qualifiziert sein sollten.</li>
+     <li> <b>IDs, die zu anderen globalen Datenquellen</b>gehören: <code>...ftp_dpm_121963_21_1234567890.sync</code> weist <span class="keyword"> Audience Manager</span> an, dass die Datendatei nur Roku-IDs enthält und die IDs für die Eigenschaften von Datenquelle 21 qualifiziert sein sollten. Verwenden Sie die ID für jede Datenquelle, wie im Artikel <a href="/help/using/features/global-data-sources.md"> zu</a>globalen Datenquellen beschrieben.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
