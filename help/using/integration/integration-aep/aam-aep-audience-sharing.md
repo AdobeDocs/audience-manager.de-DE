@@ -7,10 +7,10 @@ title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -117,7 +117,8 @@ Beim Austausch von Audiencen zwischen Audience Manager und Experience Platform w
 >[!NOTE]
 >
 >Allgemeine Informationen zu Datenexportkontrollen finden Sie in der Dokumentation [zu den](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)Datenexportkontrollen.
-Dieses Dokument bietet eine Referenz dafür, wie bestimmte Datenexportsteuerelemente des Audience Managers mit Datenverwendungsbeschriftungen und Marketingaktionen in der Plattform verknüpft sind.
+>
+>Dieses Dokument bietet eine Referenz dafür, wie bestimmte Datenexportsteuerelemente des Audience Managers mit Datenverwendungsbeschriftungen und Marketingaktionen in der Plattform verknüpft sind.
 
 ### Datenexport-Steuerelemente in Datenverwendungsbeschriftungen
 
