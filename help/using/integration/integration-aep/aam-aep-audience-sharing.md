@@ -7,15 +7,15 @@ title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
+source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1485'
+ht-degree: 2%
 
 ---
 
 
-# Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform {#aam-aep-audience-sharing}
+# Segmentfreigabe für Experience Platformen mit Audience Manager und anderen Experience Cloud-Lösungen {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Überblick {#overview}
 
-Mit der Audience Sharing-Funktion zwischen Audience Manager und Adobe Experience Platform können Sie Ihre Audience Manager-Eigenschaften und -Segmente für Adobe Experience Platform und umgekehrt freigeben. Sie benötigen den [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) , um die Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
+Mit der Audience Sharing-Funktion zwischen Audience Manager und Adobe Experience Platform können Sie Ihre Audience Manager-Eigenschaften und -Segmente für Adobe Experience Platform und umgekehrt freigeben. Sie benötigen das [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) , um die Freigabe von Audiencen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
 
 Sie können Audience Manager-Eigenschaften und -Segmente in der Experience Platform verwenden, um Ihren Kundendaten Audience Manager-Profilen hinzuzufügen und vom Experience Platform- [Segmentierungsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)zu profitieren.
 
@@ -33,6 +33,12 @@ In Audience Manager können Sie Experience Platformen-Segmente für Anwendungsf�
 * Aktivieren Sie Ihre Experience Platformen zu Zielen, die noch nicht im [Zielkatalog](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)unterstützt werden.
 
 Darüber hinaus werden Ihre Experience Platformen über die [Hauptdienste](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)für andere Experience Cloud-Lösungen freigegeben.
+
+>[!IMPORTANT]
+>
+> * Sie benötigen eine Audience Manager-Lizenz, um die oben genannten Anwendungsfälle für die Data Management-Plattform zu aktivieren.
+> * Sie benötigen *keine Audience Manager-Lizenz, um Experience Platformen mit Adobe Ad Cloud, Adobe Target und anderen Experience Cloud-Lösungen über die Core Services-Integration freizugeben* .
+
 
 <br> 
 
