@@ -3,14 +3,14 @@ product: audience-manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager-Handbuch
-breadcrumb-title: Audience Manager Guide
+breadcrumb-title: Audience Manager-Handbuch
 breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
-user-guide-description: Audience Manager provides industry-leading services for online audience data management.
+user-guide-description: Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
+source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1773'
 ht-degree: 98%
 
 ---
@@ -340,7 +340,7 @@ ht-degree: 98%
          + [Beispielnachricht an Partner nach der eingehenden Verarbeitung](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integration mit Adobe Experience Platform {#integration-experience-platform}
-      + [Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Segmentfreigabe für Experience Platformen mit Audience Manager und anderen Experience Cloud-Lösungen](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integration mit anderen Experience Cloud-Lösungen {#integration-other-solutions}
       + [Integration von Audience Manager mit Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Weiterleiten von Daten von Adobe Analytics an Audience Manager](integration/integration-other-solutions/audience-management-module.md)
