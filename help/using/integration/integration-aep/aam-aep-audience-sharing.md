@@ -7,9 +7,9 @@ title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 283acc1ef9152af3399c6010105728d397422a7f
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Darüber hinaus werden Ihre Experience Platformen über die [Hauptdienste](https
 >[!IMPORTANT]
 >
 > * Sie benötigen eine Audience Manager-Lizenz, um die oben genannten Anwendungsfälle für die Data Management-Plattform zu aktivieren.
-> * Sie benötigen *keine Audience Manager-Lizenz, um Experience Platformen mit Adobe Ad Cloud, Adobe Target und anderen Experience Cloud-Lösungen über die Core Services-Integration freizugeben* .
+> * Sie benötigen *keine Audience Manager-Lizenz, um Experience Platformen mit Adobe Ad Cloud, Adobe Target, Adobe Analytics und anderen Experience Cloud-Lösungen über die Core Services-Integration freizugeben* .
 
 
 <br> 
