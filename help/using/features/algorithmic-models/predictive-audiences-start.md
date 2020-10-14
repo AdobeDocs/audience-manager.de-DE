@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 48bf17a2899fd06c525ba6b4fddb9ec805efb5c3
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 8%
+source-wordcount: '571'
+ht-degree: 7%
 
 ---
 
@@ -46,9 +46,19 @@ Sobald Sie wissen, welche Datenquelle Sie verwenden werden, führen Sie die folg
       ![Predictive-Audiencen-save](assets/predictive-audiences-save.png)
 1. Klicken **[!UICONTROL Save]**.
 
-## Bearbeiten prädiktiver Audiencen {#edit-predictive-audiences}
+## Klonen und Bearbeiten prädiktiver Audiencen {#clone-predictive-audiences}
 
-Audience Manager unterstützt keine Bearbeitung vorhandener [!UICONTROL Predictive Audiences] Modelle. Um die Konfiguration eines Modells zu ändern, müssen Sie ein neues Modell erstellen. Wenn Sie die Grenze von 10 [!UICONTROL Predictive Audiences] Modellen erreicht haben und eines Ihrer Modelle bearbeiten müssen, müssen Sie ein Modell löschen und ein neues erstellen.
+Audience Manager unterstützt keine Bearbeitung vorhandener [!UICONTROL Predictive Audiences] Modelle. Um die Konfiguration eines Modells zu ändern, können Sie einen Klon eines vorhandenen Modells erstellen und bearbeiten. So können Sie Folgendes tun:
+
+1. Gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**.
+2. Klicken Sie auf den Namen des [!UICONTROL Predictive Audiences] Modells, das Sie klonen möchten.
+3. Klicken Sie auf die **[!UICONTROL Clone]** Schaltfläche oben links im Bildschirm.
+   ![Predictive-Audiencen-clone](assets/predictive-audiences-clone.png)
+4. Nachdem Sie das Modell geklont haben, gelangen Sie zur [!DNL Save & Configure] Seite des geklonten Modells. Auf dieser Seite können Sie die [!UICONTROL data source] und die zugewiesene[!UICONTROL Profile Merge Rule] Version des Modells ändern. Um die Audience der Zielgruppe und des geklonten Modells zu bearbeiten, verwenden Sie die Schaltflächen [!UICONTROL Back] und [!UICONTROL Next] , um zwischen den drei Registerkarten zu navigieren, oder klicken Sie auf die drei Registerkarten
+
+   ![prognotive-Audiencen-clone-navigate](assets/predictive-audiences-clone-navigate.png)
+
+5. Wenn Sie die Bearbeitung eines Modells abgeschlossen haben, klicken Sie auf **[!UICONTROL Save]**.
 
 ## Löschen von prädiktiven Audiencen {#delete-predictive-audiences}
 
