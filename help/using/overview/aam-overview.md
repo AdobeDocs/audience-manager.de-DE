@@ -1,5 +1,5 @@
 ---
-description: Informationen zu den Hauptfunktionen einer Data Management-Plattform - Datenerfassung, Erstellung von Audiencen und Aktivierung.
+description: Informationen zu den Hauptfunktionen einer Datenmanagement-Plattform – Datenerfassung, Erstellung von Zielgruppen und Aktivierung.
 seo-description: Informationen zum Verlauf von Adobe Audience Manager, zu den erfassten Datentypen, zur Segmentierung, zum Reporting usw.
 seo-title: Audience Manager – Überblick
 solution: Audience Manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
