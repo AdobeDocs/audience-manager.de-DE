@@ -1,5 +1,5 @@
 ---
-description: Machen Sie sich mit den Komponenten eines Audience Manager-Segments, den Ausdrücken, die zum Festlegen von Kriterien für die Audience-Qualifizierung verwendet werden, und der Art und Weise vertraut, wie Daten in einem Ereignis-Aufruf gesendet werden.
+description: Verstehen Sie die Komponenten eines Audience Manager-Segments, die Ausdrücke, die zur Festlegung von Kriterien für die Zielgruppenqualifizierung verwendet werden, und die Art und Weise, wie Daten bei einem Ereignisaufruf übertragen werden.
 seo-description: Beschreibt die Komponenten eines Audience Manager-Segments, die Ausdruck, die zum Festlegen von Kriterien für die Audience-Qualifizierung verwendet werden, und wie Daten in einem Ereignis-Aufruf gesendet werden.
 seo-title: Signale, Eigenschaften und Segmente
 solution: Audience Manager
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
 
 # [!UICONTROL Signals], [!UICONTROL Traits]und [!UICONTROL Segments] {#signals-traits-and-segments}
 
-Beschreibt die Komponenten eines [!DNL Audience Manager] [!UICONTROL segment]Ereignisses, die Ausdruck zum Festlegen von Kriterien für die Audience-Qualifizierung und die Art und Weise, wie Daten in einem Aufruf gesendet werden.
+Describes the components of an [!DNL Audience Manager] [!UICONTROL segment], the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
 
 ## Zusammensetzung und Zweck
 
@@ -33,7 +33,7 @@ Verwenden Sie das unten stehende Diagramm, um eine mentale Notiz der Beziehung z
 
 ![](assets/signals-traits-segments.png)
 
-**Erstellen[!UICONTROL Traits]und[!UICONTROL Segment]Erstellen von Regeln mit Visual Tools und Codeeditoren**
+**Erstellen [!UICONTROL Traits] und [!UICONTROL Segment] Erstellen von Regeln mit Visual Tools und Codeeditoren**
 
 Kunden verwalten [!UICONTROL traits] und [!UICONTROL segments] mit visuellen Werkzeugen und Codeeditoren in der [!DNL Audience Manager] Benutzeroberfläche. Mit den visuellen Werkzeugen können Sie Regeln mit Suchfunktionen, Popup-Optionen, Dropdownmenüs und Drag &amp; Drop-Funktionen erstellen. Die Codeeditoren bieten fortgeschrittenen Anwendern die Möglichkeit, Audiencen-Segmentierungskriterien programmatisch zu entwickeln.
 
