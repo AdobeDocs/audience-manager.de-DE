@@ -7,7 +7,7 @@ title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
+source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
 workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 4%
@@ -59,7 +59,7 @@ Dies ist die empfohlene Art der Einrichtung und Verwendung [!DNL Adobe][!DNL API
 
 Bevor Sie die [!DNL JWT] Authentifizierung konfigurieren können, stellen Sie sicher, dass Sie Zugriff auf die [Adobe Developer Console](https://console.adobe.io/) in der [Adobe I/O](https://www.adobe.io/)haben. Wenden Sie sich für Zugriffsanfragen an Ihren Unternehmensadministrator.
 
-### Authentifizierung
+### Authentifizierung {#auth}
 
 Gehen Sie wie folgt vor, um die [!DNL JWT (Service Account)] Authentifizierung mithilfe [!DNL Adobe I/O]der folgenden Schritte zu konfigurieren:
 
