@@ -1,58 +1,65 @@
 ---
-source-git-commit: 36bf8ad65d249dc9e9ec3e5628ce370d256abf46
+source-git-commit: 84deeb062937c7bf46ee0f6f9516f9d49dbf4df6
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '517'
+ht-degree: 11%
 
 ---
 # Contribute-Artikel
 
-Wir freuen uns über Beiträge unserer Community sowie von Mitarbeitern von Adobe außerhalb der Dokumentationsteams.
+| EXL-PR | EXL | Vorschau | Aktivieren | Veröffentlicht | Hilfe |
+|--- |--- |--- |--- |--- |--- |
+| [![Build-Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/lastBuild/) | [![Build-Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/lastBuild) | [Vorschauen-URL](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live-URL](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [Autorenanleitung](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
-## Adobe Open Source Code of Behavior
+Wir freuen uns über Beiträge aus unserer Community sowie von Mitarbeitern aus der Adobe von außerhalb der Dokumentationsteams.
 
-This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
+## Adobe Open Source Code of Conduct
 
-## Informationen zu den Adobe-Inhalten
+Dieses Projekt beachtet den [Adobe Open Source Code of Conduct](code-of-conduct.md) bzw. den [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Weitere Informationen finden Sie in [diesem Artikel](contributing.md).
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+## Beiträge zum Inhalt der Adobe
 
-Wie Sie Beiträge einbringen, hängt davon ab, wer Sie sind und welche Art von Änderungen Sie einbringen möchten:
+Siehe [Adobe Docs Mitarbeiter-Handbuch](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+
+Wie Sie einen Beitrag leisten, hängt davon ab, wer Sie sind und welche Änderungen Sie vornehmen möchten:
 
 ### Geringfügige Änderungen
 
-If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Verwenden Sie dann einfach die github-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. See the general [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
+Wenn Sie geringfügige Aktualisierungen aus der guten Laune Ihres Herzens beisteuern, besuchen Sie den Artikel und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle für den Artikel geht. Dann benutzen Sie einfach die GitHub-Benutzeroberfläche, um Ihre Updates zu machen. Weitere Informationen finden Sie im Allgemeinen Handbuch [der](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Adobe Docs-Mitarbeiter.
 
-Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebeispiele in dieser Replikation übermitteln, werden von den Adobe Gebrauchsbedingungen abgedeckt.
+Geringfügige Korrekturen oder Klarstellungen, die Sie zur Dokumentation einreichen, und Codebeispiele in diesem Bericht werden von den Nutzungsbedingungen der Adobe abgedeckt.
 
-### Wichtige Änderungen oder neue Artikel aus Community-Mitgliedern
+### Wichtige Änderungen oder neue Artikel von Community-Mitgliedern
 
-Wenn Sie Mitglied der Adobe-Community sind und einen neuen Artikel erstellen oder umfangreiche Änderungen einreichen möchten, verwenden Sie die Registerkarte Probleme im Git-Repository, um ein Problem mit dem Dokumentationsteam zu starten. Nachdem Sie einem Plan zugestimmt haben, müssen Sie mit einem Mitarbeiter zusammenarbeiten, um diesen neuen Inhalt durch eine Kombination aus den öffentlichen und privaten Repositorys zu erreichen.
+Wenn Sie Mitglied der Community für Adoben sind und einen neuen Artikel erstellen oder wichtige Änderungen einreichen möchten, verwenden Sie bitte die Registerkarte &quot;Probleme&quot;im Git-Repository, um eine Ausgabe an den Beginn einer Unterhaltung mit dem Dokumentationsteam zu senden. Sobald Sie einem Plan zugestimmt haben, müssen Sie mit einem Mitarbeiter zusammenarbeiten, um diesen neuen Inhalt durch eine Kombination aus Arbeit in den öffentlichen und privaten Repositorys herzustellen.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Wichtige Änderungen von Adobe Employees
+### Wesentliche Veränderungen von Adoben
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Wenn Sie technischer Redakteur, Programm-Manager oder Entwickler des Produktteams für eine Adobe Experience Cloud-Lösung sind und es Ihre Aufgabe ist, technische Artikel zu erstellen oder zu erstellen, sollten Sie das private Repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs)verwenden. <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
-## Werkzeuge und Einrichtung
+## Tools und Einrichtung
 
-Community-Mitarbeiter können die github-Benutzeroberfläche zur einfachen Bearbeitung oder forcieren des Replikats verwenden, um wichtige Beiträge zu machen.
+Community-Mitarbeiter können die GitHub-Benutzeroberfläche für grundlegende Bearbeitungen verwenden oder den Repo für wichtige Beiträge verarbeiten.
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for details.
+Weitere Informationen finden Sie im [Adobe Docs Mitarbeiter-Handbuch](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) .
 
-## Verwendung von Markierungen zum Formatieren Ihres Themas
+## Verwendung von Markdown zur Formatierung Ihres Themas
 
-Alle Artikel in diesem Repository verwenden Markierungen für github-Geschenken. Wenn Sie mit dem Markierungen nicht vertraut sind, lesen Sie:
+Alle Artikel in diesem Repository verwenden GitHub-aromatisches Markdown. Wenn Sie sich nicht mit Markierungen auskennen, lesen Sie folgende Informationen:
 
-* [Grundlegende Markierungen](https://help.github.com/articles/markdown-basics/)
-* [Druckbares Marktierungs-Dropsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Grundlagen der Markierungen](https://help.github.com/articles/markdown-basics/)
+* [Druckbares Markierungsblatt](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Bezeichnungen
 
-Im öffentlichen Repository werden automatisierte Beschriftungen Abrufen-Anforderungen zugewiesen, damit wir den Arbeitsablauf für Abfrageanfragen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anforderung passiert:
+Im öffentlichen Repository werden automatisierte Beschriftungen zugewiesen, um Anforderungen zu übernehmen, die uns bei der Verwaltung des Arbeitsablaufs für die Abfrage von Pull-Anforderungen helfen und Ihnen mitteilen, was mit Ihrer Pull-Anforderung geschieht:
 
-* **An Autor gesendet**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
-* **ready-to-merge**: Bereit für Review von unserem Überprüfungsteam für Abruf.
+* **An Autor** gesendete Änderung: Der Autor wurde über die ausstehende Pull-Anfrage informiert.
+* **ready-to-merge**: Bereit zur Überprüfung durch unser Pull-Request-Review-Team.
 
 
