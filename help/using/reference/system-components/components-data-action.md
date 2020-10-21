@@ -7,7 +7,7 @@ title: Datenaktionskomponenten
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Um den Traffic zwischen [!UICONTROL IRIS] und Segmentzielen zu optimieren, [!UIC
 
 1. **Neue Segmentqualifizierung**: Wenn ein Gerät für ein neues Segment qualifiziert ist, [!UICONTROL IRIS] sendet es alle mit diesem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind.
 
-1. **Neue Segmentdisqualifizierung**: Wenn ein Gerät sich nicht mehr für ein Segment qualifiziert, [!UICONTROL IRIS] sendet es alle mit diesem Gerät verbundenen Segmentqualifikationen und -disqualifikationen an alle Ziele, die diesen Segmenten zugeordnet sind.
+1. **Neue Segmentdisqualifikation**: Wenn ein Gerät sich nicht mehr für ein Segment qualifiziert, [!UICONTROL IRIS] sendet es alle mit diesem Gerät verbundenen Segmentqualifikationen und -disqualifikationen an alle Ziele, die diesen Segmenten zugeordnet sind.
 
 1. **Aktualisierungen** der Zielzuordnung: Wenn eine Zielzuordnung aktualisiert wird, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn der Audience Manager das Gerät das nächste Mal sieht.
 
@@ -82,7 +82,7 @@ Um den Traffic zwischen [!UICONTROL IRIS] und Segmentzielen zu optimieren, [!UIC
 
 Das folgende Beispiel enthält Echtzeitsegmentdaten aus [!UICONTROL IRIS]. Beachten Sie, dass dies nur Musterdaten sind. Jeder Kunde kann unterschiedliche Formatierungsanforderungen haben, sodass der Inhalt variieren kann.
 
-```json
+```
 {
     "ProcessTime": "Tue Jul 21 19:12:45 UTC 2015",
     "Client_ID": "111111",
