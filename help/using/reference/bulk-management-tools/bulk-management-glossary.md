@@ -7,9 +7,9 @@ title: Tools zur Massenverwaltung – Glossar
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '346'
 ht-degree: 5%
 
 ---
@@ -83,7 +83,7 @@ Spaltenkopfbeschriftungen definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, wann ein Beginn an ein Ziel gesendet werden kann. Verwendet <code>yyyy-mm-dd</code> das Format. </p> </td> 
+   <td colname="col2"> <p>Gibt an, wann ein Beginn an ein Ziel gesendet werden kann. Verwendet das Format <tt>yyyy-mm-dd</tt> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
@@ -95,7 +95,7 @@ Spaltenkopfbeschriftungen definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Eine ID, die an ein nicht-Cookie-basiertes Ziel übergeben wird. Bei einem Cookie-basierten Ziel ist dies der Schlüssel in einem <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paar</a>. </p> </td> 
+   <td colname="col2"> <p>Eine ID, die an ein nicht-Cookie-basiertes Ziel übergeben wird. Bei einem Cookie-basierten Ziel ist dies der Schlüssel in einem Schlüssel-Wert-Paar <a href="../../reference/key-value-pairs-explained.md"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
