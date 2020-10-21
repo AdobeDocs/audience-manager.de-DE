@@ -1,19 +1,19 @@
 ---
 description: Suchen Sie nach benutzten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu "Audience-Daten"> "Signale"> "Suche".
 seo-description: Suchen Sie nach benutzten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu "Audience-Daten"> "Signale"> "Suche".
-seo-title: Signalsuche
-title: Signalsuche
+seo-title: 'Signalsuche '
+title: 'Signalsuche '
 feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 21%
+ht-degree: 29%
 
 ---
 
 
-# Übersicht über die Signalsuche {#signal-search}
+# Signalsuche – Überblick {#signals-search}
 
 Suchen Sie nach benutzten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu &quot;Audience-Daten&quot;> &quot;Signale&quot;> &quot;Suche&quot;.
 
