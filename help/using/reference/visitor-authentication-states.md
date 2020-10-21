@@ -8,9 +8,9 @@ title: Besucherauthentifizierungsstatus in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 5%
 
 ---
@@ -24,10 +24,25 @@ Ab [!DNL Experience Cloud] ID-Dienst Version 1.5 enthält die `setCustomerID` Me
 
 ## Authentifizierungsstatus: UNBEKANNT {#auth-status-unknown}
 
-| Anforderungswert | **Lesen** von Informationen aus dem authentifizierten Profil | **Neue Eigenschaften in das authentifizierte Profil schreiben** |
----------|----------|---------
-| 0 | <ul><li>Ja, wenn die Authentifizierungsoption Merge Rule = &quot;Last Authenticated Profils&quot;.</li><li>Nein, wenn die Authentifizierungsoption Merge Rule = &quot;Current Authenticated Profils&quot; oder &quot;No Authenticated Profil&quot;.</li></ul> | Nein, die Eigenschaftsdaten werden dem Profil des Geräts hinzugefügt. |
-
+<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
+   <td colname="col2"> <p>Ja, wenn die Authentifizierungsoption Merge Rule = "Last Authenticated Profils". </p> </td> 
+   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftsdaten werden dem Profil des Geräts hinzugefügt. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> <p>Nein, wenn die Authentifizierungsoption Merge Rule = "Current Authenticated Profils" oder "No Authenticated Profil". </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entspricht, wird hervorgehoben):
 
@@ -35,9 +50,25 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 
 ## Authentifizierungsstatus: AUTHENTICATED {#auth-status-authenticated}
 
-| Anforderungswert | **Lesen** von Informationen aus dem authentifizierten Profil | **Neue Eigenschaften in das authentifizierte Profil schreiben** |
----------|----------|---------
-| 1 | <ul><li>Ja, wenn die Authentifizierungsoption Merge Rule = &quot;Current Authenticated Profils&quot; oder &quot;Last Authenticated Profils&quot; ist.</li><li>Nein, wenn die authentifizierte Option Merge Rule = &quot;No Authenticated Profil&quot;.</li></ul> | Ja, die Eigenschaftendaten werden dem authentifizierten Profil hinzugefügt. |
+<table id="table_956ABF96024744308F7773E1F96482B7"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
+   <td colname="col2"> <p>Ja, wenn die Authentifizierungsoption Merge Rule = "Current Authenticated Profils" oder "Last Authenticated Profils" ist. </p> </td> 
+   <td colname="col3" morerows="1"> <p>Ja, die Eigenschaftendaten werden dem authentifizierten Profil hinzugefügt. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> <p>Nein, wenn die authentifizierte Option Merge Rule = "No Authenticated Profil". </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entspricht, wird hervorgehoben):
 
@@ -45,9 +76,25 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 
 ## Authentifizierungsstatus: LOGGED_OUT {#auth-status-logged-out}
 
-| Anforderungswert | **Lesen** von Informationen aus dem authentifizierten Profil | **Neue Eigenschaften in das authentifizierte Profil schreiben** |
----------|----------|---------
-| 2 | <ul><li>Ja, wenn die Merge-Regel für die authentifizierte Option = &quot;Letzte authentifizierte Profil&quot;</li><li>Nein, wenn die Merge-Regel für die authentifizierte Option = &quot;Aktuelle authentifizierte Profil&quot;oder &quot;Kein authentifiziertes Profil&quot;</li></ul> | Nein, die Eigenschaftsdaten werden in das Profil des Geräts geschrieben. |
+<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
+   <td colname="col2"> Ja, wenn die Merge-Regel für die authentifizierte Option = "Letzte authentifizierte Profil" </td> 
+   <td colname="col3" morerows="1"> <p>Nein, die Eigenschaftsdaten werden in das Profil des Geräts geschrieben. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> Nein, wenn die Merge-Regel für die authentifizierte Option = "Aktuelle authentifizierte Profil"oder "Kein authentifiziertes Profil" </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entspricht, wird hervorgehoben):
 
