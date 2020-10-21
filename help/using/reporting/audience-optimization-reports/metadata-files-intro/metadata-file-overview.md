@@ -7,9 +7,9 @@ title: Überblick und Zuordnungen für Metadatendateien
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: f37ba905d603a3b95fda3ab797bb882f94e0066d
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '824'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Zunächst sind eine Metadatendatei und alle unten aufgeführten Parameter für e
 
 Zweitens benötigen Sie eine Metadatendatei, wenn Sie Ihre eigenen Daten an [!DNL Audience Manager] oder wenn Sie Daten aus den Berichten anderer Anbieter sehen möchten, mit denen wir nicht integriert sind. Beispielsweise [!DNL Audience Manager] ist Google mit dem [Dublette-Click-Kampagne-Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) von Google integriert. Aufgrund dieser Beziehung [!DNL Audience Manager] können IDs mit Namen und Beschreibungen verknüpft werden, die von den Berichtsoptionen verwendet werden. Ohne Integration können wir weiterhin Daten erfassen, aber die Berichtsoptionen zeigen numerische IDs anstelle eines beschreibenden Namens an.
 
-![schema des Metadatenmenüs](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-menu.png)
+![](assets/metadata_menu.png)
 
 ## Dateizuordnungen {#file-mappings}
 
@@ -112,7 +112,7 @@ Die von diesen Schlüssel-Wert-Paaren weitergeleiteten IDs helfen beim Erstellen
 
 In diesem Beispiel erstellen wir eine Metadatendatei, die kreative Namen in einen [!UICONTROL Audience Optimization] Bericht einfügt. Dazu müssen wir kreative IDs, Kampagnen und Datenquellen-IDs aus einem Ereignis-Aufruf extrahieren.
 
-![ereignis-Metadatendatei-Schema](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-event.png)
+![](assets/metadata_file_event.png)
 
 ### Dateiname
 
@@ -124,7 +124,7 @@ In einem Dateinamen:
 
 * Die Kreativ- und Kampagnen-IDs stellen eher eine Kategorie als eine tatsächliche ID dar.
 
-![schema des Metadatendateinamens](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-name.png)
+![](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,7 +132,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 In diesem Beispiel spiegeln die Dateiinhalte die kreativen IDs und Kampagnen-IDs wider, die beim Ereignis-Aufruf übergeben werden. Das neue Element hier ist ein lesbarer Name. Nach der Verarbeitung wird der Name in dieser Datei als Option im Menü &quot;Kreativ&quot;eines [!UICONTROL Audience Optimization] Berichts angezeigt.
 
-![schema für Metadatendateiinhalte](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-contents.png)
+![](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
