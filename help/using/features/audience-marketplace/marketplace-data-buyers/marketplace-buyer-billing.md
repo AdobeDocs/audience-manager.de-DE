@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -170,8 +170,7 @@ Im [!UICONTROL Activation] Anwendungsfall können Sie Eigenschaften im entsprech
 Wenn Sie CPM-Nutzung auf Datenfeed-Ebene [melden](#feed-level-report), müssen Sie Impressionen proportional für jeden Datenfeed zuweisen, entsprechend den in den Eigenschaftsqualifizierungsregeln verwendeten [!DNL Boolean] Operatoren. In der folgenden Tabelle wird die korrekte Zuordnung von Impressionen nach booleschen Regeln oder Eigenschaften Liste.
 
 >[!TIP]
->
-> [Bericht zur CPM-Nutzung auf Segmentebene](#segment-level-report) , damit der Berichte auf Datenfeed-Ebene automatisch vom Audience Manager ausgeführt wird.
+>[Bericht zur CPM-Nutzung auf Segmentebene](#segment-level-report) , damit der Berichte auf Datenfeed-Ebene automatisch vom Audience Manager ausgeführt wird.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
