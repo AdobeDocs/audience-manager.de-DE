@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '895'
 ht-degree: 64%
 
 ---
@@ -46,14 +46,6 @@ Gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** und klic
 
  
 
-**Warum wurden einige meiner integrierten Besucher nicht klassifiziert?**
-
-Derzeit funktioniert die Zielgruppen-Classification nur für Echtzeitqualifikationen, außer für authentifizierte Benutzer, die als Teil von [!UICONTROL Profile Merge Rules] definiert wurden.
-
-Die Unterstützung aller integrierter Daten wird in einer zukünftigen Aktualisierung hinzugefügt.
-
- 
-
 **Wann kann ich die ersten Ergebnisse meines Modells sehen?**
 
 [!UICONTROL Predictive Audiences]-Modellergebnisse sind innerhalb von 24 Stunden nach der Modellerstellung verfügbar, wenn das Modell erfolgreich ausgeführt wird.
@@ -68,24 +60,22 @@ Sollte das Modell nicht innerhalb von 24 Stunden Ergebnisse liefern, wenden Sie 
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. In den letzten 30 Tagen gab es für die entsprechende Eigenschaft/das Segment der Zielgruppe keine aktiven oder integrierten Benutzer.
+1. Die Eigenschaft/das Segment der Zielgruppe-Audience hat keine aktiven oder eingebetteten Benutzer.
 1. Die Benutzer der Zielgruppe, die in den letzten 30 Tagen aktiv waren oder integriert wurden, verfügen nicht über genügend Daten in ihren Benutzerprofilen (nicht genügend Eigenschaften zum Analysieren).
 1. Das Modellsegment verwendet eine andere Audience [!UICONTROL Profile Merge Rule] als die Zielgruppe, die Sie für das Modell ausgewählt haben.
 1. Die Datenquelle der Eigenschaften der Zielgruppe-Audience wird möglicherweise nicht in der Datei enthalten, die Sie für das Modell [!UICONTROL Profile Merge Rule] ausgewählt haben.
-
-To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. Wenn Sie neue Basiseigenschaften und Segmente auswählen, für die noch nicht genügend Benutzer vorhanden sind, kann es einige Tage dauern, bis der Algorithmus Ihre Zielgruppe klassifiziert.
 
 Um optimale Ergebnisse zu erzielen, befolgen Sie die empfohlenen Richtlinien aus den [Auswahlkriterien für Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) und den [Auswahlkriterien für Zielgruppen](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Warum zeigt mein Modell den[!UICONTROL Error]Status an?**
+**Warum zeigt mein Modell den [!UICONTROL Error] Status an?**
 
 Das Modell konnte nicht ausgeführt werden. In such cases, please reach out to your [!DNL Adobe] representative.
 
  
 
-**Wie kann ich den[!UICONTROL Profile Merge Rule]für einen[!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+**Wie kann ich den [!UICONTROL Profile Merge Rule] für einen [!UICONTROL Predictive Audiences][!UICONTROL segment]?**
 
 Erstellen Sie ein neues Modell, indem Sie die gleiche Audience für Personas und Zielgruppen wie das vorherige Modell auswählen. Weisen Sie bei der Modellerstellung einen anderen zu [!UICONTROL Profile Merge Rule].
 
@@ -96,7 +86,7 @@ Erstellen Sie ein neues Modell, indem Sie die gleiche Audience für Personas und
 
  
 
-**Was[!UICONTROL Profile Merge Rule]soll ich wählen?**
+**Was [!UICONTROL Profile Merge Rule] soll ich wählen?**
 
 Wenn Sie das Modell [!UICONTROL Profile Merge Rule] für Ihr Modell auswählen, analysieren Sie die Anwendungsfälle genau.
 
@@ -105,8 +95,6 @@ Nehmen wir an, Ihre Zielgruppe-Audience [!UICONTROL segment] verwendet eine [!UI
 Wenn Sie jedoch ein [!UICONTROL Profile Merge Rule] Gerät nur auf der Grundlage von Profilen auswählen, [!UICONTROL traits] wird keines Ihrer geräteübergreifenden Elemente einflussreich und trägt nicht zur Platzierung der Benutzer in eine Vorhersage bei [!UICONTROL segment]. Dies kann sich negativ auf die Genauigkeit und Reichweite des Modells auswirken.
 
 Analysieren Sie Ihren Anwendungsfall sorgfältig und entscheiden Sie, von welchen [!UICONTROL trait] Typen das Modell lernen soll und welche Art von Daten das Modell für die Klassifizierung verwenden soll.
-
- 
 
 **Kann ein vorkommen, dass ein Benutzer aus der Zielgruppe, der nicht Teil einer/s Persona-Eigenschaft/-Segments ist, nicht klassifiziert wird?**
 
@@ -117,12 +105,6 @@ Ja, falls im Profil des Benutzer keine Eigenschaften angegeben sind. In diesem F
 **Kann ein Benutzer, der in eines der Vorhersagesegmente klassifiziert wurde, in ein anderes [!UICONTROL Predictive Audiences]-Segment umklassifiziert werden?**
 
 Ja. Da der Algorithmus täglich trainiert wird, wendet er die Änderungen für jede der Personas in Bezug auf die Bewertung der Eigenschaften an. Wenn ein Benutzer, der Teil eines [!UICONTROL Predictive Audiences]-Segments ist, aktiv ist, können die Änderungen in seinem Eigenschaftswert die Classification basierend auf der Aktivität der letzten 30 Tage ändern.
-
- 
-
-**Kann ich regulären Segmenten Vorhersageeigenschaften hinzufügen?**
-
-Wenn Sie einem regulären Segment eine prädiktive Eigenschaft hinzufügen, wird daraus ein prädiktives Segment. Folglich sind alle verknüpften Profil nicht segmentiert. Prognostische Segmente können nur an Echtzeit-Ziele gesendet werden.
 
  
 
