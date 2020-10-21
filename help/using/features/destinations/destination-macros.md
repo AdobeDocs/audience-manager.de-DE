@@ -7,9 +7,9 @@ title: Definierte Zielmakros
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 3%
 
 ---
@@ -54,9 +54,9 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>Das Makro wird durch <code> 1</code> ersetzt <code> CustomerABC</code>. </p> <p> 
-     <!--
-       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     --> </p> </td> 
+     <draft-comment>
+       Basierend auf AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
+     </draft-comment> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
@@ -98,7 +98,7 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
 
 Die `%rnd%` und `%timestamp%` Makros fügen eindeutige Werte in eine [!DNL URL] Zeichenfolge ein, um die Zwischenspeicherung im Browser zu verhindern.
 
-## Cache-Busting mit %rnd% und %timestamp% {#dest-cache-busting}
+## Cache-Busting mit `%rnd%` und `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ Cache-Busting verhindert, dass Browser Inhalte speichern und wiederverwenden. Be
 * `%rnd%`: Fügt eine Zufallszahl in eine URL ein.
 * `%timestamp%`: Fügt das Unix-Datum/die Unix-Uhrzeit in eine URL ein.
 
-## Vergleich von %rnd% und %timestamp% {#compare-rnd-timestamp}
+## Vergleichen `%rnd%` und `%timestamp%` {#compare-rnd-timestamp}
 
 Beide Makros verhindern die Zwischenspeicherung, können aber effizienter `%rnd%` sein. Wenn beispielsweise mehrere Benutzer eine Seite gleichzeitig `%timestamp%`Ansicht haben, erhalten sie denselben Datums-/Uhrzeitwert. Daher [!DNL URL] ist der Aufruf nicht eindeutig und mehrere Aufrufe werden nur einmal gezählt. Generiert jedoch einen eindeutigen numerischen Wert für jeden Aufruf (auch wenn Benutzer dieselbe Seite gleichzeitig sehen). `%rnd%` Das bedeutet, dass die [!DNL URL] Zeichenfolge unterschiedliche Werte enthält und als eindeutig gezählt wird.
 
