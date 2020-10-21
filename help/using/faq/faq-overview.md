@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zu Audience Manager
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
@@ -27,5 +27,6 @@ In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fragekategorien
 * [Häufig gestellte Fragen zu benutzerbezogenen Zielen](faq-people-based-destinations.md)
 * [Häufig gestellte Fragen zu Produktfunktionen](faq-features.md)
 * [Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zum Gerätediagramm](faq-profile-merge.md)
+* [Häufig gestellte Fragen zu vorhersagekräftigen Zielgruppen](faq-predictive-audiences.md)
 * [Häufig gestellte Fragen zur Zielgruppenbestimmung](faq-targeting.md)
 * [Häufig gestellte Fragen zum Reporting](faq-reporting.md)
