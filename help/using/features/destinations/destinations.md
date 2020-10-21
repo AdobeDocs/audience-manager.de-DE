@@ -1,24 +1,24 @@
 ---
-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Verwenden Sie das Destination Builder-Tool, um Cookies-, URL- oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
+description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Der Destination Builder ist das Tool zum Erstellen und Verwalten von Cookie-, URL- oder Server-zu-Server-Zielen.
+seo-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
 seo-title: 'Ziele '
 solution: Audience Manager
 title: 'Ziele '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 11%
 
 ---
 
 
 # [!UICONTROL Destinations] Überblick {#destinations}
 
-In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool, das Sie zum Erstellen und Verwalten [!UICONTROL cookie], [!DNL URL]oder [!UICONTROL server-to-server destinations]Verwalten verwenden.
+In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool, das Sie zum Erstellen und Verwalten [!UICONTROL cookie], [!DNL URL]oder [!UICONTROL server-to-server destinations]Verwalten verwendet haben.
 
 ## Zweck und Vorteile {#purposes}
 
