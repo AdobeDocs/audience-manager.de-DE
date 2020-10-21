@@ -7,9 +7,9 @@ title: Anforderungen an Namen für Schlüsselvariablen
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,6 @@ Der Name [!UICONTROL Expression Builder]einer Schlüsselvariablen in einem Schl�
 
 * Ungültige Schlüsselnamen: `123`, `price!123`.
 
-## Präfix der Schlüsselvariablen mit c_
+## Präfix der Schlüsselvariablen mit `c_`
 
 Das `c_` Präfix ist *immer* erforderlich, wenn die Parameter, die Daten über eine Ereignis-Aufruf-URL senden, diese Syntax verwenden.
