@@ -7,9 +7,9 @@ title: Datendateien für Berichte zur Zielgruppenoptimierung und ausführbare Pr
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1042'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Eine Datendatei muss von einer Metadatendatei begleitet sein. Der Inhalt der Met
 
 Die folgende Syntax definiert die Struktur eines gut formatierten Datendateinamens. Beachten Sie, dass *kursiv* ein Platzhalter für eine Variable angegeben wird, der sich je nach Dateiinhalt ändert.
 
-**Syntax:** `event type_yyyymmdd`
+**Syntax:** <pre><i>ereignistyp</i>_<i>yyymmdd</i></code></pre>
 
 In einem Dateinamen:
 
@@ -39,15 +39,15 @@ In einem Dateinamen:
 
 Benennen Sie Ihre Datendateien unter Berücksichtigung dieser Anforderungen nach ihrem Inhalt wie folgt:
 
-* Impressionsdaten: `impressions_yyyymmdd.gz`
-* Klickdaten: `clicks_yyyymmdd.gz`
-* Konversionsdaten: `conversions_yyyymmdd.gz`
+* Impressionsdaten: <pre>impressions_<i>yyymmdd</i>.gz</code></pre>
+* Klickdaten: <pre>clicks_<i>yyymmdd</i>.gz</code></pre>
+* Konversionsdaten: <pre>conversions_<i>yyymmdd</i>.gz</code></pre>
 
 ## Content Format for Data Files {#content-format}
 
 Die folgende Syntax definiert die Inhaltsstruktur in der gut formatierten Datendatei. Beachten Sie, dass *kursiv* ein Platzhalter für eine Variable steht und in einer Datendatei durch eine Beschriftung ersetzt wird.
 
-**Syntax:** `header label 1 | header label 2 ... header label n | version`
+**Syntax:** <pre><i>Kopfzeilenbeschriftung 1</i> | <i>Kopfzeilenbeschriftung 2</i> ... <i>Header-Beschriftung n</i> | <i>version</i></code></pre>
 
 Inhalt der Datei:
 
@@ -59,7 +59,7 @@ Inhalt der Datei:
 
 **Feldbezeichnungen**
 
-In der folgenden Tabelle sind die Spaltenüberschriften für die Datendatei Listen aufgeführt. Bei Kopfzeilen wird die Groß-/Kleinschreibung beachtet und sie müssen in der Tabelle in der richtigen Reihenfolge angezeigt werden. Sofern nicht anders angegeben, sind alle Datentypen Ganzzahlen (INT).
+In der folgenden Tabelle sind die Spaltenüberschriften für die Datendatei Listen aufgeführt. Bei den Kopfzeilen wird die Groß-/Kleinschreibung beachtet und sie müssen in der Tabelle in der richtigen Reihenfolge angezeigt werden. Sofern nicht anders angegeben, sind alle Datentypen Ganzzahlen (INT).
 
 <table id="table_D8C5068741C3460380505F95F3016757"> 
  <thead> 
@@ -153,7 +153,7 @@ Laden Sie Ihre Impressions-, Klick- oder Konvertierungsdatendateien in ein Amazo
 
 Die Daten werden in einem separaten Namensraum für jeden Kunden in einem [!DNL Amazon S3] Verzeichnis gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Note, *italics* indicates a variable placeholder. Andere Elemente sind Konstanten oder Schlüssel und bleiben unverändert.
 
-**Syntax:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
+**Syntax:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>Dateityp</i>_<i>yyymmdd</i></code></pre>
 
 In der folgenden Tabelle werden diese Elemente in einem Dateipfad definiert.
 
