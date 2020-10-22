@@ -7,9 +7,9 @@ title: Erstellen einer DIL
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '825'
 ht-degree: 12%
 
 ---
@@ -60,9 +60,7 @@ r_dil_create.xml
    <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
    <td colname="col2"> <p>Objekt </p> </td> 
    <td colname="col3"> 
-    <draft-comment> 
-     <p>Sendet die <a href="../../features/declared-ids.md"> deklarierten ID-Variablen </a> bei jedem Ereignis-Aufruf an <span class="keyword"> Audience Manager </span>. </p> 
-    </draft-comment> <p> <code> delcaredId </code> wird verwendet, um </p> 
+    <p> <code> declaredId </code> wird verwendet, um </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Ihnen vom <span class="keyword"> Audience Manager zugewiesene Datenpartner-ID </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Ihre eindeutige ID für einen Benutzer. </li> 
