@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segm
 
 ## ID-Zuordnungs-Begrenzung {#id-mapping-limits}
 
-In der folgenden Tabelle werden die Grenzwerte für die [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs Liste. Sobald eine ID eine der unten stehenden Beschränkungen erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer Logik [!DNL FIFO] (first in, first out) basieren, indem die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzugefügt wird. Einzelheiten zu den von Audience Manager unterstützten IDs finden Sie im Audience Manager unter [IDs](../../reference/ids-in-aam.md) -Index.
+In der folgenden Tabelle werden die Grenzwerte für die [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs Liste. Sobald eine ID eine der unten stehenden Beschränkungen erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer FIFO-Logik (first in, first out) basieren, indem die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzugefügt wird. Einzelheiten zu den von Audience Manager unterstützten IDs finden Sie im Audience Manager unter [IDs](../../reference/ids-in-aam.md) -Index.
 
 | ID-Zuordnung | Maximale Beschränkung |
 |-----------|-------------- |
