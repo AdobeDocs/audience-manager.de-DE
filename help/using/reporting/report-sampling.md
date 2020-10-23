@@ -7,9 +7,9 @@ title: Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Bericht
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 7%
 
 ---
@@ -60,7 +60,7 @@ Beachten Sie, dass unsere Tests und Modelle zeigen, dass die Fehlerquote im umge
 
 ## Verwenden der Minhash-Stichprobenmethode {#minhash}
 
-Auf der Grundlage der [Minhash](https://en.wikipedia.org/wiki/MinHash) -Stichprobenmethode verwendet Audience Manager eine neuartige Methode, um Eigenschaften- und Segmentaussagen auf einer Datenskizze mit One Permutation Hashing zu berechnen. Diese neue Methode erzeugt eine geringere Varianz als der Standardaussagewert für Jaccard-Ähnlichkeitsschätzer. Die Berichte, die diese Methode verwenden, finden Sie im folgenden Abschnitt.
+Auf der Grundlage der [Minhash](https://en.wikipedia.org/wiki/MinHash) -Stichprobenmethode verwendet Audience Manager eine neuartige Methode, um Eigenschaften- und Segmentaussagen auf einer Datenskizze mit One Permutation Hashing zu berechnen. Diese neue Methode erzeugt eine geringere Varianz als die Standardschätzung für die Ähnlichkeit mit Jaccard. Die Berichte, die diese Methode verwenden, finden Sie im folgenden Abschnitt.
 
 <!--
 
