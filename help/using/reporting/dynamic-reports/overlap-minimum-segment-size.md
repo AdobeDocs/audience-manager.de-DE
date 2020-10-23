@@ -7,9 +7,9 @@ title: Überlagerungsberichte - Zeitplan und Mindestsegmentgröße aktualisieren
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 feature: overlap reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 5%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 5%
 
 # Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Beschreibt die für den Aktualisierungsprozess des Überschneidungsberichts erforderlichen Anforderungen an die Segmentgröße und die Erstellungszeit.
+Beschreibt die Anforderungen an Eigenschaften und Segmentgröße sowie die Erstellungszeit, die für den Aktualisierungsprozess des Überschneidungsberichts erforderlich sind.
 
 ## Zeitplan und Anforderungen aktualisieren {#update-schedule}
 
 [!UICONTROL Overlap] Berichte werden am Sonntag wöchentlich aktualisiert. Die Berichtvorverarbeitung beginnt am Samstag. Dies wirkt sich darauf aus, wie neue oder vorhandene Segmente am Montag in einem Überschneidungsbericht angezeigt werden. In einen Überschneidungsbericht aufzunehmen:
 
-* Ein Segment muss mindestens 70.000 Benutzer in Echtzeit während der letzten 14 Tage enthalten. Erfahren Sie mehr über die [Mindestanforderungen an individuelle Besucher für Eigenschaften und Segmente](../../reporting/report-sampling.md#data-sampling-ratio).
+* Ein Segment muss mindestens 70.000 Benutzer in Echtzeit während der letzten 14 Tage enthalten.
+* Eine Eigenschaft muss in den letzten 14 Tagen 28.000 [einzigartige Eigenschaften](/help/using/features/traits/trait-and-segment-qualification-reference.md) enthalten.
 * Ein Segment muss vor Donnerstag UTC um 12 Uhr erstellt worden sein (2 volle Tage vor Beginn des Aktualisierungsprozesses des wöchentlichen Überschneidungsberichts).
 * Ihre Firma muss Vollkunde [!DNL Audience Manager] sein. Wenden Sie sich an Ihren [!DNL Audience Manager] Berater oder an den Kundendienst, um weitere Informationen zu erhalten.
 
