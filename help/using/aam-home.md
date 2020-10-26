@@ -3,24 +3,24 @@ description: Audience Manager bietet branchenführende Dienste für das Daten-Ma
 seo-description: Technische Dokumentation und Selbsthilfe für Audience Manager (AAM). Mit AAM bieten wir branchenführende Dienste für das Daten-Management von Online-Zielgruppen und stellen digitalen Werbetreibenden die Tools zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 seo-title: Technische Produktdokumentation für Adobe Audience Manager
 solution: Audience Manager
-title: Audience Manager-Produktdokumentation
+title: Audience Manager-Anleitung
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 98%
+source-wordcount: '665'
+ht-degree: 97%
 
 ---
 
 
 
-# Audience Manager-Produktdokumentation {#audience-manager-product-documentation}
+# Audience Manager-Anleitung {#audience-manager-product-documentation}
 
 In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Audience Manager – einem branchenführenden Service für das Daten-Management von Online-Zielgruppen. Mit unseren Produkten und Diensten stellen wir digitalen Werbetreibenden die Tools zur Verfügung, die Sie zur Kontrolle und Nutzung Ihrer Daten-Assets brauchen, um so den Verkaufserfolg zu fördern.
 
-## Verwenden dieses Handbuchs zur Produktdokumentation
+## Verwenden dieses Handbuchs
 
 * Durchsuchen Sie den Inhalt nach Thema und Unterthema in der **linken Navigation**.
 * Verwenden Sie das **Suchfeld** oben auf der Seite, wenn Sie wissen, wonach Sie suchen.
