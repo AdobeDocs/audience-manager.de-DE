@@ -1,31 +1,35 @@
 ---
 cloud: experience-cloud
 solution: Audience Manager
+type: Documentation
 solution-title: Training und Support
-solution-hub-url: https://helpx.adobe.com/support/audience-manager.html
+solution-hub-url: https://helpx.adobe.com/de/support/audience-manager.html
 solution-image: assets/aam-icon-24.png
 getting-started-title: Erste Schritte
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
-tutorials-title: Übungen
+tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/audience-manager.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager.de-DE
 index: y
 translation-type: tm+mt
-source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
+source-git-commit: 0d560abc1e51e0e44ec013b7ee133e0de2f4e5d1
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 12%
 
 ---
 
 
 # Metadaten für den internen Gebrauch
 
-Die Datei "metadata.md"enthält Metadaten auf Repo-Ebene, die an die Dateien "TOC.md"des Benutzerhandbuchs im Bericht übergeben werden. Wenn Sie den Inhalt von "metadata.md"für ein Benutzerhandbuch ändern möchten, führen Sie dies in einer beliebigen Datei "TOC.md"durch.
+Die Datei &quot;metadata.md&quot;enthält Metadaten auf Repo-Ebene, die an die Dateien &quot;TOC.md&quot;des Benutzerhandbuchs im Bericht übergeben werden. Wenn Sie den Inhalt von &quot;metadata.md&quot;für ein Benutzerhandbuch ändern möchten, führen Sie dies in einer beliebigen Datei &quot;TOC.md&quot;durch.
 
 | metadata | was es tut |
 |--- |--- |
 | solution-title | Wird in der Artikelüberschrift als Link verwendet |
-| solution-ub-url | Öffnet Helpx Hub-Seite |
+| solution-ub-url | Öffnet Helpx-Hub-Seite |
 | solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
 | getting-started-url | Link zur Hilfeseite für den Einstieg |
 | tutorials-url | Link zu Videolehrgängen - entweder Helpx-Tutorials oder KT-Tutorials |
 | mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Standardwert ist „2“ |
-| git-repo | Gibt den Speicherort des Master-Repo für die interne Verwendung an |
+| git-repo | Gibt den Speicherort des Übergeordnet-Repo für die interne Verwendung an |
