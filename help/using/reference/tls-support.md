@@ -1,36 +1,38 @@
 ---
-description: Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das dazu dient, einen sicheren Kanal für die Kommunikation zwischen zwei Systemen zu schaffen. Es wird verwendet, um ein oder beide Systeme zu authentifizieren und die Vertraulichkeit und Integrität von Informationen zu schützen, die zwischen Systemen weitergegeben werden. Im Mai 2018 gab es drei Versionen des TLS-Protokolls, die TLS 1.0, 1.1 und 1.2 verwendeten.
-seo-description: Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das dazu dient, einen sicheren Kanal für die Kommunikation zwischen zwei Systemen zu schaffen. Es wird verwendet, um ein oder beide Systeme zu authentifizieren und die Vertraulichkeit und Integrität von Informationen zu schützen, die zwischen Systemen weitergegeben werden. Im Mai 2018 gab es drei Versionen des TLS-Protokolls, die TLS 1.0, 1.1 und 1.2 verwendeten.
+description: Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das dazu dient, einen sicheren Kanal für die Kommunikation zwischen zwei Systemen zu schaffen. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 gab es drei Versionen des TLS-Protokolls, die TLS 1.0, 1.1 und 1.2 verwendeten.
+seo-description: Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das dazu dient, einen sicheren Kanal für die Kommunikation zwischen zwei Systemen zu schaffen. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 gab es drei Versionen des TLS-Protokolls, die TLS 1.0, 1.1 und 1.2 verwendeten.
 seo-title: Einstellung von TLS 1.0 und 1.1
 solution: Audience Manager
 title: Einstellung von TLS 1.0 und 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 31%
+source-wordcount: '276'
+ht-degree: 3%
 
 ---
 
 
 # Einstellung von TLS 1.0 und 1.1{#tls-deprecation}
 
-Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das dazu dient, einen sicheren Kanal für die Kommunikation zwischen zwei Systemen zu schaffen. Es wird verwendet, um ein oder beide Systeme zu authentifizieren und die Vertraulichkeit und Integrität von Informationen zu schützen, die zwischen Systemen weitergegeben werden. Im Mai 2018 wurden drei Versionen des TLS-Protokolls verwendet: TLS 1.0, 1.1 und 1.2.
+Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das dazu dient, einen sicheren Kanal für die Kommunikation zwischen zwei Systemen zu schaffen. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 wurden drei Versionen des TLS-Protokolls verwendet: TLS 1.0, 1.1 und 1.2.
 
-Im März 2019 [!DNL Adobe] hat die Unterstützung für das [!DNL TLS 1.0] Protokoll eingestellt. Die Adobe Audience Manager-Funktion funktioniert nicht für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.0]unterstützt werden.
+Im März 2019 [!DNL Adobe] hat die Unterstützung für das [!DNL TLS 1.0] Protokoll eingestellt. Die Adobe Audience Manager-Funktionalität funktioniert nicht für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.0]unterstützt werden.
 
-Im März 2020 [!DNL Adobe] wird die Unterstützung für das [!DNL TLS 1.1] Protokoll eingestellt. Die Funktionalität der Adobe Audience Manager funktioniert nicht mehr für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.1]unterstützt werden.
+Im März 2020 [!DNL Adobe] wird die Unterstützung für das [!DNL TLS 1.1] Protokoll eingestellt. Die Adobe Audience Manager-Funktionalität funktioniert nicht mehr für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.1]unterstützt werden.
 
-Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des Protokolls, die zum Zeitpunkt des Schreibens vorliegt. Alle modernen Browser verwenden [!DNL TLS 1.2]. Wir haben für Sie eine Liste von Browsern, Versionen und deren [!DNL TLS] Unterstützung gesammelt. Weitere Informationen finden Sie unter [diesem Wikipedia-Link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Adobe empfiehlt dringend die Verwendung [!DNL TLS 1.2]der neuesten Protokollversion, die zum Zeitpunkt des Schreibens vorliegt. Alle modernen Browser verwenden [!DNL TLS 1.2]. Wir haben für Sie eine Liste von Browsern, Versionen und deren [!DNL TLS] Unterstützung gesammelt. Weitere Informationen zur Unterstützung des TLS-Browsers finden Sie unter [den Link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)Transport Layer Security Wikipedia.
+
+<!--
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col03" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col03" class="entry"> <p>Platform </p> </th> 
    <th colname="col3" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -38,7 +40,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="2"> <p>Google Chrome (Chrome für Android) </p> </td> 
+   <td colname="col1" morerows="2"> <p>Google Chrome (Chrome for Android) </p> </td> 
    <td colname="col2"> <p>1 - 21 </p> </td> 
    <td colname="col03" morerows="2"> <p> 
      <ul id="ul_73F2C4C645E1411ABB3AD7ABD1013C59"> 
@@ -48,21 +50,21 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_761665B51622486FA0D6ABBDAA1DCA60">iOS (9.0+) </li> 
       <li id="li_9E19588870DA4EFB963C0C650116DC94">Chrome OS </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Nein </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
+   <td colname="col3"> <p>Yes </p> </td> 
+   <td colname="col4"> <p>No </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>22 - 29 </p> </td> 
-   <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
+   <td colname="col3"> <p>Yes </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>30 - aktuelle Version </p> </td> 
-   <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
+   <td colname="col2"> <p>30 - present version </p> </td> 
+   <td colname="col3"> <p>Yes </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +74,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col3" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -82,22 +84,22 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <td colname="col1" morerows="2"> <p>Google Android OS Browser </p> </td> 
    <td colname="col2"> <p>Android 1.0 - 4.0.4 </p> </td> 
-   <td colname="col3" morerows="2"> nicht angegeben </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col3" morerows="2"> N/A </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Android 4.1 - 4.4.4 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Standardmäßig deaktiviert </p> </td> 
-   <td colname="col6"> <p>Standardmäßig deaktiviert </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Android 5.0 - aktuelle Version </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col2"> <p>Android 5.0 - present version </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +109,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col3" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -115,7 +117,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="3"> <p>Mozilla Firefox (Firefox für Mobilgeräte) </p> </td> 
+   <td colname="col1" morerows="3"> <p>Mozilla Firefox (Firefox for Mobile) </p> </td> 
    <td colname="col2"> <p>1.0 - ESR 17.0.11 </p> </td> 
    <td colname="col3" morerows="3"> <p> 
      <ul id="ul_617CE841EC7743A08BE004E309A3B0D7"> 
@@ -124,33 +126,33 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_320467E34FC44492877283935553B87A">Linux Android (4.1+) </li> 
       <li id="li_6827CD3D51B24B54BDCA0DAE7DD43696">iOS (9.0+) </li> 
       <li id="li_B4C08937A5BD47188A97E03AF2F3689B">Chrome OS </li> 
-     </ul> </p> <p>ESR nur für: 
+     </ul> </p> <p>ESR only for: 
      <ul id="ul_6AF06AEC2B494912BA480EA8FF54BF80"> 
       <li id="li_DB30E35051474FBEABE70C69292037DE">Windows (XP SP2+) </li> 
       <li id="li_B412EDEF4FEC4AC9A17C7152BA493768">OS X (10.9+) </li> 
       <li id="li_C2E18F13BFE24C55A7C14488F115810C"> Linux </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>23 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Standardmäßig deaktiviert </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>24 - 26 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Standardmäßig deaktiviert </p> </td> 
-   <td colname="col6"> <p>Standardmäßig deaktiviert </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>27 - aktuelle Version </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col2"> <p>27 - present version </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,7 +162,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col3" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -173,11 +175,11 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
    <td colname="col3"> <p> 
      <ul id="ul_D42AB0C3FEFA4F75805EA82A45185BB9"> 
       <li id="li_53C5453187E34007B8FD32FF88A83C9B">Windows 3.1, 95, NT </li> 
-      <li id="li_C8D9FAD1C46E4CE882EAFCD0B3CD1A27">Mac OS 7.8 </li> 
+      <li id="li_C8D9FAD1C46E4CE882EAFCD0B3CD1A27">Mac OS 7,8 </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Nein </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>No </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>4 - 6 </p> </td> 
@@ -186,9 +188,9 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_4BC6C41C2EF546A797122B746F4D943E">Windows 3.1, 95, 98, NT, 2000, XP, Server 2003 </li> 
       <li id="li_2890B5044BBA4F3CA37ECED8A38D6C1B">Mac OS 7.1, 8, X, Solaris, HP-UX </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Standardmäßig deaktiviert </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Disabled by default </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>7 - 9 </p> </td> 
@@ -198,9 +200,9 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_41CAFC08AFC04D85A04BE9CE55D92AE5">Windows Server 2003 </li> 
       <li id="li_983D588A30CD4B4E8BB00E70C669CED2">Windows Vista </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>7 - 10 </p> </td> 
@@ -209,9 +211,9 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_B69400528CB64CB2994F4FB8CF3B4A2A">Windows 7, 8 </li> 
       <li id="li_B759C917E04F4A12826C9ABAE4A7C476">Windows Server 2002, Server 2008, Server 2008 R2 </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Standardmäßig deaktiviert </p> </td> 
-   <td colname="col6"> <p>Standardmäßig deaktiviert </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>11 </p> </td> 
@@ -220,9 +222,9 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_CA93F2471EEE404992792918E46D27A0">Windows 7, 8.1, 10 </li> 
       <li id="li_97CE6072071748318B9A33ECD7009F8A">Windows Server 2008, Server 2012, Server 2012 R2, Server 2016, Server 2019 </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -232,7 +234,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col3" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -243,23 +245,23 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
    <td colname="col1" morerows="2"> <p>Microsoft Internet Explorer Mobile </p> </td> 
    <td colname="col2"> <p>7, 9 </p> </td> 
    <td colname="col3"> <p>Windows Phone 7, 7.5, 7.8 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>10 </p> </td> 
-   <td colname="col3"> <p>Windows Phone 8 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Standardmäßig deaktiviert </p> </td> 
-   <td colname="col6"> <p>Standardmäßig deaktiviert </p> </td> 
+   <td colname="col3"> <p>Windows Phone 8 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>11 </p> </td> 
-   <td colname="col3"> <p>Windows Phone 8.1 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col3"> <p>Windows Phone 8.1 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -269,7 +271,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col3" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -277,8 +279,8 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Microsoft Edge und Microsoft Edge for Mobile </p> </td> 
-   <td colname="col2"> <p>Alle Versionen </p> </td> 
+   <td colname="col1"> <p>Microsoft Edge and Microsoft Edge for Mobile </p> </td> 
+   <td colname="col2"> <p>All versions </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_87B9CD9D72CA43A1A4DC824C5DEA3638"> 
       <li id="li_23DE8D894B0C43DF8420E8B49E5F8FCE">Windows 10 </li> 
@@ -286,9 +288,9 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_9257BBAE90914E97A6244F22FCE0F9FE">Windows Server 2016 </li> 
       <li id="li_10940F64FA9349159A88305BE303CC37">Windows Server 2019 </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,7 +300,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col3" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -314,51 +316,51 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_E0CC0A99244443488026F4EA82027EE0">OS X (10.9+) </li> 
       <li id="li_F04CA1BD8DAD473CABCD64221883FA56">Linux Android (4.0+) </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Nein </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>No </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>5 - 7 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>8 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Standardmäßig deaktiviert </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>9 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>10 - 12.17 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Standardmäßig deaktiviert </p> </td> 
-   <td colname="col6"> <p>Standardmäßig deaktiviert </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>12.18 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>14 - 16 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>17 - aktuelle Version </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col2"> <p>17 - present version </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -368,7 +370,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col3" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -383,16 +385,16 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
       <li id="li_44A6D54B5BC64724B9FF853D3F7D7EAE">Mac OS X 10.2 - 10.8 </li> 
       <li id="li_C0EE310C369444F4AA8F5D22912554B5">Win XP) </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>7 - aktuelle Version </p> </td> 
+   <td colname="col2"> <p>7 - present version </p> </td> 
    <td colname="col3"> <p>Mac OS X 10.9 - 10.13 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -402,7 +404,7 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
   <tr> 
    <th colname="col1" class="entry"> <p>Browser </p> </th> 
    <th colname="col2" class="entry"> <p>Version </p> </th> 
-   <th colname="col3" class="entry"> <p>Plattform </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -410,20 +412,21 @@ Wir empfehlen dringend die Verwendung von [!DNL TLS 1.2]der neuesten Version des
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p>Apple Safari (mobil) </p> </td> 
+   <td colname="col1" morerows="1"> <p>Apple Safari (mobile) </p> </td> 
    <td colname="col2"> <p>3 - 5 </p> </td> 
    <td colname="col3"> <p>iOS 1 - 4 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Nein </p> </td> 
-   <td colname="col6"> <p>Nein </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>5 - aktuelle Version </p> </td> 
+   <td colname="col2"> <p>5 - present version </p> </td> 
    <td colname="col3"> <p>iOS 5 - 11 </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p>Ja </p> </td> 
-   <td colname="col6"> <p>Ja </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+-->
