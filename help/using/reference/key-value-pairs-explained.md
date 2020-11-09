@@ -8,10 +8,10 @@ title: Schlüssel-Wert-Paare – Erklärung
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 7%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -54,44 +54,10 @@ Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die Wert
 
 ## Standardelemente und serialisierte Schlüsselwertelemente {#standard-serialized-key-value-elements}
 
-<table id="table_62B0498441034A719C9DB57276777D40"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Typ </th> 
-   <th colname="col2" class="entry"> Beispiel </th> 
-   <th colname="col3" class="entry"> Schlüssel </th> 
-   <th colname="col4" class="entry"> Trennzeichen für Schlüsselwerte </th> 
-   <th colname="col5" class="entry"> Trennzeichen für Schlüsselwerte </th> 
-   <th colname="col6" class="entry"> Serielle Trennlinie </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Einzelner Schlüssel</b> <p>(Standard) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col4" morerows="3"> = </td> 
-   <td colname="col5" morerows="1"> &amp; </td> 
-   <td colname="col6" morerows="1"> Keine </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Schlüsselwertpaare</b> <p>(Standard) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Einzelner Schlüssel</b> <p>(seriell) </p> </td> 
-   <td colname="col2"> <code> x=1;2;3 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col5"> Keine </td> 
-   <td colname="col6" morerows="1"> ; </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Schlüsselwertpaare</b> (seriell) </td> 
-   <td colname="col2"> <code> x=1;2&amp;y=3;4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-   <td colname="col5"> &amp; </td> 
-  </tr> 
- </tbody> 
-</table>
 
+| Typ | Beispiel | Schlüssel | Trennzeichen für Schlüsselwerte | Trennzeichen für Schlüsselwerte | Serielle Trennlinie |
+---------|----------|---------|---------|----------|---------
+| **Einzelschlüssel** (Standard) | `x=1&x=2` | `x` | `=` | `&` | Keine |
+| **Schlüsselwertpaare** (Standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | Keine |
+| **Einzelschlüssel** (seriell) | `x=1;2;3` | `x` | `=` | Keine | `;` |
+| **Schlüsselwertpaare** (seriell) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
