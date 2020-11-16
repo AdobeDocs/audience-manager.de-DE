@@ -7,9 +7,9 @@ title: Anforderungen an Präfixe für Schlüsselvariablen
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 1c0d40082cd0753a9b4326aae764eb74aefb8be4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '345'
 ht-degree: 5%
 
 ---
@@ -43,11 +43,11 @@ In der folgenden Tabelle sind die allgemeinen Präfixe definiert, die von [!UICO
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Auf der Ebene des <span class="keyword"> Audience Managers</span> . Diese Daten sind im gesamten Ökosystem des <span class="keyword"> Audience Managers</span> einheitlich. Eine umfassendere Liste finden Sie unter <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Unterstützte Attribute für DCS-API-Aufrufe</a> . <p>Signale, die dieses Präfix verwenden, werden in der <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signalsuche</a>nicht angezeigt.</p></p> </td> 
+   <td colname="col2"> <p>Auf der Ebene des <span class="keyword"> Audience Managers</span> . Diese Daten sind im gesamten Ökosystem des <span class="keyword"> Audience Managers</span> einheitlich. Eine umfassendere Liste finden Sie unter <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Unterstützte Attribute für DCS-API-Aufrufe</a> .</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Das enthält <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP-Header</a> -Informationen. Umfasst Header-Parameter wie <code> referer</code>,<code> IP</code><code> accept-language</code>usw. </p> <p> <p>Hinweis: Bei Kunden, die DIL-Versionen über 9.0 verwenden, funktioniert die Datenerfassung mit dem <code> h_referer</code> Signal nicht in Safari-Browsern. Mit der Einführung von <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>können Safari-Browser die Domäne demdex.net als Tracker klassifizieren und den Werber bei der Datenerfassungsanforderung abschneiden, sodass nur die Herkunft und nicht die vollständige URL enthalten ist. Die neueste DIL-Version finden Sie unter <a href="../../dil/dil-overview.md#get-implement-dil-code">Getting and Implementing DIL Code</a> .<p>Signale, die dieses Präfix verwenden, werden in der <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signalsuche</a>nicht angezeigt.</p></p> </p> </td> 
+   <td colname="col2"> <p>Das enthält <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP-Header</a> -Informationen. Umfasst Header-Parameter wie <code> referer</code>,<code> IP</code><code> accept-language</code>usw. </p> <p> <p>Hinweis: Bei Kunden, die DIL-Versionen verwenden, die älter als 9.0 sind, funktioniert die Datenerfassung mit dem <code> h_referer</code> Signal nicht auf Safari-Browsern. Mit der Einführung von <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>können Safari-Browser die Domäne demdex.net als Tracker klassifizieren und den Werber bei der Datenerfassungsanforderung abschneiden, sodass nur die Herkunft und nicht die vollständige URL enthalten ist. Die neueste DIL-Version finden Sie unter DIL-Code <a href="../../dil/dil-overview.md#get-implement-dil-code">abrufen und implementieren</a> .<p>Signale, die dieses Präfix verwenden, werden in der <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signalsuche</a>nicht angezeigt.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
