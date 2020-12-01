@@ -17,15 +17,15 @@ ht-degree: 14%
 
 # API-Methoden für DCS-Regionen {#dcs-region-api-methods}
 
-Methoden, mit denen Sie Audience Manager- [!DNL DCS] Regionen programmatisch Liste haben.
+Methoden, mit denen Sie Audience Manager [!DNL DCS] programmgesteuert Liste durchführen können.
 
 <!-- c_rest_api_regions.xml -->
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Eine Liste der Regionen und der zugehörigen Ganzzahlen finden Sie unter [DCS-Regions-IDs, Standorte und Hostnamen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 ## Liste einer bestimmten DCS-Region {#list-specific-dcs-region}
 
-Eine `GET` Methode zur Liste eines bestimmten [!DNL DCS] Bereichs.
+Eine `GET`-Methode zur Liste eines bestimmten [!DNL DCS]-Bereichs.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -49,13 +49,13 @@ Eine `GET` Methode zur Liste eines bestimmten [!DNL DCS] Bereichs.
   }
 ```
 
-Gibt `200 OK` bei erfolgreicher Ausführung zurück.
+Gibt `200 OK` zurück, wenn erfolgreich.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Eine Liste der Regionen und der zugehörigen Ganzzahlen finden Sie unter [DCS-Regions-IDs, Standorte und Hostnamen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Liste DCS-Regionen {#list-dcs-regions}
+## Liste DCS Regionen {#list-dcs-regions}
 
-Eine `GET` Methode zur Liste von [!DNL DCS] Regionen.
+Eine `GET`-Methode zur Liste von [!DNL DCS]-Regionen.
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -82,6 +82,6 @@ Eine `GET` Methode zur Liste von [!DNL DCS] Regionen.
 ]
 ```
 
-Gibt `200 OK` bei erfolgreicher Ausführung zurück.
+Gibt `200 OK` zurück, wenn erfolgreich.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Eine Liste der Regionen und der zugehörigen Ganzzahlen finden Sie unter [DCS-Regions-IDs, Standorte und Hostnamen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
