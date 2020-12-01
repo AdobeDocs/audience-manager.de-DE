@@ -36,39 +36,39 @@ Audience Manager enthält die folgenden Datenerfassungskomponenten:
 
 DCS und PCS arbeiten zusammen und bieten separate Dienste zur Realisierung von Eigenschaften, zur Segmentierung von Audiencen und zur Datenspeicherung von Daten.
 
-**[!UICONTROL Data Collection Servers (DCS)]Funktion **
+**[!UICONTROL Data Collection Servers (DCS)]Funktion**
 
-In [!DNL Audience Manager]dem DCS:
+In [!DNL Audience Manager] wird der DES:
 
 * Erhält und wertet Eigenschaftendaten aus einem Ereignis-Aufruf. Dies umfasst Informationen, die für die Echtzeit-Segmentierung verwendet werden, sowie Daten, die in regelmäßigen Abständen von Server zu Server-Transfers übergeben werden.
-* Segmentiert Benutzer anhand ihrer realisierten Eigenschaften und der von Ihnen mit dem [Segmentaufbau](../../features/segments/segment-builder.md)erstellten Qualifizierungsregeln.
+* Segmentiert Benutzer basierend auf ihren realisierten Eigenschaften und den Qualifizierungsregeln, die Sie mit [Segmentaufbau](../../features/segments/segment-builder.md) erstellen.
 * Erstellt und verwaltet Geräte-IDs und authentifizierte Profil-IDs. Dazu gehören Bezeichner wie Datenanbieter-IDs, Benutzer-IDs, deklarierte IDs, Integrationscodes usw.
 * Prüft das PCS auf zusätzliche Eigenschaften, die ein Anwender bereits vor einem Echtzeit-Ereignis-Aufruf realisiert hat. Dadurch kann der DCS Benutzer anhand von Echtzeitdaten und Verlaufsdaten qualifizieren.
 * Schreibt Protokolldateien und sendet diese zur Datenspeicherung und Verarbeitung an Analysesysteme.
 
 **[!DNL DCS]Verwaltung der Nachfrage durch[!UICONTROL Global Server Load Balancing (GSLB)]**
 
-The [!DNL DCS] is a geographically distributed and load-balanced system. Dies bedeutet, dass Anfragen von und zu einem regionalen Rechenzentrum geleitet werden [!DNL Audience Manager] können, basierend auf dem geografischen Standort eines Site-Besuchers. Diese Strategie hilft, die Reaktionszeiten zu verbessern, da eine [!DNL DCS] Antwort direkt an ein Rechenzentrum mit Informationen zu diesem Besucher weitergeleitet wird. [!UICONTROL GSLB] macht unser System effizient, weil relevante Daten in Servern zwischengespeichert werden, die dem Benutzer am nächsten kommen.
+Das [!DNL DCS] ist ein geografisch verteiltes und lastausbalanciertes System. Das bedeutet, dass [!DNL Audience Manager] Anfragen von und zu einem regionalen Rechenzentrum leiten kann, basierend auf dem geografischen Standort eines Site-Besuchers. Diese Strategie hilft, die Reaktionszeiten zu verbessern, da eine [!DNL DCS]-Antwort direkt an ein Rechenzentrum mit Informationen zu diesem Besucher weitergeleitet wird. [!UICONTROL GSLB] macht unser System effizient, weil relevante Daten in Servern zwischengespeichert werden, die dem Benutzer am nächsten kommen.
 
 >[!IMPORTANT]
 >
->Der Webverkehr wird [!DNL DCS] nur von Geräten erkannt, die IPv4 verwenden.
+>[!DNL DCS] erkennt nur Web-Traffic, der von Geräten stammt, die IPv4 verwenden.
 
-Bei einem Ereignis-Aufruf wird der geografische Standort in einem Schlüssel-Wert-Paar erfasst, das in einem größeren Textkörper von JSON-Daten zurückgegeben wird. Dieses Schlüssel-Wert-Paar ist der `"dcs_region": region ID` Parameter.
+Bei einem Ereignis-Aufruf wird der geografische Standort in einem Schlüssel-Wert-Paar erfasst, das in einem größeren Textkörper von JSON-Daten zurückgegeben wird. Dieses Schlüssel-Wert-Paar ist der Parameter `"dcs_region": region ID`.
 
 ![](assets/dcs-map.png)
 
-Als Kunde wenden Sie sich über unseren Datenerfassungscode [!DNL DCS] indirekt an den Kunden. Sie können auch direkt mit der [!DNL DCS] über eine Reihe von APIs arbeiten. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
+Als Kunde wenden Sie sich indirekt über unseren Datenerfassungscode mit dem [!DNL DCS] an. Sie können auch direkt mit dem [!DNL DCS] über eine Reihe von APIs arbeiten. Siehe API-Methoden und Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md) für Datenerfassungsserver (DCS).[
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-Das [!UICONTROL PCS] ist eine große Datenbank (im Grunde ein riesiges serverseitiges Cookie). Sie speichert Daten, die für aktive Benutzer von Server-zu-Server-Übertragungen und den [!DNL DCS] empfangen wurden. [!UICONTROL PCS]-Daten bestehen aus Geräte-IDs, authentifizierten Profil-IDs und den zugehörigen Eigenschaften. Wenn der Benutzer einen Echtzeitaufruf [!DNL DCS] [!UICONTROL PCS] erhält, prüft er, ob andere Eigenschaften vorliegen, denen ein Benutzer angehören kann oder für die er sich qualifiziert. Wenn zu einem Segment zu einem späteren Zeitpunkt eine Eigenschaft hinzugefügt wird, werden diese Eigenschaften-IDs dem Segment hinzugefügt [!UICONTROL PCS] und Benutzer können sich automatisch für dieses Segment qualifizieren, ohne eine bestimmte Site oder App zu besuchen. Das [!UICONTROL PCS] [!DNL Audience Manager]hilft, das Verständnis Ihrer Benutzer zu vertiefen, da es Benutzer in Echtzeit oder hinter den Kulissen mit neuen und historischen Eigenschaftsdaten abgleichen und segmentieren kann. Mit diesem Verhalten erhalten Sie ein vollständiges und genaueres Bild Ihrer Benutzer als mit der Qualifikation in Echtzeit.
+Das [!UICONTROL PCS] ist eine große Datenbank (im Grunde ein riesiges serverseitiges Cookie). Sie speichert Daten, die für aktive Benutzer von Server-zu-Server-Übertragungen und den [!DNL DCS] empfangen wurden. [!UICONTROL PCS]-Daten bestehen aus Geräte-IDs, authentifizierten Profil-IDs und den zugehörigen Eigenschaften. Wenn das [!DNL DCS] einen Echtzeitaufruf erhält, prüft es das [!UICONTROL PCS] auf andere Eigenschaften, zu denen ein Benutzer gehören kann oder für die er sich qualifiziert. Wenn zu einem Segment zu einem späteren Zeitpunkt eine Eigenschaft hinzugefügt wird, werden diese Eigenschaften-IDs dem [!UICONTROL PCS] hinzugefügt und Benutzer können sich automatisch für dieses Segment qualifizieren, ohne eine bestimmte Site oder App zu besuchen. Das [!UICONTROL PCS] hilft Ihnen, das Verständnis Ihrer Benutzer zu vertiefen, da es Benutzer in Echtzeit oder hinter den Kulissen mit neuen und historischen Eigenschaftsdaten abgleichen und segmentieren kann. [!DNL Audience Manager] Mit diesem Verhalten erhalten Sie ein vollständiges und genaueres Bild Ihrer Benutzer als mit der Qualifikation in Echtzeit.
 
-Es gibt keine Steuerelemente für die Benutzeroberfläche, mit denen unsere Kunden direkt mit dem [!UICONTROL PCS]System arbeiten können. Der Zugriff des Kunden auf die [!UICONTROL PCS] Website erfolgt indirekt über seine Rolle als Datenspeicher und Datenübertragung. Der [!UICONTROL PCS] läuft auf dem Apache Cassandra.
+Es gibt keine Steuerelemente der Benutzeroberfläche, mit denen unsere Kunden direkt mit dem [!UICONTROL PCS] arbeiten können. Der Zugriff des Kunden auf das [!UICONTROL PCS] ist indirekt, durch seine Rolle als Datenspeicher und Datenübertragung. Das [!UICONTROL PCS] läuft auf Apache Cassandra.
 
 **Entfernen inaktiver IDs aus der[!UICONTROL PCS]**
 
-Wie bereits erwähnt, speichert die [!UICONTROL PCS] Eigenschaften-IDs für aktive Benutzer. Ein aktiver Benutzer ist jeder Benutzer, der in den letzten 14 Tagen von den [Edge-Datenservern](../../reference/system-components/components-edge.md) aus einer beliebigen Domäne gesehen wurde. Diese Aufrufe zur [!UICONTROL PCS] aktiven Verwendung eines Benutzers:
+Wie oben angegeben speichert das [!UICONTROL PCS] Eigenschaften-IDs für aktive Benutzer. Ein aktiver Benutzer ist jeder Benutzer, der in den letzten 14 Tagen von den [Edge-Datenservern](../../reference/system-components/components-edge.md) aus einer beliebigen Domäne gesehen wurde. Diese Aufrufe an das [!UICONTROL PCS] halten einen Benutzer in einem aktiven Status:
 
 * [!DNL /event] aufrufen
 * [!DNL /ibs] Aufrufe (ID-Syncs)
@@ -79,23 +79,23 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-Die [!UICONTROL PCS] Flusheigenschaften werden angezeigt, wenn sie 17 Tage lang inaktiv sind. Diese Eigenschaften gehen jedoch nicht verloren. Sie werden in Hadoop gespeichert. Wenn der Benutzer zu einem anderen Zeitpunkt erneut angezeigt wird, schiebt Hadoop alle Eigenschaften zurück in die [!UICONTROL PCS]Regel innerhalb von 24 Stunden.
+Die Eigenschaften von [!UICONTROL PCS] werden entfernt, wenn sie 17 Tage lang inaktiv sind. Diese Eigenschaften gehen jedoch nicht verloren. Sie sind in Hadoop gelagert. Wenn der Benutzer zu einem anderen Zeitpunkt erneut angezeigt wird, schiebt Hadoop alle Eigenschaften zurück auf das [!UICONTROL PCS], normalerweise innerhalb von 24 Stunden.
 
-**Andere[!UICONTROL DCS/PCS]Prozesse: Datenschutzabmeldung**
+**Andere  [!UICONTROL DCS/PCS] Prozesse: Datenschutzabmeldung**
 
-Diese Serversysteme bearbeiten Datenschutzanforderungen und Abmeldeanforderungen für Benutzer. Benutzercookie-Informationen werden nicht in der Protokolldatei erfasst, wenn ein Benutzer sich aus der Datenerfassung ausgeschlossen hat. Weitere Informationen zu unseren Datenschutzrichtlinien finden Sie im [Adobe Privacy Center](https://www.adobe.com/de/privacy/advertising-services.html).
+Diese Serversysteme bearbeiten Datenschutzanforderungen und Abmeldeanforderungen für Benutzer. Benutzercookie-Informationen werden nicht in der Protokolldatei erfasst, wenn ein Benutzer sich aus der Datenerfassung ausgeschlossen hat. Weitere Informationen zu unseren Datenschutzrichtlinien finden Sie im [Datenschutzzentrum für Adoben](https://www.adobe.com/de/privacy/advertising-services.html).
 
-## Data Integration Library (DIL)- {#dil}.
+## Data Integration Library (DIL)- {#dil}
 
-[!UICONTROL DIL] ist Code, den Sie für die Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Diensten und Methoden finden Sie in der [DIL-API](../../dil/dil-overview.md) .
+[!UICONTROL DIL] ist Code, den Sie für die Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Diensten und Methoden finden Sie unter [DIL API](../../dil/dil-overview.md).
 
 ## Inbound Server-to-Server {#inbound-outbound-server}
 
-Dies sind Systeme, die Daten empfangen, die von verschiedenen Server-zu-Server-Integrationen mit unseren Clients gesendet werden. Weitere Informationen finden Sie in der Dokumentation zum [Senden von Audiencen](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) .
+Dies sind Systeme, die Daten empfangen, die von verschiedenen Server-zu-Server-Integrationen mit unseren Clients gesendet werden. Weitere Informationen finden Sie in der Dokumentation zu [Senden von Audiencen](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md).
 
-## Log Files {#log-files}
+## Protokolldateien {#log-files}
 
-Das [!UICONTROL PCS] erstellt Daten und schreibt sie in die Protokolldateien. Diese werden zur Verarbeitung, zum Berichte und zur Datenspeicherung an andere Datenbanksysteme gesendet.
+Das [!UICONTROL PCS] erstellt und schreibt Daten in die Protokolldateien. Diese werden zur Verarbeitung, zum Berichte und zur Datenspeicherung an andere Datenbanksysteme gesendet.
 
 >[!MORELIKETHIS]
 >
