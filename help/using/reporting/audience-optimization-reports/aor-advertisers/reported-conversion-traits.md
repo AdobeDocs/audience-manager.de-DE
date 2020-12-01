@@ -27,6 +27,6 @@ Informationen zum Erstellen von Konversionseigenschaften in Audience Manager fin
 
 ## Beispielbericht
 
-Ihr [!UICONTROL Reported Conversion Traits] Bericht könnte wie folgt aussehen:
+Ihr [!UICONTROL Reported Conversion Traits]-Bericht könnte wie der unten stehende aussehen:
 
 ![](assets/reported-conversion-traits.png)
