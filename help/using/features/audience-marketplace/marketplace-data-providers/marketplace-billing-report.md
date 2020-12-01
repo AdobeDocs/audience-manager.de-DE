@@ -18,13 +18,13 @@ ht-degree: 5%
 
 # Abrechnung für Daten-Feed-Anbieter {#billing-for-data-feed-providers}
 
-Erstellen Sie einen [!DNL Audience Marketplace] Rechnungsbericht zur Ansicht der Datenfeed-Nutzung für den Vormonat für jeden Ihrer Abonnenten. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
+Erstellen Sie einen Abrechnungsbericht für [!DNL Audience Marketplace] zur Ansicht der Datenfeed-Nutzung für den Vormonat für jeden Ihrer Abonnenten. Sie können jederzeit einen Bericht für den vorherigen Monat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
 
 ## Herunterladen eines Rechnungsberichts {#download-billing-report}
 
 So laden Sie einen Bericht herunter:
 
-1. Geh zu **[!UICONTROL Audience Marketplace > Receivables]**.
+1. Gehen Sie zu **[!UICONTROL Audience Marketplace > Receivables]**.
 1. Klicken **[!UICONTROL Generate Billing Report]**.
 
 ## Berichtsfelder definiert {#report-fields-defined}
@@ -41,7 +41,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Datenanbieter-PID</span></b> </p> </td> 
-   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
+   <td colname="col2"> <p>Ihre <span class="keyword">-Audience Manager</span>-Datenanbieter-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Name des Datenanbieters</span></b> </p> </td> 
@@ -94,7 +94,7 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Gesamtkosten</span></b> </p> </td> 
-   <td colname="col2"> <p>Der Betrag <span class="keyword"> Audience Manager</span> belastet den Käufer. </p> </td> 
+   <td colname="col2"> <p>Der Betrag <span class="keyword"> Audience Manager</span> stellt einen Käufer in Rechnung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Abrechnungszeitraum</span></b> </p> </td> 
@@ -114,10 +114,10 @@ Ein Rechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Markierung</span></b> </p> </td> 
-   <td colname="col2"> <p> <i>Nur</i>für CPM-Feeds. Zu den Flag-Optionen gehören: </p> 
+   <td colname="col2"> <p> <i>Nur</i> für CPM-Feeds. Zu den Flag-Optionen gehören: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Gibt an, dass ein Abonnent dem <span class="keyword"> Audience Manager</span>Nutzungsinformationen gemeldet hat. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Gibt an, dass ein Abonnent keine Nutzungsinformationen an den <span class="keyword"> Audience Manager</span>gemeldet hat. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Gibt an, dass ein Abonnent Nutzungsinformationen an <span class="keyword"> Audience Manager</span> gemeldet hat. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Gibt an, dass ein Abonnent keine Nutzungsinformationen an <span class="keyword"> Audience Manager</span> gemeldet hat. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
