@@ -23,11 +23,11 @@ Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, die Sie
 
 <!-- c_tb_device_targeting.xml -->
 
-Mit Plattformvariablen können Sie Daten, die von einer bestimmten Site übergeben wurden, aufnehmen und für das Targeting über alle Eigenschaften in Ihrem [!DNL Audience Manager] Konto hinweg verfügbar machen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei der Schlüssel dem folgenden vorangestellt wird `d_` .
+Mit Plattformvariablen können Sie Daten, die von einer bestimmten Site übergeben wurden, aufnehmen und für das Targeting für alle Eigenschaften in Ihrem [!DNL Audience Manager]-Konto verfügbar machen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei der Schlüssel durch `d_` vorangestellt wird, wie unten dargestellt.
 
-## Vom Benutzeragent definierte Schlüssel auf Plattformebene {#keys-user-agent}
+## Vom Benutzeragent {#keys-user-agent} definierte Schlüssel auf Plattformebene
 
-Die [!UICONTROL Data Collection Servers] Werte für diese Schlüssel werden aus dem [Benutzeragenten-Header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` Anforderungen extrahiert. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas] Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie aus dem Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gebräuchlichsten Schlüssel](assets/device_keys.csv)nach [!UICONTROL Device Atlas] Messungen herunter.
+Die [!UICONTROL Data Collection Servers] extrahieren Sie die Werte für diese Schlüssel aus der [Benutzeragenten-Kopfzeile](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP`-Anforderungen. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas]-Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie aus dem Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gebräuchlichsten Schlüssel](assets/device_keys.csv) nach  [!UICONTROL Device Atlas] Messungen herunter.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -45,7 +45,7 @@ Die [!UICONTROL Data Collection Servers] Werte für diese Schlüssel werden aus 
 
 >[!NOTE]
 >
->Auch wenn ein oder mehrere Signale nicht aus dem Benutzeragenten-Header abgerufen werden können, werden die anderen Signale trotzdem an den [!UICONTROL Data Collection Servers]Empfänger weitergeleitet.
+>Auch wenn ein oder mehrere Signale nicht aus dem Benutzeragenten-Header abgerufen werden können, werden die anderen Signale weiterhin an das [!UICONTROL Data Collection Servers] weitergeleitet.
 
 >[!MORELIKETHIS]
 >
