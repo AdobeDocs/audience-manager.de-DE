@@ -16,15 +16,15 @@ ht-degree: 2%
 
 # Signale-Dashboard {#signals-dashboard}
 
-Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die der Audience Manager in den letzten 7 Tagen erhalten hat, und ermitteln Sie potenzielle neue Eigenschaften. Nicht verwendete Signale greifen von Ihren Online-Eigenschaften auf den Audience Manager zu, werden jedoch in keiner Ihrer vorhandenen Eigenschaften verwendet. Um die Ansicht [!UICONTROL Signals Dashboard]zu wählen, gehen Sie zu [!UICONTROL Audience Data] > [!UICONTROL Signals]. Der [!UICONTROL Signals Dashboard] zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
+Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die der Audience Manager in den letzten 7 Tagen erhalten hat, und ermitteln Sie potenzielle neue Eigenschaften. Nicht verwendete Signale greifen von Ihren Online-Eigenschaften auf den Audience Manager zu, werden jedoch in keiner Ihrer vorhandenen Eigenschaften verwendet. Um [!UICONTROL Signals Dashboard] Ansicht, gehen Sie zu [!UICONTROL Audience Data] > [!UICONTROL Signals]. Das [!UICONTROL Signals Dashboard] zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
 
 >[!IMPORTANT]
 >
->Die Abschnitte **[!UICONTROL Top Unused Signals]** und **[!UICONTROL New Unused Signals]** zeigen nur Datensätze mit mehr als **100 Vorfällen/Stunde** an. Signale unterhalb dieses Schwellenwerts sind in [!UICONTROL Signals Search]enthalten.
+>Die Abschnitte **[!UICONTROL Top Unused Signals]** und **[!UICONTROL New Unused Signals]** zeigen nur Datensätze mit mehr als **100 Vorfällen/Stunde** an. Signale unter diesem Schwellenwert sind in [!UICONTROL Signals Search] enthalten.
 
 ## Obere nicht verwendete Signale {#top-unused-signals}
 
-Dieser Abschnitt zeigt Ihnen die 50 am häufigsten verwendeten (sowohl neuen als auch alten) Signale, die in den letzten 7 Tagen gesendet wurden, basierend auf ihrer Gesamtanzahl. [!DNL Audience Manager] Je nachdem, welche Daten [!DNL Audience Manager] empfangen werden, kann diese Tabelle einige oder alle Einträge in der Tabelle &quot; **Neue nicht verwendete Signale** &quot;enthalten.
+Dieser Abschnitt zeigt Ihnen die 50 am häufigsten verwendeten (sowohl neuen als auch alten) Signale, die in den letzten 7 Tagen an [!DNL Audience Manager] gesendet wurden, basierend auf ihrer Gesamtanzahl. Abhängig von den empfangenen Daten kann diese Tabelle einige oder alle Einträge in der Tabelle [!DNL Audience Manager]Neue nicht verwendete Signale **enthalten.**
 
 ![](assets/signals-top-unused.png)
 
@@ -36,9 +36,9 @@ Dieser Abschnitt zeigt Ihnen die 50 wichtigsten nicht verwendeten Signale, die S
 
 ## Gespeicherte Suchen {#saved-searches}
 
-[!DNL Audience Manager] zeigt alle [gespeicherten Suchvorgänge](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) auf der Seite an [!UICONTROL Dashboard] und lädt sie jedes Mal neu, wenn Sie die [!UICONTROL Dashboard].
+[!DNL Audience Manager] zeigt alle  [gespeicherten ](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) Suchvorgänge auf der Seite an  [!UICONTROL Dashboard] und lädt sie jedes Mal neu, wenn Sie die Datei laden  [!UICONTROL Dashboard].
 
 Gespeicherte Suchen zeigen die 50 besten Ergebnisse für die entsprechenden Kriterien an.
 
-Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie das [!UICONTROL Signals Dashboard]verwenden.
+Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie das [!UICONTROL Signals Dashboard] verwenden.
 >[!VIDEO](https://video.tv.adobe.com/v/25151/)
