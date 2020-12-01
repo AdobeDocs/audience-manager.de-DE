@@ -22,5 +22,5 @@ Dieser Abschnitt enthält technische Dokumentation zu Systemfunktionalität, Dat
 * [Systemkomponenten ](/help/using/reference/system-components/components-overview.md)
 * [Beta-Umgebung](/help/using/reference/beta-environment.md)
 * [Glossar](/help/using/reference/aam-glossary.md)
-* [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
+* [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md)
 * [Signale, Eigenschaften und Segmente](/help/using/reference/signal-trait-segment.md)
