@@ -27,7 +27,7 @@ faq_api.xml
 
 Die Dokumentation zur [REST-API](../api/rest-api-main/rest-api-main.md) enthält Details zu bestimmten Methoden und Code-Beispiele.
 
-<br> 
+<br>
 
 **Warum führt [!UICONTROL DIL] Ereignisaufrufe mit den [!UICONTROL GET]- und [!UICONTROL POST]-Methoden aus?**
 
