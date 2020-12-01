@@ -17,16 +17,16 @@ ht-degree: 17%
 
 # Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort {#get-user-ids-and-regions-from-a-dcs-response}
 
-In diesem Abschnitt wird beschrieben, wie Sie eine [!DNL DCS] Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die für Echtzeitaufrufe an den [!DNL DCS]Benutzer erforderlich sind.
+In diesem Abschnitt wird beschrieben, wie Sie eine [!DNL DCS]-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die für Echtzeitaufrufe von [!DNL DCS] erforderlich sind.
 
 ## Benutzer- und Regions-IDs {#user-region-ids}
 
-Eine [!DNL DCS] Antwort enthält Daten zu Ihren Site-Besuchern. Sie benötigen die Besucher- und Regions-ID, bevor Sie Server-zu-Server-Aufrufe an die [!DNL DCS]Gruppe durchführen können.
+Eine [!DNL DCS]-Antwort enthält Daten zu Ihren Site-Besuchern. Sie benötigen die Besucher- und Regions-ID, bevor Sie Server-zu-Server-Aufrufe an das [!DNL DCS] durchführen können.
 
 * Die Benutzer-ID ist erforderlich, um Daten zu identifizieren und mit einem bestimmten Besucher zu verbinden.
-* Die Regions-ID ist erforderlich, da sie mit einem regionalen Servernamen verknüpft ist, den Sie an die [!DNL DCS]Gruppe senden müssen. Die [!DNL DCS] Daten werden in Rechenzentren gespeichert, die den Site-Besuchern am nächsten liegen. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Die Regions-ID ist erforderlich, da sie an einen regionalen Servernamen gebunden ist, den Sie an das [!DNL DCS] senden müssen. Das [!DNL DCS] speichert Informationen in Rechenzentren, die geografisch am nächsten zu Site-Besuchern liegen. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Diese Parameter werden nachfolgend beschrieben. Code *kursiv* stellt einen variablen Platzhalter dar.
+Diese Parameter werden nachfolgend beschrieben. Code in *kursiv* stellt einen variablen Platzhalter dar.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -52,7 +52,7 @@ Diese Parameter werden nachfolgend beschrieben. Code *kursiv* stellt einen varia
 
 ## Beispielantwort {#sample-response}
 
-Diese einfache Antwort zeigt die `UUID` Region `ID`. Beachten Sie, dass dies nur Musterdaten sind. Ihre Protokolldateien können länger und komplexer sein.
+Diese einfache Antwort zeigt die Variablen `UUID` und Region `ID`. Beachten Sie, dass dies nur Musterdaten sind. Ihre Protokolldateien können länger und komplexer sein.
 
 ```js
 {
@@ -65,4 +65,4 @@ Diese einfache Antwort zeigt die `UUID` Region `ID`. Beachten Sie, dass dies nur
 
 ## Nächste Schritte {#next-steps}
 
-Sobald Sie die Benutzer-ID und den regionalen Servernamen haben, können Sie Beginn zum Senden und Empfangen von [!DNL DCS] Daten haben. Siehe [Durchführen von DCS-API-Aufrufen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Sobald Sie die Benutzer-ID und den regionalen Servernamen haben, können Sie Beginn zum Senden und Empfangen von [!DNL DCS]-Daten verwenden. Siehe [Durchführen von DCS-API-Aufrufen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
