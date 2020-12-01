@@ -24,8 +24,8 @@ Einfache Pixel (die verwendet werden können, um Benutzer für Eigenschaften zu 
 Um eingehende Datenübertragungen zu aktivieren, würden Anbieter und Client:
 
 1. Bestimmen Sie, welche Eigenschaften vom Anbieter oder Partner ausgelöst werden sollen.
-1. Rufen Sie das Pixel für die Eigenschaft ab. Bewegen Sie den Mauszeiger im Bildschirm &quot;Liste der Eigenschaften&quot;über die **[!UICONTROL Actions]** Spalte und klicken Sie auf das **[!UICONTROL Get trait URL]** Symbol für die gewünschte Eigenschaft.
-1. Stellen Sie die [!DNL URL] Informationen dem Anbieter oder Partner zur Verfügung.
+1. Rufen Sie das Pixel für die Eigenschaft ab. Bewegen Sie den Mauszeiger im Bildschirm &quot;Liste der Eigenschaften&quot;über die Spalte **[!UICONTROL Actions]** und klicken Sie auf das **[!UICONTROL Get trait URL]**-Symbol für die gewünschte Eigenschaft.
+1. Stellen Sie [!DNL URL] dem Anbieter oder Partner bereit.
 
 ## Beispiele
 
@@ -35,7 +35,7 @@ Dieser grundlegende Ereignis-Aufruf sendet die Eigenschaften-ID 1234 an [!DNL Au
 https://something.demdex.net/event?d_sid=1234
 ```
 
-Sie können Eigenschaften-IDs in einem Ereignis-Aufruf serialisieren, um den `HTTP` Traffic von der Seite zu reduzieren. Fügen Sie der URL-Zeichenfolge weitere Eigenschaften-IDs hinzu, wie im folgenden Beispiel gezeigt:
+Sie können Eigenschaften-IDs in einem Ereignis-Aufruf serialisieren, um den Datenverkehr von der Seite zu verringern. `HTTP` Fügen Sie der URL-Zeichenfolge weitere Eigenschaften-IDs hinzu, wie im folgenden Beispiel gezeigt:
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432
