@@ -30,7 +30,7 @@ c_unique_user_counts.xml
 Die Überschneidungsberichte zählen Benutzer als eindeutig, wenn sie sich für eine Eigenschaft qualifizieren:
 
 * Im ausgewählten Zeitintervall für den Bericht.
-* Dieser Wert hat einen [Time-to-Live](../features/traits/segment-ttl-explained.md) -Wert, der länger ist als das ausgewählte Zeitintervall für den Bericht.
+* Dieser Wert ist länger als das ausgewählte Zeitintervall für den Bericht.[](../features/traits/segment-ttl-explained.md)
 * Wenn sie in unserem System als aktiv angesehen werden (d.h. für eine andere Eigenschaft qualifiziert, über eine ID-Synchronisierung usw.) innerhalb der letzten 60 Tage.
 
 ## Allgemeiner Bericht: Individuelle Benutzeranzahl
