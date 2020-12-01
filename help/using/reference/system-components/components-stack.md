@@ -25,7 +25,7 @@ c_compstack.xml
 
  -->
 
-Die folgende Abbildung zeigt die Hauptkomponenten und die zugrunde liegende Technologie (Hardware und Software), die mit Strom versorgt wird [!DNL Audience Manager]. Obwohl einige Prozesse bestimmte Funktionen ausführen und andere Funktionen für mehrere Zwecke nutzen, arbeiten alle Systeme zusammen, um Ihnen bei der Verwaltung von Tags, der Datenerfassung, der Leistungsanalyse, der Synchronisierung von Informationen mit anderen Systemen und der Durchführung von Maßnahmen zu diesen Informationen zu helfen.
+Die folgende Abbildung zeigt die Hauptkomponenten und die zugrunde liegende Technologie (Hardware und Software), die mit [!DNL Audience Manager] arbeitet. Obwohl einige Prozesse bestimmte Funktionen ausführen und andere Funktionen für mehrere Zwecke nutzen, arbeiten alle Systeme zusammen, um Ihnen bei der Verwaltung von Tags, der Datenerfassung, der Leistungsanalyse, der Synchronisierung von Informationen mit anderen Systemen und der Durchführung von Maßnahmen zu diesen Informationen zu helfen.
 
 ![](assets/components.png)
 
