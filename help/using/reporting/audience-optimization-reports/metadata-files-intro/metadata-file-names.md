@@ -1,6 +1,6 @@
 ---
-description: Benennen Sie Ihre Metadatendatei für die Optimierung der Audience entsprechend diesen Spezifikationen.
-seo-description: Benennen Sie Ihre Metadatendatei für die Optimierung der Audience entsprechend diesen Spezifikationen.
+description: Benennen Sie die Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
+seo-description: Benennen Sie die Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
 seo-title: Namenskonventionen für Metadatendateien
 solution: Audience Manager
 title: Namenskonventionen für Metadatendateien
@@ -17,24 +17,24 @@ ht-degree: 10%
 
 # Namenskonventionen für Metadatendateien{#naming-conventions-for-metadata-files}
 
-Benennen Sie Ihre Metadatendatei für die Optimierung der Audience entsprechend diesen Spezifikationen.
+Benennen Sie die Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
 
 ## Syntax- und ID-Kategorien {#syntax}
 
-Die folgende Syntax definiert die Struktur eines gut formatierten Metadatendateinamens. Note, *italics* indicates a variable placeholder. Die anderen Elemente sind Konstanten und bleiben unverändert.
+Die folgende Syntax definiert die Struktur eines gut formatierten Metadatendateinamens. Hinweis: *kursiv* gibt einen Variablenplatzhalter an. Die anderen Elemente sind Konstanten und bleiben unverändert.
 
 **Syntax:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*Verwenden Sie keine* Dateierweiterungen in Ihren Metadatendateien (.txt oder andere).
+>*Verwenden Sie* keine Dateierweiterungen in Ihren Metadatendateien (.txt oder andere).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* Die mittlere Komponente **0** ist technisch gesehen die übergeordnete ID, bei der es sich um ein veraltetes Feld handelt. Der Wert sollte immer auf **0** gesetzt werden.
+* Die mittlere Komponente **0** ist technisch die übergeordnete ID, bei der es sich um ein veraltetes Feld handelt. Der Wert sollte immer auf **0** gesetzt werden.
 * Die untergeordnete ID kann je nach Dimension einen Wert zwischen 1 und 10 aufweisen. Das sieht dann so aus:
 
-## Untergeordnete ID-Dimensionen {#child-dimension}
+## Dimensionen der untergeordneten ID {#child-dimension}
 
 Im Metadaten-Dateinamen ist die untergeordnete ID ein Bezeichner, der den Datentyp in einer Datei klassifiziert und in einer Hierarchie ablegt. Sie können die untergeordnete ID im Dateinamen mit den folgenden Kategorien-IDs taggen:
 
