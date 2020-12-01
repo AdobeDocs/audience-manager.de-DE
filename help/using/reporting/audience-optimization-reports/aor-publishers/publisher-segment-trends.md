@@ -25,31 +25,31 @@ Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein bess
 
 ## Anwendungsfall {#use-cases}
 
-Verwenden Sie den [!UICONTROL Segment Trend] Bericht, um die Leistung eines Segments im Zeitverlauf zu validieren und Trends basierend auf leistungsstarker oder skalierbarer Leistung zu bestimmen.
+Verwenden Sie den Bericht [!UICONTROL Segment Trend], um die Leistung eines Segments im Zeitverlauf zu überprüfen und Trends basierend auf einer starken Leistung oder Skalierung zu bestimmen.
 
-Mit diesem Bericht können Sie erkennen, welche Ihrer Webeigenschaften eine Abweichung oder fehlerhafte Erhöhung aufweisen, und bei Bedarf eine Fehlerbehebung durchführen. Dieser Bericht ist der nächste Schritt, nachdem Sie Ihre Audience identifiziert haben, die für den [!UICONTROL Segment Performance] Bericht von Interesse ist, um sicherzustellen, dass die hohe oder schlechte Leistung, die Sie auf der [!UICONTROL Segment Performance] Registerkarte gesehen haben, im Laufe der Zeit konsistent ist.
+Mit diesem Bericht können Sie erkennen, welche Ihrer Webeigenschaften eine Abweichung oder fehlerhafte Erhöhung aufweisen, und bei Bedarf eine Fehlerbehebung durchführen. Dieser Bericht ist der nächste Schritt, nachdem Sie Ihre für den [!UICONTROL Segment Performance]-Bericht interessante Audience identifiziert haben, um sicherzustellen, dass die starke oder schlechte Leistung, die Sie auf der Registerkarte [!UICONTROL Segment Performance] gesehen haben, im Laufe der Zeit konsistent ist.
 
 ## Verwenden des Segmenttrend-Berichts {#using-the-report}
 
-Wechsel zwischen Segmenten **[!UICONTROL Mapped]** und **[!UICONTROL Unmapped]** zur Auswahl, die einem Ziel zugeordnet sind oder nicht. Wählen Sie **[!UICONTROL All]** diese Option, um alle Segmente in den Bericht einzubeziehen.
+Wechsel zwischen **[!UICONTROL Mapped]** und **[!UICONTROL Unmapped]**, um Segmente auszuwählen, die einem Ziel zugeordnet sind oder nicht. Wählen Sie **[!UICONTROL All]** aus, um alle Segmente in den Bericht einzubeziehen.
 
-Passen Sie das Lookback-Fenster mit dem **[!UICONTROL Date Through]** Schieberegler an.
+Passen Sie das Lookback-Fenster mit dem Schieberegler **[!UICONTROL Date Through]** an.
 
-Klicken Sie auf eines der Segmente unter dem **[!UICONTROL Date Through]** Schieberegler, um die Option aufzurufen, um nur dieses Segment im Bericht zu belassen oder auszuschließen.
+Klicken Sie auf eines der Segmente unter dem Schieberegler **[!UICONTROL Date Through]**, um die Option aufzurufen, um nur dieses Segment im Bericht zu belassen oder auszuschließen.
 
-Verwenden Sie das **[!UICONTROL Line Item]** Dropdownfeld, um die Eigenschaften in Ihrem Portfolio auszuwählen, für die Sie Informationen zurückgeben möchten.
+Verwenden Sie das Dropdownfeld **[!UICONTROL Line Item]**, um die Eigenschaften in Ihrem Portfolio auszuwählen, für die Sie Informationen zurückgeben möchten.
 
-Wählen Sie im **[!UICONTROL Segment Data Source]** Dropdown-Feld die Datenquellen mit den Segmenten aus, die Sie im Bericht sehen möchten.
+Wählen Sie im Dropdownfeld **[!UICONTROL Segment Data Source]** die Datenquellen mit den Segmenten aus, die Sie im Bericht sehen möchten.
 
-Verwenden Sie das **[!UICONTROL Segment]** Dropdownfeld, um auszuwählen, welche Segmente Sie im Bericht sehen möchten.
+Verwenden Sie das Dropdownfeld **[!UICONTROL Segment]**, um auszuwählen, welche Segmente Sie im Bericht sehen möchten.
 
 >[!IMPORTANT]
 >
->Bei der Aktivierung [!UICONTROL Audience Optimization for Publishers]müssen Sie beschreibende Metadaten für [!UICONTROL Line Item] IDs einschließen, wie in Schritt 3 von &quot;Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)importieren&quot;beschrieben. Auf diese Weise stellen Sie sicher, dass die Webeigenschaft im Bericht [!UICONTROL Line Item] anstelle der [!UICONTROL Line Item] ID detailliert beschrieben wird.
+>Beim Aktivieren von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Line Item]-IDs einschließen, wie in Schritt 3 von [Google Ad Manager-(ehemals DFP-)Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrieben. Auf diese Weise stellen Sie sicher, dass die Webeigenschaft im Bericht anstelle der [!UICONTROL Line Item]-ID als [!UICONTROL Line Item] gekennzeichnet wird.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
-Der [!UICONTROL Segment Trend] Bericht gibt Daten in einem Liniendiagramm nur für einen Zeitraum von 14 Tagen zurück. In diesem Beispiel zeigt der Bericht Impressions- und Clickthrough-Trends für eine Reihe von zugeordneten und nicht zugeordneten Segmenten an.
+Der Bericht [!UICONTROL Segment Trend] gibt nur Daten in einem Liniendiagramm für einen Zeitraum von 14 Tagen zurück. In diesem Beispiel zeigt der Bericht Impressions- und Clickthrough-Trends für eine Reihe von zugeordneten und nicht zugeordneten Segmenten an.
 
 Bewegen Sie den Mauszeiger über eine Zeile, um weitere Informationen zu diesem bestimmten Segmenttrend zu erhalten. Siehe Beschreibungen der zusätzlichen Informationen in der Tabelle unter dem Beispielbericht.
 
