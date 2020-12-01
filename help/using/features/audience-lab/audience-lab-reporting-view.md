@@ -20,9 +20,9 @@ ht-degree: 2%
 
 Der Abschnitt zum Berichte der Testgruppe gibt Informationen zu Testgruppenkonversionen zurück, was einen einfachen Vergleich der Wirksamkeit des Testsegments ermöglicht. Zur Datenvisualisierung stehen zahlreiche Filter und Dimensionen zur Verfügung.
 
-[!UICONTROL Audience Lab] gibt detaillierte Berichte-Informationen für die von Ihnen erstellten Testsegmente zurück und ermöglicht Ihnen, die Berichte-Daten als [!DNL CSV] Dateien zu speichern. Sie können zwischen **[!UICONTROL Aggregate Reporting]** und **[!UICONTROL Trend Reporting]** wählen.
+[!UICONTROL Audience Lab] gibt detaillierte Berichte-Informationen für die von Ihnen erstellten Testsegmente zurück und ermöglicht Ihnen, die Berichte-Daten als  [!DNL CSV] Dateien zu speichern. Sie können zwischen **[!UICONTROL Aggregate Reporting]** und **[!UICONTROL Trend Reporting]** wählen.
 
-**[!UICONTROL Aggregate Reporting]** gibt die absoluten Zahlen für Ihre Testsegmente zurück. **[!UICONTROL Trend Reporting]** gibt ein Diagramm des Trends *über einen bestimmten Zeitraum* zurück. Mit vier Registerkarten können Sie die Berichte anpassen:
+**[!UICONTROL Aggregate Reporting]** gibt die absoluten Zahlen für Ihre Testsegmente zurück. **[!UICONTROL Trend Reporting]** gibt ein Diagramm des Trends  *über einen bestimmten Zeitraum* zurück. Mit vier Registerkarten können Sie die Berichte anpassen:
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -38,7 +38,7 @@ Der Abschnitt zum Berichte der Testgruppe gibt Informationen zu Testgruppenkonve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Konverter</span></b> </p> </td> 
-   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die die in den Testgruppen ausgewählten Konvertierungseigenschaften gezeigt haben. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> Sehen Sie sich dieses Video</a> an, um zu erfahren, wie Sie Konversionseigenschaften erstellen. </p> </td> 
+   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die die in den Testgruppen ausgewählten Konvertierungseigenschaften gezeigt haben. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> Sehen Sie sich dieses </a> Video an, um zu erfahren, wie Sie Konversionseigenschaften erstellen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gesamtumrechnungen</span></b> </p> </td> 
@@ -46,12 +46,12 @@ Der Abschnitt zum Berichte der Testgruppe gibt Informationen zu Testgruppenkonve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Segmentpopulationen testen</span></b> </p> </td> 
-   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die zu den Testsegmenten gehören. Wechsel zwischen <b><span class="uicontrol"> Gesamtbevölkerung</span></b> oder <b><span class="uicontrol"> Echtzeit-Bevölkerung</span></b>. Der Unterschied wird in den <a href="../../faq/faq-reporting.md"> Berichte FAQ</a> erklärt. </p> </td>
+   <td colname="col2"> <p>Gibt die Anzahl der Geräte zurück, die zu den Testsegmenten gehören. Wechsel zwischen <b><span class="uicontrol"> Gesamtpopulation</span></b> oder <b><span class="uicontrol"> Echtzeitpopulation</span></b>. Der Unterschied wird in den <a href="../../faq/faq-reporting.md"> Berichte FAQ</a> erklärt. </p> </td>
   </tr>
  </tbody>
 </table>
 
-Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Bericht generiert werden soll, oder Sie können alle kombinierten Eigenschaften auswählen. Sie können einen Datumsbereich definieren, für den die Informationen zurückgegeben werden sollen, und den Bericht als [!DNL CSV] Datei exportieren.
+Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Bericht generiert werden soll, oder Sie können alle kombinierten Eigenschaften auswählen. Sie können einen Datumsbereich definieren, für den die Informationen zurückgegeben werden sollen, und den Bericht als [!DNL CSV]-Datei exportieren.
 
 >[!NOTE]
 >
@@ -59,10 +59,10 @@ Sie können eine bestimmte Konversionseigenschaft auswählen, für die der Beric
 >* Eine Konversion wird für ein Beginn erst nach dem Testdatum und nach dem Hinzufügen des Geräts zu einem Testsegment gezählt. Wenn für dieses Gerät eine Konversion erfolgt, bevor eine Testgruppe zugewiesen wird, wird die Konversion nicht gezählt.
 
 
-Ein zurückgegebenes **[!UICONTROL Aggregate Reporting]** Diagramm könnte wie folgt aussehen:
+Ein zurückgegebenes **[!UICONTROL Aggregate Reporting]**-Diagramm könnte wie folgt aussehen:
 
 ![](assets/aggregate-reporting.PNG)
 
-Ein zurückgegebenes **[!UICONTROL Trend Reporting]** Diagramm könnte wie das unten stehende aussehen. Aktivieren Sie **[!UICONTROL Normalized]** das Kontrollkästchen, wenn Sie die absoluten Zahlen ignorieren und sich einfach auf die Trends der Testsegmente konzentrieren möchten.
+Ein zurückgegebenes **[!UICONTROL Trend Reporting]**-Diagramm könnte wie das unten dargestellte aussehen. Wählen Sie **[!UICONTROL Normalized]** im Kontrollkästchen aus, wenn Sie die absoluten Zahlen ignorieren und sich einfach auf die Trends der Testsegmente konzentrieren möchten.
 
 ![](assets/trend-reporting.PNG)
