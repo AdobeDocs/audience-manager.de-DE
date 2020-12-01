@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Ziele-Homepage {#destinations-home}
 
-Die [!UICONTROL Destination] Landingpage Liste alle Ihre [!DNL URL]-, Cookie- und Server-zu-Server-Ziele. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte zu Zielen erstellen können. Die Landingpage liegt in **[!UICONTROL Audience Data > Destinations]**.
+Die [!UICONTROL Destination]-Landingpage Liste alle [!DNL URL]-, Cookie- und Server-zu-Server-Ziele. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte zu Zielen erstellen können. Die Landingpage befindet sich in **[!UICONTROL Audience Data > Destinations]**.
 
 ## Standardmäßige Landingpage {#default-landing-page}
 
@@ -26,17 +26,17 @@ Die [!UICONTROL Destination] Landingpage Liste alle Ihre [!DNL URL]-, Cookie- un
 Die Standardeinstellung für die Landingpage Liste Ihre Ziele je nach Typ. Sie können die Ziele mithilfe der vier verfügbaren Registerkarten filtern:
 
 * **Alle**: zeigt alle Zieltypen an.
-* **Adobe Experience Cloud**: zeigt Ziele, die Daten an andere Adobe Experience Cloud-Lösungen senden. Derzeit wird nur Adobe Analytics unterstützt. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
+* **Adobe Experience Cloud**: zeigt Ziele an, die Daten an andere Adobe Experience Cloud-Lösungen senden. Derzeit wird nur Adobe Analytics unterstützt. Siehe [Analytics-Ziel konfigurieren](/help/using/features/destinations/create-analytics-destination.md).
 * **Integrierte Plattformen**: zeigt benutzerbasierte und gerätebasierte Ziele (auch als Server-zu-Server-Ziele bezeichnet).
 * **Benutzerdefiniert**: zeigt Cookie- und URL-Ziele an.
 
 
 ![](assets/destinations-landing.png)
 
-## Landingpage adressierbarer Audiencen {#audiences-landing-page}
+## Landingpage für adressierbare Audiencen {#audiences-landing-page}
 
 Um die Audiencen und Übereinstimmungsraten für Ihr Server-zu-Server-Ziel anzuzeigen, wählen Sie **[!UICONTROL Integrated Platforms > Device-Based]**.
 
-Weitere Informationen zu den angezeigten Informationen finden Sie unter Benutzeroberfläche für [ansprechbare Audiencen](/help/using/features/addressable-audiences.md#addressable-audience-interface).
+Weitere Informationen zu den angezeigten Informationen finden Sie unter [Benutzeroberfläche für adressierbare Audiencen](/help/using/features/addressable-audiences.md#addressable-audience-interface).
 
 ![](/help/using/features/assets/addressable-audiences-landing.png)
