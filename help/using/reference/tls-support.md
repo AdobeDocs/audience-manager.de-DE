@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das dazu dient, einen sicheren Kanal für die Kommunikation zwischen zwei Systemen zu schaffen. Es wird zur Authentifizierung eines oder beider Systeme und zum Schutz der Vertraulichkeit und Integrität von Informationen verwendet, die zwischen Systemen weitergegeben werden. Im Mai 2018 wurden drei Versionen des TLS-Protokolls verwendet: TLS 1.0, 1.1 und 1.2.
 
-Im März 2019 [!DNL Adobe] hat die Unterstützung für das [!DNL TLS 1.0] Protokoll eingestellt. Die Adobe Audience Manager-Funktionalität funktioniert nicht für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.0]unterstützt werden.
+Im März 2019 hat [!DNL Adobe] die Unterstützung für das [!DNL TLS 1.0]-Protokoll beendet. Die Adobe Audience Manager-Funktionalität funktioniert nicht für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.0] unterstützen.
 
-Im März 2020 [!DNL Adobe] wird die Unterstützung für das [!DNL TLS 1.1] Protokoll eingestellt. Die Adobe Audience Manager-Funktionalität funktioniert nicht mehr für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.1]unterstützt werden.
+Im März 2020 beendet [!DNL Adobe] die Unterstützung für das [!DNL TLS 1.1]-Protokoll. Die Adobe Audience Manager-Funktionalität funktioniert nicht mehr für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.1] unterstützen.
 
-Adobe empfiehlt dringend die Verwendung [!DNL TLS 1.2]der neuesten Protokollversion, die zum Zeitpunkt des Schreibens vorliegt. Alle modernen Browser verwenden [!DNL TLS 1.2]. Wir haben für Sie eine Liste von Browsern, Versionen und deren [!DNL TLS] Unterstützung gesammelt. Weitere Informationen zur Unterstützung des TLS-Browsers finden Sie unter [den Link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)Transport Layer Security Wikipedia.
+Adobe empfiehlt dringend die Verwendung von [!DNL TLS 1.2], was zum Zeitpunkt des Schreibens die neueste Version des Protokolls ist. Alle modernen Browser verwenden [!DNL TLS 1.2]. Wir haben für Sie eine Liste von Browsern, Versionen und deren [!DNL TLS] Unterstützung gesammelt. Weitere Informationen zur Unterstützung des TLS-Browsers finden Sie unter [The Transport Layer Security Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 
