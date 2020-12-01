@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Code, der für [!DNL DART Enterprise] (und andere Zieltypen) erforderlich ist, um den Audience Manager-ID-Wert ([!DNL UUID]) zu erfassen.
 
-Definieren Sie diese Funktion oben auf der Seite, idealerweise innerhalb des `<head>` Codeblocks.
+Definieren Sie diese Funktion oben auf der Seite, idealerweise innerhalb des `<head>`-Codeblocks.
 
 <!-- r_aam_de_cookie.xml -->
 
