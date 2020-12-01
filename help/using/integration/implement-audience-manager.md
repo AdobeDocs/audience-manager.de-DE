@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Implementieren von Audience Manager {#implementing-audience-manager}
 
-In diesem Abschnitt werden die Vorgänge für die ersten Schritte mit der Audience Manager Data Management-Plattform ([!DNL DMP]) erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologieverwaltern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Die ersten Schritte mit Audience Manager können je nach Bedarf Ihrer Datenerfassung etwa sechs bis drei Monate dauern.
+In diesem Abschnitt werden die Vorgänge für die ersten Schritte mit dem Audience Manager Data Management ([!DNL DMP]) erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologieverwaltern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Die ersten Schritte mit Audience Manager können je nach Bedarf Ihrer Datenerfassung etwa sechs bis drei Monate dauern.
 
 Unsere Implementierungstechniken helfen bei der Schaffung einer beratenden Partnerschaft mit neuen Kunden. Dieser Prozess dient folgenden Zwecken:
 
@@ -56,7 +56,7 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
      <li id="li_A1B5F443E5864C4CB7A789D6E0B87DF0">Einführung von Projektleitungen </li> 
      <li id="li_7F5C0A277FE346A5BA3BA20B21389076">Rollen und Zuständigkeiten definieren </li> 
      <li id="li_991D2F069B88456CB3942970F4EF0FAF">Festlegung von Zielen und Meilensteinen, die an Versand-Daten gebunden sind </li> 
-     <li id="li_4A2CDE7F006A45BDB04585CACF5688CA">Pläne für die Arbeit vor Ort bestätigen </li> 
+     <li id="li_4A2CDE7F006A45BDB04585CACF5688CA">Pläne für Vor-Ort-Arbeit bestätigen </li> 
      <li id="li_A1BF7C2A34C54387BC945077905C9D04">Einrichten von Mitteilungen zu Fragen und Statusaktualisierungen </li> 
     </ul> </td> 
    <td colname="col3"> Geschäftliche und technische Teams </td> 
@@ -81,7 +81,7 @@ Die Ergebnisse für diese Phase können Folgendes umfassen:
 * Plan zur Planung der Treffen und Aufforderungen zum Projekt;
 * Ein Prozess zum Freigeben von Ressourcen und zum Zugriff.
 
-## Discovery-Phase {#discovery-phase}
+## Erkennungsphase {#discovery-phase}
 
 Die Entdeckungsphase ist der Erfassung von Anforderungen, der Durchführung von Forschungsarbeiten und dem Bemühen um ein tieferes Verständnis Ihrer geschäftlichen Bedürfnisse und Strategien zur Datenerfassung gewidmet.
 
@@ -118,7 +118,7 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Ziele suchen </td> 
-   <td colname="col2"> Erkennen, ob der Client Daten an andere Anzeigen-Server, DSPs, Netzwerke oder Austausche sendet </td> 
+   <td colname="col2"> Erkennen, ob der Client Daten an andere Anzeigen-Server, DSP, Netzwerke oder Austausche sendet </td> 
    <td colname="col3"> Geschäftliche Teams </td> 
   </tr> 
   <tr valign="top"> 
@@ -137,7 +137,7 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
 Die Ergebnisse für diese Phase können Folgendes umfassen:
 
 * eine abgeschlossene Strategie zur Erstanbieter-, Zweitanbieter- und Drittanbieter-Datenerfassung;
-* ein abgeschlossener [!DNL CRM] oder data warehouse-Aufnahmeplan;
+* Ein abgeschlossener [!DNL CRM]- oder Data Warehouse-Erfassungsplan;
 * Definierte Anforderungen an die Audience-Segmentierung;
 * eine abgeschlossene Datentaxonomie;
 * Ein entwickelter Drittanbieter-Datenintegrationsplan.
@@ -148,13 +148,13 @@ Während der Build-, Test- und Zugphase werden Sie die Datenerfassungsstrategie 
 
 <!-- c_build_test_train.xml -->
 
-Ihre Datenerfassungsstrategie wird einem End-to-End- [!DNL QA] Test unterzogen. Partner Solutions verfolgt entdeckte Fehler und koordiniert Problemlösungen mit unseren Systemingenieuren. Kundenschulungen können parallel zu diesen anderen Bemühungen Beginn haben.
+Ihre Datenerfassungsstrategie wird einem End-to-End-Test unterzogen. [!DNL QA] Partner Solutions verfolgt entdeckte Fehler und koordiniert Problemlösungen mit unseren Systemingenieuren. Kundenschulungen können parallel zu diesen anderen Bemühungen Beginn haben.
 
 In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die während dieser Phase stattfinden:
 
 | Aktivität | Zweck/Beschreibung | Teilnehmer |
 |---|---|---|
-| Vorbereiten einer Datenerfassungsstrategie | Arbeiten Sie mit technischen Adobe-Teams zusammen, um einen Datenerfassungsplan zu erstellen, der Ihren Geschäftsanforderungen entspricht | Geschäftliche und technische Teams |
+| Vorbereiten einer Datenerfassungsstrategie | Arbeiten Sie mit technischen Adoben zusammen, um einen Datenerfassungsplan zu erstellen, der Ihren Geschäftsanforderungen entspricht | Geschäftliche und technische Teams |
 | Bereitstellen und Testen von Code | Testen Sie die vorgeschlagene Lösung in einer Staging-Umgebung und führen Sie browserübergreifende Tests durch | Technische Teams |
 | Funktionalität überprüfen und Fehler beheben | Ergebnisse untersuchen und kommunizieren, Fehler beheben und erneut testen | Technische Teams |
 | Benutzerschulung | Schulungen und Verstehen der Funktionen, Tools und Berichte von Audience Managern | Geschäftliche Teams |
@@ -162,13 +162,13 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
 Die Ergebnisse für diese Phase können Folgendes umfassen:
 
 * einen abgeschlossenen und akzeptierten Datenerhebungsplan;
-* End-to-End- [!DNL QA] Tests;
+* End-to-End [!DNL QA]-Tests;
 * Grundlegende Anweisungen zu den Funktionen der Benutzeroberfläche des Audience Managers;
 * Annahme und Abmeldung.
 
 ## Phase starten, unterstützen und optimieren {#launch-support-optimize-phase}
 
-Während der Start-, Support- und Optimierungsphase wird Ihre Datenerfassungs- und Prototypimplementierung von einer Entwicklungs- zu einer Live-Produktions-Umgebung. Wir werden weiterhin Schulungen zur Produktvertrautheit und zu Strategien durchführen, die Ihnen durch datengesteuerte Optimierung helfen können, [!DNL ROI] Ihre Ergebnisse zu steigern.
+Während der Start-, Support- und Optimierungsphase wird Ihre Datenerfassungs- und Prototypimplementierung von einer Entwicklungs- zu einer Live-Produktions-Umgebung. Wir werden weiterhin Schulungen zur Produktvertrautheit und zu Strategien durchführen, die Ihnen helfen können, Ihre [!DNL ROI] durch datengesteuerte Optimierung zu erhöhen.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -216,22 +216,22 @@ Aufgaben für diese Phase können Folgendes umfassen:
 * Generieren und Interpretieren von Berichtsdaten;
 * Erläuterungen zu benutzerspezifischen Berichten;
 * Produktunterstützung
-* Antworten auf Funktionsanfragen, Fehler und Benutzerrückmeldungen oder Ausfragen von Funktionen;
+* Reagieren auf Funktionsanforderungen, Fehler und Benutzerfeedback oder Anfordern von deren Feedback;
 * Vertieftes Verstehen mit Audience Manager-Funktionen und Berichten.
 
 ## Code-Implementierung {#code-implementation}
 
-Der Bereitstellungsprozess mag zwar komplex erscheinen, die Implementierung des Codes ist jedoch so einfach, wie einige Zeilen [!DNL JavaScript] neben dem schließenden `</body>` Tag Ihrer Website hinzuzufügen.
+Obwohl der Bereitstellungsprozess komplex erscheinen mag, ist die Implementierung des Codes so einfach, wie zum Beispiel [!DNL JavaScript] neben dem schließenden `</body>`-Tag Ihrer Website ein paar Zeilen hinzuzufügen.
 
 <!-- c_code.xml -->
 
 ### Bereitstellung
 
-Das Audience Manager-Codefragment ruft [!DNL Akamai] zum Herunterladen der zuvor in der Benutzeroberfläche eingerichteten Geschäftsregeln auf. Darüber hinaus werden diese Informationen von Clientbrowsern zwischengespeichert, was die Seiten- und Serverladezeit verkürzt. Unsere Code- und Datenerfassungsmethode ist so konzipiert, dass die Benutzererfahrung über Ihren Bestand hinweg aufrechterhalten wird.
+Das Codefragment für Audience Manager ruft [!DNL Akamai] auf, um die zuvor in der Benutzeroberfläche eingerichteten Geschäftsregeln herunterzuladen. Darüber hinaus werden diese Informationen von Clientbrowsern zwischengespeichert, was die Seiten- und Serverladezeit verkürzt. Unsere Code- und Datenerfassungsmethode ist so konzipiert, dass die Benutzererfahrung über Ihren Bestand hinweg aufrechterhalten wird.
 
 ### Teilnehmer
 
-Partnerlösungen können direkt mit Ihren technischen Teams zusammenarbeiten, um bei der Implementierung von Code behilflich zu sein, endgültige Bedenken auszuräumen und andere Anforderungen zu erfüllen.
+Partner-Lösungen können direkt mit Ihren technischen Teams zusammenarbeiten, um bei der Implementierung von Code behilflich zu sein, endgültige Probleme zu beheben und andere Anforderungen zu erfüllen.
 
 ## Unterstützung nach der Implementierung {#post-implementation-support}
 
