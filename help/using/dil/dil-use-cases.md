@@ -25,7 +25,7 @@ c_dil_use_case.xml
 
  -->
 
-## Datenelemente an Audience Manager mit DIL senden {#send-data-elements-dil}
+## Datenelemente mit DIL {#send-data-elements-dil} an Audience Manager senden
 
 Erstellen Sie eine Objektvariable, die Informationen zu Seitenelementen an Audience Manager sendet. Dies ist nützlich für die allgemeine Datenerfassung oder als Alternative zur Datenerfassung mit Analytics-Variablen.
 
@@ -37,11 +37,11 @@ c_dil_send_page_objects.xml
 
 **Beschreibung**
 
-Der folgende Code zeigt, wie Sie Seitendaten erfassen und an den Audience Manager senden können [!UICONTROL DIL]. Diese Beispiele verwenden eine Variable, um Datenelemente in einer flachen Liste oder in einem Array zu speichern. Denken Sie daran, Variablen als [Schlüssel-Wert-Paare](../reference/key-value-pairs-explained.md)zu übergeben. Beachten Sie auch das `c_` Präfix vor dem Schlüssel im Schlüssel-Wert-Paar. Dieses [erforderliche Präfix](../features/traits/trait-variable-prefixes.md) identifiziert Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie manuell `c_` an den Schlüssel anhängen. Im zweiten Beispiel [!UICONTROL DIL] wird dies automatisch für Sie ausgeführt.
+Der folgende Code zeigt, wie Sie Seitendaten erfassen und mit [!UICONTROL DIL] an Audience Manager senden. Diese Beispiele verwenden eine Variable, um Datenelemente in einer flachen Liste oder in einem Array zu speichern. Denken Sie daran, Variablen als [Schlüssel-Wert-Paare](../reference/key-value-pairs-explained.md) zu übergeben. Beachten Sie auch das Präfix `c_` vor dem Schlüssel im Schlüssel-Wert-Paar. Dieses [erforderliche Präfix](../features/traits/trait-variable-prefixes.md) identifiziert Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie `c_` manuell an den Schlüssel anhängen. Im zweiten Beispiel führt [!UICONTROL DIL] dies automatisch für Sie aus.
 
 **Konstante Werteigenschaften beibehalten**
 
-Denken Sie daran, die Werteigenschaften beim Übergeben von Daten gleich zu halten. Wenn Sie beispielsweise zwei identische Schlüssel mit unterschiedlichen Werten haben, hat der Wert des letzten Schlüssel-Wert-Paars Vorrang vor den vorhergehenden Wertobjekten. Wenn Sie beispielsweise den zurückgegebenen Wert übergeben `color:blue` und `color:red` ihn auf rot einstellen (überschreibt Blau).
+Denken Sie daran, die Werteigenschaften beim Übergeben von Daten gleich zu halten. Wenn Sie beispielsweise zwei identische Schlüssel mit unterschiedlichen Werten haben, hat der Wert des letzten Schlüssel-Wert-Paars Vorrang vor den vorhergehenden Wertobjekten. Wenn Sie beispielsweise `color:blue` und `color:red` übergeben, wird der zurückgegebene Wert auf rot gesetzt (überschreibt Blau).
 
 **Beispiel 1: Daten als Schlüssel-Wert-Paare senden**
 
@@ -58,7 +58,7 @@ sample_dil.api.submit();
 
 **Beispiel 2: Daten in einem Objekt senden**
 
-Dieses erweiterte Beispiel zeigt, wie Daten in einem Objekt an Audience Manager gesendet werden. Beim Arbeiten mit dieser Methode [!UICONTROL DIL] können Sie ein Objekt als Funktionsparameter an die [!DNL signals()] Methode übergeben. [!UICONTROL DIL] Ihr Code könnte wie folgt aussehen:
+Dieses erweiterte Beispiel zeigt, wie Daten in einem Objekt an Audience Manager gesendet werden. Wenn Sie mit dieser Methode arbeiten, können Sie mit [!UICONTROL DIL] ein Objekt als Funktionsparameter an die [!DNL signals()]-Methode übergeben. [!UICONTROL DIL] Ihr Code könnte wie folgt aussehen:
 
 <pre class="java"><code>
 var my_object = { 
@@ -73,7 +73,7 @@ sample_dil.api.signals(my_object,"c_").submit();
 
 **Beispiel 3: Senden von Seitendaten in einem Array**
 
-In diesem Fall `my_object` verwendet die Variable ein Array, um Daten zu speichern. Dieses Beispiel baut auf den Informationen auf, die von der oben empfohlenen Methode weitergegeben wurden, fügt jedoch eine zusätzliche Ebene hinzu, um einen Produkttyp und ein Modell aufzunehmen. Ihr Code könnte wie folgt aussehen:
+In diesem Fall verwendet die Variable `my_object` ein Array, um Daten zu speichern. Dieses Beispiel baut auf den Informationen auf, die von der oben empfohlenen Methode weitergegeben wurden, fügt jedoch eine zusätzliche Ebene hinzu, um einen Produkttyp und ein Modell aufzunehmen. Ihr Code könnte wie folgt aussehen:
 
 <pre class="java"><code>
 var my_objects = [{ 
@@ -106,7 +106,7 @@ c_dil_hrefer_over_https.xml
 
 >[!NOTE]
 >
->Diese Methode funktioniert nur, wenn Benutzer zwischen Seiten mit ähnlichen Protokollen (HTTP oder HTTPS) wechseln. Beispielsweise behält der Browser eine verweisende URL bei, wenn Sie von einer sicheren Site zu einer anderen sicheren Site navigieren. Browser behalten die verweisende URL nicht bei, wenn Sie zwischen sicheren und unsicheren Sites wechseln. Dieses Verhalten ist eine normale Browserfunktionalität und kann nicht umgangen werden [!UICONTROL DIL].
+>Diese Methode funktioniert nur, wenn Benutzer zwischen Seiten mit ähnlichen Protokollen (HTTP oder HTTPS) wechseln. Beispielsweise behält der Browser eine verweisende URL bei, wenn Sie von einer sicheren Site zu einer anderen sicheren Site navigieren. Browser behalten die verweisende URL nicht bei, wenn Sie zwischen sicheren und unsicheren Sites wechseln. Dieses Verhalten ist eine normale Browserfunktionalität und kann nicht durch [!UICONTROL DIL] umgangen werden.
 
 **Code-Beispiel**
 
@@ -127,7 +127,7 @@ Senden Sie Informationen über Suchmaschinentypen und Suchbegriffe an Audience M
 
 **Unterstützte Suchmaschinen**
 
-Standardmäßig werden Suchvorgänge aus diesen Suchmaschinen (einschließlich internationaler Variationen) `DIL.getSearchReferrer` erkannt:
+Standardmäßig erkennt `DIL.getSearchReferrer` Suchen aus diesen Suchmaschinen (einschließlich internationaler Variationen):
 
 * [!DNL AOL]
 * [!DNL Ask]
@@ -137,11 +137,11 @@ Standardmäßig werden Suchvorgänge aus diesen Suchmaschinen (einschließlich i
 
 **Beschreibung**
 
-Der folgende Code zeigt, wie Sie den Werber für die Suche nach einer der unterstützten Suchmaschinen abrufen. In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;Zuhause&quot;aus [!DNL Google] Kanada gesucht hat ( `www.google.ca`). Dieser Code hilft Ihnen, diese Suchbegriffe zu erfassen und an den Audience Manager zu senden.
+Der folgende Code zeigt, wie Sie den Werber für die Suche nach einer der unterstützten Suchmaschinen abrufen. In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;home&quot;aus [!DNL Google] Kanada ( `www.google.ca`) gesucht hat. Dieser Code hilft Ihnen, diese Suchbegriffe zu erfassen und an den Audience Manager zu senden.
 
 **Einfacher Code**
 
-Der Basiscode zum Abrufen des Werbers für die Suche (z. B. von `google.com`hier) sieht wie folgt aus:
+Der Basiscode zum Abrufen des Werbers für die Suche (z. B. von `google.com`) sieht wie folgt aus:
 
 ```java
 var search_referrer = DIL.tools.getSearchReferrer();
@@ -149,7 +149,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Beispiel für aufgelisteten Suchmaschinencode**
 
-In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;Zuhause&quot;aus [!DNL Google] Kanada gesucht hat ( `www.google.ca`). Beachten Sie, wie der Code den erforderlichen `c_` Parameter für Suchmaschinen ( `c_se`) und Suchbegriffe ( `c_st`) präfixiert. `c_` ist ein [erforderliches Präfix](../features/traits/trait-variable-prefixes.md) , das diese als kundendefinierte Variablen für Audience Manager identifiziert.
+In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;home&quot;aus [!DNL Google] Kanada ( `www.google.ca`) gesucht hat. Beachten Sie, wie der Code den erforderlichen Parameter `c_` für die Suchmaschine ( `c_se`) und den Suchbegriff ( `c_st`) präfixiert. `c_` ist ein  [erforderliches ](../features/traits/trait-variable-prefixes.md) Präfix, das diese als kundendefinierte Variablen für Audience Manager identifiziert.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -165,7 +165,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Beispiel für nicht aufgelisteten Suchmaschinencode**
 
-In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;Zuhause&quot;gesucht hat `dogpile.com`. Da [!DNL Dogpile] die Standardeinstellung nicht unterstützt wird, können Sie DIL so konfigurieren, dass diese Suchmaschine erkannt und die Suchbegriffe an Audience Manager zurückgegeben werden. Ihr Code könnte wie folgt aussehen:
+In diesem Fall nehmen wir an, dass ein Benutzer nach dem Begriff &quot;home&quot;von `dogpile.com` gesucht hat. Da [!DNL Dogpile] nicht standardmäßig unterstützt wird, können Sie DIL so konfigurieren, dass diese Suchmaschine erkannt wird und die Suchbegriffe an Audience Manager zurückgegeben werden. Ihr Code könnte wie folgt aussehen:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -194,9 +194,9 @@ c_dil_map_keys.xml
 
 **Beschreibung**
 
-In einem Schlüssel-Wert-Paar identifiziert das `c_` Präfix, das an den Schlüssel angehängt wird, das Signal als benutzerdefinierte Daten. Kundendefinierte Daten werden für das Targeting auf der jeweiligen Site verwendet, die Daten bei einem Ereignis-Aufruf weitergegeben hat. Manchmal möchten Sie jedoch, dass diese Informationen für alle Eigenschaften in Ihrem Audience Manager-Konto verfügbar sind. Zuordnen des Werts in einem Schlüssel-Wert-Paar zu einem Schlüssel auf Plattformebene zu diesem Zweck. `c_` Dem Schlüssel auf Plattformebene wird ein Präfix vorangestellt `d_` und das Signal für das Targeting für alle Eigenschaften in Ihrem Konto bereitgestellt.
+In einem Schlüssel-Wert-Paar identifiziert das `c_`-Präfix, das an den Schlüssel angehängt wird, das Signal als benutzerdefinierte Daten. Kundendefinierte Daten werden für das Targeting auf der jeweiligen Site verwendet, die Daten bei einem Ereignis-Aufruf weitergegeben hat. Manchmal möchten Sie jedoch, dass diese Informationen für alle Eigenschaften in Ihrem Audience Manager-Konto verfügbar sind. Zuordnen des Werts in einem Schlüssel-Wert-Paar `c_` zu einem Schlüssel auf Plattformebene. Dem Schlüssel auf Plattformebene wird `d_` vorangestellt und das Signal für das Targeting für alle Eigenschaften in Ihrem Konto zur Verfügung gestellt.
 
-Sie erfassen z. B. ZIP-Code-Daten von einer bestimmten Site, möchten diese aber auf alle Audience Manager-Eigenschaften Zielgruppe haben. Um die Postleitzahl auf Plattformebene verfügbar zu machen, können Sie Ihren kundendefinierten ZIP-Code-Schlüssel (z.B. `c_zip`) zu einem Plattform definierten Schlüssel wie unten dargestellt.
+Sie erfassen z. B. ZIP-Code-Daten von einer bestimmten Site, möchten diese aber auf alle Audience Manager-Eigenschaften Zielgruppe haben. Um die Postleitzahl auf Plattformebene verfügbar zu machen, können Sie Ihren kundendefinierten ZIP-Code-Schlüssel (z.B. `c_zip`) auf eine Plattform definierten Schlüssel wie unten gezeigt.
 
 **Code-Beispiel**
 
@@ -224,17 +224,17 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Bei diesem Verfahren wird davon ausgegangen, dass Sie über ein [!DNL Google Tag Manager] Konto, einige Kenntnisse zu diesem Produkt und Ihre Audience Manager- `dil.js` Datei verfügen.
+Bei diesem Verfahren wird davon ausgegangen, dass Sie über ein [!DNL Google Tag Manager]-Konto, einige Kenntnisse zu diesem Produkt und Ihre Audience Manager `dil.js`-Datei verfügen.
 
-So senden Sie die `dil.js` Datei in GTM:
+So senden Sie die Datei `dil.js` in GTM:
 
 1. Erstellen Sie einen neuen Container oder öffnen Sie einen vorhandenen Container.
 1. hinzufügen dem Container ein neues Tag.
 1. Öffnen Sie das Tag, um es zu bearbeiten und:
 
    * Benennen Sie das Tag.
-   * Select **[!UICONTROL Custom HTML Tag]** from the **[!UICONTROL Tag Type]** drop-down list.
-   * Platzieren Sie den [!UICONTROL DIL] Code (Bibliothek + benutzerdefinierter Code) im HTML-Feld in den Skript-Tags `<script>DIL code</script>`.
+   * Wählen Sie **[!UICONTROL Custom HTML Tag]** aus der Dropdown-Liste **[!UICONTROL Tag Type]**.
+   * Platzieren Sie im HTML-Feld den [!UICONTROL DIL]-Code (Bibliothek + den benutzerdefinierten Code) in den Skript-Tags `<script>DIL code</script>`.
    * Klicken **[!UICONTROL Save]**.
 
 1. Veröffentlichen Sie den Container.
