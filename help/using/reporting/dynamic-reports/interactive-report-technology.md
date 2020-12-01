@@ -27,7 +27,7 @@ c_report_technology.xml
 
 ## Interaktive Berichte - Tableau-Technologie
 
-[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/) -Software, um Daten in den interaktiven Berichten anzuzeigen. Darüber [!DNL Tableau]hinaus verwenden die [!UICONTROL Delivery and Overlap] Berichte visuelle Hinweise und Symbole, die Ihnen helfen,
+[!DNL Audience Manager] verwendet  [](https://www.tableausoftware.com/) Tableausoftware, um Daten in den interaktiven Berichten anzuzeigen. Bei [!DNL Tableau] verwenden die [!UICONTROL Delivery and Overlap]-Berichte visuelle Hinweise und Symbole, die Ihnen helfen:
 
 * Finden Sie Leistungsmerkmale mit hoher und niedriger Leistung.
 * Spot-Eigenschaften und -Segmente mit niedrigen und hohen individuellen Besuchern überlappen sich.
@@ -72,8 +72,8 @@ Die folgende Tabelle definiert die in den dynamischen Berichten verwendeten Form
    <td colname="col1"> <b>Farben</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rote Farbtöne weisen auf eine <i>geringe</i> Überschneidung hin. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Schattierungen weisen auf eine <i>hohe</i> Überschneidung hin. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rote Farbtöne weisen auf eine Überschneidung von <i>low</i> hin. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Schattierungen weisen auf eine Überschneidung von <i>high</i> hin. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
