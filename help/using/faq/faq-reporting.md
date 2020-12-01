@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Häufige Fragen und Probleme im Zusammenhang mit dem Reporting.
 
-<br> 
+<br>
 
 <!-- 
 
