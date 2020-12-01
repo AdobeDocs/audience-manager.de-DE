@@ -21,11 +21,11 @@ ht-degree: 5%
 
 <!-- c_tb_about.xml -->
 
-Im Vergleich zu Pixeln, die aufgrund einfacher &quot;Ja&quot;- oder &quot;true&quot;-Bedingungen ausgelöst werden, [!UICONTROL Trait Builder] können Sie:
+Im Vergleich zu Pixeln, die aufgrund einfacher &quot;Ja&quot;- oder &quot;true&quot;-Bedingungen ausgelöst werden, können Sie mit [!UICONTROL Trait Builder]:
 
-* Erfassen Sie *alle* Seitendaten, damit Sie sie später verwenden können, um relevante, nützliche Eigenschaften zu erstellen.
-* Erstellen Sie Eigenschaften basierend auf [Schlüssel/Wert-Paaren](../../reference/key-value-pairs-explained.md) , die während der Datenerfassung weitergegeben werden.
-* Bewerten Sie komplexe Datenbedingungen mit serverseitigen Regeln, die mit [booleschen Ausdrücken](../../reference/boolean-expressions-tsb.md) und [Vergleichsoperatoren](../../features/traits/trait-comparison-operators.md)funktionieren.
+* Erfassen Sie *alle*-Seitendaten, damit Sie sie später verwenden können, um relevante, nützliche Eigenschaften zu erstellen.
+* Erstellen Sie Eigenschaften basierend auf [Schlüssel-Wert-Paaren](../../reference/key-value-pairs-explained.md), die während der Datenerfassung weitergegeben werden.
+* Bewerten Sie komplexe Datenbedingungen mit serverseitigen Regeln, die mit [Boolean-Ausdrücken](../../reference/boolean-expressions-tsb.md) und [Vergleichsoperatoren](../../features/traits/trait-comparison-operators.md) funktionieren.
 
 * Verringern oder vermeiden Sie die Notwendigkeit, die Datenerfassungspixel auf Ihrem Bestand zu halten.
-* Überwachen Sie die Leistung mit [!DNL Audience Manager] Berichten.
+* Überwachen Sie die Leistung mit [!DNL Audience Manager]-Berichten.
