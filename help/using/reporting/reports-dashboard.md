@@ -25,22 +25,22 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] verwendet [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um die Benutzergruppenberechtigungen auf die [!UICONTROL Dashboard]zu erweitern. Benutzer können nur Informationen zu dem Dashboard anzeigen, für das sie über die Berechtigung zur Ansicht verfügen. [!UICONTROL RBAC] Mit dieser Funktion können Sie steuern, welche Berichte-Daten interne Teams zur Ansicht bereitstellen können.
+[!DNL Audience Manager] verwendet  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um Benutzergruppenberechtigungen auf die  [!UICONTROL Dashboard]zu erweitern. Benutzer können nur Informationen zu dem Dashboard anzeigen, für das sie über die Berechtigung zur Ansicht verfügen. [!UICONTROL RBAC] Mit dieser Funktion können Sie steuern, welche Berichte-Daten interne Teams zur Ansicht bereitstellen können.
 
 Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann beispielsweise Benutzergruppenberechtigungen so konfigurieren, dass ein Team, das das Konto des Advertiser A verwaltet, die Daten des Berichte von Advertiser B nicht sehen kann. Dieses Dashboard kann zur Fehlerbehebung bei Problemen mit dem Data-Versand verwendet werden.
 
-Wenn Sie z. B. einen Tiefpunkt oder eine Spitze bei Unique Users mit der Unterteilung des Typs Unique User (regelbasiert im Vergleich zu eingebettet) bemerken, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Data-Versand-Problem zu verfolgen. Wenn Sie einen Tiefpunkt bei den Unique Users und bei den eingebetteten Unique Users feststellen, können Sie zum [!UICONTROL On-boarding Status] Bericht gehen, um zu sehen, ob ein Problem mit einer eingehenden Datei aufgetreten ist.
+Wenn Sie z. B. einen Tiefpunkt oder eine Spitze bei Unique Users mit der Unterteilung des Typs Unique User (regelbasiert im Vergleich zu eingebettet) bemerken, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Data-Versand-Problem zu verfolgen. Wenn Sie einen Tiefpunkt bei den Unique Users und bei den eingebetteten Unique Users feststellen, können Sie zum Bericht [!UICONTROL On-boarding Status] gehen, um zu sehen, ob ein Problem mit einer eingehenden Datei aufgetreten ist.
 
 **So greifen Sie auf das Dashboard zu:**
 
 1. Klicken Sie im oberen Navigationsmenü auf **[!UICONTROL Dashboard]**.
-2. *Optional* Wählen Sie den gewünschten Zeitraum ab dem Datum des letzten Berichte aus der Dropdown-Liste (7 Tage, 14 Tage (Standard), 30 Tage oder 60 Tage).
+2. *Optional:* Wählen Sie den gewünschten Zeitraum ab dem Datum des letzten Berichte aus der Dropdown-Liste (7 Tage, 14 Tage (Standard), 30 Tage oder 60 Tage).
 
-   Je nach ausgewähltem Zeitraum zeigt die Delta-Änderung in den [!UICONTROL Largest Traits] ->- [!UICONTROL Most Changed Traits] und [!UICONTROL Largest Segments] >- [!UICONTROL Most Changed Segments] Bedienfeldern die Veränderung der individuellen Besucher in der Audience über den Zeitraum an, der heute endet, im Vergleich zum vorhergehenden Zeitraum. Wenn Sie z. B. &quot;7 Tage&quot;auswählen, vergleicht das Delta die individuellen Besucher der letzten sieben Tage mit den eindeutigen Besuchern der letzten sieben Tage.
+   Je nach ausgewähltem Zeitraum zeigt die Deltaänderung in den Feldern [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] und [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] die Veränderung der individuellen Besucher in der Audience im Zeitraum, der heute endet, im Vergleich zum vorherigen Zeitraum derselben Länge an. Wenn Sie z. B. &quot;7 Tage&quot;auswählen, vergleicht das Delta die individuellen Besucher der letzten sieben Tage mit den eindeutigen Besuchern der letzten sieben Tage.
 
    >[!NOTE]
    >
-   >Sie können eine Delta-Änderung untersuchen, die ungewöhnlich erscheint, indem Sie einen [!UICONTROL Trend] Bericht ausführen. Wenn Sie z. B. in den letzten sieben Tagen eine ungewöhnlich große Delta-Änderung sehen, können Sie einen Bericht für die letzten 14 Tage (2 x 7) ausführen, um die Zahlen besser zu verstehen. [!UICONTROL Trend]
+   >Sie können eine Delta-Änderung untersuchen, die ungewöhnlich erscheint, indem Sie einen [!UICONTROL Trend]-Bericht ausführen. Wenn Sie z. B. in den letzten sieben Tagen eine ungewöhnlich große Delta-Änderung sehen, können Sie einen [!UICONTROL Trend]-Bericht für die letzten 14 Tage (2 x 7) ausführen, um die Zahlen besser zu verstehen.
 
    Je nach den Berechtigungen des angemeldeten Benutzers werden die folgenden Bereiche angezeigt:
 
@@ -48,9 +48,9 @@ Wenn Sie z. B. einen Tiefpunkt oder eine Spitze bei Unique Users mit der Unterte
    * [Größte Eigenschaften/am meisten geänderte Eigenschaften](../reporting/reports-dashboard.md#largest-traits)
    * [Größte Segmente/Am meisten geänderte Segmente](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Optional* Klicken Sie auf **[!UICONTROL Normalize]** ein Diagramm, um alle Daten auf derselben Skala anzuzeigen. Sie können den Mauszeiger auch über einen Datenpunkt bewegen, um weitere Informationen anzuzeigen.
+3. ** OptionalKlicken Sie  **[!UICONTROL Normalize]** über einem Diagramm, um alle Daten auf derselben Skala anzuzeigen. Sie können den Mauszeiger auch über einen Datenpunkt bewegen, um weitere Informationen anzuzeigen.
 
-## Partner Uniques {#partner-uniques}
+## Partner-Uniques {#partner-uniques}
 
 Berechtigung erforderlich für Ansicht: [!UICONTROL View All Traits].
 
@@ -70,7 +70,7 @@ Berechtigung erforderlich für Ansicht: [!UICONTROL View Traits].
 
 In diesem Bedienfeld wird die Anzahl der individuellen Besucher angezeigt, die von verschiedenen Eigenschaften erfasst werden.
 
-Verwenden Sie die **[!UICONTROL Show]** Dropdown-Liste, um Informationen zu den verschiedenen Arten von Eigenschaften anzuzeigen: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded]oder [!UICONTROL Rule-Based].
+Verwenden Sie die Dropdown-Liste **[!UICONTROL Show]**, um Informationen zu verschiedenen Typen von Eigenschaften anzuzeigen: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] oder [!UICONTROL Rule-Based].
 
 Dieses Bedienfeld enthält die folgenden Registerkarten:
 
@@ -106,7 +106,7 @@ Dieses Bedienfeld enthält die folgenden Registerkarten:
 <table id="table_8E22E0579FA74C5A86CC40B40B2548BE"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Tab </th> 
+   <th colname="col1" class="entry"> Registerkarte </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
