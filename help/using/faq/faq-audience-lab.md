@@ -26,7 +26,7 @@ audience-lab-faq.xml
 
  -->
 
-<br> 
+<br>
 
 **Haben die in den Testgruppen erstellten Testsegmente unterschiedliche Segment-IDs? Wie ordne ich die IDs verschiedenen Zielen zu?**
 
