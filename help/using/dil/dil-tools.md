@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # DIL-Tools
 
-Beschreibt Methoden im `DIL.tools` Namensraum. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+Beschreibt Methoden im Namensraum `DIL.tools`. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 
 <!-- 
 
@@ -35,9 +35,9 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Zweck `getSearchReferrer`
+### Zweck von `getSearchReferrer`
 
-In DIL gibt `getSearchReferrer` die Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet wurden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]und [!DNL Yahoo]) standardmäßig `document.referrer` suchen lassen.
+In DIL gibt `getSearchReferrer` Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] und [!DNL Yahoo]) standardmäßig gegen `document.referrer` durchsuchen lassen.
 
 ### Funktionsunterschrift
 
@@ -47,8 +47,8 @@ Funktionsunterschrift: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` akzeptiert:
 
-* *`{string}`*: *(Optional)* Eine Zeichenfolge, die die Such-URL enthält (wird verwendet, `document.referrer` wenn sie nicht definiert ist).
-* *`{object}`*: *(Optional)* Ein Objekt, das die Konfiguration für die `hostPattern`, `queryParam`oder `queryPattern`.
+* *`{string}`*:  *(Optional)* Eine Zeichenfolge, die die Such-URL enthält ( `document.referrer` falls nicht definiert).
+* *`{object}`*:  *(Optional)* Ein Objekt, das die Konfiguration für  `hostPattern`,  `queryParam`oder  `queryPattern`enthält.
 
 Und gibt zurück:
 
@@ -114,7 +114,7 @@ Und gibt zurück:
 
 ## decompseURI
 
-Demonstriert eine Uniform Resource Identifier ( [!DNL URI]) in ihre Komponenten: `hash`, `host`, `href`, `pathname`, `protocol`, `search`und `[!DNL uriParams]`.
+Demonstriert eine Uniform Resource Identifier ( [!DNL URI]) in ihre Komponenten: `hash`, `host`, `href`, `pathname`, `protocol`, `search` und `[!DNL uriParams]`.
 
 <!-- 
 
@@ -128,7 +128,7 @@ Funktionsunterschrift: `DIL.tools.decomposeURI`
 
 `decomposeURI` akzeptiert:
 
-* *`uri {string}`*: *(Optional)* Eine Zeichenfolge, die den URI enthält. Defaults to `document.location.href` if not specified.
+* *`uri {string}`*:  *(Optional)* Eine Zeichenfolge, die den URI enthält. Die Standardeinstellung ist `document.location.href`, wenn nicht angegeben.
 
 Und gibt zurück:
 
