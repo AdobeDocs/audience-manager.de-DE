@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften {#active-audience-traits-and-data-source-synced-traits}
 
-Dies sind spezielle Eigenschaften, die von [!UICONTROL Addressable Audiences]Ihnen verwendet werden. [!UICONTROL Active Audience] und [!UICONTROL Data Source Synced Traits] befinden sich in [!UICONTROL Audience Data > Traits > Audience Traits].
+Dies sind spezielle Eigenschaften, die von [!UICONTROL Addressable Audiences] verwendet werden. [!UICONTROL Active Audience] und  [!UICONTROL Data Source Synced Traits] befinden sich in  [!UICONTROL Audience Data > Traits > Audience Traits].
 
 >[!NOTE]
 >
@@ -25,19 +25,19 @@ Dies sind spezielle Eigenschaften, die von [!UICONTROL Addressable Audiences]Ihn
 
 ## Eigenschaften aktiver Audiencen {#active-audience-traits}
 
-Eine [!UICONTROL Active Audience] Eigenschaft enthält alle Geräte, die in Ihrem [!DNL Audience Manager] Konto verwaltet werden. Sie können beim Erstellen oder Bearbeiten von Segmenten [!UICONTROL Active Audience Trait] ähnliche Eigenschaften verwenden. Für [adressierbare Audiencen](../../features/addressable-audiences.md) ist es außerdem erforderlich, dass diese Eigenschaft Überlagerungsdaten generiert. Alle Konten haben standardmäßig eine [!UICONTROL Active Audience] Eigenschaft. Diese Eigenschaft kann nicht gelöscht werden.
+Eine [!UICONTROL Active Audience]-Eigenschaft enthält alle Geräte, die in Ihrem [!DNL Audience Manager]-Konto verwaltet werden. Sie können ein [!UICONTROL Active Audience Trait] wie andere Eigenschaften verwenden, wenn Sie Segmente erstellen oder bearbeiten. Für [Addressable Audiencen](../../features/addressable-audiences.md) muss diese Eigenschaft Überlagerungsdaten generieren. Alle Konten haben standardmäßig eine Eigenschaft [!UICONTROL Active Audience]. Diese Eigenschaft kann nicht gelöscht werden.
 
-## Datenquellen-synchronisierte Eigenschaften {#data-source-synced-traits}
+## Datenquelle synchronisierte Eigenschaften {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] werden im [!UICONTROL Audience Traits] Ordner angezeigt, wenn Sie eine Datenquelle [erstellen oder bearbeiten](../../features/manage-datasources.md#create-data-source) und eine der folgenden Einstellungen anwenden:
+[!UICONTROL Data Source Synced Traits] werden im  [!UICONTROL Audience Traits] Ordner angezeigt, wenn Sie eine  [Datenquelle ](../../features/manage-datasources.md#create-data-source) erstellen oder bearbeiten und eine der folgenden Einstellungen anwenden:
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Sie können beim Erstellen oder Bearbeiten von Segmenten [!UICONTROL Data Source Synched Trait] ähnliche Eigenschaften verwenden. Wenn Sie eine [!UICONTROL Data Source Synced Trait]Eigenschaft erstellen, entspricht der Eigenschaftsname dem von Ihrer Datenquelle verwendeten Namen. Bearbeiten Sie die Datenquelle, um den Eigenschaftsnamen zu ändern. Diese Eigenschaften können nicht gelöscht werden.
+[!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Sie können ein [!UICONTROL Data Source Synched Trait] wie andere Eigenschaften verwenden, wenn Sie Segmente erstellen oder bearbeiten. Wenn Sie ein [!UICONTROL Data Source Synced Trait] erstellen, entspricht der Eigenschaftsname dem von Ihrer Datenquelle verwendeten Namen. Bearbeiten Sie die Datenquelle, um den Eigenschaftsnamen zu ändern. Diese Eigenschaften können nicht gelöscht werden.
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits] sind nützlich für die Fehlerbehebung. Klicken Sie auf einen Eigenschaftsnamen, um die Metriken auf der Seite &quot;Eigenschaftszusammenfassung&quot;zu überprüfen. Wenn Ihre ausgewählte Eigenschaft Daten zurückgibt, deutet das darauf hin, dass der ID-Synchronisierungsprozess ordnungsgemäß eingerichtet ist und Daten gesendet werden [!DNL Audience Manager].
+>[!UICONTROL Data Source Synced Traits] sind nützlich für die Fehlerbehebung. Klicken Sie auf einen Eigenschaftsnamen, um die Metriken auf der Seite &quot;Eigenschaftszusammenfassung&quot;zu überprüfen. Wenn Ihre ausgewählte Eigenschaft Daten zurückgibt, deutet dies darauf hin, dass der ID-Synchronisierungsprozess korrekt eingerichtet ist und Daten an [!DNL Audience Manager] gesendet werden.
 
 >[!MORELIKETHIS]
 >
