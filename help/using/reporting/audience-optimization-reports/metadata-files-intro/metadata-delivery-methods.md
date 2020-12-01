@@ -17,15 +17,15 @@ ht-degree: 4%
 
 # Bereitstellungsmethoden für Metadatendateien{#delivery-methods-for-metadata-files}
 
-Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an einen speziellen [!DNL Amazon S3] Ordner für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+Senden oder aktualisieren Sie Metadatendateien, indem Sie sie an ein spezielles [!DNL Amazon S3]-Verzeichnis für Ihr Audience Manager-Konto senden. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
 
 >[!IMPORTANT]
 >
-> Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützung, um zu beginnen und einen [!DNL Amazon S3] Ordner für Ihre Metadatendateien einzurichten.
+> Wenden Sie sich an Ihren Audience Manager-Berater oder an den Kundendienst, um zu beginnen und einen [!DNL Amazon S3]-Ordner für Ihre Metadatendateien einzurichten.
 
 ## Versand-Pfadsyntax und Beispiel {#syntax}
 
-Die Daten werden in einem separaten Namensraum für jeden Kunden in einem [!DNL Amazon S3] Verzeichnis gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Beachten Sie, dass spitze Klammern einen variablen Platzhalter `<>` angeben. Die anderen Elemente sind Konstanten und bleiben unverändert.
+Die Daten werden für jeden Kunden in einem [!DNL Amazon S3]-Namensraum gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Beachten Sie, dass spitze Klammern `<>` einen variablen Platzhalter angeben. Die anderen Elemente sind Konstanten und bleiben unverändert.
 
 **Syntax:**
 
@@ -39,7 +39,7 @@ Die Daten werden in einem separaten Namensraum für jeden Kunden in einem [!DNL 
 .../log_ingestion/pid=1121/dpid=3342/meta/20200112_0_4
 ```
 
-<br> 
+<br>
 
 In der folgenden Tabelle werden diese Elemente in einem Dateipfad definiert.
 
@@ -48,8 +48,8 @@ In der folgenden Tabelle werden diese Elemente in einem Dateipfad definiert.
 ---------|----------|
 | `.../log_ingestion/` | Dies ist der Beginn des Ordnerpfads für die Datenspeicherung. Sie erhalten den vollständigen Pfad, wenn alles eingerichtet ist. |
 | `pid=<AAM ID>` | Dieses Schlüssel-Wert-Paar enthält Ihre Audience Manager-Kunden-ID. |
-| `dpid=<d_src>` | Dieses Schlüssel-Wert-Paar enthält die Datenquellen-ID, die bei einem Ereignis-Aufruf übergeben wird. Die Datenquellen-ID ist der Wert, der den gesamten Inhalt Ihrer Datei mit den tatsächlichen Daten verknüpft, zu denen sie gehört. </br> Angenommen, Sie haben ein kreatives Element mit der ID 123 und dem Namen &quot;Werbetreibende Kreative A&quot;. Da ein Ereignis-Aufruf nur in der ID weitergegeben wird, müssen Sie &quot;Werbetreibende Kreative A&quot;in die Metadatendatei aufnehmen. Kampagne und Kreativelemente gehören zu einer Datenquelle. Die Datenquellen-ID verbindet diese und ermöglicht es uns, Dateiinhalte exakt mit einer ID zu verknüpfen, die bei einem Ereignis-Aufruf gesendet wird. Siehe [Bestimmen von Dateinamen, Inhalten und Versand-Pfaden durch Ereignis-Aufruf-IDs](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
-| `<yyyymmdd_0_child ID>` | Dies ist der Dateiname. See [Naming Conventions for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). |
+| `dpid=<d_src>` | Dieses Schlüssel-Wert-Paar enthält die Datenquellen-ID, die bei einem Ereignis-Aufruf übergeben wird. Die Datenquellen-ID ist der Wert, der den gesamten Inhalt Ihrer Datei mit den tatsächlichen Daten verknüpft, zu denen sie gehört. </br> Angenommen, Sie haben ein kreatives Element mit der ID 123 und dem Namen &quot;Werbetreibende Kreative A&quot;. Da ein Ereignis-Aufruf nur in der ID weitergegeben wird, müssen Sie &quot;Werbetreibende Kreative A&quot;in die Metadatendatei aufnehmen. Kampagne und Kreativelemente gehören zu einer Datenquelle. Die Datenquellen-ID verbindet diese und ermöglicht es uns, Dateiinhalte exakt mit einer ID zu verknüpfen, die bei einem Ereignis-Aufruf gesendet wird. Siehe [So bestimmen Ereignis-Aufruf-IDs Dateinamen, Inhalte und Versand-Pfade](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
+| `<yyyymmdd_0_child ID>` | Dies ist der Dateiname. Siehe [Benennungsregeln für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). |
 
 ## Dateiverarbeitungszeiten und -aktualisierungen {#processing-times}
 
