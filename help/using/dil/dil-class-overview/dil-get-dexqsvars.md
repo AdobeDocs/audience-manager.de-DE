@@ -33,11 +33,11 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Zeichenfolge | Der Name der Variablen, für die Sie einen Wert abrufen möchten. |
 | `partner` | Zeichenfolge | Der zu suchende Name des Partners. |
-| `containerNSID` | Ganzzahl | Der [!DNL NSID] Container, nach dem du suchst. Die Standardeinstellung ist `0`. |
+| `containerNSID` | Ganzzahl | Die [!DNL NSID] des Containers, nach dem Sie suchen. Die Standardeinstellung ist `0`. |
 
 **Antwort**
 
-Gibt den Variablenwert für eine [!UICONTROL DIL] Instanz zurück.
+Gibt den Variablenwert für eine [!UICONTROL DIL]-Instanz zurück.
 
 **Beispielcode**
 
