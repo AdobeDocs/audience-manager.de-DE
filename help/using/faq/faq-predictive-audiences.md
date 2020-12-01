@@ -58,43 +58,43 @@ Sollte das Modell nicht innerhalb von 24 Stunden Ergebnisse liefern, wenden Sie 
 
 [!UICONTROL Predictive Audiences]-Modelle können aus einer Reihe von Gründen zu keinen Ergebnissen führen:
 
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
+1. Keine der ausgewählten Persona [!UICONTROL traits] / [!UICONTROL segments] hat genug Profil. Es wird empfohlen, [!UICONTROL traits] oder [!UICONTROL segments] zu wählen, damit jede Person mindestens hundert Profil hat.
+1. Keine der ausgewählten Persona [!UICONTROL traits] / [!UICONTROL segments] verfügt über genügend Daten in ihren Profilen (nicht genügend Eigenschaften zur Analyse).
 1. Die Eigenschaft/das Segment der Zielgruppe-Audience hat keine aktiven oder eingebetteten Benutzer.
 1. Die Benutzer der Zielgruppe, die in den letzten 30 Tagen aktiv waren oder integriert wurden, verfügen nicht über genügend Daten in ihren Benutzerprofilen (nicht genügend Eigenschaften zum Analysieren).
-1. Das Modellsegment verwendet eine andere Audience [!UICONTROL Profile Merge Rule] als die Zielgruppe, die Sie für das Modell ausgewählt haben.
-1. Die Datenquelle der Eigenschaften der Zielgruppe-Audience wird möglicherweise nicht in der Datei enthalten, die Sie für das Modell [!UICONTROL Profile Merge Rule] ausgewählt haben.
+1. Das Segment &quot;Zielgruppe Audience&quot;verwendet ein anderes [!UICONTROL Profile Merge Rule] als das, das Sie für das Modell ausgewählt haben.
+1. Die Datenquelle der Eigenschaften der Zielgruppe-Audience ist möglicherweise nicht in dem [!UICONTROL Profile Merge Rule] enthalten, das Sie für das Modell ausgewählt haben.
 
 Um optimale Ergebnisse zu erzielen, befolgen Sie die empfohlenen Richtlinien aus den [Auswahlkriterien für Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) und den [Auswahlkriterien für Zielgruppen](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Warum zeigt mein Modell den [!UICONTROL Error] Status an?**
+**Warum zeigt mein Modell den  [!UICONTROL Error] Status an?**
 
-Das Modell konnte nicht ausgeführt werden. In such cases, please reach out to your [!DNL Adobe] representative.
+Das Modell konnte nicht ausgeführt werden. In solchen Fällen wenden Sie sich bitte an Ihren [!DNL Adobe] Vertreter.
 
  
 
-**Wie kann ich den [!UICONTROL Profile Merge Rule] für einen [!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+**Wie kann ich die  [!UICONTROL Profile Merge Rule] für eine  [!UICONTROL Predictive Audiences] [!UICONTROL segment]Änderung?**
 
-Erstellen Sie ein neues Modell, indem Sie die gleiche Audience für Personas und Zielgruppen wie das vorherige Modell auswählen. Weisen Sie bei der Modellerstellung einen anderen zu [!UICONTROL Profile Merge Rule].
+Erstellen Sie ein neues Modell, indem Sie die gleiche Audience für Personas und Zielgruppen wie das vorherige Modell auswählen. Weisen Sie bei der Modellerstellung ein anderes [!UICONTROL Profile Merge Rule] zu.
 
 >[!WARNING]
-> Alternativ können Sie mit dem [Segmentaufbau](../features/segments/segment-builder.md) manuell eine [!UICONTROL segment] mit einer vorhandenen Vorhersage erstellen [!UICONTROL trait] und ihr eine [!UICONTROL Profile Merge Rule] Ihrer Wahl zuweisen.
+> Alternativ können Sie [Segmentaufbau](../features/segments/segment-builder.md) verwenden, um manuell ein [!UICONTROL segment] mit einem vorhandenen Prognose [!UICONTROL trait] zu erstellen und ihm ein [!UICONTROL Profile Merge Rule] Ihrer Wahl zuzuweisen.
 > 
-> Wir empfehlen diese Vorgehensweise jedoch nicht, da Vorhersagekraft [!UICONTROL traits] automatisch das Modell erbt, zu dem sie gehören, und sie sind aus einflussreichen [!UICONTROL Profile Merge Rule] Elementen aufgebaut, die dem [!UICONTROL traits] [!UICONTROL Profile Merge Rule] Modell entsprechen.
+> Diese Vorgehensweise wird jedoch nicht empfohlen, da bei der Prognose [!UICONTROL traits] automatisch das [!UICONTROL Profile Merge Rule] des Modells, zu dem sie gehören, übernommen wird und sie aus einflussreichen [!UICONTROL traits] aufgebaut sind, die dem [!UICONTROL Profile Merge Rule] des Modells entsprechen.
 
  
 
-**Was [!UICONTROL Profile Merge Rule] soll ich wählen?**
+**Was  [!UICONTROL Profile Merge Rule] soll ich wählen?**
 
-Wenn Sie das Modell [!UICONTROL Profile Merge Rule] für Ihr Modell auswählen, analysieren Sie die Anwendungsfälle genau.
+Wenn Sie [!UICONTROL Profile Merge Rule] für Ihr Modell auswählen, analysieren Sie Ihre Anwendungsfälle genau.
 
-Nehmen wir an, Ihre Zielgruppe-Audience [!UICONTROL segment] verwendet eine [!UICONTROL Profile Merge Rule] auf authentifizierten Profilen + [!DNL Device Graph] -Profilen, und Sie wählen das gleiche [!UICONTROL Profile Merge Rule] für die Vorhersage [!UICONTROL segments]. In diesem Fall [!UICONTROL traits] werden sowohl die Geräteebene als auch die geräteübergreifende Ebene für die Schulung des Modells und für die Platzierung des Benutzers in eine Vorhersage verwendet [!UICONTROL segment].
+Nehmen wir an, Ihre Zielgruppe Audience [!UICONTROL segment] verwendet ein [!UICONTROL Profile Merge Rule], basierend auf authentifizierten Profilen + [!DNL Device Graph]-Profilen, und Sie wählen dasselbe [!UICONTROL Profile Merge Rule] für das Vorhersagekriterium [!UICONTROL segments]. In diesem Fall werden sowohl auf Geräteebene als auch auf geräteübergreifender Ebene [!UICONTROL traits] für die Schulung des Modells und für die Platzierung des Benutzers in eine Prognose [!UICONTROL segment] verwendet.
 
-Wenn Sie jedoch ein [!UICONTROL Profile Merge Rule] Gerät nur auf der Grundlage von Profilen auswählen, [!UICONTROL traits] wird keines Ihrer geräteübergreifenden Elemente einflussreich und trägt nicht zur Platzierung der Benutzer in eine Vorhersage bei [!UICONTROL segment]. Dies kann sich negativ auf die Genauigkeit und Reichweite des Modells auswirken.
+Wenn Sie jedoch ein [!UICONTROL Profile Merge Rule] auswählen, das nur auf Profilen des Geräts basiert, wird keines Ihrer geräteübergreifenden [!UICONTROL traits]-Elemente einflussreich und trägt nicht zur Platzierung der Benutzer in ein vorhersagbares [!UICONTROL segment] bei. Dies kann sich negativ auf die Genauigkeit und Reichweite des Modells auswirken.
 
-Analysieren Sie Ihren Anwendungsfall sorgfältig und entscheiden Sie, von welchen [!UICONTROL trait] Typen das Modell lernen soll und welche Art von Daten das Modell für die Klassifizierung verwenden soll.
+Analysieren Sie Ihren Anwendungsfall sorgfältig und entscheiden Sie, von welchen [!UICONTROL trait]-Typen das Modell lernen soll und welche Art von Daten das Modell für die Klassifizierung verwenden soll.
 
 **Kann ein vorkommen, dass ein Benutzer aus der Zielgruppe, der nicht Teil einer/s Persona-Eigenschaft/-Segments ist, nicht klassifiziert wird?**
 
