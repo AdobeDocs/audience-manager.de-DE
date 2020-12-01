@@ -15,24 +15,24 @@ ht-degree: 1%
 ---
 
 
-# [!DNL Audience Lab] Erweiterte Funktionen {#audience-lab-advanced-functionality}
+# [!DNL Audience Lab] Erweiterte Funktionen  {#audience-lab-advanced-functionality}
 
-In diesem Artikel werden zwei Funktionen beschrieben, die erweiterte Funktionen bieten [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] und [!DNL Segment Holdout].
+In diesem Artikel werden zwei Funktionen beschrieben, die erweiterte Funktionen für [!DNL Audience Lab] bieten: [!DNL Duplicate Allocation Template] und [!DNL Segment Holdout].
 
-## Vorlage für die Zuordnung von Duplikaten {#duplicate-allocation-template}
+## Duplikat-Zuordnungsvorlage {#duplicate-allocation-template}
 
 <!-- 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
  -->
 
-In [!DNL Audience Lab]der [!DNL Allocation Template] steht für die verschiedenen Auswahlen, die Sie beim Erstellen einer Testgruppe treffen:
+In [!DNL Audience Lab] stellt [!DNL Allocation Template] die verschiedenen Auswahlen dar, die Sie beim Erstellen einer Testgruppe treffen:
 
 * die Verteilung der Geräte zwischen Testsegmenten;
 * Zuordnung von Testsegmenten zu Zielen;
 * die Konversionseigenschaften, die Sie für eine Testgruppe verwenden;
 * Der Datumsbereich, in dem die Testgruppe für Ihre ausgewählten Ziele veröffentlicht wird.
 
-Durch Duplizieren einer Zuordnungsvorlage können Sie dieselbe Verteilung von Testsegmenten und Zielen für ein anderes Basissegment in einer neuen Testgruppe wiederverwenden. Ein Beispiel für eine Zuordnungsvorlage ist unten dargestellt. Das Bild wird aus dem [!UICONTROL Summary & Finalize] Schritt im Arbeitsablauf **Testgruppe** erstellen genommen.
+Durch Duplizieren einer Zuordnungsvorlage können Sie dieselbe Verteilung von Testsegmenten und Zielen für ein anderes Basissegment in einer neuen Testgruppe wiederverwenden. Ein Beispiel für eine Zuordnungsvorlage ist unten dargestellt. Das Bild wird aus dem Schritt [!UICONTROL Summary & Finalize] im Arbeitsablauf **Testgruppe erstellen** entnommen.
 
 ![](assets/allocation_template_3.png)
 
@@ -42,14 +42,14 @@ With the option to duplicate allocation templates, you can increase your product
 
 ### Verwenden der Vorlage für die Duplikat-Zuordnung
 
-Erstellen Sie eine erste Testgruppe und wählen Sie dann **[!UICONTROL Duplicate Allocation Template]** die gleichen Einstellungen für mehrere Testgruppen aus. Sie können diese Funktion beispielsweise verwenden, wenn Sie einen Test durchführen, bei dem Sie die Wirksamkeit mehrerer Ziele für mehrere Segmente ermitteln möchten.
+Erstellen Sie eine erste Testgruppe und wählen Sie **[!UICONTROL Duplicate Allocation Template]** aus, um dieselben Einstellungen für mehrere Testgruppen wiederzuverwenden. Sie können diese Funktion beispielsweise verwenden, wenn Sie einen Test durchführen, bei dem Sie die Wirksamkeit mehrerer Ziele für mehrere Segmente ermitteln möchten.
 
 1. Suchen Sie in der Hauptgruppe &quot;Audience Lab&quot;nach der Testgruppe, deren Zuordnungsvorlage Sie in einer neuen Testgruppe reproduzieren möchten. Wählen Sie im Dropdown-Feld **[!UICONTROL Duplicate Allocation Template]**.
 
    ![](assets/duplicate-allocation-template.png)
 
-2. Im [!UICONTROL Create Test Group] Assistenten können Sie bei Bedarf ein Basissegment angeben und Ihre Testsegmente umbenennen.
-3. Sie *können Folgendes nicht* ändern:
+2. Im Assistenten [!UICONTROL Create Test Group] können Sie bei Bedarf ein Basissegment angeben und Ihre Testsegmente umbenennen.
+3. Sie können *nicht* ändern:
 
    * die Verteilung der Geräte zwischen Testsegmenten;
    * die Konversionseigenschaft(en);
@@ -58,11 +58,11 @@ Erstellen Sie eine erste Testgruppe und wählen Sie dann **[!UICONTROL Duplicate
 
 4. Überprüfen Sie die Informationen, die Sie in den vorherigen Schritten hinzugefügt haben, und wählen Sie **[!UICONTROL Finalize Group]**.
 
-## Testsegment-Holding {#test-segment-holdout}
+## Test Segment Holdout {#test-segment-holdout}
 
 >[!NOTE]
 >
->[!UICONTROL Test Segment Holdout] ist eine erweiterte Funktion, die auf Kundenanforderung aktiviert wird. Bitte kontaktieren Sie [!DNL Customer Care] oder [!DNL Adobe Consulting] , um diese Funktion zu aktivieren.
+>[!UICONTROL Test Segment Holdout] ist eine erweiterte Funktion, die auf Kundenanforderung aktiviert wird. Bitte wenden Sie sich an [!DNL Customer Care] oder [!DNL Adobe Consulting], um diese Funktion zu aktivieren.
 
 Verwenden Sie diese Funktion, um zu verhindern, dass ein Teil der Audience in den Test einbezogen wird. Der ausgewählte Prozentsatz wird aus dem Test ausgeschlossen. Auf diese Weise können Sie die Anzahl der Konversionen von zielgerichteten (auf Zielen aktivierten) und nicht zielgerichteten (ausgeschlossenen) Audiencen messen und vergleichen.
 
@@ -72,8 +72,8 @@ Verwenden Sie diese Funktion, um zu verhindern, dass ein Teil der Audience in de
 
 ### Testsegment-Holdout
 
-1. Erstellen Sie mithilfe des [!UICONTROL Create Test Group] Assistenten eine neue Testgruppe.
-1. In diesem **[!UICONTROL Allocate Test Segment]** Schritt können Sie einen Teil der Audience auswählen, der nicht getestet werden soll.
+1. Erstellen Sie mithilfe des Assistenten [!UICONTROL Create Test Group] eine neue Testgruppe.
+1. Im Schritt **[!UICONTROL Allocate Test Segment]** können Sie einen Teil der Audience auswählen, der nicht getestet werden soll.
 
    ![Liste](assets/test-segment-holdout.png)
 
@@ -81,4 +81,4 @@ Verwenden Sie diese Funktion, um zu verhindern, dass ein Teil der Audience in de
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Gehen Sie durch die restlichen Schritte im **[!UICONTROL Create Test Group]** Workflow und wählen Sie aus, **[!UICONTROL Finalize Group]** wann Sie mit der Auswahl zufrieden sind. Sie haben jetzt eine Testgruppe, bei der ein Teil der Audience nicht getestet werden kann.
+1. Gehen Sie durch die restlichen Schritte im **[!UICONTROL Create Test Group]**-Workflow und wählen Sie **[!UICONTROL Finalize Group]**, wenn Sie mit Ihrer Auswahl zufrieden sind. Sie haben jetzt eine Testgruppe, bei der ein Teil der Audience nicht getestet werden kann.
