@@ -23,21 +23,21 @@ Eigenschafts-Datenspeicherung-Ordner speichern und unterstützen Sie bei der Org
 
 ## Zweck der Eigenschafts-Datenspeicherung-Ordner
 
-Eigenschafts-Datenspeicherung-Ordner [!UICONTROL Trait Builder]sind Ordner, in denen Eigenschaften in von Ihnen erstellten logischen  gespeichert und angeordnet werden. Greifen Sie über das [!UICONTROL Traits] Dashboard oder beim Erstellen einer neuen Eigenschaft auf die Ordner &quot;Datenspeicherung&quot;zu. Denken Sie daran, dass Sie keine neue Eigenschaft erstellen können, ohne sie einem Ordner &quot;Datenspeicherung&quot;zuzuweisen.
+Unter [!UICONTROL Trait Builder] sind Eigenschaftsordner Datenspeicherung, die Eigenschaften enthalten und in von Ihnen erstellte logische Gruppen unterteilen. Greifen Sie über das Dashboard [!UICONTROL Traits] auf die Ordner &quot;Datenspeicherung&quot;zu oder erstellen Sie eine neue Eigenschaft. Denken Sie daran, dass Sie keine neue Eigenschaft erstellen können, ohne sie einem Ordner &quot;Datenspeicherung&quot;zuzuweisen.
 
 ![](assets/tb_storage.png)
 
-## Erstellen eines Eigenschafts-Datenspeicherung-Ordners {#create-trait-storage-folder}
+## Erstellen eines Datenspeicherung-Ordners für Eigenschaften {#create-trait-storage-folder}
 
 Dieser Vorgang beschreibt, wie Sie einen Ordner &quot;Datenspeicherung&quot;für Ihre Eigenschaften erstellen.
 
 <!-- t_tb_create_storage.xml -->
 
-Sie können beim Einrichten einer neuen Eigenschaft einen neuen Ordner für die Datenspeicherung im [!UICONTROL Basic Information] Abschnitt erstellen. Außerdem können Ordner im [!UICONTROL Trait Storage] Abschnitt des Dashboards der Haupt- [!UICONTROL Traits] Liste erstellt werden.
+Sie können beim Einrichten einer neuen Eigenschaft im Bereich [!UICONTROL Basic Information] einen neuen Datenspeicherung-Ordner erstellen. Außerdem können Ordner im Dashboard [!UICONTROL Trait Storage] des Hauptordners [!UICONTROL Traits] der Liste erstellt werden.
 
 So erstellen Sie einen neuen Ordner für die Datenspeicherung:
 
-1. Bewegen Sie den Mauszeiger im [!UICONTROL Trait Storage] Fenster über:
+1. Bewegen Sie den Mauszeiger im Fenster [!UICONTROL Trait Storage] über:
    * **[!UICONTROL All Traits]** , um einen neuen Stammordner hinzuzufügen.
    * Ein vorhandener übergeordneter Ordner zum Hinzufügen eines neuen Untergeordnet-Ordners.
 1. Klicken Sie auf das Symbol +, um den Ordner zu erstellen.
@@ -49,7 +49,7 @@ Dieser Vorgang beschreibt, wie Sie einen Ordner &quot;Datenspeicherung&quot;umbe
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-Sie können Datenspeicherung-Ordner im Hauptabschnitt des Dashboards [!UICONTROL Trait Storage] &quot; [!UICONTROL Traits] Liste&quot;umbenennen oder löschen.
+Sie können Datenspeicherung-Ordner im Hauptabschnitt [!UICONTROL Trait Storage] des Dashboards [!UICONTROL Traits] der Liste umbenennen oder löschen.
 
 * Benennen Sie einen Ordner um, indem Sie den Mauszeiger darüber halten und auf das Stiftsymbol klicken.
-* Löschen Sie einen Ordner, indem Sie den Mauszeiger darüber halten und auf das **X** -Symbol klicken.
+* Löschen Sie einen Ordner, indem Sie den Mauszeiger darüber halten und auf das Symbol **X** klicken.
