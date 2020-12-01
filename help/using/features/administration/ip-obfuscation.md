@@ -23,16 +23,16 @@ Aufgrund globaler Datenschutzregeln muss Ihr Unternehmen in einigen Ländern mö
 
 ### IP-Verschleierungsmethode
 
-Gemäß den Grundsätzen von &quot;Privacy By Design&quot;ermöglicht Adobe Audience Manager Kunden die Aktivierung der IP-Verschleierung über die Benutzeroberfläche, entweder global in allen geografischen Regionen oder für bestimmte Länder. Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort verworfen, wenn die IP-Adresse in Audience Manager aufgenommen wird. Audience Manager verwirft diesen Teil der IP-Adresse vor der Verarbeitung (auch vor einer optionalen geografischen Suche oder Protokollierung der IP-Adresse). Beispiel:
+Gemäß den Grundsätzen von &quot;Privacy By Design&quot;ermöglicht es Adobe Audience Manager Kunden, die IP-Verschleierung über die Benutzeroberfläche zu aktivieren, entweder global in allen geografischen Regionen oder für bestimmte Länder. Wenn Sie diese Einstellung aktivieren, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort verworfen, wenn die IP-Adresse in Audience Manager aufgenommen wird. Audience Manager verwirft diesen Teil der IP-Adresse vor der Verarbeitung (auch vor einer optionalen geografischen Suche oder Protokollierung der IP-Adresse). Beispiel:
 
 * Vor Verschleierung: `255.255.255.255`
 * Nach Verschleierung: `255.255.255.0`
 
 Siehe auch Erfassen von IP-Adressen und IP-Adressenverschleierung in unserem [Datenschutz-Abschnitt](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
-## Anforderungen an die IP-Adressenverschleierung {#ip-obfuscation-requirements}
+## IP-Adressenverschleierung {#ip-obfuscation-requirements}
 
-Die Verschleierung der IP-Adresse ist nur für Audience Manager-Administratorkonten verfügbar. Informationen zum Zuweisen von Administratorberechtigungen für einen Benutzer finden Sie unter Benutzer [erstellen](/help/using/features/administration/administration-overview.md#create-users) .
+Die Verschleierung der IP-Adresse ist nur für Audience Manager-Administratorkonten verfügbar. Informationen zum Zuweisen von Administratorberechtigungen für einen Benutzer finden Sie unter [Benutzer erstellen](/help/using/features/administration/administration-overview.md#create-users).
 
 >[!NOTE]
 >
@@ -42,18 +42,18 @@ Die Verschleierung der IP-Adresse ist nur für Audience Manager-Administratorkon
 
 Gehen Sie wie folgt vor, um die IP-Adressenverschleierung zu konfigurieren.
 
-1. Melden Sie sich mit einem Administratorkonto bei Audience Manager an und gehen Sie zu **Administration > Datenschutz**.
+1. Melden Sie sich bei Audience Manager mit einem Administratorkonto an und gehen Sie zu **Administration > Privacy**.
 2. Wählen Sie die Art der IP-Verschleierung, die Sie verwenden möchten.
-   1. **Alle IP-Adressen verschleiern:** Wählen Sie diese Option, um Audience Manager das letzte Oktett aller Besucher-IP-Adressen unabhängig von der Region, aus der sie stammen, zu verschleiern.
-   2. **IP-Adressen für bestimmte Länder verschleiern:** Wählen Sie diese Option, um Audience Manager für das letzte Oktett der IP-Adressen von Besuchern für bestimmte Länder zu verschleiern. Verwenden Sie die **Liste von Ländern** oder das entsprechende Feld für die **Suche** , um die Länder zu finden, für die die IP-Verschleierung aktiviert werden soll, und klicken Sie auf das +-Symbol, um sie der Liste &quot;Zur Verschleierung **ausgewählt&quot;hinzuzufügen** . Nachdem Sie alle erforderlichen Länder zur Liste **Ausgewählte zur Verschleierung** hinzugefügt haben, klicken Sie auf **Speichern**.
+   1. **Alle IP-Adressen verschleiern:** Wählen Sie diese Option, damit Audience Manager das letzte Oktett aller Besucher-IP-Adressen verschleiern kann, unabhängig davon, aus welcher Region sie stammen.
+   2. **IP-Adressen für bestimmte Länder verschleiern:** Wählen Sie diese Option, um den Audience Manager über das letzte Oktett der IP-Adressen von Besuchern für bestimmte Länder hinwegtäuschen zu lassen. Verwenden Sie das Feld **Liste der Länder** oder das entsprechende Feld **Suche**, um die Länder zu finden, für die IP-Verschleierung aktiviert werden soll, und klicken Sie auf das Symbol +, um sie der Liste **Ausgewählte für Verschleierung** hinzuzufügen. Nachdem Sie alle erforderlichen Länder zur Liste **Ausgewählte für Verschleierung** hinzugefügt haben, klicken Sie auf **Speichern**.
 
 ![](assets/ip-obfuscation.png)
 
-## IP-Adressenverschleierung deaktivieren {#disable-ip-obfuscation}
+## IP-Adressenverschleierung {#disable-ip-obfuscation} deaktivieren
 
-Um die IP-Adressenverschleierung global zu deaktivieren, wählen Sie **Administration > Datenschutz**, wählen Sie **IP-Adressen** nicht verschleiern und klicken Sie auf **Speichern**.
+Um die IP-Adressenverschleierung global zu deaktivieren, gehen Sie zu **Administration > Privacy**, wählen Sie **IP-Adressen nicht verschleiern** und klicken Sie auf **Speichern**.
 
-Um die Verschleierung der IP-Adresse für bestimmte Länder zu deaktivieren, suchen Sie die Länder in der Liste **Ausgewählte zur Verschleierung** und klicken Sie dann auf das entsprechende **X** -Symbol. Click **Save** when you&#39;re done.
+Um die IP-Adressenverschleierung für bestimmte Länder zu deaktivieren, suchen Sie die Länder in der Liste **Ausgewählte für Verschleierung** und klicken Sie dann auf das entsprechende Symbol **X**. Klicken Sie auf **Speichern**, wenn Sie fertig sind.
 
 ## Verwandte Konzepte {#related-concepts}
 
