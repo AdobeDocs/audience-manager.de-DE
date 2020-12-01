@@ -1,7 +1,7 @@
 ---
 description: Erhalten Sie Audiencen von Audience Manager.
-seo-description: Erhalten Sie Audiencen-Daten von Adobe Audience Manager (AAM).
-seo-title: Empfangen von Audiencen-Daten in Adobe Audience Manager (AAM)
+seo-description: Erhalten Sie Audiencen von Adobe Audience Manager (AAM).
+seo-title: Daten zur Audience in Adobe Audience Manager empfangen (AAM)
 title: 'Empfangen von Zielgruppendaten '
 feature: Outbound Data Transfers
 translation-type: tm+mt
