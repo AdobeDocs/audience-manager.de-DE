@@ -44,14 +44,14 @@ Added re: AAM-30826.
 
 | Diensleistung | URL/Hostname | Zugang erhalten |
 |--- |--- | --- |
-| S3 | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer oder an den Kundendienst, um einen Amazon S3-Behälter für Ihre Beta-Instanz einzurichten. Erfahren Sie mehr über die [Vorteile von Amazon S3](../reference/amazon-s3.md). |
+| S3 | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer oder an den Kundendienst, um einen Amazon S3-Behälter für Ihre Beta-Instanz einzurichten. Lesen Sie mehr über die Vorteile von Amazon S3[.](../reference/amazon-s3.md) |
 | DCS | `https://dcs-beta.demdex.net/...` | Siehe [Zugriff auf den DCS in der Beta-Umgebung](../reference/beta-environment.md#access-dcs-beta-environment). |
 | Benutzeroberfläche | `https://bank-beta.demdex.com` | Ihre Anmeldeinformationen für die Umgebung der Produktion sind für die Beta-Umgebung gültig. |
 | API | `https://api-beta.demdex.com/...` | Ihre Anmeldeinformationen für die Umgebung der Produktion sind für die Beta-Umgebung gültig. Es wird empfohlen, einen generischen API-Benutzer zu erstellen, [siehe Details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Zugriff auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
-1. Führen Sie einen DCS-Aufruf mithilfe des [Befehls](https://curl.haxx.se/docs/manpage.html)curl durch. Curl ist ein Tool zum Übertragen von Daten von oder auf einen Server, das eines von vielen unterstützten Protokollen verwendet.
+1. Führen Sie einen DCS-Aufruf mit dem curl [command](https://curl.haxx.se/docs/manpage.html) durch. Curl ist ein Tool zum Übertragen von Daten von oder auf einen Server, das eines von vielen unterstützten Protokollen verwendet.
 
    Beispiel:
 
