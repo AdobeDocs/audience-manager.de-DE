@@ -1,6 +1,6 @@
 ---
-description: Eine GET-Methode, die das Ziel für die angegebene destinationId zurückgibt.
-seo-description: Eine GET-Methode, die das Ziel für die angegebene destinationId zurückgibt.
+description: Eine GET, die das Ziel für die angegebene destinationId zurückgibt.
+seo-description: Eine GET, die das Ziel für die angegebene destinationId zurückgibt.
 seo-title: Zurückgeben eines Ziels nach Ziel-ID
 solution: Audience Manager
 title: Zurückgeben eines Ziels nach Ziel-ID
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # Zurückgeben eines Ziels nach Ziel-ID {#return-a-destination-by-destination-id}
 
-Eine `GET` Methode, die das Ziel für die angegebene `destinationId`Methode zurückgibt.
+Eine `GET`-Methode, die das Ziel für das angegebene `destinationId` zurückgibt.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -27,7 +27,7 @@ Eine `GET` Methode, die das Ziel für die angegebene `destinationId`Methode zur�
 
 >[!NOTE]
 >
->Um das `mappings` Feld auszufüllen, übergeben Sie es `includeMappings=true` in die URL.
+>Um das Feld `mappings` zu füllen, geben Sie `includeMappings=true` in die URL ein.
 
 ## Antwort
 
@@ -59,7 +59,7 @@ Eine `GET` Methode, die das Ziel für die angegebene `destinationId`Methode zur�
 
 ## Alle Ziele zurückgeben {#return-all-destinations}
 
-Eine `GET` Methode, die alle Ziele für den angegebenen Partner zurückgibt.
+Eine `GET`-Methode, die alle Ziele für den angegebenen Partner zurückgibt.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -69,7 +69,7 @@ Eine `GET` Methode, die alle Ziele für den angegebenen Partner zurückgibt.
 
 >[!NOTE]
 >
->* *(Optional)* Geben Sie ein Array aller Ziele `containsSegment=<sid>` zurück, die dem angegebenen Segment zugeordnet sind. Ihre Abfrage könnte z. B. wie folgt aussehen: `GET .../destinations/?containsSegment=4321`.
+>* *(Optional)* Geben Sie ein Array aller Ziele  `containsSegment=<sid>` zurück, die dem angegebenen Segment zugeordnet sind. Ihre Abfrage könnte z. B. wie folgt aussehen: `GET .../destinations/?containsSegment=4321`.
    >
    >
 * Gibt nicht das vollständige Zielobjekt zurück. Rufen Sie das Ziel nach Datenreihenfolge ab, wenn Sie ein vollständig ausgefülltes Objekt benötigen.
@@ -77,7 +77,7 @@ Eine `GET` Methode, die alle Ziele für den angegebenen Partner zurückgibt.
 
 ### Optionale Abfrage-Parameter
 
-Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* Eigenschaften eines Objekts zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn diese Abfrage an die [!DNL API]übergeben wird. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle*-Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn diese Abfrage an das [!DNL API] übergeben wird. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -97,7 +97,7 @@ Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* Ei
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Sortiert Ergebnisse und gibt sie entsprechend der angegebenen <span class="keyword"> JSON</span> -Eigenschaft zurück. </td>
+   <td colname="col2">Sortiert Ergebnisse und gibt sie entsprechend der angegebenen Eigenschaft <span class="keyword"> JSON</span> zurück. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
@@ -142,9 +142,9 @@ Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* Ei
 ]
 ```
 
-## Eine Zielzuordnung mit der Zuordnungs-ID zurückgeben {#return-dest-mapping-id}
+## Eine Zielzuordnung mit der Zuordnungs-ID {#return-dest-mapping-id} zurückgeben
 
-Eine `GET` Methode, die eine individuelle Zielzuordnung basierend auf der `mappingId`Methode zurückgibt.
+Eine `GET`-Methode, die eine individuelle Zielzuordnung basierend auf dem `mappingId` zurückgibt.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -179,9 +179,9 @@ Eine `GET` Methode, die eine individuelle Zielzuordnung basierend auf der `mappi
 }
 ```
 
-## Zuordnungen rückkehrender Ziele {#return-dest-mappings}
+## Rückkehrende Zielzuordnungen {#return-dest-mappings}
 
-Eine `GET` Methode, die die Zuordnungen für ein Ziel zurückgibt.
+Eine `GET`-Methode, die die Zuordnungen für ein Ziel zurückgibt.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -255,7 +255,7 @@ Eine `GET` Methode, die die Zuordnungen für ein Ziel zurückgibt.
 
 ## Alle verfügbaren Zielplattformen zurückgeben {#return-dest-platforms}
 
-Eine `GET` Methode, die alle verfügbaren Geräteplattformen für Ziele zurückgibt.
+Eine `GET`-Methode, die alle verfügbaren Geräteplattformen für Ziele zurückgibt.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -271,9 +271,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## S2S- und Bulk-S2S-Zielauftragsverlauf zurückgeben {#return-job-history}
+## S2S- und Bulk-S2S-Zielauftragsverlauf {#return-job-history}
 
-Eine `GET` Methode, die Informationen zum Ausgangsauftragsverlauf [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) und zum Massenziel- [!UICONTROL S2S] Auftragsverlauf zurückgibt.
+Eine `GET`-Methode, die ausgehende [!UICONTROL Server-to-Server] ( [!UICONTROL S2S])- und Bulk [!UICONTROL S2S]-Zielauftragsverlaufsinformationen zurückgibt.
 
 <!-- r_get_job_history.xml -->
 
@@ -281,7 +281,7 @@ Eine `GET` Methode, die Informationen zum Ausgangsauftragsverlauf [!UICONTROL Se
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Erforderliche Parameter für die Abfrage: `startDate` = *&lt;`epochtime`>* und `endDate` = *&lt;`epochtime`>*.
+Erforderliche Parameter für die Abfrage: `startDate` = *&lt;`epochtime`>* und `endDate` = *&lt;`epochtime`>*
 
 ### Antwort
 
