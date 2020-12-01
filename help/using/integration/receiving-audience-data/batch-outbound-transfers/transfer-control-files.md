@@ -17,11 +17,11 @@ ht-degree: 6%
 
 # Übertragungssteuerungsdateien für Protokolldateiübertragungen {#transfer-control-files-for-log-file-transfers}
 
-Transfer-Control-Dateien ([!DNL .info]) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
+Übertragungssteuerungsdateien ([!DNL .info]) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
 
-[!DNL Audience Manager] sendet bei jeder Dateiübertragung eine Transfersteuerungsdatei an einen Partner. Aufgrund der Multi-Thread-Charakteristik des [!DNL FTP] Herausgebers kann es vorkommen, dass die Übertragungssteuerungsdatei gesendet wird, bevor die eigentlichen Dateien übertragen werden.
+[!DNL Audience Manager] sendet bei jeder Dateiübertragung eine Transfersteuerungsdatei an einen Partner. Aufgrund der Multi-Thread-Charakteristik des [!DNL FTP]-Herausgebers kann die Übertragungssteuerungsdatei gesendet werden, bevor die eigentlichen Dateien übertragen werden.
 
-Die Metadaten in der [!DNL .info] Datei ermöglichen Partnern Folgendes:
+Die Metadaten in der Datei [!DNL .info] ermöglichen Partnern Folgendes:
 
 * Bestimmen Sie, wann ein vollständiger Übertragungszyklus abgeschlossen ist (die Gesamtzahl der in der Sequenz enthaltenen Dateien wurde bereitgestellt).
 * Bestimmen Sie, ob eine beliebige Datei in der Sequenz vollständig/korrekt ist (durch Untersuchung der Größe der Datei in Byte und der Gesamtanzahl der Zeilen).
@@ -29,9 +29,9 @@ Die Metadaten in der [!DNL .info] Datei ermöglichen Partnern Folgendes:
 
 ## Dateibenennungskonventionen {#file-naming-conventions}
 
-Die Datei zur Steuerung der Übertragung hat denselben Namen wie der Stammordner des Stapels/der Sequenz mit einer [!DNL .info] Dateierweiterung.s
+Die Datei für die Übertragungssteuerung hat denselben Namen wie der Stammordner des Stapels/der Sequenz mit einer [!DNL .info] Dateierweiterung.s
 
-Wenn die erste Datei in der Sequenz beispielsweise den Namen hatte: [!DNL ftp_12345_67890_full_1500727351632-1.sync]angegeben wird, wird die Steuerelementdatei benannt [!DNL ftp_12345_67890_iter_1500727351632.info].
+Wenn die erste Datei in der Sequenz beispielsweise den Namen hatte: [!DNL ftp_12345_67890_full_1500727351632-1.sync] würde die Steuerelementdatei [!DNL ftp_12345_67890_iter_1500727351632.info] heißen.
 
 ## Dateiformat {#file-format}
 
@@ -78,7 +78,7 @@ Wenn die erste Datei in der Sequenz beispielsweise den Namen hatte: [!DNL ftp_12
 
 >[!NOTE]
 >
-> Die Gesamtzahl der Stapel ist nicht in der [!DNL .info] Datei selbst angegeben. Das heißt, die Summen enthalten nicht die [!DNL .info] Datei, ihre Bytegröße oder ihre Zeilenzahl.
+> Die Gesamtzahl der Stapel ist nicht in der Datei [!DNL .info] enthalten. Das heißt, die Summen enthalten nicht die Datei [!DNL .info], ihre Bytegröße oder ihre Zeilenzahl.
 >
 > Die Bytegrößen von Dateien und Zeilenzahlen beinhalten alle Header- und Platzhalterlinien/Zeilen (leer). Um die Anzahl der tatsächlichen Datenzeilen/Zeilen abzurufen, ziehen Sie die Kopfzeilen ab.
 >
