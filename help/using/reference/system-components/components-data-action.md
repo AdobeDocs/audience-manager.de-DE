@@ -25,11 +25,11 @@ c_compact.xml
 
  -->
 
-Aktionskomponenten sind Systeme und Prozesse, mit denen Sie Daten ein- und austauschen können [!DNL Audience Manager] und (wegen des Fehlens einer besseren Wortgruppe) Dinge damit tun können. Zu diesen [!DNL Audience Manager] Komponenten gehören:
+Aktionskomponenten sind Systeme und Prozesse, mit denen Sie Daten in und aus [!DNL Audience Manager] verschieben und (wegen des Fehlens einer besseren Wortgruppe) Dinge damit tun können. Zu diesen Komponenten gehören:[!DNL Audience Manager]
 
 ## Kundendaten-Feeds (CDF) {#cdf}
 
-[!UICONTROL CDF] sind Dateien, die stündlich an Kunden gesendet werden. Diese enthalten Benutzer-IDs zusammen mit zugehörigen Segment-IDs, Eigenschaften-IDs und anderen Daten. Weitere Informationen finden Sie unter Übersicht über den [Kundendaten-Feed](../../features/cdf-files.md).
+[!UICONTROL CDF] sind Dateien, die stündlich an Kunden gesendet werden. Diese enthalten Benutzer-IDs zusammen mit zugehörigen Segment-IDs, Eigenschaften-IDs und anderen Daten. Weitere Informationen finden Sie unter [Übersicht über den Kundendaten-Feed](../../features/cdf-files.md).
 
 ## Datenerfassungsserver (DCS) {#dcs}
 
@@ -37,50 +37,50 @@ Siehe [Datenerfassungskomponenten](../../reference/system-components/components-
 
 ## SFTP/S3 {#sftp-s3}
 
-Die [!UICONTROL SFTP/S3] Herausgeber erhalten synchronisierte ID-Daten von der [!UICONTROL Outbound Feed Converter]. Wenn diese Dateien fertig sind, senden Sie diese Daten an ein vom Client angegebenes Ziel. [!UICONTROL SFTP/S3 publishers] Diese Dateien enthalten synchronisierte ID-Daten mit einer 1-zu-n-Zuordnung von [!DNL Audience Manager] Benutzer-IDs (UUID) zu:
+Die Herausgeber von [!UICONTROL SFTP/S3] erhalten synchronisierte ID-Daten von [!UICONTROL Outbound Feed Converter]. Wenn diese Dateien fertig sind, senden Sie die [!UICONTROL SFTP/S3 publishers]-Daten an ein vom Client angegebenes Ziel. Diese Dateien enthalten synchronisierte ID-Daten mit einer 1-zu-n-Zuordnung von [!DNL Audience Manager] Benutzer-IDs (UUID) zu:
 
 * Geräte-ID/Datenanbieter-IDs (DPUUID)
 * Qualifizierte Segment-IDs
 * Eigenschaften-IDs
 
-[!DNL Audience Manager] Kunden haben keinen Zugriff auf Funktionen, die die [!UICONTROL SFPT/S3 publishers]Funktion direkt steuern. Kunden verwenden diesen Dienst indirekt, wenn sie Daten erstellen und an Ziele senden. Das [!UICONTROL SFTP/S3] System ist im Wesentlichen ein automatisierter Auftragsvorgang, der in regelmäßigen Abständen ausgeführt wird.
+[!DNL Audience Manager] Kunden haben keinen Zugriff auf Funktionen, die die  [!UICONTROL SFPT/S3 publishers]Funktion direkt steuern. Kunden verwenden diesen Dienst indirekt, wenn sie Daten erstellen und an Ziele senden. Das [!UICONTROL SFTP/S3]-System ist im Wesentlichen ein automatisierter Auftragsvorgang, der in eingeplanten Intervallen ausgeführt wird.
 
 ## IRIS {#iris}
 
-In der griechischen Mythologie [!UICONTROL Iris] ist eine Figur, die schnell reist und Nachrichten liefert. Das [!UICONTROL IRIS] System ist ein Namensvetter, der die Merkmale dieser Figur aus der alten Welt widerspiegelt. In moderner Hinsicht [!UICONTROL IRIS] ist dies ein Dienst zur Synchronisierung von Cookies mit hoher Latenz und zur Datenübertragung.
+In der griechischen Mythologie ist [!UICONTROL Iris] eine Figur, die schnell reist und Nachrichten liefert. Das [!UICONTROL IRIS]-System ist ein Namensvetter, der die Eigenschaften dieser Figur aus der alten Welt widerspiegelt. In moderner Form ist [!UICONTROL IRIS] ein Dienst zur Synchronisierung von Cookies mit hoher Frequenz und Datenübertragung mit niedriger Latenz.
 
-[!UICONTROL IRIS] funktioniert mit demselben Datentyp wie das [!UICONTROL SFTP/S3] System. Dies [!UICONTROL IRIS] ist jedoch anders, da Daten in Echtzeit und nicht in bestimmten Intervallen an Ziele gesendet werden. Dies ist ein separates System, da die [!UICONTROL SFTP/S3] Herausgeber keine Daten an ein HTTP-Ziel senden können und sie nicht für Datenübertragungen in Echtzeit ausgelegt sind.
+[!UICONTROL IRIS] funktioniert mit demselben Datentyp wie das  [!UICONTROL SFTP/S3] System. [!UICONTROL IRIS] ist jedoch anders, da Daten in Echtzeit und nicht in festgelegten Intervallen an Ziele gesendet werden. Dies ist ein separates System, da die Herausgeber von [!UICONTROL SFTP/S3] keine Daten an ein HTTP-Ziel senden können und nicht für Datenübertragungen in Echtzeit konzipiert sind.
 
-Es gibt keine Steuerelemente der Benutzeroberfläche, mit denen Kunden direkt arbeiten können [!UICONTROL IRIS]. Kunden arbeiten [!UICONTROL IRIS] indirekt, wenn sie Daten erstellen und an Ziele senden, und für andere Prozesse, die eine schnelle Datenübertragung erfordern.
+Es gibt keine Steuerelemente der Benutzeroberfläche, mit denen Kunden direkt mit [!UICONTROL IRIS] arbeiten können. Kunden arbeiten indirekt mit [!UICONTROL IRIS], wenn sie Daten erstellen und an Ziele senden, und für andere Prozesse, die eine schnelle Datenübertragung erfordern.
 
-Beispiele für [!UICONTROL IRIS] Dienste und Funktionen:
+Beispiele für Dienste und Funktionen von [!UICONTROL IRIS]:
 
-* Schnelle Synchronisierung (innerhalb von 30 Sekunden) von Cookies und Segmenten. Es kann das [!DNL Audience Manager] Cookie, Partner-Cookies oder beides synchronisieren.
-* Datenübertragung in Echtzeit [!UICONTROL IRIS] ist für den Versand von Segmentqualifizierungs-Ereignissen in Echtzeit an einen Partner oder einen anderen Zielort verantwortlich. Diese Daten sind JSON-formatiert und über eine HTTP- `POST` Anforderung gesendet.
+* Schnelle Synchronisierung (innerhalb von 30 Sekunden) von Cookies und Segmenten. Es kann das [!DNL Audience Manager]-Cookie, Partner-Cookies oder beide synchronisieren.
+* Datenübertragung in Echtzeit [!UICONTROL IRIS] ist für den Versand von Segmentqualifizierungs-Ereignissen in Echtzeit an einen Partner oder einen anderen Zielort verantwortlich. Diese Daten sind JSON-formatiert und werden über eine HTTP `POST`-Anforderung gesendet.
 
-* Massenübertragung von Server zu Server: Wenn Sie große Datenmengen mit austauschen, [!DNL Audience Manager]ist [!UICONTROL IRIS] das System, mit dem Ihre Server Daten übertragen.
+* Massenübertragung von Server zu Server: Wenn Sie große Datenmengen mit [!DNL Audience Manager] austauschen, ist [!UICONTROL IRIS] das System, mit dem Ihre Server Daten übertragen.
 
-* Zuverlässige Infrastruktur, die skalierbar funktioniert und fehlertolerant ist. Zu den leistungsstarken Systemen [!UICONTROL IRIS] zählen Amazon SQS, Amazon EC2 und Cassandra.
+* Zuverlässige Infrastruktur, die skalierbar funktioniert und fehlertolerant ist. Zu den Systemen mit der Leistung [!UICONTROL IRIS] gehören Amazon SQS, Amazon EC2 und Cassandra.
 
 **Segmentzuordnungsregeln**
 
-Um den Traffic zwischen [!UICONTROL IRIS] und Segmentzielen zu optimieren, [!UICONTROL IRIS] senden Sie Segmente basierend auf einem Regelsatz an Ziele.
+Zur Optimierung des Traffics zwischen [!UICONTROL IRIS]- und Segmentzielen sendet [!UICONTROL IRIS] Segmente basierend auf einem Regelsatz an Ziele.
 
-1. **Neue Segmentqualifizierung**: Wenn ein Gerät für ein neues Segment qualifiziert ist, [!UICONTROL IRIS] sendet es alle mit diesem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind.
+1. **Neue Segmentqualifizierung**: Wenn ein Gerät für ein neues Segment qualifiziert ist,  [!UICONTROL IRIS] sendet es alle mit diesem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind.
 
-1. **Neue Segmentdisqualifikation**: Wenn ein Gerät sich nicht mehr für ein Segment qualifiziert, [!UICONTROL IRIS] sendet es alle mit diesem Gerät verbundenen Segmentqualifikationen und -disqualifikationen an alle Ziele, die diesen Segmenten zugeordnet sind.
+1. **Neue Segmentdisqualifikation**: Wenn ein Gerät sich nicht mehr für ein Segment qualifiziert,  [!UICONTROL IRIS] sendet es alle mit diesem Gerät verbundenen Segmentqualifikationen und -disqualifikationen an alle Ziele, die diesen Segmenten zugeordnet sind.
 
-1. **Aktualisierungen** der Zielzuordnung: Wenn eine Zielzuordnung aktualisiert wird, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn der Audience Manager das Gerät das nächste Mal sieht.
+1. **Aktualisierungen** der Zielzuordnung: Wenn eine Zielzuordnung aktualisiert wird, werden alle mit einem Gerät verknüpften Segmente an alle diesen Segmenten zugeordneten Ziele  [!UICONTROL IRIS] gesendet, wenn der Audience Manager das Gerät das nächste Mal sieht.
 
-1. **Aktualisierungen** des Gerätediagramms: Wenn eine Geräte-ID aus dem Gerätediagramm zur Segmentauswertung hinzugefügt oder entfernt wird, werden alle mit diesem Gerät verknüpften Segmente an alle Ziele gesendet, die diesen Segmenten zugeordnet sind, sobald der Audience Manager das Gerät das nächste Mal sieht. [!UICONTROL IRIS]
+1. **Aktualisierungen** des Gerätediagramms: Wenn eine Geräte-ID aus dem Gerätediagramm zur Segmentauswertung hinzugefügt oder entfernt wird,  [!UICONTROL IRIS] sendet der Audience Manager alle mit diesem Gerät verknüpften Segmente an alle diesen Segmenten zugeordneten Ziele, sobald das Gerät angezeigt wird.
 
 >[!IMPORTANT]
 >
->Wenn Audience Manager drei aufeinander folgende Tage keine der oben genannten Updates erkennt und alle mit einem Gerät verknüpften Segmente an alle Ziele sendet, die diesen Segmenten zugeordnet sind, wird das Gerät beim nächsten Mal angezeigt, wenn der Audience Manager das Gerät sieht. [!UICONTROL IRIS]
+>Wenn Audience Manager an 3 aufeinander folgenden Tagen keine der oben genannten Updates erkennt, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn der Audience Manager das Gerät das nächste Mal anzeigt.
 
 **Beispieldatendatei**
 
-Das folgende Beispiel enthält Echtzeitsegmentdaten aus [!UICONTROL IRIS]. Beachten Sie, dass dies nur Musterdaten sind. Jeder Kunde kann unterschiedliche Formatierungsanforderungen haben, sodass der Inhalt variieren kann.
+Das folgende Beispiel enthält Echtzeitsegmentdaten von [!UICONTROL IRIS]. Beachten Sie, dass dies nur Musterdaten sind. Jeder Kunde kann unterschiedliche Formatierungsanforderungen haben, sodass der Inhalt variieren kann.
 
 ```
 {
