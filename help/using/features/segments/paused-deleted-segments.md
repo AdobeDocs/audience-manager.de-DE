@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Angehaltene und gelöschte Segmente {#paused-and-deleted-segments}
 
-Beschreibt die Auswirkungen auf segmentierte Benutzer, Daten und Ziele, wenn Sie ein aktives Segment anhalten oder löschen [!UICONTROL Segment Builder].
+Beschreibt die Auswirkungen auf segmentierte Benutzer, Daten und Ziele, wenn Sie ein aktives Segment mit [!UICONTROL Segment Builder] anhalten oder löschen.
 
 ## Zugriff auf die Steuerelemente zum Anhalten und Löschen
 
-Bewegen Sie den Mauszeiger über einen Segmentnamen in der Liste &quot;segmente&quot;, um die Symbole **[!UICONTROL pause]** und **[!UICONTROL delete]** Symbole (in der [!UICONTROL Actions] Spalte) anzuzeigen. Diese Funktionen wirken sich wie unten beschrieben auf Segmente aus.
+Bewegen Sie den Mauszeiger über einen Segmentnamen in der Segmentspalte, um die Symbole **[!UICONTROL pause]** und **[!UICONTROL delete]** anzuzeigen (in der Liste [!UICONTROL Actions]). Diese Funktionen wirken sich wie unten beschrieben auf Segmente aus.
 
 ## Angehaltene Segmentfunktionalität
 
@@ -46,4 +46,4 @@ Ein gelöschtes Segment:
 
 >[!NOTE]
 >
->Sie können Segmente auch mit einer [!DNL API] Methode anhalten und löschen. Weitere Informationen finden Sie unter [REST-APIs](../../api/rest-api-main/rest-api-main.md).
+>Sie können Segmente auch mit einer [!DNL API]-Methode anhalten und löschen. Weitere Informationen finden Sie unter [REST-APIs](../../api/rest-api-main/rest-api-main.md).
