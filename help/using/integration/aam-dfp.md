@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 Richten Sie [!DNL Google Ad Manager] als Ziel ein und senden Sie Audience Manager-Segmentdaten an diese Plattform.
 
-Die Dokumentation in diesem Abschnitt beschreibt die veraltete Methode der Integration mit [!DNL Google Ad Manager] und wurde entfernt. Informationen zu [!DNL Google Ad Manager] Integrationen finden Sie unter Google Ad Manager mithilfe von Google Publisher Tags (GPT) [](../integration/gpt-aam-destination/gpt-aam-requirements.md)integrieren.
+Die Dokumentation in diesem Abschnitt beschreibt die veraltete Methode der Integration mit [!DNL Google Ad Manager] und wurde entfernt. Informationen zu [!DNL Google Ad Manager]-Integrationen finden Sie unter [Google Ad Manager mit Google Publisher Tags (GPT)](../integration/gpt-aam-destination/gpt-aam-requirements.md) integrieren.
