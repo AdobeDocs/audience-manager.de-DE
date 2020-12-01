@@ -17,19 +17,19 @@ ht-degree: 12%
 
 # Beispielausdrücke mit Booleschen und Vergleichsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
 
-Beispiele für das Erstellen von Ausdrücken im [!UICONTROL Expression Builder] Code-Editor.
+Beispiele für das Erstellen von Ausdrücken im Code-Editor [!UICONTROL Expression Builder].
 
 ## Übersicht über Codebeispiele {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Erstellen Sie mit dem [!UICONTROL Expression Builder] Code-Editor eigene Eigenschaftsregeln. Die folgenden Beispiele helfen Ihnen beim Einstieg. In einigen Beispielen wird der *`key`* `c_` Variablen der Vorwand gegeben, um sie als benutzerdefinierte Variable zu identifizieren. Schließen Sie das `c_` Präfix (oder eine andere Benennungsregel) für die *`key`* Variable ein, wenn Ihre Ereignis-Aufrufe Daten senden, um diese Syntax zu [!DNL Audience Manager] verwenden.
+Erstellen Sie mit dem Code-Editor [!UICONTROL Expression Builder] eigene Eigenschaftsregeln. Die folgenden Beispiele helfen Ihnen beim Einstieg. Einige der Beispiele stellen der Variablen *`key`* `c_` den Vorwand, um sie als benutzerdefinierte Variable zu identifizieren. Schließen Sie das Präfix `c_` (oder eine andere Benennungsregel) für *`key`* ein, wenn Ihre Ereignis-Aufrufe Daten mit dieser Syntax an [!DNL Audience Manager] senden.
 
 ## Boolesche Ausdruck {#boolean-expressions}
 
 ### UND Beispiel
 
-Die Regel stellt Anforderungen an die Eigenschaftsqualifikation mit booleschen [!UICONTROL AND] Operatoren fest.
+Die Regel stellt Anforderungen an die Eigenschaftsqualifikation mithilfe der booleschen Operatoren [!UICONTROL AND] ein.
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -52,7 +52,7 @@ Die Regel stellt Anforderungen an die Eigenschaftsqualifikation mit booleschen [
 
 ### ODER-Beispiel
 
-Diese Regel legt Anforderungen an die Eigenschaftsqualifikation mit [!DNL Boolean] und [!UICONTROL OR] [!UICONTROL AND] Operatoren fest.
+Diese Regel legt Anforderungen an die Eigenschaftsqualifikation mit den Operatoren [!DNL Boolean] [!UICONTROL OR] und [!UICONTROL AND] fest.
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
@@ -64,7 +64,7 @@ Diese Regel legt Anforderungen an die Eigenschaftsqualifikation mit [!DNL Boolea
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> Erfüllen Sie die durch Variablen <code><i>a </i></code> oder <code><i>b </i></code> und festgelegten Bedingungen <code><i>c </i></code>. </td> 
+   <td colname="col2"> Erfüllen Sie die durch die Variablen <code><i>a </i></code> oder <code><i>b </i></code> und <code><i>c </i></code> festgelegten Bedingungen. </td> 
   </tr> 
  </tbody> 
 </table>
