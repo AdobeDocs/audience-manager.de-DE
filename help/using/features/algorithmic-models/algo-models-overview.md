@@ -17,7 +17,7 @@ ht-degree: 15%
 
 # Algorithmische Modelle – Überblick
 
-## Algorithmische Modellierung{#what-algo-modeling}
+## Algorithmisches Modellieren{#what-algo-modeling}
 
 Algorithmische Modellierung in Audience Manager bezieht sich auf die Verwendung von Datenwissenschaften, um entweder Ihre bestehenden Audiencen zu erweitern oder sie in Personas zu klassifizieren.
 
@@ -27,11 +27,11 @@ Dies geschieht mit zwei Arten von Algorithmen: [!UICONTROL Look-Alike Modeling] 
 
 [!UICONTROL Look-Alike Modeling] hilft Ihnen bei der Erkennung neuer, einzigartiger Audiencen durch die automatisierte Analyse von Daten. Die Prozessdatenquellen werden bei der Auswahl einer Eigenschaft oder eines Segments, eines Zeitintervalls sowie von Erstanbieter- und Drittanbieter-Datenquellen Beginn. Ihre Auswahl bietet die Eingaben für das algorithmische Modell. Wenn der Analyseverfahren ausgeführt wird, sucht er anhand gemeinsamer Merkmale der ausgewählten Population nach infrage kommenden Benutzern.
 
-Nach Abschluss dieser Daten stehen Ihnen im [Eigenschaften-Builder](../../features/traits/about-trait-builder.md) zur Verfügung, mit dem Sie Eigenschaften erstellen können, die auf der [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)basieren. Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit regelbasierten Eigenschaften kombinieren und weitere Qualifikationsanforderungen mit booleschen Ausdrücken und Vergleichsoperatoren hinzufügen.
+Nach Abschluss dieser Daten sind diese Daten in [Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md) verfügbar, wo Sie sie verwenden können, um Eigenschaften zu erstellen, die auf [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md) basieren. Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit regelbasierten Eigenschaften kombinieren und weitere Qualifikationsanforderungen mit booleschen Ausdrücken und Vergleichsoperatoren hinzufügen.
 
 [!UICONTROL Look-Alike Modeling] gibt Ihnen eine dynamische Möglichkeit, Werte aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
 
-Weitere Informationen [!UICONTROL Look-Alike Modeling]finden Sie unter Look-Alike Modeling [verstehen](understanding-models.md).
+Weitere Informationen zu [!UICONTROL Look-Alike Modeling] finden Sie unter [Look-Alike Modeling](understanding-models.md).
 
 ## Vorhersagekräftige Zielgruppen{#predictive-audiences}
 
@@ -41,4 +41,4 @@ In einem Marketing-Kontext ist eine Persona ein Zielgruppensegment, das durch Be
 
 [!UICONTROL Predictive Audiences] -Modelle gehen noch einen Schritt weiter, indem sie die maschinellen Lernfähigkeiten von Audience Manager nutzen, um unbekannte Audiencen automatisch in verschiedene Personen zu klassifizieren. Audience Manager erreicht dies durch Berechnung der Neigung Ihrer unbekannten Audience zu einer Reihe bekannter Audiencen.
 
-Weitere Informationen [!UICONTROL Predictive Audiences]finden Sie unter Übersicht über [Prognostische Audiencen](predictive-audiences.md).
+Weitere Informationen zu [!UICONTROL Predictive Audiences] finden Sie unter [Übersicht über prognostische Audiencen](predictive-audiences.md).
