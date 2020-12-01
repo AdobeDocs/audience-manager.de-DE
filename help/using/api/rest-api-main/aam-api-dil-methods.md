@@ -1,6 +1,6 @@
 ---
-description: Methoden, mit denen Sie programmatisch mit der Data Integration Library (DIL) arbeiten können.
-seo-description: Methoden, mit denen Sie programmatisch mit der Data Integration Library (DIL) arbeiten können.
+description: Methoden, mit denen Sie programmatisch mit der Data Integration Library arbeiten können (DIL).
+seo-description: Methoden, mit denen Sie programmatisch mit der Data Integration Library arbeiten können (DIL).
 seo-title: API-Methoden für die Data Integration Library
 solution: Audience Manager
 title: API-Methoden für die Data Integration Library
@@ -17,17 +17,17 @@ ht-degree: 14%
 
 # API-Methoden für die Data Integration Library {#data-integration-library-api-methods}
 
-Methoden, mit denen Sie programmatisch mit dem [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Methoden, mit denen Sie programmatisch mit dem [!UICONTROL Data Integration Library] ([!UICONTROL DIL] arbeiten können.
 
 >[!IMPORTANT]
 >
->Die Data Integration Library API wurde nicht mehr unterstützt. Diese API zum Generieren von DIL, die Sie jetzt hier selbst herunterladen können: [DIL-Download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>Die Data Integration Librarys-API wurde nicht mehr unterstützt. Diese API zum Generieren von DIL, die Sie jetzt hier selbst herunterladen können: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
 ## Rückgabeversionen für DIL {#return-version-dil}
 
-Eine `GET` Methode, die eine Liste von Versionen zurückgibt, die vom ältesten zum neuesten sortiert wurden.
+Eine `GET`-Methode, die eine Liste von Versionen zurückgibt, die vom ältesten zum neuesten sortiert wurden.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -37,15 +37,15 @@ Eine `GET` Methode, die eine Liste von Versionen zurückgibt, die vom ältesten 
 
 ### Antwort
 
-Bei einer erfolgreichen Anforderung wird der Antwortcode `["4.0", "4.1"]` wie unten dargestellt zurückgegeben.
+Eine erfolgreiche Anforderung gibt den Antwortcode `["4.0", "4.1"]` zurück, wie unten dargestellt.
 
 ```
 ["4.0", "4.1"]
 ```
 
-## JSON-Schema für Version zurückgeben {#return-json-schema-version}
+## JSON-Schema für Version {#return-json-schema-version} zurückgeben
 
-Eine `GET` Methode, die das [!DNL JSON] Schema für die [!UICONTROL DIL] Version zurückgibt. Unterstützt den Einsatz von Alias [!UICONTROL LATEST] für Version, um die neueste Version von zu erhalten [!UICONTROL DIL].
+Eine `GET`-Methode, die das [!DNL JSON]-Schema für [!UICONTROL DIL] zurückgibt. Unterstützt die Verwendung des Alias [!UICONTROL LATEST] für Version, um die neueste Version von [!UICONTROL DIL] abzurufen.
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -381,7 +381,7 @@ Bei einer erfolgreichen Anforderung werden Antwortcode `["4.0", "4.1"]` und Date
 
 ## DIL generieren {#generate-dil}
 
-Eine `GET` Methode, die auf der Grundlage des übergebenen Anforderungstextes mit der angegebenen Version von generiert wird [!UICONTROL DIL] [!UICONTROL DIL]. Wenn der Alias für die Version in der URL verwendet `LATEST` wird, wird die neueste Version von [!UICONTROL DIL] generiert.
+Eine `GET`-Methode, die [!UICONTROL DIL] basierend auf dem übergebenen Anforderungstext mit der angegebenen Version von [!UICONTROL DIL] generiert. Wenn der Alias `LATEST` für die Version in der URL verwendet wird, wird die neueste Version von [!UICONTROL DIL] generiert.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -465,4 +465,4 @@ Eine `GET` Methode, die auf der Grundlage des übergebenen Anforderungstextes mi
 
 ### Antwort
 
-Bei einer erfolgreichen Aktualisierung wird Antwortcode `201 created` zusammen mit dem [!UICONTROL DIL][!DNL JavaScript] -Code zurückgegeben.
+Bei einer erfolgreichen Aktualisierung wird Antwortcode `201 created` zusammen mit dem [!UICONTROL DIL] [!DNL JavaScript]-Code zurückgegeben.
