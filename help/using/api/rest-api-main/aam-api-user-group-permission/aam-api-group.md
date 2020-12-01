@@ -17,13 +17,13 @@ ht-degree: 13%
 
 # API-Methoden für die Gruppenverwaltung {#group-management-api-methods}
 
-Die übrigen [!DNL API] Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
+REST [!DNL API]-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Eine Gruppe erstellen {#create-group}
 
-Eine `POST` Methode zum Erstellen einer neuen Benutzergruppe.
+Eine `POST`-Methode zum Erstellen einer neuen Benutzergruppe.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -54,9 +54,9 @@ Eine `POST` Methode zum Erstellen einer neuen Benutzergruppe.
   }
 ```
 
-## Eine Gruppe aktualisieren {#update-group}
+## Eine Gruppe {#update-group} aktualisieren
 
-Eine `PUT` Methode zum Aktualisieren einer Benutzergruppe.
+Eine `PUT`-Methode zum Aktualisieren einer Benutzergruppe.
 
 <!--
 r_rest_api_group_update.xml
@@ -89,9 +89,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Listen {#list-groups}
+## Listen-Gruppen {#list-groups}
 
-Eine `GET` Methode zur Liste von Benutzergruppen.
+Eine `GET`-Methode zur Liste von Benutzergruppen.
 
 <!--
 r_rest_api_group_list.xml
@@ -119,7 +119,7 @@ r_rest_api_group_list.xml
 
 ## Eine Gruppe löschen {#delete-groups}
 
-Eine `DELETE` Methode zum Löschen einer Benutzergruppe und zum Entfernen aller Mitglieder aus dieser Gruppe.
+Eine `DELETE`-Methode, um eine Benutzergruppe zu löschen und alle Mitglieder aus dieser Gruppe zu entfernen.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -127,11 +127,11 @@ Eine `DELETE` Methode zum Löschen einer Benutzergruppe und zum Entfernen aller 
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Gibt `204 No Content` bei erfolgreicher Ausführung zurück. Im Falle eines Konflikts gibt es `409 Conflict`.
+Gibt `204 No Content` zurück, wenn erfolgreich. Im Falle eines Konflikts gibt `409 Conflict` zurück.
 
 ## Gruppen stapelweise löschen {#delete-groups-bulk}
 
-Eine `DELETE` Methode, mit der mehrere Gruppen stapelweise gelöscht und alle Mitglieder aus dieser Gruppe entfernt werden können.
+Eine `DELETE`-Methode, um mehrere Gruppen stapelweise zu löschen und alle Mitglieder aus dieser Gruppe zu entfernen.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -139,11 +139,11 @@ Eine `DELETE` Methode, mit der mehrere Gruppen stapelweise gelöscht und alle Mi
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Gibt `204 No Content` bei erfolgreicher Ausführung zurück. Im Falle eines Konflikts gibt es `409 Conflict`.
+Gibt `204 No Content` zurück, wenn erfolgreich. Im Falle eines Konflikts gibt `409 Conflict` zurück.
 
 ## Liste aller Berechtigungen für eine Gruppe {#list-permissions-group}
 
-Eine `GET` Methode zur Liste der Berechtigungsobjekte in einer Gruppe.
+Eine `GET`-Methode zur Liste der Berechtigungsobjekte in einer Gruppe.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -173,11 +173,11 @@ Eine `GET` Methode zur Liste der Berechtigungsobjekte in einer Gruppe.
 ]
 ```
 
-Gibt zurück, `400 Bad Request` wenn auf die Gruppe nicht zugegriffen werden kann.
+Gibt `400 Bad Request` zurück, wenn auf die Gruppe nicht zugegriffen werden kann.
 
-## Set Permissions for a Group {#set-permissions-group}
+## Berechtigungen für eine Gruppe {#set-permissions-group} festlegen
 
-Eine `PUT` Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode überschreibt die alten Berechtigungen mit den neuen Berechtigungen.
+Eine `PUT`-Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode überschreibt die alten Berechtigungen mit den neuen Berechtigungen.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -210,4 +210,4 @@ Eine `PUT` Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode ü
 
 Die Beispielantwort stellt die aktualisierte Liste von Berechtigungsobjekten dar.
 
-Gibt `200 OK` bei erfolgreicher Ausführung zurück. Gibt zurück, `400` wenn eine angegebene Berechtigung ungültig ist. Kann auch zurückgegeben werden, `403` wenn der angemeldete Benutzer nicht auf das Objekt zugreifen kann.
+Gibt `200 OK` zurück, wenn erfolgreich. Gibt `400` zurück, wenn eine angegebene Berechtigung ungültig ist. Kann auch `403` zurückgeben, wenn der angemeldete Benutzer nicht auf das Objekt zugreifen kann.
