@@ -27,15 +27,15 @@ c_compedge.xml
 
  -->
 
-Edge-Computing bietet eine verbesserte Leistung als Reaktion auf eine diffuse, internetweite Nachfrage, da die &quot;Kante&quot;selbst eine globale Grenze ist. Dies bedeutet, dass die Verarbeitung dynamisch den Quellen der Nachfrage am nächsten [!DNL Audience Manager] liegt und Daten so schnell wie möglich zurückgegeben werden. Edge-Computing hilft bei der Aufrechterhaltung der Site-Performance, wodurch wiederum das Benutzererlebnis auf Ihrer Website erhalten bleibt. Das Edge-Rechenzentrum ist ein wichtiges Gateway zum Verschieben von Daten in und aus [!DNL Audience Manager]Daten.
+Edge-Computing bietet eine verbesserte Leistung als Reaktion auf eine diffuse, internetweite Nachfrage, da die &quot;Kante&quot;selbst eine globale Grenze ist. Das bedeutet, dass [!DNL Audience Manager] die Verarbeitung dynamisch den Nachfragequellen am nächsten kommt und Daten über den schnellstmöglichen Pfad zurückgibt. Edge-Computing hilft bei der Aufrechterhaltung der Site-Performance, wodurch wiederum das Benutzererlebnis auf Ihrer Website erhalten bleibt. Das Edge-Rechenzentrum ist ein wichtiges Gateway zum Verschieben von Daten in und aus [!DNL Audience Manager].
 
-Das [!DNL Audience Manager] Edge-Rechenzentrum umfasst:
+Das Edge-Rechenzentrum umfasst:[!DNL Audience Manager]
 
-* **Hauptserver:** Das sind die wichtigsten [!DNL Audience Manager] Systeme. Sie aktualisieren und stellen Daten für die Edge-Server bereit.
+* **Core-Server:** Dies sind die wichtigsten  [!DNL Audience Manager] Systeme. Sie aktualisieren und stellen Daten für die Edge-Server bereit.
 
-* **Edge-Server:** Normalerweise handelt es sich dabei um Anwendungs- und/oder Webserver. Sie sitzen an der Grenze zwischen [!DNL Audience Manager] dem Internet. Edge-Server, wie z. B. die [!DNL DCS] Akamai-Systeme, behandeln in der Regel Daten und Anforderungen, die in die und aus der Datenbank fließen [!DNL Audience Manager].
+* **Edge-Server:** Normalerweise handelt es sich um Anwendungs- und/oder Webserver. Sie sitzen an der Grenze zwischen [!DNL Audience Manager] und dem Internet. Edge-Server, wie z. B. die [!DNL DCS]- oder Akamai-Systeme, behandeln in der Regel Daten und Anforderungen, die von [!DNL Audience Manager] in- und abfließen.
 
-* **Lastenausgleich:** Verwalten Sie uneinheitliche Computing-/Verarbeitungsanforderungen, die mit Internetanwendungen verbunden sind. Diese Ausgleiche verhindern, dass Cluster von Servern überladen werden, während andere untätig bleiben.
+* **Lastenausgleich:** Verwalten Sie ungleiche Computing-/Verarbeitungsanforderungen, die mit Internetanwendungen verbunden sind. Diese Ausgleiche verhindern, dass Cluster von Servern überladen werden, während andere untätig bleiben.
 
 Die folgende Abbildung zeigt die Umgebung des Rechenzentrums am Audience Manager.
 
@@ -43,4 +43,4 @@ Die folgende Abbildung zeigt die Umgebung des Rechenzentrums am Audience Manager
 
 ## Geografische Verteilung und Lastenausgleich {#geo-dist-balance}
 
-Siehe [!DNL DCS] Abschnitt zu [Datenerfassungskomponenten](../../reference/system-components/components-data-collection.md).
+Siehe Abschnitt [!DNL DCS] in [Datenerfassungskomponenten](../../reference/system-components/components-data-collection.md).
