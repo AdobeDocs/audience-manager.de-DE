@@ -23,22 +23,22 @@ Ein Überblick über den Informationsaustausch zwischen Audience Manager und and
 
 Die Wahl der richtigen Integrationsmethode hängt von einer Kombination aus Geschäftsanforderungen und den technischen Fähigkeiten Ihres Datenpartners ab. Audience Manager tauscht Besucher-Informationen mit anderen Datenanbietern auf eine der folgenden Methoden aus:
 
-* **Echtzeit:** Sendet Daten sofort, wenn ein Benutzer Ihre Site besucht. Diese Methode wird auch als *`synchronous`* Integration bezeichnet.
-* **Stapel ([!DNL Server-to-Server]):** Sendet Daten nach einem festgelegten Zeitplan zwischen Servern, nachdem ein Besucher die Seite verlassen hat. Diese Methode wird auch als *`out-of-band`* oder *`asynchronous`* Integration bezeichnet.
+* **Echtzeit: Daten werden sofort** übertragen, wenn ein Benutzer Ihre Site besucht. Diese Methode wird auch als *`synchronous`*-Integration bezeichnet.
+* **Stapel ([!DNL Server-to-Server]):** Sendet Daten nach einem festgelegten Zeitplan zwischen Servern, nachdem ein Besucher die Seite verlassen hat. Diese Methode wird auch als *`out-of-band`*- oder *`asynchronous`*-Integration bezeichnet.
 
-## Voraussetzungen: Eigenschaften-Taxonomie erstellen {#prereqs}
+## Voraussetzungen: Erstellen einer Eigenschaftstaxonomie {#prereqs}
 
-Bevor der Integrationsprozess beginnt, müssen Sie Eigenschaften [und eine](../features/traits/create-onboarded-rule-based-traits.md) Ordnerstruktur [in der](../features/traits/trait-storage.md#create-trait-storage-folder) Benutzeroberfläche [!DNL Audience Manager] erstellen. Die Taxonomie enthält alle Ihre [!UICONTROL traits] in einer logischen Hierarchie.
+Bevor der Integrationsprozess beginnt, denken Sie an [Eigenschaften erstellen](../features/traits/create-onboarded-rule-based-traits.md) und an eine [Ordnerstruktur](../features/traits/trait-storage.md#create-trait-storage-folder) in der [!DNL Audience Manager]-Benutzeroberfläche. Die Taxonomie enthält alle [!UICONTROL traits] in einer logischen Hierarchie.
 
-## Anwendungsfälle der Integration {#integration-use-cases}
+## Anwendungsfälle für Integration {#integration-use-cases}
 
 Eine Anwendungsfallzusammenfassung mit den Audience Manager-Datenintegrationsmethoden sowie deren Vor- und Nachteile.
 
-### Echtzeit- [!DNL Server-to-Server] Integrationen
+### Real-Time [!DNL Server-to-Server]-Integrationen
 
 <!-- c_int_types_use_cases.xml -->
 
-Bei einer Echtzeit- [!DNL server-to-server] Datenintegration werden Benutzerdaten schnell zwischen Audience Manager-Servern und einem anderen Targeting-System synchronisiert. In den meisten Fällen findet der Datenaustausch in Sekunden oder Minuten statt, je nach der Aktualisierungsrate des Targeting-Systems. Beachten Sie jedoch, dass das Targeting-System dieses Aktualisierungsintervall und nicht den Audience Manager bestimmt. Darüber hinaus kann die Aktualisierungsrate je nach System variieren. Eine Integration in Echtzeit ist der bevorzugte Integrationstyp für den Datenaustausch [!UICONTROL server-to-server] . Audience Manager verwendet diese Methode, wenn Targeting-Partner sie unterstützen können.
+Bei einer Echtzeit-Datenintegration von [!DNL server-to-server] werden Benutzerdaten schnell zwischen Audience Manager-Servern und einem anderen Targeting-System synchronisiert. In den meisten Fällen findet der Datenaustausch in Sekunden oder Minuten statt, je nach der Aktualisierungsrate des Targeting-Systems. Beachten Sie jedoch, dass das Targeting-System dieses Aktualisierungsintervall und nicht den Audience Manager bestimmt. Darüber hinaus kann die Aktualisierungsrate je nach System variieren. Eine Integration in Echtzeit von [!UICONTROL server-to-server] ist der bevorzugte Integrationstyp für den Datenaustausch. Audience Manager verwendet diese Methode, wenn Targeting-Partner sie unterstützen können.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -48,7 +48,7 @@ Bei einer Echtzeit- [!DNL server-to-server] Datenintegration werden Benutzerdate
     <li id="li_1737EBB1AD8844BD87E736BB4D8080EF">Damit können Sie Benutzer für Segmente qualifizieren, ohne sie erneut auf der Seite, in einem Videoplayer usw. anzuzeigen. </li>
     <li id="li_1C1F346CB7BD40508AA5A6918C6B8514"> Reduziert die Anzahl der HTTP-Aufrufe von der Seite. Weniger Aufrufe tragen dazu bei, die Benutzererfahrung zu erhalten. </li>
     <li id="li_046BF4568B104F53A0E5372568C957CD">Hilft beim zeitabhängigen Targeting, damit Sie schnell handeln können. </li>
-    <li id="li_70F7AB19AC5D4A9AB80216A2B05163B8">Nützlich beim Wechsel zu einem DSP für Offsite-Targeting. </li>
+    <li id="li_70F7AB19AC5D4A9AB80216A2B05163B8">Nützlich beim Wechsel zu einer DSP für Offsite-Targeting. </li>
    </ul></td>
  </tr>
  <tr class="strow">
@@ -59,7 +59,7 @@ Bei einer Echtzeit- [!DNL server-to-server] Datenintegration werden Benutzerdate
 
 ### [!DNL Server-to-Server] Batch-Integrationen
 
-Bei einer [!DNL server-to-server] Stapelintegration werden Daten gebündelt und in festgelegten Intervallen und nicht in Echtzeit an andere Systeme gesendet. Beginn der Datenübertragungsintervalle ab 24 Stunden. Einige Datenanbieter unterstützen nur diesen Integrationstyp. Wir haben jedoch einen allgemeinen Trend gesehen, weg von Batch-Integrationen hin zu Echtzeit-Integrationsmethoden.
+Bei einer [!DNL server-to-server]-Batchintegration werden Daten gebündelt und in festgelegten Intervallen und nicht in Echtzeit an andere Systeme gesendet. Beginn der Datenübertragungsintervalle ab 24 Stunden. Einige Datenanbieter unterstützen nur diesen Integrationstyp. Wir haben jedoch einen allgemeinen Trend gesehen, weg von Batch-Integrationen hin zu Echtzeit-Integrationsmethoden.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -119,10 +119,10 @@ Beschreibt technische und geschäftliche Gründe für das Senden von Daten über
 
 ### Auswählen eines Data Versand-Typs
 
-* **Technische Überlegungen:** Der Versand von Daten hängt von den technischen Möglichkeiten des Datenpartners ab. Audience Manager können Daten in Echtzeit vom Browser oder durch Batch-Aktualisierungen über Offline-, Server-zu-Server-Kommunikationsprozesse senden/empfangen.
-* **Geschäftsaspekte:** Die geschäftlichen Gründe für die Auswahl der einen oder anderen Versand-Methode hängen von den technischen Möglichkeiten Ihres Zielpartners und davon ab, wie Sie diese Daten verwenden möchten. In der Regel sind synchrone Datenübertragungen nützlich, wenn Sie sofort auf Benutzerdaten reagieren müssen. Asynchrone Datenübertragungen können nützlich sein, wenn sofortiges Handeln nicht erforderlich ist und Sie Zeit haben, tiefere Profil für die spätere Verwendung zu erstellen.
+* **Technische Überlegungen:** Der Versand von Daten hängt von den technischen Fähigkeiten des Datenpartners ab. Audience Manager können Daten in Echtzeit vom Browser oder durch Batch-Aktualisierungen über Offline-, Server-zu-Server-Kommunikationsprozesse senden/empfangen.
+* **Geschäftsaspekte:** Die Geschäftsgründe für die Auswahl einer Versand-Methode hängen von den technischen Möglichkeiten Ihres Zielpartners und der Art und Weise ab, wie Sie diese Daten verwenden möchten. In der Regel sind synchrone Datenübertragungen nützlich, wenn Sie sofort auf Benutzerdaten reagieren müssen. Asynchrone Datenübertragungen können nützlich sein, wenn sofortiges Handeln nicht erforderlich ist und Sie Zeit haben, tiefere Profil für die spätere Verwendung zu erstellen.
 
-## Real-Time Data Transfer Process {#real-time-data-transfer-process}
+## Datenübertragungsprozess in Echtzeit {#real-time-data-transfer-process}
 
 Eine allgemeine Übersicht darüber, wie Audience Manager einen synchronen Datenaustausch mit einem Drittanbieter durchführt.
 
@@ -137,8 +137,8 @@ Echtzeit-Datenübertragungen senden und empfangen Segment-IDs als Benutzerbesuch
 Der Datenintegrationsprozess in Echtzeit funktioniert wie folgt:
 
 1. Ein Benutzer besucht die Site eines Kunden, die Audience Manager-Code enthält.
-1. Audience Manager lädt einen Iframe und ruft die [!UICONTROL Data Collection Server] ([!DNL DCS]) auf.
-1. Der Drittanbieterserver [!DNL DCS] ruft (in Echtzeit) auf, um zu prüfen, ob der Anbieter Segmentinformationen über den Benutzer hat.
+1. Audience Manager lädt einen Iframe und ruft das [!UICONTROL Data Collection Server] ([!DNL DCS]) auf.
+1. Das [!DNL DCS] ruft den Drittanbieter-Server (in Echtzeit) auf, um zu prüfen, ob der Anbieter Segmentinformationen über den Benutzer hat.
 1. Der Drittanbieter gibt Segmentinformationen über diesen Benutzer an den Audience Manager zurück.
 1. Audience Manager erfasst Segmentinformationen und stellt sie für das Targeting bereit.
 
@@ -152,11 +152,11 @@ Eine allgemeine Übersicht darüber, wie Audience Manager Daten synchron (in Ech
 
 <!-- c_int_overview_async.xml -->
 
-Der Batch-([!DNL server-to-server]) Datenintegrationsprozess folgt den meisten Schritten, die im Datenübertragungsprozess in Echtzeit beschrieben werden. Statt jedoch Segment-IDs sofort zurückzugeben, werden Benutzerinformationen in regelmäßigen Abständen auf unseren Servern gespeichert und mit einem Drittanbieter synchronisiert. Der Prozess der asynchronen Datenübertragung ist nützlich, wenn:
+Der Batch-Datenintegrationsprozess ([!DNL server-to-server]) folgt den meisten Schritten, die im Datenübertragungsprozess in Echtzeit beschrieben werden. Statt jedoch Segment-IDs sofort zurückzugeben, werden Benutzerinformationen in regelmäßigen Abständen auf unseren Servern gespeichert und mit einem Drittanbieter synchronisiert. Der Prozess der asynchronen Datenübertragung ist nützlich, wenn:
 
 * Eine sofortige Datenübertragung ist nicht erforderlich.
 * Datenerfassung zum Aufbau eines großen Pools segmentierter Benutzer.
-* Sie möchten Datendiskrepanzen und `HTTP` Aufrufe vom Browser reduzieren.
+* Sie möchten Datendiskrepanzen und `HTTP`-Aufrufe vom Browser reduzieren.
 
 ### Batch-Datenintegrationsschritte
 
@@ -167,4 +167,4 @@ Der Batch-([!DNL server-to-server]) Datenintegrationsprozess folgt den meisten S
 
 ![](assets/s2s_70.png)
 
-Weitere Informationen zu den Zeiträumen, in denen Audience Manager eingehende und ausgehende [!DNL Server-to-Server] ([!UICONTROL S2S]) Dateiübertragungen verarbeitet, finden Sie unter Richtlinien für die [Berichte- und Dateiübertragung](../reference/reporting-file-transfer-timeframe.md).
+Informationen zu den Zeiträumen, in denen Audience Manager eingehende und ausgehende [!DNL Server-to-Server] ([!UICONTROL S2S]) Dateiübertragungen verarbeitet, finden Sie unter [Berichte- und Dateiübertragungs-Zeitrahmen-Richtlinien](../reference/reporting-file-transfer-timeframe.md).
