@@ -17,11 +17,11 @@ ht-degree: 9%
 
 # Ansicht: Segmentliste {#segments-list-view}
 
-Das [Segments-Dashboard](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) ist ein zentralisierter Arbeitsbereich zur Verwaltung Ihrer Audiencen. Sie können das [!UICONTROL Segments] Dashboard anzeigen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+Das [Segments-Dashboard](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) ist ein zentralisierter Arbeitsbereich zur Verwaltung Ihrer Audiencen. Sie können das Dashboard [!UICONTROL Segments] anzeigen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** navigieren.
 
 ![segment-Dashboard](assets/segments-dashboard.png)
 
-Die [!UICONTROL Segments] Seite enthält Funktionen und Tools, die Ihnen helfen,
+Die Seite [!UICONTROL Segments] enthält Funktionen und Tools, die Ihnen helfen:
 
 * Erstellen neuer Segmente;
 * Bearbeiten und Löschen von Segmenten;
