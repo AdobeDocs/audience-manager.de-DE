@@ -21,25 +21,25 @@ Der Bericht &quot;Individuelle Benutzerreichweite&quot;gibt Daten in einem Punkt
 
 ## Anwendungsfall {#use-cases}
 
-Mit dem [!UICONTROL Unique User Reach] Bericht können Sie die Eigenschaften in Ihrem Portfolio identifizieren, die eine große Anzahl individueller Benutzer anziehen.
+Mit dem Bericht [!UICONTROL Unique User Reach] können Sie die Eigenschaften in Ihrem Portfolio identifizieren, die eine große Anzahl von Unique Users anziehen.
 
 ## Verwenden des Berichts &quot;Einzelne Reichweite&quot; {#using-the-report}
 
-Verwenden Sie das **[!UICONTROL Dimension Value]** Feld, um die Anzeigeneinheiten auszuwählen, die im Bericht angezeigt werden sollen. Klicken Sie auf **[!UICONTROL All]** , um alle Eigenschaften im Punktdiagramm anzuzeigen.
+Verwenden Sie das Feld **[!UICONTROL Dimension Value]**, um die Anzeigeneinheiten auszuwählen, die im Bericht angezeigt werden sollen. Klicken Sie auf **[!UICONTROL All]**, um alle Eigenschaften im Punktdiagramm anzuzeigen.
 
-Passen Sie den **Rückblickbereich** mit den Steuerelementen **&quot;Zeitraum bis** Ende&quot;an.
+Mit den Steuerelementen **Zeitraum** und **Datum bis** können Sie Ihren Lookback-Bereich anpassen.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
 **Beispielbericht**
 
-Ihr [!UICONTROL Unique User Reach] Bericht könnte dem unten stehenden ähneln. Klicken Sie in Ihrem Bericht auf einen Punkt, um die zugrunde liegenden Daten Ansicht. Siehe Beschreibungen der zusätzlichen Informationen in der unten stehenden Tabelle.
+Ihr [!UICONTROL Unique User Reach]-Bericht könnte ähnlich wie der unten stehende aussehen. Klicken Sie in Ihrem Bericht auf einen Punkt, um die zugrunde liegenden Daten Ansicht. Siehe Beschreibungen der zusätzlichen Informationen in der unten stehenden Tabelle.
 
 ![](assets/publisher_unique_user_reach.png)
 
 | Element | Beschreibung |
 |--- |--- |
-| Dimensionswert | Der Name Ihrer Webeigenschaft. |
-| Dimensionstyp | Der Typ der Herausgeberdimension. Wir unterstützen derzeit nur die Anzeigeneinheit als Dimensionstyp. |
+| Dimensionen-Wert | Der Name Ihrer Webeigenschaft. |
+| Dimension | Der Typ der Herausgeberdimension. Wir unterstützen derzeit nur die Anzeigeneinheit als Dimensionstyp. |
 | Eindrücke | Die Anzahl der Impressionen, die für Ihre Webeigenschaft innerhalb des angegebenen Rückblickbereichs bereitgestellt wurden. |
 | Einzelne Reichweite | Die eindeutige Anzahl der Benutzer, die durch die Impressionen in Ihren Webeigenschaften erreicht wurden. |
