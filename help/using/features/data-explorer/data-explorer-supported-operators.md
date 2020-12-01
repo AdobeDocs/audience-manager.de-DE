@@ -34,12 +34,12 @@ Verwenden Sie die folgenden unterstützten logischen Operatoren, um nach Schlüs
 
 ### Benannte Operatoren
 
-| Operator | Wertet [!DNL True] wann aus |
+| Operator | Wertet für [!DNL True] Wenn aus |
 |---|---|
-| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* die von diesem Operator angegebenen Zeichen. |
-| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *Beginn mit* den von diesem Operator angegebenen Zeichen. |
+| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* Zeichen, die von diesem Operator angegeben werden. |
+| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *Beginn mit* Zeichen, die von diesem Operator angegeben werden. |
 | **[!UICONTROL Endswith]** | Der Wert in einem Schlüssel-Wert-Paar *endet mit* den von diesem Operator angegebenen Zeichen. |
 
-## Unterstützte Operatoren für die Aufstockung und Schätzung von Eigenschaften {#supported-operators-backfilling}
+## Unterstützte Operatoren für das Aufstocken von Eigenschaften und für die Schätzung {#supported-operators-backfilling}
 
-Sie können Eigenschaften aufstocken, die Ausdruck enthalten, die die von unterstützten Operatoren enthalten [!UICONTROL Signal Search]. Zusätzlich zu diesen Operatoren unterstützen Eigenschafts-Aufstockungen und Schätzungen auch die [!UICONTROL AND]-, [!UICONTROL OR]- und [!UICONTROL AND NOT] -logischen Operatoren, die zum Kombinieren von Schlüsselwertpaaren innerhalb der hinterfüllten Eigenschaftsvariablen verwendet werden.
+Sie können Eigenschaften aufstocken, die Ausdruck enthalten, die die von [!UICONTROL Signal Search] unterstützten Operatoren enthalten. Zusätzlich zu diesen Operatoren unterstützen Eigenschafts-Aufstockungen und Schätzungen auch die logischen Operatoren [!UICONTROL AND], [!UICONTROL OR] und [!UICONTROL AND NOT], die zum Kombinieren von Schlüsselwertpaaren innerhalb der hinterfüllten Eigenschaftsvariablen verwendet werden.
