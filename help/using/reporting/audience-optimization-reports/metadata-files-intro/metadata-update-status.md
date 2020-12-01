@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Statusaktualisierungen für Metadatendateien{#status-updates-for-metadata-files}
 
-Der S3-Statusordner enthält eine `.info` Datei mit Erfolgs- und Fehlerinformationen zu den hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
+Der S3-Statusordner enthält eine `.info`-Datei mit Erfolgs- und Fehlerinformationen zu den hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
 
-Der Inhalt Ihrer `.info` Datei sieht in etwa wie in diesem Beispiel aus.
+Der Inhalt Ihrer `.info`-Datei sieht ähnlich wie in diesem Beispiel aus.
 
 ```js
 //sample file path
@@ -60,9 +60,9 @@ Der Inhalt Ihrer `.info` Datei sieht in etwa wie in diesem Beispiel aus.
 }
 ```
 
-## Definierte Schlüssel-Wert-Paare für Metadaten {#key-value-pairs}
+## Metadaten-Schlüssel-Wert-Paare definiert {#key-value-pairs}
 
-Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abschnitten `Files` und `Summary` Abschnitten einer Metadaten-Statusdatei.
+Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abschnitten `Files` und `Summary` einer Metadatenstatusdatei.
 
 **Tasten im Dateiarray**
 
@@ -84,19 +84,19 @@ Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abs
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Die MD5-Prüfsumme für die in Ihr <code> meta</code> Verzeichnis hochgeladene Metadatendatei. </p> </td> 
+   <td colname="col2"> <p>Die MD5-Prüfsumme für die Metadatendatei, die in das <code> meta</code>-Verzeichnis hochgeladen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Der Name der Metadatendatei, die in Ihr <code> meta</code> Verzeichnis hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>Der Name der Metadatendatei, die in das <code> meta</code>-Verzeichnis hochgeladen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -121,7 +121,7 @@ Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abs
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Dateiverarbeitungsdatum im <code><i>yyyy-mm-dd</i></code> Format. </p> </td> 
+   <td colname="col2"> <p>Dateiverarbeitungsdatum im Format <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
