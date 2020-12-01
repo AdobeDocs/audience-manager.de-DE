@@ -17,11 +17,11 @@ ht-degree: 1%
 
 # Bericht zur Segmentleistung{#segment-performance-report}
 
-Der [!UICONTROL Segment Performance] Bericht vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Konversionsraten. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
+Der Bericht [!UICONTROL Segment Performance] vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Konversionsraten. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
 
-## So lesen Sie die zugeordneten Segmentergebnisse {#read-mapped-segment-results}
+## Lesen der zugeordneten Segmentergebnisse {#read-mapped-segment-results}
 
-Der zugeordnete [!UICONTROL Segment Performance] Bericht zeigt alle Segmente an, die Sie erstellt haben und an ein Targeting-Ziel gesendet haben. Die Position der zugeordneten Segmente in einem Bericht kann Ihnen eine Menge darüber vermitteln, welche Segmente sich gut entwickeln und wo Sie möglicherweise einige Anpassungen vornehmen müssen.
+Der zugeordnete [!UICONTROL Segment Performance]-Bericht zeigt alle Segmente an, die Sie erstellt haben und an ein Targeting-Ziel gesendet haben. Die Position Ihrer zugeordneten Segmente in einem Bericht kann Ihnen eine Menge darüber vermitteln, welche Segmente sich gut entwickeln und wo Sie möglicherweise einige Anpassungen vornehmen müssen.
 
 Zum Lesen des Berichts hilft er, die Ergebnisse in 4 Abschnitte mit imaginären Zeilen (in Rot) und den Kategorien im Beispielbericht unten aufzuteilen.
 
@@ -58,7 +58,7 @@ Die Beschriftungen im Beispiel und in der folgenden Tabelle können Ihnen dabei 
 
 ## Lesen der nicht zugeordneten Segmentergebnisse {#read-unmapped-segment-results}
 
-Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance] Bericht ansehen, können Sie auf diese Weise neue Segmente finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen. Dies liegt daran, dass ein nicht zugeordnete Segment eine Reihe von Qualifikationskriterien erfüllen muss, die in diesen Bericht aufgenommen werden müssen. Um in diesen Bericht aufgenommen zu werden, muss ein nicht zugeordnete Segment:
+Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance]-Bericht ansehen, können Sie auf diese Weise neue Segmente finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen. Dies liegt daran, dass ein nicht zugeordnete Segment eine Reihe von Qualifikationskriterien erfüllen muss, die in diesen Bericht aufgenommen werden müssen. Um in diesen Bericht aufgenommen zu werden, muss ein nicht zugeordnete Segment:
 
 * Übernehmen Sie Konversionen, die den Durchschnitt aller zugeordneten Segmente überschreiten.
 * Befinden Sie sich Konversionsrat in den 100 unzugeordneten Segmenten.
@@ -71,4 +71,4 @@ In diesem Bericht möchten Sie sich nur auf die nicht zugeordneten Segmente im o
 
 >[!NOTE]
 >
->7- und 30-Tage-Lookback-Zeiträume sind nur für Sonntagsdaten **[!UICONTROL Date Through]** verfügbar.
+>7-Tage- und 30-Tage-Lookback-Zeiträume sind nur für Sonntag **[!UICONTROL Date Through]**-Daten verfügbar.
