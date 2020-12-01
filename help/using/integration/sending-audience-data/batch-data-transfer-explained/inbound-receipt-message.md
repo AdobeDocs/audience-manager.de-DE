@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Beispielnachricht an Partner nach der eingehenden Verarbeitung{#sample-message-to-partners-after-inbound-processing}
 
-Bei jeder Verarbeitung einer eingehenden [!UICONTROL Server-to-Server] Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
+Bei jeder Verarbeitung einer eingehenden [!UICONTROL Server-to-Server]-Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
 
 <!-- r_inbound_message.xml -->
 
@@ -26,7 +26,7 @@ Das folgende Beispiel zeigt eine E-Mail-Musternachricht. Die Tabelle unter der N
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Von: aam-noreply@adobe.com </b> </p> <p> <b>Betrifft: Verarbeitungsergebnis von Adobe Audience Manager zu Server:</b> </p> <p> <b>Sehr geehrter Adobe Partner: (ID:7)</b> <b></b> </p> <p> <b>Wir haben Ihren Adobe Audience Manager-Server-to-Server-Versand erhalten.</b> </p> <p> <b>Dateiname:</b> <i></i> </p> <p> <b> s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>Bucket-Name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>eingegangenen Aufzeichnungen: 40669900</b> </p> <p><b>Formatfehler: 0</b> </p> <p> <b>Ungültige AAM-ID: 112 </b> </p> <p> <b>Keine übereinstimmende AAM-ID: 0 </b> </p> <p> <b>Keine Eigenschaft realisiert: 26730823 </b> </p> <p> <b>Aufbereitete Datensätze: 40669900 </b> </p> <p> <b>Gespeicherte Datensätze: 13938958 </b> </p> <p> <b>Geräte insgesamt: 21 </b> </p> <p> <b>Signale insgesamt: 918878926 </b> </p> <p> <b>Nicht verwendete Signale insgesamt: 660348376 </b> </p> <p> <b>Gesamtzahl der realisierten Eigenschaften: 258086908 </b> </p> <p> <b>Entfernte Eigenschaften insgesamt: 0 </b> </p> <p> <b>Überprüfung der Gesamtzahl der Eigenschaften fehlgeschlagen: 0 </b> </p> <p> <b>Gesamtzahl der Benutzer mit Eigenschaften, bei denen die Überprüfung fehlgeschlagen ist: 0 </b> </p> <p> <b>Beginn des Auftrags: 2018-05-17 18:07:49 </b> </p> <p> <b>Auftragsendzeit: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>Von: aam-noreply@adobe.com  </b> </p> <p> <b>Betrifft: Adobe Audience Manager Server-to-Server-Verarbeitungsergebnis:</b> </p> <p> <b>Sehr geehrte Adobe Partner: (ID:7)</b> <b></b> </p> <p> <b>Wir haben Ihren Adobe Audience Manager Server-to-Server-Versand erhalten.</b> </p> <p> <b>Dateiname:</b> <i></i> </p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </i></p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </i></p> <p> <b>eingegangenen Aufzeichnungen: 40669900</b> </p> <p><b>Formatfehler: 0</b> </p> <p> <b>Ungültige AAM-ID: 112  </b> </p> <p> <b>Keine übereinstimmende AAM-ID: 0  </b> </p> <p> <b>Keine Eigenschaft realisiert: 26730823  </b> </p> <p> <b>Aufbereitete Datensätze: 40669900  </b> </p> <p> <b>Gespeicherte Datensätze: 13938958  </b> </p> <p> <b>Geräte insgesamt: 21  </b> </p> <p> <b>Signale insgesamt: 918878926  </b> </p> <p> <b>Nicht verwendete Signale insgesamt: 660348376  </b> </p> <p> <b>Gesamtzahl der realisierten Eigenschaften: 258086908  </b> </p> <p> <b>Entfernte Eigenschaften insgesamt: 0  </b> </p> <p> <b>Überprüfung der Gesamtzahl der Eigenschaften fehlgeschlagen: 0  </b> </p> <p> <b>Gesamtzahl der Benutzer mit Eigenschaften, bei denen die Überprüfung fehlgeschlagen ist: 0  </b> </p> <p> <b>Beginn des Auftrags: 2018-05-17 18:07:49  </b> </p> <p> <b>Auftragsendzeit: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,11 +43,11 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail e
  <tbody> 
   <tr> 
    <td colname="col1"> Dateiname </td> 
-   <td colname="col2"> <p>Liste aller eingehenden Dateien, die Adobe für diesen Partner erhalten hat und die zusammen verarbeitet wurden. In der vorherigen Beispiel-E-Mail-Nachricht ist die Partner-ID 7 und die Dateneigner-ID 901. </p> <p>Die Zahl "Tail"(1,2,3...) ist die vom Kunden oder vom Händler hinzugefügte Teilungsnummer. </p> </td> 
+   <td colname="col2"> <p>Liste aller eingehenden Dateien, die die Adobe für diesen Partner erhalten hat und die zusammen verarbeitet wurden. In der vorherigen Beispiel-E-Mail-Nachricht ist die Partner-ID 7 und die Dateneigner-ID 901. </p> <p>Die Zahl "Tail"(1,2,3...) ist die vom Kunden oder vom Händler hinzugefügte Teilungsnummer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Aufgenommene Aufzeichnungen </td> 
-   <td colname="col2"> <p>Gesamtzahl der von Adobe in allen Dateien eingegangenen Datensätze. In den meisten Fällen sollte dies die Gesamtanzahl der Zeilen in eingehenden Dateien sein. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl der Adoben, die in allen Dateien eingegangen sind. In den meisten Fällen sollte dies die Gesamtanzahl der Zeilen in eingehenden Dateien sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Formatfehler </td> 
@@ -71,7 +71,7 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail e
   </tr> 
   <tr> 
    <td colname="col1"> Gespeicherte Datensätze </td> 
-   <td colname="col2"> <p>Anzahl der Datensätze, die dazu führen, dass Daten in das System geladen werden = Aufzeichnungen verarbeitet - Formatfehler - Ungültige AAM-IDs - Keine übereinstimmende AAM-ID - Keine Eigenschaft erkannt. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Datensätze, die dazu führen, dass Daten in das System geladen werden = verarbeitete Datensätze - Formatfehler - Ungültige AAM-IDs - Keine übereinstimmende AAM-ID - Keine Eigenschaft erkannt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Geräte insgesamt </td> 
