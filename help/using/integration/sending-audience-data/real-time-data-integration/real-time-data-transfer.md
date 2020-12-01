@@ -17,15 +17,15 @@ ht-degree: 7%
 
 # Erfassung eingehender Daten in Echtzeit {#real-time-inbound-data-ingestion}
 
-Der Prozess der Dateneingabe in Echtzeit nutzt eine Reihe von `HTTP` Anforderungen aus dem Browser des Benutzers, um Daten an den Audience Manager weiterzugeben.
+Der Prozess zur Erfassung von Eingangsdaten in Echtzeit verwendet eine Reihe von `HTTP`-Anforderungen eines Benutzerbrowsers, um Daten an den Audience Manager zu übermitteln.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-Eingehende Daten sollten als Schlüssel-Wert-Paare, so genannte Signale, formatiert werden. Normalerweise wird jedes Signal einem Segment zugeordnet, das über die Benutzeroberfläche oder [!DNL API]die Benutzeroberfläche erstellt oder verwaltet wird.
+Eingehende Daten sollten als Schlüssel-Wert-Paare, so genannte Signale, formatiert werden. Normalerweise wird jedes Signal einem Segment zugeordnet, das über die Benutzeroberfläche oder [!DNL API] erstellt oder verwaltet wird.
 
-## URL-Zeichenfolgenparameter und -Syntax {#url-string-syntax}
+## URL-Zeichenfolgenparameter und Syntax {#url-string-syntax}
 
-Die Variablen [!DNL URL] für eine eingehende Datenübertragung sollten die unten beschriebenen Variablen enthalten. Denken Sie daran, Eigenschaften [und eine](../../../features/traits/create-onboarded-rule-based-traits.md) Ordnerstruktur [in der](../../../features/traits/trait-storage.md#create-trait-storage-folder) Benutzeroberfläche zu [!DNL Audience Manager] erstellen, bevor Sie Datenübertragungen in Echtzeit einrichten.
+Die Variablen [!DNL URL] für eine eingehende Datenübertragung sollten die unten beschriebenen Variablen enthalten. Denken Sie daran, in der Benutzeroberfläche ](../../../features/traits/trait-storage.md#create-trait-storage-folder) Eigenschaften [ und eine ](../../../features/traits/create-onboarded-rule-based-traits.md)Ordnerstruktur[ zu erstellen, bevor Sie Datenübertragungen in Echtzeit einrichten.[!DNL Audience Manager]
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Die Variablen [!DNL URL] für eine eingehende Datenübertragung sollten die unte
 
 ### URL-Syntax
 
-Während eines Echtzeit-Inbound-Datenerfassungsprozesses verwendet eine ordnungsgemäß formatierte [!DNL URL] Zeichenfolge die folgende Syntax:
+Während eines Echtzeit-Inbound-Datenerfassungsprozesses verwendet eine korrekt formatierte [!DNL URL]-Zeichenfolge die folgende Syntax:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
