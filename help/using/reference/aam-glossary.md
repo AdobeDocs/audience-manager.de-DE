@@ -27,7 +27,7 @@ Verwenden Sie die [!UICONTROL Algorithmic Modeling], um die Reichweite über den
 
 Siehe [Grundlegendes zu algorithmischen Modellen](../features/algorithmic-models/algo-models-overview.md).
 
-<br> 
+<br>
 
 **BAAAM**
 
