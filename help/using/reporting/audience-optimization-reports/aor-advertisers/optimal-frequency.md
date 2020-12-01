@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Der Bericht &quot;Optimale Häufigkeit&quot;hilft Ihnen dabei, das optimale Gleichgewicht zwischen der Anzahl der bereitgestellten Impressionen und Konversionen zu ermitteln. Damit können Sie die Anzahl der Impressionen anpassen, die angezeigt werden sollen, bevor Sie mit der Anzeige von sinkenden Renditen beginnen.
 
-Der Bericht verfügt über ein 30-tägiges Lookback-Intervall ab dem in der [!UICONTROL Date Through] Auswahl gewählten Datum.
+Der Bericht verfügt über ein 30-Tage-Lookback-Intervall ab dem Datum, das in der Auswahl von [!UICONTROL Date Through] ausgewählt wurde.
 
 Das Konversionsvolumen sinkt normalerweise mit höheren Impressionsfrequenzbehältern. Weniger Benutzer sehen die höhere Anzahl von Impressionen. Das bedeutet, dass diese höheren Frequenzbehälter weniger Konversionen aufweisen.
 
