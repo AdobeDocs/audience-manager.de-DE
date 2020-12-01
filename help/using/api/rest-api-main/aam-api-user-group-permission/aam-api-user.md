@@ -17,13 +17,13 @@ ht-degree: 7%
 
 # API-Methoden für die Benutzerverwaltung {#user-management-api-methods}
 
-Verwenden Sie keine [!DNL API] Methoden zum Verwalten von Benutzern, einschließlich Erstellen, Aktualisieren, Auflisten, Löschen und Zurückgeben von Benutzerobjekten.
+REST [!DNL API]-Methoden zur Verwaltung von Benutzern, einschließlich Erstellen, Aktualisieren, Auflisten, Löschen und Zurückgeben von Benutzerobjekten.
 
 <!-- c_rest_api_user_man_user.xml -->
 
-## Create a User {#create-user}
+## Einen Benutzer {#create-user} erstellen
 
-Eine `POST` Methode zum Erstellen eines neuen Benutzers.
+Eine `POST`-Methode zum Erstellen eines neuen Benutzers.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -66,13 +66,13 @@ Eine `POST` Methode zum Erstellen eines neuen Benutzers.
 }
 ```
 
-Wenn &quot;true&quot; `isAdmin` festgelegt ist, wird der Benutzer als Partner-Administrator erstellt. Diese Eigenschaft informiert Sie auch darüber, ob ein Benutzer ein Partner-Administrator ist.
+Wenn `isAdmin` auf &quot;true&quot;gesetzt ist, wird der Benutzer als Partner-Administrator erstellt. Diese Eigenschaft informiert Sie auch darüber, ob ein Benutzer ein Partner-Administrator ist.
 
-Gibt zurück, `409 Conflict` wenn der Benutzername bereits verwendet wurde.
+Gibt `409 Conflict` zurück, wenn der Benutzername bereits verwendet wurde.
 
-## Benutzer aktualisieren {#update-user}
+## Aktualisieren eines Benutzers {#update-user}
 
-Eine `PUT` Methode zum Aktualisieren eines Benutzers.
+Eine `PUT`-Methode zum Aktualisieren eines Benutzers.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -111,17 +111,17 @@ Eine `PUT` Methode zum Aktualisieren eines Benutzers.
 }
 ```
 
-Gibt zurück, `409 Conflict` wenn der Benutzername bereits verwendet wurde.
+Gibt `409 Conflict` zurück, wenn der Benutzername bereits verwendet wurde.
 
 ## Anmeldenamen Benutzer aktualisieren {#update-logged-in-user}
 
-Eine `PUT` Methode zum Aktualisieren des derzeit angemeldeten Benutzers.
+Eine `PUT`-Methode zum Aktualisieren des derzeit angemeldeten Benutzers.
 
 <!-- r_rest_api_user_update_self.xml -->
 
 >[!NOTE]
 >
->Während die meisten [!DNL API] Methoden nur von Partneradministratoren aufgerufen werden können, ist diese Methode von Benutzern ohne Administratorrechte aufgerufen werden können.
+>Während die meisten [!DNL API]-Methoden nur von Partneradministratoren aufgerufen werden können, ist diese Methode von Nicht-Admin-Benutzern aufgerufen werden können.
 
 ### Anfrage
 
@@ -154,17 +154,17 @@ Eine `PUT` Methode zum Aktualisieren des derzeit angemeldeten Benutzers.
 }
 ```
 
-Gibt zurück, `409 Conflict` wenn der Benutzername bereits verwendet wurde.
+Gibt `409 Conflict` zurück, wenn der Benutzername bereits verwendet wurde.
 
-## Kennwort des angemeldeten Benutzers aktualisieren {#update-logged-in-user-pw}
+## Kennwort für angemeldete Benutzer aktualisieren {#update-logged-in-user-pw}
 
-Eine `PUT` Methode zum Aktualisieren des derzeit angemeldeten Benutzers.
+Eine `PUT`-Methode zum Aktualisieren des derzeit angemeldeten Benutzers.
 
 <!-- r_rest_api_user_password.xml -->
 
 >[!NOTE]
 >
->Während die meisten [!DNL API] Methoden nur von Partneradministratoren aufgerufen werden können, ist diese Methode von Benutzern ohne Administratorrechte aufgerufen werden können.
+>Während die meisten [!DNL API]-Methoden nur von Partneradministratoren aufgerufen werden können, ist diese Methode von Nicht-Admin-Benutzern aufgerufen werden können.
 
 ### Anfrage
 
@@ -176,27 +176,27 @@ Eine `PUT` Methode zum Aktualisieren des derzeit angemeldeten Benutzers.
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Gibt `200 OK` bei erfolgreicher Ausführung zurück. Gibt zurück, `400 Bad Request` wenn mit einem der beiden Kennwörter etwas nicht stimmt.
+Gibt `200 OK` zurück, wenn erfolgreich. Gibt `400 Bad Request` zurück, wenn bei einem der beiden Kennwörter etwas nicht stimmt.
 
-## Passwort des angemeldeten Benutzers zurücksetzen {#reset-logged-in-user-pw}
+## Zurücksetzen des angemeldeten Benutzerkennworts {#reset-logged-in-user-pw}
 
-Eine `PUT` Methode zum Zurücksetzen des derzeit angemeldeten Benutzers. [!UICONTROL Audience Management] sendet dem Benutzer ein vom System generiertes Kennwort.
+Eine `PUT`-Methode zum Zurücksetzen des derzeit angemeldeten Benutzers. [!UICONTROL Audience Management] sendet dem Benutzer ein vom System generiertes Kennwort.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->Während die meisten [!DNL API] Methoden nur von Partneradministratoren aufgerufen werden können, ist diese Methode von Benutzern ohne Administratorrechte aufgerufen werden können.
+>Während die meisten [!DNL API]-Methoden nur von Partneradministratoren aufgerufen werden können, ist diese Methode von Nicht-Admin-Benutzern aufgerufen werden können.
 
 ### Anfrage
 
 `POST /self/reset-password`
 
-Gibt `200 OK` bei erfolgreicher Ausführung zurück.
+Gibt `200 OK` zurück, wenn erfolgreich.
 
 ## Rückgabe eines Benutzerobjekts für eine Benutzer-ID {#return-user-object-for-id}
 
-Eine `Get` Methode zur Rückgabe des Benutzerobjekts für eine Benutzer-ID.
+Eine `Get`-Methode, um das Benutzerobjekt für eine Benutzer-ID zurückzugeben.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -224,13 +224,13 @@ Eine `Get` Methode zur Rückgabe des Benutzerobjekts für eine Benutzer-ID.
 
 ## Rückgabebenutzerobjekt für angemeldeten Benutzer {#return-user-object-for-logged-in-user}
 
-Eine `Get` Methode zur Rückgabe des Benutzerobjekts für den derzeit angemeldeten Benutzer.
+Eine `Get`-Methode, um das Benutzerobjekt für den derzeit angemeldeten Benutzer zurückzugeben.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->Während die meisten [!DNL API] Methoden nur von Partneradministratoren aufgerufen werden können, ist diese Methode von Benutzern ohne Administratorrechte aufgerufen werden können.
+>Während die meisten [!DNL API]-Methoden nur von Partneradministratoren aufgerufen werden können, ist diese Methode von Nicht-Admin-Benutzern aufgerufen werden können.
 
 ### Anfrage
 
@@ -254,9 +254,9 @@ Eine `Get` Methode zur Rückgabe des Benutzerobjekts für den derzeit angemeldet
 }
 ```
 
-## Listen {#list-users}
+## Liste-Benutzer {#list-users}
 
-Eine `GET` Methode zur Liste von Benutzern.
+Eine `GET`-Methode zur Liste von Benutzern.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -288,9 +288,9 @@ Diese Abfrage gibt eine Liste aller Benutzer in den angegebenen Gruppen zurück.
 }
 ```
 
-## Delete a User {#delete-users}
+## Löschen eines Benutzers {#delete-users}
 
-Eine `DELETE` Methode zum Löschen eines Benutzers.
+Eine `DELETE`-Methode zum Löschen eines Benutzers.
 
 <!-- r_rest_api_user_delete.xml -->
 
@@ -298,11 +298,11 @@ Eine `DELETE` Methode zum Löschen eines Benutzers.
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-Gibt `204 No Content` bei erfolgreicher Ausführung zurück. Im Falle eines Konflikts gibt es `409 Conflict`.
+Gibt `204 No Content` zurück, wenn erfolgreich. Im Falle eines Konflikts gibt `409 Conflict` zurück.
 
 ## Benutzer stapelweise löschen {#delete-users-bulk}
 
-Eine `POST` Methode zum Massenlöschen mehrerer Benutzer.
+Eine `POST`-Methode, um mehrere Benutzer stapelweise zu löschen.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 
