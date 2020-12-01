@@ -1,7 +1,7 @@
 ---
-description: Ruft eine Partner-spezifische DIL-Instanz ab.
+description: Ruft eine Partnerspezifische DIL-Instanz ab.
 keywords: audience manager api;aam api;audience manager apis;aam apis
-seo-description: Ruft eine Partner-spezifische DIL-Instanz ab.
+seo-description: Ruft eine Partnerspezifische DIL-Instanz ab.
 seo-title: getDil
 solution: Audience Manager
 title: getDil
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 # getDil{#getdil}
 
-Ruft eine Partner-spezifische DIL-Instanz ab.
+Ruft eine Partnerspezifische DIL-Instanz ab.
 
 **Funktionssignatur:** `getDil: function (partner, containerNSID) {}`
 
@@ -33,7 +33,7 @@ Ruft eine Partner-spezifische DIL-Instanz ab.
 
 ## Antwort
 
-Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine Partner-spezifische [!UICONTROL DIL] Instanz zurück. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Bei einer erfolgreichen Partner- und Container-NSID-Übereinstimmung wird eine Partnerinstanz [!UICONTROL DIL] zurückgegeben. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;zurück (gibt diesen nicht aus).
 
 ## Beispielcode
 
