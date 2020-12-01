@@ -32,9 +32,9 @@ Ein Schlüssel-Wert-Paar besteht aus zwei zugehörigen Datenelementen: Ein Schl�
 * `color = green`
 * `price > 100`
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
+## Standard- und serialisierte Schlüsselwertpaare {#standard-serialized-pairs}
 
-Ziele akzeptieren Schlüsselwertdaten in *`standard`* oder *`serialized`* Format. Die Standardformatierung ordnet Daten in separate Schlüssel/Wert-Paare an. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren. Bei der serialisierten Formatierung werden dagegen mehrere Werte zu einem Satz zusammengefasst, der durch einen einzigen Schlüssel definiert wird. Bei einem serialisierten Paar wird außerdem ein spezieller Indikator verwendet, um die Werte innerhalb des Schlüsselwertsatzes zu trennen. Schließlich können die standardmäßigen und serialisierten Schlüsselwerte einzelne oder mehrere Werte enthalten. Die folgende Tabelle enthält Beispiele für die Formate für Standard- und serielle Schlüsselwerte.
+Ziele akzeptieren Schlüsselwertdaten im Format *`standard`* oder *`serialized`*. Die Standardformatierung ordnet Daten in separate Schlüssel/Wert-Paare an. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren. Bei der serialisierten Formatierung werden dagegen mehrere Werte zu einem Satz zusammengefasst, der durch einen einzigen Schlüssel definiert wird. Bei einem serialisierten Paar wird außerdem ein spezieller Indikator verwendet, um die Werte innerhalb des Schlüsselwertsatzes zu trennen. Schließlich können die standardmäßigen und serialisierten Schlüsselwerte einzelne oder mehrere Werte enthalten. Die folgende Tabelle enthält Beispiele für die Formate für Standard- und serielle Schlüsselwerte.
 
 | Formatierung | Einzelner Schlüssel | Schlüsselwertpaare |
 |---|---|---|
@@ -45,19 +45,19 @@ Ziele akzeptieren Schlüsselwertdaten in *`standard`* oder *`serialized`* Format
 
 ## Tasten, Trennzeichen und Trennzeichen {#keys-delimiters-separators}
 
-Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die Werte *innerhalb* und *zwischen* den Schlüssel-Wert-Paaren trennen. Elemente in Schlüssel-Wert-Paaren werden wie folgt definiert:
+Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die die Werte *innerhalb* und *zwischen* und die Schlüssel-Wert-Paare trennen. Elemente in Schlüssel-Wert-Paaren werden wie folgt definiert:
 
-* **Schlüssel:** Ein eindeutiger Bezeichner im Schlüssel-Wert-Paar.
+* **Schlüssel:** Eine eindeutige Kennung im Schlüssel-Wert-Paar.
 * **Wertetrennzeichen:** Trennt einzelne Schlüssel/Wert-Paare.
 * **Trennzeichen für Schlüsselwerte:** Trennt einen Schlüssel von den Werten in einem Schlüssel-Wert-Paar.
-* **Serielles Trennzeichen:** Trennt einzelne Werte in serialisierten Schlüssel/Wert-Paaren.
+* **Serielles Trennzeichen:** Trennt einzelne Werte innerhalb serialisierter Schlüssel/Wert-Paare.
 
 ## Standardelemente und serialisierte Schlüsselwertelemente {#standard-serialized-key-value-elements}
 
 
 | Typ | Beispiel | Schlüssel | Trennzeichen für Schlüsselwerte | Trennzeichen für Schlüsselwerte | Serielle Trennlinie |
 ---------|----------|---------|---------|----------|---------
-| **Einzelschlüssel** (Standard) | `x=1&x=2` | `x` | `=` | `&` | Keine |
-| **Schlüsselwertpaare** (Standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | Keine |
-| **Einzelschlüssel** (seriell) | `x=1;2;3` | `x` | `=` | Keine | `;` |
-| **Schlüsselwertpaare** (seriell) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
+| **Einzelschlüssel**  (Standard) | `x=1&x=2` | `x` | `=` | `&` | Keine |
+| **Schlüssel-Wert-Paare** (Standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | Keine |
+| **Einzelschlüssel**  (seriell) | `x=1;2;3` | `x` | `=` | Keine | `;` |
+| **Schlüsselwertpaare**  (seriell) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
