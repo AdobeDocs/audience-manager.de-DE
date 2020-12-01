@@ -17,17 +17,17 @@ ht-degree: 5%
 
 # Datendateien für Berichte zur Zielgruppenoptimierung und ausführbare Protokolldateien {#data-files-for-audience-optimization-reports}
 
-Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren, um sie in den [Audience Optimizationen-Berichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) Ansicht, und Eigenschaften mithilfe der Daten mithilfe von [ausführbaren Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md)erstellen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
+Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Bei ordnungsgemäßer Formatierung können Sie diese Daten in Audience Manager importieren, um sie in den [Audience Optimizationen-Berichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) Ansicht und Eigenschaften mithilfe der Daten über [Verfolgbare Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md) zu erstellen. Formatieren Sie Ihre Datendateien gemäß den Spezifikationen in diesem Abschnitt.
 
 ## Überblick {#overview}
 
-Mit einer ordnungsgemäß benannten und formatierten Datendatei können Sie Impressions-, Klick- oder Konvertierungsdaten in die [Audience Optimizationen-Berichte](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)importieren. Dies ist nützlich, wenn Sie mit einem Partner arbeiten, der nicht in die Report Suite integriert ist [!DNL Audience Manager] und mit diesen Daten arbeiten möchten. Dieser Prozess erfordert separate Dateien für Impressions-, Klick- und Konvertierungsdaten. Mischen Sie diese Ereignisse nicht in einer einzigen Datei.
+Mit einer ordnungsgemäß benannten und formatierten Datendatei können Sie Impressions-, Klick- oder Konvertierungsdaten in die [Audience Optimization-Berichte](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) importieren. Dies ist nützlich, wenn Sie mit einem Partner arbeiten, der nicht mit [!DNL Audience Manager] integriert ist und mit dessen Daten in dieser Report Suite arbeiten möchten. Dieser Prozess erfordert separate Dateien für Impressions-, Klick- und Konvertierungsdaten. Mischen Sie diese Ereignisse nicht in einer einzigen Datei.
 
 Eine Datendatei muss von einer Metadatendatei begleitet sein. Der Inhalt der Metadatendatei stimmt mit den Datendateiinformationen mit den entsprechenden, für Menschen lesbaren Beschriftungen in den Berichtmenüs überein. Weitere Informationen finden Sie unter [Übersicht und Zuordnungen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
-## Naming Conventions for Data Files {#naming-conventions}
+## Namenskonventionen für Datendateien {#naming-conventions}
 
-Die folgende Syntax definiert die Struktur eines gut formatierten Datendateinamens. Beachten Sie, dass *kursiv* ein Platzhalter für eine Variable angegeben wird, der sich je nach Dateiinhalt ändert.
+Die folgende Syntax definiert die Struktur eines gut formatierten Datendateinamens. Hinweis: *kursiv* gibt einen variablen Platzhalter an, der sich je nach Dateiinhalt ändert.
 
 **Syntax:** <pre><i>ereignistyp</i>_<i>yyymmdd</i></code></pre>
 
@@ -35,7 +35,7 @@ In einem Dateinamen:
 
 * Der Ereignistyp gibt an, dass die Datei Impressionen, Klicks oder Konvertierungen enthält. Erstellen Sie für jeden Ereignistyp eine separate Datei.
 * Ein Unterstrich trennt den Ereignistyp und einen Datums-Zeitstempel für ein Jahr.
-* Komprimieren Sie die Dateien vor dem Hochladen mit gzip und speichern Sie sie mit der `.gz` Dateierweiterung.
+* Komprimieren Sie Ihre Dateien vor dem Hochladen mit gzip und speichern Sie sie mit der Dateierweiterung `.gz`.
 
 Benennen Sie Ihre Datendateien unter Berücksichtigung dieser Anforderungen nach ihrem Inhalt wie folgt:
 
@@ -43,18 +43,18 @@ Benennen Sie Ihre Datendateien unter Berücksichtigung dieser Anforderungen nach
 * Klickdaten: <pre>clicks_<i>yyymmdd</i>.gz</code></pre>
 * Konversionsdaten: <pre>conversions_<i>yyymmdd</i>.gz</code></pre>
 
-## Content Format for Data Files {#content-format}
+## Inhaltsformat für Datendateien {#content-format}
 
-Die folgende Syntax definiert die Inhaltsstruktur in der gut formatierten Datendatei. Beachten Sie, dass *kursiv* ein Platzhalter für eine Variable steht und in einer Datendatei durch eine Beschriftung ersetzt wird.
+Die folgende Syntax definiert die Inhaltsstruktur in der gut formatierten Datendatei. Hinweis: *italics* gibt einen Variablenplatzhalter an und wird durch eine Beschriftung in einer tatsächlichen Datendatei ersetzt.
 
-**Syntax:** <pre><i>Kopfzeilenbeschriftung 1</i> | <i>Kopfzeilenbeschriftung 2</i> ... <i>Header-Beschriftung n</i> | <i>version</i></code></pre>
+**Syntax:** <pre><i>Kopfzeilenbeschriftung 1</i> |  <i>Kopfzeilenbeschriftung 2</i> ...  <i>Kopfzeilenbeschriftung n</i> |  <i>Version</i></code></pre>
 
 Inhalt der Datei:
 
 * Die Kopfzeilenbeschriftungen müssen in der Reihenfolge wie in der folgenden Tabelle angezeigt werden. Impressionen und Klicks verwenden dieselben Bezeichnungen. Konvertierungsdateien enthalten zusätzliche Header.
 * Wenn Sie keine Daten für eine bestimmte Spalte haben, füllen Sie dieses Feld mit einem `-1`.
 
-* Dateien *müssen* mit einer Versionsnummer enden. Die aktuelle Version ist 1.1.
+* Die Dateien *müssen mit einer Versionsnummer enden.* Die aktuelle Version ist 1.1.
 * Trennen Sie Datei-Kopfzeilen und -Inhalte mit dem nicht druckbaren ASCII-Zeichen 001. Wenn Sie ASCII 001 nicht verwenden können, trennen Sie die Kopfzeilen und Daten durch ein Tabulatortrennzeichen. Da es sich hierbei um nicht druckbare Zeichen handelt, zeigt das Syntaxbeispiel oben nur eine Pipe `"|"` für Anzeigezwecke.
 
 **Feldbezeichnungen**
@@ -71,11 +71,11 @@ In der folgenden Tabelle sind die Spaltenüberschriften für die Datendatei List
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Zeitstempel </p> </td> 
-   <td colname="col2"> <p>Ein UTC-Datum und eine UTC-Uhrzeit für das Impression-, Klick- oder Konversions-Ereignis. Verwenden Sie das <code> yyyy-MM-dd HH:mm:ss</code> Format. </p> </td> 
+   <td colname="col2"> <p>Ein UTC-Datum und eine UTC-Uhrzeit für das Impression-, Klick- oder Konversions-Ereignis. Verwenden Sie das Format <code> yyyy-MM-dd HH:mm:ss</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzer-ID </p> </td> 
-   <td colname="col2"> <p>Ihre ID für einen Site-Besucher, auch als eindeutige <span class="term"> Datenanbieter-ID</span> oder DPUUID bezeichnet. </p> </td> 
+   <td colname="col2"> <p>Ihre ID für einen Site-Besucher, auch bekannt als <span class="term"> Datenanbieter Unique User ID</span> oder DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
@@ -141,19 +141,19 @@ In der folgenden Tabelle sind die Spaltenüberschriften für die Datendatei List
  </tbody> 
 </table>
 
-## Delivery Methods for Data Files {#delivery-methods}
+## Versand-Methoden für Datendateien {#delivery-methods}
 
-Laden Sie Ihre Impressions-, Klick- oder Konvertierungsdatendateien in ein Amazon S3-Verzeichnis für Ihr [!DNL Audience Manager] Konto hoch. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
+Laden Sie Ihre Impressions-, Klick- oder Konvertierungsdatendateien in einen Amazon S3-Ordner für Ihr [!DNL Audience Manager]-Konto hoch. Informationen zu Versand-/Ordnerpfaden, Dateiverarbeitungszeiten und Aktualisierungen finden Sie in diesem Abschnitt.
 
 >[!IMPORTANT]
 >
-> Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützung, um zu beginnen und einen [!DNL Amazon S3] Ordner für Ihre Datendateien einzurichten.
+> Wenden Sie sich an Ihren Audience Manager- oder Kundendienst, um zu beginnen und einen [!DNL Amazon S3]-Ordner für Ihre Datendateien einzurichten.
 
 **Versand-Pfadsyntax und Beispiele**
 
-Die Daten werden in einem separaten Namensraum für jeden Kunden in einem [!DNL Amazon S3] Verzeichnis gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Note, *italics* indicates a variable placeholder. Andere Elemente sind Konstanten oder Schlüssel und bleiben unverändert.
+Die Daten werden in einem separaten Namensraum für jeden Kunden in einem [!DNL Amazon S3]-Verzeichnis gespeichert. Der Dateipfad folgt der unten stehenden Syntax. Hinweis: *kursiv* gibt einen Variablenplatzhalter an. Andere Elemente sind Konstanten oder Schlüssel und bleiben unverändert.
 
-**Syntax:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>Dateityp</i>_<i>yyymmdd</i></code></pre>
+**Syntax:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>Dateityp</i>_<i>yyyyymmdd</i></code></pre>
 
 In der folgenden Tabelle werden diese Elemente in einem Dateipfad definiert.
 
@@ -171,7 +171,7 @@ In der folgenden Tabelle werden diese Elemente in einem Dateipfad definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dieses Schlüssel-Wert-Paar enthält Ihre <span class="keyword"> Audience Manager</span> -Kunden-ID. </p> </td> 
+   <td colname="col2"> <p>Dieses Schlüssel-Wert-Paar enthält Ihre <span class="keyword"> Audience Manager</span> Kunden-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
@@ -202,4 +202,4 @@ Um Ihre Daten zu aktualisieren, senden Sie eine Datei, die alle Impressionen, Kl
 
 ## Nächste Schritte {#next-steps}
 
-Überprüfen Sie die Anforderungen für die Benennung und Erstellung von Metadatendateien. Informationen zu den ersten Schritten finden Sie unter [Übersicht und Zuordnungen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Überprüfen Sie die Anforderungen für die Benennung und Erstellung von Metadatendateien. Beginnen Sie mit [Übersicht und Zuordnungen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
