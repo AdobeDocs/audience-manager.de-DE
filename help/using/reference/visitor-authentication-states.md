@@ -20,16 +20,16 @@ ht-degree: 5%
 
 Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschaftsinformationen in das authentifizierte Profil des Besuchers oder in das Gerätehilfen-Profil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Besucher-ID-Authentifizierungsstatus UNKNOWN und LOGGED_OUT in Ereignis-Aufrufen auf dieselbe Weise.
 
-Ab [!DNL Experience Cloud] ID-Dienst Version 1.5 enthält die `setCustomerID` Methode das optionale `AuthState` Objekt. `AuthState` identifiziert Besucher gemäß ihrem [Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nach Authentifizierungsstatus, der im Aufruf übergeben wird, und der [Profil Merge Rule](../features/profile-merge-rules/merge-rules-dashboard.md) , die Sie für die Segmentierung verwenden.
+Ab dem ID-Dienst v1.5+ enthält die [!DNL Experience Cloud]-Methode das optionale `setCustomerID`-Objekt. `AuthState` `AuthState` identifiziert Besucher gemäß ihrem  [Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nachdem, welcher Authentifizierungsstatus im Aufruf und in der  [Profil Merge-Regel, die Sie für die Segmentierung ](../features/profile-merge-rules/merge-rules-dashboard.md) verwenden, übergeben wurde.
 
-## Authentifizierungsstatus: UNBEKANNT {#auth-status-unknown}
+## Authentifizierungsstatus: UNKNOWN {#auth-status-unknown}
 
 <table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informationen </b> aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Eigenschaften </b> zum Schreiben in das authentifizierte Profil </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -54,8 +54,8 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informationen </b> aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Eigenschaften </b> zum Schreiben in das authentifizierte Profil </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -80,8 +80,8 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Anforderungswert </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lesen</b> von Informationen aus dem authentifizierten Profil </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Neue Eigenschaften in das authentifizierte Profil schreiben</b> </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informationen </b> aus dem authentifizierten Profil </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Eigenschaften </b> zum Schreiben in das authentifizierte Profil </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -102,7 +102,7 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 
 >[!NOTE]
 >
->[!DNL Audience Manager] führt in allen drei Fällen eine ID-Synchronisierung zwischen [CID und UUID](../reference/ids-in-aam.md) durch.
+>[!DNL Audience Manager] führt in allen drei Fällen eine ID-Synchronisierung zwischen  [CID und ](../reference/ids-in-aam.md) UUID durch.
 
 >[!MORELIKETHIS]
 >
