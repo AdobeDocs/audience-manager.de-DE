@@ -29,7 +29,7 @@ Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Mas
 
 >[!NOTE]
 >
->[In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
+>[In der ](../../features/administration/administration-overview.md) Benutzeroberfläche zugewiesene  [!DNL Audience Manager] RBAC-Gruppenberechtigungen werden berücksichtigt  [!UICONTROL Bulk Management Tools].
 
 Faktoren wie hoher Netzwerkverkehr, Servernutzung und große Datensätze können dazu führen, dass eine Massenanforderung fehlschlägt oder ein Timeout auftritt. Wenn ein Problem vorliegt, stoppt das Arbeitsblatt das Schreiben von Daten und zeigt eine Fehlermeldung an. In diesem Fall sollten Sie:
 
@@ -78,5 +78,5 @@ In der folgenden Tabelle werden einige häufig auftretende Probleme bei der Ausf
 
 ## Fehlermeldungen
 
-Manchmal können Sie Fehlermeldungen erhalten, wenn Sie Massenänderungen vornehmen. Informationen zur Interpretation der Fehlermeldung finden Sie in der API-Dokumentation unter [Antwortcodes definiert](/help/using/api/rest-api-main/aam-api-getting-started.md) .
+Manchmal können Sie Fehlermeldungen erhalten, wenn Sie Massenänderungen vornehmen. Informationen zur Interpretation der Fehlermeldung finden Sie unter [Antwortcodes definiert](/help/using/api/rest-api-main/aam-api-getting-started.md) in unserer API-Dokumentation.
 
