@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Sie können eine CSV-Datei für einen Overlap Report anfordern, wenn dieser Bericht die Rekordgrenze von 1 Million erreicht. Ein Bericht hat diese Grenze möglicherweise erreicht, wenn die Meldung &quot;Unerwarteter Fehler ist aufgetreten&quot;angezeigt wird. Wenden Sie sich an den Kundendienst, um eine komprimierte .csv-Datei anzufordern, die Sie in Ihr eigenes Datenbanksystem importieren und damit arbeiten können. Dateien stehen für Berichte zur Überschneidung von Segment zu Segment, Segment zu Eigenschaften und Eigenschaften zur Verfügung.
 
-## Metadaten zu Dateinamen {#file-name-metadata}
+## Dateinamenmetadaten {#file-name-metadata}
 
 In der folgenden Liste werden die Dateibenennungsregeln und Dateierweiterungen beschrieben, die in einer überlappenden .csv-Datei verwendet werden. In den Beispielen werden Variablenplatzhalter *kursiv* angegeben.
 
@@ -33,7 +33,7 @@ In der folgenden Liste werden die Dateibenennungsregeln und Dateierweiterungen b
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Datei Extension </p> </td> 
-   <td colname="col2"> <p>Überschneidungsberichtsdateien werden gzip-komprimiert und haben eine <code> .gz</code> Dateierweiterung. Sie müssen die <code> .csv</code> Erweiterung nach der Dekomprimierung der Datei hinzufügen. </p> </td> 
+   <td colname="col2"> <p>Überlagerungsberichtsdateien sind gzip-komprimiert und haben eine <code> .gz</code> Dateierweiterung. Nach der Dekomprimierung müssen Sie der Datei die Erweiterung <code> .csv</code> hinzufügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dateiname </p> </td> 
@@ -83,9 +83,9 @@ In der Dublette sind Zeichenfolgendaten in Anführungszeichen gesetzt. Siehe die
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## Bericht &quot;Segmente in Segmente&quot; {#segment-segment-records}
+## Segmente-zu-Segment-Berichtdatensätze {#segment-segment-records}
 
-Eine Datendatei für Ihren Bericht [&quot;](segment-segment-overlap-report.md) Segment-zu-Segment-Überschneidung&quot;enthält die folgenden Datensätze.
+Eine Datendatei für Ihren [Segment-zu-Segment-Überschneidungsbericht](segment-segment-overlap-report.md) enthält die folgenden Datensätze.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -113,7 +113,7 @@ Eine Datendatei für Ihren Bericht [&quot;](segment-segment-overlap-report.md) S
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für 7- und 30-Tage-Rückblickintervalle abrufen. Der Wert <code> rangeid</code> entspricht den unten angegebenen Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für 7- und 30-Tage-Rückblickintervalle abrufen. Das <code> rangeid</code> entspricht den unten angegebenen Zeitintervallen. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 Tage </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 Tage </li> 
@@ -142,9 +142,9 @@ Eine Datendatei für Ihren Bericht [&quot;](segment-segment-overlap-report.md) S
  </tbody> 
 </table>
 
-## Bericht &quot;Segment-zu-Eigenschaften&quot; {#segment-trait-records}
+## Report Records von Segment zu Eigenschaft {#segment-trait-records}
 
-Eine Datendatei für Ihren Bericht [&quot;](segment-trait-overlap-report.md) Segment-zu-Eigenschaften-Überschneidung&quot;enthält die folgenden Datensätze.
+Eine Datendatei für den Bericht [Segment-zu-Eigenschaften-Überschneidung](segment-trait-overlap-report.md) enthält die folgenden Datensätze.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -176,7 +176,7 @@ Eine Datendatei für Ihren Bericht [&quot;](segment-trait-overlap-report.md) Seg
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für 7- und 30-Tage-Rückblickintervalle abrufen. Der Wert <code> rangeid</code> entspricht den unten angegebenen Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für 7- und 30-Tage-Rückblickintervalle abrufen. Das <code> rangeid</code> entspricht den unten angegebenen Zeitintervallen. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 Tage </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 Tage </li> 
@@ -211,7 +211,7 @@ Eine Datendatei für Ihren Bericht [&quot;](segment-trait-overlap-report.md) Seg
 
 ## Eigenschaften-zu-Eigenschaften-Berichtdatensätze {#trait-trait-records}
 
-Eine Datendatei für Ihren Bericht &quot; [Eigenschafts-Überschneidung&quot;](trait-trait-overlap-report.md) enthält die folgenden Datensätze.
+Eine Datendatei für den Bericht [Eigenschafts-Überschneidung](trait-trait-overlap-report.md) enthält die folgenden Datensätze.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -251,7 +251,7 @@ Eine Datendatei für Ihren Bericht &quot; [Eigenschafts-Überschneidung&quot;](t
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für 7- und 30-Tage-Rückblickintervalle abrufen. Der Wert <code> rangeid</code> entspricht den unten angegebenen Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für 7- und 30-Tage-Rückblickintervalle abrufen. Das <code> rangeid</code> entspricht den unten angegebenen Zeitintervallen. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 Tage </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 Tage </li> 
