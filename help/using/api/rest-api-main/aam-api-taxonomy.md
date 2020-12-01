@@ -23,11 +23,11 @@ Methoden, mit denen Sie die Ansicht des Audience Managers gemeinsame Taxonomie. 
 
 >[!NOTE]
 >
->Mit diesen Methoden können Sie keine neuen taxonomischen Kategorien erstellen oder Eigenschaften klassifizieren. Um eine Eigenschaft zu klassifizieren, geben Sie die entsprechende `categoryId` mit einer Eigenschafts- oder Aktualisierungsmethode an.
+>Mit diesen Methoden können Sie keine neuen taxonomischen Kategorien erstellen oder Eigenschaften klassifizieren. Um eine Eigenschaft zu klassifizieren, geben Sie die entsprechende `categoryId`-Methode mit einer Eigenschaftserstellungs- oder Aktualisierungsmethode an.
 
 ## Rückgabe einer bestimmten Taxonomie {#return-specific-taxonomy}
 
-Eine `GET` Methode, die Details zur angegebenen taxonomischen Kategorie zurückgibt.
+Eine `GET`-Methode, die Details zur angegebenen taxonomischen Kategorie zurückgibt.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -37,7 +37,7 @@ Eine `GET` Methode, die Details zur angegebenen taxonomischen Kategorie zurückg
 
 ### Antwort
 
-Eine erfolgreiche Antwort `200 OK` und die Kategorie für die angegebene ID werden zurückgegeben. Eine nicht erfolgreiche Anforderung wird zurückgegeben, `404 No Content` wenn die ID nicht vorhanden ist.
+Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anforderung gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist.
 
 ```
 {
@@ -50,9 +50,9 @@ Eine erfolgreiche Antwort `200 OK` und die Kategorie für die angegebene ID werd
 }
 ```
 
-## Rückgabe aller taxonomischen Kategorien {#return-all-taxonomy-categories}
+## Alle taxonomischen Kategorien {#return-all-taxonomy-categories} zurückgeben
 
-Eine `GET` Methode, die eine Liste der Kategorien der obersten Ebene in einem Array zurückgibt.
+Eine `GET`-Methode, die eine Liste der Kategorien der obersten Ebene in einem Array zurückgibt.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -93,9 +93,9 @@ Kürzlich wegen der Kürze.
 ]
 ```
 
-## Rückgabe von steuerpflichtigen Unterpositionen {#return-taxonomy-sub-categories}
+## Rückgabe von Taxonomischen Unter-Kategorien {#return-taxonomy-sub-categories}
 
-Eine `GET` Methode, die in einem Array untergeordnete Kategorien für die angegebene übergeordnete Kategorie zurückgibt.
+Eine `GET`-Methode, die Untergruppen für die angegebene übergeordnete Kategorie in einem Array zurückgibt.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -105,7 +105,7 @@ Eine `GET` Methode, die in einem Array untergeordnete Kategorien für die angege
 
 ### Antwort
 
-Eine erfolgreiche Antwort `200 OK` und die Kategorie für die angegebene ID werden zurückgegeben. Eine nicht erfolgreiche Anforderung wird zurückgegeben, `404 No Content` wenn die ID nicht vorhanden ist. Kürzlich wegen der Kürze.
+Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anforderung gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist. Kürzlich wegen der Kürze.
 
 ```
 [
