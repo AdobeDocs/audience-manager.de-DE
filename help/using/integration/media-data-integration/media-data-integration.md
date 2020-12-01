@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3c70178dc1a020545793ea7facc70e34d23543fa
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -27,6 +27,6 @@ Sie können Daten aus Mediendaten mit Pixelaufrufen an Audience Manager erfassen
 
 Lesen Sie die folgenden Artikel, um die Protokollierung einzurichten:
 
-* [Google Kampagne Manager-Datendateien in Audience Manager importieren](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Google Ad Manager-Datendateien in Audience Manager importieren ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Protokolldaten und Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) zum Einrichten der Protokollerfassung für allgemeine Protokolldateien
+* [Importieren von Google Kampagne Manager-Datendateien in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+* [Google Ad Manager-Datendateien in Audience Manager importieren  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Protokolldaten und Metadaten-](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) Dateien zum Einrichten der Protokollerfassung für allgemeine Protokolldateien
