@@ -17,13 +17,13 @@ ht-degree: 14%
 
 # API-Methoden für die Berechtigungsverwaltung {#permissions-management-api-methods}
 
-Die übrigen [!DNL API] Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
+REST [!DNL API]-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
 
 <!-- c_rest_api_perm_man.xml -->
 
 ## Liste Verfügbare Objekttypen {#list-object-types}
 
-Eine `GET` Methode zur Liste der verfügbaren Objekttypen, für die rollenbasierte Zugriffskontrollen festgelegt werden können.
+Eine `GET`-Methode zur Liste verfügbarer Objekttypen, für die rollenbasierte Zugriffskontrollen festgelegt werden können.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -39,7 +39,7 @@ Eine `GET` Methode zur Liste der verfügbaren Objekttypen, für die rollenbasier
 
 ## Verfügbare Berechtigungen für eine Liste für einen Objekttyp {#list-permissions-object-type}
 
-Eine `GET` Methode zur Liste der verfügbaren Berechtigungen für einen Objekttyp.
+Eine `GET`-Methode zur Liste der verfügbaren Berechtigungen für einen Objekttyp.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
