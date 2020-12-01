@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Diese Karte enthält die wichtigsten Audience Manager-Systeme. Es stellt visuell dar, wie Daten in Audience Manager-, Aus- und Zwischen-Komponenten fließen.
 
-## How to read this map {#compmap}
+## Lesen dieser Map {#compmap}
 
 <!-- 
 
@@ -27,11 +27,11 @@ c_compmap.xml
 
  -->
 
-Auf der Karte enthält der graue Kasten [!DNL Audience Manager] Systeme. Einige Komponenten sind komplett intern und andere liegen an der Grenze zwischen [!DNL Audience Manager] und der Außenwelt. Als [!DNL Audience Manager] Kunde sind interne Komponenten häufig transparent oder unzugänglich. Manchmal können Sie jedoch über die Benutzeroberfläche oder Datenintegrationen mit diesen Systemen interagieren. Systeme am Rand der Box sammeln und senden Daten zwischen [!DNL Audience Manager] und nach außen.
+In der Map enthält das graue Feld [!DNL Audience Manager] Systeme. Einige Komponenten sind komplett intern und andere liegen an der Grenze zwischen [!DNL Audience Manager] und der Außenwelt. Als [!DNL Audience Manager]-Kunde sind interne Komponenten häufig transparent oder nicht zugänglich. Manchmal können Sie jedoch über die Benutzeroberfläche oder Datenintegrationen mit diesen Systemen interagieren. Systeme am Rand der Box sammeln und senden Daten zwischen [!DNL Audience Manager] und der Außenwelt.
 
-Farben definieren den Typ der Daten, die ein- und ausfließen [!DNL Audience Manager]. Grün sind Kundendaten, blau sind Kundendaten (Personen, die Ihre Site besuchen) und orange sind Daten, die zum Berichte verwendet werden.
+Farben definieren den Datentyp, der von [!DNL Audience Manager] in- und abfließt. Grün sind Kundendaten, blau sind Kundendaten (Personen, die Ihre Site besuchen) und orange sind Daten, die zum Berichte verwendet werden.
 
-Systembeschreibungen und Zusammenfassungen finden Sie in den Abschnitten [Datenaktion](../../reference/system-components/components-data-action.md), [Sammlung](../../reference/system-components/components-data-collection.md), [Verarbeitung](../../reference/system-components/components-data-processing.md)und [Tag-Management](../../reference/system-components/components-tag-management.md) .
+Systembeschreibungen und Zusammenfassungen finden Sie in den Abschnitten [action](../../reference/system-components/components-data-action.md), [collection](../../reference/system-components/components-data-collection.md), [processing](../../reference/system-components/components-data-processing.md) und [tag management](../../reference/system-components/components-tag-management.md).
 
 ![](assets/flowmap.png)
 
