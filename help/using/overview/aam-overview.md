@@ -31,7 +31,7 @@ Die Funktionen einer Data Management Platform (DMP) lassen sich wie unten darges
 
 Audience Manager erfasst Erstanbieterdaten von Kanälen und Geräten (Webanalyse, CRM, Gerätedaten, E-Commerce usw.).
 
-<br> 
+<br>
 
 **Zielgruppenerstellung**
 
