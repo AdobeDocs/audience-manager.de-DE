@@ -1,7 +1,7 @@
 ---
-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
+description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Destination Builder ist das Tool, mit dem Sie Cookie-, URL- oder Server-Ziele erstellen und verwalten.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Der Destination Builder ist das Tool, mit dem Sie Cookies-, URL- oder Server-zu-Server-Ziele erstellen und verwalten.
+seo-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Destination Builder ist das Tool, mit dem Sie Cookie-, URL- oder Server-Ziele erstellen und verwalten.
 seo-title: 'Ziele '
 solution: Audience Manager
 title: 'Ziele '
@@ -11,45 +11,45 @@ translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
 
 # [!UICONTROL Destinations] Überblick {#destinations}
 
-In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool, das Sie zum Erstellen und Verwalten [!UICONTROL cookie], [!DNL URL]oder [!UICONTROL server-to-server destinations]Verwalten verwendet haben.
+In Audience Managern ist ein [!UICONTROL destination] ein Drittanbietersystem (Anzeigenserver, [!DNL DSP], Anzeigennetzwerk usw.) für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool, das Sie zum Erstellen und Verwalten  [!UICONTROL cookie],  [!DNL URL]oder  [!UICONTROL server-to-server destinations]Verwalten verwendet haben.
 
 ## Zweck und Vorteile {#purposes}
 
 <!-- c_destinations.xml -->
 
-[!UICONTROL Destinations] und [!UICONTROL Destination Builder] können Sie Informationen zu segmentierten Benutzern erstellen [!UICONTROL destinations] und an Ihren Datenpartner senden. Dies hilft Ihnen,
+[!UICONTROL Destinations] und  [!UICONTROL Destination Builder] können Sie Informationen zu segmentierten Benutzern erstellen  [!UICONTROL destinations] und an Ihren Datenpartner senden. Dies hilft Ihnen,
 
-* **Protect-Datenwert:** Statt alle Benutzerdaten an eine [!UICONTROL destination]zu senden, können [!UICONTROL Destination Builder] Sie nur bestimmte Informationen über qualifizierte Benutzer freigeben.
-* **Nehmen Sie Maßnahmen in Bezug auf Ihre Daten vor:** Durch das Senden von Daten an einen [!UICONTROL destination] Partner können Sie schnell qualifizierte Segmente für Audiencen entwickeln und Zielgruppen erstellen.
-* **Reduzierung des technischen Verwaltungsaufwands:** Geschäftsbenutzer können [!UICONTROL destinations] sicher auf der [!UICONTROL Destination Builder] Oberfläche eingerichtet werden. Auf diese Weise wird die für Tests vor der Bereitstellung erforderliche Zeit verkürzt. Mit [!UICONTROL Destination Builder]diesen Funktionen erstellen, verwalten und löschen Sie, [!UICONTROL destinations] wenn sich Ihre geschäftlichen Anforderungen ändern, ohne einen langen Entwicklungszyklus zu durchlaufen.
+* **Protect-Datenwert:** Anstatt alle Benutzerdaten an eine zu senden,  [!UICONTROL destination]  [!UICONTROL Destination Builder] können Sie nur bestimmte Informationen über qualifizierte Benutzer freigeben.
+* **Vorgehen bei Ihren Daten:** Daten an einen  [!UICONTROL destination] Partner senden hilft ihnen, schnell qualifizierte Audiencen zu entwickeln und zu Zielgruppen.
+* **Reduzierung des technischen Verwaltungsaufwands:** Geschäftsbenutzer können  [!UICONTROL destinations] sicher auf der  [!UICONTROL Destination Builder] Oberfläche einrichten. Auf diese Weise wird die für Tests vor der Bereitstellung erforderliche Zeit verkürzt. Mit [!UICONTROL Destination Builder] können Sie [!UICONTROL destinations] erstellen, verwalten und löschen, wenn sich Ihr Unternehmen ändert, ohne einen langen Entwicklungszyklus zu durchlaufen.
 
 ## Technische Aspekte {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
-Data Versand hängt davon ab, wie Ihr Datenpartner [!UICONTROL destination] Informationen erhalten möchte oder kann. Technische oder technische Einschränkungen können verhindern, dass ein [!UICONTROL destination] Benutzer Daten über [!DNL URL], [!UICONTROL cookie]oder [!UICONTROL server-to-server] Prozesse empfängt. Arbeiten Sie mit Ihrem Drittanbieter zusammen, um zu ermitteln, welche Methode Sie verwenden können.
+Data Versand hängt davon ab, wie Ihr Datenpartner [!UICONTROL destination]-Informationen erhalten möchte oder kann. Technische oder technische Einschränkungen können verhindern, dass ein [!UICONTROL destination] Daten über [!DNL URL]-, [!UICONTROL cookie]- oder [!UICONTROL server-to-server]-Prozesse empfängt. Arbeiten Sie mit Ihrem Drittanbieter zusammen, um zu ermitteln, welche Methode Sie verwenden können.
 
 ## Geschäftliche Aspekte {#business-considerations}
 
-Geschäftsentscheidungen bei der Auswahl einer Versand-Methode im Vergleich zu einer anderen hängen von den technischen Fähigkeiten Ihres [!UICONTROL destination] Partners und davon ab, was Sie mit qualifizierten Benutzerinformationen tun möchten. Technische Einschränkungen können beispielsweise Ihre Optionen einschränken, wenn ein Benutzer keine Daten mit einer bestimmten Versand-Methode empfangen [!UICONTROL destination] kann. Wenn jedoch keine technischen Probleme auftreten, können Sie Informationen senden, die darauf basieren, wie Sie mit diesen Daten vorgehen möchten. Beispiel:
+Geschäftsentscheidungen zur Auswahl einer Versand-Methode im Vergleich zu einer anderen hängen von den technischen Möglichkeiten Ihres [!UICONTROL destination]-Partners und davon ab, was Sie mit qualifizierten Benutzerinformationen tun möchten. Technische Einschränkungen können beispielsweise Ihre Optionen einschränken, wenn ein [!UICONTROL destination] keine Daten nach einer bestimmten Versand-Methode empfangen kann. Wenn jedoch keine technischen Probleme auftreten, können Sie Informationen senden, die darauf basieren, wie Sie mit diesen Daten vorgehen möchten. Beispiel:
 
-* [!DNL URL]s und [!UICONTROL cookie-based destinations] arbeiten fast synchron mit Benutzeraktionen auf einer Seite.
+* [!DNL URL]s und  [!UICONTROL cookie-based destinations] funktionieren fast synchron mit Benutzeraktionen auf einer Seite.
 * [!UICONTROL Server-to-server] Methoden eignen sich gut zum Aufbau von Segmenten mit tiefen Audiencen im Laufe der Zeit.
 
-## [!UICONTROL Destination] Typen und typische Verwendungen {#destination-types}
+## [!UICONTROL Destination] Typen und typische Verwendungen  {#destination-types}
 
-Die Beispiele in der folgenden Tabelle helfen Ihnen dabei, zu verstehen, wann ein bestimmter Typ verwendet werden soll [!UICONTROL destination] und welche Unterschiede zwischen den einzelnen Typen bestehen.
+Die Beispiele in der folgenden Tabelle können Ihnen dabei helfen, zu verstehen, wann ein bestimmtes [!UICONTROL destination] verwendet werden soll und welche Unterschiede zwischen den einzelnen Typen bestehen.
 
 | [!UICONTROL Destination] Geben Sie | Wird normalerweise verwendet, wenn | Beispiel | Zu beachten |
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | Sie müssen Daten an andere Adobe Experience Cloud-Lösungen senden. | Senden von Daten an Adobe Analytics |  |
 | **[!UICONTROL People-Based Destinations]** | Sie müssen Audiencen-Segmente an benutzerbasierte Umgebung wie Facebook senden. | Auslieferung personalisierter Angebot an Bestandskunden anhand ihrer Einkaufshistorie | Audiencen-Targeting erfolgt über Hash-IDs. Siehe [Benutzerbasierte Ziele](people-based-destinations-overview.md). |
 | **[!UICONTROL Device-Based Destinations]** (**Server-zu-Server**) | <ul><li>Eine sofortige Datenübertragung ist nicht erforderlich.</li><li>Erfassen von Daten zum Aufbau eines großen Benutzerpools mit qualifizierten Audiencen.</li></ul> | Datenerfassung im Zeitverlauf (Stunden oder Tage) zur Verwendung in einer Kampagne, die zu einem späteren Zeitpunkt ausgeführt werden soll. | <ul><li>Überträgt Daten zu neuen und vorherigen Site-Besuchern. </li><li>Besucher müssen nicht mehr angezeigt werden, um sich für andere Segmente qualifizieren zu können.</li></ul> |
-| **[!UICONTROL Custom Destinations]** (**URL** oder **Cookie**) | Sie müssen Daten sofort übertragen, damit ein Ziel sofort Aktionen an einen qualifizierten Benutzer durchführen kann. | Senden von Daten von einer Ticketeinkaufssite. Verwenden Sie einen [!UICONTROL URL] oder [!UICONTROL cookie destination] , um den Benutzer zu qualifizieren und eine sofortige Zielgruppe durchzuführen. | <ul><li>Überträgt nur Daten zu neuen Besuchern. </li><li>Besucher müssen erneut angezeigt werden, um sich für das Segment qualifizieren zu können.</li></ul> |
+| **[!UICONTROL Custom Destinations]** (**** URLs oder  **Cookies**) | Sie müssen Daten sofort übertragen, damit ein Ziel sofort Aktionen an einen qualifizierten Benutzer durchführen kann. | Senden von Daten von einer Ticketeinkaufssite. Verwenden Sie einen [!UICONTROL URL] oder [!UICONTROL cookie destination], um den Benutzer zu qualifizieren und sofort eine erneute Zielgruppe durchzuführen. | <ul><li>Überträgt nur Daten zu neuen Besuchern. </li><li>Besucher müssen erneut angezeigt werden, um sich für das Segment qualifizieren zu können.</li></ul> |
