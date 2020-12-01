@@ -25,7 +25,7 @@ Der Bericht &quot;Individuelle Benutzerreichweite&quot;hilft Ihnen bei der Suche
 >
 >Bedenken Sie Folgendes:
 >
->* Der [!UICONTROL Unique User Reach] Bericht zeigt Informationen nur für Benutzer mit [!UICONTROL Admin] Berechtigungsstufen an. Ihr [!DNL Audience Manager] Berater oder die Kundenunterstützung können Ihrem Konto [!UICONTROL Admin] Berechtigungen erteilen.
+>* Der Bericht [!UICONTROL Unique User Reach] zeigt Informationen nur für Benutzer mit [!UICONTROL Admin]-Berechtigungsebenen an. Ihr [!DNL Audience Manager]-Berater oder die Kundenunterstützung können Ihrem Konto [!UICONTROL Admin]-Berechtigungen zuweisen.
    >
    >
 * 7- und 30-Tage-Lookback-Zeiten sind nur für Sonntage verfügbar.
@@ -33,6 +33,6 @@ Der Bericht &quot;Individuelle Benutzerreichweite&quot;hilft Ihnen bei der Suche
 
 ## Beispielbericht
 
-Ihr [!UICONTROL Unique User Reach] Bericht könnte dem unten stehenden ähneln. Klicken Sie in Ihrem Bericht auf einen Punkt, um die zugrunde liegenden Daten Ansicht.
+Ihr [!UICONTROL Unique User Reach]-Bericht könnte ähnlich wie der unten stehende aussehen. Klicken Sie in Ihrem Bericht auf einen Punkt, um die zugrunde liegenden Daten Ansicht.
 
 ![](assets/unique-user-reach.png)
