@@ -1,6 +1,6 @@
 ---
-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten, die Sie in den Berichten zur Optimierung der Audience und für ausführbare Protokolldateien verwenden können. Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Berichtsoptionen und Menüpunkten entsprechen. Formatieren Sie Ihre Daten- und Metadatendateien gemäß den Spezifikationen in diesem Abschnitt.
-seo-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten, die Sie in den Berichten zur Optimierung der Audience und für ausführbare Protokolldateien verwenden können. Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Berichtsoptionen und Menüpunkten entsprechen. Formatieren Sie Ihre Daten- und Metadatendateien gemäß den Spezifikationen in diesem Abschnitt.
+description: Eine Datendatei enthält Impressions-, Klick- oder Konvertierungsdaten, die Sie in den Berichten "Audience Optimization"und für "Aktive Protokolldateien"verwenden können. Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Berichtsoptionen und Menüpunkten entsprechen. Formatieren Sie Ihre Daten- und Metadatendateien gemäß den Spezifikationen in diesem Abschnitt.
+seo-description: Eine Datendatei enthält Impressions-, Klick- oder Konvertierungsdaten, die Sie in den Berichten "Audience Optimization"und für "Aktive Protokolldateien"verwenden können. Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Berichtsoptionen und Menüpunkten entsprechen. Formatieren Sie Ihre Daten- und Metadatendateien gemäß den Spezifikationen in diesem Abschnitt.
 seo-title: Protokolldaten- und Metadatendateien
 solution: Audience Manager
 title: Protokolldaten- und Metadatendateien
@@ -26,7 +26,7 @@ Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Beri
 
 >[!IMPORTANT]
 >
->Zur Verwendung von Metadatendateien müssen Ihre Ereignis-Aufrufe *alle* im Abschnitt [Überblick und Zuordnung](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) aufgelisteten Parameter enthalten.
+>Zur Verwendung von Metadatendateien müssen Ihre Ereignis-Aufrufe *alle* der im Abschnitt [Übersicht und Zuordnungen](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) aufgelisteten Parameter enthalten.
 
 * [Datendateien für Berichte zur Zielgruppenoptimierung und ausführbare Protokolldateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [Überblick und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
