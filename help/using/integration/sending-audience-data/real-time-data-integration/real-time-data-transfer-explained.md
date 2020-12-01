@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Real-Time Data Transfer Process Described{#real-time-data-transfer-process-described}
+# Datentransferprozess in Echtzeit beschrieben{#real-time-data-transfer-process-described}
 
 Eine allgemeine Übersicht darüber, wie Audience Manager Datenübertragungen in Echtzeit mit einem Content Provider eines Drittanbieters durchführt.
 
@@ -30,8 +30,8 @@ Echtzeit-Datenübertragungen senden und empfangen Segment-IDs als Benutzerbesuch
 Der Datenintegrationsprozess in Echtzeit funktioniert wie folgt:
 
 1. Ein Benutzer besucht die Site eines Kunden, die Audience Manager-Code enthält.
-1. Audience Manager lädt einen iframe und ruft unser [!UICONTROL Data Collection Server] ( [!DNL DCS]) an.
-1. Der Drittanbieterserver [!DNL DCS] ruft (in Echtzeit) auf, um zu prüfen, ob der Anbieter Segmentinformationen über den Benutzer hat.
+1. Audience Manager lädt einen iframe und ruft unser [!UICONTROL Data Collection Server] ( [!DNL DCS]) auf.
+1. Das [!DNL DCS] ruft den Drittanbieter-Server (in Echtzeit) auf, um zu prüfen, ob der Anbieter Segmentinformationen über den Benutzer hat.
 1. Der Content Provider gibt Segmentinformationen über diesen Benutzer an den Audience Manager zurück.
 1. Audience Manager erhält diese Segmentinformationen und stellt sie für Targeting und das Erstellen neuer Eigenschaften und Segmente bereit.
 
