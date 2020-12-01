@@ -17,9 +17,9 @@ ht-degree: 12%
 
 # Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen {#formatting-key-value-pairs-in-dcs-calls}
 
-Bei einem Aufruf [!DNL DCS] akzeptiert der Benutzer Schlüsselwertdaten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
+Bei einem Aufruf akzeptiert das [!DNL DCS] Schlüsselwertdaten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized}
+## Standard- und serialisierte Schlüsselwertpaare {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
@@ -43,7 +43,7 @@ Bei einem Aufruf [!DNL DCS] akzeptiert der Benutzer Schlüsselwertdaten im stand
  </tbody>
 </table>
 
-## Trennzeichen und Trennzeichen für serialisierte Schlüsselwertpaare {#delimiters-separators}
+## Trennzeichen und Trennzeichen für serialisierte Schlüssel/Wert-Paare {#delimiters-separators}
 
 Bei serialisierten Schlüssel-Wert-Paaren müssen Sie die Marker angeben, die Werte innerhalb und zwischen diesen Variablen trennen. Audience Manager erfordert die folgenden Trennzeichen und Trennzeichen:
 
