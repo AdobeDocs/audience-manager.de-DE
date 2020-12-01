@@ -23,13 +23,13 @@ Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ od
 
 >[!NOTE]
 >
->Eigenschafts-Typmethoden weisen Kategorien, die von der [allgemeinen Taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)verwendet werden, keine Eigenschaften zu. Stellen Sie sich diese als Etiketten vor, die von der allgemeinen Taxonomie getrennt sind.
+>Eigenschafts-Typmethoden weisen Kategorien, die von der [common taxonomy](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods) verwendet werden, keine Eigenschaften zu. Stellen Sie sich diese als Etiketten vor, die von der allgemeinen Taxonomie getrennt sind.
 
-Als visuelle Referenz dient [!UICONTROL Trait Types] ein Dropdown-Steuerelement, das sich im [!DNL UI] darunter befindet **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Als visuelle Referenz dient [!UICONTROL Trait Types] als Dropdown-Steuerelement im [!DNL UI] unter **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Erstellen eines neuen Eigenschaftstyps {#create-trait-type}
+## Erstellen eines neuen Eigenschaftentyps {#create-trait-type}
 
-Eine `POST` Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
+Eine `POST`-Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -62,7 +62,7 @@ Eine `POST` Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
 
 ## Rückgabeeigenschaften für einen Eigenschaftstyp {#return-props}
 
-Eine `GET` Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
+Eine `GET`-Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -87,7 +87,7 @@ Eine `GET` Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
 
 ## Rückgabeeigenschaften für alle Eigenschaftstypen {#return-props-all}
 
-Eine `GET` Methode, die Details zu allen Eigenschaftstypen in einem Array zurückgibt.
+Eine `GET`-Methode, die Details zu allen Eigenschaftstypen in einem Array zurückgibt.
 
 <!-- r_rest_api_get_trait_types.xml -->
 
