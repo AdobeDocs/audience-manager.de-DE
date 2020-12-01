@@ -17,11 +17,11 @@ ht-degree: 15%
 
 # Erste Schritte mit DIL-APIs auf Klassenebene{#getting-started-with-class-level-dil-apis}
 
-Mit den DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und bearbeiten. Die APIs auf Klassenebene arbeiten mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
+Mit DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und bearbeiten. Die APIs auf Klassenebene arbeiten mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
 
 ## Erste Schritte mit DIL-APIs auf Klassenebene {#get-started}
 
-Beschreibt die Authentifizierungsanforderungen und die Textformatierung, die in der [!UICONTROL DIL] Dokumentation auf Klassenebene verwendet werden.
+Beschreibt die Authentifizierungsanforderungen und die Textformatierung, die in der Dokumentation auf Klassenebene [!UICONTROL DIL] verwendet werden.
 
 <!-- 
 
@@ -29,9 +29,9 @@ c_class_start.xml
 
  -->
 
-Beim Arbeiten mit [!UICONTROL DIL] APIs auf Klassenebene:
+Beim Arbeiten mit den APIs auf Klassenebene [!UICONTROL DIL]:
 
 * Für den Zugriff sind ein Partnername und eine Container-Namensraum-ID (NSID) erforderlich. Wenden Sie sich an Ihren Kundenbetreuer, um diese Informationen zu erhalten.
-* Ersetzen Sie den *kursiv* formatierten Beispieltext in der API-Dokumentation durch Wert, ID oder andere Variable, die von der Methode, mit der Sie arbeiten, benötigt werden.
-* [!UICONTROL DIL] schreibt kodierte Daten in ein Ziel-Cookie. Leerzeichen werden beispielsweise als `%20` und Semikolons als `%3B`kodiert.
+* Ersetzen Sie jeden Beispieltext *kursiv* in der API-Dokumentation durch Wert, ID oder andere Variable, die von der Methode, mit der Sie arbeiten, benötigt werden.
+* [!UICONTROL DIL] schreibt kodierte Daten in ein Ziel-Cookie. Leerzeichen werden beispielsweise als `%20` und Semikolons als `%3B` kodiert.
 
