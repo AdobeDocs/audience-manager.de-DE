@@ -21,7 +21,7 @@ Gibt Daten zur Anzahl der Unique Users zurück, die für alle Ihre Erstanbieter-
 
 >[!NOTE]
 >
->Die Überschneidungsberichte in Audience Manager folgen den RBAC-Grundsätzen. Sie können Eigenschaften nur aus Datenquellen anzeigen, auf die Sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md) , der Sie angehören.
+>Die Überschneidungsberichte in Audience Manager folgen den RBAC-Grundsätzen. Sie können nur Eigenschaften aus Datenquellen sehen, auf die Sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](/help/using/features/administration/administration-overview.md), der Sie angehören.
 
 <!-- 
 
@@ -31,7 +31,7 @@ c_overlap_reports.xml
 
 ## Überblick
 
-Der [!UICONTROL Trait-to-Trait Overlap] Bericht gibt Daten zu dem Prozentsatz der Unique Users zurück, die für alle Ihre eigenen Eigenschaften und Eigenschaften von Drittanbietern freigegeben wurden. Als Optimierungstool hilft Ihnen dieser Bericht:
+Der [!UICONTROL Trait-to-Trait Overlap]-Bericht gibt Daten zu dem % der Unique Users zurück, die für all Ihre eigenen Eigenschaften und Eigenschaften von Drittanbietern freigegeben wurden. Als Optimierungstool hilft Ihnen dieser Bericht:
 
 * Erstellen Sie Segmente mit hoher oder niedriger Überschneidung, je nach Bedarf. Eigenschaften mit hoher Überschneidung geben Ihnen eine zielgerichtete Audience, aber weniger individuelle Besucher. Eigenschaften mit geringer Überschneidung können nützlich sein, um einen größeren, eindeutigen Besucher zu erreichen.
 * Validieren von Drittanbieter-Eigenschaftendaten: Eine starke Überschneidung von ähnlichen Eigenschaften von Erstanbietern und Drittanbietern deutet darauf hin, dass die Eigenschaften Ihres Datenpartners korrekt und vertrauenswürdig sind. Umgekehrt kann eine geringe Überschneidung darauf hindeuten, dass eine Eigenschaft eines Drittanbieters möglicherweise nicht die gleichen Informationen wie Ihre eigene, ähnliche Eigenschaft eines Erstanbieters enthält.
@@ -39,11 +39,11 @@ Der [!UICONTROL Trait-to-Trait Overlap] Bericht gibt Daten zu dem Prozentsatz de
 
 ## Beispielbericht
 
-Die folgende Abbildung zeigt einen Überblick über die Elemente im [!UICONTROL Trait-to-Trait Overlap] Bericht auf hoher Ebene.
+Die folgende Abbildung zeigt eine allgemeine Übersicht über Elemente im [!UICONTROL Trait-to-Trait Overlap]-Bericht.
 
 >[!NOTE]
 >
->Der [!UICONTROL Trait-to-Trait Overlap] Bericht gibt ein leeres Feld zurück, wenn er dieselbe Eigenschaft mit sich selbst vergleicht.
+>Der Bericht [!UICONTROL Trait-to-Trait Overlap] gibt ein leeres Feld zurück, wenn er dieselbe Eigenschaft mit sich selbst vergleicht.
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -51,7 +51,7 @@ Die folgende Abbildung zeigt einen Überblick über die Elemente im [!UICONTROL 
 
 Wählen Sie in einem Popup-Fenster einen individuellen Punkt für die Datendetails der Ansicht aus. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
 
-## Eigenschaften-zu-Eigenschaften-Überschneidungsfelder für Popupfelder definiert {#field-definitions}
+## Eigenschaften-zu-Eigenschaften-Überschneidungsfelder für Daten-Pop-Felder definiert {#field-definitions}
 
 Beschreibt die Metriken, die im Popup-Fenster angezeigt werden, wenn Sie auf einen einzelnen Datenpunkt klicken.
 
@@ -61,7 +61,7 @@ r_t2t_data_pop.xml
 
  -->
 
-Das Popup für den [!UICONTROL Trait-to-Trait Overlap] Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik &quot;Individuelle Werte&quot;in der Tabelle Ihre *Echtzeit-Benutzer* darstellt.
+Das Popup für den [!UICONTROL Trait-to-Trait Overlap]-Bericht enthält die folgenden Metriken. Beachten Sie, dass die Metrik &quot;Individuelle Werte&quot;in der Tabelle Ihre *Echtzeit-Benutzer* darstellt.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
