@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbie
 
    Beschreibt die erforderlichen Felder, die Syntax und die Konventionen, mit denen eine ausgehende Datendatei benannt wird.
 
-* [Batch-Datenübertragungsintegration konfigurieren](batch-server-configuration.md)
+* [Konfigurieren der Batch-Datenübertragungsintegration ](batch-server-configuration.md)
 
    Beschreibt die Methoden, mit denen Sie Ihre Batch-Datenübertragungsintegration konfigurieren können.
 
@@ -39,4 +39,4 @@ Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbie
 
 * [Nutzen der kontoübergreifenden Bucket-Zugriffsrechte von Amazon S3 für Ihre ausgehenden Dateien](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   Der Prozess der Datenübertragung bei Kunden, die Amazon Simple Datenspeicherung Service (Amazon S3) verwenden, erfordert, dass wir Ihren Amazon S3-Zugriffsschlüssel und -geheimen Schlüssel anfordern, um die ausgehenden Datendateien an Ihren Behälter zu liefern.
+   Der Ausgehende Datenübertragungsprozess für Kunden, die Amazon Simple Datenspeicherung Service (Amazon S3) verwenden, erfordert, dass wir Ihren Amazon S3-Zugriffsschlüssel und -geheimen Schlüssel anfordern, um die ausgehenden Datendateien an Ihren Behälter zu liefern.
