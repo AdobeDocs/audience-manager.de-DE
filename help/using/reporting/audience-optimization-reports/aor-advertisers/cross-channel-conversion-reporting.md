@@ -1,6 +1,6 @@
 ---
-description: Mit der Option "Konvertierung über mehrere Kanal"in den Berichten zur Audience-Optimierung können Sie Offlinekonversionen bereitgestellten Online-Impressionen oder -Klicks zuordnen.
-seo-description: Mit der Option "Konvertierung über mehrere Kanal"in den Berichten zur Audience-Optimierung können Sie Offlinekonversionen bereitgestellten Online-Impressionen oder -Klicks zuordnen.
+description: Mit der Option "Konvertierung über mehrere Kanal"in den Berichten "Audience Optimization"können Sie Offlinekonversionen bereitgestellten Online-Impressionen oder -Klicks zuordnen.
+seo-description: Mit der Option "Konvertierung über mehrere Kanal"in den Berichten "Audience Optimization"können Sie Offlinekonversionen bereitgestellten Online-Impressionen oder -Klicks zuordnen.
 seo-title: Kanalübergreifende Konversion
 solution: Audience Manager
 title: Kanalübergreifende Konversion
@@ -17,15 +17,15 @@ ht-degree: 4%
 
 # Kanalübergreifende Konversion{#cross-channel-conversion}
 
-Mit der Option &quot;Konvertierung über mehrere Kanal&quot;in den Berichten zur Audience-Optimierung können Sie Offlinekonversionen bereitgestellten Online-Impressionen oder -Klicks zuordnen.
+Mit der Option &quot;Konvertierung über mehrere Kanal&quot;in den Berichten &quot;Audience Optimization&quot;können Sie Offlinekonversionen bereitgestellten Online-Impressionen oder -Klicks zuordnen.
 
-Die [!UICONTROL Cross Channel Conversion] Berichte kombinieren die Ergebnisse der [!DNL Google Campaign Manager] Plattform mit [!DNL Audience Manager] Konversionseigenschaften. Auf diese Weise können Sie Offline-Konversionen mit Online-Impressionen oder -Klicks verknüpfen.
+Die [!UICONTROL Cross Channel Conversion]-Berichte kombinieren die Ergebnisse der [!DNL Google Campaign Manager]-Plattform mit [!DNL Audience Manager]-Konversionseigenschaften. Auf diese Weise können Sie Offline-Konversionen mit Online-Impressionen oder -Klicks verknüpfen.
 
-Sie können die [!UICONTROL Cross Channel Conversion] für die [Berichte &quot;Segmentleistung](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) &quot;und &quot; [Optimale Häufigkeit](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) &quot;verwenden.
+Sie können die Berichte [!UICONTROL Cross Channel Conversion] für [Segmentleistung](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) und [Optimale Häufigkeit](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) verwenden.
 
-Um die [!UICONTROL Cross Channel Conversion] Berichte Ansicht, wählen Sie das **[!UICONTROL AAM + Ad Server Name]** Element in der **[!UICONTROL Platform]** Dropdown-Liste aus.
+Um die Berichte [!UICONTROL Cross Channel Conversion] Ansicht, wählen Sie in der Dropdown-Liste **[!UICONTROL Platform]** das Element **[!UICONTROL AAM + Ad Server Name]** aus.
 
-In der folgenden Tabelle werden wichtige Überlegungen zur Einrichtung [!UICONTROL Cross Channel Conversion]aufgeführt:
+Die folgende Tabelle enthält wichtige Listen bei der Einrichtung von [!UICONTROL Cross Channel Conversion]:
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -37,11 +37,11 @@ In der folgenden Tabelle werden wichtige Überlegungen zur Einrichtung [!UICONTR
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Mindestanzahl von Konversionseigenschaften </p> </td> 
-   <td colname="col1"> <p>Mindestens eine Konversionseigenschaft muss einer Datenquelle zugewiesen werden, damit die <span class="wintitle"> Berichte zur Konvertierung</span> von Kanälen ausgeführt werden können. Weitere Informationen zu Eigenschaften finden Sie unter <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Grundlegende Informationen für Eigenschaften</a> . </p> </td> 
+   <td colname="col1"> <p>Mindestens eine Konversionseigenschaft muss einer Datenquelle zugewiesen werden, damit die Berichte <span class="wintitle"> "Konvertierung über mehrere Kanal</span>"ausgeführt werden können. Weitere Informationen zu Eigenschaften finden Sie unter <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Grundlegende Informationen für Eigenschaften</a>. </p> </td> 
   </tr>
   <tr> 
    <td> <p>Zuordnungsfenster </p> </td> 
-   <td> <p> <b><span class="uicontrol"> Das Zuordnungsfenster von AAM+Google Kampagne Manager</span></b> beträgt 14 Tage, d. h., es werden nur Konversionseigenschaften berücksichtigt, die in den letzten zwei Wochen ausgestellt wurden. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> Das Zuordnungs-Fenster AAM+Google Kampagne </span></b> Manager ist 14 Tage lang gültig, d. h., es werden nur Konversionseigenschaften berücksichtigt, die in den letzten zwei Wochen ausgestellt wurden. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Last Touch-Methode </p> </td> 
