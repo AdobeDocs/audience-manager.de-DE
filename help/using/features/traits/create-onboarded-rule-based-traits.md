@@ -18,13 +18,13 @@ ht-degree: 8%
 
 # Erstellen[!UICONTROL Rules-Based] oder [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
-Beschreibt die Einrichtung von Schritten und Funktionen, die für den Erstellungsprozess [!UICONTROL rules-based] und die Erstellung von [!UICONTROL onboarded] Eigenschaften spezifisch sind.
+Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für die Erstellung der Eigenschaften [!UICONTROL rules-based] und [!UICONTROL onboarded] sind.
 
 <!-- c_tb_rules_traits.xml -->
 
-## Grundlegende Informationen zu Eigenschaften {#basics}
+## Grundlegende Informationen für Eigenschaften {#basics}
 
-In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen können Sie neue erstellen oder bestehende bearbeiten [!UICONTROL traits]. Die [!UICONTROL Basic Information] Einstellungen sind für [!UICONTROL rules-based], [!UICONTROL onboarded] und [!UICONTROL algorithmic traits]identisch. Um eine neue zu erstellen, geben Sie einen Namen (ohne Sonderzeichen), eine ein [!UICONTROL trait]und wählen Sie eine [!UICONTROL data source][!UICONTROL storage folder]. Andere [!UICONTROL Basic Information] Felder sind optional.
+Mit den [!UICONTROL Trait Builder]-Einstellungen können Sie neue [!UICONTROL Basic Information] erstellen oder vorhandene [!UICONTROL traits] bearbeiten. Die [!UICONTROL Basic Information]-Einstellungen sind für [!UICONTROL rules-based], [!UICONTROL onboarded] und [!UICONTROL algorithmic traits] gleich. Um ein neues [!UICONTROL trait] zu erstellen, geben Sie einen Namen (ohne Sonderzeichen), ein [!UICONTROL data source] ein und wählen Sie ein [!UICONTROL storage folder]. Andere [!UICONTROL Basic Information]-Felder sind optional.
 
 <!-- c_tb_basics.xml -->
 
@@ -49,7 +49,7 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
        <li id="li_579302FE34B64FE0AE3C751012839229">Hyphen </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Registerkarten </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">Vertikales Strich- oder Senkrechteck </li> 
-      </ul> </p> </p> <p>Auf diese Weise können Sie Verarbeitungsfehler beim Einrichten einer <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> eingehenden Datendateitransaktion</a>reduzieren. </p> </td> 
+      </ul> </p> </p> <p>Auf diese Weise können Verarbeitungsfehler beim Einrichten einer <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> eingehenden Datendateiübertragung</a> reduziert werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Beschreibung</span></b> </td> 
@@ -57,11 +57,11 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Datenquelle</span></b> </td> 
-   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie Adobe Analytics Report Suites nicht verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur Audience Manager-Datenquellen.</p>  </td> 
+   <td colname="col2"> Ordnet die Eigenschaft einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus.</p><p> Wenn Sie keine Adobe Analytics Report Suites verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur auf Audience Manager-Datenquellen eingestellt.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ereignistyp</span></b> </td> 
-   <td colname="col2"> Weist die Eigenschaft einem Typ oder einer Kategorie zu, in der Regel entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Ansicht der Seite usw.). Optional. <p> Weitere Informationen zum Erstellen von Konversionseigenschaften finden Sie im Video <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Erstellen von Konversionseigenschaften in Audience Manager</a>. </p></td> 
+   <td colname="col2"> Weist die Eigenschaft einem Typ oder einer Kategorie zu, in der Regel entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Ansicht der Seite usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im Audience Manager <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Erstellen von Konversionseigenschaften</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integrations-Code</span></b> </td> 
@@ -84,13 +84,13 @@ In [!UICONTROL Trait Builder]den [!UICONTROL Basic Information] Einstellungen k�
 
 ## Festlegen eines [!UICONTROL Trait] Ablaufintervalls {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder]der [!UICONTROL Advanced Options] können Sie ein Intervall für die Live-Übertragung ([!DNL TTL]) für einen [!UICONTROL trait]Bericht festlegen. [!DNL TTL] legt fest, wie viele Tage ein qualifizierter Besucher in einem [!UICONTROL trait] (standardmäßig 120 Tage) verbleibt. Bei Festlegung auf 0 läuft die [!UICONTROL trait] Mitgliedschaft nie ab.
+In [!UICONTROL Trait Builder] können Sie mit dem [!UICONTROL Advanced Options]-Intervall ein Live-Intervall ([!DNL TTL]) für ein [!UICONTROL trait] festlegen. [!DNL TTL] legt fest, wie viele Tage ein qualifizierter Besucher in einem Zeitraum von  [!UICONTROL trait] (standardmäßig 120 Tagen) verbleibt. Bei Festlegung auf 0 läuft die [!UICONTROL trait]-Mitgliedschaft nie ab.
 
 <!-- t_tb_ttl.xml -->
 
-### Festlegen der TTL für eine [!UICONTROL trait]
+### TTL für ein [!UICONTROL trait] festlegen
 
-1. Erweitern Sie den [!UICONTROL Advanced Options] Abschnitt und geben Sie eine Zahl ein, um einen [!DNL TTL] Wert für den Abschnitt festzulegen [!UICONTROL trait].
+1. Erweitern Sie den Abschnitt [!UICONTROL Advanced Options] und geben Sie eine Zahl ein, um einen [!DNL TTL]-Wert für [!UICONTROL trait] festzulegen.
 1. Klicken **[!UICONTROL Save]**.
 
    ![](assets/TTL.png)
