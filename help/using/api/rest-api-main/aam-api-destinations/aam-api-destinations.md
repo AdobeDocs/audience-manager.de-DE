@@ -21,11 +21,11 @@ Methoden, mit denen Sie programmatisch mit Zielfunktionen arbeiten können.
 
 <!-- c_destinations_api.xml -->
 
-Im Audience Manager ist ein Ziel jedes anderen Systems (Anzeigen-Server, [!DNL DSP]Anzeigen-Netzwerk, Austausch, Ihr eigenes Erstanbieter-Cookie usw.) für das Sie Daten freigeben möchten.
+Im Audience Manager ist ein Ziel ein beliebiges anderes System (Anzeigenserver, [!DNL DSP], Werbenetzwerk, Austausch, Ihr eigenes Erstanbieter-Cookie usw.) für das Sie Daten freigeben möchten.
 
 ## Zieltypen: URL und Cookie {#destination-types}
 
-Liste der vom `destinationType` Parameter verwendeten Variablen. Geben Sie an `push` oder `ADS` arbeiten Sie mit einem [!UICONTROL URL] oder [!UICONTROL cookie destination]. Sie können keine [!UICONTROL server-to-server destinations] mit den verfügbaren [!DNL API] Zielmethoden erstellen.
+Liste der Variablen, die vom Parameter `destinationType` verwendet werden. Geben Sie `push` oder `ADS` an, um mit einem [!UICONTROL URL] oder [!UICONTROL cookie destination] zu arbeiten. Sie können [!UICONTROL server-to-server destinations] nicht mit den verfügbaren Methoden [!DNL API] erstellen.
 
 <!-- r_destination_types.xml -->
 
