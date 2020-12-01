@@ -1,6 +1,6 @@
 ---
-description: Empfehlungen und Anwendungsfälle für Segment-Remotings und personalisierte Segmentqualifizierung mit dem Profil Link-Gerätediagramm.
-seo-description: Empfehlungen und Anwendungsfälle für Segment-Remotings und personalisierte Segmentqualifizierung mit dem Profil Link-Gerätediagramm.
+description: Recommendations und Anwendungsfälle für Segmentneuerung und personalisierte Segmentqualifizierung mit dem Profil Link-Gerätediagramm.
+seo-description: Recommendations und Anwendungsfälle für Segmentneuerung und personalisierte Segmentqualifizierung mit dem Profil Link-Gerätediagramm.
 seo-title: Anwendungsfälle für das Profil-Link-Gerätediagramm
 solution: Audience Manager
 title: Anwendungsfälle für das Profil-Link-Gerätediagramm
@@ -17,14 +17,14 @@ ht-degree: 9%
 
 # Anwendungsfälle für das Profil-Link-Gerätediagramm {#profile-link-device-graph-use-cases}
 
-Empfehlungen und Anwendungsfälle für Segment-Retargeting und personalisierte Segmentqualifizierung mit der [!UICONTROL Profile Link Device Graph].
+Recommendations und Anwendungsfälle für Segment-Remotings und personalisierte Segmentqualifizierung mit dem [!UICONTROL Profile Link Device Graph].
 
 ## Recommendations {#recommendations}
 
-Betrachten Sie das [!UICONTROL Profile Link] Gerätediagramm für Kampagnen, die:
+Betrachten Sie das Gerätediagramm [!UICONTROL Profile Link] für Kampagnen, die:
 
-* Sie haben eine hochwertige Authentifizierung über ihre digitalen Eigenschaften hinweg. Verwenden Sie eine [externe Gerätediagrammoption](merge-rule-definitions.md#device-options) , wenn Sie nur über eine geringe Anzahl authentifizierter Benutzer verfügen.
-* Genaues Targeting bekannter Audiencen erforderlich. Die [!UICONTROL Profile Link Device Graph] Daten werden mit authentifizierten Erstanbieterdaten erstellt.
+* Sie haben eine hochwertige Authentifizierung über ihre digitalen Eigenschaften hinweg. Verwenden Sie eine [externe Gerätediagrammoption](merge-rule-definitions.md#device-options), wenn Sie eine geringe Anzahl authentifizierter Benutzer haben.
+* Genaues Targeting bekannter Audiencen erforderlich. Das [!UICONTROL Profile Link Device Graph] wird mit authentifizierten Erstanbieterdaten erstellt.
 * Zielgruppe bekannter Audiencen über ihren authentifizierten und nicht authentifizierten Status in Echtzeit.
 
 ![](assets/merge-rule-triangle2.png)
@@ -37,13 +37,13 @@ Nehmen wir an, John besitzt drei Geräte, die er regelmäßig benutzt, um nach P
 * Er verwendet sein Smartphone, um nach Hotels zu suchen.
 * Er benutzt sein Tablet, um Führungen zu suchen.
 
-Selbst wenn John nicht auf allen drei oben genannten Geräten authentifiziert ist, kann ein Anbieter von Pauschalreisen diese Geräte mit dem authentifizierten Profil von John verknüpfen, wobei er davon ausgeht, dass er der letzte war, der sich auf allen drei Geräten authentifiziert hat. Dies geschieht mit der Regel **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** .
+Auch wenn John nicht auf allen drei oben genannten Geräten authentifiziert ist, kann ein Anbieter von Pauschalreisen diese Geräte mit John&#39;s authentifiziertem Profil verknüpfen, vorausgesetzt, er war der Letzte, der sich auf allen drei Geräten authentifiziert hat.**[!UICONTROL Last Authenticated Profiles]****[!UICONTROL Profile Link Device Graph]**
 
 ![last-device-graph](assets/last-device-graph.png)
 
-Da Audience Manager jedes Profil qualifiziert, das an der Segmentzusammenführung teilgenommen hat, werden alle drei Profil segmentiert. Mit dem [!UICONTROL Profile Link Device Graph] können Audience Manager das Verhalten auf allen drei Geräten überprüfen und jedes Gerät für ein Segment qualifizieren, für das kein einzelnes Profil qualifiziert ist.
+Da Audience Manager jedes Profil qualifiziert, das an der Segmentzusammenführung teilgenommen hat, werden alle drei Profil segmentiert. Das [!UICONTROL Profile Link Device Graph] ermöglicht es Audience Managern, das Verhalten auf allen drei Geräten zu überprüfen und jedes Gerät für ein Segment zu qualifizieren, für das kein einzelnes Profil allein qualifiziert ist.
 
-Dadurch [!UICONTROL Profile Merge Rule] können Marketingexperten allen Geräten, die einer Person gehören, ein einheitliches Erlebnis bieten, basierend auf der Aktivität des Benutzers und nicht auf der Aktivität des jeweiligen Geräts.
+Mit diesem [!UICONTROL Profile Merge Rule] können Marketingexperten ein konsistentes Erlebnis für alle Geräte bereitstellen, die einer Person gehören, basierend auf der Aktivität des Benutzers und nicht auf der Aktivität des jeweiligen Geräts.
 
 ![geräteübergreifende Personalisierung](assets/cross-device-personalization.png)
 
