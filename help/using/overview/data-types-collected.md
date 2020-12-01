@@ -19,7 +19,7 @@ ht-degree: 72%
 
 [!DNL Audience Manager]Mit können Sie Erstanbieter-, Zweitanbieter- und Drittanbieterdaten erfassen und verwalten.
 
-Die Nutzung von in mehreren Silos gespeicherten Kundendatenelementen ist eine der größten Datenherausforderungen, mit denen Unternehmen heute konfrontiert sind. From [!DNL CRM] databases, to registration systems, to ad servers, and so forth, companies require tools that help centralize valuable data and manage customer/audience information as a single strategic data asset. [!DNL Audience Manager]Mit können Sie isolierte Kundeninformationen nutzen und die Datenerfassung aus mehreren Quellen verwalten. Collected data can be managed based on data element time-to-live ([!DNL TTL]) values, which helps the publisher control data expiration across all sources. [!DNL Audience Manager] unterstützt Sie bei der Verwaltung der folgenden Datentypen:
+Die Nutzung von in mehreren Silos gespeicherten Kundendatenelementen ist eine der größten Datenherausforderungen, mit denen Unternehmen heute konfrontiert sind. Von Datenbanken über Registrierungssysteme bis zu Anzeigenservern usw. benötigen Firmen Tools, mit denen Sie wertvolle Daten zentralisieren und Daten zu Kunden und Audiencen als strategisches Datenelement verwalten können. [!DNL CRM] [!DNL Audience Manager]Mit können Sie isolierte Kundeninformationen nutzen und die Datenerfassung aus mehreren Quellen verwalten. Die erfassten Daten können auf der Grundlage der Werte für die Zeit bis zum Live-Betrieb des Datenelements ([!DNL TTL]) verwaltet werden, wodurch der Herausgeber den Ablauf von Daten über alle Quellen hinweg steuern kann. [!DNL Audience Manager] unterstützt Sie bei der Verwaltung der folgenden Datentypen:
 
 | Datentyp | Datenquelle |
 |---|---|
@@ -29,7 +29,7 @@ Die Nutzung von in mehreren Silos gespeicherten Kundendatenelementen ist eine de
 
 ## Erstanbieterdatenerfassung {#first-party-data}
 
-First-party data collection is a main [!DNL Audience Manager] feature. Diese Kernkompetenz richtet sich an die Bedürfnisse unserer Kunden (Publisher und Advertiser), die proprietäre Daten als Eckpfeiler ihrer Marketing-Programme oder für Targeting und Modellierung mit anderen Datenquellen verwenden möchten.
+Die Datenerfassung durch Erstanbieter ist eine Hauptfunktion von [!DNL Audience Manager]. Diese Kernkompetenz richtet sich an die Bedürfnisse unserer Kunden (Publisher und Advertiser), die proprietäre Daten als Eckpfeiler ihrer Marketing-Programme oder für Targeting und Modellierung mit anderen Datenquellen verwenden möchten.
 
 [!DNL Audience Manager] arbeitet mit Kunden zusammen, um deren Datenstrategie zu verstehen und diese Strategie dann einem benutzerdefinierten Datenerfassungsplan zuzuordnen. Unser Partner Solutions-Team arbeitet mit Ihnen zusammen, um Sites, Rohdatensignale und andere Benutzerinteraktionen auf Ihren Websites auszuwerten. Mit diesen Informationen helfen wir Ihnen bei der Erstellung einer maßgeschneiderten Datenerfassungsstrategie, die Datensignale auf Benutzerebene von verschiedenen Seiten in Ihrem Bestand erfasst. Erfasste Daten werden gespeichert und einer vordefinierten Taxonomie zugeordnet, die jederzeit aktualisiert werden kann, wenn sich die Anforderungen Ihres Unternehmen ändern.
 
@@ -42,33 +42,33 @@ Das folgende Beispiel zeigt, wie potenzielle Datenelemente von einer Beispielein
 | 1 | **Geschlecht**. Der Vorname eines Käufers gibt normalerweise das Geschlecht an. In unserem Beispiel ist der Vorname des Käufers Mary, also wissen wir, dass der Käufer eine Frau ist. Namen werden nie von Audience Manager gespeichert. |
 | 2 | **Interessen**. Die Artikel im Warenkorb können auf verschiedene Interessen hinweisen. In unserem Beispiel gibt Mary viel für Fitnessgeräte aus. |
 | 3 | **Wohnungstyp**. Je nach Lieferadresse und/oder Rechnungsadresse können Sie entscheiden, ob Mary Fitnessgeräte für sich selbst oder für eine Firma kauft. |
-| 4 | **Standort**. [!DNL ZIP] -Codes sind zuverlässiger als [!DNL IP] Adressen, wenn es darum geht, einen Ort zu bestimmen. |
+| 4 | **Standort**. [!DNL ZIP] -Codes sind zuverlässiger als  [!DNL IP] Adressen, wenn es darum geht, einen Ort zu bestimmen. |
 | 5 | **Promotionsaffinität**. Wenn ein Käufer Werbe-Codes oder Geschenkkarten verwendet, ist er wahrscheinlich ein Schnäppchenjäger, der nach den besten Angeboten sucht. |
-| 6 | **Kaufkraft**. Price data correlated with [!DNL ZIP+4] codes indicate spending power of a given location. |
+| 6 | **Kaufkraft**. Preisdaten, die mit [!DNL ZIP+4]-Codes korrelieren, geben die Ausgabenstärke eines bestimmten Ortes an. |
 
-After the raw data is collected, it gets mapped back to customer-defined traits within the [!DNL Audience Manager] platform. Sowohl die Taxonomie als auch die Datenzuordnung können jederzeit angepasst werden, ohne dass Änderungen am Datenerfassungs-Code vorgenommen werden.
+Nachdem die Rohdaten erfasst wurden, werden sie den benutzerdefinierten Eigenschaften innerhalb der [!DNL Audience Manager]-Plattform zugeordnet. Sowohl die Taxonomie als auch die Datenzuordnung können jederzeit angepasst werden, ohne dass Änderungen am Datenerfassungs-Code vorgenommen werden.
 
 ## Zweitanbieterdatenerfassung {#second-party-data}
 
 Zweitanbieterdaten stammen von einem strategischen Unternehmenspartner (es handelt sich nicht um Publisher-Daten). Diese Informationen werden wie Erstanbieterdaten erfasst und verwaltet.
 
-In einem Zweitanbieterdatenszenario senden Advertiser ihre eigenen Daten-Assets an Publisher, damit diese die Informationen mit den Daten des Publishers kombinieren und dann ein gezielteres Werbeprogramm ausführen können. Darüber hinaus können Publisher ihre Zielgruppen-Pools durch eine Partnerschaft mit ihren Advertisern erweitern. In most cases, these arrangements involve contractual relationships limited to putting the [!DNL Audience Manager] container tag on the partner site to facilitate data collection and sharing.
+In einem Zweitanbieterdatenszenario senden Advertiser ihre eigenen Daten-Assets an Publisher, damit diese die Informationen mit den Daten des Publishers kombinieren und dann ein gezielteres Werbeprogramm ausführen können. Darüber hinaus können Publisher ihre Zielgruppen-Pools durch eine Partnerschaft mit ihren Advertisern erweitern. In den meisten Fällen schließen diese Vereinbarungen vertragliche Beziehungen ein, die darauf beschränken, das [!DNL Audience Manager]-Container-Tag auf die Partnersite zu setzen, um die Datenerfassung und -freigabe zu erleichtern.
 
-Ein Beispiel für die Erfassung und das Remarketing von Zweitanbieterdaten könnte darin bestehen, dass ein Bekleidungshändler Daten zu seinen Produkten erfasst und diese Informationen dann an wichtige Partner weitergibt. In this case, the retailed could serve different ads across an [!DNL Audience Manager] partner site for consumers who chose various jacket colors and sizes.
+Ein Beispiel für die Erfassung und das Remarketing von Zweitanbieterdaten könnte darin bestehen, dass ein Bekleidungshändler Daten zu seinen Produkten erfasst und diese Informationen dann an wichtige Partner weitergibt. In diesem Fall könnte der Einzelhandel verschiedene Anzeigen auf einer [!DNL Audience Manager] Partner-Site für Kunden bereitstellen, die verschiedene Jackettfarben und -größen auswählen.
 
 ![](assets/shopping-cart-traits.png)
 
 ## Drittanbieterdatenerfassung {#third-party-data}
 
-Third-party data is information collected and shared by vendors outside of [!DNL Audience Manager].
+Daten von Drittanbietern sind Informationen, die von Anbietern außerhalb von [!DNL Audience Manager] erfasst und freigegeben werden.
 
-Third-party data can be used to qualify existing data [!UICONTROL segments] (for example, age, household income, and so forth), provide data that is in demand but not otherwise available, or be used in lookalike modeling against a known user base from first-party and second-party data. [!DNL Audience Manager] arbeitet mit vielen Drittdatenanbietern zusammen und hilft Ihnen, die Art der von diesen Datenanbietern erfassten Daten zu verstehen, sodass Sie die richtigen strategischen Vereinbarungen mit jedem Anbieter abschließen können.
+Daten von Drittanbietern können verwendet werden, um vorhandene Daten [!UICONTROL segments] (z. B. Alter, Haushaltseinkommen usw.) zu qualifizieren, Daten bereitzustellen, die nachgefragt sind, aber nicht anderweitig verfügbar sind, oder um bei der Suche nach einer bekannten Benutzerbasis aus Erstanbieter- und Zweitanbieterdaten verwendet zu werden. [!DNL Audience Manager] arbeitet mit vielen Drittdatenanbietern zusammen und hilft Ihnen, die Art der von diesen Datenanbietern erfassten Daten zu verstehen, sodass Sie die richtigen strategischen Vereinbarungen mit jedem Anbieter abschließen können.
 
 >[!NOTE]
 >
 >Eine vollständige Liste der von [!DNL Audience Manager] unterstützten Drittdatenanbietern finden Sie im [Adobe Audience Finder](https://www.adobe-audience-finder.com/).
 
-[!DNL Audience Manager] in andere Datenanbieter auf Grundlage ihrer verfügbaren Daten [!DNL APIs] und Datensätze integriert. Die Datenerfassung erfolgt in Echtzeit, wenn ein Benutzer Ihre Site durchsucht, oder über Out-of-Band-Methoden, bei denen IDs zwischen Partnern synchronisiert werden und Daten zwischen Servern übertragen werden, nachdem ein Benutzer Ihre Site verlassen hat. In either case, [!DNL Audience Manager] clients get the benefit of having third-party data synchronized on our platform, which means each client, or domain, does not have to perform its own synchronization. Damit wird die Reichweite erhöht und Server-Aufrufe von der Seite verringert.
+[!DNL Audience Manager] integriert mit anderen Datenanbietern auf Grundlage ihrer verfügbaren Daten  [!DNL APIs] und Datensätze. Die Datenerfassung erfolgt in Echtzeit, wenn ein Benutzer Ihre Site durchsucht, oder über Out-of-Band-Methoden, bei denen IDs zwischen Partnern synchronisiert werden und Daten zwischen Servern übertragen werden, nachdem ein Benutzer Ihre Site verlassen hat. In beiden Fällen profitieren Clients von der Synchronisierung von Drittanbieterdaten auf unserer Plattform, d. h. jeder Client oder jede Domäne muss keine eigene Synchronisierung durchführen. [!DNL Audience Manager] Damit wird die Reichweite erhöht und Server-Aufrufe von der Seite verringert.
 
 ## Abgleichspartner {#match-partners}
 
