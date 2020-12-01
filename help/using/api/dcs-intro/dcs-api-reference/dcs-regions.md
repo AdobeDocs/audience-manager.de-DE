@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # DCS-Regions-IDs, Standorte und Hostnamen {#dcs-region-ids-locations-and-host-names}
 
-Der Hostname des regionalen [!DNL DCS] Servers ist erforderlich, um Aufrufe an den Server durchzuführen [!DNL DCS]. Dies liegt daran, dass die [!DNL DCS] Daten in Rechenzentren gespeichert werden, die geografisch nahe an Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an den falschen senden [!DNL DCS]aber diese Aufrufe sind ineffizient und können die Antwort verzögern. Um eine [!DNL DCS] Anforderung zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und erstellen Sie Ihre Abfrage mit dem richtigen Hostnamen.
+Der regionale Hostname [!DNL DCS] des Servers ist erforderlich, um Aufrufe an das [!DNL DCS] durchzuführen. Dies liegt daran, dass [!DNL DCS] Informationen in Rechenzentren speichert, die geografisch nahe an Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche [!DNL DCS] senden, diese Aufrufe sind jedoch ineffizient und können die Antwort verzögern. Um eine [!DNL DCS]-Anforderung zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und erstellen Sie Ihre Abfrage mit dem richtigen Hostnamen.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -71,4 +71,4 @@ Der Hostname des regionalen [!DNL DCS] Servers ist erforderlich, um Aufrufe an d
  </tbody> 
 </table>
 
-Sie können auch [!DNL API] Methoden verwenden, um eine Liste der verfügbaren [!DNL DCS] Regionen zu erhalten. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
+Sie können auch [!DNL API]-Methoden verwenden, um eine Liste der verfügbaren [!DNL DCS]-Regionen abzurufen. Siehe [API-Methoden für DCS-Regionen](../../../api/rest-api-main/aam-api-dcs-regions.md).
