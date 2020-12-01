@@ -48,7 +48,7 @@ Ja. Siehe [Tools zur Massenverwaltung](../reference/bulk-management-tools/bulk-m
 
  
 
-**Beim Ausführen eines Massen-ID-Exports an ein Ziel fehlen einige Kunden-IDs. Why does that happen?**
+**Beim Ausführen eines Massen-ID-Exports an ein Ziel fehlen einige Kunden-IDs. Warum passiert das?**
 
 Wenn eine Geräte-ID ([AAM UUID](../reference/ids-in-aam.md)) mit mehreren CRM-IDs ([DPUUIDs](../reference/ids-in-aam.md)) verknüpft ist, wird nur die neueste Zuordnung exportiert. Aus diesem Grund wird möglicherweise eine niedrigere Anzahl von Geräte-IDs als erwartet exportiert.
 
