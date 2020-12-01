@@ -86,13 +86,13 @@ Die folgenden Beispiele zeigen korrekt formatierte Dateinamen. Ihre Dateinamen k
 </ul>
 
 >[!NOTE]
-> Informationen zur Benennung der ID-Synchronisierungsdatei (c2c-Präfix) für benutzerbasierte Ziele finden Sie unter [Arbeitsablauf A - Personalisierung auf Basis der gesamten Online-Aktivität in Kombination mit Offline-Daten](../../../features/destinations/people-based-destinations-workflow-combined.md) oder [Arbeitsablauf B - Personalisierung auf Basis von Nur-Offline-Daten](../../../features/destinations/people-based-destinations-workflow-offline.md).
+> Informationen zur Benennung der ID-Synchronisierungsdatei (c2c-Präfix) für benutzerspezifische Ziele finden Sie unter [Workflow A - Personalisierung auf Basis der gesamten Online-Aktivität kombiniert mit Offline-Daten](../../../features/destinations/people-based-destinations-workflow-combined.md) oder [Workflow B - Personalisierung auf Basis von Offline-Daten](../../../features/destinations/people-based-destinations-workflow-offline.md).
 
 ## Syntax und Beispiele für Dateiinhalte {#file-content-syntax}
 
 Der Inhalt einer ID-Datei umfasst die folgenden Elemente:
 
-*`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
+*`UUID`* `<tab>`*`UUID`*`<tab>`*`UUID`*`<tab>`*`UUID`*
 
 Die Datei enthält Benutzer-IDs ([!DNL UUID]). Trennen Sie die IDs in jeder Zeile durch eine Registerkarte. Das folgende Beispiel zeigt eine korrekt formatierte ID-Datei. Ihr Inhalt könnte ähnlich aussehen.
 
@@ -100,9 +100,9 @@ Die Datei enthält Benutzer-IDs ([!DNL UUID]). Trennen Sie die IDs in jeder Zeil
 abc123 def456 ghi789 xyz987
 ```
 
-## Synchronisierung stimmt mit DPUUIDs mit UUIDs überein {#sync-matches-dpuuids-uuids}
+## Synchronisierung stimmt mit DPUUIDs mit UUIDs ab {#sync-matches-dpuuids-uuids}
 
-Eine ID-Synchronisierungsdatei dient dazu, die [DPUUIDs](../../../reference/ids-in-aam.md) aus Ihren eigenen Data Sources mit [!DNL Audience Manager] UUIDs zu synchronisieren. Die Synchronisierung ordnet die [!DNL DPUUID]s aus dem Übergeordnete [!DNL DPID] und den zugehörigen [!DNL DPID]s den [!DNL Audience Manager] [!DNL UUID]s zu. Wo Sie die IDs in den Dateinamen setzen und der Haupttext bestimmt, wie diese IDs einander zugeordnet werden. Nehmen Sie beispielsweise die beiden folgenden Beispieldateien:
+Der Zweck einer ID-Synchronisierungsdatei besteht darin, die [DPUUIDs](../../../reference/ids-in-aam.md) aus Ihren eigenen Datenquellen mit [!DNL Audience Manager]-UUIDs zu synchronisieren. Die Synchronisierung ordnet die [!DNL DPUUID]s aus dem Übergeordnet [!DNL DPID] und die zugehörigen [!DNL DPID]s den [!DNL Audience Manager] [!DNL UUID]s zu. Wo Sie die IDs in den Dateinamen setzen und der Haupttext bestimmt, wie diese IDs einander zugeordnet werden. Nehmen Sie beispielsweise die beiden folgenden Beispieldateien:
 
 * **Datei 1:** `adobe_id_0_12345_1476312152.sync`
 
@@ -112,20 +112,20 @@ Eine ID-Synchronisierungsdatei dient dazu, die [DPUUIDs](../../../reference/ids-
 
 Bei Verwendung des Beispielnamens und des Beispielinhalts ordnen die IDs wie folgt zusammen:
 
-**Datei 1** ( [Beispieldatei](assets/adobe_id_0_12345_1476312152.sync)herunterladen)
+**Datei 1**  ( [Beispieldatei](assets/adobe_id_0_12345_1476312152.sync) herunterladen)
 
-| DPID 0 = Adobe Audience Manager-UUIDs | DPID 12345 |
+| DPID 0 = Adobe Audience Manager UUIDs | DPID 12345 |
 |---|---|
 | 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR38 |
 | 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
 | 89159024796760343733111707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
-| 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
+| 6618477822667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Schritt 1: Der ID-Synchronisierungsprozess synchronisiert die [!DNL DPUUID]s aus [!DNL DPID] 12345 mit den [!DNL Audience Manager] [!DNL UUID]s in der linken Spalte. Beachten Sie, dass der [!DNL DPID] Wert &quot;0&quot;im Dateinamen [!DNL Audience Manager] [!DNL UUID]s darstellt.
+Schritt 1: Der ID-Synchronisierungsprozess synchronisiert die [!DNL DPUUID]s von [!DNL DPID] 12345 mit den [!DNL Audience Manager] [!DNL UUID]s in der linken Spalte. Beachten Sie, dass [!DNL DPID] &quot;0&quot;im Dateinamen [!DNL Audience Manager] [!DNL UUID]s darstellt.
 <br/>
 
-**Datei 2** ( [Beispieldatei](assets/adobe_id_12345_67890_1477846458.sync)herunterladen)
+**Datei 2**  ( [Beispieldatei](assets/adobe_id_12345_67890_1477846458.sync) herunterladen)
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
@@ -135,7 +135,7 @@ Schritt 1: Der ID-Synchronisierungsprozess synchronisiert die [!DNL DPUUID]s aus
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Schritt 2: die [!DNL DPUUID]s aus [!DNL DPID] 12345 wurden in Schritt 1 mit den Audience Managern synchronisiert [!DNL UUID]werden. Diese ID-Synchronisierung synchronisiert die [!DNL DPUUID]s aus [!DNL DPID] 67890 mit den Audience Managern aus Schritt 1 [!DNL UUID].
+Schritt 2: die [!DNL DPUUID]s von [!DNL DPID] 12345 wurden in Schritt 1 mit dem Audience Manager [!DNL UUID]s synchronisiert. Diese ID-Synchronisierung synchronisiert die [!DNL DPUUID]s von [!DNL DPID] 67890 mit dem Audience Manager [!DNL UUID]s aus Schritt 1.
 
 <br/>
 
@@ -144,7 +144,7 @@ Schritt 2: die [!DNL DPUUID]s aus [!DNL DPID] 12345 wurden in Schritt 1 mit den 
 Benutzer-IDs können nicht:
 
 * Haben Sie Registerkarten in der ID selbst. Tabs werden nur zur Trennung einzelner IDs in der Datendatei verwendet.
-* enthält personenbezogene Daten ([!UICONTROL PII]).
-* Verwenden Sie die [!DNL URL] Kodierung. Geben Sie nur nicht kodierte IDs ein.
+* Enthält personenbezogene Daten ([!UICONTROL PII]).
+* Verwenden Sie die Kodierung [!DNL URL]. Geben Sie nur nicht kodierte IDs ein.
 
 Zeilen, die mit Tabulatoren oder Leerzeichen enden, werden nicht verarbeitet oder realisiert. Achten Sie in der Regel darauf, das Ende der Zeilen frei zu halten.
