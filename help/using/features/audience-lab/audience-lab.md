@@ -18,18 +18,18 @@ ht-degree: 4%
 
 # [!UICONTROL Audience Lab] {#audience-lab}
 
-Erstellen Sie sich gegenseitig ausschließende Testsegmente, um die Effektivität verschiedener Ziele zu vergleichen und zu messen. [!UICONTROL Segment Test Groups] Sie können eine Kontrollgruppe beilegen und Ihr Segment in Prozentsätze eines Ganzen unterteilen, um die Wirksamkeit zu testen.
+Erstellen Sie sich gegenseitig ausschließende Testsegmente in [!UICONTROL Segment Test Groups], um die Effektivität verschiedener Ziele zu vergleichen und zu messen. Sie können eine Kontrollgruppe beilegen und Ihr Segment in Prozentsätze eines Ganzen unterteilen, um die Wirksamkeit zu testen.
 
 ## Überblick {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] verwendet [Profil Link](../../features/profile-merge-rules/merge-rules-overview.md) , um geräteübergreifende Tests zu ermöglichen. Dadurch wird sichergestellt, dass sich ein Benutzer für dasselbe Testsegment qualifiziert und geräteübergreifend gleich behandelt wird. Die Testsegmente in Testgruppen übernehmen die [Profil Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md) , die das Basissegment ihr zugewiesen hat.
+[!UICONTROL Audience Lab] verwendet  [Profil ](../../features/profile-merge-rules/merge-rules-overview.md) Linkto-Power-geräteübergreifende Tests. Dadurch wird sichergestellt, dass sich ein Benutzer für dasselbe Testsegment qualifiziert und geräteübergreifend gleich behandelt wird. Die Testsegmente in Testgruppen übernehmen die [Profil Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md), die das Basissegment ihr zugewiesen hat.
 
-Die [!UICONTROL Audience Lab] Standardkarte zeigt eine Ansicht für jede der Testgruppen an. Klicken Sie auf eine Karte, um auf die **[!UICONTROL Test Group]** Ansicht zuzugreifen. Diese Ansicht enthält die folgenden Informationen:
+Die Standardkarte [!UICONTROL Audience Lab] zeigt eine Ansicht für jede der Testgruppen an. Klicken Sie auf eine Karte, um auf die Ansicht **[!UICONTROL Test Group]** zuzugreifen. Diese Ansicht enthält die folgenden Informationen:
 
 * **[Informationen zu Testgruppen](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Testgruppenberichte](../../features/audience-lab/audience-lab-reporting-view.md)**
 
-Sie können **bis zu 10 Testgruppen** mit jeweils **bis zu 15 Testsegmenten** erstellen.
+Sie können bis zu 10 Testgruppen **mit jeweils** bis zu 15 Testsegmenten **erstellen.**
 
 ![](assets/test-groups-view.PNG)
 
@@ -43,7 +43,7 @@ Wenn Sie mit der Erstellung mehrerer Testgruppen mit mehreren Testsegmenten Begi
 
 ![](assets/search_and_filter_audience_lab.png)
 
-Sie können Ihre Testgruppen auch nach Status filtern. Alle verfügbaren Status werden im Abschnitt [Status](../../features/audience-lab/audience-lab.md#status) weiter unten beschrieben.
+Sie können Ihre Testgruppen auch nach Status filtern. Alle verfügbaren Status werden im Abschnitt [Status](../../features/audience-lab/audience-lab.md#status) beschrieben.
 
 ## [!UICONTROL Status] {#status}
 
@@ -59,23 +59,23 @@ Der Status einer Testgruppe kann aktiv, geplant, angehalten, Entwurf oder abgesc
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Aktiv </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>aktive</i> Testgruppe bedeutet, dass derzeit Daten an Ziele gesendet werden. Drücken Sie auf <b><span class="uicontrol"> Test anhalten </span></b> auf der <b><span class="uicontrol"> Test Group- </span></b> Karte, um das Senden von Daten an Ziele auszusetzen. </p> </td> 
+   <td colname="col2"> <p>Eine <i>aktive</i>-Testgruppe bedeutet, dass derzeit Daten an Ziele gesendet werden. Drücken Sie auf <b><span class="uicontrol"> Test anhalten </span></b> in der Karte <b><span class="uicontrol"> Testgruppe </span></b>, um das Senden von Daten an Ziele auszusetzen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Eingeplant </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>geplante</i> Testgruppe ist noch nicht aktiv, kann aber nicht mehr bearbeitet werden. Sie wird am Beginn aktiv, den Sie im Assistenten zum <b>Erstellen von Testgruppen</b> ausgewählt haben. </p> </td> 
+   <td colname="col2"> <p>Eine <i>geplante</i> Testgruppe ist noch nicht aktiv, kann aber nicht mehr bearbeitet werden. Es wird am Beginn aktiv, den Sie im Assistenten <b>Testgruppen erstellen</b> ausgewählt haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> angehalten </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>angehaltene</i> Testgruppe sendet derzeit keine Daten an Ziele. Drücken Sie auf <b><span class="uicontrol"> Aktiv </span></b> auf der <b><span class="uicontrol"> Karte "Testgruppe" </span></b> , um das Senden von Eigenschaften fortzusetzen. </p> </td> 
+   <td colname="col2"> <p>Eine <i>angehaltene</i>-Testgruppe sendet derzeit keine Daten an Ziele. Drücken Sie auf <b><span class="uicontrol"> Aktiv </span></b> auf der Karte <b><span class="uicontrol"> Testgruppe </span></b>, um das Senden von Eigenschaften fortzusetzen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Entwurf </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>Entwurfstestgruppe</i> ist noch nicht aktiv und kann noch bearbeitet werden. Es werden noch keine Daten an die zugeordneten Ziele gesendet. </p> </td> 
+   <td colname="col2"> <p>Eine <i>draft</i>-Testgruppe ist noch nicht aktiv und kann trotzdem bearbeitet werden. Es werden noch keine Daten an die zugeordneten Ziele gesendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Abgeschlossen </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>abgeschlossene</i> Testgruppe hat das Enddatum erreicht, das Sie im <b><span class="uicontrol"> </span></b> Assistenten "Testgruppen erstellen"ausgewählt haben, und hat das Senden von Berichte-Daten beendet. </p> </td>
+   <td colname="col2"> <p>Eine <i>abgeschlossene</i>-Testgruppe hat das Enddatum erreicht, das Sie im Assistenten <b><span class="uicontrol"> Testgruppen erstellen </span></b> ausgewählt haben, und das Senden von Berichte-Daten wurde beendet. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -92,14 +92,14 @@ Der Status einer Testgruppe kann aktiv, geplant, angehalten, Entwurf oder abgesc
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Bearbeiten </span></b> </p> </td>
-   <td colname="col2"> <p>Nur <b>für</b> Entwurfstestgruppen verfügbar. Damit können Sie den <b><span class="uicontrol"> Assistenten "Neue Testgruppe erstellen"fortsetzen </span></b> . </p> </td>
+   <td colname="col2"> <p>Verfügbar <b>nur</b> für Entwurfstestgruppen. Damit können Sie den Assistenten <b><span class="uicontrol"> Neue Testgruppe </span></b> erstellen fortsetzen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pause </span></b> </p> </td>
    <td colname="col2"> <p>Verfügbar für aktive Testgruppen. Ermöglicht es Ihnen, das Senden der Testsegmente an Ziele anzuhalten. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Aktiv </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Aktiv  </span></b> </p> </td>
    <td colname="col2"> <p>Verfügbar für angehaltene Testgruppen. Ermöglicht es Ihnen, mit dem Senden der Testsegmente an Ziele fortzufahren. </p> </td>
   </tr>
   <tr> 
