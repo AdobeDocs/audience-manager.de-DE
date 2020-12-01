@@ -17,18 +17,18 @@ ht-degree: 11%
 
 # DCS-APIs für Server-zu-Server-Datenübertragungen{#dcs-apis-for-server-to-server-data-transfers}
 
-Server-zu-Server ([!UICONTROL S2S]) [!DNL API][!DNL DCS] bieten Code und Methoden, mit denen Sie Benutzerdaten senden und empfangen können und mit denen Sie in Ihren eigenen Systemen oder Anwendungen mit diesen Informationen arbeiten können.
+Server-zu-Server ([!UICONTROL S2S]) [!DNL API]s stellen Code und Methoden bereit, mit denen Sie [!DNL DCS]-Benutzerdaten senden und empfangen können und mit denen Sie in Ihren eigenen Systemen oder Anwendungen mit diesen Informationen arbeiten können.
 
-## Häufige Anwendungsfälle {#common-use-cases}
+## Allgemeine Verwendungsfälle {#common-use-cases}
 
 [!UICONTROL Server-to-server] Transfers können Ihnen dabei helfen, Landingpages oder andere Interaktionen auf der Grundlage der Interessen des Besuchers anzupassen. Zu den häufigen Anwendungsfällen zählen:
 
 * Personalisierung vor Ort: Passen Sie das Erlebnis eines Besuchers auf Ihrer Site an, indem Sie entsprechend den Segmenten, zu denen er gehört, relevante Inhalte und Aktionsaufrufe dynamisch hinzufügen.
-* Verbessern Sie den Kundenservice: Importieren Sie [!DNL Audience Manager] Segmente über eine Server-zu-Server-Datenübertragung in ein [!DNL CRM] oder ein anderes System. Diese Daten können Call-Service- oder Online-Chat-Operatoren relevante, personalisierte Informationen über einen Kunden bereitstellen.
+* Verbessern Sie den Kundenservice: Importieren Sie [!DNL Audience Manager]-Segmente in ein [!DNL CRM]- oder ein anderes System durch eine Server-zu-Server-Datenübertragung. Diese Daten können Call-Service- oder Online-Chat-Operatoren relevante, personalisierte Informationen über einen Kunden bereitstellen.
 
 ## Anforderungen: Benutzer-IDs und regionale Servernamen {#requirements}
 
-Für [!UICONTROL DCS API] die Überprüfung und Durchführung von Datenanforderungen sind Benutzer-IDs und Regions-IDs erforderlich.
+Für [!UICONTROL DCS API] sind Benutzer-IDs und Regions-IDs erforderlich, um Datenanforderungen zu validieren und durchzuführen.
 
 * Die Benutzer-ID ist erforderlich, da Sie Daten mit einem bestimmten Besucher verknüpfen müssen.
 * Die Regions-ID ist erforderlich, um Aufrufe an einen Servernamen zurückzubinden, da Benutzerdaten in Rechenzentren gespeichert werden, die geografisch am nächsten zu Site-Besuchern liegen.
@@ -37,10 +37,10 @@ Für [!UICONTROL DCS API] die Überprüfung und Durchführung von Datenanforderu
 
 In diesem Handbuch werden derzeit folgende Schritte beschrieben:
 
-* Besorgen Sie sich die Benutzer- und Regions-IDs aus den [!DNL DCS] Dateien, die Sie möglicherweise bereits als [!DNL Audience Manager] Kunde erhalten haben.
+* Besorgen Sie sich die Benutzer- und Regions-IDs aus den [!DNL DCS]-Dateien, die Sie möglicherweise bereits als [!DNL Audience Manager]-Kunde erhalten haben.
 
-* Rufen Sie die Benutzer- und Regions-IDs ab, wenn Sie die [!DNL Visitor ID Service]Variable verwenden.
-* Rufen Sie die [!DNL DCS] nach der Benutzer- und Regions-ID an.
+* Rufen Sie die Benutzer- und Regions-IDs ab, wenn Sie [!DNL Visitor ID Service] verwenden.
+* Rufen Sie das [!DNL DCS] auf, nachdem Sie die Benutzer- und Regions-ID haben.
 
 Wir werden neue Methoden hinzufügen, sobald sie verfügbar werden. Die ersten Schritte finden Sie in den folgenden Abschnitten.
 
