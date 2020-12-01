@@ -18,12 +18,12 @@ ht-degree: 6%
 
 Filtern Sie die Ergebnisse einer Signalsuche nach dem Signaltyp.
 
-1. Gehen Sie zu [!UICONTROL Audience Data > Signals > Search] und führen Sie eine Suche [!UICONTROL Signals Search] mit den gewünschten Schlüssel-Wert-Paaren oder eine breitere Suche mithilfe der Filter aus.
-1. Verwenden Sie den **[!UICONTROL Filter by Signal Type]** Abschnitt, um Ihre Ergebnisse auf der Grundlage der folgenden Kategorien zu filtern:
+1. Gehen Sie zu [!UICONTROL Audience Data > Signals > Search] und führen Sie eine [!UICONTROL Signals Search] mit den gewünschten Schlüssel-Wert-Paaren oder eine breitere Suche mit den Filtern aus.
+1. Verwenden Sie den Abschnitt **[!UICONTROL Filter by Signal Type]**, um Ihre Ergebnisse auf der Grundlage der folgenden Kategorien zu filtern:
 
-   * **[!UICONTROL Actionable log files]**: Signale, die über [!DNL Google] Protokolldateien empfangen [!DNL DCM] werden;
-   * **[!DNL Adobe Analytics]**: Signale, die von Ihrem [!DNL Adobe Analytics] Konto empfangen wurden. Verwenden Sie das **[!UICONTROL Filter by report suites]** Dropdownmenü, um die Report Suite auszuwählen, von der Signale angezeigt werden sollen.
-   * **[!UICONTROL General online data]**: von Ihren Besuchern erstellte Echtzeitdaten, die nicht in den ausführbaren Protokolldateien enthalten sind, [!DNL Adobe Analytics];
-   * **[!UICONTROL Onboarded records]**: Daten, die durch Batch-Datenübertragung empfangen wurden. Verwenden Sie das **[!UICONTROL Filter by data source]** Dropdownmenü, um die Datenquelle auszuwählen, von der Signale angezeigt werden sollen.
+   * **[!UICONTROL Actionable log files]**: Signale, die über  [!DNL Google] [!DNL DCM] Protokolldateien empfangen werden;
+   * **[!DNL Adobe Analytics]**: Signale, die von Ihrem  [!DNL Adobe Analytics] Konto empfangen wurden. Wählen Sie im Dropdownmenü **[!UICONTROL Filter by report suites]** die Report Suite aus, von der Signale angezeigt werden sollen.
+   * **[!UICONTROL General online data]**: von Ihren Besuchern erstellte Echtzeitdaten, die nicht in den ausführbaren Protokolldateien enthalten sind,  [!DNL Adobe Analytics];
+   * **[!UICONTROL Onboarded records]**: Daten, die durch Batch-Datenübertragung empfangen wurden. Verwenden Sie das Dropdownmenü **[!UICONTROL Filter by data source]**, um die Datenquelle auszuwählen, von der Signale angezeigt werden sollen.
 
-1. Optional können Sie Suchkriterien [speichern](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) .
+1. Optional können Sie [Suchkriterien speichern](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) für die zukünftige Verwendung verwenden.
