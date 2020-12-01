@@ -21,7 +21,7 @@ Methoden, mit denen Sie programmatisch mit Eigenschaften arbeiten können.
 
 >[!IMPORTANT]
 >
->Die [!DNL API] Eigenschaftsmethoden wurden umgeschrieben [!DNL Swagger] und migriert. Siehe:
+>Die Eigenschaften [!DNL API]-Methoden wurden mit [!DNL Swagger] umgeschrieben und migriert. Siehe:
 >
->* [Adobe Audience Manager-API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
+>* [Adobe Audience Manager API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
