@@ -17,7 +17,7 @@ ht-degree: 39%
 
 # [!UICONTROL Traits] Überblick {#traits-overview}
 
-Verwalten Sie die Datenerfassung und die Erstellung von Audiencen mit [!UICONTROL rules-based], [!UICONTROL onboarded][!UICONTROL algorithmic] oder [!UICONTROL folder traits]. Lesen Sie die unten verlinkten Seiten, um zu beginnen mit [!UICONTROL traits]:
+Verwalten Sie die Datenerfassung und Audience mit [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] oder [!UICONTROL folder traits]. Lesen Sie die unten verlinkten Seiten, um mit [!UICONTROL traits] zu beginnen:
 
 * [Detailseite einer Eigenschaft](/help/using/features/traits/trait-details-page.md)
 * [Trait Builder ](/help/using/features/traits/about-trait-builder.md)
