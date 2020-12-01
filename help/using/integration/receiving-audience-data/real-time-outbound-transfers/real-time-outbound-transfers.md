@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Ausgehende Datenübertragungen in Echtzeit {#real-time-outbound-data-transfers}
 
-Der ausgehende Echtzeit-Datenübertragungsprozess liefert Benutzerdaten als eine Reihe [!DNL JSON] formatierter Nachrichten an eine Zielplattform.
+Der ausgehende Echtzeit-Datenübertragungsprozess liefert Benutzerdaten als Folge von [!DNL JSON] formatierten Nachrichten an eine Zielplattform.
 
 <!-- c_outbound_json.xml -->
 
@@ -25,9 +25,9 @@ Der ausgehende Echtzeit-Datenübertragungsprozess liefert Benutzerdaten als eine
 
 Um diese Methode zu verwenden, muss die Zielplattform die folgenden Anforderungen erfüllen:
 
-* Es muss einen Endpunkt bereitstellen, [!DNL URL] der skalierbar sein kann, um ein hohes Volumen an Nachrichten von Audience Manager zu empfangen.
-* Sie muss Daten im [!DNL JSON] Format (`Content-type: application/json`) annehmen.
-* Es muss sichere `HTTPS` Datenübertragungen akzeptieren. [!DNL Audience Manager] sendet keine Nachrichten über das unsichere `HTTP` Protokoll.
+* Es muss einen Endpunkt [!DNL URL] bereitstellen, der skaliert werden kann, um ein hohes Volumen an Nachrichten von Audience Manager zu empfangen.
+* Es muss Daten im Format [!DNL JSON] (`Content-type: application/json`) akzeptieren.
+* Es muss sichere `HTTPS` Datenübertragungen akzeptieren. [!DNL Audience Manager] sendet keine Nachrichten über das unsichere  `HTTP` Protokoll.
 
 ## Häufigkeit
 
@@ -43,11 +43,11 @@ Für den Durchsatz bereitgestellter Nachrichten gibt es keine Ratenbeschränkung
 
 ## Erforderliche Antworten
 
-Standardmäßig muss der Empfänger-Server den `200 OK` Code zurückgeben, um eine erfolgreiche Quittung anzuzeigen. Andere Codes werden als Fehler interpretiert. Diese Antwort wird innerhalb von 3000 Millisekunden erwartet. Bei einem Fehler [!DNL Audience Manager] wird nur ein Wiederholungsversuch durchgeführt.
+Standardmäßig muss der Empfänger-Server den `200 OK`-Code zurückgeben, um eine erfolgreiche Quittung anzuzeigen. Andere Codes werden als Fehler interpretiert. Diese Antwort wird innerhalb von 3000 Millisekunden erwartet. Bei einem Fehler unternimmt [!DNL Audience Manager] nur einen Wiederholungsversuch.
 
 ## Parameter
 
-Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die Sie an das Ziel senden.
+Die folgende Tabelle definiert die Elemente in der Datendatei [!DNL JSON], die Sie an das Ziel senden.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -86,7 +86,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Gesamtzahl der Benutzer in der <code> POST</code> Anforderung. </p> </td> 
+   <td colname="col3"> <p>Gesamtzahl der Benutzer in der <code> POST</code>-Anforderung. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -96,7 +96,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Der <span class="keyword"> Audience Manager</span> HAT SICH GEEIGNET. </p> </td> 
+   <td colname="col3"> <p>Die UUID des Audience Managers <span class="keyword">.</span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -106,7 +106,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> Die <span class="keyword"> Audience Manager</span> -Regions-ID, auf der wir dieses Gerät gesehen haben. Wenn das Gerät z. B. in Paris (Europa) eine Aktivität hätte, wäre die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
+   <td colname="col3"> Die Regions-ID <span class="keyword"> des Audience Managers</span>, auf dem dieses Gerät angezeigt wurde. Wenn das Gerät beispielsweise eine Aktivität in Paris (Europa) hätte, wäre die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -128,10 +128,10 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
     </ul> <p>Benutzer sind nicht segmentiert, wenn sie: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Aus einem Segment entfernt, das auf der Segmentregel basiert. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Aus einem Segment entfernt, basierend auf dem <a href="../../../features/traits/segment-ttl-explained.md"> Time-to-Live-Intervall</a>des Segments. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Aus einem Segment entfernt, das auf dem <a href="../../../features/traits/segment-ttl-explained.md"> Time-to-Live Intervall</a> des Segments basiert. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">In einen inaktiven Status verschoben, wenn sie in den letzten 120 Tagen nicht gesehen wurden. </li>
-     <li>Aufgrund einer Datenschutzdatenschutzanforderung entfernt (d.h. <span class="keyword"> GDPR</span>)</li>
-    </ul> <p>Alle Partner-IDs, die mit einer <span class="keyword"> Audience Manager</span> -ID synchronisiert werden, erhalten das <code> "Status":"0"</code> Flag, wenn ein Benutzer nicht segmentiert ist. </p> </td> 
+     <li>Entfernt aufgrund einer Datenschutzänderungsanfrage (d.h. <span class="keyword"> GDPR</span>)</li>
+    </ul> <p>Alle Partner-IDs, die mit einer <span class="keyword">-Audience Manager</span>-ID synchronisiert werden, erhalten das <code> "Status":"0"</code>-Flag, wenn ein Benutzer nicht segmentiert ist. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -143,7 +143,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] Datendatei, die S
 
 ## Sicherheit
 
-Sie können Ihren ausgehenden Datenübermittlungsprozess in Echtzeit durch [Signieren von HTTP-Anfragen](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) mit privaten Schlüsseln oder durch [!DNL Audience Manager] Authentifizierung über das [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) -Protokoll sichern.
+Sie können Ihren ausgehenden Datenübermittlungsprozess in Echtzeit durch [Unterschreiben von HTTP-Anfragen](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) mit privaten Schlüsseln oder durch [!DNL Audience Manager] Authentifizierung über das Protokoll [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) sichern.
 
 ## Anfrage
 
