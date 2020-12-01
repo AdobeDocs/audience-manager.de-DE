@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Ein Schlüssel-Wert-Paar besteht aus verwandten Elementen: Ein Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und ein Wert, bei dem es sich um eine Variable handelt, die zum Datensatz gehört (z. B. männlich/weiblich, grün, 100). [!UICONTROL Destination Builder] sendet Daten, die als Schlüssel-Wert-Paare formatiert sind.
 
-## Grundlegende Schlüsselwertpaare {#basic-key-value-pairs}
+## Basis-Schlüsselwertpaare {#basic-key-value-pairs}
 
 Voll geformt könnte ein einfacher Satz Schlüssel-Wert-Paars wie folgt aussehen:
 
@@ -29,10 +29,10 @@ Voll geformt könnte ein einfacher Satz Schlüssel-Wert-Paars wie folgt aussehen
 
 ## Standardmäßige und serialisierte Schlüssel-Wert-Paare {#standard-serial-key-value-pairs}
 
-Ziele akzeptieren Schlüsselwertdaten in *`standard`* oder *`serialized`* Format.
+Ziele akzeptieren Schlüsselwertdaten im Format *`standard`* oder *`serialized`*.
 
-* **Standard-Schlüssel/Wert-Paare:** Formatiert Zieldaten in separate Schlüssel-Wert-Paare. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren.
-* **Serialisierte Schlüssel-Wert-Paare:** Fasst mehrere Werte in ein einziges Schlüssel-Wert-Paar zusammen. In einem serialisierten Schlüssel-Wert-Paar trennt ein spezieller Indikator die Werte innerhalb des Schlüssel-Wert-Satzes.
+* **Standard-Schlüssel-Wert-Paare:** Formatiert die Zieldaten in separate Schlüssel-Wert-Paare. Jeder Schlüssel wird explizit angegeben, auch wenn er erneut verwendet wird, um einen anderen Wert zu definieren.
+* **Serialisierte Schlüssel-Wert-Paare:** Verfasst mehrere Werte in einem Schlüssel-Wert-Paar. In einem serialisierten Schlüssel-Wert-Paar trennt ein spezieller Indikator die Werte innerhalb des Schlüssel-Wert-Satzes.
 
 Sowohl Standard- als auch serialisierte Schlüsselwerte können einzelne oder mehrere Werte enthalten. Die folgende Tabelle enthält Beispiele für die Formate für Standard- und serielle Schlüsselwerte.
 
@@ -60,15 +60,15 @@ Sowohl Standard- als auch serialisierte Schlüsselwerte können einzelne oder me
 
 ## Trennzeichen und Trennzeichen {#delimiters-separators}
 
-Die Zeichen, die Werte innerhalb und zwischen Schlüsseln und Werten trennen, werden als *`delimiters`* und bezeichnet *`separators`*. Diese werden besonders dann wichtig, wenn Sie Segmente in einem seriellen Format an ein Ziel senden. Mit der Serialisierung können Sie mehrere Werte mit einem Schlüssel übergeben und Schlüssel/Wert-Paare kombinieren. Trennzeichen und Trennzeichen werden wie folgt definiert:
+Die Zeichen, die Werte innerhalb und zwischen Schlüsseln und Werten trennen, werden als *`delimiters`* und *`separators`* bezeichnet. Diese werden besonders dann wichtig, wenn Sie Segmente in einem seriellen Format an ein Ziel senden. Mit der Serialisierung können Sie mehrere Werte mit einem Schlüssel übergeben und Schlüssel/Wert-Paare kombinieren. Trennzeichen und Trennzeichen werden wie folgt definiert:
 
-* **Trennzeichen für Schlüsselwerte:** Trennt einen Schlüssel und einen Wert innerhalb eines Schlüssel-Wert-Paars.
-* **Trennzeichen für Schlüsselwerte:** Trennt Sätze von Schlüssel-Wert-Paaren.
+* **Trennzeichen für Schlüsselwerte:** Trennt einen Schlüssel und einen Wert in einem Schlüssel/Wert-Paar.
+* **Trennzeichen für Schlüsselwerte:** Trennt Sätze von Schlüssel/Wert-Paaren.
 * **Serielles Trennzeichen:** Trennt mehrere Werte innerhalb von Sätzen von serialisierten Schlüssel/Wert-Paaren.
 
 ## Beispiele {#examples}
 
-Mit [!UICONTROL Destination Builder] dieser Funktion können Sie Schlüsselwertdaten auf verschiedene Weise formatieren. Schauen wir uns einige Beispiele für jeden Typ an.
+Mit [!UICONTROL Destination Builder] können Sie Schlüsselwertdaten auf verschiedene Weise formatieren. Schauen wir uns einige Beispiele für jeden Typ an.
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
@@ -91,7 +91,7 @@ Mit [!UICONTROL Destination Builder] dieser Funktion können Sie Schlüsselwertd
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Mehrere Schlüssel/Wert-Paare</b> (nicht seriell) </p> </td> 
+   <td colname="col1"> <p> <b>Mehrere Schlüssel/Wert-Paare</b>  (nicht seriell) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </code> </p> </td> 
    <td colname="col3"> <p>Eine Reihe von mehreren Schlüssel/Wert-Paaren, die Werte mit separaten Schlüssel/Wert-Sets übergeben. Das Beispiel enthält folgende Elemente: </p> 
     <ul id="ul_7FB22A43B435463D9F209067FF2C3619"> 
@@ -113,7 +113,7 @@ Mit [!UICONTROL Destination Builder] dieser Funktion können Sie Schlüsselwertd
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Mehrere Schlüssel/Wert-Paare</b> (seriell) </p> </td> 
+   <td colname="col1"> <p> <b>Mehrere Schlüssel/Wert-Paare</b>  (seriell) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 ; 2 &amp; Y = 3 ; 4 </code> </p> </td> 
    <td colname="col3"> <p>Eine Reihe von mehreren Schlüssel/Wert-Paaren, die mehrere Werte auf separaten Schlüsseln übergeben. Das Beispiel enthält folgende Elemente: </p> 
     <ul id="ul_CB50133B2E944818B9F2A0586EF69774"> 
@@ -137,4 +137,4 @@ Die serialisierte Datenübertragung hilft, die Effizienz zu verbessern, da mehre
 
 ### Unterstützte Ziele
 
-Sie [!DNL Audience Manager]können Daten serialisieren und an ein beliebiges Ziel senden, mit dem Sie arbeiten möchten. Bevor Sie diese Funktion verwenden, müssen Sie jedoch wissen, wo Sie die erforderlichen oder optionalen Makros platzieren [!DNL URL] können. Informationen zur Makroplatzierung erhalten Sie von Ihrem Zielpartner. Weitere Informationen finden Sie unter [Zielmakros definiert](../../features/destinations/destination-macros.md#destination-macros-defined) .
+In [!DNL Audience Manager] können Sie Daten serialisieren und an nahezu jedes Ziel senden, mit dem Sie arbeiten möchten. Bevor Sie diese Funktion verwenden, müssen Sie jedoch das Ziel [!DNL URL] kennen und wissen, wo Sie einige erforderliche oder optionale Makros platzieren können. Informationen zur Makroplatzierung erhalten Sie von Ihrem Zielpartner. Weitere Informationen finden Sie unter [Definierte Zielmakros](../../features/destinations/destination-macros.md#destination-macros-defined).
