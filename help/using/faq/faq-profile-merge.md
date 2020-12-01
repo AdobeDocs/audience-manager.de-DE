@@ -266,7 +266,7 @@ Ende 2019 haben wir eine Reihe von Profil Merge Rules Erweiterungen veröffentli
 
 Um die richtige Integration zwischen Ihrer Audience Manager-Instanz und Zielen mithilfe geräteübergreifender IDs, z. B. Adobe Campaign, sicherzustellen, stellen Sie sicher, dass folgende Anforderungen erfüllt sind:
 
-1. Überprüfen Sie die Segmentzusammenführungsregel, die von den Segmenten verwendet wird, die Ihrem Adobe Campaign Deklarierte ID-Ziel zugeordnet sind. Die Profil Merge-Regel muss die [!UICONTROL Last Authenticated Profile] Option verwenden, damit alle authentifizierten Profil in die Exporte einbezogen werden können. Wenn Ihre Profil Merge Rule eine andere Option verwendet, wechseln Sie zu [!UICONTROL Last Authenticated Profile].
+1. Überprüfen Sie die Segmentzusammenführungsregel, die von den Segmenten verwendet wird, die Ihrem Adobe Campaign Deklarierte ID-Ziel zugeordnet sind. Die Profil Merge-Regel muss die Option [!UICONTROL Last Authenticated Profile] verwenden, damit alle authentifizierten Profil in die Exporte einbezogen werden können. Wenn Ihre Profil Merge Rule eine andere Option verwendet, wechseln Sie zu [!UICONTROL Last Authenticated Profile].
 2. Wählen Sie in den Einstellungen für die Profil-Zusammenführungsregel die Datenquelle für das Adobe Campaign Deklariert aus.
 
 >[!NOTE]
