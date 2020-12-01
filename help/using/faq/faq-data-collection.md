@@ -44,8 +44,8 @@ Ja, siehe unten.
 
 | Server | IP-Adressen |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
-| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
+| ftp-out-gtw.demdex.com | 23 22 232 252 18 211 109 184 |
 
  
 
@@ -60,7 +60,7 @@ Die unten stehenden SFTP-Server werden nicht mehr unterstützt. Mit diesen Serve
 
 **Wie konfiguriere ich meine Audience Manager-Instanz für die Verwendung der neuen SFTP-Server?**
 
-Wenden Sie sich an Ihren [!DNL Audience Manager] Berater oder an den Kundendienst, um Ihre neuen SFTP-Konten zu konfigurieren.
+Wenden Sie sich an Ihren [!DNL Audience Manager]-Berater oder an den Kundendienst, um Ihre neuen SFTP-Konten zu konfigurieren.
 
  
 
@@ -153,7 +153,7 @@ Ja, [!DNL Audience Manager] kann Ihnen Daten zur Verfügung stellen, die für Be
 
 **[!DNL Google Ad Manager]Ich möchte Daten auf einer Site erfassen und Benutzer über auf einer anderen Site ansprechen. Muss ich Code für die andere Eigenschaft bereitstellen, wenn ich keine Daten von dieser Site erfassen möchte?**
 
-Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
+Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. Solange Sie über [!DNL Google Ad Manager] Zugriff auf den Bestand auf der zweiten Site haben, können Sie die Datenerfassung von der ersten Site und Zielgruppe über [!DNL Google Ad Manager] verwenden.
 
 <br> 
 
@@ -165,7 +165,7 @@ Jeder Anbieter bringt etwas Einzigartiges mit, daher hängt die Antwort davon ab
 
 **Wie setzt [!DNL Audience Manager] Cookies und übergibt Variablen an [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] setzt 2 Cookies: Eine sendet Segmentvariablen an das [!DNL Google Ad Manager] Anzeigen-Tag und die andere setzt unsere Unique User ID (UUID), die auch von gelesen wird [!DNL Google Ad Manager]. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
+[!DNL Audience Manager] setzt 2 Cookies: Eine sendet Segmentvariablen an das  [!DNL Google Ad Manager] Anzeigen-Tag und die andere setzt unsere Unique User ID (UUID), die auch von gelesen wird  [!DNL Google Ad Manager]. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
 
 <br> 
 
