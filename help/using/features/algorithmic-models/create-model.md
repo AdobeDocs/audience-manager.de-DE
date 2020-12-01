@@ -18,38 +18,38 @@ ht-degree: 1%
 
 # Erstellen eines Look-alike-Modells {#create-an-algorithmic-model}
 
-Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie eine [!UICONTROL Look-Alike Model]erstellen können.
+Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie ein [!UICONTROL Look-Alike Model] erstellen können.
 
 ## Bereich &quot;Modellaufbau&quot;
 
-[!UICONTROL Model Builder] besteht aus den [!UICONTROL Basic Information] und [!UICONTROL Configuration] Abschnitten. Um ein Modell zu erstellen, füllen Sie die erforderlichen Felder in diesen beiden Abschnitten aus. Speichern Sie Ihr Modell, um den Algorithmus Beginn. [!DNL Audience Manager] sendet Ihnen eine automatisierte Benachrichtigung nach Abschluss der ersten Datenausführung. Nachdem Sie die E-Mail erhalten haben, können Sie zum [Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md) wechseln und algorithmische Eigenschaften erstellen.
+[!UICONTROL Model Builder] besteht aus den  [!UICONTROL Basic Information] und  [!UICONTROL Configuration] Abschnitten. Um ein Modell zu erstellen, füllen Sie die erforderlichen Felder in diesen beiden Abschnitten aus. Speichern Sie Ihr Modell, um den Algorithmus Beginn. [!DNL Audience Manager] sendet Ihnen eine automatisierte Benachrichtigung nach Abschluss der ersten Datenausführung. Nachdem Sie die E-Mail erhalten haben, können Sie zu [Eigenschaften-Aufbau](../../features/traits/about-trait-builder.md) gehen und algorithmische Eigenschaften erstellen.
 
 >[!NOTE]
 >
 >* Der Modellierungsprozess wird nur einmal ausgeführt, wenn Sie ein Modell erstellen und keine Eigenschaften mit diesem erstellen.
 >* Erstellen Sie Modelle aus Datenquellen, die eine aussagekräftige Menge an Informationen enthalten. Modelle mit unzureichenden Daten werden ausgeführt, aber keine Ergebnisse zurückgegeben.
->* *Erstellen Sie keine* Modelle mit anderen algorithmischen Eigenschaften oder Segmenten.
+>* *Erstellen Sie* keine Modelle mit anderen algorithmischen Eigenschaften oder Segmenten.
 >* Die automatisierte E-Mail-Benachrichtigung wird nur einmal gesendet (nach der ersten Datenausführung).
 
 
 ## Modell erstellen
 
-Gehen Sie wie folgt vor, um eine [!UICONTROL Look-Alike Model]zu erstellen:
+Gehen Sie wie folgt vor, um ein [!UICONTROL Look-Alike Model] zu erstellen:
 
-1. Gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie **[!UICONTROL Add New]** in den [!UICONTROL Look-Alike Modeling] Abschnitt.
+1. Wechseln Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie im Abschnitt [!UICONTROL Look-Alike Modeling] auf **[!UICONTROL Add New]**.
    ![look-alike-add](assets/look-alike-add.png)
-1. Im Abschnitt &quot; [Grundlegende Informationen](../../features/algorithmic-models/create-model.md#basic-information) &quot;
+1. Im Abschnitt [Grundlegende Informationen](../../features/algorithmic-models/create-model.md#basic-information)
    * Benennen Sie das Modell.
    * *(Optional)* Geben Sie eine kurze Beschreibung des Modells ein.
-   * Legen Sie den Status für das Modell auf **[!UICONTROL Active]** oder **[!UICONTROL Inactive]**fest. Inaktive Modelle werden nicht ausgeführt und erzeugen keine Daten.
+   * Legen Sie den Status für das Modell auf **[!UICONTROL Active]** oder **[!UICONTROL Inactive]** fest. Inaktive Modelle werden nicht ausgeführt und erzeugen keine Daten.
       ![look-alike-basic](assets/look-alike-basic.png)
-1. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration) :
-   * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, für die Sie ein Modell erstellen möchten. Suchen Sie nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können Eigenschaften auch nach Eigenschaftstyp ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
+1. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration):
+   * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]**, um eine Eigenschaft oder ein Segment auszuwählen, für die Sie ein Modell erstellen möchten. Suchen Sie nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können Eigenschaften auch nach Eigenschaftstyp ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [Geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
       ![browse-Eigenschaften](assets/browse-traits.png)
    * Wählen Sie einen 30-, 60- oder 90-tägigen Rückblickzeitraum. Hiermit wird ein Zeitraum für das Modell festgelegt.
-   * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Wählen Sie eine Datenquelle aus der [!UICONTROL Available Data] Liste.
-   * Klicken Sie **[!UICONTROL Save]** nach Abschluss des Vorgangs auf .
+   * Der Algorithmus [!UICONTROL TraitWeight] ist standardmäßig ausgewählt.
+   * Wählen Sie eine Datenquelle aus der Liste [!UICONTROL Available Data].
+   * Klicken Sie abschließend auf **[!UICONTROL Save]**.
       ![look-alike-configuration](assets/look-alike-configuration.png)
 
 Sehen Sie sich das unten stehende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
@@ -60,7 +60,7 @@ Sehen Sie sich das unten stehende Video an, um einen detaillierten Überblick ü
 
 <!-- r_model_basic.xml -->
 
-In [!UICONTROL Model Builder]den [!UICONTROL Basic Information] Einstellungen können Sie neue oder vorhandene Modelle erstellen. Um ein neues Modell zu erstellen, geben Sie einen Namen ein und wechseln Sie zu den [!UICONTROL Configuration] Einstellungen. Das Beschreibungsfeld ist optional.
+In [!UICONTROL Model Builder] können Sie mit den [!UICONTROL Basic Information]-Einstellungen neue Modelle erstellen oder vorhandene bearbeiten. Um ein neues Modell zu erstellen, geben Sie einen Namen ein und wechseln Sie zu den [!UICONTROL Configuration]-Einstellungen. Das Beschreibungsfeld ist optional.
 
 | Feld | Beschreibung |
 |---|---|
@@ -70,13 +70,13 @@ In [!UICONTROL Model Builder]den [!UICONTROL Basic Information] Einstellungen k�
 
 ## Konfiguration {#configuration}
 
-In [!UICONTROL Model Builder]diesem Abschnitt können Sie dem Modell Eigenschaften oder Segmente [!UICONTROL Configuration] hinzufügen. Wählen Sie in diesem Abschnitt eine Basiseigenschaft oder ein Segment, einen Rückblickzeitraum und Daten aus Ihren Erstanbieter- und Drittanbieter-Datenquellen aus.
+Im Abschnitt [!UICONTROL Model Builder] können Sie dem Modell Eigenschaften oder Segmente hinzufügen. [!UICONTROL Configuration] Wählen Sie in diesem Abschnitt eine Basiseigenschaft oder ein Segment, einen Rückblickzeitraum und Daten aus Ihren Erstanbieter- und Drittanbieter-Datenquellen aus.
 
 <!-- r_model_configuration.xml -->
 
 ### Voraussetzungen
 
-Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] Abschnitt aus.
+Füllen Sie zuerst die erforderlichen Felder im Abschnitt [!UICONTROL Basic Information] aus.
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -90,7 +90,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Grundlegende Eigenschaft oder Segment auswählen (1)</b> </p> </td> 
-   <td colname="col2"> <p>Klicken Sie auf die Schaltfläche Eigenschaften oder Segmente, um eine Liste aller Eigenschaften oder Segmente anzuzeigen. Ihr ausgewähltes Segment oder Ihre Eigenschaft wird zur Grundlage, die die Systemalgorithmen für die Modellierung verwenden. </p> <p> <p><b>Hinweis</b>:  Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt. </p> </p> </td> 
+   <td colname="col2"> <p>Klicken Sie auf die Schaltfläche Eigenschaften oder Segmente, um eine Liste aller Eigenschaften oder Segmente anzuzeigen. Ihr ausgewähltes Segment oder Ihre Eigenschaft wird zur Grundlage, die die Systemalgorithmen für die Modellierung verwenden. </p> <p> <p><b>Hinweis</b>: Wählen Sie eine integrierte Eigenschaft, eine regelbasierte Eigenschaft oder ein Segment als Grundlinie aus. Andernfalls werden Ihre Modelle nicht ausgeführt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Rückblickzeit auswählen (2)</b> </p> </td> 
@@ -98,7 +98,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Algorithmus auswählen (3)</b> </p> </td> 
-   <td colname="col2"> <p>Der Modellaufbau funktioniert derzeit nur mit unserem proprietären <span class="keyword"> Eigenschaften-Gewichtung</span> -Algorithmus. <span class="keyword"> Audience Manager</span> kann in späteren Versionen weitere algorithmische Funktionen hinzufügen. </p> </td>
+   <td colname="col2"> <p>Zu diesem Zeitpunkt funktioniert der Modellaufbau nur mit unserem proprietären <span class="keyword"> Trait-Gewichtung</span>-Algorithmus. <span class="keyword"> Audience </span> Manager kann weitere algorithmische Funktionen in späteren Versionen hinzufügen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Modelldaten aus Datenquelle auswählen (4)</b> </p> </td> 
@@ -106,7 +106,7 @@ Füllen Sie zuerst die erforderlichen Felder im [!UICONTROL Basic Information] A
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Ausnahmen (5)</b> </p> </td> 
-   <td colname="col2"> <p>Sie können Eigenschaften aus den Datenquellen ausschließen, die Sie für die Modellierung ausgewählt haben. Verwenden Sie die <span class="wintitle"> Liste "Ausnahmen</span> "und lesen Sie <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Algorithmische Modelle: Eigenschaftsausschluss</a> , um mehr zu erfahren. </p> </td>
+   <td colname="col2"> <p>Sie können Eigenschaften aus den Datenquellen ausschließen, die Sie für die Modellierung ausgewählt haben. Verwenden Sie die Liste <span class="wintitle"> Ausnahmen</span> und lesen Sie <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Algorithmische Modelle: Eigenschaftsausschluss</a>, um weitere Informationen zu erhalten. </p> </td>
   </tr> 
  </tbody>
 </table>
