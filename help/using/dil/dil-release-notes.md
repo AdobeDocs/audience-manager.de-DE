@@ -16,5 +16,5 @@ ht-degree: 22%
 
 # DIL-Versionshinweise
 
-Auf dieser Seite finden Sie Informationen zu den neuesten DIL-Versionen. DIL ist als direkter Download mit Versionshinweisen auf der Adobe [Github-Seite](https://github.com/Adobe-Marketing-Cloud/dil/releases)verfügbar.
+Auf dieser Seite finden Sie Informationen zu den neuesten DIL-Versionen. DIL ist als direkter Download mit Versionshinweisen auf der Adobe [Github-Seite](https://github.com/Adobe-Marketing-Cloud/dil/releases) verfügbar.
 
