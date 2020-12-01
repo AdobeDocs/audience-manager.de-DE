@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # CID ersetzt DPID und DPUUID{#cid-replaces-dpid-and-dpuuid}
 
-Aktualisieren Sie Ihren Code auf die Verwendung `d_cid` oder `d_cid_ic` anstelle von `d_dpid` und `d_dpuuid`. Die Variablen DPID und DPUUID funktionieren weiterhin, sollten jedoch als veraltet betrachtet werden. Dazu gehören DPID- und DPUUID-Varianten ohne die `d_ prefix`.
+Aktualisieren Sie Ihren Code, um `d_cid` oder `d_cid_ic` anstelle von `d_dpid` und `d_dpuuid` zu verwenden. Die Variablen DPID und DPUUID funktionieren weiterhin, sollten jedoch als veraltet betrachtet werden. Dazu gehören DPID- und DPUUID-Varianten ohne das `d_ prefix`.
 
-## DPID und DPUUID: Eine Überprüfung {#dpid-dpuuid-review}
+## DPID und DPUUID: Ein Review {#dpid-dpuuid-review}
 
-Die DPID und die DPUUID sind Schlüssel/Wert-Paare, die eine Datenanbieter-ID und eine Benutzer-ID enthalten. Diese Schlüssel/Wert-Paare verknüpfen Anbieter-IDs mit Benutzer-IDs. Sie senden Daten bei Ereignis-Aufrufen, bei eingehenden Synchronisierungs-Ereignissen und bei ID-Aufrufen ein. Ohne diese Dienste [!DNL Audience Manager]und andere Dienste oder Funktionen wäre es nicht möglich, IDs zuzuordnen und zu synchronisieren. Diese Variablen werden manchmal mit oder ohne das `d_` Präfix wie unten dargestellt ausgedrückt. Note, in the code, *italics* indicates a variable placeholder.
+Die DPID und die DPUUID sind Schlüssel/Wert-Paare, die eine Datenanbieter-ID und eine Benutzer-ID enthalten. Diese Schlüssel/Wert-Paare verknüpfen Anbieter-IDs mit Benutzer-IDs. Sie senden Daten bei Ereignis-Aufrufen, bei eingehenden Synchronisierungs-Ereignissen und bei ID-Aufrufen ein. Ohne sie wären [!DNL Audience Manager] und andere Dienste oder Funktionen nicht in der Lage, IDs zuzuordnen und zu synchronisieren. Diese Variablen werden manchmal mit oder ohne das Präfix `d_` wie unten dargestellt ausgedrückt. Beachten Sie, dass *italics* im Code einen variablen Platzhalter angibt.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -52,14 +52,14 @@ Die DPID und die DPUUID sind Schlüssel/Wert-Paare, die eine Datenanbieter-ID un
 
 Diese Schlüssel-Wert-Paare funktionieren weiterhin, sind jedoch veraltet. Sie sollten Ihren Code aktualisieren, um stattdessen CID oder CID_IC zu verwenden.
 
-## CID und CID_IC: Info {#cid-cidic-about}
+## CID und CID_IC: Über {#cid-cidic-about}
 
 Die Schlüssel-Wert-Paare CID und CID_IC ersetzen DPID und DPUUID. Sie bieten dieselben Funktionen wie DPID und DPUUID, sind jedoch effizienter, da sie die Datenanbieter-ID (oder den Integrationscode) und die Benutzer-ID in einem Schlüssel-Wert-Paar enthalten. In jedem Schlüssel-Wert-Paar:
 
 * Das =-Symbol trennt den Schlüssel von den zugehörigen Werten.
 * Das nicht druckbare ASCII-Zeichen %01 trennt die Werte.
 
-`d_cid` und `d_cid_ic` verwenden Sie die folgende Syntax. Note, in the code, *italics* indicates a variable placeholder.
+`d_cid` und  `d_cid_ic` verwenden Sie die folgende Syntax. Beachten Sie, dass *italics* im Code einen variablen Platzhalter angibt.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
@@ -75,16 +75,16 @@ Die Schlüssel-Wert-Paare CID und CID_IC ersetzen DPID und DPUUID. Sie bieten di
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kunden-ID-Integrationscode (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Ein <span class="term"> Integrationscode</span> ist eine alternative ID, die Sie anstelle der vom <span class="keyword"> Audience Manager</span>zugewiesenen Datenquellen-ID verwenden können. Siehe <a href="../features/manage-datasources.md#create-data-source"> Datenquelle</a> erstellen, wenn Sie einen Integrationscode konfigurieren müssen. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Ein <span class="term">-Integrationscode</span> ist eine alternative ID, die Sie anstelle der Datenquelle-ID verwenden können, die von <span class="keyword"> Audience Manager</span> zugewiesen wird. Informationen zum Konfigurieren eines Integrationscodes finden Sie unter <a href="../features/manage-datasources.md#create-data-source"> Datenquelle erstellen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Siehe auch [URL-Variablen und Syntax für deklarierte IDs](../features/declared-ids.md#variables-and-syntax).
+Siehe auch [URL-Variablen und -Syntax für deklarierte IDs](../features/declared-ids.md#variables-and-syntax).
 
 >[!NOTE]
 >
->Sie können Integrationscodes für Ihre eigenen Datenquellen und für globale [freigegebene Datenquellen](../features/datasources-list-and-settings.md#settings-menu-options)verwenden, auf die Sie Zugriff haben. Sie können beispielsweise Integrationscodes bei der Arbeit mit Datenquellen für mobile Identifikatoren verwenden. Verwenden Sie die folgenden Integrationscodes genau wie unten angegeben:
+>Sie können Integrationscodes für Ihre eigenen Datenquellen und für globale [freigegebene Datenquellen](../features/datasources-list-and-settings.md#settings-menu-options) verwenden, auf die Sie Zugriff haben. Sie können beispielsweise Integrationscodes bei der Arbeit mit Datenquellen für mobile Identifikatoren verwenden. Verwenden Sie die folgenden Integrationscodes genau wie unten angegeben:
 
 * **DSID_20914** für GAID, die Geräte darstellen, auf denen das Android-Betriebssystem ausgeführt wird.
 * **DSID_20915** für IDFA, die Geräte darstellen, auf denen das iOS-Betriebssystem ausgeführt wird.
@@ -128,7 +128,7 @@ Die folgende Tabelle zeigt Beispiele nach Ereignistyp.
  </tbody> 
 </table>
 
-Jeder Aufruf kann auch mehrere `d_cid` und `d_cid_ic` Schlüsselwertpaare wie die folgende enthalten:
+Jeder Aufruf kann auch mehrere Schlüsselwertpaare wie folgende enthalten:`d_cid``d_cid_ic`
 
 ```
 ...?d_cid=123%01456&d_cid=123%01789&d_cid_ic=543%01333...
@@ -146,18 +146,18 @@ Jeder Aufruf kann auch mehrere `d_cid` und `d_cid_ic` Schlüsselwertpaare wie di
  <tbody> 
   <tr> 
    <td colname="col1"> <p>URL-Kodierung </p> </td> 
-   <td colname="col2"> <p>Ihre Entwicklungsteams <i>müssen</i> die URL-Kodierung auf die folgenden Variablen im CID-Schlüssel/Wert-Paar anwenden: </p> <p> 
+   <td colname="col2"> <p>Ihre Entwicklungsteams <i>müssen die URL-Kodierung auf die folgenden Variablen im CID-Schlüssel/Wert-Paar anwenden:</i> </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
       <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
       <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> integration code</code> </li> 
-     </ul> </p> <p> <p>Hinweis: Sie müssen die Benutzer-ID und den Integrationscode URL kodieren, <i>bevor</i> sie in eine Zeichenfolge verkettet werden. Das liegt daran, dass das ASCII-Zeichen %01, das die beiden Variablen trennt, nicht in der URL-Kodierung erfasst werden darf. </p> </p> <p>Die URL-Kodierung stellt sicher, dass Ihre Benutzer-IDs und Integrationscodes, die reservierte oder unsichere Zeichen wie + oder = enthalten, aber nicht darauf beschränkt sind, korrekt an unsere Server übertragen werden. </p> <p>Referenzieren Sie die <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> ASCII-Kodierungstabelle</a> . </p> </td> 
+     </ul> </p> <p> <p>Hinweis: Sie müssen die Benutzer-ID und den Integrationscode <i>vor der Verkettung in eine Zeichenfolge URL kodieren. </i> Das liegt daran, dass das ASCII-Zeichen %01, das die beiden Variablen trennt, nicht in der URL-Kodierung erfasst werden darf. </p> </p> <p>Die URL-Kodierung stellt sicher, dass Ihre Benutzer-IDs und Integrationscodes, die reservierte oder unsichere Zeichen wie + oder = enthalten, aber nicht darauf beschränkt sind, korrekt an unsere Server übertragen werden. </p> <p>Referenzieren Sie die ASCII-Kodierungstabelle <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external">.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verwenden von Integrationscodes für globale freigegebene Datenquellen </p> </td> 
-   <td colname="col2"> <p>Sie können Integrationscodes für Ihre eigenen Datenquellen und für globale <a href="../features/datasources-list-and-settings.md#settings-menu-options"> freigegebene Datenquellen</a>verwenden, auf die Sie Zugriff haben. Sie können beispielsweise Integrationscodes bei der Arbeit mit Datenquellen für mobile Identifikatoren verwenden. Verwenden Sie die folgenden Integrationscodes genau wie unten angegeben: </p> <p> 
+   <td colname="col2"> <p>Sie können Integrationscodes für Ihre eigenen Datenquellen und für globale <a href="../features/datasources-list-and-settings.md#settings-menu-options"> freigegebene Datenquellen</a> verwenden, auf die Sie Zugriff haben. Sie können beispielsweise Integrationscodes bei der Arbeit mit Datenquellen für mobile Identifikatoren verwenden. Verwenden Sie die folgenden Integrationscodes genau wie unten angegeben: </p> <p> 
      <ul id="ul_B306EE96A3BD4CE982E113D5E23826CF"> 
-      <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b>DSID_20914</b> für GAID, die Geräte darstellen, auf denen das Android-Betriebssystem ausgeführt wird. </li> 
-      <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>DSID_20915</b> für IDFA, die Geräte darstellen, auf denen das iOS-Betriebssystem ausgeführt wird. </li> 
+      <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b>DSID_20914 </b> für GAID, die Geräte darstellen, auf denen das Android-Betriebssystem ausgeführt wird. </li> 
+      <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>DSID_20915 </b> für IDFA, die Geräte darstellen, auf denen das iOS-Betriebssystem ausgeführt wird. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
