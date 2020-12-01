@@ -33,7 +33,7 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
 * Sehen Sie sich die neuesten Versionshinweise zu Audience Manager an und informieren Sie sich über die neuesten Funktionen im Abschnitt **Versionshinweise und neueste Funktionen**.
 * Weitere Informationen zu Experience Cloud-Ressourcen wie Foren, Video-Tutorials, persönlichen und Online-Schulungen finden Sie im Abschnitt **Lernzentrum – Empfohlene Audience Manager und Experience Cloud-Ressourcen**.
 
-<br> 
+<br>
 
 ## Hauptfunktionen von Audience Manager
 
