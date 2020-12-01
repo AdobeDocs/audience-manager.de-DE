@@ -18,38 +18,38 @@ ht-degree: 6%
 
 # Nutzungsbeschränkungen {#usage-limits}
 
-Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segmente, Ziele und algorithmischen Modelle fest, die Sie für ein Konto erstellen können. Beschränkungen gelten für diese Elemente, unabhängig davon, ob sie in der Benutzeroberfläche oder programmgesteuert mit [!DNL API] Methoden erstellt wurden. Nutzungsbeschränkungen schützen Audience Manager vor automatisierten Prozessen, die unsere [!DNL API]s oder Benutzeroberfläche beeinträchtigen könnten.
+Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segmente, Ziele und algorithmischen Modelle fest, die Sie für ein Konto erstellen können. Beschränkungen gelten für diese Elemente, unabhängig davon, ob sie in der Benutzeroberfläche oder programmgesteuert mit den Methoden [!DNL API] erstellt wurden. Nutzungsbeschränkungen schützen Audience Manager vor automatisierten Prozessen, die versuchen könnten, unsere [!DNL API]s oder die Benutzeroberfläche zu gefährden.
 
 ## ID-Zuordnungs-Begrenzung {#id-mapping-limits}
 
-In der folgenden Tabelle werden die Grenzwerte für die [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs Liste. Sobald eine ID eine der unten stehenden Beschränkungen erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer FIFO-Logik (first in, first out) basieren, indem die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzugefügt wird. Einzelheiten zu den von Audience Manager unterstützten IDs finden Sie im Audience Manager unter [IDs](../../reference/ids-in-aam.md) -Index.
+In der folgenden Tabelle werden die [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)-Grenzwerte für Geräte-IDs Liste. Sobald eine ID eine der unten stehenden Beschränkungen erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer FIFO-Logik (first in, first out) basieren, indem die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzugefügt wird. Einzelheiten zu den von Audience Manager unterstützten IDs finden Sie in Audience Manager unter [IDs](../../reference/ids-in-aam.md).
 
 | ID-Zuordnung | Maximale Beschränkung |
 |-----------|-------------- |
-| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-Device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Geräte-Anzeigen-IDs ([DAID](../../reference/ids-in-aam.md)) bis 1 geräteübergreifende ID ([DPUUID](../../reference/ids-in-aam.md)) |
-| Geräteübergreifende ID ([DPUUID](../../reference/ids-in-aam.md)) für Geräte-Advertising-ID ([DAID](../../reference/ids-in-aam.md)) | 10 geräteübergreifende IDs ([DPUUID](../../reference/ids-in-aam.md)) bis 1 Geräte-Anzeigen-ID ([DAID](../../reference/ids-in-aam.md)) pro [DPID](../../reference/ids-in-aam.md) |
+| Geräte-Advertising-ID ([DAID](../../reference/ids-in-aam.md)) zu geräteübergreifender ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Anzeigen-IDs ([DAID](../../reference/ids-in-aam.md)) bis zu 1 geräteübergreifende ID ([DPUUID](../../reference/ids-in-aam.md)) |
+| Geräteübergreifende ID ([DPUUID](../../reference/ids-in-aam.md)) zur Geräte-Advertising-ID ([DAID](../../reference/ids-in-aam.md)) | 10 geräteübergreifende IDs ([DPUUID](../../reference/ids-in-aam.md)) zu 1 Geräte-Advertising-ID ([DAID](../../reference/ids-in-aam.md)) pro [DPID](../../reference/ids-in-aam.md) |
 | Cookie/Browser-ID zu Cookie-/Browser-ID | 1000 Cookie-/Browser-IDs zu 1 Cookie-/Browser-ID |
 
 ## Elementgrenzen {#item-limits}
 
-In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie können keine neuen Eigenschaften, Segmente, Ziele oder [!UICONTROL Algorithmic Models] Ziele erstellen, wenn Sie eine bestimmte Beschränkung für eines dieser Elemente erreichen. Wenn Sie einen Grenzwert erreichen, müssen Sie ein älteres Element löschen, bevor Sie ein neues erstellen können.
+In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie können keine neuen Eigenschaften, Segmente, Ziele oder [!UICONTROL Algorithmic Models] erstellen, wenn Sie eine bestimmte Beschränkung für eines dieser Elemente erreichen. Wenn Sie einen Grenzwert erreichen, müssen Sie ein älteres Element löschen, bevor Sie ein neues erstellen können.
 
 ### Eigenschaftsbeschränkungen
 
 | Eigenschaftstyp | Maximale Beschränkung |
 | -------------------------- | ------------------------------------- |
-| Eigenschaften insgesamt | 100,000 |
-| Gesamtqualifikationen für Eigenschaften | 150,000. Weitere Informationen zur Qualifizierung von Eigenschaften finden Sie unter Qualifizierungsgrenze für Eigenschaften in der [Referenzhandbuch](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit)zu Eigenschaften. |
+| Eigenschaften insgesamt | 100.000 |
+| Gesamtqualifikationen für Eigenschaften | 150.000. Weitere Informationen zur Eigenschaftsqualifikation finden Sie unter Eigenschaftsqualifizierungsgrenze in [Eigenschaftsqualifikationsreferenz](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit). |
 | Algorithmus | 50 |
-| Regelbasiert | 100,000 |
-| Onboarded | 100,000 |
-| Ordnereigenschaften | 2,000 |
+| Regelbasiert | 100.000 |
+| Onboarded | 100.000 |
+| Ordnereigenschaften | 2.000 |
 
 ### Segmentbeschränkungen
 
 | Segmenttyp | Maximale Beschränkung |
 | -------------- | ------------- |
-| Segmente insgesamt | 20,000 |
+| Segmente insgesamt | 20.000 |
 
 ### Zielbeschränkungen
 
@@ -65,9 +65,9 @@ In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie könn
 
 | Element | Maximale Beschränkung |
 | -------- | ----- |
-| Aktiv [!UICONTROL Look-Alike Models] | 20. Audience Manager only counts *active* algorithmic models against the limit. |
-| [!UICONTROL Look-Alike Models] maximale Audience | 25,000,000.  Beachten Sie, dass dieser Grenzwert nicht erhöht werden kann. Sie können die Größe der Audience verringern, indem Sie weniger Datenquellen für das Modell auswählen oder ein kürzeres Lookback-Fenster auswählen. |
-| Maximale Anzahl der ausgeschlossenen Eigenschaften für eine [!UICONTROL Look-Alike Model] | 500. Siehe [Eigenschaftsausschluss in Algorithmischer Modellierung](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Aktiv [!UICONTROL Look-Alike Models] | 20. Audience Manager zählt nur *active*-Algorithmusmodelle gegen den Grenzwert. |
+| [!UICONTROL Look-Alike Models] maximale Audience | 25.000.000.  Beachten Sie, dass dieser Grenzwert nicht erhöht werden kann. Sie können die Größe der Audience verringern, indem Sie weniger Datenquellen für das Modell auswählen oder ein kürzeres Lookback-Fenster auswählen. |
+| Maximale Anzahl ausgeschlossener Eigenschaften für ein [!UICONTROL Look-Alike Model] | 500. Siehe [Eigenschaftsausschluss in Algorithmischer Modellierung](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Naximum [!UICONTROL Predictive Audiences Models] | 10 |
 | Maximale Anzahl der Baseline-Personas für [!UICONTROL Predictive Audiences Models] | 50 |
 
@@ -75,7 +75,7 @@ In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie könn
 
 | Element | Maximale Beschränkung |
 | ------------- | ------------------ |
-| Eigenschaftsordner | 2,000.  Ihre Ordnerstruktur kann maximal 5 Stufen tief sein. |
+| Eigenschaftsordner | 2.000.  Ihre Ordnerstruktur kann maximal 5 Stufen tief sein. |
 
 ### Abgeleitete Signalgrenzen
 
@@ -89,9 +89,9 @@ In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie könn
 | ----------- | ------------- |
 | Maximale Anzahl Benutzerkonten für eine Firma | 1.000. |
 
-## Nutzung überwachen {#monitor-usage}
+## Monitorverwendung {#monitor-usage}
 
-Sie können die Nutzung und die Beschränkungen für Ihr Konto unter **[!UICONTROL Administration > Limits]**. Für den Zugriff sind Administratorberechtigungen erforderlich.
+Sie können die Nutzung und Beschränkungen für Ihr Konto unter **[!UICONTROL Administration > Limits]** anzeigen. Für den Zugriff sind Administratorberechtigungen erforderlich.
 
 ![Nutzungsbeschränkungen für Bild](assets/usage-limits.png)
 
