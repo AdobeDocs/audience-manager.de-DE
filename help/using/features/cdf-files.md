@@ -18,40 +18,40 @@ ht-degree: 4%
 
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
-Grundlegende Informationen zu [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) Dateien und Anleitungen zum Einstieg. Beginn hier, wenn Sie an [!UICONTROL CDF] Dateien interessiert sind oder einfach mehr Informationen benötigen.
+Grundlegende Informationen zu [!UICONTROL Customer Data Feed]-Dateien ([!UICONTROL CDF]) und Anweisungen zum Einstieg. Beginn hier, wenn Sie [!UICONTROL CDF] Dateien erhalten möchten oder einfach mehr Informationen benötigen.
 
 ## Dateiinhalt und Zweck {#file-contents-purpose}
 
-Eine [!UICONTROL CDF]-Datei enthält dieselben Daten, die ein [!DNL Audience Manager]-Ereignisaufruf (`/event`) an unsere Server sendet. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Interne [!DNL Audience Manager] Systeme verarbeiten Ereignis-Daten in einer [!UICONTROL CDF] Datei, deren Inhalt in einer bestimmten Reihenfolge angeordnet ist. [!DNL Audience Manager] versucht, [!UICONTROL CDF] Dateien stündlich zu generieren und speichert sie in einem sicheren, kundenspezifischen Behälter auf einem [!DNL Amazon S3] Server. Wir stellen diese Dateien zur Verfügung, damit Sie mit [!DNL Audience Manager] Daten arbeiten können, die nicht den durch unsere Benutzeroberfläche festgelegten Beschränkungen unterliegen.
+Eine [!UICONTROL CDF]-Datei enthält dieselben Daten, die ein [!DNL Audience Manager]-Ereignisaufruf (`/event`) an unsere Server sendet. Dazu gehören Daten wie Benutzer-IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs] und alle anderen Parameter, die von einem Ereignis-Aufruf erfasst werden. Interne [!DNL Audience Manager]-Systeme verarbeiten Ereignis-Daten in einer [!UICONTROL CDF]-Datei mit Inhalten, die in einer bestimmten Reihenfolge angezeigt werden. [!DNL Audience Manager] versucht,  [!UICONTROL CDF] Dateien stündlich zu generieren und speichert sie in einem sicheren, kundenspezifischen Behälter auf einem  [!DNL Amazon S3] Server. Wir stellen diese Dateien bereit, damit Sie mit [!DNL Audience Manager] Daten arbeiten können, die außerhalb der durch unsere Benutzeroberfläche festgelegten Grenzen liegen.
 
 >[!IMPORTANT]
 >
 >Beachten Sie beim Arbeiten mit CDF-Dateien die folgenden Einschränkungen:
 >
 >* Bevor Sie CDF-Datei-Versand einrichten, vergewissern Sie sich bitte, dass Sie über die entsprechenden Berechtigungen von Drittanbietern für den Export von Eigenschaften von Drittanbietern verfügen. Audience Manager unterstützt derzeit keine Funktionen in der Benutzeroberfläche, mit denen die Exportgenehmigung für CDF-Versand von Drittanbietern angefordert werden kann. Bitte wenden Sie sich daher unabhängig an sie.
->* Sie sollten keine [!UICONTROL CDF] Dateien als Proxy verwenden, um den Seitenverkehr zu überwachen, Berichtsdiskrepanzen zu überwinden, Abrechnungen usw. vorzunehmen.
+>* Sie sollten keine [!UICONTROL CDF]-Dateien als Proxy verwenden, um den Seiten-Traffic zu überwachen, Berichtsdiskrepanzen oder für die Rechnungsstellung usw. auszugleichen.
 
 
 ## Erste Schritte {#getting-started}
 
-Es gibt keinen Self-Service-Vorgang für Beginn [!UICONTROL CDF] File Versand. Contact your [!DNL Audience Manager] consultant or Customer Care to get started. Während der Implementierung wird Ihr [!DNL Audience Manager] Vertreter:
+Es gibt keinen Self-Service-Vorgang für Beginn [!UICONTROL CDF]-Datei-Versand. Wenden Sie sich für den Einstieg an Ihren [!DNL Audience Manager]-Berater oder an den Kundendienst. Während der Implementierung wird Ihr [!DNL Audience Manager]-Vertreter:
 
-* Richten Sie Ihren [!DNL Amazon S3] Datenspeicherung-Behälter ein.
-* Geben Sie Ihrem Dateipaket [!DNL S3] für die Datenspeicherung schreibgeschützte Authentifizierungsberechtigungen an. Sie können keine Ordner und Dateien anderer Kunden anzeigen oder darauf zugreifen.
+* Richten Sie den Behälter [!DNL Amazon S3] der Datenspeicherung ein.
+* Geben Sie für den Dateipaket-Datenspeicherung-Bucket nur Leseberechtigung für [!DNL S3] an. Sie können keine Ordner und Dateien anderer Kunden anzeigen oder darauf zugreifen.
 
-Dateibenachrichtigungen und [!UICONTROL CDF] -dateien werden in Ihrem [!DNL S3] Bucket angezeigt, sobald sie zum Download bereit sind. Sie sind für die Überwachung und das Herunterladen von Dateien aus Ihrem zugewiesenen [!DNL S3] Verzeichnis verantwortlich. Siehe [Verarbeitungsbenachrichtigungen für CDF-Dateien](#cdf-file-processing-notifications).
+Dateibenachrichtigungen und [!UICONTROL CDF]-Dateien werden in Ihrem [!DNL S3]-Bucket angezeigt, wenn sie zum Herunterladen bereit sind. Sie sind für die Überwachung und das Herunterladen von Dateien aus dem zugewiesenen Ordner [!DNL S3] verantwortlich. Siehe [Verarbeitungsbenachrichtigungen für CDF-Dateien](#cdf-file-processing-notifications).
 
 ## Nächste Schritte {#next-steps}
 
-Die folgenden Abschnitte und die häufig gestellten Fragen zum [Kundendatenfeed](../faq/faq-cdf.md) können Ihnen dabei helfen, sich mit diesem Dienst vertraut zu machen.
+Die folgenden Abschnitte und die [FAQ zu Kundendaten](../faq/faq-cdf.md) können Ihnen dabei helfen, sich mit diesem Dienst vertraut zu machen.
 
-## [!UICONTROL Customer Data Feed] Definierte Inhalte {#cdf-defined}
+## [!UICONTROL Customer Data Feed] Definierte Inhalte  {#cdf-defined}
 
-Listen und definiert die Datenelemente und Arrays in einer [!UICONTROL CDF] Datei in der Reihenfolge ihres Erscheinungsbilds. Definitionen umfassen Datentypen, aber diese Informationen sind nicht Teil einer [!UICONTROL CDF] Datei.
+Listen und definiert die Datenelemente und Arrays in einer [!UICONTROL CDF]-Datei in der Reihenfolge ihres Aussehens. Definitionen umfassen Datentypen, aber diese Informationen sind nicht Teil einer [!UICONTROL CDF]-Datei.
 
 ## Definitionen {#definitions}
 
-Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. Informationen zur internen Dateiorganisation finden Sie unter Struktur der [Kundendaten-Feed-Datei](#cdf-file-structure).
+Eine [!UICONTROL CDF]-Datei enthält einige oder alle unten definierten Felder. Informationen zur internen Dateiorganisation finden Sie unter [Struktur der Kundendaten-Feed-Datei](#cdf-file-structure).
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 
@@ -65,10 +65,10 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
   <tr> 
    <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>Zeitstempel </p> </td> 
-   <td colname="col3"> <p>Der Zeitpunkt, zu dem eine CDF-Datei von den <span class="wintitle"> Datenerfassungsservern</span> verarbeitet wurde. Der Zeitstempel verwendet das Format <i>yyyy-mm-dd hh:mm:ss</i> und wird in der UTC-Zeitzone eingestellt. </p> <p> <p>Hinweis: Die Ereignis-Zeit <i>ist nicht</i>: <p> 
+   <td colname="col3"> <p>Der Zeitpunkt, zu dem eine CDF-Datei von dem <span class="wintitle"> Datenerfassungsserver</span> (DCS) verarbeitet wurde. Der Zeitstempel verwendet das Format <i>yyyy-mm-dd hh:mm:ss</i> und wird in der UTC-Zeitzone eingestellt. </p> <p> <p>Hinweis: Die Ereignis-Zeit <i>ist nicht</i>: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">Die Uhrzeit des Seitenaufrufs oder des Ereignisses selbst, auch wenn sie in der Nähe dieser Ereignis liegen kann. </li> 
-        <li id="li_271DF14395BC495FBF17186588A554A8">Im Zusammenhang mit der DCS-Stunde im Dateinamen. Siehe auch <a href="#different-processing-times"> Zeiten für Kundendaten-Feed-Dateien und Zeiten für Dateiinhalte...</a>. </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">Im Zusammenhang mit der DCS-Stunde im Dateinamen. Siehe auch <a href="#different-processing-times"> Zeit für Kundendaten-Feed-Dateinamen und Dateiinhaltszeiten ...</a>. </li> 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
@@ -109,7 +109,7 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die dem Site-Besucher zugewiesene <span class="keyword"> Experience Cloud</span> -ID (MID). Siehe auch <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>Die <span class="keyword">-Experience Cloud</span>-ID (MID), die dem Site-Besucher zugewiesen ist. Siehe auch <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -124,13 +124,13 @@ Eine [!UICONTROL CDF] Datei enthält einige oder alle unten definierten Felder. 
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Dateistruktur {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] Dateistruktur  {#cdf-file-structure}
 
-Listen und definiert die Datenstruktur einer [!UICONTROL CDF] Datei. Dazu gehören Datensequenzen, Feldtrennzeichen und Trennzeichen, eine Datendateizuordnung und eine Musterdatei.
+Listen und definiert die Datenstruktur einer [!UICONTROL CDF]-Datei. Dazu gehören Datensequenzen, Feldtrennzeichen und Trennzeichen, eine Datendateizuordnung und eine Musterdatei.
 
-## Datenfeld-IDs und -Sequenzen {#identifiers-and-sequence}
+## Datenfeld-IDs und -Sequenz {#identifiers-and-sequence}
 
-[!UICONTROL CDF] -Dateien keine gekennzeichneten Spalten oder Feldkopfzeilen enthalten. Stattdessen definiert eine [!UICONTROL CDF] Datei Felder und Arrays mit nicht druckbaren [!DNL ASCII] Zeichen. Außerdem werden in der [!UICONTROL CDF] Datei alle Felder und Arrays in einer bestimmten Reihenfolge Liste. Anhand der Feldkennungen und der Reihenfolge können Sie die Datei richtig analysieren.
+[!UICONTROL CDF] -Dateien keine gekennzeichneten Spalten oder Feldkopfzeilen enthalten. Stattdessen definiert eine [!UICONTROL CDF]-Datei Felder und Arrays mit nicht druckbaren [!DNL ASCII]-Zeichen. Die [!UICONTROL CDF]-Datei Liste außerdem jedes Feld und Array in einer bestimmten Reihenfolge. Anhand der Feldkennungen und der Reihenfolge können Sie die Datei richtig analysieren.
 
 <table id="table_D2C8786DF7CE47E5ADB8930EC825F8F6"> 
  <thead> 
@@ -144,9 +144,9 @@ Listen und definiert die Datenstruktur einer [!UICONTROL CDF] Datei. Dazu gehör
    <td colname="col1"> <p>Feldtrennzeichen und Trennzeichen </p> </td> 
    <td colname="col2"> <p>Diese nicht druckbaren Zeichen definieren die Elemente und die Struktur Ihrer CDF-Datei: </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
-      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Strg+a (ASCII <code> 001</code> oder <code> ^A</code>) trennt Daten in einzelnen Feldern mit einem Indikator für nicht druckbare Leerzeichen. </li> 
+      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Strg+a (ASCII <code> 001</code> oder <code> ^A</code>) trennt Daten in einzelnen Feldern mit einem nicht druckbaren Leerzeichen. </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Strg+b (ASCII <code> 002</code> oder <code> ^B</code>) trennt Daten von einem Array und Anforderungsparameter. </li> 
-      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Strg+C (ASCII <code> 003</code> oder <code> ^C</code>) definiert Schlüssel-Wert-Paare. </li> 
+      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Strg+c (ASCII <code> 003</code> oder <code> ^C</code>) definiert Schlüssel-Wert-Paare. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -161,15 +161,15 @@ Listen und definiert die Datenstruktur einer [!UICONTROL CDF] Datei. Dazu gehör
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Anfrageparameter </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-Adresse </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (oder MID). See also, <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Adobe Experience Platform Identity Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (oder MID). Siehe auch <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und den Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle Segmente </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle Eigenschaften </li> 
-     </ol> </p> <p>Feldbeschreibungen finden Sie unter Inhalt des <a href="#cdf-defined"> Kundendatenfeeds definiert</a>. </p> </td> 
+     </ol> </p> <p>Feldbeschreibungen finden Sie unter <a href="#cdf-defined"> Kundendaten-Feed-Inhalt definiert</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## [!UICONTROL CDF] Dateizuordnung {#cdf-file-map}
+## [!UICONTROL CDF] Dateizuordnung  {#cdf-file-map}
 
 [!UICONTROL CDF] Dateidaten werden in der unten stehenden Reihenfolge angezeigt.
 
@@ -177,21 +177,21 @@ Listen und definiert die Datenstruktur einer [!UICONTROL CDF] Datei. Dazu gehör
 
 ## Identifizieren von Arrays
 
-Arrays in einem [!UICONTROL CDF] Beginn und enden mit dem `Ctrl + a` Feldtrenner. Dadurch wird das erste Element in einem Array wie ein eigenständiges Datenfeld angezeigt. Beispielsweise die Beginn des realisierten [!UICONTROL traits] Arrays mit `^A1234`. Das Array-Trennzeichen und die ID `^B5678` folgen diesem Eintrag. Daher könnten Sie versucht sein zu glauben, dass das erste Element im erkannten [!UICONTROL traits] Array die ID 5678 ist (weil es mit `^B`). Dies ist nicht der Fall, weshalb Sie mit der Reihenfolge und Struktur einer Datendatei vertraut sein müssen. Auch wenn das erste Element im erkannten [!UICONTROL trait] Array (oder eines der anderen Arrays in einer [!UICONTROL CDF] Datei) Beginn mit `^A`ist, definiert die Reihenfolge des Erscheinungsbilds oder der Position in der Datei den Beginn eines Arrays. Und das erste Element in einem Array wird immer vom vorherigen Eintrag durch `^A`getrennt.
+Arrays in einem [!UICONTROL CDF]-Beginn und enden mit dem `Ctrl + a`-Feldtrenner. Dadurch wird das erste Element in einem Array wie ein eigenständiges Datenfeld angezeigt. Beispielsweise die realisierten [!UICONTROL traits]-Array-Beginn mit `^A1234`. Das Array-Trennzeichen und die ID `^B5678` folgen diesem Eintrag. Daher könnten Sie glauben, dass das erste Element im realisierten [!UICONTROL traits]-Array ID 5678 ist (da es mit `^B` Beginn). Dies ist nicht der Fall, weshalb Sie mit der Reihenfolge und Struktur einer Datendatei vertraut sein müssen. Auch wenn das erste Element im realisierten [!UICONTROL trait]-Array (oder einem der anderen Arrays in einer [!UICONTROL CDF]-Datei) Beginn mit `^A` verwendet wird, definiert die Reihenfolge des Erscheinungsbilds oder der Position in der Datei den Beginn eines Arrays. Und das erste Element in einem Array wird immer vom vorherigen Eintrag durch `^A` getrennt.
 
-## Sample [!UICONTROL CDF] File {#sample-file}
+## Beispiel [!UICONTROL CDF] Datei {#sample-file}
 
 Eine Beispieldatei [!UICONTROL CDF] könnte wie folgt aussehen. Wir haben Zeilenumbrüche in dieses Beispiel eingefügt, um es an die Seite anzupassen.
 
 ![](assets/CDF-sample.png)
 
-## [!UICONTROL Customer Data Feed] Dateibenennungskonventionen {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] Dateibenennungskonventionen  {#cdf-naming-conventions}
 
-In den folgenden Abschnitten werden die Elemente im [!UICONTROL CDF] Dateinamen definiert.
+In den folgenden Abschnitten werden die Elemente im [!UICONTROL CDF]-Dateinamen definiert.
 
-## [!UICONTROL CDF] Dateiname: Syntax und Beispiel {#cdf-file-name}
+## [!UICONTROL CDF] Dateiname: Syntax und Beispiel  {#cdf-file-name}
 
-Ein typischer [!UICONTROL CDF] Dateiname enthält die unten aufgeführten Elemente. Note, *italics* indicates a variable placeholder:
+Ein typischer [!UICONTROL CDF]-Dateiname enthält die unten aufgeführten Elemente. Hinweis: *italics* gibt einen Variablenplatzhalter an:
 
 ### Syntax
 
@@ -205,11 +205,11 @@ s3://aam-cdf/YOUR-S3-BUCKET-NAME/day=yyyy-mm-dd/hour=hh/AAM-CDF-PARTNER-ID-AAM P
 s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 ```
 
-In Ihrer [!DNL S3] Datenspeicherung werden die Dateien in aufsteigender Reihenfolge nach Partner-ID ([!UICONTROL PID]), Tag und Stunde sortiert.
+Im [!DNL S3]-Datenspeicherung-Bucket werden die Dateien in aufsteigender Reihenfolge nach Partner-ID ([!UICONTROL PID]), Tag und Stunde sortiert.
 
-## [!UICONTROL CDF] Definierte Dateinamenelemente {#cdf-file-name-elements}
+## [!UICONTROL CDF] Definierte Dateinamenelemente  {#cdf-file-name-elements}
 
-In der folgenden Tabelle werden die Elemente in einem [!UICONTROL CDF] Dateinamen Liste und definiert.
+In der folgenden Tabelle werden die Elemente in einem [!UICONTROL CDF]-Dateinamen Liste und definiert.
 
 <table id="table_4AC4F90C1C7D43E2A93CB3B6908D7E94"> 
  <thead> 
@@ -233,7 +233,7 @@ In der folgenden Tabelle werden die Elemente in einem [!UICONTROL CDF] Dateiname
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>hour=<i>hh</i></code> </p> </td> 
-   <td colname="col2"> <p>Ein Zeitwert, der in 24-Stunden-Notation ausgedrückt und in der UTC-Zeitzone eingestellt wird. Siehe auch <a href="#different-processing-times"> Zeiten für Kundendaten-Feed-Dateien und Zeiten für Dateiinhalte...</a>. </p> </td> 
+   <td colname="col2"> <p>Ein Zeitwert, der in 24-Stunden-Notation ausgedrückt und in der UTC-Zeitzone eingestellt wird. Siehe auch <a href="#different-processing-times"> Zeit für Kundendaten-Feed-Dateinamen und Dateiinhaltszeiten ...</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
@@ -241,7 +241,7 @@ In der folgenden Tabelle werden die Elemente in einem [!UICONTROL CDF] Dateiname
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>Eine interne <span class="keyword"> Audience Manager</span> -Prozess-ID. </p> </td> 
+   <td colname="col2"> <p>Eine interne Prozess-ID, <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -250,13 +250,13 @@ In der folgenden Tabelle werden die Elemente in einem [!UICONTROL CDF] Dateiname
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Benachrichtigungen zur Dateiverarbeitung {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] Benachrichtigungen zur Dateiverarbeitung  {#cdf-file-processing-notifications}
 
-[!DNL Audience Manager] schreibt eine `.info` Datei in Ihr [!DNL S3] Verzeichnis, um Sie darüber zu informieren, wann [!UICONTROL Customer Data File] ([!UICONTROL CDF]) zum Download bereit ist. Die `.info` Datei enthält auch [!DNL JSON] formatierte Metadaten zum Inhalt Ihrer [!UICONTROL CDF] Dateien. In diesem Abschnitt finden Sie Informationen zur Syntax und den Feldern, die von dieser Benachrichtigungsdatei verwendet werden.
+[!DNL Audience Manager] schreibt eine  `.info` Datei in Ihr  [!DNL S3] Verzeichnis, um Sie darüber zu informieren, wann  [!UICONTROL Customer Data File] ([!UICONTROL CDF]) zum Download bereit ist. Die Datei `.info` enthält auch [!DNL JSON] formatierte Metadaten zum Inhalt Ihrer [!UICONTROL CDF]-Dateien. In diesem Abschnitt finden Sie Informationen zur Syntax und den Feldern, die von dieser Benachrichtigungsdatei verwendet werden.
 
-## Beispielinformationsdatei {#sample-info-file}
+## Beispiel-Infodatei {#sample-info-file}
 
-Jede `.info` Datei enthält einen `Files` und einen `Totals` -Abschnitt. Der `Files` Abschnitt enthält ein Array, das für jede stündliche Datei spezifische Metriken enthält. Der `Totals` Abschnitt enthält Metriken, die an einem bestimmten Tag in all Ihren [!UICONTROL CDF] Dateien aggregiert werden. Der Inhalt Ihrer `.info` Datei könnte dem folgenden Beispiel ähneln.
+Jede `.info`-Datei enthält einen `Files`- und `Totals`-Abschnitt. Der Abschnitt `Files` enthält ein Array, das bestimmte Metriken für jede stündliche Datei enthält. Der Abschnitt `Totals` enthält Metriken, die für alle [!UICONTROL CDF]-Dateien eines bestimmten Tages aggregiert werden. Der Inhalt Ihrer `.info`-Datei könnte dem folgenden Beispiel ähneln.
 
 ```js
 {
@@ -285,7 +285,7 @@ Jede `.info` Datei enthält einen `Files` und einen `Totals` -Abschnitt. Der `Fi
 
 ## Felder für Infodateien definiert {#info-file-fields-defined}
 
-Die folgenden Tabellen werden Liste und definieren die Elemente in einer [!UICONTROL CDF]`.info` Datei.
+Die folgenden Tabellenelemente werden in der Liste [!UICONTROL CDF] `.info` definiert.
 
 ### Dateiobjekt
 
@@ -307,11 +307,11 @@ Die folgenden Tabellen werden Liste und definieren die Elemente in einer [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Das Amazon S3 ETag. Die Zahl nach dem Bindestrich zeigt die Anzahl der Teile, die zum Erstellen der Datei während des mehrteiligen Uploads verwendet wurden. Der Wert <code> ETag</code> ist nicht identisch mit der MD5-Prüfsumme der Datei. </p> </td> 
+   <td colname="col2"> <p>Das Amazon S3 ETag. Die Zahl nach dem Bindestrich zeigt die Anzahl der Teile, die zum Erstellen der Datei während des mehrteiligen Uploads verwendet wurden. Die <code> ETag</code> ist nicht identisch mit der MD5-Prüfsumme der Datei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Der Dateiname. See <a href="#cdf-naming-conventions"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
+   <td colname="col2"> <p>Der Dateiname. Siehe <a href="#cdf-naming-conventions"> Benutzerdaten-Feed-Dateibenennungskonventionen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 
@@ -336,7 +336,7 @@ Die folgenden Tabellen werden Liste und definieren die Elemente in einer [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Der Tag, an dem die Daten verfügbar sind. Verwendet das Format <i>yyyy-mm-dd</i> . </p> </td> 
+   <td colname="col2"> <p>Der Tag, an dem die Daten verfügbar sind. Verwendet das Format <i>yyyy-mm-dd</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Hour</code> </p> </td> 
@@ -353,24 +353,24 @@ Die folgenden Tabellen werden Liste und definieren die Elemente in einer [!UICON
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Die Zeiten für Dateinamen und Dateiinhalt sind unterschiedlich {#different-processing-times}
+## [!UICONTROL Customer Data Feed] Die Zeiten für Dateinamen und Dateiinhalt sind unterschiedlich  {#different-processing-times}
 
-Ihre [!UICONTROL CDF] Datei enthält Zeitstempel im Dateinamen und im Dateiinhalt. Diese Zeitstempel zeichnen verschiedene Ereignis-Prozesse für dieselbe [!UICONTROL CDF] Datei auf. Es ist nicht ungewöhnlich, dass unterschiedliche Zeitstempel im Namen und Inhalt derselben Datei angezeigt werden. Die Kenntnis jedes Zeitstempels kann Ihnen dabei helfen, gängige Fehler beim Arbeiten mit diesen Daten oder beim Versuch, sie nach Zeit zu sortieren, zu vermeiden.
+Ihre [!UICONTROL CDF]-Datei enthält Zeitstempel im Dateinamen und Dateiinhalt. Diese Zeitstempel zeichnen verschiedene Ereignis-Prozesse für dieselbe [!UICONTROL CDF]-Datei auf. Es ist nicht ungewöhnlich, dass unterschiedliche Zeitstempel im Namen und Inhalt derselben Datei angezeigt werden. Die Kenntnis jedes Zeitstempels kann Ihnen dabei helfen, gängige Fehler beim Arbeiten mit diesen Daten oder beim Versuch, sie nach Zeit zu sortieren, zu vermeiden.
 
-## Suchen von [!UICONTROL CDF] Dateizeitstempeln {#locating-timestamps}
+## Suchen nach [!UICONTROL CDF] Dateizeitstempeln {#locating-timestamps}
 
 [!UICONTROL CDF] -Dateien die Zeit in zwei verschiedenen Speicherorten unterschiedlich aufzeichnen.
 
 ![](assets/cdf-timestamp.png)
 
-## Die Unterschiede zwischen Zeitstempeln verstehen {#understanding-timestamps}
+## Die Unterschiede zwischen Zeitstempeln {#understanding-timestamps}
 
-Die folgende Tabelle enthält weitere Details zu Ihren [!UICONTROL CDF] Datei-Zeitstempeln sowie Informationen zur ordnungsgemäßen Verwendung.
+Die folgende Tabelle enthält weitere Details zu den [!UICONTROL CDF]-Dateizeitstempeln sowie Informationen zur ordnungsgemäßen Verwendung.
 
 | Zeitstempelposition | Beschreibung |
 |--- |--- |
-| Dateiname | Der Zeitstempel im [!DNL CDF] Dateinamen kennzeichnet den Zeitpunkt, zu dem die Datei für den Versand vorbereitet [!DNL Audience Manager] wurde. Dieser Zeitstempel wird in der [!DNL UTC] Zeitzone festgelegt. Es verwendet den `hour=` Parameter, wobei die Uhrzeit als 2-stellige Stunde in 24-Stunden-Notation formatiert wird. Dieser Zeitpunkt kann sich von der im Dateiinhalt aufgezeichneten Ereignis-Zeit unterscheiden. Beim Arbeiten mit [!DNL CDF] Dateien werden Sie manchmal bemerken, dass der [!DNL S3] Behälter für eine bestimmte Stunde leer ist. Ein leerer Behälter bedeutet:<ul><li>Es gibt keine Daten für diese bestimmte Stunde. </li><li> Unsere Server sind unter hoher Belastung und können keine Dateien für eine bestimmte Stunde verarbeiten. Wenn der Server erfasst, werden die Dateien, die in früheren Zeitbehälterdateien enthalten sein sollten, in einen Behälter mit einem späteren Zeitwert gelegt. Dies wird beispielsweise angezeigt, wenn eine Datei, die im 17-Stunden-Bucket enthalten sein sollte, im 18-Stunden-Bucket (mit `hour=18` dem Dateinamen) angezeigt wird. In diesem Fall hat der Server wahrscheinlich die Verarbeitung der Datei in Stunde 17 begonnen, konnte sie jedoch nicht innerhalb dieses Zeitintervalls abschließen. Stattdessen wird die Datei in den nächsten Stundenzähler verschoben.</li></ul><br>**Wichtig **: Verwenden Sie nicht den Zeitstempel für Dateinamen, um Ereignis nach Zeit zu gruppieren. Wenn Sie nach Zeit gruppieren müssen, verwenden Sie den`EventTime`Zeitstempel im Dateiinhalt. |
-| Dateiinhalt | Der Zeitstempel im [!DNL CDF] Dateiinhalt kennzeichnet den Zeitpunkt, zu dem die Verarbeitung der Datei [!DNL Data Collection Servers] begonnen hat. Dieser Zeitstempel wird in der [!DNL UTC] Zeitzone festgelegt. Es verwendet das `EventTime` Feld, wobei die Uhrzeit als *`yyyy-mm-dd hh:mm:ss`*. Diese Uhrzeit entspricht der tatsächlichen Uhrzeit des Ereignisses auf der Seite, kann jedoch von der Stundenanzeige im Dateinamen abweichen. <br> **Tipp**: Im Gegensatz zum `hour=` Zeitstempel im Dateinamen können Sie Daten nach Zeit gruppieren `EventTime` lassen. |
+| Dateiname | Der Zeitstempel in Ihrem [!DNL CDF]-Dateinamen kennzeichnet den Zeitpunkt, zu dem [!DNL Audience Manager] mit dem Vorbereiten der Datei für den Versand begonnen hat. Dieser Zeitstempel wird in der Zeitzone [!DNL UTC] festgelegt. Es wird der Parameter `hour=` verwendet, wobei die Uhrzeit als 2-stellige Stunde in 24-Stunden-Notation formatiert wird. Dieser Zeitpunkt kann sich von der im Dateiinhalt aufgezeichneten Ereignis-Zeit unterscheiden. Beim Arbeiten mit [!DNL CDF]-Dateien werden Sie manchmal bemerken, dass Ihr [!DNL S3]-Behälter für eine bestimmte Stunde leer ist. Ein leerer Behälter bedeutet:<ul><li>Es gibt keine Daten für diese bestimmte Stunde. </li><li> Unsere Server sind unter hoher Belastung und können keine Dateien für eine bestimmte Stunde verarbeiten. Wenn der Server erfasst, werden die Dateien, die in früheren Zeitbehälterdateien enthalten sein sollten, in einen Behälter mit einem späteren Zeitwert gelegt. Dies wird beispielsweise angezeigt, wenn eine Datei, die sich im 17-Stunden-Bucket befinden sollte, im 18-Stunden-Bucket angezeigt wird (wobei `hour=18` im Dateinamen steht). In diesem Fall hat der Server wahrscheinlich die Verarbeitung der Datei in Stunde 17 begonnen, konnte sie jedoch nicht innerhalb dieses Zeitintervalls abschließen. Stattdessen wird die Datei in den nächsten Stundenzähler verschoben.</li></ul><br>**Wichtig**: Verwenden Sie nicht den Zeitstempel für Dateinamen, um Ereignis nach Zeit zu gruppieren. Wenn Sie nach Zeit gruppieren müssen, verwenden Sie den Zeitstempel `EventTime` im Dateiinhalt. |
+| Dateiinhalt | Der Zeitstempel im Inhalt der [!DNL CDF]-Datei kennzeichnet den Zeitpunkt, zu dem [!DNL Data Collection Servers] mit der Verarbeitung der Datei begonnen hat. Dieser Zeitstempel wird in der Zeitzone [!DNL UTC] festgelegt. Es wird das Feld `EventTime` verwendet, wobei die Uhrzeit als *`yyyy-mm-dd hh:mm:ss`* formatiert ist. Diese Uhrzeit entspricht der tatsächlichen Uhrzeit des Ereignisses auf der Seite, kann jedoch von der Stundenanzeige im Dateinamen abweichen. <br> **Tipp**: Im Gegensatz zum  `hour=` Zeitstempel im Dateinamen können Sie Daten nach Zeit gruppieren  `EventTime` lassen. |
 
 >[!MORELIKETHIS]
 >
