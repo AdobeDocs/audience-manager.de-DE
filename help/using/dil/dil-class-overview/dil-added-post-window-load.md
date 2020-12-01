@@ -1,6 +1,6 @@
 ---
-description: Dient dazu, DIL darauf hinzuweisen, dass es nach dem Laden des Fensters geladen wird.
-seo-description: Dient dazu, DIL darauf hinzuweisen, dass es nach dem Laden des Fensters geladen wird.
+description: Dient dazu, DIL darüber zu informieren, dass es geladen wird, nachdem das Fenster geladen wurde.
+seo-description: Dient dazu, DIL darüber zu informieren, dass es geladen wird, nachdem das Fenster geladen wurde.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
 title: isAddedPostWindowLoad
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # isAddedPostWindowLoad{#isaddedpostwindowload}
 
-Dient dazu, DIL darauf hinzuweisen, dass es nach dem Laden des Fensters geladen wird.
+Dient dazu, DIL darüber zu informieren, dass es geladen wird, nachdem das Fenster geladen wurde.
 
 **Funktionssignatur:** `isAddedPostWindowLoad: function()`
 
