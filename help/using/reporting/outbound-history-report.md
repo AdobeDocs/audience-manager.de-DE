@@ -29,8 +29,8 @@ t_reports_outbound_history.xml
 
    ![Schritt-Ergebnis](assets/outbound_history.png)
 
-1. Geben Sie im **[!UICONTROL Search for a Destination]** Feld Beginn ein und wählen Sie das gewünschte Ziel aus.
-1. Geben Sie im **[!UICONTROL Select a Date Range]** Feld Beginns- und Enddaten für Ihren Bericht ein und klicken Sie dann auf **[!UICONTROL Apply Date Filter]**.
+1. Geben Sie im Feld **[!UICONTROL Search for a Destination]** den Beginn ein und wählen Sie das gewünschte Ziel aus.
+1. Geben Sie im Feld **[!UICONTROL Select a Date Range]** das Beginns- und Enddatum für Ihren Bericht ein und klicken Sie dann auf **[!UICONTROL Apply Date Filter]**.
 
    ![Schritt-Ergebnis](assets/outbound_history_stats.png)
 
@@ -46,11 +46,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Name der Synchronisierungsdatei </td> 
-   <td colname="col2"> <p>Liste aller ausgehenden Dateien, die <span class="keyword"> Adobe</span> für dieses Ziel generiert hat und die zusammen verarbeitet wurden. </p> </td> 
+   <td colname="col2"> <p>Liste aller ausgehenden Dateien, die für dieses Ziel <span class="keyword"> Adobe</span> generiert wurden und zusammen verarbeitet wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erfolgreich </td> 
-   <td colname="col2"> <p>Anzahl der Datensätze, die erfolgreich vom <span class="keyword"> Audience Manager</span> zum Ziel gesendet wurden. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Datensätze, die erfolgreich von <span class="keyword"> Audience Manager</span> an das Ziel gesendet wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> „Fehlgeschlagen“ </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Aufgenommene Datensätze </td> 
-   <td colname="col2"> <p>Gesamtanzahl der Datensätze, die <span class="keyword"> Adobe</span> in den Dateien generiert und an das Ziel gesendet hat. In den meisten Fällen sollte dies die Gesamtanzahl erfolgreicher und fehlgeschlagener Dateien sein. </p> </td> 
+   <td colname="col2"> <p>Gesamtanzahl der Datensätze <span class="keyword"> Adobe</span>, die in den Dateien generiert wurden und versucht haben, an das Ziel zu senden. In den meisten Fällen sollte dies die Gesamtanzahl erfolgreicher und fehlgeschlagener Dateien sein. </p> </td> 
   </tr> 
  </tbody> 
 </table>
