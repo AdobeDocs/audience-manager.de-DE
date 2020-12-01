@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # Beschreibung des Batch-Datenübertragungsprozesses {#batch-data-transfer-process-described}
 
-Eine allgemeine Übersicht darüber, wie [!DNL Audience Manager] ein asynchroner Batch-Datenaustausch mit einem Drittanbieter durchgeführt wird.
+Eine allgemeine Übersicht darüber, wie [!DNL Audience Manager] einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
 
 ## Batch-Datenintegration
 
@@ -27,7 +27,7 @@ Die Batch-Datenintegration speichert Besucher-Informationen auf unseren Servern 
 
 * Eine sofortige Datenübertragung ist nicht erforderlich.
 * Datenerfassung zum Aufbau eines großen Pools segmentierter Benutzer.
-* Sie möchten Datendiskrepanzen und `HTTP` Aufrufe vom Browser reduzieren.
+* Sie möchten Datendiskrepanzen und `HTTP`-Aufrufe vom Browser reduzieren.
 
 ![](assets/s2s_70.png)
 
@@ -36,5 +36,5 @@ Die Batch-Datenintegration speichert Besucher-Informationen auf unseren Servern 
 1. Ein Benutzer besucht eine Kunden-Site.
 1. [!DNL Audience Manager] und der Drittanbieter für Daten weist dem Besucher eine eindeutige ID zu (üblicherweise mit einem Cookie).
 1. [!DNL Audience Manager] ruft den Drittanbieter auf, Besucher-IDs zuzuordnen.
-1. Bei einer geplanten Anforderung, die in der Regel täglich erfolgt, werden die Segmentdaten des Besuchers zwischen [!DNL Audience Manager] und dem Drittanbieter ausgetauscht.
-1. Bei jeder Verarbeitung einer eingehenden [!UICONTROL Server-to-Server] Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet. Weitere Informationen finden Sie unter [Beispielmeldung an Partner nach der eingehenden Verarbeitung](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
+1. Bei einer geplanten Anforderung, die in der Regel in einem täglichen Intervall erfolgt, werden die Segmentdaten des Besuchers zwischen [!DNL Audience Manager] und Ihrem Drittanbieter ausgetauscht.
+1. Bei jeder Verarbeitung einer eingehenden [!UICONTROL Server-to-Server]-Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet. Weitere Informationen finden Sie unter [Beispielmeldung an Partner nach der eingehenden Verarbeitung](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
