@@ -1,6 +1,6 @@
 ---
-description: Hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
-seo-description: Hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
+description: hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
+seo-description: hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
 seo-title: Ändern des GPT-API-Aufrufs setTargeting
 solution: Audience Manager
 title: Ändern des GPT-API-Aufrufs setTargeting
@@ -15,17 +15,17 @@ ht-degree: 9%
 ---
 
 
-# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
+# Ändern Sie den GPT `setTargeting`-API-Aufruf {#modify-the-gpt-settargeting-api-call}
 
-Hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der [!DNL Google Publisher Tag] `.setTargeting` Methode nach Audience Manager-Cookies zu suchen.
+hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der [!DNL Google Publisher Tag] `.setTargeting`-Methode nach Audience Manager-Cookies zu suchen.
 
-## Suchen nach Audience Manager-Cookies mit einer `IF` Anweisung
+## Suchen Sie nach Audience Manager-Cookies mit einer `IF`-Anweisung
 
-Die `.setTargeting` Methode ruft Daten aus dem Audience Manager-Ziel-Cookie und dem eindeutigen Benutzer-ID-Cookie ( `aam_uuid`) ab. Wenn `.setTargeting` diese Cookies jedoch vor dem [!UICONTROL DIL] Schreiben aufgerufen werden oder die Cookies leer sind, werden beim Laden der Seite möglicherweise Fehler angezeigt. Um dies zu vermeiden, schließen Sie die `.setTargeting` Methode in eine `if` Anweisung ein, die nach diesen Cookies sucht. Wenn sie nicht eingestellt sind, verhindert diese Anweisung `.setTargeting` den Aufruf der `AamGpt` Funktion.
+Die `.setTargeting`-Methode ruft Daten aus dem Audience Manager-Zielcookie und dem eindeutigen Benutzer-ID-Cookie ( `aam_uuid`) ab. Wenn `.setTargeting` jedoch aufgerufen wird, bevor [!UICONTROL DIL] diese Cookies schreibt oder die Cookies leer sind, werden beim Laden der Seite möglicherweise Fehler angezeigt. Um dies zu vermeiden, schließen Sie die `.setTargeting`-Methode in eine `if`-Anweisung ein, die nach diesen Cookies sucht. Wenn sie nicht eingestellt sind, verhindert diese Anweisung, dass `.setTargeting` die Funktion `AamGpt` aufruft.
 
 ### `IF` Beispiel für Anweisungscode
 
-In diesem Beispiel lautet der Audience Manager-Ziel-Cookie-Name `Sample`. Sie legen diesen Namen fest, wenn Sie das Ziel-Cookie in der Benutzeroberfläche von Audience Manager erstellen. [!UICONTROL DIL] setzt das `aam_uuid` Cookie und der Name kann nicht geändert werden.
+In diesem Beispiel lautet der Audience Manager-Ziel-Cookie-Name `Sample`. Sie legen diesen Namen fest, wenn Sie das Ziel-Cookie in der Benutzeroberfläche von Audience Manager erstellen. [!UICONTROL DIL] legt das  `aam_uuid` Cookie fest und der Name kann nicht geändert werden.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -38,16 +38,16 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Je nachdem, wie Sie mit [!DNL Google Ad Manager]integrieren möchten, benötigen Sie nur einige der Zeilen im obigen Codebeispiel:
+>Abhängig davon, wie Sie mit [!DNL Google Ad Manager] integrieren möchten, benötigen Sie nur einige der Zeilen im obigen Codebeispiel:
 >
 >* Clientseitige Integration: nur Zeilen 1-3 verwenden.
 >* Serverseitige Integration: Keine der Zeilen wird benötigt.
->* Protokolldateien [!DNL Google Ad Manager] zum Berichte in [!DNL Audience Manager]: nur die Zeilen 4-6 verwenden. Mit diesem Code wird der Wert des `aam_uuid` Cookies in die Protokolle eingefügt, damit sie zum Berichte aufgenommen werden können.
+>* Erfassen Sie die Protokolldateien für Berichte in [!DNL Google Ad Manager]: nur die Zeilen 4-6 verwenden. [!DNL Audience Manager] Mit diesem Code wird der Wert des `aam_uuid`-Cookies in die Protokolle eingefügt, damit sie zum Berichte aufgenommen werden können.
 
 
 ### `AamGpt` Funktionen und Datentypen
 
-Definiert die in der `if` Anweisung verwendeten Schlüsselvariablen.
+Definiert die Schlüsselvariablen, die in der `if`-Anweisung verwendet werden.
 
 <table id="table_881391C9BDDF4FACAFC37A47B14B31A1"> 
  <thead> 
@@ -61,7 +61,7 @@ Definiert die in der `if` Anweisung verwendeten Schlüsselvariablen.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Gibt den Schlüssel im Schlüssel-Wert-Segment-Paar zurück. Wenn Ihr Schlüssel-Wert-Paar beispielsweise aus <code> color=blue </code>besteht, wird dies zurückgegeben <code> color </code>. </p> </td> 
+   <td colname="col3"> <p>Gibt den Schlüssel im Schlüssel-Wert-Segment-Paar zurück. Wenn Ihr Schlüssel-Wert-Paar beispielsweise aus <code> color=blue </code> bestand, wird <code> color </code> zurückgegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
