@@ -29,7 +29,7 @@ Diese Elemente identifizieren Codeoptionen und Variablen, die in der Hilfe-Dokum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>Variablen werden kursiv <i>dargestellt</i>. Ersetzen Sie den entsprechenden Wert für den Variablennamen. </p> <p>Aus Gründen der Übersichtlichkeit werden manchmal Variablen und andere Codeelemente zwischen &lt; &gt; Klammern angezeigt. Sie müssen diese Symbole nicht in Ihrem Code verwenden. </p> </td> 
+   <td colname="col2"> <p>Variablen werden in <i>kursiv</i> angezeigt. Ersetzen Sie den entsprechenden Wert für den Variablennamen. </p> <p>Aus Gründen der Übersichtlichkeit werden manchmal Variablen und andere Codeelemente zwischen &lt; &gt; Klammern angezeigt. Sie müssen diese Symbole nicht in Ihrem Code verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -37,7 +37,7 @@ Diese Elemente identifizieren Codeoptionen und Variablen, die in der Hilfe-Dokum
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Elemente in Klammern geben eine boolesche <span class="wintitle"> ODER</span> -Auswahl an. </p> </td> 
+   <td colname="col2"> <p>Elemente in Klammern geben eine boolesche <span class="wintitle"> ODER</span> Auswahl an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
