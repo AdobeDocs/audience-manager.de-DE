@@ -1,7 +1,7 @@
 ---
-description: Hinzufügen Sie das Audience Management Module an Adobe Analytics AppMeasurement, um Analytics-Daten an den Audience Manager weiterzuleiten, anstatt dass der DIL-Code (Audience Manager Data Integration Library) ein Pixel von der Seite sendet.
+description: hinzufügen Sie das Audience Management Module an Adobe Analytics AppMeasurement, um Analytics-Daten an Audience Manager weiterzuleiten, anstatt dass der Audience Manager-Data Integration Library-Code (DIL) ein Pixel von der Seite sendet.
 keywords: audience analytics; analytics; ssf; server side forwarding
-seo-description: Hinzufügen Sie das Audience Management Module an Adobe Analytics AppMeasurement, um Analytics-Daten an den Audience Manager weiterzuleiten, anstatt dass der DIL-Code (Audience Manager Data Integration Library) ein Pixel von der Seite sendet.
+seo-description: hinzufügen Sie das Audience Management Module an Adobe Analytics AppMeasurement, um Analytics-Daten an Audience Manager weiterzuleiten, anstatt dass der Audience Manager-Data Integration Library-Code (DIL) ein Pixel von der Seite sendet.
 seo-title: Implementieren des Audience Management-Moduls
 solution: Audience Manager
 title: Implementieren des Audience Management-Moduls
@@ -16,48 +16,48 @@ ht-degree: 5%
 ---
 
 
-# How to forward data from [!DNL Adobe Analytics] to [!DNL Audience Manager] {#implement-the-audience-management-module}
+# Weiterleiten von Daten von [!DNL Adobe Analytics] an [!DNL Audience Manager] {#implement-the-audience-management-module}
 
-Führen Sie die Schritte in diesem Lernprogramm aus, um [!DNL Analytics] Daten an die Seite weiterzuleiten, [!DNL Audience Manager] anstatt dass der [!DNL Audience Manager] ( [!UICONTROL Data Integration Library][!DNL DIL]) Code ein Pixel von der Seite sendet.
+Führen Sie die Schritte in diesem Lernprogramm aus, um [!DNL Analytics]-Daten an [!DNL Audience Manager] weiterzuleiten, anstatt dass der [!DNL Audience Manager] [!UICONTROL Data Integration Library]-Code ([!DNL DIL]) ein Pixel von der Seite sendet.
 
 >[!TIP]
 >
->Es wird empfohlen, [!DNL Adobe Experience Platform Launch] die [!UICONTROL Analytics] Daten zu übermitteln [!DNL Audience Manager]. Durch die Verwendung [!UICONTROL Launch]müssen Sie keinen Code manuell in kopieren, wie auf dieser Seite gezeigt [!DNL AppMeasurement].
+>Es wird empfohlen, [!DNL Adobe Experience Platform Launch] zu verwenden, um [!UICONTROL Analytics]-Daten an [!DNL Audience Manager] weiterzuleiten. Bei Verwendung von [!UICONTROL Launch] müssen Sie keinen Code manuell in [!DNL AppMeasurement] kopieren, wie auf dieser Seite gezeigt.
 
 ## Voraussetzungen {#prereqs}
 
 Zusätzlich zur Aktivierung der Erweiterungen oder Implementierung des in diesem Dokument beschriebenen Codes müssen Sie auch:
 
-* Implement the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
-* Aktivieren Sie die [serverseitige Weiterleitung](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) für Report Suites im [!UICONTROL Adobe Analytics Admin Console].
+* Implementieren Sie den [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
+* Aktivieren Sie [Serverseitige Weiterleitung](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) für Report Suites in [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementierung {#implementation}
 
-Es gibt zwei Methoden, um die Datenweiterleitung von [!DNL Adobe Analytics] zu [!DNL Audience Manager]implementieren, je nach der von Ihnen verwendeten Tag-Management-Lösung.
+Es gibt zwei Methoden zur Implementierung der Datenweiterleitung von [!DNL Adobe Analytics] zu [!DNL Audience Manager], je nach der von Ihnen verwendeten Tag-Management-Lösung.
 
 ### Implementierung mit [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] empfiehlt die Verwendung der Erweiterung [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) zum Instrumentieren [!DNL Adobe Analytics] und [!DNL Audience Manager] auf Ihren Eigenschaften. In diesem Fall müssen Sie keinen Code manuell kopieren. Stattdessen müssen Sie die Datenfreigabe in der [!DNL Analytics Launch] Erweiterung aktivieren, wie in der Abbildung unten dargestellt. Weitere Informationen finden Sie in der Dokumentation zur [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
+[!DNL Adobe] empfiehlt die Verwendung der  [](https://docs.adobe.com/content/help/en/launch/using/overview.html) Launchextension zum Instrumentieren  [!DNL Adobe Analytics] und  [!DNL Audience Manager] auf Ihren Eigenschaften. In diesem Fall müssen Sie keinen Code manuell kopieren. Stattdessen müssen Sie die Datenfreigabe in der Erweiterung [!DNL Analytics Launch] aktivieren, wie in der Abbildung unten dargestellt. Siehe auch die Dokumentation zur [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager).
 
 >[!TIP]
 >
->Wenn Sie die [!DNL Adobe Analytics] Erweiterung installieren, *installieren Sie nicht* auch die [!DNL Audience Manager] Erweiterung. Die Weiterleitung von Daten aus der [!DNL Analytics] Erweiterung ersetzt die [!DNL Audience Manager] Erweiterungsfunktion.
+>Wenn Sie die Erweiterung [!DNL Adobe Analytics] installieren, *installieren Sie nicht* auch die Erweiterung [!DNL Audience Manager]. Die [!DNL Audience Manager]-Erweiterungsfunktion wird durch das Weiterleiten von Daten aus der [!DNL Analytics]-Erweiterung ersetzt.
 
-![So aktivieren Sie die Datenfreigabe von der Adobe Analytics Extension in Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
+![So aktivieren Sie die Datenfreigabe von der Adobe Analytics-Erweiterung auf Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
 
-### Implementierung mit [!DNL Adobe Digital Tag Management (DTM)] einer anderen Tag-Management-Lösung
+### Implementierung mit [!DNL Adobe Digital Tag Management (DTM)] oder einer anderen Tag-Management-Lösung
 
 >[!WARNING]
 >
->[!DNL Adobe] hat Pläne für einen Sonnenuntergang [!DNL DTM] bis Ende 2020 veröffentlicht. Weitere Informationen und eine Planung finden Sie unter [!DNL DTM] Pläne für einen Sunset in den [Adobe-Community-Foren](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset).
+>[!DNL Adobe] hat Pläne für einen  [!DNL DTM] Sonnenuntergang bis Ende 2020 veröffentlicht. Weitere Informationen und eine Planung finden Sie unter [!DNL DTM] Pläne für einen Sunset in den [Adobe Community-Foren](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset).
 
-So implementieren Sie die [!UICONTROL Audience Management Module] Anwendung mit [Adobe DTM](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html) oder einer anderen Tag-Management-Lösung:
+So implementieren Sie [!UICONTROL Audience Management Module] mit [Adobe DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) oder einer anderen Tag-Management-Lösung:
 
-1. Herunterladen [!UICONTROL AppMeasurement] mit dem [Analytics Code-Manager](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/code-manager-admin.html) (erfordert Version 1.5 oder höher).
-1. Aktualisieren Sie Ihren [!UICONTROL AppMeasurement] Code auf die Version, die in der heruntergeladenen ZIP-Datei enthalten ist.
-1. Kopieren Sie den gesamten Code aus `AppMeasurement_Module_AudienceManagement.js` der ZIP-Datei. Fügen Sie sie in die `appMeasurement.js` Datei direkt über dem Text ein, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
-1. Hinzufügen den Code, `s.loadModule("AudienceManagement");`direkt über dem `AppMeasurement_Module_AudienceManagement.js` Code, den Sie gerade im vorherigen Schritt hinzugefügt haben.
-1. Aktualisieren und kopieren Sie den unten stehenden Code und fügen Sie ihn der `doPlugins` Funktion in Ihrer `AppMeasurement.js` Datei hinzu.
+1. Laden Sie [!UICONTROL AppMeasurement] mit dem [Analytics-Code-Manager](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/code-manager-admin.html) herunter (erfordert Version 1.5 oder höher).
+1. Aktualisieren Sie den [!UICONTROL AppMeasurement]-Code auf die in der heruntergeladenen ZIP-Datei enthaltene Version.
+1. Kopieren Sie den gesamten Code von `AppMeasurement_Module_AudienceManagement.js` aus der ZIP-Datei. Fügen Sie sie in die Datei `appMeasurement.js` direkt über dem Text `"DO NOT ALTER ANYTHING BELOW THIS LINE."` ein.
+1. hinzufügen Sie den Code `s.loadModule("AudienceManagement");` direkt über dem `AppMeasurement_Module_AudienceManagement.js`-Code, den Sie soeben im vorherigen Schritt hinzugefügt haben.
+1. Aktualisieren und kopieren Sie den unten stehenden Code und fügen Sie ihn der Funktion `doPlugins` in Ihrer `AppMeasurement.js`-Datei hinzu.
 
 ```js
 s.AudienceManagement.setup({ 
@@ -75,25 +75,25 @@ s.AudienceManagement.setup({
 
 >[!TIP]
 >
->Die `audienceManagement.setup` Funktion verwendet Parameter mit der [!DNL Audience Manager] `DIL.create` Funktion, die Sie in diesem Code konfigurieren können. Weitere Informationen zu diesen Parametern finden Sie unter [DIL-Erstellung](../../dil/dil-class-overview/dil-create.md#dil-create).
+>Die Funktion `audienceManagement.setup` verwendet Parameter gemeinsam mit der Funktion [!DNL Audience Manager] `DIL.create`, die Sie in diesem Code konfigurieren können. Weitere Informationen zu diesen Parametern finden Sie unter [DIL create](../../dil/dil-class-overview/dil-create.md#dil-create).
 
-## Code-Elemente definiert {#code-elements-defined}
+## &lt; a0/> definierte Codeelemente{#code-elements-defined}
 
 Die folgende Tabelle definiert wichtige Variablen im Codebeispiel.
 
 | Parameter | Beschreibung |
 |--- |--- |
-| `partner` | Erforderlich. Dies ist ein Partnername, der Ihnen zugewiesen wird von [!DNL Adobe]. Es wird manchmal auch als Ihre [!UICONTROL partner ID] Partner-Subdomäne bezeichnet.  Wenden Sie sich an Ihren [!DNL Adobe] Berater oder [Kundendienst](https://helpx.adobe.com/de/marketing-cloud/contact-support.html) , wenn Sie Ihren Partnernamen nicht kennen. |
-| `containerNSID` | Erforderlich. Die meisten Kunden können einfach einstellen `"containerNSID":0` . Wenn Ihre Firma jedoch ID-Synchronisierungen mit einem anderen Container anpassen muss, können Sie diese Container-ID hier angeben. |
-| `uuidCookie` | Optional. Mit dieser Konfiguration können Sie ein [!DNL Adobe] Cookie in der Erstanbieterdomäne einrichten. Dies [!DNL cookie] enthält die [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | Erforderlich. Der `namespace` Parameter ist erforderlich, wenn Sie das [!DNL AudienceManagement] mit [!UICONTROL AppMeasurement] Version 2.10 oder neuer gebündelte Modul verwenden. Für dieses [!UICONTROL AudienceManagement] Modul müssen Sie [!UICONTROL Adobe Experience Platform Identity Service] 3.3 oder höher verwenden. <br><br>Die ID [!UICONTROL Experience Cloud Organization ID] ist die ID, die eine Firma bei der Anmeldung für die [!UICONTROL Experience Cloud]ID bereitstellt. Erfahren Sie mehr über die Organisations-ID Ihrer Firma in [Organisationen und Kontoverknüpfung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
+| `partner` | Erforderlich. Dies ist ein Partnername, der Ihnen von [!DNL Adobe] zugewiesen wird. Es wird manchmal auch als [!UICONTROL partner ID]- oder Partner-Subdomäne bezeichnet.  Wenden Sie sich an Ihren [!DNL Adobe]-Berater oder [Kundendienst](https://helpx.adobe.com/de/marketing-cloud/contact-support.html), wenn Sie Ihren Partnernamen nicht kennen. |
+| `containerNSID` | Erforderlich. Die meisten Kunden können einfach `"containerNSID":0` einstellen. Wenn Ihre Firma jedoch ID-Synchronisierungen mit einem anderen Container anpassen muss, können Sie diese Container-ID hier angeben. |
+| `uuidCookie` | Optional. Mit dieser Konfiguration können Sie ein [!DNL Adobe]-Cookie in der Erstanbieterdomäne setzen. Dieses [!DNL cookie] enthält die [UUID](../../reference/ids-in-aam.md) . |
+| `visitorService` - `namespace` | Erforderlich. Der Parameter `namespace` ist erforderlich, wenn Sie das [!DNL AudienceManagement]-Modul verwenden, das mit [!UICONTROL AppMeasurement] Version 2.10 oder neuer integriert ist. Für dieses [!UICONTROL AudienceManagement]-Modul müssen Sie [!UICONTROL Adobe Experience Platform Identity Service] 3.3 oder höher verwenden. <br><br>Die ID  [!UICONTROL Experience Cloud Organization ID] ist die ID, die eine Firma bei der Anmeldung für die  [!UICONTROL Experience Cloud]ID bereitstellt. Informationen zur Organisations-ID Ihrer Firma finden Sie unter [Organisationen und Kontoverknüpfung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
 
-## Ergebnisse: Datenweiterleitung an [!DNL Audience Manager] {#results-data-forwarding}
+## Ergebnisse: Daten, die an [!DNL Audience Manager] {#results-data-forwarding} weitergeleitet werden
 
-Ihre [!DNL Analytics] Implementierung sendet Daten an [!DNL Audience Manager] , nachdem Sie:
+Ihre [!DNL Analytics]-Implementierung sendet Daten an [!DNL Audience Manager], nachdem Sie Folgendes haben:
 
 * Aktiviert [!UICONTROL Server-Side Forwarding] (sprechen Sie mit Ihrem Berater über diese Funktion)
-* Umsetzung der [!DNL Adobe Experience Platform Identity Service];
+* Implementierung von [!DNL Adobe Experience Platform Identity Service];
 * Folgen Sie den Implementierungsschritten in diesem Lernprogramm.
 
 Dieser Prozess sendet Daten an [!DNL Audience Manager]:
@@ -104,4 +104,4 @@ Dieser Prozess sendet Daten an [!DNL Audience Manager]:
 
 >[!NOTE]
 >
->Die Variablen, die an [!DNL Audience Manager] von [!DNL Analytics] verwendet werden, verwenden spezielle Präfixe. Sie müssen diese Präfixe beim Erstellen von [!DNL Audience Manager] Eigenschaften verstehen und berücksichtigen. Weitere Informationen zu diesen Präfixen finden Sie unter [Voraussetzungen für das Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md).
+>Die Variablen, die von [!DNL Analytics] an [!DNL Audience Manager] gesendet werden, verwenden spezielle Präfixe. Sie müssen diese Präfixe verstehen und berücksichtigen, wenn Sie [!DNL Audience Manager]-Eigenschaften erstellen. Weitere Informationen zu diesen Präfixen finden Sie unter [Voraussetzungen für das Präfix für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md).
