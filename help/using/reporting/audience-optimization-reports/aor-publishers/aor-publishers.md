@@ -21,15 +21,15 @@ ht-degree: 36%
 
 ## Überblick {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] stellt Leistungsdaten zur Kampagne auf Protokollebene [!DNL Google Ad Manager] mit [!DNL Audience Manager] Segmentmetriken dar. Die Berichte stehen Kunden zur Verfügung, die die Protokollierung von [!DNL Google Ad Manager]in eingerichtet haben [!DNL Audience Manager]. Wenn Sie die Protokollierung noch nicht eingerichtet haben, lesen Sie [Google Ad Manager-Datendateien in Audience Manager](import-dfp.md) importieren, um Informationen dazu zu erhalten.
+[!UICONTROL Audience Optimization for Publishers] stellt Leistungsdaten zur Kampagne auf Protokollebene  [!DNL Google Ad Manager] mit  [!DNL Audience Manager] Segmentmetriken dar. Die Berichte stehen Kunden zur Verfügung, die die Protokollierung von [!DNL Google Ad Manager]in [!DNL Audience Manager] eingerichtet haben. Wenn Sie die Protokollierung noch nicht eingerichtet haben, finden Sie unter [Google Ad Manager-Datendateien in Audience Manager](import-dfp.md) importieren Informationen dazu.
 
 ## Metadaten {#metadata}
 
-Die in den Berichten angezeigten Leistungsinformationen werden aus Ihrer [!DNL Google Ad Manager] Instanz importiert. Sie müssen uns Metadatendateien senden, damit wir Ihren Elementen in den Berichten beschreibende, benutzerfreundliche Namen statt IDs hinzufügen können. Schritt 3 unter [Google Ad Manager-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) importieren beschreibt, wie Sie uns die Metadaten senden.
+Die in den Berichten angezeigten Leistungsinformationen werden aus Ihrer [!DNL Google Ad Manager]-Instanz importiert. Sie müssen uns Metadatendateien senden, damit wir Ihren Elementen in den Berichten beschreibende, benutzerfreundliche Namen statt IDs hinzufügen können. Schritt 3 in [Google Ad Manager-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschreibt, wie Sie uns die Metadaten senden.
 
 ## Verfügbare Berichte {#available-reports}
 
-[!UICONTROL Audience Optimization for Publishers] Angebot sechs verschiedene Ansichten, die die Anzeigenserverleistung gegenüber der Segmentierung [!DNL Audience Manager] zur Lösung der publizierungsorientierten Geschäftsziele vergleichen.
+[!UICONTROL Audience Optimization for Publishers] angebot sechs verschiedene Ansichten, die die Anzeigenserverleistung gegenüber der Segmentierung  [!DNL Audience Manager] zur Lösung der publizierungsorientierten Geschäftsziele gestalten.
 
 + [Bericht zur Segmentleistung](publisher-segment-performance.md)
 + [Segment-Trend-Bericht](publisher-segment-trends.md)
