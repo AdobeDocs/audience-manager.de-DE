@@ -21,19 +21,19 @@ Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, identif
 
 ## Manuelle Methode {#manual-method}
 
-Als Datenpartner sind Sie wahrscheinlich daran gewöhnt, Audiencen-Metadaten von Ihren Kunden über manuelle Prozesse zu erhalten. Dies kann Dateien umfassen, die an E-Mails oder von Kunden angehängt werden, die diese Daten über eine von [!DNL UI] Ihnen zu diesem Zweck erstellte und verwaltete Datei hinzufügen. Diese Prozesse funktionieren, sind aber oft umständlich und zeitaufwendig und erfordern möglicherweise eine manuelle Dateneingabe. Diese Methoden werden häufig verwendet, um eine Integration schnell zu implementieren, bieten aber langfristig nicht die beste Kundenerfahrung. Alternativ können Sie die verwenden, [!DNL Audience Manager] um Segmentmetadaten automatisch abzurufen [!DNL API] .
+Als Datenpartner sind Sie wahrscheinlich daran gewöhnt, Audiencen-Metadaten von Ihren Kunden über manuelle Prozesse zu erhalten. Dazu könnten Dateien gehören, die an E-Mails oder von Kunden angehängt werden, die diese Daten über ein [!DNL UI] hinzufügen, das Sie zu diesem Zweck erstellt und gepflegt haben. Diese Prozesse funktionieren, sind aber oft umständlich und zeitaufwendig und erfordern möglicherweise eine manuelle Dateneingabe. Diese Methoden werden häufig verwendet, um eine Integration schnell zu implementieren, bieten aber langfristig nicht die beste Kundenerfahrung. Alternativ können Sie die [!DNL Audience Manager] [!DNL API] verwenden, um Segmentmetadaten automatisch abzurufen.
 
 ## Automatisierte Methode {#automated-method}
 
-[!DNL Audience Manager] bietet eine Reihe von [REST-APIs](../../api/rest-api-main/rest-api-main.md) , mit denen Sie Segmentmetadaten automatisch abrufen können. Mit der [!DNL API]können Sie Aufträge erstellen, die Segmentmetadaten in planmäßigen Intervallen oder automatisch abrufen, sobald Sie Daten verarbeiten [!DNL Audience Manager] und eine neue Segment-ID finden. Weitere Informationen finden Sie in den unten stehenden Schritten.
+[!DNL Audience Manager] stellt eine Reihe von  [REST-](../../api/rest-api-main/rest-api-main.md) APIs bereit, mit denen Sie Segmentmetadaten automatisch abrufen können. Mit dem [!DNL API] können Sie Aufträge erstellen, die Segmentmetadaten in eingeplanten Intervallen oder automatisch abrufen, wenn Sie [!DNL Audience Manager]-Daten verarbeiten und eine neue Segment-ID suchen. Weitere Informationen finden Sie in den unten stehenden Schritten.
 
 ### Schritt 1: Überprüfen der Audience Manager-APIs
 
-Der Abschnitt [Erste Schritte mit REST-APIs](../../api/rest-api-main/aam-api-getting-started.md) enthält Informationen zu allgemeinen Anforderungen, Authentifizierung, verfügbaren Methoden usw. Das ist ein guter Anfang, wenn Sie noch nicht mit dem [!DNL Audience Manager][!DNL API] vorher gearbeitet haben.
+Der Abschnitt [Erste Schritte mit REST-APIs](../../api/rest-api-main/aam-api-getting-started.md) enthält Informationen zu allgemeinen Anforderungen, Authentifizierung, verfügbaren Methoden usw. Dies ist ein guter Ausgangspunkt, wenn Sie noch nicht mit [!DNL Audience Manager] [!DNL API] gearbeitet haben.
 
 ### Schritt 2: Zugriffsberechtigungen für OAuth2 anfordern
 
-Sie benötigen eine Client-ID und ein Geheimnis, um [!DNL API] Aufrufe zu tätigen. Sie können während des Integrationsprozesses eine Client-ID und ein Geheimnis von Ihrem Integrationsspezialisten abrufen. Sie können auch eine E-Mail-Anfrage an [!UICONTROL Audience Manager Customer Care] eine Adresse senden [!DNL amsupport@adobe.com].
+Sie benötigen eine Client-ID und ein Geheimnis, um [!DNL API]-Aufrufe durchzuführen. Sie können während des Integrationsprozesses eine Client-ID und ein Geheimnis von Ihrem Integrationsspezialisten abrufen. Sie können auch eine E-Mail-Anfrage an [!UICONTROL Audience Manager Customer Care] unter [!DNL amsupport@adobe.com] senden.
 
 ### Schritt 3: Erfassen kundenspezifischer Informationen von jedem integrierten Kunden
 
@@ -45,7 +45,7 @@ Fordern Sie bei jedem integrierten Kunden Folgendes an:
 
 ### Schritt 4: Abrufen von Segmentmetadaten mit einem API-Aufruf
 
-Nach Abschluss der vorherigen Schritte können Sie eine `GET` Methode zum Abrufen von Segmentmetadaten verwenden. Eine Beispielanforderung und -antwort finden Sie unter Zuordnungen [rückkehrender Ziele](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). Dieser Aufruf gibt Segmentdaten zurück, die als Schlüssel-Wert-Paare in einem [!DNL JSON] Objekt formatiert sind. Einige der wichtigen Segmentattribute, die in der Antwort zurückgegeben werden, sind in der folgenden Tabelle aufgeführt.
+Nach Abschluss der vorherigen Schritte können Sie eine `GET`-Methode zum Abrufen von Segmentmetadaten verwenden. Eine Beispielanforderung und -antwort finden Sie unter [Zuordnungen rückkehrender Ziele](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). Dieser Aufruf gibt Segmentdaten zurück, die als Schlüssel-Wert-Paare in einem [!DNL JSON]-Objekt formatiert sind. Einige der wichtigen Segmentattribute, die in der Antwort zurückgegeben werden, sind in der folgenden Tabelle aufgeführt.
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -57,7 +57,7 @@ Nach Abschluss der vorherigen Schritte können Sie eine `GET` Methode zum Abrufe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
-   <td colname="col2"> <p>Die Segment-ID des <span class="keyword"> Audience Managers</span> . </p> </td> 
+   <td colname="col2"> <p>Die Segment-ID des <span class="keyword">-Audience Managers</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 
