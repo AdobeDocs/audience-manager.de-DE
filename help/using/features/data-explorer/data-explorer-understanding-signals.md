@@ -22,26 +22,26 @@ Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. S
 
 * `page = electronics`
 
-Das [Signal-Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) zeigt mehrere Arten von Signalattributen an, mit denen Sie neue Eigenschaften erstellen können. Im Folgenden finden Sie eine detaillierte Ansicht der verfügbaren Signaleigenschaften:
+Das Dashboard [Signale](../../features/data-explorer/data-explorer-signals-dashboard.md) zeigt mehrere Arten von Signalattributen an, mit denen Sie neue Eigenschaften erstellen können. Im Folgenden finden Sie eine detaillierte Ansicht der verfügbaren Signaleigenschaften:
 
-* *Das Schlüssel-Wert-Paar* zeigt Ihnen das Schlüssel-Wert-Paar des von [!DNL Audience Manager]Ihnen empfangenen Signals.
-* *Der Signaltyp* beschreibt die Kategorie der einzelnen Signale. Die Signale fallen in eine der folgenden Kategorien:
+* *Key-Value-* Paare zeigen Ihnen das Schlüssel-Wert-Paar des von  [!DNL Audience Manager]Ihnen empfangenen Signals.
+* *Das Signal* beschreibt die Kategorie jedes Signals. Die Signale fallen in eine der folgenden Kategorien:
    * [Umsetzbare Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md): Echtzeitsignale, die von Ihren Protokolldateien zur Medienleistung empfangen werden;
-   * [!DNL Adobe Analytics]: von Ihrem [!DNL Adobe Analytics] Konto empfangene Echtzeitsignale;
-   * Allgemeine Online-Daten: Echtzeit-Daten, die von Ihrer Audience-Aktivität generiert wurden und nicht in den ausführbaren Protokolldateien enthalten sind, und [!DNL Adobe Analytics];
+   * [!DNL Adobe Analytics]: von Ihrem  [!DNL Adobe Analytics] Konto empfangene Echtzeitsignale;
+   * Allgemeine Online-Daten: Echtzeitdaten, die von Ihrer Audience-Aktivität generiert wurden und nicht in den ausführbaren Protokolldateien und [!DNL Adobe Analytics] enthalten sind;
    * An Bord befindliche Datensätze: Daten, die durch Batch-Datenübertragung empfangen wurden.
-* *Signalquelle* hängt vom Signaltyp ab:
+* *Signalquellen* hängen vom Signaltyp ab:
    * Bei an Bord befindlichen Signalen ist die Signalquelle der Name der Datenquelle.
-   * Bei Signalen, die von [!DNL Adobe Analytics]der Datenquelle stammen, ist die Datenquelle immer eine Report Suite.
+   * Bei Signalen, die von [!DNL Adobe Analytics] stammen, ist die Datenquelle immer eine Report Suite.
    * Für ausführbare Protokolldateien und allgemeine Online-Daten werden keine Informationen zur Signalquelle angezeigt.
-* *Die Gesamtanzahl* zeigt an, wie oft ein Echtzeit-Signal in den letzten 7 Tagen empfangen wurde [!DNL Audience Manager] .
-* *In Eigenschaften* eingeschlossen zeigt an, ob das Signal Teil einer Eigenschaft ist. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das entsprechende Signal enthalten. Bei Signalen, die nicht Teil einer Eigenschaft sind, ändert sich der Spaltenwert in [!UICONTROL Create Onboarded Trait] oder [!UICONTROL Create Rule-Based Trait].
+* *Die Gesamtanzahl* zeigt Ihnen, wie oft ein Echtzeit-Signal  [!DNL Audience Manager] in den letzten 7 Tagen empfangen wurde.
+* *Im Lieferumfang von* Traitszeigt Ihnen, ob das Signal Teil einer Eigenschaft ist. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das entsprechende Signal enthalten. Bei Signalen, die nicht Teil einer Eigenschaft sind, ändert sich der Spaltenwert in [!UICONTROL Create Onboarded Trait] oder [!UICONTROL Create Rule-Based Trait].
 
 ## Aktualisierungsfrequenz der Signaldaten
 
-Aufgrund der großen Datenmenge, die Audience Manager täglich verarbeitet, [!UICONTROL Data Explorer] werden die angezeigten Signaldaten je nach Signaltyp in festen Zeitabständen aktualisiert:
+Aufgrund der großen Datenmenge, die Audience Manager täglich verarbeitet, aktualisiert [!UICONTROL Data Explorer] die angezeigten Signaldaten je nach Signaltyp in festen Zeitintervallen:
 
-* Echtzeit-Signaldaten (relevante Protokolldateien, [!DNL Adobe Analytics] Daten und allgemeine Online-Daten) werden alle 4 bis 6 Stunden aktualisiert.
+* Echtzeit-Signaldaten (umsetzbare Protokolldateien, [!DNL Adobe Analytics]-Daten und allgemeine Online-Daten) werden alle 4 bis 6 Stunden aktualisiert.
 * An Bord befindliche Signaldaten werden alle 24 Stunden aktualisiert.
 
 ## Verwandte Konzepte
