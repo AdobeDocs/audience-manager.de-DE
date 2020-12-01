@@ -37,7 +37,7 @@ ht-degree: 13%
   </tr> 
   <tr> 
    <td colname="col1"> Vergleichsoperatoren </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> Kleiner als, größer als, kleiner als/gleich, größer als/gleich werden als Nächstes ausgewertet. </td> 
   </tr> 
   <tr> 
@@ -46,12 +46,12 @@ ht-degree: 13%
    <td colname="col3"> Equal to, not equal to werden nach den vorherigen Operatoren ausgewertet. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolesche <span class="wintitle"> UND</span> </td> 
+   <td colname="col1">Boolean <span class="wintitle"> AND</span> </td> 
    <td colname="col2"><span class="wintitle"> UND</span> </td> 
    <td colname="col3" morerows="1"> Keine </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolesche <span class="wintitle"> ODER</span> </td> 
+   <td colname="col1">Boolean <span class="wintitle"> ODER</span> </td> 
    <td colname="col2"><span class="wintitle"> ODER</span> </td> 
    <td colname="col3" morerows="1"> Keine </td> 
   </tr> 
