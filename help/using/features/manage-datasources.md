@@ -20,66 +20,66 @@ ht-degree: 5%
 
 ## Erstellen Sie eine [!UICONTROL Data Source] {#create-data-source}
 
-Um eine neue zu erstellen, gehen Sie [!UICONTROL data source]zu den Schritten für die einzelnen Abschnitte, die hier beschrieben werden, **[!UICONTROL Audience Data > Data Sources > Add New]** und führen Sie sie aus. Zum Erstellen einer [!UICONTROL data source]Datei sind Administratorberechtigungen erforderlich.
+Um ein neues [!UICONTROL data source] zu erstellen, gehen Sie zu **[!UICONTROL Audience Data > Data Sources > Add New]** und führen Sie die Schritte für jeden Abschnitt durch, der hier beschrieben wird. Zum Erstellen eines [!UICONTROL data source] sind Administratorberechtigungen erforderlich.
 
 <!-- create-datasource.xml -->
 
 >[!TIP]
 >
->Beschreibungen dieser verschiedenen Steuerelemente finden Sie unter [Datenquelleneinstellungen und Menüoptionen](../features/datasources-list-and-settings.md#settings-menu-options) .
+>Beschreibungen dieser verschiedenen Steuerelemente finden Sie unter [Datenquelleneinstellungen und Menüoptionen](../features/datasources-list-and-settings.md#settings-menu-options).
 
 ## [!UICONTROL Data Source] Details {#details}
 
-So füllen Sie den [!UICONTROL Data Source Details] Abschnitt aus:
+So füllen Sie den Abschnitt [!UICONTROL Data Source Details] aus:
 
-1. Benennen Sie die [!UICONTROL data source].
-1. *(Optional)* Beschreiben Sie die [!UICONTROL data source]. Eine knappe Beschreibung hilft Ihnen, die Rolle oder den Zweck der [!UICONTROL data source]Kampagne zu definieren.
-1. Geben Sie eine [!UICONTROL integration code]an. Im Allgemeinen [!UICONTROL integration codes] sind sie optional. Sie sind erforderlich, wenn Sie:
+1. Benennen Sie [!UICONTROL data source].
+1. *(Optional)* Beschreiben Sie die  [!UICONTROL data source]. Eine knappe Beschreibung hilft Ihnen, die Rolle oder den Zweck von [!UICONTROL data source] zu definieren.
+1. Geben Sie ein [!UICONTROL integration code] an. Im Allgemeinen sind [!UICONTROL integration codes] optional. Sie sind erforderlich, wenn Sie:
 
    * [Erstellen Sie eine geräteübergreifende Datenquelle](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Use the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
-   * Arbeiten mit [Profil Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
+   * Verwenden Sie den [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
+   * Arbeiten Sie mit [Profil Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
-1. Wählen Sie eine **[!UICONTROL ID Type]**. [!UICONTROL ID Type] umfassen:
+1. Wählen Sie ein **[!UICONTROL ID Type]**. [!UICONTROL ID Type] umfassen:
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
-   * **[!UICONTROL Cross-device]** (Erforderlich, um eine [!UICONTROL Profile Merge Rule]). Beachten Sie, dass bei einigen Kunden diese Auswahl die **[!UICONTROL ID Definition]** Optionen offen legt.
+   * **[!UICONTROL Cross-device]** (Erforderlich, um eine  [!UICONTROL Profile Merge Rule]). Beachten Sie, dass bei einigen Kunden die Optionen **[!UICONTROL ID Definition]** durch diese Auswahl verfügbar sind.
 
-1. Choose an **[!UICONTROL ID Definition]** option. Zu den Optionen zählen:
+1. Wählen Sie eine Option **[!UICONTROL ID Definition]**. Zu den Optionen zählen:
 
    * **[!UICONTROL Person]**
    * **[!UICONTROL Household]**
 
 ## [!UICONTROL Data Export Controls] {#export-controls}
 
-[Data Export Controls](../features/data-export-controls.md) sind optionale Classification-Regeln, die Sie auf ein [!UICONTROL data source] und anwenden können [!UICONTROL destination]. Sie hindern Sie daran, Daten an eine [!UICONTROL destination] zu senden, wenn diese Aktion eine Datenschutz- oder Nutzungsvereinbarung verletzt. Überspringen Sie diesen Abschnitt, wenn Sie nicht verwenden [!UICONTROL Data Export Controls].
+[Datenexport-](../features/data-export-controls.md) Steuerelemente sind optionale Classification-Regeln, die Sie auf ein  [!UICONTROL data source] und anwenden können  [!UICONTROL destination]. Sie verhindern, dass Sie Daten an ein [!UICONTROL destination] senden, wenn diese Aktion eine Datenschutz- oder Nutzungsvereinbarung verletzt. Überspringen Sie diesen Abschnitt, wenn Sie [!UICONTROL Data Export Controls] nicht verwenden.
 
 ## [!UICONTROL Data Source] Einstellungen {#settings}
 
-Diese Einstellungen bestimmen, wie ein Element identifiziert, verwendet und freigegeben [!UICONTROL data source] wird. Sie können auch den Berichte &quot;error&quot;für eingehende Datendateien aktivieren. So füllen Sie den [!UICONTROL Data Source Settings] Abschnitt aus:
+Diese Einstellungen bestimmen, wie ein [!UICONTROL data source] identifiziert, verwendet und freigegeben wird. Sie können auch den Berichte &quot;error&quot;für eingehende Datendateien aktivieren. So füllen Sie den Abschnitt [!UICONTROL Data Source Settings] aus:
 
-1. Aktivieren Sie ein [!UICONTROL Data Source Setting] Kontrollkästchen, um eine Option auf Ihre Anwendung anzuwenden [!UICONTROL data source].
+1. Aktivieren Sie das Kontrollkästchen [!UICONTROL Data Source Setting], um eine Option auf [!UICONTROL data source] anzuwenden.
 2. Klicken **[!UICONTROL Save]**.
 
 ## Datenquelle löschen {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Löschen Sie eine [!UICONTROL data source] Datei, die Sie nicht mehr benötigen.
+Löschen Sie ein [!UICONTROL data source], das Sie nicht mehr benötigen.
 
 >[!NOTE]
 >
 >Beachten Sie die folgenden Einschränkungen:
 >
->* Eine [aktive Audience oder eine Datenquelle-synchronisierte Eigenschaft](../features/traits/client-activity-synced-audience-traits.md)kann nicht gelöscht werden.
->* Für Kunden, die Adobe Analytics verwenden: In Audience Manager ist es nicht möglich, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Verwenden Sie den [Hauptdienst](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) , um die Zuordnung dieser Datenquellen aufzuheben.
+>* Sie können eine [Aktive Audience oder eine Datenquelle synchronisierte Eigenschaft](../features/traits/client-activity-synced-audience-traits.md) nicht löschen.
+>* Für Kunden, die Adobe Analytics verwenden: In Audience Manager ist es nicht möglich, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Verwenden Sie den [Core-Dienst](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html), um die Zuordnung dieser Datenquellen aufzuheben.
 
 
 1. Klicken **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Datenquellen.
-Mit dem [!UICONTROL Search] Feld können Sie die gewünschten Datenquellen suchen, wenn Sie eine lange Liste haben.
-1. Klicken Sie auf ![](assets/icon_trash.png)und bestätigen Sie dann den Löschvorgang.
+Mit dem Feld [!UICONTROL Search] können Sie die gewünschten Datenquellen suchen, wenn Sie eine lange Liste haben.
+1. Klicken Sie auf ![](assets/icon_trash.png) und bestätigen Sie dann den Löschvorgang.
 
 
 >[!MORELIKETHIS]
