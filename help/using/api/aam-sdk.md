@@ -17,7 +17,7 @@ ht-degree: 40%
 
 # [!DNL SDK] Code {#sdk-code}
 
-Audience Manager stellt Software Development Kits ([!DNL SDK]s) für [!DNL Android] und [!DNL iOS]zur Verfügung.
+Audience Manager stellt Softwareentwicklungs-Kits ([!DNL SDK]s) für [!DNL Android] und [!DNL iOS] bereit.
 
 >[!IMPORTANT]
 >
@@ -25,9 +25,9 @@ Audience Manager stellt Software Development Kits ([!DNL SDK]s) für [!DNL Andro
 
 * Gehen Sie zu [Launch](https://launch.adobe.com/), um zu beginnen.
 * Gehen Sie zu [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks), um zu sehen, was in den Experience Platform SDK Repositorys enthalten ist.
-* Um Audience Manager mit dem neuen SDK v.5 in Ihre App zu implementieren, lesen Sie die Dokumentation zum [Adobe Audience Manager](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) auf der neuen SDK-Seite.
+* Um Audience Manager in Ihrer App zu implementieren, verwenden Sie das neue SDK v.5, lesen Sie die [Adobe Audience Manager-Dokumentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) auf der neuen SDK-Seite.
 
-<br> 
+<br>
 
 Die SDKs für Android und iOS 4.x werden weiterhin unterstützt. Die SDK-Codebibliotheken finden Sie unter:
 
