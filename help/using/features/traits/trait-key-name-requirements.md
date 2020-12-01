@@ -23,7 +23,7 @@ In diesem Artikel werden die Benennungskonventionen beschrieben, die von der Sch
 
 <!-- c_tb_key_name_requirements.xml -->
 
-Der Name [!UICONTROL Expression Builder]einer Schlüsselvariablen in einem Schlüsselwertpaar kann aus einer beliebigen Anzahl von Ziffern gefolgt von 1 (oder mehr) Buchstaben, einem Bindestrich, einem Unterstrich und weiteren Ziffern bestehen.
+In [!UICONTROL Expression Builder] kann der Name einer Schlüsselvariablen in einem Schlüssel-Wert-Paar aus einer beliebigen Anzahl von Ziffern gefolgt von 1 (oder mehr) Buchstaben, einem Bindestrich, einem Unterstrich und weiteren Ziffern bestehen.
 
 * Gültige Schlüsselnamen: `price123`, `123price`, `price-123`, `c_price123`.
 
@@ -31,4 +31,4 @@ Der Name [!UICONTROL Expression Builder]einer Schlüsselvariablen in einem Schl�
 
 ## Präfix der Schlüsselvariablen mit `c_`
 
-Das `c_` Präfix ist *immer* erforderlich, wenn die Parameter, die Daten über eine Ereignis-Aufruf-URL senden, diese Syntax verwenden.
+Das `c_`-Präfix ist *immer* erforderlich, wenn die Parameter, die Daten für eine Ereignis-Aufruf-URL senden, diese Syntax verwenden.
