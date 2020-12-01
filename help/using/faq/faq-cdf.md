@@ -25,7 +25,7 @@ Häufig gestellte Fragen zu CDF (Customer Data Feed)-Dateien.
 
 Ihre CDF-Datei wird im `aam-cdf`-Stammverzeichnis auf einem [!DNL Amazon S3]-Server gespeichert. Dieser Standardbehälter wird von [!DNL Audience Manager] verwaltet. Siehe auch [Namenskonventionen für CDF-Dateien](../features/cdf-files.md#cdf-naming-conventions).
 
-<br> 
+<br>
 
 **Ist mein Datenspeicherbehälter sicher?**
 
