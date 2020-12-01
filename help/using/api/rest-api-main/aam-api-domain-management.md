@@ -21,9 +21,9 @@ Domänenverwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten 
 
 <!-- c_partner_site.xml -->
 
-## Create a New Domain {#create-new-domain}
+## Neue Domäne {#create-new-domain} erstellen
 
-Eine `POST` Methode, mit der Sie eine neue Domäne für (nur Cookie-Ziele) erstellen können.
+Eine `POST`-Methode, mit der Sie eine neue Domäne für (nur Cookie-Ziele) erstellen können.
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -41,7 +41,7 @@ Eine `POST` Methode, mit der Sie eine neue Domäne für (nur Cookie-Ziele) erste
 
 ### Antwort
 
-Eine erfolgreiche Antwort wird zurückgegeben `201 created` und die Partner-Site, einschließlich der eindeutigen ID.
+Eine erfolgreiche Antwort gibt `201 created` und die Partner-Site einschließlich ihrer eindeutigen ID zurück.
 
 ```
 {
@@ -51,9 +51,9 @@ Eine erfolgreiche Antwort wird zurückgegeben `201 created` und die Partner-Site
 }
 ```
 
-## Eine Domäne löschen {#delete-domain}
+## Eine Domäne {#delete-domain} löschen
 
-Eine `DELETE` Methode, mit der Sie eine Domäne entfernen können (nur für Cookie-Ziele).
+Eine `DELETE`-Methode, mit der Sie eine Domäne entfernen können (nur für Cookie-Ziele).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -63,11 +63,11 @@ Eine `DELETE` Methode, mit der Sie eine Domäne entfernen können (nur für Cook
 
 ### Antwort
 
-Eine erfolgreiche Antwort wird zurückgegeben `204 no content`. Gibt zurück, `404 not found` wenn die Partner-Site nicht gefunden werden kann.
+Eine erfolgreiche Antwort gibt `204 no content` zurück. Gibt `404 not found` zurück, wenn die Partner-Site nicht gefunden werden kann.
 
 ## Rückgabeeigenschaften für eine Domäne {#return-props-domain}
 
-Eine `GET` Methode, die Details zur angegebenen Domäne zurückgibt (nur für Cookie-Ziele).
+Eine `GET`-Methode, die Details zur angegebenen Domäne zurückgibt (nur für Cookie-Ziele).
 
 <!-- r_get_partner_site.xml -->
 
@@ -77,7 +77,7 @@ Eine `GET` Methode, die Details zur angegebenen Domäne zurückgibt (nur für Co
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und Daten zurück, wie im Beispiel unten dargestellt. Gibt zurück, `404 Not found` wenn die Site-ID oder der Partner nicht gefunden wurde.
+Eine erfolgreiche Antwort gibt `200 OK` und die Daten wie im Beispiel unten dargestellt zurück. Gibt `404 Not found` zurück, wenn die Site-ID oder der Partner nicht gefunden wurde.
 
 ```
 {
@@ -89,7 +89,7 @@ Eine erfolgreiche Antwort gibt `200 OK` und Daten zurück, wie im Beispiel unten
 
 ## Rückgabeeigenschaften für alle Domänen {#return-props-all-domains}
 
-Eine `GET` Methode, die Informationen über alle Ihre Domänen zurückgibt (nur für Cookie-Ziele).
+Eine `GET`-Methode, die Informationen über alle Ihre Domänen zurückgibt (nur für Cookie-Ziele).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -99,7 +99,7 @@ Eine `GET` Methode, die Informationen über alle Ihre Domänen zurückgibt (nur 
 
 ### Optionale Abfrage-Parameter
 
-Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *alle* Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn diese Abfrage an die [!DNL API]übergeben wird. Siehe [Optionale Parameter](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit [!DNL API]-Methoden verwenden, die *alle*-Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn diese Abfrage an das [!DNL API] übergeben wird. Siehe [Optionale Parameter](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -134,7 +134,7 @@ Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *a
 
 ### Antwort
 
-Eine erfolgreiche Antwort wird zurückgegeben `200 OK` und Daten in einem Array, wie im Beispiel unten dargestellt. Gibt zurück, `404 Not found` wenn die Site-ID oder der Partner nicht gefunden wurde.
+Eine erfolgreiche Antwort gibt `200 OK` und Daten in einem Array zurück, wie im Beispiel unten dargestellt. Gibt `404 Not found` zurück, wenn die Site-ID oder der Partner nicht gefunden wurde.
 
 ```
 [
