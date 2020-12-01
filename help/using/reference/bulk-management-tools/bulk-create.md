@@ -27,23 +27,23 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->[In der Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden berücksichtigt [!DNL Audience Manager] [!UICONTROL Bulk Management Tools].
+>[In der ](../../features/administration/administration-overview.md) Benutzeroberfläche zugewiesene  [!DNL Audience Manager] RBAC-Gruppenberechtigungen werden berücksichtigt  [!UICONTROL Bulk Management Tools].
 
 >[!CAUTION]
 >
 >Mischen Sie keine Objekttypen in einer Massenerstellungsanforderung. Die Kopfzeilen für die einzelnen Objekte sind eindeutig und können nicht kombiniert werden. Löschen Sie das Arbeitsblatt und stellen Sie eine separate Anforderung für verschiedene Elemente ein.
 
-Um Objekte stapelweise zu erstellen, öffnen Sie das [!UICONTROL Bulk Management Tools] Arbeitsblatt und:
+Um Objekte stapelweise zu erstellen, öffnen Sie das Arbeitsblatt [!UICONTROL Bulk Management Tools] und:
 
-1. Klicken Sie auf die **[!UICONTROL Headers]** Registerkarte und kopieren Sie die Kopfzeilen für das Element, das Sie hinzufügen möchten.
-2. Click the **[!UICONTROL Create]** tab.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Headers]** und kopieren Sie die Kopfzeilen für das Element, das Sie hinzufügen möchten.
+2. Klicken Sie auf die Registerkarte **[!UICONTROL Create]**.
 3. Fügen Sie die Überschriften zum Erstellen in die erste Zeile des Aktualisierungsarbeitsblatts ein.
 4. Fügen Sie die Daten, die Sie ändern möchten, basierend auf der Kopfzeilenbeschriftung in eine entsprechende Spalte ein oder geben Sie sie ein.
 5. Klicken Sie in der Symbolleiste des Arbeitsblatts auf die Schaltfläche Erstellen, die dem zu aktualisierenden Element entspricht.
-Diese Aktion öffnet das [!UICONTROL Account Information] Dialogfeld.
-6. Geben Sie die erforderlichen [Anmeldedaten](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) ein und klicken Sie auf **[!UICONTROL Submit]**.
+Diese Aktion öffnet das Dialogfeld [!UICONTROL Account Information].
+6. Geben Sie die erforderlichen [Anmeldeangaben](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) ein und klicken Sie auf **[!UICONTROL Submit]**.
 
-Das Arbeitsblatt erstellt eine [!UICONTROL Results] Spalte. Die [!UICONTROL Results] Spalte gibt die JSON-Antwort für einen erfolgreichen Vorgang zurück. Beispiele finden Sie in den [REST-APIs](../../api/rest-api-main/rest-api-main.md) . Bevor Sie Daten eingeben, sollte das Arbeitsblatt zur Massenerstellung dem folgenden Beispiel ähneln. Beachten Sie, dass hier nicht alle verschiedenen Erstellungsoptionen angezeigt werden. Diese Funktion hilft Ihnen, zu verstehen, wie ein ausgefülltes Arbeitsblatt aussehen könnte.
+Das Arbeitsblatt erstellt eine Spalte [!UICONTROL Results]. Die Spalte [!UICONTROL Results] gibt die JSON-Antwort für einen erfolgreichen Vorgang zurück. Beispiele finden Sie unter [REST-APIs](../../api/rest-api-main/rest-api-main.md). Bevor Sie Daten eingeben, sollte das Arbeitsblatt zur Massenerstellung dem folgenden Beispiel ähneln. Beachten Sie, dass hier nicht alle verschiedenen Erstellungsoptionen angezeigt werden. Diese Funktion hilft Ihnen, zu verstehen, wie ein ausgefülltes Arbeitsblatt aussehen könnte.
 
 ![](assets/cretetraits.png)
 
