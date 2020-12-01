@@ -17,6 +17,6 @@ ht-degree: 9%
 
 # Verwenden von regulären Ausdrücken in Trait Builder {#using-regular-expressions-in-trait-builder}
 
-Sie können eigene Eigenschaftsregeln mit dem [!UICONTROL Trait Builder] Code-Editor erstellen. Suchen Sie den Code-Editor in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] und wechseln Sie zu [!UICONTROL Code View]. Audience Manager unterstützt alle verfügbaren regulären Ausdruck-Konstrukte, auf die im [!DNL Java Regular Expression Class Pattern]Bericht verwiesen wird. Sie können einen der regulären Ausdruck direkt im [!DNL Expression Builder]Bericht überprüfen.
+Mit dem Code-Editor [!UICONTROL Trait Builder] können Sie eigene Eigenschaftsregeln erstellen. Suchen Sie den Code-Editor in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] und wechseln Sie zu [!UICONTROL Code View]. Audience Manager unterstützt alle verfügbaren regulären Ausdruck-Konstrukte, auf die in [!DNL Java Regular Expression Class Pattern] verwiesen wird. Sie können einen der regulären Ausdruck direkt im [!DNL Expression Builder] validieren.
 
 Siehe auch [Java Reguläre Ausdruck-Klassenmuster](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
