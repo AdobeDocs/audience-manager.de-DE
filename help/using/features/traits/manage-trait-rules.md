@@ -7,7 +7,7 @@ title: Verwalten von Eigenschaftsregeln
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 1%
@@ -29,13 +29,17 @@ In [!UICONTROL Trait Builder] können Sie mit [!UICONTROL Expression Builder] Re
 
 1. Mit den Feldern und Steuerelementen in diesem Abschnitt können Sie Signale aus Schlüssel-Wert-Paaren erstellen und die Beziehung zwischen ihnen und einem Vergleichsoperator festlegen. Ein Schlüssel, ein Operator und ein Wert sind erforderlich.
 1. Mit dem [!UICONTROL Data Explorer Options] können Sie Eigenschaften für Ihre Signale aufstocken.
+
    >[!NOTE]
    >
    >Diese Option ist nur für [!UICONTROL Data Explorer]-Kunden verfügbar. Weitere Informationen erhalten Sie von Ihrem Adobe-Berater.
+
 1. Dieser Abschnitt zeigt Ihnen eine Schätzung der Eigenschaftenrealisierungen für die letzten 7 Tage für die in [!UICONTROL Expression Builder] definierten Signale für rückgefüllte und nicht rückgefüllte Eigenschaften.
+
    >[!NOTE]
    >
    >Diese Option ist nur für [!UICONTROL Data Explorer]-Kunden verfügbar. Weitere Informationen erhalten Sie von Ihrem Adobe-Berater.
+
 1. Mit den Testfeldern können Sie Kombinationen von Signalregeln oder den [!DNL URL]s überprüfen, die Sie beim Senden von Daten an Audience Manager verwenden möchten.
 
 ## Eine Eigenschaftsregel {#create-trait-rule} erstellen
@@ -47,18 +51,23 @@ Regeln (oder Ausdruck) bestehen aus einzelnen oder Gruppen von Schlüssel-Wert-P
 Füllen Sie die erforderlichen Felder im Abschnitt **[!UICONTROL Basic Information]** *aus, bevor Sie die Eigenschaftenregeln erstellen.*
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Trait Expression]** und geben Sie einen Schlüssel- und Wertnamen ein. Dadurch wird ein *`signal`* erstellt.
+
    >[!NOTE]
    >
    >Schließen Sie das Präfix `c_` (oder eine andere Benennungsregel) für die Schlüsselvariable ein, wenn Ihr Ereignis Daten mit dieser Syntax an [!DNL Audience Manager] sendet.
+
 1. Wählen Sie einen [Vergleichsoperator](../../features/traits/trait-comparison-operators.md) aus der Dropdownliste **[!UICONTROL Operator]**. Der Vergleichsoperator bewertet die Beziehung zwischen den Elementen in einem Signal.
+
    >[!NOTE]
    >
    >Der [!DNL Boolean] [!UICONTROL OR]-Operator stellt die Beziehung zwischen mehreren Signalen *innerhalb* einer Gruppe her und kann nicht geändert werden.
+
 1. Klicken **[!UICONTROL Add Rule]**. Die gespeicherte Regel wird im Arbeitsbereich &quot;Eigenschaften&quot;über den Dateneingabefeldern angezeigt.
 
 ### Beispiel {#example-trait-rule}
 
 Im Beispiel unten hat ein Benutzer eine neue Eigenschaftsregel erstellt, die auf der Produkt-ID basiert. Um diese Regel zu erstellen, stellte der Benutzer den Schlüssel `productkey` bereit, der mit einem Gleichheitsoperator ( `==`) mit dem Wert `2093` verknüpft ist.
+
 ![](assets/tb_sample_rule1.png)
 
 Durch Klicken auf **[!UICONTROL Add Rule]** wird das Merkmal gespeichert und in den Arbeitsbereich [!UICONTROL Expression Builder] verschoben.
@@ -75,11 +84,14 @@ Ihre Eigenschaft muss mindestens zwei Regeln enthalten, bevor Sie eine neue Rege
 
 1. Bewegen Sie den Cursor über die Regel, die Sie verschieben möchten, um sie hervorzuheben.
 1. Bewegen Sie den Mauszeiger über den markierten Regelrand.
-Dadurch wird die Regel automatisch von der aktuellen Gruppe getrennt und in eine neue Gruppe verschoben.
+
+   Dadurch wird die Regel automatisch von der aktuellen Gruppe getrennt und in eine neue Gruppe verschoben.
+
    >[!NOTE]
    >
    >Ziehen Sie eine Regel zurück in die ursprüngliche Gruppe, wenn Sie sie versehentlich verschieben.
-1. Wählen Sie einen [!DNL Boolean]-Operator ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) aus dem Dropdown-Menü, um die Beziehung zwischen den Regelgruppen festzulegen.
+
+1. Wählen Sie einen [!DNL Boolean]-Operator ([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) aus dem Dropdown-Menü, um die Beziehung zwischen den Regelgruppen festzulegen.
 
 ## Regeln zwischen Gruppen {#move-rules-between-groups} verschieben
 
