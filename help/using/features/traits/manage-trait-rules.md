@@ -1,6 +1,6 @@
 ---
-description: Im Eigenschaften-Aufbau können Sie mit dem Ausdruck-Builder Regeln erstellen und testen, die die Anforderungen an die Audience-Qualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie "color == blue"oder "price > 100". Vergleichsoperatoren ermitteln die Beziehung zwischen Schlüsseln und Werten. Boolesche Ausdruck bestimmen die Beziehung zwischen Regelgruppen.
-seo-description: Im Eigenschaften-Aufbau können Sie mit dem Ausdruck-Builder Regeln erstellen und testen, die die Anforderungen an die Audience-Qualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie "color == blue"oder "price > 100". Vergleichsoperatoren ermitteln die Beziehung zwischen Schlüsseln und Werten. Boolesche Ausdruck bestimmen die Beziehung zwischen Regelgruppen.
+description: Im Eigenschaften-Aufbau können Sie mit dem Ausdruck-Builder Regeln erstellen und testen, die die Anforderungen an die Audience-Qualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie "color == blue" oder "price&gt; 100". Vergleichsoperatoren ermitteln die Beziehung zwischen Schlüsseln und Werten. Boolesche Ausdruck bestimmen die Beziehung zwischen Regelgruppen.
+seo-description: Im Eigenschaften-Aufbau können Sie mit dem Ausdruck-Builder Regeln erstellen und testen, die die Anforderungen an die Audience-Qualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie "color == blue" oder "price&gt; 100". Vergleichsoperatoren ermitteln die Beziehung zwischen Schlüsseln und Werten. Boolesche Ausdruck bestimmen die Beziehung zwischen Regelgruppen.
 seo-title: Verwalten von Eigenschaftsregeln
 solution: Audience Manager
 title: Verwalten von Eigenschaftsregeln
@@ -9,7 +9,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
