@@ -1,17 +1,17 @@
 ---
 description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Destination Builder ist das Tool, mit dem Sie Cookie-, URL- oder Server-Ziele erstellen und verwalten.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: Im Audience Manager ist ein Ziel ein Drittanbietersystem (Anzeigenserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Destination Builder ist das Tool, mit dem Sie Cookie-, URL- oder Server-Ziele erstellen und verwalten.
+landing-page-description: A destination is any third-party system, such as ad server or DSP, with which to share data. Use Destination Builder to create and manage cookie, URL, or server-to-server destinations.
 seo-title: 'Ziele '
 solution: Audience Manager
 title: 'Ziele '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 17%
+source-wordcount: '494'
+ht-degree: 11%
 
 ---
 
