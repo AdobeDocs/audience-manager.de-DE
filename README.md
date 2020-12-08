@@ -1,16 +1,12 @@
 ---
-source-git-commit: 84deeb062937c7bf46ee0f6f9516f9d49dbf4df6
+source-git-commit: 366e08e6db731d0ba49a961609688212f60832fd
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
-ht-degree: 11%
+source-wordcount: '435'
+ht-degree: 12%
 
 ---
 # Contribute-Artikel
-
-| EXL-PR | EXL | Vorschau | Aktivieren | Veröffentlicht | Hilfe |
-|--- |--- |--- |--- |--- |--- |
-| [![Build-Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/lastBuild/) | [![Build-Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/lastBuild) | [Vorschauen-URL](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live-URL](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [Autorenanleitung](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Wir freuen uns über Beiträge aus unserer Community sowie von Mitarbeitern aus der Adobe von außerhalb der Dokumentationsteams.
 
@@ -26,7 +22,7 @@ Wie Sie einen Beitrag leisten, hängt davon ab, wer Sie sind und welche Änderun
 
 ### Geringfügige Änderungen
 
-Wenn Sie geringfügige Aktualisierungen aus der guten Laune Ihres Herzens beisteuern, besuchen Sie den Artikel und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle für den Artikel geht. Dann benutzen Sie einfach die GitHub-Benutzeroberfläche, um Ihre Updates zu machen. Weitere Informationen finden Sie im Allgemeinen Handbuch [der](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Adobe Docs-Mitarbeiter.
+Wenn Sie geringfügige Aktualisierungen aus der guten Laune Ihres Herzens beisteuern, besuchen Sie den Artikel und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle für den Artikel führt. Dann benutzen Sie einfach die GitHub-Benutzeroberfläche, um Ihre Updates zu machen. Weitere Informationen finden Sie im allgemeinen [Adobe Docs Mitarbeiter-Handbuch](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
 
 Geringfügige Korrekturen oder Klarstellungen, die Sie zur Dokumentation einreichen, und Codebeispiele in diesem Bericht werden von den Nutzungsbedingungen der Adobe abgedeckt.
 
@@ -40,13 +36,13 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Wesentliche Veränderungen von Adoben
 
-Wenn Sie technischer Redakteur, Programm-Manager oder Entwickler des Produktteams für eine Adobe Experience Cloud-Lösung sind und es Ihre Aufgabe ist, technische Artikel zu erstellen oder zu erstellen, sollten Sie das private Repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs)verwenden. <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Wenn Sie technischer Redakteur, Programm-Manager oder Entwickler des Produktteams für eine Adobe Experience Cloud-Lösung sind und es Ihre Aufgabe ist, technische Artikel beizutragen oder zu erstellen, sollten Sie das private Repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs) verwenden. <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Tools und Einrichtung
 
 Community-Mitarbeiter können die GitHub-Benutzeroberfläche für grundlegende Bearbeitungen verwenden oder den Repo für wichtige Beiträge verarbeiten.
 
-Weitere Informationen finden Sie im [Adobe Docs Mitarbeiter-Handbuch](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) .
+Weitere Informationen finden Sie im [Adobe Docs Mitarbeiter-Handbuch](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
 
 ## Verwendung von Markdown zur Formatierung Ihres Themas
 
