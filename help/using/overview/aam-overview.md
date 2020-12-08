@@ -1,15 +1,15 @@
 ---
 description: Informationen zum Verlauf von Adobe Audience Manager, zu den erfassten Datentypen, zur Segmentierung, zum Reporting usw.
-seo-description: Informationen zum Verlauf von Adobe Audience Manager, zu den erfassten Datentypen, zur Segmentierung, zum Reporting usw.
+landing-page-description: Information about the history of Audience Manager, types of data collected, segmentation, reporting, and more.
 seo-title: Audience Manager – Überblick
 solution: Audience Manager
 title: Audience Manager – Überblick
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: overview
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '292'
 ht-degree: 100%
 
 ---
