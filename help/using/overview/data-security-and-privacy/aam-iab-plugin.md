@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager-Plug-In für IAB TCF
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +64,7 @@ Kunden, die ihre [!DNL Audience Manager Plug-in for IAB TCF]-Implementierung von
 Sie müssen die folgenden Voraussetzungen erfüllen, um das Audience Manager-Plug-in für IAB TCF mit Audience Manager zu verwenden:
 
 1. Sie müssen Adobe Experience Platform Identity Service (ECID) Version 5 (oder neuer) verwenden. [Laden](https://github.com/Adobe-Marketing-Cloud/id-service/releases) Sie unsere neueste ECID-Version herunter.
-2. Sie müssen Audience Manager [!DNL Data Integration Library] (DIL) Version 9.0 oder neuer verwenden, herunterladbar von [hier](https://github.com/Adobe-Marketing-Cloud/dil/releases). Weitere Informationen zur DIL finden Sie [in der Dokumentation zu Audience Manager](../..//dil/dil-overview.md). Es wird empfohlen, [Adobe Launch](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) für die einfachste DIL-Implementierung für Audience Manager zu verwenden.
+2. Sie müssen Audience Manager [!DNL Data Integration Library] (DIL) Version 9.0 oder neuer verwenden, herunterladbar von [hier](https://github.com/Adobe-Marketing-Cloud/dil/releases). Weitere Informationen zur DIL finden Sie [in der Dokumentation zu Audience Manager](../../dil/dil-overview.md). Es wird empfohlen, [Adobe Launch](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) für die einfachste DIL-Implementierung für Audience Manager zu verwenden.
 3. Wenn Sie zum Importieren von Daten in Audience Manager [!DNL Server-Side Forwarding] (SSF) verwenden, müssen Sie auch auf die neueste Version von AppMeasurement aktualisieren. Laden Sie AppMeasurement mit dem [Analytics-Code-Manager](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/code-manager-admin.html) herunter.
 4. Sie müssen entweder eine kommerzielle oder eigene Consent Management Platform (CMP) verwenden, die mit IAB TCF v2.0 integriert ist und bei der IAB TCF registriert ist. Siehe dazu die Liste der [beim IAB-Framework registrieren CMPs](https://iabeurope.eu/cmp-list/).
 
@@ -136,7 +136,7 @@ Durch die Implementierung des Audience Manager-Plug-ins für die IAB-TCF müssen
 
 >[!IMPORTANT]
 >
->Wenn Sie mit Audience Manager-Zielpartnern arbeiten, die IAB-TCF-Parameter benötigen, aber keinen CMP haben, der die IAB-TCF auf Ihrer Website unterstützt, sendet Audience Manager `gdpr=0` in ID-Synchronisierungen. Dies bedeutet, dass GDPR nicht für diese Benutzer gilt.
+>Wenn Sie mit Audience Manager-Zielpartnern arbeiten, die IAB-TCF-Parameter benötigen, aber keinen CMP haben, der IAB-TCF auf Ihrer Website unterstützt, sendet Audience Manager `gdpr=0` in ID-Synchronisierungen. Dies bedeutet, dass GDPR nicht für diese Benutzer gilt.
 >
 > Falls dies nicht gewünscht wird, sollten Sie die IAB-TCF-Funktion in Audience Manager aktivieren, um die entsprechenden IAB-TC-Zeichenfolgen an die Zielpartner zu senden.
 
