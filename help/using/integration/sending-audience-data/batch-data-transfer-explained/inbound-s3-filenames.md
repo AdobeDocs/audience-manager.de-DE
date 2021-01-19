@@ -7,15 +7,15 @@ title: Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden 
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
+source-git-commit: d6856a54c649d701c3163c1408f84aea256ebdc1
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 6%
+source-wordcount: '1051'
+ht-degree: 5%
 
 ---
 
 
-# [!DNL Amazon S3]Anforderungen an Namen und Dateigrößen der über eingehenden Datendateien{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Anforderungen an Name und Dateigröße für eingehende Datendateien  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dateigrößen, die beim Senden der Daten an [!DNL Audience Manager] eingehalten werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an einen Ordner [!DNL Audience Manager] / [!DNL Amazon S3] senden.
 
@@ -23,7 +23,7 @@ Beschreibt die erforderlichen Felder, die Syntax, Benennungskonventionen und Dat
 >
 >Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument Codeelemente und Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
 
-## Syntax für Dateinamen {#file-name-syntax}
+## Dateinamensyntax {#file-name-syntax}
 
 [!DNL S3] Dateinamen enthalten die folgenden erforderlichen und optionalen Elemente:
 
@@ -41,7 +41,7 @@ Removed  {importance="high"} for ExL
 >
 >[!DNL Audience Manager] verarbeitet  [!DNL ASCII] und  [!DNL UTF-8] kodiert.
 
-### Elemente benennen
+### Namenselemente
 
 Die Tabelle definiert die Elemente in einem [!DNL S3]-Dateinamen.
 
@@ -155,9 +155,14 @@ Betrachten Sie die folgenden Zahlen für die schnellste/früheste Verarbeitung I
  </tbody> 
 </table>
 
+
 >[!NOTE]
 >
 >Der Prozess der eingehenden Datenvalidierung markiert leere Dateien als ungültig und verarbeitet sie nicht.
+
+## Längenbeschränkungen für Linien {#line-limits}
+
+Eingehende Datendateien haben eine Zeilenlänge von 102400 Byte. Linien, die diesen Grenzwert überschreiten, sind von der Übertragung ausgeschlossen.
 
 >[!MORELIKETHIS]
 >
