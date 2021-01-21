@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: c2c392b1201b5de08a3f4d58bbb7be5ef31545d0
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 64%
+source-wordcount: '968'
+ht-degree: 59%
 
 ---
 
@@ -113,6 +113,15 @@ Ja. Da der Algorithmus täglich trainiert wird, wendet er die Änderungen für j
 Ja, Sie können alle einflussnehmenden Eigenschaften für alle Grundlinie auf der Seite mit den Modellberichten sehen. Siehe [Einflussnehmende Eigenschaften](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits).
 
  
+
+**Kann ich die &quot;Time to Live&quot;(TTL) für Prognosemerkmale ändern?**
+
+Die prodiktive Eigenschaft TTL ist auf 0 (Lebensdauer) eingestellt und kann nicht geändert werden. [!UICONTROL Predictive Audiences] Sie können Benutzer nur dann von prädiktiven Segmenten trennen, wenn sie sich für das Basissegment qualifizieren oder wenn sie in ein anderes prädiktives Segment neu klassifiziert werden.
+
+Bei Bedarf können Sie diese Funktion umgehen, indem Sie ein neues Segment erstellen, das sowohl eine prädiktive Eigenschaft als auch eine Aktivität mit einer angegebenen TTL enthält.
+
+ 
+
 
 **Was passiert mit dem Modell, wenn ich eine seiner Grundlinieneigenschaften oder -segmente bearbeite?**
 
