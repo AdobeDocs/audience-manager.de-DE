@@ -2,15 +2,15 @@
 description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Liste "Adobe Exchange"(falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder den Kundendienst.
 seo-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Liste "Adobe Exchange"(falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder den Kundendienst.
 seo-title: Adobe Audience Manager Server-to-Server-Ziele
-keywords: activation; activation partners, destination, destinations
+keywords: Aktivierung; Aktivierungen-Partner, Ziel, Ziele
 solution: Audience Manager
 title: Adobe Audience Manager Server-to-Server-Ziele
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 72%
+source-wordcount: '1121'
+ht-degree: 71%
 
 ---
 
@@ -62,11 +62,11 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL Celtra] | 02.27.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Centro] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL ChoiceStream] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Nein |
-| [!DNL Clearstream.tv] | 02.27.2017 | Echtzeit | Ja | Nein | Nein | Nein |
+| [!DNL Clearstream.tv] | 03.27.2017 | Echtzeit | Ja | Nein | Nein | Nein |
 | [!DNL Collective AMP Platform] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Criteo] | 02.27.2017 | Echtzeit | Nein | Ja | Nein | Ja |
 | [!DNL Crosswise] | 02.27.2017 | 1 Tag | Ja | Nein | Nein | Nein |
-| [!DNL D.A.C. AudienceOne] | 02.27.2017 | 1 Tag | Ja | Nein | Nein | Nein |
+| [!DNL D.A.C. AudienceOne] | 03.27.2017 | 1 Tag | Ja | Nein | Nein | Nein |
 | [!DNL DataXu] | 20.11.2017 | Echtzeit | Nein | Nein | Nein | Ja |
 | [!DNL Digilant] | 03.02.2017 | Echtzeit |  | Nein | Nein | Nein |
 | [!DNL DistrictM] | 03.02.2017 | 1 Tag | Ja | Nein | Nein | Nein |
@@ -76,7 +76,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL Dunnhumby] | 11.21.2019 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL easyfundraising] | 06.27.2019 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL Epsilon Conversant] | 03.03.2017 | Echtzeit | Nein | Nein | Nein | Nein |
-| [!DNL Exponential] | 02.27.2017 | Echtzeit | Ja | Nein | Ja | Nein |
+| [!DNL Exponential] | 03.27.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Eyereturn Marketing] | 04.11.2017 | 1 Tag | Ja | Nein | Nein | Nein |
 | [!DNL EyeView Digital] | 06.14.2018 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Fiksu] | 03.03.2017 | 1 Tag | Ja | Nein | Nein | Ja |
@@ -103,7 +103,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL Logicad] | 06.22.2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Lotame] | 06.30.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL MaxPoint Interactive] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Nein |
-| [!DNL MediaMath] | 02.27.2017 | 1 Tag | Ja | Nein | Nein | Ja |
+| [!DNL MediaMath] | 03.27.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Microsoft Bing Ads] | 10.10.2019 | Echtzeit | Ja | Ja | Ja | Nein |
 | [!DNL Millennial Media] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL mPlatform China] | 08.06.2018 | 1 Tag | Ja | Nein | Nein | Ja |
@@ -161,7 +161,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL TubeMogul] | 03.03.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Turn] /  [!DNL Amobee] | 03.03.2027 | Echtzeit | Nein | Nein | Nein | Ja |
 | [!DNL Twenga] | 10.29.2018 | Echtzeit | Ja | Nein | Nein | Nein |
-| [!DNL Twitter Tailored Audiences] | 02.27.2017 | Echtzeit | Ja | Nein | Ja | Nein |
+| [!DNL Twitter Tailored Audiences] | 03.27.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Undertone] | 07.11.2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Verve] | 06.15.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL VideoAmp] | 03.03.2017 | Echtzeit | Nein | Nein | Nein | Nein |
