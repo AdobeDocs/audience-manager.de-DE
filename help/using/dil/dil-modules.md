@@ -153,7 +153,7 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager] hat keinen Einblick in oder Kontrolle über die Google- `analytics.js` Codebibliothek. Überprüfen Sie, ob die Datenerfassung weiterhin funktioniert, wenn Google neue Versionen von [!UICONTROL DIL] veröffentlicht.`analytics.js`
+>* [!DNL Audience Manager] hat keinen Einblick in oder Kontrolle über die Google- `analytics.js` Codebibliothek. Überprüfen Sie, ob die Datenerfassung weiterhin funktioniert, wenn Google neue Versionen von `analytics.js` veröffentlicht.[!UICONTROL DIL]
    >
    >
 * Sie können `GA.submitUniversalAnalytics();` nicht verwenden, wenn Sie weiterhin mit dem alten Google-Analytics-Trackingcode arbeiten (z. B. `ga.js` oder `dc.js`). Siehe stattdessen [GA.init](../dil/dil-modules.md#ga-init).
