@@ -1,7 +1,7 @@
 ---
 description: Verwalten Sie die Datenerfassung und Audience mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften.
 seo-description: Verwalten Sie die Datenerfassung und Audience mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften.
-keywords: trait; traits; trait overview
+keywords: Eigenschaft; Eigenschaften; Eigenschaftenübersicht
 seo-title: Eigenschaften – Überblick
 solution: Audience Manager
 title: Eigenschaften – Überblick
@@ -9,8 +9,8 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 39%
+source-wordcount: '75'
+ht-degree: 37%
 
 ---
 
