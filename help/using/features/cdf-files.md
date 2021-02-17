@@ -1,6 +1,6 @@
 ---
 description: Grundlegende Informationen zu CDF-Dateien (Customer Data Feed) und Anweisungen zum Einstieg. Beginn hier, wenn Sie an CDF-Dateien interessiert sind oder einfach mehr Informationen benötigen.
-keywords: second party data;2nd party;2nd party data;second party
+keywords: Daten von Zweitanbietern;Daten von Zweitanbietern;Daten von Zweitanbietern
 seo-description: Grundlegende Informationen zu CDF-Dateien (Customer Data Feed) und Anweisungen zum Einstieg. Beginn hier, wenn Sie an CDF-Dateien interessiert sind oder einfach mehr Informationen benötigen.
 seo-title: Kundendaten-Feeds
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Customer Data Feeds
 translation-type: tm+mt
 source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1932'
 ht-degree: 4%
 
 ---
