@@ -167,7 +167,7 @@ Das Bedienfeld **[!UICONTROL Destination Mappings]** enthält Suchwerkzeuge, wie
 | **[!UICONTROL Search by Destination Name]** | Ermöglicht die Suche nach einem bestimmten [!UICONTROL destination]-Namen. Zur Suche geben Sie Beginn ein. Das Feld wird basierend auf Ihren Suchbegriffen automatisch ausgefüllt. Klicken Sie abschließend auf **[!UICONTROL Add Destination]**. |
 | **[!UICONTROL Browse All Destinations]** | Durchsuchen Sie eine Liste von *all* [!UICONTROL destinations], die Ihnen zur Verfügung steht. Wählen Sie [!UICONTROL destinations] aus und fügen Sie [!UICONTROL segment] aus der Popup-Liste hinzu. |
 
-## Felder im Popup-Fenster [!UICONTROL Destination Mappings]{#fields-in-dest-mappings}
+## Felder im Popup-Fenster {#fields-in-dest-mappings}[!UICONTROL Destination Mappings]
 
 In [!UICONTROL Segment Builder] wird das [!UICONTROL Add Destination]-Dialogfeld angezeigt, nachdem Sie ein [!UICONTROL destination] ausgewählt haben. In diesem Fenster werden statische Informationen zum Typ [!UICONTROL destination] und zu Feldern angezeigt, die je nach Typ [!UICONTROL destination] variieren. Geben Sie die erforderlichen Informationen in den leeren Feldern ein, um ein [!UICONTROL destination mapping] einzurichten.
 
