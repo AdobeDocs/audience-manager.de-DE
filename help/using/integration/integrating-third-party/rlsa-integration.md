@@ -62,7 +62,7 @@ So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manag
    >
    >Wenn Sie mit mehreren Segmenten arbeiten, erhalten Sie für jedes Segment, das Sie einem [!DNL Google Ads] [!DNL destination] zuordnen möchten, ein neues Pixel. Dadurch wird sichergestellt, dass die Daten auf die entsprechende Remarketing-Liste angewendet werden.
 
-1. Definieren Sie beim Zuordnen eines neuen Segments zu diesem in Audience Manager die Zuordnung als [!DNL destination] und ersetzen Sie `aam=segmentID` durch die ID Ihres Segments.`segmentID`
+1. Definieren Sie beim Zuordnen eines neuen Segments zu diesem in Audience Manager die Zuordnung als `aam=segmentID` und ersetzen Sie `segmentID` durch die ID Ihres Segments.[!DNL destination]
 1. Erstellen Sie beim Definieren eines Behälters in [!DNL Google Ads] eine Regel, die der in Schritt 6 definierten Zuordnung entspricht.
 
 Eine abgeschlossene Zuordnung könnte wie folgt aussehen:
