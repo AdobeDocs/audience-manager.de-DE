@@ -1,6 +1,6 @@
 ---
 description: Beschreibt die in Audience Manager verfügbaren algorithmischen Modelle.
-keywords: algo models how works predictive audiences
+keywords: Algo-Modelle, wie vorhersagbare Audiencen funktionieren
 seo-description: Beschreibt die in Audience Manager verfügbaren algorithmischen Modelle.
 seo-title: Algorithmische Modelle – Überblick
 solution: Audience Manager
@@ -9,7 +9,7 @@ feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '290'
 ht-degree: 15%
 
 ---
