@@ -41,7 +41,7 @@ Zum Versand von [!DNL Amazon S3] müssen Sie `.gz`- oder nicht komprimierte Date
 
 ## Best Practices
 
-* Dateien sollten komprimiert ([!DNL .gzip]) sein (und eine [!DNL .gz] Dateierweiterung aufweisen).
-* Die maximale komprimierte Dateigröße für eine `.gz` komprimierte Datei beträgt 1 GB.
-* Optimale Aufteilung für die schnellste/schnellste Verarbeitung Ihrer Dateien, ist etwa 1 GB unkomprimiert oder 200-300 MB komprimiert.
+* Dateien müssen komprimiert ([!DNL .gzip]) sein (und eine [!DNL .gz] Dateierweiterung aufweisen).
+* Die maximale komprimierte Dateigröße für eine `.gz`-komprimierte Datei beträgt 1 GB.
+* Optimale Aufteilung für die schnellste/schnellste Verarbeitung Ihrer Dateien ist ca. 1 GB unkomprimiert oder 200-300 MB komprimiert.
 * [!DNL Amazon S3] legt für hochgeladene Dateien eine eigene maximale Dateigröße von 5 GB fest.
