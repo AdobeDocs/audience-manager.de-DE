@@ -29,7 +29,7 @@ Die in den Berichten angezeigten Leistungsinformationen werden aus Ihrer [!DNL G
 
 ## Verfügbare Berichte {#available-reports}
 
-[!UICONTROL Audience Optimization for Publishers] angebot sechs verschiedene Ansichten, die die Anzeigenserverleistung gegenüber der Segmentierung  [!DNL Audience Manager] zur Lösung der publizierungsorientierten Geschäftsziele gestalten.
+[!UICONTROL Audience Optimization for Publishers] Angebot sechs verschiedene Ansichten, die die Anzeigenserverleistung gegenüber der Segmentierung  [!DNL Audience Manager] zur Lösung der publizierungsorientierten Geschäftsziele gestalten.
 
 + [Bericht zur Segmentleistung](publisher-segment-performance.md)
 + [Segment-Trend-Bericht](publisher-segment-trends.md)
