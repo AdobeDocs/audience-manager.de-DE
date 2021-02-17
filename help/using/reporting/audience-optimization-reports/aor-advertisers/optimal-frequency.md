@@ -21,7 +21,7 @@ Der Bericht &quot;Optimale Häufigkeit&quot;hilft Ihnen dabei, das optimale Glei
 
 Der Bericht verfügt über ein 30-Tage-Lookback-Intervall ab dem Datum, das in der Auswahl von [!UICONTROL Date Through] ausgewählt wurde.
 
-Das Konversionsvolumen sinkt normalerweise mit höheren Impressionsfrequenzbehältern. Weniger Benutzer sehen die höhere Anzahl von Impressionen. Das bedeutet, dass diese höheren Frequenzbehälter weniger Konversionen aufweisen.
+Das Konversionsvolumen sinkt normalerweise mit höheren Impressionsfrequenzbehältern. Weniger Benutzer sehen die höhere Anzahl von Impressionen. Das bedeutet, dass diese höheren Frequenzbehälter weniger Konversionen haben.
 
 Die Gesamtumrechnungsrate steigt jedoch mit jedem Impressionsfrequenzbehälter. Mit jedem Behälter werden mehr Konvertierungen generiert, sodass die Summe der Konversionen (der Zähler) der Gesamtanzahl der möglichen Konversionen (der Nenner) nähert und somit der Prozentsatz steigt.
 
