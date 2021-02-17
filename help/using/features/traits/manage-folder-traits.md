@@ -1,6 +1,6 @@
 ---
 description: Erstellen, bearbeiten und löschen Sie Ordnereigenschaften.
-keywords: Folder Trait;Folder Traits;folder traits;folder trait
+keywords: Ordnereigenschaften;Ordnereigenschaften;Ordnereigenschaften;Ordnereigenschaften
 seo-description: Erstellen, bearbeiten und löschen Sie Ordnereigenschaften.
 seo-title: Verwalten von Ordnereigenschaften
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '370'
 ht-degree: 9%
 
 ---
