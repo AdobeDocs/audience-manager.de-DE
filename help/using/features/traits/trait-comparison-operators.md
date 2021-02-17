@@ -27,7 +27,7 @@ Vergleichsoperatoren (oder relationale Operatoren) werden verwendet, um die Bezi
 
 ## Vorteile von Vergleichsoperatoren
 
-Vergleichsoperatoren sind nützlich, wenn Sie Eigenschaften auf der Grundlage mehrerer Werte bewerten und erstellen müssen. Eine Betrachtung der Preise für Waren und Dienstleistungen kann diese Bedingung illustrieren. Ihr Unternehmen könnte z. B. Besucher anhand der Preise der von Ihnen Ansicht Produkte identifizieren wollen. Es kann jedoch administrativ ineffizient sein, einzelne Segmente basierend auf bestimmten Werten zu definieren. Vergleichsoperatoren tragen dazu bei, diese Hürde zu überwinden, indem Segmentierungsauslöser auf der Grundlage von Preisschwellen oder -bereichen eingerichtet werden.
+Vergleichsoperatoren sind nützlich, wenn Sie Eigenschaften auf der Grundlage mehrerer Werte bewerten und erstellen müssen. Eine Betrachtung der Preise für Waren und Dienstleistungen kann diese Bedingung illustrieren. Ihr Unternehmen könnte z. B. Besucher anhand der Preise der von Ihnen Ansicht Produkte identifizieren wollen. Es kann jedoch administrativ ineffizient sein, einzelne Segmente basierend auf bestimmten Werten zu definieren. Vergleichsoperatoren tragen dazu bei, diese Hürde zu überwinden, indem sie Trigger für die Segmentierung auf der Grundlage von Preisschwellen oder -bereichen festlegen.
 
 ## Vergleichsoperatoren
 
