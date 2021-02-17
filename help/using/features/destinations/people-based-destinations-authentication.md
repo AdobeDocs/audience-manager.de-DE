@@ -54,5 +54,5 @@ Wenn ein Authentifizierungstoken abläuft, wird die Integration zwischen Audienc
 So verlängern Sie eine abgelaufene oder kurz vor Ablauf vergangene Authentifizierung:
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.
 1. Identifizieren Sie die Integration, für die Sie die Authentifizierung erneuern müssen. Abgelaufene Authentifizierungen werden als [!UICONTROL Expired] markiert, während bei bald ablaufenden Authentifizierungen die verbleibende Anzahl authentifizierter Tage angezeigt wird.
-1. Klicken Sie auf das entsprechende **[!UICONTROL Renew]**-Symbol in der Spalte [!UICONTROL Expiration]. Dadurch wird der **[!UICONTROL Renew Account]**-Arbeitsablauf ausgelöst, der Sie zurück durch die Authentifizierungsseite der sozialen Plattform führt. Nach der Authentifizierung wird das Token mit dem neuen Ablaufdatum erneuert.
+1. Klicken Sie auf das entsprechende **[!UICONTROL Renew]**-Symbol in der Spalte [!UICONTROL Expiration]. Dadurch wird der **[!UICONTROL Renew Account]**-Arbeitsablauf Trigger, der Sie durch die Authentifizierungsseite der Social-Plattform zurückführt. Nach der Authentifizierung wird das Token mit dem neuen Ablaufdatum erneuert.
    ![pbd-renew](assets/pbd-renew.png)
