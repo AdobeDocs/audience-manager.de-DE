@@ -47,7 +47,7 @@ Auf Geräten mit den Betriebssystemen [!DNL iOS] und [!DNL Android] können nur 
 
 Audience Manager überprüft die von Kunden importierten Anzeigen-IDs ([!UICONTROL DAID]) anhand ihres Formats, um sicherzustellen, dass sie dem von Geräteherstellern angegebenen Standardformat entsprechen. Eine detaillierte Zuordnung von Anzeigen-IDs zu globalen Datenquellen und das richtige Format für jede ID finden Sie unter [IDs in Audience Manager](../reference/ids-in-aam.md). Achten Sie darauf, dass Sie Geräte-IDs im korrekten Format importieren, je nach Gerätetyp. Audience Manager lehnt Geräte-IDs ab, die nicht dem richtigen Format entsprechen, und gibt eine Fehlermeldung zurück, die darauf hinweist, dass die ID abgelehnt wurde.
 
-* Fehlermeldungen für Batch-Datenübertragungen werden hier beschrieben: [Begriffe und Definitionen im Bericht &quot;Onboarding-Status&quot;](../reporting/onboarding-status-report.md#report-terms-conditions)
+* Fehlermeldungen für Batch-Datenübertragungen werden hier beschrieben: [Einstiegsstatusbericht - Begriffe und Definitionen](../reporting/onboarding-status-report.md#report-terms-conditions)
 * Fehlermeldungen bei Datenübertragungen in Echtzeit werden hier beschrieben: [DCS-Fehlercodes, Meldungen und Beispiele](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
 ## Richtlinie zum Ablauf der Geräte-ID
