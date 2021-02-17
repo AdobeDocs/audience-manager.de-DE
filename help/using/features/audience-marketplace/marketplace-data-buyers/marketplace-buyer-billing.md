@@ -4,13 +4,13 @@ seo-description: Die Käufer von Audience Marketplace-Daten erklären sich damit
 seo-title: Abrechnung für Daten-Feed-Käufer
 solution: Audience Manager
 title: Abrechnung für Daten-Feed-Käufer
-keywords: Segment-level Reporting, segment-level, segment level
+keywords: Berichte auf Segmentebene, Segmentebene, Segmentebene
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2032'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Die Käufer von Audience Marketplace-Daten erklären sich damit einverstanden, a
 
 [!UICONTROL Audience Marketplace] Datenkäufer stimmen zu, alle Anzeigenimpressionen zu melden, die mit den im Datenfeed enthaltenen Eigenschaften bereitgestellt werden, und zwar zu einem Preis pro Tausend Anzeigenimpressionen ([!DNL CPM]). [!DNL CPM] Die Nutzung erfolgt am 5. Tag jedes Kalendermonats und beinhaltet Daten für den vorherigen Monat. Pauschalabonnenten müssen die Nutzung nicht melden.
 
-[!UICONTROL Audience Marketplace] angebot 2 Möglichkeiten zur  [!DNL CPM] Nutzungsberichterstellung:
+[!UICONTROL Audience Marketplace] Angebot 2 Möglichkeiten zur  [!DNL CPM] Nutzungsberichterstellung:
 
 * **Berichte** auf Segmentebene: dies ist die empfohlene Berichte- [!DNL CPM] Methode. Wenn Sie eine [!DNL CPM]-Nutzung auf Segmentebene melden, wird der Berichte auf Datenfeed-Ebene automatisch mit den entsprechenden Nutzungsbeträgen ausgefüllt, basierend auf den unter [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution) beschriebenen Algorithmen.
 * **Berichte** auf Datenfeed-Ebene: Diese Methode erfordert, dass Sie die  [!DNL CPM] Nutzung für jeden Datenfeed individuell melden, basierend auf den unter  [Kostenzuordnung für CPM-Datenfeeds](#cost-attribution) beschriebenen Algorithmen. Diese Methode ist jedoch umständlicher und fehleranfälliger als Berichte auf Segmentebene.
@@ -47,7 +47,7 @@ So melden Sie die [!DNL CPM]-Nutzung auf Segmentebene:
 1. Wählen Sie die Registerkarte **[!UICONTROL Segment Usage]**.
 1. Füllen Sie die Nutzung für Ihre Segmente aus. Sie können das Feld [!UICONTROL Search] verwenden, um die Segmente zu filtern, wenn Sie nur die Verwendung für einige dieser Segmente melden müssen.
 1. Klicken **[!UICONTROL Edit Segments Usage]**.
-1. Geben Sie in der Spalte [!DNL CPM] den Verwendungsbetrag ein.[!UICONTROL Usage]
+1. Geben Sie in der Spalte [!UICONTROL Usage] den Verwendungsbetrag ein.[!DNL CPM]
 1. Klicken Sie auf **[!UICONTROL Save]**, wenn Sie fertig sind, und überprüfen Sie das Bestätigungsdialogfeld.
 
    ![verify-segment-usage](assets/confirm-segment-usage.png)
