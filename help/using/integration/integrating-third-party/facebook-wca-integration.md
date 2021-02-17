@@ -109,5 +109,5 @@ Nachdem Sie Ihr [!DNL Audience Manager]-Segment dem [!DNL Facebook WCA]-Ziel zug
 
 >[!NOTE]
 >
-> Wenn ein Benutzer aus dem Segment [!DNL Audience Manager] herausfällt, gibt es derzeit keine Möglichkeit für [!DNL Audience Manager] [!DNL Facebook], &lt;a2/> anzuzeigen, den Benutzer aus dem Segment [!DNL Custom Audience] zu entfernen.
+> Wenn ein Benutzer aus dem Segment [!DNL Audience Manager] herausfällt, gibt es derzeit keine Möglichkeit für [!DNL Audience Manager] [!DNL Facebook],  anzuzeigen, den Benutzer aus dem Segment [!DNL Custom Audience] zu entfernen.
 
