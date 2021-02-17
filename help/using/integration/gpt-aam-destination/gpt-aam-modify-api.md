@@ -42,7 +42,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >
 >* Clientseitige Integration: nur Zeilen 1-3 verwenden.
 >* Serverseitige Integration: Keine der Zeilen wird benötigt.
->* Erfassen Sie die Protokolldateien für Berichte in [!DNL Google Ad Manager]: nur die Zeilen 4-6 verwenden. [!DNL Audience Manager] Mit diesem Code wird der Wert des `aam_uuid`-Cookies in die Protokolle eingefügt, damit sie zum Berichte aufgenommen werden können.
+>* Erfassen Sie die Protokolldateien für Berichte in [!DNL Audience Manager]: nur die Zeilen 4-6 verwenden. [!DNL Google Ad Manager] Mit diesem Code wird der Wert des `aam_uuid`-Cookies in die Protokolle eingefügt, damit sie zum Berichte aufgenommen werden können.
 
 
 ### `AamGpt` Funktionen und Datentypen
