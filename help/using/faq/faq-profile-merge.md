@@ -1,6 +1,6 @@
 ---
 description: Antworten auf häufig gestellte Fragen zur Profilzusammenführungsrichtlinie und zum Gerätediagramm.
-keywords: Organization ID
+keywords: Organisations-ID
 seo-description: Antworten auf häufig gestellte Fragen zur Profilzusammenführungsrichtlinie und zum Gerätediagramm.
 seo-title: Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zum Gerätediagramm
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1550'
 ht-degree: 86%
 
 ---
