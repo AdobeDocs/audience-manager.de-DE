@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## Modelle in Audience Lab {#compare-models} vergleichen
 
-Sie können verschiedene Typen und Quellen von Modellen in [!DNL Audience Manager] verwenden. [!UICONTROL Audience Lab] angebot bieten eine einfache Möglichkeit, die Konversionsraten Ihrer Kunden in allen aktiven Modellen zu vergleichen.
+Sie können verschiedene Typen und Quellen von Modellen in [!DNL Audience Manager] verwenden. [!UICONTROL Audience Lab] Angebot bieten eine einfache Möglichkeit, die Konversionsraten Ihrer Kunden in allen aktiven Modellen zu vergleichen.
 
 <!-- audience-lab-compare-models.xml -->
 
