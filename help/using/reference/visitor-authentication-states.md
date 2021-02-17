@@ -10,7 +10,7 @@ feature: reference
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 Der Authentifizierungsstatus des Besuchers in Audience Manager bestimmt, ob die neuen Eigenschaftsinformationen in das authentifizierte Profil des Besuchers oder in das Gerätehilfen-Profil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Besucher-ID-Authentifizierungsstatus UNKNOWN und LOGGED_OUT in Ereignis-Aufrufen auf dieselbe Weise.
 
-Ab dem ID-Dienst v1.5+ enthält die [!DNL Experience Cloud]-Methode das optionale `setCustomerID`-Objekt. `AuthState` `AuthState` identifiziert Besucher gemäß ihrem  [Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nachdem, welcher Authentifizierungsstatus im Aufruf und in der  [Profil Merge-Regel, die Sie für die Segmentierung ](../features/profile-merge-rules/merge-rules-dashboard.md) verwenden, übergeben wurde.
+Ab dem ID-Dienst v1.5+ enthält die `setCustomerID`-Methode das optionale `AuthState`-Objekt. [!DNL Experience Cloud] `AuthState` identifiziert Besucher gemäß ihrem  [Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nachdem, welcher Authentifizierungsstatus im Aufruf und in der  [Profil Merge-Regel, die Sie für die Segmentierung ](../features/profile-merge-rules/merge-rules-dashboard.md) verwenden, übergeben wurde.
 
 ## Authentifizierungsstatus: UNKNOWN {#auth-status-unknown}
 
