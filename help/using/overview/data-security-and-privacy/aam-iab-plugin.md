@@ -8,8 +8,8 @@ feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2449'
+ht-degree: 40%
 
 ---
 
