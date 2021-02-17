@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
-[!DNL People-Based Destinations] angebot mehrerer Implementierungsstrategien, je nachdem, wie Ihre Kundendaten strukturiert sind. Dieser Artikel enthält eine Übersicht der Implementierungsschritte, die Sie je nach Szenario für [!DNL People-Based Destinations] ausführen müssen.
+[!DNL People-Based Destinations] Angebot mehrerer Implementierungsstrategien, je nachdem, wie Ihre Kundendaten strukturiert sind. Dieser Artikel bietet eine Übersicht über die Implementierungsschritte, die Sie je nach Szenario für [!DNL People-Based Destinations] ausführen müssen.
 
 ## Überblick {#overview}
 
