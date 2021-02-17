@@ -1,6 +1,6 @@
 ---
 description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften gelten.
-keywords: create trait;create traits
+keywords: Eigenschaften erstellen;Eigenschaften erstellen
 seo-description: Beschreibt die Einrichtung von Schritten und Funktionen, die spezifisch für den regelbasierten und den integrierten Prozess zur Erstellung von Eigenschaften gelten.
 seo-title: Erstellen regelbasierter oder integrierter Eigenschaften
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '382'
 ht-degree: 8%
 
 ---
