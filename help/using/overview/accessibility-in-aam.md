@@ -1,6 +1,6 @@
 ---
-description: Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, mit denen ein Softwareprodukt mit möglichst wenig Aufwand von Benutzern mit verschiedenen Behinderungen wie visueller, auditiver, kognitiver, motorischer oder anderer Art nutzbar gemacht werden kann.
-seo-description: Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, mit denen ein Softwareprodukt mit möglichst wenig Aufwand von Benutzern mit verschiedenen Behinderungen wie visueller, auditiver, kognitiver, motorischer oder anderer Art nutzbar gemacht werden kann.
+description: Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, mit denen ein Softwareprodukt mit möglichst wenig Aufwand von Benutzern mit verschiedenen Behinderungen wie visueller, auditiver, kognitiver, motorischer oder anderer Art verwendet werden kann.
+seo-description: Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, mit denen ein Softwareprodukt mit möglichst wenig Aufwand von Benutzern mit verschiedenen Behinderungen wie visueller, auditiver, kognitiver, motorischer oder anderer Art verwendet werden kann.
 seo-title: Zugänglichkeit im Audience Manager
 solution: Audience Manager
 title: Zugänglichkeit im Audience Manager
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Überblick {#overview}
 
-Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, mit denen ein Softwareprodukt mit möglichst wenig Aufwand von Benutzern mit verschiedenen Behinderungen wie visueller, auditiver, kognitiver, motorischer oder anderer Art nutzbar gemacht werden kann.
+Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, mit denen ein Softwareprodukt mit möglichst wenig Aufwand von Benutzern mit verschiedenen Behinderungen wie visueller, auditiver, kognitiver, motorischer oder anderer Art verwendet werden kann.
 
 Adobe ist ein branchenführender Anbieter von Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem Entwickler dazu angeregt werden, umfangreiche und ansprechende Inhalte zu erstellen, die für alle Benutzer zugänglich sind. Weitere Informationen über das Engagement der Adobe für Barrierefreiheit finden Sie unter [Adobe Accessibility](https://www.adobe.com/accessibility.html).
 
