@@ -1,6 +1,6 @@
 ---
 description: Methoden, mit denen Sie programmatisch mit algorithmischen Modellfunktionen arbeiten können.
-keywords: api getting started;get started api
+keywords: API Erste Schritte;Erste Schritte-API
 seo-description: Methoden, mit denen Sie programmatisch mit algorithmischen Modellfunktionen arbeiten können.
 seo-title: Algorithmische API-Methoden
 solution: Audience Manager
@@ -10,8 +10,8 @@ feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 23%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
 
