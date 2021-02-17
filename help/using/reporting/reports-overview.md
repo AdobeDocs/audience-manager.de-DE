@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # Übersicht über Berichte
 
-In den einzelnen Abschnitten werden verfügbare Berichte, ihre Ziele und typische Verwendungen beschrieben. Alle Berichte sind im Dashboard [!UICONTROL Analytics] verfügbar.
+In den einzelnen Abschnitten werden verfügbare Berichte, ihre Ziele und typischen Verwendungen beschrieben. Alle Berichte sind im Dashboard [!UICONTROL Analytics] verfügbar.
 
 Informationen zu den Zeiträumen, in denen Audience Manager Informationen zum Ausfüllen von Berichten erhalten, finden Sie unter [Auswirkungen von Versand und Dateiverarbeitung auf Berichte](/help/using/reference/reporting-file-transfer-timeframe.md).
 
