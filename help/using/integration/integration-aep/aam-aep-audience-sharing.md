@@ -4,12 +4,12 @@ seo-description: In diesem Artikel wird beschrieben, wie Audiencen von Audience 
 seo-title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform
 solution: Audience Manager
 title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform
-keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
+keywords: Freigabe von AEP-Audiencen, AEP-Segmente, Plattformsegmente, Segmentfreigabe, Freigabe von Audiencen, Segmente freigeben
 feature: Integration with Platform
 translation-type: tm+mt
 source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1505'
 ht-degree: 2%
 
 ---
@@ -109,9 +109,9 @@ Ein Beispiel eines Segments, das automatisch aus einem Segmentsegment erstellt w
 
 | Element Nr. | Name | Beschreibung |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in der Experience Platform. |
+| 3 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in der Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Segmenten der Experience Platform erstellt werden, werden in der Datenquelle **[!DNL Adobe Experience Platform Audience Sharing]** gespeichert. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in der Experience Platform festgelegten Zusammenführungsrichtlinie entsprechen. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in der Experience Platform festgelegten Zusammenführungsrichtlinie entsprechen. |
 | 4 | [!UICONTROL Segment Rule] | Das Segment besteht aus der Eigenschaft, die im Abschnitt [Eigenschaften](#aep-segments-as-aam-traits) beschrieben wird. |
 
 ## Audience Manager Data Export Control-Unterstützung für Experience Platform {#aam-data-export-control-in-aep}
