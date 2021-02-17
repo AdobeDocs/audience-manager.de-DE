@@ -1,6 +1,6 @@
 ---
 description: Um eine neue Datenquelle zu erstellen, gehen Sie zu "Audience-Daten"> "Datenquellen"> "Hinzufügen Neu"und führen Sie die Schritte für jeden dieser Abschnitte aus. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
-keywords: data sources;manage data source;audience manager data source
+keywords: Datenquellen;Datenquelle verwalten;Audience Manager-Datenquelle
 seo-description: Um eine neue Datenquelle zu erstellen, gehen Sie zu "Audience-Daten"> "Datenquellen"> "Hinzufügen Neu"und führen Sie die Schritte für jeden dieser Abschnitte aus. Zum Erstellen einer Datenquelle sind Administratorberechtigungen erforderlich.
 seo-title: Erstellen einer Datenquelle
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Data Sources
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '380'
 ht-degree: 5%
 
 ---
