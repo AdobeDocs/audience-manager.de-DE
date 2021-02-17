@@ -19,13 +19,13 @@ ht-degree: 1%
 >[!IMPORTANT]
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Bitte konsultieren Sie Ihren eigenen Rechtsbeistand für Rechtsberatung.
 
-[!DNL People-Based Destinations] audience manager  [!DNL Shareable Audiences] zu bringen. Anhand dieser Metrik können Sie erkennen, wie viele der Hash-E-Mail-Adressen Audience Manager für die Zielplattform freigeben können.
+[!DNL People-Based Destinations] Audience Manager  [!DNL Shareable Audiences] zu bringen. Anhand dieser Metrik können Sie erkennen, wie viele der Hash-E-Mail-Adressen Audience Manager für die Zielplattform freigeben können.
 
 [!DNL Shareable Audiences] ist eine Metrik, die Ihnen bei der Interpretation von Audiencen-Daten im Kontext von  [!DNL People-Based Destinations]dient. Sie können diese Metrik auf der Seite [!UICONTROL Destinations] und auf der Seite [!UICONTROL Segment] sehen.
 
 ## Freigegebene Audiencen für Segmente {#segment-shareable-audiences}
 
-Die [!DNL Segment Shareable Audience]-Metrik auf der Segmentseite gibt die Anzahl der Hash-E-Mail-Adressen aus der Datenquelle an, die mit [DPUUIDs](../../reference/ids-in-aam.md) übereinstimmen. Diese Adressen gelten auch für das definierte Profil in der angegebenen Lookback-Periode, da die -Merge-Regel angewendet wird, und dieser Audience Manager kann mit der Zielplattform gemeinsam verwendet werden.
+Die [!DNL Segment Shareable Audience]-Metrik auf der Segmentseite gibt die Anzahl der Hash-E-Mail-Adressen aus der Datenquelle mit übereinstimmenden [DPUUIDs](../../reference/ids-in-aam.md) an, die sich auch für das definierte Segment in der angegebenen Rückblickzeit qualifizieren, da die Profil-Merge-Regel darauf angewendet wird, und dieser Audience Manager kann mit der Zielplattform gemeinsam verwendet werden.
 
 Diese Metrik verfügt über eine Rückblickzeit von 1 Tag. Auf diese Weise können Sie die SegmentReichweite für die Audience eines bestimmten Ziels verstehen.
 
