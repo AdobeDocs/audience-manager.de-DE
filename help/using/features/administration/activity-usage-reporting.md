@@ -1,6 +1,6 @@
 ---
 description: Aktivität Usage Berichte hilft Ihnen bei der Ansicht und Verfolgung der Nutzung der Aktivität für Ihre Audience Manager-Instanz, sodass Sie Ihre tatsächliche Nutzung mit Ihrer vertraglichen Verpflichtung vergleichen können.
-keywords: activity, usage, reporting, commitment
+keywords: Aktivität, Nutzung, Berichte, Bindung
 seo-description: Aktivität Usage Berichte hilft Ihnen bei der Ansicht und Verfolgung der Nutzung der Aktivität für Ihre Audience Manager-Instanz, sodass Sie Ihre tatsächliche Nutzung mit Ihrer vertraglichen Verpflichtung vergleichen können.
 seo-title: Berichte zur Aktivitätsnutzung
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '665'
 ht-degree: 6%
 
 ---
