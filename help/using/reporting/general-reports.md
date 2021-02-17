@@ -92,7 +92,7 @@ Die folgenden Filter stehen zur Verfügung, wenn Sie einen allgemeinen Bericht a
 
 Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
 * [!UICONTROL Total Trait Realization] die Gesamtzahl der anonymen Eigenschaften innerhalb des ausgewählten Zeitraums.
 * [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Besucher, die diese Eigenschaft auf ihrem Profil haben.
 
@@ -138,7 +138,7 @@ Diese Metrik stellt die Gesamtanzahl der UUIDs des Audience Managers dar, die f�
 
 >[!NOTE]
 >
->Wählen Sie **[!UICONTROL Include Destination Mappings]** aus, um eine Unterteilung der Segmentpopulation für aktivierte Ziele anzuzeigen.
+>Wählen Sie **[!UICONTROL Include Destination Mappings]** aus, um eine Aufschlüsselung der Segmentpopulation für aktivierte Ziele anzuzeigen.
 
 Die folgende Abbildung zeigt die Ergebnisse der Ausführung eines allgemeinen Berichts für den Berichtstyp Segment.
 
