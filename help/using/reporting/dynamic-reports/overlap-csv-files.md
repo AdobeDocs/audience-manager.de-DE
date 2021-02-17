@@ -83,7 +83,7 @@ In der Dublette sind Zeichenfolgendaten in Anführungszeichen gesetzt. Siehe die
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## Segmente-zu-Segment-Berichtdatensätze {#segment-segment-records}
+## Bericht zu Segment-zu-Segment-Datensätze {#segment-segment-records}
 
 Eine Datendatei für Ihren [Segment-zu-Segment-Überschneidungsbericht](segment-segment-overlap-report.md) enthält die folgenden Datensätze.
 
