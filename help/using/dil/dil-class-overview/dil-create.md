@@ -64,7 +64,7 @@ r_dil_create.xml
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Ihnen vom  <span class="keyword"> Audience Manager zugewiesene Datenpartner-ID  </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Ihre eindeutige ID für einen Benutzer. </li> 
-    </ul> <p> <p>Wichtig:  Verwenden Sie nur nicht kodierte Werte für Ihre IDs. Ein Codieren der führt zu doppelt codierten Identifikatoren. </p> </p> <p> <p>Hinweis:  Wenn Sie den Adobe Experience Platform-Identitätsdienst <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> verwenden, stellen Sie Kunden-IDs mit der </a>-Methode anstelle von <code> setCustomerIDs </code> DIL <span class="wintitle"> ein. </span> Siehe <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Kunden-IDs und Authentifizierungsstatus </a>. </p> </p> </td> 
+    </ul> <p> <p>Wichtig:  Verwenden Sie nur nicht kodierte Werte für Ihre IDs. Ein Codieren der führt zu doppelt codierten Identifikatoren. </p> </p> <p> <p>Hinweis:  Wenn Sie den Adobe Experience Platform-Identitätsdienst </a> verwenden, stellen Sie Kunden-IDs mit der <code> setCustomerIDs </code>-Methode anstelle von <span class="wintitle"> DIL </span> ein. <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Siehe <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Kunden-IDs und Authentifizierungsstatus </a>. </a></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -104,7 +104,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Erforderlich. </p> <p>Das <code> namespace </code>-Schlüssel-Wert-Paar enthält Ihre <span class="keyword">-Experience Cloud </span>-Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt <span class="wintitle"> Administration </span> des <span class="keyword">-Experience Cloud </span>-Dashboards. Sie benötigen Administratorrechte, um dieses Dashboard Ansicht. Weitere Informationen finden Sie in den FAQ <a href="../../faq/faq-features.md"> und </a> Administration - Benutzerverwaltung und FAQ <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external">.</a> </p> </td> 
+   <td colname="col3"> <p>Erforderlich. </p> <p>Das <code> namespace </code>-Schlüssel-Wert-Paar enthält Ihre <span class="keyword">-Experience Cloud </span>-Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt <span class="wintitle"> Administration </span> des <span class="keyword">-Experience Cloud </span>-Dashboards. Sie benötigen Administratorrechte, um dieses Dashboard Ansicht. Weitere Informationen finden Sie in den FAQ </a> und <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Administration - Benutzerverwaltung und FAQ </a>.<a href="../../faq/faq-features.md"> </a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> partner </code> </p> </td> 
