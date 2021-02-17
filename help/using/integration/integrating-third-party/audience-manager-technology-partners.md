@@ -2,15 +2,15 @@
 description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Liste "Adobe Exchange"(falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder den Kundendienst.
 seo-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Liste "Adobe Exchange"(falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder den Kundendienst.
 seo-title: Adobe Audience Manager Technology Partners
-keywords: activation; activation partners, destination, destinations
+keywords: Aktivierung; Aktivierungen-Partner, Ziel, Ziele
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 60%
+source-wordcount: '1183'
+ht-degree: 59%
 
 ---
 
@@ -57,7 +57,7 @@ Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server-Integration
 | Brightroll | 03.03.2017 | Nein | Ja | Nein | Nein |
 | Schaltfläche | 12.18.2017 | Ja | Nein | Nein | Ja |
 | C1 Exchange | 02.27.2017 | Ja | Nein | Nein | Nein |
-| Celtra | 02.27.2017 | Ja | Nein | Nein | Ja |
+| Celtra | 03.27.2017 | Ja | Nein | Nein | Ja |
 | Centro | 02.27.2017 | Nein | Nein | Nein | Ja |
 | ChoiceStream | 02.27.2017 | Nein | Nein | Nein | Nein |
 | Clearstream.tv | 02.27.2017 | Ja | Nein | Nein | Nein |
@@ -102,11 +102,11 @@ Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server-Integration
 | MaxPoint Interactive | 02.27.2017 | Nein | Nein | Nein | Nein |
 | MediaMath | 02.27.2017 | Ja | Nein | Nein | Ja |
 | Microsoft Bing Ads | 05.30.2017 | Ja | Ja | Ja | Nein |
-| Millenniums-Medien | 02.27.2017 | Nein | Nein | Nein | Ja |
+| Millenniums-Medien | 03.27.2017 | Nein | Nein | Nein | Ja |
 | mPlatform China | 08.06.2018 | Ja | Nein | Nein | Ja |
 | Narrative-I/O | 01.12.2018 | Ja | Nein | Nein | Ja |
 | Native Touch | 03.02.2017 | Ja | Nein | Nein | Ja |
-| Nativo | 02.27.2017 | Ja | Nein | Nein | Nein |
+| Nativo | 03.27.2017 | Ja | Nein | Nein | Nein |
 | Mail.ru | 04.29.2019 | Ja | Nein | Nein | Ja |
 | Handwerkliche Fachkräfte | 05.25.2018 | Ja | Nein | Nein | Ja |
 | Minenräumung | 03.02.2017 | Nein | Nein | Nein | Nein |
@@ -158,7 +158,7 @@ Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server-Integration
 | TubeMogul | 03.03.2017 | Ja | Nein | Ja | Nein |
 | Umschalten/Amobee | 03.03.2027 | Nein | Nein | Nein | Ja |
 | Twenga | 10.29.2018 | Ja | Nein | Nein | Nein |
-| Twitter-Audiencen | 02.27.2017 | Ja | Nein | Ja | Nein |
+| Twitter-Audiencen | 03.27.2017 | Ja | Nein | Ja | Nein |
 | Unterton | 07.11.2017 | Nein | Nein | Nein | Nein |
 | Verve | 06.15.2017 | Ja | Nein | Nein | Ja |
 | VideoAmp | 03.03.2017 | Nein | Nein | Nein | Nein |
