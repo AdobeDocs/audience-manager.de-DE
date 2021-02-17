@@ -3,15 +3,15 @@ description: In diesem Dokument werden die technischen Einzelheiten im Zusammenh
 seo-description: In diesem Dokument werden die technischen Einzelheiten im Zusammenhang mit der Einhaltung der Datenschutzbestimmungen für Audience Manager behandelt.
 seo-title: Datenschutzanfragen
 solution: Audience Manager
-keywords: GDPR UI, GDPR API, CCPA, privacy
+keywords: GDPR-Benutzeroberfläche, GDPR-API, CCPA, Datenschutz
 title: Datenschutzanfragen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 55%
+source-wordcount: '1483'
+ht-degree: 54%
 
 ---
 
@@ -165,7 +165,7 @@ Nach einem Opt-out auf Partnerebene mit einem Geräte-ID-Aufruf:
 
 ## [!DNL Audience Manager] Partner mit Unsegmentierungsfunktionen  {#aam-partners-with-unsegmentation}
 
-Um Ihnen bei der Automatisierung Ihrer Verbraucherdatendatenschutzanforderungen zu helfen, versucht [!DNL Audience Manager], die Aktivierung-Partner über Löschungsanfragen von Datensubjekten zu informieren, indem sie die Segmentinformationen zurücksenden (oder entfernen).
+Um Ihnen bei der Automatisierung Ihrer Verbraucherdatenschutzanforderungen zu helfen, versucht [!DNL Audience Manager], die Aktivierung-Partner über Löschungsanfragen von Datensubjekten zu informieren, indem sie diese vom Segment trennen (oder entfernen).
 
 Allerdings können einige der Aktivierungspartner:
 
