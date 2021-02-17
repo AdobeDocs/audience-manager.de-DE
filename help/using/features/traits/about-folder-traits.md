@@ -1,6 +1,6 @@
 ---
 description: Mit Ordnereigenschaften können Sie Eigenschaften, die sich im selben Ordner und in allen untergeordneten Ordnern befinden, automatisch in ein Zielgruppensegment Aggregat.
-keywords: segment size estimator;sse
+keywords: Schätzung der Segmentgröße;Auswahl
 seo-description: Mit Ordnereigenschaften können Sie Eigenschaften, die sich im selben Ordner und in allen untergeordneten Ordnern befinden, automatisch in ein Zielgruppensegment Aggregat.
 seo-title: Ordnereigenschaften
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ Ein [!UICONTROL folder trait] enthält alle Eigenschaften in einem übergeordnet
 Die Häufigkeit eines Ordnermerkmals ist die Summe der Realisierungen der Eigenschaften in seinem Ordner und seinen untergeordneten Ordnern. Die folgende Abbildung zeigt die Eigenschaften A, B und C, die im Ordner &quot;Automobile&quot;leben. Beachten Sie, dass alle Eigenschaften die folgenden Realisierungen aufweisen:
 
 * Eigenschaft A: 5
-* Eigenschaft B: 3
-* Eigenschaft C: 1
+* Eigenschaft B: 1
+* Eigenschaft C: 3
 
 In diesem Fall hat das [!DNL Automobile Folder Trait] 7 Realisierungen.
 
