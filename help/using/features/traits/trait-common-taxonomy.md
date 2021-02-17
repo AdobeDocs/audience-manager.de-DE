@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 4%
 
 ---
@@ -47,5 +47,5 @@ Sie weisen beim Erstellen oder Bearbeiten von Eigenschaften im [!UICONTROL Add N
 Wenn Sie sich entscheiden, Eigenschaften nach unserer allgemeinen Taxonomie zu klassifizieren, sollten Sie sich Folgendes merken:
 
 * Klassifizierung ist *optional*.
-* Die Eigenschaften *sind nicht* standardmäßig einer taxonomischen Kategorie zugeordnet (d. h. Eigenschaften werden nicht als &quot;unbekannt&quot;oder &quot;nicht kategorisiert&quot;usw. klassifiziert).
+* Die Eigenschaften *werden nicht* standardmäßig einer taxonomischen Kategorie zugewiesen (d. h. Eigenschaften werden nicht als &quot;unbekannt&quot;oder &quot;nicht kategorisiert&quot;usw. klassifiziert).
 * Eigenschaften können nur zu *einer* taxonomischen Kategorie gehören (Mehrfachklassifizierungen und Kategorien sind nicht zulässig).
