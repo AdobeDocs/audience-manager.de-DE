@@ -5,13 +5,13 @@ seo-title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 solution: Audience Manager
 title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; SFTP address; STFP IP address; FTP address
+keywords: SFTP; SFTP-Adresse; STFP-IP-Adresse; FTP-Adresse
 feature: Administration
 translation-type: tm+mt
 source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 85%
+source-wordcount: '1159'
+ht-degree: 84%
 
 ---
 
