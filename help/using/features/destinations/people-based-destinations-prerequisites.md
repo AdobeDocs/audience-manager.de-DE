@@ -72,7 +72,7 @@ Auch wenn [!UICONTROL People-Based Destinations] Ihnen die Zielgruppe von Audien
 
 Verschlüsselung ist eine Zweiwegefunktion. Alle verschlüsselten Informationen können auch mit dem richtigen Entschlüsselungsschlüssel entschlüsselt werden. Das Verschlüsseln von Daten im Zusammenhang mit Audience Managern stellt eine ernsthafte Gefahr dar, da jede verschlüsselte Form von personenbezogenen Daten auch entschlüsselt werden kann. Im Gegensatz zur Verschlüsselung sind [!UICONTROL People-Based Destinations] für die Verwendung mit Hashdaten konzipiert.
 
-Hashing ist eine Einwegfunktion, die die Eingabe verwirft, um ein einzigartiges Ergebnis zu erzielen. Wenn Sie geeignete Hashing-Algorithmen wie [!DNL SHA256] verwenden, gibt es keine Möglichkeit, die Hashing-Funktion umzukehren und die nicht verschachtelten Informationen anzuzeigen. Die E-Mail-Adressen, die Sie an Audience Manager senden, müssen mit dem [!DNL SHA256]-Algorithmus Hash-Wert erhalten. Auf diese Weise können Sie sicherstellen, dass keine entsperrten E-Mail-Adressen Audience Manager erreichen.
+Hashing ist eine Einwegfunktion, die die Eingabe verwirft, um ein einzigartiges Ergebnis zu erzielen. Wenn Sie geeignete Hashing-Algorithmen wie [!DNL SHA256] verwenden, gibt es keine Möglichkeit, die Hashing-Funktion umzukehren und die nicht verschachtelten Informationen anzuzeigen. Die E-Mail-Adressen, die Sie an Audience Manager binden, müssen mit dem [!DNL SHA256]-Algorithmus Hashing durchgeführt werden. Auf diese Weise können Sie sicherstellen, dass keine entsperrten E-Mail-Adressen Audience Manager erreichen.
 
 ## Hashanforderungen {#hashing-requirements}
 
