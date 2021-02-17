@@ -5,12 +5,12 @@ seo-title: Detailseite einer Eigenschaft
 solution: Audience Manager
 title: Detailseite einer Eigenschaft
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+keywords: Aufschlüsselung des Identitätstyps, Aufschlüsselung der Identität, Identitäts-Berichte der Audience, geräteübergreifende ID, Geräte-ID
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Am oberen Rand der Detailseite [!UICONTROL trait] befinden sich die Tools, mit d
 
 1. **[!UICONTROL Add New]**: Verwenden Sie diese Option, um neue  [!UICONTROL rule-based],  [!UICONTROL algorithmic]oder  [!UICONTROL onboarded traits]zu erstellen.
 2. **[!UICONTROL Edit]**: Verwenden Sie diese Option, um die Konfiguration der aktuellen Version zu ändern  [!UICONTROL trait].
-3. **[!UICONTROL Delete]**: Verwenden Sie diese Option, um den aktuellen Eintrag  [!UICONTROL trait] aus Ihrem Audience Manager-Konto zu entfernen.
+3. **[!UICONTROL Delete]**: Verwenden Sie diese Option, um die aktuelle Version  [!UICONTROL trait] aus Ihrem Audience Manager-Konto zu entfernen.
 4. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option ähnlich  [!UICONTROL traits] wie die angezeigte, aus  [!UICONTROL Audience Marketplace] Datengebühren, die Sie nicht abonniert haben. Siehe [Audience Marketplace für Datenkäufer](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md), um zu erfahren, wie Sie in [!UICONTROL Marketplace] navigieren und ähnliche Eigenschaften finden.
 
 ![basic-property-information](assets/basic-trait-information.png)
@@ -56,7 +56,7 @@ Das [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
 * **[!UICONTROL Unique Trait Realizations]**: Anzahl der Unique Users, die dies über einen bestimmten Zeitraum  [!UICONTROL trait] zu ihrem Profil hinzugefügt haben.
 * **[!UICONTROL Total Trait Population]**: Die Anzahl der Unique Users, die derzeit für diese Einstellung qualifiziert sind  [!UICONTROL trait].
 
-* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei Top  [!UICONTROL cross-device data sources] mit der höchsten Bevölkerungszahl, die sich für die  [!UICONTROL trait]in absteigender Reihenfolge qualifiziert haben. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die für [!UICONTROL trait] qualifiziert sind, von den [!UICONTROL cross-device data sources], die nicht in den oberen drei. Dieser Bericht wird nur angezeigt, wenn Sie im Dropdown-Menü [!UICONTROL Show Results By] oben rechts auf der Seite [!UICONTROL Cross-device ID] &lt;a0/> auswählen. Die Standard-Dropdown-Option ist [!UICONTROL Device ID], bei der dieser Bericht nicht angezeigt wird.
+* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei Top  [!UICONTROL cross-device data sources] mit der höchsten Bevölkerungszahl, die sich für die  [!UICONTROL trait]in absteigender Reihenfolge qualifiziert haben. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die für [!UICONTROL trait] qualifiziert sind, von den [!UICONTROL cross-device data sources], die nicht in den oberen drei. Dieser Bericht wird nur angezeigt, wenn Sie im Dropdown-Menü [!UICONTROL Show Results By] oben rechts auf der Seite [!UICONTROL Cross-device ID]  auswählen. Die Standard-Dropdown-Option ist [!UICONTROL Device ID], bei der dieser Bericht nicht angezeigt wird.
 
    ![trait-graph](assets/trait-identity.png)
 
