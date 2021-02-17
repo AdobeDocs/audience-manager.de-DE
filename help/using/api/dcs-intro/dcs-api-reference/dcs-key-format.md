@@ -1,6 +1,6 @@
 ---
-description: Bei einem Aufruf akzeptiert der DCS wichtige Daten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
-seo-description: Bei einem Aufruf akzeptiert der DCS wichtige Daten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
+description: Bei einem Aufruf akzeptiert der DCS Daten mit Schlüsselwerten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
+seo-description: Bei einem Aufruf akzeptiert der DCS Daten mit Schlüsselwerten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
 seo-title: Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen
 solution: Audience Manager
 title: Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen
