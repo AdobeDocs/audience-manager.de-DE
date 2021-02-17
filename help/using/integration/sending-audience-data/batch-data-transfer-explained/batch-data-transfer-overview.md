@@ -1,6 +1,6 @@
 ---
 description: Eine Übersicht für technische und nicht-technische Kunden, die Daten aus anderen Systemen (offline) in den Audience Manager bringen möchten.
-keywords: inbound, batch, batch upload, batch data
+keywords: Inbound, Batch, Batch-Upload, Stapeldaten
 seo-description: Eine Übersicht für technische und nicht-technische Kunden, die Daten aus anderen Systemen (offline) in den Audience Manager bringen möchten. Verwenden Sie dazu die Option zum Hochladen von Stapeln in Audience Manager.
 seo-title: Senden von Batch-Daten an Audience Manager – Überblick
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '488'
 ht-degree: 6%
 
 ---
