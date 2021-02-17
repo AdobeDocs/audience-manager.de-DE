@@ -1,6 +1,6 @@
 ---
 description: Verwenden Sie den Besucher-Profil-Viewer, um den aktuellen Status eines Profils für den aktuellen Browser einschließlich seiner Eigenschaften und Segmente anzuzeigen. Für jede Eigenschaft können Sie die SID, den Namen, Details zur Realisierung der Besucher-Eigenschaften (Erstanbieter- oder Drittanbieter-Eigenschaften), das Realisierungsdatum und die Häufigkeit der Realisierungen Ansicht haben. Für jedes Segment können Sie die SID, den Namen und das Mitgliedsdatum des Segments Ansicht haben. Sie können das Besucher-Profil auch für eine andere Audience Manager-Profil-ID (UUID) Ansicht haben. Der Besucher Profil Viewer ist hilfreich bei der Fehlerbehebung.
-keywords: location;location parameter
+keywords: location;location-Parameter
 seo-description: Verwenden Sie den Besucher-Profil-Viewer, um den aktuellen Status eines Profils für den aktuellen Browser einschließlich seiner Eigenschaften und Segmente anzuzeigen. Für jede Eigenschaft können Sie die SID, den Namen, Details zur Realisierung der Besucher-Eigenschaften (Erstanbieter- oder Drittanbieter-Eigenschaften), das Realisierungsdatum und die Häufigkeit der Realisierungen Ansicht haben. Für jedes Segment können Sie die SID, den Namen und das Mitgliedsdatum des Segments Ansicht haben. Sie können das Besucher-Profil auch für eine andere Audience Manager-Profil-ID (UUID) Ansicht haben. Der Besucher Profil Viewer ist hilfreich bei der Fehlerbehebung.
 seo-title: Visitor Profile Viewer
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 2%
 
 ---
