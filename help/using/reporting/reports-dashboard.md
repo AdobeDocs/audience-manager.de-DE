@@ -29,7 +29,7 @@ c_dashboard.xml
 
 Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann beispielsweise Benutzergruppenberechtigungen so konfigurieren, dass ein Team, das das Konto des Advertiser A verwaltet, die Daten des Berichte von Advertiser B nicht sehen kann. Dieses Dashboard kann zur Fehlerbehebung bei Problemen mit dem Data-Versand verwendet werden.
 
-Wenn Sie z. B. einen Tiefpunkt oder eine Spitze bei Unique Users mit der Unterteilung des Typs Unique User (regelbasiert im Vergleich zu eingebettet) bemerken, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Data-Versand-Problem zu verfolgen. Wenn Sie einen Tiefpunkt bei den Unique Users und bei den eingebetteten Unique Users feststellen, können Sie zum Bericht [!UICONTROL On-boarding Status] gehen, um zu sehen, ob ein Problem mit einer eingehenden Datei aufgetreten ist.
+Wenn Sie z. B. einen Tiefpunkt oder eine Spitze bei Unique Users mit der Unterteilung des Typs Unique User (regelbasiert im Vergleich zu eingebettet) bemerken, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Data-Versand-Problem zu verfolgen. Wenn Sie einen Tiefpunkt bei den Unique Users und bei den eingebetteten Unique Users feststellen, können Sie zum Bericht [!UICONTROL On-boarding Status] wechseln, um zu sehen, ob ein Problem mit einer eingehenden Datei aufgetreten ist.
 
 **So greifen Sie auf das Dashboard zu:**
 
