@@ -24,7 +24,7 @@ Verschaffen Sie sich einen Überblick über die ungenutzten Signale, die der Aud
 
 ## Obere nicht verwendete Signale {#top-unused-signals}
 
-Dieser Abschnitt zeigt Ihnen die 50 am häufigsten verwendeten (sowohl neuen als auch alten) Signale, die in den letzten 7 Tagen an [!DNL Audience Manager] gesendet wurden, basierend auf ihrer Gesamtanzahl. Abhängig von den empfangenen Daten kann diese Tabelle einige oder alle Einträge in der Tabelle [!DNL Audience Manager]Neue nicht verwendete Signale **enthalten.**
+Dieser Abschnitt zeigt Ihnen die 50 am häufigsten verwendeten (sowohl neuen als auch alten) Signale, die in den letzten 7 Tagen an [!DNL Audience Manager] gesendet wurden, basierend auf ihrer Gesamtanzahl. Abhängig von den empfangenen Daten kann diese Tabelle einige oder alle Einträge in der Tabelle **Neue nicht verwendete Signale** enthalten.[!DNL Audience Manager]
 
 ![](assets/signals-top-unused.png)
 
