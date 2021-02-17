@@ -55,9 +55,9 @@ Hier ist die gleiche Protokolldatei mit den Metadaten entfernt. Die Datei ist kl
 
 | Benutzer-ID | Anzeigen-ID | Bestell-ID | Advertiser-ID |
 |---|---|---|---|
-| 1 | 111 | 456 | 27 |
-| 2 | 111 | 456 | 27 |
 | 3 | 111 | 456 | 27 |
+| 2 | 111 | 456 | 27 |
+| 1 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
