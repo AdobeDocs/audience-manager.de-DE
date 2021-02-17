@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Verwalten von Eigenschaftsregeln {#managing-trait-rules}
 
-In [!UICONTROL Trait Builder] können Sie mit [!UICONTROL Expression Builder] Regeln erstellen und testen, die die Anforderungen an die Audience-Qualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie `color == blue` oder `price > 100`. Vergleichsoperatoren ermitteln die Beziehung zwischen Schlüsseln und Werten. [!DNL Boolean] ausdruck bestimmen die Beziehung zwischen Regelgruppen.
+In [!UICONTROL Trait Builder] können Sie mit [!UICONTROL Expression Builder] Regeln erstellen und testen, die die Anforderungen an die Audience-Qualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie `color == blue` oder `price > 100`. Vergleichsoperatoren ermitteln die Beziehung zwischen Schlüsseln und Werten. [!DNL Boolean] Ausdruck bestimmen die Beziehung zwischen Regelgruppen.
 
 <!-- c_tb_rules.xml -->
 
