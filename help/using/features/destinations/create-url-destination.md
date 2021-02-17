@@ -31,7 +31,7 @@ Dieser Abschnitt enthält Felder und Optionen, mit denen der Erstellungsprozess 
 2. Benennen Sie [!DNL destination]. Vermeiden Sie Abkürzungen und Sonderzeichen.
 3. *(Optional)* Beschreiben Sie die  [!DNL destination]. Eine knappe Beschreibung ist eine effektive Methode, um mehr Informationen über ein [!DNL destination] zu definieren oder bereitzustellen.
 4. Wählen Sie in der Liste **[!UICONTROL Category]** **[!UICONTROL Custom]**.
-5. Wählen Sie in der Liste **[!UICONTROL Environment]** die Umgebung aus, in der [!DNL URL destination] ausgelöst werden soll.
+5. Wählen Sie in der Liste **[!UICONTROL Environment]** die Umgebung aus, in der das [!DNL URL destination]-Zeichen Trigger werden soll.
 6. Klicken Sie in der Liste **[!UICONTROL Type]** auf **[!UICONTROL URL]**.
 7. *(Optional)* Wählen Sie eine  **[!UICONTROL Auto-fill Destination Mapping]** aus. Zu den Optionen zählen:
    * **[!UICONTROL Segment ID]**: Fügt die Segment-ID automatisch hinzu und sendet sie an die  [!DNL destination].
