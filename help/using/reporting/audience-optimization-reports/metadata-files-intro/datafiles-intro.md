@@ -29,7 +29,7 @@ Eine Datendatei muss von einer Metadatendatei begleitet sein. Der Inhalt der Met
 
 Die folgende Syntax definiert die Struktur eines gut formatierten Datendateinamens. Hinweis: *kursiv* gibt einen variablen Platzhalter an, der sich je nach Dateiinhalt ändert.
 
-**Syntax:** <pre><i>ereignistyp</i>_<i>yyymmdd</i></code></pre>
+**Syntax:** <pre><i>Ereignistyp</i>_<i>yyymmdd</i></code></pre>
 
 In einem Dateinamen:
 
@@ -59,7 +59,7 @@ Inhalt der Datei:
 
 **Feldbezeichnungen**
 
-In der folgenden Tabelle sind die Spaltenüberschriften für die Datendatei Listen aufgeführt. Bei den Kopfzeilen wird die Groß-/Kleinschreibung beachtet und sie müssen in der Tabelle in der richtigen Reihenfolge angezeigt werden. Sofern nicht anders angegeben, sind alle Datentypen Ganzzahlen (INT).
+In der folgenden Tabelle sind die Spaltenüberschriften für die Datendatei Listen aufgeführt. Bei Kopfzeilen wird die Groß-/Kleinschreibung beachtet und sie müssen in der Tabelle in der richtigen Reihenfolge angezeigt werden. Sofern nicht anders angegeben, sind alle Datentypen Ganzzahlen (INT).
 
 <table id="table_D8C5068741C3460380505F95F3016757"> 
  <thead> 
