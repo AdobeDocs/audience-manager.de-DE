@@ -3,14 +3,14 @@ description: In diesem Dokument wird erläutert, wie Kundendaten im Audience Ma
 seo-description: In diesem Dokument wird erläutert, wie Kundendaten im Audience Manager verwaltet werden.
 seo-title: Data Governance
 solution: Audience Manager
-keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
+keywords: GDPR-Benutzeroberfläche, GDPR-API, CCPA, Datenschutz, Zustimmung, Verschleierung, Governance
 title: Datenverwaltung
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 96%
+source-wordcount: '467'
+ht-degree: 94%
 
 ---
 
