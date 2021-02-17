@@ -1,6 +1,6 @@
 ---
 description: Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie ein algorithmisches Modell in Model Builder erstellen können.
-keywords: algo how works
+keywords: algo-Funktionsweise
 seo-description: Beschreibt die erforderlichen und optionalen Schritte, mit denen Sie ein algorithmisches Modell in Model Builder erstellen können.
 seo-title: Algorithmisches Modell erstellen
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
