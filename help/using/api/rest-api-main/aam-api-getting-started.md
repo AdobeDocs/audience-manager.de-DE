@@ -171,7 +171,7 @@ Die Antwort [!DNL JSON] enthält Ihr neues Zugriffstoken. Die Antwort sollte wie
 
 [!DNL Audience Manager] [!UICONTROL REST API] unterstützt Autorisierungscode und implizite Authentifizierung. Um diese Zugriffsmethoden verwenden zu können, müssen sich Ihre Benutzer bei `https://api.demdex.com/oauth/authorize` anmelden, um Zugriff auf Token zu erhalten und sie zu aktualisieren.
 
-## Authentifizierte [!DNL API]-Anforderungen {#authenticated-api-requests}
+## Authentifizierte [!DNL API] Anforderungen {#authenticated-api-requests}
 
 Voraussetzungen für den Aufruf der [!DNL API]-Methoden, nachdem Sie ein Authentifizierungstoken erhalten haben.
 
