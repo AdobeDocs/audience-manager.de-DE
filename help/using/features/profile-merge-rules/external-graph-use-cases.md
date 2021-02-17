@@ -105,13 +105,13 @@ Nehmen wir an, Jane besitzt drei Geräte, mit denen sie regelmäßig nach Pausch
 
 Mit der [!UICONTROL No Cross-Device Profile]- + [!UICONTROL Adobe Co-op Device Graph]-Regel kann das Reisebüro alle drei Geräte-Profil zusammenführen, da sie über das [!UICONTROL Adobe Co-op Device Graph] mit demselben Inhaber verknüpft sind.
 
-![audience-Erweiterungs-Regel](assets/audience-expansion-rule.png)
+![Audience-Erweiterungs-Regel](assets/audience-expansion-rule.png)
 
 In unserem Beispiel wurden die Eigenschaften, die für die Qualifizierung für das Segment erforderlich sind, alle auf [!DNL Device 1] erfasst. Da Audience Manager jedes Profil, das an der Segmentzusammenführung teilgenommen hat, für ein Segment qualifiziert, werden alle drei Jane-Geräte-Profil nun segmentiert.
 
 Durch diese Regel wurde die Anzahl der Gerätesegmente, die für das Profil infrage kommen, von 1 auf 3 erhöht und das Reisebüro hat es ermöglicht, allen drei  im Besitz von Jane eine einheitliche Nachricht zu senden.
 
-![audience-Erweiterung](assets/audience-expansion.png)
+![Audience-Erweiterung](assets/audience-expansion.png)
 
 ## Erweitertes geräteübergreifendes Targeting {#advanced-graph-expansion}
 
@@ -121,7 +121,7 @@ Dieser Verwendungsfall zeigt, wie Sie das Audience-Targeting für authentifizier
 
 Im folgenden Beispiel möchte die Acme Inc.-Firma alle Haushalte mit einem Einkommen von über 100.000 USD pro Jahr, die [!DNL Acme Inc.]-Abonnenten unter [!DNL Data Plan A] haben, mit einem [!DNL iPhone 7]-Gerät Zielgruppe.
 
-John verwendet sein iPhone 7 auf Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig enthält der John-Cluster zwei weitere Geräte, die er regelmäßig verwendet: sein Laptop ([!DNL Co-Op Device Graph]) und sein sekundäres Smartphone [!DNL Device 1] (a [!DNL Device 2] auf [!DNL Samsung S7]).[!DNL Data Plan B]
+John verwendet sein iPhone 7 auf Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig enthält der John-Cluster zwei weitere Geräte, die er regelmäßig verwendet: sein Laptop ([!DNL Device 1]) und sein sekundäres Smartphone [!DNL Device 2] (a [!DNL Samsung S7] auf [!DNL Data Plan B]).[!DNL Co-Op Device Graph]
 
 Durch die Verwendung von **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** ist [!DNL Acme Inc.] in der Lage, personalisierte Nachrichten an alle drei Geräte aus John&#39;s Device Graph-Cluster zu senden, auch wenn zunächst nur eines von ihnen für das Segment qualifiziert ist.
 
