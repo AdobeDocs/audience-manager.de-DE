@@ -1,6 +1,6 @@
 ---
 description: In diesem Dokument finden Sie die vollständige Liste der Adobe Audience Manager-IDs.
-keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
+keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuuid, uuuid, uuid, uuid, uuid, uuid, uuid, uuuid, uuuid, uuuid
 seo-description: In diesem Dokument finden Sie die vollständige Liste der Adobe Audience Manager-IDs.
 seo-title: Index of IDs in Audience Manager
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: reference
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '964'
 ht-degree: 5%
 
 ---
