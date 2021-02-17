@@ -1,6 +1,6 @@
 ---
 description: Mit DIL-APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene erweitern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
-keywords: create traits;create trait
+keywords: Eigenschaften erstellen;Eigenschaften erstellen
 seo-description: Mit DIL-APIs auf Instanzebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene erweitern die API-Funktionalität, die durch Methoden auf Klassenebene festgelegt wird.
 seo-title: DIL-Methoden auf Instanzebene
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1109'
 ht-degree: 15%
 
 ---
