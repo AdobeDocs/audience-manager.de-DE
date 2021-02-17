@@ -53,7 +53,7 @@ Der `AllowScriptAccess`-Code im HTML-Code, der eine SWF-Datei lädt, steuert die
 
 **JS- [!UICONTROL DIL] Codeplatzierung**
 
-Versuchen Sie, das Datenerfassungsmodul JS [!UICONTROL DIL] auf der Seite zu platzieren, damit es vor der Datei [!DNL FLA] geladen wird. Wenn die [!DNL FLA]-Datei zuerst geladen wird, bevor [!UICONTROL DIL] die Datenerfassung abgeschlossen ist, können Sie die anfänglichen Datensignale verpassen, die [!UICONTROL Flash DIL] an dieses Modul sendet. Nach der Instanziierung erfasst das Datenerfassungsmodul jedoch alle nachfolgenden SWF-Dateidaten, die von [!UICONTROL DIL] weitergegeben werden.[!UICONTROL Flash DIL]
+Versuchen Sie, das Datenerfassungsmodul JS [!UICONTROL DIL] auf der Seite zu platzieren, damit es vor der Datei [!DNL FLA] geladen wird. Wenn die [!DNL FLA]-Datei zuerst geladen wird, bevor [!UICONTROL DIL] die Datenerfassung abgeschlossen ist, können Sie die anfänglichen Datensignale verpassen, die [!UICONTROL Flash DIL] an dieses Modul sendet. Nach der Instanziierung erfasst das Datenerfassungsmodul jedoch alle nachfolgenden SWF-Dateidaten, die von [!UICONTROL Flash DIL] weitergegeben werden.[!UICONTROL DIL]
 
 ## Von Flash DIL erfasste Daten {#data-collected}
 
