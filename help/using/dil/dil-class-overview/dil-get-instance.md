@@ -1,6 +1,6 @@
 ---
 description: Ruft eine Partnerspezifische DIL-Instanz ab.
-keywords: audience manager api;aam api;audience manager apis;aam apis
+keywords: API des Audience-Managers;AAM-API;API des Audience-Managers;AAM-API
 seo-description: Ruft eine Partnerspezifische DIL-Instanz ab.
 seo-title: getDil
 solution: Audience Manager
@@ -10,8 +10,8 @@ feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 17%
+source-wordcount: '83'
+ht-degree: 15%
 
 ---
 
