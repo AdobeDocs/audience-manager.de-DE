@@ -1,6 +1,6 @@
 ---
 description: Mit Audience Marketplace können Datenanbieter und -käufer Datengeschäfte auf SelbstbedienungsWeise mit minimalem Aufwand ausführen. Dies erfolgt durch die Bereitstellung spezieller Funktionen, die je nach Ihrer Rolle als Datenkäufer oder Datenverkäufer variieren. Sie können sogar gleichzeitig Käufer und Verkäufer sein. Und wenn dies nicht besser werden könnte, kümmert sich Audience Marketplace um Verträge, Abrechnungen und Zahlungen zwischen Datenanbietern und Verkäufern.
-keywords: Google analytics
+keywords: Google Analytics
 seo-description: Mit Audience Marketplace können Datenanbieter und -käufer Datengeschäfte auf SelbstbedienungsWeise mit minimalem Aufwand ausführen. Dies erfolgt durch die Bereitstellung spezieller Funktionen, die je nach Ihrer Rolle als Datenkäufer oder Datenverkäufer variieren. Sie können sogar gleichzeitig Käufer und Verkäufer sein. Und wenn dies nicht besser werden könnte, kümmert sich Audience Marketplace um Verträge, Abrechnungen und Zahlungen zwischen Datenanbietern und Verkäufern.
 seo-title: Audience Marketplace
 solution: Audience Manager
@@ -11,7 +11,7 @@ feature: Audience Marketplace
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '276'
 ht-degree: 6%
 
 ---
