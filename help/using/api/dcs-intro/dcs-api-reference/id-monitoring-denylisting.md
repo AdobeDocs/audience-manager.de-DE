@@ -1,6 +1,6 @@
 ---
 description: Der DCS überwacht die IDs, die er erhält, und fügt die IDs, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden, einer Blockierungsliste hinzu.
-keywords: id;monitoring;dcs
+keywords: id;Monitoring;dcs
 seo-description: Der DCS überwacht die IDs, die er erhält, und fügt die IDs, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden, einer Blockierungsliste hinzu.
 seo-title: ID-Überwachung und Blockierungsauflistung
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 2%
 
 ---
