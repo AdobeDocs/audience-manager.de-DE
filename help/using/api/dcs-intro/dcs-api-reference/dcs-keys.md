@@ -10,7 +10,7 @@ feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -147,7 +147,7 @@ Alle diese sind optional, es sei denn, Sie möchten eine Antwort von [!DNL DCS].
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
    <td colname="col2"> <p>Erforderlich, wenn Sie eine <code> JSON</code> Antwort von <span class="wintitle"> DCS</span> wünschen. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
-      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Wenn Sie dies weglassen, gibt der DCS<span class="wintitle"> ein Pixel in der Kopfzeile zurück.</span> </li> 
+      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Wenn Sie dies weglassen, gibt der DCS</span> ein Pixel in der Kopfzeile zurück.<span class="wintitle"> </span></li> 
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Wenn Sie dies einschließen, gibt das <span class="wintitle">-DCS</span> ein <code> JSON</code>-Objekt im Hauptteil der Antwort zurück. Siehe Beispiel unten. Ihre Antwort könnte komplexer sein. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
