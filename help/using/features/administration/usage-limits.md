@@ -4,13 +4,13 @@ seo-description: Audience Manager legt eine Höchstgrenze für die Anzahl der Ei
 seo-title: Nutzungsbeschränkungen
 solution: Audience Manager
 title: Nutzungsbeschränkungen
-keywords: ID mapping, ID mappings, cookie mappings
+keywords: ID-Zuordnung, ID-Zuordnungen, Cookie-Zuordnungen
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 6%
 
 ---
