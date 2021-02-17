@@ -112,7 +112,7 @@ Die von diesen Schlüssel-Wert-Paaren weitergeleiteten IDs helfen beim Erstellen
 
 In diesem Beispiel erstellen wir eine Metadatendatei, die kreative Namen in einen [!UICONTROL Audience Optimization]-Bericht einbringt. Dazu müssen wir kreative IDs, Kampagnen und Datenquellen-IDs aus einem Ereignis-Aufruf extrahieren.
 
-![ereignis-Aufrufbild](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
+![Ereignis-Aufrufbild](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
 
 ### Dateiname
 
