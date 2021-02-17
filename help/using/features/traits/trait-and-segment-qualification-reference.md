@@ -1,6 +1,6 @@
 ---
 description: Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird im Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Die nachstehende Tabelle enthält detaillierte Informationen zur Eigenschaftsqualifikation.
-keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
+keywords: Eigenschaftsqualifikation;Realisierung von Eigenschaften;Eindeutige Eigenschaften;UTR;Gesamtanzahl der Eigenschaften;TTP
 seo-description: Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird im Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Die nachstehende Tabelle enthält detaillierte Informationen zur Eigenschaftsqualifikation.
 seo-title: Eigenschaftsqualifikationsreferenz
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '837'
 ht-degree: 2%
 
 ---
