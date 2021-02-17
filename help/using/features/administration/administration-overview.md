@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Für den Beginn der Benutzermigration fordern wir alle Audience Manager auf, unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration von Audience Managern zu Admin Console](admin-console-migration.md).
+> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um die Benutzermigration Beginn, müssen alle Audience Manager unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen ergreifen: [Benutzermigration von Audience Managern zu Admin Console](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert haben, verschwinden die Benutzerverwaltungsbereiche dieses Dokuments.
 
@@ -40,7 +40,7 @@ Enterprise-Kunden, die [!DNL Audience Manager] verwenden, benötigen eine Data M
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Für den Beginn der Benutzermigration fordern wir alle Audience Manager auf, unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration von Audience Managern zu Admin Console](admin-console-migration.md).
+> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Um die Benutzermigration Beginn, müssen alle Audience Manager unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen ergreifen: [Benutzermigration von Audience Managern zu Admin Console](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert haben, wird der Benutzerverwaltungsabschnitt dieses Dokuments entfernt.
 
@@ -140,7 +140,7 @@ Nachfolgend finden Sie eine Beschreibung der Bedeutung der einzelnen [!UICONTROL
 
 * `EDIT_ALL_DESTINATIONS` - Die Benutzer können alle  [!UICONTROL destinations] eingerichteten Elemente innerhalb ihres Benutzerkontos bearbeiten.
 * `CREATE_DESTINATIONS` - Benutzer können eine Datei erstellen  [!UICONTROL destinations].
-* `VIEW_ALL_DESTINATIONS` - Die Benutzer können alle  [!UICONTROL destinations] eingerichteten Firmen in ihrem Benutzerkonto Ansichten durchführen.
+* `VIEW_ALL_DESTINATIONS` - Benutzer können alle  [!UICONTROL destinations] eingerichteten Firmen in ihrem Benutzerkonto Ansicht haben.
 * `DELETE_ALL_DESTINATIONS` - Benutzer können alle  [!UICONTROL destinations] eingerichteten Elemente in ihrem Benutzerkonto löschen.
 
 **[!UICONTROL Tags]**
