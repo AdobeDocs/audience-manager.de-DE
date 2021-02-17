@@ -21,7 +21,7 @@ Mit den Optionen [!UICONTROL profile merge rule] können Sie den Datentyp [!DNL 
 
 Sie erstellen ein [!UICONTROL Profile Merge Rule], indem Sie eine Auswahl aus den unten beschriebenen Optionen treffen, in [!UICONTROL Profile Merge Rule Setup].
 
-![profil-merge-rule-setup](assets/profile-merge-rule-setup.png)
+![Profil-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
 ## [!UICONTROL Profile Merge Rule] Optionsübersicht  {#overview}
 
@@ -84,7 +84,7 @@ Mit dem [!UICONTROL Cross-Device Options] können Sie authentifizierte und nicht
 
 ## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-Die [!UICONTROL Cross-Device Profile Options]-Liste dient der [!UICONTROL cross-device data sources]. Diese Optionen verwenden die Namen, die Sie beim Erstellen von [!UICONTROL cross-device] [!UICONTROL data source] angegeben haben (siehe [Erstellen einer geräteübergreifenden Datenquelle](merge-rules-start.md#create-data-source)). Sie können bis zu 3 [!UICONTROL cross-device data sources] auswählen, um sie mit jeder Profil-Regel zu verwenden. Die [!UICONTROL Authenticated Profile Options] stehen zur Verfügung, wenn Sie **[!UICONTROL Current Authenticated Profiles]** oder **[!UICONTROL Last Authenticated Profiles]** auswählen.
+Die [!UICONTROL Cross-Device Profile Options]-Liste gibt Ihre [!UICONTROL cross-device data sources] an. Diese Optionen verwenden die Namen, die Sie beim Erstellen von [!UICONTROL cross-device] [!UICONTROL data source] angegeben haben (siehe [Erstellen einer geräteübergreifenden Datenquelle](merge-rules-start.md#create-data-source)). Sie können bis zu 3 [!UICONTROL cross-device data sources] auswählen, um sie mit jeder Profil-Regel zu verwenden. Die [!UICONTROL Authenticated Profile Options] stehen zur Verfügung, wenn Sie **[!UICONTROL Current Authenticated Profiles]** oder **[!UICONTROL Last Authenticated Profiles]** auswählen.
 
 ## [!UICONTROL Device Options] {#device-options}
 
