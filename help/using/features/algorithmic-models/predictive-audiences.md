@@ -55,7 +55,7 @@ Als Anbieter möchte ich meine Erstanbieter-Audience in Echtzeit klassifizieren,
 
 ### Verwendungsfall Nr. 5
 
-Als Marketingspezialist möchte ich vorhersagen, in welcher Customer Journey die Besucher meiner Website sich befinden, wie z.B. Entdeckung, Interaktion, Kauf oder Bindung, damit ich sie entsprechend Zielgruppe haben kann.
+Als Marketingspezialist möchte ich vorhersagen, in welcher Journey-Phase meine Website-Besucher sich befinden, wie z. B. Entdeckung, Interaktion, Kauf oder Bindung, damit ich sie entsprechend Zielgruppen vornehmen kann.
 
 ### Verwendungsfall Nr. 6
 
