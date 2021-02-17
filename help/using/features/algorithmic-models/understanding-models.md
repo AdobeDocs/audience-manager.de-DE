@@ -1,6 +1,6 @@
 ---
 description: Erstellen und verwalten Sie die Eigenschaften oder Segmente, die bei der Modellierung mit Look-Alias verwendet werden.
-keywords: relative weight, lookalike
+keywords: relative Gewichtung, aussehen
 seo-description: Erstellen und verwalten Sie die Eigenschaften oder Segmente, die bei der Modellierung mit Look-Alias verwendet werden.
 seo-title: Look-Alike-Modellierung
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1593'
 ht-degree: 1%
 
 ---
