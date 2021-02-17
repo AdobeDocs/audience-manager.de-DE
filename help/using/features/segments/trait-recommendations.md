@@ -146,7 +146,7 @@ Zur Erstellung von Eigenschaftsempfehlungen berechnet Audience Manager die [Jacc
 
 ## Ähnlichkeitsbewertung der Eigenschaften {#trait-similarity-score}
 
-Audience Manager berechnen die &lt; a0/> zwischen zwei Eigenschaften, indem sie die Schnittmenge und Vereinigung in Bezug auf die Anzahl der [!UICONTROL Trait Similarity Score]s berechnen und dann die beiden teilen. [!UICONTROL UUID] Für die beiden Eigenschaften A und B sieht die Berechnung wie folgt aus:
+Audience Manager berechnen die &lt; a0/> zwischen zwei Eigenschaften, indem sie die Schnittmenge und Vereinigung in Bezug auf die Anzahl der [!UICONTROL UUID]s berechnen und dann die beiden teilen. [!UICONTROL Trait Similarity Score] Für die beiden Eigenschaften A und B sieht die Berechnung wie folgt aus:
 
 ![jaccard-Ähnlichkeit](assets/jaccard_similarity.png)
 
