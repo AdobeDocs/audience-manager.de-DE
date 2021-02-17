@@ -1,6 +1,6 @@
 ---
 description: Übersicht und Arbeitsablauf für Datenanbieter, die Daten aus Audience Manager verkaufen möchten.
-keywords: Google analytics
+keywords: Google Analytics
 seo-description: Übersicht und Arbeitsablauf für Datenanbieter, die Daten aus Audience Manager verkaufen möchten.
 seo-title: Audience Marketplace für Datenanbieter
 solution: Audience Manager
@@ -11,8 +11,8 @@ feature: Audience Marketplace
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 4%
+source-wordcount: '452'
+ht-degree: 3%
 
 ---
 
