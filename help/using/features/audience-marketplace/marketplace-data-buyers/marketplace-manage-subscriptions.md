@@ -285,7 +285,7 @@ Auf dieser Seite finden Sie die folgenden Informationen:
    * Klicken Sie auf **[!UICONTROL Request More Details]**, um dem Datenanbieter Fragen zum ausgewählten Datenfeed zu stellen oder einen Rabatt anzufordern. Diese Funktion sendet Ihre Kommentare und Fragen direkt an den Datenanbieter.
 
 1. Datenfeed-Berichtsmetriken. Das Venn-Diagramm (und zugehörige Metriken) zeigt Ihnen die Daten der letzten 30 Tage mit Eigenschaften, die sich überschneiden. Siehe [Der Marketplace: Info](marketplace-data-buyers.md#about-marketplace) für Details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: Die Anzahl der Unique Users in Ihrem Konto, die sich mit den Benutzern im Konto des Anbieters überschneiden. Eine Definition individueller Benutzer finden Sie unter AAM UUUID im Index der IDs in Audience Manager[.](/help/using/reference/ids-in-aam.md)
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: Die Anzahl der Unique Users in Ihrem Konto, die sich mit den Benutzern im Konto des Anbieters überschneiden. Eine Definition individueller Benutzer finden Sie unter AAM UUUID im Index der IDs in Audience Manager](/help/using/reference/ids-in-aam.md).[
    * **[!UICONTROL 30 Day Provider Unique Users]**: Die Anzahl der Unique Users, die vom Konto des Anbieters kommen.
    * **[!UICONTROL Your Unique Users]**: Die Anzahl der Unique Users, die von Ihrem Konto kommen.
 
