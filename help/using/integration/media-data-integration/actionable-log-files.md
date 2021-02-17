@@ -1,6 +1,6 @@
 ---
 description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne Pixel anhängen zu müssen.
-keywords: actionable logs, alf, ALF
+keywords: Verwertbare Protokolle, Alf, ALF
 seo-description: Mit ausführbaren Protokolldateien können Sie Mediensignale aus Protokolldateien des Anzeigenservers erfassen, um Eigenschaften in Audience Manager zu erstellen. Erfassen Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne Pixel anhängen zu müssen.
 seo-title: Ausführbare Protokolldateien
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Log Files
 translation-type: tm+mt
 source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1609'
 ht-degree: 3%
 
 ---
@@ -302,7 +302,7 @@ Um regelbasierte Eigenschaften mit Ihren umsetzbaren Signalen zu erstellen, wäh
 
 ## Nutzungsszenarios {#use-cases}
 
-Ein Vorteil der Implementierung von [!UICONTROL Actionable Log Files] ist die Option, [Neuigkeit und Häufigkeit](../../features/segments/recency-and-frequency.md)-Steuerelemente auf alle [regelbasierten Eigenschaften](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) anzuwenden, die brauchbare Signale enthalten. Auf diese Weise können Sie z. B. die Häufigkeit begrenzen, mit der ein Benutzer ein bestimmtes kreatives Element innerhalb einer Media-Kampagne anzeigt. Lesen Sie [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md), um zu erfahren, wie Sie dies tun. Weitere Anwendungsfälle sind:
+Ein Vorteil der Implementierung von [!UICONTROL Actionable Log Files] ist die Option, [Neuigkeit und Häufigkeit](../../features/segments/recency-and-frequency.md)-Steuerelemente auf alle [regelbasierten Eigenschaften](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) anzuwenden, die brauchbare Signale enthalten. So können Sie z. B. die Häufigkeit begrenzen, mit der ein Benutzer ein bestimmtes kreatives Element innerhalb einer Media-Kampagne anzeigt. Lesen Sie [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md), um zu erfahren, wie Sie dies tun. Weitere Anwendungsfälle sind:
 
 ### Retargeting-Benutzer
 
