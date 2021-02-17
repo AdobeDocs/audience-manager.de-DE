@@ -1,6 +1,6 @@
 ---
 description: Häufig gestellte Fragen zum Einpflegen von Offline-Daten in Audience Manager.
-keywords: ftp or s3;s3 or ftp
+keywords: ftp oder s3;s3 oder ftp
 seo-description: Häufig gestellte Fragen zum Einpflegen von Offline-Daten in Audience Manager.
 seo-title: Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Onboarding Offline Data
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1361'
 ht-degree: 91%
 
 ---
