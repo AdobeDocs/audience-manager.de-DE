@@ -80,7 +80,7 @@ Die folgende Dokumentation hilft Ihnen beim Einstieg in private Datenfeeds.
 
 ## Private Data Feeds für Käufer {#private-data-feeds-for-buyers}
 
-Als Käufer erscheinen private Datenfeeds wie jedes andere Angebot im [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace). In diesem Fall zeigt die Feed-Liste jedoch keine Zusammenfassungsinformationen für Eigenschaften, Unique Users und Benutzerüberschneidungen an. Außerdem hat der Datenverkäufer die Möglichkeit, den Namen in der Spalte [!UICONTROL Provider] der Liste [!UICONTROL Marketplace] ein- oder auszublenden. Nachdem der Verkäufer Ihre Abonnement-Anforderung genehmigt hat, stehen Ihnen alle Daten in einem privaten Feed zur Verfügung (es funktioniert wie ein öffentlicher Feed). Das nachstehende [!UICONTROL Marketplace]-Beispiel Liste die 3 verschiedenen Feed-Typen, die Ihnen als Käufer zur Verfügung stehen.
+Als Käufer erscheinen private Datenfeeds wie jedes andere Angebot im [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace). In diesem Fall zeigt die Feed-Liste jedoch keine Zusammenfassungsinformationen für Eigenschaften, Unique Users und Benutzerüberschneidungen an. Der Datenverkäufer hat außerdem die Möglichkeit, den Namen in der Spalte [!UICONTROL Provider] der Liste [!UICONTROL Marketplace] ein- oder auszublenden. Nachdem der Verkäufer Ihre Abonnement-Anforderung genehmigt hat, stehen Ihnen alle Daten in einem privaten Feed zur Verfügung (es funktioniert wie ein öffentlicher Feed). Das nachstehende [!UICONTROL Marketplace]-Beispiel Liste die 3 verschiedenen Feed-Typen, die Ihnen als Käufer zur Verfügung stehen.
 
 ![](assets/buyer_marketplace.png)
 
