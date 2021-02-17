@@ -1,6 +1,6 @@
 ---
 description: Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Änderungen, die in der Beta-Version vorgenommen werden, wirken sich nicht auf Produktionsdaten aus. Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer, wenn Sie an der Beta-Umgebung interessiert sind.
-keywords: sandbox
+keywords: Sandbox
 seo-description: Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Änderungen, die in der Beta-Version vorgenommen werden, wirken sich nicht auf Produktionsdaten aus. Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer, wenn Sie an der Beta-Umgebung interessiert sind.
 seo-title: Beta-Umgebung
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '317'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Added re: AAM-30826.
 
 | Diensleistung | URL/Hostname | Zugang erhalten |
 |--- |--- | --- |
-| S3 | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer oder an den Kundendienst, um einen Amazon S3-Behälter für Ihre Beta-Instanz einzurichten. Lesen Sie mehr über die Vorteile von Amazon S3[.](../reference/amazon-s3.md) |
+| S3 | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer oder an den Kundendienst, um einen Amazon S3-Behälter für Ihre Beta-Instanz einzurichten. Lesen Sie mehr über die Vorteile von Amazon S3](../reference/amazon-s3.md).[ |
 | DCS | `https://dcs-beta.demdex.net/...` | Siehe [Zugriff auf den DCS in der Beta-Umgebung](../reference/beta-environment.md#access-dcs-beta-environment). |
 | Benutzeroberfläche | `https://bank-beta.demdex.com` | Ihre Anmeldeinformationen für die Umgebung der Produktion sind für die Beta-Umgebung gültig. |
 | API | `https://api-beta.demdex.com/...` | Ihre Anmeldeinformationen für die Umgebung der Produktion sind für die Beta-Umgebung gültig. Es wird empfohlen, einen generischen API-Benutzer zu erstellen, [siehe Details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
