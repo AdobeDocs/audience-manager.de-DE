@@ -35,7 +35,7 @@ Konzeptbezogene Informationen, Beschreibungen und Definitionen für [!DNL DCS AP
 
 * [Formatieren von Schlüssel-Wert-Paaren in DCS-Aufrufen](/help/using/api/dcs-intro/dcs-api-reference/dcs-key-format.md)
 
-   Bei einem Aufruf akzeptiert der DCS wichtige Daten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
+   Bei einem Aufruf akzeptiert der DCS Daten mit Schlüsselwerten im standardmäßigen oder serialisierten Format. Informationen zum Formatieren von Standard- und serialisierten Schlüsselwertdaten finden Sie in diesem Abschnitt.
 
 * [Wettlaufsituationen (Race Conditions) und Fehlerbehandlung](/help/using/api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
 
