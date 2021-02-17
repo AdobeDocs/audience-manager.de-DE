@@ -154,7 +154,7 @@ In den folgenden Tabellen steht *kursiv* für einen variablen Platzhalter.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>Nicht autorisierte Kunden-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht im Besitz der aktuellen Organisations-ID ist. Wenn Sie Ihre Organisations-ID nicht kennen oder Ihre Organisations-ID nicht haben, finden Sie weitere Informationen dazu im Abschnitt "Suchen Sie Ihre Organisations-ID" unter <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organisationen und Kontoverknüpfung</a>. </p> </td> 
+   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht im Besitz der aktuellen Organisations-ID ist. Wenn Sie Ihre Organisations-ID nicht kennen oder noch nicht über eine solche verfügen, finden Sie weitere Informationen dazu im Abschnitt "Suchen Sie Ihre Organisations-ID" unter <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organisationen und Kontoverknüpfung</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -189,7 +189,7 @@ In den folgenden Tabellen steht *kursiv* für einen variablen Platzhalter.
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>Anforderung enthält ungültige Parameter </p> </td> 
-   <td colname="col3"> <p>Der <span class="wintitle"> DCS</span> gibt diesen Fehlercode zurück, wenn mindestens ein URL-Parameter nicht richtig kodiert ist. In diesem Fall ignoriert der DCS<span class="wintitle"> die gesamte Anforderung.</span> </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>In der obigen Beispielanforderung ist die <code> %</code>-Sequenz falsch kodiert. Infolgedessen ignoriert der <span class="wintitle"> DCS</span> ihn. </p> <p>Das korrekt kodierte Beispiel sollte wie folgt aussehen: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
+   <td colname="col3"> <p>Der <span class="wintitle"> DCS</span> gibt diesen Fehlercode zurück, wenn mindestens ein URL-Parameter nicht richtig kodiert ist. In diesem Fall ignoriert der DCS</span> die gesamte Anforderung.<span class="wintitle"> </span></p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>In der obigen Beispielanforderung ist die <code> %</code>-Sequenz falsch kodiert. Infolgedessen ignoriert der <span class="wintitle"> DCS</span> ihn. </p> <p>Das korrekt kodierte Beispiel sollte wie folgt aussehen: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
