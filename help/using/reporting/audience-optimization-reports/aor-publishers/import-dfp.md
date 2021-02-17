@@ -34,7 +34,7 @@ Sie müssen die [!DNL Audience Manager]-ID selbst festlegen und können mit [!DN
 
 * `'aamid'` ist der Schlüssel, der als Bezeichner verwendet wird.
 * Der Benutzer-ID-Wert ist korrekt als UUID [!DNL Audience Manager] formatiert, wie in [ID-Index in Audience Manager](../../../reference/ids-in-aam.md) beschrieben.
-* Sie haben die UUID [!DNL Audience Manager] in ein definiertes Feld in Ihren [!DNL Google Ad Manager]-Protokollen (z. B. CustomTargeting) eingeschlossen.
+* Sie haben die UUID [!DNL Audience Manager] in ein definiertes Feld in Ihren [!DNL Google Ad Manager]-Protokollen eingeschlossen (z. B. CustomTargeting).
 
 ## Voraussetzungen für die Protokollingestion-Aktivierung {#prereqs-ingestion-enablement}
 
