@@ -7,9 +7,9 @@ title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience
 keywords: Freigabe von AEP-Audiencen, AEP-Segmente, Plattformsegmente, Segmentfreigabe, Freigabe von Audiencen, Segmente freigeben
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
+source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
@@ -109,9 +109,9 @@ Ein Beispiel eines Segments, das automatisch aus einem Segmentsegment erstellt w
 
 | Element Nr. | Name | Beschreibung |
 ---------|----------|---------
-| 3 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in der Experience Platform. |
+| 1 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in der Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Segmenten der Experience Platform erstellt werden, werden in der Datenquelle **[!DNL Adobe Experience Platform Audience Sharing]** gespeichert. |
-| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in der Experience Platform festgelegten Zusammenführungsrichtlinie entsprechen. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in der Experience Platform festgelegten Zusammenführungsrichtlinie entsprechen. |
 | 4 | [!UICONTROL Segment Rule] | Das Segment besteht aus der Eigenschaft, die im Abschnitt [Eigenschaften](#aep-segments-as-aam-traits) beschrieben wird. |
 
 ## Audience Manager Data Export Control-Unterstützung für Experience Platform {#aam-data-export-control-in-aep}
@@ -162,7 +162,7 @@ Audience Manager aktualisiert die Berichte-Nummern in der Benutzeroberfläche ei
 
 ### Segmentzusammensetzung in Experience Platform
 
-Die Integration zwischen Adobe Experience Platform und Audience Manager verwendet eine Reihe von standardmäßigen [Identitäts-Namensräumen](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) für alle Kunden: ECID, IDFA, GAID, Hash-E-Mail-Adressen (EMAIL_LC_SHA256), AdCloud ID usw. Wenn Ihre Experience Platformen-Segmente eine dieser ID als primäre Identität für die qualifizierten Profil verwenden, werden die Profil in Audience Manager- und Segmenteigenschaften gezählt.
+Die Integration zwischen Adobe Experience Platform und Audience Manager verwendet eine Reihe von standardmäßigen [Identitäts-Namensräumen](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) für alle Kunden: ECID, IDFA, GAID, Hash-E-Mail-Adressen (EMAIL_LC_SHA256), AdCloud ID. Wenn Ihre Experience Platformen-Segmente eine dieser ID als primäre Identität für die qualifizierten Profil verwenden, werden die Profil in Audience Manager- und Segmenteigenschaften gezählt.
 
 Darüber hinaus kann Audience Manager die eingehenden Realisierungen für alle benutzerdefinierten Identitäts-Namensraum registrieren, die Sie in Experience Platformen-Segmenten verwenden, wenn:
 * die Identität als primär *und* gekennzeichnet ist
