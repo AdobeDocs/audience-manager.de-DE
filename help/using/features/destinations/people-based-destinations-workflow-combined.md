@@ -4,11 +4,11 @@ seo-description: 'Diese Seite enthält eine schrittweise Anleitung dazu, wie Sie
 seo-title: Workflow A – Personalisierung basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten
 solution: Audience Manager
 title: Workflow A – Personalisierung basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten
-feature: People-Based Destinations
+feature: Benutzerbezogene Ziele
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1181'
 ht-degree: 7%
 
 ---
@@ -86,7 +86,7 @@ Angenommen, Sie möchten Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.m
 
  
 
-Sie können bis zu 10 Hash-E-Mail-Adressen mit einer einzigen [DPUUID](../../reference/ids-in-aam.md) verknüpfen. Dazu trennen Sie die Hash-E-Mail-Adressen durch ein Komma in der Synchronisierungsdatei.
+Sie können bis zu 10 Hash-E-Mail-Adressen mit einer einzelnen [DPUUID](../../reference/ids-in-aam.md) verknüpfen. Dazu trennen Sie die Hash-E-Mail-Adressen durch ein `<TAB>` in der Synchronisierungsdatei.
 
 In unserem Beispiel würden Sie nun über zwei Datenquellen verfügen.
 
