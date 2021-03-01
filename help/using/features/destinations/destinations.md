@@ -4,13 +4,13 @@ keywords: Integrationscode, Ziel, Zielübersicht, Ziel, Ziel, Ziel, Ziel, Ziel, 
 landing-page-description: Ein Ziel ist ein Drittanbietersystem, z. B. ein Adserver oder DSP, mit dem Daten geteilt werden. Verwenden Sie das Destination Builder-Tool, um Cookie-, URL- oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
 seo-title: 'Ziele '
 solution: Audience Manager
-title: 'Ziele '
+title: Ziele
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: Destination Basics
+feature: Zielgrundlagen
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 15%
 
 ---
