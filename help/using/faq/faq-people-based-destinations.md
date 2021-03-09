@@ -4,12 +4,12 @@ seo-description: 'Antworten auf häufige Fragen zu benutzerbezogenen Zielen.  '
 seo-title: Häufig gestellte Fragen zu benutzerbezogenen Zielen
 solution: Audience Manager
 title: Häufig gestellte Fragen zu benutzerbezogenen Zielen
-feature: People-Based Destinations
+feature: Benutzerbezogene Ziele
 translation-type: tm+mt
-source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
+source-git-commit: eb998042acb46fef2b0e407b3565d8ba4769f0bb
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 97%
+source-wordcount: '1171'
+ht-degree: 94%
 
 ---
 
@@ -78,6 +78,10 @@ Solange die E-Mail-Adresse richtig gehashed und erfasst wird, sollte es keinen U
 **Ich erfasse die geschäftlichen E-Mail-Adressen meiner Kunden, die sich von den in sozialen Netzwerken verwendeten persönlichen E-Mail-Adressen unterscheiden. Wie ordnet man Identitäten über mehrere E-Mail-Adressen hinweg zu?**
 
 Audience Manager kann bis zu 10 E-Mails pro Benutzer sammeln und an Zielplattformen senden. Die E-Mail-Adressen müssen jedoch über Synchronisierungsdateien erfasst werden. Nachdem Audience Manager die E-Mail-Adressen an Zielplattformen gesendet hat, müssen die Plattformen die E-Mail-Adressen mit der eigenen Benutzerbasis abgleichen. Einige Plattformen verfügen möglicherweise über zusätzliche Diagramme für E-Mail-Adressen, die von Audience Manager an Benutzerprofile gesendet werden.
+
+**Kann ich  [!DNL People-Based Destinations] in verwenden  [!DNL Audience Lab]?**
+
+Nein. Derzeit sind alle [!DNL People-Based Destinations]-Ziele von [!DNL Audience Lab] ausgeschlossen. Da für [!DNL People-Based Destinations]- und nachfrageseitige Plattformen unterschiedliche IDs verwendet werden, können Sie die Performance nicht mit Audiencen testen und messen, die gleichmäßig auf sie aufgeteilt sind.
 
 ## Datenexportkontrollen {#data-export-controls}
 
