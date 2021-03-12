@@ -5,11 +5,11 @@ seo-title: Implementieren von Audience Manager
 solution: Audience Manager
 title: Implementieren von Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: Third Party Integrations
+feature: Drittanbieter-Integrationen
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: cf9266e8ae6e222dda3c055725d71f691575f8d0
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1062'
 ht-degree: 1%
 
 ---
@@ -221,13 +221,9 @@ Aufgaben für diese Phase können Folgendes umfassen:
 
 ## Code-Implementierung {#code-implementation}
 
-Obwohl der Bereitstellungsprozess komplex erscheinen mag, ist die Implementierung des Codes so einfach, wie zum Beispiel [!DNL JavaScript] neben dem schließenden `</body>`-Tag Ihrer Website ein paar Zeilen hinzuzufügen.
+Audience Manager verwendet die Data Integration Library ([!DNL DIL]), um Audiencen zu empfangen.
 
-<!-- c_code.xml -->
-
-### Bereitstellung
-
-Das Codefragment für Audience Manager ruft [!DNL Akamai] auf, um die zuvor in der Benutzeroberfläche eingerichteten Geschäftsregeln herunterzuladen. Darüber hinaus werden diese Informationen von Clientbrowsern zwischengespeichert, was die Seiten- und Serverladezeit verkürzt. Unsere Code- und Datenerfassungsmethode ist so konzipiert, dass die Benutzererfahrung über Ihren Bestand hinweg aufrechterhalten wird.
+Detaillierte Anweisungen zur Verwendung von [!DNL DIL] finden Sie unter [DIL-Code abrufen und implementieren](../dil/dil-overview.md).
 
 ### Teilnehmer
 
@@ -236,8 +232,6 @@ Partner-Lösungen können direkt mit Ihren technischen Teams zusammenarbeiten, u
 ## Unterstützung nach der Implementierung {#post-implementation-support}
 
 Unsere gemeinsamen Anstrengungen halten nicht mit der endgültigen Bereitstellung an. Nach Abschluss der Implementierung übernimmt unser Kundenbetreuungsteam die Übernahme.
-
-<!-- c_post_implement_support.xml -->
 
 Kundenbetreuer bieten nach Abschluss des Produktimplementierungsprozesses kontinuierliche Support- und Beratungsdienste an. Sie können mit regelmäßigen Treffen mit Ihrem Kundenbetreuer rechnen. Diese Meetings stellen sicher, dass Sie den maximalen Nutzungs- und Nutzwert von Audience Manager erhalten.
 
