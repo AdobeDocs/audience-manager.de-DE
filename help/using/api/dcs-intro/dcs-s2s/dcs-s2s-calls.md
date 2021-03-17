@@ -4,10 +4,11 @@ solution: Audience Manager
 title: Ausführen von Server-zu-Server-DCS-API-Aufrufen
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
+description: Syntax, Beispiel und Parameter beim Aufrufen von Server-zu-Server-DCS-API-Aufrufen
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4dbe9a838470d1fe54538df12605a0e0aa1e0510
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '356'
 ht-degree: 9%
 
 ---
