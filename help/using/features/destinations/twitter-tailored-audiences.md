@@ -4,11 +4,11 @@ seo-description: In diesem Artikel wird beschrieben, wie Sie Twitter-Audiencen f
 seo-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
 solution: Audience Manager
 title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
-feature: People-Based Destinations
+feature: Benutzerbezogene Ziele
 translation-type: tm+mt
-source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
+source-git-commit: 6716c871562cd0203239897fc096033160e2fc13
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '555'
 ht-degree: 4%
 
 ---
@@ -60,7 +60,7 @@ Nachdem Sie den verknüpften Audience Manager und das [!DNL Twitter Tailored Aud
 Stellen Sie beim Zuordnen von Segmenten zu [!UICONTROL Twitter] sicher, dass die folgenden Segmentbenennungsanforderungen erfüllt sind:
 
 * Stellen Sie für Menschen lesbare Segmentzuordnungsnamen bereit. Es wird empfohlen, denselben Namen zu verwenden, den Sie für die Audience Manager-Segmente verwendet haben.
-* Verwenden Sie keine Sonderzeichen (`,` `%` `:` `;` `@` `/` `=` `?` `$`) in Segmentzuordnungsnamen. Wenn der Segmentname des Audience Managers diese Zeichen enthält, entfernen Sie diese, bevor Sie das Segment einem [!UICONTROL Twitter]-Ziel zuordnen.
+* Verwenden Sie keine Sonderzeichen (`+` `&` `,` `%` `:` `;` `@` `/` `=` `?` `$`) in Segmentzuordnungsnamen. Wenn der Segmentname des Audience Managers diese Zeichen enthält, entfernen Sie diese, bevor Sie das Segment einem [!UICONTROL Twitter]-Ziel zuordnen.
 
 ### Beispiel
 
