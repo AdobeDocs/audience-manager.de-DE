@@ -7,9 +7,9 @@ title: Anforderungen an den Namen und den Inhalt von ID-Synchronisierungsdateien
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Übertragungen von Inbound-Daten
 translation-type: tm+mt
-source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
+source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ ID-Dateinamen enthalten die folgenden erforderlichen und optionalen Elemente:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> Die Übergeordnet-Datenanbieter-ID ist die übergeordnete ID der DPIDs im Dateinamen. Außerdem entspricht die erste Benutzer-ID in der Datendatei der Übergeordnet-ID. Die nachfolgenden DPIDs sind andere IDs, die zum Übergeordnete gehören. Bei der Synchronisierung werden DPIDs im Dateinamen UUIDs in der Datei zugeordnet. </td> 
+   <td colname="col2"> <p>Die Übergeordnet-Datenanbieter-ID ist die übergeordnete ID der DPIDs im Dateinamen. Außerdem entspricht die erste Benutzer-ID in der Datendatei der Übergeordnet-ID. Die nachfolgenden DPIDs sind andere IDs, die zum Übergeordnete gehören. Bei der Synchronisierung werden DPIDs im Dateinamen UUIDs in der Datei zugeordnet.</p> <p>Diese DPID darf nur Geräte-IDs wie AAM UUID, GAID, IDFA usw. enthalten. Es darf keine DPUUIDs enthalten. Dies kann zu einer fehlerhaften Synchronisierung führen.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
