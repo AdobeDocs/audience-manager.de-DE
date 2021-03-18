@@ -5,12 +5,12 @@ seo-title: Anforderungen an den Namen und den Inhalt von ID-Synchronisierungsdat
 solution: Audience Manager
 title: Anforderungen an den Namen und den Inhalt von ID-Synchronisierungsdateien
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-feature: Inbound Data Transfers
+feature: Übertragungen von Inbound-Daten
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 7%
+source-wordcount: '840'
+ht-degree: 6%
 
 ---
 
@@ -99,6 +99,14 @@ Die Datei enthält Benutzer-IDs ([!DNL UUID]). Trennen Sie die IDs in jeder Zeil
 ```
 abc123 def456 ghi789 xyz987
 ```
+
+### Überlegungen zum Dateiinhalt {#considerations}
+
+Stellen Sie beim Erstellen Ihrer eingehenden Dateien sicher, dass die erste Spalte nur mit Geräte-IDs wie [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] usw. gefüllt wird. Eine ausführliche Erläuterung der von Audience Manager unterstützten IDs finden Sie unter [IDs in Audience Manager](../../../reference/ids-in-aam.md).
+
+>[!IMPORTANT]
+>
+>Verwenden Sie nicht [DPUUIDs](../../../reference/ids-in-aam.md) in der ersten Spalte. Dies kann zu einer fehlerhaften Synchronisierung führen.
 
 ## Synchronisierung stimmt mit DPUUIDs mit UUIDs ab {#sync-matches-dpuuids-uuids}
 
