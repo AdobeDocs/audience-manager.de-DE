@@ -4,11 +4,11 @@ seo-description: Auf dieser Seite wird das Erstellen von WCA-Audiencen (Facebook
 seo-title: Facebook-WCA-Integration
 solution: Audience Manager
 title: Facebook-WCA-Integration
-feature: Third Party Integrations
+feature: Drittanbieter-Integrationen
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '869'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ Auf dieser Seite wird das Erstellen von [!DNL Facebook Website Custom Audiences]
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Version 4.1.0 oder neuer. Laden Sie die neueste Version **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)** herunter.
 4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) Version 9.0 oder neuer, von  **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)** herunterzuladen. Alternativ dazu müssen Sie AppMeasurement Version 2.12 oder höher verwenden, wenn Sie [Serverseitige Weiterleitung (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) verwenden, um Daten in [!DNL Audience Manager] zu importieren. Laden Sie [!DNL AppMeasurement] mit dem [Analytics-Code-Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html) herunter.
 
-Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mit [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) oder [Adobe Dynamisches Tag-Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html) zu installieren oder zu aktualisieren.
+Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mit [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) oder [Adobe Dynamisches Tag-Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html) zu installieren oder zu aktualisieren.
 
 ## Schritt 1: Erstellen eines [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
