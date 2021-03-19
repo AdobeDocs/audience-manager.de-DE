@@ -5,19 +5,19 @@ seo-title: Eigenschaften-Dashboard
 solution: Audience Manager
 title: Eigenschaften-Dashboard
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
-feature: Traits
+feature: 'Eigenschaften '
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 4%
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
 
 # Eigenschaften-Dashboard {#traits-dashboard}
 
-Das Dashboard [Eigenschaften](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) ist ein zentralisierter Arbeitsbereich zum Verwalten von Eigenschaften. Sie können das Dashboard [!UICONTROL Traits] anzeigen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** navigieren.
+Das Dashboard &quot;Eigenschaften&quot;ist ein zentralisierter Arbeitsbereich zum Verwalten von Eigenschaften. Sie können das Dashboard [!UICONTROL Traits] anzeigen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** navigieren.
 
 ![](assets/traits-dashboard.png)
 
