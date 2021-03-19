@@ -5,12 +5,12 @@ seo-title: Datenschutz – Überblick
 solution: Audience Manager
 title: Datenschutz – Überblick
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: data governance & privacy
+feature: Datenverwaltung und Datenschutz
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 78%
+source-wordcount: '489'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ In der Datenschutzdokumentation werden die [!DNL Audience Manager]-Integration u
 
 ## [!DNL GDPR] {#gdpr}
 
-Mit der [Datenschutz-Grundverordnung (DSGVO)](https://eugdpr.org/) wurden mehrere neue Datenschutzrechte für Mitglieder der Europäischen Union eingeführt, darunter das **Recht auf Zugriff** und das **Recht auf Vergessenwerden**. Das bedeutet, dass jeder [!DNL EU]-Bürger, dessen personenbezogene Daten von Ihrem Unternehmen gesammelt wurden, jederzeit den Zugriff auf seine Daten oder deren Löschung anfordern kann. Die Nichtbeachtung dieser Anforderungen kann für Ihr Unternehmen Geldstrafen in Millionenhöhe nach sich ziehen.
+Mit der [Datenschutz-Grundverordnung (DSGVO)](https://gdpr.eu/data-privacy/) wurden mehrere neue Datenschutzrechte für Mitglieder der Europäischen Union eingeführt, darunter das **Recht auf Zugriff** und das **Recht auf Vergessenwerden**. Das bedeutet, dass jeder [!DNL EU]-Bürger, dessen personenbezogene Daten von Ihrem Unternehmen gesammelt wurden, jederzeit den Zugriff auf seine Daten oder deren Löschung anfordern kann. Die Nichtbeachtung dieser Anforderungen kann für Ihr Unternehmen Geldstrafen in Millionenhöhe nach sich ziehen.
 
 Um [!DNL GDPR] einzuhalten, unterstützt [!DNL Audience Manager] den Datenzugriff und das Löschen von [Anforderungen](data-privacy-requests.md).
 
