@@ -4,11 +4,11 @@ seo-description: Adobe bietet Ihnen die Möglichkeit, die Datenschutzoptionen Ih
 seo-title: Audience Manager-Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager-Plug-In für IAB TCF
-feature: data governance & privacy
+feature: Datenverwaltung und Datenschutz
 translation-type: tm+mt
-source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2441'
 ht-degree: 40%
 
 ---
@@ -100,7 +100,7 @@ Jeder im IAB TCF registrierte Anbieter bewertet die IAB TC-Zeichenfolge und trif
 
 ## Von Audience Manager {#aam-standard-purposes} erforderliche Ziele
 
-Audience Manager bewertet die in der IAB-TC-Zeichenfolge gespeicherten Benutzeroptionen für die folgenden Zwecke, die in den [IAB Europe Transparency &amp; Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes) definiert sind. Darüber hinaus finden Sie die Ziele auch in der Liste [globaler Anbieter](https://vendorlist.consensu.org/vendorlist.json).
+Audience Manager bewertet die in der IAB-TC-Zeichenfolge gespeicherten Benutzeroptionen für die folgenden Zwecke, die in den [IAB Europe Transparency &amp; Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions) definiert sind.
 
 * **Zweck 1**: Speichern und/oder Zugreifen auf einem Gerät;
 * **Zweck 10**: Entwicklung und Verbesserung der Produkte;
