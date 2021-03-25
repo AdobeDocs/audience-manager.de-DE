@@ -7,10 +7,10 @@ title: Glossar
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 100%
+source-wordcount: '1187'
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,6 @@ Verwenden Sie die [!UICONTROL Algorithmic Modeling], um die Reichweite über den
 
 Siehe [Grundlegendes zu algorithmischen Modellen](../features/algorithmic-models/algo-models-overview.md).
 
-<br>
-
 **BAAAM**
 
 [!UICONTROL Bulk Management Tools]. Die [!UICONTROL Bulk Management Tools] in [!DNL Audience Manager] sind Microsoft Excel-basierte Tools, mit denen Sie mehrere Objekte gleichzeitig in einem Vorgang erstellen, ändern oder löschen können. Sie können mit Datenquellen, abgeleiteten Signalen, Zielen, Ordnern, Segmenten und Eigenschaften arbeiten. Die Funktion verwendet eine Microsoft Excel-Tabelle mit Makros, die sichere, authentifizierte Aufrufe der [!DNL Audience Manager]-APIs durchführen.
@@ -43,15 +41,13 @@ Siehe [Tools zur Massenverwaltung](../reference/bulk-management-tools/bulk-manag
 
 Siehe [Kundendaten-Feeds](../features/cdf-files.md).
 
-<br> 
-
 **CRM-ID**
 
 Mit der CRM-ID können die Kunden Benutzer in ihrem eigenen CRM-System identifizieren. Anstelle von CRM-ID verwenden wir den Begriff DPUUID in Audience Manager.
 
 Siehe „DPUUID“ unter [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Vom Kunden ansprechbare Zielgruppe**
 
@@ -60,25 +56,25 @@ Bei [ansprechbaren Zielgruppen](/help/using/features/addressable-audiences.md) s
    **UND**
 * unabhängig vom Zeitpunkt der Synchronisierung eine ID-Synchronisierung mit dem ausgewählten Ziel ausführen.
 
-<br> 
+
 
 **Kundenattribute**
 
 Siehe [Kundenattribute](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html) in der [!DNL Experience Cloud Core Services]-Produktdokumentation.
 
-<br> 
+
 
 **Kundenübereinstimmungsrate**
 
 Vom Kunden ansprechbare Zielgruppe ÷ Kundenzielgruppe insgesamt, ausgedrückt in %. Siehe [Ansprechbare Zielgruppe](/help/using/features/addressable-audiences.md).
 
-<br> 
+
 
 **Kundenzielgruppe insgesamt**
 
 Bei [ansprechbaren Zielgruppen](/help/using/features/addressable-audiences.md) stellt diese Metrik die Anzahl der Geräte dar, die während des Rückblickzeitraums entweder eine regelbasierte Eigenschaft für Ihre Eigenschaften oder eine integrierte Eigenschaft Ihrer Offline-Dateien realisiert haben.
 
-<br> 
+
 
 **demdex.net**
 
@@ -86,7 +82,7 @@ Demdex.net ist eine veraltete Domäne, die von [!DNL Adobe]kontrolliert wird. Si
 
 Siehe [Grundlegendes zu Aufrufen an die Domäne „demdex.net“](../reference/demdex-calls.md).
 
-<br> 
+
 
 **DAID**
 
@@ -94,19 +90,19 @@ Siehe [Grundlegendes zu Aufrufen an die Domäne „demdex.net“](../reference/d
 
 Siehe [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Ziel**
 
 In [!DNL Audience Manager] ist ein Ziel jedes andere System (Adserver, DSP, Anzeigennetzwerk usw.), für das Sie Daten freigeben möchten. Der [!UICONTROL Destination Builder] in unserer Benutzeroberfläche bietet die Tools, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Die Zielfunktionen von [!DNL Audience Manager] befinden sich unter **[!UICONTROL Audience Data > Destinations]**.
 
-<br> 
+
 
 **DIL**
 
 Die [!UICONTROL Data Integration Library] ist eine API-Bibliothek, die von [!DNL Audience Manager] zur Erfassung von Benutzerinteraktionsdaten verwendet wird. Siehe [Data Integration Library (DIL)-API](../dil/dil-overview.md).
 
-<br> 
+
 
 **dpm**
 
@@ -118,7 +114,7 @@ Die [!UICONTROL Data Integration Library] ist eine API-Bibliothek, die von [!DNL
 
 Zuvor als [!DNL Marketing Cloud] ID (MID oder MCID) bezeichnet. Die [!DNL Experience Cloud] ID ist für den ID-Dienst von zentraler Bedeutung. Sie ist eine eindeutige und dauerhafte Kennung für Ihre Site-Besucher. Siehe Cookies und den [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html).
 
-<br> 
+
 
 **Ordnereigenschaft**
 
@@ -126,7 +122,7 @@ Automatische Gruppierung von Eigenschaften in Ihrer Ordnertaxonomie. Jeder Ordne
 
 Siehe [Ordnereigenschaften: Info](../features/traits/about-folder-traits.md).
 
-<br> 
+
 
 **Frequenzlimitierung**
 
@@ -140,7 +136,7 @@ Siehe [Neuigkeit und Häufigkeit](../features/segments/recency-and-frequency.md)
 
 Google Advertising ID, die eindeutige Geräte-ID, die Google Hardwaregeräten mit dem Android-Betriebssystem zuweist. Siehe [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **GUID**
 
@@ -153,13 +149,13 @@ Siehe [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 Kennung für Advertiser, die eindeutige Geräte-ID, die Apple seinen Produkten zuweist. Siehe [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Inbound (Eingangsprozess)**
 
 Der Prozess, mit dem Sie Zielgruppendaten aus anderen Quellen an [!DNL Audience Manager] senden können. Siehe [Senden von Zielgruppendaten](/help/using/integration/sending-audience-data/send-audience-data.md).
 
-<br> 
+
 
 **Integrations-Code**
 
@@ -189,13 +185,13 @@ Siehe [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 Siehe [Datenerfassungskomponenten](../reference/system-components/components-data-collection.md).
 
-<br> 
+
 
 **Profil-Link**
 
 Siehe [Für Profilzusammenführungsrichtlinien definierte Optionen](../features/profile-merge-rules/merge-rule-definitions.md).
 
-<br> 
+
 
 **Profilzusammenführungsrichtlinien**
 
@@ -217,25 +213,25 @@ Ein Segment (oder eine Zielgruppe) definiert eine Gruppe von Benutzern, die geme
 
 Siehe [Segmente: Zweck, Zusammensetzung und Regeln](../features/segments/segments-purpose.md).
 
-<br> 
+
 
 **Vom Segment ansprechbare Zielgruppe**
 
 Bei [ansprechbaren Zielgruppen](/help/using/features/addressable-audiences.md) stellt diese Metrik die Anzahl der Benutzer dar, die dem Segment während des Rückblickzeitraums des Berichts angehört haben und eine aktive ID-Synchronisierung auf Ihrer Website haben. Segmente können Ihre eigenen Erstanbieterdaten sowie Daten von Zweit- und Drittanbietern über Eigenschaften einschließen, die in [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md) erworben wurden.
 
-<br> 
+
 
 **Segmentpopulation, insgesamt**
 
 Bei [ansprechbaren Zielgruppen](/help/using/features/addressable-audiences.md) stellt diese Metrik die Anzahl aller Geräte dar, die dem Segment während des Rückblickzeitraums des Berichts angehört haben.
 
-<br> 
+
 
 **Segmentübereinstimmungsrate**
 
 Vom Segment ansprechbare Zielgruppe ÷ Segmentpopulation insgesamt, ausgedrückt in %. Siehe [Ansprechbare Zielgruppe](/help/using/features/addressable-audiences.md).
 
-<br> 
+
 
 **Signal**
 
@@ -243,13 +239,13 @@ Signale sind die kleinsten Dateneinheiten in [!DNL Audience Manager] und werden 
 
 Siehe [Signale, Eigenschaften und Segmente](../reference/signal-trait-segment.md).
 
-<br> 
+
 
 **Eigenschaft**
 
 Eine Eigenschaft ist eine Kombination aus einem oder mehreren Signalen. Siehe [Signale, Eigenschaften und Segmente](../reference/signal-trait-segment.md).
 
-<br> 
+
 
 **Eigenschaftspopulation**
 
@@ -259,7 +255,7 @@ Siehe [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](../features
 
 TTL definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft verbleibt. TTL wird für Eigenschaften und nicht für Segmente festgelegt. Besucher werden aus einem Segment entfernt, wenn sie vor Ende des TTL-Intervalls keine qualifizierenden Eigenschaften sehen. Weitere Informationen finden Sie unter [Segment und TTL einer Eigenschaft – Erklärung](/help/using/features/traits/segment-ttl-explained.md).
 
-<br> 
+
 
 ## U-V {#u-v}
 
@@ -267,7 +263,7 @@ TTL definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft v
 
 [!DNL Audience Manager] Unique User ID (eindeutige Benutzer-ID). Siehe [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Besucher-ID**
 
