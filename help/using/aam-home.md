@@ -5,11 +5,11 @@ seo-title: Technische Produktdokumentation für Adobe Audience Manager
 solution: Audience Manager
 title: Audience Manager-Anleitung
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: overview
+feature: Überblick
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 96%
 
 ---
@@ -32,8 +32,6 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
 * Lesen Sie als Nächstes **Erste Schritte mit Audience Manager**, um sich mit den Konzepten von Audience Manager vertraut zu machen. Lesen Sie auch die Handbücher zur geschäftlichen und technischen Implementierung.
 * Sehen Sie sich die neuesten Versionshinweise zu Audience Manager an und informieren Sie sich über die neuesten Funktionen im Abschnitt **Versionshinweise und neueste Funktionen**.
 * Weitere Informationen zu Experience Cloud-Ressourcen wie Foren, Video-Tutorials, persönlichen und Online-Schulungen finden Sie im Abschnitt **Lernzentrum – Empfohlene Audience Manager und Experience Cloud-Ressourcen**.
-
-<br>
 
 ## Hauptfunktionen von Audience Manager
 
@@ -71,8 +69,6 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
 </table>
 
 
-<br> 
-
 ## Erste Schritte mit Audience Manager
 
 <table> 
@@ -81,7 +77,7 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
    <td colname="col1"> <p><b>Wichtige Konzeptdokumentation</b></p>
    <p>Lesen Sie die folgenden Seiten, um ein tieferes Verständnis der Audience Manager-Konzepte zu erhalten: 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Audience Manager – Überblick</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Signale, Eigenschaften und Segmente</a></li><li><a href="/help/using/reference/aam-glossary.md"> Glossar</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Index der IDs</a></li></ul></p>
-   <br> 
+   <br>
    <p><b>Implementieren von Audience Manager</b></p>
    <p> Lesen Sie die folgenden Seiten, um mit der Implementierung von Audience Manager zu beginnen:
      <ul>
@@ -148,8 +144,6 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
 
 -->
 
-<br> 
-
 ## Versionshinweise und neueste Funktionen
 
 <table> 
@@ -186,7 +180,6 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br> 
 
 ## Lernzentrum – Empfohlene Audience Manager und Experience Cloud-Ressourcen
 
