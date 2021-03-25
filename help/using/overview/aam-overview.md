@@ -7,7 +7,7 @@ title: Audience Manager – Überblick
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Überblick
 translation-type: tm+mt
-source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -31,13 +31,9 @@ Die Funktionen einer Data Management Platform (DMP) lassen sich wie unten darges
 
 Audience Manager erfasst Erstanbieterdaten von Kanälen und Geräten (Webanalyse, CRM, Gerätedaten, E-Commerce usw.).
 
-<br>
-
 **Zielgruppenerstellung**
 
 Vereinheitlicht Daten in Zielgruppenprofilen, sodass Sie geräte- und kanalübergreifend eine vollständige Ansicht Ihrer Kunden erhalten. Erstellen Sie Look-alike-Modelle, Zielgruppensegmente und Profilgruppen und ergänzen Sie diese mit Datenquellen von Zweit- und Drittanbietern.
-
-<br> 
 
 **Datenausgabe**
 
