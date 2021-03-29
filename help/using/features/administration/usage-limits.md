@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Nutzungsbeschränkungen
 keywords: ID-Zuordnung, ID-Zuordnungen, Cookie-Zuordnungen
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: Usage and Billing
+feature: Nutzung und Rechnungsstellung
 translation-type: tm+mt
-source-git-commit: fc13643681eebec17a95607482f2864e81b95820
+source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '591'
 ht-degree: 6%
 
 ---
@@ -45,6 +45,8 @@ In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie könn
 | Onboarded | 100.000 |
 | Ordnereigenschaften | 2.000 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### Segmentbeschränkungen
 
 | Segmenttyp | Maximale Beschränkung |
@@ -70,6 +72,8 @@ In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie könn
 | Maximale Anzahl ausgeschlossener Eigenschaften für ein [!UICONTROL Look-Alike Model] | 500. Siehe [Eigenschaftsausschluss in Algorithmischer Modellierung](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Naximum [!UICONTROL Predictive Audiences Models] | 10 |
 | Maximale Anzahl der Baseline-Personas für [!UICONTROL Predictive Audiences Models] | 50 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Ordnerbeschränkungen
 
