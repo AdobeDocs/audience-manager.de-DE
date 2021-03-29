@@ -8,9 +8,9 @@ keywords: ID-Zuordnung, ID-Zuordnungen, Cookie-Zuordnungen
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Nutzung und Rechnungsstellung
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '585'
 ht-degree: 6%
 
 ---
@@ -45,8 +45,6 @@ In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie könn
 | Onboarded | 100.000 |
 | Ordnereigenschaften | 2.000 |
 
-{style=&quot;table-layout:auto&quot;}
-
 ### Segmentbeschränkungen
 
 | Segmenttyp | Maximale Beschränkung |
@@ -70,10 +68,8 @@ In den Tabellen werden die aktuellen Grenzwerte nach Elementtyp Liste. Sie könn
 | Aktiv [!UICONTROL Look-Alike Models] | 20. Audience Manager zählt nur *active*-Algorithmusmodelle gegen den Grenzwert. |
 | [!UICONTROL Look-Alike Models] maximale Audience | 25.000.000.  Beachten Sie, dass dieser Grenzwert nicht erhöht werden kann. Sie können die Größe der Audience verringern, indem Sie weniger Datenquellen für das Modell auswählen oder ein kürzeres Lookback-Fenster auswählen. |
 | Maximale Anzahl ausgeschlossener Eigenschaften für ein [!UICONTROL Look-Alike Model] | 500. Siehe [Eigenschaftsausschluss in Algorithmischer Modellierung](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
-| Naximum [!UICONTROL Predictive Audiences Models] | 10 |
+| Maximum [!UICONTROL Predictive Audiences Models] | 10 |
 | Maximale Anzahl der Baseline-Personas für [!UICONTROL Predictive Audiences Models] | 50 |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### Ordnerbeschränkungen
 
