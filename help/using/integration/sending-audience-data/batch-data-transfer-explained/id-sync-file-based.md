@@ -7,9 +7,9 @@ title: Anforderungen an den Namen und den Inhalt von ID-Synchronisierungsdateien
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Übertragungen von Inbound-Daten
 translation-type: tm+mt
-source-git-commit: de1483763998027c4fc7694223c39dd7a37e87ab
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -130,8 +130,6 @@ Bei Verwendung des Beispielnamens und des Beispielinhalts ordnen die IDs wie fol
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 6618477822667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-{style=&quot;table-layout:auto&quot;}
-
 Schritt 1: Der ID-Synchronisierungsprozess synchronisiert die [!DNL DPUUID]s von [!DNL DPID] 12345 mit den [!DNL Audience Manager] [!DNL UUID]s in der linken Spalte. Beachten Sie, dass [!DNL DPID] &quot;0&quot;im Dateinamen [!DNL Audience Manager] [!DNL UUID]s darstellt.
 <br/>
 
@@ -144,8 +142,6 @@ Schritt 1: Der ID-Synchronisierungsprozess synchronisiert die [!DNL DPUUID]s von
 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM | 4392434426 |
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
-
-{style=&quot;table-layout:auto&quot;}
 
 Schritt 2: die [!DNL DPUUID]s von [!DNL DPID] 12345 wurden in Schritt 1 mit dem Audience Manager [!DNL UUID]s synchronisiert. Diese ID-Synchronisierung synchronisiert die [!DNL DPUUID]s von [!DNL DPID] 67890 mit dem Audience Manager [!DNL UUID]s aus Schritt 1.
 
