@@ -7,14 +7,14 @@ title: Abrechnung für Daten-Feed-Käufer
 keywords: Berichte auf Segmentebene, Segmentebene, Segmentebene
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
+exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 88ed0b28fdf5dc03c8a878529d65b4bc844ea6c9
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2064'
 ht-degree: 1%
 
 ---
-
 
 # Abrechnung für Daten-Feed-Käufer {#billing-for-data-feed-buyers}
 
@@ -262,6 +262,10 @@ Auf Datenfeed-Ebene werden die Impressionen wie folgt zugeordnet:
 Die Aufschlüsselung auf einen Blick nach Datenfeed und Anwendungsfall lautet wie folgt:
 
 ![Feed-Aufschlüsselung](assets/feed-breakdown-alt.png)
+
+>[!NOTE]
+>
+>Für den Modellverwendungsfall sollten Sie die CPM-Nutzung nur bei Aktivierung melden. Wenn Sie nur ein Modell ausführen, es aber nicht aktivieren, ist kein Berichte erforderlich.
 
 <br> 
 
