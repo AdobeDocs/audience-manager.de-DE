@@ -1,20 +1,20 @@
 ---
 description: Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird im Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Die nachstehende Tabelle enthält detaillierte Informationen zur Eigenschaftsqualifikation.
-keywords: Eigenschaftsqualifikation;Realisierung von Eigenschaften;Eindeutige Eigenschaften;UTR;Gesamtanzahl der Eigenschaften;TTP
+keywords: Eigenschaftsqualifikation, Realisierung von Eigenschaften, Eindeutige Eigenschaften, UTR, Gesamtanzahl der Eigenschaften, TTP
 seo-description: Die Eigenschaftsqualifikation oder die Realisierung von Eigenschaften wird im Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Die nachstehende Tabelle enthält detaillierte Informationen zur Eigenschaftsqualifikation.
 seo-title: Eigenschaftsqualifikationsreferenz
 solution: Audience Manager
 title: Eigenschaftsqualifikationsreferenz
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-feature: Traits
+feature: 'Eigenschaften '
+exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a,85c2d54f-b9d6-4c95-b4b5-466119effc2a,85c2d54f-b9d6-4c95-b4b5-466119effc2a,223f5fc6-c939-4bc6-94a3-5d953abc601a
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e13f81df9b0d59cd958f4c2a615c31df00ce2cc5
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
-
 
 # Referenz: Eigenschafts- und Segmentqualifikationen {#trait-qualification-reference}
 
@@ -75,4 +75,3 @@ Um den Punkt weiter nach Hause zu bringen, würden Sie, wenn Sie eine Spitze von
 ## Qualifikationslimit für Eigenschaften {#trait-qualification-limit}
 
 Für jedes Profil gelten maximal 150.000 Eigenschaftsqualifikationen, unabhängig davon, ob es sich um ein authentifiziertes Profil ([DPUUID](../../reference/ids-in-aam.md)) oder um eine Geräte-ID ([UUID](../../reference/ids-in-aam.md)) handelt. Beachten Sie, dass die DPUUIDs zwar für eine bestimmte Instanz von [!DNL Audience Manager] eindeutig sind, UUIDs jedoch für die [!DNL Audience Manager]-Plattform freigegeben werden. Für [!UICONTROL UUID]s verhängen wir beim Speichern von Eigenschaftsqualifikationen eine Fairness-Richtlinie. Ein Algorithmus stellt sicher, dass für jede Instanz von [!DNL Audience Manager] ein gleich hoher Anteil des [!UICONTROL UUID]-Profils verfügbar ist.
-
