@@ -3,17 +3,17 @@ description: Der Segmentleistungsbericht vergleicht zugeordnete und nicht zugeor
 seo-description: Der Segmentleistungsbericht vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressionen und Echtzeit-Segmentindividualitäten. Ein zugeordnete Segment ist ein Segment, das Sie erstellen und zum Targeting an ein Ziel senden. Ein nicht zugeordnete Segment ist ein Segment, das Sie erstellt haben, das jedoch nicht zum Targeting an ein Ziel gesendet wurde. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
 seo-title: Bericht zur Segmentleistung
 solution: Audience Manager
-title: Bericht zur Segmentleistung
+title: Segmentleistungsbericht für Herausgeber
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: audience optimization reports
+feature: Berichte zur Optimierung der Audience
+exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: f5efd2d5032cb6d9fcceaee72d849a9dedcce698
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
-
 
 # Bericht zur Segmentleistung{#segment-performance-report}
 
