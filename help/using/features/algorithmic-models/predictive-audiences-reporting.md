@@ -3,16 +3,16 @@ description: Vorhersagekräftige Zielgruppen helfen Ihnen, unbekannte Zielgruppe
 seo-description: Vorhersagekräftige Zielgruppen helfen Ihnen, unbekannte Zielgruppen mithilfe von Datenwissenschaft in Echtzeit in eindeutige Personas zu klassifizieren.
 seo-title: Berichte zu vorhersagekräftigen Zielgruppen
 solution: Audience Manager
-title: Vorhersagekräftige Zielgruppen für Audience Manager
-feature: Algorithmic Models
+title: Berichte zu vorhersagekräftigen Zielgruppen
+feature: Algorithmische Modelle
+exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
 translation-type: tm+mt
-source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 6%
 
 ---
-
 
 # Berichte zu vorhersagekräftigen Zielgruppen
 
