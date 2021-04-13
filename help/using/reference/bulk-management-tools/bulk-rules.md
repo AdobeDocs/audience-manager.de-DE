@@ -5,15 +5,15 @@ seo-title: Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln
 solution: Audience Manager
 title: Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
-feature: baaam
+feature: BAAAM
+exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 10%
 
 ---
-
 
 # Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln{#create-or-update-trait-rules-and-segment-rules}
 
@@ -61,4 +61,3 @@ Sie können Ihre eigenen Regeln außerhalb von [!UICONTROL Rule Builder] schreib
 * [Reihenfolge der Vorgänge](../../features/traits/trait-operator-precedence.md)
 * [Anforderungen an Präfixe für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
 * [Beispielausdrücke mit Booleschen und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
-
