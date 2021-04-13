@@ -5,15 +5,15 @@ seo-title: Datenverarbeitungskomponenten
 solution: Audience Manager
 title: Datenverarbeitungskomponenten
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
-feature: system components
+feature: 'Systemkomponenten '
+exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 3%
+source-wordcount: '411'
+ht-degree: 4%
 
 ---
-
 
 # Datenverarbeitungskomponenten{#data-processing-components}
 
@@ -29,9 +29,9 @@ Audience Manager verwendet die folgenden Komponenten zur Datenverarbeitung:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager] ist Hadoop die Hauptdatenbank, die alles enthält, was [!DNL Audience Manager] über einen Benutzer weiß. Wenn beispielsweise die [Profil-Cache-Server](../../reference/system-components/components-data-collection.md) Protokolldateien mit Benutzerdaten erstellen, werden diese Daten zur Datenspeicherung an Hadoop gesendet. Weitere wichtige Hadoop-Elemente sind:
+In [!DNL Audience Manager] ist Hadoop die Hauptdatenbank, die alles enthält, was [!DNL Audience Manager] über einen Benutzer weiß. Wenn beispielsweise die [Profil-Cache-Server](../../reference/system-components/components-data-collection.md) Protokolldateien mit Benutzerdaten erstellen, werden diese Daten zur Datenspeicherung an Hadoop gesendet. Weitere wichtige Elemente der Hadoop sind:
 
-* **Hive:** Ein Data Warehouse für Hadoop. Hive verwaltet Ad-hoc-Abfragen an den in Hadoop gespeicherten Daten.
+* **Hive:** Ein Data Warehouse für die Hadoop. Hive verwaltet Ad-hoc-Abfragen an den in Hadoop gespeicherten Daten.
 
 * **HBase:** Eine sehr große Hadoop-Datenbank. Es verarbeitet und verwaltet eingehende und ausgehende Daten, Eigenschaftsregeln, algorithmische Modellierungsinformationen und führt viele andere Funktionen zum Speichern und Verschieben von Daten auf verschiedene Systeme aus.
 
@@ -66,4 +66,3 @@ SOLR ist eine Open-Source-Datenbank und ein Serversystem von Apache. Es bietet r
 
 
 ![](assets/advertiser_analytics.png)
-
