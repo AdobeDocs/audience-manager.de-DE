@@ -5,15 +5,15 @@ seo-title: Signale, Eigenschaften und Segmente
 solution: Audience Manager
 title: Signale, Eigenschaften und Segmente
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-feature: reference
+feature: 'Referenz '
+exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 translation-type: tm+mt
-source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '367'
+ht-degree: 15%
 
 ---
-
 
 # [!UICONTROL Signals],  [!UICONTROL Traits]und  [!UICONTROL Segments] {#signals-traits-and-segments}
 
