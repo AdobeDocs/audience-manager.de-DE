@@ -5,15 +5,15 @@ seo-title: Stilkonventionen für Code- und Textelemente
 solution: Audience Manager
 title: Stilkonventionen für Code- und Textelemente
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-feature: reference
+feature: 'Referenz '
+exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 10%
 
 ---
-
 
 # Stilkonventionen für Code- und Textelemente{#style-conventions-for-code-and-text-elements}
 
@@ -49,4 +49,3 @@ Diese Elemente identifizieren Codeoptionen und Variablen, die in der Hilfe-Dokum
   </tr> 
  </tbody> 
 </table>
-
