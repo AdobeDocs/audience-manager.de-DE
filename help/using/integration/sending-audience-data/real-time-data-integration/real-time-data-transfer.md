@@ -5,15 +5,15 @@ seo-title: Erfassung eingehender Daten in Echtzeit
 solution: Audience Manager
 title: Erfassung eingehender Daten in Echtzeit
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
-feature: Inbound Data Transfers
+feature: Übertragungen von Inbound-Daten
+exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 7%
+source-wordcount: '198'
+ht-degree: 8%
 
 ---
-
 
 # Erfassung eingehender Daten in Echtzeit {#real-time-inbound-data-ingestion}
 
