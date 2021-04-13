@@ -5,15 +5,15 @@ seo-title: Datenerfassungskomponenten
 solution: Audience Manager
 title: Datenerfassungskomponenten
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-feature: system components
+feature: 'Systemkomponenten '
+exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '764'
 ht-degree: 6%
 
 ---
-
 
 # Datenerfassungskomponenten{#data-collection-components}
 
@@ -79,7 +79,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-Die Eigenschaften von [!UICONTROL PCS] werden entfernt, wenn sie 17 Tage lang inaktiv sind. Diese Eigenschaften gehen jedoch nicht verloren. Sie sind in Hadoop gelagert. Wenn der Benutzer zu einem anderen Zeitpunkt erneut angezeigt wird, schiebt Hadoop alle Eigenschaften zurück auf das [!UICONTROL PCS], normalerweise innerhalb von 24 Stunden.
+Die Eigenschaften von [!UICONTROL PCS] werden entfernt, wenn sie 17 Tage lang inaktiv sind. Diese Eigenschaften gehen jedoch nicht verloren. Sie sind im Hadoop gelagert. Wenn der Benutzer zu einem anderen Zeitpunkt erneut angezeigt wird, verschiebt Hadoop alle Eigenschaften zurück auf das [!UICONTROL PCS], normalerweise innerhalb von 24 Stunden.
 
 **Andere  [!UICONTROL DCS/PCS] Prozesse: Datenschutzabmeldung**
 
