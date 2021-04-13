@@ -6,15 +6,15 @@ seo-title: Implementieren des Audience Management-Moduls
 solution: Audience Manager
 title: Implementieren des Audience Management-Moduls
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
-feature: Integration with Analytics
+feature: Adobe Analytics-Integration
+exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '701'
 ht-degree: 5%
 
 ---
-
 
 # Weiterleiten von Daten von [!DNL Adobe Analytics] an [!DNL Audience Manager] {#implement-the-audience-management-module}
 
