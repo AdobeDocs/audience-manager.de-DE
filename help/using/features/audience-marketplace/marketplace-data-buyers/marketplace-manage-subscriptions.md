@@ -4,17 +4,17 @@ seo-description: Der Marktplatz ist der Ort, an dem Datenkäufer recherchieren u
 seo-title: Verwalten von Daten-Feed-Abonnements
 solution: Audience Manager
 title: Verwalten von Daten-Feed-Abonnements
-topic: DIL API
+topic-edit: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
+exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2188'
 ht-degree: 2%
 
 ---
-
 
 # Verwalten von Daten-Feed-Abonnements {#manage-data-feed-subscriptions}
 
