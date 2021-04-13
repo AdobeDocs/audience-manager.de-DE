@@ -4,15 +4,15 @@ seo-description: 'Verwenden Sie benutzerbasierte Ziele, um Erstanbieter-Audience
 seo-title: Übersicht über benutzerspezifische Ziele und Anwendungsfälle
 solution: Audience Manager
 title: Überblick und Anwendungsfälle
-feature: People-Based Destinations
+feature: Benutzerbasierte Ziele
+exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
-
 
 # Überblick und Anwendungsfälle {#overview-use-cases}
 
