@@ -5,14 +5,14 @@ seo-title: Audience Manager-Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager-Plug-In für IAB TCF
 feature: Datenverwaltung und Datenschutz
+exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 40%
 
 ---
-
 
 # [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
