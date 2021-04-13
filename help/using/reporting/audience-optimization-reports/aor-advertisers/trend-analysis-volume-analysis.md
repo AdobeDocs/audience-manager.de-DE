@@ -5,15 +5,15 @@ seo-title: Berichte zur Trendanalyse und Volumenanalyse
 solution: Audience Manager
 title: Berichte zur Trendanalyse und Volumenanalyse
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
-feature: audience optimization reports
+feature: Berichte zur Zielgruppenoptimierung
+exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
-
 
 # [!UICONTROL Trend Analysis] und  [!UICONTROL Volume Analysis] Berichte{#trend-analysis-and-volume-analysis-reports}
 
@@ -38,4 +38,3 @@ Der Bericht [!UICONTROL Volume Analysis] gibt Daten in einem Balkendiagramm für
 >[!TIP]
 >
 >Informationen zu zugeordneten und nicht zugeordneten Segmenten finden Sie in der Dokumentation zum [Segmentleistungsbericht](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md).
-
