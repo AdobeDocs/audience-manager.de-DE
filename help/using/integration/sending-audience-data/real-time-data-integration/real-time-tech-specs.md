@@ -5,15 +5,15 @@ seo-title: Technische Spezifikationen für eingehende Datenübertragungen in Ech
 solution: Audience Manager
 title: Technische Spezifikationen für eingehende Datenübertragungen in Echtzeit
 uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
-feature: Inbound Data Transfers
+feature: Übertragungen von Inbound-Daten
+exl-id: 4d777b67-6330-4582-b398-abc267b84d83
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 16%
 
 ---
-
 
 # Technische Spezifikationen für eingehende Datenübertragungen in Echtzeit{#technical-specifications-for-inbound-real-time-data-transfers}
 
