@@ -4,15 +4,15 @@ seo-description: 'Nachfolgend finden Sie eine Übersicht der Kundenanforderungen
 seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Überlegungen
-feature: People-Based Destinations
+feature: Benutzerbasierte Ziele
+exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 translation-type: tm+mt
-source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1017'
 ht-degree: 3%
 
 ---
-
 
 # Voraussetzungen und Überlegungen {#prerequisites-considerations}
 
