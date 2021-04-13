@@ -4,15 +4,15 @@ seo-description: 'Personenbezogene Reiseziele führen den Begriff der freigegebe
 seo-title: Teilbare Zielgruppen
 solution: Audience Manager
 title: Teilbare Zielgruppen
-feature: People-Based Destinations
+feature: Benutzerbasierte Ziele
+exl-id: 2860c105-1091-4779-bf40-e66faa941af0
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '525'
 ht-degree: 1%
 
 ---
-
 
 # Teilbare Zielgruppen {#shareable-audiences}
 
