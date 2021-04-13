@@ -5,15 +5,15 @@ seo-title: Komponenten des Tag Managements
 solution: Audience Manager
 title: Komponenten des Tag Managements
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: Systemkomponenten
+feature: 'Systemkomponenten '
+exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
-
 
 # Komponenten des Tag Managements{#tag-management-components}
 
@@ -43,7 +43,7 @@ Der [!UICONTROL DIL]-Container hilft bei der Bereitstellung des [!DNL Audience M
 
 ## Data Integration Library (DIL)- {#dil}
 
-Die [Dateninformationsbibliothek](../../dil/dil-overview.md) (DIL) ist ein eigenständiges API-Modul, das Daten von Ihrer Website erfasst. [!UICONTROL DIL] hilft, die Notwendigkeit zu vermeiden, speziellen Code für die Datenerfassung, Integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben. [!UICONTROL DIL] führt diese Aktionen automatisch aus. Außerdem ist [!UICONTROL DIL] kompakt. Es handelt sich dabei um eine eigenständige Codebibliothek, die dazu beiträgt, die für die Datenerfassung erforderliche Codemenge zu reduzieren. [!UICONTROL DIL] unterstützt Sie bei der Integration von [!DNL Audience Manager] mit anderen Produkten im [!DNL Adobe]-Experience Cloud.
+Die [Dateninformationsbibliothek](../../dil/dil-overview.md) (DIL) ist ein eigenständiges API-Modul, das Daten von Ihrer Website erfasst. [!UICONTROL DIL] hilft, die Notwendigkeit zu vermeiden, speziellen Code für die Datenerfassung, Integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben. [!UICONTROL DIL] führt diese Aktionen automatisch aus. Außerdem ist [!UICONTROL DIL] kompakt. Es handelt sich dabei um eine eigenständige Code-Bibliothek, die dazu beiträgt, die für die Datenerfassung erforderliche Codemenge zu reduzieren. [!UICONTROL DIL] unterstützt Sie bei der Integration von [!DNL Audience Manager] mit anderen Produkten im [!DNL Adobe]-Experience Cloud.
 
 ## Akamai {#akamai}
 
@@ -56,4 +56,3 @@ Die Steuerungsdatenbank:
 * Verarbeitet Client-Eingaben aus dem Portal (z. B. Erstellen von Eigenschaften und Zielen).
 * Sendet Daten an Akamai, das Daten enthält, die zum Erstellen der Container-Vorlage und zum Veröffentlichen des iFrames verwendet werden.
 * Gibt Daten für UI-Berichte-Systeme zurück.
-
