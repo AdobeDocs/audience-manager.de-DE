@@ -4,15 +4,15 @@ seo-description: In diesem Artikel wird beschrieben, wie Sie Twitter-Audiencen f
 seo-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
 solution: Audience Manager
 title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
-feature: Benutzerbezogene Ziele
+feature: Benutzerbasierte Ziele
+exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 translation-type: tm+mt
-source-git-commit: 6716c871562cd0203239897fc096033160e2fc13
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 4%
 
 ---
-
 
 # [!DNL Twitter Tailored Audiences] als gerätebasiertes Selbstbedienungsziel {#configure-twitter} konfigurieren
 
