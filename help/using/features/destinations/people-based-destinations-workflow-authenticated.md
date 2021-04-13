@@ -4,15 +4,15 @@ seo-description: 'Diese Seite enthält eine schrittweise Anleitung zum Kombinier
 seo-title: Workflow C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten
 solution: Audience Manager
 title: Workflow C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten
-feature: People-Based Destinations
+feature: Benutzerbasierte Ziele
+exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 5%
 
 ---
-
 
 # Workflow C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten {#workflow-c}
 
