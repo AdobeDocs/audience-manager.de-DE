@@ -6,15 +6,15 @@ solution: Audience Manager
 keywords: GDPR-Benutzeroberfläche, GDPR-API, CCPA, Datenschutz
 title: Datenschutzanfragen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: data governance & privacy
+feature: Datenverwaltung und Datenschutz
+exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 translation-type: tm+mt
-source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1486'
 ht-degree: 54%
 
 ---
-
 
 # Datenschutzanfragen {#data-privacy-requests}
 
@@ -165,7 +165,7 @@ Nach einem Opt-out auf Partnerebene mit einem Geräte-ID-Aufruf:
 
 ## [!DNL Audience Manager] Partner mit Unsegmentierungsfunktionen  {#aam-partners-with-unsegmentation}
 
-Um Ihnen bei der Automatisierung Ihrer Verbraucherdatenschutzanforderungen zu helfen, versucht [!DNL Audience Manager], die Aktivierung-Partner über Löschungsanfragen von Datensubjekten zu informieren, indem sie diese vom Segment trennen (oder entfernen).
+Um Ihnen bei der Automatisierung Ihrer Verbraucherdatendatenschutzanforderungen zu helfen, versucht [!DNL Audience Manager], die Aktivierung-Partner über Löschungsanfragen von Datensubjekten zu informieren, indem sie die Segmentinformationen zurücksenden (oder entfernen).
 
 Allerdings können einige der Aktivierungspartner:
 
