@@ -5,15 +5,15 @@ seo-title: Integrationsstatusbericht
 solution: Audience Manager
 title: Integrationsstatusbericht
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-feature: inbound and outbound reports
+feature: Inbound- und Outbound-Berichte
+exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1502'
 ht-degree: 7%
 
 ---
-
 
 # Integrationsstatusbericht{#onboarding-status-report-about}
 
