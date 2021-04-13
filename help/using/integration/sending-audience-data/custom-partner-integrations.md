@@ -4,15 +4,15 @@ seo-description: Diese Seite enthält benutzerdefinierte Integrationen zwischen 
 seo-title: Benutzerdefinierte Partnerintegrationen
 solution: Audience Manager
 title: Benutzerdefinierte Partnerintegrationen
-feature: Third Party Integrations
+feature: Integration von Drittanbietern
+exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 22%
 
 ---
-
 
 # Benutzerdefinierte Partnerintegrationen {#custom-partner-integrations}
 
