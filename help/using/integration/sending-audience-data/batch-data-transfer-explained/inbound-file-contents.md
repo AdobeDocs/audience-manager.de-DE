@@ -5,15 +5,15 @@ seo-title: Syntax der Inbound-Datendateiinhalte, ungültige Zeichen, Variablen u
 solution: Audience Manager
 title: Syntax der Inbound-Datendateiinhalte, ungültige Zeichen, Variablen und Beispiele
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-feature: Inbound Data Transfers
+feature: Übertragungen von Inbound-Daten
+exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
-
 
 # Inhalt der eingehenden Datendatei: Syntax, ungültige Zeichen, Variablen und Beispiele {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
@@ -338,7 +338,7 @@ oder
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Beispiel 5 {#example-5}
+### Beispiel 4 {#example-5}
 
 Verwenden Sie [!UICONTROL trait IDs], um [!UICONTROL trait]-Qualifizierungsinformationen für [!DNL Android]-Geräte zu senden.
 
