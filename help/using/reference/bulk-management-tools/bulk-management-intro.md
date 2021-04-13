@@ -6,15 +6,15 @@ seo-title: Erste Schritte mit der Massenverwaltung
 solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-feature: baaam
+feature: BAAAM
+exl-id: 5603146e-7172-4181-90ad-4606129176dd
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 3%
+source-wordcount: '715'
+ht-degree: 4%
 
 ---
-
 
 # Erste Schritte mit der Massenverwaltung{#getting-started-with-bulk-management}
 
@@ -122,4 +122,3 @@ Sehen wir uns an, wie Sie mehrere Eigenschaften gleichzeitig erstellen. So erste
 >[!NOTE]
 >
 >Beim Arbeiten mit großen Anforderungen reagiert das Arbeitsblatt möglicherweise nicht mehr und scheint inaktiv zu sein. In diesen Fällen lassen Sie es einfach in Ruhe. Das Arbeitsblatt reagiert, wenn die Massenanforderung abgeschlossen ist. Wenn das Arbeitsblatt über einen langen Zeitraum nicht reagiert, finden Sie weitere Informationen im Abschnitt [Fehlerbehebung](../../reference/bulk-management-tools/bulk-troubleshooting.md).
-
