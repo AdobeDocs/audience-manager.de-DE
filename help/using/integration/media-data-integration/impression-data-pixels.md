@@ -5,15 +5,15 @@ seo-title: Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe
 solution: Audience Manager
 title: Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-feature: Integration with Campaign
+feature: Adobe Campaign-Integration
+exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '738'
 ht-degree: 20%
 
 ---
-
 
 # Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe{#capturing-campaign-impression-data-via-pixel-calls}
 
