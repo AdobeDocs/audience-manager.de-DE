@@ -4,15 +4,15 @@ seo-description: Auf dieser Seite wird das Erstellen von WCA-Audiencen (Facebook
 seo-title: Facebook-WCA-Integration
 solution: Audience Manager
 title: Facebook-WCA-Integration
-feature: Drittanbieter-Integrationen
+feature: Integration von Drittanbietern
+exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 6%
+source-wordcount: '868'
+ht-degree: 5%
 
 ---
-
 
 # [!DNL Facebook WCA] Integration {#facebook-wca-integration}
 
