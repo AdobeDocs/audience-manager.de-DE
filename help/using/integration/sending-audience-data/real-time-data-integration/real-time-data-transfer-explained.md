@@ -5,12 +5,12 @@ seo-title: Beschriebener Datenübertragungsprozess in Echtzeit
 solution: Audience Manager
 title: Beschriebener Datenübertragungsprozess in Echtzeit
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: Inbound Data Transfers
+feature: Übertragungen von Inbound-Daten
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 
