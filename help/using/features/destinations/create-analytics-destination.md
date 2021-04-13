@@ -4,15 +4,15 @@ seo-description: Mit Audience Analytics können Sie Audience Manager-Segmente an
 seo-title: Konfigurieren eines Analytics-Ziels
 solution: Audience Manager
 title: Konfigurieren eines Analytics-Ziels
-feature: Integration with Analytics
+feature: Adobe Analytics-Integration
+exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '867'
 ht-degree: 9%
 
 ---
-
 
 # Konfigurieren eines Analytics-Ziels
 
