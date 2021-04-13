@@ -4,15 +4,15 @@ seo-description: Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, mi
 seo-title: Zugänglichkeit im Audience Manager
 solution: Audience Manager
 title: Zugänglichkeit im Audience Manager
-feature: overview
+feature: Überblick
+exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
 translation-type: tm+mt
-source-git-commit: 2dc015ccf358724f0caa45265fab962821569d1e
+source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # Barrierefreiheit in Audience Manager {#accessibility}
 
