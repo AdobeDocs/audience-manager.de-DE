@@ -5,15 +5,15 @@ seo-title: Kanalübergreifende Konversion
 solution: Audience Manager
 title: Kanalübergreifende Konversion
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
-feature: audience optimization reports
+feature: Berichte zur Zielgruppenoptimierung
+exl-id: 7412a43f-81b5-477e-8acf-89d6c8661f1e
 translation-type: tm+mt
-source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 4%
+source-wordcount: '265'
+ht-degree: 5%
 
 ---
-
 
 # Kanalübergreifende Konversion{#cross-channel-conversion}
 
