@@ -5,15 +5,15 @@ seo-title: Überlagerungsbericht zwischen Segmenten und Eigenschaften
 solution: Audience Manager
 title: Überlagerungsbericht zwischen Segmenten und Eigenschaften
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-feature: overlap reports
+feature: Überlagerungsberichte
+exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 5%
 
 ---
-
 
 # Überlagerungsbericht zwischen Segmenten und Eigenschaften{#segment-to-trait-overlap-report}
 
@@ -188,3 +188,4 @@ Das Popup für den [!UICONTROL Segment-to-Trait Overlap]-Bericht enthält die fo
 >* [Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten...](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)
+
