@@ -3,15 +3,15 @@ description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard u
 seo-description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard und verschiedene Berichte in Adobe Audience Manager (AAM) Ansicht.
 seo-title: Übersicht über Berichte in Adobe Audience Manager (AAM)
 title: Übersicht über Berichte
-feature: reporting reference
+feature: Referenzhandbuch für Berichte
+exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '415'
 ht-degree: 13%
 
 ---
-
 
 # Übersicht über Berichte
 
@@ -54,4 +54,3 @@ Informationen zu den Zeiträumen, in denen Audience Manager Informationen zum Au
 * [Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten](/help/using/reporting/report-sampling.md)
 
    Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
-
