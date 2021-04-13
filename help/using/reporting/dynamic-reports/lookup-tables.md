@@ -5,15 +5,15 @@ seo-title: Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabe
 solution: Audience Manager
 title: Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: reporting reference
+feature: Referenzhandbuch für Berichte
+exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 18%
 
 ---
-
 
 # Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen{#improve-log-file-processing-times-with-lookup-tables}
 
@@ -55,7 +55,7 @@ Hier ist die gleiche Protokolldatei mit den Metadaten entfernt. Die Datei ist kl
 
 | Benutzer-ID | Anzeigen-ID | Bestell-ID | Advertiser-ID |
 |---|---|---|---|
-| 3 | 111 | 456 | 27 |
+| 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
 | 1 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
