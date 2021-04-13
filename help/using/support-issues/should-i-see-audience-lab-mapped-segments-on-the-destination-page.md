@@ -4,15 +4,15 @@ seo-description: Warum von Audience Lab zugeordnete Segmente nicht auf der Seit
 seo-title: Warum von Audience Lab zugeordnete Segmente nicht auf der Seite mit den Zieldetails angezeigt werden.
 solution: Audience Manager
 title: Sollte ich meine von Audience Lab zugeordneten Segmente auf der Zieldetailseite sehen?
-feature: support
+feature: Support
+exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '170'
 ht-degree: 100%
 
 ---
-
 
 # Sollte ich meine von Audience Lab zugeordneten Segmente auf der Zieldetailseite sehen? {#audience-lab-segments-destination-page}
 
