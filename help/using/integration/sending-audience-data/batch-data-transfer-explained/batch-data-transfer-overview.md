@@ -6,15 +6,15 @@ seo-title: Senden von Batch-Daten an Audience Manager – Überblick
 solution: Audience Manager
 title: Senden von Batch-Daten an Audience Manager – Überblick
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
-feature: Inbound Data Transfers
+feature: Übertragungen von Inbound-Daten
+exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 6%
+source-wordcount: '491'
+ht-degree: 7%
 
 ---
-
 
 # Stapeldaten an [!DNL Audience Manager] Übersicht {#send-batch-data-to-audience-manager-overview} senden
 
