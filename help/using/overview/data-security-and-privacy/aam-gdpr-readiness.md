@@ -4,15 +4,15 @@ seo-description: DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden
 seo-title: DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden
 solution: Audience Manager
 title: DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden
-feature: data governance & privacy
+feature: Datenverwaltung und Datenschutz
+exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 99%
 
 ---
-
 
 # DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden (Datenverantwortliche) {#gdpr-readiness-guidance}
 
