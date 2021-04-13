@@ -324,7 +324,7 @@ oder
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Beispiel 4 {#example-4}
+### Beispiel 5 {#example-4}
 
 Verwenden Sie das Präfix `ic`, um [!UICONTROL trait] Qualifizierungsinformationen für [!DNL Audience Manager] [!DNL UUIDs] zu senden.
 
