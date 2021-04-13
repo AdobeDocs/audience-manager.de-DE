@@ -5,15 +5,15 @@ seo-title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experi
 solution: Audience Manager
 title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform
 keywords: Freigabe von AEP-Audiencen, AEP-Segmente, Plattformsegmente, Segmentfreigabe, Freigabe von Audiencen, Segmente freigeben
-feature: Integration with Platform
+feature: Plattformintegration
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
-
 
 # Segmentfreigabe für Experience Platformen mit Audience Manager- und anderen Experience Cloud-Lösungen {#aam-aep-audience-sharing}
 
@@ -109,9 +109,9 @@ Ein Beispiel eines Segments, das automatisch aus einem Segmentsegment erstellt w
 
 | Element Nr. | Name | Beschreibung |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in der Experience Platform. |
+| 3 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in der Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Segmenten der Experience Platform erstellt werden, werden in der Datenquelle **[!DNL Adobe Experience Platform Audience Sharing]** gespeichert. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in der Experience Platform festgelegten Zusammenführungsrichtlinie entsprechen. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in der Experience Platform festgelegten Zusammenführungsrichtlinie entsprechen. |
 | 4 | [!UICONTROL Segment Rule] | Das Segment besteht aus der Eigenschaft, die im Abschnitt [Eigenschaften](#aep-segments-as-aam-traits) beschrieben wird. |
 
 ## Audience Manager Data Export Control-Unterstützung für Experience Platform {#aam-data-export-control-in-aep}
@@ -190,3 +190,4 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >* [Übersicht über den Segmentdienst](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 >* [Benutzerhandbuch zum Segmentaufbau in der Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
