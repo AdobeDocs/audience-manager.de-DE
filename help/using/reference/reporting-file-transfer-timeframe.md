@@ -5,15 +5,15 @@ seo-title: Auswirkungen von Datenbereitstellungs- und Dateiverarbeitungszeiten a
 solution: Audience Manager
 title: Auswirkungen von Datenbereitstellungs- und Dateiverarbeitungszeiten auf Berichte
 uuid: 4b975512-f67e-4749-a7ef-168415597682
-feature: reference
+feature: 'Referenz '
+exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
 translation-type: tm+mt
-source-git-commit: a696bc03e430e25e2752d84905009645c625d762
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 5%
 
 ---
-
 
 # Auswirkungen von Datenbereitstellungs- und Dateiverarbeitungszeiten auf Berichte{#how-data-delivery-and-file-processing-times-affect-reports}
 
