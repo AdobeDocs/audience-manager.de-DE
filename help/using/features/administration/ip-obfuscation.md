@@ -3,15 +3,15 @@ description: Aufgrund globaler Datenschutzregeln muss Ihr Unternehmen in einigen
 seo-description: Aufgrund globaler Datenschutzregeln muss Ihr Unternehmen in einigen Ländern möglicherweise IP-Adressen verschleiern. Mit Audience Manager können Sie die IP-Adressen der Besucher auf globaler oder Länderebene verschleiern.
 solution: Audience Manager
 title: Verschleierung von IP-Adressen
-feature: Data Governance and Privacy
+feature: Datenverwaltung und Datenschutz
+exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 22%
 
 ---
-
 
 # Verschleierung von IP-Adressen {#ip-obfuscation}
 
@@ -60,4 +60,3 @@ Um die IP-Adressenverschleierung für bestimmte Länder zu deaktivieren, suchen 
 * [Datenschutz](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Video-Demonstration zur IP-Adressenverschleierung
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
-
