@@ -5,17 +5,17 @@ seo-description: Eine Übersicht über die Funktion "Addressable Audience"und An
 seo-title: Ansprechbare Zielgruppen
 solution: Audience Manager
 title: Ansprechbare Zielgruppen
-topic: DIL API
+topic-edit: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
-feature: Match Rates
+feature: Übereinstimmungsraten
+exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1827'
 ht-degree: 1%
 
 ---
-
 
 # [!UICONTROL Addressable Audiences] {#addressable-audiences}
 
