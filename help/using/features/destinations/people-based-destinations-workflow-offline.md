@@ -4,15 +4,15 @@ seo-description: 'Diese Seite enthält eine schrittweise Anleitung zum Erstellen
 seo-title: Workflow B – Personalisierung basierend auf reinen Offline-Daten
 solution: Audience Manager
 title: Workflow B – Personalisierung basierend auf reinen Offline-Daten
-feature: People-Based Destinations
+feature: Benutzerbasierte Ziele
+exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1172'
 ht-degree: 6%
 
 ---
-
 
 # Workflow B – Personalisierung basierend auf reinen Offline-Daten {#workflow-b}
 
