@@ -4,15 +4,15 @@ seo-description: Ein Überblick über die wichtigsten Komponenten und Datenflüs
 seo-title: Systemkomponenten – Überblick
 title: Systemkomponenten – Überblick
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
-feature: system components
+feature: 'Systemkomponenten '
+exl-id: b128cae4-8a11-4fad-95f8-4fe6222bb95e
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 16%
+source-wordcount: '190'
+ht-degree: 17%
 
 ---
-
 
 # Systemkomponenten – Überblick{#system-components-overview}
 
@@ -39,4 +39,3 @@ Dieser Leitfaden versucht, eine Balance zwischen allgemeinen Beschreibungen und 
 * [Komponenten des Tag Managements](/help/using/reference/system-components/components-tag-management.md)
 * [Plattformarchitektur: Datenflusskarte](/help/using/reference/system-components/components-platform-architecture.md)
 * [Grundlegendes zum Edge-Datenzentrum](/help/using/reference/system-components/components-edge.md)
-
