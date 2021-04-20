@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Nutzungsbeschränkungen
 keywords: ID-Zuordnung, ID-Zuordnungen, Cookie-Zuordnungen
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: Nutzung und Rechnungsstellung
+feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt

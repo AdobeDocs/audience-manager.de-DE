@@ -5,7 +5,7 @@ seo-title: ID-Synchronisierung für eingehende Datenübertragungen
 solution: Audience Manager
 title: ID-Synchronisierung für eingehende Datenübertragungen
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

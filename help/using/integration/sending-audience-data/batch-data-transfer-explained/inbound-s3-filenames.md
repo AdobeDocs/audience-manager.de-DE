@@ -5,7 +5,7 @@ seo-title: Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehen
 solution: Audience Manager
 title: Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

@@ -5,7 +5,7 @@ seo-title: Trend-Berichte
 solution: Audience Manager
 title: Trend-Berichte
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
-feature: Allgemein- und Trendberichte
+feature: General & Trend Reports
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

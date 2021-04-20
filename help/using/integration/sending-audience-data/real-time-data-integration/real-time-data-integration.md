@@ -5,7 +5,7 @@ seo-title: Integration eingehender Daten in Echtzeit
 solution: Audience Manager
 title: Integration eingehender Daten in Echtzeit
 uuid: 96f292bb-608c-41d3-8baa-a58ecb411db0
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt

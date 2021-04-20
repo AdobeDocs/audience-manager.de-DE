@@ -5,7 +5,7 @@ seo-title: Filtern von Berichtsergebnissen mit den Datenreglern
 solution: Audience Manager
 title: Filtern von Berichtsergebnissen mit den Datenreglern
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
-feature: Berichte-Referenz
+feature: Reporting Reference
 exl-id: 876a01c2-e73e-4728-8890-e3f354ad1b86
 translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7

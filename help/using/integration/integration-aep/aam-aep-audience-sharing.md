@@ -5,7 +5,7 @@ seo-title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experi
 solution: Audience Manager
 title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform
 keywords: Freigabe von AEP-Audiencen, AEP-Segmente, Plattformsegmente, Segmentfreigabe, Freigabe von Audiencen, Segmente freigeben
-feature: Plattformintegration
+feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

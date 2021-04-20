@@ -4,7 +4,7 @@ seo-description: 'Diese Seite enthält eine schrittweise Anleitung zum Erstellen
 seo-title: Workflow B – Personalisierung basierend auf reinen Offline-Daten
 solution: Audience Manager
 title: Workflow B – Personalisierung basierend auf reinen Offline-Daten
-feature: Benutzerbasierte Ziele
+feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

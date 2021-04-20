@@ -3,7 +3,7 @@ description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard u
 seo-description: Verwenden Sie die Optionen im Menü "Analytics", um das Dashboard und verschiedene Berichte in Adobe Audience Manager (AAM) Ansicht.
 seo-title: Übersicht über Berichte in Adobe Audience Manager (AAM)
 title: Übersicht über Berichte
-feature: Berichte-Referenz
+feature: Reporting Reference
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7

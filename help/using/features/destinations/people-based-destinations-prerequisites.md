@@ -4,7 +4,7 @@ seo-description: 'Nachfolgend finden Sie eine Übersicht der Kundenanforderungen
 seo-title: Voraussetzungen und Erwägungen für benutzerspezifische Ziele
 solution: Audience Manager
 title: Voraussetzungen und Überlegungen
-feature: Benutzerbasierte Ziele
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

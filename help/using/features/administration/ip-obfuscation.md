@@ -3,7 +3,7 @@ description: Aufgrund globaler Datenschutzregeln muss Ihr Unternehmen in einigen
 seo-description: Aufgrund globaler Datenschutzregeln muss Ihr Unternehmen in einigen Ländern möglicherweise IP-Adressen verschleiern. Mit Audience Manager können Sie die IP-Adressen der Besucher auf globaler oder Länderebene verschleiern.
 solution: Audience Manager
 title: Verschleierung von IP-Adressen
-feature: Datenverwaltung und Datenschutz
+feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

@@ -5,7 +5,7 @@ seo-title: Grundlegendes zu Aufrufen an die Domäne „demdex.net“
 solution: Audience Manager
 title: Grundlegendes zu Aufrufen an die Domäne „demdex.net“
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
-feature: 'Referenz '
+feature: Reference
 exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

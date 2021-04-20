@@ -4,7 +4,7 @@ seo-description: Vorhersagekräftige Zielgruppen helfen Ihnen, unbekannte Zielgr
 seo-title: Berichte zu vorhersagekräftigen Zielgruppen
 solution: Audience Manager
 title: Berichte zu vorhersagekräftigen Zielgruppen
-feature: Algorithmische Modelle
+feature: Algorithmic Models
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
 translation-type: tm+mt
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656

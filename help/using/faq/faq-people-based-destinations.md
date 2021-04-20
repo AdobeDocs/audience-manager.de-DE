@@ -4,7 +4,7 @@ seo-description: 'Antworten auf häufige Fragen zu benutzerbezogenen Zielen.  '
 seo-title: Häufig gestellte Fragen zu benutzerbezogenen Zielen
 solution: Audience Manager
 title: Häufig gestellte Fragen zu benutzerbezogenen Zielen
-feature: Benutzerbasierte Ziele
+feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

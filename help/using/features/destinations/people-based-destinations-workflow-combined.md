@@ -4,7 +4,7 @@ seo-description: 'Diese Seite enthält eine schrittweise Anleitung dazu, wie Sie
 seo-title: Workflow A – Personalisierung basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten
 solution: Audience Manager
 title: Workflow A – Personalisierung basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten
-feature: Benutzerbasierte Ziele
+feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

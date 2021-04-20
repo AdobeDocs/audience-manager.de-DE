@@ -4,7 +4,7 @@ seo-description: Adobe bietet Ihnen die Möglichkeit, die Datenschutzoptionen Ih
 seo-title: Audience Manager-Plug-In für IAB TCF
 solution: Audience Manager
 title: Audience Manager-Plug-In für IAB TCF
-feature: Datenverwaltung und Datenschutz
+feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

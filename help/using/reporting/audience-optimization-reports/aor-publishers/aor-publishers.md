@@ -5,7 +5,7 @@ seo-title: Zielgruppenoptimierung für Publisher
 solution: Audience Manager
 title: Zielgruppenoptimierung für Publisher
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
-feature: Berichte zur Zielgruppenoptimierung
+feature: Audience Optimization Reports
 exl-id: 5972ea89-3e4d-48a5-bdd2-0a34211d8bfd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

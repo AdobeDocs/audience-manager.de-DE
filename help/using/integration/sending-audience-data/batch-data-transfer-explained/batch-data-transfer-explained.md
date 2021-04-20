@@ -5,7 +5,7 @@ seo-title: Beschreibung des Batch-Datenübertragungsprozesses
 solution: Audience Manager
 title: Beschreibung des Batch-Datenübertragungsprozesses
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 exl-id: e02dcc9a-4010-4c01-bd6b-ad04b8029f18
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

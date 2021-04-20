@@ -5,7 +5,7 @@ seo-title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Da
 solution: Audience Manager
 title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datendateien
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

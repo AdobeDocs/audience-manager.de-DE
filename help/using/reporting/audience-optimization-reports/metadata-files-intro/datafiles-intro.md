@@ -5,7 +5,7 @@ seo-title: Datendateien für Berichte zur Zielgruppenoptimierung und ausführbar
 solution: Audience Manager
 title: Datendateien für Berichte zur Zielgruppenoptimierung und ausführbare Protokolldateien
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-feature: Protokolldateien
+feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
