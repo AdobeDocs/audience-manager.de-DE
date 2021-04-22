@@ -5,21 +5,20 @@ seo-title: Adobe Audience Manager Server-to-Server-Ziele
 keywords: Aktivierung; Aktivierungen-Partner, Ziel, Ziele
 solution: Audience Manager
 title: Adobe Audience Manager Server-to-Server-Ziele
-feature: Destination Basics
+feature: Zielgrundlagen
+exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 71%
+source-wordcount: '1148'
+ht-degree: 72%
 
 ---
 
-
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] werden [!UICONTROL device-based destinations] auch [!UICONTROL server-to-server destinations] genannt. Weitere Informationen zu einer Integration finden Sie in der Liste [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (falls verfügbar) oder wenden Sie sich an Ihren [!DNL Adobe]-Berater oder den Kundendienst.
+Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] werden [!UICONTROL device-based destinations] auch [!UICONTROL server-to-server destinations] genannt. Weitere Informationen zu einer Integration finden Sie in der Liste [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (falls verfügbar) oder wenden Sie sich an Ihren [!DNL Adobe]-Berater oder den Kundendienst.
 
- 
 
 * **Zuletzt aktualisiert** = Zeigt das letzte Datum an, an dem ein Update für diese Version vorgenommen wurde  [!UICONTROL device-based destination].
 * **Aktualisierungen** = Zeigt an, ob Daten in Echtzeit oder im Stapel (1 Tag)  [!DNL Audience Manager] gesendet werden  [!UICONTROL destination].
@@ -28,10 +27,9 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 * **[!DNL ICDS]** = In dieser Spalte werden die Partner Liste, die  [!UICONTROL Instant Cross-Device Suppression]diese unterstützen. Lesen Sie mehr über [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **Mobilgerät-IDs** = In dieser Spalte werden Listen von Partnern aufgeführt, von denen Mobilgeräte-IDs empfangen werden können  [!DNL Audience Manager].
 
- 
 
 | Integration | Zuletzt aktualisiert | Updates | Segment aufheben | Empfangen von [!DNL IAB TCF]-Zustimmungssignalen | [!DNL ICDS] | Mobilgeräte-IDs |
-|---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
+|----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 09.26.2018 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL 4info] | 02.09.2017 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL AcuityAds] | 02.09.2017 | Echtzeit | Ja | Nein | Ja | Nein |
@@ -51,6 +49,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL AOL ONE] | 03.02.2017 | Echtzeit | Ja | Nein | Nein | Ja |
 | [!DNL AppNexus] | 03.02.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL AppNexus Yieldex] | 08.10.2017 | 1 Tag | Ja | Nein | Nein | Nein |
+| [!DNL Artsai] (formerly [!DNL Adxcel]) | 01.27.2020 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL Atedra]/[!DNL AdStanding] | 03.02.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Avocet] | 12.06.2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Bidtellect] | 03.03.2017 | Echtzeit | Ja | Nein | Nein | Nein |
@@ -62,11 +61,11 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL Celtra] | 02.27.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Centro] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL ChoiceStream] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Nein |
-| [!DNL Clearstream.tv] | 03.27.2017 | Echtzeit | Ja | Nein | Nein | Nein |
+| [!DNL Clearstream.tv] | 02.27.2017 | Echtzeit | Ja | Nein | Nein | Nein |
 | [!DNL Collective AMP Platform] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Criteo] | 02.27.2017 | Echtzeit | Nein | Ja | Nein | Ja |
 | [!DNL Crosswise] | 02.27.2017 | 1 Tag | Ja | Nein | Nein | Nein |
-| [!DNL D.A.C. AudienceOne] | 03.27.2017 | 1 Tag | Ja | Nein | Nein | Nein |
+| [!DNL D.A.C. AudienceOne] | 02.27.2017 | 1 Tag | Ja | Nein | Nein | Nein |
 | [!DNL DataXu] | 20.11.2017 | Echtzeit | Nein | Nein | Nein | Ja |
 | [!DNL Digilant] | 03.02.2017 | Echtzeit |  | Nein | Nein | Nein |
 | [!DNL DistrictM] | 03.02.2017 | 1 Tag | Ja | Nein | Nein | Nein |
@@ -76,14 +75,16 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL Dunnhumby] | 11.21.2019 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL easyfundraising] | 06.27.2019 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL Epsilon Conversant] | 03.03.2017 | Echtzeit | Nein | Nein | Nein | Nein |
-| [!DNL Exponential] | 03.27.2017 | Echtzeit | Ja | Nein | Ja | Nein |
+| [!DNL Exponential] | 02.27.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Eyereturn Marketing] | 04.11.2017 | 1 Tag | Ja | Nein | Nein | Nein |
 | [!DNL EyeView Digital] | 06.14.2018 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Fiksu] | 03.03.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Flashtalking] | 03.02.2017 | 1 Tag | Nein | Nein | Nein | Nein |
+| [!DNL Flybits] | 07.31.2020 | Echtzeit | Ja | Nein | Ja | Ja |
 | [!DNL FreakOut] | 03.03.2017 | 1 Tag | Ja | Nein | Nein | Nein |
 | [!DNL Freewheel] | 02.27.2017 | 1 Tag | Ja | Ja | Nein | Ja |
 | [!DNL Gamut Media] | 03.03.2017 | Echtzeit |  | Nein | Nein |  |
+| [!DNL Google AdsWords Display] | 08.02.2018 | Echtzeit | Ja | Ja | Nein | Ja |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 04.24.2017 | Echtzeit | Ja | Ja | Ja | Ja |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 04.24.2017 | Echtzeit | Ja | Ja | Ja | Ja |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 04.24.2017 | Echtzeit | Ja | Ja | Ja | Ja |
@@ -103,7 +104,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL Logicad] | 06.22.2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Lotame] | 06.30.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL MaxPoint Interactive] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Nein |
-| [!DNL MediaMath] | 03.27.2017 | 1 Tag | Ja | Nein | Nein | Ja |
+| [!DNL MediaMath] | 02.27.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Microsoft Bing Ads] | 10.10.2019 | Echtzeit | Ja | Ja | Ja | Nein |
 | [!DNL Millennial Media] | 02.27.2017 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL mPlatform China] | 08.06.2018 | 1 Tag | Ja | Nein | Nein | Ja |
@@ -134,6 +135,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL RocketFuel] | 02.17.2017 | Echtzeit | Ja | Nein | Ja | Ja |
 | [!DNL Rubicon] |  | Echtzeit | Ja | Ja | Nein |  |
 | [!DNL RUN] | 02.17.2017 | 1 Tag | Ja | Nein | Nein | Nein |
+| [!DNL RTB House] | 02.04.2021 | Echtzeit | Ja | Nein | Ja | Ja |
 | [!DNL Sabio Mobile] | 02.17.2017 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL Simpli.fi] | 02.17.2017 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL Sizmek ad server (Amazon)] | 02.17.2017 | Echtzeit | Ja | Nein | Nein |  |
@@ -150,7 +152,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL Supership]/[!DNL ScaleOut] | 03.03.2017 | 1x/Tag | Ja | Nein | Nein | Nein |
 | [!DNL Survata] | 08.09.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Taboola] | 08.03.2017 | 1 Tag | Nein | Ja | Nein | Nein |
-| [!DNL Tapad] | 03.03.2017 | Echtzeit | Nein | Nein | Nein | Ja |
+| [!DNL Tapad] | 07.17.2020 | Echtzeit | Nein | Nein | Nein | Ja |
 | [!DNL Telaria] | 04.25.2019 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Telogical Systems] | 03.03.2017 | Echtzeit | Ja | Nein | Nein | Nein |
 | [!DNL The Trade Desk] | 03.03.2017 | Echtzeit | Ja | Ja | Ja | Ja |
@@ -161,7 +163,7 @@ Diese Seite enthält nur aktuelle [!DNL Audience Manager] [gerätebasierte Ziele
 | [!DNL TubeMogul] | 03.03.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Turn] /  [!DNL Amobee] | 03.03.2027 | Echtzeit | Nein | Nein | Nein | Ja |
 | [!DNL Twenga] | 10.29.2018 | Echtzeit | Ja | Nein | Nein | Nein |
-| [!DNL Twitter Tailored Audiences] | 03.27.2017 | Echtzeit | Ja | Nein | Ja | Nein |
+| [!DNL Twitter Tailored Audiences] | 02.27.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Undertone] | 07.11.2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Verve] | 06.15.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL VideoAmp] | 03.03.2017 | Echtzeit | Nein | Nein | Nein | Nein |
