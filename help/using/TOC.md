@@ -3,13 +3,13 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
-user-guide-description: Audience Manager bietet branchenführende Dienste für das Daten-Management von Online-Zielgruppen.
+user-guide-description: Erfahren Sie, wie Sie mit Audience Manager kommerziell relevante Informationen zu Site-Besuchern erfassen, marktfähige Segmente erstellen und zielgerichtete Werbung und Inhalte zur richtigen Audience bereitstellen können.
 feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 98%
+source-wordcount: '1806'
+ht-degree: 96%
 
 ---
 
