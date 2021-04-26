@@ -1,19 +1,17 @@
 ---
-description: Ein Schlüssel-Wert-Paar besteht aus den zugehörigen Elementen A-Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und einen Wert, bei dem es sich um eine Variable handelt, die zum Satz gehört (z. B. männlich/weiblich, grün, 100). Der Destination Builder sendet Daten, die als Schlüssel/Wert-Paare formatiert sind.
-seo-description: Ein Schlüssel-Wert-Paar besteht aus den zugehörigen Elementen A-Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und einen Wert, bei dem es sich um eine Variable handelt, die zum Satz gehört (z. B. männlich/weiblich, grün, 100). Der Destination Builder sendet Daten, die als Schlüssel/Wert-Paare formatiert sind.
-seo-title: Standardmäßige und serialisierte Schlüssel-Wert-Paare
+description: A [!DNL key-value pair] besteht aus verwandten Elementen Ein Schlüssel, der eine Konstante ist, die den Datensatz definiert (z.B. Geschlecht, Farbe, Preis), und ein Wert, der eine Variable ist, die zum Satz gehört (z.B. männlich/weiblich, grün, 100). Der Destination Builder sendet Daten, die als Schlüssel/Wert-Paare formatiert sind.
 solution: Audience Manager
-title: Standardmäßige und serialisierte Schlüssel-Wert-Paare
+title: Standard und Serial [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-feature: Destination Basics
+feature: Zielgrundlagen
+exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: c895ec099ff92f94328ad29e6f2349e79b77d667
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 4%
+source-wordcount: '549'
+ht-degree: 2%
 
 ---
-
 
 # Standardmäßige und serialisierte Schlüssel-Wert-Paare {#standard-and-serial-key-value-pairs}
 
