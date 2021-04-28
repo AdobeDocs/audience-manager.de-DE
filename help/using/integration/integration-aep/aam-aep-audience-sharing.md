@@ -5,13 +5,13 @@ seo-title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experi
 solution: Audience Manager
 title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform
 keywords: Freigabe von AEP-Audiencen, AEP-Segmente, Plattformsegmente, Segmentfreigabe, Freigabe von Audiencen, Segmente freigeben
-feature: Platform Integration
+feature: Plattformintegration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 2%
+source-wordcount: '1465'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Darüber hinaus werden Ihre Experience Platformen über [Core Services](https://
 >[!IMPORTANT]
 >
 > * Sie benötigen eine Audience Manager-Lizenz, um die oben genannten Anwendungsfälle für die Data Management-Plattform zu aktivieren.
-> * Für die Freigabe von Segmenten für Experience Platformen mit Adobe Advertising Cloud, Adobe Target, Marketo und anderen Experience Cloud-Lösungen benötigen Sie für die Integration der Hauptdienste keine Audience Manager-Lizenz.**
+> * Für die Freigabe von Segmenten für Experience Platformen mit Adobe Advertising Cloud, Adobe Target, Marketo und anderen Experience Cloud-Lösungen über die Core Services-Integration benötigen Sie keine Audience Manager-Lizenz.**
 
 
 <br>
@@ -109,7 +109,7 @@ Ein Beispiel eines Segments, das automatisch aus einem Segmentsegment erstellt w
 
 | Element Nr. | Name | Beschreibung |
 ---------|----------|---------
-| 3 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in der Experience Platform. |
+| 1 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in der Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Segmenten der Experience Platform erstellt werden, werden in der Datenquelle **[!DNL Adobe Experience Platform Audience Sharing]** gespeichert. |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in der Experience Platform festgelegten Zusammenführungsrichtlinie entsprechen. |
 | 4 | [!UICONTROL Segment Rule] | Das Segment besteht aus der Eigenschaft, die im Abschnitt [Eigenschaften](#aep-segments-as-aam-traits) beschrieben wird. |
@@ -164,17 +164,13 @@ Audience Manager aktualisiert die Berichte-Nummern in der Benutzeroberfläche ei
 
 Die Integration zwischen Adobe Experience Platform und Audience Manager verwendet eine Reihe von standardmäßigen [Identitäts-Namensräumen](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) für alle Kunden: ECID, IDFA, GAID, Hash-E-Mail-Adressen (EMAIL_LC_SHA256), AdCloud ID. Wenn Ihre Experience Platformen-Segmente eine dieser ID als primäre Identität für die qualifizierten Profil verwenden, werden die Profil in Audience Manager- und Segmenteigenschaften gezählt.
 
-Darüber hinaus kann Audience Manager die eingehenden Realisierungen für alle benutzerdefinierten Identitäts-Namensraum registrieren, die Sie in Experience Platformen-Segmenten verwenden, wenn:
-* die Identität als primär *und* gekennzeichnet ist
-* Sie haben bereits eine entsprechende geräteübergreifende Datenquelle in Audience Manager.
-
 >[!NOTE]
 >
 > Audiencen in Experience Platform mit IDs, die aus unbearbeiteten E-Mails herausgegeben werden, werden in Audience Manager nie angezeigt.
 
-Wenn Sie z. B. das Segment &quot;Alle meine Kunden&quot;mit einer Experience Platform versehen haben und die qualifizierten Profil CRM-IDs, ECID, IDFA, Roh- und Hash-E-Mail-Adressen sind, umfasst das entsprechende Segment in Audience Manager nur Profil, die mit CRM-IDs, ECID, IDFA und Hash-E-Mail-Adressen ausgefüllt wurden. Die Segmentpopulation in Audience Manager wäre kleiner als die in der Experience Platform.
+Wenn Sie z. B. das Segment &quot;Alle meine Experience Platformen&quot;haben und die qualifizierten Profil CRM-IDs, ECID, IDFA, Roh- und Hash-E-Mail-Adressen sind, umfasst das entsprechende Segment in Audience Manager nur Profil, die von ECID-, IDFA- und Hash-E-Mail-Adressen ausgefüllt wurden. Die Segmentpopulation in Audience Manager wäre kleiner als die in der Experience Platform.
 
-![Experience Platform zur Segmentfreigabe in Audience Manager - Segmentzusammensetzung](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Experience Platform zur Segmentfreigabe in Audience Manager - Segmentzusammensetzung](assets/AEP-to-AAM-profiles.png)
 
 <!--
 
