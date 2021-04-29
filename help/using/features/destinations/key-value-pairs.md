@@ -1,14 +1,14 @@
 ---
-description: A [!DNL key-value pair] besteht aus verwandten Elementen. Ein Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und ein Wert, bei dem es sich um eine Variable handelt, die zum Datensatz gehört (z. B. männlich/weiblich, grün, 100). Der Destination Builder sendet Daten, die als Schlüssel/Wert-Paare formatiert sind.
+description: A [!DNL key-value pair] besteht aus [!DNL related elements]. Ein Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und ein Wert, bei dem es sich um eine Variable handelt, die zum Datensatz gehört (z. B. männlich/weiblich, grün, 100). Der Destination Builder sendet Daten, die als Schlüssel/Wert-Paare formatiert sind.
 solution: Audience Manager
 title: Standard und Serial [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Zielgrundlagen
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
+source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
