@@ -7,14 +7,14 @@ title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-Adresse; STFP-IP-Adresse; FTP-Adresse
 feature: Administration
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 translation-type: tm+mt
-source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 84%
 
 ---
-
 
 # Häufig gestellte Fragen zur Datenerfassung und Produktintegration {#data-collection-and-product-integration-faq}
 
@@ -84,7 +84,7 @@ Richten Sie Ihre [!DNL Audience Manager]-[!DNL Analytics]-Integration mit einer 
 
 * Platzieren Sie [!UICONTROL DIL] direkt in den `s_code`.
 
-* Bedienen Sie [!UICONTROL DIL] und den `s_code` über [!DNL Adobe Experience Platform Launch] oder [!DNL Adobe DTM].
+* Geben Sie [!UICONTROL DIL] und `s_code` durch [!DNL Adobe Experience Platform Launch] ein.
 
 Siehe [Data Integration Library (DIL)-API](../dil/dil-overview.md).
 
