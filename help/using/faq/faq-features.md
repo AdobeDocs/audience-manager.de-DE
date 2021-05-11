@@ -6,15 +6,15 @@ seo-title: Häufig gestellte Fragen zu Produktfunktionen
 solution: Audience Manager
 title: Häufig gestellte Fragen zu Produktfunktionen
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: Overview
+feature: Überblick
+exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 89%
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
-
 
 # Häufig gestellte Fragen zu Produktfunktionen {#product-features-and-functions-faq}
 
@@ -68,7 +68,7 @@ Ihr Daten-Feed und alle im Feed enthaltenen Eigenschaften werden als Unterordner
 
 **Was ist [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager verwendete [!UICONTROL Tag Insertion Manager] (TIM) zum Erstellen und Verwalten von [!UICONTROL data collection code (DIL)]. Diese Funktion ist mittlerweile veraltet und wurde zuerst durch [!UICONTROL Dynamic Tag Manager (DTM)] und später durch [!DNL Adobe Experience Platform Launch] ersetzt. Weitere Informationen finden Sie unter [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) und [Dynamisches Tag Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html).
+Audience Manager verwendete [!UICONTROL Tag Insertion Manager] (TIM) zum Erstellen und Verwalten von [!UICONTROL data collection code (DIL)]. Diese Funktion ist mittlerweile veraltet und wurde zuerst durch [!UICONTROL Dynamic Tag Manager (DTM)] und später durch [!DNL Adobe Experience Platform Launch] ersetzt. Weitere Informationen finden Sie unter [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
  
 
