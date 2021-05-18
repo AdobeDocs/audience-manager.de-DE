@@ -6,14 +6,13 @@ solution: Audience Manager
 title: DCS-Fehlercodes, Meldungen und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
-translation-type: tm+mt
-source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
+exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
+source-git-commit: 1be86de9322df6b764ee3870fa82ddb2bb8b06ec
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1540'
 ht-degree: 4%
 
 ---
-
 
 # DCS-Fehlercodes, Meldungen und Beispiele {#dcs-error-codes-messages-and-examples}
 
@@ -28,6 +27,7 @@ In den folgenden Tabellen steht *kursiv* für einen variablen Platzhalter.
 | 0 | Nicht spezifizierter Fehler | Dies ist ein allgemeiner Fehler, der Ereignis verarbeitet, die nicht von den anderen Fehlerhandlern abgedeckt werden. Die Behebung dieses Fehlers ist schwierig. Sie kann durch eine Vielzahl unbekannter Aktionen oder Ereignisse verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie es erneut mit Ihrer [!DNL DCS]-Anforderung. Wenden Sie sich an Ihren [!DNL Adobe]-Kundenbetreuer, wenn das Problem weiterhin besteht. |
 | 1 | config für Hostname konnte nicht gefunden werden: `hostname` | Der Hostname, der in der Anfrage gesendet wurde, wurde nicht von unserem Partner-Bereitstellungsteam eingerichtet. Wenden Sie sich an Ihren [!DNL Adobe]-Kundenbetreuer, wenn diese Fehlermeldung angezeigt wird. |
 | 2 | Ungültiger Wert `d_orgid` (keine Konfiguration für diese Organisations-ID gefunden): `ID` | Die Organisations-ID ist nicht korrekt. Überprüfen Sie Ihre ID und versuchen Sie es erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder noch nicht über eine solche verfügen, finden Sie weitere Informationen dazu im Abschnitt &quot;Administrationsseite&quot; [Organisationen und Kontoverknüpfung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
+| 10 | Eigenschaften können nicht ausgewertet werden | Die Eigenschaften auf der Anforderung wurden entweder teilweise bewertet oder gar nicht bewertet. |
 
 ## Integrationsfehlercodes {#integration-error-codes}
 
