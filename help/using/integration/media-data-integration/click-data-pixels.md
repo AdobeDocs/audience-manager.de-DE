@@ -1,13 +1,12 @@
 ---
-description: Die Klick-Tracking ermöglicht die Messung der Interaktion mit Besuchern in Ihrer gesamten Kampagne, da Klick-basierte Aktivitäten für Kreative von Drittanbietern aufgezeichnet werden.
-seo-description: Die Klick-Tracking ermöglicht die Messung der Interaktion mit Besuchern in Ihrer gesamten Kampagne, da Klick-basierte Aktivitäten für Kreative von Drittanbietern aufgezeichnet werden.
+description: Klick-Tracking ermöglicht die Messung der Besucherinteraktion in der gesamten Kampagne, da Klick-basierte Aktivitäten für kreative Inhalte von Drittanbietern aufgezeichnet werden.
+seo-description: Klick-Tracking ermöglicht die Messung der Besucherinteraktion in der gesamten Kampagne, da Klick-basierte Aktivitäten für kreative Inhalte von Drittanbietern aufgezeichnet werden.
 seo-title: Erfassen von Kampagnenklickdaten über Pixelaufrufe
 solution: Audience Manager
 title: Erfassen von Kampagnenklickdaten über Pixelaufrufe
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-feature: Adobe Campaign Integration
+feature: Adobe Campaign-Integration
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '689'
@@ -17,20 +16,20 @@ ht-degree: 11%
 
 # Erfassen von Kampagnenklickdaten über Pixelaufrufe {#capturing-campaign-click-data-via-pixel-calls}
 
-Die Klick-Tracking ermöglicht die Messung der Interaktion mit Besuchern in Ihrer gesamten Kampagne, da Klick-basierte Aktivitäten für Kreative von Drittanbietern aufgezeichnet werden. Ähnlich wie bei [Impressions collection](/help/using/integration/media-data-integration/impression-data-pixels.md) wird ein Ereignis-Aufruf zur Verarbeitung an die [!DNL Audience Manager]-Datenerfassungsserver ([!DNL DCS]) gesendet. Der Besucher wird dann an die gewünschte Internetadresse weitergeleitet.
+Klick-Tracking ermöglicht die Messung der Besucherinteraktion in der gesamten Kampagne, da Klick-basierte Aktivitäten für kreative Inhalte von Drittanbietern aufgezeichnet werden. Ähnlich wie bei [Impressions collection](/help/using/integration/media-data-integration/impression-data-pixels.md) wird ein Ereignisaufruf zur Verarbeitung an die [!DNL Audience Manager]-Datenerfassungsserver ([!DNL DCS]) gesendet. Der Besucher wird dann zur vorgesehenen Webadresse weitergeleitet.
 
 >[!NOTE]
 >
->Bitte wenden Sie sich an Ihren [!DNL Audience Manager] Consulting oder Account Lead für die genaue [!DNL URL] spezifische Client-Domäne.
+>Wenden Sie sich an Ihren [!DNL Audience Manager] Berater oder Kundenbetreuer für die genaue [!DNL URL], die für die Client-Domäne spezifisch ist.
 
 ## Anforderungen
 
 Für Klick-Tracking-Aufrufe sind die folgenden Parameter erforderlich:
 
-* `d_event=click`: Ein Schlüssel-Wert-Paar, das einen Ereignis-Aufruf als ein click-Ereignis identifiziert.
-* `d_rd=redirect URL`: Ein Schlüssel-Wert-Paar, das eine Dublette-kodierte Umleitung enthält  [!DNL URL]. Wenn Sie ein Online-Kodierungstool verwenden, führen Sie die Zeichenfolge über den Encoder aus und kodieren Sie dann das Ergebnis erneut, damit die Umleitung funktioniert.
+* `d_event=click`: Ein Schlüssel-Wert-Paar, das einen Ereignisaufruf als Klickereignis identifiziert.
+* `d_rd=redirect URL`: Ein Schlüssel-Wert-Paar, das eine doppelt kodierte Umleitung enthält  [!DNL URL]. Wenn Sie ein Online-Kodierungs-Tool verwenden, führen Sie die Zeichenfolge über den Kodierer aus und kodieren Sie dann das Ergebnis erneut, damit die Umleitung funktioniert.
 
-Darüber hinaus kann der Aufruf Schlüssel-Wert-Paare enthalten, die für die Eigenschaftsqualifikation oder zur Bereitstellung von Daten und Metadaten für andere Berichte verwendet werden können.
+Darüber hinaus kann der Aufruf Schlüssel-Wert-Paare enthalten, die für die Eigenschaftsqualifizierung oder zur Bereitstellung von Daten und Metadaten für andere Berichte verwendet werden können.
 
 ## Anforderungsbeispiel
 
@@ -40,7 +39,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## Antwort
 
-Die Antwort leitet den Browser zu dem im Parameter `d_rd` angegebenen [!DNL URL] um. Die Antwortzeichenfolge kann Werte enthalten, die von einem der unten aufgeführten unterstützten Makros generiert wurden.
+Die Antwort leitet den Browser zu dem im Parameter `d_rd` angegebenen [!DNL URL] um. Die Antwortzeichenfolge kann Werte enthalten, die von einem der unten aufgeführten unterstützten Makros generiert werden.
 
 Basierend auf dem obigen Beispiel wird der Browser zu folgendem [!DNL URL] umgeleitet:
 
@@ -48,7 +47,7 @@ Basierend auf dem obigen Beispiel wird der Browser zu folgendem [!DNL URL] umgel
 
 ## Unterstützte Makros
 
-Klicken Sie auf Ereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros. Ein Makro ist eine kleine Einheit eigenständigen Codes, die aktiviert wird, wenn das Anzeigen-Tag zur Kampagne- und Benutzerverfolgung geladen wird. Die Makros werden zusammen mit dem Ziel [!DNL URL] weitergeleitet, sofern sie mit dem folgenden Format gekennzeichnet sind: `%macro%`. Einige Schlüssel haben keine Makros und akzeptieren stattdessen einen hartkodierten ID-Wert. Schlüssel, die hartcodierte Werte akzeptieren, sind erforderlich, wenn Sie Daten in den [Audience Optimizationen-Berichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md) analysieren möchten.
+Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros. Ein Makro ist eine kleine Einheit von eigenständigem Code, der aktiviert wird, wenn das Anzeigen-Tag zum Kampagnen- und Benutzertracking geladen wird. Die Makros werden zusammen mit dem Ziel [!DNL URL] übergeben, sofern sie im folgenden Format gekennzeichnet sind: `%macro%`. Einige Schlüssel haben keine Makros und akzeptieren stattdessen einen hartcodierten ID-Wert. Schlüssel, die hartcodierte Werte akzeptieren, sind erforderlich, wenn Sie Daten in den [Audience Optimization-Berichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md) analysieren möchten.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -66,18 +65,18 @@ Klicken Sie auf Ereignisse unterstützen die in der folgenden Tabelle aufgeführ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col02"> <p>Kein Makro. </p> <p>Akzeptiert einen hartkodierten ID-Wert. </p> </td> 
-   <td colname="col2"> <p>Advertiser-ID.</p> <p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dies nicht mit den Datenquellen des Audience Managers in Zusammenhang steht.</p> <p> Erforderlich für <span class="wintitle">-Berichte der Audience Optimization</span>. </p> </td> 
+   <td colname="col02"> <p>Kein Makro. </p> <p>Akzeptiert einen hartcodierten ID-Wert. </p> </td> 
+   <td colname="col2"> <p>Advertiser-ID.</p> <p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dies nicht mit Audience Manager-Datenquellen in Zusammenhang steht.</p> <p> Erforderlich für <span class="wintitle"> Audience Optimization</span> -Berichte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>Numerische ID für die Geschäftseinheit. </p> <p> Erforderlich für <span class="wintitle">-Berichte der Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>Numerische ID für die Geschäftseinheit. </p> <p> Erforderlich für <span class="wintitle"> Audience Optimization</span> -Berichte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p> Erforderlich für <span class="wintitle">-Berichte der Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p> Erforderlich für <span class="wintitle"> Audience Optimization</span> -Berichte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -87,12 +86,12 @@ Klicken Sie auf Ereignisse unterstützen die in der folgenden Tabelle aufgeführ
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_id%</code> </p> </td> 
-   <td colname="col2"> <p>Datenanbieter-ID. </p> <p>Wird häufig mit <code> d_dpuuid</code> verwendet, um eine Datenanbieter-ID mit einer Benutzer-ID zu verknüpfen. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>Datenanbieter-ID. </p> <p>Häufig mit <code> d_dpuuid</code> verwendet, um eine Datenanbieter-ID mit einer Benutzer-ID zu verknüpfen. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
-   <td colname="col2"> <p>Vom Datenanbieter bereitgestellte eindeutige Benutzer-ID. </p> <p>Wird häufig mit <code> d_dpid</code> verwendet, um eine Benutzer-ID mit einer Datenanbieter-ID zu verknüpfen. </p> </td> 
+   <td colname="col2"> <p>Vom Datenanbieter bereitgestellte eindeutige Benutzer-ID. </p> <p>Häufig mit <code> d_dpid</code> verwendet, um eine Benutzer-ID mit einer Datenanbieter-ID zu verknüpfen. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
@@ -107,12 +106,12 @@ Klicken Sie auf Ereignisse unterstützen die in der folgenden Tabelle aufgeführ
   <tr> 
    <td colname="col1"> <p> <code> d_region</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
-   <td colname="col2"> <p>Die numerische Regions-ID für den DCS-Cluster, der eine Anforderung bereitstellt. Weitere Informationen zum DCS finden Sie unter <a href="../../reference/system-components/components-data-collection.md"> Datenerfassungskomponenten</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>Die numerische Regions-ID für den DCS-Cluster, der eine Anfrage bereitstellt. Weitere Informationen zum DCS finden Sie unter <a href="../../reference/system-components/components-data-collection.md"> Datenerfassungskomponenten</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_rand</code> </p> </td> 
    <td colname="col02"> <p> <code> %r_rand%</code> </p> </td> 
-   <td colname="col2"> <p>Zufallszahl, die zum Busten des Cache verwendet wird. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>Zufällige Nummer, die für das Cache-Busting verwendet wird. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_site</code> </p> </td> 
@@ -132,7 +131,7 @@ Klicken Sie auf Ereignisse unterstützen die in der folgenden Tabelle aufgeführ
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
    <td colname="col02"> <p> <code>${gdpr}</code> </p> </td> 
-   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a> </p><p><code>gdpr</code> kann 0 (GDPR gilt nicht) oder 1 (GDPR gilt) betragen.</p> <p>Der Standardwert ist 0.</p><p>Optional.</p></td> 
+   <td colname="col2"> <p>Im Zusammenhang mit <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">dem Audience Manager-Plug-in für IAB TCF.</a> </p><p><code>gdpr</code> kann 0 (DSGVO trifft nicht zu) oder 1 (DSGVO trifft zu) betragen.</p> <p>Der Standardwert ist 0.</p><p>Optional.</p></td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
@@ -142,9 +141,9 @@ Klicken Sie auf Ereignisse unterstützen die in der folgenden Tabelle aufgeführ
  </tbody> 
 </table>
 
-## Beispiel zu Makros
+## Beispiel für Makros
 
-In diesem Beispiel wird veranschaulicht, wie die Makros für Kreativelemente, Adgroup und Platzierung übergeben werden. Es wird davon ausgegangen, dass die Werte für jeden Parameter im nicht umgeleiteten Teil des Clicktracking-Aufrufs weitergegeben werden.
+In diesem Beispiel wird gezeigt, wie die Kreativ-, Adgroup- und Platzierungsmakros übergeben werden. Es wird davon ausgegangen, dass die Werte für jeden Parameter im nicht umgeleiteten Teil des Klick-Tracking-Aufrufs übergeben werden.
 
 <ul class="simplelist"> 
  <li> <code> creative=1235 </code> </li> 
@@ -169,10 +168,10 @@ Basierend auf dem obigen Beispiel wird der Browser zu folgendem [!DNL URL] umgel
 
 ## Zusätzliche Funktionen - [!UICONTROL Audience Optimization Reports]
 
-Sie können Pixelaufrufe verwenden, um die [Audience Optimization-Berichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) zu aktivieren. Siehe [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md), wenn Sie Pixel verwenden möchten, um die Berichte zu aktivieren.
+Sie können Pixelaufrufe verwenden, um die [Audience Optimization-Berichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) zu unterstützen. Weitere Informationen zur Nutzung von Pixeln zur Leistungsoptimierung von Berichten finden Sie unter [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 
 >[!MORELIKETHIS]
 >
->* [Daten- und Metadatendateien für Audience Optimizationen-Berichte](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Daten- und Metadatendateien für Audience Optimization-Berichte](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
