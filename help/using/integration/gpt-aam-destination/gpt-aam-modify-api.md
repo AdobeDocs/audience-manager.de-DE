@@ -1,13 +1,12 @@
 ---
-description: hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
-seo-description: hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der Google Publisher Tag .setTargeting-Methode nach Audience Manager-Cookies zu suchen.
+description: Fügen Sie eine if -Anweisung hinzu, um vor dem Aufruf der Google Publisher Tag .setTargeting -Methode nach Audience Manager-Cookies zu suchen.
+seo-description: Fügen Sie eine if -Anweisung hinzu, um vor dem Aufruf der Google Publisher Tag .setTargeting -Methode nach Audience Manager-Cookies zu suchen.
 seo-title: Ändern des GPT-API-Aufrufs setTargeting
 solution: Audience Manager
 title: Ändern des GPT-API-Aufrufs setTargeting
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-feature: Third-party Integration
+feature: Drittanbieterintegration
 exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '300'
@@ -15,17 +14,17 @@ ht-degree: 9%
 
 ---
 
-# Ändern Sie den GPT `setTargeting`-API-Aufruf {#modify-the-gpt-settargeting-api-call}
+# Ändern des GPT `setTargeting`-API-Aufrufs {#modify-the-gpt-settargeting-api-call}
 
-hinzufügen Sie eine if-Anweisung, um vor dem Aufruf der [!DNL Google Publisher Tag] `.setTargeting`-Methode nach Audience Manager-Cookies zu suchen.
+Fügen Sie eine if -Anweisung hinzu, um vor dem Aufruf der [!DNL Google Publisher Tag] `.setTargeting` -Methode nach Audience Manager-Cookies zu suchen.
 
-## Suchen Sie nach Audience Manager-Cookies mit einer `IF`-Anweisung
+## Überprüfen auf Audience Manager-Cookies mit einer `IF`-Anweisung
 
-Die `.setTargeting`-Methode ruft Daten aus dem Audience Manager-Zielcookie und dem eindeutigen Benutzer-ID-Cookie ( `aam_uuid`) ab. Wenn `.setTargeting` jedoch aufgerufen wird, bevor [!UICONTROL DIL] diese Cookies schreibt oder die Cookies leer sind, werden beim Laden der Seite möglicherweise Fehler angezeigt. Um dies zu vermeiden, schließen Sie die `.setTargeting`-Methode in eine `if`-Anweisung ein, die nach diesen Cookies sucht. Wenn sie nicht eingestellt sind, verhindert diese Anweisung, dass `.setTargeting` die Funktion `AamGpt` aufruft.
+Die `.setTargeting`-Methode ruft Daten vom Audience Manager-Ziel-Cookie und vom Unique User-ID-Cookie ( `aam_uuid`) ab. Wenn `.setTargeting` jedoch aufgerufen wird, bevor [!UICONTROL DIL] diese Cookies schreibt oder die Cookies leer sind, können beim Laden der Seite Fehler auftreten. Um dies zu vermeiden, schließen Sie die `.setTargeting`-Methode in eine `if`-Anweisung ein, die nach diesen Cookies sucht. Wenn sie nicht festgelegt sind, verhindert diese Anweisung, dass `.setTargeting` die Funktion `AamGpt` aufruft.
 
 ### `IF` Beispiel für Anweisungscode
 
-In diesem Beispiel lautet der Audience Manager-Ziel-Cookie-Name `Sample`. Sie legen diesen Namen fest, wenn Sie das Ziel-Cookie in der Benutzeroberfläche von Audience Manager erstellen. [!UICONTROL DIL] legt das  `aam_uuid` Cookie fest und der Name kann nicht geändert werden.
+In diesem Beispiel lautet der Audience Manager-Ziel-Cookie-Name `Sample`. Sie legen diesen Namen fest, wenn Sie das Ziel-Cookie in der Audience Manager-Benutzeroberfläche erstellen. [!UICONTROL DIL] setzt das  `aam_uuid` Cookie und der Name kann nicht geändert werden.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -38,11 +37,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Abhängig davon, wie Sie mit [!DNL Google Ad Manager] integrieren möchten, benötigen Sie nur einige der Zeilen im obigen Codebeispiel:
+>Abhängig davon, wie Sie die Integration mit [!DNL Google Ad Manager] durchführen möchten, benötigen Sie nur einige der Zeilen im obigen Codebeispiel:
 >
->* Clientseitige Integration: nur Zeilen 1-3 verwenden.
+>* Clientseitige Integration: nur die Zeilen 1-3 verwenden.
 >* Serverseitige Integration: Keine der Zeilen wird benötigt.
->* Erfassen Sie die Protokolldateien für Berichte in [!DNL Audience Manager]: nur die Zeilen 4-6 verwenden. [!DNL Google Ad Manager] Mit diesem Code wird der Wert des `aam_uuid`-Cookies in die Protokolle eingefügt, damit sie zum Berichte aufgenommen werden können.
+>* Erfassen Sie [!DNL Google Ad Manager] Protokolldateien für die Berichterstellung in [!DNL Audience Manager]: nur die Zeilen 4 bis 6 verwenden. Dieser Code fügt den Wert des `aam_uuid`-Cookies in die Protokolle ein, damit sie für die Berichterstellung erfasst werden können.
 
 
 ### `AamGpt` Funktionen und Datentypen
@@ -71,7 +70,7 @@ Definiert die Schlüsselvariablen, die in der `if`-Anweisung verwendet werden.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Gibt die Audience Manager-Benutzer-ID zurück, z. B. <code> 12345 </code>. </p> </td> 
+   <td colname="col3"> <p>Gibt die Benutzer-ID des Audience Managers zurück, z. B. <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -79,5 +78,5 @@ Definiert die Schlüsselvariablen, die in der `if`-Anweisung verwendet werden.
 >[!MORELIKETHIS]
 >
 >* [Erstellen eines GPT-Ziels](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Audience Manager-Code für Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+* [Audience Manager-Code für Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
