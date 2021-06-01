@@ -6,7 +6,6 @@ solution: Audience Manager
 title: Wir verwenden Audience Manager nicht, aber im Javascript-Debugger werden Javascript-Aufrufe von Audience Manager angezeigt. Warum?
 feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '189'
