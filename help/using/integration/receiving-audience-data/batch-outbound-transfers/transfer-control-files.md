@@ -1,37 +1,36 @@
 ---
-description: Transfer-Control-Dateien (.info) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
-seo-description: Transfer-Control-Dateien (.info) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
+description: Dateiübertragungs-Kontrolldateien (.info) bieten Metadateninformationen zu Dateiübertragungen, sodass Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat.
+seo-description: Dateiübertragungs-Kontrolldateien (.info) bieten Metadateninformationen zu Dateiübertragungen, sodass Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat.
 seo-title: Übertragungssteuerungsdateien für Protokolldateiübertragungen
 solution: Audience Manager
 title: Übertragungssteuerungsdateien für Protokolldateiübertragungen
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
+feature: Ausgehende Datenübertragungen
+exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 6%
 
 ---
 
-
 # Übertragungssteuerungsdateien für Protokolldateiübertragungen {#transfer-control-files-for-log-file-transfers}
 
-Übertragungssteuerungsdateien ([!DNL .info]) bieten Metadateninformationen zu Dateiübertragungen, damit die Partner überprüfen können, ob die Dateiübertragungen von Audience Manager korrekt verarbeitet wurden.
+Dateiübertragungs-Kontrolldateien ([!DNL .info]) bieten Metadateninformationen über Dateiübertragungen, sodass Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat.
 
-[!DNL Audience Manager] sendet bei jeder Dateiübertragung eine Transfersteuerungsdatei an einen Partner. Aufgrund der Multi-Thread-Charakteristik des [!DNL FTP]-Herausgebers kann die Übertragungssteuerungsdatei gesendet werden, bevor die eigentlichen Dateien übertragen werden.
+[!DNL Audience Manager] sendet bei jeder Dateiübertragung eine Übertragungssteuerungsdatei an einen Partner. Aufgrund der Multi-Thread-Natur des [!DNL FTP]-Herausgebers kann die Übertragungssteuerungsdatei gesendet werden, bevor die eigentlichen Dateien übertragen werden.
 
 Die Metadaten in der Datei [!DNL .info] ermöglichen Partnern Folgendes:
 
-* Bestimmen Sie, wann ein vollständiger Übertragungszyklus abgeschlossen ist (die Gesamtzahl der in der Sequenz enthaltenen Dateien wurde bereitgestellt).
-* Bestimmen Sie, ob eine beliebige Datei in der Sequenz vollständig/korrekt ist (durch Untersuchung der Größe der Datei in Byte und der Gesamtanzahl der Zeilen).
-* Bei der Überprüfung der Anzahl der Zeilen in Rohdateien wird die Anzahl der Zeilen nach dem Laden der Dateien in die Datenbank am Empfängerende (Dateigröße in Zeilen) zurückgesetzt.
+* Bestimmen Sie, wann ein vollständiger Übertragungszyklus abgeschlossen ist (die Gesamtzahl der Dateien in der Sequenz wurde bereitgestellt).
+* Bestimmen Sie, ob eine beliebige Datei in der Sequenz vollständig/korrekt ist (indem Sie die Größe der Datei in Byte und die Gesamtanzahl der Zeilen überprüfen).
+* Beim Überprüfen der Anzahl der Zeilen in den Rohdateien wird die Anzahl der Zeilen nach dem Laden der Dateien in die Datenbank am Empfangs-Ende (Dateigröße in Zeilen) vernachlässigt.
 
-## Dateibenennungskonventionen {#file-naming-conventions}
+## Namenskonventionen für Dateien {#file-naming-conventions}
 
-Die Datei für die Übertragungssteuerung hat denselben Namen wie der Stammordner des Stapels/der Sequenz mit einer [!DNL .info] Dateierweiterung.s
+Die Übertragungssteuerungsdatei hat denselben Namen wie der Stamm des Batches/der Sequenz mit der Dateierweiterung [!DNL .info] .
 
-Wenn die erste Datei in der Sequenz beispielsweise den Namen hatte: [!DNL ftp_12345_67890_full_1500727351632-1.sync] würde die Steuerelementdatei [!DNL ftp_12345_67890_iter_1500727351632.info] heißen.
+Wenn beispielsweise die erste Datei in der Sequenz den Namen hatte: [!DNL ftp_12345_67890_full_1500727351632-1.sync] würde die Kontrolldatei [!DNL ftp_12345_67890_iter_1500727351632.info] heißen.
 
 ## Dateiformat {#file-format}
 
@@ -78,8 +77,8 @@ Wenn die erste Datei in der Sequenz beispielsweise den Namen hatte: [!DNL ftp_12
 
 >[!NOTE]
 >
-> Die Gesamtzahl der Stapel ist nicht in der Datei [!DNL .info] enthalten. Das heißt, die Summen enthalten nicht die Datei [!DNL .info], ihre Bytegröße oder ihre Zeilenzahl.
+> Die Batch-Gesamtzahlen schließen die [!DNL .info]-Datei selbst aus. Das heißt, die Summen enthalten nicht die Datei [!DNL .info], ihre Byte-Größe oder die Zeilenanzahl.
 >
-> Die Bytegrößen von Dateien und Zeilenzahlen beinhalten alle Header- und Platzhalterlinien/Zeilen (leer). Um die Anzahl der tatsächlichen Datenzeilen/Zeilen abzurufen, ziehen Sie die Kopfzeilen ab.
+> Byte-Größen von Dateien und Zeilenanzahl enthalten alle Header- und (leeren) Abstand-Zeilen/Zeilen. Um die Anzahl der tatsächlichen Datenzeilen/Zeilen zu erhalten, subtrahieren Sie Kopfzeilen.
 >
-> Zeilen insgesamt im Stapel und Bytegröße insgesamt schließen Kopf- und Leerzeichenzeilen ein.
+> Die Gesamtzeilen in Batch- und Gesamt-Byte-Größe beinhalten alle Header- und Leerzeichenzeilen.
