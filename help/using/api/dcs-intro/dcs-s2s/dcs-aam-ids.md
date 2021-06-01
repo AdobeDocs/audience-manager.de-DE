@@ -1,32 +1,31 @@
 ---
-description: In diesem Abschnitt wird beschrieben, wie Sie eine DCS-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die für Echtzeitaufrufe des DCS erforderlich sind.
-seo-description: In diesem Abschnitt wird beschrieben, wie Sie eine DCS-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die für Echtzeitaufrufe des DCS erforderlich sind.
+description: In diesem Abschnitt wird beschrieben, wie Sie eine DCS-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die zum Ausführen von Echtzeitaufrufen an den DCS erforderlich sind.
+seo-description: In diesem Abschnitt wird beschrieben, wie Sie eine DCS-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die zum Ausführen von Echtzeitaufrufen an den DCS erforderlich sind.
 seo-title: Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort
 solution: Audience Manager
 title: Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 17%
 
 ---
 
-
 # Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort {#get-user-ids-and-regions-from-a-dcs-response}
 
-In diesem Abschnitt wird beschrieben, wie Sie eine [!DNL DCS]-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die für Echtzeitaufrufe von [!DNL DCS] erforderlich sind.
+In diesem Abschnitt wird beschrieben, wie Sie eine [!DNL DCS]-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die zum Ausführen von Echtzeitaufrufen an das [!DNL DCS] erforderlich sind.
 
 ## Benutzer- und Regions-IDs {#user-region-ids}
 
-Eine [!DNL DCS]-Antwort enthält Daten zu Ihren Site-Besuchern. Sie benötigen die Besucher- und Regions-ID, bevor Sie Server-zu-Server-Aufrufe an das [!DNL DCS] durchführen können.
+Eine [!DNL DCS] -Antwort enthält Daten zu Ihren Site-Besuchern. Sie benötigen die Besucher- und Regions-ID, bevor Sie Server-zu-Server-Aufrufe an [!DNL DCS] durchführen können.
 
-* Die Benutzer-ID ist erforderlich, um Daten zu identifizieren und mit einem bestimmten Besucher zu verbinden.
-* Die Regions-ID ist erforderlich, da sie an einen regionalen Servernamen gebunden ist, den Sie an das [!DNL DCS] senden müssen. Das [!DNL DCS] speichert Informationen in Rechenzentren, die geografisch am nächsten zu Site-Besuchern liegen. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Die Benutzer-ID ist erforderlich, um Daten zu einem bestimmten Besucher zu identifizieren und zuzuordnen.
+* Die Regions-ID ist erforderlich, da sie an einen regionalen Servernamen gebunden ist, an den Sie Daten an [!DNL DCS] senden müssen. Der [!DNL DCS] speichert Informationen in Rechenzentren, die den Site-Besuchern am nächsten sind. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Diese Parameter werden nachfolgend beschrieben. Code in *kursiv* stellt einen variablen Platzhalter dar.
+Diese Parameter werden nachfolgend beschrieben. Code in *kursiv* stellt einen Variablenplatzhalter dar.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -52,7 +51,7 @@ Diese Parameter werden nachfolgend beschrieben. Code in *kursiv* stellt einen va
 
 ## Beispielantwort {#sample-response}
 
-Diese einfache Antwort zeigt die Variablen `UUID` und Region `ID`. Beachten Sie, dass dies nur Musterdaten sind. Ihre Protokolldateien können länger und komplexer sein.
+Diese einfache Antwort zeigt die `UUID` und die Region `ID`. Beachten Sie, dass dies nur Beispieldaten sind. Ihre Protokolldateien können länger und komplexer sein.
 
 ```js
 {
@@ -65,4 +64,4 @@ Diese einfache Antwort zeigt die Variablen `UUID` und Region `ID`. Beachten Sie,
 
 ## Nächste Schritte {#next-steps}
 
-Sobald Sie die Benutzer-ID und den regionalen Servernamen haben, können Sie Beginn zum Senden und Empfangen von [!DNL DCS]-Daten verwenden. Siehe [Durchführen von DCS-API-Aufrufen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Sobald Sie über die Benutzer-ID und den regionalen Servernamen verfügen, können Sie mit dem Senden und Empfangen von [!DNL DCS]-Daten beginnen. Siehe [Ausführen von DCS-API-Aufrufen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
