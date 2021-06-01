@@ -3,9 +3,8 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
-user-guide-description: Erfahren Sie, wie Sie mit Audience Manager kommerziell relevante Informationen zu Site-Besuchern erfassen, marktfähige Segmente erstellen und zielgerichtete Werbung und Inhalte zur richtigen Audience bereitstellen können.
+user-guide-description: Erfahren Sie, wie Sie mit Audience Manager geschäftlich relevante Informationen über Site-Besucher erfassen, marktfähige Segmente erstellen und zielgruppengerechte Werbung und Inhalte für die richtige Zielgruppe bereitstellen können.
 feature-set: Audience Manager
-translation-type: tm+mt
 source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
 source-wordcount: '1806'
@@ -34,11 +33,11 @@ ht-degree: 96%
          + [Zustimmungsverwaltung](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Audience Manager-Plug-In für IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Data Governance](overview/data-security-and-privacy/data-governance.md)
-   + [Zugänglichkeit im Audience Manager](/help/using/overview/accessibility-in-aam.md)
+   + [Barrierefreiheit im Audience Manager](/help/using/overview/accessibility-in-aam.md)
 + Funktionen {#features}
    + [Ansprechbare Zielgruppen](features/addressable-audiences.md)
    + Administration {#administration}
-      + [Benutzermigration in Admin Console von Audience Manager](features/administration/admin-console-migration.md)
+      + [Audience Manager-Benutzermigration zur Admin Console](features/administration/admin-console-migration.md)
       + [Administration](features/administration/administration-overview.md)
       + [Bearbeiten Ihrer Kontoeinstellungen](features/administration/edit-account-settings.md)
       + [Verschleierung von IP-Adressen](features/administration/ip-obfuscation.md)
@@ -339,7 +338,7 @@ ht-degree: 96%
          + [Beispielnachricht an Partner nach der eingehenden Verarbeitung](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integration mit Adobe Experience Platform {#integration-experience-platform}
-      + [Segmentfreigabe für Experience Platformen mit Audience Manager und anderen Experience Cloud-Lösungen](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Segmentfreigabe in Experience Platform mit Audience Manager und anderen Experience Cloud-Lösungen](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integration mit anderen Experience Cloud-Lösungen {#integration-other-solutions}
       + [Integration von Audience Manager mit Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Weiterleiten von Daten von Adobe Analytics an Audience Manager](integration/integration-other-solutions/audience-management-module.md)
@@ -368,7 +367,7 @@ ht-degree: 96%
    + [Schlüssel-Wert-Paare – Erklärung](reference/key-value-pairs-explained.md)
    + [Passwortanforderungen, gesperrte Konten und vergessene Passwörter](reference/password-requirements.md)
    + [Signale, Eigenschaften und Segmente](reference/signal-trait-segment.md)
-   + [Unterstützte Browser](reference/supported-browsers.md)
+   + [Unterstützte Browser  ](reference/supported-browsers.md)
    + Systemkomponenten {#system-components}
       + [Systemkomponenten – Überblick](reference/system-components/components-overview.md)
       + [Schlüsselkomponenten im Audience Manager-System](reference/system-components/components-stack.md)
@@ -406,7 +405,7 @@ ht-degree: 96%
    + [Warum sind meine integrierten Eigenschaftspopulationen um den 15. Oktober auf 0 zurückgegangen? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angezeigt?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Warum können unsere Benutzer mit „Nur Lesen“-Berechtigung Eigenschaften und Segmente erstellen, bearbeiten oder löschen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
-   + [Wir sind kein Audience Manager-Kunde, sehen aber die Javascript-Aufrufe von Audience Manager auf unserer Website](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Wir sind kein Audience Manager-Kunde, sehen aber die Javascript-Aufrufe von Audience Manager auf unserer Website.](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Sollte ich meine Audience Manager Audience Lab zugeordneten Segmente auf der Zieldetailseite sehen?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Dokumentation – Aktualisierungen {#documentation-updates}
    + [Aktualisierungen der Dokumentation: 2021](docs-updates/docs-2021.md)
