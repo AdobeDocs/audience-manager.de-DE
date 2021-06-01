@@ -1,23 +1,22 @@
 ---
-description: Verwalten Sie die Datenerfassung und Audience mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften.
-seo-description: Verwalten Sie die Datenerfassung und Audience mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften.
+description: Verwalten Sie die Datenerfassung und Zielgruppenerstellung mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften.
+seo-description: Verwalten Sie die Datenerfassung und Zielgruppenerstellung mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften.
 keywords: Eigenschaft; Eigenschaften; Eigenschaftenübersicht
 seo-title: Eigenschaften – Überblick
 solution: Audience Manager
 title: Eigenschaften – Überblick
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Eigenschaften '
+exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 37%
+source-wordcount: '76'
+ht-degree: 38%
 
 ---
 
-
 # [!UICONTROL Traits] Überblick {#traits-overview}
 
-Verwalten Sie die Datenerfassung und Audience mit [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] oder [!UICONTROL folder traits]. Lesen Sie die unten verlinkten Seiten, um mit [!UICONTROL traits] zu beginnen:
+Verwalten Sie die Datenerfassung und Zielgruppenerstellung mit [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] oder [!UICONTROL folder traits]. Lesen Sie die unten verlinkten Seiten, um mit [!UICONTROL traits] zu beginnen:
 
 * [Detailseite einer Eigenschaft](/help/using/features/traits/trait-details-page.md)
 * [Trait Builder ](/help/using/features/traits/about-trait-builder.md)
