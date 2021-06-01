@@ -1,35 +1,34 @@
 ---
-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
-seo-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
+description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
+seo-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
 seo-title: Eigenschaftstypmethoden
 solution: Audience Manager
 title: Eigenschaftstypmethoden
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 9%
+source-wordcount: '180'
+ht-degree: 10%
 
 ---
 
-
 # Eigenschaftstypmethoden {#trait-type-methods}
 
-Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, üblicherweise entsprechend der Funktion oder für Ihre eigenen internen Berichte-Prozesse.
+Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->Eigenschafts-Typmethoden weisen Kategorien, die von der [common taxonomy](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods) verwendet werden, keine Eigenschaften zu. Stellen Sie sich diese als Etiketten vor, die von der allgemeinen Taxonomie getrennt sind.
+>Mit Eigenschaftstypmethoden werden Kategorien, die von der [allgemeinen Taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods) verwendet werden, keine Eigenschaften zugewiesen. Stellen Sie sich diese als Beschriftungen vor, die von der allgemeinen Taxonomie getrennt sind.
 
-Als visuelle Referenz dient [!UICONTROL Trait Types] als Dropdown-Steuerelement im [!DNL UI] unter **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Als visuelle Referenz ist [!UICONTROL Trait Types] ein Dropdown-Steuerelement im [!DNL UI] unter **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Erstellen eines neuen Eigenschaftentyps {#create-trait-type}
+## Erstellen eines neuen Eigenschaftstyps {#create-trait-type}
 
-Eine `POST`-Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
+Eine `POST` -Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -60,9 +59,9 @@ Eine `POST`-Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
 }
 ```
 
-## Rückgabeeigenschaften für einen Eigenschaftstyp {#return-props}
+## Eigenschaften für einen Eigenschaftstyp {#return-props} zurückgeben
 
-Eine `GET`-Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
+Eine `GET` -Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -85,9 +84,9 @@ Eine `GET`-Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
 }
 ```
 
-## Rückgabeeigenschaften für alle Eigenschaftstypen {#return-props-all}
+## Eigenschaften für alle Eigenschaftstypen zurückgeben {#return-props-all}
 
-Eine `GET`-Methode, die Details zu allen Eigenschaftstypen in einem Array zurückgibt.
+Eine `GET` -Methode, die Details zu allen Eigenschaftstypen in einem Array zurückgibt.
 
 <!-- r_rest_api_get_trait_types.xml -->
 
