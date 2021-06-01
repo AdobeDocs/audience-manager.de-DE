@@ -1,19 +1,18 @@
 ---
-description: Beschreibt das Erstellen von Segmenten mit dem Segmentaufbau.
-seo-description: Beschreibt das Erstellen von Segmenten mit dem Segmentaufbau.
+description: Beschreibt das Erstellen von Segmenten mit Segment Builder.
+seo-description: Beschreibt das Erstellen von Segmenten mit Segment Builder.
 seo-title: Segment Builder
 solution: Audience Manager
-title: Segmentaufbau
+title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-feature: Segments
-translation-type: tm+mt
-source-git-commit: 9e0c936ba514e517bcbd7572420118293f9a791f
+feature: 'Segmente '
+exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 2%
 
 ---
-
 
 # [!UICONTROL Segment Builder] {#segment-builder}
 
@@ -21,49 +20,49 @@ Beschreibt die erforderlichen und optionalen Schritte zum Erstellen eines Segmen
 
 ## Videodemonstration
 
-Beginn durch Anzeigen des Videos [Segmente in Audience Manager erstellen](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4). Das Video führt Sie durch den Prozess der Segmenterstellung. Lesen Sie die folgenden Abschnitte für weitere Informationen.
+Sehen Sie sich zunächst das Video [Segmente im Audience Manager erstellen](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4) an. Das Video führt Sie durch den Prozess der Segmenterstellung. Weitere Informationen finden Sie in den folgenden Abschnitten.
 
 ## Erstellen Sie eine [!UICONTROL Segment] {#create-segment}
 
-### Segmentaufbauabschnitt
+### Segment Builder-Abschnitt
 
 <!-- t_create_segment.xml -->
 
-[!UICONTROL Segment Builder] besteht aus 3 getrennten Abschnitten:  [!UICONTROL Basic Information],  [!UICONTROL Traits]und  [!UICONTROL Destinations Mapping]. Um ein [!UICONTROL segment] zu erstellen, füllen Sie die erforderlichen Felder in den Abschnitten [!UICONTROL Basic Information] und [!UICONTROL Traits] aus. [!UICONTROL Destinations Mapping] sind optional. Weitere Hilfe finden Sie in den unten stehenden Anweisungen.
+[!UICONTROL Segment Builder] besteht aus 3 getrennten Abschnitten:  [!UICONTROL Basic Information],  [!UICONTROL Traits]und  [!UICONTROL Destinations Mapping]. Um [!UICONTROL segment] zu erstellen, füllen Sie die erforderlichen Felder in den Abschnitten [!UICONTROL Basic Information] und [!UICONTROL Traits] aus. [!UICONTROL Destinations Mapping] -Einstellungen sind optional. Weitere Hilfe finden Sie in den unten stehenden Anweisungen.
 
-1. Im Abschnitt [Grundlegende Informationen](../../features/segments/segment-builder.md#segment-builder-controls-basics):
+1. Im Abschnitt [Grundlegende Informationen](../../features/segments/segment-builder.md#segment-builder-controls-basics) :
 
    ![create-segment](assets/create-segment.png)
 
-   * Benennen Sie [!UICONTROL segment]. Die maximale Länge eines [!UICONTROL segment]-Namens beträgt 255 Zeichen.
-   * Legen Sie den Status [!UICONTROL segment] fest (aktiv ist der Standard).
-   * Wählen Sie ein [!UICONTROL data source]. Verwenden Sie das erste Dropdown-Menü, um zwischen Audience Manager [!UICONTROL data sources], Adobe Analytics Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdown-Menü Ihr [!UICONTROL data source] aus. Wenn Sie keine Adobe Analytics Report Suites verwenden, ist die Typauswahl [!UICONTROL data source] deaktiviert und standardmäßig nur Audience Manager-Datenquellen.
-   * Wählen Sie ein [!UICONTROL profile merge rule] aus, das für die [!UICONTROL segment]-Qualifizierung verwendet werden soll.
-   * Weisen Sie das [!UICONTROL segment] einem Ordner &quot;Datenspeicherung&quot;zu.
+   * Benennen Sie [!UICONTROL segment]. Die maximale Länge eines Namens [!UICONTROL segment] beträgt 255 Zeichen.
+   * Den Status [!UICONTROL segment] festlegen (standardmäßig aktiv).
+   * Wählen Sie eine [!UICONTROL data source]. Verwenden Sie das erste Dropdown-Menü, um zwischen Audience Manager [!UICONTROL data sources], Adobe Analytics Report Suites oder beidem zu filtern. Wählen Sie dann im zweiten Dropdown-Menü [!UICONTROL data source] aus. Wenn Sie keine Adobe Analytics Report Suites verwenden, ist die Typauswahl vom Typ [!UICONTROL data source] deaktiviert und standardmäßig nur auf Audience Manager-Datenquellen festgelegt.
+   * Wählen Sie eine [!UICONTROL profile merge rule] für die [!UICONTROL segment]-Qualifizierung aus.
+   * Weisen Sie [!UICONTROL segment] einem Speicherordner zu.
 
-1. Im Abschnitt [Eigenschaften](../../features/segments/segment-builder.md#segment-builder-controls-traits):
-   ![segment-builder-properties](assets/segment-builder-traits.png)
-   * Suchen Sie nach dem [!UICONTROL trait], das Sie einem Segment hinzufügen möchten, und klicken Sie auf **[!UICONTROL Add Trait]**. hinzufügen Sie eine weitere [!UICONTROL trait]-Gruppe, um eine [!UICONTROL trait]-Gruppe zu erstellen.
+1. Im Abschnitt [Eigenschaften](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+   ![segment-builder-traits](assets/segment-builder-traits.png)
+   * Suchen Sie nach dem [!UICONTROL trait], den Sie einem Segment hinzufügen möchten, und klicken Sie auf **[!UICONTROL Add Trait]**. Fügen Sie ein weiteres [!UICONTROL trait] hinzu, um eine [!UICONTROL trait] -Gruppe zu erstellen.
    * Rufen Sie das Modal [!UICONTROL Advanced Search] auf, indem Sie auf **[!UICONTROL Browse All Traits]** klicken. Suchen Sie nach [!UICONTROL traits] nach Name, ID, Beschreibung oder [!UICONTROL data source]. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können [!UICONTROL traits] auch nach [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [Geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
-      ![segment-builder-browser-properties](assets/segment-builder-browse-traits.png)
-   * Holen Sie sich live [Empfehlungen für Eigenschaften](trait-recommendations.md), während Sie [!UICONTROL segment] erstellen.
-   * Klicken und ziehen Sie [!UICONTROL traits], um separate Gruppen zu erstellen.
-   * Bewegen Sie den Mauszeiger über Gruppen, um Beziehungen mit booleschen [!UICONTROL AND]-, [!UICONTROL OR]-, [!UICONTROL AND NOT]-Werten festzulegen.
-   * Bewegen Sie den Mauszeiger über das Uhrensymbol, um [Neuigkeit und Häufigkeit](../../features/segments/recency-and-frequency.md)-Regeln zu [!UICONTROL trait] hinzuzufügen.
-   * Populationsdaten für Segmentgruppen beim Hinzufügen oder Entfernen von [!UICONTROL traits]. Klicken Sie auf **[!UICONTROL Calculate Estimates]**, um die geschätzten Populationszahlen anzuzeigen (oder zu aktualisieren). Lesen Sie mehr über [Segmentpopulationsdaten](../../features/segments/segment-builder-data.md#segment-populations) in der [!UICONTROL Segment Builder].
-   * Klicken Sie abschließend auf **[!UICONTROL Save]**.
+      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
+   * Rufen Sie [Eigenschaftsempfehlungen](trait-recommendations.md) auf, während Sie [!UICONTROL segment] erstellen.
+   * Klicken und ziehen Sie [!UICONTROL traits] , um separate Gruppen zu erstellen.
+   * Bewegen Sie den Mauszeiger zwischen Gruppen, um Beziehungen mit booleschen [!UICONTROL AND]-, [!UICONTROL OR]-, [!UICONTROL AND NOT]-Werten festzulegen.
+   * Bewegen Sie den Mauszeiger über das Uhrensymbol, um [Neuigkeit und Häufigkeit](../../features/segments/recency-and-frequency.md) der [!UICONTROL trait]-Regel hinzuzufügen.
+   * Zeigen Sie die Populationsdaten des Segments beim Hinzufügen oder Entfernen von [!UICONTROL traits] an. Klicken Sie auf **[!UICONTROL Calculate Estimates]** , um die geschätzten Populationszahlen anzuzeigen (oder zu aktualisieren). Weitere Informationen zu [Segmentpopulationsdaten](../../features/segments/segment-builder-data.md#segment-populations) finden Sie in der [!UICONTROL Segment Builder].
+   * Klicken Sie abschließend auf **[!UICONTROL Save]** .
 
-1. *(Optional)* Ordnen Sie  [!UICONTROL segment] einem Element  [!UICONTROL destination] im Abschnitt  [Zielzuordnung einen ](../../features/segments/segment-builder.md#segment-builder-controls-destinations) zu:
-   * Suchen Sie nach dem [!UICONTROL destination] und klicken Sie auf **[!UICONTROL Add Destination]**. Beachten Sie, dass das [!UICONTROL destination] bereits vorhanden sein muss, bevor Sie es zu einem [!UICONTROL segment] hinzufügen können.
-   * Klicken Sie abschließend auf **[!UICONTROL Save]**.
+1. *(Optional)* Ordnen Sie eine  [!UICONTROL segment] zu einer  [!UICONTROL destination] im Abschnitt  [Zielzuordnung ](../../features/segments/segment-builder.md#segment-builder-controls-destinations) zu:
+   * Suchen Sie nach [!UICONTROL destination] und klicken Sie auf **[!UICONTROL Add Destination]**. Beachten Sie, dass [!UICONTROL destination] bereits vorhanden sein muss, bevor Sie sie zu einem [!UICONTROL segment] hinzufügen können.
+   * Klicken Sie abschließend auf **[!UICONTROL Save]** .
 
-Sehen Sie sich das unten stehende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
+Sehen Sie sich das Video unten an, um sich ausführlich anzusehen, wie geräteübergreifende Metriken funktionieren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Basic Information] Abschnitt  {#segment-builder-controls-basics}
 
-Mit den [!UICONTROL Segment Builder]-Einstellungen können Sie neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. [!UICONTROL the Basic Information] Um ein neues [!UICONTROL segment] zu erstellen, geben Sie einen Namen, ein [!UICONTROL data source] ein und wählen Sie einen Datenspeicherung-Ordner aus. Alle anderen Felder sind optional. Wechseln Sie nach Abschluss zum Abschnitt [!UICONTROL Traits].
+In [!UICONTROL Segment Builder] können Sie mit den Einstellungen [!UICONTROL the Basic Information] neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. Um einen neuen [!UICONTROL segment] zu erstellen, geben Sie einen Namen ein, einen [!UICONTROL data source] und wählen Sie einen Speicherordner aus. Alle anderen Felder sind optional. Wechseln Sie nach Abschluss zum Abschnitt [!UICONTROL Traits] .
 
 <!-- r_segment_basic_info_section.xml -->
 
@@ -113,16 +112,16 @@ Mit den [!UICONTROL Segment Builder]-Einstellungen können Sie neue Eigenschafte
 | Feld | Beschreibung |
 ---------|----------
 | **[!UICONTROL Name]** | Geben Sie dem Segment einen kurzen logischen Namen, der seine Funktion oder seinen Zweck beschreibt. Vermeiden Sie Abkürzungen und Sonderzeichen. Die maximale Länge eines Segmentnamens beträgt 255 Zeichen. |
-| **[!UICONTROL Description]** | Ein Feld für weitere beschreibende Informationen zum Segment. |
-| **[!UICONTROL Integration Code]** | Ein Feld für eine benutzerdefinierte ID oder andere Firma-spezifische Informationen. |
-| **[!UICONTROL Data Source]** | Verbindet das Segment mit einem bestimmten Datenanbieter. <br> Verwenden Sie das erste Dropdownmenü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beiden zu filtern. Wählen Sie dann im zweiten Dropdownmenü die Datenquelle aus. <br> Wenn Sie keine Adobe Analytics Report Suites verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur auf Audience Manager-Datenquellen eingestellt. |
-| **[!UICONTROL Profile Merge Rule]** | Wählt die Profil Merge Rule aus, die für die Segmentqualifizierung verwendet werden soll. |
+| **[!UICONTROL Description]** | Ein Feld für zusätzliche beschreibende Informationen zum Segment. |
+| **[!UICONTROL Integration Code]** | Ein Feld für eine benutzerdefinierte ID oder andere unternehmensspezifische Informationen. |
+| **[!UICONTROL Data Source]** | Verbindet das Segment mit einem bestimmten Datenanbieter. <br> Verwenden Sie das erste Dropdown-Menü, um zwischen Audience Manager-Datenquellen, Adobe Analytics-Report Suites oder beidem zu filtern. Wählen Sie dann im zweiten Dropdown-Menü Ihre Datenquelle aus. <br> Wenn Sie keine Adobe Analytics Report Suites verwenden, ist die Datenquellenauswahl deaktiviert und standardmäßig nur auf Audience Manager-Datenquellen festgelegt. |
+| **[!UICONTROL Profile Merge Rule]** | Wählt die Profilzusammenführungsrichtlinie aus, die für die Segmentqualifizierung verwendet werden soll. |
 | **[!UICONTROL Status]** | Aktiviert oder deaktiviert das Segment (standardmäßig aktiv). |
-| **Datenspeicherung von Ordnern** | Legt fest, zu welcher Datenspeicherung das Segment gehört. |
+| **Ordnerspeicher** | Bestimmt, zu welchem Speicherordner das Segment gehört. |
 
 ## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Traits] Abschnitt  {#segment-builder-controls-traits}
 
-In [!UICONTROL Segment Builder] können Sie im Abschnitt [!UICONTROL Traits] [!UICONTROL traits] in einem [!UICONTROL segment] verwalten, [!UICONTROL trait]-Gruppen erstellen und Qualifizierungskriterien festlegen. Um einem [!UICONTROL segment] einen [!UICONTROL trait] hinzuzufügen, geben Sie den [!UICONTROL trait]-Namen in das Suchfeld ein und klicken Sie auf [!UICONTROL Add Trait]. Speichern Sie [!UICONTROL trait] (falls fertig) oder gehen Sie zu [!UICONTROL Destinations Mapping].
+Im Abschnitt [!UICONTROL Segment Builder] können Sie [!UICONTROL Traits] im Bereich [!UICONTROL traits] verwalten, [!UICONTROL segment] Gruppen erstellen und Qualifizierungskriterien festlegen. [!UICONTROL trait] Um [!UICONTROL trait] zu einem [!UICONTROL segment] hinzuzufügen, geben Sie den Namen [!UICONTROL trait] in das Suchfeld ein und klicken Sie auf [!UICONTROL Add Trait]. Speichern Sie [!UICONTROL trait] (falls fertig) oder wechseln Sie zu [!UICONTROL Destinations Mapping].
 
 <!-- r_segment_traits_section.xml-->
 
@@ -130,27 +129,27 @@ In [!UICONTROL Segment Builder] können Sie im Abschnitt [!UICONTROL Traits] [!U
 
 | Feld | Beschreibung |
 |--- |--- |
-| **[!UICONTROL Basic View]** | Dieser Abschnitt enthält visuelle Steuerelemente, mit denen Sie: <ul><li>Erstellen Sie neue und verwalten Sie vorhandene [!UICONTROL segments].</li><li>Entfernen Sie [!UICONTROL traits] von einem [!UICONTROL segment].</li><li>hinzufügen bis zu 50 (maximal) [!UICONTROL traits] bis zu einem [!UICONTROL segment].</li><li>Ziehen Sie [!UICONTROL traits] per Drag &amp; Drop, um neue Gruppen zu erstellen.</li><li>Gruppen der Ansichten [!UICONTROL traits] und [!UICONTROL trait] in [!UICONTROL segment].</li><li>Legen Sie Qualifizierungskriterien mit booleschen Ausdrücken, Vergleichsoperatoren und Neuigkeits-/Häufigkeitseinstellungen fest.</li></ul> |
-| **[!UICONTROL Code View]** | Öffnet eine Entwicklungs-Umgebung, mit der Sie [!UICONTROL traits]-, Gruppen- und Qualifizierungsanforderungen mit Code anstelle der visuellen Schnittstelle erstellen und verwalten können. Die Code-Ansicht ist nützlich, wenn Sie [!UICONTROL segments]: <ul><li>Enthält mehr als 50 [!UICONTROL traits] in einer einzelnen [!UICONTROL segment]. Hinweis: [!UICONTROL Segments] sind auf 5000 [!UICONTROL traits] (maximal) begrenzt.</li><li>Enthält viele [!UICONTROL trait]-Gruppen.</li><li>Halten Sie komplexe Qualifikationsanforderungen ein.</li></ul> |
-| Durchsuchen | Hilft Ihnen, [!UICONTROL traits] zu einer [!UICONTROL segment] hinzuzufügen. |
-| Empfehlungen | Rufen Sie Live-Empfehlungen für ähnliche [!UICONTROL traits]-Datenfeeds von Ihren Erstanbietern [!UICONTROL traits] und [!UICONTROL Audience Marketplace] ab, die Sie abonniert haben. hinzufügen Sie diese Empfehlungen an die [!UICONTROL segment]-Regel, um Ihre Audience zu erweitern. Lesen Sie mehr unter [Trait Recommendations](trait-recommendations.md). |
-| **[!UICONTROL Marketplace Recommendations]** | Rufen Sie Live-Empfehlungen für ähnliche [!UICONTROL traits]-Datenfeeds ab, die Sie nicht abonniert haben. [!UICONTROL Audience Marketplace] Lesen Sie mehr unter [Trait Recommendations](trait-recommendations.md). |
-| Richtige und geschätzte [!UICONTROL Segment]-Größendaten | Siehe [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](segment-builder-data.md). |
+| **[!UICONTROL Basic View]** | Dieser Abschnitt enthält visuelle Steuerelemente, mit denen Sie: <ul><li>Erstellen Sie neue und verwalten Sie vorhandene [!UICONTROL segments].</li><li>Entfernen Sie [!UICONTROL traits] aus einem [!UICONTROL segment].</li><li>Fügen Sie bis zu 50 (maximal) [!UICONTROL traits] zu einem [!UICONTROL segment] hinzu.</li><li>Ziehen Sie [!UICONTROL traits] in den Arbeitsbereich, um neue Gruppen zu erstellen.</li><li>Zeigen Sie [!UICONTROL traits] und [!UICONTROL trait] Gruppen in einer [!UICONTROL segment] an.</li><li>Legen Sie Qualifizierungskriterien mit booleschen Ausdrücken, Vergleichsoperatoren und Einstellungen für Neuigkeit/Häufigkeit fest.</li></ul> |
+| **[!UICONTROL Code View]** | Öffnet eine Entwicklungsumgebung, in der Sie [!UICONTROL traits], Gruppen und Qualifizierungsanforderungen mit Code anstelle der visuellen Benutzeroberfläche erstellen und verwalten können. Die Codeansicht ist nützlich, wenn Sie [!UICONTROL segments]: <ul><li>Sie enthalten mehr als 50 [!UICONTROL traits] in einer Person [!UICONTROL segment]. Hinweis: [!UICONTROL Segments] sind auf 5000 [!UICONTROL traits] (maximal) begrenzt.</li><li>Enthält viele [!UICONTROL trait] Gruppen.</li><li>komplexe Qualifizierungsanforderungen erfüllen.</li></ul> |
+| Durchsuchen | Hilft Ihnen, [!UICONTROL traits] zu finden, um sie einem [!UICONTROL segment] hinzuzufügen. |
+| Empfehlungen | Rufen Sie Live-Empfehlungen für ähnliche [!UICONTROL traits] von Ihren Erstanbieter-Datenfeeds [!UICONTROL traits] und [!UICONTROL Audience Marketplace] ab, die Sie abonniert haben. Fügen Sie diese Empfehlungen zur Regel [!UICONTROL segment] hinzu, um Ihre Zielgruppe zu erweitern. Weitere Informationen finden Sie unter [Eigenschaft Recommendations](trait-recommendations.md). |
+| **[!UICONTROL Marketplace Recommendations]** | Rufen Sie Live-Empfehlungen für ähnliche [!UICONTROL traits] von [!UICONTROL Audience Marketplace]-Daten-Feeds ab, für die Sie kein Abonnement haben. Weitere Informationen finden Sie unter [Eigenschaft Recommendations](trait-recommendations.md). |
+| Reale und geschätzte [!UICONTROL Segment] Größendaten | Siehe [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](segment-builder-data.md). |
 
-## [!UICONTROL Traits] von einem [!UICONTROL Segment] {#remove-traits} entfernen
+## Entfernen Sie [!UICONTROL Traits] aus einem [!UICONTROL Segment] {#remove-traits}
 
-Die Verwaltung von [!UICONTROL traits] in Ihrer [!UICONTROL segments] ist ein wichtiger Aspekt, um [!UICONTROL segments] funktionsfähig zu halten. Führen Sie diese Schritte aus, wenn Sie [!UICONTROL traits] aus einem [!UICONTROL segment] entfernen müssen.
+Die Verwaltung von [!UICONTROL traits] in [!UICONTROL segments] ist ein wichtiger Teil der Funktionsfähigkeit von [!UICONTROL segments]. Führen Sie diese Schritte aus, wenn Sie [!UICONTROL traits] aus einem [!UICONTROL segment] entfernen müssen.
 
 So entfernen Sie [!UICONTROL traits] aus einem [!UICONTROL segment]:
 
-1. Gehen Sie zu **[!UICONTROL Audience Data > Segments]**. Blättern Sie durch die Liste oder verwenden Sie die Suchfunktion, um das [!UICONTROL segment] zu finden, mit dem Sie arbeiten möchten.
-2. Klicken Sie auf den Namen [!UICONTROL segment], um den Detailbildschirm [!UICONTROL segment] zu öffnen.
+1. Gehen Sie zu **[!UICONTROL Audience Data > Segments]**. Scrollen Sie durch die Liste oder verwenden Sie die Suchfunktion, um die [!UICONTROL segment] zu finden, mit der Sie arbeiten möchten.
+2. Klicken Sie auf den Namen [!UICONTROL segment] , um den Detailbildschirm [!UICONTROL segment] zu öffnen.
 3. Klicken Sie auf **Bearbeiten**, um [!UICONTROL Segment Builder] zu öffnen, und klicken Sie dann auf **Eigenschaften**, um das Bedienfeld [!UICONTROL traits] zu öffnen.
-4. Bewegen Sie den Mauszeiger über das [!UICONTROL trait], das Sie löschen möchten, und klicken Sie dann auf das X. Durch diese Aktion wird das [!UICONTROL trait] sofort aus dem [!UICONTROL segment] entfernt.
+4. Bewegen Sie den Mauszeiger über das zu löschende [!UICONTROL trait] und klicken Sie auf das X. Dadurch wird das [!UICONTROL trait] sofort aus Ihrem [!UICONTROL segment] entfernt.
 
 ## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Destinations Mappings] Abschnitt  {#segment-builder-controls-destinations}
 
-In [!UICONTROL Segment Builder] können Sie im optionalen Abschnitt [!UICONTROL Destinations Mapping] [!UICONTROL segment] Daten an einen Drittanbieter [!DNL cookie], [!DNL URL] oder [!UICONTROL server-to-server destination] senden. Um ein [!UICONTROL destination] hinzuzufügen, suchen (oder suchen) Sie nach einem [!UICONTROL destination], geben Sie [!UICONTROL destination] spezifische Informationen ein und klicken Sie auf **[!UICONTROL Add Destination]**.
+In [!UICONTROL Segment Builder] können Sie im optionalen Abschnitt [!UICONTROL Destinations Mapping] [!UICONTROL segment] Daten an einen Drittanbieter [!DNL cookie], [!DNL URL] oder [!UICONTROL server-to-server destination] senden. Um [!UICONTROL destination] hinzuzufügen, suchen (oder durchsuchen) Sie nach einem [!UICONTROL destination], geben Sie [!UICONTROL destination] spezifische Informationen ein und klicken Sie auf **[!UICONTROL Add Destination]**.
 
 <!-- r_segment_destinations_map.xml -->
 
@@ -160,16 +159,16 @@ Füllen Sie die erforderlichen Felder in den Abschnitten [!UICONTROL Basic Infor
 
 ### [!UICONTROL Destination Mappings] Suchwerkzeuge
 
-Das Bedienfeld **[!UICONTROL Destination Mappings]** enthält Suchwerkzeuge, wie in der unten stehenden Tabelle beschrieben.
+Der Bereich **[!UICONTROL Destination Mappings]** enthält Suchwerkzeuge, wie in der folgenden Tabelle beschrieben.
 
 | Suchtyp | Beschreibung |
 |---|---|
-| **[!UICONTROL Search by Destination Name]** | Ermöglicht die Suche nach einem bestimmten [!UICONTROL destination]-Namen. Zur Suche geben Sie Beginn ein. Das Feld wird basierend auf Ihren Suchbegriffen automatisch ausgefüllt. Klicken Sie abschließend auf **[!UICONTROL Add Destination]**. |
-| **[!UICONTROL Browse All Destinations]** | Durchsuchen Sie eine Liste von *all* [!UICONTROL destinations], die Ihnen zur Verfügung steht. Wählen Sie [!UICONTROL destinations] aus und fügen Sie [!UICONTROL segment] aus der Popup-Liste hinzu. |
+| **[!UICONTROL Search by Destination Name]** | Ermöglicht die Suche nach einem bestimmten [!UICONTROL destination] nach Namen. Beginnen Sie mit der Eingabe, um zu suchen. Das Feld wird basierend auf Ihren Suchbegriffen automatisch ausgefüllt. Klicken Sie abschließend auf **[!UICONTROL Add Destination]** . |
+| **[!UICONTROL Browse All Destinations]** | Durchsuchen Sie eine Liste von *all* [!UICONTROL destinations], die Ihnen zur Verfügung stehen. Wählen Sie [!UICONTROL destinations] aus und fügen Sie [!UICONTROL segment] aus der Popup-Liste zu Ihrem  hinzu. |
 
 ## Felder im Popup-Fenster {#fields-in-dest-mappings}[!UICONTROL Destination Mappings]
 
-In [!UICONTROL Segment Builder] wird das [!UICONTROL Add Destination]-Dialogfeld angezeigt, nachdem Sie ein [!UICONTROL destination] ausgewählt haben. In diesem Fenster werden statische Informationen zum Typ [!UICONTROL destination] und zu Feldern angezeigt, die je nach Typ [!UICONTROL destination] variieren. Geben Sie die erforderlichen Informationen in den leeren Feldern ein, um ein [!UICONTROL destination mapping] einzurichten.
+In [!UICONTROL Segment Builder] wird das Dialogfeld [!UICONTROL Add Destination] angezeigt, nachdem Sie ein [!UICONTROL destination] ausgewählt haben. In diesem Fenster werden statische Informationen zu den Feldern [!UICONTROL destination] und angezeigt, die je nach Typ [!UICONTROL destination] variieren. Geben Sie die erforderlichen Informationen in die leeren Felder ein, um [!UICONTROL destination mapping] einzurichten.
 
 >[!NOTE]
 >
@@ -179,24 +178,24 @@ In [!UICONTROL Segment Builder] wird das [!UICONTROL Add Destination]-Dialogfeld
 
 ### [!UICONTROL Cookie Destination] Felder
 
-Geben Sie in den Feldern [!UICONTROL Destination Mapping] die Schlüssel-Wert-Paare an, die zum Senden von Daten an das [!UICONTROL destination] verwendet werden. Geben Sie den Schlüssel im ersten Feld und die Werte im zweiten ein. Ihr [!UICONTROL cookie destination]-Pop könnte wie folgt aussehen:
+Geben Sie in den Feldern [!UICONTROL Destination Mapping] die Schlüssel-Wert-Paare an, die zum Senden von Daten an [!UICONTROL destination] verwendet werden. Geben Sie im ersten Feld den Schlüssel und im zweiten den Wert ein. Ihr [!UICONTROL cookie destination]-Pop könnte in etwa wie folgt aussehen:
 
 ![](assets/cookie_modal.PNG)
 
 ### [!UICONTROL URL Destination] Felder
 
-Geben Sie in den Feldern [!UICONTROL URL] und [!UICONTROL Secure URL] die vollständige Standard- oder sichere Adresse ein, die zum Senden von Daten an das [!UICONTROL destination] verwendet wird.
+Geben Sie in den Feldern [!UICONTROL URL] und [!UICONTROL Secure URL] die vollständige Standard- oder sichere Adresse an, die zum Senden von Daten an [!UICONTROL destination] verwendet wird.
 
 ![](assets/url_modal.PNG)
 
 ### [!UICONTROL Server-to-Server Destination] Felder
 
-Geben Sie im Feld [!UICONTROL Destination Value] den Wert (Teil eines Schlüssel-Wert-Paars) an, mit dem Daten an das [!UICONTROL destination] gesendet werden.
+Geben Sie im Feld [!UICONTROL Destination Value] den Wert (Teil eines Schlüssel-Wert-Paares) an, der zum Senden von Daten an [!UICONTROL destination] verwendet wird.
 
 ![](assets/s2s_modal.PNG)
 
 >[!MORELIKETHIS]
 >
->* [Cookie-Ziel erstellen](../../features/destinations/create-cookie-destination.md)
->* [URL-Ziel erstellen](../../features/destinations/create-url-destination.md)
+>* [Erstellen eines Cookie-Ziels](../../features/destinations/create-cookie-destination.md)
+* [Erstellen eines URL-Ziels](../../features/destinations/create-url-destination.md)
 
