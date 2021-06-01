@@ -1,14 +1,13 @@
 ---
-description: Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Änderungen, die in der Beta-Version vorgenommen werden, wirken sich nicht auf Produktionsdaten aus. Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer, wenn Sie an der Beta-Umgebung interessiert sind.
+description: Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter, wenn Sie an der Beta-Umgebung interessiert sind.
 keywords: Sandbox
-seo-description: Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Änderungen, die in der Beta-Version vorgenommen werden, wirken sich nicht auf Produktionsdaten aus. Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer, wenn Sie an der Beta-Umgebung interessiert sind.
+seo-description: Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter, wenn Sie an der Beta-Umgebung interessiert sind.
 seo-title: Beta-Umgebung
 solution: Audience Manager
 title: Beta-Umgebung
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-feature: Reference
+feature: 'Referenz '
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '318'
@@ -18,19 +17,19 @@ ht-degree: 4%
 
 # Beta-Umgebung {#beta-environment}
 
-Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Änderungen, die in der Beta-Version vorgenommen werden, wirken sich nicht auf Produktionsdaten aus. Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer, wenn Sie an der Beta-Umgebung interessiert sind.
+Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter, wenn Sie an der Beta-Umgebung interessiert sind.
 
 ## Überblick
 
-Die Beta-Umgebung ist eine exakte Replik der Umgebung, ohne experimentelle oder unveröffentlichte Funktionen. Ihre Anmeldedaten aus der Produktions-Umgebung sind in der Beta-Umgebung gültig.
+Die Beta-Umgebung ist eine exakte Replikation der Produktionsumgebung ohne experimentelle oder nicht veröffentlichte Funktionen. Ihre Anmeldedaten aus der Produktionsumgebung sind in der Beta-Umgebung gültig.
 
 **Zeitplan aktualisieren**
 
-Die Beta-Umgebung wird am Monatsende während der Nebenzeiten aktualisiert.
+Die Beta-Umgebung wird am Ende jedes Monats außerhalb der Spitzenzeiten aktualisiert.
 
 **Ausgehender Traffic**
 
-Ausgehender Traffic ist für die Beta-Umgebung nicht aktiviert.
+Ausgehender Traffic ist nicht für die Beta-Umgebung aktiviert.
 
 <!-- 
 
@@ -42,22 +41,22 @@ Added re: AAM-30826.
 
 
 
-| Diensleistung | URL/Hostname | Zugang erhalten |
+| Diensleistung | URL/Hostname | Erhalten des Zugriffs |
 |--- |--- | --- |
-| S3 | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Kundenbetreuer oder an den Kundendienst, um einen Amazon S3-Behälter für Ihre Beta-Instanz einzurichten. Lesen Sie mehr über die Vorteile von Amazon S3](../reference/amazon-s3.md).[ |
+| S3 | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter oder an die Kundenunterstützung | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter oder an die Kundenunterstützung, um einen Amazon S3-Behälter für Ihre Beta-Instanz einzurichten. Erfahren Sie mehr über die Vorteile der Verwendung von Amazon S3](../reference/amazon-s3.md).[ |
 | DCS | `https://dcs-beta.demdex.net/...` | Siehe [Zugriff auf den DCS in der Beta-Umgebung](../reference/beta-environment.md#access-dcs-beta-environment). |
-| Benutzeroberfläche | `https://bank-beta.demdex.com` | Ihre Anmeldeinformationen für die Umgebung der Produktion sind für die Beta-Umgebung gültig. |
-| API | `https://api-beta.demdex.com/...` | Ihre Anmeldeinformationen für die Umgebung der Produktion sind für die Beta-Umgebung gültig. Es wird empfohlen, einen generischen API-Benutzer zu erstellen, [siehe Details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| Benutzeroberfläche | `https://bank-beta.demdex.com` | Ihre Anmeldeinformationen für die Produktionsumgebung sind für die Beta-Umgebung gültig. |
+| API | `https://api-beta.demdex.com/...` | Ihre Anmeldeinformationen für die Produktionsumgebung sind für die Beta-Umgebung gültig. Es wird empfohlen, einen generischen API-Benutzer zu erstellen, [siehe Details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Zugriff auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
-1. Führen Sie einen DCS-Aufruf mit dem curl [command](https://curl.haxx.se/docs/manpage.html) durch. Curl ist ein Tool zum Übertragen von Daten von oder auf einen Server, das eines von vielen unterstützten Protokollen verwendet.
+1. Führen Sie einen DCS-Aufruf mit dem curl [command](https://curl.haxx.se/docs/manpage.html) aus. Curl ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
 
    Beispiel:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Überprüfen Sie, ob Ihre Anforderung vom Beta-DCS bearbeitet wurde, indem Sie in der DCS-Antwort-Kopfzeile nach &quot;Sandbox&quot;suchen.
+1. Stellen Sie sicher, dass Ihre Anfrage vom Beta-DCS bereitgestellt wurde, indem Sie in der DCS-Antwortheader nach &quot;Sandbox&quot;suchen.
 
    Beispiel:
 
