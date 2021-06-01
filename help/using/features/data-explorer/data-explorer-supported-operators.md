@@ -4,15 +4,14 @@ seo-description: Verwenden Sie logische Operatoren, um Schlüssel-Wert-Paare und
 seo-title: Unterstützte logische Operatoren
 title: Unterstützte logische Operatoren
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Data Explorer '
+exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 9%
+source-wordcount: '166'
+ht-degree: 10%
 
 ---
-
 
 # Unterstützte logische Operatoren {#supported-logical-operators}
 
@@ -20,7 +19,7 @@ Verwenden Sie logische Operatoren, um Schlüssel-Wert-Paare und Aufstockungseige
 
 ## Unterstützte Operatoren für die Signalsuche {#supported-operators-search}
 
-Verwenden Sie die folgenden unterstützten logischen Operatoren, um nach Schlüssel/Wert-Paaren zu suchen:
+Verwenden Sie die folgenden unterstützten logischen Operatoren, um nach Schlüssel-Wert-Paaren zu suchen:
 
 ### Vergleichsoperatoren
 
@@ -29,17 +28,17 @@ Verwenden Sie die folgenden unterstützten logischen Operatoren, um nach Schlüs
 | **==** | Gleich |
 | **>** | Größer als |
 | **&lt;** | Kleiner als |
-| **=>** | Größer als/gleich |
-| **&lt;=** | Kleiner als/gleich |
+| **=>** | Größer/gleich |
+| **&lt;=** | Kleiner/gleich |
 
 ### Benannte Operatoren
 
-| Operator | Wertet für [!DNL True] Wenn aus |
+| Operator | Wertet nach [!DNL True] wenn aus |
 |---|---|
-| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* Zeichen, die von diesem Operator angegeben werden. |
-| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *Beginn mit* Zeichen, die von diesem Operator angegeben werden. |
+| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* die von diesem Operator angegebenen Zeichen. |
+| **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *beginnt mit* Zeichen, die von diesem Operator angegeben werden. |
 | **[!UICONTROL Endswith]** | Der Wert in einem Schlüssel-Wert-Paar *endet mit* den von diesem Operator angegebenen Zeichen. |
 
-## Unterstützte Operatoren für das Aufstocken von Eigenschaften und für die Schätzung {#supported-operators-backfilling}
+## Unterstützte Operatoren für Aufstockung und Schätzung von Eigenschaften {#supported-operators-backfilling}
 
-Sie können Eigenschaften aufstocken, die Ausdruck enthalten, die die von [!UICONTROL Signal Search] unterstützten Operatoren enthalten. Zusätzlich zu diesen Operatoren unterstützen Eigenschafts-Aufstockungen und Schätzungen auch die logischen Operatoren [!UICONTROL AND], [!UICONTROL OR] und [!UICONTROL AND NOT], die zum Kombinieren von Schlüsselwertpaaren innerhalb der hinterfüllten Eigenschaftsvariablen verwendet werden.
+Sie können Eigenschaften aufstocken, die Ausdrücke enthalten, die beliebige von [!UICONTROL Signal Search] unterstützte Operatoren enthalten. Neben diesen Operatoren unterstützen die Aufstockung und Schätzung von Eigenschaften auch die logischen Operatoren [!UICONTROL AND], [!UICONTROL OR] und [!UICONTROL AND NOT], die zum Kombinieren von Schlüssel-Wert-Paaren innerhalb der aufgestockten Eigenschaftsausdrücke verwendet werden.
