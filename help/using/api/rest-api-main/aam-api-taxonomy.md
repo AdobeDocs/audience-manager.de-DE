@@ -1,33 +1,32 @@
 ---
-description: Methoden, mit denen Sie die Ansicht des Audience Managers gemeinsame Taxonomie. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in branchenüblichen Kategorien.
-seo-description: Methoden, mit denen Sie die Ansicht des Audience Managers gemeinsame Taxonomie. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in branchenüblichen Kategorien.
+description: Methoden, mit denen Sie die gemeinsame Taxonomie des Audience Managers anzeigen können. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in Kategorien, die dem Branchenstandard entsprechen.
+seo-description: Methoden, mit denen Sie die gemeinsame Taxonomie des Audience Managers anzeigen können. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in Kategorien, die dem Branchenstandard entsprechen.
 seo-title: Taxonomische API-Methoden
 solution: Audience Manager
 title: Taxonomische API-Methoden
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 8%
 
 ---
 
-
 # Taxonomische API-Methoden {#taxonomic-api-methods}
 
-Methoden, mit denen Sie die Ansicht des Audience Managers gemeinsame Taxonomie. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in branchenüblichen Kategorien.
+Methoden, mit denen Sie die gemeinsame Taxonomie des Audience Managers anzeigen können. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in Kategorien, die dem Branchenstandard entsprechen.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->Mit diesen Methoden können Sie keine neuen taxonomischen Kategorien erstellen oder Eigenschaften klassifizieren. Um eine Eigenschaft zu klassifizieren, geben Sie die entsprechende `categoryId`-Methode mit einer Eigenschaftserstellungs- oder Aktualisierungsmethode an.
+>Mit diesen Methoden können Sie keine neuen Taxonomiekategorien erstellen oder Eigenschaften klassifizieren. Um eine Eigenschaft zu klassifizieren, geben Sie die entsprechende `categoryId` mit einer Methode zum Erstellen oder Aktualisieren von Eigenschaften an.
 
 ## Rückgabe einer bestimmten Taxonomie {#return-specific-taxonomy}
 
-Eine `GET`-Methode, die Details zur angegebenen taxonomischen Kategorie zurückgibt.
+Eine `GET` -Methode, die Details zur angegebenen taxonomischen Kategorie zurückgibt.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -37,7 +36,7 @@ Eine `GET`-Methode, die Details zur angegebenen taxonomischen Kategorie zurückg
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anforderung gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist.
+Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anfrage gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist.
 
 ```
 {
@@ -50,9 +49,9 @@ Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID
 }
 ```
 
-## Alle taxonomischen Kategorien {#return-all-taxonomy-categories} zurückgeben
+## Alle Taxonomiekategorien zurückgeben {#return-all-taxonomy-categories}
 
-Eine `GET`-Methode, die eine Liste der Kategorien der obersten Ebene in einem Array zurückgibt.
+Eine `GET` -Methode, die eine Liste der Kategorien der obersten Ebene in einem Array zurückgibt.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -62,7 +61,7 @@ Eine `GET`-Methode, die eine Liste der Kategorien der obersten Ebene in einem Ar
 
 ### Antwort
 
-Kürzlich wegen der Kürze.
+Kürzt aus Gründen der Kürze.
 
 ```
 [
@@ -93,9 +92,9 @@ Kürzlich wegen der Kürze.
 ]
 ```
 
-## Rückgabe von Taxonomischen Unter-Kategorien {#return-taxonomy-sub-categories}
+## Rückgabe Taxonomischer Unterkategorien {#return-taxonomy-sub-categories}
 
-Eine `GET`-Methode, die Untergruppen für die angegebene übergeordnete Kategorie in einem Array zurückgibt.
+Eine `GET` -Methode, die Unterkategorien für die angegebene übergeordnete Kategorie in einem Array zurückgibt.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -105,7 +104,7 @@ Eine `GET`-Methode, die Untergruppen für die angegebene übergeordnete Kategori
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anforderung gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist. Kürzlich wegen der Kürze.
+Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anfrage gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist. Kürzt aus Gründen der Kürze.
 
 ```
 [
