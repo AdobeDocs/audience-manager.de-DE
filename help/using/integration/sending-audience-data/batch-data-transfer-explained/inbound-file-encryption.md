@@ -1,13 +1,12 @@
 ---
-description: Als Option können Sie Datendateien mit PGP-Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
-seo-description: Als Option können Sie Datendateien mit PGP-Verschlüsselung verschlüsseln, wenn Sie sie an Audience Manager senden.
+description: Als Option können Sie Datendateien mit PGP-Verschlüsselung verschlüsseln, wenn sie an Audience Manager gesendet werden.
+seo-description: Als Option können Sie Datendateien mit PGP-Verschlüsselung verschlüsseln, wenn sie an Audience Manager gesendet werden.
 seo-title: Datei-PGP-Verschlüsselung für eingehende Datentypen
 solution: Audience Manager
 title: Datei-PGP-Verschlüsselung für eingehende Datentypen
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-feature: Inbound Data Transfers
+feature: Übertragungen von Inbound-Daten
 exl-id: 5f97a326-4840-4350-bbe8-bc8ce32b0a2e
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '192'
@@ -23,24 +22,24 @@ Sie können Datendateien mit [!DNL PGP]-Verschlüsselung verschlüsseln, wenn Si
 
 >[!IMPORTANT]
 >
->[!DNL PGP] Verschlüsselung beinhaltet Dateikomprimierung. Wenn Sie [!DNL PGP] verschlüsselte eingehende Dateien senden, stellen Sie sicher, dass Sie [diese nicht mit gzip (`.gz`) komprimieren.](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+>[!DNL PGP] Die Verschlüsselung beinhaltet die Dateikomprimierung. Stellen Sie beim Senden von [!DNL PGP] verschlüsselten eingehenden Dateien sicher, dass Sie [keine ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) Komprimierung mit gzip (`.gz`) durchführen.
 >
 >[!DNL PGP] verschlüsselte eingehende Dateien, die ebenfalls  [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) komprimiert werden, sind im Audience Manager ungültig.
 
 Gehen Sie wie folgt vor, um eingehende Datendateien zu verschlüsseln.
 
 1. Laden Sie den öffentlichen Schlüssel [Audience Manager](./assets/adobe_pgp.pub) herunter.
-2. Importieren Sie den öffentlichen Schlüssel in Ihren vertrauenswürdigen Store.
+2. Importieren Sie den öffentlichen Schlüssel in Ihren vertrauenswürdigen Speicher.
 
    Wenn Sie beispielsweise [!DNL GPG] verwenden, könnte der Befehl wie folgt aussehen:
 
    `gpg --import adobe_pgp.pub`
 
-3. Überprüfen Sie, ob der Schlüssel korrekt importiert wurde, indem Sie den folgenden Befehl ausführen:
+3. Überprüfen Sie, ob der Schlüssel ordnungsgemäß importiert wurde, indem Sie den folgenden Befehl ausführen:
 
    `gpg --list-keys`
 
-   Es sollte eine Meldung wie die folgende angezeigt werden:
+   Es sollte eine Meldung ähnlich der folgenden angezeigt werden:
 
    ```
    pub   4096R/8496CE32 2013-11-01
@@ -52,7 +51,7 @@ Gehen Sie wie folgt vor, um eingehende Datendateien zu verschlüsseln.
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   Alle verschlüsselten Daten müssen `.pgp` oder `.gpg` als Dateierweiterung (z.B. `ftp_dpm_100_123456789.sync.pgp` oder `ftp_dpm_100_123456789.overwrite.gpg`).
+   Alle verschlüsselten Daten müssen `.pgp` oder `.gpg` als Dateierweiterung (z. B. `ftp_dpm_100_123456789.sync.pgp` oder `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
