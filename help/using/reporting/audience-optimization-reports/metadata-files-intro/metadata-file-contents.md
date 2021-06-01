@@ -1,13 +1,12 @@
 ---
-description: Formatieren Sie den Inhalt der Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
-seo-description: Formatieren Sie den Inhalt der Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
+description: Formatieren Sie den Inhalt Ihrer Audience Optimization-Metadatendatei entsprechend diesen Spezifikationen.
+seo-description: Formatieren Sie den Inhalt Ihrer Audience Optimization-Metadatendatei entsprechend diesen Spezifikationen.
 seo-title: Inhaltsformat für Metadatendateien
 solution: Audience Manager
 title: Inhaltsformat für Metadatendateien
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
-feature: Log Files
+feature: Protokolldateien
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '306'
@@ -17,39 +16,39 @@ ht-degree: 5%
 
 # Inhaltsformat für Metadatendateien{#content-format-for-metadata-files}
 
-Formatieren Sie den Inhalt der Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
+Formatieren Sie den Inhalt Ihrer Audience Optimization-Metadatendatei entsprechend diesen Spezifikationen.
 
 ## Syntax {#syntax}
 
-Die folgende Syntax definiert die Struktur von gut geformten Inhalten in einer Metadatendatei. Hinweis: *kursiv* gibt einen Variablenplatzhalter an.
+Die folgende Syntax definiert die Struktur von korrekt formatierten Inhalten in einer Metadatendatei. Hinweis: *kursiv* gibt einen Variablenplatzhalter an.
 
-**Syntax:**  *content ID* |  *name* |  *-1*
+**Syntax:**  *content ID*  |  *name* |  *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-Die dritte Spalte **-1** ist technisch die übergeordnete ID, bei der es sich um ein veraltetes Feld handelt. Der Wert sollte immer auf **-1** eingestellt werden.
+Die dritte Spalte **-1** ist technisch die übergeordnete ID, bei der es sich um ein veraltetes Feld handelt. Der Wert sollte immer auf **-1** gesetzt werden.
 
 >[!NOTE]
 >
->Beachten Sie, dass pro Dimension eine Metadatendatei benötigt wird, sodass im Bucket mehrere Metadatendateien erwartet werden. Die Dimensionen werden im Artikel [Benennungsregeln für Metadatendatei](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension) aufgeführt.
+>Beachten Sie, dass pro Dimension eine Metadatendatei erforderlich ist, sodass im Behälter mehrere Metadatendateien erwartet werden. Die Dimensionen sind im Artikel [Benennungskonventionen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension) aufgeführt.
 
-**Separate Dateieinträge mit &quot;^a&quot;(Control-A&quot;oder &quot;ASCII 001&quot;)**
+**Separate Dateieinträge mit ^a (control-A oder ASCII 001)**
 
-Verwenden Sie `^a` (control-A oder ASCII 001), um Inhalte in Ihren Metadatendateien zu trennen. Da es sich hierbei um nicht druckbare Zeichen handelt, zeigt das Syntaxbeispiel oben nur eine Pipe &quot;|&quot;für Anzeigezwecke.
+Verwenden Sie `^a` (control-A oder ASCII 001), um Inhalte in Ihren Metadatendateien zu trennen. Da es sich hierbei um nicht druckbare Zeichen handelt, zeigt das oben stehende Syntaxbeispiel nur für Anzeigezwecke einen senkrechten Strich &quot;|&quot;.
 
-Bei Bedarf können Sie die Beispieldatei [20181105_0_1](assets/20181105_0_1.zip) herunterladen. Entpacken Sie sie und bearbeiten Sie sie in Ihrem Editor Ihrer Wahl und passen Sie sie entsprechend Ihren tatsächlichen Metadateninhalt an, da sie bereits das erforderliche Trennzeichen enthält.
+Bei Bedarf können Sie die Beispieldatei [20181105_0_1](assets/20181105_0_1.zip) herunterladen. Entpacken Sie sie und bearbeiten Sie sie in Ihrem gewünschten Editor und passen Sie sie entsprechend Ihren tatsächlichen Metadateninhalten an, da sie bereits das erforderliche Trennzeichen enthält.
 
 >[!IMPORTANT]
 >
->Fügen Sie den Metadatendateien keine Kopfzeilen hinzu.
+>Fügen Sie Metadatendateien keine Kopfzeilen hinzu.
 
 ## Beispiele {#examples}
 
-Schauen wir uns einmal an, wie Sie Inhalte in einer Metadatendatei strukturieren würden. Ein Teil dieser Struktur hängt von der Dimension ab. Die Dimensionen werden im Artikel [Benennungsregeln für Metadatendatei](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension) aufgeführt.
+Im Folgenden wird die Struktur von Inhalten in einer Metadatendatei beschrieben. Ein Teil dieser Struktur hängt von der Dimension ab. Die Dimensionen sind im Artikel [Benennungskonventionen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension) aufgeführt.
 
 **Campaign**
 
-In diesem Beispiel lautet der Dateiname 20180921_0_1 und die drei Spalten in der Datei: Kampagnen-ID, Name und übergeordnete ID.
+In diesem Beispiel lautet der Dateiname 20180921_0_1 und die drei Spalten in der Datei lauten: Kampagnen-ID, Name und übergeordnete ID.
 
 <!--Let's say you want to populate the creative drop down menu with creative names from a particular campaign. In this case, your metadata file name would include ID 1 (campaign) and ID 2 (creative). Following the content syntax, your metadata file would contain the creative ID, creative name, and actual campaign ID.-->
 
@@ -64,7 +63,7 @@ In diesem Beispiel lautet der Dateiname 20180921_0_1 und die drei Spalten in der
 
 **Kreativ**
 
-In diesem Beispiel lautet der Dateiname 20180827_0_2 und die drei Spalten in der Datei: Kreative ID, Name und übergeordnete ID.
+In diesem Beispiel lautet der Dateiname 20180827_0_2 und die drei Spalten in der Datei lauten: Creative-ID, Name und übergeordnete ID.
 
 ```
 //File Title
@@ -77,7 +76,7 @@ In diesem Beispiel lautet der Dateiname 20180827_0_2 und die drei Spalten in der
 
 **Site**
 
-In diesem Beispiel lautet der Dateiname 20180921_0_5 und die drei Spalten in der Datei: Site-ID, Name und übergeordnete ID.
+In diesem Beispiel lautet der Dateiname 20180921_0_5 und die drei Spalten in der Datei lauten: Site-ID, Name und übergeordnete ID.
 
 ```
 //File Title
