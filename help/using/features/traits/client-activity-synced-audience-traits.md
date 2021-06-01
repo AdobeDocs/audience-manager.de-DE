@@ -1,19 +1,18 @@
 ---
-description: Dabei handelt es sich um spezielle Eigenschaften, die von adressierbaren Audiencen verwendet werden. Aktive Audience- und Datenquelle-synchronisierte Eigenschaften befinden sich unter "Audience-Daten"> "Eigenschaften"> "Audiencen-Eigenschaften".
-seo-description: Dabei handelt es sich um spezielle Eigenschaften, die von adressierbaren Audiencen verwendet werden. Aktive Audience- und Datenquelle-synchronisierte Eigenschaften befinden sich unter "Audience-Daten"> "Eigenschaften"> "Audiencen-Eigenschaften".
+description: Dies sind spezielle Eigenschaften, die von ansprechbaren Zielgruppen verwendet werden. Aktive Zielgruppen- und Datenquellen-synchronisierte Eigenschaften befinden sich unter Zielgruppendaten > Eigenschaften > Zielgruppeneigenschaften.
+seo-description: Dies sind spezielle Eigenschaften, die von ansprechbaren Zielgruppen verwendet werden. Aktive Zielgruppen- und Datenquellen-synchronisierte Eigenschaften befinden sich unter Zielgruppendaten > Eigenschaften > Zielgruppeneigenschaften.
 seo-title: Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften
 solution: Audience Manager
 title: Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Eigenschaften '
+exl-id: 8fa4ea24-1beb-40cb-bdec-540a3f7c2573
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 10%
 
 ---
-
 
 # Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften {#active-audience-traits-and-data-source-synced-traits}
 
@@ -23,21 +22,21 @@ Dies sind spezielle Eigenschaften, die von [!UICONTROL Addressable Audiences] ve
 >
 >Für den Zugriff sind Administratorberechtigungen erforderlich.
 
-## Eigenschaften aktiver Audiencen {#active-audience-traits}
+## Eigenschaften aktiver Zielgruppen {#active-audience-traits}
 
-Eine [!UICONTROL Active Audience]-Eigenschaft enthält alle Geräte, die in Ihrem [!DNL Audience Manager]-Konto verwaltet werden. Sie können ein [!UICONTROL Active Audience Trait] wie andere Eigenschaften verwenden, wenn Sie Segmente erstellen oder bearbeiten. Für [Addressable Audiencen](../../features/addressable-audiences.md) muss diese Eigenschaft Überlagerungsdaten generieren. Alle Konten haben standardmäßig eine Eigenschaft [!UICONTROL Active Audience]. Diese Eigenschaft kann nicht gelöscht werden.
+Eine Eigenschaft [!UICONTROL Active Audience] enthält alle Geräte, die in Ihrem [!DNL Audience Manager]-Konto verwaltet werden. Sie können [!UICONTROL Active Audience Trait] wie andere Eigenschaften verwenden, wenn Sie Segmente erstellen oder bearbeiten. Außerdem erfordert [Addressable Audiences](../../features/addressable-audiences.md), dass diese Eigenschaft Überlagerungsdaten generiert. Alle Konten weisen standardmäßig eine Eigenschaft [!UICONTROL Active Audience] auf. Diese Eigenschaft kann nicht gelöscht werden.
 
-## Datenquelle synchronisierte Eigenschaften {#data-source-synced-traits}
+## Datenquellensynchronisierte Eigenschaften {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] werden im  [!UICONTROL Audience Traits] Ordner angezeigt, wenn Sie eine  [Datenquelle ](../../features/manage-datasources.md#create-data-source) erstellen oder bearbeiten und eine der folgenden Einstellungen anwenden:
+[!UICONTROL Data Source Synced Traits] werden im  [!UICONTROL Audience Traits] Ordner angezeigt, wenn Sie eine Datenquelle  [erstellen oder bearbeiten und eine der folgenden ](../../features/manage-datasources.md#create-data-source) Einstellungen anwenden:
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Sie können ein [!UICONTROL Data Source Synched Trait] wie andere Eigenschaften verwenden, wenn Sie Segmente erstellen oder bearbeiten. Wenn Sie ein [!UICONTROL Data Source Synced Trait] erstellen, entspricht der Eigenschaftsname dem von Ihrer Datenquelle verwendeten Namen. Bearbeiten Sie die Datenquelle, um den Eigenschaftsnamen zu ändern. Diese Eigenschaften können nicht gelöscht werden.
+[!UICONTROL Data Source Synced Traits] alle mit einer Datenquelle verknüpften Benutzer verfolgen. Sie können [!UICONTROL Data Source Synched Trait] wie andere Eigenschaften verwenden, wenn Sie Segmente erstellen oder bearbeiten. Wenn Sie [!UICONTROL Data Source Synced Trait] erstellen, entspricht der Eigenschaftsname dem von Ihrer Datenquelle verwendeten Namen. Bearbeiten Sie die Datenquelle, um den Eigenschaftsnamen zu ändern. Diese Eigenschaften können nicht gelöscht werden.
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits] sind nützlich für die Fehlerbehebung. Klicken Sie auf einen Eigenschaftsnamen, um die Metriken auf der Seite &quot;Eigenschaftszusammenfassung&quot;zu überprüfen. Wenn Ihre ausgewählte Eigenschaft Daten zurückgibt, deutet dies darauf hin, dass der ID-Synchronisierungsprozess korrekt eingerichtet ist und Daten an [!DNL Audience Manager] gesendet werden.
+>[!UICONTROL Data Source Synced Traits] sind für die Fehlerbehebung nützlich. Klicken Sie auf einen Eigenschaftsnamen, um die Metriken auf der Übersichtsseite der Eigenschaften zu überprüfen. Wenn Ihre ausgewählte Eigenschaft Daten zurückgibt, bedeutet dies, dass der ID-Synchronisierungsprozess ordnungsgemäß eingerichtet ist und Daten an [!DNL Audience Manager] gesendet werden.
 
 >[!MORELIKETHIS]
 >
