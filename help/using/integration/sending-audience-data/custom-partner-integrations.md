@@ -4,9 +4,8 @@ seo-description: Diese Seite enthält benutzerdefinierte Integrationen zwischen 
 seo-title: Benutzerdefinierte Partnerintegrationen
 solution: Audience Manager
 title: Benutzerdefinierte Partnerintegrationen
-feature: Third-party Integration
+feature: Drittanbieterintegration
 exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '286'
@@ -22,13 +21,13 @@ Diese Seite enthält benutzerdefinierte Integrationen zwischen Audience Manager 
 
 ### Beschreibung
 
-Audience Manager übernimmt mithilfe von eingehenden Datendateien Cookie-Daten und mobile IDs aus der Oracle Data Cloud für Audience Marketplace. Die unten beschriebenen benutzerdefinierten Integrationsspezifikationen beziehen sich nur auf eingehende Datendateien mit mobilen IDs (IDFA- und Android-Geräte-IDs).
+Audience Manager übernimmt mithilfe von eingehenden Datendateien Cookie-Daten und mobile IDs aus der Oracle Data Cloud für Audience Marketplace. Die unten beschriebenen benutzerdefinierten Integrationsspezifikationen beziehen sich nur auf eingehende Datendateien, die mobile IDs (IDFA- und Android-Geräte-IDs) enthalten.
 
 ### Integrationsspezifikationen
 
-Die von der Oracle Data Cloud empfangenen Inbound-Datendateien unterscheiden sich von der Standardsyntax für eingehende Datendateien, die unter [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) beschrieben wird, und von der Standardsyntax für den Inbound-Dateiinhalt, die unter [Inbound Data File Contents beschrieben wird: Syntax, Ungültige Zeichen, Variablen und Beispiele](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+Die von der Oracle Data Cloud empfangenen eingehenden Datendateien unterscheiden sich von der in [Amazon S3-Syntax für Namen und Dateigrößen der eingehenden Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) beschriebenen Syntax und der in [Inbound-Datendateiinhalte beschriebenen Standardsyntax für den Inhalt eingehender Dateien: Syntax, ungültige Zeichen, Variablen und Beispiele](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
-Die unten hervorgehobenen Elemente sind zusätzlich zu den standardmäßigen Implementierungsfeldern für eingehende Datendateien erforderlich. Beschreibungen aller anderen Standardfelder und Dateinamenelemente finden Sie unter Syntax für Dateinamen und Syntax für Dateiinhalte auf den beiden oben verknüpften Seiten.
+Zusätzlich zu den standardmäßigen Implementierungsfeldern für eingehende Datendateien sind die unten hervorgehobenen Elemente erforderlich. Beschreibungen aller anderen Standardfelder und Dateinamenelemente finden Sie unter Syntax für Dateinamen und Syntax des Dateiinhalts auf den beiden oben verlinkten Seiten.
 
 ### Dateibenennung
 
@@ -36,15 +35,15 @@ ODC-Dateinamen sind wie folgt strukturiert:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Das `odc`-Dateinamenelement identifiziert die Datei als aus der Oracle Data Cloud importiert und weist den Audience Manager-Validator an, sie als solche zu verarbeiten.
+Das Dateinamenelement `odc` identifiziert die aus der Oracle Data Cloud importierte Datei und weist den Audience Manager-Validator an, sie als solche zu verarbeiten.
 
 ### Dateiinhalt
 
-Die Felder in der ODC-Eingangsdatendatei müssen in der folgenden Reihenfolge angezeigt werden:
+Die Felder in der eingehenden ODC-Datendatei müssen in der folgenden Reihenfolge angezeigt werden:
 
 `<`**`ID type`**`><TAB><user ID><TAB><trait ID>,<trait ID>,<trait ID>,...`
 
-Das `ID type` kann:
+`ID type` kann Folgendes sein:
 
 * IDFA
 * Android-Geräte-ID
@@ -53,6 +52,6 @@ Das `ID type` kann:
 >
 >Senden Sie keine IDFA- und Android-Geräte-IDs in derselben eingehenden Datendatei.
 
-## ODC-Eingangsdatei
+## ODC-Eingehende Beispieldatei
 
-Laden Sie die Beispieldatei [a1/> herunter. ](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync) Diese Datei qualifiziert mehrere IDFAs für die Eigenschaften-ID 38838. Sie können diese Datei in einem Standard-Texteditor oder Codeeditor öffnen.
+Laden Sie die Beispieldatei [a1/> herunter. ](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync) Diese Datei qualifiziert mehrere IDFAs für die Eigenschaften-ID 38838. Sie können diese Datei in einem standardmäßigen Texteditor oder Code-Editor öffnen.
