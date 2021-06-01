@@ -1,25 +1,24 @@
 ---
-description: Erhalten Sie Audiencen von Audience Manager.
-seo-description: Erhalten Sie Audiencen von Adobe Audience Manager (AAM).
-seo-title: Daten zur Audience in Adobe Audience Manager empfangen (AAM)
+description: Empfangen von Zielgruppendaten von Audience Manager.
+seo-description: Empfangen von Zielgruppendaten von Adobe Audience Manager (AAM).
+seo-title: Empfangen von Zielgruppendaten in Adobe Audience Manager (AAM)
 title: 'Empfangen von Zielgruppendaten '
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Ausgehende Datenübertragungen
+exl-id: 8b6ef84d-6b04-4a0e-9142-aa48b586c05e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 17%
+source-wordcount: '120'
+ht-degree: 16%
 
 ---
 
-
 # Empfangen von Zielgruppendaten 
 
-Erhalten Sie Audiencen von Audience Manager.
+Empfangen von Zielgruppendaten von Audience Manager.
 
 * [ID-Synchronisierung für ausgehende Datenübertragungen](id-sync-outbound.md)
 
-   Beschreibt die Syntax und die Parameter, die beim ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen Audience Manager und einem Drittanbieter verwendet werden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie Ihre erste ID-Synchronisierung durchführen.
+   Beschreibt die Syntax und die Parameter, die im ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen Audience Manager und einem Drittanbieter für Daten verwendet werden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie Ihre erste ID-Synchronisierung versuchen.
 
 * [Ausgehende Datenübertragungen in Echtzeit](real-time-outbound-transfers/real-time-outbound-transfers.md)
 
@@ -27,4 +26,4 @@ Erhalten Sie Audiencen von Audience Manager.
 
 * [Ausgehende Batch-Datenübertragungen ](batch-outbound-transfers/batch-outbound-overview.md)
 
-   Audience Manager sendet Stapeldaten gemäß diesen Spezifikationen an Drittanbieter für Inhalte.
+   Audience Manager sendet Batch-Daten gemäß diesen Spezifikationen an Drittanbieter von Inhalten.
