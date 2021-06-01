@@ -1,12 +1,11 @@
 ---
-description: Der S3-Statusordner enthält eine .info-Datei mit Erfolgs- und Fehlerinformationen zu den hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
-seo-description: Der S3-Statusordner enthält eine .info-Datei mit Erfolgs- und Fehlerinformationen zu den hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
+description: Das S3-Statusverzeichnis enthält eine .info-Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
+seo-description: Das S3-Statusverzeichnis enthält eine .info-Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
 seo-title: Statusaktualisierungen für Metadatendateien
 solution: Audience Manager
 title: Statusaktualisierungen für Metadatendateien
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: Log Files
-translation-type: tm+mt
+feature: Protokolldateien
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '329'
@@ -17,9 +16,9 @@ ht-degree: 1%
 
 # Statusaktualisierungen für Metadatendateien{#status-updates-for-metadata-files}
 
-Der S3-Statusordner enthält eine `.info`-Datei mit Erfolgs- und Fehlerinformationen zu den hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
+Das S3-Statusverzeichnis enthält eine `.info`-Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
 
-Der Inhalt Ihrer `.info`-Datei sieht ähnlich wie in diesem Beispiel aus.
+Der Inhalt Ihrer `.info`-Datei sieht in etwa wie im folgenden Beispiel aus.
 
 ```js
 //sample file path
@@ -60,11 +59,11 @@ Der Inhalt Ihrer `.info`-Datei sieht ähnlich wie in diesem Beispiel aus.
 }
 ```
 
-## Metadaten-Schlüssel-Wert-Paare definiert {#key-value-pairs}
+## Definierte Schlüssel-Wert-Paare für Metadaten {#key-value-pairs}
 
-Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abschnitten `Files` und `Summary` einer Metadatenstatusdatei.
+In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Summary` einer Metadatenstatusdatei aufgeführt und definiert.
 
-**Tasten im Dateiarray**
+**Schlüssel im Dateiarray**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -76,7 +75,7 @@ Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abs
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Description</code> </p> </td> 
-   <td colname="col2"> <p>Enthält eine kurze Beschreibung, warum die Verarbeitung fehlgeschlagen ist. Dieses Feld ist leer, wenn die Verarbeitung erfolgreich war. </p> </td> 
+   <td colname="col2"> <p>Enthält eine kurze Beschreibung, warum die Verarbeitung fehlgeschlagen ist. Dieses Feld ist bei erfolgreicher Verarbeitung leer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
@@ -84,19 +83,19 @@ Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abs
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Die MD5-Prüfsumme für die Metadatendatei, die in das <code> meta</code>-Verzeichnis hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>Die MD5-Prüfsumme für die Metadatendatei, die in das Verzeichnis <code> meta</code> hochgeladen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Der Name der Metadatendatei, die in das <code> meta</code>-Verzeichnis hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>Der Name der Metadatendatei, die in das Verzeichnis <code> meta</code> hochgeladen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Sie basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Er basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Sie basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -109,7 +108,7 @@ Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abs
  </tbody> 
 </table>
 
-**Tasten im Zusammenfassungsobjekt**
+**Schlüssel im Zusammenfassungsobjekt**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -141,11 +140,11 @@ Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abs
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimeRFC2822</code> </p> </td> 
-   <td colname="col2"> <p>Gibt einen für Menschen lesbaren Zeitstempel zur Verarbeitung der Beginn zurück. </p> </td> 
+   <td colname="col2"> <p>Gibt einen für Menschen lesbaren Zeitstempel für Verarbeitungsstartzeiten zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimePOSIX</code> </p> </td> 
-   <td colname="col2"> <p>Ein UNIX-Zeitstempel zur Verarbeitung der Beginn. </p> </td> 
+   <td colname="col2"> <p>Ein UNIX-Zeitstempel für Verarbeitungsstartzeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
@@ -153,7 +152,7 @@ Die folgende Tabelle enthält eine Liste und definiert die Schlüssel in den Abs
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalNumberFiles</code> </p> </td> 
-   <td colname="col2"> <p>Gesamtanzahl aller verarbeiteten Dateien für den Tag. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl aller verarbeiteten Dateien für den Tag. </p> </td> 
   </tr> 
  </tbody> 
 </table>
