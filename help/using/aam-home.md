@@ -5,9 +5,8 @@ seo-title: Technische Produktdokumentation für Adobe Audience Manager
 solution: Audience Manager
 title: Audience Manager-Anleitung
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: Overview
+feature: Überblick
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-translation-type: tm+mt
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
 source-wordcount: '653'
@@ -152,7 +151,7 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
      Neue Funktionen und Fehlerbehebungen finden Sie in den <a href="https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud-Versionshinweisen</a>.</p> 
      <p> <b>Neueste Funktionen</b> </p> <p> 
      Informieren Sie sich über die neuesten Audience Manager-Funktionen:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Benutzermigration in Audience Manager zur Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google-Kundenabgleich für benutzerspezifische Ziele</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Vorhersagekräftige Zielgruppen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivitätsnutzung</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Benutzermigration zu Admin Console durch Audience Manager</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google-Kundenabgleich für personenbasierte Ziele</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Vorhersagekräftige Zielgruppen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivitätsnutzung</a></li>
      </ul></p>
     </td>
   </tr> 
