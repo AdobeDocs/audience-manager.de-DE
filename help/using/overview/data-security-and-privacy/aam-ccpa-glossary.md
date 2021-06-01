@@ -4,9 +4,8 @@ seo-description: In diesem Artikel werden die Konzepte und Terminologie des Kali
 seo-title: CCPA-Glossar
 solution: Audience Manager
 title: CCPA-Glossar
-feature: Data Governance & Privacy
+feature: Data Governance und Datenschutz
 exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '546'
@@ -53,6 +52,6 @@ Machen Sie sich mit den wichtigsten Begriffen im Zusammenhang mit CCPA vertraut.
  
 
 >[!MORELIKETHIS]
+[Datenschutz – Überblick](/help/using/overview/data-security-and-privacy/data-privacy.md)>
 >
->[Datenschutz – Überblick](/help/using/overview/data-security-and-privacy/data-privacy.md)
 
