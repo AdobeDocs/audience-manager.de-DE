@@ -3,11 +3,10 @@ description: In diesem Dokument wird erläutert, wie Kundendaten im Audience Ma
 seo-description: In diesem Dokument wird erläutert, wie Kundendaten im Audience Manager verwaltet werden.
 seo-title: Data Governance
 solution: Audience Manager
-keywords: GDPR-Benutzeroberfläche, GDPR-API, CCPA, Datenschutz, Zustimmung, Verschleierung, Governance
-title: Datenverwaltung
-feature: Data Governance & Privacy
+keywords: DSGVO-Benutzeroberfläche, DSGVO-API, CCPA, Datenschutz, Einverständnis, Verschleierung, Governance
+title: Data Governance
+feature: Data Governance & Datenschutz
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '470'
@@ -15,7 +14,7 @@ ht-degree: 94%
 
 ---
 
-# Datenverwaltung
+# Data Governance
 
 ## Überblick {#overview}
 
@@ -32,7 +31,7 @@ Die [!DNL IP]-Adresse eines Besuchers auf der Website eines Kunden wird an das [
 
 >[!NOTE]
 >
->Siehe [IP-Adressenverschleierung](../../features/administration/ip-obfuscation.md), um zu erfahren, wie [!DNL IP]-Adressenverschleierung in der Benutzeroberfläche des Audience Managers aktiviert wird.
+>Siehe [IP-Adressenverschleierung](../../features/administration/ip-obfuscation.md) , um zu erfahren, wie Sie die [!DNL IP]-Adressenverschleierung in der Audience Manager-Benutzeroberfläche aktivieren.
 
 Sehen Sie sich das folgende Video an, um zu verstehen, wie die Verschleierung von [!DNL IP]-Adressen in Audience Manager funktioniert.
 
