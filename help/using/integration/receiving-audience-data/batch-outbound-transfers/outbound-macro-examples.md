@@ -1,27 +1,26 @@
 ---
-description: Beispiele dafür, wie einige der gängigen Makros zum Erstellen von Vorlagen für ausgehende Dateien verwendet werden.
-seo-description: Beispiele dafür, wie einige der gängigen Makros zum Erstellen von Vorlagen für ausgehende Dateien verwendet werden.
+description: Beispiele dafür, wie einige der gängigen Makros zum Erstellen ausgehender Dateivorlagen verwendet werden.
+seo-description: Beispiele dafür, wie einige der gängigen Makros zum Erstellen ausgehender Dateivorlagen verwendet werden.
 seo-title: Beispiele für ausgehende Makros
 solution: Audience Manager
 title: Beispiele für ausgehende Makros
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Ausgehende Datenübertragungen
+exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 9%
 
 ---
 
-
 # Beispiele für ausgehende Makros {#outbound-macro-examples}
 
-Beispiele dafür, wie einige der gängigen Makros zum Erstellen von Vorlagen für ausgehende Dateien verwendet werden.
+Beispiele dafür, wie einige der gängigen Makros zum Erstellen ausgehender Dateivorlagen verwendet werden.
 
 >[!NOTE]
 >
->In den Tabellen identifiziert der Typ **boldface** jedes Makro mit seiner zugehörigen Ausgabe. Für die Formatbeispiele wurden die `<` `>`-Symbole hinzugefügt, um die visuelle Trennung der einzelnen Makros zu erleichtern.
+>In den Tabellen identifiziert der Typ **boldface** jedes Makro mit seiner zugehörigen Ausgabe. Für die Formatbeispiele wurden die `<` `>` -Symbole hinzugefügt, die eine visuelle Trennung der einzelnen Makros ermöglichen.
 
 ## Dateinamenmakros {#file-name-macros}
 
@@ -71,7 +70,7 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
  </tbody> 
 </table>
 
-## Kopfzeilenmakros {#header-macros}
+## Zeilenmakros für Kopfzeilen {#header-macros}
 
 Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende Vorlagenmakros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
@@ -85,7 +84,7 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Ausgabe: <code> 888 full.sync </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen ohne Drucken getrennt. </p> </td>
+   <td colname="col2"> <p>Format: <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Ausgabe: <code> 888 full.sync </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen Nicht drucken getrennt. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -112,7 +111,7 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>Siehe den Abschnitt unten. </p> </td> 
+   <td colname="col2"> <p>Siehe den separaten Abschnitt unten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
@@ -137,7 +136,7 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen ohne Drucken getrennt. </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen Nicht drucken getrennt. </p> </td> 
   </tr>
   <tr>
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
@@ -148,9 +147,9 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
 
 ### `DPUUID` Beispiele
 
-Damit Sie verstehen können, wie das `DPUUID`-Makro Daten ausgibt, nehmen wir an, dass `DPID`s `DPUUID`s wie unten dargestellt zugeordnet sind:
+Um zu verstehen, wie das Makro `DPUUID` Daten ausgibt, gehen wir davon aus, dass `DPID`s `DPUUID`s zugeordnet sind, wie unten dargestellt:
 
-* DPID `1111` wird DPUUIDs `AAAA` (timestamp = 1) und `BBBB` (timestamp = 2) zugeordnet.
+* DPID `1111` wird DPUUIDs `AAAA` (Zeitstempel = 1) und `BBBB` (Zeitstempel = 2) zugeordnet.
 * DPID `2222` wird DPUUID `CCCC` zugeordnet.
 
 Unter diesen Bedingungen werden in der folgenden Tabelle einige mögliche Formatzeichenfolgen und deren Ausgabe aufgelistet.
@@ -172,12 +171,12 @@ Unter diesen Bedingungen werden in der folgenden Tabelle einige mögliche Format
   <tr> 
    <td colname="col1"> <p>Maximal 1 Zuordnung für alle DPIDs zurückgeben </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Bei DPID <code> 1111 </code> wird das Makro DPUUID <code> BBBB </code> nur zugeordnet, weil diese ID den größeren Zeitstempel hat. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Bei DPID <code> 1111 </code> wird das Makro nur deshalb DPUUID <code> BBBB </code> zugeordnet, weil diese ID den größeren Zeitstempel aufweist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Maximal 2 Zuordnungen für eine einzelne DPID zurückgeben </p> </td> 
+   <td colname="col1"> <p>maximal 2 Zuordnungen für eine einzelne DPID zurückgeben </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Obwohl <code> maxMappings=2 </code> dieses Makro nur 1 DPID zur DPUUID-Zuordnung zurückgibt, weil die angegebene DPID nur eine DPUUID hat. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Obwohl <code> maxMappings=2 </code>, gibt dieses Makro nur 1 DPID an die DPUUID-Zuordnung zurück, da die angegebene DPID nur eine DPUUID hat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
