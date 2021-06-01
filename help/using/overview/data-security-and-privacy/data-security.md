@@ -5,9 +5,8 @@ seo-title: Datensicherheit in Audience Manager
 solution: Audience Manager
 title: Datensicherheit in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-feature: Data Governance & Privacy
+feature: Data Governance und Datenschutz
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1028'
@@ -62,7 +61,7 @@ Prozesse, die dazu beitragen, die Sicherheit personenbezogener Daten zu gewährl
 
 Prozesse zum Schutz der Daten einzelner Clients.
 
-**Unterteilung der Eigenschaftendaten:**  Ihre Daten ([!UICONTROL traits], IDs usw.) werden nach Client partitioniert. Dies hilft, eine versehentliche Offenlegung von Informationen zwischen verschiedenen Clients zu verhindern. Beispielsweise werden Eigenschaftsdaten in Cookies nach Kunde partitioniert und in einer Client-spezifischen Subdomäne gespeichert. Sie können nicht versehentlich von einem anderen Audience Manager-Client gelesen oder verwendet werden. Darüber hinaus werden die in [!UICONTROL Profile Cache Servers (PCS)] gespeicherten Eigenschaftsdaten auch nach Kunde partitioniert. Dadurch wird verhindert, dass andere Clients Ihre Daten versehentlich bei einem Ereignisaufruf oder einer anderen Anfrage verwenden.
+**Partitionierung von Eigenschaftsdaten:**  Ihre Daten ([!UICONTROL traits], IDs usw.) werden nach Client partitioniert. Dies hilft, eine versehentliche Offenlegung von Informationen zwischen verschiedenen Clients zu verhindern. Beispielsweise werden Eigenschaftsdaten in Cookies nach Kunde partitioniert und in einer Client-spezifischen Subdomäne gespeichert. Sie können nicht versehentlich von einem anderen Audience Manager-Client gelesen oder verwendet werden. Darüber hinaus werden die in [!UICONTROL Profile Cache Servers (PCS)] gespeicherten Eigenschaftsdaten auch nach Kunde partitioniert. Dadurch wird verhindert, dass andere Clients Ihre Daten versehentlich bei einem Ereignisaufruf oder einer anderen Anfrage verwenden.
 
 **Datenpartitionierung in Berichten:** Client-IDs sind Teil des Identifizierungsschlüssels in allen Berichtstabellen, und Berichtsabfragen werden nach ID gefiltert. Dadurch wird verhindert, dass Ihre Daten in den Berichten eines anderen Audience Manager-Kunden angezeigt werden.
 
@@ -92,6 +91,6 @@ Diese Richtlinie verbessert die Datensicherheit zwischen Clients und Adobe [Edge
 
 ### Beispiel {#hsts-example}
 
-Angenommen, die Domäne `yourcompany.demdex.com` sendet Traffic über [!DNL HTTP] an die [!DNL DCS]-Domäne. [!DNL HSTS] aktualisiert die Aufrufe, um stattdessen [!DNL HTTPS] zu verwenden. Alle nachfolgenden [!DNL DCS]-Aufrufe, die von `yourcompany.demdex.com` kommen, verwenden dann [!DNL HTTPS] anstelle von [!DNL HTTP].
+Angenommen, die Domäne `yourcompany.demdex.com` sendet Traffic über [!DNL HTTP] an [!DNL DCS]. [!DNL HSTS] aktualisiert die Aufrufe, um stattdessen [!DNL HTTPS] zu verwenden. Alle nachfolgenden [!DNL DCS]-Aufrufe, die von `yourcompany.demdex.com` kommen, verwenden dann [!DNL HTTPS] anstelle von [!DNL HTTP].
 
 Weitere Informationen zu HSTS finden Sie unter [HTTP Strict Transport Security – Wikipedia](https://de.wikipedia.org/wiki/HTTP_Strict_Transport_Security).
