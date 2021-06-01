@@ -5,15 +5,14 @@ seo-title: Genauigkeit und Reichweite
 solution: Audience Manager
 title: Genauigkeit und Reichweite
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Eigenschaften '
+exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '353'
 ht-degree: 3%
 
 ---
-
 
 # Genauigkeit und Reichweite {#accuracy-and-reach}
 
@@ -23,19 +22,19 @@ Beschreibt die Beziehung zwischen Genauigkeit und Reichweite in algorithmischen 
 
 ## Genauigkeit vs. Reichweite: Info
 
-Es ist wichtig, die Beziehung zwischen Genauigkeit und Reichweite bei der Arbeit mit algorithmischen Eigenschaften zu verstehen. Die Genauigkeit wird durch einen bewerteten Wert dargestellt, der angibt, wie ähnlich die Benutzer Ihrer Grundlinie sind. Die Genauigkeitsskala reicht von 0 (am wenigsten genau) bis 1 (am genauesten). Reichweite ist einfach ein Wert, der die Anzahl der Unique Users darstellt, die Sie in eine Eigenschaft einbeziehen möchten. Reichweite und Genauigkeit sind umgekehrt. Genauere Eigenschaften erreichen weniger Benutzer und Eigenschaften mit größerer Reichweite sind weniger genau. Die folgende Abbildung zeigt dieses Konzept.
+Es ist wichtig, die Beziehung zwischen Genauigkeit und Reichweite beim Arbeiten mit algorithmischen Eigenschaften zu verstehen. Die Genauigkeit wird durch einen Wert dargestellt, der angibt, wie ähnlich die Benutzer Ihrer Grundlinie sind. Die Genauigkeitsskala reicht von 0 (am wenigsten genau) bis 1 (am genauesten). &quot;Reichweite&quot;ist lediglich ein Wert, der die Anzahl der Unique Users darstellt, die Sie in eine Eigenschaft aufnehmen möchten. Reichweite und Genauigkeit sind umgekehrt miteinander verbunden. Präzise Eigenschaften erreichen weniger Benutzer und Eigenschaften mit größerer Reichweite sind weniger genau. Die folgende Abbildung zeigt dieses Konzept.
 
 ![](assets/Reach_v_Accuracy.png)
 
-## Genauigkeit und Reichweite beeinflussen die Größe der Audience
+## Genauigkeit und Reichweite beeinflussen Zielgruppengröße
 
-Ihre Geschäftsziele sollten Ihnen dabei helfen, bei der Arbeit mit algorithmischen Eigenschaften die richtigen Entscheidungen über Genauigkeit und Reichweite zu treffen. Wenn die Genauigkeit Ihr Ziel ist, beachten Sie, dass die Population eines Merkmals während der Ausführung eines Modells erhöht oder verringert werden kann. Bevölkerungsänderungen sind die Ergebnisse des Algorithmus, der während jedes Bewertungszeitraums Entscheidungen trifft. Manchmal findet der Algorithmus qualifiziertere Benutzer während eines Verarbeitungszyklus, während andere weniger Benutzer finden. Die Ergebnisse werden anhand der Ausgangsdaten ermittelt, die zur Erstellung des Modells und der neuen Besucher und Qualifikationen der Eigenschaften seit der letzten Modellausführung verwendet wurden. Bei der Arbeit mit Reichweite bleibt die Benutzeranzahl dagegen konstant. Wenn Sie z. B. 10.000 Benutzer erreichen möchten, stellt der Algorithmus sicher, dass er für jede Modellausführung immer diese Zahl erreicht.
+Ihre Geschäftsziele sollten Ihnen dabei helfen, die richtigen Entscheidungen über Genauigkeit und Reichweite beim Arbeiten mit algorithmischen Eigenschaften zu treffen. Wenn die Genauigkeit Ihr Ziel ist, beachten Sie, dass die Population einer Eigenschaft über verschiedene Modellläufe hinweg erhöht oder verringert werden kann. Bevölkerungsänderungen sind die Ergebnisse des Algorithmus, der während jedes Auswertungszeitraums Entscheidungen trifft. Manchmal findet der Algorithmus während eines Verarbeitungszyklus qualifiziertere Benutzer, während andere weniger finden. Die Ergebnisse werden durch die Basisdaten bestimmt, die zum Erstellen des Modells sowie neuer Besucher und Eigenschaftsqualifikationen verwendet werden, die seit der vorherigen Ausführung des Modells entstanden sind. Bei der Arbeit mit der Reichweite bleibt die Anzahl der Benutzerpopulationen dagegen konstant. Wenn Sie z. B. 10.000 Benutzer erreichen möchten, stellt der Algorithmus sicher, dass er für jede Modellausführung immer diese Zahl erreicht.
 
-## Allgemeine Anwendungsfälle für Genauigkeit oder Reichweite
+## Allgemeine Anwendungsfälle für Genauigkeit und Reichweite
 
-Der Fokus auf Genauigkeit oder Reichweite hängt davon ab, was Sie mit einem bestimmten Segment erreichen möchten. Die folgende Tabelle kann Ihnen helfen, beim Erstellen einer Eigenschaft die Genauigkeit bzw. Reichweite zu bewerten.
+Der Fokus auf Genauigkeit oder Reichweite hängt davon ab, was Sie mit einem bestimmten Segment erreichen möchten. Die folgende Tabelle kann Ihnen dabei helfen, beim Erstellen einer Eigenschaft die Genauigkeit oder Reichweite zu bewerten.
 
-| Favoriten für die Eigenschaftsentscheidung | Hilft bei der Suche |
+| Favoriten für Eigenschaftsentscheidungen | Hilft bei der Suche |
 |---|---|
-| **Genauigkeit** | Benutzer ähnlich wie Kunden mit Basisstatus in Ihrem Modell. Nützlich für zielgerichtete Kampagnen, wenn Sie eine bestimmte Audience erreichen möchten. |
-| **Reichweite** | Eine bestimmte Anzahl von Benutzern für jede Datenausführung. Nützlich für Kampagnen, wenn Sie eine Audience von einer bestimmten Größe erreichen möchten. |
+| **Genauigkeit** | Benutzer, die in Ihrem Modell Kunden ähnlich sind. Nützlich für zielgerichtete Kampagnen, wenn Sie eine bestimmte Zielgruppe erreichen möchten. |
+| **Reichweite** | Eine bestimmte Anzahl von Benutzern für jede Datenausführung. Nützlich für Markenkampagnen, wenn Sie eine Zielgruppe einer bestimmten Größe erreichen möchten. |
