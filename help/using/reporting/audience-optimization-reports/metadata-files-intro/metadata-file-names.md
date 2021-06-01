@@ -1,13 +1,12 @@
 ---
-description: Benennen Sie die Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
-seo-description: Benennen Sie die Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
+description: Benennen Sie Ihre Audience Optimization-Metadatendatei gemäß diesen Spezifikationen.
+seo-description: Benennen Sie Ihre Audience Optimization-Metadatendatei gemäß diesen Spezifikationen.
 seo-title: Namenskonventionen für Metadatendateien
 solution: Audience Manager
 title: Namenskonventionen für Metadatendateien
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-feature: Log Files
+feature: Protokolldateien
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '216'
@@ -17,11 +16,11 @@ ht-degree: 10%
 
 # Namenskonventionen für Metadatendateien{#naming-conventions-for-metadata-files}
 
-Benennen Sie die Metadatendatei Ihrer Audience Optimization entsprechend diesen Spezifikationen.
+Benennen Sie Ihre Audience Optimization-Metadatendatei gemäß diesen Spezifikationen.
 
-## Syntax- und ID-Kategorien {#syntax}
+## Syntax und ID-Kategorien {#syntax}
 
-Die folgende Syntax definiert die Struktur eines gut formatierten Metadatendateinamens. Hinweis: *kursiv* gibt einen Variablenplatzhalter an. Die anderen Elemente sind Konstanten und bleiben unverändert.
+Die folgende Syntax definiert die Struktur eines korrekt formatierten Metadaten-Dateinamens. Hinweis: *kursiv* gibt einen Variablenplatzhalter an. Die anderen Elemente sind Konstanten und ändern sich nicht.
 
 **Syntax:** *`yyyymmdd_0_childID`*
 
@@ -34,9 +33,9 @@ Die folgende Syntax definiert die Struktur eines gut formatierten Metadatendatei
 * Die mittlere Komponente **0** ist technisch die übergeordnete ID, bei der es sich um ein veraltetes Feld handelt. Der Wert sollte immer auf **0** gesetzt werden.
 * Die untergeordnete ID kann je nach Dimension einen Wert zwischen 1 und 10 aufweisen. Das sieht dann so aus:
 
-## Dimensionen der untergeordneten ID {#child-dimension}
+## Untergeordnete ID-Dimensionen {#child-dimension}
 
-Im Metadaten-Dateinamen ist die untergeordnete ID ein Bezeichner, der den Datentyp in einer Datei klassifiziert und in einer Hierarchie ablegt. Sie können die untergeordnete ID im Dateinamen mit den folgenden Kategorien-IDs taggen:
+Im Metadaten-Dateinamen ist die untergeordnete ID eine Kennung, die den Datentyp in einer Datei klassifiziert und in einer Hierarchie platziert. Sie können die untergeordnete ID im Dateinamen mit den folgenden Kategorie-IDs taggen:
 
 1. Kampagne
 1. Kreativ
@@ -44,9 +43,9 @@ Im Metadaten-Dateinamen ist die untergeordnete ID ein Bezeichner, der den Datent
 1. Exchange-
 1. Site
 1. Advertiser (bei Verwendung von Integrationscodes in einer [Datenquelle](../../../features/manage-datasources.md#details))
-1. Einfügereihenfolge (IO)
-1. Vertikal (d. h. eine bestimmte Industrie- oder Geschäftswelt wie &quot;Computer&quot;, &quot;Automobile&quot;, &quot;Immobilien&quot;usw.)
-1. Taktik
+1. Insertion Order (IO)
+1. Vertikal (d. h. eine bestimmte Industrie- oder Geschäftskategorie wie &quot;Computer&quot;, &quot;Automobile&quot;, &quot;Immobilien&quot;usw.)
+1. Taktisch
 1. Geschäftseinheit oder Marke
 
 ## Beispiel {#example}
