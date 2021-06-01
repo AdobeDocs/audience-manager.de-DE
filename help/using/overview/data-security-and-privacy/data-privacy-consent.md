@@ -3,12 +3,11 @@ description: In diesem Dokument wird erläutert, wie die Zustimmungsverwaltung i
 seo-description: In diesem Dokument wird erläutert, wie die Zustimmungsverwaltung in Audience Manager funktioniert.
 seo-title: Zustimmungsverwaltung
 solution: Audience Manager
-keywords: GDPR-Benutzeroberfläche, GDPR-API, CCPA, Datenschutz, Zustimmung
+keywords: DSGVO-Benutzeroberfläche, DSGVO-API, CCPA, Datenschutz, Einverständnis
 title: Zustimmungsverwaltung
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Data Governance & Privacy
+feature: Data Governance und Datenschutz
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '747'
