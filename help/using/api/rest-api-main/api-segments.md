@@ -6,14 +6,13 @@ solution: Audience Manager
 title: API-Methoden für Segmente
 uuid: a3ab199f-6181-4b36-a1d1-5c2dba7539d3
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: c2ba9992-5d0f-46f7-861d-ae279b37674f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 25%
+source-wordcount: '59'
+ht-degree: 27%
 
 ---
-
 
 # API-Methoden für Segmente {#segment-api-methods}
 
@@ -25,3 +24,4 @@ Methoden, mit denen Sie programmatisch mit Segmenten arbeiten können.
 >
 >* [Adobe Audience Manager API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)
+
