@@ -5,9 +5,8 @@ seo-title: Häufig gestellte Fragen zu Datenschutz und Datenaufbewahrung
 solution: Audience Manager
 title: Häufig gestellte Fragen zu Datenschutz und Datenaufbewahrung
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Data Governance & Privacy
+feature: Data Governance und Datenschutz
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '761'
@@ -56,11 +55,11 @@ In der folgenden Tabelle sind die Aufbewahrungszeiten für verschiedene Datentyp
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Backend-Server </p> </td> 
-   <td colname="col2"> <p>120 Tage </p> <p> Audience Manager löscht Benutzerdaten 120 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Backend-Servern. Wenn <span class="keyword"> Audience Manager</span> die Aktivität des Benutzers innerhalb dieses 120-Tage-Zyklus aufzeichnet, behalten wir diese Daten noch weitere 120 Tage bei. </p> </td> 
+   <td colname="col2"> <p>120 Tage </p> <p> Audience Manager löscht Benutzerdaten 120 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Backend-Servern. Wenn <span class="keyword"> Audience Manager</span> Benutzeraktivitäten innerhalb dieses 120-Tage-Zyklus aufzeichnet, werden diese Daten weitere 120 Tage aufbewahrt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-Server </p> </td> 
-   <td colname="col2"> <p> 14 Tage </p> <p>Audience Manager löscht Benutzerdaten 14 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Edge-Servern. Wenn <span class="keyword"> Audience Manager</span> die Aktivität des Benutzers innerhalb dieses 14-Tage-Zyklus erfasst, behalten wir diese Daten noch 14 Tage. Wenn der Benutzer nach dem 14-tägigen Zyklus erneut aktiv wird, kommt es zu einer Verzögerung zwischen der ersten neuen Seitenversion und dem Zeitpunkt, zu dem der Benutzer zu einer Ansicht kommt. Nach mehr als 14 Tagen Inaktivität dauert es 6-18 Stunden, bis das gesamte Profil wieder zum Edge Center zurückgebracht wird. </p> </td> 
+   <td colname="col2"> <p> 14 Tage </p> <p>Audience Manager löscht Benutzerdaten 14 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Edge-Servern. Wenn <span class="keyword"> Audience Manager</span> innerhalb dieses 14-Tage-Zyklus Benutzeraktivitäten erfasst, werden diese Daten weitere 14 Tage aufbewahrt. Wenn der Benutzer nach dem 14-Tage-Zyklus wieder aktiv wird, gibt es eine Verzögerung zwischen dieser ersten neuen Seitenansicht und dem Zeitpunkt, zu dem der Benutzer ausführbar wird. Es dauert 6-18 Stunden, bis das gesamte Profil nach mehr als 14 Tagen Inaktivität wieder zum Edge-Zentrum gebracht wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rohprotokolle </p> </td> 
@@ -72,7 +71,7 @@ In der folgenden Tabelle sind die Aufbewahrungszeiten für verschiedene Datentyp
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profile auf CRM-Ebene (authentifizierte Profil) </p> </td> 
-   <td colname="col2"> <p>Das Standard-TTL-Intervall (Time-to-Live) für inaktive Profile auf CRM-Ebene (Kunden-IDs) beträgt 24 Monate. Sie können jedoch die Audience Manager-Benutzeroberfläche verwenden, um das TTL-Intervall für inaktive CRM-Profil zwischen einem Monat und fünf Jahren zu reduzieren oder zu verlängern. Dies ist beim Erstellen oder Bearbeiten einer geräteübergreifenden Datenquelle möglich.</p> <p>Weitere Informationen finden Sie unter „Datenquelleneinstellungen“ in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Erstellen einer geräteübergreifenden Datenquelle</a>.</p> </td> 
+   <td colname="col2"> <p>Das Standard-TTL-Intervall (Time-to-Live) für inaktive Profile auf CRM-Ebene (Kunden-IDs) beträgt 24 Monate. Sie können jedoch die Audience Manager-Benutzeroberfläche verwenden, um das TTL-Intervall für inaktive CRM-Profile zwischen einem Monat und fünf Jahren zu reduzieren oder zu verlängern. Dies ist beim Erstellen oder Bearbeiten einer geräteübergreifenden Datenquelle möglich.</p> <p>Weitere Informationen finden Sie unter „Datenquelleneinstellungen“ in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Erstellen einer geräteübergreifenden Datenquelle</a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobilgeräte-IDs </p> </td> 
