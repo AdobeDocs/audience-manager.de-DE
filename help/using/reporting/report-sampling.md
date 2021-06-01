@@ -1,29 +1,28 @@
 ---
-description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
-seo-description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
+description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerraten und eine Liste von Berichten, die Informationen auf der Grundlage von Stichprobendaten liefern.
+seo-description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerraten und eine Liste von Berichten, die Informationen auf der Grundlage von Stichprobendaten liefern.
 seo-title: Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten
 solution: Audience Manager
 title: Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: Reporting Reference
+feature: Berichtsreferenz
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 7%
 
 ---
 
 # Daten-Sampling und Fehlerraten in ausgewählten Audience Manager-Berichten{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
-Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerquoten und eine Liste von Berichten, die Informationen basierend auf Stichprobendaten zurückgeben.
+Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerraten und eine Liste von Berichten, die Informationen auf der Grundlage von Stichprobendaten liefern.
 
-## Datenstichprobenverhältnis {#data-sampling-ratio}
+## Data Sampling Ratio {#data-sampling-ratio}
 
-Einige [!DNL Audience Manager]-Berichte zeigen Ergebnisse basierend auf einem Stichprobensatz der Gesamtmenge der verfügbaren Daten an. Das Stichprobendatenverhältnis beträgt 1:54. Bei Berichten, die Stichprobendaten verwenden, basieren Ihre Ergebnisse auf einem Datensatz aus jeweils 54 Datensätzen.
+Einige [!DNL Audience Manager] -Berichte zeigen Ergebnisse basierend auf einem Stichprobensatz der insgesamt verfügbaren Datenmenge an. Das Datenverhältnis der Stichprobe beträgt 1:54. Für Berichte, die Stichprobendaten verwenden, bedeutet dies, dass Ihre Ergebnisse auf 1 Datensatz aus jedem Satz von 54 Datensätzen basieren.
 
-Diese Berichte verwenden Daten aus statistischen Stichproben, weil sie eine enorme Rechenleistung benötigen, um Ergebnisse zu erzielen. Die Probenahme hilft dabei, ein Gleichgewicht zwischen geringeren Rechenanforderungen, der Aufrechterhaltung der Systemleistung und der Bereitstellung präziser Ergebnisse herzustellen.
+Diese Berichte verwenden Daten aus statistischen Stichproben, da sie eine enorme Rechenleistung benötigen, um Ergebnisse zu erzielen. Das Sampling hilft, ein Gleichgewicht zwischen reduzierten Rechenanforderungen, der Aufrechterhaltung der Systemleistung und der Bereitstellung genauer Ergebnisse zu finden.
 
 <!--
 
@@ -40,27 +39,27 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 -->
 
-## Fehlerquoten {#error-rates}
+## Fehlerraten {#error-rates}
 
-Fehler können in Berichten auftreten, die überlappende Daten generieren. Ein Fehler wird definiert als der Prozentsatz der Datensätze, die:
+Fehler können in Berichten auftreten, die Überlagerungsdaten generieren. Ein Fehler ist definiert als der Prozentsatz der Datensätze, die:
 
 * Hätte nicht in einen Bericht aufgenommen, aber trotzdem hinzugefügt werden sollen.
-* Hätte in einen Bericht aufgenommen werden sollen, aber nicht berücksichtigt.
+* Sollte in einen Bericht aufgenommen, aber nicht berücksichtigt werden.
 
-Beachten Sie, dass unsere Tests und Modelle zeigen, dass die Fehlerquote *in umgekehrtem Verhältnis zur Anzahl der Datensätze in Ihrem Datensatz abnimmt.* Datensätze mit vielen Datensätzen führen zu weniger Fehlern als Datensätze mit einer geringen Anzahl von Datensätzen. Betrachten wir diese Behauptung quantitativer. Wie in der folgenden Tabelle dargestellt, liegen 95 % Ihrer Berichtsergebnisse bei einer bestimmten Anzahl von Datensätzen unter einer bestimmten Fehlerquote.
+Beachten Sie, dass unsere Tests und Modelle zeigen, dass die Fehlerrate *um einen umgekehrten Anteil an der Anzahl der Datensätze in Ihrem Datensatz abnimmt.* Datensätze mit vielen Datensätzen erzeugen weniger Fehler als Datensätze mit einer geringen Anzahl von Datensätzen. Sehen wir uns diese Behauptung quantitativer an. Wie in der folgenden Tabelle dargestellt, liegen 95 % der Berichtsergebnisse bei einer bestimmten Datensatzanzahl unter einer bestimmten Fehlerrate.
 
-| Anzahl der Datensätze | Fehlerquote |
+| Anzahl Datensätze | Fehlerrate |
 |--- |--- |
-| 500-1.000 | 95 % weisen eine Fehlerquote von 42 % auf. |
-| 1.000 - 1.500 | 95 % weisen eine Fehlerquote von 34 % auf. |
-| 10.000 - 50.000 | 95 % weisen eine Fehlerquote von 14 % auf. |
-| 50.000 | 95 % weisen eine Fehlerquote von 6 % auf. |
-| 100.000 | 95 % weisen eine Fehlerquote von 4 % auf. |
-| 500.000 (oder mehr) | 95 % weisen eine Fehlerquote von 2 % auf. |
+| 500-1.000 | 95 % weisen eine Fehlerrate von 42 % auf. |
+| 1.000-1.500 | 95 % weisen eine Fehlerrate von 34 % auf. |
+| 10.000 - 50.000 | 95 % weisen eine Fehlerrate von 14 % auf. |
+| 50.000 | 95 % weisen eine Fehlerrate von 6 % auf. |
+| 100.000 | 95 % weisen eine Fehlerrate von 4 % auf. |
+| 500.000 (oder mehr) | 95 % weisen eine Fehlerrate von 2 % auf. |
 
-## Verwenden der Minhash-Stichprobenmethode {#minhash}
+## Verwenden der Minhash-Sampling-Methode {#minhash}
 
-Basierend auf der Stichprobenmethode [Minhash](https://en.wikipedia.org/wiki/MinHash) verwendet Audience Manager eine neuartige Methode, um Eigenschaften- und Segmentaussagen über einer Datenskizze des Typs &quot;One Permutation Hashing&quot;zu berechnen. Diese neue Methode erzeugt eine geringere Varianz als die Standardschätzung für die Ähnlichkeit mit Jaccard. Die Berichte, die diese Methode verwenden, finden Sie im folgenden Abschnitt.
+Basierend auf der Sampling-Methode [Minhash](https://en.wikipedia.org/wiki/MinHash) verwendet Audience Manager eine neuartige Methode, um Eigenschaften- und Segmentschätzungen auf einer Datenskizze &quot;One Permutation Hashing&quot;zu berechnen. Diese neue Methode erzeugt eine geringere Varianz als der Standardschätzer für die Ähnlichkeit von Jaccard. Im folgenden Abschnitt finden Sie die Berichte, die diese Methode verwenden.
 
 <!--
 
@@ -70,9 +69,9 @@ Some Audience Manager reports use the minhash sampling methodology to compute tr
 
 -->
 
-## Berichte mit Beispieldaten {#reports-using-sampled-data}
+## Berichte mit Stichprobendaten {#reports-using-sampled-data}
 
-Die [!DNL Audience Manager]-Berichte, die statistische Stichprobendaten und die Minhash-Stichprobenmethode verwenden, umfassen:
+Zu den [!DNL Audience Manager]-Berichten, die statistische Stichprobendaten und die Minhash-Stichprobenmethode verwenden, gehören:
 
 <!--
 
@@ -85,8 +84,8 @@ Reports that use Minhash sampling methodology:
 
 -->
 
-| Statistische Stichproben | Minhash-Stichprobenmethode |
+| Statistische Auswahl | Minhash-Sampling-Methode |
 |--- |--- |
-| [Addressable ](../features/addressable-audiences.md) Audiencedata (Daten auf Kunden- und Segmentebene). | [Überschneidungsberichte](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  (Eigenschaften in Eigenschaften, Segmente in Eigenschaften und Segmente in Segmenten) |
+| [Addressable ](../features/addressable-audiences.md) Audiences (Daten auf Kunden- und Segmentebene). | [Überlagerungsberichte](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  (Eigenschaft zu Eigenschaft, Segment zu Eigenschaft und Segment zu Segment) |
 | Die Metrik [Geräte insgesamt](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) für [!UICONTROL Profile Merge Rule]. | [Eigenschaftenempfehlungen](/help/using/features/segments/trait-recommendations.md) |
-| [Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer verwendet Stichprobendaten auf der  [!UICONTROL Search] Registerkarte und beliebige  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer verwendet gesampelte Daten im  [!UICONTROL Search] Tab und beliebige  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
