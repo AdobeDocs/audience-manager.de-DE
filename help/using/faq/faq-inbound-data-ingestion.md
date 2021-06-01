@@ -1,20 +1,19 @@
 ---
 description: Häufig gestellte Fragen zum Einpflegen von Offline-Daten in Audience Manager.
-keywords: ftp oder s3;s3 oder ftp
+keywords: ftp oder s3; s3 oder ftp
 seo-description: Häufig gestellte Fragen zum Einpflegen von Offline-Daten in Audience Manager.
 seo-title: Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten
 solution: Audience Manager
 title: Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding Offline Data
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Onboarding von Offline-Daten
+exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1364'
 ht-degree: 91%
 
 ---
-
 
 # Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten {#inbound-customer-data-ingestion-faq}
 
@@ -59,10 +58,10 @@ Siehe [Dateikomprimierung für eingehende Datenübertragungsdateien](../integrat
 
 **Kann ich eine eingehende Datendatei (eine [!DNL .sync] - oder eine [!DNL .overwrite] -Datei) hochladen, bevor ich [!DNL Audience Manager] Code in der Produktionsumgebung implementiere?**
 
-Ja. Solange Sie zum Speichern der hochgeladenen CRM-Daten ein [!UICONTROL cross-device data source] verwenden, speichert Audience Manager die Daten immer. Nachdem der Audience Manager im Oktober 2019 die Erweiterungen [!UICONTROL Profile Merge Rules] gestartet hat, die ausschließlich Offline-Anwendungsfälle ermöglichen, können Sie Daten hochladen und Aktionen ausführen, ohne den Audience Manager-Code überhaupt in die Produktion einsetzen zu müssen. Siehe:
+Ja. Solange Sie zum Speichern der hochgeladenen CRM-Daten einen [!UICONTROL cross-device data source] verwenden, speichert Audience Manager immer die Daten. Aufgrund der im Oktober 2019 von Audience Manager eingeführten [!UICONTROL Profile Merge Rules]-Verbesserungen, die nur Offline-Anwendungsfälle ermöglichen, können Sie Daten hochladen und bearbeiten, ohne Audience Manager-Code in der Produktionsumgebung bereitzustellen. Siehe:
 
 * [Verbesserungen der Profilzusammenführungsrichtlinien – Überblick](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personalisierung auf Basis von Nur-Offline-Daten](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] -  [Personalisierung basierend auf reinen Offline-Daten](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -204,14 +203,14 @@ Siehe [Dateikomprimierung für eingehende Datenübertragungsdateien](../integrat
 
 Ja, siehe:
 
-* [Dateikomprimierung für eingehende Datenübertragungsdateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+* [Dateikomprimierung für eingehende Datenübertragungsdateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [Anforderungen an Namen der über Amazon S3 eingehenden Datendateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
 **Der Primärschlüssel in meiner Datenquellendatenbank ist eine E-Mail-Adresse. Wird diese als persönlich identifizierbare Information angesehen?**
 
-Ja. [!DNL Audience Manager] speichert keine E-Mail-Adressen in der Datenbank. Besuchern sollte vor dem Initiieren von ID-Synchronisierungen eine zufällig generierte ID oder eine einseitige Hash-Version der E-Mail-Adresse zugewiesen werden.
+Ja. [!DNL Audience Manager] speichert keine E-Mail-Adressen in der Datenbank. Besuchern sollte vor dem Initiieren von ID-Synchronisierungen eine zufällig generierte ID oder eine unidirektionale Hash-Version der E-Mail-Adresse zugewiesen werden.
 
  
 
@@ -227,7 +226,7 @@ Als Best Practice empfehlen wir [!DNL Amazon S3], da der Prozess einfacher ist. 
 
 >[!WARNING]
 >
->Die Unterstützung für FTP-Konfigurationen wird schrittweise eingestellt. Während die Erfassung eingehender Datendateien in bestehenden FTP-Integrationen weiterhin unterstützt wird, empfehlen wir dringend, für neue Integrationen [!DNL Amazon S3] Offline-Daten zu berücksichtigen. Weitere Informationen finden Sie unter [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
+>Die Unterstützung für FTP-Konfigurationen wird schrittweise eingestellt. Während die Erfassung eingehender Datendateien in bestehenden FTP-Integrationen weiterhin unterstützt wird, empfehlen wir dringend, [!DNL Amazon S3] zu verwenden, um Offline-Daten für neue Integrationen zu integrieren. Weitere Informationen finden Sie unter [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
  
 
