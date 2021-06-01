@@ -1,13 +1,12 @@
 ---
-description: Ein Datenfeed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds sind deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Datenfeeds unter Audience Marketplace > Meine freigegebenen Daten ein. Nur für Datenverkäufer verfügbar.
-seo-description: Ein Datenfeed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds sind deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Datenfeeds unter Audience Marketplace > Meine freigegebenen Daten ein. Nur für Datenverkäufer verfügbar.
+description: Ein Daten-Feed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds werden deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Daten-Feeds in Audience Marketplace > Meine freigegebenen Daten ein. Nur für Datenverkäufer verfügbar.
+seo-description: Ein Daten-Feed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds werden deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Daten-Feeds in Audience Marketplace > Meine freigegebenen Daten ein. Nur für Datenverkäufer verfügbar.
 seo-title: Erstellen, Bewerten und Verwalten von Daten-Feeds
 solution: Audience Manager
 title: Erstellen, Bewerten und Verwalten von Daten-Feeds
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
 exl-id: e8605e94-e62a-430c-9aef-875f995fb436
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '1306'
@@ -17,54 +16,54 @@ ht-degree: 2%
 
 # Erstellen, Bewerten und Verwalten von Daten-Feeds {#create-price-and-manage-data-feeds}
 
-## Erstellen eines öffentlichen oder privaten Datenfeeds {#create-public-private-data-feed}
+## Erstellen eines öffentlichen oder privaten Daten-Feeds {#create-public-private-data-feed}
 
-Ein Datenfeed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds sind deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Datenfeeds in **[!UICONTROL Audience Marketplace > My Shared Data]** ein. Nur für Datenverkäufer verfügbar.
+Ein Daten-Feed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Planungstyp. Feeds werden deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Daten-Feeds in **[!UICONTROL Audience Marketplace > My Shared Data]** ein. Nur für Datenverkäufer verfügbar.
 
 <!-- t_data_feed.xml -->
 
-Sie müssen über Administratorrechte verfügen, um einen öffentlichen oder privaten Datenfeed zu erstellen.
-So erstellen Sie einen Datenfeed:
+Sie müssen über Administratorrechte verfügen, um einen öffentlichen oder privaten Daten-Feed zu erstellen.
+So erstellen Sie einen Daten-Feed:
 
 1. Klicken **[!UICONTROL New Data Feed]**.
-1. Benennen Sie den Datenfeed. Datenkäufer können anhand des Namens nach Ihrem Feed suchen.
+1. Benennen Sie den Daten-Feed. Datenkäufer können anhand des Namens nach Ihrem Feed suchen.
 1. Geben Sie eine kurze Beschreibung ein (maximal 255 Zeichen).
 
-   Eine gute Beschreibung sollte Ihren Feed genau beschreiben. Sie können beispielsweise Text für Marketing-Kategorien, demografische Daten und geografische Angaben (z. B. [!DNL US] oder Nordamerika) einschließen. Der Beschreibungstext ist durchsuchbar und hilft Käufern, Ihren Feed zu finden oder zu bewerten. Eine gute Beschreibung ist ein wichtiger Teil, um Abonnenten zu Ihrem Datenfeed zu gewinnen.
-1. Wählen Sie in den Optionen **[!UICONTROL Data Source]** eine Datenquelle aus. Datenfeeds sind auf eine einzige Datenquelle beschränkt. Sie können demselben Datenfeed nicht mehrere Datenquellen zuweisen.
+   Eine gute Beschreibung sollte Ihren Feed genau beschreiben. Sie können beispielsweise Text für Marketing-Kategorien, demografische Daten und die geografische Abdeckung einbeziehen (z. B. [!DNL US] oder Nordamerika). Der Beschreibungstext ist durchsuchbar und hilft Käufern, Ihren Feed zu finden oder zu bewerten. Eine gute Beschreibung ist ein wichtiger Bestandteil der Attraktivität für Abonnenten Ihres Daten-Feeds.
+1. Wählen Sie in den **[!UICONTROL Data Source]** -Optionen eine Datenquelle aus. Daten-Feeds sind auf eine einzige Datenquelle beschränkt. Diesem Daten-Feed können nicht mehrere Datenquellen zugewiesen werden.
 
    >[!IMPORTANT]
    >
-   >Alle aktuellen und zukünftigen Eigenschaften, die zu dieser Datenquelle gehören, werden als Teil dieses Feeds an Ihre Datenkäufer weitergegeben.
+   >Alle aktuellen und zukünftigen Eigenschaften, die zu dieser Datenquelle gehören, werden als Teil dieses Feeds mit Ihren Datenkäufern geteilt.
 
-1. Wählen Sie unter [!UICONTROL Plan Types] die gewünschten Optionen aus und klicken Sie auf **[!UICONTROL Add Plan]**.
+1. Wählen Sie in [!UICONTROL Plan Types] die gewünschten Optionen aus und klicken Sie auf **[!UICONTROL Add Plan]**.
 
-   Feeds können mehrere Pläne enthalten. Pläne können mehrere Anwendungsfälle enthalten. Weitere Informationen finden Sie unter [Planungstypen für Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
+   Feeds können mehrere Pläne enthalten. Pläne können mehrere Anwendungsfälle enthalten. Weitere Informationen finden Sie unter [Plantypen für Daten-Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
-1. Klicken Sie auf **[!UICONTROL Save]**, um den Datenfeed *zu speichern, ohne ihn zu aktivieren.*
-1. So speichern und aktivieren Sie einen Datenfeed:
-   1. Verschieben Sie den Schieberegler **[!UICONTROL Availability]** nach **[!UICONTROL Active]**.
+1. Klicken Sie auf **[!UICONTROL Save]** , um Ihren Daten-Feed *zu speichern, ohne* zu aktivieren.
+1. So speichern und aktivieren Sie einen Daten-Feed:
+   1. Verschieben Sie den Regler **[!UICONTROL Availability]** auf **[!UICONTROL Active]**.
    1. Klicken **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
-   >* Gespeicherte und aktivierte Datenfeeds können nicht gelöscht werden.
+   >* Gespeicherte und aktivierte Daten-Feeds können nicht gelöscht werden.
    >* Käufer sehen nur aktive Feeds.
 
 
-### Optional: Erstellen eines privaten Datenfeeds
+### Optional: Erstellen eines privaten Daten-Feeds
 
-Verschieben Sie im Abschnitt [!UICONTROL Settings] den Schieberegler zu:
+Verschieben Sie im Abschnitt [!UICONTROL Settings] den Regler zu:
 
-* **[!UICONTROL Private]** und  **[!UICONTROL Branded]**: Die  [!UICONTROL Marketplace] Liste des Käufers zeigt den Namen des Verkäufers in der Spalte &quot;Anbieter&quot;an und alle anderen Daten werden ausgeblendet.
+* **[!UICONTROL Private]** und  **[!UICONTROL Branded]**: Die  [!UICONTROL Marketplace] Liste des Käufers zeigt den Namen des Verkäufers in der Spalte &quot;Anbieter&quot;an und alle anderen Daten sind ausgeblendet.
 
-* **[!UICONTROL Private]** und  **[!UICONTROL Unbranded]**: Die  [!UICONTROL Marketplace] Liste des Käufers enthält nur den Datenfeed-Namen und die Beschreibung. Der Name des Datenanbieters wird als [!UICONTROL Private Seller] angezeigt.
+* **[!UICONTROL Private]** und  **[!UICONTROL Unbranded]**: Die  [!UICONTROL Marketplace] Liste des Käufers enthält nur den Daten-Feed-Namen und die Beschreibung. Der Name des Datenanbieters wird als [!UICONTROL Private Seller] angezeigt.
 
-Informationen zum Aussehen eines privaten Feeds für Käufer finden Sie im Abschnitt &quot;Käufer&quot;unter [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
+Informationen dazu, wie private Feeds für Käufer aussehen, finden Sie im Abschnitt &quot;Käufer&quot;unter [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
 
 ## Deaktivieren des Daten-Feeds eines Abonnenten {#deactivate-data-feed}
 
-Als [!UICONTROL Audience Marketplace]-Datenanbieter können Sie den Käuferzugriff auf einen abonnierten Datenfeed sperren. Sie können einen Käufer aus einem Feed entfernen, z. B. aus Gründen wie Zahlungsverzug/Nichtbezahlung von Gebühren oder wenn er die Eigenschaftsdaten falsch verwendet.
+Als [!UICONTROL Audience Marketplace]-Datenanbieter können Sie den Käuferzugriff auf einen abonnierten Daten-Feed widerrufen. Sie können einen Käufer aus einem Feed entfernen, wenn er z. B. verspätete Zahlung/Nichtbezahlung von Gebühren oder unsachgemäße Verwendung von Eigenschaftsdaten erfolgt.
 
 <!-- marketplace-deactiva4te-subscribers.xml -->
 
@@ -74,67 +73,67 @@ So widerrufen Sie einen Abonnenten:
 
    >[!NOTE]
    >
-   >Datenfeeds mit überfälligen Konten werden mit einem Dreieck-/Ausrufezeichensymbol gekennzeichnet.
+   >Daten-Feeds mit überfälligen Konten werden mit einem Dreieck-/Ausrufezeichen-Symbol gekennzeichnet.
 
-1. Klicken Sie in der Spalte [!UICONTROL Subscribers] auf die blaue Zahl, die Abonnenten für diesen Feed zählt. Dadurch wird die Seite mit den Details zum Abonnement geöffnet.
-1. Verschieben Sie den Schieberegler **[!UICONTROL Subscription]** nach **[!UICONTROL Off]**. Dadurch wird ein Bestätigungsdialogfeld geöffnet.
-1. Klicken Sie im Pop [!UICONTROL Confirmation] auf **[!UICONTROL Yes]**, um ein Abonnement zu deaktivieren, oder **[!UICONTROL Cancel]**, um es zu beenden, ohne Abonnement-Änderungen vorzunehmen.
+1. Klicken Sie in der Spalte [!UICONTROL Subscribers] auf die blaue Zahl, die Abonnenten für diesen Feed zählt. Dadurch wird die Seite mit den Abonnementdetails geöffnet.
+1. Verschieben Sie den Regler **[!UICONTROL Subscription]** auf **[!UICONTROL Off]**. Dadurch wird ein Bestätigungsdialogfenster geöffnet.
+1. Klicken Sie im Pop-up [!UICONTROL Confirmation] auf **[!UICONTROL Yes]** , um ein Abonnement zu deaktivieren, oder auf **[!UICONTROL Cancel]** , um es zu beenden, ohne Abonnementänderungen vorzunehmen.
 
-### Was passiert, nachdem Sie einen Abonnenten deaktiviert haben
+### Was passiert, nachdem Sie einen Abonnenten deaktiviert haben?
 
-Beim Widerrufen des Zugriffs auf einen Datenfeed wird eine Benachrichtigungs-E-Mail an alle Administratorbenutzer im Konto des Datenkäufers gesendet. Die E-Mail enthält einen Anhang, in dem Listen Eigenschaften widerrufen haben. Diese Liste hilft Abonnenten, deaktivierte Eigenschaften aus ihren Segmenten und Modellen zu finden und zu entfernen.
+Wenn Sie den Zugriff auf einen Daten-Feed sperren, wird eine Benachrichtigungs-E-Mail an alle Administratorbenutzer im Konto des Datenkäufers gesendet. Die E-Mail enthält einen Anhang, in dem gesperrte Eigenschaften aufgelistet werden. Diese Liste hilft Abonnenten dabei, deaktivierte Eigenschaften aus ihren Segmenten und Modellen zu finden und zu entfernen.
 
-### Deaktivierung der Rechnungsstellung und des Feeds
+### Abrechnung und Feed-Deaktivierung
 
-Nachdem Sie den Zugriff auf einen Datenfeed entfernt haben, sind die Abonnenten für Gebühren für den vorherigen oder aktuellen Monat verantwortlich, je nachdem, wann Sie den Feed deaktiviert haben.
+Nachdem Sie den Zugriff auf einen Daten-Feed entfernt haben, sind die Abonnenten für die Gebühren für den vorherigen oder aktuellen Monat verantwortlich, je nachdem, wann Sie den Feed deaktiviert haben.
 
-## Planungstypen für Datenfeeds {#plan-types}
+## Planungstypen für Daten-Feeds {#plan-types}
 
-[!DNL Plan types] sind wesentliche Komponenten in einem  [!UICONTROL Audience Marketplace] Datenfeed. Als Datenanbieter können Sie damit mehrere Nutzungsszenarien und Preisoptionen für Ihre Feeds erstellen. Darüber hinaus kann es eine gute Strategie sein, für jeden Datenfeed einige Pläne zu erstellen. Auf diese Weise können Käufer verschiedene Optionen auswählen, von denen sie nach Daten suchen, die sie an ein Modell senden oder an ein Ziel senden möchten.
+[!DNL Plan types] sind wichtige Komponenten in einem  [!UICONTROL Audience Marketplace] Daten-Feed. Als Datenanbieter können Sie damit mehrere Anwendungsfälle und Preisoptionen für Ihre Feeds erstellen. Darüber hinaus kann es eine gute Strategie sein, für jeden Daten-Feed einige Pläne zu erstellen. Dadurch erhalten Käufer verschiedene Optionen, unter denen sie nach Daten suchen, die sie modellieren oder an ein Ziel senden können.
 
 [Erstellen Sie einen ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) Datenfeed zur Auswahl  [!UICONTROL Plan Types].
 
 ![](assets/plan_types.png)
 
-## Planungstypen und Verwendungsfalloptionen {#plan-types-use-cases}
+## Planungstypen und Anwendungsfalloptionen {#plan-types-use-cases}
 
 <!-- c_feed_options.xml -->
 
-Mit den [!UICONTROL Use Case]-Einstellungen können Verkäufer steuern, wie Käufer Ihre Daten verwenden können.
+Mit den [!UICONTROL Use Case] -Einstellungen können Verkäufer steuern, wie Käufer Ihre Daten verwenden können.
 
-### Segmente und Überschneidungen
+### Segmente und Überlagerungen
 
-Ein **[!UICONTROL Segments and Overlap]**-Anwendungsfall erstellt einen Plan, mit dem Käufer Eigenschaftendaten in einem [Bericht mit Eigenschaften-zu-Eigenschaften-Überschneidung](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) vergleichen können. Darüber hinaus können Käufer Ihre Daten zu Segmenten hinzufügen und Vergleiche mit den Berichten [segment-to-property](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen.
+Ein **[!UICONTROL Segments and Overlap]**-Anwendungsfall erstellt einen Plan, der es Käufern ermöglicht, Eigenschaftsdaten in einem [Bericht zur Eigenschaftenüberschneidung](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) zu vergleichen. Darüber hinaus können Käufer Ihre Daten zu Segmenten hinzufügen und Vergleiche mit den Berichten [Segment-zu-Merkmal](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) anstellen.
 
-Jeder Datenfeed muss mindestens einen [!UICONTROL Segments and Overlap]-Verwendungsfall enthalten. Käufer können keine anderen Pläne in einem Data Feed abonnieren, wenn der Feed keinen [!UICONTROL Segments and Overlap]-Verwendungsfall enthält, weder von sich aus noch in Kombination mit einem anderen Anwendungsfall.
+Jeder Daten-Feed muss mindestens einen [!UICONTROL Segments and Overlap] Anwendungsfall enthalten. Käufer können keine anderen Pläne in einem Daten-Feed abonnieren, wenn der Feed keinen [!UICONTROL Segments and Overlap]-Anwendungsfall enthält, weder als solche noch in Kombination mit einem anderen Anwendungsfall.
 
-Überschneidungen können Käufern helfen:
+Überschneidungen können Käufern helfen,
 
-* **Reichweite der Audience erweitern:** Geringe Überschneidungen deuten darauf hin, dass Ihre Eigenschaften Benutzer enthalten, die der Käufer noch nicht gesehen hat. Infolgedessen möchten Käufer möglicherweise, dass diese Eigenschaften ihren Audiencen neue Benutzer hinzufügen.
-* **Bestehende Audiencen verbessern:** Hohe Überschneidungen deuten darauf hin, dass Ihre Eigenschaften Benutzer enthalten, die denen ähneln, über die ein Käufer bereits Bescheid weiß. Infolgedessen möchten die Käufer möglicherweise, dass diese Eigenschaften dazu beitragen, gezielte, inkrementelle Verbesserungen an entwickelten Audiencen vorzunehmen.
+* **Reichweite der Zielgruppe erweitern:**  Geringe Überschneidungen deuten darauf hin, dass Ihre Eigenschaften Benutzer enthalten, die der Käufer noch nicht gesehen hat. Daher möchten Käufer möglicherweise, dass diese Eigenschaften ihren Zielgruppensegmenten neue Benutzer hinzufügen.
+* **Vorhandene Zielgruppen verbessern:**  Eine hohe Überschneidung deutet darauf hin, dass Ihre Eigenschaften Benutzer enthalten, die denen ähneln, von denen ein Käufer bereits weiß. Daher möchten Käufer möglicherweise, dass diese Eigenschaften dazu beitragen, gezielte, inkrementelle Verbesserungen an entwickelten Zielgruppen vorzunehmen.
 
-Geben Sie diesen Verwendungsfall wie folgt an:
+Geben Sie diesen Anwendungsfall wie folgt an:
 
 * Maßeinheit: Pauschalgebühr
 * Preis: Kostenlos ($0.00)
 
 ### Modellierung
 
-Ein **[!UICONTROL Modeling]**-Anwendungsfall erstellt einen Plan, mit dem Käufer Ihre Eigenschaften mit [algorithmischer Modellierung](../../../features/algorithmic-models/understanding-models.md#understanding-models) vergleichen können. Die Käufer sehen sich die Modellergebnisse an, um neue Audiencen in Ihren Daten zu finden, die ähnliche Konversionsattribute wie ihre eigenen verwenden. Geben Sie diesen Verwendungsfall wie folgt an:
+Ein **[!UICONTROL Modeling]**-Anwendungsfall erstellt einen Plan, mit dem Käufer Ihre Eigenschaften mit [algorithmischer Modellierung](../../../features/algorithmic-models/understanding-models.md#understanding-models) vergleichen können. Käufer betrachten die Modellergebnisse, um neue Zielgruppen in Ihren Daten zu finden, die ähnliche Konversionsattribute wie ihre eigenen aufweisen. Geben Sie diesen Anwendungsfall wie folgt an:
 
 * Maßeinheit: Pauschalgebühr
-* Preis: Preisnachlass oder Marktpreis
+* Preis: Abzinsungssatz oder Marktpreis
 
 ### Activation
 
-Mit einem **[!UICONTROL Activation]**-Anwendungsfall können Käufer Daten an ein [Ziel](../../../features/destinations/destinations.md) senden. Bei diesem Anwendungsfall können Käufer keine Daten mit einem Überschneidungsbericht oder einem algorithmischen Modell vergleichen. Geben Sie diesen Verwendungsfall wie folgt an:
+Mit einem **[!UICONTROL Activation]**-Anwendungsfall können Käufer Daten an ein [Ziel](../../../features/destinations/destinations.md) senden. Bei diesem Anwendungsfall können Käufer keine Daten mit einem Überschneidungsbericht oder einem algorithmischen Modell vergleichen. Geben Sie diesen Anwendungsfall wie folgt an:
 
 * Maßeinheit: [!DNL CPM]
-* Preis: [!DNL CPM] Marktkurs
+* Preis: [!DNL CPM] Marktzinssatz
 
-## Rechnungsstellungs- und Preisoptionen {#billing}
+## Abrechnungs- und Preisoptionen {#billing}
 
-Die Abrechnungs- und Preisoptionen bestimmen, wie die Käufer Ihre Daten bezahlen.
+Die Abrechnungs- und Preisoptionen steuern, wie Käufer Ihre Daten bezahlen.
 
 <table id="table_CCEAAF24295942EA82F20753827D1A23"> 
  <thead> 
@@ -146,49 +145,49 @@ Die Abrechnungs- und Preisoptionen bestimmen, wie die Käufer Ihre Daten bezahle
  <tbody> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Abrechnungszyklus</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> Monatlich in </span></b> Arrest die einzige Option. Der Abrechnungszyklus endet am 10. Tag jedes Monats. </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Die einzige Option ist die monatliche </span></b> Zahlungsrückstände. Der Abrechnungszyklus endet am 10. Tag jedes Monats. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Maßeinheit</span></b> </td> 
-   <td colname="col2">Gebühren für den Datenkäufer auf CPM- oder Pauschalpreis. 
+   <td colname="col2">Laden Sie die Datenkäufer auf einen CPM-Tarif oder eine Pauschalgebühr. 
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
      <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> Bei CPM-Preisen müssen Datenkäufer die Nutzung selbst melden. </li> 
-     <li id="li_DFED3194854A492F9DD0E7BA1A655E96">Bei einem pauschalen Gebührenpreis melden Datenkäufer die Nutzung nicht, weil sie einen festen Tarif berechnen. </li> 
+     <li id="li_DFED3194854A492F9DD0E7BA1A655E96">Bei pauschalen Gebühren melden Datenkäufer die Nutzung nicht, da ihnen ein Festpreis berechnet wird. </li> 
     </ul> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Preis</span></b> </td>
-   <td colname="col2"> Der Betrag, den ein Verkäufer dem Käufer als CPM- oder Pauschalpreis in Dollar berechnet. </td>
+   <td colname="col2"> Der Betrag, den ein Verkäufer dem Käufer als CPM-Satz oder Pauschalpreis in Dollar berechnet. </td>
   </tr> 
  </tbody> 
 </table>
 
 ## Planungshinweise {#plan-notes}
 
-Nehmen Sie sich im Feld **[!UICONTROL Additional Notes]** einige Zeit in Anspruch, um jeden Datenplan in einem Feed zu beschreiben. Eine gute, kurze Beschreibung hilft Käufern, den Inhalt oder Zweck jedes Plans in einem Datenfeed zu verstehen. Käufer können Datenfeed und Planungsbeschreibungen lesen, während sie nach neuen Datenquellen suchen oder diese bewerten.
+Nehmen Sie im Feld **[!UICONTROL Additional Notes]** einige Zeit in Anspruch, um jeden Datenplan in einem Feed zu beschreiben. Eine gute, kurze Beschreibung hilft Käufern, den Inhalt oder Zweck jedes Plans in einem Daten-Feed zu verstehen. Käufer können beim Suchen oder Auswerten neuer Datenquellen Datenfeed lesen und Beschreibungen planen.
 
-## Verwalten von privaten Datenfeed-Anfragen {#manage-private-requests}
+## Verwalten von privaten Daten-Feed-Anforderungen {#manage-private-requests}
 
-Anbieter Workflows für die Verwaltung von privaten Feed-Anfragen von Käufern.
+Anbieter-Workflows zum Verwalten von privaten Feed-Anforderungen von Käufern.
 
-Gehen Sie zu [!UICONTROL My Shared Data], um Käuferanforderungen zu überprüfen, zu genehmigen oder abzulehnen und:
+Gehen Sie zu [!UICONTROL My Shared Data], um Käuferanfragen zu überprüfen, zu genehmigen oder abzulehnen und:
 
 <!-- t_private_feed_workflows.xml -->
 
-1. Klicken Sie auf den Namen des privaten Datenfeeds.
-2. Klicken Sie auf **[!UICONTROL Access Requests]**, um alle Käufer zu überprüfen, die Zugriff auf Ihren Datenfeed haben möchten.
-3. Klicken Sie im Abschnitt [!UICONTROL Allow Access] jedes Anforderungsfelds auf das Häkchen, um eine Anforderung zu genehmigen, oder auf das X, um den Zugriff zu verweigern.
-4. Bestätigen oder brechen Sie die ausgewählte Aktion im Bestätigungs-Popup ab.
+1. Klicken Sie auf den Namen des privaten Daten-Feeds.
+2. Klicken Sie auf **[!UICONTROL Access Requests]** , um alle Käufer zu überprüfen, die Zugriff auf Ihren Daten-Feed wünschen.
+3. Klicken Sie im Abschnitt [!UICONTROL Allow Access] jedes Anfragefelds auf das Häkchen, um eine Anforderung zu genehmigen, oder auf das X, um den Zugriff zu verweigern.
+4. Bestätigen oder brechen Sie die im Bestätigungs-Popup ausgewählte Aktion ab.
 
 ## Rabatte für Datenanbieter {#discounts}
 
-Unter [!UICONTROL Audience Marketplace] können Sie mit Rabatten den veröffentlichten Preis eines Datenfeeds für einzelne Abonnenten reduzieren. Sie können Rabatte für Abonnenten, die eine Anfrage zum Abonnement eingereicht haben, oder für Abonnenten, die Informationen zu einem Datenfeed angefordert haben, gewähren. Rabatte gelten für [!DNL CPM]- und pauschale Feeds. Rabatte können hilfreich sein, wenn Sie Abonnement-Anreize für Neukunden schaffen oder Kundenloyalität belohnen möchten.
+Mit Rabatten in [!UICONTROL Audience Marketplace] können Sie den veröffentlichten Preis eines Daten-Feeds für einzelne Abonnenten reduzieren. Sie können Abonnenten, die eine Abonnementanforderung gesendet haben, oder Abonnenten, die Details zu einem Daten-Feed angefordert haben, Rabatte anbieten. Rabatte gelten für [!DNL CPM] und pauschale Feeds. Rabatte können hilfreich sein, wenn Sie Abonnementanreize für neue Kunden bereitstellen oder die Kundentreue belohnen möchten.
 
-## Rabatte auf einen Datenfeed {#apply-discounts} anwenden
+## Rabatte auf einen Daten-Feed anwenden {#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
-Um einen Feed zu diskontieren, fügen Sie dem Feld für den Rabatt einen Rabatt in Prozent hinzu und bestätigen Sie Ihre Änderungen. Datenanbieter können Datenfeeds in [!UICONTROL Audience Marketplace] von einem der folgenden Vorteile abziehen:
+Um einen Feed zu diskontieren, fügen Sie dem Rabattfeld einen Rabattbetrag in % hinzu und bestätigen Sie Ihre Änderungen. Datenanbieter können einen Rabatt für Daten-Feeds in [!UICONTROL Audience Marketplace] gewähren, indem sie entweder:
 
 * **[!UICONTROL My Shared Data > Potential Subscribers]**
 * **[!UICONTROL My Shared Data > Details Requests]**
@@ -199,9 +198,9 @@ In diesen Beispielen hat der Verkäufer dem Datenfeed [!UICONTROL Software Audie
 
 ![](assets/detail_requests.png)
 
-## Überprüfen Sie die diskontierten Feeds {#review-discounted-feeds}
+## Überprüfen Sie die vergünstigten Feeds {#review-discounted-feeds}
 
-Datenanbieter können alle ihre Abonnenten und diskontierten Feeds in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]** anzeigen.
+Datenanbieter können alle ihre Abonnenten und diskontierten Feeds in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]** sehen.
 
 ![](assets/subscribers.png)
 
