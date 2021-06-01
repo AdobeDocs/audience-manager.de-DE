@@ -1,21 +1,20 @@
 ---
-description: Suchen Sie nach benutzten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu "Audience-Daten"> "Signale"> "Suche".
-seo-description: Suchen Sie nach benutzten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu "Audience-Daten"> "Signale"> "Suche".
+description: Suche nach verwendeten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu Zielgruppendaten > Signale > Suche.
+seo-description: Suche nach verwendeten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu Zielgruppendaten > Signale > Suche.
 seo-title: 'Signalsuche '
 title: 'Signalsuche '
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: 'Data Explorer '
+exl-id: 4cc363eb-9102-4c48-8cd5-efc52ee1c2fd
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 29%
+source-wordcount: '95'
+ht-degree: 30%
 
 ---
 
-
 # Signalsuche – Überblick {#signals-search}
 
-Suchen Sie nach benutzten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu &quot;Audience-Daten&quot;> &quot;Signale&quot;> &quot;Suche&quot;.
+Suche nach verwendeten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu Zielgruppendaten > Signale > Suche.
 
 * [Suchsignale nach Schlüssel-Wert-Paaren](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
 * [Suchsignale nach Filtern](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
