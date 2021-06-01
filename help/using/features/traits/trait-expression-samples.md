@@ -1,41 +1,40 @@
 ---
-description: Beispiele für das Erstellen von Ausdrücken im Ausdruck Builder-Codeeditor.
-seo-description: Beispiele für das Erstellen von Ausdrücken im Ausdruck Builder-Codeeditor.
+description: Beispiele für die Erstellung von Ausdrücken im Code-Editor von Expression Builder.
+seo-description: Beispiele für die Erstellung von Ausdrücken im Code-Editor von Expression Builder.
 seo-title: Beispielausdrücke mit Booleschen und Vergleichsoperatoren
 solution: Audience Manager
 title: Beispielausdrücke mit Booleschen und Vergleichsoperatoren
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Eigenschaften '
+exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 12%
+source-wordcount: '212'
+ht-degree: 13%
 
 ---
 
-
 # Beispielausdrücke mit Booleschen und Vergleichsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
 
-Beispiele für das Erstellen von Ausdrücken im Code-Editor [!UICONTROL Expression Builder].
+Beispiele für die Erstellung von Ausdrücken im Code-Editor [!UICONTROL Expression Builder].
 
-## Übersicht über Codebeispiele {#code-samples-overview}
+## Codebeispiele - Überblick {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Erstellen Sie mit dem Code-Editor [!UICONTROL Expression Builder] eigene Eigenschaftsregeln. Die folgenden Beispiele helfen Ihnen beim Einstieg. Einige der Beispiele stellen der Variablen *`key`* `c_` den Vorwand, um sie als benutzerdefinierte Variable zu identifizieren. Schließen Sie das Präfix `c_` (oder eine andere Benennungsregel) für *`key`* ein, wenn Ihre Ereignis-Aufrufe Daten mit dieser Syntax an [!DNL Audience Manager] senden.
+Erstellen Sie Ihre eigenen Eigenschaftsregeln mit dem Code-Editor [!UICONTROL Expression Builder] . Die folgenden Beispiele helfen Ihnen bei den ersten Schritten. Einige der Beispiele stellen der Variablen *`key`* `c_` ein, um sie als benutzerdefinierte Variable zu identifizieren. Fügen Sie das Präfix `c_` (oder eine andere Benennungskonvention) für die Variable *`key`* ein, wenn Ihre Ereignisaufrufe Daten mithilfe dieser Syntax an [!DNL Audience Manager] senden.
 
-## Boolesche Ausdruck {#boolean-expressions}
+## Boolesche Ausdrücke {#boolean-expressions}
 
-### UND Beispiel
+### UND-Beispiel
 
-Die Regel stellt Anforderungen an die Eigenschaftsqualifikation mithilfe der booleschen Operatoren [!UICONTROL AND] ein.
+Die Regel stellt Anforderungen an die Eigenschaftsqualifizierung mithilfe der booleschen [!UICONTROL AND] -Operatoren fest.
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Beispielcode </th> 
-   <th colname="col2" class="entry"> Um die Voraussetzungen zu erfüllen, muss ein Besucher </th> 
+   <th colname="col2" class="entry"> Zur Qualifizierung muss ein Besucher </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -52,13 +51,13 @@ Die Regel stellt Anforderungen an die Eigenschaftsqualifikation mithilfe der boo
 
 ### ODER-Beispiel
 
-Diese Regel legt Anforderungen an die Eigenschaftsqualifikation mit den Operatoren [!DNL Boolean] [!UICONTROL OR] und [!UICONTROL AND] fest.
+Diese Regel stellt Anforderungen an die Eigenschaftsqualifizierung mit den Operatoren [!DNL Boolean] [!UICONTROL OR] und [!UICONTROL AND] fest.
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Beispielcode </th> 
-   <th colname="col2" class="entry"> Um die Voraussetzungen zu erfüllen, muss ein Besucher </th> 
+   <th colname="col2" class="entry"> Zur Qualifizierung muss ein Besucher </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -71,19 +70,19 @@ Diese Regel legt Anforderungen an die Eigenschaftsqualifikation mit den Operator
 
 ## Bereichsbeispiel mit Größer als, Kleiner als, gleich
 
-Diese Regel legt Anforderungen an die Eigenschaftsqualifikation anhand eines Bereichs fest.
+Diese Regel legt die Anforderungen an die Eigenschaftsqualifikation mithilfe eines Bereichs fest.
 
 <table id="table_988DE28E35D94348ADD334FB4C9F68D3"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Beispielcode </th> 
-   <th colname="col2" class="entry"> Um die Voraussetzungen zu erfüllen, muss ein Besucher </th> 
+   <th colname="col2" class="entry"> Zur Qualifizierung muss ein Besucher </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"><code>(price &gt;= 1.00 AND price &lt;= 100.00)</code> </td> 
-   <td colname="col2"> Erfüllen Sie alle Preisbedingungen zwischen 1.00 und 10.00 Uhr. </td> 
+   <td colname="col2"> Erfüllen Sie alle Preisbedingungen zwischen 1,00 und 100,00. </td> 
   </tr> 
  </tbody> 
 </table>
