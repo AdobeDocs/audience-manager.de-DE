@@ -1,29 +1,28 @@
 ---
-description: Verwenden Sie den Besucher-Profil-Viewer, um den aktuellen Status eines Profils für den aktuellen Browser einschließlich seiner Eigenschaften und Segmente anzuzeigen. Für jede Eigenschaft können Sie die SID, den Namen, Details zur Realisierung der Besucher-Eigenschaften (Erstanbieter- oder Drittanbieter-Eigenschaften), das Realisierungsdatum und die Häufigkeit der Realisierungen Ansicht haben. Für jedes Segment können Sie die SID, den Namen und das Mitgliedsdatum des Segments Ansicht haben. Sie können das Besucher-Profil auch für eine andere Audience Manager-Profil-ID (UUID) Ansicht haben. Der Besucher Profil Viewer ist hilfreich bei der Fehlerbehebung.
+description: Verwenden Sie den Visitor Profile Viewer, um den aktuellen Status eines Benutzerprofils für den aktuellen Browser anzuzeigen, einschließlich seiner Eigenschaften und Segmente. Für jede Eigenschaft können Sie ihre SID, ihren Namen, Details zur Implementierung von Besuchereigenschaften (Erst- oder Drittanbieter), das Implementierungsdatum und die Häufigkeit der Realisierungen anzeigen. Sie können für jedes Segment die SID, den Namen und das Mitgliedsdatum des Segments anzeigen. Sie können auch das Besucherprofil für eine andere Audience Manager-Profil-ID (UUID) anzeigen. Der Besucherprofil-Betrachter ist hilfreich bei der Fehlerbehebung.
 keywords: location;location-Parameter
-seo-description: Verwenden Sie den Besucher-Profil-Viewer, um den aktuellen Status eines Profils für den aktuellen Browser einschließlich seiner Eigenschaften und Segmente anzuzeigen. Für jede Eigenschaft können Sie die SID, den Namen, Details zur Realisierung der Besucher-Eigenschaften (Erstanbieter- oder Drittanbieter-Eigenschaften), das Realisierungsdatum und die Häufigkeit der Realisierungen Ansicht haben. Für jedes Segment können Sie die SID, den Namen und das Mitgliedsdatum des Segments Ansicht haben. Sie können das Besucher-Profil auch für eine andere Audience Manager-Profil-ID (UUID) Ansicht haben. Der Besucher Profil Viewer ist hilfreich bei der Fehlerbehebung.
+seo-description: Verwenden Sie den Visitor Profile Viewer, um den aktuellen Status eines Benutzerprofils für den aktuellen Browser anzuzeigen, einschließlich seiner Eigenschaften und Segmente. Für jede Eigenschaft können Sie ihre SID, ihren Namen, Details zur Implementierung von Besuchereigenschaften (Erst- oder Drittanbieter), das Implementierungsdatum und die Häufigkeit der Realisierungen anzeigen. Sie können für jedes Segment die SID, den Namen und das Mitgliedsdatum des Segments anzeigen. Sie können auch das Besucherprofil für eine andere Audience Manager-Profil-ID (UUID) anzeigen. Der Besucherprofil-Betrachter ist hilfreich bei der Fehlerbehebung.
 seo-title: Visitor Profile Viewer
 solution: Audience Manager
-title: Besucher Profil Viewer
+title: Besucherprofil-Betrachter
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Eigenschaften '
+exl-id: 6c1ee14c-6f78-4e45-9b88-24ace8400079
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 2%
+source-wordcount: '340'
+ht-degree: 3%
 
 ---
 
-
 # Visitor Profile Viewer {#visitor-profile-viewer}
 
-Verwenden Sie das [!UICONTROL Visitor Profile Viewer], um den aktuellen Status eines Profils für den aktuellen Browser einschließlich seiner Eigenschaften und Segmente anzuzeigen. Für jede Eigenschaft können Sie den zugehörigen [!UICONTROL SID]-Namen, Details darüber, wie Besucher-Eigenschaften realisiert wurden (Erstanbieter- oder Drittanbieter), das Realisierungsdatum und die Häufigkeit der Realisierungen Ansicht geben. Für jedes Segment können Sie die Werte [!UICONTROL SID], name und das Mitgliedsdatum des Segments Ansicht haben. Sie können das Besucher-Profil auch für eine andere Audience Manager-Profil-ID ([!UICONTROL UUID]) Ansicht haben. Das [!UICONTROL Visitor Profile Viewer] ist für die Fehlerbehebung hilfreich.
+Verwenden Sie [!UICONTROL Visitor Profile Viewer], um den aktuellen Status eines Benutzerprofils für den aktuellen Browser anzuzeigen, einschließlich seiner Eigenschaften und Segmente. Sie können für jede Eigenschaft [!UICONTROL SID], den Namen, Details zur Implementierung von Besuchereigenschaften (Erst- oder Drittanbieter), das Implementierungsdatum und die Häufigkeit der Realisierungen anzeigen. Sie können für jedes Segment sein [!UICONTROL SID], seinen Namen und das Mitgliedsdatum des Segments anzeigen. Sie können auch das Besucherprofil für eine andere Audience Manager-Profil-ID ([!UICONTROL UUID]) anzeigen. [!UICONTROL Visitor Profile Viewer] ist hilfreich bei der Fehlerbehebung.
 
 >[!NOTE]
 >
->* Für den Zugriff sind [!UICONTROL Administrator]-Berechtigungen erforderlich.
->* Es gibt eine Verzögerung von 24 Stunden, bevor Informationen zu realisierten Segmenten und integrierten Eigenschaften in der Benutzeroberfläche angezeigt werden.
+>* Für den Zugriff sind [!UICONTROL Administrator] -Berechtigungen erforderlich.
+>* Es dauert 24 Stunden, bis Informationen zu realisierten Segmenten und integrierten Eigenschaften in der Benutzeroberfläche angezeigt werden.
 
 
 <!-- 
@@ -33,7 +32,7 @@ Traits that are not part of a segment will not appear in the
 
 1. Klicken **[!UICONTROL Tools]** > **[!UICONTROL Visitor Profile Viewer]**.
 
-1. *(Optional)* Klicken Sie auf den Eigenschaftsnamen, um diese Eigenschaft im  [!UICONTROL Trait Builder]Abschnitt anzuzeigen.
+1. *(Optional)* Klicken Sie auf den Eigenschaftsnamen, um diese Eigenschaft in der  [!UICONTROL Trait Builder]anzuzeigen.
 
    Weitere Informationen finden Sie unter [Eigenschaften](../features/traits/trait-details-page.md).
 
@@ -41,4 +40,4 @@ Traits that are not part of a segment will not appear in the
 
    Weitere Informationen finden Sie unter [Segmente](../features/segments/segments-purpose.md).
 
-1. *(Bedingt)* Geben Sie  **[!UICONTROL UUID]** im  **[!UICONTROL Refresh]** Feld eine andere Audience Manager-Profil-ID ein und klicken Sie dann auf ,um die Eigenschaften und Segmente für diesen Benutzer Ansicht.
+1. *(Bedingt)* Geben Sie im  **[!UICONTROL UUID]** Feld eine weitere Audience Manager-Profil-ID an und klicken Sie dann auf ,  **[!UICONTROL Refresh]** um die Eigenschaften und Segmente für diesen Benutzer anzuzeigen.
