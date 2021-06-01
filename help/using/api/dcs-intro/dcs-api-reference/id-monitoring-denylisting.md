@@ -1,55 +1,54 @@
 ---
-description: Der DCS überwacht die IDs, die er erhält, und fügt die IDs, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden, einer Blockierungsliste hinzu.
-keywords: id;Monitoring;dcs
-seo-description: Der DCS überwacht die IDs, die er erhält, und fügt die IDs, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden, einer Blockierungsliste hinzu.
+description: Der DES überwacht die IDs, die er erhält, und fügt die IDs, die in einer ungewöhnlich hohen Senderate über einen kurzen Zeitraum gesendet werden, zu einer Blockierungsliste hinzu.
+keywords: id;monitoring;dcs
+seo-description: Der DES überwacht die IDs, die er erhält, und fügt die IDs, die in einer ungewöhnlich hohen Senderate über einen kurzen Zeitraum gesendet werden, zu einer Blockierungsliste hinzu.
 seo-title: ID-Überwachung und Blockierungsauflistung
 solution: Audience Manager
 title: ID-Überwachung und Blockierungsauflistung
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
-
 # ID-Überwachung und Blockierungsauflistung
 
-Das [!DNL DCS] überwacht die IDs, die es erhält, und fügt die IDs, die über einen kurzen Zeitraum ungewöhnlich hoch gesendet werden, einer Blockierungsliste hinzu.
+Der [!DNL DCS] überwacht die IDs, die er empfängt, und fügt die IDs, die in einer ungewöhnlich hohen Senderate über einen kurzen Zeitraum gesendet werden, zu einer Blockierungsliste hinzu.
 
 ## Überblick
 
-Zum Schutz der Audience Manager-Infrastruktur vor böswilliger Aktivität verwendet das [!DNL DCS] einen erweiterten Algorithmus, um die erhaltenen IDs zu überwachen. Dazu können [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s) oder [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s) gehören. Ausführliche Erläuterungen zu den von Audience Manager unterstützten IDs finden Sie unter [IDs in Audience Manager](../../../reference/ids-in-aam.md).
+Zum Schutz der Audience Manager-Infrastruktur vor schädlichen Aktivitäten verwendet das [!DNL DCS] einen erweiterten Algorithmus, um die IDs zu überwachen, die es empfängt. Dabei kann es sich um [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s) oder [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s) handeln. Detaillierte Erläuterungen der vom Audience Manager unterstützten IDs finden Sie unter [Index der IDs in Audience Manager](../../../reference/ids-in-aam.md).
 
-Das [!DNL DCS] überwacht die Häufigkeit, mit der es diese IDs erhält, um potenzielle bösartige Aktivitäten zu erkennen. Wenn [!DNL DCS] eine ungewöhnlich große Anzahl von [!DNL DCS]-Anforderungen für eine bestimmte ID in kurzer Zeit erkennt, wird diese ID einer Blockierungsliste hinzugefügt.
+Der [!DNL DCS] überwacht die Häufigkeit, mit der diese IDs empfangen werden, um potenzielle schädliche Aktivitäten zu erkennen. Wenn [!DNL DCS] in kurzer Zeit ungewöhnlich viele [!DNL DCS] -Anfragen für eine bestimmte ID erkennt, wird diese ID einer Blockierungsliste hinzugefügt.
 
 ## Fehlercodes
 
-Sie können IDs identifizieren, die einer Blockierungsliste durch die Fehlercodes hinzugefügt werden, die von [!DNL DCS] empfangen werden. Die Fehlercodes, die Sie möglicherweise erhalten, sind:
+Sie können einer Blockierungsliste hinzugefügte IDs anhand der Fehlercodes identifizieren, die von [!DNL DCS] empfangen wurden. Die Fehlercodes, die Sie möglicherweise erhalten, sind:
 
 * 303: Blockierte Kunden-ID;
 * 306: Blockierte deklarierte Geräte-ID;
-* 307: Blockierter Profil-Vorgang für ID.
+* 307: Vorgang &quot;Blocked profile&quot;für ID.
 
-Einzelheiten zu den Fehlercodes, die Sie möglicherweise erhalten, finden Sie unter [DCS-Fehlercodes, Meldungen und Beispiele](dcs-error-codes.md).
+Weitere Informationen zu den möglicherweise empfangenen Fehlercodes finden Sie unter [DCS-Fehlercodes, Nachrichten und Beispiele](dcs-error-codes.md).
 
 ## Entfernen von IDs aus Blockierungslisten
 
-IDs, die zu Blockierungslisten hinzugefügt wurden, sollten in zukünftigen Anforderungen nicht verwendet werden, da sie zu einem fehlerhaften Berichte der Daten führen. Das [!DNL DCS] unterstützt nicht das Entfernen von IDs aus Blockierungslisten.
+IDs, die zu Blockierungslisten hinzugefügt wurden, sollten in zukünftigen Anfragen nicht verwendet werden, da sie zu fehlerhaften Datenberichten führen. Das [!DNL DCS] unterstützt nicht das Entfernen von IDs aus Blockierungslisten.
 
 ## Auswirkungen auf die ID-Synchronisierung
 
-[!DNL DCS] -Aufrufe können einen oder mehrere ID-Typen enthalten. Aufrufe, die eine einzelne ID enthalten, werden vollständig ignoriert, wenn diese ID einer Blockierungsliste hinzugefügt wird. In diesem Fall findet keine ID-Synchronisierung statt.
+[!DNL DCS] -Aufrufe können eine oder mehrere Arten von IDs enthalten. Aufrufe, die eine einzelne ID enthalten, werden vollständig ignoriert, wenn diese ID zu einer Blockierungsliste hinzugefügt wird. In diesem Fall erfolgt keine ID-Synchronisierung.
 
-Wenn ein Aufruf mit mehreren IDs auch eine auf die Blockierungsliste gesetzt ID enthält, ignoriert das [!DNL DCS] die verweigerte ID und verwendet nur die verbleibenden zulässigen IDs für die Synchronisierung.
+Wenn ein Aufruf mit mehreren IDs auch eine auf die Blockierungsliste gesetzt ID enthält, ignoriert das [!DNL DCS] die abgelehnte ID und verwendet nur die verbleibenden zulässigen IDs für die Synchronisierung.
 
-## Ursachen und Fehlerbehebungen bei der Blockierungsauflistung von ID-IDs
+## Ursachen und Fehlerbehebungen für den ID-Auf die Blockierungsliste setz
 
-Die häufigste Ursache dafür, dass Blockierungslisten IDs hinzugefügt werden, ist die fehlerhafte Integration zwischen Kundeninfrastruktur und Audience Manager. Wenn Sie eine auf die Blockierungsliste gesetzt ID identifizieren, überprüfen Sie Ihre Audience Manager-Integrationen gründlich. Detaillierte Anweisungen zum Konfigurieren von Audience Manager für die Verwendung mit anderen Experience Cloud- oder externen Systemen finden Sie unter **Implementierungs- und Integrationsleitfäden**.
+Die häufigste Ursache für das Hinzufügen von IDs zu Blockierungslisten ist die falsche Integration zwischen Kundeninfrastruktur und Audience Manager. Wenn Sie eine auf die Blockierungsliste gesetzt ID identifizieren, überprüfen Sie Ihre Audience Manager-Integrationen sorgfältig. Detaillierte Erläuterungen dazu, wie Sie Audience Manager für die Verwendung mit anderen Experience Cloud-Lösungen oder externen Systemen konfigurieren sollten, finden Sie unter **Implementierungs- und Integrationshandbücher** .
 
-Eine weitere häufige Ursache dafür, dass Blockierungslisten IDs hinzugefügt werden, ist das Indizieren von Bots (Webcrawler), was im Allgemeinen zu Traffic-Zunahmen führt, sodass dieselben IDs mehrmals an die [!DNL DCS] gesendet werden. Wenn Sie die Indizierung von Bots als Grund dafür identifizieren, dass Blockierungslisten IDs hinzugefügt werden, sollten Sie den Bot-Zugriff auf Ihre Website einschränken.
+Eine weitere häufige Ursache für das Hinzufügen von IDs zu Blockierungslisten ist die Indizierung von Bots (Webcrawler), die im Allgemeinen zu einem Anstieg des Traffics führen, was dazu führt, dass dieselben IDs mehrmals an die gesendet werden. [!DNL DCS] Wenn Sie Indizierungs-Bots als Grund für IDs identifizieren, die zu Blockierungslisten hinzugefügt werden, sollten Sie den Bot-Zugriff auf Ihre Website einschränken.
 
-Wenn Sie Probleme mit der Integration nur schwer identifizieren können, wenden Sie sich bitte an den Kundensupport. Bevor Sie eine Supportanfrage öffnen, stellen Sie sicher, dass das `.har` `HTTP`-Archiv Ihres Browsers bereit ist. Dieses Archiv hilft dem Supportteam, herauszufinden, warum die ID zu einer Blockierungsliste hinzugefügt wurde.
+Wenn Sie Probleme mit der Integration nur schwer erkennen können, wenden Sie sich an den Support. Bevor Sie eine Support-Anfrage öffnen, stellen Sie sicher, dass Sie das `.har` `HTTP`-Archiv Ihres Browsers bereit halten. Dieses Archiv hilft dem Support-Team dabei, herauszufinden, warum die ID zu einer Blockierungsliste hinzugefügt wurde.
