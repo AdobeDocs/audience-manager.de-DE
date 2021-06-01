@@ -1,13 +1,12 @@
 ---
 description: Ein Allgemeiner Bericht gibt Leistungsdaten zu Eigenschaften, Segmenten und Zielen zurück.
 seo-description: Ein Allgemeiner Bericht in Audience Manager gibt Leistungsdaten zu Eigenschaften, Segmenten und Zielen zurück.
-seo-title: Allgemeine Berichte im Audience Manager
+seo-title: Allgemeine Berichte in Audience Manager
 solution: Audience Manager
 title: Allgemeine Berichte
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-feature: General & Trend Reports
+feature: Allgemeine und Trend-Berichte
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '869'
@@ -17,7 +16,7 @@ ht-degree: 1%
 
 # Allgemeine Berichte{#general-reports}
 
-Ein [!UICONTROL General]-Bericht gibt Leistungsdaten zu Eigenschaften, Segmenten und Zielen zurück.
+Ein [!UICONTROL General] -Bericht gibt Leistungsdaten zu Eigenschaften, Segmenten und Zielen zurück.
 
 ## Überblick {#general-reports-overview}
 
@@ -27,18 +26,18 @@ c_general_reports.xml
 
  -->
 
-[!DNL Audience Manager] verwendet  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um die Benutzergruppenberechtigungen auf die  [!UICONTROL General] Berichte auszudehnen. Benutzer können nur die Eigenschaften und Segmente in Berichten anzeigen, für die sie über die Berechtigung zur Ansicht verfügen. [!UICONTROL RBAC] Mit dieser Funktion können Sie steuern, welche Berichte-Daten interne Teams zur Ansicht bereitstellen können. Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann beispielsweise Benutzergruppenberechtigungen so konfigurieren, dass ein Team, das das Konto des Advertiser A verwaltet, die Daten des Berichte von Advertiser B nicht sehen kann.
+[!DNL Audience Manager] verwendet  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um Benutzergruppenberechtigungen auf die  [!UICONTROL General] Berichte zu erweitern. Benutzer können nur die Eigenschaften und Segmente in Berichten sehen, die sie anzeigen können. [!UICONTROL RBAC] -Funktion können Sie steuern, welche Berichtsdaten interne Teams anzeigen können. Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann beispielsweise Benutzergruppenberechtigungen so konfigurieren, dass ein Team, das das Konto von Advertiser A verwaltet, die Berichtsdaten von Advertiser B nicht sehen kann.
 
-Führen Sie einen [!UICONTROL General]-Bericht aus, wenn Sie:
+Führen Sie einen [!UICONTROL General] -Bericht aus, wenn Sie:
 
-* Überprüfen Sie die Leistung nach Eigenschaften, Segmenten oder Ziel.
+* Überprüfen Sie die Leistung nach Eigenschaft, Segment oder Ziel.
 * Verfolgen Sie Impressionen (insgesamt und eindeutig) in Intervallen von 1, 7, 14, 30, 60 und 90 Tagen.
-* Überprüfen Sie die Gesamtzahl und die Anzahl individueller Lasten.
-* Vergleichen Sie die Leistung von Eigenschaften und Segmenten.
-* Identifizieren Sie leistungsstarke oder schlechte Eigenschaften und Segmente, analysieren Sie die Nachfrage oder vergleichen Sie Daten zu Auslastung und Feuer mit Berichten von Drittanbietern.
+* Überprüfen Sie die Gesamtanzahl und die eindeutige Anzahl der Ladevorgänge.
+* Vergleich der Eigenschaften- und Segmentleistung.
+* Ermitteln Sie starke oder schlechte Leistungseigenschaften und -segmente, analysieren Sie die Nachfrage oder vergleichen Sie die Last-/Auslösedaten mit Drittanbieterberichten.
 * Exportieren Sie Daten (.csv-Format) zur weiteren Analyse und Freigabe.
 
-Die folgende Abbildung zeigt einen Überblick über die Schlüsselelemente im [!UICONTROL General]-Bericht.
+Die folgende Abbildung bietet einen allgemeinen Überblick über die Schlüsselelemente im [!UICONTROL General] -Bericht.
 
 ![](assets/general_reports.png)
 
@@ -49,12 +48,12 @@ Die folgende Abbildung zeigt einen Überblick über die Schlüsselelemente im [!
    * **Für Datumsangaben bis:** Geben Sie den Datumsbereich für den Bericht an.
 
 2. Suchen Sie nach einer Eigenschaft, einem Segment oder einem Ziel anhand des Namens oder der ID.
-3. Ziehen Sie aus der Liste die Eigenschaften, Segmente oder Ziele, die Sie in Berichten anzeigen möchten, in das Bedienfeld [!UICONTROL Selections] auf der rechten Seite.
-4. Erstellen Sie den Bericht, der in einer exportierbaren Tabelle angezeigt werden soll.
+3. Ziehen Sie aus der Ordnerliste die Eigenschaften, Segmente oder Ziele, die Sie melden möchten, in das Bedienfeld [!UICONTROL Selections] auf der rechten Seite.
+4. Erstellen Sie den Bericht zur Anzeige in einer exportierbaren Tabelle.
 
 ## Ausführen eines allgemeinen Berichts {#run-general-report}
 
-In diesem Abschnitt wird beschrieben, wie Sie einen [!UICONTROL General]-Bericht ausführen und Zeit- und andere Leistungsoptionen festlegen.
+In diesem Abschnitt wird beschrieben, wie Sie einen [!UICONTROL General] -Bericht ausführen und Zeit- und andere Leistungsoptionen festlegen.
 
 <!-- 
 
@@ -63,48 +62,48 @@ t_run_general_report.xml
  -->
 
 1. Klicken Sie im Dashboard **[!UICONTROL Analytics]** auf **[!UICONTROL General Reports]**.
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Report Type]** den gewünschten Typ aus: Eigenschaft, Segment oder Ziel.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Report Type]** den gewünschten Typ aus: Eigenschaft, Segment oder Ziel.
 1. ** BedingtKlicken Sie auf das Datumsfeld, um einen Kalender anzuzeigen, und wählen Sie dann das Enddatum für Ihren Bericht aus, wenn Sie ein anderes Datum als das heutige angeben möchten.
 1. Suchen Sie nach einer Eigenschaft, einem Segment oder einem Ziel anhand des Namens oder der ID.
-1. Ziehen Sie aus der Liste die Eigenschaften, Segmente oder Ziele, die Sie in Berichten anzeigen möchten, in das Bedienfeld [!UICONTROL Selections] auf der rechten Seite.
+1. Ziehen Sie aus der Ordnerliste die Eigenschaften, Segmente oder Ziele, die Sie melden möchten, in das Bedienfeld [!UICONTROL Selections] auf der rechten Seite.
 1. Klicken **[!UICONTROL Run Report]**.
 
    Die Ergebnisse werden in einer exportierbaren Tabelle angezeigt. Klicken Sie auf die Spaltenüberschriften, um die Ergebnisse in auf- oder absteigender Reihenfolge zu sortieren.
-1. Wählen Sie die gewünschte Optionsschaltfläche oben im Bericht aus, um Daten nach Leistung ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] oder [!UICONTROL Total Trait Population]) oder nach Zeit (1, 7, 14, 30, 60 oder 90 Tage) zu filtern.
+1. Wählen Sie die gewünschte Optionsschaltfläche oben im Bericht aus, um die Daten nach Leistung ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] oder [!UICONTROL Total Trait Population]) oder nach Zeit (1, 7, 14, 30, 60 oder 90 Tage) zu filtern.
 
    >[!NOTE]
    >
    >[!UICONTROL Total Trait Realizations] werden  [!UICONTROL Rule-based Traits] nur berechnet.
 
-1. ** OptionalKlicken Sie  **[!UICONTROL Export to CSV]**. Dadurch werden die Variablen [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] und [!UICONTROL Total Trait Population] für alle Tagesbereiche exportiert.
+1. ** OptionalKlicken Sie auf  **[!UICONTROL Export to CSV]**. Dadurch werden [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] und [!UICONTROL Total Trait Population] für alle Tagesbereiche exportiert.
 
-## Allgemeine Berichtsergebnisse - Erläuterung{#general-reports-explained}
+## Allgemeine Berichtsergebnisse - Erklärung {#general-reports-explained}
 
-Die Zahlen in [!UICONTROL General Reports] werden direkt aus unserem [!UICONTROL User Profile Store] generiert. Die Ergebnisse spiegeln die Anzahl der Berichte wider, die zum Zeitpunkt der Generierung dieser Benutzerzahlen im Backend [!DNL Audience Manager] enthalten waren.
+Die Zahlen in [!UICONTROL General Reports] werden direkt von [!UICONTROL User Profile Store] generiert. Die Ergebnisse spiegeln die Anzahl der Benutzer wider, die zum Zeitpunkt der Generierung dieser Berichtszahlen [!DNL Audience Manager] im Backend waren.
 
 * Diese Zahlen enthalten keine Besucher-IDs mit übermäßigem Traffic. Der Traffic von Bots wird gefiltert, bevor wir unser Backend-System erreichen. Außerdem wird während eines wöchentlichen Bereinigungsauftrags im Backend ein Teil des Bot-Traffics verworfen.
-* Wenn Sie Daten über eine eingehende Verarbeitung mit einem Schlüsselwort von der UUID [!DNL Audience Manager] an Bord eingehen und diese IDs Benutzer enthalten, die nicht mehr in unserem System aktiv sind, erreichen diese inaktiven [!DNL Audience Manager] UUIDs nie die [!UICONTROL User Profile Store]-IDs und werden nicht berichtet.
+* Wenn Sie Daten über eine eingehende Verarbeitung integrieren, die mit der [!DNL Audience Manager]-UUID versehen ist und diese IDs Benutzer enthalten, die nicht mehr in unserem System aktiv sind, erreichen diese inaktiven [!DNL Audience Manager] UUIDs nie die [!UICONTROL User Profile Store] und werden nicht gemeldet.
 * [!UICONTROL Total Trait Realizations] werden  [!UICONTROL Rule-based Traits] nur berechnet.
 
 ## Allgemeine Berichtsergebnisse für Eigenschaften {#general-report-results-traits}
 
-Die folgenden Filter stehen zur Verfügung, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Trait]** als Berichtstyp auswählen.
+Die folgenden Filter sind verfügbar, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Trait]** als Berichtstyp auswählen.
 
 Beim Filtern der Ergebnisse nach [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] ist die Anzahl der anonymen Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
-* [!UICONTROL Total Trait Realization] die Gesamtzahl der anonymen Eigenschaften innerhalb des ausgewählten Zeitraums.
-* [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Besucher, die diese Eigenschaft auf ihrem Profil haben.
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl Ihrer anonymen Gerätebesucher, die die Eigenschaft innerhalb des ausgewählten Zeitraums zu ihrem Profil hinzugefügt haben.
+* [!UICONTROL Total Trait Realization] ist die Gesamtzahl der anonymen Realisierungen von Eigenschaften innerhalb des ausgewählten Zeitraums.
+* [!UICONTROL Total Trait Population] ist die Anzahl der anonymen Gerätebesucher, deren Profil diese Eigenschaft aufweist.
 
-![general-report-properties-device](assets/general-report-traits-deviceid.png)
+![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
 Beim Filtern der Ergebnisse nach [!UICONTROL Cross-Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] ist die Anzahl der authentifizierten Besucher, die innerhalb des ausgewählten Zeitraums die Eigenschaft ihrem Profil hinzugefügt haben.
-* [!UICONTROL Total Trait Realization] ist die Gesamtzahl der authentifizierten Eigenschaften innerhalb des ausgewählten Zeitraums.
-* [!UICONTROL Total Trait Population] ist die Anzahl der authentifizierten Besucher, die diese Eigenschaft auf ihrem Profil haben.
+* [!UICONTROL Unique Trait Realizations] ist die Anzahl Ihrer authentifizierten Besucher, die ihrem Profil die Eigenschaft innerhalb des ausgewählten Zeitraums hinzugefügt haben.
+* [!UICONTROL Total Trait Realization] ist die Gesamtzahl der authentifizierten Merkmalrealisierungen innerhalb des ausgewählten Zeitraums.
+* [!UICONTROL Total Trait Population] ist die Anzahl Ihrer authentifizierten Besucher, die diese Eigenschaft in ihrem Profil haben.
 
-![general-report-properties-cross-device](assets/general-report-traits-cross-device.png)
+![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
 
 <!-- 
 ### Unique Trait Realizations
@@ -126,36 +125,36 @@ The illustration below shows the results of running a general report for the Tra
 
 ## Allgemeine Berichtsergebnisse für Segmente {#general-report-results-segments}
 
-Die folgenden Metriken stehen zur Verfügung, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Segment]** als Berichtstyp auswählen:
+Die folgenden Metriken sind verfügbar, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Segment]** als Berichtstyp auswählen:
 
-### Population von Echtzeit-Segmenten
+### Segmentpopulation in Echtzeit
 
-Diese Metrik stellt die tatsächliche Anzahl individueller Besucher dar, die in Echtzeit während des angegebenen Zeitraums gesehen wurden und die zu dem Zeitpunkt, zu dem sie vom Audience Manager gesehen wurden, für das Segment qualifiziert waren.
+Diese Metrik stellt die tatsächliche Anzahl Unique Visitors dar, die in Echtzeit über den angegebenen Zeitraum gesehen wurden und die zum Zeitpunkt der Segmenterkennung durch den Audience Manager qualifiziert waren.
 
 ### Segmentpopulation insgesamt
 
-Diese Metrik stellt die Gesamtanzahl der UUIDs des Audience Managers dar, die für das Segment innerhalb der von Ihnen gewählten Rückblickzeit qualifiziert sind. Ihre Segmentpopulation mit 1 Tag stellt Ihre genaueste Benutzerbasis für das Targeting dar.
+Diese Metrik stellt die Gesamtzahl der Audience Manager-UUIDs dar, die für das Segment innerhalb des von Ihnen ausgewählten Rückblickzeitraums qualifiziert sind. Ihre Segmentpopulation mit 1 Tag stellt Ihre genaueste Benutzerbasis für das Targeting dar.
 
 >[!NOTE]
 >
 >Wählen Sie **[!UICONTROL Include Destination Mappings]** aus, um eine Aufschlüsselung der Segmentpopulation für aktivierte Ziele anzuzeigen.
 
-Die folgende Abbildung zeigt die Ergebnisse der Ausführung eines allgemeinen Berichts für den Berichtstyp Segment.
+Die folgende Abbildung zeigt die Ergebnisse der Ausführung eines allgemeinen Berichts für den Berichtstyp Segment .
 
 ![](assets/general_reports_segment_metrics.png)
 
-## Allgemeine Berichte Ergebnisse für Ziele {#general-report-results-destinations}
+## Allgemeine Berichte - Ergebnisse für Ziele {#general-report-results-destinations}
 
-Die folgenden Metriken stehen zur Verfügung, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Destination]** als Berichtstyp auswählen:
+Die folgenden Metriken sind verfügbar, wenn Sie einen allgemeinen Bericht ausführen und **[!UICONTROL Destination]** als Berichtstyp auswählen:
 
-**Population von Echtzeit-Segmenten**
+**Segmentpopulation in Echtzeit**
 
-Diese Metrik stellt die tatsächliche Anzahl individueller Besucher dar, die in Echtzeit während des angegebenen Zeitraums gesehen wurden und die zu dem Zeitpunkt, zu dem sie vom Audience Manager gesehen wurden, für das Segment qualifiziert waren.
+Diese Metrik stellt die tatsächliche Anzahl Unique Visitors dar, die in Echtzeit über den angegebenen Zeitraum gesehen wurden und die zum Zeitpunkt der Segmenterkennung durch den Audience Manager qualifiziert waren.
 
 **Segmentpopulation insgesamt**
 
-Diese Metrik stellt die Gesamtanzahl der Audience Manager-UUIDs dar, die innerhalb des Rückblickzeitraums zu einem Segment gehören und an ein Ziel gesendet wurden.
+Diese Metrik stellt die Gesamtzahl der Audience Manager-UUIDs dar, die zu einem Segment innerhalb des Rückblickzeitraums gehören und an ein Ziel gesendet wurden.
 
-Die folgende Abbildung zeigt die Ergebnisse der Ausführung eines allgemeinen Berichts für den Berichtstyp &quot;Ziele&quot;.
+Die folgende Abbildung zeigt die Ergebnisse der Ausführung eines allgemeinen Berichts für den Berichtstyp Ziele .
 
 ![](assets/general_reports_destinations.png)
