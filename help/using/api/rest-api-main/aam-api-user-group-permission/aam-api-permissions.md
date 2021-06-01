@@ -6,14 +6,13 @@ solution: Audience Manager
 title: API-Methoden für die Berechtigungsverwaltung
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 14%
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
-
 
 # API-Methoden für die Berechtigungsverwaltung {#permissions-management-api-methods}
 
@@ -21,9 +20,9 @@ REST [!DNL API]-Methoden zum Verwalten von Berechtigungen für Objekte und Grupp
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Liste Verfügbare Objekttypen {#list-object-types}
+## Verfügbare Objekttypen auflisten {#list-object-types}
 
-Eine `GET`-Methode zur Liste verfügbarer Objekttypen, für die rollenbasierte Zugriffskontrollen festgelegt werden können.
+Eine `GET`-Methode zur Auflistung der verfügbaren Objekttypen, für die rollenbasierte Zugriffssteuerungen festgelegt werden können.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -37,9 +36,9 @@ Eine `GET`-Methode zur Liste verfügbarer Objekttypen, für die rollenbasierte Z
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Verfügbare Berechtigungen für eine Liste für einen Objekttyp {#list-permissions-object-type}
+## Verfügbare Berechtigungen für einen Objekttyp {#list-permissions-object-type} auflisten
 
-Eine `GET`-Methode zur Liste der verfügbaren Berechtigungen für einen Objekttyp.
+Eine `GET`-Methode zum Auflisten der verfügbaren Berechtigungen für einen Objekttyp.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -58,4 +57,4 @@ Eine `GET`-Methode zur Liste der verfügbaren Berechtigungen für einen Objektty
 
 >[!NOTE]
 >
->Die Objekttypen TAGS und DERIVED SIGNALS haben keine regulären Berechtigungen zur Verwendung. Die Steuerelemente für diese Objekttypen werden nur durch die Berechtigungen &quot;Alle&quot;oder &quot;Keine Platzhalter&quot;geändert.
+>Die Objekttypen TAGS und DERIVED SIGNALS verfügen nicht über reguläre Berechtigungen zur Verwendung. Die Steuerelemente für diese Objekttypen werden nur durch die Berechtigungen Alle oder Keine Platzhalter geändert.
