@@ -3,11 +3,10 @@ description: In diesem Dokument werden die Typen von Audience Manager-IDs besch
 seo-description: In diesem Dokument werden die Typen von Audience Manager-IDs beschrieben, die Sie in Datendatenschutzanfragen verwenden können.
 seo-title: Audience Manager-IDs
 solution: Audience Manager
-keywords: GDPR-Benutzeroberfläche, GDPR-API, CCPA, Datenschutz, AAM-ID
+keywords: DSGVO-Benutzeroberfläche, DSGVO-API, CCPA, Datenschutz, AAM ID
 title: Audience Manager-IDs
-feature: Data Governance & Privacy
+feature: Data Governance und Datenschutz
 exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '264'
