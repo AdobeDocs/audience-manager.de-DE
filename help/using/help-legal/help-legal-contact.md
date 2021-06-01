@@ -5,14 +5,13 @@ seo-title: Kontakt und rechtliche Informationen
 solution: Audience Manager
 title: Kontakt und rechtliche Informationen
 feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
-
 
 # Kontakt und rechtliche Informationen {#legal-contact}
 
@@ -29,9 +28,9 @@ Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf ve
 
 ## Service, Leistungsumfang und Abrechnung {#billing}
 
-Je nach Konfiguration Ihrer Lösung stehen Ihnen eventuell einige der in diesem Handbuch beschriebenen Optionen nicht zur Verfügung. Da für jeden Kunden besondere Bedingungen gelten, entnehmen Sie Informationen über Preise, Fälligkeitsdaten und Bedingungen bitte Ihrem Vertrag. Wenden Sie sich an Ihren Kundenbetreuer, falls Sie etwas zu Ihrem Service-Level hinzufügen oder es ändern möchten oder Fragen zu Ihrem aktuellen Service haben.
+Je nach Konfiguration Ihrer Lösung stehen Ihnen eventuell einige der in diesem Handbuch beschriebenen Optionen nicht zur Verfügung. Da für jeden Kunden besondere Bedingungen gelten, entnehmen Sie Informationen über Preise, Fälligkeitsdaten und Bedingungen bitte Ihrem Vertrag. Wenden Sie sich bitte an Ihren Kundenbetreuer, falls Sie etwas zu Ihrem Service-Level hinzufügen oder es ändern möchten oder Fragen zu Ihrem aktuellen Dienst haben.
 
-## Rechtliche Informationen   {#legal}
+## Rechtliche Informationen  {#legal}
 
 Published by Adobe Systems Incorporated.
 
