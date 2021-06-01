@@ -1,23 +1,22 @@
 ---
-description: Beschreibt Methoden im Namensraum DIL.tools. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
-seo-description: Beschreibt Methoden im Namensraum DIL.tools. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+description: Beschreibt Methoden im DIL.tools-Namespace. Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+seo-description: Beschreibt Methoden im DIL.tools-Namespace. Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 seo-title: DIL-Tools
 solution: Audience Manager
 title: DIL-Tools
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: DIL-Implementierung
+exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 5%
 
 ---
 
-
 # DIL-Tools
 
-Beschreibt Methoden im Namensraum `DIL.tools`. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+Beschreibt Methoden im Namespace `DIL.tools` . Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 
 <!-- 
 
@@ -37,7 +36,7 @@ r_dil_get_search_referrer.xml
 
 ### Zweck von `getSearchReferrer`
 
-In DIL gibt `getSearchReferrer` Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] und [!DNL Yahoo]) standardmäßig gegen `document.referrer` durchsuchen lassen.
+Unter DIL gibt `getSearchReferrer` Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] und [!DNL Yahoo]) standardmäßig gegen `document.referrer` durchsuchen lassen.
 
 ### Funktionsunterschrift
 
@@ -47,8 +46,8 @@ Funktionsunterschrift: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` akzeptiert:
 
-* *`{string}`*:  *(Optional)* Eine Zeichenfolge, die die Such-URL enthält ( `document.referrer` falls nicht definiert).
-* *`{object}`*:  *(Optional)* Ein Objekt, das die Konfiguration für  `hostPattern`,  `queryParam`oder  `queryPattern`enthält.
+* *`{string}`*:  *(Optional)* Eine Zeichenfolge, die die Such-URL enthält (verwendet  `document.referrer` wenn nicht definiert).
+* *`{object}`*:  *(Optional)* Ein Objekt, das die Konfiguration für  `hostPattern`,  `queryParam` oder  `queryPattern`enthält.
 
 Und gibt zurück:
 
@@ -73,8 +72,8 @@ Und gibt zurück:
   </td>
   </tr> 
   <tr> 
-   <td>Übergeben einer benutzerspezifischen URL</td> 
-   <td>Gibt den Werber für die Suche basierend auf einer benutzerdefinierten URL zurück.</td> 
+   <td>Übergeben einer benutzerdefinierten URL</td> 
+   <td>Gibt die verweisende Stelle basierend auf einer benutzerdefinierten URL zurück.</td> 
    <td> 
   <code>
         var&nbsp;results&nbsp;= 
@@ -83,8 +82,8 @@ Und gibt zurück:
 </td> 
   </tr> 
   <tr> 
-   <td> <b>URL-Hostnamen mit benutzerdefiniertem Regex abgleichen</b></td> 
-   <td> Geben Sie einen benutzerdefinierten Regex ein, um dem Hostnamen der verweisenden URL zu entsprechen. </td> 
+   <td> <b>URL-Hostname mit benutzerdefiniertem Regex abgleichen</b></td> 
+   <td> Übergeben Sie einen benutzerdefinierten Regex, um den Hostnamen der verweisenden URL abzugleichen. </td> 
    <td> 
   <code>
       var results = 
@@ -96,7 +95,7 @@ Und gibt zurück:
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>Suchmuster mit einem benutzerspezifischen Regex abgleichen</b> </td> 
+   <td> <b>Suchmuster mit benutzerdefiniertem Regex abgleichen</b> </td> 
    <td> Übergeben Sie einen benutzerdefinierten Regex, um eine benutzerdefinierte Suche durchzuführen. </td> 
    <td> 
     <code>
@@ -112,9 +111,9 @@ Und gibt zurück:
  </tbody> 
 </table>
 
-## decompseURI
+## dekomposseURI
 
-Demonstriert eine Uniform Resource Identifier ( [!DNL URI]) in ihre Komponenten: `hash`, `host`, `href`, `pathname`, `protocol`, `search` und `[!DNL uriParams]`.
+Trennt eine Uniform Resource Identifier ( [!DNL URI]) in die Komponenten: `hash`, `host`, `href`, `pathname`, `protocol`, `search` und `[!DNL uriParams]`.
 
 <!-- 
 
@@ -128,7 +127,7 @@ Funktionsunterschrift: `DIL.tools.decomposeURI`
 
 `decomposeURI` akzeptiert:
 
-* *`uri {string}`*:  *(Optional)* Eine Zeichenfolge, die den URI enthält. Die Standardeinstellung ist `document.location.href`, wenn nicht angegeben.
+* *`uri {string}`*:  *(Optional)* Eine Zeichenfolge, die den URI enthält. Die Standardeinstellung ist `document.location.href`, falls nicht anders angegeben.
 
 Und gibt zurück:
 
@@ -170,7 +169,7 @@ Funktionsunterschrift: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Funktionsparameter
 
-`getMetaTags` akzeptiert einen oder mehrere Namensparameter (Zeichenfolgen-Typ), nach denen gesucht werden soll. Gibt ein Objekt zurück, das aus Schlüssel-Wert-Paaren besteht.
+`getMetaTags` akzeptiert einen oder mehrere Namensparameter (Zeichenfolgentyp) für die Suche. Es wird ein Objekt zurückgegeben, das aus Schlüssel-Wert-Paaren besteht.
 
 ### Beispielcode
 
