@@ -6,9 +6,8 @@ seo-title: Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zu
 solution: Audience Manager
 title: Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zum Gerätediagramm
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profile Merge
+feature: Profilzusammenführung
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1552'
@@ -260,18 +259,18 @@ Ja. Die Populationsmetrik für das gesamte Segment umfasst die zusätzlichen Ger
 
 Nein.
 
-**Warum sehe ich nach dem 16. März 2020 bei Segmentexporten nach Adobe Campaign eine Segmentpopulation von Null?**
+**Warum sehe ich nach dem 16. März 2020 für Segmentexporte nach Adobe Campaign eine Segmentpopulation von null?**
 
-Ende 2019 haben wir eine Reihe von Profil Merge Rules Erweiterungen veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 strikt berücksichtigt. Segmente, die einem Ziel mit geräteübergreifenden IDs zugeordnet sind, produzieren daher in einigen Profil Merge Rules Konfigurationen keine Exporte mehr.
+Ende 2019 haben wir eine Reihe von Verbesserungen der Profilzusammenführungsrichtlinien veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 strikt berücksichtigt. Folglich produzieren Segmente, die mit geräteübergreifenden IDs einem Ziel zugeordnet sind, in einigen Konfigurationen der Profilzusammenführungsrichtlinien keine Exporte mehr.
 
-Um die richtige Integration zwischen Ihrer Audience Manager-Instanz und Zielen mithilfe geräteübergreifender IDs, z. B. Adobe Campaign, sicherzustellen, stellen Sie sicher, dass folgende Anforderungen erfüllt sind:
+Um die korrekte Integration zwischen Ihrer Audience Manager-Instanz und Zielen mithilfe geräteübergreifender IDs wie Adobe Campaign sicherzustellen, stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen:
 
-1. Überprüfen Sie die Segmentzusammenführungsregel, die von den Segmenten verwendet wird, die Ihrem Adobe Campaign Deklarierte ID-Ziel zugeordnet sind. Die Profil Merge-Regel muss die Option [!UICONTROL Last Authenticated Profile] verwenden, damit alle authentifizierten Profil in die Exporte einbezogen werden können. Wenn Ihre Profil Merge Rule eine andere Option verwendet, wechseln Sie zu [!UICONTROL Last Authenticated Profile].
-2. Wählen Sie in den Einstellungen für die Profil-Zusammenführungsregel die Datenquelle für das Adobe Campaign Deklariert aus.
+1. Überprüfen Sie die Profilzusammenführungsrichtlinie , die von den Segmenten verwendet wird, die Ihrem Adobe Campaign Declared ID-Ziel zugeordnet sind. Die Profilzusammenführungsrichtlinie muss die Option [!UICONTROL Last Authenticated Profile] verwenden, damit alle authentifizierten Profile in die Exporte einbezogen werden können. Wenn Ihre Profilzusammenführungsrichtlinie eine andere Option verwendet, wechseln Sie zu [!UICONTROL Last Authenticated Profile].
+2. Wählen Sie die Datenquelle Adobe Campaign Declared ID in den Profilzusammenführungsregeleinstellungen aus.
 
 >[!NOTE]
 >
-> Für Kunden, die sich in dieser Situation befinden, wurde die Profil Merge Rule-Beschränkung um 1 erhöht, sodass Sie eine dedizierte Profil-Merge-Regel für die Segmente erstellen können, die dem Adobe Campaign Deklarierte ID-Ziel zugeordnet sind, ohne die Profil Merge-Regeln für andere Anwendungsfälle zu ändern.
+> Für Kunden, die sich dieser Situation gegenübersehen, wurde die Beschränkung der Profilzusammenführungsrichtlinie um 1 erhöht, sodass Sie eine dedizierte Profilzusammenführungsrichtlinie für die Segmente erstellen können, die dem Adobe Campaign Declared ID-Ziel zugeordnet sind, ohne die Profilzusammenführungsrichtlinien für andere Anwendungsfälle zu ändern.
 
 >[!MORELIKETHIS]
 >
