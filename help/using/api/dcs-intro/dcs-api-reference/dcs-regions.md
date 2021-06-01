@@ -1,23 +1,22 @@
 ---
-description: Der regionale Hostname des DCS-Servers ist erforderlich, um den DCS aufzurufen. Der Grund dafür ist, dass der DCS Informationen in Rechenzentren speichert, die geografisch nahe an Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche DCS senden, aber diese Aufrufe sind ineffizient und können die Antwort verzögern. Um eine DCS-Anforderung zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und erstellen Sie Ihre Abfrage mit dem richtigen Hostnamen.
-seo-description: Der regionale Hostname des DCS-Servers ist erforderlich, um den DCS aufzurufen. Der Grund dafür ist, dass der DCS Informationen in Rechenzentren speichert, die geografisch nahe an Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche DCS senden, aber diese Aufrufe sind ineffizient und können die Antwort verzögern. Um eine DCS-Anforderung zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und erstellen Sie Ihre Abfrage mit dem richtigen Hostnamen.
+description: Der regionale DCS-Server-Hostname ist erforderlich, um Aufrufe an den DES durchzuführen. Der Grund dafür ist, dass der DES Informationen in Rechenzentren speichert, die geografisch nah an den Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche DCS senden, diese Aufrufe sind jedoch ineffizient und können die Antwort verzögern. Um eine DCS-Anfrage zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und formulieren Sie Ihre Abfrage mit dem richtigen Hostnamen.
+seo-description: Der regionale DCS-Server-Hostname ist erforderlich, um Aufrufe an den DES durchzuführen. Der Grund dafür ist, dass der DES Informationen in Rechenzentren speichert, die geografisch nah an den Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche DCS senden, diese Aufrufe sind jedoch ineffizient und können die Antwort verzögern. Um eine DCS-Anfrage zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und formulieren Sie Ihre Abfrage mit dem richtigen Hostnamen.
 seo-title: DCS-Regions-IDs, Standorte und Hostnamen
 solution: Audience Manager
 title: DCS-Regions-IDs, Standorte und Hostnamen
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 9%
 
 ---
 
-
 # DCS-Regions-IDs, Standorte und Hostnamen {#dcs-region-ids-locations-and-host-names}
 
-Der regionale Hostname [!DNL DCS] des Servers ist erforderlich, um Aufrufe an das [!DNL DCS] durchzuführen. Dies liegt daran, dass [!DNL DCS] Informationen in Rechenzentren speichert, die geografisch nahe an Site-Besuchern liegen. Ihre Abfragen funktionieren, wenn Sie sie an das falsche [!DNL DCS] senden, diese Aufrufe sind jedoch ineffizient und können die Antwort verzögern. Um eine [!DNL DCS]-Anforderung zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und erstellen Sie Ihre Abfrage mit dem richtigen Hostnamen.
+Der regionale Hostname [!DNL DCS] des Servers ist erforderlich, um Aufrufe an [!DNL DCS] durchzuführen. Dies liegt daran, dass [!DNL DCS] Informationen in Rechenzentren speichert, die geografisch nahe den Besuchern der Website liegen. Ihre Abfragen funktionieren, wenn Sie sie an die falsche [!DNL DCS] senden, diese Aufrufe sind jedoch ineffizient und können die Antwort verzögern. Um eine [!DNL DCS] -Anfrage zu stellen, ordnen Sie die Regions-ID dem entsprechenden regionalen Hostnamen zu und formulieren Sie Ihre Abfrage mit dem richtigen Hostnamen.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -45,7 +44,7 @@ Der regionale Hostname [!DNL DCS] des Servers ist erforderlich, um Aufrufe an da
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID7 </p> </td> 
-   <td colname="col2"> <p>US East (Virginia, USA) </p> </td> 
+   <td colname="col2"> <p>USA, Osten (Virginia, USA) </p> </td> 
    <td colname="col3"> <p> <code> use.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +54,7 @@ Der regionale Hostname [!DNL DCS] des Servers ist erforderlich, um Aufrufe an da
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID9 </p> </td> 
-   <td colname="col2"> <p>US West (Oregon, USA) </p> </td> 
+   <td colname="col2"> <p>USA, Westen (Oregon, USA) </p> </td> 
    <td colname="col3"> <p> <code> usw2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
@@ -71,4 +70,4 @@ Der regionale Hostname [!DNL DCS] des Servers ist erforderlich, um Aufrufe an da
  </tbody> 
 </table>
 
-Sie können auch [!DNL API]-Methoden verwenden, um eine Liste der verfügbaren [!DNL DCS]-Regionen abzurufen. Siehe [API-Methoden für DCS-Regionen](../../../api/rest-api-main/aam-api-dcs-regions.md).
+Sie können auch [!DNL API]-Methoden verwenden, um eine Liste der verfügbaren [!DNL DCS]-Regionen zu erhalten. Siehe [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
