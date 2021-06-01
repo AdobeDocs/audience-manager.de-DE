@@ -1,33 +1,32 @@
 ---
-description: Bevor Sie Stapeldaten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter für Inhalte konfigurieren.
-seo-description: Bevor Sie Stapeldaten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter für Inhalte konfigurieren.
-seo-title: Stapeldatenintegration konfigurieren
+description: Bevor Sie Batch-Daten an Drittanbieter von Inhalten senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter von Inhalten konfigurieren.
+seo-description: Bevor Sie Batch-Daten an Drittanbieter von Inhalten senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter von Inhalten konfigurieren.
+seo-title: Batch-Datenintegration konfigurieren
 solution: Audience Manager
 title: 'Konfigurieren der Batch-Datenübertragungsintegration '
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Ausgehende Datenübertragungen
+exl-id: 0ed0f6bc-d4dd-4c6b-bc44-ea5c4ebe600b
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 5%
 
 ---
 
-
 # Konfigurieren der Batch-Datenübertragungsintegration 
 
-Bevor Sie Stapeldaten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter für Inhalte konfigurieren. Sie können dies auf zwei Arten tun:
+Bevor Sie Batch-Daten an Drittanbieter von Inhalten senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter von Inhalten konfigurieren. Dazu gibt es zwei Möglichkeiten:
 
-## Anfordern der Hilfekonfiguration über Ihren Adobe-Berater {#config-consultant}
+## Fordern Sie die Konfiguration der Hilfe über Ihren Adobe-Berater an {#config-consultant}
 
-Wenn Sie mit einem Adobe-Berater arbeiten, kümmern sie sich um den Konfigurationsprozess für Sie.
+Wenn Sie mit einem Adobe Consultant zusammenarbeiten, übernimmt dieser den Konfigurationsprozess für Sie.
 
-## Anfordern der Hilfekonfiguration über die Adobe{#config-support}
+## Konfiguration der Hilfe über den Adobe-Support {#config-support} anfordern
 
-Wenn Sie nicht mit einem Adobe-Berater arbeiten, können Sie die Batch-Transfer-Integration trotzdem vom Kundendienst konfigurieren lassen. Weitere Informationen erhalten Sie vom Kundensupport.
+Wenn Sie nicht mit einem Adobe-Berater zusammenarbeiten, können Sie die Batch-Transfer-Integration weiterhin vom Kundensupport konfigurieren lassen. Weitere Informationen erhalten Sie vom Kundensupport.
 
 >[!IMPORTANT]
 >
->Wenn Sie die SSH-Schlüsselauthentifizierung verwenden, fordert der Kundensupport Sie auf, die SSH-Schlüssel zu generieren.
+>Wenn Sie SSH-Schlüssel-basierte Authentifizierung verwenden, fordert der Kundensupport Sie auf, die SSH-Schlüssel zu generieren.
 >
-> Erstellen Sie die Schlüssel im OpenSSH-Format.
+> Stellen Sie sicher, dass Sie die Schlüssel im OpenSSH-Format generieren.
