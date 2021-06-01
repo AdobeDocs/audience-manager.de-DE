@@ -6,7 +6,6 @@ solution: Audience Manager
 title: Warum sind meine integrierten Eigenschaftspopulationen um den 15. Oktober auf 0 zurückgegangen?
 feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '231'
