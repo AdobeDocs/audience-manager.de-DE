@@ -8,7 +8,6 @@ title: Häufig gestellte Fragen zu Produktfunktionen
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Überblick
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '615'
@@ -48,9 +47,9 @@ Ja. Siehe [Tools zur Massenverwaltung](../reference/bulk-management-tools/bulk-m
 
  
 
-**Beim Ausführen eines Massen-ID-Exports an ein Ziel fehlen einige Kunden-IDs. Warum passiert das?**
+**Beim Ausführen eines Massen-ID-Exports für ein Ziel fehlen einige Kunden-IDs. Warum passiert das?**
 
-Wenn eine Geräte-ID ([AAM UUID](../reference/ids-in-aam.md)) mit mehreren CRM-IDs ([DPUUIDs](../reference/ids-in-aam.md)) verknüpft ist, wird nur die neueste Zuordnung exportiert. Aus diesem Grund wird möglicherweise eine niedrigere Anzahl von Geräte-IDs als erwartet exportiert.
+Wenn eine Geräte-ID ([AAM UUID](../reference/ids-in-aam.md)) mit mehreren CRM-IDs ([DPUUIDs](../reference/ids-in-aam.md)) verknüpft ist, wird nur die neueste Zuordnung exportiert. Aus diesem Grund kann es vorkommen, dass weniger Geräte-IDs als erwartet exportiert werden.
 
  
 
