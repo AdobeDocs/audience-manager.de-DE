@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-Adresse; STFP-IP-Adresse; FTP-Adresse
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 24284321570ee5eb9632801a4a333a11b532e386
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 84%
+source-wordcount: '1206'
+ht-degree: 80%
 
 ---
 
@@ -205,3 +205,11 @@ Weitere Informationen finden Sie unter [Index of IDs in Audience Manager](../ref
 **Wie lange dauert die [regionsübergreifende](../api/dcs-intro/dcs-api-reference/dcs-regions.md) Synchronisierung von Benutzerprofilen?**
 
 Die regionsübergreifende Synchronisierung eines Profils dauert in der Regel bis zu 24 Stunden. In seltenen Fällen kann der Prozess jedoch bis zu 48 Stunden dauern.
+
+ 
+
+**Was passiert mit inaktiven Amazon S3-Benutzerzugriffsschlüsseln?**
+
+Adobe bietet Audience Manager Benutzerzugriffsschlüssel für die Audience Manager [!DNL Amazon S3] -Buckets. Aus Sicherheitsgründen werden die Schlüssel nach 100 Tagen Inaktivität automatisch deaktiviert.
+
+Wenden Sie sich an den Support, um Ihre Zugriffsschlüssel erneut zu aktivieren oder neue anzufordern.
