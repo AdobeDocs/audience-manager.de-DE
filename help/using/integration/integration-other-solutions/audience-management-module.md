@@ -8,7 +8,7 @@ title: Implementieren des Zielgruppen-Management-Moduls
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics-Integration
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -36,7 +36,7 @@ Je nach der von Ihnen verwendeten Tag-Management-Lösung gibt es zwei Methoden z
 
 ### Implementierung mit [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] empfiehlt die Verwendung der  [](https://docs.adobe.com/content/help/en/launch/using/overview.html) Launch-Erweiterung zum Instrumentieren  [!DNL Adobe Analytics] und  [!DNL Audience Manager] Verwenden Ihrer Eigenschaften. In diesem Fall müssen Sie keinen Code manuell kopieren. Stattdessen müssen Sie die Datenfreigabe in der [!DNL Analytics Launch]-Erweiterung aktivieren, wie in der Abbildung unten dargestellt. Weitere Informationen finden Sie in der Dokumentation zur [Adobe Analytics-Erweiterung](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
+[!DNL Adobe] empfiehlt die Verwendung der  [](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) Launch-Erweiterung zum Instrumentieren  [!DNL Adobe Analytics] und  [!DNL Audience Manager] Verwenden Ihrer Eigenschaften. In diesem Fall müssen Sie keinen Code manuell kopieren. Stattdessen müssen Sie die Datenfreigabe in der [!DNL Analytics Launch]-Erweiterung aktivieren, wie in der Abbildung unten dargestellt. Weitere Informationen finden Sie in der Dokumentation zur [Adobe Analytics-Erweiterung](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
 
 >[!TIP]
 >
