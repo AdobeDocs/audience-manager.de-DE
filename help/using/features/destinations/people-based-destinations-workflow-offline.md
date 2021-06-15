@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Workflow B – Personalisierung basierend auf reinen Offline-Daten
 feature: Benutzerbasierte Ziele
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Unabhängig davon, ob es sich bei Ihren bestehenden Audience Manager-Kunden-IDs 
 
 ### Beispiel
 
-Sie möchten die Kunden-IDs aus der folgenden Tabelle für die entsprechenden integrierten Eigenschaften-IDs qualifizieren. Nehmen wir an, Ihre [DPUUIDs](../../reference/ids-in-aam.md) werden in einer Datenquelle mit der ID 999999 gespeichert, und Ihre Audience Manager-Partner-ID ist 123.
+Sie möchten die Kunden-IDs aus der folgenden Tabelle für die entsprechenden integrierten Eigenschaften-IDs qualifizieren. Nehmen wir an, Ihre [DPUUIDs](../../reference/ids-in-aam.md) werden in einer Datenquelle mit der ID 999999 gespeichert, und Ihre Audience Manager-Datenquelle-ID ist 123.
 
 | Kunden-ID (DPUUID) | Integrierte Eigenschaften-ID |
 | -------------------------------------- | ------------------- |
