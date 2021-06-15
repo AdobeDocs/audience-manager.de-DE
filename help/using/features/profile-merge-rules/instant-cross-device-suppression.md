@@ -6,7 +6,7 @@ title: Sofortige geräteübergreifende Unterdrückung
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profilzusammenführung
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 15%
@@ -67,4 +67,4 @@ Beachten Sie folgende Aspekte im Zusammenhang mit der Verarbeitung:
 Beachten Sie die folgenden Aspekte im Zusammenhang mit dem Timing:
 
 * Ein Segment wird im [Edge](../../reference/system-components/components-edge.md) für denselben Zeitraum gespeichert, in dem ein Geräteprofil auf dem [!UICONTROL Edge] gespeichert ist, d. h. 14 Tage seit der letzten Echtzeit-Interaktion. Weitere Informationen zur Datenaufbewahrung finden Sie in den [FAQ zur Datenaufbewahrung](../../faq/faq-privacy.md#data-retention-faq).
-* Es dauert etwa 24 Stunden, bis sich der Vorgang zum Aufheben der Segmentierung über [!DNL DCS] -Regionen erstreckt. Mehr über unsere [!DNL DCS] Regionen [hier](../..//reference/system-components/components-data-collection.md) und [hier](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Es dauert etwa 24 Stunden, bis sich der Vorgang zum Aufheben der Segmentierung über [!DNL DCS] -Regionen erstreckt. Mehr über unsere [!DNL DCS] Regionen [hier](../../reference/system-components/components-data-collection.md) und [hier](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
