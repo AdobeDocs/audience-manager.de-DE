@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Facebook-WCA-Integration
 feature: Drittanbieterintegration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 5%
@@ -68,7 +68,7 @@ Beispielpixel werden von der Seite ausgelöst. Dieses Beispiel zeigt einen Benut
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
 | Parameter | Beschreibung |
----------|----------|
+|---------|----------|
 | `id` | Ihre [!DNL Facebook] Pixel-ID, die Sie beim Erstellen von Zielgruppenpixel in der [!DNL Facebook Ad Manager]-Benutzeroberfläche finden können. |
 | `ev` | Event.     Dies ist ein beliebiger Wert, der in der [!DNL Facebook Ad Manager] -Benutzeroberfläche angezeigt wird, sobald das Pixel auf der Site ausgelöst wird. Weitere Informationen finden Sie im Element [!UICONTROL Include] in [Schritt 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience). |
 | `cd[segID]` | Ein zusätzlicher Parameter, der innerhalb der [!DNL Facebook Ad Manager]-Benutzeroberfläche gefüllt wird, sobald das Pixel auf der Site ausgelöst wird. `segID` ist auch willkürlich. |
@@ -91,7 +91,7 @@ Geben Sie gegebenenfalls ein Enddatum ein, andernfalls leer lassen für kein End
 Siehe [Erstellen einer benutzerdefinierten Website-Zielgruppe](https://www.facebook.com/business/help/666509013483225) in der [!DNL Facebook] -Hilfedokumentation. Wählen Sie in der unten stehenden Tabelle die Optionen [!UICONTROL Create Audience] aus:
 
 | Element | Beschreibung |
----------|----------|
+|---------|----------|
 | Website-Traffic | Benutzerdefinierte Kombination |
 | Einschließlich | <ul><li>Wählen Sie **[!UICONTROL Event]** > Wählen Sie **[!UICONTROL Adobe-Audience-Manager-Segment]** aus. Dies war der Wert des Parameters `ev` im Beispielpixel in Schritt 1. Beachten Sie, dass die **[!UICONTROL Event]**-Option oder **[!UICONTROL Adobe-Audience-Manager-Segment]** in der [!DNL Facebook]-Benutzeroberfläche möglicherweise nicht angezeigt wird, wenn das Pixel noch nicht ausgelöst wird.</li><li>Fügen Sie einen Parameter hinzu: Wählen Sie `segID` aus.</li><li><p>Wählen Sie den Operator **contains** aus.</p><p>Dies ist wichtig, da sich Besucher für mehrere Segmente qualifizieren können, kann der Pixelparameter mehrere [!UICONTROL segment IDs] enthalten. Die Verwendung des Operators gleich (`=`) qualifiziert Ihre Besucher möglicherweise nicht für die Zielgruppe, und Sie werden ein geringeres Volumen feststellen.</p></li><li>Fügen Sie einen Wert hinzu: Geben Sie die Segment-ID [!DNL Audience Manager] ein.</li></ul> |
 | Neue Bedingung hinzufügen | Optionale Einstellung. |
