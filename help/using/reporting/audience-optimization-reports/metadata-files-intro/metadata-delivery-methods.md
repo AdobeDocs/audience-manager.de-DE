@@ -7,7 +7,7 @@ title: Bereitstellungsmethoden für Metadatendateien
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: Protokolldateien
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 4%
@@ -44,7 +44,7 @@ Die folgende Tabelle definiert jedes dieser Elemente in einem Dateibereitstellun
 
 
 | Dateiparameter | Beschreibung |
----------|----------|
+|---------|----------|
 | `.../log_ingestion/` | Dies ist der Anfang des Ordnerspeicherpfads. Sie erhalten den vollständigen Pfad, wenn alles eingerichtet ist. |
 | `pid=<AAM ID>` | Dieses Schlüssel-Wert-Paar enthält Ihre Audience Manager-Kunden-ID. |
 | `dpid=<d_src>` | Dieses Schlüssel-Wert-Paar enthält die Datenquellen-ID, die bei einem Ereignisaufruf übergeben wird. Die Datenquellen-ID ist der Wert, der alle Inhalte in Ihrer Datei mit den tatsächlichen Daten verknüpft, zu denen sie gehört. </br> Angenommen, Sie haben ein kreatives Element mit der ID 123 und dem Namen &quot;Advertiser Creative A&quot;. Da ein Ereignisaufruf nur die ID übergibt, müssen Sie &quot;Advertiser Creative A&quot;in die Metadatendatei aufnehmen. Die Kampagne und die Kreativinhalte gehören zu einer Datenquelle. Die Datenquellen-ID verbindet diese und ermöglicht es uns, Dateiinhalte exakt mit einer ID zu verknüpfen, die bei einem Ereignisaufruf gesendet wird. Siehe [Wie Ereignisaufruf-IDs Dateinamen, Inhalte und Bereitstellungspfade bestimmen](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
