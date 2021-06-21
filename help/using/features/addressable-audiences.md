@@ -8,7 +8,7 @@ title: Ansprechbare Zielgruppen
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Übereinstimmungsraten
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Die Funktion [!UICONTROL Addressable Audience] wandelt dieses abstrakte Konzept 
 Die drei Metriken, die Sie auf der Landingpage [!UICONTROL Addressable Audiences] sehen können, stellen Folgendes dar:
 
 | Metrik | Beschreibung |
----------|----------|
+|---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Diese Metrik stellt den [!UICONTROL Customer Addressable Audience] (in der obigen Tabelle beschrieben) *für die letzten 30 Tage dar.* |
 | **[!UICONTROL Match Rate]** | Diese Metrik stellt den [!UICONTROL Addressable Audience Match Rate] (in der obigen Tabelle beschrieben) *für die letzten 30 Tage* dar. |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | Zählung aller Geräte, die während des Rückblickzeitraums des Berichts mit allen [!DNL Audience Manager]-Kunden auf Plattformebene interagiert haben und die mit diesem [!UICONTROL destination] abgeglichen werden können. Weitere Informationen finden Sie unter [Metriken auf Plattformebene](/help/using/features/addressable-audiences.md#platform-level-metrics) . |
