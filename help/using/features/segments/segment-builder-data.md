@@ -7,7 +7,7 @@ title: Eigenschafts- und Segmentpopulationsdaten in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: 'Segmente '
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 2%
@@ -28,7 +28,7 @@ In der folgenden Tabelle werden die Eigenschaftspopulationsmetriken definiert:
 
 
 | Metrik | Beschreibung |
----------|----------|
+|---------|----------|
 | [!UICONTROL Total Trait Population] | Die Anzahl der eindeutigen IDs, deren Profil die ausgewählte Eigenschaft enthält. |
 
 
@@ -122,7 +122,7 @@ In der folgenden Tabelle werden die tatsächlichen Echtzeit- und Gesamtpopulatio
 
 
 | Spalte A | Spalte B |
----------|----------|
+|---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | Die tatsächliche Anzahl der Geräte, die in Echtzeit mit aktuellen Profilen angezeigt werden und die, wenn sie mit bis zu 100 anderen Geräteprofilen zusammengeführt werden, die mit dem Gerätediagramm verbunden sind, die Eigenschaften enthalten, die für das Segment qualifiziert sind, sobald es vom Audience Manager gesehen wurde. |
 | [!UICONTROL Total Population (Existing)] | Die Gesamtzahl der Geräte mit Profilen, die bei der Zusammenführung mit bis zu 100 anderen Geräteprofilen, die durch das Gerätediagramm verbunden sind, alle für das Segment qualifiziert waren. |
 
