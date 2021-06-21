@@ -8,7 +8,7 @@ title: Ausführbare Protokolldateien
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Protokolldateien
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 3%
@@ -176,7 +176,7 @@ In der Tabelle sind die aussagekräftigen Signale aus den Protokolldateien [!DNL
 
 
 | Headername in Protokolldatei | Signal | Beschreibung |
----------|----------|---------
+|---------|----------|---------|
 | `LineItemId` | `d_lineitem` | Numerische ID für das bereitgestellte Ad Manager-Zeilenelement |
 | `OrderId` | `d_orderid` | Die numerische ID für die Anzeigenmanagerreihenfolge, die das bereitgestellte Zeilenelement und das Kreativelement enthielt. |
 | `CreativeId` | `d_creative` | Die numerische ID für die bereitgestellten Ad Manager-Kreativelemente. |
