@@ -8,7 +8,7 @@ title: Schlüssel-Wert-Paare – Erklärung
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: 'Referenz '
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 7%
@@ -55,7 +55,7 @@ Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die die 
 
 
 | Typ | Beispiel | Schlüssel | Trennzeichen für Schlüsselwerte | Trennzeichen für Schlüsselwerte | Serielle Trennlinie |
----------|----------|---------|---------|----------|---------
+|---------|----------|---------|---------|----------|---------|
 | **Einzelschlüssel**  (Standard) | `x=1&x=2` | `x` | `=` | `&` | Keine |
 | **Schlüssel-Wert-Paare**  (Standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | Keine |
 | **Einzelschlüssel**  (seriell) | `x=1;2;3` | `x` | `=` | Keine | `;` |
