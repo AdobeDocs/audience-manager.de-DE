@@ -7,7 +7,7 @@ title: Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience
 keywords: Freigabe von AEP-Zielgruppen, AEP-Segmente, Platform-Segmente, Segmentfreigabe, Zielgruppenfreigabe, Segmente freigeben
 feature: Plattformintegration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 6900b56b4e0258ed0c4ddf94ef7b1f2c7e48a50d
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Darüber hinaus werden Ihre Experience Platform-Segmente über [Core Services](h
 Eine Übersicht der Anwendungsfälle für die Zielgruppenfreigabe finden Sie in der unten stehenden Tabelle:
 
 | **Anwendungsfall** | **Adobe Experience Platform** | **Audience Manager** | **Zentrale Dienste** |
----------|----------|---------|---------|
+|---------|----------|---------|---------|
 | **Zielgruppenfreigabe** | <ul><li>Kundenprofile mit Audience Manager-Daten anreichern</li><li>Audience Manager-Daten in Experience Platform-Segmentierung verwenden</li></ul> | <ul><li>Hinzufügen von Drittanbieterdaten zu Segmenten</li><li>Algorithmische Modellierung</li><li>Aktivierung an zusätzlichen Zielen</li></ul> | Verwenden Sie Experience Platform-Segmente in anderen Experience Cloud-Lösungen wie Adobe Target, Advertising Cloud oder Marketo. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -83,7 +83,7 @@ Ein Beispiel für eine Eigenschaft, die automatisch aus einem Experience Platfor
 
 
 | Artikelnummer | Name | Beschreibung |
----------|----------|---------|
+|---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | Aus Experience Platform-Segmenten erstellte Eigenschaften werden als integrierte Eigenschaften in Audience Manager erstellt. |
 | 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden in der Datenquelle **[!UICONTROL Adobe Experience Platform Audience Sharing]** gespeichert. |
 | 3 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in Experience Platform. |
@@ -103,7 +103,7 @@ Ein Beispiel für ein Segment, das automatisch aus einem Segmentsegment der Expe
 ![Screenshot des Segments](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | Artikelnummer | Name | Beschreibung |
----------|----------|---------|
+|---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | Der Integrationscode entspricht der Segment-ID in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden in der Datenquelle **[!DNL Adobe Experience Platform Audience Sharing]** gespeichert. |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in Experience Platform festgelegten Zusammenführungsrichtlinie entsprechen. |
