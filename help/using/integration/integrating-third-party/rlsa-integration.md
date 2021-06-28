@@ -7,9 +7,9 @@ title: Senden von Segmenten an eine Remarketing-Liste für Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Drittanbieterintegration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 760d6a56754530368ac11a5c9f10c4be487de028
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manag
 1. Im Audience Manager [Erstellen Sie eine [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie eine vorhandene [!DNL destination]. Verwenden Sie beim Erstellen von [!DNL destination] die folgenden Einstellungen:
    * Typ: URL
    * Serialisieren: Aktiviert
-   * Trennzeichen: Semikolon (;)
+   * Trennzeichen: Semikolon ( &amp;semi; )
 
 1. Fügen Sie im Abschnitt [!UICONTROL Segment Mappings] Ihres [!DNL URL] [!DNL destination] den Code aus Schritt 2 den Feldern [!DNL URL] und [!DNL Secure URL] hinzu. Stellen Sie dem Code in den Feldern [!DNL URL] und `https:` das Präfix `http:` und [!DNL Secure URL] voran.
 
