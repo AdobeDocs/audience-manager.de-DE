@@ -124,7 +124,7 @@ In der folgenden Tabelle werden die Präfixe beschrieben, mit denen [!UICONTROL 
  </tbody>
 </table>
 
-## Ungültige Zeichen in [!UICONTROL Trait IDs], [!UICONTROL User IDs] und Schlüssel-Wert-Paare {#invalid-chars}
+## Ungültige Zeichen in [!UICONTROL Trait IDs], [!UICONTROL User IDs] und Schlüssel-Wert-Paaren {#invalid-chars}
 
 ### [!UICONTROL Trait IDs]
 
@@ -235,7 +235,7 @@ Auch falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen Prob
 
 [](assets/ftp_dpm_1234_1445374061.overwrite) Laden Sie die Beispieldatendatei herunter, wenn Sie zusätzliche Beispiele benötigen. Die Download-Datei hat eine `.overwrite` -Dateierweiterung. Sie können sie mit einem einfachen Texteditor öffnen.
 
-## Beispiele Matrix {#examples-matrix}
+## Beispielmatrix {#examples-matrix}
 
 Die folgende Tabelle zeigt Beispiele für die korrekte Formatierung Ihrer eingehenden Dateien, je nach dem [Typ der IDs](../../../reference/ids-in-aam.md) und der Methode, mit der Sie [!UICONTROL traits] zu Profilen hinzufügen möchten.
 
@@ -337,7 +337,7 @@ oder
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Beispiel 4 {#example-5}
+### Beispiel 5 {#example-5}
 
 Verwenden Sie [!UICONTROL trait IDs], um [!UICONTROL trait] Qualifizierungsinformationen für [!DNL Android]-Geräte zu senden.
 
