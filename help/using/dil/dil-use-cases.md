@@ -181,7 +181,7 @@ if (search_referrer && search_referrer.valid) {
 }
 </code></pre>
 
-## Schlüsselwerte anderen Schlüsseln zuordnen {#map-key-values}
+## Zuordnen von Schlüsselwerten zu anderen Schlüsseln {#map-key-values}
 
 Verknüpfen Sie den Wert aus einem Schlüssel-Wert-Paar mit einem anderen Schlüssel.
 
