@@ -61,7 +61,7 @@ Diese Einstellungen bestimmen, wie ein [!UICONTROL data source] identifiziert, v
 1. Aktivieren Sie das Kontrollkästchen [!UICONTROL Data Source Setting] , um eine Option auf [!UICONTROL data source] anzuwenden.
 2. Klicken **[!UICONTROL Save]**.
 
-## Löschen einer Datenquelle {#delete-data-source}
+## Datenquelle löschen {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
