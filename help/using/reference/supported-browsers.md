@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Unterstützte Browser {#supported-browsers} 
+# Unterstützte Browser  {#supported-browsers}
 
 Diese Seite listet die von der Audience Manager-Benutzeroberfläche unterstützten Browser auf. Cookies und JavaScript müssen in allen Browsern aktiviert sein.
 
