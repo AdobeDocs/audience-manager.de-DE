@@ -22,13 +22,13 @@ ht-degree: 1%
 
 [!DNL Shareable Audiences] ist eine Metrik, mit der Sie Zielgruppendaten im Kontext von  [!DNL People-Based Destinations]interpretieren können. Sie können diese Metrik auf der Seite [!UICONTROL Destinations] und auf der Seite [!UICONTROL Segment] sehen.
 
-## Teilbare Segmentzielgruppen {#segment-shareable-audiences}
+## Segmentieren von freigebbaren Zielgruppen {#segment-shareable-audiences}
 
 Die Metrik [!DNL Segment Shareable Audience] auf der Segmentseite gibt die Anzahl der gehashten E-Mail-Adressen aus der Datenquelle an, die mit [DPUUIDs](../../reference/ids-in-aam.md) übereinstimmen. Diese sind auch für das definierte Segment im angegebenen Rückblickzeitraum qualifiziert, da die Profilzusammenführungsregel darauf angewendet wird und dieser Audience Manager mit der Zielplattform teilen kann.
 
 Diese Metrik hat einen Rückblickzeitraum von 1 Tag. Auf diese Weise können Sie die Reichweite der Zielgruppe für das Segment in einem bestimmten Ziel nachvollziehen.
 
-## Zielteilbare Zielgruppe {#destination-shareable-audience}
+## Ziel - Zielzielgruppe {#destination-shareable-audience}
 
 Die Metrik [!DNL Destination Shareable Audience] auf einer personenbasierten Zielseite gibt die Gesamtanzahl der gehashten E-Mail-Adressen aus der Datenquelle an, die mit [DPUUIDs](../../reference/ids-in-aam.md) übereinstimmen. Dieser Audience Manager kann diese mit der Zielplattform teilen, und zwar aus allen Segmenten, die diesem Ziel zugeordnet sind.
 
