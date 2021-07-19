@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Hier finden Sie Angaben zur Kontaktaufnahme mit Adobe und rechtliche Hinweise zu Ihrer Nutzung des Produkts und der Dokumentation.
 
-## Hilfe und technischer Support   {#technical-support}
+## Hilfe und technischer Support  {#technical-support}
 
 Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf verschiedenen Wegen kontaktiert werden:
 
