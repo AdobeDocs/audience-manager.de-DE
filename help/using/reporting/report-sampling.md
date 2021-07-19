@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerraten und eine Liste von Berichten, die Informationen auf der Grundlage von Stichprobendaten liefern.
 
-## Data Sampling Ratio {#data-sampling-ratio}
+## Daten-Sampling-Verhältnis {#data-sampling-ratio}
 
 Einige [!DNL Audience Manager] -Berichte zeigen Ergebnisse basierend auf einem Stichprobensatz der insgesamt verfügbaren Datenmenge an. Das Datenverhältnis der Stichprobe beträgt 1:54. Für Berichte, die Stichprobendaten verwenden, bedeutet dies, dass Ihre Ergebnisse auf 1 Datensatz aus jedem Satz von 54 Datensätzen basieren.
 
