@@ -31,7 +31,7 @@ Auf der Standard-Landingpage werden Ihre Ziele nach Typ aufgelistet. Sie können
 
 ![](assets/destinations-landing.png)
 
-## Landingpage für ansprechbare Zielgruppen {#audiences-landing-page}
+## Landingpage für adressierbare Zielgruppen {#audiences-landing-page}
 
 Um Zielgruppendaten und Übereinstimmungsraten für Ihr Server-zu-Server-Ziel anzuzeigen, wählen Sie **[!UICONTROL Integrated Platforms > Device-Based]** aus.
 
