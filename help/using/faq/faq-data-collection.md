@@ -15,7 +15,7 @@ ht-degree: 80%
 
 ---
 
-# Häufig gestellte Fragen zur Datenerfassung und Produktintegration {#data-collection-and-product-integration-faq}
+# Häufig gestellte Fragen zur Datenerfassung und Produktintegration{#data-collection-and-product-integration-faq}
 
 Häufige Fragen und Probleme im Zusammenhang mit der Datenerfassung und Integration.
 
