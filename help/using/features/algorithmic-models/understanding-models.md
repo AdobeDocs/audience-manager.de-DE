@@ -10,14 +10,14 @@ feature: Algorithmische Modelle
 exl-id: a24b11ce-6087-4095-a6c2-6815e2211ba5
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1592'
 ht-degree: 1%
 
 ---
 
 # Grundlagen zu [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}
 
-## Neue Benutzer mit [!UICONTROL Look-Alike Modeling] {#find-new-users} suchen
+## Neue Benutzer mit [!UICONTROL Look-Alike Modeling] suchen {#find-new-users}
 
 [!UICONTROL Look-Alike Modeling] hilft Ihnen bei der Erkennung neuer, einzigartiger Zielgruppen durch die automatisierte Datenanalyse. Der Prozess beginnt, wenn Sie [!UICONTROL trait] oder [!UICONTROL segment], ein Zeitintervall sowie [!UICONTROL data sources] eines Erstanbieters und eines Drittanbieters auswählen. Ihre Auswahlmöglichkeiten bieten die Eingaben für das algorithmische Modell. Wenn der Analysevorgang ausgeführt wird, sucht er basierend auf gemeinsamen Merkmalen der ausgewählten Population nach infrage kommenden Benutzern. Nach Abschluss sind diese Daten in [Trait Builder](../../features/traits/about-trait-builder.md) verfügbar, wo Sie sie verwenden können, um Eigenschaften basierend auf [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md) zu erstellen. Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit [!UICONTROL rules-based traits] kombinieren und weitere Qualifizierungsanforderungen mit [!DNL Boolean]-Ausdrücken und Vergleichsoperatoren hinzufügen. [!UICONTROL Look-Alike Modeling] bietet Ihnen eine dynamische Möglichkeit, Werte aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
 
@@ -62,7 +62,7 @@ Nachdem eine Grundlinie für den Vergleich erstellt wurde, sucht der Algorithmus
 
 ### Schritt 3: Gewichtung zuweisen
 
-In diesem Schritt rangiert [!UICONTROL TraitWeight] neu entdeckte [!UICONTROL traits] in der Reihenfolge des Einflusses oder der Zweckmäßigkeit. Die Gewichtsskala ist ein Prozentsatz, der von 0 % bis 100 % reicht. [!UICONTROL Traits] näher an 100 % platziert werden, bedeutet, dass sie der Zielgruppe in Ihrer Grundgesamtheit eher ähneln. Außerdem sind stark gewichtete [!UICONTROL traits] nützlich, da sie neue Unique Users darstellen, die sich ähnlich wie Ihre etablierte, Baseline-Zielgruppe verhalten können. Beachten Sie, dass [!UICONTROL TraitWeight] [!UICONTROL traits] mit hoher Gemeinsamkeit im Ausgangswert und hoher Spezifität in den verglichenen Datenquellen für jeden Datensatz wertvoller ist als [!UICONTROL traits].
+In diesem Schritt rangiert [!UICONTROL TraitWeight] neu entdeckte [!UICONTROL traits] in der Reihenfolge des Einflusses oder der Zweckmäßigkeit. Die Gewichtsskala ist ein Prozentsatz, der von 0 % bis 100 % reicht. [!UICONTROL Traits] näher an 100 % platziert sind, bedeutet, dass sie der Zielgruppe in Ihrer Grundgesamtheit eher ähneln. Außerdem sind stark gewichtete [!UICONTROL traits] nützlich, da sie neue Unique Users darstellen, die sich ähnlich wie Ihre etablierte, Baseline-Zielgruppe verhalten können. Beachten Sie, dass [!UICONTROL TraitWeight] [!UICONTROL traits] mit hoher Gemeinsamkeit im Ausgangswert und hoher Spezifität in den verglichenen Datenquellen für jeden Datensatz wertvoller ist als [!UICONTROL traits].
 
 ### Schritt 4: Scoring-Benutzer
 
@@ -81,7 +81,7 @@ Verwandte Links:
 * [Modell-Builder](../../features/algorithmic-models/create-model.md)
 * [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md)
 
-## Zeitplan für [!UICONTROL Look-Alike Models] und [!UICONTROL Traits] {#update-schedule} aktualisieren
+## Zeitplan für [!UICONTROL Look-Alike Models] und [!UICONTROL Traits] aktualisieren {#update-schedule}
 
 Erstellen und Aktualisieren von Zeitplänen für neue oder vorhandene [!UICONTROL algorithmic models] und [!UICONTROL traits].
 
@@ -97,7 +97,7 @@ Erstellen und Aktualisieren von Zeitplänen für neue oder vorhandene [!UICONTRO
  <tbody>
   <tr> 
    <td colname="col1"> <b>Erstellen oder Klonen eines Modells</b> </td>
-   <td colname="col2"> <p>Für neue oder geklonte [!UICONTROL Look-Alike-Modelle] wird der Erstellungsprozess einmal täglich unter folgender Adresse ausgeführt: 
+   <td colname="col2"> <p>Für neue oder geklonte [!UICONTROL Look-Alike Models] wird der Erstellungsprozess einmal täglich ausgeführt unter: 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 17.00 Uhr EST (November - März) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 18 Uhr EDT (März - November) </li> 
