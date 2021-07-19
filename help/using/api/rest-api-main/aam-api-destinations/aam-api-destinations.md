@@ -14,7 +14,7 @@ ht-degree: 16%
 
 ---
 
-# API-Methoden für Ziele {#destination-api-methods}
+# API-Methoden für Ziele  {#destination-api-methods}
 
 Methoden, mit denen Sie programmatisch mit Zielfunktionen arbeiten können.
 
