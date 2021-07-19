@@ -14,7 +14,7 @@ ht-degree: 8%
 
 ---
 
-# [!DNL FTP]Anforderungen an Namen und Dateigrößen der über eingehenden Datendateien{#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP]Anforderungen an Namen und Dateigrößen der über eingehenden Datendateien {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
 Beschreibt die erforderlichen Felder, Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an [!DNL Audience Manager] beachtet werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an einen Ordner [!DNL FTP] des Audience Managers senden.
 
@@ -26,7 +26,7 @@ Beschreibt die erforderlichen Felder, Syntax, Benennungskonventionen und Dateigr
 >
 >Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument Code-Elemente und -Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
 
-## Syntax für Dateinamen {#file-name-syntax}
+## Syntax von Dateinamen {#file-name-syntax}
 
 [!DNL FTP] -Dateinamen enthalten die folgenden erforderlichen und optionalen Elemente:
 
