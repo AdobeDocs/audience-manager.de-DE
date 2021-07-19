@@ -22,7 +22,7 @@ Methoden, mit denen Sie Audience Manager [!DNL DCS]-Regionen programmatisch aufl
 
 Eine Liste der Regionen und der zugehörigen Ganzzahlen finden Sie unter [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Spezifische DCS-Region {#list-specific-dcs-region} auflisten
+## Eine bestimmte DCS-Region auflisten {#list-specific-dcs-region}
 
 Eine `GET`-Methode zur Auflistung einer bestimmten [!DNL DCS]-Region.
 
@@ -52,7 +52,7 @@ Gibt `200 OK` zurück, falls erfolgreich.
 
 Eine Liste der Regionen und der zugehörigen Ganzzahlen finden Sie unter [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Liste der DCS-Regionen {#list-dcs-regions}
+## DCS-Regionen auflisten {#list-dcs-regions}
 
 Eine `GET` -Methode zur Auflistung von [!DNL DCS] -Regionen.
 
