@@ -27,7 +27,7 @@ Beschreibt die Anforderungen an Eigenschaften und Segmentgröße sowie die Erste
 * Ein Segment muss vor 12:00 Uhr (Donnerstag, UTC) erstellt worden sein (2 volle Tage vor Beginn des wöchentlichen Aktualisierungsprozesses des Überschneidungsberichts).
 * Ihr Unternehmen muss ein Full [!DNL Audience Manager]-Kunde sein. Wenden Sie sich an Ihren [!DNL Audience Manager]-Berater oder an die Kundenunterstützung, um mehr zu erfahren.
 
-## Segmentgröße und/oder Erstellungszeit wirkt sich auf die Berichterstellung aus {#segment-size}
+## Segmentgröße und/oder Erstellungszeit wirken sich auf die Berichterstellung aus {#segment-size}
 
 Wenn in einem der [!UICONTROL Overlap] -Berichte kein Segment angezeigt wird, liegt dies möglicherweise daran, dass das Segment diese Mindestanforderungen nicht erfüllt.
 
