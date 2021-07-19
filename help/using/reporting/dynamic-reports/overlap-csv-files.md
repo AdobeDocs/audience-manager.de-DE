@@ -18,7 +18,7 @@ ht-degree: 9%
 
 Sie können eine CSV-Datei für einen Overlap Report anfordern, wenn dieser Bericht die Rekordgrenze von 1 Million erreicht. Ein Bericht kann diese Grenze erreicht haben, wenn die Meldung &quot;Unerwarteter Fehler ist aufgetreten&quot;angezeigt wird. Wenden Sie sich an die Kundenunterstützung, um eine komprimierte CSV-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem verwenden können. Dateien sind für Berichte zur Segmentüberschneidung, Segment-zu-Merkmal-Überschneidung und zur Eigenschaftenüberschneidung verfügbar.
 
-## Dateiname Metadaten {#file-name-metadata}
+## Dateinamenmetadaten {#file-name-metadata}
 
 In der folgenden Tabelle werden die Dateibenennungskonventionen und Dateierweiterungen beschrieben, die in einer überlappenden .csv -Datei verwendet werden. In den Beispielen werden Variablenplatzhalter *kursiv* angegeben.
 
