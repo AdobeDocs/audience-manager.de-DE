@@ -20,7 +20,7 @@ Beschreibt [!UICONTROL segments], die zugehörigen Teile und die Regelerstellung
 
 ## Zweck von [!UICONTROL Segments]
 
-Ein *`segment`* (oder ein *`audience`*) ist ein Satz von Benutzern, die gemeinsame Attribute haben. In Audience Manager erstellen Sie [!UICONTROL segments] mit serverseitigen Regeln. Mit diesen Regeln können Sie Zielgruppen basierend auf Site-Besucherattributen erstellen, z. B.:
+Ein *`segment`* (oder ein *`audience`*) ist eine Gruppe von Benutzern, die gemeinsame Attribute haben. In Audience Manager erstellen Sie [!UICONTROL segments] mit serverseitigen Regeln. Mit diesen Regeln können Sie Zielgruppen basierend auf Site-Besucherattributen erstellen, z. B.:
 
 * Verhalten;
 * Demografie (Alter, Geschlecht, Einkommen usw.);
