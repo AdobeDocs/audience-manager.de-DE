@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Häufig gestellte Fragen zu Audience Lab {#audience-lab-faq}
+# Häufig gestellte Fragen zu Audience Lab{#audience-lab-faq}
 
 Häufig gestellte Fragen zur Audience Lab-Funktion.
 
