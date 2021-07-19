@@ -98,7 +98,7 @@ Zum Lesen des Berichts ist es hilfreich, die Ergebnisse in vier Abschnitte mit i
 
 ![](assets/publisher_segment_performance_mapped.png)
 
-## Lesen der nicht zugeordneten Segmentergebnisse {#read-unmapped-segment}
+## So lesen Sie die nicht zugeordneten Segmentergebnisse {#read-unmapped-segment}
 
 Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance] -Bericht ansehen, ist dies eine großartige Möglichkeit, neue Segmente zu finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen.
 
