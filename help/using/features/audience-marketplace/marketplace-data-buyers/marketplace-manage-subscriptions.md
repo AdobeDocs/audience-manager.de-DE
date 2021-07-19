@@ -137,7 +137,7 @@ In [!UICONTROL Audience Marketplace] können Anbieter Käufern einen Rabatt auf 
  </tbody> 
 </table>
 
-## Überprüfen Sie die vergünstigten Feeds {#review-discounted-feeds}
+## Ermäßigte Feeds überprüfen {#review-discounted-feeds}
 
 So überprüfen Sie Ihre vergünstigten Feeds:
 
@@ -171,7 +171,7 @@ So melden Sie sich von einem Daten-Feed ab:
 1. Klicken Sie im Ordner [!UICONTROL Marketplace] auf den Namen des Daten-Feeds.
 1. Suchen Sie im Abschnitt [!UICONTROL Use Case] den gewünschten Plan und verschieben Sie den Regler **[!UICONTROL Subscription]** auf **[!UICONTROL Off]**.
 
-## Deaktivierung des Datenfeeds: Warum dies geschieht und wie {#data-feed-deactivation-reasons} reagiert wird
+## Deaktivierung des Datenfeeds: Warum es passiert und wie reagiert wird {#data-feed-deactivation-reasons}
 
 In [!UICONTROL Audience Marketplace] können Datenanbieter den Zugriff auf Ihre abonnierten Daten-Feeds widerrufen. Sei nicht beunruhigt, wenn dir das passiert. Wir haben dich überzogen. Lesen Sie diesen Abschnitt zu Prozessen und Verfahren im Zusammenhang mit der Deaktivierung von Daten-Feeds.
 
@@ -190,7 +190,7 @@ Es kann rätselhaft oder sogar verärgert sein, wenn ein von Ihnen abonnierter F
 >
 >Wenden Sie sich direkt an Ihren Datenanbieter, wenn Sie glauben, dass ein Daten-Feed versehentlich deaktiviert wurde. Ihr [!DNL Adobe]-Berater kann Ihnen bei Kontaktinformationen oder zusätzlichen Support behilflich sein.
 
-## Deaktivierungs-E-Mail {#deactivation-email}
+## Deaktivierung der E-Mail {#deactivation-email}
 
 Wenn ein Datenanbieter einen Ihrer Daten-Feeds deaktiviert, sendet [!DNL Audience Manager] eine E-Mail an die Benutzer in Ihrem Unternehmen, die über die Berechtigung [!UICONTROL Administrator] verfügen. Manchmal klassifizieren E-Mail-Filter diese Nachricht als Spam. Daher kann es vorkommen, dass Sie diese wichtige Benachrichtigung verpassen. Diese E-Mail enthält die folgenden Elemente, um Sie bei der Identifizierung der Deaktivierungsmeldung zu unterstützen:
 
@@ -247,7 +247,7 @@ Die Liste, die eine Deaktivierungs-E-Mail begleitet, enthält die unten stehende
  </tbody> 
 </table>
 
-## Deaktivierte Eigenschaften entfernen {#remove-deactivated-traits}
+## Entfernen deaktivierter Eigenschaften {#remove-deactivated-traits}
 
 Als Datenkäufer sind Sie dafür verantwortlich, die Eigenschaften in einem abgebrochenen Feed aus all Ihren aktiven/in Verwendung befindlichen oder inaktiven Segmenten zu entfernen. Zu den Entfernungsoptionen gehören:
 
@@ -293,7 +293,7 @@ Auf dieser Seite finden Sie die folgenden Informationen:
    * Klicken Sie auf **[!UICONTROL Cancel]** , um die Seite zu verlassen, ohne Änderungen vorzunehmen.
    * Klicken Sie auf **[!UICONTROL Review & Subscribe]** , um einen Daten-Feed zu abonnieren. Diese Schaltfläche ist ausgegraut, bis Sie einen [!UICONTROL Subscription] -Umschalter auf [!UICONTROL On] umschalten. Siehe auch [Einen öffentlichen Daten-Feed abonnieren](#subscript-public-data-feed) und [Einen privaten Daten-Feed abonnieren](#subscript-private-data-feed).
 
-## Anwendungsfälle für Daten-Feeds {#use-cases}
+## Anwendungsfälle für Daten-Feeds verstehen {#use-cases}
 
 Als [!UICONTROL Audience Marketplace]-Datenkäufer können Sie Daten für Anwendungsfälle zur Überschneidung, Modellierung und Aktivierung erwerben. Jeder Anwendungsfall ist für einen bestimmten Zweck konzipiert und begrenzt, was Sie mit den Daten tun können. Diese Nutzungsszenarios helfen Ihnen bei der richtigen Entscheidung darüber, welche Art von Datenplan Sie kaufen sollten.
 
