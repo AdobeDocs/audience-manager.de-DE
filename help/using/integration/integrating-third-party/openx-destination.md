@@ -22,7 +22,7 @@ Richten Sie [!DNL OpenX] als Ziel ein und senden Sie Audience Manager-Segmentdat
 >
 >Nur für Onsite-Adserver-Targeting.
 
-## OpenX Destination Requirements {#openx-requirements}
+## Anforderungen an OpenX-Ziele {#openx-requirements}
 
 Standards für die Codeplatzierung, unterstützte Schlüsselwertformate, Berichte und den Typ der an [!DNL OpenX] gesendeten Segmentdaten.
 
@@ -83,7 +83,7 @@ So fügen Sie einem Cookie-Ziel ein Segment hinzu:
 1. **Zuordnungen hinzufügen:** Geben Sie im Popup-Zuordnungen die Segment-ID in das Feld Zuordnungen ein und klicken Sie auf  **[!UICONTROL Save]**.
 1. Klicken **[!UICONTROL Done]**.
 
-## OpenX-Setup {#openx-code-setup}
+## OpenX-Einrichtung {#openx-code-setup}
 
 Ändern Sie die [!DNL OpenX]-Einstellungen, um mit den Segmentdaten des Audience Managers zu arbeiten.
 
