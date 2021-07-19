@@ -14,7 +14,7 @@ ht-degree: 23%
 
 ---
 
-# Mediendatenintegration {#media-data-integration}
+# Mediendatenintegration  {#media-data-integration}
 
 Sie können Daten aus Medienkampagnen mit Pixelaufrufen an Audience Manager (häufig als &quot;pixelweise&quot;bezeichnet) oder durch Aufnahme von Protokolldateien erfassen. Lesen Sie die Artikel in diesem Abschnitt, um den Prozess zu verstehen.
 
