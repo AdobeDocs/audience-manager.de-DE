@@ -55,7 +55,7 @@ Die folgende Tabelle definiert wichtige Variablen im Codebeispiel.
 | `uuidCookie` | Optional. Mit dieser Konfiguration können Sie ein [!DNL Adobe] -Cookie in der Erstanbieterdomäne setzen. Dieses [!DNL cookie] enthält die [UUID](../../reference/ids-in-aam.md) . |
 | `visitorService` - `namespace` | Erforderlich. Der Parameter `namespace` ist erforderlich, wenn Sie das [!DNL AudienceManagement]-Modul verwenden, das mit [!UICONTROL AppMeasurement] Version 2.10 oder neuer integriert ist. Für dieses [!UICONTROL AudienceManagement]-Modul müssen Sie [!UICONTROL Adobe Experience Platform Identity Service] 3.3 oder höher verwenden. <br><br>Die  [!UICONTROL Experience Cloud Organization ID] ist die ID, die ein Unternehmen erhält, wenn es sich für  [!UICONTROL Experience Cloud]anmeldet. Erfahren Sie mehr über die Organisations-ID Ihres Unternehmens in [Organisationen und Kontoverknüpfung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
 
-## Ergebnisse: Datenweiterleitung zu [!DNL Audience Manager] {#results-data-forwarding}
+## Ergebnisse: Datenweiterleitung an [!DNL Audience Manager] {#results-data-forwarding}
 
 Ihre [!DNL Analytics]-Implementierung sendet Daten an [!DNL Audience Manager], nachdem Sie über Folgendes verfügen:
 
