@@ -5,7 +5,8 @@ seo-title: Häufig gestellte Fragen zur Look-alike-Modellierung
 solution: Audience Manager
 title: Häufig gestellte Fragen zur Look-alike-Modellierung
 feature: Algorithmische Modelle
-source-git-commit: cf9368d4690b61066646054543cc60d390eea021
+exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
+source-git-commit: 37823ae54e106e32aa195a6b69e0f1ebfc322f09
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
