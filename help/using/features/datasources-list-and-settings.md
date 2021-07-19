@@ -14,13 +14,13 @@ ht-degree: 3%
 
 ---
 
-# [!UICONTROL Data Sources] Liste und Einstellungen  {#data-sources-list-and-settings}
+# [!UICONTROL Data Sources] Liste und Einstellungen {#data-sources-list-and-settings}
 
 Zeigen Sie eine Liste Ihrer derzeit konfigurierten [!UICONTROL data sources] an, fügen Sie neue [!UICONTROL data sources] hinzu und bearbeiten Sie vorhandene [!UICONTROL data sources].
 
 Sie können [!UICONTROL data sources] auch mit [!DNL API]-Methoden verwalten. Weitere Informationen finden Sie unter [API-Methoden für Datenquellen](../api/rest-api-main/aam-api-data-sources.md).
 
-## [!UICONTROL Data Sources]Listenansicht{#list-view}
+## [!UICONTROL Data Sources]Listenansicht {#list-view}
 
 Das Dashboard [!UICONTROL Data Sources] ist ein zentralisierter Arbeitsbereich zur Verwaltung von Datenquellen.
 
@@ -30,7 +30,7 @@ Das Dashboard [!UICONTROL Data Sources] (**[!UICONTROL Audience Data]** > **[!UI
 * Suchen Sie nach [!UICONTROL data sources] nach dem Namen.
 * Erstellen, bearbeiten und löschen Sie [!UICONTROL data sources].
 
-## [!DNL Data Source] Einstellungen und Menüoptionen  {#settings-menu-options}
+## [!DNL Data Source] Einstellungen und Menüoptionen {#settings-menu-options}
 
 Die Einstellungen in den verschiedenen Abschnitten der Verwaltungsoberfläche [!UICONTROL Data Source] identifizieren Ihre [!DNL data source], bestimmen, wie sie verwendet oder freigegeben werden, und ermöglichen Ihnen die Aktivierung der Fehlerberichte für [!UICONTROL Onboarding Status Report].
 
@@ -142,7 +142,7 @@ Aktivieren Sie das Kontrollkästchen **[!UICONTROL Inbound]** , wenn Ihre Datenq
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Als authentifiziertes Profil verwenden</span></b> </p> </td> 
-   <td colname="col2"> <p>Ihre geräteübergreifende Datenquelle enthält eine Authentifizierte ID. Eine authentifizierte ID wird erfasst und mit einer <span class="keyword"> -Audience Manager</span>-ID synchronisiert, während eines Authentifizierungsereignisses (z. B. Anmeldung eines Benutzers vor Ort, in der App usw.). Die authentifizierte ID kann verwendet werden, um Daten aus anderen Quellen zu integrieren, die diese ID speichern. Sie kann auch verwendet werden, um mehrere Geräte-IDs in <span class="wintitle"> Profil-Link</span> zu verknüpfen. </p> <p>Diese Option zeigt ein Textfeld an, in dem Sie die Datenquelle mit einem Alias umbenennen können. Wenn Sie einen Alias verwenden, überschreibt dieser neue Name den Datenquellennamen und erscheint in den <span class="wintitle"> Authentifizierten Profiloptionen</span>, wenn Sie <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> eine Profilzusammenführungsregel</a> erstellen. </p> </td> 
+   <td colname="col2"> <p>Ihre geräteübergreifende Datenquelle enthält eine Authentifizierte ID. Eine authentifizierte ID wird erfasst und mit einer <span class="keyword"> -Audience Manager</span>-ID synchronisiert, während eines Authentifizierungsereignisses (z. B. Anmeldung eines Benutzers vor Ort, in der App usw.). Die authentifizierte ID kann verwendet werden, um Daten aus anderen Quellen zu integrieren, die diese ID speichern. Sie kann auch verwendet werden, um mehrere Geräte-IDs in <span class="wintitle"> Profil-Link</span> zu verknüpfen. </p> <p>Diese Option zeigt ein Textfeld an, in dem Sie die Datenquelle mit einem Alias umbenennen können. Wenn Sie einen Alias verwenden, überschreibt dieser neue Name den Datenquellennamen und wird in den <span class="wintitle"> Authentifizierten Profiloptionen</span> angezeigt, wenn Sie <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> eine Profilzusammenführungsregel</a> erstellen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Als Gerätediagramm verwenden</span></b> </p> </td> 
