@@ -36,7 +36,7 @@ Eine `GET`-Methode zur Auflistung der verfügbaren Objekttypen, für die rollenb
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Verfügbare Berechtigungen für einen Objekttyp {#list-permissions-object-type} auflisten
+## Verfügbare Berechtigungen für einen Objekttyp auflisten {#list-permissions-object-type}
 
 Eine `GET`-Methode zum Auflisten der verfügbaren Berechtigungen für einen Objekttyp.
 
