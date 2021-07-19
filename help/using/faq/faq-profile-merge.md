@@ -15,7 +15,7 @@ ht-degree: 86%
 
 ---
 
-# Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zum Gerätediagramm {#profile-merge-rules-and-device-graph-faq}
+# Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zum Gerätediagramm{#profile-merge-rules-and-device-graph-faq}
 
 Antworten auf häufig gestellte Fragen zur Profilzusammenführungsrichtlinie und zum Gerätediagramm.
 
