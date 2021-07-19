@@ -73,7 +73,7 @@ Durch Klicken auf **[!UICONTROL Add Rule]** wird die Eigenschaft gespeichert und
 
 ![](assets/tb_sample_rule2.png)
 
-## Erstellen einer neuen Regelgruppe {#create-rule-group}
+## Neue Regelgruppe erstellen {#create-rule-group}
 
 Dieser Vorgang beschreibt, wie Sie eine neue Regelgruppe erstellen.
 
