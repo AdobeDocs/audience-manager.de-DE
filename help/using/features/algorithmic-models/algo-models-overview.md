@@ -16,7 +16,7 @@ ht-degree: 16%
 
 # Algorithmische Modelle – Überblick
 
-## Was ist algorithmische Modellierung{#what-algo-modeling}
+## Was ist algorithmische Modellierung?{#what-algo-modeling}
 
 Algorithmische Modellierung in Audience Manager bezieht sich auf die Verwendung der Datenwissenschaft, um Ihre bestehenden Zielgruppen zu erweitern oder in Personas zu klassifizieren.
 
