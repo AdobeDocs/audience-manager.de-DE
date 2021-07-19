@@ -44,7 +44,7 @@ In diesem Anwendungsfall vergleichen Sie verschiedene Modelle. Sie können Model
    * Die [Audience Lab-Berichtsansicht](../../features/audience-lab/audience-lab-reporting-view.md) zeigt die Anzahl der Konversionen an, die die einzelnen Modelle erzielen. Bei konversionsbasierten Kampagnen zeigt das Testsegment, das die meisten Konversionen steuert, das Modell an, das die beste Leistung erzielt.
    * Da Sie über Kontrollsegmente verfügen, können Sie auch bewerten, wie das Modell mit &quot;Standard-Targeting&quot;funktioniert hat. Sie testen nicht nur ein Modell im Vergleich zum anderen, sondern testen auch die Frage: &quot;Hat dieses Modell bessere Ergebnisse erzielt als normale Praktiken?&quot;
 
-## Testen von Kreativen über Ziele hinweg {#testing-creatives}
+## Testen von Kreativelementen über Ziele hinweg {#testing-creatives}
 
 <!-- audience-lab-creatives-across-destinations.xml -->
 
