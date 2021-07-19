@@ -50,7 +50,7 @@ Die folgende Abbildung bietet einen allgemeinen Überblick über Elemente im [!U
 
 Wählen Sie einen einzelnen Punkt aus, um die Datendetails in einem Popup-Fenster anzuzeigen. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
 
-## Überlagerungsdatenfelder für Eigenschaften {#field-definitions} definiert
+## Überlagerungsdatenfelder zwischen Eigenschaften definiert {#field-definitions}
 
 Beschreibt die Metriken, die im Popup-Fenster angezeigt werden, wenn Sie auf einen einzelnen Datenpunkt klicken.
 
