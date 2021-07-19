@@ -70,7 +70,7 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
  </tbody> 
 </table>
 
-## Zeilenmakros für Kopfzeilen {#header-macros}
+## Kopfzeilenmakros {#header-macros}
 
 Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende Vorlagenmakros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
