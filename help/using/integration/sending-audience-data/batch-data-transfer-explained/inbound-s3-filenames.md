@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ---
 
-# [!DNL Amazon S3] Anforderungen an Namen und Dateigrößen der eingehenden Datendateien  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Anforderungen an Namen und Dateigrößen der eingehenden Datendateien {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Beschreibt die erforderlichen Felder, Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an [!DNL Audience Manager] beachtet werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an ein Verzeichnis [!DNL Audience Manager] / [!DNL Amazon S3] senden.
 
@@ -22,7 +22,7 @@ Beschreibt die erforderlichen Felder, Syntax, Benennungskonventionen und Dateigr
 >
 >Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument Code-Elemente und -Optionen angeben. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
 
-## Syntax für Dateinamen {#file-name-syntax}
+## Dateinamensyntax {#file-name-syntax}
 
 [!DNL S3] -Dateinamen enthalten die folgenden erforderlichen und optionalen Elemente:
 
@@ -128,7 +128,7 @@ Die folgenden Beispiele zeigen ordnungsgemäß formatierte Dateinamen. Ihre Date
 
 Wenn Sie weitere Beispiele wünschen, können Sie die Beispieldatei [herunterladen](assets/ftp_dpm_1234_1445374061.overwrite). Diese Datei wurde mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie es mit einem einfachen Texteditor.
 
-## Akzeptierte Dateigrößen {#accepted-file-sizes}
+## Zulässige Dateigrößen {#accepted-file-sizes}
 
 Beachten Sie die folgenden Zahlen für die schnellste/früheste Verarbeitung Ihrer Dateien sowie für Dateigrößenbeschränkungen beim Senden von Daten an ein [!DNL Audience Manager] / [!DNL Amazon S3]-Verzeichnis.
 
