@@ -39,7 +39,7 @@ Sie können [!DNL People-Based Destinations] verwenden, um Kunden mit hohem Wert
 
 [!DNL People-Based Destinations] ist eine Premium-Audience Manager-Integration. Wenden Sie sich an Ihren Kundenbetreuer, um von dieser Premium-Funktion profitieren zu können.
 
-## Warum sollten Sie [!UICONTROL People-Based Destinations] {#why-use} verwenden?
+## Warum sollten Sie [!UICONTROL People-Based Destinations] verwenden? {#why-use}
 
 **Stellen Sie Ihren Kunden konsistente kanalübergreifende Erlebnisse bereit, indem Sie Ihre gesamte Zielgruppensegmentierung innerhalb von Audience Manager verwalten.**
 
@@ -69,7 +69,7 @@ Sehen Sie sich das folgende Video an, um einen Überblick über den Datenfluss b
 
 Um Ihnen zu helfen, besser zu verstehen, wie und wann Sie [!DNL People-Based Destinations] verwenden sollten, finden Sie hier zwei Beispielanwendungsfälle, die Audience Manager mit dieser Funktion lösen können.
 
-### Nutzungsszenario 1 {#use-case-1}
+### Anwendungsfall 1 {#use-case-1}
 
 Ein Online-Einzelhändler möchte bestehende Kunden über soziale Plattformen erreichen und ihnen personalisierte Angebote basierend auf ihren bisherigen Bestellungen zeigen. Mit [!DNL People-Based Destinations] kann der Online-Einzelhändler Hash-E-Mail-Adressen von seinem eigenen [!DNL CRM] in den Audience Manager aufnehmen, Segmente aus eigenen Offline-Daten erstellen und diese Segmente an die Social-Plattformen senden, auf denen er werben möchte, und so seine Werbeausgaben optimieren.
 
