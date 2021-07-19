@@ -55,7 +55,7 @@ Die Bezeichnungen im Beispiel und in der folgenden Tabelle können Ihnen dabei h
  </tbody> 
 </table>
 
-## Lesen der nicht zugeordneten Segmentergebnisse {#read-unmapped-segment-results}
+## So lesen Sie die nicht zugeordneten Segmentergebnisse {#read-unmapped-segment-results}
 
 Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance] -Bericht ansehen, ist dies eine großartige Möglichkeit, neue Segmente zu finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen. Dies liegt daran, dass ein nicht zugeordnetes Segment einen Satz von Qualifikationskriterien erfüllen muss, um in diesen Bericht aufgenommen zu werden. Um in diesen Bericht aufgenommen zu werden, muss ein nicht zugeordnetes Segment:
 
