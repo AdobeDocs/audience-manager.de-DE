@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Passwortanforderungen, gesperrte Konten und vergessene Passwörter {#password-requirements-locked-accounts-and-forgotten-passwords}
+# Passwortanforderungen, gesperrte Konten und vergessene Passwörter{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager kann so konfiguriert werden, dass Passwörter alle 30 Tage ablaufen. Wenden Sie sich an Ihren Audience Manager-Berater oder die Kundenunterstützung, wenn Sie das Ablaufen von Passwörtern aktivieren möchten. In diesem Abschnitt finden Sie Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Passworts.
 
