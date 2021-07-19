@@ -78,7 +78,7 @@ Sie können beliebige Erstanbietereigenschaften oder -segmente auswählen, um Ih
 * Wählen Sie Grundlinieneigenschaften oder Segmente mit minimaler Überschneidung aus.
 * Stellen Sie sicher, dass Sie granulare Eigenschaften in allen Ihren digitalen Eigenschaften erfassen.
 
-### Auswahlkriterien für Zielgruppen {#selection-audience}
+### Auswahlkriterien für Target-Zielgruppe {#selection-audience}
 
 Wählen Sie je nach Anwendungsfall eine Zielgruppe ([!UICONTROL trait] oder [!UICONTROL segment]) mit einer signifikanten Echtzeit- und/oder Gesamtpopulation aus, unabhängig davon, ob Sie Benutzer in Echtzeit, im Batch-Modus oder beidem klassifizieren möchten. Ähnlich wie bei der Personenauswahl empfehlen wir, dass Ihre Zielgruppe [!UICONTROL trait] oder [!UICONTROL segment] Benutzer mit Rich-Profilen (umfangreiche Sets von [!UICONTROL traits]) aufweist.
 
@@ -86,14 +86,14 @@ Analysieren Sie bei der Auswahl der Zielgruppe Ihren Anwendungsfall und entschei
 
 Als Best Practice wird empfohlen, ein [!UICONTROL Profile Merge Rule] auszuwählen, das dieselbe Konfiguration wie Ihre Zielgruppe [!UICONTROL Profile Merge Rule] aufweist oder den Profiltyp (Geräteprofil oder authentifiziertes Profil) Ihrer Zielgruppe enthält.
 
-### [!UICONTROL Predictive Audiences] Modellschulung  {#model-training}
+### [!UICONTROL Predictive Audiences] Modellschulung {#model-training}
 
 Bevor der Algorithmus Ihre Erstanbieter-Audience in die richtigen Personas klassifizieren kann, muss er sich selbst auf Ihre Daten trainieren.
 
 Für jede von Ihnen definierte Persona analysiert der Algorithmus die jeweilige Zielgruppe und wertet die Echtzeit- und/oder integrierten Eigenschaftsaktivitäten für die Benutzer in den letzten 30 Tagen aus.
 Dieser Schritt erfolgt einmal alle 24 Stunden, um Änderungen in Ihrer Erstanbieter-Zielgruppe zu berücksichtigen.
 
-### [!UICONTROL Predictive Audiences] Modellklassifizierungsphase  {#model-classification}
+### [!UICONTROL Predictive Audiences] Modellklassifizierungsphase {#model-classification}
 
 Bei der Echtzeit- und Batch-Zielgruppen-Classification prüft das Modell zunächst, ob ein Benutzer zur Zielgruppe gehört. Wenn sich der Benutzer für die Zielgruppe qualifiziert und keiner der Personas angehört, weist das Modell ihm eine Qualifizierungsbewertung für die Persona zu.
 
