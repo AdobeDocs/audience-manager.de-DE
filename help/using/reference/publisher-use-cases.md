@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Anwendungsfälle für Publisher {#publisher-use-cases}
+# Anwendungsfälle für Publisher{#publisher-use-cases}
 
 Hier finden Sie einige gängige Anforderungen von Publishern, die von Adobe Audience Manager erfüllt werden.
 
