@@ -124,7 +124,7 @@ Mit [!UICONTROL Destination Builder] können Sie Schlüssel-Wert-Daten auf versc
  </tbody> 
 </table>
 
-## Ziel-Serialisierung {#destination-serialized}
+## Zielserialisierung {#destination-serialized}
 
 Ein serialisiertes Ziel kombiniert mehrere Eigenschaften in einer Zeichenfolge und sendet diese Informationen an ein Ziel.
 
