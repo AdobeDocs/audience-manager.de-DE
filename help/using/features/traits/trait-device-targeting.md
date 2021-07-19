@@ -24,7 +24,7 @@ Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, die Sie
 
 Variablen auf Plattformebene ermöglichen es Ihnen, von einer bestimmten Site übergebene Daten für das Targeting über alle Eigenschaften Ihres [!DNL Audience Manager]-Kontos hinweg zur Verfügung zu stellen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei dem Schlüssel `d_` das Präfix  vorangestellt wird, wie unten dargestellt.
 
-## Von Benutzeragent definierte Schlüssel auf Plattformebene {#keys-user-agent}
+## Von User Agent definierte Schlüssel auf Plattformebene {#keys-user-agent}
 
 Die [!UICONTROL Data Collection Servers] extrahieren die Werte für diese Schlüssel aus der [Benutzeragenten-Kopfzeile](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` -Anforderungen. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas]-Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie aus dem Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gängigsten Schlüssel](assets/device_keys.csv) herunter, je nach  [!UICONTROL Device Atlas] Messungen.
 
