@@ -77,7 +77,7 @@ Bei beiden Methoden steht die Sicherheit der Daten unserer Kunden und Partner im
 
 Informationen zum Hinzufügen der PGP-Verschlüsselung zu Ihren Datendateien finden Sie unter [Datei-PGP-Verschlüsselung für eingehende Datentypen](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
-## Schutz von Daten durch Escaping (Maskierungszeichen) {#escaping-data}
+## Schutz von Daten durch Escaping (Maskierungszeichen)  {#escaping-data}
 
 Beachten Sie, dass [!DNL Audience Manager] bei ausgehenden Daten keine Maskierungszeichen verwendet, um sie gegen ein mögliches Cross-Site-Scripting (XSS) usw. zu schützen. Es liegt in der Verantwortung des Client, eingehenden Daten mit Maskierungszeichen zu versehen.
 
