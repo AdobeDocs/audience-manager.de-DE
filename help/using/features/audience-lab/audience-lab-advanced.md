@@ -14,11 +14,11 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Audience Lab] Erweiterte Funktionen  {#audience-lab-advanced-functionality}
+# [!DNL Audience Lab] Erweiterte Funktionen {#audience-lab-advanced-functionality}
 
 In diesem Artikel werden zwei Funktionen beschrieben, die erweiterte Funktionen für [!DNL Audience Lab] bieten: [!DNL Duplicate Allocation Template] und [!DNL Segment Holdout].
 
-## Vorlage für doppelte Zuordnung {#duplicate-allocation-template}
+## Zuordnungsvorlage duplizieren {#duplicate-allocation-template}
 
 <!-- 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
@@ -57,7 +57,7 @@ Erstellen Sie eine erste Testgruppe und wählen Sie **[!UICONTROL Duplicate Allo
 
 4. Überprüfen Sie die Informationen, die Sie in den vorherigen Schritten hinzugefügt haben, und wählen Sie **[!UICONTROL Finalize Group]** aus.
 
-## Testsegment mit {#test-segment-holdout}
+## Test Segment Holding {#test-segment-holdout}
 
 >[!NOTE]
 >
