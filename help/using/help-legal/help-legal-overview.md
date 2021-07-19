@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Hilfe und rechtliche Informationen {#help-and-legal}
+# Hilfe und rechtliche Informationen{#help-and-legal}
 
 Ressourcen für die Kundenunterstützung und rechtliche Fragen im Zusammenhang mit der Verwendung dieses Produkts und der Dokumentation.
 
