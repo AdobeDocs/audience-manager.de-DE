@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Häufig gestellte Fragen zur Zielgruppenbestimmung {#targeting-faq}
+# Häufig gestellte Fragen zur Zielgruppenbestimmung{#targeting-faq}
 
 Häufige Fragen und Probleme im Zusammenhang mit der Zielgruppenbestimmung.
 
