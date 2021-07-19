@@ -24,7 +24,7 @@ Methoden, mit denen Sie die gemeinsame Taxonomie des Audience Managers anzeigen 
 >
 >Mit diesen Methoden können Sie keine neuen Taxonomiekategorien erstellen oder Eigenschaften klassifizieren. Um eine Eigenschaft zu klassifizieren, geben Sie die entsprechende `categoryId` mit einer Methode zum Erstellen oder Aktualisieren von Eigenschaften an.
 
-## Rückgabe einer bestimmten Taxonomie {#return-specific-taxonomy}
+## Bestimmte Taxonomie zurückgeben {#return-specific-taxonomy}
 
 Eine `GET` -Methode, die Details zur angegebenen taxonomischen Kategorie zurückgibt.
 
@@ -92,7 +92,7 @@ Kürzt aus Gründen der Kürze.
 ]
 ```
 
-## Rückgabe Taxonomischer Unterkategorien {#return-taxonomy-sub-categories}
+## Rückgabe taxonomischer Unterkategorien {#return-taxonomy-sub-categories}
 
 Eine `GET` -Methode, die Unterkategorien für die angegebene übergeordnete Kategorie in einem Array zurückgibt.
 
