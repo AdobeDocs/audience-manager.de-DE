@@ -143,7 +143,7 @@ Der Echtzeit-Datenintegrationsprozess funktioniert wie folgt:
 
 ![](assets/rt_reduce70.png)
 
-## Batch-Datenübertragungsprozess {#batch-data-transfer-process}
+## Batch-Datenübertragungsprozess  {#batch-data-transfer-process}
 
 Ein allgemeiner Überblick darüber, wie Audience Manager Daten synchron (in Echtzeit) mit einem Drittanbieter austauschen.
 
