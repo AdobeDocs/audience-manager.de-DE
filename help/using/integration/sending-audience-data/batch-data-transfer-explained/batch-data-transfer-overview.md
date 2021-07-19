@@ -15,7 +15,7 @@ ht-degree: 7%
 
 ---
 
-# Senden von Batch-Daten an [!DNL Audience Manager] Übersicht {#send-batch-data-to-audience-manager-overview}
+# Senden von Batch-Daten an [!DNL Audience Manager] - Übersicht {#send-batch-data-to-audience-manager-overview}
 
 Eine Übersicht für technische und nicht-technische Kunden, die Daten aus anderen Systemen (offline) in [!DNL Audience Manager] übertragen möchten.
 
