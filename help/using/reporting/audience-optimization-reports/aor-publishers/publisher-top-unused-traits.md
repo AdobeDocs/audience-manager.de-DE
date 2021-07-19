@@ -22,7 +22,7 @@ Die wichtigsten nicht verwendeten Eigenschaften werden als Streudiagramm von Eig
 
 Mit dem Bericht [!UICONTROL Top Unused Traits] können Sie die Leistung von Erstanbieter- und Drittanbietereigenschaften analysieren und vergleichen, die derzeit keinem Segment zugeordnet sind. Diese Ansicht kann die besten Eigenschaften hervorheben, die in einem Zielgruppensegment zur Kampagnenoptimierung oder zu neuen Chancen verwendet werden können.
 
-## Verwenden des Berichts &quot;Häufigste nicht verwendete Eigenschaften&quot;{#using-the-report}
+## Verwenden des Berichts &quot;Häufigste nicht verwendete Eigenschaften&quot; {#using-the-report}
 
 Verwenden Sie die **[!UICONTROL Data Provider Type]**-Steuerelemente, um zwischen Erstanbieter- und Drittanbieter-Eigenschaften umzuschalten. Wählen Sie **[!UICONTROL All]** aus, um Erstanbieter- und Drittanbieter-Eigenschaften im Bericht zurückzugeben.
 
