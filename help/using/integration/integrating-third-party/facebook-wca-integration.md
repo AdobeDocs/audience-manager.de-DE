@@ -56,7 +56,7 @@ Wählen Sie die Option **[!UICONTROL This destination may enable a combination w
 
 ### Konfiguration
 
-* **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. Durch Auswahl dieser Option [!UICONTROL URL Type] verdeckt [!DNL Audience Manager] die verweisende Stelle [!DNL URL] nicht, wenn ein [!DNL Facebook WCA]-Pixel ausgelöst wird.
+* **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. Durch Auswahl dieser [!UICONTROL URL Type]-Option verdeckt [!DNL Audience Manager] die verweisende Stelle [!DNL URL] nicht, wenn ein [!DNL Facebook WCA]-Pixel ausgelöst wird.
 * **[!UICONTROL Serialize]**: Select **[!UICONTROL Enable]**.
 * Geben Sie in die Felder **[!UICONTROL Base URL]** und **[!UICONTROL Secure URL]** das Pixel [!DNL Facebook WCA] ein.
 * **[!UICONTROL Delimiter]**:  `,`
