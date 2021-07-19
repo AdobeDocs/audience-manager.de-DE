@@ -17,11 +17,11 @@ ht-degree: 5%
 
 Bevor Sie Batch-Daten an Drittanbieter von Inhalten senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter von Inhalten konfigurieren. Dazu gibt es zwei Möglichkeiten:
 
-## Fordern Sie die Konfiguration der Hilfe über Ihren Adobe-Berater an {#config-consultant}
+## Fordern Sie die Konfiguration der Hilfe über Ihren Adobe Consultant an {#config-consultant}
 
 Wenn Sie mit einem Adobe Consultant zusammenarbeiten, übernimmt dieser den Konfigurationsprozess für Sie.
 
-## Konfiguration der Hilfe über den Adobe-Support {#config-support} anfordern
+## Konfiguration der Hilfe über den Adobe-Support anfordern {#config-support}
 
 Wenn Sie nicht mit einem Adobe-Berater zusammenarbeiten, können Sie die Batch-Transfer-Integration weiterhin vom Kundensupport konfigurieren lassen. Weitere Informationen erhalten Sie vom Kundensupport.
 
