@@ -59,7 +59,7 @@ Eine `POST` -Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
 }
 ```
 
-## Eigenschaften für einen Eigenschaftstyp {#return-props} zurückgeben
+## Rückgabeeigenschaften für einen Eigenschaftstyp {#return-props}
 
 Eine `GET` -Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
 
@@ -84,7 +84,7 @@ Eine `GET` -Methode, die Details zum angegebenen Eigenschaftstyp zurückgibt.
 }
 ```
 
-## Eigenschaften für alle Eigenschaftstypen zurückgeben {#return-props-all}
+## Rückgabeeigenschaften für alle Eigenschaftstypen {#return-props-all}
 
 Eine `GET` -Methode, die Details zu allen Eigenschaftstypen in einem Array zurückgibt.
 
