@@ -107,7 +107,7 @@ Stellen Sie beim Erstellen Ihrer eingehenden Dateien sicher, dass in der ersten 
 >
 >Verwenden Sie nicht [DPUUIDs](../../../reference/ids-in-aam.md) in der ersten Spalte. Dies kann zu einer falschen Synchronisierung führen.
 
-## Die Synchronisierung stimmt mit DPUUIDs mit UUIDs überein {#sync-matches-dpuuids-uuids}
+## Synchronisierung stimmt mit DPUUIDs mit UUIDs überein {#sync-matches-dpuuids-uuids}
 
 Eine ID-Synchronisierungsdatei dient der Synchronisierung der [DPUUIDs](../../../reference/ids-in-aam.md) aus Ihren eigenen Data Sources mit [!DNL Audience Manager] UUIDs. Die Synchronisierung ordnet die [!DNL DPUUID]s aus dem Übergeordneten [!DNL DPID] und die zugehörigen [!DNL DPID]s den [!DNL Audience Manager] [!DNL UUID]s zu. Wenn Sie die IDs in den Dateinamen setzen, bestimmt der Hauptteil, wie diese IDs einander zugeordnet werden. Nehmen Sie beispielsweise die beiden folgenden Beispieldateien:
 
