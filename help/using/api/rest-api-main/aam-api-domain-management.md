@@ -20,7 +20,7 @@ Domain-Verwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten k
 
 <!-- c_partner_site.xml -->
 
-## Erstellen einer neuen Domäne {#create-new-domain}
+## Neue Domäne erstellen {#create-new-domain}
 
 Eine `POST` -Methode, mit der Sie eine neue Domäne für erstellen können (nur Cookie-Ziele).
 
@@ -86,7 +86,7 @@ Eine erfolgreiche Antwort gibt `200 OK` und -Daten zurück, wie im folgenden Bei
 }
 ```
 
-## Eigenschaften für alle Domänen zurückgeben {#return-props-all-domains}
+## Rückgabeeigenschaften für alle Domänen {#return-props-all-domains}
 
 Eine `GET` -Methode, die Informationen über alle Ihre Domänen zurückgibt (nur für Cookie-Ziele).
 
