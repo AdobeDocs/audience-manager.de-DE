@@ -46,7 +46,7 @@ Um [!DNL Bulk Management Tools] zu verwenden, benötigen Sie Folgendes:
 * [!DNL Microsoft Excel] auf  [!DNL macOS] oder 64-Bit ausgeführt  [!DNL Microsoft Windows]werden. Es wird empfohlen, die neueste Version von [!DNL Microsoft Excel] zu verwenden.
 * Beim Öffnen des Arbeitsblatts müssen Sie **Makros aktivieren** aktivieren, damit [!DNL Bulk Management Tools] funktioniert.
 
-## Authentifizierungsanforderungen und Optionen {#auth-reqs}
+## Authentifizierungsanforderungen und -optionen {#auth-reqs}
 
 Massenänderungen erfordern eine Authentifizierung. Bevor Sie eine Aktion durchführen, müssen Sie sich anmelden. Da das Arbeitsblatt API-Aufrufe ausführt, müssen Sie es für die Authentifizierung in Ihrem Benutzerkonto konfigurieren.
 
