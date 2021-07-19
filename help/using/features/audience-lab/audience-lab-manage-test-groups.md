@@ -98,7 +98,7 @@ In [!UICONTROL Audience Lab] können Sie nur Entwürfe von Testgruppen bearbeite
 1. Suchen Sie nach Ihren Testgruppenentwürfen und wählen Sie das Steuerelement **[!UICONTROL Edit]** in der Testgruppenkarte aus.
 1. Setzen Sie den Assistenten [Segment-Testgruppe erstellen](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) fort und wählen Sie nach Abschluss **[!UICONTROL Finalize Group]** aus.
 
-## Löschen von Segmenttestgruppen {#delete-test-groups}
+## Segmenttestgruppen löschen {#delete-test-groups}
 
 1. Navigieren Sie zur Hauptansicht [!UICONTROL Audience Lab].
 1. Suchen Sie die Testgruppe, die Sie löschen möchten. Sie können das Bild entweder:
