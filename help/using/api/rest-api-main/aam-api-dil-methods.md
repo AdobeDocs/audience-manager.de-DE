@@ -42,7 +42,7 @@ Eine erfolgreiche Anfrage gibt den Antwortcode `["4.0", "4.1"]` zurück, wie unt
 ["4.0", "4.1"]
 ```
 
-## JSON-Schema für die Ausgabe {#return-json-schema-version} zurückgeben
+## JSON-Schema für die Version zurückgeben {#return-json-schema-version}
 
 Eine `GET` -Methode, die das Schema [!DNL JSON] für die [!UICONTROL DIL] -Version zurückgibt. Unterstützt die Verwendung von Alias [!UICONTROL LATEST] für Version, um die neueste Version von [!UICONTROL DIL] zu erhalten.
 
