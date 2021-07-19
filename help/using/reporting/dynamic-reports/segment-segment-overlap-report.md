@@ -49,7 +49,7 @@ Die folgende Abbildung bietet einen allgemeinen Überblick über den Bericht [!U
 
 Wählen Sie einen einzelnen Punkt aus, um die Datendetails in einem Popup-Fenster anzuzeigen. Durch Ihre Klickaktionen werden die im Bericht angezeigten Daten automatisch aktualisiert.
 
-## Überlagerungsdaten-Populationsfelder zwischen Segmenten {#fields-defined} definiert
+## Überlagerungsdaten-Populationsfelder zwischen Segmenten definiert {#fields-defined}
 
 <!-- 
 
