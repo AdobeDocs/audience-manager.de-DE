@@ -51,7 +51,7 @@ Die DPID und die DPUUID sind Schlüssel-Wert-Paare, die eine Datenanbieter-ID un
 
 Diese Schlüssel-Wert-Paare funktionieren weiterhin, werden jedoch nicht mehr unterstützt. Sie sollten Ihren Code so aktualisieren, dass stattdessen CID oder CID_IC verwendet wird.
 
-## CID und CID_IC: Über {#cid-cidic-about}
+## CID und CID_IC: Info {#cid-cidic-about}
 
 Die Schlüssel-Wert-Paare CID und CID_IC ersetzen DPID und DPUUID. Sie bieten dieselben Funktionen wie DPID und DPUUID, sind jedoch effizienter, da sie die Datenanbieter-ID (oder den Integrationscode) und die Benutzer-ID in einem einzelnen Schlüssel-Wert-Paar enthalten. In jedem Schlüssel-Wert-Paar:
 
