@@ -26,7 +26,7 @@ ht-degree: 15%
 
 Die technischen Details der Aufhebung der Segmentierung in Echtzeit werden in [Regeln zur Profilzusammenführung und Prozesse zur Aufhebung der Gerätesegmentierung](merge-rule-unsegment.md) ausführlich beschrieben. Lesen Sie für die praktische Umsetzung der oben beschriebenen Anwendungsfälle weiter.
 
-## Keine Zielgruppe nach Konvertierung von {#do-not-target-once}
+## Keine Zielgruppe nach Konvertierung {#do-not-target-once}
 
 Vergewissern Sie sich, dass Ihre Benutzer, die bereits konvertiert haben (ein Produkt gekauft, ein Abonnement erworben haben usw.) wird nicht die gleiche Nachricht wie vor der Konvertierung angezeigt. Sie können dies mit der [!UICONTROL AND NOT] -Logik wie folgt abrufen.
 
@@ -37,7 +37,7 @@ Ihre Besucher qualifizieren sich für das Segment, solange sie nicht konvertiert
 
 ![](assets/and_not_use_case.png)
 
-## Keine Zielgruppenbestimmung nach x Impressionen {#do-not-target-after-x}
+## Keine Zielgruppe nach x Impressionen {#do-not-target-after-x}
 
 Sie können sicherstellen, dass Ihre Benutzer nicht mit demselben kreativen Inhalt überschwemmt werden, indem Sie Neuigkeits- und Häufigkeitskontrollen festlegen. Erstellen Sie in diesem Szenario ein Segment mit zwei Eigenschaften, wie in den folgenden Schritten beschrieben.
 
@@ -52,7 +52,7 @@ In diesem Szenario werden Ihre Benutzer, sobald sie mehr als drei Impressionen g
 
 ![](assets/impressions_use_case.png)
 
-## Wichtige Aspekte zu beachten - Verarbeitung {#processing-notes}
+## Wichtige Aspekte - Verarbeitung {#processing-notes}
 
 Beachten Sie folgende Aspekte im Zusammenhang mit der Verarbeitung:
 
@@ -62,7 +62,7 @@ Beachten Sie folgende Aspekte im Zusammenhang mit der Verarbeitung:
 * Das Gerät muss in Echtzeit (auf dem [Edge](../../reference/system-components/components-edge.md) angezeigt werden, um die Segmentbewertung in Echtzeit zu veranlassen. Bei Eigenschaften mit [!UICONTROL time-to-live (TTL)], wenn die Eigenschaft [!DNL TTL] erfüllt ist, wird die Segmentierung des Geräts über die Batch-Datei automatisch innerhalb von 24 Stunden aufgehoben. &#x200B; Erfahren Sie mehr darüber, wie Sie [ein Ablaufintervall für Eigenschaften festlegen](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
 * Wenn Sie [!UICONTROL DCS API] verwenden, um regelbasierte Eigenschaften in Echtzeit zu integrieren, können Sie die Aufhebung der Segmentierung mit der Verwendung der [!UICONTROL AND NOT]-Logik Trigger haben. Lesen Sie mehr über [Senden von Daten an die DCS-API](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). &#x200B;
 
-## Wichtige Aspekte zu beachten - Zeit {#timing-notes}
+## Wichtige Aspekte - Zeit {#timing-notes}
 
 Beachten Sie die folgenden Aspekte im Zusammenhang mit dem Timing:
 
