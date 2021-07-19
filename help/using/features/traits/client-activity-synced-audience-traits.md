@@ -26,7 +26,7 @@ Dies sind spezielle Eigenschaften, die von [!UICONTROL Addressable Audiences] ve
 
 Eine Eigenschaft [!UICONTROL Active Audience] enthält alle Geräte, die in Ihrem [!DNL Audience Manager]-Konto verwaltet werden. Sie können [!UICONTROL Active Audience Trait] wie andere Eigenschaften verwenden, wenn Sie Segmente erstellen oder bearbeiten. Außerdem erfordert [Addressable Audiences](../../features/addressable-audiences.md), dass diese Eigenschaft Überlagerungsdaten generiert. Alle Konten weisen standardmäßig eine Eigenschaft [!UICONTROL Active Audience] auf. Diese Eigenschaft kann nicht gelöscht werden.
 
-## Datenquellensynchronisierte Eigenschaften {#data-source-synced-traits}
+## Eigenschaften mit Datenquellen-Synchronisierungen {#data-source-synced-traits}
 
 [!UICONTROL Data Source Synced Traits] werden im  [!UICONTROL Audience Traits] Ordner angezeigt, wenn Sie eine Datenquelle  [erstellen oder bearbeiten und eine der folgenden ](../../features/manage-datasources.md#create-data-source) Einstellungen anwenden:
 
