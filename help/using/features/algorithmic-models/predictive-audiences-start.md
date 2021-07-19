@@ -45,7 +45,7 @@ Sobald Sie wissen, welche Datenquelle Sie verwenden werden, führen Sie die folg
       ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. Klicken **[!UICONTROL Save]**.
 
-## Klonen und Bearbeiten prädiktiver Zielgruppenmodelle {#clone-predictive-audiences}
+## Klonen und Bearbeiten von Predictive Audience-Modellen {#clone-predictive-audiences}
 
 Audience Manager unterstützt keine Bearbeitung vorhandener [!UICONTROL Predictive Audiences]-Modelle. Um die Konfiguration eines Modells zu ändern, können Sie einen Klon eines vorhandenen Modells erstellen und es bearbeiten. So können Sie Folgendes tun:
 
@@ -59,6 +59,6 @@ Audience Manager unterstützt keine Bearbeitung vorhandener [!UICONTROL Predicti
 
 5. Wenn Sie die Bearbeitung eines Modells abgeschlossen haben, klicken Sie auf **[!UICONTROL Save]**.
 
-## Löschen prädiktiver Zielgruppen {#delete-predictive-audiences}
+## Löschen von Predictive Audiences {#delete-predictive-audiences}
 
 Um ein [!UICONTROL Predictive Audiences]-Modell zu löschen, navigieren Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, suchen Sie das Modell, das Sie löschen möchten, und klicken Sie auf das Symbol **[!UICONTROL Delete]**.
