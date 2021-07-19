@@ -24,7 +24,7 @@ zwischen Audience Manager- und benutzerbezogenen Plattformen.
 >[!NOTE]
 >Dies ist ein obligatorischer Schritt für personenbasierte Ziele, unabhängig von Ihrem Implementierungsszenario.
 
-## Konfigurieren der personenbasierten Plattformauthentifizierung {#configure-authentication}
+## Benutzerbasierte Plattformauthentifizierung konfigurieren {#configure-authentication}
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Wenn Sie bereits eine Integration mit einer sozialen Plattform konfiguriert haben, sollte diese auf dieser Seite aufgeführt sein. Andernfalls ist die Seite leer.
    ![People-based-integration](assets/pbd-config.png)
@@ -46,7 +46,7 @@ So fügen Sie vorhandenen Integrationen E-Mail-Adressen hinzu:
 1. Geben Sie die E-Mail-Adressen ein, an die Sie Benachrichtigungen zum Ablauf von Token erhalten möchten, getrennt durch Kommas.
 1. Klicken **[!UICONTROL Save]**.
 
-## Authentifizierungstoken Erneuerung {#token-renewal}
+## Erneuerung des Authentifizierungstokens {#token-renewal}
 
 Wenn ein Authentifizierungstoken abläuft, wird die Integration zwischen Audience Manager und der entsprechenden Social-Plattform unterbrochen, sodass Audience Manager keine Zielgruppensegmente mehr an das Ziel senden können. Die Seite [!UICONTROL Integrated Accounts] zeigt den Ablaufstatus jeder Integration in der Spalte [!UICONTROL Expiration] an und ermöglicht es Ihnen, die Authentifizierung jederzeit zu verlängern.
 
