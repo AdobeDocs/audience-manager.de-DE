@@ -14,7 +14,7 @@ ht-degree: 99%
 
 ---
 
-# Häufig gestellte Fragen zum Reporting {#reporting-faq}
+# Häufig gestellte Fragen zum Reporting{#reporting-faq}
 
 Häufige Fragen und Probleme im Zusammenhang mit dem Reporting.
 
