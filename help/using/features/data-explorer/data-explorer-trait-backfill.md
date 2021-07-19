@@ -60,7 +60,7 @@ Neu erstellte Eigenschaften beginnen zwei bis drei Stunden nach der Erstellung m
 
 Audience Manager aktualisiert das [!UICONTROL Trait Graph]-Objekt mit der aufgestockten Population innerhalb von 48 Stunden nach der Erstellung von Eigenschaften.
 
-## Eigenschaftsaufstockungsgrenze {#trait-backfilling-limit}
+## Eigenschafts-Aufstockungsgrenze {#trait-backfilling-limit}
 
 [!UICONTROL Data Explorer] ermöglicht es Ihnen, bis zu 50 Eigenschaften pro Monat aufzustocken, wobei der Aufstockungszähler am 1. Tag jedes Monats zurückgesetzt wird.
 
