@@ -29,7 +29,7 @@ In der folgenden Tabelle sind die [ID-Mapping](../../integration/sending-audienc
 | Geräteübergreifende ID ([DPUUID](../../reference/ids-in-aam.md)) zur Geräte-Advertising-ID ([DAID](../../reference/ids-in-aam.md)) | 10 geräteübergreifende IDs ([DPUUID](../../reference/ids-in-aam.md)) bis 1 Geräte-Advertising-ID ([DAID](../../reference/ids-in-aam.md)) pro [DPID](../../reference/ids-in-aam.md) |
 | Cookie/Browser-ID in Cookie/Browser-ID | 1000 Cookie-/Browser-IDs zu 1 Cookie/Browser-ID |
 
-## Elementgrenzen {#item-limits}
+## Elementbeschränkungen {#item-limits}
 
 In den Tabellen werden die aktuellen Beschränkungen nach Elementtyp aufgelistet. Sie können keine neuen Eigenschaften, Segmente, Ziele oder [!UICONTROL Algorithmic Models] erstellen, wenn Sie eine bestimmte Beschränkung für eines dieser Elemente erreichen. Wenn Sie ein Limit erreichen, müssen Sie ein älteres Element löschen, bevor Sie ein neues erstellen können.
 
@@ -88,12 +88,12 @@ In den Tabellen werden die aktuellen Beschränkungen nach Elementtyp aufgelistet
 | ----------- | ------------- |
 | Maximale Anzahl von Benutzerkonten für ein Unternehmen | 1.000. |
 
-## Überwachen der Nutzung {#monitor-usage}
+## Nutzung überwachen {#monitor-usage}
 
 Sie können die Nutzung und Beschränkungen für Ihr Konto anzeigen, indem Sie zu **[!UICONTROL Administration > Limits]** navigieren. Für den Zugriff sind Administratorberechtigungen erforderlich.
 
 ![Nutzungsbeschränkungen Bild](assets/usage-limits.png)
 
-## Erhöhung der Elementgrenzen {#increase-item-limits}
+## Erhöhen der Elementgrenzen {#increase-item-limits}
 
 Die hier aufgeführten Standardbeschränkungen sollten ausreichend Kapazität für Ihre Geschäftsanforderungen bieten. Wenn Ihr Unternehmen diese Grenzwerte konsequent erreicht, wenden Sie sich an Ihren Kundenbetreuer, um eine Erhöhung zu besprechen.
