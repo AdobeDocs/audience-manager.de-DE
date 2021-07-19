@@ -97,7 +97,7 @@ Sobald der Benutzer seine Datenschutzoptionen ausgewählt hat, werden die ausgew
 
 Jeder im IAB TCF registrierte Anbieter bewertet die IAB TC-Zeichenfolge und trifft Entscheidungen anhand der Datenschutzoptionen der Benutzer. Beachten Sie, dass die Datenschutzoptionen der Benutzer für alle bei IAB TCF registrierten Anbieter gültig sind.
 
-## Erforderliche Zwecke durch Audience Manager {#aam-standard-purposes}
+## Für Audience Manager erforderliche Zwecke {#aam-standard-purposes}
 
 Audience Manager wertet die in der IAB TC-Zeichenfolge gespeicherten Benutzerentscheidungen für die folgenden Zwecke aus, definiert in den Richtlinien [IAB Europe Transparency &amp; Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions).
 
@@ -121,7 +121,7 @@ Wir prüfen auch für alle Ziele, mit denen Sie in Audience Manager arbeiten, di
 |---|---|
 | <ul><li>alle von Ihnen angeforderten Audience Manager-Anwendungsfälle ausführen.</li><li>Übermittelt die Zustimmung an Dritte in ID-Synchronisierungen (durch Übergabe von `gdpr = 1` und der Zustimmungszeichenfolge als `gdpr_consent` bei ID-Synchronisierungsaufrufen).</li><li>die von Adserver-Pixeln übergebene Zustimmung auswerten und berücksichtigen.</li><li>von Partnern initiierte ID-Synchronisierungen berücksichtigen.</li></ul> | <ul><li>keine neuen Benutzerdaten in Ihrer Instanz speichern. Dazu gehören Partner-IDs, Signale, Eigenschaften oder Pixeldaten.</li><li>keine Synchronisierung der Drittanbieter-IDs initiieren.</li><li>von Partnern initiierte ID-Synchronisierungen nicht berücksichtigen.</li><li>Der Benutzer wird von der weiteren Datenerfassung ausgeschlossen.</li></ul> |
 
-## Anwendungsfall: Publisher {#publisher-use-case}
+## Anwendungsfall: Publisher  {#publisher-use-case}
 
 Durch Implementierung des Audience Manager-Plug-ins für IAB TCF müssen Sie keinen benutzerdefinierten Code für die Zustimmungsverwaltung in Ihren Web-Eigenschaften über einen anderen Mechanismus mit Adobe oder anderen Drittanbietern verwalten. Der Anwendungsfall wird im Bild und in den unten stehenden Schritten beschrieben. Beginnen Sie links im Bild:
 
@@ -143,7 +143,7 @@ Durch Implementierung des Audience Manager-Plug-ins für IAB TCF müssen Sie kei
 
 ![Anwendungsfall: Publisher ](assets/publisher-use-case.png)
 
-## Anwendungsfall: Advertiser {#advertiser-use-case}
+## Anwendungsfall: Advertiser  {#advertiser-use-case}
 
 Audience Manager bewertet und berücksichtigt die in [Pixelaufrufen](../../integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md) übergebene Zustimmung gemäß des IAB TCF.
 
