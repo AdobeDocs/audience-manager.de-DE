@@ -81,7 +81,7 @@ In [!UICONTROL Trait Builder] können Sie mit den Einstellungen [!UICONTROL Basi
  </tbody> 
 </table>
 
-## Legen Sie ein [!UICONTROL Trait] Ablaufintervall {#set-expiration-interval} fest.
+## Festlegen eines [!UICONTROL Trait]-Ablaufintervalls {#set-expiration-interval}
 
 In [!UICONTROL Trait Builder] können Sie mit dem [!UICONTROL Advanced Options] ein Time-to-Live-Intervall ([!DNL TTL]) für [!UICONTROL trait] festlegen. [!DNL TTL] definiert, wie viele Tage ein qualifizierter Besucher in einem Zeitraum verbleibt  [!UICONTROL trait] (standardmäßig 120 Tage). Wenn der Wert auf 0 gesetzt ist, läuft die Mitgliedschaft [!UICONTROL trait] nie ab.
 
