@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ---
 
-# Implementierungsleitfaden {#implementation-guidance}
+# Durchführungsleitlinien {#implementation-guidance}
 
 >[!IMPORTANT]
 >Dieser Artikel enthält die Produktdokumentation, die Sie durch die Einrichtung und Nutzung dieser Funktion führen soll. Nichts in diesem Dokument ist Rechtsberatung. Wenden Sie sich an Ihren Rechtsbeistand, um rechtliche Hinweise zu erhalten.
@@ -31,7 +31,7 @@ Es gibt sechs Implementierungsaspekte, die Sie vor der Verwendung von [!DNL Peop
 
 ![pbd-implementation](assets/pbd-implementation.png)
 
-## 1. Definieren Ihres Anwendungsfalls {#defining-your-use-case}
+## 1. Anwendungsfall definieren {#defining-your-use-case}
 
 Bevor Sie mit der Implementierung von [!DNL People-Based Destinations] beginnen, müssen Sie den Anwendungsfall klar definieren, für den Sie diese Funktion verwenden werden. Sie können [!DNL People-Based Destinations] auf zwei Arten verwenden, um Zielgruppen auf Basis der Zielgruppenaktivität anzusprechen:
 
@@ -45,7 +45,7 @@ Um sie über Social Media und ähnliche personenbasierte Kanäle hinweg anzuspre
 
 Ihr Unternehmen, ein Telekommunikationsdienstleister, bewahrt Kundendaten wie E-Mail-Adressen und erworbene Telekommunikationspläne in einem internen [!DNL CRM] auf. Sie möchten bestehende Kunden in sozialen Plattformen ansprechen, um ihnen Upgrade-Pakete basierend auf ihren bestehenden Abonnements anzubieten. Dazu können Sie Ihre gehashten Kunden-E-Mail-Adressen in Audience Manager erfassen und Segmente basierend auf bestehenden Kundenabonnenten erstellen. Anschließend können Sie diese Segmente an [!DNL People-Based Destinations] senden, um Ihre Kunden mit personalisierten Angeboten anzusprechen.
 
-## 2. Definieren Sie den Typ der zielgerichteten E-Mail-Adressen {#define-target-email}
+## 2. Definieren des Typs der zielgerichteten E-Mail-Adressen {#define-target-email}
 
 Der zweite Schritt bei der Definition Ihrer Implementierungsstrategie besteht darin, zu entscheiden, welche Art von Kunden-E-Mail-Adressen Sie als Ziel auswählen möchten.
 
@@ -53,7 +53,7 @@ Der zweite Schritt bei der Definition Ihrer Implementierungsstrategie besteht da
 
 **B) Zielgruppen-Targeting basierend auf all Ihren zugehörigen E-Mail-Adressen**. In diesem Szenario haben Ihre Benutzer mehrere Konten, die mehreren E-Mail-Adressen zugeordnet sind, und Sie möchten sie unabhängig von der authentifizierten Aktivität über alle zugehörigen E-Mail-Adressen hinweg ansprechen.
 
-## 3. Identifizieren Sie den Typ der Kunden-IDs (CRM-IDs), die Sie über {#identify-customer-id} verfügen.
+## 3. Identifizieren Sie den Typ der Kunden-IDs (CRM-IDs), die Sie haben {#identify-customer-id}
 
 Für das Targeting von Zielgruppen in [!DNL People-Based Destinations] müssen Sie [SHA256-Hash](people-based-destinations-prerequisites.md)-Versionen Ihrer E-Mail-Adressen Ihrer Kunden senden. Abhängig von Ihrer bestehenden Audience Manager-Konfiguration können Sie sich in einem der beiden folgenden Szenarien befinden:
 
@@ -69,7 +69,7 @@ Um Ihre Zielgruppe in [!DNL People-Based Destinations] präzise anzusprechen, m�
 
 **B) Integrierte Eigenschaften für Ihre Kunden-IDs über eingehende Datendateien**. Diese Option gilt für den Anwendungsfall B von [1. Definieren Ihres Anwendungsfalls](people-based-destinations-workflow.md#defining-your-use-case). Beim Targeting Ihrer Zielgruppe auf der Basis rein offline geführter Aktivitäten müssen Sie Kunden-IDs über [eingehende Datendateien](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) für integrierte Eigenschaften qualifizieren.
 
-## 5. Erstellen oder beschriften Sie Data Sources und integrierte Hash-E-Mail-Adressen {#create-label-data-sources}
+## 5. Data Sources und integrierte Hash-E-Mail-Adressen erstellen oder beschriften {#create-label-data-sources}
 
 Abhängig vom Typ der Kunden-IDs, die Sie in Audience Manager haben (siehe [3. Identifizieren Sie den Typ der Kunden-IDs (CRM-IDs), die Sie haben](people-based-destinations-workflow.md#identify-customer-id). Sie befinden sich in einem der folgenden Szenarien:
 
