@@ -14,7 +14,7 @@ ht-degree: 96%
 
 ---
 
-# DSGVO-Überlegungen für Ziele {#gdpr-considerations-for-destinations}
+# DSGVO-Überlegungen für Ziele{#gdpr-considerations-for-destinations}
 
 Auf dieser Seite werden die direkt von unseren Partnern bereitgestellten Informationen sowie die Auswirkungen auf Ihr Vorgehen in Audience Manager beschrieben. Wesentliche Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, ergeben sich aus der DSGVO (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft getreten ist, und aus dem neuen IAB Framework (IAB DSGVO Transparency &amp; Consent Framework).
 
@@ -56,7 +56,7 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Audience Manager-Benutzeroberflächenaktualisierung - Yahoo/Oath/DataX-Integration {#ui-update}
+## Aktualisierung der Audience Manager-Benutzeroberfläche - Yahoo/Oath/DataX-Integration {#ui-update}
 
 Zusätzlich zu den oben erwähnten Aktualisierungen des IAB-Framework haben Yahoo/Oath/DataX neue Parameter, **gdpr** und **gdpr_mode**, zu ihrer Taxonomie und den Audience-APIs hinzugefügt. Diese Parameter informieren Yahoo/Oath/DataX, dass sie berechtigt sind, ein bestimmtes Segment als Datenverarbeiter oder als Datenverantwortlicher zu verarbeiten. Daher müssen Audience Manager-Kunden, die Segmente an ein Yahoo/Oath/DataX-Ziel senden, den entsprechenden Parameter (Verarbeiter oder Verantwortlicher) entsprechend ihrer Vereinbarung mit Oath angeben.
 
