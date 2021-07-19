@@ -15,7 +15,7 @@ ht-degree: 91%
 
 ---
 
-# Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten {#inbound-customer-data-ingestion-faq}
+# Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten{#inbound-customer-data-ingestion-faq}
 
 Häufig gestellte Fragen zum Einpflegen von Offline-Daten in Audience Manager.
 
