@@ -142,7 +142,7 @@ In [!UICONTROL Audience Marketplace] müssen Sie die Impressionsmengen für jede
 
 <!-- marketplace_cpm_billing.xml -->
 
-### Rechnungszusammenfassung {#billing-summary}
+### Abrechnungszusammenfassung {#billing-summary}
 
 Sie müssen [!DNL CPM] Daten-Feed-Impressionsmengen zwischen dem 1. und dem 5. Tag jedes Kalendermonats übermitteln. Um dies richtig zu machen, empfehlen wir [Bericht-CPM-Nutzung auf Segmentebene](#segment-level-report).
 
