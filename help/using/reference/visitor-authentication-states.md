@@ -21,7 +21,7 @@ Der Authentifizierungsstatus der Besucher in Audience Manager bestimmt, ob die n
 
 Ab [!DNL Experience Cloud] ID-Dienst v1.5 enthält die `setCustomerID`-Methode das optionale `AuthState`-Objekt. `AuthState` identifiziert Besucher anhand ihres  [Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nach dem Authentifizierungsstatus, der im Aufruf übergeben wird, und der  [Profilzusammenführungsrichtlinie, die Sie für die Segmentierung ](../features/profile-merge-rules/merge-rules-dashboard.md) verwenden.
 
-## Authentifizierungsstatus: UNKNOWN {#auth-status-unknown}
+## Authentifizierungsstatus: UNBEKANNT {#auth-status-unknown}
 
 | Anforderungswert | Informationen aus dem authentifizierten Profil lesen | Neue Eigenschaften in das authentifizierte Profil schreiben |
 |---|---|---|
@@ -31,7 +31,7 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
-## Authentifizierungsstatus: AUTHENTICATED {#auth-status-authenticated}
+## Authentifizierungsstatus: AUTHENTIFIZIERT {#auth-status-authenticated}
 
 | Anforderungswert | Informationen aus dem authentifizierten Profil lesen | Neue Eigenschaften in das authentifizierte Profil schreiben |
 |---|---|---|
