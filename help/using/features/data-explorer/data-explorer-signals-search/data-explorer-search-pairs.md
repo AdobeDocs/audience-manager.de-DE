@@ -36,11 +36,11 @@ Diese Suche gibt nur Ergebnisse zurück, die für alle drei Filter im selben Auf
 
 ![](assets/signals-search.png)
 
-## Signale, die von der Signalsuche ausgeschlossen sind {#excluded-signals}
+## Von der Signalsuche ausgeschlossene Signale {#excluded-signals}
 
 Schlüsselvariablen, die von Audience Manager verwendet werden und mit dem Präfix `d_` und `h_` versehen sind, werden nicht von [!UICONTROL Signals Search] angezeigt. Weitere Informationen finden Sie unter [Voraussetzungen für das Präfix für Schlüsselvariablen](../../traits/trait-variable-prefixes.md) .
 
-## Groß-/Kleinschreibung und automatisches Ausfüllen der Suche {#case-insensitivity}
+## Groß-/Kleinschreibung und automatischer Abschluss der Suche {#case-insensitivity}
 
 Bei den Suchfeldern Schlüssel und Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. Das Schlüsselsuchfeld enthält automatisch ausgefüllte Vorschläge.
 
