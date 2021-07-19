@@ -36,7 +36,7 @@ Audience Manager enthält die folgenden Komponenten:
 
 Das Client-Portal ist die primäre Benutzeroberfläche für die Tag- und Datenverwaltung. Kunden verwenden das Portal, um mit Tags zu arbeiten, Eigenschaften und Segmente zu erstellen, Ziele einzurichten und die Kampagnenleistung mit Berichten zu überwachen.
 
-## DIL/TIM Container {#dil-tim}
+## DIL/TIM-Container {#dil-tim}
 
 Der [!UICONTROL DIL]-Container hilft bei der Bereitstellung von [!DNL Audience Manager] Datenerfassungscode für Ihre Website. [!UICONTROL TIM] ist der veraltete Tag Insertion Manager. Sie wird nicht mehr von [!DNL Audience Manager] verwendet. Stattdessen verwenden Sie die Erweiterung [!DNL Audience Manager] in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html), um den Container-Code zu konfigurieren und zu generieren, den Sie auf Seiten in Ihrem Inventar platzieren.
 
