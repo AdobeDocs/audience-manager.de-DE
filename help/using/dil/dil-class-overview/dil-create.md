@@ -14,7 +14,7 @@ ht-degree: 12%
 
 ---
 
-# DIL create method{#dil-create}
+# DIL-Erstellungsmethode{#dil-create}
 
 ## Erstellen einer DIL {#dil-create-new}
 
