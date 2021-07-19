@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Beispiele für die Erstellung von Ausdrücken im Code-Editor [!UICONTROL Expression Builder].
 
-## Codebeispiele - Überblick {#code-samples-overview}
+## Übersicht über Codebeispiele {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
