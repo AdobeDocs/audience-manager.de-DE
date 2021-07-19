@@ -112,7 +112,7 @@ Die folgende Abbildung zeigt den Unterschied zwischen den eindeutigen % der Eige
 
 ![](assets/s2t.png)
 
-## Datenpop-Felder für Segment-zu-Merkmal definiert {#fields-defined}
+## Definierte Datenpop-Felder für Segment-zu-Merkmal {#fields-defined}
 
 Beschreibt die Metriken, die im Popup-Fenster angezeigt werden, wenn Sie auf einen einzelnen Datenpunkt klicken.
 
