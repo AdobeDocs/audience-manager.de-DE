@@ -18,7 +18,7 @@ ht-degree: 4%
 
 Richten Sie [!DNL Open Ad Server] als Ziel ein und senden Sie Audience Manager-Daten an diese Plattform.
 
-## OAS-Zielanforderungen {#oas-requirements}
+## Anforderungen an das OAS-Ziel {#oas-requirements}
 
 Standards für die Codeplatzierung, unterstützte Schlüsselwertformate, Berichte und den Typ der an [!DNL OAS] gesendeten Segmentdaten.
 
