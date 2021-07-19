@@ -66,7 +66,7 @@ Eine weitere Möglichkeit, die Besucher-ID abzurufen, ist die Funktion `getMarke
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
-### Nutzung und Zweck von Callback {#callback-usage}
+### Nutzung und Zweck des Rückrufs {#callback-usage}
 
 `callback` ist optional. Diese Funktion funktioniert ohne sie, gibt jedoch nur dann eine ID zurück, wenn ein Besucher in seinem Browser über ein [!DNL Experience Cloud] -Cookie verfügt. Wenn das Besucher-Cookie fehlt oder ein Besucher keine ID hat, gibt die Funktion ein leeres `()` -Objekt zurück. Dies kann auch geschehen, nachdem die Seite geladen wurde und der Besucher eine neue ID erhält. Um dies zu vermeiden, erzwingt `callback`, dass diese Funktion nach dem Laden der Seite nach einer Besucher-ID sucht. Ohne `callback` gibt die Besucher-ID-Funktion keine ID zurück, selbst wenn sie später in den Browser des Besuchers geschrieben wird.
 
