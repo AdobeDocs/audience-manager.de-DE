@@ -14,7 +14,7 @@ ht-degree: 84%
 
 ---
 
-# Häufig gestellte Fragen zu Datenschutz und Datenaufbewahrung {#privacy-and-data-retention-faq}
+# Häufig gestellte Fragen zu Datenschutz und Datenaufbewahrung{#privacy-and-data-retention-faq}
 
 Antworten auf häufige Fragen oder Probleme zum Thema Datenschutz und Daten.
 
