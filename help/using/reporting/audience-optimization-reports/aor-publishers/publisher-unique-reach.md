@@ -22,7 +22,7 @@ Der Bericht &quot;Unique User Reach&quot;gibt Daten in einem Punktdiagramm zurü
 
 Mit dem Bericht [!UICONTROL Unique User Reach] können Sie die Eigenschaften in Ihrem Portfolio identifizieren, die eine große Anzahl von Unique Users anziehen.
 
-## Verwenden des Berichts &quot;Einzelne Reichweite&quot;{#using-the-report}
+## Verwenden des Berichts &quot;Einzelne Reichweite&quot; {#using-the-report}
 
 Verwenden Sie das Feld **[!UICONTROL Dimension Value]** , um die Werbeeinheiten auszuwählen, die im Bericht angezeigt werden sollen. Klicken Sie auf **[!UICONTROL All]** , um alle Eigenschaften im Punktdiagramm anzuzeigen.
 
