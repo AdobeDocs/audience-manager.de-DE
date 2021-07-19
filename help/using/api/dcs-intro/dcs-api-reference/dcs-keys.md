@@ -15,7 +15,7 @@ ht-degree: 5%
 
 ---
 
-# Unterstützte Attribute für [!DNL DCS] [!DNL API] Aufrufe {#supported-attributes-for-dcs-api-calls}
+# Unterstützte Attribute für [!DNL DCS] [!DNL API]-Aufrufe {#supported-attributes-for-dcs-api-calls}
 
 Listet die Syntax und die unterstützten Attribute (oder Schlüssel-Wert-Paare) auf und beschreibt sie, die Sie an [!UICONTROL Data Collection Servers] ([!DNL DCS]) übergeben können. Diese Informationen helfen Ihnen dabei, Ihre [!DNL DCS]-Anfragen zu formatieren und die von diesem System zurückgegebenen Parameter zu verstehen.
 
