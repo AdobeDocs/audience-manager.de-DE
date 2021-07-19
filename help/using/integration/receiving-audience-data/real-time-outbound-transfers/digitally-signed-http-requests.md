@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Digital signierte `HTTP(S)` Anforderungen {#digitally-signed-http-requests}
+# Digital signierte `HTTP(S)`-Anforderungen {#digitally-signed-http-requests}
 
 Audience Manager erfordert, dass die `HTTP(S)`-Server-zu-Server-Anforderungen für ihre Gültigkeit digital signiert werden. In diesem Dokument wird beschrieben, wie Sie `HTTP(S)`-Anfragen mit privaten Schlüsseln signieren können.
 
@@ -91,7 +91,7 @@ Die RFC für die Hash-Implementierung von [!DNL HMAC] lautet [https://www.ietf.o
 
 Um den privaten Schlüssel zu drehen, müssen Partner den neuen privaten Schlüssel ihrem [!DNL Adobe Audience Manager]-Berater mitteilen. Der alte Schlüssel wird aus [!DNL Audience Manager] entfernt und [!UICONTROL IRIS] sendet nur den neuen Signaturheader. Die Schlüssel wurden gedreht.
 
-## Daten zum Signieren {#data-signing}
+## Zum Signieren verwendete Daten {#data-signing}
 
 Bei Zielen vom Typ `GET` lautet die zum Signieren verwendete Nachricht *REQUEST_PATH + QUERY STRING* (z. B. */from-aam-s2s?sids=1,2,3*). IRIS berücksichtigt weder den Hostnamen noch die `HTTP(S)`-Kopfzeilen - diese können über den Pfad geändert/falsch konfiguriert oder falsch gemeldet werden.
 
