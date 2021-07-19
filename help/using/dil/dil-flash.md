@@ -54,7 +54,7 @@ Der `AllowScriptAccess` im HTML-Code, der eine SWF-Datei lädt, steuert die Mög
 
 Versuchen Sie, das JS-Datenerfassungsmodul [!UICONTROL DIL] auf der Seite zu platzieren, damit es vor der Datei [!DNL FLA] geladen wird. Wenn die [!DNL FLA]-Datei zuerst geladen wird, bevor die [!UICONTROL DIL]-Datenerfassung abgeschlossen ist, können Sie die ersten Datensignale verpassen, die [!UICONTROL Flash DIL] an dieses Modul sendet. Nach der Instanziierung erfasst das Datenerfassungsmodul [!UICONTROL DIL] jedoch alle nachfolgenden SWF-Dateidaten, die von [!UICONTROL Flash DIL] übergeben werden.
 
-## Von Flash-DIL erfasste Daten {#data-collected}
+## Vom Flash-DIL erfasste Daten {#data-collected}
 
 [!UICONTROL Flash DIL] erfasst Seitenansichts-, Linktracking-, Medien-Tracking- und andere Medienansichtsereignisse aus der Adobe- [!UICONTROL AppMeasurement] Bibliothek.
 
@@ -98,7 +98,7 @@ Daten aus diesen Parametern werden standardmäßig erfasst:
 * `mediaAdParentPod` (Die Werbeunterbrechung innerhalb des Hauptinhalts, in dem die Anzeige wiedergegeben wird)
 * `mediaAdParentPodPos` (Die numerische Position in der Werbeunterbrechung, an der die Anzeige wiedergegeben wird. Innerhalb eines Pods können mehrere Anzeigen wiedergegeben werden.
 
-## Flash DIL Daten in Audience Manager {#flash-dil-data}
+## Flash DIL Data in Audience Manager {#flash-dil-data}
 
 Das Modul [!UICONTROL Flash DIL] wandelt Adobe AppMeasurement-Daten in Audience Manager-Eigenschaften und nicht verwendete Signale um.
 
