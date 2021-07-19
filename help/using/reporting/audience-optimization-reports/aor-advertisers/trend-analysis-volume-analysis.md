@@ -18,13 +18,13 @@ ht-degree: 7%
 
 Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für eine breite Palette von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild von der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
 
-## Beispiel [!UICONTROL Trend Analysis] Bericht {#sample-trend-analysis}
+## Beispiel für [!UICONTROL Trend Analysis]-Bericht {#sample-trend-analysis}
 
 Der Bericht [!UICONTROL Trend Analysis] gibt nur Daten in einem Liniendiagramm für ein Intervall von 14 Tagen zurück. In diesem Beispiel zeigt der Bericht Impressions-, Clickthrough- und Konversionstrends für eine Reihe zugeordneter Segmente an.
 
 ![](assets/trend-analysis.png)
 
-## Beispiel [!UICONTROL Volume Analysis] Bericht {#sample-volume-analysis}
+## Beispiel für [!UICONTROL Volume Analysis]-Bericht {#sample-volume-analysis}
 
 Der Bericht [!UICONTROL Volume Analysis] gibt Daten in einem Balkendiagramm für den ausgewählten Datumsbereich zurück. In diesem Beispiel zeigt der Bericht Impressions-, Clickthrough- und Konversionen nach Volumen für eine Reihe zugeordneter Segmente an.
 
