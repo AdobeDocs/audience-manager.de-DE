@@ -20,7 +20,7 @@ Um [!UICONTROL Profile Merge Rules] zu erstellen, überprüfen Sie die Schritte 
 
 <!-- merge-rules-start.xml -->
 
-## Erstellen einer geräteübergreifenden Datenquelle {#create-data-source}
+## Geräteübergreifende Datenquelle erstellen {#create-data-source}
 
 Um eine geräteübergreifende Datenquelle zu erstellen, gehen Sie zu **[!UICONTROL Audience Data > Data Sources > Add New]** und führen Sie die Schritte für jeden Abschnitt aus, der hier beschrieben wird. Zum Erstellen oder Bearbeiten einer geräteübergreifenden Datenquelle sind Administratorberechtigungen erforderlich.
 
@@ -58,7 +58,7 @@ So schließen Sie den Abschnitt [!UICONTROL Data Source Details] ab:
 
 Mithilfe der mit diesen Einstellungen verknüpften Textfelder können Sie [!UICONTROL Data Source] durch einen Alias umbenennen, der in den [Optionen für Profilzusammenführungsregeln](merge-rule-definitions.md) angezeigt wird. Wenn Sie beispielsweise **[!UICONTROL Use as Authenticated Profile]** einen Alias hinzufügen, wird dieser Name in der Liste [!UICONTROL Authenticated Profile Options] angezeigt. Wenn Sie **[!UICONTROL Use as a Device Graph]** einen Alias hinzufügen, wird dieser Name in der Liste [!UICONTROL Device Options] angezeigt.
 
-## Erstellen einer Profilzusammenführungsregel {#create-profile-merge-rule}
+## Erstellen einer Profilzusammenführungsrichtlinie {#create-profile-merge-rule}
 
 Um ein [!UICONTROL Profile Merge Rule] zu erstellen, gehen Sie zu **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** und führen Sie die Schritte für jeden Abschnitt aus, der hier beschrieben wird.
 
@@ -86,7 +86,7 @@ So schließen Sie den Abschnitt [!UICONTROL Basic Information] ab:
 
 [Datenexportkontrollen ](../data-export-controls.md) sind optionale Classification-Regeln, die Sie auf Ihre  [!UICONTROL Profile Merge Rule]anwenden können. Sie verhindern das Senden von Daten an ein Ziel, wenn diese Aktion gegen eine Datenschutz- oder Nutzungsvereinbarung verstößt. Überspringen Sie diesen Abschnitt, wenn Sie [!UICONTROL Data Export Controls] nicht verwenden.
 
-## Einrichten der Profilzusammenführungsregel {#profile-merge-rule-setup}
+## Einrichten von Profilzusammenführungsregeln {#profile-merge-rule-setup}
 
 So schließen Sie den Abschnitt [!UICONTROL Proflie Merge Rule Setup] ab:
 
@@ -188,7 +188,7 @@ DIL.create({
 
 Weitere Informationen finden Sie im Abschnitt [!UICONTROL DIL] im Abschnitt [Deklarierte ID-Variablen](../declared-ids.md#declared-id-variables).
 
-### SDKs {#configure-sdks-legacy-dil} konfigurieren
+### SDKs konfigurieren {#configure-sdks-legacy-dil}
 
 Überprüfen Sie die Methoden in Ihrem [!DNL SDK]-Code, mit denen Sie [!UICONTROL declared IDs] von [!DNL Android] und [!DNL iOS] Mobilgeräten übergeben können. Die Variablennamen für die Code-Bibliotheken [!DNL Android] und [!DNL iOS] sind identisch:
 
