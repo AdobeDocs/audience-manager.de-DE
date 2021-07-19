@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Häufig gestellte Fragen zu APIs {#api-faq}
+# Häufig gestellte Fragen zu APIs{#api-faq}
 
 Häufige Fragen und Probleme im Zusammenhang mit APIs.
 
