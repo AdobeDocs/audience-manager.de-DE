@@ -270,7 +270,7 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## S2S- und Massen-S2S-Zielauftragsverlauf {#return-job-history} zurückgeben
+## S2S- und Massen-S2S-Zielauftragsverlauf zurückgeben {#return-job-history}
 
 Eine `GET` -Methode, die ausgehende [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) und Bulk [!UICONTROL S2S]-Verlaufsinformationen für Zielaufträge zurückgibt.
 
