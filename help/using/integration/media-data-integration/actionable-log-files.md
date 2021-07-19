@@ -61,7 +61,7 @@ Signale sind die [kleinsten Dateneinheiten](../../reference/signal-trait-segment
 
 Denken Sie daran, dass Sie zur Verwendung dieser Informationen für die Erstellung und Segmentierung von Zielgruppen die regelbasierten Eigenschaften selbst einrichten müssen.
 
-### Ausführbare Signale von Google Campaign Manager protokollieren {#dcm-logs-signals}
+### Ausführbare Signale aus Google Campaign Manager-Protokollen {#dcm-logs-signals}
 
 In der Tabelle sind die aussagekräftigen Signale aus den Protokolldateien [!DNL Google Campaign Manager] aufgeführt:
 
@@ -170,7 +170,7 @@ Removed  {importance="high"} for ExL
 
 <br>
 
-### Ausführbare Signale von [!DNL Google Ad Manager] logs {#ad-manager-logs-signals}
+### Ausführbare Signale von [!DNL Google Ad Manager] Protokollen {#ad-manager-logs-signals}
 
 In der Tabelle sind die aussagekräftigen Signale aus den Protokolldateien [!DNL Google Ad Manager] aufgeführt:
 
