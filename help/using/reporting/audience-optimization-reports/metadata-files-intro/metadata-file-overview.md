@@ -103,7 +103,7 @@ In der folgenden Tabelle sind die Schlüssel-Wert-Paare aufgeführt, die Daten e
  </tbody> 
 </table>
 
-## Wie Ereignisaufruf-IDs Dateinamen, Inhalt und Bereitstellungspfade formen {#how-ids-shape-file-names}
+## Gestalten der Dateinamen, Inhalte und Bereitstellungspfade durch Ereignisaufruf-IDs {#how-ids-shape-file-names}
 
 Die von diesen Schlüssel-Wert-Paaren übergebenen IDs helfen beim Erstellen des Metadatendateinamens und des zugehörigen Inhalts. Die folgenden Abschnitte und Abbildungen zeigen, wie dies funktioniert. Mit diesen Beispielen wird eine Datei erstellt, die den Namen eines kreativen Elements in einer Kampagne enthält. Es sind jedoch auch andere Kombinationen möglich.
 
