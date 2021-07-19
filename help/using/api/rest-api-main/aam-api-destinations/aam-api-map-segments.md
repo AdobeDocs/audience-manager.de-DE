@@ -313,7 +313,7 @@ In der Anfrage entspricht `traitAlias` dem Schlüssel in einem Schlüssel-Wert-P
 }
 ```
 
-## Massen-Erstellen von Zielzuordnungen {#bulk-create}
+## Massen-Zielzuordnungen erstellen {#bulk-create}
 
 Eine `POST` -Methode, mit der Sie ein Array von [!UICONTROL cookie]- oder [!UICONTROL URL]-Zielzuordnungen übergeben können.
 
@@ -397,7 +397,7 @@ Eine erfolgreiche Antwort gibt das Array der erstellten Zuordnungen zurück.
 ]
 ```
 
-## Mehrere Segmente zu einem Ziel hinzufügen {#add-segments-dest}
+## Hinzufügen mehrerer Segmente zu einem Ziel {#add-segments-dest}
 
 Eine `POST` -Methode, mit der Sie mehrere Segmente einem Ziel zuordnen können.
 
