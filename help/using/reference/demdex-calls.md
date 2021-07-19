@@ -14,7 +14,7 @@ ht-degree: 15%
 
 ---
 
-# Aufrufe an die [!DNL Demdex]-Domäne {#understanding-calls-to-the-demdex-domain} verstehen
+# Aufrufe an die Domäne [!DNL Demdex] verstehen {#understanding-calls-to-the-demdex-domain}
 
 [!DNL Audience Manager] und die  [!DNL Adobe Experience Platform Identity Service] Aufrufe an und empfangen Daten von der  `demdex.net` Domäne. [!DNL Adobe] funktioniert möglicherweise mit einer ungewöhnlichen Drittanbieterdomäne, dies ist jedoch nicht der Fall. In diesem Abschnitt werden die Elemente in einem `demdex.net`-Aufruf beschrieben.
 
