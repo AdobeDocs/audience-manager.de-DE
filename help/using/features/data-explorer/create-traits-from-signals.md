@@ -19,7 +19,7 @@ Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen,
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
-## Erstellen von Eigenschaften aus dem Signal-Dashboard {#create-traits-from-signal-dashboard}
+## Erstellen von Eigenschaften über das Signal-Dashboard {#create-traits-from-signal-dashboard}
 
 Mit [!UICONTROL Signal Dashboard] können Sie neue Eigenschaften aus [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals] und Ihren gespeicherten Suchen erstellen.
 
