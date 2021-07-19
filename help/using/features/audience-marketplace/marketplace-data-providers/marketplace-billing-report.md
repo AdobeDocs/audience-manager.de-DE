@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Erstellen Sie einen [!DNL Audience Marketplace]-Abrechnungsbericht, um die Nutzung von Daten-Feeds für den vorherigen Monat für jeden Ihrer Abonnenten anzuzeigen. Sie können jederzeit einen Bericht für den Vormonat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats generieren.
 
-## Herunterladen eines Abrechnungsberichts {#download-billing-report}
+## Abrechnungsbericht herunterladen {#download-billing-report}
 
 So laden Sie einen Bericht herunter:
 
