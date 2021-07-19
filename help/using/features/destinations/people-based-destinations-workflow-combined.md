@@ -119,7 +119,7 @@ Im obigen Beispiel würde der Dateiname wie folgt aussehen:
 
 Nachdem Sie Ihre ID-Synchronisierungsdatei erstellt haben, müssen Sie sie in einen [!DNL Amazon S3]-Bucket hochladen. Informationen zum Hochladen von ID-Synchronisierungsdateien finden Sie unter [Senden von Batch-Daten an Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
-## Schritt 3: Erstellen einer Profilzusammenführungsregel für die Segmentierung {#create-merge-rule}
+## Schritt 3: Erstellen einer Profilzusammenführungsrichtlinie für die Segmentierung {#create-merge-rule}
 
 Der nächste Schritt besteht darin, eine neue Zusammenführungsregel zu erstellen, mit der Sie die Zielgruppensegmente erstellen können, die an Ihre personenbasierten Ziele gesendet werden.
 
