@@ -88,7 +88,7 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Listengruppen {#list-groups}
+## Listen-Gruppen {#list-groups}
 
 Eine `GET`-Methode zur Auflistung von Benutzergruppen.
 
@@ -128,7 +128,7 @@ Eine `DELETE`-Methode zum Löschen einer Benutzergruppe und zum Entfernen aller 
 
 Gibt `204 No Content` zurück, falls erfolgreich. Im Falle eines Konflikts wird `409 Conflict` zurückgegeben.
 
-## Gruppen stapelweise löschen {#delete-groups-bulk}
+## Massenlöschung von Gruppen {#delete-groups-bulk}
 
 Eine `DELETE`-Methode zum Löschen mehrerer Gruppen in großen Mengen und zum Entfernen aller Mitglieder aus dieser Gruppe.
 
