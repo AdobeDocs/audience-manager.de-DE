@@ -71,7 +71,7 @@ Der [!DNL URL]-Aufruf für Ihren eingehenden ID-Synchronisierungsaufruf sollte V
  </tbody> 
 </table>
 
-## [!UICONTROL Declared ID] Ereignis {#declared-id-event}
+## [!UICONTROL Declared ID]Ereignis- {#declared-id-event}
 
 Weitere Informationen finden Sie unter [Deklarierte IDs](../../../features/declared-ids.md).
 
