@@ -54,7 +54,7 @@ Um `isCoopSafe` zu verwenden, müssen Sie:
  </tbody> 
 </table>
 
-## Syntax und Codebeispiel  {#syntax-code-sample}
+## Syntax und Codebeispiel {#syntax-code-sample}
 
 **Syntax:** `isCoopSafe: true | false`
 
@@ -103,7 +103,7 @@ Anhand der POST-Parameter stellt die [!DNL Experience Cloud]-Gerätekooperation 
  </tbody> 
 </table>
 
-## Post-Instanziierungs-APIs  {#post-instantiation}
+## Post-Instanziierungs-APIs {#post-instantiation}
 
 Mit diesen APIs können Sie den Status von `isCoopSafe` überschreiben. Sie ermöglichen es, den Status nach der Instanziierung bzw. Anmeldung eines Besuchers auf einer Site oder bei einer Single-Page-Anwendung zu ändern, wenn die Seite nicht aktualisiert wird. Beispielsweise müssen Sie diese APIs aufrufen, wenn sich ein Benutzer auf Ihrer Site oder bei Ihrer Anwendung authentifiziert und später eine Nutzungsrichtlinie akzeptiert, die der Gerätekooperation die Verwendung seiner Daten ermöglicht.
 
