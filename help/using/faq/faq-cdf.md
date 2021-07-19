@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Häufig gestellte Fragen zu Kundendaten-Feeds {#customer-data-feed-faq}
+# Häufig gestellte Fragen zu Kundendaten-Feeds{#customer-data-feed-faq}
 
 Häufig gestellte Fragen zu CDF (Customer Data Feed)-Dateien.
 
