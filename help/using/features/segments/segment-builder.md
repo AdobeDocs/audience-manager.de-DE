@@ -60,7 +60,7 @@ Sehen Sie sich das Video unten an, um sich ausführlich anzusehen, wie geräteü
 
 >[!VIDEO](https://video.tv.adobe.com/v/33445)
 
-## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Basic Information] Abschnitt  {#segment-builder-controls-basics}
+## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Basic Information] Abschnitt {#segment-builder-controls-basics}
 
 In [!UICONTROL Segment Builder] können Sie mit den Einstellungen [!UICONTROL the Basic Information] neue Eigenschaften erstellen oder vorhandene Eigenschaften bearbeiten. Um einen neuen [!UICONTROL segment] zu erstellen, geben Sie einen Namen ein, einen [!UICONTROL data source] und wählen Sie einen Speicherordner aus. Alle anderen Felder sind optional. Wechseln Sie nach Abschluss zum Abschnitt [!UICONTROL Traits] .
 
@@ -119,7 +119,7 @@ In [!UICONTROL Segment Builder] können Sie mit den Einstellungen [!UICONTROL th
 | **[!UICONTROL Status]** | Aktiviert oder deaktiviert das Segment (standardmäßig aktiv). |
 | **Ordnerspeicher** | Bestimmt, zu welchem Speicherordner das Segment gehört. |
 
-## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Traits] Abschnitt  {#segment-builder-controls-traits}
+## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Traits] Abschnitt {#segment-builder-controls-traits}
 
 Im Abschnitt [!UICONTROL Segment Builder] können Sie [!UICONTROL Traits] im Bereich [!UICONTROL traits] verwalten, [!UICONTROL segment] Gruppen erstellen und Qualifizierungskriterien festlegen. [!UICONTROL trait] Um [!UICONTROL trait] zu einem [!UICONTROL segment] hinzuzufügen, geben Sie den Namen [!UICONTROL trait] in das Suchfeld ein und klicken Sie auf [!UICONTROL Add Trait]. Speichern Sie [!UICONTROL trait] (falls fertig) oder wechseln Sie zu [!UICONTROL Destinations Mapping].
 
@@ -147,7 +147,7 @@ So entfernen Sie [!UICONTROL traits] aus einem [!UICONTROL segment]:
 3. Klicken Sie auf **Bearbeiten**, um [!UICONTROL Segment Builder] zu öffnen, und klicken Sie dann auf **Eigenschaften**, um das Bedienfeld [!UICONTROL traits] zu öffnen.
 4. Bewegen Sie den Mauszeiger über das zu löschende [!UICONTROL trait] und klicken Sie auf das X. Dadurch wird das [!UICONTROL trait] sofort aus Ihrem [!UICONTROL segment] entfernt.
 
-## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Destinations Mappings] Abschnitt  {#segment-builder-controls-destinations}
+## [!UICONTROL Segment Builder] Steuerelemente:  [!UICONTROL Destinations Mappings] Abschnitt {#segment-builder-controls-destinations}
 
 In [!UICONTROL Segment Builder] können Sie im optionalen Abschnitt [!UICONTROL Destinations Mapping] [!UICONTROL segment] Daten an einen Drittanbieter [!DNL cookie], [!DNL URL] oder [!UICONTROL server-to-server destination] senden. Um [!UICONTROL destination] hinzuzufügen, suchen (oder durchsuchen) Sie nach einem [!UICONTROL destination], geben Sie [!UICONTROL destination] spezifische Informationen ein und klicken Sie auf **[!UICONTROL Add Destination]**.
 
@@ -166,7 +166,7 @@ Der Bereich **[!UICONTROL Destination Mappings]** enthält Suchwerkzeuge, wie in
 | **[!UICONTROL Search by Destination Name]** | Ermöglicht die Suche nach einem bestimmten [!UICONTROL destination] nach Namen. Beginnen Sie mit der Eingabe, um zu suchen. Das Feld wird basierend auf Ihren Suchbegriffen automatisch ausgefüllt. Klicken Sie abschließend auf **[!UICONTROL Add Destination]** . |
 | **[!UICONTROL Browse All Destinations]** | Durchsuchen Sie eine Liste von *all* [!UICONTROL destinations], die Ihnen zur Verfügung stehen. Wählen Sie [!UICONTROL destinations] aus und fügen Sie [!UICONTROL segment] aus der Popup-Liste zu Ihrem  hinzu. |
 
-## Felder im Popup-Fenster {#fields-in-dest-mappings}[!UICONTROL Destination Mappings]
+## Felder im Popup-Fenster [!UICONTROL Destination Mappings] {#fields-in-dest-mappings}
 
 In [!UICONTROL Segment Builder] wird das Dialogfeld [!UICONTROL Add Destination] angezeigt, nachdem Sie ein [!UICONTROL destination] ausgewählt haben. In diesem Fenster werden statische Informationen zu den Feldern [!UICONTROL destination] und angezeigt, die je nach Typ [!UICONTROL destination] variieren. Geben Sie die erforderlichen Informationen in die leeren Felder ein, um [!UICONTROL destination mapping] einzurichten.
 
