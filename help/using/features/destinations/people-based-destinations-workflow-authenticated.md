@@ -88,7 +88,7 @@ Im obigen Beispiel sollte der deklarierte ID-Aufruf wie folgt aussehen:
 
 `https://yourDomain.demdex.net/event?d_cid_ic=MyHashedEmailDataSource%0155e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149&d_cid_ic=MyCRMDataSource%0168079982765673198504052656074456196039&location=US`
 
-## Schritt 3: Erstellen einer Profilzusammenführungsregel für die Segmentierung {#create-profile-merge-rule-segmentation}
+## Schritt 3: Erstellen einer Profilzusammenführungsrichtlinie für die Segmentierung {#create-profile-merge-rule-segmentation}
 
 Der nächste Schritt besteht darin, eine neue Zusammenführungsregel zu erstellen, mit der Sie die Zielgruppensegmente erstellen können, die an Ihre [!DNL People-Based Destinations] gesendet werden.
 
