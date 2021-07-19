@@ -17,7 +17,7 @@ ht-degree: 4%
 
 [!UICONTROL Destination Builder] Ermöglicht die Erstellung von Cookie-basierten oder - [!DNL URL] Zielen. Sie können keine Server-zu-Server-Ziele ([!DNL S2S]) mit [!UICONTROL Destination Builder] erstellen, aber Sie können deren Segmentzuordnungen verwalten. Wenden Sie sich an Ihren Berater, um ein [!DNL S2S]-Ziel einzurichten. [!UICONTROL Destination Builder] befindet sich in  **[!UICONTROL Audience Data > Destinations]**.
 
-## Destination Builder-Einstellungen {#destination-builder-settings}
+## Einstellungen des Zielaufbaus {#destination-builder-settings}
 
 <!-- destination-builder.xml -->
 
