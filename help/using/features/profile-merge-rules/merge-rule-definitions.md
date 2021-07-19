@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ---
 
-# [!UICONTROL Profile Merge Rules] Definierte Optionen  {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules] Definierte Optionen {#profile-merge-rule-options-defined}
 
 Mit den [!UICONTROL profile merge rule] -Optionen können Sie den Datentyp steuern, den [!DNL Audience Manager] für die Segmentierung verwendet. Ein [!UICONTROL profile merge rule] kann Geräteprofile enthalten, die vom [!UICONTROL Profile Link]-Gerätediagramm, dem [!UICONTROL Adobe Experience Cloud Device Co-op] und/oder anderen, mit [!DNL Audience Manager] integrierten Gerätediagramm-Anbietern von Drittanbietern zugeordnet werden. Sie können maximal 4 [!UICONTROL Profile Merge Rules] erstellen. Das vierte [!UICONTROL Profile Merge Rule] steht ausschließlich Kunden zur Verfügung, die das [!UICONTROL People-Based Destinations]-Add-on erworben haben.
 
@@ -36,7 +36,7 @@ Sie erstellen ein [!UICONTROL Profile Merge Rule], indem Sie eine Auswahl aus de
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (umfasst  [!UICONTROL Co-op Device Graph]) | Alle Kunden | Echtzeit und Batch | Nein | [Erweitertes geräteübergreifendes Targeting](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | nicht angegeben | Ausschließlich Kunden mit [People-Based Destinations](../destinations/people-based-destinations-overview.md) | Nur Batch | Nein | [Targeting für personenbasierte Ziele](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Auswertung  {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Auswertung {#segment-evaluation}
 
 Abhängig von Ihrer [!UICONTROL Profile Merge Rules]-Konfiguration kann [!DNL Audience Manager] die [!UICONTROL segment]-Bewertung in Echtzeit, im Batch-Modus oder beidem durchführen.
 
@@ -44,7 +44,7 @@ Abhängig von Ihrer [!UICONTROL Profile Merge Rules]-Konfiguration kann [!DNL Au
 * Die Batch-Auswertung [!UICONTROL segment] wird mit dem zuvor qualifizierten [!UICONTROL traits] durchgeführt.
 * [!UICONTROL Profile Merge Rules] die sowohl die Echtzeit- als auch die Batch- [!UICONTROL segment] Auswertung unterstützen, kombinieren die Echtzeit-Besucheraktivität mit der zuvor qualifizierten  [!UICONTROL traits].
 
-## [!UICONTROL Profile Merge Rules] Berichtslatenz  {#reporting-latency}
+## [!UICONTROL Profile Merge Rules] Berichtslatenz {#reporting-latency}
 
 Die Echtzeitauswertung von [!UICONTROL segment] spiegelt sich sofort in den [!UICONTROL Profile Merge Rules] -Berichten wider.
 
