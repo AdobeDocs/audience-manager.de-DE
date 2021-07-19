@@ -30,7 +30,7 @@ Sie können jedoch auch die neuesten Experience Cloud- und [!DNL DIL]-Versionen 
 * Laden Sie den [Adobe Experience Platform Identity Service](https://github.com/Adobe-Marketing-Cloud/id-service/releases) herunter.
 * [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases) herunterladen
 
-## Zweck der DIL {#purpose-dil}
+## Zweck des DIL {#purpose-dil}
 
 [!UICONTROL DIL] ist eine API-Bibliothek. Sie können sich dies als Hilfecode für [!DNL Adobe Audience Manager] vorstellen. Es ist nicht erforderlich [!DNL Audience Manager] zu verwenden, aber die Methoden und Funktionen [!UICONTROL DIL] bedeuten, dass Sie keinen eigenen Code entwickeln müssen, um Daten an [!DNL Audience Manager] zu senden. Außerdem unterscheidet sich [!UICONTROL DIL] von der API, die vom [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) bereitgestellt wird. Dieser Dienst wurde entwickelt, um die Besucheridentität über verschiedene [!DNL Experience Cloud] -Lösungen hinweg zu verwalten. [!UICONTROL DIL] hingegen wurde für Folgendes entwickelt:
 
