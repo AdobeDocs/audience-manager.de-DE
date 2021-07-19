@@ -65,7 +65,7 @@ Der Prozess [!UICONTROL declared ID] berücksichtigt die Site-Besucherpräferenz
 
 Weitere Informationen zum Abmelden von der Datenerfassung finden Sie unter [Datenschutz](../overview/data-security-and-privacy/data-privacy.md) .
 
-## [!UICONTROL Declared ID] Opt-out-Beispiele  {#opt-out-examples}
+## [!UICONTROL Declared ID] Opt-out-Beispiele {#opt-out-examples}
 
 Sie können mit den Schlüsselwertpaaren `d_cid` und `d_cid_ic` eine [!UICONTROL declared ID]-Opt-out-Anfrage stellen. Die veralten Parameter wie `d_dpid` und `d_dpuuid` funktionieren weiterhin, werden jedoch als veraltet betrachtet. Siehe [CID ersetzt DPID und DPUUID](../reference/cid.md). In den Beispielen werden Variablenplatzhalter *kursiv* angegeben.
 
