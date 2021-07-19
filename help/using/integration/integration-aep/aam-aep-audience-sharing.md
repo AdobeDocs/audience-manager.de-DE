@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ---
 
-# Freigabe von Experience Platform-Segmenten mit Audience Manager- und anderen Experience Cloud-Lösungen {#aam-aep-audience-sharing}
+# Segmentfreigabe in Experience Platform mit Audience Manager und anderen Experience Cloud-Lösungen {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Wählen Sie **[!UICONTROL Audience Data > Signals > General Online Data]** und s
 
 ![Siehe Experience Platform-Signale im Audience Manager im Signale-Dashboard](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
-### Eigenschaften {#aep-segments-as-aam-traits}
+### Eigenschaften  {#aep-segments-as-aam-traits}
 
 Audience Manager erstellt in Ihrem Eigenschaftsspeicher automatisch einen Eigenschaftsordner mit dem Namen **Experience Platform Traits**.
 
@@ -92,7 +92,7 @@ Ein Beispiel für eine Eigenschaft, die automatisch aus einem Experience Platfor
 
 {style=&quot;table-layout:auto&quot;}
 
-### Segmente {#aep-segments-as-aam-segments}
+### Segmente  {#aep-segments-as-aam-segments}
 
 Audience Manager erstellt in Ihrem Segmentspeicher automatisch einen Segmentordner mit dem Namen **Experience Platform Segments**.
 
