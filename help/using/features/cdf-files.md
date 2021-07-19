@@ -10,7 +10,7 @@ feature: Kundendaten-Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1934'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Dateibenachrichtigungen und [!UICONTROL CDF] -Dateien werden in Ihrem [!DNL S3] 
 
 Die folgenden Abschnitte und die [FAQ zu Kundendaten-Feeds](../faq/faq-cdf.md) können Ihnen dabei helfen, sich mit diesem Dienst besser vertraut zu machen.
 
-## [!UICONTROL Customer Data Feed] Definierte Inhalte  {#cdf-defined}
+## [!UICONTROL Customer Data Feed] Definierte Inhalte {#cdf-defined}
 
 Führt die Datenelemente und Arrays in einer [!UICONTROL CDF]-Datei in der Reihenfolge ihres Erscheinungsbilds auf und definiert sie. Definitionen umfassen Datentypen, diese Informationen sind jedoch nicht Teil einer [!UICONTROL CDF]-Datei.
 
@@ -123,11 +123,11 @@ Eine [!UICONTROL CDF]-Datei enthält einige oder alle unten definierten Felder. 
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Dateistruktur  {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] Dateistruktur {#cdf-file-structure}
 
 Listet die Datenstruktur einer [!UICONTROL CDF]-Datei auf und definiert sie. Dazu gehören Datensequenz, Feldtrennzeichen und Trennzeichen, eine Datendateizuordnung und eine Beispieldatei.
 
-## Datenfeld-IDs und Reihenfolge {#identifiers-and-sequence}
+## Datenfeld-IDs und -Sequenzen {#identifiers-and-sequence}
 
 [!UICONTROL CDF] -Dateien enthalten keine gekennzeichneten Spalten oder Feldkopfzeilen. Stattdessen definiert eine [!UICONTROL CDF]-Datei Felder und Arrays mit nicht druckbaren [!DNL ASCII]-Zeichen. Außerdem werden in der Datei [!UICONTROL CDF] jedes Feld und Array in einer bestimmten Reihenfolge aufgelistet. Mithilfe der Kennungen und der Reihenfolge der Felder können Sie die Datei richtig analysieren.
 
@@ -168,7 +168,7 @@ Listet die Datenstruktur einer [!UICONTROL CDF]-Datei auf und definiert sie. Daz
  </tbody> 
 </table>
 
-## [!UICONTROL CDF] Dateizuordnung  {#cdf-file-map}
+## [!UICONTROL CDF] Dateizuordnung {#cdf-file-map}
 
 [!UICONTROL CDF] -Dateidaten werden in der unten gezeigten Reihenfolge angezeigt.
 
@@ -178,17 +178,17 @@ Listet die Datenstruktur einer [!UICONTROL CDF]-Datei auf und definiert sie. Daz
 
 Arrays in einer [!UICONTROL CDF]-Datei beginnen und enden mit dem `Ctrl + a`-Feldtrennzeichen. Dadurch wird das erste Element in einem Array wie ein eigenständiges Datenfeld angezeigt. Beispielsweise beginnt das realisierte [!UICONTROL traits]-Array mit `^A1234`. Das Array-Trennzeichen und die ID `^B5678` folgen diesem Eintrag. Daher könnten Sie versucht sein zu glauben, dass das erste Element im realisierten [!UICONTROL traits]-Array die ID 5678 ist (da es mit `^B` beginnt). Dies ist nicht der Fall. Daher müssen Sie mit der Sequenz und Struktur einer Datendatei vertraut sein. Obwohl das erste Element im realisierten [!UICONTROL trait]-Array (oder einem der anderen Arrays in einer [!UICONTROL CDF]-Datei) mit `^A` beginnt, definiert die Reihenfolge des Erscheinungsbilds oder der Position in der Datei den Anfang eines Arrays. Und das erste Element in einem Array wird immer vom vorherigen Eintrag durch `^A` getrennt.
 
-## Beispiel [!UICONTROL CDF] Datei {#sample-file}
+## Beispieldatei [!UICONTROL CDF] {#sample-file}
 
 Eine [!UICONTROL CDF]-Beispieldatei könnte in etwa wie folgt aussehen: Wir haben Zeilenumbrüche in dieses Beispiel eingefügt, damit es an die Seite angepasst werden kann.
 
 ![](assets/CDF-sample.png)
 
-## [!UICONTROL Customer Data Feed] Namenskonventionen für Dateien  {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] Namenskonventionen für Dateien {#cdf-naming-conventions}
 
 In den folgenden Abschnitten werden die Elemente in Ihrem [!UICONTROL CDF]-Dateinamen aufgelistet und definiert.
 
-## [!UICONTROL CDF] Dateiname: Syntax und Beispiel  {#cdf-file-name}
+## [!UICONTROL CDF] Dateiname: Syntax und Beispiel {#cdf-file-name}
 
 Ein typischer [!UICONTROL CDF]-Dateiname enthält die unten aufgeführten Elemente. Hinweis: *kursiv* gibt einen Variablenplatzhalter an:
 
@@ -206,7 +206,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 Im Speicher-Bucket [!DNL S3] werden Dateien in aufsteigender Reihenfolge nach Partner-ID ([!UICONTROL PID]), Tag und Stunde sortiert.
 
-## [!UICONTROL CDF] Definierte Dateinamenelemente  {#cdf-file-name-elements}
+## [!UICONTROL CDF] Definierte Dateinamenelemente {#cdf-file-name-elements}
 
 In der folgenden Tabelle sind die Elemente in einem [!UICONTROL CDF]-Dateinamen aufgeführt und definiert.
 
@@ -249,7 +249,7 @@ In der folgenden Tabelle sind die Elemente in einem [!UICONTROL CDF]-Dateinamen 
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Dateiverarbeitungsbenachrichtigungen  {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] Dateiverarbeitungsbenachrichtigungen {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] schreibt eine  `.info` Datei in Ihr  [!DNL S3] Verzeichnis, um Sie darüber zu informieren, wann Ihr ( [!UICONTROL Customer Data File] [!UICONTROL CDF]) zum Download bereit ist. Die `.info`-Datei enthält auch [!DNL JSON] formatierte Metadaten zum Inhalt Ihrer [!UICONTROL CDF]-Dateien. In diesem Abschnitt finden Sie Informationen zur Syntax und zu den Feldern, die von dieser Benachrichtigungsdatei verwendet werden.
 
@@ -282,7 +282,7 @@ Jede `.info`-Datei enthält einen Abschnitt `Files` und `Totals` . Der Abschnitt
 }
 ```
 
-## Felder der Info-Datei definiert {#info-file-fields-defined}
+## Definierte Informationsdateifelder {#info-file-fields-defined}
 
 In den folgenden Tabellen sind die Elemente in einer [!UICONTROL CDF] `.info`-Datei aufgeführt und definiert.
 
@@ -352,17 +352,17 @@ In den folgenden Tabellen sind die Elemente in einer [!UICONTROL CDF] `.info`-Da
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Dateinamenzeiten und Dateiinhaltszeiten sind unterschiedlich  {#different-processing-times}
+## [!UICONTROL Customer Data Feed] Dateinamenzeiten und Dateiinhaltszeiten sind unterschiedlich {#different-processing-times}
 
 Ihre [!UICONTROL CDF]-Datei enthält Zeitstempel im Dateinamen und Dateiinhalt. Diese Zeitstempel zeichnen verschiedene Ereignisprozesse für dieselbe [!UICONTROL CDF]-Datei auf. Es ist nicht ungewöhnlich, verschiedene Zeitstempel im Namen und Inhalt derselben Datei zu sehen. Die Kenntnis jedes Zeitstempels kann Ihnen dabei helfen, häufige Fehler beim Arbeiten mit diesen Daten oder beim Versuch, sie nach Zeit zu sortieren, zu vermeiden.
 
-## Suchen nach [!UICONTROL CDF] Datei-Zeitstempel {#locating-timestamps}
+## Suchen nach [!UICONTROL CDF] Datei-Zeitstempeln {#locating-timestamps}
 
 [!UICONTROL CDF] -Dateien verzeichnen die Zeit an zwei verschiedenen Speicherorten unterschiedlich.
 
 ![](assets/cdf-timestamp.png)
 
-## Unterschiede zwischen Zeitstempeln {#understanding-timestamps} verstehen
+## Unterschiede zwischen Zeitstempeln verstehen {#understanding-timestamps}
 
 Die folgende Tabelle enthält weitere Details zu Ihren [!UICONTROL CDF] Datei-Zeitstempeln sowie Informationen zur ordnungsgemäßen Verwendung dieser Zeitstempel.
 
