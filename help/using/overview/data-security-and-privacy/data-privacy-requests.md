@@ -44,7 +44,7 @@ Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [ eine JS
 
 Wir sind uns Ihrer Verpflichtung bewusst, Datenschutzanfragen innerhalb der gesetzlich festgelegten Frist zu erfüllen.
 
-## Datenlöschanfragen {#delete-data}
+## Datenlöschanfragen  {#delete-data}
 
 Sie können Datenlöschanfragen über die [Privacy Service-Benutzeroberfläche](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) und [!DNL API] Referenz [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)) senden.
 
@@ -162,7 +162,7 @@ Nach einem Opt-out auf Partnerebene mit einem Geräte-ID-Aufruf:
 * Zielpartner erhalten die Anfrage zur Aufhebung der Segmentierung für die Geräte-ID. Die Aufhebung der Segmentierung funktioniert sowohl für [Echtzeit-](data-privacy-requests.md#aam-partners-with-unsegmentation) als auch für Batch-Ziele.
 * Es werden keine historischen Daten gelöscht.
 
-## [!DNL Audience Manager] Partner mit Unsegmentierungsfunktionen  {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] Partner mit Unsegmentierungsfunktionen {#aam-partners-with-unsegmentation}
 
 Um Sie bei der Automatisierung Ihrer Datenschutzanfragen für Verbraucher zu unterstützen, versucht [!DNL Audience Manager], Aktivierungspartner über Löschanfragen von betroffenen Personen zu informieren, indem sie ihnen Informationen zur Aufhebung der Segmentierung (oder zum Entfernen der Segmentierung) senden.
 
