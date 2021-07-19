@@ -36,7 +36,7 @@ Durch die Verwendung der Regel **[!UICONTROL No Cross-Device Profile]** + **[!UI
 
 ![device-only](assets/device-management.png)
 
-## Shared Device Targeting {#target-shared-devices}
+## Freigegebenes Geräte-Targeting {#target-shared-devices}
 
 Nehmen wir an, John und seine Frau Jane, verwenden denselben Laptop, um einen Onlineshop zu besuchen und verschiedene Artikel zu bestellen.
 
