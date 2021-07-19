@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Fügen Sie [!UICONTROL traits] in [!UICONTROL Segment Builder] hinzu und entfernen Sie diese, um die tatsächlichen [!UICONTROL trait] Populationen sowie die tatsächlichen und geschätzten Segmentpopulationsdaten anzuzeigen. Die Daten zur geschätzten Populationsgröße helfen Ihnen beim Erstellen des richtigen Segments für Ihre Kampagne.
 
-## [!UICONTROL Trait] Populationsdaten  {#trait-population-data}
+## [!UICONTROL Trait] Populationsdaten {#trait-population-data}
 
 [!UICONTROL Segment Builder] zeigt Ihnen  [!UICONTROL Total Trait Population] den letzten Tag an, an dem Sie einem Segment einen  [!UICONTROL trait] hinzufügen. Diese Daten werden im blauen Feld um Ihr ausgewähltes [!UICONTROL trait] im Abschnitt [!UICONTROL Basic View] angezeigt.
 
@@ -54,7 +54,7 @@ In [!UICONTROL Segment Builder] zeigt ein blauer Balken auf den geschätzten Pop
 
 Weitere Informationen zu geschätzten und tatsächlichen Segmentpopulationsdaten finden Sie in den folgenden Definitionen.
 
-## Geschätzte Segmentpopulationsdaten definiert {#estimated-segment-population}
+## Definierte geschätzte Segmentpopulationsdaten {#estimated-segment-population}
 
 In der folgenden Tabelle werden die geschätzten Populationsmetriken definiert.
 
