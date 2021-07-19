@@ -87,7 +87,7 @@ Wenn Sie den Zugriff auf einen Daten-Feed sperren, wird eine Benachrichtigungs-E
 
 Nachdem Sie den Zugriff auf einen Daten-Feed entfernt haben, sind die Abonnenten für die Gebühren für den vorherigen oder aktuellen Monat verantwortlich, je nachdem, wann Sie den Feed deaktiviert haben.
 
-## Planungstypen für Daten-Feeds {#plan-types}
+## Planen von Typen für Daten-Feeds {#plan-types}
 
 [!DNL Plan types] sind wichtige Komponenten in einem  [!UICONTROL Audience Marketplace] Daten-Feed. Als Datenanbieter können Sie damit mehrere Anwendungsfälle und Preisoptionen für Ihre Feeds erstellen. Darüber hinaus kann es eine gute Strategie sein, für jeden Daten-Feed einige Pläne zu erstellen. Dadurch erhalten Käufer verschiedene Optionen, unter denen sie nach Daten suchen, die sie modellieren oder an ein Ziel senden können.
 
@@ -95,7 +95,7 @@ Nachdem Sie den Zugriff auf einen Daten-Feed entfernt haben, sind die Abonnenten
 
 ![](assets/plan_types.png)
 
-## Planungstypen und Anwendungsfalloptionen {#plan-types-use-cases}
+## Planen von Typen und Nutzungsszenarios {#plan-types-use-cases}
 
 <!-- c_feed_options.xml -->
 
@@ -183,7 +183,7 @@ Gehen Sie zu [!UICONTROL My Shared Data], um Käuferanfragen zu überprüfen, zu
 
 Mit Rabatten in [!UICONTROL Audience Marketplace] können Sie den veröffentlichten Preis eines Daten-Feeds für einzelne Abonnenten reduzieren. Sie können Abonnenten, die eine Abonnementanforderung gesendet haben, oder Abonnenten, die Details zu einem Daten-Feed angefordert haben, Rabatte anbieten. Rabatte gelten für [!DNL CPM] und pauschale Feeds. Rabatte können hilfreich sein, wenn Sie Abonnementanreize für neue Kunden bereitstellen oder die Kundentreue belohnen möchten.
 
-## Rabatte auf einen Daten-Feed anwenden {#apply-discounts}
+## Anwenden von Rabatten auf einen Daten-Feed {#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
@@ -198,7 +198,7 @@ In diesen Beispielen hat der Verkäufer dem Datenfeed [!UICONTROL Software Audie
 
 ![](assets/detail_requests.png)
 
-## Überprüfen Sie die vergünstigten Feeds {#review-discounted-feeds}
+## Ermäßigte Feeds überprüfen {#review-discounted-feeds}
 
 Datenanbieter können alle ihre Abonnenten und diskontierten Feeds in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]** sehen.
 
