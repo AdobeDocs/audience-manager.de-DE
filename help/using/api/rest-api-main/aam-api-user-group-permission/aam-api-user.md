@@ -155,7 +155,7 @@ Eine `PUT` -Methode zum Aktualisieren des aktuell angemeldeten Benutzers.
 
 Gibt `409 Conflict` zurück, wenn der Benutzername bereits verwendet wurde.
 
-## Aktualisierung des angemeldeten Benutzerkennworts {#update-logged-in-user-pw}
+## Aktualisieren des angemeldeten Benutzerkennworts {#update-logged-in-user-pw}
 
 Eine `PUT` -Methode zum Aktualisieren des aktuell angemeldeten Benutzers.
 
