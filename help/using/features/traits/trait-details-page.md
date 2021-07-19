@@ -15,11 +15,11 @@ ht-degree: 1%
 
 ---
 
-# [!UICONTROL Trait] Detailseite  {#trait-details-page}
+# [!UICONTROL Trait] Detailseite {#trait-details-page}
 
 Die Detailseite für einen einzelnen [!UICONTROL trait] bietet einen Überblick über die [!UICONTROL trait]-Details, wie z. B. den [!UICONTROL trait]-Namen, die -ID, die Leistungsmetriken, die Ausdrücke, die die [!UICONTROL trait] definieren, die zugehörigen Segmente und das [!UICONTROL trait]-Auditprotokoll. Um diese Details anzuzeigen, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** und klicken Sie auf den Namen des [!UICONTROL trait], mit dem Sie arbeiten möchten.
 
-## [!UICONTROL Trait] Management-Tools  {#trait-management-tools}
+## [!UICONTROL Trait] Management-Tools {#trait-management-tools}
 
 Am Anfang der Detailseite [!UICONTROL trait] befinden sich die Tools, die Sie zum Verwalten Ihrer [!UICONTROL traits] verwenden können:
 
@@ -71,13 +71,13 @@ Im Abschnitt [!UICONTROL Trait Expression] werden die Kriterien angezeigt, die B
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait]Segmente {#trait-segments}
+## [!UICONTROL Trait]Segmente  {#trait-segments}
 
 Im Abschnitt [!UICONTROL Segments with this Trait] werden alle Segmente aufgelistet, zu denen die ausgewählte [!UICONTROL trait] gehört. Sie können auf einen Segmentnamen klicken, um Details zu diesem Segment anzuzeigen.
 
 ![](assets/traitSegments.png)
 
-## [!UICONTROL Trait] Audit-/Verlaufsprotokoll  {#trait-audit-history}
+## [!UICONTROL Trait] Audit-/Verlaufsprotokoll {#trait-audit-history}
 
 Für [!UICONTROL rule-based] und [!UICONTROL onboarded traits] zeigt [!UICONTROL Trait Expression Change History] die letzten 10 Änderungen an den [!UICONTROL trait]-Ausdrucksregeln an und wer sie vorgenommen hat. Wenn Ihr [!UICONTROL trait] mehr als 10 Änderungen aufweist, klicken Sie auf **[!UICONTROL Export to CSV]** , um das gesamte Auditprotokoll herunterzuladen. Das Auditprotokoll steht nicht für [!UICONTROL folder] oder [!UICONTROL algorithmic traits] zur Verfügung.
 
