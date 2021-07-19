@@ -15,7 +15,7 @@ ht-degree: 88%
 
 ---
 
-# Häufig gestellte Fragen zu Produktfunktionen {#product-features-and-functions-faq}
+# Häufig gestellte Fragen zu Produktfunktionen{#product-features-and-functions-faq}
 
 Häufige produkt- und funktionsbezogene Fragen und Probleme.
 
