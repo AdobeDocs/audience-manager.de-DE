@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Visitor Profile Viewer {#visitor-profile-viewer}
+# Besucherprofil-Betrachter {#visitor-profile-viewer}
 
 Verwenden Sie [!UICONTROL Visitor Profile Viewer], um den aktuellen Status eines Benutzerprofils für den aktuellen Browser anzuzeigen, einschließlich seiner Eigenschaften und Segmente. Sie können für jede Eigenschaft [!UICONTROL SID], den Namen, Details zur Implementierung von Besuchereigenschaften (Erst- oder Drittanbieter), das Implementierungsdatum und die Häufigkeit der Realisierungen anzeigen. Sie können für jedes Segment sein [!UICONTROL SID], seinen Namen und das Mitgliedsdatum des Segments anzeigen. Sie können auch das Besucherprofil für eine andere Audience Manager-Profil-ID ([!UICONTROL UUID]) anzeigen. [!UICONTROL Visitor Profile Viewer] ist hilfreich bei der Fehlerbehebung.
 
