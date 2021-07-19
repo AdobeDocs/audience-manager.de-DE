@@ -22,7 +22,7 @@ Der Prozess der Erfassung von in Echtzeit eingehenden Daten verwendet eine Reihe
 
 Eingehende Daten sollten als Schlüssel-Wert-Paare, so genannte Signale, formatiert werden. Normalerweise wird jedes Signal einem Segment zugeordnet, das über die Benutzeroberfläche oder [!DNL API] erstellt oder verwaltet wird.
 
-## URL-String-Parameter und Syntax {#url-string-syntax}
+## URL-Zeichenfolgenparameter und Syntax {#url-string-syntax}
 
 Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran, in der Benutzeroberfläche [!DNL Audience Manager] Eigenschaften](../../../features/traits/create-onboarded-rule-based-traits.md) und eine [Ordnerstruktur](../../../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.[
 
