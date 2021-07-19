@@ -23,7 +23,7 @@ Unten finden Sie eine Übersicht über die Kundenanforderungen, die Sie erfülle
 >[!IMPORTANT]
 > Lesen Sie diesen Artikel sorgfältig durch, bevor Sie zur Implementierungsphase übergehen.
 
-## Anmelden für [!UICONTROL People-Based Destinations] {#signing-up}
+## Anmeldung für [!UICONTROL People-Based Destinations] {#signing-up}
 
 [!UICONTROL People-Based Destinations] ist eine Premium-Funktion, mit der Sie Ihr Kundenerlebnis verbessern können, indem Sie Ihre Erstanbieter-Zielgruppensegmente in benutzerbezogenen Umgebungen aktivieren, indem Sie Ihre Zielgruppe mit benutzerdefinierten Angeboten in sozialen Netzwerken oder per E-Mail-Marketing ansprechen.
 
@@ -98,7 +98,7 @@ Bevor Sie sich für [!UICONTROL People-Based Destinations] registrieren, vergewi
 
 Falls Ihre Kunden Werbekampagnen abwählen möchten, finden Sie unter [Opt-out-Verwaltung](../../overview/data-security-and-privacy/data-privacy-requests.md) weitere Informationen dazu, wie Sie verhindern können, dass Audience Manager Daten erfassen.
 
-## Erstanbieter-Datenaktivierung erzwingen {#enforcing-first-party-activation}
+## Erstanbieterdatenaktivierung forcieren {#enforcing-first-party-activation}
 
 Bei Verwendung von [!UICONTROL People-Based Destinations] können Sie Erstanbieterdaten nur verwenden, um Zielgruppensegmente in benutzerbezogenen Kanälen zu aktivieren. Sie können keine Zweit- oder Drittanbieterdaten für die Aktivierung von Zielgruppen in benutzerbezogenen Kanälen verwenden.
 
