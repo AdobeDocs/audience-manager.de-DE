@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Seite mit Segmentdetails {#segment-summary-view}
+# Seite &quot;Segmentdetails&quot; {#segment-summary-view}
 
 Die Detailseite für ein einzelnes Segment bietet einen Überblick über die Segmentdetails, wie Segmentname, ID, Leistungsmetriken, Regeln, die das Segment definieren, und Zielzuordnungen. Um diese Details anzuzeigen, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** und klicken Sie auf den Namen des Segments, mit dem Sie arbeiten möchten.
 
-## Tools für die Segmentverwaltung {#segment-management-tools}
+## Segmentverwaltungswerkzeuge {#segment-management-tools}
 
 Am oberen Rand der Segmentdetailseite befinden sich die Tools, die Sie zur Verwaltung Ihrer Segmente verwenden können:
 
