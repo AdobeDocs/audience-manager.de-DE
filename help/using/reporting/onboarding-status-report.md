@@ -22,7 +22,7 @@ Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Vera
 >
 >Dieser Bericht wird nur Benutzern mit Administratorrechten in der Benutzeroberfläche von Audience Manager angezeigt. Sie können Benutzer ohne Administratorrechte über den Status der hochgeladenen eingehenden Dateien informieren lassen, indem Sie ihre E-Mails zum Bericht hinzufügen. Siehe [E-Mail-Benachrichtigungen empfangen](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
 
-## Onboarding-Statusbericht: Über {#onboarding-status-about}
+## Onboarding-Statusbericht: Info {#onboarding-status-about}
 
 Der [!UICONTROL Onboarding Status Report] überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter **[!UICONTROL Analytics > Onboarding Status Report]**. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 
