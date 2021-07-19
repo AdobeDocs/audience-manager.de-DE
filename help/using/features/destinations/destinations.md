@@ -42,7 +42,7 @@ Geschäftsentscheidungen zur Auswahl einer Versandmethode im Vergleich zu einer 
 * [!DNL URL]s und  [!UICONTROL cookie-based destinations] funktionieren fast synchron mit Benutzeraktionen auf einer Seite.
 * [!UICONTROL Server-to-server] -Methoden eignen sich gut zum Erstellen von tiefen Zielgruppensegmenten im Zeitverlauf.
 
-## [!UICONTROL Destination] Typen und typische Verwendungen  {#destination-types}
+## [!UICONTROL Destination] Typen und typische Verwendungen {#destination-types}
 
 Anhand der Beispiele in der folgenden Tabelle können Sie erkennen, wann ein bestimmtes [!UICONTROL destination] verwendet werden soll und welche Unterschiede zwischen den einzelnen Typen bestehen.
 
