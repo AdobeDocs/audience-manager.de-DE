@@ -14,7 +14,7 @@ ht-degree: 3%
 
 ---
 
-# [!UICONTROL Audience Marketplace] für Datenkäufer  {#audience-marketplace-for-data-buyers}
+# [!UICONTROL Audience Marketplace] für Datenkäufer {#audience-marketplace-for-data-buyers}
 
 Übersicht und Workflow für Datenkäufer, die Daten von Drittanbietern über [!DNL Audience Manager] erwerben möchten.
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 >* Benutzer können nur Feeds suchen und anzeigen.
 
 
-## Die [!UICONTROL Marketplace]: Über {#about-marketplace}
+## Die [!UICONTROL Marketplace]: Info {#about-marketplace}
 
 Die [!UICONTROL Marketplace] ist eine [!DNL Audience Manager]-Funktion für Datenkäufer, die Daten-Feeds auflistet, die Sie abonnieren können. Er listet pauschale, [!DNL CPM] und private Daten-Feeds auf. Diese Feeds werden von Drittanbietern bereitgestellt, die [!DNL Audience Manager] verwenden, um Daten zu verkaufen.
 
