@@ -47,11 +47,11 @@ In diesem Fall hat [!DNL Automobile Folder Trait] 7 Realisierungen.
 
 ![](assets/folder_traits_rollup_border.png)
 
-## Berichte zu Ordnereigenschaften {#folder-traits-reporting}
+## Berichterstellung zu Ordnereigenschaften {#folder-traits-reporting}
 
 [!UICONTROL Folder traits] Erfassen Sie alle Benutzer aus den Eigenschaften in der Ordnerstruktur darunter. Wenn Sie eine Eigenschaft aus einem Ordner in einen anderen Ordner verschieben, wird die Änderung wie bei einer Änderung der Eigenschaftsregel auf unsere [Datenerfassungsserver](../../reference/system-components/components-data-collection.md) übertragen. Die im nächsten Berichtablauf aktualisierten Berichte spiegeln diese Änderung in den Datumsbereichen der Berichterstellung wider (1, 7, 14, 30, 60, 90). Die alten Berichtszahlen aus den vorherigen Tagen bleiben unverändert.
 
-## Berechtigungen für rollenbasierte Zugriffskontrolle (RBAC) {#role-based-access-controls}
+## Rollenbasierte Zugriffssteuerungsberechtigungen (RBAC) {#role-based-access-controls}
 
 Bei Unternehmen, die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]) verwenden, können Ihre Benutzer mit den entsprechenden [!UICONTROL RBAC]-Berechtigungen die Datenquelle ändern, die mit [!UICONTROL folder trait] verknüpft ist. Ein Benutzer muss zu einer Gruppe mit einer der folgenden Eigenschaften gehören:
 
