@@ -91,7 +91,7 @@ Nehmen wir als Beispiel oder Anwendungsfall für diesen Kontotyp an, Sie möchte
 
 Arbeiten Sie mit Ihrem [!DNL Audience Manager] -Berater zusammen, um ein allgemeines, ausschließlich [!DNL API]-Benutzerkonto einzurichten.
 
-### Workflow für die Kennwortauthentifizierung {#password-authentication-workflow}
+### Workflow zur Kennwortauthentifizierung {#password-authentication-workflow}
 
 Passwortauthentifizierung sicher Zugriff auf [!DNL REST API]. Die folgenden Schritte beschreiben den Workflow für die Kennwortauthentifizierung von einem [!DNL JSON]-Client in Ihrem Browser.
 
@@ -131,7 +131,7 @@ Die Antwort [!DNL JSON] enthält Ihr Zugriffstoken. Die Antwort sollte wie folgt
 
 Der Schlüssel `expires_in` stellt die Anzahl der Sekunden dar, bis das Zugriffstoken abläuft. Es hat sich bewährt, kurze Ablaufzeiten zu verwenden, um die Exposition zu begrenzen, wenn das Token jemals offen gelegt wird.
 
-### Aktualisierungstoken {#refresh-token}
+### Token aktualisieren {#refresh-token}
 
 Token aktualisieren verlängern den [!DNL API]-Zugriff, nachdem das ursprüngliche Token abgelaufen ist. Bei Bedarf enthält die Antwort [!DNL JSON] im Kennwort-Workflow ein Aktualisierungstoken. Wenn Sie kein Aktualisierungstoken erhalten, erstellen Sie mithilfe des Kennwortauthentifizierungsprozesses ein neues.
 
@@ -170,7 +170,7 @@ Die Antwort [!DNL JSON] enthält Ihr neues Zugriffstoken. Die Antwort sollte wie
 
 [!DNL Audience Manager] [!UICONTROL REST API] unterstützt Autorisierungscode und implizite Authentifizierung. Um diese Zugriffsmethoden verwenden zu können, müssen sich Ihre Benutzer bei `https://api.demdex.com/oauth/authorize` anmelden, um Zugriff auf Token zu erhalten und sie zu aktualisieren.
 
-## Authentifizierte [!DNL API] Anforderungen {#authenticated-api-requests} stellen
+## Authentifizierte [!DNL API]-Anforderungen stellen {#authenticated-api-requests}
 
 Voraussetzungen für den Aufruf von [!DNL API]-Methoden, nachdem Sie ein Authentifizierungstoken erhalten haben.
 
@@ -180,7 +180,7 @@ So stellen Sie Aufrufe für die verfügbaren [!DNL API]-Methoden bereit:
 * Bei Verwendung von [JWT (Service Account) Authentication](#jwt) müssen Sie die `x-api-key`-Kopfzeile angeben, die mit der `client_id` übereinstimmt. Sie können Ihr `client_id` von der Seite [Adobe I/O integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) abrufen.
 * Rufen Sie die erforderliche [!DNL API]-Methode auf.
 
-## Optional [!DNL API] Abfrageparameter {#optional-api-query-parameters}
+## Optionale [!DNL API] Abfrageparameter {#optional-api-query-parameters}
 
 Legen Sie die optionalen Parameter fest, die für Methoden verfügbar sind, die alle Eigenschaften für ein Objekt zurückgeben.
 
