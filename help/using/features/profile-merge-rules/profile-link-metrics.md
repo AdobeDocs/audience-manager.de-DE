@@ -18,7 +18,7 @@ ht-degree: 2%
 
 [!UICONTROL Profile Merge Rule] Metriken liefern Daten zu Personen und Geräten, die sich bei Ihrer Site authentifizieren. Die Daten und Diagramme in [!UICONTROL Profile Merge Rule Reports] werden beim Erstellen einer Zusammenführungsregel oder beim Klicken auf eine vorhandene Regel im [!UICONTROL Profile Merge Rules]-Dashboard dynamisch aktualisiert. Diese Metriken können Gerätediagramme aus den Quellen [!DNL Adobe Experience Cloud Device Co-op] oder anderen Gerätediagrammen von Drittanbietern enthalten.
 
-## Metriken für Zusammenführungsregeln {#merge-rule-metrics}
+## Metriken zu Zusammenführungsregeln {#merge-rule-metrics}
 
 Berichte geben Daten in parallelen Balkendiagrammen zurück, wenn Ihre Zusammenführungsregeln Daten aus der [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) oder anderen Gerätediagrammen von Drittanbietern verwenden, auf die Sie möglicherweise in [!DNL Audience Manager] zugreifen können. Auf diese Weise können Sie Ihre authentifizierten Erstanbieterdaten mit geräteübergreifenden Daten vergleichen, die vom [!UICONTROL Experience Cloud Device Co-op] oder einem anderen Gerätediagramm von Drittanbietern bereitgestellt werden. Informationen zu den von [!UICONTROL Device Co-op] zurückgegebenen Daten finden Sie unter [Das Gerätediagramm: Interne Prozesse und Ausgabe](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Diese Daten werden täglich aktualisiert.
 
@@ -115,7 +115,7 @@ Ein [!UICONTROL Profile Link Device Graph] -Bericht, der Gerätediagrammdaten au
 
 ![](assets/profile-link-graph.png)
 
-## Profillink-Trend-Diagramme {#profile-link-trend}
+## Trenddiagramme für Profillinks {#profile-link-trend}
 
 Zusätzlich zu den anderen Datenvisualisierungen enthalten [!UICONTROL Profile Link] -Berichte ein Liniendiagramm. Das Liniendiagramm soll Ihnen Trends im Zeitverlauf für Ihre Profilregeln zeigen. Trenddiagramme (und die anderen Berichte) sind verfügbar, wenn Sie auf eine Regel auf der Landingpage [!UICONTROL Profile Merge Rules] ( **[!UICONTROL Audience Data > Profile Merge Rules]**) klicken. Diese Diagramme enthalten Gerätediagrammdaten, wenn Sie Mitglied der [!UICONTROL Device Co-op] oder anderer Gerätediagramme von Drittanbietern sind, auf die Sie möglicherweise in [!DNL Audience Manager] zugreifen können. Klicken Sie auf eine Trendlinie, um die zugrunde liegenden Daten anzuzeigen.
 
