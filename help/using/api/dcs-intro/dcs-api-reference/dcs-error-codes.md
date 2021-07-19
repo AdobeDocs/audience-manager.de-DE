@@ -86,7 +86,7 @@ In den Tabellen unten steht *kursiv* für einen Variablenplatzhalter.
  </tbody> 
 </table>
 
-## Profil-Abruffehlercodes {#profile-retrieval-error-codes}
+## Fehler-Codes beim Abrufen von Profilen {#profile-retrieval-error-codes}
 
 <table id="table_CFF2252A3CC54960802905454A867D7A"> 
  <thead> 
