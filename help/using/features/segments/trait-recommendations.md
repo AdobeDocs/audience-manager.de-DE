@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Eigenschaftenempfehlungen
 feature: 'Segmente '
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 8%
@@ -170,7 +170,7 @@ Wenn dieselben Eigenschaften A und B 400.000 [!UICONTROL UUID]s aufweisen, die f
 Verwenden Sie die nachstehende Tabelle als grobe Anleitung zur Ähnlichkeit von Eigenschaften. Dieses Handbuch basiert auf den Ähnlichkeitswerten, die bei den meisten Eigenschaften beobachtet wurden.
 
 | [!UICONTROL Trait Similarity Score] | Signifikanz |
----------|----------|
+|---------|----------|
 | 0.1 und höher | Hohe Ähnlichkeit zwischen Eigenschaften |
 | 0,03 - 0,1 | Mittlere Ähnlichkeit zwischen Eigenschaften |
 | 0.01 - 0.03 | Geringe Ähnlichkeit zwischen Eigenschaften |
