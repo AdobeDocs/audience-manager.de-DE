@@ -8,9 +8,9 @@ title: Beta-Umgebung
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: 'Referenz '
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 4%
 
 ---
@@ -21,25 +21,21 @@ Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. Ände
 
 ## Überblick
 
-Die Beta-Umgebung ist eine exakte Replikation der Produktionsumgebung ohne experimentelle oder nicht veröffentlichte Funktionen. Ihre Anmeldedaten aus der Produktionsumgebung sind in der Beta-Umgebung gültig.
+Die Funktionalität in der Beta-Umgebung ist eine exakte Replikation der Produktionsumgebung ohne experimentelle oder nicht veröffentlichte Funktionen. Ihre Anmeldedaten aus der Produktionsumgebung sind in der Beta-Umgebung gültig.
 
 **Zeitplan aktualisieren**
 
 Die Beta-Umgebung wird am Ende jedes Monats außerhalb der Spitzenzeiten aktualisiert.
 
+>[!IMPORTANT]
+>
+>Beachten Sie, dass Ihre Kundendaten ([Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert werden.
+
 **Ausgehender Traffic**
 
 Ausgehender Traffic ist nicht für die Beta-Umgebung aktiviert.
 
-<!-- 
-
-Added re: AAM-30826.
-
- -->
-
 ## Endpunkte
-
-
 
 | Diensleistung | URL/Hostname | Erhalten des Zugriffs |
 |--- |--- | --- |
