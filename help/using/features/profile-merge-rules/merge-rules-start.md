@@ -7,10 +7,10 @@ title: Erste Schritte mit Profilzusammenführungsrichtlinien
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profilzusammenführung
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 4%
+source-wordcount: '1307'
+ht-degree: 3%
 
 ---
 
@@ -151,7 +151,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Weitere Informationen finden Sie unter [Erstellen einer geräteübergreifenden Datenquelle](#create-data-source) und [Kunden-IDs und Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html).
+Weitere Informationen finden Sie unter [Erstellen einer geräteübergreifenden Datenquelle](#create-data-source) und [Kunden-IDs und Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
 
 ### Funktion `DIL.create` konfigurieren
 
@@ -166,7 +166,7 @@ var vDil = DIL.create({
 });
 ```
 
-Im Schlüssel-Wert-Paar des Namespace ist die Variable `*`MCORG`*` Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt [!UICONTROL Administration] des [!DNL Experience Cloud]-Dashboards. Sie benötigen Administratorberechtigungen, um dieses Dashboard anzuzeigen. Siehe [Administration: Hauptdienste](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Im Schlüssel-Wert-Paar des Namespace ist die Variable `*`MCORG`*` Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt [!UICONTROL Administration] des [!DNL Experience Cloud]-Dashboards. Sie benötigen Administratorberechtigungen, um dieses Dashboard anzuzeigen. Siehe [Administration: Hauptdienste](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### SDKs konfigurieren
 
@@ -224,7 +224,7 @@ Weitere Informationen finden Sie im Abschnitt [!UICONTROL DIL] im Abschnitt [Dek
  </tbody>
 </table>
 
-Siehe auch [Audience Manager-Methoden für Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) und [Audience Manager-Methoden für iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Siehe auch [Audience Manager-Methoden für Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) und [Audience Manager-Methoden für iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
