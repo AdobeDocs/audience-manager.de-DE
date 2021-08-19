@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Voraussetzungen und Überlegungen
 feature: Benutzerbasierte Ziele
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ Bevor Sie [!UICONTROL People-Based Destinations] verwenden können, um Ihre Erst
 
 Informationen zum Bearbeiten Ihrer [!DNL LinkedIn Campaign Manager]-Benutzerberechtigungen finden Sie unter [Hinzufügen, Bearbeiten und Entfernen von Benutzerberechtigungen für Werbekonten](https://www.linkedin.com/help/lms/answer/5753) in der LinkedIn-Dokumentation.
 
-Videoanleitungen finden Sie unter [Grundlegendes zum und Konfigurieren des personenbasierten LinkedIn-Ziels](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html).
+Videoanleitungen finden Sie unter [Grundlegendes zum und Konfigurieren des personenbasierten LinkedIn-Ziels](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html).
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -88,7 +88,7 @@ Sehen Sie sich das folgende Video an, um die Hashing-Anforderungen von [!UICONTR
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud bietet Ihnen die Möglichkeit, Kunden-IDs über [!DNL Adobe Experience Platform Identity Service (ECID)] zu hash. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Unterstützung für setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
+Adobe Experience Cloud bietet Ihnen die Möglichkeit, Kunden-IDs über [!DNL Adobe Experience Platform Identity Service (ECID)] zu hash. Detaillierte Informationen zur Verwendung von ECID zum Hash von Kunden-IDs finden Sie unter [SHA256-Hashing-Unterstützung für setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) .
 
 ## Abrufen von Benutzerberechtigungen {#obtaining-user-permission}
 
