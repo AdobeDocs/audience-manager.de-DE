@@ -7,10 +7,10 @@ title: Häufig gestellte Fragen zu Audience Lab
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: 'Audience Lab '
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '349'
+ht-degree: 98%
 
 ---
 
@@ -54,6 +54,6 @@ In diesem Fall zählt [!UICONTROL Audience Lab] drei Konversionen, eine für jed
 
 Weitere Informationen zur Nutzung von [!UICONTROL Audience Lab] mit [!UICONTROL RBAC]-Rechten finden Sie unter [Erstellen von Segmenttestgruppen](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups).
 
-**Kann ich [!UICONTROL Audience Lab] in Verbindung mit [!UICONTROL Profile Link Device Graph] und externen Gerätediagrammen verwenden ([Adobe Experience Cloud-Gerätekooperation](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html), Tapad-Gerätediagramm, Liveramp-Gerätediagramm)?**
+**Kann ich [!UICONTROL Audience Lab] in Verbindung mit [!UICONTROL Profile Link Device Graph] und externen Gerätediagrammen verwenden ([Adobe Experience Cloud-Gerätekooperation](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), Tapad-Gerätediagramm, Liveramp-Gerätediagramm)?**
 
 Derzeit kann [!UICONTROL Audience Lab] bei Verwendung von [!UICONTROL Profile Link Device Graph] nur Segmentpopulationen nach Geräten aufteilen, die mit einem qualifizierenden Gerät verbunden sind. Wir arbeiten daran, die anderen Gerätediagramme in [!UICONTROL Audience Lab] zu unterstützen, und werden Sie darüber informieren, sobald dies der Fall ist.
