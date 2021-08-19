@@ -7,9 +7,9 @@ title: Berichtsmetriken für Profilzusammenführungsrichtlinien
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profilzusammenführung
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Metriken zu Zusammenführungsregeln {#merge-rule-metrics}
 
-Berichte geben Daten in parallelen Balkendiagrammen zurück, wenn Ihre Zusammenführungsregeln Daten aus der [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) oder anderen Gerätediagrammen von Drittanbietern verwenden, auf die Sie möglicherweise in [!DNL Audience Manager] zugreifen können. Auf diese Weise können Sie Ihre authentifizierten Erstanbieterdaten mit geräteübergreifenden Daten vergleichen, die vom [!UICONTROL Experience Cloud Device Co-op] oder einem anderen Gerätediagramm von Drittanbietern bereitgestellt werden. Informationen zu den von [!UICONTROL Device Co-op] zurückgegebenen Daten finden Sie unter [Das Gerätediagramm: Interne Prozesse und Ausgabe](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Diese Daten werden täglich aktualisiert.
+Berichte geben Daten in parallelen Balkendiagrammen zurück, wenn Ihre Zusammenführungsregeln Daten aus der [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html) oder anderen Gerätediagrammen von Drittanbietern verwenden, auf die Sie möglicherweise in [!DNL Audience Manager] zugreifen können. Auf diese Weise können Sie Ihre authentifizierten Erstanbieterdaten mit geräteübergreifenden Daten vergleichen, die vom [!UICONTROL Experience Cloud Device Co-op] oder einem anderen Gerätediagramm von Drittanbietern bereitgestellt werden. Informationen zu den von [!UICONTROL Device Co-op] zurückgegebenen Daten finden Sie unter [Das Gerätediagramm: Interne Prozesse und Ausgabe](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html). Diese Daten werden täglich aktualisiert.
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -35,7 +35,7 @@ Berichte geben Daten in parallelen Balkendiagrammen zurück, wenn Ihre Zusammenf
    <td colname="col2"> <p>Zeigt: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Aktive Personen</span>: Die Anzahl der Personen, die sich in den letzten 60 Tagen bei Ihrer Site authentifiziert haben. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Geräteübergreifend</span>: Die Gesamtanzahl der  <a href="merge-rules-start.md#create-data-source"> geräteübergreifenden </a> IDs, die in der  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Data </a> Sources-Ressource des ausgewählten  <a href="merge-rule-definitions.md"> authentifizierten </a> Profils während der Lebensdauer gespeichert sind, in der die Datenquelle existiert. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Geräteübergreifend</span>: Die Gesamtanzahl der  <a href="merge-rules-start.md#create-data-source"> geräteübergreifenden </a> IDs, die in der  <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Data </a> Sources-Ressource des ausgewählten  <a href="merge-rule-definitions.md"> authentifizierten </a> Profils während der Lebensdauer gespeichert sind, in der die Datenquelle existiert. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % Aktive Personen</span>: Zeigt  <span class="wintitle"> aktive </span> Menschen in % an. </li> 
     </ul> <p> <span class="wintitle"> Authentifizierte </span> Aktivitätstypen: Sie vergleichen Datenquellen nach Aktivität, Volumen und Prozent. Es kann Ihnen dabei helfen, eine Datenquelle zu finden, die viele Personen und einen hohen Prozentsatz aktiver Benutzer aufweist. Oder Sie können beim Vergleich von Datenquellen mit einem hohen Anteil aktiver Benutzer im Vergleich zur Gesamtzielgruppengröße einen Wert finden. Manchmal sind Datenquellen mit niedrigen Gesamtlebenszeitzahlen und hoher Aktivität nützlicher als solche mit hohen Lebenszyklusergebnissen und niedrigen Aktivitätszahlen. </p> <p> <p>Hinweis: Die Metriken <span class="wintitle"> Authentifizierte Aktivität</span> enthalten nur <span class="wintitle"> Profillink</span> -Daten. Dieser Bericht enthält keine <span class="wintitle">-Gerätediagrammdaten</span>. </p> </p> </td> 
   </tr> 
