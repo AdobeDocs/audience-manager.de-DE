@@ -8,10 +8,10 @@ title: Häufig gestellte Fragen zu Produktfunktionen
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Überblick
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 88%
+source-wordcount: '609'
+ht-degree: 84%
 
 ---
 
@@ -33,7 +33,7 @@ Die *`Organization ID`* ist eine eindeutige ID, mit der Ihr Unternehmen in [!DNL
 
 Eine *`Organization ID`* sieht beispielsweise so aus: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-Die *`Organization ID`* wird von der [DIL](../dil/dil-overview.md)-API von Audience Manager, dem [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) und anderen [!DNL Experience Cloud]-Lösungen verwendet. Benutzer mit Administratorberechtigungen können die *`Organization ID`* in der [!DNL Adobe Admin Console] finden. Siehe [Häufig gestellte Fragen zur Administration – Benutzerverwaltung](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Die *`Organization ID`* wird von der [DIL](../dil/dil-overview.md)-API von Audience Manager, dem [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) und anderen [!DNL Experience Cloud]-Lösungen verwendet. Benutzer mit Administratorberechtigungen können die *`Organization ID`* in der [!DNL Adobe Admin Console] finden. Siehe [Häufig gestellte Fragen zur Administration – Benutzerverwaltung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -95,4 +95,4 @@ Sie sollten Eigenschaftsempfehlungen in folgenden Fällen verwenden:
 
 **Gibt es einen Unterschied zwischen Adobe Analytics- und Audience Manager-Segmenten?**
 
-Ja. Eine ausführliche Beschreibung der Unterschiede finden Sie unter [Grundlegendes zu Segmenten in Analytics und Audience Manager](https://docs.adobe.com/content/help/de-DE/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+Ja. Eine ausführliche Beschreibung der Unterschiede finden Sie unter [Grundlegendes zu Segmenten in Analytics und Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
