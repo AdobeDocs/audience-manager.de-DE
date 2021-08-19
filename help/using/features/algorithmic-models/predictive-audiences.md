@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmische Modelle
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1505'
 ht-degree: 8%
 
 ---
@@ -122,11 +122,11 @@ Beachten Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences]-Modelle 
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Von [!UICONTROL Predictive Audiences]-Modellen erstellte prädiktive Segmente übernehmen die [Datenexportkontrollen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) aus den folgenden Erstanbieter-Datenquellen:
+Von [!UICONTROL Predictive Audiences]-Modellen erstellte prädiktive Segmente übernehmen die [Datenexportkontrollen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) aus den folgenden Erstanbieter-Datenquellen:
 
 1. Die Erstanbieter-Datenquelle, die Sie beim Erstellen des Modells auswählen.
 1. Die Erstanbieter-Datenquellen Ihrer Zielgruppe. Insbesondere die Datenexportkontrollen der [!UICONTROL traits] oder [!UICONTROL segments], aus denen Ihre Zielgruppe besteht.
-1. Die [Datenexportkontrollen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
+1. Die [Datenexportkontrollen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
 
 Die neu erstellten Prognosen [!UICONTROL traits] und [!UICONTROL segments] weisen dieselben Datenschutzbeschränkungen auf wie die Vereinigung der oben beschriebenen Erstanbieter-Datenquellen.
 
@@ -146,6 +146,6 @@ Wenn Sie ein [!UICONTROL Profile Merge Rule] auswählen, das sowohl Gerätedaten
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppen-Classifications auswählen, unterliegen dem Audience Manager [Rollenbasierte Zugriffskontrollen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
+Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppen-Classifications auswählen, unterliegen dem Audience Manager [Rollenbasierte Zugriffskontrollen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
 
-Audience Manager können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, wenn sie über [Berechtigung zum Anzeigen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions) verfügen.
+Audience Manager können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, wenn sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions) verfügen.
