@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager-Benutzermigration zur Admin Console
 feature: Administration
 exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 3%
@@ -25,8 +25,8 @@ Zu den Vorteilen der Verwendung von [!DNL Admin Console] gehören:
 | Vorteil | Beschreibung |
 |---|---|
 | Single Sign-on Lösungen | [!DNL Audience Manager] -Benutzer können sich mit  [!DNL Experience Cloud] und allen anderen Lösungen über ihre  [!DNL Adobe ID] oder  [!DNL Enterprise ID] anmelden. Diese Anmeldung ermöglicht den Zugriff auf integrierte Lösungen und Hauptdienste über [!DNL Experience Cloud]. Nach der Migration werden Benutzer, die versuchen, sich über die bisherigen Anmeldedaten anzumelden (`bank.demdex.com`), zu `experiencecloud.adobe.com` umgeleitet. |
-| Benutzer und Gruppen verwalten | Sobald die Migration abgeschlossen ist, verwalten [!DNL Audience Manager] -Administratoren Benutzer und Gruppen ausschließlich im Ordner [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/). |
-| Produkte und Dienste verwalten | Von [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/) aus können Administratoren: <ul><li>Benutzer erstellen, aktualisieren und entfernen</li><li>Zugriff auf Lösungen und Dienste gewähren</li></ul> |
+| Benutzer und Gruppen verwalten | Sobald die Migration abgeschlossen ist, verwalten [!DNL Audience Manager] -Administratoren Benutzer und Gruppen ausschließlich im Ordner [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/). |
+| Produkte und Dienste verwalten | Von [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/) aus können Administratoren: <ul><li>Benutzer erstellen, aktualisieren und entfernen</li><li>Zugriff auf Lösungen und Dienste gewähren</li></ul> |
 
 Um die Benutzermigration zu erleichtern, bitten wir alle [!DNL Audience Manager] -Administratoren, so bald wie möglich mit der Migration ihrer Benutzerkonten auf [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) zu beginnen, indem Sie die in diesem Artikel beschriebenen Schritte ausführen.
 
