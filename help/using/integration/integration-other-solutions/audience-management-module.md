@@ -8,9 +8,9 @@ title: Implementieren des Zielgruppen-Management-Moduls
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics-Integration
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 8c96c2f987ab0f235bdfb8ba5eb4a7d55fa57d0b
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Führen Sie die Schritte in diesem Tutorial aus, um [!DNL Analytics]-Daten an [!
 Zusätzlich zur Aktivierung der Erweiterungen oder Implementierung des in diesem Dokument beschriebenen Codes müssen Sie auch:
 
 * Implementieren Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-* Aktivieren Sie [Serverseitige Weiterleitung](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) für Report Suites in [!UICONTROL Adobe Analytics Admin Console].
+* Aktivieren Sie [Serverseitige Weiterleitung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) für Report Suites in [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementierung {#implementation}
 
