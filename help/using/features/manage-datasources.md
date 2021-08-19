@@ -8,10 +8,10 @@ title: Data Sources verwalten
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 6%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ So schließen Sie den Abschnitt [!UICONTROL Data Source Details] ab:
 1. Geben Sie einen [!UICONTROL integration code] an. Im Allgemeinen sind [!UICONTROL integration codes] optional. Sie sind erforderlich, wenn Sie:
 
    * [Erstellen Sie eine geräteübergreifende Datenquelle](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Verwenden Sie den Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).[
+   * Verwenden Sie den Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).[
    * Arbeiten Sie mit [Regeln zur Profilzusammenführung](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Wählen Sie ein **[!UICONTROL ID Type]**. [!UICONTROL ID Type] Zu den Optionen gehören:
@@ -72,7 +72,7 @@ Löschen Sie einen [!UICONTROL data source], den Sie nicht mehr benötigen.
 >Beachten Sie die folgenden Einschränkungen:
 >
 >* Sie können eine [Aktive Zielgruppe oder Datenquelle synchronisierte Eigenschaft](../features/traits/client-activity-synced-audience-traits.md) nicht löschen.
->* Für Kunden, die Adobe Analytics verwenden: In Audience Manager ist es nicht möglich, automatisch aus Ihren [!DNL Analytics] Report Suites erstellte Datenquellen zu löschen. Verwenden Sie den [Core Service](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html), um die Zuordnung dieser Datenquellen aufzuheben.
+>* Für Kunden, die Adobe Analytics verwenden: In Audience Manager ist es nicht möglich, automatisch aus Ihren [!DNL Analytics] Report Suites erstellte Datenquellen zu löschen. Verwenden Sie den [Core Service](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html), um die Zuordnung dieser Datenquellen aufzuheben.
 
 
 1. Klicken **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
