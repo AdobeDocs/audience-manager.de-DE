@@ -7,10 +7,10 @@ title: Erfassen von Kampagnenklickdaten über Pixelaufrufe
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Adobe Campaign-Integration
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 11%
+source-wordcount: '687'
+ht-degree: 10%
 
 ---
 
@@ -96,7 +96,7 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Weitere Informationen zur ECID finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und die Experience Cloud-ID</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Weitere Informationen zur ECID finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies und die Experience Cloud-ID</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
