@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Erste Schritte mit vorhersagekräftigen Zielgruppen
 feature: Algorithmische Modelle
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 ## Erstellen eines Predictive Audiences-Modells {#create-predictive-audiences}
 
-Bevor Sie ein [!UICONTROL Predictive Audiences]-Modell erstellen, müssen Sie entscheiden, welcher Erstanbieter-Datenquelle Sie Ihre [!UICONTROL Predictive Audiences]-Eigenschaften und -Segmente zuweisen möchten. Sie können eine vorhandene Erstanbieter-Datenquelle verwenden oder eine neue erstellen. Weitere Informationen zum Erstellen einer neuen Erstanbieter-Datenquelle finden Sie unter [Data Sources verwalten](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) .
+Bevor Sie ein [!UICONTROL Predictive Audiences]-Modell erstellen, müssen Sie entscheiden, welcher Erstanbieter-Datenquelle Sie Ihre [!UICONTROL Predictive Audiences]-Eigenschaften und -Segmente zuweisen möchten. Sie können eine vorhandene Erstanbieter-Datenquelle verwenden oder eine neue erstellen. Weitere Informationen zum Erstellen einer neuen Erstanbieter-Datenquelle finden Sie unter [Data Sources verwalten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) .
 
 Sobald Sie wissen, welche Datenquelle Sie verwenden werden, führen Sie die folgenden Schritte aus.
 
