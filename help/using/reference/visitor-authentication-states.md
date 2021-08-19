@@ -8,9 +8,9 @@ title: Besucherauthentifizierungsstatus in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: 'Referenz '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 Der Authentifizierungsstatus der Besucher in Audience Manager bestimmt, ob die neuen Eigenschaftsinformationen in das authentifizierte Profil des Besuchers oder in das Geräteprofil geschrieben werden, aus dem die Daten erfasst wurden. Audience Manager verarbeitet die Authentifizierungsstatus der Besucher-ID UNKNOWN und LOGGED_OUT in Ereignisaufrufen auf dieselbe Weise.
 
-Ab [!DNL Experience Cloud] ID-Dienst v1.5 enthält die `setCustomerID`-Methode das optionale `AuthState`-Objekt. `AuthState` identifiziert Besucher anhand ihres  [Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nach dem Authentifizierungsstatus, der im Aufruf übergeben wird, und der  [Profilzusammenführungsrichtlinie, die Sie für die Segmentierung ](../features/profile-merge-rules/merge-rules-dashboard.md) verwenden.
+Ab [!DNL Experience Cloud] ID-Dienst v1.5 enthält die `setCustomerID`-Methode das optionale `AuthState`-Objekt. `AuthState` identifiziert Besucher anhand ihres  [Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] verarbeitet die realisierten Eigenschaften unterschiedlich, je nach dem Authentifizierungsstatus, der im Aufruf übergeben wird, und der  [Profilzusammenführungsrichtlinie, die Sie für die Segmentierung ](../features/profile-merge-rules/merge-rules-dashboard.md) verwenden.
 
 ## Authentifizierungsstatus: UNBEKANNT {#auth-status-unknown}
 
@@ -57,5 +57,5 @@ Beispielaufruf (der Anforderungswert, der dem Authentifizierungsstatus entsprich
 
 >[!MORELIKETHIS]
 >
->* [Kunden-IDs und Authentifizierungsstatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
+>* [Kunden-IDs und Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
 
