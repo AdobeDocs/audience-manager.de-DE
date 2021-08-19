@@ -7,10 +7,10 @@ title: 'Unterstützte Browser  '
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: 'Referenz '
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe unterstützt die neueste Hauptversion dieser Browser:
 
 * **Google Chrome**
 
-   Laden Sie die neueste Version von Chrome von [https://www.google.com/intl/de/chrome/](https://www.google.com/intl/de/chrome/) herunter.
+   Laden Sie die neueste Chrome-Version von [https://www.google.com/chrome](https://www.google.com/chrome) herunter.
 
 * **Microsoft Edge**
 
@@ -38,10 +38,10 @@ Adobe unterstützt die neueste Hauptversion dieser Browser:
 
 * **Mozilla Firefox**
 
-   Laden Sie die neueste Version von Firefox von [http://www.mozilla.com/de-DE/firefox](http://www.mozilla.com/de-DE/firefox) herunter.
+   Laden Sie die neueste Version von Firefox von [https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox) herunter.
 
 * **Safari**
 
-   Laden Sie die neueste Version von Safari von [http://www.apple.com/de/safari/](http://www.apple.com/de/safari/) herunter.
+   Laden Sie die neueste Version von Safari von [https://www.apple.com/safari/download](https://www.apple.com/safari/download) herunter.
 
 Andere Browser funktionieren möglicherweise, werden aber von unseren technischen und Produkt-Teams nicht unterstützt. Wenn Sie Probleme mit der Arbeit mit [!DNL Audience Manager] haben, stellen Sie sicher, dass Sie einen aktuellen und unterstützten Browser verwenden.
