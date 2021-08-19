@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Berichte zu vorhersagekräftigen Zielgruppen
 feature: Algorithmische Modelle
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 6%
 
 ---
 
 # Berichte zu vorhersagekräftigen Zielgruppen
 
-Nachdem Sie ein [!UICONTROL Predictive Audiences]-Modell gespeichert haben, beginnt der Audience Manager damit, es zu trainieren. Innerhalb weniger Stunden beginnt das berechnete Modell mit der Analyse von Zielgruppen auf den [Datenerfassungsservern](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Die Berichterstellung ist am folgenden Tag verfügbar.
+Nachdem Sie ein [!UICONTROL Predictive Audiences]-Modell gespeichert haben, beginnt der Audience Manager damit, es zu trainieren. Innerhalb weniger Stunden beginnt das berechnete Modell mit der Analyse von Zielgruppen auf den [Datenerfassungsservern](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Die Berichterstellung ist am folgenden Tag verfügbar.
 
 Um die Ergebnisse Ihrer [!UICONTROL Predictive Audiences]-Classification anzuzeigen, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie auf Ihr Modell in der Liste.
 
