@@ -7,10 +7,10 @@ title: Allgemeine Anwendungsfälle für Profilzusammenführungsrichtlinien
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profilzusammenführung
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 4%
+source-wordcount: '995'
+ht-degree: 3%
 
 ---
 
@@ -80,7 +80,7 @@ Weitere Informationen zu dieser Option finden Sie unter [People-Based Destinatio
 
 ## Gerätediagrammoptionen {#device-graph-options}
 
-Die Auswahl einer [!UICONTROL device graph]-Option für eine [!UICONTROL Profile Merge]-Regel hängt von Bedingungen ab, die für Ihre digitalen Eigenschaften und Geschäftsziele eindeutig sind. Diese allgemeinen Richtlinien helfen Ihnen dabei zu verstehen, wann ein Diagrammtyp im Vergleich zu einem anderen verwendet werden soll. Beachten Sie, dass Sie Mitglied der [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html) sein müssen oder über eine vertragliche Beziehung mit einem externen Gerätediagramm verfügen müssen, um diese Optionen verwenden zu können. In der folgenden Tabelle finden Sie allgemeine Hinweise dazu, wann eine Gerätediagrammoption ausgewählt werden soll. Spezifische Anwendungsfälle finden Sie unter [Anwendungsfälle für Profillinkgerät-Diagramme](profile-link-use-case.md) und [Anwendungsfälle für externe Gerätediagramme](external-graph-use-cases.md).
+Die Auswahl einer [!UICONTROL device graph]-Option für eine [!UICONTROL Profile Merge]-Regel hängt von Bedingungen ab, die für Ihre digitalen Eigenschaften und Geschäftsziele eindeutig sind. Diese allgemeinen Richtlinien helfen Ihnen dabei zu verstehen, wann ein Diagrammtyp im Vergleich zu einem anderen verwendet werden soll. Beachten Sie, dass Sie Mitglied der [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) sein müssen oder über eine vertragliche Beziehung mit einem externen Gerätediagramm verfügen müssen, um diese Optionen verwenden zu können. In der folgenden Tabelle finden Sie allgemeine Hinweise dazu, wann eine Gerätediagrammoption ausgewählt werden soll. Spezifische Anwendungsfälle finden Sie unter [Anwendungsfälle für Profillinkgerät-Diagramme](profile-link-use-case.md) und [Anwendungsfälle für externe Gerätediagramme](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -101,7 +101,7 @@ Die Auswahl einer [!UICONTROL device graph]-Option für eine [!UICONTROL Profile
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grafikoptionen für externe Geräte </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Profilzusammenführungen, </span> die mit der  <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-</a> op (Gerätekooperation) erstellt wurden,  <span class="keyword">  </span> eignen sich ideal für: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profilzusammenführungen, </span> die mit der  <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-</a> op (Gerätekooperation) erstellt wurden,  <span class="keyword">  </span> eignen sich ideal für: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Digitale Eigenschaften mit geringer Kundenauthentifizierung. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Umfassende Markenkampagnen mit hoher Reichweite. </li> 
