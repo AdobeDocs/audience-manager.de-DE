@@ -7,10 +7,10 @@ title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: DIL-Implementierung
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 77%
+source-wordcount: '540'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ Eine optionale boolesche Konfiguration, die festlegt, ob DIL Daten an die Adobe 
 Um `isCoopSafe` zu verwenden, müssen Sie:
 
 * Verwenden Sie [!UICONTROL DIL] v6.11 oder höher.
-* Teilnahme an der [Experience Cloud-Gerätekooperation](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html). Zukünftige Mitglieder der Gerätekooperation sollten diese Dokumentation ebenfalls lesen, um festzustellen, ob `isCoopSafe` mögliche Fragen über die Verwendung der Daten zur Erstellung eines Gerätediagramms beantwortet.
+* Teilnahme an der [Experience Cloud-Gerätekooperation](https://experienceleague.adobe.com/docs/device-co-op/using/home.html). Zukünftige Mitglieder der Gerätekooperation sollten diese Dokumentation ebenfalls lesen, um festzustellen, ob `isCoopSafe` mögliche Fragen über die Verwendung der Daten zur Erstellung eines Gerätediagramms beantwortet.
 
 * Wenden Sie sich an Ihren [!DNL Adobe]-Berater, um eine Zulassungsliste- oder eine Blockierungsliste-Markierung auf Ihrem Gerätekooperationskonto zu setzen. Es gibt keinen Self-Service-Pfad, um diese Flags zu aktivieren.
 
