@@ -7,9 +7,9 @@ title: DCS-Fehlercodes, Meldungen und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ In den Tabellen unten steht *kursiv* für einen Variablenplatzhalter.
 |---|---|---|
 | 0 | Nicht angegebener Fehler | Dies ist ein Sammelfehler, der Ereignisse verarbeitet, die nicht von den anderen Fehler-Handlern abgedeckt werden. Die Fehlerbehebung ist schwierig. Sie kann durch eine Vielzahl unbekannter Aktionen oder Ereignisse verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie erneut Ihre [!DNL DCS] -Anfrage. Wenden Sie sich an Ihren [!DNL Adobe]-Support-Mitarbeiter, wenn das Problem weiterhin besteht. |
 | 1 | Die Konfiguration für den Hostnamen konnte nicht gefunden werden: `hostname` | Der in der Anfrage gesendete Hostname wurde nicht von unserem Partner-Bereitstellungsteam eingerichtet. Wenden Sie sich an Ihren [!DNL Adobe]-Support-Mitarbeiter, wenn diese Fehlermeldung angezeigt wird. |
-| 2 | Ungültiger `d_orgid` -Wert (konnte keine Konfiguration für diese Organisations-ID finden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder noch nicht über eine solche verfügen, finden Sie im Abschnitt &quot;Administrationsseite&quot; [Organisationen und Kontoverknüpfung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) weitere Informationen dazu, wie Sie diese finden. |
+| 2 | Ungültiger `d_orgid` -Wert (konnte keine Konfiguration für diese Organisations-ID finden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder noch nicht über eine solche verfügen, finden Sie im Abschnitt &quot;Administrationsseite&quot; [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) weitere Informationen dazu, wie Sie diese finden. |
 | 10 | Eigenschaften können nicht ausgewertet werden | Die Eigenschaften der Anforderung wurden entweder teilweise bewertet oder gar nicht bewertet. Wenden Sie sich an Ihren [!DNL Adobe]-Support-Mitarbeiter, wenn das Problem weiterhin besteht. |
 
 ## Integrationsfehlercodes {#integration-error-codes}
