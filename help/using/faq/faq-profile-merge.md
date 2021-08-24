@@ -8,9 +8,9 @@ title: Häufig gestellte Fragen zu Profilzusammenführungsrichtlinien und zum Ge
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profilzusammenführung
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1550'
 ht-degree: 86%
 
 ---
@@ -111,7 +111,7 @@ Ja.
 
 **Umfassen Schätzungen der Segmentgröße Geräte, die sich für ein Segment qualifizieren, basierend auf Verbindungen, die von einer [!UICONTROL Profile Merge Rule] bereitgestellt werden, die eine Gerätediagrammoption verwendet?**
 
-Nein. Siehe die Definitionen für [!UICONTROL Estimated Real-Time Population] und [!UICONTROL Estimated Total Population] in [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/segments/segment-builder-data.html).
+Nein. Siehe die Definitionen für [!UICONTROL Estimated Real-Time Population] und [!UICONTROL Estimated Total Population] in [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
