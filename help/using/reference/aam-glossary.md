@@ -7,10 +7,10 @@ title: Glossar
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: 'Referenz '
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 100%
+source-wordcount: '1181'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Bei [ansprechbaren Zielgruppen](/help/using/features/addressable-audiences.md) s
 
 **Kundenattribute**
 
-Siehe [Kundenattribute](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html) in der [!DNL Experience Cloud Core Services]-Produktdokumentation.
+Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in der [!DNL Experience Cloud Core Services]-Produktdokumentation.
 
 
 
@@ -111,7 +111,7 @@ Die [!UICONTROL Data Integration Library] ist eine API-Bibliothek, die von [!DNL
 
 **Experience Cloud ID (ECID)**
 
-Zuvor als [!DNL Marketing Cloud] ID (MID oder MCID) bezeichnet. Die [!DNL Experience Cloud] ID ist für den ID-Dienst von zentraler Bedeutung. Sie ist eine eindeutige und dauerhafte Kennung für Ihre Site-Besucher. Siehe Cookies und den [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html).
+Zuvor als [!DNL Marketing Cloud] ID (MID oder MCID) bezeichnet. Die [!DNL Experience Cloud] ID ist für den ID-Dienst von zentraler Bedeutung. Sie ist eine eindeutige und dauerhafte Kennung für Ihre Site-Besucher. Siehe Cookies und den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 
 
@@ -268,6 +268,6 @@ TTL definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft v
 
 [!DNL Experience Cloud] ID Service (ehemals Besucher-ID) bietet eine universelle, dauerhafte ID, die Ihre Besucher in allen [!DNL Experience Cloud]-Lösungen identifiziert.
 
-Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
+Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## W-X-Y-Z {#w-z}
