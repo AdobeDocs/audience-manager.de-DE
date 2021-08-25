@@ -1,15 +1,15 @@
 ---
 description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder die Kundenunterstützung.
-seo-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder die Kundenunterstützung.
-seo-title: Adobe Audience Manager-Technologiepartner
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Technology Partners
 keywords: Aktivierung; Aktivierungspartner, Ziel, Ziele
 solution: Audience Manager
 title: Adobe Audience Manager-Technologiepartner
-feature: Drittanbieterintegration
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+feature: Third-party Integration
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 59%
+source-wordcount: '1149'
+ht-degree: 61%
 
 ---
 
@@ -157,7 +157,7 @@ Diese Seite enthält nur die aktuellen Audience Manager [Server-zu-Server-Integr
 | TubeMogul | 03.03.2017 | Ja | Nein | Ja | Nein |
 | Umschalten/Amobee | 03.03.2027 | Nein | Nein | Nein | Ja |
 | Twenga | 10.29.2018 | Ja | Nein | Nein | Nein |
-| Twitter-Zielgruppen | 27.02.2017 | Ja | Nein | Ja | Nein |
+| Benutzerdefinierte twitter-Zielgruppen | 27.02.2017 | Ja | Nein | Ja | Nein |
 | Unterton | 7. November 2017 | Nein | Nein | Nein | Nein |
 | Verve | 06.15.2017 | Ja | Nein | Nein | Ja |
 | VideoAmp | 03.03.2017 | Nein | Nein | Nein | Nein |
