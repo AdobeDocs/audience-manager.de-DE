@@ -1,16 +1,16 @@
 ---
 description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder die Kundenunterstützung.
-seo-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe Consultant oder die Kundenunterstützung.
-seo-title: Adobe Audience Manager Server-zu-Server-Ziele
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: Aktivierung; Aktivierungspartner, Ziel, Ziele
 solution: Audience Manager
 title: Adobe Audience Manager Server-zu-Server-Ziele
-feature: Zielgrundlagen
+feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 72%
+source-wordcount: '1112'
+ht-degree: 74%
 
 ---
 
@@ -162,7 +162,7 @@ Diese Seite enthält nur die aktuellen [!DNL Audience Manager] [gerätebasierten
 | [!DNL TubeMogul] | 03.03.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Turn] /  [!DNL Amobee] | 03.03.2027 | Echtzeit | Nein | Nein | Nein | Ja |
 | [!DNL Twenga] | 10.29.2018 | Echtzeit | Ja | Nein | Nein | Nein |
-| [!DNL Twitter Tailored Audiences] | 27.02.2017 | Echtzeit | Ja | Nein | Ja | Nein |
+| [!DNL Twitter Custom Audiences] | 27.02.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Undertone] | 7. November 2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Verve] | 06.15.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL VideoAmp] | 03.03.2017 | Echtzeit | Nein | Nein | Nein | Nein |
