@@ -1,46 +1,46 @@
 ---
-description: In diesem Artikel wird erläutert, wie Sie auf Twitter zugeschnittene Zielgruppen für neue und vorhandene Integrationen konfigurieren.
-seo-description: In diesem Artikel wird erläutert, wie Sie auf Twitter zugeschnittene Zielgruppen für neue und vorhandene Integrationen konfigurieren.
-seo-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
+description: In diesem Artikel wird beschrieben, wie Sie benutzerdefinierte Twitter-Zielgruppen für neue und vorhandene Integrationen konfigurieren.
+seo-description: This article explains how to configure Twitter Custom Audiences for both new and existing integrations.
+seo-title: Configure Twitter Custom Audiences as a Self-Service Device-Based Destination
 solution: Audience Manager
-title: Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel
-feature: Benutzerbasierte Ziele
+title: Benutzerdefinierte Twitter-Zielgruppen als gerätebasiertes Selbstbedienungsziel konfigurieren
+feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 4%
+source-wordcount: '529'
+ht-degree: 1%
 
 ---
 
-# [!DNL Twitter Tailored Audiences] als gerätebasiertes Selbstbedienungsziel konfigurieren {#configure-twitter}
+# [!DNL Twitter Custom Audiences] als gerätebasiertes Selbstbedienungsziel konfigurieren {#configure-twitter}
 
-In diesem Artikel wird beschrieben, wie Sie eine Integration mit [Twitter-Zielgruppen](https://business.twitter.com/en/targeting/tailored-audiences.html) konfigurieren.
+In diesem Artikel wird beschrieben, wie Sie eine Integration mit [Twitter Custom Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html) konfigurieren.
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie Ihr [!DNL Twitter Tailored Audiences]-Ziel konfigurieren, überprüfen Sie die folgenden Twitter-Voraussetzungen, die Sie erfüllen müssen.
+Bevor Sie Ihr [!DNL Twitter Custom Audiences]-Ziel konfigurieren, überprüfen Sie die folgenden Twitter-Voraussetzungen, die Sie erfüllen müssen.
 
 1. Ihr [!DNL Twitter Ads]-Konto muss für Werbung berechtigt sein. Neue [!DNL Twitter Ads]-Konten sind in den ersten 2 Wochen nach ihrer Erstellung nicht für Werbung geeignet.
 2. Für Ihr [!DNL Twitter]-Benutzerkonto, für das Sie den Zugriff in Audience Manager genehmigt haben, muss die Berechtigung [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) aktiviert sein.
-3. Wenden Sie sich beim Erstellen des ersten [!DNL Twitter Tailored Audiences]-Ziels in Ihrer Audience Manager-Instanz an Adobe Consulting oder die Kundenunterstützung, um die [!DNL Twitter] ID-Synchronisierung (Datenquellen-ID = 1123) für Ihr  zu aktivieren. Dies ist für die korrekte Synchronisierung zwischen Audience Manager und [!DNL Twitter] erforderlich.
+3. Wenden Sie sich beim Erstellen des ersten [!DNL Twitter Custom Audiences]-Ziels in Ihrer Audience Manager-Instanz an Adobe Consulting oder die Kundenunterstützung, um die [!DNL Twitter] ID-Synchronisierung (Datenquellen-ID = 1123) für Ihr  zu aktivieren. Dies ist für die korrekte Synchronisierung zwischen Audience Manager und [!DNL Twitter] erforderlich.
 
-## Neues [!DNL Twitter Tailored Audiences]-Ziel hinzufügen {#add-new-twitter-destination}
+## Neues [!DNL Twitter Custom Audiences]-Ziel hinzufügen {#add-new-twitter-destination}
 
-In diesem Abschnitt werden die Schritte beschrieben, die Sie beim Konfigurieren eines neuen gerätebasierten Ziels für [!DNL Twitter Tailored Audiences] ausführen müssen. In diesem Szenario wird davon ausgegangen, dass Sie über Ihren Adobe-Berater oder die Kundenunterstützung kein vorhandenes [!DNL Twitter Tailored Audiences]-Ziel konfiguriert haben.
+In diesem Abschnitt werden die Schritte beschrieben, die Sie beim Konfigurieren eines neuen gerätebasierten Ziels für [!DNL Twitter Custom Audiences] ausführen müssen. In diesem Szenario wird davon ausgegangen, dass Sie über Ihren Adobe-Berater oder die Kundenunterstützung kein vorhandenes [!DNL Twitter Custom Audiences]-Ziel konfiguriert haben.
 
-### Schritt 1. Authentifizieren Sie sich mit [!DNL Twitter Tailored Audiences] {#step1-authenticate-with-twitter}
+### Schritt 1. Authentifizieren Sie sich mit [!DNL Twitter Custom Audiences] {#step1-authenticate-with-twitter}
 
-Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie den Audience Manager und Ihr [!DNL Twitter Tailored Audiences]-Konto verknüpfen. Gehen Sie wie folgt vor:
+Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie den Audience Manager und Ihr [!DNL Twitter Custom Audiences]-Konto verknüpfen. Gehen Sie wie folgt vor:
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!DNL Administration > Integrated Accounts]**. Wenn Sie bereits eine Integration mit einer Zielplattform konfiguriert haben, sollte diese auf dieser Seite aufgeführt sein. Andernfalls ist die Seite leer.
 1. Klicken **[!DNL Add Account]**.
-1. Wählen Sie [!DNL Twitter Tailored Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite weitergeleitet zu werden.                     ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
+1. Wählen Sie [!DNL Twitter Custom Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite weitergeleitet zu werden.                     ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
 1. Nachdem Sie sich authentifiziert haben, werden Sie zu dem Audience Manager weitergeleitet, in dem Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das Advertiser-Konto aus, das Sie verwenden möchten, und klicken Sie auf **[!DNL Confirm]**.
 
 ### Schritt 2: Neues gerätebasiertes Ziel erstellen {#step2-create-new-destination}
 
-Nachdem Sie Audience Manager und [!DNL Twitter Tailored Audiences] verknüpft haben, können Sie das neue Ziel erstellen. Gehen Sie wie folgt vor:
+Nachdem Sie Audience Manager und [!DNL Twitter Custom Audiences] verknüpft haben, können Sie das neue Ziel erstellen. Gehen Sie wie folgt vor:
 
 >[!NOTE]
 >
@@ -72,4 +72,4 @@ Stellen Sie beim Zuordnen von Zielgruppensegmenten zu [!UICONTROL Twitter] siche
 
 ## Überlegungen zu Übereinstimmungsraten {#match-rates-considerations}
 
-* Die Integration zwischen Audience Manager und [!UICONTROL Twitter Tailored Audiences] unterstützt historische Zielgruppen-Backups. Alle Segmentqualifikationen werden beim Erstellen des Ziels an [!UICONTROL Twitter] gesendet.
+* Die Integration zwischen Audience Manager und [!UICONTROL Twitter Custom Audiences] unterstützt historische Zielgruppen-Backups. Alle Segmentqualifikationen werden beim Erstellen des Ziels an [!UICONTROL Twitter] gesendet.
