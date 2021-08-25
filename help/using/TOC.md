@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
 user-guide-description: Erfahren Sie, wie Sie mit Audience Manager geschäftlich relevante Informationen über Site-Besucher erfassen, marktfähige Segmente erstellen und zielgruppengerechte Werbung und Inhalte für die richtige Zielgruppe bereitstellen können.
 feature-set: Audience Manager
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 95%
@@ -112,7 +112,7 @@ ht-degree: 95%
          + [Hinzufügen neuer gerätebasierter Ziele](features/destinations/add-device-based-destinations.md)
          + [Liste der gerätebasierten Audience Manager-Ziele](/help/using/features/destinations/device-based-destinations-list.md)
          + [Hinzufügen oder Bearbeiten von Segmenten für Server-zu-Server-Ziele](features/destinations/add-edit-segments.md)
-         + [Konfigurieren von auf Twitter zugeschnittenen Zielgruppen als gerätebasiertes Selbstbedienungsziel](features/destinations/twitter-tailored-audiences.md)
+         + [Benutzerdefinierte Twitter-Zielgruppen als gerätebasiertes Selbstbedienungsziel konfigurieren](features/destinations/twitter-tailored-audiences.md)
       + Benutzerdefinierte Ziele {#custom-destinations}
          + [Konfigurieren eines URL-Ziels](features/destinations/create-url-destination.md)
          + [Konfigurieren eines Cookie-Ziels](features/destinations/create-cookie-destination.md)
