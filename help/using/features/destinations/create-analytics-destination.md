@@ -1,15 +1,15 @@
 ---
 description: Mit Audience Analytics können Sie Audience Manager-Segmente an Analytics senden. Um diese Funktion zu verwenden, erstellen Sie in Audience Manager Analytics-Ziel- und Zuordnungssegmente.
-seo-description: Mit Audience Analytics können Sie Audience Manager-Segmente an Analytics senden. Um diese Funktion zu verwenden, erstellen Sie in Audience Manager Analytics-Ziel- und Zuordnungssegmente.
-seo-title: Konfigurieren eines Analytics-Ziels
+seo-description: Audience Analytics lets you send Audience Manager segments to Analytics. To use this feature, you create an Analytics destination and map segments to it in Audience Manager.
+seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Konfigurieren eines Analytics-Ziels
-feature: Adobe Analytics-Integration
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 089a41b0176f2453e4f301c877dd6b020f726562
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 9%
+source-wordcount: '807'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ Weitere Informationen finden Sie unter Voraussetzungen in [Audience Analytics](h
 
 | Analytics-Zieltyp | Beschreibung |
 |---|---|
-| Standardeinstellung | Der Name dieses Standardziels ist &quot;Adobe Analytics&quot;, den Sie bearbeiten können. Zugeordnete Report Suite-IDs werden im Ordnerspeicher für Ihre Audience Manager-Eigenschaften und -Segmente angezeigt. <br>  Audience Manager erstellt automatisch ein Ziel, wenn Ihr Konto über Folgendes verfügt:  <br>  <ul><li>Erfüllen Sie die in der [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) -Dokumentation beschriebenen Anforderungen.</li><li>Eine [Report Suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li><li>[Eine Report Suite wurde einer Organisation](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) zugeordnet.</li></ul> |
+| Standardeinstellung | Der Name dieses Standardziels ist &quot;Adobe Analytics&quot;, den Sie bearbeiten können. Zugeordnete Report Suite-IDs werden im Ordnerspeicher für Ihre Audience Manager-Eigenschaften und -Segmente angezeigt. <br>  Audience Manager erstellt automatisch ein Ziel, wenn Ihr Konto über Folgendes verfügt:  <br>  <ul><li>Erfüllen Sie die in der [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) -Dokumentation beschriebenen Anforderungen.</li><li>Eine [Report Suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li></ul> |
 | Neu | Um neue Analytics-Ziele zu erstellen, navigieren Sie zu Zielgruppendaten > Ziele > Neues Ziel erstellen und befolgen Sie die unten beschriebenen Schritte für jeden Abschnitt. |
 
 ## Schritt 1: Bereitstellung grundlegender Informationen
