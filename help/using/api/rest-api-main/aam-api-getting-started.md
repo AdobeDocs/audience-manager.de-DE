@@ -1,16 +1,16 @@
 ---
 description: Informationen zu allgemeinen Anforderungen, Authentifizierungen, optionalen Parametern für die Abfrage, Anforderungs-URLs und anderen Verweisen.
-seo-description: Informationen zu allgemeinen Anforderungen, Authentifizierungen, optionalen Parametern für die Abfrage, Anforderungs-URLs und anderen Verweisen.
-seo-title: Erste Schritte mit REST-APIs
+seo-description: Information about general requirements, authentication, optional query parameters, request URLs, and other references.
+seo-title: Getting Started with REST APIs
 solution: Audience Manager
 title: Erste Schritte mit REST-APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 95182160b37bb15df4867bbacd06d8d75c971fa3
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 4%
+source-wordcount: '1942'
+ht-degree: 3%
 
 ---
 
@@ -70,6 +70,18 @@ Gehen Sie wie folgt vor, um die [!DNL JWT (Service Account)]-Authentifizierung m
 >[!NOTE]
 >
 >Um das [!DNL Audience Manager] [!DNL REST APIs] in automatisierter Weise zu konfigurieren und zu verwenden, können Sie das [!DNL JWT] programmatisch generieren. Detaillierte Anweisungen finden Sie unter [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) .
+
+### RBAC-Berechtigungen für technische Konten
+
+Wenn Ihr Audience Manager-Konto [Rollenbasierte Zugriffssteuerung](../../features/administration/administration-overview.md) verwendet, müssen Sie ein technisches Audience Manager-Benutzerkonto erstellen und es zur Audience Manager-RBAC-Gruppe hinzufügen, die die API-Aufrufe durchführt.
+
+Gehen Sie wie folgt vor, um ein technisches Benutzerkonto zu erstellen und es einer RBAC-Gruppe hinzuzufügen:
+
+1. Rufen Sie `GET` auf `https://aam.adobe.io/v1/users/self`. Durch den Aufruf wird ein technisches Benutzerkonto erstellt, das Sie auf der Seite [!UICONTROL Admin Console] auf der Seite [!UICONTROL Users] sehen können.
+
+   ![technisches Konto](assets/technical-account.png)
+
+1. Melden Sie sich bei Ihrem Benutzerkonto an und [fügen Sie das technische Benutzerkonto](../../features/administration/administration-overview.md#create-group) zur Benutzergruppe hinzu, die die API-Aufrufe durchführt.
 
 ## [!DNL OAuth] Authentifizierung (veraltet) {#oauth}
 
@@ -287,6 +299,6 @@ Neue Versionen dieser [!DNL API]s werden regelmäßig veröffentlicht. Bei einer
 >
 >* [JWT-Authentifizierung (Dienstkonto)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [OAuth-Authentifizierung](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-* [OAuth 2.0](https://oauth.net/2/)
-* [OAuth 2 vereinfacht](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 vereinfacht](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
