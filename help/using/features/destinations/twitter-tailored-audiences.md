@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Benutzerdefinierte Twitter-Zielgruppen als gerätebasiertes Selbstbedienungsziel konfigurieren
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
 
 # [!DNL Twitter Custom Audiences] als gerätebasiertes Selbstbedienungsziel konfigurieren {#configure-twitter}
 
-In diesem Artikel wird beschrieben, wie Sie eine Integration mit [Twitter Custom Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html) konfigurieren.
+In diesem Artikel wird beschrieben, wie Sie eine Integration mit [Twitter Custom Audiences](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html) konfigurieren.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -35,7 +35,10 @@ Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie den Audience
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!DNL Administration > Integrated Accounts]**. Wenn Sie bereits eine Integration mit einer Zielplattform konfiguriert haben, sollte diese auf dieser Seite aufgeführt sein. Andernfalls ist die Seite leer.
 1. Klicken **[!DNL Add Account]**.
-1. Wählen Sie [!DNL Twitter Custom Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite weitergeleitet zu werden.                     ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
+1. Wählen Sie [!DNL Twitter Custom Audiences] und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite weitergeleitet zu werden.
+
+   ![integrierte Plattformen](assets/dbd-integrated-platforms.png)
+
 1. Nachdem Sie sich authentifiziert haben, werden Sie zu dem Audience Manager weitergeleitet, in dem Sie die zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das Advertiser-Konto aus, das Sie verwenden möchten, und klicken Sie auf **[!DNL Confirm]**.
 
 ### Schritt 2: Neues gerätebasiertes Ziel erstellen {#step2-create-new-destination}
