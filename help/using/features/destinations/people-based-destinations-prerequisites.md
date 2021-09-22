@@ -1,15 +1,15 @@
 ---
 description: 'Unten finden Sie eine Übersicht über die Kundenanforderungen, die Sie erfüllen müssen, bevor Sie sich für personenbasierte Ziele registrieren.  '
-seo-description: 'Unten finden Sie eine Übersicht über die Kundenanforderungen, die Sie erfüllen müssen, bevor Sie sich für personenbasierte Ziele registrieren.  '
-seo-title: Voraussetzungen und Überlegungen für benutzerbasierte Ziele
+seo-description: Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.
+seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: Voraussetzungen und Überlegungen
-feature: Benutzerbasierte Ziele
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: bb0bc62b139917bbf6429bc92a85f8a5010cbebe
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 4%
 
 ---
 
@@ -51,11 +51,9 @@ Videoanleitungen finden Sie unter [Grundlegendes zum und Konfigurieren des perso
 
 ### [!DNL Google Customer Match] {#gcm}
 
-Bevor Sie [!UICONTROL People-Based Destinations] verwenden können, um Ihre Erstanbieter-Zielgruppensegmente an ein [!DNL Google Customer Match]-Ziel zu senden, müssen Sie [!DNL Google] zur Zulassungsliste hinzufügen.
+Bevor Sie [!UICONTROL People-Based Destinations] verwenden können, um Ihre Erstanbieter-Zielgruppensegmente an ein [!DNL Google Customer Match]-Ziel zu senden, stellen Sie sicher, dass Ihr [!DNL Google Ads]-Konto die [Google-Kundenübereinstimmungsrichtlinie](https://support.google.com/google-ads/answer/6299717/customer-match-policy) erfüllt.
 
-Wenden Sie sich an Ihren [!DNL Google]-Support-Mitarbeiter und befolgen Sie die Anweisungen zur Zulassungsliste, die in der [Verwenden Sie Partner für Kundenabgleich, um Ihre Daten hochzuladen](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) [!DNL Google] -Dokumentation beschrieben sind.
-
-Nach Abschluss dieses Vorgangs können Sie [!UICONTROL People-Based Destination] erstellen.
+Kunden mit kompatiblen Konten werden von Google automatisch auf die Zulassungsliste gesetzt.
 
 ## Datenintegration {#data-onboarding}
 
