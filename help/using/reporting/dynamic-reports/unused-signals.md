@@ -1,15 +1,15 @@
 ---
 description: Dieser Bericht gibt eine Häufigkeitszählung aller nicht verwendeten Informationen zurück, die in Ihrem Inventar erfasst und an den Audience Manager gesendet wurden.
-seo-description: Dieser Bericht gibt eine Häufigkeitszählung aller nicht verwendeten Informationen zurück, die in Ihrem Inventar erfasst und an den Audience Manager gesendet wurden.
-seo-title: Bericht zu nicht verwendeten Signalen
+seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+seo-title: Unused Signals Report
 solution: Audience Manager
 title: Bericht zu nicht verwendeten Signalen
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-feature: Überlagerungsberichte
+feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Dieser Bericht gibt eine Häufigkeitszählung aller nicht verwendeten Informatio
 
 Ein Signal ist eine Information von Ihrer Website, die an [!DNL Audience Manager] in Form von [Schlüssel-Wert-Paaren](../../reference/key-value-pairs-explained.md) übergeben wird (z. B. `color=blue, price>100, gender=female` usw.).
 
-Nicht verwendete Signale bestehen aus Daten, die Sie erfassen, aber keiner Eigenschaft zugeordnet sind. Der Bericht [!UICONTROL Unused Signals] zeigt Daten in einer Tabelle nach Datum, Schlüssel, Wert und Häufigkeitsanzahl an. Jedes nicht zugeordnete Signal, das mindestens 100 Mal an einem Tag an [!DNL Audience Manager] weitergegeben wird, gilt für den Bericht [!UICONTROL Unused Signals].
+Nicht verwendete Signale bestehen aus Daten, die Sie erfassen, aber keiner Eigenschaft zugeordnet sind. Der Bericht [!UICONTROL Unused Signals] zeigt Daten in einer Tabelle nach Datum, Schlüssel, Wert und Häufigkeitsanzahl an. Jedes nicht zugeordnete Signal, das mindestens 100 Mal an einem Tag an [!DNL Audience Manager] weitergegeben wird, gilt für den Bericht [!UICONTROL Unused Signals]. Nicht verwendete Signale werden 45 Tage lang gespeichert und dann verworfen.
 
 Lesen Sie diesen Bericht, um verwaiste Signale zu identifizieren, die neuen oder vorhandenen Eigenschaften zugeordnet werden können.
 
