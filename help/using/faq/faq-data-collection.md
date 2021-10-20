@@ -1,16 +1,16 @@
 ---
 description: Häufige Fragen und Probleme im Zusammenhang mit der Datenerfassung und Integration.
-seo-description: Häufige Fragen und Probleme im Zusammenhang mit der Datenerfassung und Integration.
-seo-title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
+seo-description: Common data collection and integration questions and issues.
+seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-Adresse; STFP-IP-Adresse; FTP-Adresse
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1198'
 ht-degree: 80%
 
 ---
@@ -59,13 +59,13 @@ Die folgenden SFTP-Server werden nicht mehr unterstützt. Mit diesen Servern wer
 
 **Wie konfiguriere ich meine Audience Manager-Instanz für die Verwendung der neuen SFTP-Server?**
 
-Wenden Sie sich an Ihren [!DNL Audience Manager]-Berater oder an die Kundenunterstützung, um Ihre neuen SFTP-Konten zu konfigurieren.
+Wenden Sie sich an [!DNL Audience Manager] Berater oder Kundenunterstützung erstellen und konfigurieren Ihre neuen SFTP-Konten.
 
  
 
 **Welche Authentifizierungsmethoden werden für die neuen SFTP-Server unterstützt?**
 
-Die neuen SFTP-Server (`ftp-in-gtw` und `ftp-out-gtw`) unterstützen [!DNL OpenSSH Key-Based Authentication]. Wir können die [!DNL SSH] Schlüssel für Sie generieren oder Sie können uns Ihren eigenen öffentlichen Schlüssel zur Verfügung stellen.
+Die neuen SFTP-Server (`ftp-in-gtw` und `ftp-out-gtw`) Support [!DNL OpenSSH Key-Based Authentication]. Wir können [!DNL SSH] Schlüssel für Sie, oder Sie können uns Ihren eigenen öffentlichen Schlüssel zur Verfügung stellen.
 
  
 
@@ -83,7 +83,7 @@ Richten Sie Ihre [!DNL Audience Manager]-[!DNL Analytics]-Integration mit einer 
 
 * Platzieren Sie [!UICONTROL DIL] direkt in den `s_code`.
 
-* Servieren Sie [!UICONTROL DIL] und die `s_code` bis [!DNL Adobe Experience Platform Launch].
+* Serve [!UICONTROL DIL] und `s_code` bis [!DNL Adobe Experience Platform Tags].
 
 Siehe [Data Integration Library (DIL)-API](../dil/dil-overview.md).
 
@@ -152,7 +152,7 @@ Ja, [!DNL Audience Manager] kann Ihnen Daten zur Verfügung stellen, die für Be
 
 **[!DNL Google Ad Manager]Ich möchte Daten auf einer Site erfassen und Benutzer über auf einer anderen Site ansprechen. Muss ich Code für die andere Eigenschaft bereitstellen, wenn ich keine Daten von dieser Site erfassen möchte?**
 
-Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. Solange Sie über [!DNL Google Ad Manager] Zugriff auf den Bestand auf der zweiten Site haben, können Sie die Datenerfassung von der ursprünglichen Site und die Zielgruppe über [!DNL Google Ad Manager] verwenden.
+Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. Solange Sie Zugriff auf den Bestand auf der zweiten Site haben, über [!DNL Google Ad Manager], können Sie die Datenerfassung von der ursprünglichen Site verwenden und die Zielgruppe über [!DNL Google Ad Manager].
 
 <br> 
 
@@ -164,7 +164,7 @@ Jeder Anbieter bringt etwas Einzigartiges mit, daher hängt die Antwort davon ab
 
 **Wie setzt [!DNL Audience Manager] Cookies und übergibt Variablen an [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] setzt 2 Cookies: Die eine sendet Segmentvariablen an das  [!DNL Google Ad Manager] Anzeigen-Tag und die andere setzt unsere Unique User ID (UUID), die auch von gelesen wird  [!DNL Google Ad Manager]. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
+[!DNL Audience Manager] setzt 2 Cookies: Segmentvariablen werden an die [!DNL Google Ad Manager] Anzeigen-Tag und das andere legen unsere Unique User-ID (UUID) fest, die auch von gelesen wird. [!DNL Google Ad Manager]. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
 
 <br> 
 
@@ -210,6 +210,6 @@ Die regionsübergreifende Synchronisierung eines Profils dauert in der Regel bis
 
 **Was passiert mit inaktiven Amazon S3-Benutzerzugriffsschlüsseln?**
 
-Adobe bietet Audience Manager Benutzerzugriffsschlüssel für die Audience Manager [!DNL Amazon S3] -Buckets. Aus Sicherheitsgründen werden die Schlüssel nach 100 Tagen Inaktivität automatisch deaktiviert.
+Adobe bietet Audience Manager Benutzerzugriffsschlüssel für den Audience Manager [!DNL Amazon S3] Behälter. Aus Sicherheitsgründen werden die Schlüssel nach 100 Tagen Inaktivität automatisch deaktiviert.
 
 Wenden Sie sich an den Support, um Ihre Zugriffsschlüssel erneut zu aktivieren oder neue anzufordern.
