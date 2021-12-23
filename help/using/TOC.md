@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
 user-guide-description: Erfahren Sie, wie Sie mit Audience Manager geschäftlich relevante Informationen über Site-Besucher erfassen, marktfähige Segmente erstellen und zielgruppengerechte Werbung und Inhalte für die richtige Zielgruppe bereitstellen können.
 feature-set: Audience Manager
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -339,7 +339,7 @@ ht-degree: 95%
       + [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integration mit Adobe Experience Platform {#integration-experience-platform}
       + [Segmentfreigabe in Experience Platform mit Audience Manager und anderen Experience Cloud-Lösungen](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integration mit anderen Experience Cloud-Lösungen {#integration-other-solutions}
+   + Integration mit anderen Experience Cloud-Anwendungen {#integration-other-solutions}
       + [Integration von Audience Manager mit Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Weiterleiten von Daten von Adobe Analytics an Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Veröffentlichen eines Adobe Analytics-Segments in Experience Cloud (öffnet die Adobe Analytics-Dokumentation)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
