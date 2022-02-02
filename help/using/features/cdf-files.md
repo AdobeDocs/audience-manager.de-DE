@@ -8,9 +8,9 @@ title: Kundendaten-Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 08916acd6081031382713737f77ceed8ab1a4e91
+source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1914'
 ht-degree: 3%
 
 ---
@@ -146,12 +146,11 @@ Listet die Datenstruktur einer [!UICONTROL CDF] -Datei. Dazu gehören Datenseque
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Strg + A (ASCII) <code> 001</code> oder <code> ^A</code>) trennt die Daten in einzelnen Feldern mit einer nicht druckbaren Leerzeichen. </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Strg + B (ASCII) <code> 002</code> oder <code> ^B</code>) trennt Daten, ein Array und Anforderungsparameter. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Strg + C (ASCII) <code> 003</code> oder <code> ^C</code>) definiert Schlüssel-Wert-Paare. </li> 
-      <li> Neues Trennzeichen (/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feldsequenz </p> </td> 
-   <td colname="col2"> <p> <p>Wichtig: <span class="keyword"> Audience Manager</span> behält sich das Recht vor, neue Felder am Ende der CDF-Datei in zukünftigen Versionen hinzuzufügen. Das bedeutet, dass das technische Design Ihres Dateianalysesystems keine feste Anzahl von Spalten annehmen sollte (obwohl es eine feste Reihenfolge für vorhandene Spalten annehmen kann). </p> </p> <p>Daten in Ihrer CDF-Datei werden in der unten gezeigten Reihenfolge angezeigt. </p> <p> 
+   <td colname="col2"> <p> <p>Wichtig: <span class="keyword"> Audience Manager</span> behält sich das Recht vor, neue Felder am Ende der CDF-Datei in zukünftigen Versionen hinzuzufügen. Das bedeutet, dass das technische Design Ihres Dateianalysesystems keine feste Anzahl von Spalten annehmen sollte (obwohl es eine feste Reihenfolge für vorhandene Spalten annehmen kann).</p> </p> <p>Daten in Ihrer CDF-Datei werden in der unten gezeigten Reihenfolge angezeigt. /N kann anstelle eines dieser Felder angezeigt werden, was einen Nullwert angibt.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Ereigniszeit </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Gerät </li> 
