@@ -4,9 +4,10 @@ solution: Audience Manager
 title: Segmentfreigabe in Experience Platform mit Audience Manager und anderen Experience Cloud-Lösungen
 keywords: Freigabe von AEP-Zielgruppen, AEP-Segmente, Platform-Segmente, Segmentfreigabe, Zielgruppenfreigabe, Freigabe von Segmenten AAM AEP-Segmentfreigabe
 feature: Platform Integration
-source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
+source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -152,11 +153,15 @@ Die Segmentpopulationszahlen können je nach Audience Manager- und Experience Pl
 
 ### Segmentbewertung in Experience Platform
 
-Audience Manager aktualisiert die Berichtsnummern in der Benutzeroberfläche einmal täglich.   Der Zeitpunkt dieser Aktualisierung stimmt selten mit dem Zeitpunkt der Segmentbewertung in Experience Platform überein.
+Audience Manager aktualisiert die Berichtsnummern in der Benutzeroberfläche einmal täglich. Der Zeitpunkt dieser Aktualisierung stimmt selten mit dem Zeitpunkt der Segmentbewertung in Experience Platform überein.
 
 ### Unterschiede zwischen Profilzusammenführungsrichtlinien und Zusammenführungsrichtlinien
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager und [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) in der Experience Platform anders funktioniert und das für jede Version verwendete Identitätsdiagramm variiert. Daher werden einige Unterschiede zwischen Segmentpopulationen erwartet.
+
+>[!NOTE]
+>
+> Bei der Freigabe von Segmenten von Experience Platform für Audience Manager: Ihre Plattformorganisation [standardmäßige Zusammenführungsrichtlinie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) hat Vorrang vor der [vom Segment verwendete Zusammenführungsrichtlinie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) freigegeben für Audience Manager. Wenn beispielsweise die Zusammenführungsrichtlinie des freigegebenen Segments [ID-Zuordnung](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure), die standardmäßige Zusammenführungsrichtlinie der Organisation jedoch nicht, kann dies zu Populationsunterschieden zwischen Platform und Audience Manager führen.
 
 ### Segmentzusammenstellung in Experience Platform
 
