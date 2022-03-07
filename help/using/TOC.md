@@ -3,11 +3,11 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
-user-guide-description: Erfahren Sie, wie Sie mit Audience Manager geschäftlich relevante Informationen über Site-Besucher erfassen, marktfähige Segmente erstellen und zielgruppengerechte Werbung und Inhalte für die richtige Zielgruppe bereitstellen können.
+user-guide-description: Erfahren Sie, wie Sie mit Adobe Audience Manager geschäftlich relevante Informationen über Site-Besucher erfassen und vermarktbare Segmente erstellen können. Sie können auch Details dazu finden, wie Sie zielgerichtete Werbung und Inhalte für die richtige Zielgruppe bereitstellen können.
 feature-set: Audience Manager
-source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
+source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1814'
 ht-degree: 94%
 
 ---
