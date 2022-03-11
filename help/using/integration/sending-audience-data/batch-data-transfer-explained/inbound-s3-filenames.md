@@ -1,22 +1,22 @@
 ---
 description: Beschreibt die erforderlichen Felder, Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an Audience Manager beachtet werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an einen Audience Manager/Amazon S3-Ordner senden.
-seo-description: Beschreibt die erforderlichen Felder, Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an Audience Manager beachtet werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an einen Audience Manager/Amazon S3-Ordner senden.
-seo-title: Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien
+seo-description: Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / Amazon S3 directory.
+seo-title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
 title: Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 3e25db0fc74a0b125f4f0ecd0f45f3fb877be099
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
 # [!DNL Amazon S3] Anforderungen an Namen und Dateigrößen der eingehenden Datendateien {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
-Beschreibt die erforderlichen Felder, Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an [!DNL Audience Manager] beachtet werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an ein Verzeichnis [!DNL Audience Manager] / [!DNL Amazon S3] senden.
+Beschreibt die erforderlichen Felder, Syntax, Benennungskonventionen und Dateigrößen, die beim Senden von Daten an [!DNL Audience Manager]. Legen Sie die Namen und Größen Ihrer Dateien beim Senden von Daten an eine [!DNL Audience Manager] / [!DNL Amazon S3] Verzeichnis.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->[!DNL Audience Manager] nur Prozesse  [!DNL ASCII] und  [!DNL UTF-8] kodierte Dateien.
+>[!DNL Audience Manager] Nur Prozesse [!DNL ASCII] und [!DNL UTF-8] kodierte Dateien.
 
 ### Elemente benennen
 
-Die Tabelle definiert die Elemente in einem [!DNL S3]-Dateinamen.
+Die Tabelle definiert die Elemente in einer [!DNL S3] Dateiname.
 
 <table id="table_455D174BAB9B494D973DA1023F22B962"> 
  <thead> 
@@ -62,27 +62,27 @@ Die Tabelle definiert die Elemente in einem [!DNL S3]-Dateinamen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Eine ID, die <span class="keyword"> den Audience Manager</span> angibt, wenn eine Datendatei Ihre eigenen Benutzer-IDs, Android-IDs, iOS-IDs oder andere IDs enthält, die zu <a href="/help/using/features/global-data-sources.md"> globalen Datenquellen</a> gehören. Akzeptiert die folgenden Optionen:</p> 
+   <td colname="col2"> <p>Eine lD, die <span class="keyword"> Audience Manager</span> wenn eine Datendatei Ihre eigenen Benutzer-IDs, Android-IDs, iOS-IDs oder andere IDs enthält, die zu <a href="/help/using/features/global-data-sources.md"> globale Datenquellen</a>. Akzeptiert die folgenden Optionen:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Datenquellen-ID (auch als Datenanbieter-ID bezeichnet): </b> Hierbei handelt es sich um eine eindeutige ID, die Audience Manager einer Datenquelle zuweist (siehe Audience Manager- <a href="/help/using/reference/ids-in-aam.md"> Index der IDs  </a>). Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten senden, die Ihre eigenen Benutzer-IDs enthalten. Beispielsweise teilt <code>...ftp_dpm_21_123456789.sync</code> <span class="keyword"> dem Audience Manager</span> Daten an IDs mit, die zur Datenquelle 21 gehören. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-IDs (GAID): </b> Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie Android-IDs enthält. Sie müssen das Feld <code><i>_DPID_TARGET_DATA_OWNER</i></code> verwenden, wenn Sie Android-IDs verwenden. Beispielsweise teilt <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> <span class="keyword"> dem Audience Manager</span> mit, dass die Datendatei nur Android-IDs enthält und dass die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle <code><i>_DPID_TARGET_DATA_OWNER</i></code> gehören.</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-IDs (IDFA): </b> Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Sie müssen das Feld <code><i>_DPID_TARGET_DATA_OWNER</i></code> verwenden, wenn Sie iOS-IDs verwenden. Beispielsweise teilt <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> <span class="keyword"> dem Audience Manager</span> mit, dass die Datendatei nur iOS-IDs enthält und dass die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle <code><i>_DPID_TARGET_DATA_OWNER</i></code> gehören.</li>
-     <li> <b>IDs, die zu anderen globalen Datenquellen</b> gehören: Sie können Roku-IDs für Werbung (RIDA), Microsoft Advertising IDs (MAID) und andere IDs integrieren. Verwenden Sie die Kennung, die jeder Datenquelle entspricht, wie im Artikel <a href="/help/using/features/global-data-sources.md"> globale Datenquellen</a> beschrieben.</li> 
-    </ul> <p> <p>Hinweis:  Mischen Sie keine ID-Typen in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise die Android-Kennung enthält, dürfen Sie iOS-IDs oder Ihre eigenen IDs nicht in die Datendatei aufnehmen. </p> </p> </td> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Datenquellen-ID (auch als Datenanbieter-ID bezeichnet):</b> Dies ist eine eindeutige ID, die der Audience Manager einer Datenquelle zuweist (siehe Audience Manager <a href="/help/using/reference/ids-in-aam.md"> Index der IDs </a>). Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten senden, die Ihre eigenen Benutzer-IDs enthalten. Beispiel: <code>...ftp_dpm_21_123456789.sync</code> records <span class="keyword"> Audience Manager</span> , um Daten an IDs zu integrieren, die zur Datenquelle 21 gehören. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID):</b> Verwenden Sie die ID 20914 in einem Datendateinamen, wenn sie Android-IDs enthält. Sie müssen das Feld verwenden <code><i>_DPID_TARGET_DATA_OWNER</i></code> wenn Sie Android-IDs verwenden. Beispiel: <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> records <span class="keyword"> Audience Manager</span> dass die Datendatei nur Android-IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zu der <code><i>_DPID_TARGET_DATA_OWNER</i></code> Datenquelle.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA):</b> Verwenden Sie die ID 20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Sie müssen das Feld verwenden <code><i>_DPID_TARGET_DATA_OWNER</i></code> wenn Sie iOS IDs verwenden. Beispiel: <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> records <span class="keyword"> Audience Manager</span> dass die Datendatei nur iOS IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zu der <code><i>_DPID_TARGET_DATA_OWNER</i></code> Datenquelle.</li>
+     <li> <b>IDs, die zu anderen globalen Datenquellen gehören</b>: Sie können Roku-IDs für Werbung (RIDA), Microsoft Advertising IDs (MAID) und andere IDs integrieren. Verwenden Sie die den einzelnen Datenquellen entsprechende Kennung, wie im Abschnitt <a href="/help/using/features/global-data-sources.md"> Artikel zu globalen Datenquellen</a>.</li> 
+    </ul> <p> <p>Hinweis: Mischen Sie keine ID-Typen in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise die Android-ID enthält, dürfen Sie keine iOS IDs oder Ihre eigenen IDs in die Datendatei aufnehmen. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Dieses Feld gibt dem Audience Manager an, zu welcher Datenquelle Daten integriert werden sollen. Dieses Feld ist erforderlich, wenn Sie die DPID auf eine Android-ID, iOS-ID oder eine andere ID festlegen, die zu globalen Datenquellen gehört. Dadurch kann <span class="keyword"> Audience Manager</span> die Dateidaten wieder mit Ihrem Unternehmen verknüpfen. </p> <p>Beispiel: </p> 
+   <td colname="col2"> <p>Dieses Feld gibt dem Audience Manager an, zu welcher Datenquelle Daten integriert werden sollen. Dieses Feld ist erforderlich, wenn Sie die DPID auf eine Android-ID, iOS ID oder eine andere ID festlegen, die zu globalen Datenquellen gehört. Dadurch kann Audience Manager die Dateidaten wieder mit Ihrer Organisation verknüpfen. <br> Diese Zieldatenquelle muss Ihrem Unternehmen gehören. Um Daten von Zweitanbietern in eine Zieldatenquelle eines anderen Unternehmens aufnehmen zu können, müssen Sie über eine Zugriffszuordnung zwischen Ihrem Unternehmen und der Zieldatenquelle verfügen. Wenden Sie sich an Ihren Adobe-Berater oder an den Kundensupport, um die Zuordnung einzurichten.</p> <p>Beispiel: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> teilt dem Audience Manager mit, dass Sie Kunden-IDs qualifizieren, die zur Datenquelle 33 gehören, und zwar für Eigenschaften oder Signale, die zur Datenquelle 21 gehören. </li> 
-     <li> <b>Android-IDs (GAID): </b> <code>...ftp_dpm_20914_21_1234567890.sync</code> teilt  <span class="keyword"> Audience </span> Manager mit, dass die Datendatei nur Android-IDs enthält und dass die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle 21 gehören.</li> 
-     <li> <b>iOS-IDs (IDFA): </b> <code>...ftp_dpm_20915_21_1234567890.sync</code> teilt  <span class="keyword"> Audience </span> Manager mit, dass die Datendatei nur iOS-IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle 21 gehören.</li>
-     <li> <b>IDs, die zu anderen globalen Datenquellen</b> gehören:  <code>...ftp_dpm_121963_21_1234567890.sync</code> teilt  <span class="keyword"> Audience </span> Manager mit, dass die Datendatei nur Roku-IDs enthält und dass die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle 21 gehören. Verwenden Sie die Kennung, die jeder Datenquelle entspricht, wie im Artikel <a href="/help/using/features/global-data-sources.md"> globale Datenquellen</a> beschrieben.</li> 
+     <li> <b>Android IDs (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> records <span class="keyword"> Audience Manager</span> dass die Datendatei nur Android-IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle 21 gehören.</li> 
+     <li> <b>iOS IDs (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> records <span class="keyword"> Audience Manager</span> dass die Datendatei nur iOS IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle 21 gehören.</li>
+     <li> <b>IDs, die zu anderen globalen Datenquellen gehören</b>: <code>...ftp_dpm_121963_21_1234567890.sync</code> records <span class="keyword"> Audience Manager</span> dass die Datendatei nur Roku-IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle 21 gehören. Verwenden Sie die den einzelnen Datenquellen entsprechende Kennung, wie im Abschnitt <a href="/help/using/features/global-data-sources.md"> Artikel zu globalen Datenquellen</a>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner_name</i> </code> </p> </td> 
-   <td colname="col2"> <p>Der Unternehmens- oder Organisationsname, den Sie in <span class="keyword"> Audience Manager</span> verwenden. </p> </td> 
+   <td colname="col2"> <p>Der Name des Unternehmens oder der Organisation, den Sie in <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
@@ -109,7 +109,7 @@ Die Tabelle definiert die Elemente in einem [!DNL S3]-Dateinamen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Verwenden Sie beim Senden von Dateien an Amazon S3 nur die gzip-Komprimierung. Nach der Komprimierung erhalten diese Dateien die Erweiterung <code> .gz</code> . Verwenden Sie keine ZIP-Komprimierung. </p> <p>Komprimierte Dateien müssen 3 GB oder kleiner sein. Wenn Ihre Dateien größer sind, wenden Sie sich an die Kundenunterstützung. Obwohl Audience Manager große Dateien verarbeiten kann, können wir Ihnen möglicherweise helfen, die Dateigröße zu reduzieren und die Datenübertragung effizienter zu gestalten. Siehe <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Dateikomprimierung für eingehende Datenübertragungsdateien</a>. </p> </td> 
+   <td colname="col2"> <p>Verwenden Sie beim Senden von Dateien an Amazon S3 nur die gzip-Komprimierung. Nach der Komprimierung erhalten diese Dateien die <code> .gz</code> -Erweiterung. Verwenden Sie keine ZIP-Komprimierung. </p> <p>Komprimierte Dateien müssen 3 GB oder kleiner sein. Wenn Ihre Dateien größer sind, wenden Sie sich an die Kundenunterstützung. Obwohl Audience Manager große Dateien verarbeiten kann, können wir Ihnen möglicherweise helfen, die Dateigröße zu reduzieren und die Datenübertragung effizienter zu gestalten. Siehe <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Dateikomprimierung für eingehende Datenübertragungsdateien</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,11 +126,11 @@ Die folgenden Beispiele zeigen ordnungsgemäß formatierte Dateinamen. Ihre Date
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-Wenn Sie weitere Beispiele wünschen, können Sie die Beispieldatei [herunterladen](assets/ftp_dpm_1234_1445374061.overwrite). Diese Datei wurde mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie es mit einem einfachen Texteditor.
+Sie können [herunterladen](assets/ftp_dpm_1234_1445374061.overwrite) die Beispieldatei, wenn Sie weitere Beispiele benötigen. Diese Datei wurde mit der `.overwrite` Dateierweiterung. Öffnen Sie es mit einem einfachen Texteditor.
 
 ## Zulässige Dateigrößen {#accepted-file-sizes}
 
-Beachten Sie die folgenden Zahlen für die schnellste/früheste Verarbeitung Ihrer Dateien sowie für Dateigrößenbeschränkungen beim Senden von Daten an ein [!DNL Audience Manager] / [!DNL Amazon S3]-Verzeichnis.
+Beachten Sie die folgenden Zahlen für die schnellste/früheste Verarbeitung Ihrer Dateien sowie für Dateigrößenbeschränkungen beim Senden von Daten an eine [!DNL Audience Manager] / [!DNL Amazon S3] Verzeichnis.
 
 <table id="table_59FCC63806684DF8BE54A1EAF224A234"> 
  <thead> 
