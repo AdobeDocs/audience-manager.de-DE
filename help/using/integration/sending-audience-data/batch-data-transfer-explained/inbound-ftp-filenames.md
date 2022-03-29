@@ -7,10 +7,10 @@ title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datend
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
+source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
