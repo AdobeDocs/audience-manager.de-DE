@@ -7,10 +7,10 @@ title: Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datend
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-source-git-commit: 534f7c3a04861ad6daba2f168c275bbac8395d37
+source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 7%
+source-wordcount: '1097'
+ht-degree: 6%
 
 ---
 
@@ -66,7 +66,7 @@ Die Tabelle definiert die Elemente in einer [!DNL FTP] Dateiname.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Dieses Feld gibt dem Audience Manager an, zu welcher Datenquelle Daten integriert werden sollen. Dieses Feld ist erforderlich, wenn Sie die DPID auf eine Android-ID, iOS ID oder eine andere ID festlegen, die zu globalen Datenquellen gehört. Mit <span class="keyword"> Audience Manager</span> die Dateidaten wieder mit Ihrer Organisation verknüpfen. <br> Diese Zieldatenquelle muss Ihrem Unternehmen gehören. Um Daten von Zweitanbietern in eine Zieldatenquelle eines anderen Unternehmens aufnehmen zu können, müssen Sie über eine Zugriffszuordnung zwischen Ihrem Unternehmen und der Zieldatenquelle verfügen. Wenden Sie sich an Ihren Adobe-Berater oder an den Kundensupport, um die Zuordnung einzurichten.</p> <p>Beispiel: </p> 
+   <td colname="col2"> <p>Dieses Feld gibt dem Audience Manager an, zu welcher Datenquelle Daten integriert werden sollen. Dieses Feld ist erforderlich, wenn Sie die DPID auf eine Android-ID, iOS ID oder eine andere ID festlegen, die zu globalen Datenquellen gehört. Mit <span class="keyword"> Audience Manager</span> die Dateidaten wieder mit Ihrer Organisation verknüpfen. <br> Diese Zieldatenquelle muss Ihrem Unternehmen gehören. Um Daten von Zweitanbietern in eine Zieldatenquelle eines anderen Unternehmens aufnehmen zu können, müssen Sie über eine Zugriffszuordnung zwischen Ihrem Unternehmen und der Zieldatenquelle verfügen. Wenden Sie sich an Ihren Adobe-Berater oder an den Kundensupport, um die Zuordnung einzurichten.</p><p><b>Wichtiger Hinweis:</b> You <i>nicht</i> eine Zuordnung für bestehende Datenfreigabe-Beziehungen anfordern (für Zieldatenquellen, die zu anderen Unternehmen gehören, in die Sie Daten vor dem 14. März 2022 integriert haben). Die Zuordnung ist auch nicht erforderlich, wenn Daten in Zieldatenquellen integriert werden, die zu Ihrer PID gehören. </p> <p>Beispiel: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> teilt dem Audience Manager mit, dass Sie Kunden-IDs qualifizieren, die zur Datenquelle 33 gehören, und zwar für Eigenschaften oder Signale, die zur Datenquelle 21 gehören. </li> 
      <li> <b>Android IDs (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> records <span class="keyword"> Audience Manager</span> dass die Datendatei nur Android-IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zur Datenquelle 21 gehören.</li> 
