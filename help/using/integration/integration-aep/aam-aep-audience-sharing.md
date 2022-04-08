@@ -5,9 +5,9 @@ title: Segmentfreigabe in Experience Platform mit Audience Manager und anderen E
 keywords: Freigabe von AEP-Zielgruppen, AEP-Segmente, Platform-Segmente, Segmentfreigabe, Zielgruppenfreigabe, Freigabe von Segmenten AAM AEP-Segmentfreigabe
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1516'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Die Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform ermöglicht es Ihnen, Ihre Audience Manager-Eigenschaften und -Segmente für Adobe Experience Platform und umgekehrt freizugeben. Sie benötigen die [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) um die Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
 
-Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden, um Ihren Kundenprofilen Audience Manager-Daten hinzuzufügen und von der Experience Platform zu profitieren [Segmentierungsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
+Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden, um Ihren Kundenprofilen Audience Manager-Daten hinzuzufügen und von der Experience Platform zu profitieren [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
 
 In Audience Manager können Sie Experience Platform-Segmente für Anwendungsfälle der Data Management Platform verwenden, z. B.:
 * Hinzufügen [Drittanbieterdaten](/help/using/overview/data-types-collected.md#third-party-data) zu Ihren Segmenten hinzufügen;
@@ -143,7 +143,7 @@ In der folgenden Tabelle wird beschrieben, wie bestimmte Datenexport-Beschriftun
 | Dieses Ziel kann eine Kombination mit persönlich identifizierbaren Informationen (PII) ermöglichen | Kombinieren mit PII |
 | Dieses Ziel kann für Offsite-Anzeigen-Targeting verwendet werden | Site-übergreifendes Targeting |
 | Dieses Ziel kann für On-site-Anzeigen-Targeting verwendet werden | Onsite-Werbung |
-| Dieses Ziel kann für die On-site-Anzeigenpersonalisierung verwendet werden | Onsite-Personalisierung |
+| Dieses Ziel kann für die On-site-Anzeigenpersonalisierung verwendet werden | Onsite Personalization |
 
 {style=&quot;table-layout:auto&quot;}
 
