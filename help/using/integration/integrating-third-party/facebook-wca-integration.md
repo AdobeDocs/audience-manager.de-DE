@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Facebook-WCA-Integration
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Diese Seite zeigt den Prozess der Erstellung [!DNL Facebook Website Custom Audie
 
 ## Überblick {#overview}
 
-[Benutzerdefinierte Zielgruppen auf der facebook-Website (WCA)](https://www.facebook.com/business/help/449542958510885) ermöglicht Ihnen, eine Liste von Personen zu erstellen, die bestimmte Seiten besucht oder bestimmte Aktionen auf Ihrer Website durchgeführt haben. [!DNL Audience Manager] Aktivierung in [!DNL WCA] using [!DNL URL] Ziele, mit denen Sie eine benutzerdefinierte pixelbasierte Integration konfigurieren können, um webbasierte Zielgruppen an zu senden [!DNL Facebook] für die Zielgruppenbestimmung.
+[Benutzerdefinierte Zielgruppen auf der facebook-Website (WCA)](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) ermöglicht Ihnen, eine Liste von Personen zu erstellen, die bestimmte Seiten besucht oder bestimmte Aktionen auf Ihrer Website durchgeführt haben. [!DNL Audience Manager] Aktivierung in [!DNL WCA] using [!DNL URL] Ziele, mit denen Sie eine benutzerdefinierte pixelbasierte Integration konfigurieren können, um webbasierte Zielgruppen an zu senden [!DNL Facebook] für die Zielgruppenbestimmung.
 
 ![Facebook-WCA-Integration](/help/using/integration/assets/facebook-wca-integration.png)
 
