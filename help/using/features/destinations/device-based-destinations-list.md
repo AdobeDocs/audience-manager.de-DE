@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Adobe Audience Manager Server-zu-Server-Ziele
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 74%
@@ -16,18 +16,18 @@ ht-degree: 74%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Diese Seite enthält nur die aktuellen [!DNL Audience Manager] [gerätebasierten Ziele](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] werden [!UICONTROL device-based destinations] auch [!UICONTROL server-to-server destinations] genannt. Weitere Informationen zu einer Integration finden Sie in der Liste [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (falls verfügbar) oder wenden Sie sich an Ihren [!DNL Adobe]-Berater oder an die Kundenunterstützung.
+Diese Seite enthält die aktuelle [!DNL Audience Manager] [gerätebasierte Ziele](/help/using/features/destinations/add-device-based-destinations.md) nur. In [!DNL Audience Manager], [!UICONTROL device-based destinations] werden auch [!UICONTROL server-to-server destinations]. Weiterführende Informationen zu Integrationen finden Sie im Abschnitt [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (falls verfügbar) oder kontaktieren Sie Ihre [!DNL Adobe] Berater oder Kundenunterstützung.
 
 
-* **Zuletzt aktualisiert**  = Zeigt das letzte Datum an, an dem ein Update dafür vorgenommen wurde  [!UICONTROL device-based destination].
-* **Aktualisierungen**  = Gibt an, ob Daten in Echtzeit oder im Batch-Modus (1 xday)  [!DNL Audience Manager] gesendet werden  [!UICONTROL destination].
-* **Aufhebung der Segmentierung**  = Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und daraus entfernen  [!UICONTROL segments]. Ihre Fähigkeit, ein Geräteprofil aus einem [!UICONTROL segment] zu entfernen, hängt von der Geräteoption ab, die zum Erstellen eines [!UICONTROL Profile Merge Rule] verwendet wird. Die Aufhebung der Segmentierung wird auch im Kontext von Löschanfragen verwendet. [!DNL GDPR] Lesen Sie [Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) und [Audience Manager-Partner mit Aufhebung der Segmentierung](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] sendet Informationen zur Aufhebung der Segmentierung an die  [!UICONTROL destinations] mit  **** Jesunten markiert.
-* **Empfangen von  [!DNL IAB TCF] Zustimmungssignalen**  =  [!DNL Audience Manager Plug-in for IAB TCF] ermöglicht es Ihnen, die  [!DNL IAB TC] Zeichenfolge an Aktivierungspartner weiterzuleiten und dabei die Datenschutzoptionen der Benutzer zu beachten. Lesen Sie [Audience Manager-Plug-in für IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **[!DNL ICDS]** = Diese Spalte listet die Partner auf, die  [!UICONTROL Instant Cross-Device Suppression]unterstützen. Lesen Sie mehr über [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **Mobilgeräte-IDs**  = In dieser Spalte werden Partner aufgeführt, die Mobilgeräte-IDs von  [!DNL Audience Manager]empfangen können.
+* **Zuletzt aktualisiert** = Zeigt das letzte Datum an, an dem ein Update für diese [!UICONTROL device-based destination].
+* **Updates** = Gibt an, ob [!DNL Audience Manager] sendet Daten in Echtzeit oder Batch (1 xday) an diesen [!UICONTROL destination].
+* **Segment aufheben** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und daraus entfernen [!UICONTROL segments]. Ihre Fähigkeit, ein Geräteprofil aus einem [!UICONTROL segment] hängt von der Geräteoption ab, die zum Erstellen einer [!UICONTROL Profile Merge Rule]. Die Aufhebung der Segmentierung wird auch im Kontext von [!DNL GDPR] Löschanfragen. Lesen [Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) und [Audience Manager-Partner mit Unsegmentierungsfunktionen](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] sendet Segmentinformationen an die [!UICONTROL destinations] markiert mit **Ja** unten.
+* **Empfangen [!DNL IAB TCF] Zustimmungssignale** = Die [!DNL Audience Manager Plug-in for IAB TCF] ermöglicht es Ihnen, die [!DNL IAB TC] -Zeichenfolge zu Aktivierungspartnern hinzugefügt werden, wobei die Datenschutzoptionen der Benutzer berücksichtigt werden. Lesen [Audience Manager-Plug-in für IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **[!DNL ICDS]** = Diese Spalte listet die Partner auf, die [!UICONTROL Instant Cross-Device Suppression]. Informationen [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **Mobilgeräte-IDs** = Diese Spalte listet Partner auf, von denen Mobilgeräte-IDs empfangen werden können [!DNL Audience Manager].
 
 
-| Integration | Zuletzt aktualisiert | Updates | Segment aufheben | Empfangen von [!DNL IAB TCF]-Zustimmungssignalen | [!DNL ICDS] | Mobilgeräte-IDs |
+| Integration | Zuletzt aktualisiert | Updates | Segment aufheben | Empfangen [!DNL IAB TCF] Zustimmungssignale | [!DNL ICDS] | Mobilgeräte-IDs |
 |----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 26.09.2018 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL 4info] | 02.09.2017 | 1 Tag | Nein | Nein | Nein | Ja |
@@ -42,11 +42,11 @@ Diese Seite enthält nur die aktuellen [!DNL Audience Manager] [gerätebasierten
 | [!DNL Adswizz] | 10. September 2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Adtheorent] | 22.02.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL Affinio] | 04.03.2018 | 1 Tag | Ja | Nein | Nein | Ja |
-| [!DNL Aki] | 21/06/2018 | 1 Tag | Nein | Nein | Nein | Ja |
+| [!DNL Aki] | 21.06.2018 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL Amazon Advertising] | 06.15.2017 | 1 Tag | Ja | Nein | Nein | Nein |
 | [!DNL AOL AdLearn] | 03.02.2017 | Echtzeit | Nein | Nein | Nein | Ja |
 | [!DNL AOL ONE] | 03.02.2017 | Echtzeit | Ja | Nein | Nein | Ja |
-| [!DNL AppNexus] | 03.02.2017 | Echtzeit | Ja | Nein | Ja | Nein |
+| [!DNL AppNexus] | 03.02.2017 | Echtzeit | Ja | Nein | Ja | Ja |
 | [!DNL AppNexus Yieldex] | 8. Oktober 2017 | 1 Tag | Ja | Nein | Nein | Nein |
 | [!DNL Artsai] (formerly [!DNL Adxcel]) | 27.01.2020 | 1 Tag | Nein | Nein | Nein | Ja |
 | [!DNL Atedra]/[!DNL AdStanding] | 03.02.2017 | Echtzeit | Ja | Nein | Ja | Nein |
@@ -160,9 +160,9 @@ Diese Seite enthält nur die aktuellen [!DNL Audience Manager] [gerätebasierten
 | [!DNL Triple Lift] | 03.03.2017 | Echtzeit | Nein | Ja | Nein | Nein |
 | [!DNL TrueX] | 1.1.2018 | Echtzeit | Ja | Nein | Nein | Ja |
 | [!DNL TubeMogul] | 03.03.2017 | Echtzeit | Ja | Nein | Ja | Nein |
-| [!DNL Turn] /  [!DNL Amobee] | 03.03.2027 | Echtzeit | Nein | Nein | Nein | Ja |
+| [!DNL Turn] / [!DNL Amobee] | 03.03.2027 | Echtzeit | Nein | Nein | Nein | Ja |
 | [!DNL Twenga] | 10.29.2018 | Echtzeit | Ja | Nein | Nein | Nein |
-| [!DNL Twitter Custom Audiences] | 27.02.2017 | Echtzeit | Ja | Nein | Ja | Nein |
+| [!DNL Twitter Custom Audiences] | 27.03.2017 | Echtzeit | Ja | Nein | Ja | Nein |
 | [!DNL Undertone] | 7. November 2017 | 1 Tag | Nein | Nein | Nein | Nein |
 | [!DNL Verve] | 06.15.2017 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL VideoAmp] | 03.03.2017 | Echtzeit | Nein | Nein | Nein | Nein |
