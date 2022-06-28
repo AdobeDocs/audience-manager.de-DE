@@ -1,15 +1,15 @@
 ---
 description: Listet die Makros auf, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Kopfzeilenmakros und Inhaltsmakros.
-seo-description: Listet die Makros auf, mit denen Sie ausgehende Vorlagen erstellen können. Dazu gehören Dateinamenmakros, Kopfzeilenmakros und Inhaltsmakros.
-seo-title: Ausgehende Vorlagenmakros
+seo-description: Lists the macros you can use to create outbound templates. These include file name macros, header macros, and content macros.
+seo-title: Outbound Template Macros
 solution: Audience Manager
 title: Ausgehende Vorlagenmakros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-feature: Ausgehende Datenübertragungen
+feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: d76505fda1ba448a1aaa3a756ef3bcf193a2718a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '710'
 ht-degree: 3%
 
 ---
@@ -86,7 +86,7 @@ In der Tabelle werden die Makros aufgelistet und beschrieben, die Sie im Dateina
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Ein 10-stelliger UTC-, Unix-Zeitstempel. </p> <p>Sie kann auch als <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> nach Java-Formatierungsregeln für Datum/Zeitstempel formatiert werden. </p> </td> 
+   <td colname="col2"> <p>Ein 10-stelliger UTC-, Unix-Zeitstempel. </p> <p>Sie kann auch als <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> die Java-Formatierungsregeln für Datum/Zeitstempel befolgen. </p> </td> 
   </tr>
 
 </tbody> 
@@ -106,11 +106,11 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine schließende geschweifte Klammer <code>}</code> ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine schließende geschweifte Klammer ein <code>}</code> Zeichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Eindeutige Benutzerkennung für den Datenanbieter  </span>. </p> <p>Dies ist die ID für den Datenpartner, an den Sie Daten in einer ausgehenden Datei senden. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Eindeutige Benutzerkennung für Datenanbieter </span>. </p> <p>Dies ist die ID für den Datenpartner, an den Sie Daten in einer ausgehenden Datei senden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
@@ -122,7 +122,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>Die Ausgabe dieses Makros ordnet die Datenanbieter-ID (DPID) den zugehörigen eindeutigen Benutzer-IDs (DPUUID) zu. Dieses Makro muss über eine Formatierungszeichenfolge verfügen, um seine Ausgabe zu steuern. Die Beispielausgabe würde wie folgt aussehen: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>Die Einstellung <code> maxMappings </code> bestimmt, wie viele Zuordnungen das Makro zurückgeben soll. Wenn <code> maxMappings=0 </code>, gibt dieses Makro alle Zuordnungen für jede angegebene DPID zurück. Die Daten werden nach Zeitstempel sortiert (neueste zuerst) und geben die Ergebnisse mit dem größten Zeitstempel zuerst zurück. </p> </td> 
+   <td colname="col2"> <p>Die Ausgabe dieses Makros ordnet die Datenanbieter-ID (DPID) den zugehörigen eindeutigen Benutzer-IDs (DPUUID) zu. Dieses Makro muss über eine Formatierungszeichenfolge verfügen, um seine Ausgabe zu steuern. Die Beispielausgabe würde wie folgt aussehen: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>Die <code> maxMappings </code> bestimmt, wie viele Zuordnungen das Makro zurückgeben soll. Wann <code> maxMappings=0 </code>, gibt dieses Makro alle Zuordnungen für jede angegebene DPID zurück. Die Daten werden nach Zeitstempel sortiert (neueste zuerst) und geben die Ergebnisse mit dem größten Zeitstempel zuerst zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -134,7 +134,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geöffnete geschweifte Klammer <code>{</code> ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine geöffnete geschweifte Klammer ein <code>{</code> Zeichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -150,7 +150,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Gibt <code> 1 </code> als statischen, fest codierten Wert zurück. </p> </td> 
+   <td colname="col2"> <p>Rückgabe <code> 1 </code> als statischen, fest codierten Wert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -171,14 +171,15 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: Segment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Kundensegment-ID. Herabgestuft. Verwenden Sie <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: Segment-ID </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Gibt  <code> 5 </code>einen statischen, fest codierten Wert zurück, der Daten als Segmentdaten identifiziert. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Nicht mehr verwendet. Nicht verwenden. </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Ein Unix-Zeitstempel, der angibt, wann ein Segment zuletzt realisiert wurde. </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Rückgabe <code> 5 </code>: ein statischer, fest programmierter Wert, der Daten als Segmentdaten identifiziert. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Nicht mehr verwendet. Nicht verwenden. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Ein Unix-Zeitstempel, der angibt, wann das Segment zuletzt aktualisiert wurde. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD28"> <code> lastRealizationTime </code>: Ein Unix-Zeitstempel, der angibt, wann ein Segment zuletzt realisiert wurde. </li>
     </ul> <p>Setzen Sie diese Variablen in geschweifte Klammern hinter das Makro. Dieser Code trennt beispielsweise Ergebnisse mit einem senkrechten Strich "|": <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>Gibt <code> 1 </code> als statischen, fest codierten Wert zurück. </p> </td> 
+   <td colname="col2"> <p>Rückgabe <code> 1 </code>als statischen, fest codierten Wert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -216,7 +217,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Codebeispiele finden Sie un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager- </span> Benutzer-ID. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> Benutzer-ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
