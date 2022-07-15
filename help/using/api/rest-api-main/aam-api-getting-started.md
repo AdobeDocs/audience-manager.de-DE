@@ -48,7 +48,7 @@ Die [!DNL Audience Manager] [!DNL REST APIs] unterstützt zwei Authentifizierung
 
 ## [!DNL JWT] ([!DNL Service Account]) Authentifizierung mit Adobe Developer {#jwt}
 
-### Adobe Developer - Überblick {#adobeio}
+### Übersicht über Adobe Developer {#adobeio}
 
 [!DNL Adobe Developer] ist das Entwickler-Ökosystem und die Community der Adobe. Er umfasst [APIs für alle Adobe-Produkte](https://www.adobe.io/apis.html).
 
@@ -56,13 +56,13 @@ Dies ist die empfohlene Methode zur Einrichtung und Verwendung von [!DNL Adobe] 
 
 ### Voraussetzungen {#prerequisites}
 
-Vor der Konfiguration [!DNL JWT] Authentifizierung, stellen Sie sicher, dass Sie Zugriff auf die [Adobe Developer Console](https://console.adobe.io/) in [Adobe Developer](https://www.adobe.io/). Wenden Sie sich für Zugriffsanfragen an Ihren Organisationsadministrator.
+Vor der Konfiguration [!DNL JWT] Authentifizierung, stellen Sie sicher, dass Sie Zugriff auf die [Adobe Developer-Konsole](https://console.adobe.io/) in [Adobe Developer](https://www.adobe.io/). Wenden Sie sich für Zugriffsanfragen an Ihren Organisationsadministrator.
 
 ### Authentifizierung {#auth}
 
 Gehen Sie wie folgt vor, um [!DNL JWT (Service Account)] Authentifizierung mit [!DNL Adobe Developer]:
 
-1. Melden Sie sich bei der [Adobe Developer Console](https://console.adobe.io/).
+1. Melden Sie sich bei der [Adobe Developer-Konsole](https://console.adobe.io/).
 1. Führen Sie die Schritte unter [Service-Konto-Verbindung](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
    * Während [Schritt 2: Hinzufügen einer API zu Ihrem Projekt mithilfe der Authentifizierung für Dienstkonten](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), wählen Sie die [!DNL Audience Manager] [!DNL API] -Option.
 1. Probieren Sie die Verbindung aus, indem Sie Ihre erste [!DNL API] -Aufruf basierend auf den Anweisungen von [Schritt 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).

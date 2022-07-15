@@ -1,7 +1,7 @@
 ---
-description: Entdecken Sie die Vorteile, Typen und Verwendungen von Zielen - von Drittanbietersystemen wie z. B. Werbeserver oder DSP, in denen Sie Daten freigeben. Verwenden Sie Destination Builder , um Cookies, URL- oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
+description: Entdecken Sie die Vorteile, Typen und Verwendungen von Zielen – allen Drittanbietersystemen, in denen Sie Daten freigeben, wie z. B. ein Adserver oder DSP. Verwenden Sie Destination Builder, um Cookies, URLs oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
 keywords: Integrationscode, Ziel, Zielübersicht, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel
-landing-page-description: Entdecken Sie die Vorteile, Typen und Verwendungen von Zielen - von Drittanbietersystemen wie z. B. Werbeserver oder DSP, in denen Sie Daten freigeben. Verwenden Sie Destination Builder , um Cookies, URL- oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
+landing-page-description: Entdecken Sie die Vorteile, Typen und Verwendungen von Zielen – allen Drittanbietersystemen, in denen Sie Daten freigeben, wie z. B. ein Adserver oder DSP. Verwenden Sie Destination Builder, um Cookies, URLs oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
 seo-title: Destinations
 solution: Audience Manager
 title: 'Ziele '
@@ -11,7 +11,7 @@ exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
