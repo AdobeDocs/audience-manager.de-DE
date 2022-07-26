@@ -1,16 +1,16 @@
 ---
 description: Mit der Datenexportkontrolle können Sie verhindern, dass Daten an Ziele gesendet werden, wenn diese Aktion Datenschutz- oder Datennutzungsvereinbarungen verletzt.
-seo-description: Mit der Datenexportkontrolle können Sie verhindern, dass Daten an Ziele gesendet werden, wenn diese Aktion Datenschutz- oder Datennutzungsvereinbarungen verletzt.
-seo-title: Datenexportkontrollen
+seo-description: Data Export Controls prevent you from sending data to destinations when this action violates data privacy or data use agreements.
+seo-title: Data Export Controls
 solution: Audience Manager
 title: Datenexportkontrollen
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
-feature: Datenexportkontrollen
+feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 2%
+source-wordcount: '882'
+ht-degree: 1%
 
 ---
 
@@ -20,30 +20,30 @@ ht-degree: 2%
 
 ## Überblick {#overview}
 
-[!UICONTROL Data Export Controls] können Sie  [Datenquellen ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) und  [Ziele klassifizieren](../features/destinations/destinations.md). Die angewendeten Klassifizierungen bestimmen, wann Daten an ein Ziel exportiert werden können oder nicht. Diese Funktion besteht aus:
+[!UICONTROL Data Export Controls] klassifizieren [Datenquellen](../features/datasources-list-and-settings.md#data-sources-list-and-settings) und [Ziele](../features/destinations/destinations.md). Die angewendeten Klassifizierungen bestimmen, wann Daten an ein Ziel exportiert werden können oder nicht. Diese Funktion besteht aus:
 
-* **[!UICONTROL Data Export Controls]**: Sie können Datenexportkontrollen für  *Datenquellen* festlegen. Wenn diese Steuerelemente in einer Datenquelle festgelegt sind, beschränken sie die Verwendung dieser Datenquelle und ihrer Eigenschaften.
-* **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen für  *Ziele* festlegen. Wenn diese Beschriftungen für ein Ziel festgelegt werden, erkennen Sie, wie das Ziel Daten verwendet. Informationen zum Hinzufügen von Exportbeschriftungen zu einem Ziel finden Sie unter [Hinzufügen von Datenexportbeschriftungen zu einem Ziel](/help/using/features/destinations/add-data-export-labels.md) .
+* **[!UICONTROL Data Export Controls]**: Sie können Datenexportkontrollen auf *Datenquellen*. Wenn diese Steuerelemente in einer Datenquelle festgelegt sind, beschränken sie die Verwendung dieser Datenquelle und ihrer Eigenschaften.
+* **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen auf *Ziele*. Wenn diese Beschriftungen für ein Ziel festgelegt werden, erkennen Sie, wie das Ziel Daten verwendet. Siehe [Hinzufügen von Datenexportbeschriftungen zu einem Ziel](/help/using/features/destinations/add-data-export-labels.md) , um zu erfahren, wie Sie einem Ziel Exportbezeichnungen hinzufügen.
 
 Basierend auf den Classifications, die auf eine Datenquelle und ein Ziel angewendet werden, verhindern die Exportkontrollen Folgendes:
 
 * Hinzufügen einer Eigenschaft zu einem Segment, wenn die Eigenschaft zu einer Datenquelle gehört, die über eine Datenexportsteuerung verfügt, die mit einer Datenexportbeschriftung für eines oder mehrere der Ziele, denen das Segment zugeordnet ist, nicht kompatibel ist.
-Beispiel: Ein Segment ist einem Ziel mit der Exportbezeichnung **[!DNL This destination may enable a combination with personally identifiable information (PII)]** zugeordnet. Exportsteuerelemente verhindern, dass diesem Segment eine Eigenschaft hinzugefügt wird, wenn die Datenquelle, zu der die Eigenschaft gehört, über eine Datenexportsteuerung mit **[!DNL Cannot be tied to personally identifiable information (PII)]** verfügt.
-* Das Senden von Daten an ein Ziel hat eine Datenexportbeschriftung, die von einer Datenexportkontrolle für Folgendes blockiert wird:
+Beispiel: Ein Segment wird einem Ziel mit der Exportbeschriftung zugeordnet **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Exportkontrollen verhindern, dass diesem Segment eine Eigenschaft hinzugefügt wird, wenn die Datenquelle, zu der die Eigenschaft gehört, über eine Datenexportsteuerung verfügt, die Folgendes angibt: **[!DNL Cannot be tied to personally identifiable information (PII)]**.
+* Senden von Daten an ein Ziel mit einer Datenexportbeschriftung, die von einer Datenexportkontrolle für Folgendes blockiert wird:
    * Die Datenquelle einer eingeschlossenen Eigenschaft;
    * Die Datenquelle einer Eigenschaft, die in einem eingeschlossenen Segment verwendet wird;
    * Die Profilzusammenführungsrichtlinie, die von einem eingeschlossenen Segment genutzt wird;
    * Jede der Datenquellen, die von der Profilzusammenführungsrichtlinie eines enthaltenen Segments verwendet werden.
 
-[!UICONTROL Data Export Controls] sind automatisch für alle Audience Manager verfügbar. Sie benötigen jedoch Administratorberechtigungen, um einer Datenquelle Exportkontrollen hinzuzufügen. Für das Hinzufügen von Exportbeschriftungen zu einem Ziel sind Administratorberechtigungen *oder* erforderlich, die zum Erstellen oder Bearbeiten eines Ziels ausreichen.
+[!UICONTROL Data Export Controls] sind automatisch für alle Audience Manager verfügbar. Sie benötigen jedoch Administratorberechtigungen, um einer Datenquelle Exportkontrollen hinzuzufügen. Für das Hinzufügen von Exportbeschriftungen zu einem Ziel sind Administratorberechtigungen erforderlich *oder* ausreichende Berechtigungen zum Erstellen oder Bearbeiten eines Ziels.
 
 ## Definierte Steuerelemente und Beschriftungen {#controls-labels}
 
 [!UICONTROL Data Export Controls] stellen die folgenden Steuerelemente bereit, mit denen Sie Datenquellen und Ziele klassifizieren können.
 
-Um die Datenbereitstellung zu blockieren, müssen Sie eine Datenquelle mit einer Exportsteuerung klassifizieren und einem Ziel eine Exportbezeichnung hinzufügen. Wenn Sie Exportkontrollen nur auf eine Datenquelle oder ein Ziel anwenden, wird die Datenbereitstellung durch diese Funktion nicht eingeschränkt. Wenn sowohl für die Datenquelle *als auch für das Ziel* festgelegt, beschränken die Exportkontrollen die Eigenschaften, die Sie zu einem Segment hinzufügen können, und verhindern das Senden der Segmentmitglieder an ein Ziel.
+Um die Datenbereitstellung zu blockieren, müssen Sie eine Datenquelle mit einer Exportsteuerung klassifizieren und einem Ziel eine Exportbezeichnung hinzufügen. Wenn Sie Exportkontrollen nur auf eine Datenquelle oder ein Ziel anwenden, wird die Datenbereitstellung durch diese Funktion nicht eingeschränkt. Wenn für beide Datenquellen festgelegt *und* Ziel, begrenzen die Exportkontrollen die Eigenschaften, die Sie zu einem Segment hinzufügen können, und verhindern das Senden der Segmentmitglieder an ein Ziel.
 
-Darüber hinaus muss mindestens eine Exportbeschriftung mit einer Exportkontrolle übereinstimmen, bevor die Datenbereitstellungsbeschränkungen wirksam werden. Angenommen, Sie fügen einer Datenquelle die Exportsteuerung [!UICONTROL PII] hinzu. Als Nächstes fügen Sie einem Ziel die Targeting-Bezeichnung auf der Site hinzu. In diesem Fall beschränkt die Exportsteuerung die Datenbereitstellung nicht, da die Einstellungen nicht übereinstimmen. Wenn Sie jedoch die Exportbezeichnung [!UICONTROL PII] zum Ziel hinzufügen, blockieren die Exportkontrollen den Export.
+Darüber hinaus muss mindestens eine Exportbeschriftung mit einer Exportkontrolle übereinstimmen, bevor die Datenbereitstellungsbeschränkungen wirksam werden. Angenommen, Sie fügen den [!UICONTROL PII] Exportsteuerung an eine Datenquelle exportieren. Als Nächstes fügen Sie einem Ziel die Targeting-Bezeichnung auf der Site hinzu. In diesem Fall beschränkt die Exportsteuerung die Datenbereitstellung nicht, da die Einstellungen nicht übereinstimmen. Wenn Sie jedoch die [!UICONTROL PII] den Titel an die Zieladresse exportieren, blockieren die Exportkontrollen den Export.
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Darüber hinaus muss mindestens eine Exportbeschriftung mit einer Exportkontroll
    <td colname="col3"> Standardmäßig sind für neue Datenquellen und Ziele keine Exportbeschränkungen festgelegt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Darf nicht an persönlich identifizierbare Informationen</span></b>  (PII) gebunden werden </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Kann nicht an persönlich identifizierbare Informationen gebunden werden</span></b> (PII) </td> 
    <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann eine Kombination mit persönlich identifizierbaren Informationen (PII) ermöglichen</span></b> </td> 
    <td colname="col3">Bei Aktivierung dieser Option ist Folgendes nicht möglich: 
     <ul id="ul_0D5A4D0373374217A4BACDFC3BB2F79D"> 
