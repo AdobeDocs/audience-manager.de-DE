@@ -7,9 +7,9 @@ title: Datenexportkontrollen
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
+source-git-commit: 26aa0a210a045b40b2329844324315a092947188
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Darüber hinaus muss mindestens eine Exportbeschriftung mit einer Exportkontroll
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Kann nicht für Offsite-Anzeigen-Targeting verwendet werden</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol"> Dieses Ziel kann für Offsite-Anzeigen-Targeting verwendet werden</span></b> </td> 
-   <td colname="col3">Diese Einschränkungen werden allgemein mit Wenn ausgewählt, können Sie Folgendes nicht tun: 
+   <td colname="col3">Bei Aktivierung dieser Option ist Folgendes nicht möglich: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">Fügen Sie Eigenschaften zu Segmenten hinzu, die Zielen zugeordnet sind, die Benutzer auf anderen Sites erneut ansprechen. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Ordnen Sie Segmente, die mit einer Eigenschaft aus der Datenquelle erstellt wurden, Zielen zu, die Benutzer auf anderen Sites erneut ansprechen. </li> 
