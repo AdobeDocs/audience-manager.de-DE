@@ -8,9 +8,9 @@ title: Kundendaten-Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
+source-git-commit: 89137248aa47573f5b65e387a152f651419da827
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1989'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,10 @@ Die folgenden Abschnitte und die [Häufig gestellte Fragen zu Kundendaten-Feeds]
 
 Listet die Datenelemente und Arrays auf und definiert sie in einer [!UICONTROL CDF] -Datei in der Reihenfolge ihres Erscheinungsbilds. Definitionen umfassen Datentypen, diese Informationen sind jedoch nicht Teil eines [!UICONTROL CDF] -Datei.
 
+>[!IMPORTANT]
+>
+>Ereignispixel sind in CDF-Konfigurationen standardmäßig ausgeschlossen. Stellen Sie sicher, dass Sie in Ihrer Anfrage an die Kundenunterstützung angeben, wenn Sie möchten, dass in Ihren CDF-Dateien Ereignispixel enthalten sind. Jedes Ereignis-Pixel wird in Ihren CDF-Dateien als eindeutige Zeile gefüllt.
+
 ## Definitionen {#definitions}
 
 A [!UICONTROL CDF] enthält einige oder alle unten definierten Felder. Informationen zur internen Dateiorganisation finden Sie unter [Dateistruktur des Kundendaten-Feeds](#cdf-file-structure).
@@ -78,7 +82,7 @@ A [!UICONTROL CDF] enthält einige oder alle unten definierten Felder. Informati
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numerisch </p> </td> 
-   <td colname="col3"> <p>Die ID des Containers, der ID-Synchronisierungen auslöst. </p> </td> 
+   <td colname="col3"> <p>Die ID des Containers, der ID-Synchronisierungen auslöst. Dieses Feld wird nur ausgefüllt, wenn Sie die Container-ID im <i>d_nsid</i> in Ihrer Site-Implementierung. Andernfalls wird der Standardwert von 0 nicht in CDF-Dateien enthalten sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
