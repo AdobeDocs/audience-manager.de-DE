@@ -1,28 +1,22 @@
 ---
 description: Häufig gestellte Fragen zur Audience Lab-Funktion.
-seo-description: Häufig gestellte Fragen zur Audience Lab-Funktion.
-seo-title: Häufig gestellte Fragen zu Audience Lab
+seo-description: Frequently asked questions about the Audience Lab feature.
+seo-title: Audience Lab FAQ
 solution: Audience Manager
 title: Häufig gestellte Fragen zu Audience Lab
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
-feature: 'Audience Lab '
+feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 98%
+source-wordcount: '325'
+ht-degree: 94%
 
 ---
 
 # Häufig gestellte Fragen zu Audience Lab{#audience-lab-faq}
 
 Häufig gestellte Fragen zur Audience Lab-Funktion.
-
-<!-- 
-
-audience-lab-faq.xml
-
- -->
 
 <br>
 
@@ -54,6 +48,6 @@ In diesem Fall zählt [!UICONTROL Audience Lab] drei Konversionen, eine für jed
 
 Weitere Informationen zur Nutzung von [!UICONTROL Audience Lab] mit [!UICONTROL RBAC]-Rechten finden Sie unter [Erstellen von Segmenttestgruppen](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups).
 
-**Kann ich [!UICONTROL Audience Lab] in Verbindung mit [!UICONTROL Profile Link Device Graph] und externen Gerätediagrammen verwenden ([Adobe Experience Cloud-Gerätekooperation](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), Tapad-Gerätediagramm, Liveramp-Gerätediagramm)?**
+**Kann ich [!UICONTROL Audience Lab] in Verbindung mit [!UICONTROL Profile Link Device Graph] und externe Gerätediagramme ( Tapad Device Graph, Liveramp Device Graph)?**
 
 Derzeit kann [!UICONTROL Audience Lab] bei Verwendung von [!UICONTROL Profile Link Device Graph] nur Segmentpopulationen nach Geräten aufteilen, die mit einem qualifizierenden Gerät verbunden sind. Wir arbeiten daran, die anderen Gerätediagramme in [!UICONTROL Audience Lab] zu unterstützen, und werden Sie darüber informieren, sobald dies der Fall ist.
