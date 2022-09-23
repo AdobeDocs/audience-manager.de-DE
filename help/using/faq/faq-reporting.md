@@ -1,16 +1,16 @@
 ---
 description: Häufige Fragen und Probleme im Zusammenhang mit dem Reporting.
-seo-description: Häufige Fragen und Probleme im Zusammenhang mit dem Reporting.
-seo-title: Häufig gestellte Fragen zum Reporting
+seo-description: Common reporting-related questions and issues.
+seo-title: Reporting FAQ
 solution: Audience Manager
 title: Häufig gestellte Fragen zum Reporting
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: Berichtsreferenz
+feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Um den Rechenaufwand zu verringern, werden in diesen Berichten statistisch nicht
 
 **Ich führe eine E-Mail-Marketing-Kampagne durch. Wie kann ich feststellen, ob umgeleitete Benutzer von dieser Kampagne oder aus anderen Quellen auf meine Website kommen?**
 
-Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Website-Bereichs an, den Sie überwachen möchten. Richten Sie anschließend eine Eigenschaftsregel ein, um diese Variable zu erfassen. Wenn Ihre URL beispielsweise eine Kampagnen-ID wie `www.test123.com/electronics?campaign=123` übergibt, erstellen Sie eine Eigenschaftenregel, um diese Daten aus der `h_referer`-Variablen mit einer Eigenschaftenregel zu erfassen, die nach einem Header wie `h_referer = 'campaign=123'` sucht.
+Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Website-Bereichs an, den Sie überwachen möchten. Richten Sie anschließend eine Eigenschaftsregel ein, um diese Variable zu erfassen. Wenn Ihre URL beispielsweise eine Kampagnen-ID wie diese übergibt, `www.test123.com/electronics?campaign=123`erstellen Sie dann eine Eigenschaftsregel, um diese Daten aus der `h_referer` mit einer Eigenschaftsregel, die nach einer Kopfzeile wie `h_referer = 'campaign=123'`.
 
 <br> 
 
