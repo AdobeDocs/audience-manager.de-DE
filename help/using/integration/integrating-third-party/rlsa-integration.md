@@ -1,54 +1,54 @@
 ---
 description: Dieses Verfahren erfordert eine AdWords-Remarketing-Liste, Pixelcode und ein Audience Manager-URL-Ziel. Es wird auch als Remarketing-Liste für die Integration von Suchanzeigen (RLSA) bezeichnet. Gilt nur für Paid Search.
-seo-description: Dieses Verfahren erfordert eine AdWords-Remarketing-Liste, Pixelcode und ein Audience Manager-URL-Ziel. Es wird auch als Remarketing-Liste für die Integration von Suchanzeigen (RLSA) bezeichnet. Gilt nur für Paid Search.
-seo-title: Senden von Segmenten an eine Remarketing-Liste für Google AdWords
+seo-description: This procedure requires an AdWords remarketing list, pixel code, and an Audience Manager URL destination. It is also known as a remarketing list for search ads (RLSA) integration. Applies to paid search only.
+seo-title: Send Segments to a Google AdWords Remarketing List
 solution: Audience Manager
 title: Senden von Segmenten an eine Remarketing-Liste für Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-feature: Drittanbieterintegration
+feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-source-git-commit: 760d6a56754530368ac11a5c9f10c4be487de028
+source-git-commit: b8d65ef8c27100d174a997eb24a75f37b4e75d40
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 5%
+source-wordcount: '293'
+ht-degree: 3%
 
 ---
 
-# Senden von Segmenten an eine Remarketing-Liste für Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
+# Senden von Segmenten an eine Google Ads-Remarketing-Liste {#send-segments-to-a-google-adwords-remarketing-list}
 
-Dieses Verfahren erfordert eine [!DNL Google Ads] Remarketing-Liste, Pixelcode und einen Audience Manager [!DNL URL] [!DNL destination]. Es wird auch als Remarketing-Liste für die Integration von Suchanzeigen ([!DNL RLSA]) bezeichnet. Gilt nur für Paid Search.
+Dieses Verfahren erfordert [!DNL Google Ads] Remarketing-Liste, Pixelcode und ein Audience Manager [!DNL URL] [!DNL destination]. Sie wird auch als Remarketing-Liste für Suchanzeigen ([!DNL RLSA]). Gilt nur für Paid Search.
 
 >[!IMPORTANT]
 >Bitte beachten Sie, dass es sich hierbei nicht um eine produktive Integration der beiden Systeme handelt.
 
-So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manager] [!DNL URL destination] ein:
+So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manager] [!DNL URL destination]:
 
-1. Erstellen Sie in Ihrem [!DNL Google Ads]-Konto [eine Website-Remarketing-Liste](https://support.google.com/adwords/answer/2454064?hl=en) und schreiben Sie Ihre Konversions-ID auf.
+1. In [!DNL Google Ads] Konto, [Erstellen einer Website-Remarketing-Liste](https://support.google.com/tagmanager/answer/6106960?hl=en) und schreiben Sie Ihre Konversions-ID auf.
 1. Verwenden Sie die folgende URL als Vorlage für die Basis-URL und die sichere URL. Ersetzen Sie den Abschnitt xxxxxxxx durch Ihre Konversions-ID.
 
    ```
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Im Audience Manager [Erstellen Sie eine [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie eine vorhandene [!DNL destination]. Verwenden Sie beim Erstellen von [!DNL destination] die folgenden Einstellungen:
+1. Im Audience Manager [Erstellen Sie eine [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder vorhandene [!DNL destination]. Verwenden Sie beim Erstellen der [!DNL destination]:
    * Typ: URL
    * Serialisieren: Aktiviert
    * Trennzeichen: Semikolon ( &amp;semi; )
 
-1. Fügen Sie im Abschnitt [!UICONTROL Segment Mappings] Ihres [!DNL URL] [!DNL destination] den Code aus Schritt 2 den Feldern [!DNL URL] und [!DNL Secure URL] hinzu. Stellen Sie dem Code in den Feldern [!DNL URL] und `https:` das Präfix `http:` und [!DNL Secure URL] voran.
+1. Im [!UICONTROL Segment Mappings] Abschnitt Ihres [!DNL URL] [!DNL destination], fügen Sie den Code aus Schritt 2 zum [!DNL URL] und [!DNL Secure URL] -Felder. Stellen Sie dem Code das Präfix `http:` und `https:` im [!DNL URL] und [!DNL Secure URL] angegeben.
 
    >[!IMPORTANT]
    >
-   >Kodierte Und-Zeichen `&` durch nicht kodierte Und-Zeichen `&` ersetzen
+   >Kodierte kaufmännische Und-Zeichen ersetzen `&` mit nicht kodierten kaufmännischen Und-Zeichen `&`
 
-   Unsicherer [!DNL URL]-Code:
+   Unsicher [!DNL URL] code:
 
    ```
     http://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
     value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-   Sicherer [!DNL URL]-Code:
+   Secure [!DNL URL] code:
 
    ```
     https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
@@ -59,10 +59,10 @@ So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manag
 
    >[!NOTE]
    >
-   >Wenn Sie mit mehreren Segmenten arbeiten, erhalten Sie für jedes Segment, das Sie einer [!DNL Google Ads] [!DNL destination] zuordnen möchten, ein neues Pixel. Dadurch wird sichergestellt, dass die Daten auf die entsprechende Remarketing-Liste angewendet werden.
+   >Wenn Sie mit mehreren Segmenten arbeiten, erhalten Sie für jedes Segment, das Sie einer [!DNL Google Ads] [!DNL destination]. Dadurch wird sichergestellt, dass die Daten auf die entsprechende Remarketing-Liste angewendet werden.
 
-1. Wenn Sie diesem [!DNL destination] in Audience Manager ein neues Segment zuordnen, definieren Sie die Zuordnung als `aam=segmentID` und ersetzen Sie `segmentID` durch die Kennung Ihres Segments.
-1. Wenn Sie einen Behälter in [!DNL Google Ads] definieren, erstellen Sie eine Regel, die mit der in Schritt 6 definierten Zuordnung übereinstimmt.
+1. Beim Zuordnen eines neuen Segments zu diesem [!DNL destination] Definieren Sie die Zuordnung im Audience Manager als `aam=segmentID` und ersetzen `segmentID` mit der Kennung Ihres Segments.
+1. Beim Definieren eines Behälters in [!DNL Google Ads]erstellen Sie eine Regel, die mit der in Schritt 6 definierten Zuordnung übereinstimmt.
 
 Eine abgeschlossene Zuordnung könnte in etwa wie folgt aussehen:
 
@@ -71,7 +71,7 @@ Eine abgeschlossene Zuordnung könnte in etwa wie folgt aussehen:
 >[!MORELIKETHIS]
 >
 >* [[!DNL Destinations]](../../features/destinations/destinations.md)
-* [Erstellen Sie eine [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
-* [Über Remarketing-Listen für AdWords](https://support.google.com/adwords/answer/2472738)
-* [Funktionsweise von AdWords Remarketing](https://support.google.com/adwords/answer/2454000)
+>* [Erstellen Sie eine [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
+>* [Über Remarketing-Listen für AdWords](https://support.google.com/adwords/answer/2472738)
+>* [Funktionsweise von AdWords Remarketing](https://support.google.com/adwords/answer/2454000)
 
