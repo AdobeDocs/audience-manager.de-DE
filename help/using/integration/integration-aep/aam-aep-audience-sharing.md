@@ -5,9 +5,9 @@ title: Segmentfreigabe in Experience Platform mit Audience Manager und anderen E
 keywords: Freigabe von AEP-Zielgruppen, AEP-Segmente, Platform-Segmente, Segmentfreigabe, Zielgruppenfreigabe, Freigabe von Segmenten AAM AEP-Segmentfreigabe
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
+source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -41,9 +41,9 @@ Eine Übersicht der Anwendungsfälle für die Zielgruppenfreigabe finden Sie in 
 
 {style=&quot;table-layout:auto&quot;}
 
-## Erste Schritte - So aktivieren Sie die Datenfreigabe zwischen Audience Manager und Experience Platform {#enable-data-sharing-aam-aep}
+## Audience Manager-Segmente und -Eigenschaften in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-Die beiden folgenden Abschnitte zeigen, wie Sie die Datenfreigabe zwischen Audience Manager und Experience Platform aktivieren.
+In den folgenden Abschnitten wird beschrieben, wie Sie die Datenfreigabe von Audience Manager zu Experience Platform aktivieren und Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden.
 
 ### Datenfreigabe von Audience Manager zu Experience Platform aktivieren {#enable-aam-to-aep-data}
 
@@ -58,6 +58,17 @@ Um Segmente und Eigenschaften von Audience Manager zu Experience Platform zu sen
 >
 >![Screenshot mit den Optionen Alle Segmente auswählen und Alle Eigenschaften auswählen im Workflow deaktiviert, um eine Verbindung zum Quell-Connector des Audience Managers herzustellen.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
+### Verwenden von Audience Manager-Eigenschaften und -Segmenten in Experience Platform {#use-aam-data-in-aep}
+
+Nach der Einrichtung des Quell-Connectors für den Audience Manager zum Importieren von Eigenschaften und Segmenten aus Audience Manager werden Ihre Audience Manager-Daten in Experience Platform als **Zielgruppen** im Segment-Workflow. Weitere Informationen zu Ihren Audience Manager-Segmenten und -Eigenschaften in Experience Platform finden Sie unter:
+
+* [Übersicht über den Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+* [Benutzerhandbuch zu Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+
+## Adobe Experience Platform-Segmente in Audience Manager {#aep-segments-in-aam}
+
+In den folgenden Abschnitten wird beschrieben, wie Sie die Datenfreigabe von Experience Platform zu Audience Manager aktivieren und wie Sie Experience Platform-Segmente in Audience Manager verwenden.
+
 ### Datenfreigabe von Experience Platform zu Audience Manager aktivieren {#enable-aep-to-aam-data}
 
 >[!NOTE]
@@ -68,14 +79,7 @@ Um Segmente von Experience Platform an Audience Manager zu senden, müssen Sie s
 
 Stellen Sie sicher, dass Sie Pläne für die Daten freigeben, die von Platform an Audience Manager gesendet werden, um sicherzustellen, dass die Verbindung ordnungsgemäß eingerichtet ist. Wenn beispielsweise regionale Daten für an Adobe Target gesendete Segmente freigegeben werden sollen, müssen diese Informationen im Ticket übermittelt werden. Die Datenfreigabe-Verbindung zwischen Experience Platform und Audience Manager wird innerhalb von sechs Werktagen nach der Übermittlung der Anfrage eingerichtet.
 
-## Audience Manager-Segmente und -Eigenschaften in Adobe Experience Platform {#aam-segments-traits-in-aep}
-
-Nach der Einrichtung des Quell-Connectors für den Audience Manager zum Importieren von Eigenschaften und Segmenten aus Audience Manager werden Ihre Audience Manager-Daten in Experience Platform als **Zielgruppen** im Segment-Workflow. Weitere Informationen zu Ihren Audience Manager-Segmenten und -Eigenschaften in Experience Platform finden Sie unter:
-
-* [Übersicht über den Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
-* [Benutzerhandbuch zu Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-
-## Adobe Experience Platform-Segmente in Audience Manager {#aep-segments-in-aam}
+### Verwenden von Experience Platform-Segmenten in Audience Manager {#use-aep-data-in-aam}
 
 Segmente, die Sie in Experience Platform erstellen, werden in Ihrer Audience Manager-Oberfläche als Signale, Eigenschaften und Segmente mit den folgenden Kompositionsregeln angezeigt:
 
