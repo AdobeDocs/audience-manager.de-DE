@@ -1,22 +1,18 @@
 ---
-description: In diesem Artikel wird beschrieben, wie Zielgruppen von Audience Manager und Adobe Experience Platform gemeinsam genutzt werden.
+description: Erfahren Sie, wie Sie die Datenfreigabe aktivieren und wie Zielgruppen zwischen Audience Manager und Adobe Experience Platform freigegeben werden.
 solution: Audience Manager
 title: Segmentfreigabe in Experience Platform mit Audience Manager und anderen Experience Cloud-Lösungen
 keywords: Freigabe von AEP-Zielgruppen, AEP-Segmente, Platform-Segmente, Segmentfreigabe, Zielgruppenfreigabe, Freigabe von Segmenten AAM AEP-Segmentfreigabe
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1862'
 ht-degree: 1%
 
 ---
 
 # Segmentfreigabe in Experience Platform mit Audience Manager und anderen Experience Cloud-Lösungen
-
->[!NOTE]
->
-> Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter, um den Zugriff auf diese Funktion zu entsperren.
 
 ## Überblick {#overview}
 
@@ -45,13 +41,39 @@ Eine Übersicht der Anwendungsfälle für die Zielgruppenfreigabe finden Sie in 
 
 {style=&quot;table-layout:auto&quot;}
 
+## Erste Schritte - So aktivieren Sie die Datenfreigabe zwischen Audience Manager und Experience Platform {#enable-data-sharing-aam-aep}
+
+Die beiden folgenden Abschnitte zeigen, wie Sie die Datenfreigabe zwischen Audience Manager und Experience Platform aktivieren.
+
+### Datenfreigabe von Audience Manager zu Experience Platform aktivieren {#enable-aam-to-aep-data}
+
+Um Segmente und Eigenschaften von Audience Manager zu Experience Platform zu senden, müssen Sie den Quell-Connector für Audience Manager im Quellkatalog für Experience Platformen einrichten. Hierbei handelt es sich um einen Self-Service-Workflow, der nicht von der Kundenunterstützung der Adobe oder von Technikerteams durchgeführt werden muss. Lesen Sie zum Einrichten des Quell-Connectors für den Audience Manager Folgendes:
+
+* [Audience Manager source](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Erstellen einer Adobe Audience Manager-Quellverbindung in der Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+
+>[!IMPORTANT]
+>
+>Adobe empfiehlt Kunden, die Verbindung zu konfigurieren, ohne die **[!UICONTROL Select all segments]** und **[!UICONTROL Select all traits]** Optionen, wie unten dargestellt. Die Erfassung umfangreicher Audience Manager-Segmentpopulationen hat einen direkten Einfluss auf Ihre Gesamtprofilanzahl, wenn Sie zum ersten Mal ein Audience Manager-Segment mit der Audience Manager-Quelle an Platform senden. Das bedeutet, dass die Auswahl aller Segmente potenziell zu einer Profilanzahl führen kann, die über Ihrer Lizenznutzungsberechtigung liegt.
+>
+>![Screenshot mit den Optionen Alle Segmente auswählen und Alle Eigenschaften auswählen im Workflow deaktiviert, um eine Verbindung zum Quell-Connector des Audience Managers herzustellen.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
+
+### Datenfreigabe von Experience Platform zu Audience Manager aktivieren {#enable-aep-to-aam-data}
+
+>[!NOTE]
+>
+> Wenden Sie sich an Ihren Adobe Customer Success Manager oder an die Kundenunterstützung, um den Zugriff auf diese Funktion zu entsperren.
+
+Um Segmente von Experience Platform an Audience Manager zu senden, müssen Sie sich entweder an die Kundenunterstützung oder Ihren Customer Success Manager wenden. Die Teams der Kundenunterstützung und des Kundensupport müssen ein Ticket (siehe Vorlagenticket AAM-52354) einreichen, um die Verbindung von Platform zu Audience Manager zu ermöglichen.
+
+Stellen Sie sicher, dass Sie Pläne für die Daten freigeben, die von Platform an Audience Manager gesendet werden, um sicherzustellen, dass die Verbindung ordnungsgemäß eingerichtet ist. Wenn beispielsweise regionale Daten für an Adobe Target gesendete Segmente freigegeben werden sollen, müssen diese Informationen im Ticket übermittelt werden. Die Datenfreigabe-Verbindung zwischen Experience Platform und Audience Manager wird innerhalb von sechs Werktagen nach der Übermittlung der Anfrage eingerichtet.
+
 ## Audience Manager-Segmente und -Eigenschaften in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-Ihre Audience Manager-Eigenschaften und -Segmente werden in Experience Platform als **Zielgruppen** im Segment-Workflow. Weitere Informationen zu Ihren Audience Manager-Segmenten und -Eigenschaften in Experience Platform finden Sie unter:
+Nach der Einrichtung des Quell-Connectors für den Audience Manager zum Importieren von Eigenschaften und Segmenten aus Audience Manager werden Ihre Audience Manager-Daten in Experience Platform als **Zielgruppen** im Segment-Workflow. Weitere Informationen zu Ihren Audience Manager-Segmenten und -Eigenschaften in Experience Platform finden Sie unter:
 
 * [Übersicht über den Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 * [Benutzerhandbuch zu Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 ## Adobe Experience Platform-Segmente in Audience Manager {#aep-segments-in-aam}
 
@@ -143,7 +165,7 @@ In der folgenden Tabelle wird beschrieben, wie bestimmte Datenexport-Beschriftun
 | Dieses Ziel kann eine Kombination mit persönlich identifizierbaren Informationen (PII) ermöglichen | Kombinieren mit PII |
 | Dieses Ziel kann für Offsite-Anzeigen-Targeting verwendet werden | Site-übergreifendes Targeting |
 | Dieses Ziel kann für On-site-Anzeigen-Targeting verwendet werden | Onsite-Werbung |
-| Dieses Ziel kann für die On-site-Anzeigenpersonalisierung verwendet werden | Onsite Personalization |
+| Dieses Ziel kann für die On-site-Anzeigenpersonalisierung verwendet werden | Onsite-Personalisierung |
 
 {style=&quot;table-layout:auto&quot;}
 
