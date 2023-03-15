@@ -1,16 +1,17 @@
 ---
 description: Erfahren Sie mehr über die Komponenten eines Segments und die Ausdrücke, die zum Festlegen von Kriterien für die Zielgruppenqualifizierung verwendet werden. Hier finden Sie auch Informationen zur Datenübertragung.
 landing-page-description: Erfahren Sie mehr über die Komponenten eines Segments und die Ausdrücke, die zum Festlegen von Kriterien für die Zielgruppenqualifizierung verwendet werden. Hier finden Sie auch Informationen zur Datenübertragung.
+short-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Signale, Eigenschaften und Segmente
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
-source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
+source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
