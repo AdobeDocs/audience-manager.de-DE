@@ -2,7 +2,7 @@
 description: Entdecken Sie die Vorteile, Typen und Verwendungen von Zielen – allen Drittanbietersystemen, in denen Sie Daten freigeben, wie z. B. ein Adserver oder DSP. Verwenden Sie Destination Builder, um Cookies, URLs oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
 keywords: Integrationscode, Ziel, Zielübersicht, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel, Ziel
 landing-page-description: Entdecken Sie die Vorteile, Typen und Verwendungen von Zielen – allen Drittanbietersystemen, in denen Sie Daten freigeben, wie z. B. ein Adserver oder DSP. Verwenden Sie Destination Builder, um Cookies, URLs oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
-short-description: Discover the advantages, types, and uses of destinations – any third-party system, such as an ad server or DSP, where you share data. Use Destination Builder to create and manage cookies, URL, or server-to-server destinations.
+short-description: Entdecken Sie die Vorteile, Typen und Verwendungen von Zielen – allen Drittanbietersystemen, in denen Sie Daten freigeben, wie z. B. ein Adserver oder DSP. Verwenden Sie Destination Builder, um Cookies, URLs oder Server-zu-Server-Ziele zu erstellen und zu verwalten.
 seo-title: Destinations
 solution: Audience Manager
 title: Ziele
@@ -11,8 +11,8 @@ feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 15%
+source-wordcount: '573'
+ht-degree: 20%
 
 ---
 
