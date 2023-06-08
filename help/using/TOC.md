@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
 user-guide-description: Erfahren Sie, wie Sie mit Adobe Audience Manager geschäftlich relevante Informationen über Site-Besucher erfassen und vermarktbare Segmente erstellen können. Sie können auch Details dazu finden, wie Sie zielgerichtete Werbung und Inhalte für die richtige Zielgruppe bereitstellen können.
 feature-set: Audience Manager
-source-git-commit: 27581b03b71d5254f24d7e46646abce82f9e4df2
+source-git-commit: f4babbb632279cf213116e004551e5c77869ab78
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 95%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 95%
 # Benutzerhandbuch für Audience Manager {#user-guide}
 
 + [Audience Manager-Anleitung](aam-home.md)
-+ [Handbuch zur Evolution von Audience Manager zu Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ [Entwicklungshandbuch für Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Überblick {#overview}
    + [Audience Manager – Überblick](overview/aam-overview.md)
    + [Erfasste Datentypen](overview/data-types-collected.md)
