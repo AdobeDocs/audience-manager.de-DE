@@ -1,21 +1,29 @@
 ---
 description: Ruft eine Partner-spezifische DIL-Instanz ab.
 keywords: Audience Manager-API;AAM-API;Audience Manager-API;AAM-API
-seo-description: Ruft eine Partner-spezifische DIL-Instanz ab.
+seo-description: Retrieves a partner-specific DIL instance.
 seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
-feature: DIL-Implementierung
+feature: DIL Implementation
 exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 15%
+source-wordcount: '155'
+ht-degree: 7%
 
 ---
 
 # getDil{#getdil}
+
+>[!WARNING]
+>
+>Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
+><br><br>
+>Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
+><br><br>
+>Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
 Ruft eine Partner-spezifische DIL-Instanz ab.
 
@@ -32,7 +40,7 @@ Ruft eine Partner-spezifische DIL-Instanz ab.
 
 ## Antwort
 
-Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine Partner-spezifische [!UICONTROL DIL]-Instanz zurück. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;zurück (gibt diesen nicht aus).
+Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine Partner-spezifische [!UICONTROL DIL] -Instanz. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung zurück (gibt diesen nicht aus): &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Beispielcode
 

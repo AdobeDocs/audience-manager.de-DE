@@ -1,22 +1,30 @@
 ---
 description: Beschreibt Methoden im DIL.tools-Namespace. Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
-seo-description: Beschreibt Methoden im DIL.tools-Namespace. Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
-seo-title: DIL-Tools
+seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
+seo-title: DIL Tools
 solution: Audience Manager
 title: DIL-Tools
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-feature: DIL-Implementierung
+feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 5%
+source-wordcount: '355'
+ht-degree: 3%
 
 ---
 
 # DIL-Tools
 
-Beschreibt Methoden im Namespace `DIL.tools` . Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+>[!WARNING]
+>
+>Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
+><br><br>
+>Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
+><br><br>
+>Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
+
+Beschreibt Methoden im `DIL.tools` Namespace. Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 
 <!-- 
 
@@ -34,9 +42,9 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Zweck von `getSearchReferrer`
+### Zweck `getSearchReferrer`
 
-Unter DIL gibt `getSearchReferrer` Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] und [!DNL Yahoo]) standardmäßig gegen `document.referrer` durchsuchen lassen.
+DIL: `getSearchReferrer` gibt Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder sie nach unterstützten Suchmaschinen durchsuchen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]und [!DNL Yahoo]) gegen `document.referrer` Standardmäßig.
 
 ### Funktionsunterschrift
 
@@ -46,8 +54,8 @@ Funktionsunterschrift: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` akzeptiert:
 
-* *`{string}`*:  *(Optional)* Eine Zeichenfolge, die die Such-URL enthält (verwendet  `document.referrer` wenn nicht definiert).
-* *`{object}`*:  *(Optional)* Ein Objekt, das die Konfiguration für  `hostPattern`,  `queryParam` oder  `queryPattern`enthält.
+* *`{string}`*: *(Optional)* Eine Zeichenfolge, die die Such-URL enthält (verwendet `document.referrer` wenn nicht definiert).
+* *`{object}`*: *(Optional)* Ein Objekt, das die Konfiguration für die `hostPattern`, `queryParam`oder `queryPattern`.
 
 Und gibt zurück:
 
@@ -113,7 +121,7 @@ Und gibt zurück:
 
 ## dekomposseURI
 
-Trennt eine Uniform Resource Identifier ( [!DNL URI]) in die Komponenten: `hash`, `host`, `href`, `pathname`, `protocol`, `search` und `[!DNL uriParams]`.
+Deassembliert eine Uniform Resource Identifier ( [!DNL URI]) in die Komponenten der Komponente ein. `hash`, `host`, `href`, `pathname`, `protocol`, `search`und `[!DNL uriParams]`.
 
 <!-- 
 
@@ -127,7 +135,7 @@ Funktionsunterschrift: `DIL.tools.decomposeURI`
 
 `decomposeURI` akzeptiert:
 
-* *`uri {string}`*:  *(Optional)* Eine Zeichenfolge, die den URI enthält. Die Standardeinstellung ist `document.location.href`, falls nicht anders angegeben.
+* *`uri {string}`*: *(Optional)* Eine Zeichenfolge, die den URI enthält. Standardwert ist `document.location.href` falls nicht angegeben.
 
 Und gibt zurück:
 
@@ -173,7 +181,7 @@ Funktionsunterschrift: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Beispielcode
 
-<pre class="&ldquo;javascript&rdquo;"><code>
+<pre class="javascript"><code>
 var dataLib = DIL.create({ 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
