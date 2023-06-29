@@ -8,7 +8,7 @@ title: Grundlegendes zur Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
-source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 10%
@@ -20,9 +20,9 @@ ht-degree: 10%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br><br>
+><br>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br><br>
+><br>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
 Überblick, erste Schritte und verfügbare Codemethoden in der [!DNL Audience Manager DIL] Code-Bibliothek.

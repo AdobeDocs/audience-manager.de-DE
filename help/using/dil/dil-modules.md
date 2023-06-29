@@ -7,7 +7,7 @@ title: DIL-Module
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
 exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
-source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 4%
@@ -19,9 +19,9 @@ ht-degree: 4%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br><br>
+><br>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br><br>
+><br>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
 Beschreibt Methoden im `DIL.modules` Namespace. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.

@@ -8,7 +8,7 @@ title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
 feature: DIL Implementation
 exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
-source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 7%
@@ -20,9 +20,9 @@ ht-degree: 7%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br><br>
+><br>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br><br>
+><br>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
 Ruft eine Partner-spezifische DIL-Instanz ab.

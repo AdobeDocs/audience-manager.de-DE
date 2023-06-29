@@ -7,7 +7,7 @@ title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
 feature: DIL Implementation
 exl-id: 814268bc-4387-4e06-ae94-eda86993a967
-source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 8%
@@ -19,9 +19,9 @@ ht-degree: 8%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br><br>
+><br>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br><br>
+><br>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
 Ruft einen bestimmten Wert von einem Anzeigen-Server ab.
