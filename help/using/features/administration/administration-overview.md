@@ -8,9 +8,9 @@ title: Administration
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
+source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1187'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 2%
 > 
 > Nachdem alle Kunden migriert wurden, werden die Benutzerverwaltungsabschnitte dieses Dokuments entfernt.
 
+>[!IMPORTANT]
+>
+> Bevor Sie [!DNL RBAC]festgelegt ist, muss diese Funktion von der Adobe für Ihre Organisation aktiviert werden. Wenden Sie sich an Ihr Account-Team, um eine Anfrage zu stellen [!DNL RBAC] Aktivierung oder wenden Sie sich an die Kundenunterstützung.
+
 
 Die Optionen unter [!UICONTROL Administration] können Sie Audience Manager erstellen und Gruppen zuweisen. Sie können auch Einschränkungen anzeigen (Eigenschaften, Segmente, Ziele und Modelle).
 
@@ -38,9 +42,10 @@ Unternehmenskunden mit [!DNL Audience Manager] benötigen eine Datenverwaltungsp
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Um die Benutzermigration zu starten, müssen alle Audience Manager unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen ergreifen: [Benutzermigration zu Admin Console durch Audience Manager](admin-console-migration.md).
+> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um die Benutzermigration zu starten, müssen alle Audience Manager unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen ergreifen: [Benutzermigration zu Admin Console durch Audience Manager](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert wurden, wird der Abschnitt zur Benutzerverwaltung dieses Dokuments entfernt.
+> 
 Benutzer erstellen in [!DNL Audience Manager] und geben Sie Benutzerdetails an, melden Sie sich an und weisen Sie Benutzer Gruppen zu.
 
 1. Klicken **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
@@ -66,7 +71,7 @@ Weitere Informationen zu Gruppen und Berechtigungen finden Sie unter [Erstellen 
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Um die Benutzermigration zu starten, empfehlen wir allen Audience Manager, unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration zu Admin Console durch Audience Manager](admin-console-migration.md).
+> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um die Benutzermigration zu starten, empfehlen wir allen Audience Manager, unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration zu Admin Console durch Audience Manager](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert wurden, wird dieser Abschnitt entfernt.
 
@@ -92,7 +97,7 @@ Dadurch wird ein Berechtigungsfenster für das ausgewählte Objekt geöffnet.
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Um die Benutzermigration zu starten, empfehlen wir allen Audience Manager, unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration zu Admin Console durch Audience Manager](admin-console-migration.md).
+> Die Benutzerkontoverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um die Benutzermigration zu starten, empfehlen wir allen Audience Manager, unverzüglich die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration zu Admin Console durch Audience Manager](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert wurden, wird dieser Abschnitt entfernt.
 
