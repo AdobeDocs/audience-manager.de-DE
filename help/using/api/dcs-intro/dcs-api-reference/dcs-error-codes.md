@@ -4,7 +4,7 @@ title: DCS-Fehlercodes, Meldungen und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 4%
@@ -191,21 +191,21 @@ In den unten stehenden Tabellen *kursiv* stellt einen Variablenplatzhalter dar.
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Anfrage enthält eine ungültige globale Geräte-ID </p> </td> 
-   <td colname="col3"> <p>Die <span class="wintitle">DCS</span> gibt diesen Fehlercode zurück, wenn die Anfrage eine ungültige globale Geräte-ID enthält. Der DES ignoriert die ungültige ID und gibt einen 312-Fehler zusammen mit den spezifischen Fehlern der ungültigen ID aus. Siehe <a href="../../../features/global-data-sources.md" format="dita" scope="local">Globale Data Sources</a> und <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index der IDs in Audience Manager</a> für detaillierte Informationen zu den richtigen Geräte-Werbe-ID-Formaten und den entsprechenden globalen Datenquellen.</p>
+   <td colname="col3"> <p>Die <span class="wintitle">DCS</span> gibt diesen Fehlercode zurück, wenn die Anfrage eine ungültige globale Geräte-ID enthält. Der DES ignoriert die ungültige ID und gibt einen 312-Fehler zusammen mit den spezifischen Fehlern der ungültigen ID aus. Siehe Abschnitt <a href="../../../features/global-data-sources.md" format="dita" scope="local">Globale Data Sources</a> und <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index der IDs in Audience Manager</a> für detaillierte Informationen zu den richtigen Geräte-Werbe-ID-Formaten und den entsprechenden globalen Datenquellen.</p>
    <p>Beispiel eines falschen Aufrufs: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
-   <p>Erklärung: Ein <span class="keyword">IDFA (DPID 20915)</span> muss eine ID in Großbuchstaben sein. Die in der Anfrage angegebene ID ist in Kleinbuchstaben.</p>
+   <p>Erklärung: Eine <span class="keyword">IDFA (DPID 20915)</span> muss eine ID in Großbuchstaben sein. Die in der Anfrage angegebene ID ist in Kleinbuchstaben.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>Die CMP-ID ist nicht in GCL enthalten.</p> </td> 
-   <td colname="col3"> <p>Wann <code>gdpr=1</code> und die IAB-TC-Zeichenfolge von einer CMP-ID generiert wird, die zum Zeitpunkt der Auswertung nicht in der zwischengespeicherten Version der globalen CMP-Liste von Audience Manager vorhanden ist, verwirft das Audience Manager-Plug-in für IAB TCF die IAB-TC-Zeichenfolge und verarbeitet die Anforderung wie gewohnt. Das IAB TCF v2.0 ${GDPR} -Makro ist auf 0 gesetzt und das Makro ${GDPR_CONSENT_XXX} ist leer.</p>
+   <td colname="col3"> <p>Wann <code>gdpr=1</code> und die IAB-TC-Zeichenfolge von einer CMP-ID generiert wird, die zum Zeitpunkt der Auswertung nicht in der zwischengespeicherten Version der globalen CMP-Liste von Audience Manager vorhanden ist, verwirft das Audience Manager-Plug-in für IAB TCF die IAB-TC-Zeichenfolge und verarbeitet die Anforderung wie gewohnt. IAB TCF v2.2 ${GDPR} Makro ist auf 0 und $ gesetzt{GDPR_CONSENT_XXX} -Makro ist leer.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>CMP-ID wird als in GCL als gelöscht markiert</p> </td> 
-   <td colname="col3"> <p>Wann <code>gdpr=1</code> und die IAB-TC-Zeichenfolge von einem CMP generiert wird, der in unserer zwischengespeicherten Version der globalen CMP-Liste als gelöscht markiert ist, verwirft das Audience Manager-Plug-in für IAB TCF die TC-Zeichenfolge und verarbeitet die Anforderung wie gewohnt, wenn die Auswertungszeit nach der Löschzeit aus der globalen CMP-Liste liegt. Das IAB TCF v2.0 ${GDPR} -Makro ist auf 0 gesetzt und das Makro ${GDPR_CONSENT_XXX} ist leer.</p></td>
+   <td colname="col3"> <p>Wann <code>gdpr=1</code> und die IAB-TC-Zeichenfolge von einem CMP generiert wird, der in unserer zwischengespeicherten Version der globalen CMP-Liste als gelöscht markiert ist, verwirft das Audience Manager-Plug-in für IAB TCF die TC-Zeichenfolge und verarbeitet die Anforderung wie gewohnt, wenn die Auswertungszeit nach der Löschzeit aus der globalen CMP-Liste liegt. IAB TCF v2.2 ${GDPR} Makro ist auf 0 und $ gesetzt{GDPR_CONSENT_XXX} -Makro ist leer.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
@@ -219,7 +219,7 @@ In den unten stehenden Tabellen *kursiv* stellt einen Variablenplatzhalter dar.
 
 ## Beispiel-Fehlercode-Meldungen {#sample-error-codes}
 
-Die [!DNL DCS] gibt Fehlercodes und -nachrichten in einer [!DNL JSON] -Objekt oder in einem X-Header in der HTTP-Antwortzeichenfolge.
+Die [!DNL DCS] gibt Fehlercodes und -meldungen in einer [!DNL JSON] -Objekt oder in einem X-Header in der HTTP-Antwortzeichenfolge.
 
 ### Beispiel-DCS-Fehlercode und -Meldung
 
