@@ -7,7 +7,7 @@ title: DIL-Tools
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 3%
@@ -19,12 +19,12 @@ ht-degree: 3%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br>
+>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br>
+>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
-Beschreibt Methoden im `DIL.tools` Namespace. Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+Beschreibt Methoden im Abschnitt `DIL.tools` Namespace. Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 
 <!-- 
 
@@ -44,7 +44,7 @@ r_dil_get_search_referrer.xml
 
 ### Zweck `getSearchReferrer`
 
-DIL: `getSearchReferrer` gibt Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder sie nach unterstützten Suchmaschinen durchsuchen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]und [!DNL Yahoo]) gegen `document.referrer` Standardmäßig.
+DIL: `getSearchReferrer` gibt Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder sie nach unterstützten Suchmaschinen durchsuchen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], und [!DNL Yahoo]) gegen `document.referrer` Standardmäßig.
 
 ### Funktionsunterschrift
 
@@ -121,7 +121,7 @@ Und gibt zurück:
 
 ## dekomposseURI
 
-Deassembliert eine Uniform Resource Identifier ( [!DNL URI]) in die Komponenten der Komponente ein. `hash`, `host`, `href`, `pathname`, `protocol`, `search`und `[!DNL uriParams]`.
+Deassembliert eine Uniform Resource Identifier ( [!DNL URI]) in die Komponenten der Komponente: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, und `[!DNL uriParams]`.
 
 <!-- 
 

@@ -7,7 +7,7 @@ title: DIL-Module
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
 exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 4%
@@ -19,12 +19,12 @@ ht-degree: 4%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br>
+>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br>
+>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
-Beschreibt Methoden im `DIL.modules` Namespace. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
+Beschreibt Methoden im Abschnitt `DIL.modules` Namespace. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
 
 <!-- 
 
@@ -98,7 +98,7 @@ r_dil_sc_init.xml
 
 **Von SiteCatalyst.init erfasste Daten**
 
-Diese Funktion gibt Details zu folgenden Elementen zurück: [!DNL Analytics] properties:
+Diese Funktion gibt Details zu folgenden Elementen zurück [!DNL Analytics] properties:
 
 * `pageName`
 * `channel`
@@ -141,7 +141,7 @@ DIL.modules.siteCatalyst.init(s, scDil, {
 });
 ```
 
-So verfolgen Sie alle überwachten [!DNL Analytics] Datenpunkte ohne die oben dargestellte zusätzliche Funktion aufrufen `siteCatalyst.init` wie folgt:
+So verfolgen Sie alle überwachten [!DNL Analytics] Datenpunkte ohne die oben dargestellte zusätzliche Funktion aufrufen `siteCatalyst.init` an sich wie folgt:
 
 ```
 DIL.modules.siteCatalyst.init(s, scDil);
@@ -234,7 +234,7 @@ r_dil_ga_init.xml
 
 **Unterstützte GA-Funktionsaufrufe**
 
-Standardmäßig `GA.init` erfasst Daten aus den folgenden Funktionen:
+Standardmäßig ist `GA.init` erfasst Daten aus den folgenden Funktionen:
 
 * `_setCustomVar`
 * `_addItem`
@@ -305,7 +305,7 @@ _gaq.push([
 ]); 
 ```
 
-Rufen Sie auf, um alle überwachten GA-Metriken ohne die oben dargestellte zusätzliche Funktion zu verfolgen. `GA.init` wie folgt:
+Rufen Sie auf, um alle überwachten GA-Metriken ohne die oben dargestellte zusätzliche Funktion zu verfolgen. `GA.init` an sich wie folgt:
 
 `DIL.modules.GA.init(_gaq, dilInstance).submit();`
 
@@ -318,6 +318,6 @@ Der URL-Ereignisaufruf an Audience Manager könnte in etwa wie folgt aussehen:
 >[!MORELIKETHIS]
 >
 >* [Google Analytics-Trackingcode](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Vollständige Webaktualisierung: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
+>* [Vollständige Webaktualisierung: ga.js/dc.js zu analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Hinzufügen von analytics.js zu Ihrer Site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [ga-Objektmethoden-Referenz](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)

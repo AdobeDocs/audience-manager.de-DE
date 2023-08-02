@@ -8,7 +8,7 @@ title: Grundlegendes zur Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 10%
@@ -20,36 +20,36 @@ ht-degree: 10%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br>
+>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br>
+>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
 Überblick, erste Schritte und verfügbare Codemethoden in der [!DNL Audience Manager DIL] Code-Bibliothek.
 
 >[!IMPORTANT]
 >
->Ab Version 8.0 (veröffentlicht im August 2018), [!UICONTROL DIL] hat eine starke Abhängigkeit von der [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), Version 3.3 oder höher. Sie beruht auf der [!DNL ID Service] , um ID-Synchronisierungen und URL-Ziele auszulösen. Wenn die Variable [!DNL ID Service] fehlt, alt oder nicht konfiguriert ist.
+>Ab Version 8.0 (veröffentlicht im August 2018), [!UICONTROL DIL] ist stark von der [Adobe Experience Platform Identity-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html), Version 3.3 oder höher. Sie beruht auf der [!DNL ID Service] , um ID-Synchronisierungen und URL-Ziele auszulösen. Wenn die Variable [!DNL ID Service] fehlt, alt oder nicht konfiguriert ist.
 >
 >Es wird empfohlen, [!DNL Adobe Experience Platform Tags] implementieren und verwalten Sie [!DNL DIL] und [!DNL Adobe Experience Platform Identity Service] -Bibliotheken.
 
-Sie können jedoch auch das neueste Experience Cloud herunterladen und [!DNL DIL] von unserer GitHub-Seite veröffentlicht. Siehe Downloadlinks unten:
+Sie können jedoch auch das neueste Experience Cloud und [!DNL DIL] von unserer GitHub-Seite veröffentlicht. Siehe Downloadlinks unten:
 
-* Laden Sie die [Adobe Experience Platform Identity Service](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
-* Download [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
+* Laden Sie die [Adobe Experience Platform Identity-Dienst](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
+* Herunterladen [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
 
 ## Zweck des DIL {#purpose-dil}
 
-[!UICONTROL DIL] ist eine API-Bibliothek. Sie können ihn als Hilfecode für [!DNL Adobe Audience Manager]. Es ist nicht erforderlich, [!DNL Audience Manager], aber die Methoden und Funktionen [!UICONTROL DIL] bietet bedeutet, dass Sie keinen eigenen Code entwickeln müssen, um Daten an [!DNL Audience Manager]. Außerdem [!UICONTROL DIL] unterscheidet sich von der von der [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Dieser Dienst dient der Verwaltung der Besucheridentität über verschiedene [!DNL Experience Cloud] Lösungen. Im Gegensatz dazu [!UICONTROL DIL] ist so konzipiert, dass
+[!UICONTROL DIL] ist eine API-Bibliothek. Sie können ihn als Hilfecode für [!DNL Adobe Audience Manager]. Es ist nicht erforderlich [!DNL Audience Manager], aber die Methoden und Funktionen [!UICONTROL DIL] bietet bedeutet, dass Sie keinen eigenen Code entwickeln müssen, um Daten an [!DNL Audience Manager]. Außerdem [!UICONTROL DIL] unterscheidet sich von der API, die von der [Adobe Experience Platform Identity-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html). Dieser Dienst dient der Verwaltung der Besucheridentität über verschiedene [!DNL Experience Cloud] Lösungen. Im Gegensatz dazu [!UICONTROL DIL] ist so konzipiert, dass
 
 * Ereignisaufrufe durchführen und Daten an die [Datenerfassungsserver](../reference/system-components/components-data-collection.md).
 * Senden von Daten an [Ziele](../features/destinations/destinations.md).
 
 ## Abrufen und Implementieren von DIL-Code {#get-implement-dil-code}
 
-[!UICONTROL DIL] -Code kann heruntergeladen werden **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Beachten Sie, dass ab Version 8.0 (veröffentlicht im August 2018) [!UICONTROL DIL] hat eine starke Abhängigkeit von der [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), Version 3.3 oder höher. Sie beruht auf der [!DNL ID Service] ID-Synchronisierungen auslösen und [!DNL URL destinations]. Wenn die Variable [!DNL ID Service] fehlt, alt oder nicht konfiguriert ist.
+[!UICONTROL DIL] -Code kann heruntergeladen werden **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Beachten Sie, dass ab Version 8.0 (veröffentlicht im August 2018) [!UICONTROL DIL] ist stark von der [Adobe Experience Platform Identity-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html), Version 3.3 oder höher. Sie beruht auf der [!DNL ID Service] ID-Synchronisierungen auslösen und [!DNL URL destinations]. Wenn die Variable [!DNL ID Service] fehlt, alt oder nicht konfiguriert ist.
 
-Anstatt mit [!UICONTROL DIL] und [!DNL Audience Manager] verwenden, empfehlen wir, [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) anstatt. [!DNL Adobe Experience Platform Tags] ist das empfohlene Implementierungstool, da es die Codebereitstellung, -platzierung und -versionsverwaltung vereinfacht. Mehr über [Audience Manager-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) in [!DNL Adobe Experience Platform Tags].
+Anstatt mit [!UICONTROL DIL] und [!DNL Audience Manager] manuell verwenden, empfehlen wir, [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) anstatt. [!DNL Adobe Experience Platform Tags] ist das empfohlene Implementierungstool, da es die Codebereitstellung, -platzierung und -versionsverwaltung vereinfacht. Mehr über [Audience Manager-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) in [!DNL Adobe Experience Platform Tags].
 
 ## Beispielaufruf {#sample-code}
 

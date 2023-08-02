@@ -7,7 +7,7 @@ title: DIL-Anwendungsfälle und Code-Beispiele
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 2%
@@ -19,9 +19,9 @@ ht-degree: 2%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br>
+>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br>
+>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
 Codebeispiele und Beschreibungen für bestimmte DIL-Anwendungsfälle.
@@ -44,7 +44,7 @@ c_dil_send_page_objects.xml
 
 **Beschreibung**
 
-Der folgende Code zeigt, wie Seitendaten erfasst und an den Audience Manager gesendet werden, mit dem [!UICONTROL DIL]. In diesen Beispielen wird eine Variable verwendet, um Datenelemente in einer flachen Liste oder in einem Array zu speichern. Denken Sie daran, Variablen als [Schlüssel-Wert-Paare](../reference/key-value-pairs-explained.md). Beachten Sie außerdem die `c_` -Präfix vor dem -Schlüssel im Schlüssel-Wert-Paar. Diese [erforderliches Präfix](../features/traits/trait-variable-prefixes.md) identifiziert Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie manuell anhängen `c_` zum Schlüssel hinzu. Im zweiten Beispiel [!UICONTROL DIL] führt dies automatisch für Sie durch.
+Der folgende Code zeigt, wie Seitendaten erfasst und an den Audience Manager gesendet werden, mit dem [!UICONTROL DIL]. In diesen Beispielen wird eine Variable verwendet, um Datenelemente in einer flachen Liste oder in einem Array zu speichern. Denken Sie daran, Variablen als [Schlüsselwertpaare](../reference/key-value-pairs-explained.md). Beachten Sie außerdem die `c_` -Präfix vor dem -Schlüssel im Schlüssel-Wert-Paar. Diese [erforderliches Präfix](../features/traits/trait-variable-prefixes.md) identifiziert Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie manuell anhängen `c_` zum Schlüssel hinzu. Im zweiten Beispiel [!UICONTROL DIL] führt dies automatisch für Sie durch.
 
 **Konsistente Werteigenschaften beibehalten**
 
@@ -134,7 +134,7 @@ Senden Sie Informationen zum Suchmaschinentyp und zu Suchbegriffsuchen an Audien
 
 **Unterstützte Suchmaschinen**
 
-Standardmäßig `DIL.getSearchReferrer` erkennt Suchvorgänge aus diesen Suchmaschinen (einschließlich internationaler Varianten):
+Standardmäßig ist `DIL.getSearchReferrer` erkennt Suchvorgänge aus diesen Suchmaschinen (einschließlich internationaler Varianten):
 
 * [!DNL AOL]
 * [!DNL Ask]
@@ -201,7 +201,7 @@ c_dil_map_keys.xml
 
 **Beschreibung**
 
-In einem Schlüssel-Wert-Paar wird die `c_` an den Schlüssel angehängtes Präfix kennzeichnet das Signal als kundendefinierte Daten. Kundendefinierte Daten werden für das Targeting auf der spezifischen Site verwendet, die Daten bei einem Ereignisaufruf übergeben hat. Manchmal möchten Sie diese Informationen jedoch für alle Eigenschaften in Ihrem Audience Manager-Konto verfügbar machen. Zuordnen des Werts zu diesem Zweck `c_` Schlüssel-Wert-Paar zu einem Schlüssel auf Plattformebene. Ein Schlüssel auf Plattformebene ist mit dem Präfix `d_` und stellt das Signal für das Targeting in allen Eigenschaften in Ihrem Konto zur Verfügung.
+In einem Schlüssel-Wert-Paar wird die `c_` an den Schlüssel angehängtes Präfix kennzeichnet das Signal als kundendefinierte Daten. Kundendefinierte Daten werden für das Targeting auf der spezifischen Site verwendet, die Daten bei einem Ereignisaufruf übergeben hat. Manchmal möchten Sie diese Informationen jedoch für alle Eigenschaften in Ihrem Audience Manager-Konto verfügbar machen. Zuordnen des Werts zu diesem Zweck in einer `c_` Schlüssel-Wert-Paar zu einem Schlüssel auf Plattformebene. Ein Schlüssel auf Plattformebene ist mit dem Präfix `d_` und stellt das Signal für das Targeting in allen Eigenschaften in Ihrem Konto zur Verfügung.
 
 Beispiel: Sie erfassen Postleitzahlendaten von einer bestimmten Site, möchten sie jedoch auf alle Eigenschaften Ihres Audience Managers ausrichten. Um die Postleitzahl auf Plattformebene verfügbar zu machen, können Sie Ihren kundendefinierten ZIP-Code-Schlüssel (z. B. `c_zip`) zu einem für die Plattform definierten Schlüssel hinzu, wie unten dargestellt.
 
@@ -240,7 +240,7 @@ Um den Traffic der `dil.js` -Datei in GTM:
 1. Öffnen Sie das Tag, um es zu bearbeiten, und:
 
    * Benennen Sie das Tag.
-   * Auswählen **[!UICONTROL Custom HTML Tag]** von **[!UICONTROL Tag Type]** Dropdown-Liste.
+   * Auswählen **[!UICONTROL Custom HTML Tag]** aus dem **[!UICONTROL Tag Type]** Dropdown-Liste.
    * Platzieren Sie im Feld HTML die [!UICONTROL DIL] Code (Bibliothek und benutzerdefinierter Code) innerhalb von Skript-Tags `<script>DIL code</script>`.
    * Klicken **[!UICONTROL Save]**.
 

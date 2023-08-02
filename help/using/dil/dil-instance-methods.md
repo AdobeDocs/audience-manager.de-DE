@@ -8,7 +8,7 @@ title: DIL-Methoden auf Instanzebene
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 14%
@@ -20,9 +20,9 @@ ht-degree: 14%
 >[!WARNING]
 >
 >Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
-><br>
+>
 >Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
-><br>
+>
 >Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
 
 Die Instanzebene [!UICONTROL DIL] Mit APIs können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die Methoden auf Instanzebene erweitern die API-Funktionalität, die von den Methoden auf Klassenebene festgelegt wird.
@@ -61,7 +61,7 @@ r_dil_signals.xml
 >[!NOTE]
 >
 >* Sie können andere API-Aufrufe an diese Methode ketten.
->* Wenn sich die Adobe Experience Cloud-JavaScript-Bibliothek auf der Seite befindet, `submit()` wartet, bis Cloud ein Cookie setzt, bevor eine Anfrage gesendet wird.
+>* Wenn sich die Adobe Experience Cloud-JavaScript-Bibliothek auf der Seite befindet, `submit()` wartet, bis die Cloud ein Cookie setzt, bevor eine Anforderung gesendet wird.
 
 **Reservierte Anforderungsschlüssel**
 
@@ -338,7 +338,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Gibt den Wert der Container-NSID für die [!UICONTROL DIL] -Instanz. Nützlich für das Debugging und die Fehlerbehebung.
+Gibt den Wert der Container-NSID für die [!UICONTROL DIL] -Instanz. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -362,7 +362,7 @@ var nsid = dataLib.api.getContainerNSID();
 
 ## getEventLog {#geteventlog}
 
-Gibt chronologisch sortierte Ereignisprotokolldaten als Zeichenfolgen-Array zurück. Nützlich für das Debugging und die Fehlerbehebung.
+Gibt chronologisch sortierte Ereignisprotokolldaten als Zeichenfolgen-Array zurück. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -399,7 +399,7 @@ if (log && log.length) {
 
 ## getPartner {#getpartner}
 
-Gibt den Partnernamen für eine [!UICONTROL DIL] -Instanz. Nützlich für das Debugging und die Fehlerbehebung.
+Gibt den Partnernamen für eine [!UICONTROL DIL] -Instanz. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -423,7 +423,7 @@ var partner = dataLib.api.getPartner();
 
 ## getState {#getstate}
 
-Gibt den aktuellen Status aus [!UICONTROL DIL] -Instanz. Nützlich für das Debugging und die Fehlerbehebung.
+Gibt den aktuellen Status aus [!UICONTROL DIL] -Instanz. Nützlich für Debugging und Fehlerbehebung.
 
 <!-- 
 
@@ -640,7 +640,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 
 ## secureDataCollection {#securedatacollection}
 
-`secureDataCollection` ist ein boolescher Parameter, der steuert, wie [!UICONTROL DIL] sendet Aufrufe an die [!UICONTROL Data Collection Servers (DCS)] und Akamai.
+`secureDataCollection` ist ein boolescher Parameter, der steuert, wie [!UICONTROL DIL] ruft die [!UICONTROL Data Collection Servers (DCS)] und Akamai.
 
 <!-- 
 
@@ -675,7 +675,7 @@ dil-use-cors-only.xml
 
 **Überblick**
 
-`useCORSOnly` ist standardmäßig &quot;false&quot;. False bedeutet, dass der Browser Ressourcenprüfungen mit CORS oder JSONP durchführen kann. Allerdings [!UICONTROL DIL] versucht immer zuerst, Ressourcen mit CORS anzufordern. Bei älteren Browsern, die CORS nicht unterstützen, wird auf JSONP zurückgegriffen. Wenn Sie erzwingen müssen, dass der Browser nur CORS verwendet, z. B. bei Sites mit hohen Sicherheitsanforderungen, legen Sie `useCORSOnly:true`.
+`useCORSOnly` ist standardmäßig false. False bedeutet, dass der Browser Ressourcenprüfungen mit CORS oder JSONP durchführen kann. Allerdings [!UICONTROL DIL] versucht immer zuerst, Ressourcen mit CORS anzufordern. Bei älteren Browsern, die CORS nicht unterstützen, wird auf JSONP zurückgegriffen. Wenn Sie erzwingen müssen, dass der Browser nur CORS verwendet, z. B. bei Sites mit hohen Sicherheitsanforderungen, legen Sie `useCORSOnly:true`.
 
 **Code-Beispiel**
 
