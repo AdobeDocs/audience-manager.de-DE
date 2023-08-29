@@ -3,7 +3,7 @@ description: Um Daten von Ihrem eigenen Amazon S3-Behälter an Audience Manager 
 solution: Audience Manager
 title: Nutzen Sie die kontoübergreifenden Bucket-Zugriffsrechte von Amazon S3 für Ihre eingehenden Dateien.
 feature: Inbound Data Transfers
-source-git-commit: ff023fb57e2653ca65323313a37852d379e4b00c
+source-git-commit: 17cee6971ca1d5cda8f272558a46220227fc51f7
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -24,6 +24,6 @@ Gehen Sie dazu wie folgt vor:
 >[!NOTE]
 >
 >Stellen Sie beim Übertragen von eingehenden Daten an den Audience Manager Amazon S3 sicher, dass Sie die `bucket-owner-full-control` [Zugriffssteuerungsliste](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html) damit Audience Manager die Daten korrekt verarbeitet.
-><br>
->Beispiel für den Amazon Web Services-Befehl: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`.
+>
+>Beispiel für den Amazon Web Services-Befehl: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`
 
