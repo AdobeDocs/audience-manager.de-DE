@@ -1,23 +1,28 @@
 ---
 description: Mit den Tools für die Massenverwaltung können Sie mehrere Objekte gleichzeitig mit einem Vorgang erstellen und verwalten. Sie können Massenverwaltungswerkzeuge verwenden, um mit Datenquellen, abgeleiteten Signalen, Zielen, Ordnern, Segmenten und Eigenschaften zu arbeiten.
 keywords: baaam;BAAAM;Download-Baam
-seo-description: Mit den Tools für die Massenverwaltung können Sie mehrere Objekte gleichzeitig mit einem Vorgang erstellen und verwalten. Sie können Massenverwaltungswerkzeuge verwenden, um mit Datenquellen, abgeleiteten Signalen, Zielen, Ordnern, Segmenten und Eigenschaften zu arbeiten.
-seo-title: Erste Schritte mit der Massenverwaltung
+seo-description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
+seo-title: Getting Started With Bulk Management
 solution: Audience Manager
 title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
+source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 4%
+source-wordcount: '705'
+ht-degree: 3%
 
 ---
 
+
 # Erste Schritte mit der Massenverwaltung{#getting-started-with-bulk-management}
 
-Mit dem [!DNL Bulk Management Tools] können Sie mehrere Objekte gleichzeitig in einem Vorgang erstellen und verwalten. Sie können [!DNL Bulk Management Tools] verwenden, um mit [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments] und [!UICONTROL traits] zu arbeiten.
+Die [!DNL Bulk Management Tools] Sie können mehrere Objekte gleichzeitig mit einem Vorgang erstellen und verwalten. Sie können [!DNL Bulk Management Tools] , um [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], und [!UICONTROL traits].
+
+>[!IMPORTANT]
+>
+>Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support durch die Kundenunterstützung werden von Fall zu Fall durchgeführt.
 
 <!-- 
 
@@ -27,35 +32,35 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[In der ](../../features/administration/administration-overview.md) Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen werden in der berücksichtigt  [!DNL Audience Manager]   [!UICONTROL Bulk Management Tools].
+>[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) in der [!DNL Audience Manager] Die Benutzeroberfläche wird im Abschnitt [!UICONTROL Bulk Management Tools].
 
 ## Überblick {#overview}
 
-Diese Funktion verwendet eine [!DNL Microsoft Excel]-Tabelle mit Makros, die sichere, authentifizierte Aufrufe der [!DNL Audience Manager]-APIs durchführen. Die API stellt die Methoden und Dienste bereit, mit denen Sie Änderungen in großen Mengen vornehmen können. Sie müssen nicht wissen, wie Sie Code schreiben oder mit unseren APIs arbeiten können, um sie zu verwenden. Das Arbeitsblatt enthält Spaltenüberschriften und Registerkarten, die bestimmte Massenänderungsfunktionen ausführen. Um Massenänderungen vorzunehmen, fügen Sie nur die vordefinierten Kopfzeilen zu bestimmten Arbeitsblättern hinzu, geben Sie die Informationen an, die Sie stapelweise ändern möchten, und klicken Sie auf eine Aktionsschaltfläche. Das Arbeitsblatt und die APIs erledigen den Rest der Arbeit für Sie.
+Diese Funktion verwendet eine [!DNL Microsoft Excel] Tabelle mit Makros, die sichere, authentifizierte Aufrufe an die [!DNL Audience Manager] APIs. Die API stellt die Methoden und Dienste bereit, mit denen Sie Änderungen in großen Mengen vornehmen können. Sie müssen nicht wissen, wie Sie Code schreiben oder mit unseren APIs arbeiten können, um sie zu verwenden. Das Arbeitsblatt enthält Spaltenüberschriften und Registerkarten, die bestimmte Massenänderungsfunktionen ausführen. Um Massenänderungen vorzunehmen, fügen Sie nur die vordefinierten Kopfzeilen zu bestimmten Arbeitsblättern hinzu, geben Sie die Informationen an, die Sie stapelweise ändern möchten, und klicken Sie auf eine Aktionsschaltfläche. Das Arbeitsblatt und die APIs erledigen den Rest der Arbeit für Sie.
 
 ## Download {#download}
 
-Laden Sie das neueste Arbeitsblatt **[hier](assets/BAAAM_V2_20210609.xlsm)** herunter (zuletzt aktualisiert im Juni 2021).
+Laden Sie das neueste Arbeitsblatt herunter **[here](assets/BAAAM_V2_20210609.xlsm)** (zuletzt aktualisiert im Juni 2021).
 
 ## Voraussetzungen {#prereqs}
 
-Um [!DNL Bulk Management Tools] zu verwenden, benötigen Sie Folgendes:
+So verwenden Sie die [!DNL Bulk Management Tools]benötigen Sie Folgendes:
 
-* Ihre [!DNL Experience Cloud]-Anmeldung. Als Kunde sollten Sie bereits über diese Anmeldedaten verfügen.
-* Das [!DNL Bulk Management Tools]-Arbeitsblatt. [Laden Sie das ](assets/BAAAM_V2_20200502.xlsm) Arbeitsblatt herunter, um die neueste Version zu erhalten.
-* [!DNL Microsoft Excel] auf  [!DNL macOS] oder 64-Bit ausgeführt  [!DNL Microsoft Windows]werden. Es wird empfohlen, die neueste Version von [!DNL Microsoft Excel] zu verwenden.
-* Beim Öffnen des Arbeitsblatts müssen Sie **Makros aktivieren** aktivieren, damit [!DNL Bulk Management Tools] funktioniert.
+* Ihre [!DNL Experience Cloud] anmelden. Als Kunde sollten Sie bereits über diese Anmeldedaten verfügen.
+* Die [!DNL Bulk Management Tools] Arbeitsblatt. [Arbeitsblatt herunterladen](assets/BAAAM_V2_20200502.xlsm) um die neueste Version zu erhalten.
+* [!DNL Microsoft Excel] läuft [!DNL macOS] oder 64 Bit [!DNL Microsoft Windows]. Es wird empfohlen, die neueste Version von [!DNL Microsoft Excel].
+* Beim Öffnen des Arbeitsblatts müssen Sie **Makros aktivieren** für die [!DNL Bulk Management Tools] zu arbeiten.
 
 ## Authentifizierungsanforderungen und -optionen {#auth-reqs}
 
-Massenänderungen erfordern eine Authentifizierung. Bevor Sie eine Aktion durchführen, müssen Sie sich anmelden. Da das Arbeitsblatt API-Aufrufe ausführt, müssen Sie es für die Authentifizierung in Ihrem Benutzerkonto konfigurieren.
+Massenänderungen erfordern eine Authentifizierung. Bevor Sie eine Aktion durchführen, müssen Sie sich anmelden. Da das Arbeitsblatt API-Aufrufe ausführt, müssen Sie es so konfigurieren, dass es sich bei Ihrem Benutzerkonto authentifiziert.
 
 **API-Authentifizierungsanforderungen**
 
-Die zweite Version von [!DNL Bulk Management Tools], die im Oktober 2019 veröffentlicht wurde, vereinfacht den Authentifizierungsprozess. Die Authentifizierungsschritte in dieser Version sind unten beschrieben:
+Die zweite Version der [!DNL Bulk Management Tools], die im Oktober 2019 veröffentlicht wurde, vereinfacht den Authentifizierungsprozess. Die Authentifizierungsschritte in dieser Version sind unten beschrieben:
 
-1. Öffnen Sie die Tabelle und navigieren Sie zum Blatt **[!UICONTROL Config]** .
-2. Befolgen Sie die Schritte, die in der Tabelle beschrieben sind.
+1. Öffnen Sie das Arbeitsblatt und navigieren Sie zum **[!UICONTROL Config]** Blatt.
+2. Befolgen Sie die im Tab beschriebenen Schritte.
    ![](assets/baaam-authentication.png)
 3. Nach Abschluss der Schritte sind Sie berechtigt, Massenänderungen vorzunehmen.
 
@@ -70,13 +75,13 @@ Die Domänenauthentifizierung bietet Ihnen die Möglichkeit, Massenanfragen zu t
 
 ## Aktionen und Vorgänge {#actions-ops}
 
-Das Arbeitsblatt [!UICONTROL Bulk Management Tools] besteht aus Authentifizierungsschaltflächen, Aktionsregisterkarten, Aktionsschaltflächen und einer Registerkarte **[!UICONTROL Headers]** . Die Registerkarte **[!UICONTROL Headers]** enthält die vorformatierten Spaltenüberschriften, die von den Aktionsregisterkarten verwendet werden. Die Aktionsregisterkarten enthalten Makros, die den ausgewählten Massenvorgang durchführen. Um einen Massenvorgang durchzuführen, kopieren Sie eine Reihe von Kopfzeilen in die entsprechende Registerkarte &quot;Aktion&quot;, geben Sie Kopfzeilendaten ein und klicken Sie auf eine Aktionsschaltfläche.
+Die [!UICONTROL Bulk Management Tools] Arbeitsblatt besteht aus Authentifizierungsschaltflächen, Aktionsregisterkarten, Aktionsschaltflächen und einem **[!UICONTROL Headers]** Registerkarte. Die **[!UICONTROL Headers]** -Tab enthält die vorformatierten Spaltenüberschriften, die von den Aktionsregisterkarten verwendet werden. Die Aktionsregisterkarten enthalten Makros, die den ausgewählten Massenvorgang durchführen. Um einen Massenvorgang durchzuführen, kopieren Sie eine Reihe von Kopfzeilen in die entsprechende Registerkarte &quot;Aktion&quot;, geben Sie Kopfzeilendaten ein und klicken Sie auf eine Aktionsschaltfläche.
 
-Klicken Sie nach [authentication](#auth-reqs) auf eine Aktionsschaltfläche, um zu beginnen.
+Nachher [authentifizieren](#auth-reqs)klicken Sie auf eine Aktionsschaltfläche , um zu beginnen.
 
 ![](assets/baaam-worksheet.png)
 
-In der folgenden Tabelle finden Sie die Vorgänge, die Sie ausführen können, sowie Elemente, die Sie mit den Arbeitsblättern [!UICONTROL Bulk Management Tools] bearbeiten können.
+In der folgenden Tabelle sind die Vorgänge aufgeführt, die Sie ausführen können, sowie die Elemente, die Sie mit der [!UICONTROL Bulk Management Tools] Arbeitsblätter.
 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
@@ -95,13 +100,13 @@ In der folgenden Tabelle finden Sie die Vorgänge, die Sie ausführen können, s
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Schätzen </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Löschen </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Die Objekte, die Sie stapelweise ändern können, befinden sich auf der Registerkarte <b><span class="uicontrol"> Headers</span></b> und umfassen: </p> <p> 
+   <td colname="col2"> <p>Die Objekte, die Sie stapelweise ändern können, befinden sich unter der <b><span class="uicontrol"> Kopfzeilen</span></b> und einschließen: </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Datenquellen</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Abgeleitete Signale</a> </li> 
       <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Ziele </a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modelle</a> </li> 
-      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Eigenschaftsordner </a> und Segmentordner </li> 
+      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Eigenschaftsordner</a> und Segmentordner </li> 
       <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmente </a> </li> 
       <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Eigenschaften </a> </li> 
      </ul> </p> </td> 
@@ -113,9 +118,9 @@ In der folgenden Tabelle finden Sie die Vorgänge, die Sie ausführen können, s
 
 Sehen wir uns als Beispiel an, wie mehrere Eigenschaften gleichzeitig erstellt werden. Um mehrere Eigenschaften in einem Massenvorgang zu erstellen, gehen Sie folgendermaßen vor:
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Headers]** und kopieren Sie alle Beschriftungen unter der Option [!UICONTROL Create a Trait] .
-2. Klicken Sie auf die Registerkarte **[!UICONTROL Create]** und fügen Sie die Beschriftungen beginnend in Zeile 1, Spalte A ein.
-3. Geben Sie Informationen zu den einzelnen Spaltenüberschriften an und klicken Sie auf **[!UICONTROL Create Traits]**. Durch diese Aktion werden Sie aufgefordert, Ihre Authentifizierung zu bestätigen. Ihr Massenauftrag wird ausgeführt, nachdem Sie Ihre Authentifizierung bestätigt haben. Überprüfen Sie in der linken unteren Ecke des Arbeitsblatts die Benachrichtigung zum Auftragsstatus.
+1. Klicken Sie auf **[!UICONTROL Headers]** und kopieren Sie alle Beschriftungen unter [!UICONTROL Create a Trait] -Option.
+2. Klicken Sie auf **[!UICONTROL Create]** und fügen Sie die Beschriftungen beginnend mit Zeile 1 Spalte A ein.
+3. Informationen zu den einzelnen Spaltenüberschriften angeben und auf **[!UICONTROL Create Traits]**. Durch diese Aktion werden Sie aufgefordert, Ihre Authentifizierung zu bestätigen. Ihr Massenauftrag wird ausgeführt, nachdem Sie Ihre Authentifizierung bestätigt haben. Überprüfen Sie in der linken unteren Ecke des Arbeitsblatts die Benachrichtigung zum Auftragsstatus.
 
 
 >[!NOTE]

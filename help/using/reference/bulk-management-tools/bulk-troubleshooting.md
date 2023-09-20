@@ -1,24 +1,26 @@
 ---
-description: Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Massenanforderung fehlschlägt.
-seo-description: Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Massenanforderung fehlschlägt.
-seo-title: Tipps zur Fehlerbehebung für die Tools zur Massenverwaltung
+description: Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Massenanfrage fehlschlägt.
+seo-description: What to do when the worksheets return an error or your bulk request fails.
+seo-title: Troubleshooting Tips for Bulk Management Tools
 solution: Audience Manager
 title: Tipps zur Fehlerbehebung für die Tools zur Massenverwaltung
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 5%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
 # Tipps zur Fehlerbehebung für die Tools zur Massenverwaltung{#troubleshooting-tips-for-bulk-management-tools}
 
-Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Massenanforderung fehlschlägt.
+Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Massenanfrage fehlschlägt.
 
-
+>[!IMPORTANT]
+>
+>Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support durch die Kundenunterstützung werden von Fall zu Fall durchgeführt.
 
 <!-- 
 
@@ -28,9 +30,9 @@ Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Mas
 
 >[!NOTE]
 >
->[In der ](../../features/administration/administration-overview.md) Benutzeroberfläche zugewiesene RBAC-Gruppenberechtigungen werden in der berücksichtigt  [!DNL Audience Manager]   [!UICONTROL Bulk Management Tools].
+>[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) in der [!DNL Audience Manager] Die Benutzeroberfläche wird im Abschnitt [!UICONTROL Bulk Management Tools].
 
-Faktoren wie starker Netzwerkverkehr, Servernutzung und große Datensätze können dazu führen, dass eine Massenanforderung fehlschlägt oder eine Zeitüberschreitung auftritt. Wenn ein Problem auftritt, hört das Arbeitsblatt auf, Daten zu schreiben, und zeigt eine Fehlermeldung an. In diesem Fall sollten Sie:
+Faktoren wie starker Netzwerk-Traffic, Servernutzung und große Datensätze können dazu führen, dass eine Massenanforderung fehlschlägt oder eine Zeitüberschreitung auftritt. Wenn ein Problem auftritt, hört das Arbeitsblatt auf, Daten zu schreiben, und zeigt eine Fehlermeldung an. In diesem Fall sollten Sie:
 
 * Lesen Sie die Fehlermeldung.
 * Beheben Sie das Problem.
@@ -59,7 +61,7 @@ In der folgenden Tabelle sind einige häufige Probleme aufgeführt, die bei Mass
    <td colname="col1"> <b>Lange Verzögerungen</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Deaktivieren Sie den Kompatibilitätsmodus</b>: Überprüfen Sie, ob andere Arbeitsblätter im Kompatibilitätsmodus von Microsoft Excel geöffnet sind. Der Kompatibilitätsmodus kann die Laufzeit erhöhen. Schließen Sie alle Tabellen, die Sie in diesem Modus geöffnet haben, und versuchen Sie es erneut mit der Massenanforderung. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Kompatibilitätsmodus deaktivieren</b>: Überprüfen Sie, ob andere Arbeitsblätter im Kompatibilitätsmodus von Microsoft Excel geöffnet sind. Der Kompatibilitätsmodus kann die Laufzeit erhöhen. Schließen Sie alle Tabellen, die Sie in diesem Modus geöffnet haben, und versuchen Sie es erneut mit der Massenanforderung. </li> 
      <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Systemressourcen</b>: Begrenzte Systemressourcen tragen zu langen Verzögerungen bei. Versuchen Sie, alle anderen Programme zu schließen, bevor Sie eine Massenanfrage stellen. </li> 
     </ul> </td> 
   </tr> 
