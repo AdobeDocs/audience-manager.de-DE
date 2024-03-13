@@ -1,17 +1,18 @@
 ---
-description: 'Unten finden Sie eine Übersicht über die Kundenanforderungen, die Sie erfüllen müssen, bevor Sie sich für personenbasierte Ziele registrieren.  '
+description: Unten finden Sie eine Übersicht über die Kundenanforderungen, die Sie erfüllen müssen, bevor Sie sich für personenbasierte Ziele registrieren.
 seo-description: Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.
 seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: Voraussetzungen und Überlegungen
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: cd40e1e3cc2199d1937950934d674cfad301f3e8
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
+
 
 # Voraussetzungen und Überlegungen {#prerequisites-considerations}
 
@@ -27,7 +28,7 @@ Unten finden Sie eine Übersicht über die Kundenanforderungen, die Sie erfülle
 
 [!UICONTROL People-Based Destinations] ist eine Premium-Funktion, mit der Sie Ihr Kundenerlebnis verbessern können, indem Sie Ihre Erstanbieter-Zielgruppensegmente in benutzerbezogenen Umgebungen aktivieren, indem Sie Ihre Zielgruppe mit benutzerdefinierten Angeboten in sozialen Netzwerken oder per E-Mail-Marketing ansprechen.
 
-Wenden Sie sich an Ihren Kundenbetreuer, um von dieser Premium-Funktion profitieren zu können.
+Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um diese Premium-Funktion nutzen zu können.
 
 ## Partnerspezifische Voraussetzungen {#partner-prerequisites}
 
@@ -35,15 +36,17 @@ Wenden Sie sich an Ihren Kundenbetreuer, um von dieser Premium-Funktion profitie
 
 Bevor Sie [!UICONTROL People-Based Destinations] , um Ihre Erstanbieterzielgruppe zu senden [!UICONTROL segments] nach [!DNL Facebook]müssen Sie sicherstellen, dass Sie die folgenden Anforderungen erfüllen:
 
-1. Ihre [!DNL Facebook] Das Benutzerkonto muss über Folgendes verfügen: **Verwalten von Kampagnen** -Berechtigung für das Werbekonto aktiviert wurde, das Sie verwenden möchten.
+1. Ihre [!DNL Facebook] Das Benutzerkonto muss über die **Verwalten von Kampagnen** -Berechtigung für das Anzeigenkonto aktiviert wurde, das Sie verwenden möchten.
 2. Fügen Sie die **Adobe Experience Cloud** Geschäftskonto als Werbepartner in Ihrem [!DNL Facebook Ad Account]. Verwenden Sie `business ID=206617933627973`. Siehe [Partner zu Ihrem Business Manager hinzufügen](https://www.facebook.com/business/help/1717412048538897) für Details.
+
    >[!IMPORTANT]
-   > Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die **Verwalten von Kampagnen** Berechtigung. Dies ist für die Integration von [!UICONTROL People-Based Destinations] erforderlich.
+   >Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die **Verwalten von Kampagnen** -Berechtigung. Dies ist für die Integration von [!UICONTROL People-Based Destinations] erforderlich.
+
 3. Lesen und unterschreiben Sie die [!DNL Facebook Custom Audiences] Nutzungsbedingungen. Gehen Sie dazu zu `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, wobei `accountID` Ihre [!DNL Facebook Ad Account ID] ist.
 
 ### [!DNL LinkedIn] {#linkedin}
 
-Bevor Sie [!UICONTROL People-Based Destinations] , um Ihre Erstanbieter-Zielgruppensegmente an zu senden. [!DNL LinkedIn], stellen Sie sicher, dass [!DNL LinkedIn Campaign Manager] -Konto hat [!DNL Creative Manager] oder einer höheren Berechtigungsebene.
+Bevor Sie [!UICONTROL People-Based Destinations] , um Ihre Erstanbieter-Zielgruppensegmente an zu senden [!DNL LinkedIn], stellen Sie sicher, dass [!DNL LinkedIn Campaign Manager] -Konto hat die [!DNL Creative Manager] oder einer höheren Berechtigungsebene.
 
 Informationen zum Bearbeiten Ihrer [!DNL LinkedIn Campaign Manager] Benutzerberechtigungen, siehe [Hinzufügen, Bearbeiten und Entfernen von Benutzerberechtigungen für Werbekonten](https://www.linkedin.com/help/lms/answer/5753) in der LinkedIn-Dokumentation.
 
@@ -59,9 +62,17 @@ Kunden mit kompatiblen Konten werden von Google automatisch auf die Zulassungsli
 
 ## Datenintegration {#data-onboarding}
 
-Datenerfassung für [!UICONTROL People-Based Destinations] unterstützt derzeit bis zu 10 Hash-E-Mail-Adressen, die mit einer Kunden-ID verknüpft sind ([!DNL CRM ID]), pro Batch-Übertragung. Das Hochladen von mehr als 10 Hash-E-Mail-Adressen, die mit einer Kunden-ID verknüpft sind, führt dazu, dass der Audience Manager 10 davon in beliebiger Reihenfolge aufnimmt.
+>[!IMPORTANT]
+>
+>Alle Audience Manager-Kunden können Hash-E-Mails erfassen, ohne sich für [!UICONTROL People-Based Destinations].
 
-Durch das Hochladen von mehr als 10 Hash-E-Mail-Adressen, die mit einer Kunden-ID verknüpft sind, bei mehreren Batch-Übertragungen behält der Audience Manager die letzten 10 hinzugefügten E-Mail-Adressen bei.
+Datenerfassung für [!UICONTROL People-Based Destinations] unterstützt derzeit bis zu 10 Hash-E-Mail-Adressen, die mit einer Kunden-ID verknüpft sind ([!DNL CRM ID]), pro Batch-Übertragung.
+
+Durch das Hochladen von mehr als 10 Hash-E-Mail-Adressen, die mit einer Kunden-ID verknüpft sind, bei mehreren Batch-Übertragungen behält der Audience Manager die letzten zehn hinzugefügten E-Mail-Adressen bei.
+
+Erfassen von Hash-Kennungen, [eine geräteübergreifende Datenquelle für Hash-Kennungen erstellen](../create-data-source-hashed-emails.md) und aktivieren Sie die **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** -Option.
+
+![Audience Manager-UI-Bild, das die Option zum Freigeben verknüpfter geräteübergreifender IDs in benutzerbezogenen Zielen und/oder Hash-E-Mail-Workflows anzeigt](assets/data-source-share-ids.png)
 
 ## Datenschutz {#data-privacy}
 
@@ -77,7 +88,7 @@ Hashing ist eine unidirektionale Funktion, die die Eingabe verwirft, um ein eind
 
 Achten Sie beim Hashing der E-Mail-Adressen auf die folgenden Anforderungen:
 
-* Entfernen Sie alle Leerzeichen am Anfang und am Ende der E-Mail-Zeichenfolge. Beispiel: `johndoe@example.com`, nicht `<space>johndoe@example.com<space>`;
+* Entfernen Sie alle führenden und nachfolgenden Leerzeichen aus der E-Mail-Zeichenfolge. Beispiel: `johndoe@example.com`, nicht `<space>johndoe@example.com<space>`;
 * Achten Sie beim Hashing der E-Mail-Zeichenfolgen darauf, die Zeichenfolge in Kleinbuchstaben zu hash;
    * Beispiel: `example@email.com`, nicht `EXAMPLE@EMAIL.COM`;
 * Stellen Sie sicher, dass der Hash-String nur in Kleinbuchstaben geschrieben wird.
