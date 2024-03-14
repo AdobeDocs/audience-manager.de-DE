@@ -3,7 +3,7 @@ title: Datenquelle für Hash-E-Mail-Workflows konfigurieren
 description: Erfahren Sie, wie Sie eine Datenquelle zum Speichern von Hash-E-Mails für Hash-E-Mail-Workflows erstellen.
 solution: Audience Manager
 feature: Data Sources
-source-git-commit: 903c2602f759e0d507e45f1db4cbc880a599c32e
+source-git-commit: b88f180808ec9723a2a5324441733f6383f6302d
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -29,4 +29,5 @@ Gehen Sie wie folgt vor, um eine Datenquelle für Hash-E-Mails zu erstellen und 
    >Diese Option bezeichnet die Datenquelle nur als die mit diesem spezifischen Algorithmus gehashten Daten. In diesem Schritt werden die Daten von Audience Manager nicht gehasht. Stellen Sie sicher, dass die E-Mail-Adressen, die Sie in dieser Datenquelle speichern möchten, bereits mit dem Hash der [!DNL SHA256] -Algorithmus. Andernfalls können Sie sie nicht für Hash-E-Mail-Workflows verwenden.
 
    ![Audience Manager-UI-Bild, das den Abschnitt mit den Datenquelleneinstellungen anzeigt.](../features/assets/data-source-settings.png)
+
 
