@@ -1,7 +1,7 @@
 ---
 title: Migration von der Audience Manager-Tag-Erweiterung zur Web SDK-Tag-Erweiterung
 description: Machen Sie sich mit den Schritten zum Aktualisieren Ihrer Datenerfassungsbibliothek für Audience Manager von der Audience Manager-Tag-Erweiterung zur Web SDK-Tag-Erweiterung vertraut.
-source-git-commit: 1cf6a80bd5b7f583ea2511becf415b430ce2889e
+source-git-commit: c80f39c4001d2bcfa94012b9f4ffa720806487d4
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -153,3 +153,4 @@ Sobald Ihre Tag-Implementierung vollständig in das Web SDK migriert ist, könne
 +++
 
 An dieser Stelle ist Ihre Audience Manager-Implementierung vollständig auf das Web SDK migriert und bereit, in Zukunft zu Real-Time CDP zu wechseln.
+
