@@ -10,8 +10,8 @@ feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 82%
+source-wordcount: '1583'
+ht-degree: 81%
 
 ---
 
@@ -31,7 +31,7 @@ Ein Gerätediagramm ist ein Satz von ID-Zuordnungen, der Gruppen anonymer Gerät
 
 **Was ist ein externes Gerätediagramm?**
 
-Ein externes Gerätediagramm ist ein Gerätediagramm in [!DNL Audience Manager], das nicht ausschließlich aus Ihren eigenen geräteübergreifenden Datenquellen erstellt wurde. Wenn Sie beispielsweise eine [Profilzusammenführungsrichtlinie](../features/profile-merge-rules/merge-rules-start.md) und wählen Sie die Gerätediagrammoptionen eines Drittanbieters aus. Sie arbeiten mit einem externen Gerätediagramm. Siehe [Geräteoptionen](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Ein externes Gerätediagramm ist ein Gerätediagramm in [!DNL Audience Manager], das nicht ausschließlich aus Ihren eigenen geräteübergreifenden Datenquellen erstellt wurde. Wenn Sie beispielsweise eine [Profilzusammenführungsrichtlinie](../features/profile-merge-rules/merge-rules-start.md) erstellen und die Gerätediagrammoptionen von Drittanbietern auswählen, arbeiten Sie mit einem externen Gerätediagramm. Siehe [Geräteoptionen](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
@@ -259,13 +259,13 @@ Ja. Die Populationsmetrik für das gesamte Segment umfasst die zusätzlichen Ger
 
 Nein.
 
-**Warum sehe ich nach dem 16. März 2020 für Segmentexporte nach Adobe Campaign eine Segmentpopulation von null?**
+**Warum sehe ich nach dem 16. März 2020 keine Segmentpopulation mehr für Segmentexporte nach Adobe Campaign?**
 
 Ende 2019 haben wir eine Reihe von Verbesserungen der Profilzusammenführungsrichtlinien veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 strikt berücksichtigt. Folglich produzieren Segmente, die mit geräteübergreifenden IDs einem Ziel zugeordnet sind, in einigen Konfigurationen der Profilzusammenführungsrichtlinien keine Exporte mehr.
 
 Um die korrekte Integration zwischen Ihrer Audience Manager-Instanz und Zielen mithilfe geräteübergreifender IDs wie Adobe Campaign sicherzustellen, stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen:
 
-1. Überprüfen Sie die Profilzusammenführungsrichtlinie , die von den Segmenten verwendet wird, die Ihrem Adobe Campaign Declared ID-Ziel zugeordnet sind. Die Profilzusammenführungsrichtlinie muss die [!UICONTROL Last Authenticated Profile] -Option, sodass alle authentifizierten Profile in die Exporte einbezogen werden können. Wenn Ihre Profilzusammenführungsrichtlinie eine andere Option verwendet, wechseln Sie zu [!UICONTROL Last Authenticated Profile].
+1. Überprüfen Sie die Profilzusammenführungsrichtlinie , die von den Segmenten verwendet wird, die Ihrem Adobe Campaign Declared ID-Ziel zugeordnet sind. Die Profilzusammenführungsrichtlinie muss die Option [!UICONTROL Last Authenticated Profile] verwenden, damit alle authentifizierten Profile in die Exporte einbezogen werden können. Wenn Ihre Profilzusammenführungsrichtlinie eine andere Option verwendet, wechseln Sie zu [!UICONTROL Last Authenticated Profile].
 2. Wählen Sie die Datenquelle Adobe Campaign Declared ID in den Profilzusammenführungsregeleinstellungen aus.
 
 >[!NOTE]
@@ -275,4 +275,3 @@ Um die korrekte Integration zwischen Ihrer Audience Manager-Instanz und Zielen m
 >[!MORELIKETHIS]
 >
 >* [Profil-Link](../features/profile-merge-rules/profile-link-use-case.md)
-

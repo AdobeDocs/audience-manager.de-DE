@@ -10,8 +10,8 @@ feature: Reference
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 source-git-commit: fce39268f1c8c4dd1b7ff21b61a9830a20fa0b4e
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 3%
+source-wordcount: '362'
+ht-degree: 2%
 
 ---
 
@@ -29,13 +29,13 @@ Die Beta-Umgebung wird am Ende jedes Monats außerhalb der Spitzenzeiten aktuali
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass Ihre Kundendaten ([Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) wird nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert.
+>Beachten Sie, dass Ihre Kundendaten ([Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert werden.
 
 ## Eingehender Traffic
 
 Die Beta-Umgebung unterstützt eingehenden Traffic nur für die Validierung von Dateinamen und Inhaltssyntax. Da in der Beta-Umgebung keine ID-Zuordnung erfolgt, werden den Kunden keine Segmentpopulationen angezeigt.
 
-Folglich [!UICONTROL Onboarding Status] Seite wird immer [!UICONTROL No matching AAM ID] bei der Dateiaufnahme in der Beta-Umgebung.
+Folglich meldet die Seite [!UICONTROL Onboarding Status] bei der Dateiaufnahme in der Beta-Umgebung immer [!UICONTROL No matching AAM ID].
 
 Wir empfehlen allen Kunden, eingehende Tests in ihrer Produktionsumgebung durchzuführen.
 
@@ -45,16 +45,16 @@ Ausgehender Traffic ist nicht für die Beta-Umgebung aktiviert.
 
 ## Endpunkte
 
-| Diensleistung | URL/Hostname | Erhalten des Zugriffs |
+| Dienst | URL/Hostname | Erhalten von Zugriff |
 |--- |--- | --- |
-| S3 | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter oder an die Kundenunterstützung | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter oder an die Kundenunterstützung, um einen Amazon S3-Behälter für Ihre Beta-Instanz einzurichten. Lesen Sie über [Vorteile der Verwendung von Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Siehe [Zugriff auf den DCS in der Beta-Umgebung](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter oder an die Kundenunterstützung | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter oder an die Kundenunterstützung, um einen Amazon S3-Bucket für Ihre Beta-Instanz einzurichten. Erfahren Sie mehr über die [Vorteile der Verwendung von Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Siehe [Zugreifen auf den DCS in der Beta-Umgebung](../reference/beta-environment.md#access-dcs-beta-environment). |
 | Benutzeroberfläche | `https://bank-beta.demdex.com` | Ihre Anmeldeinformationen für die Produktionsumgebung sind für die Beta-Umgebung gültig. |
-| API | `https://api-beta.demdex.com/...` | Ihre Anmeldeinformationen für die Produktionsumgebung sind für die Beta-Umgebung gültig. Es wird empfohlen, einen generischen API-Benutzer zu erstellen. [Siehe Details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Ihre Anmeldeinformationen für die Produktionsumgebung sind für die Beta-Umgebung gültig. Es wird empfohlen, einen generischen API-Benutzer zu erstellen, [siehe Details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Zugriff auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
-1. Führen Sie einen DCS-Aufruf mithilfe der curl aus. [command](https://curl.haxx.se/docs/manpage.html). Curl ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
+1. Führen Sie einen DCS-Aufruf mit dem curl [command](https://curl.haxx.se/docs/manpage.html) durch. Curl ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
 
    Beispiel:
 

@@ -10,8 +10,8 @@ feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 80%
+source-wordcount: '1211'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Eigenschaften, die über [!UICONTROL Inbound] integriert wurden, werden von [!UI
 * DomainID wird auf 5325 gesetzt
 * Region wird auf 0 gesetzt
 
-<br> 
+<br>
 
 **Können Sie mir eine Liste von IP-Adressen zur Verfügung stellen, die ich zu einer Zulassungsliste für dpm.demdex.net hinzufügen kann?**
 
@@ -37,14 +37,14 @@ Leider ist das nicht möglich. Diese IPs werden dynamisch nach geografischen Reg
 
  
 
-**Können Sie mir eine IP-Adresse zur Verfügung stellen, die ich zu einer Zulassungsliste für Ihren eingehenden und ausgehenden SFTP-Server hinzufügen kann?**
+**Können Sie mir eine IP-Adresse zur Verfügung stellen, die ich einer Zulassungsliste für Ihren eingehenden und ausgehenden SFTP-Server hinzufügen kann?**
 
 Ja, siehe unten.
 
 | Server | IP-Adressen |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119 3 233 68 222 |
-| ftp-out-gtw.demdex.com | 23 22 232 252 18 211 109 184 |
+| ftp-in-gtw.demdex.com | 52 3 74 119; 3 233 68 222 |
+| ftp-out-gtw.demdex.com | 23 22 232 252; 18 211 109 184 |
 
  
 
@@ -59,13 +59,13 @@ Die folgenden SFTP-Server werden nicht mehr unterstützt. Mit diesen Servern wer
 
 **Wie konfiguriere ich meine Audience Manager-Instanz für die Verwendung der neuen SFTP-Server?**
 
-Wenden Sie sich an [!DNL Audience Manager] Berater oder Kundenunterstützung erstellen und konfigurieren Ihre neuen SFTP-Konten.
+Wenden Sie sich an Ihren [!DNL Audience Manager] -Berater oder die Kundenunterstützung, um Ihre neuen SFTP-Konten zu konfigurieren.
 
  
 
 **Welche Authentifizierungsmethoden werden für die neuen SFTP-Server unterstützt?**
 
-Die neuen SFTP-Server (`ftp-in-gtw` und `ftp-out-gtw`) Support [!DNL OpenSSH Key-Based Authentication]. Wir können [!DNL SSH] Schlüssel für Sie, oder Sie können uns Ihren eigenen öffentlichen Schlüssel zur Verfügung stellen.
+Die neuen SFTP-Server (`ftp-in-gtw` und `ftp-out-gtw`) unterstützen [!DNL OpenSSH Key-Based Authentication]. Wir können die [!DNL SSH] Schlüssel für Sie generieren oder Sie können uns Ihren eigenen öffentlichen Schlüssel zur Verfügung stellen.
 
  
 
@@ -83,7 +83,7 @@ Richten Sie Ihre [!DNL Audience Manager]-[!DNL Analytics]-Integration mit einer 
 
 * Platzieren Sie [!UICONTROL DIL] direkt in den `s_code`.
 
-* Serve [!UICONTROL DIL] und `s_code` bis [!DNL Adobe Experience Platform Tags].
+* Serve [!UICONTROL DIL] und die `s_code` bis [!DNL Adobe Experience Platform Tags].
 
 Siehe [Data Integration Library (DIL)-API](../dil/dil-overview.md).
 
@@ -114,7 +114,7 @@ Dieser Kunde verwendet [!DNL AppMeasurement] Version 3.5.2:
 https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 ```
 
-<br> 
+<br>
 
 **Kann ich Seitendaten erfassen, wenn ich kein [!DNL Analytics]-Kunde bin?**
 
@@ -127,7 +127,7 @@ Ja. Mit dem [!UICONTROL DIL]-Modul können Sie Seitendaten erfassen, auch wenn S
 
 Darüber hinaus können Clients ein einfaches On-site-Objekt bereitstellen und es mit Schlüssel-Wert-Paaren füllen, für die [!UICONTROL DIL] Daten erfassen soll. Auf diese Weise können Sie bestimmte Zielgruppendatenpunkte auf Ihrer Site hinzufügen und entfernen, ohne dass [!DNL Audience Management]t-Updates erforderlich sind. Arbeiten Sie mit Ihrem Partner Solutions-Support-Mitarbeiter zusammen, um dies ordnungsgemäß einzurichten und sicherzustellen, dass das [!DNL DIL]-Modul das Seitenobjekt korrekt referenziert.
 
-<br> 
+<br>
 
 **Kann [!UICONTROL DIL] Daten von [!DNL Google Analytics] erfassen?**
 
@@ -136,7 +136,7 @@ Ja. [!UICONTROL DIL] kann einige [!DNL Google Analytics] (GA)-Elemente erfassen 
 * [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)
 * [GA.init](../dil/dil-modules.md#ga-init)
 
-<br> 
+<br>
 
 **Kann ich Rohdaten von [!DNL Audience Manager] abrufen und wie detailliert sind sie?**
 
@@ -148,37 +148,37 @@ Ja, [!DNL Audience Manager] kann Ihnen Daten zur Verfügung stellen, die für Be
 * Zeitstempel
 * Seiten-URLs
 
-<br> 
+<br>
 
-**[!DNL Google Ad Manager]Ich möchte Daten auf einer Site erfassen und Benutzer über auf einer anderen Site ansprechen. Muss ich Code für die andere Eigenschaft bereitstellen, wenn ich keine Daten von dieser Site erfassen möchte?**
+**Ich möchte Daten auf einer Site erfassen und Benutzer über [!DNL Google Ad Manager] auf einer anderen Site ansprechen. Muss ich Code für die andere Eigenschaft bereitstellen, wenn ich keine Daten von dieser Site erfassen möchte?**
 
-Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. Solange Sie Zugriff auf den Bestand auf der zweiten Site haben, über [!DNL Google Ad Manager], können Sie die Datenerfassung von der ursprünglichen Site verwenden und die Zielgruppe über [!DNL Google Ad Manager].
+Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. Solange Sie über [!DNL Google Ad Manager] Zugriff auf den Bestand auf der zweiten Site haben, können Sie die Datenerfassung von der ursprünglichen Site und das Ziel über [!DNL Google Ad Manager] verwenden.
 
-<br> 
+<br>
 
 **Was ist der beste Drittanbieter von Daten?**
 
 Jeder Anbieter bringt etwas Einzigartiges mit, daher hängt die Antwort davon ab, wonach Sie suchen. Wir können Überlagerungsberichte (kostenlos) aktivieren, um Ihnen bei der Entscheidung zu helfen, welcher Anbieter für Sie am besten geeignet ist.
 
-<br> 
+<br>
 
-**Wie setzt [!DNL Audience Manager] Cookies und übergibt Variablen an [!DNL Google Ad Manager]?**
+**Wie setzt [!DNL Audience Manager] Cookies und übergibt Variablen an [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] setzt 2 Cookies: Segmentvariablen werden an die [!DNL Google Ad Manager] Anzeigen-Tag und das andere legen unsere Unique User-ID (UUID) fest, die auch von gelesen wird. [!DNL Google Ad Manager]. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
+[!DNL Audience Manager] setzt 2 Cookies: Das eine sendet Segmentvariablen an das Anzeigen-Tag [!DNL Google Ad Manager] und das andere setzt unsere Unique User ID (UUID), die auch von [!DNL Google Ad Manager] gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
 
-<br> 
+<br>
 
 **Können wir einer DSP Information über Punkte im Konversionstrichter senden, die ein Benutzer erreicht hat?**
 
 Ja. Wir können Trichterdaten senden, aber die DSP muss über technisch in der Lage sein, diese zu verwenden. Eine DSP muss bestätigen, dass sie mehrere Segmente verarbeiten kann. Wenn dies nicht möglich ist, müssen wir möglicherweise spezifische Segmente erstellen, um einen Benutzer anhand seines Konversionsfortschritts aus anderen Segmenten zu entfernen (z. B. Schritte 1 und 2 abgeschlossen, aber nicht Schritt 3). Möglicherweise möchten Sie diese Informationen an eine DSP senden, damit diese Benutzer zielgerichtet ansprechen, zu einer bestimmten Landingpage weiterleiten oder bestimmte kreative Inhalte anzeigen kann.
 
-<br> 
+<br>
 
 **Wie kann ich bestätigen, dass über FTP gesendete Daten von [!DNL Audience Manager] erfasst wurden?**
 
 Eine Datei wurde erfasst, wenn sich die Erweiterung von `.sync` in `.processed` ändert. In diesem Fall befindet sich die Datei in der Erfassungswarteschlange. Außerdem kann Ihr Kundenbetreuer bestätigen, wann eine Datei hochgeladen wurde.
 
-<br> 
+<br>
 
 **Ich möchte die Funktionalität der [DCS-API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md) testen. Ich sende Ereignisaufrufe wie den unten gezeigten. Die Aufrufe enthalten [deklarierte IDs](../features/declared-ids.md) und Signale, die einige Eigenschaften und Segmente realisieren sollten, die ich bereits eingerichtet habe. Kann ich die [!UICONTROL General Reports] und [!UICONTROL Trend Reports] verwenden, um zu überprüfen, ob die Eigenschafts- und Segmentpopulationen zunehmen?**
 
@@ -200,7 +200,7 @@ Aus diesem Grund spiegeln die Berichte nicht die Ereignisse wider, die durch die
 
 Weitere Informationen finden Sie unter [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+<br>
 
 **Wie lange dauert die [regionsübergreifende](../api/dcs-intro/dcs-api-reference/dcs-regions.md) Synchronisierung von Benutzerprofilen?**
 
@@ -210,6 +210,6 @@ Die regionsübergreifende Synchronisierung eines Profils dauert in der Regel bis
 
 **Was passiert mit inaktiven Amazon S3-Benutzerzugriffsschlüsseln?**
 
-Adobe bietet Audience Manager Benutzerzugriffsschlüssel für den Audience Manager [!DNL Amazon S3] Behälter. Aus Sicherheitsgründen werden die Schlüssel nach 100 Tagen Inaktivität automatisch deaktiviert.
+Adobe stellt Audience Manager Benutzerzugriffsschlüssel für die Audience Manager [!DNL Amazon S3] -Buckets zur Verfügung. Aus Sicherheitsgründen werden die Schlüssel nach 100 Tagen Inaktivität automatisch deaktiviert.
 
 Wenden Sie sich an den Support, um Ihre Zugriffsschlüssel erneut zu aktivieren oder neue anzufordern.

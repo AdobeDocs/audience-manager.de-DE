@@ -1,21 +1,21 @@
 ---
 description: Auf der Landingpage Ziel werden alle URL-, Cookie- und Server-zu-Server-Ziele aufgelistet. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte zu Zielen erstellen können. Die Landingpage befindet sich unter Zielgruppendaten > Ziele .
-seo-description: Auf der Landingpage Ziel werden alle URL-, Cookie- und Server-zu-Server-Ziele aufgelistet. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte zu Zielen erstellen können. Die Landingpage befindet sich unter Zielgruppendaten > Ziele .
-seo-title: Ziele verwalten
+seo-description: The Destination landing page lists all of your URL, cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in Audience Data > Destinations.
+seo-title: Manage Destinations
 solution: Audience Manager
 title: Ziele verwalten
-feature: Zielgrundlagen
+feature: Destination Basics
 exl-id: 367bad0f-d7d6-4dd5-9717-85ac6eda47ab
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 1%
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
-# Ziele-Homepage {#destinations-home}
+# Ziele-Startseite {#destinations-home}
 
-Auf der Landingpage [!UICONTROL Destination] werden all Ihre [!DNL URL]-, Cookie- und Server-zu-Server-Ziele aufgelistet. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte zu Zielen erstellen können. Die Landingpage befindet sich unter **[!UICONTROL Audience Data > Destinations]**.
+Auf der Landingpage [!UICONTROL Destination] werden alle Ihre Ziele [!DNL URL], Cookies und Server-zu-Server aufgelistet. Es bietet Funktionen, mit denen Sie Ziele erstellen, bearbeiten, suchen und Berichte zu Zielen erstellen können. Die Landingpage befindet sich in **[!UICONTROL Audience Data > Destinations]**.
 
 ## Standard-Landingpage {#default-landing-page}
 
@@ -23,10 +23,10 @@ Auf der Landingpage [!UICONTROL Destination] werden all Ihre [!DNL URL]-, Cookie
 
 Auf der Standard-Landingpage werden Ihre Ziele nach Typ aufgelistet. Sie können die Ziele mithilfe der vier verfügbaren Registerkarten filtern:
 
-* **Alle**: zeigt alle Zieltypen an.
-* **Adobe Experience Cloud**: zeigt Ziele an, die Daten an andere Adobe Experience Cloud-Lösungen senden. Derzeit wird nur Adobe Analytics unterstützt. Siehe [Konfigurieren eines Analytics-Ziels](/help/using/features/destinations/create-analytics-destination.md).
-* **Integrierte Plattformen**: zeigt benutzerbasierte und gerätebasierte Ziele (auch Server-zu-Server-Ziele genannt) an.
-* **Benutzerdefiniert**: zeigt Cookie- und URL-Ziele an.
+* **Alle**: zeigt alle Typen von Zielen an.
+* **Adobe Experience Cloud**: Zeigt Ziele an, die Daten an andere Adobe Experience Cloud-Lösungen senden. Derzeit wird nur Adobe Analytics unterstützt. Siehe [Konfigurieren eines Analytics-Ziels](/help/using/features/destinations/create-analytics-destination.md).
+* **Integrierte Plattformen**: Zeigt benutzerbasierte und gerätebasierte Ziele (auch Server-zu-Server-Ziele genannt) an.
+* **Benutzerdefiniert**: Zeigt Cookie- und URL-Ziele an.
 
 
 ![](assets/destinations-landing.png)

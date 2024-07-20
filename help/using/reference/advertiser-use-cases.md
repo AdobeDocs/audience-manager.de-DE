@@ -1,15 +1,15 @@
 ---
 description: Hier finden Sie einige gängige Anforderungen von Advertisern, die von Adobe Audience Manager erfüllt werden.
-seo-description: Hier finden Sie einige gängige Anforderungen von Advertisern, die von Adobe Audience Manager erfüllt werden.
-seo-title: Anwendungsfälle für Advertiser
+seo-description: A look at some common advertiser needs met by Adobe Audience Manager.
+seo-title: Advertiser Use Cases
 solution: Audience Manager
 title: Anwendungsfälle für Advertiser
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
-feature: 'Referenz '
+feature: Reference
 exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '724'
 ht-degree: 100%
 
 ---

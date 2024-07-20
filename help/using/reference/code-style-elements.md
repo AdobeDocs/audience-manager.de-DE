@@ -1,16 +1,16 @@
 ---
 description: Diese Elemente identifizieren Codeoptionen und Variablen, die in der gesamten Hilfedokumentation verwendet werden. Im Allgemeinen würden Sie diese Symbole oder Stilelemente nicht in Ihren Code- oder Datendateien einschließen. Sie sind nur visuelle Indikatoren.
-seo-description: Diese Elemente identifizieren Codeoptionen und Variablen, die in der gesamten Hilfedokumentation verwendet werden. Im Allgemeinen würden Sie diese Symbole oder Stilelemente nicht in Ihren Code- oder Datendateien einschließen. Sie sind nur visuelle Indikatoren.
-seo-title: Stilkonventionen für Code- und Textelemente
+seo-description: These elements identify code options and variables used throughout the help documentation. Generally, you would not include these symbols or style elements in your code or data files. They're visual indicators only.
+seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
 title: Stilkonventionen für Code- und Textelemente
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-feature: 'Referenz '
+feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 10%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Diese Elemente identifizieren Codeoptionen und Variablen, die in der gesamten Hi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>Variablen werden in <i>kursiv</i> angezeigt. Ersetzen Sie den entsprechenden Wert für den Variablennamen. </p> <p>Für visuelle Klarheit werden manchmal Variablen und andere Code-Elemente zwischen &lt; &gt; Klammern angezeigt. Sie müssen diese Symbole nicht in Ihrem Code verwenden. </p> </td> 
+   <td colname="col2"> <p>Variablen werden in <i>kursiv</i> angezeigt. Ersetzen Sie den entsprechenden Wert für den Variablennamen. </p> <p>Aus Gründen der visuellen Klarheit werden manchmal Variablen und andere Code-Elemente zwischen &lt; &gt; Klammern angezeigt. Sie müssen diese Symbole nicht in Ihrem Code verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 

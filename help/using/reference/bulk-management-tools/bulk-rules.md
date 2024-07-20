@@ -9,8 +9,8 @@ feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 8%
+source-wordcount: '343'
+ht-degree: 1%
 
 ---
 
@@ -30,35 +30,35 @@ Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren einen traitRule 
 
 >[!NOTE]
 >
->[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) in der [!DNL Audience Manager] Die Benutzeroberfläche wird im Abschnitt [!UICONTROL Bulk Management Tools].
+>[In der Benutzeroberfläche von [!DNL Audience Manager] zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
 
 ## Arbeiten mit Eigenschaftsregeln {#trait-rules}
 
-In Ihrem Arbeitsblatt gibt die Spalte mit den Eigenschaftsregeln Regeln zurück und akzeptiert Regeln, die aus booleschen Ausdrücken, Vergleichsoperatoren und regulären Ausdrücken bestehen. Sie können Regeln mit Eigenschaften- oder Segment-Builder in [!DNL Audience Manager] und kopieren Sie sie in das Arbeitsblatt. Oder wenn Sie mit der Regelsyntax vertraut sind, können Sie Ausdrücke direkt in die Arbeitsblätter schreiben.
+In Ihrem Arbeitsblatt gibt die Spalte mit den Eigenschaftsregeln Regeln zurück und akzeptiert Regeln, die aus booleschen Ausdrücken, Vergleichsoperatoren und regulären Ausdrücken bestehen. Sie können Regeln mit Eigenschaften- oder Segment-Builder in [!DNL Audience Manager] erstellen und sie in Ihr Arbeitsblatt kopieren. Oder wenn Sie mit der Regelsyntax vertraut sind, können Sie Ausdrücke direkt in die Arbeitsblätter schreiben.
 
 ## Beispiel für Rule Builder {#rule-builder-example}
 
-Sehen wir uns ein Beispiel an, das zeigt, wie [!UICONTROL Segment Builder] , um eine Regel zu erstellen, die Sie zum Bulk-Arbeitsblatt hinzufügen können. Dies ist jedoch keine schrittweise Anleitung für diese Tools. Stattdessen beginnen wir mit einer einfachen Regel, die bereits erstellt wurde. Anweisungen zur Verwendung der Regel-Builder finden Sie unter [Segment Builder](../../features/segments/segment-builder.md) und [Trait Builder](../../features/traits/about-trait-builder.md).
+Sehen wir uns ein Beispiel an, das zeigt, wie Sie mit [!UICONTROL Segment Builder] eine Regel erstellen können, die Sie zum Massenarbeitsblatt hinzufügen können. Dies ist jedoch keine schrittweise Anleitung für diese Tools. Stattdessen beginnen wir mit einer einfachen Regel, die bereits erstellt wurde. Anweisungen zur Verwendung der Regel-Builder finden Sie unter [Segment Builder](../../features/segments/segment-builder.md) und [Trait Builder](../../features/traits/about-trait-builder.md).
 
-Mit dem visuellen Regel-Builder haben wir eine Segmentregel mit 3 Eigenschaften und einer booleschen [!UICONTROL AND] Operator.
+Mit dem visuellen Regel-Builder haben wir eine Segmentregel mit 3 Eigenschaften und einem booleschen [!UICONTROL AND] -Operator erstellt.
 
 ![](assets/visualrule.png)
 
-Klicks **[!UICONTROL Code View]** , um die Textversion dieser Regel zu erhalten.
+Klicken Sie auf **[!UICONTROL Code View]** , um die Textversion dieser Regel abzurufen.
 
 >[!TIP]
 >
->Klicks **[!UICONTROL Validate Expression]** , um Ihre Regellogik zu überprüfen. Dadurch wird verhindert, dass Sie eine ungültige Regel hochladen.
+>Klicken Sie auf **[!UICONTROL Validate Expression]** , um Ihre Regellogik zu überprüfen. Dadurch wird verhindert, dass Sie eine ungültige Regel hochladen.
 
 ![](assets/coderule.png)
 
-Fügen Sie die Regel in die [!UICONTROL Bulk Management Tools] Arbeitsblatt erstellen und Ihre Änderungen übernehmen, um Segmentregeln stapelweise zu aktualisieren.
+Fügen Sie die Regel in das Arbeitsblatt [!UICONTROL Bulk Management Tools] ein und verpflichten Sie sich, Ihre Änderungen zu übernehmen, um Segmentregeln stapelweise zu aktualisieren.
 
 ![](assets/segmentrule.png)
 
 ## Erstellen eigener Regeln {#create-rules}
 
-Sie können Ihre eigenen Regeln außerhalb von [!UICONTROL Rule Builder]. Bevor Sie beginnen, lesen Sie unbedingt die Dokumentation, die sich mit Operatoren, Ausdrücken und erforderlichen Variablen befasst. Es wird empfohlen, Folgendes zu überprüfen:
+Sie können Ihre eigenen Regeln außerhalb von [!UICONTROL Rule Builder] schreiben. Bevor Sie beginnen, lesen Sie unbedingt die Dokumentation, die sich mit Operatoren, Ausdrücken und erforderlichen Variablen befasst. Es wird empfohlen, Folgendes zu überprüfen:
 
 * [Arbeiten mit Vergleichsoperatoren in Trait Builder](../../features/traits/trait-comparison-operators.md)
 * [Reihenfolge der Vorgänge](../../features/traits/trait-operator-precedence.md)

@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
 source-git-commit: 7147091e6c253e8124f5f21a2251c1a76ac9d808
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 15%
+source-wordcount: '511'
+ht-degree: 14%
 
 ---
 
@@ -20,20 +20,20 @@ Bevor Audience Manager die Zielgruppenoptimierung für Herausgeber aktivieren ka
 
 ## Voraussetzungen für die Protokollierung in Google Ad Manager {#prereqs-dfp-ingestion}
 
-Beachten Sie, dass der in diesem Abschnitt beschriebene Prozess abgeschlossen werden muss. *before* Navigieren Sie zu den Voraussetzungen für die Aktivierung der Protokollierung.
+Beachten Sie, dass der in diesem Abschnitt beschriebene Prozess *vor* abgeschlossen sein muss, bevor Sie zu den Voraussetzungen für die Aktivierung der Protokollaufnahme wechseln.
 
-Zur Verwendung [!DNL Google Ad Manager] (ehemals Google DFP) Protokolldateien in [!DNL Audience Manager], müssen Sie zunächst [Audience Manager Unique User ID (UUID)](../../../reference/ids-in-aam.md) im Anzeigen-Tag-Aufruf. Dadurch wird unsere ID in der Variablen [!DNL Google Ad Manager] -Protokolle und wir können IDs zwischen [!DNL Google Ad Manager] und [!DNL Audience Manager]. Verwendung [!DNL Audience Manager] [!UICONTROL DIL] oder [!UICONTROL Audience Management Module] , um [!DNL Audience Manager] UUID in einem Erstanbieter-Cookie.
+Um die Protokolldateien [!DNL Google Ad Manager] (ehemals Google DFP) in [!DNL Audience Manager] zu verwenden, müssen Sie zunächst unsere [Audience Manager Unique User ID (UUID)](../../../reference/ids-in-aam.md) im Tag-Aufruf der Anzeige festlegen. Dadurch ist unsere ID in den [!DNL Google Ad Manager] -Protokollen enthalten und wir können IDs zwischen [!DNL Google Ad Manager] und [!DNL Audience Manager] zuordnen. Verwenden Sie den Code [!DNL Audience Manager] [!UICONTROL DIL] oder den Code [!UICONTROL Audience Management Module], um die UUID [!DNL Audience Manager] in einem Erstanbieter-Cookie festzulegen.
 
-Hier erfahren Sie, wie Sie die [!DNL Audience Manager] ID im Anzeigen-Tag-Aufruf, wie in unserer Dokumentation beschrieben:
+So legen Sie die [!DNL Audience Manager]-ID im Anzeigen-Tag-Aufruf fest, wie in unserer Dokumentation beschrieben:
 
 * [Über Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Über ein Cookie-Ziel](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-Sie müssen die [!DNL Audience Manager] Identifizieren Sie sich selbst und können mit [!DNL Audience Manager] Beratung, um zu überprüfen, ob alles funktioniert. Sie haben die [!DNL Audience Manager] ID richtig, wenn:
+Sie müssen die [!DNL Audience Manager]-ID selbst festlegen und können mit der [!DNL Audience Manager]-Beratung zusammenarbeiten, um zu überprüfen, ob alles funktioniert. Sie haben die [!DNL Audience Manager] -ID richtig festgelegt, wenn:
 
 * `'aamid'` ist der Schlüssel, der als Kennung verwendet wird.
-* Der Benutzer-ID-Wert ist korrekt formatiert als [!DNL Audience Manager] UUID, wie in der [Index der IDs in Audience Manager](../../../reference/ids-in-aam.md).
-* Sie haben die [!DNL Audience Manager] UUID in einem definierten Feld in Ihrer [!DNL Google Ad Manager] Protokolle (z. B. CustomTargeting).
+* Der Benutzer-ID-Wert ist korrekt als [!DNL Audience Manager]-UUID formatiert, wie in unserem [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md) beschrieben.
+* Sie haben die [!DNL Audience Manager]-UUID in ein definiertes Feld in Ihren [!DNL Google Ad Manager]-Logs eingefügt (z. B. CustomTargeting).
 
 ## Voraussetzungen für die Aktivierung der Protokollaufnahme {#prereqs-ingestion-enablement}
 
@@ -48,14 +48,14 @@ Sie müssen die [!DNL Audience Manager] Identifizieren Sie sich selbst und könn
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Schritt 1 </p> </td> 
-   <td colname="col2"> <p>Bestätigen Sie, dass die erforderlichen Schritte zum Festlegen der <span class="keyword"> Audience Manager</span> UUID (oben beschrieben) wurde vor dem Wechsel zu Schritt 2 abgeschlossen. </p> </td> 
+   <td colname="col2"> <p>Vergewissern Sie sich, dass die erforderlichen Schritte zum Festlegen der (oben beschriebenen) UUID für den <span class="keyword">-Audience Manager</span> durchgeführt wurden, bevor Sie zu Schritt 2 wechseln. </p> </td> 
    <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Kundenunterstützung oder Beratung </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schritt 2 </p> </td> 
    <td colname="col2"> <p>Ihr Google Ad Manager-Administrator erstellt: </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Ein Dienstkonto für die Aufnahme von Google Ad Manager-Anmeldungen bei <span class="keyword"> Audience Manager</span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Ein Dienstkonto für die Aufnahme von Google Ad Manager meldet sich bei <span class="keyword"> Audience Manager</span> an. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Neue Anmeldeinformationen. <p>Hinweis: Dies erfordert möglicherweise eine für dieses Projekt spezifische eindeutige E-Mail-Adresse und wird bei der Bereitstellung des Zugriffs auf den Google Storage Bucket verwendet. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Ein privater Schlüssel (JSON-basierte Berechtigung) </li> 
      </ol> </p> </td> 
@@ -63,7 +63,7 @@ Sie müssen die [!DNL Audience Manager] Identifizieren Sie sich selbst und könn
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schritt 3 </p> </td> 
-   <td colname="col2"> <p>Ihr Google Ad Manager-Administrator gewährt der API Zugriff auf das Dienstkonto. Dieser Schritt ermöglicht den Zugriff auf die Metadaten, um Dimensionen (Zeileneinträge, Bestellungen, kreative Elemente) zu trennen. <p>Hinweis: Verwenden Sie den E-Mail-Zugriff für das Dienstkonto, den Sie in Schritt 2 eingerichtet haben, um Zugriff auf die API zu gewähren. </p> </p> </td> 
+   <td colname="col2"> <p>Ihr Google Ad Manager-Administrator gewährt der API Zugriff auf das Dienstkonto. Dieser Schritt ermöglicht den Zugriff auf die Metadaten, um Dimensionen (Zeileneinträge, Bestellungen, kreative Elemente) zu trennen. <p>Hinweis: Verwenden Sie den E-Mail-Zugriff für Dienstkonten, den Sie in Schritt 2 eingerichtet haben, um Zugriff auf die API zu gewähren. </p> </p> </td> 
    <td colname="col3"> <p>Ihr Google Ad Manager-Administrator </p> </td> 
   </tr> 
   <tr> 
@@ -82,8 +82,8 @@ Sie müssen die [!DNL Audience Manager] Identifizieren Sie sich selbst und könn
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schritt 6 </p> </td> 
-   <td colname="col2"> <p>Kompilieren Sie die Voraussetzungen und öffnen Sie ein Support-Ticket, indem Sie die Anweisungen befolgen. <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">here</a> , um den Prozess der Protokollaufnahme zu starten. </p> </td> 
-   <td colname="col3"> <p>Sie oder <span class="keyword"> Audience Manager</span> Beratung in Ihrem Namen </p> </td> 
+   <td colname="col2"> <p>Kompilieren Sie die Voraussetzungen und öffnen Sie ein Support-Ticket, indem Sie die Anweisungen befolgen, die <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">hier</a> beschrieben sind, um den Prozess der Protokollaufnahme zu starten. </p> </td> 
+   <td colname="col3"> <p>Sie, oder <span class="keyword"> Audience Manager</span> Consulting in Ihrem Namen </p> </td> 
   </tr> 
  </tbody> 
 </table>

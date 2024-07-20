@@ -9,14 +9,14 @@ feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
 source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 5%
+source-wordcount: '677'
+ht-degree: 2%
 
 ---
 
 # Ausgehende Datenübertragungen in Echtzeit {#real-time-outbound-data-transfers}
 
-Der ausgehende Echtzeit-Datenübertragungsprozess stellt Benutzerdaten als eine Reihe von [!DNL JSON] formatierte Nachrichten an eine Zielplattform.
+Der ausgehende Echtzeit-Datenübertragungsprozess stellt Benutzerdaten als eine Reihe von [!DNL JSON] formatierten Nachrichten an eine Zielplattform bereit.
 
 <!-- c_outbound_json.xml -->
 
@@ -24,13 +24,13 @@ Der ausgehende Echtzeit-Datenübertragungsprozess stellt Benutzerdaten als eine 
 
 Um diese Methode verwenden zu können, muss die Zielplattform die folgenden Anforderungen erfüllen:
 
-* Sie muss einen Endpunkt bereitstellen [!DNL URL] die skaliert werden können, um eine große Anzahl von Nachrichten von Audience Manager zu erhalten;
-* Sie muss Daten in [!DNL JSON] format (`Content-type: application/json`);
-* Sie muss sicher sein `HTTPS` Datenübertragungen. [!DNL Audience Manager] sendet keine Nachrichten über die unsichere `HTTP` Protokoll.
+* Sie muss einen Endpunkt [!DNL URL] bereitstellen, der skaliert werden kann, um eine große Anzahl von Nachrichten von Audience Manager zu erhalten.
+* Es muss Daten im Format [!DNL JSON] (`Content-type: application/json`) akzeptieren.
+* Es muss sichere `HTTPS` Datenübertragungen akzeptieren. [!DNL Audience Manager] sendet keine Nachrichten über das unsichere `HTTP`-Protokoll.
 
 ## Häufigkeit
 
-Diese Datenübertragungsmethode kann Daten nahezu in Echtzeit senden, da sich Benutzer für Segmente qualifizieren. Echtzeit-Nachrichten werden nur gesendet, wenn der Benutzer online ist und für das Audience Manager-Edge-Netzwerk aktiv sichtbar ist. Optional kann diese Methode auch Batches von Offline- oder integrierten Daten so oft wie alle 24 Stunden senden.
+Diese Datenübertragungsmethode kann Daten nahezu in Echtzeit senden, da sich Benutzer für Segmente qualifizieren. Echtzeit-Nachrichten werden nur gesendet, wenn der Benutzer online ist und für das Audience Manager Edge-Netzwerk aktiv sichtbar ist. Optional kann diese Methode auch Batches von Offline- oder integrierten Daten so oft wie alle 24 Stunden senden.
 
 ## Batch-Übertragungen
 
@@ -42,7 +42,7 @@ Für den Durchsatz gesendeter Nachrichten gelten keine Ratenbeschränkungen. Das
 
 ## Erforderliche Antworten
 
-Standardmäßig muss der Empfängerserver die `200 OK` Code, um den erfolgreichen Empfang anzuzeigen. Andere Codes werden als Fehler interpretiert. Diese Antwort wird innerhalb von 3000 Millisekunden erwartet. Als Reaktion auf einen Fehler [!DNL Audience Manager] wird nur einen Wiederholungsversuch unternehmen.
+Standardmäßig muss der Empfängerserver den Code `200 OK` zurückgeben, um den erfolgreichen Empfang anzuzeigen. Andere Codes werden als Fehler interpretiert. Diese Antwort wird innerhalb von 3000 Millisekunden erwartet. Als Reaktion auf einen Fehler unternimmt [!DNL Audience Manager] nur einen Wiederholungsversuch.
 
 ## Parameter
 
@@ -69,7 +69,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] -Datendatei, die 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
      <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android IDs (GAID): <code> 20914</code> </li> 
      <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS IDs (IDFA): <code> 20915</code> </li>
-     <li>Web-/Cookie-IDs: variiert nach Zielplattform</li>
+     <li>Web-/Cookie-IDs: variiert je nach Zielplattform</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
@@ -95,7 +95,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] -Datendatei, die 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>Die UUID <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] -Datendatei, die 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> Die <span class="keyword"> Audience Manager</span> Regions-ID, wo wir dieses Gerät gesehen haben. Wenn das Gerät beispielsweise eine Aktivität in Paris (Europa) hätte, wäre die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </td> 
+   <td colname="col3"> Die Regions-ID <span class="keyword"> Audience Manager</span>, in der wir dieses Gerät gesehen haben. Wenn das Gerät beispielsweise eine Aktivität in Paris (Europa) aufweist, wäre die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> DCS Region IDs, Locations, and Host Names</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -127,10 +127,10 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] -Datendatei, die 
     </ul> <p>Benutzer werden nicht segmentiert, wenn sie: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Aus einem Segment basierend auf der Segmentregel entfernt. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Aus einem Segment entfernt, das auf der <a href="../../../features/traits/segment-ttl-explained.md"> Time-to-Live-Intervall</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Aus einem Segment entfernt, das auf dem <a href="../../../features/traits/segment-ttl-explained.md"> Time-to-Live-Intervall des Segments</a> basiert. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">In einen inaktiven Status verschoben, wenn sie in den letzten 120 Tagen nicht gesehen wurden. </li>
      <li>Entfernt aufgrund einer Datenschutzänderungsanfrage (d. h. <span class="keyword"> DSGVO</span>)</li>
-    </ul> <p>Alle Partner-IDs, die mit einer <span class="keyword"> Audience Manager</span> Die ID erhält die <code> "Status":"0"</code> kennzeichnen, wenn ein Benutzer nicht segmentiert ist. </p> </td> 
+    </ul> <p>Alle Partner-IDs, die mit einer <span class="keyword"> Audience Manager</span> -ID synchronisiert werden, erhalten die <code> "Status":"0"</code> -Markierung, wenn die Segmentierung eines Benutzers aufgehoben wird. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -142,11 +142,11 @@ Die folgende Tabelle definiert die Elemente in der [!DNL JSON] -Datendatei, die 
 
 ## Sicherheit
 
-Sie können Ihren ausgehenden Datenübertragungsprozess in Echtzeit durch [Signieren von HTTP-Anforderungen](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) Verwendung privater Schlüssel oder [!DNL Audience Manager] über die [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) Protokoll.
+Sie können Ihren ausgehenden Datenübertragungsprozess in Echtzeit durch [Signieren von HTTP-Anfragen](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) mit privaten Schlüsseln oder durch die Authentifizierung von [!DNL Audience Manager] über das Protokoll [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) sichern.
 
 ## Anfrage
 
-Eine Echtzeitanforderung kann wie folgt aussehen:
+Eine Echtzeitanforderung kann in etwa wie folgt aussehen:
 
 ```js
 {

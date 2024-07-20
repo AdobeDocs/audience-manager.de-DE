@@ -1,16 +1,16 @@
 ---
 description: Die wichtigsten nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch nicht Mitglieder eines Segments sind, basierend auf dem Eigenschaftstyp, der Datenquelle und der Leistung.
-seo-description: Die wichtigsten nicht verwendeten Eigenschaften werden als Streudiagramm von Eigenschaften dargestellt, die noch nicht Mitglieder eines Segments sind, basierend auf dem Eigenschaftstyp, der Datenquelle und der Leistung.
-seo-title: Häufigste nicht verwendete Eigenschaften
+seo-description: Top Unused Traits are represented as a scatter diagram of traits that are not yet members of a segment, based on trait type, data source, and performance.
+seo-title: Top Unused Traits
 solution: Audience Manager
 title: Häufigste nicht verwendete Eigenschaften
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
-feature: Berichte zur Zielgruppenoptimierung
+feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 2%
+source-wordcount: '619'
+ht-degree: 0%
 
 ---
 
@@ -24,21 +24,21 @@ Mit dem Bericht [!UICONTROL Top Unused Traits] können Sie die Leistung von Erst
 
 ## Verwenden des Berichts &quot;Häufigste nicht verwendete Eigenschaften&quot; {#using-the-report}
 
-Verwenden Sie die **[!UICONTROL Data Provider Type]**-Steuerelemente, um zwischen Erstanbieter- und Drittanbieter-Eigenschaften umzuschalten. Wählen Sie **[!UICONTROL All]** aus, um Erstanbieter- und Drittanbieter-Eigenschaften im Bericht zurückzugeben.
+Verwenden Sie die **[!UICONTROL Data Provider Type]** -Steuerelemente, um zwischen Erstanbieter- und Drittanbieter-Eigenschaften umzuschalten. Wählen Sie **[!UICONTROL All]** aus, um Erstanbieter- und Drittanbieter-Eigenschaften im Bericht zurückzugeben.
 
 Mit dem Schieberegler **[!UICONTROL Impressions]** können Sie einen Mindest- und einen Höchstwert für zurückgegebene Impressionen auswählen. Eigenschaften, die für weniger oder mehr als die von Ihnen festgelegten Beschränkungen verantwortlich sind, werden nicht im Bericht angezeigt.
 
 Verwenden Sie die Steuerelemente **[!UICONTROL Day Range]** und **[!UICONTROL Date Through]** , um Ihren Rückblickbereich anzupassen. Beachten Sie, dass für diesen Bericht nur der 30-Tage-Rückblickzeitraum verfügbar ist.
 
-Verwenden Sie das Dropdown-Feld **[!UICONTROL Order]**, um die Webeigenschaften in Ihrem Portfolio auszuwählen, für die Sie Informationen zurückgeben möchten.
+Verwenden Sie das Dropdown-Feld &quot;**[!UICONTROL Order]**&quot;, um die Webeigenschaften in Ihrem Portfolio auszuwählen, für die Sie Informationen zurückgeben möchten.
 
-Wählen Sie in der Dropdown-Liste **[!UICONTROL Data Provider]** die Datenquellen mit den Eigenschaften aus, die Sie im Bericht sehen möchten.
+Wählen Sie in der Dropdown-Liste **[!UICONTROL Data Provider]** die Datenquellen aus, die die Eigenschaften enthalten, die Sie im Bericht sehen möchten.
 
-Verwenden Sie das Dropdown-Feld **[!UICONTROL Traits]** , um festzulegen, welche Eigenschaften im Bericht angezeigt werden sollen.
+Wählen Sie über das Dropdownfeld **[!UICONTROL Traits]** aus, welche Eigenschaften im Bericht angezeigt werden sollen.
 
 >[!IMPORTANT]
 >
->Beim Aktivieren von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Order IDs] einfügen, wie in Schritt 3 von [Importieren von Google Ad Manager-(ehemals DFP-)Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrieben. Dadurch stellen Sie sicher, dass der Bericht die Webeigenschaft als [!UICONTROL Order] anstelle von [!UICONTROL Order ID] detailliert beschreibt.
+>Beim Aktivieren von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Order IDs] einfügen, wie in Schritt 3 von [Importieren von Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrieben. Dadurch stellen Sie sicher, dass der Bericht die Webeigenschaft als [!UICONTROL Order] anstelle von [!UICONTROL Order ID] detailliert beschreibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
@@ -75,7 +75,7 @@ Weitere Informationen finden Sie in der Tabelle unter dem Beispielbericht.
    <td colname="col2"> <p>Die Webeigenschaft, für die dieser Bericht angezeigt wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Eindrücke</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Impressionen</span> </p> </td> 
    <td colname="col2"> <p>Die Häufigkeit, mit der Mitglieder dieser Eigenschaft Ihrem Inventar ausgesetzt wurden. </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Weitere Informationen finden Sie in der Tabelle unter dem Beispielbericht.
 
 Die Position Ihrer Eigenschaften in einem Bericht kann Ihnen viel darüber vermitteln, welche Eigenschaften Sie zur Optimierung vorhandener Zielgruppensegmente verwenden können.
 
-Die Eigenschaften, die höher auf der Impressionsachse liegen, sind diejenigen, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Zielgruppe basierend auf Ihren [!DNL Google Ad Manager]-Daten in Ihrer Webeigenschaft erreichen.
+Die Eigenschaften, die höher auf der Impressionsachse liegen, sind diejenigen, die Sie in Ihren Kampagnen verwenden möchten. Bei Eigenschaften mit einer geringen Anzahl von Impressionen ist es unwahrscheinlich, dass Sie diese Zielgruppe basierend auf Ihren [!DNL Google Ad Manager] -Daten in Ihrer Webeigenschaft erreichen.
 
 Suchen Sie nach links von der [!UICONTROL Unique Trait Realizations]-Achse nach hochpräzisen Eigenschaften und nach rechts nach Eigenschaften, die die Skalierung fördern können.
 

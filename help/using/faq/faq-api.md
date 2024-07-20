@@ -1,7 +1,7 @@
 ---
 description: Häufige Fragen und Probleme im Zusammenhang mit APIs.
-seo-description: Häufige Fragen und Probleme im Zusammenhang mit APIs.
-seo-title: Häufig gestellte Fragen zu APIs
+seo-description: Common API questions and issues.
+seo-title: API FAQ
 solution: Audience Manager
 title: Häufig gestellte Fragen zu APIs
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
@@ -9,7 +9,7 @@ feature: API
 exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '239'
 ht-degree: 100%
 
 ---
@@ -38,13 +38,13 @@ Die Dokumentation zur [REST-API](../api/rest-api-main/rest-api-main.md) enthält
 
 Obwohl jede Methode Daten auf unterschiedliche Weise übergibt, hat dies keine Auswirkungen auf die Funktionalität. Beispielsweise sendet [!DNL Audience Manager] bei beiden Methoden weiterhin Daten an Ziele, die ID-Synchronisierung funktioniert normal und Sie können Eigenschaften aus Datensignalen erstellen.
 
-<br> 
+<br>
 
 **Was erlaubt mir die [!UICONTROL REST API]s?**
 
 Mit den [!UICONTROL REST API]s können Sie programmatisch mit den meisten Funktionen und Funktionen von [!DNL Audience Manager] arbeiten, die in der Benutzeroberfläche verfügbar sind.
 
-<br> 
+<br>
 
 **Wie erhalte ich eine [!UICONTROL REST API]-Client-ID und ein Geheimnis?**
 

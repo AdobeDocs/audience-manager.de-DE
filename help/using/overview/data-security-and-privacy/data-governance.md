@@ -1,16 +1,16 @@
 ---
 description: In diesem Dokument wird erläutert, wie Kundendaten im Audience Manager verwaltet werden.
-seo-description: In diesem Dokument wird erläutert, wie Kundendaten im Audience Manager verwaltet werden.
+seo-description: TThis document explains how customer data is governed in Audience Manager.
 seo-title: Data Governance
 solution: Audience Manager
 keywords: DSGVO-Benutzeroberfläche, DSGVO-API, CCPA, Datenschutz, Einverständnis, Verschleierung, Governance
 title: Data Governance
-feature: Data Governance & Datenschutz
+feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 94%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Die [!DNL IP]-Adresse eines Besuchers auf der Website eines Kunden wird an das [
 
 >[!NOTE]
 >
->Siehe [IP-Adressenverschleierung](../../features/administration/ip-obfuscation.md) , um zu erfahren, wie Sie die [!DNL IP]-Adressenverschleierung in der Audience Manager-Benutzeroberfläche aktivieren.
+>Informationen zum Aktivieren der Verschleierung von [!DNL IP] -Adressen in der Audience Manager-Benutzeroberfläche finden Sie unter [IP-Adressenverschleierung](../../features/administration/ip-obfuscation.md) .
 
 Sehen Sie sich das folgende Video an, um zu verstehen, wie die Verschleierung von [!DNL IP]-Adressen in Audience Manager funktioniert.
 
@@ -39,10 +39,10 @@ Sehen Sie sich das folgende Video an, um zu verstehen, wie die Verschleierung vo
 
 **Geografische Segmentierung:** Wenn Sie die Verschleierung von [!DNL IP]-Adressen aktivieren, können die verbleibenden Oktette der [!DNL IP]-Adresse weiterhin für die Geo-Segmentierung und das Reporting in Audience Manager verwendet werden. Wenn Sie die Verschleierung von [!DNL IP]-Adressen nicht aktivieren, verwendet Audience Manager die vollständige [!DNL IP]-Adresse. Sie können die Funktion zur geografischen Segmentierung verwenden, mit der Sie in beiden Fällen einen [!DNL IP]-Standort nach geografischem Gebiet identifizieren können, jedoch mit einem leichten Genauigkeitsverlust, wenn die [!DNL IP]-Verschleierung verwendet wird. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der [!DNL IP]-Adresse wahrscheinlich merklich beeinträchtigt. Das Ermitteln von Informationen auf Regionen- und Landesebene dürfte nur leicht beeinträchtigt sein. Die geographischen Segmentierungsdaten sind nur auf Stadt- oder Postleitzahlenebene und nicht auf individueller Ebene detailliert. Erfahren Sie mehr über das [Geotargeting](../../features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
 
-## Datenaufbewahrung in Audience Manager {#data-retention}
+## Datenaufbewahrung im Audience Manager {#data-retention}
 
 Die Anwendung geeigneter, sicherer und zeitgerechter Datenaufbewahrungsrichtlinien auf Ihre Daten ist ein wichtiger Teil der Einhaltung der Datenschutzbestimmungen. Audience Manager-Kunden können benutzerdefinierte Aufbewahrungsfristen für Eigenschaften und Segmente festlegen, indem sie die erforderliche TTL (Time to Live) definieren. Weitere Informationen zu Aufbewahrungsfristen finden Sie unter [Häufig gestellte Fragen zur Datenaufbewahrung](../../faq/faq-privacy.md).
 
-## Grenzüberschreitende Datenübertragung {#data-transfers}
+## Grenzüberschreitende Datenübertragungen {#data-transfers}
 
 Wenn Audience Manager personenbezogene Daten von Kunden über Landesgrenzen hinweg übermittelt, geschieht dies in Übereinstimmung mit geltendem Recht. Weitere Informationen finden Sie im [Datenschutzzentrum von Adobe](https://www.adobe.com/de/privacy/eudatatransfers.html).

@@ -1,16 +1,16 @@
 ---
 description: In diesem Artikel werden die von Trait Builder verwendeten Vergleichsoperatoren beschrieben.
-seo-description: In diesem Artikel werden die von Trait Builder verwendeten Vergleichsoperatoren beschrieben.
-seo-title: Arbeiten mit Vergleichsoperatoren in Trait Builder
+seo-description: This article describes the comparison operators used by Trait Builder.
+seo-title: Working with Comparison Operators in Trait Builder
 solution: Audience Manager
 title: Arbeiten mit Vergleichsoperatoren in Trait Builder
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
-feature: 'Eigenschaften '
+feature: Traits
 exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 12%
+source-wordcount: '339'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +32,7 @@ Vergleichsoperatoren sind nützlich, wenn Sie Eigenschaften anhand mehrerer Wert
 
 Sie können Regeln mit den folgenden Vergleichsoperatoren erstellen:
 
-| Operator | Definition |
+| Benutzerin oder Benutzer | Definition |
 |---|---|
 | **==** | Gleich |
 | **!=** | Ungleich |
@@ -45,18 +45,17 @@ Sie können Regeln mit den folgenden Vergleichsoperatoren erstellen:
 
 Sie können Regeln mit den folgenden benannten Operatoren erstellen:
 
-| Operator | Wertet nach [!DNL True] wenn aus |
+| Benutzerin oder Benutzer | Wertet für [!DNL True] aus, wenn |
 |---|---|
-| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* die von diesem Operator angegebenen Zeichen. |
+| **[!UICONTROL Contains]** | Der Wert in einem Schlüssel-Wert-Paar *enthält* Zeichen, die von diesem Operator angegeben werden. |
 | **[!UICONTROL Matcheswords]** | Der Wert in einem Schlüssel-Wert-Paar *entspricht* dem von diesem Operator angegebenen Muster. |
 | **[!UICONTROL Startswith]** | Der Wert in einem Schlüssel-Wert-Paar *beginnt mit* Zeichen, die von diesem Operator angegeben werden. |
 | **[!UICONTROL Endswith]** | Der Wert in einem Schlüssel-Wert-Paar *endet mit* den von diesem Operator angegebenen Zeichen. |
-| **[!UICONTROL Matchesregex]** | Der Wert in einem Schlüssel-Wert-Paar *entspricht* dem Muster, das durch einen regulären Ausdruck angegeben wird. [Erfahren Sie mehr ](../../features/traits/trait-builder-regex.md) über die Verwendung regulärer Ausdrücke in  [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | Der Wert in einem Schlüssel-Wert-Paar *entspricht* dem Muster, das durch einen regulären Ausdruck angegeben wird. [Erfahren Sie mehr ](../../features/traits/trait-builder-regex.md) über die Verwendung regulärer Ausdrücke in [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
 >* [Boolesche Ausdruck in Trait und Segment Builder](../../reference/boolean-expressions-tsb.md)
-* [Grundlegendes zu booleschen Ausdrücken in TraitBuilder](../../reference/boolean-expressions-tsb.md)
-* [Reihenfolge der Vorgänge in TraitBuilder-Ausdrücken](../../features/traits/trait-operator-precedence.md)
-* [Beispielausdrücke mit Booleschen und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
-
+>* [Grundlegendes zu booleschen Ausdrücken in TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Reihenfolge der Vorgänge in TraitBuilder-Ausdrücken](../../features/traits/trait-operator-precedence.md)
+>* [Beispielausdrücke mit Booleschen und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)

@@ -1,5 +1,5 @@
 ---
-seo-title: Ausführen von Server-zu-Server-DCS-API-Aufrufen
+seo-title: Making Server-to-Server DCS API Calls
 solution: Audience Manager
 title: Ausführen von Server-zu-Server-DCS-API-Aufrufen
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
@@ -8,8 +8,8 @@ description: Aufrufsyntax, -beispiel und -parameter bei DCS-API-Aufrufen von Ser
 exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 9%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -49,13 +49,13 @@ Ein Beispielaufruf ähnelt dem folgenden Beispiel.
    <td colname="col1"> <p><code> <i>domain alias</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Dieser Teil des Aufrufs enthält: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Ihr Domänen-Alias, der von <span class="keyword"> Audience Manager</span> zugewiesen wurde (z. B. <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Die Zieldomäne, die immer <i><code> demdex.net</code></i> lautet. Siehe <a href="../../../reference/demdex-calls.md">Grundlegendes zu Aufrufen an die Domäne „demdex.net“</a>. </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Ihr von <span class="keyword"> Audience Manager</span> zugewiesener Domain-Alias (z. B. <i><code> my_domain.demdex.net</code></i>). </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Die Zieldomäne, die immer <i><code> demdex.net</code></i> lautet. Siehe <a href="../../../reference/demdex-calls.md"> Aufrufe an die Domäne "demdex.net"</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> <i>DCS host name</i>.demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>Der HTTP-Header-Host-Parameter, der den Namen des regionalen <span class="wintitle"> DCS</span>-Servers anzeigt. Der Hostname ist an eine Regions-ID gebunden. Daher benötigen Sie diese, bevor Sie diese Aufrufe durchführen. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
+   <td colname="col2"> <p>Der HTTP-Header-Host-Parameter, der den Namen des regionalen <span class="wintitle"> DCS</span>-Servers anzeigt. Der Hostname ist an eine Regions-ID gebunden. Daher benötigen Sie diese, bevor Sie diese Aufrufe durchführen. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> /event?</code> </p> </td> 
@@ -67,11 +67,11 @@ Ein Beispielaufruf ähnelt dem folgenden Beispiel.
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dies ist der eindeutige Benutzer-ID-Schlüssel, der den Audience Manager <span class="keyword"> </span> Benutzer-ID-Wert in einem Schlüssel-Wert-Paar enthält. </p> <p>Verwenden Sie <code><i>d_uuid</i></code> , wenn Sie die Benutzer-ID <span class="keyword"> des Audience Managers</span> übergeben. </p> </td>
+   <td colname="col2"> <p>Dies ist der eindeutige Benutzer-ID-Schlüssel, der den Benutzer-ID-Wert <span class="keyword"> Audience Manager</span> in einem Schlüssel-Wert-Paar enthält. </p> <p>Verwenden Sie <code><i>d_uuid</i></code> , wenn Sie die Benutzer-ID <span class="keyword"> Audience Manager</span> übergeben. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dies ist der eindeutige Benutzer-ID-Schlüssel, der den Benutzer-ID-Wert <span class="keyword"> Experience Cloud</span> in einem Schlüssel-Wert-Paar enthält. Siehe auch <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Abrufen der Benutzer-ID vom ID-Dienst-Cookie</a>. </p> <p>Verwenden Sie <i><code> d_mid</code></i> , wenn Sie eine <span class="keyword"> -Experience Cloud</span> -ID übergeben, die vom <span class="keyword"> -Experience Cloud</span> -ID-Dienst erfasst wurde. </p> </td> 
+   <td colname="col2"> <p>Dies ist der eindeutige Benutzer-ID-Schlüssel, der den Benutzer-ID-Wert <span class="keyword"> Experience Cloud</span> in einem Schlüssel-Wert-Paar enthält. Siehe auch <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Abrufen der Benutzer-ID vom ID-Dienst-Cookie</a>. </p> <p>Verwenden Sie <i><code> d_mid</code></i> , wenn Sie eine <span class="keyword"> Experience Cloud</span> ID übergeben, die vom <span class="keyword"> Experience Cloud</span> ID-Dienst erfasst wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -80,11 +80,11 @@ Ein Beispielaufruf ähnelt dem folgenden Beispiel.
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"><code> d_rtbd=json</code> </li> 
       <li id="li_3430CD0438604B83BE6437E6EC480816"><code>d_cb=<i>callback</i></code> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Optionale Antwortparameter. </p> <p> Keines dieser Elemente ist erforderlich, um Daten an <span class="wintitle"> DCS</span> zu senden. Wenn Sie jedoch möchten, dass <span class="wintitle"> DCS</span> eine Antwort zurückgibt, müssen Sie <i><code> d_rtbd=json</code></i> in Ihre Anfrage aufnehmen. </p> </td> 
+   <td colname="col2"> <p>Optionale Antwortparameter. </p> <p> Keiner dieser Werte ist erforderlich, um Daten an den <span class="wintitle"> DCS</span> zu senden. Wenn Sie jedoch möchten, dass <span class="wintitle"> DCS</span> eine Antwort zurückgibt, müssen Sie <i><code> d_rtbd=json</code></i> in Ihre Anfrage aufnehmen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beispielantwort {#sample-response}
 
-Siehe [Daten vom DCS empfangen](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Siehe [Empfangen von Daten vom DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).

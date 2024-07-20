@@ -1,15 +1,15 @@
 ---
 description: Hier finden Sie einige gängige Anforderungen von Publishern, die von Adobe Audience Manager erfüllt werden.
-seo-description: Hier finden Sie einige gängige Anforderungen von Publishern, die von Adobe Audience Manager erfüllt werden.
-seo-title: Anwendungsfälle für Publisher
+seo-description: A look at some common publisher needs met by Adobe Audience Manager.
+seo-title: Publisher Use Cases
 solution: Audience Manager
 title: Anwendungsfälle für Publisher
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
-feature: 'Referenz '
+feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '614'
 ht-degree: 100%
 
 ---

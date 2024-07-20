@@ -1,16 +1,16 @@
 ---
 description: Der Prozess der Erfassung von in Echtzeit eingehenden Daten verwendet eine Reihe von HTTP-Anforderungen aus dem Browser eines Benutzers, um Daten an den Audience Manager zu übergeben.
-seo-description: Der Prozess der Erfassung von in Echtzeit eingehenden Daten verwendet eine Reihe von HTTP-Anforderungen aus dem Browser eines Benutzers, um Daten an den Audience Manager zu übergeben.
-seo-title: Erfassung eingehender Daten in Echtzeit
+seo-description: The real-time inbound data ingestion process uses a series of HTTP requests from a user's browser to pass in data to Audience Manager.
+seo-title: Real-Time Inbound Data Ingestion
 solution: Audience Manager
 title: Erfassung eingehender Daten in Echtzeit
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Eingehende Daten sollten als Schlüssel-Wert-Paare, so genannte Signale, formati
 
 ## URL-Zeichenfolgenparameter und Syntax {#url-string-syntax}
 
-Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran, in der Benutzeroberfläche [!DNL Audience Manager] Eigenschaften](../../../features/traits/create-onboarded-rule-based-traits.md) und eine [Ordnerstruktur](../../../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.[
+Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran, in der Benutzeroberfläche von [!DNL Audience Manager] Eigenschaften ](../../../features/traits/create-onboarded-rule-based-traits.md) und eine [Ordnerstruktur](../../../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.[
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschrieb
 
 ### URL-Syntax
 
-Bei der Erfassung eingehender Daten in Echtzeit verwendet eine ordnungsgemäß formatierte [!DNL URL]-Zeichenfolge die folgende Syntax:
+Bei der Erfassung eingehender Daten in Echtzeit verwendet eine ordnungsgemäß formatierte [!DNL URL] -Zeichenfolge die folgende Syntax:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC

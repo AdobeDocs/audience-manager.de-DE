@@ -1,7 +1,7 @@
 ---
 description: REST-API-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
-seo-description: REST-API-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
-seo-title: API-Methoden für die Berechtigungsverwaltung
+seo-description: Rest API methods to manage permissions for objects and groups.
+seo-title: Permissions Management API Methods
 solution: Audience Manager
 title: API-Methoden für die Berechtigungsverwaltung
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
@@ -9,20 +9,20 @@ feature: API
 exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 15%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
 # API-Methoden für die Berechtigungsverwaltung {#permissions-management-api-methods}
 
-REST [!DNL API]-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
+Rest [!DNL API]-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
 
 <!-- c_rest_api_perm_man.xml -->
 
 ## Verfügbare Objekttypen auflisten {#list-object-types}
 
-Eine `GET`-Methode zur Auflistung der verfügbaren Objekttypen, für die rollenbasierte Zugriffssteuerungen festgelegt werden können.
+Eine `GET` -Methode, um verfügbare Objekttypen aufzulisten, für die rollenbasierte Zugriffssteuerungen festgelegt werden können.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -38,7 +38,7 @@ Eine `GET`-Methode zur Auflistung der verfügbaren Objekttypen, für die rollenb
 
 ## Verfügbare Berechtigungen für einen Objekttyp auflisten {#list-permissions-object-type}
 
-Eine `GET`-Methode zum Auflisten der verfügbaren Berechtigungen für einen Objekttyp.
+Eine `GET` -Methode zum Auflisten der verfügbaren Berechtigungen für einen Objekttyp.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 

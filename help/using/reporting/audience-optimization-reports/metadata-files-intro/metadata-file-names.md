@@ -1,16 +1,16 @@
 ---
 description: Benennen Sie Ihre Audience Optimization-Metadatendatei gemäß diesen Spezifikationen.
-seo-description: Benennen Sie Ihre Audience Optimization-Metadatendatei gemäß diesen Spezifikationen.
-seo-title: Namenskonventionen für Metadatendateien
+seo-description: Name your Audience Optimization metadata file according to these specifications.
+seo-title: Naming Conventions for Metadata Files
 solution: Audience Manager
 title: Namenskonventionen für Metadatendateien
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-feature: Protokolldateien
+feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 10%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Die folgende Syntax definiert die Struktur eines korrekt formatierten Metadaten-
 
 >[!NOTE]
 >
->*Verwenden Sie* keine Dateierweiterungen in Ihren Metadatendateien (.txt oder andere).
+>*Verwenden Sie keine Dateierweiterungen in Ihren Metadatendateien (.txt oder andere).*
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
@@ -45,7 +45,7 @@ Im Metadaten-Dateinamen ist die untergeordnete ID eine Kennung, die den Datentyp
 1. Advertiser (bei Verwendung von Integrationscodes in einer [Datenquelle](../../../features/manage-datasources.md#details))
 1. Insertion Order (IO)
 1. Vertikal (d. h. eine bestimmte Industrie- oder Geschäftskategorie wie &quot;Computer&quot;, &quot;Automobile&quot;, &quot;Immobilien&quot;usw.)
-1. Taktisch
+1. Tacetisch
 1. Geschäftseinheit oder Marke
 
 ## Beispiel {#example}

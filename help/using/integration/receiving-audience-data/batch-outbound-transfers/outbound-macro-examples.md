@@ -1,16 +1,16 @@
 ---
 description: Beispiele dafür, wie einige der gängigen Makros zum Erstellen ausgehender Dateivorlagen verwendet werden.
-seo-description: Beispiele dafür, wie einige der gängigen Makros zum Erstellen ausgehender Dateivorlagen verwendet werden.
-seo-title: Beispiele für ausgehende Makros
+seo-description: Examples of how some of the common macros are used to create outbound file templates.
+seo-title: Outbound Macro Examples
 solution: Audience Manager
 title: Beispiele für ausgehende Makros
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-feature: Ausgehende Datenübertragungen
+feature: Outbound Data Transfers
 exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 9%
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Beispiele dafür, wie einige der gängigen Makros zum Erstellen ausgehender Date
 
 >[!NOTE]
 >
->In den Tabellen identifiziert der Typ **boldface** jedes Makro mit seiner zugehörigen Ausgabe. Für die Formatbeispiele wurden die `<` `>` -Symbole hinzugefügt, die eine visuelle Trennung der einzelnen Makros ermöglichen.
+>In den Tabellen gibt der Typ **fett** jedes Makro mit seiner zugehörigen Ausgabe an. Für die Formatbeispiele wurden die Symbole `<` `>` hinzugefügt, um die einzelnen Makros visuell zu trennen.
 
 ## Dateinamenmakros {#file-name-macros}
 
@@ -50,7 +50,7 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Ausgabe: </p> <p> 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Vollständig: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Full: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
       <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Inkrementell: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -128,7 +128,7 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>Ausgabe:</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>Hinweis:  Im ersten Beispiel gibt das Makro nur Daten für <code> SEGMENT_LIST </code> zurück, da <code> REMOVED_SEGMENT_LIST </code> leer ist. Das zweite Beispiel gibt Daten für beide Makros zurück. </p> </p> </td> 
+     </code></p> <p> <p>Hinweis: Im ersten Beispiel gibt das Makro nur Daten für <code> SEGMENT_LIST </code> zurück, da <code> REMOVED_SEGMENT_LIST </code> leer ist. Das zweite Beispiel gibt Daten für beide Makros zurück. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -145,9 +145,9 @@ Eine Liste der verfügbaren Makros und Definitionen finden Sie unter [Ausgehende
  </tbody> 
 </table>
 
-### `DPUUID` Beispiele
+### Beispiele für `DPUUID`
 
-Um zu verstehen, wie das Makro `DPUUID` Daten ausgibt, gehen wir davon aus, dass `DPID`s `DPUUID`s zugeordnet sind, wie unten dargestellt:
+Um zu verstehen, wie das `DPUUID` -Makro Daten ausgibt, gehen wir davon aus, dass 2 `DPID`s `DPUUID`s zugeordnet sind, wie unten dargestellt:
 
 * DPID `1111` wird DPUUIDs `AAAA` (Zeitstempel = 1) und `BBBB` (Zeitstempel = 2) zugeordnet.
 * DPID `2222` wird DPUUID `CCCC` zugeordnet.
@@ -158,7 +158,7 @@ Unter diesen Bedingungen werden in der folgenden Tabelle einige mögliche Format
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Zuordnungsbedingung </th> 
-   <th colname="col2" class="entry"> Makro-Format </th> 
+   <th colname="col2" class="entry"> Makroformat </th> 
    <th colname="col3" class="entry"> Ausgabe </th> 
   </tr> 
  </thead>
@@ -171,7 +171,7 @@ Unter diesen Bedingungen werden in der folgenden Tabelle einige mögliche Format
   <tr> 
    <td colname="col1"> <p>Maximal 1 Zuordnung für alle DPIDs zurückgeben </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Bei DPID <code> 1111 </code> wird das Makro nur deshalb DPUUID <code> BBBB </code> zugeordnet, weil diese ID den größeren Zeitstempel aufweist. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Für DPID <code> 1111 </code> wird das Makro nur mit DPUUID <code> BBBB </code> verknüpft, da diese ID den größeren Zeitstempel aufweist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>maximal 2 Zuordnungen für eine einzelne DPID zurückgeben </p> </td> 

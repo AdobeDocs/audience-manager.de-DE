@@ -1,29 +1,29 @@
 ---
 description: In diesem Abschnitt wird beschrieben, wie Sie eine DCS-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die zum Ausführen von Echtzeitaufrufen an den DCS erforderlich sind.
-seo-description: In diesem Abschnitt wird beschrieben, wie Sie eine DCS-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die zum Ausführen von Echtzeitaufrufen an den DCS erforderlich sind.
-seo-title: Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort
+seo-description: This section describes how to parse a DCS response to retrieve the visitor and region IDs required to make real-time calls to the DCS.
+seo-title: Get User IDs and Regions From a DCS Response
 solution: Audience Manager
-title: Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort
+title: Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
 exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 17%
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
 
-# Abrufen von Benutzer-IDs und Regionen über eine DCS-Antwort {#get-user-ids-and-regions-from-a-dcs-response}
+# Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort {#get-user-ids-and-regions-from-a-dcs-response}
 
-In diesem Abschnitt wird beschrieben, wie Sie eine [!DNL DCS]-Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die zum Ausführen von Echtzeitaufrufen an das [!DNL DCS] erforderlich sind.
+In diesem Abschnitt wird beschrieben, wie Sie eine [!DNL DCS] -Antwort analysieren, um die Besucher- und Regions-IDs abzurufen, die zum Ausführen von Echtzeitaufrufen an die [!DNL DCS] erforderlich sind.
 
 ## Benutzer- und Regions-IDs {#user-region-ids}
 
-Eine [!DNL DCS] -Antwort enthält Daten zu Ihren Site-Besuchern. Sie benötigen die Besucher- und Regions-ID, bevor Sie Server-zu-Server-Aufrufe an [!DNL DCS] durchführen können.
+Eine Antwort vom Typ [!DNL DCS] enthält Daten zu Ihren Site-Besuchern. Sie benötigen die Besucher- und Regions-ID, bevor Sie Server-zu-Server-Aufrufe an die [!DNL DCS] durchführen können.
 
 * Die Benutzer-ID ist erforderlich, um Daten zu einem bestimmten Besucher zu identifizieren und zuzuordnen.
-* Die Regions-ID ist erforderlich, da sie an einen regionalen Servernamen gebunden ist, an den Sie Daten an [!DNL DCS] senden müssen. Der [!DNL DCS] speichert Informationen in Rechenzentren, die den Site-Besuchern am nächsten sind. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Die Regions-ID ist erforderlich, da sie an einen regionalen Servernamen gebunden ist, den Sie an die [!DNL DCS] senden müssen. Der [!DNL DCS] speichert Informationen in Rechenzentren, die den Site-Besuchern am nächsten sind. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 Diese Parameter werden nachfolgend beschrieben. Code in *kursiv* stellt einen Variablenplatzhalter dar.
 
@@ -37,7 +37,7 @@ Diese Parameter werden nachfolgend beschrieben. Code in *kursiv* stellt einen Va
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code> </p> </td> 
+   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code></span> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
    <td colname="col3"> <p> <code> "uuid":"123456789"</code> </p> </td> 
   </tr> 
@@ -64,4 +64,4 @@ Diese einfache Antwort zeigt die `UUID` und die Region `ID`. Beachten Sie, dass 
 
 ## Nächste Schritte {#next-steps}
 
-Sobald Sie über die Benutzer-ID und den regionalen Servernamen verfügen, können Sie mit dem Senden und Empfangen von [!DNL DCS]-Daten beginnen. Siehe [Ausführen von DCS-API-Aufrufen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Sobald Sie über die Benutzer-ID und den regionalen Servernamen verfügen, können Sie mit dem Senden und Empfangen von [!DNL DCS] -Daten beginnen. Siehe [ Ausführen von DCS-API-Aufrufen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

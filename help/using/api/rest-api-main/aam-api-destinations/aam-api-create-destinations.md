@@ -1,7 +1,7 @@
 ---
 description: Erstellen Sie Ziele mit diesen RESTful-API-Methoden.
-seo-description: Erstellen Sie Ziele mit diesen RESTful-API-Methoden.
-seo-title: Erstellen von Zielen
+seo-description: Create destinations with these RESTful API methods.
+seo-title: Create Destinations
 solution: Audience Manager
 title: Erstellen von Zielen
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
@@ -9,8 +9,8 @@ feature: API
 exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 9%
+source-wordcount: '346'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ Erstellen Sie Ziele mit diesen [!UICONTROL RESTful API] -Methoden.
 
 ## Unterstützte Zieltypen: Nur URL und Cookie
 
-Mit den verfügbaren `POST`-Methoden können Sie [!UICONTROL URL] und [!UICONTROL cookie destinations] nur erstellen. Derzeit können Sie [!UICONTROL server-to-server destinations] nicht mit diesen [!DNL REST API] -Methoden erstellen. Mit den zugehörigen Zielmethoden `GET` können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
+Mit den verfügbaren `POST` -Methoden können Sie nur [!UICONTROL URL] und [!UICONTROL cookie destinations] erstellen. Derzeit ist es nicht möglich, [!UICONTROL server-to-server destinations] mit diesen [!DNL REST API] -Methoden zu erstellen. Mit den zugehörigen Ziel-Methoden `GET` können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
 
 ## Erstellen eines nicht seriellen URL-Ziels {#create-nonserial-dest}
 
@@ -135,7 +135,7 @@ Bei erfolgreicher Aktualisierung werden der Antwort-Code `201 created` und das Z
 
 ## Erstellen eines Cookie-Ziels: Einzelschlüssel, nicht serialisiert {#create-cookie-dest-single}
 
-Eine `POST` -Methode, mit der Sie eine [!UICONTROL cookie destination]-Methode erstellen können, die Segmente akzeptiert, die aus einzelnen Schlüssel-Wert-Paaren bestehen (z. B. `gender=male` oder `gender=female`).
+Eine `POST` -Methode, mit der Sie eine [!UICONTROL cookie destination] erstellen können, die Segmente akzeptiert, die aus einzelnen Schlüssel-Wert-Paaren bestehen (z. B. `gender=male` oder `gender=female`).
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -273,7 +273,7 @@ Bei erfolgreicher Aktualisierung werden der Antwort-Code `201 created` und das Z
 }
 ```
 
-## Erstellen eines Cookie-Ziels: Multi-Key, nicht serialisiert {#create-cookie-dest-multi}
+## Erstellen eines Cookie-Ziels: Nicht serialisiertes Multi-Key-Ziel {#create-cookie-dest-multi}
 
 Eine `POST` -Methode, mit der Sie ein Ziel erstellen können, das Segmente akzeptiert, die mehrere Schlüssel mit unterschiedlichen Werten enthalten (z. B. `gender=male; gender=female; color=blue; color=red`).
 
@@ -411,7 +411,6 @@ Bei erfolgreicher Aktualisierung werden der Antwort-Code `201 created` und das Z
 
 >[!MORELIKETHIS]
 >
->* [Ziele ](../../../features/destinations/destinations.md)
-* [Zielserialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
-* [Schlüssel-Wert-Paare – Erklärung](../../../reference/key-value-pairs-explained.md)
-
+>* [Ziele](../../../features/destinations/destinations.md)
+>* [Ziel-Serialisierung](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Schlüssel-Wert-Paare – Erklärung](../../../reference/key-value-pairs-explained.md)

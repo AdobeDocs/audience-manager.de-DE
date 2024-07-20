@@ -1,16 +1,16 @@
 ---
 description: Eigenschaftsspeicherordner speichern und helfen Ihnen beim Organisieren von Eigenschaften.
-seo-description: Eigenschaftsspeicherordner speichern und helfen Ihnen beim Organisieren von Eigenschaften.
-seo-title: Eigenschaftsspeicherung
+seo-description: Trait storage folders store and help you organize traits.
+seo-title: Trait Storage
 solution: Audience Manager
 title: Eigenschaftsspeicherung
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
-feature: 'Eigenschaften '
+feature: Traits
 exl-id: 97d9951e-a339-4dd9-8a67-b7884752533b
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 6%
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
@@ -32,15 +32,15 @@ Dieser Vorgang beschreibt, wie Sie einen Speicherordner für Ihre Eigenschaften 
 
 <!-- t_tb_create_storage.xml -->
 
-Sie können beim Einrichten einer neuen Eigenschaft im Abschnitt [!UICONTROL Basic Information] einen neuen Speicherordner erstellen. Ordner können auch im Abschnitt [!UICONTROL Trait Storage] des Haupt-Listen-Dashboards [!UICONTROL Traits] erstellt werden.
+Sie können beim Einrichten einer neuen Eigenschaft im Abschnitt [!UICONTROL Basic Information] einen neuen Speicherordner erstellen. Außerdem können Ordner im Abschnitt &quot;[!UICONTROL Trait Storage]&quot; des Dashboards mit der [!UICONTROL Traits]-Liste erstellt werden.
 
 So erstellen Sie einen neuen Speicherordner:
 
 1. Bewegen Sie im Fenster [!UICONTROL Trait Storage] den Mauszeiger über:
    * **[!UICONTROL All Traits]** , um einen neuen Ordner auf der Stammebene hinzuzufügen.
-   * Ein vorhandener übergeordneter Ordner zum Hinzufügen eines neuen Untergeordneten Ordners.
+   * Ein vorhandener übergeordneter Ordner zum Hinzufügen eines neuen untergeordneten Ordners.
 1. Klicken Sie auf das Symbol +, um den Ordner zu erstellen.
-1. Benennen Sie den Ordner und klicken Sie auf **[!UICONTROL Save]**.
+1. Benennen Sie den Ordner und klicken Sie auf &quot;**[!UICONTROL Save]**&quot;.
 
 ## Umbenennen oder Löschen eines Eigenschaftsspeicherordners {#rename-delete-trait-storage-folder}
 
@@ -48,7 +48,7 @@ Dieser Vorgang beschreibt, wie Sie einen Speicherordner umbenennen oder löschen
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-Sie können Speicherordner im [!UICONTROL Trait Storage] -Bereich des [!UICONTROL Traits] -Listen-Dashboards umbenennen oder löschen.
+Sie können Speicherordner im Abschnitt &quot;[!UICONTROL Trait Storage]&quot;des Haupt-Listen-Dashboards &quot;[!UICONTROL Traits]&quot;umbenennen oder löschen.
 
 * Benennen Sie einen Ordner um, indem Sie den Mauszeiger darüber bewegen und auf das Stiftsymbol klicken.
 * Löschen Sie einen Ordner, indem Sie den Mauszeiger darüber bewegen und auf das Symbol **X** klicken.

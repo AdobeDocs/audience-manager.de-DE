@@ -1,14 +1,14 @@
 ---
 description: Um den 14. Oktober 2019 herum bemerkte ich, dass meine integrierten Eigenschaftspopulationen für das Geräte-ID-Diagramm auf 0 gefallen sind, obwohl sie zuvor viel höher waren.
-seo-description: Um den 14. Oktober 2019 herum bemerkte ich, dass meine integrierten Eigenschaftspopulationen für das Geräte-ID-Diagramm auf 0 gefallen sind, obwohl sie zuvor viel höher waren.
-seo-title: Warum sind meine integrierten Eigenschaftspopulationen um den 15. Oktober auf 0 zurückgegangen?
+seo-description: Around October 14th, 2019 I noticed that my onboarded trait populations for the Device ID graph have dropped to 0, where previously they were much higher.
+seo-title: Why did my Onboarded trait populations drop to 0 around October 15th?
 solution: Audience Manager
 title: Warum sind meine integrierten Eigenschaftspopulationen um den 15. Oktober auf 0 zurückgegangen?
 feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '201'
 ht-degree: 100%
 
 ---

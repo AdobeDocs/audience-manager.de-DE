@@ -1,22 +1,22 @@
 ---
-description: Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
-seo-description: Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
-seo-title: Integrationsstatusbericht
+description: Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält es eine Option, die Dateien für ein festes Zeitintervall prüft und die häufigsten Fehler für jeden Fehlertyp anzeigt. Sie finden diesen Bericht unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
+seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
+seo-title: Onboarding Status Report
 solution: Audience Manager
-title: Integrationsstatusbericht
+title: Onboarding-Statusbericht
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-feature: Eingehende und ausgehende Berichte
+feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 7%
+source-wordcount: '1421'
+ht-degree: 0%
 
 ---
 
-# Integrationsstatusbericht{#onboarding-status-report-about}
+# Onboarding-Statusbericht{#onboarding-status-report-about}
 
-Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
+Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält es eine Option, die Dateien für ein festes Zeitintervall prüft und die häufigsten Fehler für jeden Fehlertyp anzeigt. Sie finden diesen Bericht unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ Der Onboarding-Statusbericht überprüft Erfolgs- und Fehlerquoten für die Vera
 
 ## Onboarding-Statusbericht: Info {#onboarding-status-about}
 
-Der [!UICONTROL Onboarding Status Report] überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Sie finden diesen Bericht unter **[!UICONTROL Analytics > Onboarding Status Report]**. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
+Der [!UICONTROL Onboarding Status Report] überprüft Erfolgs- und Fehlerquoten für die Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und bietet Zusammenfassungsmetriken in Tabellenform. Außerdem enthält es eine Option, die Dateien für ein festes Zeitintervall prüft und die häufigsten Fehler für jeden Fehlertyp anzeigt. Sie finden diesen Bericht in **[!UICONTROL Analytics > Onboarding Status Report]**. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 
 ## Fehlerberichte und Fehler-Sampling {#error-reporting-sampling}
 
-Fehlerberichte und Fehlerproben sind zwei separate Funktionen des Berichts [!UICONTROL Onboarding Status] .
+Fehlerberichte und Fehlerproben sind zwei separate Funktionen des [!UICONTROL Onboarding Status] -Berichts.
 
 <table id="table_4706D891D4C545E8BF9D8A0CC052CC48"> 
  <thead> 
@@ -39,12 +39,12 @@ Fehlerberichte und Fehlerproben sind zwei separate Funktionen des Berichts [!UIC
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Fehlerberichte</b> </p> </td>
+   <td colname="col1"> <p> <b>Fehlerberichterstellung</b> </p> </td>
    <td colname="col2"> <p>Die Fehlerberichte zeigen Ihnen die Erfolgs- und Fehlerquoten für die Anzahl der in einer eingehenden Datenquelle verarbeiteten Datensätze. Es werden Daten in einem interaktiven, gestapelten Balkendiagramm sowie als Zusammenfassungsmetriken in Tabellen unter dem Diagramm zurückgegeben. </p> <p>Die Fehlerberichterstellung erfolgt automatisch. Sie wird für alle eingehenden Datenquellen kontinuierlich ausgeführt. Es werden Daten basierend auf dem Bereich voreingestellter Zeitintervalle oder einem benutzerdefinierten Zeitintervall zurückgegeben, das Sie mit einem Kalender-Widget festlegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Fehler-Sampling</b> </p> </td>
-   <td colname="col2"> <p>Beim Fehlersampling werden die Inhalte Ihrer Datendateien analysiert und die zehn häufigsten Fehler für jeden Fehlertyp zurückgegeben. Die Fehler in Ihren eingehenden Datendateien verhindern die Verarbeitung einzelner Datensätze. Verwenden Sie diesen Bericht als Tool zur Fehlerbehebung, um die Anzahl der Dateifehler zu reduzieren und die Verarbeitungsrate zu verbessern. </p> <p>Sie müssen die Fehlerberechnung manuell aktivieren. Er dauert 14 Tage ab dem Aktivierungstag und deaktiviert sich dann selbst. Sie können die Fehlerberechnung wieder aktivieren, nachdem das 14-Tage-Intervall abgelaufen ist. Sie aktivieren das Fehlersampling, wenn Sie <a href="../features/manage-datasources.md#create-data-source"> eine eingehende Datenquelle</a> erstellen oder indem Sie das Kontrollkästchen <b><span class="uicontrol"> Fehler-Sampling</span></b> im Abschnitt <span class="wintitle"> Datenquelleneinstellungen</span> einer vorhandenen eingehenden Datenquelle aktivieren. </p> <p>Das Stichproben von Fehlern ist ein rechnerisch anspruchsvolles Verfahren. Daher werden nur die ersten 10 Fehler für jede Fehlerkategorie zurückgegeben. Sie ist nicht dazu bestimmt, alle Fehler zurückzugeben, die in einer eingehenden Datenquelle enthalten sind. Diese Fehler sind eine repräsentative Stichprobe einer potenziell größeren Gruppe ähnlicher Fehler. Überprüfen Sie die gesamte Datei auf die Fehlertypen, die dieser Bericht kennzeichnet, formatieren Sie die Datei neu und senden Sie sie erneut. </p> <p>Siehe <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Inhalt der eingehenden Datendatei: Syntax, Variablen und Beispiele</a> für weitere Informationen zur ordnungsgemäßen Formatierung einer Datendatei für eine eingehende Datenquelle. </p> </td> 
+   <td colname="col2"> <p>Beim Fehlersampling werden die Inhalte Ihrer Datendateien analysiert und die zehn häufigsten Fehler für jeden Fehlertyp zurückgegeben. Die Fehler in Ihren eingehenden Datendateien verhindern die Verarbeitung einzelner Datensätze. Verwenden Sie diesen Bericht als Tool zur Fehlerbehebung, um die Anzahl der Dateifehler zu reduzieren und die Verarbeitungsrate zu verbessern. </p> <p>Sie müssen die Fehlerberechnung manuell aktivieren. Er dauert 14 Tage ab dem Aktivierungstag und deaktiviert sich dann selbst. Sie können die Fehlerberechnung wieder aktivieren, nachdem das 14-Tage-Intervall abgelaufen ist. Sie aktivieren das Fehlersampling, wenn Sie <a href="../features/manage-datasources.md#create-data-source"> eine eingehende Datenquelle erstellen</a> oder indem Sie das Kontrollkästchen <b><span class="uicontrol"> Fehler-Sampling</span></b> im Bereich <span class="wintitle"> Data Source Settings</span> einer vorhandenen eingehenden Datenquelle aktivieren. </p> <p>Das Stichproben von Fehlern ist ein rechnerisch anspruchsvolles Verfahren. Daher werden nur die ersten 10 Fehler für jede Fehlerkategorie zurückgegeben. Sie ist nicht dazu bestimmt, alle Fehler zurückzugeben, die in einer eingehenden Datenquelle enthalten sind. Diese Fehler sind eine repräsentative Stichprobe einer potenziell größeren Gruppe ähnlicher Fehler. Überprüfen Sie die gesamte Datei auf die Fehlertypen, die dieser Bericht kennzeichnet, formatieren Sie die Datei neu und senden Sie sie erneut. </p> <p>Weitere Informationen zum richtigen Formatieren einer Datendatei für eine eingehende Datenquelle finden Sie unter <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Inhalt der eingehenden Datendatei: Syntax, Variablen und Beispiele</a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +89,7 @@ Sie können die E-Mail-Adressen der Empfänger hinzufügen, die über den Status
 
 ## Erstellen eines Onboarding-Statusberichts {#create-onboard-status-report}
 
-Ein [!UICONTROL Sample Error Report] gibt die Anzahl der Datensätze in einer Datenquelle zurück, die erfolgreich verarbeitet wurden und wie viele fehlgeschlagen sind. Führen Sie diese Schritte aus, um einen [!UICONTROL Sample Error Report] zu generieren.
+Ein [!UICONTROL Sample Error Report] gibt die Anzahl der Datensätze in einer Datenquelle zurück, die erfolgreich verarbeitet wurden und wie viele fehlgeschlagen sind. Führen Sie die folgenden Schritte aus, um einen [!UICONTROL Sample Error Report] zu generieren.
 
 <!-- 
 
@@ -98,14 +98,14 @@ create-onboarding-status-report.xml
  -->
 
 
-1. Gehen Sie zu **[!UICONTROL Analytics > Onboarding Status Report]**. Suchen Sie nach einer Datenquelle oder wählen Sie eine aus der Liste aus.
+1. Wechseln Sie zu &quot;**[!UICONTROL Analytics > Onboarding Status Report]**&quot;. Suchen Sie nach einer Datenquelle oder wählen Sie eine aus der Liste aus.
 
 2. Wählen Sie einen Datumsbereich aus. Zu den Optionen zählen:
 
    * Ein Satz fester Berichtsintervalle.
    * Kalender-Widgets, mit denen Sie einen benutzerdefinierten Datumsbereich erstellen können.
 
-3. Klicken **[!UICONTROL OK]**.
+3. Klicken Sie auf **[!UICONTROL OK]**.
 
 ## Begriffe und Definitionen des Onboarding-Statusberichts {#report-terms-conditions}
 
@@ -120,15 +120,15 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Bezeichnungen und Be
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Data Sync File Name</b> </p> </td> 
-   <td colname="col2"> <p>Listet Dateien auf, die <span class="keyword"> Audience Manager</span> von Ihrer ausgewählten eingehenden Datenquelle erhalten und verarbeitet haben. </p> <p>Die Dateiverarbeitung schlägt fehl, wenn der Dateiname falsch formatiert ist. Die Anforderungen an Dateinamen hängen davon ab, wie Sie diese Daten an <span class="keyword"> Audience Manager</span> senden. Zu den Bereitstellungsmethoden gehören <span class="keyword"> Amazon S3</span> und FTP. Anweisungen zum Benennen Ihrer Dateien finden Sie unter: </p> <p> 
+   <td colname="col1"> <p> <b>Dateiname der Datensynchronisierung</b> </p> </td> 
+   <td colname="col2"> <p>Listet Dateien auf, die <span class="keyword"> Audience Manager</span> von Ihrer ausgewählten eingehenden Datenquelle erhalten und verarbeitet hat. </p> <p>Die Dateiverarbeitung schlägt fehl, wenn der Dateiname falsch formatiert ist. Die Anforderungen an Dateinamen hängen davon ab, wie Sie diese Daten an <span class="keyword"> Audience Manager</span> senden. Zu den Bereitstellungsmethoden gehören <span class="keyword"> Amazon S3</span> und FTP. Anweisungen zum Benennen Ihrer Dateien finden Sie unter: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Anforderungen an Namen der über Amazon S3 eingehenden Datendateien </a> </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Namensanforderungen von Amazon S3 für eingehende Datendateien </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Formatfehler</b> </p> </td> 
-   <td colname="col2"> <p>Listet die Anzahl der Datensätze auf, für die die Verarbeitung fehlgeschlagen ist, da diese nicht den Syntax- oder Formatierungsanforderungen entsprachen. Siehe <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Inhalt der eingehenden Datendatei: Syntax, Variablen und Beispiele</a> für Informationen zur Formatierung Ihrer Daten. </p> </td> 
+   <td colname="col2"> <p>Listet die Anzahl der Datensätze auf, für die die Verarbeitung fehlgeschlagen ist, da diese nicht den Syntax- oder Formatierungsanforderungen entsprachen. Informationen zur Formatierung Ihrer Daten finden Sie unter <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Inhalt der eingehenden Datendatei: Syntax, Variablen und Beispiele</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ungültige AAM-ID</b> </p> </td> 
@@ -141,7 +141,7 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Bezeichnungen und Be
 
 <tr> 
    <td colname="col1"> <p> <b>Ungültige Geräte-ID</b> </p> </td> 
-   <td colname="col2"> <p>Listet die Anzahl der falsch formatierten globalen Geräte-IDs auf. Weitere Informationen dazu, wie Geräte-IDs formatiert werden sollen und welche globalen Datenquellen Sie verwenden sollten, finden Sie unter <a href="../reference/ids-in-aam.md">Index of IDs in Audience Manager</a> und <a href="../features/global-data-sources.md">Globale Data Sources</a> , je nach Gerätetyp.</p>
+   <td colname="col2"> <p>Listet die Anzahl der falsch formatierten globalen Geräte-IDs auf. Weitere Informationen dazu, wie Geräte-IDs formatiert werden sollen und welche globalen Datenquellen Sie je nach Gerätetyp verwenden sollten, finden Sie unter <a href="../reference/ids-in-aam.md">Index of IDs in Audience Manager</a> und <a href="../features/global-data-sources.md">Globale Data Sources</a> .</p>
   <p>Der Abschnitt zur Fehlerberechnung des Berichts enthält detaillierte Informationen zu den ungültigen Geräte-IDs, z. B.:</p>
    <ul>
     <li>Die Datenquellen-ID, die der ungültigen Geräte-ID entspricht;</li>
@@ -153,8 +153,8 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Bezeichnungen und Be
 
 
 <tr> 
-   <td colname="col1"> <p> <b>Keine übereinstimmende AAM-ID</b> </p> </td> 
-   <td colname="col2"> <p>Hierbei handelt es sich um integrierte IDs <span class="keyword"> Audience Manager</span>, die nicht mit einer vorhandenen ID übereinstimmen können. Integrierte IDs können diesen Status aufweisen, wenn <span class="keyword"> Audience Manager</span> noch keine ID-Synchronisierung durchgeführt hat oder die ID auch nach einer Synchronisierung nicht übereinstimmt. </p> <p>Bei nicht übereinstimmenden mobilen IDs führt <span class="keyword"> der Audience Manager</span> wie folgt aus: </p> 
+   <td colname="col1"> <p> <b>AAM ID nicht übereinstimmen</b> </p> </td> 
+   <td colname="col2"> <p>Hierbei handelt es sich um integrierte IDs <span class="keyword"> Audience Manager</span>, die nicht mit einer vorhandenen ID übereinstimmen können. Integrierte IDs können diesen Status aufweisen, wenn <span class="keyword"> Audience Manager</span> noch keine ID-Synchronisierung durchgeführt hat oder die ID auch nach einer Synchronisierung nicht übereinstimmt. </p> <p>Bei nicht übereinstimmenden mobilen IDs führt <span class="keyword"> Audience Manager</span> Folgendes aus: </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Speichern Sie die ID weiter und versuchen Sie, sie zu synchronisieren. </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Notieren Sie ihn als <span class="wintitle"> gespeicherten Datensatz</span> im Bericht, wenn die ID nicht synchronisiert werden kann. </li> 
@@ -169,20 +169,20 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Bezeichnungen und Be
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Prozent Erfolg</b> </p> </td> 
+   <td colname="col1"> <p> <b>Erfolg in Prozent</b> </p> </td> 
    <td colname="col2"> <p>Der Prozentsatz der Datensätze in Ihrer Datei, die erfolgreich gespeichert wurden. Prozentualer Erfolg = verarbeitete Datensätze / Anzahl der Datensätze in einer Datei. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Erhaltene Datensätze</b> </p> </td> 
+   <td colname="col1"> <p> <b>empfangene Datensätze</b> </p> </td> 
    <td colname="col2"> <p>Die Gesamtzahl der empfangenen Datensätze. In den meisten Fällen sollte diese Zahl mit der Gesamtzahl der Datensätze (Zeilen) in Ihrer eingehenden Datendatei übereinstimmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Gespeicherte Datensätze</b> </p> </td> 
-   <td colname="col2"> <p>Anzahl der erfolgreich gespeicherten Datensätze. Aufgrund von Fehlern beim Dateiformat werden einige der empfangenen Datensätze möglicherweise nicht von <span class="keyword"> Audience Manager</span> gespeichert. Die Anzahl der gespeicherten Datensätze kann kleiner als die Anzahl der empfangenen Datensätze sein. </p> </td> 
+   <td colname="col2"> <p>Anzahl der erfolgreich gespeicherten Datensätze. Aufgrund von Dateiformatfehlern werden einige der empfangenen Datensätze möglicherweise nicht von <span class="keyword"> Audience Manager</span> gespeichert. Die Anzahl der gespeicherten Datensätze kann kleiner als die Anzahl der empfangenen Datensätze sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Gesamtzahl der realisierten Eigenschaften</b> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der Eigenschaften für alle Benutzer in allen eingehenden Dateien, die auf der <span class="keyword">-Audience Manager</span>-Plattform gespeichert werden. </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Eigenschaften für alle Benutzer aller eingehenden Dateien, die auf der <span class="keyword"> Audience Manager</span> -Plattform gespeichert werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ungenutzte Signale insgesamt</b> </p> </td> 

@@ -1,14 +1,14 @@
 ---
 description: Das S3-Statusverzeichnis enthält eine .info-Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
-seo-description: Das S3-Statusverzeichnis enthält eine .info-Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
-seo-title: Statusaktualisierungen für Metadatendateien
+seo-description: The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
+seo-title: Status Updates for Metadata Files
 solution: Audience Manager
 title: Statusaktualisierungen für Metadatendateien
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: Protokolldateien
+feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Statusaktualisierungen für Metadatendateien{#status-updates-for-metadata-files}
 
-Das S3-Statusverzeichnis enthält eine `.info`-Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
+Das S3-Statusverzeichnis enthält eine `.info` -Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
 
-Der Inhalt Ihrer `.info`-Datei sieht in etwa wie im folgenden Beispiel aus.
+Der Inhalt Ihrer `.info` -Datei sieht in etwa wie im folgenden Beispiel aus.
 
 ```js
 //sample file path
@@ -61,7 +61,7 @@ Der Inhalt Ihrer `.info`-Datei sieht in etwa wie im folgenden Beispiel aus.
 
 ## Definierte Schlüssel-Wert-Paare für Metadaten {#key-value-pairs}
 
-In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Summary` einer Metadatenstatusdatei aufgeführt und definiert.
+In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Summary` einer Metadaten-Statusdatei aufgeführt und definiert.
 
 **Schlüssel im Dateiarray**
 
@@ -83,7 +83,7 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Die MD5-Prüfsumme für die Metadatendatei, die in das Verzeichnis <code> meta</code> hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>Die MD5-Prüfsumme für die Metadatendatei, die in Ihr <code> meta</code> -Verzeichnis hochgeladen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
@@ -132,7 +132,7 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberFailure</code> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der Dateien, die nicht erfolgreich verarbeitet wurden. </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der nicht erfolgreich verarbeiteten Dateien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberSuccess</code> </p> </td> 

@@ -1,26 +1,26 @@
 ---
 description: Das Dashboard Segmente ist ein zentralisierter Arbeitsbereich zur Verwaltung von Zielen.
-seo-description: Das Dashboard Segmente ist ein zentralisierter Arbeitsbereich zur Verwaltung von Zielen.
-seo-title: 'Ansicht: Segmentliste'
+seo-description: The Segments dashboard is a centralized workspace for managing destinations.
+seo-title: Segments List View
 solution: Audience Manager
-title: 'Ansicht: Segmentliste'
+title: Segmentlistenansicht
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
-feature: 'Segmente '
+feature: Segments
 exl-id: 983ce119-52af-40fb-9d64-3063e85f2b3d
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 11%
+source-wordcount: '73'
+ht-degree: 0%
 
 ---
 
-# Ansicht: Segmentliste {#segments-list-view}
+# Segmentlistenansicht {#segments-list-view}
 
-[!UICONTROL Segments dashboard] ist ein zentralisierter Arbeitsbereich zur Verwaltung Ihrer Zielgruppensegmente. Sie können das Dashboard [!UICONTROL Segments] anzeigen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** navigieren.
+Der [!UICONTROL Segments dashboard] ist ein zentralisierter Arbeitsbereich zur Verwaltung Ihrer Zielgruppensegmente. Sie können das Dashboard [!UICONTROL Segments] sehen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** navigieren.
 
 ![segments-dashboard](assets/segments-dashboard.png)
 
-Die Seite [!UICONTROL Segments] enthält Funktionen und Tools, die Ihnen dabei helfen:
+Die Seite &quot;[!UICONTROL Segments]&quot; enthält Funktionen und Tools, mit denen Sie:
 
 * Erstellen neuer Segmente;
 * Segmente bearbeiten und löschen;

@@ -1,7 +1,7 @@
 ---
 description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
-seo-description: Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ oder einer benutzerdefinierten Kategorie zuweisen können, in der Regel entsprechend der Funktion oder für Ihre eigenen internen Berichtsprozesse.
-seo-title: Eigenschaftstypmethoden
+seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
+seo-title: Trait Type Methods
 solution: Audience Manager
 title: Eigenschaftstypmethoden
 uuid: 082931d5-457b-4622-817b-86303f38c26a
@@ -9,8 +9,8 @@ feature: API
 exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 10%
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,11 @@ Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ od
 
 >[!NOTE]
 >
->Mit Eigenschaftstypmethoden werden Kategorien, die von der [allgemeinen Taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods) verwendet werden, keine Eigenschaften zugewiesen. Stellen Sie sich diese als Beschriftungen vor, die von der allgemeinen Taxonomie getrennt sind.
+>Mit den Methoden zum Eigenschaftstyp werden Kategorien, die von der [allgemeinen Taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods) verwendet werden, keine Eigenschaften zugewiesen. Stellen Sie sich diese als Beschriftungen vor, die von der allgemeinen Taxonomie getrennt sind.
 
-Als visuelle Referenz ist [!UICONTROL Trait Types] ein Dropdown-Steuerelement im [!DNL UI] unter **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Für visuelle Hinweise ist [!UICONTROL Trait Types] ein Dropdown-Steuerelement, das sich im [!DNL UI] unter **[!UICONTROL Traits > Create new trait > Basic Information]** befindet.
 
-## Erstellen eines neuen Eigenschaftstyps {#create-trait-type}
+## Neuen Eigenschaftstyp erstellen {#create-trait-type}
 
 Eine `POST` -Methode, mit der Sie einen neuen Eigenschaftstyp erstellen können.
 

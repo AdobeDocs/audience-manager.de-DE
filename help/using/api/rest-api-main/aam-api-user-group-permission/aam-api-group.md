@@ -1,7 +1,7 @@
 ---
 description: REST-API-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
-seo-description: REST-API-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
-seo-title: API-Methoden für die Gruppenverwaltung
+seo-description: Rest API methods to manage groups, including creating, updating, listing, deleting groups.
+seo-title: Group Management API Methods
 solution: Audience Manager
 title: API-Methoden für die Gruppenverwaltung
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
@@ -9,20 +9,20 @@ feature: API
 exl-id: b43c8404-1853-4306-8f26-96d9191a2548
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 13%
+source-wordcount: '206'
+ht-degree: 5%
 
 ---
 
 # API-Methoden für die Gruppenverwaltung {#group-management-api-methods}
 
-REST [!DNL API]-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
+Rest [!DNL API]-Methoden zum Verwalten von Gruppen, einschließlich Erstellen, Aktualisieren, Auflisten und Löschen von Gruppen.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Eine Gruppe erstellen {#create-group}
 
-Eine `POST`-Methode zum Erstellen einer neuen Benutzergruppe.
+Eine `POST` -Methode zum Erstellen einer neuen Benutzergruppe.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -55,7 +55,7 @@ Eine `POST`-Methode zum Erstellen einer neuen Benutzergruppe.
 
 ## Gruppe aktualisieren {#update-group}
 
-Eine `PUT`-Methode zum Aktualisieren einer Benutzergruppe.
+Eine `PUT` -Methode zum Aktualisieren einer Benutzergruppe.
 
 <!--
 r_rest_api_group_update.xml
@@ -90,7 +90,7 @@ r_rest_api_group_update.xml
 
 ## Listen-Gruppen {#list-groups}
 
-Eine `GET`-Methode zur Auflistung von Benutzergruppen.
+Eine `GET` -Methode zur Auflistung von Benutzergruppen.
 
 <!--
 r_rest_api_group_list.xml
@@ -118,7 +118,7 @@ r_rest_api_group_list.xml
 
 ## Eine Gruppe löschen {#delete-groups}
 
-Eine `DELETE`-Methode zum Löschen einer Benutzergruppe und zum Entfernen aller Mitglieder aus dieser Gruppe.
+Eine `DELETE` -Methode zum Löschen einer Benutzergruppe und zum Entfernen aller Mitglieder aus dieser Gruppe.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -126,11 +126,11 @@ Eine `DELETE`-Methode zum Löschen einer Benutzergruppe und zum Entfernen aller 
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Gibt `204 No Content` zurück, falls erfolgreich. Im Falle eines Konflikts wird `409 Conflict` zurückgegeben.
+Gibt bei Erfolg `204 No Content` zurück. Im Falle eines Konflikts wird `409 Conflict` zurückgegeben.
 
 ## Massenlöschung von Gruppen {#delete-groups-bulk}
 
-Eine `DELETE`-Methode zum Löschen mehrerer Gruppen in großen Mengen und zum Entfernen aller Mitglieder aus dieser Gruppe.
+Eine `DELETE` -Methode zum Löschen mehrerer Gruppen in großen Mengen und zum Entfernen aller Mitglieder aus dieser Gruppe.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -138,11 +138,11 @@ Eine `DELETE`-Methode zum Löschen mehrerer Gruppen in großen Mengen und zum En
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Gibt `204 No Content` zurück, falls erfolgreich. Im Falle eines Konflikts wird `409 Conflict` zurückgegeben.
+Gibt bei Erfolg `204 No Content` zurück. Im Falle eines Konflikts wird `409 Conflict` zurückgegeben.
 
 ## Alle Berechtigungen für eine Gruppe auflisten {#list-permissions-group}
 
-Eine `GET`-Methode zum Auflisten der Berechtigungsobjekte einer Gruppe.
+Eine `GET` -Methode zum Auflisten der Berechtigungsobjekte einer Gruppe.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -176,7 +176,7 @@ Gibt `400 Bad Request` zurück, wenn auf die Gruppe nicht zugegriffen werden kan
 
 ## Festlegen von Berechtigungen für eine Gruppe {#set-permissions-group}
 
-Eine `PUT`-Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode überschreibt die alten Berechtigungen mit den neuen Berechtigungen.
+Eine `PUT` -Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode überschreibt die alten Berechtigungen mit den neuen Berechtigungen.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -209,4 +209,4 @@ Eine `PUT`-Methode zum Aktualisieren von Gruppenberechtigungen. Diese Methode ü
 
 Die Beispielantwort stellt die aktualisierte Liste der Berechtigungsobjekte dar.
 
-Gibt `200 OK` zurück, falls erfolgreich. Gibt `400` zurück, wenn eine gegebene Berechtigung ungültig ist. Kann auch `403` zurückgeben, wenn der angemeldete Benutzer nicht auf das Objekt zugreifen kann.
+Gibt bei Erfolg `200 OK` zurück. Gibt `400` zurück, wenn eine gegebene Berechtigung ungültig ist. Kann auch `403` zurückgeben, wenn der angemeldete Benutzer nicht auf das Objekt zugreifen kann.

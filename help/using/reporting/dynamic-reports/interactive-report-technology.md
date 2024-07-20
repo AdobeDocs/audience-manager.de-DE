@@ -1,16 +1,16 @@
 ---
 description: Beschreibt die zugrunde liegende Software, die die interaktiven Berichte steuert, und den Zeitplan für die Datenaktualisierung.
-seo-description: Beschreibt die zugrunde liegende Software, die die interaktiven Berichte steuert, und den Zeitplan für die Datenaktualisierung.
-seo-title: Berichtstechnologie
+seo-description: Describes the underlying software that powers the interactive reports and the data update schedule.
+seo-title: Report Technology
 solution: Audience Manager
 title: Berichtstechnologie
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
-feature: Überlagerungsberichte
+feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 3%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -26,10 +26,10 @@ c_report_technology.xml
 
 ## Interaktive Berichte Tableau-Technologie verwenden
 
-[!DNL Audience Manager] verwendet  [](https://www.tableausoftware.com/) Tableausoftware, um Daten in den interaktiven Berichten anzuzeigen. Bei [!DNL Tableau] verwenden die [!UICONTROL Delivery and Overlap]-Berichte visuelle Hinweise und Symbole, die Ihnen helfen:
+[!DNL Audience Manager] verwendet die [Tableau](https://www.tableausoftware.com/)-Software, um Daten in den interaktiven Berichten anzuzeigen. Bei [!DNL Tableau] verwenden die [!UICONTROL Delivery and Overlap] -Berichte visuelle Hinweise und Symbole, die Ihnen dabei helfen:
 
 * Suchen Sie nach Eigenschaften mit hoher und niedriger Leistung.
-* Eigenschaften und Segmente mit geringer und hoher Unique Visitor-Überschneidung ausfindig machen.
+* Eigenschaften und Segmente mit geringer und hoher Unique Visitor-Überschneidung werden angezeigt.
 * Verwenden Sie Überlagerungsdaten, um zielgerichtete Segmente zu erstellen.
 * Erweitern Sie die Reichweite, indem Sie verwandte Eigenschaften mit geringer Überschneidung identifizieren.
 
@@ -71,8 +71,8 @@ In der folgenden Tabelle werden die in dynamischen Berichten verwendeten Formen,
    <td colname="col1"> <b>Farben</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rote Farbtöne zeigen die <i>niedrige</i> Überschneidung an. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Farbtöne zeigen eine <i>hohe</i> Überschneidung an. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rote Farbtöne zeigen eine <i>niedrige</i> Überlappung an. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Grüne Farbtöne zeigen eine Überlappung von <i>high</i> an. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

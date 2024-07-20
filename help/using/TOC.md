@@ -16,10 +16,10 @@ ht-degree: 26%
 # Benutzerhandbuch für Audience Manager {#user-guide}
 
 + [Audience Manager-Anleitung](aam-home.md)
-+ [Entwicklungshandbuch für Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ [Entwicklungshandbuch zu Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Migration zum Web SDK{#migrate-to-web-sdk}
    + [Migration von der Adobe Audience Manager-Tag-Erweiterung zur Web SDK-Tag-Erweiterung](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [Migrieren Sie von der AppMeasurement-JavaScript-Bibliothek zur Web SDK-JavaScript-Bibliothek.](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
+   + [Migrieren Sie von der AppMeasurement JavaScript-Bibliothek zur Web SDK JavaScript-Bibliothek.](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + Überblick {#overview}
    + [Audience Manager – Überblick](overview/aam-overview.md)
    + [Erfasste Datentypen](overview/data-types-collected.md)
@@ -93,8 +93,8 @@ ht-degree: 26%
    + [Datenexportkontrolle](features/data-export-controls.md)
    + Data Sources {#data-sources}
       + [Data Sources-Liste und -Einstellungen](features/datasources-list-and-settings.md)
-      + [Erstellen einer Datenquelle](features/manage-datasources.md)
-      + [Konfigurieren einer Datenquelle für Hash-E-Mail-Workflows](features/create-data-source-hashed-emails.md)
+      + [Erstellen einer Data Source](features/manage-datasources.md)
+      + [Data Source für Hash-E-Mail-Workflows konfigurieren](features/create-data-source-hashed-emails.md)
       + [Globale Data Sources](features/global-data-sources.md)
    + [Declared IDs](features/declared-ids.md)
    + [Abgeleitete Signale](features/derived-signals.md)
@@ -108,9 +108,9 @@ ht-degree: 26%
          + [Voraussetzungen und Überlegungen](features/destinations/people-based-destinations-prerequisites.md)
          + Implementierungshandbuch {#implementation-guide}
             + [Implementierungsübersicht](features/destinations/people-based-destinations-workflow.md)
-            + [Workflow A - Personalisierung basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten](features/destinations/people-based-destinations-workflow-combined.md)
-            + [Workflow B - Personalisierung basierend auf reinen Offline-Daten](features/destinations/people-based-destinations-workflow-offline.md)
-            + [Workflow C - Personalisierung basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten](features/destinations/people-based-destinations-workflow-authenticated.md)
+            + [Workflow A - Personalization basierend auf allen Online-Aktivitäten in Kombination mit Offline-Daten](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Workflow B - Personalization basierend auf reinen Offline-Daten](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Workflow C - Personalization basierend auf authentifizierter Aktivität in Kombination mit Offline-Daten](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [Authentifizierung mit benutzerbezogenen Plattformen](features/destinations/people-based-destinations-authentication.md)
          + [Teilbare Zielgruppen](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Gerätebasierte Ziele (Server-zu-Server) {#device-based}
@@ -156,7 +156,7 @@ ht-degree: 26%
       + [Eigenschaften - Übersicht](/help/using/features/traits/traits-overview.md)
       + [Eigenschaftendetailseite](features/traits/trait-details-page.md)
       + [Eigenschaften-Dashboard](features/traits/trait-dashboard.md)
-      + [Eigenschaften aktiver Zielgruppen und von Datenquellen synchronisierte Eigenschaften](features/traits/client-activity-synced-audience-traits.md)
+      + [Eigenschaften aktiver Zielgruppen und von Source synchronisierte Daten](features/traits/client-activity-synced-audience-traits.md)
       + [Ordnereigenschaften: Info](features/traits/about-folder-traits.md)
       + [Verwalten von Ordnereigenschaften](features/traits/manage-folder-traits.md)
       + Trait Builder {#trait-builder}
@@ -335,13 +335,13 @@ ht-degree: 26%
          + [Batch-Daten an Audience Manager senden - Übersicht](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [ID-Synchronisierung für eingehende Datenübertragungen](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [Anforderungen an den Namen und den Inhalt von ID-Synchronisierungsdateien](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Inhalt der eingehenden Datendatei: Syntax, ungültige Zeichen, Variablen und Beispiele](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Inhalt der eingehenden Datendatei: Syntax, ungültige Zeichen, Variablen und   Beispiele](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
          + [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Anforderungen an Namen und Dateigrößen der über FTP eingehenden Datendateien](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Datei-PGP-Verschlüsselung für eingehende Datentypen](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [Dateikomprimierung für eingehende Datenübertragungsdateien](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Beispielnachricht an Partner nach der eingehenden Verarbeitung](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-         + [Nutzen Sie die kontoübergreifenden Bucket-Zugriffsrechte von Amazon S3 für Ihre eingehenden Dateien.](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
+         + [Nutzen Sie die kontoübergreifenden Bucket-Zugriffsrechte von Amazon S3 für Ihre eingehenden Dateien](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integration mit Adobe Experience Platform {#integration-experience-platform}
       + [Experience Platform der Segmentfreigabe mit Audience Manager und anderen Experience Cloud-Lösungen](integration/integration-aep/aam-aep-audience-sharing.md)
@@ -382,7 +382,7 @@ ht-degree: 26%
       + [Datenverarbeitungskomponenten](reference/system-components/components-data-processing.md)
       + [Tag Management-Komponenten](reference/system-components/components-tag-management.md)
       + [Plattformarchitektur: Datenflusskarte](reference/system-components/components-platform-architecture.md)
-      + [Grundlegendes zum Edge-Rechenzentrum](reference/system-components/components-edge.md)
+      + [Grundlagen zum Edge Data Center](reference/system-components/components-edge.md)
    + [Stilkonventionen für Code- und Textelemente](reference/code-style-elements.md)
    + [Zeitzonen im Audience Manager](reference/aam-time-zones.md)
    + [Einstellung von TLS 1.0 und 1.1](reference/tls-support.md)

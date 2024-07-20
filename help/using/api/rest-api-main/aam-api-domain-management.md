@@ -1,7 +1,7 @@
 ---
 description: Domain-Verwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten können, an die Sie Daten senden möchten (nur für Cookie-Ziele).
-seo-description: Domain-Verwaltungsmethoden, mit denen Sie die Domänen erstellen und verwalten können, an die Sie Daten senden möchten (nur für Cookie-Ziele).
-seo-title: API-Methoden für die Domänenverwaltung
+seo-description: Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
+seo-title: Domain Management API Methods
 solution: Audience Manager
 title: API-Methoden für die Domänenverwaltung
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
@@ -9,8 +9,8 @@ feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 6%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ Eine `POST` -Methode, mit der Sie eine neue Domäne für erstellen können (nur 
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `201 created` und die Partner-Site zurück, einschließlich der eindeutigen ID.
+Bei einer erfolgreichen Antwort werden `201 created` und die Partner-Site zurückgegeben, einschließlich der eindeutigen ID.
 
 ```
 {
@@ -52,7 +52,7 @@ Eine erfolgreiche Antwort gibt `201 created` und die Partner-Site zurück, einsc
 
 ## Löschen einer Domäne {#delete-domain}
 
-Eine `DELETE` -Methode, mit der Sie eine Domäne entfernen können (nur für Cookie-Ziele).
+Eine `DELETE` -Methode zum Entfernen einer Domäne (nur für Cookie-Ziele).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -76,7 +76,7 @@ Eine `GET` -Methode, die Details zur angegebenen Domäne zurückgibt (nur für C
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und -Daten zurück, wie im folgenden Beispiel gezeigt. Gibt `404 Not found` zurück, wenn die Site-ID oder der Partner nicht gefunden wurde.
+Eine erfolgreiche Antwort gibt `200 OK` und Daten zurück, wie im folgenden Beispiel gezeigt. Gibt `404 Not found` zurück, wenn die Site-ID oder der Partner nicht gefunden wurde.
 
 ```
 {
@@ -98,7 +98,7 @@ Eine `GET` -Methode, die Informationen über alle Ihre Domänen zurückgibt (nur
 
 ### Optionale Abfrageparameter
 
-Sie können diese optionalen Parameter mit [!DNL API]-Methoden verwenden, die *alle*-Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an [!DNL API] übergeben. Siehe [Optionale Parameter](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit [!DNL API] -Methoden verwenden, die *alle* -Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an den [!DNL API] übergeben. Siehe [Optionale Parameter](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -133,7 +133,7 @@ Sie können diese optionalen Parameter mit [!DNL API]-Methoden verwenden, die *a
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und Daten in einem Array zurück, wie im folgenden Beispiel gezeigt. Gibt `404 Not found` zurück, wenn die Site-ID oder der Partner nicht gefunden wurde.
+Eine erfolgreiche Antwort gibt `200 OK` und Daten in einem Array zurück, wie im Beispiel unten dargestellt. Gibt `404 Not found` zurück, wenn die Site-ID oder der Partner nicht gefunden wurde.
 
 ```
 [

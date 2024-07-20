@@ -1,20 +1,20 @@
 ---
 description: In diesem Artikel wird erläutert, wie die Audience Manager-Eigenschaften und Segmentwerkzeuge die booleschen Ausdrücke UND, ODER und NICHT verwenden.
-seo-description: In diesem Artikel wird erläutert, wie die Audience Manager-Eigenschaften und Segmentwerkzeuge die booleschen Ausdrücke UND, ODER und NICHT verwenden.
-seo-title: Boolesche Ausdruck in Trait und Segment Builder
+seo-description: This article explains how the Audience Manager trait and segment tools use the Boolean expressions AND, OR, and NOT.
+seo-title: Boolean Expressions in Trait and Segment Builder
 solution: Audience Manager
-title: Boolesche Ausdruck in Trait und Segment Builder
+title: Boolesche Ausdrücke in Trait und Segment Builder
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
-feature: 'Referenz '
+feature: Reference
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 4%
+source-wordcount: '529'
+ht-degree: 0%
 
 ---
 
-# Boolesche Ausdruck in Trait und Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
+# Boolesche Ausdrücke in Trait und Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
 
 In diesem Artikel wird erläutert, wie die Audience Manager-Eigenschaften und Segmentwerkzeuge die booleschen Ausdrücke UND, ODER und NICHT verwenden.
 
@@ -34,9 +34,9 @@ Boolesche Logik ist ein Zweig der Algebra, der mithilfe einiger grundlegender Au
 
 >[!NOTE]
 >
->Der Operator [!UICONTROL NOT] verwendet eine implizite &quot;and&quot;-Bedingung und wird manchmal als [!UICONTROL AND NOT] geschrieben.
+>Der Operator [!UICONTROL NOT] verwendet eine implizite &quot;und&quot;-Bedingung und wird manchmal als [!UICONTROL AND NOT] geschrieben.
 
-**Verwenden boolescher Ausdrücke in Trait und Segment Builder**
+**Verwendung boolescher Ausdrücke in Trait und Segment Builder**
 
 Sie erstellen Eigenschaften- und Segmentqualifikationsregeln mit booleschen Ausdrücken. In der folgenden Tabelle werden die allgemeinen Best Practices zum Erstellen von Qualifizierungskriterien mit [!UICONTROL AND], [!UICONTROL OR] und [!UICONTROL NOT] beschrieben.
 
@@ -52,17 +52,17 @@ Sie erstellen Eigenschaften- und Segmentqualifikationsregeln mit booleschen Ausd
   <tr> 
    <td colname="col1"> <p><b><span class="wintitle"> UND</span></b> </p> </td> 
    <td colname="col2"> <p>Eingeschränkte, fokussierte Anforderungen an die Zielgruppenqualifizierung. </p> </td> 
-   <td colname="col3"> <p>Benutzer <i>muss</i> zu allen angegebenen Eigenschaften oder Segmenten gehören. </p> </td> 
+   <td colname="col3"> <p>Benutzer <i>müssen </i> zu allen angegebenen Eigenschaften oder Segmenten gehören. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="wintitle"> ODER</span></b> </p> </td> 
    <td colname="col2"> <p>Umfassende, weniger zielgerichtete Anforderungen an die Zielgruppenqualifizierung. </p> </td> 
-   <td colname="col3"> <p>Benutzer <i>can</i> gehören zu allen angegebenen Eigenschaften oder Segmenten. </p> </td> 
+   <td colname="col3"> <p>Benutzer <i>können </i> zu allen angegebenen Eigenschaften oder Segmenten gehören. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> NICHT</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> NOT</span></b> </p> </td> 
    <td colname="col2"> <p>Eingeschränkte, fokussierte Anforderungen an die Zielgruppenqualifizierung. </p> <p>Nützlich, wenn mehrere Bedingungen vorliegen, die die Definition von Anforderungen an die Zielgruppenqualifizierung erschweren oder ineffizient machen. Gelegentlich ist es einfacher, anhand von Anforderungen zu validieren, die ausschließen statt einschließen. </p> </td> 
-   <td colname="col3"> <p>Benutzer <i>dürfen nicht</i> zu einer ausgeschlossenen Eigenschaft oder einem ausgeschlossenen Segment gehören. </p> </td> 
+   <td colname="col3"> <p>Benutzer <i>dürfen nicht </i> zu einer ausgeschlossenen Eigenschaft oder einem ausgeschlossenen Segment gehören. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,10 +77,9 @@ Der Operator [!UICONTROL OR] ist nützlich, wenn Sie Signale mit allgemeinen Anf
 
 **[!UICONTROL AND NOT]Anwendungsbeispiel**
 
-Der Operator [!UICONTROL AND NOT] ist nützlich, wenn es einfacher ist, eine Zielgruppe durch *Ausschluss* anstatt durch *Einbindung* zu definieren. Angenommen, Sie haben einen Verkauf und möchten Besucher in Kunden unterteilen, die sich nur vollständige Preisartikel ansehen. Anstatt eine Liste von Signalen für alle qualifizierenden Voll- oder Verkaufspreis-Artikel zu erstellen, ist es möglicherweise einfacher, Besucher zu qualifizieren, wenn sie *nicht* einen Verkaufspreis gesehen haben. Dies ist administrativ effizient, da Sie in der Regel weniger Verkaufspreisartikel haben als die, die zum vollen Preis angeboten werden. Bei einem booleschen [!UICONTROL NOT] dürfen Besucher *nicht* das Verkaufssignal ausgeben, um sich für eine Zielgruppenmitgliedschaft mit vollem Preis zu qualifizieren. Im Gegensatz dazu ist [!UICONTROL AND NOT] das Gegenteil des [!UICONTROL AND]-Anwendungsfalls, der gezeigt hat, wie die Zielgruppenzugehörigkeit durch Einbindung bestimmt wird (d. h. der Besucher qualifiziert sich basierend auf 2 explizit angegebenen Signalen).
+Der Operator [!UICONTROL AND NOT] ist nützlich, wenn es einfacher ist, eine Zielgruppe durch *Ausschluss* anstatt durch *Einschluss* zu definieren. Angenommen, Sie haben einen Verkauf und möchten Besucher in Kunden unterteilen, die sich nur vollständige Preisartikel ansehen. Anstatt eine Liste von Signalen für alle qualifizierenden Voll- oder Verkaufspreis-Artikel zu erstellen, ist es möglicherweise einfacher, Besucher zu qualifizieren, wenn sie *nicht* einen Verkaufspreis gesehen haben. Dies ist administrativ effizient, da Sie in der Regel weniger Verkaufspreisartikel haben als die, die zum vollen Preis angeboten werden. Bei einem booleschen Wert [!UICONTROL NOT] dürfen Besucher *nicht* das Verkaufssignal ausgeben, um sich für eine Zielgruppenmitgliedschaft mit vollständigem Preis zu qualifizieren. Im Gegensatz dazu ist [!UICONTROL AND NOT] das Gegenteil des Nutzungsszenarios [!UICONTROL AND], in dem gezeigt wurde, wie die Zielgruppenzugehörigkeit durch Einbindung bestimmt wird (d. h. der Besucher qualifiziert sich basierend auf 2 explizit angegebenen Signalen).
 
 >[!MORELIKETHIS]
 >
 >* [Arbeiten mit Vergleichsoperatoren in TraitBuilder](../features/traits/trait-comparison-operators.md)
-* [Reihenfolge der Vorgänge in TraitBuilder-Ausdrücken](../features/traits/trait-operator-precedence.md)
-
+>* [Reihenfolge der Vorgänge in TraitBuilder-Ausdrücken](../features/traits/trait-operator-precedence.md)

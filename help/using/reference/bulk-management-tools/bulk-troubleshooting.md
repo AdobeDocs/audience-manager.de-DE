@@ -3,18 +3,18 @@ description: Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben 
 seo-description: What to do when the worksheets return an error or your bulk request fails.
 seo-title: Troubleshooting Tips for Bulk Management Tools
 solution: Audience Manager
-title: Tipps zur Fehlerbehebung für die Tools zur Massenverwaltung
+title: Tipps zur Fehlerbehebung für Tools zur Massenverwaltung
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
-# Tipps zur Fehlerbehebung für die Tools zur Massenverwaltung{#troubleshooting-tips-for-bulk-management-tools}
+# Tipps zur Fehlerbehebung für Tools zur Massenverwaltung{#troubleshooting-tips-for-bulk-management-tools}
 
 Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Massenanfrage fehlschlägt.
 
@@ -30,7 +30,7 @@ Was zu tun ist, wenn die Arbeitsblätter einen Fehler zurückgeben oder Ihre Mas
 
 >[!NOTE]
 >
->[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) in der [!DNL Audience Manager] Die Benutzeroberfläche wird im Abschnitt [!UICONTROL Bulk Management Tools].
+>[In der Benutzeroberfläche von [!DNL Audience Manager] zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
 
 Faktoren wie starker Netzwerk-Traffic, Servernutzung und große Datensätze können dazu führen, dass eine Massenanforderung fehlschlägt oder eine Zeitüberschreitung auftritt. Wenn ein Problem auftritt, hört das Arbeitsblatt auf, Daten zu schreiben, und zeigt eine Fehlermeldung an. In diesem Fall sollten Sie:
 

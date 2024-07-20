@@ -1,5 +1,5 @@
 ---
-description: Recommendations und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm ist als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehört auch die Integrations-Adobe mit deterministischen oder probabilistischen Gerätediagrammfirmen von Drittanbietern.
+description: Recommendations und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm ist als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagrammfirmen von Drittanbietern hat.
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
@@ -9,20 +9,20 @@ feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 8%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
 # Anwendungsfälle für externe Gerätediagramme {#external-device-graph-use-cases}
 
-Recommendations und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm ist als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehört auch die Integrations-Adobe mit deterministischen oder probabilistischen Gerätediagrammfirmen von Drittanbietern.
+Recommendations und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm ist als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagrammfirmen von Drittanbietern hat.
 
 ## Empfehlungen {#recommendations}
 
 Erwägen Sie Gerätediagrammoptionen von Drittanbietern für Kampagnen, die:
 
-* Sie verfügen über eine niedrige Authentifizierungsstufe für ihre digitalen Eigenschaften. Verwenden Sie die [!UICONTROL Profile Link Device Graph option] wenn Sie über eine große Anzahl authentifizierter Benutzer verfügen.
+* Sie verfügen über eine niedrige Authentifizierungsstufe für ihre digitalen Eigenschaften. Verwenden Sie den [!UICONTROL Profile Link Device Graph option] , wenn viele authentifizierte Benutzer vorhanden sind.
 * Targeting großer Zielgruppen. Gerätediagramme von Drittanbietern enthalten authentifizierte und nicht authentifizierte Daten.
 * Segmentieren authentifizierter und/oder nicht authentifizierter Besucher auf individueller und Haushaltsebene.
 
@@ -114,15 +114,15 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ## Erweitertes geräteübergreifendes Targeting {#advanced-graph-expansion}
 
-In diesem Anwendungsbeispiel wird gezeigt, wie Sie das Zielgruppen-Targeting für authentifizierte Besucher mit Geräten aus einem externen Gerätediagramm mithilfe der **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** Regel.
+Dieser Anwendungsfall zeigt, wie Sie mithilfe der Regel **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** das Zielgruppen-Targeting für authentifizierte Besucher mit Geräten aus einem externen Gerätediagramm erweitern können.
 
 ![last-device-graph](assets/last-profile-link.png)
 
-Im folgenden Beispiel möchte das Unternehmen Acme Inc. alle Haushalte mit einem Einkommen über 100.000 US-Dollar pro Jahr ansprechen, die [!DNL Acme Inc.] Abonnenten auf [!DNL Data Plan A], die eine [!DNL iPhone 7] Gerät.
+Im folgenden Beispiel möchte das Unternehmen Acme Inc. alle Haushalte mit einem Einkommen von über 100.000 US-Dollar pro Jahr ansprechen, die über [!DNL Acme Inc.] Abonnenten für [!DNL Data Plan A] verfügen, die ein [!DNL iPhone 7]-Gerät verwenden.
 
-John verwendet seine iPhone 7 für Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig ist John&#39;s [!DNL Profile Link Device Graph] Der Cluster enthält zwei weitere Geräte, die er regelmäßig verwendet: sein Laptop ([!DNL Device 1]) und sein sekundäres Smartphone, [!DNL Device 2] a [!DNL Samsung S7] on [!DNL Data Plan B]).
+John verwendet seine iPhone 7 für Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig enthält Johns &quot;[!DNL Profile Link Device Graph]&quot;-Cluster zwei zusätzliche Geräte, die er regelmäßig verwendet: seinen Laptop ([!DNL Device 1]) und sein sekundäres Smartphone [!DNL Device 2] (ein [!DNL Samsung S7] auf [!DNL Data Plan B]).
 
-Durch Verwendung der Variablen **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] ist in der Lage, personalisierte Nachrichten über John&#39;s Gerätediagramm-Cluster an alle drei Geräte zu senden, auch wenn zunächst nur eines von ihnen für das Segment qualifiziert ist.
+Durch die Verwendung von **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** kann [!DNL Acme Inc.] personalisierte Nachrichten an alle drei Geräte aus Johns Gerätediagramm-Cluster senden, auch wenn nur einer von ihnen anfänglich für das Segment qualifiziert ist.
 
 ![advanced-graph-extension](assets/advanced-device-graph-expansion.png)
 
@@ -131,4 +131,3 @@ Durch Verwendung der Variablen **[!UICONTROL Last Authenticated Profiles]** + **
 >* [Anwendungsfälle für das Profil-Link-Gerätediagramm](profile-link-use-case.md)
 >* [Allgemeine Anwendungsfälle für Profilzusammenführungsrichtlinien](merge-rule-targeting-options.md)
 >* [Häufig gestellte Fragen zu Profilzusammenführungsregeln](../../faq/faq-profile-merge.md)
-

@@ -1,21 +1,21 @@
 ---
 description: Definiert und beschreibt standardmäßige und serialisierte Schlüssel-Wert-Paare.
-keywords: integration code
-seo-description: Definiert und beschreibt standardmäßige und serialisierte Schlüssel-Wert-Paare.
-seo-title: Schlüssel-Wert-Paare – Erklärung
+keywords: Integrationscode
+seo-description: Defines and describes standard and serialized key-value pairs.
+seo-title: Key-Value Pairs Explained
 solution: Audience Manager
-title: Schlüssel-Wert-Paare – Erklärung
+title: Schlüssel-Wert-Paare - Erklärung
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
-feature: 'Referenz '
+feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 7%
+source-wordcount: '268'
+ht-degree: 3%
 
 ---
 
-# Schlüssel-Wert-Paare – Erklärung{#key-value-pairs-explained}
+# Schlüssel-Wert-Paare - Erklärung{#key-value-pairs-explained}
 
 Definiert und beschreibt standardmäßige und serialisierte Schlüssel-Wert-Paare.
 
@@ -25,7 +25,7 @@ c_key_value_explained.xml
 
  -->
 
-Ein Schlüssel-Wert-Paar besteht aus zwei verwandten Datenelementen: Ein Schlüssel, der eine Konstante ist, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und ein Wert, der eine Variable ist, die zum Satz gehört (z. B. männlich/weiblich, grün, 100). Vollständig gebildet, könnte ein Schlüssel-Wert-Paar wie folgt aussehen:
+Ein Schlüssel-Wert-Paar besteht aus zwei verwandten Datenelementen: einem Schlüssel, der eine Konstante ist, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und einem Wert, der eine Variable ist, die zum Satz gehört (z. B. männlich/weiblich, grün, 100). Vollständig gebildet, könnte ein Schlüssel-Wert-Paar wie folgt aussehen:
 
 * `gender = male`
 * `color = green`
@@ -38,7 +38,7 @@ Ziele akzeptieren Schlüsselwertdaten im Format *`standard`* oder *`serialized`*
 | Formatierung | Einzelschlüssel | Schlüssel-Wert-Paare |
 |---|---|---|
 | **Standard** | `x=1&x=2` | `x=1&x=2&y=3&y=4` |
-| **Serialisiert** | `x=1;2` | `x=1;2&y=3;4` |
+| **serialized** | `x=1;2` | `x=1;2&y=3;4` |
 
 
 
@@ -47,8 +47,8 @@ Ziele akzeptieren Schlüsselwertdaten im Format *`standard`* oder *`serialized`*
 Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die die Werte *innerhalb* und *zwischen* und den Schlüssel-Wert-Paaren trennen. Elemente in Schlüssel-Wert-Paaren werden wie folgt definiert:
 
 * **Schlüssel:** Eine eindeutige Kennung im Schlüssel-Wert-Paar.
-* **Werttrennzeichen:** Trennt einzelne Schlüssel-Wert-Paare.
-* **Schlüssel-Wert-Trennzeichen:**  Trennt einen Schlüssel von den Werten in einem Schlüssel-Wert-Paar.
+* **Trennzeichen für Werte:** Trennt einzelne Schlüssel-Wert-Paare.
+* **Schlüssel-Wert-Trennzeichen:** Trennt einen Schlüssel von den Werten in einem Schlüssel-Wert-Paar.
 * **Serielles Trennzeichen:** Trennt einzelne Werte in serialisierten Schlüssel-Wert-Paaren.
 
 ## Standardelemente und serialisierte Schlüsselwertelemente {#standard-serialized-key-value-elements}
@@ -56,7 +56,7 @@ Beim Arbeiten mit serialisierten Daten müssen Sie die Zeichen angeben, die die 
 
 | Typ | Beispiel | Schlüssel | Trennzeichen für Schlüsselwerte | Trennzeichen für Schlüsselwerte | Serielle Trennlinie |
 |---------|----------|---------|---------|----------|---------|
-| **Einzelschlüssel**  (Standard) | `x=1&x=2` | `x` | `=` | `&` | Keine |
-| **Schlüssel-Wert-Paare**  (Standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | Keine |
-| **Einzelschlüssel**  (seriell) | `x=1;2;3` | `x` | `=` | Keine | `;` |
-| **Schlüssel-Wert-Paare**  (seriell) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
+| **Einzelschlüssel** (Standard) | `x=1&x=2` | `x` | `=` | `&` | Keine |
+| **Schlüssel-Wert-Paare** (Standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | Keine |
+| **Einzelschlüssel** (seriell) | `x=1;2;3` | `x` | `=` | Keine | `;` |
+| **Schlüssel-Wert-Paare** (seriell) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |

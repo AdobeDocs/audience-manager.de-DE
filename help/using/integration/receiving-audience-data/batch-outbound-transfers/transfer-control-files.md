@@ -1,26 +1,26 @@
 ---
 description: Dateiübertragungs-Kontrolldateien (.info) bieten Metadateninformationen zu Dateiübertragungen, sodass Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat.
-seo-description: Dateiübertragungs-Kontrolldateien (.info) bieten Metadateninformationen zu Dateiübertragungen, sodass Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat.
-seo-title: Übertragungssteuerungsdateien für Protokolldateiübertragungen
+seo-description: Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
+seo-title: Transfer-Control Files for Log File Transfers
 solution: Audience Manager
 title: Übertragungssteuerungsdateien für Protokolldateiübertragungen
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
-feature: Ausgehende Datenübertragungen
+feature: Outbound Data Transfers
 exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 6%
+source-wordcount: '280'
+ht-degree: 0%
 
 ---
 
 # Übertragungssteuerungsdateien für Protokolldateiübertragungen {#transfer-control-files-for-log-file-transfers}
 
-Dateiübertragungs-Kontrolldateien ([!DNL .info]) bieten Metadateninformationen über Dateiübertragungen, sodass Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat.
+Übertragungssteuerungsdateien ([!DNL .info]) bieten Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat.
 
-[!DNL Audience Manager] sendet bei jeder Dateiübertragung eine Übertragungssteuerungsdatei an einen Partner. Aufgrund der Multi-Thread-Natur des [!DNL FTP]-Herausgebers kann die Übertragungssteuerungsdatei gesendet werden, bevor die eigentlichen Dateien übertragen werden.
+[!DNL Audience Manager] sendet bei jeder Dateiübertragung eine Übertragungssteuerungsdatei an einen Partner. Aufgrund der Multi-Thread-Charakteristik des [!DNL FTP]-Herausgebers kann die Übertragungssteuerungsdatei gesendet werden, bevor die eigentlichen Dateien übertragen werden.
 
-Die Metadaten in der Datei [!DNL .info] ermöglichen Partnern Folgendes:
+Die Metadaten in der [!DNL .info] -Datei ermöglichen Partnern Folgendes:
 
 * Bestimmen Sie, wann ein vollständiger Übertragungszyklus abgeschlossen ist (die Gesamtzahl der Dateien in der Sequenz wurde bereitgestellt).
 * Bestimmen Sie, ob eine beliebige Datei in der Sequenz vollständig/korrekt ist (indem Sie die Größe der Datei in Byte und die Gesamtanzahl der Zeilen überprüfen).
@@ -28,9 +28,9 @@ Die Metadaten in der Datei [!DNL .info] ermöglichen Partnern Folgendes:
 
 ## Namenskonventionen für Dateien {#file-naming-conventions}
 
-Die Übertragungssteuerungsdatei hat denselben Namen wie der Stamm des Batches/der Sequenz mit der Dateierweiterung [!DNL .info] .
+Die Übertragungssteuerungsdatei hat denselben Namen wie der Stamm des Batches/der Sequenz mit der Dateierweiterung &quot;[!DNL .info]&quot;.
 
-Wenn beispielsweise die erste Datei in der Sequenz den Namen hatte: [!DNL ftp_12345_67890_full_1500727351632-1.sync] würde die Kontrolldatei [!DNL ftp_12345_67890_iter_1500727351632.info] heißen.
+Wenn beispielsweise die erste Datei in der Sequenz den Namen [!DNL ftp_12345_67890_full_1500727351632-1.sync] trägt, erhält die Kontrolldatei den Namen [!DNL ftp_12345_67890_iter_1500727351632.info].
 
 ## Dateiformat {#file-format}
 
@@ -77,7 +77,7 @@ Wenn beispielsweise die erste Datei in der Sequenz den Namen hatte: [!DNL ftp_12
 
 >[!NOTE]
 >
-> Die Batch-Gesamtzahlen schließen die [!DNL .info]-Datei selbst aus. Das heißt, die Summen enthalten nicht die Datei [!DNL .info], ihre Byte-Größe oder die Zeilenanzahl.
+> Die Batch-Gesamtzahlen enthalten ausschließlich die Datei &quot;[!DNL .info]&quot;. Das heißt, die Summen enthalten nicht die Datei [!DNL .info], ihre Byte-Größe oder die Zeilenanzahl.
 >
 > Byte-Größen von Dateien und Zeilenanzahl enthalten alle Header- und (leeren) Abstand-Zeilen/Zeilen. Um die Anzahl der tatsächlichen Datenzeilen/Zeilen zu erhalten, subtrahieren Sie Kopfzeilen.
 >

@@ -1,14 +1,14 @@
 ---
 description: Unsere Kundenunterstützung hilft Ihnen im Falle eines Problems gern weiter. Geben Sie bei der Kontaktaufnahme mit der Kundenunterstützung so viele Informationen wie möglich an. Dies hilft dem Team, Ihr Problem zu verstehen und zu lösen.
-seo-description: Unsere Kundenunterstützung hilft Ihnen im Falle eines Problems gern weiter. Geben Sie bei der Kontaktaufnahme mit der Kundenunterstützung so viele Informationen wie möglich an. Dies hilft dem Team, Ihr Problem zu verstehen und zu lösen.
-seo-title: Bei Auftreten eines Problems
+seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-title: If There's a Problem
 solution: Audience Manager
 title: Bei Auftreten eines Problems
 feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Wenden Sie sich bei technischen Problemen oder um einen Fehler zu melden an die 
 
 * **Telefon:** 1-800-497-0335
 
-   Für gebührenfreie Nummern außerhalb der Vereinigten Staaten besuchen Sie unsere Seite mit den [regionalen Telefonnummern der Kundenunterstützung](https://helpx.adobe.com/de/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wenn Sie aufgefordert werden, eine Option für Ihr Produkt auszuwählen, drücken Sie die 4, um das [!DNL Audience Manager]-Team zu kontaktieren.
+  Für gebührenfreie Nummern außerhalb der Vereinigten Staaten besuchen Sie unsere Seite mit den [regionalen Telefonnummern der Kundenunterstützung](https://helpx.adobe.com/de/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wenn Sie aufgefordert werden, eine Option für Ihr Produkt auszuwählen, drücken Sie die 4, um das [!DNL Audience Manager]-Team zu kontaktieren.
 
 * **E-Mail:** amsupport@adobe.com
 
@@ -74,7 +74,7 @@ Bitte halten Sie die folgenden Informationen bereit, bevor Sie uns kontaktieren.
  </tbody> 
 </table>
 
-## Im Falle eines Ausfalls {#outage}
+## Im Falle von Ausfällen {#outage}
 
 Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com) ([!DNL https://status.adobe.com]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Audience Manager, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
 

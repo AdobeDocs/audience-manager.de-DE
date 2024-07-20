@@ -1,29 +1,29 @@
 ---
 description: Empfangen von Zielgruppendaten von Audience Manager.
-seo-description: Empfangen von Zielgruppendaten von Adobe Audience Manager (AAM).
-seo-title: Empfangen von Zielgruppendaten in Adobe Audience Manager (AAM)
-title: 'Empfangen von Zielgruppendaten '
-feature: Ausgehende Datenübertragungen
+seo-description: Receive audience data from Adobe Audience Manager (AAM).
+seo-title: Receiving Audience Data in Adobe Audience Manager (AAM)
+title: Empfangen von Zielgruppendaten
+feature: Outbound Data Transfers
 exl-id: 8b6ef84d-6b04-4a0e-9142-aa48b586c05e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 16%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
-# Empfangen von Zielgruppendaten 
+# Empfangen von Zielgruppendaten
 
 Empfangen von Zielgruppendaten von Audience Manager.
 
 * [ID-Synchronisierung für ausgehende Datenübertragungen](id-sync-outbound.md)
 
-   Beschreibt die Syntax und die Parameter, die im ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen Audience Manager und einem Drittanbieter für Daten verwendet werden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie Ihre erste ID-Synchronisierung versuchen.
+  Beschreibt die Syntax und die Parameter, die im ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen Audience Manager und einem Drittanbieter für Daten verwendet werden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie Ihre erste ID-Synchronisierung versuchen.
 
 * [Ausgehende Datenübertragungen in Echtzeit](real-time-outbound-transfers/real-time-outbound-transfers.md)
 
-   Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
+  Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
 
-* [Ausgehende Batch-Datenübertragungen ](batch-outbound-transfers/batch-outbound-overview.md)
+* [Ausgehende Batch-Datenübertragungen](batch-outbound-transfers/batch-outbound-overview.md)
 
-   Audience Manager sendet Batch-Daten gemäß diesen Spezifikationen an Drittanbieter von Inhalten.
+  Audience Manager sendet Batch-Daten gemäß diesen Spezifikationen an Drittanbieter von Inhalten.

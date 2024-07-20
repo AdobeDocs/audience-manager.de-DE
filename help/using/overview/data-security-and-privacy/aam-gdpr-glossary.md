@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
 source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 94%
+source-wordcount: '678'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ In diesem Artikel werden die Konzepte und Terminologie des Europäischen Datensc
 
 Die DSGVO trat am 25. Mai 2018 in Kraft, mit dem vorrangigen Ziel, Einzelpersonen in der EU (betroffene Personen) mehr Kontrolle über ihre personenbezogenen Daten zu geben und gleichzeitig das Regelungsumfeld für internationale Unternehmen durch eine bessere Vereinheitlichung der Vorschriften innerhalb der EU zu vereinfachen. Im Rahmen der DSGVO-Bereitschaft von Adobe hat das Adobe Audience Manager-Team die erforderlichen Dienste und Prozesse verbessert, um Zugriffs- und Löschanfragen von betroffenen Personen, Ihren Verbrauchern, zu unterstützen.
 
-Lesen Sie auch die DSGVO im Abschnitt [Übersicht über Datenschutzbestimmungen](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) für ein besseres Verständnis der Funktionsweise der DSGVO in Experience Cloud.
+Sehen Sie sich auch die DSGVO in der Übersicht über die [Datenschutzbestimmungen](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) an, um ein besseres Verständnis der DSGVO in Experience Cloud zu erhalten.
 
 ## DSGVO-Glossar {#gdpr-glossay}
 

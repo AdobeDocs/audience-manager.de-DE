@@ -1,7 +1,7 @@
 ---
 description: Methoden, mit denen Sie die gemeinsame Taxonomie des Audience Managers anzeigen können. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in Kategorien, die dem Branchenstandard entsprechen.
-seo-description: Methoden, mit denen Sie die gemeinsame Taxonomie des Audience Managers anzeigen können. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in Kategorien, die dem Branchenstandard entsprechen.
-seo-title: Taxonomische API-Methoden
+seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
+seo-title: Taxonomic API Methods
 solution: Audience Manager
 title: Taxonomische API-Methoden
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
@@ -9,8 +9,8 @@ feature: API
 exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Eine `GET` -Methode, die Details zur angegebenen taxonomischen Kategorie zurück
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anfrage gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist.
+Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Bei einer nicht erfolgreichen Anfrage wird `404 No Content` zurückgegeben, wenn die ID nicht vorhanden ist.
 
 ```
 {
@@ -104,7 +104,7 @@ Eine `GET` -Methode, die Unterkategorien für die angegebene übergeordnete Kate
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anfrage gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist. Kürzt aus Gründen der Kürze.
+Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Bei einer nicht erfolgreichen Anfrage wird `404 No Content` zurückgegeben, wenn die ID nicht vorhanden ist. Kürzt aus Gründen der Kürze.
 
 ```
 [

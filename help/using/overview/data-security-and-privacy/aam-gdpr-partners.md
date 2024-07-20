@@ -1,15 +1,15 @@
 ---
 description: Auf dieser Seite werden die direkt von unseren Partnern bereitgestellten Informationen sowie die Auswirkungen auf Ihr Vorgehen in Audience Manager beschrieben. Wesentliche Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, ergeben sich aus der DSGVO (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft getreten ist, und aus dem neuen IAB Framework (IAB DSGVO Transparency & Consent Framework).
-seo-description: Auf dieser Seite werden die direkt von unseren Partnern bereitgestellten Informationen sowie die Auswirkungen auf Ihr Vorgehen in Audience Manager beschrieben. Wesentliche Auswirkungen für die Partner, die diese Aktualisierungen vornehmen, ergeben sich aus der DSGVO (Allgemeine Datenschutzverordnung), die am 25. Mai 2018 in Kraft getreten ist, und aus dem neuen IAB Framework (IAB DSGVO Transparency & Consent Framework).
-seo-title: DSGVO-Überlegungen für Ziele
+seo-description: This page outlines information provided directly by our partners, as it becomes available, along with any implications related to your Audience Manager practice. Key implications for partners making these updates are the result of GDPR (General Data Protection Regulation), which went into effect on May 25th, 2018 and the new IAB GDPR Transparency & Consent Framework (IAB Framework).
+seo-title: GDPR Considerations for Destinations
 solution: Audience Manager
 title: DSGVO-Überlegungen für Ziele
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-feature: Data Governance und Datenschutz
+feature: Data Governance & Privacy
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '298'
 ht-degree: 96%
 
 ---

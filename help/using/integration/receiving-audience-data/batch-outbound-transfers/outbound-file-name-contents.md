@@ -1,16 +1,16 @@
 ---
 description: Beschreibt die erforderlichen Felder, Syntax und Konventionen, die zum Benennen einer ausgehenden Datendatei verwendet werden.
-seo-description: Beschreibt die erforderlichen Felder, Syntax und Konventionen, die zum Benennen einer ausgehenden Datendatei verwendet werden.
-seo-title: Syntax und Beispiele für ausgehende Datendateinamen
+seo-description: Describes the required fields, syntax, and conventions used to name an outbound data file.
+seo-title: Outbound Data File Name  Syntax and Examples
 solution: Audience Manager
 title: Syntax und Beispiele für ausgehende Datendateinamen
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-feature: Ausgehende Datenübertragungen
+feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 6%
+source-wordcount: '678'
+ht-degree: 5%
 
 ---
 
@@ -49,12 +49,12 @@ Die Tabelle definiert die Elemente in einem Namen einer ausgehenden Datendatei.
    <td colname="col2"> <p>Bezieht sich auf die Datenübertragungsmethoden. Zu den Übertragungsmethoden gehören: </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Übertragung mit SFTP </li> 
-     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3  </span> - Übertragung auf  <span class="keyword"> Amazon AWS  </span> </li> 
+     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3 </span> - Weiterleiten an <span class="keyword"> Amazon AWS </span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>Ziel-ID. </p> <p>Im Audience Manager <span class="keyword"> </span> ist ein Ziel die Integrationsinstanz, in der Sie Ihre Zielsegmente zuordnen können. Kunden können je nach Geschäftsanforderung über mehrere Ziele verfügen. </p> </td> 
+   <td colname="col2"> <p>Ziel-ID. </p> <p>In <span class="keyword"> Audience Manager </span> ist ein Ziel die Instanz der Integration, in der Sie Ihre Zielsegmente zuordnen können. Kunden können je nach Geschäftsanforderung über mehrere Ziele verfügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
@@ -96,7 +96,7 @@ Die Tabelle definiert die Elemente in einem Namen einer ausgehenden Datendatei.
 
 ### Szenario 1
 
-Dateien, die an einen [!DNL Amazon S3]-Speicherort gesendet werden, mit *`PID_ALIAS="XYZCustomer"`* und mit [!DNL Google Advertiser IDs] im Dateiinhalt.
+Dateien, die an einen [!DNL Amazon S3] -Speicherort gesendet werden, mit *`PID_ALIAS="XYZCustomer"`* und mit [!DNL Google Advertiser IDs] im Dateiinhalt.
 
 Beispielsweise inkrementelle Dateien:
 
@@ -106,7 +106,7 @@ Beispielsweise inkrementelle Dateien:
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
-z. B. vollständige Dateien:
+Beispiel: vollständige Dateien:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
@@ -124,14 +124,14 @@ Beispielsweise inkrementelle Dateien:
  <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-z. B. vollständige Dateien:
+Beispiel: vollständige Dateien:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Szenario 3**: Dateien, die an den  [!DNL FTP] Speicherort gesendet werden, mit  *`PID_ALIAS="XYZCustomer"`* und mit Benutzer-ID von Drittanbietern im Dateiinhalt (  *`Vendor ID=45454`*):
+**Szenario 3**: Dateien werden an den Speicherort [!DNL FTP] mit *`PID_ALIAS="XYZCustomer"`* und mit der Benutzer-ID eines Drittanbieters im Dateiinhalt ( *`Vendor ID=45454`*) gesendet:
 
 Beispielsweise inkrementelle Dateien:
 
@@ -141,7 +141,7 @@ Beispielsweise inkrementelle Dateien:
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-z. B. vollständige Dateien:
+Beispiel: vollständige Dateien:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
@@ -197,7 +197,7 @@ Die Tabelle listet Variablen auf, die den Inhalt einer Datendatei definieren.
 
 ### Beispiel: Grundlegendes Dateiformat
 
-Eine ordnungsgemäß formatierte Datendatei könnte dem folgenden Beispiel ähneln. Dieser Dateieintrag zeigt an, dass ein Benutzer für die Segmente 24, 26 und 27 qualifiziert ist. Bei Bedarf werden die `UUID`- und die Segment-IDs durch ein Leerzeichen getrennt. Ein anderes Leerzeichen trennt die Sätze der Segment-IDs. In diesem Beispiel gehört ein Benutzer zu den Segmenten 24, 26 und 27. Sie wurden aus den Segmenten 25 und 28 entfernt.
+Eine ordnungsgemäß formatierte Datendatei könnte dem folgenden Beispiel ähneln. Dieser Dateieintrag zeigt an, dass ein Benutzer für die Segmente 24, 26 und 27 qualifiziert ist. Bei Bedarf werden die `UUID` - und die Segment-IDs durch ein Leerzeichen getrennt. Ein anderes Leerzeichen trennt die Sätze der Segment-IDs. In diesem Beispiel gehört ein Benutzer zu den Segmenten 24, 26 und 27. Sie wurden aus den Segmenten 25 und 28 entfernt.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28

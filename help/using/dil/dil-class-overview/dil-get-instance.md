@@ -10,8 +10,8 @@ feature: DIL Implementation
 exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
+>Ab Juli 2023 hat Adobe die Entwicklung der Erweiterung [!DNL Data Integration Library (DIL)] und der Erweiterung [!DNL DIL] eingestellt.
 >
->Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
+>Bestehende Kunden können weiterhin ihre [!DNL DIL] -Implementierung verwenden. Adobe wird jedoch nicht mehr [!DNL DIL] als bisher entwickeln. Kunden wird empfohlen, das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie zu bewerten.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
+>Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten stattdessen das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
 Ruft eine Partner-spezifische DIL-Instanz ab.
 
@@ -40,7 +40,7 @@ Ruft eine Partner-spezifische DIL-Instanz ab.
 
 ## Antwort
 
-Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine Partner-spezifische [!UICONTROL DIL] -Instanz. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung zurück (gibt diesen nicht aus): &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine Partner-spezifische [!UICONTROL DIL] -Instanz zurück. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot; zurück (gibt diesen nicht aus).
 
 ## Beispielcode
 

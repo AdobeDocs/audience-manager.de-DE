@@ -4,20 +4,20 @@ keywords: verwertbare Protokolle, alf, ALF
 seo-description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append pixels.
 seo-title: Actionable Log Files
 solution: Audience Manager
-title: Ausführbare Protokolldateien
+title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
 source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1601'
 ht-degree: 3%
 
 ---
 
-# Ausführbare Protokolldateien {#actionable-log-files}
+# Actionable Log Files {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] ermöglichen es Ihnen, Mediendaten aus Anzeigenserver-Protokolldateien zu erfassen und die Daten zum Erstellen von Eigenschaften in Audience Manager zu verwenden. Erfassen von Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne anhängen zu müssen [Pixel](../../integration/media-data-integration/impression-data-pixels.md).
+Mit [!UICONTROL Actionable Log Files] können Sie Mediendaten aus Anzeigenserver-Protokolldateien erfassen und die Daten zum Erstellen von Eigenschaften in Audience Manager verwenden. Erfassen von Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne [Pixel](../../integration/media-data-integration/impression-data-pixels.md) anhängen zu müssen.
 
 >[!NOTE]
 >
@@ -25,17 +25,17 @@ ht-degree: 3%
 
 ## Zielsetzung {#purpose}
 
-[!UICONTROL Actionable Log Files] Optimierung der Erfassung von Impressionen, Klicks und Konversionen von Anzeigen-Servern. Verwenden Sie diese Informationen für die Benutzersegmentierung, ohne die Pixelmedien manuell verwenden zu müssen, um Kampagnenattribute an zu senden. [!DNL Audience Manager].
+[!UICONTROL Actionable Log Files] optimiert die Art und Weise, wie Sie Impressionen, Klicks und Konversionen von Anzeigen-Servern erfassen. Verwenden Sie diese Informationen für die Benutzersegmentierung, ohne die Pixelmedien manuell an [!DNL Audience Manager] senden zu müssen.
 
 ## Erste Schritte {#getting-started}
 
-Erste Schritte mit [!UICONTROL Actionable Log Files], müssen Sie Protokolldaten in [!DNL Audience Manager]. Die folgenden Links helfen Ihnen bei den ersten Schritten:
+Um mit [!UICONTROL Actionable Log Files] zu beginnen, müssen Sie Protokolldaten in [!DNL Audience Manager] importieren. Die folgenden Links helfen Ihnen bei den ersten Schritten:
 
-* Für [!UICONTROL Google Campaign Manager] Protokolle, siehe [Importieren von Google Campaign Manager-Datendateien in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *und* Kontakt [!DNL Audience Manager] Berater.
-* Für [!UICONTROL Google Ad Manager] (ehemals Google DFP)-Protokolle, siehe [Importieren von Google Ad Manager-Datendateien in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *und* Kontakt [!DNL Audience Manager] Berater.
-* Weitere Adserver-Protokolle finden Sie unter [Daten- und Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *und* Kontakt [!DNL Audience Manager] Berater.
+* Informationen zu [!UICONTROL Google Campaign Manager] -Protokollen finden Sie unter [Importieren von Google Campaign Manager-Datendateien in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *und* bei Ihrem [!DNL Audience Manager] -Berater.
+* Informationen zu [!UICONTROL Google Ad Manager]-Protokollen (ehemals Google DFP) finden Sie unter [Importieren von Google Ad Manager-Datendateien in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *und* bei Ihrem [!DNL Audience Manager] -Berater.
+* Weitere Adserver-Protokolle finden Sie unter [Daten- und Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *und* bei Ihrem [!DNL Audience Manager] -Berater.
 
-Wenn Sie bereits Protokolldaten in [!DNL Audience Manager], fragen Sie [!DNL Audience Manager] Berater oder [Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) aktivieren [!UICONTROL Actionable Log Files] für Sie.
+Wenn Sie bereits Protokolldaten in [!DNL Audience Manager] importieren, bitten Sie Ihren [!DNL Audience Manager] -Berater oder die [Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html), [!UICONTROL Actionable Log Files] für Sie zu aktivieren.
 
 <!--
 
@@ -47,33 +47,32 @@ Wenn Sie bereits Protokolldaten in [!DNL Audience Manager], fragen Sie [!DNL Aud
 
 ## Arbeiten mit ausführbaren Protokolldateien {#working-with-actionable-log-files}
 
-Mit [!UICONTROL Actionable Log Files], werden die Informationen aus den Adserver-Protokollen in [!DNL Audience Manager] auf die gleiche Weise wie Daten aus Echtzeit-Website-Interaktionen erfasst werden. [!DNL Audience Manager] stellt eine Verbindung zum Protokollspeicher Ihres Adservers her, analysiert die Informationen aus den Protokollen und sendet die Protokolldaten als verwertbare Signale an unsere [Datenerfassungsserver](../../reference/system-components/components-data-collection.md#dcs-pcs).
+Mit [!UICONTROL Actionable Log Files] werden die Informationen aus den Adserver-Protokollen in [!DNL Audience Manager] auf dieselbe Weise erfasst wie Daten aus Echtzeit-Website-Interaktionen. [!DNL Audience Manager] stellt eine Verbindung zu Ihrem Protokollspeicher für den Anzeigenserver her, analysiert die Informationen aus den Protokollen und sendet die Protokolldaten als verwertbare Signale an unsere [Datenerfassungsserver](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-Sie müssen weiterhin regelbasierte Eigenschaften einrichten, um die umsetzbaren Signale zu erfassen. Erfahren Sie, wie Sie regelbasierte Eigenschaften im Abschnitt [Audience Manager-Benutzeroberfläche](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) oder mithilfe von [Tools für die Massenverwaltung](../../reference/bulk-management-tools/bulk-create.md). Scrollen Sie nach unten zum [Umsetzbare Signale](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) für eine Liste aller Schlüssel, die Sie in regelbasierten Eigenschaften verwenden können.
+Sie müssen weiterhin regelbasierte Eigenschaften einrichten, um die umsetzbaren Signale zu erfassen. Erfahren Sie, wie Sie regelbasierte Eigenschaften entweder in der [Audience Manager-Benutzeroberfläche](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) oder mithilfe unserer [Tools für die Massenverwaltung](../../reference/bulk-management-tools/bulk-create.md) einrichten. Scrollen Sie nach unten zum Abschnitt [Umsetzbare Signale](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) , um eine Liste aller Schlüssel zu erhalten, die Sie in regelbasierten Eigenschaften verwenden können.
 
 >[!IMPORTANT]
 >
->Wir empfehlen die Implementierung von [!UICONTROL Actionable Log Files] *anstelle von*  [Pixelaufrufe](../../integration/media-data-integration/impression-data-pixels.md). Wir halten die Verwendung beider Optionen ab, da dies zu einer Erhöhung der Häufigkeitszahlen für Eigenschaften führt.
+>Wir empfehlen die Implementierung von [!UICONTROL Actionable Log Files] *anstelle von* [Pixelaufrufen](../../integration/media-data-integration/impression-data-pixels.md). Wir halten die Verwendung beider Optionen ab, da dies zu einer Erhöhung der Häufigkeitszahlen für Eigenschaften führt.
 
 ## Umsetzbare Signale {#actionable-signals}
 
-Signale sind [kleinste Dateneinheiten](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] ermöglichen es Ihnen, Advertiser-, Business Unit-, Kreativ- und Kampagnenwerte in Impressionsereignissen, Klickereignissen und Konversionsereignissen als Signale aus Anzeigenserverprotokollen zu erfassen.
+Signale sind die [kleinsten Dateneinheiten](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. Mit [!UICONTROL Actionable Log Files] können Sie Advertiser-, Geschäftseinheiten-, Kreativ- und Kampagnenwerte in Impressionsereignissen, Klick- und Konversionsereignissen als Signale aus Anzeigenserverprotokollen erfassen.
 
 >[!IMPORTANT]
 >
->[!UICONTROL Actionable Log Files] werden für die folgenden Adserver unterstützt:
+>[!UICONTROL Actionable Log Files] wird für die folgenden Adserver unterstützt:
 > <br>
 >
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
 > * [Adobe Advertising Cloud, Flashspeak und Sizmek](#generic-logs-signals)
 
-
 Denken Sie daran, dass Sie zur Verwendung dieser Informationen für die Erstellung und Segmentierung von Zielgruppen die regelbasierten Eigenschaften selbst einrichten müssen.
 
 ### Ausführbare Signale aus Google Campaign Manager-Protokollen {#dcm-logs-signals}
 
-In der Tabelle sind die aussagekräftigen Signale aus [!DNL Google Campaign Manager] Protokolldateien:
+In der Tabelle sind die aussagekräftigen Signale aus den [!DNL Google Campaign Manager] Protokolldateien aufgeführt:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -88,7 +87,7 @@ In der Tabelle sind die aussagekräftigen Signale aus [!DNL Google Campaign Mana
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Nur für Konversionsereignisse verfügbar. </p> <p>Stellt die numerische ID für die Konversionsaktivität im Google Campaign Manager dar. Dieses Feld wird der Aktivitäts-ID aus dem Google Campaign Manager zugeordnet. </p> <p> <p>Tipp: Sie können mehrere oder spezifische Konversionsaktivitäten über Google Campaign Manager erfassen. Erstellen von Eigenschaften mit <code> d_conversion = activity ID</code> für jede Konversionsaktivität über Google Campaign Manager. </p> </p> </td> 
+   <td colname="col3"> <p>Nur für Konversionsereignisse verfügbar. </p> <p>Stellt die numerische ID für die Konversionsaktivität im Google Campaign Manager dar. Dieses Feld wird der Aktivitäts-ID aus dem Google Campaign Manager zugeordnet. </p> <p> <p>Tipp: Sie können mehrere oder spezifische Konversionsaktivitäten über Google Campaign Manager erfassen. Erstellen Sie Eigenschaften mit <code> d_conversion = activity ID</code> für jede Konversionsaktivität aus dem Google Campaign Manager. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
@@ -152,19 +151,19 @@ In der Tabelle sind die aussagekräftigen Signale aus [!DNL Google Campaign Mana
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>Die ID der Datenquelle, die Sie zum Erfassen von Google Campaign Manager-Daten verwenden. Siehe <a href="../../features/manage-datasources.md#create-data-source"> Erstellen einer Datenquelle</a>. </p> </td> 
+   <td colname="col3"> <p>Die ID der Datenquelle, die Sie zum Erfassen von Google Campaign Manager-Daten verwenden. Siehe <a href="../../features/manage-datasources.md#create-data-source"> Erstellen einer Daten-Source</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-Die in der Tabelle beschriebenen Signale werden in [!DNL Audience Manager] wie in Echtzeit `HTTP` aufrufen. Der folgende Beispielaufruf enthält Informationen zu einem Konversionsereignis von [!DNL Google Campaign Manager]. Aufrufe müssen nicht notwendigerweise *all* die Signale im Beispielaufruf.
+Die in der Tabelle beschriebenen Signale werden in [!DNL Audience Manager] wie ein Echtzeit-`HTTP`-Aufruf erfasst. Der folgende Beispielaufruf enthält Informationen zu einem Konversionsereignis von [!DNL Google Campaign Manager]. Aufrufe müssen nicht unbedingt *alle* die Signale im Beispielaufruf enthalten.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-Für einen [!DNL Google Campaign Manager] Protokolldatei von 2 Millionen Zeilen, alle Eigenschaften, die aus umsetzbaren Signalen erstellt wurden, werden innerhalb von etwa einer Stunde nach der Verarbeitung der Protokolle realisiert.
+Für eine durchschnittlich 2 Millionen Zeilen große [!DNL Google Campaign Manager] Protokolldatei werden alle Eigenschaften, die aus umsetzbaren Signalen erstellt werden, innerhalb einer Stunde nach der Verarbeitung der Protokolle realisiert.
 
 <!--
 Removed  {importance="high"} for ExL
@@ -172,17 +171,16 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->Der in der Variablen [!DNL Google Campaign Manager] -Protokolle werden berücksichtigt und an die [!UICONTROL Data Collection Servers].
+>Der in den [!DNL Google Campaign Manager] -Protokollen angegebene Zeitstempel des Ereignisses wird berücksichtigt und an die [!UICONTROL Data Collection Servers] übergeben.
 >
->* Wenn ein Zeitstempel nicht für eine Datenzeile im [!DNL Google Campaign Manager] Protokolldatei verwenden, verwenden wir die Zeit der `HTTP` als Zeitstempel des Ereignisses aufrufen.
->* Wenn die Datenzeile im [!DNL Google Campaign Manager] Protokolldatei einen falsch formatierten Zeitstempel enthält, wird die gesamte Zeile ignoriert.
-
+>* Wenn für eine Datenzeile in der Protokolldatei [!DNL Google Campaign Manager] kein Zeitstempel verfügbar ist, verwenden wir die Zeit des Aufrufs `HTTP` als Zeitstempel des Ereignisses.
+>* Wenn die Datenzeile in der Protokolldatei [!DNL Google Campaign Manager] einen falsch formatierten Zeitstempel enthält, wird die gesamte Zeile ignoriert.
 
 <br>
 
-### Umsetzbare Signale von [!DNL Google Ad Manager] logs {#ad-manager-logs-signals}
+### Ausführbare Signale aus [!DNL Google Ad Manager] Protokollen {#ad-manager-logs-signals}
 
-In der Tabelle sind die aussagekräftigen Signale aus [!DNL Google Ad Manager] Protokolldateien:
+In der Tabelle sind die aussagekräftigen Signale aus den [!DNL Google Ad Manager] Protokolldateien aufgeführt:
 
 
 | Headername in Protokolldatei | Signal | Beschreibung |
@@ -190,8 +188,8 @@ In der Tabelle sind die aussagekräftigen Signale aus [!DNL Google Ad Manager] P
 | `LineItemId` | `d_lineitem` | Numerische ID für das bereitgestellte Ad Manager-Zeilenelement |
 | `OrderId` | `d_orderid` | Die numerische ID für die Anzeigenmanagerreihenfolge, die das bereitgestellte Zeilenelement und das Kreativelement enthielt. |
 | `CreativeId` | `d_creative` | Die numerische ID für die bereitgestellten Ad Manager-Kreativelemente. |
-| `-` | `d_event` | Gibt den Ereignistyp an. Audience Manager liest den Ereignistyp aus dem Namen der Ad Manager-Protokolldatei und wandelt ihn in ein umsetzbares Signal um. Zulässige Werte sind: <br> <ul><li>d_event = imp für Impressionen.</li><li>d_event = Klick für Klicks.</li><li>d_event = conv für Konversionen und Aktivitäten.</li></ul> |
-| `-` | `d_src` | Die ID der Datenquelle, die Sie zum Erfassen von Ad Manager-Daten verwenden. Siehe [Erstellen einer Datenquelle](/help/using/features/manage-datasources.md). |
+| `-` | `d_event` | Gibt den Ereignistyp an. Audience Manager liest den Ereignistyp aus dem Namen der Ad Manager-Protokolldatei und wandelt ihn in ein umsetzbares Signal um. Zulässige Werte sind: <br> <ul><li>d_event = imp für Impressionen.</li><li>d_event = Klicks.</li><li>d_event = conv für Konversionen und Aktivitäten.</li></ul> |
+| `-` | `d_src` | Die ID der Datenquelle, die Sie zum Erfassen von Ad Manager-Daten verwenden. Siehe [Erstellen einer Daten-Source](/help/using/features/manage-datasources.md). |
 
 Die in der Tabelle beschriebenen Signale werden in Audience Manager wie ein Echtzeit-HTTP-Aufruf erfasst. Der folgende Beispielaufruf enthält Informationen zu einem Konversionsereignis von Google Ad Manager. Aufrufe müssen nicht unbedingt alle Signale in den Beispielaufruf einschließen.
 
@@ -201,18 +199,17 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 >[!NOTE]
 >
->Der in der Variablen [!DNL Google Ad Manager] -Protokolle werden berücksichtigt und an die [!UICONTROL Data Collection Servers].
+>Der in den [!DNL Google Ad Manager] -Protokollen angegebene Zeitstempel des Ereignisses wird berücksichtigt und an die [!UICONTROL Data Collection Servers] übergeben.
 >
 >
->* Wenn ein Zeitstempel nicht für eine Datenzeile im [!DNL Google Ad Manager] Protokolldatei verwenden, verwenden wir die Zeit der `HTTP` als Zeitstempel des Ereignisses aufrufen.
->* Wenn die Datenzeile im [!DNL Google Ad Manager] Protokolldatei einen falsch formatierten Zeitstempel enthält, wird die gesamte Zeile ignoriert.
+>* Wenn für eine Datenzeile in der Protokolldatei [!DNL Google Ad Manager] kein Zeitstempel verfügbar ist, verwenden wir die Zeit des Aufrufs `HTTP` als Zeitstempel des Ereignisses.
+>* Wenn die Datenzeile in der Protokolldatei [!DNL Google Ad Manager] einen falsch formatierten Zeitstempel enthält, wird die gesamte Zeile ignoriert.
 
-
-<br> 
+<br>
 
 ### Ausführbare Signale von Adobe Advertising Cloud-, Flashspeak- und Sizmek-Anzeigenserverprotokollen {#generic-logs-signals}
 
-Zunächst müssen Sie Ihre Adserver-Protokolle in unseren Amazon S3-Buckets hinterlegen. Lesen Sie dazu [Datendateien für Audience Optimization-Berichte und ausführbare Protokolldateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *und* Kontakt [!DNL Audience Manager] Berater. In der Tabelle sind die aussagekräftigen Signale aus den Protokolldateien des Anzeigenservers aufgeführt:
+Zunächst müssen Sie Ihre Adserver-Protokolle in unseren Amazon S3-Buckets hinterlegen. Lesen Sie dazu den Abschnitt [Datendateien für Audience Optimization-Berichte und ausführbare Protokolldateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *und* und wenden Sie sich an Ihren [!DNL Audience Manager] -Berater. In der Tabelle sind die aussagekräftigen Signale aus den Protokolldateien des Anzeigenservers aufgeführt:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -230,7 +227,7 @@ Zunächst müssen Sie Ihre Adserver-Protokolle in unseren Amazon S3-Buckets hint
    <td colname="col3"> <p>Gibt an, ob eine Konvertierung übereinstimmt oder nicht. Zu den Optionen zählen: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 0</code> Impression </li> 
-      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 1</code> Klicken </li> 
+      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 1</code> Klick </li> 
       <li id="li_81007A984F554932AC3354E41A42D57B"> <code> -1</code> Nicht zugeordnet oder unbekannt </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> <code> 0,1,-1</code> </p> </td> 
@@ -238,13 +235,13 @@ Zunächst müssen Sie Ihre Adserver-Protokolle in unseren Amazon S3-Buckets hint
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> Ein UTC-Datum und eine UTC-Uhrzeit für das Impression-, Klick- oder Konversionsereignis. Verwenden Sie die <code>yyyy-MM-dd HH:mm:ss</code> Format. </p></td> 
+   <td colname="col3"> <p> Ein UTC-Datum und eine UTC-Uhrzeit für das Impression-, Klick- oder Konversionsereignis. Verwenden Sie das Format <code>yyyy-MM-dd HH:mm:ss</code> . </p></td> 
    <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dieses Feld nicht mit <a href="../../features/datasources-list-and-settings.md">Audience Manager-Datenquellen.</a></p></td> 
+   <td colname="col3"> <p>Ein Integrationscode für die Datenquelle Ihres Advertisers. Beachten Sie, dass dieses Feld nicht mit <a href="../../features/datasources-list-and-settings.md">Audience Manager-Datenquellen verknüpft ist.</a></p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -262,19 +259,19 @@ Zunächst müssen Sie Ihre Adserver-Protokolle in unseren Amazon S3-Buckets hint
   <tr> 
    <td colname="col1"> <p> <code>Creative-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col3"> <p>Die Creative ID aus der Protokolldatei. </p> </td> 
+   <td colname="col3"> <p>Die Creative-ID aus der Protokolldatei. </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr>
     <tr> 
    <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
    <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
-   <td colname="col3"> Kauf- oder anderer Konversionsbetrag. Datentyp: Float. </td> 
+   <td colname="col3"> Kauf- oder anderer Konversionsbetrag. Datentyp: Gleitkommazahl. </td> 
    <td colname="col4"> <p> <code> 0.001</code> </p> </td> 
   </tr>
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Gibt den Ereignistyp an. Audience Manager liest den Ereignistyp aus dem Protokolldateinamen und wandelt ihn in ein umsetzbares Signal um. Siehe <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">Namenskonventionen für Protokolldateien</a>. </p> <p>Zulässige Werte sind: </p> <p> 
+   <td colname="col3"> <p>Gibt den Ereignistyp an. Audience Manager liest den Ereignistyp aus dem Protokolldateinamen und wandelt ihn in ein umsetzbares Signal um. Siehe <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">Benennungskonventionen für Protokolldateien</a>. </p> <p>Zulässige Werte sind: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> für Impressionen. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> für Klicks. </li> 
@@ -285,13 +282,13 @@ Zunächst müssen Sie Ihre Adserver-Protokolle in unseren Amazon S3-Buckets hint
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>Die ID der Datenquelle, die Sie zum Erfassen von Protokolldaten verwenden. Siehe <a href="../../features/manage-datasources.md#create-data-source"> Erstellen einer Datenquelle</a>. </p> </td> 
+   <td colname="col3"> <p>Die ID der Datenquelle, die Sie zum Erfassen von Protokolldaten verwenden. Siehe <a href="../../features/manage-datasources.md#create-data-source"> Erstellen einer Daten-Source</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-Die in der Tabelle beschriebenen Signale werden in [!DNL Audience Manager] wie in Echtzeit `HTTP` aufrufen. Aufrufe müssen nicht notwendigerweise *all* die Signale im Beispielaufruf.
+Die in der Tabelle beschriebenen Signale werden in [!DNL Audience Manager] wie ein Echtzeit-`HTTP`-Aufruf erfasst. Aufrufe müssen nicht unbedingt *alle* die Signale im Beispielaufruf enthalten.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
@@ -299,53 +296,52 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Arbeiten mit ausführbaren Signalen in der Audience Manager-Benutzeroberfläche {#actionable-signals-in-ui}
 
-Sie können Ihre eingehenden umsetzbaren Signale im [Signalsuche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) -Schnittstelle.
+Sie können Ihre eingehenden verwertbaren Signale in der Oberfläche [Signalsuche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) anzeigen.
 
-Navigieren Sie zu **Zielgruppendaten** (1) > **Signale** (2) > **Suche** (3) und wählen Sie die **Ausführbare Protokolldateien** (4) zu filtern.
+Wechseln Sie zu **Zielgruppendaten** (1) > **Signale** (2) > **Suchen** (3) und wählen Sie den Filter **Umsetzbare Protokolldateien** (4) aus.
 
 ![Umsetzbare Signale in der Benutzeroberfläche](/help/using/integration/assets/alf-in-signals.png)
 
-Um regelbasierte Eigenschaften mithilfe Ihrer umsetzbaren Signale zu erstellen, wählen Sie **Ausführbare Protokolldateien** (1) wählen Sie die umsetzbaren Signale aus, die Sie als Eigenschaftsregeln verwenden möchten (2), und drücken Sie die Eingabetaste **Erstellen von Eigenschaften aus ausgewählten Signalen** Absatz 3.
+Um regelbasierte Eigenschaften mithilfe Ihrer umsetzbaren Signale zu erstellen, wählen Sie **Umsetzbare Protokolldateien** (1), wählen Sie die umsetzbaren Signale aus, die Sie als Eigenschaftsregeln verwenden möchten (2), und drücken Sie die Taste **Eigenschaft aus ausgewählten Signalen erstellen** (3).
 
 ![Erstellen von Eigenschaften aus Signalen](/help/using/integration/assets/alf-create-trait.png)
 
 
 ## Nutzungsszenarios {#use-cases}
 
-Ein Vorteil bei der Umsetzung [!UICONTROL Actionable Log Files] ist die anwendbare Option [Neuigkeit und Häufigkeit](../../features/segments/recency-and-frequency.md) Steuerungen [regelbasierte Eigenschaften](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) die aussagekräftige Signale enthalten. Auf diese Weise können Sie beispielsweise die Häufigkeit begrenzen, mit der ein Benutzer innerhalb einer Medienkampagne einen bestimmten kreativen Inhalt anzeigt. Lesen [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) , um zu erfahren, wie man das macht. Weitere Anwendungsfälle sind:
+Ein Vorteil der Implementierung von [!UICONTROL Actionable Log Files] besteht darin, die [Neuigkeit und Häufigkeit](../../features/segments/recency-and-frequency.md)-Steuerelemente auf alle [regelbasierten Eigenschaften](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) anzuwenden, die umsetzbare Signale enthalten. Auf diese Weise können Sie beispielsweise die Häufigkeit begrenzen, mit der ein Benutzer innerhalb einer Medienkampagne einen bestimmten kreativen Inhalt anzeigt. Lesen Sie [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) , um zu erfahren, wie Sie dies durchführen. Weitere Anwendungsfälle sind:
 
 ### Retargeting-Benutzer
 
 Retargeting von Benutzern, die Creative 123 gesehen haben, aber nicht geklickt oder konvertiert haben und ihnen kreative Inhalte zeigen 456. Gehen Sie folgendermaßen vor:
 
-1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die das Kreativ gesehen haben. Angenommen, Sie benennen die Eigenschaft [!DNL Creative Trait 123]. Verwenden Sie die Eigenschaftsregel:
+1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die das Kreativ gesehen haben. Nehmen wir an, Sie benennen die Eigenschaft &quot;[!DNL Creative Trait 123]&quot;. Verwenden Sie die Eigenschaftsregel:
 
    `d_creative == 123 AND d_event == imp`
 
-2. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die klicken oder konvertieren. Nehmen wir an, Sie nennen diesen [!DNL Click and Converter]. Verwenden Sie die Eigenschaftsregel:
+2. Erstellen Sie eine Eigenschaft zum Erfassen von Benutzern, die klicken oder konvertieren. Nehmen wir an, Sie benennen dieses &quot;[!DNL Click and Converter]&quot;. Verwenden Sie die Eigenschaftsregel:
 
    `d_event == click OR d_event=conv`
 
-3. Erstellen Sie ein Segment, das mit Benutzern gefüllt wird, die kreative Inhalte 123 gesehen, aber nicht geklickt oder konvertiert haben. Benennen Sie ihn [!DNL Retarget Users] und verwenden Sie die Segmentregel:
+3. Erstellen Sie ein Segment, das mit Benutzern gefüllt wird, die kreative Inhalte 123 gesehen, aber nicht geklickt oder konvertiert haben. Benennen Sie ihn mit &quot;[!DNL Retarget Users]&quot;und verwenden Sie die Segmentregel:
 
    `Creative Trait 123 AND NOT Click and Converter`
 
-4. Segment zuordnen [!DNL Retarget Users] an ein Ziel zu gelangen und Benutzer im Ziel mit kreativem Inhalt 456 anzusprechen.
+4. Ordnen Sie das Segment [!DNL Retarget Users] einem Ziel zu und wählen Sie Benutzer im Ziel mit kreativem Code 456 aus.
 
-### Verwenden Sie die Google Campaign Manager Floodlight-Aktivität in den Audience Optimization-Berichten oder in Audience Lab.
+### Verwenden Sie die Google Campaign Manager Floodlight-Aktivität in den Audience Optimization-Berichten oder im Audience Lab.
 
-[Floodlight-Tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) Advertiser können Benutzerkonversionen verfolgen. Mit [!UICONTROL Actionable Log Files]können Sie die [!DNL Google Campaign Manager] Konversionen in der [Audience Optimization-Berichte](../../reporting/audience-optimization-reports/audience-optimization-reports.md) oder [Audience Lab](../../features/audience-lab/audience-lab.md):
+[Floodlight-Tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) ermöglichen Advertisern das Tracking von Benutzerkonversionen. Mit [!UICONTROL Actionable Log Files] können Sie die [!DNL Google Campaign Manager] Konversionen in den [Audience Optimization-Berichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md) oder im [Audience Lab](../../features/audience-lab/audience-lab.md) verfolgen:
 
 1. Erstellen Sie eine Eigenschaft und verwenden Sie die folgende Eigenschaftsregel, um eine Konversion aus den Adserver-Protokollen zu erfassen:
 
    `d_event == conv AND d_conversion == 123`
 
-   Beim Erstellen der Eigenschaft im Audience Manager [!UICONTROL UI]auswählen [!UICONTROL Conversion] als [!UICONTROL Event Type].
+   Wählen Sie beim Erstellen der Eigenschaft im Audience Manager [!UICONTROL UI] [!UICONTROL Conversion] als [!UICONTROL Event Type] aus.
 
-2. Nachdem Sie die Eigenschaft erstellt haben, beginnt die Konvertierung mit der Berichterstattung im [!UICONTROL Audience Optimization Reports] und [!UICONTROL Audience Lab].
+2. Nachdem Sie die Eigenschaft erstellt haben, beginnt die Konvertierung mit der Berichterstattung in den [!UICONTROL Audience Optimization Reports] und in [!UICONTROL Audience Lab].
 
 >[!MORELIKETHIS]
 >
 >* [Importieren von Google Kampagne Manager-Datendateien in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Berichte zur Zielgruppenoptimierung](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
-

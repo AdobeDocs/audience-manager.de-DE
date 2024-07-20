@@ -1,15 +1,15 @@
 ---
 description: Definitionen und Links zu weiterführender Literatur.
-seo-description: Definitionen und Links zu weiterführender Literatur.
-seo-title: Glossar
+seo-description: Definitions and links to further reading.
+seo-title: Glossary
 solution: Audience Manager
 title: Glossar
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: 'Referenz '
+feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,7 @@ Siehe „DPUUID“ unter [Index of IDs in Audience Manager](../reference/ids-in-
 
 Bei [ansprechbaren Zielgruppen](/help/using/features/addressable-audiences.md) stellt diese Metrik Geräte dar, die:
 * während des Rückblickzeitraums entweder eine regelbasierte oder eine integrierte Eigenschaft implementiert haben
-   **UND**
+  **UND**
 * unabhängig vom Zeitpunkt der Synchronisierung eine ID-Synchronisierung mit dem ausgewählten Ziel ausführen.
 
 

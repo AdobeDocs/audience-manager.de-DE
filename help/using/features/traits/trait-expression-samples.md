@@ -1,34 +1,34 @@
 ---
 description: Beispiele für die Erstellung von Ausdrücken im Code-Editor von Expression Builder.
-seo-description: Beispiele für die Erstellung von Ausdrücken im Code-Editor von Expression Builder.
-seo-title: Beispielausdrücke mit Booleschen und Vergleichsoperatoren
+seo-description: Examples you can refer to for creating expressions in the Expression Builder code editor.
+seo-title: Sample Expressions With Boolean and Comparison Operators
 solution: Audience Manager
 title: Beispielausdrücke mit Booleschen und Vergleichsoperatoren
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-feature: 'Eigenschaften '
+feature: Traits
 exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 13%
+source-wordcount: '193'
+ht-degree: 3%
 
 ---
 
 # Beispielausdrücke mit Booleschen und Vergleichsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
 
-Beispiele für die Erstellung von Ausdrücken im Code-Editor [!UICONTROL Expression Builder].
+Beispiele für das Erstellen von Ausdrücken im Code-Editor [!UICONTROL Expression Builder].
 
 ## Übersicht über Codebeispiele {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Erstellen Sie Ihre eigenen Eigenschaftsregeln mit dem Code-Editor [!UICONTROL Expression Builder] . Die folgenden Beispiele helfen Ihnen bei den ersten Schritten. Einige der Beispiele stellen der Variablen *`key`* `c_` ein, um sie als benutzerdefinierte Variable zu identifizieren. Fügen Sie das Präfix `c_` (oder eine andere Benennungskonvention) für die Variable *`key`* ein, wenn Ihre Ereignisaufrufe Daten mithilfe dieser Syntax an [!DNL Audience Manager] senden.
+Erstellen Sie Ihre eigenen Eigenschaftsregeln mit dem Code-Editor [!UICONTROL Expression Builder] . Die folgenden Beispiele helfen Ihnen bei den ersten Schritten. Einige der Beispiele stellen der *`key`* -Variablen den Wert `c_` vor, um sie als benutzerdefinierte Variable zu identifizieren. Fügen Sie das Präfix `c_` (oder eine andere Benennungsregel) für die Variable *`key`* hinzu, wenn Ihre Ereignisaufrufe Daten mit dieser Syntax an [!DNL Audience Manager] senden.
 
 ## Boolesche Ausdrücke {#boolean-expressions}
 
 ### UND-Beispiel
 
-Die Regel stellt Anforderungen an die Eigenschaftsqualifizierung mithilfe der booleschen [!UICONTROL AND] -Operatoren fest.
+Die Regel legt die Anforderungen an die Eigenschaftsqualifizierung anhand der booleschen [!UICONTROL AND] -Operatoren fest.
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -49,9 +49,9 @@ Die Regel stellt Anforderungen an die Eigenschaftsqualifizierung mithilfe der bo
  </tbody> 
 </table>
 
-### ODER-Beispiel
+### Beispiel ODER
 
-Diese Regel stellt Anforderungen an die Eigenschaftsqualifizierung mit den Operatoren [!DNL Boolean] [!UICONTROL OR] und [!UICONTROL AND] fest.
+Diese Regel legt die Anforderungen an die Eigenschaftsqualifizierung mit den Operatoren [!DNL Boolean] [!UICONTROL OR] und [!UICONTROL AND] fest.
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 

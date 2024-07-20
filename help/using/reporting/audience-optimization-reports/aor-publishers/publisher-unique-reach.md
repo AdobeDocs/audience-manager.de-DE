@@ -1,16 +1,16 @@
 ---
 description: Der Bericht "Unique User Reach"gibt Daten in einem Punktdiagramm zurück. Jede Blase wird in direktem Verhältnis zur Anzahl der Unique Users für die ausgewählten Anzeigeneinheiten skaliert. Eine größere Blase weist auf eine größere Reichweite als eine kleinere Blase hin. Der Bericht "Unique User Reach"hilft Ihnen bei der Suche nach der Werbeeinheit, die die größte Reichweite gegenüber Ihren Zielnutzern bietet.
-seo-description: Der Bericht "Unique User Reach"gibt Daten in einem Punktdiagramm zurück. Jede Blase wird in direktem Verhältnis zur Anzahl der Unique Users für die ausgewählten Anzeigeneinheiten skaliert. Eine größere Blase weist auf eine größere Reichweite als eine kleinere Blase hin. Der Bericht "Unique User Reach"hilft Ihnen bei der Suche nach der Werbeeinheit, die die größte Reichweite gegenüber Ihren Zielnutzern bietet.
-seo-title: Unique User-Reichweite
+seo-description: The Unique User Reach report returns data in a bubble chart. Each bubble is sized in direct proportion to the number of unique users for your selected ad units. A larger bubble indicates greater reach than a smaller bubble. The Unique User Reach report helps you find the ad unit that provides the broadest reach against your targeted users.
+seo-title: Unique User Reach
 solution: Audience Manager
 title: Unique User-Reichweite für Herausgeber
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
-feature: Berichte zur Zielgruppenoptimierung
+feature: Audience Optimization Reports
 exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,9 @@ Mit dem Bericht [!UICONTROL Unique User Reach] können Sie die Eigenschaften in 
 
 ## Verwenden des Berichts &quot;Einzelne Reichweite&quot; {#using-the-report}
 
-Verwenden Sie das Feld **[!UICONTROL Dimension Value]** , um die Werbeeinheiten auszuwählen, die im Bericht angezeigt werden sollen. Klicken Sie auf **[!UICONTROL All]** , um alle Eigenschaften im Punktdiagramm anzuzeigen.
+Verwenden Sie das Feld **[!UICONTROL Dimension Value]** , um die Werbeeinheiten auszuwählen, die im Bericht angezeigt werden sollen. Klicken Sie auf &quot;**[!UICONTROL All]**&quot;, um alle Eigenschaften im Punktdiagramm anzuzeigen.
 
-Verwenden Sie die Steuerelemente **Day Range** und **Date Through** , um Ihren Lookback-Bereich anzupassen.
+Verwenden Sie die Steuerelemente **Tagesbereich** und **Datum bis** , um Ihren Rückblickbereich anzupassen.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 

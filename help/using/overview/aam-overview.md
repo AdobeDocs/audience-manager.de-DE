@@ -10,8 +10,8 @@ feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 88%
+source-wordcount: '301'
+ht-degree: 85%
 
 ---
 
@@ -21,7 +21,7 @@ Mit Audience Manager können Sie Ihre Zielgruppendaten-Assets zusammenführen, u
 
 Mit Audience Manager sind Sie nicht an einen Datenanbieter, eine Datenaustauschplattform oder eine Demand Side Platform gebunden. Darüber hinaus ist Audience Manager völlig unabhängig, wenn es um die Daten-Assets unserer Partner geht. Mit Zugriff auf mehrere Datenquellen bietet Audience Manager digitalen Publishern die Möglichkeit, eine Vielzahl von Drittanbieterdaten zu verwenden. Sprechen Sie mit unserem Partner Solutions-Team, um intelligente und präzise Entscheidungen hinsichtlich Ihrer Zielgruppe zu treffen.
 
-## Die Drei Funktionen einer Data Management Platform (DMP) {#dmp-three-functions}
+## Drei Funktionen einer Data Management Platform (DMP) {#dmp-three-functions}
 
 Die Funktionen einer Data Management Platform (DMP) lassen sich wie unten dargestellt in drei Kategorien zusammenfassen.
 
@@ -39,7 +39,7 @@ Vereinheitlicht Daten in Zielgruppenprofilen, sodass Sie geräte- und kanalüber
 
 Aktiviert Zielgruppensegmente, indem sie auf Demand Side Platforms (DSPs), Kampagnen-Management- und andere Marketing-Plattformen übertragen werden.
 
-## Weitere Informationen {#more-information}
+## Weitere Info {#more-information}
 
 Weitere Informationen finden Sie in den folgenden Ressourcen:
 * [Audience Manager – Überblick](https://www.adobe.com/de/analytics/audience-manager.html)

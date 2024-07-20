@@ -1,22 +1,22 @@
 ---
-description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte der Audience Optimization zeigen lesbare Namen in den verschiedenen Menüs der Berichtsoptionen an.
-seo-description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte der Audience Optimization zeigen lesbare Namen in den verschiedenen Menüs der Berichtsoptionen an.
-seo-title: Überblick und Zuordnungen für Metadatendateien
+description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Audience Optimization-Berichte zeigen lesbare Namen in den verschiedenen Menüs der Berichtsoptionen an.
+seo-description: A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
+seo-title: Overview and Mappings for Metadata Files
 solution: Audience Manager
-title: Überblick und Zuordnungen für Metadatendateien
+title: Übersicht und Zuordnungen für Metadatendateien
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-feature: Protokolldateien
+feature: Log Files
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 4%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
-# Überblick und Zuordnungen für Metadatendateien{#overview-and-mappings-for-metadata-files}
+# Übersicht und Zuordnungen für Metadatendateien{#overview-and-mappings-for-metadata-files}
 
-Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Berichte der Audience Optimization zeigen lesbare Namen in den verschiedenen Menüs der Berichtsoptionen an.
+Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Audience Optimization-Berichte zeigen lesbare Namen in den verschiedenen Menüs der Berichtsoptionen an.
 
 ## Überblick {#overview}
 
@@ -24,7 +24,7 @@ Eine Übersicht über Metadaten und deren Verwendung. Eine Metadatendatei muss v
 
 ### Metadatendateien enthalten Daten zu anderen Daten
 
-Eine Metadatendatei enthält Informationen zu anderen Datentypen. Um Ihnen dabei zu helfen, zu verstehen, wie dies funktioniert, sollten wir überprüfen, wie [!DNL Audience Manager] Daten erhält.
+Eine Metadatendatei enthält Informationen zu anderen Datentypen. Um Ihnen zu helfen, zu verstehen, wie dies funktioniert, sollten wir überprüfen, wie [!DNL Audience Manager] Daten erhält.
 
 Während eines Impression- oder Klickereignisses empfängt [!DNL Audience Manager] Daten in einer URL-Zeichenfolge, die als *Ereignisaufruf* bezeichnet wird.
 
@@ -32,7 +32,7 @@ Der Ereignisaufruf organisiert Informationen in Sets definierter Schlüssel-Wert
 
 ### Metadaten-Links-IDs zu lesbaren Namen
 
-Die Metadatendatei ist erforderlich, um eine numerische ID mit einem lesbaren Namen zu verknüpfen. Beispiel: Ein Ereignisaufruf enthält eine kreative ID in einem Schlüssel-Wert-Paar wie diesem: `d_creative:1234`. Ohne Metadatendatei würde dieses Kreativelement in einem Optionsmenü als 1234 angezeigt werden.
+Die Metadatendatei ist erforderlich, um eine numerische ID mit einem lesbaren Namen zu verbinden. Angenommen, ein Ereignisaufruf enthält eine kreative ID in einem Schlüssel-Wert-Paar wie diesem: `d_creative:1234`. Ohne Metadatendatei würde dieses Kreativelement in einem Optionsmenü als 1234 angezeigt werden.
 
 Eine ordnungsgemäß formatierte Metadatendatei kann dieses Kreativelement jedoch an einen echten Namen wie &quot;Advertiser Creative A&quot;binden, einen Namen, den Sie in einem Bericht lesen und erkennen können.
 
@@ -40,13 +40,13 @@ Eine ordnungsgemäß formatierte Metadatendatei kann dieses Kreativelement jedoc
 
 Zunächst sind eine Metadatendatei und alle unten aufgeführten Parameter in einem Ereignisaufruf erforderlich, wenn Sie die [Audience Optimization-Berichte](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) verwenden möchten.
 
-Außerdem benötigen Sie eine Metadatendatei, wenn Sie Ihre eigenen Daten an [!DNL Audience Manager] senden oder wenn Sie Daten aus den Berichten anderer Anbieter sehen möchten, mit denen wir nicht integriert sind. Beispielsweise verfügt [!DNL Audience Manager] über eine Integration mit dem Google [Doppelklicken Sie auf Kampagnen-Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Aufgrund dieser Beziehung kann [!DNL Audience Manager] IDs mit Namen und Beschreibungen verknüpfen, die von den Berichtsoptionen verwendet werden. Ohne eine Integration können wir weiterhin Daten erfassen, aber die Berichtsoptionen zeigen numerische IDs anstelle eines beschreibenden Namens an.
+Außerdem benötigen Sie eine Metadatendatei, wenn Sie Ihre eigenen Daten an [!DNL Audience Manager] senden oder wenn Sie Daten aus den Berichten anderer Anbieter sehen möchten, mit denen wir nicht integriert sind. Beispielsweise verfügt [!DNL Audience Manager] über eine Integration mit dem Google-Kampagnenmanager [mit Doppelklick](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Aufgrund dieser Beziehung kann [!DNL Audience Manager] IDs mit Namen und Beschreibungen verknüpfen, die von den Berichtsoptionen verwendet werden. Ohne eine Integration können wir weiterhin Daten erfassen, aber die Berichtsoptionen zeigen numerische IDs anstelle eines beschreibenden Namens an.
 
-![Metadaten-Menübild](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_menu.png)
+![Metadatenmenübild](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_menu.png)
 
 ## Dateizuordnungen {#file-mappings}
 
-In der folgenden Tabelle sind die Schlüssel-Wert-Paare aufgeführt, die Daten enthalten, die von den [!UICONTROL Audience Optimization] -Berichten verwendet werden. Wenn Sie eine Metadatendatei verwenden müssen, enthält sie für Menschen lesbare Informationen, die den Werten in diesen Schlüssel/Wert-Paaren entsprechen. Die Werte für diese Schlüssel akzeptieren nur Ganzzahlen (Datentyp INT). Hinweis: *kursiv* gibt einen Variablenplatzhalter an. Andere Elemente sind Konstanten oder Schlüssel und ändern sich nicht.
+In der folgenden Tabelle sind die Schlüssel-Wert-Paare aufgeführt, die die von den [!UICONTROL Audience Optimization] -Berichten verwendeten Daten enthalten. Wenn Sie eine Metadatendatei verwenden müssen, enthält sie für Menschen lesbare Informationen, die den Werten in diesen Schlüssel/Wert-Paaren entsprechen. Die Werte für diese Schlüssel akzeptieren nur Ganzzahlen (Datentyp INT). Hinweis: *kursiv* gibt einen Variablenplatzhalter an. Andere Elemente sind Konstanten oder Schlüssel und ändern sich nicht.
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ In der folgenden Tabelle sind die Schlüssel-Wert-Paare aufgeführt, die Daten e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Advertiser </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dies ist die Datenquellen-ID oder der Integrationscode des Advertisers, der beim Erstellen einer Datenquelle bereitgestellt wird. Siehe <a href="../../../features/manage-datasources.md#create-data-source"> Erstellen einer Datenquelle</a>. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dies ist die Datenquellen-ID oder der Integrationscode des Advertisers, der beim Erstellen einer Datenquelle bereitgestellt wird. Siehe <a href="../../../features/manage-datasources.md#create-data-source"> Erstellen einer Daten-Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Geschäftseinheit (BU) </p> </td> 
@@ -90,10 +90,10 @@ In der folgenden Tabelle sind die Schlüssel-Wert-Paare aufgeführt, die Daten e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plattform </p> </td> 
-   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Dies ist die <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings">-Datenquelle</a>-ID für die Plattform, die Metadateninformationen bereitstellt (z. B. DFA, Atlas, GBM, MediaMath usw.). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Dies ist die <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings">-Datenquellen-ID für die Plattform, die Metadateninformationen bereitstellt (z. B. DFA, Atlas, GBM, MediaMath usw.).</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Taktisch </p> </td> 
+   <td colname="col1"> <p>Tacetisch </p> </td> 
    <td colname="col2"> <p> <code>d_tactic = <i>tactic ID</i></code> </p> </td> 
   </tr> 
   <tr> 
@@ -103,33 +103,33 @@ In der folgenden Tabelle sind die Schlüssel-Wert-Paare aufgeführt, die Daten e
  </tbody> 
 </table>
 
-## Gestalten der Dateinamen, Inhalte und Bereitstellungspfade durch Ereignisaufruf-IDs {#how-ids-shape-file-names}
+## Wie Ereignisaufruf-IDs Dateinamen, Inhalt und Bereitstellungspfade formen {#how-ids-shape-file-names}
 
 Die von diesen Schlüssel-Wert-Paaren übergebenen IDs helfen beim Erstellen des Metadatendateinamens und des zugehörigen Inhalts. Die folgenden Abschnitte und Abbildungen zeigen, wie dies funktioniert. Mit diesen Beispielen wird eine Datei erstellt, die den Namen eines kreativen Elements in einer Kampagne enthält. Es sind jedoch auch andere Kombinationen möglich.
 
 ### Ereignisaufruf
 
-In diesem Beispiel erstellen wir eine Metadatendatei, die kreative Namen in einen [!UICONTROL Audience Optimization] -Bericht einbringt. Dazu müssen wir kreative, kampagnen- und Datenquellen-IDs aus einem Ereignisaufruf extrahieren.
+In diesem Beispiel erstellen wir eine Metadatendatei, mit der kreative Namen in einen [!UICONTROL Audience Optimization] -Bericht aufgenommen werden. Dazu müssen wir kreative, kampagnen- und Datenquellen-IDs aus einem Ereignisaufruf extrahieren.
 
-![Ereignisaufrufbild](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
+![Bild für Ereignisaufruf ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
 
 ### Dateiname
 
 Der Dateiname basiert auf den IDs für Kreativelemente, Kampagnen und Datenquelle. Vergleichen Sie in diesem Fall die Unterschiede zwischen den Schlüssel-Wert-Daten in einem Ereignisaufruf und der Verwendung in einem Dateinamen.
 
-In einem Dateinamen:
+Dateiname:
 
 * Der Datenquellenschlüssel ändert sich von `d_src` in `dpid`.
 
 * Die Kreativ- und Kampagnen-IDs stellen eher eine Kategorie als eine tatsächliche Kennung dar.
 
-![Wie wird ein Dateiname erstellt?](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
+![Wie wird ein Dateiname erstellt](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
 Siehe [Benennungskonventionen für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Dateiinhalt
 
-In diesem Beispiel spiegeln die Dateiinhalte die Kreativ- und Kampagnen-IDs wider, die beim Ereignisaufruf übergeben werden. Das neue Element hier ist ein lesbarer Name. Nach der Verarbeitung erscheint der Name in dieser Datei als Option im Menü Kreativ eines Berichts [!UICONTROL Audience Optimization] .
+In diesem Beispiel spiegeln die Dateiinhalte die Kreativ- und Kampagnen-IDs wider, die beim Ereignisaufruf übergeben werden. Das neue Element hier ist ein lesbarer Name. Nach der Verarbeitung erscheint der Name in dieser Datei als Option im Menü &quot;Erstellung&quot;eines [!UICONTROL Audience Optimization] Berichts.
 
 ![Inhalt einer Metadatendatei](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 
@@ -137,11 +137,10 @@ Siehe [Inhaltsformat für Metadatendateien](../../../reporting/audience-optimiza
 
 ### Dateibereitstellung
 
-Nachdem Sie Daten benannt und zu einer Datei hinzugefügt haben, senden Sie sie an einen Amazon S3-Speicherordner, der von [!DNL Audience Manager] bereitgestellt wird. Siehe [Bereitstellungsmethoden für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Nachdem Sie Daten benannt und zu einer Datei hinzugefügt haben, senden Sie sie an einen Amazon S3-Speicherordner, der durch [!DNL Audience Manager] bereitgestellt wird. Siehe [Bereitstellungsmethoden für Metadatendateien](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
 >* [Datendateien für Audience Optimization-Berichte](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
-* [Erfassen von Kampagnenklickdaten über Pixelaufrufe](../../../integration/media-data-integration/click-data-pixels.md)
-* [Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe](../../../integration/media-data-integration/impression-data-pixels.md)
-
+>* [Erfassen von Kampagnenklickdaten über Pixelaufrufe](../../../integration/media-data-integration/click-data-pixels.md)
+>* [Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe](../../../integration/media-data-integration/impression-data-pixels.md)

@@ -1,16 +1,16 @@
 ---
 description: Erstellen sich gegenseitig ausschließende Testsegmente in Segmenttestgruppen, um die Effektivität verschiedener Ziele zu vergleichen und zu messen. Sie können eine Kontrollgruppe beilegen und Ihr Segment in Prozentsätze eines Ganzen unterteilen, um die Wirksamkeit zu testen.
-seo-description: Erstellen sich gegenseitig ausschließende Testsegmente in Segmenttestgruppen, um die Effektivität verschiedener Ziele zu vergleichen und zu messen. Sie können eine Kontrollgruppe beilegen und Ihr Segment in Prozentsätze eines Ganzen unterteilen, um die Wirksamkeit zu testen.
-seo-title: 'Audience Lab '
+seo-description: Create mutually exclusive test segments in Segment Test Groups to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
+seo-title: Audience Lab
 solution: Audience Manager
-title: 'Audience Lab '
+title: Audience Lab
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
-feature: 'Audience Lab '
+feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 4%
+source-wordcount: '549'
+ht-degree: 2%
 
 ---
 
@@ -20,9 +20,9 @@ Erstellen sich gegenseitig ausschließender Testsegmente in [!UICONTROL Segment 
 
 ## Überblick {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] verwendet  [Profil-](../../features/profile-merge-rules/merge-rules-overview.md) Link für geräteübergreifende Tests. Dadurch wird sichergestellt, dass sich ein Benutzer für dasselbe Testsegment qualifiziert und geräteübergreifend gleich behandelt. Die Testsegmente in Testgruppen übernehmen die [Profilzusammenführungsrichtlinie](../../features/profile-merge-rules/merge-rules-dashboard.md), die das Basissegment ihr zugewiesen hat.
+[!UICONTROL Audience Lab] verwendet [Profillink](../../features/profile-merge-rules/merge-rules-overview.md), um geräteübergreifende Tests zu ermöglichen. Dadurch wird sichergestellt, dass sich ein Benutzer für dasselbe Testsegment qualifiziert und geräteübergreifend gleich behandelt. Die Testsegmente in Testgruppen übernehmen die [Profilzusammenführungsregel](../../features/profile-merge-rules/merge-rules-dashboard.md), die das Basissegment ihr zugewiesen hat.
 
-Die Standardansicht [!UICONTROL Audience Lab] zeigt eine Karte für jede der Testgruppen an. Klicken Sie auf eine Karte, um auf die Ansicht **[!UICONTROL Test Group]** zuzugreifen. Diese Ansicht enthält die folgenden Informationen:
+In der Standardansicht von [!UICONTROL Audience Lab] wird für jede der Testgruppen eine Karte angezeigt. Klicken Sie auf eine Karte, um auf die Ansicht **[!UICONTROL Test Group]** zuzugreifen. Diese Ansicht enthält die folgenden Informationen:
 
 * **[Informationen zu Testgruppen](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Testgruppenberichte](../../features/audience-lab/audience-lab-reporting-view.md)**
@@ -57,15 +57,15 @@ Der Status einer Testgruppe kann aktiv, geplant, ausgesetzt, Entwurf oder abgesc
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Aktiv </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine Testgruppe <i>active</i> bedeutet, dass derzeit Daten an Ziele gesendet werden. Drücken Sie <b><span class="uicontrol"> Pause Test </span></b> auf der Karte <b><span class="uicontrol"> Testgruppe </span></b> , um das Senden von Daten an Ziele auszusetzen. </p> </td> 
+   <td colname="col2"> <p>Eine <i>aktive</i> Testgruppe bedeutet, dass derzeit Daten an Ziele gesendet werden. Drücken Sie auf der Karte <b><span class="uicontrol"> Testgruppe </span></b> die Taste <b><span class="uicontrol"> Test anhalten </span></b> , um das Senden von Daten an Ziele auszusetzen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Eingeplant </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>geplante</i> Testgruppe ist noch nicht aktiv, kann aber nicht mehr bearbeitet werden. Sie wird am Startdatum aktiv, das Sie im Assistenten <b>Erstellen von Testgruppen</b> ausgewählt haben. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Geplant </span></b> </p> </td> 
+   <td colname="col2"> <p>Eine <i>geplante</i> Testgruppe ist noch nicht aktiv, kann jedoch nicht mehr bearbeitet werden. Sie wird am Startdatum aktiv, das Sie im Assistenten <b>Testgruppen erstellen</b> ausgewählt haben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> angehalten </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine Testgruppe <i>paused</i> sendet derzeit keine Daten an Ziele. Drücken Sie <b><span class="uicontrol"> Aktiv </span></b> auf der Karte <b><span class="uicontrol"> Testgruppe </span></b> , um das Senden von Eigenschaften fortzusetzen. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Angehalten </span></b> </p> </td> 
+   <td colname="col2"> <p>Eine Test-Gruppe vom Typ <i>Paused</i> sendet derzeit keine Daten an Ziele. Drücken Sie auf der Karte <b><span class="uicontrol"> Testgruppe </span></b> die Taste <b><span class="uicontrol"> Aktiv </span></b>, um das Senden von Eigenschaften fortzusetzen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Entwurf </span></b> </p> </td> 
@@ -73,7 +73,7 @@ Der Status einer Testgruppe kann aktiv, geplant, ausgesetzt, Entwurf oder abgesc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Abgeschlossen </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>fertige</i> Testgruppe hat das Enddatum erreicht, das Sie im Assistenten <b><span class="uicontrol"> Testgruppen erstellen </span></b> ausgewählt haben, und hat das Senden von Berichtsdaten beendet. </p> </td>
+   <td colname="col2"> <p>Eine <i>abgeschlossene</i> Testgruppe hat das Enddatum erreicht, das Sie im Assistenten <b><span class="uicontrol"> Testgruppen erstellen </span></b> ausgewählt haben, und hat das Senden von Berichtsdaten beendet. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -90,14 +90,14 @@ Der Status einer Testgruppe kann aktiv, geplant, ausgesetzt, Entwurf oder abgesc
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Bearbeiten </span></b> </p> </td>
-   <td colname="col2"> <p>Verfügbar <b>nur</b> für Entwurfstestgruppen. Ermöglicht die Wiederaufnahme des Assistenten <b><span class="uicontrol"> Neue Testgruppe erstellen </span></b> . </p> </td>
+   <td colname="col2"> <p>Verfügbar <b>nur</b> für Entwurfstestgruppen. Ermöglicht Ihnen die Wiederaufnahme des Assistenten <b><span class="uicontrol"> Neue Testgruppe erstellen </span></b> . </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pause </span></b> </p> </td>
    <td colname="col2"> <p>Verfügbar für aktive Testgruppen. Ermöglicht das Anhalten des Sendens der Testsegmente an Ziele. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Aktiv machen  </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Aktiv machen </span></b> </p> </td>
    <td colname="col2"> <p>Verfügbar für angehaltene Testgruppen. Ermöglicht Ihnen, das Senden der Testsegmente an Ziele fortzusetzen. </p> </td>
   </tr>
   <tr> 
@@ -110,7 +110,7 @@ Der Status einer Testgruppe kann aktiv, geplant, ausgesetzt, Entwurf oder abgesc
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Löschen </span></b> </p> </td>
-   <td colname="col2"> <p>Ermöglicht das Löschen einer Testgruppe. Die Zuordnung der Testsegmente zu den Zielen wird aufgehoben, das Grundliniensegment und die mit der Testgruppe verknüpften Konversionseigenschaften sind vollständig bearbeitbar. Wenn Sie eine Testgruppe löschen, werden Sie in einem Warnhinweis aufgefordert, die CSV-Datei herunterzuladen, damit die Berichterstellung gespeichert werden kann. </p> </td>
+   <td colname="col2"> <p>Löscht eine Testgruppe. Die Zuordnung der Testsegmente zu den Zielen wird aufgehoben, das Grundliniensegment und die mit der Testgruppe verknüpften Konversionseigenschaften sind vollständig bearbeitbar. Wenn Sie eine Testgruppe löschen, werden Sie in einem Warnhinweis aufgefordert, die CSV-Datei herunterzuladen, damit die Berichterstellung gespeichert werden kann. </p> </td>
   </tr>
  </tbody>
 </table>

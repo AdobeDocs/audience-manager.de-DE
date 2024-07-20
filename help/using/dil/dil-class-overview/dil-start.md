@@ -9,8 +9,8 @@ feature: DIL Implementation
 exl-id: 909d39a1-0da6-467e-a13b-19a57f9186a1
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 8%
 
 >[!WARNING]
 >
->Ab Juli 2023 hat die Adobe die Entwicklung der [!DNL Data Integration Library (DIL)] und [!DNL DIL] -Erweiterung.
+>Ab Juli 2023 hat Adobe die Entwicklung der Erweiterung [!DNL Data Integration Library (DIL)] und der Erweiterung [!DNL DIL] eingestellt.
 >
->Bestehende Kunden können weiterhin ihre [!DNL DIL] Implementierung. Die Adobe wird sich jedoch nicht entwickeln [!DNL DIL] über diesen Punkt hinaus. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie.
+>Bestehende Kunden können weiterhin ihre [!DNL DIL] -Implementierung verwenden. Adobe wird jedoch nicht mehr [!DNL DIL] als bisher entwickeln. Kunden wird empfohlen, das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie zu bewerten.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) anstatt.
+>Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten stattdessen das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
 Mit DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die APIs auf Klassenebene arbeiten mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
 
 ## Erste Schritte mit DIL-APIs auf Klassenebene {#get-started}
 
-Beschreibt Authentifizierungsanforderungen und die Textformatierung, die auf Klassenebene verwendet werden [!UICONTROL DIL] Dokumentation.
+Beschreibt Authentifizierungsanforderungen und die Textformatierung, die in der Dokumentation auf Klassenebene [!UICONTROL DIL] verwendet werden.
 
 <!-- 
 
@@ -36,8 +36,8 @@ c_class_start.xml
 
  -->
 
-Beim Arbeiten mit der Klassenebene [!UICONTROL DIL] APIs:
+Beim Arbeiten mit den Klassenebenen-APIs [!UICONTROL DIL]:
 
 * Für den Zugriff sind ein Partnername und eine Container-Namespace-ID (NSID) erforderlich. Wenden Sie sich an Ihren Kundenbetreuer, um diese Informationen zu erhalten.
-* Beispiel ersetzen *kursiv* Text in der API-Dokumentation mit -Wert, -ID oder einer anderen -Variablen, wie von der verwendeten -Methode benötigt.
-* [!UICONTROL DIL] schreibt kodierte Daten in ein Ziel-Cookie. Leerzeichen werden beispielsweise als `%20` und Semikolons als `%3B`.
+* Ersetzen Sie jeden Beispieltext *kursiv* in der API-Dokumentation durch den Wert, die ID oder eine andere Variable, wie von der Methode, mit der Sie arbeiten, benötigt wird.
+* [!UICONTROL DIL] schreibt kodierte Daten in ein Ziel-Cookie. Leerzeichen werden beispielsweise als `%20` und Semikolons als `%3B` kodiert.

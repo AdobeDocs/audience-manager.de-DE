@@ -1,7 +1,7 @@
 ---
 description: Eine GET-Methode, die das Ziel für die angegebene destinationId zurückgibt.
-seo-description: Eine GET-Methode, die das Ziel für die angegebene destinationId zurückgibt.
-seo-title: Zurückgeben eines Ziels nach Ziel-ID
+seo-description: A GET method that returns the destination for the specified destinationId.
+seo-title: Return A Destination by Destination ID
 solution: Audience Manager
 title: Zurückgeben eines Ziels nach Ziel-ID
 uuid: abce7426-55a5-4045-93a7-0487652a7189
@@ -9,14 +9,14 @@ feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 9%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
 # Zurückgeben eines Ziels nach Ziel-ID {#return-a-destination-by-destination-id}
 
-Eine `GET` -Methode, die das Ziel für das angegebene `destinationId` zurückgibt.
+Eine `GET` -Methode, die das Ziel für den angegebenen `destinationId` zurückgibt.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -26,7 +26,7 @@ Eine `GET` -Methode, die das Ziel für das angegebene `destinationId` zurückgib
 
 >[!NOTE]
 >
->Um das Feld `mappings` auszufüllen, geben Sie `includeMappings=true` in die URL ein.
+>Um das Feld `mappings` zu füllen, geben Sie `includeMappings=true` in die URL ein.
 
 ## Antwort
 
@@ -68,15 +68,13 @@ Eine `GET` -Methode, die alle Ziele für den angegebenen Partner zurückgibt.
 
 >[!NOTE]
 >
->* *(Optional)* Übergeben Sie diesen Wert  `containsSegment=<sid>` , um ein Array aller Ziele zurückzugeben, die dem angegebenen Segment zugeordnet sind. Ihre Abfrage könnte beispielsweise wie folgt aussehen: `GET .../destinations/?containsSegment=4321`.
-   >
-   >
-* Gibt nicht das vollständige Zielobjekt zurück. Rufen Sie das Ziel nach Datenreihenfolge ab, wenn Sie ein vollständig ausgefülltes Objekt benötigen.
-
+>* *(Optional)* Übergeben Sie `containsSegment=<sid>`, um ein Array aller Ziele zurückzugeben, die dem angegebenen Segment zugeordnet sind. Ihre Abfrage könnte beispielsweise wie folgt aussehen: `GET .../destinations/?containsSegment=4321`.
+>
+>* Gibt nicht das vollständige Zielobjekt zurück. Rufen Sie das Ziel nach Datenreihenfolge ab, wenn Sie ein vollständig ausgefülltes Objekt benötigen.
 
 ### Optionale Abfrageparameter
 
-Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle*-Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an [!DNL API] übergeben. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* -Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an den [!DNL API] übergeben. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -96,7 +94,7 @@ Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle*-Ei
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Sortiert Ergebnisse und gibt sie gemäß der angegebenen Eigenschaft <span class="keyword"> JSON</span> zurück. </td>
+   <td colname="col2">Sortiert Ergebnisse und gibt sie gemäß der angegebenen <span class="keyword"> JSON</span> -Eigenschaft zurück. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
@@ -141,9 +139,9 @@ Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle*-Ei
 ]
 ```
 
-## Zurückgeben einer Zielzuordnung mit der Zuordnungs-ID {#return-dest-mapping-id}
+## Zielzuordnung mit Zuordnungs-ID zurückgeben {#return-dest-mapping-id}
 
-Eine `GET` -Methode, die ein einzelnes Ziel-Mapping basierend auf `mappingId` zurückgibt.
+Eine `GET` -Methode, die eine individuelle Zielzuordnung basierend auf dem `mappingId` zurückgibt.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -194,7 +192,7 @@ Eine `GET` -Methode, die die Zuordnungen für ein Ziel zurückgibt.
 
 >[!NOTE]
 >
->Unterstützt Paging-Parameter.
+>Unterstützt Seitenparameter.
 
 ### Antwort
 

@@ -1,26 +1,26 @@
 ---
 description: Der Bericht zur Segmentleistung vergleicht zugeordnete und nicht zugeordnete Segmente anhand von Impressionen und Konversionsraten. Ein gemapptes Segment ist ein Segment, das Sie erstellen und zur Zielgruppenbestimmung an ein Ziel senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht zur Zielgruppenbestimmung an ein Ziel gesendet haben. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb von und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
-seo-description: Der Bericht zur Segmentleistung vergleicht zugeordnete und nicht zugeordnete Segmente anhand von Impressionen und Konversionsraten. Ein gemapptes Segment ist ein Segment, das Sie erstellen und zur Zielgruppenbestimmung an ein Ziel senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht zur Zielgruppenbestimmung an ein Ziel gesendet haben. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb von und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
-seo-title: Bericht zur Segmentleistung
+seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and conversion rates. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
+seo-title: Segment Performance Report
 solution: Audience Manager
-title: Bericht zur Segmentleistung
+title: Segmentleistungsbericht
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
-feature: Berichte zur Zielgruppenoptimierung
+feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 1%
+source-wordcount: '567'
+ht-degree: 0%
 
 ---
 
-# Bericht zur Segmentleistung{#segment-performance-report}
+# Segmentleistungsbericht{#segment-performance-report}
 
 Der Bericht [!UICONTROL Segment Performance] vergleicht zugeordnete und nicht zugeordnete Segmente anhand von Impressionen und Konversionsraten. Ein gemapptes Segment ist ein Segment, das Sie erstellen und zur Zielgruppenbestimmung an ein Ziel senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht zur Zielgruppenbestimmung an ein Ziel gesendet haben. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb von und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
 
 ## So lesen Sie die zugeordneten Segmentergebnisse {#read-mapped-segment-results}
 
-Der zugeordnete [!UICONTROL Segment Performance] -Bericht zeigt alle Segmente an, die Sie erstellt und an ein Ziel für die Zielgruppenbestimmung gesendet haben. Die Position Ihrer zugeordneten Segmente in einem Bericht kann Ihnen Aufschluss darüber geben, welche Segmente eine gute Performance aufweisen und wo Sie möglicherweise einige Anpassungen vornehmen müssen.
+Der zugeordnete Bericht [!UICONTROL Segment Performance] zeigt alle Segmente an, die Sie erstellt und an ein Ziel für die Zielgruppenbestimmung gesendet haben. Die Position Ihrer zugeordneten Segmente in einem Bericht kann Ihnen Aufschluss darüber geben, welche Segmente gut abschneiden und wo Sie möglicherweise einige Anpassungen vornehmen müssen.
 
 Zum Lesen des Berichts hilft es, die Ergebnisse in 4 Abschnitte mit imaginären Zeilen (in Rot) und den im Beispielbericht unten angezeigten Kategorien zu unterteilen.
 
@@ -57,7 +57,7 @@ Die Bezeichnungen im Beispiel und in der folgenden Tabelle können Ihnen dabei h
 
 ## So lesen Sie die nicht zugeordneten Segmentergebnisse {#read-unmapped-segment-results}
 
-Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance] -Bericht ansehen, ist dies eine großartige Möglichkeit, neue Segmente zu finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen. Dies liegt daran, dass ein nicht zugeordnetes Segment einen Satz von Qualifikationskriterien erfüllen muss, um in diesen Bericht aufgenommen zu werden. Um in diesen Bericht aufgenommen zu werden, muss ein nicht zugeordnetes Segment:
+Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance] -Bericht ansehen, können Sie neue Segmente finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen. Dies liegt daran, dass ein nicht zugeordnetes Segment einen Satz von Qualifikationskriterien erfüllen muss, um in diesen Bericht aufgenommen zu werden. Um in diesen Bericht aufgenommen zu werden, muss ein nicht zugeordnetes Segment:
 
 * Sie haben Konversionen, die über dem Durchschnitt aller Ihrer zugeordneten Segmente liegen.
 * Befinden Sie sich nach Konversionsrate in den 100 nicht zugeordneten Segmenten.
@@ -70,4 +70,4 @@ In diesem Bericht möchten Sie sich nur auf die nicht zugeordneten Segmente im o
 
 >[!NOTE]
 >
->7- und 30-tägige Rückblickszeiträume sind nur für Sonntag-**[!UICONTROL Date Through]** -Daten verfügbar.
+>7- und 30-tägige Rückblickszeiträume sind nur für Sonntag- **[!UICONTROL Date Through]** Daten verfügbar.

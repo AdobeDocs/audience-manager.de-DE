@@ -1,20 +1,20 @@
 ---
 description: Der Bericht zur Segmentleistung vergleicht zugeordnete und nicht zugeordnete Segmente anhand von Impressionen und Uniques des Echtzeit-Segments. Ein gemapptes Segment ist ein Segment, das Sie erstellen und zur Zielgruppenbestimmung an ein Ziel senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht zur Zielgruppenbestimmung an ein Ziel gesendet haben. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb von und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
-seo-description: Der Bericht zur Segmentleistung vergleicht zugeordnete und nicht zugeordnete Segmente anhand von Impressionen und Uniques des Echtzeit-Segments. Ein gemapptes Segment ist ein Segment, das Sie erstellen und zur Zielgruppenbestimmung an ein Ziel senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber nicht zur Zielgruppenbestimmung an ein Ziel gesendet haben. Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb von und zwischen Berichten können Sie vorhandene Kampagnen optimieren und übersehene Segmente finden, die Sie zum Targeting an ein Ziel senden möchten.
-seo-title: Bericht zur Segmentleistung
+seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
+seo-title: Segment Performance Report
 solution: Audience Manager
 title: Segmentleistungsbericht für Herausgeber
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: Berichte zur Zielgruppenoptimierung
+feature: Audience Optimization Reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 2%
+source-wordcount: '645'
+ht-degree: 1%
 
 ---
 
-# Bericht zur Segmentleistung{#segment-performance-report}
+# Segmentleistungsbericht{#segment-performance-report}
 
 Der Bericht zur Segmentleistung vergleicht zugeordnete und nicht zugeordnete Segmente anhand von Impressionen und Uniques des Echtzeit-Segments.
 
@@ -24,7 +24,7 @@ Durch den Vergleich dieser verschiedenen Segmenttypen innerhalb von und zwischen
 
 ## Nutzungsszenarios {#use-cases}
 
-Mit dem Bericht [!UICONTROL Segment Performance] haben Sie folgende Möglichkeiten:
+Mit dem Bericht [!UICONTROL Segment Performance] können Sie:
 
 * Ermitteln Sie zugeordnete Zielgruppensegmente, die die Skalierung oder Leistung steigern.
 * Identifizieren Sie nicht zugeordnete Segmente, die in zukünftige Kampagnen eingeführt werden sollen, basierend auf dem Beitrag einer Zielgruppe zur früheren Performance.
@@ -33,17 +33,17 @@ Mit dem Bericht [!UICONTROL Segment Performance] haben Sie folgende Möglichkeit
 
 Zwischen **[!UICONTROL Mapped]** und **[!UICONTROL Unmapped]** wechseln, um Segmente auszuwählen, die einem Ziel zugeordnet sind oder nicht. Wählen Sie **[!UICONTROL All]** aus, um alle Ihre Segmente in den Bericht aufzunehmen.
 
-Verwenden Sie die Steuerelemente **Day Range** und **Date Through** , um Ihren Lookback-Bereich anzupassen. Beachten Sie, dass die 7- und 30-tägigen Rückblickperioden nur für Sonntagsdaten verfügbar sind.
+Verwenden Sie die Steuerelemente **Tagesbereich** und **Datum bis** , um Ihren Rückblickbereich anzupassen. Beachten Sie, dass die 7- und 30-tägigen Rückblickperioden nur für Sonntagsdaten verfügbar sind.
 
-Verwenden Sie das Dropdown-Feld **[!UICONTROL Line Item]**, um die Webeigenschaften auszuwählen, für die Sie Informationen zurückgeben möchten.
+Verwenden Sie das Dropdown-Feld **[!UICONTROL Line Item]** , um die Webeigenschaften auszuwählen, für die Sie Informationen zurückgeben möchten.
 
 Wählen Sie in der Dropdown-Liste **[!UICONTROL Segment Data Source]** die Datenquellen aus, die die Segmente enthalten, die Sie im Bericht sehen möchten.
 
-Wählen Sie mithilfe der Dropdown-Liste **[!UICONTROL Segment]** aus, welche Segmente im Bericht angezeigt werden sollen.
+Verwenden Sie das Dropdownfeld **[!UICONTROL Segment]** , um auszuwählen, welche Segmente im Bericht angezeigt werden sollen.
 
 >[!IMPORTANT]
 >
->Beim Aktivieren von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Line Item IDs] einfügen, wie in Schritt 3 von [Importieren von Google Ad Manager-(ehemals DFP-)Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrieben. Dadurch stellen Sie sicher, dass der Bericht die Webeigenschaft als [!UICONTROL Line Item] anstelle von [!UICONTROL Line Item ID] detailliert beschreibt.
+>Beim Aktivieren von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Line Item IDs] einfügen, wie in Schritt 3 von [Importieren von Google Ad Manager-Datendateien (ehemals DFP) in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrieben. Dadurch stellen Sie sicher, dass der Bericht die Webeigenschaft als [!UICONTROL Line Item] anstelle von [!UICONTROL Line Item ID] detailliert beschreibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
@@ -85,7 +85,7 @@ Ihr [!UICONTROL Segment Performance] -Bericht könnte dem unten stehenden ähnel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segmentpopulation in Echtzeit </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Anzahl Unique Visitors, die in Echtzeit für den angegebenen Zeitraum gesehen wurden und die zum Zeitpunkt ihrer Anzeige durch den Audience Manager <span class="keyword"></span> für das Segment qualifiziert waren. </p> </td> 
+   <td colname="col2"> <p>Die tatsächliche Anzahl Unique Visitors, die in Echtzeit für den angegebenen Zeitraum gesehen wurden und die zum Zeitpunkt der Anzeige durch <span class="keyword"> Audience Manager</span> für das Segment qualifiziert waren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ Zum Lesen des Berichts ist es hilfreich, die Ergebnisse in vier Abschnitte mit i
 
 ## So lesen Sie die nicht zugeordneten Segmentergebnisse {#read-unmapped-segment}
 
-Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance] -Bericht ansehen, ist dies eine großartige Möglichkeit, neue Segmente zu finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen.
+Wenn Sie sich nicht zugeordnete Segmente in einem [!UICONTROL Segment Performance] -Bericht ansehen, können Sie neue Segmente finden, die Sie für das Targeting nicht berücksichtigt haben. Tatsächlich können einige dieser Segmente Ihre zugeordneten Segmente übertreffen.
 
 Zum Lesen dieses Berichts ist es hilfreich, die Ergebnisse in vier Abschnitte mit imaginären Zeilen (in Rot) und Kategorien zu unterteilen, die im Beispielbericht unten angezeigt werden.
 

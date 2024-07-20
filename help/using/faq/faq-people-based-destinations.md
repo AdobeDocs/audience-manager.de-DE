@@ -1,15 +1,15 @@
 ---
-description: 'Antworten auf häufige Fragen zu benutzerbezogenen Zielen.  '
-seo-description: 'Antworten auf häufige Fragen zu benutzerbezogenen Zielen.  '
-seo-title: Häufig gestellte Fragen zu benutzerbezogenen Zielen
+description: Antworten auf häufige Fragen zu benutzerbezogenen Zielen.
+seo-description: Answers to common questions about People-Based Destinations.
+seo-title: People-Based Destinations FAQ
 solution: Audience Manager
 title: Häufig gestellte Fragen zu benutzerbezogenen Zielen
-feature: Benutzerbasierte Ziele
+feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 94%
+source-wordcount: '1161'
+ht-degree: 93%
 
 ---
 
@@ -78,11 +78,11 @@ Solange die E-Mail-Adresse richtig gehashed und erfasst wird, sollte es keinen U
 
 Audience Manager kann bis zu 10 E-Mails pro Benutzer sammeln und an Zielplattformen senden. Die E-Mail-Adressen müssen jedoch über Synchronisierungsdateien erfasst werden. Nachdem Audience Manager die E-Mail-Adressen an Zielplattformen gesendet hat, müssen die Plattformen die E-Mail-Adressen mit der eigenen Benutzerbasis abgleichen. Einige Plattformen verfügen möglicherweise über zusätzliche Diagramme für E-Mail-Adressen, die von Audience Manager an Benutzerprofile gesendet werden.
 
-**Kann ich  [!DNL People-Based Destinations] in  [!DNL Audience Lab]verwenden?**
+**Kann ich [!DNL People-Based Destinations] in [!DNL Audience Lab] verwenden?**
 
-Nein. Derzeit sind alle [!DNL People-Based Destinations]-Ziele von [!DNL Audience Lab] ausgeschlossen. Da [!DNL People-Based Destinations]- und Demand-Side-Plattformen unterschiedliche IDs verwenden, können Sie die Leistung nicht mit Zielgruppen testen und messen, die gleichmäßig zwischen ihnen aufgeteilt sind.
+Nein. Derzeit sind alle [!DNL People-Based Destinations] -Ziele von [!DNL Audience Lab] ausgeschlossen. Da [!DNL People-Based Destinations]- und Demand-Side-Plattformen unterschiedliche IDs verwenden, können Sie die Leistung nicht mit Zielgruppen testen und messen, die gleichmäßig zwischen ihnen aufgeteilt sind.
 
-## Datenexportkontrollen {#data-export-controls}
+## Datenexportkontrolle {#data-export-controls}
 
 **Wie funktionieren [!DNL Data Export Controls] mit [!DNL People-Based Destinations]?**
 
@@ -116,6 +116,6 @@ Sie können die [!DNL Facebook] [!DNL WCA]-Integration von Audience Manager üb
 
 Diese beiden Integrationen ergänzen sich. Sie können beide verwenden, um eine bessere Zielgruppenabdeckung sicherzustellen. Beispielsweise kann [!DNL WCA] für die Identifizierung von potenziellen Kunden verwendet werden, wenn eine Firma Website-Besuchern ansprechen möchte, die noch kein Konto registriert haben, während [!DNL People-Based Destinations] Ihnen beim Ansprechen bestehender Kunden helfen können, die ihre E-Mail-Adresse angegeben, aber möglicherweise nicht die Website besucht haben.
 
-**Unterstützt die  [!DNL People-Based Destinations] Integration mit  [!DNL Facebook] Unterstützung das Deaktivieren von Benutzern aus einer Zielgruppe, wenn sie sich nicht mehr dafür qualifizieren?**
+**Unterstützt die Integration von [!DNL People-Based Destinations] mit [!DNL Facebook] die Deaktivierung eines Benutzers aus einer Zielgruppe, wenn er sich nicht mehr dafür qualifiziert?**
 
-Ja, die Integration unterstützt das Entfernen von Benutzern aus [!DNL Facebook]-Zielgruppen, wenn sie sich nicht mehr für sie qualifizieren.
+Ja, die Integration unterstützt das Entfernen von Benutzern aus [!DNL Facebook] Zielgruppen, wenn sie sich nicht mehr für sie qualifizieren.

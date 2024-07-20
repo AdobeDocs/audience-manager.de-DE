@@ -1,17 +1,17 @@
 ---
 description: Häufig gestellte Fragen zum Einpflegen von Offline-Daten in Audience Manager.
 keywords: ftp oder s3; s3 oder ftp
-seo-description: Häufig gestellte Fragen zum Einpflegen von Offline-Daten in Audience Manager.
-seo-title: Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten
+seo-description: Frequently asked questions about bringing offline data into Audience Manager.
+seo-title: Inbound Customer Data Ingestion FAQ
 solution: Audience Manager
 title: Häufig gestellte Fragen zur Erfassung von eingehenden Kundendaten
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding von Offline-Daten
+feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 89%
+source-wordcount: '1343'
+ht-degree: 86%
 
 ---
 
@@ -58,10 +58,10 @@ Siehe [Dateikomprimierung für eingehende Datenübertragungsdateien](../integrat
 
 **Kann ich eine eingehende Datendatei (eine [!DNL .sync] - oder eine [!DNL .overwrite] -Datei) hochladen, bevor ich [!DNL Audience Manager] Code in der Produktionsumgebung implementiere?**
 
-Ja. Solange Sie zum Speichern der hochgeladenen CRM-Daten einen [!UICONTROL cross-device data source] verwenden, speichert Audience Manager immer die Daten. Aufgrund der im Oktober 2019 von Audience Manager eingeführten [!UICONTROL Profile Merge Rules]-Verbesserungen, die nur Offline-Anwendungsfälle ermöglichen, können Sie Daten hochladen und bearbeiten, ohne Audience Manager-Code in der Produktionsumgebung bereitzustellen. Siehe:
+Ja. Solange Sie zum Speichern der hochgeladenen CRM-Daten den Wert &quot;[!UICONTROL cross-device data source]&quot; verwenden, speichert Audience Manager die Daten immer. Aufgrund der im Oktober 2019 von Audience Manager eingeführten [!UICONTROL Profile Merge Rules] Verbesserungen, die nur Offline-Anwendungsfälle ermöglichen, können Sie Daten hochladen und bearbeiten, ohne Audience Manager-Code in der Produktionsumgebung bereitzustellen. Siehe:
 
 * [Verbesserungen der Profilzusammenführungsrichtlinien – Überblick](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personalisierung basierend auf reinen Offline-Daten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalization basierend auf reinen Offline-Daten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -154,9 +154,9 @@ FTP-Dateien werden nach der Verarbeitung entfernt. [!DNL S3]-Dateien werden nach
 
 * **Vollständig:** Eine vollständige Datei überschreibt alle vorhandenen Besucherprofile und ersetzt sie durch die Daten in Ihrer Datei. Vollständige Dateien werden durch das an den Dateinamen angehängte `.overwrite`-Tag identifiziert. Sie können eine `.overwrite`-Datei verwenden, um Eigenschaften von Besuchern zurückzusetzen oder veraltete Eigenschaften zu entfernen.
 
-   >[!NOTE]
-   >
-   >Die [!DNL .overwrite]-Dateien überschreiben nur die mit diesem Datenanbieter verknüpften [!DNL Audience Manager]-Profildaten. Mit anderen Worten, alle mit dem Besucher verknüpften [!DNL Audience Manager]-Daten bleiben erhalten, nachdem eine [!DNL .overwrite]-Datei verarbeitet wurde.
+  >[!NOTE]
+  >
+  >Die [!DNL .overwrite]-Dateien überschreiben nur die mit diesem Datenanbieter verknüpften [!DNL Audience Manager]-Profildaten. Mit anderen Worten, alle mit dem Besucher verknüpften [!DNL Audience Manager]-Daten bleiben erhalten, nachdem eine [!DNL .overwrite]-Datei verarbeitet wurde.
 
 * **Inkrementell:** Eine inkrementelle Datei hängt neue Daten an Ihre bestehenden Besucherprofile an. Inkrementelle Dateien werden durch das an den Dateinamen angehängte `.sync`-Tag identifiziert. Beim Senden einer inkrementellen Datei werden vorhandene Profile weder gelöscht noch überschrieben.
 
@@ -169,7 +169,7 @@ Die folgenden Anwendungsfälle zeigen, wie sich diese Dateitypen auf gespeichert
 
 Weitere Informationen zu vollständigen und inkrementellen Dateitypen finden Sie unter:
 
-* [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Daten..](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
@@ -183,11 +183,11 @@ Während der Verarbeitung überspringt [!DNL Audience Manager] diesen Eintrag un
 
 Zeitstempel werden zur Protokollierung und Aufzeichnung verwendet. Sie werden von der Syntax für einen ordnungsgemäß formatierten eingehenden Dateinamen benötigt. Siehe:
 
-* [Anforderungen an Namen der über Amazon S3 eingehenden Datendateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Namensanforderungen für eingehende Datendateien in Amazon S3](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**Was ist ein  [!DNL Data Provider ID (DPID)] und wie bekomme ich es?**
+**Was ist ein [!DNL Data Provider ID (DPID)] und wie erhalte ich ihn?**
 
 Ihr Adobe-Berater weist Ihrer Datenquelle eine dreistellige oder vierstellige [DPID (Datenanbieter-ID)](../reference/ids-in-aam.md) zu. Diese ID ist eindeutig und ändert sich nicht.
 
@@ -204,7 +204,7 @@ Siehe [Dateikomprimierung für eingehende Datenübertragungsdateien](../integrat
 Ja, siehe:
 
 * [Dateikomprimierung für eingehende Datenübertragungsdateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
-* [Anforderungen an Namen der über Amazon S3 eingehenden Datendateien](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Namensanforderungen für eingehende Datendateien in Amazon S3](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
@@ -226,7 +226,7 @@ Als Best Practice empfehlen wir [!DNL Amazon S3], da der Prozess einfacher ist. 
 
 >[!WARNING]
 >
->Die Unterstützung für FTP-Konfigurationen wird schrittweise eingestellt. Während die Erfassung eingehender Datendateien in bestehenden FTP-Integrationen weiterhin unterstützt wird, empfehlen wir dringend, [!DNL Amazon S3] zu verwenden, um Offline-Daten für neue Integrationen zu integrieren. Weitere Informationen finden Sie unter [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
+>Die Unterstützung für FTP-Konfigurationen wird schrittweise eingestellt. Während die Erfassung eingehender Datendateien in bestehenden FTP-Integrationen weiterhin unterstützt wird, empfehlen wir dringend, für neue Integrationen mit [!DNL Amazon S3] Offline-Daten zu integrieren. Weitere Informationen finden Sie unter [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
  
 
@@ -247,4 +247,3 @@ Das kommt darauf an. [!DNL Audience Manager] liest bis zu 119000 Einträge aus d
 >[!MORELIKETHIS]
 >
 >* [Beschreibung des Batch-Datenübertragungsprozesses](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-

@@ -1,16 +1,16 @@
 ---
 description: Verwalten Sie die Datenerfassung und Zielgruppenerstellung mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften.
-seo-description: Verwalten Sie die Datenerfassung und Zielgruppenerstellung mit regelbasierten, integrierten, algorithmischen oder Ordnereigenschaften.
-keywords: Eigenschaft; Eigenschaften; Eigenschaftenübersicht
-seo-title: Eigenschaften – Überblick
+seo-description: Manage data collection and audience creation with rules-based, onboarded, algorithmic or folder traits.
+keywords: Eigenschaft; Eigenschaften; Eigenschaftsübersicht
+seo-title: Traits Overview
 solution: Audience Manager
-title: Eigenschaften – Überblick
-feature: 'Eigenschaften '
+title: Eigenschaften - Übersicht
+feature: Traits
 exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 38%
+source-wordcount: '60'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 38%
 
 Verwalten Sie die Datenerfassung und Zielgruppenerstellung mit [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] oder [!UICONTROL folder traits]. Lesen Sie die unten verlinkten Seiten, um mit [!UICONTROL traits] zu beginnen:
 
-* [Detailseite einer Eigenschaft](/help/using/features/traits/trait-details-page.md)
-* [Trait Builder ](/help/using/features/traits/about-trait-builder.md)
+* [Eigenschaftendetailseite](/help/using/features/traits/trait-details-page.md)
+* [Trait Builder (Eigenschaftenaufbau)](/help/using/features/traits/about-trait-builder.md)
 * [Ordnereigenschaften: Info](/help/using/features/traits/about-folder-traits.md)
 * [Eigenschaftsspeicherung](/help/using/features/traits/trait-storage.md)
-* [Eigenschaften aktiver Zielgruppen und mit Datenquellen synchronisierte Eigenschaften](/help/using/features/traits/client-activity-synced-audience-traits.md)
-* [Referenz: Eigenschafts- und Segmentqualifikationen](/help/using/features/traits/trait-and-segment-qualification-reference.md)
+* [Eigenschaften aktiver Zielgruppen und von Source synchronisierte Daten](/help/using/features/traits/client-activity-synced-audience-traits.md)
+* [Referenz zu Eigenschafts- und Segmentqualifikationen](/help/using/features/traits/trait-and-segment-qualification-reference.md)

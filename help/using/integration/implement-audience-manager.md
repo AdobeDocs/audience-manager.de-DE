@@ -1,20 +1,20 @@
 ---
 description: In diesem Abschnitt werden die Verfahren für die ersten Schritte mit der Audience Manager Data Management Platform (DMP) beschrieben und erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologiemanagern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Je nach Ihren Anforderungen an die Datenerfassung kann es bei den ersten Schritten mit Audience Manager ungefähr sechs Wochen bis drei Monate dauern.
-seo-description: In diesem Abschnitt werden die Verfahren für die ersten Schritte mit der Audience Manager Data Management Platform (DMP) beschrieben und erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologiemanagern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Je nach Ihren Anforderungen an die Datenerfassung kann es bei den ersten Schritten mit Audience Manager ungefähr sechs Wochen bis drei Monate dauern.
-seo-title: Implementieren von Audience Manager
+seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
+seo-title: Implementing Audience Manager
 solution: Audience Manager
-title: Implementieren von Audience Manager
+title: Implementieren von Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: Drittanbieterintegration
+feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 1%
+source-wordcount: '996'
+ht-degree: 0%
 
 ---
 
-# Implementieren von Audience Manager {#implementing-audience-manager}
+# Implementieren von Audience Manager {#implementing-audience-manager}
 
 In diesem Abschnitt werden die ersten Schritte mit der Audience Manager-Datenverwaltungsplattform ([!DNL DMP]) beschrieben und erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologiemanagern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Je nach Ihren Anforderungen an die Datenerfassung kann es bei den ersten Schritten mit Audience Manager ungefähr sechs Wochen bis drei Monate dauern.
 
@@ -80,7 +80,7 @@ Folgende Lieferziele können in dieser Phase erreicht werden:
 * Plan für die Planung von Projektsitzungen und -aufrufen;
 * Ein Prozess zum Freigeben von Ressourcen und Zugriff.
 
-## Erkennungsphase {#discovery-phase}
+## Entdeckungsphase {#discovery-phase}
 
 In der Entdeckungsphase geht es darum, Anforderungen zu sammeln, Forschungsarbeiten durchzuführen und auf ein tieferes Verständnis Ihrer geschäftlichen Anforderungen und Datenerfassungsstrategien hinzuarbeiten.
 
@@ -102,7 +102,7 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
    <td colname="col2"> 
     <ul id="ul_CB78589D5906439F8632A0C4B6F4130A"> 
      <li id="li_63D9C730FE5A4A55A76C5967A1EFFB8E">Entwickeln von Plänen für Tag-Management und Datenerfassung </li> 
-     <li id="li_71AC8F2AB5BA4BD29D98D89D9974EDB2">Entwickeln von Plänen, die Kundenanforderungen, -ziele und -erwartungen erfüllen </li> 
+     <li id="li_71AC8F2AB5BA4BD29D98D89D9974EDB2">Entwickeln von Plänen, die Kundenanforderungen, Ziele und Erwartungen entsprechen </li> 
     </ul> </td> 
    <td colname="col3"> Geschäftsteams </td> 
   </tr> 
@@ -110,7 +110,7 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
    <td colname="col1"> Daten auswerten </td> 
    <td colname="col2"> 
     <ul id="ul_B7FBA43F94DE45E29B8CB07ABA1D969D"> 
-     <li id="li_48FEE16AA5F44A3D846405DA07C9C255">Ermitteln der Datenerfassung und der Datenquellen </li> 
+     <li id="li_48FEE16AA5F44A3D846405DA07C9C255">Ermitteln, wie Sie Ihre Daten und die Datenquellen erfassen </li> 
      <li id="li_90D6281EF318401587797013A33B3CBC">Entdecken Sie die Quellen Ihrer Erstanbieter-, Zweitanbieter- und Drittanbieter-Daten. </li> 
     </ul> </td> 
    <td colname="col3"> Geschäftliche und technische Teams </td> 
@@ -135,13 +135,13 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
 
 Folgende Ergebnisse sind in dieser Phase verfügbar:
 
-* eine abgeschlossene Erstanbieter-, Zweit- und Drittanbieter-Datenerfassungsstrategie;
+* eine abgeschlossene Erstanbieter-, Zweitanbieter- und Drittanbieter-Datenerfassungsstrategie;
 * einen abgeschlossenen [!DNL CRM]- oder Data Warehouse-Aufnahmeplan;
 * Definierte Anforderungen an die Zielgruppensegmentierung;
 * eine abgeschlossene Datentaxonomie;
 * Ein entwickelter Drittanbieter-Datenintegrationsplan.
 
-## Build-, Test- und Zugphase {#build-test-train-phase}
+## Build-, Test- und Trainings-Phase {#build-test-train-phase}
 
 Während der Build-, Test- und Zugphase werden Sie die Datenerfassungsstrategie und den Prototyp mit einem dafür vorgesehenen Partner Solutions-Lead überprüfen.
 
@@ -153,21 +153,21 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
 
 | Aktivität | Zweck/Beschreibung | Teilnehmer |
 |---|---|---|
-| Eine Datenerfassungsstrategie vorbereiten | Arbeiten Sie mit den technischen Teams der Adobe zusammen, um einen Datenerfassungsplan zu erstellen, der Ihren Geschäftsanforderungen entspricht. | Geschäftliche und technische Teams |
+| Eine Datenerfassungsstrategie vorbereiten | Arbeiten Sie mit technischen Adobe-Teams zusammen, um einen Datenerfassungsplan zu erstellen, der Ihren Geschäftsanforderungen entspricht. | Geschäftliche und technische Teams |
 | Bereitstellen und Testen von Code | Testen Sie die vorgeschlagene Lösung in einer Staging-Umgebung und führen Sie Browser-übergreifende Tests durch. | Technische Teams |
 | Funktionalität überprüfen und Fehler beheben | Ergebnisse untersuchen und kommunizieren, Fehler beheben und erneut testen | Technische Teams |
 | Benutzerschulung | Schulungen und Informationen zu Audience Manager-Funktionen, -Tools und -Berichten anbieten | Geschäftsteams |
 
 Folgende Ergebnisse sind in dieser Phase verfügbar:
 
-* einen abgeschlossenen und anerkannten Datenerhebungsplan;
-* End-to-End [!DNL QA]-Tests;
+* ein abgeschlossener und anerkannter Datenerhebungsplan;
+* End-to-End-Tests für [!DNL QA];
 * Grundlegende Anleitung zu Funktionen der Benutzeroberfläche von Audience Manager;
 * Annahme und Abnahme.
 
 ## Start-, Support- und Optimierungsphase {#launch-support-optimize-phase}
 
-Während der Start-, Support- und Optimierungsphase wechseln Ihre Datenerfassungs- und Prototypimplementierungen von der Entwicklung zur Live-Produktionsumgebung. Wir werden unsere Schulungen zur Produktvertrautheit und Strategien fortsetzen, die Ihnen helfen können, Ihr [!DNL ROI] durch datengesteuerte Optimierung zu verbessern.
+Während der Start-, Support- und Optimierungsphase wechseln Ihre Datenerfassungs- und Prototypimplementierungen von der Entwicklung zur Live-Produktionsumgebung. Wir werden unsere Schulungen zur Produktvertrautheit und zu Strategien fortsetzen, die durch datengesteuerte Optimierung dazu beitragen können, Ihre [!DNL ROI] zu erhöhen.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -184,11 +184,11 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> Datenanalyse und -optimierung </td> 
-   <td colname="col2"> Analysieren von Datentrends und Bereitstellen von Empfehlungen zur Optimierung </td> 
+   <td colname="col2"> Analysieren von Datentrends und Bereitstellen von Empfehlungen für die Optimierung </td> 
    <td colname="col3"> Geschäftsteams </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> Erstellen von Eigenschaften und Segmenten </td> 
+   <td colname="col1"> Eigenschaften und Segmente erstellen </td> 
    <td colname="col2">Erstellen Sie echte Eigenschaften und Segmente für die Datenerfassung: 
     <ul id="ul_21C7E86A7AF749CD8ECBE129DE2C641A"> 
      <li id="li_4FCCC879B7A44752A55DEAC2D6434220">Erstellen echter Eigenschaften und Segmente </li> 
@@ -234,4 +234,4 @@ Unsere gemeinsamen Bemühungen enden nicht mit der endgültigen Bereitstellung. 
 
 Kundenbetreuer bieten nach Abschluss der Produktimplementierung kontinuierliche Support- und Beratungsdienste an. Sie können mit regelmäßigen Sitzungen mit Ihrem Kundenbetreuer rechnen. Diese Meetings stellen sicher, dass Sie den maximalen Nutzungs- und Nutzwert von Audience Manager erhalten.
 
-Kontaktieren Sie uns [hier](https://www.adobe.com/products/audiencemanager.html) für weitere Informationen und für die ersten Schritte mit Audience Manager.
+Kontaktieren Sie uns [hier](https://www.adobe.com/products/audiencemanager.html) , um weitere Informationen zu erhalten und mit Audience Manager zu beginnen.

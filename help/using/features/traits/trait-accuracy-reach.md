@@ -1,16 +1,16 @@
 ---
 description: Beschreibt die Beziehung zwischen Genauigkeit und Reichweite in algorithmischen Eigenschaften.
-seo-description: Beschreibt die Beziehung zwischen Genauigkeit und Reichweite in algorithmischen Eigenschaften.
-seo-title: Genauigkeit und Reichweite
+seo-description: Describes the relationship between accuracy and reach in algorithmic traits.
+seo-title: Accuracy and Reach
 solution: Audience Manager
 title: Genauigkeit und Reichweite
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
-feature: 'Eigenschaften '
+feature: Traits
 exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 3%
+source-wordcount: '342'
+ht-degree: 0%
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 description: Als Option können Sie Datendateien komprimieren, wenn sie an Audience Manager gesendet werden.
-seo-description: Als Option können Sie Datendateien komprimieren, wenn sie an Audience Manager gesendet werden.
-seo-title: Dateikomprimierung für eingehende Datenübertragungsdateien
+seo-description: As an option, you can compress data files when sending them to Audience Manager.
+seo-title: File Compression for Inbound Data Transfer Files
 solution: Audience Manager
 title: Dateikomprimierung für eingehende Datenübertragungsdateien
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 exl-id: 9b3e3bef-2c93-4801-8f4f-04d9d42fd952
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 11%
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Audience Manager unterstützt auch unkomprimierte Dateien.
 >
 >Wir unterstützen keine Verschlüsselung von eingehenden Dateien, die mit gzip (`.gz`) komprimiert wurden.
 >
->Um eingehende Dateien zu verschlüsseln und zu komprimieren, verwenden Sie [PGP-Verschlüsselung](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] Die Verschlüsselung beinhaltet die Dateikomprimierung.
+>Verwenden Sie zum Verschlüsseln und Komprimieren eingehender Dateien die [PGP-Verschlüsselung](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). Die Verschlüsselung [!DNL PGP] beinhaltet die Dateikomprimierung.
 
 ## Amazon S3-Komprimierung
 
@@ -36,11 +36,11 @@ Für die Bereitstellung an [!DNL Amazon S3] müssen Sie `.gz` oder unkomprimiert
 
 >[!IMPORTANT]
 >
->Ihr [!DNL FTP]-Client muss den Binärmodus verwenden, um komprimierte oder verschlüsselte Dateien zu übertragen. Komprimierte oder verschlüsselte Dateien, die im Modus [!DNL ASCII] gesendet werden, beschädigen die Datenübertragungsdatei.
+>Ihr [!DNL FTP]-Client muss den Binärmodus verwenden, um komprimierte oder verschlüsselte Dateien zu übertragen. Komprimierte oder verschlüsselte Dateien, die im [!DNL ASCII] -Modus gesendet werden, beschädigen die Datenübertragungsdatei.
 
 ## Best Practices
 
-* Dateien sollten [!DNL .gzip] komprimiert sein (und eine [!DNL .gz] Dateierweiterung haben).
+* Dateien sollten [!DNL .gzip] komprimiert sein (und eine [!DNL .gz] -Dateierweiterung aufweisen).
 * Die maximale komprimierte Dateigröße für eine `.gz` komprimierte Datei beträgt 1 GB.
 * Die optimale Aufspaltungsgröße für die schnellste/früheste Verarbeitung Ihrer Dateien ist etwa 1 GB unkomprimiert oder 200-300 MB komprimiert.
 * [!DNL Amazon S3] legt für hochgeladene Dateien eine eigene Dateigrößenbeschränkung von 5 GB fest.

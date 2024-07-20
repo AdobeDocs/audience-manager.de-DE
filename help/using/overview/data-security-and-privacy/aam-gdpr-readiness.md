@@ -1,19 +1,19 @@
 ---
 description: DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden
-seo-description: DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden
-seo-title: DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden
+seo-description: GDPR Readiness Guidance for Audience Manager Customers
+seo-title: GDPR Readiness Guidance for Audience Manager Customers
 solution: Audience Manager
 title: DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden
-feature: Data Governance und Datenschutz
+feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 99%
+source-wordcount: '461'
+ht-degree: 98%
 
 ---
 
-# DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden (Datenverantwortliche) {#gdpr-readiness-guidance}
+# DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden (Datenverantwortliche) {#gdpr-readiness-guidance}
 
 Audience Manager empfiehlt, im Bereich der Data Governance und der Organisationsbereitschaft proaktiv zu sein. Auf diese Weise können Sie sicherstellen, dass Ihre Verbraucherdaten für Prozesse im Zusammenhang mit Zugriffs- oder Löschanfragen organisiert werden, Ihre Teams in die Lage versetzt werden, diese Anfragen zu verwalten, und dass Ihre Verbraucher (betroffene Personen) ein positives, differenziertes Erlebnis mit Ihrer Marke haben.
 

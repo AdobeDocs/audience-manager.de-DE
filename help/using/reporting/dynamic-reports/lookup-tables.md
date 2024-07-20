@@ -1,16 +1,16 @@
 ---
 description: Fügen Sie Daten in die Protokolldateien des Berichts "Versandleistung"in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um die Dateigröße und Verarbeitungszeiten zu reduzieren.
-seo-description: Fügen Sie Daten in die Protokolldateien des Berichts "Versandleistung"in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um die Dateigröße und Verarbeitungszeiten zu reduzieren.
-seo-title: Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen
+seo-description: Put data in Delivery Performance report log files into tables that contain IDs only. Put non-ID metadata in separate lookup tables to help reduce file size and processing times.
+seo-title: Improve Log File Processing Times with Lookup Tables
 solution: Audience Manager
 title: Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: Berichtsreferenz
+feature: Reporting Reference
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 18%
+source-wordcount: '464'
+ht-degree: 13%
 
 ---
 
@@ -28,7 +28,7 @@ c_lookup_tables.xml
 
 Eine typische Protokolldatei, die vom [!UICONTROL Delivery Performance] -Bericht verwendet wird, enthält in der Regel Tausende von Zeilen und Dutzende von Spalten. Sie besteht aus numerischen IDs und für Menschen lesbaren Informationen wie Namen für Kreative, Werbetreibende, Einfügeaufträge usw.
 
-Diese Nicht-ID-Informationen werden als *`metadata`* (d. h. Informationen zu anderen Informationen) bezeichnet und in jede Zeile der Protokolldatei geschrieben.
+Diese Nicht-ID-Informationen werden als &quot;*`metadata`*&quot;(d. h. Informationen zu anderen Informationen) bezeichnet und in jede Zeile der Protokolldatei geschrieben.
 
 Der Bericht [!UICONTROL Delivery Performance] funktioniert jedoch hauptsächlich mit den IDs in der Protokolldatei. Die Metadaten sind nützlich, aber wiederholt. Dadurch werden die Dateigröße und die Datenerfassungszeiten erhöht.
 
@@ -56,11 +56,11 @@ Im Folgenden finden Sie die gleiche Protokolldatei mit entfernten Metadaten. Die
 |---|---|---|---|
 | 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
-| 1 | 111 | 456 | 27 |
+| 3 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
-<br> 
+<br>
 
 Die nachstehende Lookup-Datei enthält die Metadaten und kann mit der Anzeigen-ID wieder mit der Hauptdatei verknüpft werden. Beachten Sie auch die Größe. Anstatt jeden Advertiser mehrmals zu wiederholen, benötigen Sie nur jeweils eine Referenz.
 

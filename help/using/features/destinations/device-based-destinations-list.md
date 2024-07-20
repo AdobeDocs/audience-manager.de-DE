@@ -1,5 +1,5 @@
 ---
-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der Adobe Exchange-Liste (falls verfügbar) oder bei Ihrem Adobe-Berater oder bei der Kundenunterstützung.
+description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weiterführende Informationen zu einer Integration finden Sie in der entsprechenden Integrationsliste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder an die Kundenunterstützung.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: Aktivierung; Aktivierungspartner, Ziel, Ziele
@@ -16,18 +16,18 @@ ht-degree: 46%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Diese Seite enthält die aktuelle [!DNL Audience Manager] [gerätebasierte Ziele](/help/using/features/destinations/add-device-based-destinations.md) nur. In [!DNL Audience Manager], [!UICONTROL device-based destinations] werden auch [!UICONTROL server-to-server destinations]. Weiterführende Informationen zu Integrationen finden Sie im Abschnitt [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (falls verfügbar) oder kontaktieren Sie Ihre [!DNL Adobe] Berater oder Kundenunterstützung.
+Diese Seite enthält nur die aktuellen [!DNL Audience Manager] [gerätebasierten Ziele](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] werden [!UICONTROL device-based destinations] auch als [!UICONTROL server-to-server destinations] bezeichnet. Weitere Informationen zu einer Integration finden Sie in der Liste [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (falls verfügbar) oder wenden Sie sich an Ihren [!DNL Adobe] -Berater oder die Kundenunterstützung.
 
 
-* **Zuletzt aktualisiert** = Zeigt das letzte Datum an, an dem ein Update für diese [!UICONTROL device-based destination].
-* **Updates** = Gibt an, ob [!DNL Audience Manager] sendet Daten in Echtzeit oder Batch (1 xday) an diesen [!UICONTROL destination].
-* **Aufheben der Segmentierung** = Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und daraus entfernen [!UICONTROL segments]. Ihre Fähigkeit, ein Geräteprofil aus einem [!UICONTROL segment] hängt von der Geräteoption ab, mit der eine [!UICONTROL Profile Merge Rule]. Die Aufhebung der Segmentierung wird auch im Kontext von [!DNL GDPR] Löschanfragen. Lesen [Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) und [Audience Manager-Partner mit Unsegmentierungsfunktionen](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] sendet Segmentinformationen an die [!UICONTROL destinations] markiert mit **Ja** unten.
-* **Empfangen [!DNL IAB TCF] Zustimmungssignale** = Die [!DNL Audience Manager Plug-in for IAB TCF] ermöglicht es Ihnen, die [!DNL IAB TC] -Zeichenfolge zu Aktivierungspartnern hinzugefügt werden, wobei die Datenschutzoptionen der Benutzer berücksichtigt werden. Lesen [Audience Manager-Plug-in für IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **[!DNL ICDS]** = Diese Spalte listet die Partner auf, die [!UICONTROL Instant Cross-Device Suppression]. Informationen [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **Mobilgeräte-IDs** = Diese Spalte listet Partner auf, von denen Mobilgeräte-IDs empfangen werden können [!DNL Audience Manager].
+* **Zuletzt aktualisiert** = Zeigt das letzte Datum an, an dem für diesen [!UICONTROL device-based destination] ein Update vorgenommen wurde.
+* **Aktualisierungen** = Gibt an, ob [!DNL Audience Manager] Daten in Echtzeit oder Batch (1 xday) an diesen [!UICONTROL destination] sendet.
+* **Aufhebung der Segmentierung** = Die Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und aus [!UICONTROL segments] entfernen. Ihre Fähigkeit, ein Geräteprofil aus einer [!UICONTROL segment] zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer [!UICONTROL Profile Merge Rule] verwendet wird. Die Aufhebung der Segmentierung wird auch im Zusammenhang mit [!DNL GDPR] Löschanfragen verwendet. Lesen Sie [Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) und [Audience Manager-Partner mit Aufhebung der Segmentierung](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] sendet Informationen zum Aufheben der Segmentierung an den [!UICONTROL destinations], der mit **Ja** unten markiert ist.
+* **Empfangen von [!DNL IAB TCF] Zustimmungssignalen** = Der [!DNL Audience Manager Plug-in for IAB TCF] ermöglicht es Ihnen, die [!DNL IAB TC] -Zeichenfolge an Aktivierungspartner weiterzuleiten und dabei die Datenschutzoptionen der Benutzer zu beachten. Lesen Sie das [Audience Manager-Plug-in für IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **[!DNL ICDS]** = Diese Spalte listet die Partner auf, die [!UICONTROL Instant Cross-Device Suppression] unterstützen. Lesen Sie mehr über [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **Mobilgeräte-IDs** = In dieser Spalte werden Partner aufgeführt, die Mobilgeräte-IDs von [!DNL Audience Manager] empfangen können.
 
 
-| Integration | Zuletzt aktualisiert | Updates | Aufheben der Segmentierung | Empfangen [!DNL IAB TCF] Zustimmungssignale | [!DNL ICDS] | Mobilgeräte-IDs |
+| Integration | Zuletzt aktualisiert | Updates | Aufheben der Segmentierung | Empfangen von Zustimmungssignalen für [!DNL IAB TCF] | [!DNL ICDS] | Mobilgeräte-IDs |
 |----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 26.09.2018 | 1 Tag | Ja | Nein | Nein | Ja |
 | [!DNL 4info] | 2. September 2017 | 1 Tag | Nein | Nein | Nein | Ja |

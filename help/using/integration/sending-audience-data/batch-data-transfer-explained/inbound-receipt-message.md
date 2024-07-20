@@ -1,22 +1,22 @@
 ---
 description: Bei jeder Verarbeitung einer eingehenden Server-zu-Server-Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
-seo-description: Bei jeder Verarbeitung einer eingehenden Server-zu-Server-Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
-seo-title: Beispielnachricht an Partner nach der eingehenden Verarbeitung
+seo-description: Whenever an inbound Server-to-Server file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.
+seo-title: Sample Message to Partners after Inbound Processing
 solution: Audience Manager
 title: Beispielnachricht an Partner nach der eingehenden Verarbeitung
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
-feature: Übertragungen von Inbound-Daten
+feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 3%
+source-wordcount: '636'
+ht-degree: 0%
 
 ---
 
 # Beispielnachricht an Partner nach der eingehenden Verarbeitung{#sample-message-to-partners-after-inbound-processing}
 
-Bei jeder Verarbeitung einer eingehenden [!UICONTROL Server-to-Server]-Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
+Bei jeder Verarbeitung einer eingehenden [!UICONTROL Server-to-Server] -Datei wird eine Quittung per E-Mail an Partnerlösungen und, falls konfiguriert, an den Partner gesendet.
 
 <!-- r_inbound_message.xml -->
 
@@ -25,7 +25,7 @@ Das folgende Beispiel zeigt eine Beispiel-E-Mail-Nachricht. In der Tabelle unter
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Von: aam-noreply@adobe.com  </b> </p> <p> <b>Betrifft: Adobe Audience Manager Server-zu-Server-Verarbeitungsergebnis:</b> </p> <p> <b>Sehr geehrte Adobe Partner: (ID:7)</b> <b></b> </p> <p> <b>Wir haben Ihre Adobe Audience Manager Server-to-Server-Dateibereitstellung erhalten</b> </p> <p> <b>Dateiname:</b> <i></i> </p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </i></p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </i></p> <p> <b>Empfangsbestätigungen: 40669900</b> </p> <p><b>Formatfehler: 0</b> </p> <p> <b>Ungültige AAM-ID: 112  </b> </p> <p> <b>Keine übereinstimmende AAM-ID: 0  </b> </p> <p> <b>Keine Eigenschaft realisiert: 26730823  </b> </p> <p> <b>Verarbeitete Datensätze: 40669900  </b> </p> <p> <b>Gespeicherte Datensätze: 13938958  </b> </p> <p> <b>Geräte insgesamt: 21  </b> </p> <p> <b>Signale insgesamt: 918878926  </b> </p> <p> <b>Ungenutzte Signale insgesamt: 660348376  </b> </p> <p> <b>Gesamtzahl der realisierten Eigenschaften: 258086908  </b> </p> <p> <b>Gesamtzahl entfernter Eigenschaften: 0  </b> </p> <p> <b>Validierung der Gesamteigenschaften fehlgeschlagen: 0  </b> </p> <p> <b>Gesamtzahl der Benutzer mit Eigenschaften, bei denen die Validierung fehlgeschlagen ist: 0  </b> </p> <p> <b>Auftragsstartzeit: 18.05.2018:07:49 1718  </b> </p> <p> <b>Auftragsendzeit: 17.05.2018 18.:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>Von: aam-noreply@adobe.com </b> </p> <p> <b>Subject: Adobe Audience Manager Server-to-Server Processing Result:</b> </p> <p> <b>Lieber Adobe-Partner: (ID:7)</b> <b></b> </p> <p> <b>Wir haben Ihre Adobe Audience Manager Server-to-Server-Dateibereitstellung erhalten</b> </p> <p> <b>Dateiname:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>empfangene Datensätze: 40669900</b> </p> <p><b>Formatfehler: 0</b> </p> <p> <b>Ungültige AAM-ID: 112 </b> </p> <p> <b>Keine Übereinstimmung mit AAM ID: 0 </b> </p> <p> <b>Keine Eigenschaft realisiert: 26730823 </b> </p> <p> <b>verarbeitete Datensätze: 40669900 </b> </p> <p> <b>Gespeicherte Datensätze: 13938958 </b> </p> <p> <b>Geräte insgesamt: 21 </b> </p> <p> <b>Signale insgesamt: 918878926 </b> </p> <p> <b>Ungenutzte Signale insgesamt: 660348376 </b> </p> <p> <b>Gesamtzahl der realisierten Eigenschaften: 258086908 </b> </p> <p> <b>Gesamtzahl entfernter Eigenschaften: 0 </b> </p> <p> <b>Validierung der Gesamteigenschaften fehlgeschlagen: 0 </b> </p> <p> <b>Gesamtzahl der Benutzer mit Eigenschaften, bei denen die Validierung fehlgeschlagen ist: 0 </b> </p> <p> <b>Auftragsstartzeit: 2018-05-17 18:07:49 </b> </p> <p> <b>Auftragsendzeit: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,11 +42,11 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail-N
  <tbody> 
   <tr> 
    <td colname="col1"> Dateiname </td> 
-   <td colname="col2"> <p>Liste aller eingehenden Dateien, die die Adobe für diesen Partner erhalten hat und die zusammen verarbeitet wurden. In der vorherigen Beispiel-E-Mail-Nachricht ist die Partner-ID 7 und die Dateneigentümer-ID 901. </p> <p>Die Nummer "tail" (1,2,3 ...) ist die vom Kunden oder vom eingehenden Distributor hinzugefügte Splitnummer. </p> </td> 
+   <td colname="col2"> <p>Liste aller eingehenden Dateien, die Adobe für diesen Partner erhalten hat und die zusammen verarbeitet wurden. In der vorherigen Beispiel-E-Mail-Nachricht ist die Partner-ID 7 und die Dateneigentümer-ID 901. </p> <p>Die Nummer "tail" (1,2,3 ...) ist die vom Kunden oder vom eingehenden Distributor hinzugefügte Splitnummer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Erhaltene Aufzeichnungen </td> 
-   <td colname="col2"> <p>Gesamtzahl der in allen Adoben empfangenen Datensätze. In den meisten Fällen sollte dies die Gesamtanzahl der Zeilen in eingehenden Dateien sein. </p> </td> 
+   <td colname="col1"> Empfangene Einträge </td> 
+   <td colname="col2"> <p>Gesamtzahl der Adobe empfangenen Datensätze in allen Dateien. In den meisten Fällen sollte dies die Gesamtanzahl der Zeilen in eingehenden Dateien sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Formatfehler </td> 
@@ -57,7 +57,7 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail-N
    <td colname="col2"> <p>Anzahl der Audience Manager-UUIDs, die nicht dem erwarteten 38-stelligen Format entsprachen. Oder die Audience Manager-UUIDs, die in der Datei gesendet werden, sind keine Zahlen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Keine übereinstimmende AAM-ID </td> 
+   <td colname="col1"> Keine übereinstimmende AAM ID </td> 
    <td colname="col2"> <p>Gesamtzahl der Benutzer, für die der Audience Manager keine übereinstimmende UUID gefunden hat. Diese Dateien wurden nicht mit ID synchronisiert, sodass Audience Manager die UUID nicht nachschlagen können. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail-N
    <td colname="col2"> <p> Gesamtzahl der Signale für alle Benutzer in allen eingehenden Dateien (Gesamtzahl der Schlüssel/Wert-Paare in den verarbeiteten Datensätzen). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ungenutzte Signale insgesamt </td> 
+   <td colname="col1"> Nicht verwendete Signale </td> 
    <td colname="col2"> <p>Gesamtzahl des nicht verwendeten Signals für alle Benutzer über alle eingehenden Dateien (Schlüssel/Wert-Paare, die nicht den Eigenschaften des Audience Managers zugeordnet waren). In den meisten Fällen bedeutet dies, dass für den Audience Manager keine Signalregeln definiert sind. </p> </td> 
   </tr> 
   <tr> 

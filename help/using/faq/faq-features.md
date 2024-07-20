@@ -10,8 +10,8 @@ feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 84%
+source-wordcount: '574'
+ht-degree: 87%
 
 ---
 
@@ -47,9 +47,9 @@ Ja. Siehe [Tools zur Massenverwaltung](../reference/bulk-management-tools/bulk-m
 
  
 
-**Beim Ausführen eines Massen-ID-Exports für ein Ziel fehlen einige Kunden-IDs. Warum passiert das?**
+**Beim Ausführen eines Massen-ID-Exports an ein Ziel fehlen einige Kunden-IDs. Warum passiert das?**
 
-Wenn eine Geräte-ID ([AAM UUID](../reference/ids-in-aam.md)) mit mehreren CRM-IDs ([DPUUIDs](../reference/ids-in-aam.md)), wird nur die neueste Zuordnung exportiert. Aus diesem Grund kann es vorkommen, dass weniger Geräte-IDs als erwartet exportiert werden.
+Wenn eine Geräte-ID ([AAM UUID](../reference/ids-in-aam.md)) mit mehreren CRM-IDs ([DPUUIDs](../reference/ids-in-aam.md)) verknüpft ist, wird nur die neueste Zuordnung exportiert. Aus diesem Grund kann es vorkommen, dass weniger Geräte-IDs als erwartet exportiert werden.
 
  
 
@@ -67,7 +67,7 @@ Ihr Daten-Feed und alle im Feed enthaltenen Eigenschaften werden als Unterordner
 
 **Was ist [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager verwendete [!UICONTROL Tag Insertion Manager] (TIM) zum Erstellen und Verwalten von [!UICONTROL data collection code (DIL)]. Diese Funktion ist mittlerweile veraltet und wurde zuerst durch [!UICONTROL Dynamic Tag Manager (DTM)] und später durch [!DNL Adobe Experience Platform Tags] ersetzt. Weitere Informationen finden Sie unter [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Audience Manager verwendete [!UICONTROL Tag Insertion Manager] (TIM) zum Erstellen und Verwalten von [!UICONTROL data collection code (DIL)]. Diese Funktion ist mittlerweile veraltet und wurde zuerst durch [!UICONTROL Dynamic Tag Manager (DTM)] und später durch [!DNL Adobe Experience Platform Tags] ersetzt. Weitere Informationen finden Sie unter [Adobe Experience Platform-Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 

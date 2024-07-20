@@ -1,22 +1,22 @@
 ---
-description: Sie können eine CSV-Datei für einen Overlap Report anfordern, wenn dieser Bericht die Rekordgrenze von 1 Million erreicht. Ein Bericht kann diese Grenze erreicht haben, wenn die Meldung "Unerwarteter Fehler ist aufgetreten"angezeigt wird. Wenden Sie sich an die Kundenunterstützung, um eine komprimierte CSV-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem verwenden können. Dateien sind für Berichte zur Segmentüberschneidung, Segment-zu-Merkmal-Überschneidung und zur Eigenschaftenüberschneidung verfügbar.
-seo-description: Sie können eine CSV-Datei für einen Overlap Report anfordern, wenn dieser Bericht die Rekordgrenze von 1 Million erreicht. Ein Bericht kann diese Grenze erreicht haben, wenn die Meldung "Unerwarteter Fehler ist aufgetreten"angezeigt wird. Wenden Sie sich an die Kundenunterstützung, um eine komprimierte CSV-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem verwenden können. Dateien sind für Berichte zur Segmentüberschneidung, Segment-zu-Merkmal-Überschneidung und zur Eigenschaftenüberschneidung verfügbar.
-seo-title: CSV-Dateien für Überlagerungsberichte
+description: Sie können eine CSV-Datei für einen Überlagerungsbericht anfordern, wenn dieser Bericht das Limit von 1 Million Datensätzen erreicht. Ein Bericht kann diese Grenze erreicht haben, wenn die Meldung "Unerwarteter Fehler ist aufgetreten"angezeigt wird. Wenden Sie sich an die Kundenunterstützung, um eine komprimierte CSV-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem verwenden können. Dateien sind für Berichte zur Segmentüberschneidung, Segment-zu-Merkmal-Überschneidung und zur Eigenschaftenüberschneidung verfügbar.
+seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
+seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
 title: CSV-Dateien für Überlagerungsberichte
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
-feature: Überlagerungsberichte
+feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 9%
+source-wordcount: '909'
+ht-degree: 2%
 
 ---
 
 # CSV-Dateien für Überlagerungsberichte{#csv-files-for-overlap-reports}
 
-Sie können eine CSV-Datei für einen Overlap Report anfordern, wenn dieser Bericht die Rekordgrenze von 1 Million erreicht. Ein Bericht kann diese Grenze erreicht haben, wenn die Meldung &quot;Unerwarteter Fehler ist aufgetreten&quot;angezeigt wird. Wenden Sie sich an die Kundenunterstützung, um eine komprimierte CSV-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem verwenden können. Dateien sind für Berichte zur Segmentüberschneidung, Segment-zu-Merkmal-Überschneidung und zur Eigenschaftenüberschneidung verfügbar.
+Sie können eine CSV-Datei für einen Überlagerungsbericht anfordern, wenn dieser Bericht das Limit von 1 Million Datensätzen erreicht. Ein Bericht kann diese Grenze erreicht haben, wenn die Meldung &quot;Unerwarteter Fehler ist aufgetreten&quot;angezeigt wird. Wenden Sie sich an die Kundenunterstützung, um eine komprimierte CSV-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem verwenden können. Dateien sind für Berichte zur Segmentüberschneidung, Segment-zu-Merkmal-Überschneidung und zur Eigenschaftenüberschneidung verfügbar.
 
 ## Dateinamenmetadaten {#file-name-metadata}
 
@@ -31,7 +31,7 @@ In der folgenden Tabelle werden die Dateibenennungskonventionen und Dateierweite
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Datei Erweiterung </p> </td> 
+   <td colname="col1"> <p>Dateierweiterung </p> </td> 
    <td colname="col2"> <p>Überlagerungsberichtsdateien sind gzip-komprimiert und haben eine <code> .gz</code> -Dateierweiterung. Nach der Dekomprimierung müssen Sie die Erweiterung <code> .csv</code> zur Datei hinzufügen. </p> </td> 
   </tr> 
   <tr> 
@@ -47,8 +47,8 @@ In der folgenden Tabelle werden die Dateibenennungskonventionen und Dateierweite
    <td colname="col1"> <p>Datumsbereich </p> </td> 
    <td colname="col2"> <p>Der Datumsbereich für einen Bericht ist eine fünfstellige ID, die Folgendes enthält: </p> <p> 
      <ul id="ul_7B334CDFD7DA42AC8F383BE0F8F77FB9"> 
-      <li id="li_0045DED532E747C08824DCC98A9174B3"> <code> 70000</code> für einen 7-tägigen Bericht. </li> 
-      <li id="li_3A22775F78E648BF8AC32A9E1AF1F5DE"> <code> 30000</code> für einen 30-Tage-Bericht. </li> 
+      <li id="li_0045DED532E747C08824DCC98A9174B3"> <code> 70000</code> für einen 7-Tage-Bericht. </li> 
+      <li id="li_3A22775F78E648BF8AC32A9E1AF1F5DE"> <code> 30000</code> für einen 30-tägigen Bericht. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ In der folgenden Tabelle werden die Dateibenennungskonventionen und Dateierweite
    <td colname="col1"> <p>Beispiele </p> </td> 
    <td colname="col2"> <p>Beispiele für Dateinamen für einen einzelnen Bericht: </p> <p> 
      <ul id="ul_EED13F73F37D48868236F8945E19C88F"> 
-      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">Einzelne Datei mit 7 Tagen: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
+      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">Einzelne 7-Tage-Datei: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
       <li id="li_487F8B76B7F24DCEB890C2D8186728F7">Einzelne 30-Tage-Datei: <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
      </ul> </p> <p>Beispiele für Dateinamen für einen Bericht mit mehreren Dateien: </p> <p> 
      <ul id="ul_D307EECBB3524962AB8C8332BF699D29"> 
@@ -84,7 +84,7 @@ In der -Datei werden die Zeichenfolgendaten in doppelte Anführungszeichen geset
 
 ## Berichtdatensätze zwischen Segmenten {#segment-segment-records}
 
-Eine Datendatei für Ihren [Überschneidungsbericht zwischen Segmenten](segment-segment-overlap-report.md) enthält die folgenden Datensätze.
+Eine Datendatei für Ihren [Überlagerungsbericht zwischen Segmenten](segment-segment-overlap-report.md) enthält die folgenden Datensätze.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -112,7 +112,7 @@ Eine Datendatei für Ihren [Überschneidungsbericht zwischen Segmenten](segment-
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für 7- und 30-tägige Lookback-Intervalle abrufen. <code> rangeid</code> entspricht den unten dargestellten Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für 7- und 30-tägige Lookback-Intervalle abrufen. Der <code> rangeid</code> entspricht den unten dargestellten Zeitintervallen. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 Tage </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 Tage </li> 
@@ -155,7 +155,7 @@ Eine Datendatei für Ihren [Überlagerungsbericht zwischen Segmenten und Eigensc
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> trait_id</code> </p> </td> 
-   <td colname="col2"> <p>Eigenschafts-ID. </p> </td> 
+   <td colname="col2"> <p>Eigenschaft-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_name</code> </p> </td> 
@@ -175,7 +175,7 @@ Eine Datendatei für Ihren [Überlagerungsbericht zwischen Segmenten und Eigensc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für 7- und 30-tägige Lookback-Intervalle abrufen. <code> rangeid</code> entspricht den unten dargestellten Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für 7- und 30-tägige Lookback-Intervalle abrufen. Der <code> rangeid</code> entspricht den unten dargestellten Zeitintervallen. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 Tage </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 Tage </li> 
@@ -199,11 +199,11 @@ Eine Datendatei für Ihren [Überlagerungsbericht zwischen Segmenten und Eigensc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>% der Unique Users, die sich zwischen der Eigenschaft und dem Segment überschneiden. Im UI-Bericht wird diese Zahl im Popup-Fenster angezeigt, wenn Sie den Mauszeiger über eine Eigenschaft in den Heatmap-Ergebnissen bewegen. </p> </td> 
+   <td colname="col2"> <p>% der Unique Users, die sich zwischen Eigenschaft und Segment überschneiden. Im UI-Bericht wird diese Zahl im Popup-Fenster angezeigt, wenn Sie den Mauszeiger über eine Eigenschaft in den Heatmap-Ergebnissen bewegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>% der Unique Users, die sich zwischen dem Segment und der Eigenschaft überschneiden. Im UI-Bericht wird diese Zahl im Popup-Fenster angezeigt, wenn Sie den Mauszeiger über eine Eigenschaft in den Heatmap-Ergebnissen bewegen. </p> </td> 
+   <td colname="col2"> <p>% der Unique Users, die sich zwischen Segment und Eigenschaft überschneiden. Im UI-Bericht wird diese Zahl im Popup-Fenster angezeigt, wenn Sie den Mauszeiger über eine Eigenschaft in den Heatmap-Ergebnissen bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -234,7 +234,7 @@ Eine Datendatei für Ihren [Überlagerungsbericht zwischen Eigenschaften](trait-
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_name</code> </p> </td> 
-   <td colname="col2"> <p>Der Name der Grundlinieneigenschaft, die Sie mit anderen Eigenschaften vergleichen. </p> </td> 
+   <td colname="col2"> <p>Der Name der Grundlinie, die Sie mit anderen Eigenschaften vergleichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dataprovider_type</code> </p> </td> 
@@ -250,7 +250,7 @@ Eine Datendatei für Ihren [Überlagerungsbericht zwischen Eigenschaften](trait-
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Sie können Berichte für 7- und 30-tägige Lookback-Intervalle abrufen. <code> rangeid</code> entspricht den unten dargestellten Zeitintervallen. </p> <p> 
+   <td colname="col2"> <p>Sie können Berichte für 7- und 30-tägige Lookback-Intervalle abrufen. Der <code> rangeid</code> entspricht den unten dargestellten Zeitintervallen. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 Tage </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 Tage </li> 
