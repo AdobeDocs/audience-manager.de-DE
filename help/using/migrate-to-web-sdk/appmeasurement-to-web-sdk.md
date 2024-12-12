@@ -2,9 +2,9 @@
 title: Aktualisieren Sie Ihre Datenerfassungsbibliothek für Audience Manager von der AppMeasurement JavaScript-Bibliothek in die Web SDK JavaScript-Bibliothek.
 description: Machen Sie sich mit den Schritten zur Aktualisierung Ihrer Datenerfassungsbibliothek für den Audience Manager von der AppMeasurement JavaScript-Bibliothek zur Web SDK JavaScript-Bibliothek vertraut.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
-source-git-commit: 3ba980e97763866d82bdf94109068f1f1f8f63d2
+source-git-commit: f8d8eb722e7b5cc4371f400a76fbd548a1318668
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2589'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,18 @@ Ihr Datastream kann jetzt Daten empfangen und an Audience Manager weitergeben. N
 1. Wählen Sie **[!UICONTROL Save]** aus.
 
 Ihr Datastream ist jetzt bereit, sowohl Daten an Audience Manager zu senden als auch die Audience Manager-Antworten an das Web SDK zu übergeben.
+
++++
+
++++**4. Hinzufügen von Kunden-IDs zur Identitätszuordnung**
+
+Die meisten Audience Manager-Implementierungen verwenden [Profilzusammenführungsregeln](../features/profile-merge-rules/merge-rules-overview.md) in geräteübergreifenden Personalisierungsszenarien und helfen zu steuern, für welche Segmente sich Besucher je nach Authentifizierungsstatus qualifizieren können (angemeldet oder abgemeldet). Profilzusammenführungsrichtlinien erfordern, dass bei jedem Datenerfassungsaufruf nach der Authentifizierung eine kundeneigene Kennung (CRM-ID, Kundennummer usw.) an den Audience Manager gesendet wird. Zuvor wurde die Funktion `setCustomerIDs` des Besucher-ID-Diensts ([!DNL visitor.js]) verwendet, um Kunden-IDs an jeden Analytics-Datenerfassungsaufruf anzuhängen, der dann an Audience Manager weitergeleitet wurde.
+
+Mit der Web SDK müssen diese Identitäten jetzt mit einem speziellen XDM-Konstrukt namens [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) an das Edge Network gesendet werden.
+
+Die korrekte Übergabe von Identitäten in einer Identitätszuordnung erfordert das Verständnis von [Identitäts-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) und die sorgfältige Prüfung der zu übergebenden Identitäten, insbesondere beim Senden von Daten an eine Experience Platform-Sandbox. [In diesem Artikel](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) werden diese Überlegungen und Anweisungen erläutert.
+
+Nachdem Sie bestimmt haben, welche Identitäten weitergegeben werden sollen und wann, befolgen Sie die Anleitungen zur Verwendung des [!UICONTROL Identity map] **[!UICONTROL Identity map]** [Datenelements](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) in Tags oder legen Sie es manuell fest, wie in der [Übersicht über Identitätsdaten](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) beschrieben, um es an Ihre Web SDK-Bereitstellungsstrategie anzupassen.
 
 +++
 
