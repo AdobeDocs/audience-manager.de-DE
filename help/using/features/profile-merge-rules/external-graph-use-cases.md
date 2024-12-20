@@ -1,9 +1,9 @@
 ---
-description: Recommendations und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm ist als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagrammfirmen von Drittanbietern hat.
+description: Recommendations und Anwendungsfälle für die Prospektion, das Retargeting und die Personalisierung für unbekannte Benutzende mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagramm-Unternehmen von Drittanbietern hat.
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
-title: Anwendungsfälle für externe Gerätediagramme
+title: Anwendungsfälle für Diagramme mit externen Geräten
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 ---
 
-# Anwendungsfälle für externe Gerätediagramme {#external-device-graph-use-cases}
+# Anwendungsfälle für Diagramme mit externen Geräten {#external-device-graph-use-cases}
 
-Recommendations und Anwendungsfälle für Prospektion, Retargeting und Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm ist als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagrammfirmen von Drittanbietern hat.
+Recommendations und Anwendungsfälle für die Prospektion, das Retargeting und die Personalisierung für unbekannte Benutzende mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagramm-Unternehmen von Drittanbietern hat.
 
 ## Empfehlungen {#recommendations}
 
-Erwägen Sie Gerätediagrammoptionen von Drittanbietern für Kampagnen, die:
+Optionen für Gerätediagramme von Drittanbietern für Kampagnen in Betracht ziehen, die:
 
-* Sie verfügen über eine niedrige Authentifizierungsstufe für ihre digitalen Eigenschaften. Verwenden Sie den [!UICONTROL Profile Link Device Graph option] , wenn viele authentifizierte Benutzer vorhanden sind.
-* Targeting großer Zielgruppen. Gerätediagramme von Drittanbietern enthalten authentifizierte und nicht authentifizierte Daten.
-* Segmentieren authentifizierter und/oder nicht authentifizierter Besucher auf individueller und Haushaltsebene.
+* verfügen über ein niedriges Authentifizierungsniveau für ihre digitalen Eigenschaften. Verwenden Sie die [!UICONTROL Profile Link Device Graph option], wenn eine große Anzahl authentifizierter Benutzer vorhanden ist.
+* Targeting großer Zielgruppen. Diagramme von Drittanbietergeräten enthalten authentifizierte und nicht authentifizierte Daten.
+* Segmentieren Sie authentifizierte und/oder nicht authentifizierte Besucher auf Einzel- und Haushaltsebene.
 
 ![](assets/merge-rule-triangle1.png)
 <!-- 
@@ -114,17 +114,17 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ## Erweitertes geräteübergreifendes Targeting {#advanced-graph-expansion}
 
-Dieser Anwendungsfall zeigt, wie Sie mithilfe der Regel **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** das Zielgruppen-Targeting für authentifizierte Besucher mit Geräten aus einem externen Gerätediagramm erweitern können.
+Dieses Anwendungsbeispiel zeigt, wie mithilfe der **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**-Regel die Zielgruppen-Zielgruppenbestimmung für authentifizierte Besucher mit Geräten über ein externes Gerätediagramm erweitert werden kann.
 
 ![last-device-graph](assets/last-profile-link.png)
 
-Im folgenden Beispiel möchte das Unternehmen Acme Inc. alle Haushalte mit einem Einkommen von über 100.000 US-Dollar pro Jahr ansprechen, die über [!DNL Acme Inc.] Abonnenten für [!DNL Data Plan A] verfügen, die ein [!DNL iPhone 7]-Gerät verwenden.
+Im folgenden Beispiel möchte das Unternehmen Acme Inc. alle Haushalte mit einem Einkommen von über 100.000 US-Dollar pro Jahr ansprechen, die [!DNL Acme Inc.] Abonnenten auf [!DNL Data Plan A] haben, die ein [!DNL iPhone 7] verwenden.
 
-John verwendet seine iPhone 7 für Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig enthält Johns &quot;[!DNL Profile Link Device Graph]&quot;-Cluster zwei zusätzliche Geräte, die er regelmäßig verwendet: seinen Laptop ([!DNL Device 1]) und sein sekundäres Smartphone [!DNL Device 2] (ein [!DNL Samsung S7] auf [!DNL Data Plan B]).
+John verwendet seine iPhone 7 auf Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig enthält Johns [!DNL Profile Link Device Graph]-Cluster zwei zusätzliche Geräte, die er regelmäßig verwendet: seinen Laptop ([!DNL Device 1]) und sein sekundäres Smartphone [!DNL Device 2] (ein [!DNL Samsung S7] auf [!DNL Data Plan B]).
 
-Durch die Verwendung von **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** kann [!DNL Acme Inc.] personalisierte Nachrichten an alle drei Geräte aus Johns Gerätediagramm-Cluster senden, auch wenn nur einer von ihnen anfänglich für das Segment qualifiziert ist.
+Durch die Verwendung der **[!UICONTROL Profile Link Device Graph]** **[!UICONTROL Last Authenticated Profiles]** + kann [!DNL Acme Inc.] personalisierte Nachrichten an alle drei Geräte aus dem Gerätediagramm-Cluster von John senden, obwohl zunächst nur eines von ihnen für das Segment qualifiziert ist.
 
-![advanced-graph-extension](assets/advanced-device-graph-expansion.png)
+![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >

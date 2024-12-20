@@ -1,5 +1,5 @@
 ---
-description: Bevor Sie Batch-Daten an Inhaltsanbieter von Drittanbietern senden können, müssen Sie die Integration zwischen Audience Manager und dem Inhaltsanbieter von Drittanbietern konfigurieren.
+description: Bevor Sie Batch-Daten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen dem Audience Manager und dem Drittanbieter für Inhalte konfigurieren.
 seo-description: Before you can send batch data to third-party content providers, you need to configure the integration between Audience Manager and the third-party content provider.
 seo-title: Configure batch data integration
 solution: Audience Manager
@@ -15,18 +15,18 @@ ht-degree: 0%
 
 # Konfigurieren der Batch-Datenübertragungsintegration
 
-Bevor Sie Batch-Daten an Inhaltsanbieter von Drittanbietern senden können, müssen Sie die Integration zwischen Audience Manager und dem Inhaltsanbieter von Drittanbietern konfigurieren. Dazu gibt es zwei Möglichkeiten:
+Bevor Sie Batch-Daten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen dem Audience Manager und dem Drittanbieter für Inhalte konfigurieren. Dies ist auf zwei Arten möglich:
 
-## Konfiguration der Hilfe über Ihren Adobe-Berater anfordern {#config-consultant}
+## Unterstützung bei der Konfiguration über Ihren Adobe-Berater anfordern {#config-consultant}
 
-Wenn Sie mit einem Adobe-Berater zusammenarbeiten, kümmert er sich um den Konfigurationsprozess für Sie.
+Wenn Sie mit einem Adobe-Berater arbeiten, wird dieser sich um den Konfigurationsprozess kümmern.
 
-## Konfiguration der Hilfe über den Adobe-Support anfordern {#config-support}
+## Konfiguration der Hilfe über den Adobe-Kunden-Support anfordern {#config-support}
 
-Wenn Sie nicht mit einem Adobe-Berater arbeiten, können Sie die Batch-Transferintegration weiterhin vom Kundensupport konfigurieren lassen. Wenden Sie sich für weitere Informationen an den Support.
+Wenn Sie nicht mit einem Adobe-Berater arbeiten, können Sie trotzdem vom Kunden-Support die Batch-Transferintegration konfigurieren lassen. Weitere Informationen erhalten Sie beim Support.
 
 >[!IMPORTANT]
 >
->Wenn Sie SSH-Schlüssel-basierte Authentifizierung verwenden, fordert der Kundensupport Sie auf, die SSH-Schlüssel zu generieren.
+>Wenn Sie die SSH-Schlüsselbasierte Authentifizierung verwenden, fordert Sie der Kunden-Support auf, die SSH-Schlüssel zu generieren.
 >
-> Stellen Sie sicher, dass Sie die Schlüssel im OpenSSH-Format generieren.
+> Stellen Sie sicher, dass Sie die Schlüssel im OpenSSH-Format erzeugen.

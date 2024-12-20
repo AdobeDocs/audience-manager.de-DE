@@ -1,5 +1,5 @@
 ---
-description: Lassen Sie die Schlüsselwertfelder leer, um nach einem breiteren Spektrum von Signalen zu suchen und die verfügbaren Filter zu verwenden, um die Ergebnisse einzugrenzen.
+description: Lassen Sie die Schlüssel-Wert-Felder leer, um nach einem breiteren Bereich von Signalen zu suchen, und nutzen Sie die verfügbaren Filter, um die Ergebnisse einzugrenzen.
 seo-description: Leave the key-value fields blank to search for a broader range of signals and use the available filters to narrow down the results.
 seo-title: Search Signals by Filters
 title: Suchsignale nach Filtern
@@ -15,10 +15,10 @@ ht-degree: 0%
 
 # Suchsignale nach Filtern {#search-signals-by-filters}
 
-Lassen Sie die Schlüsselwertfelder leer, um nach einem breiteren Spektrum von Signalen zu suchen und die verfügbaren Filter zu verwenden, um die Ergebnisse einzugrenzen.
+Lassen Sie die Schlüssel-Wert-Felder leer, um nach einem breiteren Bereich von Signalen zu suchen, und nutzen Sie die verfügbaren Filter, um die Ergebnisse einzugrenzen.
 
 Verwenden Sie diese Methode, wenn Sie kein bestimmtes Schlüssel-Wert-Paar im Sinn haben, aber die Entwicklung mehrerer Signale über einen bestimmten Zeitraum sehen möchten.
 
-Im folgenden Beispiel sind die Filter so konfiguriert, dass alle nicht verwendeten Signale der letzten 30 Tage mit einer Mindestanzahl von 1000 angezeigt werden.
+Im folgenden Beispiel sind die Filter so konfiguriert, dass alle nicht verwendeten Signale der letzten 30 Tage mit einer Mindestanzahl von 1.000 angezeigt werden.
 
 ![](assets/signals-search-filters.png)

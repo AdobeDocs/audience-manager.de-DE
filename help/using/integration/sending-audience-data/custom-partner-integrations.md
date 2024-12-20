@@ -21,29 +21,29 @@ Diese Seite enthält benutzerdefinierte Integrationen zwischen Audience Manager 
 
 ### Beschreibung
 
-Audience Manager übernimmt mithilfe von eingehenden Datendateien Cookie-Daten und mobile IDs aus der Oracle Data Cloud für Audience Marketplace. Die unten beschriebenen benutzerdefinierten Integrationsspezifikationen beziehen sich nur auf eingehende Datendateien, die mobile IDs (IDFA und Android-Geräte-IDs) enthalten.
+Audience Manager übernimmt mithilfe von eingehenden Datendateien Cookie-Daten und mobile IDs aus der Oracle Data Cloud für Audience Marketplace. Die unten beschriebenen benutzerdefinierten Integrationsspezifikationen beziehen sich nur auf eingehende Datendateien, die mobile IDs (IDFA- und Android-Geräte-IDs) enthalten.
 
-### Integrationsspezifikationen
+### Besonderheiten der Integration
 
-Die von der Oracle Data Cloud empfangenen eingehenden Datendateien unterscheiden sich von der in [Anforderungen an Namen und Dateigrößen der über Amazon S3 eingehenden Dateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) beschriebenen Syntax für den Standardnamen der eingehenden Datei und von der in [Inhalt der eingehenden Datendatei: Syntax, ungültige Zeichen, Variablen und Beispiele](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) beschriebenen Syntax für den Standardinhalt der eingehenden Datei.
+Eingehende Datendateien, die von der Oracle Data Cloud empfangen werden, unterscheiden sich von der standardmäßigen Namenssyntax für eingehende Dateien, die unter [Amazon S3-Namens- und Dateigrößenanforderungen für eingehende Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) beschrieben ist, und von der standardmäßigen Inhaltssyntax für eingehende Dateien, die unter [Inhalte eingehender Datendateien: Syntax, ungültige Zeichen, Variablen und Beispiele](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) beschrieben ist.
 
-Zusätzlich zu den standardmäßigen Implementierungsfeldern für eingehende Datendateien sind die unten hervorgehobenen Elemente erforderlich. Beschreibungen aller anderen Standardfelder und Dateinamenelemente finden Sie unter Syntax für Dateinamen und Syntax des Dateiinhalts auf den beiden oben verlinkten Seiten.
+Die unten hervorgehobenen Elemente sind zusätzlich zu den Standardimplementierungsfeldern für eingehende Datendateien erforderlich. Beschreibungen aller anderen Standardfelder und Dateinamenelemente finden Sie unter Dateinamensyntax und Dateiinhaltssyntax auf den beiden oben verlinkten Seiten.
 
-### Dateibenennung
+### Benennung der Datei
 
 ODC-Dateinamen sind wie folgt strukturiert:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Das Dateinamenelement `odc` identifiziert die aus der Oracle Data Cloud importierte Datei und weist den Audience Manager-Validator an, sie als solche zu verarbeiten.
+Das `odc` Dateinamenelement identifiziert die Datei als aus der Oracle Data Cloud importiert und weist den Validator für eingehende Audience Manager an, sie als solche zu verarbeiten.
 
-### Dateiinhalt
+### Dateiinhalte
 
-Die Felder in der eingehenden ODC-Datendatei müssen in der folgenden Reihenfolge angezeigt werden:
+Die Felder in der eingehenden ODC-Datendatei müssen in der unten angegebenen Reihenfolge angezeigt werden:
 
 `<`**`ID type`**`><TAB><user ID><TAB><trait ID>,<trait ID>,<trait ID>,...`
 
-Der `ID type` kann sein:
+Die `ID type` kann sein:
 
 * IDFA
 * Android-Geräte-ID
@@ -52,6 +52,6 @@ Der `ID type` kann sein:
 >
 >Senden Sie keine IDFA- und Android-Geräte-IDs in derselben eingehenden Datendatei.
 
-## ODC-Eingehende Beispieldatei
+## Beispiel für ODC-Eingangsdatei
 
-Laden Sie die [Beispieldatei](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync) herunter. Diese Datei qualifiziert mehrere IDFAs für die Eigenschaften-ID 38838. Sie können diese Datei in einem standardmäßigen Texteditor oder Code-Editor öffnen.
+Laden Sie die [Beispieldatei) ](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Diese Datei qualifiziert mehrere IDFAs für die Eigenschaft-ID 38838. Sie können diese Datei in einem standardmäßigen Texteditor oder Codeeditor öffnen.

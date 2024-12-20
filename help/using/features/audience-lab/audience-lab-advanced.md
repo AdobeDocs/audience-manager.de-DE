@@ -1,5 +1,5 @@
 ---
-description: In diesem Artikel werden zwei Funktionen beschrieben, die erweiterte Funktionen für die doppelte Zuordnungsvorlage für Audience Lab und die Segmentspeicherung bieten.
+description: In diesem Artikel werden zwei Funktionen beschrieben, die erweiterte Funktionen für die Vorlage für die Zuordnung von Audience Lab-Duplikaten und den Segment-Holdout bieten.
 seo-description: This article describes two features which provide advanced functionality for Audience Lab  Duplicate Allocation Template and Segment Holdout.
 seo-title: Audience Lab Advanced Functionality
 solution: Audience Manager
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Audience Lab] Erweiterte Funktionen {#audience-lab-advanced-functionality}
+# Erweiterte Funktionen [!DNL Audience Lab] {#audience-lab-advanced-functionality}
 
-In diesem Artikel werden zwei Funktionen beschrieben, die erweiterte Funktionen für [!DNL Audience Lab] bieten: [!DNL Duplicate Allocation Template] und [!DNL Segment Holdout].
+In diesem Artikel werden zwei Funktionen beschrieben, die erweiterte Funktionen für [!DNL Audience Lab] bereitstellen: [!DNL Duplicate Allocation Template] und [!DNL Segment Holdout].
 
 ## Zuordnungsvorlage duplizieren {#duplicate-allocation-template}
 
@@ -24,14 +24,14 @@ In diesem Artikel werden zwei Funktionen beschrieben, die erweiterte Funktionen 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
  -->
 
-In [!DNL Audience Lab] stellt der [!DNL Allocation Template] die verschiedenen Auswahlen dar, die Sie beim Erstellen einer Testgruppe treffen:
+[!DNL Audience Lab] stellt die [!DNL Allocation Template] die verschiedenen Auswahlen dar, die Sie beim Erstellen einer Testgruppe treffen:
 
-* die Verteilung der Geräte zwischen Testsegmenten;
-* Zuordnung von Testsegmenten zu Zielen;
-* Die Konversionseigenschaften, die Sie für eine Testgruppe verwenden;
-* Der Datumsbereich, in dem die Testgruppe in Ihren ausgewählten Zielen veröffentlicht wird.
+* die Verteilung der Produkte auf die Testsegmente;
+* die Zuordnung von Testsegmenten zu Zielen;
+* Die Konversionseigenschaften, die Sie für eine Testgruppe verwenden.
+* Der Datumsbereich, in dem die Testgruppe in Ihren ausgewählten Zielen veröffentlicht.
 
-Durch Duplizieren einer Zuordnungsvorlage können Sie dieselbe Verteilung von Testsegmenten und Zielen für ein anderes Basissegment in einer neuen Testgruppe wiederverwenden. Ein Beispiel für eine Zuordnungsvorlage ist unten dargestellt. Das Bild wird aus dem Schritt [!UICONTROL Summary & Finalize] im Workflow **Testgruppe erstellen** entnommen.
+Durch das Duplizieren einer Zuordnungsvorlage können Sie dieselbe Verteilung von Testsegmenten und Zielen für ein anderes Basissegment in einer neuen Testgruppe wiederverwenden. Ein Beispiel für eine Zuordnungsvorlage wird unten dargestellt. Das Bild wird aus dem [!UICONTROL Summary & Finalize] Schritt im Workflow **Testgruppe erstellen** übernommen.
 
 ![](assets/allocation_template_3.png)
 
@@ -39,45 +39,45 @@ Durch Duplizieren einer Zuordnungsvorlage können Sie dieselbe Verteilung von Te
 With the option to duplicate allocation templates, you can increase your productivity when running multivariate tests as part of multivariate campaigns.
 -->
 
-### Verwenden der Vorlage &quot;Zuordnung duplizieren&quot;
+### Verwenden doppelter Zuordnungsvorlagen
 
-Erstellen Sie eine anfängliche Testgruppe und wählen Sie dann **[!UICONTROL Duplicate Allocation Template]** aus, um dieselben Einstellungen für mehrere Testgruppen wiederzuverwenden. Sie können diese Funktion beispielsweise verwenden, wenn Sie einen Test durchführen, bei dem Sie die Wirksamkeit mehrerer Ziele für mehrere Segmente ermitteln möchten.
+Erstellen Sie eine erste Testgruppe und wählen Sie dann **[!UICONTROL Duplicate Allocation Template]** aus, um dieselben Einstellungen in mehreren Testgruppen wiederzuverwenden. Sie können diese Funktion beispielsweise verwenden, wenn Sie einen Test ausführen, bei dem Sie die Wirksamkeit mehrerer Ziele für mehrere Segmente ermitteln möchten.
 
-1. Suchen Sie in der Hauptansicht von Audience Lab nach der Testgruppe, deren Zuordnungsvorlage Sie in einer neuen Testgruppe reproduzieren möchten. Wählen Sie im Dropdownfeld **[!UICONTROL Duplicate Allocation Template]** aus.
+1. Suchen Sie in der Hauptansicht von Audience Lab nach der Testgruppe, deren Zuordnungsvorlage Sie in einer neuen Testgruppe reproduzieren möchten. Wählen Sie in der Dropdown-Liste **[!UICONTROL Duplicate Allocation Template]** aus.
 
    ![](assets/duplicate-allocation-template.png)
 
-2. Im Assistenten [!UICONTROL Create Test Group] können Sie bei Bedarf ein Basissegment angeben und Ihre Testsegmente umbenennen.
-3. Sie können *nicht* ändern:
+2. Im [!UICONTROL Create Test Group]-Assistenten können Sie ein Basissegment angeben und Ihre Testsegmente bei Bedarf umbenennen.
+3. Sie *Folgendes*:
 
-   * die Verteilung der Geräte zwischen Testsegmenten;
-   * die Konversionseigenschaften;
-   * Die Zuordnung von Testsegmenten zu Zielen. Sie können nur den Zuordnungsschlüssel für die Ziele ausfüllen, die eines erfordern.
-   * Der Datumsbereich, in dem Ihre Testgruppe in Ihren ausgewählten Zielen veröffentlicht.
+   * die Verteilung der Produkte auf die Testsegmente;
+   * die Konversionseigenschaft(en);
+   * Die Zuordnung von Testsegmenten zu Zielen. Sie können nur den Zuordnungsschlüssel für die Ziele ausfüllen, für die ein Schlüssel erforderlich ist.
+   * Der Datumsbereich, in dem Ihre Testgruppe an Ihren ausgewählten Zielen veröffentlichen wird.
 
-4. Überprüfen Sie die Informationen, die Sie in den vorherigen Schritten hinzugefügt haben, und wählen Sie **[!UICONTROL Finalize Group]** aus.
+4. Überprüfen Sie die in den vorherigen Schritten hinzugefügten Informationen und wählen Sie **[!UICONTROL Finalize Group]** aus.
 
-## Test Segment Holding {#test-segment-holdout}
+## Testsegment-Holdout {#test-segment-holdout}
 
 >[!NOTE]
 >
->[!UICONTROL Test Segment Holdout] ist eine erweiterte Funktion, die auf Kundenanfrage aktiviert wird. Wenden Sie sich an [!DNL Customer Care] oder [!DNL Adobe Consulting] , um diese Funktion zu aktivieren.
+>[!UICONTROL Test Segment Holdout] ist eine erweiterte Funktion, die auf Kundenwunsch aktiviert wird. Bitte kontaktieren Sie [!DNL Customer Care] oder [!DNL Adobe Consulting], um diese Funktion zu aktivieren.
 
-Verwenden Sie diese Funktion, um zu verhindern, dass ein Teil der Zielgruppe in den Test einbezogen wird. Der ausgewählte Prozentsatz wird aus dem Test ausgeschlossen. Auf diese Weise können Sie die Anzahl der Konversionen aus Zielgruppen (aktiviert für Ziele) und Zielgruppen ohne Targeting (Ausschluss-Gruppe) messen und vergleichen.
+Verwenden Sie diese Funktion, um zu verhindern, dass ein Teil der Zielgruppe in den Test einbezogen wird. Der ausgewählte Prozentsatz wird beim Test nicht berücksichtigt. Auf diese Weise können Sie die Anzahl der Konversionen aus ausgewählten (für Ziele aktiviert) und nicht ausgewählten (Holdout-Gruppe) Zielgruppen messen und vergleichen.
 
 <!--
 <p>Note that this option is different to the control segment because it subtracts the percentage ................. You can withhold an audience group and still use a control segment. </p>
 -->
 
-### Verwenden des Testsegments Holdout
+### Verwenden des Testsegment-Holdouts
 
-1. Erstellen Sie mit dem Assistenten [!UICONTROL Create Test Group] eine neue Testgruppe.
-1. Im Schritt **[!UICONTROL Allocate Test Segment]** können Sie einen Teil der Audience auswählen, der nicht getestet werden soll.
+1. Erstellen Sie mithilfe des [!UICONTROL Create Test Group]-Assistenten eine neue Testgruppe.
+1. Im **[!UICONTROL Allocate Test Segment]** Schritt können Sie einen Teil der Audience auswählen, der nicht getestet werden soll.
 
    ![Listenelement](assets/test-segment-holdout.png)
 
-1. Mit dem Schieberegler können Sie einstellen, wie viele Geräte Sie aus dem Test ausschließen möchten. Beachten Sie, dass Test Segment 1 und Test Segment 2 jetzt nur noch 70 % der Geräte insgesamt ausmachen.
+1. Stellen Sie mit dem Schieberegler ein, wie viele Geräte Sie vor Tests zurückhalten möchten. Beachten Sie, dass Testsegment 1 und Testsegment 2 jetzt nur noch 70 % der gesamten Geräte ausmachen.
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Führen Sie die restlichen Schritte im Workflow **[!UICONTROL Create Test Group]** aus und wählen Sie **[!UICONTROL Finalize Group]** aus, wenn Sie mit Ihrer Auswahl zufrieden sind. Sie haben jetzt eine Testgruppe mit einem Teil der Zielgruppe, die nicht getestet werden konnte.
+1. Führen Sie die restlichen Schritte im **[!UICONTROL Create Test Group]**-Workflow aus und wählen Sie **[!UICONTROL Finalize Group]** aus, wenn Sie mit Ihrer Auswahl zufrieden sind. Jetzt verfügen Sie über eine Testgruppe, bei der ein Teil der Zielgruppe vom Testen ausgeschlossen ist.

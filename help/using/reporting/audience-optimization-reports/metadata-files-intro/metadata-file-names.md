@@ -3,7 +3,7 @@ description: Benennen Sie Ihre Audience Optimization-Metadatendatei gemäß dies
 seo-description: Name your Audience Optimization metadata file according to these specifications.
 seo-title: Naming Conventions for Metadata Files
 solution: Audience Manager
-title: Namenskonventionen für Metadatendateien
+title: Benennungskonventionen für Metadatendateien
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
@@ -14,43 +14,43 @@ ht-degree: 2%
 
 ---
 
-# Namenskonventionen für Metadatendateien{#naming-conventions-for-metadata-files}
+# Benennungskonventionen für Metadatendateien{#naming-conventions-for-metadata-files}
 
 Benennen Sie Ihre Audience Optimization-Metadatendatei gemäß diesen Spezifikationen.
 
-## Syntax und ID-Kategorien {#syntax}
+## Syntax- und ID-Kategorien {#syntax}
 
-Die folgende Syntax definiert die Struktur eines korrekt formatierten Metadaten-Dateinamens. Hinweis: *kursiv* gibt einen Variablenplatzhalter an. Die anderen Elemente sind Konstanten und ändern sich nicht.
+Die folgende Syntax definiert die Struktur eines wohlgeformten Metadatendateinamens. Hinweis: *Kursiv* gibt einen Variablenplatzhalter an. Die anderen Elemente sind Konstanten und ändern sich nicht.
 
 **Syntax:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*Verwenden Sie keine Dateierweiterungen in Ihren Metadatendateien (.txt oder andere).*
+>*Verwenden Sie* Dateierweiterungen in Ihren Metadatendateien (.txt oder andere).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* Die mittlere Komponente **0** ist technisch die übergeordnete ID, bei der es sich um ein veraltetes Feld handelt. Der Wert sollte immer auf **0** gesetzt werden.
+* Die mittlere Komponente **0** ist technisch gesehen die übergeordnete ID, ein älteres Feld. Der Wert sollte immer als **0** festgelegt werden.
 * Die untergeordnete ID kann je nach Dimension einen Wert zwischen 1 und 10 aufweisen. Das sieht dann so aus:
 
-## Untergeordnete ID-Dimensionen {#child-dimension}
+## Dimensionen der untergeordneten ID {#child-dimension}
 
-Im Metadaten-Dateinamen ist die untergeordnete ID eine Kennung, die den Datentyp in einer Datei klassifiziert und in einer Hierarchie platziert. Sie können die untergeordnete ID im Dateinamen mit den folgenden Kategorie-IDs taggen:
+Im Namen der Metadatendatei ist die untergeordnete ID ein Bezeichner, der den Datentyp in einer Datei klassifiziert und in einer Hierarchie platziert. Sie können die untergeordnete ID im Dateinamen mit den folgenden Kategorie-IDs taggen:
 
 1. Kampagne
 1. Kreativ
 1. Platzierung
 1. Exchange-
 1. Site
-1. Advertiser (bei Verwendung von Integrationscodes in einer [Datenquelle](../../../features/manage-datasources.md#details))
-1. Insertion Order (IO)
-1. Vertikal (d. h. eine bestimmte Industrie- oder Geschäftskategorie wie &quot;Computer&quot;, &quot;Automobile&quot;, &quot;Immobilien&quot;usw.)
-1. Tacetisch
+1. Advertiser (bei Verwendung von Integrations-Codes in einer [Datenquelle](../../../features/manage-datasources.md#details))
+1. Einfügungsreihenfolge (IO)
+1. Vertikal (d. h. eine bestimmte Branche oder Geschäftskategorie wie „Computer“, „Automobile“, „Immobilien“ usw.)
+1. Taktik
 1. Geschäftseinheit oder Marke
 
 ## Beispiel {#example}
 
-Bei einer Creative-Metadatendatei könnte der Dateiname 20190115_0_2 lauten.
+Für eine Creative-Metadatendatei könnte der Dateiname 20190115_0_2 lauten.
 
 <!--Let's take a look at how you would use these IDs in a metadata file name. As an example, say your data file consists of campaign creatives. In this case, the campaign is a parent object and the creatives are child objects because they belong to, or are contained by, the campaign. As a result, you'd choose the following IDs for the metadata file name:
 

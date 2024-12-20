@@ -31,13 +31,13 @@ Ein Gerätediagramm ist ein Satz von ID-Zuordnungen, der Gruppen anonymer Gerät
 
 **Was ist ein externes Gerätediagramm?**
 
-Ein externes Gerätediagramm ist ein Gerätediagramm in [!DNL Audience Manager], das nicht ausschließlich aus Ihren eigenen geräteübergreifenden Datenquellen erstellt wurde. Wenn Sie beispielsweise eine [Profilzusammenführungsrichtlinie](../features/profile-merge-rules/merge-rules-start.md) erstellen und die Gerätediagrammoptionen von Drittanbietern auswählen, arbeiten Sie mit einem externen Gerätediagramm. Siehe [Geräteoptionen](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Ein externes Gerätediagramm ist ein Gerätediagramm in [!DNL Audience Manager], das nicht ausschließlich aus Ihren eigenen geräteübergreifenden Datenquellen erstellt wurde. Wenn Sie beispielsweise eine [Profilzusammenführungsregel](../features/profile-merge-rules/merge-rules-start.md) erstellen und die Diagrammoptionen für Drittanbieter-Geräte auswählen, verwenden Sie ein externes Gerätediagramm. Siehe [Geräteoptionen](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
 **Was sind einige häufige Anwendungsfälle für die Verwendung eines externen Gerätediagramms in einer [!UICONTROL Profile Merge Rule]?**
 
-Ein Gerätediagramm wird in einer [!UICONTROL Profile Merge Rule] hauptsächlich dazu verwendet, mehrere Geräte, die einer einzelnen Person oder einem Haushalt gehören, für ein bestimmtes Segment zu bewerten und zu qualifizieren. Das Segment selbst kann mehrere Verwendungszwecke haben, z. B. das Targeting einer potenziellen Zielgruppe mit einer von einem DSP bereitgestellten Anzeige oder das Personalisieren des Onsite-Erlebnisses eines Kunden über eine On-site-Personalisierungsplattform. Siehe [Anwendungsfälle für externe Gerätediagramme](../features/profile-merge-rules/external-graph-use-cases.md).
+Ein Gerätediagramm wird in einer [!UICONTROL Profile Merge Rule] hauptsächlich dazu verwendet, mehrere Geräte, die einer einzelnen Person oder einem Haushalt gehören, für ein bestimmtes Segment zu bewerten und zu qualifizieren. Das Segment selbst kann mehrmals verwendet werden, z. B. um mit einer Anzeige, die von einer DSP geschaltet wird, eine Zielgruppe von potenziellen Kunden anzusprechen oder das Kundenerlebnis vor Ort über eine Personalisierungsplattform vor Ort zu personalisieren. Siehe [Anwendungsfälle für externe Gerätediagramme](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -53,7 +53,7 @@ Einmal pro Woche.
 
  
 
-## Gerätediagramme und Profilzusammenführungsrichtlinien {#device-graph-profile-merge-rules}
+## Gerätediagramme und Profilzusammenführungsregeln {#device-graph-profile-merge-rules}
 
 **Wie werden Gerätediagramme in [!DNL Audience Manager] verwendet?**
 
@@ -89,7 +89,7 @@ Die Geräte, die von [!DNL Audience Manager] zusammenführt und gelesen werden, 
 
  
 
-## Segmente, Gerätediagramme und Profilzusammenführungsrichtlinien {#segments-device-graphs-rules}
+## Segmente, Gerätediagramme und Profilzusammenführungsregeln {#segments-device-graphs-rules}
 
 **Wie wird die Segmentierung eines Geräts in [!DNL Audience Manager] aufgehoben, wenn es nicht mehr für ein Segment mit einer [!UICONTROL Profile Merge Rule] qualifiziert ist, die ein Gerätediagramm verwendet?**
 
@@ -127,7 +127,7 @@ Ja. Audience Manager zählt die im geräteübergreifenden Profil in der Segment
 
  
 
-## Häufigkeit von Eigenschaften, Gerätediagramme und Profilzusammenführungsrichtlinien {#trait-freq-device-rules}
+## Eigenschaftsfrequenz, Gerätediagramme und Profilzusammenführungsregeln {#trait-freq-device-rules}
 
 **Wie berechnet [!DNL Audience Manager] die Häufigkeit von Eigenschaften mit einer [!UICONTROL Profile Merge Rule], die einen Gerätegraphen verwendet?**
 
@@ -167,7 +167,7 @@ Die Häufigkeit der Eigenschaften wird durch die Summe der Anzahl der Qualifikat
 
  
 
-## Berichte, Gerätediagramme und Profilzusammenführungsrichtlinien {#reports-device-graphs-rules}
+## Berichte, Gerätediagramme und Profilzusammenführungsregeln {#reports-device-graphs-rules}
 
 **Kann ich die Anzahl der Geräte sehen, die von einer [!UICONTROL Profile Merge Rule], die ein Gerätediagramm verwendet, erreicht werden können?**
 
@@ -259,18 +259,18 @@ Ja. Die Populationsmetrik für das gesamte Segment umfasst die zusätzlichen Ger
 
 Nein.
 
-**Warum sehe ich nach dem 16. März 2020 keine Segmentpopulation mehr für Segmentexporte nach Adobe Campaign?**
+**Warum sehe ich nach dem 16. März 2020 für Segmentexporte nach Adobe Campaign eine Segmentpopulation von null?**
 
-Ende 2019 haben wir eine Reihe von Verbesserungen der Profilzusammenführungsrichtlinien veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 strikt berücksichtigt. Folglich produzieren Segmente, die mit geräteübergreifenden IDs einem Ziel zugeordnet sind, in einigen Konfigurationen der Profilzusammenführungsrichtlinien keine Exporte mehr.
+Ende 2019 haben wir eine Reihe von Verbesserungen an Profilzusammenführungsregeln veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 streng berücksichtigt. Daher produzieren Segmente, die einem Ziel mit geräteübergreifenden IDs zugeordnet sind, in einigen Profilzusammenführungsregeln-Konfigurationen keine Exporte mehr.
 
-Um die korrekte Integration zwischen Ihrer Audience Manager-Instanz und Zielen mithilfe geräteübergreifender IDs wie Adobe Campaign sicherzustellen, stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen:
+Um mithilfe geräteübergreifender IDs wie Adobe Campaign die richtige Integration zwischen Ihrer Audience Manager-Instanz und Zielen sicherzustellen, müssen Sie die folgenden Anforderungen erfüllen:
 
-1. Überprüfen Sie die Profilzusammenführungsrichtlinie , die von den Segmenten verwendet wird, die Ihrem Adobe Campaign Declared ID-Ziel zugeordnet sind. Die Profilzusammenführungsrichtlinie muss die Option [!UICONTROL Last Authenticated Profile] verwenden, damit alle authentifizierten Profile in die Exporte einbezogen werden können. Wenn Ihre Profilzusammenführungsrichtlinie eine andere Option verwendet, wechseln Sie zu [!UICONTROL Last Authenticated Profile].
-2. Wählen Sie die Datenquelle Adobe Campaign Declared ID in den Profilzusammenführungsregeleinstellungen aus.
+1. Überprüfen Sie die Profilzusammenführungsregel, die von den Segmenten verwendet wird, die Ihrem deklarierten Adobe Campaign-ID-Ziel zugeordnet sind. Die Profilzusammenführungsregel muss die Option [!UICONTROL Last Authenticated Profile] verwenden, damit alle authentifizierten Profile in die Exporte einbezogen werden können. Wenn Ihre Profilzusammenführungsregel eine andere Option verwendet, wechseln Sie sie zu [!UICONTROL Last Authenticated Profile].
+2. Wählen Sie die Datenquelle Adobe Campaign Declared ID in den Einstellungen Profilzusammenführungsregel aus.
 
 >[!NOTE]
 >
-> Für Kunden, die sich dieser Situation gegenübersehen, wurde die Beschränkung der Profilzusammenführungsrichtlinie um 1 erhöht, sodass Sie eine dedizierte Profilzusammenführungsrichtlinie für die Segmente erstellen können, die dem Adobe Campaign Declared ID-Ziel zugeordnet sind, ohne die Profilzusammenführungsrichtlinien für andere Anwendungsfälle zu ändern.
+> Wir haben das Limit für Profilzusammenführungsregeln um 1 für Kundinnen und Kunden erhöht, die mit dieser Situation konfrontiert sind, sodass Sie eine dedizierte Profilzusammenführungsregel für die Segmente erstellen können, die dem Adobe Campaign Declared ID-Ziel zugeordnet sind, ohne die Profilzusammenführungsregeln für andere Anwendungsfälle zu ändern.
 
 >[!MORELIKETHIS]
 >

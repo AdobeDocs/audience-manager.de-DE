@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Audience Manager verwendet die koordinierte Weltzeit (UTC) für die gesamte Benutzeroberfläche.
 
-Sofern nicht anders angegeben, sind alle Daten und Datumsbereiche, die Sie in der Benutzeroberfläche von [!DNL Adobe] [!DNL Audience Manager] auswählen können, [Koordinierte Weltzeit (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). Im Fluss [Ziel erstellen](../features/destinations/create-cookie-destination.md#segments-mapping) beispielsweise sind das Start- und Enddatum, das Sie auswählen, beim Zuordnen von Segmenten zu Ihrem Ziel UTC Mitternacht. Dasselbe gilt für alle Datumsangaben in [!DNL Audience Manager].
+Sofern nicht anders angegeben, sind alle Datumsangaben und Datumsbereiche, die Sie in der [!DNL Adobe] [!DNL Audience Manager]-Benutzeroberfläche auswählen können, [Koordinierte Weltzeit (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). Beispiel: Im Fluss [Ziel erstellen](../features/destinations/create-cookie-destination.md#segments-mapping) beim Zuordnen von Segmenten zu Ihrem Ziel wählen Sie als Start- und Enddatum Mitternacht UTC aus. Dasselbe gilt für alle Daten in [!DNL Audience Manager].

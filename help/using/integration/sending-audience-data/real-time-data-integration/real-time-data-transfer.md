@@ -1,5 +1,5 @@
 ---
-description: Der Prozess der Erfassung von in Echtzeit eingehenden Daten verwendet eine Reihe von HTTP-Anforderungen aus dem Browser eines Benutzers, um Daten an den Audience Manager zu übergeben.
+description: Der Echtzeit-Erfassungsvorgang eingehender Daten nutzt eine Reihe von HTTP-Anfragen vom Browser eines Benutzers, um Daten an einen Audience Manager zu übergeben.
 seo-description: The real-time inbound data ingestion process uses a series of HTTP requests from a user's browser to pass in data to Audience Manager.
 seo-title: Real-Time Inbound Data Ingestion
 solution: Audience Manager
@@ -16,28 +16,28 @@ ht-degree: 1%
 
 # Erfassung eingehender Daten in Echtzeit {#real-time-inbound-data-ingestion}
 
-Der Prozess der Erfassung von in Echtzeit eingehenden Daten verwendet eine Reihe von `HTTP` -Anforderungen aus dem Browser eines Benutzers, um Daten an den Audience Manager zu übergeben.
+Der Echtzeit-Erfassungsvorgang eingehender Daten nutzt eine Reihe von `HTTP`-Anfragen vom Browser eines Benutzers, um Daten an einen Audience Manager zu übergeben.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-Eingehende Daten sollten als Schlüssel-Wert-Paare, so genannte Signale, formatiert werden. Normalerweise wird jedes Signal einem Segment zugeordnet, das über die Benutzeroberfläche oder [!DNL API] erstellt oder verwaltet wird.
+Eingehende Daten sollten als Schlüssel-Wert-Paare formatiert werden, die als Signale bezeichnet werden. Normalerweise wird jedes Signal einem Segment zugeordnet, das über die Benutzeroberfläche oder [!DNL API] erstellt oder verwaltet wird.
 
 ## URL-Zeichenfolgenparameter und Syntax {#url-string-syntax}
 
-Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran, in der Benutzeroberfläche von [!DNL Audience Manager] Eigenschaften ](../../../features/traits/create-onboarded-rule-based-traits.md) und eine [Ordnerstruktur](../../../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.[
+Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran[ in der [!DNL Audience Manager]-Benutzeroberfläche Eigenschaften ](../../../features/traits/create-onboarded-rule-based-traits.md) eine [Ordnerstruktur](../../../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.
 
 >[!NOTE]
 >
->Ersetzen Sie kursiv gedruckten Inhalt durch tatsächliche Parameterwerte.
+>Ersetzen kursiv formatierter Inhalte durch tatsächliche Parameterwerte.
 
 | Parameter | Beschreibung |
 |---|---|
 | `<KEY>` | Eine eindeutige Kennung in einem Schlüssel-Wert-Paar (z. B. Geschlecht, Farbe, Preis). |
-| `<VAL>` | Eine Variable, die zum vom Schlüssel definierten Datensatz gehört (z. B. gender=male, color=green, price=100) |
+| `<VAL>` | Eine Variable, die zu dem durch den Schlüssel definierten Datensatz gehört (z. B. gender=male, color=green, price=100) |
 
 ### URL-Syntax
 
-Bei der Erfassung eingehender Daten in Echtzeit verwendet eine ordnungsgemäß formatierte [!DNL URL] -Zeichenfolge die folgende Syntax:
+Während der Aufnahme eingehender Daten in Echtzeit verwendet eine ordnungsgemäß formatierte [!DNL URL]-Zeichenfolge die folgende Syntax:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC

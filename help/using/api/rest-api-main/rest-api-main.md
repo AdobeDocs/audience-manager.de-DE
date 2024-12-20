@@ -1,5 +1,5 @@
 ---
-description: Mit RESTful-APIs können Sie programmatisch mit Audience Manager arbeiten.
+description: Mit RESTful-APIs können Sie programmgesteuert mit Audience Manager arbeiten.
 seo-description: RESTful APIs let you work programmatically with Audience Manager.
 seo-title: REST APIs
 solution: Audience Manager
@@ -16,10 +16,10 @@ ht-degree: 2%
 
 # [!DNL REST APIs] {#rest-apis}
 
-Mit [!UICONTROL RESTful APIs] können Sie programmatisch mit [!DNL Audience Manager] arbeiten.
+[!UICONTROL RESTful APIs] können Sie programmgesteuert mit [!DNL Audience Manager] arbeiten.
 
-Die [!DNL Audience Manager] [!DNL REST API] befolgt [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/))-Standards für die Formatierung gesendeter und empfangener Daten. Ein Hauptvorteil von [!DNL JSON] besteht darin, dass es dabei hilft, [!DNL API]-Abfragen durch Entwickler und Maschinen einfach zu schreiben, zu lesen und zu analysieren.
+Die [!DNL Audience Manager] [!DNL REST API] entspricht [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/))-Standards für die Formatierung gesendeter und empfangener Daten. Ein wesentlicher Vorteil von [!DNL JSON] besteht darin, dass [!DNL API] Abfragen für Entwickler und Computer einfach zu schreiben, zu lesen und zu analysieren sind.
 
-Um Ihre Arbeit noch einfacher zu gestalten, migrieren wir unsere [!DNL REST APIs] zu [Swagger](https://swagger.io/solutions/api-documentation/). Weitere Informationen finden Sie unter [Migration des Audience Manager-API-Codes](/help/using/api/api-swagger-migration.md).
+Um Ihre Arbeit noch einfacher zu gestalten, migrieren wir unsere [!DNL REST APIs] nach [Swagger](https://swagger.io/solutions/api-documentation/). Weitere Informationen finden Sie unter [Audience Manager-API-Code-Migration](/help/using/api/api-swagger-migration.md).
 
-Überprüfen Sie das Material [Erste Schritte](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) , bevor Sie mit den Methoden [!DNL Audience Manager] [!DNL API] arbeiten.
+Lesen Sie das [ „Erste Schritte](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis), bevor Sie mit den [!DNL Audience Manager] [!DNL API]-Methoden arbeiten.

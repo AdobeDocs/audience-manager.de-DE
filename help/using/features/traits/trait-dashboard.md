@@ -1,5 +1,5 @@
 ---
-description: Das Dashboard Eigenschaften ist ein zentralisierter Arbeitsbereich zur Verwaltung von Eigenschaften.
+description: Das Eigenschaften-Dashboard ist ein zentralisierter Arbeitsbereich zum Verwalten von Eigenschaften.
 seo-description: The Traits dashboard is a centralized workspace for managing traits.
 seo-title: Traits Dashboard
 solution: Audience Manager
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Eigenschaften-Dashboard {#traits-dashboard}
 
-Das Eigenschaften-Dashboard ist ein zentralisierter Arbeitsbereich zur Verwaltung von Eigenschaften. Sie können das Dashboard [!UICONTROL Traits] sehen, indem Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** navigieren.
+Das Eigenschaften-Dashboard ist ein zentralisierter Arbeitsbereich zum Verwalten von Eigenschaften. Das [!UICONTROL Traits]-Dashboard wird durch Navigieren zu **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** angezeigt.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-Das Dashboard [!UICONTROL Traits] enthält Funktionen und Tools, die Ihnen bei Folgendem helfen:
+Das [!UICONTROL Traits]-Dashboard enthält Funktionen und Tools, die Ihnen bei Folgendem helfen:
 
 1. Zeigen Sie alle Eigenschaften und zugehörigen Details in einer Tabelle mit Spalten an, die Sie sortieren können.
-2. Überprüfen und arbeiten Sie mit [Eigenschaften aktiver Zielgruppen und mit mit Data Source synchronisierten Eigenschaften](../../features/traits/client-activity-synced-audience-traits.md).
-3. Erstellen, bearbeiten und löschen Sie Eigenschaften.
-4. Speichern von Eigenschaften anzeigen und verwalten.
-5. Suchen Sie nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken.
-6. Eigenschaften nach Eigenschaftstyp filtern (integrierte, regelbasierte, algorithmische Ordnereigenschaften).
+2. Überprüfen und arbeiten Sie mit [Active Audience Traits und Data Source Synced Traits](../../features/traits/client-activity-synced-audience-traits.md).
+3. Erstellen, Bearbeiten und Löschen von Eigenschaften.
+4. Anzeigen und Verwalten von Eigenschaftenspeicherordnern.
+5. Suche nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken.
+6. Filtern von Eigenschaften nach Eigenschaftstyp (integriert, regelbasiert, algorithmisch, Ordnereigenschaften).

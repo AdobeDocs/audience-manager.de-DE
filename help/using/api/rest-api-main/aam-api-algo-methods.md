@@ -1,6 +1,6 @@
 ---
-description: Methoden, mit denen Sie programmatisch mit algorithmischen Modellierungsfunktionen arbeiten können.
-keywords: API-Erste Schritte; Erste Schritte API
+description: Methoden, mit denen Sie programmgesteuert mit algorithmischen Modellierungsfunktionen arbeiten können.
+keywords: API - Erste Schritte;Erste Schritte-API
 seo-description: Methods that let you work programmatically with algorithmic modeling features.
 seo-title: Algorithmic API Methods
 solution: Audience Manager
@@ -17,11 +17,11 @@ ht-degree: 11%
 
 # Algorithmische API-Methoden {#algorithmic-api-methods}
 
-Methoden, mit denen Sie programmatisch mit algorithmischen Modellierungsfunktionen arbeiten können.
+Methoden, mit denen Sie programmgesteuert mit algorithmischen Modellierungsfunktionen arbeiten können.
 
 >[!IMPORTANT]
 >
->Die algorithmischen Modelle [!DNL API] wurden mit [!DNL Swagger] umgeschrieben und migriert. Siehe:
+>Die algorithmischen Modelle [!DNL API] Methoden wurden mit [!DNL Swagger] umgeschrieben und migriert. Siehe:
 >
 >* [Adobe Audience Manager-API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)

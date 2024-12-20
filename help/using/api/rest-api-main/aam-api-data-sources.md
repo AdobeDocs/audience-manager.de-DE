@@ -16,13 +16,13 @@ ht-degree: 26%
 
 # API-Methoden für Datenquellen {#data-source-api-methods}
 
-[!DNL API] -Methoden, mit denen Sie mit Ihrem Konto verknüpfte Datenquellen verwalten können.
+[!DNL API] Methoden, mit denen Sie mit Ihrem Konto verknüpfte Datenquellen verwalten können.
 
 <!-- c_rest_data_sources.xml -->
 
 >[!IMPORTANT]
 >
->Die Methoden der Datenquelle [!DNL API] wurden mit [!DNL Swagger] umgeschrieben und migriert. Siehe:
+>Die [!DNL API] der Datenquelle wurden mit [!DNL Swagger] umgeschrieben und migriert. Siehe:
 >
 >* [Adobe Audience Manager-API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)

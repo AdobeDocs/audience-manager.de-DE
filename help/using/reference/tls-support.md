@@ -1,5 +1,5 @@
 ---
-description: 'Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das zur Einrichtung eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird verwendet, um ein oder beide Systeme zu authentifizieren und die Vertraulichkeit und Integrität von Informationen zu schützen, die zwischen Systemen weitergegeben werden. Im Mai 2018 wurden drei Versionen des TLS-Protokolls verwendet: TLS 1.0, 1.1 und 1.2.'
+description: Transport Layer Security (TLS) ist ein kryptographisches Protokoll, das zum Aufbau eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird verwendet, um ein oder beide Systeme zu authentifizieren und die Vertraulichkeit und Integrität von Informationen zu schützen, die zwischen Systemen übertragen werden. Im Mai 2018 gab es drei Versionen des TLS-Protokolls, die TLS 1.0, 1.1 und 1.2 verwendeten.
 seo-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
 seo-title: TLS 1.0 and 1.1 Deprecation
 solution: Audience Manager
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Einstellung von TLS 1.0 und 1.1{#tls-deprecation}
 
-Transport Layer Security (TLS) ist ein kryptografisches Protokoll, das zur Einrichtung eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird verwendet, um ein oder beide Systeme zu authentifizieren und die Vertraulichkeit und Integrität von Informationen zu schützen, die zwischen Systemen weitergegeben werden. Im Mai 2018 wurden drei Versionen des TLS-Protokolls verwendet: TLS 1.0, 1.1 und 1.2.
+Transport Layer Security (TLS) ist ein kryptographisches Protokoll, das zum Aufbau eines sicheren Kommunikationskanals zwischen zwei Systemen verwendet wird. Es wird verwendet, um ein oder beide Systeme zu authentifizieren und die Vertraulichkeit und Integrität von Informationen zu schützen, die zwischen Systemen übertragen werden. Im Mai 2018 wurden drei Versionen des TLS-Protokolls verwendet: TLS 1.0, 1.1 und 1.2.
 
-Im März 2019 hat [!DNL Adobe] die Unterstützung für das Protokoll [!DNL TLS 1.0] beendet. Die Adobe Audience Manager-Funktionalität funktioniert nicht für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.0] unterstützen.
+Im März 2019 hat [!DNL Adobe] die Unterstützung für das [!DNL TLS 1.0]-Protokoll eingestellt. Die Adobe Audience Manager-Funktion funktioniert nicht für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.0] unterstützen.
 
-Im März 2020 beendet [!DNL Adobe] die Unterstützung für das Protokoll [!DNL TLS 1.1]. Die Adobe Audience Manager-Funktion funktioniert nicht mehr für Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.1] unterstützen.
+Im März 2020 wird [!DNL Adobe] die Unterstützung für das [!DNL TLS 1.1]-Protokoll einstellen. Die Adobe Audience Manager-Funktion funktioniert nicht mehr für Ihre Endbenutzer, die Browser verwenden, die nur [!DNL TLS 1.1] unterstützen.
 
-Adobe empfiehlt dringend die Verwendung von [!DNL TLS 1.2], was zum Zeitpunkt des Schreibens die neueste Version des Protokolls ist. Alle modernen Browser verwenden [!DNL TLS 1.2]. Wir haben für Sie eine Liste von Browsern, Versionen und deren [!DNL TLS] Unterstützung gesammelt. Weitere Informationen zur Unterstützung des TLS-Browsers finden Sie unter [den Wikipedia-Link &quot;Transport Layer Security&quot;](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Adobe empfiehlt dringend die Verwendung von [!DNL TLS 1.2], das zum Zeitpunkt des Schreibens die neueste Version des Protokolls ist. Alle modernen Browser verwenden [!DNL TLS 1.2]. Wir haben für Sie eine Liste von Browsern, Versionen und deren [!DNL TLS]-Support zusammengestellt. Weitere Informationen zur TLS-Browser-Unterstützung finden Sie unter [Transport Layer Security Wikipedia-Link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 

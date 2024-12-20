@@ -1,5 +1,5 @@
 ---
-description: „Zielgruppenoptimierung für Herausgeber“ kann Ihnen dabei helfen, Leistungspotenziale bei Segmenten in Audience Manager ausfindig zu machen, die Ihre eigenen und verwaltete Inhalte betreffen. Diese Berichte kombinieren Kampagnenleistungsdaten auf Protokollebene mit Audience Manager-Metriken, um über Zielgruppenoptimierungen und Monetarisierungsmöglichkeiten zu informieren.
+description: „Zielgruppenoptimierung für Herausgeber“ kann Ihnen dabei helfen, Leistungspotenziale bei Segmenten in Audience Manager ausfindig zu machen, die Ihre eigenen und verwaltete Inhalte betreffen. Diese Berichte kombinieren Kampagnenleistungsdaten auf Protokollebene mit Audience Manager-Metriken, um Informationen zu Zielgruppenoptimierungen und Monetarisierungsmöglichkeiten zu erhalten.
 seo-description: Audience Optimization for Publishers can help you identify potential performance opportunities for Audience Manager segments on your owned and operated content. These reports combine log-level campaign performance data with Audience Manager metrics to inform audience optimizations and monetization opportunities.
 seo-title: Audience Optimization for Publishers
 solution: Audience Manager
@@ -16,23 +16,23 @@ ht-degree: 19%
 
 # Audience Optimization für Herausgeber{#audience-optimization-for-publishers}
 
-„Zielgruppenoptimierung für Herausgeber“ kann Ihnen dabei helfen, Leistungspotenziale bei Segmenten in Audience Manager ausfindig zu machen, die Ihre eigenen und verwaltete Inhalte betreffen. Diese Berichte kombinieren Kampagnenleistungsdaten auf Protokollebene mit Audience Manager-Metriken, um über Zielgruppenoptimierungen und Monetarisierungsmöglichkeiten zu informieren.
+„Zielgruppenoptimierung für Herausgeber“ kann Ihnen dabei helfen, Leistungspotenziale bei Segmenten in Audience Manager ausfindig zu machen, die Ihre eigenen und verwaltete Inhalte betreffen. Diese Berichte kombinieren Kampagnenleistungsdaten auf Protokollebene mit Audience Manager-Metriken, um Informationen zu Zielgruppenoptimierungen und Monetarisierungsmöglichkeiten zu erhalten.
 
 ## Überblick {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] steht im Gegensatz zu Daten zur Kampagnenleistung auf Protokollebene von [!DNL Google Ad Manager] mit den Segmentmetriken [!DNL Audience Manager] . Die Berichte stehen Kunden zur Verfügung, die die Protokollierung von [!DNL Google Ad Manager]in [!DNL Audience Manager] eingerichtet haben. Wenn Sie die Protokollierung noch nicht eingerichtet haben, lesen Sie den Abschnitt [Importieren von Google Ad Manager-Datendateien in Audience Manager](import-dfp.md) , um Informationen dazu zu erhalten.
+[!UICONTROL Audience Optimization for Publishers] stellt Kampagnenleistungsdaten auf Protokollebene aus [!DNL Google Ad Manager] [!DNL Audience Manager] Segmentmetriken gegenüber. Die Berichte sind für Kundinnen und Kunden verfügbar, die die Protokollaufnahme von [!DNL Google Ad Manager]in [!DNL Audience Manager] eingerichtet haben. Wenn Sie die Protokollaufnahme noch nicht eingerichtet haben, finden Sie [Google Ad Manager-Datendateien in den Audience Manager importieren](import-dfp.md) Informationen dazu.
 
 ## Metadaten {#metadata}
 
-Die in den Berichten angezeigten Leistungsinformationen werden aus Ihrer [!DNL Google Ad Manager] -Instanz importiert. Sie müssen uns Metadatendateien senden, damit wir Ihren Elementen in den Berichten beschreibende, benutzerfreundliche Namen und keine IDs hinzufügen können. Schritt 3 unter [Importieren von Google Ad Manager-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschreibt, wie die Metadaten gesendet werden.
+Die in den Berichten angezeigten Leistungsinformationen werden aus Ihrer [!DNL Google Ad Manager]-Instanz importiert. Sie müssen uns Metadatendateien senden, damit wir Ihren Elementen in den Berichten beschreibende, benutzerfreundliche Namen anstelle von IDs hinzufügen können. In Schritt 3 in [Importieren von Google Ad Manager-Datendateien in den Audience Manager ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) wird beschrieben, wie Sie uns die Metadaten senden.
 
 ## Verfügbare Berichte {#available-reports}
 
-[!UICONTROL Audience Optimization for Publishers] bietet sechs verschiedene Ansichten, die die Leistung von Ebenen und Servern im Vergleich zur Segmentierung darstellen, die in [!DNL Audience Manager] erstellt wurde, um Publisher-orientierte Geschäftsziele zu erreichen.
+[!UICONTROL Audience Optimization for Publishers] bietet sechs verschiedene Ansichten, die die Leistung von Anzeigen-Servern mit der Segmentierung vergleichen, die in erstellt wurde, [!DNL Audience Manager] publisherzentrierte Geschäftsziele zu erreichen.
 
-+ [Segmentleistungsbericht](publisher-segment-performance.md)
-+ [SegmentTrend-Bericht](publisher-segment-trends.md)
-+ [Häufigste nicht verwendete Eigenschaften](publisher-top-unused-traits.md)
-+ [Überschneidung von Anzeigeneinheiten](publisher-ad-unit-overlap.md)
-+ [Überschneidung von Segmenten mit Anzeigeneinheiten](publisher-segment-ad-unit-overlap.md)
-+ [Unique User-Reichweite](publisher-unique-reach.md)
++ [Bericht zur Segmentleistung](publisher-segment-performance.md)
++ [Bericht zu Segmenttrends](publisher-segment-trends.md)
++ [Top der nicht verwendeten Eigenschaften](publisher-top-unused-traits.md)
++ [Überschneidung der Werbeblöcke](publisher-ad-unit-overlap.md)
++ [Überschneidung von Segmenten zu Werbeeinheiten](publisher-segment-ad-unit-overlap.md)
++ [Unique User Reach](publisher-unique-reach.md)

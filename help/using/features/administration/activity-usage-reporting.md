@@ -1,6 +1,6 @@
 ---
-description: Mithilfe der Berichte zur Aktivitätsnutzung können Sie die Aktivitätsnutzung für Ihre Audience Manager-Instanz anzeigen und verfolgen, sodass Sie Ihre tatsächliche Nutzung mit Ihrer vertraglichen Verpflichtung vergleichen können.
-keywords: Aktivität, Nutzung, Reporting, Bindung
+description: Die Berichte zur Aktivitätsnutzung helfen Ihnen, die Aktivitätsnutzung für Ihre Audience Manager-Instanz anzuzeigen und zu verfolgen, sodass Sie Ihre tatsächliche Nutzung mit Ihrer vertraglichen Verpflichtung vergleichen können.
+keywords: Aktivität, Nutzung, Reporting, Verpflichtung
 seo-description: Activity Usage Reporting helps you view and track the activity usage for your Audience Manager instance, so you can compare your actual usage to your contractual commitment.
 seo-title: Activity Usage Reporting
 solution: Audience Manager
@@ -20,68 +20,68 @@ ht-degree: 5%
 
 Mit dem [!UICONTROL Activity Usage Report] können Sie die Aktivitätsnutzung Ihrer Audience Manager-Instanz anzeigen und verfolgen und erhalten eine klare Vorstellung davon, wie Ihre Aktivitätsnutzung im Vergleich zu Ihrer vertraglichen Verpflichtung aussieht.
 
-Darüber hinaus können Sie die [!UICONTROL Activity Usage Report] herunterladen, wann immer Sie benötigen, um Datensätze zu speichern und benutzerdefinierte Analysen zu erstellen.
+Darüber hinaus können Sie die [!UICONTROL Activity Usage Report] zur Aufbewahrung von Aufzeichnungen und benutzerdefinierten Analysen herunterladen, wann immer Sie sie benötigen.
 
 ## Zu beachten {#considerations}
 
-Der [!UICONTROL Activity Usage Report] ist für alle Audience Manager mit [Administratorrechten](edit-account-settings.md) verfügbar.
+Die [!UICONTROL Activity Usage Report] steht allen Audience Manager-Benutzern mit &quot;[&quot; ](edit-account-settings.md).
 
 >[!IMPORTANT]
 >
->Der [!UICONTROL Activity Usage Report] zeigt die Nutzungsstatistiken Ihrer Audience Manager-Instanz an. Wenden Sie sich bei Abrechnungsanfragen im Zusammenhang mit Ihrer Aktivitätsnutzung an Ihren Adobe-Support-Mitarbeiter.
+>Im [!UICONTROL Activity Usage Report] werden die Statistiken zur Aktivitätsnutzung Ihrer Audience Manager-Instanz angezeigt. Falls Sie Fragen zur Rechnungsstellung bezüglich Ihrer Aktivitätsnutzung haben, wenden Sie sich bitte an Ihren Adobe-Ansprechpartner.
 
 ## Nutzungsszenarios {#use-cases}
 
-Es gibt zwei Hauptanwendungsfälle von [!UICONTROL Activity Usage Report]:
+Es gibt zwei Hauptanwendungsfälle der [!UICONTROL Activity Usage Report]:
 
-* **Verfolgen der tatsächlichen Nutzung der Instanzaktivität anhand Ihrer Aktivitätsverwendungszusage**: Die meisten Audience Manager verfügen über eine monatliche geschätzte Aktivitätszusage pro Instanz, die dann in einer jährlichen Aktivitätszusage für alle Instanzen zusammengefasst wird. Dieser Bericht ist zwar kein Abrechnungsbericht, kann aber hilfreiche Anleitungen dazu bieten, ob Sie die zugesagte Aktivitätsnutzung überschreiten.
-* **Validierung auf Implementierungsänderungen**: Wenn Sie Ihre Implementierung kürzlich aktualisiert haben, z. B. die Einrichtung der [!DNL Adobe Analytics] serverseitigen Weiterleitung oder die Änderung der [!DNL Adobe Target] Server-Aufrufeinstellungen, können Sie mit diesem Bericht überprüfen, ob das neue Aktivitätsvolumen mit Ihrem erwarteten Aktivitätsvolumen übereinstimmt.
+* **Tracking der tatsächlichen Instanzaktivitätsnutzung anhand Ihrer Aktivitätsnutzungsverpflichtung**: Die meisten Kunden verfügen über eine monatliche geschätzte Aktivitätsverpflichtung pro Audience Manager-Instanz, die dann in einer jährlichen Aktivitätsverpflichtung über alle Instanzen hinweg kumuliert wird. Dieser Bericht ist zwar kein Abrechnungsbericht, aber er kann hilfreiche Hinweise darüber geben, ob die zugesicherte Aktivitätsnutzung überschritten wird.
+* **Validierung auf Implementierungsänderungen**: Wenn Sie Ihre Implementierung kürzlich aktualisiert haben, z. B. [!DNL Adobe Analytics] Server-seitige Weiterleitung einrichten oder Ihre [!DNL Adobe Target] Server-Aufrufeinstellungen ändern, kann dieser Bericht Ihnen dabei helfen zu überprüfen, ob das neue Aktivitätsvolumen mit Ihrem erwarteten Aktivitätsvolumen übereinstimmt.
 
-## Verwenden des [!UICONTROL Activity Usage Report] {#using}
+## Verwenden der [!UICONTROL Activity Usage Report] {#using}
 
 Um die [!UICONTROL Activity Usage Report] anzuzeigen, melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Usage]**.
 
 ![aur-ui](assets/aur-ui.png)
 
-Verwenden Sie als Nächstes den Filter **[!UICONTROL Reporting Interval]** , um das Zeitintervall auszuwählen, für das der Bericht generiert werden soll. Sie können zwischen 30, 60, 90 Tagen oder einem benutzerdefinierten Datumsbereich wählen.
+Verwenden Sie als Nächstes den **[!UICONTROL Reporting Interval]**, um das Zeitintervall auszuwählen, für das der Bericht generiert werden soll. Sie können zwischen 30, 60, 90 Tagen oder einem benutzerdefinierten Datumsbereich wählen.
 
-Sobald Ihr Bericht geladen wurde, können Sie eine Aufschlüsselung Ihrer [!UICONTROL Activities] für den ausgewählten Zeitraum sehen.
+Sobald Ihr Bericht geladen ist, können Sie eine Aufschlüsselung Ihrer [!UICONTROL Activities] für den ausgewählten Zeitraum sehen.
 
-[!UICONTROL Activities] definiert die Gesamtsumme aller Onsite- und Offsite-Interaktionen mit Audience Manager und unterteilt in die folgenden Kategorien:
+[!UICONTROL Activities] die Gesamtsumme aller Onsite- und Offsite-Interaktionen mit Audience Manager zu definieren, aufgeteilt in die folgenden Kategorien:
 
 * **[!UICONTROL Server Calls]**: Jedes Datenerfassungs- oder Abrufereignis, das von Websites, Servern, E-Mails, Mobile Apps oder anderen Systemen an den Audience Manager gesendet wird.
-* **[!UICONTROL Pixel Calls](ehemals [!UICONTROL Impression Server Calls])**: Daten, die aus Anzeigen erfasst wurden (z. B. Impressionsvolumen von einer Targeting-Plattform) oder E-Mail-Impressions-Aufrufe an Audience Manager. Dazu muss der Parameter `d_event` in der Abfragezeichenfolge vorhanden sein.
-* **[!UICONTROL On-Boarded Records]**: Eindeutige Datensätze, die aus Ihrem eigenen Customer Relationship Management System (CRM) oder anderen Offline-Datendateien erfasst werden, z. B. Callcenter-Datensätze, Geräte-IDs und benutzerdefinierte Daten-Feeds von externen Datenanbietern.
-* **[!UICONTROL Log File Records]**: Eindeutige Datensätze aus Protokolldateien, die von einer Targeting-Plattform in Audience Manager aufgenommen werden.
+* **[!UICONTROL Pixel Calls](früher als [!UICONTROL Impression Server Calls] bezeichnet)** Daten, die aus Anzeigen erfasst werden (z. B. das Impressionsvolumen von einer Zielgruppenbestimmungsplattform) oder E-Mail-Impressionsaufrufe an Audience Manager. Diese erfordern das Vorhandensein des `d_event` Parameters in der Abfragezeichenfolge.
+* **[!UICONTROL On-Boarded Records]**: Eindeutige Datensätze, die von Ihrem eigenen CRM (Customer Relationship Management System) oder anderen Offline-Datendateien aufgenommen werden, wie Callcenter-Datensätze, Geräte-IDs und benutzerdefinierte Daten-Feeds von externen Datenanbietern.
+* **[!UICONTROL Log File Records]**: Eindeutige Einträge aus Protokolldateien, die von einer Zielplattform in den Audience Manager aufgenommen wurden.
 
 >[!NOTE]
 >
->Ein eindeutiger Datensatz definiert jeden einzelnen Datensatz in einer Datei, die von Adobe im Auftrag eines Audience Manager gespeichert wird.
+>Ein eindeutiger Datensatz definiert jeden einzelnen Datensatz von Daten in einer Datei, die von Adobe im Namen eines Audience Manager-Kunden gespeichert wird.
 
-Außerdem können Sie die [!UICONTROL Activity Usage Trends]-Diagrammtypen verwenden, um zwischen zwei Diagrammtypen zu wechseln.
+Darüber hinaus können Sie die [!UICONTROL Activity Usage Trends] Diagrammtypen verwenden, um zwischen zwei Diagrammtypen zu wechseln.
 
 ![aur-ui-graphs](assets/aur-ui-graphs.png)
 
-Sie können auch mit dem Mauszeiger über ein bestimmtes Datum in der Timeline fahren, um die detaillierte Verwendung dieses Datums anzuzeigen.
+Sie können den Cursor auch über ein bestimmtes Datum in der Zeitleiste bewegen, um die detaillierte Verwendung für dieses Datum anzuzeigen.
 
-![aur-hover](assets/aur-hover.png)
+![Luft-Hover](assets/aur-hover.png)
 
-## Exportieren von [!UICONTROL Activity Usage Reports] {#export}
+## [!UICONTROL Activity Usage Reports] exportieren {#export}
 
-Um einen besseren Überblick über die Nutzungsstufe Ihrer Audience Manager-Aktivität zu erhalten, können Sie den [!UICONTROL Activity Usage Report] basierend auf der Art der Datensätze exportieren, die Sie einbeziehen möchten.
+Um einen besseren Überblick über die Nutzungsaktivitäten Ihrer Audience Manager zu erhalten, können Sie die [!UICONTROL Activity Usage Report] je nach dem Typ der Datensätze exportieren, die Sie einbeziehen möchten.
 
-![aur-export](assets/aur-export.png)
+![AuR-Export](assets/aur-export.png)
 
-Die **[!UICONTROL Onboarded Records Breakdown]** - und **[!UICONTROL Onsite Server Calls Breakdown]** -Berichte bieten den detailliertesten Einblick in die für diese Aktivitäten verfügbaren Quelldaten. Das diesen Aufschlüsselungen zugeordnete Volumen basiert auf Ihrer Implementierung.
+Die **[!UICONTROL Onboarded Records Breakdown]**- und **[!UICONTROL Onsite Server Calls Breakdown]**-Berichte bieten die detailliertesten Einblicke in die für diese Aktivitäten verfügbaren Quelldaten. Das diesen Aufschlüsselungen zugewiesene Volumen hängt von Ihrer Implementierung ab.
 
 ### [!UICONTROL Onboarded Records Breakdown] {#onboarded-breakdown}
 
-Dieser Bericht enthält integrierte Datensätze, die nach Datenquelle aufgeschlüsselt sind.
+Dieser Bericht enthält integrierte Datensätze, aufgeschlüsselt nach Datenquelle.
 
 ### [!UICONTROL Onsite Server Calls Breakdown] {#onsite-breakdown}
 
 Dieser Bericht enthält eine Aufschlüsselung der Server-Aufrufe aus drei Quellen: [!UICONTROL Analytics], [!UICONTROL Target] und [!UICONTROL Other].
 
-* **[!UICONTROL Analytics]**: Hierbei handelt es sich um abrechnungsfähige Server-Aufrufe, die von allen [!UICONTROL Adobe Analytics] -Instanzen an Audience Manager übergeben werden, einschließlich der serverseitigen Weiterleitung. Sekundäre Server-Aufrufe oder doppelte Server-Aufrufe (wie die serverseitige Weiterleitung von mehreren Report Suites) sind keine abrechnungsfähigen Aktivitäten, daher sind sie nicht in dieser Aufschlüsselung enthalten.
-* **[!UICONTROL Target]**: Hierbei handelt es sich um serverseitige Aufrufe von [!UICONTROL Adobe Target] zu Audience Manager, um Audience Manager-Segmentdaten im Rahmen einer Server-zu-Server-Integration abzurufen.
-* **[!UICONTROL Other]**: Umfasst Aufrufe von anderen Websites oder Systemen (Partner-Sites, direkte Server-Aufrufe usw.), mobile Browser-/App-Aufrufe über die Aufrufe [!DNL SDK], [!DNL DIL], Ereignis-Aufrufe und [!DNL DCS]. Enthält auch Aufrufe von [!DNL Target] , wenn diese als Cookie-Integration (und nicht von Server zu Server) eingerichtet wurden.
+* **[!UICONTROL Analytics]**: Hierbei handelt es sich um kostenpflichtige Server-Aufrufe, die von allen [!UICONTROL Adobe Analytics]-Instanzen an den Audience Manager weitergeleitet werden, einschließlich Server-seitiger Weiterleitung. Sekundäre Server-Aufrufe oder doppelte Server-Aufrufe (wie im Fall der Server-seitigen Weiterleitung von mehreren Report Suites) sind keine kostenpflichtigen Aktivitäten und daher nicht in dieser Aufschlüsselung enthalten.
+* **[!UICONTROL Target]**: Hierbei handelt es sich um Server-seitige Aufrufe von [!UICONTROL Adobe Target] an Audience Manager, um Audience Manager-Segmentdaten als Teil einer Server-zu-Server-Integration abzurufen.
+* **[!UICONTROL Other]**: Umfasst Anrufe von einer anderen Website oder einem anderen System (Partner-Sites, direkte Server-Aufrufe usw.), mobile Browser-/App-Aufrufe über die [!DNL SDK], [!DNL DIL], Ereignisaufrufe und [!DNL DCS]. Enthält auch Aufrufe von [!DNL Target], wenn als Cookie-Integration (und nicht als Server-zu-Server-Integration) eingerichtet.

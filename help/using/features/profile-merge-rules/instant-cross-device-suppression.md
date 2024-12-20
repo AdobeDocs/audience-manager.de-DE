@@ -1,5 +1,5 @@
 ---
-description: Die sofortige geräteübergreifende Unterdrückung ermöglicht das Unterdrücken von Benutzern auf mehreren Geräten, mit denen sie verbunden sind, sobald ein bestimmtes Erlebnis auf einem dieser Geräte eintritt. Verwenden Sie die sofortige geräteübergreifende Unterdrückungsfunktion, um Ihren Benutzern geräteübergreifend ein konsistentes Erlebnis bereitzustellen. Dieses Erlebnis wird durch die Echtzeitfunktionen zum Aufheben der Segmentierung von Audience Manager ermöglicht.
+description: Die sofortige geräteübergreifende Unterdrückung ermöglicht das Unterdrücken von Benutzern auf mehreren Geräten, mit denen sie verbunden sind, sobald ein bestimmtes Erlebnis auf einem dieser Geräte eintritt. Verwenden Sie die Funktion „Sofortige geräteübergreifende Unterdrückung“, um Ihren Benutzern ein konsistentes Erlebnis auf allen Geräten zu bieten. Dieses Erlebnis wird durch die Echtzeitfunktionen zum Aufheben der Segmentierung von Audience Manager ermöglicht.
 seo-description: Instant Cross-Device Suppression is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the Instant Cross-Device Suppression capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
 seo-title: Instant Cross-Device Suppression
 title: Sofortige geräteübergreifende Unterdrückung
@@ -15,56 +15,56 @@ ht-degree: 6%
 
 # Sofortige geräteübergreifende Unterdrückung {#instant-cross-device-suppression}
 
-[!UICONTROL Instant Cross-Device Suppression] ist die Möglichkeit, Benutzer auf mehreren Geräten zu unterdrücken, die mit ihnen verbunden sind, wenn ein bestimmtes Erlebnis auf einem dieser Geräte auftritt. Verwenden Sie die [!UICONTROL Instant Cross-Device Suppression] -Funktion, um Ihren Benutzern geräteübergreifend ein konsistentes Erlebnis bereitzustellen. Dieses Erlebnis wird durch die Echtzeitfunktionen zum Aufheben der Segmentierung von Audience Manager ermöglicht.
+[!UICONTROL Instant Cross-Device Suppression] ist die Möglichkeit, Benutzer auf mehreren Geräten, die mit ihnen verbunden sind, zu unterdrücken, wenn ein bestimmtes Erlebnis auf einem dieser Geräte auftritt. Verwenden Sie die [!UICONTROL Instant Cross-Device Suppression]-Funktion, um Ihren Benutzern ein konsistentes Erlebnis über Geräte hinweg zu bieten. Dieses Erlebnis wird durch die Echtzeitfunktionen zum Aufheben der Segmentierung von Audience Manager ermöglicht.
 
 ## Überblick {#overview}
 
-[!UICONTROL Instant Cross-Device Suppression] bietet zwei wichtige Anwendungsfälle: verbesserte Benutzerfreundlichkeit und Medieneffizienz.
+[!UICONTROL Instant Cross-Device Suppression] bietet zwei wichtige Anwendungsfälle: Verbessertes Benutzererlebnis und Medieneffizienz.
 
-* **Verbessertes Benutzererlebnis**: Für Benutzer, die bereits Ihr Produkt oder Ihren Dienst erworben haben, werden nicht die gleichen kreativen Inhalte angezeigt wie vor dem Kauf. Stattdessen können Sie Upsell- oder Querverweise für Produkte oder Services anzeigen, von denen Sie wissen, dass sie nicht gekauft wurden.
-* **Medieneffizienz**: Optimieren Sie Ihre Kampagnenausgaben, indem Sie eine globale Frequenzbegrenzung für alle [!DNL DSP]s anwenden. Die Frequenzlimitierung kann in Echtzeit für mehrere Geräte eines Benutzers aktiviert werden.
+* **Ein verbessertes Benutzererlebnis**: Benutzer, die bereits Ihr Produkt oder Ihre Dienstleistung gekauft haben, sehen nicht mehr dieselben Kreativen wie vor dem Kauf. Stattdessen können Sie Upsell- oder Crossselling-Nachrichten für Produkte oder Services anzeigen, von denen Sie wissen, dass sie nicht gekauft haben.
+* **Medieneffizienz**: Optimieren Sie Ihre Kampagnenausgaben, indem Sie eine globale Häufigkeitsbegrenzung auf alle [!DNL DSP] anwenden. Die Frequenzlimitierung kann für mehrere Geräte eines Benutzers in Echtzeit aktiviert werden.
 
-Die technischen Details der Aufhebung der Segmentierung in Echtzeit werden in [Regeln zur Profilzusammenführung und Prozesses zur Aufhebung der Gerätesegmentierung](merge-rule-unsegment.md) ausführlich beschrieben. Lesen Sie für die praktische Umsetzung der oben beschriebenen Anwendungsfälle weiter.
+Die technischen Details der Echtzeit-Nicht-Segmentierung werden in „Profilzusammenführungsregeln und Prozesse zur Aufhebung der [&quot; ](merge-rule-unsegment.md). Lesen Sie weiter, um die oben beschriebenen Anwendungsfälle praktisch umzusetzen.
 
-## Keine Zielgruppe nach Konvertierung {#do-not-target-once}
+## Nach der Konvertierung nicht als Ziel auswählen {#do-not-target-once}
 
-Vergewissern Sie sich, dass Ihre Benutzer, die bereits konvertiert haben (ein Produkt gekauft, ein Abonnement erworben haben usw.) wird nicht die gleiche Nachricht wie vor der Konvertierung angezeigt. Sie können dies wie folgt mit der [!UICONTROL AND NOT] -Logik abrufen.
+Vergewissern Sie sich, dass Ihren Benutzern, die bereits eine Konversion durchgeführt haben (ein Produkt gekauft, ein Abonnement erworben haben usw.), nicht dieselbe Nachricht angezeigt wird wie vor der Konversion. Sie können dies mit der [!UICONTROL AND NOT] Logik wie folgt abrufen.
 
-1. Erstellen Sie ein Segment mit zwei Eigenschaften und verwenden Sie die Logik [!UICONTROL AND NOT] , wie in der Abbildung unten dargestellt. Sie müssen eine regelbasierte Eigenschaft verwenden, um das Konversionsereignis zu definieren, damit das Aufheben der Segmentierung in Echtzeit ausgelöst wird. Erfahren Sie mehr darüber, wie Sie [regelbasierte Eigenschaften erstellen](../traits/create-onboarded-rule-based-traits.md).
+1. Erstellen Sie ein Segment mit zwei Eigenschaften und verwenden Sie die [!UICONTROL AND NOT] Logik, wie in der Abbildung unten dargestellt. Sie müssen eine regelbasierte Eigenschaft verwenden, um das Konversionsereignis zu definieren, damit die Aufhebung des Segments in Echtzeit ausgelöst wird. Erfahren Sie mehr über [Erstellen regelbasierter Eigenschaften](../traits/create-onboarded-rule-based-traits.md).
 2. Ordnen Sie das Segment einer beliebigen Anzahl von Echtzeit-Server-zu-Server-Zielen zu. Erfahren Sie mehr über das Hinzufügen von Segmenten zu [Server-zu-Server-Zielen](../destinations/add-edit-segments.md).
 
-Ihre Besucher qualifizieren sich für das Segment, solange sie nicht konvertiert wurden. Sobald sie sich für die Konversionseigenschaft qualifizieren, folgen sie nicht mehr der Segmentregel und werden sofort aus dem Segment entfernt.
+Ihre Besucher sind für das Segment qualifiziert, solange sie nicht konvertiert sind. Sobald sie sich für das Konversionsmerkmal qualifizieren, hören sie auf, die Segmentregel zu befolgen, und werden sofort aus dem Segment entfernt.
 
 ![](assets/and_not_use_case.png)
 
-## Keine Zielgruppe nach x Impressionen {#do-not-target-after-x}
+## Nach x Impressionen nicht als Ziel auswählen {#do-not-target-after-x}
 
-Sie können sicherstellen, dass Ihre Benutzer nicht mit demselben kreativen Inhalt überschwemmt werden, indem Sie Neuigkeits- und Häufigkeitskontrollen festlegen. Erstellen Sie in diesem Szenario ein Segment mit zwei Eigenschaften, wie in den folgenden Schritten beschrieben.
+Sie können sicherstellen, dass Sie Ihre Benutzer nicht mit denselben kreativen Inhalten überschwemmen, indem Sie die Steuerung der Neuigkeit und Häufigkeit festlegen. Erstellen Sie in diesem Szenario ein Segment mit zwei Eigenschaften, wie in den folgenden Schritten beschrieben.
 
-1. Erstellen Sie ein Segment mit zwei Eigenschaften und verwenden Sie die Logik [!UICONTROL AND] , wie in der Abbildung unten dargestellt. Sie müssen eine regelbasierte Eigenschaft verwenden, um das Impressionsereignis zu definieren, damit das Aufheben der Segmentierung in Echtzeit ausgelöst wird. Erfahren Sie mehr darüber, wie Sie [regelbasierte Eigenschaften erstellen](../traits/create-onboarded-rule-based-traits.md).
+1. Erstellen Sie ein Segment mit zwei Eigenschaften und verwenden Sie die [!UICONTROL AND] Logik, wie in der Abbildung unten dargestellt. Sie müssen eine regelbasierte Eigenschaft verwenden, um das Impression-Ereignis für das Unsegment zu definieren, das in Echtzeit ausgelöst werden soll. Erfahren Sie mehr über [Erstellen regelbasierter Eigenschaften](../traits/create-onboarded-rule-based-traits.md).
    >[!NOTE]
    >
-   >Sie können [!UICONTROL Actionable Log Files] oder [!UICONTROL Pixel Calls] verwenden, um Eigenschaften basierend auf Benutzerimpressionen zu erstellen. Weitere Informationen zu [ausführbaren Protokolldateien](../../integration/media-data-integration/actionable-log-files.md) und [Pixelaufrufen](../../integration/media-data-integration/impression-data-pixels.md).
-2. Anwenden von Frequenzsteuerelementen auf die zweite Eigenschaft. Bei Bedarf können Sie auch Neuigkeitskontrollen hinzufügen. Erfahren Sie mehr über [das Anwenden von Neuigkeits- und Frequenzsteuerelementen](../segments/recency-and-frequency.md).
+   >Sie können [!UICONTROL Actionable Log Files] oder [!UICONTROL Pixel Calls] verwenden, um Eigenschaften basierend auf Benutzerimpressionen zu erstellen. Lesen Sie mehr über [Verwertbare Protokolldateien](../../integration/media-data-integration/actionable-log-files.md) und [Pixel-Aufrufe](../../integration/media-data-integration/impression-data-pixels.md).
+2. Wenden Sie Häufigkeitssteuerungen auf die zweite Eigenschaft an. Wenn Sie möchten, können Sie auch Neuigkeitskontrollen hinzufügen. Lesen Sie mehr über [Anwenden von Neuigkeits- und Häufigkeitskontrollen](../segments/recency-and-frequency.md).
 3. Ordnen Sie das Segment einer beliebigen Anzahl von Echtzeit-Server-zu-Server-Zielen zu. Erfahren Sie mehr über das Hinzufügen von Segmenten zu [Server-zu-Server-Zielen](../destinations/add-edit-segments.md).
 
-In diesem Szenario werden Ihre Benutzer, sobald sie mehr als drei Impressionen gesammelt haben, aus diesem Segment entfernt und sehen diesen bestimmten Kreativelement nicht mehr.
+In diesem Szenario werden Ihre Benutzer, sobald sie mehr als drei Impressions gesammelt haben, aus diesem Segment entfernt und sehen diese bestimmte Kreativität nicht mehr.
 
 ![](assets/impressions_use_case.png)
 
 ## Wichtige Aspekte - Verarbeitung {#processing-notes}
 
-Beachten Sie die folgenden Aspekte im Zusammenhang mit der Verarbeitung:
+Beachten Sie diese Aspekte in Bezug auf die Verarbeitung:
 
-* Damit die Funktion zur Aufhebung der Segmentierung in Echtzeit funktioniert, müssen Sie die gewünschten Segmente den Echtzeit-Server-zu-Server-Zielen zuordnen.
-* Für Geräte, die über ein [Gerätediagramm](profile-link-use-case.md#recommendations) mit einem Gerät verbunden sind, wird eine Beschränkung von vier Geräten für die Auswertung und Aufhebung der Segmentierung erzwungen. Diese Einschränkung wird unter [Gerätediagrammoptionen und Gerätesegmentierung](merge-rule-unsegment.md#device-graph-options-unsegmentation) beschrieben. &#x200B;
-* Der Befehl zum Aufheben der Segmentierung wird in eine Batch-Datei aufgenommen, die alle 24 Stunden an Ziele gesendet wird. Dies gilt für mehrere Geräte, die über das Gerätediagramm verbunden sind.
-* Das Gerät muss in Echtzeit (auf dem [Edge](../../reference/system-components/components-edge.md)) angezeigt werden, um die Segmentbewertung in Echtzeit zu veranlassen. Bei Eigenschaften mit dem Wert &quot;[!UICONTROL time-to-live (TTL)]&quot;, wenn die Eigenschaft &quot;[!DNL TTL]&quot; erfüllt ist, wird die Segmentierung des Geräts über die Batch-Datei automatisch innerhalb von 24 Stunden aufgehoben. &#x200B; Erfahren Sie mehr darüber, wie Sie [ein Ablaufintervall für eine Eigenschaft festlegen](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
-* Wenn Sie die [!UICONTROL DCS API] verwenden, um regelbasierte Eigenschaften in Echtzeit zu integrieren, können Sie die Aufhebung der Segmentierung mit der Verwendung der [!UICONTROL AND NOT] -Logik Trigger haben. Weitere Informationen zum Senden von Daten an die DCS-API](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) finden Sie &#x200B;[
+* Damit die Funktion zum Aufheben von Segmenten in Echtzeit funktioniert, müssen Sie die gewünschten Segmente Echtzeit-Server-zu-Server-Zielen zuordnen.
+* Für Geräte, die über ein [Gerätediagramm](profile-link-use-case.md#recommendations) mit einem Gerät verbunden sind, erzwingen wir eine Beschränkung von vier Geräten in Bezug auf die Bewertung und Nicht-Segmentierung. Diese Einschränkung wird unter [Optionen für Gerätediagramme und ](merge-rule-unsegment.md#device-graph-options-unsegmentation)&quot; beschrieben&#x200B;
+* Der Befehl zum Aufheben der Segmentierung wird in einer Batch-Datei enthalten sein, die für mehrere über das Gerätediagramm verbundene Geräte alle 24 Stunden an Ziele gesendet wird.
+* Das Gerät muss in Echtzeit (auf der [Edge) angezeigt werden](../../reference/system-components/components-edge.md) um eine Segmentauswertung in Echtzeit zu veranlassen. Bei Eigenschaften, die eine [!UICONTROL time-to-live (TTL)] haben, wenn die [!DNL TTL] erfüllt ist, wird die Segmentierung des Geräts innerhalb von 24 Stunden über die Batch-Datei automatisch aufgehoben..&#x200B; Erfahren Sie mehr über das [Festlegen eines Ablaufintervalls für Eigenschaften](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
+* Wenn Sie die [!UICONTROL DCS API] verwenden, um regelbasierte Eigenschaften in Echtzeit zu integrieren, können Sie die Aufhebung der Segmentierung mithilfe der [!UICONTROL AND NOT] Logik als Trigger verwenden. Weitere Informationen über [Senden von Daten an die DCS-API](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).&#x200B;
 
-## Wichtige Aspekte - Zeit {#timing-notes}
+## Wichtige Aspekte zu beachten - Timing {#timing-notes}
 
-Beachten Sie die folgenden Aspekte im Zusammenhang mit dem Timing:
+Beachten Sie diese Aspekte im Zusammenhang mit dem Timing:
 
-* Ein Segment wird auf dem [Edge](../../reference/system-components/components-edge.md) für den gleichen Zeitraum gespeichert wie ein Geräteprofil auf dem [!UICONTROL Edge], d. h. 14 Tage seit der letzten Echtzeit-Interaktion. Weitere Informationen zur Datenaufbewahrung finden Sie in unseren [FAQ zur Datenaufbewahrung](../../faq/faq-privacy.md#data-retention-faq).
-* Es dauert etwa 24 Stunden, bis sich der Vorgang zum Aufheben der Segmentierung über [!DNL DCS] -Regionen erstreckt. Mehr über unsere [!DNL DCS] Regionen [hier](../../reference/system-components/components-data-collection.md) und [hier](../../api/dcs-intro/dcs-api-reference/dcs-regions.md) erfahren.
+* Ein Segment wird in der [Edge](../../reference/system-components/components-edge.md) für denselben Zeitraum gespeichert, in dem ein Geräteprofil in der [!UICONTROL Edge] gespeichert wird, d. h. 14 Tage seit der letzten Echtzeit-Interaktion. Weitere Informationen zur Datenspeicherung finden Sie in unserer [Häufig gestellte Fragen zur Datenspeicherung](../../faq/faq-privacy.md#data-retention-faq).
+* Es dauert etwa 24 Stunden, bis sich der Vorgang zum Aufheben der Segmentierung über [!DNL DCS] Regionen ausbreitet. Lesen Sie mehr über unsere [!DNL DCS] Regionen [hier](../../reference/system-components/components-data-collection.md) und [hier](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

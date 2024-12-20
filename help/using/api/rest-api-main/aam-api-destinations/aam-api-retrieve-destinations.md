@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Zurückgeben eines Ziels nach Ziel-ID {#return-a-destination-by-destination-id}
 
-Eine `GET` -Methode, die das Ziel für den angegebenen `destinationId` zurückgibt.
+Eine `GET` Methode, die das Ziel für die angegebene `destinationId` zurückgibt.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -26,7 +26,7 @@ Eine `GET` -Methode, die das Ziel für den angegebenen `destinationId` zurückgi
 
 >[!NOTE]
 >
->Um das Feld `mappings` zu füllen, geben Sie `includeMappings=true` in die URL ein.
+>Um das Feld `mappings` auszufüllen, übergeben Sie `includeMappings=true` in die URL.
 
 ## Antwort
 
@@ -58,7 +58,7 @@ Eine `GET` -Methode, die das Ziel für den angegebenen `destinationId` zurückgi
 
 ## Alle Ziele zurückgeben {#return-all-destinations}
 
-Eine `GET` -Methode, die alle Ziele für den angegebenen Partner zurückgibt.
+Eine `GET` Methode, die alle Ziele für den angegebenen Partner zurückgibt.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -68,13 +68,13 @@ Eine `GET` -Methode, die alle Ziele für den angegebenen Partner zurückgibt.
 
 >[!NOTE]
 >
->* *(Optional)* Übergeben Sie `containsSegment=<sid>`, um ein Array aller Ziele zurückzugeben, die dem angegebenen Segment zugeordnet sind. Ihre Abfrage könnte beispielsweise wie folgt aussehen: `GET .../destinations/?containsSegment=4321`.
+>* *(Optional)* Übergeben Sie `containsSegment=<sid>` , um ein Array aller Ziele zurückzugeben, die dem angegebenen Segment zugeordnet sind. Ihre Abfrage könnte beispielsweise in etwa wie folgt aussehen: `GET .../destinations/?containsSegment=4321`.
 >
->* Gibt nicht das vollständige Zielobjekt zurück. Rufen Sie das Ziel nach Datenreihenfolge ab, wenn Sie ein vollständig ausgefülltes Objekt benötigen.
+>* Gibt nicht das vollständige Zielobjekt zurück. Rufen Sie die Zieldaten nach Reihenfolge ab, wenn Sie ein vollständig ausgefülltes Objekt benötigen.
 
 ### Optionale Abfrageparameter
 
-Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* -Eigenschaften für ein Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an den [!DNL API] übergeben. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle*-Eigenschaften für ein -Objekt zurückgeben. Legen Sie diese Optionen in der Anforderungszeichenfolge fest, wenn Sie diese Abfrage an den [!DNL API] übergeben. Siehe [Optionale Parameter](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -86,23 +86,23 @@ Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* -E
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Die Nummerierung beginnt bei 0. </td>
+   <td colname="col2"> Gibt Ergebnisse nach Seitenzahl zurück. Nummerierung beginnt bei 0. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
-   <td colname="col2"> Legt die Anzahl der von der Anfrage zurückgegebenen Antwortergebnisse fest (standardmäßig 10). </td>
+   <td colname="col2"> Legt die Anzahl der von der Anfrage zurückgegebenen Antwortergebnisse fest (10 ist der Standardwert). </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Sortiert Ergebnisse und gibt sie gemäß der angegebenen <span class="keyword"> JSON</span> -Eigenschaft zurück. </td>
+   <td colname="col2">Sortiert Ergebnisse nach der angegebenen <span class="keyword"> JSON</span>-Eigenschaft und gibt sie zurück. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> Sortiert Ergebnisse und gibt sie in absteigender Reihenfolge zurück. Aufsteigend ist die Standardeinstellung. </td>
+   <td colname="col2"> Sortiert die Ergebnisse in absteigender Reihenfolge und gibt sie zurück. Aufsteigend ist Standard. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Angenommen, Sie möchten Ergebnisse für alle Modelle mit dem Wort "Test"in einem der Wertefelder für dieses Element finden. Ihre Beispielanfrage könnte wie folgt aussehen: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Sie können nach jedem Wert suchen, der von einer "get all"-Methode zurückgegeben wird. </p> </td>
+   <td colname="col2">Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Angenommen, Sie möchten Ergebnisse für alle Modelle finden, die das Wort „Test“ in einem der Wertefelder für dieses Element enthalten. Ihre Beispielanfrage könnte wie folgt aussehen: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Sie können nach jedem Wert suchen, der von einer „get all“-Methode zurückgegeben wird. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -139,9 +139,9 @@ Sie können diese optionalen Parameter mit API-Methoden verwenden, die *alle* -E
 ]
 ```
 
-## Zielzuordnung mit Zuordnungs-ID zurückgeben {#return-dest-mapping-id}
+## Gibt eine Zielzuordnung mit der Zuordnungs-ID zurück. {#return-dest-mapping-id}
 
-Eine `GET` -Methode, die eine individuelle Zielzuordnung basierend auf dem `mappingId` zurückgibt.
+Eine `GET` Methode, die eine einzelne Zielzuordnung basierend auf der `mappingId` zurückgibt.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -176,15 +176,15 @@ Eine `GET` -Methode, die eine individuelle Zielzuordnung basierend auf dem `mapp
 }
 ```
 
-## Rückkehrziel-Zuordnungen {#return-dest-mappings}
+## Rückgabe von Zielzuordnungen {#return-dest-mappings}
 
-Eine `GET` -Methode, die die Zuordnungen für ein Ziel zurückgibt.
+Eine `GET` Methode, die die Zuordnungen für ein Ziel zurückgibt.
 
 <!-- r_get_destination_mappings.xml -->
 
 >[!NOTE]
 >
->Die zurückgegebene Zuordnung ist spezifisch für den Zieltyp und die Konfiguration.
+>Die zurückgegebene Zuordnung ist spezifisch für den Zieltyp und die Zielkonfiguration.
 
 ### Anfrage
 
@@ -192,7 +192,7 @@ Eine `GET` -Methode, die die Zuordnungen für ein Ziel zurückgibt.
 
 >[!NOTE]
 >
->Unterstützt Seitenparameter.
+>Unterstützt Paging-Parameter.
 
 ### Antwort
 
@@ -252,7 +252,7 @@ Eine `GET` -Methode, die die Zuordnungen für ein Ziel zurückgibt.
 
 ## Alle verfügbaren Zielplattformen zurückgeben {#return-dest-platforms}
 
-Eine `GET` -Methode, die alle verfügbaren Geräteplattformen für Ziele zurückgibt.
+Eine `GET` Methode, die alle verfügbaren Geräteplattformen für Ziele zurückgibt.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -268,9 +268,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## S2S- und Massen-S2S-Zielauftragsverlauf zurückgeben {#return-job-history}
+## S2S- und Massen-S2S-Zielvorgangsverlauf zurückgeben {#return-job-history}
 
-Eine `GET` -Methode, die ausgehende [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) und Bulk [!UICONTROL S2S]-Verlaufsinformationen für Zielaufträge zurückgibt.
+Eine `GET` Methode, die Informationen zum Verlauf ausgehender [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) und zum Verlauf [!UICONTROL S2S] Massenzielaufträge zurückgibt.
 
 <!-- r_get_job_history.xml -->
 

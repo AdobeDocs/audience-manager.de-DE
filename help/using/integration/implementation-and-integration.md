@@ -13,12 +13,12 @@ ht-degree: 36%
 
 ---
 
-# Implementierung und Integration - Übersicht
+# Übersicht über Implementierung und Integration
 
-Arbeiten Sie mit Daten aus [!DNL Experience Cloud] -Lösungen oder anderen externen Systemen in [!DNL Audience Manager].
+Arbeiten mit Daten aus [!DNL Experience Cloud] Lösungen oder anderen externen Systemen in [!DNL Audience Manager].
 
 * [Datenintegrationsmethoden](data-integration-methods.md)
 * [Implementieren von Audience Manager](implement-audience-manager.md)
-* [Mediendatenintegration](/help/using/integration/media-data-integration/media-data-integration.md)
-* [Empfangen von Zielgruppendaten](/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md)
+* [Media Data Integration](/help/using/integration/media-data-integration/media-data-integration.md)
+* [Zielgruppendaten werden empfangen](/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md)
 * [Senden von Zielgruppendaten](/help/using/integration/sending-audience-data/send-audience-data.md)

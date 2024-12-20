@@ -7,47 +7,47 @@ ht-degree: 2%
 ---
 # Anleitung
 
-**Hinweis: Diese Seite (oder jede andere &quot;readme.md&quot;-Seite) wird nicht in der Kundendokumentation veröffentlicht**
+**Hinweis: Diese Seite (oder eine beliebige Readme.md-Seite) wird nicht in der Dokumentation für Kunden veröffentlicht**
 
-## TOC
+## INHALT
 
-+ `TOC.md` im Stammverzeichnis des Benutzerhandbuchs bietet die Organisation der Themen, die im Handbuch für diese Lösung enthalten sind.
-+ Jedes Benutzerhandbuch verfügt über sein eigenes &quot;`TOC.md`&quot;, in dem Sie alle Seiten/Themen nach Bedarf sortieren können.
++ `TOC.md` im Stammverzeichnis des Benutzerhandbuchs enthält die Organisation der Themen, die im Handbuch für diese Lösung enthalten sind.
++ Jedes Benutzerhandbuch verfügt über eine eigene `TOC.md`, in der Sie alle Seiten/Themen nach Bedarf sortieren können.
 + Die erste Seite aller Benutzerhandbücher ist `overview.md`.
 
 ## Benutzerhandbuch
 
 + Die Einführung in das Benutzerhandbuch heißt `overview.md`
-+ Jedes Thema im Benutzerhandbuch verfügt über ein eigenes Verzeichnis.
-   + Wenn im Handbuch ein Thema namens *Implementierung* enthalten ist, lautet der entsprechende Ordner `/implementation`
-+ Alle Bild-Assets werden in `/assets` im Stammverzeichnis des Benutzerhandbuchs gespeichert.
-   + Alle Bilder im Verzeichnis `/assets` werden lokalisiert.
-   + Bilder im Verzeichnis `/no-localize` werden nicht lokalisiert (es gibt eine Überraschung!). Dies kann verwendet werden, um in lokalen Versionen sicherzustellen, dass bestimmte Assets nicht unnötig reproduziert werden.
++ Jedes Thema im Benutzerhandbuch hat ein eigenes Verzeichnis.
+   + Wenn es ein Thema im Handbuch namens *Implementierung* gibt, wird das entsprechende Verzeichnis `/implementation`
++ Alle Bild-Assets werden in `/assets` im Stamm des Benutzerhandbuchs gespeichert.
+   + Alle Bilder im `/assets` werden lokalisiert.
+   + Bilder im `/no-localize` werden nicht lokalisiert (Überraschung!). Dies kann verwendet werden, um in Sperrversionen sicherzustellen, dass bestimmte Assets nicht unnötig reproduziert werden.
 
-## Metadaten auf Benutzerhandbuchebene
+## Metadaten auf Benutzeranleitungsebene
 
-+ Metadaten, die das Benutzerhandbuch beschreiben, werden im `TOC.md` gespeichert. Dazu gehören:
-   + product - Name des Produkts/der Funktion.
-   + cloud - Cloud, zu der dieses Produkt gehört.
-   + audience - Zielgruppe oder Archetyp, auf den das Handbuch ausgerichtet ist.
-   + user-guide - Name des Benutzerhandbuchs.
++ In der `TOC.md` werden Metadaten gespeichert, die das Benutzerhandbuch beschreiben. Dazu gehören:
+   + Produkt - Name des Produkts/der Funktion.
+   + Cloud - Cloud, zu der dieses Produkt gehört.
+   + Zielgruppe : Zielgruppe oder Archetyp, an die sich der Guide richtet.
+   + Benutzerhandbuch - Name des Benutzerhandbuchs.
 
 ## Metadaten auf Seitenebene
 
-+ Metadaten, die zur Beschreibung eines Dokuments erforderlich sind, werden als Teil jeder einzelnen Seite gespeichert. Dazu gehören:
-   + title - Titel der Seite.
-   + description - Beschreibung der Seite.
-   + seo-title - Seo Alternative Titel.
-   + seo-description - Alternativtitel für SEO-Zwecke.
-   + short-title - (optionales Feld)
-   + index - ja/nein - wird die Seite von der Adobe-Suchplattform indexiert.
-   + translate - ja/nein - wird diese Seite lokalisiert.
-   + version - wird hauptsächlich für AEM und Campaign verwendet, um die Produktversion zu kennzeichnen.
++ Metadaten, die ein Dokument beschreiben, werden als Teil jeder einzelnen Seite gespeichert. Dazu gehören:
+   + Titel - Titel der Seite.
+   + Beschreibung - Beschreibung der Seite.
+   + SEO-Titel - SEO Alternativtitel.
+   + seo-description - Alternativer Titel für SEO-Zwecke.
+   + short-title - (optionales Feld).
+   + Index - Ja/Nein - wird die Seite von der Suchplattform Adobe auf indiziert.
+   + Übersetzen - Ja/Nein - wird diese Seite lokalisiert.
+   + version : wird hauptsächlich für AEM und Campaign verwendet, um die Produktversion anzugeben.
    + private-feature-pack - wird hauptsächlich für AEM verwendet.
-   + beta - Ist dieses Produkt in der Beta-Phase?
-   + redirect - kann verwendet werden, um bei Bedarf eine Referenz zu einer neuen Seite zu erstellen.
-   + doc-type: reference (Standard)/troubleshooting/developer/tutorial/kb/whitepaper.
+   + Beta - Ist dieses Produkt in der Beta-Phase?
+   + Umleiten : Kann verwendet werden, um bei Bedarf eine Referenz auf eine neue Seite zu erstellen.
+   + Dokumenttyp: Referenz (Standard) / Fehlerbehebung / Entwickler / Tutorial / KB / Whitepaper.
 
 ## Weitere Info
 
-Weitere Veröffentlichungsanweisungen, Stilhandbücher, Beispiele und andere Ressourcen finden Sie im [Kollaboratives Dokumentationsverzeichnis](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Weitere Veröffentlichungsanweisungen, Style Guides, Beispiele und andere Ressourcen finden Sie unter [Partizipatives Dokumentationsverzeichnis](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)

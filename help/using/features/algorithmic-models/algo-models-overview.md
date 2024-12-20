@@ -1,10 +1,10 @@
 ---
 description: Beschreibt die in Audience Manager verfügbaren algorithmischen Modelle.
-keywords: algo-Modelle, wie Predictive Audiences funktioniert
+keywords: Algo modelliert, wie prädiktive Zielgruppen funktionieren
 seo-description: Describes the algorithmic models available in Audience Manager.
 seo-title: Algorithmic Models Overview
 solution: Audience Manager
-title: Algorithmische Modelle - Überblick
+title: Übersicht über algorithmische Modelle
 feature: Algorithmic Models
 exl-id: ee5c3392-2756-45c5-b325-41a51d3c494f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
@@ -14,30 +14,30 @@ ht-degree: 1%
 
 ---
 
-# Algorithmische Modelle - Überblick
+# Übersicht über algorithmische Modelle
 
 ## Was ist algorithmische Modellierung?{#what-algo-modeling}
 
-Algorithmische Modellierung in Audience Manager bezieht sich auf die Verwendung der Datenwissenschaft, um Ihre bestehenden Zielgruppen zu erweitern oder in Personas zu klassifizieren.
+Algorithmische Modellierung in Audience Manager bezieht sich auf die Verwendung von Datenwissenschaft, um Ihre bestehenden Zielgruppen entweder zu erweitern oder sie in Personas zu klassifizieren.
 
-Dies geschieht durch zwei Typen von Algorithmen: [!UICONTROL Look-Alike Modeling] und [!UICONTROL Predictive Audiences].
+Dies geschieht durch zwei Arten von Algorithmen: [!UICONTROL Look-Alike Modeling] und [!UICONTROL Predictive Audiences].
 
 ## Look-Alike-Modellierung{#lam}
 
-[!UICONTROL Look-Alike Modeling] hilft Ihnen bei der Erkennung neuer, eindeutiger Zielgruppen durch automatisierte Datenanalyse. Der Prozess beginnt, wenn Sie eine Eigenschaft oder ein Segment, ein Zeitintervall sowie Erstanbieter- und Drittanbieter-Datenquellen auswählen. Ihre Auswahlmöglichkeiten bieten die Eingaben für das algorithmische Modell. Wenn der Analysevorgang ausgeführt wird, sucht er basierend auf gemeinsamen Merkmalen der ausgewählten Population nach infrage kommenden Benutzern.
+Mit [!UICONTROL Look-Alike Modeling] können Sie durch automatisierte Datenanalyse neue, einzigartige Zielgruppen ermitteln. Der Prozess beginnt mit der Auswahl eines Merkmals oder Segments, eines Zeitintervalls sowie von Erstanbieter- und Drittanbieter-Datenquellen. Ihre Auswahl liefert die Eingaben für das algorithmische Modell. Wenn der Analytics-Prozess ausgeführt wird, sucht er basierend auf gemeinsamen Merkmalen der ausgewählten Population nach geeigneten Benutzern.
 
-Nach Abschluss sind diese Daten in [Trait Builder](../../features/traits/about-trait-builder.md) verfügbar, wo Sie sie verwenden können, um Eigenschaften basierend auf der [Genauigkeit und Reichweite](../../features/traits/trait-accuracy-reach.md) zu erstellen. Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit regelbasierten Eigenschaften kombinieren und weitere Qualifizierungsanforderungen mit booleschen Ausdrücken und Vergleichsoperatoren hinzufügen.
+Nach Abschluss stehen diese Daten im [Trait Builder) zur Verfügung](../../features/traits/about-trait-builder.md) in dem Sie damit Eigenschaften basierend auf [Genauigkeit und Reichweite“ erstellen ](../../features/traits/trait-accuracy-reach.md). Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit regelbasierten Eigenschaften kombinieren, und andere Qualifizierungsanforderungen mit booleschen Ausdrücken und Vergleichsoperatoren hinzufügen.
 
-[!UICONTROL Look-Alike Modeling] gibt Ihnen eine dynamische Möglichkeit, Werte aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
+[!UICONTROL Look-Alike Modeling] bietet Ihnen eine dynamische Möglichkeit, Wert aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
 
-Weitere Informationen zu [!UICONTROL Look-Alike Modeling] finden Sie unter [Grundlegendes zur Look-alike-Modellierung](understanding-models.md).
+Weitere Informationen zu [!UICONTROL Look-Alike Modeling] finden Sie unter [Grundlegendes zur Lookalike-Modellierung](understanding-models.md).
 
 ## Vorhersagekräftige Zielgruppen{#predictive-audiences}
 
-[!UICONTROL Predictive Audiences] hilft Ihnen, eine unbekannte Zielgruppe in Echtzeit mithilfe fortschrittlicher Datenwissenschaftstechniken in eindeutige Personas zu klassifizieren.
+[!UICONTROL Predictive Audiences] können Sie mithilfe fortschrittlicher Datenwissenschafts-Techniken eine unbekannte Zielgruppe in Echtzeit in verschiedene Personas klassifizieren.
 
-In einem Marketingkontext ist eine Persona ein Zielgruppensegment, das von Besuchern, Benutzern oder potenziellen Käufern definiert wird, die bestimmte Eigenschaften wie demografische Daten, Surfgewohnheiten, Einkaufsverlauf usw. gemeinsam haben.
+In einem Marketing-Kontext ist eine Rolle ein Zielgruppensegment, das von Besuchern, Benutzern oder potenziellen Käufern definiert wird, die bestimmte Eigenschaften wie Demografie, Browser-Gewohnheiten, Einkaufsverlauf usw. gemeinsam haben.
 
-[!UICONTROL Predictive Audiences] -Modelle gehen noch einen Schritt weiter, indem sie die maschinellen Lernfunktionen von Audience Manager verwenden, um unbekannte Zielgruppen automatisch in eindeutige Personas zu klassifizieren. Audience Manager erreicht dies durch Berechnung der Neigung Ihrer unbekannten Zielgruppe für eine Reihe bekannter Zielgruppen.
+[!UICONTROL Predictive Audiences] Modelle gehen einen Schritt weiter, indem sie die maschinellen Lernfunktionen von Audience Manager nutzen, um unbekannte Zielgruppen automatisch in verschiedene Personas zu klassifizieren. Audience Manager berechnet dazu die Neigung Ihrer unbekannten Zielgruppe für eine Reihe bekannter Zielgruppen.
 
-Weitere Informationen zu [!UICONTROL Predictive Audiences] finden Sie unter [Übersicht über vorausschauende Zielgruppen](predictive-audiences.md).
+Weitere Informationen zu [!UICONTROL Predictive Audiences] finden Sie unter [Predictive Audiences - Übersicht](predictive-audiences.md).

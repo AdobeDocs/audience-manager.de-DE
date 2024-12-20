@@ -1,9 +1,9 @@
 ---
-description: Ordnen Sie Ziele mithilfe dieser RESTful-API-Methoden Segmente zu.
+description: Ordnen Sie mit diesen RESTful-API-Methoden Segmente Zielen zu.
 seo-description: Map segments to destinations with these RESTful API methods.
 seo-title: Map Segments to a Destination
 solution: Audience Manager
-title: Segmente einem Ziel zuordnen
+title: Zuordnen von Segmenten zu einem Ziel
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
 exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
@@ -14,19 +14,19 @@ ht-degree: 6%
 
 ---
 
-# Segmente einem Ziel zuordnen {#map-segments-to-a-destination}
+# Zuordnen von Segmenten zu einem Ziel {#map-segments-to-a-destination}
 
-Ordnen Sie Segmente mit diesen [!DNL RESTful API] -Methoden Zielen zu.
+Ordnen Sie mit diesen [!DNL RESTful API] Methoden Segmente Zielen zu.
 
 <!-- c_api_map_seg_dest.xml -->
 
-## Unterstützte Zieltypen: Nur URL und Cookie
+## Unterstützte Zieltypen: nur URL und Cookie
 
-Mit den verfügbaren `POST` -Methoden können Sie Segmente nur [!UICONTROL URL] und [!UICONTROL cookie destinations] zuordnen. Derzeit können Sie mit diesen [!DNL REST API] -Methoden keine Segmente [!UICONTROL server-to-server destinations] zuordnen. Verwenden Sie stattdessen die -Benutzeroberfläche. Mit den zugehörigen Ziel-Methoden `GET` können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
+Mit den verfügbaren `POST` können Sie Segmente nur [!UICONTROL URL] und [!UICONTROL cookie destinations] zuordnen. Derzeit können Sie mit diesen [!DNL REST API] keine Segmente [!UICONTROL server-to-server destinations] zuordnen. Verwenden Sie stattdessen die -Benutzeroberfläche. Mit den zugehörigen Ziel-`GET`-Methoden können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
 
 ## Zuordnen eines Segments zu einem nicht serialisierten URL-Ziel {#map-segment-non-serial}
 
-Eine `POST` -Methode, mit der Sie ein Segment einem nicht seriellen [!UICONTROL URL]-Ziel zuordnen können.
+Eine `POST` Methode, mit der Sie ein Segment einem nicht seriellen [!UICONTROL URL] zuordnen können.
 
 <!-- r_map_noserial_url.xml -->
 
@@ -36,7 +36,7 @@ Eine `POST` -Methode, mit der Sie ein Segment einem nicht seriellen [!UICONTROL 
 
 ### Beispielanforderung
 
-Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 {
@@ -76,7 +76,7 @@ Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
 
 ## Zuordnen eines Segments zu einem serialisierten URL-Ziel {#map-segment-serial}
 
-Eine `POST` -Methode, mit der Sie ein Segment einem serialisierten [!UICONTROL URL]-Ziel zuordnen können.
+Eine `POST` Methode, mit der Sie ein Segment einem serialisierten [!UICONTROL URL] zuordnen können.
 
 <!-- r_map_serialized_url.xml -->
 
@@ -86,7 +86,7 @@ Eine `POST` -Methode, mit der Sie ein Segment einem serialisierten [!UICONTROL U
 
 ### Beispielanforderung
 
-In der Anfrage entspricht die `traitAlias` dem Schlüssel in einem Schlüssel-Wert-Paar. Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+In der Anfrage entspricht der `traitAlias` dem Schlüssel in einem Schlüssel-Wert-Paar. Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 {
@@ -126,7 +126,7 @@ In der Anfrage entspricht die `traitAlias` dem Schlüssel in einem Schlüssel-We
 
 ## Zuordnen eines Segments zu einem Cookie-Ziel: Einzelschlüssel, nicht serialisiert {#map-segment-cookie-noserial}
 
-Eine `POST` -Methode, mit der Sie ein Segment einem nicht serialisierten Einzelschlüssel-Ziel [!UICONTROL cookie] zuordnen können.
+Eine `POST` Methode, mit der Sie ein Segment einem nicht serialisierten Einzelschlüssel-[!UICONTROL cookie] zuordnen können.
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -136,7 +136,7 @@ Eine `POST` -Methode, mit der Sie ein Segment einem nicht serialisierten Einzels
 
 ### Beispielanforderung
 
-In der Anfrage entspricht der `valueAlias` dem Wert in einem Schlüssel-Wert-Paar. Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+In der Anfrage entspricht der `valueAlias` dem Wert in einem Schlüssel-Wert-Paar. Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 {
@@ -171,9 +171,9 @@ In der Anfrage entspricht der `valueAlias` dem Wert in einem Schlüssel-Wert-Paa
 }
 ```
 
-## Zuordnen eines Segments zu einem Cookie-Ziel: Nicht serialisierte Multi-Key-Elemente {#map-segment-cookie-multi-noserial}
+## Zuordnen eines Segments zu einem Cookie-Ziel: Mehrschlüssel, nicht serialisiert {#map-segment-cookie-multi-noserial}
 
-Eine `POST` -Methode, mit der Sie ein Segment einem nicht serialisierten Multi-Schlüssel-Ziel [!UICONTROL cookie] zuordnen können.
+Eine `POST` Methode, mit der Sie ein Segment einem nicht serialisierten Mehrschlüssel-[!UICONTROL cookie] zuordnen können.
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -183,7 +183,7 @@ Eine `POST` -Methode, mit der Sie ein Segment einem nicht serialisierten Multi-S
 
 ### Beispielanforderung
 
-In der Anfrage legen `traitAlias` und `valueAlias` den Schlüssel und den Wert jeweils in einem Schlüssel-Wert-Paar fest. Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+In der Anfrage legen die `traitAlias` und `valueAlias` den Schlüssel bzw. den Wert in einem Schlüssel-Wert-Paar fest. Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 {
@@ -219,9 +219,9 @@ In der Anfrage legen `traitAlias` und `valueAlias` den Schlüssel und den Wert j
 }
 ```
 
-## Zuordnen eines Segments zu einem Cookie-Ziel: Multi-Key, serialisiert {#map-segment-cookie-multi-serial}
+## Zuordnen eines Segments zu einem Cookie-Ziel: Mehrschlüssel, serialisiert {#map-segment-cookie-multi-serial}
 
-Eine `POST` -Methode, mit der Sie ein Segment einem serialisierten Multi-Key-Tag [!UICONTROL cookie destination] zuordnen können.
+Eine `POST` Methode, mit der Sie ein Segment einem serialisierten [!UICONTROL cookie destination] mit mehreren Schlüsseln zuordnen können.
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -231,7 +231,7 @@ Eine `POST` -Methode, mit der Sie ein Segment einem serialisierten Multi-Key-Tag
 
 ### Beispielanforderung
 
-In der Anfrage legen `traitAlias` und `valueAlias` den Schlüssel und den Wert in einem Schlüssel-Wert-Paar fest. Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+In der Anfrage legen `traitAlias` und `valueAlias` den Schlüssel und den Wert in einem Schlüssel-Wert-Paar fest. Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 {
@@ -269,7 +269,7 @@ In der Anfrage legen `traitAlias` und `valueAlias` den Schlüssel und den Wert i
 
 ## Zuordnen eines Segments zu einem Server-zu-Server-Ziel {#map-segment-s2s}
 
-Eine `POST` -Methode, mit der Sie ein Segment einem vorhandenen [!UICONTROL server-to-server]-Ziel zuordnen können. Beachten Sie jedoch, dass Sie keine [!UICONTROL server-to-server] -Ziele mit diesen derzeit verfügbaren [!DNL API] -Methoden erstellen können.
+Eine `POST` Methode, mit der Sie ein Segment einem vorhandenen [!UICONTROL server-to-server] zuordnen können. Beachten Sie jedoch, dass Sie mit diesen derzeit verfügbaren [!DNL API] keine [!UICONTROL server-to-server] Ziele erstellen können.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -279,7 +279,7 @@ Eine `POST` -Methode, mit der Sie ein Segment einem vorhandenen [!UICONTROL serv
 
 ### Beispielanforderung
 
-In der Anfrage entspricht die `traitAlias` dem Schlüssel in einem Schlüssel-Wert-Paar. Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+In der Anfrage entspricht der `traitAlias` dem Schlüssel in einem Schlüssel-Wert-Paar. Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 {
@@ -313,9 +313,9 @@ In der Anfrage entspricht die `traitAlias` dem Schlüssel in einem Schlüssel-We
 }
 ```
 
-## Massen-Erstellen von Zielzuordnungen {#bulk-create}
+## Massen-Erstellung von Zielzuordnungen {#bulk-create}
 
-Eine `POST` -Methode, mit der Sie ein Array von [!UICONTROL cookie] - oder [!UICONTROL URL] -Zielzuordnungen übergeben können.
+Eine `POST` Methode, mit der Sie ein Array von [!UICONTROL cookie]- oder [!UICONTROL URL] übergeben können.
 
 <!-- r_bulk_create.xml -->
 
@@ -325,7 +325,7 @@ Eine `POST` -Methode, mit der Sie ein Array von [!UICONTROL cookie] - oder [!UIC
 
 ### Beispielanforderung
 
-Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 [
@@ -399,7 +399,7 @@ Eine erfolgreiche Antwort gibt das Array der erstellten Zuordnungen zurück.
 
 ## Hinzufügen mehrerer Segmente zu einem Ziel {#add-segments-dest}
 
-Eine `POST` -Methode, mit der Sie mehrere Segmente einem Ziel zuordnen können.
+Eine `POST` Methode, mit der Sie einem Ziel mehrere Segmente zuordnen können.
 
 <!-- r_add_segments_to_destination.xml -->
 
@@ -409,7 +409,7 @@ Eine `POST` -Methode, mit der Sie mehrere Segmente einem Ziel zuordnen können.
 
 ### Beispielanforderung
 
-Erstellen Sie mehrere Zielzuordnungen in einem Array. Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+Erstellen Sie mehrere Zielzuordnungen in einem Array. Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 [
@@ -430,7 +430,7 @@ Erstellen Sie mehrere Zielzuordnungen in einem Array. Sofern nicht anders angege
 
 ### Antwort
 
-Gibt ein Array erstellter Zuordnungen zurück.
+Gibt ein Array der erstellten Zuordnungen zurück.
 
 ```
 [
@@ -483,7 +483,7 @@ Gibt ein Array erstellter Zuordnungen zurück.
 
 ## Aktualisieren eines Ziels nach Ziel-ID {#update-dest-data-order}
 
-Eine `PUT` -Methode, mit der Sie ein vorhandenes Ziel um `destinationId` aktualisieren können.
+Eine `PUT` Methode, mit der Sie ein vorhandenes Ziel `destinationId` aktualisieren können.
 
 <!-- r_update_destination_data_order_id.xml -->
 
@@ -493,7 +493,7 @@ Eine `PUT` -Methode, mit der Sie ein vorhandenes Ziel um `destinationId` aktuali
 
 ### Beispielanforderung
 
-Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 {
@@ -531,9 +531,9 @@ Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
 }
 ```
 
-## Aktualisieren einer Zuordnung zu einem Ziel durch Zuordnen der ID {#update-mapping-dest-id}
+## Aktualisieren einer Zuordnung zu einem Ziel durch Zuordnungs-ID {#update-mapping-dest-id}
 
-Eine `PUT` -Methode, mit der Sie eine Zuordnung zu einem Ziel um den angegebenen `mappingId` aktualisieren können.
+Eine `PUT` Methode, mit der Sie eine Zuordnung zu einem Ziel um den angegebenen `mappingId` aktualisieren können.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 
@@ -543,7 +543,7 @@ Eine `PUT` -Methode, mit der Sie eine Zuordnung zu einem Ziel um den angegebenen
 
 ### Beispielanforderung
 
-Sofern nicht anders angegeben, sind alle Anfragewerte erforderlich.
+Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 
 ```
 {

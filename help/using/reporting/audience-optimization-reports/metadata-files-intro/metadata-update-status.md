@@ -1,5 +1,5 @@
 ---
-description: Das S3-Statusverzeichnis enthält eine .info-Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
+description: Das Statusverzeichnis S3 enthält eine .info-Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem -Array.
 seo-description: The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
 seo-title: Status Updates for Metadata Files
 solution: Audience Manager
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Statusaktualisierungen für Metadatendateien{#status-updates-for-metadata-files}
 
-Das S3-Statusverzeichnis enthält eine `.info` -Datei mit Erfolgs- und Fehlerinformationen zu Ihren hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem Array.
+Im S3-Statusverzeichnis befindet sich eine `.info` mit Erfolgs- und Fehlerinformationen zu den hochgeladenen Dateien. Die Datei enthält JSON-formatierte Daten mit Statusergebnissen in einem -Array.
 
-Der Inhalt Ihrer `.info` -Datei sieht in etwa wie im folgenden Beispiel aus.
+Der Inhalt der `.info`-Datei sieht in etwa wie im folgenden Beispiel aus.
 
 ```js
 //sample file path
@@ -59,11 +59,11 @@ Der Inhalt Ihrer `.info` -Datei sieht in etwa wie im folgenden Beispiel aus.
 }
 ```
 
-## Definierte Schlüssel-Wert-Paare für Metadaten {#key-value-pairs}
+## Schlüssel-Wert-Paare für Metadaten definiert {#key-value-pairs}
 
-In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Summary` einer Metadaten-Statusdatei aufgeführt und definiert.
+In den folgenden Tabellen werden die Schlüssel in den Abschnitten `Files` und `Summary` einer Metadatenstatusdatei aufgelistet und definiert.
 
-**Schlüssel im Dateiarray**
+**Schlüssel im Dateien-Array**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -75,7 +75,7 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Su
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Description</code> </p> </td> 
-   <td colname="col2"> <p>Enthält eine kurze Beschreibung, warum die Verarbeitung fehlgeschlagen ist. Dieses Feld ist bei erfolgreicher Verarbeitung leer. </p> </td> 
+   <td colname="col2"> <p>Enthält eine kurze Beschreibung der Gründe für fehlgeschlagene Verarbeitungsvorgänge. Dieses Feld ist leer, wenn die Verarbeitung erfolgreich war. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
@@ -83,23 +83,23 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Die MD5-Prüfsumme für die Metadatendatei, die in Ihr <code> meta</code> -Verzeichnis hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>Die MD 5-Prüfsumme für die in Ihr <code> meta</code> hochgeladene Metadatendatei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Der Name der Metadatendatei, die in das Verzeichnis <code> meta</code> hochgeladen wurde. </p> </td> 
+   <td colname="col2"> <p>Der Name der Metadatendatei, die in Ihr <code> meta</code> hochgeladen wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Sie basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der menschenlesbare Name für den Datentyp, den Ihre Datei enthält. Es basiert auf der untergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> für Metadatendateien</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Der für Menschen lesbare Name für den Datentyp, den Ihre Datei enthält. Sie basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Benennungskonventionen für Metadatendateien</a>. </p> </td> 
+   <td colname="col2"> <p>Der menschenlesbare Name für den Datentyp, den Ihre Datei enthält. Es basiert auf der übergeordneten ID in Ihrem Dateinamen. </p> <p>Siehe <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> für Metadatendateien</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
-   <td colname="col2"> <p>Gibt 2 Textwerte zurück, die den Verarbeitungsstatus Ihrer Metadatendatei beschreiben: </p> 
+   <td colname="col2"> <p>Gibt zwei Textwerte zurück, die den Verarbeitungsstatus Ihrer Metadatendatei beschreiben: </p> 
     <ul id="ul_3814EBB6B42B4EB294B1ABA5782190B6"> 
      <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCCESS</code> </li> 
      <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FAILURE</code> </li> 
@@ -120,11 +120,11 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Su
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Dateiverarbeitungsdatum im Format <code><i>yyyy-mm-dd</i></code>. </p> </td> 
+   <td colname="col2"> <p>Dateiverarbeitungsdatum im <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
-   <td colname="col2"> <p>Gibt 2 Textwerte zurück, die den Verarbeitungsstatus für alle Ihre Dateien für einen ganzen Tag beschreiben: </p> 
+   <td colname="col2"> <p>Gibt zwei Textwerte zurück, die den Verarbeitungsstatus für alle Dateien für einen ganzen Tag beschreiben: </p> 
     <ul id="ul_3FC092CA043A486C9C79FECF71FAF8FB"> 
      <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCCESS</code> </li> 
      <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FAILURE</code> </li> 
@@ -132,7 +132,7 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberFailure</code> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der nicht erfolgreich verarbeiteten Dateien. </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Dateien, die nicht erfolgreich verarbeitet wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberSuccess</code> </p> </td> 
@@ -140,7 +140,7 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimeRFC2822</code> </p> </td> 
-   <td colname="col2"> <p>Gibt einen für Menschen lesbaren Zeitstempel für Verarbeitungsstartzeiten zurück. </p> </td> 
+   <td colname="col2"> <p>Gibt einen für Menschen lesbaren Zeitstempel für die Verarbeitungsstartzeiten zurück. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimePOSIX</code> </p> </td> 
@@ -148,11 +148,11 @@ In den folgenden Tabellen sind die Schlüssel in den Abschnitten `Files` und `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
-   <td colname="col2"> <p>Gesamtanzahl der Bytes für alle Metadatendateien des Tages. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl der Bytes für alle Metadatendateien des Tages. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalNumberFiles</code> </p> </td> 
-   <td colname="col2"> <p>Gesamtzahl aller verarbeiteten Dateien für den Tag. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl aller Dateien, die für den Tag verarbeitet wurden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Im Trait Builder können Sie mit dem Expression Builder Regeln erstellen und testen, die Anforderungen an die Zielgruppenqualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie "color == blue"oder "price &gt; 100". Vergleichsoperatoren stellen die Beziehung zwischen Schlüsseln und Werten her. Boolesche Ausdrücke bestimmen die Beziehung zwischen Regelgruppen.
+description: In Trait Builder können Sie mit dem Ausdrucksgenerator Regeln erstellen und testen, die Anforderungen an die Zielgruppenqualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie „Farbe == Blau“ oder „Preis &gt; 100“. Vergleichsoperatoren stellen die Beziehung zwischen Schlüsseln und Werten her. Boolesche Ausdrücke bestimmen die Beziehung zwischen Regelgruppen.
 seo-description: In Trait Builder, the Expression Builder lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as "color == blue" or "price &gt; 100". Comparison operators establish the relationship between keys and values. Boolean expressions determine the relationship between rule groups.
 seo-title: Managing Trait Rules
 solution: Audience Manager
@@ -16,111 +16,111 @@ ht-degree: 0%
 
 # Verwalten von Eigenschaftsregeln {#managing-trait-rules}
 
-In [!UICONTROL Trait Builder] können Sie mit dem [!UICONTROL Expression Builder] Regeln erstellen und testen, die Anforderungen an die Zielgruppenqualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie `color == blue` oder `price > 100`. Vergleichsoperatoren stellen die Beziehung zwischen Schlüsseln und Werten her. [!DNL Boolean] -Ausdrücke bestimmen die Beziehung zwischen Regelgruppen.
+[!UICONTROL Trait Builder] können Sie mit dem [!UICONTROL Expression Builder] Regeln erstellen und testen, die die Anforderungen an die Zielgruppen-Qualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie `color == blue` oder `price > 100`. Vergleichsoperatoren stellen die Beziehung zwischen Schlüsseln und Werten her. [!DNL Boolean] Ausdrücke bestimmen die Beziehung zwischen Regelgruppen.
 
 <!-- c_tb_rules.xml -->
 
-## Beschreibung der wichtigsten Funktionen für Signalregeln
+## Beschreibung der wichtigsten Signalregelfunktionen
 
 ![](assets/manage-trait-rules.png)
 
-1. Die Registerkarten **[!UICONTROL Expression Builder]** oder **[!UICONTROL Code View]** bieten einen Überblick über die Regeln in Ihrer Eigenschaft. Im Tab **[!UICONTROL Expression Builder]** können Sie Regeln mit Feldern und Dropdown-Menüs erstellen. Mit dem **[!UICONTROL Code View]** können Sie Regeln erstellen, indem Sie diese Ausdrücke manuell als Code schreiben. Die obige Abbildung zeigt eine einfache Eigenschaft, die aus einem Signal besteht, das Daten für eine qualifizierende Bedingung auswertet, bei der ein Produktschlüssel einem bestimmten Wert entspricht, in diesem Fall `color == "blue"`.
+1. Die Registerkarten **[!UICONTROL Expression Builder]** oder **[!UICONTROL Code View]** bieten einen Überblick über die Regeln in Ihrem Merkmal. Auf der Registerkarte **[!UICONTROL Expression Builder]** können Sie Regeln mit Feldern und Dropdown-Menüs erstellen. Mit dem **[!UICONTROL Code View]** können Sie Regeln erstellen, indem Sie diese Ausdrücke manuell als Code schreiben. Die obige Abbildung zeigt eine einfache Eigenschaft, die aus einem Signal besteht, das Daten für eine qualifizierte Bedingung auswertet, bei der ein Produktschlüssel einem bestimmten Wert entspricht, in diesem Fall `color == "blue"`.
 
-1. Die Felder und Steuerelemente in diesem Abschnitt ermöglichen Ihnen das Erstellen von Signalen aus Schlüssel-Wert-Paaren und das Festlegen der Beziehung zwischen ihnen und einem Vergleichsoperator. Ein Schlüssel, ein Operator und ein Wert sind erforderlich.
-1. Mit dem [!UICONTROL Data Explorer Options] können Sie Eigenschaftsrealisierungen für Ihre Signale aufstocken.
-
-   >[!NOTE]
-   >
-   >Diese Option ist nur für [!UICONTROL Data Explorer] -Kunden verfügbar. Weitere Informationen erhalten Sie von Ihrem Adobe-Berater.
-
-1. Dieser Abschnitt zeigt Ihnen eine Schätzung der Eigenschaftsrealisierungen für die letzten 7 Tage für die in [!UICONTROL Expression Builder] definierten Signale für aufgestockte und nicht aufgestockte Eigenschaften.
+1. Mit den Feldern und Steuerelementen in diesem Abschnitt können Sie Signale aus Schlüssel-Wert-Paaren erstellen und die Beziehung zwischen ihnen mit einem Vergleichsoperator festlegen. Schlüssel, Operator und Wert sind erforderlich.
+1. Mit den [!UICONTROL Data Explorer Options] können Sie die Realisierungen von Eigenschaften für Ihre Signale aufstocken.
 
    >[!NOTE]
    >
-   >Diese Option ist nur für [!UICONTROL Data Explorer] -Kunden verfügbar. Weitere Informationen erhalten Sie von Ihrem Adobe-Berater.
+   >Diese Option steht nur [!UICONTROL Data Explorer] Kunden zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Berater.
 
-1. Mit den Testfeldern können Sie Kombinationen aus Signalregeln oder den [!DNL URL]s validieren, die Sie beim Senden von Daten an Audience Manager verwenden möchten.
+1. Dieser Abschnitt zeigt eine Schätzung der Realisierungen von Eigenschaften für die letzten 7 Tage für die in der [!UICONTROL Expression Builder] definierten Signale, für aufgestockte und nicht aufgestockte Eigenschaften.
+
+   >[!NOTE]
+   >
+   >Diese Option steht nur [!UICONTROL Data Explorer] Kunden zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Berater.
+
+1. Mit den Testfeldern können Sie Kombinationen von Signalregeln oder die [!DNL URL] überprüfen, die Sie beim Senden von Daten an den Audience Manager verwenden möchten.
 
 ## Erstellen einer Eigenschaftsregel {#create-trait-rule}
 
-Regeln (oder Ausdrücke) bestehen aus einzelnen oder Gruppen von Schlüssel-Wert-Paaren. Vergleichsoperatoren legen die Beziehung zwischen Schlüssel-Wert-Paaren fest. Um eine Regel zu erstellen, geben Sie einen Schlüssel und einen Wert an, wählen Sie einen Operator aus und klicken Sie auf **[!UICONTROL Add Rule]**.
+Regeln (oder Ausdrücke) bestehen aus einzelnen Schlüssel-Wert-Paaren oder Gruppen von Schlüssel-Wert-Paaren. Vergleichsoperatoren legen die Beziehung zwischen Schlüssel-Wert-Paaren fest. Um eine Regel zu erstellen, geben Sie einen Schlüssel und einen Wert an, wählen Sie einen Operator aus und klicken Sie auf **[!UICONTROL Add Rule]**.
 
 <!-- t_tb_create_rules.xml -->
 
-Füllen Sie die erforderlichen Felder im Abschnitt **[!UICONTROL Basic Information]** *vor* zum Erstellen von Eigenschaftsregeln aus.
+Füllen Sie die erforderlichen Felder im Abschnitt **[!UICONTROL Basic Information]** aus *erstellen* Eigenschaftsregeln.
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Trait Expression]** und geben Sie einen Schlüssel- und einen Wertnamen ein. Dadurch wird ein *`signal`* erstellt.
 
    >[!NOTE]
    >
-   >Fügen Sie das Präfix `c_` (oder eine andere Benennungsregel) für die Schlüsselvariable ein, wenn Ihre Ereignisaufrufe Daten mit dieser Syntax an [!DNL Audience Manager] senden.
+   >Schließen Sie das `c_` (oder eine andere Namenskonvention) für die Schlüsselvariable ein, wenn Ihre Ereignisaufrufe Daten an [!DNL Audience Manager] senden, die diese Syntax verwenden.
 
-1. Wählen Sie einen [Vergleichsoperator](../../features/traits/trait-comparison-operators.md) aus der Dropdown-Liste **[!UICONTROL Operator]** aus. Der Vergleichsoperator wertet die Beziehung zwischen den Elementen in einem Signal aus.
+1. Wählen Sie [Vergleichsoperator](../../features/traits/trait-comparison-operators.md) aus der Dropdown-Liste **[!UICONTROL Operator]** aus. Der Vergleichsoperator wertet die Beziehung zwischen den Elementen in einem Signal aus.
 
    >[!NOTE]
    >
-   >Der Operator [!DNL Boolean] [!UICONTROL OR] stellt die Beziehung zwischen mehreren Signalen *innerhalb* einer Gruppe her und kann nicht geändert werden.
+   >Der [!DNL Boolean] [!UICONTROL OR] stellt die Beziehung zwischen mehreren Signalen *innerhalb* Gruppe her und kann nicht geändert werden.
 
-1. Klicken Sie auf **[!UICONTROL Add Rule]**. Die gespeicherte Regel wird im Arbeitsbereich &quot;Eigenschaften&quot;über den Dateneingabefeldern angezeigt.
+1. Klicken Sie auf **[!UICONTROL Add Rule]**. Die gespeicherte Regel wird im Arbeitsbereich „Eigenschaften“ über den Dateneingabefeldern angezeigt.
 
 ### Beispiel {#example-trait-rule}
 
-Im folgenden Beispiel hat ein Benutzer eine neue Eigenschaftsregel erstellt, die auf der Produkt-ID basiert. Um diese Regel zu erstellen, stellte der Benutzer den Schlüssel `productkey`, der mit einem Gleichheitsoperator ( `==`) verknüpft ist, dem Wert `2093` bereit.
+Im folgenden Beispiel hat ein Benutzer eine neue Eigenschaftsregel basierend auf der Produkt-ID erstellt. Um diese Regel zu erstellen, hat der Benutzer den Schlüssel bereitgestellt, der mit einem Equals-Operator (`==`) mit dem Wert `2093` verknüpft `productkey`.
 
 ![](assets/tb_sample_rule1.png)
 
-Durch Klicken auf **[!UICONTROL Add Rule]** wird die Eigenschaft gespeichert und in den Arbeitsbereich [!UICONTROL Expression Builder] verschoben.
+Durch Klicken auf **[!UICONTROL Add Rule]** wird die Eigenschaft gespeichert und in den [!UICONTROL Expression Builder] Workspace verschoben.
 
 ![](assets/tb_sample_rule2.png)
 
-## Neue Regelgruppe erstellen {#create-rule-group}
+## Erstellen einer neuen Regelgruppe {#create-rule-group}
 
-Dieser Vorgang beschreibt, wie Sie eine neue Regelgruppe erstellen.
+In diesem Verfahren wird das Erstellen einer neuen Regelgruppe beschrieben.
 
 <!-- t_tb_new_rule_group.xml -->
 
-Ihre Eigenschaft muss mindestens zwei Regeln enthalten, bevor Sie eine neue Regelgruppe erstellen können.
+Ihr Merkmal muss mindestens zwei Regeln enthalten, bevor Sie eine neue Regelgruppe erstellen können.
 
-1. Bewegen Sie den Cursor über die Regel, die Sie verschieben möchten, um sie hervorzuheben.
-1. Bewegen Sie den Mauszeiger über den markierten Regelrahmen.
+1. Bewegen Sie den Cursor über die Regel, die Sie verschieben möchten, um sie zu markieren.
+1. Bewegen Sie den Mauszeiger über den hervorgehobenen Regelrahmen.
 
-   Dadurch wird die Regel automatisch von der aktuellen Gruppe getrennt und in eine neue Gruppe verschoben.
+   Dadurch wird die Regel automatisch von ihrer aktuellen Gruppe getrennt und in eine neue Gruppe verschoben.
 
    >[!NOTE]
    >
    >Ziehen Sie eine Regel zurück in die ursprüngliche Gruppe, wenn Sie sie unbeabsichtigt verschieben.
 
-1. Wählen Sie einen [!DNL Boolean] -Operator ([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) aus dem Dropdownmenü aus, um die Beziehung zwischen den Regelgruppen festzulegen.
+1. Wählen Sie einen [!DNL Boolean] Operator ([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) aus dem Dropdown-Menü aus, um die Beziehung zwischen den Regelgruppen festzulegen.
 
-## Verschieben von Regeln zwischen Gruppen {#move-rules-between-groups}
+## Regeln zwischen Gruppen verschieben {#move-rules-between-groups}
 
-Um eine Regel zu verschieben, klicken Sie auf und ziehen Sie sie in eine andere Gruppe.
+Um eine Regel zu verschieben, klicken Sie darauf und ziehen Sie sie in eine andere Gruppe.
 
-## Eine Eigenschaft bearbeiten {#edit-trait}
+## Bearbeiten einer Eigenschaft {#edit-trait}
 
-Dieser Vorgang beschreibt, wie Sie eine Eigenschaft bearbeiten.
+Dieses Verfahren beschreibt, wie man eine Eigenschaft bearbeitet.
 
 <!-- t_tb_edit.xml -->
 
-1. Bewegen Sie im Dashboard [!UICONTROL Traits] den Mauszeiger über die Spalte **[!UICONTROL Actions]** für die Eigenschaft, die Sie bearbeiten möchten. Dadurch werden die Symbole für die Verwaltung von Eigenschaften angezeigt.
+1. Bewegen Sie im [!UICONTROL Traits]-Dashboard den Mauszeiger über die Spalte **[!UICONTROL Actions]** für die Eigenschaft, die Sie bearbeiten möchten. Dadurch werden die Symbole für das Eigenschaftenmanagement angezeigt.
 1. Klicken Sie auf den Stift, um die Eigenschaft zu bearbeiten.
 
    ![](assets/tb_edit_trait.png)
 
-## Eine Eigenschaftsregel löschen {#delete-trait}
+## Löschen einer Eigenschaftsregel {#delete-trait}
 
-Dieser Vorgang beschreibt, wie Sie eine Eigenschaftsregel löschen.
+In diesem Verfahren wird beschrieben, wie Sie eine Eigenschaftsregel löschen.
 
 <!-- t_tb_delete_rule.xml -->
 
-1. Bewegen Sie im Dashboard [!UICONTROL Traits] den Mauszeiger über die [!UICONTROL Actions] -Spalten für die Eigenschaft, die Sie bearbeiten möchten, und klicken Sie auf das Stiftsymbol. Dadurch werden die Symbole für die Verwaltung von Eigenschaften angezeigt.
+1. Bewegen Sie im [!UICONTROL Traits]-Dashboard den Mauszeiger über die [!UICONTROL Actions] Spalten für die Eigenschaft, die Sie bearbeiten möchten, und klicken Sie auf das Stiftsymbol. Dadurch werden die Symbole für das Eigenschaftenmanagement angezeigt.
 1. Erweitern Sie den Abschnitt [!UICONTROL Trait Expression] .
 1. Bewegen Sie den Mauszeiger über die Regel, die Sie löschen möchten, und klicken Sie auf das X-Symbol. Die Regel wird sofort gelöscht.
 
 >[!MORELIKETHIS]
 >
->* [Erstellen einer neuen Regelgruppe](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Verschieben von Regeln zwischen Gruppen](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [Erstellen Sie eine neue Regelgruppe](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [Regeln zwischen Gruppen verschieben](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
 >* [Erstellen einer Eigenschaftsregel](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Eine Eigenschaftsregel löschen](../../features/traits/manage-trait-rules.md#delete-trait)
->* [Verschieben von Regeln zwischen Gruppen](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [Löschen einer Eigenschaftsregel](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [Regeln zwischen Gruppen verschieben](../../features/traits/manage-trait-rules.md#move-rules-between-groups)

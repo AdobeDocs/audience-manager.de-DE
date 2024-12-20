@@ -20,7 +20,7 @@ ht-degree: 90%
 
 Data Governance in Audience Manager bezieht sich auf den Lebenszyklus Ihrer Kundendaten in Audience Manager und umfasst das [Erfassen und Verschleiern von IP-Adressen](data-governance.md#collecting-ip-addresses), die [Aufbewahrung von Daten](data-governance.md#data-retention) und [grenzüberschreitende Datenübertragungen](data-governance.md#data-transfers).
 
-## Erfassen von IP-Adressen und Verschleiern von IP-Adressen {#collecting-ip-addresses}
+## Erfassen von IP-Adressen und Verschleierung von IP-Adressen {#collecting-ip-addresses}
 
 Die [!DNL IP]-Adresse eines Besuchers auf der Website eines Kunden wird an das [!DNL Data Processing Center] von Adobe ([!DNL DPC]) übertragen, wo die [!DNL IP]-Adresse möglicherweise gespeichert wird. Abhängig von der Netzwerkkonfiguration des Besuchers entspricht die [!DNL IP]-Adresse nicht unbedingt der [!DNL IP]-Adresse des Computers des Besuchers. Bei der [!DNL IP]-Adresse kann es sich z. B. um die externe [!DNL IP]-Adresse einer Network Address Translation-(NAT-)Firewall, eines [!DNL HTTP]-Proxys oder eines Internet-Gateways handeln.
 
@@ -31,7 +31,7 @@ Die [!DNL IP]-Adresse eines Besuchers auf der Website eines Kunden wird an das [
 
 >[!NOTE]
 >
->Informationen zum Aktivieren der Verschleierung von [!DNL IP] -Adressen in der Audience Manager-Benutzeroberfläche finden Sie unter [IP-Adressenverschleierung](../../features/administration/ip-obfuscation.md) .
+>Unter [IP-Adressverschleierung](../../features/administration/ip-obfuscation.md) erfahren Sie, wie Sie die [!DNL IP] in der Benutzeroberfläche des Audience Managers aktivieren.
 
 Sehen Sie sich das folgende Video an, um zu verstehen, wie die Verschleierung von [!DNL IP]-Adressen in Audience Manager funktioniert.
 
@@ -43,6 +43,6 @@ Sehen Sie sich das folgende Video an, um zu verstehen, wie die Verschleierung vo
 
 Die Anwendung geeigneter, sicherer und zeitgerechter Datenaufbewahrungsrichtlinien auf Ihre Daten ist ein wichtiger Teil der Einhaltung der Datenschutzbestimmungen. Audience Manager-Kunden können benutzerdefinierte Aufbewahrungsfristen für Eigenschaften und Segmente festlegen, indem sie die erforderliche TTL (Time to Live) definieren. Weitere Informationen zu Aufbewahrungsfristen finden Sie unter [Häufig gestellte Fragen zur Datenaufbewahrung](../../faq/faq-privacy.md).
 
-## Grenzüberschreitende Datenübertragungen {#data-transfers}
+## Grenzüberschreitende Datenübermittlungen {#data-transfers}
 
 Wenn Audience Manager personenbezogene Daten von Kunden über Landesgrenzen hinweg übermittelt, geschieht dies in Übereinstimmung mit geltendem Recht. Weitere Informationen finden Sie im [Datenschutzzentrum von Adobe](https://www.adobe.com/de/privacy/eudatatransfers.html).

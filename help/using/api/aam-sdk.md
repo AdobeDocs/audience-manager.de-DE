@@ -14,21 +14,21 @@ ht-degree: 15%
 
 ---
 
-# [!DNL SDK] Code {#sdk-code}
+# [!DNL SDK] {#sdk-code}
 
-Audience Manager stellt Softwareentwicklungs-Kits ([!DNL SDK]s) für [!DNL Android] und [!DNL iOS] bereit.
+Audience Manager stellt Software Development Kits ([!DNL SDK]) für [!DNL Android] und [!DNL iOS] zur Verfügung.
 
 >[!IMPORTANT]
 >
->Seit September 2018 gibt es eine neue, bessere Version des SDK. Diese neuen Adobe Experience Platform Mobile SDKs können über die [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) konfiguriert werden.
+>Im September 2018 haben wir eine neue Hauptversion des SDK veröffentlicht. Diese neuen Adobe Experience Platform Mobile SDKs können über die [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) konfiguriert werden.
 
 * Gehen Sie zu [Launch](https://launch.adobe.com/), um zu beginnen.
-* Um zu sehen, was in den Experience Platform SDK-Repositorys enthalten ist, gehen Sie zu [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Um Audience Manager in Ihre App zu implementieren, lesen Sie mithilfe des neuen SDK v.5 die [Adobe Audience Manager-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en) auf der neuen SDK-Seite.
+* Informationen zu den Experience Platform-SDK-Repositorys finden Sie unter [GitHub: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Informationen zum Implementieren von Audience Manager in Ihrer App mit der neuen SDK Version 5 finden Sie in der [Adobe Audience Manager-](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en) auf der neuen SDK-Seite.
 
 <br>
 
-Die SDKs Android und iOS 4.x werden weiterhin unterstützt. Informationen zu diesen SDK-Code-Bibliotheken finden Sie unter:
+Die SDKs Android und iOS 4.x werden weiterhin unterstützt. Die SDK-Code-Bibliotheken finden Sie unter:
 
 * [Android SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
 * [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)

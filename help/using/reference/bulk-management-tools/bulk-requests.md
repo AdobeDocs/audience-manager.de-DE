@@ -1,5 +1,5 @@
 ---
-description: Eine Massenanfrage gibt Daten zurück, die Sie mit den verschiedenen Headern in den Arbeitsblättern "Aktualisieren", "Erstellen", "Schätzung"und "Löschen"verwenden können.
+description: Eine Massenanfrage gibt Daten zurück, die Sie mit den verschiedenen Kopfzeilen in den Arbeitsblättern „Aktualisieren“, „Erstellen“, „Schätzung“ und „Löschen“ verwenden können.
 seo-description: A bulk request returns data you can use with the different headers in the Update, Create, Estimate, and Delete worksheets.
 seo-title: Bulk Requests
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Massenanfragen{#bulk-requests}
 
-Eine Massenanfrage gibt Daten zurück, die Sie mit den verschiedenen Headern in den Arbeitsblättern &quot;Aktualisieren&quot;, &quot;Erstellen&quot;, &quot;Schätzung&quot;und &quot;Löschen&quot;verwenden können.
+Eine Massenanfrage gibt Daten zurück, die Sie mit den verschiedenen Kopfzeilen in den Arbeitsblättern „Aktualisieren“, „Erstellen“, „Schätzung“ und „Löschen“ verwenden können.
 
 >[!IMPORTANT]
 >
->Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support durch die Kundenunterstützung werden von Fall zu Fall durchgeführt.
+>Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support über die Kundenunterstützung werden von Fall zu Fall durchgeführt.
 
 <!-- 
 
@@ -30,11 +30,11 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[In der Benutzeroberfläche von [!DNL Audience Manager] zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
+>[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md), die in der [!DNL Audience Manager]-Benutzeroberfläche zugewiesen sind, werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
 
-Das Arbeitsblatt [!UICONTROL Request] verfügt über keinen eigenen Satz von Spaltenüberschriften und Sie müssen keine IDs in eine der Spalten kopieren. Stattdessen werden Daten basierend auf der Aktionsschaltfläche zurückgegeben, auf die Sie in der Symbolleiste klicken. Zudem gibt eine optionale Berichtsfunktion eine Häufigkeitsanzahl für Pixelabbrüche und eine Unique User-Anzahl für mehrere feste Zeitintervalle zurück.
+Das [!UICONTROL Request] Arbeitsblatt verfügt nicht über einen eigenen Satz von Spaltenüberschriften und Sie müssen keine IDs in eine der Spalten kopieren. Stattdessen werden Daten basierend auf der Aktionsschaltfläche zurückgegeben, auf die Sie in der Symbolleiste klicken. Eine optionale Berichtsfunktion gibt eine Häufigkeitsanzahl für Pixelfeuer und eine eindeutige Benutzeranzahl für mehrere feste Zeitintervalle zurück.
 
-Um Massenanfragen zu stellen, öffnen Sie das Arbeitsblatt [!UICONTROL Bulk Management Tools] und:
+Um Massenanfragen durchzuführen, öffnen Sie das [!UICONTROL Bulk Management Tools] Arbeitsblatt und:
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Request]** .
 2. Klicken Sie in der Symbolleiste am oberen Rand des Arbeitsblatts auf eine Anforderungsschaltfläche, die den Daten entspricht, mit denen Sie arbeiten möchten. Sie können Folgendes anfordern:
@@ -47,10 +47,10 @@ Um Massenanfragen zu stellen, öffnen Sie das Arbeitsblatt [!UICONTROL Bulk Mana
    * Segmente
    * Eigenschaften- und Segmentordner-IDs
 
-   Die [!DNL Audience Manager] -API schreibt Massendaten zurück in das [!UICONTROL Request] -Arbeitsblatt.
+   Die [!DNL Audience Manager]-API schreibt Massendaten zurück in das [!UICONTROL Request] Arbeitsblatt.
 
 >[!NOTE]
 >
->In Ihren Ergebnissen geben die Spalten `createTime` und `updateTime` Daten in exponentieller Notation zurück. Die zugrunde liegenden Datums-/Uhrzeitstempel werden in UNIX UTC-Zeit aufgezeichnet. Derzeit kann das Arbeitsblatt keine Datums-/Uhrzeitstempel in einem lesbaren Format zurückgeben.
+>In Ihren Ergebnissen geben die Spalten `createTime` und `updateTime` Daten in exponentieller Schreibweise zurück. Die zugrunde liegenden Datums-/Zeitstempel werden in der UTC-Zeit von UNIX aufgezeichnet. Derzeit kann das Arbeitsblatt keine Datums-/Zeitstempel in einem lesbaren Format zurückgeben.
 
 Wenn Ihre Massenaktualisierung einen Fehler zurückgibt oder fehlschlägt, finden Sie weitere Informationen unter [Fehlerbehebung für Tools für die Massenverwaltung](../../reference/bulk-management-tools/bulk-troubleshooting.md).

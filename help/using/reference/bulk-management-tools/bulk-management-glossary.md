@@ -1,9 +1,9 @@
 ---
-description: Spaltenüberschriften definiert.
+description: Titel der Spaltenüberschriften definiert.
 seo-description: Column header labels defined.
 seo-title: Bulk Management Tools Glossary
 solution: Audience Manager
-title: Tools für die Massenverwaltung - Glossar
+title: Glossar der Tools für die Massenverwaltung
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: BAAAM
 exl-id: 036d16c7-1546-4539-a318-455b98e10026
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Tools für die Massenverwaltung - Glossar{#bulk-management-tools-glossary}
+# Glossar der Tools für die Massenverwaltung{#bulk-management-tools-glossary}
 
-Spaltenüberschriften definiert.
+Titel der Spaltenüberschriften definiert.
 
 >[!IMPORTANT]
 >
->Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support durch die Kundenunterstützung werden von Fall zu Fall durchgeführt.
+>Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support über die Kundenunterstützung werden von Fall zu Fall durchgeführt.
 
 <!-- 
 
@@ -30,31 +30,31 @@ Spaltenüberschriften definiert.
 
 >[!NOTE]
 >
->[In der Benutzeroberfläche von [!DNL Audience Manager] zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
+>[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md), die in der [!DNL Audience Manager]-Benutzeroberfläche zugewiesen sind, werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Spaltenüberschrift </th> 
+   <th colname="col1" class="entry"> Spaltentitel </th> 
    <th colname="col2" class="entry"> Definition </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>Die ID einer <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Datenquelle</a>, die stapelweise zurückgegeben oder zugewiesen werden soll. </p> </td> 
+   <td colname="col2"> <p>Die ID einer <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Datenquelle</a> die Sie massenweise zurückgeben oder zuweisen möchten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> derivedSignalId</span> </p> </td> 
-   <td colname="col2"> <p>Eine <a href="../../features/derived-signals.md"> abgeleitete Signal</a>-ID. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> DerivedSignalId</span> </p> </td> 
+   <td colname="col2"> <p>Ein <a href="../../features/derived-signals.md"> abgeleitetes Signal</a> ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> description</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term"> Beschreibung</span> </p> </td> 
    <td colname="col2"> <p>Eine kurze, informative Beschreibung, die Sie einem Objekt geben können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
-   <td colname="col2"> <p>Die ID des <a href="../../features/destinations/destinations.md"> Ziels</a>, das Sie zuordnen oder löschen möchten. </p> </td> 
+   <td colname="col2"> <p>Die ID des <a href="../../features/destinations/destinations.md"> Ziels</a> das Sie zuordnen oder löschen möchten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationMappingId</span> </p> </td> 
@@ -62,47 +62,47 @@ Spaltenüberschriften definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> folderId</span> </p> </td> 
-   <td colname="col2"> <p>Die ID Ihres Segments- oder Eigenschaftsordners. </p> </td> 
+   <td colname="col2"> <p>Die ID Ihres Segments oder Eigenschaftsordners. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> name</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term"> Name</span> </p> </td> 
    <td colname="col2"> <p>Der Name des Objekts, mit dem Sie arbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> parentFolderId</span> </p> </td> 
-   <td colname="col2"> <p>Die ID eines Segments oder Eigenschaftsordners, das andere Ordner enthält. </p> </td> 
+   <td colname="col2"> <p>Die ID eines Segments oder Eigenschaftenordners, das andere Ordner enthält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> sid</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term"> SID</span> </p> </td> 
    <td colname="col2"> <p>Segment-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Signale sind Datenbits, die basierend auf der Benutzeraktivität an <span class="keyword"> Audience Manager</span> übergeben werden. Diese werden als <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare</a> übertragen. Der Quellschlüssel ist eine Konstante, die sich nicht ändert. Dies hilft, den Quellwert zu kategorisieren, der sich ändern kann. Siehe <a href="../../features/derived-signals.md"> Abgeleitete Signale</a>. </p> </td> 
+   <td colname="col2"> <p>Signale sind Datenbits, die je nach Benutzeraktivität an <span class="keyword"> Audience Manager </span> werden. Diese werden als <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare übertragen</a>. Der Quellschlüssel ist eine Konstante, die sich nicht ändert. Es hilft, den Quellwert zu kategorisieren, der sich ändern kann. Siehe <a href="../../features/derived-signals.md"> abgeleiteten Signale</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
-   <td colname="col2"> <p>Der Quellwert ist eine Variable, die als Teil eines <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paares</a> übergeben wird. </p> </td> 
+   <td colname="col2"> <p>Der Quellwert ist eine Variable, die als Teil eines <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paares übergeben </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Gibt an, wann ein Segment an ein Ziel gesendet werden kann. Verwendet das Format <i>jjj-mm-tt</i> . </p> </td> 
+   <td colname="col2"> <p>Gibt an, wann ein Segment an ein Ziel gesendet werden kann. Verwendet das <i>JJJJ-MM-TT</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
-   <td colname="col2">Der im abgeleiteten Signal verwendete Schlüssel. Siehe <a href="../../features/derived-signals.md"> Abgeleitete Signale</a>. </td> 
+   <td colname="col2">Der im abgeleiteten Signal verwendete Schlüssel. Siehe <a href="../../features/derived-signals.md"> abgeleiteten Signale</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetValue</span> </p> </td> 
-   <td colname="col2"> <p>Der mit einem abgeleiteten Signalschlüssel übergebene Wert. Siehe <a href="../../features/derived-signals.md"> Abgeleitete Signale</a>. </p> </td> 
+   <td colname="col2"> <p>Der Wert, der mit einem abgeleiteten Signalschlüssel übergeben wird. Siehe <a href="../../features/derived-signals.md"> abgeleiteten Signale</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Eine ID, die an ein nicht Cookie-basiertes Ziel übergeben wird. Bei einem Cookie-basierten Ziel ist dies der Schlüssel in einem <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paar</a>. </p> </td> 
+   <td colname="col2"> <p>Eine ID, die an ein nicht-Cookie-basiertes Ziel übergeben wird. Bei einem Cookie-basierten Ziel ist dies der Schlüssel in einem <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paar</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Eigenschaft oder Segmentregel, die zur Datenerfassung verwendet wird. Eine Massenanforderung gibt die Regeln zurück, die im <span class="keyword"> Audience Manager</span> mit dem <a href="../../features/traits/about-trait-builder.md"> Trait Rule Builder</a> oder dem <a href="../../features/segments/segment-builder.md"> Segment Rule Builder</a> erstellt wurden. Sie können diese Tools auch verwenden, um Regeln zu erstellen und sie beim Aktualisieren eines Segments oder einer Eigenschaft stapelweise anzuwenden. </p> <p>Siehe auch <a href="../../reference/bulk-management-tools/bulk-rules.md"> Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln</a>. </p> </td> 
+   <td colname="col2"> <p>Die tatsächliche Eigenschaft oder Segmentregel, die zum Erfassen von Daten verwendet wird. Eine Massenanfrage gibt die in <span class="keyword"> Audience Manager erstellten Regeln zurück</span> mit dem <a href="../../features/traits/about-trait-builder.md"> Trait Rule Builder </a> dem <a href="../../features/segments/segment-builder.md"> Segment Rule Builder</a>. Sie können diese Tools auch verwenden, um Regeln zu erstellen und sie stapelweise anzuwenden, wenn Sie ein Segment oder eine Eigenschaft aktualisieren. </p> <p>Siehe auch <a href="../../reference/bulk-management-tools/bulk-rules.md"> Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -114,12 +114,12 @@ Spaltenüberschriften definiert.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> url</span> </p> </td> 
-   <td colname="col2"> <p>Pixel, das durch DIL ausgelöst wird, wenn ein Benutzer sich für ein Segment qualifiziert. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> URL</span> </p> </td> 
+   <td colname="col2"> <p>Pixel, das vom DIL ausgelöst wird, wenn sich ein Benutzer für ein Segment qualifiziert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
-   <td colname="col2"> <p>Der Schlüssel in einem <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paar</a>, der an ein Cookie-Ziel übergeben wird. </p> </td> 
+   <td colname="col2"> <p>Der Schlüssel in einem <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paar</a> der an ein Cookie-Ziel übergeben wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>

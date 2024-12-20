@@ -1,5 +1,5 @@
 ---
-description: Audience Manager, die auch Adobe Analytics verwenden, können die enge Integration zwischen den beiden Lösungen nutzen, indem sie die Option Erweiterte Suche für Adobe Analytics aktivieren.
+description: Audience Manager-Kunden, die auch Adobe Analytics verwenden, können die enge Integration zwischen den beiden Lösungen nutzen, indem sie die Option Erweiterte Suche nach Adobe Analytics aktivieren.
 seo-description: Audience Manager customers who also use Adobe Analytics can leverage the tight integration between the two solutions by enabling the Advanced Search for Adobe Analytics option.
 seo-title: Advanced Search for Adobe Analytics
 title: Erweiterte Suche für Adobe Analytics
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 # Erweiterte Suche für Adobe Analytics {#advanced-search-for-adobe-analytics}
 
-Audience Manager, die auch [!DNL Adobe Analytics] verwenden, können die enge Integration zwischen den beiden Lösungen nutzen, indem sie die Option [!UICONTROL Advanced Search for Adobe Analytics] aktivieren.
+Audience Manager-Kunden, die auch [!DNL Adobe Analytics] verwenden, können die enge Integration zwischen den beiden Lösungen nutzen, indem sie die Option &quot;[!UICONTROL Advanced Search for Adobe Analytics]&quot; aktivieren.
 
-Mit dieser Integration können Sie die Anzeigenamen für Schlüssel-Wert-Paare anzeigen, die aus [!DNL Adobe Analytics] Report Suites abgeleitet wurden. Gehen Sie dazu folgendermaßen vor:
+Durch diese Integration können Sie die Anzeigenamen für Schlüssel-Wert-Paare anzeigen, die von [!DNL Adobe Analytics] Report Suites abgeleitet wurden. Gehen Sie wie folgt vor:
 
-1. Gehen Sie zu [!UICONTROL Audience Data > Signals > Search] und führen Sie einen [!UICONTROL Signals Search] aus und aktivieren Sie die Option **[!UICONTROL Advanced search for Adobe Analytics]** .
-1. Verwenden Sie das Dropdown-Menü **[!UICONTROL Report Suite]** , um nach der zu verwendenden Report Suite [!DNL Adobe Analytics] zu suchen und diese auszuwählen.
-1. Geben Sie den Rest der Suchkriterien ein und klicken Sie auf **[!UICONTROL Search]**. Lassen Sie die Schlüsselwertfelder leer, um in der angegebenen Report Suite nach allen Signalen zu suchen.
+1. Navigieren Sie zu [!UICONTROL Audience Data > Signals > Search] und führen Sie eine [!UICONTROL Signals Search] aus und aktivieren Sie die Option **[!UICONTROL Advanced search for Adobe Analytics]** .
+1. Verwenden Sie das Dropdown-Menü **[!UICONTROL Report Suite]** , um nach der zu verwendenden Report Suite [!DNL Adobe Analytics] suchen und diese auszuwählen.
+1. Geben Sie den Rest der Suchkriterien ein und klicken Sie auf **[!UICONTROL Search]**. Um nach allen Signalen in der angegebenen Report Suite zu suchen, lassen Sie die Schlüssel-Wert-Felder leer.
    >[!NOTE]
    >
    >Das Feld **[!UICONTROL Key or Key Name]** zeigt automatisch ausgefüllte Vorschläge basierend auf Ihrer Eingabe sowie benutzerfreundliche Namen für die eingegebenen Schlüssel an.
 
    ![](assets/signals-search-analytics.png)
-1. Die Suchergebnisse zeigen Ihnen nun die Anzeigenamen für die Schlüssel-Wert-Paare, die in die Spalte **[!UICONTROL Key or Key Name]** eingegeben wurden, oder für alle Signale in der Report Suite, wenn Sie die Schlüssel-Wert-Felder leer lassen.
+1. Die Suchergebnisse zeigen jetzt die Anzeigenamen für die Schlüssel-Wert-Paare an, die in der **[!UICONTROL Key or Key Name]** Spalte eingegeben wurden, oder für alle Signale in der Report Suite, wenn Sie die Schlüssel-Wert-Felder leer gelassen haben.
 
-Das folgende Video zeigt, wie Sie mit [!UICONTROL Data Explorer] Ihre Adobe Analytics-Daten finden und verwenden können, einschließlich der Suche nach verwendeten und nicht verwendeten Signalen, der Erstellung von Analytics-Eigenschaften und des Verständnisses der Daten.
+Das folgende Video zeigt, wie Sie mit [!UICONTROL Data Explorer] Ihre Adobe Analytics-Daten ermitteln und verwenden können, einschließlich der Suche nach verwendeten und nicht verwendeten Signalen, der Erstellung von Analytics-Eigenschaften und des Verständnisses der Daten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25150)

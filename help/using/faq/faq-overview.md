@@ -13,7 +13,7 @@ ht-degree: 94%
 
 ---
 
-# Häufig gestellte Fragen zu Audience Managern - Überblick {#audience-manager-faq}
+# Häufig gestellte Fragen zu Audience Manager - Übersicht {#audience-manager-faq}
 
 In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fragekategorien für die verschiedenen Funktionen von Audience Manager.
 

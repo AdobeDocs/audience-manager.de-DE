@@ -5,7 +5,7 @@ seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Häufig gestellte Fragen zur Datenerfassung und Produktintegration
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; SFTP-Adresse; STFP-IP-Adresse; FTP-Adresse
+keywords: SFTP; SFTP-Adresse; SFTP-IP-Adresse; FTP-Adresse
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
@@ -31,20 +31,20 @@ Eigenschaften, die über [!UICONTROL Inbound] integriert wurden, werden von [!UI
 
 <br>
 
-**Können Sie mir eine Liste von IP-Adressen zur Verfügung stellen, die ich zu einer Zulassungsliste für dpm.demdex.net hinzufügen kann?**
+**Können Sie mir eine Liste von IP-Adressen bereitstellen, die ich einer Zulassungsliste für dpm.demdex.net hinzufügen kann?**
 
 Leider ist das nicht möglich. Diese IPs werden dynamisch nach geografischen Regionen über [!DNL Amazon Web Services] zugewiesen. Infolgedessen hat [!DNL Audience Manager] keine Kontrolle über den Bereich der IPs, die dieser Adresse zugewiesen werden können.
 
  
 
-**Können Sie mir eine IP-Adresse zur Verfügung stellen, die ich einer Zulassungsliste für Ihren eingehenden und ausgehenden SFTP-Server hinzufügen kann?**
+**Können Sie mir eine IP-Adresse bereitstellen, die ich einer Zulassungsliste für Ihren eingehenden und ausgehenden SFTP-Server hinzufügen kann?**
 
 Ja, siehe unten.
 
 | Server | IP-Adressen |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52 3 74 119; 3 233 68 222 |
-| ftp-out-gtw.demdex.com | 23 22 232 252; 18 211 109 184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
@@ -59,13 +59,13 @@ Die folgenden SFTP-Server werden nicht mehr unterstützt. Mit diesen Servern wer
 
 **Wie konfiguriere ich meine Audience Manager-Instanz für die Verwendung der neuen SFTP-Server?**
 
-Wenden Sie sich an Ihren [!DNL Audience Manager] -Berater oder die Kundenunterstützung, um Ihre neuen SFTP-Konten zu konfigurieren.
+Wenden Sie sich an Ihren [!DNL Audience Manager] oder an die Kundenunterstützung, damit diese Ihre neuen SFTP-Konten konfigurieren können.
 
  
 
 **Welche Authentifizierungsmethoden werden für die neuen SFTP-Server unterstützt?**
 
-Die neuen SFTP-Server (`ftp-in-gtw` und `ftp-out-gtw`) unterstützen [!DNL OpenSSH Key-Based Authentication]. Wir können die [!DNL SSH] Schlüssel für Sie generieren oder Sie können uns Ihren eigenen öffentlichen Schlüssel zur Verfügung stellen.
+Die neuen SFTP-Server (`ftp-in-gtw` und `ftp-out-gtw`) unterstützen [!DNL OpenSSH Key-Based Authentication]. Wir können die [!DNL SSH] für Sie generieren oder Sie können uns Ihren eigenen öffentlichen Schlüssel zur Verfügung stellen.
 
  
 
@@ -83,7 +83,7 @@ Richten Sie Ihre [!DNL Audience Manager]-[!DNL Analytics]-Integration mit einer 
 
 * Platzieren Sie [!UICONTROL DIL] direkt in den `s_code`.
 
-* Serve [!UICONTROL DIL] und die `s_code` bis [!DNL Adobe Experience Platform Tags].
+* Servieren Sie [!UICONTROL DIL] und die `s_code` durch [!DNL Adobe Experience Platform Tags].
 
 Siehe [Data Integration Library (DIL)-API](../dil/dil-overview.md).
 
@@ -152,7 +152,7 @@ Ja, [!DNL Audience Manager] kann Ihnen Daten zur Verfügung stellen, die für Be
 
 **Ich möchte Daten auf einer Site erfassen und Benutzer über [!DNL Google Ad Manager] auf einer anderen Site ansprechen. Muss ich Code für die andere Eigenschaft bereitstellen, wenn ich keine Daten von dieser Site erfassen möchte?**
 
-Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. Solange Sie über [!DNL Google Ad Manager] Zugriff auf den Bestand auf der zweiten Site haben, können Sie die Datenerfassung von der ursprünglichen Site und das Ziel über [!DNL Google Ad Manager] verwenden.
+Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. Sofern Sie über [!DNL Google Ad Manager] Zugriff auf das Inventar auf der zweiten Site haben, können Sie die Datenerfassung von der ersten Site und dem Ziel über [!DNL Google Ad Manager] verwenden.
 
 <br>
 
@@ -164,7 +164,7 @@ Jeder Anbieter bringt etwas Einzigartiges mit, daher hängt die Antwort davon ab
 
 **Wie setzt [!DNL Audience Manager] Cookies und übergibt Variablen an [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] setzt 2 Cookies: Das eine sendet Segmentvariablen an das Anzeigen-Tag [!DNL Google Ad Manager] und das andere setzt unsere Unique User ID (UUID), die auch von [!DNL Google Ad Manager] gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
+[!DNL Audience Manager] setzt 2 Cookies: Einer sendet Segmentvariablen an das [!DNL Google Ad Manager] Ad-Tag und der andere setzt unsere Unique User ID (UUID), die auch von [!DNL Google Ad Manager] gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
 
 <br>
 
@@ -210,6 +210,6 @@ Die regionsübergreifende Synchronisierung eines Profils dauert in der Regel bis
 
 **Was passiert mit inaktiven Amazon S3-Benutzerzugriffsschlüsseln?**
 
-Adobe stellt Audience Manager Benutzerzugriffsschlüssel für die Audience Manager [!DNL Amazon S3] -Buckets zur Verfügung. Aus Sicherheitsgründen werden die Schlüssel nach 100 Tagen Inaktivität automatisch deaktiviert.
+Adobe stellt Audience Manager-Kunden Benutzerzugriffsschlüssel für die Audience Manager-[!DNL Amazon S3] bereit. Aus Sicherheitsgründen werden die Schlüssel nach 100 Tagen Inaktivität automatisch deaktiviert.
 
-Wenden Sie sich an den Support, um Ihre Zugriffsschlüssel erneut zu aktivieren oder neue anzufordern.
+Wenden Sie sich an den Kunden-Support, um Ihre Zugriffsschlüssel erneut zu aktivieren oder neue Schlüssel anzufordern.

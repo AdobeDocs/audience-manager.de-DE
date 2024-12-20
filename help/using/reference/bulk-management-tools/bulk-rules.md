@@ -1,5 +1,5 @@
 ---
-description: Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren einen traitRule -Header, mit dem Sie mehrere Regeln in einem Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen durchzuführen.
+description: Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren eine TraitRule-Kopfzeile, mit der Sie mehrere Regeln in einem Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen durchzuführen.
 seo-description: The create and update worksheets accept a traitRule header that lets you apply multiple rules in a single operation. Follow these instructions to make bulk rule requests.
 seo-title: Create or Update Trait Rules and Segment Rules
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln{#create-or-update-trait-rules-and-segment-rules}
 
-Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren einen traitRule -Header, mit dem Sie mehrere Regeln in einem Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen durchzuführen.
+Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren eine TraitRule-Kopfzeile, mit der Sie mehrere Regeln in einem Vorgang anwenden können. Befolgen Sie diese Anweisungen, um Massenregelanforderungen durchzuführen.
 
 >[!IMPORTANT]
 >
->Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support durch die Kundenunterstützung werden von Fall zu Fall durchgeführt.
+>Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support über die Kundenunterstützung werden von Fall zu Fall durchgeführt.
 
 <!-- 
 
@@ -30,17 +30,17 @@ Die Arbeitsblätter zum Erstellen und Aktualisieren akzeptieren einen traitRule 
 
 >[!NOTE]
 >
->[In der Benutzeroberfläche von [!DNL Audience Manager] zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
+>[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md), die in der [!DNL Audience Manager]-Benutzeroberfläche zugewiesen sind, werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
 
 ## Arbeiten mit Eigenschaftsregeln {#trait-rules}
 
-In Ihrem Arbeitsblatt gibt die Spalte mit den Eigenschaftsregeln Regeln zurück und akzeptiert Regeln, die aus booleschen Ausdrücken, Vergleichsoperatoren und regulären Ausdrücken bestehen. Sie können Regeln mit Eigenschaften- oder Segment-Builder in [!DNL Audience Manager] erstellen und sie in Ihr Arbeitsblatt kopieren. Oder wenn Sie mit der Regelsyntax vertraut sind, können Sie Ausdrücke direkt in die Arbeitsblätter schreiben.
+In Ihrem Arbeitsblatt gibt die Spalte für die Eigenschaftsregel Regeln zurück, die aus booleschen Ausdrücken, Vergleichsoperatoren und regulären Ausdrücken bestehen, und akzeptiert diese. Sie können Regeln mit Trait oder Segment Builder in [!DNL Audience Manager] erstellen und sie in Ihr Arbeitsblatt kopieren. Wenn Sie mit der Regelsyntax vertraut sind, können Sie Ausdrücke direkt in die Arbeitsblätter schreiben.
 
-## Beispiel für Rule Builder {#rule-builder-example}
+## Beispiel für einen Regel-Builder {#rule-builder-example}
 
-Sehen wir uns ein Beispiel an, das zeigt, wie Sie mit [!UICONTROL Segment Builder] eine Regel erstellen können, die Sie zum Massenarbeitsblatt hinzufügen können. Dies ist jedoch keine schrittweise Anleitung für diese Tools. Stattdessen beginnen wir mit einer einfachen Regel, die bereits erstellt wurde. Anweisungen zur Verwendung der Regel-Builder finden Sie unter [Segment Builder](../../features/segments/segment-builder.md) und [Trait Builder](../../features/traits/about-trait-builder.md).
+Sehen wir uns ein Beispiel an, das zeigt, wie [!UICONTROL Segment Builder] verwendet werden, um eine Regel zu erstellen, die Sie dem Massenarbeitsblatt hinzufügen können. Dies ist jedoch keine Reihe von schrittweisen Anweisungen für diese Tools. Stattdessen beginnen wir mit einer einfachen Regel, die bereits erstellt wurde. Anweisungen zur Verwendung der Regel-Builder finden Sie unter [Segment Builder](../../features/segments/segment-builder.md) und [Trait Builder](../../features/traits/about-trait-builder.md).
 
-Mit dem visuellen Regel-Builder haben wir eine Segmentregel mit 3 Eigenschaften und einem booleschen [!UICONTROL AND] -Operator erstellt.
+Mit dem visuellen Regel-Builder haben wir eine Segmentregel mit drei Eigenschaften und einem booleschen [!UICONTROL AND] erstellt.
 
 ![](assets/visualrule.png)
 
@@ -48,19 +48,19 @@ Klicken Sie auf **[!UICONTROL Code View]** , um die Textversion dieser Regel abz
 
 >[!TIP]
 >
->Klicken Sie auf **[!UICONTROL Validate Expression]** , um Ihre Regellogik zu überprüfen. Dadurch wird verhindert, dass Sie eine ungültige Regel hochladen.
+>Klicken Sie auf **[!UICONTROL Validate Expression]** , um Ihre Regellogik zu überprüfen. Dadurch wird verhindert, dass eine ungültige Regel hochgeladen wird.
 
 ![](assets/coderule.png)
 
-Fügen Sie die Regel in das Arbeitsblatt [!UICONTROL Bulk Management Tools] ein und verpflichten Sie sich, Ihre Änderungen zu übernehmen, um Segmentregeln stapelweise zu aktualisieren.
+Fügen Sie die Regel in das [!UICONTROL Bulk Management Tools] Arbeitsblatt ein und übertragen Sie die Änderungen, um die Segmentregeln stapelweise zu aktualisieren.
 
 ![](assets/segmentrule.png)
 
 ## Erstellen eigener Regeln {#create-rules}
 
-Sie können Ihre eigenen Regeln außerhalb von [!UICONTROL Rule Builder] schreiben. Bevor Sie beginnen, lesen Sie unbedingt die Dokumentation, die sich mit Operatoren, Ausdrücken und erforderlichen Variablen befasst. Es wird empfohlen, Folgendes zu überprüfen:
+Sie können Ihre eigenen Regeln außerhalb von [!UICONTROL Rule Builder] schreiben. Bevor Sie beginnen, lesen Sie die Dokumentation, die Dinge wie Operatoren, Ausdrücke und erforderliche Variablen behandelt. Wir empfehlen Ihnen, Folgendes zu überprüfen:
 
 * [Arbeiten mit Vergleichsoperatoren in Trait Builder](../../features/traits/trait-comparison-operators.md)
 * [Reihenfolge der Vorgänge](../../features/traits/trait-operator-precedence.md)
 * [Anforderungen an Präfixe für Schlüsselvariablen](../../features/traits/trait-variable-prefixes.md)
-* [Beispielausdrücke mit Booleschen und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)
+* [Beispielausdrücke mit booleschen und Vergleichsoperatoren](../../features/traits/trait-expression-samples.md)

@@ -1,5 +1,5 @@
 ---
-description: Beschreibt Methoden im DIL.tools-Namespace. Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+description: Beschreibt Methoden im DIL.tools-Namespace. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
 seo-title: DIL Tools
 solution: Audience Manager
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 >[!WARNING]
 >
->Ab Juli 2023 hat Adobe die Entwicklung der Erweiterung [!DNL Data Integration Library (DIL)] und der Erweiterung [!DNL DIL] eingestellt.
+>Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kunden können weiterhin ihre [!DNL DIL] -Implementierung verwenden. Adobe wird jedoch nicht mehr [!DNL DIL] als bisher entwickeln. Kunden wird empfohlen, das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie zu bewerten.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Allerdings wird sich Adobe nicht über diesen Punkt hinaus [!DNL DIL] entwickeln. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten stattdessen das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
-Beschreibt Methoden im Namespace `DIL.tools` . Mithilfe dieser Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
+Beschreibt die Methoden im `DIL.tools` Namespace. Mit diesen Dienstprogrammfunktionen können Sie bestimmte Aufgaben ausführen.
 
 <!-- 
 
@@ -34,7 +34,7 @@ c_dil_functions.xml
 
 ## getSearchReferrer
 
-Gibt Suchbegriffe zurück, die zum Erreichen der aktuellen Seite verwendet werden.
+Gibt Suchbegriffe zurück, die zum Aufrufen der aktuellen Seite verwendet werden.
 
 <!-- 
 
@@ -42,24 +42,24 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Zweck von `getSearchReferrer`
+### Zweck der `getSearchReferrer`
 
-In DIL gibt `getSearchReferrer` Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] und [!DNL Yahoo]) standardmäßig gegen `document.referrer` durchsuchen lassen.
+Beim DIL gibt `getSearchReferrer` Suchergebnisse (Namen und Schlüsselwörter) zurück, die zum Erreichen Ihrer Site verwendet werden. Sie können bestimmte Suchbegriffe an diese Funktion übergeben oder sie die unterstützten Suchmaschinen ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] und [!DNL Yahoo]) standardmäßig nach `document.referrer` durchsuchen lassen.
 
-### Funktionsunterschrift
+### Funktionssignatur
 
-Funktionsunterschrift: `DIL.tools.getSearchReferrer(uri, initConfig)`
+Funktionssignatur: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 ### Funktionsparameter
 
 `getSearchReferrer` akzeptiert:
 
-* *`{string}`*: *(Optional)* Eine Zeichenfolge, die die Such-URL enthält (verwendet `document.referrer`, falls nicht definiert).
+* *`{string}`*: *(Optional)* Eine Zeichenfolge, die die Such-URL enthält (verwendet `document.referrer`, wenn nicht definiert).
 * *`{object}`*: *(Optional)* Ein Objekt, das die Konfiguration für die `hostPattern`, `queryParam` oder `queryPattern` enthält.
 
 Und gibt zurück:
 
-* `{object}` Ein Objekt, das gültige Namen und Suchbegriffe enthält.
+* `{object}` Ein -Objekt, das gültige Namen und Schlüsselwörter enthält.
 
 ### Beispiele
 
@@ -74,14 +74,14 @@ Und gibt zurück:
  <tbody> 
   <tr> 
    <td> Standardsuche</td> 
-   <td> Gibt Suchbegriffe zurück, die von den Suchmaschinen AOL, Ask, Bing, Google und Yahoo verwendet werden. </td> 
+   <td> Gibt Keyword-Suchbegriffe zurück, die von den Suchmaschinen AOL, Ask, Bing, Google und Yahoo verwendet werden. </td> 
    <td>
       <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
-   <td>Übergeben einer benutzerdefinierten URL</td> 
-   <td>Gibt die verweisende Stelle basierend auf einer benutzerdefinierten URL zurück.</td> 
+   <td>In einer benutzerdefinierten URL übergeben</td> 
+   <td>Gibt den Such-Referrer basierend auf einer benutzerdefinierten URL zurück.</td> 
    <td> 
   <code>
         var&nbsp;results&nbsp;= 
@@ -90,8 +90,8 @@ Und gibt zurück:
 </td> 
   </tr> 
   <tr> 
-   <td> <b>URL-Hostname mit benutzerdefiniertem Regex abgleichen</b></td> 
-   <td> Übergeben Sie einen benutzerdefinierten Regex, um den Hostnamen der verweisenden URL abzugleichen. </td> 
+   <td> <b>URL-Hostname mit einer benutzerdefinierten Regex abgleichen</b></td> 
+   <td> Übergeben Sie einen benutzerdefinierten Regex, damit er mit dem Host-Namen der verweisenden URL übereinstimmt. </td> 
    <td> 
   <code>
       var results = 
@@ -103,7 +103,7 @@ Und gibt zurück:
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>Suchmuster mit benutzerdefiniertem Regex abgleichen</b> </td> 
+   <td> <b>Suchmuster mit einem benutzerdefinierten Regex abgleichen</b> </td> 
    <td> Übergeben Sie einen benutzerdefinierten Regex, um eine benutzerdefinierte Suche durchzuführen. </td> 
    <td> 
     <code>
@@ -119,9 +119,9 @@ Und gibt zurück:
  </tbody> 
 </table>
 
-## dekomposseURI
+## zerlegenURI
 
-Zerlegt eine Uniform Resource Identifier ( [!DNL URI]) in die Komponenten: `hash`, `host`, `href`, `pathname`, `protocol`, `search` und `[!DNL uriParams]`.
+Teilt eine Uniform Resource Identifier ([!DNL URI]) in seine einzelnen Komponenten auf: `hash`, `host`, `href`, `pathname`, `protocol`, `search` und `[!DNL uriParams]`.
 
 <!-- 
 
@@ -129,17 +129,17 @@ r_dil_decompose.xml
 
  -->
 
-Funktionsunterschrift: `DIL.tools.decomposeURI`
+Funktionssignatur: `DIL.tools.decomposeURI`
 
 ### Funktionsparameter
 
 `decomposeURI` akzeptiert:
 
-* *`uri {string}`*: *(Optional)* Eine Zeichenfolge, die den URI enthält. Wenn nicht anders angegeben, wird standardmäßig `document.location.href` verwendet.
+* *`uri {string}`*: *(Optional)* Eine Zeichenfolge, die den URI enthält. Die Standardeinstellung ist `document.location.href`, wenn nicht anders angegeben.
 
 Und gibt zurück:
 
-* *`{object}`*: Ein Objekt, das gültige Namen und Suchbegriffe enthält.
+* *`{object}`*: Ein Objekt, das gültige Namen und Schlüsselwörter enthält.
 
 ### Beispielcode
 
@@ -163,7 +163,7 @@ var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#a
 
 ## getMetaTags
 
-Sucht nach bestimmten Inhalten, die in den Meta-Tags auf einer Webseite definiert sind, und gibt diese Daten in einem Objekt zurück.
+Sucht nach bestimmten Inhalten, die in den Meta-Tags auf einer Web-Seite definiert sind, und gibt diese Daten in einem -Objekt zurück.
 
 <!-- 
 
@@ -171,13 +171,13 @@ r_dil_get_metatags.xml
 
  -->
 
-### Funktionsunterschrift
+### Funktionssignatur
 
-Funktionsunterschrift: `DIL.tools.getMetaTags( 1 or more parameters)`
+Funktionssignatur: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Funktionsparameter
 
-`getMetaTags` akzeptiert einen oder mehrere Namensparameter (Zeichenfolgentyp) für die Suche. Es wird ein Objekt zurückgegeben, das aus Schlüssel-Wert-Paaren besteht.
+`getMetaTags` akzeptiert einen oder mehrere Namensparameter (vom Typ Zeichenfolge), nach denen gesucht werden soll. Sie gibt ein -Objekt zurück, das aus Schlüssel-Wert-Paaren besteht.
 
 ### Beispielcode
 

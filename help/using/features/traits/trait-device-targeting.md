@@ -1,5 +1,5 @@
 ---
-description: Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, mit denen Sie Benutzer mit gerätebezogenen Variablen über alle Eigenschaften in Ihrem Audience Manager-Konto hinweg ansprechen können.
+description: Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, mit denen Sie Benutzende mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto auswählen können.
 seo-description: Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
 seo-title: Device Targeting With Platform-level Keys
 solution: Audience Manager
@@ -18,21 +18,21 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->Google hat die Funktionalität von [!DNL Google Chrome] und allen [!DNL Chromium]-basierten Browsern aktualisiert, um die über den `User-Agent` -Header erfassten Informationen zu minimieren.
->Ab März 2023 unterstützt Audience Manager diese Aktualisierungen durch Nutzung des [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Um weiterhin Eigenschaftsinformationen zu verwenden, die über die Kopfzeile `User-Agent` bereitgestellt werden, müssen Sie [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden und [Hohe Entropy User-Agent-Client-Hinweise](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en) aktivieren.
->Diese Aktualisierungen werden von [DIL](../../../using/dil/dil-overview.md) nicht unterstützt, sodass Audience Manager, die [!DNL DIL] verwenden, keine Eigenschaftsinformationen über den `User-Agent` -Header erfassen können.
+>Google hat die Funktionalität von [!DNL Google Chrome] und allen [!DNL Chromium] Browsern aktualisiert, um die über den `User-Agent`-Header erfassten Informationen zu minimieren.
+>Ab März 2023 unterstützt Audience Manager diese Updates mithilfe von [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Um weiterhin die über den `User-Agent`-Header bereitgestellten Eigenschafteninformationen zu verwenden, müssen Sie [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden und [Benutzeragenten-Client-Hinweise mit hoher Entropie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en) aktivieren.
+>Diese Aktualisierungen werden von [DIL](../../../using/dil/dil-overview.md) nicht unterstützt, sodass Audience Manager-Kunden, die [!DNL DIL] verwenden, keine Eigenschafteninformationen über die `User-Agent`-Kopfzeile erfassen können.
 
-Beschreibt die gebräuchlichen Schlüssel-Wert-Paare auf Plattformebene, mit denen Sie Benutzer mit gerätebezogenen Variablen über alle Eigenschaften in Ihrem Audience Manager-Konto hinweg ansprechen können.
+Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, mit denen Sie Benutzende mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto auswählen können.
 
-## Zweck der Variablen auf Plattformebene {#platform-variables}
+## Zweck von Variablen auf Plattformebene {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Mit Variablen auf Plattformebene können Sie von einer bestimmten Site übergebene Daten aufnehmen und für das Targeting über alle Eigenschaften in Ihrem [!DNL Audience Manager]-Konto hinweg verfügbar machen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei dem Schlüssel `d_` das Präfix vorangestellt wird, wie unten dargestellt.
+Mit Variablen auf Plattformebene können Sie Daten, die von einer bestimmten Site übergeben werden, für die Zielgruppenbestimmung in allen Eigenschaften in Ihrem [!DNL Audience Manager]-Konto verfügbar machen. Diese Variablen werden durch [Schlüssel-Wert-Paare](../../reference/key-value-pairs-explained.md) gebildet, wobei der Schlüssel wie unten dargestellt durch `d_` vorangestellt wird.
 
-## Von User Agent definierte Schlüssel auf Plattformebene {#keys-user-agent}
+## Vom Benutzeragenten definierte Schlüssel auf Plattformebene {#keys-user-agent}
 
-Die [!UICONTROL Data Collection Servers] extrahiert die Werte für diese Schlüssel aus der [Benutzeragenten-Kopfzeile](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` -Anforderungen. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas] -Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie aus dem Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der häufigsten Schlüssel herunter](assets/device_keys.csv), gemäß den [!UICONTROL Device Atlas]-Messungen.
+Die [!UICONTROL Data Collection Servers] extrahieren die Werte für diese Schlüssel aus der [Benutzeragenten-Kopfzeile](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP`. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas]-Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie im Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gängigsten Schlüssel ](assets/device_keys.csv) nach [!UICONTROL Device Atlas] Messungen herunter.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -50,7 +50,7 @@ Die [!UICONTROL Data Collection Servers] extrahiert die Werte für diese Schlüs
 
 >[!NOTE]
 >
->Selbst wenn ein oder mehrere Signale nicht aus der Kopfzeile des Benutzeragenten abgerufen werden können, werden die anderen Signale weiterhin an die [!UICONTROL Data Collection Servers] übergeben.
+>Selbst wenn ein oder mehrere Signale nicht aus dem User Agent-Header abgerufen werden können, werden die anderen Signale weiterhin an den [!UICONTROL Data Collection Servers] übergeben.
 
 >[!MORELIKETHIS]
 >

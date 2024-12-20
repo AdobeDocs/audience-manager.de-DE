@@ -1,5 +1,5 @@
 ---
-description: Wird verwendet, um DIL darüber zu informieren, dass es nach dem Laden des Fensters geladen wird.
+description: Wird verwendet, um DIL mitzuteilen, dass es geladen wird, nachdem das Fenster geladen wurde.
 seo-description: Used to let DIL know that it is loaded after the window loads.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 >[!WARNING]
 >
->Ab Juli 2023 hat Adobe die Entwicklung der Erweiterung [!DNL Data Integration Library (DIL)] und der Erweiterung [!DNL DIL] eingestellt.
+>Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kunden können weiterhin ihre [!DNL DIL] -Implementierung verwenden. Adobe wird jedoch nicht mehr [!DNL DIL] als bisher entwickeln. Kunden wird empfohlen, das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie zu bewerten.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Allerdings wird sich Adobe nicht über diesen Punkt hinaus [!DNL DIL] entwickeln. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten stattdessen das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
-Wird verwendet, um DIL darüber zu informieren, dass es nach dem Laden des Fensters geladen wird.
+Wird verwendet, um DIL mitzuteilen, dass es geladen wird, nachdem das Fenster geladen wurde.
 
 **Funktionssignatur:** `isAddedPostWindowLoad: function()`
 

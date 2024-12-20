@@ -45,7 +45,7 @@ Um den Rechenaufwand zu verringern, werden in diesen Berichten statistisch nicht
 
 **Ich führe eine E-Mail-Marketing-Kampagne durch. Wie kann ich feststellen, ob umgeleitete Benutzer von dieser Kampagne oder aus anderen Quellen auf meine Website kommen?**
 
-Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Website-Bereichs an, den Sie überwachen möchten. Richten Sie anschließend eine Eigenschaftsregel ein, um diese Variable zu erfassen. Wenn Ihre URL beispielsweise eine Kampagnen-ID wie `www.test123.com/electronics?campaign=123` übergibt, erstellen Sie eine Eigenschaftsregel, um diese Daten aus der `h_referer` -Variablen mit einer Eigenschaftsregel zu erfassen, die nach einem Header wie `h_referer = 'campaign=123'` sucht.
+Hängen Sie eine kampagnenspezifische Abfragezeichenfolge an die URL des Website-Bereichs an, den Sie überwachen möchten. Richten Sie anschließend eine Eigenschaftsregel ein, um diese Variable zu erfassen. Wenn Ihre URL beispielsweise in einer Kampagnen-ID wie dieser `www.test123.com/electronics?campaign=123` übergeben wird, erstellen Sie eine Trait-Regel , um diese Daten aus der `h_referer`-Variablen mit einer Trait-Regel zu erfassen, die nach einer Kopfzeile wie `h_referer = 'campaign=123'` sucht.
 
 <br>
 

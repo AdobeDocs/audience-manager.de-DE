@@ -1,5 +1,5 @@
 ---
-description: Trait Builder wertet Ausdrücke anhand der unten aufgeführten Vorgangsreihenfolge aus, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst ausgewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die einzelnen Operatoren nach Priorität (von oben nach unten) geordnet.
+description: Der Trait Builder bewertet Ausdrücke anhand der unten aufgeführten Reihenfolge von Vorgängen mit hoher bis niedriger Priorität. Von Operatoren mit hoher Priorität definierte Eigenschaftenelemente werden zuerst ausgewertet, bevor andere Operatoren mit hoher Priorität verwendet werden. In diesem Abschnitt werden die einzelnen Operatoren nach ihrer Priorität geordnet, von hoch bis niedrig.
 seo-description: Trait Builder evaluates expressions according to the order-of-operations listed below, from high to low precedence. Trait elements defined by high-precedence operators are evaluated first, before other precedence operators. This section ranks each operator according to precedence, from high to low.
 seo-title: Order of Operations in Trait Builder
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Reihenfolge der Vorgänge in Trait Builder {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] wertet Ausdrücke anhand der unten aufgeführten Vorgangsreihenfolge aus, von hoher bis niedriger Priorität. Eigenschaftselemente, die von Operatoren mit hoher Priorität definiert werden, werden zuerst ausgewertet, bevor andere Vorrangoperatoren verwendet werden. In diesem Abschnitt werden die einzelnen Operatoren nach Priorität (von oben nach unten) geordnet.
+[!UICONTROL Trait Builder] bewertet Ausdrücke entsprechend der unten aufgeführten Reihenfolge der Vorgänge von der höchsten zur niedrigsten Priorität. Von Operatoren mit hoher Priorität definierte Eigenschaftenelemente werden zuerst ausgewertet, bevor andere Operatoren mit hoher Priorität verwendet werden. In diesem Abschnitt werden die einzelnen Operatoren nach ihrer Priorität geordnet, von hoch bis niedrig.
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -37,20 +37,20 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> Vergleichsoperatoren </td> 
    <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
-   <td colname="col3"> Kleiner, größer als, kleiner gleich, größer als/gleich, größer/gleich werden als Nächstes ausgewertet. </td> 
+   <td colname="col3"> Kleiner als, größer als, kleiner/gleich, größer/gleich werden als Nächstes ausgewertet. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Gleichstellungsoperatoren </td> 
+   <td colname="col1"> Gleichheitsoperatoren </td> 
    <td colname="col2"> == != </td> 
-   <td colname="col3"> Gleich, ungleich gleich werden nach den vorherigen Operatoren ausgewertet. </td> 
+   <td colname="col3"> Gleich, ungleich werden nach den vorherigen Operatoren ausgewertet. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolesch <span class="wintitle"> UND </span> </td> 
+   <td colname="col1">Boolescher <span class="wintitle"> UND</span> </td> 
    <td colname="col2"><span class="wintitle"> UND</span> </td> 
    <td colname="col3" morerows="1"> Keine </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolesch <span class="wintitle"> ODER </span> </td> 
+   <td colname="col1">Boolesches <span class="wintitle"> ODER</span> </td> 
    <td colname="col2"><span class="wintitle"> ODER</span> </td> 
    <td colname="col3" morerows="1"> Keine </td> 
   </tr> 

@@ -1,5 +1,5 @@
 ---
-description: In diesem Abschnitt werden die Verfahren für die ersten Schritte mit der Audience Manager Data Management Platform (DMP) beschrieben und erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologiemanagern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Je nach Ihren Anforderungen an die Datenerfassung kann es bei den ersten Schritten mit Audience Manager ungefähr sechs Wochen bis drei Monate dauern.
+description: In diesem Abschnitt werden die Prozesse für die ersten Schritte mit der Audience Manager-Datenverwaltungsplattform (DMP) beschrieben und erläutert. Dieser Abschnitt soll Business-Teams, Projekt-Managern und Technologie-Managern dabei helfen, den Implementierungsprozess von Audience Manager zu verstehen. Der Einstieg in Audience Manager kann je nach Ihren Anforderungen an die Datenerfassung etwa sechs Wochen bis drei Monate dauern.
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
@@ -16,26 +16,26 @@ ht-degree: 0%
 
 # Implementieren von Audience Manager {#implementing-audience-manager}
 
-In diesem Abschnitt werden die ersten Schritte mit der Audience Manager-Datenverwaltungsplattform ([!DNL DMP]) beschrieben und erläutert. Dieser Abschnitt soll Geschäftsteams, Projektmanagern und Technologiemanagern dabei helfen, den Implementierungsprozess von Audience Managern zu verstehen. Je nach Ihren Anforderungen an die Datenerfassung kann es bei den ersten Schritten mit Audience Manager ungefähr sechs Wochen bis drei Monate dauern.
+In diesem Abschnitt werden die Prozesse für die ersten Schritte mit der Audience Manager-Datenverwaltungsplattform ([!DNL DMP]) beschrieben und erläutert. Dieser Abschnitt soll Business-Teams, Projekt-Managern und Technologie-Managern dabei helfen, den Implementierungsprozess von Audience Manager zu verstehen. Der Einstieg in Audience Manager kann je nach Ihren Anforderungen an die Datenerfassung etwa sechs Wochen bis drei Monate dauern.
 
-Unsere Implementierungstechniken helfen bei der Erstellung einer beratenden Partnerschaft mit neuen Kunden. Dieser Prozess hat folgende Ziele:
+Unsere Implementierungstechniken helfen dabei, eine beratende Partnerschaft mit neuen Kunden aufzubauen. Dieser Prozess dient folgenden Zwecken:
 
-* Entdecken und verstehen Sie Ihre Geschäftsanforderungen.
-* Erstellung eines umsetzbaren Plans zur Bewältigung dieser Forderungen;
-* Entwicklung benutzerdefinierter Lösungen, um individuelle Anforderungen oder Anwendungsfälle zu erfüllen;
-* Stellen Sie sicher, dass Ihre proprietären Daten importiert und im Audience Manager verfügbar gemacht werden.
+* Entdecken und verstehen Sie Ihre geschäftlichen Anforderungen;
+* Ausarbeitung eines umsetzbaren Plans, um diesen Anforderungen gerecht zu werden;
+* Entwickeln Sie benutzerdefinierte Lösungen, um individuelle Anforderungen oder Anwendungsfälle zu erfüllen.
+* Stellen Sie sicher, dass Ihre proprietären Daten importiert und im Audience Manager bereitgestellt werden.
 
-Unsere Partner Solutions- und Account Management-Teams arbeiten vor, während und nach der Implementierung eng mit Ihnen zusammen.
+Unsere Partner Solutions- und Account Management-Teams arbeiten vor, während und nach dem Implementierungsprozess eng mit Ihnen zusammen.
 
 Audience Manager verfolgt bei der Einrichtung und Implementierung einen stufenweisen Ansatz.
 
 ## Phase definieren {#define-phase}
 
-Die Definitionsphase führt Sie in unsere Partner Solutions-Projektleitung ein und beginnt mit dem Projektmanagement.
+Die Definitionsphase führt Sie in unsere Partner Solutions Projektleiter ein und startet den Projektmanagementprozess.
 
 <!-- c_define.xml -->
 
-Dieser Schritt soll potenziellen Kunden dabei helfen, den Projektumfang zu definieren und zu vereinbaren, benutzerdefinierte Anforderungen zu verstehen, Meilensteine festzulegen und Kommunikation einzurichten.
+Dieser Schritt soll potenziellen Kunden helfen, den Projektumfang zu definieren und sich auf ihn zu einigen, benutzerdefinierte Anforderungen zu verstehen, Meilensteine zu setzen und Kommunikation einzurichten.
 
 In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die während dieser Phase stattfinden:
 
@@ -44,45 +44,45 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
   <tr valign="top"> 
    <th colname="col1" class="entry"> Aktivität </th> 
    <th colname="col2" class="entry"> Zweck/Beschreibung </th> 
-   <th colname="col3" class="entry"> Vorgeschlagene Teilnehmer </th> 
+   <th colname="col3" class="entry"> Empfohlene Teilnehmer </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> Anruf/Sitzung beim Kick </td> 
+   <td colname="col1"> Auftaktbesuch/Besprechung </td> 
    <td colname="col2"> 
     <ul id="ul_E8F427586F14437285ABBF93A15FCBD4"> 
-     <li id="li_A1B5F443E5864C4CB7A789D6E0B87DF0">Einführung von Projektleitungen </li> 
-     <li id="li_7F5C0A277FE346A5BA3BA20B21389076">Rollen und Zuständigkeiten definieren </li> 
-     <li id="li_991D2F069B88456CB3942970F4EF0FAF">Ziele und Meilensteine festlegen, die an Versanddaten gebunden sind </li> 
-     <li id="li_4A2CDE7F006A45BDB04585CACF5688CA">Validieren von Plänen für Vor-Ort-Arbeiten </li> 
-     <li id="li_A1BF7C2A34C54387BC945077905C9D04">Erstellen von Mitteilungen zu Fragen und Statusaktualisierungen </li> 
+     <li id="li_A1B5F443E5864C4CB7A789D6E0B87DF0">Einführung in Projekt-Leads </li> 
+     <li id="li_7F5C0A277FE346A5BA3BA20B21389076">Definieren von Rollen und Zuständigkeiten </li> 
+     <li id="li_991D2F069B88456CB3942970F4EF0FAF">Festlegen von Zielen und Meilensteinen in Bezug auf Liefertermine </li> 
+     <li id="li_4A2CDE7F006A45BDB04585CACF5688CA">Pläne für Arbeiten vor Ort bestätigen </li> 
+     <li id="li_A1BF7C2A34C54387BC945077905C9D04">Kommunikation für Fragen und Statusaktualisierungen einrichten </li> 
     </ul> </td> 
-   <td colname="col3"> Geschäftliche und technische Teams </td> 
+   <td colname="col3"> Unternehmens- und Technikteams </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Zugriff gewähren </td> 
-   <td colname="col2"> Zugriff auf freigegebene Ressourcen einrichten und Anmeldedaten verteilen </td> 
-   <td colname="col3"> Geschäftliche und technische Teams </td> 
+   <td colname="col2"> Einrichten des Zugriffs auf freigegebene Ressourcen und Verteilen der Anmeldeinformationen </td> 
+   <td colname="col3"> Unternehmens- und Technikteams </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> Statusberichte und Projekt-Team-Aufrufe </td> 
-   <td colname="col2"> Erstellung und Pflege einer klaren Mitteilung über Pläne und Fortschritte </td> 
-   <td colname="col3"> Geschäftliche und technische Teams </td> 
+   <td colname="col1"> Statusberichte und Aufrufe des Projektteams </td> 
+   <td colname="col2"> Klare Kommunikation über Pläne und Fortschritte etablieren und pflegen </td> 
+   <td colname="col3"> Unternehmens- und Technikteams </td> 
   </tr> 
  </tbody> 
 </table>
 
-Folgende Lieferziele können in dieser Phase erreicht werden:
+Zu den Leistungen für diese Phase können gehören:
 
-* Dokumente, in denen Rollen und Zuständigkeiten festgelegt werden;
+* Dokumente, in denen Rollen und Zuständigkeiten festgelegt sind;
 * Dokumente, die den Arbeitsumfang festlegen;
-* Plan für die Planung von Projektsitzungen und -aufrufen;
-* Ein Prozess zum Freigeben von Ressourcen und Zugriff.
+* einen Plan für die Planung von Projektsitzungen und -aufrufen;
+* Ein Prozess zum Freigeben von Ressourcen und Zugreifen.
 
-## Entdeckungsphase {#discovery-phase}
+## Erkennungsphase {#discovery-phase}
 
-In der Entdeckungsphase geht es darum, Anforderungen zu sammeln, Forschungsarbeiten durchzuführen und auf ein tieferes Verständnis Ihrer geschäftlichen Anforderungen und Datenerfassungsstrategien hinzuarbeiten.
+In der Discovery-Phase geht es darum, Anforderungen zu sammeln, zu recherchieren und auf ein tieferes Verständnis Ihrer geschäftlichen Anforderungen und Datenerfassungsstrategien hinzuarbeiten.
 
 <!-- c_discovery.xml -->
 
@@ -93,81 +93,81 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
   <tr> 
    <th colname="col1" class="entry"> Aktivität </th> 
    <th colname="col2" class="entry"> Zweck/Beschreibung </th> 
-   <th colname="col3" class="entry"> Vorgeschlagene Teilnehmer </th> 
+   <th colname="col3" class="entry"> Empfohlene Teilnehmer </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> Anforderungen und Zieleinstellung </td> 
+   <td colname="col1"> Anforderungen und Zielsetzung </td> 
    <td colname="col2"> 
     <ul id="ul_CB78589D5906439F8632A0C4B6F4130A"> 
      <li id="li_63D9C730FE5A4A55A76C5967A1EFFB8E">Entwickeln von Plänen für Tag-Management und Datenerfassung </li> 
-     <li id="li_71AC8F2AB5BA4BD29D98D89D9974EDB2">Entwickeln von Plänen, die Kundenanforderungen, Ziele und Erwartungen entsprechen </li> 
+     <li id="li_71AC8F2AB5BA4BD29D98D89D9974EDB2">Entwickeln von Plänen, die den Anforderungen, Zielen und Erwartungen der Kunden entsprechen </li> 
     </ul> </td> 
-   <td colname="col3"> Geschäftsteams </td> 
+   <td colname="col3"> Business-Teams </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Daten auswerten </td> 
    <td colname="col2"> 
     <ul id="ul_B7FBA43F94DE45E29B8CB07ABA1D969D"> 
-     <li id="li_48FEE16AA5F44A3D846405DA07C9C255">Ermitteln, wie Sie Ihre Daten und die Datenquellen erfassen </li> 
-     <li id="li_90D6281EF318401587797013A33B3CBC">Entdecken Sie die Quellen Ihrer Erstanbieter-, Zweitanbieter- und Drittanbieter-Daten. </li> 
+     <li id="li_48FEE16AA5F44A3D846405DA07C9C255">Bestimmen, wie Ihre Daten und die Quellen dieser Daten erfasst werden </li> 
+     <li id="li_90D6281EF318401587797013A33B3CBC">Erkunden Sie die Quellen Ihrer Erst-, Zweit- und Drittanbieterdaten </li> 
     </ul> </td> 
-   <td colname="col3"> Geschäftliche und technische Teams </td> 
+   <td colname="col3"> Unternehmens- und Technikteams </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Ziele suchen </td> 
-   <td colname="col2"> Ermitteln, ob der Client Daten an andere Adserver, DSP, Netzwerke oder Austausche sendet </td> 
-   <td colname="col3"> Geschäftsteams </td> 
+   <td colname="col2"> Stellen Sie fest, ob der Client Daten an andere Werbeserver, DSP, Netzwerke oder Exchange sendet </td> 
+   <td colname="col3"> Business-Teams </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> Aufschlüsselungssitzungen </td> 
-   <td colname="col2"> Geschäftliche Anforderungen und Anforderungen optimieren </td> 
-   <td colname="col3"> Geschäftsteams </td> 
+   <td colname="col1"> Breakout-Sitzungen </td> 
+   <td colname="col2"> Verfeinern von Geschäftsanforderungen und -anforderungen </td> 
+   <td colname="col3"> Business-Teams </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> Mitteilung über Folgemaßnahmen </td> 
-   <td colname="col2"> Regelmäßige Kommunikation für Follow-up- und Entwicklungszwecke </td> 
-   <td colname="col3"> Geschäftliche und technische Teams </td> 
+   <td colname="col1"> Folgemitteilung </td> 
+   <td colname="col2"> Regelmäßige Kommunikation zu Follow-up- und Entwicklungszwecken </td> 
+   <td colname="col3"> Unternehmens- und Technikteams </td> 
   </tr> 
  </tbody> 
 </table>
 
-Folgende Ergebnisse sind in dieser Phase verfügbar:
+Zu den Leistungen für diese Phase können gehören:
 
-* eine abgeschlossene Erstanbieter-, Zweitanbieter- und Drittanbieter-Datenerfassungsstrategie;
-* einen abgeschlossenen [!DNL CRM]- oder Data Warehouse-Aufnahmeplan;
-* Definierte Anforderungen an die Zielgruppensegmentierung;
-* eine abgeschlossene Datentaxonomie;
-* Ein entwickelter Drittanbieter-Datenintegrationsplan.
+* Eine vollständige Strategie für die Datenerfassung von Erstanbietern, Zweitanbietern und Drittanbietern;
+* einen ausgefüllten [!DNL CRM] oder Data Warehouse-Aufnahmeplan;
+* Definierte Zielgruppensegmentierungsanforderungen;
+* eine vollständige Taxonomie der Daten;
+* Entwickelt einen Plan zur Datenintegration von Drittanbietern.
 
-## Build-, Test- und Trainings-Phase {#build-test-train-phase}
+## Build-, Test- und Trainierungsphase {#build-test-train-phase}
 
-Während der Build-, Test- und Zugphase werden Sie die Datenerfassungsstrategie und den Prototyp mit einem dafür vorgesehenen Partner Solutions-Lead überprüfen.
+Während der Build-, Test- und Trainingsphase überprüfen Sie die Datenerfassungsstrategie und den Prototyp mit einem designierten Partner Solutions-Lead.
 
 <!-- c_build_test_train.xml -->
 
-Ihre Datenerfassungsstrategie wird einem durchgängigen [!DNL QA]-Test unterzogen. Partner Solutions verfolgt entdeckte Fehler und koordiniert Problemlösungen mit unseren Systemingenieuren. Die Kundenschulung kann parallel zu diesen anderen Maßnahmen beginnen.
+Ihre Datenerfassungsstrategie wird einem End-to-End-[!DNL QA] unterzogen. Partner Solutions verfolgt entdeckte Fehler und koordiniert Problemlösungen mit unseren Systemingenieuren. Die Kundenschulung kann parallel zu diesen anderen Maßnahmen beginnen.
 
 In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die während dieser Phase stattfinden:
 
-| Aktivität | Zweck/Beschreibung | Teilnehmer |
+| Aktivität | Zweck/Beschreibung | Teilnehmer/innen |
 |---|---|---|
-| Eine Datenerfassungsstrategie vorbereiten | Arbeiten Sie mit technischen Adobe-Teams zusammen, um einen Datenerfassungsplan zu erstellen, der Ihren Geschäftsanforderungen entspricht. | Geschäftliche und technische Teams |
-| Bereitstellen und Testen von Code | Testen Sie die vorgeschlagene Lösung in einer Staging-Umgebung und führen Sie Browser-übergreifende Tests durch. | Technische Teams |
-| Funktionalität überprüfen und Fehler beheben | Ergebnisse untersuchen und kommunizieren, Fehler beheben und erneut testen | Technische Teams |
-| Benutzerschulung | Schulungen und Informationen zu Audience Manager-Funktionen, -Tools und -Berichten anbieten | Geschäftsteams |
+| Vorbereiten einer Datenerfassungsstrategie | Arbeiten Sie mit technischen Adobe-Teams zusammen, um einen Datenerfassungsplan zu erstellen, der Ihre Geschäftsanforderungen erfüllt | Unternehmens- und Technikteams |
+| Bereitstellen und Testen von Code | Testen der vorgeschlagenen Lösung in einer Staging-Umgebung und Durchführen von Browser-übergreifenden Tests | Technische Teams |
+| Überprüfen der Funktionalität und Beheben von Fehlern | Ergebnisse untersuchen und kommunizieren, Fehler beheben und erneut testen | Technische Teams |
+| Benutzerschulung | Bereitstellung von Schulungen und Informationen zu Audience Manager-Funktionen, -Tools und -Berichten | Business-Teams |
 
-Folgende Ergebnisse sind in dieser Phase verfügbar:
+Zu den Leistungen für diese Phase können gehören:
 
-* ein abgeschlossener und anerkannter Datenerhebungsplan;
-* End-to-End-Tests für [!DNL QA];
-* Grundlegende Anleitung zu Funktionen der Benutzeroberfläche von Audience Manager;
+* einen ausgefüllten und akzeptierten Datenerhebungsplan;
+* End-to-End-[!DNL QA];
+* Grundlegende Anweisungen zu den Funktionen der Audience Manager-Benutzeroberfläche;
 * Annahme und Abnahme.
 
-## Start-, Support- und Optimierungsphase {#launch-support-optimize-phase}
+## Launch-, Support- und Optimierungsphase {#launch-support-optimize-phase}
 
-Während der Start-, Support- und Optimierungsphase wechseln Ihre Datenerfassungs- und Prototypimplementierungen von der Entwicklung zur Live-Produktionsumgebung. Wir werden unsere Schulungen zur Produktvertrautheit und zu Strategien fortsetzen, die durch datengesteuerte Optimierung dazu beitragen können, Ihre [!DNL ROI] zu erhöhen.
+Während der Launch-, Support- und Optimierungsphase wechselt Ihre Implementierung der Datenerfassung und des Prototyps von der Entwicklung in eine Live- und Produktionsumgebung. Wir werden weiterhin Schulungen zu Produktkenntnissen und Strategien durchführen, die Ihnen helfen, Ihre [!DNL ROI] durch datengestützte Optimierung zu steigern.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -178,60 +178,60 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
   <tr> 
    <th colname="col1" class="entry"> Aktivität </th> 
    <th colname="col2" class="entry"> Zweck/Beschreibung </th> 
-   <th colname="col3" class="entry"> Teilnehmer </th> 
+   <th colname="col3" class="entry"> Teilnehmer/innen </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> Datenanalyse und -optimierung </td> 
-   <td colname="col2"> Analysieren von Datentrends und Bereitstellen von Empfehlungen für die Optimierung </td> 
-   <td colname="col3"> Geschäftsteams </td> 
+   <td colname="col1"> Datenanalyse und Optimierung </td> 
+   <td colname="col2"> Analysieren von Daten-Trends und Bereitstellen von Optimierungsempfehlungen </td> 
+   <td colname="col3"> Business-Teams </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Eigenschaften und Segmente erstellen </td> 
    <td colname="col2">Erstellen Sie echte Eigenschaften und Segmente für die Datenerfassung: 
     <ul id="ul_21C7E86A7AF749CD8ECBE129DE2C641A"> 
      <li id="li_4FCCC879B7A44752A55DEAC2D6434220">Erstellen echter Eigenschaften und Segmente </li> 
-     <li id="li_329BBFEAFC99488798F97111FFD69853">Strategien zur Segmenterstellung diskutieren </li> 
-     <li id="li_3F1F2EAFBC544E05B07FDDC452F2FB37">Nutzungsszenarios berücksichtigen und überprüfen </li> 
+     <li id="li_329BBFEAFC99488798F97111FFD69853">Strategien zur Segmenterstellung besprechen </li> 
+     <li id="li_3F1F2EAFBC544E05B07FDDC452F2FB37">Erwägen und Überprüfen von Anwendungsfällen </li> 
     </ul> </td> 
-   <td colname="col3"> Geschäftsteams </td> 
+   <td colname="col3"> Business-Teams </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Weiterbildung </td> 
-   <td colname="col2"> Weitere Kenntnisse und Vertrautheit mit Produktfunktionen, Tools und Berichten </td> 
-   <td colname="col3"> Geschäftsteams </td> 
+   <td colname="col2"> Weitere Verbesserung des Verständnisses und der Vertrautheit mit Produktfunktionen, Tools und Berichten </td> 
+   <td colname="col3"> Business-Teams </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> Folgenachrichten </td> 
-   <td colname="col2"> Regelmäßige geplante Kommunikation, um Ihre Benutzererfahrung mit Audience Manager auf dem Laufenden zu halten </td> 
-   <td colname="col3"> Geschäftliche und technische Teams </td> 
+   <td colname="col1"> Folgemitteilungen </td> 
+   <td colname="col2"> Regelmäßig geplante Kommunikation, um über Ihr Benutzererlebnis mit Audience Manager auf dem Laufenden zu bleiben </td> 
+   <td colname="col3"> Unternehmens- und Technikteams </td> 
   </tr> 
  </tbody> 
 </table>
 
 Aufgaben für diese Phase können Folgendes umfassen:
 
-* Erstellung und Auswertung von Berichtsdaten;
+* Generieren und Interpretieren von Berichtsdaten
 * Grundlegendes zu benutzerdefinierten Berichten;
-* So erhalten Sie Produktunterstützung
-* Antworten auf Anfragen, Fehler und Benutzerfeedback von Funktionen oder Anfragen dazu;
-* Vertiefung der Vertrautheit mit den Funktionen und Berichten von Audience Managern.
+* So erhalten Sie Produktsupport
+* Reagieren auf oder Einholen von Funktionsanfragen, Bugs und Benutzer-Feedback;
+* Vertiefung der Vertrautheit mit Audience Manager-Funktionen und -Berichten.
 
 ## Code-Implementierung {#code-implementation}
 
-Audience Manager verwendet die Data Integration Library ([!DNL DIL]) zum Empfangen von Zielgruppendaten.
+Audience Manager verwendet die Data Integration Library ([!DNL DIL]) zum Empfang von Zielgruppendaten.
 
 Detaillierte Anweisungen zur Verwendung von [!DNL DIL] finden Sie unter [Abrufen und Implementieren von DIL-Code](../dil/dil-overview.md).
 
-### Teilnehmer
+### Teilnehmer/innen
 
-Partnerlösungen können direkt mit Ihren technischen Teams zusammenarbeiten, um die Bereitstellung von Code zu unterstützen, endgültige Bedenken auszuräumen und andere Anforderungen zu erfüllen.
+Partner Solutions kann direkt mit Ihren technischen Teams zusammenarbeiten, um Code bereitzustellen, auf letzte Anliegen einzugehen und andere Anforderungen zu erfüllen.
 
 ## Unterstützung nach der Implementierung {#post-implementation-support}
 
-Unsere gemeinsamen Bemühungen enden nicht mit der endgültigen Bereitstellung. Nachdem die Implementierung abgeschlossen ist, übernimmt unser Account Management Team.
+Unsere gemeinsamen Anstrengungen enden nicht mit der endgültigen Bereitstellung. Nach Abschluss der Implementierung übernimmt unser Account Management Team.
 
-Kundenbetreuer bieten nach Abschluss der Produktimplementierung kontinuierliche Support- und Beratungsdienste an. Sie können mit regelmäßigen Sitzungen mit Ihrem Kundenbetreuer rechnen. Diese Meetings stellen sicher, dass Sie den maximalen Nutzungs- und Nutzwert von Audience Manager erhalten.
+Account Manager bieten fortlaufenden Support und Beratungsservice, nachdem der Produktimplementierungsprozess abgeschlossen ist. Sie können regelmäßige Besprechungen mit Ihrem Account Manager erwarten. Diese Meetings stellen sicher, dass Sie die maximale Nutzung und den maximalen Wert aus dem Audience Manager erhalten.
 
-Kontaktieren Sie uns [hier](https://www.adobe.com/products/audiencemanager.html) , um weitere Informationen zu erhalten und mit Audience Manager zu beginnen.
+Kontaktieren Sie uns [hier](https://www.adobe.com/products/audiencemanager.html) für weitere Informationen und für den Einstieg in Audience Manager.

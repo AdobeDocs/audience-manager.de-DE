@@ -1,6 +1,6 @@
 ---
-description: Ruft eine Partner-spezifische DIL-Instanz ab.
-keywords: Audience Manager-API;AAM-API;Audience Manager-API;AAM-API
+description: Ruft eine partnerspezifische DIL-Instanz ab.
+keywords: Audience Manager-API;AAM-API;Audience Manager-APIs;AAM-APIs
 seo-description: Retrieves a partner-specific DIL instance.
 seo-title: getDil
 solution: Audience Manager
@@ -19,13 +19,13 @@ ht-degree: 6%
 
 >[!WARNING]
 >
->Ab Juli 2023 hat Adobe die Entwicklung der Erweiterung [!DNL Data Integration Library (DIL)] und der Erweiterung [!DNL DIL] eingestellt.
+>Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kunden können weiterhin ihre [!DNL DIL] -Implementierung verwenden. Adobe wird jedoch nicht mehr [!DNL DIL] als bisher entwickeln. Kunden wird empfohlen, das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie zu bewerten.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Allerdings wird sich Adobe nicht über diesen Punkt hinaus [!DNL DIL] entwickeln. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten stattdessen das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
-Ruft eine Partner-spezifische DIL-Instanz ab.
+Ruft eine partnerspezifische DIL-Instanz ab.
 
 **Funktionssignatur:** `getDil: function (partner, containerNSID) {}`
 
@@ -35,12 +35,12 @@ Ruft eine Partner-spezifische DIL-Instanz ab.
 
 | Name | Typ | Beschreibung |
 |---|---|---|
-| `partner` | Zeichenfolge | Der Name des zu suchenden Partners. |
-| `containerNSID` | Ganzzahl | Die Standardeinstellung ist `0`. Die NSID des Containers, nach dem Sie suchen. Optional. |
+| `partner` | Zeichenfolge | Der zu suchende Partnername. |
+| `containerNSID` | Ganzzahl | Die Standardeinstellung ist `0`. Die NSID des gesuchten Containers. Optional. |
 
 ## Antwort
 
-Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine Partner-spezifische [!UICONTROL DIL] -Instanz zurück. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot; zurück (gibt diesen nicht aus).
+Eine erfolgreiche Partner- und Container-NSID-Übereinstimmung gibt eine partnerspezifische [!UICONTROL DIL] zurück. Wenn keine Übereinstimmung vorliegt, gibt die API einen Fehler mit der Meldung &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot; zurück (gibt ihn nicht aus)
 
 ## Beispielcode
 

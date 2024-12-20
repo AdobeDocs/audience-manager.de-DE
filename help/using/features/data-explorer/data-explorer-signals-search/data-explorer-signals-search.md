@@ -1,5 +1,5 @@
 ---
-description: Suche nach verwendeten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu Zielgruppendaten > Signale > Suche.
+description: Suche nach gebrauchten und nicht verwendeten Signalen, die über einen bestimmten Zeitraum empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu Zielgruppendaten > Signale > Suche.
 seo-description: Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.
 seo-title: Signals Search
 title: Signalsuche
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Signalsuche - Überblick {#signals-search}
+# Übersicht über die Signalsuche {#signals-search}
 
-Suche nach verwendeten und nicht verwendeten Signalen, die über bestimmte Zeiträume empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu Zielgruppendaten > Signale > Suche.
+Suche nach gebrauchten und nicht verwendeten Signalen, die über einen bestimmten Zeitraum empfangen wurden. Um nach Signalen zu suchen, gehen Sie zu Zielgruppendaten > Signale > Suche.
 
 * [Suchsignale nach Schlüssel-Wert-Paaren](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
 * [Suchsignale nach Filtern](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)

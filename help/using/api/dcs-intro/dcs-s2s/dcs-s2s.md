@@ -1,5 +1,5 @@
 ---
-description: Server-zu-Server-APIs (S2S) bieten Code und Methoden, mit denen Sie DCS-Benutzerdaten senden und empfangen und mit diesen Informationen in Ihren eigenen Systemen oder Anwendungen arbeiten können.
+description: Server-zu-Server (S2S)-APIs stellen Code und Methoden bereit, mit denen Sie DCS-Benutzerdaten senden und empfangen und mit diesen Informationen in Ihren eigenen Systemen oder Anwendungen arbeiten können.
 seo-description: Server-to-server (S2S) APIs provide code and methods that let you send and receive DCS user data and work with this information in your own systems or applications.
 seo-title: DCS APIs for Server-to-Server Data Transfers
 solution: Audience Manager
@@ -16,36 +16,36 @@ ht-degree: 0%
 
 # DCS-APIs für Server-zu-Server-Datenübertragungen{#dcs-apis-for-server-to-server-data-transfers}
 
-Server-zu-Server ([!UICONTROL S2S]) [!DNL API]s stellen Code und Methoden bereit, mit denen Sie [!DNL DCS] Benutzerdaten senden und empfangen und mit diesen Informationen in Ihren eigenen Systemen oder Anwendungen arbeiten können.
+Server-zu-Server ([!UICONTROL S2S])-[!DNL API] stellen Code und Methoden bereit, mit denen Sie [!DNL DCS] Benutzerdaten senden und empfangen und mit diesen Informationen in Ihren eigenen Systemen oder Anwendungen arbeiten können.
 
 ## Häufige Anwendungsfälle {#common-use-cases}
 
-[!UICONTROL Server-to-server] -Übertragungen können Ihnen dabei helfen, Landingpages oder andere Interaktionen auf der Grundlage von Besucherinteressen anzupassen. Einige gängige Anwendungsfälle sind:
+[!UICONTROL Server-to-server] können Ihnen helfen, Landingpages oder andere Interaktionen auf der Grundlage der Besucherinteressen anzupassen. Einige gängige Anwendungsfälle sind:
 
-* Personalisierung auf der Site: Passen Sie das Erlebnis eines Besuchers auf Ihrer Site an, indem Sie relevante Inhalte und Aktionsaufrufe basierend auf den Segmenten, zu denen er gehört, dynamisch hinzufügen.
-* Verbessern des Kundendienstes: Importieren Sie [!DNL Audience Manager]-Segmente in ein [!DNL CRM]- oder anderes System durch eine Server-zu-Server-Datenübertragung. Diese Daten können Anrufdienst- oder Online-Chat-Benutzern relevante, personalisierte Informationen über einen Kunden liefern.
+* Personalisierung vor Ort: Passen Sie das Besuchererlebnis auf Ihrer Site an, indem Sie relevante Inhalte und Aktionsaufrufe basierend auf den Segmenten, zu denen sie gehören, dynamisch hinzufügen.
+* Verbesserter Kundendienst: Importieren Sie [!DNL Audience Manager] Segmente in ein [!DNL CRM] oder ein anderes System durch eine Server-zu-Server-Datenübertragung. Diese Daten können Anruf-Service- oder Online-Chat-Operatoren relevante, personalisierte Informationen über einen Kunden liefern.
 
-## Voraussetzungen: Benutzer-IDs und regionale Servernamen {#requirements}
+## Anforderungen: Benutzer-IDs und regionale Server-Namen {#requirements}
 
-Für den [!UICONTROL DCS API] sind Benutzer-IDs und Regions-IDs erforderlich, um Datenanfragen zu validieren und durchzuführen.
+Die [!UICONTROL DCS API] erfordert Benutzer-IDs und Regions-IDs, um Datenanfragen zu validieren und durchzuführen.
 
 * Die Benutzer-ID ist erforderlich, da Sie Daten mit einem bestimmten Besucher verknüpfen müssen.
-* Die Regions-ID ist erforderlich, um Aufrufe mit einem Servernamen zu verknüpfen, da Benutzerdaten in Rechenzentren gespeichert werden, die geografisch den Besuchern der Site am nächsten sind.
+* Die Regions-ID ist erforderlich, um Aufrufe an einen Servernamen zurückzubinden, und da Benutzerdaten in Rechenzentren gespeichert werden, die geografisch den Besuchern der Website am nächsten liegen.
 
 ## Erste Schritte {#getting-started}
 
-In diesem Handbuch werden derzeit folgende Themen behandelt:
+Derzeit wird in diesem Handbuch Folgendes behandelt:
 
-* Rufen Sie die Benutzer- und Regions-IDs aus den [!DNL DCS] -Dateien ab, die Sie möglicherweise bereits als [!DNL Audience Manager] -Kunde erhalten haben.
+* Rufen Sie die Benutzer- und Regions-IDs aus den [!DNL DCS] ab, die Sie möglicherweise bereits als [!DNL Audience Manager] erhalten haben.
 
 * Rufen Sie die Benutzer- und Regions-IDs ab, wenn Sie die [!DNL Visitor ID Service] verwenden.
 * Rufen Sie die [!DNL DCS] auf, nachdem Sie über die Benutzer- und Regions-ID verfügen.
 
-Wir fügen neue Methoden hinzu, sobald sie verfügbar werden. Erste Schritte finden Sie in den folgenden Abschnitten.
+Wir fügen neue Methoden hinzu, sobald sie verfügbar sind. Die ersten Schritte finden Sie in den folgenden Abschnitten.
 
 * [Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort](dcs-aam-ids.md)
-* [Abrufen von Benutzer-IDs und Regionen über die Experience Cloud-ID..](dcs-mcid-ids.md)
-* [Ausführen von Server-zu-Server-DCS-API-Aufrufen](dcs-s2s-calls.md)
+* [Abrufen von Benutzer-IDs und Regionen über die Experience Cloud-ID…](dcs-mcid-ids.md)
+* [Durchführen von Server-zu-Server-DCS-API-Aufrufen](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
 >

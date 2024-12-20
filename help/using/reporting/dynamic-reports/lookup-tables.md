@@ -1,9 +1,9 @@
 ---
-description: Fügen Sie Daten in die Protokolldateien des Berichts "Versandleistung"in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um die Dateigröße und Verarbeitungszeiten zu reduzieren.
+description: Fügen Sie Daten in die Protokolldateien des Versandleistungsberichts in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um die Dateigröße und die Verarbeitungszeiten zu reduzieren.
 seo-description: Put data in Delivery Performance report log files into tables that contain IDs only. Put non-ID metadata in separate lookup tables to help reduce file size and processing times.
 seo-title: Improve Log File Processing Times with Lookup Tables
 solution: Audience Manager
-title: Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen
+title: Verkürzen der Verarbeitungszeiten von Protokolldateien mit Lookup-Tabellen
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 feature: Reporting Reference
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
@@ -14,9 +14,9 @@ ht-degree: 13%
 
 ---
 
-# Verbessern der Verarbeitungszeiten für Protokolldateien mit Suchtabellen{#improve-log-file-processing-times-with-lookup-tables}
+# Verkürzen der Verarbeitungszeiten von Protokolldateien mit Lookup-Tabellen{#improve-log-file-processing-times-with-lookup-tables}
 
-Fügen Sie Daten in die Protokolldateien des Berichts &quot;Versandleistung&quot;in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um die Dateigröße und Verarbeitungszeiten zu reduzieren.
+Fügen Sie Daten in die Protokolldateien des Versandleistungsberichts in Tabellen ein, die nur IDs enthalten. Fügen Sie Nicht-ID-Metadaten in separate Suchtabellen ein, um die Dateigröße und die Verarbeitungszeiten zu reduzieren.
 
 <!-- 
 
@@ -24,33 +24,33 @@ c_lookup_tables.xml
 
  -->
 
-## Protokolldatei-Metadaten erhöhen Dateigröße und Verarbeitungszeit
+## Protokolldatei-Metadaten erhöhen die Dateigröße und die Verarbeitungszeit
 
-Eine typische Protokolldatei, die vom [!UICONTROL Delivery Performance] -Bericht verwendet wird, enthält in der Regel Tausende von Zeilen und Dutzende von Spalten. Sie besteht aus numerischen IDs und für Menschen lesbaren Informationen wie Namen für Kreative, Werbetreibende, Einfügeaufträge usw.
+Eine typische Protokolldatei, die vom [!UICONTROL Delivery Performance] verwendet wird, enthält in der Regel Tausende von Zeilen und Dutzende von Spalten. Es besteht aus numerischen IDs und von Menschen lesbaren Informationen wie Namen für Kreative, Werbetreibende, Insertionsaufträge usw.
 
-Diese Nicht-ID-Informationen werden als &quot;*`metadata`*&quot;(d. h. Informationen zu anderen Informationen) bezeichnet und in jede Zeile der Protokolldatei geschrieben.
+Diese Nicht-ID-Informationen werden als *`metadata`* (d. h. Informationen über andere Informationen) bezeichnet und in jede Zeile der Protokolldatei geschrieben.
 
-Der Bericht [!UICONTROL Delivery Performance] funktioniert jedoch hauptsächlich mit den IDs in der Protokolldatei. Die Metadaten sind nützlich, aber wiederholt. Dadurch werden die Dateigröße und die Datenerfassungszeiten erhöht.
+Der [!UICONTROL Delivery Performance]-Bericht funktioniert jedoch hauptsächlich mit den IDs in der Protokolldatei. Die Metadaten sind nützlich, aber sich wiederholend. Dies erhöht die Dateigröße und die Datenaufnahmezeiten.
 
-## Reduzierung der Dateigröße und Verkürzung der Verarbeitungszeit mit Indextabellen
+## Verringern der Dateigröße und Verkürzen der Verarbeitungszeit mit Indextabellen
 
-Um die Leistung zu verbessern, sollte Ihre Hauptdatendatei nur IDs enthalten. Fügen Sie Metadaten in eine separate Lookup- (oder Index-) Tabelle ein und verknüpfen Sie diese Datensätze mit der Hauptdatei, wobei eine für beide gemeinsame Schlüsselvariable vorhanden ist.
+Um die Leistung zu verbessern, sollte Ihre Hauptdatendatei nur IDs enthalten. Fügen Sie Metadaten in eine separate Lookup- (oder Index-)Tabelle ein und verknüpfen Sie diese Datensätze mit der Hauptdatei mit einer gemeinsamen Schlüsselvariablen.
 
-## Verringern der Dateigröße durch Suchtabellen
+## Verringern der Dateigröße durch Lookup-Tabellen
 
-Angenommen, Sie haben eine Datendatei, die der unten stehenden ähnelt.
+Angenommen, Sie haben eine Datendatei, die der folgenden ähnelt.
 
-| Benutzer-ID | Anzeigen-ID | Anzeigenname | Bestell-ID | Auftragsname | Advertiser-ID | Advertiser Name |
+| Benutzer-ID | Anzeigen-ID | Anzeigenname | Bestell-ID | Bestellname | Advertiser-ID | Advertiser-Name |
 |---|---|---|---|---|---|---|
-| 1 | 111 | Shoe A | 456 | Turnschuhe | 27 | Unternehmen A |
-| 2 | 111 | Shoe A | 456 | Turnschuhe | 27 | Unternehmen A |
-| 3 | 111 | Shoe A | 456 | Turnschuhe | 27 | Unternehmen A |
-| 4 | 222 | Schuhe B | 789 | Wandern | 14 | Unternehmen B |
-| 5 | 222 | Schuhe B | 789 | Wandern | 14 | Unternehmen B |
+| 1 | 111 | Schuh A | 456 | Turnschuhe | 27 | Unternehmen A |
+| 2 | 111 | Schuh A | 456 | Turnschuhe | 27 | Unternehmen A |
+| 3 | 111 | Schuh A | 456 | Turnschuhe | 27 | Unternehmen A |
+| 4 | 222 | Schuh B | 789 | Wandern | 14 | Unternehmen B |
+| 5 | 222 | Schuh B | 789 | Wandern | 14 | Unternehmen B |
 
 <br>
 
-Im Folgenden finden Sie die gleiche Protokolldatei mit entfernten Metadaten. Die Datei ist kleiner und einfacher zu verarbeiten, wenn sie nur aus IDs besteht.
+Hier sehen Sie dieselbe Protokolldatei mit entfernten Metadaten. Die Datei ist kleiner und einfacher zu verarbeiten, wenn sie nur aus IDs besteht.
 
 | Benutzer-ID | Anzeigen-ID | Bestell-ID | Advertiser-ID |
 |---|---|---|---|
@@ -62,13 +62,13 @@ Im Folgenden finden Sie die gleiche Protokolldatei mit entfernten Metadaten. Die
 
 <br>
 
-Die nachstehende Lookup-Datei enthält die Metadaten und kann mit der Anzeigen-ID wieder mit der Hauptdatei verknüpft werden. Beachten Sie auch die Größe. Anstatt jeden Advertiser mehrmals zu wiederholen, benötigen Sie nur jeweils eine Referenz.
+Die nachstehende Lookup-Datei enthält die Metadaten und kann mit der Anzeigen-ID mit der Hauptdatei verknüpft werden. Beachten Sie auch die Größe. Anstatt die einzelnen Advertiser mehrmals zu wiederholen, benötigen Sie nur jeweils eine Referenz.
 
-| Anzeigen-ID | Anzeigenname | Auftragsname | Advertiser Name |
+| Anzeigen-ID | Anzeigenname | Bestellname | Advertiser-Name |
 |---|---|---|---|
-| 111 | Shoe A | Turnschuhe | Unternehmen A |
-| 222 | Schuhe B | Wandern | Unternehmen B |
+| 111 | Schuh A | Turnschuhe | Unternehmen A |
+| 222 | Schuh B | Wandern | Unternehmen B |
 
-## APIs können die Notwendigkeit von Suchtabellen eliminieren
+## APIs können die Notwendigkeit von Lookup-Tabellen beseitigen
 
-Wenn Ihr Adserving-System über eine API verfügt, müssen Sie möglicherweise keine Metadaten in einer Lookup-Datei senden. Möglicherweise können wir diese Informationen über die API abrufen. In diesem Fall sollten Ihre Protokolldateien nur IDs enthalten. Wir arbeiten mit Ihnen zusammen, um zu ermitteln, ob Metadaten über eine API abgerufen werden können.
+Wenn Ihr Anzeigenverwaltungssystem über eine API verfügt, müssen Sie möglicherweise keine Metadaten in einer Lookup-Datei senden. Wir können diese Informationen möglicherweise über die API abrufen. In diesem Fall sollten die Protokolldateien nur IDs enthalten. Wir ermitteln gemeinsam mit Ihnen, ob Metadaten über eine API abgerufen werden können.

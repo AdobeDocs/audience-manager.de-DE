@@ -4,7 +4,7 @@ seo-description: Manage data collection and audience creation with rules-based, 
 keywords: Eigenschaft; Eigenschaften; Eigenschaftsübersicht
 seo-title: Traits Overview
 solution: Audience Manager
-title: Eigenschaften - Übersicht
+title: Übersicht über Eigenschaften
 feature: Traits
 exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 ---
 
-# [!UICONTROL Traits] Überblick {#traits-overview}
+# [!UICONTROL Traits] {#traits-overview}
 
 Verwalten Sie die Datenerfassung und Zielgruppenerstellung mit [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] oder [!UICONTROL folder traits]. Lesen Sie die unten verlinkten Seiten, um mit [!UICONTROL traits] zu beginnen:
 
 * [Eigenschaftendetailseite](/help/using/features/traits/trait-details-page.md)
 * [Trait Builder (Eigenschaftenaufbau)](/help/using/features/traits/about-trait-builder.md)
 * [Ordnereigenschaften: Info](/help/using/features/traits/about-folder-traits.md)
-* [Eigenschaftsspeicherung](/help/using/features/traits/trait-storage.md)
-* [Eigenschaften aktiver Zielgruppen und von Source synchronisierte Daten](/help/using/features/traits/client-activity-synced-audience-traits.md)
-* [Referenz zu Eigenschafts- und Segmentqualifikationen](/help/using/features/traits/trait-and-segment-qualification-reference.md)
+* [Speicherung von Eigenschaften](/help/using/features/traits/trait-storage.md)
+* [Aktive Zielgruppeneigenschaften und synchronisierte Source-Dateneigenschaften](/help/using/features/traits/client-activity-synced-audience-traits.md)
+* [Referenz zur Trait- und Segmentqualifikation](/help/using/features/traits/trait-and-segment-qualification-reference.md)

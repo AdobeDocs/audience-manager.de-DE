@@ -1,5 +1,5 @@
 ---
-description: Ein allgemeiner Überblick darüber, wie Audience Manager Informationen mit anderen Datenanbietern und -systemen austauschen.
+description: Ein allgemeiner Überblick darüber, wie Audience Manager Informationen mit anderen Datenanbietern und Systemen austauschen.
 seo-description: A high-level overview of how Audience Manager exchanges information with other data providers and systems.
 seo-title: Data Integration Methods
 solution: Audience Manager
@@ -16,84 +16,84 @@ ht-degree: 0%
 
 # Datenintegrationsmethoden {#data-integration-methods}
 
-Ein allgemeiner Überblick darüber, wie Audience Manager Informationen mit anderen Datenanbietern und -systemen austauschen.
+Ein allgemeiner Überblick darüber, wie Audience Manager Informationen mit anderen Datenanbietern und Systemen austauschen.
 
 ## Unterstützte Datenintegrationsmethoden: Echtzeit und [!DNL Server-to-Server] {#supported-methods}
 
-Die Wahl der richtigen Integrationsmethode hängt von einer Kombination aus geschäftlichen Anforderungen und den technischen Fähigkeiten Ihres Datenpartners ab. Audience Manager tauschen Besucherinformationen mit anderen Datenanbietern auf eine der folgenden Arten aus:
+Die Wahl der richtigen Integrationsmethode hängt von einer Kombination aus geschäftlichen Anforderungen und den technischen Fähigkeiten Ihres Datenpartners ab. Der Audience Manager tauscht Besucherinformationen mit anderen Datenanbietern auf eine der folgenden Arten aus:
 
-* **Echtzeit:** Überträgt Daten sofort, wenn ein Benutzer Ihre Site besucht. Diese Methode wird auch als *`synchronous`* -Integration bezeichnet.
-* **Batch ([!DNL Server-to-Server]):** Sendet Daten nach einem festgelegten Zeitplan zwischen Servern, nachdem ein Besucher die Seite verlassen hat. Diese Methode wird auch als *`out-of-band`* - oder *`asynchronous`* -Integration bezeichnet.
+* **Echtzeit:** Überträgt Daten sofort, wenn ein Benutzer Ihre Site besucht. Diese Methode wird auch als *`synchronous`*-Integration bezeichnet.
+* **Batch ([!DNL Server-to-Server]):** Überträgt Daten zwischen Servern nach einem festgelegten Zeitplan, nachdem ein Besucher die Seite verlassen hat. Diese Methode wird auch als *`out-of-band`*- oder *`asynchronous`*-Integration bezeichnet.
 
 ## Voraussetzungen: Erstellen einer Eigenschaftstaxonomie {#prereqs}
 
-Bevor der Integrationsprozess beginnt, denken Sie an [Eigenschaften erstellen](../features/traits/create-onboarded-rule-based-traits.md) und eine [Ordnerstruktur](../features/traits/trait-storage.md#create-trait-storage-folder) in der Benutzeroberfläche von [!DNL Audience Manager]. Die Taxonomie enthält alle Ihre [!UICONTROL traits], die in einer logischen Hierarchie organisiert sind.
+Bevor der Integrationsprozess beginnt, denken Sie daran[ in der [!DNL Audience Manager]-Benutzeroberfläche Eigenschaften ](../features/traits/create-onboarded-rule-based-traits.md) eine [Ordnerstruktur](../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen. Die Taxonomie enthält alle [!UICONTROL traits], die in einer logischen Hierarchie organisiert sind.
 
 ## Anwendungsfälle für die Integration {#integration-use-cases}
 
-Eine Anwendungsfallzusammenfassung der Audience Manager-Datenintegrationsmethoden sowie der Vor- und Nachteile jeder einzelnen Methode.
+Eine Zusammenfassung der Anwendungsfälle von Audience Manager-Datenintegrationsmethoden zusammen mit den Vor- und Nachteilen der jeweiligen Methode.
 
-### Echtzeit- [!DNL Server-to-Server] Integrationen
+### Integrationen von [!DNL Server-to-Server] in Echtzeit
 
 <!-- c_int_types_use_cases.xml -->
 
-Durch die Echtzeit-Datenintegration von [!DNL server-to-server] werden Benutzerdaten schnell zwischen den Audience Manager-Servern und einem anderen Targeting-System synchronisiert. In den meisten Fällen erfolgt der Datenaustausch innerhalb von Sekunden oder Minuten, je nach Aktualisierungsrate des Targeting-Systems. Beachten Sie jedoch, dass das Targeting-System dieses Aktualisierungsintervall und nicht den Audience Manager bestimmt. Darüber hinaus kann die Aktualisierungsrate zwischen verschiedenen Systemen variieren. Eine Echtzeit-, [!UICONTROL server-to-server]-Integration ist der bevorzugte Integrationstyp für den Datenaustausch. Audience Manager verwendet diese Methode immer dann, wenn Targeting-Partner sie unterstützen können.
+Eine Echtzeit-[!DNL server-to-server] synchronisiert Benutzerdaten schnell zwischen Audience Manager-Servern und einem anderen Targeting-System. In den meisten Fällen erfolgt der Datenaustausch je nach Aktualisierungsrate des Targeting-Systems innerhalb von Sekunden oder Minuten. Beachten Sie jedoch, dass das Zielsystem dieses Aktualisierungsintervall bestimmt und nicht den Audience Manager. Außerdem kann die Aktualisierungsrate zwischen verschiedenen Systemen variieren. Eine Echtzeit-[!UICONTROL server-to-server] ist der bevorzugte Integrationstyp für den Datenaustausch. Diese Methode wird von Audience Manager immer dann verwendet, wenn Zielgruppenbestimmungspartner sie unterstützen können.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
   <td class="stentry"> <p>Vorteile: </p></td>
   <td class="stentry"> 
    <ul id="ul_F251AFF8A2FA49D0849E36D7FAE87DE7"> 
-    <li id="li_1737EBB1AD8844BD87E736BB4D8080EF">Damit können Sie Benutzer für Segmente qualifizieren, ohne sie erneut auf der Seite, in einem Videoplayer usw. anzuzeigen. </li>
-    <li id="li_1C1F346CB7BD40508AA5A6918C6B8514"> Reduziert die Anzahl der HTTP-Aufrufe von der Seite. Weniger Aufrufe tragen dazu bei, das Benutzererlebnis zu erhalten. </li>
-    <li id="li_046BF4568B104F53A0E5372568C957CD">Hilft mit zeitkritischem Targeting, sodass Sie schnell Aktionen für einen qualifizierten Benutzer durchführen können. </li>
+    <li id="li_1737EBB1AD8844BD87E736BB4D8080EF">Ermöglicht es Ihnen, Benutzer für Segmente zu qualifizieren, ohne sie erneut auf der Seite, in einem Video-Player usw. zu sehen. </li>
+    <li id="li_1C1F346CB7BD40508AA5A6918C6B8514"> Verringert die Anzahl der HTTP-Aufrufe von der Seite. Weniger Aufrufe helfen, das Benutzererlebnis zu erhalten. </li>
+    <li id="li_046BF4568B104F53A0E5372568C957CD">Hilft beim zeitabhängigen Targeting, damit Sie schnell Aktionen für einen qualifizierten Benutzer durchführen können. </li>
     <li id="li_70F7AB19AC5D4A9AB80216A2B05163B8">Nützlich beim Wechsel zu einer DSP für Offsite-Targeting. </li>
    </ul></td>
  </tr>
  <tr class="strow">
   <td class="stentry"> Nachteile:</td>
-  <td class="stentry"> Weniger nützlich für Onsite-Targeting, wenn Sie den Benutzer auf derselben Seite oder auf der nächsten Seite ansprechen müssen, je nachdem, ob Sie einen Benutzer für dieses Segment qualifizieren.</td>
+  <td class="stentry"> Weniger nützlich für das Targeting auf einer Site, wenn Benutzende auf derselben Seite oder auf der nächsten Seite angesprochen werden müssen, je nachdem, ob eine Benutzerin oder ein Benutzer für dieses Segment qualifiziert wird.</td>
  </tr>
 </table>
 
 ### [!DNL Server-to-Server] Batch-Integrationen
 
-Bei einer Batch-Integration mit dem Status [!DNL server-to-server] werden Daten gebündelt und in festgelegten Intervallen und nicht in nahezu Echtzeit an andere Systeme gesendet. Die Datenübertragungsintervalle beginnen mit 24 Stunden. Einige Datenanbieter unterstützen nur diesen Integrationstyp. Wir haben jedoch einen allgemeinen Trend von Batch-Integrationen zu Echtzeit-Integrationsmethoden gesehen.
+Bei einer [!DNL server-to-server] Batch-Integration werden Daten gebündelt und in bestimmten Intervallen und nicht nahezu in Echtzeit an andere Systeme gesendet. Die Intervalle für die Datenübertragung beginnen nach 24 Stunden. Einige Datenanbieter unterstützen nur diesen Integrationstyp. Es gab jedoch einen allgemeinen Trend von Batch-Integrationen hin zu Echtzeit-Integrationsmethoden.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
   <td class="stentry"> <p>Vorteile: </p></td>
   <td class="stentry"> 
    <ul id="ul_1E9B48B06E764D3AB6F2D702EB4922DC"> 
-    <li id="li_1CF0E018660347B3A5AF79160F74FBDB">Damit können Sie Benutzer für Segmente qualifizieren, ohne sie erneut auf der Seite, in einem Videoplayer usw. anzuzeigen. </li> 
-    <li id="li_B6A9DF9C0D8B44A48F032F2FDB5B3956">Nützlich für Targeting, das nicht zeitkritisch ist. </li>
+    <li id="li_1CF0E018660347B3A5AF79160F74FBDB">Ermöglicht es Ihnen, Benutzer für Segmente zu qualifizieren, ohne sie erneut auf der Seite, in einem Video-Player usw. zu sehen. </li> 
+    <li id="li_B6A9DF9C0D8B44A48F032F2FDB5B3956">Nützlich für die Zielgruppenbestimmung, die nicht zeitkritisch ist. </li>
    </ul></td>
  </tr>
  <tr class="strow">
   <td class="stentry"> Nachteile:</td>
-  <td class="stentry"> Das Synchronisierungsintervall kann die Zielgruppenbestimmung für die aktuellsten Daten verzögern.</td>
+  <td class="stentry"> Das Synchronisierungsintervall kann die Zielgruppenbestimmung für die aktuellen Daten verzögern.</td>
  </tr>
 </table>
 
-### Echtzeitaufrufe
+### Echtzeit-Aufrufe
 
-Echtzeit-Aufrufe tauschen Daten sofort mit Audience Manager aus, wenn ein Benutzer Ihre Site besucht oder auf der Seite Maßnahmen ergreift. Mit dieser Methode erhalten Targeting-Systeme die aktuellsten Daten zur Segmentqualifizierung und können diese Informationen bei der Entscheidung über einen Inhalt oder einen Anzeigenversand berücksichtigen. Dieser Prozess funktioniert auch mit Publisher-Adservern, bei denen wir qualifizierte Segmente in ein Erstanbieter-Cookie aktualisieren, das als Schlüssel-Wert-Paare in einen Anzeigenaufruf gelesen wird. Derzeit verwendet Audience Manager Echtzeit-Aufrufe zur Integration in [!DNL Adobe Target] und andere Content-Management-Systeme.
+Bei Echtzeit-Aufrufen werden Daten sofort mit dem Audience Manager ausgetauscht, wenn ein Benutzer Ihre Site besucht oder eine Aktion auf der Seite durchführt. Mit dieser Methode erhalten Targeting-Systeme die aktuellsten Segmentqualifikationsdaten und können diese Informationen bei einer Entscheidung über die Bereitstellung von Inhalten oder Anzeigen berücksichtigen. Außerdem funktioniert dieser Prozess mit Publisher-Ad-Servern, auf denen wir qualifizierte Segmente zu einem Erstanbieter-Cookie aktualisieren, das als Schlüssel-Wert-Paare in einen Ad-Aufruf gelesen wird. Derzeit nutzt Audience Manager Echtzeit-Aufrufe zur Integration mit [!DNL Adobe Target] und anderen Content-Management-Systemen.
 
 <table> 
  <tr>
   <td> <p>Vorteile: </p></td>
-  <td> <p> Ermöglicht das Targeting der nächsten Seite, des Inhaltsbereichs oder der Anzeigenimpressionen anhand der neuesten Segmentqualifizierung. </p></td> 
+  <td> <p> Ermöglicht das Targeting der nächsten Seite, des nächsten Inhaltsbereichs oder der nächsten Anzeigenimpression anhand der letzten Segmentqualifikation. </p></td> 
  </tr> 
  <tr>
   <td> <p>Nachteile: </p></td>
-  <td> <p>Fügt einen Aufruf an Audience Manager von der Seite hinzu.</p></td>
+  <td> <p>Fügt dem Audience Manager einen Seitenaufruf hinzu.</p></td>
  </tr> 
 </table>
 
 
-### Pixel-Synchronisation mit Targeting-Systemen
+### Pixel werden mit Zielsystemen synchronisiert
 
-Bei der Pixelsynchronisierung werden Segmente Pixel auf der Seite zugeordnet. Das Pixel löst Daten aus und sendet sie, wenn ein Benutzer sich für ein bestimmtes Segment qualifiziert. Die Pixelsynchronisierung ist ein rudimentärer und unzuverlässiger Datenübertragungsmechanismus. Datenanbieter und -systeme der obersten Ebene verwenden sie selten.
+Bei der Pixelsynchronisierung werden Segmente den Pixeln auf der Seite zugeordnet. Das Pixel löst Daten aus und überträgt sie, wenn sich ein Benutzer für ein bestimmtes Segment qualifiziert. Die Pixelsynchronisation ist ein rudimentärer und unzuverlässiger Datenübertragungsmechanismus. Datenanbieter und Systeme der obersten Ebene verwenden sie nur selten.
 
 <table id="simpletable_39E4CD139CCF4417842AA28CDFFB6EB1"> 
  <tr class="strow">
@@ -104,8 +104,8 @@ Bei der Pixelsynchronisierung werden Segmente Pixel auf der Seite zugeordnet. Da
   <td class="stentry"> <p>Nachteile: </p></td>
   <td class="stentry"> 
    <ul id="ul_5217EDC82434401493C2C96823C068E9"> 
-    <li id="li_26EB0458CA1844908C005A47F55E50AC">Kann viele clientseitige Aufrufe von der Seite hinzufügen. </li>
-    <li id="li_CD91F3DC92F2429293787D61506E5E04">Unzuverlässig für die Datenübertragung. Ein Verlust von 5 % bis 20 % ist normal. </li>
+    <li id="li_26EB0458CA1844908C005A47F55E50AC">Es können viele Client-seitige Aufrufe von der Seite hinzugefügt werden. </li>
+    <li id="li_CD91F3DC92F2429293787D61506E5E04">Unzuverlässig für die Datenübertragung. 5% bis 20% Verlust ist normal. </li>
    </ul></td>
  </tr> 
 </table>
@@ -116,10 +116,10 @@ Beschreibt technische und geschäftliche Gründe für das Senden von Daten über
 
 <!-- c_int_delivery_choices.xml -->
 
-### Auswahl eines Datenbereitstellungstyps
+### Datenbereitstellungstyp auswählen
 
-* **Technische Aspekte:** Die Datenbereitstellung hängt von den technischen Funktionen des Datenpartners ab. Audience Manager können Daten in Echtzeit vom Browser oder durch Batch-Aktualisierungen über Offline-, Server-zu-Server-Kommunikationsprozesse senden/empfangen.
-* **Geschäftliche Aspekte:** Die geschäftlichen Gründe für die Auswahl einer Versandmethode oder einer anderen hängen von den technischen Fähigkeiten Ihres Zielpartners und der Art und Weise ab, wie Sie diese Daten verwenden möchten. In der Regel sind synchrone Datenübertragungen nützlich, wenn Sie sofort Maßnahmen in Bezug auf Benutzerdaten ergreifen müssen. Asynchrone Datenübertragungen können nützlich sein, wenn keine sofortigen Maßnahmen erforderlich sind und Sie Zeit haben, tiefere Benutzerprofile für die spätere Verwendung zu erstellen.
+* **Technische Überlegungen:** Die Datenbereitstellung hängt von den technischen Fähigkeiten des Datenpartners ab. Der Audience Manager kann Daten in Echtzeit über den Browser senden/empfangen oder durch Batch-Aktualisierungen über Offline-Server-zu-Server-Kommunikationsprozesse aktualisieren.
+* **Geschäftliche Überlegungen** Die geschäftlichen Gründe für die Auswahl der einen oder anderen Versandmethode hängen von den technischen Fähigkeiten Ihres Zielpartners und davon ab, wie Sie diese Daten verwenden möchten. Synchrone Datenübertragungen sind in der Regel dann nützlich, wenn Sie unmittelbar auf Benutzerdaten reagieren müssen. Asynchrone Datenübertragungen können nützlich sein, wenn kein sofortiges Handeln erforderlich ist und wenn Sie Zeit haben, tiefere Benutzerprofile für die spätere Verwendung zu erstellen.
 
 ## Echtzeit-Datenübertragungsprozess {#real-time-data-transfer-process}
 
@@ -129,41 +129,41 @@ Ein allgemeiner Überblick darüber, wie Audience Manager einen synchronen Daten
 
 <!-- c_int_overview_sync.xml -->
 
-Bei Echtzeit-Datenübertragungen werden Segment-IDs gesendet und empfangen, wenn ein Benutzer Ihre Site besucht oder Maßnahmen ergreift. In der Regel sind synchrone Datenübertragungen nützlich, wenn Sie Benutzer sofort qualifizieren oder segmentieren müssen, während sie durch Ihren Bestand navigieren.
+Bei Echtzeit-Datenübertragungen werden Segment-IDs gesendet und empfangen, wenn ein Benutzer Ihre Site besucht oder eine Aktion auf Ihrer Site ausführt. In der Regel sind synchrone Datenübertragungen nützlich, wenn Sie Benutzende qualifizieren oder segmentieren müssen, während sie durch Ihren Bestand navigieren.
 
-### Schritte zur Datenintegration in Echtzeit
+### Schritte zur Echtzeit-Datenintegration
 
 Der Echtzeit-Datenintegrationsprozess funktioniert wie folgt:
 
-1. Ein Benutzer besucht die Site eines Kunden, die Audience Manager-Code enthält.
-1. Audience Manager lädt einen Iframe und führt einen Aufruf an den [!UICONTROL Data Collection Server] ([!DNL DCS]) durch.
-1. Der [!DNL DCS] ruft den Drittanbieter-Server (in Echtzeit) auf, um zu überprüfen, ob der Anbieter über Segmentinformationen zum Benutzer verfügt.
-1. Der Drittanbieter gibt Segmentinformationen über diesen Benutzer an den Audience Manager zurück.
-1. Audience Manager erfasst Segmentinformationen und stellt sie für das Targeting bereit.
+1. Ein Besucher besucht die Website eines Kunden, die Audience Manager-Code enthält.
+1. Audience Manager lädt einen Iframe und ruft die [!UICONTROL Data Collection Server] ([!DNL DCS]) auf.
+1. Der [!DNL DCS] ruft den Drittanbieterserver (in Echtzeit) auf, um zu überprüfen, ob der Anbieter über Segmentinformationen zum Benutzer verfügt.
+1. Der Drittanbieter gibt Segmentinformationen zu diesem Benutzer an den Audience Manager zurück.
+1. Audience Manager nimmt Segmentinformationen auf und stellt sie für die Zielgruppenbestimmung zur Verfügung.
 
 ![](assets/rt_reduce70.png)
 
 ## Batch-Datenübertragungsprozess {#batch-data-transfer-process}
 
-Ein allgemeiner Überblick darüber, wie Audience Manager Daten synchron (in Echtzeit) mit einem Drittanbieter austauschen.
+Ein allgemeiner Überblick darüber, wie der Audience Manager Daten synchron (in Echtzeit) mit einem Drittanbieter austauscht.
 
 ### Batch-Datenintegration
 
 <!-- c_int_overview_async.xml -->
 
-Der Integrationsprozess für Batch-Daten ([!DNL server-to-server]) folgt den meisten im Echtzeit-Datenübertragungsprozess beschriebenen Schritten. Anstatt jedoch sofort Segment-IDs zurückzugeben, werden Benutzerinformationen auf unseren Servern gespeichert und in regelmäßigen Abständen mit einem Drittanbieter synchronisiert. Der Prozess der asynchronen Datenübertragung ist nützlich, wenn:
+Der Batch-([!DNL server-to-server])-Datenintegrationsprozess folgt den meisten Schritten, die im Echtzeit-Datenübertragungsprozess beschrieben werden. Anstatt jedoch Segment-IDs sofort zurückzugeben, werden Benutzerinformationen auf unseren Servern gespeichert und in regelmäßigen Abständen mit einem Drittanbieter synchronisiert. Der asynchrone Datenübertragungsprozess ist nützlich, wenn:
 
-* Eine sofortige Datenübertragung ist nicht erforderlich.
-* Erfassen von Daten zum Erstellen eines großen Pools segmentierter Benutzer.
-* Sie möchten Datendiskrepanzen und `HTTP` -Aufrufe aus dem Browser reduzieren.
+* Sofortige Datenübertragungen sind nicht erforderlich.
+* Erfassen von Daten, um einen großen Pool segmentierter Benutzender zu erstellen.
+* Sie möchten Datendiskrepanzen reduzieren und Aufrufe aus dem Browser `HTTP`.
 
 ### Schritte zur Batch-Datenintegration
 
 1. Ein Benutzer besucht eine Kunden-Site.
-1. Audience Manager und der Drittanbieter für Daten weisen dem Besucher eine eindeutige ID zu (normalerweise mit einem Cookie).
-1. Audience Manager ruft den Drittanbieter von Daten auf, um Besucher-IDs zuzuordnen.
-1. Bei einer geplanten Anforderung, die normalerweise in einem täglichen Intervall erfolgt, werden Besuchersegmentdaten zwischen Audience Manager und Ihrem Drittanbieter ausgetauscht.
+1. Audience Manager und Drittanbieter weisen dem Besucher eine eindeutige ID zu (in der Regel mit einem Cookie).
+1. Audience Manager ruft den Drittanbieter-Datenanbieter auf, um Besucher-IDs abzugleichen.
+1. Bei einer geplanten Anfrage werden in der Regel in einem täglichen Intervall Besuchersegmentdaten zwischen dem Audience Manager und dem Drittanbieter ausgetauscht.
 
 ![](assets/s2s_70.png)
 
-Informationen zu den Zeitrahmen für die Verarbeitung von eingehenden und ausgehenden [!DNL Server-to-Server] ([!UICONTROL S2S]) Dateiübertragungen durch Audience Manager finden Sie unter [Richtlinien für die Berichterstellung und den Dateiübertragungszeitrahmen](../reference/reporting-file-transfer-timeframe.md).
+Informationen zu den Zeitrahmen, in denen der Audience Manager eingehende und ausgehende [!DNL Server-to-Server] ([!UICONTROL S2S])-Dateiübertragungen verarbeitet, finden Sie [Richtlinien für Berichte und Dateiübertragungen](../reference/reporting-file-transfer-timeframe.md).

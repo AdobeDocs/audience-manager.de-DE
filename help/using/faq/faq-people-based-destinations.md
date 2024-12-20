@@ -23,7 +23,7 @@ Antworten auf häufige Fragen zu [!DNL People-Based Destinations].
 
 [!DNL People-Based Destinations] ist eine Premium-Funktion von Audience Manager, die bei Kauf verfügbar ist. Informationen zu Preisen und Verfügbarkeit erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
 
-## Datenintegration {#data-onboarding}
+## Daten-Onboarding {#data-onboarding}
 
 **Wie kann ich Kunden-E-Mail-Adressen in Audience Manager einbinden, damit ich sie in [!DNL People-Based Destinations] verwenden kann?**
 
@@ -80,7 +80,7 @@ Audience Manager kann bis zu 10 E-Mails pro Benutzer sammeln und an Zielplattfo
 
 **Kann ich [!DNL People-Based Destinations] in [!DNL Audience Lab] verwenden?**
 
-Nein. Derzeit sind alle [!DNL People-Based Destinations] -Ziele von [!DNL Audience Lab] ausgeschlossen. Da [!DNL People-Based Destinations]- und Demand-Side-Plattformen unterschiedliche IDs verwenden, können Sie die Leistung nicht mit Zielgruppen testen und messen, die gleichmäßig zwischen ihnen aufgeteilt sind.
+Nein. Derzeit sind alle [!DNL People-Based Destinations] Ziele von [!DNL Audience Lab] ausgeschlossen. Da [!DNL People-Based Destinations]- und Demand-Side-Plattformen unterschiedliche IDs verwenden, ist es nicht möglich, die Leistung mit Audiences zu testen und zu messen, die gleichmäßig zwischen ihnen aufgeteilt sind.
 
 ## Datenexportkontrolle {#data-export-controls}
 
@@ -116,6 +116,6 @@ Sie können die [!DNL Facebook] [!DNL WCA]-Integration von Audience Manager üb
 
 Diese beiden Integrationen ergänzen sich. Sie können beide verwenden, um eine bessere Zielgruppenabdeckung sicherzustellen. Beispielsweise kann [!DNL WCA] für die Identifizierung von potenziellen Kunden verwendet werden, wenn eine Firma Website-Besuchern ansprechen möchte, die noch kein Konto registriert haben, während [!DNL People-Based Destinations] Ihnen beim Ansprechen bestehender Kunden helfen können, die ihre E-Mail-Adresse angegeben, aber möglicherweise nicht die Website besucht haben.
 
-**Unterstützt die Integration von [!DNL People-Based Destinations] mit [!DNL Facebook] die Deaktivierung eines Benutzers aus einer Zielgruppe, wenn er sich nicht mehr dafür qualifiziert?**
+**Unterstützt die [!DNL People-Based Destinations]-Integration mit [!DNL Facebook] die Disqualifizierung von Benutzenden aus einer Zielgruppe, wenn diese nicht mehr für die Zielgruppe qualifiziert sind?**
 
 Ja, die Integration unterstützt das Entfernen von Benutzern aus [!DNL Facebook] Zielgruppen, wenn sie sich nicht mehr für sie qualifizieren.

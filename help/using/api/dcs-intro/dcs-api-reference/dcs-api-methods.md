@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# [!DNL DCS] [!DNL API] Methoden {#dcs-api-methods}
+# [!DNL DCS] [!DNL API] {#dcs-api-methods}
 
-Senden Sie Daten mit den Methoden `GET` oder `POST` an die [!DNL DCS] [!DNL API].
+Senden Sie Daten mithilfe von `GET`- oder `POST`-Methoden an die [!DNL DCS] [!DNL API].
 
-Sie können Daten mit einer der Methoden `GET` oder `POST` an die [!DNL DCS] senden. Sehen Sie sich die folgenden Beispielaufrufe mit [curl](https://curl.haxx.se/) an. In allen drei Beispielaufrufen fügen wir die Signale `c_likes = famous popstar` und `c_loves = famous actress` zum Geräteprofil `12345678901234567890123456789012345678` hinzu.
+Sie können Daten mit einer der Methoden `GET` oder `POST` an die [!DNL DCS] senden. Sehen Sie sich die folgenden Beispielaufrufe an, indem Sie [curl](https://curl.haxx.se/) verwenden. In allen drei Beispielaufrufen fügen wir die Signale `c_likes = famous popstar` und `c_loves = famous actress` zur `12345678901234567890123456789012345678` des Geräteprofils hinzu.
 
-## Daten senden über [!DNL GET] {#send-data-via-get}
+## Senden von Daten über [!DNL GET] {#send-data-via-get}
 
-Beachten Sie, dass die maximal zulässige Größe für `GET` -Aufrufe 8 K beträgt.
+Beachten Sie, dass die maximal zulässige Größe für `GET`-Aufrufe 8K beträgt.
 
 ```
 curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
 ```
 
-## Daten senden über [!DNL POST] {#send-data-via-post}
+## Senden von Daten über [!DNL POST] {#send-data-via-post}
 
-Beachten Sie die Anforderungen zum Senden von Daten mit der `POST` -Methode:
+Beachten Sie die Anforderungen für das Senden von Daten mit der `POST`-Methode:
 
 * Die maximal zulässige Größe beträgt 32 K.
-* Setzen Sie den Inhaltstyp auf `application/x-www-form-urlencoded`.
+* Legen Sie den Inhaltstyp auf `application/x-www-form-urlencoded` fest.
 
 ### Beispielaufruf
 

@@ -13,7 +13,7 @@ ht-degree: 98%
 
 ---
 
-# DSGVO-Bereitschaftsleitfaden für Audience Manager-Kunden (Datenverantwortliche) {#gdpr-readiness-guidance}
+# Handbuch zur DSGVO-Bereitschaft für Audience Manager-Kunden (Datenverantwortliche) {#gdpr-readiness-guidance}
 
 Audience Manager empfiehlt, im Bereich der Data Governance und der Organisationsbereitschaft proaktiv zu sein. Auf diese Weise können Sie sicherstellen, dass Ihre Verbraucherdaten für Prozesse im Zusammenhang mit Zugriffs- oder Löschanfragen organisiert werden, Ihre Teams in die Lage versetzt werden, diese Anfragen zu verwalten, und dass Ihre Verbraucher (betroffene Personen) ein positives, differenziertes Erlebnis mit Ihrer Marke haben.
 

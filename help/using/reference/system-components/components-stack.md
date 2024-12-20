@@ -1,5 +1,5 @@
 ---
-description: 'Audience Manager gruppiert seine Systeme und Prozesse in vier Hauptkategorien: Tag-Management, Datenerfassung, Datenorganisation und Umsetzbarkeit von Daten.'
+description: 'Audience Manager gruppiert seine Systeme und Prozesse in vier Hauptkategorien: Tag-Management, Datenerfassung, Datenorganisation und Datenaktionsfähigkeit.'
 seo-description: Audience Manager groups its systems and processes into four main categories  tag management, data collection, data organization, and data actionability.
 seo-title: Key Components in the Audience Manager System
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Schlüsselkomponenten im Audience Manager-System{#key-components-in-the-audience-manager-system}
 
-Audience Manager gruppiert seine Systeme und Prozesse in vier Hauptkategorien: Tag-Management, Datenerfassung, Datenorganisation und Datenverwertbarkeit.
+Audience Manager unterteilt seine Systeme und Prozesse in vier Hauptkategorien: Tag-Management, Datenerfassung, Datenorganisation und Datenaktionsfähigkeit.
 
 <!-- 
 
@@ -24,6 +24,6 @@ c_compstack.xml
 
  -->
 
-Die folgende Abbildung zeigt die Hauptkomponenten und die zugrunde liegende Technologie (Hardware und Software) mit [!DNL Audience Manager] Leistung. Obwohl einige Prozesse bestimmte Funktionen ausführen und andere über Mehrzweck-Rollen verfügen, arbeiten alle Systeme zusammen, um Sie bei der Verwaltung von Tags, der Erfassung von Daten, der Analyse der Leistung, der Synchronisierung von Informationen mit anderen Systemen und der Durchführung von Maßnahmen zu diesen Informationen zu unterstützen.
+Die folgende Abbildung zeigt die Hauptkomponenten und die zugrunde liegende Technologie (Hardware und Software), die [!DNL Audience Manager] unterstützt. Obwohl einige Prozesse bestimmte Funktionen ausführen und andere multifunktionale Rollen haben, arbeiten alle Systeme zusammen, um Sie bei der Verwaltung von Tags, der Erfassung von Daten, der Leistungsanalyse, der Synchronisierung von Informationen mit anderen Systemen und der Durchführung von Aktionen mit diesen Informationen zu unterstützen.
 
 ![](assets/components.png)

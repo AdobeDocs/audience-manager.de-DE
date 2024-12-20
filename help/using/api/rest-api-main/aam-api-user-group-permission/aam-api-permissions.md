@@ -3,7 +3,7 @@ description: REST-API-Methoden zum Verwalten von Berechtigungen für Objekte und
 seo-description: Rest API methods to manage permissions for objects and groups.
 seo-title: Permissions Management API Methods
 solution: Audience Manager
-title: API-Methoden für die Berechtigungsverwaltung
+title: API-Methoden zur Berechtigungsverwaltung
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
 exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 ---
 
-# API-Methoden für die Berechtigungsverwaltung {#permissions-management-api-methods}
+# API-Methoden zur Berechtigungsverwaltung {#permissions-management-api-methods}
 
-Rest [!DNL API]-Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
+REST [!DNL API] Methoden zum Verwalten von Berechtigungen für Objekte und Gruppen.
 
 <!-- c_rest_api_perm_man.xml -->
 
 ## Verfügbare Objekttypen auflisten {#list-object-types}
 
-Eine `GET` -Methode, um verfügbare Objekttypen aufzulisten, für die rollenbasierte Zugriffssteuerungen festgelegt werden können.
+Eine `GET` Methode zum Auflisten der verfügbaren Objekttypen, für die rollenbasierte Zugriffssteuerelemente festgelegt werden können.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -36,9 +36,9 @@ Eine `GET` -Methode, um verfügbare Objekttypen aufzulisten, für die rollenbasi
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Verfügbare Berechtigungen für einen Objekttyp auflisten {#list-permissions-object-type}
+## Auflisten der verfügbaren Berechtigungen für einen Objekttyp {#list-permissions-object-type}
 
-Eine `GET` -Methode zum Auflisten der verfügbaren Berechtigungen für einen Objekttyp.
+Eine `GET` Methode zum Auflisten der verfügbaren Berechtigungen für einen Objekttyp.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -57,4 +57,4 @@ Eine `GET` -Methode zum Auflisten der verfügbaren Berechtigungen für einen Obj
 
 >[!NOTE]
 >
->Die Objekttypen TAGS und DERIVED SIGNALS verfügen nicht über reguläre Berechtigungen zur Verwendung. Die Steuerelemente für diese Objekttypen werden nur durch die Berechtigungen Alle oder Keine Platzhalter geändert.
+>Die Objekttypen TAGS und DERIVED SIGNALS verfügen über keine regulären Verwendungsberechtigungen. Die Steuerelemente für diese Objekttypen werden nur durch die Platzhalterberechtigungen „Alles oder nichts“ geändert.

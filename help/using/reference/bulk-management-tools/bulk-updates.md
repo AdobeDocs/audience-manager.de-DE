@@ -1,6 +1,6 @@
 ---
-description: Mit einer Massenaktualisierung können Sie mehrere Segmente, Eigenschaften, Modelle, Datenquellen und Segment- oder Eigenschaftenordnerelemente in einem Vorgang bearbeiten. Befolgen Sie diese Anweisungen, um Massenaktualisierungen durchzuführen.
-keywords: baaam
+description: Mit einer Massenaktualisierung können Sie mehrere Segmente, Eigenschaften, Modelle, Datenquellen und Segment- oder Trait-Ordnerelemente in einem einzigen Vorgang bearbeiten. Befolgen Sie diese Anweisungen, um Massenaktualisierungen durchzuführen.
+keywords: Baaam
 seo-description: A bulk update lets you edit multiple segments, traits, models, data sources, and segment or trait folder elements in a single operation. Follow these instructions to make bulk updates.
 seo-title: Bulk Updates
 solution: Audience Manager
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Massenaktualisierungen{#bulk-updates}
 
-Mit einer Massenaktualisierung können Sie mehrere Segmente, Eigenschaften, Modelle, Datenquellen und Segment- oder Eigenschaftenordnerelemente in einem Vorgang bearbeiten. Befolgen Sie diese Anweisungen, um Massenaktualisierungen durchzuführen.
+Mit einer Massenaktualisierung können Sie mehrere Segmente, Eigenschaften, Modelle, Datenquellen und Segment- oder Trait-Ordnerelemente in einem einzigen Vorgang bearbeiten. Befolgen Sie diese Anweisungen, um Massenaktualisierungen durchzuführen.
 
 >[!IMPORTANT]
 >
->Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support durch die Kundenunterstützung werden von Fall zu Fall durchgeführt.
+>Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support über die Kundenunterstützung werden von Fall zu Fall durchgeführt.
 
 <!-- 
 
@@ -31,24 +31,24 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->[In der Benutzeroberfläche von [!DNL Audience Manager] zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
+>[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md), die in der [!DNL Audience Manager]-Benutzeroberfläche zugewiesen sind, werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
 
-Um Massenaktualisierungen vorzunehmen, öffnen Sie das Arbeitsblatt [!UICONTROL Bulk Management Tools] und:
+Um Massenaktualisierungen vorzunehmen, öffnen Sie das [!UICONTROL Bulk Management Tools] Arbeitsblatt und:
 
-1. Klicken Sie auf die Registerkarte &quot;**[!UICONTROL Headers]**&quot;und kopieren Sie die Aktualisierungs-Header für das Element, das Sie bearbeiten möchten.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Headers]** und kopieren Sie die Aktualisierungskopfzeilen für das Element, das Sie bearbeiten möchten.
 2. Klicken Sie auf die Registerkarte **[!UICONTROL Update]** .
 3. Fügen Sie die Aktualisierungskopfzeilen in die erste Zeile des Aktualisierungsarbeitsblatts ein. Beachten Sie Folgendes:
 
-   * Beim Aktualisieren eines Ordners sind alle Header erforderlich.
-   * Beim Aktualisieren von Segmenten oder Eigenschaften benötigen Sie nur die Segment-ID (SID) und das Kopfzeilenelement, das geändert werden muss. Nicht verwendete Kopfzeilen löschen
+   * Beim Aktualisieren eines Ordners sind alle Kopfzeilen erforderlich.
+   * Beim Aktualisieren von Segmenten oder Eigenschaften benötigen Sie nur die Segment-ID (SID) und das Header-Element, das geändert werden muss. Löschen Sie nicht verwendete Header.
 
-4. Fügen Sie die Daten, die Sie ändern möchten, basierend auf der Kopfzeilenbeschriftung in eine entsprechende Spalte ein oder geben Sie sie ein.
+4. Fügen Sie die Daten, die Sie ändern möchten, ein, oder geben Sie sie anhand der Kopfzeilenbeschriftung in eine entsprechende Spalte ein.
 5. Klicken Sie in der Symbolleiste des Arbeitsblatts auf eine Aktualisierungsschaltfläche, die der        Element, das Sie aktualisieren.
-Durch diese Aktion wird das Dialogfeld [!UICONTROL Account Information] geöffnet.
+Diese Aktion öffnet das Dialogfeld [!UICONTROL Account Information].
 
-6. Geben Sie die erforderlichen [Anmeldedaten ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) an und klicken Sie auf **[!UICONTROL Submit]**.
+6. Geben Sie die erforderlichen [Anmeldeinformationen“ ein ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) klicken Sie auf **[!UICONTROL Submit]**.
 
-   Das Arbeitsblatt erstellt eine [!UICONTROL Results] -Spalte. Die Spalte [!UICONTROL Results] gibt die JSON-Antwort für einen erfolgreichen Vorgang zurück. Beispiele finden Sie unter [REST APIs](../../api/rest-api-main/rest-api-main.md) . Vor der Eingabe von Daten sollte das Bulk Update-Arbeitsblatt in etwa wie folgt aussehen:
+   Das Arbeitsblatt erstellt eine [!UICONTROL Results]. Die Spalte [!UICONTROL Results] gibt die JSON-Antwort für einen erfolgreichen Vorgang zurück. Beispiele finden Sie in [REST](../../api/rest-api-main/rest-api-main.md)APIs). Vor der Dateneingabe sollte Ihr Massenaktualisierungsarbeitsblatt wie folgt aussehen:
 
 ![](assets/update.png)
 

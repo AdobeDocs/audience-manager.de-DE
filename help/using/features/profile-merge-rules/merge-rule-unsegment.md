@@ -1,9 +1,9 @@
 ---
-description: Die Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profilzusammenführungsrichtlinie verwendet wird.
+description: Die Aufhebung der Segmentierung beschreibt Prozesse, durch die Geräteprofile disqualifiziert und aus Segmenten entfernt werden. Welche Möglichkeit Sie haben, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profilzusammenführungsregel verwendet wird.
 seo-description: Unsegmentation describes processes that disqualify and remove device profiles from segments. Your ability to remove a device profile from a segment depends on the device option used to create a Profile Merge Rule.
 seo-title: Profile Merge Rules and Device Un-Segmentation Processes
 solution: Audience Manager
-title: Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung
+title: Regeln für die Profilzusammenführung und Prozesse zur Aufhebung der Segmentierung von Geräten
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
@@ -14,37 +14,37 @@ ht-degree: 2%
 
 ---
 
-# Profilzusammenführungsrichtlinien und Prozesses zur Aufhebung der Gerätesegmentierung {#profile-merge-rules-and-device-un-segmentation-processes}
+# Regeln für die Profilzusammenführung und Prozesse zur Aufhebung der Segmentierung von Geräten {#profile-merge-rules-and-device-un-segmentation-processes}
 
-Die Aufhebung der Segmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und aus Segmenten entfernen. Ihre Fähigkeit, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen eines [!UICONTROL Profile Merge Rule] verwendet wird.
+Die Aufhebung der Segmentierung beschreibt Prozesse, durch die Geräteprofile disqualifiziert und aus Segmenten entfernt werden. Ihre Möglichkeit, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen eines [!UICONTROL Profile Merge Rule] verwendet wird.
 
 ## Verfügbare Geräteoptionen {#device-options}
 
-Zur Erinnerung: Die [!UICONTROL Device Options] sind im Abschnitt [!UICONTROL Profile Merge Rules Setup] verfügbar, wenn Sie eine [!UICONTROL Profile Merge Rule] erstellen oder bearbeiten.
+Zur Erinnerung: Die [!UICONTROL Device Options] stehen beim Erstellen oder Bearbeiten eines [!UICONTROL Profile Merge Rule] im Abschnitt [!UICONTROL Profile Merge Rules Setup] zur Verfügung.
 
-## Option &quot;Aktuelles Geräteprofil&quot;und Aufhebung der Gerätesegmentierung {#current-device-profile-options}
+## Option „Aktuelles Geräteprofil“ und „Geräte-Segmentierung aufheben“ {#current-device-profile-options}
 
-**[!UICONTROL Device Profile]** ist die standardmäßige Geräteprofiloption für einen [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] kann ein Geräteprofil aus einem Segment entfernen, wenn Ihr [!UICONTROL Profile Merge Rule] die Option **[!UICONTROL Device Profile]** verwendet. Unter diesen Bedingungen erfolgt die Aufhebung der Segmentierung, wenn:
+**[!UICONTROL Device Profile]** ist die standardmäßige Geräteprofiloption für ein [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] können ein Geräteprofil aus einem Segment entfernen, wenn Ihr [!UICONTROL Profile Merge Rule] die Option **[!UICONTROL Device Profile]** verwendet. Unter diesen Bedingungen erfolgt eine Nicht-Segmentierung, wenn:
 
-* Das Geräteprofil ist seit 120 Tagen inaktiv. Bei einer wöchentlichen Datenbereinigung werden inaktive Geräteprofile aus Ihren Segmenten entfernt.
-* Das Gerät qualifiziert sich nicht mehr für ein Segment, da es durch Aktualisierungen oder Änderungen am Geräteprofil nicht qualifiziert wird. Dies geschieht, wenn sich die Segmentqualifikationskriterien ändern, oder Sie wenden einen [!DNL AND NOT] -Operator auf eine Segmentregel an oder geben [Neuigkeit und Häufigkeit](../segments/recency-and-frequency.md) Bedingungen an, die die Einstellungen kleiner als/gleich verwenden. Anwendungsbeispiele werden in der Dokumentation [Sofortige geräteübergreifende Unterdrückung](instant-cross-device-suppression.md) beschrieben.
+* Das Geräteprofil ist seit 120 Tagen inaktiv. Ein wöchentlicher Datenbereinigungsprozess entfernt inaktive Geräteprofile aus Ihren Segmenten.
+* Das Gerät ist nicht mehr für ein Segment qualifiziert, da es durch Aktualisierungen oder Änderungen am Geräteprofil nicht qualifiziert wird. Dies geschieht, wenn sich die Segmentqualifikationskriterien ändern, Sie einen [!DNL AND NOT] auf eine Segmentregel anwenden oder Bedingungen für [Neuigkeit und Häufigkeit](../segments/recency-and-frequency.md) angeben, die die Einstellungen „kleiner als/gleich“ verwenden. Anwendungsfälle werden in der Dokumentation [Sofortige geräteübergreifende Unterdrückung](instant-cross-device-suppression.md) beschrieben.
 
-![nur Gerät](assets/device-only.png)
+![nur für Geräte](assets/device-only.png)
 
-## Keine Geräteoption und Aufhebung der Gerätesegmentierung {#no-device-option}
+## Keine Geräteoption und Geräte-Segmentierung {#no-device-option}
 
-[!DNL Audience Manager] kann eine geräteübergreifende ID aus einem Segment entfernen, wenn Ihr [!UICONTROL Profile Merge Rule] die Option **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** verwendet. Unter diesen Bedingungen erfolgt die Aufhebung der Segmentierung, wenn die geräteübergreifende ID nicht mehr für ein Segment qualifiziert ist, da sie durch Aktualisierungen oder Änderungen am geräteübergreifenden Profil nicht qualifiziert wird. Dies geschieht, wenn sich die Segmentqualifikationskriterien ändern, oder Sie wenden einen [!UICONTROL AND NOT] -Operator auf eine Segmentregel an oder geben [Neuigkeit und Häufigkeit](../segments/recency-and-frequency.md) Bedingungen an, die die Einstellungen kleiner als/gleich verwenden. Anwendungsbeispiele werden in der Dokumentation [Sofortige geräteübergreifende Unterdrückung](instant-cross-device-suppression.md) beschrieben.
+[!DNL Audience Manager] können eine geräteübergreifende ID aus einem Segment entfernen, wenn Ihr [!UICONTROL Profile Merge Rule] die Option **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** verwendet. Unter diesen Bedingungen erfolgt eine Nicht-Segmentierung, wenn die geräteübergreifende ID sich nicht mehr für ein Segment qualifiziert, da Aktualisierungen oder Änderungen am geräteübergreifenden Profil es disqualifizieren. Dies geschieht, wenn sich die Segmentqualifikationskriterien ändern, Sie einen [!UICONTROL AND NOT] auf eine Segmentregel anwenden oder Bedingungen für [Neuigkeit und Häufigkeit](../segments/recency-and-frequency.md) angeben, die die Einstellungen „kleiner als/gleich“ verwenden. Anwendungsfälle werden in der Dokumentation [Sofortige geräteübergreifende Unterdrückung](instant-cross-device-suppression.md) beschrieben.
 
 ![](assets/current-no-device.png)
 
-## Gerätediagrammoptionen und Aufhebung der Gerätesegmentierung {#device-graph-options-unsegmentation}
+## Diagrammoptionen für Geräte und Unsegmentierung von Geräten {#device-graph-options-unsegmentation}
 
-[!DNL Audience Manager] kann mehrere Geräteprofile aus einem Segment entfernen, wenn Ihr [!UICONTROL Profile Merge Rule] eine Gerätediagrammoption verwendet. Die Segmentierung wird aufgehoben, wenn das zusammengeführte Profil des Geräts aus dem Gerätediagramm nicht mehr für das Segment qualifiziert ist, da Aktualisierungen oder Änderungen an diesem zusammengeführten Profil es aus dem Segment disqualifizieren. Dies geschieht, wenn sich die Segmentqualifikationskriterien ändern, oder Sie wenden einen [!UICONTROL AND NOT] -Operator auf eine Segmentregel an oder geben [Neuigkeit und Häufigkeit](../segments/recency-and-frequency.md) Bedingungen an, die die Einstellungen kleiner als/gleich verwenden. Anwendungsbeispiele werden in der Dokumentation [Sofortige geräteübergreifende Unterdrückung](instant-cross-device-suppression.md) beschrieben.
+[!DNL Audience Manager] können mehrere Geräteprofile aus einem Segment entfernen, wenn Ihr [!UICONTROL Profile Merge Rule] eine Gerätediagramm-Option verwendet. Die Nicht-Segmentierung erfolgt, wenn das zusammengeführte Profil des Geräts aus dem Gerätediagramm nicht mehr für das Segment qualifiziert ist, da Aktualisierungen oder Änderungen an diesem zusammengeführten Profil es nicht für das Segment qualifizieren. Dies geschieht, wenn sich die Segmentqualifikationskriterien ändern, Sie einen [!UICONTROL AND NOT] auf eine Segmentregel anwenden oder Bedingungen für [Neuigkeit und Häufigkeit](../segments/recency-and-frequency.md) angeben, die die Einstellungen „kleiner als/gleich“ verwenden. Anwendungsfälle werden in der Dokumentation [Sofortige geräteübergreifende Unterdrückung](instant-cross-device-suppression.md) beschrieben.
 
 >[!NOTE]
 >
->**100 Gerätebegrenzung für die Segmentbewertung und -disqualifizierung**.
->Audience Manager führt bis zu 100 Geräte zusammen, wenn Segmente mit einer Profilzusammenführungsrichtlinie ausgewertet werden, die ein Gerätediagramm verwendet. Audience Manager wertet das aktuelle Gerät und bis zu 99 mit dem aktuellen Gerät verknüpfte Geräte anhand eines [authentifizierten Profils](../../reference/visitor-authentication-states.md) (geräteübergreifende ID) aus. Wenn das Signal zur Aufhebung der Segmentierung ausgegeben wird, werden das aktuelle Gerät und zusätzliche Geräte aus dem Segment im Ziel entfernt.
+>**100 Geräte-Limit für Segmentauswertung und Disqualifizierung**.
+>Beim Auswerten von Segmenten mit einer Profilzusammenführungsregel, die ein Gerätediagramm verwendet, führt der Audience Manager bis zu 100 Geräte zusammen. Der Audience Manager bewertet das aktuelle Gerät und bis zu 99 Geräte, die über ein &quot;[ Profil“ mit dem aktuellen Gerät verknüpft ](../../reference/visitor-authentication-states.md) (geräteübergreifende ID). Wenn das Signal zum Aufheben der Segmentierung ausgegeben wird, werden das aktuelle Gerät und zusätzliche Geräte aus dem Segment im Ziel entfernt.
 
 ![](assets/last-device-graph.png)
 

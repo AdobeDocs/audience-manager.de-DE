@@ -1,9 +1,9 @@
 ---
-description: In diesem Abschnitt werden allgemeine Informationen zur Testgruppe und zu den darin unterteilten Testsegmenten, den ausgewählten Konversionseigenschaften und den zugeordneten Zielen angezeigt. Der Abschnitt enthält auch Steuerelemente zum Duplizieren oder Löschen der Testgruppe.
+description: In diesem Abschnitt werden allgemeine Informationen zur Testgruppe und zu den Testsegmenten angezeigt, in die sie unterteilt ist, sowie zu den ausgewählten Konversionseigenschaften und den zugeordneten Zielen. Der Abschnitt enthält auch Steuerelemente zum Duplizieren oder Löschen der Testgruppe.
 seo-description: This section displays general information on the test group and the test segments it is divided into, the selected conversion traits and mapped destinations. The section also provides controls for duplicating or deleting the test group.
 seo-title: Test Group Information
 solution: Audience Manager
-title: Informationen zu Testgruppen
+title: Informationen zur Testgruppe
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 feature: Audience Lab
 exl-id: fb691c12-304d-4331-a395-a9005efa8bb0
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# Informationen zu Testgruppen {#test-group-information}
+# Informationen zur Testgruppe {#test-group-information}
 
-In diesem Abschnitt werden allgemeine Informationen zur Testgruppe und zu den darin unterteilten Testsegmenten, den ausgewählten Konversionseigenschaften und den zugeordneten Zielen angezeigt. Der Abschnitt enthält auch Steuerelemente zum Duplizieren oder Löschen der Testgruppe.
+In diesem Abschnitt werden allgemeine Informationen zur Testgruppe und zu den Testsegmenten angezeigt, in die sie unterteilt ist, sowie zu den ausgewählten Konversionseigenschaften und den zugeordneten Zielen. Der Abschnitt enthält auch Steuerelemente zum Duplizieren oder Löschen der Testgruppe.
 
-Sie können auch Informationen zum Grundliniensegment sehen, das Sie für die Testgruppe verwendet haben, und wie die Testsegmente aufgeteilt sind.
+Sie können auch Informationen über das Basissegment sehen, das Sie für die Testgruppe verwendet haben, und darüber, wie die Testsegmente aufgeteilt sind.
 
-Die **[!UICONTROL Test Segments]** werden zufällig mit Benutzern aus dem für die Testgruppe verwendeten Grundliniensegment gefüllt. Die Übersicht zeigt den Prozentsatz der Benutzer, die Sie den einzelnen Testsegmenten zugewiesen haben.
+Die **[!UICONTROL Test Segments]** werden nach dem Zufallsprinzip mit Benutzern aus dem Basissegment gefüllt, das Sie für die Testgruppe verwendet haben. In der Übersicht werden die Prozentsätze der Benutzenden angezeigt, die Sie den einzelnen Testsegmenten zugewiesen haben.
 
-Die **[!UICONTROL Conversion Traits]** leiten die Berichte für die Testgruppen. Um eine Eigenschaft als Konversion zu kennzeichnen, wählen Sie beim Erstellen oder Bearbeiten von Eigenschaften in [!UICONTROL Trait Builder] **Konversion** als **[Ereignistyp](../../features/traits/create-onboarded-rule-based-traits.md)** aus.
+Die **[!UICONTROL Conversion Traits]** bestimmen das Reporting für die Testgruppen. Um eine Eigenschaft als Konversion festzulegen, wählen Sie beim Erstellen oder Bearbeiten von Eigenschaften in der [!UICONTROL Trait Builder] **Konversion** als **[Ereignistyp](../../features/traits/create-onboarded-rule-based-traits.md) aus**
 
-Die **[!UICONTROL Destinations]** -Karte ist ausblendbar. Drücken Sie die Pfeile, um einzelne Ziele zu öffnen oder zu schließen und die folgenden Informationen für Testsegmente zu erhalten, gruppiert nach den Zielen, denen diese zugeordnet sind:
+Die **[!UICONTROL Destinations]** ist ausblendbar. Drücken Sie die Pfeile, um einzelne Ziele zu öffnen oder zu schließen, und erhalten Sie die folgenden Informationen für Testsegmente, gruppiert nach den Zielen, denen diese zugeordnet sind:
 
-* die Anzahl der Geräte aus der Gesamtpopulation des Basissegments, die jedem Ziel zugeordnet ist.
+* Die Anzahl der Geräte aus der Gesamtpopulation des Basissegments, die jedem Ziel zugewiesen ist.
 * Zuordnungsschlüssel;
 * Zuordnungswert;
-* [!DNL URL] &amp; secure [!DNL URL] für [!DNL URL] -Ziele.
+* [!DNL URL] und sichere [!DNL URL] für [!DNL URL] Ziele.
 
 >[!NOTE]
 >
->Beachten Sie, dass Sie Testgruppen nach ihrer Fertigstellung nicht mehr bearbeiten können. Sie können sie nur anhalten, löschen oder duplizieren.
+>Denken Sie daran, dass Sie Testgruppen erst bearbeiten können, wenn Sie sie fertig gestellt haben, sondern nur anhalten, löschen oder duplizieren können.
 
 ![](assets/test-groups-information.PNG)

@@ -55,11 +55,11 @@ In der folgenden Tabelle sind die Aufbewahrungszeiten für verschiedene Datentyp
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Backend-Server </p> </td> 
-   <td colname="col2"> <p>120 Tage </p> <p> Audience Manager löscht Benutzerdaten 120 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Backend-Servern. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 120-Tage-Zyklus aufzeichnet, werden diese Daten weitere 120 Tage aufbewahrt. </p> </td> 
+   <td colname="col2"> <p>120 Tage </p> <p> Audience Manager löscht Benutzerdaten 120 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Backend-Servern. Wenn <span class="keyword"> Audience Manager </span> Benutzeraktivität innerhalb dieses 120-tägigen Zyklus aufzeichnet, werden wir diese Daten für weitere 120 Tage aufbewahren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-Server </p> </td> 
-   <td colname="col2"> <p> 14 Tage </p> <p>Audience Manager löscht Benutzerdaten 14 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Edge-Servern. Wenn <span class="keyword"> Audience Manager</span> innerhalb dieses 14-Tage-Zyklus Benutzeraktivitäten aufzeichnet, werden diese Daten weitere 14 Tage aufbewahrt. Wenn der Benutzer nach dem 14-Tage-Zyklus wieder aktiv wird, gibt es eine Verzögerung zwischen dieser ersten neuen Seitenansicht und dem Zeitpunkt, zu dem der Benutzer ausführbar wird. Es dauert 6-18 Stunden, bis das gesamte Profil nach mehr als 14 Tagen Inaktivität wieder zum Edge-Zentrum zurückgebracht wird. </p> </td> 
+   <td colname="col2"> <p> 14 Tage </p> <p>Audience Manager löscht Benutzerdaten 14 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Edge-Servern. Wenn <span class="keyword"> Audience Manager </span> Benutzeraktivität innerhalb dieses 14-tägigen Zyklus aufzeichnet, werden diese Daten weitere 14 Tage aufbewahrt. Wenn der/die Benutzende nach dem 14-tägigen Zyklus erneut aktiv wird, gibt es eine Verzögerung zwischen dieser ersten neuen Seitenansicht und dem Zeitpunkt, zu dem der/die Benutzende aktiv wird. Es dauert 6-18 Stunden, bis das gesamte Profil nach mehr als 14 Tagen Inaktivität wieder an den Edge-Center gesendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rohprotokolle </p> </td> 
@@ -71,7 +71,7 @@ In der folgenden Tabelle sind die Aufbewahrungszeiten für verschiedene Datentyp
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profile auf CRM-Ebene (authentifizierte Profil) </p> </td> 
-   <td colname="col2"> <p>Das Standard-TTL-Intervall (Time-to-Live) für inaktive Profile auf CRM-Ebene (Kunden-IDs) beträgt 24 Monate. Sie können jedoch die Audience Manager-Benutzeroberfläche verwenden, um das TTL-Intervall für inaktive CRM-Profile zwischen einem Monat und fünf Jahren zu reduzieren oder zu verlängern. Dies ist beim Erstellen oder Bearbeiten einer geräteübergreifenden Datenquelle möglich.</p> <p>Weitere Informationen finden Sie unter „Datenquelleneinstellungen“ in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Erstellen einer geräteübergreifenden Datenquelle</a>.</p> </td> 
+   <td colname="col2"> <p>Das Standard-TTL-Intervall (Time-to-Live) für inaktive Profile auf CRM-Ebene (Kunden-IDs) beträgt 24 Monate. Sie können jedoch die Audience Manager-Benutzeroberfläche verwenden, um das TTL-Intervall für inaktive Profile auf CRM-Ebene zwischen einem Monat und 5 Jahren zu reduzieren oder zu verlängern. Dies ist beim Erstellen oder Bearbeiten einer geräteübergreifenden Datenquelle möglich.</p> <p>Weitere Informationen finden Sie unter „Datenquelleneinstellungen“ in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Erstellen einer geräteübergreifenden Datenquelle</a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobilgeräte-IDs </p> </td> 
@@ -96,7 +96,7 @@ In der folgenden Tabelle sind die Aufbewahrungszeiten für verschiedene Datentyp
  </tbody> 
 </table>
 
-## Datenaufbewahrung zur Eigenschaftsqualifikation {#trait-qual}
+## Aufbewahrung von Eigenschaftenqualifikationsdaten {#trait-qual}
 
 In der folgenden Tabelle sind die Aufbewahrungsoptionen für Eigenschaftsqualifikationen aufgeführt.
 

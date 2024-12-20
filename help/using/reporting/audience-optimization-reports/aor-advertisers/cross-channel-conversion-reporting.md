@@ -1,5 +1,5 @@
 ---
-description: Mit der Option Kanalübergreifende Konversion in den Audience Optimization-Berichten können Sie Offline-Konversionen bereitgestellten Onlineimpressionen oder -klicks zuordnen.
+description: Mit der Option Kanalübergreifende Konversion in den Audience Optimization-Berichten können Sie Offline-Konversionen den bereitgestellten Online-Impressionen oder Klicks zuordnen.
 seo-description: The Cross Channel Conversion option in the Audience Optimization reports allows you to attribute offline conversions to served online impressions or clicks.
 seo-title: Cross Channel Conversion
 solution: Audience Manager
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Kanalübergreifende Konversion{#cross-channel-conversion}
 
-Mit der Option Kanalübergreifende Konversion in den Audience Optimization-Berichten können Sie Offline-Konversionen bereitgestellten Onlineimpressionen oder -klicks zuordnen.
+Mit der Option Kanalübergreifende Konversion in den Audience Optimization-Berichten können Sie Offline-Konversionen den bereitgestellten Online-Impressionen oder Klicks zuordnen.
 
-Die [!UICONTROL Cross Channel Conversion] -Berichte kombinieren Ergebnisse aus der [!DNL Google Campaign Manager] -Plattform mit den [!DNL Audience Manager] -Konversionseigenschaften. Dadurch können Sie Offline-Konversionen mit Online-Impressionen oder -Klicks verknüpfen.
+Die [!UICONTROL Cross Channel Conversion] Berichte kombinieren die Ergebnisse aus der [!DNL Google Campaign Manager] mit [!DNL Audience Manager] Konversionseigenschaften. Auf diese Weise können Sie Offline-Konversionen mit Online-Impressions oder -Klicks verknüpfen.
 
 Sie können die [!UICONTROL Cross Channel Conversion] für die Berichte [Segmentleistung](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) und [Optimale Häufigkeit](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) verwenden.
 
-Um die [!UICONTROL Cross Channel Conversion] Berichte anzuzeigen, wählen Sie das Element **[!UICONTROL AAM + Ad Server Name]** in der Dropdownliste **[!UICONTROL Platform]** aus.
+Um die [!UICONTROL Cross Channel Conversion] Berichte anzuzeigen, wählen Sie das **[!UICONTROL AAM + Ad Server Name]** in der Dropdown-Liste **[!UICONTROL Platform]** aus.
 
 In der folgenden Tabelle sind wichtige Überlegungen beim Einrichten von [!UICONTROL Cross Channel Conversion] aufgeführt:
 
@@ -35,24 +35,24 @@ In der folgenden Tabelle sind wichtige Überlegungen beim Einrichten von [!UICON
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>Mindestanzahl von Konversionseigenschaften </p> </td> 
-   <td colname="col1"> <p>Mindestens eine Konversionseigenschaft muss einer Datenquelle zugewiesen werden, damit die <span class="wintitle"> Berichte zur kanalübergreifenden Konversion</span> ausgeführt werden können. Weitere Informationen zu Eigenschaften finden Sie unter <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Grundlegende Informationen für Eigenschaften</a> . </p> </td> 
+   <td colname="col01"> <p>Minimale Anzahl an Konversionseigenschaften </p> </td> 
+   <td colname="col1"> <p>Mindestens ein Konversionseigenschaft muss einer Datenquelle zugewiesen werden, damit die <span class="wintitle"> Cross-Channel Conversion</span>-Berichte ausgeführt werden können. Weitere Informationen zu Eigenschaften finden Sie </a> Grundlegende Informationen zu Eigenschaften unter <a href="../../../features/traits/create-onboarded-rule-based-traits.md">. </p> </td> 
   </tr>
   <tr> 
    <td> <p>Attributionsfenster </p> </td> 
-   <td> <p> <b><span class="uicontrol"> Das Attributionsfenster AAM+Google Campaign Manager</span></b> beträgt 14 Tage, was bedeutet, dass nur Konversionseigenschaften berücksichtigt werden, die in den letzten zwei Wochen angezeigt wurden. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> Das Attributionsfenster von AAM+Google Campaign </span></b>Manager beträgt 14 Tage, d. h., es werden nur Konversionseigenschaften berücksichtigt, die in den letzten zwei Wochen gezeigt wurden. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Letztkontakt-Methode </p> </td> 
-   <td> <p>Das Kreativelement, das der Benutzer vor der Konvertierung zuletzt gesehen hat, ist das Kreativelement, das die Konvertierung erhalten hat. </p> </td> 
+   <td> <p>Methode des letzten Kontakts </p> </td> 
+   <td> <p>Die Kreativität, die der Benutzer zuletzt vor der Konvertierung gesehen hat, ist diejenige, die die Konvertierung erhalten hat. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Klicks versus Impressionen </p> </td> 
-   <td> <p>Ein Klick hat bei der Entscheidung über die Attribution Vorrang vor einer Impression, wenn er zur selben Zeit erfolgt. Auf einer Seite, auf der mehrere Kreative angezeigt werden, wird beispielsweise die Konvertierung für die Seite vergeben, auf die geklickt wird. </p> </td> 
+   <td> <p>Ein Klick hat bei der Entscheidung über eine Attribution Vorrang vor einer Impression, wenn sie exakt zur gleichen Zeit auftritt. Beispiel: Auf einer Seite, auf der mehrere Kreative angezeigt werden, wird dem Kreativen, auf den geklickt wird, die Konversion zugesprochen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Datenaktualität </p> </td> 
-   <td> <p>Die Berichte werden immer für Daten berechnet, die am Vortag verfügbar waren. </p> </td> 
+   <td> <p>Die Berichte werden immer für die am Vortag verfügbaren Daten berechnet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

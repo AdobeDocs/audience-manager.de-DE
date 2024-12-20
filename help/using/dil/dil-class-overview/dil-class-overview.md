@@ -1,5 +1,5 @@
 ---
-description: Mit DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die APIs auf Klassenebene arbeiten mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
+description: Mit den DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und damit arbeiten. Die APIs auf Klassenebene arbeiten mit den anderen Funktionen auf Instanzebene zusammen, um Werte festzulegen oder Daten zurückzugeben.
 seo-description: The class-level DIL APIs let you programmatically create and work with Audience Manager objects. The class-level APIs work with the other instance-level functions to set values or return data.
 seo-title: Class-level DIL Methods
 solution: Audience Manager
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->Ab Juli 2023 hat Adobe die Entwicklung der Erweiterung [!DNL Data Integration Library (DIL)] und der Erweiterung [!DNL DIL] eingestellt.
+>Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kunden können weiterhin ihre [!DNL DIL] -Implementierung verwenden. Adobe wird jedoch nicht mehr [!DNL DIL] als bisher entwickeln. Kunden wird empfohlen, das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie zu bewerten.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Allerdings wird sich Adobe nicht über diesen Punkt hinaus [!DNL DIL] entwickeln. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten stattdessen das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
 
 
-Mit DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und verwenden. Die APIs auf Klassenebene arbeiten mit den anderen Funktionen auf Instanzebene, um Werte festzulegen oder Daten zurückzugeben.
+Mit den DIL-APIs auf Klassenebene können Sie Audience Manager-Objekte programmgesteuert erstellen und damit arbeiten. Die APIs auf Klassenebene arbeiten mit den anderen Funktionen auf Instanzebene zusammen, um Werte festzulegen oder Daten zurückzugeben.
 
 <!-- 
 

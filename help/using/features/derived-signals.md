@@ -1,5 +1,5 @@
 ---
-description: 'Ein abgeleitetes Signal qualifiziert Site-Besucher für zusätzliche Eigenschaften basierend auf einer Eigenschaft, die sie bereits gesehen haben. Mit anderen Worten: Eine zusätzliche Eigenschaftsqualifikation kann von einer derzeit angezeigten Eigenschaft abgeleitet werden, selbst wenn ein Benutzer die neue Eigenschaft noch nie zuvor gesehen hat.'
+description: 'Ein abgeleitetes Signal qualifiziert Website-Besuchende für zusätzliche Eigenschaften, die auf einer Eigenschaft basieren, die sie bereits gesehen haben. Mit anderen Worten: Eine zusätzliche Eigenschaftsqualifizierung kann aus einer aktuell angezeigten Eigenschaft abgeleitet werden, selbst wenn ein Benutzer die neue Eigenschaft noch nie zuvor gesehen hat.'
 seo-description: A derived signal qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 seo-title: Derived Signals
 solution: Audience Manager
@@ -16,29 +16,29 @@ ht-degree: 0%
 
 # Abgeleitete Signale {#derived-signals}
 
-Ein [!UICONTROL derived signal] qualifiziert Site-Besucher für zusätzliche Eigenschaften basierend auf einer Eigenschaft, die sie bereits gesehen haben. Mit anderen Worten: Eine zusätzliche Eigenschaftsqualifikation kann von einer derzeit angezeigten Eigenschaft abgeleitet werden, selbst wenn ein Benutzer die neue Eigenschaft noch nie zuvor gesehen hat.
+Eine [!UICONTROL derived signal] qualifiziert Website-Besuchende für zusätzliche Eigenschaften, die auf einer bereits erkannten Eigenschaft basieren. Mit anderen Worten: Eine zusätzliche Eigenschaftsqualifizierung kann aus einer aktuell angezeigten Eigenschaft abgeleitet werden, selbst wenn ein Benutzer die neue Eigenschaft noch nie zuvor gesehen hat.
 
 <!-- c_tb_derived_signal.xml -->
 
-## Zweck der abgeleiteten Signale
+## Zweck abgeleiteter Signale
 
-In [!DNL Audience Manager] können Sie eine Beziehung zwischen Signalen (oder Eigenschaftsregeln) erstellen, die während eines Ereignisaufrufs an andere angegebene Signale oder Eigenschaften übergeben werden. Angenommen, ein Ereignisaufruf geht an ein Signal über, das aus dem Schlüsselwert [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`) besteht. [!DNL Audience Manager] würde dieses Signal mit allen anderen verbinden, die mit dem [!UICONTROL derived signals]-Tool erstellt wurden. Die zugehörigen Signale können zwar alle von Ihnen angegebenen Schlüsselwerte sein, sind jedoch am nützlichsten, wenn sie mit vorhandenen Signalen verknüpft sind, die bereits als [!UICONTROL Trait Builder] -Regeln eingerichtet wurden. Wenn beispielsweise in der folgenden Abbildung eine Benutzeraktion das Signal [!DNL "product = new car"] auslöst, kann der Benutzer auch für Eigenschaften qualifiziert sein, die durch die Schlüssel- und Wertsignale der Zielgruppe definiert sind.
+In [!DNL Audience Manager] können Sie eine Beziehung zwischen Signalen (oder Eigenschaftsregeln) erstellen, die während eines Ereignisaufrufs an andere, angegebene Signale oder Eigenschaften übergeben werden. Angenommen, ein Ereignisaufruf wird in einem Signal übergeben, das aus dem Schlüssel-Wert-[!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`) besteht. [!DNL Audience Manager] würde dieses Signal mit allen anderen verbinden, die mit dem [!UICONTROL derived signals]-Tool erstellt wurden. Obwohl es sich bei den zugehörigen Signalen um beliebige von Ihnen angegebene Schlüsselwerte handeln kann, sind sie am nützlichsten, wenn sie mit vorhandenen Signalen verknüpft sind, die bereits als [!UICONTROL Trait Builder] festgelegt sind. Wenn beispielsweise in der folgenden Abbildung eine Benutzeraktion das Signal auslöst, kann [!DNL "product = new car"] Benutzer auch für Eigenschaften qualifiziert sein, die durch die Schlüssel- und Wertesignale des Ziels definiert sind.
 
 ![](assets/derived_signal_example.png)
 
-## Ort abgeleiteter Signale
+## Ort der abgeleiteten Signale
 
-Erstellen und verwalten Sie [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** in der Seitenleistennavigation.
+Erstellen und verwalten Sie [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** über die Seitenleisten-Navigation.
 
 ## Abgeleitetes Signal erstellen {#create}
 
 <!-- t_tb_create_derived.xml -->
 
-So erstellen Sie einen [!UICONTROL derived signal]:
+So erstellen Sie eine [!UICONTROL derived signal]:
 
-1. Wählen Sie **[!UICONTROL Derived Signals]** aus dem Menü [!UICONTROL Tools] aus.
-1. Stellen Sie Folgendes bereit:
-   * *(Optional)* [!UICONTROL Integration Code]
+1. Wählen Sie im Menü [!UICONTROL Tools] die Option **[!UICONTROL Derived Signals]** aus.
+1. Geben Sie ein:
+   * *(optional)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
    * [!UICONTROL Source Value]
    * [!UICONTROL Target Key]
@@ -56,10 +56,10 @@ So erstellen Sie einen [!UICONTROL derived signal]:
 So bearbeiten Sie eine [!UICONTROL derived signal]:
 
 1. Bewegen Sie den Mauszeiger über das Signal und klicken Sie dann auf **[!UICONTROL Edit]**.
-2. Nehmen Sie die erforderlichen Code-, Schlüssel- oder Wertänderungen vor und klicken Sie auf **[!UICONTROL Save]**.
+2. Nehmen Sie die erforderlichen Code-, Schlüssel- oder Wertänderungen vor und klicken Sie dann auf **[!UICONTROL Save]**.
 
 ## Abgeleitetes Signal löschen {#delete}
 
 <!-- t_tb_delete_derived.xml -->
 
-Um eine [!UICONTROL derived signal] zu löschen, bewegen Sie den Mauszeiger über das Signal und klicken Sie dann auf **[!UICONTROL Delete]**.
+Um ein [!UICONTROL derived signal] zu löschen, bewegen Sie den Mauszeiger über das Signal und klicken Sie dann auf **[!UICONTROL Delete]**.

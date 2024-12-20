@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Warum werden meine Eigenschaften oder Segmente nicht auf der Seite „Overlap Reports“ angezeigt?
 feature: Support
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
-source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
+source-git-commit: d86769304b03161490d0c3d9eb340cee64d52034
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%

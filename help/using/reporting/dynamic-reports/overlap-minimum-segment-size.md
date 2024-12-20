@@ -1,9 +1,9 @@
 ---
-description: Beschreibt die Anforderungen an die Segmentgröße und die Erstellungszeit, die für den Aktualisierungsprozess des Overlap Report erforderlich sind.
+description: Beschreibt die Segmentgröße und die Erstellungszeitanforderungen, die für den Aktualisierungsprozess des Überschneidungsberichts erforderlich sind.
 seo-description: Describes the segment size and creation time requirements required by the Overlap report update process.
 seo-title: Overlap Reports  Update Schedule and Minimum Segment Size
 solution: Audience Manager
-title: Aktualisierungszeitplan für Überlagerungsberichte und Mindestsegmentgröße
+title: Aktualisierungszeitplan für Überschneidungsberichte und minimale Segmentgröße
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 feature: Overlap Reports
 exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
@@ -14,22 +14,22 @@ ht-degree: 3%
 
 ---
 
-# Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße{#overlap-reports-update-schedule-and-minimum-segment-size}
+# Überschneidungsberichte: Zeitplan und Mindestsegmentgröße aktualisieren{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Beschreibt die Anforderungen an Eigenschaften und Segmentgröße sowie die Erstellungszeit, die für den Aktualisierungsprozess von Overlap Report erforderlich sind.
+Beschreibt die Eigenschaften- und Segmentgröße sowie die Anforderungen an die Erstellungszeit, die für den Aktualisierungsprozess des Überschneidungsberichts erforderlich sind.
 
 ## Zeitplan und Anforderungen aktualisieren {#update-schedule}
 
-[!UICONTROL Overlap] Berichte werden am Sonntag wöchentlich aktualisiert. Die Berichtsvorverarbeitung beginnt am Samstag. Dies wirkt sich darauf aus, wie neue oder vorhandene Segmente am Montag in einem Überschneidungsbericht angezeigt werden. In einen Überschneidungsbericht aufzunehmen:
+[!UICONTROL Overlap] Berichte werden wöchentlich am Sonntag aktualisiert. Die Berichtsvorverarbeitung beginnt am Samstag. Dies wirkt sich darauf aus, wie neue oder vorhandene Segmente in einem Überschneidungsbericht am Montag angezeigt werden. In einen Überschneidungsbericht aufzunehmen:
 
-* Ein Segment muss mindestens 70.000 Benutzer in den letzten 14 Tagen in Echtzeit enthalten.
-* Eine Eigenschaft muss in den letzten 14 Tagen 28.000 [eindeutige Eigenschaftsrealisierungen](/help/using/features/traits/trait-and-segment-qualification-reference.md) enthalten.
-* Ein Segment muss vor 12:00 Uhr (Donnerstag, UTC) erstellt worden sein (2 volle Tage vor Beginn des wöchentlichen Aktualisierungsprozesses des Überschneidungsberichts).
-* Ihr Unternehmen muss Vollkunde [!DNL Audience Manager] sein. Wenden Sie sich an Ihren [!DNL Audience Manager] -Berater oder an die Kundenunterstützung, um weitere Informationen zu erhalten.
+* Ein Segment muss in den letzten 14 Tagen mindestens 70.000 Echtzeit-Benutzer enthalten.
+* Ein Merkmal muss in den [ 14 Tagen 28.000 ](/help/using/features/traits/trait-and-segment-qualification-reference.md)Eindeutige Merkmale“ enthalten.
+* Ein Segment muss vor Donnerstag, 12 Uhr UTC (2 volle Tage vor Beginn des Aktualisierungsprozesses des wöchentlichen Überschneidungsberichts) erstellt worden sein.
+* Ihr Unternehmen muss ein Full-[!DNL Audience Manager]-Kunde sein. Wenden Sie sich an Ihren [!DNL Audience Manager] oder die Kundenunterstützung, um mehr zu erfahren.
 
-## Segmentgröße und/oder Erstellungszeit wirken sich auf die Berichterstellung aus {#segment-size}
+## Die Segmentgröße und/oder die Erstellungszeit wirken sich auf das Reporting aus {#segment-size}
 
-Wenn in einem der [!UICONTROL Overlap] -Berichte kein Segment angezeigt wird, liegt dies möglicherweise daran, dass das Segment diese Mindestanforderungen nicht erfüllt.
+Wenn ein Segment nicht in einem der [!UICONTROL Overlap] Berichte angezeigt wird, kann dies daran liegen, dass das Segment diese Mindestanforderungen nicht erfüllt.
 
 <table id="table_BE2937C1FA314BBDBD1D026321D6E6B1"> 
  <thead> 
@@ -41,11 +41,11 @@ Wenn in einem der [!UICONTROL Overlap] -Berichte kein Segment angezeigt wird, li
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Segmentgröße zu klein</b> </p> </td> 
-   <td colname="col2"> <p>Nehmen wir an, Sie erstellen ein Segment vor 12 Uhr UTC am Donnerstag, es enthält jedoch weniger als 70.000 Benutzer in Echtzeit. Dieses Segment wird erst dann in einem <span class="wintitle"> Overlap Report</span> angezeigt, wenn es die Anforderungen für den Benutzerschwellenwert erfüllt. Beachten Sie außerdem, dass das Segment die erforderliche Benutzeranzahl für den Donnerstag oder vor dem Donnerstag-Cutoff-Zeitraum erfüllen muss. Wenn das Segment die Wochentagsfrist nicht einhält, wird es in den <span class="wintitle"> Überlagerungsberichten</span> für die Woche angezeigt, nachdem die Daten des kommenden Sonntags ausgeführt wurden. </p> </td> 
+   <td colname="col2"> <p>Angenommen, Sie erstellen ein Segment vor Donnerstag, 12 Uhr UTC, es enthält jedoch insgesamt weniger als 70.000 Echtzeit-Benutzer. Dieses Segment wird erst dann in einem <span class="wintitle">-Überschneidungsbericht angezeigt, </span> es die Anforderungen an den Benutzerschwellenwert erfüllt. Beachten Sie außerdem, dass das Segment die erforderliche Benutzeranzahl ab dem Donnerstag-Abschaltzeitraum oder davor erfüllen muss. Wenn die wöchentliche Frist nicht eingehalten wird, wird das Segment in den <span class="wintitle"> Überschneidungsberichten für </span> Woche nach der bevorstehenden Sonntagsdatenausführung angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Zu spät erstelltes Segment</b> </p> </td> 
-   <td colname="col2"> <p>Angenommen, Sie erstellen am Freitag ein Segment, das mehr als 70.000 Benutzer in Echtzeit enthält. Dieses Segment wird für die nächste Woche nicht in den <span class="wintitle"> Overlap Reports</span> angezeigt, da es weniger als 2 Tage vor dem Aktualisierungszeitraum des Berichts erstellt wurde. Das Segment wird jedoch nach der nächsten wöchentlichen Aktualisierung in einem <span class="wintitle"> Overlap Report</span> angezeigt. </p> </td> 
+   <td colname="col1"> <p> <b>Segment zu spät erstellt</b> </p> </td> 
+   <td colname="col2"> <p>Angenommen, Sie erstellen am Freitag ein Segment mit mehr als 70.000 Echtzeit-Benutzern. Dieses Segment wird in den <span class="wintitle"> Überschneidungsberichten der nächsten </span> nicht angezeigt, da es weniger als 2 Tage vor dem Berichtsaktualisierungszeitraum erstellt wurde. Das Segment wird jedoch nach der nächsten wöchentlichen Aktualisierung in </span> Bericht "<span class="wintitle"> Überschneidung“ angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

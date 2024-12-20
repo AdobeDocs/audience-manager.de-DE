@@ -1,5 +1,5 @@
 ---
-description: Senden Sie Zielgruppendaten aus anderen Quellen an den Audience Manager.
+description: Senden von Zielgruppendaten aus anderen Quellen an den Audience Manager.
 seo-description: Send audience data from other sources to Adobe Audience Manager (AAM).
 seo-title: Sending Audience Data in Adobe Audience Manager (AAM)
 title: Senden von Zielgruppendaten
@@ -14,13 +14,13 @@ ht-degree: 15%
 
 # Senden von Zielgruppendaten
 
-Senden Sie Zielgruppendaten aus anderen Quellen an den Audience Manager.
+Senden von Zielgruppendaten aus anderen Quellen an den Audience Manager.
 
 * [Integration eingehender Daten in Echtzeit](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-  Informationen zur Integration von Echtzeit-Audience Managern.
+  Informationen zur Integration von Real-Time Audience Manager.
 
-* [Beschreibung des Batch-Datenübertragungsprozesses](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
+* [Beschriebener Batch-Datenübertragungsprozess](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
   Ein allgemeiner Überblick darüber, wie Audience Manager einen asynchronen Batch-Datenaustausch mit einem Drittanbieter durchführt.
 

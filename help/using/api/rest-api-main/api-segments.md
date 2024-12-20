@@ -1,5 +1,5 @@
 ---
-description: Methoden, mit denen Sie programmatisch mit Segmenten arbeiten können.
+description: Methoden zum programmgesteuerten Arbeiten mit Segmenten.
 seo-description: Methods that let you work programmatically with segments.
 seo-title: Segment API Methods
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 13%
 
 # API-Methoden für Segmente {#segment-api-methods}
 
-Methoden, mit denen Sie programmatisch mit Segmenten arbeiten können.
+Methoden zum programmgesteuerten Arbeiten mit Segmenten.
 
 >[!IMPORTANT]
 >
->Die Methoden für das Segment [!DNL API] wurden mit [!DNL Swagger] umgeschrieben und migriert. Siehe:
+>Die Methoden [!DNL API] Segmentzuordnung wurden mit [!DNL Swagger] umgeschrieben und migriert. Siehe:
 >
 >* [Adobe Audience Manager-API-Dokumente](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager-API-Codemigration](../../api/api-swagger-migration.md)

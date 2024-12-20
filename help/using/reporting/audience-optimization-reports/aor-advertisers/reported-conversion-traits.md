@@ -1,5 +1,5 @@
 ---
-description: Der Bericht "Konversionseigenschaften"zeigt alle Eigenschaften an, die zu einem bestimmten Datum als Konversionseigenschaften für eine Konversionsgruppe bezeichnet wurden. Konversionseigenschaften für Konversionsgruppen können sich von der Berichtsausführung zur Berichtsausführung ändern. Der Bericht zeigt Konversionseigenschaften nach Konversionsgruppe für das ausgewählte Berichtsdatum an.
+description: Der Bericht „Konversionseigenschaften“ zeigt alle Eigenschaften an, die zu einem bestimmten Datum als Konversionseigenschaften für eine Konversionsgruppe gekennzeichnet sind. Konversionseigenschaften für Konversionsgruppen können sich von einer Berichtsausführung zur anderen ändern. Der Bericht zeigt Konversionsmerkmale nach Konversionsgruppe für das ausgewählte Berichtsdatum an.
 seo-description: The Conversion Traits report shows you all the traits labeled as conversion traits for a conversion group at a certain date. Conversion traits for conversion groups can change from reporting run to reporting run. The report displays conversion traits by conversion group for the selected reporting date.
 seo-title: Reported Conversion Traits
 solution: Audience Manager
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Gemeldete Konversionseigenschaften{#reported-conversion-traits}
 
-Der Bericht &quot;Konversionseigenschaften&quot;zeigt alle Eigenschaften an, die zu einem bestimmten Datum als Konversionseigenschaften für eine Konversionsgruppe bezeichnet wurden.
+Der Bericht „Konversionseigenschaften“ zeigt alle Eigenschaften an, die zu einem bestimmten Datum als Konversionseigenschaften für eine Konversionsgruppe gekennzeichnet sind.
 
-Konversionseigenschaften für Konversionsgruppen können sich von der Berichtsausführung zur Berichtsausführung ändern. Der Bericht zeigt Konversionseigenschaften nach Konversionsgruppe für das ausgewählte Berichtsdatum an.
+Konversionseigenschaften für Konversionsgruppen können sich von einer Berichtsausführung zur anderen ändern. Der Bericht zeigt Konversionsmerkmale nach Konversionsgruppe für das ausgewählte Berichtsdatum an.
 
 Informationen zum Erstellen von Konversionseigenschaften in Audience Manager finden Sie im folgenden Video:
 
@@ -26,6 +26,6 @@ Informationen zum Erstellen von Konversionseigenschaften in Audience Manager fin
 
 ## Beispielbericht
 
-Ihr [!UICONTROL Reported Conversion Traits] -Bericht könnte in etwa wie folgt aussehen:
+Ihr [!UICONTROL Reported Conversion Traits] könnte in etwa wie der folgende aussehen:
 
 ![](assets/reported-conversion-traits.png)

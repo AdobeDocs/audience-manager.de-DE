@@ -61,11 +61,11 @@ Prozesse, die dazu beitragen, die Sicherheit personenbezogener Daten zu gewährl
 
 Prozesse zum Schutz der Daten einzelner Clients.
 
-**Partitionierung von Eigenschaftsdaten:** Ihre Daten ([!UICONTROL traits], IDs usw.) werden nach Client partitioniert. Dies hilft, eine versehentliche Offenlegung von Informationen zwischen verschiedenen Clients zu verhindern. Beispielsweise werden Eigenschaftsdaten in Cookies nach Kunde partitioniert und in einer Client-spezifischen Subdomäne gespeichert. Sie können nicht versehentlich von einem anderen Audience Manager-Client gelesen oder verwendet werden. Darüber hinaus werden die in [!UICONTROL Profile Cache Servers (PCS)] gespeicherten Eigenschaftsdaten auch nach Kunde partitioniert. Dadurch wird verhindert, dass andere Clients Ihre Daten versehentlich bei einem Ereignisaufruf oder einer anderen Anfrage verwenden.
+**Trait-Datenpartitionierung:** Ihre Daten ([!UICONTROL traits], IDs usw.) werden vom Client partitioniert. Dies hilft, eine versehentliche Offenlegung von Informationen zwischen verschiedenen Clients zu verhindern. Beispielsweise werden Eigenschaftsdaten in Cookies nach Kunde partitioniert und in einer Client-spezifischen Subdomäne gespeichert. Sie können nicht versehentlich von einem anderen Audience Manager-Client gelesen oder verwendet werden. Darüber hinaus werden die in [!UICONTROL Profile Cache Servers (PCS)] gespeicherten Eigenschaftsdaten auch nach Kunde partitioniert. Dadurch wird verhindert, dass andere Clients Ihre Daten versehentlich bei einem Ereignisaufruf oder einer anderen Anfrage verwenden.
 
 **Datenpartitionierung in Berichten:** Client-IDs sind Teil des Identifizierungsschlüssels in allen Berichtstabellen, und Berichtsabfragen werden nach ID gefiltert. Dadurch wird verhindert, dass Ihre Daten in den Berichten eines anderen Audience Manager-Kunden angezeigt werden.
 
-## Eingehende Server-zu-Server (S2S)-Übertragungen {#inbound-s2s}
+## Eingehende Server-zu-Server-Übertragungen (S2S) {#inbound-s2s}
 
 Adobe Audience Manager unterstützt zwei Hauptmethoden zum Übertragen von integrierten S2S-Datendateien auf unsere Systeme:
 
@@ -73,11 +73,11 @@ Bei beiden Methoden steht die Sicherheit der Daten unserer Kunden und Partner im
 
 **SFTP:** Bei der SFTP-Option stellen die meisten Kunden Dateien über das SFTP-Protokoll (Secure FTP) bereit, welches das SSH-Protokoll (Secure Shell) verwendet. Diese Methode stellt sicher, dass Dateien während der Übertragung zwischen den Systemen des Kunden und dem Adobe-System verschlüsselt werden. Für jeden Kunden erstellen wir auf unseren SFTP-Servern einen gesicherten Dropbox-Speicherort, der an ein Benutzerkonto auf diesem System gebunden ist. Nur die autorisierten und berechtigten internen Systembenutzer des Kunden können auf diesen gesicherten Dropbox-Speicherort zugreifen. Dieser gesicherter Speicherort ist für andere Kunden niemals zugänglich.
 
-**[!UICONTROL Amazon Web Services S3]über HTTPS:** Für die Bereitstellungsoption S3 empfehlen wir allen Kunden, ihre S3-Clients so zu konfigurieren, dass sie die HTTPS-Verschlüsselungsmethode für Dateiübertragungen verwenden (dies ist nicht der Standardwert, daher muss sie explizit konfiguriert werden). Die HTTPS-Option wird sowohl vom Befehlszeilentool s3cmd als auch von den S3-Bibliotheken unterstützt, die in allen wichtigen Programmiersprachen verfügbar sind. Wenn diese HTTPS-Option aktiviert ist, werden die Daten des Kunden während der Übertragung auf unsere Systeme verschlüsselt. Für jeden Kunden erstellen wir ein separates S3-Bucket-Unterverzeichnis, auf das nur mit den Anmeldedaten dieses Kunden und denen unserer internen Systembenutzer zugegriffen werden kann.
+**[!UICONTROL Amazon Web Services S3]über HTTPS:** Für die Bereitstellungsoption „S3“ empfehlen wir, dass alle Kundinnen und Kunden ihre S3-Clients so konfigurieren, dass sie die HTTPS-Verschlüsselungsmethode für Dateiübertragungen verwenden (dies ist nicht der Standardwert, sodass er explizit konfiguriert werden muss). Die HTTPS-Option wird sowohl vom Befehlszeilentool s3cmd als auch von den S3-Bibliotheken unterstützt, die in allen wichtigen Programmiersprachen verfügbar sind. Wenn diese HTTPS-Option aktiviert ist, werden die Daten des Kunden während der Übertragung auf unsere Systeme verschlüsselt. Für jeden Kunden erstellen wir ein separates S3-Bucket-Unterverzeichnis, auf das nur mit den Anmeldedaten dieses Kunden und denen unserer internen Systembenutzer zugegriffen werden kann.
 
 Informationen zum Hinzufügen der PGP-Verschlüsselung zu Ihren Datendateien finden Sie unter [Datei-PGP-Verschlüsselung für eingehende Datentypen](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
-## Schutz von Daten durch Maskieren {#escaping-data}
+## Schutz der Daten durch Escaping {#escaping-data}
 
 Beachten Sie, dass [!DNL Audience Manager] bei ausgehenden Daten keine Maskierungszeichen verwendet, um sie gegen ein mögliches Cross-Site-Scripting (XSS) usw. zu schützen. Es liegt in der Verantwortung des Client, eingehenden Daten mit Maskierungszeichen zu versehen.
 
@@ -91,6 +91,6 @@ Diese Richtlinie verbessert die Datensicherheit zwischen Clients und Adobe [Edge
 
 ### Beispiel {#hsts-example}
 
-Angenommen, die Domäne `yourcompany.demdex.com` sendet Traffic über [!DNL HTTP] an die [!DNL DCS]. [!DNL HSTS] aktualisiert die Aufrufe, um stattdessen [!DNL HTTPS] zu verwenden. Alle nachfolgenden [!DNL DCS]-Aufrufe, die von `yourcompany.demdex.com` kommen, verwenden dann [!DNL HTTPS] anstelle von [!DNL HTTP].
+Angenommen, die `yourcompany.demdex.com` Domain sendet Traffic über [!DNL HTTP] an die [!DNL DCS]. [!DNL HSTS] aktualisiert die Aufrufe, um stattdessen [!DNL HTTPS] zu verwenden. Alle nachfolgenden [!DNL DCS]-Aufrufe, die von `yourcompany.demdex.com` kommen, verwenden dann [!DNL HTTPS] anstelle von [!DNL HTTP].
 
 Weitere Informationen zu HSTS finden Sie unter [HTTP Strict Transport Security – Wikipedia](https://de.wikipedia.org/wiki/HTTP_Strict_Transport_Security).

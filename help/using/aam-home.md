@@ -151,7 +151,7 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
      Neue Funktionen und Fehlerbehebungen finden Sie in den <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud-Versionshinweisen</a>.</p> 
      <p> <b>Neueste Funktionen</b> </p> <p> 
      Informieren Sie sich über die neuesten Audience Manager-Funktionen:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Benutzermigration zu Admin Console durch Audience Manager</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google-Kundenabgleich für personenbasierte Ziele</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.2</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Vorhersagekräftige Zielgruppen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivitätsnutzung</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager-Benutzermigration zur Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match für personenbasierte Ziele</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB TCF v2.2</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Vorhersagekräftige Zielgruppen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Berichte zur Aktivitätsnutzung</a></li>
      </ul></p>
     </td>
   </tr> 

@@ -47,9 +47,9 @@ Ja. Siehe [Tools zur Massenverwaltung](../reference/bulk-management-tools/bulk-m
 
  
 
-**Beim Ausführen eines Massen-ID-Exports an ein Ziel fehlen einige Kunden-IDs. Warum passiert das?**
+**Beim Massenexport einer ID an ein Ziel fehlen einige der Kunden-IDs. Warum passiert das?**
 
-Wenn eine Geräte-ID ([AAM UUID](../reference/ids-in-aam.md)) mit mehreren CRM-IDs ([DPUUIDs](../reference/ids-in-aam.md)) verknüpft ist, wird nur die neueste Zuordnung exportiert. Aus diesem Grund kann es vorkommen, dass weniger Geräte-IDs als erwartet exportiert werden.
+Wenn eine Geräte-ID ([AAM UUID](../reference/ids-in-aam.md)) mit mehreren CRM-IDs ([DPUUIDs) verknüpft ](../reference/ids-in-aam.md), wird nur die neueste Zuordnung exportiert. Aus diesem Grund kann die Anzahl der exportierten Geräte-IDs geringer sein als erwartet.
 
  
 
@@ -67,7 +67,7 @@ Ihr Daten-Feed und alle im Feed enthaltenen Eigenschaften werden als Unterordner
 
 **Was ist [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager verwendete [!UICONTROL Tag Insertion Manager] (TIM) zum Erstellen und Verwalten von [!UICONTROL data collection code (DIL)]. Diese Funktion ist mittlerweile veraltet und wurde zuerst durch [!UICONTROL Dynamic Tag Manager (DTM)] und später durch [!DNL Adobe Experience Platform Tags] ersetzt. Weitere Informationen finden Sie unter [Adobe Experience Platform-Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Audience Manager verwendete [!UICONTROL Tag Insertion Manager] (TIM) zum Erstellen und Verwalten von [!UICONTROL data collection code (DIL)]. Diese Funktion ist mittlerweile veraltet und wurde zuerst durch [!UICONTROL Dynamic Tag Manager (DTM)] und später durch [!DNL Adobe Experience Platform Tags] ersetzt. Weitere Informationen finden Sie unter [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 

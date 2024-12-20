@@ -1,9 +1,9 @@
 ---
-description: In diesem Artikel werden die Präfixe beschrieben, die Sie beim Erstellen von Eigenschaftsregeln an Schlüsselvariablen anhängen müssen.
+description: In diesem Artikel werden die Präfixe beschrieben, die Sie Schlüsselvariablen beim Erstellen von Eigenschaftsregeln anhängen müssen.
 seo-description: This article describes the prefixes you must attach to key variables when creating trait rules.
 seo-title: Prefix Requirements for Key Variables
 solution: Audience Manager
-title: Voraussetzungen für das Präfix für Schlüsselvariablen
+title: Voraussetzungen für Präfixe für Schlüsselvariablen
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 exl-id: 67fe0c74-6831-48cb-90cf-417ebbf7f272
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# Voraussetzungen für das Präfix für Schlüsselvariablen {#prefix-requirements-for-key-variables}
+# Voraussetzungen für Präfixe für Schlüsselvariablen {#prefix-requirements-for-key-variables}
 
-In diesem Artikel werden die Präfixe beschrieben, die Sie beim Erstellen von Eigenschaftsregeln an Schlüsselvariablen anhängen müssen.
+In diesem Artikel werden die Präfixe beschrieben, die Sie Schlüsselvariablen beim Erstellen von Eigenschaftsregeln anhängen müssen.
 
 <!-- r_tb_variable_prefixes.xml -->
 
-## Zweck der Schlüsselvariablenpräfixe
+## Zweck von Präfixen für Schlüsselvariablen
 
-Wenn Sie [!UICONTROL Trait Builder] -Regeln erstellen, ist es wichtig, der Schlüsselvariablen ein empfohlenes Präfix voranzustellen. Diese Präfixe identifizieren den Datentyp, der übergeben wird, und helfen, Namespace-Konflikte innerhalb von [!DNL Audience Manager] zu vermeiden. Im Allgemeinen können Sie einer Variablen einen beliebigen Namen geben, aber die Daten für eine Regel werden nicht verarbeitet, wenn der Name der Schlüsselvariablen nicht mit dem Variablennamen in einem Ereignisaufruf übereinstimmt.
+Beim Erstellen [!UICONTROL Trait Builder] Regeln ist es wichtig, der Schlüsselvariablen ein empfohlenes Präfix voranzustellen. Diese Präfixe identifizieren den Typ der übergebenen Daten und helfen, Namespace-Konflikte in [!DNL Audience Manager] zu vermeiden. Im Allgemeinen können Sie einer Variablen einen beliebigen Namen geben, aber Daten für eine Regel werden nicht verarbeitet, wenn der Schlüsselvariablenname nicht mit dem Variablennamen in einem Ereignisaufruf übereinstimmt.
 
 ## Präfixe für Schlüsselvariablen
 
-Die folgende Tabelle definiert die allgemeinen Präfixe, die von [!UICONTROL Trait Builder] verwendet werden.
+In der folgenden Tabelle werden die allgemeinen Präfixe definiert, die von [!UICONTROL Trait Builder] verwendet werden.
 
 <table id="table_CFEFA1DBDF904736B6EA2640B7AD26E5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Schlüsselvariablenpräfix </th> 
+   <th colname="col1" class="entry"> Präfix der Schlüsselvariablen </th> 
    <th colname="col2" class="entry"> Identifiziert die Variable </th> 
   </tr>
  </thead>
@@ -42,20 +42,20 @@ Die folgende Tabelle definiert die allgemeinen Präfixe, die von [!UICONTROL Tra
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Auf der Ebene <span class="keyword"> Audience Manager</span> . Diese Daten sind im gesamten Ökosystem <span class="keyword"> Audience Manager</span> einheitlich. Eine vollständigere Liste finden Sie unter <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Unterstützte Attribute für DCS-API-Aufrufe</a> .</p> </td> 
+   <td colname="col2"> <p>Auf der <span class="keyword"> Audience Manager </span>Ebene. Diese Daten sind im gesamten Ökosystem des <span class="keyword"> Audience Managers </span>. Eine vollständigere Liste finden Sie unter <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> unterstützten Attribute </a> DCS-API-Aufrufe .</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Enthält <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP-Header</a> -Informationen. Enthält Kopfzeilenparameter wie <code> referer</code>, <code> IP</code>, <code> accept-language</code> usw. </p> <p> <p>Hinweis: Bei Kunden, die DIL-Versionen verwenden, die älter als 9.0 sind, funktioniert die Datenerfassung mit dem <code> h_referer</code> -Signal nicht in Safari-Browsern. Mit der Einführung von <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a> können Safari-Browser die Domäne demdex.net als Tracker klassifizieren und den Referrer bei der Datenerfassungsanforderung so abschneiden, dass er nur den Ursprung anstelle der vollständigen URL enthält. Die neueste DIL-Version finden Sie unter <a href="../../dil/dil-overview.md#get-implement-dil-code">Abrufen und Implementieren von DIL-Code</a> .<p>Signale, die dieses Präfix verwenden, werden in der <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signalsuche</a> nicht angezeigt.</p></p> </p> </td> 
+   <td colname="col2"> <p>Enthält <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP-Kopfzeile</a> Informationen. Enthält Kopfzeilenparameter wie <code> referer</code>, <code> IP</code>, <code> accept-language</code> usw. </p> <p> <p>Hinweis: Kunden, die DIL-Versionen älter als 9.0 verwenden, können die Datenerfassung mit dem <code> h_referer</code>-Signal in Safari-Browsern nicht durchführen. Mit der Einführung von <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a> können Safari-Browser die Domain demdex.net als Tracker klassifizieren und den Referrer in der Datenerfassungsanfrage so abschneiden, dass er nur die Herkunft anstatt der vollständigen URL enthält. Die <a href="../../dil/dil-overview.md#get-implement-dil-code"> DIL-Version finden Sie unter </a> und Implementieren von DIL-Code .<p>Signale, die dieses Präfix verwenden, werden in der <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signalsuche</a> nicht angezeigt.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p>Unsere <span class="wintitle"> Datenerfassungsserver</span> ermöglichen die Übergabe privater Parameter. Grundsätzlich werden Parameter, die mit <code> p_</code> beginnen, für die Eigenschaftsbewertung verwendet, aber nicht nachgelagert protokolliert und auch nicht gespeichert. </p> <p>Beispiel: Bei <code> /event?p_age=23</code> und einer Eigenschaft wie <code> YoungPeople = p_age &lt; 25</code> wird die Eigenschaft implementiert, aber das Schlüssel-Wert-Paar <code> p_age=23</code> wird nach der Anfrage abgelegt und nicht protokolliert. </p> </td> 
+   <td colname="col2"> <p>Unsere <span class="wintitle"> Datenerfassungs-Server </span> die Weitergabe von privaten Parametern. Grundsätzlich werden alle Parameter, die mit <code> p_</code> beginnen, für die Eigenschaftsbewertung verwendet, aber sie werden nicht nachgelagert oder gespeichert. </p> <p>Beispiel: Bei <code> /event?p_age=23</code> und einer Eigenschaft wie <code> YoungPeople = p_age &lt; 25</code> wird die Eigenschaft realisiert, aber das <code> p_age=23</code> Schlüssel-Wert-Paar wird nach der Anfrage entfernt und nicht protokolliert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Überblick über grundlegende Informationen](../../features/traits/create-onboarded-rule-based-traits.md)
+>* [Allgemeine Informationen - Übersicht](../../features/traits/create-onboarded-rule-based-traits.md)
 >* [Verwalten von Eigenschaftsregeln](../../features/traits/manage-trait-rules.md#managing-trait-rules)

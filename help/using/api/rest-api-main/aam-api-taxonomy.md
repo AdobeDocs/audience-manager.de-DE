@@ -1,5 +1,5 @@
 ---
-description: Methoden, mit denen Sie die gemeinsame Taxonomie des Audience Managers anzeigen können. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in Kategorien, die dem Branchenstandard entsprechen.
+description: Methoden, mit denen Sie die allgemeine Taxonomie des Audience Managers anzeigen können. Mit diesem optionalen Klassifizierungsschema werden Eigenschaften in branchenübliche Kategorien unterteilt.
 seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
 seo-title: Taxonomic API Methods
 solution: Audience Manager
@@ -16,17 +16,17 @@ ht-degree: 1%
 
 # Taxonomische API-Methoden {#taxonomic-api-methods}
 
-Methoden, mit denen Sie die gemeinsame Taxonomie des Audience Managers anzeigen können. Dieses optionale Klassifizierungssystem organisiert Eigenschaften in Kategorien, die dem Branchenstandard entsprechen.
+Methoden, mit denen Sie die allgemeine Taxonomie des Audience Managers anzeigen können. Mit diesem optionalen Klassifizierungsschema werden Eigenschaften in branchenübliche Kategorien unterteilt.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->Mit diesen Methoden können Sie keine neuen Taxonomiekategorien erstellen oder Eigenschaften klassifizieren. Um eine Eigenschaft zu klassifizieren, geben Sie die entsprechende `categoryId` mit einer Methode zum Erstellen oder Aktualisieren von Eigenschaften an.
+>Mit diesen Methoden können keine neuen taxonomischen Kategorien erstellt oder Eigenschaften klassifiziert werden. Um eine Eigenschaft zu klassifizieren, geben Sie die entsprechende `categoryId` mit einer Methode zum Erstellen oder Aktualisieren von Eigenschaften an.
 
-## Bestimmte Taxonomie zurückgeben {#return-specific-taxonomy}
+## Gibt eine bestimmte Taxonomie zurück {#return-specific-taxonomy}
 
-Eine `GET` -Methode, die Details zur angegebenen taxonomischen Kategorie zurückgibt.
+Eine `GET` Methode, die Details zur angegebenen taxonomischen Kategorie zurückgibt.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -36,7 +36,7 @@ Eine `GET` -Methode, die Details zur angegebenen taxonomischen Kategorie zurück
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Bei einer nicht erfolgreichen Anfrage wird `404 No Content` zurückgegeben, wenn die ID nicht vorhanden ist.
+Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anfrage gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist.
 
 ```
 {
@@ -49,9 +49,9 @@ Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID
 }
 ```
 
-## Alle Taxonomiekategorien zurückgeben {#return-all-taxonomy-categories}
+## Alle taxonomischen Kategorien zurückgeben {#return-all-taxonomy-categories}
 
-Eine `GET` -Methode, die eine Liste der Kategorien der obersten Ebene in einem Array zurückgibt.
+Eine `GET` Methode, die eine Liste der Kategorien der obersten Ebene in einem Array zurückgibt.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -61,7 +61,7 @@ Eine `GET` -Methode, die eine Liste der Kategorien der obersten Ebene in einem A
 
 ### Antwort
 
-Kürzt aus Gründen der Kürze.
+Aus Gründen der Kürze gekürzt
 
 ```
 [
@@ -92,9 +92,9 @@ Kürzt aus Gründen der Kürze.
 ]
 ```
 
-## Rückgabe taxonomischer Unterkategorien {#return-taxonomy-sub-categories}
+## Gibt taxonomische Unterkategorien zurück {#return-taxonomy-sub-categories}
 
-Eine `GET` -Methode, die Unterkategorien für die angegebene übergeordnete Kategorie in einem Array zurückgibt.
+Eine `GET` Methode, die Unterkategorien für die angegebene übergeordnete Kategorie in einem Array zurückgibt.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -104,7 +104,7 @@ Eine `GET` -Methode, die Unterkategorien für die angegebene übergeordnete Kate
 
 ### Antwort
 
-Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Bei einer nicht erfolgreichen Anfrage wird `404 No Content` zurückgegeben, wenn die ID nicht vorhanden ist. Kürzt aus Gründen der Kürze.
+Eine erfolgreiche Antwort gibt `200 OK` und die Kategorie für die angegebene ID zurück. Eine nicht erfolgreiche Anfrage gibt `404 No Content` zurück, wenn die ID nicht vorhanden ist. Aus Gründen der Kürze gekürzt
 
 ```
 [

@@ -1,9 +1,9 @@
 ---
-description: Beschreibt die Schwankungen der Summen Unique Users zwischen Berichten für dieselbe Eigenschaft und denselben Zeitraum.
+description: Beschreibt die Variation der Gesamtwerte für Unique User zwischen Berichten für dasselbe Merkmal und denselben Zeitraum.
 seo-description: Describes the variation in unique user totals between reports for the same trait and time period in Adobe Audience Manager
 seo-title: Counting Unique Users in Overlap and General Reports in AAM
 solution: Audience Manager
-title: Zählen von Unique Users in Überlagerungen und allgemeinen Berichten
+title: Zählen von eindeutigen Benutzern in Überschneidungs- und allgemeinen Berichten
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 feature: Reporting Reference
 exl-id: 439e7e8e-0c2e-4d3e-8148-61b9d57bf4df
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 ---
 
-# Zählen von Unique Users in Überlagerungen und allgemeinen Berichten{#counting-unique-users-in-overlap-and-general-reports}
+# Zählen von eindeutigen Benutzern in Überschneidungs- und allgemeinen Berichten{#counting-unique-users-in-overlap-and-general-reports}
 
-Auf dieser Seite wird beschrieben, wie sich die Summen der Unique Users zwischen Berichten für dieselbe Eigenschaft und denselben Zeitraum unterscheiden.
+Auf dieser Seite werden die Unterschiede in den Summen der Unique User zwischen Berichten für dasselbe Merkmal und denselben Zeitraum beschrieben.
 
 <!-- 
 
@@ -24,17 +24,17 @@ c_unique_user_counts.xml
 
  -->
 
-## Overlap Report: Unique User Count
+## Überschneidungsbericht: Anzahl der eindeutigen Benutzer
 
-Die Überschneidungsberichte zählen Benutzer als eindeutig, wenn sie sich für eine Eigenschaft qualifizieren:
+Die Überschneidungsberichte zählen Benutzer als eindeutig, wenn sie für eine Eigenschaft qualifiziert sind:
 
-* Während des ausgewählten Zeitintervalls für den Bericht.
-* Dieser Wert hat einen [Time-to-Live](../features/traits/segment-ttl-explained.md) -Wert, der länger als das ausgewählte Zeitintervall für den Bericht ist.
-* Wenn sie in unserem System als aktiv angesehen werden (d. h. für eine beliebige andere Eigenschaft qualifiziert, eine ID-Synchronisierung aufweist usw.) innerhalb der letzten 60 Tage.
+* Während des für den Bericht ausgewählten Zeitintervalls.
+* Der Wert [Time-to-Live](../features/traits/segment-ttl-explained.md) ist länger als das ausgewählte Zeitintervall für den Bericht.
+* Wenn sie in den letzten 60 Tagen in unserem System als aktiv angesehen wurden (d. h. für eine andere Eigenschaft qualifiziert waren, eine ID-Synchronisierung hatten usw.).
 
-## Allgemeiner Bericht: Unique User Count
+## Allgemeiner Bericht: Anzahl der eindeutigen Benutzer
 
-Der Bericht &quot;Allgemein&quot;zählt Sitebesucher als eindeutig, wenn sie sich im ausgewählten Zeitraum für die Eigenschaft qualifiziert haben.
+Der allgemeine Bericht zählt Besuchende der Site als eindeutig, wenn sie sich im ausgewählten Zeitraum für das Merkmal qualifiziert haben.
 
 >[!MORELIKETHIS]
 >

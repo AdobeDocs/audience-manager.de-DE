@@ -1,5 +1,5 @@
 ---
-description: Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für eine breite Palette von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild von der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
+description: Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für einen breiten Bereich von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
 seo-description: These reports return data on impressions, click-through rates, and conversions for broad range of advertising dimensions. Compare trends and volume for your selected metrics to get a better picture of how your campaign performs over time.
 seo-title: Trend Analysis and Volume Analysis Reports
 solution: Audience Manager
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# Berichte [!UICONTROL Trend Analysis] und [!UICONTROL Volume Analysis]{#trend-analysis-and-volume-analysis-reports}
+# [!UICONTROL Trend Analysis] und [!UICONTROL Volume Analysis] Berichte{#trend-analysis-and-volume-analysis-reports}
 
-Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für eine breite Palette von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild von der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
+Diese Berichte geben Daten zu Impressionen, Clickthrough-Raten und Konversionen für einen breiten Bereich von Werbedimensionen zurück. Vergleichen Sie Trends und Volumen für Ihre ausgewählten Metriken, um ein besseres Bild der Leistung Ihrer Kampagne im Zeitverlauf zu erhalten.
 
-## Beispiel-Bericht [!UICONTROL Trend Analysis] {#sample-trend-analysis}
+## [!UICONTROL Trend Analysis] {#sample-trend-analysis}
 
-Der Bericht [!UICONTROL Trend Analysis] gibt nur Daten in einem Liniendiagramm für ein Intervall von 14 Tagen zurück. In diesem Beispiel zeigt der Bericht Impressions-, Clickthrough- und Konversionstrends für eine Reihe zugeordneter Segmente an.
+Der [!UICONTROL Trend Analysis] gibt nur Daten in einem Liniendiagramm für ein 14-tägiges Intervall zurück. In diesem Beispiel zeigt der Bericht Impressions-, Clickthrough- und Konversionstrends für einen Satz zugeordneter Segmente.
 
 ![](assets/trend-analysis.png)
 
-## Beispiel-Bericht [!UICONTROL Volume Analysis] {#sample-volume-analysis}
+## [!UICONTROL Volume Analysis] {#sample-volume-analysis}
 
-Der Bericht [!UICONTROL Volume Analysis] gibt Daten in einem Balkendiagramm für den ausgewählten Datumsbereich zurück. In diesem Beispiel zeigt der Bericht Impressions-, Clickthrough- und Konversionen nach Volumen für eine Reihe zugeordneter Segmente an.
+Der [!UICONTROL Volume Analysis] gibt Daten in einem Balkendiagramm für den ausgewählten Datumsbereich zurück. In diesem Beispiel zeigt der Bericht Impressionen, Clickthroughs und Konversionen nach Volumen für einen Satz von zugeordneten Segmenten.
 
 >[!NOTE]
 >
->7- und 30-tägige Rückblickszeiträume sind nur für Sonntag- **[!UICONTROL Date Through]** Daten verfügbar.
+>7-tägige und 30-tägige Lookback-Zeiträume sind nur für **[!UICONTROL Date Through]** verfügbar.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->Informationen zu zugeordneten und nicht zugeordneten Segmenten finden Sie in der Dokumentation zum [Segmentleistungsbericht](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) .
+>Informationen zu zugeordneten und nicht zugeordneten Segmenten finden Sie in der Dokumentation [Segmentleistungsbericht](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) .

@@ -1,5 +1,5 @@
 ---
-description: Verwenden Sie das Dashboard, um Informationen über die Unique Visitor-Zählungen Ihrer Partner anzuzeigen, aufgeschlüsselt nach Eigenschaftstypen und Segmenten für einen bestimmten Zeitraum.
+description: Verwenden Sie das Dashboard, um Informationen über die Unique Visitor-Zahlen Ihrer Partner anzuzeigen, aufgeschlüsselt nach Eigenschaftstypen und Segmenten für einen bestimmten Zeitraum.
 seo-description: Use the Dashboard to view information about your partners' unique visitor counts broken down by trait types and segments for a specified time frame.
 seo-title: Reports Dashboard
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Berichte-Dashboard {#reports-dashboard}
 
-Verwenden Sie das Dashboard, um Informationen zu den Unique Visitor-Zählungen für einen bestimmten Zeitraum nach Eigenschaftstypen und Segmenten aufgeschlüsselt anzuzeigen.
+Verwenden Sie das Dashboard, um Informationen über die Anzahl Ihrer Unique Visitors anzuzeigen, aufgeschlüsselt nach Eigenschaftstypen und Segmenten für einen bestimmten Zeitrahmen.
 
 <!-- 
 
@@ -24,52 +24,52 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] verwendet [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um Benutzergruppenberechtigungen auf die [!UICONTROL Dashboard] zu erweitern. Benutzer können nur Informationen im Dashboard sehen, die sie anzeigen können. Mit der Funktion [!UICONTROL RBAC] können Sie steuern, welche Berichtsdaten interne Teams anzeigen können.
+[!DNL Audience Manager] verwendet [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]), um Benutzergruppenberechtigungen auf die [!UICONTROL Dashboard] zu erweitern. Benutzer können nur Informationen im Dashboard sehen, für die sie über die Berechtigung zum Anzeigen verfügen. Mit [!UICONTROL RBAC] Funktion können Sie steuern, welche Berichtsdaten interne Teams anzeigen können.
 
-Eine Agentur, die verschiedene Advertiser-Konten verwaltet, kann beispielsweise Benutzergruppenberechtigungen so konfigurieren, dass ein Team, das das Konto von Advertiser A verwaltet, die Berichtsdaten von Advertiser B nicht sehen kann. Dieses Dashboard kann zur Fehlerbehebung bei Problemen mit der Datenbereitstellung verwendet werden.
+Beispielsweise kann eine Agentur, die verschiedene Advertiser-Konten verwaltet, Benutzergruppenberechtigungen so konfigurieren, dass ein Team, das das Konto von Advertiser A verwaltet, die Berichtsdaten von Advertiser B nicht sehen kann. Dieses Dashboard kann zur Fehlerbehebung bei Problemen mit der Datenbereitstellung verwendet werden.
 
-Wenn Sie z. B. einen Rückgang oder eine Spitze bei den Unique Users insgesamt feststellen, bei denen die Aufschlüsselung des Typs des Unique Users erfolgt (regelbasiert im Vergleich zu integriert), haben Sie einen besseren Ausgangspunkt, um ein potenzielles Datenbereitstellungsproblem nachzuverfolgen. Wenn Sie einen Rückgang bei den Unique Users insgesamt und bei integrierten Unique Users feststellen, können Sie zum Bericht [!UICONTROL On-boarding Status] gehen, um zu sehen, ob es ein Problem mit einer eingehenden Datei gab.
+Wenn Sie beispielsweise einen Rückgang oder eine Spitze bei der Gesamtzahl eindeutiger Benutzer mit der Aufschlüsselung des Typs eindeutiger Benutzer (regelbasiert vs. integriert) bemerken, haben Sie einen besseren Ausgangspunkt, um ein potenzielles Problem bei der Datenbereitstellung zu ermitteln. Wenn Sie einen Rückgang bei der Gesamtzahl der eindeutigen Benutzer und der integrierten eindeutigen Benutzer feststellen, können Sie den [!UICONTROL On-boarding Status]-Bericht aufrufen, um zu sehen, ob ein Problem mit einer eingehenden Datei aufgetreten ist.
 
 **So greifen Sie auf das Dashboard zu:**
 
 1. Klicken Sie im oberen Navigationsmenü auf **[!UICONTROL Dashboard]**.
-2. *Optional* Wählen Sie den gewünschten Zeitraum aus dem letzten Berichtsdatum aus der Dropdownliste aus (7 Tage, 14 Tage (Standard), 30 Tage oder 60 Tage).
+2. *Optional* Wählen Sie den gewünschten Zeitrahmen aus dem letzten Berichtsdatum aus der Dropdown-Liste (7 Tage, 14 Tage (Standard), 30 Tage oder 60 Tage).
 
-   Je nach ausgewähltem Zeitraum zeigt die Deltaänderung in den Bedienfeldern [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] und [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] die Veränderung der Unique Visitors in der Zielgruppe über den Zeitraum, der heute endet, im Vergleich zum vorherigen Zeitraum derselben Länge an. Wenn Sie beispielsweise &quot;7 Tage&quot;auswählen, vergleicht der Delta die Unique Visitors über die letzten sieben Tage, die heute enden, mit den Unique Visitors für die sieben Tage, die vor sieben Tagen endeten.
+   Je nach ausgewähltem Zeitraum zeigt die Delta-Änderung in den Bedienfeldern [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] und [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] die Änderung der Unique Visitors in der Zielgruppe in dem Zeitraum an, der heute endet, verglichen mit dem vorherigen Zeitraum derselben Länge. Wenn Sie beispielsweise 7 Tage auswählen, vergleicht das Delta die Unique Visitors der letzten sieben Tage, die heute enden, mit den Unique Visitors der sieben Tage, die vor sieben Tagen enden.
 
    >[!NOTE]
    >
-   >Sie können eine ungewöhnliche Delta-Änderung untersuchen, indem Sie einen [!UICONTROL Trend] -Bericht ausführen. Wenn Sie z. B. in den letzten sieben Tagen eine ungewöhnlich große Delta-Änderung feststellen, können Sie einen [!UICONTROL Trend] -Bericht für die letzten 14 Tage (2 x 7) ausführen, um die Zahlen besser zu verstehen.
+   >Sie können eine Delta-Änderung, die ungewöhnlich erscheint, untersuchen, indem Sie einen [!UICONTROL Trend] Bericht ausführen. Wenn Sie beispielsweise in den letzten sieben Tagen eine ungewöhnlich große Delta-Änderung feststellen, können Sie einen [!UICONTROL Trend] für die letzten 14 Tage (2 x 7) ausführen, um die Zahlen besser zu verstehen.
 
-   Je nach den Berechtigungen des angemeldeten Benutzers werden die folgenden Bereiche angezeigt:
+   Je nach den Berechtigungen des angemeldeten Benutzers werden die folgenden Bedienfelder angezeigt:
 
-   * [Partner Uniques](../reporting/reports-dashboard.md#partner-uniques)
-   * [Größte Eigenschaften/am meisten geänderte Eigenschaften](../reporting/reports-dashboard.md#largest-traits)
-   * [Größte Segmente/am meisten geänderte Segmente](../reporting/reports-dashboard.md#most-changed-segments)
+   * [Eindeutige Partner](../reporting/reports-dashboard.md#partner-uniques)
+   * [Größte Eigenschaften/Am häufigsten geänderte Eigenschaften](../reporting/reports-dashboard.md#largest-traits)
+   * [Größte Segmente/Am häufigsten geänderte Segmente](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Optional* Klicken Sie auf **[!UICONTROL Normalize]** über einem beliebigen Diagramm, um alle Daten auf derselben Skala anzuzeigen. Sie können auch mit dem Mauszeiger über einen Datenpunkt fahren, um weitere Informationen anzuzeigen.
+3. *Optional* Klicken Sie auf **[!UICONTROL Normalize]** über einem Diagramm, um alle Daten auf derselben Skala anzuzeigen. Sie können auch den Mauszeiger über einen beliebigen Datenpunkt bewegen, um weitere Informationen anzuzeigen.
 
-## Partner Unique Visitors {#partner-uniques}
+## Eindeutige Partner {#partner-uniques}
 
-Berechtigung erforderlich für Anzeige: [!UICONTROL View All Traits].
+Berechtigung erforderlich zum Anzeigen: [!UICONTROL View All Traits].
 
 ![](assets/partner_uniques.png)
 
-In diesem Bereich wird die Anzahl der Unique Visitors im angegebenen Zeitraum angezeigt. Einzelne farbcodierte Zeilen stellen die Gesamtanzahl der Unique Visitors und die Anzahl der Unique Visitors dar, die anhand algorithmischer, regelbasierter und integrierter Eigenschaften erfasst wurden.
+In diesem Bedienfeld wird die Anzahl der Unique Visitors im angegebenen Zeitraum angezeigt. Einzelne, farbcodierte Zeilen stellen die Gesamtzahl der Unique Visitors und die Anzahl der Unique Visitors dar, die mithilfe algorithmischer, regelbasierter und integrierter Eigenschaften erfasst wurden.
 
 >[!NOTE]
 >
->Die Gesamtanzahl der Unique Visitors stellt Besucher dar, die über regelbasierte oder integrierte Eigenschaften erfasst werden. Die Gesamtanzahl der Unique Visitors entspricht jedoch nicht der Summe der Unique Visitors, die mit den regelbasierten und integrierten Eigenschaften erfasst wurden. Derselbe Unique User kann in einem dieser beiden Eigenschaftstypen dargestellt werden.
+>Die Gesamtzahl der Unique Visitors stellt Besuchende dar, die über regelbasierte oder integrierte Eigenschaften erfasst wurden. Die Gesamtzahl der Unique Visitors entspricht jedoch nicht der Summe der Unique Visitors, die mithilfe der regelbasierten und integrierten Eigenschaften erfasst wurden. Derselbe eindeutige Benutzer kann in einem dieser beiden Eigenschaftstypen dargestellt werden.
 
-## Größte Eigenschaften/am meisten geänderte Eigenschaften {#largest-traits}
+## Größte Eigenschaften/Am häufigsten geänderte Eigenschaften {#largest-traits}
 
-Berechtigung erforderlich für Anzeige: [!UICONTROL View Traits].
+Berechtigung erforderlich zum Anzeigen: [!UICONTROL View Traits].
 
 ![](assets/largest_traits.png)
 
-In diesem Bereich wird die Anzahl der Unique Visitors angezeigt, die von verschiedenen Eigenschaften erfasst werden.
+In diesem Bedienfeld wird die Anzahl der Unique Visitors angezeigt, die von verschiedenen Eigenschaften erfasst wurden.
 
-Verwenden Sie die Dropdownliste &quot;**[!UICONTROL Show]**&quot;, um Informationen über verschiedene Eigenschaftstypen anzuzeigen: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] oder [!UICONTROL Rule-Based].
+Verwenden Sie die Dropdown-Liste **[!UICONTROL Show]** , um Informationen zu verschiedenen Typen von Eigenschaften anzuzeigen: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] oder [!UICONTROL Rule-Based].
 
 Dieses Bedienfeld enthält die folgenden Registerkarten:
 
@@ -82,23 +82,23 @@ Dieses Bedienfeld enthält die folgenden Registerkarten:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Größte Eigenschaften</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der Unique Visitors, sortiert nach Anzahl (von höchster zu niedrigster), sowie die Deltamaänderung der Unique Visitors im angegebenen Zeitraum an. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> größten Eigenschaften</span> </p> </td> 
+   <td colname="col2"> <p>Zeigt Informationen zur Anzahl der Unique Visitors an, sortiert nach Anzahl (vom höchsten zum niedrigsten Wert), und listet auch die Delta-Änderung der Unique Visitors während des angegebenen Zeitraums auf. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Am meisten geänderte Eigenschaften</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der Unique Visitors, sortiert nach der Delta-Änderung. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> die meisten geänderten Eigenschaften</span> </p> </td> 
+   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der Unique Visitors an, sortiert nach der Delta-Änderung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Größte Segmente/am meisten geänderte Segmente {#most-changed-segments}
+## Größte Segmente/Am häufigsten geänderte Segmente {#most-changed-segments}
 
-Berechtigung erforderlich für Anzeige: [!UICONTROL View Segments].
+Berechtigung erforderlich zum Anzeigen: [!UICONTROL View Segments].
 
 ![](assets/largest_segments.png)
 
-In diesem Bedienfeld wird die Anzahl der Unique Visitors angezeigt, die von verschiedenen Segmenten in Echtzeit erfasst werden.
+In diesem Bedienfeld wird die Anzahl der Unique Visitors angezeigt, die von verschiedenen Segmenten in Echtzeit erfasst wurden.
 
 Dieses Bedienfeld enthält die folgenden Registerkarten:
 
@@ -111,12 +111,12 @@ Dieses Bedienfeld enthält die folgenden Registerkarten:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Größte Segmente</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der Unique Visitors und die Delta-Änderung der Unique Visitors während des angegebenen Zeitraums an. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> größten Segmente</span> </p> </td> 
+   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der Unique Visitors und die Delta-Änderung von Unique Visitors im angegebenen Zeitraum an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Am häufigsten geänderte Segmente</span> </p> </td> 
-   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der Unique Visitors, sortiert nach der Delta-Änderung. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> am häufigsten geänderten Segmente</span> </p> </td> 
+   <td colname="col2"> <p>Zeigt Informationen über die Anzahl der Unique Visitors an, sortiert nach der Delta-Änderung. </p> </td> 
   </tr> 
  </tbody> 
 </table>

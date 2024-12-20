@@ -1,5 +1,5 @@
 ---
-description: Durch Massenlöschung können Sie mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale, Datenquellen, Modelle und Ziele mit einem einzigen Vorgang entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanfrage durchzuführen.
+description: Mit dem Massenlöschen können Sie mit einem einzigen Vorgang mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale, Datenquellen, Modelle und Ziele entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanfrage zu stellen.
 seo-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
 seo-title: Bulk Delete
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Massenlöschung{#bulk-delete}
 
-Durch Massenlöschung können Sie mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale, Datenquellen, Modelle und Ziele mit einem einzigen Vorgang entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanfrage durchzuführen.
+Mit dem Massenlöschen können Sie mit einem einzigen Vorgang mehrere Segmente, Eigenschaften, Ordner, abgeleitete Signale, Datenquellen, Modelle und Ziele entfernen. Befolgen Sie diese Anweisungen, um eine Massenlöschanfrage zu stellen.
 
 >[!IMPORTANT]
 >
->Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support durch die Kundenunterstützung werden von Fall zu Fall durchgeführt.
+>Die Tools für die Massenverwaltung sind kein offiziell unterstütztes Adobe-Angebot. Die Fehlerbehebung und der Support über die Kundenunterstützung werden von Fall zu Fall durchgeführt.
 
 <!-- 
 
@@ -30,22 +30,22 @@ Durch Massenlöschung können Sie mehrere Segmente, Eigenschaften, Ordner, abgel
 
 >[!NOTE]
 >
->[In der Benutzeroberfläche von [!DNL Audience Manager] zugewiesene RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md) werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
+>[RBAC-Gruppenberechtigungen](../../features/administration/administration-overview.md), die in der [!DNL Audience Manager]-Benutzeroberfläche zugewiesen sind, werden in der [!UICONTROL Bulk Management Tools] berücksichtigt.
 
 >[!NOTE]
 >
->Eine Massenlöschung für Zielzuordnungen schlägt fehl, wenn dem Ziel Segmente zugeordnet sind. Entfernen Sie Ihre Segmente aus diesem Ziel in der Benutzeroberfläche, bevor Sie versuchen, Ziele per Massenlöschung zu löschen. Außerdem müssen Eigenschaften- und Segmentordner leer sein, bevor Sie sie löschen können.
+>Eine Massenlöschung für Zielzuordnungen schlägt fehl, wenn dem Ziel Segmente zugeordnet sind. Entfernen Sie Ihre Segmente aus diesem Ziel in der Benutzeroberfläche, bevor Sie versuchen, Massenlöschziele zu löschen. Außerdem müssen Eigenschafts- und Segmentordner leer sein, bevor Sie sie löschen können.
 
-Um mehrere Elemente zu löschen, öffnen Sie das [!UICONTROL Bulk Management Tools] -Arbeitsblatt und:
+Um mehrere Elemente zu löschen, öffnen Sie das [!UICONTROL Bulk Management Tools] Arbeitsblatt und:
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Headers]** und kopieren Sie die Kopfzeilen zum Erstellen des Elements, das Sie hinzufügen möchten.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Headers]** und kopieren Sie die Kopfzeilen für das Element, das Sie hinzufügen möchten.
 2. Klicken Sie auf die Registerkarte **[!UICONTROL Delete]** .
-3. Fügen Sie die Header zum Löschen in die erste Zeile des Aktualisierungsarbeitsblatts ein.
+3. Fügen Sie die Löschkopfzeilen in die erste Zeile des Aktualisierungsarbeitsblatts ein.
 4. Fügen Sie die IDs für die Objekte, die Sie löschen möchten, in die Spalte unter der Kopfzeile ein oder geben Sie sie ein.
-5. Geben Sie die erforderlichen [Anmeldedaten ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) an und klicken Sie auf **[!UICONTROL Submit]**.
+5. Geben Sie die erforderlichen [Anmeldeinformationen“ ein ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) klicken Sie auf **[!UICONTROL Submit]**.
 
-   Das Arbeitsblatt erstellt eine [!UICONTROL Results] -Spalte. Die Spalte [!UICONTROL Results] gibt eine Meldung zurück, die angibt, ob das Element gelöscht wurde oder eine Fehlermeldung angezeigt wurde.
-Vor der Eingabe von Daten sollte das Bulk Update-Arbeitsblatt in etwa wie folgt aussehen:
+   Das Arbeitsblatt erstellt eine [!UICONTROL Results]. Die Spalte [!UICONTROL Results] gibt eine Meldung zurück, die angibt, ob das Element gelöscht wurde, oder eine Fehlermeldung.
+Vor der Dateneingabe sollte Ihr Massenaktualisierungsarbeitsblatt wie folgt aussehen:
 
 ![](assets/delete.png)
 
