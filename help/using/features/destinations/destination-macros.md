@@ -7,7 +7,7 @@ title: Zielmakros definiert
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 exl-id: 7be4b417-046c-4fe3-a53c-e4e0ed36acb9
-source-git-commit: d86769304b03161490d0c3d9eb340cee64d52034
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%

@@ -7,7 +7,7 @@ title: Importieren von Google Campaign Manager-Datendateien in Audience Manager
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
-source-git-commit: d86769304b03161490d0c3d9eb340cee64d52034
+source-git-commit: 95b7b4347f3da16be05be60cbefc0e236022a4a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 2%
