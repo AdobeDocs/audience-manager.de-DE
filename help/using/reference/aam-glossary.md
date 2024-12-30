@@ -10,7 +10,7 @@ exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ Siehe [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 **Ziel**
 
-In [!DNL Audience Manager] ist ein Ziel jedes andere System (Adserver, DSP, Anzeigennetzwerk usw.), für das Sie Daten freigeben möchten. Der [!UICONTROL Destination Builder] in unserer Benutzeroberfläche bietet die Tools, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Die Zielfunktionen von [!DNL Audience Manager] befinden sich unter **[!UICONTROL Audience Data > Destinations]**.
+[!DNL Audience Manager] ist ein Ziel jedes andere System (Werbeserver, DSP, Werbenetzwerk usw.), für das Sie Daten freigeben möchten. Der [!UICONTROL Destination Builder] in unserer Benutzeroberfläche bietet die Tools, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Die Zielfunktionen von [!DNL Audience Manager] befinden sich unter **[!UICONTROL Audience Data > Destinations]**.
 
 
 

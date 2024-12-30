@@ -1,5 +1,5 @@
 ---
-description: Dieser Bericht gibt eine Häufigkeitszählung aller nicht verwendeten Informationen zurück, die in Ihrem Inventar erfasst und an den Audience Manager gesendet wurden.
+description: Dieser Bericht gibt eine Häufigkeitsanzahl aller nicht verwendeten Informationen zurück, die in Ihrem Inventar erfasst und an den Audience Manager gesendet wurden.
 seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
 seo-title: Unused Signals Report
 solution: Audience Manager
@@ -16,25 +16,25 @@ ht-degree: 1%
 
 # Bericht zu nicht verwendeten Signalen{#unused-signals-report}
 
-Dieser Bericht gibt eine Häufigkeitszählung aller nicht verwendeten Informationen zurück, die in Ihrem Inventar erfasst und an den Audience Manager gesendet wurden. Um auf diesen Bericht zuzugreifen, navigieren Sie zu &quot;**Analytics > Zielgruppenberichte > Andere Berichte > Nicht verwendete Signale**&quot;.
+Dieser Bericht gibt eine Häufigkeitsanzahl aller nicht verwendeten Informationen zurück, die in Ihrem Inventar erfasst und an den Audience Manager gesendet wurden. Um auf diesen Bericht zuzugreifen, navigieren Sie zu **Analytics > Zielgruppenberichte > Andere Berichte > Nicht verwendete Signale**.
 
 >[!NOTE]
 >
->Wenn die Meldung &quot;Sie haben keinen Zugriff auf Zielgruppenberichte&quot;angezeigt wird, wenden Sie sich an Ihren Audience Manager-Berater oder die Kundenunterstützung, um den Bericht für Sie bereitzustellen.
+>Wenn die Meldung „Sie haben keinen Zugriff auf Zielgruppenberichte“ angezeigt wird, wenden Sie sich an Ihren Audience Manager-Berater oder die Kundenunterstützung, um den Bericht für Sie bereitzustellen.
 
 ![Screenshot des Berichts über nicht verwendete Signale](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
 ## Überblick
 
-Ein Signal ist eine Information von Ihrer Website, die in Form von [Schlüssel-Wert-Paaren](../../reference/key-value-pairs-explained.md) an [!DNL Audience Manager] übergeben wird (z. B. `color=blue, price>100, gender=female` usw.).
+Ein Signal ist eine Information von Ihrer Website, die in Form von [Schlüssel-Wert-Paaren](../../reference/key-value-pairs-explained.md) (z. B. `color=blue, price>100, gender=female` usw.) an [!DNL Audience Manager] weitergegeben wird.
 
-Nicht verwendete Signale bestehen aus Daten, die Sie erfassen, aber keiner Eigenschaft zugeordnet sind. Der Bericht [!UICONTROL Unused Signals] zeigt Daten in einer Tabelle nach Datum, Schlüssel, Wert und Häufigkeitsanzahl an. Jedes nicht zugeordnete Signal, das mindestens 100 Mal an einem Tag an [!DNL Audience Manager] übergeben wird, gilt für den Bericht [!UICONTROL Unused Signals]. Nicht verwendete Signale werden 45 Tage lang gespeichert und dann verworfen.
+Nicht verwendete Signale bestehen aus Daten, die Sie sammeln, aber keiner Eigenschaft zugeordnet wurden. Der [!UICONTROL Unused Signals] Bericht zeigt Daten in einer Tabelle nach Datum, Schlüssel, Wert und Häufigkeitsanzahl an. Jedes nicht zugeordnete Signal, das an [!DNL Audience Manager] mindestens 100-mal pro Tag übergeben wird, ist für den [!UICONTROL Unused Signals]-Bericht qualifiziert. Ungenutzte Signale werden 45 Tage lang aufbewahrt und dann verworfen.
 
-Lesen Sie diesen Bericht, um verwaiste Signale zu identifizieren, die neuen oder vorhandenen Eigenschaften zugeordnet werden können.
+Dieser Bericht hilft bei der Identifizierung verwaister Signale, die neuen oder vorhandenen Eigenschaften zugeordnet werden können.
 
 >[!NOTE]
 >
->Geben Sie einen Schlüssel- oder Wertnamen in die Suchfelder ein, um die Ergebnisse auf bestimmte Datensätze zu beschränken.
+>Geben Sie in den Suchfeldern einen Schlüssel- oder Wertnamen an, um die Ergebnisse auf bestimmte Datensätze zu beschränken.
 
 ## Nutzungsszenarios
 
@@ -47,36 +47,36 @@ Lesen Sie diesen Bericht, um verwaiste Signale zu identifizieren, die neuen oder
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Stellen Sie sicher, dass Eigenschaften einheitlich sind, oder fügen Sie verwandte Werte zu einem einzelnen Schlüssel hinzu</b> </p> </td> 
-   <td colname="col2"> <p>Überprüfen Sie den Bericht, um verschiedene Wertvarianten für ein bestimmtes Signal zu berücksichtigen. </p> <p>Angenommen, Sie haben eine Eigenschaft für den Status "North Carolina", der in einem Schlüssel-Wert-Paar als <code> c_state = North Carolina</code> definiert ist. Der Bericht kann Ihnen dabei helfen, Namensvarianten zu finden und diese zur Eigenschaft hinzuzufügen (z. B. <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Alternativ können Sie Namensvarianten mit dem Bericht erkennen und durch einen einheitlichen Wert für alle Sites ersetzen. </p> <p> </p> </td> 
+   <td colname="col1"> <p><b>Einheitlichkeit der Eigenschaft sicherstellen oder einem Schlüssel verwandte Werte hinzufügen</b> </p> </td> 
+   <td colname="col2"> <p>Prüfen Sie den Bericht, um verschiedene Wertevariationen für ein bestimmtes Signal zu berücksichtigen. </p> <p>Angenommen, Sie haben eine Eigenschaft für den Bundesstaat „North Carolina“, definiert in einem Schlüssel-Wert-Paar als <code> c_state = North Carolina</code>. Der Bericht kann Ihnen dabei helfen, Namensvarianten zu finden und diese zum Merkmal hinzuzufügen (z. B. <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Alternativ können Sie Namensvarianten mit dem Bericht erkennen und diese durch einen einheitlichen Wert für alle Sites ersetzen. </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Neue Eigenschaften erstellen</b> </p> </td> 
-   <td colname="col2"> <p>Überprüfen Sie den Bericht, um zu sehen, welche neuen Werte an einen bestimmten Schlüssel übergeben werden. Möglicherweise möchten Sie neue Schlüssel-Wert-Paare erstellen, die auf diesen neuen Werten basieren. </p> <p> <p>Hinweis: Überprüfen Sie den Bericht alle zwei Wochen auf Werte, die sich häufig ändern (z. B. Shows, Kampagnen, Prominente usw.). </p> </p> </td> 
+   <td colname="col1"> <p><b>Erstellen neuer Eigenschaften</b> </p> </td> 
+   <td colname="col2"> <p>Überprüfen Sie den Bericht, um zu sehen, welche neuen Werte für einen bestimmten Schlüssel übergeben werden. Sie können neue Schlüssel-Wert-Paare erstellen, die auf diesen neuen Werten basieren. </p> <p> <p>Hinweis: Überprüfen Sie den Bericht alle zwei Wochen auf Werte, die sich häufig ändern (z. B. Shows, Kampagnen, Prominente usw.). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nicht zugeordnete Werte suchen</b> </p> </td> 
-   <td colname="col2"> <p>Überprüfen Sie den Bericht auf die Nummer 1. Die Zahl 1 in einem Bericht <span class="wintitle"> Nicht verwendete Signale</span> stellt einen Nullwert dar. Das ist nicht unbedingt schlecht. Dies bedeutet einfach, dass einem bestimmten Schlüssel keine Wertzuordnung zugeordnet ist. Wenn Sie viele 1 Werte für eine wichtige Variable sehen, wenden Sie sich an Ihr Site-Team, um sicherzustellen, dass alle Ihre Seiten korrekt getaggt sind. </p> </td> 
+   <td colname="col2"> <p>Prüfen Sie den Bericht auf Nummer 1. Die Zahl 1 in einem Bericht zu <span class="wintitle"> nicht verwendeten </span> stellt einen Nullwert dar. Das ist nicht unbedingt schlecht. Das bedeutet einfach, dass einem bestimmten Schlüssel keine Wertzuordnung zugeordnet ist. Wenn viele 1-Werte für eine wichtige Variable angezeigt werden, wenden Sie sich an Ihr Site-Team, um sicherzustellen, dass alle Ihre Seiten korrekt mit Tags versehen sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Best Practices
 
-Führen Sie den Bericht [!UICONTROL Unused Signals] aus und überprüfen Sie ihn:
+Führen Sie den [!UICONTROL Unused Signals] aus und überprüfen Sie ihn:
 
-* Nachdem Sie eine Eigenschaft erstellt oder Eigenschaftsregeln aktualisiert haben. Dadurch können Sie sicherstellen, dass Ihre Eigenschaften und Regeln ordnungsgemäß eingerichtet sind. Die Zahl 1 in den Ergebnissen zeigt an, dass eine neue Eigenschaft möglicherweise nicht richtig konfiguriert ist.
-* Zwei Wochen oder monatlich. Geplante Überprüfungen helfen dabei, sicherzustellen, dass Eigenschaftszuordnungen auf dem neuesten Stand sind.
+* Nachdem Sie eine Eigenschaft erstellt oder Eigenschaftsregeln aktualisiert haben. Dadurch wird sichergestellt, dass Ihre Eigenschaften und Regeln ordnungsgemäß eingerichtet sind. Die Zahl 1 in den Ergebnissen zeigt an, dass eine neue Eigenschaft möglicherweise nicht korrekt konfiguriert ist.
+* Zweimal wöchentlich oder monatlich. Geplante Überprüfungen stellen sicher, dass die Eigenschaftszuordnungen auf dem neuesten Stand sind.
 
 >[!NOTE]
 >
->Beachten Sie bei der Suche nach nicht verwendeten Werten im Bericht die folgende Besonderheit. Es gibt einen Unterschied in der Ausdrücke zwischen den beiden folgenden Beispielen:
+>Beachten Sie bei der Suche nach nicht verwendeten Werten im Bericht die folgende Besonderheit. Zwischen den beiden folgenden Beispielen besteht ein Unterschied im Ausdruck:
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
-* T(v=1 [!UICONTROL AND] (a!=23))
-* Beide Beispiele zeigen eine Eigenschaft, die zwei Schlüssel-Wert-Paare v und a enthält. Der erste Ausdruck übersetzt sich in: Die Eigenschaft enthält Schlüssel v mit dem Wert 1 [!UICONTROL AND NOT] den Schlüssel a mit dem Wert 23. Der zweite Ausdruck enthält Schlüssel v mit dem Wert 1 [!UICONTROL AND] den Schlüssel a mit dem Wert [!UICONTROL NOT EQUAL] 23.
-* Angenommen, Sie suchen in der &quot;[!UICONTROL Unused Signals Report]&quot;-Liste nach den Werten, die auf den Schlüssel A mit einem anderen Wert als 23 übergeben werden, erhalten nur im ersten Fall Ergebnisse, da die Werte für den Schlüssel nicht AN ALL gesendet wurden. Im zweiten Fall wurden Werte gesendet, die sich von 23 unterscheiden, sodass der Schlüssel a nicht verwendet wird.
+* T(v=1 [!UICONTROL AND] (a!=23)
+* Beide Beispiele zeigen ein Merkmal, das zwei Schlüssel-Wert-Paare v und a enthält. Der erste Ausdruck ergibt: Das Merkmal enthält Schlüssel v mit dem Wert 1 [!UICONTROL AND NOT] Schlüssel a mit dem Wert 23. Der zweite Ausdruck enthält Schlüssel v mit dem Wert 1 [!UICONTROL AND] Schlüssel a mit dem Wert [!UICONTROL NOT EQUAL] 23.
+* In Anbetracht der beiden oben genannten verschiedenen Ausdrücke sagen wir, Sie suchen im [!UICONTROL Unused Signals Report] nach den Werten, die an Schlüssel a mit einem anderen Wert als 23 übergeben werden, Sie erhalten Ergebnisse nur im ersten Fall, da Werte für Schlüssel ÜBERHAUPT nicht gesendet wurden. Im zweiten Fall wurden andere Werte als 23 gesendet, sodass der Schlüssel a nicht ungenutzt bleibt.
 
-## Erstellung von Masseneigenschaften
+## Erstellung einer Masseneigenschaft
 
-Wenden Sie sich an Ihren Partner Solutions-Support-Mitarbeiter, wenn Sie eine große Anzahl von Eigenschaften basierend auf Daten aus dem [!UICONTROL Unused Signals] -Bericht erstellen müssen.
+Wenden Sie sich an Ihren Partner Solutions-Support-Mitarbeiter, wenn Sie aufgrund der aus dem [!UICONTROL Unused Signals]-Bericht gewonnenen Daten eine Vielzahl von Eigenschaften erstellen müssen.

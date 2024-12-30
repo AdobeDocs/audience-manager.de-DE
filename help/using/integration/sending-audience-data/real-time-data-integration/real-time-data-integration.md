@@ -1,5 +1,5 @@
 ---
-description: Informationen zur Integration von Echtzeit-Audience Managern.
+description: Informationen zur Integration von Real-Time Audience Manager.
 seo-description: Information about the Real-Time Audience Manager integration.
 seo-title: Real-Time Inbound Data Integration
 solution: Audience Manager
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 # Integration eingehender Daten in Echtzeit {#real-time-inbound-data-integration}
 
-Informationen zur Integration von Echtzeit-Audience Managern.
+Informationen zur Integration von Real-Time Audience Manager.
 
 <!-- c_rt_data_int.xml -->
