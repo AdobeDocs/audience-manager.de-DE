@@ -1,5 +1,5 @@
 ---
-description: Methoden, mit denen Sie programmatisch mit Zielfunktionen arbeiten können.
+description: Methoden, mit denen Sie programmgesteuert mit Zielfunktionen arbeiten können.
 seo-description: Methods that let you work programmatically with destination features.
 seo-title: Destination API Methods
 solution: Audience Manager
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 # API-Methoden für Ziele {#destination-api-methods}
 
-Methoden, mit denen Sie programmatisch mit Zielfunktionen arbeiten können.
+Methoden, mit denen Sie programmgesteuert mit Zielfunktionen arbeiten können.
 
 <!-- c_destinations_api.xml -->
 
-Im Audience Manager ist ein Ziel ein anderes System (Adserver, [!DNL DSP], Werbenetzwerk, Austausch, Ihr eigenes Erstanbieter-Cookie usw.) , für die Sie Daten freigeben möchten.
+Im Audience Manager ist ein Ziel jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk, Exchange, Ihr eigenes Erstanbieter-Cookie usw.), für das Sie Daten freigeben möchten.
 
 ## Zieltypen: URL und Cookie {#destination-types}
 
-Führt die vom Parameter `destinationType` verwendeten Variablen auf. Geben Sie `push` oder `ADS` an, um mit einer [!UICONTROL URL] oder [!UICONTROL cookie destination] zu arbeiten. Sie können [!UICONTROL server-to-server destinations] nicht mit den verfügbaren Ziel-[!DNL API]-Methoden erstellen.
+Listet die vom `destinationType` Parameter verwendeten Variablen auf. Geben Sie `push` oder `ADS` an, um mit einem [!UICONTROL URL] oder einer [!UICONTROL cookie destination] zu arbeiten. Sie können keine [!UICONTROL server-to-server destinations] mit den verfügbaren [!DNL API] erstellen.
 
 <!-- r_destination_types.xml -->
 
-| API-Zieltyp | UI-Zieltyp |
+| API-Zieltyp | Benutzeroberflächen-Zieltyp |
 |---|---|
 | `PUSH` | [!UICONTROL URL] |
 | `ADS` | [!UICONTROL Cookie] |

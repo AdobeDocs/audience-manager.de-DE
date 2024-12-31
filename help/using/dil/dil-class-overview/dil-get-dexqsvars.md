@@ -1,5 +1,5 @@
 ---
-description: Ruft einen bestimmten Wert von einem Anzeigen-Server ab.
+description: Ruft einen bestimmten Wert von einem Werbeserver ab.
 seo-description: Retrieves a specific value from an ad server.
 seo-title: dexGetQSVars
 solution: Audience Manager
@@ -18,13 +18,13 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->Ab Juli 2023 hat Adobe die Entwicklung der Erweiterung [!DNL Data Integration Library (DIL)] und der Erweiterung [!DNL DIL] eingestellt.
+>Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kunden können weiterhin ihre [!DNL DIL] -Implementierung verwenden. Adobe wird jedoch nicht mehr [!DNL DIL] als bisher entwickeln. Kunden wird empfohlen, das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) für ihre langfristige Datenerfassungsstrategie zu bewerten.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Allerdings wird sich Adobe nicht über diesen Punkt hinaus [!DNL DIL] entwickeln. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungs-Integrationen implementieren möchten, sollten stattdessen das [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
-Ruft einen bestimmten Wert von einem Anzeigen-Server ab.
+Ruft einen bestimmten Wert von einem Werbeserver ab.
 
 **Funktionssignatur:** `dexGetQSVars: function (variableName, partner, containerNSID) {}`
 
@@ -39,12 +39,12 @@ r_dil_get_dexqsvars.xml
 | Name | Typ | Beschreibung |
 |---|---|---|
 | `variableName` | Zeichenfolge | Der Name der Variablen, für die Sie einen Wert abrufen möchten. |
-| `partner` | Zeichenfolge | Der Name des zu suchenden Partners. |
-| `containerNSID` | Ganzzahl | Der [!DNL NSID] des Containers, nach dem Sie suchen. Die Standardeinstellung ist `0`. |
+| `partner` | Zeichenfolge | Der zu suchende Partnername. |
+| `containerNSID` | Ganzzahl | Die [!DNL NSID] des gesuchten Containers. Die Standardeinstellung ist `0`. |
 
 **Antwort**
 
-Gibt den Variablenwert für eine [!UICONTROL DIL] -Instanz zurück.
+Gibt den Variablenwert für eine [!UICONTROL DIL] Instanz zurück.
 
 **Beispielcode**
 
