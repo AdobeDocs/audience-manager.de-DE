@@ -8,9 +8,9 @@ title: Erste Schritte mit der Massenverwaltung
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
+source-git-commit: 0c9c333f4e8d6d416d497f336e3e447e2e251d47
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Um die [!DNL Bulk Management Tools] zu verwenden, benötigen Sie Folgendes:
 
 * Ihre [!DNL Experience Cloud] Anmeldung. Als -Kunde sollten Sie bereits über diese Anmeldeinformationen verfügen.
 * Das [!DNL Bulk Management Tools] Arbeitsblatt. [Laden Sie das Arbeitsblatt herunter](assets/BAAAM_V2_20210609.xlsm) um die neueste Version zu erhalten.
-* [!DNL Microsoft Excel], die auf [!DNL macOS]- oder 64-Bit-[!DNL Microsoft Windows] ausgeführt werden. Es wird empfohlen, die neueste Version von [!DNL Microsoft Excel] zu verwenden.
+* [!DNL Microsoft Excel] mit 64-Bit-[!DNL Microsoft Windows]. Es wird empfohlen, die neueste Version von [!DNL Microsoft Excel] zu verwenden. Die Tools für die Massenverwaltung werden in [!DNL macOS] nicht unterstützt.
 * Beim Öffnen des Arbeitsblatts müssen Sie **Makros aktivieren** damit die [!DNL Bulk Management Tools] funktioniert.
 
 ## Authentifizierungsanforderungen und -optionen {#auth-reqs}
