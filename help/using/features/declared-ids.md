@@ -8,9 +8,9 @@ title: Declared IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1151'
 ht-degree: 8%
 
 ---
@@ -37,24 +37,24 @@ Einige Browser und die meisten Mobilgeräte akzeptieren keine [!DNL cookies] von
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Ereignisaufruf</b> </td> 
-   <td colname="col2"> <p>Dazu benötigen Sie <span class="wintitle"> DIL-</span> und den <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service-</a>-Code auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierten IDs, die von der <code> setVisitorID </code> Funktion </span> werden, die von der <span class="keyword"> Adobe Experience Platform Identity Service-</span> bereitgestellt wird, und übergibt diese an <span class="keyword"> Audience Manager-</span>. </p> </td> 
+   <td colname="col2"> <p>Dazu benötigen Sie <span class="wintitle"> DIL-</span> und den <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service-</a>-Code auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierten IDs </span> aus der <code> setVisitorID </code>, die von der <span class="keyword"> Adobe Experience Platform Identity Service-</span> bereitgestellt wird, und übergibt diese an <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Match-ID</b> </td> 
-   <td colname="col2"> <p>Der Audience Manager versucht, die Client- und Besucher-ID mit einer entsprechenden ID in unserem System abzugleichen. Wenn keine übereinstimmende ID vorhanden ist, erstellt der Audience Manager eine neue ID und verknüpft sie mit der Client- und Besucher-ID. </p> <p> <p>Hinweis: Die neueste Zuordnung wird verwendet, wenn Ihre ID mehr als einer Audience Manager-ID zugeordnet ist. </p> </p> </td> 
+   <td colname="col2"> <p>Audience Manager versucht, die Client- und Besucher-ID mit einer entsprechenden ID in unserem System abzugleichen. Wenn keine übereinstimmende ID vorhanden ist, erstellt Audience Manager eine neue ID und verknüpft sie mit der Client- und Besucher-ID. </p> <p> <p>Hinweis: Die neueste Zuordnung wird verwendet, wenn Ihre ID mehr als einer Audience Manager ID zugeordnet ist. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Rückgabe-ID</b> </td> 
-   <td colname="col2"> <p>Der Audience Manager schreibt seine synchronisierte ID in ein Erstanbieter-Cookie (oder einen anderen adressierbaren Speicherplatz) in der Client-Domain oder im Programm. </p> </td>
+   <td colname="col2"> <p>Audience Manager schreibt seine synchronisierte ID in ein Erstanbieter-Cookie (oder einen anderen adressierbaren Speicherplatz) in der Client-Domain oder im Programm. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <b>Nachfolgende Ereignisaufrufe</b> </td>
-   <td colname="col2"> <p>Zusätzliche Ereignisaufrufe lesen die Audience Manager-ID aus der Domain des Clients und senden diese an den Audience Manager. </p> </td>
+   <td colname="col2"> <p>Zusätzliche Ereignisaufrufe lesen die Audience Manager-ID aus der Domain des Clients und senden sie an Audience Manager. </p> </td>
   </tr> 
  </tbody>
 </table>
 
-Zu Beginn müssen Sie den [!DNL Experience Cloud]-ID-Service konfigurieren und die Seiten auf Ihrer Site [!UICONTROL DIL], die Sie für die Datenerfassung verwenden möchten. Siehe [DIL erstellen](../dil/dil-class-overview/dil-create.md#dil-create) und [Declared ID Variables](../features/declared-ids.md#declared-id-variables).
+Zu Beginn müssen Sie den [!DNL Experience Cloud]-ID-Service konfigurieren und die Seiten auf Ihrer Site [!UICONTROL DIL], die Sie für die Datenerfassung verwenden möchten. Siehe [DIL erstellen](../dil/dil-class-overview/dil-create.md#dil-create) und [deklarierte ID-Variablen](../features/declared-ids.md#declared-id-variables).
 
 ## Opt-out-Aufrufe {#opt-out-calls}
 
@@ -114,7 +114,7 @@ Diese Methoden funktionieren weiterhin, gelten aber als veraltet. Diese Informat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opt-out auf Partnerebene </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Ein Opt-out auf Partnerebene wird für die neueste Zuordnung dieses <code> dpid </code> + <code> dpuuid </code> Paares zu einer AAM-UUID gespeichert. Wenn keine zuvor bestehende Zuordnung vorhanden ist, prüft Audience Manager, ob die Anfrage eine AAM-UUID im Cookie enthält. Ist dies der Fall, verwendet Adobe diese zum Speichern des Opt-outs. Andernfalls generiert Audience Manager eine neue AAM-UUID und speichert die Abmeldung darunter. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Ein Opt-out auf Partnerebene wird für die neueste Zuordnung dieses <code> dpid </code> + <code> dpuuid </code> Paares zu einer AAM-UUID gespeichert. Wenn keine zuvor bestehende Zuordnung vorhanden ist, prüft Audience Manager, ob die Anfrage eine AAM-UUID im Cookie enthält. Ist dies der Fall, verwendet diese zum Speichern des Opt-outs. Andernfalls generiert Audience Manager eine neue AAM-UUID und speichert die Abmeldung darunter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> und explizite <code> d_uuid </code> </p> </td> 
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-Im `namespace` Schlüssel-Wert-Paar ist `MCORG` Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt [!UICONTROL Administration] des [!DNL Experience Cloud]-Dashboards. Sie benötigen Administratorberechtigungen, um dieses Dashboard anzeigen zu können. Siehe [Administration: Zentrale Dienste](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
+Im `namespace` Schlüssel-Wert-Paar ist `MCORG` Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt [!UICONTROL Administration] des [!DNL Experience Cloud]-Dashboards. Sie benötigen Administratorberechtigungen, um dieses Dashboard anzeigen zu können. Siehe [Erste Schritte mit Experience Cloud-Services](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
 
 ## Veraltete Funktionen {#deprecated-functions}
 
@@ -214,7 +214,7 @@ In der folgenden Tabelle werden die Legacy-Variablen beschrieben, die vom `decla
   <tr> 
    <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> Zeichenfolge </td> 
-   <td colname="col3"> <p>Datenpartner-ID, die vom Audience Manager zugewiesen wurde. </p> </td> 
+   <td colname="col3"> <p>Von Audience Manager zugewiesene Datenpartner-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> dpuuid </code> </td> 
