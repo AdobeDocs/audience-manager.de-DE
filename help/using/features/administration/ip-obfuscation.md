@@ -62,4 +62,4 @@ Um die Verschleierung von IP-Adressen für bestimmte Länder zu deaktivieren, su
 
 * [Datenschutz](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Videodemonstration zur Verschleierung von IP-Adressen
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/34968?captions=ger)

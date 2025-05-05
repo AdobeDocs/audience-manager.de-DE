@@ -51,7 +51,7 @@ Sobald Sie die Erstellung des Traits abgeschlossen haben, werden die aufgestockt
 
 Sehen Sie sich das folgende Video an, um eine Videoeinführung zum Aufstocken von Eigenschaften zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/)
+>[!VIDEO](https://video.tv.adobe.com/v/327527?captions=ger)
 
 ## Eigenschaft für Aufstockungslatenz {#trait-backfilling-latency}
 

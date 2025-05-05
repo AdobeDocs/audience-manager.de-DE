@@ -114,7 +114,7 @@ Füllen Sie zuerst die erforderlichen Felder im Abschnitt [!UICONTROL Basic Info
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie ein Look-alike-Modell für Erstanbieter erstellen, sodass Sie mehr eigene Besucher finden können, die wie Ihre Konverter aussehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/328071?captions=ger)
 
 >[!MORELIKETHIS]
 >

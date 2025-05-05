@@ -49,4 +49,4 @@ Nachdem ein Reisedienstleister neue Reiseziele zu seiner Buchungs-Website hinzug
 
 Eine der leistungsfähigsten Funktionen von Audience Manager ist die Möglichkeit, Offline-Daten zu integrieren und sie mit Ihren Online-Daten zu verknüpfen. Im folgenden Video erfahren Sie, wie Sie mit [!UICONTROL Data Explorer] überprüfen können, ob Sie alle erforderlichen Eigenschaften erstellt haben, um diese integrierten Daten zu nutzen.
 
->[!VIDEO](https://video.tv.adobe.com/v/25149/)
+>[!VIDEO](https://video.tv.adobe.com/v/330359?captions=ger)

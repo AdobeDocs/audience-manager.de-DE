@@ -59,7 +59,7 @@ Sehen Sie sich zunächst das Video [Erstellen von Segmenten in Audience Manager]
 
 Sehen Sie sich das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445)
+>[!VIDEO](https://video.tv.adobe.com/v/36761?captions=ger)
 
 ## [!UICONTROL Segment Builder]: Abschnitt [!UICONTROL Basic Information] {#segment-builder-controls-basics}
 
