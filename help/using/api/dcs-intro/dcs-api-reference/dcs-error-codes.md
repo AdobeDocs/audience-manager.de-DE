@@ -23,7 +23,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
 |---|---|---|
 | 0 | Nicht spezifizierter Fehler | Dies ist ein Fehler, der alle Fehler erfasst und Ereignisse behandelt, die nicht von den anderen Fehler-Handlern abgedeckt werden. Die Fehlerbehebung für diesen Fehler ist schwierig. Sie kann durch eine Vielzahl von unbekannten Aktionen oder Ereignissen verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie Ihre [!DNL DCS] erneut. Wenden Sie sich an den [!DNL Adobe], wenn das Problem weiterhin besteht. |
 | 1 | Konfiguration für Host-Namen wurde nicht gefunden: `hostname` | Der in der Anfrage gesendete Hostname wurde nicht von unserem Partner-Bereitstellungs-Team eingerichtet. Wenden Sie sich an den [!DNL Adobe], wenn diese Fehlermeldung angezeigt wird. |
-| 2 | Ungültiger `d_orgid` (für diese Organisations-ID wurde keine Konfiguration gefunden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Administrationsseite“ [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) Informationen dazu, wie Sie sie finden. |
+| 2 | Ungültiger `d_orgid` (für diese Organisations-ID wurde keine Konfiguration gefunden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Administrationsseite“ [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de) Informationen dazu, wie Sie sie finden. |
 | 10 | Eigenschaften können nicht ausgewertet werden | Die Eigenschaften in der Anfrage wurden entweder teilweise oder gar nicht ausgewertet. Wenden Sie sich an den [!DNL Adobe], wenn das Problem weiterhin besteht. |
 
 ## Fehler-Codes für die Integration {#integration-error-codes}
@@ -151,7 +151,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>Nicht autorisierte Kunden-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht der aktuellen Organisations-ID gehört. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Suchen Ihrer Organisations-ID“ in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organisations- und </a> Informationen darüber, wie Sie sie finden. </p> </td> 
+   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht der aktuellen Organisations-ID gehört. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Suchen Ihrer Organisations-ID“ in <a href="https://experiencecloud.adobe.com/resources/help/de_DE/mcloud/organizations.html" format="https" scope="external"> Organisations- und </a> Informationen darüber, wie Sie sie finden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 

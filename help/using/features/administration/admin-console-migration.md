@@ -39,7 +39,7 @@ Als Audience Manager müssen Sie sich nur an Ihren [!DNL Audience Manager] wende
 Benutzeradministratoren sollten die folgenden Schritte ausführen, um Audience Manager zu [!DNL Admin Console] zu migrieren.
 
 1. Navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com) und melden Sie sich mit Ihrer Adobe ID oder Ihrer Enterprise ID an. Wenn Sie keinen Zugriff auf die [!DNL Admin Console] haben, wenden Sie sich an die Kundenunterstützung oder Ihren Adobe-Berater.
-2. Lesen Sie das [!DNL Adobe Admin Console] [Hilfehandbuch](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html), um detaillierte Anweisungen zum Erstellen und Verwalten von Benutzerkonten zu erhalten.
+2. Lesen Sie das [!DNL Adobe Admin Console] [Hilfehandbuch](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/users.ug.html), um detaillierte Anweisungen zum Erstellen und Verwalten von Benutzerkonten zu erhalten.
 3. Erstellen Sie neue Benutzerkonten für alle vorhandenen Audience Manager.
 4. Informieren Sie Ihre Benutzer über die neu erstellten Benutzerkonten. Nach der Migration auf [!DNL Admin Console] sollten Benutzer keine bisherigen Anmeldedaten mehr verwenden.
 

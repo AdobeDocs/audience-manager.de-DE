@@ -82,7 +82,7 @@ Sie müssen die [!DNL Audience Manager]-ID selbst festlegen und können mit [!DN
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schritt 6 </p> </td> 
-   <td colname="col2"> <p>Kompilieren Sie die Voraussetzungen und öffnen Sie ein Support-Ticket, indem Sie die <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html"> Anweisungen (hier</a> befolgen, um den Prozess der Protokollaufnahme zu starten. </p> </td> 
+   <td colname="col2"> <p>Kompilieren Sie die Voraussetzungen und öffnen Sie ein Support-Ticket, indem Sie die <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=de"> Anweisungen (hier</a> befolgen, um den Prozess der Protokollaufnahme zu starten. </p> </td> 
    <td colname="col3"> <p>Sie oder <span class="keyword"> Audience Manager </span> Beratung in Ihrem Auftrag </p> </td> 
   </tr> 
  </tbody> 

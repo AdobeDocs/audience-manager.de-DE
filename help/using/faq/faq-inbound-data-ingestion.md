@@ -60,8 +60,8 @@ Siehe [Dateikomprimierung für eingehende Datenübertragungsdateien](../integrat
 
 Ja. Solange Sie einen [!UICONTROL cross-device data source] zum Speichern der von Ihnen hochgeladenen CRM-Daten verwenden, speichert Audience Manager die Daten immer. Aufgrund der [!UICONTROL Profile Merge Rules] Verbesserungen, die Audience Manager im Oktober 2019 eingeführt hat und die nur Offline-Anwendungsfälle ermöglichen, können Sie Daten hochladen und bearbeiten, ohne Audience Manager-Code überhaupt in der Produktion bereitzustellen. Siehe:
 
-* [Verbesserungen der Profilzusammenführungsrichtlinien – Überblick](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalization basierend auf reinen Offline-Daten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Verbesserungen der Profilzusammenführungsrichtlinien – Überblick](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=de)
+* [!UICONTROL People-based Destinations] - [Personalization basierend auf reinen Offline-Daten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=de)
 
 <br> 
 

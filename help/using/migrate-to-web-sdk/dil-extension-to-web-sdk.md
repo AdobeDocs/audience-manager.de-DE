@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Vorgesehene Zielgruppe
 
-Diese Seite richtet sich an Audience Manager-Kunden, die die [Audience Manager-Tag-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) verwenden, um Web-Sammlungsdaten in den Audience Manager zu bringen. Kunden, die die AppMeasurement JavaScript-Bibliothek verwenden, lesen bitte das Handbuch zum Aktualisieren Ihrer Datenerfassungsbibliothek für den Audience Manager [von der AppMeasurement JavaScript-Bibliothek zur Web SDK JavaScript-Bibliothek](appmeasurement-to-web-sdk.md).
+Diese Seite richtet sich an Audience Manager-Kunden, die die [Audience Manager-Tag-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/audience-manager/overview) verwenden, um Web-Sammlungsdaten in den Audience Manager zu bringen. Kunden, die die AppMeasurement JavaScript-Bibliothek verwenden, lesen bitte das Handbuch zum Aktualisieren Ihrer Datenerfassungsbibliothek für den Audience Manager [von der AppMeasurement JavaScript-Bibliothek zur Web SDK JavaScript-Bibliothek](appmeasurement-to-web-sdk.md).
 
 ## Vor- und Nachteile dieses Implementierungspfads
 

@@ -122,11 +122,11 @@ Beachten Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] die folg
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Prädiktive Segmente, die von [!UICONTROL Predictive Audiences] erstellt werden, erben [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) aus den folgenden Erstanbieter-Datenquellen:
+Prädiktive Segmente, die von [!UICONTROL Predictive Audiences] erstellt werden, erben [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=de) aus den folgenden Erstanbieter-Datenquellen:
 
 1. Die First-Party-Datenquelle, die Sie beim Erstellen des Modells auswählen.
 1. Die Erstanbieter-Datenquellen Ihrer Zielgruppe. Insbesondere die Datenexportsteuerelemente der [!UICONTROL traits] oder [!UICONTROL segments], aus denen Ihre Zielgruppe besteht.
-1. Die [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
+1. Die [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=de) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
 
 Die neu erstellten prädiktiven [!UICONTROL traits] und [!UICONTROL segments] weisen dieselben Datenschutzbeschränkungen auf wie die oben beschriebene Vereinigung der Erstanbieter-Datenquellen.
 
@@ -146,6 +146,6 @@ Durch die Auswahl eines [!UICONTROL Profile Merge Rule], der sowohl Gerätedaten
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppenklassifizierung auswählen, unterliegen den Audience Manager [Rollenbasierten Zugriffssteuerungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
+Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppenklassifizierung auswählen, unterliegen den Audience Manager [Rollenbasierten Zugriffssteuerungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de).
 
-Audience Manager können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, für die sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions) verfügen.
+Audience Manager können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, für die sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de#wild-card-permissions) verfügen.

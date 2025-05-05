@@ -28,15 +28,15 @@ Bevor Sie diesen Artikel lesen, sollten Sie das [DSGVO-Glossar](../data-security
 Sie können individuelle Anfragen für den Zugriff auf und das Löschen von Verbraucherdaten aus [!DNL Audience Manager] auf zwei Arten stellen:
 
 * Über die [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche. Die Dokumentation finden Sie [hier](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Über die **[!DNL Privacy Service API]**. Weitere Informationen finden Sie in [ Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)hier) und der [!DNL API]-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+* Über die **[!DNL Privacy Service API]**. Weitere Informationen finden Sie in [ Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)hier) und der [!DNL API]-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Beim Senden einzelner Datenschutzanfragen können Sie beliebige [!DNL Audience Manager] (IDs) zusammen mit den entsprechenden Namespace-IDs (Datenquellen-IDs) übermitteln, wie [&#128279;](data-privacy-ids.md)**Abschnitt** Audience Manager-IDs&rbrace; beschrieben.
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) unterstützt zwei Arten von Anfragen: Datenzugriffs- und Datenlöschanfragen.
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) unterstützt zwei Arten von Anfragen: Datenzugriffs- und Datenlöschanfragen.
 
 ## Anfragen zum Datenzugriff {#access-data}
 
-Einzelne Datenzugriffsanfragen können über die [Privacy Service-Benutzeroberfläche gesendet werden](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) und [!DNL API] Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Einzelne Datenzugriffsanfragen können über die [Privacy Service-Benutzeroberfläche gesendet werden](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=de) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) und [!DNL API] Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 In der [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche können Sie neue Vorgangsanfragen entweder mithilfe von [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON]-Datei erstellen.
 
@@ -46,7 +46,7 @@ Wir sind uns Ihrer Verpflichtung bewusst, Datenschutzanfragen innerhalb der gese
 
 ## Anfragen zum Löschen von Daten {#delete-data}
 
-Sie können Anfragen zum Löschen von Daten über die [Privacy Service-Benutzeroberfläche senden](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) und [!DNL API] Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Sie können Anfragen zum Löschen von Daten über die [Privacy Service-Benutzeroberfläche senden](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=de) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) und [!DNL API] Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 In der [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche können Sie neue Vorgangsanfragen entweder mithilfe von [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON]-Datei erstellen.
 
@@ -71,7 +71,7 @@ Weitere Informationen dazu, welche [!DNL Audience Manager] Aktivierungspartner d
 
 [!DNL Audience Manager] unterstützt branchenweite Standards in Bezug auf das Opt-out-Management. Im Folgenden finden Sie vollständige Informationen zu den von [!DNL Audience Manager] unterstützten Arten von Opt-outs.
 
-Während Datenzugriffs- und Löschanfragen über den [Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) verarbeitet werden, werden Opt-out-Anfragen derzeit über den [!DNL DCS API] unterstützt. Lesen Sie weiter, um zu erfahren, wie die Opt-out-[!DNL API] aussehen sollten.
+Während Datenzugriffs- und Löschanfragen über den [Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) verarbeitet werden, werden Opt-out-Anfragen derzeit über den [!DNL DCS API] unterstützt. Lesen Sie weiter, um zu erfahren, wie die Opt-out-[!DNL API] aussehen sollten.
 
 ### Globale Opt-out-Anfragen
 

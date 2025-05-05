@@ -60,7 +60,7 @@ In [!UICONTROL Trait Builder] können Sie mit den [!UICONTROL Basic Information]
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ereignistyp</span></b> </td> 
-   <td colname="col2"> Weist das Merkmal einem Typ oder einer Kategorie zu, normalerweise entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Erstellen von Konversionseigenschaften im Audience Manager-Video</a>. </p></td> 
+   <td colname="col2"> Weist das Merkmal einem Typ oder einer Kategorie zu, normalerweise entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=de">Erstellen von Konversionseigenschaften im Audience Manager-Video</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integrations-Code</span></b> </td> 
