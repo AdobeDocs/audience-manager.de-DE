@@ -33,7 +33,7 @@ So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manag
 1. Erstellen Sie [ Audience Manager eine  [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie eine bestehende [!DNL destination]. Verwenden Sie beim Erstellen der [!DNL destination] die folgenden Einstellungen:
    * Typ: URL
    * Serialisieren: Aktiviert
-   * Trennzeichen: Semikolon ( &amp;semi; )
+   * Trennzeichen: Semikolon ( &semi; )
 
 1. Fügen Sie im [!UICONTROL Segment Mappings] Abschnitt Ihrer [!DNL URL]-[!DNL destination] den Code aus Schritt 2 zu den Feldern [!DNL URL] und [!DNL Secure URL] hinzu. Stellen Sie dem Code `http:` und `https:` in den Feldern [!DNL URL] bzw. [!DNL Secure URL] voran.
 

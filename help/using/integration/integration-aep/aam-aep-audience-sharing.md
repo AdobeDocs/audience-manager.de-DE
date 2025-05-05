@@ -25,7 +25,7 @@ Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform 
 Im Audience Manager können Sie Experience Platform-Segmente für Anwendungsfälle der Data Management-Plattform verwenden, z. B.:
 * Fügen Sie [ Segmente ](/help/using/overview/data-types-collected.md#third-party-data) Drittanbieterdaten hinzu.
 * [Algorithmische Modellierung](/help/using/features/algorithmic-models/understanding-models.md);
-* Aktivieren Sie Ihre Segmente für Ziele, die noch nicht im Experience Platform-Zielkatalog unterstützt [](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
+* Aktivieren Sie Ihre Segmente für Ziele, die noch nicht im Experience Platform-Zielkatalog unterstützt [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
 
 Darüber hinaus werden Ihre Experience Platform-Segmente über &quot;[ Services“ für andere Experience Cloud-Lösungen ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html).
 

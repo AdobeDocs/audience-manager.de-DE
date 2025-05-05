@@ -33,6 +33,7 @@ So fügen Sie einem Ziel Exportkennzeichnungen hinzu:
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >Exportbeschränkungen funktionieren nur, wenn Sie eine [entsprechende Exportsteuerung](../../features/data-export-controls.md) für eine Datenquelle festlegen.

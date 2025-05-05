@@ -86,7 +86,7 @@ Diese Server-Systeme behandeln Datenschutz- und Benutzer-Opt-out-Anfragen. Benut
 
 ## Data Integration Library (DIL) {#dil}
 
-[!UICONTROL DIL] ist der Code, den Sie zur Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Services und Methoden finden ](../../dil/dil-overview.md) in der [DIL-API.
+[!UICONTROL DIL] ist der Code, den Sie zur Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Services und Methoden finden [&#128279;](../../dil/dil-overview.md) in der DIL-API.
 
 ## Eingehender Server-zu-Server {#inbound-outbound-server}
 

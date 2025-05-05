@@ -42,6 +42,7 @@ Sobald Sie wissen, welche Datenquelle Sie verwenden werden, führen Sie die folg
    * **[!UICONTROL Description]**: Geben Sie eine Beschreibung des Modells ein, die Ihnen bei der Identifizierung des Anwendungsfalls hilft.
    * **[!UICONTROL Data Source]**: Wählen Sie die Erstanbieter-Datenquelle aus, der die [!UICONTROL Predictive Audiences] Segmente dieses Modells zugewiesen werden sollen.
    * **[!UICONTROL Profile Merge Rule]**: Wählen Sie die [!UICONTROL Profile Merge Rule] aus, die für alle von diesem Modell erstellten [!UICONTROL segments] zugewiesen werden soll. Wenn es sich bei der ausgewählten Zielgruppe um eine [!UICONTROL segment] handelt, empfehlen wir, dieselbe [!UICONTROL Profile Merge Rule] der Zielgruppe auszuwählen.
+
      ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. Klicken Sie auf **[!UICONTROL Save]**.
 

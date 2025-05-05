@@ -126,7 +126,7 @@ Sie müssen eine [geräteübergreifende Datenquelle“ und ](#create-data-source
 
 ## Für Kunden von Adobe Experience Platform Identity Service {#id-service-customers}
 
-Für die Arbeit mit [!UICONTROL Profile Merge Rules] werden die [!UICONTROL Adobe Experience Platform Identity Service] und die neueste Version ](../../dil/dil-overview.md) [DILempfohlen. Sie müssen die [!UICONTROL Adobe Experience Platform Identity Service] jedoch nicht verwenden, um mit dieser Funktion zu arbeiten. Wenn Sie nur [!UICONTROL DIL] verwenden, lesen Sie den Abschnitt [Legacy-DIL](#legacy-dil) weiter unten.
+Für die Arbeit mit [!UICONTROL Profile Merge Rules] werden die [!UICONTROL Adobe Experience Platform Identity Service] und die neueste Version [&#128279;](../../dil/dil-overview.md) DILempfohlen. Sie müssen die [!UICONTROL Adobe Experience Platform Identity Service] jedoch nicht verwenden, um mit dieser Funktion zu arbeiten. Wenn Sie nur [!UICONTROL DIL] verwenden, lesen Sie den Abschnitt [Legacy-DIL](#legacy-dil) weiter unten.
 
 ### Konfigurieren der Funktion „Kunden-ID festlegen“
 
@@ -215,8 +215,8 @@ Weitere Informationen finden Sie im Abschnitt zu älteren [!UICONTROL DIL] in [D
     </code></p>
     <p> <b>Beispiel:</b> </p><p>
     <code class="javascript">
-      [ADBMobile&nbsp;audienceSetDpid:@"290"
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
+      &lbrack;ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"&rbrack;;
     </code></p>
     </td>
   </tr>

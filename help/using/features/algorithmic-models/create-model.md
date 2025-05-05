@@ -40,14 +40,17 @@ Gehen Sie wie folgt vor, um eine [!UICONTROL Look-Alike Model] zu erstellen:
    * Benennen Sie das Modell.
    * *(Optional)* Geben Sie eine kurze Beschreibung des Modells ein.
    * Setzen Sie den Status für das Modell auf **[!UICONTROL Active]** oder **[!UICONTROL Inactive]**. Inaktive Modelle werden nicht ausgeführt und erzeugen keine Daten.
+
      ![Look-alike-basic](assets/look-alike-basic.png)
 1. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration):
    * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, mit der bzw. dem Sie ein Modell erstellen möchten. Suche nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können Eigenschaften auch nach Eigenschaftstyp ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [Geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
+
      ![browse-traits](assets/browse-traits.png)
    * Wählen Sie einen Lookback-Zeitraum von 30, 60 oder 90 Tagen aus. Dadurch wird ein Zeitbereich für das Modell festgelegt.
    * Der [!UICONTROL TraitWeight] ist standardmäßig ausgewählt.
    * Wählen Sie eine Datenquelle aus der Liste [!UICONTROL Available Data] aus.
    * Klicken Sie abschließend auf **[!UICONTROL Save]** .
+
      ![Look-alike-configuration](assets/look-alike-configuration.png)
 
 Sehen Sie sich das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.

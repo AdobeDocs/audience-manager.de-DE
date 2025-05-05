@@ -50,7 +50,7 @@ Sobald Ihr Bericht geladen ist, können Sie eine Aufschlüsselung Ihrer [!UICONT
 [!UICONTROL Activities] die Gesamtsumme aller Onsite- und Offsite-Interaktionen mit Audience Manager zu definieren, aufgeteilt in die folgenden Kategorien:
 
 * **[!UICONTROL Server Calls]**: Jedes Datenerfassungs- oder Abrufereignis, das von Websites, Servern, E-Mails, Mobile Apps oder anderen Systemen an den Audience Manager gesendet wird.
-* **[!UICONTROL Pixel Calls](früher als [!UICONTROL Impression Server Calls] bezeichnet)** Daten, die aus Anzeigen erfasst werden (z. B. das Impressionsvolumen von einer Zielgruppenbestimmungsplattform) oder E-Mail-Impressionsaufrufe an Audience Manager. Diese erfordern das Vorhandensein des `d_event` Parameters in der Abfragezeichenfolge.
+* **[!UICONTROL Pixel Calls] (früher als [!UICONTROL Impression Server Calls] bezeichnet)** Daten, die aus Anzeigen erfasst werden (z. B. das Impressionsvolumen von einer Zielgruppenbestimmungsplattform) oder E-Mail-Impressionsaufrufe an Audience Manager. Diese erfordern das Vorhandensein des `d_event` Parameters in der Abfragezeichenfolge.
 * **[!UICONTROL On-Boarded Records]**: Eindeutige Datensätze, die von Ihrem eigenen CRM (Customer Relationship Management System) oder anderen Offline-Datendateien aufgenommen werden, wie Callcenter-Datensätze, Geräte-IDs und benutzerdefinierte Daten-Feeds von externen Datenanbietern.
 * **[!UICONTROL Log File Records]**: Eindeutige Einträge aus Protokolldateien, die von einer Zielplattform in den Audience Manager aufgenommen wurden.
 
