@@ -223,7 +223,7 @@ Weitere Informationen finden Sie im Abschnitt zu älteren [!UICONTROL DIL] in [D
  </tbody>
 </table>
 
-Siehe auch [Audience Manager-Methoden für Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) und [Audience Manager-Methoden für iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Siehe auch [Audience Manager-Methoden für Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=de) und [Audience Manager-Methoden für iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=de).
 
 >[!MORELIKETHIS]
 >
