@@ -8,12 +8,13 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-Adresse; SFTP-IP-Adresse; FTP-Adresse
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 974f45268d50c486c872137a3aa6d8fc7f691024
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 78%
+source-wordcount: '1255'
+ht-degree: 74%
 
 ---
+
 
 # Häufig gestellte Fragen zur Datenerfassung und Produktintegration{#data-collection-and-product-integration-faq}
 
@@ -25,7 +26,7 @@ Häufige Fragen und Probleme im Zusammenhang mit der Datenerfassung und Integrat
 
 Eigenschaften, die über [!UICONTROL Inbound] integriert wurden, werden von [!UICONTROL Inbound] auf dieselbe Weise aufgefüllt, wie von [!DNL DCS]. Es gibt verschiedene Möglichkeiten, um festzustellen, ob der Traffic von [!UICONTROL Inbound] stammt:
 
-* Remote IP wird auf 68.67.173.18 gesetzt
+* Remote-IP wird auf 68.67.173.18 gesetzt
 * DomainID wird auf 5325 gesetzt
 * Region wird auf 0 gesetzt
 
@@ -190,7 +191,7 @@ Nein, verlassen Sie sich in diesem Fall nicht auf die [!UICONTROL General Report
 
 Die Berichte berechnen Populationen basierend auf den nicht authentifizierten Profildatensätzen (UUIDs), die zum Zeitpunkt der Berichterstellung im Backend angezeigt werden.
 
-Bei einem ersten Aufruf des [!DNL DCS] werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. auf der Client-Seite ist kein [demdex-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=de) vorhanden). Der [!DNL DCS] generiert eine UUID nach dem Zufallsprinzip, setzt ein [!DNL demdex]-Cookie und gibt es im Antwortaufruf weiter. Er überträgt jedoch die UUID nicht an das Backend.
+Bei einem ersten Aufruf des [!DNL DCS] werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. auf der Client-Seite ist kein [demdex-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) vorhanden). Der [!DNL DCS] generiert eine UUID nach dem Zufallsprinzip, setzt ein [!DNL demdex]-Cookie und gibt es im Antwortaufruf weiter. Er überträgt jedoch die UUID nicht an das Backend.
 
 >[!NOTE]
 >
@@ -210,6 +211,8 @@ Die regionsübergreifende Synchronisierung eines Profils dauert in der Regel bis
 
 **Was passiert mit inaktiven Amazon S3-Benutzerzugriffsschlüsseln?**
 
-Adobe stellt Audience Manager-Kunden Benutzerzugriffsschlüssel für die Audience Manager-[!DNL Amazon S3] bereit. Aus Sicherheitsgründen werden die Schlüssel nach 100 Tagen Inaktivität automatisch deaktiviert.
+Adobe stellt Audience Manager-Kunden Zugriffsschlüssel für [!DNL Amazon S3] Buckets bereit. Aus Sicherheitsgründen werden diese Zugriffsschlüssel automatisch deaktiviert, wenn sie 100 Tage lang nicht verwendet werden.
 
-Wenden Sie sich an den Kunden-Support, um Ihre Zugriffsschlüssel erneut zu aktivieren oder neue Schlüssel anzufordern.
+Wenn Ihre Zugriffsschlüssel deaktiviert sind, können Sie sich an den Support wenden, um sie erneut zu aktivieren, oder neue Schlüssel anfordern.
+
+Zur Erhöhung der Sicherheit werden Zugriffsschlüssel, die 1.000 Tage lang inaktiv bleiben, zusammen mit dem Amazon S3 IAM-Benutzerkonto dauerhaft gelöscht. Wenn Sie wiederkehrender Kunde sind und nach diesem Zeitraum Zugriff benötigen, wenden Sie sich an den Support, um Ihr Konto neu zu erstellen und neue Zugriffsschlüssel zu erhalten.
