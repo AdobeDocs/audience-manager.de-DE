@@ -181,7 +181,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Kunden-ID wurde verworfen, da sie das Limit für einen bestimmten Namespace überschritten hat. Namespace-ID ist <code><i>ID</i></code>, Kunden-ID ist <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Dieser Fehler-Code wird zurückgegeben, wenn bei einem <code> DPID</code> DCS<span class="wintitle">-Aufruf mehr als 3 Kunden-IDs für denselben Namespace (</span>) deklariert sind. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In diesem Beispiel <span class="wintitle"> DCS</span>-Anfrage gibt es vier IDs, die für denselben Namespace deklariert wurden (mit dem Integrations-Code eins). Eine der IDs wird verworfen und der Fehler 310 wird zurückgegeben. </p> </td> 
+   <td colname="col3"> <p>Dieser Fehler-Code wird zurückgegeben, wenn bei einem <code> DPID</code> DCS<span class="wintitle">-Aufruf mehr als 3 Kunden-IDs für denselben Namespace (</span>) deklariert sind. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>In diesem Beispiel <span class="wintitle"> DCS</span>-Anfrage gibt es vier IDs, die für denselben Namespace deklariert wurden (mit dem Integrations-Code eins). Eine der IDs wird verworfen und der Fehler 310 wird zurückgegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Anfrage enthält eine ungültige globale Geräte-ID </p> </td> 
    <td colname="col3"> <p>Der <span class="wintitle">DCS</span> gibt diesen Fehlercode zurück, wenn die Anfrage eine ungültige globale Geräte-ID enthält. DCS ignoriert die ungültige ID und gibt einen 312-Fehler zusammen mit den spezifischen Fehlern der ungültigen ID aus. Unter <a href="../../../features/global-data-sources.md" format="dita" scope="local">Globale Datenquellen</a> und <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">ID-Index in Audience Manager</a> finden Sie detaillierte Informationen zu den richtigen Gerätewerbe-ID-Formaten und den entsprechenden globalen Datenquellen.</p>
-   <p>Beispiel für einen falschen Aufruf: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Beispiel für einen falschen Aufruf: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Erklärung: Eine <span class="keyword">IDFA (DPID 20915)</span> muss eine ID in Großbuchstaben sein. Die in der Anfrage angegebene ID ist Kleinbuchstaben.</p>
    </td>
   </tr>

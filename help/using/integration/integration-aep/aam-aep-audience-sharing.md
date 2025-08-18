@@ -25,7 +25,7 @@ Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform 
 In Audience Manager können Sie Experience Platform-Segmente für Anwendungsfälle der Data Management-Plattform verwenden, z. B.:
 * Fügen Sie [ Segmente ](/help/using/overview/data-types-collected.md#third-party-data) Drittanbieterdaten hinzu.
 * [Algorithmische Modellierung](/help/using/features/algorithmic-models/understanding-models.md);
-* Aktivieren Sie Ihre Segmente für Ziele, die noch nicht im Experience Platform-Zielkatalog unterstützt [](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
+* Aktivieren Sie Ihre Segmente für Ziele, die noch nicht im Experience Platform-Zielkatalog unterstützt [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
 
 Darüber hinaus werden Ihre Experience Platform-Segmente über [Core Services“ für andere Experience Cloud-Lösungen ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html).
 
@@ -74,7 +74,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie die Datenfreigabe von Exp
 
 >[!IMPORTANT]
 >
-> In diesem Abschnitt wird die veraltete Segmentfreigabeintegration von Experience Platform in Audience Manager beschrieben. Sie können diese Integration jetzt ohne Unterstützung der Adobe-Kundenbetreuer einrichten. Weitere Informationen finden Sie in der Zieldokumentation zu {0[ Experience Cloud Audiences.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
+> In diesem Abschnitt wird die veraltete Segmentfreigabeintegration von Experience Platform in Audience Manager beschrieben. Sie können diese Integration jetzt ohne Unterstützung der Adobe-Kundenbetreuer einrichten. Weitere Informationen finden Sie in der Zieldokumentation zu &lbrace;0[ Experience Cloud Audiences.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
 
 >[!NOTE]
 >

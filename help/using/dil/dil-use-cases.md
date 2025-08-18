@@ -56,10 +56,10 @@ Dieses Grundbeispiel sendet Farb- und Preisdaten in Form von Schlüssel-Wert-Paa
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals({ 
+sample_dil.api.signals(&lbrace; 
    c_color:"blue", 
    c_price:"900" 
-}); 
+&rbrace;); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -68,10 +68,10 @@ sample_dil.api.submit();
 Dieses erweiterte Beispiel zeigt, wie Daten in einem -Objekt an Audience Manager gesendet werden. Bei der Arbeit mit dieser Methode können Sie [!UICONTROL DIL] ein -Objekt als Funktionsparameter in die [!DNL signals()]-Methode übergeben. [!UICONTROL DIL] Ihr Code könnte in etwa wie folgt aussehen:
 
 <pre class="java"><code>
-var my_object = { 
+var my_object = &lbrace; 
    color : "blue", 
    price : "900" 
-}; 
+&rbrace;; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,21 +83,21 @@ sample_dil.api.signals(my_object,"c_").submit();
 In diesem Fall verwendet die Variable `my_object` ein Array zum Speichern von Daten. Dieses Beispiel baut auf den Informationen auf, die von der oben empfohlenen Methode übergeben werden, fügt jedoch eine zusätzliche Ebene hinzu, um einen Produkttyp und ein Modell aufzunehmen. Ihr Code könnte in etwa wie folgt aussehen:
 
 <pre class="java"><code>
-var my_objects = [{ 
+var my_objects = &lbrack;&lbrace; 
    color : "blue", 
    price : "900" 
-}, { 
+&rbrace;, &lbrace; 
    type : "acura", 
    model : "tl" 
-}]; 
+&rbrace;&rbrack;; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-{ 
+&lbrace; 
     sample_dil.api.signals(my_objects[i], "c_"); 
-} 
+&rbrace; 
 sample_dil.api.submit();
 </code></pre>
 
@@ -162,12 +162,12 @@ Nehmen wir in diesem Fall an, dass ein Benutzer nach dem Begriff „Wohnungen“
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) { 
-  adobe_dil.api.signals({ 
+if (search_referrer && search_referrer.valid) &lbrace; 
+  adobe_dil.api.signals(&lbrace; 
     c_se : se.name, 
     c_st : se.keywords 
-  }).submit(); 
-}
+  &rbrace;).submit(); 
+&rbrace;
 </code></pre>
 
 **Code-Beispiel für nicht aufgeführte Suchmaschinen**
@@ -176,17 +176,17 @@ Nehmen wir in diesem Fall an, dass ein Benutzer in `dogpile.com` nach dem Begrif
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-}); 
+&rbrace;); 
  
-if (search_referrer && search_referrer.valid) { 
-  adobe_dil.api.signals({ 
+if (search_referrer && search_referrer.valid) &lbrace; 
+  adobe_dil.api.signals(&lbrace; 
     c_se : se.name, 
     c_st : se.keywords 
-  }).submit(); 
-}
+  &rbrace;).submit(); 
+&rbrace;
 </code></pre>
 
 ## Schlüsselwerte anderen Schlüsseln zuordnen {#map-key-values}

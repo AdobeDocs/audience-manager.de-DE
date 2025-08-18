@@ -402,7 +402,7 @@ In der folgenden Tabelle sind die [!DNL URLs] aufgeführt, die zum Übergeben vo
 
 Je nach der von Ihnen verwendeten Authentifizierungsmethode müssen Sie Ihre [!DNL URLs] entsprechend den folgenden Tabellen anpassen.
 
-### [!DNL URLs] für die OAuth[!BADGE Server-zu-Server-Authentifizierung ]{type=positive}empfohlen) und die [!BADGE -Authentifizierung ]{type=negative}veraltet[!DNL JWT] über Adobe Developer {#request-urls-jwt}
+### [!DNL URLs] für die OAuth[!BADGE Server-zu-Server-Authentifizierung &#x200B;]{type=positive}empfohlen) und die [!BADGE -Authentifizierung &#x200B;]{type=negative}veraltet[!DNL JWT] über Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] | [!DNL URL] anfordern |
 |--- |--- |

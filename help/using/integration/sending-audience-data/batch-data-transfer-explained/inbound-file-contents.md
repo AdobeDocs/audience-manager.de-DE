@@ -201,30 +201,30 @@ Falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen ebenfalls
    <td colname="col1"> <p>Mit <code> d_sid </code> oder <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>Diese Datendatei zeigt einen Benutzer, der für die Eigenschaften 24, 26, 27 qualifiziert ist und aus den Eigenschaften 28 und 29 entfernt wurde. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+       59767559181262060060278870901087098252&nbsp;&nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
      </code> </p> <p>Hinweis:  <p>Anstatt d_unsid zu verwenden, können Sie auch Eigenschaften mithilfe der folgenden Syntax aus Benutzerprofilen entfernen: </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
+        59767559181262060060278870901087098252&nbsp;28:0,&nbsp;29:0 
       </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
+        59767559181262060060278870901087098252&nbsp;28:-1,&nbsp;29:-1 
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mit <code> ic== </code> </p> </td> 
    <td colname="col2"> <p>Diese Eigenschaften wurden einer Eigenschaftsregel mit dem Präfix <code> ic </code> hinzugefügt. Daher können Sie sie, wie in der Abbildung gezeigt, durch Kommas getrennt zur Datendatei hinzufügen. Eine Registerkarte trennt die UUID und die Eigenschafts-IDs. Das <code> ic </code>-Präfix ist in der Datei nicht erforderlich. </p> <p><b>Numerische IDs</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>Zeichenfolgen-IDs</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mit Schlüssel-Wert-Paaren </p> </td> 
    <td colname="col2"> Diese Dateidaten verwenden Schlüssel-Wert-Paare, um Daten an <span class="keyword"> Audience Manager-</span> zu übergeben. <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+       59767559181262060060278870901087098252&nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
   </tr> 
  </tbody> 

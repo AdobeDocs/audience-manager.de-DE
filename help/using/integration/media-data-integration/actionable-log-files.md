@@ -62,7 +62,7 @@ Signale sind die [kleinsten Dateneinheiten](../../reference/signal-trait-segment
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] werden für die folgenden Werbeserver unterstützt:
->> <br>
+>&#x200B;> <br>
 >
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)

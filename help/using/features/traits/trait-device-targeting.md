@@ -19,8 +19,8 @@ ht-degree: 1%
 >[!WARNING]
 >
 >Google hat die Funktionalität von [!DNL Google Chrome] und allen [!DNL Chromium] Browsern aktualisiert, um die über den `User-Agent`-Header erfassten Informationen zu minimieren.
->>Ab März 2023 unterstützt Audience Manager diese Updates mithilfe von [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Um weiterhin die über den `User-Agent`-Header bereitgestellten Eigenschafteninformationen zu verwenden, müssen Sie [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden und [Benutzeragenten-Client-Hinweise mit hoher Entropie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en) aktivieren.
->>Diese Aktualisierungen werden von [DIL](../../../using/dil/dil-overview.md) nicht unterstützt, sodass Audience Manager-Kunden, die [!DNL DIL] verwenden, keine Eigenschafteninformationen über die `User-Agent`-Kopfzeile erfassen können.
+>&#x200B;>Ab März 2023 unterstützt Audience Manager diese Updates mithilfe von [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Um weiterhin die über den `User-Agent`-Header bereitgestellten Eigenschafteninformationen zu verwenden, müssen Sie [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden und [Benutzeragenten-Client-Hinweise mit hoher Entropie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en) aktivieren.
+>&#x200B;>Diese Aktualisierungen werden von [DIL](../../../using/dil/dil-overview.md) nicht unterstützt, sodass Audience Manager-Kunden, die [!DNL DIL] verwenden, keine Eigenschafteninformationen über die `User-Agent`-Kopfzeile erfassen können.
 
 Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, mit denen Sie Benutzende mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto auswählen können.
 

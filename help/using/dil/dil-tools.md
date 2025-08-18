@@ -76,7 +76,7 @@ Und gibt zurück:
    <td> Standardsuche</td> 
    <td> Gibt Keyword-Suchbegriffe zurück, die von den Suchmaschinen AOL, Ask, Bing, Google und Yahoo verwendet werden. </td> 
    <td>
-      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
+      <code>var&nbsp;results&nbsp;=&nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -96,10 +96,10 @@ Und gibt zurück:
   <code>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
-      search.aspx?q=adobe+rules",{ 
+      search.aspx?q=adobe+rules",&lbrace; 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
-      }); 
+      &rbrace;); 
   </code>
   </td></tr> 
   <tr> 
@@ -109,10 +109,10 @@ Und gibt zurück:
     <code>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-      {
+      &lbrace;
         &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
         &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-      });
+      &rbrace;);
     </code>
    </td> 
   </tr> 
@@ -182,19 +182,19 @@ Funktionssignatur: `DIL.tools.getMetaTags( 1 or more parameters)`
 ### Beispielcode
 
 <pre class="javascript"><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
-var dataLib = DIL.create({ 
-     partner: <i>`partnerName'</i>, 
+var dataLib = DIL.create(&lbrace; 
+     partner: <i>&grave;partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>
