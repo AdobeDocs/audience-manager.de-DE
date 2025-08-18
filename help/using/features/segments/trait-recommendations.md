@@ -21,11 +21,11 @@ Erhalten Sie Live-Empfehlungen zu Eigenschaften, während Sie Ihre Segmente erst
 
 Sehen Sie sich zunächst das [!UICONTROL Trait Recommendations] Video unten an und lesen Sie dann weiter, um weitere Informationen zu erhalten. In diesem Video erfahren Sie, wie Sie mit Empfehlungen aus Ihren eigenen Erstanbieter-Eigenschaften sowie mit Eigenschaftsempfehlungen aus [!UICONTROL Audience Marketplace] Daten-Feeds arbeiten, die *bereits abonniert haben*.
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/)
+>[!VIDEO](https://video.tv.adobe.com/v/40840?captions=ger)
 
 Im nächsten Video wird der Workflow für [!UICONTROL Marketplace Recommendations] beschrieben und gezeigt, wie Sie Ihren Segmenten auf der Grundlage von Empfehlungen aus Daten-Feeds in [!UICONTROL Audience Marketplace] Eigenschaften hinzufügen können. Diese Empfehlungen basieren auf Daten-Feeds *die Sie nicht abonniert*.
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/)
+>[!VIDEO](https://video.tv.adobe.com/v/32923?captions=ger)
 
 ## Überblick
 

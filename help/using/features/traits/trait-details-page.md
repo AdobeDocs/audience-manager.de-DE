@@ -63,7 +63,7 @@ Die [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
   >
   >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] nur an, wenn Sie über [!UICONTROL cross-device] für die [!UICONTROL trait] qualifizierten IDs verfügen.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+  >[!VIDEO](https://video.tv.adobe.com/v/32712?captions=ger)
 
 ## [!UICONTROL Trait] Ausdruck {#trait-expression}
 

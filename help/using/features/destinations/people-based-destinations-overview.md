@@ -63,7 +63,7 @@ Durch [!DNL People-Based Destinations] hilft Ihnen Audience Manager, Ihre Kunden
 
 Sehen Sie sich das folgende Video an, um einen Überblick über den Datenfluss bei der Verwendung von [!UICONTROL People-Based Destinations] zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/28968/)
+>[!VIDEO](https://video.tv.adobe.com/v/32169?captions=ger)
 
 ## Nutzungsszenarios {#use-cases}
 

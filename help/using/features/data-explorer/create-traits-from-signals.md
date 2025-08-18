@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Erstellen Sie neue Eigenschaften aus allen Signalen, einschließlich derjenigen, die bereits in Eigenschaften verwendet werden, und erfassen Sie zukünftige Zielgruppen, die nach der Erstellung von Eigenschaften qualifiziert sind. Sehen Sie sich das Video an, um eine kurze Demonstration zu erhalten, oder lesen Sie weiter, um detaillierte Informationen zu erhalten:
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/327527/?quality=12&captions=ger)
 
 ## Erstellen von Eigenschaften aus dem Signal-Dashboard {#create-traits-from-signal-dashboard}
 

@@ -35,4 +35,4 @@ Optimieren Sie die Signalsuchvorgänge, indem Sie bis zu 10 Sätze von Suchkrite
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Signalsuchen speichern können.
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/)
+>[!VIDEO](https://video.tv.adobe.com/v/30171?captions=ger)

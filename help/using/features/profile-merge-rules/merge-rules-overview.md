@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Mit [!UICONTROL Profile Merge Rules] können Sie steuern, welche Datensätze für die Segmentierung verwendet werden, und Benutzer auf mehreren Geräten genau ansprechen.
 
->[!VIDEO](https://video.tv.adobe.com/v/28974)
+>[!VIDEO](https://video.tv.adobe.com/v/32162?captions=ger)
 
 ## Datenerfassung und Zielgruppenbestimmung mit anonymen und authentifizierten Profilen {#data-collection-targeting}
 

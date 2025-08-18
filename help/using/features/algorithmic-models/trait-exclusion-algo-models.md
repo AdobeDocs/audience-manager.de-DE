@@ -49,11 +49,11 @@ Verwenden Sie den [Modell erstellen](../../features/algorithmic-models/create-mo
 
 Wenn Sie Video-Tutorials bevorzugen, sehen Sie sich unsere Videodemonstration zum Ausschluss von Eigenschaften an:
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38133/?quality=12&captions=ger)
 
 Sehen Sie sich außerdem das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36761/?quality=12&captions=ger)
 
 ## Wichtige Aspekte und Einschränkungen {#important-aspects-and-limitations}
 
@@ -96,7 +96,7 @@ Bitte beachten Sie die folgenden Aspekte und Einschränkungen im Zusammenhang mi
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie und warum Sie bestimmte Eigenschaften von einer [!UICONTROL Look-Alike Model] ausschließen sollten.
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/)
+>[!VIDEO](https://video.tv.adobe.com/v/38133?captions=ger)
 
 ## Verwandte Links
 
