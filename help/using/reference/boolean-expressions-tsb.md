@@ -1,5 +1,5 @@
 ---
-description: In diesem Artikel wird erläutert, wie die Audience Manager-Eigenschaft und die Segment-Tools die booleschen Ausdrücke AND, OR und NOT verwenden.
+description: In diesem Artikel wird erläutert, wie die Audience Manager-Trait- und Segment-Tools die booleschen Ausdrücke AND, OR und NOT verwenden.
 seo-description: This article explains how the Audience Manager trait and segment tools use the Boolean expressions AND, OR, and NOT.
 seo-title: Boolean Expressions in Trait and Segment Builder
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Boolesche Ausdrücke in Trait und Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
 
-In diesem Artikel wird erläutert, wie die Audience Manager-Eigenschaft und die Segment-Tools die booleschen Ausdrücke AND, OR und NOT verwenden.
+In diesem Artikel wird erläutert, wie die Audience Manager-Trait- und Segment-Tools die booleschen Ausdrücke AND, OR und NOT verwenden.
 
 <!-- 
 

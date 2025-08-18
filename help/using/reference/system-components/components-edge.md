@@ -1,5 +1,5 @@
 ---
-description: Audience Manager nutzt verteilte Edge-Computing-Topologien, um die Anforderungen an unsere Systeme durch externe Quellen zu erfüllen.
+description: Audience Manager verwendet verteilte Edge-Computing-Topologien, um die Anforderungen an unsere Systeme durch externe Quellen zu erfüllen.
 seo-description: Audience Manager uses distributed, edge-computing topologies to meet the demands placed on our systems by external sources.
 seo-title: Understanding the Edge Data Center
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Grundlegendes zum Edge-Rechenzentrum{#understanding-the-edge-data-center}
 
-Audience Manager nutzt verteilte Edge-Computing-Topologien, um die Anforderungen an unsere Systeme durch externe Quellen zu erfüllen.
+Audience Manager verwendet verteilte Edge-Computing-Topologien, um die Anforderungen an unsere Systeme durch externe Quellen zu erfüllen.
 
 ## Grundlagen zum Edge-Rechenzentrum {#edge-data-center-basics}
 

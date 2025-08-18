@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Predictive Audiences-Berichte
 
-Nachdem Sie ein [!UICONTROL Predictive Audiences] Modell gespeichert haben, beginnt der Audience Manager mit dessen Training. Innerhalb weniger Stunden beginnt das berechnete Modell mit der Analyse der Zielgruppen auf den [Datenerfassungsservern](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=de#dcs-pcs). Die Berichterstattung erfolgt am folgenden Tag.
+Nachdem Sie ein [!UICONTROL Predictive Audiences] Modell gespeichert haben, beginnt Audience Manager mit dessen Training. Innerhalb weniger Stunden beginnt das berechnete Modell mit der Analyse der Zielgruppen auf den [Datenerfassungsservern](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Die Berichterstattung erfolgt am folgenden Tag.
 
 Um die Ergebnisse Ihrer [!UICONTROL Predictive Audiences] Klassifizierung anzuzeigen, navigieren Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie auf Ihr Modell in der Liste.
 
@@ -25,7 +25,7 @@ Verwenden Sie die Filteroptionen auf der linken Seite, um nach dem Modellnamen z
 
 Die Tabelle Modelle enthält die folgenden Informationen:
 
-* **[!UICONTROL ID]**: Die Modell-ID identifiziert jedes Modell in Ihrem Audience Manager-Konto eindeutig.
+* **[!UICONTROL ID]**: Mit der Modell-ID wird jedes Modell in Ihrem Audience Manager-Konto eindeutig identifiziert.
 * **[!UICONTROL Name]**: der Name, den Sie im Schritt zur Modellerstellung angegeben haben;
 * **[!UICONTROL Description]**: die Beschreibung, die Sie im Schritt zur Modellerstellung angegeben haben;
 * **[!UICONTROL Model Type]**: Typ jedes Modells ([!UICONTROL Look-Alike Modeling] oder [!UICONTROL Predictive Audiences]);

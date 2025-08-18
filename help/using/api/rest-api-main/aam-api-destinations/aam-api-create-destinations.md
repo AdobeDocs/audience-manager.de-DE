@@ -22,7 +22,7 @@ Erstellen Sie Ziele mit diesen [!UICONTROL RESTful API].
 
 ## Unterstützte Zieltypen: nur URL und Cookie
 
-Mit den verfügbaren `POST` können Sie nur [!UICONTROL URL] und [!UICONTROL cookie destinations] erstellen. Derzeit können Sie mit diesen [!DNL REST API] Methoden keine [!UICONTROL server-to-server destinations] erstellen. Mit den zugehörigen Ziel-`GET`-Methoden können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
+Mit den verfügbaren `POST` können Sie nur [!UICONTROL URL] und [!UICONTROL cookie destinations] erstellen. Derzeit können Sie mit diesen [!UICONTROL server-to-server destinations] Methoden keine [!DNL REST API] erstellen. Mit den zugehörigen Ziel-`GET`-Methoden können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
 
 ## Erstellen eines nicht seriellen URL-Ziels {#create-nonserial-dest}
 

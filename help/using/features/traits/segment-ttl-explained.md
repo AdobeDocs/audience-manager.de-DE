@@ -28,12 +28,12 @@ Wie sich das [!UICONTROL time-to-live] ([!DNL TTL]) auf die Segmentzugehörigkei
 
 Wenn Sie die [!DNL TTL] auf 1 Tag festlegen, startet der TTL-Timer am nächsten Tag nach der Realisierung der Eigenschaft, ohne die Stunden zu zählen, die im Tag der Realisierung der Eigenschaft verbleiben.
 
-Der Audience Manager berechnet den [!DNL TTL] für Eigenschaften mit einer [!DNL TTL] von 1 Tag anhand der folgenden Formel:
+Audience Manager berechnet den [!DNL TTL] für Eigenschaften mit einer [!DNL TTL] von einem Tag anhand der folgenden Formel:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
 * **Beispiel 1**: Ein Merkmal, das um 1:00 [!DNL UTC] mit einer [!DNL TTL] von 1 Tag realisiert wurde. [!DNL TTL] läuft 24 + 24 - 1 = 47 Stunden später ab.
-* **Beispiel 2**: Eine Eigenschaft, die um 23:00 [!DNL UTC] mit einer [!DNL TTL] von 1 Tag realisiert wurde. [!DNL TTL] läuft 24 + 24 - 23 = 25 Stunden später ab.
+* **Beispiel 2**: Ein Merkmal, das um 23 :00 [!DNL UTC] mit einer [!DNL TTL] von 1 Tag realisiert wurde. [!DNL TTL] läuft 24 + 24 - 23 = 25 Stunden später ab.
 
 ## [!DNL TTL] und Abbrechen eines Segments
 

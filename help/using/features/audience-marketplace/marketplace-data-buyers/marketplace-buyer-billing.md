@@ -1,5 +1,5 @@
 ---
-description: Audience Marketplace Data Buyers erklären sich damit einverstanden, alle Ad-Impressions zu melden, die unter Verwendung von Eigenschaften bereitgestellt werden, die im Daten-Feed enthalten sind und auf der Grundlage der Kosten pro Tausend Ad-Impressions (CPM) berechnet werden. Die Nutzung von CPM ist am 5. Tag jedes Kalendermonats fällig und umfasst Daten für den Vormonat. Abonnentinnen und Abonnenten von Pauschalgebühren müssen keine Nutzung melden.
+description: Die Datenerwerber von Audience Marketplace erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die mit Eigenschaften bereitgestellt werden, die im Daten-Feed enthalten sind und auf der Grundlage der Kosten pro 1000 Anzeigenimpressionen (CPM) berechnet werden. Die Nutzung von CPM ist am 5. Tag jedes Kalendermonats fällig und umfasst Daten für den Vormonat. Abonnentinnen und Abonnenten von Pauschalgebühren müssen keine Nutzung melden.
 seo-description: Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
 seo-title: Billing for Data Feed Buyers
 solution: Audience Manager
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Abrechnung für Käufer von Daten-Feeds {#billing-for-data-feed-buyers}
 
-Audience Marketplace Data Buyers erklären sich damit einverstanden, alle Anzeigenimpressionen zu melden, die mit Eigenschaften bereitgestellt werden, die im Daten-Feed enthalten sind und auf der Grundlage der Kosten pro Tausend Anzeigenimpressionen ([!DNL CPM]) berechnet werden. [!DNL CPM] Nutzung ist am 5. Tag jedes Kalendermonats fällig und umfasst Daten für den Vormonat. Abonnentinnen und Abonnenten von Pauschalgebühren müssen keine Nutzung melden.
+Audience Marketplace-Datenerwerber stimmen zu, alle Anzeigenimpressionen zu melden, die mit Eigenschaften bereitgestellt werden, die im Daten-Feed enthalten sind, und zwar zu einem Preis auf der Grundlage der Kosten pro 1000 Anzeigenimpressionen ([!DNL CPM]). [!DNL CPM] Nutzung ist am 5. Tag jedes Kalendermonats fällig und umfasst Daten für den Vormonat. Abonnentinnen und Abonnenten von Pauschalgebühren müssen keine Nutzung melden.
 
 <br>
 
@@ -46,7 +46,7 @@ So melden Sie [!DNL CPM] auf Segmentebene:
 1. Wählen Sie die Registerkarte **[!UICONTROL Segment Usage]** aus.
 1. Geben Sie die Nutzung für Ihre Segmente ein. Sie können das [!UICONTROL Search] verwenden, um die Segmente zu filtern, wenn Sie nur die Nutzung für einige von ihnen im Bericht angeben müssen.
 1. Klicken Sie auf **[!UICONTROL Edit Segments Usage]**.
-1. Geben Sie in der Spalte [!UICONTROL Usage] den [!DNL CPM] Nutzungsbetrag ein.
+1. Geben Sie in der Spalte [!DNL CPM] den [!UICONTROL Usage] Nutzungsbetrag ein.
 1. Klicken Sie abschließend auf **[!UICONTROL Save]** und überprüfen Sie das Bestätigungsdialogfeld.
 
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
@@ -129,7 +129,7 @@ So aktualisieren Sie [!DNL CPM] Massenverwendung:
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Halten Sie sich an das monatliche Berichtsintervall</b> </p> </td> 
-   <td colname="col2"> <p>Das Berichtssystem schließt nach dem 5. jedes Monats. Wenn Sie bis dahin keine Nutzung von CPM melden können, müssen Sie diesen Betrag für den folgenden Monat zum Bericht hinzufügen. Angenommen, Sie verwenden 1.000 Impressionen im Oktober, verpassen die Berichtsfrist im Oktober und verwenden 1.000 Impressionen im November. In diesem Fall melden Sie die Gesamtwerte für Oktober und November (2000) im Dezember zwischen dem 1. und 5.</p><p><b>Tipp</b>: Sie sollten immer versuchen, die CPM-Nutzung für den Vormonat zwischen dem 1. und 5. Tag des folgenden Monats zu melden.</p><p>Sie können die Nutzung von CPM bis zum 5. des neuen Kalendermonats melden. Dies wird jedoch nicht empfohlen. Wenn die Nutzung von CPM vor dem 5. jedes Monats gemeldet wird, hat der Audience Manager genügend Zeit, die Daten zu überprüfen und zu verarbeiten.</p> </td>
+   <td colname="col2"> <p>Das Berichtssystem schließt nach dem 5. jedes Monats. Wenn Sie bis dahin keine Nutzung von CPM melden können, müssen Sie diesen Betrag für den folgenden Monat zum Bericht hinzufügen. Angenommen, Sie verwenden 1.000 Impressionen im Oktober, verpassen die Berichtsfrist im Oktober und verwenden 1.000 Impressionen im November. In diesem Fall melden Sie die Gesamtwerte für Oktober und November (2000) im Dezember zwischen dem 1. und 5.</p><p><b>Tipp</b>: Sie sollten immer versuchen, die CPM-Nutzung für den Vormonat zwischen dem 1. und 5. Tag des folgenden Monats zu melden.</p><p>Sie können die Nutzung von CPM bis zum 5. des neuen Kalendermonats melden. Dies wird jedoch nicht empfohlen. Wenn Sie die Nutzung von CPM vor dem 5. jedes Monats melden, hat Audience Manager Zeit, die Daten zu überprüfen und zu verarbeiten.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -169,7 +169,7 @@ Im [!UICONTROL Activation] Anwendungsfall können Sie Eigenschaften im entsprech
 Wenn Sie [Nutzung von CPM auf Daten-Feed-Ebene melden](#feed-level-report) müssen Sie Impressionen proportional für jeden Daten-Feed zuweisen, je nach den [!DNL Boolean], die in den Regeln zur Eigenschaftenqualifizierung verwendet werden. In der folgenden Tabelle ist aufgeführt, wie Impressionen ordnungsgemäß nach booleschen Regeln oder Eigenschaftstypen zugewiesen werden.
 
 >[!TIP]
->[Meldung der CPM-Nutzung auf Segmentebene](#segment-level-report), damit das Reporting auf Daten-Feed-Ebene automatisch vom Audience Manager durchgeführt wird.
+>[Meldung der CPM-Nutzung auf Segmentebene](#segment-level-report), damit die Berichterstellung auf Daten-Feed-Ebene automatisch von Audience Manager durchgeführt wird.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -235,7 +235,7 @@ Wir können nicht sagen, welche Eigenschaft für eine Impression verantwortlich 
 
 <br>
 
-### 3. Fall: Segmente mit Anwendungsfällen für Modellierung und Aktivierung
+### &#x200B;3. Fall: Segmente mit Anwendungsfällen für Modellierung und Aktivierung
 
 In diesem Beispiel wird die Attribution anhand von zwei Anwendungsfällen für Daten-Feeds beschrieben - Modellierung und Aktivierung. Im Beispiel sehen wir uns zwei Datenanbieter mit den folgenden Informationen an:
 

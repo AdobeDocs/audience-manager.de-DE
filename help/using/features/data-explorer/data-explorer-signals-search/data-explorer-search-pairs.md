@@ -38,7 +38,7 @@ Diese Suche gibt nur Ergebnisse zurück, die für alle drei Filter im selben Auf
 
 ## Aus der Signalsuche ausgeschlossene Signale {#excluded-signals}
 
-Schlüsselvariablen, die vom Audience Manager verwendet werden und denen das Präfix `d_` und `h_` vorangestellt ist, werden von [!UICONTROL Signals Search] nicht angezeigt. Siehe [Präfixanforderungen für Schlüsselvariablen](../../traits/trait-variable-prefixes.md) für Details.
+Schlüsselvariablen, die von Audience Manager verwendet werden und denen die Präfixe `d_` und `h_` vorangestellt sind, werden von [!UICONTROL Signals Search] nicht angezeigt. Siehe [Präfixanforderungen für Schlüsselvariablen](../../traits/trait-variable-prefixes.md) für Details.
 
 ## Groß-/Kleinschreibung und automatische Vervollständigung der Suche {#case-insensitivity}
 

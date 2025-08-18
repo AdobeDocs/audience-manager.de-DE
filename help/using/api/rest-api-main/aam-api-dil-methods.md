@@ -1,5 +1,5 @@
 ---
-description: Methoden, mit denen Sie programmgesteuert mit der Data Integration Library (DIL) arbeiten können.
+description: Methoden, mit denen Sie programmgesteuert mit Data Integration Library (DIL) arbeiten können.
 seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
 seo-title: Data Integration Library API Methods
 solution: Audience Manager
@@ -20,7 +20,7 @@ Methoden, mit denen Sie programmgesteuert mit dem [!UICONTROL Data Integration L
 
 >[!IMPORTANT]
 >
->Die Data Integration Library-API wird nicht mehr unterstützt. Mit dieser API wurde DIL generiert, die Sie jetzt selbst hier herunterladen können: [DIL-Download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>Die Data Integration Library-API wird nicht mehr unterstützt. Mit dieser API wurde DIL generiert, das Sie jetzt selbst hier herunterladen können: [DIL-Download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 

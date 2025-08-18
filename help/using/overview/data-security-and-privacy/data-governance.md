@@ -31,15 +31,15 @@ Die [!DNL IP]-Adresse eines Besuchers auf der Website eines Kunden wird an das [
 
 >[!NOTE]
 >
->Unter [IP-Adressverschleierung](../../features/administration/ip-obfuscation.md) erfahren Sie, wie Sie die [!DNL IP] in der Benutzeroberfläche des Audience Managers aktivieren.
+>Unter [IP-Adressverschleierung](../../features/administration/ip-obfuscation.md) erfahren Sie, wie Sie die [!DNL IP] in der Benutzeroberfläche von Audience Manager aktivieren.
 
 Sehen Sie sich das folgende Video an, um zu verstehen, wie die Verschleierung von [!DNL IP]-Adressen in Audience Manager funktioniert.
 
->[!VIDEO](https://video.tv.adobe.com/v/34968?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
 **Geografische Segmentierung:** Wenn Sie die Verschleierung von [!DNL IP]-Adressen aktivieren, können die verbleibenden Oktette der [!DNL IP]-Adresse weiterhin für die Geo-Segmentierung und das Reporting in Audience Manager verwendet werden. Wenn Sie die Verschleierung von [!DNL IP]-Adressen nicht aktivieren, verwendet Audience Manager die vollständige [!DNL IP]-Adresse. Sie können die Funktion zur geografischen Segmentierung verwenden, mit der Sie in beiden Fällen einen [!DNL IP]-Standort nach geografischem Gebiet identifizieren können, jedoch mit einem leichten Genauigkeitsverlust, wenn die [!DNL IP]-Verschleierung verwendet wird. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der [!DNL IP]-Adresse wahrscheinlich merklich beeinträchtigt. Das Ermitteln von Informationen auf Regionen- und Landesebene dürfte nur leicht beeinträchtigt sein. Die geographischen Segmentierungsdaten sind nur auf Stadt- oder Postleitzahlenebene und nicht auf individueller Ebene detailliert. Erfahren Sie mehr über das [Geotargeting](../../features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
 
-## Datenaufbewahrung im Audience Manager {#data-retention}
+## Datenaufbewahrung in Audience Manager {#data-retention}
 
 Die Anwendung geeigneter, sicherer und zeitgerechter Datenaufbewahrungsrichtlinien auf Ihre Daten ist ein wichtiger Teil der Einhaltung der Datenschutzbestimmungen. Audience Manager-Kunden können benutzerdefinierte Aufbewahrungsfristen für Eigenschaften und Segmente festlegen, indem sie die erforderliche TTL (Time to Live) definieren. Weitere Informationen zu Aufbewahrungsfristen finden Sie unter [Häufig gestellte Fragen zur Datenaufbewahrung](../../faq/faq-privacy.md).
 

@@ -1,5 +1,5 @@
 ---
-description: Ein Daten-Feed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Plantyp. Feeds sind deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie öffentliche oder private Daten-Feeds unter Audience Marketplace > Meine freigegebenen Daten ein. Nur für Datenverkäufer verfügbar.
+description: Ein Daten-Feed erfordert einen Namen, eine Beschreibung, eine Datenquelle und einen Plantyp. Feeds sind deaktiviert, bis Sie den Feed speichern und aktivieren. Richten Sie in Audience Marketplace unter Meine freigegebenen Daten öffentliche oder private Daten-Feeds ein. Nur für Datenverkäufer verfügbar.
 seo-description: A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in Audience Marketplace > My Shared Data. Available to data sellers only.
 seo-title: Create, Price, and Manage Data Feeds
 solution: Audience Manager

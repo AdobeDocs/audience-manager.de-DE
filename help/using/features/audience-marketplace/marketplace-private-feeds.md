@@ -124,7 +124,7 @@ Der erste Schritt im Prozess erfordert das Eingreifen von Adobe Consulting oder 
 
 Erstellen Sie in Ihrem Audience Manager-Konto eine neue Cookie-Datenquelle mit:
 
-* **Audience Manager-ID** als Eingangsschlüssel;
+* **Audience Manager ID** als Eingangsschlüssel;
 * Die Option **Freigabe aktiviert** ist aktiviert.
 
 ![](assets/create-datasource.png)
@@ -154,7 +154,7 @@ Erstellen Sie als Nächstes einen Daten-Feed, um Ihre Eigenschaften mit dem Date
 
 ### Schritt 5: Datenerwerber - Zugriff anfordern
 
-Gehen Sie zu **Audience Marketplace > Marketplace**. Suchen Sie nach dem vom Datenanbieter im vorherigen Schritt erstellten Daten-Feed. Klicken Sie **Zugriff anfordern**. Der von der Datenanbieterseite benannte Kontakt erhält nun eine E-Mail-Benachrichtigung. Siehe auch [Abonnieren eines privaten Daten-Feeds](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed).
+Wechseln Sie zu **Audience Marketplace > Marketplace**. Suchen Sie nach dem vom Datenanbieter im vorherigen Schritt erstellten Daten-Feed. Klicken Sie **Zugriff anfordern**. Der von der Datenanbieterseite benannte Kontakt erhält nun eine E-Mail-Benachrichtigung. Siehe auch [Abonnieren eines privaten Daten-Feeds](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed).
 
 ### Schritt 6: Datenanbieter - Zugriff gewähren
 

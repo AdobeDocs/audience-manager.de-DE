@@ -28,7 +28,7 @@ Antworten auf häufige Fragen oder Probleme zum Thema Datenschutz und Daten.
 
 **Wie verwendet Audience Manager Cookies und welche Cookies werden gesetzt?**
 
-Siehe [Audience Manager-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=de).
+Siehe [Audience Manager-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **Können Audience Manager-Kunden in den USA Benutzer mit EU-Eigenschaften ansprechen?**
 
@@ -55,11 +55,11 @@ In der folgenden Tabelle sind die Aufbewahrungszeiten für verschiedene Datentyp
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Backend-Server </p> </td> 
-   <td colname="col2"> <p>120 Tage </p> <p> Audience Manager löscht Benutzerdaten 120 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Backend-Servern. Wenn <span class="keyword"> Audience Manager </span> Benutzeraktivität innerhalb dieses 120-tägigen Zyklus aufzeichnet, werden wir diese Daten für weitere 120 Tage aufbewahren. </p> </td> 
+   <td colname="col2"> <p>120 Tage </p> <p> Audience Manager löscht Benutzerdaten 120 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Backend-Servern. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 120-tägigen Zyklus aufzeichnet, werden diese Daten weitere 120 Tage aufbewahrt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-Server </p> </td> 
-   <td colname="col2"> <p> 14 Tage </p> <p>Audience Manager löscht Benutzerdaten 14 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Edge-Servern. Wenn <span class="keyword"> Audience Manager </span> Benutzeraktivität innerhalb dieses 14-tägigen Zyklus aufzeichnet, werden diese Daten weitere 14 Tage aufbewahrt. Wenn der/die Benutzende nach dem 14-tägigen Zyklus erneut aktiv wird, gibt es eine Verzögerung zwischen dieser ersten neuen Seitenansicht und dem Zeitpunkt, zu dem der/die Benutzende aktiv wird. Es dauert 6-18 Stunden, bis das gesamte Profil nach mehr als 14 Tagen Inaktivität wieder an den Edge-Center gesendet wird. </p> </td> 
+   <td colname="col2"> <p> 14 Tage </p> <p>Audience Manager löscht Benutzerdaten 14 Tage nach dem letzten Besuch eines Benutzers auf der Audience Manager-Plattform von unseren Edge-Servern. Wenn <span class="keyword"> Audience Manager</span> die Benutzeraktivität innerhalb dieses 14-tägigen Zyklus aufzeichnet, werden diese Daten weitere 14 Tage aufbewahrt. Wenn der/die Benutzende nach dem 14-tägigen Zyklus erneut aktiv wird, gibt es eine Verzögerung zwischen dieser ersten neuen Seitenansicht und dem Zeitpunkt, zu dem der/die Benutzende aktiv wird. Es dauert 6-18 Stunden, bis das gesamte Profil nach mehr als 14 Tagen Inaktivität wieder an den Edge-Center gesendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rohprotokolle </p> </td> 

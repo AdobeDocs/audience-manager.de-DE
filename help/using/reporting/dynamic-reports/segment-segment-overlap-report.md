@@ -68,7 +68,7 @@ Das Popup für den [!UICONTROL Segment-to-Segment Overlap] enthält die folgende
 | **[!UICONTROL Base Segment Uniques]** | Die Anzahl der Unique Visitors in Ihrem Basissegment. |
 | **[!UICONTROL Base Segment Uniques]** | Die Anzahl der Unique Visitors in Ihrem sich überschneidenden Segment. |
 | **[!UICONTROL Overlapping Uniques]** | Die Anzahl der Unique Visitors, die von den einzelnen Segmenten gemeinsam genutzt werden. |
-| **[!UICONTROL Overlap %]** | Um die Überschneidung (%) zu erhalten, verwendet der Audience Manager die folgende Formel: Überlappende eindeutige Segmente / (Basissegmenteindeutige Segmente + Überlappende Segmenteindeutigkeiten - Überlappende eindeutige Segmente) |
+| **[!UICONTROL Overlap %]** | Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel: Überschneidung / Eindeutige Zeichen (Basissegmenteindeutigkeiten + Überschneidung - Überschneidung Eindeutige Zeichen) |
 
 
 
@@ -78,5 +78,5 @@ Das Popup für den [!UICONTROL Segment-to-Segment Overlap] enthält die folgende
 >* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Berichtssymbole und Tools - Erklärung](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben- und Fehlerquoten in Berichten zu ausgewählten Audience Managern…](../../reporting/report-sampling.md)
+>* [Datenstichproben- und Fehlerquoten in ausgewählten Audience Manager-Berichten…](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)

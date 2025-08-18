@@ -1,5 +1,5 @@
 ---
-description: Auf dieser Seite wird der Prozess der Erstellung von Facebook Website Custom Audiences (WCA)-Pixeln veranschaulicht, mit dem webbasierte Audience Manager-Zielgruppensegmente an Facebook gesendet werden können, um das Targeting von Online-Anzeigen mit verbesserter Transparenz zu ermöglichen.
+description: Auf dieser Seite wird der Prozess der Erstellung von WCA-Pixeln (Custom Audiences) der Facebook-Website veranschaulicht, mit dem webbasierte Audience Manager-Zielgruppensegmente an Facebook gesendet werden können, um das Targeting von Online-Anzeigen mit verbesserter Transparenz zu ermöglichen.
 seo-description: This page illustrates the process of creating Facebook Website Custom Audiences (WCA) pixels for the purposes of sending web-based Audience Manager audience segments to Facebook, for online ad targeting with improved transparency.
 seo-title: Facebook WCA Integration
 solution: Audience Manager
@@ -23,7 +23,7 @@ Auf dieser Seite wird der Prozess der Erstellung von [!DNL Facebook Website Cust
 
 ## Überblick {#overview}
 
-Mit [Benutzerdefinierte Facebook-Website-Zielgruppen (WCA](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) können Sie eine Liste von Personen erstellen, die bestimmte Seiten besucht oder bestimmte Aktionen auf Ihrer Website durchgeführt haben. [!DNL Audience Manager] ermöglicht die Aktivierung in [!DNL WCA] mithilfe von [!DNL URL]-Zielen, mit denen Sie eine benutzerdefinierte pixelbasierte Integration konfigurieren können, um webbasierte Zielgruppen zum Targeting an [!DNL Facebook] zu senden.
+[Benutzerdefinierte Facebook-Website-Zielgruppen (WCA](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) ermöglicht Ihnen die Erstellung einer Liste von Personen, die bestimmte Seiten besucht oder bestimmte Aktionen auf Ihrer Website durchgeführt haben. [!DNL Audience Manager] ermöglicht die Aktivierung in [!DNL WCA] mithilfe von [!DNL URL]-Zielen, mit denen Sie eine benutzerdefinierte pixelbasierte Integration konfigurieren können, um webbasierte Zielgruppen zum Targeting an [!DNL Facebook] zu senden.
 
 ![Facebook-WCA-Integration](/help/using/integration/assets/facebook-wca-integration.png)
 
@@ -36,9 +36,9 @@ Mit [Benutzerdefinierte Facebook-Website-Zielgruppen (WCA](https://www.facebook.
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] Segmente, die Ihrem neuen [!DNL Facebook]-Ziel zugewiesen werden können. Im Folgenden finden Sie [Erstellen eines Segments](/help/using/features/segments/segment-builder.md) in der [!DNL Audience Manager]-Benutzeroberfläche.
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Version 4.1.0 oder neuer. Laden Sie die neueste Version herunter **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) Version 9.0 oder neuer, herunterladbar von **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Wenn Sie [Server-Side Forwarding (SSF)) verwenden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) um Daten in [!DNL Audience Manager] zu importieren, müssen Sie AppMeasurement Version 2.12 oder neuer verwenden. Laden Sie [!DNL AppMeasurement] mit dem [Analytics Code Manager“ ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=de).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) Version 9.0 oder neuer, herunterladbar von **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Wenn Sie [ Server-seitige Weiterleitung (SSF) verwenden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) um Daten in [!DNL Audience Manager] zu importieren, müssen Sie AppMeasurement Version 2.12 oder höher verwenden. Laden Sie [!DNL AppMeasurement] mit dem [Analytics Code Manager“ ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
-Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mithilfe von [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) zu installieren oder zu aktualisieren.
+Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mithilfe von [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) zu installieren oder zu aktualisieren.
 
 ## Schritt 1: Erstellen eines [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
@@ -106,7 +106,7 @@ Siehe [Erstellen einer benutzerdefinierten Website-Zielgruppe](https://www.faceb
 
 Nachdem Sie die [!DNL Custom Audience] erstellt haben, weisen Sie sie einer Anzeigenkampagne zu. Erstellen Sie eine neue Kampagne oder bearbeiten Sie eine vorhandene, und Ihre neu erstellte Audience wird in der [!DNL Facebook] Benutzeroberfläche aufgelistet. Ihre Anzeigenkampagne richtet sich an Benutzende, die beim Besuch Ihrer Site die Pixelfeuerung in ihrem Browser gesehen haben, falls [!DNL Audience Manager] sie in das Segment einbezieht.
 
-## Zusammenfassung  {#summary}
+## Zusammenfassung {#summary}
 
 Nachdem Sie nun Ihr [!DNL Audience Manager] Segment dem [!DNL Facebook WCA] Ziel zugewiesen haben, löst [!DNL Audience Manager] das [!DNL Facebook WCA] Pixel für Benutzer eines bestimmten Segments mit der entsprechenden Segment-ID im Pixel selektiv aus, um das [!DNL Facebook Audience] zu befüllen. Dies führt zu einer schrittweisen Erhöhung der [!DNL Facebook Audience], je mehr das Tag an die entsprechende Zielgruppe auf Ihrer Site gesendet wird.
 

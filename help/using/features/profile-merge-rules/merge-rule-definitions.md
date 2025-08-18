@@ -64,19 +64,19 @@ Mit dem [!UICONTROL Cross-Device Options] können Sie authentifizierte und nicht
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> kein geräteübergreifendes Profil</span></b> </p> </td> 
-   <td colname="col2"> <p>Weist <span class="keyword"> Audience Manager </span>, die von authentifizierten Benutzern erfassten Daten nicht zu verwenden. </p> </td> 
+   <td colname="col2"> <p>Weist <span class="keyword"> Audience Manager an</span> keine Daten zu verwenden, die von authentifizierten Benutzern erfasst wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> aktuellen authentifizierten Profile</span></b> </p> </td> 
-   <td colname="col2"> <p>Weist <span class="keyword"> Audience Manager </span>, Daten zu lesen und in das authentifizierte Profil zu schreiben, wenn sich ein Besucher auf Ihrer Site angemeldet hat. </p> </td> 
+   <td colname="col2"> <p>Weist <span class="keyword"> Audience Manager </span> an, Daten zu lesen und in das authentifizierte Profil zu schreiben, wenn sich ein Besucher bei Ihrer Site angemeldet hat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> letzten authentifizierten Profile</span></b> </p> </td> 
-   <td colname="col2"> <p>Weist <span class="keyword"> Audience Manager </span>, Daten aus dem authentifizierten Profil des Benutzers zu lesen, der sich zuletzt auf dem Gerät angemeldet hat. </p> <p>Wenn diese Option aktiviert ist<span class="keyword"> schreibt </span> Audience Manager keine neuen Eigenschaftsdaten in das authentifizierte Profil, wenn der Benutzer anonym ist. Nach der Authentifizierung werden neue Eigenschaftsdaten in das authentifizierte Profil des Benutzers geschrieben. </p> </td>
+   <td colname="col2"> <p>Veranlasst <span class="keyword"> Audience Manager</span> Daten aus dem authentifizierten Profil des Benutzers zu lesen, der sich zuletzt auf dem Gerät angemeldet hat. </p> <p><span class="keyword"> Wenn diese Option aktiviert ist, </span> Audience Manager keine neuen Eigenschaftsdaten in das authentifizierte Profil, wenn der Benutzer anonym ist. Nach der Authentifizierung werden neue Eigenschaftsdaten in das authentifizierte Profil des Benutzers geschrieben. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> alle geräteübergreifenden Profile</span></b> </p> </td> 
-   <td colname="col2"> <p>Weist den Audience Manager an, Daten aus allen geräteübergreifenden Profilen unabhängig vom Authentifizierungsstatus zu lesen. Diese Option ist nur für Audience Manager-Kunden verfügbar, die das Add-on People-Based Destinations erworben haben.</p> </td>
+   <td colname="col2"> <p>Weist Audience Manager an, Daten aus allen geräteübergreifenden Profilen zu lesen, unabhängig vom Authentifizierungsstatus. Diese Option ist nur für Audience Manager-Kunden verfügbar, die das Add-on People-Based Destinations erworben haben.</p> </td>
   </tr>
  </tbody>
 </table>
@@ -87,7 +87,7 @@ Die [!UICONTROL Cross-Device Profile Options] listet Ihre [!UICONTROL cross-devi
 
 ## [!UICONTROL Device Options] {#device-options}
 
-Mit der [!UICONTROL Device Options] können Sie den von einem [!UICONTROL Profile Merge Rule] verwendeten *`device profile`* auswählen. Ein Geräteprofil wird aus [!UICONTROL traits] erstellt, die aus der anonymen Browser-Aktivität erfasst wurden. Eine [!UICONTROL profile merge rule] umfasst mindestens eine [!UICONTROL authenticated option] und eine [!UICONTROL device option].
+Mit der [!UICONTROL Device Options] können Sie den von einem *`device profile`* verwendeten [!UICONTROL Profile Merge Rule] auswählen. Ein Geräteprofil wird aus [!UICONTROL traits] erstellt, die aus der anonymen Browser-Aktivität erfasst wurden. Eine [!UICONTROL profile merge rule] umfasst mindestens eine [!UICONTROL authenticated option] und eine [!UICONTROL device option].
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -103,11 +103,11 @@ Mit der [!UICONTROL Device Options] können Sie den von einem [!UICONTROL Profil
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Geräteprofil</span></b> </p> </td> 
-   <td colname="col2"> <p>Weist <span class="keyword"> Audience Manager </span>, das anonyme Geräteprofil für die Segmentierung zu verwenden. </p> </td> 
+   <td colname="col2"> <p>Veranlasst <span class="keyword"> Audience Manager</span> das anonyme Geräteprofil für die Segmentierung zu verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> des Profilverknüpfungsgeräts</span></b> </p> </td> 
-   <td colname="col2"> <p>Veranlasst <span class="keyword"> Audience Manager </span> die Profile des aktuellen Geräts und von bis zu 100 anderen Geräten zu lesen, von denen sich der Benutzer authentifiziert hat. Dieses Gerätediagramm basiert auf Ihren eigenen First-Party-Daten in <span class="keyword"> Audience Manager </span>. Es ist ideal für Kunden, die über ein hohes Maß an Authentifizierung für ihre digitalen Eigenschaften verfügen. Das Gerätediagramm <span class="wintitle"> Profillink</span> wird in Echtzeit aktualisiert. Diese Option ist verfügbar, wenn Sie <b><span class="uicontrol"> Aktuelles authentifiziertes Profil oder </span></b> <b><span class="uicontrol"> Letztes authentifiziertes Profil </span></b>. Wenn Sie diese Option verwenden, können Sie nur ein einziges authentifiziertes Profil auswählen (<span class="keyword"> Audience Manager </span> der die anderen automatisch ausgegraut wird). Siehe auch Anwendungsfälle <a href="profile-link-use-case.md"> Profilverknüpfung von Gerätediagrammen</a>. </p> </td>
+   <td colname="col2"> <p>Veranlasst <span class="keyword"> Audience Manager</span> die Profile des aktuellen Geräts und von bis zu 100 anderen Geräten zu lesen, von denen sich der Benutzer authentifiziert hat. Dieses Gerätediagramm basiert auf Ihren eigenen First-Party-Daten in <span class="keyword"> Audience Manager</span>. Es ist ideal für Kunden, die über ein hohes Maß an Authentifizierung für ihre digitalen Eigenschaften verfügen. Das Gerätediagramm <span class="wintitle"> Profillink</span> wird in Echtzeit aktualisiert. Diese Option ist verfügbar, wenn Sie <b><span class="uicontrol"> Aktuelles authentifiziertes Profil oder </span></b> <b><span class="uicontrol"> Letztes authentifiziertes Profil </span></b>. Wenn Sie diese Option verwenden, können Sie nur ein einzelnes authentifiziertes Profil auswählen (<span class="keyword"> Audience Manager </span> die anderen automatisch ausgegraut). Siehe auch Anwendungsfälle <a href="profile-link-use-case.md"> Profilverknüpfung von Gerätediagrammen</a>. </p> </td>
   </tr>
 
 <tr> 
@@ -123,7 +123,7 @@ Mit der [!UICONTROL Device Options] können Sie den von einem [!UICONTROL Profil
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-Zielgruppensegmente, die automatisch auf der Grundlage von Zusammenführungsregeln, die außerhalb von [!DNL Audience Manager] definiert wurden, aus anderen [!DNL Experience Cloud]-Lösungen erstellt wurden, werden als mit einem [!UICONTROL External Merge Policy] gekennzeichnet. Ein Beispiel finden Sie unter [Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+Zielgruppensegmente, die automatisch auf der Grundlage von Zusammenführungsregeln, die außerhalb von [!DNL Experience Cloud] definiert wurden, aus anderen [!DNL Audience Manager]-Lösungen erstellt wurden, werden als mit einem [!UICONTROL External Merge Policy] gekennzeichnet. Ein Beispiel finden Sie unter [Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >

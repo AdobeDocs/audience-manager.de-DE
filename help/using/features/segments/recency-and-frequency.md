@@ -105,7 +105,7 @@ In diesem Beispiel wählen Sie den Operator &lt;= aus, wie im Screenshot gezeigt
 
 ![Größer-als-gleich](assets/greater-than-equal-to.png)
 
-In diesem Beispiel wählen Sie den Operator =>, wie im Screenshot gezeigt. Dies qualifiziert Ihren Benutzer für die [!UICONTROL segment], wenn er sich zwischen seiner ersten Qualifizierung auf der Audience Manager-Plattform und dem Stichtag vor fünf Tagen mindestens dreimal für eine der drei [!UICONTROL traits] qualifiziert hat. Die folgende Zeitleiste zeigt die [!UICONTROL segment] zum Zeitpunkt der Erstellung der [!UICONTROL segment], am 1. Oktober und zehn Tage später.
+In diesem Beispiel wählen Sie den Operator =>, wie im Screenshot gezeigt. Dadurch werden Benutzer für die [!UICONTROL segment] qualifiziert, wenn sie sich zwischen ihrer ersten Qualifizierung auf der Audience Manager-Plattform und dem Stichtag vor fünf Tagen mindestens dreimal für eine der drei [!UICONTROL traits] qualifizieren. Die folgende Zeitleiste zeigt die [!UICONTROL segment] zum Zeitpunkt der Erstellung der [!UICONTROL segment], am 1. Oktober und zehn Tage später.
 
 ![Early-Qualification](assets/earlier-qualification.png)
 
@@ -114,7 +114,7 @@ In diesem Beispiel wählen Sie den Operator =>, wie im Screenshot gezeigt. Dies 
 
 Ausdrücke zur Frequenzlimitierung schließen alle Benutzer ein, deren Anzahl [!UICONTROL trait] Realisierungen unter einem gewünschten Wert liegt. Im Folgenden finden Sie einige Beispiele für Richtig und Falsch:
 
-* Falsch - Der `frequency([1000T]) <= 5` umfasst alle Benutzer, die die [!UICONTROL trait] mit der ID „1000“ maximal fünfmal realisiert haben, aber auch Benutzer, die die [!UICONTROL trait] nicht realisiert haben. Daher validiert der Audience Manager diesen Ausdruck nicht aus Leistungsgründen, da dies zu viele Benutzende für die [!UICONTROL segment] qualifizieren würde.
+* Falsch - Der `frequency([1000T]) <= 5` umfasst alle Benutzer, die die [!UICONTROL trait] mit der ID „1000“ maximal fünfmal realisiert haben, aber auch Benutzer, die die [!UICONTROL trait] nicht realisiert haben. Daher validiert Audience Manager diesen Ausdruck aus Leistungsgründen nicht, da dies zu viele Benutzende für die [!UICONTROL segment] qualifizieren würde.
 
 * Rechts : Wenn Sie alle Benutzer einbeziehen möchten, die die [!UICONTROL trait] mit der ID „1000“ maximal fünfmal realisiert haben, fügen Sie eine weitere Bedingung zum Ausdruck hinzu, um sicherzustellen, dass die Benutzer sich mindestens einmal für die [!UICONTROL trait] qualifiziert haben: `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 

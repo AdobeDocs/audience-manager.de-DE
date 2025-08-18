@@ -56,11 +56,11 @@ In [!UICONTROL Trait Builder] können Sie mit den [!UICONTROL Basic Information]
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
-   <td colname="col2"> Ordnet das Merkmal einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdown-Menü, um nach Audience Manager-Datenquellen, Adobe Analytics Report Suites oder beidem zu filtern. Wählen Sie dann im zweiten Dropdown-Menü Ihre Datenquelle aus.</p><p> Wenn Sie Adobe Analytics Report Suites nicht verwenden, ist die Datenquellentyp-Auswahl deaktiviert und standardmäßig nur auf Audience Manager-Datenquellen festgelegt.</p>  </td> 
+   <td colname="col2"> Ordnet das Merkmal einem bestimmten Datenanbieter zu. Erforderlich. <p>Verwenden Sie das erste Dropdown-Menü, um zwischen Audience Manager-Datenquellen, Adobe Analytics Report Suites oder beidem zu filtern. Wählen Sie dann im zweiten Dropdown-Menü Ihre Datenquelle aus.</p><p> Wenn Sie keine Adobe Analytics Report Suites verwenden, ist die Datenquellentyp-Auswahl deaktiviert und standardmäßig nur auf Audience Manager-Datenquellen festgelegt.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ereignistyp</span></b> </td> 
-   <td colname="col2"> Weist das Merkmal einem Typ oder einer Kategorie zu, normalerweise entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=de">Erstellen von Konversionseigenschaften im Audience Manager-Video</a>. </p></td> 
+   <td colname="col2"> Weist das Merkmal einem Typ oder einer Kategorie zu, normalerweise entsprechend der Funktion (z. B. Konversion, Site-Besucher, Partner, Seitenansicht usw.). Optional. <p> Informationen zum Erstellen von Konversionseigenschaften finden Sie im Video <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Erstellen von Konversionseigenschaften in Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integrations-Code</span></b> </td> 

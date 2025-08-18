@@ -1,5 +1,5 @@
 ---
-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten, die Sie in Audience Optimization-Berichten und für verwertbare Protokolldateien verwenden können. Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Berichtsoptionen und Menüelementen entsprechen. Formatieren Sie Ihre Daten und Metadatendateien entsprechend den Spezifikationen in diesem Abschnitt.
+description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten, die Sie in den Audience Optimization-Berichten und für verwertbare Protokolldateien verwenden können. Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Berichtsoptionen und Menüelementen entsprechen. Formatieren Sie Ihre Daten und Metadatendateien entsprechend den Spezifikationen in diesem Abschnitt.
 seo-description: A data file contains impression, click, or conversion data that you can use in the Audience Optimization reports and for Actionable Log Files. A metadata file contains human-readable names that correspond to various report options and menu items. Format your data and metadata files according to the specifications in this section.
 seo-title: Log Data and Metadata Files
 solution: Audience Manager
@@ -19,7 +19,7 @@ ht-degree: 1%
 Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten, die Sie für Folgendes verwenden können:
 
 * [Actionable Log Files](/help/using/integration/media-data-integration/actionable-log-files.md)
-* [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Audience Optimization-Berichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
 Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Berichtsoptionen und Menüelementen entsprechen. Formatieren Sie Ihre Daten und Metadatendateien entsprechend den Spezifikationen in diesem Abschnitt.
 
@@ -27,7 +27,7 @@ Eine Metadatendatei enthält für Menschen lesbare Namen, die verschiedenen Beri
 >
 >Um Metadatendateien verwenden zu können, müssen Ihre Ereignisaufrufe *alle* der im Abschnitt [Übersicht und Zuordnungen](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) aufgelisteten Parameter enthalten.
 
-* [Datendateien zum Audience Optimization von Berichten und verwertbaren Protokolldateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+* [Datendateien für Audience Optimization-Berichte und verwertbare Protokolldateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
 * [Benennungskonventionen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [Inhaltsformat für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)

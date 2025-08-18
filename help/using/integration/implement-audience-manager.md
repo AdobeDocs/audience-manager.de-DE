@@ -1,5 +1,5 @@
 ---
-description: In diesem Abschnitt werden die Prozesse für die ersten Schritte mit der Audience Manager-Datenverwaltungsplattform (DMP) beschrieben und erläutert. Dieser Abschnitt soll Business-Teams, Projekt-Managern und Technologie-Managern dabei helfen, den Implementierungsprozess von Audience Manager zu verstehen. Der Einstieg in Audience Manager kann je nach Ihren Anforderungen an die Datenerfassung etwa sechs Wochen bis drei Monate dauern.
+description: In diesem Abschnitt werden die Prozesse für die ersten Schritte mit der Audience Manager-Datenverwaltungsplattform (DMP) beschrieben und erläutert. Dieser Abschnitt soll Business-Teams, Projekt-Managern und Technologie-Managern dabei helfen, den Audience Manager-Implementierungsprozess zu verstehen. Der Einstieg in Audience Manager kann je nach den Anforderungen Ihrer Datenerfassung etwa sechs Wochen bis drei Monate dauern.
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 # Implementieren von Audience Manager {#implementing-audience-manager}
 
-In diesem Abschnitt werden die Prozesse für die ersten Schritte mit der Audience Manager-Datenverwaltungsplattform ([!DNL DMP]) beschrieben und erläutert. Dieser Abschnitt soll Business-Teams, Projekt-Managern und Technologie-Managern dabei helfen, den Implementierungsprozess von Audience Manager zu verstehen. Der Einstieg in Audience Manager kann je nach Ihren Anforderungen an die Datenerfassung etwa sechs Wochen bis drei Monate dauern.
+In diesem Abschnitt werden die Prozesse für die ersten Schritte mit der Audience Manager-Datenverwaltungsplattform ([!DNL DMP]) beschrieben und erläutert. Dieser Abschnitt soll Business-Teams, Projekt-Managern und Technologie-Managern dabei helfen, den Audience Manager-Implementierungsprozess zu verstehen. Der Einstieg in Audience Manager kann je nach den Anforderungen Ihrer Datenerfassung etwa sechs Wochen bis drei Monate dauern.
 
 Unsere Implementierungstechniken helfen dabei, eine beratende Partnerschaft mit neuen Kunden aufzubauen. Dieser Prozess dient folgenden Zwecken:
 
 * Entdecken und verstehen Sie Ihre geschäftlichen Anforderungen;
 * Ausarbeitung eines umsetzbaren Plans, um diesen Anforderungen gerecht zu werden;
 * Entwickeln Sie benutzerdefinierte Lösungen, um individuelle Anforderungen oder Anwendungsfälle zu erfüllen.
-* Stellen Sie sicher, dass Ihre proprietären Daten importiert und im Audience Manager bereitgestellt werden.
+* Stellen Sie sicher, dass Ihre proprietären Daten in Audience Manager importiert und bereitgestellt werden.
 
 Unsere Partner Solutions- und Account Management-Teams arbeiten vor, während und nach dem Implementierungsprozess eng mit Ihnen zusammen.
 
@@ -117,7 +117,7 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Ziele suchen </td> 
-   <td colname="col2"> Stellen Sie fest, ob der Client Daten an andere Werbeserver, DSP, Netzwerke oder Exchange sendet </td> 
+   <td colname="col2"> Stellen Sie fest, ob der Client Daten an andere Werbeserver, DSPs, Netzwerke oder Exchange sendet </td> 
    <td colname="col3"> Business-Teams </td> 
   </tr> 
   <tr valign="top"> 
@@ -153,16 +153,16 @@ In der folgenden Tabelle werden die wichtigsten Aktivitäten beschrieben, die w�
 
 | Aktivität | Zweck/Beschreibung | Teilnehmer/innen |
 |---|---|---|
-| Vorbereiten einer Datenerfassungsstrategie | Arbeiten Sie mit technischen Adobe-Teams zusammen, um einen Datenerfassungsplan zu erstellen, der Ihre Geschäftsanforderungen erfüllt | Unternehmens- und Technikteams |
+| Vorbereiten einer Datenerfassungsstrategie | Arbeiten Sie mit den technischen Teams von Adobe zusammen, um einen Datenerfassungsplan zu erstellen, der Ihre Geschäftsanforderungen erfüllt | Unternehmens- und Technikteams |
 | Bereitstellen und Testen von Code | Testen der vorgeschlagenen Lösung in einer Staging-Umgebung und Durchführen von Browser-übergreifenden Tests | Technische Teams |
 | Überprüfen der Funktionalität und Beheben von Fehlern | Ergebnisse untersuchen und kommunizieren, Fehler beheben und erneut testen | Technische Teams |
-| Benutzerschulung | Bereitstellung von Schulungen und Informationen zu Audience Manager-Funktionen, -Tools und -Berichten | Business-Teams |
+| Benutzerschulung | Bereitstellung von Schulungen und Informationen zu den Funktionen, Tools und Berichten von Audience Manager | Business-Teams |
 
 Zu den Leistungen für diese Phase können gehören:
 
 * einen ausgefüllten und akzeptierten Datenerhebungsplan;
 * End-to-End-[!DNL QA];
-* Grundlegende Anweisungen zu den Funktionen der Audience Manager-Benutzeroberfläche;
+* Grundlegende Anweisungen zu den Funktionen der Audience Manager-Benutzeroberfläche
 * Annahme und Abnahme.
 
 ## Launch-, Support- und Optimierungsphase {#launch-support-optimize-phase}
@@ -220,7 +220,7 @@ Aufgaben für diese Phase können Folgendes umfassen:
 
 ## Code-Implementierung {#code-implementation}
 
-Audience Manager verwendet die Data Integration Library ([!DNL DIL]) zum Empfang von Zielgruppendaten.
+Audience Manager verwendet die Data Integration Library ([!DNL DIL]), um Zielgruppendaten zu empfangen.
 
 Detaillierte Anweisungen zur Verwendung von [!DNL DIL] finden Sie unter [Abrufen und Implementieren von DIL-Code](../dil/dil-overview.md).
 
@@ -232,6 +232,6 @@ Partner Solutions kann direkt mit Ihren technischen Teams zusammenarbeiten, um C
 
 Unsere gemeinsamen Anstrengungen enden nicht mit der endgültigen Bereitstellung. Nach Abschluss der Implementierung übernimmt unser Account Management Team.
 
-Account Manager bieten fortlaufenden Support und Beratungsservice, nachdem der Produktimplementierungsprozess abgeschlossen ist. Sie können regelmäßige Besprechungen mit Ihrem Account Manager erwarten. Diese Meetings stellen sicher, dass Sie die maximale Nutzung und den maximalen Wert aus dem Audience Manager erhalten.
+Account Manager bieten fortlaufenden Support und Beratungsservice, nachdem der Produktimplementierungsprozess abgeschlossen ist. Sie können regelmäßige Besprechungen mit Ihrem Account Manager erwarten. Durch diese Meetings wird sichergestellt, dass Sie von Audience Manager den maximalen Nutzen und Nutzen erhalten.
 
-Kontaktieren Sie uns [hier](https://www.adobe.com/products/audiencemanager.html) für weitere Informationen und für den Einstieg in Audience Manager.
+Kontaktieren Sie uns [hier](https://www.adobe.com/products/audiencemanager.html) für weitere Informationen und für die ersten Schritte mit Audience Manager.

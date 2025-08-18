@@ -3,7 +3,7 @@ description: Eine Zusammenfassung der für einige Berichte verwendeten Stichprob
 seo-description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
-title: Datenstichproben und Fehlerquoten in Berichten zu ausgewählten Audience Managern
+title: Datenstichproben und Fehlerquoten in ausgewählten Audience Manager-Berichten
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Datenstichproben und Fehlerquoten in Berichten zu ausgewählten Audience Managern{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Datenstichproben und Fehlerquoten in ausgewählten Audience Manager-Berichten{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerraten und eine Liste von Berichten, die Informationen auf der Grundlage von Stichprobendaten zurückgeben.
 
@@ -88,4 +88,4 @@ Reports that use Minhash sampling methodology:
 |--- |--- |
 | [Adressierbare ](../features/addressable-audiences.md)) (Daten auf Kunden- und Segmentebene). | [Überschneidungsberichte](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (Eigenschaft-zu-Eigenschaft, Segment-zu-Eigenschaft und Segment-zu-Segment) |
 | Die [Gesamtzahl der Geräte](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) für eine [!UICONTROL Profile Merge Rule]. | [Eigenschaftenempfehlungen](/help/using/features/segments/trait-recommendations.md) |
-| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) verwendet auf der Registerkarte &quot;[!UICONTROL Search]&quot; und in allen [!UICONTROL Saved Searches] abgetastete Daten | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) verwendet auf der Registerkarte &quot;[!UICONTROL Search]&quot; und in allen [!UICONTROL Saved Searches] Stichprobendaten | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

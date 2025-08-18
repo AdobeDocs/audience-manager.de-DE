@@ -28,9 +28,9 @@ Audience Manager verwendet die folgenden Komponenten zur Verarbeitung von Daten:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager] ist Hadoop die Hauptdatenbank, die alles enthält, was [!DNL Audience Manager] über einen Benutzer weiß. Wenn die [Profil-Cache-Server](../../reference/system-components/components-data-collection.md) beispielsweise Protokolldateien erstellen, die Daten über Ihre Benutzerinnen und Benutzer enthalten, werden diese Daten zur Speicherung an Hadoop gesendet. Weitere wichtige Hadoop-Elemente sind:
+[!DNL Audience Manager] ist Hadoop die Hauptdatenbank, die alles enthält, was [!DNL Audience Manager] über einen Benutzer weiß. Wenn die [Profil-Cache-Server](../../reference/system-components/components-data-collection.md) beispielsweise Protokolldateien erstellen, die Daten über Ihre Benutzerinnen und Benutzer enthalten, werden diese Daten zur Speicherung an Hadoop gesendet. Weitere wichtige Elemente von Hadoop sind:
 
-* **Hive:** Ein Data Warehouse zum Hadoop. Hive verwaltet Ad-hoc-Abfragen an die auf Hadoop gespeicherten Daten.
+* **Hive:** Ein Data Warehouse für Hadoop. Hive verwaltet Ad-hoc-Abfragen an die in Hadoop gespeicherten Daten.
 
 * **HBase:** Eine sehr große Hadoop-Datenbank. Es verarbeitet und verwaltet eingehende und ausgehende Daten, Eigenschaftsregeln, algorithmische Modellierungsinformationen und führt viele andere Funktionen aus, die mit dem Speichern und Verschieben von Daten in verschiedene Systeme zusammenhängen.
 
@@ -60,7 +60,7 @@ SOLR ist ein Open-Source-Datenbank- und Server-System von Apache. Es bietet zuve
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/), um Daten in den [interaktiven Berichten](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) und den [Audience Optimization-Berichten ](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Die interaktiven Berichte zeigen Leistungs- und Überschneidungsdaten für Eigenschaften und Segmente an. Anstatt Zahlen zu verwenden, die in Spalten und Zeilen angeordnet sind, geben sie Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie einzelne oder Gruppen von Datenpunkten auswählen und die Berichtsergebnisse aufschlüsseln, um weitere Details zu erhalten. Diese Visualisierungstechniken und die Interaktivität von Berichten erleichtern das Verständnis großer Mengen numerischer Daten.
+[!DNL Audience Manager] verwendet [Tableau](https://www.tableausoftware.com/), um Daten in den [interaktiven Berichten](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) und den [Audience Optimization-Berichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md) anzuzeigen. Die interaktiven Berichte zeigen Leistungs- und Überschneidungsdaten für Eigenschaften und Segmente an. Anstatt Zahlen zu verwenden, die in Spalten und Zeilen angeordnet sind, geben sie Daten mit unterschiedlichen Formen, Farben und Größen zurück. Darüber hinaus können Sie einzelne oder Gruppen von Datenpunkten auswählen und die Berichtsergebnisse aufschlüsseln, um weitere Details zu erhalten. Diese Visualisierungstechniken und die Interaktivität von Berichten erleichtern das Verständnis großer Mengen numerischer Daten.
 
 
 

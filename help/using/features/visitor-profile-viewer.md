@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Besucherprofil-Viewer {#visitor-profile-viewer}
 
-Verwenden Sie den [!UICONTROL Visitor Profile Viewer], um den aktuellen Status eines Benutzerprofils für den aktuellen Browser anzuzeigen, einschließlich seiner Eigenschaften und Segmente. Für jede Eigenschaft können Sie deren [!UICONTROL SID], Namen, Details dazu, wie Besuchereigenschaften realisiert wurden (Erstanbieter oder Drittanbieter), das Realisierungsdatum und die Häufigkeit der Realisierungen anzeigen. Für jedes Segment können Sie dessen [!UICONTROL SID], Namen und das Datum der Segmentzugehörigkeit anzeigen. Sie können auch das Besucherprofil für eine andere Audience Manager-Profil-ID anzeigen ([!UICONTROL UUID]). Die [!UICONTROL Visitor Profile Viewer] ist bei der Fehlerbehebung hilfreich.
+Verwenden Sie den [!UICONTROL Visitor Profile Viewer], um den aktuellen Status eines Benutzerprofils für den aktuellen Browser anzuzeigen, einschließlich seiner Eigenschaften und Segmente. Für jede Eigenschaft können Sie deren [!UICONTROL SID], Namen, Details dazu, wie Besuchereigenschaften realisiert wurden (Erstanbieter oder Drittanbieter), das Realisierungsdatum und die Häufigkeit der Realisierungen anzeigen. Für jedes Segment können Sie dessen [!UICONTROL SID], Namen und das Datum der Segmentzugehörigkeit anzeigen. Sie können das Besucherprofil auch für eine andere Audience Manager-Profil-ID ([!UICONTROL UUID]) anzeigen. Die [!UICONTROL Visitor Profile Viewer] ist bei der Fehlerbehebung hilfreich.
 
 >[!NOTE]
 >
@@ -39,4 +39,4 @@ Traits that are not part of a segment will not appear in the
 
    Weitere Informationen finden Sie unter [Segmente](../features/segments/segments-purpose.md).
 
-1. *(Bedingt)* Geben Sie im Feld &quot;**[!UICONTROL UUID]**&quot; eine andere Benutzerprofil-ID an und klicken Sie dann auf &quot;**[!UICONTROL Refresh]**&quot;, um die Eigenschaften und Audience Manager für diesen Benutzer anzuzeigen.
+1. *(Bedingt)* Geben Sie im Feld **[!UICONTROL UUID]** eine weitere Audience Manager-Profil-ID an und klicken Sie dann auf **[!UICONTROL Refresh]** , um die Eigenschaften und Segmente für diesen Benutzer anzuzeigen.

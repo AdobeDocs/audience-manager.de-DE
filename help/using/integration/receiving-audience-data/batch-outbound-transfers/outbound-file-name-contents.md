@@ -63,7 +63,7 @@ Die Tabelle definiert die Elemente in einem Namen für eine ausgehende Datendate
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser-ID-</span> (Roh, ungehasht) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple-ID für Advertisers-</span> (unbearbeitet, ungehasht) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">Anbieter-ID - Benutzer-IDs von Drittanbietern (Web/Cookie) </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html?lang=de">Globale Data Sources</a>.</p></td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">Globale Data Sources</a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -115,7 +115,7 @@ Z. B. vollständige Dateien:
 
 ### Szenario 2
 
-Dateien werden ohne *`PID_ALIAS`* und mit [!DNL Apple Advertiser IDs] im Dateiinhalt an [!DNL FTP] Speicherort gesendet:
+Dateien werden ohne [!DNL FTP] und mit *`PID_ALIAS`* im Dateiinhalt an [!DNL Apple Advertiser IDs] Speicherort gesendet:
 
 Z. B. inkrementelle Dateien:
 

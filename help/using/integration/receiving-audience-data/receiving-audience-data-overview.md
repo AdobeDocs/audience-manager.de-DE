@@ -1,5 +1,5 @@
 ---
-description: Zielgruppendaten vom Audience Manager empfangen.
+description: Empfangen von Zielgruppendaten von Audience Manager.
 seo-description: Receive audience data from Adobe Audience Manager (AAM).
 seo-title: Receiving Audience Data in Adobe Audience Manager (AAM)
 title: Zielgruppendaten werden empfangen
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Zielgruppendaten werden empfangen
 
-Zielgruppendaten vom Audience Manager empfangen.
+Empfangen von Zielgruppendaten von Audience Manager.
 
 * [ID-Synchronisierung für ausgehende Datenübertragungen](id-sync-outbound.md)
 
-  Beschreibt die Syntax und die Parameter, die im ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen dem Audience Manager und einem Drittanbieter-Datenanbieter verwendet wurden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie die erste ID-Synchronisierung durchführen.
+  Beschreibt die Syntax und die Parameter, die beim ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen Audience Manager und einem Drittanbieter verwendet wurden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie die erste ID-Synchronisierung durchführen.
 
 * [Ausgehende Datenübertragungen in Echtzeit](real-time-outbound-transfers/real-time-outbound-transfers.md)
 
-  Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Serie von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
+  Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
 
 * [Batch-ausgehende Datenübertragungen](batch-outbound-transfers/batch-outbound-overview.md)
 

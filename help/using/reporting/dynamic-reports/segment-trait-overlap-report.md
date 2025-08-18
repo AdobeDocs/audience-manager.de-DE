@@ -185,5 +185,5 @@ Das Popup für den [!UICONTROL Segment-to-Trait Overlap] enthält die folgenden 
 >* [In interaktiven Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Berichtssymbole und Tools - Erklärung](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben- und Fehlerquoten in Berichten zu ausgewählten Audience Managern…](../../reporting/report-sampling.md)
+>* [Datenstichproben- und Fehlerquoten in ausgewählten Audience Manager-Berichten…](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)

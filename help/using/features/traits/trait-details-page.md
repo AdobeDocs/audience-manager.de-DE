@@ -42,7 +42,7 @@ Die [!UICONTROL Trait Graph] bietet Leistungsmetriken auf einen Blick für Ihre 
 
 [!UICONTROL rule-based traits] erfolgt [!UICONTROL trait] Qualifizierung in Echtzeit, da Benutzende für eine [!UICONTROL trait] in ihrem Browser qualifiziert sind.
 
-[!UICONTROL onboarded traits] erfolgt [!UICONTROL trait] Qualifizierung, nachdem eine eingehende Datei verarbeitet wurde, d. h. die eingehende Datei wird [in den Audience Manager eingespeist](../../faq/faq-inbound-data-ingestion.md) und zwar dann, wenn die [!UICONTROL trait] Qualifizierung erfolgt.
+[!UICONTROL onboarded traits] erfolgt [!UICONTROL trait] Qualifizierung, nachdem eine eingehende Datei verarbeitet wurde, d. h. die eingehende Datei wird [in Audience Manager eingespeist](../../faq/faq-inbound-data-ingestion.md) und zwar dann, wenn die [!UICONTROL trait] Qualifizierung erfolgt.
 
 Die [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
 
@@ -55,15 +55,15 @@ Die [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
 * **[!UICONTROL Unique Trait Realizations]**: Anzahl der eindeutigen Benutzer, die diese [!UICONTROL trait] im angegebenen Zeitraum zu ihrem Profil hinzugefügt haben.
 * **[!UICONTROL Total Trait Population]**: Die Anzahl der eindeutigen Benutzer, die sich derzeit für dieses [!UICONTROL trait] qualifiziert haben.
 
-* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei wichtigsten [!UICONTROL cross-device data sources] mit der höchsten Populationsanzahl, die sich für die [!UICONTROL trait] qualifiziert haben, in absteigender Reihenfolge. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die sich für die [!UICONTROL trait] qualifiziert haben, aus den [!UICONTROL cross-device data sources], die nicht zu den drei obersten gehören. Dieser Bericht wird nur angezeigt, wenn Sie im Dropdown-Menü [!UICONTROL Show Results By] oben rechts auf der Seite [!UICONTROL Cross-device ID] auswählen. Die standardmäßige Dropdown-Option ist [!UICONTROL Device ID], wenn dieser Bericht nicht angezeigt wird.
+* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei wichtigsten [!UICONTROL cross-device data sources] mit der höchsten Populationsanzahl, die sich für die [!UICONTROL trait] qualifiziert haben, in absteigender Reihenfolge. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die sich für die [!UICONTROL trait] qualifiziert haben, aus den [!UICONTROL cross-device data sources], die nicht zu den drei obersten gehören. Dieser Bericht wird nur angezeigt, wenn Sie im Dropdown-Menü [!UICONTROL Cross-device ID] oben rechts auf der Seite [!UICONTROL Show Results By] auswählen. Die standardmäßige Dropdown-Option ist [!UICONTROL Device ID], wenn dieser Bericht nicht angezeigt wird.
 
   ![trait-graph](assets/trait-identity.png)
 
   >[!NOTE]
   >
-  >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] nur an, wenn [!UICONTROL cross-device] für die [!UICONTROL trait] qualifizierten IDs vorhanden sind.
+  >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] nur an, wenn Sie über [!UICONTROL cross-device] für die [!UICONTROL trait] qualifizierten IDs verfügen.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/32712?captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## [!UICONTROL Trait] Ausdruck {#trait-expression}
 

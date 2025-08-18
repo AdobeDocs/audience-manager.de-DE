@@ -63,7 +63,7 @@ In diesem Beispiel lautet der Dateiname 20180921_0_1 und die drei Spalten in der
 
 **Creative**
 
-In diesem Beispiel lautet der Dateiname 20180827_0_2 und die drei Spalten in der Datei sind: Kreativ-ID, Name und übergeordnete ID.
+In diesem Beispiel lautet der Dateiname 20180827_0_2. Die drei Spalten in der Datei sind: Creative-ID, Name und übergeordnete ID.
 
 ```
 //File Title

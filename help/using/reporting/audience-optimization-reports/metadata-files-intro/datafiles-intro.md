@@ -1,9 +1,9 @@
 ---
-description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Wenn Sie richtig formatiert sind, können Sie diese Daten in den Audience Manager importieren und in den Audience Optimization-Berichten und für verwertbare Protokolldateien verwenden. Formatieren Sie Ihre Datendateien entsprechend den Spezifikationen in diesem Abschnitt.
+description: Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Wenn Sie richtig formatiert sind, können Sie diese Daten in Audience Manager importieren und in Audience Optimization-Berichten und für verwertbare Protokolldateien verwenden. Formatieren Sie Ihre Datendateien entsprechend den Spezifikationen in diesem Abschnitt.
 seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
 seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
-title: Datendateien zum Audience Optimization von Berichten und verwertbaren Protokolldateien
+title: Datendateien für Audience Optimization-Berichte und verwertbare Protokolldateien
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 ---
 
-# Datendateien zum Audience Optimization von Berichten und verwertbaren Protokolldateien {#data-files-for-audience-optimization-reports}
+# Datendateien für Audience Optimization-Berichte und verwertbare Protokolldateien {#data-files-for-audience-optimization-reports}
 
-Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Wenn Sie richtig formatiert sind, können Sie diese Daten in den Audience Manager importieren, um sie in den [Audience Optimization-Berichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) anzuzeigen und Eigenschaften mithilfe der Daten über &quot;[ Protokolldateien“ ](/help/using/integration/media-data-integration/actionable-log-files.md). Formatieren Sie Ihre Datendateien entsprechend den Spezifikationen in diesem Abschnitt.
+Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Wenn Sie richtig formatiert sind, können Sie diese Daten in Audience Manager importieren, um sie in den [Audience Optimization-Berichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) anzuzeigen und Eigenschaften mithilfe der Daten über &quot;[ Protokolldateien“ ](/help/using/integration/media-data-integration/actionable-log-files.md). Formatieren Sie Ihre Datendateien entsprechend den Spezifikationen in diesem Abschnitt.
 
 ## Überblick {#overview}
 
@@ -89,8 +89,8 @@ In der folgenden Tabelle sind die Spaltenüberschriften für Ihre Datendatei auf
    <td colname="col2"> <p>Kampagnen-ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>creative-id </p> </td> 
-   <td colname="col2"> <p>Kreativ-ID. </p> </td> 
+   <td colname="col1"> <p>Creative-ID </p> </td> 
+   <td colname="col2"> <p>Creative-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>site-id </p> </td> 
@@ -170,7 +170,7 @@ In der folgenden Tabelle werden diese Elemente in einem Dateibereitstellungspfad
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dieses Schlüssel-Wert-Paar enthält Ihren <span class="keyword"> Audience Manager </span> Kunden-ID. </p> </td> 
+   <td colname="col2"> <p>Dieses Schlüssel-Wert-Paar enthält Ihre <span class="keyword"> Audience Manager</span> Kunden-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 

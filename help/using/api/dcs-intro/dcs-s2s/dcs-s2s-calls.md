@@ -67,11 +67,11 @@ Ein Beispielaufruf sieht dem folgenden Beispiel ähnlich.
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dies ist der eindeutige Benutzer-ID-Schlüssel, der den Wert der <span class="keyword"> Audience Manager </span> Benutzer-ID in einem Schlüssel-Wert-Paar enthält. </p> <p>Verwenden Sie <code><i>d_uuid</i></code>, wenn Sie den <span class="keyword"> Audience Manager übergeben</span> Benutzer-ID. </p> </td>
+   <td colname="col2"> <p>Dies ist der eindeutige Benutzer-ID-Schlüssel, der den Wert der <span class="keyword"> Audience Manager</span>-Benutzer-ID in einem Schlüssel-Wert-Paar enthält. </p> <p>Verwenden Sie <code><i>d_uuid</i></code>, wenn Sie die <span class="keyword"> Audience Manager</span>-Benutzer-ID übergeben. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dies ist der eindeutige Benutzer-ID-Schlüssel, der den Wert der <span class="keyword"> Experience Cloud</span>-Benutzer-ID in einem Schlüssel-Wert-Paar enthält. Siehe auch <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Abrufen der Benutzer-ID aus dem ID-Dienst-Cookie</a>. </p> <p>Verwenden Sie <i><code> d_mid</code></i>, wenn Sie eine <span class="keyword"> Experience Cloud</span> ID übergeben, die vom ID-Service <span class="keyword"> Experience Cloud</span> erfasst wird. </p> </td> 
+   <td colname="col2"> <p>Dies ist der eindeutige Benutzer-ID-Schlüssel, der den Wert der <span class="keyword"> Experience Cloud</span>-Benutzer-ID in einem Schlüssel-Wert-Paar enthält. Siehe auch <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Abrufen der Benutzer-ID aus dem ID-Dienst-Cookie</a>. </p> <p>Verwenden Sie <i><code> d_mid</code></i>, wenn Sie eine <span class="keyword"> Experience Cloud</span> ID übergeben, die vom <span class="keyword"> Experience Cloud</span> ID-Service erfasst wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 

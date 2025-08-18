@@ -1,5 +1,5 @@
 ---
-description: Mit den Optionen im Menü Administration können Sie Audience Manager erstellen und sie Gruppen zuweisen. Sie können auch Einschränkungen anzeigen (Eigenschaften, Segmente, Ziele und Modelle).
+description: Mit den Optionen im Menü Administration können Sie Audience Manager-Benutzer erstellen und sie Gruppen zuweisen. Sie können auch Einschränkungen anzeigen (Eigenschaften, Segmente, Ziele und Modelle).
 keywords: rbac;RBAC;rollenbasiert;rollenbasiert;rollenbasierte Zugriffssteuerungen
 seo-description: The options under the Administration menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 seo-title: Administration
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontenverwaltung wechselt zur Admin Console [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um mit der Benutzermigration zu beginnen, müssen alle Audience Manager-Kunden sofort die in diesem Artikel beschriebenen erforderlichen Maßnahmen ergreifen: [Benutzermigration von Audience Managern auf Admin Console](admin-console-migration.md).
+> Die Benutzerkontenverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um mit der Benutzermigration zu beginnen, müssen alle Audience Manager-Kunden sofort die in diesem Artikel beschriebenen Maßnahmen ergreifen: [Benutzermigration von Audience Manager nach Admin Console](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert haben, werden die Abschnitte zur Benutzerverwaltung in diesem Dokument entfernt.
 
 >[!IMPORTANT]
 >
-> Bevor Sie [!DNL RBAC] verwenden können, muss diese Funktion für Ihr Unternehmen per Adobe aktiviert werden. Wenden Sie sich an Ihr Konto-Team, um [!DNL RBAC] Aktivierung anzufordern, oder wenden Sie sich an die Kundenunterstützung.
+> Bevor Sie [!DNL RBAC] verwenden können, muss diese Funktion von Adobe für Ihr Unternehmen aktiviert werden. Wenden Sie sich an Ihr Konto-Team, um [!DNL RBAC] Aktivierung anzufordern, oder wenden Sie sich an die Kundenunterstützung.
 
 
 Mit den Optionen im Menü [!UICONTROL Administration] können Sie Audience Manager-Benutzer erstellen und sie Gruppen zuweisen. Sie können auch Einschränkungen anzeigen (Eigenschaften, Segmente, Ziele und Modelle).
@@ -42,16 +42,16 @@ Unternehmenskunden, die [!DNL Audience Manager] verwenden, benötigen eine einzi
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontenverwaltung wechselt zur Admin Console [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um mit der Benutzermigration zu beginnen, müssen alle Audience Manager-Kunden sofort die in diesem Artikel beschriebenen erforderlichen Maßnahmen ergreifen: [Benutzermigration von Audience Managern auf Admin Console](admin-console-migration.md).
+> Die Benutzerkontenverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um mit der Benutzermigration zu beginnen, müssen alle Audience Manager-Kunden sofort die in diesem Artikel beschriebenen Maßnahmen ergreifen: [Benutzermigration von Audience Manager nach Admin Console](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert haben, wird der Abschnitt „Benutzerverwaltung“ dieses Dokuments entfernt.
 > 
->Erstellen Sie Benutzer in [!DNL Audience Manager] und geben Sie Benutzerdetails, Anmeldestatus an und weisen Sie Benutzer Gruppen zu.
+Erstellen Sie Benutzer in [!DNL Audience Manager] und geben Sie Benutzerdetails, Anmeldestatus an und weisen Sie Benutzer Gruppen zu.
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Klicken Sie auf ![](assets/icon_add.png) , um die Seite [!UICONTROL Create New User] anzuzeigen.
 1. Füllen Sie unter **[!UICONTROL User Details]** die folgenden Felder aus:
-   * **[!UICONTROL Username]:** Geben Sie einen eindeutigen Benutzernamen für den Audience Manager an.
+   * **[!UICONTROL Username]:** Geben Sie einen eindeutigen Benutzernamen für Audience Manager an.
    * **[!UICONTROL First Name]:** Geben Sie den Vornamen des Benutzers an.
    * **[!UICONTROL Last Name]:** Geben Sie den Nachnamen des Benutzers an.
    * **[!UICONTROL Email Address]:** Geben Sie die E-Mail-Adresse des Benutzers an. [!DNL Audience Manager] sendet keine regelmäßigen Benachrichtigungen an Benutzer. [!DNL Audience Manager] Administratoren haben Zugriff auf die E-Mail-Adressen der Benutzer und können bei Bedarf E-Mails an Benutzer senden. Wenn ein Benutzer beispielsweise sein Kennwort vergessen hat, wird die in diesem Feld angegebene E-Mail-Adresse verwendet, um ein temporäres Kennwort und Anweisungen zum Zurücksetzen des Kennworts zu senden.
@@ -71,7 +71,7 @@ Weitere Informationen zu Gruppen und Berechtigungen finden Sie unter [Erstellen 
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontenverwaltung wechselt zur Admin Console [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um mit der Benutzermigration zu beginnen, empfehlen wir allen Audience Manager-Kunden, sofort die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration von Audience Managern zur Admin Console ](admin-console-migration.md).
+> Die Benutzerkontenverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um mit der Benutzermigration zu beginnen, empfehlen wir allen Audience Manager-Kunden, sofort die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration von Audience Manager nach Admin Console](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert haben, wird dieser Abschnitt entfernt.
 
@@ -97,7 +97,7 @@ Dadurch wird ein Berechtigungsfenster für das ausgewählte Objekt geöffnet.
 
 >[!IMPORTANT]
 >
-> Die Benutzerkontenverwaltung wechselt zur Admin Console [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um mit der Benutzermigration zu beginnen, empfehlen wir allen Audience Manager-Kunden, sofort die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration von Audience Managern zur Admin Console ](admin-console-migration.md).
+> Die Benutzerkontenverwaltung wechselt zur [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). Um mit der Benutzermigration zu beginnen, empfehlen wir allen Audience Manager-Kunden, sofort die in diesem Artikel beschriebenen erforderlichen Maßnahmen zu ergreifen: [Benutzermigration von Audience Manager nach Admin Console](admin-console-migration.md).
 > 
 > Nachdem alle Kunden migriert haben, wird dieser Abschnitt entfernt.
 
@@ -160,7 +160,7 @@ Nachfolgend finden Sie eine Beschreibung der einzelnen [!UICONTROL wildcard perm
 
 **[!UICONTROL Signals]**
 
-* `VIEW_ALL_SIGNALS` - Benutzer können alle in [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md) erfassten Signale anzeigen.
+* `VIEW_ALL_SIGNALS` - Benutzer können alle in [Data Explorer erfassten Signale ](/help/using/features/data-explorer/data-explorer-overview.md).
 
 ## Nutzungsszenarios {#use-cases}
 

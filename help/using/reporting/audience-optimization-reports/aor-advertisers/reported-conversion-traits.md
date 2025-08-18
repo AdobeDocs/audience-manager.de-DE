@@ -22,7 +22,7 @@ Konversionseigenschaften für Konversionsgruppen können sich von einer Berichts
 
 Informationen zum Erstellen von Konversionseigenschaften in Audience Manager finden Sie im folgenden Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/328027?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23431/)
 
 ## Beispielbericht
 

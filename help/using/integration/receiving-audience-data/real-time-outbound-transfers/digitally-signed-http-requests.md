@@ -1,5 +1,5 @@
 ---
-description: Für den Audience Manager müssen die HTTP(S)-Server-zu-Server-Anfragen digital signiert werden, damit sie gültig sind. In diesem Dokument wird beschrieben, wie Sie HTTP-Anfragen mit privaten Schlüsseln signieren können.
+description: Audience Manager erfordert, dass die HTTP(S)-Server-zu-Server-Anfragen zwecks Gültigkeit digital signiert werden. In diesem Dokument wird beschrieben, wie Sie HTTP-Anfragen mit privaten Schlüsseln signieren können.
 seo-description: Audience Manager requires the HTTP(S) server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP(S) requests with private keys.
 seo-title: Digitally Signed HTTP(S) Requests
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Digitale `HTTP(S)` {#digitally-signed-http-requests}
 
-Für den Audience Manager müssen die `HTTP(S)`-Server-zu-Server-Anfragen digital signiert werden, damit sie gültig sind. In diesem Dokument wird beschrieben, wie Sie `HTTP(S)` mit privaten Schlüsseln signieren können.
+Audience Manager erfordert, dass die `HTTP(S)`-Server-zu-Server-Anfragen zur Gültigkeitsdauer digital signiert werden. In diesem Dokument wird beschrieben, wie Sie `HTTP(S)` mit privaten Schlüsseln signieren können.
 
 ## Überblick {#overview}
 
@@ -85,7 +85,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-Die RFC für die [!DNL HMAC] Hash-Implementierung ist [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Test-Site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die [&#128279;](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)-Codierung in base64 konvertieren).
+Die RFC für die [!DNL HMAC] Hash-Implementierung ist [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Test-Site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die [-Codierung in base64 ](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)konvertieren).
 
 ## Privaten Schlüssel drehen {#rotate-private-key}
 

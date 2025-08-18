@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # [!DNL DCS] [!DNL API] {#dcs-api-methods}
 
-Senden Sie Daten mithilfe von `GET`- oder `POST`-Methoden an die [!DNL DCS] [!DNL API].
+Senden Sie Daten mithilfe von [!DNL DCS]- oder [!DNL API]-Methoden an die `GET` `POST`.
 
-Sie können Daten mit einer der Methoden `GET` oder `POST` an die [!DNL DCS] senden. Sehen Sie sich die folgenden Beispielaufrufe an, indem Sie [curl](https://curl.haxx.se/) verwenden. In allen drei Beispielaufrufen fügen wir die Signale `c_likes = famous popstar` und `c_loves = famous actress` zur `12345678901234567890123456789012345678` des Geräteprofils hinzu.
+Sie können Daten mit einer der Methoden [!DNL DCS] oder `GET` an die `POST` senden. Sehen Sie sich die folgenden Beispielaufrufe an, indem Sie [curl](https://curl.haxx.se/) verwenden. In allen drei Beispielaufrufen fügen wir die Signale `c_likes = famous popstar` und `c_loves = famous actress` zur `12345678901234567890123456789012345678` des Geräteprofils hinzu.
 
 ## Senden von Daten über [!DNL GET] {#send-data-via-get}
 

@@ -28,18 +28,18 @@ ht-degree: 1%
 
 Die [!UICONTROL Marketplace] ist eine [!DNL Audience Manager] Funktion für Datenerwerber, in der Daten-Feeds aufgelistet sind, die Sie abonnieren können. Es werden Flatrate-, [!DNL CPM]- und private Daten-Feeds aufgelistet. Diese Feeds werden von Drittanbietern bereitgestellt, die [!DNL Audience Manager] zum Verkauf von Daten verwenden.
 
-In der [!UICONTROL Marketplace] können Sie mit Reporting-Tools die Feed-Nutzung und die Überschneidung zwischen Ihren [!UICONTROL traits] und denen in einem abonnierten Daten-Feed verfolgen. Schließlich kümmert sich [!DNL Adobe] bei [!UICONTROL Audience Marketplace] um Rechnungen und Gebührenzahlungen (obwohl Sie die Nutzung eines [!DNL CPM] Feeds selbst melden müssen). Mit diesen Funktionen können Sie effektive Datenquellen finden, ohne Zeit mit der Suche nach einem Datenanbieter zu verlieren.
+In der [!UICONTROL Marketplace] können Sie mit Reporting-Tools die Feed-Nutzung und die Überschneidung zwischen Ihren [!UICONTROL traits] und denen in einem abonnierten Daten-Feed verfolgen. Schließlich kümmert sich [!UICONTROL Audience Marketplace] bei [!DNL Adobe] um Rechnungen und Gebührenzahlungen (obwohl Sie die Nutzung eines [!DNL CPM] Feeds selbst melden müssen). Mit diesen Funktionen können Sie effektive Datenquellen finden, ohne Zeit mit der Suche nach einem Datenanbieter zu verlieren.
 
 >[!TIP]
 >
->Mit der **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** können Sie hochwertige Daten-Feeds abonnieren. Navigieren Sie dann zurück zur [!DNL Audience Manager]-Benutzeroberfläche oder verwenden Sie die [Audience Marketplace-Käufer-API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) um die gefundenen Feeds zu abonnieren.
+>Verwenden Sie den **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** um qualitativ hochwertige Daten-Feeds zu finden, die Sie abonnieren können. Kehren Sie dann zur [!DNL Audience Manager]-Benutzeroberfläche zurück oder verwenden Sie die [Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) um die gefundenen Feeds zu abonnieren.
 
 ![Einkäufer-Marktplatz-Übersicht](assets/buyer-marketplace-overview.png)
 
 Die [!UICONTROL Marketplace] enthält Informationen, die Sie sortieren und suchen können, um den für Sie geeigneten Daten-Feed zu finden. Zu den Elementen in der Liste des [!UICONTROL Marketplace]-Käufers gehören:
 
 * **[!UICONTROL Search]**: Daten-Feeds nach Name oder Textbeschreibung suchen.
-* **[!UICONTROL Similar Traits]**: Zeigt die Anzahl ähnlicher [!UICONTROL traits] aus einem Daten-Feed an. Diese Spalte wird angezeigt, nachdem Sie im Abschnitt **[!UICONTROL Similarity To]** einen [!UICONTROL trait] oder eine [!UICONTROL segment] zum Filtern eingegeben haben.
+* **[!UICONTROL Similar Traits]**: Zeigt die Anzahl ähnlicher [!UICONTROL traits] aus einem Daten-Feed an. Diese Spalte wird angezeigt, nachdem Sie im Abschnitt [!UICONTROL trait] einen [!UICONTROL segment] oder eine **[!UICONTROL Similarity To]** zum Filtern eingegeben haben.
 * **[!UICONTROL Name]**: Name des Daten-Feeds.
 * **[!UICONTROL Description]**: Informationen zum Inhalt eines Daten-Feeds.
 * **[!UICONTROL Provider]**: Name des Datenanbieters.

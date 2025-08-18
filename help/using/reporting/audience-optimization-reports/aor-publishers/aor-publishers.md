@@ -20,11 +20,11 @@ ht-degree: 19%
 
 ## Überblick {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] stellt Kampagnenleistungsdaten auf Protokollebene aus [!DNL Google Ad Manager] [!DNL Audience Manager] Segmentmetriken gegenüber. Die Berichte sind für Kundinnen und Kunden verfügbar, die die Protokollaufnahme von [!DNL Google Ad Manager]in [!DNL Audience Manager] eingerichtet haben. Wenn Sie die Protokollaufnahme noch nicht eingerichtet haben, finden Sie [Google Ad Manager-Datendateien in den Audience Manager importieren](import-dfp.md) Informationen dazu.
+[!UICONTROL Audience Optimization for Publishers] stellt Kampagnenleistungsdaten auf Protokollebene aus [!DNL Google Ad Manager] [!DNL Audience Manager] Segmentmetriken gegenüber. Die Berichte sind für Kundinnen und Kunden verfügbar, die die Protokollaufnahme von [!DNL Google Ad Manager]in [!DNL Audience Manager] eingerichtet haben. Wenn Sie die Protokollaufnahme noch nicht eingerichtet haben, lesen Sie [Importieren von Google Ad Manager-Datendateien in Audience Manager](import-dfp.md), um Informationen dazu zu erhalten.
 
 ## Metadaten {#metadata}
 
-Die in den Berichten angezeigten Leistungsinformationen werden aus Ihrer [!DNL Google Ad Manager]-Instanz importiert. Sie müssen uns Metadatendateien senden, damit wir Ihren Elementen in den Berichten beschreibende, benutzerfreundliche Namen anstelle von IDs hinzufügen können. In Schritt 3 in [Importieren von Google Ad Manager-Datendateien in den Audience Manager ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) wird beschrieben, wie Sie uns die Metadaten senden.
+Die in den Berichten angezeigten Leistungsinformationen werden aus Ihrer [!DNL Google Ad Manager]-Instanz importiert. Sie müssen uns Metadatendateien senden, damit wir Ihren Elementen in den Berichten beschreibende, benutzerfreundliche Namen anstelle von IDs hinzufügen können. In Schritt 3 [Importieren von Google Ad Manager-Datendateien in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) wird beschrieben, wie Sie uns die Metadaten senden.
 
 ## Verfügbare Berichte {#available-reports}
 

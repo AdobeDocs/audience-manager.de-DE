@@ -1,5 +1,5 @@
 ---
-description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Audience Optimization-Berichte zeigen lesbare Namen in den verschiedenen Berichtsoptionen-Menüs an.
+description: Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Audience Optimization-Berichte zeigen lesbare Namen in den verschiedenen Berichtsoptionen an.
 seo-description: A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
 seo-title: Overview and Mappings for Metadata Files
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 # Übersicht und Zuordnungen für Metadatendateien{#overview-and-mappings-for-metadata-files}
 
-Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Audience Optimization-Berichte zeigen lesbare Namen in den verschiedenen Berichtsoptionen-Menüs an.
+Eine Metadatendatei verknüpft numerische IDs mit Namen, die Sie lesen und verstehen können. Die Audience Optimization-Berichte zeigen lesbare Namen in den verschiedenen Berichtsoptionen an.
 
 ## Überblick {#overview}
 
-Eine Übersicht über Metadaten und ihre Verwendung. Eine Metadatendatei muss von einer Datendatei begleitet werden. Die Inhalte der Metadatendateien stimmen mit den Datendateiinformationen in Bezug auf menschenlesbare Kennzeichnungen in den Berichtsmenüs überein. Weitere Informationen finden Sie unter [Datendateien für das Audience Optimization von Berichten und verwertbaren Protokolldateien](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+Eine Übersicht über Metadaten und ihre Verwendung. Eine Metadatendatei muss von einer Datendatei begleitet werden. Die Inhalte der Metadatendateien stimmen mit den Datendateiinformationen in Bezug auf menschenlesbare Kennzeichnungen in den Berichtsmenüs überein. Weitere Informationen finden Sie unter [Datendateien für Audience Optimization-Berichte und verwertbare Protokolldateien](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### Metadatendateien enthalten Daten zu anderen Daten
 
@@ -38,7 +38,7 @@ Eine ordnungsgemäß formatierte Metadatendatei kann diesen Kreativen jedoch an 
 
 ### Wann benötigen Sie eine Metadatendatei?
 
-Wenn Sie die [Audience Optimization-Berichte verwenden möchten, sind in einem Ereignisaufruf zunächst eine Metadatendatei und alle unten aufgeführten Parameter ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Zunächst sind eine Metadatendatei und alle unten aufgeführten Parameter in einem Ereignisaufruf erforderlich, wenn Sie die [Audience Optimization-Berichte verwenden ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 Zweitens benötigen Sie eine Metadatendatei, wenn Sie Ihre eigenen Daten an [!DNL Audience Manager] senden oder wenn Sie Daten in den Berichten anderer Anbieter sehen möchten, mit denen wir nicht integriert sind. Beispielsweise verfügt [!DNL Audience Manager] über eine Integration mit dem [-Click Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) von Google. Aufgrund dieser Beziehung können [!DNL Audience Manager] IDs mit Namen und Beschreibungen verknüpfen, die von den Berichtsoptionen verwendet werden. Ohne eine -Integration können wir weiterhin Daten aufnehmen, aber die Berichtsoptionen zeigen numerische IDs anstelle eines beschreibenden Namens an.
 
@@ -73,7 +73,7 @@ In der folgenden Tabelle sind die Schlüssel-Wert-Paare aufgeführt, die die von
    <td colname="col2"> <p> <code>d_campaign = <i>campaign ID</i></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Kreativ </p> </td> 
+   <td colname="col1"> <p>Creative </p> </td> 
    <td colname="col2"> <p> <code>d_creative = <i>creative ID</i></code> </p> </td> 
   </tr> 
   <tr> 
@@ -119,7 +119,7 @@ Der Dateiname basiert auf den Kreativ-, Kampagnen- und Datenquellen-IDs. Verglei
 
 In einem Dateinamen:
 
-* Der Datenquellenschlüssel ändert sich von `d_src` in `dpid`.
+* Der Datenquellenschlüssel ändert sich von `dpid` in `d_src`.
 
 * Die Kreativ- und Kampagnen-IDs stellen eine Kategorie und keine tatsächliche Kennung dar.
 
@@ -129,7 +129,7 @@ Siehe [Benennungskonventionen für Metadatendateien](../../../reporting/audience
 
 ### Dateiinhalte
 
-In diesem Beispiel spiegeln die Dateiinhalte die Kreativ- und Kampagnen-IDs wider, die beim Ereignisaufruf übergeben werden. Das neue Element hier ist ein lesbarer Name. Nach der Verarbeitung wird der Name in dieser Datei als Option im Kreativ-Menü eines [!UICONTROL Audience Optimization]-Berichts angezeigt.
+In diesem Beispiel spiegeln die Dateiinhalte die Kreativ- und Kampagnen-IDs wider, die beim Ereignisaufruf übergeben werden. Das neue Element hier ist ein lesbarer Name. Nach der Verarbeitung wird der Name in dieser Datei als Option im Creative-Menü eines [!UICONTROL Audience Optimization]-Berichts angezeigt.
 
 ![Inhalt einer Metadatendatei](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 
@@ -141,6 +141,6 @@ Nachdem Sie einer Datei einen Namen gegeben und Daten hinzugefügt haben, senden
 
 >[!MORELIKETHIS]
 >
->* [Datendateien zum Audience Optimization von Berichten](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [Datendateien für Audience Optimization-Berichte](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Erfassen von Kampagnenklickdaten über Pixelaufrufe](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Erfassen von Kampagnenimpressionsdaten über Pixelaufrufe](../../../integration/media-data-integration/impression-data-pixels.md)

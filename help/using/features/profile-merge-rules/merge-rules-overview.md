@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Mit [!UICONTROL Profile Merge Rules] können Sie steuern, welche Datensätze für die Segmentierung verwendet werden, und Benutzer auf mehreren Geräten genau ansprechen.
 
->[!VIDEO](https://video.tv.adobe.com/v/32162?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28974)
 
 ## Datenerfassung und Zielgruppenbestimmung mit anonymen und authentifizierten Profilen {#data-collection-targeting}
 
@@ -45,4 +45,4 @@ Mit [!UICONTROL Profile Merge Rules] können Sie:
 * Targeting eines bestimmten Kunden auf seinen Geräten
 * Erstellen Sie ein Gerätediagramm basierend auf deterministischen Daten.
 * Passen Sie die Daten in Ihren [!UICONTROL segments] basierend auf verschiedenen Profilen an.
-* Gewinnen Sie zusätzliche Einblicke in Ihre Audience.
+* Gewinnen Sie zusätzliche insight in Ihrer Zielgruppe.

@@ -1,5 +1,5 @@
 ---
-description: Diese Seite enthält Anleitungen zum Konfigurieren und Verwalten der Integration zwischen Audience Manager- und Benutzerplattformen.
+description: Diese Seite enthält Anleitungen zum Konfigurieren und Verwalten der Integration zwischen Audience Manager und Benutzerplattformen.
 seo-description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms.
 seo-title: Authentication with People-Based Platforms
 solution: Audience Manager
@@ -20,7 +20,7 @@ ht-degree: 0%
 >Dieser Artikel enthält eine Produktdokumentation, die Sie durch die Einrichtung und Verwendung dieser Funktion führen soll. Nichts in diesem Dokument ist eine Rechtsberatung. Wenden Sie sich an Ihren Rechtsbeistand, um Rechtsberatung zu erhalten.
 
 Diese Seite enthält Anleitungen zum Konfigurieren und Verwalten der Integration
-zwischen Audience Manager- und personenbasierten Plattformen.
+zwischen Audience Manager und personenbasierten Plattformen.
 
 >[!NOTE]
 >Dies ist ein obligatorischer Schritt für personenbasierte Ziele, unabhängig von Ihrem Implementierungsszenario.
@@ -33,12 +33,12 @@ zwischen Audience Manager- und personenbasierten Plattformen.
 3. Wählen Sie im Dropdown-Menü **[!UICONTROL People-Based Platform]** die Plattform aus, mit der Sie die Integration konfigurieren möchten.
    ![Personenbasierte Plattform](assets/pbd-add.png)
 4. Klicken Sie auf **[!UICONTROL Confirm]** , um zur Authentifizierungsseite der ausgewählten Plattform weitergeleitet zu werden.
-5. Nachdem Sie sich bei Ihrem Social-Media-Konto authentifiziert haben, werden Sie zum Audience Manager weitergeleitet, in dem Sie Ihre zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das zu verwendende Advertiser-Konto aus und klicken Sie auf **[!UICONTROL Confirm]**.
-6. Der Audience Manager zeigt oben auf der Seite eine Benachrichtigung an, die Sie darüber informiert, ob das Konto erfolgreich hinzugefügt wurde. Mit der Benachrichtigung können Sie auch eine Kontakt-E-Mail-Adresse hinzufügen, um Benachrichtigungen von Adobe zu erhalten, wenn die Authentifizierung der Social-Media-Plattform bald abläuft.
+5. Nachdem Sie sich bei Ihrem Social-Media-Plattformkonto authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Sie Ihre zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das zu verwendende Advertiser-Konto aus und klicken Sie auf **[!UICONTROL Confirm]**.
+6. Audience Manager zeigt oben auf der Seite eine Benachrichtigung an, die Sie darüber informiert, ob das Konto erfolgreich hinzugefügt wurde. Mit der Benachrichtigung können Sie auch eine Kontakt-E-Mail-Adresse hinzufügen, um Benachrichtigungen von Adobe zu erhalten, wenn die Authentifizierung der Social-Media-Plattform bald abläuft.
 
 ## Ablauf von Authentifizierungs-Token und Verwaltung von Benachrichtigungen {#token-expiration-notification}
 
-Audience Manager übernimmt die Integration mit Social-Media-Plattformen mithilfe von Authentifizierungs-Token, die nach einer bestimmten Zeit ablaufen. Die Gültigkeitsdauer des Tokens unterliegt den Integrationsregeln jeder sozialen Plattform. Nach Ablauf des Authentifizierungs-Tokens kann Audience Manager Ihre Zielgruppensegmente nicht mehr an Ihr Ziel senden. Um dieses Szenario zu vermeiden, empfehlen wir, mindestens eine Kontakt-E-Mail-Adresse zu Ihrer Integration hinzuzufügen, damit Sie benachrichtigt werden, sobald das Authentifizierungs-Token abläuft. In diesem Fall können Sie sich erneut authentifizieren, um sicherzustellen, dass das Ziel weiterhin Ihre Zielgruppensegmente erhält.
+Audience Manager verwaltet die Integration in Social-Media-Plattformen mithilfe von Authentifizierungs-Token, die nach einer bestimmten Zeit ablaufen. Die Gültigkeitsdauer des Tokens unterliegt den Integrationsregeln jeder sozialen Plattform. Nach Ablauf des Authentifizierungs-Tokens kann Audience Manager Ihre Zielgruppensegmente nicht mehr an Ihr Ziel senden. Um dieses Szenario zu vermeiden, empfehlen wir, mindestens eine Kontakt-E-Mail-Adresse zu Ihrer Integration hinzuzufügen, damit Sie benachrichtigt werden, sobald das Authentifizierungs-Token abläuft. In diesem Fall können Sie sich erneut authentifizieren, um sicherzustellen, dass das Ziel weiterhin Ihre Zielgruppensegmente erhält.
 
 So fügen Sie E-Mail-Adressen zu vorhandenen Integrationen hinzu:
 
@@ -49,7 +49,7 @@ So fügen Sie E-Mail-Adressen zu vorhandenen Integrationen hinzu:
 
 ## Erneuerung des Authentifizierungs-Tokens {#token-renewal}
 
-Wenn ein Authentifizierungs-Token abläuft, wird die Integration zwischen Audience Manager und der zugehörigen Social-Media-Plattform unterbrochen, sodass Audience Manager keine Zielgruppensegmente mehr an das Ziel senden kann. Auf der Seite [!UICONTROL Integrated Accounts] wird in der Spalte [!UICONTROL Expiration] der Ablaufstatus jeder Integration angezeigt und Sie können die Authentifizierung jederzeit erneuern.
+Wenn ein Authentifizierungs-Token abläuft, wird die Integration zwischen Audience Manager und der entsprechenden Social-Media-Plattform unterbrochen, sodass Audience Manager keine Zielgruppensegmente mehr an das Ziel senden kann. Auf der Seite [!UICONTROL Integrated Accounts] wird in der Spalte [!UICONTROL Expiration] der Ablaufstatus jeder Integration angezeigt und Sie können die Authentifizierung jederzeit erneuern.
 
 So erneuern Sie eine abgelaufene oder demnächst ablaufende Authentifizierung:
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.

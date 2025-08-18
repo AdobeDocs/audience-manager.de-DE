@@ -78,7 +78,7 @@ Titel der Spaltenüberschriften definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Signale sind Datenbits, die je nach Benutzeraktivität an <span class="keyword"> Audience Manager </span> werden. Diese werden als <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare übertragen</a>. Der Quellschlüssel ist eine Konstante, die sich nicht ändert. Es hilft, den Quellwert zu kategorisieren, der sich ändern kann. Siehe <a href="../../features/derived-signals.md"> abgeleiteten Signale</a>. </p> </td> 
+   <td colname="col2"> <p>Signale sind Datenbits, die basierend auf der Benutzeraktivität an <span class="keyword"> Audience Manager </span> werden. Diese werden als <a href="../../reference/key-value-pairs-explained.md"> Schlüssel-Wert-Paare übertragen</a>. Der Quellschlüssel ist eine Konstante, die sich nicht ändert. Es hilft, den Quellwert zu kategorisieren, der sich ändern kann. Siehe <a href="../../features/derived-signals.md"> abgeleiteten Signale</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -102,7 +102,7 @@ Titel der Spaltenüberschriften definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Eigenschaft oder Segmentregel, die zum Erfassen von Daten verwendet wird. Eine Massenanfrage gibt die in <span class="keyword"> Audience Manager erstellten Regeln zurück</span> mit dem <a href="../../features/traits/about-trait-builder.md"> Trait Rule Builder </a> dem <a href="../../features/segments/segment-builder.md"> Segment Rule Builder</a>. Sie können diese Tools auch verwenden, um Regeln zu erstellen und sie stapelweise anzuwenden, wenn Sie ein Segment oder eine Eigenschaft aktualisieren. </p> <p>Siehe auch <a href="../../reference/bulk-management-tools/bulk-rules.md"> Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln</a>. </p> </td> 
+   <td colname="col2"> <p>Die tatsächliche Eigenschaft oder Segmentregel, die zum Erfassen von Daten verwendet wird. Eine Massenanfrage gibt die in <span class="keyword"> Audience Manager erstellten Regeln </span> den <a href="../../features/traits/about-trait-builder.md"> Trait Rule Builder </a> den <a href="../../features/segments/segment-builder.md"> Segment Rule Builder </a>. Sie können diese Tools auch verwenden, um Regeln zu erstellen und sie stapelweise anzuwenden, wenn Sie ein Segment oder eine Eigenschaft aktualisieren. </p> <p>Siehe auch <a href="../../reference/bulk-management-tools/bulk-rules.md"> Erstellen oder Aktualisieren von Eigenschaftsregeln und Segmentregeln</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -115,7 +115,7 @@ Titel der Spaltenüberschriften definiert.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> URL</span> </p> </td> 
-   <td colname="col2"> <p>Pixel, das vom DIL ausgelöst wird, wenn sich ein Benutzer für ein Segment qualifiziert. </p> </td> 
+   <td colname="col2"> <p>Pixel, das von DIL ausgelöst wird, wenn ein Benutzer für ein Segment qualifiziert ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 

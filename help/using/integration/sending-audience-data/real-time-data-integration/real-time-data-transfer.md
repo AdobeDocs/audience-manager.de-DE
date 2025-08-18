@@ -1,5 +1,5 @@
 ---
-description: Der Echtzeit-Erfassungsvorgang eingehender Daten nutzt eine Reihe von HTTP-Anfragen vom Browser eines Benutzers, um Daten an einen Audience Manager zu übergeben.
+description: Der Echtzeit-Erfassungsvorgang eingehender Daten nutzt eine Reihe von HTTP-Anfragen vom Browser eines Benutzers, um Daten an Audience Manager zu übergeben.
 seo-description: The real-time inbound data ingestion process uses a series of HTTP requests from a user's browser to pass in data to Audience Manager.
 seo-title: Real-Time Inbound Data Ingestion
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Erfassung eingehender Daten in Echtzeit {#real-time-inbound-data-ingestion}
 
-Der Echtzeit-Erfassungsvorgang eingehender Daten nutzt eine Reihe von `HTTP`-Anfragen vom Browser eines Benutzers, um Daten an einen Audience Manager zu übergeben.
+Der Echtzeit-Erfassungsvorgang eingehender Daten nutzt eine Reihe von `HTTP`-Anfragen vom Browser eines Benutzers, um Daten an Audience Manager zu übermitteln.
 
 <!-- c_rt_inbound_real_time.xml -->
 
@@ -24,7 +24,7 @@ Eingehende Daten sollten als Schlüssel-Wert-Paare formatiert werden, die als Si
 
 ## URL-Zeichenfolgenparameter und Syntax {#url-string-syntax}
 
-Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran[ in der [!DNL Audience Manager]-Benutzeroberfläche Eigenschaften ](../../../features/traits/create-onboarded-rule-based-traits.md) eine [Ordnerstruktur](../../../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.
+Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran[ in der ](../../../features/traits/create-onboarded-rule-based-traits.md)-Benutzeroberfläche Eigenschaften [ eine ](../../../features/traits/trait-storage.md#create-trait-storage-folder)Ordnerstruktur[!DNL Audience Manager] zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.
 
 >[!NOTE]
 >

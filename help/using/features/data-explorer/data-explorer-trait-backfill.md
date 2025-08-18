@@ -19,7 +19,7 @@ Aufstocken von Eigenschaftenrealisierungen, um historische Zielgruppen zu erfass
 
 >[!IMPORTANT]
 >
->Audience Manager [!UICONTROL Data Explorer Trait Backfill] ist eine Premium-Funktion, die das Benutzererlebnis verbessert, indem sie zusätzliche Anwendungsfälle erschließt. Die Aufstockung erfordert zusätzliche Verarbeitungsleistung und steht allen Audience Manager-Kunden zu inkrementellen Kosten zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
+>[!UICONTROL Data Explorer Trait Backfill] ist eine Premium-Funktion, die das Audience Manager-Erlebnis verbessert, indem sie zusätzliche Anwendungsfälle erschließt. Die Aufstockung erfordert zusätzliche Verarbeitungsleistung und steht allen Audience Manager-Kunden zu inkrementellen Kosten zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
 
 Wenn Sie Eigenschaften aus nicht verwendeten Signalen erstellen, können Sie die Realisierungen der Eigenschaften über einen bestimmten Zeitraum aufstocken. [!DNL Audience Manager] erfasst die historischen Daten über Zielgruppen, die für die neue Eigenschaft qualifiziert sind, und speichert sie im entsprechenden Profil. Die **[!UICONTROL Backfill Options]** finden Sie im [!UICONTROL Trait Expression] Abschnitt von **[Trait Builder](../../features/traits/about-trait-builder.md)**.
 
@@ -35,7 +35,7 @@ Gehen Sie wie folgt vor, um das Erzielen von Eigenschaften aufzustocken:
 
    ![Eigenschaft-Aufstockung](assets/signals-trait-backfill.png)
 
-1. (Optional) Klicken Sie im Abschnitt **[!UICONTROL Estimated Trait Realizations]** auf **[!UICONTROL Estimate Realizations]** , um die geschätzten [!UICONTROL Unique Trait Realizations]- und [!UICONTROL Total Trait Population] für die aufgestockte Eigenschaft in den letzten 7 Tagen anzuzeigen.
+1. (Optional) Klicken Sie im Abschnitt **[!UICONTROL Estimate Realizations]** auf **[!UICONTROL Estimated Trait Realizations]** , um die geschätzten [!UICONTROL Unique Trait Realizations]- und [!UICONTROL Total Trait Population] für die aufgestockte Eigenschaft in den letzten 7 Tagen anzuzeigen.
 
    ![estimated-trait-realizations](assets/estimate-trait-realizations.png)
 
@@ -51,7 +51,7 @@ Sobald Sie die Erstellung des Traits abgeschlossen haben, werden die aufgestockt
 
 Sehen Sie sich das folgende Video an, um eine Videoeinführung zum Aufstocken von Eigenschaften zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/327527?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## Eigenschaft für Aufstockungslatenz {#trait-backfilling-latency}
 

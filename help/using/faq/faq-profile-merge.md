@@ -37,7 +37,7 @@ Ein externes Gerätediagramm ist ein Gerätediagramm in [!DNL Audience Manager],
 
 **Was sind einige häufige Anwendungsfälle für die Verwendung eines externen Gerätediagramms in einer [!UICONTROL Profile Merge Rule]?**
 
-Ein Gerätediagramm wird in einer [!UICONTROL Profile Merge Rule] hauptsächlich dazu verwendet, mehrere Geräte, die einer einzelnen Person oder einem Haushalt gehören, für ein bestimmtes Segment zu bewerten und zu qualifizieren. Das Segment selbst kann mehrmals verwendet werden, z. B. um mit einer Anzeige, die von einer DSP geschaltet wird, eine Zielgruppe von potenziellen Kunden anzusprechen oder das Kundenerlebnis vor Ort über eine Personalisierungsplattform vor Ort zu personalisieren. Siehe [Anwendungsfälle für externe Gerätediagramme](../features/profile-merge-rules/external-graph-use-cases.md).
+Ein Gerätediagramm wird in einer [!UICONTROL Profile Merge Rule] hauptsächlich dazu verwendet, mehrere Geräte, die einer einzelnen Person oder einem Haushalt gehören, für ein bestimmtes Segment zu bewerten und zu qualifizieren. Das Segment selbst kann mehrmals verwendet werden, z. B. indem es mit einer Anzeige, die von einer DSP geschaltet wird, eine Zielgruppe von potenziellen Kunden anspricht oder das Erlebnis eines Kunden vor Ort über eine Personalisierungsplattform vor Ort personalisiert. Siehe [Anwendungsfälle für externe Gerätediagramme](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -111,7 +111,7 @@ Ja.
 
 **Umfassen Schätzungen der Segmentgröße Geräte, die sich für ein Segment qualifizieren, basierend auf Verbindungen, die von einer [!UICONTROL Profile Merge Rule] bereitgestellt werden, die eine Gerätediagrammoption verwendet?**
 
-Nein. Siehe die Definitionen für [!UICONTROL Estimated Real-Time Population] und [!UICONTROL Estimated Total Population] in [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de).
+Nein. Siehe die Definitionen für [!UICONTROL Estimated Real-Time Population] und [!UICONTROL Estimated Total Population] in [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
@@ -261,9 +261,9 @@ Nein.
 
 **Warum sehe ich nach dem 16. März 2020 für Segmentexporte nach Adobe Campaign eine Segmentpopulation von null?**
 
-Ende 2019 haben wir eine Reihe von Verbesserungen an Profilzusammenführungsregeln veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 streng berücksichtigt. Daher produzieren Segmente, die einem Ziel mit geräteübergreifenden IDs zugeordnet sind, in einigen Profilzusammenführungsregeln-Konfigurationen keine Exporte mehr.
+Ende 2019 haben wir eine Reihe von Verbesserungen an Profilzusammenführungsregeln veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 streng eingehalten. Daher produzieren Segmente, die einem Ziel mit geräteübergreifenden IDs zugeordnet sind, in einigen Profilzusammenführungsregeln-Konfigurationen keine Exporte mehr.
 
-Um mithilfe geräteübergreifender IDs wie Adobe Campaign die richtige Integration zwischen Ihrer Audience Manager-Instanz und Zielen sicherzustellen, müssen Sie die folgenden Anforderungen erfüllen:
+Um mithilfe geräteübergreifender IDs wie Adobe Campaign die ordnungsgemäße Integration zwischen Ihrer Audience Manager-Instanz und Zielen sicherzustellen, müssen Sie die folgenden Anforderungen erfüllen:
 
 1. Überprüfen Sie die Profilzusammenführungsregel, die von den Segmenten verwendet wird, die Ihrem deklarierten Adobe Campaign-ID-Ziel zugeordnet sind. Die Profilzusammenführungsregel muss die Option [!UICONTROL Last Authenticated Profile] verwenden, damit alle authentifizierten Profile in die Exporte einbezogen werden können. Wenn Ihre Profilzusammenführungsregel eine andere Option verwendet, wechseln Sie sie zu [!UICONTROL Last Authenticated Profile].
 2. Wählen Sie die Datenquelle Adobe Campaign Declared ID in den Einstellungen Profilzusammenführungsregel aus.

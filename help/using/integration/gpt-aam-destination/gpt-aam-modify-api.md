@@ -24,7 +24,7 @@ Die `.setTargeting`-Methode ruft Daten aus dem Audience Manager-Ziel-Cookie und 
 
 ### Code-Beispiel für `IF` Anweisung
 
-In diesem Beispiel ist der Name des Ziel-Cookies des Audience Managers `Sample`. Sie legen diesen Namen fest, wenn Sie das Ziel-Cookie in der Benutzeroberfläche des Audience Managers erstellen. [!UICONTROL DIL] setzt das `aam_uuid` Cookie und der Name kann nicht geändert werden.
+In diesem Beispiel wird der Cookie-Name des Audience Manager-Ziels `Sample`. Sie legen diesen Namen fest, wenn Sie das Ziel-Cookie in der Benutzeroberfläche von Audience Manager erstellen. [!UICONTROL DIL] setzt das `aam_uuid` Cookie und der Name kann nicht geändert werden.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 

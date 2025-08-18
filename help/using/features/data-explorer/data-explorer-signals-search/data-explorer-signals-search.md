@@ -22,4 +22,4 @@ Suche nach gebrauchten und nicht verwendeten Signalen, die über einen bestimmte
 * [Suchergebnisse filtern](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Suchkriterien speichern](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/330358?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25148/)

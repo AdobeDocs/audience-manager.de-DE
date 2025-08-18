@@ -78,15 +78,15 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-Der [!UICONTROL PCS] leert Eigenschaften, wenn sie 17 Tage lang inaktiv sind. Diese Eigenschaften gehen jedoch nicht verloren. Sie werden auf Hadoop gespeichert. Wenn der/die Benutzende zu einem anderen Zeitpunkt erneut angezeigt wird, überträgt Hadoop alle seine Eigenschaften zurück an die [!UICONTROL PCS], in der Regel innerhalb eines Zeitraums von 24 Stunden.
+Der [!UICONTROL PCS] leert Eigenschaften, wenn sie 17 Tage lang inaktiv sind. Diese Eigenschaften gehen jedoch nicht verloren. Sie werden in Hadoop aufbewahrt. Wenn der/die Benutzende zu einem anderen Zeitpunkt erneut angezeigt wird, überträgt Hadoop alle seine/ihre Eigenschaften zurück an die [!UICONTROL PCS], in der Regel innerhalb eines Zeitraums von 24 Stunden.
 
 **Andere [!UICONTROL DCS/PCS]: Datenschutz-Opt-out**
 
-Diese Server-Systeme behandeln Datenschutz- und Benutzer-Opt-out-Anfragen. Benutzer-Cookie-Informationen werden nicht in der Protokolldatei erfasst, wenn ein Benutzer die Datenerfassung abgelehnt hat. Weitere Informationen zu unseren Datenschutzrichtlinien finden Sie im Datenschutzzentrum [Adobe](https://www.adobe.com/de/privacy/advertising-services.html).
+Diese Server-Systeme behandeln Datenschutz- und Benutzer-Opt-out-Anfragen. Benutzer-Cookie-Informationen werden nicht in der Protokolldatei erfasst, wenn ein Benutzer die Datenerfassung abgelehnt hat. Weitere Informationen zu unseren Datenschutzrichtlinien finden Sie im [Adobe Privacy Center](https://www.adobe.com/de/privacy/advertising-services.html).
 
 ## Data Integration Library (DIL) {#dil}
 
-[!UICONTROL DIL] ist der Code, den Sie zur Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Services und Methoden finden [&#128279;](../../dil/dil-overview.md) in der DIL-API.
+[!UICONTROL DIL] ist der Code, den Sie zur Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Services und [ finden Sie in der ](../../dil/dil-overview.md)DIL-API.
 
 ## Eingehender Server-zu-Server {#inbound-outbound-server}
 

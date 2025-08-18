@@ -1,5 +1,5 @@
 ---
-description: Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segmente, Ziele und algorithmischen Modelle fest, die Sie für ein Konto erstellen können. Einschränkungen gelten für diese Elemente, unabhängig davon, ob sie in der Benutzeroberfläche oder programmgesteuert über API-Methoden erstellt werden. Nutzungsbeschränkungen helfen, den Audience Manager vor automatisierten Prozessen zu schützen, die versuchen, unsere APIs oder die Benutzeroberfläche zu beeinträchtigen.
+description: Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segmente, Ziele und algorithmischen Modelle fest, die Sie für ein Konto erstellen können. Einschränkungen gelten für diese Elemente, unabhängig davon, ob sie in der Benutzeroberfläche oder programmgesteuert über API-Methoden erstellt werden. Nutzungsbeschränkungen helfen, Audience Manager vor automatisierten Prozessen zu schützen, die unsere APIs oder die Benutzeroberfläche beeinträchtigen könnten.
 seo-description: Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through API methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our APIs or user interface.
 seo-title: Usage Limits
 solution: Audience Manager
@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # Nutzungsbeschränkungen {#usage-limits}
 
-Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segmente, Ziele und algorithmischen Modelle fest, die Sie für ein Konto erstellen können. Einschränkungen gelten für diese Elemente, unabhängig davon, ob sie in der Benutzeroberfläche oder programmgesteuert über [!DNL API] Methoden erstellt werden. Nutzungsbeschränkungen helfen, den Audience Manager vor automatisierten Prozessen zu schützen, die unsere [!DNL API] oder die Benutzeroberfläche gefährden könnten.
+Audience Manager legt eine Höchstgrenze für die Anzahl der Eigenschaften, Segmente, Ziele und algorithmischen Modelle fest, die Sie für ein Konto erstellen können. Einschränkungen gelten für diese Elemente, unabhängig davon, ob sie in der Benutzeroberfläche oder programmgesteuert über [!DNL API] Methoden erstellt werden. Nutzungsbeschränkungen helfen, Audience Manager vor automatisierten Prozessen zu schützen, die unsere [!DNL API] oder Benutzeroberfläche beeinträchtigen könnten.
 
 ## ID-Zuordnungsbeschränkungen {#id-mapping-limits}
 
-In der folgenden Tabelle sind die Beschränkungen [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs aufgeführt. Sobald eine ID einen der unten stehenden Grenzwerte erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer FIFO-Logik (first in, first out) basieren, indem es die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzufügt. Siehe [Index der IDs](../../reference/ids-in-aam.md) im Audience Manager für Details zu den IDs, die vom Audience Manager unterstützt werden.
+In der folgenden Tabelle sind die Beschränkungen [ID-Zuordnung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) für Geräte-IDs aufgeführt. Sobald eine ID einen der unten stehenden Grenzwerte erreicht, fügt Audience Manager neue ID-Zuordnungen hinzu, die auf einer FIFO-Logik (first in, first out) basieren, indem es die älteste gespeicherte ID-Zuordnung entfernt und die neue hinzufügt. Siehe [ID-Index](../../reference/ids-in-aam.md) in Audience Manager für Details zu den von Audience Manager unterstützten IDs.
 
 | ID-Zuordnung | Höchstgrenze |
 |-----------|-------------- |
@@ -64,9 +64,9 @@ In den Tabellen werden die aktuellen Beschränkungen nach Elementtyp aufgeführt
 
 | Element | Höchstgrenze |
 | -------- | ----- |
-| Aktive [!UICONTROL Look-Alike Models] | 20. Audience Manager zählt nur *aktive* algorithmische Modelle im Vergleich zum Limit. |
+| Aktive [!UICONTROL Look-Alike Models] | &#x200B;20. Audience Manager zählt nur *aktive* algorithmische Modelle im Vergleich zum Limit. |
 | Maximale Zielgruppengröße [!UICONTROL Look-Alike Models] | 25 000 000.  Beachten Sie, dass dieser Grenzwert nicht erhöht werden kann. Sie können die Größe der Zielgruppe verringern, indem Sie weniger Datenquellen für das Modell auswählen oder ein kürzeres Lookback-Fenster auswählen. |
-| Maximale Anzahl ausgeschlossener Eigenschaften für eine [!UICONTROL Look-Alike Model] | 500. Siehe [Eigenschaftenausschluss in der algorithmischen Modellierung](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Maximale Anzahl ausgeschlossener Eigenschaften für eine [!UICONTROL Look-Alike Model] | &#x200B;500. Siehe [Eigenschaftenausschluss in der algorithmischen Modellierung](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Maximale [!UICONTROL Predictive Audiences Models] | 10 |
 | Maximale Anzahl von Baseline-Personas für [!UICONTROL Predictive Audiences Models] | 50 |
 

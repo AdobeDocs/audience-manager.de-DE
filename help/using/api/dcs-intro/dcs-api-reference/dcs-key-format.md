@@ -44,7 +44,7 @@ Beim Aufrufen akzeptiert der [!DNL DCS] Schlüssel-Wert-Daten im Standard- oder 
 
 ## Trennzeichen und Trennzeichen für serialisierte Schlüssel-Wert-Paare {#delimiters-separators}
 
-Bei serialisierten Schlüssel-Wert-Paaren müssen Sie die Markierungen angeben, die Werte innerhalb und zwischen diesen Variablen trennen. Für Audience Manager sind die folgenden Trennzeichen und Trennzeichen erforderlich:
+Bei serialisierten Schlüssel-Wert-Paaren müssen Sie die Markierungen angeben, die Werte innerhalb und zwischen diesen Variablen trennen. Audience Manager erfordert die folgenden Trennzeichen und Trennzeichen:
 
 <table id="table_8FD4E6B9506943AEA619D4089913ECBC"> 
  <thead> 

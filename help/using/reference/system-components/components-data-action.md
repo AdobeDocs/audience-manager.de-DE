@@ -69,13 +69,13 @@ Um den Traffic zwischen [!UICONTROL IRIS]- und Segmentzielen zu optimieren, send
 
 1. **Neue Segmentdisqualifizierung**: Wenn sich ein Gerät nicht mehr für ein Segment qualifiziert, sendet [!UICONTROL IRIS] alle mit diesem Gerät verknüpften Segmentqualifikationen und Disqualifikationen an alle Ziele, die diesen Segmenten zugeordnet sind.
 
-1. **Aktualisierungen der Zielzuordnung**: Wenn eine Zielzuordnung aktualisiert wird, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn der Audience Manager das Gerät das nächste Mal sieht.
+1. **Aktualisierungen der Zielzuordnung**: Wenn eine Zielzuordnung aktualisiert wird, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn Audience Manager das Gerät das nächste Mal sieht.
 
-1. **Aktualisierungen des Gerätediagramms**: Wenn eine Geräte-ID zum Gerätediagramm, das zur Auswertung eines Segments verwendet wird, hinzugefügt oder daraus entfernt wird, sendet [!UICONTROL IRIS] alle mit diesem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn der Audience Manager das Gerät das nächste Mal sieht.
+1. **Aktualisierungen des Gerätediagramms**: Wenn eine Geräte-ID zum Gerätediagramm, das zur Auswertung eines Segments verwendet wird, hinzugefügt oder daraus entfernt wird, sendet [!UICONTROL IRIS] alle mit diesem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn Audience Manager das Gerät das nächste Mal sieht.
 
 >[!IMPORTANT]
 >
->Wenn Audience Manager an drei aufeinander folgenden Tagen keine der oben genannten Aktualisierungen erkennt, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn der Audience Manager das Gerät das nächste Mal sieht.
+>Wenn Audience Manager an drei aufeinander folgenden Tagen keine der oben genannten Aktualisierungen erkennt, sendet [!UICONTROL IRIS] alle mit einem Gerät verknüpften Segmente an alle Ziele, die diesen Segmenten zugeordnet sind, wenn Audience Manager das Gerät das nächste Mal sieht.
 
 **Beispieldatendatei**
 

@@ -45,7 +45,7 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Name der Datensynchronisationsdatei </td> 
-   <td colname="col2"> <p><span class="keyword"> Liste aller ausgehenden Dateien, die für dieses Ziel </span> Adobe generiert und gemeinsam verarbeitet wurden. </p> </td> 
+   <td colname="col2"> <p>Liste aller ausgehenden Dateien, die <span class="keyword"> Adobe</span> generiert und gemeinsam verarbeitet wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erfolgreich </td> 

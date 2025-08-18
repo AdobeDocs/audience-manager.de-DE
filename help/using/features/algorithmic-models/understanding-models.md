@@ -37,7 +37,7 @@ Sie verwalten Modelle in **[!UICONTROL Audience Data > Models]**. Im Großen und
 * Wählen Sie die Baseline-Daten aus, die der Algorithmus auswerten soll. Dazu gehören ein [!UICONTROL trait] oder [!UICONTROL segment], ein Zeitraum und [!UICONTROL data sources] (Ihre eigenen Daten und Drittanbieterdaten, auf die Sie bereits über [!DNL Audience Manager] Zugriff haben). Im Arbeitsablauf für die Modellerstellung können Sie die [!UICONTROL traits] ausschließen, die Sie nicht mit Ihrem Modell beeinträchtigen möchten.
 * Speichern Sie Ihr Modell. Nach dem Speichern wird der algorithmische Auswertungsprozess automatisch ausgeführt. Beachten Sie jedoch, dass es bis zu 7 Tage dauern kann, bis dieser Vorgang abgeschlossen ist. [!DNL Audience Manager] sendet Ihnen eine E-Mail, wenn der Algorithmus abgeschlossen ist und die Ergebnisse für die [!UICONTROL trait] verfügbar sind.
 * Algorithmische [!UICONTROL traits] in [!UICONTROL Trait Builder] erstellen.
-* [!UICONTROL traits] in [!UICONTROL Segment Builder] zu [!UICONTROL segments] kombinieren.
+* [!UICONTROL traits] in [!UICONTROL segments] zu [!UICONTROL Segment Builder] kombinieren.
 * Erstellen und Senden [!UICONTROL segment] Daten an eine [!UICONTROL destination].
 
 ## Fehlerbehebung {#troubleshooting}

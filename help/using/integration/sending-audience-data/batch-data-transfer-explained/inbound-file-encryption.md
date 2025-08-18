@@ -1,5 +1,5 @@
 ---
-description: Optional können Sie Datendateien beim Senden an einen Audience Manager mit PGP-Verschlüsselung verschlüsseln.
+description: Optional können Sie Datendateien beim Senden an Audience Manager mit PGP-Verschlüsselung verschlüsseln.
 seo-description: As an option, you can encrypt data files with PGP encryption when sending them to Audience Manager.
 seo-title: File PGP Encryption for Inbound Data Types
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Datei-PGP-Verschlüsselung für eingehende Datentypen{#file-pgp-encryption-for-inbound-data-types}
 
-Datendateien können beim Senden an den Audience Manager mit [!DNL PGP] verschlüsselt werden.
+Datendateien können beim Senden an Audience Manager mit [!DNL PGP] verschlüsselt werden.
 
 <!-- c_encryption.xml -->
 
@@ -24,11 +24,11 @@ Datendateien können beim Senden an den Audience Manager mit [!DNL PGP] verschl�
 >
 >[!DNL PGP] Verschlüsselung umfasst die Dateikomprimierung. Stellen Sie beim Senden [!DNL PGP] verschlüsselten eingehenden Dateien sicher, dass Sie sie nicht [komprimieren](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) mit gzip (`.gz`).
 >
->[!DNL PGP] verschlüsselten eingehenden Dateien, die ebenfalls [komprimiert) ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md), sind im Audience Manager ungültig.
+>[!DNL PGP] verschlüsselte eingehende Dateien, die ebenfalls [komprimiert) ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md), sind in Audience Manager ungültig.
 
 Gehen Sie wie folgt vor, um eingehende Datendateien zu verschlüsseln.
 
-1. Öffentlichen [Audience Manager-Schlüssel herunterladen](./assets/adobe_pgp.pub).
+1. Öffentlichen Schlüssel [Audience Manager herunterladen](./assets/adobe_pgp.pub).
 2. Importieren Sie den öffentlichen Schlüssel in Ihren vertrauenswürdigen Store.
 
    Wenn Sie beispielsweise [!DNL GPG] verwenden, könnte der Befehl in etwa wie folgt aussehen:

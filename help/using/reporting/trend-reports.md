@@ -69,7 +69,7 @@ t_working_with_trend_reports.xml
    * Um eine optimale Leistung zu erzielen, führen Sie einen [!UICONTROL Trend]-Bericht mit weniger als 20 Eigenschaften oder Segmenten gleichzeitig aus.
 1. Klicken Sie auf **[!UICONTROL Graph Traits]** oder **[!UICONTROL Graph Segments]**, je nachdem, welchen Berichtstyp Sie anzeigen (Eigenschaften oder Segmente). Diese Optionen ignorieren alle Ordner und Diagramme nur einzeln ausgewählte Eigenschaften oder Segmente.
 
-   Oder
+   Or
 
    Klicken Sie auf **[!UICONTROL Export to CSV]** , um die Trait- oder Segmentdaten und alle Ordner im CSV-Format zur weiteren Analyse und Freigabe zu exportieren. Dadurch werden [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] und [!UICONTROL Total Trait Population] für alle Tagesbereiche exportiert.
 
@@ -101,7 +101,7 @@ Nullen geben an, dass [!DNL Audience Manager] keine Daten für diesen Tag erfass
 
 Sehen Sie sich das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=de)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Trend-Berichtsergebnisse für Segmente {#segment-report-results-traits}
 

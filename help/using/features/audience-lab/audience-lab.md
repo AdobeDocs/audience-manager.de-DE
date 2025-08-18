@@ -56,7 +56,7 @@ Der Status einer Testgruppe kann aktiv, geplant, angehalten, Entwurf oder abgesc
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Aktive </span></b> <b><span class="uicontrol"> </p> </td> 
+   <td colname="col1"> <p> Aktive <b><span class="uicontrol"> </span></b> </p> </td> 
    <td colname="col2"> <p>Eine <i>aktive</i> Testgruppe bedeutet, dass derzeit Daten an Ziele gesendet werden. Drücken Sie <b><span class="uicontrol"> Pause Test </span></b> auf der Karte <b><span class="uicontrol"> Test Group </span></b> , um das Senden von Daten an Ziele auszusetzen. </p> </td> 
   </tr> 
   <tr> 
@@ -65,15 +65,15 @@ Der Status einer Testgruppe kann aktiv, geplant, angehalten, Entwurf oder abgesc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> angehalten </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>angehaltene</i> Testgruppe sendet derzeit keine Daten an Ziele. Drücken Sie <b><span class="uicontrol"> Auf der Karte <b><span class="uicontrol"> Testgruppe </span></b> die Option Aktive </span></b> festlegen , um den Versand der Eigenschaften fortzusetzen. </p> </td> 
+   <td colname="col2"> <p>Eine <i>angehaltene</i> Testgruppe sendet derzeit keine Daten an Ziele. Drücken Sie <b><span class="uicontrol"> Auf der Karte </span></b> Testgruppe <b><span class="uicontrol"> die Option Aktive </span></b> festlegen , um den Versand der Eigenschaften fortzusetzen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span></b> <b><span class="uicontrol"> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> </span></b> </p> </td> 
    <td colname="col2"> <p>Eine <i>Entwurf</i> Testgruppe ist noch nicht aktiv und kann noch bearbeitet werden. Es sendet noch keine Daten an die zugeordneten Ziele. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> abgeschlossen </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>abgeschlossene</i> Testgruppe hat das Enddatum erreicht, das Sie im </span></b> "<b><span class="uicontrol"> Testgruppen erstellen“ ausgewählt haben, und hat den Versand von Berichtsdaten beendet. </p> </td>
+   <td colname="col2"> <p>Eine <i>abgeschlossene</i> Testgruppe hat das Enddatum erreicht, das Sie im <b><span class="uicontrol"> "</span></b> Testgruppen erstellen“ ausgewählt haben, und hat den Versand von Berichtsdaten beendet. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -109,7 +109,7 @@ Der Status einer Testgruppe kann aktiv, geplant, angehalten, Entwurf oder abgesc
    <td colname="col2"> <p>Ermöglicht die Erstellung einer neuen Testgruppe mit derselben Konfiguration wie die zu duplizierende. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> </span></b> <b><span class="uicontrol"> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> </span></b> </p> </td>
    <td colname="col2"> <p>Ermöglicht das Löschen einer Testgruppe. Die Zuordnung der Testsegmente zu den Zielen wird aufgehoben, und das Baseline-Segment sowie die mit der Testgruppe verknüpften Konversionseigenschaften sind vollständig bearbeitbar. Ein Warnhinweis fordert Sie dazu auf, die CSV-Datei herunterzuladen, wenn Sie eine Testgruppe löschen, um die Berichte bei Bedarf zu speichern. </p> </td>
   </tr>
  </tbody>

@@ -24,7 +24,7 @@ Mit [!UICONTROL Profile Merge Rules] Optionen können Sie die Zielgruppe entspre
 
 ## Geräte-Targeting {#device-personalization}
 
-Dieses Szenario gilt für Marketing-Fachleute, die ein einzelnes Geräteprofil für ein in Audience Manager definiertes Zielgruppensegment auswerten möchten, um dem Gerät ein konsistentes Erlebnis mithilfe von Zielgruppenbestimmungsplattformen bereitzustellen, die Geräte-IDs unterstützen (DSP, Personalisierungsplattformen auf der Site und andere gerätebasierte Zielgruppenbestimmungsplattformen), wobei die Benutzerauthentifizierung nicht berücksichtigt wird.
+Dieses Szenario gilt für Marketing-Fachleute, die ein einzelnes Geräteprofil für ein in Audience Manager definiertes Zielgruppensegment auswerten möchten, um dem Gerät ein konsistentes Erlebnis mithilfe von Targeting-Plattformen bereitzustellen, die Geräte-IDs unterstützen (DSPs, Personalisierungsplattformen auf der Site und andere gerätebasierte Targeting-Plattformen), wobei die Benutzerauthentifizierung nicht berücksichtigt wird.
 
 Um eine Regel zu erstellen, die nur auf Geräteprofile abzielt, wählen Sie **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** aus.
 
@@ -58,9 +58,9 @@ Dieser Anwendungsfall umfasst das Identitätsmanagement von Haushalten. Ein Unte
 
 Betrachten wir ein Segment, das aus Haushalten mit einem Einkommen von mehr als 100.000 US-Dollar pro Jahr besteht und mindestens ein Gerät enthält, das ein [!DNL iPhone 7] auf [!DNL Data Plan B] ist. Wir haben zwei Haushaltsprofile (geräteübergreifende Profile), die jeweils mit zwei verschiedenen Geräteprofilen verbunden sind. Die für die Qualifizierung für das Segment erforderlichen Eigenschaften sind über die Geräte- und geräteübergreifenden Profile verteilt.
 
-Audience Manager führt jedes Geräte- und geräteübergreifende Profilpaar zusammen, um zu sehen, ob der zusammengeführte Satz von Eigenschaften für das Segment geeignet ist. Da der Audience Manager jedes Profil auswertet, das bei der Zusammenführung enthalten war, können sowohl ein Geräteprofil als auch ein Haushaltsprofil segmentiert werden.
+Audience Manager führt jedes Geräte- und geräteübergreifende Profilpaar zusammen, um zu sehen, ob der zusammengeführte Satz von Eigenschaften für das Segment geeignet ist. Da Audience Manager jedes Profil auswertet, das bei der Zusammenführung enthalten war, können sowohl ein Geräteprofil als auch ein Haushaltsprofil segmentiert werden.
 
-Durch die Verknüpfung zwischen dem Gerät und dem Haushaltsprofil kann der Audience Manager [!DNL Household 2] für das Segment qualifizieren, aber nicht [!DNL Household 1]. Ab [!DNL Household 2] qualifiziert sich nur [!DNL Device 3] für das Segment. Diese [!UICONTROL Profile Merge Rule] hat es dem Marketing-Experten ermöglicht, eine konsistente Marketing-Botschaft an ein einzelnes Gerät ([!DNL Device 3]) und den Haushalt ([!DNL Household 2]) zu senden.
+Die Verknüpfung zwischen dem Gerät und dem Haushaltsprofil ermöglicht es Audience Manager, [!DNL Household 2] für das Segment zu qualifizieren, jedoch nicht [!DNL Household 1]. Ab [!DNL Household 2] qualifiziert sich nur [!DNL Device 3] für das Segment. Diese [!UICONTROL Profile Merge Rule] hat es dem Marketing-Experten ermöglicht, eine konsistente Marketing-Botschaft an ein einzelnes Gerät ([!DNL Device 3]) und den Haushalt ([!DNL Household 2]) zu senden.
 
 ![Haushaltsführung](assets/household-management.png)
 
@@ -72,7 +72,7 @@ Durch die Verknüpfung zwischen dem Gerät und dem Haushaltsprofil kann der Audi
 
 Dieses Targeting-Szenario steht nur Kunden zur Verfügung, die das Add-on [!DNL People-Based Destinations] erworben haben. Diese Regel ermöglicht es Marketing-Experten, Kunden basierend auf ihren eigenen, authentifizierten Daten zu erreichen.
 
-Angenommen, ein Online-Händler möchte bestehende Kunden über soziale Plattformen erreichen und ihnen personalisierte Angebote auf Grundlage ihrer vorherigen Bestellungen zeigen. Mit [!UICONTROL People-Based Destinations] können sie Hash-E-Mail-Adressen aus ihren eigenen [!DNL CRM] in den Audience Manager aufnehmen, Segmente aus den Offline-Daten erstellen und diese Segmente an die sozialen Plattformen senden, auf denen sie werben möchten, und dabei diese Hash-Kennung verwenden, wodurch ihre Werbeausgaben optimiert werden.
+Angenommen, ein Online-retailer möchte bestehende Kunden über soziale Plattformen erreichen und ihnen personalisierte Angebote auf Grundlage ihrer vorherigen Bestellungen zeigen. Mit [!UICONTROL People-Based Destinations] können sie Hash-E-Mail-Adressen aus ihren eigenen [!DNL CRM] in Audience Manager aufnehmen, Segmente aus den Offline-Daten erstellen und diese Segmente an die sozialen Plattformen senden, auf denen sie werben möchten, und dabei diese Hash-Kennung verwenden, wodurch ihre Werbeausgaben optimiert werden.
 
 Weitere Informationen zu dieser Option finden Sie [Personenbasierte Ziele](../destinations/people-based-destinations-overview.md).
 
@@ -101,7 +101,7 @@ Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile
   </tr> 
   <tr> 
    <td colname="col1"> <p>Diagrammoptionen für externe Geräte </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Profilzusammenführung</span> Regeln, die mit einem beliebigen externen Gerätediagramm erstellt wurden, das in <span class="keyword"> Audience Manager integriert </span>, eignen sich ideal für: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profilzusammenführung</span> Regeln, die mit jedem externen Gerätediagramm erstellt wurden, das in <span class="keyword"> Audience Manager integriert </span>, eignen sich ideal für: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Digitale Eigenschaften mit einer niedrigen Ebene der Kundenauthentifizierung. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Umfassende, weit reichende Markenkampagnen. </li> 
@@ -113,7 +113,7 @@ Die Auswahl einer [!UICONTROL device graph] Option für eine [!UICONTROL Profile
 
 Sehen Sie sich das folgende Video an, um einen Überblick über mögliche Anwendungsfälle für [!UICONTROL Profile Merge Rules] zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/32161?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >

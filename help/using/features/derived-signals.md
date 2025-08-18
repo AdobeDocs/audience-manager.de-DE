@@ -36,7 +36,7 @@ Erstellen und verwalten Sie [!UICONTROL derived signals] in **[!UICONTROL Tools 
 
 So erstellen Sie eine [!UICONTROL derived signal]:
 
-1. Wählen Sie im Menü [!UICONTROL Tools] die Option **[!UICONTROL Derived Signals]** aus.
+1. Wählen Sie im Menü **[!UICONTROL Derived Signals]** die Option [!UICONTROL Tools] aus.
 1. Geben Sie ein:
    * *(optional)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]

@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Im Segmentausdruck-Editor verwendete Code-Syntax {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] können Sie mit einem Code-Editor Eigenschaftsregeln für ein Segment erstellen. Klicken Sie im Bedienfeld [!UICONTROL Traits] auf die Registerkarte **[!UICONTROL Segment Expressions (Code View)]** , um auf diese Funktion zuzugreifen.
+[!UICONTROL Segment Builder] können Sie mit einem Code-Editor Eigenschaftsregeln für ein Segment erstellen. Klicken Sie im Bedienfeld **[!UICONTROL Segment Expressions (Code View)]** auf die Registerkarte [!UICONTROL Traits] , um auf diese Funktion zuzugreifen.
 
 ## Expression Builder-Codesyntax
 

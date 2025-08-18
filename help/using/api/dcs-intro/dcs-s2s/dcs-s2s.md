@@ -44,7 +44,7 @@ Derzeit wird in diesem Handbuch Folgendes behandelt:
 Wir fügen neue Methoden hinzu, sobald sie verfügbar sind. Die ersten Schritte finden Sie in den folgenden Abschnitten.
 
 * [Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort](dcs-aam-ids.md)
-* [Abrufen von Benutzer-IDs und Regionen über die Experience Cloud-ID…](dcs-mcid-ids.md)
+* [Abrufen von Benutzer-IDs und Regionen über die Experience Cloud ID…](dcs-mcid-ids.md)
 * [Durchführen von Server-zu-Server-DCS-API-Aufrufen](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]

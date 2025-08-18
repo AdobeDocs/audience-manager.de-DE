@@ -101,7 +101,7 @@ abc123 def456 ghi789 xyz987
 
 ### Überlegungen zum Dateiinhalt {#considerations}
 
-Stellen Sie bei der Erstellung Ihrer eingehenden Dateien sicher, dass die erste Spalte nur mit Geräte-IDs wie [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] usw. gefüllt ist. Unter [Index der IDs im Audience Manager ](../../../reference/ids-in-aam.md) finden Sie eine detaillierte Erklärung der vom Audience Manager unterstützten IDs.
+Stellen Sie bei der Erstellung Ihrer eingehenden Dateien sicher, dass die erste Spalte nur mit Geräte-IDs wie [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] usw. gefüllt ist. Unter [ID-Index in Audience Manager](../../../reference/ids-in-aam.md) finden Sie eine ausführliche Erläuterung der von Audience Manager unterstützten IDs.
 
 >[!IMPORTANT]
 >
@@ -142,7 +142,7 @@ Schritt 1: Der ID-Synchronisierungsvorgang synchronisiert die [!DNL DPUUID] von 
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Schritt 2: Die [!DNL DPUUID]s aus [!DNL DPID] 12345 wurden in Schritt 1 mit den [!DNL UUID] des Audience Managers synchronisiert. Diese ID-Synchronisierung synchronisiert die [!DNL DPUUID] aus [!DNL DPID] 67890 mit den Audience Manager [!DNL UUID] Schritt 1.
+Schritt 2: Die [!DNL DPUUID]s aus [!DNL DPID] 12345 wurden in Schritt 1 mit den [!DNL UUID] von Audience Manager synchronisiert. Diese ID-Synchronisierung synchronisiert die [!DNL DPUUID] aus [!DNL DPID] 67890 mit den Audience Manager-[!DNL UUID] aus Schritt 1.
 
 <br/>
 

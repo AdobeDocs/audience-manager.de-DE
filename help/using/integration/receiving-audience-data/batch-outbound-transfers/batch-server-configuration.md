@@ -1,5 +1,5 @@
 ---
-description: Bevor Sie Batch-Daten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen dem Audience Manager und dem Drittanbieter für Inhalte konfigurieren.
+description: Bevor Sie Batch-Daten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter für Inhalte konfigurieren.
 seo-description: Before you can send batch data to third-party content providers, you need to configure the integration between Audience Manager and the third-party content provider.
 seo-title: Configure batch data integration
 solution: Audience Manager
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 # Konfigurieren der Batch-Datenübertragungsintegration
 
-Bevor Sie Batch-Daten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen dem Audience Manager und dem Drittanbieter für Inhalte konfigurieren. Dies ist auf zwei Arten möglich:
+Bevor Sie Batch-Daten an Drittanbieter für Inhalte senden können, müssen Sie die Integration zwischen Audience Manager und dem Drittanbieter für Inhalte konfigurieren. Dies ist auf zwei Arten möglich:
 
 ## Unterstützung bei der Konfiguration über Ihren Adobe-Berater anfordern {#config-consultant}
 
-Wenn Sie mit einem Adobe-Berater arbeiten, wird dieser sich um den Konfigurationsprozess kümmern.
+Wenn Sie mit einem Adobe-Berater arbeiten, wird dieser sich um den Konfigurationsprozess für Sie kümmern.
 
 ## Konfiguration der Hilfe über den Adobe-Kunden-Support anfordern {#config-support}
 
-Wenn Sie nicht mit einem Adobe-Berater arbeiten, können Sie trotzdem vom Kunden-Support die Batch-Transferintegration konfigurieren lassen. Weitere Informationen erhalten Sie beim Support.
+Wenn Sie nicht mit einem Adobe-Berater arbeiten, können Sie die Batch-Transferintegration dennoch vom Kunden-Support konfigurieren lassen. Weitere Informationen erhalten Sie beim Support.
 
 >[!IMPORTANT]
 >

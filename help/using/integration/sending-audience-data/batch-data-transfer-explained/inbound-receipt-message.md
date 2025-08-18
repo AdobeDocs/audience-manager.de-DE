@@ -46,7 +46,7 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail-N
   </tr> 
   <tr> 
    <td colname="col1"> Empfangene Einträge </td> 
-   <td colname="col2"> <p>Gesamtzahl der empfangenen Adobe-Einträge in allen Dateien. In den meisten Fällen sollte dies die Gesamtzahl der Zeilen in den eingehenden Dateien sein. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl der Datensätze, die Adobe in allen Dateien erhalten hat. In den meisten Fällen sollte dies die Gesamtzahl der Zeilen in den eingehenden Dateien sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Formatfehler </td> 
@@ -54,11 +54,11 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail-N
   </tr> 
   <tr> 
    <td colname="col1"> Ungültige AAM-ID </td> 
-   <td colname="col2"> <p>Anzahl der Audience Manager-UUIDs, die nicht dem erwarteten 38-stelligen Format entsprachen. Oder die Audience Manager-UUIDs, die in der Datei gesendet werden, sind keine Zahlen. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Audience Manager-UUIDs, die nicht dem erwarteten 38-stelligen Format entsprechen. Oder die Audience Manager-UUIDs, die in der Datei gesendet werden, sind keine Zahlen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Keine übereinstimmende AAM-ID </td> 
-   <td colname="col2"> <p>Gesamtzahl der Benutzenden, für die der Audience Manager keine übereinstimmende UUID gefunden hat. Diese Dateien wurden nicht mit der ID synchronisiert, sodass der Audience Manager die UUID nicht suchen kann. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl der Benutzenden, für die Audience Manager keine übereinstimmende UUID gefunden hat. Diese Dateien wurden nicht mit ID synchronisiert, sodass Audience Manager die UUID nicht suchen kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Keine Eigenschaft erkannt </td> 
@@ -66,7 +66,7 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail-N
   </tr> 
   <tr> 
    <td colname="col1"> Verarbeitete Datensätze </td> 
-   <td colname="col2"> <p>Gesamtzahl der vom Audience Manager verarbeiteten Datensätze. In den meisten Fällen sollte diese Zahl mit „Empfangene Datensätze“ übereinstimmen. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl der verarbeiteten Datensätze in Audience Manager. In den meisten Fällen sollte diese Zahl mit „Empfangene Datensätze“ übereinstimmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Gespeicherte Datensätze </td> 
@@ -82,11 +82,11 @@ Die folgende Tabelle enthält Zeilen, die den Zeilen in der empfangenen E-Mail-N
   </tr> 
   <tr> 
    <td colname="col1"> Ungenutzte Signale insgesamt </td> 
-   <td colname="col2"> <p>Gesamtzahl der nicht verwendeten Signale für alle Benutzer in allen eingehenden Dateien (Schlüssel/Wert-Paare, die nicht den Audience Manager-Eigenschaften zugeordnet sind). In den meisten Fällen bedeutet dies, dass für den Audience Manager keine Regeln für das Signal definiert sind. </p> </td> 
+   <td colname="col2"> <p>Gesamtzahl der nicht verwendeten Signale für alle Benutzer in allen eingehenden Dateien (Schlüssel/Wert-Paare, die nicht den Audience Manager-Eigenschaften zugeordnet sind). In den meisten Fällen bedeutet dies, dass für Audience Manager keine Regeln für das Signal definiert sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Insgesamt realisierte Eigenschaften </td> 
-   <td colname="col2"> <p>Anzahl der Signaleigenschaften für alle Audience Manager in allen eingehenden Dateien basierend auf den Signalen. </p> </td> 
+   <td colname="col2"> <p>Anzahl der Audience Manager-Eigenschaften für alle Benutzer in allen eingehenden Dateien basierend auf den Signalen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Insgesamt entfernte Eigenschaften </td> 

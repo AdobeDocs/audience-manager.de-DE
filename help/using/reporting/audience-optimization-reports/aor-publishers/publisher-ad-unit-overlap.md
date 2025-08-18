@@ -20,7 +20,7 @@ Der **[!UICONTROL Ad Unit Overlap]** Bericht wird als Wärmediagramm angezeigt, 
 
 ## Anwendungsfall {#use-cases}
 
-Mit dem **[!UICONTROL Ad Unit Overlap]** Bericht erhalten Sie Einblicke in Bereiche, in denen sich Ihre Zielgruppe über Ihre Web-Eigenschaften hinweg überschneidet. Der Bericht berücksichtigt Ihre 100 wichtigsten verwandten Eigenschaften und zeigt Ihnen die Überschneidung zwischen ihnen.
+Mit dem **[!UICONTROL Ad Unit Overlap]** Bericht können Sie insight in einbinden, wo sich Ihre Zielgruppe über Ihre Web-Eigenschaften hinweg überschneidet. Der Bericht berücksichtigt Ihre 100 wichtigsten verwandten Eigenschaften und zeigt Ihnen die Überschneidung zwischen ihnen.
 
 ## Verwenden des Berichts zur Überschneidung von Werbeeinheiten {#using-the-report}
 
@@ -32,7 +32,7 @@ Verwenden Sie die **[!UICONTROL Base Ad Unit]** und die **[!UICONTROL Overlap Ad
 
 >[!IMPORTANT]
 >
->Bei der Aktivierung von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs] einbeziehen, wie in Schritt 3 von [Importieren von Datendateien des Google Ad Manager (ehemals DFP) in den Audience Manager beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise können Sie sicherstellen, dass der Bericht die Web-Eigenschaft als [!UICONTROL Ad Unit] anstelle des [!UICONTROL Ad Unit ID] angibt.
+>Bei der Aktivierung von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs] einbeziehen, wie in Schritt 3 von [Importieren von Datendateien des Google Ad Manager (ehemals DFP) in Audience Manager beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise können Sie sicherstellen, dass der Bericht die Web-Eigenschaft als [!UICONTROL Ad Unit] anstelle des [!UICONTROL Ad Unit ID] angibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 

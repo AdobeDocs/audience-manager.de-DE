@@ -1,5 +1,5 @@
 ---
-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der entsprechenden Adobe Exchange (sofern verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder die Kundenunterstützung.
+description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der entsprechenden Adobe Exchange-Liste (sofern verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder die Kundenunterstützung.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: Aktivierung; Aktivierungspartner, Ziel, Ziele
@@ -16,13 +16,13 @@ ht-degree: 46%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Diese Seite enthält nur [!DNL Audience Manager] aktuelle [gerätebasierte ](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] werden [!UICONTROL device-based destinations] auch [!UICONTROL server-to-server destinations] genannt. Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange ](https://exchange.adobe.com/experiencecloud.html) Liste (falls verfügbar) oder wenden Sie sich an Ihren [!DNL Adobe] oder die Kundenunterstützung.
+Diese Seite enthält nur [!DNL Audience Manager] aktuelle [gerätebasierte ](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] werden [!UICONTROL device-based destinations] auch [!UICONTROL server-to-server destinations] genannt. Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html)-Liste (sofern verfügbar) oder wenden Sie sich an Ihren [!DNL Adobe] oder die Kundenunterstützung.
 
 
 * **Zuletzt aktualisiert** = Zeigt das letzte Datum an, an dem es eine Aktualisierung für diese [!UICONTROL device-based destination] gab.
 * **Aktualisierungen** = Gibt an, ob [!DNL Audience Manager] Daten in Echtzeit oder im Batch (1xday) an diese [!UICONTROL destination] sendet.
 * **Unsegment** = Unsegmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und aus [!UICONTROL segments] entfernen. Welche Möglichkeit Sie haben, ein Geräteprofil aus einem [!UICONTROL segment] zu entfernen, hängt von der zum Erstellen eines [!UICONTROL Profile Merge Rule] verwendeten Geräteoption ab. Die Nicht-Segmentierung wird auch im Zusammenhang mit [!DNL GDPR] Löschanfragen verwendet. Lesen Sie [Regeln für die Profilzusammenführung und Prozesse zur Aufhebung der ](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) und [Audience Manager-Partner mit Funktionen zur Aufhebung der Segmentierung](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] sendet Informationen zum Aufheben der Segmentierung an den [!UICONTROL destinations], der unten mit **Ja** gekennzeichnet ist.
-* **Erhalt [!DNL IAB TCF] Einverständnissignale** = Mit der [!DNL Audience Manager Plug-in for IAB TCF] können Sie die [!DNL IAB TC] Zeichenfolge an Aktivierungspartner weiterleiten, während die Datenschutzentscheidungen der Benutzer respektiert werden. [Audience Manager-Plug-in für IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md) lesen.
+* **Erhalt [!DNL IAB TCF] Einverständnissignale** = Mit der [!DNL Audience Manager Plug-in for IAB TCF] können Sie die [!DNL IAB TC] Zeichenfolge an Aktivierungspartner weiterleiten, während die Datenschutzentscheidungen der Benutzer respektiert werden. Lesen Sie [Audience Manager-Plug-in für IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = In dieser Spalte werden die Partner aufgeführt, die [!UICONTROL Instant Cross-Device Suppression] unterstützen. Lesen Sie mehr über [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **IDs von Mobilgeräten** Diese Spalte listet Partner auf, die IDs von Mobilgeräten von [!DNL Audience Manager] empfangen können.
 

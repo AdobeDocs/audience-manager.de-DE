@@ -22,11 +22,11 @@ ht-degree: 3%
 
 In einem Marketing-Kontext ist eine Rolle ein Zielgruppensegment, das von Besuchern, Benutzern oder potenziellen Käufern definiert wird, die bestimmte Eigenschaften wie Demografie, Browser-Gewohnheiten, Einkaufsverlauf usw. gemeinsam haben.
 
-[!UICONTROL Predictive Audiences]-Modelle gehen noch einen Schritt weiter und ermöglichen es Ihnen, mithilfe der maschinellen Lernfunktionen von Audience Manager unbekannte Zielgruppen in eindeutige Personas zu klassifizieren. Audience Manager hilft Ihnen dabei, die Neigung Ihrer unbekannten Erstanbieter-Zielgruppe für eine Reihe bekannter Erstanbieter-Zielgruppen zu berechnen.
+[!UICONTROL Predictive Audiences]-Modelle gehen noch einen Schritt weiter und ermöglichen es Ihnen, mithilfe der maschinellen Lernfunktionen von Audience Manager unbekannte Zielgruppen in eindeutige Personas zu klassifizieren. Audience Manager hilft Ihnen dabei, die Tendenz Ihrer unbekannten Erstanbieter-Zielgruppe für eine Reihe bekannter Erstanbieter-Zielgruppen zu berechnen.
 
 Wenn Sie ein [!UICONTROL Predictive Audiences] erstellen, besteht der erste Schritt darin, die grundlegenden Eigenschaften oder Segmente auszuwählen, nach denen Ihre Zielgruppe klassifiziert werden soll. Diese Eigenschaften oder Segmente definieren Ihre Personas.
 
-Während der Auswertungsphase erstellt das Modell für jedes Merkmal oder Segment, das Sie als Baseline definiert haben, ein neues [!UICONTROL Predictive Audiences]. Wenn der Audience Manager das nächste Mal einen Besucher aus Ihrer Zielgruppe sieht, der nicht für eine Rolle klassifiziert ist (sich für keines Ihrer grundlegenden Merkmale oder Segmente qualifiziert hat), bestimmt das [!UICONTROL Predictive Audiences], zu welchem der Prognosesegmente der Besucher gehören soll, und fügt den Besucher diesem Segment hinzu.
+Während der Auswertungsphase erstellt das Modell für jedes Merkmal oder Segment, das Sie als Baseline definiert haben, ein neues [!UICONTROL Predictive Audiences]. Wenn Audience Manager das nächste Mal eine Besucherin oder einen Besucher aus Ihrer Zielgruppe sieht, die/der nicht für eine Rolle klassifiziert ist (für die keine Ihrer grundlegenden Eigenschaften oder Segmente qualifiziert sind), bestimmt das [!UICONTROL Predictive Audiences], zu welchem der prädiktiven Segmente die Person gehören soll, und fügt die Besucherin oder den Besucher diesem Segment hinzu.
 
 Die vom Modell erstellten prädiktiven Segmente können Sie auf der Seite [!UICONTROL Segments] identifizieren. Jedes [!UICONTROL Predictive Audiences] hat einen eigenen Ordner unter dem [!UICONTROL Predictive Audiences] Ordner, und Sie können die Segmente jedes Modells sehen, indem Sie auf den Modellordner klicken.
 
@@ -34,7 +34,7 @@ Die vom Modell erstellten prädiktiven Segmente können Sie auf der Seite [!UICO
 
 ## Nutzungsszenarios {#use-cases}
 
-Damit Sie besser verstehen können, wie und wann Sie [!UICONTROL Predictive Audiences] verwenden können, finden Sie hier einige Anwendungsfälle, die Audience Manager-Kunden mit dieser Funktion lösen können.
+Damit Sie besser verstehen können, wie und wann Sie [!UICONTROL Predictive Audiences] verwenden können, finden Sie hier einige Anwendungsfälle, die Kundinnen und Kunden von Audience Manager mit dieser Funktion bewältigen können.
 
 ### Anwendungsfall #1
 
@@ -122,11 +122,11 @@ Beachten Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] die folg
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Prädiktive Segmente, die von [!UICONTROL Predictive Audiences] erstellt werden, erben [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=de) aus den folgenden Erstanbieter-Datenquellen:
+Prädiktive Segmente, die von [!UICONTROL Predictive Audiences] erstellt werden, erben [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) aus den folgenden Erstanbieter-Datenquellen:
 
 1. Die First-Party-Datenquelle, die Sie beim Erstellen des Modells auswählen.
 1. Die Erstanbieter-Datenquellen Ihrer Zielgruppe. Insbesondere die Datenexportsteuerelemente der [!UICONTROL traits] oder [!UICONTROL segments], aus denen Ihre Zielgruppe besteht.
-1. Die [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=de) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
+1. Die [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
 
 Die neu erstellten prädiktiven [!UICONTROL traits] und [!UICONTROL segments] weisen dieselben Datenschutzbeschränkungen auf wie die oben beschriebene Vereinigung der Erstanbieter-Datenquellen.
 
@@ -146,6 +146,6 @@ Durch die Auswahl eines [!UICONTROL Profile Merge Rule], der sowohl Gerätedaten
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppenklassifizierung auswählen, unterliegen den Audience Manager [Rollenbasierten Zugriffssteuerungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de).
+Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppenklassifizierung auswählen, unterliegen der Audience Manager [Rollenbasierten Zugriffssteuerung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
 
-Audience Manager können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, für die sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de#wild-card-permissions) verfügen.
+Audience Manager-Benutzende können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, für die sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions) verfügen.

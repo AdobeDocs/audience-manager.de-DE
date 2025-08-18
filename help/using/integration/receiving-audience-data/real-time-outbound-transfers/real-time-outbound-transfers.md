@@ -1,5 +1,5 @@
 ---
-description: Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Serie von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
+description: Der ausgehende Echtzeit-Datenübertragungsprozess gibt Benutzerdaten als eine Reihe von JSON-Objekten zurück, die mit einer POST-Methode übergeben werden.
 seo-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
 seo-title: Real-Time Outbound Data Transfers
 solution: Audience Manager
@@ -24,13 +24,13 @@ Der ausgehende Echtzeit-Datenübertragungsprozess stellt Benutzerdaten als eine 
 
 Um diese Methode verwenden zu können, muss die Zielplattform die folgenden Anforderungen erfüllen:
 
-* Sie muss eine Endpunkt-[!DNL URL] bereitstellen, die skaliert werden kann, um eine große Anzahl von Nachrichten vom Audience Manager zu empfangen.
+* Sie muss eine Endpunkt-[!DNL URL] bereitstellen, die für den Empfang einer großen Anzahl von Nachrichten von Audience Manager skalierbar ist.
 * Sie muss Daten im [!DNL JSON] Format (`Content-type: application/json`) akzeptieren.
 * Sie muss sichere `HTTPS` Datenübertragungen akzeptieren. [!DNL Audience Manager] senden keine Nachrichten über das Protokoll „Unsicheres `HTTP`&quot;.
 
 ## Häufigkeit
 
-Diese Datenübertragungsmethode kann Daten nahezu in Echtzeit senden, da Benutzende für Segmente qualifiziert sind. Echtzeitnachrichten werden nur dann bereitgestellt, wenn der Audience Manager online und im Edge-Netzwerk aktiv ist. Optional kann diese Methode auch Batches von Offline- oder Onboarding-Daten so häufig wie alle 24 Stunden senden.
+Diese Datenübertragungsmethode kann Daten nahezu in Echtzeit senden, da Benutzende für Segmente qualifiziert sind. Echtzeitnachrichten werden nur dann bereitgestellt, wenn der/die Benutzende online ist und im Audience Manager Edge-Netzwerk aktiv angezeigt wird. Optional kann diese Methode auch Batches von Offline- oder Onboarding-Daten so häufig wie alle 24 Stunden senden.
 
 ## Batch-Übertragungen
 
@@ -80,7 +80,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Die ID des Zielobjekts des Audience Managers. Diese ID stammt vom Audience Manager.</p> </td> 
+   <td colname="col3"> <p>Die ID des Audience Manager-„Ziel“-Objekts. Diese ID stammt aus Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -95,7 +95,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Der <span class="keyword"> Audience Manager </span> UUID. </p> </td> 
+   <td colname="col3"> <p>Die <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> Der <span class="keyword"> Audience Manager </span> die Regions-ID, in der wir dieses Gerät gesehen haben. Wenn das Gerät beispielsweise in Paris (Europa) aktiv war, würde die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> von DCS-Regions-IDs, Standorten und Hostnamen</a>. </td> 
+   <td colname="col3"> Die <span class="keyword"> Audience Manager</span>-Regions-ID, in der wir dieses Gerät gesehen haben. Wenn das Gerät beispielsweise in Paris (Europa) aktiv war, würde die Regions-ID <code> 6</code>. Siehe <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> von DCS-Regions-IDs, Standorten und Hostnamen</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -115,7 +115,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Ganzzahl </p> </td> 
-   <td colname="col3"> <p>Die Kennung für das Segment. In den meisten Fällen ist dies die vom Audience Manager generierte Segment-ID (eine Ganzzahl). In einigen Fällen können Kundinnen und Kunden, sofern die Zielplattform dies zulässt, die Segmentkennung in der Audience Manager-Benutzeroberfläche definieren (offenes Textfeld), die dann in dieser Eigenschaft widergespiegelt wird. </p> </td> 
+   <td colname="col3"> <p>Die Kennung für das Segment. In den meisten Fällen ist dies die von Audience Manager generierte Segment-ID (eine Ganzzahl). Wenn es die Zielplattform zulässt, können Kundinnen und Kunden in einigen Fällen die Segmentkennung in der Audience Manager-Benutzeroberfläche definieren (offenes Textfeld), die dann in dieser Eigenschaft widergespiegelt wird. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
@@ -130,7 +130,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Aus einem Segment entfernt, basierend auf dem <a href="../../../features/traits/segment-ttl-explained.md"> Time-to-Live-Intervall </a> Segments. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">In einen inaktiven Status verschoben, wenn sie in den letzten 120 Tagen nicht gesehen wurden. </li>
      <li>Wegen einer Datenschutzänderungsanfrage (d. h. <span class="keyword"> DSGVO) </span></li>
-    </ul> <p>Alle Partner-IDs, die mit einem <span class="keyword"> Audience Manager synchronisiert </span>, erhalten die <code> "Status":"0"</code>-Markierung, wenn eine Benutzerin oder ein Benutzer nicht segmentiert ist. </p> </td> 
+    </ul> <p>Alle Partner-IDs, die mit einer <span class="keyword"> Audience Manager</span> ID synchronisiert werden, erhalten die <code> "Status":"0"</code>-Markierung, wenn eine Benutzerin oder ein Benutzer nicht segmentiert ist. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -142,7 +142,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
 
 ## Sicherheit
 
-Sie können Ihren in Echtzeit ausgehenden Datenübertragungsprozess schützen, indem Sie [HTTP-Anfragen signieren](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) private Schlüssel verwenden oder sich über das [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)-Protokoll authentifizieren [!DNL Audience Manager].
+Sie können Ihren in Echtzeit ausgehenden Datenübertragungsprozess schützen, indem Sie [HTTP-Anfragen signieren](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) private Schlüssel verwenden oder sich über das [!DNL Audience Manager]OAuth 2.0[-Protokoll authentifizieren ](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
 
 ## Anfrage
 

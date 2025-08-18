@@ -1,5 +1,5 @@
 ---
-description: Optional können Sie Datendateien komprimieren, wenn Sie sie an den Audience Manager senden.
+description: Optional können Sie Datendateien komprimieren, wenn Sie sie an Audience Manager senden.
 seo-description: As an option, you can compress data files when sending them to Audience Manager.
 seo-title: File Compression for Inbound Data Transfer Files
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Dateikomprimierung für eingehende Datenübertragungsdateien{#file-compression-for-inbound-data-transfer-files}
 
-Datendateien können beim Senden an den Audience Manager komprimiert werden.
+Datendateien können beim Senden an Audience Manager komprimiert werden.
 
 <!-- inbound-file-compression.xml -->
 

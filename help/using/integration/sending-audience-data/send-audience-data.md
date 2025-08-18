@@ -1,5 +1,5 @@
 ---
-description: Senden von Zielgruppendaten aus anderen Quellen an den Audience Manager.
+description: Senden Sie Zielgruppendaten aus anderen Quellen an Audience Manager.
 seo-description: Send audience data from other sources to Adobe Audience Manager (AAM).
 seo-title: Sending Audience Data in Adobe Audience Manager (AAM)
 title: Senden von Zielgruppendaten
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # Senden von Zielgruppendaten
 
-Senden von Zielgruppendaten aus anderen Quellen an den Audience Manager.
+Senden Sie Zielgruppendaten aus anderen Quellen an Audience Manager.
 
 * [Integration eingehender Daten in Echtzeit](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 

@@ -58,10 +58,10 @@ Siehe [Dateikomprimierung für eingehende Datenübertragungsdateien](../integrat
 
 **Kann ich eine eingehende Datendatei (eine [!DNL .sync] - oder eine [!DNL .overwrite] -Datei) hochladen, bevor ich [!DNL Audience Manager] Code in der Produktionsumgebung implementiere?**
 
-Ja. Solange Sie einen [!UICONTROL cross-device data source] zum Speichern der von Ihnen hochgeladenen CRM-Daten verwenden, speichert Audience Manager die Daten immer. Aufgrund der [!UICONTROL Profile Merge Rules] Verbesserungen, die Audience Manager im Oktober 2019 eingeführt hat und die nur Offline-Anwendungsfälle ermöglichen, können Sie Daten hochladen und bearbeiten, ohne Audience Manager-Code überhaupt in der Produktion bereitzustellen. Siehe:
+Ja. Solange Sie einen [!UICONTROL cross-device data source] zum Speichern der hochgeladenen CRM-Daten verwenden, speichert Audience Manager die Daten immer. Nach den [!UICONTROL Profile Merge Rules] Verbesserungen, die Audience Manager im Oktober 2019 eingeführt hat und die nur Offline-Anwendungsfälle ermöglichen, können Sie Daten hochladen und bearbeiten, ohne Audience Manager-Code überhaupt in der Produktion bereitzustellen. Siehe:
 
-* [Verbesserungen der Profilzusammenführungsrichtlinien – Überblick](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=de)
-* [!UICONTROL People-based Destinations] - [Personalization basierend auf reinen Offline-Daten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=de)
+* [Verbesserungen der Profilzusammenführungsrichtlinien – Überblick](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [Personalization basierend auf reinen Offline-Daten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -164,8 +164,8 @@ Die folgenden Anwendungsfälle zeigen, wie sich diese Dateitypen auf gespeichert
 
 | Anwendungsfall | Beschreibung |
 |---|---|
-| Inkrementell und vollständig | <ul><li>1. Tag: `.sync`, Datei beinhaltet: `visitor123 = a,b,c`</li><li>2. Tag: `.overwrite`, Datei beinhaltet: `visitor123 = c,d,e`</li><li>3. Tag: Besucherprofil-ID „123“ beinhaltet: `c,d,e`</li></ul> |
-| Nur inkrementell | <ul><li>Tag 1: Inhalt der `.sync`-Datei: `visitor123 = a,b,c`</li><li>2. Tag: `.sync`, Datei beinhaltet: `visitor123 = c,d,e`</li><li>3. Tag: Besucherprofil-ID „123“ beinhaltet: `a,b,c,d,e`</li></ul> |
+| Inkrementell und vollständig | <ul><li>&#x200B;1. Tag: `.sync`, Datei beinhaltet: `visitor123 = a,b,c`</li><li>&#x200B;2. Tag: `.overwrite`, Datei beinhaltet: `visitor123 = c,d,e`</li><li>&#x200B;3. Tag: Besucherprofil-ID „123“ beinhaltet: `c,d,e`</li></ul> |
+| Nur inkrementell | <ul><li>Tag 1: Inhalt der `.sync`-Datei: `visitor123 = a,b,c`</li><li>&#x200B;2. Tag: `.sync`, Datei beinhaltet: `visitor123 = c,d,e`</li><li>&#x200B;3. Tag: Besucherprofil-ID „123“ beinhaltet: `a,b,c,d,e`</li></ul> |
 
 Weitere Informationen zu vollständigen und inkrementellen Dateitypen finden Sie unter:
 

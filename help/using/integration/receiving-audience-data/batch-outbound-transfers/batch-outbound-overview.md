@@ -26,7 +26,7 @@ Audience Manager sendet Batch-Daten gemäß diesen Spezifikationen an Drittanbie
 
 * [Kontrolldateien für die Übertragung von Protokolldateien](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-  Datenübertragungssteuerungsdateien (.info) liefern Metadateninformationen über Dateiübertragungen, damit Partner überprüfen können, ob der Audience Manager Dateiübertragungen korrekt verarbeitet hat.
+  Datenübertragungssteuerungsdateien (.info) enthalten Metadateninformationen über Dateiübertragungen, mit denen Partner überprüfen können, ob Audience Manager Dateiübertragungen korrekt verarbeitet hat.
 
 * [Makros für ausgehende Vorlagen](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 

@@ -38,7 +38,7 @@ Die folgende Syntax definiert die Struktur eines wohlgeformten Metadatendateinam
 Im Namen der Metadatendatei ist die untergeordnete ID ein Bezeichner, der den Datentyp in einer Datei klassifiziert und in einer Hierarchie platziert. Sie können die untergeordnete ID im Dateinamen mit den folgenden Kategorie-IDs taggen:
 
 1. Kampagne
-1. Kreativ
+1. Creative
 1. Platzierung
 1. Exchange-
 1. Site
@@ -50,7 +50,7 @@ Im Namen der Metadatendatei ist die untergeordnete ID ein Bezeichner, der den Da
 
 ## Beispiel {#example}
 
-Für eine Creative-Metadatendatei könnte der Dateiname 20190115_0_2 lauten.
+Bei einer Creative-Metadatendatei könnte der Dateiname 20190115_0_2 lauten.
 
 <!--Let's take a look at how you would use these IDs in a metadata file name. As an example, say your data file consists of campaign creatives. In this case, the campaign is a parent object and the creatives are child objects because they belong to, or are contained by, the campaign. As a result, you'd choose the following IDs for the metadata file name:
 

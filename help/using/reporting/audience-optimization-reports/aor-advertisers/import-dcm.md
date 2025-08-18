@@ -1,5 +1,5 @@
 ---
-description: Richten Sie eine Google-Gruppe ein, um Ihre Google Campaign Manager-Datendateien in den Audience Manager zu übernehmen. Der Inhalt in diesem Abschnitt fasst den Integrationsprozess zusammen und enthält Links zu Google Campaign Manager-Ressourcen, die Ihnen bei den ersten Schritten helfen.
+description: Richten Sie eine Google-Gruppe ein, um Ihre Google Campaign Manager-Datendateien in Audience Manager zu importieren. Der Inhalt in diesem Abschnitt fasst den Integrationsprozess zusammen und enthält Links zu Google Campaign Manager-Ressourcen, die Ihnen bei den ersten Schritten helfen.
 seo-description: Set up a Google group to bring your Google Campaign Manager data files into Audience Manager. The content in this section summarizes the integration process and provides you with links to Google Campaign Manager resources to help you get started.
 seo-title: Import Google Campaign Manager Data Files Into Audience Manager
 solution: Audience Manager
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # Importieren von Google Campaign Manager-Datendateien in Audience Manager {#import-dcm-data-files-into-audience-manager}
 
-Richten Sie eine [!DNL Google] ein, um Ihre [!DNL Google Campaign Manager] Datendateien in den Audience Manager zu übernehmen. Der Inhalt in diesem Abschnitt fasst den Integrationsprozess zusammen und enthält Links zu [!DNL Google Campaign Manager] Ressourcen, die Ihnen bei den ersten Schritten helfen.
+Richten Sie eine [!DNL Google] ein, um Ihre [!DNL Google Campaign Manager] Datendateien in Audience Manager zu importieren. Der Inhalt in diesem Abschnitt fasst den Integrationsprozess zusammen und enthält Links zu [!DNL Google Campaign Manager] Ressourcen, die Ihnen bei den ersten Schritten helfen.
 
 ## Zusammenfassung der Integration
 
 [!DNL Google Campaign Manager] ist [!DNL Google] Ersatz für [!DNL DoubleClick for Advertisers] (DFA). Ähnlich wie bei DFA können [!DNL Google Campaign Manager] Kunden ihre Daten in [!DNL Audience Manager] importieren, anzeigen und mit ihnen arbeiten. [!DNL Audience Manager] können jedoch nicht direkt auf Ihre [!UICONTROL Data Transfer]- und [!UICONTROL Match Table]-Dateien zugreifen und diese importieren. Den Import dieser Dateien muss der Kunde selbst übernehmen.
 
-Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilfe“ gut ](https://support.google.com/dcm/partner/answer/2941575?hl=en&amp;ref_topic=6107456). Außerdem können Sie sich die unten aufgeführten Schritte ansehen, um loszulegen.
+Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilfe“ gut ](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). Außerdem können Sie sich die unten aufgeführten Schritte ansehen, um loszulegen.
 
 >[!CAUTION]
 >
@@ -34,15 +34,15 @@ Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilf
 
 ## Schritte
 
-1. [Erstellen einer Gruppe](https://support.google.com/dcm/partner/answer/3370419?hl=en&amp;ref_topic=6107456).
+1. [Erstellen einer Gruppe](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456).
 
    Gruppen steuern den Zugriff auf Ihre [!DNL Google Campaign Manager]. Schließlich werden Sie [!DNL Audience Manager] zu dieser Gruppe einladen und hinzufügen.
 
-1. [Überprüfen des Google Cloud-Speicherstatus](https://support.google.com/dcm/partner/answer/3370481?hl=en&amp;ref_topic=6107456).
+1. [Überprüfen des Google Cloud-Speicherstatus](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456).
 
    Der Google-Cloud-Speicher enthält den Daten-Bucket, der Ihre [!UICONTROL Data Transfer] und [!UICONTROL Match Tables] enthält. Sie müssen einen Bucket einrichten oder sicherstellen, dass Ihre neue Gruppe Zugriff auf einen vorhandenen Datenspeicher-Bucket hat.
 
-1. [Abrufen einer Datendatei-URL](https://support.google.com/dcm/partner/answer/3370482?hl=en&amp;ref_topic=6107456).
+1. [Abrufen einer Datendatei-URL](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456).
 
    Arbeiten Sie mit Ihrem [!DNL Google Campaign Manager] Account Manager oder Platform Solutions Consultant zusammen. Sie geben Ihnen eine URL zu Ihren Datendateien. [!DNL Google] können das Format für Bucket- und Dateinamen in zukünftigen Versionen ändern. Wenden Sie sich erneut an Ihren [!DNL Google Campaign Manager] Account Manager, um sicherzustellen, dass Sie die richtigen Formate verwenden.
 

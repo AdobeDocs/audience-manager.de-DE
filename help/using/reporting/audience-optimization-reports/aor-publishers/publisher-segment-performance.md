@@ -43,7 +43,7 @@ Verwenden Sie das Dropdown-Feld **[!UICONTROL Segment]** , um die Segmente auszu
 
 >[!IMPORTANT]
 >
->Bei der Aktivierung von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Line Item IDs] einbeziehen, wie in Schritt 3 von [Importieren von Datendateien des Google Ad Manager (ehemals DFP) in den Audience Manager beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise können Sie sicherstellen, dass der Bericht die Web-Eigenschaft als [!UICONTROL Line Item] anstelle des [!UICONTROL Line Item ID] angibt.
+>Bei der Aktivierung von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Line Item IDs] einbeziehen, wie in Schritt 3 von [Importieren von Datendateien des Google Ad Manager (ehemals DFP) in Audience Manager beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise können Sie sicherstellen, dass der Bericht die Web-Eigenschaft als [!UICONTROL Line Item] anstelle des [!UICONTROL Line Item ID] angibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 
@@ -85,7 +85,7 @@ Ihr [!UICONTROL Segment Performance] könnte in etwa wie der unten stehende auss
   </tr> 
   <tr> 
    <td colname="col1"> <p>Echtzeit-Segmentpopulation </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Anzahl der Unique Visitors, die für den angegebenen Zeitraum in Echtzeit gesehen und für das Segment zu dem Zeitpunkt qualifiziert wurden, als sie von <span class="keyword"> Audience Manager gesehen wurden</span>. </p> </td> 
+   <td colname="col2"> <p>Die tatsächliche Anzahl der Unique Visitors, die für den angegebenen Zeitraum in Echtzeit angezeigt wurden und die für das Segment zu dem Zeitpunkt qualifiziert waren, als sie von <span class="keyword"> Audience Manager gesehen wurden</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

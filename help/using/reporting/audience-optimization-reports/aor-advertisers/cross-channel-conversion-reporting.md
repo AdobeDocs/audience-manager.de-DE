@@ -36,7 +36,7 @@ In der folgenden Tabelle sind wichtige Überlegungen beim Einrichten von [!UICON
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Minimale Anzahl an Konversionseigenschaften </p> </td> 
-   <td colname="col1"> <p>Mindestens ein Konversionseigenschaft muss einer Datenquelle zugewiesen werden, damit die <span class="wintitle"> Cross-Channel Conversion</span>-Berichte ausgeführt werden können. Weitere Informationen zu Eigenschaften finden Sie </a> Grundlegende Informationen zu Eigenschaften unter <a href="../../../features/traits/create-onboarded-rule-based-traits.md">. </p> </td> 
+   <td colname="col1"> <p>Mindestens ein Konversionseigenschaft muss einer Datenquelle zugewiesen werden, damit die <span class="wintitle"> Cross-Channel Conversion</span>-Berichte ausgeführt werden können. Weitere Informationen zu Eigenschaften finden Sie <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Grundlegende Informationen zu Eigenschaften unter </a>. </p> </td> 
   </tr>
   <tr> 
    <td> <p>Attributionsfenster </p> </td> 

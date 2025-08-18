@@ -1,5 +1,5 @@
 ---
-description: Sie können Daten aus Medienkampagnen mithilfe von Pixelaufrufen an den Audience Manager (oft als Pixelierung des Kreativen bezeichnet) oder durch Aufnahme von Protokolldateien erfassen.
+description: Sie können Daten aus Medienkampagnen mithilfe von Pixel-Aufrufen an Audience Manager (oft als Pixeln des Kreativen bezeichnet) oder durch Aufnahme von Protokolldateien erfassen.
 seo-description: You can capture data from media campaigns using pixel calls to Audience Manager (often called pixeling the creative) or by ingesting log files.
 seo-title: Media Data Integration
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Media Data Integration {#media-data-integration}
 
-Sie können Daten aus Medienkampagnen mithilfe von Pixelaufrufen an den Audience Manager (oft als Pixelierung des Kreativen bezeichnet) oder durch Aufnahme von Protokolldateien erfassen. Lesen Sie die Artikel in diesem Abschnitt, um den Prozess zu verstehen.
+Sie können Daten aus Medienkampagnen mithilfe von Pixel-Aufrufen an Audience Manager (oft als Pixeln des Kreativen bezeichnet) oder durch Aufnahme von Protokolldateien erfassen. Lesen Sie die Artikel in diesem Abschnitt, um den Prozess zu verstehen.
 
 <!-- c_camp_data_int.xml -->
 

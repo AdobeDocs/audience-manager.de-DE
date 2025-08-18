@@ -29,7 +29,7 @@ Die Beta-Umgebung wird am Ende jedes Monats außerhalb der Spitzenzeiten aktuali
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass Ihre Kundendaten [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=de) nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert werden.
+>Beachten Sie, dass Ihre Kundendaten [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en) nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert werden.
 
 ## Inbound-Traffic
 
@@ -47,7 +47,7 @@ Ausgehender Traffic ist für die Beta-Umgebung nicht aktiviert.
 
 | Service | URL/Hostname | So erhalten Sie Zugriff |
 |--- |--- | --- |
-| S3 | Wenden Sie sich an den Audience Manager Partner Solutions-Support oder an die Kundenunterstützung | Wenden Sie sich an Ihren Audience Manager Partner Solutions-Support-Mitarbeiter oder an die Kundenunterstützung, um einen Amazon S3-Bucket für Ihre Beta-Instanz einzurichten. Erfahren Sie mehr über die [Vorteile der Verwendung von Amazon S3](../reference/amazon-s3.md). |
+| S3 | Wenden Sie sich an den Audience Manager Partner Solutions-Support oder an die Kundenunterstützung | Wenden Sie sich an den Audience Manager Partner Solutions-Support oder an die Kundenunterstützung, um einen Amazon S3-Bucket für Ihre Beta-Instanz einzurichten. Erfahren Sie mehr über die [Vorteile der Verwendung von Amazon S3](../reference/amazon-s3.md). |
 | DCS | `https://dcs-beta.demdex.net/...` | Siehe [Zugriff auf den DCS in der Beta-Umgebung](../reference/beta-environment.md#access-dcs-beta-environment). |
 | Benutzeroberfläche | `https://bank-beta.demdex.com` | Die Anmeldeinformationen für die Produktionsumgebung sind für die Beta-Umgebung gültig. |
 | API | `https://api-beta.demdex.com/...` | Die Anmeldeinformationen für die Produktionsumgebung sind für die Beta-Umgebung gültig. Es wird empfohlen, einen generischen API-Benutzer zu erstellen [siehe Details](../api/rest-api-main/aam-api-getting-started.md#requirements). |

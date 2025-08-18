@@ -129,7 +129,7 @@ Abonnieren eines privaten Daten-Feeds:
    <td colname="col1"> <p> <b>Potenzielle Abonnenten</b> </p> </td> 
    <td colname="col2"> <p>Ein <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"> potenzieller Abonnent</a> ist ein Datenkäufer, der Zugriff auf einen privaten Daten-Feed beantragt, vom Verkäufer eine Genehmigung erhalten, den Feed jedoch nicht abonniert hat. So fordern Sie einen Rabatt als potenzieller Abonnent an: </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
-     <li id="li_618B64160CF24549AFCA73E006DCA35A">Gehen Sie zu <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
+     <li id="li_618B64160CF24549AFCA73E006DCA35A">Navigieren Sie <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Klicken Sie auf den Namen des Feeds, für den Sie genehmigt wurden. </li> 
      <li id="li_763C050AC9464BE380D00F6085B6E540">Klicken Sie auf <b><span class="uicontrol"> Anfrage für weitere Details</span></b>. Fordern Sie in Ihrer Detailanfrage an den Verkäufer einen Rabatt an. </li> 
     </ol> </td> 
@@ -283,7 +283,7 @@ Auf dieser Seite finden Sie die folgenden Informationen:
    * Klicken Sie auf **[!UICONTROL Request More Details]** , um dem Datenanbieter Fragen zum ausgewählten Daten-Feed zu stellen oder einen Rabatt anzufordern. Diese Funktion sendet Ihre Kommentare und Fragen direkt an den Datenanbieter.
 
 1. Daten-Feed-Berichtsmetriken. Das Venn-Diagramm (und zugehörige Metriken) zeigt Daten zu Eigenschaftsüberschneidungen der letzten 30 Tage an. Weitere [ finden Sie unter „Der ](marketplace-data-buyers.md#about-marketplace): Über“.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: Die Anzahl der eindeutigen Benutzer in Ihrem Konto, die sich mit den Benutzern im Konto des Anbieters überschneiden. Eine Definition von Unique Users finden Sie unter AAM UUID im [Index der IDs im Audience Manager ](/help/using/reference/ids-in-aam.md).
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: Die Anzahl der eindeutigen Benutzer in Ihrem Konto, die sich mit den Benutzern im Konto des Anbieters überschneiden. Eine Definition von eindeutigen Benutzern finden Sie unter AAM UUID im [ID-Index in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: Die Anzahl der eindeutigen Benutzer, die vom Konto des Anbieters stammen.
    * **[!UICONTROL Your Unique Users]**: Die Anzahl der eindeutigen Benutzer aus Ihrem Konto.
 

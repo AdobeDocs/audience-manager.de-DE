@@ -45,7 +45,7 @@ Wenn ein Segment nicht in einem der [!UICONTROL Overlap] Berichte angezeigt wird
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Segment zu spät erstellt</b> </p> </td> 
-   <td colname="col2"> <p>Angenommen, Sie erstellen am Freitag ein Segment mit mehr als 70.000 Echtzeit-Benutzern. Dieses Segment wird in den <span class="wintitle"> Überschneidungsberichten der nächsten </span> nicht angezeigt, da es weniger als 2 Tage vor dem Berichtsaktualisierungszeitraum erstellt wurde. Das Segment wird jedoch nach der nächsten wöchentlichen Aktualisierung in </span> Bericht "<span class="wintitle"> Überschneidung“ angezeigt. </p> </td> 
+   <td colname="col2"> <p>Angenommen, Sie erstellen am Freitag ein Segment mit mehr als 70.000 Echtzeit-Benutzern. Dieses Segment wird in den <span class="wintitle"> Überschneidungsberichten der nächsten </span> nicht angezeigt, da es weniger als 2 Tage vor dem Berichtsaktualisierungszeitraum erstellt wurde. Das Segment wird jedoch nach der nächsten wöchentlichen Aktualisierung in <span class="wintitle"> Bericht "</span> Überschneidung“ angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

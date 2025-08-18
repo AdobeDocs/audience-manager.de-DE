@@ -20,7 +20,7 @@ Methoden, mit denen Sie programmgesteuert mit Zielfunktionen arbeiten können.
 
 <!-- c_destinations_api.xml -->
 
-Im Audience Manager ist ein Ziel jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk, Exchange, Ihr eigenes Erstanbieter-Cookie usw.), für das Sie Daten freigeben möchten.
+In Audience Manager ist ein Ziel jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk, Exchange, Ihr eigenes Erstanbieter-Cookie usw.), für das Sie Daten freigeben möchten.
 
 ## Zieltypen: URL und Cookie {#destination-types}
 

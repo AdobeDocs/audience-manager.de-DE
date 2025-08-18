@@ -1,5 +1,5 @@
 ---
-description: Recommendations und Anwendungsfälle für das Segment-Retargeting und die personalisierte Segmentqualifikation mit dem Gerätediagramm „Profillink“.
+description: Empfehlungen und Anwendungsfälle für das Retargeting von Segmenten und die personalisierte Segmentqualifikation mit dem Gerätediagramm „Profillink“.
 seo-description: Recommendations and use cases for segment retargeting and personalized segment qualification with the Profile Link device graph.
 seo-title: Profile Link Device Graph Use Cases
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Anwendungsfälle für Profilverknüpfungsgerätediagramme {#profile-link-device-graph-use-cases}
 
-Recommendations und Anwendungsfälle für das Segment-Retargeting und die personalisierte Segmentqualifikation mit dem [!UICONTROL Profile Link Device Graph].
+Empfehlungen und Anwendungsfälle für das Segment-Retargeting und die personalisierte Segmentqualifikation mit dem [!UICONTROL Profile Link Device Graph].
 
 ## Empfehlungen {#recommendations}
 
@@ -40,7 +40,7 @@ Selbst wenn John nicht auf allen drei der oben genannten Geräte authentifiziert
 
 ![last-device-graph](assets/last-device-graph.png)
 
-Da Audience Manager jedes Geräteprofil qualifiziert, das an der Profilzusammenführung für ein Segment teilgenommen hat, werden alle drei Geräteprofile segmentiert. Der [!UICONTROL Profile Link Device Graph] ermöglicht es Audience Managern, das Verhalten auf allen drei Geräten zu überprüfen und jedes Gerät für ein Segment zu qualifizieren, für das kein einzelnes Geräteprofil allein qualifiziert ist.
+Da Audience Manager jedes Geräteprofil qualifiziert, das an der Profilzusammenführung für ein Segment teilgenommen hat, werden alle drei Geräteprofile segmentiert. Der [!UICONTROL Profile Link Device Graph] ermöglicht es Audience Manager, das Verhalten auf allen drei Geräten zu überprüfen und jedes Gerät für ein Segment zu qualifizieren, für das kein einzelnes Geräteprofil allein qualifiziert ist.
 
 Diese [!UICONTROL Profile Merge Rule] ermöglicht es Marketing-Experten, allen Geräten, die einer Person gehören, ein konsistentes Erlebnis bereitzustellen, basierend auf der Benutzeraktivität und nicht auf der individuellen Geräteaktivität.
 

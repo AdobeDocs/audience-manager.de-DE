@@ -1,5 +1,5 @@
 ---
-description: 'Audience Manager gruppiert seine Systeme und Prozesse in vier Hauptkategorien: Tag-Management, Datenerfassung, Datenorganisation und Datenaktionsfähigkeit.'
+description: 'Audience Manager unterteilt seine Systeme und Prozesse in vier Hauptkategorien: Tag-Management, Datenerfassung, Datenorganisation und Datenaktionsfähigkeit.'
 seo-description: Audience Manager groups its systems and processes into four main categories  tag management, data collection, data organization, and data actionability.
 seo-title: Key Components in the Audience Manager System
 solution: Audience Manager

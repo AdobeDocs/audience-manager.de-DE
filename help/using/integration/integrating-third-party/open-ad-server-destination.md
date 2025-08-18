@@ -27,12 +27,12 @@ Standards für die Code-Platzierung, unterstützte Schlüsselwertformate, Berich
 Dieser Zieltyp erfordert Folgendes:
 
 * **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] Code sollte im Inventar bereitgestellt werden. [!UICONTROL DIL] ist es nicht mehr erforderlich, speziellen Code für die Datenerfassung, -integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben.
-* **`get_aamCookie`:**, der die Benutzer-ID des Audience Managers und Cookie-Daten erfasst. Platzieren Sie [diesen Code](../../features/destinations/get-aam-cookie-code.md) oben auf der Seite oder im `<head>` Codeblock.
-* **Versandlogs an Audience Manager senden:** Wenn Sie einen Segmentversandbericht erstellen möchten (optional), stellen Sie dem Audience Manager ein tägliches Protokoll zur Verfügung, das Versanddaten auf Impression-Ebene enthält. Die Daten können im Rohformat vorliegen, aber jeder Datensatz muss die [!UICONTROL UUID] Audience Manager enthalten. Audience Manager können diese per [!DNL FTP] abholen oder empfangen.
+* **`get_aamCookie`:**, der die Audience Manager-Benutzer-ID und Cookie-Daten erfasst. Platzieren Sie [diesen Code](../../features/destinations/get-aam-cookie-code.md) oben auf der Seite oder im `<head>` Codeblock.
+* **Versandlogs an Audience Manager senden:** Wenn Sie einen Segmentversandbericht (optional) wünschen, stellen Sie Audience Manager ein tägliches Protokoll zur Verfügung, das Versanddaten auf Impression-Ebene enthält. Die Daten können im Rohformat vorliegen, aber jeder Datensatz muss die Audience Manager-[!UICONTROL UUID] enthalten. Audience Manager kann diese per [!DNL FTP] abholen oder empfangen.
 
 ### Cookie-Format und Schlüssel-Wert-Daten
 
-Audience Manager können Segmentdaten wie folgt an ein Browser-Cookie senden:
+Audience Manager kann Segmentdaten wie folgt an ein Browser-Cookie senden:
 
 * Einzelschlüssel (`x=1&x=2`);
 * Mehrere Schlüssel (`x=1&x=2&y=3&y=4`);
@@ -54,7 +54,7 @@ Erstellen Sie ein Cookie-basiertes Ziel für [!DNL OAS] in Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-Im Audience Manager ist *Ziel* jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager-Zielfunktionen befinden sich unter *Zielgruppendaten > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und führen Sie die folgenden Schritte aus.
+In Audience Manager ist *Ziel* jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager-Zielfunktionen befinden sich unter *Zielgruppendaten > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und führen Sie die folgenden Schritte aus.
 
 ### Schritt 1: Grundlegende Informationen
 

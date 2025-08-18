@@ -1,5 +1,5 @@
 ---
-description: DELETE- und POST-Methoden, mit denen Sie Ziele und Segmentzuordnungen entfernen können.
+description: DELETE- und POST-Methoden zum Entfernen von Zielen und Segmentzuordnungen.
 seo-description: DELETE and POST methods that let you remove destinations and segment mappings.
 seo-title: Delete Destinations
 solution: Audience Manager

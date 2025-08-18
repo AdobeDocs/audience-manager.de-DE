@@ -35,9 +35,9 @@ Um den Abschnitt [!UICONTROL Data Source Details] auszufüllen, füllen Sie die 
 1. **[!UICONTROL Description]** (optional): Geben Sie eine Beschreibung für Ihre Datenquelle ein, um die Rolle oder den Zweck der Datenquelle zu definieren.
 1. **[!UICONTROL Integration Code]** (optional): Geben Sie einen Integrations-Code ein. Diese Codes sind erforderlich, wenn Sie Folgendes tun möchten:
    * [Erstellen einer geräteübergreifenden Datenquelle](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Verwenden Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+   * Verwenden Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Arbeiten mit [Profilzusammenführungsregeln](../features/profile-merge-rules/merge-rules-start.md).
-1. **[!UICONTROL Namespace]** (schreibgeschützt): Dieses Feld ist schreibgeschützt und wird beim Speichern der Datenquelle automatisch generiert. Wenn Sie Segmente aus dem Audience Manager auf den Experience Platform exportieren möchten, müssen Sie einen entsprechenden [Identitäts-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces) in Experience Platform erstellen und dabei den automatisch generierten Wert als Namespace ([) ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) Experience Platform verwenden.
+1. **[!UICONTROL Namespace]** (schreibgeschützt): Dieses Feld ist schreibgeschützt und wird beim Speichern der Datenquelle automatisch generiert. Wenn Sie Segmente aus Audience Manager nach Experience Platform exportieren möchten, müssen Sie in Experience Platform einen entsprechenden [Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) erstellen und dabei den automatisch generierten Wert als Namespace ([) ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) Experience Platform verwenden.
 1. **[!UICONTROL ID Type]**: Wählen Sie den Typ der IDs aus, die diese Datenquelle enthalten soll:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -69,7 +69,7 @@ Löschen Sie eine [!UICONTROL data source], die Sie nicht mehr benötigen.
 >Bitte beachten Sie die folgenden Einschränkungen:
 >
 >* Sie können keine [Active Audience oder synchronisierte Data Source-Eigenschaft](../features/traits/client-activity-synced-audience-traits.md) löschen.
->* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt es Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Mit dem [Core Service](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes) können Sie die Zuordnung dieser Datenquellen aufheben.
+>* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt es Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Mit dem [Core Service](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) können Sie die Zuordnung dieser Datenquellen aufheben.
 
 1. Klicken Sie auf **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Datenquellen.

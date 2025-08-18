@@ -25,7 +25,7 @@ Audience Manager übernimmt mithilfe von eingehenden Datendateien Cookie-Daten u
 
 ### Besonderheiten der Integration
 
-Eingehende Datendateien, die von der Oracle Data Cloud empfangen werden, unterscheiden sich von der standardmäßigen Namenssyntax für eingehende Dateien, die unter [Amazon S3-Namens- und Dateigrößenanforderungen für eingehende Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) beschrieben ist, und von der standardmäßigen Inhaltssyntax für eingehende Dateien, die unter [Inhalte eingehender Datendateien: Syntax, ungültige Zeichen, Variablen und Beispiele](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) beschrieben ist.
+Eingehende Datendateien, die von Oracle Data Cloud empfangen werden, unterscheiden sich von der standardmäßigen Namenssyntax für eingehende Dateien, die unter [Amazon S3-Namens- und Dateigrößenanforderungen für eingehende Datendateien](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) beschrieben ist, und von der standardmäßigen Inhaltssyntax für eingehende Dateien, die unter [Inhalte eingehender Datendateien: Syntax, ungültige Zeichen, Variablen und Beispiele](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) beschrieben ist.
 
 Die unten hervorgehobenen Elemente sind zusätzlich zu den Standardimplementierungsfeldern für eingehende Datendateien erforderlich. Beschreibungen aller anderen Standardfelder und Dateinamenelemente finden Sie unter Dateinamensyntax und Dateiinhaltssyntax auf den beiden oben verlinkten Seiten.
 
@@ -35,7 +35,7 @@ ODC-Dateinamen sind wie folgt strukturiert:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Das `odc` Dateinamenelement identifiziert die Datei als aus der Oracle Data Cloud importiert und weist den Validator für eingehende Audience Manager an, sie als solche zu verarbeiten.
+Das `odc` Dateinamenelement identifiziert die Datei als aus der Oracle Data Cloud importiert und weist den Audience Manager-Validator für eingehende Dateien an, sie als solche zu verarbeiten.
 
 ### Dateiinhalte
 

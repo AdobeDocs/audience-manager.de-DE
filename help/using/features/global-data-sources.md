@@ -38,7 +38,7 @@ Sie können Geräte-IDs aus globalen Datenquellen sowohl durch [Echtzeit-Datenü
 
 >[!IMPORTANT]
 >
->Wenn Sie Daten mit einer globalen Geräte-ID an einen Audience Manager senden, stellen Sie sicher, dass Sie die entsprechende Datenquelle für die jeweilige Geräte-ID verwenden. Beispiel: Um Daten für [!DNL Apple IDFA] zu importieren, verwenden Sie die Datenquellen-ID 20915.
+>Wenn Sie Daten mit einer globalen Geräte-ID an Audience Manager senden, stellen Sie sicher, dass Sie die entsprechende Datenquelle für die jeweilige Geräte-ID verwenden. Beispiel: Um Daten für [!DNL Apple IDFA] zu importieren, verwenden Sie die Datenquellen-ID 20915.
 
 ## Einschränkungen
 
@@ -46,18 +46,18 @@ Auf Geräten, auf denen [!DNL iOS] und [!DNL Android] Betriebssysteme ausgeführ
 
 ## Validierung der globalen Geräte-ID
 
-Der Audience Manager validiert die von Kunden importierten Gerätewerbe-IDs ([!UICONTROL DAID]) auf Grundlage ihres Formats, um sicherzustellen, dass sie dem von Geräteherstellern beschriebenen Standardformat entsprechen. Siehe [ID-Index im Audience Manager ](../reference/ids-in-aam.md) für eine detaillierte Zuordnung von Gerätewerbe-IDs zu globalen Datenquellen und das richtige Format für jede ID. Stellen Sie sicher, dass Sie Geräte-IDs je nach Gerätetyp im richtigen Format importieren. Audience Manager lehnt Geräte-IDs ab, die nicht das richtige Format aufweisen, und gibt eine Fehlermeldung zurück, die angibt, dass die ID abgelehnt wurde.
+Audience Manager validiert die von Kunden importierten Gerätewerbe-IDs ([!UICONTROL DAID]) anhand ihres Formats, um sicherzustellen, dass sie dem von Geräteherstellern beschriebenen Standardformat entsprechen. Siehe [ID-Index in Audience Manager](../reference/ids-in-aam.md) für eine detaillierte Zuordnung von Gerätewerbe-IDs zu globalen Datenquellen und das richtige Format für jede ID. Stellen Sie sicher, dass Sie Geräte-IDs je nach Gerätetyp im richtigen Format importieren. Audience Manager lehnt Geräte-IDs ab, die nicht das richtige Format aufweisen, und gibt eine Fehlermeldung zurück, die angibt, dass die ID abgelehnt wurde.
 
 * Fehlermeldungen für Batch-Datenübertragungen sind hier beschrieben: [Bedingungen und Definitionen für Onboarding-](../reporting/onboarding-status-report.md#report-terms-conditions).
 * Fehlermeldungen für Echtzeit-Datenübertragungen werden hier beschrieben: [DCS-Fehlercodes, Meldungen und Beispiele](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
 ## Ablaufrichtlinie für Geräte-IDs
 
-Audience Manager verwirft Gerätewerbe-IDs automatisch nach 120 Tagen Inaktivität, ähnlich wie [AAM-UUID](../faq/faq-privacy.md).
+Audience Manager verwirft Gerätewerbe-IDs automatisch nach 120 Tagen Inaktivität, ähnlich wie [AAM UUID](../faq/faq-privacy.md).
 
 ## Neue globale Datenquellen werden angefordert
 
-Um neue globale Datenquellen zum Audience Manager hinzuzufügen, wenden Sie sich an die Kundenunterstützung von Adobe Consulting oder Adobe und geben Sie detaillierte Informationen zu den erforderlichen Datenquellen an:
+Um neue globale Datenquellen anzufordern, die zu Audience Manager hinzugefügt werden sollen, wenden Sie sich an die Adobe Consulting- oder Adobe-Kundenunterstützung und geben Sie detaillierte Informationen zu den erforderlichen Datenquellen an:
 
 * Name der angeforderten Plattform (z. B. [!UICONTROL Apple IDFA]);
 * Der Name des Unternehmens/der Organisation, das/die die Plattform verwaltet (z. B. [!UICONTROL Apple Inc.]);

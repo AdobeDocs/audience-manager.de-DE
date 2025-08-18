@@ -9,7 +9,7 @@ feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2558'
+source-wordcount: '2563'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 Informationen zu allgemeinen Anforderungen, Authentifizierung, optionalen Abfrageparametern, [!DNL URLs] und anderen Referenzen.
 
-## API-Anforderungen und Recommendations {#api-requirements-recommendations}
+## API-Anforderungen und -Empfehlungen {#api-requirements-recommendations}
 
-Beachten Sie Folgendes beim Arbeiten mit dem Code der [Audience Manager ](https://bank.demdex.com/portal/swagger/index.html#/)API:
+Beachten Sie Folgendes beim Arbeiten mit dem [Audience Manager-API](https://bank.demdex.com/portal/swagger/index.html#/)Code:
 
 * **Anfrageparameter:** Anfrageparameter sind erforderlich, sofern nicht anders angegeben.
 * **Anfragekopfzeilen**: Bei Verwendung von [Adobe Developer](https://www.adobe.io/)-Token müssen Sie die `x-api-key` Kopfzeile angeben. Sie können Ihren [!DNL API]-Schlüssel erhalten, indem Sie die Anweisungen auf der Seite [Service-Kontointegration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) befolgen.
@@ -33,9 +33,9 @@ Beachten Sie Folgendes beim Arbeiten mit dem Code der [Audience Manager ](https:
 
 Die [!DNL Audience Manager] [!DNL REST APIs] drei Authentifizierungsmethoden unterstützen.
 
-* [!BADGE Empfohlen]{type=positive}[OAuth Server-zu-Server-Authentifizierung](#oauth-adobe-developer) mithilfe der [Adobe-Entwicklerkonsole](https://www.adobe.io/). [!DNL Adobe Developer] ist das Entwickler-Ökosystem und die Community der Adobe. Es enthält [APIs für alle Adobe-Produkte](https://developer.adobe.com/apis/). Dies ist die empfohlene Methode zum Einrichten und Verwenden [!DNL Adobe] [!DNL APIs]. Weitere Informationen zur [OAuth-Server-zu-Server-Authentifizierung](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) finden Sie in der Entwicklerdokumentation für Adobe.
-* [!BADGE Veraltet]{type=negative}[JWT-Authentifizierung (Service-Konto](#jwt) mithilfe der [Adobe-](https://www.adobe.io/). [!DNL Adobe Developer] ist das Entwickler-Ökosystem und die Community der Adobe. Es enthält [APIs für alle Adobe-Produkte](https://developer.adobe.com/apis/).
-* [!BADGE Veraltet]{type=negative}[Alte OAuth-Authentifizierung](#oauth-deprecated). Diese Methode ist zwar veraltet, aber Kunden mit vorhandenen [!DNL OAuth] können diese Methode weiterhin verwenden.
+* [!BADGE Empfohlen]{type=positive} [OAuth-Server-zu-Server-Authentifizierung](#oauth-adobe-developer) mithilfe der [Adobe-](https://www.adobe.io/). [!DNL Adobe Developer] ist Adobes Entwickler-Ökosystem und Community. Es enthält [APIs für alle Adobe-Produkte](https://developer.adobe.com/apis/). Dies ist die empfohlene Methode zum Einrichten und Verwenden [!DNL Adobe] [!DNL APIs]. Weitere Informationen zur [OAuth-Server-zu-Server-Authentifizierung](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) finden Sie in der Adobe-Entwicklerdokumentation.
+* [!BADGE Veraltet]{type=negative} [JWT-Authentifizierung (Service-Konto](#jwt) mithilfe der [Adobe-](https://www.adobe.io/). [!DNL Adobe Developer] ist Adobes Entwickler-Ökosystem und Community. Es enthält [APIs für alle Adobe-Produkte](https://developer.adobe.com/apis/).
+* [!BADGE Veraltet]{type=negative} [veraltete OAuth-Authentifizierung](#oauth-deprecated). Diese Methode ist zwar veraltet, aber Kunden mit vorhandenen [!DNL OAuth] können diese Methode weiterhin verwenden.
 
 >[!IMPORTANT]
 >
@@ -43,13 +43,13 @@ Die [!DNL Audience Manager] [!DNL REST APIs] drei Authentifizierungsmethoden unt
 
 ## OAuth-Server-zu-Server-Authentifizierung mit Adobe Developer {#oauth-adobe-developer}
 
-In diesem Abschnitt wird beschrieben, wie Sie die erforderlichen Anmeldeinformationen zum Authentifizieren von Audience Manager-API-Aufrufen erfassen, wie im folgenden Flussdiagramm beschrieben. Die meisten erforderlichen Anmeldeinformationen können bei der einmaligen Ersteinrichtung erfasst werden. Das Zugriffs-Token muss jedoch alle 24 Stunden aktualisiert werden.
+In diesem Abschnitt wird beschrieben, wie Sie die erforderlichen Anmeldeinformationen sammeln, um Audience Manager-API-Aufrufe zu authentifizieren, wie im folgenden Flussdiagramm beschrieben. Die meisten erforderlichen Anmeldeinformationen können bei der einmaligen Ersteinrichtung erfasst werden. Das Zugriffs-Token muss jedoch alle 24 Stunden aktualisiert werden.
 
-Flussdiagramm für die ![Audience Manager-Authentifizierung.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
+![Flussdiagramm für die Audience Manager-Authentifizierung.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
 
 ### Übersicht über Adobe Developer {#developer-overview}
 
-[!DNL Adobe Developer] ist das Entwickler-Ökosystem und die Community der Adobe. Es enthält [APIs für alle Adobe-Produkte](https://developer.adobe.com/apis).
+[!DNL Adobe Developer] ist Adobes Entwickler-Ökosystem und Community. Es enthält [APIs für alle Adobe-Produkte](https://developer.adobe.com/apis).
 
 Dies ist die empfohlene Methode zum Einrichten und Verwenden [!DNL Adobe] [!DNL APIs].
 
@@ -88,7 +88,7 @@ Der Bildschirm **[!UICONTROL Add an API]** wird angezeigt. Klicken Sie auf das P
 
 >[!TIP]
 >
->Wählen Sie die Option **[!UICONTROL View docs]** aus, um in einem separaten Browserfenster zur vollständigen [Audience Manager-API-Referenzdokumentation zu navigieren](https://bank.demdex.com/portal/swagger/index.html#).
+>Wählen Sie die Option **[!UICONTROL View docs]** aus, um in einem separaten Browserfenster zur vollständigen [Audience Manager API-Referenzdokumentation zu ](https://bank.demdex.com/portal/swagger/index.html#).
 
 ### Wählen Sie den Authentifizierungstyp OAuth Server-zu-Server aus {#select-oauth-server-to-server}
 
@@ -211,13 +211,13 @@ Bei Verwendung eines funktionierenden Zugriffstokens gibt der API-Endpunkt eine 
 
 >[!ENDSHADEBOX]
 
-## [!BADGE Veraltet]{type=negative}[!DNL JWT] ([!DNL Service Account])-Authentifizierung mit Adobe Developer {#jwt}
+## [!BADGE Veraltet]{type=negative} [!DNL JWT] ([!DNL Service Account])-Authentifizierung mit Adobe Developer {#jwt}
 
 +++ Zeigen Sie Informationen zur veralteten [!DNL JWT] ([!DNL Service Account]) zum Abrufen von Authentifizierungs-Token an.
 
 ### Übersicht über Adobe Developer {#adobeio}
 
-[!DNL Adobe Developer] ist das Entwickler-Ökosystem und die Community der Adobe. Es enthält [APIs für alle Adobe-Produkte](https://www.adobe.io/apis.html).
+[!DNL Adobe Developer] ist Adobes Entwickler-Ökosystem und Community. Es enthält [APIs für alle Adobe-Produkte](https://www.adobe.io/apis.html).
 
 Dies ist die empfohlene Methode zum Einrichten und Verwenden [!DNL Adobe] [!DNL APIs].
 
@@ -240,19 +240,19 @@ Gehen Sie wie folgt vor, um [!DNL JWT (Service Account)] Authentifizierung mithi
 
 ### RBAC-Berechtigungen für technisches Konto
 
-Audience Manager Wenn Ihr Benutzerkonto die [Rollenbasierte Zugriffssteuerung](../../features/administration/administration-overview.md) verwendet, müssen Sie ein technisches Benutzerkonto für den Audience Manager erstellen und es der RBAC-Gruppe für den Audience Manager hinzufügen, die die API-Aufrufe durchführt.
+Wenn Ihr Audience Manager-Konto [Rollenbasierte Zugriffssteuerung](../../features/administration/administration-overview.md) verwendet, müssen Sie ein technisches Audience Manager-Benutzerkonto erstellen und es zur Audience Manager-RBAC-Gruppe hinzufügen, die die API-Aufrufe durchführt.
 
 Gehen Sie wie folgt vor, um ein technisches Benutzerkonto zu erstellen und es einer RBAC-Gruppe hinzuzufügen:
 
-1. Rufen Sie `https://aam.adobe.io/v1/users/self` `GET` an. Mit dem Aufruf wird ein technisches Benutzerkonto erstellt, das Sie im [!UICONTROL Admin Console] auf der [!UICONTROL Users] Seite sehen können.
+1. Rufen Sie `GET` `https://aam.adobe.io/v1/users/self` an. Mit dem Aufruf wird ein technisches Benutzerkonto erstellt, das Sie im [!UICONTROL Admin Console] auf der [!UICONTROL Users] Seite sehen können.
 
    ![Technisches Konto](assets/technical-account.png)
 
-1. Audience Manager Melden Sie sich bei Ihrem Benutzerkonto an und [ Sie der Benutzergruppe, ](../../features/administration/administration-overview.md#create-group) die API-Aufrufe durchführt, das technische Benutzerkonto.
+1. Melden Sie sich bei Ihrem Audience Manager-[ an und fügen Sie der Benutzergruppe](../../features/administration/administration-overview.md#create-group) die die API-Aufrufe durchführt, das technische Benutzerkonto hinzu.
 
 +++
 
-## [!BADGE Veraltet]{type=negative}[!DNL OAuth]-Authentifizierung (veraltet) {#oauth-deprecated}
+## [!BADGE Veraltet]{type=negative} [!DNL OAuth]-Authentifizierung (veraltet) {#oauth-deprecated}
 
 +++ Zeigen Sie Informationen zur veralteten Authentifizierungsmethode für ältere [!DNL OAuth] zum Abrufen von Authentifizierungs-Token an.
 
@@ -270,7 +270,7 @@ Es wird empfohlen, ein separates technisches Benutzerkonto für die Arbeit mit d
 * Ermitteln Sie, welcher Service die [!DNL API] aufruft (z. B. Aufrufe von Ihren Apps, die unsere [!DNL API] verwenden, oder von anderen Tools, die [!DNL API] Anfragen stellen).
 * Ununterbrochener Zugriff auf die [!DNL API]s. Ein Konto, das mit einer bestimmten Person verknüpft ist, kann gelöscht werden, wenn diese Person Ihr Unternehmen verlässt. Dadurch wird verhindert, dass Sie mit dem verfügbaren [!DNL API]-Code arbeiten. Ein generisches Konto, das nicht an einen bestimmten Mitarbeiter gebunden ist, hilft Ihnen, dieses Problem zu vermeiden.
 
-Angenommen, Sie möchten mit den „Tools für die Massenverwaltung“ viele Segmente gleichzeitig ändern, [ Beispiel für diesen Kontotyp](../../reference/bulk-management-tools/bulk-management-intro.md). Dazu benötigt Ihr Benutzerkonto [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn Sie Ihre eigenen Anwendungen entwickeln, die die [!DNL API] der [!DNL Audience Manager] verwenden.
+Angenommen, Sie möchten mit den „Tools für die Massenverwaltung“ viele Segmente gleichzeitig ändern, [ Beispiel für diesen Kontotyp](../../reference/bulk-management-tools/bulk-management-intro.md). Dazu benötigt Ihr Benutzerkonto [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn Sie Ihre eigenen Anwendungen entwickeln, die die [!DNL Audience Manager] der [!DNL API] verwenden.
 
 Arbeiten Sie mit Ihrem [!DNL Audience Manager] Berater zusammen, um ein generisches, [!DNL API] Benutzerkonto einzurichten.
 
@@ -402,7 +402,7 @@ In der folgenden Tabelle sind die [!DNL URLs] aufgeführt, die zum Übergeben vo
 
 Je nach der von Ihnen verwendeten Authentifizierungsmethode müssen Sie Ihre [!DNL URLs] entsprechend den folgenden Tabellen anpassen.
 
-### [!DNL URLs] für die [!BADGE Empfohlen]{type=positive}[!BADGE Veraltet]{type=negative}[!DNL JWT] Authentifizierung über Adobe Developer {#request-urls-jwt}
+### [!DNL URLs] für die OAuth[!BADGE Server-zu-Server-Authentifizierung ]{type=positive}empfohlen) und die [!BADGE -Authentifizierung ]{type=negative}veraltet[!DNL JWT] über Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] | [!DNL URL] anfordern |
 |--- |--- |
@@ -420,7 +420,7 @@ Je nach der von Ihnen verwendeten Authentifizierungsmethode müssen Sie Ihre [!D
 
 {style="table-layout:auto"}
 
-### [!DNL URLs] für den [!BADGE Veraltet]{type=negative}[!DNL OAuth] Authentifizierung {#request-urls-oauth}
+### [!DNL URLs] für die [!BADGE veraltete]{type=negative} alte [!DNL OAuth] Authentifizierung anfordern {#request-urls-oauth}
 
 | [!DNL API] | [!DNL URL] anfordern |
 |--- |--- |

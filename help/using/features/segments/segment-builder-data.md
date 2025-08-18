@@ -34,7 +34,7 @@ In der folgenden Tabelle werden die Metriken zur Eigenschaftenpopulation definie
 
 ## Berechnung der realen und geschätzten Segmentpopulationen {#calculating-real-estimated-populations}
 
-Audience Manager Wenn Sie ein neues Segment erstellen oder ein vorhandenes Segment ändern, dauert es bis zu 24 Stunden, bis die Ergebnisse für die tatsächlichen Echtzeit- und Gesamtsegmentpopulationen angezeigt werden.
+Wenn Sie ein neues Segment erstellen oder ein vorhandenes Segment ändern, dauert es bis zu 24 Stunden, bis Audience Manager Ergebnisse für die tatsächlichen Echtzeit- und Gesamtsegmentpopulationen anzeigt.
 
 Audience Manager kann jedoch sofort die Echtzeit- und Gesamtpopulation Ihres Segments schätzen. Diese Schätzungen basieren auf abgefragten historischen Daten und geben Ergebnisse im 95-%-Konfidenzintervall zurück.
 
@@ -68,10 +68,10 @@ In der folgenden Tabelle werden die Metriken der geschätzten Population definie
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> geschätzte Echtzeit-Population (potenzieller </span>) </p> </td> 
-   <td colname="col2"> <p>Die geschätzte Anzahl der Unique Visitors, die für den angegebenen Zeitraum in Echtzeit gesehen und für das Segment zu dem Zeitpunkt qualifiziert wurden, als sie vom Audience Manager gesehen wurden. </p> <p>In <span class="wintitle"> Segment Builder</span> können die Populationen der letzten 30 Tage für Eigenschaften (<span class="wintitle"> Gesamtzahl der </span>) für Eigenschaften und Segmente, die in Echtzeit ausgewertet werden, unterschiedlich sein. </p> <p>
+   <td colname="col2"> <p>Die geschätzte Anzahl der Unique Visitors, die im angegebenen Zeitraum in Echtzeit gesehen wurden und die zum Zeitpunkt ihrer Anzeige in Audience Manager für das Segment qualifiziert waren. </p> <p>In <span class="wintitle"> Segment Builder</span> können die Populationen der letzten 30 Tage für Eigenschaften (<span class="wintitle"> Gesamtzahl der </span>) für Eigenschaften und Segmente, die in Echtzeit ausgewertet werden, unterschiedlich sein. </p> <p>
      <ul id="ul_CAE803D09913462CAD413A665D85C1A2"> 
       <li id="li_3E64330D6F5B4D2F8F3456730A86894F">Bei Eigenschaften zählt die Metrik der letzten 30 Tage die Anzahl der eindeutigen Benutzer, die sich in den letzten 30 Tagen für diese Eigenschaft qualifiziert haben. </li>
-      <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">Bei Segmenten, die in Echtzeit ausgewertet werden, zählt die Metrik der letzten 30 Tage die Anzahl der Benutzenden, die sich zu einem früheren Zeitpunkt für ein Merkmal (in diesem Segment) qualifiziert haben und die in den letzten 30 Tagen von Audience Managern erneut gesehen wurden. Angenommen, Sie haben einen Benutzer, der sich vor 60 Tagen für eine Eigenschaft qualifiziert hat und vor 10 Tagen erneut gesehen wurde. In den Daten wird dieser Benutzer nicht zur Anzahl der Eigenschaften hinzugefügt, da er sich zum ersten Mal für die Eigenschaft vor mehr als 30 Tagen qualifiziert hat. Sie werden jedoch in die letzte 30-Tage-Zählung für die Segmente einbezogen, die in Echtzeit ausgewertet werden. Dies liegt daran, dass sie sich innerhalb des 30-tägigen Zeitintervalls für das Segment qualifiziert haben. </li>
+      <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">Bei Segmenten, die in Echtzeit ausgewertet werden, zählt die Metrik der letzten 30 Tage die Anzahl der Benutzenden, die sich zu einem beliebigen Zeitpunkt in der Vergangenheit für ein Merkmal (in diesem Segment) qualifiziert haben und in den letzten 30 Tagen von Audience Manager erneut gesehen wurden. Angenommen, Sie haben einen Benutzer, der sich vor 60 Tagen für eine Eigenschaft qualifiziert hat und vor 10 Tagen erneut gesehen wurde. In den Daten wird dieser Benutzer nicht zur Anzahl der Eigenschaften hinzugefügt, da er sich zum ersten Mal für die Eigenschaft vor mehr als 30 Tagen qualifiziert hat. Sie werden jedoch in die letzte 30-Tage-Zählung für die Segmente einbezogen, die in Echtzeit ausgewertet werden. Dies liegt daran, dass sie sich innerhalb des 30-tägigen Zeitintervalls für das Segment qualifiziert haben. </li>
      </ul> </p> <p> <p>Hinweis: Die Metrik Geschätzte <span class="wintitle"> Echtzeit-</span> enthält keine Geräte, die sich für ein Segment qualifiziert haben, das auf Verbindungen basiert, die von einer <span class="wintitle">-Profilzusammenführungsregel bereitgestellt werden</span> die eine <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> Gerätediagramm-Option verwendet</a>. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ In der folgenden Tabelle werden die Metriken der geschätzten Population definie
 
 ### Daten zur Segmentpopulation für [!UICONTROL Merge Rules] ohne [!UICONTROL Device Graph Option]
 
-In der folgenden Tabelle werden die tatsächlichen Echtzeit- und Gesamtbevölkerungsmetriken definiert, wenn Ihre Segmente von einem ohne [!UICONTROL device graph] erstellten [!UICONTROL Profile Merge Rule] verwendet werden. Dies sind die Geräteoptionen Einstellungen **[!UICONTROL No Device Options]** und **[!UICONTROL Current Device Proflie]**.
+In der folgenden Tabelle werden die tatsächlichen Echtzeit- und Gesamtbevölkerungsmetriken definiert, wenn Ihre Segmente von einem ohne [!UICONTROL Profile Merge Rule] erstellten [!UICONTROL device graph] verwendet werden. Dies sind die Geräteoptionen Einstellungen **[!UICONTROL No Device Options]** und **[!UICONTROL Current Device Proflie]**.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -103,10 +103,10 @@ In der folgenden Tabelle werden die tatsächlichen Echtzeit- und Gesamtbevölker
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Echtzeit-Population (vorhanden)</span> </p> </td> 
-   <td colname="col2"> <p>Die tatsächliche Anzahl von Unique Visitors, die für den angegebenen Zeitraum in Echtzeit angezeigt wurden und die für das Segment zu dem Zeitpunkt qualifiziert waren, als sie vom Audience Manager gesehen wurden. </p> <p>In <span class="wintitle"> Segment Builder </span> die Populationen der letzten 30 Tage für Eigenschaften (<span class="wintitle"> Gesamtzahl der Eigenschaftspopulationen</span>) für Eigenschaften und Segmente, die in Echtzeit ausgewertet werden, unterschiedlich sein. </p> <p> 
+   <td colname="col2"> <p>Die tatsächliche Anzahl der Unique Visitors, die im angegebenen Zeitraum in Echtzeit gesehen und für das Segment qualifiziert wurden, als sie von Audience Manager gesehen wurden. </p> <p>In <span class="wintitle"> Segment Builder </span> die Populationen der letzten 30 Tage für Eigenschaften (<span class="wintitle"> Gesamtzahl der Eigenschaftspopulationen</span>) für Eigenschaften und Segmente, die in Echtzeit ausgewertet werden, unterschiedlich sein. </p> <p> 
      <ul id="ul_50D1528DDDF347858F17DA3C033B0E3F"> 
       <li id="li_ABA2BFE68FF4430DBB425C4661E1836A">Bei Eigenschaften zählt die Metrik der letzten 30 Tage die Anzahl der eindeutigen Benutzer, die sich in den letzten 30 Tagen für diese Eigenschaft qualifiziert haben. </li> 
-      <li id="li_1519068CBB1445E893657D12E8FE42AC">Bei Segmenten, die in Echtzeit ausgewertet werden, zählt die Metrik der letzten 30 Tage die Anzahl der Benutzenden, die sich zu einem früheren Zeitpunkt für ein Merkmal (in diesem Segment) qualifiziert haben und die in den letzten 30 Tagen von Audience Managern erneut gesehen wurden. Angenommen, Sie haben einen Benutzer, der sich vor 60 Tagen für eine Eigenschaft qualifiziert hat und vor 10 Tagen erneut gesehen wurde. In den Daten wird dieser Benutzer nicht zur Anzahl der Eigenschaften hinzugefügt, da er sich zum ersten Mal für die Eigenschaft vor mehr als 30 Tagen qualifiziert hat. Sie werden jedoch in die letzte 30-Tage-Zählung für die Segmente einbezogen, die in Echtzeit ausgewertet werden. Dies liegt daran, dass sie sich innerhalb des 30-tägigen Zeitintervalls für das Segment qualifiziert haben. </li> 
+      <li id="li_1519068CBB1445E893657D12E8FE42AC">Bei Segmenten, die in Echtzeit ausgewertet werden, zählt die Metrik der letzten 30 Tage die Anzahl der Benutzenden, die sich zu einem beliebigen Zeitpunkt in der Vergangenheit für ein Merkmal (in diesem Segment) qualifiziert haben und in den letzten 30 Tagen von Audience Manager erneut gesehen wurden. Angenommen, Sie haben einen Benutzer, der sich vor 60 Tagen für eine Eigenschaft qualifiziert hat und vor 10 Tagen erneut gesehen wurde. In den Daten wird dieser Benutzer nicht zur Anzahl der Eigenschaften hinzugefügt, da er sich zum ersten Mal für die Eigenschaft vor mehr als 30 Tagen qualifiziert hat. Sie werden jedoch in die letzte 30-Tage-Zählung für die Segmente einbezogen, die in Echtzeit ausgewertet werden. Dies liegt daran, dass sie sich innerhalb des 30-tägigen Zeitintervalls für das Segment qualifiziert haben. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -118,12 +118,12 @@ In der folgenden Tabelle werden die tatsächlichen Echtzeit- und Gesamtbevölker
 
 ### Daten zur Segmentpopulation für [!UICONTROL Merge Rules] mit einer [!UICONTROL Device Graph] Option
 
-In der folgenden Tabelle werden die tatsächlichen Echtzeit- und Gesamtbevölkerungsmetriken definiert, wenn Ihre Segmente von einem mit einer [!DNL device graph] erstellten [!UICONTROL Profile Merge Rule] verwendet werden. Dies sind die Geräteoptionseinstellungen für die [!UICONTROL Profile Link Device Graph], die [!DNL Adobe] [!DNL device graph] und andere [!DNL device graph] von Drittanbietern, die Ihnen zur Verfügung stehen.
+In der folgenden Tabelle werden die tatsächlichen Echtzeit- und Gesamtbevölkerungsmetriken definiert, wenn Ihre Segmente von einem mit einer [!UICONTROL Profile Merge Rule] erstellten [!DNL device graph] verwendet werden. Dies sind die Geräteoptionseinstellungen für die [!UICONTROL Profile Link Device Graph], die [!DNL Adobe] [!DNL device graph] und andere [!DNL device graph] von Drittanbietern, die Ihnen zur Verfügung stehen.
 
 
 | Spalte A | Spalte B |
 |---------|----------|
-| [!UICONTROL Real-Time Population (Existing)] | Die tatsächliche Anzahl von Geräten, die in Echtzeit mit aktuellen Profilen angezeigt wird und die, wenn sie mit bis zu 100 anderen Geräteprofilen zusammengeführt werden, die durch das Gerätediagramm verbunden sind, die Eigenschaften enthalten, die für das Segment in dem Moment qualifiziert sind, in dem es vom Audience Manager gesehen wurde. |
+| [!UICONTROL Real-Time Population (Existing)] | Die tatsächliche Anzahl von Geräten, die in Echtzeit mit aktuellen Profilen angezeigt wird und die, wenn sie mit bis zu 100 anderen Geräteprofilen zusammengeführt werden, die durch das Gerätediagramm verbunden sind, die Eigenschaften enthalten, die für das Segment in dem Moment qualifiziert sind, in dem es von Audience Manager gesehen wurde. |
 | [!UICONTROL Total Population (Existing)] | Die Gesamtzahl der Geräte mit Profilen, die bei der Zusammenführung mit bis zu 100 anderen Geräteprofilen, die durch das Gerätediagramm verbunden sind, alle für das Segment qualifiziert waren. |
 
 ### Einschränkungen aufgrund von Neuigkeit und Häufigkeitsausdrücken bei der Schätzung von Segmentpopulationen

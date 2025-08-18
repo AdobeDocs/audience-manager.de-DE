@@ -18,7 +18,7 @@ ht-degree: 19%
 
 # [!UICONTROL Destinations] {#destinations}
 
-Im Audience Manager ist ein [!UICONTROL destination] jedes Drittanbietersystem (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool, mit dem Sie [!UICONTROL cookie], [!DNL URL] oder [!UICONTROL server-to-server destinations] erstellen und verwalten.
+In Audience Manager ist ein [!UICONTROL destination] jedes Drittanbietersystem (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] ist das Tool, mit dem Sie [!UICONTROL cookie], [!DNL URL] oder [!UICONTROL server-to-server destinations] erstellen und verwalten.
 
 ## Zweck und Vorteile {#purposes}
 
@@ -26,7 +26,7 @@ Im Audience Manager ist ein [!UICONTROL destination] jedes Drittanbietersystem (
 
 Mit [!UICONTROL Destinations] und [!UICONTROL Destination Builder] können Sie [!UICONTROL destinations] erstellen und Informationen zu segmentierten Benutzern an Ihren Datenpartner senden. Dies hilft Ihnen bei Folgendem:
 
-* **Protect-Datenwert:** Senden Sie nicht alle Benutzerdaten an eine [!UICONTROL destination], [!UICONTROL Destination Builder] Sie bestimmte Informationen nur über qualifizierte Benutzende weitergeben können.
+* **Datenwert schützen** Anstatt alle Benutzerdaten an einen [!UICONTROL destination] zu senden, können [!UICONTROL Destination Builder] bestimmte Informationen nur über qualifizierte Benutzer freigeben.
 * **Ihre Daten bearbeiten:** Senden von Daten an einen [!UICONTROL destination] hilft Ihnen, schnell qualifizierte Zielgruppensegmente zu entwickeln und anzusprechen.
 * **Geringerer technischer Aufwand:** Business-Anwender können [!UICONTROL destinations] sicher in der [!UICONTROL Destination Builder] einrichten. Dadurch wird der Zeitaufwand für Tests vor der Bereitstellung reduziert. Mit [!UICONTROL Destination Builder] können Sie [!UICONTROL destinations] erstellen, verwalten und löschen, wenn sich Ihre Geschäftsanforderungen ändern, ohne dabei einen langen Entwicklungszyklus durchlaufen zu müssen.
 

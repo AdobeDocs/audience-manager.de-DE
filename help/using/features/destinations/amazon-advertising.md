@@ -28,7 +28,7 @@ In diesem Abschnitt werden die Schritte beschrieben, die Sie beim Konfigurieren 
 
 ### Schritt 1. Mit [!DNL Amazon Advertising] authentifizieren {#step1-authenticate-with-amazon}
 
-Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie den Audience Manager und Ihr [!DNL Amazon Advertising]-Konto verknüpfen. Gehen Sie wie folgt vor:
+Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie Audience Manager und Ihr [!DNL Amazon Advertising]-Konto verknüpfen. Gehen Sie wie folgt vor:
 
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration > Integrated Accounts]**. Wenn Sie über eine zuvor konfigurierte Integration mit einer Zielplattform verfügen, sollte diese auf dieser Seite aufgeführt sein. Andernfalls ist die Seite leer.
 1. Wählen Sie **[!UICONTROL Add Account]** aus.
@@ -36,11 +36,11 @@ Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie den Audience
 
    ![integrierte Plattformen](assets/dbd-amazon-without-options.png)
 
-1. Wählen Sie je nach Region, in der Ihr [!DNL Amazon Ads]-Konto erstellt wurde (Nordamerika, Europa oder Fernost), eine der **[!UICONTROL Amazon Data Provider]** Optionen aus und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite weitergeleitet zu werden.
+1. Wählen Sie je nach Region, in der Ihr **[!UICONTROL Amazon Data Provider]**-Konto erstellt wurde (Nordamerika, Europa oder Fernost), eine der [!DNL Amazon Ads] Optionen aus und klicken Sie auf **[!DNL Confirm]** , um zur Authentifizierungsseite weitergeleitet zu werden.
 
    ![integrierte Plattformen](assets/dbd-amazon-with-options.png)
 
-1. Sobald Sie sich authentifiziert haben, werden Sie zum Audience Manager weitergeleitet, in dem Sie Ihre zugehörigen Advertiser-Konten sehen sollten. Wählen Sie das zu verwendende Advertiser-Konto aus und klicken Sie auf **[!UICONTROL Confirm]**. Auf diese Weise haben Sie Zugriff auf Audience Manager, um Aktualisierungen für Ihre Zielgruppen zu senden.
+1. Sobald Sie sich authentifiziert haben, werden Sie zu Audience Manager weitergeleitet, wo Ihre zugehörigen Advertiser-Konten angezeigt werden sollten. Wählen Sie das zu verwendende Advertiser-Konto aus und klicken Sie auf **[!UICONTROL Confirm]**. Auf diese Weise haben Sie Zugriff auf Audience Manager, um Aktualisierungen für Ihre Zielgruppen zu senden.
 
 ### Schritt 2: Erstellen eines neuen gerätebasierten Ziels {#step2-create-new-destination}
 
@@ -71,5 +71,5 @@ Beim Konfigurieren oder Senden von Daten an das [!DNL Amazon Advertising]-Ziel t
 
 | Fehlermeldung | Vorfall/Grund | Auflösung |
 |---|---|---|
-| `Internal server error` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn versucht wird, ein neues [!DNL Amazon] mit einer veralteten Version der Amazon-API hinzuzufügen. | Adobe-Kundenunterstützung kontaktieren. |
+| `Internal server error` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn versucht wird, ein neues [!DNL Amazon]-Konto mit einer veralteten Version der Amazon-API hinzuzufügen. | Adobe-Kundenunterstützung kontaktieren. |
 | `Amazon Error: Account XXXXXXXXX was not found` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn die für das Ziel konfigurierten Anmeldeinformationen nicht für den Zugriff auf das entsprechende Amazon Ads-Konto autorisiert sind. | <ul><li>Stellen Sie sicher, dass die von Ihnen verwendeten Kontoanmeldeinformationen die [ Voraussetzungen ](#prerequisites).</li><li>Navigieren Sie zur Amazon Ads-Benutzeroberfläche mit denselben Anmeldeinformationen und überprüfen Sie, ob unter dem entsprechenden Konto die richtigen Zielgruppen angezeigt werden. </li></ul> |

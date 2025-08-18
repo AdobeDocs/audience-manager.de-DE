@@ -1,6 +1,6 @@
 ---
-title: Migrieren von der Audience Manager-Tag-Erweiterung zur Web SDK-Tag-Erweiterung
-description: Machen Sie sich mit den Schritten zur Aktualisierung Ihrer Datenerfassungsbibliothek für Audience Manager von der Audience Manager-Tag-Erweiterung zur Web SDK-Tag-Erweiterung vertraut
+title: Migrieren von der Audience Manager-Tag-Erweiterung zur Web-Tag-Erweiterung für SDK
+description: Verstehen Sie die Schritte zum Aktualisieren Ihrer Datenerfassungsbibliothek für Audience Manager von der Audience Manager-Tag-Erweiterung auf die Web-Tag-Erweiterung für SDK
 exl-id: 7f0486db-4511-4311-90df-290580fdcd78
 source-git-commit: a50aaeb5e384685100dc3ecc1d6d45f1c41461d0
 workflow-type: tm+mt
@@ -9,11 +9,11 @@ ht-degree: 0%
 
 ---
 
-# Aktualisieren Sie Ihre Datenerfassungsbibliothek für den Audience Manager von der Audience Manager-Tag-Erweiterung zur Web SDK-Tag-Erweiterung.
+# Aktualisieren Sie Ihre Datenerfassungsbibliothek für Audience Manager von der Audience Manager-Tag-Erweiterung zur Web-Tag-Erweiterung für SDK
 
 ## Vorgesehene Zielgruppe
 
-Diese Seite richtet sich an Audience Manager-Kunden, die die [Audience Manager-Tag-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/audience-manager/overview) verwenden, um Web-Sammlungsdaten in den Audience Manager zu bringen. Kunden, die die AppMeasurement JavaScript-Bibliothek verwenden, lesen bitte das Handbuch zum Aktualisieren Ihrer Datenerfassungsbibliothek für den Audience Manager [von der AppMeasurement JavaScript-Bibliothek zur Web SDK JavaScript-Bibliothek](appmeasurement-to-web-sdk.md).
+Diese Seite richtet sich an Audience Manager-Kunden, die die Tag-Erweiterung [Audience Manager verwenden](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) um Web-Sammlungsdaten in Audience Manager zu importieren. Kunden, die die AppMeasurement JavaScript-Bibliothek verwenden, lesen bitte das Handbuch zum Aktualisieren Ihrer Datenerfassungsbibliothek für Audience Manager [von der AppMeasurement JavaScript-Bibliothek auf die Web SDK JavaScript-Bibliothek](appmeasurement-to-web-sdk.md).
 
 ## Vor- und Nachteile dieses Implementierungspfads
 
@@ -31,7 +31,7 @@ Die folgenden Schritte enthalten konkrete Ziele, auf die Sie hinarbeiten müssen
 
 +++**1. Erstellen und Konfigurieren eines Datenstroms**
 
-Gehen Sie wie folgt vor, um einen Datenstrom in der Datenerfassung von Adobe Experience Platform zu erstellen. Wenn Sie Daten an diesen Datenstrom senden, leitet er Daten an den -Audience Manager weiter. In Zukunft leitet derselbe Datenstrom Daten an Real-Time CDP weiter.
+Gehen Sie wie folgt vor, um einen Datenstrom in der Datenerfassung von Adobe Experience Platform zu erstellen. Wenn Sie Daten an diesen Datenstrom senden, leitet er Daten an Audience Manager weiter. In Zukunft leitet derselbe Datenstrom Daten an Real-Time CDP weiter.
 
 1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com) und melden Sie sich mit Ihren Anmeldedaten an.
 1. Navigieren Sie mithilfe der Startseite oder des Produktselektors oben rechts zu **[!UICONTROL Data Collection]**.
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um einen Datenstrom in der Datenerfassung von Adobe Exp
 
    ![Audience Manager-Service hinzufügen](assets/add-service.png) {style="border:1px solid lightslategray"}
 
-Ihr Datenstrom ist jetzt bereit, Daten zu empfangen und an den Audience Manager weiterzuleiten.
+Ihr Datenstrom ist jetzt bereit, Daten zu empfangen und an Audience Manager weiterzugeben.
 
 +++
 
@@ -99,14 +99,14 @@ Dieser Schritt enthält den Großteil des für die Migration auf die Web-SDK erf
 1. Wählen Sie in der linken Navigation der Tags-Benutzeroberfläche **[!UICONTROL Rules]** aus.
 1. Regel zum Bearbeiten auswählen.
 1. **[!UICONTROL Audience Manager - Set Variables]** auswählen
-1. Notieren Sie alle Audience Manager-Variablen, die in dieser Regel festgelegt sind. Schließen Sie sowohl in den Dropdown-Menüs festgelegte Variablen als auch Variablen ein, die in benutzerdefiniertem Code festgelegt sind.
+1. Notieren Sie sich alle Audience Manager-Variablen, die in dieser Regel festgelegt sind. Schließen Sie sowohl in den Dropdown-Menüs festgelegte Variablen als auch Variablen ein, die in benutzerdefiniertem Code festgelegt sind.
 1. Ändern Sie die [!UICONTROL Action Configuration] in die folgenden Einstellungen:
    * **[!UICONTROL Extension]**: [!UICONTROL Adobe Experience Platform Web SDK]
    * **[!UICONTROL Action type]**: Variable aktualisieren
 1. Stellen Sie sicher, dass das in Schritt 3 erstellte Datenobjekt in der Dropdown-Liste auf der rechten Seite im Feld **[!UICONTROL Data element]** ausgewählt ist.
-1. Legen Sie die Schlüssel-Wert-Paare des Audience Managers auf dieselben entsprechenden Werte fest, wie sie in der Audience Manager-Erweiterung konfiguriert wurden.
+1. Legen Sie die Schlüssel-Wert-Paare für Audience Manager auf dieselben entsprechenden Werte fest, wie sie in der Audience Manager-Erweiterung konfiguriert wurden.
 1. Nachdem die gesamte Regellogik mithilfe der Web-SDK-Erweiterung repliziert wurde, wählen Sie **[!UICONTROL Keep Changes]** aus.
-1. Wiederholen Sie diese Schritte für jede Aktionskonfiguration, die die Audience Manager-Tag-Erweiterung zum Festlegen von Werten verwendet.
+1. Wiederholen Sie diese Schritte für jede Aktionskonfiguration, die die Tag-Erweiterung von Audience Manager zum Festlegen von Werten verwendet.
 
 Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden Schritte ersetzen alle Aktionen, die die [!UICONTROL Action Configuration]-[!UICONTROL Send Event] verwenden.
 
@@ -123,7 +123,7 @@ Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden S
 
 +++
 
-+++**5. Aktualisierte Publish-Regeln**
++++**5. Aktualisierte Regeln veröffentlichen**
 
 Das Veröffentlichen aktualisierter Regeln folgt demselben Workflow wie alle anderen Änderungen an Ihrer Tags-Konfiguration.
 
@@ -140,9 +140,9 @@ Das Veröffentlichen aktualisierter Regeln folgt demselben Workflow wie alle and
 
 +++
 
-+++**6. Deaktivieren Sie die Audience Manager-Erweiterung**
++++**6. Audience Manager-Erweiterung deaktivieren**
 
-Nachdem Ihre Tag-Implementierung vollständig in die Web-SDK migriert wurde, können Sie die Audience Manager-Erweiterung deaktivieren.
+Sobald Ihre Tag-Implementierung vollständig in die Web-SDK migriert ist, können Sie die Audience Manager-Erweiterung deaktivieren.
 
 1. Wählen Sie in der linken Navigation der Tags-Benutzeroberfläche **[!UICONTROL Extensions]** aus.
 1. Suchen Sie die [!UICONTROL Audience Manager]-Erweiterung und wählen Sie sie aus. Wählen Sie rechts **[!UICONTROL Disable]** aus.

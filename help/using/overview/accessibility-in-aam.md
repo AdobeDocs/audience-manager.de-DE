@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Softwareprodukt mit möglichst wenig Aufwand von Benutzern mit verschiedenen Behinderungen wie visuell, auditiv, kognitiv, motorisch oder anderen nutzbar machen.
 
-Adobe ist ein branchenführendes Unternehmen im Bereich Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzenden zugängliche Inhalte zu erstellen. Weitere Informationen zum Engagement der Adobe für Barrierefreiheit finden Sie unter [Barrierefreiheit von Adobe](https://www.adobe.com/accessibility.html).
+Adobe ist ein branchenführendes Unternehmen im Bereich Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzenden zugängliche Inhalte zu erstellen. Weitere Informationen zum Engagement von Adobe für Barrierefreiheit finden Sie unter [Barrierefreiheit bei Adobe](https://www.adobe.com/accessibility.html).
 
 Die häufigsten Barrierefreiheitsfunktionen in Softwareprodukten sind: Tastaturnavigation, semantische Struktur, ausreichender Kontrast zwischen Vordergrund- und Hintergrundelementen, Unterstützung für Hilfstechnologien, klare Elementbeschriftungen und so weiter.
 
@@ -47,7 +47,7 @@ Durch die Verwendung von semantischem Code und [ARIA](https://www.w3.org/WAI/sta
 
 Dadurch wird sichergestellt, dass Hilfstechnologien wie Bildschirmlesehilfen die Beschriftungen und andere Informationen für Benutzende auslesen können, damit diese einfach mit den Anwendungssteuerelementen interagieren können.
 
-Alle interaktiven Elemente in der Benutzeroberfläche des Audience Managers enthalten entsprechende Beschriftungen. Dadurch wird sichergestellt, dass Hilfstechnologien wie Bildschirmlesehilfen die Beschriftungen für Benutzende auslesen können.
+Alle interaktiven Elemente in der Benutzeroberfläche von Audience Manager enthalten entsprechende Beschriftungen. Dadurch wird sichergestellt, dass Hilfstechnologien wie Bildschirmlesehilfen die Beschriftungen für Benutzende auslesen können.
 
 ## Farben und Kontrast {#colors-contrast}
 
@@ -61,4 +61,4 @@ Zum Beispiel enthalten Ladebildschirme einen Ladestecker in einem weißen modale
 
 [!DNL Audience Manager] ist bestrebt, ein immer höheres Maß an Barrierefreiheit zu bieten, sodass das Produkt für alle einfach zu verwenden ist.
 
-Wir empfehlen Ihnen, das [Adobe-Feedback-Formular für Barrierefreiheit zu verwenden](https://www.adobe.com/accessibility/feedback.html) um uns Verbesserungsvorschläge und Probleme mit der Barrierefreiheit zu senden, auf die Sie stoßen. Gerne berücksichtigen wir Ihr Feedback und verbessern die [!DNL Audience Manager].
+Wir empfehlen Ihnen, das [Adobe-Feedback zur Barrierefreiheit](https://www.adobe.com/accessibility/feedback.html) zu verwenden, um uns Verbesserungsvorschläge und Probleme mit der Barrierefreiheit zu senden, auf die Sie stoßen. Gerne berücksichtigen wir Ihr Feedback und verbessern die [!DNL Audience Manager].

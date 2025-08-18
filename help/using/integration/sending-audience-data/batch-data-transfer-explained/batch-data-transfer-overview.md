@@ -1,10 +1,10 @@
 ---
-description: Eine Übersicht für technische und nicht-technische Kunden, die Daten aus anderen Systemen (offline) in den Audience Manager einbringen möchten.
+description: Eine Übersicht für technische und nicht-technische Kunden, die Daten von anderen Systemen (offline) in Audience Manager importieren möchten.
 keywords: Eingehend, Batch, Batch-Upload, Batch-Daten
 seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager. To do so, use the batch upload option in Audience Manager.
 seo-title: Send Batch Data to Audience Manager Overview
 solution: Audience Manager
-title: Stapeldaten an Audience Manager senden - Übersicht
+title: Senden von Batch-Daten an Audience Manager - Übersicht
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff

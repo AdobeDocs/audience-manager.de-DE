@@ -87,7 +87,7 @@ So erstellen Sie eine neue [!UICONTROL Segment Test Group]:
 
    >[!NOTE]
    >* Sie können die Testgruppen zu einem beliebigen Zeitpunkt im Erstellungsprozess speichern und zu einem späteren Zeitpunkt zum Assistenten zurückkehren. Der Testgruppenstatus wird **[!UICONTROL Draft]** und die Testgruppe sendet erst dann Daten an Ziele, wenn Sie die Segment-Testgruppe abgeschlossen haben.
-   >* Für Entwurfstests können Sie zurückgehen und die Testgruppen bearbeiten, indem Sie in der Hauptansicht der [!UICONTROL Audience Lab] auf der Karte Testgruppe auf **[!UICONTROL Edit]** klicken.
+   >* Für Entwurfstests können Sie zurückgehen und die Testgruppen bearbeiten, indem Sie in der Hauptansicht der **[!UICONTROL Edit]** auf der Karte Testgruppe auf [!UICONTROL Audience Lab] klicken.
 
 ## Segmenttestgruppen bearbeiten {#edit-test-groups}
 

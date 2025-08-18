@@ -1,5 +1,5 @@
 ---
-description: Wenn der Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie als Datenpartner diese Informationen mit Ihren Kunden teilen (oder selbst damit arbeiten), bieten ein tatsächlicher Name und eine Beschreibung ein besseres Erlebnis für Kunden in Berichten, Dashboards oder anderen Benutzeroberflächen (UI). Datenpartner können diese benutzerfreundlichen Namen ihren Kunden entweder mit den in diesem Abschnitt beschriebenen manuellen oder automatisierten Methoden zur Verfügung stellen.
+description: Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie als Datenpartner diese Informationen mit Ihren Kunden teilen (oder selbst damit arbeiten), bieten ein tatsächlicher Name und eine Beschreibung ein besseres Erlebnis für Kunden in Berichten, Dashboards oder anderen Benutzeroberflächen (UI). Datenpartner können diese benutzerfreundlichen Namen ihren Kunden entweder mit den in diesem Abschnitt beschriebenen manuellen oder automatisierten Methoden zur Verfügung stellen.
 seo-description: When Audience Manager sends segment information to a data partner, it identifies these objects with numeric IDs. As a data partner, when you share this information with your customers (or work with it yourself), an actual name and description provide a better experience for customers in reports, dashboards, or other user interfaces (UI). Data partners can make these friendly names available to their customers with either the manual or automated methods described in this section.
 seo-title: Retrieving Segment Metadata
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Abrufen von Segmentmetadaten {#retrieving-segment-metadata}
 
-Wenn der Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie als Datenpartner diese Informationen mit Ihren Kunden teilen (oder selbst damit arbeiten), bieten ein tatsächlicher Name und eine Beschreibung ein besseres Erlebnis für Kunden in Berichten, Dashboards oder anderen Benutzeroberflächen ([!DNL UI]). Datenpartner können diese benutzerfreundlichen Namen ihren Kunden entweder mit den in diesem Abschnitt beschriebenen manuellen oder automatisierten Methoden zur Verfügung stellen.
+Wenn Audience Manager Segmentinformationen an einen Datenpartner sendet, werden diese Objekte mit numerischen IDs identifiziert. Wenn Sie als Datenpartner diese Informationen mit Ihren Kunden teilen (oder selbst damit arbeiten), bieten ein tatsächlicher Name und eine Beschreibung ein besseres Erlebnis für Kunden in Berichten, Dashboards oder anderen Benutzeroberflächen ([!DNL UI]). Datenpartner können diese benutzerfreundlichen Namen ihren Kunden entweder mit den in diesem Abschnitt beschriebenen manuellen oder automatisierten Methoden zur Verfügung stellen.
 
 ## Manuelle Methode {#manual-method}
 
@@ -26,7 +26,7 @@ Als Datenpartner sind Sie wahrscheinlich daran gewöhnt, Zielgruppen-Metadaten v
 
 [!DNL Audience Manager] bietet eine Reihe von [REST-APIs](../../api/rest-api-main/rest-api-main.md) mit denen Sie Segmentmetadaten automatisch abrufen können. Mit dem [!DNL API] können Sie Aufträge erstellen, die Segmentmetadaten in terminierten Intervallen oder automatisch abrufen, wenn Sie [!DNL Audience Manager] verarbeiten und eine neue Segment-ID finden. Weitere Informationen finden Sie in den folgenden Schritten.
 
-### Schritt 1: Überprüfen der Audience Manager-APIs
+### Schritt 1: Überprüfen Sie die Audience Manager-APIs
 
 Der [Erste Schritte mit REST-](../../api/rest-api-main/aam-api-getting-started.md)&quot; enthält Informationen zu allgemeinen Anforderungen, Authentifizierung, verfügbaren Methoden usw. Dies ist ein guter Ausgangspunkt, wenn Sie noch nie mit dem [!DNL Audience Manager] [!DNL API] gearbeitet haben.
 
@@ -56,7 +56,7 @@ Nachdem Sie die vorherigen Schritte abgeschlossen haben, können Sie eine `GET`-
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
-   <td colname="col2"> <p>Der <span class="keyword"> Audience Manager </span> Segment-ID. </p> </td> 
+   <td colname="col2"> <p>Die <span class="keyword"> Audience Manager</span> Segment-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 

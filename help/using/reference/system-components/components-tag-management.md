@@ -1,5 +1,5 @@
 ---
-description: Zu den Audience Manager-Tag-Management-Komponenten gehören das Client-Portal, Adobe Tag Manager (veraltet zugunsten von Adobe Experience Platform Launch), DIL, Akamai und die Kontrolldatenbank.
+description: Zu den Tag-Management-Komponenten von Audience Manager gehören das Client-Portal, Adobe Tag Manager (veraltet zugunsten von Adobe Experience Platform Launch), DIL, Akamai und die Kontrolldatenbank.
 seo-description: Audience Manager tag management components include the client portal, Adobe Tag Manager (deprecated in favor of Adobe Experience Platform Launch), DIL, Akamai, and the control database.
 seo-title: Tag Management Components
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Tag Management-Komponenten{#tag-management-components}
 
-Zu den Audience Manager-Tag-Management-Komponenten gehören das Client-Portal, Adobe Tag Manager (veraltet zugunsten von Adobe Experience Platform Tags), DIL, Akamai und die Kontrolldatenbank.
+Zu den Tag-Management-Komponenten von Audience Manager gehören das Client-Portal, Adobe Tag Manager (veraltet zugunsten von Adobe Experience Platform Tags), DIL, Akamai und die Kontrolldatenbank.
 
 <!-- 
 
@@ -24,7 +24,7 @@ c_comptag.xml
 
  -->
 
-Audience Manager enthält die folgenden Komponenten:
+Audience Manager umfasst die folgenden Komponenten:
 
 * [Client-Portal](../../reference/system-components/components-tag-management.md#client-portal)
 * [DIL/TIM-Container](../../reference/system-components/components-tag-management.md#dil-tim)
@@ -38,11 +38,11 @@ Das Client-Portal ist die primäre Benutzeroberfläche für das Tag- und Daten-M
 
 ## DIL/TIM-Container {#dil-tim}
 
-Der [!UICONTROL DIL]-Container hilft beim Bereitstellen [!DNL Audience Manager] Datenerfassungs-Codes auf Ihrer Website. [!UICONTROL TIM] ist der veraltete Tag Insertion Manager. Es wird nicht mehr von [!DNL Audience Manager] verwendet. Stattdessen verwenden Sie die [!DNL Audience Manager]-Erweiterung in [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=de) um Container-Code zu konfigurieren und zu generieren, den Sie auf Seiten in Ihrem Inventar platzieren.
+Der [!UICONTROL DIL]-Container hilft beim Bereitstellen [!DNL Audience Manager] Datenerfassungs-Codes auf Ihrer Website. [!UICONTROL TIM] ist der veraltete Tag Insertion Manager. Es wird nicht mehr von [!DNL Audience Manager] verwendet. Stattdessen verwenden Sie die [!DNL Audience Manager]-Erweiterung in [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) um Container-Code zu konfigurieren und zu generieren, den Sie auf Seiten in Ihrem Inventar platzieren.
 
 ## Data Integration Library (DIL) {#dil}
 
-Die [Data Information Library](../../dil/dil-overview.md) (DIL) ist ein eigenständiges API-Modul, das Daten von Ihrer Website erfasst. [!UICONTROL DIL] ist es nicht mehr erforderlich, speziellen Code für die Datenerfassung, -integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben. [!UICONTROL DIL] führt diese Aktionen automatisch aus. Darüber hinaus ist [!UICONTROL DIL] kompakt. Es handelt sich dabei um eine eigenständige Code-Bibliothek, die dazu beiträgt, den für das Erfassen von Informationen erforderlichen Code zu reduzieren. Schließlich hilft Ihnen [!UICONTROL DIL] bei der Integration von [!DNL Audience Manager] mit anderen Produkten im [!DNL Adobe]-Experience Cloud.
+Die [Data Information Library](../../dil/dil-overview.md) (DIL) ist ein eigenständiges API-Modul, das Daten von Ihrer Website erfasst. [!UICONTROL DIL] ist es nicht mehr erforderlich, speziellen Code für die Datenerfassung, -integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben. [!UICONTROL DIL] führt diese Aktionen automatisch aus. Darüber hinaus ist [!UICONTROL DIL] kompakt. Es handelt sich dabei um eine eigenständige Code-Bibliothek, die dazu beiträgt, den für das Erfassen von Informationen erforderlichen Code zu reduzieren. Schließlich hilft Ihnen [!UICONTROL DIL] bei der Integration von [!DNL Audience Manager] mit anderen Produkten in der [!DNL Adobe] Experience Cloud.
 
 ## Akamai {#akamai}
 

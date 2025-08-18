@@ -27,7 +27,7 @@ Eine [!UICONTROL CDF]-Datei enthält dieselben Daten, die ein [!DNL Audience Man
 >
 >Beachten Sie die folgenden Einschränkungen beim Arbeiten mit CDF-Dateien:
 >
->* Stellen Sie vor der Einrichtung der CDF-Dateibereitstellung sicher, dass Sie über die entsprechenden Berechtigungen von Drittanbieterdatenanbietern für den Export von Drittanbieter-Eigenschaften verfügen. Der Audience Manager unterstützt derzeit keine Funktion in der Benutzeroberfläche, um Exportberechtigungen für die CDF-Dateibereitstellung von Drittanbietern anzufordern. Wenden Sie sich daher bitte unabhängig an diesen Anbieter.
+>* Stellen Sie vor der Einrichtung der CDF-Dateibereitstellung sicher, dass Sie über die entsprechenden Berechtigungen von Drittanbieterdatenanbietern für den Export von Drittanbieter-Eigenschaften verfügen. Audience Manager unterstützt derzeit keine Funktion in der Benutzeroberfläche, um Exportberechtigungen für die CDF-Dateibereitstellung von Drittanbietern anzufordern. Wenden Sie sich daher bitte unabhängig an diese.
 >* Sie sollten [!UICONTROL CDF]-Dateien nicht als Proxy verwenden, um den Seiten-Traffic zu überwachen, Berichtsdiskrepanzen auszugleichen, Abrechnungen zu erstellen usw.
 
 ## Erste Schritte {#getting-started}
@@ -76,7 +76,7 @@ Eine [!UICONTROL CDF]-Datei enthält einige oder alle der unten definierten Feld
   <tr> 
    <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Dies ist die <span class="wintitle"> Unique User ID</span> (UUID), eine 38-stellige Geräte-ID für Ihren Site-Besucher. Siehe auch <a href="../reference/ids-in-aam.md"> Index der IDs im Audience Manager </a>. </p> </td> 
+   <td colname="col3"> <p>Dies ist die <span class="wintitle"> Unique User ID</span> (UUID), eine 38-stellige Geräte-ID für Ihren Site-Besucher. Siehe auch <a href="../reference/ids-in-aam.md"> ID-Index in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
@@ -111,7 +111,7 @@ Eine [!UICONTROL CDF]-Datei enthält einige oder alle der unten definierten Feld
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die <span class="keyword"> Experience Cloud</span> ID (MID), die dem Site-Besucher zugewiesen wurde. Siehe auch <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> von Cookies und der Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>Die <span class="keyword"> Experience Cloud</span> ID (MID), die dem Site-Besucher zugewiesen wurde. Siehe auch <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und der Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -153,7 +153,7 @@ Listet die Datenstruktur einer [!UICONTROL CDF] auf und definiert sie. Dazu geh�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feldsequenz </p> </td> 
-   <td colname="col2"> <p> <p>Wichtig: <span class="keyword"> Audience Manager </span> behält sich das Recht vor, in zukünftigen Versionen neue Felder am Ende der CDF-Datei hinzuzufügen. Das bedeutet, dass das technische Design Ihres Datei-Parsing-Systems keine feste Anzahl von Spalten annehmen sollte (obwohl es eine feste Reihenfolge für vorhandene Spalten annehmen kann).</p> </p> <p>Die Daten in Ihrer CDF-Datei werden in der unten gezeigten Reihenfolge angezeigt. /N kann anstelle eines dieser Felder angezeigt werden, was einen Nullwert angibt.</p> <p> 
+   <td colname="col2"> <p> <p>Wichtig: <span class="keyword"> Audience Manager</span> behält sich das Recht vor, in zukünftigen Versionen neue Felder am Ende der CDF-Datei hinzuzufügen. Das bedeutet, dass das technische Design Ihres Datei-Parsing-Systems keine feste Anzahl von Spalten annehmen sollte (obwohl es eine feste Reihenfolge für vorhandene Spalten annehmen kann).</p> </p> <p>Die Daten in Ihrer CDF-Datei werden in der unten gezeigten Reihenfolge angezeigt. /N kann anstelle eines dieser Felder angezeigt werden, was einen Nullwert angibt.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Ereigniszeit </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Gerät </li> 
@@ -163,7 +163,7 @@ Listet die Datenstruktur einer [!UICONTROL CDF] auf und definiert sie. Dazu geh�
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Anfrageparameter </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-Adresse </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID). Siehe auch <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> von Cookies und der Adobe Experience Platform Identity Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID) Siehe auch <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und der Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle Segmente </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle Eigenschaften </li> 
      </ol> </p> <p>Beschreibungen der Felder finden Sie unter <a href="#cdf-defined"> von definierten Inhalten für Kundendaten-Feeds</a>. </p> </td> 

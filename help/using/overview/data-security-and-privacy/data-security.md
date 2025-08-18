@@ -91,6 +91,6 @@ Diese Richtlinie verbessert die Datensicherheit zwischen Clients und Adobe [Edge
 
 ### Beispiel {#hsts-example}
 
-Angenommen, die `yourcompany.demdex.com` Domain sendet Traffic über [!DNL HTTP] an die [!DNL DCS]. [!DNL HSTS] aktualisiert die Aufrufe, um stattdessen [!DNL HTTPS] zu verwenden. Alle nachfolgenden [!DNL DCS]-Aufrufe, die von `yourcompany.demdex.com` kommen, verwenden dann [!DNL HTTPS] anstelle von [!DNL HTTP].
+Angenommen, die `yourcompany.demdex.com` Domain sendet Traffic über [!DNL DCS] an die [!DNL HTTP]. [!DNL HSTS] aktualisiert die Aufrufe, um stattdessen [!DNL HTTPS] zu verwenden. Alle nachfolgenden [!DNL DCS]-Aufrufe, die von `yourcompany.demdex.com` kommen, verwenden dann [!DNL HTTPS] anstelle von [!DNL HTTP].
 
 Weitere Informationen zu HSTS finden Sie unter [HTTP Strict Transport Security – Wikipedia](https://de.wikipedia.org/wiki/HTTP_Strict_Transport_Security).

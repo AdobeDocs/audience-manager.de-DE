@@ -39,7 +39,7 @@ ht-degree: 0%
    >
    >Diese Option steht nur [!UICONTROL Data Explorer] Kunden zur Verfügung. Weitere Informationen erhalten Sie von Ihrem Adobe-Berater.
 
-1. Mit den Testfeldern können Sie Kombinationen von Signalregeln oder die [!DNL URL] überprüfen, die Sie beim Senden von Daten an den Audience Manager verwenden möchten.
+1. Mit den Testfeldern können Sie Kombinationen von Signalregeln oder die [!DNL URL] überprüfen, die Sie beim Senden von Daten an Audience Manager verwenden möchten.
 
 ## Erstellen einer Eigenschaftsregel {#create-trait-rule}
 
@@ -65,7 +65,7 @@ Füllen Sie die erforderlichen Felder im Abschnitt **[!UICONTROL Basic Informati
 
 ### Beispiel {#example-trait-rule}
 
-Im folgenden Beispiel hat ein Benutzer eine neue Eigenschaftsregel basierend auf der Produkt-ID erstellt. Um diese Regel zu erstellen, hat der Benutzer den Schlüssel bereitgestellt, der mit einem Equals-Operator (`==`) mit dem Wert `2093` verknüpft `productkey`.
+Im folgenden Beispiel hat ein Benutzer eine neue Eigenschaftsregel basierend auf der Produkt-ID erstellt. Um diese Regel zu erstellen, hat der Benutzer den Schlüssel bereitgestellt, der mit einem Equals-Operator (`productkey`) mit dem Wert `==` verknüpft `2093`.
 
 ![](assets/tb_sample_rule1.png)
 

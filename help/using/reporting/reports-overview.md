@@ -16,9 +16,9 @@ ht-degree: 0%
 
 In einzelnen Abschnitten werden die verfügbaren Berichte, ihre Zwecke und typische Verwendungszwecke beschrieben. Alle Berichte sind über das [!UICONTROL Analytics]-Dashboard verfügbar.
 
-Informationen zu den Zeiträumen, in denen der Audience Manager Informationen zum Ausfüllen von Berichten erhält, finden Sie [Wie sich Datenbereitstellungs- und Dateiverarbeitungszeiten auf Berichte auswirken](/help/using/reference/reporting-file-transfer-timeframe.md).
+Informationen zu den Zeiträumen, in denen Audience Manager Informationen zum Ausfüllen von Berichten erhält, finden Sie [Wie sich Datenbereitstellungs- und Dateiverarbeitungszeiten auf Berichte auswirken](/help/using/reference/reporting-file-transfer-timeframe.md).
 
-* [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Audience Optimization-Berichte](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
   Die [!UICONTROL Audience Optimization] Berichte verwenden Datenvisualisierungsmethoden, um Informationen über die Ziele in Ihrem Audience Manager-Konto zurückzugeben. In jedem Bericht können Sie auf fast jeden Datenpunkt klicken, um detaillierte Informationen zu diesem Element zurückzugeben. Diese Erkenntnisse zur Zielgruppenoptimierung können auf verschiedene Anwendungsfälle in der Werbung und auf Veröffentlichungskanälen angewendet werden, sind aber standardmäßig nicht verfügbar. Wenden Sie sich an Ihren Audience Manager-Berater, um zu beginnen.
 
@@ -50,6 +50,6 @@ Informationen zu den Zeiträumen, in denen der Audience Manager Informationen zu
 
   Verwenden Sie das Dashboard, um Informationen über die Unique-Visitor-Zahlen Ihrer Partner anzuzeigen, aufgeschlüsselt nach [!UICONTROL trait] und [!UICONTROL segments] für einen bestimmten Zeitraum.
 
-* [Datenstichproben und Fehlerquoten in Berichten zu ausgewählten Audience Managern](/help/using/reporting/report-sampling.md)
+* [Datenstichproben und Fehlerquoten in ausgewählten Audience Manager-Berichten](/help/using/reporting/report-sampling.md)
 
   Eine Zusammenfassung der für einige Berichte verwendeten Stichprobenmethodik, Stichprobenfehlerraten und eine Liste von Berichten, die Informationen auf der Grundlage von Stichprobendaten zurückgeben.

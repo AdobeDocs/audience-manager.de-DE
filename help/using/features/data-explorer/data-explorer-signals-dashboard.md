@@ -1,5 +1,5 @@
 ---
-description: Verschaffen Sie sich einen Überblick über die nicht verwendeten Signale, die der Audience Manager in den letzten 7 Tagen erhalten hat, und identifizieren Sie potenzielle neue Eigenschaften. Ungenutzte Signale erreichen Audience Manager aus Ihren Online-Eigenschaften, werden jedoch in keiner Ihrer bestehenden Eigenschaften verwendet. Um das Signale-Dashboard anzuzeigen, gehen Sie zu Zielgruppendaten > Signale. Das Signal-Dashboard zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
+description: Verschaffen Sie sich einen Überblick über die nicht verwendeten Signale, die in den letzten sieben Tagen von Audience Manager empfangen wurden, und identifizieren Sie potenzielle neue Eigenschaften. Nicht verwendete Signale erreichen Audience Manager über Ihre Online-Eigenschaften, werden jedoch in keiner Ihrer vorhandenen Eigenschaften verwendet. Um das Signale-Dashboard anzuzeigen, gehen Sie zu Zielgruppendaten > Signale. Das Signal-Dashboard zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
 seo-description: Get an overview of the unused signals received by Audience Manager in the past 7 days and identify potential new traits. Unused signals reach Audience Manager from your online properties, but are not used in any of your existing traits. To view the Signals Dashboard, go to Audience Data > Signals. The Signals Dashboard shows you actionable insights based on your most active unused signals.
 seo-title: Signals Dashboard
 title: Signal-Dashboard
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Signal-Dashboard {#signals-dashboard}
 
-Verschaffen Sie sich einen Überblick über die nicht verwendeten Signale, die der Audience Manager in den letzten 7 Tagen erhalten hat, und identifizieren Sie potenzielle neue Eigenschaften. Ungenutzte Signale erreichen Audience Manager aus Ihren Online-Eigenschaften, werden jedoch in keiner Ihrer bestehenden Eigenschaften verwendet. Um die [!UICONTROL Signals Dashboard] anzuzeigen, gehen Sie zu [!UICONTROL Audience Data] > [!UICONTROL Signals]. Die [!UICONTROL Signals Dashboard] zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
+Verschaffen Sie sich einen Überblick über die nicht verwendeten Signale, die in den letzten sieben Tagen von Audience Manager empfangen wurden, und identifizieren Sie potenzielle neue Eigenschaften. Nicht verwendete Signale erreichen Audience Manager über Ihre Online-Eigenschaften, werden jedoch in keiner Ihrer vorhandenen Eigenschaften verwendet. Um die [!UICONTROL Signals Dashboard] anzuzeigen, gehen Sie zu [!UICONTROL Audience Data] > [!UICONTROL Signals]. Die [!UICONTROL Signals Dashboard] zeigt Ihnen umsetzbare Einblicke basierend auf Ihren aktivsten nicht verwendeten Signalen.
 
 >[!IMPORTANT]
 >
@@ -40,4 +40,4 @@ In diesem Abschnitt werden die 50 neuen ungenutzten Signale angezeigt, die in de
 Gespeicherte Suchvorgänge zeigen die 50 besten Ergebnisse für die entsprechenden Kriterien an.
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie die [!UICONTROL Signals Dashboard] verwenden.
->[!VIDEO](https://video.tv.adobe.com/v/327522?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)

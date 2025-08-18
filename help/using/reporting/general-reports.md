@@ -129,7 +129,7 @@ Die folgenden Metriken sind verf체gbar, wenn Sie einen allgemeinen Bericht ausf�
 
 ### Echtzeit-Segmentpopulation
 
-Diese Metrik stellt die tats채chliche Anzahl der Unique Visitors dar, die im angegebenen Zeitraum in Echtzeit gesehen und f체r das Segment qualifiziert wurden, als sie vom Audience Manager gesehen wurden.
+Diese Metrik stellt die tats채chliche Anzahl der Unique Visitors dar, die im angegebenen Zeitraum in Echtzeit gesehen und f체r das Segment qualifiziert wurden, als sie von Audience Manager gesehen wurden.
 
 ### Segmentpopulation insgesamt
 
@@ -149,7 +149,7 @@ Die folgenden Metriken sind verf체gbar, wenn Sie einen allgemeinen Bericht ausf�
 
 **Echtzeit-Segmentpopulation**
 
-Diese Metrik stellt die tats채chliche Anzahl der Unique Visitors dar, die im angegebenen Zeitraum in Echtzeit gesehen und f체r das Segment qualifiziert wurden, als sie vom Audience Manager gesehen wurden.
+Diese Metrik stellt die tats채chliche Anzahl der Unique Visitors dar, die im angegebenen Zeitraum in Echtzeit gesehen und f체r das Segment qualifiziert wurden, als sie von Audience Manager gesehen wurden.
 
 **Segmentpopulation insgesamt**
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Dieser Artikel bietet einen allgemeinen Überblick über die Klassifizierung von Eigenschaften mit einer gemeinsamen Taxonomie.
 
-## Die Taxonomie des Audience Managers
+## Die Audience Manager-Taxonomie
 
 <!-- c_common_taxonomy_about.xml -->
 
@@ -31,7 +31,7 @@ Die Möglichkeit für unsere Kunden, benutzerdefinierte Segmente und Datenmodell
 
 ## Die Taxonomie verwendet Klassifizierungskategorien nach Branchenstandard
 
-Die gemeinsame Taxonomie basiert auf den Klassifizierungen, die von der [!DNL Interactive Advertising Bureau (IAB)] erstellt wurden. Weitere Informationen über Qualitätssicherungsrichtlinien für [ und ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) finden Sie auf der Website der [!DNL IAB].
+Die gemeinsame Taxonomie basiert auf den Klassifizierungen, die von der [!DNL Interactive Advertising Bureau (IAB)] erstellt wurden. Weitere Informationen über Qualitätssicherungsrichtlinien für [!DNL IAB] und [ finden Sie auf der Website der ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
 
 ## taxonomische Organisation
 

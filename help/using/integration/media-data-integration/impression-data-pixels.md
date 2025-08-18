@@ -1,5 +1,5 @@
 ---
-description: Ein Ansatz zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Kampagnenattribute an Audience Manager zu senden.
+description: Ein Ansatz zum Senden von Mediendaten an Audience Manager verwendet Anzeigenserver-Makros, um Kampagnenattribute an Audience Manager zu senden.
 seo-description: One approach for sending media data to Audience Manager uses ad server macros to send campaign attributes to Audience Manager.
 seo-title: Capturing Campaign Impression Data via Pixel Calls
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 # Erfassen von Campaign-Impressionsdaten über Pixel-Aufrufe{#capturing-campaign-impression-data-via-pixel-calls}
 
-Ein Ansatz zum Senden von Mediendaten an Audience Manager verwendet Anzeigenservermakros, um Kampagnenattribute an Audience Manager zu senden.
+Ein Ansatz zum Senden von Mediendaten an Audience Manager verwendet Anzeigenserver-Makros, um Kampagnenattribute an Audience Manager zu senden.
 
 Diese Methode wird oft als „Pixeln des Kreativen“ bezeichnet. Diese Datenpunkte werden von den Ad-Server-Makros von Drittanbietern dynamisch in den [!DNL Audience Manager]-Pixel-Code eingefügt. Diese werden verwendet, um alle Impressionen und Klicks basierend auf den wichtigsten Berichtsattributen der Kampagne zuzuordnen und zu melden. Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerdefinierter Konversionspfade und helfen Kunden, die Sequenz von Anzeigen-Server-Ereignissen zu verbessern, die zu Konversionen führen.
 
@@ -38,7 +38,7 @@ Im Schlüssel-Wert-Paar ist die Wert-Variable eine ID oder ein Makro, die bzw. d
 
 ## Unterstützte Schlüssel-Wert-Paare {#supported-key-value-pairs}
 
-Impression-Ereignisaufrufe akzeptieren Daten, die in Schlüssel-Wert-Paare gebildet werden. In der folgenden Tabelle sind die Schlüssel zum Speichern dieser Variablen aufgeführt und beschrieben. Viele dieser Funktionen sind erforderlich, wenn Sie Daten in den [Audience Optimization-Berichten erfassen und analysieren ](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Impression-Ereignisaufrufe akzeptieren Daten, die in Schlüssel-Wert-Paare gebildet werden. In der folgenden Tabelle sind die Schlüssel zum Speichern dieser Variablen aufgeführt und beschrieben. Viele dieser Funktionen sind erforderlich, wenn Sie Daten in den [Audience Optimization-Berichten erfassen und ](../../reporting/audience-optimization-reports/audience-optimization-reports.md) möchten.
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -54,19 +54,19 @@ Impression-Ereignisaufrufe akzeptieren Daten, die in Schlüssel-Wert-Paare gebil
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>Datenquellen-ID oder Integrations-Code für Ihren Advertiser. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span> Berichte. </p> <p>Optional.</p> </td> 
+   <td colname="col2"> <p>Datenquellen-ID oder Integrations-Code für Ihren Advertiser. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span>. </p> <p>Optional.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
-   <td colname="col2"> <p>Datenquellen-ID oder Integrations-Code für Ihre Geschäftseinheit. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span> Berichte. </p> </td> 
+   <td colname="col2"> <p>Datenquellen-ID oder Integrations-Code für Ihre Geschäftseinheit. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>Cache-Busting-Wert. <span class="keyword"> Audience Manager </span> sendet automatisch Header von Cache-Steuerelementen, die von den meisten Browsern und Proxys berücksichtigt werden. Wenn Sie zusätzliches Cache-Busting durchführen möchten, schließen Sie diesen Parameter in einen Ereignisaufruf ein, gefolgt von einer zufälligen Zeichenfolge. </p> <p> Optional. </p> </td> 
+   <td colname="col2"> <p>Cache-Busting-Wert. <span class="keyword"> Audience Manager </span> sendet automatisch Kopfzeilen zur Cache-Steuerung, die von den meisten Browsern und Proxys berücksichtigt werden. Wenn Sie zusätzliches Cache-Busting durchführen möchten, schließen Sie diesen Parameter in einen Ereignisaufruf ein, gefolgt von einer zufälligen Zeichenfolge. </p> <p> Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
-   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span> Berichte. </p> </td> 
+   <td colname="col2"> <p>Numerische Kampagnen-ID vom Anzeigen-Server. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
@@ -78,7 +78,7 @@ Impression-Ereignisaufrufe akzeptieren Daten, die in Schlüssel-Wert-Paare gebil
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_creative </code> </td> 
-   <td colname="col2"> <p>Numerische Kreativ-ID vom Anzeigen-Server. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span> Berichte. </p> </td> 
+   <td colname="col2"> <p>Numerische Kreativ-ID vom Anzeigen-Server. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_event=imp </code> </td> 
@@ -90,11 +90,11 @@ Impression-Ereignisaufrufe akzeptieren Daten, die in Schlüssel-Wert-Paare gebil
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_site </code> </td> 
-   <td colname="col2"> <p>Numerische Site-ID vom Anzeigen-Server. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span> Berichte. </p> </td> 
+   <td colname="col2"> <p>Numerische Site-ID vom Anzeigen-Server. </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_src </code> </td> 
-   <td colname="col2"> <p>Datenquelle-ID oder Integrations-Code der Plattform, die die Metadaten bereitstellt (z. B. DFA, Atlas, GBM, Media Math usw.). </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span> Berichte. </p> </td> 
+   <td colname="col2"> <p>Datenquelle-ID oder Integrations-Code der Plattform, die die Metadaten bereitstellt (z. B. DFA, Atlas, GBM, Media Math usw.). </p> <p>Erforderlich für <span class="wintitle"> Audience Optimization </span>. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
@@ -117,4 +117,4 @@ Sie können Pixel-Aufrufe verwenden, um die [Audience Optimization-Berichte zu ]
 
 >[!MORELIKETHIS]
 >
->* [Daten- und Metadatendateien für das Audience Optimization von Berichten](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Daten- und Metadatendateien für Audience Optimization-Berichte](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

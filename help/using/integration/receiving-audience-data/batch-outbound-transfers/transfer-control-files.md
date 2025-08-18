@@ -1,5 +1,5 @@
 ---
-description: Datenübertragungssteuerungsdateien (.info) liefern Metadateninformationen über Dateiübertragungen, damit Partner überprüfen können, ob der Audience Manager Dateiübertragungen korrekt verarbeitet hat.
+description: Datenübertragungssteuerungsdateien (.info) enthalten Metadateninformationen über Dateiübertragungen, mit denen Partner überprüfen können, ob Audience Manager Dateiübertragungen korrekt verarbeitet hat.
 seo-description: Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
 seo-title: Transfer-Control Files for Log File Transfers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Kontrolldateien für die Übertragung von Protokolldateien {#transfer-control-files-for-log-file-transfers}
 
-[!DNL .info]-Dateien (Transfer Control) liefern Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob der Audience Manager Dateiübertragungen korrekt verarbeitet hat.
+[!DNL .info]-Dateien (Transfer Control) enthalten Metadateninformationen zu Dateiübertragungen, anhand derer Partner überprüfen können, ob Audience Manager Dateiübertragungen korrekt verarbeitet hat.
 
 [!DNL Audience Manager] sendet bei jeder Dateiübertragung eine Kontrolldatei für die Übertragung an einen Partner. Aufgrund der Multi-Thread-Natur des [!DNL FTP]-Herausgebers kann die Datei für die Übertragungssteuerung gesendet werden, bevor die eigentlichen Dateien übertragen werden.
 

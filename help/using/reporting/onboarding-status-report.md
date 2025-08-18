@@ -20,7 +20,7 @@ Der Onboarding-Statusbericht prüft die Erfolgs- und Fehlerquoten bei der Verarb
 
 >[!NOTE]
 >
->Nur Benutzende mit Administratorrechten können diesen Bericht in der Benutzeroberfläche des Audience Managers sehen. Sie können Benutzerinnen und Benutzer ohne Administratorrechte über den Status der hochgeladenen eingehenden Dateien benachrichtigen lassen, indem Sie ihre E-Mails zum Bericht hinzufügen. Siehe [E-Mail-Benachrichtigungen empfangen](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
+>Nur Benutzer mit Administratorrechten können diesen Bericht in der Benutzeroberfläche von Audience Manager sehen. Sie können Benutzerinnen und Benutzer ohne Administratorrechte über den Status der hochgeladenen eingehenden Dateien benachrichtigen lassen, indem Sie ihre E-Mails zum Bericht hinzufügen. Siehe [E-Mail-Benachrichtigungen empfangen](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
 
 ## Onboarding-Statusbericht: Über {#onboarding-status-about}
 
@@ -121,7 +121,7 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Beschriftungen und B
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Dateiname für die Datensynchronisation</b> </p> </td> 
-   <td colname="col2"> <p>Listet die Dateien auf, die <span class="keyword"> Audience Manager </span>, von der ausgewählten eingehenden Datenquelle empfangen und verarbeitet wurden. </p> <p>Die Dateiverarbeitung schlägt fehl, wenn der Dateiname falsch formatiert ist. Die Anforderungen an Dateinamen variieren je nachdem, wie Sie diese Daten an <span class="keyword"> Audience Manager senden</span>. Zu den Versandmethoden gehören <span class="keyword"> Amazon S3</span> und FTP. Anweisungen zum Benennen Ihrer Dateien finden Sie unter: </p> <p> 
+   <td colname="col2"> <p>Listet die Dateien auf, die <span class="keyword"> Audience Manager</span> empfangen und verarbeitet haben, von der ausgewählten eingehenden Datenquelle. </p> <p>Die Dateiverarbeitung schlägt fehl, wenn der Dateiname falsch formatiert ist. Die Anforderungen an Dateinamen variieren je nachdem, wie Sie diese Daten an <span class="keyword"> Audience Manager senden</span>. Zu den Versandmethoden gehören <span class="keyword"> Amazon S3</span> und FTP. Anweisungen zum Benennen Ihrer Dateien finden Sie unter: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Anforderungen an Amazon S3-Namen für eingehende Datendateien </a> </li> 
      </ul> </p> </td> 
@@ -132,7 +132,7 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Beschriftungen und B
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ungültige AAM-ID</b> </p> </td> 
-   <td colname="col2"> <p>Listet die Anzahl der falsch formatierten <span class="keyword">-Audience Manager </span> Benutzer-IDs (UUID) auf. Normalerweise werden damit die IDs angegeben: </p> 
+   <td colname="col2"> <p>Listet die Anzahl der <span class="keyword"> Audience Manager falsch formatierten Benutzer</span>IDs (UUID) auf. Normalerweise werden damit die IDs angegeben: </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
      <li id="li_B100B4C2623B4E099E022869A4978357">Entsprach nicht dem erwarteten 38-stelligen Format. </li> 
      <li id="li_44E8A9AD13174A20A5742E56ED786634">Enthalten alphabetische Zeichen. IDs sollten nur Zahlen sein. </li> 
@@ -141,7 +141,7 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Beschriftungen und B
 
 <tr> 
    <td colname="col1"> <p> <b>Ungültige Geräte-ID</b> </p> </td> 
-   <td colname="col2"> <p>Listet die Anzahl der falsch formatierten globalen Geräte-IDs auf. Unter <a href="../reference/ids-in-aam.md">Index der IDs im Audience Manager </a> und <a href="../features/global-data-sources.md">Globale Datenquellen</a> finden Sie Details dazu, wie Geräte-IDs formatiert werden sollten und welche globalen Datenquellen Sie je nach Gerätetyp verwenden sollten.</p>
+   <td colname="col2"> <p>Listet die Anzahl der falsch formatierten globalen Geräte-IDs auf. Unter <a href="../reference/ids-in-aam.md">Index der IDs in Audience Manager</a> und <a href="../features/global-data-sources.md">Globale Datenquellen</a> finden Sie Details dazu, wie Geräte-IDs formatiert werden sollten und welche globalen Datenquellen Sie je nach Gerätetyp verwenden sollten.</p>
   <p>Der Abschnitt „Fehler-Sampling“ des Berichts enthält detaillierte Informationen zu den ungültigen Geräte-IDs, wie zum Beispiel:</p>
    <ul>
     <li>Die Datenquellen-ID, die der ungültigen Geräte-ID entspricht.</li>
@@ -154,15 +154,15 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Beschriftungen und B
 
 <tr> 
    <td colname="col1"> <p> <b>Keine übereinstimmende AAM-ID</b> </p> </td> 
-   <td colname="col2"> <p>Hierbei handelt es sich um integrierte IDs <span class="keyword"> Audience Manager </span> die nicht mit einer vorhandenen ID übereinstimmen können. Onboarded IDs können diesen Status haben, wenn <span class="keyword"> Audience Manager </span> ID-Synchronisierung noch nicht durchgeführt hat oder auch nach einer Synchronisierung immer noch nicht mit der ID übereinstimmen kann. </p> <p>Bei nicht übereinstimmenden Mobile-IDs wird <span class="keyword"> Audience Manager </span>: </p> 
+   <td colname="col2"> <p>Hierbei handelt es sich um integrierte IDs <span class="keyword"> Audience Manager</span> die nicht mit einer vorhandenen ID übereinstimmen können. Onboarded IDs können diesen Status haben, wenn <span class="keyword"> Audience Manager</span> noch keine ID-Synchronisierung durchgeführt hat oder auch nach einer Synchronisierung immer noch nicht mit der ID übereinstimmen kann. </p> <p>Bei nicht übereinstimmenden Mobile-IDs wird <span class="keyword"> Audience Manager</span> wie folgt aussehen: </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Fahren Sie mit dem Speichern fort und versuchen Sie, diese ID zu synchronisieren. </li> 
-     <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Wenn die ID nicht synchronisiert werden kann</span> wird der Datensatz im Bericht als <span class="wintitle"> gespeicherter Datensatz aufgezeichnet. </li> 
+     <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Wenn die ID nicht synchronisiert werden kann<span class="wintitle"> wird der Datensatz im Bericht als </span> gespeicherter Datensatz aufgezeichnet. </li> 
     </ul> <p>Wenn Ihre integrierte Datei mobile IDs enthält, können Sie diese Zahlen etwas leichter behandeln als die anderen Metriken. Sie wirken sich nicht auf die Erfolgs- und Übereinstimmungsraten für nachfolgende Dateien aus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Keine Eigenschaft erkannt</b> </p> </td> 
-   <td colname="col2"> <p>Listet Merkmale auf, die <span class="keyword"> Audience Manager </span> können und nicht mit einer integrierten Eigenschaft übereinstimmen. Dies könnte die Folge sein von: </p> 
+   <td colname="col2"> <p>Listet Merkmale auf, die <span class="keyword"> Audience Manager</span> nicht mit einer integrierten Eigenschaft übereinstimmen können. Dies könnte die Folge sein von: </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
      <li id="li_D4C6306BF2B143198108702B309CE8CF">Falsch formatierte Eigenschaften in der eingehenden Datendatei. Informationen zum Formatieren Ihrer Datendatei finden Sie unter <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> der Inhalte eingehender Datendateien: Syntax, Variablen und Beispiele</a>. </li> 
      <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Eigenschaften, die noch nicht in <span class="keyword"> Audience Manager definiert </span>. </li> 
@@ -182,7 +182,7 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Beschriftungen und B
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Insgesamt realisierte Eigenschaften</b> </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der Eigenschaften für alle Benutzer in allen eingehenden Dateien, die in <span class="keyword"> Audience Manager </span> Platform gespeichert werden. </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Eigenschaften für alle Benutzer in allen eingehenden Dateien, die in der <span class="keyword"> Audience Manager</span>-Plattform gespeichert werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ungenutzte Signale insgesamt</b> </p> </td> 

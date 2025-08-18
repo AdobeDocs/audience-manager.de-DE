@@ -1,5 +1,5 @@
 ---
-description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der entsprechenden Adobe Exchange (sofern verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder die Kundenunterstützung.
+description: Diese Seite enthält nur aktuelle Server-zu-Server-Integrationen. Weitere Informationen zu einer Integration finden Sie in der entsprechenden Adobe Exchange-Liste (sofern verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder die Kundenunterstützung.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
 keywords: Aktivierung; Aktivierungspartner, Ziel, Ziele
@@ -14,17 +14,17 @@ ht-degree: 43%
 ---
 
 
-# Audience Manager Activation Partners
+# Audience Manager-Aktivierungspartner
 
-Auf dieser Seite finden Sie nur [ aktuellen Audience Manager-zu-Server](/help/using/features/destinations/add-edit-segments.md)Integrationen.  Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange ](https://www.adobeexchange.com/experiencecloud.html) Liste (falls verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder die Kundenunterstützung.
+Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server](/help/using/features/destinations/add-edit-segments.md)Integrationen.  Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)-Liste (sofern verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder die Kundenunterstützung.
 
 <br>
 
 * **Aktualisiert** = Zeigt das letzte Datum an, an dem eine Aktualisierung für diesen Aktivierungspartner stattgefunden hat.
-* **Unsegment** = Unsegmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und aus Segmenten entfernen. Welche Möglichkeit Sie haben, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profilzusammenführungsregel verwendet wird. Die Nicht-Segmentierung wird auch im Zusammenhang mit DSGVO-Löschanfragen verwendet ([Profilzusammenführungsregeln und Geräte-](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)) und [Audience Manager-Partnern mit Nicht-Segmentierungsfunktionen](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Der Audience Manager sendet Informationen zum Aufheben der Segmentierung an die Ziele, die unten mit „Ja“ markiert sind.
-* **Empfang von IAB TCF-Einverständnissignalen** = Mit dem Audience Manager-Plug-in für IAB TCF können Sie die IAB TC-Zeichenfolge an Aktivierungspartner weiterleiten, wobei die Datenschutzentscheidungen der Benutzer respektiert werden. [Audience Manager-Plug-in für IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners) lesen.
+* **Unsegment** = Unsegmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und aus Segmenten entfernen. Welche Möglichkeit Sie haben, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profilzusammenführungsregel verwendet wird. Die Nicht-Segmentierung wird auch im Zusammenhang mit DSGVO-Löschanfragen verwendet ([Profilzusammenführungsregeln und Geräte-](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)) und [Audience Manager Partners mit Funktionen zur Nicht-Segmentierung](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager sendet Informationen zum Aufheben der Segmentierung an die Ziele, die unten mit „Ja“ markiert sind.
+* **Empfang von IAB TCF-Einverständnissignalen** = Mit dem Audience Manager-Plug-in für IAB TCF können Sie die IAB TC-Zeichenfolge an Aktivierungspartner weiterleiten, wobei die Datenschutzentscheidungen der Benutzer respektiert werden. Lesen Sie [Audience Manager-Plug-in für IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = In dieser Spalte werden die Partner aufgelistet, die die sofortige geräteübergreifende Unterdrückung unterstützen. Lesen Sie [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **IDs von Mobilgeräten** Diese Spalte listet Partner auf, die IDs von Mobilgeräten vom Audience Manager empfangen können.
+* **IDs von Mobilgeräten** Diese Spalte listet Partner auf, die IDs von Mobilgeräten von Audience Manager empfangen können.
 
 <br>
 
@@ -157,7 +157,7 @@ Auf dieser Seite finden Sie nur [ aktuellen Audience Manager-zu-Server](/help/us
 | TubeMogul | 03/03/2017 | Ja | Nein | Ja | Nein |
 | Turn / Amobe | 03/03/2027 | Nein | Nein | Nein | Ja |
 | Twenga | 29/10/2018 | Ja | Nein | Nein | Nein |
-| Twitter benutzerdefinierter Zielgruppen | 27/03/2017 | Ja | Nein | Ja | Nein |
+| Benutzerdefinierte Twitter-Zielgruppen | 27/03/2017 | Ja | Nein | Ja | Nein |
 | Unterton | 11/07/2017 | Nein | Nein | Nein | Nein |
 | Begeisterung | 15/06/2017 | Ja | Nein | Nein | Ja |
 | VideoAmp | 03/03/2017 | Nein | Nein | Nein | Nein |

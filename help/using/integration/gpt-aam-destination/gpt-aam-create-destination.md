@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # Erstellen eines GPT-Ziels {#create-a-gpt-destination}
 
-Sie können qualifizierte Segmente über eine Client-seitige (Browser-seitige) Integration oder eine Server-seitige Integration an [!DNL Google Ad Manager] senden. Wenn Sie sich für die Client-seitige Integration entscheiden, müssen Sie ein Cookie-basiertes Ziel für [!DNL Google Publisher Tags] im Audience Manager erstellen.
+Sie können qualifizierte Segmente über eine Client-seitige (Browser-seitige) Integration oder eine Server-seitige Integration an [!DNL Google Ad Manager] senden. Wenn Sie sich für die Client-seitige Integration entscheiden, müssen Sie ein Cookie-basiertes Ziel für [!DNL Google Publisher Tags] in Audience Manager erstellen.
 
 ## Ziele
 
-Im Audience Manager ist ein *`destination`* jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Die Funktionen für die Audience Manager-Ziele befinden sich unter *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und führen Sie die folgenden Schritte aus.
+In Audience Manager ist ein *`destination`* jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager-Zielfunktionen befinden sich unter *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und führen Sie die folgenden Schritte aus.
 
 ## Basisinformationen
 

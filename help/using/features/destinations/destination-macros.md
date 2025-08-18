@@ -40,27 +40,27 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Fügt die <span class="keyword"> Audience Manager-ID des Benutzers </span> die Ziel-URL ein. </p> </td> 
+   <td colname="col2"> <p>Fügt die <span class="keyword"> Audience Manager</span> ID des Benutzers in die Ziel-URL ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>Die <i>Datenquellen-ID</i> entspricht der Kennung für eine Datenquelle, die an das Makro übergeben wurde. </p> <p>Sehen wir uns an, wie dies funktioniert, in einem einfachen Beispiel. In diesem Fall haben wir einen <span class="keyword"> Audience Manager </span> Partner mit den folgenden IDs und Bedingungen: </p> 
+   <td colname="col2"> <p>Die <i>Datenquellen-ID</i> entspricht der Kennung für eine Datenquelle, die an das Makro übergeben wurde. </p> <p>Sehen wir uns an, wie dies funktioniert, in einem einfachen Beispiel. In diesem Fall haben wir einen <span class="keyword"> Audience Manager</span>-Partner mit den folgenden IDs und Bedingungen: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Datenquellen-ID: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Eine interne Kunden-ID: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Declared ID: Der Partner möchte diese Werte als deklarierte ID-<code> 1:CustomerABC</code> übergeben. </li> 
-    </ul> <p>Um dies mit dem <code>%dpid_<i>data source id</i>%</code> zu tun, formatiert der <span class="keyword"> Audience Manager </span> Partner das Makro wie folgt: </p> 
+    </ul> <p>Um dies mit dem <code>%dpid_<i>data source id</i>%</code> zu tun, formatiert der <span class="keyword"> Audience Manager</span>-Partner das Makro wie folgt: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>Das Makro ersetzt <code> 1</code> durch <code> CustomerABC</code>. </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>Gibt an, ob für den Besucher DSGVO-bezogene Vorschriften gelten oder nicht. Verwenden Sie dieses Makro, um das Einverständnis in Segmente einzuschließen, die an mit IAB integrierte URL-Ziele gesendet werden. Detaillierte Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB </a>.</p></td>
+    <td><p>Gibt an, ob für den Besucher DSGVO-bezogene Vorschriften gelten oder nicht. Verwenden Sie dieses Makro, um das Einverständnis in Segmente einzuschließen, die an mit IAB integrierte URL-Ziele gesendet werden. Detaillierte Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in </a> IAB TCF.</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>Die Einverständniszeichenfolge (einschließlich der IAB-Anbieter-ID), die erfasst wird, wenn Besuchende eine Einwilligung für Ihre Site erteilen oder verweigern. Verwenden Sie dieses Makro, um die Einverständniszeichenfolge in Segmente einzuschließen, die an mit IAB integrierte URL-Ziele gesendet werden. Ersetzen Sie <code>XXXX</code> durch die Zielpartner-ID. Detaillierte Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in für IAB </a>. </p></td>
+    <td><p>Die Einverständniszeichenfolge (einschließlich der IAB-Anbieter-ID), die erfasst wird, wenn Besuchende eine Einwilligung für Ihre Site erteilen oder verweigern. Verwenden Sie dieses Makro, um die Einverständniszeichenfolge in Segmente einzuschließen, die an mit IAB integrierte URL-Ziele gesendet werden. Ersetzen Sie <code>XXXX</code> durch die Zielpartner-ID. Detaillierte Informationen finden Sie unter <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-Plug-in </a> IAB TCF. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
@@ -77,7 +77,7 @@ Beim Erstellen eines [!DNL URL] Ziels können Sie die folgenden Makros in die [!
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>Fügt die Region <span class="wintitle">-Datenerfassungsserver (DCS) in </span> Ziel-URL ein. Um die Latenz zu minimieren, werden Besuchende bei einem HTTP-Aufruf an <span class="keyword"> Audience Manager </span> an das nächstgelegene <span class="wintitle"> DCS</span>-Rechenzentrum umgeleitet. Dies erfolgt über das DNS, das den Standort des Besuchers erkennen und an das entsprechende Rechenzentrum weiterleiten kann. </p> </td> 
+   <td colname="col2"> <p>Fügt die Region <span class="wintitle">-Datenerfassungsserver (DCS) in </span> Ziel-URL ein. Um die Latenz zu minimieren, werden Besuchende bei einem HTTP-Aufruf an <span class="keyword"> Audience Manager</span> an das nächstgelegene <span class="wintitle"> DCS</span>-Rechenzentrum umgeleitet. Dies erfolgt über das DNS, das den Standort des Besuchers erkennen und an das entsprechende Rechenzentrum weiterleiten kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 

@@ -1,5 +1,5 @@
 ---
-description: Der Bericht Segmentüberschneidung zu Anzeigeneinheitenüberschneidung wird als Wärmediagramm angezeigt, das die hohen und niedrigen Überschneidungen zwischen Anzeigeneinheiten und Audience Manager-Segmenten hervorhebt.
+description: Der Bericht zur Überschneidung von Segmenten in Anzeigenblöcken wird als Wärmediagramm angezeigt, das die hohen und niedrigen Überschneidungen zwischen Anzeigenblöcken und Audience Manager-Segmenten hervorhebt.
 seo-description: The Segment to Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units and Audience Manager segments.
 seo-title: Segment to Ad Unit Overlap
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Überschneidung von Segmenten zu Werbeeinheiten{#segment-to-ad-unit-overlap}
 
-Der Bericht Segmentüberschneidung zu Anzeigeneinheitenüberschneidung wird als Wärmediagramm angezeigt, das die hohen und niedrigen Überschneidungen zwischen Anzeigeneinheiten und Audience Manager-Segmenten hervorhebt.
+Der Bericht zur Überschneidung von Segmenten in Anzeigenblöcken wird als Wärmediagramm angezeigt, das die hohen und niedrigen Überschneidungen zwischen Anzeigenblöcken und Audience Manager-Segmenten hervorhebt.
 
 ## Anwendungsfall {#use-cases}
 
@@ -32,7 +32,7 @@ Verwenden Sie die **[!UICONTROL Segment Name]** und die **[!UICONTROL Ad Unit]**
 
 >[!IMPORTANT]
 >
->Bei der Aktivierung von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs] einbeziehen, wie in Schritt 3 von [Importieren von Datendateien des Google Ad Manager (ehemals DFP) in den Audience Manager beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise können Sie sicherstellen, dass der Bericht die Web-Eigenschaft als [!UICONTROL Ad Unit] anstelle des [!UICONTROL Ad Unit ID] angibt.
+>Bei der Aktivierung von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Ad Unit IDs] einbeziehen, wie in Schritt 3 von [Importieren von Datendateien des Google Ad Manager (ehemals DFP) in Audience Manager beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise können Sie sicherstellen, dass der Bericht die Web-Eigenschaft als [!UICONTROL Ad Unit] anstelle des [!UICONTROL Ad Unit ID] angibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 

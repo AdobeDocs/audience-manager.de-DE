@@ -58,13 +58,13 @@ Für Unternehmen, die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]
 * `READ` und `WRITE` von Gruppenberechtigungen für eine Datenquelle für Eigenschaften.
 * `VIEW_ALL_TRAITS` und `EDIT_ALL_TRAITS` von Platzhalterberechtigungen für Datenquellen von Eigenschaften.
 
-Erfahren Sie in unserer [Administrationsdokumentation), wie Sie [!UICONTROL RBAC] Berechtigungen ](../../features/administration/administration-overview.md#create-group).
+Erfahren Sie in unserer [!UICONTROL RBAC]Administrationsdokumentation), wie Sie [ Berechtigungen ](../../features/administration/administration-overview.md#create-group).
 
 ## Beschränkungen und andere Überlegungen {#limits}
 
 | Element | Beschreibung |
 |---|---|
 | Eigenschaftstyp | [!UICONTROL Onboarded traits] und [!UICONTROL algorithmic traits] tragen höchstens 1 Realisierung zur Häufigkeit eines [!UICONTROL folder trait] bei. |
-| Verschieben von Eigenschaften zwischen Ordnern | Wenn Sie eine Eigenschaft von einem Ordner in einen anderen verschieben, wird diese Eigenschaft aus dem ersten Ordner-Merkmal ausgeschlossen und für das zweite [!UICONTROL folder trait] qualifiziert. Wenn Sie also eine Eigenschaft aus dem Ordner löschen oder verschieben, wird die Segmentierung der Benutzenden in der Population der Eigenschaft aus den Segmenten mithilfe der Ordnereigenschaft als Segmentausdruck aufgehoben. <br> Beim Zuordnen von Adobe Analytics-Segmenten oder Report Suites zu Ihrer Experience Cloud-Organisation erstellt Audience Manager automatisch neue, entsprechende schreibgeschützte Segmente und Eigenschaften. Sie können den Speicherort dieser Eigenschaften in Audience Manager nicht bearbeiten oder ändern. Jede Änderung, die Sie an Ihren zugeordneten Adobe Analytics-Segmenten oder Report Suites vornehmen, spiegelt sich jedoch im Audience Manager wider. |
+| Verschieben von Eigenschaften zwischen Ordnern | Wenn Sie eine Eigenschaft von einem Ordner in einen anderen verschieben, wird diese Eigenschaft aus dem ersten Ordner-Merkmal ausgeschlossen und für das zweite [!UICONTROL folder trait] qualifiziert. Wenn Sie also eine Eigenschaft aus dem Ordner löschen oder verschieben, wird die Segmentierung der Benutzenden in der Population der Eigenschaft aus den Segmenten mithilfe der Ordnereigenschaft als Segmentausdruck aufgehoben. <br> Beim Zuordnen von Adobe Analytics-Segmenten oder Report Suites zu Ihrer Experience Cloud-Organisation erstellt Audience Manager automatisch neue, entsprechende schreibgeschützte Segmente und Eigenschaften. Sie können den Speicherort dieser Eigenschaften in Audience Manager nicht bearbeiten oder ändern. Alle Änderungen, die Sie an Ihren zugeordneten Adobe Analytics-Segmenten oder Report Suites vornehmen, werden jedoch in Audience Manager übernommen. |
 | Systemvariablen | [!UICONTROL Folder traits] können nicht in Ereignisaufrufen realisiert werden, die den `d_sid`-Parameter verwenden. |
 | Berichterstellung   | [!UICONTROL Folder traits] sind automatisch berechnete Eigenschaften und werden nicht in **[!UICONTROL Overlap Reports]** angezeigt. |

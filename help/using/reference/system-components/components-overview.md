@@ -1,5 +1,5 @@
 ---
-description: Ein Überblick über die Hauptkomponenten und Datenflüsse im Audience Manager-System.
+description: Eine allgemeine Tour zu den Hauptkomponenten und Datenflüssen im Audience Manager-System.
 seo-description: A high-level tour of the major components and data flows in the Audience Manager system.
 seo-title: System Components Overview
 title: Übersicht über Systemkomponenten
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Übersicht über Systemkomponenten{#system-components-overview}
 
-Ein Überblick über die Hauptkomponenten und Datenflüsse im Audience Manager-System.
+Eine allgemeine Tour zu den Hauptkomponenten und Datenflüssen im Audience Manager-System.
 
 <!-- 
 

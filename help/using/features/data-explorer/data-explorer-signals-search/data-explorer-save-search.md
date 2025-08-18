@@ -1,5 +1,5 @@
 ---
-description: Optimieren Sie die Bemühungen zur Signalsuche, indem Sie bis zu 10 Sätze von Suchkriterien speichern, die Sie bei Bedarf verwenden können, und sie im Dashboard verfolgen. Der Audience Manager lädt die gespeicherten Suchvorgänge jedes Mal neu, wenn Sie das Dashboard laden.
+description: Optimieren Sie die Bemühungen zur Signalsuche, indem Sie bis zu 10 Sätze von Suchkriterien speichern, die Sie bei Bedarf verwenden können, und sie im Dashboard verfolgen. Audience Manager lädt die gespeicherten Suchvorgänge jedes Mal neu, wenn Sie das Dashboard laden.
 seo-description: Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the Dashboard. Audience Manager reloads the saved searches every time you load the Dashboard.
 seo-title: Save Search Criteria
 title: Suchkriterien speichern
@@ -35,4 +35,4 @@ Optimieren Sie die Signalsuchvorgänge, indem Sie bis zu 10 Sätze von Suchkrite
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Signalsuchen speichern können.
 
->[!VIDEO](https://video.tv.adobe.com/v/30171?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/)

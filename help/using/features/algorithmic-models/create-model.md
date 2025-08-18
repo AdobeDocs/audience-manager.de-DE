@@ -34,28 +34,25 @@ Beschreibt die erforderlichen und optionalen Schritte zum Erstellen eines [!UICO
 
 Gehen Sie wie folgt vor, um eine [!UICONTROL Look-Alike Model] zu erstellen:
 
-1. Wechseln Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie im Abschnitt [!UICONTROL Look-Alike Modeling] auf **[!UICONTROL Add New]** .
+1. Wechseln Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie im Abschnitt **[!UICONTROL Add New]** auf [!UICONTROL Look-Alike Modeling] .
    ![Look-alike-add](assets/look-alike-add.png)
 1. Im Abschnitt [Grundlegende Informationen](../../features/algorithmic-models/create-model.md#basic-information)
    * Benennen Sie das Modell.
    * *(Optional)* Geben Sie eine kurze Beschreibung des Modells ein.
    * Setzen Sie den Status für das Modell auf **[!UICONTROL Active]** oder **[!UICONTROL Inactive]**. Inaktive Modelle werden nicht ausgeführt und erzeugen keine Daten.
-
      ![Look-alike-basic](assets/look-alike-basic.png)
 1. Im Abschnitt [Konfiguration](../../features/algorithmic-models/create-model.md#configuration):
    * Klicken Sie auf **[!UICONTROL Browse All Traits]** oder **[!UICONTROL Browse All Segments]** , um eine Eigenschaft oder ein Segment auszuwählen, mit der bzw. dem Sie ein Modell erstellen möchten. Suche nach Eigenschaften nach Name, ID, Beschreibung oder Datenquelle. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können Eigenschaften auch nach Eigenschaftstyp ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [Geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
-
      ![browse-traits](assets/browse-traits.png)
    * Wählen Sie einen Lookback-Zeitraum von 30, 60 oder 90 Tagen aus. Dadurch wird ein Zeitbereich für das Modell festgelegt.
    * Der [!UICONTROL TraitWeight] ist standardmäßig ausgewählt.
    * Wählen Sie eine Datenquelle aus der Liste [!UICONTROL Available Data] aus.
    * Klicken Sie abschließend auf **[!UICONTROL Save]** .
-
      ![Look-alike-configuration](assets/look-alike-configuration.png)
 
 Sehen Sie sich das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=de)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Grundlegende Informationen für algorithmische Modelle {#basic-information}
 
@@ -99,7 +96,7 @@ Füllen Sie zuerst die erforderlichen Felder im Abschnitt [!UICONTROL Basic Info
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Algorithmus auswählen (3)</b> </p> </td> 
-   <td colname="col2"> <p>Derzeit arbeitet Model Builder nur mit unserem proprietären Algorithmus <span class="keyword"> Trait Weight </span>. <span class="keyword"> Audience Manager </span> kann in nachfolgenden Versionen weitere algorithmische Funktionen hinzufügen. </p> </td>
+   <td colname="col2"> <p>Derzeit arbeitet Model Builder nur mit unserem proprietären Algorithmus <span class="keyword"> Trait Weight </span>. <span class="keyword"> Audience Manager</span> können in nachfolgenden Versionen weitere algorithmische Funktionen hinzufügen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Modelldaten aus Data Source auswählen (4)</b> </p> </td> 
@@ -114,7 +111,7 @@ Füllen Sie zuerst die erforderlichen Felder im Abschnitt [!UICONTROL Basic Info
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie ein Look-alike-Modell für Erstanbieter erstellen, sodass Sie mehr eigene Besucher finden können, die wie Ihre Konverter aussehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/328071?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

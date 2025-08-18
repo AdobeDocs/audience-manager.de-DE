@@ -1,5 +1,5 @@
 ---
-description: Beim Veröffentlichen von Segmenten an das Partnerziel über eine Echtzeit-Server-zu-Server-Integration kann der -Audience Manager so eingerichtet werden, dass er sich bei Anfragen mit OAuth 2.0 authentifiziert. Dadurch wird die Möglichkeit geboten, authentifizierte Anfragen von Audience Manager an Ihren Endpunkt zu senden.
+description: Beim Veröffentlichen von Segmenten im Partnerziel über eine Echtzeit-Server-zu-Server-Integration kann Audience Manager so eingerichtet werden, dass es sich bei Anfragen mit OAuth 2.0 authentifiziert. Dadurch wird die Möglichkeit geboten, authentifizierte Anfragen von Audience Manager an Ihren Endpunkt zu senden.
 seo-description: When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using OAuth 2.0 when making the requests. This presents the ability to issue authenticated requests from Audience Manager to your endpoint.
 seo-title: OAuth 2.0 Integration for Real-Time Outbound Transfers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL OAuth 2.0] für ausgehende Echtzeit-Übertragungen{#oauth-integration-for-real-time-outbound-transfers}
 
-Beim Veröffentlichen von Segmenten im Partnerziel über eine Echtzeit-Server-zu-Server-Integration kann der -Audience Manager so eingerichtet werden, dass er sich bei Anfragen über [!DNL OAuth 2.0] authentifiziert. Dadurch wird die Möglichkeit geboten, authentifizierte Anfragen von Audience Manager an Ihren Endpunkt zu senden.
+Beim Veröffentlichen von Segmenten im Partnerziel über eine Echtzeit-Server-zu-Server-Integration kann Audience Manager so eingerichtet werden, dass es sich bei Anfragen mithilfe von [!DNL OAuth 2.0] authentifiziert. Dadurch wird die Möglichkeit geboten, authentifizierte Anfragen von Audience Manager an Ihren Endpunkt zu senden.
 
 ## Authentifizierungsfluss {#auth-flow}
 
@@ -44,7 +44,7 @@ Dieser Endpunkt akzeptiert die in Schritt 1 angegebenen Anmeldeinformationen und
 * Der Endpunkt muss sich den [!DNL Content-type] Header ansehen und überprüfen, ob sein Wert `application/x-www-form-urlencoded ; charset=UTF-8` ist.
 * Der Text der Anfrage wird `grant_type=client_credentials`.
 
-### Beispielanfrage des Audience Managers an den Partnerendpunkt, um ein Bearer-Token zu erhalten
+### Beispielanfrage von Audience Manager an den Partnerendpunkt, um ein Bearer-Token zu erhalten
 
 ```
 POST /oauth2/token HTTP/1.1

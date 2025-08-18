@@ -1,5 +1,5 @@
 ---
-description: Die Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. Sie stellen Benutzerinteraktionen oder Benutzeraktivitäten in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergegeben, damit sie in Eigenschaftsregeln verwendet werden können.
+description: Die Signale sind die kleinste Informationseinheit innerhalb von Audience Manager. Sie stellen Benutzerinteraktionen oder Benutzeraktivitäten in Ihren Online-Eigenschaften dar und werden an Audience Manager übergeben, damit sie in Eigenschaftsregeln verwendet werden können.
 seo-description: Signals are the smallest unit of information within Audience Manager. They represent user interactions or user activity on your online properties, and get passed on to Audience Manager to be used in trait rules.
 seo-title: Understanding Signals
 title: Grundlegendes zu Signalen
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Grundlegendes zu Signalen
 
-Die Signale sind die kleinste Informationseinheit innerhalb des Audience Managers. Sie stellen Benutzerinteraktionen oder Benutzeraktivitäten in Ihren Online-Eigenschaften dar und werden an Audience Manager weitergegeben, damit sie in Eigenschaftsregeln verwendet werden können.
+Die Signale sind die kleinste Informationseinheit innerhalb von Audience Manager. Sie stellen Benutzerinteraktionen oder Benutzeraktivitäten in Ihren Online-Eigenschaften dar und werden an Audience Manager übergeben, damit sie in Eigenschaftsregeln verwendet werden können.
 
 [!DNL Audience Manager] werden Schlüssel-Wert-Paare zur Darstellung von Signalen verwendet. So könnte beispielsweise das folgende Signal darauf hindeuten, dass ein Besucher eine Webseite mit elektronischen Daten erreicht hat:
 
@@ -38,7 +38,7 @@ Das [Signale-Dashboard](../../features/data-explorer/data-explorer-signals-dashb
 
 ## Signaldatenauffrischfrequenz
 
-Aufgrund der großen Datenmenge, die der Audience Manager täglich verarbeitet, aktualisiert [!UICONTROL Data Explorer] die angezeigten Signaldaten je nach Signaltyp in festen Zeitintervallen:
+Aufgrund der großen Datenmenge, die Audience Manager täglich verarbeitet, aktualisiert [!UICONTROL Data Explorer] die angezeigten Signaldaten je nach Signaltyp in festen Zeitintervallen:
 
 * Die Echtzeit-Signaldaten (verwertbare Protokolldateien, [!DNL Adobe Analytics] und allgemeine Online-Daten) werden alle 4 bis 6 Stunden aktualisiert.
 * Die Signaldaten des integrierten Geräts werden alle 24 Stunden aktualisiert.

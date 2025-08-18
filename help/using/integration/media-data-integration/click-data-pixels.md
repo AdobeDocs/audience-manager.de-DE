@@ -39,7 +39,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## Antwort
 
-Die Antwort leitet den Browser an die im `d_rd`-Parameter angegebene [!DNL URL] weiter. Die Antwort-Zeichenfolge kann Werte enthalten, die von einem der unten aufgeführten unterstützten Makros generiert wurden.
+Die Antwort leitet den Browser an die im [!DNL URL]-Parameter angegebene `d_rd` weiter. Die Antwort-Zeichenfolge kann Werte enthalten, die von einem der unten aufgeführten unterstützten Makros generiert wurden.
 
 Basierend auf dem obigen Beispiel wird der Browser zu folgenden [!DNL URL] umgeleitet:
 
@@ -47,7 +47,7 @@ Basierend auf dem obigen Beispiel wird der Browser zu folgenden [!DNL URL] umgel
 
 ## Unterstützte Makros
 
-Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros. Ein Makro ist eine kleine Einheit eigenständigen Codes, die aktiviert wird, wenn das Anzeigen-Tag für das Kampagnen- und Benutzer-Tracking geladen wird. Die Makros werden zusammen mit dem [!DNL URL] übergeben, sofern sie mit dem folgenden Format gekennzeichnet sind: `%macro%`. Einige Schlüssel verfügen nicht über Makros und akzeptieren stattdessen einen hartcodierten ID-Wert. Schlüssel, die hartcodierte Werte akzeptieren, sind erforderlich, wenn Sie Daten in den [Audience Optimization-Berichten analysieren ](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros. Ein Makro ist eine kleine Einheit eigenständigen Codes, die aktiviert wird, wenn das Anzeigen-Tag für das Kampagnen- und Benutzer-Tracking geladen wird. Die Makros werden zusammen mit dem [!DNL URL] übergeben, sofern sie mit dem folgenden Format gekennzeichnet sind: `%macro%`. Einige Schlüssel verfügen nicht über Makros und akzeptieren stattdessen einen hartcodierten ID-Wert. Schlüssel, die hartcodierte Werte akzeptieren, sind erforderlich, wenn Sie Daten in den [Audience Optimization-Berichten](../../reporting/audience-optimization-reports/audience-optimization-reports.md) analysieren möchten.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -96,7 +96,7 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID (ECID). Weitere Informationen zur ECID finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> von Cookies und der Experience Cloud-ID</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID (ECID). Weitere Informationen zur ECID finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und der Experience Cloud-ID</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -121,7 +121,7 @@ Klickereignisse unterstützen die in der folgenden Tabelle aufgeführten Makros.
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID der Quelle, aus der der Audience Manager die Metadaten abruft. </p> <p>Erforderlich. </p> </td> 
+   <td colname="col2"> <p>DPID der Quelle, aus der Audience Manager die Metadaten abruft. </p> <p>Erforderlich. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
@@ -173,4 +173,4 @@ Sie können Pixel-Aufrufe verwenden, um die [Audience Optimization-Berichte zu ]
 
 >[!MORELIKETHIS]
 >
->* [Daten- und Metadatendateien für das Audience Optimization von Berichten](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Daten- und Metadatendateien für Audience Optimization-Berichte](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

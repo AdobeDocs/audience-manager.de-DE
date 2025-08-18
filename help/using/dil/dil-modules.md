@@ -20,9 +20,9 @@ ht-degree: 3%
 >
 >Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Allerdings wird sich Adobe nicht über diesen Punkt hinaus [!DNL DIL] entwickeln. Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Adobe wird jedoch keine [!DNL DIL] über diesen Punkt hinaus entwickeln. Kundinnen und Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
 Beschreibt die Methoden im `DIL.modules` Namespace. Mit diesen Modulen können Sie Daten programmgesteuert erfassen und mit Audience Manager-Objekten arbeiten.
 
@@ -34,7 +34,7 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-Funktioniert mit [!UICONTROL DIL], um [!DNL Analytics] Tag-Elemente (Variablen, Props, eVars usw.) an den Audience Manager zu senden. Gibt Daten in einer kommagetrennten Liste zurück. Verfügbar in Version 2.6.
+Funktioniert mit [!UICONTROL DIL], um [!DNL Analytics] Tag-Elemente (Variablen, Props, eVars usw.) an Audience Manager zu senden. Gibt Daten in einer kommagetrennten Liste zurück. Verfügbar in Version 2.6.
 
 **Funktionssignatur:** `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
@@ -149,7 +149,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-Die `GA.submitUniversalAnalytics();` sendet Daten aus der [!DNL Universal Analytics] von Google an den Audience Manager. Diese [!UICONTROL DIL]-Funktion wurde für die Verwendung mit `analytics.js` entwickelt, der neuesten Code-Bibliothek für Google [!DNL Universal Analytics].
+Die `GA.submitUniversalAnalytics();` sendet Daten aus der [!DNL Universal Analytics] von Google an Audience Manager. Diese [!UICONTROL DIL]-Funktion wurde für die Verwendung mit `analytics.js` entwickelt, der neuesten Code-Bibliothek für Google [!DNL Universal Analytics].
 
 <!-- 
 
@@ -160,7 +160,7 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager] hat keinen Einblick in die Google `analytics.js`-Code-Bibliothek und keine Kontrolle über diese. Sie sollten sicherstellen, dass [!UICONTROL DIL] Datenerfassung weiterhin funktioniert, wenn oder wenn Google neue Versionen von `analytics.js` veröffentlicht.
+>* [!DNL Audience Manager] hat keine insight in oder Kontrolle über die Google `analytics.js`-Code-Bibliothek. Sie sollten sicherstellen, dass [!UICONTROL DIL] Datenerfassung weiterhin funktioniert, wenn oder wenn Google neue Versionen von `analytics.js` veröffentlicht.
 >
 >* Sie können `GA.submitUniversalAnalytics();` nicht verwenden, wenn Sie noch immer mit dem veralteten Analytics-Trackingcode von Google arbeiten (z. B. `ga.js` oder `dc.js`). Siehe [GA.init](../dil/dil-modules.md#ga-init).
 >
@@ -210,7 +210,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 
 ## GA.init {#ga-init}
 
-Die `GA.init()` sendet Daten aus der veralteten/veralteten Version von [!DNL Google Analytics] an den -Audience Manager.
+Die `GA.init()` sendet Daten aus der veralteten/veralteten Version von [!DNL Google Analytics] an Audience Manager.
 
 <!-- 
 
@@ -311,7 +311,7 @@ Um alle überwachten GA-Metriken ohne die oben dargestellte zusätzliche Funktio
 
 **Beispielereignisaufruf**
 
-Der URL-Ereignisaufruf an den Audience Manager könnte in etwa wie folgt aussehen:
+Der URL-Ereignisaufruf an Audience Manager könnte in etwa wie folgt aussehen:
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 

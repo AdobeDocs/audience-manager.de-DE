@@ -1,5 +1,5 @@
 ---
-description: Recommendations und Anwendungsfälle für die Prospektion, das Retargeting und die Personalisierung für unbekannte Benutzende mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagramm-Unternehmen von Drittanbietern hat.
+description: Empfehlungen und Anwendungsfälle für die Prospektion, das Retargeting und die Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das von Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagramm-Unternehmen von Drittanbietern hat.
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Anwendungsfälle für Diagramme mit externen Geräten {#external-device-graph-use-cases}
 
-Recommendations und Anwendungsfälle für die Prospektion, das Retargeting und die Personalisierung für unbekannte Benutzende mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das vom Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagramm-Unternehmen von Drittanbietern hat.
+Empfehlungen und Anwendungsfälle für die Prospektion, das Retargeting und die Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das von Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagramm-Unternehmen von Drittanbietern hat.
 
 ## Empfehlungen {#recommendations}
 
@@ -122,7 +122,7 @@ Im folgenden Beispiel möchte das Unternehmen Acme Inc. alle Haushalte mit einem
 
 John verwendet seine iPhone 7 auf Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig enthält Johns [!DNL Profile Link Device Graph]-Cluster zwei zusätzliche Geräte, die er regelmäßig verwendet: seinen Laptop ([!DNL Device 1]) und sein sekundäres Smartphone [!DNL Device 2] (ein [!DNL Samsung S7] auf [!DNL Data Plan B]).
 
-Durch die Verwendung der **[!UICONTROL Profile Link Device Graph]** **[!UICONTROL Last Authenticated Profiles]** + kann [!DNL Acme Inc.] personalisierte Nachrichten an alle drei Geräte aus dem Gerätediagramm-Cluster von John senden, obwohl zunächst nur eines von ihnen für das Segment qualifiziert ist.
+Durch die Verwendung der **[!UICONTROL Last Authenticated Profiles]** **[!UICONTROL Profile Link Device Graph]** + kann [!DNL Acme Inc.] personalisierte Nachrichten an alle drei Geräte aus dem Gerätediagramm-Cluster von John senden, obwohl zunächst nur eines von ihnen für das Segment qualifiziert ist.
 
 ![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 

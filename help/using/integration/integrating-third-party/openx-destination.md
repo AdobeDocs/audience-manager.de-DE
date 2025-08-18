@@ -31,8 +31,8 @@ Standards für die Code-Platzierung, unterstützte Schlüsselwertformate, Berich
 Überprüfen Sie Folgendes, bevor Sie [!DNL OpenX] als Audience Manager-Ziel einrichten:
 
 * **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] Code sollte auf Ihrer Site bereitgestellt werden. [!UICONTROL DIL] ist es nicht mehr erforderlich, speziellen Code für die Datenerfassung, -integration, das Lesen von Cookie-Werten und das Wiederherstellen von Seitendaten zu schreiben.
-* **`get_aamCookie`:**, der die Benutzer-ID des Audience Managers und Cookie-Daten erfasst. Platzieren Sie [diesen Code](../../features/destinations/get-aam-cookie-code.md) oben auf der Seite oder im `<head>` Codeblock.
-* **Versandlogs an Audience Manager senden:** Wenn Sie einen Segmentversandbericht erstellen möchten (optional), stellen Sie dem Audience Manager ein tägliches Protokoll zur Verfügung, das Versanddaten auf Impression-Ebene enthält. Die Daten können im Rohformat vorliegen, aber jeder Datensatz muss die `UUID` Audience Manager enthalten. Audience Manager können diese per [!DNL FTP] abholen oder empfangen.
+* **`get_aamCookie`:**, der die Audience Manager-Benutzer-ID und Cookie-Daten erfasst. Platzieren Sie [diesen Code](../../features/destinations/get-aam-cookie-code.md) oben auf der Seite oder im `<head>` Codeblock.
+* **Versandlogs an Audience Manager senden:** Wenn Sie einen Segmentversandbericht (optional) wünschen, stellen Sie Audience Manager ein tägliches Protokoll zur Verfügung, das Versanddaten auf Impression-Ebene enthält. Die Daten können im Rohformat vorliegen, aber jeder Datensatz muss die Audience Manager-`UUID` enthalten. Audience Manager kann diese per [!DNL FTP] abholen oder empfangen.
 
 ### Schlüssel-Wert-Daten: Formatanforderungen
 
@@ -49,11 +49,11 @@ Wie viele Daten an [!DNL OpenX] übergeben werden, hängt davon ab, für wie vie
 
 ## Erstellen eines OpenX-Ziels {#openx-destination}
 
-Erstellen Sie ein Cookie-Ziel für [!DNL OpenX] im Audience Manager.
+Erstellen Sie ein Cookie-Ziel für [!DNL OpenX] in Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-Im Audience Manager ist *Ziel* jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager-Zielfunktionen befinden sich unter *Zielgruppendaten > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und führen Sie die folgenden Schritte aus.
+In Audience Manager ist *Ziel* jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager-Zielfunktionen befinden sich unter *Zielgruppendaten > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und führen Sie die folgenden Schritte aus.
 
 ### Schritt 1: Grundlegende Informationen
 
@@ -92,7 +92,7 @@ So fügen Sie einem Cookie-Ziel ein Segment hinzu:
 Einrichten von [!DNL OpenX]:
 
 * Installieren Sie [!UICONTROL DIL] Code auf Ihrer Site.
-* Erstellen Sie [!DNL OpenX] als Cookie-Ziel im -Audience Manager.
+* Erstellen Sie [!DNL OpenX] als Cookie-Ziel in Audience Manager.
 * Platzieren Sie die `get_aamCookie` Funktion am Anfang der Seite, idealerweise im `<head>` Codeblock. Der `get_aamCookie`-Code ist verfügbar [hier](../../features/destinations/get-aam-cookie-code.md).
 * Ändern Sie Ihr Anzeigen-Tag, um die Funktion `get_aamCookie` aufzurufen, und geben Sie den Cookie-Namen an, den Sie beim Einrichten des [!DNL OpenX]-Ziels angegeben haben. Wenn Sie beispielsweise den Cookie-`test_cookie` benannt haben, sollte das Anzeigen-Tag `get_aamCookie` aufrufen und auf den Cookie-Namen verweisen.
 * Ihr Anzeigen-Tag könnte dem folgenden Beispiel ähneln.

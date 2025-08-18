@@ -19,7 +19,7 @@ ht-degree: 85%
 
 Mit Audience Manager können Sie Ihre Zielgruppendaten-Assets zusammenführen, um so die Erfassung geschäftlich relevanter Zahlen zu Site-Besuchern zu vereinfachen, marktfähige Segmente zu erstellen und der richtigen Zielgruppe zielgruppengerechte Werbung und Inhalte bereitzustellen. Darüber hinaus erleichtert Audience Manager die Tag-Implementierung und -Verwaltung mit einer robusten Datenerfassung, Datensteuerung und einem robusten Datenschutz.
 
-Mit Audience Manager sind Sie nicht an einen Datenanbieter, eine Datenaustauschplattform oder eine Demand Side Platform gebunden. Darüber hinaus ist Audience Manager vollkommen unabhängig, wenn es um die Datenbestände unserer Partner geht. Mit Zugriff auf mehrere Datenquellen bietet Audience Manager digitalen Publishern die Möglichkeit, eine Vielzahl von Drittanbieterdaten zu verwenden. Sprechen Sie mit unserem Partner Solutions-Team, um intelligente und präzise Entscheidungen hinsichtlich Ihrer Zielgruppe zu treffen.
+Mit Audience Manager sind Sie nicht an einen Datenanbieter, eine Datenaustauschplattform oder eine Demand Side Platform gebunden. Darüber hinaus ist Audience Manager in Bezug auf die Daten-Assets unserer Partner vollkommen unabhängig. Mit Zugriff auf mehrere Datenquellen bietet Audience Manager digitalen Publishern die Möglichkeit, eine Vielzahl von Drittanbieterdaten zu verwenden. Sprechen Sie mit unserem Partner Solutions-Team, um intelligente und präzise Entscheidungen hinsichtlich Ihrer Zielgruppe zu treffen.
 
 ## Drei Funktionen einer Daten-Management-Plattform (DMP) {#dmp-three-functions}
 

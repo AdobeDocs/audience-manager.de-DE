@@ -32,7 +32,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!NOTE]
 >
->Sie können auch Daten mithilfe der `POST` -Methode an die [!DNL DCS] senden. Die Aufrufsyntax wird unter [DCS-API-Methoden](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md) beschrieben.
+>Sie können auch Daten mithilfe der [!DNL DCS] -Methode an die `POST` senden. Die Aufrufsyntax wird unter [DCS-API-Methoden](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md) beschrieben.
 
 ## Aufrufparameter {#dcs-call-parameters}
 
@@ -88,7 +88,7 @@ In der folgenden Tabelle werden die grundlegenden Komponenten eines einfachen [!
 
 ## Beispielaufruf {#dcs-sample-call}
 
-Dieses Beispiel zeigt, wie das fiktive Unternehmen Daten [!DNL Acme, Inc.] einem [!DNL HTTP]-Aufruf an die [!DNL DCS] sendet. Beachten Sie, dass dieser Aufruf die optionalen Parameter `d_dst=1`, `d_rtbd=json` und `d_cb=callback` enthält. Diese zeigen an, dass [!DNL Acme] eine [!DNL JSON] Antwort von der [!DNL DCS] mit einer Rückruffunktion erhalten möchte. Denken Sie daran, dies ist nur ein Beispiel. Diesen Code nicht ausschneiden und einfügen.
+Dieses Beispiel zeigt, wie das fiktive Unternehmen Daten [!DNL Acme, Inc.] einem [!DNL DCS]-Aufruf an die [!DNL HTTP] sendet. Beachten Sie, dass dieser Aufruf die optionalen Parameter `d_dst=1`, `d_rtbd=json` und `d_cb=callback` enthält. Diese zeigen an, dass [!DNL Acme] eine [!DNL JSON] Antwort von der [!DNL DCS] mit einer Rückruffunktion erhalten möchte. Denken Sie daran, dies ist nur ein Beispiel. Diesen Code nicht ausschneiden und einfügen.
 
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback

@@ -1,5 +1,5 @@
 ---
-description: Beschreibt die Syntax und die Parameter, die beim ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen einem Anbieter und einem Audience Manager verwendet wurden. Die ID-Synchronisierung kann beginnen, nachdem Sie Ihre Datentaxonomie an den Audience Manager gesendet haben.
+description: Beschreibt die Syntax und die Parameter, die beim ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen einem Anbieter und Audience Manager verwendet wurden. Die ID-Synchronisierung kann beginnen, nachdem Sie Ihre Datentaxonomie an Audience Manager gesendet haben.
 seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
 seo-title: ID Synchronization for Inbound Data Transfers
 solution: Audience Manager
@@ -50,7 +50,7 @@ Die [!DNL URL] für Ihren eingehenden ID-Synchronisierungsaufruf sollte Variable
  <tbody> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Eindeutige ID für den Inhaltsanbieter (vom Audience Manager <span class="keyword"> zugewiesen</span>) </p> </td> 
+   <td colname="col2"> <p>Eindeutige ID für den Inhaltsanbieter (von <span class="keyword"> Audience Manager zugewiesen</span>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 

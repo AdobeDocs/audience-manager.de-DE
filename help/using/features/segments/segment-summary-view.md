@@ -27,7 +27,7 @@ Oben auf der Seite mit den Segmentdetails befinden sich die Tools, mit denen Sie
 2. **[!UICONTROL Edit]**: Verwenden Sie diese Option, um die Konfiguration des aktuellen Segments zu ändern.
 3. **[!UICONTROL Duplicate]**: Verwenden Sie diese Option, um eine Kopie des aktuellen Segments zu erstellen.
 4. **[!UICONTROL Delete]**: Verwenden Sie diese Option, um das aktuelle Segment aus Ihrem Audience Manager-Konto zu entfernen.
-5. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option, um ähnliche Segmente wie das angezeigte zu finden, und zwar aus [!UICONTROL Audience Marketplace] Daten-Feeds, die Sie nicht abonniert haben. Unter [Audience Marketplace für Datenkäufer erfahren ](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md), wie Sie auf dem Marketplace navigieren und ähnliche Segmente finden können.
+5. **[!UICONTROL Marketplace Recommendations]**: Verwenden Sie diese Option, um ähnliche Segmente wie das angezeigte zu finden, und zwar aus [!UICONTROL Audience Marketplace] Daten-Feeds, die Sie nicht abonniert haben. Unter [Audience Marketplace für Datenkäufer](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) erfahren Sie, wie Sie auf dem Marketplace navigieren und ähnliche Segmente finden können.
 
 ![basic-segment-information](assets/basic-segment-information.png)
 
@@ -49,7 +49,7 @@ Unter den Tools für die Segmentverwaltung finden Sie die folgenden Segmentinfor
    >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] nur an, wenn geräteübergreifende IDs für das Segment qualifiziert sind.
 
    Sehen Sie sich das folgende Video an, um einen Überblick über [!UICONTROL Identity Type Breakdown] zu erhalten.
-   >[!VIDEO](https://video.tv.adobe.com/v/32712?captions=ger)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 4. **[!UICONTROL Segment Rules]:** Listet Merkmale im Segment zusammen mit Qualifizierungsregeln auf.
 5. **[!UICONTROL Destination Mappings]:** Listet Zielzuordnungen für das Segment auf.

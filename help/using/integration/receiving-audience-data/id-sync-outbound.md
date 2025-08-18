@@ -1,5 +1,5 @@
 ---
-description: Beschreibt die Syntax und die Parameter, die im ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen dem Audience Manager und einem Drittanbieter-Datenanbieter verwendet wurden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie die erste ID-Synchronisierung durchführen.
+description: Beschreibt die Syntax und die Parameter, die beim ersten HTTP-Aufruf zum Synchronisieren von Benutzer-IDs zwischen Audience Manager und einem Drittanbieter verwendet wurden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie die erste ID-Synchronisierung durchführen.
 seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between Audience Manager and a third-party data provider. Contact your Adobe Audience Manager consultant before attempting your first ID synchronization.
 seo-title: ID Synchronization for Outbound Data Transfers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # ID-Synchronisierung für ausgehende Datenübertragungen{#id-synchronization-for-outbound-data-transfers}
 
-Beschreibt die Syntax und die Parameter, die beim ersten `HTTP`-Aufruf zum Synchronisieren von Benutzer-IDs zwischen dem Audience Manager und einem Drittanbieter-Datenanbieter verwendet wurden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie die erste ID-Synchronisierung durchführen.
+Beschreibt die Syntax und die Parameter, die beim ersten `HTTP`-Aufruf zum Synchronisieren von Benutzer-IDs zwischen Audience Manager und einem Drittanbieter verwendet wurden. Wenden Sie sich an Ihren Adobe Audience Manager-Berater, bevor Sie die erste ID-Synchronisierung durchführen.
 
 <!-- c_id_sync_out.xml -->
 

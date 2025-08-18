@@ -40,7 +40,7 @@ ht-degree: 2%
    + SEO-Titel - SEO Alternativtitel.
    + seo-description - Alternativer Titel für SEO-Zwecke.
    + short-title - (optionales Feld).
-   + Index - Ja/Nein - wird die Seite von der Suchplattform Adobe auf indiziert.
+   + index - yes/no - wird die Seite von der Adobe-Suchplattform indiziert.
    + Übersetzen - Ja/Nein - wird diese Seite lokalisiert.
    + version : wird hauptsächlich für AEM und Campaign verwendet, um die Produktversion anzugeben.
    + private-feature-pack - wird hauptsächlich für AEM verwendet.

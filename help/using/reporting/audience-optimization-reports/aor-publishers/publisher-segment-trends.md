@@ -44,7 +44,7 @@ Verwenden Sie das Dropdown-Feld **[!UICONTROL Segment]** , um die Segmente auszu
 
 >[!IMPORTANT]
 >
->Bei der Aktivierung von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Line Item]-IDs hinzufügen, wie in Schritt 3 von [Importieren von Datendateien des Google Ad Managers (ehemals DFP) in den Audience Manager ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrieben. Auf diese Weise können Sie sicherstellen, dass der Bericht die Web-Eigenschaft als [!UICONTROL Line Item] anstelle der [!UICONTROL Line Item]-ID angibt.
+>Bei der Aktivierung von [!UICONTROL Audience Optimization for Publishers] müssen Sie beschreibende Metadaten für [!UICONTROL Line Item]-IDs hinzufügen, wie in Schritt 3 von [Importieren von Datendateien des Google Ad Manager (ehemals DFP) in Audience Manager beschrieben](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Auf diese Weise können Sie sicherstellen, dass der Bericht die Web-Eigenschaft als [!UICONTROL Line Item] anstelle der [!UICONTROL Line Item]-ID angibt.
 
 ## Interpretieren der Ergebnisse {#interpreting-results}
 

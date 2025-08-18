@@ -104,7 +104,7 @@ Das Popup für den [!UICONTROL Trait-to-Trait Overlap] enthält die folgenden Me
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Überschneidungskennzeichen</span></b> </td> 
-   <td colname="col2"> <p>Um die Überschneidung % zu erhalten, verwendet der Audience Manager die folgende Formel:</p> <p>Überlappende eindeutige Werte / (Grundeigenschaft eindeutig + Überlappende Eigenschaftseindeutigkeiten - Überlappende eindeutige Werte)</p> </td> 
+   <td colname="col2"> <p>Um die Überschneidung % zu erhalten, verwendet Audience Manager die folgende Formel:</p> <p>Überlappende eindeutige Werte / (Grundeigenschaft eindeutig + Überlappende Eigenschaftseindeutigkeiten - Überlappende eindeutige Werte)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> sich überschneidende Eigenschaften sind eindeutig</span></b> </td> 
@@ -123,5 +123,5 @@ Das Popup für den [!UICONTROL Trait-to-Trait Overlap] enthält die folgenden Me
 >* [In dynamischen Berichten verwendete Formen, Farben und Größen](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Berichtssymbole und Tools - Erklärung](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Überlagerungsberichte: Aktualisierungszeitplan und Mindestsegmentgröße](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datenstichproben- und Fehlerquoten in Berichten zu ausgewählten Audience Managern…](../../reporting/report-sampling.md)
+>* [Datenstichproben- und Fehlerquoten in ausgewählten Audience Manager-Berichten…](../../reporting/report-sampling.md)
 >* [CSV-Dateien für Überlagerungsberichte](../../reporting/dynamic-reports/overlap-csv-files.md)

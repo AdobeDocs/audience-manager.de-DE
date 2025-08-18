@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## Meine freigegebenen Daten: Über {#my-shared-data-about}
 
-[!UICONTROL My Shared Data] ist eine [!UICONTROL Audience Marketplace] Funktion für Datenanbieter (Verkäufer). Als Anbieter können Sie Eigenschaften in Daten-Feeds bündeln und diese gegen eine Pauschalgebühr oder einen [!DNL CPM] an Käufer aus [!DNL Audience Manager] verkaufen. Wenn diese Option aktiviert ist, können Käufer mit wenigen Mausklicks einen Feed abonnieren. Darüber hinaus können mit einfachen Reporting-Tools Umsätze verfolgt und Abonnenten verwaltet werden. Schließlich übernimmt [!DNL Adobe] mit [!UICONTROL Audience Marketplace] die Rechnung, Rechnungsstellung und Gebührenzahlungen für Sie. Mit diesen Funktionen können Sie sich auf den Aufbau der effektiven und profitablen Daten-Feeds konzentrieren, die Käuferinnen und Käufer wünschen.
+[!UICONTROL My Shared Data] ist eine [!UICONTROL Audience Marketplace] Funktion für Datenanbieter (Verkäufer). Als Anbieter können Sie Eigenschaften in Daten-Feeds bündeln und diese gegen eine Pauschalgebühr oder einen [!DNL CPM] an Käufer aus [!DNL Audience Manager] verkaufen. Wenn diese Option aktiviert ist, können Käufer mit wenigen Mausklicks einen Feed abonnieren. Darüber hinaus können mit einfachen Reporting-Tools Umsätze verfolgt und Abonnenten verwaltet werden. Schließlich übernimmt [!UICONTROL Audience Marketplace] mit [!DNL Adobe] die Rechnung, Rechnungsstellung und Gebührenzahlungen für Sie. Mit diesen Funktionen können Sie sich auf den Aufbau der effektiven und profitablen Daten-Feeds konzentrieren, die Käuferinnen und Käufer wünschen.
 
 ![](assets/seller_marketplace.png)
 

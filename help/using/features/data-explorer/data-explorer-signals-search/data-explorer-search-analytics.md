@@ -31,4 +31,4 @@ Durch diese Integration können Sie die Anzeigenamen für Schlüssel-Wert-Paare 
 
 Das folgende Video zeigt, wie Sie mit [!UICONTROL Data Explorer] Ihre Adobe Analytics-Daten ermitteln und verwenden können, einschließlich der Suche nach verwendeten und nicht verwendeten Signalen, der Erstellung von Analytics-Eigenschaften und des Verständnisses der Daten.
 
->[!VIDEO](https://video.tv.adobe.com/v/330357?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)

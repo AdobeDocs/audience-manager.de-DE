@@ -38,7 +38,7 @@ Ihr [!UICONTROL Unique User Reach] könnte in etwa wie der unten stehende ausseh
 
 | Element | Beschreibung |
 |--- |--- |
-| Dimension Wert | Der Name Ihrer Web-Eigenschaft. |
-| Dimension | Der Typ der Publisher-Dimension. Derzeit wird nur die Anzeigeneinheit als Dimensionstyp unterstützt. |
+| Dimension-Wert | Der Name Ihrer Web-Eigenschaft. |
+| Dimension-Typ | Der Typ der Publisher-Dimension. Derzeit wird nur die Anzeigeneinheit als Dimensionstyp unterstützt. |
 | Eindrücke | Die Anzahl der Impressionen, die für Ihre Web-Eigenschaft innerhalb des angegebenen Lookback-Bereichs bereitgestellt wurden. |
 | Eindeutige Reichweite | Die eindeutige Anzahl der Benutzer, die von den Impressions in Ihren Web-Eigenschaften erreicht wurden. |

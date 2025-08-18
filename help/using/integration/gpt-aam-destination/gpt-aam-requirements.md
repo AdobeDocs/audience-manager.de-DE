@@ -20,13 +20,13 @@ Sie können qualifizierte Segmente entweder über eine Client-seitige oder eine 
 
 ## Client-seitige Integration {#client-side-integration}
 
-Für eine Client-seitige Integration müssen Sie ein [!DNL GPT] in Audience Manager einrichten. Beachten Sie die folgenden Punkte, wenn Sie [!DNL GPT] als Audience Manager-Ziel einrichten möchten:
+Für eine Client-seitige Integration müssen Sie ein [!DNL GPT] Ziel in Audience Manager einrichten. Beachten Sie die folgenden Punkte, wenn Sie [!DNL GPT] als Audience Manager-Ziel einrichten möchten:
 
 * **[!UICONTROL DIL] hinzufügen:** Stellen Sie [!UICONTROL Data Integration Library (DIL)] Code auf allen Seiten bereit, die Sie ansprechen möchten. [!UICONTROL DIL] schreibt Audience Manager-Segmentdaten und Benutzer-IDs in Cookies, die von [!DNL GPT] für das Targeting verwendet werden.
 
-* **Erstellen eines [!UICONTROL Cookie Destination]:** [!DNL GPT] muss als Cookie-basiertes Ziel im -Audience Manager eingerichtet sein.
+* **Erstellen eines [!UICONTROL Cookie Destination]:** [!DNL GPT] muss in Audience Manager als Cookie-basiertes Ziel eingerichtet sein.
 
-* **Implementierung des Cookie-Prüfcodes:** Schließen Sie die [!DNL GPT] `.setTargeting`-API-Methode in Ihrem empfohlenen [Cookie-Prüfcode](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) ein. Dieser Code verhindert Fehler, indem er nach gültigen AAM-Cookies sucht, bevor die `.setTargeting` aufgerufen wird.
+* **Implementierung des Cookie-Prüfcodes:** Schließen Sie die [!DNL GPT] `.setTargeting`-API-Methode in Ihrem empfohlenen [Cookie-Prüfcode](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) ein. Dieser Code verhindert Fehler, indem nach gültigen AAM-Cookies gesucht wird, bevor die `.setTargeting` aufgerufen wird.
 
 * **Funktion `AamGpt` hinzufügen:** Der `AamGpt` erfasst Daten aus Audience Manager-Cookies und sendet sie an [!DNL GPT]. Platzieren Sie den [Audience Manager-Code für Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) oben auf der Seite oder innerhalb des `<head>`.
 
@@ -34,7 +34,7 @@ Für eine Client-seitige Integration müssen Sie ein [!DNL GPT] in Audience Mana
   >
   >Die `AamGpt` ist nicht erforderlich, wenn Sie zum Lesen von Audience Manager-Cookie-Daten Ihren eigenen Code verwenden.
 
-* **Versandlogs an Audience Manager senden:** Wenn Sie einen Segmentversandbericht erstellen möchten (optional), stellen Sie dem Audience Manager ein tägliches Protokoll zur Verfügung, das Versanddaten auf Impression-Ebene enthält. Die Daten können im Rohformat vorliegen, aber jeder Datensatz muss die `UUID` Audience Manager enthalten. Audience Manager können diese per [!DNL FTP] abholen oder empfangen.
+* **Versandlogs an Audience Manager senden:** Wenn Sie einen Segmentversandbericht (optional) wünschen, stellen Sie Audience Manager ein tägliches Protokoll zur Verfügung, das Versanddaten auf Impression-Ebene enthält. Die Daten können im Rohformat vorliegen, aber jeder Datensatz muss die Audience Manager-`UUID` enthalten. Audience Manager kann diese per [!DNL FTP] abholen oder empfangen.
 
 ### Nur qualifizierte Segmente werden an GPT gesendet
 
@@ -42,11 +42,11 @@ Die Menge der an [!DNL GPT] übergebenen Daten hängt von der Anzahl der Segment
 
 >[!NOTE]
 >
->Es gibt keine Begrenzung für die Anzahl der Schlüsselwerte, die Sie senden können, aber die [!DNL Google] Anfrage [!DNL URL] verfügt über Beschränkungen für die Anzahl der Zeichen, die sie akzeptieren kann. Siehe [Festlegen von Zielgruppen und Größen mit GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&amp;answer=1697712).
+>Es gibt keine Begrenzung für die Anzahl der Schlüsselwerte, die Sie senden können, aber die [!DNL Google] Anfrage [!DNL URL] verfügt über Beschränkungen für die Anzahl der Zeichen, die sie akzeptieren kann. Siehe [Festlegen von Zielgruppen und Größen mit GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
 
 ## Server-seitige Integration {#server-side-integration}
 
-Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützung, wenn Sie mithilfe von [!DNL GPT] eine Server-seitige Integration mit [!DNL Google Ad Manager] einrichten möchten. Sie müssen Ihre Netzwerk-ID für das [!DNL Google Ad Manager]-Konto und die Zielgruppen-Link-ID angeben.
+Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützung, wenn Sie mithilfe von [!DNL Google Ad Manager] eine Server-seitige Integration mit [!DNL GPT] einrichten möchten. Sie müssen Ihre Netzwerk-ID für das [!DNL Google Ad Manager]-Konto und die Zielgruppen-Link-ID angeben.
 
 >[!IMPORTANT]
 >
@@ -54,4 +54,4 @@ Wenden Sie sich an Ihren Audience Manager-Berater oder an die Kundenunterstützu
 
 >[!MORELIKETHIS]
 >
->* [GPT-API-Referenzhandbuch](https://support.google.com/dfp_premium/bin/answer.py?hl=en&amp;answer=1650154)
+>* [GPT-API-Referenzhandbuch](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)

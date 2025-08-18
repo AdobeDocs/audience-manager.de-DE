@@ -16,7 +16,7 @@ ht-degree: 35%
 
 # DCS-APIs für Ereignisaufrufe {#dcs-event-call-apis}
 
-Ereignisaufrufe senden Informationen in einer [!DNL URL] Zeichenfolge an die [!DNL DCS]. In einer typischen Audience Manager-Bereitstellung verwenden Kundinnen und Kunden unseren [!DNL JavaScript]-Datenerfassungs-Code ([!UICONTROL DIL]), um Daten an die [!DNL DCS] zu senden. Manchmal können Kunden unseren [!DNL JavaScript]-Code jedoch nicht auf ihren Seiten platzieren. Wenn Sie aufgrund von Unternehmensrichtlinien oder anderen technischen Problemen nicht in der Lage sind, unseren [!DNL JavaScript] Code auf Ihren Seiten zu platzieren, können Sie weiterhin mit Audience Manager arbeiten, um mit diesen Ereignisaufrufen Daten von [!DNL DCS] zu senden und [!DNL API].
+Ereignisaufrufe senden Informationen in einer [!DNL DCS] Zeichenfolge an die [!DNL URL]. In einer typischen Audience Manager-Bereitstellung verwenden Kundinnen und Kunden unseren [!DNL JavaScript]-Datenerfassungs-Code ([!UICONTROL DIL]), um Daten an die [!DNL DCS] zu senden. Manchmal können Kunden unseren [!DNL JavaScript]-Code jedoch nicht auf ihren Seiten platzieren. Wenn Sie aufgrund von Unternehmensrichtlinien oder anderen technischen Problemen unseren [!DNL JavaScript]-Code nicht auf Ihren Seiten platzieren können, können Sie mit diesen Ereignisaufrufen weiterhin mit Audience Manager arbeiten, um Daten von [!DNL DCS] zu senden und [!DNL API].
 
 ## Erste Schritte {#dcs-getting-started}
 

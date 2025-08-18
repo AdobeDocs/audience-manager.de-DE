@@ -61,7 +61,7 @@ In der folgenden Tabelle sind die häufigsten Parameter aufgeführt und definier
 | `stuff` | Dieses Objekt enthält Informationen für alle Cookie-Ziele. Die Liste dieses Objekts ist dynamisch und basiert auf den Aktionen des Benutzers. |
 | `tid` | Transaktions-ID, eine eindeutige 12-stellige ID, die zu Debugging-Zwecken verwendet wird. Jeder /event-Aufruf an den DCS erhält eine TID, auf die Sie bei Support-Anfragen verweisen können, um eine bessere und schnellere Antwort zu erhalten. |
 | `ttl` | Der Wert des Cookies für die Lebensdauer in Tagen. |
-| `u` und `uuid` | Vom Audience Manager zugewiesene eindeutige Benutzer-ID. Dies ist erforderlich, wenn Sie (Server-[-Server-DCS-Aufrufe) ](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `u` und `uuid` | Von Audience Manager zugewiesene eindeutige Benutzer-ID. Dies ist erforderlich, wenn Sie (Server-[-Server-DCS-Aufrufe) ](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
 | `y` | Zieltyp, iFrame (`iframe`) oder Bild (`img`). |
 
 >[!MORELIKETHIS]

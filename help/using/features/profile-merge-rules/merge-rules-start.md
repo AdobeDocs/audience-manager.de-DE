@@ -54,7 +54,7 @@ So schließen Sie den Abschnitt [!UICONTROL Data Source Details] ab:
 
 * **[!UICONTROL Use as a Device Graph]**: Dieses Steuerelement steht nur Konten zur Verfügung, die als Datenanbieter aufgeführt sind. Wenn Sie dieses Kontrollkästchen aktivieren, wird Ihre Datenquelle als Gerätediagramm erstellt und Sie können sie für andere [!DNL Audience Manager] freigeben. Arbeiten Sie mit Ihrem [!DNL Audience Manager] Berater zusammen, um sich als Datenanbieter einzurichten und festzulegen, für welche Kunden dieses [!UICONTROL Data Source] freigegeben werden soll. Ihr Berater stellt Ihr Konto und die Freigabe von Gerätediagrammen über interne Bereitstellungsprozesse bereit.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: Mit dieser Steuerung können Sie die Datenaufbewahrungsdauer für inaktive Kunden-IDs festlegen. Dadurch wird bestimmt, wie lange Audience Manager-IDs in unserer Datenbank aufbewahren, nachdem sie zuletzt auf der Audience Manager-Plattform gesehen wurden. Der Standardwert ist 24 Monate (720 Tage). Der Mindestwert, den Sie festlegen können, ist 1 Monat und der Höchstwert ist 5 Jahre. Beachten Sie, dass wir alle Monate als 30-Tage zählen. Audience Manager führt einen Prozess aus, der inaktive Kunden-IDs einmal wöchentlich gemäß der Datenaufbewahrung löscht, die Sie für inaktive Kunden-IDs festgelegt haben.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: Mit dieser Steuerung können Sie die Datenaufbewahrungsdauer für inaktive Kunden-IDs festlegen. Dadurch wird bestimmt, wie lange Audience Manager Kunden-IDs in unserer Datenbank speichert, nachdem sie zuletzt auf der Audience Manager-Plattform gesehen wurden. Der Standardwert ist 24 Monate (720 Tage). Der Mindestwert, den Sie festlegen können, ist 1 Monat und der Höchstwert ist 5 Jahre. Beachten Sie, dass wir alle Monate als 30-Tage zählen. Audience Manager führt einen Prozess aus, der inaktive Kunden-IDs einmal wöchentlich gemäß der Datenaufbewahrung löscht, die Sie für inaktive Kunden-IDs festgelegt haben.
 
 Mit den mit diesen Einstellungen verknüpften Textfeldern können Sie die [!UICONTROL Data Source] mit einem Alias umbenennen, der in den [Optionen für Profilzusammenführungsregeln“ angezeigt ](merge-rule-definitions.md). Wenn Sie beispielsweise einen Alias zu **[!UICONTROL Use as Authenticated Profile]** hinzufügen, wird dieser Name in der [!UICONTROL Authenticated Profile Options] angezeigt. Wenn Sie **[!UICONTROL Use as a Device Graph]** einen Alias hinzufügen, wird dieser Name in der [!UICONTROL Device Options] angezeigt.
 
@@ -103,9 +103,9 @@ So schließen Sie den Abschnitt [!UICONTROL Proflie Merge Rule Setup] ab:
 
 ### Überlegungen zu Adobe Campaign-Zielen, die geräteübergreifende IDs als Benutzer-ID-Schlüssel verwenden {#considerations}
 
-Ende 2019 haben wir eine Reihe von Verbesserungen an Profilzusammenführungsregeln veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 streng berücksichtigt. Daher produzieren Segmente, die einem Ziel mit geräteübergreifenden IDs zugeordnet sind, in einigen Profilzusammenführungsregeln-Konfigurationen keine Exporte mehr.
+Ende 2019 haben wir eine Reihe von Verbesserungen an Profilzusammenführungsregeln veröffentlicht, um die Genauigkeit von Batch-Dateien zu verbessern, die mit geräteübergreifenden IDs generiert wurden. Diese Verbesserungen werden in Ihrer Audience Manager-Instanz ab Montag, dem 16. März 2020 streng eingehalten. Daher produzieren Segmente, die einem Ziel mit geräteübergreifenden IDs zugeordnet sind, in einigen Profilzusammenführungsregeln-Konfigurationen keine Exporte mehr.
 
-Um mithilfe geräteübergreifender IDs wie Adobe Campaign die richtige Integration zwischen Ihrer Audience Manager-Instanz und Zielen sicherzustellen, müssen Sie die folgenden Anforderungen erfüllen:
+Um mithilfe geräteübergreifender IDs wie Adobe Campaign die ordnungsgemäße Integration zwischen Ihrer Audience Manager-Instanz und Zielen sicherzustellen, müssen Sie die folgenden Anforderungen erfüllen:
 
 1. Überprüfen Sie die Profilzusammenführungsregel, die von den Segmenten verwendet wird, die Ihrem deklarierten Adobe Campaign-ID-Ziel zugeordnet sind. Die Profilzusammenführungsregel muss die Option [!UICONTROL Last Authenticated Profile] verwenden, damit alle authentifizierten Profile in die Exporte einbezogen werden können. Wenn Ihre Profilzusammenführungsregel eine andere Option verwendet, wechseln Sie sie zu [!UICONTROL Last Authenticated Profile].
 2. Wählen Sie die Datenquelle Adobe Campaign Declared ID in den Einstellungen Profilzusammenführungsregel aus.
@@ -126,7 +126,7 @@ Sie müssen eine [geräteübergreifende Datenquelle“ und ](#create-data-source
 
 ## Für Kunden von Adobe Experience Platform Identity Service {#id-service-customers}
 
-Für die Arbeit mit [!UICONTROL Profile Merge Rules] werden die [!UICONTROL Adobe Experience Platform Identity Service] und die neueste Version [&#128279;](../../dil/dil-overview.md) DILempfohlen. Sie müssen die [!UICONTROL Adobe Experience Platform Identity Service] jedoch nicht verwenden, um mit dieser Funktion zu arbeiten. Wenn Sie nur [!UICONTROL DIL] verwenden, lesen Sie den Abschnitt [Legacy-DIL](#legacy-dil) weiter unten.
+Für die Arbeit mit [!UICONTROL Adobe Experience Platform Identity Service] werden die [ und die neueste Version ](../../dil/dil-overview.md) [!UICONTROL Profile Merge Rules]DILempfohlen. Sie müssen die [!UICONTROL Adobe Experience Platform Identity Service] jedoch nicht verwenden, um mit dieser Funktion zu arbeiten. Wenn Sie nur [!UICONTROL DIL] verwenden, lesen Sie den Abschnitt [Legacy-DIL](#legacy-dil) unten.
 
 ### Konfigurieren der Funktion „Kunden-ID festlegen“
 
@@ -150,7 +150,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Weitere Informationen finden Sie unter [Erstellen einer geräteübergreifenden Daten-Source](#create-data-source) und [Kunden-IDs und Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de).
+Weitere Informationen finden Sie unter [Erstellen einer geräteübergreifenden Daten-Source](#create-data-source) und [Kunden-IDs und Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
 
 ### `DIL.create` konfigurieren
 
@@ -165,13 +165,13 @@ var vDil = DIL.create({
 });
 ```
 
-Im Schlüssel-Wert-Paar des Namespace ist die `*`MCORG`*`-Variable Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt [!UICONTROL Administration] des [!DNL Experience Cloud]-Dashboards. Sie benötigen Administratorberechtigungen, um dieses Dashboard anzeigen zu können. Siehe [Administration: Zentrale Dienste](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de).
+Im Schlüssel-Wert-Paar des Namespace ist die `*`MCORG`*`-Variable Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt [!UICONTROL Administration] des [!DNL Experience Cloud]-Dashboards. Sie benötigen Administratorberechtigungen, um dieses Dashboard anzeigen zu können. Siehe [Administration: Zentrale Dienste](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Konfigurieren von SDKs
 
 Siehe Abschnitt [Konfigurieren von SDKs](#configure-sdks-legacy-dil) unten.
 
-## Legacy-DIL {#legacy-dil}
+## Legacy DIL {#legacy-dil}
 
 Wenn Sie [!DNL Adobe Experience Platform Identity Service] noch nicht verwenden, sollten Sie wirklich. Wir wissen jedoch, dass die Umstellung auf neuen Code sorgfältige Überlegungen und Tests erfordert. Überprüfen Sie in diesen Fällen Ihre `DIL.create`, um sicherzustellen, dass sie ordnungsgemäß eingerichtet ist, wie im folgenden Codebeispiel dargestellt.
 
@@ -215,15 +215,15 @@ Weitere Informationen finden Sie im Abschnitt zu älteren [!UICONTROL DIL] in [D
     </code></p>
     <p> <b>Beispiel:</b> </p><p>
     <code class="javascript">
-      &lbrack;ADBMobile&nbsp;audienceSetDpid:@"290"
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"&rbrack;;
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
     </code></p>
     </td>
   </tr>
  </tbody>
 </table>
 
-Siehe auch [Audience Manager-Methoden für Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=de) und [Audience Manager-Methoden für iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=de).
+Siehe auch [Audience Manager-Methoden für Android ](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) [Audience Manager-Methoden für iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >

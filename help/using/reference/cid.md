@@ -74,7 +74,7 @@ Die Schlüssel-Wert-Paare CID und CID_IC ersetzen DPID und DPUUID. Sie bieten di
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kunden-ID-Integrationscode (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Ein <span class="term">-Integrationscode</span> ist eine alternative ID, die Sie anstelle der vom Audience Manager <span class="keyword"> Data Source-ID verwenden können</span>. Siehe <a href="../features/manage-datasources.md#create-data-source"> Erstellen einer Daten-Source</a> , wenn Sie einen Integrations-Code konfigurieren müssen. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Ein <span class="term">-Integrationscode</span> ist eine alternative ID, die Sie anstelle der von <span class="keyword"> Audience Manager zugewiesenen Data Source-ID verwenden können</span>. Siehe <a href="../features/manage-datasources.md#create-data-source"> Erstellen einer Daten-Source</a> , wenn Sie einen Integrations-Code konfigurieren müssen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

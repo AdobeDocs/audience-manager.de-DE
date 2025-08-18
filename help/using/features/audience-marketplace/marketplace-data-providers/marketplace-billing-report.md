@@ -1,5 +1,5 @@
 ---
-description: Erstellen Sie einen Audience Marketplace-Abrechnungsbericht, um die Daten-Feed-Nutzung für den Vormonat für jede Abonnentin und jeden Abonnenten anzuzeigen. Sie können jederzeit einen Bericht für den Vormonat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
+description: Erstellen Sie einen Abrechnungsbericht für Audience Marketplace, um die Daten-Feed-Nutzung für den Vormonat für jede Abonnentin und jeden Abonnenten anzuzeigen. Sie können jederzeit einen Bericht für den Vormonat erstellen. Der Bericht ist jedoch genauer, wenn Sie ihn am oder nach dem 10. Tag des aktuellen Monats erstellen.
 seo-description: Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
 seo-title: Billing for Data Feed Providers
 solution: Audience Manager
@@ -39,7 +39,7 @@ Ein Abrechnungsbericht enthält die folgenden Informationen.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Datenanbieter-PID</span></b> </p> </td> 
-   <td colname="col2"> <p>Ihr <span class="keyword"> Audience Manager </span> Datenanbieter-ID. </p> </td> 
+   <td colname="col2"> <p>Ihre <span class="keyword"> Audience Manager</span> Datenanbieter-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Name <b><span class="uicontrol"> Datenanbieters</span></b> </p> </td> 
@@ -92,7 +92,7 @@ Ein Abrechnungsbericht enthält die folgenden Informationen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Gesamtkosten</span></b> </p> </td> 
-   <td colname="col2"> <p>Der Betrag <span class="keyword"> Audience Managers </span> der einem Käufer in Rechnung gestellt wird. </p> </td> 
+   <td colname="col2"> <p>Der Betrag <span class="keyword"> Audience Manager</span> stellt einem Käufer in Rechnung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Abrechnungszeitraum</span></b> </p> </td> 
