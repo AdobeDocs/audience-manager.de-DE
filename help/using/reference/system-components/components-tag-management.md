@@ -38,7 +38,7 @@ Das Client-Portal ist die primäre Benutzeroberfläche für das Tag- und Daten-M
 
 ## DIL/TIM-Container {#dil-tim}
 
-Der [!UICONTROL DIL]-Container hilft beim Bereitstellen [!DNL Audience Manager] Datenerfassungs-Codes auf Ihrer Website. [!UICONTROL TIM] ist der veraltete Tag Insertion Manager. Es wird nicht mehr von [!DNL Audience Manager] verwendet. Stattdessen verwenden Sie die [!DNL Audience Manager]-Erweiterung in [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) um Container-Code zu konfigurieren und zu generieren, den Sie auf Seiten in Ihrem Inventar platzieren.
+Der [!UICONTROL DIL]-Container hilft beim Bereitstellen [!DNL Audience Manager] Datenerfassungs-Codes auf Ihrer Website. [!UICONTROL TIM] ist der veraltete Tag Insertion Manager. Es wird nicht mehr von [!DNL Audience Manager] verwendet. Stattdessen verwenden Sie die [!DNL Audience Manager]-Erweiterung in [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=de) um Container-Code zu konfigurieren und zu generieren, den Sie auf Seiten in Ihrem Inventar platzieren.
 
 ## Data Integration Library (DIL) {#dil}
 

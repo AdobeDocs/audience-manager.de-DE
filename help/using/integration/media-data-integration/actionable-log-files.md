@@ -41,7 +41,7 @@ Wenn Sie bereits Protokolldaten in [!DNL Audience Manager] importieren, bitten S
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) to get started.
 
 -->
 

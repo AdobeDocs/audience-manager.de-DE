@@ -20,9 +20,9 @@ ht-degree: 2%
 >
 >Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Adobe wird jedoch keine [!DNL DIL] über diesen Punkt hinaus entwickeln. Kundinnen und Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Adobe wird jedoch keine [!DNL DIL] über diesen Punkt hinaus entwickeln. Kundinnen und Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) verwenden.
 
 Erfassen Sie die von FLA-Dateien an Analytics gesendeten Daten und verwenden Sie diese Informationen in Audience Manager.
 
@@ -56,7 +56,7 @@ c_flash_dil_intro.xml
 
 **Setzen Sie AllowScriptAccess auf `Always` oder`sameDomain`**
 
-Die `AllowScriptAccess` im HTML-Code, die eine SWF-Datei lädt, steuert die Möglichkeit, den ausgehenden URL-Zugriff über die SWF-Datei durchzuführen. Wenn Sie eine [!UICONTROL Flash DIL] Datenintegration konfigurieren, stellen Sie sicher, dass der Flash-`AllowScriptAccess`-Parameter auf `always` oder `sameDomain` gesetzt ist. [!UICONTROL Flash DIL] Datenerfassung funktioniert nicht, wenn `AllowScriptAccess` auf `never` gesetzt ist. Siehe [Zugriff auf Skripte steuern oder Web-Seite hosten](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html).
+Die `AllowScriptAccess` im HTML-Code, die eine SWF-Datei lädt, steuert die Möglichkeit, den ausgehenden URL-Zugriff über die SWF-Datei durchzuführen. Wenn Sie eine [!UICONTROL Flash DIL] Datenintegration konfigurieren, stellen Sie sicher, dass der Flash-`AllowScriptAccess`-Parameter auf `always` oder `sameDomain` gesetzt ist. [!UICONTROL Flash DIL] Datenerfassung funktioniert nicht, wenn `AllowScriptAccess` auf `never` gesetzt ist. Siehe [Zugriff auf Skripte steuern oder Web-Seite hosten](https://helpx.adobe.com/de/flash/kb/control-access-scripts-host-web.html).
 
 **JS[!UICONTROL DIL]Code-Platzierung**
 

@@ -22,7 +22,7 @@ In diesem Artikel werden die Konzepte und Terminologie des Europäischen Datensc
 
 Die DSGVO trat am 25. Mai 2018 in Kraft, mit dem vorrangigen Ziel, Einzelpersonen in der EU (betroffene Personen) mehr Kontrolle über ihre personenbezogenen Daten zu geben und gleichzeitig das Regelungsumfeld für internationale Unternehmen durch eine bessere Vereinheitlichung der Vorschriften innerhalb der EU zu vereinfachen. Im Rahmen der DSGVO-Bereitschaft von Adobe hat das Adobe Audience Manager-Team die erforderlichen Dienste und Prozesse verbessert, um Zugriffs- und Löschanfragen von betroffenen Personen, Ihren Verbrauchern, zu unterstützen.
 
-Lesen Sie auch den Abschnitt zur DSGVO in der [Übersicht über Datenschutzbestimmungen](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) um ein besseres Verständnis der Funktionsweise der DSGVO in Experience Cloud zu erhalten.
+Lesen Sie auch den Abschnitt zur DSGVO in der [Übersicht über Datenschutzbestimmungen](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de) um ein besseres Verständnis der Funktionsweise der DSGVO in Experience Cloud zu erhalten.
 
 ## DSGVO-Glossar {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ Machen Sie sich mit den wichtigsten Begriffen im Zusammenhang mit der DSGVO vert
 
  
 
-**Audience Manager-IDs:** Adobe Audience Manager speichert verschiedene Arten von IDs. Auf der Seite [Audience Manager-IDs](data-privacy-ids.md) finden Sie eine Zusammenfassung dieser IDs, der zugehörigen Datenquellen und kurze Beschreibungen. Wenn Sie Anfragen an den [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) senden, verweisen Sie auf diese IDs, um Lösch- oder Zugriffsanfragen für Ihre betroffenen Personen zu stellen.
+**Audience Manager-IDs:** Adobe Audience Manager speichert verschiedene Arten von IDs. Auf der Seite [Audience Manager-IDs](data-privacy-ids.md) finden Sie eine Zusammenfassung dieser IDs, der zugehörigen Datenquellen und kurze Beschreibungen. Wenn Sie Anfragen an den [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) senden, verweisen Sie auf diese IDs, um Lösch- oder Zugriffsanfragen für Ihre betroffenen Personen zu stellen.
 
  
 

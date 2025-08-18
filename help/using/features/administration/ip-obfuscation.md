@@ -31,7 +31,7 @@ Siehe auch Erfassen von IP-Adressen und Verschleierung von IP-Adressen in unsere
 
 ### Priorität der IP-Verschleierung {#precedence}
 
-[IP-Verschleierung auf Datenstromebene](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) hat Vorrang vor allen in Audience Manager festgelegten IP-Verschleierungsoptionen und wird auf alle IP-Adressen angewendet. Die Option [!UICONTROL IP obfuscation] auf Datenstromebene wirkt sich auf alle von Audience Manager durchgeführten Geolokalisierungs-Suchen aus. Eine Geolokalisierung in Audience Manager, die auf einer vollständig verschleierten IP basiert, führt zu einer unbekannten Region, und alle Segmente, die auf den resultierenden Geolokalisierungsdaten basieren, werden nicht realisiert.
+[IP-Verschleierung auf Datenstromebene](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de#create) hat Vorrang vor allen in Audience Manager festgelegten IP-Verschleierungsoptionen und wird auf alle IP-Adressen angewendet. Die Option [!UICONTROL IP obfuscation] auf Datenstromebene wirkt sich auf alle von Audience Manager durchgeführten Geolokalisierungs-Suchen aus. Eine Geolokalisierung in Audience Manager, die auf einer vollständig verschleierten IP basiert, führt zu einer unbekannten Region, und alle Segmente, die auf den resultierenden Geolokalisierungsdaten basieren, werden nicht realisiert.
 
 ## Anforderungen an die IP-Adressverschleierung {#ip-obfuscation-requirements}
 

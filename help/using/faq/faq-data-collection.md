@@ -191,7 +191,7 @@ Nein, verlassen Sie sich in diesem Fall nicht auf die [!UICONTROL General Report
 
 Die Berichte berechnen Populationen basierend auf den nicht authentifizierten Profildatensätzen (UUIDs), die zum Zeitpunkt der Berichterstellung im Backend angezeigt werden.
 
-Bei einem ersten Aufruf des [!DNL DCS] werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. auf der Client-Seite ist kein [demdex-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) vorhanden). Der [!DNL DCS] generiert eine UUID nach dem Zufallsprinzip, setzt ein [!DNL demdex]-Cookie und gibt es im Antwortaufruf weiter. Er überträgt jedoch die UUID nicht an das Backend.
+Bei einem ersten Aufruf des [!DNL DCS] werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. auf der Client-Seite ist kein [demdex-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=de) vorhanden). Der [!DNL DCS] generiert eine UUID nach dem Zufallsprinzip, setzt ein [!DNL demdex]-Cookie und gibt es im Antwortaufruf weiter. Er überträgt jedoch die UUID nicht an das Backend.
 
 >[!NOTE]
 >

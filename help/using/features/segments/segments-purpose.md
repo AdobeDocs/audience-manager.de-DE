@@ -36,7 +36,7 @@ Beim Zuordnen von Adobe Analytics [!UICONTROL segments] oder Report Suites zu Ih
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] unterscheiden sich von [!DNL Adobe Analytics] [!UICONTROL segments]. Unter [Segmente in Analytics und Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) finden Sie eine ausführliche Beschreibung der Unterschiede.
+>Audience Manager [!UICONTROL segments] unterscheiden sich von [!DNL Adobe Analytics] [!UICONTROL segments]. Unter [Segmente in Analytics und Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=de) finden Sie eine ausführliche Beschreibung der Unterschiede.
 
 ## Erstellen von regelbasierten [!UICONTROL Segments] mit [!UICONTROL Segment Builder]
 

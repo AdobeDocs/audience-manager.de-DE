@@ -29,7 +29,7 @@ Die Beta-Umgebung wird am Ende jedes Monats außerhalb der Spitzenzeiten aktuali
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass Ihre Kundendaten [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en) nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert werden.
+>Beachten Sie, dass Ihre Kundendaten [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=de) nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert werden.
 
 ## Inbound-Traffic
 

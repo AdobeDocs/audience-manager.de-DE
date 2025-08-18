@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Predictive Audiences-Berichte
 
-Nachdem Sie ein [!UICONTROL Predictive Audiences] Modell gespeichert haben, beginnt Audience Manager mit dessen Training. Innerhalb weniger Stunden beginnt das berechnete Modell mit der Analyse der Zielgruppen auf den [Datenerfassungsservern](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Die Berichterstattung erfolgt am folgenden Tag.
+Nachdem Sie ein [!UICONTROL Predictive Audiences] Modell gespeichert haben, beginnt Audience Manager mit dessen Training. Innerhalb weniger Stunden beginnt das berechnete Modell mit der Analyse der Zielgruppen auf den [Datenerfassungsservern](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=de#dcs-pcs). Die Berichterstattung erfolgt am folgenden Tag.
 
 Um die Ergebnisse Ihrer [!UICONTROL Predictive Audiences] Klassifizierung anzuzeigen, navigieren Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie auf Ihr Modell in der Liste.
 

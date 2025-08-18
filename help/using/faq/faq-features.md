@@ -33,7 +33,7 @@ Die *`Organization ID`* ist eine eindeutige ID, mit der Ihr Unternehmen in [!DNL
 
 Eine *`Organization ID`* sieht beispielsweise so aus: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-Die *`Organization ID`* wird von der [DIL](../dil/dil-overview.md)-API von Audience Manager, dem [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) und anderen [!DNL Experience Cloud]-Lösungen verwendet. Benutzer mit Administratorberechtigungen können die *`Organization ID`* in der [!DNL Adobe Admin Console] finden. Siehe [Häufig gestellte Fragen zur Administration – Benutzerverwaltung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Die *`Organization ID`* wird von der [DIL](../dil/dil-overview.md)-API von Audience Manager, dem [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) und anderen [!DNL Experience Cloud]-Lösungen verwendet. Benutzer mit Administratorberechtigungen können die *`Organization ID`* in der [!DNL Adobe Admin Console] finden. Siehe [Häufig gestellte Fragen zur Administration – Benutzerverwaltung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de).
 
  
 
@@ -67,7 +67,7 @@ Ihr Daten-Feed und alle im Feed enthaltenen Eigenschaften werden als Unterordner
 
 **Was ist [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager verwendete [!UICONTROL Tag Insertion Manager] (TIM) zum Erstellen und Verwalten von [!UICONTROL data collection code (DIL)]. Diese Funktion ist mittlerweile veraltet und wurde zuerst durch [!UICONTROL Dynamic Tag Manager (DTM)] und später durch [!DNL Adobe Experience Platform Tags] ersetzt. Weitere Informationen finden Sie unter [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Audience Manager verwendete [!UICONTROL Tag Insertion Manager] (TIM) zum Erstellen und Verwalten von [!UICONTROL data collection code (DIL)]. Diese Funktion ist mittlerweile veraltet und wurde zuerst durch [!UICONTROL Dynamic Tag Manager (DTM)] und später durch [!DNL Adobe Experience Platform Tags] ersetzt. Weitere Informationen finden Sie unter [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
 
  
 
@@ -95,4 +95,4 @@ Sie sollten Eigenschaftsempfehlungen in folgenden Fällen verwenden:
 
 **Gibt es einen Unterschied zwischen Adobe Analytics- und Audience Manager-Segmenten?**
 
-Ja. Eine ausführliche Beschreibung der Unterschiede finden Sie unter [Grundlegendes zu Segmenten in Analytics und Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+Ja. Eine ausführliche Beschreibung der Unterschiede finden Sie unter [Grundlegendes zu Segmenten in Analytics und Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=de).

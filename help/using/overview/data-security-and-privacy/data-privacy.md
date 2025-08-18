@@ -43,9 +43,9 @@ Weitere Informationen finden Sie im [Adobe Privacy Center](https://www.adobe.com
 
 ## Einhaltung von Vorschriften {#compliance}
 
-[!DNL Audience Manager] hilft Ihnen bei der Einhaltung Ihrer Verpflichtungen aus bestimmten Datenschutzbestimmungen mithilfe von Datenschutztools wie dem [Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) für Datenzugriffs- und Löschanfragen.
+[!DNL Audience Manager] hilft Ihnen bei der Einhaltung Ihrer Verpflichtungen aus bestimmten Datenschutzbestimmungen mithilfe von Datenschutztools wie dem [Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) für Datenzugriffs- und Löschanfragen.
 
-Dieser Dienst bietet eine [!DNL RESTful API] und eine Benutzeroberfläche, die Sie bei der Verwaltung von Datenanfragen von Verbrauchern unterstützen. Mithilfe des [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) können Sie auf Anfrage eines einzelnen Verbrauchers Anfragen zum Zugriff auf und zum Löschen personenbezogener Daten senden, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
+Dieser Dienst bietet eine [!DNL RESTful API] und eine Benutzeroberfläche, die Sie bei der Verwaltung von Datenanfragen von Verbrauchern unterstützen. Mithilfe des [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) können Sie auf Anfrage eines einzelnen Verbrauchers Anfragen zum Zugriff auf und zum Löschen personenbezogener Daten senden, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
 
 Während Datenzugriffs- und Löschanfragen über die Privacy Service verarbeitet werden, [Opt-out](data-privacy-requests.md#opt-out-requests)Anfragen derzeit über die [DCS-API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Weitere Informationen finden Sie unter [Datenschutzanfragen](data-privacy-requests.md).
 

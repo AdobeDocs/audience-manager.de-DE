@@ -111,7 +111,7 @@ Ja.
 
 **Umfassen Schätzungen der Segmentgröße Geräte, die sich für ein Segment qualifizieren, basierend auf Verbindungen, die von einer [!UICONTROL Profile Merge Rule] bereitgestellt werden, die eine Gerätediagrammoption verwendet?**
 
-Nein. Siehe die Definitionen für [!UICONTROL Estimated Real-Time Population] und [!UICONTROL Estimated Total Population] in [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
+Nein. Siehe die Definitionen für [!UICONTROL Estimated Real-Time Population] und [!UICONTROL Estimated Total Population] in [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de).
 
  
 

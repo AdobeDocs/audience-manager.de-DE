@@ -37,7 +37,7 @@ Einige Browser und die meisten Mobilgeräte akzeptieren keine [!DNL cookies] von
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Ereignisaufruf</b> </td> 
-   <td colname="col2"> <p>Dazu benötigen Sie <span class="wintitle"> DIL-</span> und den <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service-</a>-Code auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierten IDs </span> aus der <code> setVisitorID </code>, die von der <span class="keyword"> Adobe Experience Platform Identity Service-</span> bereitgestellt wird, und übergibt diese an <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Dazu benötigen Sie <span class="wintitle"> DIL-</span> und den <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de" format="https" scope="external"> Adobe Experience Platform Identity Service-</a>-Code auf der Seite. <span class="wintitle"> DIL </span> erhält <span class="wintitle"> deklarierten IDs </span> aus der <code> setVisitorID </code>, die von der <span class="keyword"> Adobe Experience Platform Identity Service-</span> bereitgestellt wird, und übergibt diese an <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Match-ID</b> </td> 
@@ -184,7 +184,7 @@ Beschreibt die Konfigurationsvariablen, mit denen [!UICONTROL declared IDs] übe
 
 ## [!UICONTROL DIL] verwendet die [!DNL Adobe Experience Platform Identity Service], um [!UICONTROL Declared IDs] zu übergeben {#dil-id-service-pass-declared-ids}
 
-Bei Verwendung mit dem [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) müssen Sie keine [!UICONTROL declared IDs] mit den veralteten `dpid`- und `dpuuid`-Variablen mehr übergeben. Stattdessen verwenden die aktuellen Versionen von [!UICONTROL DIL] die Funktion `visitorService` , um die [!UICONTROL declared IDs] aus der Funktion `setCustomerIDs` in der [!UICONTROL Adobe Experience Platform Identity Service] abzurufen. Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Sie würden `visitorService` wie unten dargestellt in `DIL.create` aufrufen.
+Bei Verwendung mit dem [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) müssen Sie keine [!UICONTROL declared IDs] mit den veralteten `dpid`- und `dpuuid`-Variablen mehr übergeben. Stattdessen verwenden die aktuellen Versionen von [!UICONTROL DIL] die Funktion `visitorService` , um die [!UICONTROL declared IDs] aus der Funktion `setCustomerIDs` in der [!UICONTROL Adobe Experience Platform Identity Service] abzurufen. Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de). Sie würden `visitorService` wie unten dargestellt in `DIL.create` aufrufen.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-Im `namespace` Schlüssel-Wert-Paar ist `MCORG` Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt [!UICONTROL Administration] des [!DNL Experience Cloud]-Dashboards. Sie benötigen Administratorberechtigungen, um dieses Dashboard anzeigen zu können. Siehe [Erste Schritte mit Experience Cloud-Services](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
+Im `namespace` Schlüssel-Wert-Paar ist `MCORG` Ihre [!DNL Experience Cloud] Organisations-ID. Wenn Sie diese ID nicht haben, finden Sie sie im Abschnitt [!UICONTROL Administration] des [!DNL Experience Cloud]-Dashboards. Sie benötigen Administratorberechtigungen, um dieses Dashboard anzeigen zu können. Siehe [Erste Schritte mit Experience Cloud-Services](https://experienceleague.adobe.com/de/docs/core-services/interface/services/getting-started).
 
 ## Veraltete Funktionen {#deprecated-functions}
 
