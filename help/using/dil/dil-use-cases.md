@@ -44,7 +44,7 @@ c_dil_send_page_objects.xml
 
 **Beschreibung**
 
-Der folgende Code veranschaulicht, wie Seitendaten erfasst und mit [!UICONTROL DIL] an Audience Manager gesendet werden. In diesen Beispielen wird eine Variable verwendet, um Datenelemente in einer flachen Liste oder einem Array zu speichern. Denken Sie daran, Variablen als „Schlüssel[Wert-Paare“ ](../reference/key-value-pairs-explained.md). Beachten Sie außerdem das `c_` Präfix vor dem Schlüssel im Schlüssel-Wert-Paar. Dieses [erforderliche Präfix](../features/traits/trait-variable-prefixes.md) kennzeichnet Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie `c_` manuell an den Schlüssel anhängen. Im zweiten Beispiel erledigt [!UICONTROL DIL] dies automatisch für Sie.
+Der folgende Code veranschaulicht, wie Seitendaten erfasst und mit [!UICONTROL DIL] an Audience Manager gesendet werden. In diesen Beispielen wird eine Variable verwendet, um Datenelemente in einer flachen Liste oder einem Array zu speichern. Denken Sie daran, Variablen als „Schlüssel[Wert-Paare“ &#x200B;](../reference/key-value-pairs-explained.md). Beachten Sie außerdem das `c_` Präfix vor dem Schlüssel im Schlüssel-Wert-Paar. Dieses [erforderliche Präfix](../features/traits/trait-variable-prefixes.md) kennzeichnet Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie `c_` manuell an den Schlüssel anhängen. Im zweiten Beispiel erledigt [!UICONTROL DIL] dies automatisch für Sie.
 
 **Werteigenschaften konsistent halten**
 

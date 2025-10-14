@@ -36,4 +36,4 @@ Senden Sie Informationen an ein Ziel, indem Sie sie über eine [!DNL URL] Zeiche
 * [!DNL URL]- und Cookie-basierte Ziele übertragen Daten synchron, wenn ein Benutzer eine Aktion auf einer Seite ausführt.
 * Die Server-zu-Server-Datenübertragung erfolgt asynchron und kann lange nach Verlassen der Seite durch einen Benutzer erfolgen. Der von Ihnen ausgewählte Versandtyp hängt von Ihren Geschäftsanforderungen ab und davon, wie ein bestimmter Datenpartner Daten empfangen möchte oder kann.
 
-Weitere Informationen finden [ unter „Auswählen ](../../features/destinations/destinations.md) Zieltyps“.
+Weitere Informationen finden [&#x200B; unter „Auswählen &#x200B;](../../features/destinations/destinations.md) Zieltyps“.

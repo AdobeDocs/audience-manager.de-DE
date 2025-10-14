@@ -20,14 +20,14 @@ Mit der Funktion zur Freigabe von Audiences zwischen Audience Manager und Adobe 
 
 Sie benötigen das [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de) und das [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=de)-Ziel in Experience Platform, um die Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
 
-Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden, um Ihren Kundenprofilen Audience Manager-Daten hinzuzufügen und vom Experience Platform-Segmentierungs[Service zu ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden, um Ihren Kundenprofilen Audience Manager-Daten hinzuzufügen und vom Experience Platform-Segmentierungs[Service zu &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
 In Audience Manager können Sie Experience Platform-Segmente für Anwendungsfälle der Data Management-Plattform verwenden, z. B.:
-* Fügen Sie [ Segmente ](/help/using/overview/data-types-collected.md#third-party-data) Drittanbieterdaten hinzu.
+* Fügen Sie [&#x200B; Segmente &#x200B;](/help/using/overview/data-types-collected.md#third-party-data) Drittanbieterdaten hinzu.
 * [Algorithmische Modellierung](/help/using/features/algorithmic-models/understanding-models.md);
 * Aktivieren Sie Ihre Segmente für Ziele, die noch nicht im Experience Platform-Zielkatalog unterstützt [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=de).
 
-Darüber hinaus werden Ihre Experience Platform-Segmente über [Core Services“ für andere Experience Cloud-Lösungen ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de).
+Darüber hinaus werden Ihre Experience Platform-Segmente über [Core Services“ für andere Experience Cloud-Lösungen &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de).
 
 >[!IMPORTANT]
 >
@@ -74,7 +74,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie die Datenfreigabe von Exp
 
 >[!IMPORTANT]
 >
-> In diesem Abschnitt wird die veraltete Segmentfreigabeintegration von Experience Platform in Audience Manager beschrieben. Sie können diese Integration jetzt ohne Unterstützung der Adobe-Kundenbetreuer einrichten. Weitere Informationen finden Sie in der Zieldokumentation zu &lbrace;0[ Experience Cloud Audiences.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=de)
+> In diesem Abschnitt wird die veraltete Segmentfreigabeintegration von Experience Platform in Audience Manager beschrieben. Sie können diese Integration jetzt ohne Unterstützung der Adobe-Kundenbetreuer einrichten. Weitere Informationen finden Sie in der Zieldokumentation zu &lbrace;0[&#x200B; Experience Cloud Audiences.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=de)
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Audience Manager erstellt in Ihrem Eigenschaftsspeicher automatisch einen Eigens
 
 ![Eigenschaften aus dem Experience Platform-Dashboard](/help/using/integration/integration-aep/assets/aep-traits-dashboard.png)
 
-Sie können automatisch erstellte Eigenschaften in Segmenten zusammen mit anderen Eigenschaften verwenden. Sie können beispielsweise Eigenschaften, die aus Experience Platform-Segmenten erstellt wurden, mit Eigenschaften von Drittanbietern mischen, die über die [Audience Marketplace erworben ](/help/using/features/audience-marketplace/audience-marketplace.md).
+Sie können automatisch erstellte Eigenschaften in Segmenten zusammen mit anderen Eigenschaften verwenden. Sie können beispielsweise Eigenschaften, die aus Experience Platform-Segmenten erstellt wurden, mit Eigenschaften von Drittanbietern mischen, die über die [Audience Marketplace erworben &#x200B;](/help/using/features/audience-marketplace/audience-marketplace.md).
 
 Ein Beispiel für eine Eigenschaft, die automatisch aus einem Experience Platform-Segment erstellt wurde, finden Sie im folgenden Screenshot:
 
@@ -136,13 +136,13 @@ Ein Beispiel für ein Segment, das automatisch aus einem Experience Platform-Seg
 | 1 | [!UICONTROL Integration Code] | Der Integrations-Code entspricht der Segment-ID in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch erstellt. Alle Eigenschaften und Segmente, die automatisch aus Experience Platform-Segmenten erstellt werden, werden im **[!DNL Adobe Experience Platform Audience Sharing]** gespeichert. |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** gibt an, dass automatisch erstellte Segmente der in Experience Platform eingerichteten Zusammenführungsrichtlinie entsprechen. |
-| 4 | [!UICONTROL Segment Rule] | Das Segment besteht aus der Eigenschaft , die im Abschnitt „Eigenschaften[ beschrieben ](#aep-segments-as-aam-traits). |
+| 4 | [!UICONTROL Segment Rule] | Das Segment besteht aus der Eigenschaft , die im Abschnitt „Eigenschaften[&#x200B; beschrieben &#x200B;](#aep-segments-as-aam-traits). |
 
 {style="table-layout:auto"}
 
 ## Unterstützung der Audience Manager-Datenexportsteuerung in Experience Platform {#aam-data-export-control-in-aep}
 
-Um die Einhaltung der Datennutzungsrichtlinien in Experience Platform durchzusetzen, müssen alle entsprechenden Datensätze und Felder mit entsprechenden [Datennutzungskennzeichnungen) ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de) werden. Darüber hinaus müssen [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de) für bestimmte Marketing-Aktionen für diese Kennzeichnungen aktiviert sein, wie im [DULE-Framework (Data Usage Labeling and Enforcement](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de#dule-framework) beschrieben.
+Um die Einhaltung der Datennutzungsrichtlinien in Experience Platform durchzusetzen, müssen alle entsprechenden Datensätze und Felder mit entsprechenden [Datennutzungskennzeichnungen) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de) werden. Darüber hinaus müssen [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de) für bestimmte Marketing-Aktionen für diese Kennzeichnungen aktiviert sein, wie im [DULE-Framework (Data Usage Labeling and Enforcement](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de#dule-framework) beschrieben.
 
 Im Prozess der Zielgruppenfreigabe zwischen Audience Manager und Experience Platform werden alle Datenexportsteuerelemente, die auf Audience Manager-Segmente angewendet wurden, in entsprechende Beschriftungen und Marketing-Aktionen übersetzt, die von Experience Platform Data Governance erkannt werden, und umgekehrt.
 
@@ -196,7 +196,7 @@ Audience Manager aktualisiert die Berichtszahlen in der Benutzeroberfläche einm
 
 ### Segmentkomposition in Experience Platform
 
-Die Integration zwischen Adobe Experience Platform und Audience Manager nutzt eine Reihe von [ (Identity-](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#identity-types)) für alle Kunden: ECID, IDFA, GAID, Hash-E-Mail-Adressen (EMAIL_LC_SHA256) und AdCloud-ID. Wenn Ihre Experience Platform-Segmente eine dieser Eigenschaften als primäre Identität für die qualifizierten Profile verwenden, werden die Profile in Audience Manager-Eigenschaften und -Segmenten gezählt.
+Die Integration zwischen Adobe Experience Platform und Audience Manager nutzt eine Reihe von [&#x200B; (Identity-](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#identity-types)) für alle Kunden: ECID, IDFA, GAID, Hash-E-Mail-Adressen (EMAIL_LC_SHA256) und AdCloud-ID. Wenn Ihre Experience Platform-Segmente eine dieser Eigenschaften als primäre Identität für die qualifizierten Profile verwenden, werden die Profile in Audience Manager-Eigenschaften und -Segmenten gezählt.
 
 >[!NOTE]
 >

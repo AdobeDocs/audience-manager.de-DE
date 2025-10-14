@@ -144,7 +144,7 @@ Lesen Sie mehr über [Erstellen von Eigenschaften](/help/using/features/traits/c
 
 ### Schritt 4: Datenanbieter - Daten-Feed erstellen
 
-Erstellen Sie als Nächstes einen Daten-Feed, um Ihre Eigenschaften mit dem Datenkäufer zu teilen. Anweisungen [ Erstellen eines öffentlichen oder privaten Daten-Feeds finden ](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) unter „Erstellen eines öffentlichen oder privaten Daten-Feeds“.
+Erstellen Sie als Nächstes einen Daten-Feed, um Ihre Eigenschaften mit dem Datenkäufer zu teilen. Anweisungen [&#x200B; Erstellen eines öffentlichen oder privaten Daten-Feeds finden &#x200B;](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) unter „Erstellen eines öffentlichen oder privaten Daten-Feeds“.
 
 >[!IMPORTANT]
 >

@@ -90,7 +90,7 @@ Erstellen einer Gruppe:
 5. Wählen Sie in [!UICONTROL Group Permissions] ein [Merkmal](../../features/traits/trait-details-page.md), [Segment](../../features/segments/segments-purpose.md) oder [Ziel](../../features/destinations/destinations.md) aus **[!UICONTROL Add Object]**.
 Dadurch wird ein Berechtigungsfenster für das ausgewählte Objekt geöffnet.
 6. Aktivieren Sie das Kontrollkästchen für die Berechtigungen, die Gruppenmitglieder haben sollen.
-7. *(Optional)* Weisen Sie der [ „Platzhalterberechtigungen](../../features/administration/administration-overview.md#wild-card-permissions) zu.
+7. *(Optional)* Weisen Sie der [&#x200B; „Platzhalterberechtigungen](../../features/administration/administration-overview.md#wild-card-permissions) zu.
 8. Klicken Sie auf **[!UICONTROL Save Group]**.
 
 ## Grundlagen zu [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
@@ -160,7 +160,7 @@ Nachfolgend finden Sie eine Beschreibung der einzelnen [!UICONTROL wildcard perm
 
 **[!UICONTROL Signals]**
 
-* `VIEW_ALL_SIGNALS` - Benutzer können alle in [Data Explorer erfassten Signale ](/help/using/features/data-explorer/data-explorer-overview.md).
+* `VIEW_ALL_SIGNALS` - Benutzer können alle in [Data Explorer erfassten Signale &#x200B;](/help/using/features/data-explorer/data-explorer-overview.md).
 
 ## Nutzungsszenarios {#use-cases}
 

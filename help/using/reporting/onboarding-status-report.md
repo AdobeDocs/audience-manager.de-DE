@@ -77,7 +77,7 @@ Wenn das Fehler-Sampling aktiv ist, zeigt der Bericht für jeden Fehlertyp die 1
 
 >[!NOTE]
 >
->In diesem Bericht werden keine Datensatzfehler mit dieser aktuellen Version hervorgehoben. Um Dateifehler zu finden und zu beheben, sollten Sie die Ergebnisse überprüfen und mit den Spezifikationen in der Dokumentation [Inhalte eingehender Datendateien“ ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+>In diesem Bericht werden keine Datensatzfehler mit dieser aktuellen Version hervorgehoben. Um Dateifehler zu finden und zu beheben, sollten Sie die Ergebnisse überprüfen und mit den Spezifikationen in der Dokumentation [Inhalte eingehender Datendateien“ &#x200B;](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 ![](assets/error-samples.png)
 

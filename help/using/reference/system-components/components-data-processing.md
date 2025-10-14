@@ -47,7 +47,7 @@ Kunden haben keinen direkten Zugriff auf diese Systeme. Kunden arbeiten jedoch i
 Dies ist keine umfassende Liste, aber einige gängige Dashboard-Berichte, für die [!UICONTROL Snowflake] verantwortlich ist, umfassen:
 
 * [Täglicher Bericht zur Eigenschaftsvarianz](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* Alle Überschneidungsberichte (Informationen zu den einzelnen Überschneidungsberichten finden [ im Abschnitt ](/help/using/reporting/dynamic-reports/dynamic-reports.md)Interaktive Berichte„).
+* Alle Überschneidungsberichte (Informationen zu den einzelnen Überschneidungsberichten finden [&#x200B; im Abschnitt &#x200B;](/help/using/reporting/dynamic-reports/dynamic-reports.md)Interaktive Berichte„).
 * [Bericht zu nicht verwendeten Signalen](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}

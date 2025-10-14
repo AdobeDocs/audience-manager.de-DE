@@ -102,7 +102,7 @@ Mit den [!UICONTROL Use Case] können Verkäufer steuern, wie Käufer Ihre Daten
 
 ### Segmente und Überschneidungen
 
-Bei einem **[!UICONTROL Segments and Overlap]** Anwendungsfall wird ein Plan erstellt, mit dem Käufer Eigenschaftsdaten in einem &quot;[-zu-Eigenschaft-Überschneidungsbericht“ ](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) können. Darüber hinaus können Käufer Ihre Daten zu Segmenten hinzufügen und Vergleiche mit den Berichten [Segment-zu-Eigenschaft](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen.
+Bei einem **[!UICONTROL Segments and Overlap]** Anwendungsfall wird ein Plan erstellt, mit dem Käufer Eigenschaftsdaten in einem &quot;[-zu-Eigenschaft-Überschneidungsbericht“ &#x200B;](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) können. Darüber hinaus können Käufer Ihre Daten zu Segmenten hinzufügen und Vergleiche mit den Berichten [Segment-zu-Eigenschaft](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen.
 
 Jeder Daten-Feed muss mindestens einen [!UICONTROL Segments and Overlap] Anwendungsfall enthalten. Käufer können keine anderen Pläne in einem Daten-Feed abonnieren, wenn der Feed keinen [!UICONTROL Segments and Overlap] Anwendungsfall enthält, entweder allein oder in Kombination mit einem anderen Anwendungsfall.
 
@@ -125,7 +125,7 @@ Bei einem **[!UICONTROL Modeling]** Anwendungsfall wird ein Plan erstellt, mit d
 
 ### Aktivierung
 
-Ein **[!UICONTROL Activation]** Anwendungsfall ermöglicht es Käufern, Daten an ein [Ziel“ ](../../../features/destinations/destinations.md) senden. Bei diesem Anwendungsbeispiel können Käufer keine Daten mit einem Überschneidungsbericht oder in einem algorithmischen Modell vergleichen. Bewerten Sie diesen Anwendungsfall wie folgt:
+Ein **[!UICONTROL Activation]** Anwendungsfall ermöglicht es Käufern, Daten an ein [Ziel“ &#x200B;](../../../features/destinations/destinations.md) senden. Bei diesem Anwendungsbeispiel können Käufer keine Daten mit einem Überschneidungsbericht oder in einem algorithmischen Modell vergleichen. Bewerten Sie diesen Anwendungsfall wie folgt:
 
 * Maßeinheit: [!DNL CPM]
 * Preis: [!DNL CPM] Marktpreis

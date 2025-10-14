@@ -75,7 +75,7 @@ Content-Length: 121
 
 [!DNL Audience Manager] sendet Daten nahezu in Echtzeit an diesen Endpunkt, da Benutzer für Segmente qualifiziert sind. Darüber hinaus kann diese Methode Batches mit Offline- oder Onboarding-Daten so häufig wie alle 24 Stunden senden.
 
-Das von Endpunkt 1 generierte Bearer-Token wird verwendet, um Anfragen an diesen Endpunkt zu senden. Das [!DNL Audience Manager] Echtzeit-Datenübertragungssystem ([) ](../../../reference/system-components/components-data-action.md#iris) eine normale HTTPS-Anfrage und enthält eine Autorisierungs-Kopfzeile. Der Wert für diese Kopfzeile lautet: Bearer-`<bearer token from step 1>`.
+Das von Endpunkt 1 generierte Bearer-Token wird verwendet, um Anfragen an diesen Endpunkt zu senden. Das [!DNL Audience Manager] Echtzeit-Datenübertragungssystem ([) &#x200B;](../../../reference/system-components/components-data-action.md#iris) eine normale HTTPS-Anfrage und enthält eine Autorisierungs-Kopfzeile. Der Wert für diese Kopfzeile lautet: Bearer-`<bearer token from step 1>`.
 
 ### Beispielantwort vom Partnerendpunkt
 

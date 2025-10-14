@@ -32,7 +32,7 @@ Mit Variablen auf Plattformebene können Sie Daten, die von einer bestimmten Sit
 
 ## Vom Benutzeragenten definierte Schlüssel auf Plattformebene {#keys-user-agent}
 
-Die [!UICONTROL Data Collection Servers] extrahieren die Werte für diese Schlüssel aus der [Benutzeragenten-Kopfzeile](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP`. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas]-Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie im Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gängigsten Schlüssel ](assets/device_keys.csv) nach [!UICONTROL Device Atlas] Messungen herunter.
+Die [!UICONTROL Data Collection Servers] extrahieren die Werte für diese Schlüssel aus der [Benutzeragenten-Kopfzeile](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP`. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas]-Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie im Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gängigsten Schlüssel &#x200B;](assets/device_keys.csv) nach [!UICONTROL Device Atlas] Messungen herunter.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|

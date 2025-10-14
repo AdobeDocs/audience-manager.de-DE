@@ -26,7 +26,7 @@ Dies geschieht durch zwei Arten von Algorithmen: [!UICONTROL Look-Alike Modeling
 
 Mit [!UICONTROL Look-Alike Modeling] können Sie durch automatisierte Datenanalyse neue, einzigartige Zielgruppen ermitteln. Der Prozess beginnt mit der Auswahl eines Merkmals oder Segments, eines Zeitintervalls sowie von Erstanbieter- und Drittanbieter-Datenquellen. Ihre Auswahl liefert die Eingaben für das algorithmische Modell. Wenn der Analytics-Prozess ausgeführt wird, sucht er basierend auf gemeinsamen Merkmalen der ausgewählten Population nach geeigneten Benutzern.
 
-Nach Abschluss stehen diese Daten im [Trait Builder) zur Verfügung](../../features/traits/about-trait-builder.md) in dem Sie damit Eigenschaften basierend auf [Genauigkeit und Reichweite“ erstellen ](../../features/traits/trait-accuracy-reach.md). Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit regelbasierten Eigenschaften kombinieren, und andere Qualifizierungsanforderungen mit booleschen Ausdrücken und Vergleichsoperatoren hinzufügen.
+Nach Abschluss stehen diese Daten im [Trait Builder) zur Verfügung](../../features/traits/about-trait-builder.md) in dem Sie damit Eigenschaften basierend auf [Genauigkeit und Reichweite“ erstellen &#x200B;](../../features/traits/trait-accuracy-reach.md). Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit regelbasierten Eigenschaften kombinieren, und andere Qualifizierungsanforderungen mit booleschen Ausdrücken und Vergleichsoperatoren hinzufügen.
 
 [!UICONTROL Look-Alike Modeling] bietet Ihnen eine dynamische Möglichkeit, Wert aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
 

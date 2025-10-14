@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Datendateien für Audience Optimization-Berichte und verwertbare Protokolldateien {#data-files-for-audience-optimization-reports}
 
-Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Wenn Sie richtig formatiert sind, können Sie diese Daten in Audience Manager importieren, um sie in den [Audience Optimization-Berichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) anzuzeigen und Eigenschaften mithilfe der Daten über &quot;[ Protokolldateien“ ](/help/using/integration/media-data-integration/actionable-log-files.md). Formatieren Sie Ihre Datendateien entsprechend den Spezifikationen in diesem Abschnitt.
+Eine Datendatei enthält Impressions-, Klick- oder Konversionsdaten. Wenn Sie richtig formatiert sind, können Sie diese Daten in Audience Manager importieren, um sie in den [Audience Optimization-Berichten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) anzuzeigen und Eigenschaften mithilfe der Daten über &quot;[&#x200B; Protokolldateien“ &#x200B;](/help/using/integration/media-data-integration/actionable-log-files.md). Formatieren Sie Ihre Datendateien entsprechend den Spezifikationen in diesem Abschnitt.
 
 ## Überblick {#overview}
 

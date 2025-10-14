@@ -24,7 +24,7 @@ Eingehende Daten sollten als Schlüssel-Wert-Paare formatiert werden, die als Si
 
 ## URL-Zeichenfolgenparameter und Syntax {#url-string-syntax}
 
-Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran[ in der ](../../../features/traits/create-onboarded-rule-based-traits.md)-Benutzeroberfläche Eigenschaften [ eine ](../../../features/traits/trait-storage.md#create-trait-storage-folder)Ordnerstruktur[!DNL Audience Manager] zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.
+Die [!DNL URL] für eine eingehende Datenübertragung sollte die unten beschriebenen Variablen enthalten. Denken Sie daran[&#x200B; in der &#x200B;](../../../features/traits/create-onboarded-rule-based-traits.md)-Benutzeroberfläche Eigenschaften [&#x200B; eine &#x200B;](../../../features/traits/trait-storage.md#create-trait-storage-folder)Ordnerstruktur[!DNL Audience Manager] zu erstellen, bevor Sie Echtzeit-Datenübertragungen einrichten.
 
 >[!NOTE]
 >

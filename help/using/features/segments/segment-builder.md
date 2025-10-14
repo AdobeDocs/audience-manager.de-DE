@@ -45,10 +45,10 @@ Sehen Sie sich zunächst das Video [Erstellen von Segmenten in Audience Manager]
    * Suchen Sie nach der [!UICONTROL trait], die Sie einem Segment hinzufügen möchten, und klicken Sie auf **[!UICONTROL Add Trait]**. Fügen Sie eine weitere [!UICONTROL trait] hinzu, um eine [!UICONTROL trait] zu erstellen.
    * Rufen Sie das [!UICONTROL Advanced Search] Modal durch Klicken auf **[!UICONTROL Browse All Traits]** auf. Nach [!UICONTROL traits] nach Name, ID, Beschreibung oder [!UICONTROL data source] suchen. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können [!UICONTROL traits] auch nach [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [Geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
-   * Erhalten Sie [ beim ](trait-recommendations.md) Ihrer [!UICONTROL segment] Live-Eigenschaftsempfehlungen.
+   * Erhalten Sie [&#x200B; beim &#x200B;](trait-recommendations.md) Ihrer [!UICONTROL segment] Live-Eigenschaftsempfehlungen.
    * Klicken und ziehen Sie [!UICONTROL traits], um separate Gruppen zu erstellen.
    * Bewegen Sie den Mauszeiger zwischen Gruppen, um Beziehungen mit booleschen [!UICONTROL AND]-, [!UICONTROL OR]- [!UICONTROL AND NOT] festzulegen.
-   * Bewegen Sie den Mauszeiger über das Uhrensymbol, um dem [ Regeln ](../../features/segments/recency-and-frequency.md)Neuigkeit und Häufigkeit[!UICONTROL trait] hinzuzufügen.
+   * Bewegen Sie den Mauszeiger über das Uhrensymbol, um dem [&#x200B; Regeln &#x200B;](../../features/segments/recency-and-frequency.md)Neuigkeit und Häufigkeit[!UICONTROL trait] hinzuzufügen.
    * Zeigen Sie Segmentpopulationsdaten an, während Sie [!UICONTROL traits] hinzufügen oder entfernen. Klicken Sie auf **[!UICONTROL Calculate Estimates]** , um die geschätzten Populationen anzuzeigen (oder zu aktualisieren). Weitere Informationen zu [Segmentpopulationsdaten](../../features/segments/segment-builder-data.md#segment-populations) finden Sie in der [!UICONTROL Segment Builder].
    * Klicken Sie abschließend auf **[!UICONTROL Save]** .
 

@@ -20,7 +20,7 @@ Der [!UICONTROL Outbound Data Transfer] für Kunden, die [!DNL Amazon Simple Sto
 
 Wenn Sie Ihren [!DNL Amazon S3] Zugriffsschlüssel und geheimen Schlüssel nicht mit uns teilen möchten, wenden Sie sich an Ihren [!DNL Audience Manager] Berater oder die Kundenunterstützung und dieser wird [!DNL Cross-Account Bucket Permissions] für Sie einrichten.
 
-Sie müssen nur unsere [!DNL Amazon S3]-Konto-ID zu einer Zulassungsliste für den [!DNL S3] hinzufügen, in dem Sie die ausgehenden Datendateien empfangen möchten, wie in der [Dokumentation zu Amazon S3 ](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Ihr [!DNL Audience Manager] oder die Kundenunterstützung werden Ihnen unsere [!DNL Amazon S3] Account-ID zur Verfügung stellen.
+Sie müssen nur unsere [!DNL Amazon S3]-Konto-ID zu einer Zulassungsliste für den [!DNL S3] hinzufügen, in dem Sie die ausgehenden Datendateien empfangen möchten, wie in der [Dokumentation zu Amazon S3 &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Ihr [!DNL Audience Manager] oder die Kundenunterstützung werden Ihnen unsere [!DNL Amazon S3] Account-ID zur Verfügung stellen.
 
 >[!NOTE]
 >

@@ -168,7 +168,7 @@ Basierend auf dem obigen Beispiel wird der Browser zu folgenden [!DNL URL] umgel
 
 ## Zusätzliche Funktionalität - [!UICONTROL Audience Optimization Reports]
 
-Sie können Pixel-Aufrufe verwenden, um die [Audience Optimization-Berichte zu ](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Unter [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) finden Sie Informationen darüber, ob die Berichte anhand von Pixeln erstellt werden sollen.
+Sie können Pixel-Aufrufe verwenden, um die [Audience Optimization-Berichte zu &#x200B;](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Unter [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) finden Sie Informationen darüber, ob die Berichte anhand von Pixeln erstellt werden sollen.
 
 
 >[!MORELIKETHIS]

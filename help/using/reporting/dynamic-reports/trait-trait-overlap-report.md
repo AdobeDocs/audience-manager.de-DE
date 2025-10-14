@@ -46,7 +46,7 @@ Die folgende Abbildung bietet einen allgemeinen Überblick über die Elemente im
 
 >[!NOTE]
 >
->Ordnereigenschaften können nicht in Berichten mit einer Überschneidung von Eigenschaft zu Eigenschaft verglichen werden. Durch Erstellen eines Segments mit einer bestimmten Ordnereigenschaft können Sie eine Analyse über den Bericht [Segment-zu-Eigenschaft-Überschneidung“ ](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
+>Ordnereigenschaften können nicht in Berichten mit einer Überschneidung von Eigenschaft zu Eigenschaft verglichen werden. Durch Erstellen eines Segments mit einer bestimmten Ordnereigenschaft können Sie eine Analyse über den Bericht [Segment-zu-Eigenschaft-Überschneidung“ &#x200B;](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
 
 ![](assets/trait-to-trait-overlap.png)
 

@@ -38,10 +38,10 @@ Dieser Abschnitt enthält Felder und Optionen, mit denen der [!DNL URL destinati
 
 ## [!UICONTROL Data Export Labels] {#data-export-labels-dest}
 
-Dieser Abschnitt enthält Optionen, die [Datenexportsteuerelemente) ](../../features/data-export-controls.md) ein [!DNL URL] Ziel anwenden. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So schließen Sie diesen Abschnitt ab:
+Dieser Abschnitt enthält Optionen, die [Datenexportsteuerelemente) &#x200B;](../../features/data-export-controls.md) ein [!DNL URL] Ziel anwenden. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So schließen Sie diesen Abschnitt ab:
 
 1. Klicken Sie auf **[!UICONTROL Data Export Labels]** , um die Steuerelemente anzuzeigen.
-2. Wählen Sie eine Beschriftung aus, die dem auf das Ziel angewendeten Datenexportsteuerelement entspricht (weitere Informationen finden Sie unter [Hinzufügen von ](/help/using/features/destinations/add-data-export-labels.md) zu einem Ziel).
+2. Wählen Sie eine Beschriftung aus, die dem auf das Ziel angewendeten Datenexportsteuerelement entspricht (weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/using/features/destinations/add-data-export-labels.md) zu einem Ziel).
 3. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Konfiguration {#configure-base-data}
@@ -55,7 +55,7 @@ Auf diese Weise können Sie Segmente sequenziell an einen [!DNL destination] sen
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Base URL] | Der Basisteil eines `HTTP` [!DNL URL], der sich nicht ändert. Außerdem müssen Sie das `%ALIAS%`Platzhaltermakro[ in ](../../features/destinations/destination-macros.md#destination-macros-defined) Basis-URL einfügen. Beispiel: `https://www.myCompany.com/%alias%...` |
+| [!UICONTROL Base URL] | Der Basisteil eines `HTTP` [!DNL URL], der sich nicht ändert. Außerdem müssen Sie das `%ALIAS%`Platzhaltermakro[&#x200B; in &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) Basis-URL einfügen. Beispiel: `https://www.myCompany.com/%alias%...` |
 | [!UICONTROL Secure URL] | Der Basisteil eines sicheren `HTTPS` [!DNL URL], der sich nicht ändert. Außerdem müssen Sie die `%ALIAS%` platzieren   [Platzhaltermakro](../../features/destinations/destination-macros.md#destination-macros-defined) in der Basis-URL Beispiel: `https://www.myCompany.com/%alias%...` |
 | [!UICONTROL Delimiter] | Das Symbol, das die Segmentvariablen in der [!DNL URL] trennt. Dies ist normalerweise ein Komma oder Semikolon. Rufen Sie diese Informationen von Ihrem Zielpartner ab. |
 

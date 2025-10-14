@@ -126,7 +126,7 @@ Die folgenden Beispiele zeigen ordnungsgemäß formatierte Dateinamen. Ihre Date
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-Sie können [ Beispieldatei ](assets/ftp_dpm_1234_1445374061.overwrite), wenn Sie zusätzliche Beispiele benötigen. Diese Datei wurde mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie sie mit einem einfachen Texteditor.
+Sie können [&#x200B; Beispieldatei &#x200B;](assets/ftp_dpm_1234_1445374061.overwrite), wenn Sie zusätzliche Beispiele benötigen. Diese Datei wurde mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie sie mit einem einfachen Texteditor.
 
 ## Akzeptierte Dateigrößen {#accepted-file-sizes}
 

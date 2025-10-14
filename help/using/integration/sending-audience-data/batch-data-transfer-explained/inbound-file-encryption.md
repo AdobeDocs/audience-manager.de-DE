@@ -24,7 +24,7 @@ Datendateien können beim Senden an Audience Manager mit [!DNL PGP] verschlüsse
 >
 >[!DNL PGP] Verschlüsselung umfasst die Dateikomprimierung. Stellen Sie beim Senden [!DNL PGP] verschlüsselten eingehenden Dateien sicher, dass Sie sie nicht [komprimieren](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) mit gzip (`.gz`).
 >
->[!DNL PGP] verschlüsselte eingehende Dateien, die ebenfalls [komprimiert) ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md), sind in Audience Manager ungültig.
+>[!DNL PGP] verschlüsselte eingehende Dateien, die ebenfalls [komprimiert) &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md), sind in Audience Manager ungültig.
 
 Gehen Sie wie folgt vor, um eingehende Datendateien zu verschlüsseln.
 

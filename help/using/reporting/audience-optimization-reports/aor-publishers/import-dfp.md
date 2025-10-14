@@ -22,7 +22,7 @@ Bevor Audience Manager die Zielgruppenoptimierung für Herausgeber aktivieren ka
 
 Beachten Sie, dass der in diesem Abschnitt beschriebene Prozess abgeschlossen sein muss *bevor* Sie mit den Voraussetzungen für die Aktivierung der Protokollaufnahme fortfahren.
 
-Um [!DNL Google Ad Manager] (früher Google DFP)-Protokolldateien in [!DNL Audience Manager] verwenden zu können, müssen Sie zunächst unsere [eindeutige Audience Manager-Benutzer-ID (UUID) ](../../../reference/ids-in-aam.md) den Tag-Aufruf der Anzeige festlegen. Auf diese Weise wird unsere ID in die [!DNL Google Ad Manager]-Protokolle aufgenommen, und wir können die IDs zwischen [!DNL Google Ad Manager] und [!DNL Audience Manager] abgleichen. Verwenden Sie [!DNL Audience Manager] [!UICONTROL DIL] oder den [!UICONTROL Audience Management Module], um die [!DNL Audience Manager] UUID in einem Erstanbieter-Cookie festzulegen.
+Um [!DNL Google Ad Manager] (früher Google DFP)-Protokolldateien in [!DNL Audience Manager] verwenden zu können, müssen Sie zunächst unsere [eindeutige Audience Manager-Benutzer-ID (UUID) &#x200B;](../../../reference/ids-in-aam.md) den Tag-Aufruf der Anzeige festlegen. Auf diese Weise wird unsere ID in die [!DNL Google Ad Manager]-Protokolle aufgenommen, und wir können die IDs zwischen [!DNL Google Ad Manager] und [!DNL Audience Manager] abgleichen. Verwenden Sie [!DNL Audience Manager] [!UICONTROL DIL] oder den [!UICONTROL Audience Management Module], um die [!DNL Audience Manager] UUID in einem Erstanbieter-Cookie festzulegen.
 
 So legen Sie die [!DNL Audience Manager]-ID im Aufruf des Anzeigen-Tags fest, wie in unserer Dokumentation erläutert:
 

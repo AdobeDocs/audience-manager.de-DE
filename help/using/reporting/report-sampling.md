@@ -86,6 +86,6 @@ Reports that use Minhash sampling methodology:
 
 | Statistische Stichprobenziehung | Minhash-Stichprobenmethode |
 |--- |--- |
-| [Adressierbare ](../features/addressable-audiences.md)) (Daten auf Kunden- und Segmentebene). | [Überschneidungsberichte](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (Eigenschaft-zu-Eigenschaft, Segment-zu-Eigenschaft und Segment-zu-Segment) |
+| [Adressierbare &#x200B;](../features/addressable-audiences.md)) (Daten auf Kunden- und Segmentebene). | [Überschneidungsberichte](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (Eigenschaft-zu-Eigenschaft, Segment-zu-Eigenschaft und Segment-zu-Segment) |
 | Die [Gesamtzahl der Geräte](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) für eine [!UICONTROL Profile Merge Rule]. | [Eigenschaftenempfehlungen](/help/using/features/segments/trait-recommendations.md) |
 | [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) verwendet auf der Registerkarte &quot;[!UICONTROL Search]&quot; und in allen [!UICONTROL Saved Searches] Stichprobendaten | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

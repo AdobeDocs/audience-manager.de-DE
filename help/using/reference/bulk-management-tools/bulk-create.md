@@ -44,7 +44,7 @@ Um Objekte stapelweise zu erstellen, öffnen Sie das [!UICONTROL Bulk Management
 4. Fügen Sie die Daten, die Sie ändern möchten, ein, oder geben Sie sie anhand der Kopfzeilenbeschriftung in eine entsprechende Spalte ein.
 5. Klicken Sie in der Symbolleiste des Arbeitsblatts auf die Schaltfläche Erstellen , die dem zu aktualisierenden Element entspricht.
 Diese Aktion öffnet das Dialogfeld [!UICONTROL Account Information].
-6. Geben Sie die erforderlichen [Anmeldeinformationen“ ein ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) klicken Sie auf **[!UICONTROL Submit]**.
+6. Geben Sie die erforderlichen [Anmeldeinformationen“ ein &#x200B;](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) klicken Sie auf **[!UICONTROL Submit]**.
 
 Das Arbeitsblatt erstellt eine [!UICONTROL Results]. Die Spalte [!UICONTROL Results] gibt die JSON-Antwort für einen erfolgreichen Vorgang zurück. Beispiele finden Sie in [REST](../../api/rest-api-main/rest-api-main.md)APIs). Bevor Sie Daten eingeben, sollte Ihr Arbeitsblatt für die Massenerstellung dem folgenden Beispiel ähneln. Beachten Sie, dass alle verschiedenen Erstellungsoptionen hier nicht angezeigt werden. Dies ist enthalten, damit Sie besser verstehen, wie ein ausgefülltes Arbeitsblatt aussehen könnte.
 

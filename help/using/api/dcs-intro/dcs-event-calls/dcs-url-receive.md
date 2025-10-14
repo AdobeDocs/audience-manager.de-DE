@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Fahren Sie hier fort, um Informationen zum Anfordern einer [!DNL DCS]-Antwort in einem `/event`-Aufruf zu erhalten. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
 
-Bevor Sie diesen Inhalt überprüfen, lesen [ „Daten an den DCS senden](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
+Bevor Sie diesen Inhalt überprüfen, lesen [&#x200B; „Daten an den DCS senden](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
 
 ## DCS-Antwortparameter: eine Überprüfung {#dcs-response-parameters}
 
@@ -30,7 +30,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## Beispielantwort {#sample-response}
 
-Erinnern Sie sich daran[ dass das fiktive Unternehmen in der Dokumentation ](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)Daten an DCS senden[!DNL Acme, Inc.] diesen Aufruf ausgeführt hat:
+Erinnern Sie sich daran[&#x200B; dass das fiktive Unternehmen in der Dokumentation &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)Daten an DCS senden[!DNL Acme, Inc.] diesen Aufruf ausgeführt hat:
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
@@ -51,8 +51,8 @@ In der folgenden Tabelle sind die häufigsten Parameter aufgeführt und definier
 
 | Parameter | Beschreibung |
 |--- |--- |
-| `c` | Eine als „URL-Ziel“ [ URL](../../../features/destinations/create-url-destination.md). |
-| `cn` | Der Name oder die ID, die im Feld „Cookie-Name“ eines [Cookie-Ziels“ festgelegt ](../../../features/destinations/create-cookie-destination.md). |
+| `c` | Eine als „URL-Ziel“ [&#x200B; URL](../../../features/destinations/create-url-destination.md). |
+| `cn` | Der Name oder die ID, die im Feld „Cookie-Name“ eines [Cookie-Ziels“ festgelegt &#x200B;](../../../features/destinations/create-cookie-destination.md). |
 | `cv` | Die Werte, die an das Ziel gesendet werden, das durch den Parameter „cn“: „destination name“ definiert wird. |
 | `dcs_region` | Die [Server-zu-Server-DCS-Aufrufe](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Dieses Objekt enthält Informationen zu allen URL-Zielen, die in der Benutzeroberfläche konfiguriert sind. Die Liste dieses Objekts ist dynamisch und basiert auf den Aktionen des Benutzers. |
@@ -61,7 +61,7 @@ In der folgenden Tabelle sind die häufigsten Parameter aufgeführt und definier
 | `stuff` | Dieses Objekt enthält Informationen für alle Cookie-Ziele. Die Liste dieses Objekts ist dynamisch und basiert auf den Aktionen des Benutzers. |
 | `tid` | Transaktions-ID, eine eindeutige 12-stellige ID, die zu Debugging-Zwecken verwendet wird. Jeder /event-Aufruf an den DCS erhält eine TID, auf die Sie bei Support-Anfragen verweisen können, um eine bessere und schnellere Antwort zu erhalten. |
 | `ttl` | Der Wert des Cookies für die Lebensdauer in Tagen. |
-| `u` und `uuid` | Von Audience Manager zugewiesene eindeutige Benutzer-ID. Dies ist erforderlich, wenn Sie (Server-[-Server-DCS-Aufrufe) ](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `u` und `uuid` | Von Audience Manager zugewiesene eindeutige Benutzer-ID. Dies ist erforderlich, wenn Sie (Server-[-Server-DCS-Aufrufe) &#x200B;](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
 | `y` | Zieltyp, iFrame (`iframe`) oder Bild (`img`). |
 
 >[!MORELIKETHIS]

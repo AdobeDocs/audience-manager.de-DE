@@ -54,4 +54,4 @@ Die `ID type` kann sein:
 
 ## Beispiel für ODC-Eingangsdatei
 
-Laden Sie die [Beispieldatei) ](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Diese Datei qualifiziert mehrere IDFAs für die Eigenschaft-ID 38838. Sie können diese Datei in einem standardmäßigen Texteditor oder Codeeditor öffnen.
+Laden Sie die [Beispieldatei) &#x200B;](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Diese Datei qualifiziert mehrere IDFAs für die Eigenschaft-ID 38838. Sie können diese Datei in einem standardmäßigen Texteditor oder Codeeditor öffnen.

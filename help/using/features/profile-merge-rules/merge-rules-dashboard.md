@@ -30,7 +30,7 @@ Beim Arbeiten mit [!UICONTROL Profile Merge Rules] haben Sie folgende Möglichke
 * Bestimmen Sie eine standardmäßige Zusammenführungsregel. [Segment Builder](../segments/segment-builder.md) wendet die Standardregel automatisch auf alle neu erstellten Segmente an.
 * Anwenden [Datenexportsteuerelemente](../data-export-controls.md) auf eine Zusammenführungsregel. [!UICONTROL Data Export Controls] verhindern, dass Sie Daten an Ziele senden, wenn dies gegen Datenschutzbestimmungen oder Nutzungsvereinbarungen verstoßen würde.
 * Verfolgen Sie die durchschnittliche Anzahl von Geräten für jeden Benutzer.
-* Arbeiten mit einfachen Steuerelementen zum Erstellen, Bearbeiten und Löschen von Regeln. Nur Administratoren können Regeln verwalten, andere Benutzer können sie jedoch anzeigen und auf Segmente anwenden. Siehe [Optionen für Profilzusammenführungsregeln definiert](merge-rule-definitions.md) und &quot;[ für Zusammenführungsregeln](merge-rule-targeting-options.md).
+* Arbeiten mit einfachen Steuerelementen zum Erstellen, Bearbeiten und Löschen von Regeln. Nur Administratoren können Regeln verwalten, andere Benutzer können sie jedoch anzeigen und auf Segmente anwenden. Siehe [Optionen für Profilzusammenführungsregeln definiert](merge-rule-definitions.md) und &quot;[&#x200B; für Zusammenführungsregeln](merge-rule-targeting-options.md).
 
 >[!MORELIKETHIS]
 >

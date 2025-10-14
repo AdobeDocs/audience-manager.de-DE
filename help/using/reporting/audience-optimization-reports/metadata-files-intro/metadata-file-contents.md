@@ -30,7 +30,7 @@ Die dritte Spalte **-1** ist technisch gesehen die übergeordnete ID, ein älter
 
 >[!NOTE]
 >
->Beachten Sie, dass pro Dimension eine Metadatendatei erforderlich ist, sodass im Bucket mehrere Metadatendateien erwartet werden. Die Dimensionen werden im Artikel [Benennungskonventionen für Metadatendateien“ ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+>Beachten Sie, dass pro Dimension eine Metadatendatei erforderlich ist, sodass im Bucket mehrere Metadatendateien erwartet werden. Die Dimensionen werden im Artikel [Benennungskonventionen für Metadatendateien“ &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Separate Dateieinträge mit ^a (Control-A oder ASCII 001)**
 
@@ -44,7 +44,7 @@ Bei Bedarf können Sie die Beispieldatei herunterladen - [20181105_0_1](assets/2
 
 ## Beispiele {#examples}
 
-Sehen wir uns an, wie Sie Inhalte in einer Metadatendatei strukturieren würden. Ein Teil dieser Struktur hängt von der Dimension ab. Die Dimensionen werden im Artikel [Benennungskonventionen für Metadatendateien“ ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+Sehen wir uns an, wie Sie Inhalte in einer Metadatendatei strukturieren würden. Ein Teil dieser Struktur hängt von der Dimension ab. Die Dimensionen werden im Artikel [Benennungskonventionen für Metadatendateien“ &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Campaign**
 

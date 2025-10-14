@@ -58,7 +58,7 @@ Für Unternehmen, die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]
 * `READ` und `WRITE` von Gruppenberechtigungen für eine Datenquelle für Eigenschaften.
 * `VIEW_ALL_TRAITS` und `EDIT_ALL_TRAITS` von Platzhalterberechtigungen für Datenquellen von Eigenschaften.
 
-Erfahren Sie in unserer [!UICONTROL RBAC]Administrationsdokumentation), wie Sie [ Berechtigungen ](../../features/administration/administration-overview.md#create-group).
+Erfahren Sie in unserer [!UICONTROL RBAC]Administrationsdokumentation), wie Sie [&#x200B; Berechtigungen &#x200B;](../../features/administration/administration-overview.md#create-group).
 
 ## Beschränkungen und andere Überlegungen {#limits}
 

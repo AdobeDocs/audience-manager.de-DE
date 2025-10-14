@@ -73,7 +73,7 @@ Sehen Sie sich das folgende Video an, um ein Video-Tutorial zum Erstellen einer 
 
 >[!IMPORTANT]
 >
-> Dieser Schritt gilt nur für [ oben ](people-based-destinations-workflow-combined.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 3: Erstellen einer Profilzusammenführungsregel für die Segmentierung](people-based-destinations-workflow-combined.md#create-merge-rule) fort.
+> Dieser Schritt gilt nur für [&#x200B; oben &#x200B;](people-based-destinations-workflow-combined.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 3: Erstellen einer Profilzusammenführungsregel für die Segmentierung](people-based-destinations-workflow-combined.md#create-merge-rule) fort.
 
 Nehmen wir an, Sie möchten Ihre bestehenden [DPUUIDs](../../reference/ids-in-aam.md) mit den Hash-E-Mail-Adressen aus der unten stehenden Tabelle (rechte Spalte) abgleichen und die Hash-E-Mail-Adressen in der neuen Datenquelle speichern, die Sie unter [Schritt 1 - Konfigurieren von Data Source Settings](people-based-destinations-workflow-combined.md#configure-data-source-settings) erstellt haben.
 
@@ -85,7 +85,7 @@ Nehmen wir an, Sie möchten Ihre bestehenden [DPUUIDs](../../reference/ids-in-aa
 
  
 
-Sie können bis zu 10 gehashte E-Mail-Adressen mit einer einzigen [DPUUID“ ](../../reference/ids-in-aam.md). Trennen Sie dazu die gehashten E-Mail-Adressen in der Synchronisierungsdatei durch einen `<TAB>`.
+Sie können bis zu 10 gehashte E-Mail-Adressen mit einer einzigen [DPUUID“ &#x200B;](../../reference/ids-in-aam.md). Trennen Sie dazu die gehashten E-Mail-Adressen in der Synchronisierungsdatei durch einen `<TAB>`.
 
 In unserem Beispiel hätten Sie jetzt zwei Datenquellen.
 
@@ -115,7 +115,7 @@ Die [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-da
 Im obigen Beispiel würde der Dateiname wie folgt aussehen:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Laden Sie hier die Beispieldatei ](assets/c2c_id_999999_987654_1560431657.sync).
+[Laden Sie hier die Beispieldatei &#x200B;](assets/c2c_id_999999_987654_1560431657.sync).
 
 Nachdem Sie Ihre ID-Synchronisierungsdatei erstellt haben, müssen Sie sie in einen [!DNL Amazon S3] Bucket hochladen. Informationen zum Hochladen von ID-Synchronisierungsdateien finden Sie unter [Senden von Batch-Daten an Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
@@ -164,5 +164,5 @@ Verwenden Sie zum Erstellen neuer Zielgruppensegmente den [Segment Builder](../s
 1. Klicken Sie auf **[!UICONTROL Next]**.
 1. Wählen Sie die **[!UICONTROL Data Export Labels]** aus, die Sie für dieses Ziel festlegen möchten.
 1. Wählen Sie im Abschnitt **[!UICONTROL Configuration]** die Datenquelle aus, die Ihre gehashten Datenquellen enthält.
-1. Wählen Sie im Abschnitt **[!UICONTROL Segment Mappings]** die Segmente aus, die Sie an dieses Ziel senden möchten. Hierbei handelt es sich um die Segmente, die Sie unter [Schritt 4: Erstellen von Zielgruppensegmenten) ](people-based-destinations-workflow-combined.md#create-audience-segments).
+1. Wählen Sie im Abschnitt **[!UICONTROL Segment Mappings]** die Segmente aus, die Sie an dieses Ziel senden möchten. Hierbei handelt es sich um die Segmente, die Sie unter [Schritt 4: Erstellen von Zielgruppensegmenten) &#x200B;](people-based-destinations-workflow-combined.md#create-audience-segments).
 1. Speichern Sie das Ziel.

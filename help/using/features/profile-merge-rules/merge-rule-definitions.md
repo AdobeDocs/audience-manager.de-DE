@@ -48,7 +48,7 @@ Abhängig von Ihrer [!UICONTROL Profile Merge Rules]-Konfiguration können [!DNL
 
 Die [!UICONTROL segment] in Echtzeit spiegelt sich sofort in den [!UICONTROL Profile Merge Rules] wider.
 
-Die [!UICONTROL segment] kann bis zu 24 Stunden dauern, bis sie in den Berichten [Profilzusammenführungsregeln“ angezeigt ](profile-link-metrics.md).
+Die [!UICONTROL segment] kann bis zu 24 Stunden dauern, bis sie in den Berichten [Profilzusammenführungsregeln“ angezeigt &#x200B;](profile-link-metrics.md).
 
 ## [!UICONTROL Cross-Device Options] {#auth-options}
 

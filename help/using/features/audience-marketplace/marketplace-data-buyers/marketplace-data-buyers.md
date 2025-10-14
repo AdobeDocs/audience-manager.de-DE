@@ -83,7 +83,7 @@ Sehen Sie sich das folgende Video an, um einen vollständigen Überblick darübe
 
 ## private Datenfeeds {#private-data-feeds}
 
-In der [!UICONTROL Marketplace] Liste werden manchmal der Name und die [!UICONTROL trait] des Anbieters als privat markiert. Dies zeigt einen [privaten Daten-Feed](../../../features/audience-marketplace/marketplace-private-feeds.md) an. Mit einem privaten Daten-Feed können Verkäufer den Käuferzugriff auf ihre Daten einschränken. Verkäufer können Feeds privat machen, wenn sie Sonderangebote, Rabatte anbieten oder wenn Datenschutz und Zugriffskontrolle für sie wichtig sind. Als Käufer müssen Sie eine Abonnementanfrage an den Verkäufer senden, wenn Sie Zugriff auf einen privaten Feed wünschen. Weitere [ finden Sie unter „Abonnieren ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) privaten Daten-Feeds“.
+In der [!UICONTROL Marketplace] Liste werden manchmal der Name und die [!UICONTROL trait] des Anbieters als privat markiert. Dies zeigt einen [privaten Daten-Feed](../../../features/audience-marketplace/marketplace-private-feeds.md) an. Mit einem privaten Daten-Feed können Verkäufer den Käuferzugriff auf ihre Daten einschränken. Verkäufer können Feeds privat machen, wenn sie Sonderangebote, Rabatte anbieten oder wenn Datenschutz und Zugriffskontrolle für sie wichtig sind. Als Käufer müssen Sie eine Abonnementanfrage an den Verkäufer senden, wenn Sie Zugriff auf einen privaten Feed wünschen. Weitere [&#x200B; finden Sie unter „Abonnieren &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) privaten Daten-Feeds“.
 
 >[!MORELIKETHIS]
 >

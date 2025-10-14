@@ -19,7 +19,7 @@ ht-degree: 42%
 
 ## Überblick {#overview}
 
-Dieses Dokument bietet einen Überblick über die Verwaltung von individuellen Datenschutz- und Opt-out-Anfragen, die Sie über die [!DNL Audience Manager]Privacy Service-Benutzeroberfläche und die [ an ](https://privacyui.cloud.adobe.io/) **[!DNL Privacy Service API]** können.
+Dieses Dokument bietet einen Überblick über die Verwaltung von individuellen Datenschutz- und Opt-out-Anfragen, die Sie über die [!DNL Audience Manager]Privacy Service-Benutzeroberfläche und die [&#x200B; an &#x200B;](https://privacyui.cloud.adobe.io/) **[!DNL Privacy Service API]** können.
 
 Mit diesen Tools können Sie Datenschutzanfragen von Privatkunden senden, die unter [!DNL GDPR] und [!DNL CCPA] gestellt wurden.
 
@@ -28,7 +28,7 @@ Bevor Sie diesen Artikel lesen, sollten Sie das [DSGVO-Glossar](../data-security
 Sie können individuelle Anfragen für den Zugriff auf und das Löschen von Verbraucherdaten aus [!DNL Audience Manager] auf zwei Arten stellen:
 
 * Über die [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche. Die Dokumentation finden Sie [hier](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Über die **[!DNL Privacy Service API]**. Weitere Informationen finden Sie in [ Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)hier) und der [!DNL API]-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+* Über die **[!DNL Privacy Service API]**. Weitere Informationen finden Sie in [&#x200B; Dokumentation &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)hier) und der [!DNL API]-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Beim Senden einzelner Datenschutzanfragen können Sie beliebige [!DNL Audience Manager] (IDs) zusammen mit den entsprechenden Namespace-IDs (Datenquellen-IDs) übermitteln, wie **[Abschnitt](data-privacy-ids.md)** Audience Manager-IDs&rbrace; beschrieben.
 
@@ -40,7 +40,7 @@ Einzelne Datenzugriffsanfragen können über die [Privacy Service-Benutzeroberfl
 
 In der [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche können Sie neue Vorgangsanfragen entweder mithilfe von [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON]-Datei erstellen.
 
-Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [ eine JSON-Beispieldatei herunterladen](../data-security-and-privacy/assets/access_request.json).
+Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [&#x200B; eine JSON-Beispieldatei herunterladen](../data-security-and-privacy/assets/access_request.json).
 
 Wir sind uns Ihrer Verpflichtung bewusst, Datenschutzanfragen innerhalb der gesetzlich festgelegten Frist zu erfüllen.
 
@@ -50,7 +50,7 @@ Sie können Anfragen zum Löschen von Daten über die [Privacy Service-Benutzero
 
 In der [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche können Sie neue Vorgangsanfragen entweder mithilfe von [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON]-Datei erstellen.
 
-Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [ eine JSON-Beispieldatei herunterladen](../data-security-and-privacy/assets/access_request.json).
+Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [&#x200B; eine JSON-Beispieldatei herunterladen](../data-security-and-privacy/assets/access_request.json).
 
 Adobe ist sich Ihrer Verpflichtung bewusst, Datenschutzanfragen von Kunden innerhalb von 30 Tagen zu erfüllen. [!DNL Adobe] verpflichtet sich daher, Ihre Anfrage zur Datenlöschung so schnell wie möglich zu bearbeiten.
 
@@ -65,7 +65,7 @@ Wenn Sie in Datenschutzanfragen deklarierte IDs wie geräteübergreifende [!DNL 
 
 In diesen Fällen können Sie keine Löschanfragen automatisch über [!DNL Audience Manager] an Aktivierungspartner senden.
 
-Weitere Informationen dazu, welche [ Aktivierungspartner die Aufhebung der Segmentierung unterstützen](assets/AAM-Partners-October2019.xlsx) finden Sie in [!DNL Audience Manager] Dokumentation zur Liste der gerätebasierten Ziele .
+Weitere Informationen dazu, welche [&#x200B; Aktivierungspartner die Aufhebung der Segmentierung unterstützen](assets/AAM-Partners-October2019.xlsx) finden Sie in [!DNL Audience Manager] Dokumentation zur Liste der gerätebasierten Ziele .
 
 ## Opt-out-Anfragen {#opt-out-requests}
 

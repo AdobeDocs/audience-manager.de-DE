@@ -22,7 +22,7 @@ Optionale Methoden, mit denen Sie Eigenschaften einem benutzerdefinierten Typ od
 
 >[!NOTE]
 >
->Mit Methoden vom Typ „Eigenschaft“ werden keine Eigenschaften Kategorien zugewiesen, die von der [allgemeinen Taxonomie“ verwendet ](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Stellen Sie sich diese als Titel vor, die von der gemeinsamen Taxonomie getrennt sind.
+>Mit Methoden vom Typ „Eigenschaft“ werden keine Eigenschaften Kategorien zugewiesen, die von der [allgemeinen Taxonomie“ verwendet &#x200B;](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Stellen Sie sich diese als Titel vor, die von der gemeinsamen Taxonomie getrennt sind.
 
 Als visuelle Referenz ist [!UICONTROL Trait Types] ein Dropdown-Steuerelement in der [!DNL UI] unter **[!UICONTROL Traits > Create new trait > Basic Information]**.
 

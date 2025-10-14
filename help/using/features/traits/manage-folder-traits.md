@@ -54,7 +54,7 @@ Beschreibt, wie Sie eine [!UICONTROL folder trait] bearbeiten können.
 
 >[!NOTE]
 >
->Eine Ordnereigenschaft kann nicht direkt umbenannt werden. [Benennen Sie den zugehörigen ](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) um, um den Namen der Ordnereigenschaft zu ändern.
+>Eine Ordnereigenschaft kann nicht direkt umbenannt werden. [Benennen Sie den zugehörigen &#x200B;](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) um, um den Namen der Ordnereigenschaft zu ändern.
 
 ## Löschen einer Ordnereigenschaft {#delete-folder-trait}
 

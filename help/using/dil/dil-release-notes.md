@@ -23,4 +23,4 @@ ht-degree: 0%
 >
 >Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) verwenden.
 
-Auf dieser Seite finden Sie Informationen zu den neuesten DIL-Versionen. DIL ist als direkter Download zusammen mit Versionshinweisen auf der GitHub[Seite von Adobe ](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+Auf dieser Seite finden Sie Informationen zu den neuesten DIL-Versionen. DIL ist als direkter Download zusammen mit Versionshinweisen auf der GitHub[Seite von Adobe &#x200B;](https://github.com/Adobe-Marketing-Cloud/dil/releases).

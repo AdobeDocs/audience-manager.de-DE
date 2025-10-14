@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Konfigurieren von [!DNL Twitter Custom Audiences] als gerätebasiertes Self-Service-Ziel {#configure-twitter}
 
-In diesem Artikel wird erläutert, wie Sie eine Integration mit [Twitter Custom Audiences“ ](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
+In diesem Artikel wird erläutert, wie Sie eine Integration mit [Twitter Custom Audiences“ &#x200B;](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Voraussetzungen {#prerequisites}
 
@@ -85,4 +85,4 @@ Beim Konfigurieren oder Senden von Daten an das Ziel „Twitter Custom Audiences
 |---|---|---|
 | `Internal server error` | Diese Fehlermeldung wird auf der Audience Manager-Benutzeroberfläche angezeigt, wenn versucht wird, ein neues [!DNL Twitter]-Konto mit einer veralteten Version der Twitter-API hinzuzufügen. | Adobe-Kundenunterstützung kontaktieren. |
 | `Twitter Error: This request is not properly authenticated` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn versucht wird, Segmente mit nicht unterstützten Segmentnamen dem Ziel zuzuordnen. | Überprüfen Sie die zugeordneten Segmentnamen und stellen Sie sicher, dass sie keine nicht unterstützten Zeichen enthalten. Siehe [Überlegungen zur Segmentzuordnung](#segment-mapping-considerations) für die Liste der nicht unterstützten Zeichen. |
-| `Twitter Error: Account XXXXXXXXX was not found` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn die für das Ziel konfigurierten Anmeldeinformationen nicht für den Zugriff auf das entsprechende Twitter Ads-Konto autorisiert sind. | <ul><li>Stellen Sie sicher, dass die von Ihnen verwendeten Kontoanmeldeinformationen die [ Voraussetzungen ](#prerequisites).</li><li>Navigieren Sie zur Benutzeroberfläche für Twitter-Anzeigen mit denselben Anmeldeinformationen und überprüfen Sie, ob unter dem entsprechenden `XXXXXXXXX`-Konto die richtigen Zielgruppen angezeigt werden. </li></ul> |
+| `Twitter Error: Account XXXXXXXXX was not found` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn die für das Ziel konfigurierten Anmeldeinformationen nicht für den Zugriff auf das entsprechende Twitter Ads-Konto autorisiert sind. | <ul><li>Stellen Sie sicher, dass die von Ihnen verwendeten Kontoanmeldeinformationen die [&#x200B; Voraussetzungen &#x200B;](#prerequisites).</li><li>Navigieren Sie zur Benutzeroberfläche für Twitter-Anzeigen mit denselben Anmeldeinformationen und überprüfen Sie, ob unter dem entsprechenden `XXXXXXXXX`-Konto die richtigen Zielgruppen angezeigt werden. </li></ul> |

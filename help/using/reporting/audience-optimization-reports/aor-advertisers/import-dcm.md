@@ -22,7 +22,7 @@ Richten Sie eine [!DNL Google] ein, um Ihre [!DNL Google Campaign Manager] Daten
 
 [!DNL Google Campaign Manager] ist [!DNL Google] Ersatz für [!DNL DoubleClick for Advertisers] (DFA). Ähnlich wie bei DFA können [!DNL Google Campaign Manager] Kunden ihre Daten in [!DNL Audience Manager] importieren, anzeigen und mit ihnen arbeiten. [!DNL Audience Manager] können jedoch nicht direkt auf Ihre [!UICONTROL Data Transfer]- und [!UICONTROL Match Table]-Dateien zugreifen und diese importieren. Den Import dieser Dateien muss der Kunde selbst übernehmen.
 
-Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilfe“ gut ](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). Außerdem können Sie sich die unten aufgeführten Schritte ansehen, um loszulegen.
+Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilfe“ gut &#x200B;](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). Außerdem können Sie sich die unten aufgeführten Schritte ansehen, um loszulegen.
 
 >[!CAUTION]
 >
@@ -46,7 +46,7 @@ Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilf
 
    Arbeiten Sie mit Ihrem [!DNL Google Campaign Manager] Account Manager oder Platform Solutions Consultant zusammen. Sie geben Ihnen eine URL zu Ihren Datendateien. [!DNL Google] können das Format für Bucket- und Dateinamen in zukünftigen Versionen ändern. Wenden Sie sich erneut an Ihren [!DNL Google Campaign Manager] Account Manager, um sicherzustellen, dass Sie die richtigen Formate verwenden.
 
-1. [Bucket-Berechtigungen ](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission).
+1. [Bucket-Berechtigungen &#x200B;](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission).
 
    Mit dem [!DNL Cloud Storage Manager] können Sie die Datenfreigabe und den Bucket-Zugriff steuern. Erteilen Sie Ihrer Gruppe Lesezugriff auf den Bucket, der Ihre [!UICONTROL Data Transfer]- und [!UICONTROL Match Table] enthält.
 
@@ -63,6 +63,6 @@ Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilf
 
    Nachdem Sie eine Gruppe erstellt und ihr Zugriff auf einen Daten-Bucket gewährt haben, laden Sie [!DNL Audience Manager] ein, der Gruppe beizutreten. Senden Sie eine Einladungs-E-Mail an dfaaam@adobe.com. Stellen Sie sicher, dass Sie die Datendatei-URL aus Schritt 3 einbeziehen. Unsere internen Teams werden mit Ihnen zusammenarbeiten, um den Zugriff zu überprüfen, nachdem Sie die Einladung angenommen haben. 1. Richten Sie zwei Datenquellen für die [!DNL Google Campaign Manager] von Daten in der [!DNL Audience Manager]-Benutzeroberfläche ein.
 
-   Benennen Sie die Datenquellen `Advertiser Analytics: DCM Platform` und `Advertiser Analytics: AAM+DCM Platform`. Legen [ im Workflow „Datenquellen erstellen](../../../features/manage-datasources.md#create-data-source) den ID-Typ auf `Cookie` fest. Geben Sie die IDs der beiden neuen Datenquellen für unsere internen Teams frei.
+   Benennen Sie die Datenquellen `Advertiser Analytics: DCM Platform` und `Advertiser Analytics: AAM+DCM Platform`. Legen [&#x200B; im Workflow „Datenquellen erstellen](../../../features/manage-datasources.md#create-data-source) den ID-Typ auf `Cookie` fest. Geben Sie die IDs der beiden neuen Datenquellen für unsere internen Teams frei.
 
 1. Aus den [!DNL Google Campaign Manager] Dateien, die Sie in [!DNL Audience Manager] importieren, können Sie auf einfache Weise Eigenschaften erstellen. Siehe [Verwertbare Protokolldateien](../../../integration/media-data-integration/actionable-log-files.md) und bitten Sie Ihren [!DNL Audience Manager] oder die Kundenunterstützung, die Funktion für Sie zu aktivieren.

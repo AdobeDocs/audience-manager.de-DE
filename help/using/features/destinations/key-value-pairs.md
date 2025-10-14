@@ -134,4 +134,4 @@ Die serialisierte Datenübertragung verbessert die Effizienz, da mehrere Eigensc
 
 ### Unterstützte Ziele
 
-[!DNL Audience Manager] können Sie Daten an praktisch jedes Ziel serialisieren und senden, mit dem Sie arbeiten möchten. Bevor Sie diese Funktion verwenden, müssen Sie jedoch wissen, welche [!DNL URL] Sie verwenden und wo Sie einige erforderliche oder optionale Makros platzieren können. Erhalten Sie die Informationen zur Makroplatzierung von Ihrem Zielpartner. Weitere Informationen [ Sie unter ](../../features/destinations/destination-macros.md#destination-macros-defined) definiert.
+[!DNL Audience Manager] können Sie Daten an praktisch jedes Ziel serialisieren und senden, mit dem Sie arbeiten möchten. Bevor Sie diese Funktion verwenden, müssen Sie jedoch wissen, welche [!DNL URL] Sie verwenden und wo Sie einige erforderliche oder optionale Makros platzieren können. Erhalten Sie die Informationen zur Makroplatzierung von Ihrem Zielpartner. Weitere Informationen [&#x200B; Sie unter &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) definiert.

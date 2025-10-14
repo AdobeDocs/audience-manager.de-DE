@@ -28,7 +28,7 @@ Sie können Daten zur Verwendung in diesen Berichten an [!DNL Audience Manager] 
 
 ## [!UICONTROL Role-Based Access Controls] (RBAC) {#rbac}
 
-Die Art der Berichte, die Sie anzeigen können, hängt von der [!UICONTROL RBAC] ab, der Sie zugewiesen sind. Weitere Informationen finden [ unter ](../../../features/administration/administration-overview.md) und [Erstellen ](../../../features/administration/administration-overview.md#create-group) Gruppe“.
+Die Art der Berichte, die Sie anzeigen können, hängt von der [!UICONTROL RBAC] ab, der Sie zugewiesen sind. Weitere Informationen finden [&#x200B; unter &#x200B;](../../../features/administration/administration-overview.md) und [Erstellen &#x200B;](../../../features/administration/administration-overview.md#create-group) Gruppe“.
 
 [!UICONTROL RBAC] müssen einige Datenquellen eingerichtet haben, um die [!UICONTROL Audience Optimization] Berichte anzeigen zu können. Ihr [!DNL Audience Manager] Berater richtet diese [!UICONTROL data sources] für Sie ein. Je mehr [!UICONTROL data sources] in jeder [!UICONTROL RBAC] Benutzergruppe vorhanden sind, desto mehr Daten haben diese Gruppenmitglieder Zugriff. Ihr Berater richtet mindestens eine der folgenden [!UICONTROL data sources] ein:
 
@@ -40,4 +40,4 @@ Benutzer, die zu mehr als einer [!UICONTROL RBAC] Benutzergruppe gehören, könn
 
 ## Konversionsgruppen {#conversion-groups}
 
-In den [!UICONTROL Audience Optimization] Berichten sind **[!UICONTROL Conversion Groups]** synonym mit [!UICONTROL data sources], die mindestens ein Konversionsmerkmal enthalten. [!UICONTROL Data sources], die nicht mindestens ein Konversionseigenschaft enthalten, werden nicht in den [!UICONTROL Audience Optimization]-Berichten angezeigt. Sie können die Konversionseigenschaften für Konversionsgruppen im Bericht &quot;[ Konversionseigenschaften“ ](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md).
+In den [!UICONTROL Audience Optimization] Berichten sind **[!UICONTROL Conversion Groups]** synonym mit [!UICONTROL data sources], die mindestens ein Konversionsmerkmal enthalten. [!UICONTROL Data sources], die nicht mindestens ein Konversionseigenschaft enthalten, werden nicht in den [!UICONTROL Audience Optimization]-Berichten angezeigt. Sie können die Konversionseigenschaften für Konversionsgruppen im Bericht &quot;[&#x200B; Konversionseigenschaften“ &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md).

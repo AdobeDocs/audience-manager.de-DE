@@ -77,7 +77,7 @@ Die Domain-Authentifizierung bietet Ihnen die Möglichkeit, Massenanfragen zu te
 
 Das [!UICONTROL Bulk Management Tools] Arbeitsblatt besteht aus Authentifizierungsschaltflächen, Aktionsregisterkarten, Aktionsschaltflächen und einer **[!UICONTROL Headers]** Registerkarte. Die Registerkarte **[!UICONTROL Headers]** enthält die vorformatierten Spaltenüberschriften, die von den Aktionsregisterkarten verwendet werden. Die Aktionsregisterkarten enthalten Makros, die den ausgewählten Massenvorgang ausführen. Um einen Massenvorgang durchzuführen, kopieren Sie einen Satz von Headern in die entsprechende Aktionsregisterkarte, geben Sie Header-Daten ein und klicken Sie auf eine Aktionsschaltfläche.
 
-Klicken [ nach der ](#auth-reqs) auf eine Aktionsschaltfläche, um zu beginnen.
+Klicken [&#x200B; nach der &#x200B;](#auth-reqs) auf eine Aktionsschaltfläche, um zu beginnen.
 
 ![](assets/baaam-worksheet.png)
 

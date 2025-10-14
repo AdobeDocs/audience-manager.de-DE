@@ -22,4 +22,4 @@ Die [!DNL Audience Manager] [!DNL REST API] entspricht [!DNL JavaScript Object N
 
 Um Ihre Arbeit noch einfacher zu gestalten, migrieren wir unsere [!DNL REST APIs] nach [Swagger](https://swagger.io/solutions/api-documentation/). Weitere Informationen finden Sie unter [Audience Manager-API-Code-Migration](/help/using/api/api-swagger-migration.md).
 
-Lesen Sie das [ „Erste Schritte](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis), bevor Sie mit den [!DNL Audience Manager] [!DNL API]-Methoden arbeiten.
+Lesen Sie das [&#x200B; „Erste Schritte](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis), bevor Sie mit den [!DNL Audience Manager] [!DNL API]-Methoden arbeiten.

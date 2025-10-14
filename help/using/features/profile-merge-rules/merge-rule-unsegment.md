@@ -44,7 +44,7 @@ Zur Erinnerung: Die [!UICONTROL Device Options] stehen beim Erstellen oder Bearb
 >[!NOTE]
 >
 >**100 Geräte-Limit für Segmentauswertung und Disqualifizierung**.
->&#x200B;>Audience Manager führt beim Auswerten von Segmenten mit einer Profilzusammenführungsregel, die ein Gerätediagramm verwendet, bis zu 100 Geräte zusammen. Audience Manager bewertet das aktuelle Gerät und bis zu 99 Geräte, die mit dem aktuellen Gerät durch ein [authentifiziertes Profil“ ](../../reference/visitor-authentication-states.md) sind (geräteübergreifende ID). Wenn das Signal zum Aufheben der Segmentierung ausgegeben wird, werden das aktuelle Gerät und zusätzliche Geräte aus dem Segment im Ziel entfernt.
+>&#x200B;>Audience Manager führt beim Auswerten von Segmenten mit einer Profilzusammenführungsregel, die ein Gerätediagramm verwendet, bis zu 100 Geräte zusammen. Audience Manager bewertet das aktuelle Gerät und bis zu 99 Geräte, die mit dem aktuellen Gerät durch ein [authentifiziertes Profil“ &#x200B;](../../reference/visitor-authentication-states.md) sind (geräteübergreifende ID). Wenn das Signal zum Aufheben der Segmentierung ausgegeben wird, werden das aktuelle Gerät und zusätzliche Geräte aus dem Segment im Ziel entfernt.
 
 ![](assets/last-device-graph.png)
 

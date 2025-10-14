@@ -36,7 +36,7 @@ Auf dieser Seite wird der Prozess der Erstellung von [!DNL Facebook Website Cust
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] Segmente, die Ihrem neuen [!DNL Facebook]-Ziel zugewiesen werden können. Im Folgenden finden Sie [Erstellen eines Segments](/help/using/features/segments/segment-builder.md) in der [!DNL Audience Manager]-Benutzeroberfläche.
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Version 4.1.0 oder neuer. Laden Sie die neueste Version herunter **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) Version 9.0 oder neuer, herunterladbar von **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Wenn Sie [ Server-seitige Weiterleitung (SSF) verwenden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) um Daten in [!DNL Audience Manager] zu importieren, müssen Sie AppMeasurement Version 2.12 oder höher verwenden. Laden Sie [!DNL AppMeasurement] mit dem [Analytics Code Manager“ ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=de).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) Version 9.0 oder neuer, herunterladbar von **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Wenn Sie [&#x200B; Server-seitige Weiterleitung (SSF) verwenden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) um Daten in [!DNL Audience Manager] zu importieren, müssen Sie AppMeasurement Version 2.12 oder höher verwenden. Laden Sie [!DNL AppMeasurement] mit dem [Analytics Code Manager“ &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=de).
 
 Es wird empfohlen, die Bibliotheken in den Schritten 3 und 4 mithilfe von [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) zu installieren oder zu aktualisieren.
 
@@ -74,7 +74,7 @@ Beispielpixel, das von der Seite ausgelöst wird. Dieses Beispiel zeigt einen Be
 | Parameter | Beschreibung |
 |---------|----------|
 | `id` | Ihre [!DNL Facebook]-Pixel-ID, die Sie beim Erstellen von Zielgruppen-Pixeln in der [!DNL Facebook Ad Manager]-Benutzeroberfläche finden. |
-| `ev` | Ereignis. Dies ist ein beliebiger Wert, der in der [!DNL Facebook Ad Manager]-Benutzeroberfläche angezeigt wird, sobald das Pixel vor Ort zu feuern beginnt. Weitere Informationen finden Sie unter dem [!UICONTROL Include] in [Schritt ](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)). |
+| `ev` | Ereignis. Dies ist ein beliebiger Wert, der in der [!DNL Facebook Ad Manager]-Benutzeroberfläche angezeigt wird, sobald das Pixel vor Ort zu feuern beginnt. Weitere Informationen finden Sie unter dem [!UICONTROL Include] in [Schritt &#x200B;](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)). |
 | `cd[segID]` | Ein zusätzlicher Parameter, der in der [!DNL Facebook Ad Manager]-Benutzeroberfläche angezeigt wird, sobald das Pixel vor Ort ausgelöst wird. `segID` ist auch willkürlich. |
 | `%ALIAS%` | Ein [!DNL Audience Manager] Makro, das dynamisch durch die [!DNL Audience Manager] [!UICONTROL segment] IDs ersetzt wird, für die der Site-Besucher qualifiziert ist, getrennt durch Komma , |
 

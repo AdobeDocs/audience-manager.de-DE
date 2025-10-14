@@ -93,7 +93,7 @@ Abonnieren eines privaten Daten-Feeds:
 1. Klicken Sie auf **[!UICONTROL Request Access]**. Dadurch wird das Dialogfeld Anfrage geöffnet.
 1. Schreiben Sie im Dialogfeld Anfrage dem Anbieter einen Hinweis, in dem Sie Ihr Interesse an seinem Daten-Feed bekunden, und klicken Sie auf **[!UICONTROL Send]**. Der Verkäufer wird Ihre Nachricht überprüfen und Ihre Anfrage genehmigen oder ablehnen. Während der Wartezeit auf die Genehmigung wird „Angefordert“ in der [!UICONTROL Marketplace] für diesen Daten-Feed angezeigt.
 
-   * **[!UICONTROL Request approved]**: Der Status in der [!UICONTROL Marketplace] ändert sich in „Zugriff erteilt“ und Sie erhalten eine automatisierte Benachrichtigung. An dieser Stelle können Sie den Feed abonnieren. Anweisungen [ Sie unter „Abonnieren eines öffentlichen Daten](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)Feeds“.
+   * **[!UICONTROL Request approved]**: Der Status in der [!UICONTROL Marketplace] ändert sich in „Zugriff erteilt“ und Sie erhalten eine automatisierte Benachrichtigung. An dieser Stelle können Sie den Feed abonnieren. Anweisungen [&#x200B; Sie unter „Abonnieren eines öffentlichen Daten](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)Feeds“.
    * **[!UICONTROL Request denied]**: Der „angeforderte“ Text wird aus der [!UICONTROL Marketplace] für den Feed entfernt. Sie können erneut versuchen, einen Feed zu abonnieren oder einen anderen Feed auswählen.
 
 ## Rabatte für Käufer von Daten-Feeds {#buyer-discount}
@@ -198,7 +198,7 @@ Wenn ein Datenanbieter einen Ihrer Daten-Feeds deaktiviert, sendet [!DNL Audienc
 
 * **Betreffzeile:** Abonnement für *Name des Daten-Feeds hier* wurde gekündigt.
 
-* **Anlagen:** E-Mail enthält einen Anhang mit dem Titel &quot;`list-of-affected-entities-by-feed-revocation.csv`.“ Das ist eine verschachtelte Art und Weise, zu sagen, dass der Anhang alle Eigenschaften auflistet, die im abgebrochenen Feed enthalten sind. Als Datenkäufer sollten Sie diesen Anhang überprüfen. Dies hilft Ihnen, deaktivierte Eigenschaften in Ihren Segmenten und (algorithmischen [) zu ](../../../features/algorithmic-models/understanding-models.md) und zu entfernen.
+* **Anlagen:** E-Mail enthält einen Anhang mit dem Titel &quot;`list-of-affected-entities-by-feed-revocation.csv`.“ Das ist eine verschachtelte Art und Weise, zu sagen, dass der Anhang alle Eigenschaften auflistet, die im abgebrochenen Feed enthalten sind. Als Datenkäufer sollten Sie diesen Anhang überprüfen. Dies hilft Ihnen, deaktivierte Eigenschaften in Ihren Segmenten und (algorithmischen [) zu &#x200B;](../../../features/algorithmic-models/understanding-models.md) und zu entfernen.
 
 ## Liste deaktivierter Eigenschaften {#deactivation-trait-list}
 
@@ -253,13 +253,13 @@ Als Datenkäufer sind Sie dafür verantwortlich, die Eigenschaften in einem abge
 
 * Massenentfernung mit den [REST-APIs](../../../api/rest-api-main/rest-api-main.md) oder den [Tools für die Massenverwaltung](../../../reference/bulk-management-tools/bulk-management-intro.md).
 
-* Suchen Sie manuell nach betroffenen Segmenten und entfernen Sie deaktivierte Eigenschaften mithilfe von [!UICONTROL Segment Builder]. Siehe [Entfernen von Eigenschaften aus einem ](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
+* Suchen Sie manuell nach betroffenen Segmenten und entfernen Sie deaktivierte Eigenschaften mithilfe von [!UICONTROL Segment Builder]. Siehe [Entfernen von Eigenschaften aus einem &#x200B;](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
 
 >[!NOTE]
 >
 >Das Entfernen von Eigenschaften aus aktiven algorithmischen Modellen oder Zielen wirkt sich auf die Skalierungs- und Zielgenauigkeit aus. Versuchen Sie, gesperrte Eigenschaften nach Möglichkeit durch neue, aktive Eigenschaften zu ersetzen.
 
-[Melden Sie sich vom deaktivierten Daten-Feed ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe), nachdem Sie alle widerrufenen Eigenschaften aus Ihrem Konto entfernt haben. Wenn es sich um eine vorübergehende Deaktivierung handelt, können Sie sich erneut anmelden, nachdem der Datenanbieter die erforderlichen Änderungen vorgenommen und den Feed reaktiviert hat. Wie bei den meisten Dingen kann eine gute Kommunikation mit Ihren Partnern (dem Datenanbieter und [!DNL Adobe]) Ihnen dabei helfen, diesen Prozess zu bewältigen.
+[Melden Sie sich vom deaktivierten Daten-Feed &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe), nachdem Sie alle widerrufenen Eigenschaften aus Ihrem Konto entfernt haben. Wenn es sich um eine vorübergehende Deaktivierung handelt, können Sie sich erneut anmelden, nachdem der Datenanbieter die erforderlichen Änderungen vorgenommen und den Feed reaktiviert hat. Wie bei den meisten Dingen kann eine gute Kommunikation mit Ihren Partnern (dem Datenanbieter und [!DNL Adobe]) Ihnen dabei helfen, diesen Prozess zu bewältigen.
 
 ## Grundlegendes zur Seite mit Plandetails in Audience Marketplace {#marketplace-buyer-details}
 
@@ -282,7 +282,7 @@ Auf dieser Seite finden Sie die folgenden Informationen:
    * Klicken Sie auf **[!UICONTROL Explore All Traits]** , um Details zu allen Eigenschaften im ausgewählten Daten-Feed anzuzeigen.
    * Klicken Sie auf **[!UICONTROL Request More Details]** , um dem Datenanbieter Fragen zum ausgewählten Daten-Feed zu stellen oder einen Rabatt anzufordern. Diese Funktion sendet Ihre Kommentare und Fragen direkt an den Datenanbieter.
 
-1. Daten-Feed-Berichtsmetriken. Das Venn-Diagramm (und zugehörige Metriken) zeigt Daten zu Eigenschaftsüberschneidungen der letzten 30 Tage an. Weitere [ finden Sie unter „Der ](marketplace-data-buyers.md#about-marketplace): Über“.
+1. Daten-Feed-Berichtsmetriken. Das Venn-Diagramm (und zugehörige Metriken) zeigt Daten zu Eigenschaftsüberschneidungen der letzten 30 Tage an. Weitere [&#x200B; finden Sie unter „Der &#x200B;](marketplace-data-buyers.md#about-marketplace): Über“.
    * **[!UICONTROL 30 Day Overlapped Uniques]**: Die Anzahl der eindeutigen Benutzer in Ihrem Konto, die sich mit den Benutzern im Konto des Anbieters überschneiden. Eine Definition von eindeutigen Benutzern finden Sie unter AAM UUID im [ID-Index in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: Die Anzahl der eindeutigen Benutzer, die vom Konto des Anbieters stammen.
    * **[!UICONTROL Your Unique Users]**: Die Anzahl der eindeutigen Benutzer aus Ihrem Konto.
@@ -303,18 +303,18 @@ Als [!UICONTROL Audience Marketplace]-Käufer können Sie Daten für Anwendungsf
 
 ### Segmente und Überschneidungen
 
-In diesem Anwendungsbeispiel können Sie in einem Bericht zur Überschneidung von Eigenschaft [ Eigenschaft mit Anbietereigenschaften vergleichen.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) können Sie Provider-Eigenschaften für ein Segment erstellen oder hinzufügen und zusätzliche Vergleiche mit den Berichten [Segment-zu-Eigenschaft](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen. Überschneidungsvergleiche können Ihnen dabei helfen:
+In diesem Anwendungsbeispiel können Sie in einem Bericht zur Überschneidung von Eigenschaft [&#x200B; Eigenschaft mit Anbietereigenschaften vergleichen.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) können Sie Provider-Eigenschaften für ein Segment erstellen oder hinzufügen und zusätzliche Vergleiche mit den Berichten [Segment-zu-Eigenschaft](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen. Überschneidungsvergleiche können Ihnen dabei helfen:
 
 * **Reichweite der Zielgruppe erweitern:** geringe Überschneidung deutet darauf hin, dass Ihre Eigenschaften Benutzer enthalten, die Sie noch nie zuvor gesehen haben. Möglicherweise möchten Sie, dass diese Eigenschaften versuchen, neue Benutzende zu erreichen.
 * **Vorhandene Zielgruppen verbessern:** hohe Überschneidung deutet darauf hin, dass Ihre Eigenschaften denen des Datenanbieters ähnlich sind. Diese Eigenschaften sollen dazu beitragen, eine bereits entwickelte Zielgruppe zielgerichtet und inkrementell zu verbessern.
 
 ### Algorithmische Modelle
 
-In diesem Anwendungsbeispiel können Sie die Eigenschaften von Lieferanten mit Ihren Eigenschaften [algorithmische Modellierung) ](../../../features/algorithmic-models/understanding-models.md#understanding-models). Beispielsweise verwendet unser algorithmisches Modellierungssystem eine Ihrer Eigenschaften als Grundlage für den Vergleich mit einer Lieferanteneigenschaft. Wenn das Modell ausgeführt wird, kann es zeigen, ob Zielgruppen in Anbieter-Eigenschaften ähnliche Konversionsattribute wie Ihre Eigenschaften haben.
+In diesem Anwendungsbeispiel können Sie die Eigenschaften von Lieferanten mit Ihren Eigenschaften [algorithmische Modellierung) &#x200B;](../../../features/algorithmic-models/understanding-models.md#understanding-models). Beispielsweise verwendet unser algorithmisches Modellierungssystem eine Ihrer Eigenschaften als Grundlage für den Vergleich mit einer Lieferanteneigenschaft. Wenn das Modell ausgeführt wird, kann es zeigen, ob Zielgruppen in Anbieter-Eigenschaften ähnliche Konversionsattribute wie Ihre Eigenschaften haben.
 
 ### Aktivierung
 
-In diesem Anwendungsfall können Sie Daten an ein [Ziel“ ](../../../features/destinations/destinations.md). [!DNL Audience Manager] ist ein Ziel jedes Drittanbietersystem (Werbeserver, [!DNL DSP], [!DNL DMP], Exchange usw.), für das Sie Daten freigeben möchten. Bei einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
+In diesem Anwendungsfall können Sie Daten an ein [Ziel“ &#x200B;](../../../features/destinations/destinations.md). [!DNL Audience Manager] ist ein Ziel jedes Drittanbietersystem (Werbeserver, [!DNL DSP], [!DNL DMP], Exchange usw.), für das Sie Daten freigeben möchten. Bei einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
 
 >[!MORELIKETHIS]
 >

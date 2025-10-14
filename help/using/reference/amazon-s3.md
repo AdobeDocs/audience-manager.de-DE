@@ -31,7 +31,7 @@ Die Verwendung von Amazon S3 bietet folgende Vorteile:
 
    * Alle Verzeichnisse sind nur für den entsprechenden Kunden oder Client zugänglich.
    * Unterstützung des HTTPS-Protokolls für Uploads und Downloads. Beim Übertragen von Dateien in [!DNL Audience Manager] sollten Sie immer HTTPS verwenden.
-   * Amazon S3 bietet Verschlüsselung im Ruhezustand zum Verschlüsseln ([ Datendateien](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Wir verwenden die [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) Verschlüsselungsmethode, mit der Verschlüsselungsschlüssel automatisch von Amazon S3 generiert und verwaltet werden können.
+   * Amazon S3 bietet Verschlüsselung im Ruhezustand zum Verschlüsseln ([&#x200B; Datendateien](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Wir verwenden die [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) Verschlüsselungsmethode, mit der Verschlüsselungsschlüssel automatisch von Amazon S3 generiert und verwaltet werden können.
 
 * **Debug- und Backup-Unterstützung:** Mit Amazon S3 können [!DNL Audience Manager] exakte Dateikopien beibehalten, um das Debugging oder die erneute Übertragung zu vereinfachen.
 

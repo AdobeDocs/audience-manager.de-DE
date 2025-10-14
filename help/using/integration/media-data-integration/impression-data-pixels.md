@@ -38,7 +38,7 @@ Im Schlüssel-Wert-Paar ist die Wert-Variable eine ID oder ein Makro, die bzw. d
 
 ## Unterstützte Schlüssel-Wert-Paare {#supported-key-value-pairs}
 
-Impression-Ereignisaufrufe akzeptieren Daten, die in Schlüssel-Wert-Paare gebildet werden. In der folgenden Tabelle sind die Schlüssel zum Speichern dieser Variablen aufgeführt und beschrieben. Viele dieser Funktionen sind erforderlich, wenn Sie Daten in den [Audience Optimization-Berichten erfassen und ](../../reporting/audience-optimization-reports/audience-optimization-reports.md) möchten.
+Impression-Ereignisaufrufe akzeptieren Daten, die in Schlüssel-Wert-Paare gebildet werden. In der folgenden Tabelle sind die Schlüssel zum Speichern dieser Variablen aufgeführt und beschrieben. Viele dieser Funktionen sind erforderlich, wenn Sie Daten in den [Audience Optimization-Berichten erfassen und &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md) möchten.
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -113,7 +113,7 @@ Impression-Ereignisaufrufe akzeptieren Daten, die in Schlüssel-Wert-Paare gebil
 
 ## Zusätzliche Funktionalität - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
-Sie können Pixel-Aufrufe verwenden, um die [Audience Optimization-Berichte zu ](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Unter [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) finden Sie Informationen darüber, ob die Berichte anhand von Pixeln erstellt werden sollen.
+Sie können Pixel-Aufrufe verwenden, um die [Audience Optimization-Berichte zu &#x200B;](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Unter [Übersicht und Zuordnungen für Metadatendateien](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) finden Sie Informationen darüber, ob die Berichte anhand von Pixeln erstellt werden sollen.
 
 >[!MORELIKETHIS]
 >

@@ -30,7 +30,7 @@ Audience Marketplace-Datenerwerber stimmen zu, alle Anzeigenimpressionen zu meld
 [!UICONTROL Audience Marketplace] bietet zwei Möglichkeiten, [!DNL CPM] zu melden:
 
 * **Reporting auf Segmentebene**: Dies ist die empfohlene Berichtsmethode für die [!DNL CPM]. Wenn Sie [!DNL CPM] Nutzung auf Segmentebene melden, wird der Reporting-Abschnitt auf Daten-Feed-Ebene automatisch mit den entsprechenden Nutzungsbeträgen ausgefüllt, basierend auf den unter [Kostenzuordnung für CPM-Daten-Feeds](#cost-attribution) beschriebenen Algorithmen.
-* **Reporting auf Daten-Feed-**: Bei dieser Methode müssen Sie die [!DNL CPM] Nutzung für jeden Daten-Feed individuell melden, basierend auf den unter &quot;[ für CPM-Daten-Feeds“ beschriebenen Algorithmen](#cost-attribution). Diese Methode ist jedoch mühsamer und anfälliger für Fehler als das Reporting auf Segmentebene.
+* **Reporting auf Daten-Feed-**: Bei dieser Methode müssen Sie die [!DNL CPM] Nutzung für jeden Daten-Feed individuell melden, basierend auf den unter &quot;[&#x200B; für CPM-Daten-Feeds“ beschriebenen Algorithmen](#cost-attribution). Diese Methode ist jedoch mühsamer und anfälliger für Fehler als das Reporting auf Segmentebene.
 
 <br>
 
@@ -61,7 +61,7 @@ Sehen Sie sich auch unser Video an, um zu demonstrieren, wie Sie die Nutzung auf
 
 ## Melden der CPM-Nutzung auf Daten-Feed-Ebene {#feed-level-report}
 
-Das Reporting auf Daten-Feed-Ebene ist mühsamer und anfälliger für Fehler, da Sie [!DNL CPM] Nutzung für jeden Daten-Feed einzeln berechnen müssen. Es wird empfohlen[ stattdessen die Nutzung von CPM auf Segmentebene ](#segment-level-report) melden.
+Das Reporting auf Daten-Feed-Ebene ist mühsamer und anfälliger für Fehler, da Sie [!DNL CPM] Nutzung für jeden Daten-Feed einzeln berechnen müssen. Es wird empfohlen[&#x200B; stattdessen die Nutzung von CPM auf Segmentebene &#x200B;](#segment-level-report) melden.
 
 So melden Sie [!DNL CPM] auf Segmentebene:
 
@@ -164,7 +164,7 @@ Nachdem Sie [!DNL CPM] Nummer für den vorherigen Kalendermonat gemeldet haben, 
 
 ## Zuweisen von Impressionen auf Feed-Ebene basierend auf Regeln zur Eigenschaftenqualifizierung {#assign-impressions}
 
-Im [!UICONTROL Activation] Anwendungsfall können Sie Eigenschaften im entsprechenden Daten-Feed verwenden, um Segmente in [Segment Builder“ zu erstellen ](../../../features/segments/segment-builder.md) diese Segmente einem Ziel zuzuordnen. Mit den booleschen Operatoren [!UICONTROL AND], [!UICONTROL OR] und [!UICONTROL NOT] können Sie die Bedingungen für die Qualifizierung von Eigenschaften und Segmenten festlegen.
+Im [!UICONTROL Activation] Anwendungsfall können Sie Eigenschaften im entsprechenden Daten-Feed verwenden, um Segmente in [Segment Builder“ zu erstellen &#x200B;](../../../features/segments/segment-builder.md) diese Segmente einem Ziel zuzuordnen. Mit den booleschen Operatoren [!UICONTROL AND], [!UICONTROL OR] und [!UICONTROL NOT] können Sie die Bedingungen für die Qualifizierung von Eigenschaften und Segmenten festlegen.
 
 Wenn Sie [Nutzung von CPM auf Daten-Feed-Ebene melden](#feed-level-report) müssen Sie Impressionen proportional für jeden Daten-Feed zuweisen, je nach den [!DNL Boolean], die in den Regeln zur Eigenschaftenqualifizierung verwendet werden. In der folgenden Tabelle ist aufgeführt, wie Impressionen ordnungsgemäß nach booleschen Regeln oder Eigenschaftstypen zugewiesen werden.
 
@@ -205,7 +205,7 @@ Wenn Sie [Nutzung von CPM auf Daten-Feed-Ebene melden](#feed-level-report) müss
 Die folgenden Beispiele sollen veranschaulichen, wie [!DNL CPM] Nutzungszuweisung auf Daten-Feed-Ebene erfolgt.
 
 >[!IMPORTANT]
->Es wird empfohlen[ stattdessen die Nutzung von CPM auf Segmentebene ](#segment-level-report) melden, damit dieser Vorgang automatisch durchgeführt wird.
+>Es wird empfohlen[&#x200B; stattdessen die Nutzung von CPM auf Segmentebene &#x200B;](#segment-level-report) melden, damit dieser Vorgang automatisch durchgeführt wird.
 
 Betrachten wir das folgende Szenario:
 

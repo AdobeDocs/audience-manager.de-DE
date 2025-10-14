@@ -33,4 +33,4 @@ Mit den Berichtsregler können Sie Einschränkungen für die von einem interakti
 
 >[!MORELIKETHIS]
 >
->* [Datenfilter im Bericht „Segment-zu-Eigenschaft-Überschneidung“ ](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
+>* [Datenfilter im Bericht „Segment-zu-Eigenschaft-Überschneidung“ &#x200B;](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)

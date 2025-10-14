@@ -38,7 +38,7 @@ Eine ordnungsgemäß formatierte Metadatendatei kann diesen Kreativen jedoch an 
 
 ### Wann benötigen Sie eine Metadatendatei?
 
-Zunächst sind eine Metadatendatei und alle unten aufgeführten Parameter in einem Ereignisaufruf erforderlich, wenn Sie die [Audience Optimization-Berichte verwenden ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Zunächst sind eine Metadatendatei und alle unten aufgeführten Parameter in einem Ereignisaufruf erforderlich, wenn Sie die [Audience Optimization-Berichte verwenden &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 Zweitens benötigen Sie eine Metadatendatei, wenn Sie Ihre eigenen Daten an [!DNL Audience Manager] senden oder wenn Sie Daten in den Berichten anderer Anbieter sehen möchten, mit denen wir nicht integriert sind. Beispielsweise verfügt [!DNL Audience Manager] über eine Integration mit dem [-Click Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) von Google. Aufgrund dieser Beziehung können [!DNL Audience Manager] IDs mit Namen und Beschreibungen verknüpfen, die von den Berichtsoptionen verwendet werden. Ohne eine -Integration können wir weiterhin Daten aufnehmen, aber die Berichtsoptionen zeigen numerische IDs anstelle eines beschreibenden Namens an.
 

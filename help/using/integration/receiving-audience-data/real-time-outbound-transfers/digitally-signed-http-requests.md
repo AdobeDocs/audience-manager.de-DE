@@ -54,7 +54,7 @@ POST message content
 1. [!UICONTROL IRIS] erstellt eine Signatur basierend auf der `HTTP(S)` Nachricht und dem vom Partner übermittelten privaten Schlüssel.
 1. [!UICONTROL IRIS] sendet die `HTTP(S)` an den Partner. Diese Nachricht enthält die Signatur und die eigentliche Nachricht, wie im Beispiel oben gezeigt.
 1. Der Partnerserver erhält die `HTTP(S)`. Er liest den Nachrichtentext und die von [!UICONTROL IRIS] erhaltene Signatur.
-1. Basierend auf dem empfangenen Nachrichtentext und dem privaten Schlüssel berechnet der Partner-Server die Signatur neu. Wie Sie [ erreichen, erfahren Sie im Abschnitt ](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature)Berechnen der Signatur“ weiter unten.
+1. Basierend auf dem empfangenen Nachrichtentext und dem privaten Schlüssel berechnet der Partner-Server die Signatur neu. Wie Sie [&#x200B; erreichen, erfahren Sie im Abschnitt &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature)Berechnen der Signatur“ weiter unten.
 1. Vergleichen Sie die auf dem Partnerserver (Empfänger) erstellte Signatur mit der von [!UICONTROL IRIS] (Absender) empfangenen Signatur.
 1. Wenn die Signaturen übereinstimmen, **die** Authentizität“ und **Nachrichtenintegrität** validiert. Nur der Absender, der über den privaten Schlüssel verfügt, kann eine gültige Signatur (Authentizität) senden. Außerdem kann ein Mann in der Mitte die Nachricht nicht ändern und keine neue gültige Signatur erzeugen, da er nicht über den privaten Schlüssel (Nachrichtenintegrität) verfügt.
 
@@ -85,7 +85,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-Die RFC für die [!DNL HMAC] Hash-Implementierung ist [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Test-Site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die [-Codierung in base64 ](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)konvertieren).
+Die RFC für die [!DNL HMAC] Hash-Implementierung ist [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Test-Site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die [-Codierung in base64 &#x200B;](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)konvertieren).
 
 ## Privaten Schlüssel drehen {#rotate-private-key}
 

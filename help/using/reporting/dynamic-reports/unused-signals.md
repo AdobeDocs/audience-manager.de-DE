@@ -26,7 +26,7 @@ Dieser Bericht gibt eine Häufigkeitsanzahl aller nicht verwendeten Informatione
 
 ## Überblick
 
-Ein Signal ist eine Information von Ihrer Website, die in Form von [!DNL Audience Manager]Schlüssel-Wert-Paaren[ (z. B. ](../../reference/key-value-pairs-explained.md) usw.) an `color=blue, price>100, gender=female` weitergegeben wird.
+Ein Signal ist eine Information von Ihrer Website, die in Form von [!DNL Audience Manager]Schlüssel-Wert-Paaren[&#x200B; (z. B. &#x200B;](../../reference/key-value-pairs-explained.md) usw.) an `color=blue, price>100, gender=female` weitergegeben wird.
 
 Nicht verwendete Signale bestehen aus Daten, die Sie sammeln, aber keiner Eigenschaft zugeordnet wurden. Der [!UICONTROL Unused Signals] Bericht zeigt Daten in einer Tabelle nach Datum, Schlüssel, Wert und Häufigkeitsanzahl an. Jedes nicht zugeordnete Signal, das an [!DNL Audience Manager] mindestens 100-mal pro Tag übergeben wird, ist für den [!UICONTROL Unused Signals]-Bericht qualifiziert.
 

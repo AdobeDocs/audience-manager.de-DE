@@ -230,7 +230,7 @@ Falsch formatierte Wertnamen in einem Schlüssel-Wert-Paar verursachen ebenfalls
  </tbody> 
 </table>
 
-[Laden Sie ](assets/ftp_dpm_1234_1445374061.overwrite) Beispieldatendatei herunter, wenn Sie zusätzliche Beispiele benötigen. Die Download-Datei hat eine `.overwrite` Dateierweiterung. Sie können sie mit einem einfachen Texteditor öffnen.
+[Laden Sie &#x200B;](assets/ftp_dpm_1234_1445374061.overwrite) Beispieldatendatei herunter, wenn Sie zusätzliche Beispiele benötigen. Die Download-Datei hat eine `.overwrite` Dateierweiterung. Sie können sie mit einem einfachen Texteditor öffnen.
 
 ## Beispielmatrix {#examples-matrix}
 

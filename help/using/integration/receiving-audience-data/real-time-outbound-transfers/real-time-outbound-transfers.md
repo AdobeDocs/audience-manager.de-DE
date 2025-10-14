@@ -142,7 +142,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
 
 ## Sicherheit
 
-Sie können Ihren in Echtzeit ausgehenden Datenübertragungsprozess schützen, indem Sie [HTTP-Anfragen signieren](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) private Schlüssel verwenden oder sich über das [!DNL Audience Manager]OAuth 2.0[-Protokoll authentifizieren ](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
+Sie können Ihren in Echtzeit ausgehenden Datenübertragungsprozess schützen, indem Sie [HTTP-Anfragen signieren](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) private Schlüssel verwenden oder sich über das [!DNL Audience Manager]OAuth 2.0[-Protokoll authentifizieren &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
 
 ## Anfrage
 

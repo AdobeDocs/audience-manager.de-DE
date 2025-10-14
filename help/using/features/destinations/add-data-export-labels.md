@@ -26,7 +26,7 @@ ht-degree: 2%
 So fügen Sie einem Ziel Exportkennzeichnungen hinzu:
 
 1. Klicken Sie auf **[!UICONTROL Audience Data]**:
-   * Für neue Ziele: Klicken Sie auf **[!UICONTROL Create New Destination]**. Füllen Sie den Abschnitt [!UICONTROL Basic Information] aus, bevor Sie eine Beschriftung für den Datenexport auswählen. Weitere Informationen finden [ unter „Erstellen ](../../features/destinations/create-cookie-destination.md) Cookie-Ziels“ oder [Erstellen ](../../features/destinations/create-url-destination.md) URL-Ziels“.
+   * Für neue Ziele: Klicken Sie auf **[!UICONTROL Create New Destination]**. Füllen Sie den Abschnitt [!UICONTROL Basic Information] aus, bevor Sie eine Beschriftung für den Datenexport auswählen. Weitere Informationen finden [&#x200B; unter „Erstellen &#x200B;](../../features/destinations/create-cookie-destination.md) Cookie-Ziels“ oder [Erstellen &#x200B;](../../features/destinations/create-url-destination.md) URL-Ziels“.
    * Für vorhandene Ziele: Verwenden Sie das [!DNL Search], um Ihr Ziel zu finden, oder scrollen Sie durch die Liste und klicken Sie auf den Zielnamen, um es zu öffnen.
 1. [!DNL Data Export Label] auswählen. Lassen Sie die Kontrollkästchen leer, wenn Sie keine Exportbeschränkungen festlegen möchten. Die Exportkennzeichnungen umfassen die folgenden Optionen:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**

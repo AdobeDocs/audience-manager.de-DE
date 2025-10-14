@@ -40,7 +40,7 @@ DCS und PCS arbeiten zusammen und bieten separate Services für die Realisierung
 In der [!DNL Audience Manager]:
 
 * Empfängt Eigenschaftsdaten aus einem Ereignisaufruf und wertet sie aus. Dazu gehören Informationen, die für die Echtzeit-Segmentierung verwendet werden, und Daten, die in terminierten Intervallen von Server-zu-Server-Übertragungen übergeben werden.
-* Segmentiert Benutzende anhand ihrer realisierten Eigenschaften und der mit [Segment Builder) erstellten ](../../features/segments/segment-builder.md).
+* Segmentiert Benutzende anhand ihrer realisierten Eigenschaften und der mit [Segment Builder) erstellten &#x200B;](../../features/segments/segment-builder.md).
 * Erstellt und verwaltet Geräte- und authentifizierte Profil-IDs. Dazu gehören Kennungen wie Datenanbieter-IDs, Benutzer-IDs, deklarierte IDs, Integrations-Codes usw.
 * Prüft den PC auf zusätzliche Eigenschaften, die ein Benutzer bereits vor einem Echtzeit-Ereignisaufruf erkannt hat. Auf diese Weise kann der DCS Benutzer auf der Grundlage von Echtzeitdaten und historischen Daten qualifizieren.
 * Schreibt Protokolldateien und sendet diese zur Speicherung und Verarbeitung an Analysesysteme.
@@ -86,11 +86,11 @@ Diese Server-Systeme behandeln Datenschutz- und Benutzer-Opt-out-Anfragen. Benut
 
 ## Data Integration Library (DIL) {#dil}
 
-[!UICONTROL DIL] ist der Code, den Sie zur Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Services und [ finden Sie in der ](../../dil/dil-overview.md)DIL-API.
+[!UICONTROL DIL] ist der Code, den Sie zur Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Services und [&#x200B; finden Sie in der &#x200B;](../../dil/dil-overview.md)DIL-API.
 
 ## Eingehender Server-zu-Server {#inbound-outbound-server}
 
-Hierbei handelt es sich um Systeme, die Daten empfangen, die von verschiedenen Server-zu-Server-Integrationen mit unseren Kunden gesendet werden. Weitere Informationen finden Sie in [ Dokumentation unter ](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) von Zielgruppendaten .
+Hierbei handelt es sich um Systeme, die Daten empfangen, die von verschiedenen Server-zu-Server-Integrationen mit unseren Kunden gesendet werden. Weitere Informationen finden Sie in [&#x200B; Dokumentation unter &#x200B;](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) von Zielgruppendaten .
 
 ## Protokolldateien {#log-files}
 

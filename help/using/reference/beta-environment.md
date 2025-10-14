@@ -54,7 +54,7 @@ Ausgehender Traffic ist für die Beta-Umgebung nicht aktiviert.
 
 ## Zugreifen auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
-1. Führen Sie einen DCS-Aufruf mit dem curl-[ aus](https://curl.haxx.se/docs/manpage.html). cURL ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
+1. Führen Sie einen DCS-Aufruf mit dem curl-[&#x200B; aus](https://curl.haxx.se/docs/manpage.html). cURL ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
 
    Beispiel:
 

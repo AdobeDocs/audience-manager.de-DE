@@ -72,7 +72,7 @@ Beim Erstellen eines [!UICONTROL Predictive Audiences] gehen Sie drei Schritte d
 
 Sie können beliebige Erstanbieter-Eigenschaften oder Segmente auswählen, um Ihre Personas zu definieren. Um jedoch optimale Ergebnisse zu erzielen, gibt es hier eine Reihe empfohlener Best Practices:
 
-* Wählen Sie Ihre persönlichen Eigenschaften oder Segmente so aus, dass jede Rolle mindestens einige hundert [Geräte-IDs“ ](../../reference/ids-in-aam.md).
+* Wählen Sie Ihre persönlichen Eigenschaften oder Segmente so aus, dass jede Rolle mindestens einige hundert [Geräte-IDs“ &#x200B;](../../reference/ids-in-aam.md).
 * Wenn Ihre Eigenschaften auf [geräteübergreifenden IDs](../../reference/ids-in-aam.md) basieren, können Sie sie in Segmente mit [Profilzusammenführungsregeln](../profile-merge-rules/merge-rules-overview.md) einschließen, die [Geräte-IDs](../../reference/ids-in-aam.md) verwenden, z. B. [!UICONTROL Device Graph]. Dadurch wird sichergestellt, dass genügend [Geräte-IDs](../../reference/ids-in-aam.md) vorhanden sind, aus denen der Algorithmus lernen kann.
 * Wir empfehlen die Auswahl von Eigenschaften oder einfachen Segmenten für Ihre Personas, die aus 1 bis 3 Eigenschaften bestehen.
 * Wählen Sie Grundlinien-Eigenschaften oder Segmente mit minimaler Überschneidung aus.

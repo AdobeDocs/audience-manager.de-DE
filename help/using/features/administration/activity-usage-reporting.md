@@ -24,7 +24,7 @@ Darüber hinaus können Sie die [!UICONTROL Activity Usage Report] zur Aufbewahr
 
 ## Zu beachten {#considerations}
 
-Die [!UICONTROL Activity Usage Report] steht allen Audience Manager-Benutzern mit &quot;[&quot; ](edit-account-settings.md).
+Die [!UICONTROL Activity Usage Report] steht allen Audience Manager-Benutzern mit &quot;[&quot; &#x200B;](edit-account-settings.md).
 
 >[!IMPORTANT]
 >

@@ -23,7 +23,7 @@ Beschreibt die Eigenschaften- und Segmentgröße sowie die Anforderungen an die 
 [!UICONTROL Overlap] Berichte werden wöchentlich am Sonntag aktualisiert. Die Berichtsvorverarbeitung beginnt am Samstag. Dies wirkt sich darauf aus, wie neue oder vorhandene Segmente in einem Überschneidungsbericht am Montag angezeigt werden. In einen Überschneidungsbericht aufzunehmen:
 
 * Ein Segment muss in den letzten 14 Tagen mindestens 70.000 Echtzeit-Benutzer enthalten.
-* Ein Merkmal muss in den [ 14 Tagen 28.000 ](/help/using/features/traits/trait-and-segment-qualification-reference.md)Eindeutige Merkmale“ enthalten.
+* Ein Merkmal muss in den [&#x200B; 14 Tagen 28.000 &#x200B;](/help/using/features/traits/trait-and-segment-qualification-reference.md)Eindeutige Merkmale“ enthalten.
 * Ein Segment muss vor Donnerstag, 12 Uhr UTC (2 volle Tage vor Beginn des Aktualisierungsprozesses des wöchentlichen Überschneidungsberichts) erstellt worden sein.
 * Ihr Unternehmen muss ein Full-[!DNL Audience Manager]-Kunde sein. Wenden Sie sich an Ihren [!DNL Audience Manager] oder die Kundenunterstützung, um mehr zu erfahren.
 

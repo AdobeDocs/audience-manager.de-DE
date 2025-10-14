@@ -114,7 +114,7 @@ Die folgenden Beispiele zeigen ordnungsgemäß formatierte Dateinamen. Ihre Date
  <li> <code> ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-[Laden Sie ](assets/ftp_dpm_1234_1445374061.overwrite) Beispieldatei herunter, wenn Sie zusätzliche Beispiele benötigen. Diese Datei wird mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie sie mit einem einfachen Texteditor.
+[Laden Sie &#x200B;](assets/ftp_dpm_1234_1445374061.overwrite) Beispieldatei herunter, wenn Sie zusätzliche Beispiele benötigen. Diese Datei wird mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie sie mit einem einfachen Texteditor.
 
 ## Akzeptierte Dateigrößen {#accepted-file-sizes}
 

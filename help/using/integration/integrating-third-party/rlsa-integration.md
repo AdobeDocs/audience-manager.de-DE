@@ -30,7 +30,7 @@ So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manag
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Erstellen Sie [ Audience Manager eine  [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie eine vorhandene [!DNL destination]. Verwenden Sie beim Erstellen der [!DNL destination] die folgenden Einstellungen:
+1. Erstellen Sie [&#x200B; Audience Manager eine  [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie eine vorhandene [!DNL destination]. Verwenden Sie beim Erstellen der [!DNL destination] die folgenden Einstellungen:
    * Typ: URL
    * Serialisieren: Aktiviert
    * Trennzeichen: Semikolon ( &semi; )

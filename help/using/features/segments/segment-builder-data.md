@@ -132,7 +132,7 @@ In der folgenden Tabelle werden die tatsächlichen Echtzeit- und Gesamtbevölker
 
 ### Einschränkungen aufgrund von [!UICONTROL Merge Rules] bei der Schätzung von Segmentpopulationen
 
-Derzeit gibt es eine bekannte Einschränkung, da unsere Segmentgrößenschätzung keine [!UICONTROL profile merge rules] berücksichtigt. Sehen Sie sich beispielsweise Segmente mit der **[!UICONTROL No Authenticated Profile + Current Device Profile]** &quot;[&quot; ](../../features/profile-merge-rules/merge-rule-definitions.md). Aufgrund der Art und Weise, wie wir derzeit die Segmentschätzungszahlen berechnen, enthalten die geschätzten Populationen authentifizierte Profile. Die vorhandenen Segmentpopulationen ignorieren jedoch korrekt authentifizierte Profile.
+Derzeit gibt es eine bekannte Einschränkung, da unsere Segmentgrößenschätzung keine [!UICONTROL profile merge rules] berücksichtigt. Sehen Sie sich beispielsweise Segmente mit der **[!UICONTROL No Authenticated Profile + Current Device Profile]** &quot;[&quot; &#x200B;](../../features/profile-merge-rules/merge-rule-definitions.md). Aufgrund der Art und Weise, wie wir derzeit die Segmentschätzungszahlen berechnen, enthalten die geschätzten Populationen authentifizierte Profile. Die vorhandenen Segmentpopulationen ignorieren jedoch korrekt authentifizierte Profile.
 
 >[!MORELIKETHIS]
 >

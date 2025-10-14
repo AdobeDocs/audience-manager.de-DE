@@ -25,7 +25,7 @@ Um ein neues [!UICONTROL data source] zu erstellen, gehen Sie zu **[!UICONTROL A
 
 >[!TIP]
 >
->Beschreibungen [ verschiedenen Steuerelemente finden Sie unter Einstellungen für Data Source ](../features/datasources-list-and-settings.md#settings-menu-options) Menüoptionen.
+>Beschreibungen [&#x200B; verschiedenen Steuerelemente finden Sie unter Einstellungen für Data Source &#x200B;](../features/datasources-list-and-settings.md#settings-menu-options) Menüoptionen.
 
 ## [!UICONTROL Data Source] {#details}
 
@@ -37,7 +37,7 @@ Um den Abschnitt [!UICONTROL Data Source Details] auszufüllen, füllen Sie die 
    * [Erstellen einer geräteübergreifenden Datenquelle](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
    * Verwenden Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
    * Arbeiten mit [Profilzusammenführungsregeln](../features/profile-merge-rules/merge-rules-start.md).
-1. **[!UICONTROL Namespace]** (schreibgeschützt): Dieses Feld ist schreibgeschützt und wird beim Speichern der Datenquelle automatisch generiert. Wenn Sie Segmente aus Audience Manager nach Experience Platform exportieren möchten, müssen Sie in Experience Platform einen entsprechenden [Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces) erstellen und dabei den automatisch generierten Wert als Namespace ([) ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) Experience Platform verwenden.
+1. **[!UICONTROL Namespace]** (schreibgeschützt): Dieses Feld ist schreibgeschützt und wird beim Speichern der Datenquelle automatisch generiert. Wenn Sie Segmente aus Audience Manager nach Experience Platform exportieren möchten, müssen Sie in Experience Platform einen entsprechenden [Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces) erstellen und dabei den automatisch generierten Wert als Namespace ([) &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) Experience Platform verwenden.
 1. **[!UICONTROL ID Type]**: Wählen Sie den Typ der IDs aus, die diese Datenquelle enthalten soll:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**

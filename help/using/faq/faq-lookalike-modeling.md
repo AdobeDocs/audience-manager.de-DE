@@ -59,7 +59,7 @@ Verwenden Sie Datenquellen, die sich mindestens teilweise mit Ihrer grundlegende
 
 **Kostet die Verwendung von Drittanbieterdaten für die Modellierung?**
 
-Dies hängt vom Preismodell des ausgewählten Daten-Feeds ab. Einige Feeds ermöglichen die Modellierung ohne Kosten, während andere eine Gebühr berechnen. Weitere [ finden Sie unter „Abrechnung für Daten](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)Feed-Käufer“.
+Dies hängt vom Preismodell des ausgewählten Daten-Feeds ab. Einige Feeds ermöglichen die Modellierung ohne Kosten, während andere eine Gebühr berechnen. Weitere [&#x200B; finden Sie unter „Abrechnung für Daten](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)Feed-Käufer“.
 
  
 

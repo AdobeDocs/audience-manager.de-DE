@@ -63,7 +63,7 @@ Der [!UICONTROL declared ID] berücksichtigt die Präferenzen der Site-Besucher,
 * [!DNL Audience Manager] können eine [!UICONTROL declared ID]-Abmeldung zusammen mit einer [!DNL Audience Manager]-[!UICONTROL UUID] im [!DNL URL] übergeben.
 * Die [!UICONTROL declared ID] Opt-out-Option wird in der [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) pro Partner gespeichert. Es gibt kein Opt-out auf Plattformebene mit [!UICONTROL declared IDs]. Darüber hinaus verhindert [!DNL Audience Manager], dass Benutzende aus diesem bestimmten Bereich am Edge abgemeldet werden (die Abmeldung betrifft nicht [!DNL DCS] Bereiche).
 
-Weitere [ zum Opt-out von der Datenerfassung finden ](../overview/data-security-and-privacy/data-privacy.md) unter „Datenschutz“.
+Weitere [&#x200B; zum Opt-out von der Datenerfassung finden &#x200B;](../overview/data-security-and-privacy/data-privacy.md) unter „Datenschutz“.
 
 ## Beispiele für [!UICONTROL Declared ID] Opt-out {#opt-out-examples}
 
