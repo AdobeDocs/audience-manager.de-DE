@@ -80,7 +80,7 @@ Alle diese Angaben sind optional, es sei denn, Sie wünschen eine Antwort von de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Deaktivieren Sie die Verwendung von Drittanbieter-Cookies, um die Vorschriften zum Schutz untergeordneter Elemente einzuhalten. Dieser Parameter wird vom Adobe Adobe Experience Platform Identity Service dynamisch festgelegt und hängt von der <code> idSyncDisable3rdPartySyncing</code> ab. Siehe <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA-Unterstützung im Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Deaktivieren Sie die Verwendung von Drittanbieter-Cookies, um die Vorschriften zum Schutz untergeordneter Elemente einzuhalten. Dieser Parameter wird vom Adobe Adobe Experience Platform Identity Service dynamisch festgelegt und hängt von der <code> idSyncDisable3rdPartySyncing</code> ab. Siehe <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=de" format="https" scope="external"> COPPA-Unterstützung im Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ Alle diese Angaben sind optional, es sei denn, Sie wünschen eine Antwort von de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Gibt die Experience Cloud-ID an, die vom <span class="keyword"> Experience Cloud</span> ID-Service festgelegt und verwendet wird. Weitere Informationen zur ECID finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>Gibt die Experience Cloud-ID an, die vom <span class="keyword"> Experience Cloud</span> ID-Service festgelegt und verwendet wird. Weitere Informationen zur ECID finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> von Cookies und Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -195,7 +195,7 @@ Diese Kopfzeilen enthalten Informationen wie Anfragen für Daten und Antworten i
 
 | Attribut | Beschreibung |
 | --- | --- |
-| `h_host` | Dieser wird auf den spezifischen Datenerfassungs-Host-Namen des Clients festgelegt. Es erscheint als `host name .demdex.net`. Siehe [Grundlegendes zu Aufrufen an die Domäne „demdex.net“](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
+| `h_host` | Dieser wird auf den spezifischen Datenerfassungs-Host-Namen des Clients festgelegt. Es erscheint als `host name .demdex.net`. Siehe [Grundlegendes zu Aufrufen an die Domäne „demdex.net“](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de). |
 | `h_user-agent` | Auf den Wert der `User-Agent`-Kopfzeile festlegen. |
 | `h_accept-language` | Auf den Wert der `Accept-Language`-Kopfzeile festlegen. |
 | `h_referer` | Auf den Wert der `Referer`-Kopfzeile festlegen. |
