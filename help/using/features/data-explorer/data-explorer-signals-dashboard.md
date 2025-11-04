@@ -41,4 +41,4 @@ Gespeicherte Suchvorgänge zeigen die 50 besten Ergebnisse für die entsprechend
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie die [!UICONTROL Signals Dashboard] verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/25151/)
+>[!VIDEO](https://video.tv.adobe.com/v/327522?captions=ger)

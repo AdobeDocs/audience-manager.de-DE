@@ -50,7 +50,7 @@ Unter den Tools für die Segmentverwaltung finden Sie die folgenden Segmentinfor
 
    Sehen Sie sich das folgende Video an, um einen Überblick über [!UICONTROL Identity Type Breakdown] zu erhalten.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+   >[!VIDEO](https://video.tv.adobe.com/v/32712?captions=ger)
 
 1. **[!UICONTROL Segment Rules]:** Listet Merkmale im Segment zusammen mit Qualifizierungsregeln auf.
 1. **[!UICONTROL Destination Mappings]:** Listet Zielzuordnungen für das Segment auf.
