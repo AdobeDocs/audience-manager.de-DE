@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Hinzufügen von Datenexportsteuerelementen zu einem Ziel
 feature: Data Export Controls
 exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 2%
@@ -26,16 +26,21 @@ ht-degree: 2%
 So fügen Sie einem Ziel Exportkennzeichnungen hinzu:
 
 1. Klicken Sie auf **[!UICONTROL Audience Data]**:
-   * Für neue Ziele: Klicken Sie auf **[!UICONTROL Create New Destination]**. Füllen Sie den Abschnitt [!UICONTROL Basic Information] aus, bevor Sie eine Beschriftung für den Datenexport auswählen. Weitere Informationen finden [&#x200B; unter „Erstellen &#x200B;](../../features/destinations/create-cookie-destination.md) Cookie-Ziels“ oder [Erstellen &#x200B;](../../features/destinations/create-url-destination.md) URL-Ziels“.
+
+   * Für neue Ziele: Klicken Sie auf **[!UICONTROL Create New Destination]**. Füllen Sie den Abschnitt [!UICONTROL Basic Information] aus, bevor Sie eine Beschriftung für den Datenexport auswählen. Weitere Informationen finden [ unter „Erstellen ](../../features/destinations/create-cookie-destination.md) Cookie-Ziels“ oder [Erstellen ](../../features/destinations/create-url-destination.md) URL-Ziels“.
    * Für vorhandene Ziele: Verwenden Sie das [!DNL Search], um Ihr Ziel zu finden, oder scrollen Sie durch die Liste und klicken Sie auf den Zielnamen, um es zu öffnen.
+
 1. [!DNL Data Export Label] auswählen. Lassen Sie die Kontrollkästchen leer, wenn Sie keine Exportbeschränkungen festlegen möchten. Die Exportkennzeichnungen umfassen die folgenden Optionen:
+
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >Exportbeschränkungen funktionieren nur, wenn Sie eine [entsprechende Exportsteuerung](../../features/data-export-controls.md) für eine Datenquelle festlegen.
+
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]

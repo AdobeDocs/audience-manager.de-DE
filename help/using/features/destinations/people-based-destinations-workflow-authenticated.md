@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Workflow C - Personalization basierend auf authentifizierter Aktivität kombiniert mit Offline-Daten
 feature: People-based Destinations
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 1%
@@ -41,6 +41,7 @@ In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL ID Type]** die Option **[!UICONTROL Cross Device]** aus.
 1. Wählen Sie im Abschnitt **[!UICONTROL Data Source Settings]** die Optionen **[!UICONTROL Inbound]** und **[!UICONTROL Outbound]** aus und aktivieren Sie die Option **[!UICONTROL Share associated cross-device IDs in people-based destinations]** .
 1. Wählen Sie im Dropdown-Menü die **[!UICONTROL Emails(SHA256, lowercased)]** für diese Datenquelle aus.
+
    >[!IMPORTANT]
    >
    >Diese Option kennzeichnet die Datenquelle nur als mit Daten, die mit diesem bestimmten Algorithmus gehasht wurden. Audience Manager hasst die Daten in diesem Schritt nicht. Stellen Sie sicher, dass die E-Mail-Adressen, die Sie in dieser Datenquelle speichern möchten, bereits mit dem [!DNL SHA256]-Algorithmus gehasht wurden. Andernfalls können Sie es nicht für [!DNL People-Based Destinations] verwenden.
@@ -53,7 +54,7 @@ In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen
 
 Sehen Sie sich das folgende Video an, um ein Video-Tutorial zum Erstellen einer Datenquelle für [!UICONTROL People-Based Destinations] zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/32165?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Schritt 2: Verwenden deklarierter IDs, um DPUUIDs über Echtzeit-HTTP-Aufrufe mit Hash-E-Mail-Adressen abzugleichen {#match-email-addresses}
 
@@ -134,5 +135,5 @@ Verwenden Sie zum Erstellen neuer Segmente den [Segment Builder](../segments/seg
 1. Klicken Sie auf **[!UICONTROL Next]**.
 1. Wählen Sie die **[!UICONTROL Data Export Labels]** aus, die Sie für dieses Ziel festlegen möchten.
 1. Wählen Sie im Abschnitt **[!UICONTROL Configuration]** die Datenquelle aus, die Ihre gehashten Datenquellen enthält.
-1. Wählen Sie im Abschnitt **[!UICONTROL Segment Mappings]** die Segmente aus, die Sie an dieses Ziel senden möchten. Hierbei handelt es sich um die Segmente, die Sie unter [Schritt 4: Erstellen von Zielgruppensegmenten) &#x200B;](#create-audience-segments).
+1. Wählen Sie im Abschnitt **[!UICONTROL Segment Mappings]** die Segmente aus, die Sie an dieses Ziel senden möchten. Hierbei handelt es sich um die Segmente, die Sie unter [Schritt 4: Erstellen von Zielgruppensegmenten) ](#create-audience-segments).
 1. Speichern Sie das Ziel.

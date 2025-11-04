@@ -6,7 +6,7 @@ title: Signal-Dashboard
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -40,4 +40,5 @@ In diesem Abschnitt werden die 50 neuen ungenutzten Signale angezeigt, die in de
 Gespeicherte Suchvorgänge zeigen die 50 besten Ergebnisse für die entsprechenden Kriterien an.
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie die [!UICONTROL Signals Dashboard] verwenden.
->[!VIDEO](https://video.tv.adobe.com/v/327522?captions=ger)
+
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)

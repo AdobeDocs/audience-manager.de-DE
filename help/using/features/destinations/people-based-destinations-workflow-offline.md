@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Workflow B - Personalization basierend auf reinen Offline-Daten
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 1%
@@ -79,6 +79,7 @@ In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL ID Type]** die Option **[!UICONTROL Cross Device]** aus.
 1. Wählen Sie im Abschnitt **[!UICONTROL Data Source Settings]** die Optionen **[!UICONTROL Inbound]** und **[!UICONTROL Outbound]** aus und aktivieren Sie die Option **[!UICONTROL Share associated cross-device IDs in people-based destinations]** .
 1. Wählen Sie im Dropdown-Menü die **[!UICONTROL Emails(SHA256, lowercased)]** für diese Datenquelle aus.
+
    >[!IMPORTANT]
    >
    >Diese Option kennzeichnet die Datenquelle nur als mit Daten, die mit diesem bestimmten Algorithmus gehasht wurden. Audience Manager hasst die Daten in diesem Schritt nicht. Stellen Sie sicher, dass die E-Mail-Adressen, die Sie in dieser Datenquelle speichern möchten, bereits mit dem [!DNL SHA256]-Algorithmus gehasht wurden. Andernfalls können Sie es nicht für [!DNL People-Based Destinations] verwenden.
@@ -91,13 +92,13 @@ In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen
 
 Sehen Sie sich das folgende Video an, um ein Video-Tutorial zum Erstellen einer Datenquelle für [!UICONTROL People-Based Destinations] zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/32165?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Schritt 3: Abgleichen von DPUUIDs mit Hash-E-Mail-Adressen über die dateibasierte ID-Synchronisierung {#match-ids-emails}
 
 >[!IMPORTANT]
 >
-> Dieser Schritt gilt nur für [&#x200B; oben &#x200B;](people-based-destinations-workflow-offline.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 4: Erstellen einer Profilzusammenführungsregel für die Segmentierung](#create-profile-merge-rule) fort.
+> Dieser Schritt gilt nur für [ oben ](people-based-destinations-workflow-offline.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 4: Erstellen einer Profilzusammenführungsregel für die Segmentierung](#create-profile-merge-rule) fort.
 
 Nehmen wir an, Sie möchten Ihre bestehenden [DPUUIDs](../../reference/ids-in-aam.md) aus dem Beispiel in Schritt 1 mit den Hash-E-Mail-Adressen aus der unten stehenden Tabelle (rechte Spalte) abgleichen und die Hash-E-Mail-Adressen in der neuen Datenquelle speichern, die Sie unter [Schritt 2 - Einstellungen für Data Source konfigurieren](#configure-data-source-settings) erstellt haben.
 
@@ -135,7 +136,7 @@ Die [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-da
 Im obigen Beispiel würde der Dateiname wie folgt aussehen:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Laden Sie hier die Beispieldatei &#x200B;](assets/c2c_id_999999_987654_1560431657.sync).
+[Laden Sie hier die Beispieldatei ](assets/c2c_id_999999_987654_1560431657.sync).
 
 Nachdem Sie Ihre ID-Synchronisierungsdatei erstellt haben, müssen Sie sie in einen [!DNL Amazon S3] Bucket hochladen. Informationen zum Hochladen von ID-Synchronisierungsdateien finden Sie unter [Senden von Batch-Daten an Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 

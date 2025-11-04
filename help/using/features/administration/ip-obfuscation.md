@@ -5,7 +5,7 @@ solution: Audience Manager
 title: Verschleierung von IP-Adressen
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Siehe auch Erfassen von IP-Adressen und Verschleierung von IP-Adressen in unsere
 
 ### Priorität der IP-Verschleierung {#precedence}
 
-[IP-Verschleierung auf Datenstromebene](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de#create) hat Vorrang vor allen in Audience Manager festgelegten IP-Verschleierungsoptionen und wird auf alle IP-Adressen angewendet. Die Option [!UICONTROL IP obfuscation] auf Datenstromebene wirkt sich auf alle von Audience Manager durchgeführten Geolokalisierungs-Suchen aus. Eine Geolokalisierung in Audience Manager, die auf einer vollständig verschleierten IP basiert, führt zu einer unbekannten Region, und alle Segmente, die auf den resultierenden Geolokalisierungsdaten basieren, werden nicht realisiert.
+[IP-Verschleierung auf Datenstromebene](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) hat Vorrang vor allen in Audience Manager festgelegten IP-Verschleierungsoptionen und wird auf alle IP-Adressen angewendet. Die Option [!UICONTROL IP obfuscation] auf Datenstromebene wirkt sich auf alle von Audience Manager durchgeführten Geolokalisierungs-Suchen aus. Eine Geolokalisierung in Audience Manager, die auf einer vollständig verschleierten IP basiert, führt zu einer unbekannten Region, und alle Segmente, die auf den resultierenden Geolokalisierungsdaten basieren, werden nicht realisiert.
 
 ## Anforderungen an die IP-Adressverschleierung {#ip-obfuscation-requirements}
 
@@ -62,4 +62,5 @@ Um die Verschleierung von IP-Adressen für bestimmte Länder zu deaktivieren, su
 
 * [Datenschutz](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Videodemonstration zur Verschleierung von IP-Adressen
->[!VIDEO](https://video.tv.adobe.com/v/34968?captions=ger)
+
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)

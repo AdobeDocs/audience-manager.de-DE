@@ -8,7 +8,7 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: e10211057a87622340fd2c61737c7c7a45c0e99c
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Alle diese Angaben sind optional, es sei denn, Sie wünschen eine Antwort von de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Deaktivieren Sie die Verwendung von Drittanbieter-Cookies, um die Vorschriften zum Schutz untergeordneter Elemente einzuhalten. Dieser Parameter wird vom Adobe Adobe Experience Platform Identity Service dynamisch festgelegt und hängt von der <code> idSyncDisable3rdPartySyncing</code> ab. Siehe <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=de" format="https" scope="external"> COPPA-Unterstützung im Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Deaktivieren Sie die Verwendung von Drittanbieter-Cookies, um die Vorschriften zum Schutz untergeordneter Elemente einzuhalten. Dieser Parameter wird vom Adobe Adobe Experience Platform Identity Service dynamisch festgelegt und hängt von der <code> idSyncDisable3rdPartySyncing</code> ab. Siehe <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA-Unterstützung im Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -90,14 +90,14 @@ Alle diese Angaben sind optional, es sei denn, Sie wünschen eine Antwort von de
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> gibt Segment-IDs für die Segmente zurück. </p> </li>
      </ul> </p> <p>Eine Beispielantwort könnte wie die folgende aussehen: </p> <p>
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
       &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ Alle diese Angaben sind optional, es sei denn, Sie wünschen eine Antwort von de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Gibt die Experience Cloud-ID an, die vom <span class="keyword"> Experience Cloud</span> ID-Service festgelegt und verwendet wird. Weitere Informationen zur ECID finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> von Cookies und Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>Gibt die Experience Cloud-ID an, die vom <span class="keyword"> Experience Cloud</span> ID-Service festgelegt und verwendet wird. Weitere Informationen zur ECID finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -150,12 +150,12 @@ Alle diese Angaben sind optional, es sei denn, Sie wünschen eine Antwort von de
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Wenn Sie dies einbeziehen, gibt <span class="wintitle"> DCS</span> ein <code> JSON</code> -Objekt im Hauptteil der Antwort zurück. Siehe folgendes Beispiel. Ihre Antwort könnte komplexer sein. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -194,8 +194,8 @@ Alle diese Angaben sind optional, es sei denn, Sie wünschen eine Antwort von de
 Diese Kopfzeilen enthalten Informationen wie Anfragen für Daten und Antworten in einem HTTP-Aufruf.
 
 | Attribut | Beschreibung |
-| --- | --- | 
-| `h_host` | Dieser wird auf den spezifischen Datenerfassungs-Host-Namen des Clients festgelegt. Es erscheint als `host name .demdex.net`. Siehe [Grundlegendes zu Aufrufen an die Domäne „demdex.net“](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de). |
+| --- | --- |
+| `h_host` | Dieser wird auf den spezifischen Datenerfassungs-Host-Namen des Clients festgelegt. Es erscheint als `host name .demdex.net`. Siehe [Grundlegendes zu Aufrufen an die Domäne „demdex.net“](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
 | `h_user-agent` | Auf den Wert der `User-Agent`-Kopfzeile festlegen. |
 | `h_accept-language` | Auf den Wert der `Accept-Language`-Kopfzeile festlegen. |
 | `h_referer` | Auf den Wert der `Referer`-Kopfzeile festlegen. |

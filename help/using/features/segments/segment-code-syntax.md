@@ -7,7 +7,7 @@ title: Im Segmentausdruck-Editor verwendete Code-Syntax
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 4%
@@ -44,9 +44,9 @@ Um Segmentgruppen zu erstellen, schließen Sie die Häufigkeitsfunktion in Klamm
 | Name oder Variable | Beschreibung |
 |---|---|
 | `FREQUENCY` | Ein Literal, das dem Ausdruck vorangehen muss. |
-| ` [`&lt;`traitID`>`T]` | Ein Array von Eigenschafts-IDs, gefolgt vom `T`. Trennen Sie mehrere Eigenschaften durch ein Komma. Beispiel: `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Optional)* Legt Neuheitsregeln für Eigenschaften im Segment fest. Der `D` zeigt die Neuigkeit in Tagen an. |
-| ` <Frequency Operator><Numeric Value>` | Legt Häufigkeitsregeln für Eigenschaften im Segment fest. |
+| `[`&lt;`traitID`>`T]` | Ein Array von Eigenschafts-IDs, gefolgt vom `T`. Trennen Sie mehrere Eigenschaften durch ein Komma. Beispiel: `[123T, 456T]`. |
+| `<Recency Operator><Numeric Value>D` | *(Optional)* Legt Neuheitsregeln für Eigenschaften im Segment fest. Der `D` zeigt die Neuigkeit in Tagen an. |
+| `<Frequency Operator><Numeric Value>` | Legt Häufigkeitsregeln für Eigenschaften im Segment fest. |
 
 ### Zulässige Operatoren für Neuigkeit und Häufigkeit
 

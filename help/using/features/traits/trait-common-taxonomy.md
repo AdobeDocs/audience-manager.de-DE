@@ -8,7 +8,7 @@ title: Klassifizieren von Eigenschaften mit einer gemeinsamen Taxonomie
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Die Möglichkeit für unsere Kunden, benutzerdefinierte Segmente und Datenmodell
 
 ## Die Taxonomie verwendet Klassifizierungskategorien nach Branchenstandard
 
-Die gemeinsame Taxonomie basiert auf den Klassifizierungen, die von der [!DNL Interactive Advertising Bureau (IAB)] erstellt wurden. Weitere Informationen über Qualitätssicherungsrichtlinien für [!DNL IAB] und [&#x200B; finden Sie auf der Website der &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
+Die gemeinsame Taxonomie basiert auf den Klassifizierungen, die von der [!DNL Interactive Advertising Bureau (IAB)] erstellt wurden. Weitere Informationen über Qualitätssicherungsrichtlinien für [!DNL IAB] und [ finden Sie auf der Website der ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
 
 ## taxonomische Organisation
 
@@ -39,7 +39,7 @@ Die [!DNL Audience Manager] Taxonomie organisiert Daten in verschachtelte Katego
 
 ## Klassifizieren von Eigenschaften in Datenkategorien
 
-Sie können beim Erstellen oder Bearbeiten von Eigenschaften in der [!UICONTROL Add New Trait Wizard] (in * **[!UICONTROL Audience Data > Traits]***) taxonomische Klassifizierungen zuweisen. Weitere Informationen finden Sie in der [Dokumentation &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md) Erstellen von Eigenschaften“.
+Sie können beim Erstellen oder Bearbeiten von Eigenschaften in der [!UICONTROL Add New Trait Wizard] (in ***[!UICONTROL Audience Data > Traits]***) taxonomische Klassifizierungen zuweisen. Weitere Informationen finden Sie in der [Dokumentation ](../../features/traits/create-onboarded-rule-based-traits.md) Erstellen von Eigenschaften“.
 
 ## Arbeiten mit der Taxonomie: Weitere Überlegungen
 

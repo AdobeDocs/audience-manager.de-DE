@@ -7,7 +7,7 @@ title: Datenexportkontrolle
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 26aa0a210a045b40b2329844324315a092947188
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## Überblick {#overview}
 
-[!UICONTROL Data Export Controls] können Sie [Datenquellen“ &#x200B;](../features/datasources-list-and-settings.md#data-sources-list-and-settings) &quot;[&quot; &#x200B;](../features/destinations/destinations.md). Die Klassifizierungen, die Sie anwenden, bestimmen, wann Daten an ein Ziel exportiert werden können oder nicht. Diese Funktion besteht aus:
+[!UICONTROL Data Export Controls] können Sie [Datenquellen“ ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) &quot;[&quot; ](../features/destinations/destinations.md). Die Klassifizierungen, die Sie anwenden, bestimmen, wann Daten an ein Ziel exportiert werden können oder nicht. Diese Funktion besteht aus:
 
 * **[!UICONTROL Data Export Controls]**: Sie können Datenexportsteuerelemente für (*)*. Wenn diese Steuerelemente für eine Datenquelle festgelegt sind, wird die Verwendung dieser Datenquelle und ihrer Eigenschaften eingeschränkt.
 * **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen für (*)*. Wenn sie für ein Ziel festgelegt werden, identifizieren diese Kennzeichnungen, wie das Ziel Daten verwendet. Unter [Hinzufügen von Datenexportkennzeichnungen zu einem Ziel](/help/using/features/destinations/add-data-export-labels.md) erfahren Sie, wie Sie einem Ziel Exportkennzeichnungen hinzufügen.
@@ -48,6 +48,7 @@ Darüber hinaus muss mindestens eine Exportkennzeichnung mit einer Exportsteueru
 >[!IMPORTANT]
 >
 >Sie können den Export eines Segments nicht blockieren, indem Sie ein Datenexportsteuerelement auf der Datenquelle des Segments platzieren. Sie müssen das Steuerelement auf eine der folgenden Optionen festlegen:
+>
 > * die Datenquellen der im Segment verwendeten Eigenschaften;
 > * Die vom Segment verwendete Profilzusammenführungsregel;
 > * Jede der Datenquellen, die die Profilzusammenführungsregel des Segments verwendet.

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Authentifizierung mit personenbasierten Plattformen
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -52,7 +52,9 @@ So fügen Sie E-Mail-Adressen zu vorhandenen Integrationen hinzu:
 Wenn ein Authentifizierungs-Token abläuft, wird die Integration zwischen Audience Manager und der entsprechenden Social-Media-Plattform unterbrochen, sodass Audience Manager keine Zielgruppensegmente mehr an das Ziel senden kann. Auf der Seite [!UICONTROL Integrated Accounts] wird in der Spalte [!UICONTROL Expiration] der Ablaufstatus jeder Integration angezeigt und Sie können die Authentifizierung jederzeit erneuern.
 
 So erneuern Sie eine abgelaufene oder demnächst ablaufende Authentifizierung:
+
 1. Melden Sie sich bei Ihrem Audience Manager-Konto an und gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.
 1. Identifizieren Sie die Integration, für die Sie die Authentifizierung erneuern müssen. Abgelaufene Authentifizierungen werden als [!UICONTROL Expired] gekennzeichnet, während Authentifizierungen, die bald ablaufen, die verbleibende Anzahl authentifizierter Tage anzeigen.
 1. Klicken Sie auf das entsprechende **[!UICONTROL Renew]** in der Spalte [!UICONTROL Expiration] . Dadurch wird der **[!UICONTROL Renew Account]** Workflow Trigger, der Sie zurück durch die Authentifizierungsseite der Social-Media-Plattform führt. Nach der Authentifizierung wird das Token mit dem neuen Ablaufdatum verlängert.
+
    ![PBD-RENEW](assets/pbd-renew.png)

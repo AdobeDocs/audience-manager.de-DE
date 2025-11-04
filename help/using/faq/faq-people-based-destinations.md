@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Häufig gestellte Fragen zu benutzerbezogenen Zielen
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 93%
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ Es gibt zwei Möglichkeiten, Ihre Offline-Daten für [!DNL People-Based Destinat
 
 **Kann ich Hash-E-Mail-Adressen über ein Webformular oder eine App erfassen oder müssen sie in einer Batch-Datei vorliegen?**
 
-Sie können Hash-E-Mail-Adressen durch Web-Authentifizierung mithilfe von [!DNL ECID] mit [deklarierten IDs](../features/declared-ids.md) erfassen. Mit der Batch-Datei können Sie auch Hash-E-Mail-Adressen erfassen, die nicht über eine Authentifizierung gesendet werden können (z. B. ruhende Benutzer in Ihrem ([!DNL CRM]), und sie in benutzerbezogenen Zielen aktivieren.
+Sie können Hash-E-Mail-Adressen durch Web-Authentifizierung mithilfe von [!DNL ECID] mit [deklarierten IDs](../features/declared-ids.md) erfassen. Mit der Batch-Datei können Sie auch gehashte E-Mail-Adressen erfassen, die nicht über die Authentifizierung gesendet werden können (z. B. inaktive Benutzer in Ihrer ([!DNL CRM])), und sie in personenbasierten Zielen aktivieren.
 
 **Wie unterscheidet sich die Erfassung von Hash-E-Mail-Adressen über Web-Formulare vom Hochladen von Hash-E-Mail-Adressen über Batch-Dateien?**
 
@@ -60,6 +60,7 @@ Ja. Kunden, die [!DNL People-Based Destinations] gekauft haben, erhalten außerd
 Das hängt von Ihrem Anwendungsfall ab. Wenn Sie planen, vorhandene Erstanbietersegmente in benutzerbezogenen Kanälen zu aktivieren, müssen Sie keine neuen Segmente erstellen. Sie können die Segmente einfach einem benutzerbezogenen Ziel zuordnen.
 
 Wenn Sie planen, neue Offline-Zielgruppen in benutzerbezogenen Kanälen zu aktivieren, müssen Sie neue Erstanbietersegmente mithilfe der Zusammenführungsrichtlinie [!DNL All Cross-Device Profiles] erstellen.
+
 >[!NOTE]
 >
 > Sie können [!DNL People-Based Destinations] nur Segmente mit Erstanbieter-Daten zuordnen. Unsere Zielplattformen akzeptieren keine Segmente mit Daten von Zweit- und Drittanbietern.
@@ -72,7 +73,7 @@ Nein. Beim Senden von Zielgruppensegmenten an [!DNL People-Based Destinations] e
 
 **Wie würden die Übereinstimmungsraten unter Verwendung von [!DNL People-Based Destinations] theoretisch im Vergleich zu anderen Methoden zum Senden von Zielgruppen an Zielplattformen aussehen?**
 
-Solange die E-Mail-Adresse richtig gehashed und erfasst wird, sollte es keinen Unterschied in der Übereinstimmungsrate zwischen [!DNL People-Based Destinations] und anderen Methoden geben. Der einzige Grund, warum eine Übereinstimmungsrate unter 100 % liegt, ist, dass die in Audience Manager eingebrachten E-Mail-Adressen nicht mit einer E-Mail-Adresse in der Benutzerbasis der Zielplattform übereinstimmen können.
+Solange die E-Mail-Adresse richtig gehashed und erfasst wird, sollte es keinen Unterschied in der Übereinstimmungsrate zwischen [!DNL People-Based Destinations] und anderen Methoden geben. Der einzige Grund, warum eine Übereinstimmungsrate unter 100 % liegen würde, ist, dass die E-Mail-Adressen, die in Audience Manager importiert werden, nicht mit einer E-Mail-Adresse in der Benutzerbasis der Zielplattform abgeglichen werden können.
 
 **Ich erfasse die geschäftlichen E-Mail-Adressen meiner Kunden, die sich von den in sozialen Netzwerken verwendeten persönlichen E-Mail-Adressen unterscheiden. Wie ordnet man Identitäten über mehrere E-Mail-Adressen hinweg zu?**
 
@@ -106,13 +107,13 @@ Bevor Sie [!DNL People-Based Destinations] verwenden können, um Zielgruppensegm
 
 **Unterstützt [!DNL People-Based Destinations] die Zielgruppenbestimmung in anderen [!DNL Facebook]-Apps wie z. B. [!DNL Instagram]?**
 
-Sie können [!DNL People-Based Destinations] für die gesamte Familie von [!DNL Facebook]-Apps verwenden, die von [!DNL Custom Audiences] unterstützt werden, einschließlich [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] und [!DNL Messenger]. Die Auswahl der App, für die Sie die Kampagne ausführen möchten, wird auf der Platzierungsebene in [!DNL Facebook Ads Manager] angezeigt.
+Sie können [!DNL People-Based Destinations] in der gesamten Familie der von [!DNL Facebook] unterstützten Apps von [!DNL Custom Audiences] verwenden, einschließlich [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] und [!DNL Messenger]. Die Auswahl der App, für die Sie die Kampagne ausführen möchten, wird auf der Platzierungsebene in [!DNL Facebook Ads Manager] angezeigt.
 
-**Was ist der Unterschied zwischen [!DNL People-Based Destinations] und [!DNL Website Custom Audiences]?**
+**Was ist der Unterschied zwischen [!DNL People-Based Destinations] und [!DNL Website Custom Audiences]?**
 
 [!DNL People-Based Destinations] nutzt die Integration von [!DNL Custom Audiences (CA)] mit [!DNL Facebook]. Der Unterschied zwischen [!DNL WCA]-und [!DNL CA]-Integrationen ist der Schlüssel, den Kunden beim Senden von Zielgruppen an [!DNL Facebook] verwenden. [!DNL WCA] verwendet das [!DNL Facebook]-Pixel (d. h. eine Website-Benutzer-ID), während [!DNL People-Based Destinations] Hash-E-Mail-Adressen zur Integration mit [!DNL CA] verwenden.
 
-Sie können die [!DNL Facebook] [!DNL WCA]-Integration von Audience Manager über die [!DNL URL Destinations]-Funktion ohne zusätzliche Kosten nutzen.
+Sie können die [!DNL Facebook] [!DNL WCA]-Integration von Audience Manager ohne zusätzliche Kosten über die [!DNL URL Destinations]-Funktion verwenden.
 
 Diese beiden Integrationen ergänzen sich. Sie können beide verwenden, um eine bessere Zielgruppenabdeckung sicherzustellen. Beispielsweise kann [!DNL WCA] für die Identifizierung von potenziellen Kunden verwendet werden, wenn eine Firma Website-Besuchern ansprechen möchte, die noch kein Konto registriert haben, während [!DNL People-Based Destinations] Ihnen beim Ansprechen bestehender Kunden helfen können, die ihre E-Mail-Adresse angegeben, aber möglicherweise nicht die Website besucht haben.
 

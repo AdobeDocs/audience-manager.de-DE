@@ -8,7 +8,7 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: Aufschlüsselung des Identitätstyps, Identitätsaufschlüsselung, Berichte zur Zielgruppen-Identität, geräteübergreifend, geräteübergreifende ID, Geräte-ID
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -36,11 +36,11 @@ Oben auf der Seite mit den Segmentdetails befinden sich die Tools, mit denen Sie
 Unter den Tools für die Segmentverwaltung finden Sie die folgenden Segmentinformationen:
 
 1. **[!UICONTROL Basic Information]:** Zeigt die erforderlichen und optionalen Details an, die beim Erstellen des Segments angegeben wurden. Unter [Segment Builder](segment-builder.md) finden Sie einen detaillierten Überblick darüber, was diese Felder bedeuten.
-2. **[!UICONTROL Segment Graph]:** Zeigt Leistungsdaten grafisch und für feste Intervalle von 1, 7, 14, 30, 60 und 90 Tagen an. Die Zahlen der Segmentpopulation werden in einem [&#x200B; Artikel &#x200B;](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Segment Graph]:** Zeigt Leistungsdaten grafisch und für feste Intervalle von 1, 7, 14, 30, 60 und 90 Tagen an. Die Zahlen der Segmentpopulation werden in einem [ Artikel ](../../features/segments/segment-builder-data.md).
 
    ![segments-graph](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown]:** Der Bericht zeigt die Anzahl der Personen oder Haushalte an, die für ein Segment qualifiziert sind, indem die Anzahl der geräteübergreifenden und/oder externen Gerätediagramm-IDs gezählt wird, die mit den Geräten verknüpft sind, die für das Segment qualifiziert sind (angezeigt durch die [!UICONTROL Total Segment Population]). Die in diesem Bericht angezeigten geräteübergreifenden IDs und externen Gerätediagramm-IDs werden verwendet, um Profile mit der Profilzusammenführungsregel zusammenzuführen, die das Segment verwendet. Dieser Bericht wird nur angezeigt, wenn Sie in der vom Segment verwendeten Profilzusammenführungsregel eine geräteübergreifende Datenquelle oder ein externes Gerätediagramm ausgewählt haben.
+1. **[!UICONTROL Identity Type Breakdown]:** Der Bericht zeigt die Anzahl der Personen oder Haushalte an, die für ein Segment qualifiziert sind, indem die Anzahl der geräteübergreifenden und/oder externen Gerätediagramm-IDs gezählt wird, die mit den Geräten verknüpft sind, die für das Segment qualifiziert sind (angezeigt durch die [!UICONTROL Total Segment Population]). Die in diesem Bericht angezeigten geräteübergreifenden IDs und externen Gerätediagramm-IDs werden verwendet, um Profile mit der Profilzusammenführungsregel zusammenzuführen, die das Segment verwendet. Dieser Bericht wird nur angezeigt, wenn Sie in der vom Segment verwendeten Profilzusammenführungsregel eine geräteübergreifende Datenquelle oder ein externes Gerätediagramm ausgewählt haben.
 
    ![segments-graph](assets/segment-type.png)
 
@@ -49,8 +49,9 @@ Unter den Tools für die Segmentverwaltung finden Sie die folgenden Segmentinfor
    >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] nur an, wenn geräteübergreifende IDs für das Segment qualifiziert sind.
 
    Sehen Sie sich das folgende Video an, um einen Überblick über [!UICONTROL Identity Type Breakdown] zu erhalten.
-   >[!VIDEO](https://video.tv.adobe.com/v/32712?captions=ger)
 
-4. **[!UICONTROL Segment Rules]:** Listet Merkmale im Segment zusammen mit Qualifizierungsregeln auf.
-5. **[!UICONTROL Destination Mappings]:** Listet Zielzuordnungen für das Segment auf.
-6. **[!UICONTROL Management Tools]:** Steuerelemente zum Erstellen, Bearbeiten, Klonen und Löschen von Segmenten.
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+
+1. **[!UICONTROL Segment Rules]:** Listet Merkmale im Segment zusammen mit Qualifizierungsregeln auf.
+1. **[!UICONTROL Destination Mappings]:** Listet Zielzuordnungen für das Segment auf.
+1. **[!UICONTROL Management Tools]:** Steuerelemente zum Erstellen, Bearbeiten, Klonen und Löschen von Segmenten.
