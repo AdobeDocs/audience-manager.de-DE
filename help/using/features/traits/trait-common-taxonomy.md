@@ -31,7 +31,7 @@ Die Möglichkeit für unsere Kunden, benutzerdefinierte Segmente und Datenmodell
 
 ## Die Taxonomie verwendet Klassifizierungskategorien nach Branchenstandard
 
-Die gemeinsame Taxonomie basiert auf den Klassifizierungen, die von der [!DNL Interactive Advertising Bureau (IAB)] erstellt wurden. Weitere Informationen über Qualitätssicherungsrichtlinien für [!DNL IAB] und [ finden Sie auf der Website der ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
+Die gemeinsame Taxonomie basiert auf den Klassifizierungen, die von der [!DNL Interactive Advertising Bureau (IAB)] erstellt wurden. Weitere Informationen über Qualitätssicherungsrichtlinien für [!DNL IAB] und [&#x200B; finden Sie auf der Website der &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
 
 ## taxonomische Organisation
 
@@ -39,7 +39,7 @@ Die [!DNL Audience Manager] Taxonomie organisiert Daten in verschachtelte Katego
 
 ## Klassifizieren von Eigenschaften in Datenkategorien
 
-Sie können beim Erstellen oder Bearbeiten von Eigenschaften in der [!UICONTROL Add New Trait Wizard] (in ***[!UICONTROL Audience Data > Traits]***) taxonomische Klassifizierungen zuweisen. Weitere Informationen finden Sie in der [Dokumentation ](../../features/traits/create-onboarded-rule-based-traits.md) Erstellen von Eigenschaften“.
+Sie können beim Erstellen oder Bearbeiten von Eigenschaften in der [!UICONTROL Add New Trait Wizard] (in ***[!UICONTROL Audience Data > Traits]***) taxonomische Klassifizierungen zuweisen. Weitere Informationen finden Sie in der [Dokumentation &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md) Erstellen von Eigenschaften“.
 
 ## Arbeiten mit der Taxonomie: Weitere Überlegungen
 

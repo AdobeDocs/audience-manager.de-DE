@@ -36,7 +36,7 @@ Oben auf der Seite mit den Segmentdetails befinden sich die Tools, mit denen Sie
 Unter den Tools für die Segmentverwaltung finden Sie die folgenden Segmentinformationen:
 
 1. **[!UICONTROL Basic Information]:** Zeigt die erforderlichen und optionalen Details an, die beim Erstellen des Segments angegeben wurden. Unter [Segment Builder](segment-builder.md) finden Sie einen detaillierten Überblick darüber, was diese Felder bedeuten.
-1. **[!UICONTROL Segment Graph]:** Zeigt Leistungsdaten grafisch und für feste Intervalle von 1, 7, 14, 30, 60 und 90 Tagen an. Die Zahlen der Segmentpopulation werden in einem [ Artikel ](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Segment Graph]:** Zeigt Leistungsdaten grafisch und für feste Intervalle von 1, 7, 14, 30, 60 und 90 Tagen an. Die Zahlen der Segmentpopulation werden in einem [&#x200B; Artikel &#x200B;](../../features/segments/segment-builder-data.md).
 
    ![segments-graph](assets/segment-graph.png)
 

@@ -98,7 +98,7 @@ Sehen Sie sich das folgende Video an, um ein Video-Tutorial zum Erstellen einer 
 
 >[!IMPORTANT]
 >
-> Dieser Schritt gilt nur für [ oben ](people-based-destinations-workflow-offline.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 4: Erstellen einer Profilzusammenführungsregel für die Segmentierung](#create-profile-merge-rule) fort.
+> Dieser Schritt gilt nur für [&#x200B; oben &#x200B;](people-based-destinations-workflow-offline.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 4: Erstellen einer Profilzusammenführungsregel für die Segmentierung](#create-profile-merge-rule) fort.
 
 Nehmen wir an, Sie möchten Ihre bestehenden [DPUUIDs](../../reference/ids-in-aam.md) aus dem Beispiel in Schritt 1 mit den Hash-E-Mail-Adressen aus der unten stehenden Tabelle (rechte Spalte) abgleichen und die Hash-E-Mail-Adressen in der neuen Datenquelle speichern, die Sie unter [Schritt 2 - Einstellungen für Data Source konfigurieren](#configure-data-source-settings) erstellt haben.
 
@@ -136,7 +136,7 @@ Die [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-da
 Im obigen Beispiel würde der Dateiname wie folgt aussehen:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Laden Sie hier die Beispieldatei ](assets/c2c_id_999999_987654_1560431657.sync).
+[Laden Sie hier die Beispieldatei &#x200B;](assets/c2c_id_999999_987654_1560431657.sync).
 
 Nachdem Sie Ihre ID-Synchronisierungsdatei erstellt haben, müssen Sie sie in einen [!DNL Amazon S3] Bucket hochladen. Informationen zum Hochladen von ID-Synchronisierungsdateien finden Sie unter [Senden von Batch-Daten an Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
