@@ -63,16 +63,16 @@ Gehen Sie wie folgt vor, um [!DNL OAuth Server-to-Server] Authentifizierung mith
 
 1. Melden Sie sich bei der [Adobe Developer Console](https://developer.adobe.com/console/home) an.
 1. Führen Sie die Schritte im [Handbuch zur Implementierung von OAuth-Server-zu-Server-Anmeldeinformationen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) aus.
-   * Wählen Sie [ Schritt 2: Hinzufügen einer API zu Ihrem Projekt mithilfe der Authentifizierung ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Service-Kontos die Option [!DNL Audience Manager] [!DNL API] .
+   * Wählen Sie [&#x200B; Schritt 2: Hinzufügen einer API zu Ihrem Projekt mithilfe der Authentifizierung &#x200B;](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Service-Kontos die Option [!DNL Audience Manager] [!DNL API] .
 1. Probieren Sie die Verbindung aus, indem Sie Ihren ersten [!DNL API]-Aufruf auf der Grundlage der Anweisungen aus [Schritt 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) ausführen.
 
 >[!NOTE]
 >
->Um die [!DNL Audience Manager]-[!DNL REST APIs] automatisch zu konfigurieren und zu verwenden, können Sie Client-Geheimnisse programmgesteuert rotieren. Detaillierte Anweisungen finden [ in ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) Entwicklerdokumentation .
+>Um die [!DNL Audience Manager]-[!DNL REST APIs] automatisch zu konfigurieren und zu verwenden, können Sie Client-Geheimnisse programmgesteuert rotieren. Detaillierte Anweisungen finden [&#x200B; in &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) Entwicklerdokumentation .
 
 ### Hinzufügen der Audience Manager-API zu einem Projekt {#add-aam-api-to-project}
 
-Wechseln Sie zu [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) und melden Sie sich mit Ihrer Adobe ID an. Führen Sie anschließend die Schritte aus, die im Tutorial zum [ eines leeren Projekts in ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) Dokumentation zu Adobe Developer Console beschrieben werden.
+Wechseln Sie zu [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) und melden Sie sich mit Ihrer Adobe ID an. Führen Sie anschließend die Schritte aus, die im Tutorial zum [&#x200B; eines leeren Projekts in &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) Dokumentation zu Adobe Developer Console beschrieben werden.
 
 Nachdem Sie ein neues Projekt erstellt haben, wählen Sie **[!UICONTROL Add API]** auf dem Bildschirm **[!UICONTROL Project Overview]** aus.
 
@@ -88,7 +88,7 @@ Der Bildschirm **[!UICONTROL Add an API]** wird angezeigt. Klicken Sie auf das P
 
 >[!TIP]
 >
->Wählen Sie die Option **[!UICONTROL View docs]** aus, um in einem separaten Browserfenster zur vollständigen [Audience Manager API-Referenzdokumentation zu ](https://bank.demdex.com/portal/swagger/index.html#).
+>Wählen Sie die Option **[!UICONTROL View docs]** aus, um in einem separaten Browserfenster zur vollständigen [Audience Manager API-Referenzdokumentation zu &#x200B;](https://bank.demdex.com/portal/swagger/index.html#).
 
 ### Wählen Sie den Authentifizierungstyp OAuth Server-zu-Server aus {#select-oauth-server-to-server}
 
@@ -132,7 +132,7 @@ Nachdem Sie Ihr Authentifizierungs-Bearer-Token abgerufen haben, führen Sie ein
 
    ![Autorisieren von API-Aufrufen](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. Führen Sie einen GET-Aufruf an den `/datasources`-API-Endpunkt durch, um eine Liste aller global verfügbaren Datenquellen abzurufen, wie in der [API-Referenzdokumentation“ ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Wählen Sie **[!UICONTROL Try it out]** und dann **[!UICONTROL Execute]** aus, wie unten dargestellt.
+3. Führen Sie einen GET-Aufruf an den `/datasources`-API-Endpunkt durch, um eine Liste aller global verfügbaren Datenquellen abzurufen, wie in der [API-Referenzdokumentation“ &#x200B;](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Wählen Sie **[!UICONTROL Try it out]** und dann **[!UICONTROL Execute]** aus, wie unten dargestellt.
 
    ![API-Aufrufe durchführen](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
@@ -231,12 +231,12 @@ Gehen Sie wie folgt vor, um [!DNL JWT (Service Account)] Authentifizierung mithi
 
 1. Melden Sie sich bei der [Adobe Developer Console](https://console.adobe.io/) an.
 1. Führen Sie die Schritte unter [Service-Kontoverbindung](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) aus.
-   * Wählen Sie [ Schritt 2: Hinzufügen einer API zu Ihrem Projekt mithilfe der Authentifizierung ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Service-Kontos die Option [!DNL Audience Manager] [!DNL API] .
+   * Wählen Sie [&#x200B; Schritt 2: Hinzufügen einer API zu Ihrem Projekt mithilfe der Authentifizierung &#x200B;](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Service-Kontos die Option [!DNL Audience Manager] [!DNL API] .
 1. Probieren Sie die Verbindung aus, indem Sie Ihren ersten [!DNL API]-Aufruf auf der Grundlage der Anweisungen aus [Schritt 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) ausführen.
 
 >[!NOTE]
 >
->Um die [!DNL Audience Manager]-[!DNL REST APIs] automatisch zu konfigurieren und zu verwenden, können Sie die [!DNL JWT] programmgesteuert generieren. Detaillierte Anweisungen finden [ unter „JWT](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)Authentifizierung (Service-Konto)“.
+>Um die [!DNL Audience Manager]-[!DNL REST APIs] automatisch zu konfigurieren und zu verwenden, können Sie die [!DNL JWT] programmgesteuert generieren. Detaillierte Anweisungen finden [&#x200B; unter „JWT](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)Authentifizierung (Service-Konto)“.
 
 ### RBAC-Berechtigungen für technisches Konto
 
@@ -248,7 +248,7 @@ Gehen Sie wie folgt vor, um ein technisches Benutzerkonto zu erstellen und es ei
 
    ![Technisches Konto](assets/technical-account.png)
 
-1. Melden Sie sich bei Ihrem Audience Manager-[ an und fügen Sie der Benutzergruppe](../../features/administration/administration-overview.md#create-group) die die API-Aufrufe durchführt, das technische Benutzerkonto hinzu.
+1. Melden Sie sich bei Ihrem Audience Manager-[&#x200B; an und fügen Sie der Benutzergruppe](../../features/administration/administration-overview.md#create-group) die die API-Aufrufe durchführt, das technische Benutzerkonto hinzu.
 
 +++
 
@@ -270,7 +270,7 @@ Es wird empfohlen, ein separates technisches Benutzerkonto für die Arbeit mit d
 * Ermitteln Sie, welcher Service die [!DNL API] aufruft (z. B. Aufrufe von Ihren Apps, die unsere [!DNL API] verwenden, oder von anderen Tools, die [!DNL API] Anfragen stellen).
 * Ununterbrochener Zugriff auf die [!DNL API]s. Ein Konto, das mit einer bestimmten Person verknüpft ist, kann gelöscht werden, wenn diese Person Ihr Unternehmen verlässt. Dadurch wird verhindert, dass Sie mit dem verfügbaren [!DNL API]-Code arbeiten. Ein generisches Konto, das nicht an einen bestimmten Mitarbeiter gebunden ist, hilft Ihnen, dieses Problem zu vermeiden.
 
-Angenommen, Sie möchten mit den „Tools für die Massenverwaltung“ viele Segmente gleichzeitig ändern, [ Beispiel für diesen Kontotyp](../../reference/bulk-management-tools/bulk-management-intro.md). Dazu benötigt Ihr Benutzerkonto [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn Sie Ihre eigenen Anwendungen entwickeln, die die [!DNL Audience Manager] der [!DNL API] verwenden.
+Angenommen, Sie möchten mit den „Tools für die Massenverwaltung“ viele Segmente gleichzeitig ändern, [&#x200B; Beispiel für diesen Kontotyp](../../reference/bulk-management-tools/bulk-management-intro.md). Dazu benötigt Ihr Benutzerkonto [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn Sie Ihre eigenen Anwendungen entwickeln, die die [!DNL Audience Manager] der [!DNL API] verwenden.
 
 Arbeiten Sie mit Ihrem [!DNL Audience Manager] Berater zusammen, um ein generisches, [!DNL API] Benutzerkonto einzurichten.
 
@@ -402,7 +402,7 @@ In der folgenden Tabelle sind die [!DNL URLs] aufgeführt, die zum Übergeben vo
 
 Je nach der von Ihnen verwendeten Authentifizierungsmethode müssen Sie Ihre [!DNL URLs] entsprechend den folgenden Tabellen anpassen.
 
-### [!DNL URLs] für die OAuth[!BADGE Server-zu-Server-Authentifizierung ]{type=positive}empfohlen) und die [!BADGE -Authentifizierung ]{type=negative}veraltet[!DNL JWT] über Adobe Developer {#request-urls-jwt}
+### [!DNL URLs] für die OAuth[!BADGE Server-zu-Server-Authentifizierung &#x200B;]{type=positive}empfohlen) und die [!BADGE -Authentifizierung &#x200B;]{type=negative}veraltet[!DNL JWT] über Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] | [!DNL URL] anfordern |
 |--- |--- |
