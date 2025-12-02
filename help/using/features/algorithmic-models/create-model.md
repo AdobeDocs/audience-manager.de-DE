@@ -8,9 +8,9 @@ title: Erstellen eines algorithmischen Modells
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 6956793aa8d31d16a7add648b8d205dec6f75202
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um eine [!UICONTROL Look-Alike Model] zu erstellen:
 
 Sehen Sie sich das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=de)
+[Verstehen geräteübergreifender Metriken in Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Grundlegende Informationen für algorithmische Modelle {#basic-information}
 
@@ -111,7 +111,7 @@ Füllen Sie zuerst die erforderlichen Felder im Abschnitt [!UICONTROL Basic Info
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie ein Look-alike-Modell für Erstanbieter erstellen, sodass Sie mehr eigene Besucher finden können, die wie Ihre Konverter aussehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/328071?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

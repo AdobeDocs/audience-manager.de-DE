@@ -7,9 +7,9 @@ title: Trendberichte
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: General & Trend Reports
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 42f9b32edcde423369f7e8254b04fdc6162130d0
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Nullen geben an, dass [!DNL Audience Manager] keine Daten für diesen Tag erfass
 
 Sehen Sie sich das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=de)
+[Verstehen geräteübergreifender Metriken in Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Trend-Berichtsergebnisse für Segmente {#segment-report-results-traits}
 
