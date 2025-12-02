@@ -101,7 +101,7 @@ Nullen geben an, dass [!DNL Audience Manager] keine Daten für diesen Tag erfass
 
 Sehen Sie sich das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
 
-[Verstehen geräteübergreifender Metriken in Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Verstehen geräteübergreifender Metriken in Audience Manager](https://experienceleague.adobe.com/de/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Trend-Berichtsergebnisse für Segmente {#segment-report-results-traits}
 
