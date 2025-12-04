@@ -4,7 +4,7 @@ title: DCS-Fehler-Codes, Meldungen und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 2012c244f6fa5ca01c7e2719ce621214cb22f93e
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 3%
@@ -23,7 +23,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
 |---|---|---|
 | 0 | Nicht spezifizierter Fehler | Dies ist ein Fehler, der alle Fehler erfasst und Ereignisse behandelt, die nicht von den anderen Fehler-Handlern abgedeckt werden. Die Fehlerbehebung für diesen Fehler ist schwierig. Sie kann durch eine Vielzahl von unbekannten Aktionen oder Ereignissen verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie Ihre [!DNL DCS] erneut. Wenden Sie sich an den [!DNL Adobe], wenn das Problem weiterhin besteht. |
 | 1 | Konfiguration für Host-Namen wurde nicht gefunden: `hostname` | Der in der Anfrage gesendete Hostname wurde nicht von unserem Partner-Bereitstellungs-Team eingerichtet. Wenden Sie sich an den [!DNL Adobe], wenn diese Fehlermeldung angezeigt wird. |
-| 2 | Ungültiger `d_orgid` (für diese Organisations-ID wurde keine Konfiguration gefunden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Administrationsseite“ [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de) Informationen dazu, wie Sie sie finden. |
+| 2 | Ungültiger `d_orgid` (für diese Organisations-ID wurde keine Konfiguration gefunden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Administrationsseite“ [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) Informationen dazu, wie Sie sie finden. |
 | 10 | Eigenschaften können nicht ausgewertet werden | Die Eigenschaften in der Anfrage wurden entweder teilweise oder gar nicht ausgewertet. Wenden Sie sich an den [!DNL Adobe], wenn das Problem weiterhin besteht. |
 
 ## Fehler-Codes für die Integration {#integration-error-codes}
@@ -151,7 +151,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>Nicht autorisierte Kunden-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht der aktuellen Organisations-ID gehört. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Suchen Ihrer Organisations-ID“ in <a href="https://experiencecloud.adobe.com/resources/help/de_DE/mcloud/organizations.html" format="https" scope="external"> Organisations- und </a> Informationen darüber, wie Sie sie finden. </p> </td> 
+   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht der aktuellen Organisations-ID gehört. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Suchen Ihrer Organisations-ID“ in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organisations- und </a> Informationen darüber, wie Sie sie finden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -181,7 +181,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Kunden-ID wurde verworfen, da sie das Limit für einen bestimmten Namespace überschritten hat. Namespace-ID ist <code><i>ID</i></code>, Kunden-ID ist <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Dieser Fehler-Code wird zurückgegeben, wenn bei einem <code> DPID</code> DCS<span class="wintitle">-Aufruf mehr als 3 Kunden-IDs für denselben Namespace (</span>) deklariert sind. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>In diesem Beispiel <span class="wintitle"> DCS</span>-Anfrage gibt es vier IDs, die für denselben Namespace deklariert wurden (mit dem Integrations-Code eins). Eine der IDs wird verworfen und der Fehler 310 wird zurückgegeben. </p> </td> 
+   <td colname="col3"> <p>Dieser Fehler-Code wird zurückgegeben, wenn bei einem <code> DPID</code> DCS<span class="wintitle">-Aufruf mehr als 3 Kunden-IDs für denselben Namespace (</span>) deklariert sind. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In diesem Beispiel <span class="wintitle"> DCS</span>-Anfrage gibt es vier IDs, die für denselben Namespace deklariert wurden (mit dem Integrations-Code eins). Eine der IDs wird verworfen und der Fehler 310 wird zurückgegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Anfrage enthält eine ungültige globale Geräte-ID </p> </td> 
    <td colname="col3"> <p>Der <span class="wintitle">DCS</span> gibt diesen Fehlercode zurück, wenn die Anfrage eine ungültige globale Geräte-ID enthält. DCS ignoriert die ungültige ID und gibt einen 312-Fehler zusammen mit den spezifischen Fehlern der ungültigen ID aus. Unter <a href="../../../features/global-data-sources.md" format="dita" scope="local">Globale Datenquellen</a> und <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">ID-Index in Audience Manager</a> finden Sie detaillierte Informationen zu den richtigen Gerätewerbe-ID-Formaten und den entsprechenden globalen Datenquellen.</p>
-   <p>Beispiel für einen falschen Aufruf: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Beispiel für einen falschen Aufruf: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Erklärung: Eine <span class="keyword">IDFA (DPID 20915)</span> muss eine ID in Großbuchstaben sein. Die in der Anfrage angegebene ID ist Kleinbuchstaben.</p>
    </td>
   </tr>
@@ -213,8 +213,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
    <td colname="col3"> <p>Wenn kein Einverständnis erteilt wird, verhindert das Audience Manager-Plug-in für IAB TCF, dass Benutzende weitere Daten erfassen, oder löscht den Aufruf vollständig, wenn kein Partnerkontext erkannt wurde.</p>
    </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
 ## Beispiele für Fehlercode-Meldungen {#sample-error-codes}
