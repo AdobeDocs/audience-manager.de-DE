@@ -4,9 +4,9 @@ title: DCS-Fehler-Codes, Meldungen und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 2012c244f6fa5ca01c7e2719ce621214cb22f93e
+source-git-commit: f8ba09b674b71045e08f6d171471cdcdd0efb265
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1519'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
 |---|---|---|
 | 0 | Nicht spezifizierter Fehler | Dies ist ein Fehler, der alle Fehler erfasst und Ereignisse behandelt, die nicht von den anderen Fehler-Handlern abgedeckt werden. Die Fehlerbehebung für diesen Fehler ist schwierig. Sie kann durch eine Vielzahl von unbekannten Aktionen oder Ereignissen verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie Ihre [!DNL DCS] erneut. Wenden Sie sich an den [!DNL Adobe], wenn das Problem weiterhin besteht. |
 | 1 | Konfiguration für Host-Namen wurde nicht gefunden: `hostname` | Der in der Anfrage gesendete Hostname wurde nicht von unserem Partner-Bereitstellungs-Team eingerichtet. Wenden Sie sich an den [!DNL Adobe], wenn diese Fehlermeldung angezeigt wird. |
-| 2 | Ungültiger `d_orgid` (für diese Organisations-ID wurde keine Konfiguration gefunden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Administrationsseite“ [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de) Informationen dazu, wie Sie sie finden. |
+| 2 | Ungültiger `d_orgid` (für diese Organisations-ID wurde keine Konfiguration gefunden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Administrationsseite“ [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) Informationen dazu, wie Sie sie finden. |
 | 10 | Eigenschaften können nicht ausgewertet werden | Die Eigenschaften in der Anfrage wurden entweder teilweise oder gar nicht ausgewertet. Wenden Sie sich an den [!DNL Adobe], wenn das Problem weiterhin besteht. |
 
 ## Fehler-Codes für die Integration {#integration-error-codes}
@@ -129,92 +129,22 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
 
 ## Warncodes für die Integration {#integration-warning-codes}
 
-<table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Code-ID </th> 
-   <th colname="col2" class="entry"> Nachricht </th> 
-   <th colname="col3" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>Ungültige Kunden-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Die Kunden-ID ist ungültig (fehlende Werte für die Datenquelle, fehlende Integrations-Codes, ungültiges Format für Datenquellen, blockierte Kunden-ID, leere Kunden-ID, nicht autorisierter Zugriffsversuch auf eine Datenquelle, die nicht zum Partner gehört). </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Maximale Anzahl von Kunden-IDs überschritten. Maximal zulässig ist <code><i>maximum allowed</i></code>. Gefunden wurde <code><i>maximum found</i></code>.</p> </td> 
-   <td colname="col3"> <p>Die Anzahl der mit einer geräteübergreifenden Datenquelle verknüpften Kunden-IDs überschreitet die zulässige Anzahl geräteübergreifender IDs pro Anfrage. Zu diesen IDs gehören geräteübergreifende, mobile oder Cookie-IDs. Das Limit ist derzeit auf 10 festgelegt. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Nicht autorisierte Kunden-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht der aktuellen Organisations-ID gehört. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Suchen Ihrer Organisations-ID“ in <a href="https://experiencecloud.adobe.com/resources/help/de_DE/mcloud/organizations.html" format="https" scope="external"> Organisations- und </a> Informationen darüber, wie Sie sie finden. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>Blockierte Kunden-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Kunden-ID als bösartig identifiziert und einer Blockierungsliste hinzugefügt wurde. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>Blockierte Datenquelle-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wird zurückgegeben, wenn die Datenquellen-ID als bösartig identifiziert und einer Blockierungsliste hinzugefügt wurde </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Blockierte deklarierte Geräte-ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Die Geräte-ID wurde als bösartig identifiziert und einer Blockierungsliste hinzugefügt. Dies kann passieren, wenn wir in kurzer Zeit extrem viele <span class="wintitle"> DCS</span>-Anfragen mit dieser Geräte-ID erhalten. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Blockierter Profilvorgang für <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Eine Lese-/Schreibaktion wurde blockiert, da eine ID als bösartig erkannt und einer Blockierungsliste hinzugefügt wurde. Siehe Fehlercode 306. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>Kunden-ID <code><i>ID</i></code> wurde verworfen, da sie das Limit von deklarierten Kunden-IDs pro Anfrage überschritten hat </p> </td> 
-   <td colname="col3"> <p>Bezieht sich auf Fehler 301. Dieser Fehler gibt an, welche Kunden-ID verworfen wurde, da das Limit überschritten wurde. </p> <p>Wenn beispielsweise 12 Kunden-IDs im Aufruf <span class="wintitle"> DCS</span> deklariert sind, werden zwei von ihnen verworfen. Um weiterzuleiten, welche verworfen wurden, wird dieser Fehler zweimal in der Antwort angezeigt (einmal für jede verworfene Kunden-ID ). </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>Kunden-ID wurde verworfen, da sie das Limit für einen bestimmten Namespace überschritten hat. Namespace-ID ist <code><i>ID</i></code>, Kunden-ID ist <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Dieser Fehler-Code wird zurückgegeben, wenn bei einem <code> DPID</code> DCS<span class="wintitle">-Aufruf mehr als 3 Kunden-IDs für denselben Namespace (</span>) deklariert sind. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>In diesem Beispiel <span class="wintitle"> DCS</span>-Anfrage gibt es vier IDs, die für denselben Namespace deklariert wurden (mit dem Integrations-Code eins). Eine der IDs wird verworfen und der Fehler 310 wird zurückgegeben. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>311 </p> </td> 
-   <td colname="col2"> <p>Anfrage enthält ungültige Parameter </p> </td> 
-   <td colname="col3"> <p>Der <span class="wintitle"> DCS</span> gibt diesen Fehlercode zurück, wenn mindestens ein URL-Parameter nicht ordnungsgemäß codiert ist. In diesem Fall ignoriert der <span class="wintitle"> DCS</span> die gesamte Anfrage. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>In der obigen Beispielanfrage ist die <code> %</code> falsch codiert. Folglich wird das <span class="wintitle"> DCS</span> sie ignorieren. </p> <p>Das korrekt codierte Beispiel sollte wie folgt aussehen: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>312 </p> </td> 
-   <td colname="col2"> <p>Anfrage enthält eine ungültige globale Geräte-ID </p> </td> 
-   <td colname="col3"> <p>Der <span class="wintitle">DCS</span> gibt diesen Fehlercode zurück, wenn die Anfrage eine ungültige globale Geräte-ID enthält. DCS ignoriert die ungültige ID und gibt einen 312-Fehler zusammen mit den spezifischen Fehlern der ungültigen ID aus. Unter <a href="../../../features/global-data-sources.md" format="dita" scope="local">Globale Datenquellen</a> und <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">ID-Index in Audience Manager</a> finden Sie detaillierte Informationen zu den richtigen Gerätewerbe-ID-Formaten und den entsprechenden globalen Datenquellen.</p>
-   <p>Beispiel für einen falschen Aufruf: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
-   <p>Erklärung: Eine <span class="keyword">IDFA (DPID 20915)</span> muss eine ID in Großbuchstaben sein. Die in der Anfrage angegebene ID ist Kleinbuchstaben.</p>
-   </td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>313 </p> </td> 
-   <td colname="col2"> <p>CMP-ID ist in GCL nicht vorhanden</p> </td> 
-   <td colname="col3"> <p>Wenn <code>gdpr=1</code> und die IAB TC-Zeichenfolge von einer CMP-ID generiert werden, die zum Zeitpunkt der Auswertung nicht in der zwischengespeicherten Version der globalen CMP-Liste von Audience Manager vorhanden ist, verwirft das Audience Manager-Plug-in für IAB TCF die IAB TC-Zeichenfolge und verarbeitet die Anfrage wie gewohnt. Das IAB TCF v2.2 ${GDPR}-Makro ist auf 0 gesetzt und das ${GDPR_CONSENT_XXX}-Makro ist leer.</p>
-   </td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>314 </p> </td> 
-   <td colname="col2"> <p>CMP-ID wird in GCL als gelöscht markiert</p> </td> 
-   <td colname="col3"> <p>Wenn <code>gdpr=1</code> und die IAB-TC-Zeichenfolge von einer CMP generiert werden, die in der zwischengespeicherten Version der globalen CMP-Liste als gelöscht markiert ist, verwirft das Audience Manager-Plug-in für IAB TCF die TC-Zeichenfolge und verarbeitet die Anfrage wie gewohnt, wenn die Auswertungszeit nach der Löschzeit aus der globalen CMP-Liste liegt. Das IAB TCF v2.2 ${GDPR}-Makro ist auf 0 gesetzt und das ${GDPR_CONSENT_XXX}-Makro ist leer.</p></td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>315 </p> </td> 
-   <td colname="col2"> <p>Einverständniszeichenfolge gibt kein Einverständnis an</p> </td> 
-   <td colname="col3"> <p>Wenn kein Einverständnis erteilt wird, verhindert das Audience Manager-Plug-in für IAB TCF, dass Benutzende weitere Daten erfassen, oder löscht den Aufruf vollständig, wenn kein Partnerkontext erkannt wurde.</p>
-   </td>
-  </tr>
- </tbody>
-</table>
+| Code-ID | Nachricht | Beschreibung |
+| --- | --- | --- |
+| 300 | Ungültige Kunden-ID `_ID_` | Die Kunden-ID ist ungültig (fehlende Werte für die Datenquelle, fehlende Integrations-Codes, ungültiges Format für Datenquellen, blockierte Kunden-ID, leere Kunden-ID, nicht autorisierter Zugriffsversuch auf eine Datenquelle, die nicht zum Partner gehört). |
+| 301 | Maximale Anzahl von Kunden-IDs überschritten. Maximal zulässig ist `_maximum allowed_`. Gefunden wurde `_maximum found_`. | Die Anzahl der mit einer geräteübergreifenden Datenquelle verknüpften Kunden-IDs überschreitet die zulässige Anzahl geräteübergreifender IDs pro Anfrage. Zu diesen IDs gehören geräteübergreifende, mobile oder Cookie-IDs. Das Limit ist derzeit auf 10 festgelegt. |
+| 302 | Nicht autorisierte Kunden-ID `_ID_` | Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht der aktuellen Organisations-ID gehört. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Suchen Ihrer Organisations-ID“ in [Organisationen und Kontoverknüpfung](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) Informationen dazu, wie Sie sie finden können. |
+| 303 | Blockierte Kunden-ID `_ID_` | Wird zurückgegeben, wenn die Kunden-ID als bösartig identifiziert und einer Blockierungsliste hinzugefügt wurde. |
+| 304 | Blockierte Datenquelle-ID `_ID_` | Wird zurückgegeben, wenn die Datenquellen-ID als bösartig identifiziert und einer Blockierungsliste hinzugefügt wurde |
+| 306 | Blockierte deklarierte Geräte-ID `_ID_` | Die Geräte-ID wurde als bösartig identifiziert und einer Blockierungsliste hinzugefügt. Dies kann passieren, wenn wir in kurzer Zeit eine extreme Anzahl von DCS-Anfragen mit dieser Geräte-ID erhalten. |
+| 307 | Blockierter Profilvorgang für `_ID_` | Eine Lese-/Schreibaktion wurde blockiert, da eine ID als bösartig erkannt und einer Blockierungsliste hinzugefügt wurde. Siehe Fehlercode 306. |
+| 309 | Kunden-ID `_ID_` wurde verworfen, da sie das Limit von deklarierten Kunden-IDs pro Anfrage überschritten hat | Bezieht sich auf Fehler 301. Dieser Fehler gibt an, welche Kunden-ID verworfen wurde, da das Limit überschritten wurde.<br><br>Wenn beispielsweise im DCS-Aufruf zwölf Kunden-IDs deklariert wurden, werden zwei von ihnen verworfen. Um weiterzuleiten, welche verworfen wurden, wird dieser Fehler zweimal in der Antwort angezeigt (einmal für jede verworfene Kunden-ID ). |
+| 310 | Kunden-ID wurde verworfen, da sie das Limit für einen bestimmten Namespace überschritten hat. Namespace-ID ist `_ID_`, Kunden-ID ist `_ID_`. | Dieser Fehler-Code wird zurückgegeben, wenn bei einem DCS-Aufruf mehr als 3 Kunden-IDs für denselben Namespace (`DPID`) deklariert sind.<br><br>`https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one`<br><br>In dieser DCS-Beispielanfrage gibt es vier IDs, die für denselben Namespace deklariert wurden (mit dem Integrations-Code eins). Eine der IDs wird verworfen und der Fehler 310 wird zurückgegeben. |
+| 311 | Anfrage enthält ungültige Parameter | Der DCS gibt diesen Fehler-Code zurück, wenn mindestens ein URL-Parameter nicht ordnungsgemäß codiert ist. In diesem Fall ignoriert der DCS die gesamte Anfrage.<br><br>`http(s)://partner.demdex.net/event?d_event=imp&d_rtbd=json&d_src=38454&d_site=%esid!&d_creative=%ecid!&d_adgroup=%eaid!&d_placement=%epid!&d_campaign=%ebuy!&d_adsrc=48123`<br><br>In der obigen Beispielanfrage ist die `%` falsch codiert. Die DCS wird sie daher außer Acht lassen.<br><br>Das korrekt codierte Beispiel sollte wie folgt aussehen:<br><br>`http(s)://partner.demdex.net/event?d_event=imp&d_rtbd=json&d_src=38454&d_site=%25esid!&d_creative=%25ecid!&d_adgroup=%25eaid!&d_placement=%25epid!&d_campaign=%25ebuy!&d_adsrc=48123` |
+| 312 | Anfrage enthält eine ungültige globale Geräte-ID | Der DCS gibt diesen Fehlercode zurück, wenn die Anfrage eine ungültige globale Geräte-ID enthält. DCS ignoriert die ungültige ID und gibt einen 312-Fehler zusammen mit den spezifischen Fehlern der ungültigen ID aus. Unter [Globale Datenquellen](../../../features/global-data-sources.md) und [ID-Index in Audience Manager](../../../reference/ids-in-aam.md) finden Sie detaillierte Informationen zu den richtigen Gerätewerbe-ID-Formaten und den entsprechenden globalen Datenquellen.<br><br>Beispiel eines falschen Aufrufs: `"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"`<br><br>Erklärung: Eine IDFA (DPID-20915) muss eine ID in Großbuchstaben sein. Die in der Anfrage angegebene ID ist Kleinbuchstaben. |
+| 313 | CMP-ID ist in GCL nicht vorhanden | Wenn `gdpr=1` und die IAB TC-Zeichenfolge von einer CMP-ID generiert werden, die zum Zeitpunkt der Auswertung nicht in der zwischengespeicherten Version der globalen CMP-Liste von Audience Manager vorhanden ist, verwirft das Audience Manager-Plug-in für IAB TCF die IAB TC-Zeichenfolge und verarbeitet die Anfrage wie gewohnt. Das IAB TCF v2.2 ${GDPR}-Makro ist auf 0 festgelegt und das ${GDPR\_CONSENT\_XXX}-Makro ist leer. |
+| 314 | CMP-ID wird in GCL als gelöscht markiert | Wenn `gdpr=1` und die IAB-TC-Zeichenfolge von einer CMP generiert werden, die in der zwischengespeicherten Version der globalen CMP-Liste als gelöscht markiert ist, verwirft das Audience Manager-Plug-in für IAB TCF die TC-Zeichenfolge und verarbeitet die Anfrage wie gewohnt, wenn die Auswertungszeit nach der Löschzeit aus der globalen CMP-Liste liegt. Das IAB TCF v2.2 ${GDPR}-Makro ist auf 0 festgelegt und das ${GDPR\_CONSENT\_XXX}-Makro ist leer. |
+| 315 | Einverständniszeichenfolge gibt kein Einverständnis an | Wenn kein Einverständnis erteilt wird, verhindert das Audience Manager-Plug-in für IAB TCF, dass Benutzende weitere Daten erfassen, oder löscht den Aufruf vollständig, wenn kein Partnerkontext erkannt wurde. |
 
 ## Beispiele für Fehlercode-Meldungen {#sample-error-codes}
 
