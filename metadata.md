@@ -1,17 +1,15 @@
 ---
 cloud: Experience Cloud
 solution: Audience Manager
+feature-set: Audience Manager
+landing-page-name: audience-manager
+landing-page-breadcrumb-title: Audience Manager
 type: Documentation
-solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/de/support/audience-manager.html
-solution-image: assets/aam-icon-24.png
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/de/audience-manager/get-started.html
 tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/de-DE/audience-manager-learn/tutorials/overview.html
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/audience-manager.de-DE
 index: y
-source-git-commit: 8ec80da4ec2110b1475a3872ff4c4f7f17b77870
+source-git-commit: b7a329127e83e5aa86c936311a0ef6f5e776cd92
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 2%
