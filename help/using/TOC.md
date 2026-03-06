@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
 user-guide-description: Erfahren Sie, wie Sie mit Adobe Audience Manager geschäftlich relevante Informationen über Site-Besucher erfassen und vermarktbare Segmente erstellen können. Sie können auch Details dazu finden, wie Sie zielgerichtete Werbung und Inhalte für die richtige Zielgruppe bereitstellen können.
 feature-set: Audience Manager
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 17%
@@ -66,7 +66,7 @@ ht-degree: 17%
       + [Erweiterte Funktionen von Audience Lab](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [Audience Marketplace-Optimierung](features/audience-marketplace/audience-marketplace-optimization.md)
+      + [hide-from-tocAudience Marketplace-Optimierung](features/audience-marketplace/audience-marketplace-optimization.md)
       + Audience Marketplace für Datenanbieter{#audience-marketplace-for-data-providers}
          + [Audience Marketplace für Datenanbieter](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Erstellen, Bewerten und Verwalten von Daten-Feeds](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
