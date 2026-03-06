@@ -66,7 +66,7 @@ ht-degree: 17%
       + [Erweiterte Funktionen von Audience Lab](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + {hide-from-toc}[Audience Marketplace-Optimierung](features/audience-marketplace/audience-marketplace-optimization.md)
+      + [hide-from-tocAudience Marketplace-Optimierung](features/audience-marketplace/audience-marketplace-optimization.md)
       + Audience Marketplace für Datenanbieter{#audience-marketplace-for-data-providers}
          + [Audience Marketplace für Datenanbieter](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Erstellen, Bewerten und Verwalten von Daten-Feeds](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
