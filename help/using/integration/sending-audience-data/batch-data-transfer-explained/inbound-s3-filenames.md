@@ -1,5 +1,5 @@
 ---
-description: Beschreibt die erforderlichen Felder, die Syntax, Namenskonventionen und Dateigrößen, die beim Senden von Daten an Audience Manager befolgt werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an ein Audience Manager-/Amazon S3-Verzeichnis senden.
+description: Beschreibt die erforderlichen Felder, die Syntax, Namenskonventionen und Dateigrößen, die beim Senden von Daten an Audience Manager befolgt werden müssen. Legen Sie die Namen und Größen Ihrer Dateien gemäß diesen Spezifikationen fest, wenn Sie Daten an einen Audience Manager/ein Amazon S3-Verzeichnis senden.
 seo-description: Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / Amazon S3 directory.
 seo-title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
@@ -7,7 +7,7 @@ title: Anforderungen an Amazon S3-Namen und -Dateigrößen für eingehende Daten
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 2%
@@ -20,15 +20,15 @@ Beschreibt die erforderlichen Felder, die Syntax, Namenskonventionen und Dateigr
 
 >[!NOTE]
 >
->Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument weisen auf Codeelemente und Optionen hin. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
+>Die Textformate (`monospaced text`, *Kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument geben Codeelemente und Optionen an. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
 
 ## Dateinamensyntax {#file-name-syntax}
 
 [!DNL S3] Dateinamen enthalten die folgenden erforderlichen und optionalen Elemente:
 
-* **[!DNL S3]:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* **[!DNL S3]-Präfix:**   2`s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
-* **Dateinamenelemente:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+* **Dateinamenelemente:**   2`ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
 Informationen zu anderen akzeptierten Dateinamenformaten finden Sie unter [Benutzerdefinierte Partnerintegrationen](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
@@ -64,15 +64,15 @@ Die Tabelle definiert die Elemente in einem [!DNL S3] Dateinamen.
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>Eine L-ID, die <span class="keyword"> Audience Manager </span>, wenn eine Datendatei Ihre eigenen Benutzer-IDs, Android-IDs, iOS-IDs oder andere IDs enthält, die zu <a href="/help/using/features/global-data-sources.md"> globalen Datenquellen gehören</a>. Akzeptiert die folgenden Optionen:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Daten-Source-ID (auch als Datenanbieter-ID bezeichnet):</b> Dies ist eine eindeutige ID, die Audience Manager einer Datenquelle zuweist (siehe den Audience Manager <a href="/help/using/reference/ids-in-aam.md">-ID-Index </a>). Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten senden, die Ihre eigenen Benutzer-IDs enthalten. Beispielsweise weist <code>...ftp_dpm_21_123456789.sync</code> <span class="keyword"> Audience Manager an</span> Daten in IDs zu integrieren, die zur Datenquelle 21 gehören. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Daten-Source-ID (auch als Datenanbieter-ID bezeichnet):</b> Dies ist eine eindeutige ID, die Audience Manager einer Datenquelle zuweist (siehe den Audience Manager <a href="/help/using/reference/ids-in-aam.md">-ID-Index </a>). Verwenden Sie diese zugewiesene ID in einem Dateinamen, wenn Sie Daten senden, die Ihre eigenen Benutzer-IDs enthalten. Beispiel: <code>...ftp_dpm_21_123456789.sync</code> weist <span class="keyword"> Audience Manager</span> an, Daten in IDs zu integrieren, die zur Datenquelle 21 gehören. </li> 
      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-IDs (GAID):</b> Verwenden Sie ID-20914 in einem Datendateinamen, wenn sie Android-IDs enthält. Sie müssen die <code><i>_DPID_TARGET_DATA_OWNER</i></code> verwenden, wenn Sie Android-IDs verwenden. Beispielsweise teilt <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> <span class="keyword"> Audience Manager mit</span> dass die Datendatei nur Android-IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zur <code><i>_DPID_TARGET_DATA_OWNER</i></code> Datenquelle gehören.</li> 
      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-IDs (IDFA):</b> Verwenden Sie ID-20915 in einem Datendateinamen, wenn sie iOS-IDs enthält. Sie müssen die <code><i>_DPID_TARGET_DATA_OWNER</i></code> verwenden, wenn Sie iOS-IDs verwenden. Beispielsweise teilt <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> <span class="keyword"> Audience Manager mit</span> dass die Datendatei nur iOS-IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zur <code><i>_DPID_TARGET_DATA_OWNER</i></code> Datenquelle gehören.</li>
-     <li> <b>IDs, die zu anderen globalen Datenquellen gehören</b>: Sie können Roku-IDs für Advertising (RIDA), Microsoft Advertising-IDs (MAID) und andere IDs integrieren. Verwenden Sie die ID, die jeder Datenquelle entspricht, wie im Artikel <a href="/help/using/features/global-data-sources.md"> globale Datenquellen beschrieben</a>.</li> 
-    </ul> <p> <p>Hinweis: Mischen Sie keine ID-Typen in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise die Android-Kennung enthält, fügen Sie keine iOS-IDs oder Ihre eigenen IDs in die Datendatei ein. </p> </p> </td> 
+     <li> <b>IDs, die zu anderen globalen Datenquellen gehören</b>: Sie können Roku-IDs für Werbung (RIDA), Microsoft Advertising IDs (MAID) und andere IDs integrieren. Verwenden Sie die ID, die jeder Datenquelle entspricht, wie im Artikel "<a href="/help/using/features/global-data-sources.md">" der globalen </a>-Datenquellen beschrieben.</li> 
+    </ul> <p> <p>Hinweis: Kombinieren Sie ID-Typen nicht in Ihren Datendateien. Wenn Ihr Dateiname beispielsweise den Android-Bezeichner enthält, sollten Sie keine iOS IDs oder Ihre eigenen IDs in die Datendatei einfügen. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Dieses Feld teilt Audience Manager mit, in welche Datenquelle Daten integriert werden sollen. Dieses Feld ist obligatorisch, wenn Sie für die DPID eine Android-ID, eine iOS-ID oder eine andere ID festlegen, die zu globalen Datenquellen gehört. Auf diese Weise kann Audience Manager die Dateidaten mit Ihrer Organisation verknüpfen. <br> Diese Zieldatenquelle muss Ihrem Unternehmen gehören. Für die gemeinsame Datennutzung durch Zweitanbieter müssen Sie über ein Zugriffs-Mapping zwischen Ihrem Unternehmen und der Zieldatenquelle verfügen, um Daten in eine Zieldatenquelle eines anderen Unternehmens aufnehmen zu können. Wenden Sie sich an Ihren Adobe-Berater oder den Kunden-Support, um die Zuordnung einzurichten.</p> <p><b>Wichtiger Hinweis:</b> Sie <i>müssen </i> eine Zuordnung für bestehende Datenfreigabebeziehungen anfordern (für Zieldatenquellen anderer Unternehmen, in die Sie vor dem 14. März 2022 Daten integriert haben). Die Zuordnung ist auch nicht erforderlich, wenn Daten in Zieldatenquellen integriert werden, die zu Ihrer PID gehören. </p> <p>Beispiel: </p> 
+   <td colname="col2"> <p>Dieses Feld teilt dem Audience Manager mit, an welche Datenquelle Daten integriert werden sollen. Dieses Feld ist obligatorisch, wenn Sie als DPID eine Android-ID oder iOS-ID oder eine andere ID festlegen, die zu globalen Datenquellen gehört. Dadurch kann der Audience Manager die Dateidaten wieder mit Ihrem Unternehmen verknüpfen. <br> Diese Zieldatenquelle muss Ihrem Unternehmen gehören. Für den Austausch von Second-Party-Daten müssen Sie über eine Zugriffszugangszuordnung zwischen Ihrem Unternehmen und der Zieldatenquelle verfügen, um Daten in eine Zieldatenquelle zu importieren, die einem anderen Unternehmen gehört. Wenden Sie sich an Ihren Adobe-Berater oder den Kunden-Support, um die Zuordnung einzurichten.</p> <p><b>Wichtiger Hinweis:</b> Sie <i>müssen </i> eine Zuordnung für bestehende Datenfreigabebeziehungen anfordern (für Zieldatenquellen anderer Unternehmen, in die Sie vor dem 14. März 2022 Daten integriert haben). Die Zuordnung ist auch nicht erforderlich, wenn Daten in Zieldatenquellen integriert werden, die zu Ihrer PID gehören. </p> <p>Beispiel: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> teilt Audience Manager mit, dass Sie Kunden-IDs aus Datenquelle 33 für Eigenschaften oder Signale aus Datenquelle 21 qualifizieren. </li> 
      <li> <b>Android-IDs (GAID): </b> <code>...ftp_dpm_20914_21_1234567890.sync</code> teilt <span class="keyword"> Audience Manager mit</span> dass die Datendatei nur Android-IDs enthält und die IDs für die Eigenschaften qualifiziert sein sollten, die zu Datenquelle 21 gehören.</li> 
@@ -87,21 +87,22 @@ Die Tabelle definiert die Elemente in einem [!DNL S3] Dateinamen.
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Ein 10-stelliger UTC-UNIX-Zeitstempel in Sekunden. Der Zeitstempel hilft dabei, jeden Dateinamen eindeutig zu machen. </p> 
-    <!-- 
+    <!--
      <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
-    --> </td> 
+    -->
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>Zu den Synchronisierungsoptionen gehören: </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
-      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normales Szenario, in dem Drittanbieter von Daten Eigenschaften pro Benutzer senden, um sie im Audience Manager-System hinzuzufügen oder zu entfernen. </li> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normales Szenario, wenn Datenanbieter von Drittanbietern auf Benutzerbasis Merkmale senden, die im Audience Manager-System hinzugefügt oder entfernt werden sollen. </li> 
       <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Ermöglicht es Datenanbietern, eine Liste von Eigenschaften pro Benutzer zu senden, durch die alle bestehenden Drittanbietereigenschaften dieses Benutzers für diesen Datenanbieter in der Audience Manager überschrieben werden sollen. Sie müssen nicht alle Ihre Benutzer in eine Überschreibungsdatei einbeziehen. Nur die Benutzer einbeziehen, die geändert werden sollen. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
-   <td colname="col2"> <p>Eine Ganzzahl. Wird verwendet, wenn Sie große Dateien in mehrere Teile aufteilen, um die Verarbeitungszeit zu verbessern. Die Zahl gibt an, welchen Teil der Originaldatei Sie senden. </p> <p>Teilen Sie Ihre Datendateien wie angegeben auf, um eine effiziente Dateiverarbeitung zu gewährleisten: </p> 
+   <td colname="col2"> <p>Eine Ganzzahl. Wird verwendet, wenn Sie große Dateien in mehrere Teile aufteilen, um die Verarbeitungszeit zu verbessern. Die Zahl gibt an, welchen Teil der Originaldatei Sie senden. </p> <p>Für eine effiziente Dateiverarbeitung teilen Sie Ihre Datendateien wie folgt auf: </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Unkomprimiert: 1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Komprimiert: 200-300 MB </li> 
@@ -126,7 +127,7 @@ Die folgenden Beispiele zeigen ordnungsgemäß formatierte Dateinamen. Ihre Date
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-Sie können [&#x200B; Beispieldatei &#x200B;](assets/ftp_dpm_1234_1445374061.overwrite), wenn Sie zusätzliche Beispiele benötigen. Diese Datei wurde mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie sie mit einem einfachen Texteditor.
+Sie können die Beispieldatei [herunterladen](assets/ftp_dpm_1234_1445374061.overwrite), wenn Sie weitere Beispiele wünschen. Diese Datei wurde mit der Dateierweiterung &quot;`.overwrite`&quot; gespeichert. Öffnen Sie sie mit einem einfachen Texteditor.
 
 ## Akzeptierte Dateigrößen {#accepted-file-sizes}
 
@@ -147,7 +148,7 @@ Beachten Sie die folgenden Zahlen für die schnellste/früheste Verarbeitung Ihr
    <td colname="col3"> <p>3 GB </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>unkomprimiert</b> </td> 
+   <td colname="col1"><b>Unkomprimiert</b> </td> 
    <td colname="col2"> <p>1 GB </p> </td> 
    <td colname="col3"> <p>5 GB </p> </td> 
   </tr> 
