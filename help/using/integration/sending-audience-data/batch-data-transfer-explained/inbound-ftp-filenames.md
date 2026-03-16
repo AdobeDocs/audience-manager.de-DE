@@ -7,7 +7,7 @@ title: Anforderungen an FTP-Namen und Dateigröße für eingehende Datendateien
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 3%
@@ -93,9 +93,10 @@ Die Tabelle definiert die Elemente in einem [!DNL FTP] Dateinamen.
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Ein 10-stelliger UTC-UNIX-Zeitstempel in Sekunden. Der Zeitstempel hilft dabei, jeden Dateinamen eindeutig zu machen. </p> 
-    <!-- 
+    <!--
      <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
-    --> </td> 
+    -->
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
