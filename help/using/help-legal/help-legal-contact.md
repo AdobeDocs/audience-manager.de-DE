@@ -24,7 +24,7 @@ Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf ve
 * [Auf den Experience Cloud-Hilfeseiten finden Sie Hinweise, Tipps und FAQs.](https://helpx.adobe.com/de/support.ec.html)
 * [Kurze Fragen können Sie über Twitter an @AdobeExpCare stellen.](https://twitter.com/AdobeExpCare)
 * [Kontaktieren Sie die Kundenunterstützung direkt.](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
-* [Überprüfen Sie Verfügbarkeit und Status von Experience Cloud-Lösungen.](https://status.adobe.com/)
+* [Überprüfen Sie Verfügbarkeit und Status von Experience Cloud-Lösungen.](https://status.adobe.com/de-de/)
 
 ## Service, Leistungsumfang und Abrechnung {#billing}
 
