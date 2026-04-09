@@ -6,9 +6,14 @@ solution: Audience Manager
 title: Workflow C - Personalization basierend auf authentifizierter Aktivität kombiniert mit Offline-Daten
 feature: People-based Destinations
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/8n-bcGFvzcn6nCrR-ubU5IMu9ne19CHmMMMEeqdV-cI
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: 877
 ht-degree: 1%
 
 ---
@@ -54,7 +59,7 @@ In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen
 
 Sehen Sie sich das folgende Video an, um ein Video-Tutorial zum Erstellen einer Datenquelle für [!UICONTROL People-Based Destinations] zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/32165?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Schritt 2: Verwenden deklarierter IDs, um DPUUIDs über Echtzeit-HTTP-Aufrufe mit Hash-E-Mail-Adressen abzugleichen {#match-email-addresses}
 
@@ -135,5 +140,5 @@ Verwenden Sie zum Erstellen neuer Segmente den [Segment Builder](../segments/seg
 1. Klicken Sie auf **[!UICONTROL Next]**.
 1. Wählen Sie die **[!UICONTROL Data Export Labels]** aus, die Sie für dieses Ziel festlegen möchten.
 1. Wählen Sie im Abschnitt **[!UICONTROL Configuration]** die Datenquelle aus, die Ihre gehashten Datenquellen enthält.
-1. Wählen Sie im Abschnitt **[!UICONTROL Segment Mappings]** die Segmente aus, die Sie an dieses Ziel senden möchten. Hierbei handelt es sich um die Segmente, die Sie unter [Schritt 4: Erstellen von Zielgruppensegmenten) &#x200B;](#create-audience-segments).
+1. Wählen Sie im Abschnitt **[!UICONTROL Segment Mappings]** die Segmente aus, die Sie an dieses Ziel senden möchten. Hierbei handelt es sich um die Segmente, die Sie unter [Schritt 4: Erstellen von Zielgruppensegmenten) ](#create-audience-segments).
 1. Speichern Sie das Ziel.

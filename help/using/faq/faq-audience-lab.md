@@ -7,9 +7,12 @@ title: Häufig gestellte Fragen zu Audience Lab
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/VDrkY-L2PnhRdSTmZd-0sjpJEI5vHxm9c3uMqtyQd3Y
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: 326
 ht-degree: 94%
 
 ---
@@ -18,31 +21,31 @@ ht-degree: 94%
 
 Häufig gestellte Fragen zur Audience Lab-Funktion.
 
-<br>
+<br> 
 
 **Haben die in den Testgruppen erstellten Testsegmente unterschiedliche Segment-IDs? Wie ordne ich die IDs verschiedenen Zielen zu?**
 
 Ja, die Testsegmente haben unterschiedliche Segment-IDs. Bei Zielen mit [!UICONTROL Auto-fill Destination Mapping] oder Segmenten, die an [!DNL Google] gesendet werden, behandelt [!UICONTROL Audience Lab] die Zuordnungswerte genauso wie die Ziele.
 
-<br>
+<br> 
 
 **Kann dieselbe Konversionseigenschaft mit mehreren Testgruppen verknüpft werden?**
 
 Ja, das ist zulässig. Stellen Sie sich einen Fall vor, bei dem ein Test ein männliches Segment verwendet, das der Konversion X zugeordnet ist, und ein Test ein weibliches Segment, das der Konversion X zugeordnet ist. Es spielt keine Rolle, dass beide Tests Konversionen vorantreiben, da sie zwei unterschiedliche Zielgruppen testen.
 
-<br>
+<br> 
 
 **Angenommen, eine Testgruppe verwendet ein authentifiziertes Profil für die Testsegmentaufteilung. Das authentifizierte Profil ist mit 4 [Audience Manager-UUIDs](../reference/ids-in-aam.md) verknüpft. Wenn der Besucher eine Konversionseigenschaft aus einer der vier UUIDs aufweist, zählt [!UICONTROL Audience Lab] dies dann als eine oder vier Konversionen?**
 
 In diesem Fall zählt [!UICONTROL Audience Lab] nur eine Konversion.
 
-<br>
+<br> 
 
 **Was passiert, wenn der Besucher aus dem obigen Fall zuerst die Konversionseigenschaft einer der vier mit seinem authentifizierten Profil verknüpften UUIDs und dann auch die Konversionseigenschaft von zwei anderen mit dem authentifizierten Profil verknüpften UUIDs aufweist? Zählt dieser Fall als eine oder drei Konversionen?**
 
 In diesem Fall zählt [!UICONTROL Audience Lab] drei Konversionen, eine für jedes Gerät, das die Authentifizierungseigenschaft gezeigt hat.
 
-<br>
+<br> 
 
 **Kann ein Benutzer [!UICONTROL Segment: Read-Only] Zugriff, aber gleichzeitig auch Zugriff zur Erstellung von Testsegmenten in [!UICONTROL Audience Lab] haben?**
 

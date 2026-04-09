@@ -7,9 +7,14 @@ title: Flash-DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
+TQID: https://experienceleague.adobe.com/E8oHRJTLe4gItbAxv9aI7ltGJ0sn7qda-DDtVWoP2bY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11
+subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 686
 ht-degree: 2%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 2%
 >
 >Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Adobe wird jedoch keine [!DNL DIL] über diesen Punkt hinaus entwickeln. Kundinnen und Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Adobe wird jedoch keine [!DNL DIL] über diesen Punkt hinaus entwickeln. Kundinnen und Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
 Erfassen Sie die von FLA-Dateien an Analytics gesendeten Daten und verwenden Sie diese Informationen in Audience Manager.
 
@@ -56,7 +61,7 @@ c_flash_dil_intro.xml
 
 **Setzen Sie AllowScriptAccess auf `Always` oder`sameDomain`**
 
-Die `AllowScriptAccess` im HTML-Code, die eine SWF-Datei lädt, steuert die Möglichkeit, den ausgehenden URL-Zugriff über die SWF-Datei durchzuführen. Wenn Sie eine [!UICONTROL Flash DIL] Datenintegration konfigurieren, stellen Sie sicher, dass der Flash-`AllowScriptAccess`-Parameter auf `always` oder `sameDomain` gesetzt ist. [!UICONTROL Flash DIL] Datenerfassung funktioniert nicht, wenn `AllowScriptAccess` auf `never` gesetzt ist. Siehe [Zugriff auf Skripte steuern oder Web-Seite hosten](https://helpx.adobe.com/de/flash/kb/control-access-scripts-host-web.html).
+Die `AllowScriptAccess` im HTML-Code, die eine SWF-Datei lädt, steuert die Möglichkeit, den ausgehenden URL-Zugriff über die SWF-Datei durchzuführen. Wenn Sie eine [!UICONTROL Flash DIL] Datenintegration konfigurieren, stellen Sie sicher, dass der Flash-`AllowScriptAccess`-Parameter auf `always` oder `sameDomain` gesetzt ist. [!UICONTROL Flash DIL] Datenerfassung funktioniert nicht, wenn `AllowScriptAccess` auf `never` gesetzt ist. Siehe [Zugriff auf Skripte steuern oder Web-Seite hosten](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html).
 
 **JS[!UICONTROL DIL]Code-Platzierung**
 

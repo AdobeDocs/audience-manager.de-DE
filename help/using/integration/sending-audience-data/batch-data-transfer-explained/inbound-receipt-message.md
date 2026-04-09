@@ -7,9 +7,13 @@ title: Beispielnachricht an Partner nach der eingehenden Verarbeitung
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+TQID: https://experienceleague.adobe.com/CpGIKkc7rAP8h3ij53-YMv3mHoU7CWwpNF5EeB3oUOQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: 636
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ Im folgenden Beispiel wird eine E-Mail-Beispielnachricht angezeigt. In der Tabel
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Von: aam-noreply@adobe.com </b> </p> <p> <b>Betreff: Ergebnis der Adobe Audience Manager-Server-zu-Server-Verarbeitung:</b> </p> <p> <b>Sehr geehrter Adobe-Partner: (ID:7)</b> <b></b> </p> <p> <b>Wir haben Ihre Adobe Audience Manager Server-zu-Server-Dateibereitstellung erhalten</b> </p> <p> <b>Dateiname:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Empfangene Einträge: 40669900</b> </p> <p><b>Formatfehler: 0</b> </p> <p> <b>Ungültige AAM-ID: 112 </b> </p> <p> <b>Keine übereinstimmende AAM-ID: 0 </b> </p> <p> <b>Keine Eigenschaft erkannt: 26730823 </b> </p> <p> <b>Verarbeitete Datensätze: 40669900 </b> </p> <p> <b>Gespeicherte Datensätze: 13938958 </b> </p> <p> <b>Geräte insgesamt: 21 </b> </p> <p> <b>Signale insgesamt: 918878926 </b> </p> <p> <b>Ungenutzte Signale insgesamt: 660348376 </b> </p> <p> <b>Insgesamt realisierte Eigenschaften: 258086908 </b> </p> <p> <b>Insgesamt entfernte Eigenschaften: 0 </b> </p> <p> <b>Fehlgeschlagene Validierung der Eigenschaften insgesamt: 0 </b> </p> <p> <b>Gesamtzahl der Benutzer mit Eigenschaften, bei denen die Validierung fehlgeschlagen ist: 0 </b> </p> <p> <b>Startzeit des Jobs: 17.05.2018 18:07:49 </b> </p> <p> <b>Endzeit des Auftrags: 17.05.2018:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>Von: aam-noreply@adobe.com </b> </p> <p> <b>Betreff: Ergebnis der Adobe Audience Manager-Server-zu-Server-Verarbeitung:</b> </p> <p> <b>Sehr geehrter Adobe-Partner: (ID:7)</b> <b></b> </p> <p> <b>Wir haben Ihre Adobe Audience Manager Server-zu-Server-Dateibereitstellung erhalten</b> </p> <p> <b>Dateiname:</b> <i></i> </p> <p> <b> s3n://„ph id='10'/&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </p> <p> <b> s3n://„ph id='10'/&gt;bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b><i> </p> <p> <b>s3n://„ph id='9'/&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b><i> </p> <p> <b>s3n://„ph id='9'/&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b><i> </p> <p> <b>s3n://„ph id='9'/&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b><i> </p> <p> <b>s3n://„ph id='9'/&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b><i> </p> <p> <b>s3n://„ph id='9'/&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </p> <p> <b>Empfangene Einträge: 40669900</b> </p> <p><b>Formatfehler: 0</b> </p> <p> <b>Ungültige AAM-ID: 112 </b> </p> <p> <b>Keine übereinstimmende AAM-ID: 0 </b> </p> <p> <b>Keine Eigenschaft erkannt: 26730823 </b> </p> <p> <b>Verarbeitete Datensätze: 40669900 </b> </p> <p> <b>Gespeicherte Datensätze: 13938958 </b> </p> <p> <b>Geräte insgesamt: 21 </b> </p> <p> <b>Signale insgesamt: 918878926 </b> </p> <p> <b>Ungenutzte Signale insgesamt: 660348376 </b> </p> <p> <b>Insgesamt realisierte Eigenschaften: 258086908 </b> </p> <p> <b>Insgesamt entfernte Eigenschaften: 0 </b> </p> <p> <b>Fehlgeschlagene Validierung der Eigenschaften insgesamt: 0 </b> </p> <p> <b>Gesamtzahl der Benutzer mit Eigenschaften, bei denen die Validierung fehlgeschlagen ist: 0 </b> </p> <p> <b>Startzeit des Jobs: 17.05.2018 18:07:49 </b> </p> <p> <b>Endzeit des Auftrags: 17.05.2018:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>

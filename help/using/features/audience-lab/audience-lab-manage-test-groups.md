@@ -7,9 +7,14 @@ title: Testgruppen verwalten
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: 981
 ht-degree: 0%
 
 ---
@@ -70,7 +75,7 @@ So erstellen Sie eine neue [!UICONTROL Segment Test Group]:
    * Ziehen Sie Segmente per Drag-and-Drop an Ziele.
    * Nachdem Sie ein Segment in einem Ziel abgelegt haben, füllen Sie die **[!UICONTROL Destination Mapping Value]** im Blind aus.
    * Sie können dasselbe Testsegment an mehrere Ziele senden und mehrere Testsegmente zu einem einzelnen Ziel hinzufügen.
-   * Ziele werden ausgegraut, wenn sie für ein bestimmtes Testsegment nicht verfügbar sind, das auf [Datenexportsteuerelementen“ &#x200B;](../../features/data-export-controls.md).
+   * Ziele werden ausgegraut, wenn sie für ein bestimmtes Testsegment nicht verfügbar sind, das auf [Datenexportsteuerelementen“ ](../../features/data-export-controls.md).
    * Benutzerinnen und Benutzer sehen nur die Ziele, auf die sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](../../features/administration/administration-overview.md) zu der sie gehören.
    * Schließlich müssen Sie ein Startdatum für Ihre Testgruppe auswählen. Dieses Datum markiert den Beginn des Zeitraums, in dem Ihre Testgruppe für Ziele veröffentlicht wird. Wählen Sie **Kein Enddatum** für einen unbegrenzten Vergleich der Testsegmente aus.
 
@@ -95,7 +100,7 @@ In [!UICONTROL Audience Lab] können Sie nur Testgruppen für Entwürfe bearbeit
 
 1. Navigieren Sie zur [!UICONTROL Audience Lab] Hauptansicht.
 1. Suchen Sie nach Ihren Testgruppenentwürfen und wählen Sie das **[!UICONTROL Edit]** auf der Karte Testgruppe aus.
-1. Setzen Sie den [&#x200B; „Segmenttestgruppe erstellen](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) fort und wählen Sie **[!UICONTROL Finalize Group]** aus, wenn Sie fertig sind.
+1. Setzen Sie den [ „Segmenttestgruppe erstellen](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) fort und wählen Sie **[!UICONTROL Finalize Group]** aus, wenn Sie fertig sind.
 
 ## Segmenttestgruppen löschen {#delete-test-groups}
 

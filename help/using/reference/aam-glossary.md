@@ -7,9 +7,14 @@ title: Glossar
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/tIudKTIrwiTO01Bq5pDuekNKI5YCrjBCDi13rKydK2k
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: e7029888-c8b0-46a7-849a-cf132a1559bf
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: 1157
 ht-degree: 96%
 
 ---
@@ -61,7 +66,7 @@ Bei [ansprechbaren Zielgruppen](/help/using/features/addressable-audiences.md) s
 
 **Kundenattribute**
 
-Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de) in der [!DNL Experience Cloud Core Services]-Produktdokumentation.
+Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in der [!DNL Experience Cloud Core Services]-Produktdokumentation.
 
 
 
@@ -113,7 +118,7 @@ Die [!UICONTROL Data Integration Library] ist eine API-Bibliothek, die von [!DNL
 
 **Experience Cloud ID (ECID)**
 
-Zuvor als [!DNL Marketing Cloud] ID (MID oder MCID) bezeichnet. Die [!DNL Experience Cloud] ID ist für den ID-Dienst von zentraler Bedeutung. Sie ist eine eindeutige und dauerhafte Kennung für Ihre Site-Besucher. Siehe Cookies und den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
+Zuvor als [!DNL Marketing Cloud] ID (MID oder MCID) bezeichnet. Die [!DNL Experience Cloud] ID ist für den ID-Dienst von zentraler Bedeutung. Sie ist eine eindeutige und dauerhafte Kennung für Ihre Site-Besucher. Siehe Cookies und den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 
 
@@ -270,6 +275,6 @@ TTL definiert, wie viele Tage ein qualifizierter Besucher in einer Eigenschaft v
 
 [!DNL Experience Cloud] ID Service (ehemals Besucher-ID) bietet eine universelle, dauerhafte ID, die Ihre Besucher in allen [!DNL Experience Cloud]-Lösungen identifiziert.
 
-Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## W-X-Y-Z {#w-z}

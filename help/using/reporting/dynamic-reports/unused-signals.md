@@ -7,9 +7,12 @@ title: Bericht zu nicht verwendeten Signalen
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
+TQID: https://experienceleague.adobe.com/OfDw6FsS-MlFtwy-91jBH1O8d57aCvOap94ZK3zHVco
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -26,7 +29,7 @@ Dieser Bericht gibt eine Häufigkeitsanzahl aller nicht verwendeten Informatione
 
 ## Überblick
 
-Ein Signal ist eine Information von Ihrer Website, die in Form von [!DNL Audience Manager]Schlüssel-Wert-Paaren[&#x200B; (z. B. &#x200B;](../../reference/key-value-pairs-explained.md) usw.) an `color=blue, price>100, gender=female` weitergegeben wird.
+Ein Signal ist eine Information von Ihrer Website, die in Form von [!DNL Audience Manager]Schlüssel-Wert-Paaren[ (z. B. ](../../reference/key-value-pairs-explained.md) usw.) an `color=blue, price>100, gender=female` weitergegeben wird.
 
 Nicht verwendete Signale bestehen aus Daten, die Sie sammeln, aber keiner Eigenschaft zugeordnet wurden. Der [!UICONTROL Unused Signals] Bericht zeigt Daten in einer Tabelle nach Datum, Schlüssel, Wert und Häufigkeitsanzahl an. Jedes nicht zugeordnete Signal, das an [!DNL Audience Manager] mindestens 100-mal pro Tag übergeben wird, ist für den [!UICONTROL Unused Signals]-Bericht qualifiziert.
 

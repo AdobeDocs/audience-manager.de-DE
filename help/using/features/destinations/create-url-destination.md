@@ -6,9 +6,13 @@ solution: Audience Manager
 title: Konfigurieren eines URL-Ziels
 feature: Destination Basics
 exl-id: b5af87c9-4460-43a7-9808-242eac876c39
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/--3mSis3KSVJwDsfQ0-6AZPRL7den1HX5Cf7ovnWPpI
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 1%
 
 ---
@@ -38,10 +42,10 @@ Dieser Abschnitt enthält Felder und Optionen, mit denen der [!DNL URL destinati
 
 ## [!UICONTROL Data Export Labels] {#data-export-labels-dest}
 
-Dieser Abschnitt enthält Optionen, die [Datenexportsteuerelemente) &#x200B;](../../features/data-export-controls.md) ein [!DNL URL] Ziel anwenden. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So schließen Sie diesen Abschnitt ab:
+Dieser Abschnitt enthält Optionen, die [Datenexportsteuerelemente) ](../../features/data-export-controls.md) ein [!DNL URL] Ziel anwenden. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So schließen Sie diesen Abschnitt ab:
 
 1. Klicken Sie auf **[!UICONTROL Data Export Labels]** , um die Steuerelemente anzuzeigen.
-2. Wählen Sie eine Beschriftung aus, die dem auf das Ziel angewendeten Datenexportsteuerelement entspricht (weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/using/features/destinations/add-data-export-labels.md) zu einem Ziel).
+2. Wählen Sie eine Beschriftung aus, die dem auf das Ziel angewendeten Datenexportsteuerelement entspricht (weitere Informationen finden Sie unter [Hinzufügen von ](/help/using/features/destinations/add-data-export-labels.md) zu einem Ziel).
 3. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Konfiguration {#configure-base-data}
@@ -55,7 +59,7 @@ Auf diese Weise können Sie Segmente sequenziell an einen [!DNL destination] sen
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Base URL] | Der Basisteil eines `HTTP` [!DNL URL], der sich nicht ändert. Außerdem müssen Sie das `%ALIAS%`Platzhaltermakro[&#x200B; in &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) Basis-URL einfügen. Beispiel: `https://www.myCompany.com/%alias%...` |
+| [!UICONTROL Base URL] | Der Basisteil eines `HTTP` [!DNL URL], der sich nicht ändert. Außerdem müssen Sie das `%ALIAS%`Platzhaltermakro[ in ](../../features/destinations/destination-macros.md#destination-macros-defined) Basis-URL einfügen. Beispiel: `https://www.myCompany.com/%alias%...` |
 | [!UICONTROL Secure URL] | Der Basisteil eines sicheren `HTTPS` [!DNL URL], der sich nicht ändert. Außerdem müssen Sie die `%ALIAS%` platzieren   [Platzhaltermakro](../../features/destinations/destination-macros.md#destination-macros-defined) in der Basis-URL Beispiel: `https://www.myCompany.com/%alias%...` |
 | [!UICONTROL Delimiter] | Das Symbol, das die Segmentvariablen in der [!DNL URL] trennt. Dies ist normalerweise ein Komma oder Semikolon. Rufen Sie diese Informationen von Ihrem Zielpartner ab. |
 

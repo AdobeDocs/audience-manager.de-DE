@@ -7,9 +7,13 @@ title: DSGVO-Glossar
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+TQID: https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: 678
 ht-degree: 96%
 
 ---
@@ -22,7 +26,7 @@ In diesem Artikel werden die Konzepte und Terminologie des Europäischen Datensc
 
 Die DSGVO trat am 25. Mai 2018 in Kraft, mit dem vorrangigen Ziel, Einzelpersonen in der EU (betroffene Personen) mehr Kontrolle über ihre personenbezogenen Daten zu geben und gleichzeitig das Regelungsumfeld für internationale Unternehmen durch eine bessere Vereinheitlichung der Vorschriften innerhalb der EU zu vereinfachen. Im Rahmen der DSGVO-Bereitschaft von Adobe hat das Adobe Audience Manager-Team die erforderlichen Dienste und Prozesse verbessert, um Zugriffs- und Löschanfragen von betroffenen Personen, Ihren Verbrauchern, zu unterstützen.
 
-Lesen Sie auch den Abschnitt zur DSGVO in der [Übersicht über Datenschutzbestimmungen](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de) um ein besseres Verständnis der Funktionsweise der DSGVO in Experience Cloud zu erhalten.
+Lesen Sie auch den Abschnitt zur DSGVO in der [Übersicht über Datenschutzbestimmungen](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) um ein besseres Verständnis der Funktionsweise der DSGVO in Experience Cloud zu erhalten.
 
 ## DSGVO-Glossar {#gdpr-glossay}
 
@@ -58,7 +62,7 @@ Machen Sie sich mit den wichtigsten Begriffen im Zusammenhang mit der DSGVO vert
 
  
 
-**Audience Manager-IDs:** Adobe Audience Manager speichert verschiedene Arten von IDs. Auf der Seite [Audience Manager-IDs](data-privacy-ids.md) finden Sie eine Zusammenfassung dieser IDs, der zugehörigen Datenquellen und kurze Beschreibungen. Wenn Sie Anfragen an den [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) senden, verweisen Sie auf diese IDs, um Lösch- oder Zugriffsanfragen für Ihre betroffenen Personen zu stellen.
+**Audience Manager-IDs:** Adobe Audience Manager speichert verschiedene Arten von IDs. Auf der Seite [Audience Manager-IDs](data-privacy-ids.md) finden Sie eine Zusammenfassung dieser IDs, der zugehörigen Datenquellen und kurze Beschreibungen. Wenn Sie Anfragen an den [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) senden, verweisen Sie auf diese IDs, um Lösch- oder Zugriffsanfragen für Ihre betroffenen Personen zu stellen.
 
  
 

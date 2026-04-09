@@ -6,9 +6,13 @@ solution: Audience Manager
 title: Ziel-Builder
 feature: Destination Basics
 exl-id: 0923bea3-fb23-45c0-bbb7-5a74f46bf45b
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/zLd6b-oS9Sz1I4xVmY-UXbklxQvJ9NEOy2iQDfKIVbk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 268
 ht-degree: 1%
 
 ---
@@ -36,4 +40,4 @@ Senden Sie Informationen an ein Ziel, indem Sie sie über eine [!DNL URL] Zeiche
 * [!DNL URL]- und Cookie-basierte Ziele übertragen Daten synchron, wenn ein Benutzer eine Aktion auf einer Seite ausführt.
 * Die Server-zu-Server-Datenübertragung erfolgt asynchron und kann lange nach Verlassen der Seite durch einen Benutzer erfolgen. Der von Ihnen ausgewählte Versandtyp hängt von Ihren Geschäftsanforderungen ab und davon, wie ein bestimmter Datenpartner Daten empfangen möchte oder kann.
 
-Weitere Informationen finden [&#x200B; unter „Auswählen &#x200B;](../../features/destinations/destinations.md) Zieltyps“.
+Weitere Informationen finden [ unter „Auswählen ](../../features/destinations/destinations.md) Zieltyps“.

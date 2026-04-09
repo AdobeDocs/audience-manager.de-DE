@@ -7,9 +7,13 @@ title: Datenexportkontrolle
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: 876
 ht-degree: 1%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 1%
 
 ## Überblick {#overview}
 
-[!UICONTROL Data Export Controls] können Sie [Datenquellen“ &#x200B;](../features/datasources-list-and-settings.md#data-sources-list-and-settings) &quot;[&quot; &#x200B;](../features/destinations/destinations.md). Die Klassifizierungen, die Sie anwenden, bestimmen, wann Daten an ein Ziel exportiert werden können oder nicht. Diese Funktion besteht aus:
+[!UICONTROL Data Export Controls] können Sie [Datenquellen“ ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) &quot;[&quot; ](../features/destinations/destinations.md). Die Klassifizierungen, die Sie anwenden, bestimmen, wann Daten an ein Ziel exportiert werden können oder nicht. Diese Funktion besteht aus:
 
 * **[!UICONTROL Data Export Controls]**: Sie können Datenexportsteuerelemente für (*)*. Wenn diese Steuerelemente für eine Datenquelle festgelegt sind, wird die Verwendung dieser Datenquelle und ihrer Eigenschaften eingeschränkt.
 * **[!UICONTROL Data Export Labels]**: Sie können Datenexportbeschriftungen für (*)*. Wenn sie für ein Ziel festgelegt werden, identifizieren diese Kennzeichnungen, wie das Ziel Daten verwendet. Unter [Hinzufügen von Datenexportkennzeichnungen zu einem Ziel](/help/using/features/destinations/add-data-export-labels.md) erfahren Sie, wie Sie einem Ziel Exportkennzeichnungen hinzufügen.
@@ -53,7 +57,7 @@ Darüber hinaus muss mindestens eine Exportkennzeichnung mit einer Exportsteueru
 > * Die vom Segment verwendete Profilzusammenführungsregel;
 > * Jede der Datenquellen, die die Profilzusammenführungsregel des Segments verwendet.
 
-<br>
+<br> 
 
 <table id="table_7D1F0270B5604A82B96A13CC49C937C0"> 
  <thead> 

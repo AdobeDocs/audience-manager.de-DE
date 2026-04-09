@@ -6,9 +6,14 @@ solution: Audience Manager
 title: Konfigurieren eines Analytics-Ziels
 feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: ef8cca16c8c9478f8558c26bf6f3ae95cd72e7ac
+TQID: https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: 866
 ht-degree: 4%
 
 ---
@@ -18,13 +23,13 @@ ht-degree: 4%
 ## Anforderungen {#requirements}
 
 Um ein Analytics-Ziel zu konfigurieren, müssen Ihre Audience Manager-Benutzenden über Administratorberechtigungen verfügen. Siehe [Benutzer erstellen](/help/using/features/administration/administration-overview.md#create-users) im Administrationshandbuch. Beachten Sie, dass die `CREATE_DESTINATIONS` [Platzhalterberechtigung](/help/using/features/administration/administration-overview.md#wild-card-permissions) nicht ausreicht, um Analytics-Ziele zu erstellen.
-Weitere Anforderungen finden Sie unter Voraussetzungen in [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de).
+Weitere Anforderungen finden Sie unter Voraussetzungen in [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 ## Ihr standardmäßiges Analytics-Ziel und neue Analytics-Ziele
 
 | Analytics-Zieltyp | Beschreibung |
 |---|---|
-| Standardeinstellung | Der Name dieses Standardziels lautet &quot;Adobe Analytics&quot;, die Sie bearbeiten können. Zugeordnete Report Suite-IDs werden im Ordnerspeicher für Ihre Audience Manager-Eigenschaften und -Segmente angezeigt. <br>  Audience Manager erstellt automatisch ein Ziel, wenn Ihr Konto Folgendes enthält: <br>  <ul><li>Erfüllen Sie die in der Dokumentation zu [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de) beschriebenen Anforderungen.</li><li>Eine [Report Suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=de) in Analytics.</li></ul> |
+| Standardeinstellung | Der Name dieses Standardziels lautet &quot;Adobe Analytics&quot;, die Sie bearbeiten können. Zugeordnete Report Suite-IDs werden im Ordnerspeicher für Ihre Audience Manager-Eigenschaften und -Segmente angezeigt. <br>  Audience Manager erstellt automatisch ein Ziel, wenn Ihr Konto Folgendes enthält: <br>  <ul><li>Erfüllen Sie die in der Dokumentation zu [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) beschriebenen Anforderungen.</li><li>Eine [Report Suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li></ul> |
 | Neu | Um neue Analytics-Ziele zu erstellen, gehen Sie zu Zielgruppendaten > Ziele > Neues Ziel erstellen und führen Sie die Schritte für jeden Abschnitt aus, der unten beschrieben wird. |
 
 ## Audience Manager-Segmentqualifikationen in Adobe Analytics {#segment-qualifications}
@@ -82,9 +87,9 @@ Dieser Abschnitt enthält Optionen, mit denen Sie Segmente automatisch oder manu
 
 | Zuordnungsoption | Beschreibung |
 |---|---|
-| Alle aktuellen und zukünftigen Segmente automatisch zuordnen | Standardmäßig ausgewählt, sendet diese Funktion alle Segmente, für die sich ein Besucher qualifiziert, pro Treffer an Analytics. <br>  Wenn ein Besucher zu mehr als 150 Audience Manager-Segmenten auf einmal gehört, werden nur die 150 zuletzt qualifizierten Segmente an Analytics gesendet. Die restliche Liste wird dabei abgeschnitten. Eine zusätzliche Markierung wird an Analytics gesendet, die angibt, dass die Segmentliste abgeschnitten wurde. Diese Aktion wird in der Dimension „Zielgruppenname“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „1“ angezeigt. Weitere Informationen finden [&#x200B; in &#x200B;](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=de) FAQs. <br>  Außerdem beeinflusst diese Option die Zielverfügbarkeit in [Segment Builder](/help/using/features/segments/segment-builder.md). Wenn beispielsweise ein Segment automatisch einem Analytics-Ziel zugeordnet wird, ist dieses Ziel nicht im Abschnitt [Zielzuordnungen](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) von Segment Builder verfügbar. Das Analytics-Ziel wird ausgegraut angezeigt und „Analytics“ wird in der Spalte Typ des Ziel-Browsers angezeigt. |
+| Alle aktuellen und zukünftigen Segmente automatisch zuordnen | Standardmäßig ausgewählt, sendet diese Funktion alle Segmente, für die sich ein Besucher qualifiziert, pro Treffer an Analytics. <br>  Wenn ein Besucher zu mehr als 150 Audience Manager-Segmenten auf einmal gehört, werden nur die 150 zuletzt qualifizierten Segmente an Analytics gesendet. Die restliche Liste wird dabei abgeschnitten. Eine zusätzliche Markierung wird an Analytics gesendet, die angibt, dass die Segmentliste abgeschnitten wurde. Diese Aktion wird in der Dimension „Zielgruppenname“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „1“ angezeigt. Weitere Informationen finden [ in ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html) FAQs. <br>  Außerdem beeinflusst diese Option die Zielverfügbarkeit in [Segment Builder](/help/using/features/segments/segment-builder.md). Wenn beispielsweise ein Segment automatisch einem Analytics-Ziel zugeordnet wird, ist dieses Ziel nicht im Abschnitt [Zielzuordnungen](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) von Segment Builder verfügbar. Das Analytics-Ziel wird ausgegraut angezeigt und „Analytics“ wird in der Spalte Typ des Ziel-Browsers angezeigt. |
 | Segmente manuell zuordnen | Diese Option stellt Steuerelemente zum Suchen und Durchsuchen bereit, mit denen Sie auswählen können, welche Segmente an Analytics gesendet werden sollen. <br>  So suchen Sie nach einem Segment: <br>  <ol><li>Geben Sie den Segmentnamen oder die ID in das Suchfeld ein.</li><li>Klicken Sie auf <b>Hinzufügen.</b></li><li>Fahren Sie mit der Suche und dem Hinzufügen von Segmenten fort oder klicken Sie auf <b>Fertig</b>.</li></ol><br>  So suchen Sie nach einem Segment: <ol><li>Klicken Sie <b>Alle Segmente durchsuchen</b>. Dadurch wird eine Liste der verfügbaren Segmente angezeigt.</li><li>Aktivieren Sie in der Liste das Kontrollkästchen des Segments, das Sie verwenden möchten, und klicken Sie auf <b>Ausgewählte Segmente hinzufügen</b>.</li><li>Klicken <b> im Fenster </b> hinzufügen auf „Speichern“. Sie können die Zuordnungen sowie das Start- und Enddatum während der Beta-Version nicht ändern.</li><li>Fahren Sie mit dem Durchsuchen und Hinzufügen von Segmenten fort oder klicken Sie auf <b>Fertig</b>.</li></ol> ![mapSegments](assets/mapSegments.png) |
 
 ## Nächste Schritte
 
-Nachdem Sie ein Ziel erstellt und gespeichert haben, können Sie mit diesen Daten in Analytics arbeiten. Es kann jedoch einige Stunden dauern, bis die Daten in den ausgewählten Report Suites verfügbar sind. Siehe [Verwenden der Zielgruppendaten in Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html?lang=de).
+Nachdem Sie ein Ziel erstellt und gespeichert haben, können Sie mit diesen Daten in Analytics arbeiten. Es kann jedoch einige Stunden dauern, bis die Daten in den ausgewählten Report Suites verfügbar sind. Siehe [Verwenden der Zielgruppendaten in Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html).

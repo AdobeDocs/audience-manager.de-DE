@@ -8,9 +8,14 @@ title: Implementieren des Audience Management-Moduls
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics Integration
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+TQID: https://experienceleague.adobe.com/ESsyIKzybXiGpDmxQrLsAHskzlcRizZVRmO761MeBww
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b89b323a-1e91-40b1-8d20-96b5b726d55a
+subfeature_v2: id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: 457
 ht-degree: 1%
 
 ---
@@ -27,8 +32,8 @@ Führen Sie die Schritte in diesem Tutorial aus, um [!DNL Analytics] Daten an [!
 
 Zusätzlich zur Aktivierung der Erweiterungen oder Implementierung des in diesem Dokument beschriebenen Codes müssen Sie auch Folgendes tun:
 
-* Implementieren Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
-* Aktivieren [&#x200B; (Server-seitige Weiterleitung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) für Report Suites im [!UICONTROL Adobe Analytics Admin Console].
+* Implementieren Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Aktivieren [ (Server-seitige Weiterleitung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) für Report Suites im [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementierung {#implementation}
 
@@ -36,7 +41,7 @@ Je nach der verwendeten Tag-Management-Lösung gibt es zwei Methoden, um die Dat
 
 ### Implementierung mithilfe von [!DNL Adobe Experience Platform Tags]
 
-[!DNL Adobe] empfiehlt die Verwendung der [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)-Erweiterung, um [!DNL Adobe Analytics] und [!DNL Audience Manager] in Ihren Eigenschaften zu instrumentieren. In diesem Fall müssen Sie keinen Code manuell kopieren. Stattdessen müssen Sie die Datenfreigabe in der [!DNL Analytics]-Erweiterung aktivieren, wie in der Abbildung unten dargestellt. Siehe auch die Dokumentation zur [Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=de#adobe-audience-manager)Erweiterung.
+[!DNL Adobe] empfiehlt die Verwendung der [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)-Erweiterung, um [!DNL Adobe Analytics] und [!DNL Audience Manager] in Ihren Eigenschaften zu instrumentieren. In diesem Fall müssen Sie keinen Code manuell kopieren. Stattdessen müssen Sie die Datenfreigabe in der [!DNL Analytics]-Erweiterung aktivieren, wie in der Abbildung unten dargestellt. Siehe auch die Dokumentation zur [Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html#adobe-audience-manager)Erweiterung.
 
 >[!TIP]
 >
@@ -53,7 +58,7 @@ In der folgenden Tabelle werden wichtige Variablen im Code-Beispiel definiert.
 | `partner` | Erforderlich. Dies ist ein Partnername, der Ihnen von [!DNL Adobe] zugewiesen wurde. Dies wird manchmal als Ihre [!UICONTROL partner ID]- oder Partner-Subdomain bezeichnet.  Wenden Sie sich an Ihren [!DNL Adobe] oder [Kundenunterstützung](https://helpx.adobe.com/de/marketing-cloud/contact-support.html), wenn Sie Ihren Partnernamen nicht kennen. |
 | `containerNSID` | Erforderlich. Die meisten Kunden können einfach `"containerNSID":0` festlegen. Wenn Ihr Unternehmen jedoch ID-Synchronisierungen mit einem anderen Container anpassen muss, können Sie diese Container-ID hier angeben. |
 | `uuidCookie` | Optional. Mit dieser Konfiguration können Sie ein [!DNL Adobe]-Cookie in der Erstanbieter-Domain setzen. Dieses [!DNL cookie] enthält die [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | Erforderlich. Der `namespace`-Parameter ist erforderlich, wenn Sie das [!DNL AudienceManagement]-Modul verwenden, das mit [!UICONTROL AppMeasurement] Version 2.10 oder neuer gebündelt ist. Dieses [!UICONTROL AudienceManagement] erfordert die Verwendung von [!UICONTROL Adobe Experience Platform Identity Service] 3.3 oder neuer. <br><br>Die [!UICONTROL Experience Cloud Organization ID] ist die ID, die einem Unternehmen bei der Anmeldung zum [!UICONTROL Experience Cloud] bereitgestellt wird. Erfahren Sie die Organisations-ID Ihres Unternehmens unter [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de). |
+| `visitorService` - `namespace` | Erforderlich. Der `namespace`-Parameter ist erforderlich, wenn Sie das [!DNL AudienceManagement]-Modul verwenden, das mit [!UICONTROL AppMeasurement] Version 2.10 oder neuer gebündelt ist. Dieses [!UICONTROL AudienceManagement] erfordert die Verwendung von [!UICONTROL Adobe Experience Platform Identity Service] 3.3 oder neuer. <br><br>Die [!UICONTROL Experience Cloud Organization ID] ist die ID, die einem Unternehmen bei der Anmeldung zum [!UICONTROL Experience Cloud] bereitgestellt wird. Erfahren Sie die Organisations-ID Ihres Unternehmens unter [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html). |
 
 ## Ergebnisse: Datenweiterleitung an [!DNL Audience Manager] {#results-data-forwarding}
 

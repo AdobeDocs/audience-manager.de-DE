@@ -7,9 +7,13 @@ title: Importieren von Google Campaign Manager-Datendateien in Audience Manager
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
-source-git-commit: 95b7b4347f3da16be05be60cbefc0e236022a4a7
+TQID: https://experienceleague.adobe.com/-LD2jsXjdqhRjhXJfabCiOdw-WNeji-GECu1uunomVU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: 556
 ht-degree: 2%
 
 ---
@@ -22,7 +26,7 @@ Richten Sie eine [!DNL Google] ein, um Ihre [!DNL Google Campaign Manager] Daten
 
 [!DNL Google Campaign Manager] ist [!DNL Google] Ersatz für [!DNL DoubleClick for Advertisers] (DFA). Ähnlich wie bei DFA können [!DNL Google Campaign Manager] Kunden ihre Daten in [!DNL Audience Manager] importieren, anzeigen und mit ihnen arbeiten. [!DNL Audience Manager] können jedoch nicht direkt auf Ihre [!UICONTROL Data Transfer]- und [!UICONTROL Match Table]-Dateien zugreifen und diese importieren. Den Import dieser Dateien muss der Kunde selbst übernehmen.
 
-Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilfe“ gut &#x200B;](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). Außerdem können Sie sich die unten aufgeführten Schritte ansehen, um loszulegen.
+Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilfe“ gut ](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). Außerdem können Sie sich die unten aufgeführten Schritte ansehen, um loszulegen.
 
 >[!CAUTION]
 >
@@ -46,7 +50,7 @@ Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilf
 
    Arbeiten Sie mit Ihrem [!DNL Google Campaign Manager] Account Manager oder Platform Solutions Consultant zusammen. Sie geben Ihnen eine URL zu Ihren Datendateien. [!DNL Google] können das Format für Bucket- und Dateinamen in zukünftigen Versionen ändern. Wenden Sie sich erneut an Ihren [!DNL Google Campaign Manager] Account Manager, um sicherzustellen, dass Sie die richtigen Formate verwenden.
 
-1. [Bucket-Berechtigungen &#x200B;](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission).
+1. [Bucket-Berechtigungen ](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission).
 
    Mit dem [!DNL Cloud Storage Manager] können Sie die Datenfreigabe und den Bucket-Zugriff steuern. Erteilen Sie Ihrer Gruppe Lesezugriff auf den Bucket, der Ihre [!UICONTROL Data Transfer]- und [!UICONTROL Match Table] enthält.
 
@@ -63,6 +67,6 @@ Der Einrichtungsprozess wird jedoch in der „DoubleClick Campaign [Manager-Hilf
 
    Nachdem Sie eine Gruppe erstellt und ihr Zugriff auf einen Daten-Bucket gewährt haben, laden Sie [!DNL Audience Manager] ein, der Gruppe beizutreten. Senden Sie eine Einladungs-E-Mail an dfaaam@adobe.com. Stellen Sie sicher, dass Sie die Datendatei-URL aus Schritt 3 einbeziehen. Unsere internen Teams werden mit Ihnen zusammenarbeiten, um den Zugriff zu überprüfen, nachdem Sie die Einladung angenommen haben. 1. Richten Sie zwei Datenquellen für die [!DNL Google Campaign Manager] von Daten in der [!DNL Audience Manager]-Benutzeroberfläche ein.
 
-   Benennen Sie die Datenquellen `Advertiser Analytics: DCM Platform` und `Advertiser Analytics: AAM+DCM Platform`. Legen [&#x200B; im Workflow „Datenquellen erstellen](../../../features/manage-datasources.md#create-data-source) den ID-Typ auf `Cookie` fest. Geben Sie die IDs der beiden neuen Datenquellen für unsere internen Teams frei.
+   Benennen Sie die Datenquellen `Advertiser Analytics: DCM Platform` und `Advertiser Analytics: AAM+DCM Platform`. Legen [ im Workflow „Datenquellen erstellen](../../../features/manage-datasources.md#create-data-source) den ID-Typ auf `Cookie` fest. Geben Sie die IDs der beiden neuen Datenquellen für unsere internen Teams frei.
 
 1. Aus den [!DNL Google Campaign Manager] Dateien, die Sie in [!DNL Audience Manager] importieren, können Sie auf einfache Weise Eigenschaften erstellen. Siehe [Verwertbare Protokolldateien](../../../integration/media-data-integration/actionable-log-files.md) und bitten Sie Ihren [!DNL Audience Manager] oder die Kundenunterstützung, die Funktion für Sie zu aktivieren.

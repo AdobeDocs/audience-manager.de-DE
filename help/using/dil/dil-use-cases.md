@@ -7,9 +7,14 @@ title: DIL-Anwendungsfälle und Code-Beispiele
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
+TQID: https://experienceleague.adobe.com/XKzjo9OINGxJ8qCR7S4NxWh03pCDpNhb5sCZkiVAapQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11
+subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: 961
 ht-degree: 1%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 1%
 >
 >Ab Juli 2023 hat Adobe die Entwicklung des [!DNL Data Integration Library (DIL)] und der [!DNL DIL] eingestellt.
 >
->Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Adobe wird jedoch keine [!DNL DIL] über diesen Punkt hinaus entwickeln. Kundinnen und Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
+>Bestehende Kundinnen und Kunden können ihre [!DNL DIL] Implementierung weiterhin nutzen. Adobe wird jedoch keine [!DNL DIL] über diesen Punkt hinaus entwickeln. Kundinnen und Kunden wird empfohlen, [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) auf ihre langfristige Datenerfassungsstrategie hin zu überprüfen.
 >
->Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) verwenden.
+>Kunden, die nach Juli 2023 neue Datenerfassungsintegrationen implementieren möchten, sollten stattdessen [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden.
 
 Code-Beispiele und Beschreibungen für bestimmte DIL-Anwendungsfälle.
 
@@ -44,7 +49,7 @@ c_dil_send_page_objects.xml
 
 **Beschreibung**
 
-Der folgende Code veranschaulicht, wie Seitendaten erfasst und mit [!UICONTROL DIL] an Audience Manager gesendet werden. In diesen Beispielen wird eine Variable verwendet, um Datenelemente in einer flachen Liste oder einem Array zu speichern. Denken Sie daran, Variablen als „Schlüssel[Wert-Paare“ &#x200B;](../reference/key-value-pairs-explained.md). Beachten Sie außerdem das `c_` Präfix vor dem Schlüssel im Schlüssel-Wert-Paar. Dieses [erforderliche Präfix](../features/traits/trait-variable-prefixes.md) kennzeichnet Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie `c_` manuell an den Schlüssel anhängen. Im zweiten Beispiel erledigt [!UICONTROL DIL] dies automatisch für Sie.
+Der folgende Code veranschaulicht, wie Seitendaten erfasst und mit [!UICONTROL DIL] an Audience Manager gesendet werden. In diesen Beispielen wird eine Variable verwendet, um Datenelemente in einer flachen Liste oder einem Array zu speichern. Denken Sie daran, Variablen als „Schlüssel[Wert-Paare“ ](../reference/key-value-pairs-explained.md). Beachten Sie außerdem das `c_` Präfix vor dem Schlüssel im Schlüssel-Wert-Paar. Dieses [erforderliche Präfix](../features/traits/trait-variable-prefixes.md) kennzeichnet Informationen als benutzerdefinierte Daten. Im ersten Beispiel müssen Sie `c_` manuell an den Schlüssel anhängen. Im zweiten Beispiel erledigt [!UICONTROL DIL] dies automatisch für Sie.
 
 **Werteigenschaften konsistent halten**
 
@@ -56,10 +61,10 @@ Dieses Grundbeispiel sendet Farb- und Preisdaten in Form von Schlüssel-Wert-Paa
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals(&lbrace; 
+sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
-&rbrace;); 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -68,10 +73,10 @@ sample_dil.api.submit();
 Dieses erweiterte Beispiel zeigt, wie Daten in einem -Objekt an Audience Manager gesendet werden. Bei der Arbeit mit dieser Methode können Sie [!UICONTROL DIL] ein -Objekt als Funktionsparameter in die [!DNL signals()]-Methode übergeben. [!UICONTROL DIL] Ihr Code könnte in etwa wie folgt aussehen:
 
 <pre class="java"><code>
-var my_object = &lbrace; 
+var my_object = { 
    color : "blue", 
    price : "900" 
-&rbrace;; 
+}; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,21 +88,21 @@ sample_dil.api.signals(my_object,"c_").submit();
 In diesem Fall verwendet die Variable `my_object` ein Array zum Speichern von Daten. Dieses Beispiel baut auf den Informationen auf, die von der oben empfohlenen Methode übergeben werden, fügt jedoch eine zusätzliche Ebene hinzu, um einen Produkttyp und ein Modell aufzunehmen. Ihr Code könnte in etwa wie folgt aussehen:
 
 <pre class="java"><code>
-var my_objects = &lbrack;&lbrace; 
+var my_objects = [{ 
    color : "blue", 
    price : "900" 
-&rbrace;, &lbrace; 
+}, { 
    type : "acura", 
    model : "tl" 
-&rbrace;&rbrack;; 
+}]; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-&lbrace; 
+{ 
     sample_dil.api.signals(my_objects[i], "c_"); 
-&rbrace; 
+} 
 sample_dil.api.submit();
 </code></pre>
 
@@ -162,12 +167,12 @@ Nehmen wir in diesem Fall an, dass ein Benutzer nach dem Begriff „Wohnungen“
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 **Code-Beispiel für nicht aufgeführte Suchmaschinen**
@@ -176,17 +181,17 @@ Nehmen wir in diesem Fall an, dass ein Benutzer in `dogpile.com` nach dem Begrif
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-&rbrace;); 
+}); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 ## Schlüsselwerte anderen Schlüsseln zuordnen {#map-key-values}
@@ -251,4 +256,4 @@ Traffic der `dil.js` in GTM:
 >
 >* [Hilfe-Center für den Google Tag-Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Signale](../dil/dil-instance-methods.md#signals)
->* [Anforderungen an Präfixe für Schlüsselvariablen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=de#prefix-requirements-for-key-variables)
+>* [Anforderungen an Präfixe für Schlüsselvariablen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)

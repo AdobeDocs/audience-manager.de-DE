@@ -8,9 +8,14 @@ title: Verwalten von Datenquellen
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: bda66cb9aaee3a40ae64dda100f42b88696a027e
+TQID: https://experienceleague.adobe.com/ffRcCmzJX4WW0nTvEALBrE1Sm-b9Fl7Wj2heT-uNIx0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
@@ -25,7 +30,7 @@ Um ein neues [!UICONTROL data source] zu erstellen, gehen Sie zu **[!UICONTROL A
 
 >[!TIP]
 >
->Beschreibungen [&#x200B; verschiedenen Steuerelemente finden Sie unter Einstellungen für Data Source &#x200B;](../features/datasources-list-and-settings.md#settings-menu-options) Menüoptionen.
+>Beschreibungen [ verschiedenen Steuerelemente finden Sie unter Einstellungen für Data Source ](../features/datasources-list-and-settings.md#settings-menu-options) Menüoptionen.
 
 ## [!UICONTROL Data Source] {#details}
 
@@ -35,9 +40,9 @@ Um den Abschnitt [!UICONTROL Data Source Details] auszufüllen, füllen Sie die 
 1. **[!UICONTROL Description]** (optional): Geben Sie eine Beschreibung für Ihre Datenquelle ein, um die Rolle oder den Zweck der Datenquelle zu definieren.
 1. **[!UICONTROL Integration Code]** (optional): Geben Sie einen Integrations-Code ein. Diese Codes sind erforderlich, wenn Sie Folgendes tun möchten:
    * [Erstellen einer geräteübergreifenden Datenquelle](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Verwenden Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+   * Verwenden Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Arbeiten mit [Profilzusammenführungsregeln](../features/profile-merge-rules/merge-rules-start.md).
-1. **[!UICONTROL Namespace]** (schreibgeschützt): Dieses Feld ist schreibgeschützt und wird beim Speichern der Datenquelle automatisch generiert. Wenn Sie Segmente aus Audience Manager nach Experience Platform exportieren möchten, müssen Sie in Experience Platform einen entsprechenden [Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces) erstellen und dabei den automatisch generierten Wert als Namespace ([) &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) Experience Platform verwenden.
+1. **[!UICONTROL Namespace]** (schreibgeschützt): Dieses Feld ist schreibgeschützt und wird beim Speichern der Datenquelle automatisch generiert. Wenn Sie Segmente aus Audience Manager nach Experience Platform exportieren möchten, müssen Sie in Experience Platform einen entsprechenden [Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) erstellen und dabei den automatisch generierten Wert als Namespace ([) ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) Experience Platform verwenden.
 1. **[!UICONTROL ID Type]**: Wählen Sie den Typ der IDs aus, die diese Datenquelle enthalten soll:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -69,7 +74,7 @@ Löschen Sie eine [!UICONTROL data source], die Sie nicht mehr benötigen.
 >Bitte beachten Sie die folgenden Einschränkungen:
 >
 >* Sie können keine [Active Audience oder synchronisierte Data Source-Eigenschaft](../features/traits/client-activity-synced-audience-traits.md) löschen.
->* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt es Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Mit dem [Core Service](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes) können Sie die Zuordnung dieser Datenquellen aufheben.
+>* Für Kunden, die Adobe Analytics verwenden: Audience Manager erlaubt es Ihnen nicht, automatisch erstellte Datenquellen aus Ihren [!DNL Analytics] Report Suites zu löschen. Mit dem [Core Service](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) können Sie die Zuordnung dieser Datenquellen aufheben.
 
 1. Klicken Sie auf **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Datenquellen.

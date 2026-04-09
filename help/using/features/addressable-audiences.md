@@ -8,9 +8,14 @@ title: Addressable Audiences
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: cecdc0b0f43a146e11f7d23eb21a06146496ac2d
+TQID: https://experienceleague.adobe.com/kXtuVVcN9CH-pTICWdyfa8ast-zgf4zf61su39blynE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ecid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: c8bc25a4-94eb-4dcd-b377-9328026b8b06id: d3dfac44-e20d-492d-a806-0f4a4a495901id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: f8c1669e-86ba-49c4-b622-9dfa07854df8id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: 1831
 ht-degree: 0%
 
 ---
@@ -33,7 +38,7 @@ Die [!UICONTROL Addressable Audiences] Funktion zeigt die Überschneidung zwisch
 | [!UICONTROL Customer Addressable Audience] | Zählung der Überschneidungen von Geräten, die während des Lookback-Fensters entweder eine [!UICONTROL rule-based trait] oder eine [!UICONTROL onboarded trait] realisiert haben, und Geräten, bei denen eine ID-Synchronisierung mit dem ausgewählten [!UICONTROL destination] erfolgt, unabhängig vom Zeitpunkt der Synchronisierung.<br><br>Diese Metrik stellt Geräte dar, die:<ul><li>Während des Lookback-Fensters entweder ein [!UICONTROL rule-based] oder ein [!UICONTROL onboarded trait] realisiert haben `AND`</li><li>Es muss unabhängig vom Zeitpunkt der Synchronisierung eine ID-Synchronisierung mit dem ausgewählten [!UICONTROL destination] erfolgen.</li> |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] als Prozentsatz ausgedrückt. |
 | [!UICONTROL Total Segment Population] | Eine Zählung aller Geräte, die während des Lookback-Zeitraums zu Ihrem [!UICONTROL segment] gehörten. |
-| [!UICONTROL Segment Addressable Audience] | Die Anzahl der Benutzenden, die während des Lookback-Zeitraums des Berichts zur [!UICONTROL segment] gehört haben und über eine aktive ID-Synchronisierung auf Ihrer Site verfügen. [!UICONTROL Segments] können Ihre eigenen Erstanbieterdaten sowie Zweit- und Drittanbieterdaten über [!UICONTROL traits] einbeziehen, die in der [Audience Marketplace erfasst &#x200B;](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md). <br><br>Tipp: Bei Verwendung mit der eintägigen Lookback-Phase kann diese Metrik Ihnen dabei helfen, den aktuellen Status Ihrer [!UICONTROL segments] zu verstehen. Dies liegt daran, dass die Metrik [!UICONTROL Segment Addressable Audience] die Benutzenden darstellt, die den gesamten Vortag in einem [!UICONTROL segment] verblieben sind. [!DNL Audience Manager] Kombinieren Sie dies mit der Tatsache, dass [!UICONTROL Addressable Audiences] täglich aktualisiert wird, und kombinieren Sie diese Metrik und den Lookback-Zeitraum, um die aktuellste Momentaufnahme Ihrer [!UICONTROL segments] zu erhalten. |
+| [!UICONTROL Segment Addressable Audience] | Die Anzahl der Benutzenden, die während des Lookback-Zeitraums des Berichts zur [!UICONTROL segment] gehört haben und über eine aktive ID-Synchronisierung auf Ihrer Site verfügen. [!UICONTROL Segments] können Ihre eigenen Erstanbieterdaten sowie Zweit- und Drittanbieterdaten über [!UICONTROL traits] einbeziehen, die in der [Audience Marketplace erfasst ](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md). <br><br>Tipp: Bei Verwendung mit der eintägigen Lookback-Phase kann diese Metrik Ihnen dabei helfen, den aktuellen Status Ihrer [!UICONTROL segments] zu verstehen. Dies liegt daran, dass die Metrik [!UICONTROL Segment Addressable Audience] die Benutzenden darstellt, die den gesamten Vortag in einem [!UICONTROL segment] verblieben sind. [!DNL Audience Manager] Kombinieren Sie dies mit der Tatsache, dass [!UICONTROL Addressable Audiences] täglich aktualisiert wird, und kombinieren Sie diese Metrik und den Lookback-Zeitraum, um die aktuellste Momentaufnahme Ihrer [!UICONTROL segments] zu erhalten. |
 | [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] als Prozentsatz ausgedrückt. |
 
 ## [!UICONTROL Addressable Audiences] {#addressable-audience-interface}
@@ -50,7 +55,7 @@ Die drei Metriken, die Sie auf der [!UICONTROL Addressable Audiences] Landingpag
 |---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Diese Metrik stellt die [!UICONTROL Customer Addressable Audience] (wie in der obigen Tabelle beschrieben) *der letzten 30 Tage) dar* |
 | **[!UICONTROL Match Rate]** | Diese Metrik stellt die [!UICONTROL Addressable Audience Match Rate] (wie in der obigen Tabelle beschrieben) *für die letzten 30 Tage* dar. |
-| **[!UICONTROL Lifetime Addressable Audience (Device)]** | Eine Zählung aller Geräte, die während des Lookback-Zeitraums des Berichts auf Plattformebene mit allen [!DNL Audience Manager] Kunden interagiert haben und die dieser [!UICONTROL destination] zugeordnet werden könnten. Weitere Informationen finden [&#x200B; unter &#x200B;](/help/using/features/addressable-audiences.md#platform-level-metrics) auf Plattformebene . |
+| **[!UICONTROL Lifetime Addressable Audience (Device)]** | Eine Zählung aller Geräte, die während des Lookback-Zeitraums des Berichts auf Plattformebene mit allen [!DNL Audience Manager] Kunden interagiert haben und die dieser [!UICONTROL destination] zugeordnet werden könnten. Weitere Informationen finden [ unter ](/help/using/features/addressable-audiences.md#platform-level-metrics) auf Plattformebene . |
 
 Klicken Sie auf den Namen eines [!UICONTROL server-to-server destination], um Ihre adressierbaren Zielgruppendaten anzuzeigen. Beachten Sie, dass diese Funktion nur Daten für [!UICONTROL server-to-server destinations] zurückgibt und der Zugriff Administratorberechtigungen erfordert.
 
@@ -68,7 +73,7 @@ Vor dem Kauf von Drittanbieterdaten für die Zielgruppenerfassung können Kunden
 
 ### Mobile Benutzer und Übereinstimmungsraten
 
-Es gibt Lücken beim Versuch, [!DNL Safari]- oder Mobile-App-Benutzer zu verbinden, wenn keine Drittanbieter-[!DNL cookies] vorhanden sind. Dies erschwert die Synchronisierung von Benutzern mit einigen Partnern, da in den Medienbereitstellungsprotokollen nur die [!DNL Adobe]-IDs für synchronisierte [!DNL cookies] von Drittanbietern angegeben werden. Dies ist ein Grund, warum für Ihre [&#x200B; möglicherweise &#x200B;](../features/addressable-audiences.md#low-match-rates)niedrige Übereinstimmungsraten[!UICONTROL destinations] angezeigt werden.
+Es gibt Lücken beim Versuch, [!DNL Safari]- oder Mobile-App-Benutzer zu verbinden, wenn keine Drittanbieter-[!DNL cookies] vorhanden sind. Dies erschwert die Synchronisierung von Benutzern mit einigen Partnern, da in den Medienbereitstellungsprotokollen nur die [!DNL Adobe]-IDs für synchronisierte [!DNL cookies] von Drittanbietern angegeben werden. Dies ist ein Grund, warum für Ihre [ möglicherweise ](../features/addressable-audiences.md#low-match-rates)niedrige Übereinstimmungsraten[!UICONTROL destinations] angezeigt werden.
 
 ## Datumsbereiche in [!UICONTROL Addressable Audiences] und [!UICONTROL Destinations] {#date-ranges}
 
@@ -127,7 +132,7 @@ Diese Metriken geben Daten zur [!UICONTROL segment] zurück. Sie bieten eine det
 
 | Metrik | Beschreibung |
 |---|---|
-| [!UICONTROL Segment Addressable Audience] | Die Anzahl der Benutzenden, die während des Lookback-Zeitraums des Berichts zur [!UICONTROL segment] gehört haben und über eine aktive ID-Synchronisierung auf Ihrer Site verfügen. Segmente können Ihre eigenen Erstanbieterdaten sowie Zweit- und Drittanbieterdaten über [!UICONTROL traits] enthalten, die in der [Audience Marketplace erfasst &#x200B;](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Tipp: Bei Verwendung mit der eintägigen Lookback-Phase kann diese Metrik Ihnen dabei helfen, den aktuellen Status Ihrer [!UICONTROL segments] zu verstehen. Dies liegt daran, dass die Metrik [!UICONTROL Segment Addressable Audience] die Benutzenden darstellt, die den gesamten Vortag in einem [!UICONTROL segment] verblieben sind. [!DNL Audience Manager] Kombinieren Sie dies mit der Tatsache, dass [!UICONTROL Addressable Audiences] täglich aktualisiert wird, und kombinieren Sie diese Metrik und den Lookback-Zeitraum, um die aktuellste Momentaufnahme Ihrer [!UICONTROL segments] zu erhalten. |
+| [!UICONTROL Segment Addressable Audience] | Die Anzahl der Benutzenden, die während des Lookback-Zeitraums des Berichts zur [!UICONTROL segment] gehört haben und über eine aktive ID-Synchronisierung auf Ihrer Site verfügen. Segmente können Ihre eigenen Erstanbieterdaten sowie Zweit- und Drittanbieterdaten über [!UICONTROL traits] enthalten, die in der [Audience Marketplace erfasst ](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Tipp: Bei Verwendung mit der eintägigen Lookback-Phase kann diese Metrik Ihnen dabei helfen, den aktuellen Status Ihrer [!UICONTROL segments] zu verstehen. Dies liegt daran, dass die Metrik [!UICONTROL Segment Addressable Audience] die Benutzenden darstellt, die den gesamten Vortag in einem [!UICONTROL segment] verblieben sind. [!DNL Audience Manager] Kombinieren Sie dies mit der Tatsache, dass [!UICONTROL Addressable Audiences] täglich aktualisiert wird, und kombinieren Sie diese Metrik und den Lookback-Zeitraum, um die aktuellste Momentaufnahme Ihrer [!UICONTROL segments] zu erhalten. |
 | [!UICONTROL Total Segment Population] | Eine Zählung aller Geräte, die während des Lookback-Zeitraums zu Ihrem [!UICONTROL segment] gehörten. |
 | [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] als Prozentsatz ausgedrückt. |
 

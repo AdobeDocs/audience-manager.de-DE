@@ -6,9 +6,14 @@ solution: Audience Manager
 title: Workflow A - Personalization basiert auf allen Online-Aktivitäten in Kombination mit Offline-Daten
 feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/sZk5ctZQ0uyK1z1D0mQpTz0DHy6Lnv9hRky-H-d0Tp0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -66,7 +71,7 @@ In diesem Fall müssen Sie eine neue geräteübergreifende Datenquelle erstellen
 
 Sehen Sie sich das folgende Video an, um ein Video-Tutorial zum Erstellen einer Datenquelle für [!UICONTROL People-Based Destinations] zu erhalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/32165?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >
@@ -76,7 +81,7 @@ Sehen Sie sich das folgende Video an, um ein Video-Tutorial zum Erstellen einer 
 
 >[!IMPORTANT]
 >
-> Dieser Schritt gilt nur für [&#x200B; oben &#x200B;](people-based-destinations-workflow-combined.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 3: Erstellen einer Profilzusammenführungsregel für die Segmentierung](people-based-destinations-workflow-combined.md#create-merge-rule) fort.
+> Dieser Schritt gilt nur für [ oben ](people-based-destinations-workflow-combined.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 3: Erstellen einer Profilzusammenführungsregel für die Segmentierung](people-based-destinations-workflow-combined.md#create-merge-rule) fort.
 
 Nehmen wir an, Sie möchten Ihre bestehenden [DPUUIDs](../../reference/ids-in-aam.md) mit den Hash-E-Mail-Adressen aus der unten stehenden Tabelle (rechte Spalte) abgleichen und die Hash-E-Mail-Adressen in der neuen Datenquelle speichern, die Sie unter [Schritt 1 - Konfigurieren von Data Source Settings](people-based-destinations-workflow-combined.md#configure-data-source-settings) erstellt haben.
 
@@ -88,7 +93,7 @@ Nehmen wir an, Sie möchten Ihre bestehenden [DPUUIDs](../../reference/ids-in-aa
 
  
 
-Sie können bis zu 10 gehashte E-Mail-Adressen mit einer einzigen [DPUUID“ &#x200B;](../../reference/ids-in-aam.md). Trennen Sie dazu die gehashten E-Mail-Adressen in der Synchronisierungsdatei durch einen `<TAB>`.
+Sie können bis zu 10 gehashte E-Mail-Adressen mit einer einzigen [DPUUID“ ](../../reference/ids-in-aam.md). Trennen Sie dazu die gehashten E-Mail-Adressen in der Synchronisierungsdatei durch einen `<TAB>`.
 
 In unserem Beispiel hätten Sie jetzt zwei Datenquellen.
 
@@ -118,7 +123,7 @@ Die [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-da
 Im obigen Beispiel würde der Dateiname wie folgt aussehen:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Laden Sie hier die Beispieldatei &#x200B;](assets/c2c_id_999999_987654_1560431657.sync).
+[Laden Sie hier die Beispieldatei ](assets/c2c_id_999999_987654_1560431657.sync).
 
 Nachdem Sie Ihre ID-Synchronisierungsdatei erstellt haben, müssen Sie sie in einen [!DNL Amazon S3] Bucket hochladen. Informationen zum Hochladen von ID-Synchronisierungsdateien finden Sie unter [Senden von Batch-Daten an Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
@@ -167,5 +172,5 @@ Verwenden Sie zum Erstellen neuer Zielgruppensegmente den [Segment Builder](../s
 1. Klicken Sie auf **[!UICONTROL Next]**.
 1. Wählen Sie die **[!UICONTROL Data Export Labels]** aus, die Sie für dieses Ziel festlegen möchten.
 1. Wählen Sie im Abschnitt **[!UICONTROL Configuration]** die Datenquelle aus, die Ihre gehashten Datenquellen enthält.
-1. Wählen Sie im Abschnitt **[!UICONTROL Segment Mappings]** die Segmente aus, die Sie an dieses Ziel senden möchten. Hierbei handelt es sich um die Segmente, die Sie unter [Schritt 4: Erstellen von Zielgruppensegmenten) &#x200B;](people-based-destinations-workflow-combined.md#create-audience-segments).
+1. Wählen Sie im Abschnitt **[!UICONTROL Segment Mappings]** die Segmente aus, die Sie an dieses Ziel senden möchten. Hierbei handelt es sich um die Segmente, die Sie unter [Schritt 4: Erstellen von Zielgruppensegmenten) ](people-based-destinations-workflow-combined.md#create-audience-segments).
 1. Speichern Sie das Ziel.

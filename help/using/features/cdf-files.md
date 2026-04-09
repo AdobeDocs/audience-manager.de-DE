@@ -8,9 +8,13 @@ title: Kundendaten-Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 89137248aa47573f5b65e387a152f651419da827
+TQID: https://experienceleague.adobe.com/9Nw-TM2ND4qO0BVssmGKTAoRAF-K4aNRZSL8Fnlcrgk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: 1988
 ht-degree: 2%
 
 ---
@@ -111,7 +115,7 @@ Eine [!UICONTROL CDF]-Datei enthält einige oder alle der unten definierten Feld
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Zeichenfolge </p> </td> 
-   <td colname="col3"> <p>Die <span class="keyword"> Experience Cloud</span> ID (MID), die dem Site-Besucher zugewiesen wurde. Siehe auch <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> von Cookies und der Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>Die <span class="keyword"> Experience Cloud</span> ID (MID), die dem Site-Besucher zugewiesen wurde. Siehe auch <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und der Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +167,7 @@ Listet die Datenstruktur einer [!UICONTROL CDF] auf und definiert sie. Dazu geh�
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Anfrageparameter </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-Adresse </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID) Siehe auch <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> von Cookies und der Adobe Experience Platform Identity Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud-Geräte-ID (oder MID) Siehe auch <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und der Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle Segmente </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle Eigenschaften </li> 
      </ol> </p> <p>Beschreibungen der Felder finden Sie unter <a href="#cdf-defined"> von definierten Inhalten für Kundendaten-Feeds</a>. </p> </td> 

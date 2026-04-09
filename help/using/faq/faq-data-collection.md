@@ -8,13 +8,17 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-Adresse; SFTP-IP-Adresse; FTP-Adresse
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 974f45268d50c486c872137a3aa6d8fc7f691024
+TQID: https://experienceleague.adobe.com/C35e-eIULWyFZPASMC-vwOIU1Yk-SH-HZzGRTO89yFg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: b89b323a-1e91-40b1-8d20-96b5b726d55aid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: b1ecf375-97f8-4f5a-a937-6129552209beid: b52f95d5-ca6b-4fda-a49e-994dc0a63402id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: 1255
 ht-degree: 74%
 
 ---
-
 
 # Häufig gestellte Fragen zur Datenerfassung und Produktintegration{#data-collection-and-product-integration-faq}
 
@@ -30,7 +34,7 @@ Eigenschaften, die über [!UICONTROL Inbound] integriert wurden, werden von [!UI
 * DomainID wird auf 5325 gesetzt
 * Region wird auf 0 gesetzt
 
-<br>
+<br> 
 
 **Können Sie mir eine Liste von IP-Adressen bereitstellen, die ich einer Zulassungsliste für dpm.demdex.net hinzufügen kann?**
 
@@ -115,7 +119,7 @@ Dieser Kunde verwendet [!DNL AppMeasurement] Version 3.5.2:
 https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 ```
 
-<br>
+<br> 
 
 **Kann ich Seitendaten erfassen, wenn ich kein [!DNL Analytics]-Kunde bin?**
 
@@ -128,7 +132,7 @@ Ja. Mit dem [!UICONTROL DIL]-Modul können Sie Seitendaten erfassen, auch wenn S
 
 Darüber hinaus können Clients ein einfaches On-site-Objekt bereitstellen und es mit Schlüssel-Wert-Paaren füllen, für die [!UICONTROL DIL] Daten erfassen soll. Auf diese Weise können Sie bestimmte Zielgruppendatenpunkte auf Ihrer Site hinzufügen und entfernen, ohne dass [!DNL Audience Management]t-Updates erforderlich sind. Arbeiten Sie mit Ihrem Partner Solutions-Support-Mitarbeiter zusammen, um dies ordnungsgemäß einzurichten und sicherzustellen, dass das [!DNL DIL]-Modul das Seitenobjekt korrekt referenziert.
 
-<br>
+<br> 
 
 **Kann [!UICONTROL DIL] Daten von [!DNL Google Analytics] erfassen?**
 
@@ -137,7 +141,7 @@ Ja. [!UICONTROL DIL] kann einige [!DNL Google Analytics] (GA)-Elemente erfassen 
 * [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)
 * [GA.init](../dil/dil-modules.md#ga-init)
 
-<br>
+<br> 
 
 **Kann ich Rohdaten von [!DNL Audience Manager] abrufen und wie detailliert sind sie?**
 
@@ -149,37 +153,37 @@ Ja, [!DNL Audience Manager] kann Ihnen Daten zur Verfügung stellen, die für Be
 * Zeitstempel
 * Seiten-URLs
 
-<br>
+<br> 
 
 **Ich möchte Daten auf einer Site erfassen und Benutzer über [!DNL Google Ad Manager] auf einer anderen Site ansprechen. Muss ich Code für die andere Eigenschaft bereitstellen, wenn ich keine Daten von dieser Site erfassen möchte?**
 
 Nein. Wenn die Datenerfassung auf der zweiten Site nicht erforderlich ist, müssen Sie die DIL dort nicht bereitstellen. Sofern Sie über [!DNL Google Ad Manager] Zugriff auf das Inventar auf der zweiten Site haben, können Sie die Datenerfassung von der ersten Site und dem Ziel über [!DNL Google Ad Manager] verwenden.
 
-<br>
+<br> 
 
 **Was ist der beste Drittanbieter von Daten?**
 
 Jeder Anbieter bringt etwas Einzigartiges mit, daher hängt die Antwort davon ab, wonach Sie suchen. Wir können Überlagerungsberichte (kostenlos) aktivieren, um Ihnen bei der Entscheidung zu helfen, welcher Anbieter für Sie am besten geeignet ist.
 
-<br>
+<br> 
 
 **Wie setzt [!DNL Audience Manager] Cookies und übergibt Variablen an [!DNL Google Ad Manager]?**
 
 [!DNL Audience Manager] setzt 2 Cookies: Einer sendet Segmentvariablen an das [!DNL Google Ad Manager] Ad-Tag und der andere setzt unsere Unique User ID (UUID), die auch von [!DNL Google Ad Manager] gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
 
-<br>
+<br> 
 
 **Können wir einer DSP Information über Punkte im Konversionstrichter senden, die ein Benutzer erreicht hat?**
 
 Ja. Wir können Trichterdaten senden, aber die DSP muss über technisch in der Lage sein, diese zu verwenden. Eine DSP muss bestätigen, dass sie mehrere Segmente verarbeiten kann. Wenn dies nicht möglich ist, müssen wir möglicherweise spezifische Segmente erstellen, um einen Benutzer anhand seines Konversionsfortschritts aus anderen Segmenten zu entfernen (z. B. Schritte 1 und 2 abgeschlossen, aber nicht Schritt 3). Möglicherweise möchten Sie diese Informationen an eine DSP senden, damit diese Benutzer zielgerichtet ansprechen, zu einer bestimmten Landingpage weiterleiten oder bestimmte kreative Inhalte anzeigen kann.
 
-<br>
+<br> 
 
 **Wie kann ich bestätigen, dass über FTP gesendete Daten von [!DNL Audience Manager] erfasst wurden?**
 
 Eine Datei wurde erfasst, wenn sich die Erweiterung von `.sync` in `.processed` ändert. In diesem Fall befindet sich die Datei in der Erfassungswarteschlange. Außerdem kann Ihr Kundenbetreuer bestätigen, wann eine Datei hochgeladen wurde.
 
-<br>
+<br> 
 
 **Ich möchte die Funktionalität der [DCS-API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md) testen. Ich sende Ereignisaufrufe wie den unten gezeigten. Die Aufrufe enthalten [deklarierte IDs](../features/declared-ids.md) und Signale, die einige Eigenschaften und Segmente realisieren sollten, die ich bereits eingerichtet habe. Kann ich die [!UICONTROL General Reports] und [!UICONTROL Trend Reports] verwenden, um zu überprüfen, ob die Eigenschafts- und Segmentpopulationen zunehmen?**
 
@@ -191,7 +195,7 @@ Nein, verlassen Sie sich in diesem Fall nicht auf die [!UICONTROL General Report
 
 Die Berichte berechnen Populationen basierend auf den nicht authentifizierten Profildatensätzen (UUIDs), die zum Zeitpunkt der Berichterstellung im Backend angezeigt werden.
 
-Bei einem ersten Aufruf des [!DNL DCS] werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. auf der Client-Seite ist kein [demdex-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=de) vorhanden). Der [!DNL DCS] generiert eine UUID nach dem Zufallsprinzip, setzt ein [!DNL demdex]-Cookie und gibt es im Antwortaufruf weiter. Er überträgt jedoch die UUID nicht an das Backend.
+Bei einem ersten Aufruf des [!DNL DCS] werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. auf der Client-Seite ist kein [demdex-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) vorhanden). Der [!DNL DCS] generiert eine UUID nach dem Zufallsprinzip, setzt ein [!DNL demdex]-Cookie und gibt es im Antwortaufruf weiter. Er überträgt jedoch die UUID nicht an das Backend.
 
 >[!NOTE]
 >
@@ -201,7 +205,7 @@ Aus diesem Grund spiegeln die Berichte nicht die Ereignisse wider, die durch die
 
 Weitere Informationen finden Sie unter [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br>
+<br> 
 
 **Wie lange dauert die [regionsübergreifende](../api/dcs-intro/dcs-api-reference/dcs-regions.md) Synchronisierung von Benutzerprofilen?**
 

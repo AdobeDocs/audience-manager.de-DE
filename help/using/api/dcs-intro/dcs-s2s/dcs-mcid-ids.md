@@ -7,9 +7,14 @@ title: Abrufen von Benutzer-IDs und Regionen über den Adobe Experience Platform
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
-source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
+TQID: https://experienceleague.adobe.com/7UuzQe1yy6pAK8GxBgmcTGqn08gFLWbArbHAr87aXFg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: 613
 ht-degree: 2%
 
 ---
@@ -20,7 +25,7 @@ ID-Service-Kunden sollten in diesem Abschnitt Informationen darüber finden, wie
 
 ## Abrufen der Benutzer-ID aus dem ID-Dienst-Cookie {#get-user-ids-from-service-cookie}
 
-Der [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) weist Benutzern, die Ihre Website besuchen, Besucher- und Regions-IDs zu. Diese IDs identifizieren Benutzende für alle Lösungen im [!DNL Experience Cloud] und sind erforderlich, wenn Sie [!DNL DCS] Aufrufe durchführen möchten.
+Der [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) weist Benutzern, die Ihre Website besuchen, Besucher- und Regions-IDs zu. Diese IDs identifizieren Benutzende für alle Lösungen im [!DNL Experience Cloud] und sind erforderlich, wenn Sie [!DNL DCS] Aufrufe durchführen möchten.
 
 * Die [!UICONTROL user ID] ist erforderlich, um Daten zu identifizieren und mit einem bestimmten Besucher zu verknüpfen.
 * Der [!UICONTROL region ID] ist erforderlich, da er an einen regionalen Servernamen gebunden ist, den Sie zum Senden von Daten an die [!DNL DCS] benötigen. Die [!DNL DCS] speichert Informationen in Rechenzentren, die geografisch den Besuchern der Website am nächsten liegen. Siehe [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
@@ -39,15 +44,15 @@ Code in *Kursiv* stellt einen Variablenplatzhalter dar.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>1. Überprüfen Sie den Status Ihres <span class="keyword"> Experience Cloud</span>s</b> </p> </td> 
-   <td colname="col2"> <p>Sie benötigen ein <span class="keyword"> Experience Cloud</span>-Konto, um den ID-Dienst verwenden zu können. Wenn Sie über ein <span class="keyword"> Experience Cloud</span>-Konto verfügen, großartig! </p> <p> Wenn Sie nicht Teil des <span class="keyword"> Experience Cloud</span> sind, melden Sie sich an. Wir würden uns freuen, Sie zu haben, und es ist immer Platz für mehr. Anweisungen zum Einrichten eines Kontos finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/core-services/interface/services/getting-started" format="https" scope="external"> Aktivieren Ihrer Lösungen für zentrale Services</a>. </p> </td> 
+   <td colname="col2"> <p>Sie benötigen ein <span class="keyword"> Experience Cloud</span>-Konto, um den ID-Dienst verwenden zu können. Wenn Sie über ein <span class="keyword"> Experience Cloud</span>-Konto verfügen, großartig! </p> <p> Wenn Sie nicht Teil des <span class="keyword"> Experience Cloud</span> sind, melden Sie sich an. Wir würden uns freuen, Sie zu haben, und es ist immer Platz für mehr. Anweisungen zum Einrichten eines Kontos finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started" format="https" scope="external"> Aktivieren Ihrer Lösungen für zentrale Services</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. Richten Sie den <span class="keyword">-ID-Dienst ein</span></b> </p> </td> 
-   <td colname="col2"> <p>Der <span class="keyword"> ID-</span> besteht aus JavaScript-Code, der auf jeder Seite abgelegt wird, die Sie für die Datenerfassung verwenden möchten. Weitere Informationen finden Sie in den Implementierungshandbüchern <a href="https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=de" format="https" scope="external"> ID-Service </a> . </p> </td> 
+   <td colname="col2"> <p>Der <span class="keyword"> ID-</span> besteht aus JavaScript-Code, der auf jeder Seite abgelegt wird, die Sie für die Datenerfassung verwenden möchten. Weitere Informationen finden Sie in den Implementierungshandbüchern <a href="https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html" format="https" scope="external"> ID-Service </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Lesen Sie den <span class="keyword"> ID-Service</span>-Cookie</b> </p> </td> 
-   <td colname="col2"> <p>Der <span class="keyword">-ID</span>Dienst speichert die Benutzer- und Regions-ID im AMCV-Cookie. Der vollständige Cookie-Name ist <code>AMCV_<i>###</i>@AdobeOrg</code>. Die <code><i>###</i></code> Elemente sind Platzhalter für Ihre Organisations-ID. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> von Cookies und der Experience Cloud</a>ID. </p> <p>Analysieren Sie das AMCV-Cookie nach diesen Schlüssel-Wert-Paaren: </p> <p> 
+   <td colname="col2"> <p>Der <span class="keyword">-ID</span>Dienst speichert die Benutzer- und Regions-ID im AMCV-Cookie. Der vollständige Cookie-Name ist <code>AMCV_<i>###</i>@AdobeOrg</code>. Die <code><i>###</i></code> Elemente sind Platzhalter für Ihre Organisations-ID. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und der Experience Cloud</a>ID. </p> <p>Analysieren Sie das AMCV-Cookie nach diesen Schlüssel-Wert-Paaren: </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: Dieses Schlüssel-Wert-Paar enthält die <span class="keyword"> Experience Cloud</span>-Benutzer-ID. </li> 
       <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: Dieses Schlüssel-Wert-Paar enthält die Regions-ID (manchmal auch als <span class="term">-Standorthinweis bezeichnet</span>, die mit einem regionalen Server-Namen verknüpft ist. </li> 
@@ -55,7 +60,7 @@ Code in *Kursiv* stellt einen Variablenplatzhalter dar.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>4. Abrufen der <span class="keyword"> Experience Cloud ID</span> mit getMarketingCloudVisitorID</b> </p> </td> 
-   <td colname="col2"> <p><i>(Optional)</i> Diese Funktion gibt die <span class="keyword"> Experience Cloud</span>-Besucher-ID zurück. Es wurde für benutzerdefinierte Lösungen und spezifische Anwendungsfälle entwickelt. Siehe <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> Arbeiten mit getMarketingCloudVisitorID </a> unten und die <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/getmcvid.html?lang=de" format="https" scope="external"> Dokumentation zum ID-Service</a>. </p> <p>Sie müssen dies nicht verwenden, wenn Sie die Benutzer- und Standort-IDs aus dem ID-Service-Cookie erhalten. </p> </td> 
+   <td colname="col2"> <p><i>(Optional)</i> Diese Funktion gibt die <span class="keyword"> Experience Cloud</span>-Besucher-ID zurück. Es wurde für benutzerdefinierte Lösungen und spezifische Anwendungsfälle entwickelt. Siehe <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> Arbeiten mit getMarketingCloudVisitorID </a> unten und die <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external"> Dokumentation zum ID-Service</a>. </p> <p>Sie müssen dies nicht verwenden, wenn Sie die Benutzer- und Standort-IDs aus dem ID-Service-Cookie erhalten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
