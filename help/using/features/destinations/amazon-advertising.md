@@ -3,10 +3,22 @@ description: In diesem Artikel wird erläutert, wie Sie Amazon Advertising für 
 solution: Audience Manager
 title: Konfigurieren von Amazon Advertising als gerätebasiertes Self-Service-Ziel
 exl-id: 049af52a-b425-493d-9e77-9ced7ba6d168
-source-git-commit: bac3167927af0957e7081e1ea653464101affcb8
+TQID: https://experienceleague.adobe.com/fQmKYsBCDIOH4zRlDr1N-JUynlBwOzIXSCucO-sdcXM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 0%
+source-wordcount: 566
+ht-degree: 1%
 
 ---
 
@@ -26,7 +38,7 @@ Bevor Sie Ihr [!DNL Amazon Advertising]-Ziel konfigurieren, stellen Sie sicher, 
 
 In diesem Abschnitt werden die Schritte beschrieben, die Sie beim Konfigurieren eines neuen gerätebasierten Ziels für [!DNL Amazon Advertising] ausführen müssen. Bei diesem Szenario wird davon ausgegangen, dass Sie kein vorhandenes [!DNL Amazon Advertising] über Ihren Adobe-Berater oder die Kundenunterstützung konfiguriert haben.
 
-### Schritt 1. Mit [!DNL Amazon Advertising] authentifizieren {#step1-authenticate-with-amazon}
+### Schritt 1: Mit [!DNL Amazon Advertising] authentifizieren {#step1-authenticate-with-amazon}
 
 Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie Audience Manager und Ihr [!DNL Amazon Advertising]-Konto verknüpfen. Gehen Sie wie folgt vor:
 

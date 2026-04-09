@@ -8,9 +8,17 @@ title: ID-Überwachung und -Blockierungsauflistung
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 0%
 
 ---
@@ -49,6 +57,6 @@ Wenn ein Aufruf mit mehreren IDs auch eine auf die Blockierungsliste gesetzt ID 
 
 Die häufigste Ursache für das Hinzufügen von IDs zu Blockierungslisten ist die fehlerhafte Integration zwischen der Kundeninfrastruktur und Audience Manager. Wenn Sie eine auf die Blockierungsliste gesetzt ID identifizieren, sollten Sie Ihre Audience Manager-Integrationen gründlich überprüfen. Unter **Implementierungs- und Integrationshandbücher** finden Sie detaillierte Erläuterungen dazu, wie Sie Audience Manager für die Zusammenarbeit mit anderen Experience Cloud-Lösungen oder externen Systemen konfigurieren sollten.
 
-Eine weitere häufige Ursache für das Hinzufügen von IDs zu Blockierungslisten sind Indizierungs-Bots (Web-Crawler), die in der Regel zu einem Anstieg des Traffics führen, was dazu führt, dass dieselben IDs mehrmals an die [!DNL DCS] gesendet werden. Wenn Sie Indizierungs-Bots als Grund für das Hinzufügen von IDs zu Blockierungslisten angeben, sollten Sie den Bot-Zugriff auf Ihre Website einschränken.
+Eine weitere häufige Ursache für das Hinzufügen von IDs zu Blockierungslisten sind Indizierungs-Bots (Web-Crawlers), die in der Regel zu einem Anstieg des Traffics führen, sodass dieselben IDs mehrmals an die [!DNL DCS] gesendet werden. Wenn Sie Indizierungs-Bots als Grund für das Hinzufügen von IDs zu Blockierungslisten angeben, sollten Sie den Bot-Zugriff auf Ihre Website einschränken.
 
 Wenn Sie Schwierigkeiten haben, Integrationsprobleme zu identifizieren, zögern Sie nicht, sich an den Support zu wenden. Bevor Sie eine Support-Anfrage öffnen, sollten Sie das `.har` `HTTP`-Archiv Ihres Browsers bereithalten. Dieses Archiv hilft dem Support-Team zu ermitteln, warum die ID zu einer Blockierungsliste hinzugefügt wurde.

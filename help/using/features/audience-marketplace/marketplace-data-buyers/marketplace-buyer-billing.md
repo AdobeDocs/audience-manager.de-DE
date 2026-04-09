@@ -8,9 +8,21 @@ keywords: Reporting auf Segmentebene, Segmentebene, Segmentebene
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
-source-git-commit: 88ed0b28fdf5dc03c8a878529d65b4bc844ea6c9
+TQID: https://experienceleague.adobe.com/crzZ-d8Vd4lNwUJXIqIT7PGPNRnUKp-nLSVoTbSH5F8
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: 2029
 ht-degree: 0%
 
 ---
@@ -19,7 +31,7 @@ ht-degree: 0%
 
 Audience Marketplace-Datenerwerber stimmen zu, alle Anzeigenimpressionen zu melden, die mit Eigenschaften bereitgestellt werden, die im Daten-Feed enthalten sind, und zwar zu einem Preis auf der Grundlage der Kosten pro 1000 Anzeigenimpressionen ([!DNL CPM]). [!DNL CPM] Nutzung ist am 5. Tag jedes Kalendermonats fällig und umfasst Daten für den Vormonat. Abonnentinnen und Abonnenten von Pauschalgebühren müssen keine Nutzung melden.
 
-<br>
+<br> 
 
 ## So melden Sie die Nutzung von CPM {#report-cpm-usage}
 
@@ -32,7 +44,7 @@ Audience Marketplace-Datenerwerber stimmen zu, alle Anzeigenimpressionen zu meld
 * **Reporting auf Segmentebene**: Dies ist die empfohlene Berichtsmethode für die [!DNL CPM]. Wenn Sie [!DNL CPM] Nutzung auf Segmentebene melden, wird der Reporting-Abschnitt auf Daten-Feed-Ebene automatisch mit den entsprechenden Nutzungsbeträgen ausgefüllt, basierend auf den unter [Kostenzuordnung für CPM-Daten-Feeds](#cost-attribution) beschriebenen Algorithmen.
 * **Reporting auf Daten-Feed-**: Bei dieser Methode müssen Sie die [!DNL CPM] Nutzung für jeden Daten-Feed individuell melden, basierend auf den unter &quot;[&#x200B; für CPM-Daten-Feeds“ beschriebenen Algorithmen](#cost-attribution). Diese Methode ist jedoch mühsamer und anfälliger für Fehler als das Reporting auf Segmentebene.
 
-<br>
+<br> 
 
 ## Berichte zur CPM-Nutzung auf Segmentebene {#segment-level-report}
 
@@ -76,7 +88,7 @@ So melden Sie [!DNL CPM] auf Segmentebene:
 
 7. Klicken Sie auf **[!UICONTROL Confirm]**.
 
-<br>
+<br> 
 
 ## Massenberichterstattung
 
@@ -95,7 +107,7 @@ So aktualisieren Sie [!DNL CPM] Massenverwendung:
 
 1. [!DNL Audience Manager] validiert die Datei, sobald Sie sie hochladen, und fordert Sie auf, wenn Fehler in der Datei erkannt werden.
 
-<br>
+<br> 
 
 ### Validierungsfehler bei Massenberichten
 
@@ -110,7 +122,7 @@ So aktualisieren Sie [!DNL CPM] Massenverwendung:
 >[!NOTE]
 >Das Entfernen von Zeilen aus dem [!DNL CSV] hat keine Auswirkungen auf den vorhandenen Verwendungsbericht. [!DNL Audience Manager] verarbeitet nur die im Bericht enthaltenen Felder.
 
-<br>
+<br> 
 
 ## Best Practices für [!DNL CPM]-Berichte
 
@@ -134,7 +146,7 @@ So aktualisieren Sie [!DNL CPM] Massenverwendung:
  </tbody> 
 </table>
 
-<br>
+<br> 
 
 ## Kostenzuordnung für CPM-Daten-Feeds {#cost-attribution}
 
@@ -160,7 +172,7 @@ Nachdem Sie [!DNL CPM] Nummer für den vorherigen Kalendermonat gemeldet haben, 
 >
 >Als Käufer müssen alle gemeldeten Impressionssummen wahr und korrekt sein. Wenn Sie die Impressionssummen nicht bis zum 5. Tag jedes Monats melden, müssen Sie die Gesamtsummen für den nicht gemeldeten Monat im folgenden Monat einbeziehen.
 
-<br>
+<br> 
 
 ## Zuweisen von Impressionen auf Feed-Ebene basierend auf Regeln zur Eigenschaftenqualifizierung {#assign-impressions}
 
@@ -198,7 +210,7 @@ Wenn Sie [Nutzung von CPM auf Daten-Feed-Ebene melden](#feed-level-report) müss
  </tbody>
 </table>
 
-<br>
+<br> 
 
 ## Abrechnungsbeispiele {#billing-examples}
 
@@ -211,7 +223,7 @@ Betrachten wir das folgende Szenario:
 
 ![billing-samples](assets/billing-examples.png)
 
-<br>
+<br> 
 
 ### Fall 1: Segmente mit UND-Qualifizierungsregeln
 
@@ -223,7 +235,7 @@ Bei einer [!UICONTROL AND] Bedingung müssen Sie 100 % der während des Monats e
 
 Dieses Beispiel gilt für Segmente, die [!DNL Boolean] [!UICONTROL NOT]-Operatoren verwenden, oder für Segmente, die algorithmische Eigenschaften enthalten.
 
-<br>
+<br> 
 
 ### Fall 2: Segmente mit OR-Qualifizierungsregeln
 
@@ -233,7 +245,7 @@ Wir können nicht sagen, welche Eigenschaft für eine Impression verantwortlich 
 
 ![billing-segment-or](assets/billing-segment-or.png)
 
-<br>
+<br> 
 
 ### &#x200B;3. Fall: Segmente mit Anwendungsfällen für Modellierung und Aktivierung
 
@@ -266,7 +278,7 @@ Die Aufschlüsselung auf einen Blick nach Daten-Feed und Anwendungsfall ist wie 
 >
 >Für den Anwendungsfall „Modellierung“ sollten Sie die Nutzung von CPM nur bei Aktivierung melden. Wenn Sie ein Modell nur ausführen, es jedoch nicht aktivieren, ist kein Nutzungsbericht erforderlich.
 
-<br>
+<br> 
 
 ## Abrechnung und Impression-Zuordnung für Flatfee-Daten-Feeds {#billing-flat-fee}
 
