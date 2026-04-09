@@ -81,7 +81,7 @@ Bitte halten Sie die folgenden Informationen bereit, bevor Sie uns kontaktieren.
 
 ## Im Falle von Ausfällen {#outage}
 
-Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com) ([!DNL https://status.adobe.com]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Audience Manager, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
+Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com/de-de) ([!DNL https://status.adobe.com/de-de]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Audience Manager, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
 
 * Beginn des Ausfalls
 * Darlegung der Fakten

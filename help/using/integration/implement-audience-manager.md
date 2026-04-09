@@ -247,4 +247,4 @@ Unsere gemeinsamen Anstrengungen enden nicht mit der endgültigen Bereitstellung
 
 Account Manager bieten fortlaufenden Support und Beratungsservice, nachdem der Produktimplementierungsprozess abgeschlossen ist. Sie können regelmäßige Besprechungen mit Ihrem Account Manager erwarten. Durch diese Meetings wird sichergestellt, dass Sie von Audience Manager den maximalen Nutzen und Nutzen erhalten.
 
-Kontaktieren Sie uns [hier](https://www.adobe.com/products/audiencemanager.html) für weitere Informationen und für die ersten Schritte mit Audience Manager.
+Kontaktieren Sie uns [hier](https://www.adobe.com/de/products/audiencemanager.html) für weitere Informationen und für die ersten Schritte mit Audience Manager.
