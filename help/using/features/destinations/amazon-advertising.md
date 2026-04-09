@@ -4,10 +4,17 @@ solution: Audience Manager
 title: Konfigurieren von Amazon Advertising als gerätebasiertes Self-Service-Ziel
 exl-id: 049af52a-b425-493d-9e77-9ced7ba6d168
 TQID: https://experienceleague.adobe.com/fQmKYsBCDIOH4zRlDr1N-JUynlBwOzIXSCucO-sdcXM
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 566
@@ -25,7 +32,7 @@ Bevor Sie Ihr [!DNL Amazon Advertising]-Ziel konfigurieren, stellen Sie sicher, 
 
 * Ihr [!DNL Amazon] muss für die Werbung infrage kommen.
 * Wenden Sie sich beim Erstellen des ersten [!DNL Amazon Advertising]-Ziels in Ihrer Audience Manager-Instanz an die Adobe Consulting- oder Kundenunterstützung, um die [!DNL Amazon]-ID-Synchronisierung (Data Source ID = 139200) für Ihr Konto zu aktivieren. Dies ist für die korrekte Synchronisierung zwischen Audience Manager und [!DNL Amazon] erforderlich.
-* Nachdem die neuen Datenanbieter-Zielgruppen erstellt wurden, sollten Sie [ihre Metadaten aktualisieren](https://advertising.amazon.com/API/docs/en-us/data-provider/openapi#tag/Metadata/paths/~1v2~1dp~1audiencemetadata~1%7BaudienceId%7D/put) und die **[!DNL audience fees]** hinzufügen. Für diesen Vorgang können Sie die [Amazon Ads-API](https://advertising.amazon.com/API/docs/en-us/guides/onboarding/apply-for-access) oder die [Amazon Advertising-Benutzeroberfläche ](https://advertising.amazon.com/).
+* Nachdem die neuen Datenanbieter-Zielgruppen erstellt wurden, sollten Sie [ihre Metadaten aktualisieren](https://advertising.amazon.com/API/docs/en-us/data-provider/openapi#tag/Metadata/paths/~1v2~1dp~1audiencemetadata~1%7BaudienceId%7D/put) und die **[!DNL audience fees]** hinzufügen. Für diesen Vorgang können Sie die [Amazon Ads-API](https://advertising.amazon.com/API/docs/en-us/guides/onboarding/apply-for-access) oder die [Amazon Advertising-Benutzeroberfläche &#x200B;](https://advertising.amazon.com/).
 
 ## Ein neues [!DNL Amazon Advertising] hinzufügen {#add-new-amazon-destination}
 
@@ -77,4 +84,4 @@ Beim Konfigurieren oder Senden von Daten an das [!DNL Amazon Advertising]-Ziel t
 | Fehlermeldung | Vorfall/Grund | Auflösung |
 |---|---|---|
 | `Internal server error` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn versucht wird, ein neues [!DNL Amazon]-Konto mit einer veralteten Version der Amazon-API hinzuzufügen. | Adobe-Kundenunterstützung kontaktieren. |
-| `Amazon Error: Account XXXXXXXXX was not found` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn die für das Ziel konfigurierten Anmeldeinformationen nicht für den Zugriff auf das entsprechende Amazon Ads-Konto autorisiert sind. | <ul><li>Stellen Sie sicher, dass die von Ihnen verwendeten Kontoanmeldeinformationen die [ Voraussetzungen ](#prerequisites).</li><li>Navigieren Sie zur Amazon Ads-Benutzeroberfläche mit denselben Anmeldeinformationen und überprüfen Sie, ob unter dem entsprechenden Konto die richtigen Zielgruppen angezeigt werden. </li></ul> |
+| `Amazon Error: Account XXXXXXXXX was not found` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn die für das Ziel konfigurierten Anmeldeinformationen nicht für den Zugriff auf das entsprechende Amazon Ads-Konto autorisiert sind. | <ul><li>Stellen Sie sicher, dass die von Ihnen verwendeten Kontoanmeldeinformationen die [&#x200B; Voraussetzungen &#x200B;](#prerequisites).</li><li>Navigieren Sie zur Amazon Ads-Benutzeroberfläche mit denselben Anmeldeinformationen und überprüfen Sie, ob unter dem entsprechenden Konto die richtigen Zielgruppen angezeigt werden. </li></ul> |

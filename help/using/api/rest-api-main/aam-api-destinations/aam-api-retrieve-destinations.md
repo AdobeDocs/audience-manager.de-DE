@@ -8,8 +8,11 @@ uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 TQID: https://experienceleague.adobe.com/1O--EDa6jaXLktpbKr0rP9rpuugijVdP9-zpRyuFpkc
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 332
@@ -281,7 +284,7 @@ Eine `GET` Methode, die Informationen zum Verlauf ausgehender [!UICONTROL Server
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Erforderliche Abfrageparameter: `startDate` = *„ph id=&#39;35&#39;/>>* und `endDate` = *„ph id=&#39;53&#39;/>>*.`epochtime``epochtime`
+Erforderliche Abfrageparameter: `startDate` = *„ph id=&#39;35&#39;/>>* und `endDate` = *„ph id=&#39;53&#39;/>>*.`epochtime` `epochtime`
 
 ### Antwort
 

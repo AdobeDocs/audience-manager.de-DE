@@ -8,10 +8,14 @@ uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 feature: Overlap Reports
 exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
 TQID: https://experienceleague.adobe.com/-oG7496J-Wd8brHH2T7GWax-u9HGo7CiXmaVoiKygeQ
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 340
@@ -28,7 +32,7 @@ Beschreibt die Eigenschaften- und Segmentgröße sowie die Anforderungen an die 
 [!UICONTROL Overlap] Berichte werden wöchentlich am Sonntag aktualisiert. Die Berichtsvorverarbeitung beginnt am Samstag. Dies wirkt sich darauf aus, wie neue oder vorhandene Segmente in einem Überschneidungsbericht am Montag angezeigt werden. In einen Überschneidungsbericht aufzunehmen:
 
 * Ein Segment muss in den letzten 14 Tagen mindestens 70.000 Echtzeit-Benutzer enthalten.
-* Ein Merkmal muss in den [ 14 Tagen 28.000 ](/help/using/features/traits/trait-and-segment-qualification-reference.md)Eindeutige Merkmale“ enthalten.
+* Ein Merkmal muss in den [&#x200B; 14 Tagen 28.000 &#x200B;](/help/using/features/traits/trait-and-segment-qualification-reference.md)Eindeutige Merkmale“ enthalten.
 * Ein Segment muss vor Donnerstag, 12 Uhr UTC (2 volle Tage vor Beginn des Aktualisierungsprozesses des wöchentlichen Überschneidungsberichts) erstellt worden sein.
 * Ihr Unternehmen muss ein Full-[!DNL Audience Manager]-Kunde sein. Wenden Sie sich an Ihren [!DNL Audience Manager] oder die Kundenunterstützung, um mehr zu erfahren.
 

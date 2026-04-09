@@ -7,9 +7,15 @@ title: Voraussetzungen und Überlegungen
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 TQID: https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 996
@@ -40,7 +46,7 @@ Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um diese Premium-Funktion nu
 Bevor Sie [!UICONTROL People-Based Destinations] verwenden können, um Ihre First-Party-[!UICONTROL segments] an [!DNL Facebook] zu senden, stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen:
 
 1. Für Ihr [!DNL Facebook]-Benutzerkonto muss die Berechtigung **Kampagnen verwalten** für das Werbekonto aktiviert sein, das Sie verwenden möchten.
-2. Fügen Sie das Geschäftskonto **** als Werbepartner zu Ihrer [!DNL Facebook Ad Account] hinzu. Verwenden Sie `business ID=206617933627973`. Weitere [ finden Sie unter „Hinzufügen von Partnern ](https://www.facebook.com/business/help/1717412048538897) Ihrem Business Manager“.
+2. Fügen Sie das Geschäftskonto **&#x200B;**&#x200B;als Werbepartner zu Ihrer [!DNL Facebook Ad Account] hinzu. Verwenden Sie `business ID=206617933627973`. Weitere [&#x200B; finden Sie unter „Hinzufügen von Partnern &#x200B;](https://www.facebook.com/business/help/1717412048538897) Ihrem Business Manager“.
 
    >[!IMPORTANT]
    >Beim Konfigurieren der Berechtigungen für Adobe Experience Cloud müssen Sie die Berechtigung **Kampagnen verwalten** aktivieren. Dies ist für die Integration von [!UICONTROL People-Based Destinations] erforderlich.
@@ -53,7 +59,7 @@ Bevor Sie [!UICONTROL People-Based Destinations] verwenden können, um Ihre Erst
 
 Informationen zum Bearbeiten Ihrer [!DNL LinkedIn Campaign Manager]-Benutzerberechtigungen finden Sie unter [Hinzufügen, Bearbeiten und Entfernen von Benutzerberechtigungen für Advertising-Konten](https://www.linkedin.com/help/lms/answer/5753) in der LinkedIn-Dokumentation.
 
-Videoanweisungen [ Sie unter „Grundlagen und Konfigurieren des personenbasierten LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html)Ziels .
+Videoanweisungen [&#x200B; Sie unter „Grundlagen und Konfigurieren des personenbasierten LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html)Ziels .
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -73,7 +79,7 @@ Die Datenaufnahme für [!UICONTROL People-Based Destinations] unterstützt derze
 
 Beim Hochladen von mehr als 10 gehashten E-Mail-Adressen, die bei mehreren Batch-Übertragungen mit einer Kunden-ID verknüpft sind, behält Audience Manager die letzten 10 hinzugefügten E-Mail-Adressen bei.
 
-Um Hash-Kennungen aufzunehmen, erstellen [ eine geräteübergreifende Datenquelle für Hash-Kennungen ](../create-data-source-hashed-emails.md) aktivieren Sie die Option **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** .
+Um Hash-Kennungen aufzunehmen, erstellen [&#x200B; eine geräteübergreifende Datenquelle für Hash-Kennungen &#x200B;](../create-data-source-hashed-emails.md) aktivieren Sie die Option **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** .
 
 ![Bild der Audience Manager-Benutzeroberfläche, das die Option zum Freigeben zugehöriger geräteübergreifender IDs in personenbasierten Zielen und/oder Hash-E-Mail-Workflows zeigt](assets/data-source-share-ids.png)
 
@@ -122,5 +128,5 @@ Verwenden Sie bei der Verwendung von [!UICONTROL People-Based Destinations] [Dat
 
 Es gibt zwei Möglichkeiten, Ihre Offline-Daten für [!UICONTROL People-Based Destinations] in Audience Manager zu laden.
 
-* [Senden von Batch-Daten](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an Audience Manager zum Aufnehmen von Hash-E-Mail-Adressen. Mit dieser Methode können Sie die gehashten E-Mail-Adressen aus Ihrer [!DNL CRM] in [!UICONTROL People-Based Destinations] verwenden. Darüber hinaus können Sie bei Verwendung dieser Methode die gehashten E-Mail-Adressen auch für &quot;[ Eigenschaften“ ](../traits/trait-and-segment-qualification-reference.md).
+* [Senden von Batch-Daten](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) an Audience Manager zum Aufnehmen von Hash-E-Mail-Adressen. Mit dieser Methode können Sie die gehashten E-Mail-Adressen aus Ihrer [!DNL CRM] in [!UICONTROL People-Based Destinations] verwenden. Darüber hinaus können Sie bei Verwendung dieser Methode die gehashten E-Mail-Adressen auch für &quot;[&#x200B; Eigenschaften“ &#x200B;](../traits/trait-and-segment-qualification-reference.md).
 * Verwenden Sie [Declared IDs](../declared-ids.md), um Hash-E-Mail-Adressen zu deklarieren, wenn authentifizierte Kunden-IDs übergeben werden. Bei Verwendung dieser Methode sendet Audience Manager in Ihrem Auftrag nur an [!UICONTROL People-Based Destinations] die gehashten E-Mail-Adressen von Benutzern, die sich online authentifiziert haben. Die über personenbasierte Kanäle aktivierten E-Mail-Adressen sind nur diejenigen, die in den deklarierten ID-Ereignisaufrufen enthalten sind. Andere mit der Kunden-ID verknüpfte E-Mail-Adressen werden nicht in Echtzeit gesendet.

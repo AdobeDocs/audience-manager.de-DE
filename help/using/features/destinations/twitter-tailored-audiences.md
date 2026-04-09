@@ -7,10 +7,16 @@ title: Konfigurieren von benutzerdefinierten Twitter-Zielgruppen als gerätebasi
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 TQID: https://experienceleague.adobe.com/3qEBhzjr6meP0xEUECLT-JMlw9kWizujExCMIg23MJY
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 689
@@ -20,7 +26,7 @@ ht-degree: 1%
 
 # Konfigurieren von [!DNL Twitter Custom Audiences] als gerätebasiertes Self-Service-Ziel {#configure-twitter}
 
-In diesem Artikel wird erläutert, wie Sie eine Integration mit [Twitter Custom Audiences“ ](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
+In diesem Artikel wird erläutert, wie Sie eine Integration mit [Twitter Custom Audiences“ &#x200B;](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Voraussetzungen {#prerequisites}
 
@@ -90,4 +96,4 @@ Beim Konfigurieren oder Senden von Daten an das Ziel „Twitter Custom Audiences
 |---|---|---|
 | `Internal server error` | Diese Fehlermeldung wird auf der Audience Manager-Benutzeroberfläche angezeigt, wenn versucht wird, ein neues [!DNL Twitter]-Konto mit einer veralteten Version der Twitter-API hinzuzufügen. | Adobe-Kundenunterstützung kontaktieren. |
 | `Twitter Error: This request is not properly authenticated` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn versucht wird, Segmente mit nicht unterstützten Segmentnamen dem Ziel zuzuordnen. | Überprüfen Sie die zugeordneten Segmentnamen und stellen Sie sicher, dass sie keine nicht unterstützten Zeichen enthalten. Siehe [Überlegungen zur Segmentzuordnung](#segment-mapping-considerations) für die Liste der nicht unterstützten Zeichen. |
-| `Twitter Error: Account XXXXXXXXX was not found` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn die für das Ziel konfigurierten Anmeldeinformationen nicht für den Zugriff auf das entsprechende Twitter Ads-Konto autorisiert sind. | <ul><li>Stellen Sie sicher, dass die von Ihnen verwendeten Kontoanmeldeinformationen die [ Voraussetzungen ](#prerequisites).</li><li>Navigieren Sie zur Benutzeroberfläche für Twitter-Anzeigen mit denselben Anmeldeinformationen und überprüfen Sie, ob unter dem entsprechenden `XXXXXXXXX`-Konto die richtigen Zielgruppen angezeigt werden. </li></ul> |
+| `Twitter Error: Account XXXXXXXXX was not found` | Diese Fehlermeldung wird in der Audience Manager-Benutzeroberfläche angezeigt, wenn die für das Ziel konfigurierten Anmeldeinformationen nicht für den Zugriff auf das entsprechende Twitter Ads-Konto autorisiert sind. | <ul><li>Stellen Sie sicher, dass die von Ihnen verwendeten Kontoanmeldeinformationen die [&#x200B; Voraussetzungen &#x200B;](#prerequisites).</li><li>Navigieren Sie zur Benutzeroberfläche für Twitter-Anzeigen mit denselben Anmeldeinformationen und überprüfen Sie, ob unter dem entsprechenden `XXXXXXXXX`-Konto die richtigen Zielgruppen angezeigt werden. </li></ul> |

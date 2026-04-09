@@ -8,9 +8,13 @@ uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge
 exl-id: 5d1f5bea-0fca-4684-a2b4-585d9e38d9ef
 TQID: https://experienceleague.adobe.com/nhbT9DeDdZho5Rsqprq7N3Si7i9RfoirQuONiAh2Lmw
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 336
@@ -37,7 +41,7 @@ In der Regel beruht die Segmentierung und Zielgruppenbestimmung von Audiences au
 | [!UICONTROL Device Profile] | Eine [!UICONTROL device profile] ist an eine ID für ein bestimmtes Gerät gebunden, z. B. eine [!UICONTROL cookie]-ID oder eine ID für ein Mobilgerät.<br><br> Sie umfasst:<ul><li>[!UICONTROL Rule-based traits] erkannt, wenn ein Benutzer nicht authentifiziert ist.</li><li>[!UICONTROL Onboarded traits] mit einer Geräte-ID verknüpft, z. B. [!UICONTROL cookie-based], Daten von Drittanbietern.</li></ul> |
 | [!UICONTROL Authenticated Profile] | Die [!UICONTROL authenticated profile] ist an eine Benutzer-ID gebunden, die übergeben wird, wenn sich eine Person bei Ihrer Site anmeldet.<br><br>Dazu gehören:<ul><li>[!UICONTROL Rule-based traits], die bei der Authentifizierung eines Benutzers auf allen Geräten erfasst werden.</li><li>[!UICONTROL Onboarded traits] in einer mit derselben Benutzer-ID verknüpften Offline-Datei.</li></ul> |
 
-Diese verschiedenen Profile steuern die Daten, die Sie für die Segmentierung verwenden können. Mit einem [authentifizierten Profil](../../reference/visitor-authentication-states.md) können Sie beispielsweise für einen einzelnen Benutzer genaue [!UICONTROL segments] auf der Grundlage von Daten von mehreren Geräten erstellen. Dies bedeutet, dass Sie Kunden auf mehreren Geräten ein konsistentes Markenerlebnis bieten können. [!DNL Audience Manager] wird dies erreicht, indem die Zuordnung der verschiedenen Geräte, die eine Person für ihre Online-Aktivitäten verwendet, zu ihrem [authentifizierten Profil“ ](../../reference/visitor-authentication-states.md). Diese Zuordnungen werden als [!UICONTROL Profile Link Device Graph] bezeichnet.
+Diese verschiedenen Profile steuern die Daten, die Sie für die Segmentierung verwenden können. Mit einem [authentifizierten Profil](../../reference/visitor-authentication-states.md) können Sie beispielsweise für einen einzelnen Benutzer genaue [!UICONTROL segments] auf der Grundlage von Daten von mehreren Geräten erstellen. Dies bedeutet, dass Sie Kunden auf mehreren Geräten ein konsistentes Markenerlebnis bieten können. [!DNL Audience Manager] wird dies erreicht, indem die Zuordnung der verschiedenen Geräte, die eine Person für ihre Online-Aktivitäten verwendet, zu ihrem [authentifizierten Profil“ &#x200B;](../../reference/visitor-authentication-states.md). Diese Zuordnungen werden als [!UICONTROL Profile Link Device Graph] bezeichnet.
 
 ![](assets/authenticated2.png)
 

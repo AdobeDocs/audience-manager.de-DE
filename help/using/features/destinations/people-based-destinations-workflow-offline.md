@@ -7,10 +7,19 @@ title: Workflow B - Personalization basierend auf reinen Offline-Daten
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 TQID: https://experienceleague.adobe.com/QwP7cagUrIQ-jkLNzulJSoxKTT6VuNXAptoLTSpvCDM
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1123
@@ -103,7 +112,7 @@ Sehen Sie sich das folgende Video an, um ein Video-Tutorial zum Erstellen einer 
 
 >[!IMPORTANT]
 >
-> Dieser Schritt gilt nur für [ oben ](people-based-destinations-workflow-offline.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 4: Erstellen einer Profilzusammenführungsregel für die Segmentierung](#create-profile-merge-rule) fort.
+> Dieser Schritt gilt nur für [&#x200B; oben &#x200B;](people-based-destinations-workflow-offline.md#configure-data-source-settings) Szenario 2. Wenn Ihre vorhandenen [DPUUIDs](../../reference/ids-in-aam.md) bereits gehashte E-Mail-Adressen sind, fahren Sie mit [Schritt 4: Erstellen einer Profilzusammenführungsregel für die Segmentierung](#create-profile-merge-rule) fort.
 
 Nehmen wir an, Sie möchten Ihre bestehenden [DPUUIDs](../../reference/ids-in-aam.md) aus dem Beispiel in Schritt 1 mit den Hash-E-Mail-Adressen aus der unten stehenden Tabelle (rechte Spalte) abgleichen und die Hash-E-Mail-Adressen in der neuen Datenquelle speichern, die Sie unter [Schritt 2 - Einstellungen für Data Source konfigurieren](#configure-data-source-settings) erstellt haben.
 
@@ -141,7 +150,7 @@ Die [ID-Synchronisierungsdatei](../../integration/sending-audience-data/batch-da
 Im obigen Beispiel würde der Dateiname wie folgt aussehen:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Laden Sie hier die Beispieldatei ](assets/c2c_id_999999_987654_1560431657.sync).
+[Laden Sie hier die Beispieldatei &#x200B;](assets/c2c_id_999999_987654_1560431657.sync).
 
 Nachdem Sie Ihre ID-Synchronisierungsdatei erstellt haben, müssen Sie sie in einen [!DNL Amazon S3] Bucket hochladen. Informationen zum Hochladen von ID-Synchronisierungsdateien finden Sie unter [Senden von Batch-Daten an Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 

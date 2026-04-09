@@ -7,9 +7,14 @@ title: Implementierungsleitlinien
 feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 TQID: https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1350
@@ -71,7 +76,7 @@ Um Ihre Zielgruppe in [!DNL People-Based Destinations] genau anzusprechen, müss
 
 **A) Qualifizieren Sie Ihre Kunden- und Geräte-IDs in Echtzeit für regelbasierte Eigenschaften**. Diese Option gilt für Anwendungsfall A aus [1. Anwendungsfall definieren](people-based-destinations-workflow.md#defining-your-use-case). Wenn Sie planen, Zielgruppen auf der Grundlage von Online- und Offline-Aktivitäten anzusprechen, qualifizieren Sie Ihre Zielgruppe höchstwahrscheinlich bereits für [regelbasierte Eigenschaften](../traits/trait-and-segment-qualification-reference.md).
 
-**B) Integrieren von Eigenschaften mit Ihren Kunden-IDs über eingehende Datendateien**. Diese Option gilt für Anwendungsfall B aus [1. Anwendungsfall definieren](people-based-destinations-workflow.md#defining-your-use-case). Wenn Ihre Zielgruppe auf der Grundlage einer reinen Offline-Aktivität ausgewählt wird, müssen Sie Kunden-IDs für integrierte Eigenschaften über [eingehende Datendateien) ](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+**B) Integrieren von Eigenschaften mit Ihren Kunden-IDs über eingehende Datendateien**. Diese Option gilt für Anwendungsfall B aus [1. Anwendungsfall definieren](people-based-destinations-workflow.md#defining-your-use-case). Wenn Ihre Zielgruppe auf der Grundlage einer reinen Offline-Aktivität ausgewählt wird, müssen Sie Kunden-IDs für integrierte Eigenschaften über [eingehende Datendateien) &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 ## &#x200B;5. Erstellen oder Kennzeichnen von Datenquellen und integrierten Hash-E-Mail-Adressen {#create-label-data-sources}
 

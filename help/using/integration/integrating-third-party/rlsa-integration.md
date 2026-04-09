@@ -8,9 +8,13 @@ uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
 TQID: https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 284
@@ -34,10 +38,10 @@ So richten Sie eine [!DNL Google Ads] Remarketing-Liste als [!DNL Audience Manag
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Erstellen Sie [ Audience Manager eine  [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie eine vorhandene [!DNL destination]. Verwenden Sie beim Erstellen der [!DNL destination] die folgenden Einstellungen:
+1. Erstellen Sie [&#x200B; Audience Manager eine  [!DNL URL destination]](../../features/destinations/create-url-destination.md) oder bearbeiten Sie eine vorhandene [!DNL destination]. Verwenden Sie beim Erstellen der [!DNL destination] die folgenden Einstellungen:
    * Typ: URL
    * Serialisieren: Aktiviert
-   * Trennzeichen: Semikolon ( &amp;semi; )
+   * Trennzeichen: Semikolon ( &semi; )
 
 1. Fügen Sie im [!UICONTROL Segment Mappings] Abschnitt Ihrer [!DNL URL]-[!DNL destination] den Code aus Schritt 2 zu den Feldern [!DNL URL] und [!DNL Secure URL] hinzu. Stellen Sie dem Code `http:` und `https:` in den Feldern [!DNL URL] bzw. [!DNL Secure URL] voran.
 

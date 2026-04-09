@@ -7,9 +7,14 @@ uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
 TQID: https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 778
@@ -28,7 +33,7 @@ ht-degree: 6%
 * **Ein verbessertes Benutzererlebnis**: Benutzer, die bereits Ihr Produkt oder Ihre Dienstleistung gekauft haben, sehen nicht mehr dieselben Kreativen wie vor dem Kauf. Stattdessen können Sie Upsell- oder Crossselling-Nachrichten für Produkte oder Services anzeigen, von denen Sie wissen, dass sie nicht gekauft haben.
 * **Medieneffizienz**: Optimieren Sie Ihre Kampagnenausgaben, indem Sie eine globale Häufigkeitsbegrenzung auf alle [!DNL DSP] anwenden. Die Frequenzlimitierung kann für mehrere Geräte eines Benutzers in Echtzeit aktiviert werden.
 
-Die technischen Details der Echtzeit-Nicht-Segmentierung werden in „Profilzusammenführungsregeln und Prozesse zur Aufhebung der [&quot; ](merge-rule-unsegment.md). Lesen Sie weiter, um die oben beschriebenen Anwendungsfälle praktisch umzusetzen.
+Die technischen Details der Echtzeit-Nicht-Segmentierung werden in „Profilzusammenführungsregeln und Prozesse zur Aufhebung der [&quot; &#x200B;](merge-rule-unsegment.md). Lesen Sie weiter, um die oben beschriebenen Anwendungsfälle praktisch umzusetzen.
 
 ## Nach der Konvertierung nicht als Ziel auswählen {#do-not-target-once}
 
@@ -63,7 +68,7 @@ In diesem Szenario werden Ihre Benutzer, sobald sie mehr als drei Impressions ge
 Beachten Sie diese Aspekte in Bezug auf die Verarbeitung:
 
 * Damit die Funktion zum Aufheben von Segmenten in Echtzeit funktioniert, müssen Sie die gewünschten Segmente Echtzeit-Server-zu-Server-Zielen zuordnen.
-* Für Geräte, die über ein [Gerätediagramm](profile-link-use-case.md#recommendations) mit einem Gerät verbunden sind, erzwingen wir eine Beschränkung von vier Geräten in Bezug auf die Bewertung und Nicht-Segmentierung. Diese Einschränkung wird unter [Optionen für Gerätediagramme und ](merge-rule-unsegment.md#device-graph-options-unsegmentation)&quot; beschrieben&#x200B;
+* Für Geräte, die über ein [Gerätediagramm](profile-link-use-case.md#recommendations) mit einem Gerät verbunden sind, erzwingen wir eine Beschränkung von vier Geräten in Bezug auf die Bewertung und Nicht-Segmentierung. Diese Einschränkung wird unter [Optionen für Gerätediagramme und &#x200B;](merge-rule-unsegment.md#device-graph-options-unsegmentation)&quot; beschrieben&#x200B;
 * Der Befehl zum Aufheben der Segmentierung wird in einer Batch-Datei enthalten sein, die für mehrere über das Gerätediagramm verbundene Geräte alle 24 Stunden an Ziele gesendet wird.
 * Das Gerät muss in Echtzeit (auf der [Edge) angezeigt werden](../../reference/system-components/components-edge.md) um eine Segmentauswertung in Echtzeit zu veranlassen. Bei Eigenschaften, die eine [!UICONTROL time-to-live (TTL)] haben, wenn die [!DNL TTL] erfüllt ist, wird die Segmentierung des Geräts innerhalb von 24 Stunden über die Batch-Datei automatisch aufgehoben..&#x200B; Erfahren Sie mehr über das [Festlegen eines Ablaufintervalls für Eigenschaften](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
 * Wenn Sie die [!UICONTROL DCS API] verwenden, um regelbasierte Eigenschaften in Echtzeit zu integrieren, können Sie die Aufhebung der Segmentierung mithilfe der [!UICONTROL AND NOT] Logik als Trigger verwenden. Weitere Informationen über [Senden von Daten an die DCS-API](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).&#x200B;

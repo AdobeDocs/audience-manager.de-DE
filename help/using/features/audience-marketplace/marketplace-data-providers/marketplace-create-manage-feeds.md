@@ -8,10 +8,15 @@ uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
 exl-id: e8605e94-e62a-430c-9aef-875f995fb436
 TQID: https://experienceleague.adobe.com/-tBvHL-JM9MSve2w5-7SBKY1cvscGZ1d-sLy7JMj8AQ
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1260
@@ -107,7 +112,7 @@ Mit den [!UICONTROL Use Case] können Verkäufer steuern, wie Käufer Ihre Daten
 
 ### Segmente und Überschneidungen
 
-Bei einem **[!UICONTROL Segments and Overlap]** Anwendungsfall wird ein Plan erstellt, mit dem Käufer Eigenschaftsdaten in einem &quot;[-zu-Eigenschaft-Überschneidungsbericht“ ](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) können. Darüber hinaus können Käufer Ihre Daten zu Segmenten hinzufügen und Vergleiche mit den Berichten [Segment-zu-Eigenschaft](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen.
+Bei einem **[!UICONTROL Segments and Overlap]** Anwendungsfall wird ein Plan erstellt, mit dem Käufer Eigenschaftsdaten in einem &quot;[-zu-Eigenschaft-Überschneidungsbericht“ &#x200B;](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) können. Darüber hinaus können Käufer Ihre Daten zu Segmenten hinzufügen und Vergleiche mit den Berichten [Segment-zu-Eigenschaft](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen.
 
 Jeder Daten-Feed muss mindestens einen [!UICONTROL Segments and Overlap] Anwendungsfall enthalten. Käufer können keine anderen Pläne in einem Daten-Feed abonnieren, wenn der Feed keinen [!UICONTROL Segments and Overlap] Anwendungsfall enthält, entweder allein oder in Kombination mit einem anderen Anwendungsfall.
 
@@ -130,7 +135,7 @@ Bei einem **[!UICONTROL Modeling]** Anwendungsfall wird ein Plan erstellt, mit d
 
 ### Aktivierung
 
-Ein **[!UICONTROL Activation]** Anwendungsfall ermöglicht es Käufern, Daten an ein [Ziel“ ](../../../features/destinations/destinations.md) senden. Bei diesem Anwendungsbeispiel können Käufer keine Daten mit einem Überschneidungsbericht oder in einem algorithmischen Modell vergleichen. Bewerten Sie diesen Anwendungsfall wie folgt:
+Ein **[!UICONTROL Activation]** Anwendungsfall ermöglicht es Käufern, Daten an ein [Ziel“ &#x200B;](../../../features/destinations/destinations.md) senden. Bei diesem Anwendungsbeispiel können Käufer keine Daten mit einem Überschneidungsbericht oder in einem algorithmischen Modell vergleichen. Bewerten Sie diesen Anwendungsfall wie folgt:
 
 * Maßeinheit: [!DNL CPM]
 * Preis: [!DNL CPM] Marktpreis

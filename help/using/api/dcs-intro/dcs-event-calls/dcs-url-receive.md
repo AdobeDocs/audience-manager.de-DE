@@ -8,9 +8,14 @@ uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
 exl-id: c6a87e5a-63cc-44d7-b6f0-ac8ee845fd00
 TQID: https://experienceleague.adobe.com/ka7bfv02tL4ZjX09D2gO6CW4u2VAGLwKl1c3BX2LTJE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 385
@@ -22,7 +27,7 @@ ht-degree: 1%
 
 Fahren Sie hier fort, um Informationen zum Anfordern einer [!DNL DCS]-Antwort in einem `/event`-Aufruf zu erhalten. Dieser Abschnitt enthält ein Antwortbeispiel und Definitionen für allgemeine Datenelemente in einer Antwort.
 
-Bevor Sie diesen Inhalt überprüfen, lesen [ „Daten an den DCS senden](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
+Bevor Sie diesen Inhalt überprüfen, lesen [&#x200B; „Daten an den DCS senden](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
 
 ## DCS-Antwortparameter: eine Überprüfung {#dcs-response-parameters}
 
@@ -34,7 +39,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## Beispielantwort {#sample-response}
 
-Erinnern Sie sich daran[ dass das fiktive Unternehmen in der Dokumentation ](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)Daten an DCS senden[!DNL Acme, Inc.] diesen Aufruf ausgeführt hat:
+Erinnern Sie sich daran[&#x200B; dass das fiktive Unternehmen in der Dokumentation &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)Daten an DCS senden[!DNL Acme, Inc.] diesen Aufruf ausgeführt hat:
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
@@ -55,8 +60,8 @@ In der folgenden Tabelle sind die häufigsten Parameter aufgeführt und definier
 
 | Parameter | Beschreibung |
 |--- |--- |
-| `c` | Eine als „URL-Ziel“ [ URL](../../../features/destinations/create-url-destination.md). |
-| `cn` | Der Name oder die ID, die im Feld „Cookie-Name“ eines [Cookie-Ziels“ festgelegt ](../../../features/destinations/create-cookie-destination.md). |
+| `c` | Eine als „URL-Ziel“ [&#x200B; URL](../../../features/destinations/create-url-destination.md). |
+| `cn` | Der Name oder die ID, die im Feld „Cookie-Name“ eines [Cookie-Ziels“ festgelegt &#x200B;](../../../features/destinations/create-cookie-destination.md). |
 | `cv` | Die Werte, die an das Ziel gesendet werden, das durch den Parameter „cn“: „destination name“ definiert wird. |
 | `dcs_region` | Die [Server-zu-Server-DCS-Aufrufe](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Dieses Objekt enthält Informationen zu allen URL-Zielen, die in der Benutzeroberfläche konfiguriert sind. Die Liste dieses Objekts ist dynamisch und basiert auf den Aktionen des Benutzers. |
@@ -65,7 +70,7 @@ In der folgenden Tabelle sind die häufigsten Parameter aufgeführt und definier
 | `stuff` | Dieses Objekt enthält Informationen für alle Cookie-Ziele. Die Liste dieses Objekts ist dynamisch und basiert auf den Aktionen des Benutzers. |
 | `tid` | Transaktions-ID, eine eindeutige 12-stellige ID, die zu Debugging-Zwecken verwendet wird. Jeder /event-Aufruf an den DCS erhält eine TID, auf die Sie bei Support-Anfragen verweisen können, um eine bessere und schnellere Antwort zu erhalten. |
 | `ttl` | Der Wert des Cookies für die Lebensdauer in Tagen. |
-| `u` und `uuid` | Von Audience Manager zugewiesene eindeutige Benutzer-ID. Dies ist erforderlich, wenn Sie (Server-[-Server-DCS-Aufrufe) ](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `u` und `uuid` | Von Audience Manager zugewiesene eindeutige Benutzer-ID. Dies ist erforderlich, wenn Sie (Server-[-Server-DCS-Aufrufe) &#x200B;](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
 | `y` | Zieltyp, iFrame (`iframe`) oder Bild (`img`). |
 
 >[!MORELIKETHIS]

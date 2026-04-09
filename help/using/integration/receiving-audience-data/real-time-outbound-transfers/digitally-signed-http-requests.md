@@ -8,9 +8,14 @@ uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 exl-id: 55907a25-a361-494a-86b9-c693faea4f0e
 TQID: https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 520
@@ -58,7 +63,7 @@ POST message content
 1. [!UICONTROL IRIS] erstellt eine Signatur basierend auf der `HTTP(S)` Nachricht und dem vom Partner übermittelten privaten Schlüssel.
 1. [!UICONTROL IRIS] sendet die `HTTP(S)` an den Partner. Diese Nachricht enthält die Signatur und die eigentliche Nachricht, wie im Beispiel oben gezeigt.
 1. Der Partnerserver erhält die `HTTP(S)`. Er liest den Nachrichtentext und die von [!UICONTROL IRIS] erhaltene Signatur.
-1. Basierend auf dem empfangenen Nachrichtentext und dem privaten Schlüssel berechnet der Partner-Server die Signatur neu. Wie Sie [ erreichen, erfahren Sie im Abschnitt ](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature)Berechnen der Signatur“ weiter unten.
+1. Basierend auf dem empfangenen Nachrichtentext und dem privaten Schlüssel berechnet der Partner-Server die Signatur neu. Wie Sie [&#x200B; erreichen, erfahren Sie im Abschnitt &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature)Berechnen der Signatur“ weiter unten.
 1. Vergleichen Sie die auf dem Partnerserver (Empfänger) erstellte Signatur mit der von [!UICONTROL IRIS] (Absender) empfangenen Signatur.
 1. Wenn die Signaturen übereinstimmen, **die** Authentizität“ und **Nachrichtenintegrität** validiert. Nur der Absender, der über den privaten Schlüssel verfügt, kann eine gültige Signatur (Authentizität) senden. Außerdem kann ein Mann in der Mitte die Nachricht nicht ändern und keine neue gültige Signatur erzeugen, da er nicht über den privaten Schlüssel (Nachrichtenintegrität) verfügt.
 
@@ -89,7 +94,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-Die RFC für die [!DNL HMAC] Hash-Implementierung ist [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Test-Site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die [-Codierung in base64 ](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)konvertieren).
+Die RFC für die [!DNL HMAC] Hash-Implementierung ist [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Test-Site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die [-Codierung in base64 &#x200B;](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)konvertieren).
 
 ## Privaten Schlüssel drehen {#rotate-private-key}
 

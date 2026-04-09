@@ -9,10 +9,20 @@ uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 TQID: https://experienceleague.adobe.com/SyaOtcmDa6IwaoPVjv-G6zvdnFa7ZVDaGP7MaX4RaBk
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9id: f8c1669e-86ba-49c4-b622-9dfa07854df8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 473
@@ -45,7 +55,7 @@ Sie können jedoch auch die neuesten Experience Cloud- und [!DNL DIL]-Versionen 
 
 ## Zweck von DIL {#purpose-dil}
 
-[!UICONTROL DIL] ist eine API-Bibliothek. Man kann es sich als eine Art Hilfscode für [!DNL Adobe Audience Manager] vorstellen. Es ist nicht erforderlich, [!DNL Audience Manager] zu verwenden, aber die Methoden und Funktionen, die [!UICONTROL DIL] bietet, bedeuten, dass Sie keinen eigenen Code entwickeln müssen, um Daten an [!DNL Audience Manager] zu senden. Außerdem unterscheidet sich [!UICONTROL DIL] von der vom [Adobe Experience Platform Identity Service} bereitgestellten ](https://experienceleague.adobe.com/docs/id-service/using/home.html). Dieser Service ist für die Verwaltung der Besucheridentität in verschiedenen [!DNL Experience Cloud] konzipiert. Im Gegensatz dazu ist [!UICONTROL DIL] für Folgendes konzipiert:
+[!UICONTROL DIL] ist eine API-Bibliothek. Man kann es sich als eine Art Hilfscode für [!DNL Adobe Audience Manager] vorstellen. Es ist nicht erforderlich, [!DNL Audience Manager] zu verwenden, aber die Methoden und Funktionen, die [!UICONTROL DIL] bietet, bedeuten, dass Sie keinen eigenen Code entwickeln müssen, um Daten an [!DNL Audience Manager] zu senden. Außerdem unterscheidet sich [!UICONTROL DIL] von der vom [Adobe Experience Platform Identity Service&rbrace; bereitgestellten &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html). Dieser Service ist für die Verwaltung der Besucheridentität in verschiedenen [!DNL Experience Cloud] konzipiert. Im Gegensatz dazu ist [!UICONTROL DIL] für Folgendes konzipiert:
 
 * Führen Sie Ereignisaufrufe durch und senden Sie Daten an den [Datenerfassungsserver](../reference/system-components/components-data-collection.md).
 * Senden von Daten an [Ziele](../features/destinations/destinations.md).

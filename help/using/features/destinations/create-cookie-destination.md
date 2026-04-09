@@ -7,9 +7,13 @@ title: Konfigurieren eines Cookie-Ziels
 feature: Destination Basics
 exl-id: 32b8de66-e12d-48ec-82cf-9b0d335ae834
 TQID: https://experienceleague.adobe.com/NelSsN2oH-jL166POOWAyx-HNPZgverTgKq4NhBBdzE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 565
@@ -42,10 +46,10 @@ Dieser Abschnitt enthält Felder und Optionen, mit denen der Erstellungsprozess 
 
 ## Beschriftungen für Datenexporte {#data-export-labels-cookies}
 
-Dieser Abschnitt enthält Optionen, die [Datenexportsteuerelemente) auf ](../../features/data-export-controls.md) Cookie-Ziel anwenden. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So schließen Sie diesen Abschnitt ab:
+Dieser Abschnitt enthält Optionen, die [Datenexportsteuerelemente) auf &#x200B;](../../features/data-export-controls.md) Cookie-Ziel anwenden. Überspringen Sie diesen Schritt, wenn Sie keine Datenexportsteuerelemente verwenden. So schließen Sie diesen Abschnitt ab:
 
 1. Klicken Sie auf **[!UICONTROL Data Export Labels]** , um die Steuerelemente anzuzeigen.
-2. Wählen Sie eine Kennzeichnung aus, die der auf das Ziel angewendeten Datenexportsteuerung entspricht (weitere Informationen finden Sie [Hinzufügen von Exportkennzeichnungen ](/help/using/features/destinations/add-data-export-labels.md) Ziel).
+2. Wählen Sie eine Kennzeichnung aus, die der auf das Ziel angewendeten Datenexportsteuerung entspricht (weitere Informationen finden Sie [Hinzufügen von Exportkennzeichnungen &#x200B;](/help/using/features/destinations/add-data-export-labels.md) Ziel).
 3. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Konfiguration {#configuration}
@@ -63,7 +67,7 @@ So schließen Sie diesen Abschnitt ab:
 1. Wählen Sie eine Option für das Datenformat aus. Mit diesen Optionen können Sie die Trennzeichen und Trennzeichen für die Schlüssel-Wert-Paare auswählen, die Segmentdaten an ein Ziel senden. Zu den Formatoptionen gehören:
    * **Einzelschlüssel** Ermöglicht das Festlegen des Schlüssels in einem Schlüssel-Wert-Paar. Nachdem Sie im Abschnitt [!UICONTROL Segment Mappings] ein Segment ausgewählt haben, legen Sie den Wert fest.
    * **Mehrere Schlüssel:** Ermöglicht das Festlegen von Schlüssel und Wert für ein Schlüssel-Wert-Paar. Sie erstellen das Schlüssel-Wert-Paar, nachdem Sie im Abschnitt Segmentzuordnungen unten ein Segment ausgewählt haben.
-Weitere [ zu diesen Datenelementen finden Sie unter ](../../features/destinations/key-value-pairs.md) und Serielle Schlüssel-Wert-Paare .
+Weitere [&#x200B; zu diesen Datenelementen finden Sie unter &#x200B;](../../features/destinations/key-value-pairs.md) und Serielle Schlüssel-Wert-Paare .
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 Alle anderen Einstellungen sind optional. Weitere Informationen zu den **[!UICONTROL Cookie Domain]**- und **[!UICONTROL Publish data to]** finden Sie unter [Optionale Einstellungen für Cookie-Ziele](/help/using/features/destinations/cookie-destination-options.md).

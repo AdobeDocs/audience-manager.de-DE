@@ -9,9 +9,17 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
 TQID: https://experienceleague.adobe.com/NL19RzO-EfALqH0Exkt5PZeBO-mZXztl4ioiJRp-g4g
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1601
@@ -21,7 +29,7 @@ ht-degree: 2%
 
 # Actionable Log Files {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] ermöglichen es Ihnen, Mediendaten aus den Protokolldateien des Anzeigenservers zu erfassen und die Daten zu verwenden, um Eigenschaften in Audience Manager zu erstellen. Erfasst Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne [ (Pixel](../../integration/media-data-integration/impression-data-pixels.md) anhängen zu müssen.
+[!UICONTROL Actionable Log Files] ermöglichen es Ihnen, Mediendaten aus den Protokolldateien des Anzeigenservers zu erfassen und die Daten zu verwenden, um Eigenschaften in Audience Manager zu erstellen. Erfasst Impressionen, Klicks und Konversionen von Anzeigen-Servern als Eigenschaften, ohne [&#x200B; (Pixel](../../integration/media-data-integration/impression-data-pixels.md) anhängen zu müssen.
 
 >[!NOTE]
 >
@@ -53,11 +61,11 @@ Wenn Sie bereits Protokolldaten in [!DNL Audience Manager] importieren, bitten S
 
 Mit [!UICONTROL Actionable Log Files] werden die Informationen aus den Anzeigen-Server-Protokollen auf [!DNL Audience Manager] gleiche Weise erfasst wie Daten aus Echtzeit-Website-Interaktionen. [!DNL Audience Manager] stellt eine Verbindung zu Ihrem Ad-Server-Protokollspeicher her, analysiert die Informationen aus den Protokollen und sendet die Protokolldaten als verwertbare Signale an [Datenerfassungs-Server](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-Sie müssen weiterhin regelbasierte Eigenschaften einrichten, um die verwertbaren Signale zu erfassen. Erfahren Sie, wie Sie regelbasierte Eigenschaften entweder in der Benutzeroberfläche von [Audience Manager ](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) oder mit unseren [Tools für die Massenverwaltung](../../reference/bulk-management-tools/bulk-create.md) einrichten. Scrollen Sie nach unten zum Abschnitt [Verwertbare Signale](../../integration/media-data-integration/actionable-log-files.md#actionable-signals), um eine Liste aller Schlüssel zu erhalten, die Sie in regelbasierten Eigenschaften verwenden können.
+Sie müssen weiterhin regelbasierte Eigenschaften einrichten, um die verwertbaren Signale zu erfassen. Erfahren Sie, wie Sie regelbasierte Eigenschaften entweder in der Benutzeroberfläche von [Audience Manager &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) oder mit unseren [Tools für die Massenverwaltung](../../reference/bulk-management-tools/bulk-create.md) einrichten. Scrollen Sie nach unten zum Abschnitt [Verwertbare Signale](../../integration/media-data-integration/actionable-log-files.md#actionable-signals), um eine Liste aller Schlüssel zu erhalten, die Sie in regelbasierten Eigenschaften verwenden können.
 
 >[!IMPORTANT]
 >
->Es wird empfohlen, [!UICONTROL Actionable Log Files] *anstelle von*[ Pixel-Aufrufen](../../integration/media-data-integration/impression-data-pixels.md) zu implementieren. Wir raten von der Verwendung beider Optionen ab, da dies zu einem Anstieg der Häufigkeitszahlen für Eigenschaften führt.
+>Es wird empfohlen, [!UICONTROL Actionable Log Files] *anstelle von*[&#x200B; Pixel-Aufrufen](../../integration/media-data-integration/impression-data-pixels.md) zu implementieren. Wir raten von der Verwendung beider Optionen ab, da dies zu einem Anstieg der Häufigkeitszahlen für Eigenschaften führt.
 
 ## Einschaltsignale {#actionable-signals}
 

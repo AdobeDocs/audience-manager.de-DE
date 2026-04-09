@@ -8,9 +8,13 @@ uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
 TQID: https://experienceleague.adobe.com/qljY6sjowD33EDtW0sVdwDm6iFSev1ElC8ZoJQrya9c
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1048
@@ -49,10 +53,10 @@ Sehen Sie sich zunächst das Video [Erstellen von Segmenten in Audience Manager]
    * Suchen Sie nach der [!UICONTROL trait], die Sie einem Segment hinzufügen möchten, und klicken Sie auf **[!UICONTROL Add Trait]**. Fügen Sie eine weitere [!UICONTROL trait] hinzu, um eine [!UICONTROL trait] zu erstellen.
    * Rufen Sie das [!UICONTROL Advanced Search] Modal durch Klicken auf **[!UICONTROL Browse All Traits]** auf. Nach [!UICONTROL traits] nach Name, ID, Beschreibung oder [!UICONTROL data source] suchen. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können [!UICONTROL traits] auch nach [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [Geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
-   * Erhalten Sie [ beim ](trait-recommendations.md) Ihrer [!UICONTROL segment] Live-Eigenschaftsempfehlungen.
+   * Erhalten Sie [&#x200B; beim &#x200B;](trait-recommendations.md) Ihrer [!UICONTROL segment] Live-Eigenschaftsempfehlungen.
    * Klicken und ziehen Sie [!UICONTROL traits], um separate Gruppen zu erstellen.
    * Bewegen Sie den Mauszeiger zwischen Gruppen, um Beziehungen mit booleschen [!UICONTROL AND]-, [!UICONTROL OR]- [!UICONTROL AND NOT] festzulegen.
-   * Bewegen Sie den Mauszeiger über das Uhrensymbol, um dem [ Regeln ](../../features/segments/recency-and-frequency.md)Neuigkeit und Häufigkeit[!UICONTROL trait] hinzuzufügen.
+   * Bewegen Sie den Mauszeiger über das Uhrensymbol, um dem [&#x200B; Regeln &#x200B;](../../features/segments/recency-and-frequency.md)Neuigkeit und Häufigkeit[!UICONTROL trait] hinzuzufügen.
    * Zeigen Sie Segmentpopulationsdaten an, während Sie [!UICONTROL traits] hinzufügen oder entfernen. Klicken Sie auf **[!UICONTROL Calculate Estimates]** , um die geschätzten Populationen anzuzeigen (oder zu aktualisieren). Weitere Informationen zu [Segmentpopulationsdaten](../../features/segments/segment-builder-data.md#segment-populations) finden Sie in der [!UICONTROL Segment Builder].
    * Klicken Sie abschließend auf **[!UICONTROL Save]** .
 
