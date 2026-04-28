@@ -19,10 +19,10 @@ subfeature_v2:
   - id: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 0%
+source-wordcount: 451
+ht-degree: 1%
 
 ---
 
@@ -62,9 +62,9 @@ Beachten Sie, dass unsere Tests und Modelle zeigen, dass die Fehlerrate *sinkt* 
 
 | Anzahl Datensätze | Fehlerrate |
 |--- |--- |
-| 500 - 1.000 | 95 % liegen unter einer Fehlerquote von 42 %. |
-| 1.000 - 1.500 | Bei 95 % liegt die Fehlerquote unter 34 %. |
-| 10.000 - 50.000 | 95 % liegen unter einer Fehlerquote von 14 %. |
+| 500 - 1,000 | 95 % liegen unter einer Fehlerquote von 42 %. |
+| 1,000 - 1,500 | Bei 95 % liegt die Fehlerquote unter 34 %. |
+| 10,000 - 50,000 | 95 % liegen unter einer Fehlerquote von 14 %. |
 | 50.000 | 95 % liegen unter einer Fehlerquote von 6 %. |
 | 100.000 | 95 % liegen unter einer Fehlerquote von 4 %. |
 | 500.000 (oder mehr) | 95 % liegen unter einer Fehlerquote von 2 %. |
@@ -99,5 +99,4 @@ Reports that use Minhash sampling methodology:
 | Statistische Stichprobenziehung | Minhash-Stichprobenmethode |
 |--- |--- |
 | [Adressierbare &#x200B;](../features/addressable-audiences.md)) (Daten auf Kunden- und Segmentebene). | [Überschneidungsberichte](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (Eigenschaft-zu-Eigenschaft, Segment-zu-Eigenschaft und Segment-zu-Segment) |
-| Die [Gesamtzahl der Geräte](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) für eine [!UICONTROL Profile Merge Rule]. | [Eigenschaftenempfehlungen](/help/using/features/segments/trait-recommendations.md) |
 | [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) verwendet auf der Registerkarte &quot;[!UICONTROL Search]&quot; und in allen [!UICONTROL Saved Searches] Stichprobendaten | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

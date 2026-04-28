@@ -15,10 +15,10 @@ feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 1048
-ht-degree: 2%
+source-wordcount: 1028
+ht-degree: 1%
 
 ---
 
@@ -53,10 +53,9 @@ Sehen Sie sich zunächst das Video [Erstellen von Segmenten in Audience Manager]
    * Suchen Sie nach der [!UICONTROL trait], die Sie einem Segment hinzufügen möchten, und klicken Sie auf **[!UICONTROL Add Trait]**. Fügen Sie eine weitere [!UICONTROL trait] hinzu, um eine [!UICONTROL trait] zu erstellen.
    * Rufen Sie das [!UICONTROL Advanced Search] Modal durch Klicken auf **[!UICONTROL Browse All Traits]** auf. Nach [!UICONTROL traits] nach Name, ID, Beschreibung oder [!UICONTROL data source] suchen. Klicken Sie auf einen Ordner, während Sie suchen, um die Ergebnisse auf diesen Ordner und dessen Unterordner zu beschränken. Sie können [!UICONTROL traits] auch nach [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] und [!UICONTROL Algorithmic]) oder Populationstyp ([Geräte-ID](../../reference/ids-in-aam.md) und [Geräteübergreifende ID](../../reference/ids-in-aam.md)) filtern.
      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
-   * Erhalten Sie [&#x200B; beim &#x200B;](trait-recommendations.md) Ihrer [!UICONTROL segment] Live-Eigenschaftsempfehlungen.
    * Klicken und ziehen Sie [!UICONTROL traits], um separate Gruppen zu erstellen.
    * Bewegen Sie den Mauszeiger zwischen Gruppen, um Beziehungen mit booleschen [!UICONTROL AND]-, [!UICONTROL OR]- [!UICONTROL AND NOT] festzulegen.
-   * Bewegen Sie den Mauszeiger über das Uhrensymbol, um dem [&#x200B; Regeln &#x200B;](../../features/segments/recency-and-frequency.md)Neuigkeit und Häufigkeit[!UICONTROL trait] hinzuzufügen.
+   * Bewegen Sie den Mauszeiger über das Uhrensymbol, um dem [!UICONTROL trait] Regeln [Neuigkeit und Häufigkeit](../../features/segments/recency-and-frequency.md) hinzuzufügen.
    * Zeigen Sie Segmentpopulationsdaten an, während Sie [!UICONTROL traits] hinzufügen oder entfernen. Klicken Sie auf **[!UICONTROL Calculate Estimates]** , um die geschätzten Populationen anzuzeigen (oder zu aktualisieren). Weitere Informationen zu [Segmentpopulationsdaten](../../features/segments/segment-builder-data.md#segment-populations) finden Sie in der [!UICONTROL Segment Builder].
    * Klicken Sie abschließend auf **[!UICONTROL Save]** .
 
@@ -140,8 +139,6 @@ Im [!UICONTROL Segment Builder] Abschnitt [!UICONTROL Traits] können Sie [!UICO
 | **[!UICONTROL Basic View]** | Dieser Abschnitt enthält visuelle Steuerelemente, mit denen Sie: <ul><li>Erstellen Sie neue und verwalten Sie vorhandene [!UICONTROL segments].</li><li>Entfernen von [!UICONTROL traits] aus einer [!UICONTROL segment].</li><li>Bis zu 50 (maximal) [!UICONTROL traits] zu einer [!UICONTROL segment] hinzufügen.</li><li>Drag-and-Drop [!UICONTROL traits], um neue Gruppen zu erstellen.</li><li>Anzeigen von [!UICONTROL traits]- und [!UICONTROL trait] in einer [!UICONTROL segment].</li><li>Legen Sie Qualifizierungskriterien mit booleschen Ausdrücken, Vergleichsoperatoren und Einstellungen für Neuigkeit/Häufigkeit fest.</li></ul> |
 | **[!UICONTROL Code View]** | Öffnet eine Entwicklungsumgebung, in der Sie [!UICONTROL traits], Gruppen und Qualifizierungsanforderungen mit Code anstelle der visuellen Benutzeroberfläche erstellen und verwalten können. Die Code-Ansicht ist nützlich, wenn Ihre [!UICONTROL segments]: <ul><li>Enthält mehr als 50 [!UICONTROL traits] in einem einzelnen [!UICONTROL segment]. Hinweis: [!UICONTROL Segments] sind auf maximal 5.000 [!UICONTROL traits] begrenzt.</li><li>enthalten viele [!UICONTROL trait].</li><li>Komplexe Qualifikationsanforderungen haben.</li></ul> |
 | Durchsuchen | Hilft Ihnen bei der Suche nach [!UICONTROL traits] zum Hinzufügen zu einer [!UICONTROL segment]. |
-| Empfehlungen | Erhalten Sie Live-Empfehlungen für ähnliche [!UICONTROL traits] von Ihren Erstanbieter-[!UICONTROL traits] und [!UICONTROL Audience Marketplace] Daten-Feeds, die Sie abonniert haben. Fügen Sie diese Empfehlungen zur [!UICONTROL segment] hinzu, um Ihre Audience zu erweitern. Weitere Informationen finden Sie unter [Eigenschaftsempfehlungen](trait-recommendations.md). |
-| **[!UICONTROL Marketplace Recommendations]** | Erhalten Sie Live-Empfehlungen für ähnliche [!UICONTROL traits] aus [!UICONTROL Audience Marketplace] Daten-Feeds, die Sie nicht abonniert haben. Weitere Informationen finden Sie unter [Eigenschaftsempfehlungen](trait-recommendations.md). |
 | Tatsächliche und geschätzte [!UICONTROL Segment] | Siehe [Eigenschafts- und Segmentpopulationsdaten in Segment Builder](segment-builder-data.md). |
 
 ## Entfernen von [!UICONTROL Traits] aus einer [!UICONTROL Segment] {#remove-traits}

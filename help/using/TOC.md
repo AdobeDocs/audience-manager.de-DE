@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Benutzerhandbuch für Audience Manager
 user-guide-description: Erfahren Sie, wie Sie mit Adobe Audience Manager geschäftlich relevante Informationen über Site-Besucher erfassen und vermarktbare Segmente erstellen können. Sie können auch Details dazu finden, wie Sie zielgerichtete Werbung und Inhalte für die richtige Zielgruppe bereitstellen können.
 feature-set: Audience Manager
-source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 17%
+source-wordcount: '1982'
+ht-degree: 15%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 # Benutzerhandbuch für Audience Manager {#user-guide}
 
 + [Audience Manager-Anleitung](aam-home.md)
-+ [Evolutionshandbuch für Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=de)
++ [Weiterentwicklungsleitfaden für Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=de)
 + Migrieren zu Web SDK{#migrate-to-web-sdk}
    + [Migrieren von der Adobe Audience Manager-Tag-Erweiterung zur Web-Tag-Erweiterung für SDK](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [Migrieren der Datenerfassungsbibliothek von AppMeasurement zu Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -66,7 +66,7 @@ ht-degree: 17%
       + [Erweiterte Funktionen von Audience Lab](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [hide-from-tocAudience Marketplace-Optimierung](features/audience-marketplace/audience-marketplace-optimization.md)
+      + {hide-from-toc}[Audience Marketplace-Optimierung](features/audience-marketplace/audience-marketplace-optimization.md)
       + Audience Marketplace für Datenanbieter{#audience-marketplace-for-data-providers}
          + [Audience Marketplace für Datenanbieter](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Erstellen, Bewerten und Verwalten von Daten-Feeds](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
@@ -151,8 +151,7 @@ ht-degree: 17%
       + [Segment Builder](features/segments/segment-builder.md)
       + [Im Segmentausdruck-Editor verwendete Code-Syntax](features/segments/segment-code-syntax.md)
       + [Daten zu Eigenschaften und Segmentpopulation in Segment Builder](features/segments/segment-builder-data.md)
-      + [Eigenschaftsempfehlungen](features/segments/trait-recommendations.md)
-      + [Referenz: Eigenschafts- und Segmentqualifikationen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=de)
+      + [Referenz zur Trait- und Segmentqualifikation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=de)
    + Eigenschaften{#traits}
       + [Übersicht über Eigenschaften](/help/using/features/traits/traits-overview.md)
       + [Eigenschaftendetailseite](features/traits/trait-details-page.md)
@@ -179,7 +178,7 @@ ht-degree: 17%
       + [Beispielausdrücke mit booleschen und Vergleichsoperatoren](features/traits/trait-expression-samples.md)
       + [Referenz zur Trait- und Segmentqualifikation](features/traits/trait-and-segment-qualification-reference.md)
    + [Besucherprofil-Viewer](features/visitor-profile-viewer.md)
-+ Berichterstellung  {#reporting}
++ Berichterstellung{#reporting}
    + [Berichtübersicht](reporting/reports-overview.md)
    + [Berichte-Dashboard](reporting/reports-dashboard.md)
    + [Allgemeine Berichte](reporting/general-reports.md)
