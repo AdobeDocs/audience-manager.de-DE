@@ -1,18 +1,19 @@
 ---
 cloud: Experience Cloud
 solution: Audience Manager
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 feature-set: Audience Manager
 landing-page-name: audience-manager
 landing-page-breadcrumb-title: Audience Manager
 type: Documentation
 tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/de-DE/audience-manager-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/audience-manager.de-DE
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
+git-repo: https://github.com/AdobeDocs/audience-manager.en
 index: true
-source-git-commit: 28194066af20afb1292c91621a73654fc5c9218f
+source-git-commit: c46ee8bb3185c5199994d2e6ceaccda5d058ed7e
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 2%
+source-wordcount: 125
+ht-degree: 0%
 
 ---
 
@@ -28,5 +29,5 @@ Die Datei „metadata.md“ enthält Metadaten auf Repo-Ebene, die an die im Rep
 | solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
 | getting-started-url | Link zu Hilfen für die ersten Schritte |
 | tutorials-url | Link zu Video-Tutorials - entweder Hilfs-Tutorials oder KT-Tutorials |
-| Mini-Inhaltsverzeichnisebenen | Bestimmt die Anzahl der Überschriftenebenen, die in der rechten Leiste angezeigt werden. Standardwert ist „2“ |
+| Mini-Inhaltsverzeichnisebenen | Bestimmt die Anzahl der Überschriftenebenen, die in der rechten Leiste angezeigt werden. Der Standardwert ist 2 |
 | git-repo | Gibt den Speicherort des primären Repositorys für die interne Verwendung an |
