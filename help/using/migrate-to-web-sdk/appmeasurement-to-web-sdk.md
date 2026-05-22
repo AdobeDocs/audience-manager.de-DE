@@ -3,10 +3,20 @@ title: Aktualisieren Sie Ihre Datenerfassungsbibliothek für Audience Manager vo
 description: Verstehen Sie die Schritte zum Aktualisieren Ihrer Datenerfassungsbibliothek für Audience Manager von der AppMeasurement JavaScript-Bibliothek auf die Web SDK JavaScript-Bibliothek.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
 TQID: https://experienceleague.adobe.com/mxctgUDMvqrSgS0PLsQ7GTwiFMIogo2nL-yZZsnbS40
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 3669
@@ -44,7 +54,7 @@ Bei der serverseitigen Weiterleitung erfasst der regionale Datenerfassungsknoten
 
 Bei Web SDK sendet der Edge Network Daten in separaten Aktionen an Analytics und Audience Manager. Web SDK ist eine zentrale Bibliothek, die Daten an alle Lösungen sendet. Edge Network transformiert lösungsunabhängige Datenpunkte in lösungsspezifische Formate.
 
-In diesem neuen Datenfluss werden alle Daten an einen Edge Network-Datenstrom gesendet[ den ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) bei Bedarf [konfigurieren](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) um Daten an Adobe-Lösungen zu senden. Bei Audience Manager werden durch die Aktivierung des Audience Manager-Services auf dem Datenstrom [!DNL XDM]- und Analytics-Daten in Signale umgewandelt, die von Audience Manager akzeptiert werden. Die Edge Network gibt auch die Audience Manager-Antwort auf die Seite zurück, auf der die Web-SDK die Antwort verarbeitet, ähnlich wie [!DNL AppMeasurement] und das [!DNL AudienceManagement].
+In diesem neuen Datenfluss werden alle Daten an einen Edge Network-Datenstrom gesendet[&#x200B; den &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) bei Bedarf [konfigurieren](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) um Daten an Adobe-Lösungen zu senden. Bei Audience Manager werden durch die Aktivierung des Audience Manager-Services auf dem Datenstrom [!DNL XDM]- und Analytics-Daten in Signale umgewandelt, die von Audience Manager akzeptiert werden. Die Edge Network gibt auch die Audience Manager-Antwort auf die Seite zurück, auf der die Web-SDK die Antwort verarbeitet, ähnlich wie [!DNL AppMeasurement] und das [!DNL AudienceManagement].
 
 ## Migration von Tags im Vergleich zu Nicht-Tags {#tags-vs-non-tags}
 
@@ -63,7 +73,7 @@ Beispiel:
 * Die Analytics-Variable `s.eVar1` wird in der XDM-Payload als `data.__adobe.analytics.evar1` dargestellt.
 * Ein Target-Parameter im Zusammenhang mit dem Kundenloyalitätsstatus wird als `data.__adobe.target.loyaltyStatus` gespeichert.
 
-Daten im `__adobe` werden an die entsprechenden Lösungen (wie Analytics und Audience Manager) gesendet, ohne an Experience Platform gesendet zu werden, auch wenn der Experience Platform-Service für den Datenstrom aktiviert ist. Dies bedeutet, dass Sie Ihre aktuellen Konfigurationen für Analytics und Audience Manager beibehalten können und gleichzeitig flexibel sind, mithilfe von „Datenvorbereitung für die Datenerfassung“ alle erforderlichen Datenelemente XDM-Schemaelementen für [ Anwendungsfälle in Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep).
+Daten im `__adobe` werden an die entsprechenden Lösungen (wie Analytics und Audience Manager) gesendet, ohne an Experience Platform gesendet zu werden, auch wenn der Experience Platform-Service für den Datenstrom aktiviert ist. Dies bedeutet, dass Sie Ihre aktuellen Konfigurationen für Analytics und Audience Manager beibehalten können und gleichzeitig flexibel sind, mithilfe von „Datenvorbereitung für die Datenerfassung“ alle erforderlichen Datenelemente XDM-Schemaelementen für [&#x200B; Anwendungsfälle in Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep).
 
 Beispielsweise kann die Analytics-`s.products`-Zeichenfolge, mit der während des Checkouts Warenkorbinhalte gemeldet werden, weiterhin im Originalformat an Analytics und Audience Manager gesendet werden. Gleichzeitig können Sie die Elemente dieser Zeichenfolge verwenden, um intuitivere XDM-Warenkorbschemata für Experience Platform-Anwendungsfälle zu erstellen.
 
@@ -156,9 +166,9 @@ Ihr Datenstrom kann jetzt sowohl Daten an Audience Manager senden als auch die A
 
 Die meisten Audience Manager-Implementierungen verwenden [Profilzusammenführungsregeln](../features/profile-merge-rules/merge-rules-overview.md) in geräteübergreifenden Personalisierungsszenarien und um zu steuern, welche Segmente Besuchende je nach Authentifizierungsstatus (angemeldet oder abgemeldet) qualifizieren können. Für Profilzusammenführungsregeln ist eine kundeneigene Kennung erforderlich (CRM-ID, Kontonummer usw.) Bei jedem Datenerfassungsaufruf nach der Authentifizierung an Audience Manager zu senden. Zuvor wurde die `setCustomerIDs`-Funktion des Besucher-ID-Service ([!DNL visitor.js]) verwendet, um Kunden-IDs an jeden Analytics-Datenerfassungsaufruf anzuhängen, der dann an Audience Manager weitergeleitet wurde.
 
-Mit der Web-SDK müssen diese Identitäten jetzt mithilfe eines speziellen XDM-Konstrukts namens „IdentityMap[ an die Edge Network gesendet ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap).
+Mit der Web-SDK müssen diese Identitäten jetzt mithilfe eines speziellen XDM-Konstrukts namens „IdentityMap[&#x200B; an die Edge Network gesendet &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap).
 
-Das korrekte Übergeben von Identitäten in einer Identitätszuordnung erfordert das Verständnis [Identitäts-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) und das sorgfältige Abwägen der zu übergebenden Identitäten, insbesondere beim Senden von Daten an eine Experience Platform-Sandbox. [In diesem Artikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) Sie diese Überlegungen und Anweisungen.
+Das korrekte Übergeben von Identitäten in einer Identitätszuordnung erfordert das Verständnis [Identitäts-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) und das sorgfältige Abwägen der zu übergebenden Identitäten, insbesondere beim Senden von Daten an eine Experience Platform-Sandbox. [In diesem Artikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) Sie diese Überlegungen und Anweisungen.
 
 Nachdem Sie bestimmt haben, welche Identitäten wann übergeben werden sollen, befolgen Sie die Anweisungen zur Verwendung des [!UICONTROL Identity map] **[!UICONTROL Identity map]** [Datenelements](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) innerhalb von Tags oder legen Sie es manuell wie in [Übersicht über Identitätsdaten](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) beschrieben fest, um es an Ihre Web SDK-Bereitstellungsstrategie anzupassen.
 
@@ -186,7 +196,7 @@ Wenn Sie mit der Analytics-Funktion [Server-seitige Weiterleitung](https://exper
 
 Die Antwort lautet nein. Sie sollten diese Einstellung aus den folgenden Gründen nicht deaktivieren:
 
-1. Wenn der Audience Manager-Service für einen Datenstrom aktiviert ist, hängt Edge Network die `cm.ssf` an alle Datenerfassungsanfragen an, die an Analytics gesendet werden. Dadurch wird verhindert, dass die Analytics-Daten auch an Audience Manager gesendet werden. Alle Assurance-Protokolle, die zur Validierung der Analytics-Migration verwendet werden, zeigen die `cm.ssf=1` an, wenn der Audience Manager-Service im Datenstrom aktiviert ist. Weitere Informationen finden [ auf der Seite „Analytics- und DSGVO-Compliance](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr) mit dem Schwerpunkt Server-seitige Weiterleitung .
+1. Wenn der Audience Manager-Service für einen Datenstrom aktiviert ist, hängt Edge Network die `cm.ssf` an alle Datenerfassungsanfragen an, die an Analytics gesendet werden. Dadurch wird verhindert, dass die Analytics-Daten auch an Audience Manager gesendet werden. Alle Assurance-Protokolle, die zur Validierung der Analytics-Migration verwendet werden, zeigen die `cm.ssf=1` an, wenn der Audience Manager-Service im Datenstrom aktiviert ist. Weitere Informationen finden [&#x200B; auf der Seite „Analytics- und DSGVO-Compliance](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr) mit dem Schwerpunkt Server-seitige Weiterleitung .
 
 1. Diese Einstellung aktiviert auch den Datenfluss für die [!DNL Audience Analytics]. Wie in der [Übersicht über Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/mc-audiences-aam) beschrieben, ist für diese Integration eine Server-seitige Weiterleitung erforderlich, da die Audience Manager-Antwort an den Analytics-Datenerfassungsserver vor der Verarbeitung zum Analytics-Treffer hinzugefügt wird. Ein ähnlicher Prozess findet innerhalb der Edge Network statt. Wenn die Server-seitige Weiterleitung aktiviert ist, fügt Edge Network die erforderlichen Segmente aus der Audience Manager-Antwort zu den an Analytics gesendeten Daten hinzu.
 

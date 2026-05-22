@@ -7,10 +7,20 @@ title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
 TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1543
@@ -77,7 +87,7 @@ Beim Erstellen eines [!UICONTROL Predictive Audiences] gehen Sie drei Schritte d
 
 Sie können beliebige Erstanbieter-Eigenschaften oder Segmente auswählen, um Ihre Personas zu definieren. Um jedoch optimale Ergebnisse zu erzielen, gibt es hier eine Reihe empfohlener Best Practices:
 
-* Wählen Sie Ihre persönlichen Eigenschaften oder Segmente so aus, dass jede Rolle mindestens einige hundert [Geräte-IDs“ ](../../reference/ids-in-aam.md).
+* Wählen Sie Ihre persönlichen Eigenschaften oder Segmente so aus, dass jede Rolle mindestens einige hundert [Geräte-IDs“ &#x200B;](../../reference/ids-in-aam.md).
 * Wenn Ihre Eigenschaften auf [geräteübergreifenden IDs](../../reference/ids-in-aam.md) basieren, können Sie sie in Segmente mit [Profilzusammenführungsregeln](../profile-merge-rules/merge-rules-overview.md) einschließen, die [Geräte-IDs](../../reference/ids-in-aam.md) verwenden, z. B. [!UICONTROL Device Graph]. Dadurch wird sichergestellt, dass genügend [Geräte-IDs](../../reference/ids-in-aam.md) vorhanden sind, aus denen der Algorithmus lernen kann.
 * Wir empfehlen die Auswahl von Eigenschaften oder einfachen Segmenten für Ihre Personas, die aus 1 bis 3 Eigenschaften bestehen.
 * Wählen Sie Grundlinien-Eigenschaften oder Segmente mit minimaler Überschneidung aus.
