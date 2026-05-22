@@ -23,7 +23,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: 1543
 ht-degree: 3%
 
 ---
@@ -123,7 +123,7 @@ Beim Auswerten von Erstanbieter-Zielgruppen und Zuweisen von Bewertungen verwend
 
 Beachten Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] die folgenden Überlegungen und Einschränkungen:
 
-* Sie können bis zu 10 [!UICONTROL Predictive Audiences] erstellen.
+* Sie können bis zu 10 [!UICONTROL Predictive Audiences]-Modelle erstellen.
 * Für jedes Modell können Sie bis zu 50 Basiseigenschaften/Segmente auswählen.
 * Zweit- und Drittanbieterdaten werden derzeit in [!UICONTROL Predictive Audiences] nicht unterstützt.
 * [!UICONTROL Predictive Audiences] führt eine Zielgruppenklassifizierung anhand der Eigenschaften Ihrer Erstanbieter aus allen Ihren Erstanbieter-Datenquellen durch.

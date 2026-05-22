@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 3385
+source-wordcount: 3669
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ Ihr Datenstrom kann jetzt sowohl Daten an Audience Manager senden als auch die A
 
 +++**4. Hinzufügen von Kunden-IDs zur Identitätszuordnung**
 
-Die meisten Audience Manager-Implementierungen verwenden [Profilzusammenführungsregeln](../features/profile-merge-rules/merge-rules-overview.md) in geräteübergreifenden Personalisierungsszenarien und um zu steuern, welche Segmente Besuchende je nach Authentifizierungsstatus (angemeldet oder abgemeldet) qualifizieren können. Profilzusammenführungsregeln erfordern, dass bei jedem Datenerfassungsaufruf nach der Authentifizierung eine kundeneigene Kennung (CRM-ID, Kontonummer usw.) an Audience Manager gesendet wird. Zuvor wurde die `setCustomerIDs`-Funktion des Besucher-ID-Service ([!DNL visitor.js]) verwendet, um Kunden-IDs an jeden Analytics-Datenerfassungsaufruf anzuhängen, der dann an Audience Manager weitergeleitet wurde.
+Die meisten Audience Manager-Implementierungen verwenden [Profilzusammenführungsregeln](../features/profile-merge-rules/merge-rules-overview.md) in geräteübergreifenden Personalisierungsszenarien und um zu steuern, welche Segmente Besuchende je nach Authentifizierungsstatus (angemeldet oder abgemeldet) qualifizieren können. Für Profilzusammenführungsregeln ist eine kundeneigene Kennung erforderlich (CRM-ID, Kontonummer usw.) Bei jedem Datenerfassungsaufruf nach der Authentifizierung an Audience Manager zu senden. Zuvor wurde die `setCustomerIDs`-Funktion des Besucher-ID-Service ([!DNL visitor.js]) verwendet, um Kunden-IDs an jeden Analytics-Datenerfassungsaufruf anzuhängen, der dann an Audience Manager weitergeleitet wurde.
 
 Mit der Web-SDK müssen diese Identitäten jetzt mithilfe eines speziellen XDM-Konstrukts namens „IdentityMap[&#x200B; an die Edge Network gesendet &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/identitymap).
 
@@ -178,7 +178,7 @@ Nachdem Sie bestimmt haben, welche Identitäten wann übergeben werden sollen, b
 
 Eine gängige Praxis für viele Jahre bestand darin, die Audience Manager-UUID (den Wert im demdex-Cookie eines Drittanbieters) in einem Erstanbieter-Cookie zu platzieren, das normalerweise `aam_uuid` heißt.
 
-Um das Cookie zu setzen, müssen Sie bei der Konfiguration des **[!UICONTROL Name]** einen Cookie-Namen in das Feld **[!UICONTROL Unique User ID Cookie]** im Abschnitt `uuidCookie` der Analytics-Tag-Erweiterung oder das Feld `audienceManagementModule` eingeben. Obwohl dies normalerweise im Code konfiguriert ist, wurde das Cookie nur selten verwendet, da der Audience Manager-UUID-Wert eine gerätespezifische, Domain-übergreifende Kennung ist, die von Werbeplattformen verwendet wird und wenig Wert als Erstanbieter-Kennung bietet.
+Um das Cookie zu setzen, müssen Sie bei der Konfiguration des `audienceManagementModule` einen Cookie-Namen in das Feld **[!UICONTROL Name]** im Abschnitt **[!UICONTROL Unique User ID Cookie]** der Analytics-Tag-Erweiterung oder das Feld `uuidCookie` eingeben. Obwohl dies normalerweise im Code konfiguriert ist, wurde das Cookie nur selten verwendet, da der Audience Manager-UUID-Wert eine gerätespezifische, Domain-übergreifende Kennung ist, die von Werbeplattformen verwendet wird und wenig Wert als Erstanbieter-Kennung bietet.
 
 Wenn Sie feststellen, dass Ihre Implementierung erfordert, dass dieses `aam_uuid`-Cookie nach der Migration auf Web SDK weiterhin gesetzt wird, können Sie die Audience Manager-UUID auf zwei Arten abrufen.
 
