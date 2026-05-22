@@ -7,23 +7,13 @@ title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
 TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: 1543
 ht-degree: 3%
 
 ---
@@ -87,7 +77,7 @@ Beim Erstellen eines [!UICONTROL Predictive Audiences] gehen Sie drei Schritte d
 
 Sie können beliebige Erstanbieter-Eigenschaften oder Segmente auswählen, um Ihre Personas zu definieren. Um jedoch optimale Ergebnisse zu erzielen, gibt es hier eine Reihe empfohlener Best Practices:
 
-* Wählen Sie Ihre persönlichen Eigenschaften oder Segmente so aus, dass jede Rolle mindestens einige hundert [Geräte-IDs“ &#x200B;](../../reference/ids-in-aam.md).
+* Wählen Sie Ihre persönlichen Eigenschaften oder Segmente so aus, dass jede Rolle mindestens einige hundert [Geräte-IDs“ ](../../reference/ids-in-aam.md).
 * Wenn Ihre Eigenschaften auf [geräteübergreifenden IDs](../../reference/ids-in-aam.md) basieren, können Sie sie in Segmente mit [Profilzusammenführungsregeln](../profile-merge-rules/merge-rules-overview.md) einschließen, die [Geräte-IDs](../../reference/ids-in-aam.md) verwenden, z. B. [!UICONTROL Device Graph]. Dadurch wird sichergestellt, dass genügend [Geräte-IDs](../../reference/ids-in-aam.md) vorhanden sind, aus denen der Algorithmus lernen kann.
 * Wir empfehlen die Auswahl von Eigenschaften oder einfachen Segmenten für Ihre Personas, die aus 1 bis 3 Eigenschaften bestehen.
 * Wählen Sie Grundlinien-Eigenschaften oder Segmente mit minimaler Überschneidung aus.
@@ -123,7 +113,7 @@ Beim Auswerten von Erstanbieter-Zielgruppen und Zuweisen von Bewertungen verwend
 
 Beachten Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] die folgenden Überlegungen und Einschränkungen:
 
-* Sie können bis zu 10 [!UICONTROL Predictive Audiences] erstellen.
+* Sie können bis zu 10 [!UICONTROL Predictive Audiences]-Modelle erstellen.
 * Für jedes Modell können Sie bis zu 50 Basiseigenschaften/Segmente auswählen.
 * Zweit- und Drittanbieterdaten werden derzeit in [!UICONTROL Predictive Audiences] nicht unterstützt.
 * [!UICONTROL Predictive Audiences] führt eine Zielgruppenklassifizierung anhand der Eigenschaften Ihrer Erstanbieter aus allen Ihren Erstanbieter-Datenquellen durch.
@@ -137,11 +127,11 @@ Beachten Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] die folg
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Prädiktive Segmente, die von [!UICONTROL Predictive Audiences] erstellt werden, erben [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=de) aus den folgenden Erstanbieter-Datenquellen:
+Prädiktive Segmente, die von [!UICONTROL Predictive Audiences] erstellt werden, erben [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) aus den folgenden Erstanbieter-Datenquellen:
 
 1. Die First-Party-Datenquelle, die Sie beim Erstellen des Modells auswählen.
 1. Die Erstanbieter-Datenquellen Ihrer Zielgruppe. Insbesondere die Datenexportsteuerelemente der [!UICONTROL traits] oder [!UICONTROL segments], aus denen Ihre Zielgruppe besteht.
-1. Die [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=de) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
+1. Die [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
 
 Die neu erstellten prädiktiven [!UICONTROL traits] und [!UICONTROL segments] weisen dieselben Datenschutzbeschränkungen auf wie die oben beschriebene Vereinigung der Erstanbieter-Datenquellen.
 
@@ -161,6 +151,6 @@ Durch die Auswahl eines [!UICONTROL Profile Merge Rule], der sowohl Gerätedaten
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppenklassifizierung auswählen, unterliegen der Audience Manager [Rollenbasierten Zugriffssteuerung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de).
+Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppenklassifizierung auswählen, unterliegen der Audience Manager [Rollenbasierten Zugriffssteuerung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
 
-Audience Manager-Benutzende können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, für die sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de#wild-card-permissions) verfügen.
+Audience Manager-Benutzende können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, für die sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions) verfügen.
