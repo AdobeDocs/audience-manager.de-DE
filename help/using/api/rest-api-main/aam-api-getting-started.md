@@ -26,8 +26,8 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2563
-ht-degree: 1%
+source-wordcount: 2778
+ht-degree: 2%
 
 ---
 
@@ -261,7 +261,7 @@ Wenn Ihr Audience Manager-Konto [Rollenbasierte Zugriffssteuerung](../../feature
 
 Gehen Sie wie folgt vor, um ein technisches Benutzerkonto zu erstellen und es einer RBAC-Gruppe hinzuzufügen:
 
-1. Rufen Sie `GET` `https://aam.adobe.io/v1/users/self` an. Mit dem Aufruf wird ein technisches Benutzerkonto erstellt, das Sie im [!UICONTROL Admin Console] auf der [!UICONTROL Users] Seite sehen können.
+1. Rufen Sie `https://aam.adobe.io/v1/users/self` `GET` an. Mit dem Aufruf wird ein technisches Benutzerkonto erstellt, das Sie im [!UICONTROL Admin Console] auf der [!UICONTROL Users] Seite sehen können.
 
    ![Technisches Konto](assets/technical-account.png)
 
@@ -287,7 +287,7 @@ Es wird empfohlen, ein separates technisches Benutzerkonto für die Arbeit mit d
 * Ermitteln Sie, welcher Service die [!DNL API] aufruft (z. B. Aufrufe von Ihren Apps, die unsere [!DNL API] verwenden, oder von anderen Tools, die [!DNL API] Anfragen stellen).
 * Ununterbrochener Zugriff auf die [!DNL API]s. Ein Konto, das mit einer bestimmten Person verknüpft ist, kann gelöscht werden, wenn diese Person Ihr Unternehmen verlässt. Dadurch wird verhindert, dass Sie mit dem verfügbaren [!DNL API]-Code arbeiten. Ein generisches Konto, das nicht an einen bestimmten Mitarbeiter gebunden ist, hilft Ihnen, dieses Problem zu vermeiden.
 
-Angenommen, Sie möchten mit den „Tools für die Massenverwaltung“ viele Segmente gleichzeitig ändern, [&#x200B; Beispiel für diesen Kontotyp](../../reference/bulk-management-tools/bulk-management-intro.md). Dazu benötigt Ihr Benutzerkonto [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn Sie Ihre eigenen Anwendungen entwickeln, die die [!DNL Audience Manager] der [!DNL API] verwenden.
+Angenommen, Sie möchten mit den „Tools für die Massenverwaltung“ viele Segmente gleichzeitig ändern, [&#x200B; Beispiel für diesen Kontotyp](../../reference/bulk-management-tools/bulk-management-intro.md). Dazu benötigt Ihr Benutzerkonto [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn Sie Ihre eigenen Anwendungen entwickeln, die die [!DNL API] der [!DNL Audience Manager] verwenden.
 
 Arbeiten Sie mit Ihrem [!DNL Audience Manager] Berater zusammen, um ein generisches, [!DNL API] Benutzerkonto einzurichten.
 
@@ -394,7 +394,7 @@ Sie können diese optionalen Parameter mit [!DNL API] Methoden verwenden, die *a
 | `pageSize` | Legt die Anzahl der von der Anfrage zurückgegebenen Antwortergebnisse fest (10 ist der Standardwert). |
 | `sortBy` | Sortiert Ergebnisse entsprechend der angegebenen [!DNL JSON]-Eigenschaft und gibt sie zurück. |
 | `descending` | Sortiert die Ergebnisse in absteigender Reihenfolge und gibt sie zurück. `ascending` ist Standard. |
-| `search` | Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Angenommen, Sie möchten Ergebnisse für alle Modelle finden, die das Wort „Test“ in einem der Wertefelder für dieses Element enthalten. Ihre Beispielanfrage könnte wie folgt aussehen:   `GET https://aam.adobe.io/v1/models/?search=Test`.  Sie können nach jedem Wert suchen, der von einer &quot;[!DNL get all]&quot;-Methode zurückgegeben wird. |
+| `search` | Gibt Ergebnisse basierend auf der angegebenen Zeichenfolge zurück, die Sie als Suchparameter verwenden möchten. Angenommen, Sie möchten Ergebnisse für alle Modelle finden, die das Wort „Test“ in einem der Wertefelder für dieses Element enthalten. Ihre Beispielanfrage könnte wie folgt aussehen: `GET https://aam.adobe.io/v1/models/?search=Test`.  Sie können nach jedem Wert suchen, der von einer &quot;[!DNL get all]&quot;-Methode zurückgegeben wird. |
 | `folderId` | Gibt alle IDs für [!UICONTROL traits] innerhalb des angegebenen Ordners zurück. Nicht für alle Methoden verfügbar. |
 | `permissions` | Gibt eine Liste mit Segmenten basierend auf der angegebenen Berechtigung zurück. `READ` ist Standard. Zu den Berechtigungen gehören:<ul><li>`READ` : Rückgabe und Anzeige von Informationen zu einem Segment.</li><li>`WRITE` : Verwenden Sie `PUT`, um ein Segment zu aktualisieren.</li><li>`CREATE` : Verwenden Sie `POST`, um ein Segment zu erstellen.</li><li>`DELETE` : Segment löschen. Erfordert Zugriff auf zugrunde liegende Eigenschaften, falls vorhanden. Sie benötigen beispielsweise Berechtigungen zum Löschen der Eigenschaften, die zu einem Segment gehören, wenn Sie es entfernen möchten.</li></ul><br>Geben Sie mehrere Berechtigungen mit separaten Schlüssel-Wert-Paaren an. Um beispielsweise eine Liste von Segmenten zurückzugeben, für die nur `READ`- und `WRITE`-Berechtigungen vorliegen, übergeben Sie `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Legen Sie auf `true` fest, um Ihre Berechtigungen für das Segment zurückzugeben. Der Standardwert ist `false`. |
@@ -419,7 +419,7 @@ In der folgenden Tabelle sind die [!DNL URLs] aufgeführt, die zum Übergeben vo
 
 Je nach der von Ihnen verwendeten Authentifizierungsmethode müssen Sie Ihre [!DNL URLs] entsprechend den folgenden Tabellen anpassen.
 
-### [!DNL URLs] für die OAuth[!BADGE Server-zu-Server-Authentifizierung &#x200B;]{type=positive}empfohlen) und die [!BADGE -Authentifizierung &#x200B;]{type=negative}veraltet[!DNL JWT] über Adobe Developer {#request-urls-jwt}
+### [!DNL URLs] für die OAuth&rbrack;&lbrace;type=positive&rbrace;Server-zu-Server-Authentifizierung empfohlen) und die [!DNL JWT]-Authentifizierung [!BADGE veraltet]{type=negative} über Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] | [!DNL URL] anfordern |
 |--- |--- |

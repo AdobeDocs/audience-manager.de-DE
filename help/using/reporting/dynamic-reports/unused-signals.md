@@ -14,7 +14,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 633
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Dieser Bericht gibt eine Häufigkeitsanzahl aller nicht verwendeten Informatione
 
 ## Überblick
 
-Ein Signal ist eine Information von Ihrer Website, die in Form von [!DNL Audience Manager]Schlüssel-Wert-Paaren[&#x200B; (z. B. &#x200B;](../../reference/key-value-pairs-explained.md) usw.) an `color=blue, price>100, gender=female` weitergegeben wird.
+Ein Signal ist eine Information von Ihrer Website, die in Form von [Schlüssel-Wert-Paaren](../../reference/key-value-pairs-explained.md) (z. B. `color=blue, price>100, gender=female` usw.) an [!DNL Audience Manager] weitergegeben wird.
 
 Nicht verwendete Signale bestehen aus Daten, die Sie sammeln, aber keiner Eigenschaft zugeordnet wurden. Der [!UICONTROL Unused Signals] Bericht zeigt Daten in einer Tabelle nach Datum, Schlüssel, Wert und Häufigkeitsanzahl an. Jedes nicht zugeordnete Signal, das an [!DNL Audience Manager] mindestens 100-mal pro Tag übergeben wird, ist für den [!UICONTROL Unused Signals]-Bericht qualifiziert.
 
@@ -80,7 +80,7 @@ Führen Sie den [!UICONTROL Unused Signals] aus und überprüfen Sie ihn:
 >Beachten Sie bei der Suche nach nicht verwendeten Werten im Bericht die folgende Besonderheit. Zwischen den beiden folgenden Beispielen besteht ein Unterschied im Ausdruck:
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
-* T(v=1 [!UICONTROL AND] (a!=23)
+* T(v=1 [!UICONTROL AND] (a!=23))
 * Beide Beispiele zeigen ein Merkmal, das zwei Schlüssel-Wert-Paare v und a enthält. Der erste Ausdruck ergibt: Das Merkmal enthält Schlüssel v mit dem Wert 1 [!UICONTROL AND NOT] Schlüssel a mit dem Wert 23. Der zweite Ausdruck enthält Schlüssel v mit dem Wert 1 [!UICONTROL AND] Schlüssel a mit dem Wert [!UICONTROL NOT EQUAL] 23.
 * In Anbetracht der beiden oben genannten verschiedenen Ausdrücke sagen wir, Sie suchen im [!UICONTROL Unused Signals Report] nach den Werten, die an Schlüssel a mit einem anderen Wert als 23 übergeben werden, Sie erhalten Ergebnisse nur im ersten Fall, da Werte für Schlüssel ÜBERHAUPT nicht gesendet wurden. Im zweiten Fall wurden andere Werte als 23 gesendet, sodass der Schlüssel a nicht ungenutzt bleibt.
 

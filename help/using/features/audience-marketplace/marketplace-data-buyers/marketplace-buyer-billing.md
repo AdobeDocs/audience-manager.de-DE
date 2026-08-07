@@ -22,7 +22,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2029
+source-wordcount: 2059
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ So melden Sie [!DNL CPM] auf Segmentebene:
 1. Wählen Sie die Registerkarte **[!UICONTROL Segment Usage]** aus.
 1. Geben Sie die Nutzung für Ihre Segmente ein. Sie können das [!UICONTROL Search] verwenden, um die Segmente zu filtern, wenn Sie nur die Nutzung für einige von ihnen im Bericht angeben müssen.
 1. Klicken Sie auf **[!UICONTROL Edit Segments Usage]**.
-1. Geben Sie in der Spalte [!DNL CPM] den [!UICONTROL Usage] Nutzungsbetrag ein.
+1. Geben Sie in der Spalte [!UICONTROL Usage] den [!DNL CPM] Nutzungsbetrag ein.
 1. Klicken Sie abschließend auf **[!UICONTROL Save]** und überprüfen Sie das Bestätigungsdialogfeld.
 
    ![confirm-segment-usage](assets/confirm-segment-usage.png)

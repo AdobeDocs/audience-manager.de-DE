@@ -24,7 +24,7 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2160
 ht-degree: 0%
 
 ---
@@ -318,7 +318,7 @@ Als [!UICONTROL Audience Marketplace]-Käufer können Sie Daten für Anwendungsf
 
 ### Segmente und Überschneidungen
 
-In diesem Anwendungsbeispiel können Sie in einem Bericht zur Überschneidung von Eigenschaft [&#x200B; Eigenschaft mit Anbietereigenschaften vergleichen.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) können Sie Provider-Eigenschaften für ein Segment erstellen oder hinzufügen und zusätzliche Vergleiche mit den Berichten [Segment-zu-Eigenschaft](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen. Überschneidungsvergleiche können Ihnen dabei helfen:
+In diesem Anwendungsbeispiel können Sie in einem Bericht zur Überschneidung von Eigenschaft [&#x200B; Eigenschaft mit Anbietereigenschaften vergleichen](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Außerdem können Sie Anbietereigenschaften zu einem Segment erstellen oder hinzufügen und zusätzliche Vergleiche mit den Berichten [Segment-zu-Eigenschaft](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) und [Segment-zu-Segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) vornehmen. Überschneidungsvergleiche können Ihnen dabei helfen:
 
 * **Reichweite der Zielgruppe erweitern:** geringe Überschneidung deutet darauf hin, dass Ihre Eigenschaften Benutzer enthalten, die Sie noch nie zuvor gesehen haben. Möglicherweise möchten Sie, dass diese Eigenschaften versuchen, neue Benutzende zu erreichen.
 * **Vorhandene Zielgruppen verbessern:** hohe Überschneidung deutet darauf hin, dass Ihre Eigenschaften denen des Datenanbieters ähnlich sind. Diese Eigenschaften sollen dazu beitragen, eine bereits entwickelte Zielgruppe zielgerichtet und inkrementell zu verbessern.
@@ -329,7 +329,7 @@ In diesem Anwendungsbeispiel können Sie die Eigenschaften von Lieferanten mit I
 
 ### Aktivierung
 
-In diesem Anwendungsfall können Sie Daten an ein [Ziel“ &#x200B;](../../../features/destinations/destinations.md). [!DNL Audience Manager] ist ein Ziel jedes Drittanbietersystem (Werbeserver, [!DNL DSP], [!DNL DMP], Exchange usw.), für das Sie Daten freigeben möchten. Bei einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
+In diesem Anwendungsfall können Sie Daten an ein [Ziel“ &#x200B;](../../../features/destinations/destinations.md). [!DNL Audience Manager] ist ein Ziel jedes Drittanbietersystem (Werbeserver, [!DNL DSP], [!DNL DMP], Exchange usw.) , für die Sie Daten freigeben möchten. Bei einem [!UICONTROL Activation] Anwendungsfall können Sie jedoch keine Überschneidungsberichte ausführen oder die Daten in einem algorithmischen Modell testen.
 
 >[!MORELIKETHIS]
 >

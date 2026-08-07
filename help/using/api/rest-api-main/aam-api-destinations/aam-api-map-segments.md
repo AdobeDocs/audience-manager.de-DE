@@ -15,7 +15,7 @@ feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: 514
 ht-degree: 6%
 
 ---
@@ -28,7 +28,7 @@ Ordnen Sie mit diesen [!DNL RESTful API] Methoden Segmente Zielen zu.
 
 ## Unterstützte Zieltypen: nur URL und Cookie
 
-Mit den verfügbaren `POST` können Sie Segmente nur [!UICONTROL URL] und [!UICONTROL cookie destinations] zuordnen. Derzeit können Sie mit diesen [!UICONTROL server-to-server destinations] keine Segmente [!DNL REST API] zuordnen. Verwenden Sie stattdessen die -Benutzeroberfläche. Mit den zugehörigen Ziel-`GET`-Methoden können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
+Mit den verfügbaren `POST` können Sie Segmente nur [!UICONTROL URL] und [!UICONTROL cookie destinations] zuordnen. Derzeit können Sie mit diesen [!DNL REST API] keine Segmente [!UICONTROL server-to-server destinations] zuordnen. Verwenden Sie stattdessen die -Benutzeroberfläche. Mit den zugehörigen Ziel-`GET`-Methoden können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
 
 ## Zuordnen eines Segments zu einem nicht serialisierten URL-Ziel {#map-segment-non-serial}
 
@@ -275,7 +275,7 @@ In der Anfrage legen `traitAlias` und `valueAlias` den Schlüssel und den Wert i
 
 ## Zuordnen eines Segments zu einem Server-zu-Server-Ziel {#map-segment-s2s}
 
-Eine `POST` Methode, mit der Sie ein Segment einem vorhandenen [!UICONTROL server-to-server] zuordnen können. Beachten Sie jedoch, dass Sie mit diesen derzeit verfügbaren [!UICONTROL server-to-server] keine [!DNL API] Ziele erstellen können.
+Eine `POST` Methode, mit der Sie ein Segment einem vorhandenen [!UICONTROL server-to-server] zuordnen können. Beachten Sie jedoch, dass Sie mit diesen derzeit verfügbaren [!DNL API] keine [!UICONTROL server-to-server] Ziele erstellen können.
 
 <!-- r_map_segment_s2s.xml -->
 
