@@ -8,14 +8,11 @@ uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
 exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
 TQID: https://experienceleague.adobe.com/uCYyOwaUN-5uCXESTtTTfVaoUsH2qrZS-ggvVQ-6-Ng
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: 514
 ht-degree: 6%
 
 ---
@@ -28,7 +25,7 @@ Ordnen Sie mit diesen [!DNL RESTful API] Methoden Segmente Zielen zu.
 
 ## Unterstützte Zieltypen: nur URL und Cookie
 
-Mit den verfügbaren `POST` können Sie Segmente nur [!UICONTROL URL] und [!UICONTROL cookie destinations] zuordnen. Derzeit können Sie mit diesen [!UICONTROL server-to-server destinations] keine Segmente [!DNL REST API] zuordnen. Verwenden Sie stattdessen die -Benutzeroberfläche. Mit den zugehörigen Ziel-`GET`-Methoden können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
+Mit den verfügbaren `POST` können Sie Segmente nur [!UICONTROL URL] und [!UICONTROL cookie destinations] zuordnen. Derzeit können Sie mit diesen [!DNL REST API] keine Segmente [!UICONTROL server-to-server destinations] zuordnen. Verwenden Sie stattdessen die -Benutzeroberfläche. Mit den zugehörigen Ziel-`GET`-Methoden können Sie jedoch Informationen zu [!UICONTROL server-to-server destinations] abrufen, die in der Benutzeroberfläche erstellt wurden.
 
 ## Zuordnen eines Segments zu einem nicht serialisierten URL-Ziel {#map-segment-non-serial}
 
@@ -275,7 +272,7 @@ In der Anfrage legen `traitAlias` und `valueAlias` den Schlüssel und den Wert i
 
 ## Zuordnen eines Segments zu einem Server-zu-Server-Ziel {#map-segment-s2s}
 
-Eine `POST` Methode, mit der Sie ein Segment einem vorhandenen [!UICONTROL server-to-server] zuordnen können. Beachten Sie jedoch, dass Sie mit diesen derzeit verfügbaren [!UICONTROL server-to-server] keine [!DNL API] Ziele erstellen können.
+Eine `POST` Methode, mit der Sie ein Segment einem vorhandenen [!UICONTROL server-to-server] zuordnen können. Beachten Sie jedoch, dass Sie mit diesen derzeit verfügbaren [!DNL API] keine [!UICONTROL server-to-server] Ziele erstellen können.
 
 <!-- r_map_segment_s2s.xml -->
 
