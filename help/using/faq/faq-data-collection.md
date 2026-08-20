@@ -28,9 +28,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: 99abc40141fbc79b15dd87691be58c9e201a705a
 workflow-type: tm+mt
-source-wordcount: 1255
+source-wordcount: 1276
 ht-degree: 74%
 
 ---
@@ -97,7 +97,7 @@ Laden Sie [!UICONTROL DIL] nach dem `s_code`-Modul, jedoch *vor* der Funktion `s
 
 2. [!DNL Audience Manager] [!UICONTROL DIL]-Modul
 
-3. [!DNL Analytics] `s.t()`-Funktion 
+3. [!DNL Analytics] `s.t()`-Funktion
 
 Richten Sie Ihre [!DNL Audience Manager]-[!DNL Analytics]-Integration mit einer dieser beiden Methoden als Best Practice ein:
 
@@ -184,7 +184,7 @@ Jeder Anbieter bringt etwas Einzigartiges mit, daher hängt die Antwort davon ab
 
 **Wie setzt [!DNL Audience Manager] Cookies und übergibt Variablen an [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] setzt 2 Cookies: Einer sendet Segmentvariablen an das [!DNL Google Ad Manager] Ad-Tag und der andere setzt unsere Unique User ID (UUID), die auch von [!DNL Google Ad Manager] gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
+[!DNL Audience Manager] setzt 2 Cookies: Einer sendet Segmentvariablen an das [!DNL Google Ad Manager] Ad-Tag und der andere setzt unsere Unique User ID (UUID), die auch von [!DNL Google Ad Manager] gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen.
 
 <br> 
 
@@ -230,8 +230,8 @@ Die regionsübergreifende Synchronisierung eines Profils dauert in der Regel bis
 
 **Was passiert mit inaktiven Amazon S3-Benutzerzugriffsschlüsseln?**
 
-Adobe stellt Audience Manager-Kunden Zugriffsschlüssel für [!DNL Amazon S3] Buckets bereit. Aus Sicherheitsgründen werden diese Zugriffsschlüssel automatisch deaktiviert, wenn sie 100 Tage lang nicht verwendet werden.
+Adobe stellt Audience Manager-Kunden Zugriffsschlüssel für [!DNL Amazon S3] Buckets bereit. Aus Sicherheitsgründen werden diese Zugriffsschlüssel automatisch deaktiviert, wenn sie 40 Tage lang nicht verwendet werden.
 
 Wenn Ihre Zugriffsschlüssel deaktiviert sind, können Sie sich an den Support wenden, um sie erneut zu aktivieren, oder neue Schlüssel anfordern.
 
-Zur Erhöhung der Sicherheit werden Zugriffsschlüssel, die 1.000 Tage lang inaktiv bleiben, zusammen mit dem Amazon S3 IAM-Benutzerkonto dauerhaft gelöscht. Wenn Sie wiederkehrender Kunde sind und nach diesem Zeitraum Zugriff benötigen, wenden Sie sich an den Support, um Ihr Konto neu zu erstellen und neue Zugriffsschlüssel zu erhalten.
+Zur Erhöhung der Sicherheit werden Zugriffsschlüssel, die 180 Tage lang inaktiv bleiben, zusammen mit dem Amazon S3 IAM-Benutzerkonto dauerhaft gelöscht. Wenn Sie wiederkehrender Kunde sind und nach diesem Zeitraum Zugriff benötigen, wenden Sie sich an den Support, um Ihr Konto neu zu erstellen und neue Zugriffsschlüssel zu erhalten.
