@@ -9,28 +9,13 @@ keywords: SFTP; SFTP-Adresse; SFTP-IP-Adresse; FTP-Adresse
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 TQID: https://experienceleague.adobe.com/C35e-eIULWyFZPASMC-vwOIU1Yk-SH-HZzGRTO89yFg
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: b1ecf375-97f8-4f5a-a937-6129552209be
-  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: b89b323a-1e91-40b1-8d20-96b5b726d55aid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: b1ecf375-97f8-4f5a-a937-6129552209beid: b52f95d5-ca6b-4fda-a49e-994dc0a63402id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 99abc40141fbc79b15dd87691be58c9e201a705a
 workflow-type: tm+mt
-source-wordcount: 1255
+source-wordcount: 1276
 ht-degree: 74%
 
 ---
@@ -97,7 +82,7 @@ Laden Sie [!UICONTROL DIL] nach dem `s_code`-Modul, jedoch *vor* der Funktion `s
 
 2. [!DNL Audience Manager] [!UICONTROL DIL]-Modul
 
-3. [!DNL Analytics] `s.t()`-Funktion 
+3. [!DNL Analytics] `s.t()`-Funktion
 
 Richten Sie Ihre [!DNL Audience Manager]-[!DNL Analytics]-Integration mit einer dieser beiden Methoden als Best Practice ein:
 
@@ -184,7 +169,7 @@ Jeder Anbieter bringt etwas Einzigartiges mit, daher hängt die Antwort davon ab
 
 **Wie setzt [!DNL Audience Manager] Cookies und übergibt Variablen an [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] setzt 2 Cookies: Einer sendet Segmentvariablen an das [!DNL Google Ad Manager] Ad-Tag und der andere setzt unsere Unique User ID (UUID), die auch von [!DNL Google Ad Manager] gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen. 
+[!DNL Audience Manager] setzt 2 Cookies: Einer sendet Segmentvariablen an das [!DNL Google Ad Manager] Ad-Tag und der andere setzt unsere Unique User ID (UUID), die auch von [!DNL Google Ad Manager] gelesen wird. Durch Hinzufügen der UUID zum Anzeigen-Tag Berichte können wir Berichte und Zielgruppenermittlung auf Benutzerebene durchführen.
 
 <br> 
 
@@ -210,7 +195,7 @@ Nein, verlassen Sie sich in diesem Fall nicht auf die [!UICONTROL General Report
 
 Die Berichte berechnen Populationen basierend auf den nicht authentifizierten Profildatensätzen (UUIDs), die zum Zeitpunkt der Berichterstellung im Backend angezeigt werden.
 
-Bei einem ersten Aufruf des [!DNL DCS] werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. auf der Client-Seite ist kein [demdex-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=de) vorhanden). Der [!DNL DCS] generiert eine UUID nach dem Zufallsprinzip, setzt ein [!DNL demdex]-Cookie und gibt es im Antwortaufruf weiter. Er überträgt jedoch die UUID nicht an das Backend.
+Bei einem ersten Aufruf des [!DNL DCS] werden die deklarierten IDs *nicht* mit einer UUID verknüpft (d. h. auf der Client-Seite ist kein [demdex-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) vorhanden). Der [!DNL DCS] generiert eine UUID nach dem Zufallsprinzip, setzt ein [!DNL demdex]-Cookie und gibt es im Antwortaufruf weiter. Er überträgt jedoch die UUID nicht an das Backend.
 
 >[!NOTE]
 >
@@ -230,8 +215,8 @@ Die regionsübergreifende Synchronisierung eines Profils dauert in der Regel bis
 
 **Was passiert mit inaktiven Amazon S3-Benutzerzugriffsschlüsseln?**
 
-Adobe stellt Audience Manager-Kunden Zugriffsschlüssel für [!DNL Amazon S3] Buckets bereit. Aus Sicherheitsgründen werden diese Zugriffsschlüssel automatisch deaktiviert, wenn sie 100 Tage lang nicht verwendet werden.
+Adobe stellt Audience Manager-Kunden Zugriffsschlüssel für [!DNL Amazon S3] Buckets bereit. Aus Sicherheitsgründen werden diese Zugriffsschlüssel automatisch deaktiviert, wenn sie 40 Tage lang nicht verwendet werden.
 
 Wenn Ihre Zugriffsschlüssel deaktiviert sind, können Sie sich an den Support wenden, um sie erneut zu aktivieren, oder neue Schlüssel anfordern.
 
-Zur Erhöhung der Sicherheit werden Zugriffsschlüssel, die 1.000 Tage lang inaktiv bleiben, zusammen mit dem Amazon S3 IAM-Benutzerkonto dauerhaft gelöscht. Wenn Sie wiederkehrender Kunde sind und nach diesem Zeitraum Zugriff benötigen, wenden Sie sich an den Support, um Ihr Konto neu zu erstellen und neue Zugriffsschlüssel zu erhalten.
+Zur Erhöhung der Sicherheit werden Zugriffsschlüssel, die 180 Tage lang inaktiv bleiben, zusammen mit dem Amazon S3 IAM-Benutzerkonto dauerhaft gelöscht. Wenn Sie wiederkehrender Kunde sind und nach diesem Zeitraum Zugriff benötigen, wenden Sie sich an den Support, um Ihr Konto neu zu erstellen und neue Zugriffsschlüssel zu erhalten.
