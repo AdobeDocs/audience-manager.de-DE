@@ -10,21 +10,25 @@ exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 TQID: https://experienceleague.adobe.com/zc1W-k6Ttlacqnoeqou-lW0A2X5mq0i0ZK2tHovFWoI
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: a3c2901ff307d6c2440cef22181abb854a9743df
 workflow-type: tm+mt
-source-wordcount: 267
-ht-degree: 100%
-
+source-wordcount: '352'
+ht-degree: 48%
 ---
-
 # Passwortanforderungen, gesperrte Konten und vergessene Passwörter{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager kann so konfiguriert werden, dass Passwörter alle 30 Tage ablaufen. Wenden Sie sich an Ihren Audience Manager-Berater oder die Kundenunterstützung, wenn Sie das Ablaufen von Passwörtern aktivieren möchten. In diesem Abschnitt finden Sie Informationen zu Passwortanforderungen und zum Wiederherstellen eines verlorenen oder vergessenen Passworts.
@@ -39,54 +43,26 @@ c_password_requirements.xml
 
 Um gültig zu sein, muss Ihr [!DNL Audience Manager]-Passwort die folgenden Anforderungen erfüllen:
 
-<table id="table_9B79E9F634664F6B995649E3158CCF20"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Anforderungen </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Länge</b> </p> </td> 
-   <td colname="col2"> <p>Passwörter können zwischen 12 und 40 Zeichen lang sein. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
-   <td colname="col2"> <p>Passwörter müssen: </p> <p> 
-     <ul id="ul_70F64B9DE90E463098DFA8AB8349CF0B"> 
-      <li id="li_2FBA66E47F4A4E1BB01DE3722821E100">mit einem alphanumerischen Zeichen beginnen und enden. </li> 
-      <li id="li_1390D4C9A48944B68B891EE6CB734BBC">mindestens 1 Groß- und Kleinbuchstaben enthalten. </li> 
-      <li id="li_B75B64A005804262BAAF0F1901D63358">mindestens 1 Zahl enthalten. </li> 
-      <li id="li_28452022AF4743B8B159187BBD10890A">mindestens 1 Sonderzeichen (Doppelpunkt „:“ ausgeschlossen) enthalten. </li> 
-      <li id="li_C02B931ABAB84FFE9B87AEBAEDF34EF3">nur aus lateinischen Buchstaben bestehen. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Versionen</b> </p> </td> 
-   <td colname="col2"> <p> Passwörter müssen sich von Ihren vorherigen 12 Passwörtern unterscheiden. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Verbotene Elemente</b> </p> </td> 
-   <td colname="col2"> <p> Passwörter dürfen nicht enthalten: </p> <p> 
-     <ul id="ul_08DE186AF56E401B933256E69279847A"> 
-      <li id="li_CC854F7F86484774A76CCF927E1400B4">Vorname oder Nachname. </li> 
-      <li id="li_74ACCF3DE717473B8AB9B1720DD891E7">E-Mail-Adresse. </li> 
-      <li id="li_09C1F699BF6843ACAB4E68D2F57461AB"><span class="keyword"> Adobe</span>-Benutzer-ID. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Anforderungen | Beschreibung |
+|---|---|
+| Länge | Passwörter können zwischen 12 und 40 Zeichen lang sein. |
+| Inhalt | Passwörter müssen:<ul><li>mit einem alphanumerischen Zeichen beginnen und enden.</li><li>enthält mindestens ein Zeichen in Groß- und Kleinschreibung.</li><li>enthält mindestens eine Zahl.</li><li>Mindestens ein Sonderzeichen enthalten (Doppelpunkte ausgeschlossen).</li><li>nur aus lateinischen Buchstaben bestehen.</li></ul> |
+| Versionen | Passwörter müssen sich von Ihren vorherigen 12 Passwörtern unterscheiden. |
+| Verbotene Elemente | Kennwörter dürfen Folgendes nicht enthalten:<ul><li>Ihr Vor- oder Nachname.</li><li>Ihre E-Mail-Adresse oder [!DNL Adobe] Benutzer-ID.</li><li>Aufeinander folgende Buchstaben oder Zahlen.</li><li>Sequenzielle Buchstaben oder Zahlen.</li><li>Häufig verwendete Kennwörter.</li></ul> |
 
 Weitere Informationen zum Zurücksetzen Ihres Passworts finden Sie unter [Bearbeiten Ihrer Kontoeinstellungen](../features/administration/edit-account-settings.md).
 
 **Kontosperre**
 
-Konten werden nach 5 fehlgeschlagenen Anmeldeversuchen gesperrt. Wenden Sie sich an den [!DNL Audience Manager]-Administrator Ihrer Firma oder an einen Partner Services-Support-Mitarbeiter, um Ihr Konto zu entsperren.
+Aus Sicherheitsgründen beschränkt [!DNL Audience Manager] vorübergehend die Anzahl der wiederholten fehlgeschlagenen Anmeldeversuche. Wenn Sie das Limit überschreiten, blockiert [!DNL Audience Manager] weitere Anmeldeversuche für einen kurzen Zeitraum und lässt sie dann automatisch wieder zu. Sie müssen sich nicht an einen Administrator oder einen Partner Services-Mitarbeiter wenden, um Ihr Konto zu entsperren.
 
 **Verlorenes/vergessenes Passwort**
 
-Klicken Sie auf der Anmeldeseite auf den Link **[!UICONTROL Forgot password]**, um Ihr Passwort zurückzusetzen. Sie erhalten eine automatische E-Mail mit einem temporären Passwort, das nach 24 Stunden abläuft. Klicken Sie auf den Link in der E-Mail, um auf Ihr Konto zuzugreifen und Ihr Passwort zurückzusetzen.
+Wählen Sie **[!UICONTROL Forgot password]** auf der Anmeldeseite aus, um Ihr Kennwort zurückzusetzen. [!DNL Audience Manager] sendet Ihnen eine E-Mail mit einem Link zum Zurücksetzen Ihres Kennworts. Klicken Sie auf den Link und erstellen Sie dann ein neues Kennwort, das den Kennwortanforderungen entspricht. Der Link funktioniert nur einmal.
+
+**Neues Konto einrichten**
+
+Wenn ein Administrator Ihr Konto erstellt, sendet [!DNL Audience Manager] Ihnen eine E-Mail mit einem Link, um Ihr Kennwort festzulegen. Klicken Sie auf den Link und erstellen Sie dann ein Kennwort, das den Kennwortanforderungen entspricht. Sie müssen Ihr Kennwort festlegen, bevor Sie sich zum ersten Mal anmelden können.
 
 >[!MORELIKETHIS]
 >
