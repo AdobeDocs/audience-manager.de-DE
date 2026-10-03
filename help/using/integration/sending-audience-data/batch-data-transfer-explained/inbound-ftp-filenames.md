@@ -7,20 +7,26 @@ title: Anforderungen an FTP-Namen und Dateigröße für eingehende Datendateien
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-TQID: https://experienceleague.adobe.com/ndl-BMDmVgcXTHtDRRgdsQPbbOJIDF3aAh21Q2NoZTA
+TQID: 'https://experienceleague.adobe.com/ndl-BMDmVgcXTHtDRRgdsQPbbOJIDF3aAh21Q2NoZTA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1121'
 ht-degree: 3%
-
 ---
-
 # Anforderungen an [!DNL FTP] und Dateigröße für eingehende Datendateien {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
 Beschreibt die erforderlichen Felder, die Syntax, Namenskonventionen und Dateigrößen, die beim Senden von Daten an [!DNL Audience Manager] befolgt werden müssen. Legen Sie die Namen und Größen Ihrer Dateien entsprechend diesen Spezifikationen fest, wenn Sie Daten an ein Audience Manager-[!DNL FTP] senden.
@@ -31,7 +37,7 @@ Beschreibt die erforderlichen Felder, die Syntax, Namenskonventionen und Dateigr
 
 >[!NOTE]
 >
->Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) in diesem Dokument weisen auf Codeelemente und Optionen hin. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
+>Die Textstile (`monospaced text`, *kursiv*, Klammern `[ ]` `( )` usw.) Geben Sie in diesem Dokument Code-Elemente und -Optionen an. Weitere Informationen finden Sie unter [Stilkonventionen für Code und Textelemente](../../../reference/code-style-elements.md).
 
 ## Syntax von Dateinamen {#file-name-syntax}
 
@@ -122,7 +128,7 @@ Die folgenden Beispiele zeigen ordnungsgemäß formatierte Dateinamen. Ihre Date
  <li> <code> ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-[Laden Sie &#x200B;](assets/ftp_dpm_1234_1445374061.overwrite) Beispieldatei herunter, wenn Sie zusätzliche Beispiele benötigen. Diese Datei wird mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie sie mit einem einfachen Texteditor.
+[Laden Sie ](assets/ftp_dpm_1234_1445374061.overwrite) Beispieldatei herunter, wenn Sie zusätzliche Beispiele benötigen. Diese Datei wird mit der Dateierweiterung `.overwrite` gespeichert. Öffnen Sie sie mit einem einfachen Texteditor.
 
 ## Akzeptierte Dateigrößen {#accepted-file-sizes}
 

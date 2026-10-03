@@ -6,22 +6,28 @@ solution: Audience Manager
 title: Implementierungsleitlinien
 feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
-TQID: https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg
+TQID: 'https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1350
-ht-degree: 2%
-
+source-wordcount: '1362'
+ht-degree: 3%
 ---
-
 # Implementierungsleitlinien {#implementation-guidance}
 
 >[!IMPORTANT]
@@ -40,7 +46,7 @@ Es gibt sechs Implementierungsaspekte, die Sie vor der Verwendung von [!DNL Peop
 
 ![pbd-implementation](assets/pbd-implementation.png)
 
-## &#x200B;1. Definieren des Anwendungsfalls {#defining-your-use-case}
+## &#x200B;1. Anwendungsfall definieren {#defining-your-use-case}
 
 Bevor Sie mit der Implementierung von [!DNL People-Based Destinations] beginnen, müssen Sie den Anwendungsfall klar definieren, für den Sie diese Funktion verwenden werden. Sie können [!DNL People-Based Destinations] verwenden, um Zielgruppen basierend auf der Zielgruppenaktivität auf zwei Arten anzusprechen:
 
@@ -54,7 +60,7 @@ Um sie über Social Media und ähnliche personenbasierte Kanäle anzusprechen, k
 
 Ihr Unternehmen, ein Telekommunikationsdienstleister, bewahrt Kundendaten wie E-Mail-Adressen und erworbene Telekom-Pläne in einem internen [!DNL CRM] auf. Sie möchten bestehende Kundinnen und Kunden auf Social-Media-Plattformen ansprechen, um ihnen Upgrade-Pakete basierend auf ihren bestehenden Abonnements anzubieten. Dazu können Sie Ihre gehashten Kunden-E-Mail-Adressen in Audience Manager aufnehmen und Segmente basierend auf den bestehenden Kundenabonnements erstellen. Anschließend können Sie diese Segmente an [!DNL People-Based Destinations] senden, um Ihre Kunden mit personalisierten Angeboten anzusprechen.
 
-## &#x200B;2. Typ der anvisierten E-Mail-Adressen definieren {#define-target-email}
+## &#x200B;2. Typ der zielgerichteten E-Mail-Adressen definieren {#define-target-email}
 
 Der zweite Schritt bei der Definition Ihrer Implementierungsstrategie besteht darin, zu entscheiden, auf welche Art von Kunden-E-Mail-Adressen Sie abzielen möchten.
 
@@ -70,13 +76,13 @@ Zur Zielgruppenbestimmung in [!DNL People-Based Destinations] müssen Sie [SHA25
 
 **B) Ihre Audience Manager-Kunden-IDs ([DPUUIDs](../../reference/ids-in-aam.md)) werden nicht in Kleinbuchstaben geschrieben, sondern als Hash-E-Mail-Adressen**. In diesem Szenario können Ihre vorhandenen Kunden-IDs nicht an [!DNL People-Based Destinations] gesendet werden. Um [!DNL People-Based Destinations] verwenden zu können, müssen Sie eine ID-Synchronisierung zwischen Ihren vorhandenen Kunden-IDs und den in Kleinbuchstaben gehashten Versionen Ihrer Kunden-E-Mail-Adressen durchführen. Dies erfolgt entweder durch [dateibasierte ID-Synchronisierung](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) oder durch Verwendung [deklarierten IDs](../declared-ids.md).
 
-## &#x200B;4. Qualifizierung von Eigenschaften {#trait-qualification}
+## &#x200B;4. Merkmal-Qualifizierung {#trait-qualification}
 
 Um Ihre Zielgruppe in [!DNL People-Based Destinations] genau anzusprechen, müssen sich Ihre Benutzerinnen und Benutzer je nach Art der Zielgruppenbestimmung, die Sie durchführen möchten, entweder für regelbasierte oder für integrierte Eigenschaften qualifizieren.
 
 **A) Qualifizieren Sie Ihre Kunden- und Geräte-IDs in Echtzeit für regelbasierte Eigenschaften**. Diese Option gilt für Anwendungsfall A aus [1. Anwendungsfall definieren](people-based-destinations-workflow.md#defining-your-use-case). Wenn Sie planen, Zielgruppen auf der Grundlage von Online- und Offline-Aktivitäten anzusprechen, qualifizieren Sie Ihre Zielgruppe höchstwahrscheinlich bereits für [regelbasierte Eigenschaften](../traits/trait-and-segment-qualification-reference.md).
 
-**B) Integrieren von Eigenschaften mit Ihren Kunden-IDs über eingehende Datendateien**. Diese Option gilt für Anwendungsfall B aus [1. Anwendungsfall definieren](people-based-destinations-workflow.md#defining-your-use-case). Wenn Ihre Zielgruppe auf der Grundlage einer reinen Offline-Aktivität ausgewählt wird, müssen Sie Kunden-IDs für integrierte Eigenschaften über [eingehende Datendateien) &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+**B) Integrieren von Eigenschaften mit Ihren Kunden-IDs über eingehende Datendateien**. Diese Option gilt für Anwendungsfall B aus [1. Anwendungsfall definieren](people-based-destinations-workflow.md#defining-your-use-case). Wenn Ihre Zielgruppe auf der Grundlage einer reinen Offline-Aktivität ausgewählt wird, müssen Sie Kunden-IDs für integrierte Eigenschaften über [eingehende Datendateien) ](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 ## &#x200B;5. Erstellen oder Kennzeichnen von Datenquellen und integrierten Hash-E-Mail-Adressen {#create-label-data-sources}
 

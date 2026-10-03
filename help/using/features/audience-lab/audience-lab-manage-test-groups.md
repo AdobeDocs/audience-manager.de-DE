@@ -7,27 +7,38 @@ title: Testgruppen verwalten
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+TQID: 'https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # Testgruppen verwalten {#manage-test-groups}
 
 Dieses Verfahren führt Sie durch die Schritte, die zum Erstellen, Bearbeiten oder Löschen einer Testgruppe in [!UICONTROL Audience Lab] erforderlich sind.
@@ -45,9 +56,9 @@ Dieses Verfahren führt Sie durch die Schritte, die zum Erstellen, Bearbeiten od
   >[Ordnereigenschaften](../../features/traits/about-folder-traits.md) werden **nicht unterstützt** von [!UICONTROL Audience Lab]. Wenn Sie [Ereignistyp](../../features/traits/create-onboarded-rule-based-traits.md) einer Ordnereigenschaft auf **Konversion** setzen, werden in [!UICONTROL Audience Lab] keine Daten für diese bestimmte Ordnereigenschaft generiert.
 
 * Für Unternehmen, die [Rollenbasierte Zugriffssteuerung](../../features/administration/administration-overview.md) verwenden: Weisen Sie die [!UICONTROL Audience Lab] [Platzhalterberechtigung](../../features/administration/administration-overview.md#wild-card-permissions) zu, um Zugriff **[!UICONTROL User Groups]**. Mit dieser Berechtigung kann der Benutzer die Ergebnisse eines Tests erstellen und anzeigen. Ein Benutzer kann nur Segmente aus einer Datenquelle verwenden, für die er über Berechtigungen **Lesen** und **Zuordnen** Ziel“ verfügt. Benutzende können Konversionseigenschaften nur aus einer Datenquelle verwenden, für die sie über **Leseberechtigungen**. Benutzende können nur Ziele sehen, auf die sie auch Zugriff haben. Bevor Sie also einer Gruppe die Berechtigung [!DNL Audience Lab] Platzhalter hinzufügen, stellen Sie sicher, dass die Gruppe über Folgendes verfügt:
-   * Zugriff auf das Lesen relevanter Konversionsmerkmale;
-   * Zugriff auf das Lesen und Zuordnen relevanter Segmente für Tests;
-   * Zugriff auf relevante Ziele.
+  * Zugriff auf das Lesen relevanter Konversionsmerkmale;
+  * Zugriff auf das Lesen und Zuordnen relevanter Segmente für Tests;
+  * Zugriff auf relevante Ziele.
 
 So erstellen Sie eine neue [!UICONTROL Segment Test Group]:
 
@@ -84,7 +95,7 @@ So erstellen Sie eine neue [!UICONTROL Segment Test Group]:
    * Ziehen Sie Segmente per Drag-and-Drop an Ziele.
    * Nachdem Sie ein Segment in einem Ziel abgelegt haben, füllen Sie die **[!UICONTROL Destination Mapping Value]** im Blind aus.
    * Sie können dasselbe Testsegment an mehrere Ziele senden und mehrere Testsegmente zu einem einzelnen Ziel hinzufügen.
-   * Ziele werden ausgegraut, wenn sie für ein bestimmtes Testsegment nicht verfügbar sind, das auf [Datenexportsteuerelementen“ &#x200B;](../../features/data-export-controls.md).
+   * Ziele werden ausgegraut, wenn sie für ein bestimmtes Testsegment nicht verfügbar sind, das auf [Datenexportsteuerelementen“ ](../../features/data-export-controls.md).
    * Benutzerinnen und Benutzer sehen nur die Ziele, auf die sie Zugriff haben, basierend auf der [RBAC-Benutzergruppe](../../features/administration/administration-overview.md) zu der sie gehören.
    * Schließlich müssen Sie ein Startdatum für Ihre Testgruppe auswählen. Dieses Datum markiert den Beginn des Zeitraums, in dem Ihre Testgruppe für Ziele veröffentlicht wird. Wählen Sie **Kein Enddatum** für einen unbegrenzten Vergleich der Testsegmente aus.
 
@@ -101,7 +112,7 @@ So erstellen Sie eine neue [!UICONTROL Segment Test Group]:
 
    >[!NOTE]
    >* Sie können die Testgruppen zu einem beliebigen Zeitpunkt im Erstellungsprozess speichern und zu einem späteren Zeitpunkt zum Assistenten zurückkehren. Der Testgruppenstatus wird **[!UICONTROL Draft]** und die Testgruppe sendet erst dann Daten an Ziele, wenn Sie die Segment-Testgruppe abgeschlossen haben.
-   >* Für Entwurfstests können Sie zurückgehen und die Testgruppen bearbeiten, indem Sie in der Hauptansicht der **[!UICONTROL Edit]** auf der Karte Testgruppe auf [!UICONTROL Audience Lab] klicken.
+   >* Für Entwurfstests können Sie zurückgehen und die Testgruppen bearbeiten, indem Sie in der Hauptansicht der [!UICONTROL Audience Lab] auf der Karte Testgruppe auf **[!UICONTROL Edit]** klicken.
 
 ## Segmenttestgruppen bearbeiten {#edit-test-groups}
 
@@ -109,7 +120,7 @@ In [!UICONTROL Audience Lab] können Sie nur Testgruppen für Entwürfe bearbeit
 
 1. Navigieren Sie zur [!UICONTROL Audience Lab] Hauptansicht.
 1. Suchen Sie nach Ihren Testgruppenentwürfen und wählen Sie das **[!UICONTROL Edit]** auf der Karte Testgruppe aus.
-1. Setzen Sie den [&#x200B; „Segmenttestgruppe erstellen](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) fort und wählen Sie **[!UICONTROL Finalize Group]** aus, wenn Sie fertig sind.
+1. Setzen Sie den [ „Segmenttestgruppe erstellen](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) fort und wählen Sie **[!UICONTROL Finalize Group]** aus, wenn Sie fertig sind.
 
 ## Segmenttestgruppen löschen {#delete-test-groups}
 

@@ -1,5 +1,5 @@
 ---
-description: Der Onboarding-Statusbericht prüft die Erfolgs- und Fehlerquoten bei der Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und stellt Zusammenfassungsmetriken in tabellarischer Form bereit. Außerdem enthält es eine Option, mit der Dateien für ein festes Zeitintervall abgefragt werden und die häufigsten Fehler für jeden Fehlertyp angezeigt werden. Diesen Bericht finden Sie unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
+description: Der Onboarding-Statusbericht prüft die Erfolgs- und Fehlerquoten bei der Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und stellt Zusammenfassungsmetriken in tabellarischer Form bereit. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Diesen Bericht finden Sie unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 seo-title: Onboarding Status Report
 solution: Audience Manager
@@ -7,28 +7,35 @@ title: Onboarding-Statusbericht
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
-TQID: https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0
+TQID: 'https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: bacaf04d-fec1-4cf9-a97e-cb1b36e40b07
+    internal-label: Inbound and outbound reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1421
-ht-degree: 0%
-
+source-wordcount: '1429'
+ht-degree: 5%
 ---
-
 # Onboarding-Statusbericht{#onboarding-status-report-about}
 
-Der Onboarding-Statusbericht prüft die Erfolgs- und Fehlerquoten bei der Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und stellt Zusammenfassungsmetriken in tabellarischer Form bereit. Außerdem enthält es eine Option, mit der Dateien für ein festes Zeitintervall abgefragt werden und die häufigsten Fehler für jeden Fehlertyp angezeigt werden. Diesen Bericht finden Sie unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
+Der Onboarding-Statusbericht prüft die Erfolgs- und Fehlerquoten bei der Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und stellt Zusammenfassungsmetriken in tabellarischer Form bereit. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Diesen Bericht finden Sie unter Analytics > Onboarding-Statusbericht. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 
 >[!NOTE]
 >
@@ -36,7 +43,7 @@ Der Onboarding-Statusbericht prüft die Erfolgs- und Fehlerquoten bei der Verarb
 
 ## Onboarding-Statusbericht: Über {#onboarding-status-about}
 
-Die [!UICONTROL Onboarding Status Report] überprüft die Erfolgs- und Fehlerquoten bei der Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und stellt Zusammenfassungsmetriken in tabellarischer Form bereit. Außerdem enthält es eine Option, mit der Dateien für ein festes Zeitintervall abgefragt werden und die häufigsten Fehler für jeden Fehlertyp angezeigt werden. Diesen Bericht finden Sie in **[!UICONTROL Analytics > Onboarding Status Report]**. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
+Die [!UICONTROL Onboarding Status Report] überprüft die Erfolgs- und Fehlerquoten bei der Verarbeitung von Datensätzen in Ihren eingehenden Datenquellendateien. Dieser Bericht zeigt Daten in einem interaktiven Balkendiagramm an und stellt Zusammenfassungsmetriken in tabellarischer Form bereit. Außerdem enthält er eine Option zur Untersuchung von Dateien innerhalb eines festgelegten Zeitintervalls und Anzeige der häufigsten Fehler für jeden Fehlertyp. Diesen Bericht finden Sie in **[!UICONTROL Analytics > Onboarding Status Report]**. Dieser Bericht ist auch verfügbar, wenn Sie eine eingehende Datenquelle erstellen.
 
 ## Fehlerberichte und Fehlerstichproben {#error-reporting-sampling}
 
@@ -89,7 +96,7 @@ Wenn das Fehler-Sampling aktiv ist, zeigt der Bericht für jeden Fehlertyp die 1
 
 >[!NOTE]
 >
->In diesem Bericht werden keine Datensatzfehler mit dieser aktuellen Version hervorgehoben. Um Dateifehler zu finden und zu beheben, sollten Sie die Ergebnisse überprüfen und mit den Spezifikationen in der Dokumentation [Inhalte eingehender Datendateien“ &#x200B;](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+>In diesem Bericht werden keine Datensatzfehler mit dieser aktuellen Version hervorgehoben. Um Dateifehler zu finden und zu beheben, sollten Sie die Ergebnisse überprüfen und mit den Spezifikationen in der Dokumentation [Inhalte eingehender Datendateien“ ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 ![](assets/error-samples.png)
 
@@ -169,7 +176,7 @@ Ein Referenzhandbuch für die in diesem Bericht verwendeten Beschriftungen und B
    <td colname="col2"> <p>Hierbei handelt es sich um integrierte IDs <span class="keyword"> Audience Manager</span> die nicht mit einer vorhandenen ID übereinstimmen können. Onboarded IDs können diesen Status haben, wenn <span class="keyword"> Audience Manager</span> noch keine ID-Synchronisierung durchgeführt hat oder auch nach einer Synchronisierung immer noch nicht mit der ID übereinstimmen kann. </p> <p>Bei nicht übereinstimmenden Mobile-IDs wird <span class="keyword"> Audience Manager</span> wie folgt aussehen: </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Fahren Sie mit dem Speichern fort und versuchen Sie, diese ID zu synchronisieren. </li> 
-     <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Wenn die ID nicht synchronisiert werden kann<span class="wintitle"> wird der Datensatz im Bericht als </span> gespeicherter Datensatz aufgezeichnet. </li> 
+     <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Wenn die ID nicht synchronisiert werden kann</span> wird der Datensatz im Bericht als <span class="wintitle"> gespeicherter Datensatz aufgezeichnet. </li> 
     </ul> <p>Wenn Ihre integrierte Datei mobile IDs enthält, können Sie diese Zahlen etwas leichter behandeln als die anderen Metriken. Sie wirken sich nicht auf die Erfolgs- und Übereinstimmungsraten für nachfolgende Dateien aus. </p> </td> 
   </tr> 
   <tr> 

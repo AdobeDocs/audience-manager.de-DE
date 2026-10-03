@@ -7,18 +7,21 @@ title: Boolesche Ausdrücke in Trait und Segment Builder
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 feature: Reference
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
-TQID: https://experienceleague.adobe.com/-Fl1kRTxAy7fBmXx--xDFYZuDZy-7y8Li4YwBeoGvZo
+TQID: 'https://experienceleague.adobe.com/-Fl1kRTxAy7fBmXx--xDFYZuDZy-7y8Li4YwBeoGvZo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 529
+source-wordcount: '531'
 ht-degree: 0%
-
 ---
-
 # Boolesche Ausdrücke in Trait und Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
 
 In diesem Artikel wird erläutert, wie die Audience Manager-Trait- und Segment-Tools die booleschen Ausdrücke AND, OR und NOT verwenden.
@@ -48,7 +51,7 @@ Sie erstellen Eigenschaften- und Segmentqualifikationsregeln mit booleschen Ausd
 <table id="table_C762872C98F54C4A86A2F1C840A86657"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ausdruck  </th> 
+   <th colname="col1" class="entry"> Ausdruck </th> 
    <th colname="col2" class="entry"> Verwenden Sie sie zum Erstellen von </th> 
    <th colname="col3" class="entry"> Zu qualifizieren </th> 
   </tr>

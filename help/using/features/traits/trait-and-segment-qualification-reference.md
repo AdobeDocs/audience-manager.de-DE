@@ -8,21 +8,26 @@ title: Referenz zur Eigenschaftenqualifizierung
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
 exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a
-TQID: https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M
+TQID: 'https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '841'
 ht-degree: 0%
-
 ---
-
 # Referenz zur Trait- und Segmentqualifikation {#trait-qualification-reference}
 
-Die Eigenschaftsqualifizierung oder Eigenschaftsrealisierung wird in Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Siehe [Eigenschaftsqualifizierung nach &#x200B;](#trait-type)) für Details zur Eigenschaftstypqualifizierung.
+Die Eigenschaftsqualifizierung oder Eigenschaftsrealisierung wird in Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Siehe [Eigenschaftsqualifizierung nach ](#trait-type)) für Details zur Eigenschaftstypqualifizierung.
 
-Weitere Informationen zur Segmentqualifikation finden [&#x200B; unter „Echtzeit](#real-time-segment)Segmentpopulation und Gesamtsegmentpopulation“.
+Weitere Informationen zur Segmentqualifikation finden [ unter „Echtzeit](#real-time-segment)Segmentpopulation und Gesamtsegmentpopulation“.
 
 
 
@@ -33,7 +38,7 @@ Weitere Informationen zur Segmentqualifikation finden [&#x200B; unter „Echtzei
 | Regelbasierte Eigenschaften | Die Eigenschaftsqualifizierung erfolgt in Echtzeit, da Benutzende in ihrem Browser für eine Eigenschaft qualifiziert sind. Ihre Benutzerinnen und Benutzer qualifizieren sich etwa 4 Stunden, nachdem Sie in der Benutzeroberfläche die Eigenschaft [Erstellen](create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) für eine regelbasierte Eigenschaft. Regelbasierte Eigenschaften ermöglichen die Verwendung von Steuerelementen [Neuigkeit und Häufigkeit](../segments/recency-and-frequency.md) für die Begrenzung der Anzeigenfrequenz und andere Anwendungsfälle. |
 | Integrierte Eigenschaften | Die Eigenschaftsqualifizierung erfolgt, nachdem eine eingehende Datei verarbeitet wurde, d. h. die eingehende Datei [in Audience Manager importiert](../../faq/faq-inbound-data-ingestion.md) und zwar dann, wenn die Eigenschaftsqualifizierung erfolgt. Nach der Erstellung einer integrierten Eigenschaft sollten Sie etwa 4 Stunden warten, bevor Sie eine eingehende Datei zur Verarbeitung hochladen. Für integrierte Eigenschaften beträgt die maximale Anzahl von Qualifikationen für ein Benutzerprofil 1. |
 | Algorithmische Eigenschaften | Bei algorithmischen Eigenschaften ist die maximale Anzahl von Qualifikationen für ein Benutzerprofil 1. |
-| Ordnereigenschaften | Eine Ordnereigenschaft fasst die Eigenschaftsqualifikationen der enthaltenen Eigenschaften zusammen. Weitere [&#x200B; finden Sie unter &#x200B;](about-folder-traits.md): Ordnereigenschaften. |
+| Ordnereigenschaften | Eine Ordnereigenschaft fasst die Eigenschaftsqualifikationen der enthaltenen Eigenschaften zusammen. Weitere [ finden Sie unter ](about-folder-traits.md): Ordnereigenschaften. |
 | Aktive Zielgruppeneigenschaften und synchronisierte Source-Dateneigenschaften | Eine [!UICONTROL Active Audience] Eigenschaft enthält alle Geräte, die in Ihrem Audience Manager-Konto verwaltet werden. [!UICONTROL Data Source Synced Traits] verfolgen alle Benutzer, die einer Datenquelle zugeordnet sind. Lesen Sie mehr über [Aktive Zielgruppeneigenschaften und Daten-Source-synchronisierte Eigenschaften](client-activity-synced-audience-traits.md). |
 
 ## Realisierungen einzigartiger Eigenschaften und gesamte Population von Eigenschaften {#unique-trait-realizations}
@@ -52,7 +57,7 @@ Beim Filtern der Ergebnisse nach [!UICONTROL Cross-Device ID]:
 * [!UICONTROL Unique Trait Realizations] ist die Anzahl der authentifizierten Besucherinnen und Besucher, die das Merkmal innerhalb verschiedener Zeitbereiche zu ihrem Profil hinzugefügt haben.
 * [!UICONTROL Total Trait Population] ist die Anzahl der authentifizierten Besucher, die diese Eigenschaft in ihrem Profil haben.
 
-Stellen Sie sich die Zahlen so vor. In der obigen Abbildung [&#x200B; 90.173 aus der Ansicht &#x200B;](../../features/traits/trait-details-page.md)Trait-Details“ die Anzahl der aktiven Geräte, die Ihre Eigenschaften gestern besucht haben. Die [!UICONTROL Total Trait Population] von 55.757 stellt die Anzahl der Benutzenden dar, die derzeit für diese Eigenschaft qualifiziert sind. Die [!UICONTROL Total Trait Population] Abbildung zeigt die Gesamtanzahl der Benutzer, die für die Segmentierung/Zielgruppenbestimmung verwendet werden könnten. In der Regel bleiben Benutzende 120 Tage lang Teil eines Merkmals.
+Stellen Sie sich die Zahlen so vor. In der obigen Abbildung [ 90.173 aus der Ansicht ](../../features/traits/trait-details-page.md)Trait-Details“ die Anzahl der aktiven Geräte, die Ihre Eigenschaften gestern besucht haben. Die [!UICONTROL Total Trait Population] von 55.757 stellt die Anzahl der Benutzenden dar, die derzeit für diese Eigenschaft qualifiziert sind. Die [!UICONTROL Total Trait Population] Abbildung zeigt die Gesamtanzahl der Benutzer, die für die Segmentierung/Zielgruppenbestimmung verwendet werden könnten. In der Regel bleiben Benutzende 120 Tage lang Teil eines Merkmals.
 
 Da wir zur Berechnung der beiden Populationen zwei verschiedene Rechenvorgänge ausführen, hinkt der [!UICONTROL Total Trait Population] dem [!UICONTROL Unique Trait Realizations] immer um 24 Stunden hinterher. Im obigen Diagramm sehen Sie etwa 90.400 [!UICONTROL Unique Trait Realizations] und eine [!UICONTROL Total Trait Population] von etwa 90.300 für den 5. Februar. Die 90.400 Profile werden der [!UICONTROL Total Trait Population] am folgenden Tag hinzugefügt.
 
@@ -76,4 +81,4 @@ Um den Punkt weiter nach Hause zu bringen, wenn Sie eine Spitze von 10.000 Besuc
 
 ## Qualifikationsgrenze der Eigenschaft {#trait-qualification-limit}
 
-Wir erzwingen ein Limit von 150.000 Eigenschaftsqualifikationen für jedes Benutzerprofil, unabhängig davon, ob es sich um ein authentifiziertes Profil ([DPUUID](../../reference/ids-in-aam.md)) oder eine Geräte-ID ([UUID](../../reference/ids-in-aam.md)) handelt. Beachten Sie, dass die DPUUIDs zwar für eine bestimmte Instanz von [!DNL Audience Manager] eindeutig sind, UUIDs jedoch für die gesamte [!DNL Audience Manager]-Plattform freigegeben werden. Für [!UICONTROL UUID] schreiben wir eine Fairness-Politik bei der Speicherung von Eigenschaftsqualifikationen vor. Ein Algorithmus stellt sicher, dass für jede Instanz von [!UICONTROL UUID] ein gleicher Anteil des [!DNL Audience Manager] bereitgestellt wird.
+Wir erzwingen ein Limit von 150.000 Eigenschaftsqualifikationen für jedes Benutzerprofil, unabhängig davon, ob es sich um ein authentifiziertes Profil ([DPUUID](../../reference/ids-in-aam.md)) oder eine Geräte-ID ([UUID](../../reference/ids-in-aam.md)) handelt. Beachten Sie, dass die DPUUIDs zwar für eine bestimmte Instanz von [!DNL Audience Manager] eindeutig sind, UUIDs jedoch für die gesamte [!DNL Audience Manager]-Plattform freigegeben werden. Für [!UICONTROL UUID] schreiben wir eine Fairness-Politik bei der Speicherung von Eigenschaftsqualifikationen vor. Ein Algorithmus stellt sicher, dass für jede Instanz von [!DNL Audience Manager] ein gleicher Anteil des [!UICONTROL UUID] bereitgestellt wird.

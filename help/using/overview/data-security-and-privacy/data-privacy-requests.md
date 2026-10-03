@@ -8,33 +8,45 @@ title: Datenschutzanfragen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-TQID: https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q
+TQID: 'https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 42%
-
+source-wordcount: '1506'
+ht-degree: 40%
 ---
-
 # Datenschutzanfragen {#data-privacy-requests}
 
 ## Überblick {#overview}
 
-Dieses Dokument bietet einen Überblick über die Verwaltung von individuellen Datenschutz- und Opt-out-Anfragen, die Sie über die [!DNL Audience Manager]Privacy Service-Benutzeroberfläche und die [&#x200B; an &#x200B;](https://privacyui.cloud.adobe.io/) **[!DNL Privacy Service API]** können.
+Dieses Dokument bietet einen Überblick über die Verwaltung von individuellen Datenschutz- und Opt-out-Anfragen, die Sie über die [Privacy Service-Benutzeroberfläche und die **[!DNL Privacy Service API]** an [!DNL Audience Manager] ](https://privacyui.cloud.adobe.io/) können.
 
 Mit diesen Tools können Sie Datenschutzanfragen von Privatkunden senden, die unter [!DNL GDPR] und [!DNL CCPA] gestellt wurden.
 
@@ -43,29 +55,29 @@ Bevor Sie diesen Artikel lesen, sollten Sie das [DSGVO-Glossar](../data-security
 Sie können individuelle Anfragen für den Zugriff auf und das Löschen von Verbraucherdaten aus [!DNL Audience Manager] auf zwei Arten stellen:
 
 * Über die [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche. Die Dokumentation finden Sie [hier](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Über die **[!DNL Privacy Service API]**. Weitere Informationen finden Sie in [&#x200B; Dokumentation &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)hier) und der [!DNL API]-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+* Über die **[!DNL Privacy Service API]**. Weitere Informationen finden Sie in [ Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)hier) und der [!DNL API]-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
-Beim Senden einzelner Datenschutzanfragen können Sie beliebige [!DNL Audience Manager] (IDs) zusammen mit den entsprechenden Namespace-IDs (Datenquellen-IDs) übermitteln, wie **[Abschnitt](data-privacy-ids.md)** Audience Manager-IDs&rbrace; beschrieben.
+Beim Senden einzelner Datenschutzanfragen können Sie beliebige [!DNL Audience Manager] (IDs) zusammen mit den entsprechenden Namespace-IDs (Datenquellen-IDs) übermitteln, wie ](data-privacy-ids.md)**Abschnitt**[ Audience Manager-IDs} beschrieben.
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) unterstützt zwei Arten von Anfragen: Datenzugriffs- und Datenlöschanfragen.
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) unterstützt zwei Arten von Anfragen: Datenzugriffs- und Datenlöschanfragen.
 
 ## Anfragen zum Datenzugriff {#access-data}
 
-Einzelne Datenzugriffsanfragen können über die [Privacy Service-Benutzeroberfläche gesendet werden](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=de) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) und [!DNL API] Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Einzelne Datenzugriffsanfragen können über die [Privacy Service-Benutzeroberfläche gesendet werden](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) und [!DNL API] Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 In der [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche können Sie neue Vorgangsanfragen entweder mithilfe von [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON]-Datei erstellen.
 
-Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [&#x200B; eine JSON-Beispieldatei herunterladen](../data-security-and-privacy/assets/access_request.json).
+Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [ eine JSON-Beispieldatei herunterladen](../data-security-and-privacy/assets/access_request.json).
 
 Wir sind uns Ihrer Verpflichtung bewusst, Datenschutzanfragen innerhalb der gesetzlich festgelegten Frist zu erfüllen.
 
 ## Anfragen zum Löschen von Daten {#delete-data}
 
-Sie können Anfragen zum Löschen von Daten über die [Privacy Service-Benutzeroberfläche](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=de) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) und [!DNL API] Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) senden.
+Sie können Anfragen zum Löschen von Daten über die [Privacy Service-Benutzeroberfläche](https://privacyui.cloud.adobe.io) (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) oder durch Aufruf der Privacy Service-API (Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) und [!DNL API] Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) senden.
 
 In der [Privacy Service](https://privacyui.cloud.adobe.io/)-Benutzeroberfläche können Sie neue Vorgangsanfragen entweder mithilfe von [!UICONTROL Request Builder] oder durch Hochladen einer [!DNL JSON]-Datei erstellen.
 
-Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [&#x200B; eine JSON-Beispieldatei herunterladen](../data-security-and-privacy/assets/access_request.json).
+Um zu sehen, wie eine gültige [!DNL JSON]-Datei aussieht, können Sie [ eine JSON-Beispieldatei herunterladen](../data-security-and-privacy/assets/access_request.json).
 
 Adobe ist sich Ihrer Verpflichtung bewusst, Datenschutzanfragen von Kunden innerhalb von 30 Tagen zu erfüllen. [!DNL Adobe] verpflichtet sich daher, Ihre Anfrage zur Datenlöschung so schnell wie möglich zu bearbeiten.
 
@@ -80,13 +92,13 @@ Wenn Sie in Datenschutzanfragen deklarierte IDs wie geräteübergreifende [!DNL 
 
 In diesen Fällen können Sie keine Löschanfragen automatisch über [!DNL Audience Manager] an Aktivierungspartner senden.
 
-Weitere Informationen dazu, welche [&#x200B; Aktivierungspartner die Aufhebung der Segmentierung unterstützen](assets/AAM-Partners-October2019.xlsx) finden Sie in [!DNL Audience Manager] Dokumentation zur Liste der gerätebasierten Ziele .
+Weitere Informationen dazu, welche [!DNL Audience Manager] Aktivierungspartner die Aufhebung der Segmentierung unterstützen[ finden Sie in ](assets/AAM-Partners-October2019.xlsx) Dokumentation zur Liste der gerätebasierten Ziele .
 
 ## Opt-out-Anfragen {#opt-out-requests}
 
 [!DNL Audience Manager] unterstützt branchenweite Standards in Bezug auf das Opt-out-Management. Im Folgenden finden Sie vollständige Informationen zu den von [!DNL Audience Manager] unterstützten Arten von Opt-outs.
 
-Während Datenzugriffs- und Löschanfragen über die [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) verarbeitet werden, werden Opt-out-Anfragen derzeit über die [!DNL DCS API] unterstützt. Lesen Sie weiter, um zu erfahren, wie die Opt-out-[!DNL API] aussehen sollten.
+Während Datenzugriffs- und Löschanfragen über die [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) verarbeitet werden, werden Opt-out-Anfragen derzeit über die [!DNL DCS API] unterstützt. Lesen Sie weiter, um zu erfahren, wie die Opt-out-[!DNL API] aussehen sollten.
 
 ### Globale Opt-out-Anfragen
 
@@ -112,8 +124,8 @@ Die globale Abmeldung stellt eine [!DNL Audience Manager] und andere [!DNL Adobe
    <td colname="col1"> <p>Mobilgeräte </p> </td> 
    <td colname="col2"> <p>Siehe Opt-out- und Datenschutzeinstellungen für: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=de" format="https" scope="external"> Android-Geräte </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=de" format="https" scope="external"> iOS-Geräte </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android-Geräte </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS-Geräte </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -142,7 +154,7 @@ Nach einem Opt-out auf Partnerebene mit einem deklarierten ID-Aufruf:
 * [!UICONTROL Destination] Partner erhalten die Anfrage zur Aufhebung der Segmentierung für die [!DNL CRM]-ID und die letzte Geräte-ID. Die Aufhebung der Segmentierung funktioniert sowohl für [Echtzeit-](data-privacy-requests.md#aam-partners-with-unsegmentation) als auch für Batch-Ziele.
 * Es werden keine historischen Daten gelöscht.
 
-Wenn [!DNL Audience Manager] eine Opt-out-Anfrage auf Partnerebene erhält, enthält die vom [!DNL JSON] zurückgegebene [!DNL DCS] den [Fehlercode 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) mit der [!UICONTROL "Encountered opt out tag"] Nachricht anstelle der [!DNL Audience Manager] Benutzer-ID.
+Wenn [!DNL Audience Manager] eine Opt-out-Anfrage auf Partnerebene erhält, enthält die vom [!DNL DCS] zurückgegebene [!DNL JSON] den [Fehlercode 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) mit der [!UICONTROL "Encountered opt out tag"] Nachricht anstelle der [!DNL Audience Manager] Benutzer-ID.
 
 Für eine deklarierte ID können Sie eine Opt-out-Anfrage mit den `d_cid`- und `d_cid_ic`-Schlüssel-Wert-Paaren erstellen. Die veralten Parameter wie `d_dpid` und `d_dpuuid` funktionieren weiterhin, werden jedoch als veraltet betrachtet. Siehe [CID ersetzt DPID und DPUUID](../../reference/cid.md). In den Beispielen werden Variablenplatzhalter *kursiv* angegeben.
 

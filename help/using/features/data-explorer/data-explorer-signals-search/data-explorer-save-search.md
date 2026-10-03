@@ -6,16 +6,21 @@ title: Suchkriterien speichern
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
 exl-id: ab56ddb7-6b0b-4a3d-9590-00c49a4ae7dc
-TQID: https://experienceleague.adobe.com/ecQ9AHZ0NrZtQlNYRnn2arc9YLPRNr6iEDkHS5GqlkQ
+TQID: 'https://experienceleague.adobe.com/ecQ9AHZ0NrZtQlNYRnn2arc9YLPRNr6iEDkHS5GqlkQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: '177'
 ht-degree: 0%
-
 ---
-
 # Suchkriterien speichern {#save-search-criteria}
 
 Optimieren Sie die Signalsuchvorgänge, indem Sie bis zu 10 Sätze von Suchkriterien speichern, die Sie bei Bedarf verwenden können, und sie auf der [!UICONTROL Signals Dashboard] verfolgen. Audience Manager lädt die gespeicherten Suchvorgänge jedes Mal neu, wenn Sie die [!UICONTROL Signals Dashboard] laden.
@@ -38,4 +43,4 @@ Optimieren Sie die Signalsuchvorgänge, indem Sie bis zu 10 Sätze von Suchkrite
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Signalsuchen speichern können.
 
->[!VIDEO](https://video.tv.adobe.com/v/30171?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/)

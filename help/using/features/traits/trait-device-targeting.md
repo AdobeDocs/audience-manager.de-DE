@@ -7,25 +7,32 @@ title: Geräte-Targeting mit Schlüsseln auf Plattformebene
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
-TQID: https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg
+TQID: 'https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 264
+source-wordcount: '310'
 ht-degree: 1%
-
 ---
-
 # Geräte-Targeting mit Schlüsseln auf Plattformebene {#device-targeting-with-platform-level-keys}
 
 >[!WARNING]
 >
 >Google hat die Funktionalität von [!DNL Google Chrome] und allen [!DNL Chromium] Browsern aktualisiert, um die über den `User-Agent`-Header erfassten Informationen zu minimieren.
->Ab März 2023 unterstützt Audience Manager diese Updates mithilfe von [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de). Um weiterhin die über den `User-Agent`-Header bereitgestellten Eigenschafteninformationen zu verwenden, müssen Sie [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) verwenden und [Benutzeragenten-Client-Hinweise mit hoher Entropie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de) aktivieren.
+>Ab März 2023 unterstützt Audience Manager diese Updates mithilfe von [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Um weiterhin die über den `User-Agent`-Header bereitgestellten Eigenschafteninformationen zu verwenden, müssen Sie [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) verwenden und [Benutzeragenten-Client-Hinweise mit hoher Entropie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en) aktivieren.
 >Diese Aktualisierungen werden von [DIL](../../../using/dil/dil-overview.md) nicht unterstützt, sodass Audience Manager-Kunden, die [!DNL DIL] verwenden, keine Eigenschafteninformationen über die `User-Agent`-Kopfzeile erfassen können.
 
 Beschreibt die allgemeinen Schlüssel-Wert-Paare auf Plattformebene, mit denen Sie Benutzende mit gerätebezogenen Variablen für alle Eigenschaften in Ihrem Audience Manager-Konto auswählen können.
@@ -38,7 +45,7 @@ Mit Variablen auf Plattformebene können Sie Daten, die von einer bestimmten Sit
 
 ## Vom Benutzeragenten definierte Schlüssel auf Plattformebene {#keys-user-agent}
 
-Die [!UICONTROL Data Collection Servers] extrahieren die Werte für diese Schlüssel aus der [Benutzeragenten-Kopfzeile](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP`. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas]-Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie im Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gängigsten Schlüssel &#x200B;](assets/device_keys.csv) nach [!UICONTROL Device Atlas] Messungen herunter.
+Die [!UICONTROL Data Collection Servers] extrahieren die Werte für diese Schlüssel aus der [Benutzeragenten-Kopfzeile](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP`. Die Werte stellen Informationen auf Geräteebene aus der [!UICONTROL Device Atlas]-Datenbank dar. Die Signale in der folgenden Tabelle sind verfügbar, wie im Beispiel des Benutzeragenten extrahiert. [Laden Sie eine Liste der gängigsten Schlüssel ](assets/device_keys.csv) nach [!UICONTROL Device Atlas] Messungen herunter.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|

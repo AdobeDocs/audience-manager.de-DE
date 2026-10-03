@@ -7,24 +7,30 @@ title: Wie sich Datenversand- und Dateiverarbeitungszeiten auf Berichte auswirke
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: Reference
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
-TQID: https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts
+TQID: 'https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: '617'
 ht-degree: 1%
-
 ---
-
 # Wie sich Datenversand- und Dateiverarbeitungszeiten auf Berichte auswirken{#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager erhält täglich eine enorme Datenmenge. Dies wirkt sich auf die Zeit aus, die für die Verarbeitung Ihrer Daten und die Generierung von Berichtsergebnissen benötigt wird. Der Inhalt in diesem Abschnitt beschreibt, wie sich diese Zeitintervalle auf Ihr Audience Manager-Konto auswirken. Auch die hier beschriebenen Zeitrahmen und Zeitpläne sind nur allgemeine Richtlinien. Diese Zeitpläne stellen keine Service Level Agreements (SLAs) oder Verpflichtungen im Zusammenhang mit der Datenbereitstellung dar. Adobe behält sich das Recht vor, die Zeitrahmen und Zeitpläne jederzeit und ohne Vorankündigung zu ändern.
@@ -42,8 +48,8 @@ In der folgenden Tabelle werden die Zeitintervalle in unseren allgemeinen Berich
 
 | Datentyp | Beschreibung |
 |---|---|
-| Echtzeitdaten | Die Echtzeitzahlen für heute sind für die Stunden 00::00 bis 23::59: UTC von gestern. |
-| Allgemeine Berichtsdaten | Die Daten in [Allgemeine Berichte](../reporting/general-reports.md#general-reports-overview) hängen vom erfolgreichen Abschluss anderer Auftragsvorgänge und der Menge der für einen bestimmten Tag empfangenen Daten ab. In den meisten Fällen sollten [!UICONTROL General Report] Daten täglich um 18 % :00 werden. |
+| Echtzeitdaten | Die Echtzeit-Zahlen für heute sind für die Stunden 00:00 bis 23::59: UTC von gestern. |
+| Allgemeine Berichtsdaten | Die Daten in [Allgemeine Berichte](../reporting/general-reports.md#general-reports-overview) hängen vom erfolgreichen Abschluss anderer Auftragsvorgänge und der Menge der für einen bestimmten Tag empfangenen Daten ab. Meistens sollten [!UICONTROL General Report] Daten jeden Tag um 18:00 Uhr UTC aktualisiert werden. |
 
 ## Eingehende und ausgehende Dateiübertragungen {#inbound-outbound-file-transfers}
 
@@ -52,7 +58,7 @@ In der folgenden Tabelle werden die Zeitintervalle in unseren allgemeinen Berich
 | Dateityp | Beschreibung |
 |---|---|
 | Aufnahme eingehender Dateien (Offline-Daten) | Die Dateiverarbeitung wird zweimal täglich ausgeführt. Diese Verfahren nehmen Daten auf und bereiten sie für die Bereitstellung vor. Die Dateibereitstellungszeiten variieren, da sie von der Gesamtmenge der zu verarbeitenden Kundendaten beeinflusst werden. Zwischen dem Zeitpunkt, zu dem die Datei in Audience Manager hochgeladen wird, und dem Zeitpunkt, zu dem die Daten für das Reporting und die Aktivierung verfügbar sind, sollte eine maximale Latenz von 48 Stunden erwartet werden. |
-| Ausgehende Dateien (Export) | Dateiverarbeitung und -versand erfolgen einmal täglich um ca. 14 :00 UTC. Beachten Sie, dass die Verarbeitung und der Versand von der Gesamtzahl und Größe dieser Dateien beeinflusst werden. In einigen Fällen kann es zu einer Verzögerung der Dateiverarbeitung von bis zu 24 Stunden kommen. In diesem Fall sendet Audience Manager zwei Dateien für einen bestimmten Tag anstelle von einem. Wir werden unsere Kunden in dem seltenen Fall benachrichtigen, in dem Audience Manager die Verarbeitung einer Datei vollständig einstellen muss. Unter diesen Bedingungen ist es schwierig, die Lieferzeiten für ausgehende Daten zu schätzen. Um festzustellen, ob Sie einen vollständigen Satz von Dateien erhalten haben, überprüfen Sie den Zeitstempel und suchen Sie nach fehlenden Tagen. Dies ist ein 13-stelliger UNIX-UTC-Zeitstempel, der den Zeitpunkt aufzeichnet, zu dem die Datei erstellt wurde. Siehe [Ausgehende Datenübertragungen in Echtzeit](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
+| Ausgehende Dateien (Export) | Die Dateiverarbeitung und der Versand erfolgen einmal täglich um ca. 14:00 Uhr UTC. Beachten Sie, dass die Verarbeitung und der Versand von der Gesamtzahl und Größe dieser Dateien beeinflusst werden. In einigen Fällen kann es zu einer Verzögerung der Dateiverarbeitung von bis zu 24 Stunden kommen. In diesem Fall sendet Audience Manager zwei Dateien für einen bestimmten Tag anstelle von einem. Wir werden unsere Kunden in dem seltenen Fall benachrichtigen, in dem Audience Manager die Verarbeitung einer Datei vollständig einstellen muss. Unter diesen Bedingungen ist es schwierig, die Lieferzeiten für ausgehende Daten zu schätzen. Um festzustellen, ob Sie einen vollständigen Satz von Dateien erhalten haben, überprüfen Sie den Zeitstempel und suchen Sie nach fehlenden Tagen. Dies ist ein 13-stelliger UNIX-UTC-Zeitstempel, der den Zeitpunkt aufzeichnet, zu dem die Datei erstellt wurde. Siehe [Ausgehende Datenübertragungen in Echtzeit](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Anzeigen-Server-Protokolldateien | Die Dateiverarbeitung wird nahezu in Echtzeit ausgeführt, um Protokolldateieinträge aufzunehmen, da die stündlichen Dateien bereit sind. Der Prozess zur Vorbereitung der Dateien für das Reporting wird einmal täglich ausgeführt. Die Dateibereitstellungszeiten variieren, da sie von der Gesamtmenge der zu verarbeitenden Kundendaten beeinflusst werden. Zwischen dem Zeitpunkt, zu dem Sie die Datei in Audience Manager hochladen, und dem Zeitpunkt, zu dem die Daten für das Reporting und die Aktivierung verfügbar sind, sollte eine maximale Latenz von 48 Stunden erwartet werden. |
 
 >[!MORELIKETHIS]

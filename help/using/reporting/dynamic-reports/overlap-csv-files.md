@@ -7,19 +7,26 @@ title: CSV-Dateien für Überschneidungsberichte
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
-TQID: https://experienceleague.adobe.com/3Qq8PwmAWUAO1ic9kan7XFuXPllBioqJhPKCmo6RPww
+TQID: 'https://experienceleague.adobe.com/3Qq8PwmAWUAO1ic9kan7XFuXPllBioqJhPKCmo6RPww'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '958'
 ht-degree: 2%
-
 ---
-
 # CSV-Dateien für Überschneidungsberichte{#csv-files-for-overlap-reports}
 
 Sie können eine CSV-Datei für einen Überschneidungsbericht anfordern, wenn dieser Bericht das Limit von 1 Million Datensätzen erreicht. Ein Bericht hat dieses Limit möglicherweise erreicht, wenn die Meldung „Unerwarteter Fehler aufgetreten“ angezeigt wird. Wenden Sie sich an die Kundenunterstützung , um eine komprimierte CSV-Datei anzufordern, die Sie importieren und in Ihrem eigenen Datenbanksystem verwenden können. Dateien sind für Berichte von Segmenten zu Segmenten, Segmenten zu Eigenschaften und von Eigenschaften zu Eigenschaften-Überschneidungen verfügbar.

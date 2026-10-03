@@ -7,18 +7,21 @@ title: CID ersetzt DPID und DPUUID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
 feature: Reference
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
-TQID: https://experienceleague.adobe.com/GvsmsrGtq3Y8XRzioO4wcd6VrIPDKiMybP4vEYUGx9Q
+TQID: 'https://experienceleague.adobe.com/GvsmsrGtq3Y8XRzioO4wcd6VrIPDKiMybP4vEYUGx9Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '617'
 ht-degree: 1%
-
 ---
-
 # CID ersetzt DPID und DPUUID{#cid-replaces-dpid-and-dpuuid}
 
 Aktualisieren Sie Ihren Code, um `d_cid` oder `d_cid_ic` anstelle von `d_dpid` und `d_dpuuid` zu verwenden. Die Variablen DPID und DPUUID funktionieren weiterhin, aber Sie sollten sie als veraltet betrachten. Dazu gehören die Varianten DPID und DPUUID ohne die `d_ prefix`.

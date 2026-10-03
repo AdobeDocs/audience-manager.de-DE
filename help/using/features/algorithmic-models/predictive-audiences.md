@@ -6,28 +6,40 @@ solution: Audience Manager
 title: Vorhersagekräftige Zielgruppen für Audience Manager
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
+TQID: 'https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1543'
 ht-degree: 3%
-
 ---
-
 # [!UICONTROL Predictive Audiences] {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] können Sie mithilfe fortschrittlicher Datenwissenschafts-Techniken eine unbekannte Zielgruppe in Echtzeit in verschiedene Personas klassifizieren.
@@ -87,7 +99,7 @@ Beim Erstellen eines [!UICONTROL Predictive Audiences] gehen Sie drei Schritte d
 
 Sie können beliebige Erstanbieter-Eigenschaften oder Segmente auswählen, um Ihre Personas zu definieren. Um jedoch optimale Ergebnisse zu erzielen, gibt es hier eine Reihe empfohlener Best Practices:
 
-* Wählen Sie Ihre persönlichen Eigenschaften oder Segmente so aus, dass jede Rolle mindestens einige hundert [Geräte-IDs“ &#x200B;](../../reference/ids-in-aam.md).
+* Wählen Sie Ihre persönlichen Eigenschaften oder Segmente so aus, dass jede Rolle mindestens einige hundert [Geräte-IDs“ ](../../reference/ids-in-aam.md).
 * Wenn Ihre Eigenschaften auf [geräteübergreifenden IDs](../../reference/ids-in-aam.md) basieren, können Sie sie in Segmente mit [Profilzusammenführungsregeln](../profile-merge-rules/merge-rules-overview.md) einschließen, die [Geräte-IDs](../../reference/ids-in-aam.md) verwenden, z. B. [!UICONTROL Device Graph]. Dadurch wird sichergestellt, dass genügend [Geräte-IDs](../../reference/ids-in-aam.md) vorhanden sind, aus denen der Algorithmus lernen kann.
 * Wir empfehlen die Auswahl von Eigenschaften oder einfachen Segmenten für Ihre Personas, die aus 1 bis 3 Eigenschaften bestehen.
 * Wählen Sie Grundlinien-Eigenschaften oder Segmente mit minimaler Überschneidung aus.
@@ -129,19 +141,19 @@ Beachten Sie beim Konfigurieren Ihrer [!UICONTROL Predictive Audiences] die folg
 * [!UICONTROL Predictive Audiences] führt eine Zielgruppenklassifizierung anhand der Eigenschaften Ihrer Erstanbieter aus allen Ihren Erstanbieter-Datenquellen durch.
 * Die Segmentauswertung für [!UICONTROL Predictive Audiences] verwendet die **[!UICONTROL Profile Merge Rule]**, die Sie bei der Modellerstellung auswählen. Weitere Informationen zu [!UICONTROL Profile Merge Rules] finden Sie in der dedizierten [Dokumentation](../profile-merge-rules/merge-rules-overview.md).
 * Einige Eigenschaften und Segmente werden nicht als Baselines oder Zielgruppen unterstützt. [!UICONTROL Predictive Audiences] Modelle können nicht gespeichert werden, wenn eine der folgenden Optionen als Baselines oder Zielgruppen ausgewählt wird:
-   * Prädiktive Eigenschaften und Segmente, die mit prädiktiven Eigenschaften erstellt wurden;
-   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) Eigenschaften oder Segmente;
-   * Algorithmische Eigenschaften;
-   * Zweit- und Drittanbieter-Eigenschaften.
+  * Prädiktive Eigenschaften und Segmente, die mit prädiktiven Eigenschaften erstellt wurden;
+  * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) Eigenschaften oder Segmente;
+  * Algorithmische Eigenschaften;
+  * Zweit- und Drittanbieter-Eigenschaften.
 * [!UICONTROL Predictive Audience] [!UICONTROL segments] kann nicht in [!UICONTROL Audience Lab] verwendet werden.
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Prädiktive Segmente, die von [!UICONTROL Predictive Audiences] erstellt werden, erben [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=de) aus den folgenden Erstanbieter-Datenquellen:
+Prädiktive Segmente, die von [!UICONTROL Predictive Audiences] erstellt werden, erben [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) aus den folgenden Erstanbieter-Datenquellen:
 
 1. Die First-Party-Datenquelle, die Sie beim Erstellen des Modells auswählen.
 1. Die Erstanbieter-Datenquellen Ihrer Zielgruppe. Insbesondere die Datenexportsteuerelemente der [!UICONTROL traits] oder [!UICONTROL segments], aus denen Ihre Zielgruppe besteht.
-1. Die [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=de) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
+1. Die [Datenexportsteuerelemente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) der [!UICONTROL Profile Merge Rule], die Sie für das Modell ausgewählt haben.
 
 Die neu erstellten prädiktiven [!UICONTROL traits] und [!UICONTROL segments] weisen dieselben Datenschutzbeschränkungen auf wie die oben beschriebene Vereinigung der Erstanbieter-Datenquellen.
 
@@ -153,14 +165,14 @@ Allen prädiktiven Segmenten wird der [!UICONTROL Profile Merge Rule] zugewiesen
 
 * Sie definiert, welche Geräte und/oder authentifizierten Profile bei der Analyse der einflussreichen [!UICONTROL traits] durch das Modell zum Zeitpunkt der Klassifizierung eines Benutzers in eine prädiktive [!UICONTROL segment] berücksichtigt werden sollen.
 * Sie legt fest, welche [!UICONTROL trait] (Geräteebene oder geräteübergreifende Ebene) während des Modelltrainings verwendet und als einflussreiche [!UICONTROL traits] angezeigt werden sollen. Prädiktive [!UICONTROL segments] sind Untergruppen Ihrer Zielgruppe.
-   * Wenn es sich bei der Zielgruppe um ein Segment handelt, empfehlen wir, denselben [!UICONTROL Profile Merge Rule] für das Modell auszuwählen, der Ihrer Zielgruppe zugewiesen wurde, oder einen [!UICONTROL Profile Merge Rule], der den Profiltyp Ihrer Zielgruppe enthält.
-   * Wenn es sich bei der Zielgruppe um eine [!UICONTROL trait] handelt, empfehlen wir die Auswahl einer [!UICONTROL Profile Merge Rule], die auf denselben Datentyp wie die Eigenschaft der Zielgruppe zugreifen kann (entweder Geräteprofildaten oder geräteübergreifende Profildaten).
+  * Wenn es sich bei der Zielgruppe um ein Segment handelt, empfehlen wir, denselben [!UICONTROL Profile Merge Rule] für das Modell auszuwählen, der Ihrer Zielgruppe zugewiesen wurde, oder einen [!UICONTROL Profile Merge Rule], der den Profiltyp Ihrer Zielgruppe enthält.
+  * Wenn es sich bei der Zielgruppe um eine [!UICONTROL trait] handelt, empfehlen wir die Auswahl einer [!UICONTROL Profile Merge Rule], die auf denselben Datentyp wie die Eigenschaft der Zielgruppe zugreifen kann (entweder Geräteprofildaten oder geräteübergreifende Profildaten).
 * [!UICONTROL Profile Merge Rules] Verwendung der Optionen [!UICONTROL Current Authenticated Profiles] und [!UICONTROL No Device Profile] werden nur für die Echtzeit-Zielgruppenklassifizierung unterstützt. Weitere Informationen finden Sie [Optionen für Profilzusammenführungsregeln definiert](../profile-merge-rules/merge-rule-definitions.md).
 
 Durch die Auswahl eines [!UICONTROL Profile Merge Rule], der sowohl Gerätedaten als auch geräteübergreifende Daten verwendet, wird die Anzahl der [!UICONTROL traits] maximiert, die für das Modelltraining und die Benutzerklassifizierung in der prädiktiven [!UICONTROL segments] verwendet werden können.
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppenklassifizierung auswählen, unterliegen der Audience Manager [Rollenbasierten Zugriffssteuerung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de).
+Die Eigenschaften und Segmente, die Sie für Personas und Zielgruppenklassifizierung auswählen, unterliegen der Audience Manager [Rollenbasierten Zugriffssteuerung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
 
-Audience Manager-Benutzende können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, für die sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de#wild-card-permissions) verfügen.
+Audience Manager-Benutzende können nur Eigenschaften oder Segmente für Personas und Zielgruppen auswählen, für die sie über [Berechtigung zum Anzeigen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions) verfügen.

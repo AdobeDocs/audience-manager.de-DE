@@ -8,25 +8,31 @@ title: Über Look-alike-Modellierung
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 feature: Algorithmic Models
 exl-id: a24b11ce-6087-4095-a6c2-6815e2211ba5
-TQID: https://experienceleague.adobe.com/AZLt5bvhZWC7MSjlXsEuv86iEScaEDLaPfjHd7Xr5g0
+TQID: 'https://experienceleague.adobe.com/AZLt5bvhZWC7MSjlXsEuv86iEScaEDLaPfjHd7Xr5g0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1602
+source-wordcount: '1614'
 ht-degree: 0%
-
 ---
-
 # Grundlagen zu [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}
 
 ## Neue Benutzer mit [!UICONTROL Look-Alike Modeling] suchen {#find-new-users}
 
-Mit [!UICONTROL Look-Alike Modeling] können Sie durch automatisierte Datenanalyse neue, einzigartige Zielgruppen ermitteln. Der Prozess beginnt mit der Auswahl eines [!UICONTROL trait] oder einer [!UICONTROL segment], eines Zeitintervalls sowie einer Erst- und [!UICONTROL data sources]. Ihre Auswahl liefert die Eingaben für das algorithmische Modell. Wenn der Analytics-Prozess ausgeführt wird, sucht er basierend auf gemeinsamen Merkmalen der ausgewählten Population nach geeigneten Benutzern. Nach Abschluss stehen diese Daten im [Trait Builder) zur Verfügung](../../features/traits/about-trait-builder.md) in dem Sie damit Eigenschaften basierend auf [Genauigkeit und Reichweite“ erstellen &#x200B;](../../features/traits/trait-accuracy-reach.md). Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit [!UICONTROL rules-based traits] kombinieren, und andere Qualifizierungsanforderungen mit [!DNL Boolean] Ausdrücken und Vergleichsoperatoren hinzufügen. [!UICONTROL Look-Alike Modeling] bietet Ihnen eine dynamische Möglichkeit, Wert aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
+Mit [!UICONTROL Look-Alike Modeling] können Sie durch automatisierte Datenanalyse neue, einzigartige Zielgruppen ermitteln. Der Prozess beginnt mit der Auswahl eines [!UICONTROL trait] oder einer [!UICONTROL segment], eines Zeitintervalls sowie einer Erst- und [!UICONTROL data sources]. Ihre Auswahl liefert die Eingaben für das algorithmische Modell. Wenn der Analytics-Prozess ausgeführt wird, sucht er basierend auf gemeinsamen Merkmalen der ausgewählten Population nach geeigneten Benutzern. Nach Abschluss stehen diese Daten im [Trait Builder) zur Verfügung](../../features/traits/about-trait-builder.md) in dem Sie damit Eigenschaften basierend auf [Genauigkeit und Reichweite“ erstellen ](../../features/traits/trait-accuracy-reach.md). Darüber hinaus können Sie Segmente erstellen, die algorithmische Eigenschaften mit [!UICONTROL rules-based traits] kombinieren, und andere Qualifizierungsanforderungen mit [!DNL Boolean] Ausdrücken und Vergleichsoperatoren hinzufügen. [!UICONTROL Look-Alike Modeling] bietet Ihnen eine dynamische Möglichkeit, Wert aus allen verfügbaren Eigenschaftsdaten zu extrahieren.
 
 ## Vorteile {#advantages}
 
@@ -44,7 +50,7 @@ Sie verwalten Modelle in **[!UICONTROL Audience Data > Models]**. Im Großen und
 * Wählen Sie die Baseline-Daten aus, die der Algorithmus auswerten soll. Dazu gehören ein [!UICONTROL trait] oder [!UICONTROL segment], ein Zeitraum und [!UICONTROL data sources] (Ihre eigenen Daten und Drittanbieterdaten, auf die Sie bereits über [!DNL Audience Manager] Zugriff haben). Im Arbeitsablauf für die Modellerstellung können Sie die [!UICONTROL traits] ausschließen, die Sie nicht mit Ihrem Modell beeinträchtigen möchten.
 * Speichern Sie Ihr Modell. Nach dem Speichern wird der algorithmische Auswertungsprozess automatisch ausgeführt. Beachten Sie jedoch, dass es bis zu 7 Tage dauern kann, bis dieser Vorgang abgeschlossen ist. [!DNL Audience Manager] sendet Ihnen eine E-Mail, wenn der Algorithmus abgeschlossen ist und die Ergebnisse für die [!UICONTROL trait] verfügbar sind.
 * Algorithmische [!UICONTROL traits] in [!UICONTROL Trait Builder] erstellen.
-* [!UICONTROL traits] in [!UICONTROL segments] zu [!UICONTROL Segment Builder] kombinieren.
+* [!UICONTROL traits] in [!UICONTROL Segment Builder] zu [!UICONTROL segments] kombinieren.
 * Erstellen und Senden [!UICONTROL segment] Daten an eine [!UICONTROL destination].
 
 ## Fehlerbehebung {#troubleshooting}

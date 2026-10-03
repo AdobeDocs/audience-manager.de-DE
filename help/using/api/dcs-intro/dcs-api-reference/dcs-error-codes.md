@@ -4,22 +4,30 @@ title: DCS-Fehler-Codes, Meldungen und Beispiele
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-TQID: https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E
+TQID: 'https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1519
+source-wordcount: '1546'
 ht-degree: 3%
-
 ---
-
 # DCS-Fehler-Codes, Meldungen und Beispiele {#dcs-error-codes-messages-and-examples}
 
 Fehlercodes und Meldungen, die von der [!UICONTROL Data Collection Servers] ([!DNL DCS]) generiert wurden und in numerischer Reihenfolge nach Code-ID aufgelistet sind.
@@ -32,7 +40,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
 |---|---|---|
 | 0 | Nicht spezifizierter Fehler | Dies ist ein Fehler, der alle Fehler erfasst und Ereignisse behandelt, die nicht von den anderen Fehler-Handlern abgedeckt werden. Die Fehlerbehebung für diesen Fehler ist schwierig. Sie kann durch eine Vielzahl von unbekannten Aktionen oder Ereignissen verursacht werden. Wenn Sie diesen Fehler erhalten, versuchen Sie Ihre [!DNL DCS] erneut. Wenden Sie sich an den [!DNL Adobe], wenn das Problem weiterhin besteht. |
 | 1 | Konfiguration für Host-Namen wurde nicht gefunden: `hostname` | Der in der Anfrage gesendete Hostname wurde nicht von unserem Partner-Bereitstellungs-Team eingerichtet. Wenden Sie sich an den [!DNL Adobe], wenn diese Fehlermeldung angezeigt wird. |
-| 2 | Ungültiger `d_orgid` (für diese Organisations-ID wurde keine Konfiguration gefunden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Administrationsseite“ [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de) Informationen dazu, wie Sie sie finden. |
+| 2 | Ungültiger `d_orgid` (für diese Organisations-ID wurde keine Konfiguration gefunden): `ID` | Die Organisations-ID ist falsch. Überprüfen Sie Ihre ID und versuchen Sie die Anfrage erneut. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Administrationsseite“ [Organisationen und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) Informationen dazu, wie Sie sie finden. |
 | 10 | Eigenschaften können nicht ausgewertet werden | Die Eigenschaften in der Anfrage wurden entweder teilweise oder gar nicht ausgewertet. Wenden Sie sich an den [!DNL Adobe], wenn das Problem weiterhin besteht. |
 
 ## Fehler-Codes für die Integration {#integration-error-codes}
@@ -142,7 +150,7 @@ In den folgenden Tabellen steht *kursiv* für einen Variablenplatzhalter.
 | --- | --- | --- |
 | 300 | Ungültige Kunden-ID `_ID_` | Die Kunden-ID ist ungültig (fehlende Werte für die Datenquelle, fehlende Integrations-Codes, ungültiges Format für Datenquellen, blockierte Kunden-ID, leere Kunden-ID, nicht autorisierter Zugriffsversuch auf eine Datenquelle, die nicht zum Partner gehört). |
 | 301 | Maximale Anzahl von Kunden-IDs überschritten. Maximal zulässig ist `_maximum allowed_`. Gefunden wurde `_maximum found_`. | Die Anzahl der mit einer geräteübergreifenden Datenquelle verknüpften Kunden-IDs überschreitet die zulässige Anzahl geräteübergreifender IDs pro Anfrage. Zu diesen IDs gehören geräteübergreifende, mobile oder Cookie-IDs. Das Limit ist derzeit auf 10 festgelegt. |
-| 302 | Nicht autorisierte Kunden-ID `_ID_` | Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht der aktuellen Organisations-ID gehört. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Suchen Ihrer Organisations-ID“ in [Organisationen und Kontoverknüpfung](https://experiencecloud.adobe.com/resources/help/de_DE/mcloud/organizations.html) Informationen dazu, wie Sie sie finden können. |
+| 302 | Nicht autorisierte Kunden-ID `_ID_` | Wird zurückgegeben, wenn die Kunden-ID-Datenquelle nicht der aktuellen Organisations-ID gehört. Wenn Sie Ihre Organisations-ID nicht kennen oder haben, finden Sie im Abschnitt „Suchen Ihrer Organisations-ID“ in [Organisationen und Kontoverknüpfung](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) Informationen dazu, wie Sie sie finden können. |
 | 303 | Blockierte Kunden-ID `_ID_` | Wird zurückgegeben, wenn die Kunden-ID als bösartig identifiziert und einer Blockierungsliste hinzugefügt wurde. |
 | 304 | Blockierte Datenquelle-ID `_ID_` | Wird zurückgegeben, wenn die Datenquellen-ID als bösartig identifiziert und einer Blockierungsliste hinzugefügt wurde |
 | 306 | Blockierte deklarierte Geräte-ID `_ID_` | Die Geräte-ID wurde als bösartig identifiziert und einer Blockierungsliste hinzugefügt. Dies kann passieren, wenn wir in kurzer Zeit eine extreme Anzahl von DCS-Anfragen mit dieser Geräte-ID erhalten. |

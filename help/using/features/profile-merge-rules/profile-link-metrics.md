@@ -7,16 +7,21 @@ title: Berichtsmetriken für Profilzusammenführungsregeln
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-TQID: https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s
+TQID: 'https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 693
+source-wordcount: '727'
 ht-degree: 0%
-
 ---
-
 # Berichtsmetriken für Profilzusammenführungsregeln {#report-metrics-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rule] Metriken enthalten Daten über Personen und Geräte, die sich bei Ihrer Site authentifizieren. Die Daten und Diagramme in [!UICONTROL Profile Merge Rule Reports] werden beim Erstellen einer Zusammenführungsregel oder beim Klicken auf eine vorhandene Regel im [!UICONTROL Profile Merge Rules]-Dashboard dynamisch aktualisiert. Diese Metriken können Gerätediagramme aus anderen Gerätediagrammquellen von Drittanbietern enthalten.
@@ -38,7 +43,7 @@ Berichte geben Daten in nebeneinander angezeigten Balkendiagrammen zurück, wenn
    <td colname="col2"> <p>Zeigt: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Active People</span>: Die Anzahl der Personen, die sich in den letzten 60 Tagen auf Ihrer Site authentifiziert haben. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Geräteübergreifend</span>: Die Gesamtzahl <a href="merge-rules-start.md#create-data-source"> geräteübergreifenden IDs</a> die in der <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=de"> Data Source gespeichert sind</a> des ausgewählten <a href="merge-rule-definitions.md"> authentifizierten Profils</a> für die Lebensdauer, in der die Datenquelle vorhanden ist. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Geräteübergreifend</span>: Die Gesamtzahl <a href="merge-rules-start.md#create-data-source"> geräteübergreifenden IDs</a> die in der <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Data Source gespeichert sind</a> des ausgewählten <a href="merge-rule-definitions.md"> authentifizierten Profils</a> für die Lebensdauer, in der die Datenquelle vorhanden ist. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % aktive Personen</span>: Zeigt <span class="wintitle"> aktive </span> als % an. </li> 
     </ul> <p> <span class="wintitle"> Authentifizierte Aktivität </span> den Vergleich von Datenquellen nach Aktivität, Volumen und Prozent. Es kann Ihnen dabei helfen, eine Datenquelle mit vielen Personen und einem hohen Prozentsatz aktiver Benutzer zu finden. Oder Sie sehen vielleicht einen Wert darin, Datenquellen mit einem hohen Anteil aktiver Benutzer im Vergleich zur Gesamtgröße der Zielgruppe zu vergleichen. So ist beispielsweise eine Datenquelle mit niedrigen Gesamtlebensdauerzahlen und hoher Aktivität manchmal wertvoller als eine Datenquelle mit hohen Lebensdauerergebnissen und niedrigen Aktivitätszahlen. </p> <p> <p>Hinweis: Die Metriken der <span class="wintitle"> authentifizierten Aktivität </span> nur <span class="wintitle"> Profilverknüpfungsdaten </span>. Dieser Bericht enthält keine Daten <span class="wintitle"> Gerätediagramm</span>. </p> </p> </td> 
   </tr> 

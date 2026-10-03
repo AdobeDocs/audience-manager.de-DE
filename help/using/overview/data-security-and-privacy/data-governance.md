@@ -7,30 +7,44 @@ keywords: DSGVO-Benutzeroberfläche, DSGVO-API, CCPA, Datenschutz, Einverständn
 title: Data Governance
 feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
-TQID: https://experienceleague.adobe.com/HVF-SxKO4mcE7YkiiwXLBPn2K3N5NIjpZHFWgZb0CoI
+TQID: 'https://experienceleague.adobe.com/HVF-SxKO4mcE7YkiiwXLBPn2K3N5NIjpZHFWgZb0CoI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '460'
 ht-degree: 90%
-
 ---
-
 # Data Governance
 
 ## Überblick {#overview}
@@ -52,7 +66,7 @@ Die [!DNL IP]-Adresse eines Besuchers auf der Website eines Kunden wird an das [
 
 Sehen Sie sich das folgende Video an, um zu verstehen, wie die Verschleierung von [!DNL IP]-Adressen in Audience Manager funktioniert.
 
->[!VIDEO](https://video.tv.adobe.com/v/34968?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
 **Geografische Segmentierung:** Wenn Sie die Verschleierung von [!DNL IP]-Adressen aktivieren, können die verbleibenden Oktette der [!DNL IP]-Adresse weiterhin für die Geo-Segmentierung und das Reporting in Audience Manager verwendet werden. Wenn Sie die Verschleierung von [!DNL IP]-Adressen nicht aktivieren, verwendet Audience Manager die vollständige [!DNL IP]-Adresse. Sie können die Funktion zur geografischen Segmentierung verwenden, mit der Sie in beiden Fällen einen [!DNL IP]-Standort nach geografischem Gebiet identifizieren können, jedoch mit einem leichten Genauigkeitsverlust, wenn die [!DNL IP]-Verschleierung verwendet wird. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der [!DNL IP]-Adresse wahrscheinlich merklich beeinträchtigt. Das Ermitteln von Informationen auf Regionen- und Landesebene dürfte nur leicht beeinträchtigt sein. Die geographischen Segmentierungsdaten sind nur auf Stadt- oder Postleitzahlenebene und nicht auf individueller Ebene detailliert. Erfahren Sie mehr über das [Geotargeting](../../features/traits/trait-geotarget-keys.md) und das Einrichten von Eigenschaften mit geografischen Variablen.
 

@@ -8,23 +8,30 @@ uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: Aufschlüsselung des Identitätstyps, Identitätsaufschlüsselung, Berichte zur Zielgruppen-Identität, geräteübergreifend, geräteübergreifende ID, Geräte-ID
 feature: Traits
 exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
-TQID: https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc
+TQID: 'https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: '627'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Trait] {#trait-details-page}
 
 Die Detailseite für eine einzelne [!UICONTROL trait] bietet einen Überblick über die [!UICONTROL trait], z. B. den [!UICONTROL trait], die ID, Leistungsmetriken, Ausdrücke, die die [!UICONTROL trait] definieren, Segmente, zu denen sie gehört, und das [!UICONTROL trait]. Um diese Details anzuzeigen, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** und klicken Sie auf den Namen der [!UICONTROL trait], mit der Sie arbeiten möchten.
@@ -57,15 +64,15 @@ Die [!UICONTROL Trait Graph] bietet Leistungsmetriken auf einen Blick für Ihre 
 Die [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
 
 * **[!UICONTROL Show results by]**
-   * **[!UICONTROL Cross-Device ID]**: Wählen Sie diese Option aus, um Ergebnisse für [!UICONTROL traits] anzuzeigen, die Daten für authentifizierte Profile erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt, und es sind keine Daten unter dem [!UICONTROL Device ID] Bericht vorhanden.
-   * **[!UICONTROL Device ID]**: Wählen Sie diese Option aus, um Ergebnisse für [!UICONTROL traits] anzuzeigen, die Daten für Geräteprofile erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Device ID] Bericht angezeigt, und es sind keine Daten unter dem [!UICONTROL Cross-Device ID] Bericht vorhanden.
+  * **[!UICONTROL Cross-Device ID]**: Wählen Sie diese Option aus, um Ergebnisse für [!UICONTROL traits] anzuzeigen, die Daten für authentifizierte Profile erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Cross-Device ID] Bericht angezeigt, und es sind keine Daten unter dem [!UICONTROL Device ID] Bericht vorhanden.
+  * **[!UICONTROL Device ID]**: Wählen Sie diese Option aus, um Ergebnisse für [!UICONTROL traits] anzuzeigen, die Daten für Geräteprofile erfassen. Wenn Sie diese Option auswählen, werden nur Daten im [!UICONTROL Device ID] Bericht angezeigt, und es sind keine Daten unter dem [!UICONTROL Cross-Device ID] Bericht vorhanden.
 
-     ![trait-graph](assets/trait-summary.gif)
+    ![trait-graph](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**: Anzahl der eindeutigen Benutzer, die diese [!UICONTROL trait] im angegebenen Zeitraum zu ihrem Profil hinzugefügt haben.
 * **[!UICONTROL Total Trait Population]**: Die Anzahl der eindeutigen Benutzer, die sich derzeit für dieses [!UICONTROL trait] qualifiziert haben.
 
-* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei wichtigsten [!UICONTROL cross-device data sources] mit der höchsten Populationsanzahl, die sich für die [!UICONTROL trait] qualifiziert haben, in absteigender Reihenfolge. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die sich für die [!UICONTROL trait] qualifiziert haben, aus den [!UICONTROL cross-device data sources], die nicht zu den drei obersten gehören. Dieser Bericht wird nur angezeigt, wenn Sie im Dropdown-Menü [!UICONTROL Cross-device ID] oben rechts auf der Seite [!UICONTROL Show Results By] auswählen. Die standardmäßige Dropdown-Option ist [!UICONTROL Device ID], wenn dieser Bericht nicht angezeigt wird.
+* **[!UICONTROL Identity Type Breakdown]**: Die ersten drei Einträge zeigen die drei wichtigsten [!UICONTROL cross-device data sources] mit der höchsten Populationsanzahl, die sich für die [!UICONTROL trait] qualifiziert haben, in absteigender Reihenfolge. Der vierte Eintrag zeigt die Summe aller anderen [!DNL DPUUIDs] ([!DNL CRM IDs]), die sich für die [!UICONTROL trait] qualifiziert haben, aus den [!UICONTROL cross-device data sources], die nicht zu den drei obersten gehören. Dieser Bericht wird nur angezeigt, wenn Sie im Dropdown-Menü [!UICONTROL Show Results By] oben rechts auf der Seite [!UICONTROL Cross-device ID] auswählen. Die standardmäßige Dropdown-Option ist [!UICONTROL Device ID], wenn dieser Bericht nicht angezeigt wird.
 
   ![trait-graph](assets/trait-identity.png)
 
@@ -73,7 +80,7 @@ Die [!UICONTROL Trait Graph] zeigt die folgenden Informationen an:
   >
   >Audience Manager zeigt den [!UICONTROL Identity Type Breakdown] nur an, wenn Sie über [!UICONTROL cross-device] für die [!UICONTROL trait] qualifizierten IDs verfügen.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/32712?captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## [!UICONTROL Trait] Ausdruck {#trait-expression}
 

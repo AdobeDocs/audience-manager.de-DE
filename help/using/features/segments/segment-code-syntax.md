@@ -7,19 +7,24 @@ title: Im Segmentausdruck-Editor verwendete Code-Syntax
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-TQID: https://experienceleague.adobe.com/cJKsvcP-dZ05ojGgbn2ni-wFMFfiObuIWwaRP0-HWFQ
+TQID: 'https://experienceleague.adobe.com/cJKsvcP-dZ05ojGgbn2ni-wFMFfiObuIWwaRP0-HWFQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 297
+source-wordcount: '299'
 ht-degree: 4%
-
 ---
-
 # Im Segmentausdruck-Editor verwendete Code-Syntax {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] können Sie mit einem Code-Editor Eigenschaftsregeln für ein Segment erstellen. Klicken Sie im Bedienfeld **[!UICONTROL Segment Expressions (Code View)]** auf die Registerkarte [!UICONTROL Traits] , um auf diese Funktion zuzugreifen.
+[!UICONTROL Segment Builder] können Sie mit einem Code-Editor Eigenschaftsregeln für ein Segment erstellen. Klicken Sie im Bedienfeld [!UICONTROL Traits] auf die Registerkarte **[!UICONTROL Segment Expressions (Code View)]** , um auf diese Funktion zuzugreifen.
 
 ## Expression Builder-Codesyntax
 
@@ -47,7 +52,7 @@ Um Segmentgruppen zu erstellen, schließen Sie die Häufigkeitsfunktion in Klamm
 | Name oder Variable | Beschreibung |
 |---|---|
 | `FREQUENCY` | Ein Literal, das dem Ausdruck vorangehen muss. |
-| `[` `traitID`>`T]` | Ein Array von Eigenschafts-IDs, gefolgt vom `T`. Trennen Sie mehrere Eigenschaften durch ein Komma. Beispiel: `[123T, 456T]`. |
+| `[`&lt;`traitID`>`T]` | Ein Array von Eigenschafts-IDs, gefolgt vom `T`. Trennen Sie mehrere Eigenschaften durch ein Komma. Beispiel: `[123T, 456T]`. |
 | `<Recency Operator><Numeric Value>D` | *(Optional)* Legt Neuheitsregeln für Eigenschaften im Segment fest. Der `D` zeigt die Neuigkeit in Tagen an. |
 | `<Frequency Operator><Numeric Value>` | Legt Häufigkeitsregeln für Eigenschaften im Segment fest. |
 

@@ -6,20 +6,26 @@ solution: Audience Manager
 title: Hinzufügen von Datenexportsteuerelementen zu einem Ziel
 feature: Data Export Controls
 exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
-TQID: https://experienceleague.adobe.com/DuvtSxCkPmsqfoRH2MMjqFChFBr7U-x4mKl4sbyAEJQ
+TQID: 'https://experienceleague.adobe.com/DuvtSxCkPmsqfoRH2MMjqFChFBr7U-x4mKl4sbyAEJQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '221'
 ht-degree: 2%
-
 ---
-
 # Hinzufügen von Datenexportbeschriftungen zu einem Ziel {#add-data-export-labels}
 
 [!DNL Data Export Labels] arbeiten mit den [!DNL Export Controls], die Sie für eine Datenquelle festgelegt haben. [!DNL Data Export Labels] verhindern, dass Sie einem Segment eingeschränkte Eigenschaften hinzufügen und Segmentdaten an ein Ziel senden. Sie können mehrere Exportkennzeichnungen für ein neues oder vorhandenes [!DNL cookie] oder [!DNL URL] Ziel festlegen.
@@ -34,7 +40,7 @@ So fügen Sie einem Ziel Exportkennzeichnungen hinzu:
 
 1. Klicken Sie auf **[!UICONTROL Audience Data]**:
 
-   * Für neue Ziele: Klicken Sie auf **[!UICONTROL Create New Destination]**. Füllen Sie den Abschnitt [!UICONTROL Basic Information] aus, bevor Sie eine Beschriftung für den Datenexport auswählen. Weitere Informationen finden [&#x200B; unter „Erstellen &#x200B;](../../features/destinations/create-cookie-destination.md) Cookie-Ziels“ oder [Erstellen &#x200B;](../../features/destinations/create-url-destination.md) URL-Ziels“.
+   * Für neue Ziele: Klicken Sie auf **[!UICONTROL Create New Destination]**. Füllen Sie den Abschnitt [!UICONTROL Basic Information] aus, bevor Sie eine Beschriftung für den Datenexport auswählen. Weitere Informationen finden [ unter „Erstellen ](../../features/destinations/create-cookie-destination.md) Cookie-Ziels“ oder [Erstellen ](../../features/destinations/create-url-destination.md) URL-Ziels“.
    * Für vorhandene Ziele: Verwenden Sie das [!DNL Search], um Ihr Ziel zu finden, oder scrollen Sie durch die Liste und klicken Sie auf den Zielnamen, um es zu öffnen.
 
 1. [!DNL Data Export Label] auswählen. Lassen Sie die Kontrollkästchen leer, wenn Sie keine Exportbeschränkungen festlegen möchten. Die Exportkennzeichnungen umfassen die folgenden Optionen:

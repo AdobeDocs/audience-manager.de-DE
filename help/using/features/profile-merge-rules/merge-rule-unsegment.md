@@ -7,23 +7,28 @@ title: Regeln für die Profilzusammenführung und Prozesse zur Aufhebung der Seg
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+TQID: 'https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: '481'
 ht-degree: 2%
-
 ---
-
 # Regeln für die Profilzusammenführung und Prozesse zur Aufhebung der Segmentierung von Geräten {#profile-merge-rules-and-device-un-segmentation-processes}
 
 Die Aufhebung der Segmentierung beschreibt Prozesse, durch die Geräteprofile disqualifiziert und aus Segmenten entfernt werden. Ihre Möglichkeit, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen eines [!UICONTROL Profile Merge Rule] verwendet wird.
 
 ## Verfügbare Geräteoptionen {#device-options}
 
-Zur Erinnerung: Die [!UICONTROL Device Options] stehen beim Erstellen oder Bearbeiten eines [!UICONTROL Profile Merge Rules Setup] im Abschnitt [!UICONTROL Profile Merge Rule] zur Verfügung.
+Zur Erinnerung: Die [!UICONTROL Device Options] stehen beim Erstellen oder Bearbeiten eines [!UICONTROL Profile Merge Rule] im Abschnitt [!UICONTROL Profile Merge Rules Setup] zur Verfügung.
 
 ## Option „Aktuelles Geräteprofil“ und „Geräte-Segmentierung aufheben“ {#current-device-profile-options}
 
@@ -47,7 +52,7 @@ Zur Erinnerung: Die [!UICONTROL Device Options] stehen beim Erstellen oder Bearb
 >[!NOTE]
 >
 >**100 Geräte-Limit für Segmentauswertung und Disqualifizierung**.
->Audience Manager führt beim Auswerten von Segmenten mit einer Profilzusammenführungsregel, die ein Gerätediagramm verwendet, bis zu 100 Geräte zusammen. Audience Manager bewertet das aktuelle Gerät und bis zu 99 Geräte, die mit dem aktuellen Gerät durch ein [authentifiziertes Profil“ &#x200B;](../../reference/visitor-authentication-states.md) sind (geräteübergreifende ID). Wenn das Signal zum Aufheben der Segmentierung ausgegeben wird, werden das aktuelle Gerät und zusätzliche Geräte aus dem Segment im Ziel entfernt.
+>Audience Manager führt beim Auswerten von Segmenten mit einer Profilzusammenführungsregel, die ein Gerätediagramm verwendet, bis zu 100 Geräte zusammen. Audience Manager bewertet das aktuelle Gerät und bis zu 99 Geräte, die mit dem aktuellen Gerät durch ein [authentifiziertes Profil“ ](../../reference/visitor-authentication-states.md) sind (geräteübergreifende ID). Wenn das Signal zum Aufheben der Segmentierung ausgegeben wird, werden das aktuelle Gerät und zusätzliche Geräte aus dem Segment im Ziel entfernt.
 
 ![](assets/last-device-graph.png)
 

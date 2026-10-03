@@ -7,26 +7,36 @@ title: Datenquellenliste und Einstellungen
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
-TQID: https://experienceleague.adobe.com/DmanqiC6h-sY52uykeAw-LiqTUbx7qfgE2rEwmLtT28
+TQID: 'https://experienceleague.adobe.com/DmanqiC6h-sY52uykeAw-LiqTUbx7qfgE2rEwmLtT28'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: '1090'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Data Sources] und Einstellungen {#data-sources-list-and-settings}
 
 Zeigen Sie eine Liste Ihrer derzeit konfigurierten [!UICONTROL data sources] an, fügen Sie neue [!UICONTROL data sources] hinzu und bearbeiten Sie vorhandene [!UICONTROL data sources].
@@ -125,12 +135,12 @@ Aktivieren Sie das Kontrollkästchen **[!UICONTROL Inbound]** , wenn Ihre Datenq
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Kunden-</span></b>: Identifiziert eingehende Daten mit einer Kunden-ID. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Audience Manager</span> ID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Experience Cloud</span> ID. Siehe <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de" format="https" scope="external"> Cookies und die Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifiziert eingehende Daten mit einer <span class="keyword"> Experience Cloud</span> ID. Siehe <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> von Cookies und die Experience Cloud-ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Fehlerbehebung bei <b><span class="uicontrol">-Dateiformaten</span></b> </p> </td> 
-   <td colname="col2"> <p>Wählen Sie <b><span class="uicontrol"> Enable file error sampling</span></b>, wenn Sie Probleme bei der Verarbeitung eingehender Dateien beheben müssen. Diese Funktion generiert einen Fehlerbeispielbericht, der Ihnen Dateiformat- und Syntaxfehler zeigt. </p> <p>Weitere Informationen zu Fehlerberichten und <a href="../reporting/onboarding-status-report.md#onboarding-status-about">-Stichproben finden Sie unter </a> Onboarding-Statusbericht: Über. </p> </td> 
+   <td colname="col2"> <p>Wählen Sie <b><span class="uicontrol"> Enable file error sampling</span></b>, wenn Sie Probleme bei der Verarbeitung eingehender Dateien beheben müssen. Diese Funktion generiert einen Fehlerbeispielbericht, der Ihnen Dateiformat- und Syntaxfehler zeigt. </p> <p>Weitere Informationen zu Fehlerberichten und </a>-Stichproben finden Sie unter <a href="../reporting/onboarding-status-report.md#onboarding-status-about"> Onboarding-Statusbericht: Über. </p> </td> 
   </tr> 
  </tbody> 
 </table>

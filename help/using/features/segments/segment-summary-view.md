@@ -8,21 +8,28 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: Aufschlüsselung des Identitätstyps, Identitätsaufschlüsselung, Berichte zur Zielgruppen-Identität, geräteübergreifend, geräteübergreifende ID, Geräte-ID
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-TQID: https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk
+TQID: 'https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: '408'
 ht-degree: 0%
-
 ---
-
 # Seite mit Segmentdetails {#segment-summary-view}
 
 Die Detailseite für ein einzelnes Segment bietet einen Überblick über die Segmentdetails, wie den Segmentnamen, die ID, Leistungsmetriken, Regeln, die das Segment definieren, und die Zielzuordnungen. Um diese Details anzuzeigen, gehen Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** und klicken Sie auf den Namen des Segments, mit dem Sie arbeiten möchten.
@@ -44,7 +51,7 @@ Oben auf der Seite mit den Segmentdetails befinden sich die Tools, mit denen Sie
 Unter den Tools für die Segmentverwaltung finden Sie die folgenden Segmentinformationen:
 
 1. **[!UICONTROL Basic Information]:** Zeigt die erforderlichen und optionalen Details an, die beim Erstellen des Segments angegeben wurden. Unter [Segment Builder](segment-builder.md) finden Sie einen detaillierten Überblick darüber, was diese Felder bedeuten.
-1. **[!UICONTROL Segment Graph]:** Zeigt Leistungsdaten grafisch und für feste Intervalle von 1, 7, 14, 30, 60 und 90 Tagen an. Die Zahlen der Segmentpopulation werden in einem [&#x200B; Artikel &#x200B;](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Segment Graph]:** Zeigt Leistungsdaten grafisch und für feste Intervalle von 1, 7, 14, 30, 60 und 90 Tagen an. Die Zahlen der Segmentpopulation werden in einem [ Artikel ](../../features/segments/segment-builder-data.md).
 
    ![segments-graph](assets/segment-graph.png)
 
@@ -58,7 +65,7 @@ Unter den Tools für die Segmentverwaltung finden Sie die folgenden Segmentinfor
 
    Sehen Sie sich das folgende Video an, um einen Überblick über [!UICONTROL Identity Type Breakdown] zu erhalten.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/32712?captions=ger)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 1. **[!UICONTROL Segment Rules]:** Listet Merkmale im Segment zusammen mit Qualifizierungsregeln auf.
 1. **[!UICONTROL Destination Mappings]:** Listet Zielzuordnungen für das Segment auf.

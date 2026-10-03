@@ -7,22 +7,30 @@ title: Datenschutz – Überblick
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-TQID: https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo
+TQID: 'https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 52%
-
+source-wordcount: '477'
+ht-degree: 51%
 ---
-
 # Datenschutz – Überblick {#data-privacy}
 
 ## Überblick
@@ -52,9 +60,9 @@ Weitere Informationen finden Sie im [Adobe Privacy Center](https://www.adobe.com
 
 ## Einhaltung von Vorschriften {#compliance}
 
-[!DNL Audience Manager] hilft Ihnen bei der Einhaltung Ihrer Verpflichtungen aus bestimmten Datenschutzbestimmungen mithilfe von Datenschutztools wie dem [Adobe Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) für Datenzugriffs- und Löschanfragen.
+[!DNL Audience Manager] hilft Ihnen bei der Einhaltung Ihrer Verpflichtungen aus bestimmten Datenschutzbestimmungen mithilfe von Datenschutztools wie dem [Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) für Datenzugriffs- und Löschanfragen.
 
-Dieser Dienst bietet eine [!DNL RESTful API] und eine Benutzeroberfläche, die Sie bei der Verwaltung von Datenanfragen von Verbrauchern unterstützen. Mithilfe des [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) können Sie auf Anfrage eines einzelnen Verbrauchers Anfragen zum Zugriff auf und zum Löschen personenbezogener Daten senden, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
+Dieser Dienst bietet eine [!DNL RESTful API] und eine Benutzeroberfläche, die Sie bei der Verwaltung von Datenanfragen von Verbrauchern unterstützen. Mithilfe des [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) können Sie auf Anfrage eines einzelnen Verbrauchers Anfragen zum Zugriff auf und zum Löschen personenbezogener Daten senden, um diesen Teil Ihrer Compliance-Verpflichtungen zu automatisieren.
 
 Während Datenzugriffs- und Löschanfragen über die Privacy Service verarbeitet werden, [Opt-out](data-privacy-requests.md#opt-out-requests)Anfragen derzeit über die [DCS-API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Weitere Informationen finden Sie unter [Datenschutzanfragen](data-privacy-requests.md).
 

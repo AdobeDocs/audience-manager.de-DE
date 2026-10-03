@@ -8,34 +8,47 @@ title: Zustimmungsverwaltung
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
-TQID: https://experienceleague.adobe.com/ky1cNyZ507tDn2FFS6umoWsT-zaZ05wQwvK8xvNc7HU
+TQID: 'https://experienceleague.adobe.com/ky1cNyZ507tDn2FFS6umoWsT-zaZ05wQwvK8xvNc7HU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 685
-ht-degree: 98%
-
+source-wordcount: '770'
+ht-degree: 93%
 ---
-
 # Zustimmungsverwaltung
 
 ## Überblick {#overview}
 
 In Fällen, in denen die Zustimmung für bestimmte Marketing-Aktivitäten erforderlich ist, müssen Audience Manager-Kunden den Umfang und die Notwendigkeit festlegen, ob bestimmter Zustimmungen aktualisiert werden müssen, um die Daten in Zukunft weiterhin nutzen zu können.
 
-Audience Manager bietet Ihnen Tools, mit denen Sie die erforderlichen Benutzerzustimmungen einholen können, damit Sie ihnen kanalübergreifend personalisierte Erlebnisse bieten können. 
+Audience Manager bietet Ihnen Tools, mit denen Sie die erforderlichen Benutzerzustimmungen einholen können, damit Sie ihnen kanalübergreifend personalisierte Erlebnisse bieten können.
 
 >[!IMPORTANT]
 >
@@ -45,11 +58,11 @@ Audience Manager bietet Ihnen Tools, mit denen Sie die erforderlichen Benutzerz
 
 ## Opt-in-Dienst für Experience Cloud
 
-Mit dem [Opt-in-Dienst für Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) können Sie Protokolle für den Besucher einrichten, um zu bestimmen, ob Sie ein Cookie auf dem Gerät oder im Browser des Benutzers setzen können, wenn dieser Ihre Site besucht.
+Mit dem [Opt-in-Dienst für Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) können Sie Protokolle für den Besucher einrichten, um zu bestimmen, ob Sie ein Cookie auf dem Gerät oder im Browser des Benutzers setzen können, wenn dieser Ihre Site besucht.
 
 Dies eine Erweiterung von [!DNL Experience Cloud ID (ECID) Service] und ermöglicht Ihnen zu steuern, ob und welche Experience Cloud-Lösungen Cookies auf Webseiten für Besucher setzen können, bevor die Besucher zugestimmt haben.
 
-Mit dem [Opt-in-Dienst für Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) können Sie außerdem Protokolle zur Integration in Ihre Consent Management Platform (CMP) und vorhandene Systeme als Teil Ihres umfassenderen Designs festlegen.
+Mit dem [Opt-in-Dienst für Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) können Sie außerdem Protokolle zur Integration in Ihre Consent Management Platform (CMP) und vorhandene Systeme als Teil Ihres umfassenderen Designs festlegen.
 
 ## Verwalten der Opt-in-Funktion/Einholen der Zustimmung
 
@@ -57,7 +70,7 @@ Audience Manager-Kunden können die Benutzerzustimmung für verschiedene Anwend
 
 ## Verwalten der Opt-out-Funktion/Widerrufen der Zustimmung
 
-Die Opt-out-Funktion kann für Adobe Experience Cloud über die Seite [Ihre Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html#customeruse) verwaltet werden. Mit 1-Klick-Funktionen können Ihre Endbenutzer die Datenerfassung durch die Adobe Experience Cloud-Werbelösungen (einschließlich Audience Manager) steuern und deaktivieren. Weitere Informationen finden Sie im Abschnitt hinsichtlich [&#x200B; Geschäftskunden](https://www.adobe.com/de/privacy/opt-out.html#customeruse) auf der Seite „Ihre Datenschutzoptionen“. Informationen zu Browsern, die keine Drittanbieter-Cookies unterstützen, finden Sie unter [Deklariertes ID-Targeting](../../features/declared-ids.md#declared-id-targeting). Rufen Sie für mobile Geräte die entsprechenden Audience Manager-IDs ab und rufen Sie die Audience Manager-Abmelde-APIs auf, wie in den [Beispielen für Opt-out-Verfahren mit deklarierten IDs](../../features/declared-ids.md#opt-out-examples) angegeben. Danach können Sie die Datenerfassung für Benutzer mit den Abmelde-APIs des Mobile SDK einstellen – siehe [Android-Geräte](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=de) und [iOS-Geräte](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=de). Weitere Informationen zum Opt-out-Verfahren finden Sie in der [Dokumentation zu Datenschutzanfragen](../../overview/data-security-and-privacy/data-privacy-requests.md).
+Die Opt-out-Funktion kann für Adobe Experience Cloud über die Seite [Ihre Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html#customeruse) verwaltet werden. Mit 1-Klick-Funktionen können Ihre Endbenutzer die Datenerfassung durch die Adobe Experience Cloud-Werbelösungen (einschließlich Audience Manager) steuern und deaktivieren. Weitere Informationen finden Sie im Abschnitt hinsichtlich [ Geschäftskunden](https://www.adobe.com/de/privacy/opt-out.html#customeruse) auf der Seite „Ihre Datenschutzoptionen“. Informationen zu Browsern, die keine Drittanbieter-Cookies unterstützen, finden Sie unter [Deklariertes ID-Targeting](../../features/declared-ids.md#declared-id-targeting). Rufen Sie für mobile Geräte die entsprechenden Audience Manager-IDs ab und rufen Sie die Audience Manager-Abmelde-APIs auf, wie in den [Beispielen für Opt-out-Verfahren mit deklarierten IDs](../../features/declared-ids.md#opt-out-examples) angegeben. Danach können Sie die Datenerfassung für Benutzer mit den Abmelde-APIs des Mobile SDK einstellen – siehe [Android-Geräte](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) und [iOS-Geräte](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html). Weitere Informationen zum Opt-out-Verfahren finden Sie in der [Dokumentation zu Datenschutzanfragen](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
 ## Verwalten der Zustimmung für Zweitpartner
 

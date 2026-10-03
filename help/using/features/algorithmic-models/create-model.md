@@ -8,16 +8,21 @@ title: Erstellen eines algorithmischen Modells
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-TQID: https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk
+TQID: 'https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 639
+source-wordcount: '675'
 ht-degree: 0%
-
 ---
-
 # Lookalike-Modell erstellen {#create-an-algorithmic-model}
 
 Beschreibt die erforderlichen und optionalen Schritte zum Erstellen eines [!UICONTROL Look-Alike Model].
@@ -37,7 +42,7 @@ Beschreibt die erforderlichen und optionalen Schritte zum Erstellen eines [!UICO
 
 Gehen Sie wie folgt vor, um eine [!UICONTROL Look-Alike Model] zu erstellen:
 
-1. Wechseln Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie im Abschnitt **[!UICONTROL Add New]** auf [!UICONTROL Look-Alike Modeling] .
+1. Wechseln Sie zu **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** und klicken Sie im Abschnitt [!UICONTROL Look-Alike Modeling] auf **[!UICONTROL Add New]** .
    ![Look-alike-add](assets/look-alike-add.png)
 1. Im Abschnitt [Grundlegende Informationen](../../features/algorithmic-models/create-model.md#basic-information)
    * Benennen Sie das Modell.
@@ -55,7 +60,7 @@ Gehen Sie wie folgt vor, um eine [!UICONTROL Look-Alike Model] zu erstellen:
 
 Sehen Sie sich das folgende Video an, um einen detaillierten Überblick über die Funktionsweise geräteübergreifender Metriken zu erhalten.
 
-[Verstehen geräteübergreifender Metriken in Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Verstehen von geräteübergreifenden Metriken in Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Grundlegende Informationen für algorithmische Modelle {#basic-information}
 
@@ -99,7 +104,7 @@ Füllen Sie zuerst die erforderlichen Felder im Abschnitt [!UICONTROL Basic Info
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Algorithmus auswählen (3)</b> </p> </td> 
-   <td colname="col2"> <p>Derzeit arbeitet Model Builder nur mit unserem proprietären Algorithmus <span class="keyword"> Trait Weight </span>. <span class="keyword"> Audience Manager</span> können in nachfolgenden Versionen weitere algorithmische Funktionen hinzufügen. </p> </td>
+   <td colname="col2"> <p>Derzeit arbeitet Model Builder nur mit unserem proprietären Algorithmus <span class="keyword"> Trait Weight </span>. <span class="keyword"> Audience Manager</span> kann in nachfolgenden Versionen weitere algorithmische Funktionen hinzufügen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Modelldaten aus Data Source auswählen (4)</b> </p> </td> 
@@ -114,7 +119,7 @@ Füllen Sie zuerst die erforderlichen Felder im Abschnitt [!UICONTROL Basic Info
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie ein Look-alike-Modell für Erstanbieter erstellen, sodass Sie mehr eigene Besucher finden können, die wie Ihre Konverter aussehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/328071?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

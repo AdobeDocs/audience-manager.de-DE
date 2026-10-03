@@ -8,23 +8,28 @@ title: Beta-Umgebung
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: Reference
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-TQID: https://experienceleague.adobe.com/zz0F-QZ2QIVdVkGO5T9LoX4R8T12ivdz-pQ3Iv-DLao
+TQID: 'https://experienceleague.adobe.com/zz0F-QZ2QIVdVkGO5T9LoX4R8T12ivdz-pQ3Iv-DLao'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: '378'
 ht-degree: 2%
-
 ---
-
 # Beta-Umgebung {#beta-environment}
 
 Die Beta-Umgebung dient zum Testen Ihrer Audience Manager-Implementierung. In der Beta-Version vorgenommene Änderungen wirken sich nicht auf die Produktionsdaten aus. Wenden Sie sich an den Audience Manager Partner Solutions-Support, wenn Sie die Beta-Umgebung verwenden möchten.
@@ -39,7 +44,7 @@ Die Beta-Umgebung wird am Ende jedes Monats außerhalb der Spitzenzeiten aktuali
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass Ihre Kundendaten [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=de) nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert werden.
+>Beachten Sie, dass Ihre Kundendaten [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en) nicht zwischen der Produktions- und der Beta-Umgebung synchronisiert werden.
 
 ## Inbound-Traffic
 
@@ -64,7 +69,7 @@ Ausgehender Traffic ist für die Beta-Umgebung nicht aktiviert.
 
 ## Zugreifen auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
-1. Führen Sie einen DCS-Aufruf mit dem curl-[&#x200B; aus](https://curl.haxx.se/docs/manpage.html). cURL ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
+1. Führen Sie einen DCS-Aufruf mit dem curl-[ aus](https://curl.haxx.se/docs/manpage.html). cURL ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
 
    Beispiel:
 
