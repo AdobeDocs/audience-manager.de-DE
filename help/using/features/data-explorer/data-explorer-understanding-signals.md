@@ -6,20 +6,26 @@ title: Grundlegendes zu Signalen
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
 exl-id: 12ab53e5-302b-4a82-9d8e-07b60139c65e
-TQID: https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo
+TQID: 'https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '379'
 ht-degree: 1%
-
 ---
-
 # Grundlegendes zu Signalen
 
 Die Signale sind die kleinste Informationseinheit innerhalb von Audience Manager. Sie stellen Benutzerinteraktionen oder Benutzeraktivitäten in Ihren Online-Eigenschaften dar und werden an Audience Manager übergeben, damit sie in Eigenschaftsregeln verwendet werden können.
@@ -32,14 +38,14 @@ Das [Signale-Dashboard](../../features/data-explorer/data-explorer-signals-dashb
 
 * *Schlüssel-Wert-*: zeigt das Schlüssel-Wert-Paar des von [!DNL Audience Manager] empfangenen Signals.
 * *Signaltyp* beschreibt die Kategorie jedes Signals. Signale fallen in eine der folgenden Kategorien:
-   * [Verwertbare Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md): Echtzeitsignale, die von Ihren Protokolldateien für die Medienleistung empfangen werden;
-   * [!DNL Adobe Analytics]: Echtzeit-Signale von Ihrem [!DNL Adobe Analytics]-Konto;
-   * Allgemeine Online-Daten: von Ihrer Audience-Aktivität generierte Echtzeitdaten, die nicht in verwertbaren Protokolldateien und [!DNL Adobe Analytics] enthalten sind;
-   * Onboarding-Datensätze: Daten, die durch Batch-Datenübertragungen empfangen werden.
+  * [Verwertbare Protokolldateien](/help/using/integration/media-data-integration/actionable-log-files.md): Echtzeitsignale, die von Ihren Protokolldateien für die Medienleistung empfangen werden;
+  * [!DNL Adobe Analytics]: Echtzeit-Signale von Ihrem [!DNL Adobe Analytics]-Konto;
+  * Allgemeine Online-Daten: von Ihrer Audience-Aktivität generierte Echtzeitdaten, die nicht in verwertbaren Protokolldateien und [!DNL Adobe Analytics] enthalten sind;
+  * Onboarding-Datensätze: Daten, die durch Batch-Datenübertragungen empfangen werden.
 * *Signal Source* hängt vom Signaltyp ab:
-   * Bei eingebauten Signalen ist die Signalquelle der Name der Datenquelle.
-   * Bei Signalen, die von [!DNL Adobe Analytics] stammen, ist die Datenquelle immer eine Report Suite.
-   * Für verwertbare Protokolldateien und allgemeine Online-Daten werden keine Informationen zu Signalquellen angezeigt.
+  * Bei eingebauten Signalen ist die Signalquelle der Name der Datenquelle.
+  * Bei Signalen, die von [!DNL Adobe Analytics] stammen, ist die Datenquelle immer eine Report Suite.
+  * Für verwertbare Protokolldateien und allgemeine Online-Daten werden keine Informationen zu Signalquellen angezeigt.
 * *Gesamtanzahl* zeigt an, wie oft ein Echtzeitsignal in den letzten sieben Tagen von [!DNL Audience Manager] empfangen wurde.
 * *In Eigenschaften enthalten* zeigt an, ob das Signal Teil einer Eigenschaft ist. Klicken Sie auf den Pfeil, um die Eigenschaften anzuzeigen, die das entsprechende Signal enthalten. Bei Signalen, die nicht Teil eines Merkmals sind, ändert sich der Spaltenwert in [!UICONTROL Create Onboarded Trait] oder [!UICONTROL Create Rule-Based Trait].
 

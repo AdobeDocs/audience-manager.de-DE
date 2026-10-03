@@ -7,22 +7,30 @@ title: Ausgehende Datenübertragungen in Echtzeit
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-TQID: https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ
+TQID: 'https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '695'
 ht-degree: 2%
-
 ---
-
 # Ausgehende Datenübertragungen in Echtzeit {#real-time-outbound-data-transfers}
 
 Der ausgehende Echtzeit-Datenübertragungsprozess stellt Benutzerdaten als eine Reihe [!DNL JSON] formatierten Nachrichten an eine Zielplattform bereit.
@@ -138,7 +146,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
      <li id="li_8352B919A87242E68716FB9EC0443407">Aus einem Segment entfernt, basierend auf der Segmentregel. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Aus einem Segment entfernt, basierend auf dem <a href="../../../features/traits/segment-ttl-explained.md"> Time-to-Live-Intervall </a> Segments. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">In einen inaktiven Status verschoben, wenn sie in den letzten 120 Tagen nicht gesehen wurden. </li>
-     <li>Wegen einer Datenschutzänderungsanfrage (d. h. <span class="keyword"> DSGVO) </span></li>
+     <li>Wegen einer Datenschutzänderungsanfrage entfernt (d. h. <span class="keyword"> DSGVO</span>)</li>
     </ul> <p>Alle Partner-IDs, die mit einer <span class="keyword"> Audience Manager</span> ID synchronisiert werden, erhalten die <code> "Status":"0"</code>-Markierung, wenn eine Benutzerin oder ein Benutzer nicht segmentiert ist. </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -151,7 +159,7 @@ In der folgenden Tabelle werden die Elemente in der [!DNL JSON]-Datendatei defin
 
 ## Sicherheit
 
-Sie können Ihren in Echtzeit ausgehenden Datenübertragungsprozess schützen, indem Sie [HTTP-Anfragen signieren](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) private Schlüssel verwenden oder sich über das [!DNL Audience Manager]OAuth 2.0[-Protokoll authentifizieren &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
+Sie können Ihren in Echtzeit ausgehenden Datenübertragungsprozess schützen, indem Sie [HTTP-Anfragen signieren](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) private Schlüssel verwenden oder sich über das [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)-Protokoll authentifizieren [!DNL Audience Manager].
 
 ## Anfrage
 

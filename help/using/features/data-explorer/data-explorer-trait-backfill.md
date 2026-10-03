@@ -6,22 +6,28 @@ title: Aufstockung von Eigenschaftenrealisierungen
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 feature: Data Explorer
 exl-id: 6be54999-eeeb-48cd-a630-021f17289431
-TQID: https://experienceleague.adobe.com/3FG9qo0X5iIRqnDy6tdWvmOkS5y9j-rJ8jyot9W4iLA
+TQID: 'https://experienceleague.adobe.com/3FG9qo0X5iIRqnDy6tdWvmOkS5y9j-rJ8jyot9W4iLA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # Aufstockung von Eigenschaftenrealisierungen {#backfill-trait-realizations}
 
 Aufstocken von Eigenschaftenrealisierungen, um historische Zielgruppen zu erfassen und den Verlust relevanter Daten vor dem Erstellungsdatum eines Merkmals zu vermeiden.
@@ -44,7 +50,7 @@ Gehen Sie wie folgt vor, um das Erzielen von Eigenschaften aufzustocken:
 
    ![Eigenschaft-Aufstockung](assets/signals-trait-backfill.png)
 
-1. (Optional) Klicken Sie im Abschnitt **[!UICONTROL Estimate Realizations]** auf **[!UICONTROL Estimated Trait Realizations]** , um die geschätzten [!UICONTROL Unique Trait Realizations]- und [!UICONTROL Total Trait Population] für die aufgestockte Eigenschaft in den letzten 7 Tagen anzuzeigen.
+1. (Optional) Klicken Sie im Abschnitt **[!UICONTROL Estimated Trait Realizations]** auf **[!UICONTROL Estimate Realizations]** , um die geschätzten [!UICONTROL Unique Trait Realizations]- und [!UICONTROL Total Trait Population] für die aufgestockte Eigenschaft in den letzten 7 Tagen anzuzeigen.
 
    ![estimated-trait-realizations](assets/estimate-trait-realizations.png)
 

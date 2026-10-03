@@ -7,26 +7,33 @@ title: Bericht zur Segmentleistung
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
-TQID: https://experienceleague.adobe.com/CiPncU0YP2UFJhPi8EbFX-cACBvjldl5FD3YJijOOMc
+TQID: 'https://experienceleague.adobe.com/CiPncU0YP2UFJhPi8EbFX-cACBvjldl5FD3YJijOOMc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # Bericht zur Segmentleistung{#segment-performance-report}
 
 Der [!UICONTROL Segment Performance] vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressions und Konversionsraten. Ein zugeordnetes Segment ist ein Segment, das Sie erstellen und zur Zielgruppenbestimmung an ein Ziel senden. Ein nicht zugeordnetes Segment ist ein Segment, das Sie erstellt, aber noch nicht zur Zielgruppenbestimmung an ein Ziel gesendet haben. Der Vergleich dieser verschiedenen Segmenttypen innerhalb und zwischen Berichten hilft Ihnen, bestehende Kampagnen zu optimieren und übersehene Segmente zu finden, die Sie möglicherweise zur Zielgruppenbestimmung an ein Ziel senden möchten.
 
 ## Lesen der Ergebnisse zugeordneter Segmente {#read-mapped-segment-results}
 
-Der Bericht Zugeordnete [!UICONTROL Segment Performance] zeigt alle Segmente an, die Sie für das Targeting erstellt und an ein Ziel gesendet haben. Die Position Ihrer zugeordneten Segmente in einem Bericht kann Ihnen eine Menge darüber verraten, welche Segmente eine gute Leistung erbringen und wo Sie möglicherweise Anpassungen vornehmen müssen.
+Der Bericht Zugeordnete [!UICONTROL Segment Performance] zeigt alle Segmente an, die Sie erstellt und zur Zielgruppenbestimmung an ein Ziel gesendet haben.Die Position Ihrer zugeordneten Segmente in einem Bericht kann Ihnen Aufschluss darüber geben, welche Segmente eine gute Leistung erzielen und wo Sie möglicherweise Anpassungen vornehmen müssen.
 
 Um den Bericht zu lesen, hilft es, die Ergebnisse in 4 Abschnitte mit imaginären Linien (in rot) und den im folgenden Beispielbericht angezeigten Kategorien zu unterteilen.
 

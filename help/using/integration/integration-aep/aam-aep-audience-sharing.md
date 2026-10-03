@@ -5,39 +5,55 @@ title: Segmentfreigabe von Experience Platform mit Audience Manager und anderen 
 keywords: AEP-Zielgruppenfreigabe, AEP-Segmente, Platform-Segmente, Segmentfreigabe, Zielgruppenfreigabe, Segmentfreigabe in AAM AEP
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-TQID: https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8
+TQID: 'https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
+  - id: b1393389-a768-49db-9323-b2ef9e441796
+    internal-label: Experience Platform integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Customer profiles
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1799
-ht-degree: 1%
-
+source-wordcount: '2014'
+ht-degree: 2%
 ---
-
 # Segmentfreigabe von Experience Platform mit Audience Manager und anderen Experience Cloud-Lösungen
 
 ## Überblick {#overview}
 
 Mit der Funktion zur Freigabe von Audiences zwischen Audience Manager und Adobe Experience Platform können Sie Ihre Audience Manager-Eigenschaften und -Segmente für Adobe Experience Platform und Experience Platform für Audience Manager freigeben.
 
-Sie benötigen das [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de) und das [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=de)-Ziel in Experience Platform, um die Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
+Sie benötigen das [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de) und das Ziel [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=de) in Experience Platform, um die Freigabe von Zielgruppen zwischen Audience Manager und Adobe Experience Platform zu aktivieren.
 
 Sie können Audience Manager-Eigenschaften und -Segmente in Experience Platform verwenden, um Ihren Kundenprofilen Audience Manager-Daten hinzuzufügen und vom Experience Platform-Segmentierungs[Service zu &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
@@ -52,7 +68,7 @@ Darüber hinaus werden Ihre Experience Platform-Segmente über [Core Services“
 >[!IMPORTANT]
 >
 > * Sie benötigen eine Audience Manager-Lizenz, um die oben genannten Anwendungsfälle der Data Management-Plattform zu aktivieren.
-> * Sie *keine Audience Manager* Lizenz benötigen, um Experience Platform-Segmente über die Integration der zentralen Services mit Adobe Advertising Cloud, Adobe Target, Marketo und anderen Experience Cloud-Lösungen zu teilen.
+> * Sie *keine Audience Manager* Lizenz benötigen, um Experience Platform-Segmente über die Integration der zentralen Services mit Adobe Advertising Cloud, Adobe Target, Marketo und anderen Experience Cloud-Lösungen freizugeben.
 
 In der folgenden Tabelle finden Sie einen Überblick über Anwendungsfälle für die Freigabe von Zielgruppen:
 
@@ -83,7 +99,7 @@ Um Segmente und Merkmale von Audience Manager an Experience Platform zu senden, 
 
 Nachdem Sie den Audience Manager-Quell-Connector zum Importieren von Eigenschaften und Segmenten aus Audience Manager eingerichtet haben, werden Ihre Audience Manager-Daten in Experience Platform **Zielgruppen** im Segment-Workflow angezeigt. Weitere Informationen zu Ihren Audience Manager-Segmenten und -Eigenschaften in Experience Platform finden Sie unter:
 
-* [Segmentierungs-Service - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#audiences)
+* [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#audiences)
 * [Benutzerhandbuch zu Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#audiences)
 
 ## Adobe Experience Platform-Segmente in Audience Manager {#aep-segments-in-aam}
@@ -94,7 +110,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie die Datenfreigabe von Exp
 
 >[!IMPORTANT]
 >
-> In diesem Abschnitt wird die veraltete Segmentfreigabeintegration von Experience Platform in Audience Manager beschrieben. Sie können diese Integration jetzt ohne Unterstützung der Adobe-Kundenbetreuer einrichten. Weitere Informationen finden Sie in der Zieldokumentation zu &lbrace;0[&#x200B; Experience Cloud Audiences.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=de)
+> In diesem Abschnitt wird die veraltete Segmentfreigabeintegration von Experience Platform in Audience Manager beschrieben. Sie können diese Integration jetzt ohne Unterstützung der Adobe-Kundenbetreuer einrichten. Weitere Informationen finden Sie in der Zieldokumentation [Experience Cloud-](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=de)).
 
 >[!NOTE]
 >

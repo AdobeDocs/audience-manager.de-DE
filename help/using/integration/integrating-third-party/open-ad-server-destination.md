@@ -7,25 +7,34 @@ title: OAS als Audience Manager-Ziel
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 feature: Third-party Integration
 exl-id: cf919c27-691f-424b-be83-040f03e34455
-TQID: https://experienceleague.adobe.com/ObecxWx-zHr7wi9wAVcWjmhAol0L1XbXKUcH-tFlvUU
+TQID: 'https://experienceleague.adobe.com/ObecxWx-zHr7wi9wAVcWjmhAol0L1XbXKUcH-tFlvUU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 640
-ht-degree: 0%
-
+source-wordcount: '647'
+ht-degree: 1%
 ---
-
 # OAS als Audience Manager-Ziel {#oas-as-an-audience-manager-destination}
 
 Richten Sie [!DNL Open Ad Server] als Ziel ein und senden Sie Audience Manager-Daten an diese Plattform.
@@ -66,7 +75,7 @@ Erstellen Sie ein Cookie-basiertes Ziel für [!DNL OAS] in Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-In Audience Manager ist *Ziel* jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk usw.), für das Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager-Zielfunktionen befinden sich unter *Zielgruppendaten > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und führen Sie die folgenden Schritte aus.
+In Audience Manager ist *Ziel* jedes andere System (Werbeserver, [!DNL DSP], Werbenetzwerk usw.) , für die Sie Daten freigeben möchten. [!UICONTROL Destination Builder] stellt die Tools bereit, mit denen Sie diese Datenbereitstellungsprozesse erstellen und verwalten können. Audience Manager-Zielfunktionen befinden sich unter *Zielgruppendaten > Ziele*. Um zu beginnen, klicken Sie auf **[!UICONTROL Add New Destination]** und führen Sie die folgenden Schritte aus.
 
 ### Schritt 1: Grundlegende Informationen
 

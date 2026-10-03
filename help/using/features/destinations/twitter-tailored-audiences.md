@@ -6,24 +6,30 @@ solution: Audience Manager
 title: Konfigurieren von benutzerdefinierten Twitter-Zielgruppen als gerätebasiertes Self-Service-Ziel
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-TQID: https://experienceleague.adobe.com/3qEBhzjr6meP0xEUECLT-JMlw9kWizujExCMIg23MJY
+TQID: 'https://experienceleague.adobe.com/3qEBhzjr6meP0xEUECLT-JMlw9kWizujExCMIg23MJY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '717'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren von [!DNL Twitter Custom Audiences] als gerätebasiertes Self-Service-Ziel {#configure-twitter}
 
 In diesem Artikel wird erläutert, wie Sie eine Integration mit [Twitter Custom Audiences“ &#x200B;](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
@@ -40,7 +46,7 @@ Bevor Sie Ihr [!DNL Twitter Custom Audiences]-Ziel konfigurieren, stellen Sie si
 
 In diesem Abschnitt werden die Schritte beschrieben, die Sie beim Konfigurieren eines neuen gerätebasierten Ziels für [!DNL Twitter Custom Audiences] ausführen müssen. Bei diesem Szenario wird davon ausgegangen, dass Sie kein vorhandenes [!DNL Twitter Custom Audiences] über Ihren Adobe-Berater oder die Kundenunterstützung konfiguriert haben.
 
-### Schritt 1: Mit [!DNL Twitter Custom Audiences] authentifizieren {#step1-authenticate-with-twitter}
+### Schritt 1. Mit [!DNL Twitter Custom Audiences] authentifizieren {#step1-authenticate-with-twitter}
 
 Bevor Sie das gerätebasierte Ziel hinzufügen können, müssen Sie Audience Manager und Ihr [!DNL Twitter Custom Audiences]-Konto verknüpfen. Gehen Sie wie folgt vor:
 

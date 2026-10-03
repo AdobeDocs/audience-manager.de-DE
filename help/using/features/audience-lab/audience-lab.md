@@ -7,23 +7,30 @@ title: Audience Lab
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
-TQID: https://experienceleague.adobe.com/jQ6ZtphEuAY-bL5A6rnH79ORuu80ioClEy7W-nXkbNg
+TQID: 'https://experienceleague.adobe.com/jQ6ZtphEuAY-bL5A6rnH79ORuu80ioClEy7W-nXkbNg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '550'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL Audience Lab] {#audience-lab}
 
 Erstellen Sie sich gegenseitig ausschließende Testsegmente, [!UICONTROL Segment Test Groups] die Effektivität verschiedener Ziele zu vergleichen und zu messen. Sie können eine Kontrollgruppe zur Seite legen und Ihr Segment in Prozentsätze eines Ganzen aufteilen, um die Wirksamkeit zu testen.
@@ -66,7 +73,7 @@ Der Status einer Testgruppe kann aktiv, geplant, angehalten, Entwurf oder abgesc
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Aktive <b><span class="uicontrol"> </span></b> </p> </td> 
+   <td colname="col1"> <p> Aktive </span></b> <b><span class="uicontrol"> </p> </td> 
    <td colname="col2"> <p>Eine <i>aktive</i> Testgruppe bedeutet, dass derzeit Daten an Ziele gesendet werden. Drücken Sie <b><span class="uicontrol"> Pause Test </span></b> auf der Karte <b><span class="uicontrol"> Test Group </span></b> , um das Senden von Daten an Ziele auszusetzen. </p> </td> 
   </tr> 
   <tr> 
@@ -75,15 +82,15 @@ Der Status einer Testgruppe kann aktiv, geplant, angehalten, Entwurf oder abgesc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> angehalten </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>angehaltene</i> Testgruppe sendet derzeit keine Daten an Ziele. Drücken Sie <b><span class="uicontrol"> Auf der Karte </span></b> Testgruppe <b><span class="uicontrol"> die Option Aktive </span></b> festlegen , um den Versand der Eigenschaften fortzusetzen. </p> </td> 
+   <td colname="col2"> <p>Eine <i>angehaltene</i> Testgruppe sendet derzeit keine Daten an Ziele. Drücken Sie <b><span class="uicontrol"> Auf der Karte <b><span class="uicontrol"> Testgruppe </span></b> die Option Aktive </span></b> festlegen , um den Versand der Eigenschaften fortzusetzen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> </span></b> </p> </td> 
+   <td colname="col1"> <p> </span></b> <b><span class="uicontrol"> </p> </td> 
    <td colname="col2"> <p>Eine <i>Entwurf</i> Testgruppe ist noch nicht aktiv und kann noch bearbeitet werden. Es sendet noch keine Daten an die zugeordneten Ziele. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> abgeschlossen </span></b> </p> </td> 
-   <td colname="col2"> <p>Eine <i>abgeschlossene</i> Testgruppe hat das Enddatum erreicht, das Sie im <b><span class="uicontrol"> "</span></b> Testgruppen erstellen“ ausgewählt haben, und hat den Versand von Berichtsdaten beendet. </p> </td>
+   <td colname="col2"> <p>Eine <i>abgeschlossene</i> Testgruppe hat das Enddatum erreicht, das Sie im </span></b> "<b><span class="uicontrol"> Testgruppen erstellen“ ausgewählt haben, und hat den Versand von Berichtsdaten beendet. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -119,7 +126,7 @@ Der Status einer Testgruppe kann aktiv, geplant, angehalten, Entwurf oder abgesc
    <td colname="col2"> <p>Ermöglicht die Erstellung einer neuen Testgruppe mit derselben Konfiguration wie die zu duplizierende. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> </span></b> </p> </td>
+   <td colname="col1"> <p> </span></b> <b><span class="uicontrol"> </p> </td>
    <td colname="col2"> <p>Ermöglicht das Löschen einer Testgruppe. Die Zuordnung der Testsegmente zu den Zielen wird aufgehoben, und das Baseline-Segment sowie die mit der Testgruppe verknüpften Konversionseigenschaften sind vollständig bearbeitbar. Ein Warnhinweis fordert Sie dazu auf, die CSV-Datei herunterzuladen, wenn Sie eine Testgruppe löschen, um die Berichte bei Bedarf zu speichern. </p> </td>
   </tr>
  </tbody>

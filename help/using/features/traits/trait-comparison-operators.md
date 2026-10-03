@@ -7,16 +7,21 @@ title: Arbeiten mit Vergleichsoperatoren in Trait Builder
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
-TQID: https://experienceleague.adobe.com/Mbrgy2gmtUB5wrjmxIYjFaYOxbnrvh3bMKbkJ4zrM4o
+TQID: 'https://experienceleague.adobe.com/Mbrgy2gmtUB5wrjmxIYjFaYOxbnrvh3bMKbkJ4zrM4o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 339
+source-wordcount: '346'
 ht-degree: 6%
-
 ---
-
 # Arbeiten mit Vergleichsoperatoren in Trait Builder {#working-with-comparison-operators-in-trait-builder}
 
 In diesem Artikel werden die von [!UICONTROL Trait Builder] verwendeten Vergleichsoperatoren beschrieben.
@@ -40,7 +45,7 @@ Sie können Regeln mit den folgenden Vergleichsoperatoren erstellen:
 | **==** | Gleich |
 | **!=** | Ungleich |
 | **>** | Größer als |
-| **&#x200B;**&#x200B;| Kleiner als |
+| **&lt;** | Kleiner als |
 | **=>** | Größer als/gleich |
 | **&lt;=** | Kleiner/gleich |
 

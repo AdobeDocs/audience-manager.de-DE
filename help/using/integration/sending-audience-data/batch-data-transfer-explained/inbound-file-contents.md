@@ -5,21 +5,28 @@ title: Inhalte eingehender Datendateien - Syntax, ungültige Zeichen, Variablen 
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
-TQID: https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA
+TQID: 'https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: '1228'
 ht-degree: 3%
-
 ---
-
 # Inhalte eingehender Datendateien: Syntax, ungültige Zeichen, Variablen und Beispiele {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Erforderliche Felder, Syntax und Regeln, die Sie beim Formatieren einer eingehenden Eigenschaftsdatendatei befolgen sollten.
@@ -78,7 +85,7 @@ In der folgenden Tabelle werden die Variablen aufgelistet und definiert, die in 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>Die <span class="keyword"> Audience Manager-</span>-ID. Wir bitten Sie<i> (nur Onboarding-Eigenschaften</i> in eingehende Datendateien einzubeziehen. Andere Eigenschaftstypen werden bei der eingehenden Datenübertragung nicht verarbeitet. </p> <p> <p>Hinweis: Die Eigenschafts-ID kann mithilfe der GET-Methode gefunden werden, die Details zu allen Ihren Eigenschaften zurückgibt. Weitere Informationen finden Sie unter <a href="../../../api/rest-api-main/api-traits.md"> für </a>-Trait-API-Methoden . </p> </p> </td> 
+   <td colname="col2"> <p>Die <span class="keyword"> Audience Manager-</span>-ID. Wir bitten Sie<i> (nur Onboarding-Eigenschaften</i> in eingehende Datendateien einzubeziehen. Andere Eigenschaftstypen werden bei der eingehenden Datenübertragung nicht verarbeitet. </p> <p> <p>Hinweis: Die Eigenschafts-ID kann mithilfe der GET-Methode gefunden werden, die Details zu allen Ihren Eigenschaften zurückgibt. Weitere Informationen finden Sie unter </a> für <a href="../../../api/rest-api-main/api-traits.md">-Trait-API-Methoden . </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,11 +104,11 @@ Die folgende Tabelle beschreibt die Präfixe zur Identifizierung von [!UICONTROL
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Das <code> d_sid </code> Präfix teilt unserem System mit, dass die ID eine <span class="keyword"> Audience Manager </span>-Eigenschafts-ID ist. Hierbei handelt es sich um dieselbe ID, die auch auf der Benutzeroberfläche angezeigt wird. Sie können mit der API-<code> GET </code>-Methode auch Eigenschafts-IDs zurückgeben. Siehe <a href="../../../api/rest-api-main/api-traits.md"> </a> API-Methoden für Eigenschaften . </p> </td>
+   <td colname="col2"> <p>Das <code> d_sid </code> Präfix teilt unserem System mit, dass die ID eine <span class="keyword"> Audience Manager </span>-Eigenschafts-ID ist. Hierbei handelt es sich um dieselbe ID, die auch auf der Benutzeroberfläche angezeigt wird. Sie können mit der API-<code> GET </code>-Methode auch Eigenschafts-IDs zurückgeben. Siehe </a> <a href="../../../api/rest-api-main/api-traits.md"> API-Methoden für Eigenschaften . </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Daten mit dem Präfix <code> d_unsid </code> entfernen Benutzer aus dieser Eigenschaft. Das <code> d_unsid </code> wird in einer <code> overwrite </code>-Datei ignoriert. </p> <p>Das <code> d_unsid= </code> Präfix teilt unserem System mit, dass die ID eine <span class="keyword"> Audience Manager </span>-Eigenschafts-ID ist. Hierbei handelt es sich um dieselbe ID, die auch auf der Benutzeroberfläche angezeigt wird. Sie können mit der API-<code> GET </code>-Methode auch Eigenschafts-IDs zurückgeben. Siehe <a href="../../../api/rest-api-main/api-traits.md"> </a> API-Methoden für Eigenschaften . </p> </td>
+   <td colname="col2"> <p>Daten mit dem Präfix <code> d_unsid </code> entfernen Benutzer aus dieser Eigenschaft. Das <code> d_unsid </code> wird in einer <code> overwrite </code>-Datei ignoriert. </p> <p>Das <code> d_unsid= </code> Präfix teilt unserem System mit, dass die ID eine <span class="keyword"> Audience Manager </span>-Eigenschafts-ID ist. Hierbei handelt es sich um dieselbe ID, die auch auf der Benutzeroberfläche angezeigt wird. Sie können mit der API-<code> GET </code>-Methode auch Eigenschafts-IDs zurückgeben. Siehe </a> <a href="../../../api/rest-api-main/api-traits.md"> API-Methoden für Eigenschaften . </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 

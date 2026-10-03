@@ -7,22 +7,30 @@ title: Digital signierte HTTP(S)-Anfragen
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 exl-id: 55907a25-a361-494a-86b9-c693faea4f0e
-TQID: https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s
+TQID: 'https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Security
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # Digitale `HTTP(S)` {#digitally-signed-http-requests}
 
 Audience Manager erfordert, dass die `HTTP(S)`-Server-zu-Server-Anfragen zur Gültigkeitsdauer digital signiert werden. In diesem Dokument wird beschrieben, wie Sie `HTTP(S)` mit privaten Schlüsseln signieren können.
@@ -94,7 +102,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-Die RFC für die [!DNL HMAC] Hash-Implementierung ist [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Test-Site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die [-Codierung in base64 &#x200B;](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)konvertieren).
+Die RFC für die [!DNL HMAC] Hash-Implementierung ist [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Eine Test-Site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (beachten Sie, dass Sie die [&#128279;](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)-Codierung in base64 konvertieren).
 
 ## Privaten Schlüssel drehen {#rotate-private-key}
 

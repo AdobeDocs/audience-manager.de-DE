@@ -8,16 +8,21 @@ title: Referenz zur Eigenschaftenqualifizierung
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
 exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a
-TQID: https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M
+TQID: 'https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '841'
 ht-degree: 0%
-
 ---
-
 # Referenz zur Trait- und Segmentqualifikation {#trait-qualification-reference}
 
 Die Eigenschaftsqualifizierung oder Eigenschaftsrealisierung wird in Audience Manager je nach Eigenschaftstyp unterschiedlich behandelt. Siehe [Eigenschaftsqualifizierung nach &#x200B;](#trait-type)) für Details zur Eigenschaftstypqualifizierung.
@@ -76,4 +81,4 @@ Um den Punkt weiter nach Hause zu bringen, wenn Sie eine Spitze von 10.000 Besuc
 
 ## Qualifikationsgrenze der Eigenschaft {#trait-qualification-limit}
 
-Wir erzwingen ein Limit von 150.000 Eigenschaftsqualifikationen für jedes Benutzerprofil, unabhängig davon, ob es sich um ein authentifiziertes Profil ([DPUUID](../../reference/ids-in-aam.md)) oder eine Geräte-ID ([UUID](../../reference/ids-in-aam.md)) handelt. Beachten Sie, dass die DPUUIDs zwar für eine bestimmte Instanz von [!DNL Audience Manager] eindeutig sind, UUIDs jedoch für die gesamte [!DNL Audience Manager]-Plattform freigegeben werden. Für [!UICONTROL UUID] schreiben wir eine Fairness-Politik bei der Speicherung von Eigenschaftsqualifikationen vor. Ein Algorithmus stellt sicher, dass für jede Instanz von [!UICONTROL UUID] ein gleicher Anteil des [!DNL Audience Manager] bereitgestellt wird.
+Wir erzwingen ein Limit von 150.000 Eigenschaftsqualifikationen für jedes Benutzerprofil, unabhängig davon, ob es sich um ein authentifiziertes Profil ([DPUUID](../../reference/ids-in-aam.md)) oder eine Geräte-ID ([UUID](../../reference/ids-in-aam.md)) handelt. Beachten Sie, dass die DPUUIDs zwar für eine bestimmte Instanz von [!DNL Audience Manager] eindeutig sind, UUIDs jedoch für die gesamte [!DNL Audience Manager]-Plattform freigegeben werden. Für [!UICONTROL UUID] schreiben wir eine Fairness-Politik bei der Speicherung von Eigenschaftsqualifikationen vor. Ein Algorithmus stellt sicher, dass für jede Instanz von [!DNL Audience Manager] ein gleicher Anteil des [!UICONTROL UUID] bereitgestellt wird.

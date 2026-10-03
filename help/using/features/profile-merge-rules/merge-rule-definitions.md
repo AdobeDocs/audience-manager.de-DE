@@ -7,26 +7,36 @@ title: Optionen für Profilzusammenführungsregeln definiert
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-TQID: https://experienceleague.adobe.com/kfGcdvkr7dmluaAXdLdX4eRvRH15H1Sxd2w4yoPBSzc
+TQID: 'https://experienceleague.adobe.com/kfGcdvkr7dmluaAXdLdX4eRvRH15H1Sxd2w4yoPBSzc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '828'
 ht-degree: 1%
-
 ---
-
 # [!UICONTROL Profile Merge Rules] Optionen definiert {#profile-merge-rule-options-defined}
 
 Mit den [!UICONTROL profile merge rule] Optionen können Sie den Datentyp steuern, den [!DNL Audience Manager] für die Segmentierung verwendet. Ein [!UICONTROL profile merge rule] kann Geräteprofile enthalten, die vom [!UICONTROL Profile Link] Gerätediagramm zugeordnet sind, und/oder andere Drittanbieter von Gerätediagrammen, die mit [!DNL Audience Manager] integriert sind. Sie können maximal 4 [!UICONTROL Profile Merge Rules] erstellen. Die vierte [!UICONTROL Profile Merge Rule] steht nur Kunden zur Verfügung, die das [!UICONTROL People-Based Destinations]-Add-on erworben haben.
@@ -100,7 +110,7 @@ Die [!UICONTROL Cross-Device Profile Options] listet Ihre [!UICONTROL cross-devi
 
 ## [!UICONTROL Device Options] {#device-options}
 
-Mit der [!UICONTROL Device Options] können Sie den von einem *`device profile`* verwendeten [!UICONTROL Profile Merge Rule] auswählen. Ein Geräteprofil wird aus [!UICONTROL traits] erstellt, die aus der anonymen Browser-Aktivität erfasst wurden. Eine [!UICONTROL profile merge rule] umfasst mindestens eine [!UICONTROL authenticated option] und eine [!UICONTROL device option].
+Mit der [!UICONTROL Device Options] können Sie den von einem [!UICONTROL Profile Merge Rule] verwendeten *`device profile`* auswählen. Ein Geräteprofil wird aus [!UICONTROL traits] erstellt, die aus der anonymen Browser-Aktivität erfasst wurden. Eine [!UICONTROL profile merge rule] umfasst mindestens eine [!UICONTROL authenticated option] und eine [!UICONTROL device option].
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -136,7 +146,7 @@ Mit der [!UICONTROL Device Options] können Sie den von einem *`device profile`*
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-Zielgruppensegmente, die automatisch auf der Grundlage von Zusammenführungsregeln, die außerhalb von [!DNL Experience Cloud] definiert wurden, aus anderen [!DNL Audience Manager]-Lösungen erstellt wurden, werden als mit einem [!UICONTROL External Merge Policy] gekennzeichnet. Ein Beispiel finden Sie unter [Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+Zielgruppensegmente, die automatisch auf der Grundlage von Zusammenführungsregeln, die außerhalb von [!DNL Audience Manager] definiert wurden, aus anderen [!DNL Experience Cloud]-Lösungen erstellt wurden, werden als mit einem [!UICONTROL External Merge Policy] gekennzeichnet. Ein Beispiel finden Sie unter [Zielgruppenfreigabe zwischen Audience Manager und Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >

@@ -7,20 +7,26 @@ title: Anwendungsfälle für Diagramme mit externen Geräten
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
-TQID: https://experienceleague.adobe.com/KPKq6THxdku9ebZigLfZKnBO-ziNPjZ9pqNdn6PZ-Es
+TQID: 'https://experienceleague.adobe.com/KPKq6THxdku9ebZigLfZKnBO-ziNPjZ9pqNdn6PZ-Es'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 294
+source-wordcount: '304'
 ht-degree: 4%
-
 ---
-
 # Anwendungsfälle für Diagramme mit externen Geräten {#external-device-graph-use-cases}
 
 Empfehlungen und Anwendungsfälle für die Prospektion, das Retargeting und die Personalisierung für unbekannte Benutzer mit einem externen Gerätediagramm. Ein externes Gerätediagramm wird als Gerätediagramm definiert, das von Audience Manager getrennt ist. Dazu gehören Integrationen, die Adobe mit deterministischen oder probabilistischen Gerätediagramm-Unternehmen von Drittanbietern hat.
@@ -133,7 +139,7 @@ Im folgenden Beispiel möchte das Unternehmen Acme Inc. alle Haushalte mit einem
 
 John verwendet seine iPhone 7 auf Data Plan A, um sich auf der Acme Inc.-Website zu authentifizieren. Gleichzeitig enthält Johns [!DNL Profile Link Device Graph]-Cluster zwei zusätzliche Geräte, die er regelmäßig verwendet: seinen Laptop ([!DNL Device 1]) und sein sekundäres Smartphone [!DNL Device 2] (ein [!DNL Samsung S7] auf [!DNL Data Plan B]).
 
-Durch die Verwendung der **[!UICONTROL Last Authenticated Profiles]** **[!UICONTROL Profile Link Device Graph]** + kann [!DNL Acme Inc.] personalisierte Nachrichten an alle drei Geräte aus dem Gerätediagramm-Cluster von John senden, obwohl zunächst nur eines von ihnen für das Segment qualifiziert ist.
+Durch die Verwendung der **[!UICONTROL Profile Link Device Graph]** **[!UICONTROL Last Authenticated Profiles]** + kann [!DNL Acme Inc.] personalisierte Nachrichten an alle drei Geräte aus dem Gerätediagramm-Cluster von John senden, obwohl zunächst nur eines von ihnen für das Segment qualifiziert ist.
 
 ![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 

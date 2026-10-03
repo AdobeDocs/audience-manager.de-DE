@@ -8,26 +8,36 @@ title: Ordnereigenschaften Info
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
-TQID: https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA
+TQID: 'https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 533
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # Ordnereigenschaften: Info {#folder-traits-about}
 
 [!UICONTROL Folder traits] können Sie automatisch Eigenschaften, die sich im selben Ordner und allen untergeordneten Ordnern befinden, in einem Zielgruppensegment aggregieren.
@@ -71,7 +81,7 @@ Für Unternehmen, die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]
 * `READ` und `WRITE` von Gruppenberechtigungen für eine Datenquelle für Eigenschaften.
 * `VIEW_ALL_TRAITS` und `EDIT_ALL_TRAITS` von Platzhalterberechtigungen für Datenquellen von Eigenschaften.
 
-Erfahren Sie in unserer [!UICONTROL RBAC]Administrationsdokumentation), wie Sie [&#x200B; Berechtigungen &#x200B;](../../features/administration/administration-overview.md#create-group).
+Erfahren Sie in unserer [Administrationsdokumentation), wie Sie [!UICONTROL RBAC] Berechtigungen &#x200B;](../../features/administration/administration-overview.md#create-group).
 
 ## Beschränkungen und andere Überlegungen {#limits}
 
@@ -80,4 +90,4 @@ Erfahren Sie in unserer [!UICONTROL RBAC]Administrationsdokumentation), wie Sie 
 | Eigenschaftstyp | [!UICONTROL Onboarded traits] und [!UICONTROL algorithmic traits] tragen höchstens 1 Realisierung zur Häufigkeit eines [!UICONTROL folder trait] bei. |
 | Verschieben von Eigenschaften zwischen Ordnern | Wenn Sie eine Eigenschaft von einem Ordner in einen anderen verschieben, wird diese Eigenschaft aus dem ersten Ordner-Merkmal ausgeschlossen und für das zweite [!UICONTROL folder trait] qualifiziert. Wenn Sie also eine Eigenschaft aus dem Ordner löschen oder verschieben, wird die Segmentierung der Benutzenden in der Population der Eigenschaft aus den Segmenten mithilfe der Ordnereigenschaft als Segmentausdruck aufgehoben. <br> Beim Zuordnen von Adobe Analytics-Segmenten oder Report Suites zu Ihrer Experience Cloud-Organisation erstellt Audience Manager automatisch neue, entsprechende schreibgeschützte Segmente und Eigenschaften. Sie können den Speicherort dieser Eigenschaften in Audience Manager nicht bearbeiten oder ändern. Alle Änderungen, die Sie an Ihren zugeordneten Adobe Analytics-Segmenten oder Report Suites vornehmen, werden jedoch in Audience Manager übernommen. |
 | Systemvariablen | [!UICONTROL Folder traits] können nicht in Ereignisaufrufen realisiert werden, die den `d_sid`-Parameter verwenden. |
-| Berichterstellung   | [!UICONTROL Folder traits] sind automatisch berechnete Eigenschaften und werden nicht in **[!UICONTROL Overlap Reports]** angezeigt. |
+| Berichterstellung | [!UICONTROL Folder traits] sind automatisch berechnete Eigenschaften und werden nicht in **[!UICONTROL Overlap Reports]** angezeigt. |

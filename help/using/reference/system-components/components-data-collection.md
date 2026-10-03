@@ -7,31 +7,46 @@ title: Datenerfassungskomponenten
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: System Components
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
-TQID: https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ
+TQID: 'https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
   - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
   - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+    internal-label: ID syncs
+  - id: f518b7e7-52a7-4298-a970-88c25c36ab31
+    internal-label: System components
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 736
-ht-degree: 3%
-
+source-wordcount: '770'
+ht-degree: 5%
 ---
-
 # Datenerfassungskomponenten{#data-collection-components}
 
 Zu den Datenerfassungskomponenten gehören die Datenerfassungsserver, die DIL-API, eingehende Server-zu-Server-Datenübertragungen und Protokolldateien.
@@ -79,7 +94,7 @@ Als Kunde interagieren Sie über unseren Datenerfassungscode indirekt mit dem [!
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-Das [!UICONTROL PCS] ist eine große Datenbank (im Grunde ein riesiges Server-seitiges Cookie). Sie speichert Daten, die für aktive Benutzer von Server-zu-Server-Übertragungen und den [!DNL DCS] empfangen wurden. [!UICONTROL PCS] Daten bestehen aus Geräte-IDs, authentifizierten Profil-IDs und den zugehörigen Eigenschaften. Wenn der [!DNL DCS] einen Echtzeitaufruf erhält, prüft er die [!UICONTROL PCS] auf andere Eigenschaften, zu denen ein Benutzer gehören oder für die er qualifiziert ist. Wenn eine Eigenschaft zu einem späteren Zeitpunkt zu einem Segment hinzugefügt wird, werden diese Eigenschaften-IDs dem [!UICONTROL PCS] hinzugefügt, und Benutzende können sich automatisch ohne Besuch einer bestimmten Site oder App für dieses Segment qualifizieren. Die [!UICONTROL PCS] hilft, das Verständnis Ihrer Benutzer durch [!DNL Audience Manager] zu vertiefen, da sie Benutzer in Echtzeit oder hinter den Kulissen mit neuen und historischen Eigenschaftsdaten abgleichen und segmentieren kann. Durch dieses Verhalten erhalten Sie ein vollständigeres und genaueres Bild Ihrer Benutzer als durch Echtzeitqualifikationen.
+Das [!UICONTROL PCS] ist eine große Datenbank (im Grunde ein riesiges Server-seitiges Cookie). Sie speichert Daten, die für aktive Benutzer von Server-zu-Server-Übertragungen und den [!DNL DCS] empfangen wurden. [!UICONTROL PCS]-Daten bestehen aus Geräte-IDs, authentifizierten Profil-IDs und den zugehörigen Eigenschaften. Wenn der [!DNL DCS] einen Echtzeitaufruf erhält, prüft er die [!UICONTROL PCS] auf andere Eigenschaften, zu denen ein Benutzer gehören oder für die er qualifiziert ist. Wenn eine Eigenschaft zu einem späteren Zeitpunkt zu einem Segment hinzugefügt wird, werden diese Eigenschaften-IDs dem [!UICONTROL PCS] hinzugefügt, und Benutzende können sich automatisch ohne Besuch einer bestimmten Site oder App für dieses Segment qualifizieren. Die [!UICONTROL PCS] hilft, das Verständnis Ihrer Benutzer durch [!DNL Audience Manager] zu vertiefen, da sie Benutzer in Echtzeit oder hinter den Kulissen mit neuen und historischen Eigenschaftsdaten abgleichen und segmentieren kann. Durch dieses Verhalten erhalten Sie ein vollständigeres und genaueres Bild Ihrer Benutzer als durch Echtzeitqualifikationen.
 
 Es gibt keine UI-Steuerelemente, mit denen unsere Kunden direkt mit dem [!UICONTROL PCS] arbeiten können. Der Kundenzugriff auf den [!UICONTROL PCS] erfolgt indirekt über seine Rolle als Datenspeicher und Datenübertragungen. Die [!UICONTROL PCS] läuft auf Apache Cassandra.
 
@@ -104,7 +119,7 @@ Diese Server-Systeme behandeln Datenschutz- und Benutzer-Opt-out-Anfragen. Benut
 
 ## Data Integration Library (DIL) {#dil}
 
-[!UICONTROL DIL] ist der Code, den Sie zur Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Services und [&#x200B; finden Sie in der &#x200B;](../../dil/dil-overview.md)DIL-API.
+[!UICONTROL DIL] ist der Code, den Sie zur Datenerfassung auf der Seite platzieren. Weitere Informationen zu verfügbaren Services und [&#128279;](../../dil/dil-overview.md) finden Sie in der DIL-API.
 
 ## Eingehender Server-zu-Server {#inbound-outbound-server}
 

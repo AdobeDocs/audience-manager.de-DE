@@ -7,21 +7,28 @@ title: Datenexportkontrolle
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-TQID: https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM
+TQID: 'https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: '889'
 ht-degree: 1%
-
 ---
-
 # Datenexportkontrolle {#data-export-controls}
 
 [!UICONTROL Data Export Controls] verhindern, dass Sie Daten an Ziele senden, wenn diese Aktion gegen Datenschutz- oder Datennutzungsvereinbarungen verstößt.
@@ -38,10 +45,10 @@ Auf Grundlage der auf eine Datenquelle und ein Ziel angewendeten Klassifizierung
 * Hinzufügen einer Eigenschaft zu einem Segment, wenn die Eigenschaft zu einer Datenquelle gehört, die über ein Datenexportsteuerelement verfügt, das mit einer Datenexportbezeichnung für eines oder mehrere der Ziele, denen das Segment zugeordnet ist, nicht kompatibel ist.
 Angenommen, ein Segment wird einem Ziel mit der Exportbezeichnung **[!DNL This destination may enable a combination with personally identifiable information (PII)]** zugeordnet. Exportsteuerelemente verhindern das Hinzufügen einer Eigenschaft zu diesem Segment, wenn die Datenquelle, zu der die Eigenschaft gehört, über ein Datenexportsteuerelement verfügt, das **[!DNL Cannot be tied to personally identifiable information (PII)]** lautet.
 * Senden von Daten an ein Ziel mit einer Datenexportkennzeichnung, die durch ein Datenexportsteuerelement in einem der folgenden Elemente blockiert wird:
-   * Datenquelle eines eingeschlossenen Merkmals;
-   * Die Datenquelle eines Merkmals, das in einem eingeschlossenen Segment verwendet wird;
-   * Die Profilzusammenführungsregel, die von einem eingeschlossenen Segment genutzt wird;
-   * Jede der Datenquellen, die die Profilzusammenführungsregel eines Segments verwendet.
+  * Datenquelle eines eingeschlossenen Merkmals;
+  * Die Datenquelle eines Merkmals, das in einem eingeschlossenen Segment verwendet wird;
+  * Die Profilzusammenführungsregel, die von einem eingeschlossenen Segment genutzt wird;
+  * Jede der Datenquellen, die die Profilzusammenführungsregel eines Segments verwendet.
 
 [!UICONTROL Data Export Controls] sind automatisch für alle Audience Manager-Kunden verfügbar. Sie benötigen jedoch Administratorberechtigungen, um Exportsteuerelemente zu einer Datenquelle hinzuzufügen. Das Hinzufügen von Exportkennzeichnungen zu einem Ziel erfordert Administratorberechtigungen *oder* um ein Ziel zu erstellen oder zu bearbeiten.
 

@@ -6,19 +6,26 @@ keywords: Aktivierung; Aktivierungspartner, Ziel, Ziele
 solution: Audience Manager
 title: Adobe Audience Manager Technologiepartner
 feature: Third-party Integration
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 43%
-
+source-wordcount: '1440'
+ht-degree: 68%
 ---
-
 
 # Audience Manager-Aktivierungspartner
 
 Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server](/help/using/features/destinations/add-edit-segments.md)Integrationen.  Weitere Informationen zu einer Integration finden Sie in der [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)-Liste (sofern verfügbar) oder wenden Sie sich an Ihren Adobe-Berater oder die Kundenunterstützung.
 
-<br>
+<br> 
 
 * **Aktualisiert** = Zeigt das letzte Datum an, an dem eine Aktualisierung für diesen Aktivierungspartner stattgefunden hat.
 * **Unsegment** = Unsegmentierung beschreibt Prozesse, die Geräteprofile disqualifizieren und aus Segmenten entfernen. Welche Möglichkeit Sie haben, ein Geräteprofil aus einem Segment zu entfernen, hängt von der Geräteoption ab, die zum Erstellen einer Profilzusammenführungsregel verwendet wird. Die Nicht-Segmentierung wird auch im Zusammenhang mit DSGVO-Löschanfragen verwendet ([Profilzusammenführungsregeln und Geräte-](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)) und [Audience Manager Partners mit Funktionen zur Nicht-Segmentierung](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager sendet Informationen zum Aufheben der Segmentierung an die Ziele, die unten mit „Ja“ markiert sind.
@@ -26,7 +33,7 @@ Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server](/help/usin
 * **ICDS** = In dieser Spalte werden die Partner aufgelistet, die die sofortige geräteübergreifende Unterdrückung unterstützen. Lesen Sie [Sofortige geräteübergreifende Unterdrückung](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **IDs von Mobilgeräten** Diese Spalte listet Partner auf, die IDs von Mobilgeräten von Audience Manager empfangen können.
 
-<br>
+<br> 
 
 | Integration | Aktualisierung von | Segment aufheben | Empfangen von IAB TCF-Einverständnissignalen | ICDS | Mobilgeräte-IDs |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
@@ -59,7 +66,7 @@ Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server](/help/usin
 | Celtra | 27/02/2017 | Ja | Nein | Nein | Ja |
 | Zentrale | 27/02/2017 | Nein | Nein | Nein | Ja |
 | Auswahl-Stream | 27/02/2017 | Nein | Nein | Nein | Nein |
-| Clearstream.tv | 27/02/2017 | Ja | Nein | Nein | Nein |
+| In: clearstream.tv | 27/02/2017 | Ja | Nein | Nein | Nein |
 | Kollektive AMP-Plattform | 27/02/2017 | Nein | Nein | Nein | Nein |
 | Criteo | 27/02/2017 | Nein | Ja | Nein | Ja |
 | kreuzweise | 27/02/2017 | Ja | Nein | Nein | Nein |
@@ -93,7 +100,7 @@ Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server](/help/usin
 | Jivox | 30/08/2017 | Nein | Nein | Nein | Nein |
 | Juice Mobile | 03/03/2017 | Ja | Nein | Nein | Ja |
 | Krux | 30/06/2017 | Nein | Nein | Nein | Ja |
-| Liftoff.io | 09/11/2017 | Ja | Nein | Nein | Ja |
+| liftoff.io | 09/11/2017 | Ja | Nein | Nein | Ja |
 | LiveIntent | 17/07/2017 | Ja | Nein | Nein | Nein |
 | LiveRail | 20/01/2017 |           | Nein | Nein |                   |
 | Logikkarte | 22/06/2017 | Nein | Nein | Nein | Nein |
@@ -131,7 +138,7 @@ Diese Seite enthält nur aktuelle Audience Manager [Server-zu-Server](/help/usin
 | Rubikon |            | Ja | Ja | Nein |                   |
 | DURCHLAUF | 17/02/2017 | Ja | Nein | Nein | Nein |
 | Sabio Mobile | 17/02/2017 | Nein | Nein | Nein | Ja |
-| Simpli.fi | 17/02/2017 | Nein | Nein | Nein | Ja |
+| In: simpli.fi | 17/02/2017 | Nein | Nein | Nein | Ja |
 | Sizmek Audience Hub | 17/02/2017 | Ja | Nein | Nein |                   |
 | Slickdeal | 04/09/2018 | Ja | Nein | Nein | Ja |
 | Smart Adserver | 31/07/2017 | Ja | Nein | Ja | Ja |

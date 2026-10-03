@@ -1,5 +1,5 @@
 ---
-description: In Trait Builder können Sie mit dem Ausdrucksgenerator Regeln erstellen und testen, die Anforderungen an die Zielgruppenqualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie „Farbe == Blau“ oder „Preis &gt; 100“. Vergleichsoperatoren stellen die Beziehung zwischen Schlüsseln und Werten her. Boolesche Ausdrücke bestimmen die Beziehung zwischen Regelgruppen.
+description: In Trait Builder können Sie mit dem Ausdrucksgenerator Regeln erstellen und testen, die Anforderungen an die Zielgruppenqualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie „Farbe == Blau“ oder „Preis > 100“. Vergleichsoperatoren stellen die Beziehung zwischen Schlüsseln und Werten her. Boolesche Ausdrücke bestimmen die Beziehung zwischen Regelgruppen.
 seo-description: In Trait Builder, the Expression Builder lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as "color == blue" or "price &gt; 100". Comparison operators establish the relationship between keys and values. Boolean expressions determine the relationship between rule groups.
 seo-title: Managing Trait Rules
 solution: Audience Manager
@@ -7,16 +7,21 @@ title: Verwalten von Eigenschaftsregeln
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
-TQID: https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8
+TQID: 'https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '686'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Eigenschaftsregeln {#managing-trait-rules}
 
 [!UICONTROL Trait Builder] können Sie mit dem [!UICONTROL Expression Builder] Regeln erstellen und testen, die die Anforderungen an die Zielgruppen-Qualifizierung festlegen. Regeln bestehen aus Schlüssel-Wert-Paaren wie `color == blue` oder `price > 100`. Vergleichsoperatoren stellen die Beziehung zwischen Schlüsseln und Werten her. [!DNL Boolean] Ausdrücke bestimmen die Beziehung zwischen Regelgruppen.
@@ -68,7 +73,7 @@ Füllen Sie die erforderlichen Felder im Abschnitt **[!UICONTROL Basic Informati
 
 ### Beispiel {#example-trait-rule}
 
-Im folgenden Beispiel hat ein Benutzer eine neue Eigenschaftsregel basierend auf der Produkt-ID erstellt. Um diese Regel zu erstellen, hat der Benutzer den Schlüssel bereitgestellt, der mit einem Equals-Operator (`productkey`) mit dem Wert `==` verknüpft `2093`.
+Im folgenden Beispiel hat ein Benutzer eine neue Eigenschaftsregel basierend auf der Produkt-ID erstellt. Um diese Regel zu erstellen, hat der Benutzer den Schlüssel bereitgestellt, der mit einem Equals-Operator (`==`) mit dem Wert `2093` verknüpft `productkey`.
 
 ![](assets/tb_sample_rule1.png)
 
