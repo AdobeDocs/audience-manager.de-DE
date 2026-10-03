@@ -45,7 +45,7 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
 
 * Durchsuchen Sie den Inhalt nach Thema und Unterthema in der **linken Navigation**.
 * Verwenden Sie das **Suchfeld** oben auf der Seite, wenn Sie wissen, wonach Sie suchen.
-* Verwenden Sie die Schaltfläche **Log an issue** oben rechts auf der Seite, um auf falsche oder veraltete Dokumentation hinzuweisen. In der Übersicht im [Zusammenarbeitshandbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) erfahren Sie, wie Sie mit dem Beitragen beginnen können.
+* Verwenden Sie die Schaltfläche **Log an issue** oben rechts auf der Seite, um auf falsche oder veraltete Dokumentation hinzuweisen. In der Übersicht im [Zusammenarbeitshandbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de) erfahren Sie, wie Sie mit dem Beitragen beginnen können.
 
 ## Lesen dieser Seite
 
@@ -144,7 +144,7 @@ In diesem technischen Dokumentationshandbuch finden Sie Selbsthilfethemen zu Aud
      </ul> </p>
     </td>
    <td colname="col2">  <p> <b>Collaborative Documentation</b> </p>
-     <p>We welcome contributions to our documentation from all our readers. See the <a href="https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html">Collaboration Guide Overview</a> to learn how to start contributing.</p>
+     <p>We welcome contributions to our documentation from all our readers. See the <a href="https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de">Collaboration Guide Overview</a> to learn how to start contributing.</p>
    <br>&nbsp;
    <p> <b>Release Notes</b> </p> <p> 
      See the latest <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes.</p> <br>&nbsp;
