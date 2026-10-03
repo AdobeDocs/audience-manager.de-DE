@@ -35,7 +35,7 @@ Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf ve
 * [Auf den Hilfeseiten zu Experience Cloud finden Sie Ratschläge, Tipps und häufig gestellte Fragen](https://helpx.adobe.com/de/support.ec.html)
 * [Stellen Sie uns eine kurze Frage auf Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
 * [Wenden Sie sich direkt an das Team der Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
-* [Verfügbarkeit und Status von Experience Cloud-Lösungen überprüfen](https://status.adobe.com/)
+* [Verfügbarkeit und Status von Experience Cloud-Lösungen überprüfen](https://status.adobe.com/de-de/)
 
 ## Service, Leistungsumfang und Abrechnung {#billing}
 
@@ -49,4 +49,4 @@ Published by Adobe Systems Incorporated.
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Ein Markensymbol (®, ™ usw.) kennzeichnet eine Adobe-Marke.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/de/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_de](https://www.adobe.com/de/products/eula/third_party/).
