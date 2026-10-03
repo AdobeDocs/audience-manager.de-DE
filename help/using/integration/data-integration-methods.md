@@ -52,7 +52,7 @@ Die Wahl der richtigen Integrationsmethode hängt von einer Kombination aus gesc
 
 ## Voraussetzungen: Erstellen einer Eigenschaftstaxonomie {#prereqs}
 
-Bevor der Integrationsprozess beginnt, denken Sie daran[ in der [!DNL Audience Manager]-Benutzeroberfläche Eigenschaften ](../features/traits/create-onboarded-rule-based-traits.md) eine [Ordnerstruktur](../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen. Die Taxonomie enthält alle [!UICONTROL traits], die in einer logischen Hierarchie organisiert sind.
+Bevor der Integrationsprozess beginnt, denken Sie daran[&#x200B; in der [!DNL Audience Manager]-Benutzeroberfläche Eigenschaften &#x200B;](../features/traits/create-onboarded-rule-based-traits.md) eine [Ordnerstruktur](../features/traits/trait-storage.md#create-trait-storage-folder) zu erstellen. Die Taxonomie enthält alle [!UICONTROL traits], die in einer logischen Hierarchie organisiert sind.
 
 ## Anwendungsfälle für die Integration {#integration-use-cases}
 

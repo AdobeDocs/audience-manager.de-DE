@@ -119,7 +119,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Code-Beispiele finden Sie u
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>}</code> Zeichen ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>&rbrace;</code> Zeichen ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -147,7 +147,7 @@ Makros zum Formatieren des Inhalts einer Datendatei. Code-Beispiele finden Sie u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>{</code> Zeichen ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>&lbrace;</code> Zeichen ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 

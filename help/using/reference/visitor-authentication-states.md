@@ -58,7 +58,7 @@ Beispielaufruf (der dem Authentifizierungsstatus entsprechende Anfragewert ist h
 
 >[!NOTE]
 >
->[!DNL Audience Manager] führt in allen drei Fällen eine ID[Synchronisierung zwischen CID ](../reference/ids-in-aam.md) UUID durch.
+>[!DNL Audience Manager] führt in allen drei Fällen eine ID[Synchronisierung zwischen CID &#x200B;](../reference/ids-in-aam.md) UUID durch.
 
 >[!MORELIKETHIS]
 >
