@@ -10,19 +10,21 @@ exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
 TQID: https://experienceleague.adobe.com/lXTSMwju5lxRhrz0VpOlxbHLa2POAQHGOIzzP3j980s
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # DCS-APIs für Server-zu-Server-Datenübertragungen{#dcs-apis-for-server-to-server-data-transfers}
 
 Server-zu-Server ([!UICONTROL S2S])-[!DNL API] stellen Code und Methoden bereit, mit denen Sie [!DNL DCS] Benutzerdaten senden und empfangen und mit diesen Informationen in Ihren eigenen Systemen oder Anwendungen arbeiten können.
@@ -53,7 +55,7 @@ Derzeit wird in diesem Handbuch Folgendes behandelt:
 Wir fügen neue Methoden hinzu, sobald sie verfügbar sind. Die ersten Schritte finden Sie in den folgenden Abschnitten.
 
 * [Abrufen von Benutzer-IDs und Regionen aus einer DCS-Antwort](dcs-aam-ids.md)
-* [Abrufen von Benutzer-IDs und Regionen über die Experience Cloud ID…](dcs-mcid-ids.md)
+* [Abrufen von Benutzer-IDs und Regionen über die Experience Cloud-ID…](dcs-mcid-ids.md)
 * [Durchführen von Server-zu-Server-DCS-API-Aufrufen](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
