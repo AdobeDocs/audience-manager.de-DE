@@ -37,7 +37,7 @@ Audience Manager stellt Software Development Kits ([!DNL SDK]) für [!DNL Androi
 
 >[!IMPORTANT]
 >
->Im September 2018 haben wir eine neue Hauptversion des SDK veröffentlicht. Diese neuen Adobe Experience Platform Mobile SDKs können über die [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) konfiguriert werden.
+>Im September 2018 haben wir eine neue Hauptversion des SDK veröffentlicht. Diese neuen Adobe Experience Platform Mobile SDKs können über die [Experience Platform Launch](https://www.adobe.com/de/experience-platform/launch.html) konfiguriert werden.
 
 * Gehen Sie zu [Launch](https://launch.adobe.com/), um zu beginnen.
 * Informationen zu den Experience Platform SDK-Repositorys finden Sie unter [GitHub: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
