@@ -52,7 +52,7 @@ Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 {
    "sid":87723,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/de",
    "startDate":"2012-07-04"
 }
 ```
@@ -76,7 +76,7 @@ Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
    "startDate":"2012-07-03",
    "endDate":null,
    "priority":null,
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/de",
    "secureUrl":null,
    "tagCode":null,
    "secureTagCode":null,
@@ -342,7 +342,7 @@ Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/de",
    "startDate":"2012-11-20"
 },
 {
@@ -376,7 +376,7 @@ Eine erfolgreiche Antwort gibt das Array der erstellten Zuordnungen zurück.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "https://adobe.com",
+        "url": "https://adobe.com/de",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -426,7 +426,7 @@ Erstellen Sie mehrere Zielzuordnungen in einem Array. Alle Anfragewerte sind erf
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/de",
    "startDate":"2012-11-20"
 },
 {
@@ -460,7 +460,7 @@ Gibt ein Array der erstellten Zuordnungen zurück.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "https://adobe.com",
+        "url": "https://adobe.com/de",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -559,7 +559,7 @@ Alle Anfragewerte sind erforderlich, sofern nicht anders angegeben.
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/de",
    "startDate":"2012-11-20"
 }
 ```

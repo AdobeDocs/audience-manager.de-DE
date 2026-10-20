@@ -34,7 +34,7 @@ ht-degree: 0%
 
 Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Softwareprodukt mit möglichst wenig Aufwand von Benutzern mit verschiedenen Behinderungen wie visuell, auditiv, kognitiv, motorisch oder anderen nutzbar machen.
 
-Adobe ist ein branchenführendes Unternehmen im Bereich Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzenden zugängliche Inhalte zu erstellen. Weitere Informationen zum Engagement von Adobe für Barrierefreiheit finden Sie unter [Barrierefreiheit bei Adobe](https://www.adobe.com/accessibility.html).
+Adobe ist ein branchenführendes Unternehmen im Bereich Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzenden zugängliche Inhalte zu erstellen. Weitere Informationen zum Engagement von Adobe für Barrierefreiheit finden Sie unter [Barrierefreiheit bei Adobe](https://www.adobe.com/de/accessibility.html).
 
 Die häufigsten Barrierefreiheitsfunktionen in Softwareprodukten sind: Tastaturnavigation, semantische Struktur, ausreichender Kontrast zwischen Vordergrund- und Hintergrundelementen, Unterstützung für Hilfstechnologien, klare Elementbeschriftungen und so weiter.
 
